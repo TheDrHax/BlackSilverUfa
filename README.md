@@ -2,7 +2,7 @@
 
 В этот репозиторий будет выборочно помещаться история соообщений из чата на определённых стримах в формате субтитров ASS. Поддерживаются цвета ников, однако смайлов нет (не представляю, возможно ли это вообще).
 
-Для скачивания используется отличный Python скрипт [Twitch Chat Downloader](https://github.com/PetterKraabol/Twitch-Chat-Downloader).
+Для скачивания используется отличный Python скрипт [Twitch Chat Downloader](https://github.com/PetterKraabol/Twitch-Chat-Downloader). Настройки формата субтитров находятся в файле settings.json.
 
 ## The Legend of Zelda: Breath of the Wild
 
