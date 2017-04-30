@@ -20,4 +20,4 @@
 | 10 | [134698840](https://www.twitch.tv/videos/134698840) | [rEmWFgGTm2o](https://www.youtube.com/watch?v=rEmWFgGTm2o) | [скачать](chats/v134698840.ass) |
 | 11 | [135336477](https://www.twitch.tv/videos/135336477) | [Wl6AUvcl4nQ](https://www.youtube.com/watch?v=Wl6AUvcl4nQ) | [скачать](chats/v135336477.ass) |
 | 12 | [136443704](https://www.twitch.tv/videos/136443704) | [_otITp-qIc0](https://www.youtube.com/watch?v=_otITp-qIc0) | [скачать](chats/v136443704.ass) |
-| 13 | [138884824](https://www.twitch.tv/videos/138884824) | :no_entry: | [скачать](chats/v138884824.ass) |
+| 13 | [138884824](https://www.twitch.tv/videos/138884824) | [g44IUL6knpU](https://www.youtube.com/watch?v=g44IUL6knpU) | [скачать](chats/v138884824.ass) |
