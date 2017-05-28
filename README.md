@@ -10,4 +10,5 @@
 ## Архив
 
 * [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md)
+* [Persona 5](links/persona_5.md)
 * [Prey](links/prey.md)
