@@ -12,3 +12,4 @@
 * [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md)
 * [Persona 5](links/persona_5.md)
 * [Prey](links/prey.md)
+* [неПрофессиональный E3 2017](links/e3_2017.md)
