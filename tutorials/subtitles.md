@@ -17,7 +17,7 @@ sudo apt-get install python-pip git
 ```bash
 git clone https://github.com/TheDrHax/BlackSilverUFA.git
 cd BlackSilverUFA
-git clone https://github.com/PetterKraabol/Twitch-Chat-Downloader.git
+git clone https://github.com/TheDrHax/Twitch-Chat-Downloader.git
 ```
 
 > Примечание: Все дальнейшие команды выполняются внутри директории BlackSilverUFA. Если вы захотите загрузить субтитры к очередному стриму, вам нужно будет вернуться сюда с помощью команды `cd`.
