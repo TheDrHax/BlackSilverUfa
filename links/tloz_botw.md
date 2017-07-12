@@ -15,4 +15,10 @@
 | 11 | [135336477](https://www.twitch.tv/videos/135336477) | [Wl6AUvcl4nQ](https://www.youtube.com/watch?v=Wl6AUvcl4nQ) | [скачать](../chats/v135336477.ass) | [▶](../src/player.html?v=Wl6AUvcl4nQ&s=135336477) |
 | 12 | [136443704](https://www.twitch.tv/videos/136443704) | [_otITp-qIc0](https://www.youtube.com/watch?v=_otITp-qIc0) | [скачать](../chats/v136443704.ass) | [▶](../src/player.html?v=_otITp-qIc0&s=136443704) |
 | 13 | [138884824](https://www.twitch.tv/videos/138884824) | [g44IUL6knpU](https://www.youtube.com/watch?v=g44IUL6knpU) | [скачать](../chats/v138884824.ass) | [▶](../src/player.html?v=g44IUL6knpU&s=138884824) |
+
+## DLC №1
+
+| № | Twitch | YouTube | Субтитры | |
+| --- | --- | --- | --- | --- |
 | 14 | [156558088](https://www.twitch.tv/videos/156558088) | [SPbHXjRJHyc](https://www.youtube.com/watch?v=SPbHXjRJHyc) | [скачать](../chats/v156558088.ass) | [▶](../src/player.html?v=SPbHXjRJHyc&s=156558088) |
+| 15 | [158301208](https://www.twitch.tv/videos/158301208) | [CkxzFYX2QDE](https://www.youtube.com/watch?v=CkxzFYX2QDE) | [скачать](../chats/v158301208.ass) | [▶](../src/player.html?v=CkxzFYX2QDE&s=158301208) |
