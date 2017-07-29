@@ -22,22 +22,6 @@
       text-decoration: none;
       white-space: nowrap;
     }
-    
-    .player-wrapper {
-      width: 65%;
-    }
-    
-    @media screen and (max-device-width: 1200px) {
-      .player-wrapper {
-        width: 80%;
-      }
-    }
-    
-    @media screen and (min-device-width: 1600px) {
-      .player-wrapper {
-        width: 50%;
-      }
-    }
 </style>
 
 <div class="player-wrapper">
