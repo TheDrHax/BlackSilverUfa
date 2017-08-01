@@ -15,3 +15,4 @@
 * [неПрофессиональный E3 2017](links/e3_2017.md)
 * [Michigan: Report from Hell](links/single.md#michigan-report-from-hell)
 * [The Evil Within](links/evil_within.md)
+* [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md)
