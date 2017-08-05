@@ -9,6 +9,5 @@
 | 3 | [162350334](https://www.twitch.tv/videos/162350334) | [hZSVfTxT7Qo](https://www.youtube.com/watch?v=hZSVfTxT7Qo) | [скачать](../chats/v162350334.ass) | [▶](../src/player.html?v=hZSVfTxT7Qo&s=162350334) |
 | 4 (прерван) | [162844424](https://www.twitch.tv/videos/162844424) | [8lhCzaGLmK8](https://www.youtube.com/watch?v=8lhCzaGLmK8) | [скачать](../chats/v162844424.ass) | [▶](../src/player.html?v=8lhCzaGLmK8&s=162844424) |
 | 5 | [163361169](https://www.twitch.tv/videos/163361169) | [Qt1N7foBrUE](https://www.youtube.com/watch?v=Qt1N7foBrUE) | [скачать](../chats/v163361169.ass) | [▶](../src/player.html?v=Qt1N7foBrUE&s=163361169) |
-| 6 (прерван) | [164116949](https://www.twitch.tv/videos/164116949) | [x](https://www.youtube.com/watch?v=x) | [скачать](../chats/v164116949.ass) | [▶](../src/player.html?v=x&s=164116949) |
-| 6.5 | [164165380](https://www.twitch.tv/videos/164165380) | [x](https://www.youtube.com/watch?v=x) | [скачать](../chats/v164165380.ass) | [▶](../src/player.html?v=x&s=164165380) |
-
+| 6 (прерван) | [164116949](https://www.twitch.tv/videos/164116949) | [5JOCDsqrhOY](https://www.youtube.com/watch?v=5JOCDsqrhOY) | [скачать](../chats/v164116949.ass) | [▶](../src/player.html?v=5JOCDsqrhOY&s=164116949) |
+| 6.5 | [164165380](https://www.twitch.tv/videos/164165380) | [yH9DIXACVkA](https://www.youtube.com/watch?v=yH9DIXACVkA) | [скачать](../chats/v164165380.ass) | [▶](../src/player.html?v=yH9DIXACVkA&s=164165380) |
