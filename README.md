@@ -17,3 +17,4 @@
 * [The Evil Within](links/evil_within.md)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md)
 * [Resident Evil 4](links/re4.md)
+* [Hellblade: Senua's Sacrifice](links/hellblade.md)
