@@ -19,7 +19,7 @@ for INPUT in links.raw/*.list; do
         elif [ $STATE -eq 0 ]; then
             echo "# $line" > $OUTPUT
             echo >> $OUTPUT
-            echo "| № | Twitch | YouTube | Субтитры | |" >> $OUTPUT
+            echo "| № | Twitch | Субтитры | YouTube |  |" >> $OUTPUT
             echo "| --- | --- | --- | --- | --- |" >> $OUTPUT
             STATE=1
         elif [ $STATE -eq 1 ]; then
@@ -36,9 +36,9 @@ for INPUT in links.raw/*.list; do
             fi
 
             if [ "$LINE_YOUTUBE" == "NULL" ]; then
-                echo "| $LINE_NAME | [$LINE_TWITCH](https://www.twitch.tv/videos/$LINE_TWITCH) |  | [скачать](../chats/v$LINE_TWITCH.ass) |  |" >> $OUTPUT
+                echo "| $LINE_NAME | [$LINE_TWITCH](https://www.twitch.tv/videos/$LINE_TWITCH) | [скачать](../chats/v$LINE_TWITCH.ass) | Отсутствует | ⏹ |" >> $OUTPUT
             elif [ "$LINE_TWITCH" != "NULL" ]; then
-                echo "| $LINE_NAME | [$LINE_TWITCH](https://www.twitch.tv/videos/$LINE_TWITCH) | [$LINE_YOUTUBE](https://www.youtube.com/watch?v=$LINE_YOUTUBE) | [скачать](../chats/v$LINE_TWITCH.ass) | [▶](../src/player.html?v=$LINE_YOUTUBE&s=$LINE_TWITCH) |" >> $OUTPUT
+                echo "| $LINE_NAME | [$LINE_TWITCH](https://www.twitch.tv/videos/$LINE_TWITCH) | [скачать](../chats/v$LINE_TWITCH.ass) | [$LINE_YOUTUBE](https://www.youtube.com/watch?v=$LINE_YOUTUBE) | [▶](../src/player.html?v=$LINE_YOUTUBE&s=$LINE_TWITCH) |" >> $OUTPUT
             fi
 
             STATE=4
