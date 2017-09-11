@@ -18,3 +18,5 @@
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md)
 * [Resident Evil 4](links/re4.md)
 * [Hellblade: Senua's Sacrifice](links/hellblade.md)
+* [Darkwood](links/darkwood.md)
+* [White Day: A Labyrinth Named School](links/white_day.md)
