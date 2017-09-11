@@ -8,8 +8,8 @@ function download_chat {
     python Twitch-Chat-Downloader/app.py -v $1
 }
 
-for INPUT in links.raw/*.list; do
-    NAME=$(echo $INPUT | sed -e 's/.list//' -e 's/links.raw\///g')
+for INPUT in links/*.list; do
+    NAME=$(echo $INPUT | sed -e 's/.list//' -e 's/links\///g')
     OUTPUT="links/$NAME.md"
 
     STATE=0

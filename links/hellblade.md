@@ -1,6 +1,0 @@
-# Hellblade: Senua's Sacrifice
-
-| № | Twitch | Субтитры | YouTube |  |
-| --- | --- | --- | --- | --- |
-| 1 | [165359272](https://www.twitch.tv/videos/165359272) | [скачать](../chats/v165359272.ass) | [qInCMF9MuEs](https://www.youtube.com/watch?v=qInCMF9MuEs) | [▶](../src/player.html?v=qInCMF9MuEs&s=165359272) |
-| 2 | [165630859](https://www.twitch.tv/videos/165630859) | [скачать](../chats/v165630859.ass) | [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE) | [▶](../src/player.html?v=7r6_dwXVXgE&s=165630859) |
