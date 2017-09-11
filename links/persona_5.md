@@ -8,3 +8,4 @@
 | 4 | [146618890](https://www.twitch.tv/videos/146618890) | [E8XS7RP8xGE](https://www.youtube.com/watch?v=E8XS7RP8xGE) | [скачать](../chats/v146618890.ass) | [▶](../src/player.html?v=E8XS7RP8xGE&s=146618890) |
 | 5 | [148253751](https://www.twitch.tv/videos/148253751) | [eMFwk3Enb3c](https://www.youtube.com/watch?v=eMFwk3Enb3c) | [скачать](../chats/v148253751.ass) | [▶](../src/player.html?v=eMFwk3Enb3c&s=148253751) |
 | 6 (с 2:15:00) | [154787759](https://www.twitch.tv/videos/154787759) | [f5U_5Gwx-Mk](https://www.youtube.com/watch?v=f5U_5Gwx-Mk) | [скачать](../chats/v154787759.ass) | [▶](../src/player.html?v=f5U_5Gwx-Mk&s=154787759) |
+| 7 (вторая половина) | [173993139](https://www.twitch.tv/videos/173993139) |  | [скачать](../chats/v173993139.ass) |  |
