@@ -9,14 +9,25 @@
 
 ## Архив
 
+### Завершённые прохождения
+
 * [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md)
-* [Persona 5](links/persona_5.md)
 * [Prey](links/prey.md)
-* [неПрофессиональный E3 2017](links/e3_2017.md)
-* [Michigan: Report from Hell](links/single.md#michigan-report-from-hell)
 * [The Evil Within](links/evil_within.md)
+* [Hellblade: Senua's Sacrifice](links/hellblade.md)
+
+* [Полные прохождения за один стрим](links/single.md)
+  * Michigan: Report from Hell
+  * Absolver
+
+### В процессе
+
+* [Persona 5](links/persona_5.md)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md)
 * [Resident Evil 4](links/re4.md)
-* [Hellblade: Senua's Sacrifice](links/hellblade.md)
 * [Darkwood](links/darkwood.md)
 * [White Day: A Labyrinth Named School](links/white_day.md)
+
+### Другое
+
+* [неПрофессиональный E3 2017](links/e3_2017.md)
