@@ -27,6 +27,7 @@
 * [Resident Evil 4](links/re4.md)
 * [Darkwood](links/darkwood.md)
 * [White Day: A Labyrinth Named School](links/white_day.md)
+* [Outlast 2 (с Дашей)](links/outlast_2_dw.list)
 
 ### Другое
 
