@@ -5,7 +5,7 @@ function download_chat {
         git clone https://github.com/TheDrHax/Twitch-Chat-Downloader.git
     fi
 
-    python Twitch-Chat-Downloader/app.py -v $1
+    time python Twitch-Chat-Downloader/app.py -v $1
 }
 
 for INPUT in links/*.list; do
@@ -33,7 +33,7 @@ for INPUT in links/*.list; do
 
             if [ "$LINE_TWITCH" != NULL ] && [ ! -e chats/v$LINE_TWITCH.ass ]; then
                 echo "Скачиваю чат со стрима $LINE_TWITCH"
-                time download_chat $LINE_TWITCH
+                download_chat $LINE_TWITCH
             fi
 
             if [ "$LINE_YOUTUBE" == "NULL" ]; then
