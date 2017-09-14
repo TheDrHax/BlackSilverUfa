@@ -32,7 +32,8 @@ for INPUT in links/*.list; do
             LINE_YOUTUBE="$line"
 
             if [ "$LINE_TWITCH" != NULL ] && [ ! -e chats/v$LINE_TWITCH.ass ]; then
-                download_chat $LINE_TWITCH
+                echo "Скачиваю чат со стрима $LINE_TWITCH"
+                time download_chat $LINE_TWITCH
             fi
 
             if [ "$LINE_YOUTUBE" == "NULL" ]; then
