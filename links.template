@@ -1,0 +1,42 @@
+#!/bin/sh
+
+download_chat() {
+    if [ ! -e Twitch-Chat-Downloader ]; then
+        git clone https://github.com/TheDrHax/Twitch-Chat-Downloader.git
+    fi
+
+    time python Twitch-Chat-Downloader/app.py -v $1
+}
+
+for list in links/*.list; do
+
+TITLE=$(head -n1 "$list")
+LINES=$(grep -nE '(--)' "$list" | sed 's/:.*//g')
+
+cat > $(echo "$list" | sed 's/\.list/.md/g') <<EOF
+# $TITLE
+
+| № | Twitch | Субтитры | YouTube |  |
+| --- | --- | --- | --- | --- |
+$(
+
+for i in $LINES; do
+    NAME=$(sed -n $((i+1))p "$list")
+    TWITCH=$(sed -n $((i+2))p "$list")
+    YOUTUBE=$(sed -n $((i+3))p "$list")
+
+    if [ "$TWITCH" != NULL ] && [ ! -e chats/v$TWITCH.ass ]; then
+        echo "Скачиваю чат со стрима $TWITCH" > /dev/stderr
+        download_chat $TWITCH > /dev/stderr
+    fi
+
+    if [ "$YOUTUBE" == "NULL" ]; then
+        echo "| $NAME | [$TWITCH](https://www.twitch.tv/videos/$TWITCH) | [скачать](../chats/v$TWITCH.ass) | Отсутствует | ⏹ |"
+    elif [ "$TWITCH" != "NULL" ]; then
+        echo "| $NAME | [$TWITCH](https://www.twitch.tv/videos/$TWITCH) | [скачать](../chats/v$TWITCH.ass) | [$YOUTUBE](https://www.youtube.com/watch?v=$YOUTUBE) | [▶](../src/player.html?v=$YOUTUBE&s=$TWITCH) |"
+    fi
+done
+
+)
+EOF
+done
