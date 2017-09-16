@@ -27,7 +27,7 @@ for i in $LINES; do
 
     if [ $TWITCH != NULL ] && [ ! -e chats/v$TWITCH.ass ]; then
         echo "Скачиваю чат со стрима $TWITCH" > /dev/stderr
-        download_chat $TWITCH > /dev/stderr
+        download_chat $TWITCH > /dev/null
     fi
 
     if echo $YOUTUBE | grep -q NULL; then
