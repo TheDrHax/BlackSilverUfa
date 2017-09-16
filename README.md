@@ -27,6 +27,7 @@
 * [Darkwood](links/darkwood.md)
 * [Resident Evil 4](links/re4.md)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md)
+* [Divinity: Original Sin II](links/divinity.md)
 * [Persona 5](links/persona_5.md)
 
 ### Другое
