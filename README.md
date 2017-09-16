@@ -11,10 +11,10 @@
 
 ### Завершённые прохождения
 
-* [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md)
-* [Prey](links/prey.md)
-* [The Evil Within](links/evil_within.md)
-* [Hellblade: Senua's Sacrifice](links/hellblade.md)
+* [The Legend of Zelda: Breath of the Wild](links/tloz_botw.list)
+* [Prey](links/prey.list)
+* [Hellblade: Senua's Sacrifice](links/hellblade.list)
+* [The Evil Within](links/evil_within.list)
 
 * [Полные прохождения за один стрим](links/single.md)
   * Michigan: Report from Hell
@@ -22,13 +22,14 @@
 
 ### В процессе
 
-* [Persona 5](links/persona_5.md)
-* [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md)
-* [Resident Evil 4](links/re4.md)
-* [Darkwood](links/darkwood.md)
-* [White Day: A Labyrinth Named School](links/white_day.md)
-* [Outlast 2 (с Дашей)](links/outlast_2_dw.md)
+* [White Day: A Labyrinth Named School](links/white_day.list)
+* [Outlast 2 (с Дашей)](links/outlast_2_dw.list)
+* [Darkwood](links/darkwood.list)
+* [Resident Evil 4](links/re4.list)
+* [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.list)
+* [Persona 5](links/persona_5.list)
 
 ### Другое
 
-* [неПрофессиональный E3 2017](links/e3_2017.md)
+* [неПрофессиональный E3 2017](links/e3_2017.list)
+
