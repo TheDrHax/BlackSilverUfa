@@ -1,0 +1,65 @@
+#!/bin/sh
+
+cat >README.md <<EOF
+# Архив чата BlackUFA_Twitch
+
+В этот репозиторий будет выборочно помещаться история соообщений из чата на определённых стримах в формате субтитров ASS. Поддерживаются цвета ников, а также смайлы (!) с расширением [Kappa Everywhere](https://chrome.google.com/webstore/detail/kappa-everywhere-global-t/jafkphjeboadjffjfcigcdfdilpcacod?utm_source=chrome-app-launcher-info-dialog).
+
+## Инструкции
+
+* [Как скачать чат в виде субтитров?](tutorials/subtitles.md)
+* [Как посмотреть запись стрима с субтитрами?](tutorials/watch-online.md)
+
+## Архив
+
+### Завершённые прохождения
+
+$(
+
+find links -type f | while read name; do
+    if grep -Eq "^finished$" "$name"; then
+        TITLE=$(head -n1 "$name")
+        echo "* [$TITLE]($name)"
+    fi
+done
+
+)
+
+$(
+
+echo "* [$(head -n1 links/single.list)](links/single.md)"
+LINES=$(grep -nE '(--)' links/single.list | sed 's/:.*//g')
+for i in $LINES; do
+    echo -n "  * "
+    sed -n $((i+1))p links/single.list
+done
+
+)
+
+### В процессе
+
+$(
+
+find links -type f | while read name; do
+    if grep -Eq "^ongoing$" "$name"; then
+        TITLE=$(head -n1 "$name")
+        echo "* [$TITLE]($name)"
+    fi
+done
+
+)
+
+### Другое
+
+$(
+
+find links -type f | while read name; do
+    if grep -Eq "^other$" "$name"; then
+        TITLE=$(head -n1 "$name")
+        echo "* [$TITLE]($name)"
+    fi
+done
+
+)
+
+EOF

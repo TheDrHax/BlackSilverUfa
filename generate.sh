@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 function download_chat {
     if [ ! -e Twitch-Chat-Downloader ]; then
@@ -45,4 +45,8 @@ for INPUT in links/*.list; do
             STATE=4
         fi
     done
+done
+
+find . -name \*.template | while read line; do
+    sh "$line"
 done
