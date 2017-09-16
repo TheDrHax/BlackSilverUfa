@@ -19,7 +19,8 @@ $(
 find links -type f | while read name; do
     if grep -Eq "^finished$" "$name"; then
         TITLE=$(head -n1 "$name")
-        echo "* [$TITLE]($name)"
+        FILE=$(echo "$name" | sed 's/\.list/.md/g')
+        echo "* [$TITLE]($FILE)"
     fi
 done
 
@@ -43,7 +44,8 @@ $(
 find links -type f | while read name; do
     if grep -Eq "^ongoing$" "$name"; then
         TITLE=$(head -n1 "$name")
-        echo "* [$TITLE]($name)"
+        FILE=$(echo "$name" | sed 's/\.list/.md/g')
+        echo "* [$TITLE]($FILE)"
     fi
 done
 
@@ -56,7 +58,8 @@ $(
 find links -type f | while read name; do
     if grep -Eq "^other$" "$name"; then
         TITLE=$(head -n1 "$name")
-        echo "* [$TITLE]($name)"
+        FILE=$(echo "$name" | sed 's/\.list/.md/g')
+        echo "* [$TITLE]($FILE)"
     fi
 done
 
