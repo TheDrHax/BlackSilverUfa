@@ -1,5 +1,29 @@
 #!/bin/sh
 
+# Склоняем слово "стрим" в зависимости от числа
+# Ох уж этот русский язык :P
+count_format() {
+    case $1 in
+        1) echo "$1 стрим";;
+        2|3|4) echo "$1 стрима";;
+        *) echo "$1 стримов";;
+    esac
+}
+
+# Ищем все списки по определённым тегам
+# Теги указываются во второй строке файла .list
+add_by_tag() {
+    find links -type f | while read name; do
+        if grep -Eq "^$1$" "$name"; then
+            TITLE=$(head -n1 "$name")
+            FILE=$(echo "$name" | sed 's/\.list/.md/g')
+            COUNT=$(grep -E '(--)' "$name" | wc -l)
+            COUNT_FORMAT=$(count_format $COUNT)
+            echo "* [$TITLE]($FILE) ($COUNT_FORMAT)"
+        fi
+    done
+}
+
 cat >README.md <<EOF
 # Архив чата BlackUFA_Twitch
 
@@ -14,17 +38,7 @@ cat >README.md <<EOF
 
 ### Завершённые прохождения
 
-$(
-
-find links -type f | while read name; do
-    if grep -Eq "^finished$" "$name"; then
-        TITLE=$(head -n1 "$name")
-        FILE=$(echo "$name" | sed 's/\.list/.md/g')
-        echo "* [$TITLE]($FILE)"
-    fi
-done
-
-)
+$(add_by_tag finished)
 
 $(
 
@@ -39,30 +53,10 @@ done
 
 ### В процессе
 
-$(
-
-find links -type f | while read name; do
-    if grep -Eq "^ongoing$" "$name"; then
-        TITLE=$(head -n1 "$name")
-        FILE=$(echo "$name" | sed 's/\.list/.md/g')
-        echo "* [$TITLE]($FILE)"
-    fi
-done
-
-)
+$(add_by_tag ongoing)
 
 ### Другое
 
-$(
-
-find links -type f | while read name; do
-    if grep -Eq "^other$" "$name"; then
-        TITLE=$(head -n1 "$name")
-        FILE=$(echo "$name" | sed 's/\.list/.md/g')
-        echo "* [$TITLE]($FILE)"
-    fi
-done
-
-)
+$(add_by_tag other)
 
 EOF
