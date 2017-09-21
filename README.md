@@ -22,9 +22,9 @@
 
 ### В процессе
 
-* [White Day: A Labyrinth Named School](links/white_day.md) (1 стрим)
+* [White Day: A Labyrinth Named School](links/white_day.md) (2 стрима)
 * [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (1 стрим)
-* [Darkwood](links/darkwood.md) (1 стрим)
+* [Darkwood](links/darkwood.md) (2 стрима)
 * [Resident Evil 4](links/re4.md) (6 стримов)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
 * [Divinity: Original Sin II](links/divinity.md) (1 стрим)
