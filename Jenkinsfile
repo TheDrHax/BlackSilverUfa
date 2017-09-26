@@ -1,9 +1,16 @@
 node('python-requests') {
-    String repo = 'git@github.com:TheDrHax/BlackSilverUfa.git'
-    String credentials = 'GitHub'
+    String cred_git = 'GitHub'
+    String cred_github = 'GitHub-Token'
+
+    String github_account = 'TheDrHax'
+    String github_repo = 'BlackSilverUfa'
+    String branch = 'master'
+    
+    String repo_url = 'git@github.com:' + github_account + '/' + github_repo + '.git'
+
 
     stage('Pull') {
-        git branch: 'master', credentialsId: credentials, url: repo
+        git branch: branch, credentialsId: cred_git, url: repo_url
     }
 
     stage('Prepare') {
@@ -25,7 +32,8 @@ node('python-requests') {
     }
 
     stage('Deploy') {
-        sshagent (credentials: [credentials]) {
+        githubNotify status: "SUCCESS", credentialsId: cred_github, account: github_account, repo: github_repo, sha: branch
+        sshagent (credentials: [cred_git]) {
             sh 'git push origin gh-pages'
         }
     }
