@@ -27,7 +27,7 @@ add_by_tag() {
 cat >README.md <<EOF
 # Архив чата BlackUFA_Twitch
 
-В этот репозиторий будет выборочно помещаться история соообщений из чата на определённых стримах в формате субтитров ASS. Поддерживаются цвета ников, а также смайлы (!) с расширением [Kappa Everywhere](https://chrome.google.com/webstore/detail/kappa-everywhere-global-t/jafkphjeboadjffjfcigcdfdilpcacod?utm_source=chrome-app-launcher-info-dialog).
+В этот репозиторий будет выборочно помещаться история соообщений из чата на определённых стримах в формате субтитров ASS. Поддерживаются цвета ников, а также смайлы (!) с расширением [Global Twitch Emotes](https://chrome.google.com/webstore/detail/global-twitch-emotes/pgniedifoejifjkndekolimjeclnokkb?utm_source=chrome-app-launcher-info-dialog).
 
 ## Инструкции
 
