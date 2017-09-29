@@ -40,16 +40,15 @@ cat >README.md <<EOF
 
 $(add_by_tag finished)
 
-$(
+#### [$(head -n1 links/single.list)](links/single.md)
 
-echo "* [$(head -n1 links/single.list)](links/single.md)"
+`
 LINES=$(grep -nE '(--)' links/single.list | sed 's/:.*//g')
 for i in $LINES; do
-    echo -n "  * "
+    echo -n "* "
     sed -n $((i+1))p links/single.list
 done
-
-)
+`
 
 ### В процессе
 
