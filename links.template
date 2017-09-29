@@ -41,9 +41,9 @@ for i in $LINES; do
     echo "<details><summary>Показать</summary>Twitch: \`streamlink -p "mpv --sub-file chats/v172968603.ass" --player-passthrough hls twitch.tv/videos/172968603 best\`<br>YouTube: \`mpv --sub-file chats/v172968603.ass youtube.com/watch?v=fxwks5MC9Ns\`</details> |"
 done
 
-Приведённые команды нужно выполнить, находясь при этом в корне этого Git репозитория и подготовив все нужные программы по [этой](/tutorials/watch-online.md) инструкции.
-
 )
+
+Приведённые команды нужно выполнить, находясь при этом в корне этого Git репозитория и подготовив все нужные программы по [этой](/tutorials/watch-online.md) инструкции.
 
 EOF
 done
