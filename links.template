@@ -33,17 +33,14 @@ for i in $LINES; do
     echo -n "| $NAME | [$TWITCH](https://www.twitch.tv/videos/$TWITCH) | [скачать](../chats/v$TWITCH.ass) | "
 
     if echo $YOUTUBE | grep -q NULL; then
-        echo -n "Отсутствует | ⏹ | "
+        echo "Отсутствует | ⏹ | <details>\`streamlink -p "mpv --sub-file chats/v$TWITCH.ass" --player-passthrough hls twitch.tv/videos/$TWITCH best\`</details> |"
     elif ! echo $TWITCH | grep -q NULL; then
-        echo -n "[$YOUTUBE](https://www.youtube.com/watch?v=$YOUTUBE) | [▶](../src/player.html?v=$YOUTUBE&s=$TWITCH) | "
+        echo "[$YOUTUBE](https://www.youtube.com/watch?v=$YOUTUBE) | [▶](../src/player.html?v=$YOUTUBE&s=$TWITCH) | <details>\`mpv --sub-file chats/v$TWITCH.ass ytdl://$YOUTUBE\`</details> |"
     fi
-    
-    echo "<details><summary>Показать</summary>Twitch: \`streamlink -p "mpv --sub-file chats/v172968603.ass" --player-passthrough hls twitch.tv/videos/172968603 best\`<br>YouTube: \`mpv --sub-file chats/v172968603.ass youtube.com/watch?v=fxwks5MC9Ns\`</details> |"
-done
 
 )
 
-Приведённые команды нужно выполнить, находясь при этом в корне этого Git репозитория и подготовив все нужные программы по [этой](/tutorials/watch-online.md) инструкции.
+Приведённые команды нужно выполнить, находясь в корне данного Git репозитория и подготовив все нужные программы по [этой](/tutorials/watch-online.md) инструкции.
 
 EOF
 done
