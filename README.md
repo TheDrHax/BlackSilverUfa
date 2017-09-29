@@ -11,24 +11,36 @@
 
 ### Завершённые прохождения
 
-* [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (16 стримов)
 * [Prey](links/prey.md) (6 стримов)
 * [Hellblade: Senua's Sacrifice](links/hellblade.md) (2 стрима)
 * [The Evil Within](links/evil_within.md) (9 стримов)
 
-* [Полные прохождения за один стрим](links/single.md)
-  * Michigan: Report from Hell
-  * Absolver
+#### Ожидается продолжение
+
+Одна сюжетная кампания завершена и ожидается другая, либо ожидается выход следующего сюжетного DLC.
+
+* [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (16 стримов)
+* [Resident Evil 4](links/re4.md) (6 стримов)
+
+#### [Полные прохождения за один стрим](links/single.md)
+
+* Michigan: Report from Hell
+* Absolver
 
 ### В процессе
 
 * [White Day: A Labyrinth Named School](links/white_day.md) (3 стрима)
-* [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (1 стрим)
 * [Darkwood](links/darkwood.md) (3 стрима)
 * [Home Sweet Home](links/home_sweet_home.md) (1 стрим)
-* [Resident Evil 4](links/re4.md) (6 стримов)
+
+#### Под вопросом
+
+* [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (1 стрим)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
 * [Divinity: Original Sin II](links/divinity.md) (1 стрим)
+
+#### Потенциально бесконечные
+
 * [Persona 5](links/persona_5.md) (8 стримов)
 
 ### Другое

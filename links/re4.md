@@ -1,10 +1,13 @@
 # Resident Evil 4
 
-| № | Twitch | Субтитры | YouTube |  |
-| --- | --- | --- | --- | --- |
-| 1 | [164633577](https://www.twitch.tv/videos/164633577) | [скачать](../chats/v164633577.ass) | [0XeyDh7T0Jw](https://www.youtube.com/watch?v=0XeyDh7T0Jw) | [▶](../src/player.html?v=0XeyDh7T0Jw&s=164633577) |
-| 2 (с 2:30:15) | [165630859](https://www.twitch.tv/videos/165630859) | [скачать](../chats/v165630859.ass) | [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE) | [▶](../src/player.html?v=7r6_dwXVXgE&s=165630859) |
-| 3 | [167924021](https://www.twitch.tv/videos/167924021) | [скачать](../chats/v167924021.ass) | [9i6wUrnvLy8](https://www.youtube.com/watch?v=9i6wUrnvLy8) | [▶](../src/player.html?v=9i6wUrnvLy8&s=167924021) |
-| 4 | [168936842](https://www.twitch.tv/videos/168936842) | [скачать](../chats/v168936842.ass) | Отсутствует | ⏹ |
-| 5 | [173993139](https://www.twitch.tv/videos/173993139) | [скачать](../chats/v173993139.ass) | [eGY5W8Dtehs](https://www.youtube.com/watch?v=eGY5W8Dtehs) | [▶](../src/player.html?v=eGY5W8Dtehs&s=173993139) |
-| 6 (финал за Леона) | [175695460](https://www.twitch.tv/videos/175695460) | [скачать](../chats/v175695460.ass) | [gJX8uR-GZcU](https://www.youtube.com/watch?v=gJX8uR-GZcU) | [▶](../src/player.html?v=gJX8uR-GZcU&s=175695460) |
+| № | Twitch | Субтитры | YouTube | ▶ | Команда |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [164633577](https://www.twitch.tv/videos/164633577) | [скачать](../chats/v164633577.ass) | [0XeyDh7T0Jw](https://www.youtube.com/watch?v=0XeyDh7T0Jw) | [▶](../src/player.html?v=0XeyDh7T0Jw&s=164633577) | <details><summary>Показать</summary>Twitch: `streamlink -p mpv --sub-file chats/v172968603.ass --player-passthrough hls twitch.tv/videos/172968603 best`<br>YouTube: `mpv --sub-file chats/v172968603.ass youtube.com/watch?v=fxwks5MC9Ns`</details> |
+| 2 (с 2:30:15) | [165630859](https://www.twitch.tv/videos/165630859) | [скачать](../chats/v165630859.ass) | [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE) | [▶](../src/player.html?v=7r6_dwXVXgE&s=165630859) | <details><summary>Показать</summary>Twitch: `streamlink -p mpv --sub-file chats/v172968603.ass --player-passthrough hls twitch.tv/videos/172968603 best`<br>YouTube: `mpv --sub-file chats/v172968603.ass youtube.com/watch?v=fxwks5MC9Ns`</details> |
+| 3 | [167924021](https://www.twitch.tv/videos/167924021) | [скачать](../chats/v167924021.ass) | [9i6wUrnvLy8](https://www.youtube.com/watch?v=9i6wUrnvLy8) | [▶](../src/player.html?v=9i6wUrnvLy8&s=167924021) | <details><summary>Показать</summary>Twitch: `streamlink -p mpv --sub-file chats/v172968603.ass --player-passthrough hls twitch.tv/videos/172968603 best`<br>YouTube: `mpv --sub-file chats/v172968603.ass youtube.com/watch?v=fxwks5MC9Ns`</details> |
+| 4 | [168936842](https://www.twitch.tv/videos/168936842) | [скачать](../chats/v168936842.ass) | Отсутствует | ⏹ | <details><summary>Показать</summary>Twitch: `streamlink -p mpv --sub-file chats/v172968603.ass --player-passthrough hls twitch.tv/videos/172968603 best`<br>YouTube: `mpv --sub-file chats/v172968603.ass youtube.com/watch?v=fxwks5MC9Ns`</details> |
+| 5 | [173993139](https://www.twitch.tv/videos/173993139) | [скачать](../chats/v173993139.ass) | [eGY5W8Dtehs](https://www.youtube.com/watch?v=eGY5W8Dtehs) | [▶](../src/player.html?v=eGY5W8Dtehs&s=173993139) | <details><summary>Показать</summary>Twitch: `streamlink -p mpv --sub-file chats/v172968603.ass --player-passthrough hls twitch.tv/videos/172968603 best`<br>YouTube: `mpv --sub-file chats/v172968603.ass youtube.com/watch?v=fxwks5MC9Ns`</details> |
+| 6 (финал за Леона) | [175695460](https://www.twitch.tv/videos/175695460) | [скачать](../chats/v175695460.ass) | [gJX8uR-GZcU](https://www.youtube.com/watch?v=gJX8uR-GZcU) | [▶](../src/player.html?v=gJX8uR-GZcU&s=175695460) | <details><summary>Показать</summary>Twitch: `streamlink -p mpv --sub-file chats/v172968603.ass --player-passthrough hls twitch.tv/videos/172968603 best`<br>YouTube: `mpv --sub-file chats/v172968603.ass youtube.com/watch?v=fxwks5MC9Ns`</details> |
+
+Приведённые команды нужно выполнить, находясь при этом в корне этого Git репозитория и подготовив все нужные программы по [этой](/tutorials/watch-online.md) инструкции.
+
