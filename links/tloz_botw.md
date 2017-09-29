@@ -19,5 +19,11 @@
 | 15 | [158301208](https://www.twitch.tv/videos/158301208) | [скачать](../chats/v158301208.ass) | [CkxzFYX2QDE](https://www.youtube.com/watch?v=CkxzFYX2QDE) | [▶](../src/player.html?v=CkxzFYX2QDE&s=158301208) | <details>`mpv --sub-file chats/v158301208.ass ytdl://CkxzFYX2QDE`</details> |
 | 16 | [158812902](https://www.twitch.tv/videos/158812902) | [скачать](../chats/v158812902.ass) | [nLo-y_ig9Mg](https://www.youtube.com/watch?v=nLo-y_ig9Mg) | [▶](../src/player.html?v=nLo-y_ig9Mg&s=158812902) | <details>`mpv --sub-file chats/v158812902.ass ytdl://nLo-y_ig9Mg`</details> |
 
-Приведённые команды нужно выполнить, находясь в корне данного Git репозитория и подготовив все нужные программы по [этой](/tutorials/watch-online.md) инструкции.
+Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
+
+Быстрый старт:
+* `git clone https://github.com/TheDrHax/BlackSilverUfa.git`
+* `cd BlackSilverUfa`
+* `git checkout gh-pages`
+* Команда из таблицы выше
 
