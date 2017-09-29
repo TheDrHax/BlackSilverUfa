@@ -40,6 +40,12 @@ cat >README.md <<EOF
 
 $(add_by_tag finished)
 
+#### Ожидается продолжение
+
+Одна сюжетная кампания завершена и ожидается другая, либо ожидается выход следующего сюжетного DLC.
+
+$(add_by_tag to_be_continued)
+
 #### [$(head -n1 links/single.list)](links/single.md)
 
 `
@@ -53,6 +59,14 @@ done
 ### В процессе
 
 $(add_by_tag ongoing)
+
+#### Под вопросом
+
+$(add_by_tag questionable)
+
+#### Потенциально бесконечные
+
+$(add_by_tag infinite)
 
 ### Другое
 
