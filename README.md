@@ -37,6 +37,7 @@
 
 * [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (1 стрим)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
+* [Cuphead](links/cuphead.md) (1 стрим)
 * [Divinity: Original Sin II](links/divinity.md) (1 стрим)
 
 #### Потенциально бесконечные
