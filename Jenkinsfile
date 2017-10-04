@@ -5,7 +5,7 @@ node('python-requests') {
     String github_account = 'TheDrHax'
     String github_repo = 'BlackSilverUfa'
     String branch = 'master'
-    
+
     String repo_url = 'git@github.com:' + github_account + '/' + github_repo + '.git'
 
 
@@ -14,6 +14,8 @@ node('python-requests') {
     }
 
     stage('Prepare') {
+        sh 'git config --global user.email "the.dr.hax@gmail.com"'
+        sh 'git config --global user.name "Jenkins"'
         sh 'git checkout remotes/origin/gh-pages -- chats'
     }
 
