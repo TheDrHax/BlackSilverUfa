@@ -29,8 +29,8 @@
 
 ### В процессе
 
-* [White Day: A Labyrinth Named School](links/white_day.md) (3 стрима)
-* [Darkwood](links/darkwood.md) (3 стрима)
+* [White Day: A Labyrinth Named School](links/white_day.md) (4 стрима)
+* [Darkwood](links/darkwood.md) (4 стрима)
 
 #### Под вопросом
 
