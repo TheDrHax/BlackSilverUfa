@@ -3,6 +3,10 @@
 download_chat() {
     if [ ! -e Twitch-Chat-Downloader ]; then
         git clone https://github.com/TheDrHax/Twitch-Chat-Downloader.git
+    else
+        cd Twitch-Chat-Downloader
+        git pull --force
+        cd ..
     fi
 
     time python Twitch-Chat-Downloader/app.py -v $1
