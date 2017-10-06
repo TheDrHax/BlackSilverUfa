@@ -26,13 +26,11 @@ for i in $LINES; do
     YOUTUBE=$(sed -n $((i+3))p "$list")
 
     if [ $TWITCH != NULL ] && [ ! -e chats/v$TWITCH.ass ]; then
-        # echo "Скачиваю чат со стрима $TWITCH" > /dev/stderr
-        # download_chat $TWITCH > /dev/null
-
-        echo -n "| $NAME | [$TWITCH](https://www.twitch.tv/videos/$TWITCH) | Отсутствует | "
-    else
-        echo -n "| $NAME | [$TWITCH](https://www.twitch.tv/videos/$TWITCH) | [скачать](../chats/v$TWITCH.ass) | "
+        echo "Скачиваю чат со стрима $TWITCH" > /dev/stderr
+        download_chat $TWITCH > /dev/null
     fi
+
+    echo -n "| $NAME | [$TWITCH](https://www.twitch.tv/videos/$TWITCH) | [скачать](../chats/v$TWITCH.ass) | "
 
     if echo $YOUTUBE | grep -q NULL; then
         echo "Отсутствует | ⏹ | <details>\`streamlink -p \"mpv --sub-file chats/v$TWITCH.ass\" --player-passthrough hls twitch.tv/videos/$TWITCH best\`</details> |"
