@@ -9,7 +9,7 @@ download_chat() {
         cd ..
     fi
 
-    time python Twitch-Chat-Downloader/app.py -v $1
+    time python Twitch-Chat-Downloader/app.py $1
 }
 
 for list in links/*.list; do
