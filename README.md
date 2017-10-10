@@ -35,6 +35,7 @@
 #### Под вопросом
 
 * [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (1 стрим)
+* [Middle-earth: Shadow of War](links/middle_earth.md) (1 стрим)
 * [Home Sweet Home](links/home_sweet_home.md) (1 стрим)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
 * [Cuphead](links/cuphead.md) (1 стрим)
