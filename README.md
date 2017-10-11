@@ -31,11 +31,11 @@
 
 * [White Day: A Labyrinth Named School](links/white_day.md) (4 стрима)
 * [Darkwood](links/darkwood.md) (5 стримов)
+* [Middle-earth: Shadow of War](links/middle_earth.md) (2 стрима)
 
 #### Под вопросом
 
 * [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (1 стрим)
-* [Middle-earth: Shadow of War](links/middle_earth.md) (1 стрим)
 * [Home Sweet Home](links/home_sweet_home.md) (1 стрим)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
 * [Cuphead](links/cuphead.md) (1 стрим)
