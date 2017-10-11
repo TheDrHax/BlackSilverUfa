@@ -9,13 +9,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.0.7/Youtube.min.js"></script>
 <script src="libjass.js"></script>
 <script src="videojs.ass.js"></script>
+<script src="videojs-resolution-switcher.js"></script>
 
 <style>
     .header {
       display: flex;
       align-items: center;
     }
-    
+
     .back {
       flex: 0;
       margin: 0 1rem;
@@ -49,8 +50,12 @@
       fluid: true,
       plugins: {
         ass: {
-          'src': ["../chats/v" + getQueryVariable("s") + ".ass"],
-          'delay': -0.1,
+          src: ["../chats/v" + getQueryVariable("s") + ".ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
         }
       },
       techOrder: ["youtube"],
