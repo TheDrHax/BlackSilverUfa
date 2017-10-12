@@ -31,7 +31,7 @@
 
 * [White Day: A Labyrinth Named School](links/white_day.md) (4 стрима)
 * [Darkwood](links/darkwood.md) (5 стримов)
-* [Middle-earth: Shadow of War](links/middle_earth.md) (2 стрима)
+* [Middle-earth: Shadow of War](links/middle_earth.md) (3 стрима)
 
 #### Под вопросом
 
