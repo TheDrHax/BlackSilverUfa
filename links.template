@@ -9,7 +9,7 @@ download_chat() {
         cd ..
     fi
 
-    time python Twitch-Chat-Downloader/app.py $1
+    python Twitch-Chat-Downloader/app.py $1 || exit 1
 }
 
 for list in links/*.list; do
@@ -31,7 +31,7 @@ for i in $LINES; do
 
     if [ $TWITCH != NULL ] && [ ! -e chats/v$TWITCH.ass ]; then
         echo "Скачиваю чат со стрима $TWITCH" > /dev/stderr
-        download_chat $TWITCH > /dev/null
+        download_chat $TWITCH > /dev/stderr
     fi
 
     echo -n "| $NAME | [$TWITCH](https://www.twitch.tv/videos/$TWITCH) | [скачать](../chats/v$TWITCH.ass) | "
