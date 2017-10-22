@@ -49,5 +49,5 @@
 
 * [Sub-Day](links/subday.md) (1 стрим)
 * [неПрофессиональный E3 2017](links/e3_2017.md) (7 стримов)
-* [Воскресный кооп-инди-трэш марафон](links/sunday_indie_trash_coop.md) (2 стрима)
+* [Воскресный кооп-инди-трэш марафон](links/sunday_indie_trash_coop.md) (3 стрима)
 
