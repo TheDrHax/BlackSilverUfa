@@ -60,13 +60,19 @@ done
 
 $(add_by_tag ongoing)
 
+#### Потенциально бесконечные
+
+$(add_by_tag infinite)
+
 #### Под вопросом
 
 $(add_by_tag questionable)
 
-#### Потенциально бесконечные
+#### Незавершённые
 
-$(add_by_tag infinite)
+Прохождения, вероятность продолжения которых КРАЙНЕ мала.
+
+$(add_by_tag abandoned)
 
 ### Другое
 
