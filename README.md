@@ -26,6 +26,7 @@
 
 * Michigan: Report from Hell
 * Absolver
+* The Count Lucanor
 
 ### В процессе
 
