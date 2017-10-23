@@ -31,7 +31,10 @@
 
 * [White Day: A Labyrinth Named School](links/white_day.md) (4 стрима)
 * [Darkwood](links/darkwood.md) (5 стримов)
-* [Middle-earth: Shadow of War](links/middle_earth.md) (3 стрима)
+
+#### Потенциально бесконечные
+
+* [Persona 5](links/persona_5.md) (8 стримов)
 
 #### Под вопросом
 
@@ -39,11 +42,13 @@
 * [Home Sweet Home](links/home_sweet_home.md) (1 стрим)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
 * [Cuphead](links/cuphead.md) (1 стрим)
+
+#### Незавершённые
+
+Прохождения, вероятность продолжения которых КРАЙНЕ мала.
+
+* [Middle-earth: Shadow of War](links/middle_earth.md) (3 стрима)
 * [Divinity: Original Sin II](links/divinity.md) (1 стрим)
-
-#### Потенциально бесконечные
-
-* [Persona 5](links/persona_5.md) (8 стримов)
 
 ### Другое
 
