@@ -41,7 +41,6 @@
 
 * [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (1 стрим)
 * [Home Sweet Home](links/home_sweet_home.md) (1 стрим)
-* [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
 * [Cuphead](links/cuphead.md) (1 стрим)
 
 #### Незавершённые
@@ -49,6 +48,7 @@
 Прохождения, вероятность продолжения которых КРАЙНЕ мала.
 
 * [Middle-earth: Shadow of War](links/middle_earth.md) (3 стрима)
+* [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
 * [Divinity: Original Sin II](links/divinity.md) (1 стрим)
 
 ### Другое
