@@ -31,6 +31,7 @@
 ### В процессе
 
 * [White Day: A Labyrinth Named School](links/white_day.md) (4 стрима)
+* [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (2 стрима)
 * [Darkwood](links/darkwood.md) (5 стримов)
 
 #### Потенциально бесконечные
@@ -39,7 +40,6 @@
 
 #### Под вопросом
 
-* [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (1 стрим)
 * [Home Sweet Home](links/home_sweet_home.md) (1 стрим)
 * [Cuphead](links/cuphead.md) (1 стрим)
 
