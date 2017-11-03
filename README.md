@@ -27,6 +27,7 @@
 * Michigan: Report from Hell
 * Absolver
 * The Count Lucanor
+* Call of Duty: WWII
 
 ### В процессе
 
