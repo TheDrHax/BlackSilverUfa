@@ -24,12 +24,13 @@ node('python-requests') {
     }
 
     stage('Commit') {
-        sh 'git add chats links/*.md README.md'
+        sh 'git add chats links README.md'
         sh 'git stash'
         sh 'git branch -D gh-pages || true'
         sh 'git checkout -b gh-pages remotes/origin/gh-pages'
-        sh 'git checkout stash -- chats links/*.md README.md'
-        sh 'git stash pop'
+        sh 'rm -rf chats links README.md'
+        sh 'git checkout stash -- chats links README.md'
+        sh 'git stash drop'
         sh 'git commit -m "Jenkins: Обновление статических файлов" || true'
     }
 
