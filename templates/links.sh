@@ -12,12 +12,14 @@ download_chat() {
     python Twitch-Chat-Downloader/app.py $1 || exit 1
 }
 
-for list in links/*.list; do
+mkdir -p links
+
+for list in lists/*.list; do
 
 TITLE=$(head -n1 "$list")
 LINES=$(grep -nE '(--)' "$list" | sed 's/:.*//g')
 
-cat > $(echo "$list" | sed 's/\.list/.md/g') <<EOF
+cat > $(echo "$list" | sed 's|lists/\(.*\)\.list|links/\1.md|g') <<EOF
 # $TITLE
 
 | № | Twitch | Субтитры | YouTube | ▶ | Команда |
