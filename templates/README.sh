@@ -13,10 +13,10 @@ count_format() {
 # Ищем все списки по определённым тегам
 # Теги указываются во второй строке файла .list
 add_by_tag() {
-    find links -type f | while read name; do
+    find lists -type f | while read name; do
         if grep -Eq "^$1$" "$name"; then
             TITLE=$(head -n1 "$name")
-            FILE=$(echo "$name" | sed 's/\.list/.md/g')
+            FILE=$(echo "$name" | sed 's|lists/\(.*\)\.list|links/\1.md|g')
             COUNT=$(grep -E '(--)' "$name" | wc -l)
             COUNT_FORMAT=$(count_format $COUNT)
             echo "* [$TITLE]($FILE) ($COUNT_FORMAT)"
@@ -46,13 +46,13 @@ $(add_by_tag finished)
 
 $(add_by_tag to_be_continued)
 
-#### [$(head -n1 links/single.list)](links/single.md)
+#### [$(head -n1 lists/single.list)](links/single.md)
 
 `
-LINES=$(grep -nE '(--)' links/single.list | sed 's/:.*//g')
+LINES=$(grep -nE '(--)' lists/single.list | sed 's/:.*//g')
 for i in $LINES; do
     echo -n "* "
-    sed -n $((i+1))p links/single.list
+    sed -n $((i+1))p lists/single.list
 done
 `
 
