@@ -28,6 +28,7 @@
 * Absolver
 * The Count Lucanor
 * Call of Duty: WWII
+* Little Nightmares (DLC)
 
 ### В процессе
 
@@ -37,7 +38,7 @@
 
 #### Потенциально бесконечные
 
-* [Super Mario Odyssey](links/super-mario-odyssey.md) (1 стрим)
+* [Super Mario Odyssey](links/super-mario-odyssey.md) (2 стрима)
 * [Persona 5](links/persona_5.md) (8 стримов)
 
 #### Под вопросом
