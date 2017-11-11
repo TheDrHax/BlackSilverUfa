@@ -37,6 +37,7 @@
 
 #### Потенциально бесконечные
 
+* [Super Mario Odyssey](links/super-mario-odyssey.md) (1 стрим)
 * [Persona 5](links/persona_5.md) (8 стримов)
 
 #### Под вопросом
