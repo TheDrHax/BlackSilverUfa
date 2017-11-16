@@ -34,7 +34,7 @@
 
 * [White Day: A Labyrinth Named School](links/white_day.md) (4 стрима)
 * [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (2 стрима)
-* [Darkwood](links/darkwood.md) (5 стримов)
+* [Darkwood](links/darkwood.md) (6 стримов)
 
 #### Потенциально бесконечные
 
