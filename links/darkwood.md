@@ -7,7 +7,7 @@
 | 3 | [177634045](https://www.twitch.tv/videos/177634045) | [скачать](../chats/v177634045.ass) | [NR3Acyrhnp4](https://www.youtube.com/watch?v=NR3Acyrhnp4) | [▶](../src/player.html?v=NR3Acyrhnp4&s=177634045) | <details>`mpv --sub-file chats/v177634045.ass ytdl://NR3Acyrhnp4`</details> |
 | 4 | [179635876](https://www.twitch.tv/videos/179635876) | [скачать](../chats/v179635876.ass) | [zxTKOfKANt8](https://www.youtube.com/watch?v=zxTKOfKANt8) | [▶](../src/player.html?v=zxTKOfKANt8&s=179635876) | <details>`mpv --sub-file chats/v179635876.ass ytdl://zxTKOfKANt8`</details> |
 | 5 | [179882105](https://www.twitch.tv/videos/179882105) | [скачать](../chats/v179882105.ass) | [r6fssOx-GCQ](https://www.youtube.com/watch?v=r6fssOx-GCQ) | [▶](../src/player.html?v=r6fssOx-GCQ&s=179882105) | <details>`mpv --sub-file chats/v179882105.ass ytdl://r6fssOx-GCQ`</details> |
-| 6 | [201707253](https://www.twitch.tv/videos/201707253) | [скачать](../chats/v201707253.ass) | Отсутствует | ⏹ | <details>`streamlink -p "mpv --sub-file chats/v201707253.ass" --player-passthrough hls twitch.tv/videos/201707253 best`</details> |
+| 6 | [201707253](https://www.twitch.tv/videos/201707253) | [скачать](../chats/v201707253.ass) | [quashvbtL-M](https://www.youtube.com/watch?v=quashvbtL-M) | [▶](../src/player.html?v=quashvbtL-M&s=201707253) | <details>`mpv --sub-file chats/v201707253.ass ytdl://quashvbtL-M`</details> |
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
