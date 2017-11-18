@@ -39,7 +39,7 @@
 
 #### Потенциально бесконечные
 
-* [Super Mario Odyssey](links/super-mario-odyssey.md) (2 стрима)
+* [Super Mario Odyssey](links/super-mario-odyssey.md) (3 стрима)
 * [Persona 5](links/persona_5.md) (8 стримов)
 
 #### Под вопросом
