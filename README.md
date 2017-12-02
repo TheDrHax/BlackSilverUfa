@@ -12,6 +12,7 @@
 ### Завершённые прохождения
 
 * [White Day: A Labyrinth Named School](links/white_day.md) (5 стримов)
+* [Black Mirror](links/black-mirror.md) (2 стрима)
 * [Prey](links/prey.md) (6 стримов)
 * [Hellblade: Senua's Sacrifice](links/hellblade.md) (2 стрима)
 * [The Evil Within](links/evil_within.md) (9 стримов)
@@ -36,8 +37,7 @@
 ### В процессе
 
 * [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (2 стрима)
-* [Black Mirror](links/black-mirror.md) (1 стрим)
-* [Darkwood](links/darkwood.md) (8 стримов)
+* [Darkwood](links/darkwood.md) (9 стримов)
 
 #### Потенциально бесконечные
 
