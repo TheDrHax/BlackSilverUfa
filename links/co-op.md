@@ -8,6 +8,7 @@
 | 25:22 - Deceit<br>52:24 - Friday the 13th<br>2:21:23 - Deceit | [187586726](https://www.twitch.tv/videos/187586726) | [скачать](../chats/v187586726.ass) | [PYqnr5-Lq4o](https://www.youtube.com/watch?v=PYqnr5-Lq4o) | [▶](../src/player.html?v=PYqnr5-Lq4o&s=187586726) | <details>`mpv --sub-file chats/v187586726.ass ytdl://PYqnr5-Lq4o`</details> |
 | 23:30 - Dead by Daylight<br>2:09:00 - Pulsar: Lost Colony<br>4:02:50 - Deceit | [200702885](https://www.twitch.tv/videos/200702885) | [скачать](../chats/v200702885.ass) | [qyMVUvAjqdE](https://www.youtube.com/watch?v=qyMVUvAjqdE) | [▶](../src/player.html?v=qyMVUvAjqdE&s=200702885) | <details>`mpv --sub-file chats/v200702885.ass ytdl://qyMVUvAjqdE`</details> |
 | 21:00 - Human: Fall Flat<br>4:24:00 - Deceit | [202631693](https://www.twitch.tv/videos/202631693) | [скачать](../chats/v202631693.ass) | [BL6BrZRmRts](https://www.youtube.com/watch?v=BL6BrZRmRts) | [▶](../src/player.html?v=BL6BrZRmRts&s=202631693) | <details>`mpv --sub-file chats/v202631693.ass ytdl://BL6BrZRmRts`</details> |
+| 23:00 - Looterkings<br>1:25:00 - Mount Your Friends<br>2:49:00 - We Need to Go Deeper<br>4:36:00 - Golf it | [206394832](https://www.twitch.tv/videos/206394832) | [скачать](../chats/v206394832.ass) | Отсутствует | ⏹ | <details>`streamlink -p "mpv --sub-file chats/v206394832.ass" --player-passthrough hls twitch.tv/videos/206394832 best`</details> |
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
