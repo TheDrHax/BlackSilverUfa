@@ -46,6 +46,7 @@
 
 #### Под вопросом
 
+* [Xenoblade Chronicles 2](links/xenoblade-chronicles-2.md) (1 стрим)
 * [Home Sweet Home](links/home_sweet_home.md) (1 стрим)
 * [Cuphead](links/cuphead.md) (1 стрим)
 
