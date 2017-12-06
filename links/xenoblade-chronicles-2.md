@@ -2,7 +2,7 @@
 
 | № | Twitch | Субтитры | YouTube | ▶ | Команда |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [206933269](https://www.twitch.tv/videos/206933269) | [скачать](../chats/v206933269.ass) | Отсутствует | ⏹ | <details>`streamlink -p "mpv --sub-file chats/v206933269.ass" --player-passthrough hls twitch.tv/videos/206933269 best`</details> |
+| 1 | [206933269](https://www.twitch.tv/videos/206933269) | [скачать](../chats/v206933269.ass) | [Apcg-z-sBHM](https://www.youtube.com/watch?v=Apcg-z-sBHM) | [▶](../src/player.html?v=Apcg-z-sBHM&s=206933269) | <details>`mpv --sub-file chats/v206933269.ass ytdl://Apcg-z-sBHM`</details> |
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
