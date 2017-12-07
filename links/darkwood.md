@@ -11,6 +11,7 @@
 | 7 | [203147401](https://www.twitch.tv/videos/203147401) | [скачать](../chats/v203147401.ass) | [xSMy8oGoWnQ](https://www.youtube.com/watch?v=xSMy8oGoWnQ) | [▶](../src/player.html?v=xSMy8oGoWnQ&s=203147401) | <details>`mpv --sub-file chats/v203147401.ass ytdl://xSMy8oGoWnQ`</details> |
 | 8 | [204186576](https://www.twitch.tv/videos/204186576) | [скачать](../chats/v204186576.ass) | [kEzcaYOhHaQ](https://www.youtube.com/watch?v=kEzcaYOhHaQ) | [▶](../src/player.html?v=kEzcaYOhHaQ&s=204186576) | <details>`mpv --sub-file chats/v204186576.ass ytdl://kEzcaYOhHaQ`</details> |
 | 9 | [206091904](https://www.twitch.tv/videos/206091904) | [скачать](../chats/v206091904.ass) | [-amaLXxGG30](https://www.youtube.com/watch?v=-amaLXxGG30) | [▶](../src/player.html?v=-amaLXxGG30&s=206091904) | <details>`mpv --sub-file chats/v206091904.ass ytdl://-amaLXxGG30`</details> |
+| 10 | [207478875](https://www.twitch.tv/videos/207478875) | [скачать](../chats/v207478875.ass) | Отсутствует | ⏹ | <details>`streamlink -p "mpv --sub-file chats/v207478875.ass" --player-passthrough hls twitch.tv/videos/207478875 best`</details> |
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 

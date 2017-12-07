@@ -37,7 +37,7 @@
 ### В процессе
 
 * [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (2 стрима)
-* [Darkwood](links/darkwood.md) (9 стримов)
+* [Darkwood](links/darkwood.md) (10 стримов)
 
 #### Потенциально бесконечные
 
