@@ -18,10 +18,6 @@
 * [Hellblade: Senua's Sacrifice](links/hellblade.md) (2 стрима)
 * [The Evil Within](links/evil_within.md) (9 стримов)
 
-#### Ожидается продолжение
-
-Одна сюжетная кампания завершена и ожидается другая, либо ожидается выход следующего сюжетного DLC.
-
 #### [Полные прохождения за один стрим](links/single.md)
 
 * Michigan: Report from Hell
