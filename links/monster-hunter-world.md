@@ -2,7 +2,7 @@
 
 | № | Twitch | Субтитры | YouTube | ▶ | Команда |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [208349646](https://www.twitch.tv/videos/208349646) | [скачать](../chats/v208349646.ass) | Отсутствует | ⏹ | <details>`streamlink -p "mpv --sub-file chats/v208349646.ass" --player-passthrough hls twitch.tv/videos/208349646 best`</details> |
+| 1 | [208349646](https://www.twitch.tv/videos/208349646) | [скачать](../chats/v208349646.ass) | [gUtKWEEyzPE](https://www.youtube.com/watch?v=gUtKWEEyzPE) | [▶](../src/player.html?v=gUtKWEEyzPE&s=208349646) | <details>`mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE`</details> |
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
