@@ -31,7 +31,7 @@
 ### В процессе
 
 * [Darkwood](links/darkwood.md) (10 стримов)
-* [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (17 стримов)
+* [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (18 стримов)
 
 #### Потенциально бесконечные
 

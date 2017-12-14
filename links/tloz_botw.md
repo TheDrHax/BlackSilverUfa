@@ -19,6 +19,7 @@
 | DLC 1 #2 | [158301208](https://www.twitch.tv/videos/158301208) | [скачать](../chats/v158301208.ass) | [CkxzFYX2QDE](https://www.youtube.com/watch?v=CkxzFYX2QDE) | [▶](../src/player.html?v=CkxzFYX2QDE&s=158301208) | <details>`mpv --sub-file chats/v158301208.ass ytdl://CkxzFYX2QDE`</details> |
 | DLC 1 #3 | [158812902](https://www.twitch.tv/videos/158812902) | [скачать](../chats/v158812902.ass) | [nLo-y_ig9Mg](https://www.youtube.com/watch?v=nLo-y_ig9Mg) | [▶](../src/player.html?v=nLo-y_ig9Mg&s=158812902) | <details>`mpv --sub-file chats/v158812902.ass ytdl://nLo-y_ig9Mg`</details> |
 | DLC 2 #1 (с 3:05:00) | [208349646](https://www.twitch.tv/videos/208349646) | [скачать](../chats/v208349646.ass) | [gUtKWEEyzPE](https://www.youtube.com/watch?v=gUtKWEEyzPE) | [▶](../src/player.html?v=gUtKWEEyzPE&s=208349646) | <details>`mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE`</details> |
+| DLC 2 #2 (с 29:30) | [209473798](https://www.twitch.tv/videos/209473798) | [скачать](../chats/v209473798.ass) | Отсутствует | ⏹ | <details>`streamlink -p "mpv --sub-file chats/v209473798.ass" --player-passthrough hls twitch.tv/videos/209473798 best`</details> |
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
