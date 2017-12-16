@@ -26,13 +26,14 @@ parse_stream() {
     # Данные для элемента
     TWITCH_LINK="[$TWITCH](https://www.twitch.tv/videos/$TWITCH)"
     CHAT_LINK="[v$TWITCH.ass](../chats/v$TWITCH.ass)"
-    PLAYER_LINK="[▶](../src/player.html?v=$YOUTUBE&s=$TWITCH)"
     if echo $YOUTUBE | grep -q NULL; then
         YOUTUBE_LINK="Запись отсутствует"
         PLAYER_CMD="streamlink -p \"mpv --sub-file chats/v$TWITCH.ass\" --player-passthrough hls twitch.tv/videos/$TWITCH best"
+        PLAYER_LINK=""
     else
         YOUTUBE_LINK="[$YOUTUBE](https://www.youtube.com/watch?v=$YOUTUBE)"
         PLAYER_CMD="mpv --sub-file chats/v$TWITCH.ass ytdl://$YOUTUBE"
+        PLAYER_LINK="[▶](../src/player.html?v=$YOUTUBE&s=$TWITCH)"
     fi
 
 cat <<EOF
