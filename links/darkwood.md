@@ -120,6 +120,18 @@ mpv --sub-file chats/v206091904.ass ytdl://-amaLXxGG30
 mpv --sub-file chats/v207478875.ass ytdl://30i6tsz6xmw
 ```
 ----
+## 11
+
+| Twitch | Субтитры | YouTube | ▶ |
+| ------ | -------- | ------- | - |
+| [210024030](https://www.twitch.tv/videos/210024030) | [v210024030.ass](../chats/v210024030.ass) | Запись отсутствует | [▶](../src/player.html?v=NULL&s=210024030) |
+
+### Команда для запуска плеера
+
+```
+streamlink -p "mpv --sub-file chats/v210024030.ass" --player-passthrough hls twitch.tv/videos/210024030 best
+```
+----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
