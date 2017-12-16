@@ -12,40 +12,58 @@ download_chat() {
     python Twitch-Chat-Downloader/app.py $1 || exit 1
 }
 
-mkdir -p links
-
-for list in lists/*.list; do
-
-TITLE=$(head -n1 "$list")
-LINES=$(grep -nE '(--)' "$list" | sed 's/:.*//g')
-
-cat > $(echo "$list" | sed 's|lists/\(.*\)\.list|links/\1.md|g') <<EOF
-# $TITLE
-
-| № | Twitch | Субтитры | YouTube | ▶ | Команда |
-| --- | --- | --- | --- | --- | --- |
-$(
-
-for i in $LINES; do
-    NAME=$(sed -n $((i+1))p "$list")
-    TWITCH=$(sed -n $((i+2))p "$list")
-    YOUTUBE=$(sed -n $((i+3))p "$list")
+parse_stream() {
+    offset=$1
+    NAME=$(sed -n $((offset+1))p "$list")
+    TWITCH=$(sed -n $((offset+2))p "$list")
+    YOUTUBE=$(sed -n $((offset+3))p "$list")
 
     if [ $TWITCH != NULL ] && [ ! -e chats/v$TWITCH.ass ]; then
         echo "Скачиваю чат со стрима $TWITCH" > /dev/stderr
         download_chat $TWITCH > /dev/stderr
     fi
 
-    echo -n "| $NAME | [$TWITCH](https://www.twitch.tv/videos/$TWITCH) | [скачать](../chats/v$TWITCH.ass) | "
-
+    # Данные для элемента
+    TWITCH_LINK="[$TWITCH](https://www.twitch.tv/videos/$TWITCH)"
+    CHAT_LINK="[v$TWITCH.ass](../chats/v$TWITCH.ass)"
+    PLAYER_LINK="[▶](../src/player.html?v=$YOUTUBE&s=$TWITCH)"
     if echo $YOUTUBE | grep -q NULL; then
-        echo "Отсутствует | ⏹ | <details>\`streamlink -p \"mpv --sub-file chats/v$TWITCH.ass\" --player-passthrough hls twitch.tv/videos/$TWITCH best\`</details> |"
-    elif ! echo $TWITCH | grep -q NULL; then
-        echo "[$YOUTUBE](https://www.youtube.com/watch?v=$YOUTUBE) | [▶](../src/player.html?v=$YOUTUBE&s=$TWITCH) | <details>\`mpv --sub-file chats/v$TWITCH.ass ytdl://$YOUTUBE\`</details> |"
+        YOUTUBE_LINK="Запись отсутствует"
+        PLAYER_CMD="streamlink -p \"mpv --sub-file chats/v$TWITCH.ass\" --player-passthrough hls twitch.tv/videos/$TWITCH best"
+    else
+        YOUTUBE_LINK="[$YOUTUBE](https://www.youtube.com/watch?v=$YOUTUBE)"
+        PLAYER_CMD="mpv --sub-file chats/v$TWITCH.ass ytdl://$YOUTUBE"
     fi
-done
 
-)
+cat <<EOF
+## $NAME
+
+| Twitch | Субтитры | YouTube | ▶ |
+| ------ | -------- | ------- | - |
+| $TWITCH_LINK | $CHAT_LINK | $YOUTUBE_LINK | $PLAYER_LINK |
+
+### Команда для запуска плеера
+
+\`\`\`
+$PLAYER_CMD
+\`\`\`
+EOF
+}
+
+generate_page() {
+    list=$1
+    TITLE=$(head -n1 "$list")
+    LINES=$(grep -nE '(--)' "$list" | sed 's/:.*//g')
+
+cat <<EOF
+# $TITLE
+
+`
+for i in $LINES; do
+    parse_stream $i
+    echo "----"
+done
+`
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
@@ -56,4 +74,10 @@ done
 * Команда из таблицы выше
 
 EOF
+}
+
+mkdir -p links
+
+for list in lists/*.list; do
+    generate_page $list > $(echo "$list" | sed 's|lists/\(.*\)\.list|links/\1.md|g')
 done
