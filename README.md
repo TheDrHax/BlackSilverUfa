@@ -13,6 +13,7 @@
 
 * [White Day: A Labyrinth Named School](links/white_day.md) (5 стримов)
 * [Black Mirror](links/black-mirror.md) (2 стрима)
+* [Darkwood](links/darkwood.md) (10 стримов)
 * [Prey](links/prey.md) (6 стримов)
 * [Resident Evil 4](links/re4.md) (6 стримов)
 * [Hellblade: Senua's Sacrifice](links/hellblade.md) (2 стрима)
@@ -30,7 +31,6 @@
 
 ### В процессе
 
-* [Darkwood](links/darkwood.md) (10 стримов)
 * [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (18 стримов)
 
 #### Потенциально бесконечные
