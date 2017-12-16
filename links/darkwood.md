@@ -124,7 +124,7 @@ mpv --sub-file chats/v207478875.ass ytdl://30i6tsz6xmw
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [210024030](https://www.twitch.tv/videos/210024030) | [v210024030.ass](../chats/v210024030.ass) | Запись отсутствует | [▶](../src/player.html?v=NULL&s=210024030) |
+| [210024030](https://www.twitch.tv/videos/210024030) | [v210024030.ass](../chats/v210024030.ass) | Запись отсутствует |  |
 
 ### Команда для запуска плеера
 

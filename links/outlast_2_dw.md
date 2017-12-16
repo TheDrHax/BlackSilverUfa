@@ -16,7 +16,7 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [186799946](https://www.twitch.tv/videos/186799946) | [v186799946.ass](../chats/v186799946.ass) | Запись отсутствует | [▶](../src/player.html?v=NULL&s=186799946) |
+| [186799946](https://www.twitch.tv/videos/186799946) | [v186799946.ass](../chats/v186799946.ass) | Запись отсутствует |  |
 
 ### Команда для запуска плеера
 

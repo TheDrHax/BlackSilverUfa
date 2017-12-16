@@ -208,7 +208,7 @@ mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [209473798](https://www.twitch.tv/videos/209473798) | [v209473798.ass](../chats/v209473798.ass) | Запись отсутствует | [▶](../src/player.html?v=NULL&s=209473798) |
+| [209473798](https://www.twitch.tv/videos/209473798) | [v209473798.ass](../chats/v209473798.ass) | Запись отсутствует |  |
 
 ### Команда для запуска плеера
 

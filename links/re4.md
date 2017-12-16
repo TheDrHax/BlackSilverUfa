@@ -40,7 +40,7 @@ mpv --sub-file chats/v167924021.ass ytdl://9i6wUrnvLy8
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [168936842](https://www.twitch.tv/videos/168936842) | [v168936842.ass](../chats/v168936842.ass) | Запись отсутствует | [▶](../src/player.html?v=NULL&s=168936842) |
+| [168936842](https://www.twitch.tv/videos/168936842) | [v168936842.ass](../chats/v168936842.ass) | Запись отсутствует |  |
 
 ### Команда для запуска плеера
 
