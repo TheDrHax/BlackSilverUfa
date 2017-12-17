@@ -70,6 +70,7 @@ function createPlayer(id, youtube, twitch) {
 ```
 mpv --sub-file chats/v165359272.ass ytdl://qInCMF9MuEs
 ```
+
 ----
 ## 2
 
@@ -100,6 +101,7 @@ mpv --sub-file chats/v165359272.ass ytdl://qInCMF9MuEs
 ```
 mpv --sub-file chats/v165630859.ass ytdl://7r6_dwXVXgE
 ```
+
 ----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.

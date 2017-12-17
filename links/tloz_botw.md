@@ -70,6 +70,7 @@ function createPlayer(id, youtube, twitch) {
 ```
 mpv --sub-file chats/v126330909.ass ytdl://G5waS5gtIlg
 ```
+
 ----
 ## 2
 
@@ -100,6 +101,7 @@ mpv --sub-file chats/v126330909.ass ytdl://G5waS5gtIlg
 ```
 mpv --sub-file chats/v126599870.ass ytdl://jAqFcUpBoZ4
 ```
+
 ----
 ## 3
 
@@ -130,6 +132,7 @@ mpv --sub-file chats/v126599870.ass ytdl://jAqFcUpBoZ4
 ```
 mpv --sub-file chats/v127934409.ass ytdl://hFg4gYQ5Pac
 ```
+
 ----
 ## 4
 
@@ -160,6 +163,7 @@ mpv --sub-file chats/v127934409.ass ytdl://hFg4gYQ5Pac
 ```
 mpv --sub-file chats/v128632418.ass ytdl://vP0EEDw30PY
 ```
+
 ----
 ## 5
 
@@ -190,6 +194,7 @@ mpv --sub-file chats/v128632418.ass ytdl://vP0EEDw30PY
 ```
 mpv --sub-file chats/v129517728.ass ytdl://BKDEwpqADjo
 ```
+
 ----
 ## 6
 
@@ -220,6 +225,7 @@ mpv --sub-file chats/v129517728.ass ytdl://BKDEwpqADjo
 ```
 mpv --sub-file chats/v130208266.ass ytdl://olgWLuZZoxA
 ```
+
 ----
 ## 7
 
@@ -250,6 +256,7 @@ mpv --sub-file chats/v130208266.ass ytdl://olgWLuZZoxA
 ```
 mpv --sub-file chats/v130640455.ass ytdl://8aVBYHOL-JA
 ```
+
 ----
 ## 8
 
@@ -280,6 +287,7 @@ mpv --sub-file chats/v130640455.ass ytdl://8aVBYHOL-JA
 ```
 mpv --sub-file chats/v132460500.ass ytdl://aski9zJE18M
 ```
+
 ----
 ## 9
 
@@ -310,6 +318,7 @@ mpv --sub-file chats/v132460500.ass ytdl://aski9zJE18M
 ```
 mpv --sub-file chats/v132722938.ass ytdl://_rlCW6nrxRU
 ```
+
 ----
 ## 10
 
@@ -340,6 +349,7 @@ mpv --sub-file chats/v132722938.ass ytdl://_rlCW6nrxRU
 ```
 mpv --sub-file chats/v134698840.ass ytdl://rEmWFgGTm2o
 ```
+
 ----
 ## 11
 
@@ -370,6 +380,7 @@ mpv --sub-file chats/v134698840.ass ytdl://rEmWFgGTm2o
 ```
 mpv --sub-file chats/v135336477.ass ytdl://Wl6AUvcl4nQ
 ```
+
 ----
 ## 12
 
@@ -400,6 +411,7 @@ mpv --sub-file chats/v135336477.ass ytdl://Wl6AUvcl4nQ
 ```
 mpv --sub-file chats/v136443704.ass ytdl://_otITp-qIc0
 ```
+
 ----
 ## 13 (финал)
 
@@ -430,6 +442,7 @@ mpv --sub-file chats/v136443704.ass ytdl://_otITp-qIc0
 ```
 mpv --sub-file chats/v138884824.ass ytdl://g44IUL6knpU
 ```
+
 ----
 ## DLC 1 #1
 
@@ -460,6 +473,7 @@ mpv --sub-file chats/v138884824.ass ytdl://g44IUL6knpU
 ```
 mpv --sub-file chats/v156558088.ass ytdl://SPbHXjRJHyc
 ```
+
 ----
 ## DLC 1 #2
 
@@ -490,6 +504,7 @@ mpv --sub-file chats/v156558088.ass ytdl://SPbHXjRJHyc
 ```
 mpv --sub-file chats/v158301208.ass ytdl://CkxzFYX2QDE
 ```
+
 ----
 ## DLC 1 #3
 
@@ -520,6 +535,7 @@ mpv --sub-file chats/v158301208.ass ytdl://CkxzFYX2QDE
 ```
 mpv --sub-file chats/v158812902.ass ytdl://nLo-y_ig9Mg
 ```
+
 ----
 ## DLC 2 #1 (с 3:05:00)
 
@@ -550,27 +566,28 @@ mpv --sub-file chats/v158812902.ass ytdl://nLo-y_ig9Mg
 ```
 mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE
 ```
+
 ----
 ## DLC 2 #2 (с 29:30)
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [209473798](https://www.twitch.tv/videos/209473798) | [v209473798.ass](../chats/v209473798.ass) | Запись отсутствует |  |
+| [209473798](https://www.twitch.tv/videos/209473798) | [v209473798.ass](../chats/v209473798.ass) | [I24o7dmQyso](https://www.youtube.com/watch?v=I24o7dmQyso) | <a href="/src/player.html?v=I24o7dmQyso&s=209473798" onclick="return openPlayer209473798()">▶</a> |
 
 <script>
   function openPlayer209473798() {
-    createPlayer("player-NULL", "NULL", "209473798");
-    document.getElementById("spoiler-NULL").click();
+    createPlayer("player-I24o7dmQyso", "I24o7dmQyso", "209473798");
+    document.getElementById("spoiler-I24o7dmQyso").click();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-NULL"></summary>
+  <summary id="spoiler-I24o7dmQyso"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
     <video
-      id="player-NULL"
+      id="player-I24o7dmQyso"
       class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
 </details>
@@ -578,8 +595,9 @@ mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v209473798.ass" --player-passthrough hls twitch.tv/videos/209473798 best
+mpv --sub-file chats/v209473798.ass ytdl://I24o7dmQyso
 ```
+
 ----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.

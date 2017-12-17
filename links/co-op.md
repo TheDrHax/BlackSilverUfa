@@ -70,6 +70,7 @@ function createPlayer(id, youtube, twitch) {
 ```
 mpv --sub-file chats/v180663832.ass ytdl://y2PitYePsOU
 ```
+
 ----
 ## 15:16 - Hand Simulator<br>1:12:26 - Gang Beasts<br>2:18:21 - Duck Game<br>2:46:00 - Move or Die
 
@@ -100,6 +101,7 @@ mpv --sub-file chats/v180663832.ass ytdl://y2PitYePsOU
 ```
 mpv --sub-file chats/v182448131.ass ytdl://IqTeWjugKOE
 ```
+
 ----
 ## 24:55 - Spelunker! Party<br>54:58 - Ultimate Chicken Horse<br>1:48:56 - We Need to go Deeper<br>2:55:35 - Gang Beasts<br>3:49:00 - Hand Simulator<br>4:18:30 - Golf it
 
@@ -130,6 +132,7 @@ mpv --sub-file chats/v182448131.ass ytdl://IqTeWjugKOE
 ```
 mpv --sub-file chats/v184206477.ass ytdl://tUc-5QNu_CE
 ```
+
 ----
 ## 25:22 - Deceit<br>52:24 - Friday the 13th<br>2:21:23 - Deceit
 
@@ -160,6 +163,7 @@ mpv --sub-file chats/v184206477.ass ytdl://tUc-5QNu_CE
 ```
 mpv --sub-file chats/v187586726.ass ytdl://PYqnr5-Lq4o
 ```
+
 ----
 ## 23:30 - Dead by Daylight<br>2:09:00 - Pulsar: Lost Colony<br>4:02:50 - Deceit
 
@@ -190,6 +194,7 @@ mpv --sub-file chats/v187586726.ass ytdl://PYqnr5-Lq4o
 ```
 mpv --sub-file chats/v200702885.ass ytdl://qyMVUvAjqdE
 ```
+
 ----
 ## 21:00 - Human: Fall Flat<br>4:24:00 - Deceit
 
@@ -220,6 +225,7 @@ mpv --sub-file chats/v200702885.ass ytdl://qyMVUvAjqdE
 ```
 mpv --sub-file chats/v202631693.ass ytdl://BL6BrZRmRts
 ```
+
 ----
 ## 23:00 - Looterkings<br>1:25:00 - Mount Your Friends<br>2:49:00 - We Need to Go Deeper<br>4:36:00 - Golf it
 
@@ -250,6 +256,7 @@ mpv --sub-file chats/v202631693.ass ytdl://BL6BrZRmRts
 ```
 mpv --sub-file chats/v206394832.ass ytdl://-77Qpme-5EA
 ```
+
 ----
 ## 8:30 - Witch It, 3:24:00 - PUBG
 
@@ -280,6 +287,7 @@ mpv --sub-file chats/v206394832.ass ytdl://-77Qpme-5EA
 ```
 mpv --sub-file chats/v207753795.ass ytdl://PPZFFjgxKnY
 ```
+
 ----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.

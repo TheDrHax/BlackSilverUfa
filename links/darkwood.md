@@ -70,6 +70,7 @@ function createPlayer(id, youtube, twitch) {
 ```
 mpv --sub-file chats/v172968603.ass ytdl://fxwks5MC9Ns
 ```
+
 ----
 ## 2
 
@@ -100,6 +101,7 @@ mpv --sub-file chats/v172968603.ass ytdl://fxwks5MC9Ns
 ```
 mpv --sub-file chats/v176397641.ass ytdl://yxlbqLonbKI
 ```
+
 ----
 ## 3
 
@@ -130,6 +132,7 @@ mpv --sub-file chats/v176397641.ass ytdl://yxlbqLonbKI
 ```
 mpv --sub-file chats/v177634045.ass ytdl://NR3Acyrhnp4
 ```
+
 ----
 ## 4
 
@@ -160,6 +163,7 @@ mpv --sub-file chats/v177634045.ass ytdl://NR3Acyrhnp4
 ```
 mpv --sub-file chats/v179635876.ass ytdl://zxTKOfKANt8
 ```
+
 ----
 ## 5
 
@@ -190,6 +194,7 @@ mpv --sub-file chats/v179635876.ass ytdl://zxTKOfKANt8
 ```
 mpv --sub-file chats/v179882105.ass ytdl://r6fssOx-GCQ
 ```
+
 ----
 ## 6
 
@@ -220,6 +225,7 @@ mpv --sub-file chats/v179882105.ass ytdl://r6fssOx-GCQ
 ```
 mpv --sub-file chats/v201707253.ass ytdl://quashvbtL-M
 ```
+
 ----
 ## 7
 
@@ -250,6 +256,7 @@ mpv --sub-file chats/v201707253.ass ytdl://quashvbtL-M
 ```
 mpv --sub-file chats/v203147401.ass ytdl://xSMy8oGoWnQ
 ```
+
 ----
 ## 8
 
@@ -280,6 +287,7 @@ mpv --sub-file chats/v203147401.ass ytdl://xSMy8oGoWnQ
 ```
 mpv --sub-file chats/v204186576.ass ytdl://kEzcaYOhHaQ
 ```
+
 ----
 ## 9
 
@@ -310,6 +318,7 @@ mpv --sub-file chats/v204186576.ass ytdl://kEzcaYOhHaQ
 ```
 mpv --sub-file chats/v206091904.ass ytdl://-amaLXxGG30
 ```
+
 ----
 ## 10
 
@@ -340,27 +349,28 @@ mpv --sub-file chats/v206091904.ass ytdl://-amaLXxGG30
 ```
 mpv --sub-file chats/v207478875.ass ytdl://30i6tsz6xmw
 ```
+
 ----
 ## 11
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [210024030](https://www.twitch.tv/videos/210024030) | [v210024030.ass](../chats/v210024030.ass) | Запись отсутствует |  |
+| [210024030](https://www.twitch.tv/videos/210024030) | [v210024030.ass](../chats/v210024030.ass) | [FAjRM5KGsnw](https://www.youtube.com/watch?v=FAjRM5KGsnw) | <a href="/src/player.html?v=FAjRM5KGsnw&s=210024030" onclick="return openPlayer210024030()">▶</a> |
 
 <script>
   function openPlayer210024030() {
-    createPlayer("player-NULL", "NULL", "210024030");
-    document.getElementById("spoiler-NULL").click();
+    createPlayer("player-FAjRM5KGsnw", "FAjRM5KGsnw", "210024030");
+    document.getElementById("spoiler-FAjRM5KGsnw").click();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-NULL"></summary>
+  <summary id="spoiler-FAjRM5KGsnw"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
     <video
-      id="player-NULL"
+      id="player-FAjRM5KGsnw"
       class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
 </details>
@@ -368,8 +378,9 @@ mpv --sub-file chats/v207478875.ass ytdl://30i6tsz6xmw
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v210024030.ass" --player-passthrough hls twitch.tv/videos/210024030 best
+mpv --sub-file chats/v210024030.ass ytdl://FAjRM5KGsnw
 ```
+
 ----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.

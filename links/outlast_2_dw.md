@@ -70,6 +70,7 @@ function createPlayer(id, youtube, twitch) {
 ```
 mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
 ```
+
 ----
 ## 2
 
@@ -100,6 +101,7 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
 ```
 streamlink -p "mpv --sub-file chats/v186799946.ass" --player-passthrough hls twitch.tv/videos/186799946 best
 ```
+
 ----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.

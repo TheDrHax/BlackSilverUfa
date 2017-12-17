@@ -70,6 +70,7 @@ function createPlayer(id, youtube, twitch) {
 ```
 mpv --sub-file chats/v152253862.ass ytdl://cTvtS4jAQGk
 ```
+
 ----
 ## Absolver
 
@@ -100,6 +101,7 @@ mpv --sub-file chats/v152253862.ass ytdl://cTvtS4jAQGk
 ```
 mpv --sub-file chats/v174225353.ass ytdl://ejp3UDoKx4k
 ```
+
 ----
 ## The Count Lucanor
 
@@ -130,6 +132,7 @@ mpv --sub-file chats/v174225353.ass ytdl://ejp3UDoKx4k
 ```
 mpv --sub-file chats/v184468298.ass ytdl://9p23c9_BYaU
 ```
+
 ----
 ## Call of Duty: WWII
 
@@ -160,6 +163,7 @@ mpv --sub-file chats/v184468298.ass ytdl://9p23c9_BYaU
 ```
 mpv --sub-file chats/v187291538.ass ytdl://Bxj09aAOFaI
 ```
+
 ----
 ## Little Nightmares (DLC)
 
@@ -190,6 +194,7 @@ mpv --sub-file chats/v187291538.ass ytdl://Bxj09aAOFaI
 ```
 mpv --sub-file chats/v200401270.ass ytdl://LSHpifkX69Y
 ```
+
 ----
 ## Hidden Agenda (2 раза)
 
@@ -220,6 +225,7 @@ mpv --sub-file chats/v200401270.ass ytdl://LSHpifkX69Y
 ```
 mpv --sub-file chats/v202329656.ass ytdl://9kSnxedrUjM
 ```
+
 ----
 ## Unforgiving: A Northern Hymn
 
@@ -250,6 +256,7 @@ mpv --sub-file chats/v202329656.ass ytdl://9kSnxedrUjM
 ```
 mpv --sub-file chats/v204996737.ass ytdl://ZiYWnjvqw_k
 ```
+
 ----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.

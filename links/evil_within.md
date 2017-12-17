@@ -70,6 +70,7 @@ function createPlayer(id, youtube, twitch) {
 ```
 streamlink -p "mpv --sub-file chats/v160844876.ass" --player-passthrough hls twitch.tv/videos/160844876 best
 ```
+
 ----
 ## 1.5
 
@@ -100,6 +101,7 @@ streamlink -p "mpv --sub-file chats/v160844876.ass" --player-passthrough hls twi
 ```
 mpv --sub-file chats/v160852861.ass ytdl://LF6RMOOvA9M
 ```
+
 ----
 ## 2 (прерван)
 
@@ -130,6 +132,7 @@ mpv --sub-file chats/v160852861.ass ytdl://LF6RMOOvA9M
 ```
 mpv --sub-file chats/v161110508.ass ytdl://8VCQkjjMu-I
 ```
+
 ----
 ## 2.5
 
@@ -160,6 +163,7 @@ mpv --sub-file chats/v161110508.ass ytdl://8VCQkjjMu-I
 ```
 mpv --sub-file chats/v161115703.ass ytdl://vxbjz2-Lmgg
 ```
+
 ----
 ## 3
 
@@ -190,6 +194,7 @@ mpv --sub-file chats/v161115703.ass ytdl://vxbjz2-Lmgg
 ```
 mpv --sub-file chats/v162350334.ass ytdl://hZSVfTxT7Qo
 ```
+
 ----
 ## 4 (прерван)
 
@@ -220,6 +225,7 @@ mpv --sub-file chats/v162350334.ass ytdl://hZSVfTxT7Qo
 ```
 mpv --sub-file chats/v162844424.ass ytdl://8lhCzaGLmK8
 ```
+
 ----
 ## 5
 
@@ -250,6 +256,7 @@ mpv --sub-file chats/v162844424.ass ytdl://8lhCzaGLmK8
 ```
 mpv --sub-file chats/v163361169.ass ytdl://Qt1N7foBrUE
 ```
+
 ----
 ## 6 (прерван)
 
@@ -280,6 +287,7 @@ mpv --sub-file chats/v163361169.ass ytdl://Qt1N7foBrUE
 ```
 mpv --sub-file chats/v164116949.ass ytdl://5JOCDsqrhOY
 ```
+
 ----
 ## 6.5
 
@@ -310,6 +318,7 @@ mpv --sub-file chats/v164116949.ass ytdl://5JOCDsqrhOY
 ```
 mpv --sub-file chats/v164165380.ass ytdl://yH9DIXACVkA
 ```
+
 ----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.

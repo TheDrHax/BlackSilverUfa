@@ -70,6 +70,7 @@ function createPlayer(id, youtube, twitch) {
 ```
 mpv --sub-file chats/v164633577.ass ytdl://0XeyDh7T0Jw
 ```
+
 ----
 ## 2 (с 2:30:15)
 
@@ -100,6 +101,7 @@ mpv --sub-file chats/v164633577.ass ytdl://0XeyDh7T0Jw
 ```
 mpv --sub-file chats/v165630859.ass ytdl://7r6_dwXVXgE
 ```
+
 ----
 ## 3
 
@@ -130,6 +132,7 @@ mpv --sub-file chats/v165630859.ass ytdl://7r6_dwXVXgE
 ```
 mpv --sub-file chats/v167924021.ass ytdl://9i6wUrnvLy8
 ```
+
 ----
 ## 4
 
@@ -160,6 +163,7 @@ mpv --sub-file chats/v167924021.ass ytdl://9i6wUrnvLy8
 ```
 streamlink -p "mpv --sub-file chats/v168936842.ass" --player-passthrough hls twitch.tv/videos/168936842 best
 ```
+
 ----
 ## 5
 
@@ -190,6 +194,7 @@ streamlink -p "mpv --sub-file chats/v168936842.ass" --player-passthrough hls twi
 ```
 mpv --sub-file chats/v173993139.ass ytdl://eGY5W8Dtehs
 ```
+
 ----
 ## 6 (финал за Леона)
 
@@ -220,6 +225,7 @@ mpv --sub-file chats/v173993139.ass ytdl://eGY5W8Dtehs
 ```
 mpv --sub-file chats/v175695460.ass ytdl://gJX8uR-GZcU
 ```
+
 ----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
