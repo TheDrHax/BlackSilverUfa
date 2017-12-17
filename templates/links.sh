@@ -1,5 +1,7 @@
 #!/bin/sh
 
+. templates/scripts/for_each.sh
+
 download_chat() {
     if [ ! -e Twitch-Chat-Downloader ]; then
         git clone https://github.com/TheDrHax/Twitch-Chat-Downloader.git
@@ -12,12 +14,7 @@ download_chat() {
     python Twitch-Chat-Downloader/app.py $1 || exit 1
 }
 
-parse_stream() {
-    offset=$1
-    NAME=$(sed -n $((offset+1))p "$list")
-    TWITCH=$(sed -n $((offset+2))p "$list")
-    YOUTUBE=$(sed -n $((offset+3))p "$list")
-
+generate_stream() {
     if [ $TWITCH != NULL ] && [ ! -e chats/v$TWITCH.ass ]; then
         echo "Скачиваю чат со стрима $TWITCH" > /dev/stderr
         download_chat $TWITCH > /dev/stderr
@@ -66,13 +63,14 @@ parse_stream() {
 \`\`\`
 $PLAYER_CMD
 \`\`\`
+
+----
 EOF
 }
 
 generate_page() {
     list=$1
     TITLE=$(head -n1 "$list")
-    LINES=$(grep -nE '(--)' "$list" | sed 's/:.*//g')
 
     cat <<EOF
 <!-- video.js -->
@@ -118,12 +116,7 @@ function createPlayer(id, youtube, twitch) {
 
 # $TITLE
 
-`
-for i in $LINES; do
-    parse_stream $i
-    echo "----"
-done
-`
+$(for_each_stream $list generate_stream)
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
