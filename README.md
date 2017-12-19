@@ -31,11 +31,11 @@
 
 ### В процессе
 
-* [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (18 стримов)
+* [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (19 стримов)
 
 #### Потенциально бесконечные
 
-* [Super Mario Odyssey](links/super-mario-odyssey.md) (3 стрима)
+* [Super Mario Odyssey](links/super-mario-odyssey.md) (4 стрима)
 * [Persona 5](links/persona_5.md) (8 стримов)
 
 #### Под вопросом
