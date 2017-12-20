@@ -134,26 +134,26 @@ mpv --sub-file chats/v202381358.ass ytdl://Umsq53kBb9I
 ```
 
 ----
-## 4
+## 4 (с 2:59:58)
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [210846597](https://www.twitch.tv/videos/210846597) | [v210846597.ass](../chats/v210846597.ass) | Запись отсутствует |  |
+| [210846597](https://www.twitch.tv/videos/210846597) | [v210846597.ass](../chats/v210846597.ass) | [sR_zEhQt7_g](https://www.youtube.com/watch?v=sR_zEhQt7_g) | <a href="/src/player.html?v=sR_zEhQt7_g&s=210846597" onclick="return openPlayer210846597()">▶</a> |
 
 <script>
   function openPlayer210846597() {
-    createPlayer("player-NULL", "NULL", "210846597");
-    document.getElementById("spoiler-NULL").click();
+    createPlayer("player-sR_zEhQt7_g", "sR_zEhQt7_g", "210846597");
+    document.getElementById("spoiler-sR_zEhQt7_g").click();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-NULL"></summary>
+  <summary id="spoiler-sR_zEhQt7_g"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
     <video
-      id="player-NULL"
+      id="player-sR_zEhQt7_g"
       class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
 </details>
@@ -161,7 +161,7 @@ mpv --sub-file chats/v202381358.ass ytdl://Umsq53kBb9I
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v210846597.ass" --player-passthrough hls twitch.tv/videos/210846597 best
+mpv --sub-file chats/v210846597.ass ytdl://sR_zEhQt7_g
 ```
 
 ----
