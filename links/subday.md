@@ -39,7 +39,7 @@ function createPlayer(id, youtube, twitch) {
 }
 </script>
 
-# Sub-Day
+# Sub-Day и стримы с несколькими играми
 
 ## 17:26 - Road Redemption<br>1:16:16 - Battle Chasers<br>2:57:45 - Stardew Valley
 
@@ -69,6 +69,37 @@ function createPlayer(id, youtube, twitch) {
 
 ```
 mpv --sub-file chats/v180397849.ass ytdl://x5KwWrLRpEg
+```
+
+----
+## 20:47 - Uncanny Valley<br>1:44:54 - The Coma: Recut<br>2:52:00 - Lone Survivor
+
+| Twitch | Субтитры | YouTube | ▶ |
+| ------ | -------- | ------- | - |
+| [212431882](https://www.twitch.tv/videos/212431882) | [v212431882.ass](../chats/v212431882.ass) | Запись отсутствует |  |
+
+<script>
+  function openPlayer212431882() {
+    createPlayer("player-NULL", "NULL", "212431882");
+    document.getElementById("spoiler-NULL").click();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-NULL"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video
+      id="player-NULL"
+      class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v212431882.ass" --player-passthrough hls twitch.tv/videos/212431882 best
 ```
 
 ----
