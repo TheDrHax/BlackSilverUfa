@@ -110,6 +110,37 @@ mpv --sub-file chats/v212431882.ass ytdl://JS7cNXnzCTA
 ```
 
 ----
+## 25:00 - Stifled<br>2:59:00 - Uncanny Valley
+
+| Twitch | Субтитры | YouTube | ▶ |
+| ------ | -------- | ------- | - |
+| [212678883](https://www.twitch.tv/videos/212678883) | [v212678883.ass](../chats/v212678883.ass) | Запись отсутствует |  |
+
+<script>
+  function openPlayer212678883() {
+    createPlayer("player-NULL", "NULL", "212678883");
+    document.getElementById("spoiler-NULL").click();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-NULL"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video
+      id="player-NULL"
+      class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v212678883.ass" --player-passthrough hls twitch.tv/videos/212678883 best
+```
+
+----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
