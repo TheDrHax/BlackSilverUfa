@@ -39,6 +39,13 @@ function createPlayer(id, youtube, twitch) {
 }
 </script>
 
+<style>
+  .main-content {
+    padding: 2rem;
+    max-width: 72rem;
+  }
+</style>
+
 # Black Mirror
 
 ## 1

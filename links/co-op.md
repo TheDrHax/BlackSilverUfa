@@ -39,6 +39,13 @@ function createPlayer(id, youtube, twitch) {
 }
 </script>
 
+<style>
+  .main-content {
+    padding: 2rem;
+    max-width: 72rem;
+  }
+</style>
+
 # Несюжетные ко-опы
 
 ## 11:12 - Hand Simulator<br>1:35:44 - Ben and Ed: Blood Party<br>3:19:30 - Stick Fight<br>4:02:04 - Golf it

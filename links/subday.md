@@ -39,6 +39,13 @@ function createPlayer(id, youtube, twitch) {
 }
 </script>
 
+<style>
+  .main-content {
+    padding: 2rem;
+    max-width: 72rem;
+  }
+</style>
+
 # Sub-Day и стримы с несколькими играми
 
 ## 17:26 - Road Redemption<br>1:16:16 - Battle Chasers<br>2:57:45 - Stardew Valley
