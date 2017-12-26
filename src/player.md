@@ -16,6 +16,13 @@
 <!-- videojs-resolution-switcher -->
 <script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
 
+<style>
+  .main-content {
+    padding: 2rem;
+    max-width: 72rem;
+  }
+</style>
+
 <div class="player-wrapper">
     <video id="player" class="video-js vjs-default-skin vjs-big-play-centered"></video>
 </div>
