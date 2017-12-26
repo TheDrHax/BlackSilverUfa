@@ -114,6 +114,13 @@ function createPlayer(id, youtube, twitch) {
 }
 </script>
 
+<style>
+  .main-content {
+    padding: 2rem;
+    max-width: 72rem;
+  }
+</style>
+
 # $TITLE
 
 $(for_each_stream $list generate_stream)
