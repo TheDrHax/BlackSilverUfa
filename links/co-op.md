@@ -296,6 +296,37 @@ mpv --sub-file chats/v207753795.ass ytdl://PPZFFjgxKnY
 ```
 
 ----
+## 15:00 - The Hunter: Call of the Wild<br>3:10:00 - Road Redemption
+
+| Twitch | Субтитры | YouTube | ▶ |
+| ------ | -------- | ------- | - |
+| [213247693](https://www.twitch.tv/videos/213247693) | [v213247693.ass](../chats/v213247693.ass) | Запись отсутствует |  |
+
+<script>
+  function openPlayer213247693() {
+    createPlayer("player-NULL", "NULL", "213247693");
+    document.getElementById("spoiler-NULL").click();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-NULL"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video
+      id="player-NULL"
+      class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v213247693.ass" --player-passthrough hls twitch.tv/videos/213247693 best
+```
+
+----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
