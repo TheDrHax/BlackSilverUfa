@@ -300,22 +300,22 @@ mpv --sub-file chats/v207753795.ass ytdl://PPZFFjgxKnY
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [213247693](https://www.twitch.tv/videos/213247693) | [v213247693.ass](../chats/v213247693.ass) | Запись отсутствует |  |
+| [213247693](https://www.twitch.tv/videos/213247693) | [v213247693.ass](../chats/v213247693.ass) | [GPga2h4UUXc](https://www.youtube.com/watch?v=GPga2h4UUXc) | <a href="/src/player.html?v=GPga2h4UUXc&s=213247693" onclick="return openPlayer213247693()">▶</a> |
 
 <script>
   function openPlayer213247693() {
-    createPlayer("player-NULL", "NULL", "213247693");
-    document.getElementById("spoiler-NULL").click();
+    createPlayer("player-GPga2h4UUXc", "GPga2h4UUXc", "213247693");
+    document.getElementById("spoiler-GPga2h4UUXc").click();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-NULL"></summary>
+  <summary id="spoiler-GPga2h4UUXc"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
     <video
-      id="player-NULL"
+      id="player-GPga2h4UUXc"
       class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
 </details>
@@ -323,7 +323,7 @@ mpv --sub-file chats/v207753795.ass ytdl://PPZFFjgxKnY
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v213247693.ass" --player-passthrough hls twitch.tv/videos/213247693 best
+mpv --sub-file chats/v213247693.ass ytdl://GPga2h4UUXc
 ```
 
 ----
