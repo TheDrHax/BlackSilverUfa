@@ -48,7 +48,7 @@ function createPlayer(id, youtube, twitch) {
 
 # Несюжетные ко-опы
 
-## 11:12 - Hand Simulator<br>1:35:44 - Ben and Ed: Blood Party<br>3:19:30 - Stick Fight<br>4:02:04 - Golf it
+## 11:12 - Hand Simulator<br>1:35:44 - Ben and Ed: Blood Party<br>3:19:30 - Stick Fight<br>4:02:04 - Golf It!
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
@@ -110,7 +110,7 @@ mpv --sub-file chats/v182448131.ass ytdl://IqTeWjugKOE
 ```
 
 ----
-## 24:55 - Spelunker! Party<br>54:58 - Ultimate Chicken Horse<br>1:48:56 - We Need to go Deeper<br>2:55:35 - Gang Beasts<br>3:49:00 - Hand Simulator<br>4:18:30 - Golf it
+## 24:55 - Spelunker! Party<br>54:58 - Ultimate Chicken Horse<br>1:48:56 - We Need to go Deeper<br>2:55:35 - Gang Beasts<br>3:49:00 - Hand Simulator<br>4:18:30 - Golf It!
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
@@ -234,7 +234,7 @@ mpv --sub-file chats/v202631693.ass ytdl://BL6BrZRmRts
 ```
 
 ----
-## 23:00 - Looterkings<br>1:25:00 - Mount Your Friends<br>2:49:00 - We Need to Go Deeper<br>4:36:00 - Golf it
+## 23:00 - Looterkings<br>1:25:00 - Mount Your Friends<br>2:49:00 - We Need to Go Deeper<br>4:36:00 - Golf It!
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
@@ -265,7 +265,7 @@ mpv --sub-file chats/v206394832.ass ytdl://-77Qpme-5EA
 ```
 
 ----
-## 8:30 - Witch It, 3:24:00 - PUBG
+## 8:30 - Witch It<br>3:24:00 - PUBG
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
@@ -324,6 +324,37 @@ mpv --sub-file chats/v207753795.ass ytdl://PPZFFjgxKnY
 
 ```
 mpv --sub-file chats/v213247693.ass ytdl://GPga2h4UUXc
+```
+
+----
+## 13:00 - Hand Simulator<br>1:58:00 - Viscera Cleanup Detail<br>3:00:00 - Astroneer<br>4:59:00 - Gang Beasts
+
+| Twitch | Субтитры | YouTube | ▶ |
+| ------ | -------- | ------- | - |
+| [213846142](https://www.twitch.tv/videos/213846142) | [v213846142.ass](../chats/v213846142.ass) | Запись отсутствует |  |
+
+<script>
+  function openPlayer213846142() {
+    createPlayer("player-NULL", "NULL", "213846142");
+    document.getElementById("spoiler-NULL").click();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-NULL"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video
+      id="player-NULL"
+      class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v213846142.ass" --player-passthrough hls twitch.tv/videos/213846142 best
 ```
 
 ----
