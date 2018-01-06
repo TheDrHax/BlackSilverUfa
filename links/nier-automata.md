@@ -52,22 +52,22 @@ function createPlayer(id, youtube, twitch) {
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [215612485](https://www.twitch.tv/videos/215612485) | [v215612485.ass](../chats/v215612485.ass) | Запись отсутствует |  |
+| [215612485](https://www.twitch.tv/videos/215612485) | [v215612485.ass](../chats/v215612485.ass) | [PSFYqx5cHvk](https://www.youtube.com/watch?v=PSFYqx5cHvk) | <a href="/src/player.html?v=PSFYqx5cHvk&s=215612485" onclick="return openPlayer215612485()">▶</a> |
 
 <script>
   function openPlayer215612485() {
-    createPlayer("player-NULL", "NULL", "215612485");
-    document.getElementById("spoiler-NULL").click();
+    createPlayer("player-PSFYqx5cHvk", "PSFYqx5cHvk", "215612485");
+    document.getElementById("spoiler-PSFYqx5cHvk").click();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-NULL"></summary>
+  <summary id="spoiler-PSFYqx5cHvk"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
     <video
-      id="player-NULL"
+      id="player-PSFYqx5cHvk"
       class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
 </details>
@@ -75,7 +75,38 @@ function createPlayer(id, youtube, twitch) {
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v215612485.ass" --player-passthrough hls twitch.tv/videos/215612485 best
+mpv --sub-file chats/v215612485.ass ytdl://PSFYqx5cHvk
+```
+
+----
+## 1.2
+
+| Twitch | Субтитры | YouTube | ▶ |
+| ------ | -------- | ------- | - |
+| [215625839](https://www.twitch.tv/videos/215625839) | [v215625839.ass](../chats/v215625839.ass) | [1KJ_lUDyyVU](https://www.youtube.com/watch?v=1KJ_lUDyyVU) | <a href="/src/player.html?v=1KJ_lUDyyVU&s=215625839" onclick="return openPlayer215625839()">▶</a> |
+
+<script>
+  function openPlayer215625839() {
+    createPlayer("player-1KJ_lUDyyVU", "1KJ_lUDyyVU", "215625839");
+    document.getElementById("spoiler-1KJ_lUDyyVU").click();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-1KJ_lUDyyVU"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video
+      id="player-1KJ_lUDyyVU"
+      class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+mpv --sub-file chats/v215625839.ass ytdl://1KJ_lUDyyVU
 ```
 
 ----
