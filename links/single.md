@@ -265,6 +265,37 @@ mpv --sub-file chats/v204996737.ass ytdl://ZiYWnjvqw_k
 ```
 
 ----
+## SCP Containment Breach
+
+| Twitch | Субтитры | YouTube | ▶ |
+| ------ | -------- | ------- | - |
+| [215974261](https://www.twitch.tv/videos/215974261) | [v215974261.ass](../chats/v215974261.ass) | Запись отсутствует |  |
+
+<script>
+  function openPlayer215974261() {
+    createPlayer("player-NULL", "NULL", "215974261");
+    document.getElementById("spoiler-NULL").click();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-NULL"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video
+      id="player-NULL"
+      class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v215974261.ass" --player-passthrough hls twitch.tv/videos/215974261 best
+```
+
+----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 

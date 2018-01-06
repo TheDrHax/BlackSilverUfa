@@ -110,6 +110,37 @@ mpv --sub-file chats/v215625839.ass ytdl://1KJ_lUDyyVU
 ```
 
 ----
+## Сайдквесты 1
+
+| Twitch | Субтитры | YouTube | ▶ |
+| ------ | -------- | ------- | - |
+| [215959213](https://www.twitch.tv/videos/215959213) | [v215959213.ass](../chats/v215959213.ass) | Запись отсутствует |  |
+
+<script>
+  function openPlayer215959213() {
+    createPlayer("player-NULL", "NULL", "215959213");
+    document.getElementById("spoiler-NULL").click();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-NULL"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video
+      id="player-NULL"
+      class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v215959213.ass" --player-passthrough hls twitch.tv/videos/215959213 best
+```
+
+----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
