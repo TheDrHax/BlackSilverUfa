@@ -114,22 +114,22 @@ mpv --sub-file chats/v215625839.ass ytdl://1KJ_lUDyyVU
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [215959213](https://www.twitch.tv/videos/215959213) | [v215959213.ass](../chats/v215959213.ass) | Запись отсутствует |  |
+| [215959213](https://www.twitch.tv/videos/215959213) | [v215959213.ass](../chats/v215959213.ass) | [h2rTS3adq9w](https://www.youtube.com/watch?v=h2rTS3adq9w) | <a href="/src/player.html?v=h2rTS3adq9w&s=215959213" onclick="return openPlayer215959213()">▶</a> |
 
 <script>
   function openPlayer215959213() {
-    createPlayer("player-NULL", "NULL", "215959213");
-    document.getElementById("spoiler-NULL").click();
+    createPlayer("player-h2rTS3adq9w", "h2rTS3adq9w", "215959213");
+    document.getElementById("spoiler-h2rTS3adq9w").click();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-NULL"></summary>
+  <summary id="spoiler-h2rTS3adq9w"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
     <video
-      id="player-NULL"
+      id="player-h2rTS3adq9w"
       class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
 </details>
@@ -137,7 +137,7 @@ mpv --sub-file chats/v215625839.ass ytdl://1KJ_lUDyyVU
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v215959213.ass" --player-passthrough hls twitch.tv/videos/215959213 best
+mpv --sub-file chats/v215959213.ass ytdl://h2rTS3adq9w
 ```
 
 ----
