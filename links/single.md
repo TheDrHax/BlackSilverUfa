@@ -269,22 +269,22 @@ mpv --sub-file chats/v204996737.ass ytdl://ZiYWnjvqw_k
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [215974261](https://www.twitch.tv/videos/215974261) | [v215974261.ass](../chats/v215974261.ass) | Запись отсутствует |  |
+| [215974261](https://www.twitch.tv/videos/215974261) | [v215974261.ass](../chats/v215974261.ass) | [-8anORo35tQ](https://www.youtube.com/watch?v=-8anORo35tQ) | <a href="/src/player.html?v=-8anORo35tQ&s=215974261" onclick="return openPlayer215974261()">▶</a> |
 
 <script>
   function openPlayer215974261() {
-    createPlayer("player-NULL", "NULL", "215974261");
-    document.getElementById("spoiler-NULL").click();
+    createPlayer("player--8anORo35tQ", "-8anORo35tQ", "215974261");
+    document.getElementById("spoiler--8anORo35tQ").click();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-NULL"></summary>
+  <summary id="spoiler--8anORo35tQ"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
     <video
-      id="player-NULL"
+      id="player--8anORo35tQ"
       class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
 </details>
@@ -292,7 +292,7 @@ mpv --sub-file chats/v204996737.ass ytdl://ZiYWnjvqw_k
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v215974261.ass" --player-passthrough hls twitch.tv/videos/215974261 best
+mpv --sub-file chats/v215974261.ass ytdl://-8anORo35tQ
 ```
 
 ----
