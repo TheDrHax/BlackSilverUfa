@@ -2,22 +2,10 @@
 
 . templates/scripts/for_each.sh
 
-download_chat() {
-    if [ ! -e Twitch-Chat-Downloader ]; then
-        git clone https://github.com/TheDrHax/Twitch-Chat-Downloader.git
-    else
-        cd Twitch-Chat-Downloader
-        git pull --force
-        cd ..
-    fi
-
-    python Twitch-Chat-Downloader/app.py $1 || exit 1
-}
-
 generate_stream() {
     if [ $TWITCH != NULL ] && [ ! -e chats/v$TWITCH.ass ]; then
         echo "Скачиваю чат со стрима $TWITCH" > /dev/stderr
-        download_chat $TWITCH > /dev/stderr
+        python -m tcd $TWITCH > /dev/stderr
     fi
 
     # Данные для элемента
