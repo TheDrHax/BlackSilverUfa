@@ -1,4 +1,4 @@
-node('python-requests') {
+node('python-pip') {
     String cred_git = 'GitHub'
     String cred_github = 'GitHub-Token'
 
@@ -14,6 +14,7 @@ node('python-requests') {
 
     stage('Pull') {
         git branch: branch, credentialsId: cred_git, url: repo_url
+        sh 'pip install -U https://github.com/TheDrHax/Twitch-Chat-Downloader/archive/master.zip'
     }
 
     stage('Prepare') {
