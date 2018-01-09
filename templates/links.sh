@@ -5,7 +5,7 @@
 generate_stream() {
     if [ $TWITCH != NULL ] && [ ! -e chats/v$TWITCH.ass ]; then
         echo "Скачиваю чат со стрима $TWITCH" > /dev/stderr
-        python -m tcd $TWITCH > /dev/stderr
+        tcd $TWITCH > /dev/stderr
     fi
 
     # Данные для элемента
