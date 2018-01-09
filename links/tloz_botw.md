@@ -637,6 +637,37 @@ mpv --sub-file chats/v210846597.ass ytdl://sR_zEhQt7_g
 ```
 
 ----
+## DLC 2 #4 (с 1:43:00)
+
+| Twitch | Субтитры | YouTube | ▶ |
+| ------ | -------- | ------- | - |
+| [216912425](https://www.twitch.tv/videos/216912425) | [v216912425.ass](../chats/v216912425.ass) | Запись отсутствует |  |
+
+<script>
+  function openPlayer216912425() {
+    createPlayer("player-NULL", "NULL", "216912425");
+    document.getElementById("spoiler-NULL").click();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-NULL"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video
+      id="player-NULL"
+      class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v216912425.ass" --player-passthrough hls twitch.tv/videos/216912425 best
+```
+
+----
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
