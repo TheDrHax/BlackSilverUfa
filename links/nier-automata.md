@@ -48,7 +48,7 @@ function createPlayer(id, youtube, twitch) {
 
 # NieR Automata
 
-## 1.1
+## 1
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
@@ -79,7 +79,7 @@ mpv --sub-file chats/v215612485.ass ytdl://PSFYqx5cHvk
 ```
 
 ----
-## 1.2
+## 2
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
@@ -110,7 +110,7 @@ mpv --sub-file chats/v215625839.ass ytdl://1KJ_lUDyyVU
 ```
 
 ----
-## Сайдквесты 1
+## 3 (сайдквесты)
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
@@ -141,7 +141,7 @@ mpv --sub-file chats/v215959213.ass ytdl://h2rTS3adq9w
 ```
 
 ----
-## 2
+## 4 - официальной записи не будет
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
