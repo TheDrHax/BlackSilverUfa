@@ -176,22 +176,22 @@ streamlink -p "mpv --sub-file chats/v216293216.ass" --player-passthrough hls twi
 
 | Twitch | Субтитры | YouTube | ▶ |
 | ------ | -------- | ------- | - |
-| [216912425](https://www.twitch.tv/videos/216912425) | [v216912425.ass](../chats/v216912425.ass) | Запись отсутствует |  |
+| [216912425](https://www.twitch.tv/videos/216912425) | [v216912425.ass](../chats/v216912425.ass) | [jyhO-Szikqc](https://www.youtube.com/watch?v=jyhO-Szikqc) | <a href="/src/player.html?v=jyhO-Szikqc&s=216912425" onclick="return openPlayer216912425()">▶</a> |
 
 <script>
   function openPlayer216912425() {
-    createPlayer("player-NULL", "NULL", "216912425");
-    document.getElementById("spoiler-NULL").click();
+    createPlayer("player-jyhO-Szikqc", "jyhO-Szikqc", "216912425");
+    document.getElementById("spoiler-jyhO-Szikqc").click();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-NULL"></summary>
+  <summary id="spoiler-jyhO-Szikqc"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
     <video
-      id="player-NULL"
+      id="player-jyhO-Szikqc"
       class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
 </details>
@@ -199,7 +199,7 @@ streamlink -p "mpv --sub-file chats/v216293216.ass" --player-passthrough hls twi
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v216912425.ass" --player-passthrough hls twitch.tv/videos/216912425 best
+mpv --sub-file chats/v216912425.ass ytdl://jyhO-Szikqc
 ```
 
 ----
