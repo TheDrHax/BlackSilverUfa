@@ -61,7 +61,7 @@ onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть пле
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-${id}" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> \
 </%def>
 
 <%def name="gen_stream(id, stream)">
@@ -104,7 +104,7 @@ streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrou
 % endif
 ```
 
-----
+---- \
 </%def>
 
 <!-- video.js -->
@@ -129,7 +129,7 @@ streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrou
 </style>
 
 ${'#'} ${game['name']}
-<% id = 0 %>
+<% id = 0 %> \
 % for stream in game['streams']:
 ${gen_stream(id, stream)}
 <% id += 1 %> \
