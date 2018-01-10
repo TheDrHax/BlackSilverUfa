@@ -72,6 +72,8 @@ ${'##'} ${stream['name']}
   % for timecode in stream['timecodes']:
   * ${timecode} - ${stream['timecodes'][timecode]}
   % endfor
+% elif stream.get('offset'):
+* Стрим начинается с ${stream['offset']}
 % endif
 % if stream.get('youtube') or stream.get('direct'):
 ${player(id, stream)}

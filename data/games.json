@@ -9,9 +9,10 @@
       "youtube": "9rrv07l9Bxs"
     },
     {
-      "name": "2 (с 3:07:00)",
+      "name": "2",
       "twitch": "206091904",
-      "youtube": "-amaLXxGG30"
+      "youtube": "-amaLXxGG30",
+      "offset": "3:07:00"
     }
   ]
 },
@@ -452,19 +453,22 @@
       "youtube": "eMFwk3Enb3c"
     },
     {
-      "name": "6 (с 2:15:00)",
+      "name": "6",
       "twitch": "154787759",
-      "youtube": "f5U_5Gwx-Mk"
+      "youtube": "f5U_5Gwx-Mk",
+      "offset": "2:15:00"
     },
     {
-      "name": "7 (с 2:10:30)",
+      "name": "7",
       "twitch": "173993139",
-      "youtube": "eGY5W8Dtehs"
+      "youtube": "eGY5W8Dtehs",
+      "offset": "2:10:30"
     },
     {
-      "name": "8 (с 2:10:04)",
+      "name": "8",
       "twitch": "175695460",
-      "youtube": "gJX8uR-GZcU"
+      "youtube": "gJX8uR-GZcU",
+      "offset": "2:10:04"
     }
   ]
 },
@@ -516,9 +520,10 @@
       "youtube": "0XeyDh7T0Jw"
     },
     {
-      "name": "2 (с 2:30:15)",
+      "name": "2",
       "twitch": "165630859",
-      "youtube": "7r6_dwXVXgE"
+      "youtube": "7r6_dwXVXgE",
+      "offset": "2:30:15"
     },
     {
       "name": "3",
@@ -635,9 +640,10 @@
       "youtube": "kkeGLQrrkAM"
     },
     {
-      "name": "2 (с 3:10:20)",
+      "name": "2",
       "twitch": "200401270",
-      "youtube": "LSHpifkX69Y"
+      "youtube": "LSHpifkX69Y",
+      "offset": "3:10:20"
     },
     {
       "name": "3",
@@ -645,9 +651,10 @@
       "youtube": "Umsq53kBb9I"
     },
     {
-      "name": "4 (с 2:59:58)",
+      "name": "4",
       "twitch": "210846597",
-      "youtube": "sR_zEhQt7_g"
+      "youtube": "sR_zEhQt7_g",
+      "offset": "2:59:58"
     }
   ]
 },
@@ -737,14 +744,16 @@
       "youtube": "nLo-y_ig9Mg"
     },
     {
-      "name": "DLC 2 #1 (с 3:05:00)",
+      "name": "DLC 2 #1",
       "twitch": "208349646",
-      "youtube": "gUtKWEEyzPE"
+      "youtube": "gUtKWEEyzPE",
+      "offset": "3:05:00"
     },
     {
-      "name": "DLC 2 #2 (с 29:30)",
+      "name": "DLC 2 #2",
       "twitch": "209473798",
-      "youtube": "I24o7dmQyso"
+      "youtube": "I24o7dmQyso",
+      "offset": "29:30"
     },
     {
       "name": "DLC 2 #3",
@@ -752,9 +761,10 @@
       "youtube": "sR_zEhQt7_g"
     },
     {
-      "name": "DLC 2 #4 (с 1:43:00)",
+      "name": "DLC 2 #4",
       "twitch": "216912425",
-      "youtube": "jyhO-Szikqc"
+      "youtube": "jyhO-Szikqc",
+      "offset": "1:43:00"
     }
   ]
 },
@@ -776,29 +786,34 @@
   "filename": "white_day.md",
   "streams": [
     {
-      "name": "1 (с 2:41:31)",
+      "name": "1",
       "twitch": "172968603",
-      "youtube": "fxwks5MC9Ns"
+      "youtube": "fxwks5MC9Ns",
+      "offset": "2:41:31"
     },
     {
-      "name": "2 (с 2:49:40)",
+      "name": "2",
       "twitch": "176397641",
-      "youtube": "yxlbqLonbKI"
+      "youtube": "yxlbqLonbKI",
+      "offset": "2:49:40"
     },
     {
-      "name": "3 (с 3:14:05)",
+      "name": "3",
       "twitch": "177634045",
-      "youtube": "NR3Acyrhnp4"
+      "youtube": "NR3Acyrhnp4",
+      "offset": "3:14:05"
     },
     {
-      "name": "4 (с 3:00:00)",
+      "name": "4",
       "twitch": "179635876",
-      "youtube": "zxTKOfKANt8"
+      "youtube": "zxTKOfKANt8",
+      "offset": "3:00:00"
     },
     {
-      "name": "5 (c 2:48:10)",
+      "name": "5",
       "twitch": "204186576",
-      "youtube": "kEzcaYOhHaQ"
+      "youtube": "kEzcaYOhHaQ",
+      "offset": "2:48:10"
     }
   ]
 },
