@@ -39,11 +39,11 @@ if __name__ == "__main__":
     # Generate README.md
     with io.open("README.md", "w+", encoding="utf-8") as output:
         t = Template(filename="templates/README.mako", input_encoding="utf-8")
-        output.write(t.render(categories=categories))
+        output.write(t.render(categories=categories).strip())
 
     # Generate links/*.md
     t = Template(filename="templates/page.mako", input_encoding="utf-8")
     for game in games:
         filename = "links/{0[filename]}".format(game)
         with io.open(filename, "w+", encoding="utf-8") as output:
-            output.write(t.render(game=game))
+            output.write(t.render(game=game).strip())
