@@ -24,7 +24,7 @@ node('python-pip') {
     }
 
     stage('Build') {
-        sh 'sh generate.sh'
+        sh 'python generate.py'
     }
 
     stage('Commit') {
