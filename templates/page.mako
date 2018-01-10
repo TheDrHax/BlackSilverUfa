@@ -1,4 +1,4 @@
-<%def name="gen_stream(stream)">
+<%def name="gen_stream(id, stream)">
 ${'##'} ${stream['name']}
 
 % if stream.get('youtube') is not None:
@@ -7,23 +7,39 @@ ${'##'} ${stream['name']}
 | [${stream['twitch']}](https://www.twitch.tv/videos/${stream['twitch']}) \
 | [v${stream['twitch']}.ass](../chats/v${stream['twitch']}.ass) \
 | [${stream['youtube']}](https://www.youtube.com/watch?v=${stream['youtube']}) \
-| <a href="/src/player.html?v=${stream['youtube']}&s=${stream['twitch']}" onclick="return openPlayer${stream['twitch']}()">▶</a> |
+| <a href="/src/player.html?v=${stream['youtube']}&s=${stream['twitch']}" onclick="return openPlayer${id}()">▶</a> |
 
 <script>
-  function openPlayer${stream['twitch']}() {
-    createPlayer("player-${stream['youtube']}", "${stream['youtube']}", "${stream['twitch']}");
-    document.getElementById("spoiler-${stream['youtube']}").click();
+  function openPlayer${id}() {
+    videojs("player-${id}", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v${stream['twitch']}.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=${stream['youtube']}"
+      }]
+    });
+    document.getElementById("spoiler-${id}").click();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-${stream['youtube']}"></summary>
+  <summary id="spoiler-${id}"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-${stream['youtube']}"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-${id}" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
 </details>
 % else:
@@ -61,33 +77,6 @@ streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrou
 <!-- videojs-resolution-switcher -->
 <script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
 
-<script>
-function createPlayer(id, youtube, twitch) {
-  videojs(id, {
-    controls: true,
-    nativeControlsForTouch: false,
-    width: 640,
-    height: 360,
-    fluid: true,
-    plugins: {
-      ass: {
-        src: ["../chats/v" + twitch + ".ass"],
-        delay: -0.1,
-      },
-      videoJsResolutionSwitcher: {
-        default: 'high',
-        dynamicLabel: true
-      }
-    },
-    techOrder: ["youtube"],
-    sources: [{
-      "type": "video/youtube",
-      "src": "https://www.youtube.com/watch?v=" + youtube
-    }]
-  });
-}
-</script>
-
 <style>
   .main-content {
     padding: 2rem;
@@ -96,9 +85,10 @@ function createPlayer(id, youtube, twitch) {
 </style>
 
 ${'#'} ${game['name']}
-
+<% id = 0 %>
 % for stream in game['streams']:
-${gen_stream(stream)}
+${gen_stream(id, stream)}
+<% id += 1 %> \
 % endfor
 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
