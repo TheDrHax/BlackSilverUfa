@@ -1,0 +1,37 @@
+[{
+  "name": "Завершённые прохождения",
+  "code": "finished",
+  "level": 3
+},
+{
+  "name": "Прохождения за один стрим",
+  "code": "single",
+  "type": "list",
+  "level": 4
+},
+{
+  "name": "В процессе",
+  "code": "ongoing",
+  "level": 3
+},
+{
+  "name": "Потенциально бесконечные",
+  "code": "infinite",
+  "level": 4
+},
+{
+  "name": "Под вопросом",
+  "code": "questionable",
+  "level": 4
+},
+{
+  "name": "Незавершённые",
+  "description": "Прохождения, вероятность продолжения которых КРАЙНЕ мала.",
+  "code": "abandoned",
+  "level": 4
+},
+{
+  "name": "Другое",
+  "code": "other",
+  "level": 3
+}]
