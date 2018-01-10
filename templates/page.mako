@@ -1,13 +1,10 @@
-<%def name="gen_stream(id, stream)">
-${'##'} ${stream['name']}
-
-% if stream.get('youtube') is not None:
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [${stream['twitch']}](https://www.twitch.tv/videos/${stream['twitch']}) \
-| [v${stream['twitch']}.ass](../chats/v${stream['twitch']}.ass) \
-| [${stream['youtube']}](https://www.youtube.com/watch?v=${stream['youtube']}) \
-| <a href="/src/player.html?v=${stream['youtube']}&s=${stream['twitch']}" onclick="return openPlayer${id}()">▶</a> |
+<%def name="player(id, stream)">
+% if stream.get('youtube') is not None:  ## TODO: player.md deprecation
+<a href="/src/player.html?v=${stream['youtube']}&s=${stream['twitch']}" \
+onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть плеер**</a>
+% elif stream.get('direct') is not None:
+<a onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть плеер**</a>
+% endif
 
 <script>
   function openPlayer${id}() {
@@ -19,18 +16,28 @@ ${'##'} ${stream['name']}
           src: ["../chats/v${stream['twitch']}.ass"],
           delay: -0.1,
         },
+        % if stream.get('youtube') is not None:
         videoJsResolutionSwitcher: {
           default: 'high',
           dynamicLabel: true
         }
+        % endif
       },
+      % if stream.get('youtube') is not None:
       techOrder: ["youtube"],
       sources: [{
         "type": "video/youtube",
         "src": "https://www.youtube.com/watch?v=${stream['youtube']}"
       }]
+      % elif stream.get('direct') is not None:
+      sources: [{
+        "type": "video/mp4",
+        "src": "${stream['direct']}"
+      }]
+      % endif
     });
     document.getElementById("spoiler-${id}").click();
+    document.getElementById("button-${id}").remove();
     return false;
   }
 </script>
@@ -42,12 +49,25 @@ ${'##'} ${stream['name']}
     <video id="player-${id}" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
 </details>
+</%def>
+
+<%def name="gen_stream(id, stream)">
+${'##'} ${stream['name']}
+
+% if stream.get('note') is not None:
+* Примечание: ${stream['note']}
+% endif
+* Ссылки:
+  * Twitch: [${stream['twitch']}](https://www.twitch.tv/videos/${stream['twitch']})
+  * Субтитры: [v${stream['twitch']}.ass](../chats/v${stream['twitch']}.ass)
+% if stream.get('youtube') is not None:
+  * Запись (YouTube): [${stream['youtube']}](https://www.youtube.com/watch?v=${stream['youtube']})
+${player(id, stream)}
+% elif stream.get('direct') is not None:
+  * Запись: [прямая ссылка](${stream['direct']})
+${player(id, stream)}
 % else:
-| Twitch | Субтитры | YouTube |
-| ------ | -------- | ------- |
-| [${stream['twitch']}](https://www.twitch.tv/videos/${stream['twitch']}) \
-| [v${stream['twitch']}.ass](../chats/v${stream['twitch']}.ass) \
-| Запись отсутствует |
+  * Запись: отсутствует
 % endif
 
 ${'####'} Команда для просмотра стрима в проигрывателе MPV
@@ -55,6 +75,8 @@ ${'####'} Команда для просмотра стрима в проигр�
 ```
 % if stream.get('youtube') is not None:
 mpv --sub-file chats/v${stream['twitch']}.ass ytdl://${stream['youtube']}
+% elif stream.get('direct') is not None:
+mpv --sub-file chats/v${stream['twitch']}.ass ${stream['direct']}
 % else:
 streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
 % endif
