@@ -1,8 +1,8 @@
 <%def name="player(id, stream)">
-% if stream.get('youtube') is not None:  ## TODO: player.md deprecation
+% if stream.get('youtube'):  ## TODO: player.md deprecation
 <a href="/src/player.html?v=${stream['youtube']}&s=${stream['twitch']}" \
 onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть плеер**</a>
-% elif stream.get('direct') is not None:
+% elif stream.get('direct'):
 <a onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть плеер**</a>
 % endif
 
@@ -16,20 +16,20 @@ onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть пле
           src: ["../chats/v${stream['twitch']}.ass"],
           delay: -0.1,
         },
-        % if stream.get('youtube') is not None:
+        % if stream.get('youtube'):
         videoJsResolutionSwitcher: {
           default: 'high',
           dynamicLabel: true
         }
         % endif
       },
-      % if stream.get('youtube') is not None:
+      % if stream.get('youtube'):
       techOrder: ["youtube"],
       sources: [{
         "type": "video/youtube",
         "src": "https://www.youtube.com/watch?v=${stream['youtube']}"
       }]
-      % elif stream.get('direct') is not None:
+      % elif stream.get('direct'):
       sources: [{
         "type": "video/mp4",
         "src": "${stream['direct']}"
@@ -54,28 +54,35 @@ onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть пле
 <%def name="gen_stream(id, stream)">
 ${'##'} ${stream['name']}
 
-% if stream.get('note') is not None:
+% if stream.get('note'):
 * Примечание: ${stream['note']}
 % endif
 * Ссылки:
   * Twitch: [${stream['twitch']}](https://www.twitch.tv/videos/${stream['twitch']})
   * Субтитры: [v${stream['twitch']}.ass](../chats/v${stream['twitch']}.ass)
-% if stream.get('youtube') is not None:
+% if stream.get('youtube'):
   * Запись (YouTube): [${stream['youtube']}](https://www.youtube.com/watch?v=${stream['youtube']})
-${player(id, stream)}
-% elif stream.get('direct') is not None:
+% elif stream.get('direct'):
   * Запись: [прямая ссылка](${stream['direct']})
-${player(id, stream)}
 % else:
   * Запись: отсутствует
+% endif
+% if stream.get('timecodes'):
+* Таймкоды:
+  % for timecode in stream['timecodes']:
+  * ${timecode} - ${stream['timecodes'][timecode]}
+  % endfor
+% endif
+% if stream.get('youtube') or stream.get('direct'):
+${player(id, stream)}
 % endif
 
 ${'####'} Команда для просмотра стрима в проигрывателе MPV
 
 ```
-% if stream.get('youtube') is not None:
+% if stream.get('youtube'):
 mpv --sub-file chats/v${stream['twitch']}.ass ytdl://${stream['youtube']}
-% elif stream.get('direct') is not None:
+% elif stream.get('direct'):
 mpv --sub-file chats/v${stream['twitch']}.ass ${stream['direct']}
 % else:
 streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
