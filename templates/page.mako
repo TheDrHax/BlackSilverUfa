@@ -1,3 +1,12 @@
+<%
+  def sec(t):
+    return sum(int(x) * 60 ** i for i,x in enumerate(reversed(t.split(":"))))
+%>
+
+<%def name="timecode_link(id, timecode)"> \
+<a onclick="player${id}.currentTime(${sec(timecode)})">${timecode}</a> \
+</%def>
+
 <%def name="player(id, stream)">
 % if stream.get('youtube'):  ## TODO: player.md deprecation
 <a href="/src/player.html?v=${stream['youtube']}&s=${stream['twitch']}" \
@@ -7,8 +16,9 @@ onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть пле
 % endif
 
 <script>
+  var player${id}
   function openPlayer${id}() {
-    videojs("player-${id}", {
+    player${id} = videojs("player-${id}", {
       controls: true, nativeControlsForTouch: false,
       width: 640, height: 360, fluid: true,
       plugins: {
@@ -38,6 +48,9 @@ onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть пле
     });
     document.getElementById("spoiler-${id}").click();
     document.getElementById("button-${id}").remove();
+    % if stream.get('offset'):
+      player${id}.currentTime(${sec(stream['offset'])})
+    % endif
     return false;
   }
 </script>
@@ -70,10 +83,10 @@ ${'##'} ${stream['name']}
 % if stream.get('timecodes'):
 * Таймкоды:
   % for timecode in stream['timecodes']:
-  * ${timecode} - ${stream['timecodes'][timecode]}
+  * ${timecode_link(id, timecode)} - ${stream['timecodes'][timecode]}
   % endfor
 % elif stream.get('offset'):
-* Стрим начинается с ${stream['offset']}
+* Стрим начинается с ${timecode_link(id, stream['offset'])}
 % endif
 % if stream.get('youtube') or stream.get('direct'):
 ${player(id, stream)}
