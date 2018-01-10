@@ -14,6 +14,7 @@ node('python-pip') {
 
     stage('Pull') {
         git branch: branch, credentialsId: cred_git, url: repo_url
+        sh 'pip install -r requirements.txt'
         sh 'pip install -U https://github.com/TheDrHax/Twitch-Chat-Downloader/archive/master.zip'
     }
 
