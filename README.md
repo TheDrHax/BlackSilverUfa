@@ -33,7 +33,7 @@
 ### В процессе
 
 * [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (20 стримов)
-* [NieR Automata](links/nier-automata.md) (5 стримов)
+* [NieR Automata](links/nier-automata.md) (6 стримов)
 
 #### Потенциально бесконечные
 
