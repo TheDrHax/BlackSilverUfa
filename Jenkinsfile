@@ -9,11 +9,12 @@ node('python-pip') {
     String repo_url = 'git@github.com:' + github_account + '/' + github_repo + '.git'
 
     String reused = 'chats'
-    String outputs = 'chats links README.md'
+    String outputs = 'chats links src README.md'
 
 
     stage('Pull') {
         git branch: branch, credentialsId: cred_git, url: repo_url
+        sh 'pip install -r requirements.txt'
         sh 'pip install -U https://github.com/TheDrHax/Twitch-Chat-Downloader/archive/master.zip'
     }
 
@@ -24,7 +25,7 @@ node('python-pip') {
     }
 
     stage('Build') {
-        sh 'sh generate.sh'
+        sh 'python generate.py'
     }
 
     stage('Commit') {
