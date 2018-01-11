@@ -108,7 +108,7 @@ mpv --sub-file chats/v205262158.ass ytdl://9rrv07l9Bxs
     });
     document.getElementById("spoiler-1").click();
     document.getElementById("button-1").remove();
-      player1.currentTime(11220)
+      player1.currentTime(11220);
     return false;
   }
 </script>

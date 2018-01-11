@@ -55,7 +55,7 @@
     });
     document.getElementById("spoiler-0").click();
     document.getElementById("button-0").remove();
-      player0.currentTime(9691)
+      player0.currentTime(9691);
     return false;
   }
 </script>
@@ -110,7 +110,7 @@ mpv --sub-file chats/v172968603.ass ytdl://fxwks5MC9Ns
     });
     document.getElementById("spoiler-1").click();
     document.getElementById("button-1").remove();
-      player1.currentTime(10180)
+      player1.currentTime(10180);
     return false;
   }
 </script>
@@ -165,7 +165,7 @@ mpv --sub-file chats/v176397641.ass ytdl://yxlbqLonbKI
     });
     document.getElementById("spoiler-2").click();
     document.getElementById("button-2").remove();
-      player2.currentTime(11645)
+      player2.currentTime(11645);
     return false;
   }
 </script>
@@ -220,7 +220,7 @@ mpv --sub-file chats/v177634045.ass ytdl://NR3Acyrhnp4
     });
     document.getElementById("spoiler-3").click();
     document.getElementById("button-3").remove();
-      player3.currentTime(10800)
+      player3.currentTime(10800);
     return false;
   }
 </script>
@@ -275,7 +275,7 @@ mpv --sub-file chats/v179635876.ass ytdl://zxTKOfKANt8
     });
     document.getElementById("spoiler-4").click();
     document.getElementById("button-4").remove();
-      player4.currentTime(10090)
+      player4.currentTime(10090);
     return false;
   }
 </script>

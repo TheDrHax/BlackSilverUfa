@@ -108,7 +108,7 @@ mpv --sub-file chats/v185763905.ass ytdl://kkeGLQrrkAM
     });
     document.getElementById("spoiler-1").click();
     document.getElementById("button-1").remove();
-      player1.currentTime(11420)
+      player1.currentTime(11420);
     return false;
   }
 </script>
@@ -216,7 +216,7 @@ mpv --sub-file chats/v202381358.ass ytdl://Umsq53kBb9I
     });
     document.getElementById("spoiler-3").click();
     document.getElementById("button-3").remove();
-      player3.currentTime(10798)
+      player3.currentTime(10798);
     return false;
   }
 </script>

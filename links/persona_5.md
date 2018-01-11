@@ -320,7 +320,7 @@ mpv --sub-file chats/v148253751.ass ytdl://eMFwk3Enb3c
     });
     document.getElementById("spoiler-5").click();
     document.getElementById("button-5").remove();
-      player5.currentTime(8100)
+      player5.currentTime(8100);
     return false;
   }
 </script>
@@ -375,7 +375,7 @@ mpv --sub-file chats/v154787759.ass ytdl://f5U_5Gwx-Mk
     });
     document.getElementById("spoiler-6").click();
     document.getElementById("button-6").remove();
-      player6.currentTime(7830)
+      player6.currentTime(7830);
     return false;
   }
 </script>
@@ -430,7 +430,7 @@ mpv --sub-file chats/v173993139.ass ytdl://eGY5W8Dtehs
     });
     document.getElementById("spoiler-7").click();
     document.getElementById("button-7").remove();
-      player7.currentTime(7804)
+      player7.currentTime(7804);
     return false;
   }
 </script>

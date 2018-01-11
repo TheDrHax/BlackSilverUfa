@@ -23,15 +23,58 @@
  
 ## 1 (прерван)
 
+* Примечание: Запись найдена у [Олега Степанова](https://vk.com/sova260480)
 * Ссылки:
   * Twitch: [160844876](https://www.twitch.tv/videos/160844876)
   * Субтитры: [v160844876.ass](../chats/v160844876.ass)
-  * Запись: отсутствует
+  * Запись: [прямая ссылка](https://cs640002.vkuservideo.net/0/u87862793/videos/46fd005765.720.mp4)
+* Стрим заканчивается в  <a onclick="player0.currentTime(3138)">52:18</a> 
+
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+
+<script>
+  var player0
+  function openPlayer0() {
+    player0 = videojs("player-0", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v160844876.ass"],
+          delay: -0.1,
+        },
+      },
+      sources: [{
+        "type": "video/mp4",
+        "src": "https://cs640002.vkuservideo.net/0/u87862793/videos/46fd005765.720.mp4"
+      }]
+    });
+    document.getElementById("spoiler-0").click();
+    document.getElementById("button-0").remove();
+      player0.duration = function() {
+        return 3138; // the amount of seconds of video
+      }
+      player0.remainingTimeDisplay = function() {
+        var a = Math.floor(this.duration()) - Math.floor(this.currentTime());
+        if (a <= 0) this.pause();
+        return a;
+      }
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-0"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v160844876.ass" --player-passthrough hls twitch.tv/videos/160844876 best
+mpv --sub-file chats/v160844876.ass https://cs640002.vkuservideo.net/0/u87862793/videos/46fd005765.720.mp4
 ```
 
 ---- 

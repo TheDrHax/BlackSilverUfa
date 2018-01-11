@@ -74,6 +74,5 @@
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
-* [The Evil Within](links/evil_within.md) - 1 (прерван)
 * [NieR Automata](links/nier-automata.md) - 4
 * [Resident Evil 4](links/re4.md) - 4
