@@ -43,12 +43,12 @@
     });
     document.getElementById("spoiler-${id}").click();
     document.getElementById("button-${id}").remove();
-    % if stream.get('offset'):
-      player${id}.currentTime(${sec(stream['offset'])});
+    % if stream.get('start'):
+      player${id}.currentTime(${sec(stream['start'])});
     % endif
-    % if stream.get('duration'):
+    % if stream.get('end'):
       player${id}.duration = function() {
-        return ${sec(stream['duration'])}; // the amount of seconds of video
+        return ${sec(stream['end'])}; // the amount of seconds of video
       }
       player${id}.remainingTimeDisplay = function() {
         var a = Math.floor(this.duration()) - Math.floor(this.currentTime());
@@ -90,8 +90,12 @@ ${'##'} ${stream['name']}
   % for timecode in stream['timecodes']:
   * ${timecode_link(id, timecode[0])} - ${timecode[1]}
   % endfor
-% elif stream.get('offset'):
-* Стрим начинается с ${timecode_link(id, stream['offset'])}
+% endif
+% if stream.get('start'):
+* Стрим начинается с ${timecode_link(id, stream['start'])}
+% endif
+% if stream.get('end'):
+* Стрим заканчивается в ${timecode_link(id, stream['end'])}
 % endif
 % if stream.get('youtube') or stream.get('direct'):
 ${player(id, stream)}
