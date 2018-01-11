@@ -25,7 +25,7 @@ if __name__ == "__main__":
                 category['games'].append(game)
 
     # Create required directores
-    for directory in ['chats', 'links']:
+    for directory in ['chats', 'links', 'src']:
         if not os.path.isdir(directory):
             os.mkdir(directory)
 
@@ -40,6 +40,11 @@ if __name__ == "__main__":
     with io.open("README.md", "w+", encoding="utf-8") as output:
         t = Template(filename="templates/README.mako", input_encoding="utf-8")
         output.write(t.render(categories=categories).strip())
+
+    # Generate src/player.html for backward compatibility
+    with io.open("src/player.html", "w+", encoding="utf-8") as output:
+        t = Template(filename="templates/player.mako", input_encoding="utf-8")
+        output.write(t.render(games=games).strip())
 
     # Generate links/*.md
     t = Template(filename="templates/page.mako", input_encoding="utf-8")
