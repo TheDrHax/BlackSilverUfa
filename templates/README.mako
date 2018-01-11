@@ -47,3 +47,24 @@ ${category['description']}
   % endif
 
 % endfor
+
+----
+
+${'###'} Стримы без записей
+
+Если у вас есть ссылка на запись любого из этих стримов, сообщите мне через раздел
+[Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
+Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
+
+<% missing = False %>\
+% for game in games:
+  % for stream in game['streams']:
+    % if not stream.get('youtube') and not stream.get('direct'):
+<% missing = True %>\
+* [${game['name']}](links/${game['filename']}) - ${stream['name']}
+    % endif
+  % endfor
+% endfor
+% if not missing:
+* Все записи на месте. Отлично! :)
+% endif

@@ -39,7 +39,7 @@ if __name__ == "__main__":
     # Generate README.md
     with io.open("README.md", "w+", encoding="utf-8") as output:
         t = Template(filename="templates/README.mako", input_encoding="utf-8")
-        output.write(t.render(categories=categories).strip())
+        output.write(t.render(categories=categories, games=games).strip())
 
     # Generate src/player.html for backward compatibility
     with io.open("src/player.html", "w+", encoding="utf-8") as output:
