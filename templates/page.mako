@@ -44,7 +44,17 @@
     document.getElementById("spoiler-${id}").click();
     document.getElementById("button-${id}").remove();
     % if stream.get('offset'):
-      player${id}.currentTime(${sec(stream['offset'])})
+      player${id}.currentTime(${sec(stream['offset'])});
+    % endif
+    % if stream.get('duration'):
+      player${id}.duration = function() {
+        return ${sec(stream['duration'])}; // the amount of seconds of video
+      }
+      player${id}.remainingTimeDisplay = function() {
+        var a = Math.floor(this.duration()) - Math.floor(this.currentTime());
+        if (a <= 0) this.pause();
+        return a;
+      }
     % endif
     return false;
   }
