@@ -33,6 +33,9 @@ ${category['name']}
   % endif
 
   ## Содержимое категории
+  % if category.get('description'):
+${category['description']}
+  % endif
   % if category.get('type') is None:
     % for game in category['games']:
 * [${game['name']}](links/${game['filename']}) (${count_format(len(game['streams']))})
