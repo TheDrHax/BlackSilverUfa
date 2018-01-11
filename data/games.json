@@ -25,105 +25,105 @@
       "name": "1",
       "twitch": "180663832",
       "youtube": "y2PitYePsOU",
-      "timecodes": {
-        "11:12": "Hand Simulator",
-        "1:35:44": "Ben and Ed: Blood Party",
-        "3:19:30": "Stick Fight",
-        "4:02:04": "Golf It!"
-      }
+      "timecodes": [
+        ["11:12", "Hand Simulator"],
+        ["1:35:44", "Ben and Ed: Blood Party"],
+        ["3:19:30", "Stick Fight"],
+        ["4:02:04", "Golf It!"]
+      ]
     },
     {
       "name": "2",
       "twitch": "182448131",
       "youtube": "IqTeWjugKOE",
-      "timecodes": {
-        "15:16": "Hand Simulator",
-        "1:12:26": "Gang Beasts",
-        "2:18:21": "Duck Game",
-        "2:46:00": "Move or Die"
-      }
+      "timecodes": [
+        ["15:16", "Hand Simulator"],
+        ["1:12:26", "Gang Beasts"],
+        ["2:18:21", "Duck Game"],
+        ["2:46:00", "Move or Die"]
+      ]
     },
     {
       "name": "3",
       "twitch": "184206477",
       "youtube": "tUc-5QNu_CE",
-      "timecodes": {
-        "24:55": "Spelunker! Party",
-        "54:58": "Ultimate Chicken Horse",
-        "1:48:56": "We Need to go Deeper",
-        "2:55:35": "Gang Beasts",
-        "3:49:00": "Hand Simulator",
-        "4:18:30": "Golf It!"
-      }
+      "timecodes": [
+        ["24:55", "Spelunker! Party"],
+        ["54:58", "Ultimate Chicken Horse"],
+        ["1:48:56", "We Need to go Deeper"],
+        ["2:55:35", "Gang Beasts"],
+        ["3:49:00", "Hand Simulator"],
+        ["4:18:30", "Golf It!"]
+      ]
     },
     {
       "name": "4",
       "twitch": "187586726",
       "youtube": "PYqnr5-Lq4o",
-      "timecodes": {
-        "25:22": "Deceit",
-        "52:24": "Friday the 13th",
-        "2:21:23": "Deceit"
-      }
+      "timecodes": [
+        ["25:22", "Deceit"],
+        ["52:24", "Friday the 13th"],
+        ["2:21:23", "Deceit"]
+      ]
     },
     {
       "name": "5",
       "twitch": "200702885",
       "youtube": "qyMVUvAjqdE",
-      "timecodes": {
-        "23:30": "Dead by Daylight",
-        "2:09:00": "Pulsar: Lost Colony",
-        "4:02:50": "Deceit"
-      }
+      "timecodes": [
+        ["23:30", "Dead by Daylight"],
+        ["2:09:00", "Pulsar: Lost Colony"],
+        ["4:02:50", "Deceit"]
+      ]
     },
     {
       "name": "6",
       "twitch": "202631693",
       "youtube": "BL6BrZRmRts",
-      "timecodes": {
-        "21:00": "Human: Fall Flat",
-        "4:24:00": "Deceit"
-      }
+      "timecodes": [
+        ["21:00", "Human: Fall Flat"],
+        ["4:24:00", "Deceit"]
+      ]
     },
     {
       "name": "7",
       "twitch": "206394832",
       "youtube": "-77Qpme-5EA",
-      "timecodes": {
-        "23:00": "Looterkings",
-        "1:25:00": "Mount Your Friends",
-        "2:49:00": "We Need to Go Deeper",
-        "4:36:00": "Golf It!"
-      }
+      "timecodes": [
+        ["23:00", "Looterkings"],
+        ["1:25:00", "Mount Your Friends"],
+        ["2:49:00", "We Need to Go Deeper"],
+        ["4:36:00", "Golf It!"]
+      ]
     },
     {
       "name": "8",
       "twitch": "207753795",
       "youtube": "PPZFFjgxKnY",
-      "timecodes": {
-        "8:30": "Witch It",
-        "3:24:00": "PUBG"
-      }
+      "timecodes": [
+        ["8:30", "Witch It"],
+        ["3:24:00", "PUBG"]
+      ]
     },
     {
       "name": "9",
       "twitch": "213247693",
       "youtube": "GPga2h4UUXc",
-      "timecodes": {
-        "15:00": "The Hunter: Call of the Wild",
-        "3:10:00": "Road Redemption"
-      }
+      "timecodes": [
+        ["15:00", "The Hunter: Call of the Wild"],
+        ["3:10:00", "Road Redemption"]
+      ]
     },
     {
       "name": "10",
       "twitch": "213846142",
       "youtube": "8GFZF96owuA",
-      "timecodes": {
-        "13:00": "Hand Simulator",
-        "1:58:00": "Viscera Cleanup Detail",
-        "3:00:00": "Astroneer",
-        "4:59:00": "Gang Beasts"
-      }
+      "timecodes": [
+        ["13:00", "Hand Simulator"],
+        ["1:58:00", "Viscera Cleanup Detail"],
+        ["3:00:00", "Astroneer"],
+        ["4:59:00", "Gang Beasts"]
+      ]
     }
   ]
 },
@@ -602,30 +602,30 @@
       "name": "1",
       "twitch": "180397849",
       "youtube": "x5KwWrLRpEg",
-      "timecodes": {
-        "17:26": "Road Redemption",
-        "1:16:16": "Battle Chasers",
-        "2:57:45": "Stardew Valley"
-      }
+      "timecodes": [
+        ["17:26", "Road Redemption"],
+        ["1:16:16", "Battle Chasers"],
+        ["2:57:45", "Stardew Valley"]
+      ]
     },
     {
       "name": "2",
       "twitch": "212431882",
       "youtube": "JS7cNXnzCTA",
-      "timecodes": {
-        "20:47": "Uncanny Valley",
-        "1:44:54": "The Coma: Recut",
-        "2:52:00": "Lone Survivor"
-      }
+      "timecodes": [
+        ["20:47", "Uncanny Valley"],
+        ["1:44:54", "The Coma: Recut"],
+        ["2:52:00", "Lone Survivor"]
+      ]
     },
     {
       "name": "3",
       "twitch": "212678883",
       "youtube": "sz8y749Jn_8",
-      "timecodes": {
-        "25:00": "Stifled",
-        "2:59:00": "Uncanny Valley"
-      }
+      "timecodes": [
+        ["25:00", "Stifled"],
+        ["2:59:00", "Uncanny Valley"]
+      ]
     }
   ]
 },
