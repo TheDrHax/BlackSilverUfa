@@ -12,33 +12,6 @@
 <!-- videojs-resolution-switcher -->
 <script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
 
-<script>
-function createPlayer(id, youtube, twitch) {
-  videojs(id, {
-    controls: true,
-    nativeControlsForTouch: false,
-    width: 640,
-    height: 360,
-    fluid: true,
-    plugins: {
-      ass: {
-        src: ["../chats/v" + twitch + ".ass"],
-        delay: -0.1,
-      },
-      videoJsResolutionSwitcher: {
-        default: 'high',
-        dynamicLabel: true
-      }
-    },
-    techOrder: ["youtube"],
-    sources: [{
-      "type": "video/youtube",
-      "src": "https://www.youtube.com/watch?v=" + youtube
-    }]
-  });
-}
-</script>
-
 <style>
   .main-content {
     padding: 2rem;
@@ -47,30 +20,51 @@ function createPlayer(id, youtube, twitch) {
 </style>
 
 # Hellblade: Senua's Sacrifice
-
+ 
 ## 1
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [165359272](https://www.twitch.tv/videos/165359272) | [v165359272.ass](../chats/v165359272.ass) | [qInCMF9MuEs](https://www.youtube.com/watch?v=qInCMF9MuEs) | <a href="/src/player.html?v=qInCMF9MuEs&s=165359272" onclick="return openPlayer165359272()">▶</a> |
+* Ссылки:
+  * Twitch: [165359272](https://www.twitch.tv/videos/165359272)
+  * Субтитры: [v165359272.ass](../chats/v165359272.ass)
+  * Запись (YouTube): [qInCMF9MuEs](https://www.youtube.com/watch?v=qInCMF9MuEs)
+
+<a href="/src/player.html?v=qInCMF9MuEs&s=165359272" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer165359272() {
-    createPlayer("player-qInCMF9MuEs", "qInCMF9MuEs", "165359272");
-    document.getElementById("spoiler-qInCMF9MuEs").click();
+  var player0
+  function openPlayer0() {
+    player0 = videojs("player-0", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v165359272.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=qInCMF9MuEs"
+      }]
+    });
+    document.getElementById("spoiler-0").click();
+    document.getElementById("button-0").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-qInCMF9MuEs"></summary>
+  <summary id="spoiler-0"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-qInCMF9MuEs"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -78,30 +72,52 @@ function createPlayer(id, youtube, twitch) {
 mpv --sub-file chats/v165359272.ass ytdl://qInCMF9MuEs
 ```
 
-----
+---- 
+ 
 ## 2
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [165630859](https://www.twitch.tv/videos/165630859) | [v165630859.ass](../chats/v165630859.ass) | [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE) | <a href="/src/player.html?v=7r6_dwXVXgE&s=165630859" onclick="return openPlayer165630859()">▶</a> |
+* Ссылки:
+  * Twitch: [165630859](https://www.twitch.tv/videos/165630859)
+  * Субтитры: [v165630859.ass](../chats/v165630859.ass)
+  * Запись (YouTube): [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE)
+
+<a href="/src/player.html?v=7r6_dwXVXgE&s=165630859" onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer165630859() {
-    createPlayer("player-7r6_dwXVXgE", "7r6_dwXVXgE", "165630859");
-    document.getElementById("spoiler-7r6_dwXVXgE").click();
+  var player1
+  function openPlayer1() {
+    player1 = videojs("player-1", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v165630859.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=7r6_dwXVXgE"
+      }]
+    });
+    document.getElementById("spoiler-1").click();
+    document.getElementById("button-1").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-7r6_dwXVXgE"></summary>
+  <summary id="spoiler-1"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-7r6_dwXVXgE"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -109,8 +125,8 @@ mpv --sub-file chats/v165359272.ass ytdl://qInCMF9MuEs
 mpv --sub-file chats/v165630859.ass ytdl://7r6_dwXVXgE
 ```
 
-----
-
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:
@@ -118,4 +134,3 @@ mpv --sub-file chats/v165630859.ass ytdl://7r6_dwXVXgE
 * `cd BlackSilverUfa`
 * `git checkout gh-pages`
 * Команда, приведённая выше
-

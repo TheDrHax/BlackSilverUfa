@@ -12,33 +12,6 @@
 <!-- videojs-resolution-switcher -->
 <script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
 
-<script>
-function createPlayer(id, youtube, twitch) {
-  videojs(id, {
-    controls: true,
-    nativeControlsForTouch: false,
-    width: 640,
-    height: 360,
-    fluid: true,
-    plugins: {
-      ass: {
-        src: ["../chats/v" + twitch + ".ass"],
-        delay: -0.1,
-      },
-      videoJsResolutionSwitcher: {
-        default: 'high',
-        dynamicLabel: true
-      }
-    },
-    techOrder: ["youtube"],
-    sources: [{
-      "type": "video/youtube",
-      "src": "https://www.youtube.com/watch?v=" + youtube
-    }]
-  });
-}
-</script>
-
 <style>
   .main-content {
     padding: 2rem;
@@ -47,30 +20,51 @@ function createPlayer(id, youtube, twitch) {
 </style>
 
 # The Legend of Zelda: Twilight Princess HD
-
+ 
 ## 1
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [163612448](https://www.twitch.tv/videos/163612448) | [v163612448.ass](../chats/v163612448.ass) | [ujz4o78-orM](https://www.youtube.com/watch?v=ujz4o78-orM) | <a href="/src/player.html?v=ujz4o78-orM&s=163612448" onclick="return openPlayer163612448()">▶</a> |
+* Ссылки:
+  * Twitch: [163612448](https://www.twitch.tv/videos/163612448)
+  * Субтитры: [v163612448.ass](../chats/v163612448.ass)
+  * Запись (YouTube): [ujz4o78-orM](https://www.youtube.com/watch?v=ujz4o78-orM)
+
+<a href="/src/player.html?v=ujz4o78-orM&s=163612448" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer163612448() {
-    createPlayer("player-ujz4o78-orM", "ujz4o78-orM", "163612448");
-    document.getElementById("spoiler-ujz4o78-orM").click();
+  var player0
+  function openPlayer0() {
+    player0 = videojs("player-0", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v163612448.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=ujz4o78-orM"
+      }]
+    });
+    document.getElementById("spoiler-0").click();
+    document.getElementById("button-0").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-ujz4o78-orM"></summary>
+  <summary id="spoiler-0"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-ujz4o78-orM"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -78,8 +72,8 @@ function createPlayer(id, youtube, twitch) {
 mpv --sub-file chats/v163612448.ass ytdl://ujz4o78-orM
 ```
 
-----
-
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:
@@ -87,4 +81,3 @@ mpv --sub-file chats/v163612448.ass ytdl://ujz4o78-orM
 * `cd BlackSilverUfa`
 * `git checkout gh-pages`
 * Команда, приведённая выше
-

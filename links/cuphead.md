@@ -12,33 +12,6 @@
 <!-- videojs-resolution-switcher -->
 <script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
 
-<script>
-function createPlayer(id, youtube, twitch) {
-  videojs(id, {
-    controls: true,
-    nativeControlsForTouch: false,
-    width: 640,
-    height: 360,
-    fluid: true,
-    plugins: {
-      ass: {
-        src: ["../chats/v" + twitch + ".ass"],
-        delay: -0.1,
-      },
-      videoJsResolutionSwitcher: {
-        default: 'high',
-        dynamicLabel: true
-      }
-    },
-    techOrder: ["youtube"],
-    sources: [{
-      "type": "video/youtube",
-      "src": "https://www.youtube.com/watch?v=" + youtube
-    }]
-  });
-}
-</script>
-
 <style>
   .main-content {
     padding: 2rem;
@@ -47,30 +20,51 @@ function createPlayer(id, youtube, twitch) {
 </style>
 
 # Cuphead
-
+ 
 ## 1
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [178361269](https://www.twitch.tv/videos/178361269) | [v178361269.ass](../chats/v178361269.ass) | [T6Y4hGvcIL8](https://www.youtube.com/watch?v=T6Y4hGvcIL8) | <a href="/src/player.html?v=T6Y4hGvcIL8&s=178361269" onclick="return openPlayer178361269()">▶</a> |
+* Ссылки:
+  * Twitch: [178361269](https://www.twitch.tv/videos/178361269)
+  * Субтитры: [v178361269.ass](../chats/v178361269.ass)
+  * Запись (YouTube): [T6Y4hGvcIL8](https://www.youtube.com/watch?v=T6Y4hGvcIL8)
+
+<a href="/src/player.html?v=T6Y4hGvcIL8&s=178361269" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer178361269() {
-    createPlayer("player-T6Y4hGvcIL8", "T6Y4hGvcIL8", "178361269");
-    document.getElementById("spoiler-T6Y4hGvcIL8").click();
+  var player0
+  function openPlayer0() {
+    player0 = videojs("player-0", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v178361269.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=T6Y4hGvcIL8"
+      }]
+    });
+    document.getElementById("spoiler-0").click();
+    document.getElementById("button-0").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-T6Y4hGvcIL8"></summary>
+  <summary id="spoiler-0"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-T6Y4hGvcIL8"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -78,8 +72,8 @@ function createPlayer(id, youtube, twitch) {
 mpv --sub-file chats/v178361269.ass ytdl://T6Y4hGvcIL8
 ```
 
-----
-
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:
@@ -87,4 +81,3 @@ mpv --sub-file chats/v178361269.ass ytdl://T6Y4hGvcIL8
 * `cd BlackSilverUfa`
 * `git checkout gh-pages`
 * Команда, приведённая выше
-

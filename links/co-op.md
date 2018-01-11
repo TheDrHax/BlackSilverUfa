@@ -12,33 +12,6 @@
 <!-- videojs-resolution-switcher -->
 <script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
 
-<script>
-function createPlayer(id, youtube, twitch) {
-  videojs(id, {
-    controls: true,
-    nativeControlsForTouch: false,
-    width: 640,
-    height: 360,
-    fluid: true,
-    plugins: {
-      ass: {
-        src: ["../chats/v" + twitch + ".ass"],
-        delay: -0.1,
-      },
-      videoJsResolutionSwitcher: {
-        default: 'high',
-        dynamicLabel: true
-      }
-    },
-    techOrder: ["youtube"],
-    sources: [{
-      "type": "video/youtube",
-      "src": "https://www.youtube.com/watch?v=" + youtube
-    }]
-  });
-}
-</script>
-
 <style>
   .main-content {
     padding: 2rem;
@@ -47,30 +20,56 @@ function createPlayer(id, youtube, twitch) {
 </style>
 
 # Несюжетные ко-опы
+ 
+## 1
 
-## 11:12 - Hand Simulator<br>1:35:44 - Ben and Ed: Blood Party<br>3:19:30 - Stick Fight<br>4:02:04 - Golf It!
+* Ссылки:
+  * Twitch: [180663832](https://www.twitch.tv/videos/180663832)
+  * Субтитры: [v180663832.ass](../chats/v180663832.ass)
+  * Запись (YouTube): [y2PitYePsOU](https://www.youtube.com/watch?v=y2PitYePsOU)
+* Таймкоды:
+  *  <a onclick="player0.currentTime(672)">11:12</a>  - Hand Simulator
+  *  <a onclick="player0.currentTime(5744)">1:35:44</a>  - Ben and Ed: Blood Party
+  *  <a onclick="player0.currentTime(11970)">3:19:30</a>  - Stick Fight
+  *  <a onclick="player0.currentTime(14524)">4:02:04</a>  - Golf It!
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [180663832](https://www.twitch.tv/videos/180663832) | [v180663832.ass](../chats/v180663832.ass) | [y2PitYePsOU](https://www.youtube.com/watch?v=y2PitYePsOU) | <a href="/src/player.html?v=y2PitYePsOU&s=180663832" onclick="return openPlayer180663832()">▶</a> |
+<a href="/src/player.html?v=y2PitYePsOU&s=180663832" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer180663832() {
-    createPlayer("player-y2PitYePsOU", "y2PitYePsOU", "180663832");
-    document.getElementById("spoiler-y2PitYePsOU").click();
+  var player0
+  function openPlayer0() {
+    player0 = videojs("player-0", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v180663832.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=y2PitYePsOU"
+      }]
+    });
+    document.getElementById("spoiler-0").click();
+    document.getElementById("button-0").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-y2PitYePsOU"></summary>
+  <summary id="spoiler-0"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-y2PitYePsOU"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -78,30 +77,57 @@ function createPlayer(id, youtube, twitch) {
 mpv --sub-file chats/v180663832.ass ytdl://y2PitYePsOU
 ```
 
-----
-## 15:16 - Hand Simulator<br>1:12:26 - Gang Beasts<br>2:18:21 - Duck Game<br>2:46:00 - Move or Die
+---- 
+ 
+## 2
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [182448131](https://www.twitch.tv/videos/182448131) | [v182448131.ass](../chats/v182448131.ass) | [IqTeWjugKOE](https://www.youtube.com/watch?v=IqTeWjugKOE) | <a href="/src/player.html?v=IqTeWjugKOE&s=182448131" onclick="return openPlayer182448131()">▶</a> |
+* Ссылки:
+  * Twitch: [182448131](https://www.twitch.tv/videos/182448131)
+  * Субтитры: [v182448131.ass](../chats/v182448131.ass)
+  * Запись (YouTube): [IqTeWjugKOE](https://www.youtube.com/watch?v=IqTeWjugKOE)
+* Таймкоды:
+  *  <a onclick="player1.currentTime(916)">15:16</a>  - Hand Simulator
+  *  <a onclick="player1.currentTime(4346)">1:12:26</a>  - Gang Beasts
+  *  <a onclick="player1.currentTime(8301)">2:18:21</a>  - Duck Game
+  *  <a onclick="player1.currentTime(9960)">2:46:00</a>  - Move or Die
+
+<a href="/src/player.html?v=IqTeWjugKOE&s=182448131" onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer182448131() {
-    createPlayer("player-IqTeWjugKOE", "IqTeWjugKOE", "182448131");
-    document.getElementById("spoiler-IqTeWjugKOE").click();
+  var player1
+  function openPlayer1() {
+    player1 = videojs("player-1", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v182448131.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=IqTeWjugKOE"
+      }]
+    });
+    document.getElementById("spoiler-1").click();
+    document.getElementById("button-1").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-IqTeWjugKOE"></summary>
+  <summary id="spoiler-1"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-IqTeWjugKOE"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -109,30 +135,59 @@ mpv --sub-file chats/v180663832.ass ytdl://y2PitYePsOU
 mpv --sub-file chats/v182448131.ass ytdl://IqTeWjugKOE
 ```
 
-----
-## 24:55 - Spelunker! Party<br>54:58 - Ultimate Chicken Horse<br>1:48:56 - We Need to go Deeper<br>2:55:35 - Gang Beasts<br>3:49:00 - Hand Simulator<br>4:18:30 - Golf It!
+---- 
+ 
+## 3
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [184206477](https://www.twitch.tv/videos/184206477) | [v184206477.ass](../chats/v184206477.ass) | [tUc-5QNu_CE](https://www.youtube.com/watch?v=tUc-5QNu_CE) | <a href="/src/player.html?v=tUc-5QNu_CE&s=184206477" onclick="return openPlayer184206477()">▶</a> |
+* Ссылки:
+  * Twitch: [184206477](https://www.twitch.tv/videos/184206477)
+  * Субтитры: [v184206477.ass](../chats/v184206477.ass)
+  * Запись (YouTube): [tUc-5QNu_CE](https://www.youtube.com/watch?v=tUc-5QNu_CE)
+* Таймкоды:
+  *  <a onclick="player2.currentTime(1495)">24:55</a>  - Spelunker! Party
+  *  <a onclick="player2.currentTime(3298)">54:58</a>  - Ultimate Chicken Horse
+  *  <a onclick="player2.currentTime(6536)">1:48:56</a>  - We Need to go Deeper
+  *  <a onclick="player2.currentTime(10535)">2:55:35</a>  - Gang Beasts
+  *  <a onclick="player2.currentTime(13740)">3:49:00</a>  - Hand Simulator
+  *  <a onclick="player2.currentTime(15510)">4:18:30</a>  - Golf It!
+
+<a href="/src/player.html?v=tUc-5QNu_CE&s=184206477" onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer184206477() {
-    createPlayer("player-tUc-5QNu_CE", "tUc-5QNu_CE", "184206477");
-    document.getElementById("spoiler-tUc-5QNu_CE").click();
+  var player2
+  function openPlayer2() {
+    player2 = videojs("player-2", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v184206477.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=tUc-5QNu_CE"
+      }]
+    });
+    document.getElementById("spoiler-2").click();
+    document.getElementById("button-2").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-tUc-5QNu_CE"></summary>
+  <summary id="spoiler-2"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-tUc-5QNu_CE"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-2" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -140,30 +195,56 @@ mpv --sub-file chats/v182448131.ass ytdl://IqTeWjugKOE
 mpv --sub-file chats/v184206477.ass ytdl://tUc-5QNu_CE
 ```
 
-----
-## 25:22 - Deceit<br>52:24 - Friday the 13th<br>2:21:23 - Deceit
+---- 
+ 
+## 4
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [187586726](https://www.twitch.tv/videos/187586726) | [v187586726.ass](../chats/v187586726.ass) | [PYqnr5-Lq4o](https://www.youtube.com/watch?v=PYqnr5-Lq4o) | <a href="/src/player.html?v=PYqnr5-Lq4o&s=187586726" onclick="return openPlayer187586726()">▶</a> |
+* Ссылки:
+  * Twitch: [187586726](https://www.twitch.tv/videos/187586726)
+  * Субтитры: [v187586726.ass](../chats/v187586726.ass)
+  * Запись (YouTube): [PYqnr5-Lq4o](https://www.youtube.com/watch?v=PYqnr5-Lq4o)
+* Таймкоды:
+  *  <a onclick="player3.currentTime(1522)">25:22</a>  - Deceit
+  *  <a onclick="player3.currentTime(3144)">52:24</a>  - Friday the 13th
+  *  <a onclick="player3.currentTime(8483)">2:21:23</a>  - Deceit
+
+<a href="/src/player.html?v=PYqnr5-Lq4o&s=187586726" onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer187586726() {
-    createPlayer("player-PYqnr5-Lq4o", "PYqnr5-Lq4o", "187586726");
-    document.getElementById("spoiler-PYqnr5-Lq4o").click();
+  var player3
+  function openPlayer3() {
+    player3 = videojs("player-3", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v187586726.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=PYqnr5-Lq4o"
+      }]
+    });
+    document.getElementById("spoiler-3").click();
+    document.getElementById("button-3").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-PYqnr5-Lq4o"></summary>
+  <summary id="spoiler-3"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-PYqnr5-Lq4o"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-3" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -171,30 +252,56 @@ mpv --sub-file chats/v184206477.ass ytdl://tUc-5QNu_CE
 mpv --sub-file chats/v187586726.ass ytdl://PYqnr5-Lq4o
 ```
 
-----
-## 23:30 - Dead by Daylight<br>2:09:00 - Pulsar: Lost Colony<br>4:02:50 - Deceit
+---- 
+ 
+## 5
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [200702885](https://www.twitch.tv/videos/200702885) | [v200702885.ass](../chats/v200702885.ass) | [qyMVUvAjqdE](https://www.youtube.com/watch?v=qyMVUvAjqdE) | <a href="/src/player.html?v=qyMVUvAjqdE&s=200702885" onclick="return openPlayer200702885()">▶</a> |
+* Ссылки:
+  * Twitch: [200702885](https://www.twitch.tv/videos/200702885)
+  * Субтитры: [v200702885.ass](../chats/v200702885.ass)
+  * Запись (YouTube): [qyMVUvAjqdE](https://www.youtube.com/watch?v=qyMVUvAjqdE)
+* Таймкоды:
+  *  <a onclick="player4.currentTime(1410)">23:30</a>  - Dead by Daylight
+  *  <a onclick="player4.currentTime(7740)">2:09:00</a>  - Pulsar: Lost Colony
+  *  <a onclick="player4.currentTime(14570)">4:02:50</a>  - Deceit
+
+<a href="/src/player.html?v=qyMVUvAjqdE&s=200702885" onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer200702885() {
-    createPlayer("player-qyMVUvAjqdE", "qyMVUvAjqdE", "200702885");
-    document.getElementById("spoiler-qyMVUvAjqdE").click();
+  var player4
+  function openPlayer4() {
+    player4 = videojs("player-4", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v200702885.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=qyMVUvAjqdE"
+      }]
+    });
+    document.getElementById("spoiler-4").click();
+    document.getElementById("button-4").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-qyMVUvAjqdE"></summary>
+  <summary id="spoiler-4"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-qyMVUvAjqdE"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-4" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -202,30 +309,55 @@ mpv --sub-file chats/v187586726.ass ytdl://PYqnr5-Lq4o
 mpv --sub-file chats/v200702885.ass ytdl://qyMVUvAjqdE
 ```
 
-----
-## 21:00 - Human: Fall Flat<br>4:24:00 - Deceit
+---- 
+ 
+## 6
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [202631693](https://www.twitch.tv/videos/202631693) | [v202631693.ass](../chats/v202631693.ass) | [BL6BrZRmRts](https://www.youtube.com/watch?v=BL6BrZRmRts) | <a href="/src/player.html?v=BL6BrZRmRts&s=202631693" onclick="return openPlayer202631693()">▶</a> |
+* Ссылки:
+  * Twitch: [202631693](https://www.twitch.tv/videos/202631693)
+  * Субтитры: [v202631693.ass](../chats/v202631693.ass)
+  * Запись (YouTube): [BL6BrZRmRts](https://www.youtube.com/watch?v=BL6BrZRmRts)
+* Таймкоды:
+  *  <a onclick="player5.currentTime(1260)">21:00</a>  - Human: Fall Flat
+  *  <a onclick="player5.currentTime(15840)">4:24:00</a>  - Deceit
+
+<a href="/src/player.html?v=BL6BrZRmRts&s=202631693" onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer202631693() {
-    createPlayer("player-BL6BrZRmRts", "BL6BrZRmRts", "202631693");
-    document.getElementById("spoiler-BL6BrZRmRts").click();
+  var player5
+  function openPlayer5() {
+    player5 = videojs("player-5", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v202631693.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=BL6BrZRmRts"
+      }]
+    });
+    document.getElementById("spoiler-5").click();
+    document.getElementById("button-5").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-BL6BrZRmRts"></summary>
+  <summary id="spoiler-5"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-BL6BrZRmRts"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-5" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -233,30 +365,57 @@ mpv --sub-file chats/v200702885.ass ytdl://qyMVUvAjqdE
 mpv --sub-file chats/v202631693.ass ytdl://BL6BrZRmRts
 ```
 
-----
-## 23:00 - Looterkings<br>1:25:00 - Mount Your Friends<br>2:49:00 - We Need to Go Deeper<br>4:36:00 - Golf It!
+---- 
+ 
+## 7
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [206394832](https://www.twitch.tv/videos/206394832) | [v206394832.ass](../chats/v206394832.ass) | [-77Qpme-5EA](https://www.youtube.com/watch?v=-77Qpme-5EA) | <a href="/src/player.html?v=-77Qpme-5EA&s=206394832" onclick="return openPlayer206394832()">▶</a> |
+* Ссылки:
+  * Twitch: [206394832](https://www.twitch.tv/videos/206394832)
+  * Субтитры: [v206394832.ass](../chats/v206394832.ass)
+  * Запись (YouTube): [-77Qpme-5EA](https://www.youtube.com/watch?v=-77Qpme-5EA)
+* Таймкоды:
+  *  <a onclick="player6.currentTime(1380)">23:00</a>  - Looterkings
+  *  <a onclick="player6.currentTime(5100)">1:25:00</a>  - Mount Your Friends
+  *  <a onclick="player6.currentTime(10140)">2:49:00</a>  - We Need to Go Deeper
+  *  <a onclick="player6.currentTime(16560)">4:36:00</a>  - Golf It!
+
+<a href="/src/player.html?v=-77Qpme-5EA&s=206394832" onclick="return openPlayer6()" id="button-6">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer206394832() {
-    createPlayer("player--77Qpme-5EA", "-77Qpme-5EA", "206394832");
-    document.getElementById("spoiler--77Qpme-5EA").click();
+  var player6
+  function openPlayer6() {
+    player6 = videojs("player-6", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v206394832.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=-77Qpme-5EA"
+      }]
+    });
+    document.getElementById("spoiler-6").click();
+    document.getElementById("button-6").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler--77Qpme-5EA"></summary>
+  <summary id="spoiler-6"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player--77Qpme-5EA"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-6" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -264,30 +423,55 @@ mpv --sub-file chats/v202631693.ass ytdl://BL6BrZRmRts
 mpv --sub-file chats/v206394832.ass ytdl://-77Qpme-5EA
 ```
 
-----
-## 8:30 - Witch It<br>3:24:00 - PUBG
+---- 
+ 
+## 8
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [207753795](https://www.twitch.tv/videos/207753795) | [v207753795.ass](../chats/v207753795.ass) | [PPZFFjgxKnY](https://www.youtube.com/watch?v=PPZFFjgxKnY) | <a href="/src/player.html?v=PPZFFjgxKnY&s=207753795" onclick="return openPlayer207753795()">▶</a> |
+* Ссылки:
+  * Twitch: [207753795](https://www.twitch.tv/videos/207753795)
+  * Субтитры: [v207753795.ass](../chats/v207753795.ass)
+  * Запись (YouTube): [PPZFFjgxKnY](https://www.youtube.com/watch?v=PPZFFjgxKnY)
+* Таймкоды:
+  *  <a onclick="player7.currentTime(510)">8:30</a>  - Witch It
+  *  <a onclick="player7.currentTime(12240)">3:24:00</a>  - PUBG
+
+<a href="/src/player.html?v=PPZFFjgxKnY&s=207753795" onclick="return openPlayer7()" id="button-7">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer207753795() {
-    createPlayer("player-PPZFFjgxKnY", "PPZFFjgxKnY", "207753795");
-    document.getElementById("spoiler-PPZFFjgxKnY").click();
+  var player7
+  function openPlayer7() {
+    player7 = videojs("player-7", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v207753795.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=PPZFFjgxKnY"
+      }]
+    });
+    document.getElementById("spoiler-7").click();
+    document.getElementById("button-7").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-PPZFFjgxKnY"></summary>
+  <summary id="spoiler-7"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-PPZFFjgxKnY"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-7" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -295,30 +479,55 @@ mpv --sub-file chats/v206394832.ass ytdl://-77Qpme-5EA
 mpv --sub-file chats/v207753795.ass ytdl://PPZFFjgxKnY
 ```
 
-----
-## 15:00 - The Hunter: Call of the Wild<br>3:10:00 - Road Redemption
+---- 
+ 
+## 9
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [213247693](https://www.twitch.tv/videos/213247693) | [v213247693.ass](../chats/v213247693.ass) | [GPga2h4UUXc](https://www.youtube.com/watch?v=GPga2h4UUXc) | <a href="/src/player.html?v=GPga2h4UUXc&s=213247693" onclick="return openPlayer213247693()">▶</a> |
+* Ссылки:
+  * Twitch: [213247693](https://www.twitch.tv/videos/213247693)
+  * Субтитры: [v213247693.ass](../chats/v213247693.ass)
+  * Запись (YouTube): [GPga2h4UUXc](https://www.youtube.com/watch?v=GPga2h4UUXc)
+* Таймкоды:
+  *  <a onclick="player8.currentTime(900)">15:00</a>  - The Hunter: Call of the Wild
+  *  <a onclick="player8.currentTime(11400)">3:10:00</a>  - Road Redemption
+
+<a href="/src/player.html?v=GPga2h4UUXc&s=213247693" onclick="return openPlayer8()" id="button-8">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer213247693() {
-    createPlayer("player-GPga2h4UUXc", "GPga2h4UUXc", "213247693");
-    document.getElementById("spoiler-GPga2h4UUXc").click();
+  var player8
+  function openPlayer8() {
+    player8 = videojs("player-8", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v213247693.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=GPga2h4UUXc"
+      }]
+    });
+    document.getElementById("spoiler-8").click();
+    document.getElementById("button-8").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-GPga2h4UUXc"></summary>
+  <summary id="spoiler-8"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-GPga2h4UUXc"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-8" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -326,30 +535,57 @@ mpv --sub-file chats/v207753795.ass ytdl://PPZFFjgxKnY
 mpv --sub-file chats/v213247693.ass ytdl://GPga2h4UUXc
 ```
 
-----
-## 13:00 - Hand Simulator<br>1:58:00 - Viscera Cleanup Detail<br>3:00:00 - Astroneer<br>4:59:00 - Gang Beasts
+---- 
+ 
+## 10
 
-| Twitch | Субтитры | YouTube | ▶ |
-| ------ | -------- | ------- | - |
-| [213846142](https://www.twitch.tv/videos/213846142) | [v213846142.ass](../chats/v213846142.ass) | [8GFZF96owuA](https://www.youtube.com/watch?v=8GFZF96owuA) | <a href="/src/player.html?v=8GFZF96owuA&s=213846142" onclick="return openPlayer213846142()">▶</a> |
+* Ссылки:
+  * Twitch: [213846142](https://www.twitch.tv/videos/213846142)
+  * Субтитры: [v213846142.ass](../chats/v213846142.ass)
+  * Запись (YouTube): [8GFZF96owuA](https://www.youtube.com/watch?v=8GFZF96owuA)
+* Таймкоды:
+  *  <a onclick="player9.currentTime(780)">13:00</a>  - Hand Simulator
+  *  <a onclick="player9.currentTime(7080)">1:58:00</a>  - Viscera Cleanup Detail
+  *  <a onclick="player9.currentTime(10800)">3:00:00</a>  - Astroneer
+  *  <a onclick="player9.currentTime(17940)">4:59:00</a>  - Gang Beasts
+
+<a href="/src/player.html?v=8GFZF96owuA&s=213846142" onclick="return openPlayer9()" id="button-9">**▶ Открыть плеер**</a>
 
 <script>
-  function openPlayer213846142() {
-    createPlayer("player-8GFZF96owuA", "8GFZF96owuA", "213846142");
-    document.getElementById("spoiler-8GFZF96owuA").click();
+  var player9
+  function openPlayer9() {
+    player9 = videojs("player-9", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v213846142.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=8GFZF96owuA"
+      }]
+    });
+    document.getElementById("spoiler-9").click();
+    document.getElementById("button-9").remove();
     return false;
   }
 </script>
 
 <details>
-  <summary id="spoiler-8GFZF96owuA"></summary>
+  <summary id="spoiler-9"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video
-      id="player-8GFZF96owuA"
-      class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-9" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -357,8 +593,8 @@ mpv --sub-file chats/v213247693.ass ytdl://GPga2h4UUXc
 mpv --sub-file chats/v213846142.ass ytdl://8GFZF96owuA
 ```
 
-----
-
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:
@@ -366,4 +602,3 @@ mpv --sub-file chats/v213846142.ass ytdl://8GFZF96owuA
 * `cd BlackSilverUfa`
 * `git checkout gh-pages`
 * Команда, приведённая выше
-
