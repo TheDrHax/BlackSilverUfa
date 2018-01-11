@@ -1,6 +1,6 @@
 <%
   def md_trim(input):
-    for i in "()#":
+    for i in "()#:":
       input = input.replace(i, '')
     return input.strip().lower().replace(' ', '-')
 %>
