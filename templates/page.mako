@@ -83,7 +83,7 @@ ${'##'} ${stream['name']}
 % if stream.get('timecodes'):
 * Таймкоды:
   % for timecode in stream['timecodes']:
-  * ${timecode_link(id, timecode)} - ${stream['timecodes'][timecode]}
+  * ${timecode_link(id, timecode[0])} - ${timecode[1]}
   % endfor
 % elif stream.get('offset'):
 * Стрим начинается с ${timecode_link(id, stream['offset'])}
