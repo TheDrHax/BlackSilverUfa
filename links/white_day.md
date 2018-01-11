@@ -29,7 +29,7 @@
   * Запись (YouTube): [fxwks5MC9Ns](https://www.youtube.com/watch?v=fxwks5MC9Ns)
 * Стрим начинается с  <a onclick="player0.currentTime(9691)">2:41:31</a> 
 
-<a href="/src/player.html?v=fxwks5MC9Ns&s=172968603" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
   var player0
@@ -84,7 +84,7 @@ mpv --sub-file chats/v172968603.ass ytdl://fxwks5MC9Ns
   * Запись (YouTube): [yxlbqLonbKI](https://www.youtube.com/watch?v=yxlbqLonbKI)
 * Стрим начинается с  <a onclick="player1.currentTime(10180)">2:49:40</a> 
 
-<a href="/src/player.html?v=yxlbqLonbKI&s=176397641" onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
   var player1
@@ -139,7 +139,7 @@ mpv --sub-file chats/v176397641.ass ytdl://yxlbqLonbKI
   * Запись (YouTube): [NR3Acyrhnp4](https://www.youtube.com/watch?v=NR3Acyrhnp4)
 * Стрим начинается с  <a onclick="player2.currentTime(11645)">3:14:05</a> 
 
-<a href="/src/player.html?v=NR3Acyrhnp4&s=177634045" onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
 <script>
   var player2
@@ -194,7 +194,7 @@ mpv --sub-file chats/v177634045.ass ytdl://NR3Acyrhnp4
   * Запись (YouTube): [zxTKOfKANt8](https://www.youtube.com/watch?v=zxTKOfKANt8)
 * Стрим начинается с  <a onclick="player3.currentTime(10800)">3:00:00</a> 
 
-<a href="/src/player.html?v=zxTKOfKANt8&s=179635876" onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 
 <script>
   var player3
@@ -249,7 +249,7 @@ mpv --sub-file chats/v179635876.ass ytdl://zxTKOfKANt8
   * Запись (YouTube): [kEzcaYOhHaQ](https://www.youtube.com/watch?v=kEzcaYOhHaQ)
 * Стрим начинается с  <a onclick="player4.currentTime(10090)">2:48:10</a> 
 
-<a href="/src/player.html?v=kEzcaYOhHaQ&s=204186576" onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
 <script>
   var player4

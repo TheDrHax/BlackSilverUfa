@@ -32,7 +32,7 @@
   *  <a onclick="player0.currentTime(4576)">1:16:16</a>  - Battle Chasers
   *  <a onclick="player0.currentTime(10665)">2:57:45</a>  - Stardew Valley
 
-<a href="/src/player.html?v=x5KwWrLRpEg&s=180397849" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
   var player0
@@ -89,7 +89,7 @@ mpv --sub-file chats/v180397849.ass ytdl://x5KwWrLRpEg
   *  <a onclick="player1.currentTime(6294)">1:44:54</a>  - The Coma: Recut
   *  <a onclick="player1.currentTime(10320)">2:52:00</a>  - Lone Survivor
 
-<a href="/src/player.html?v=JS7cNXnzCTA&s=212431882" onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
   var player1
@@ -145,7 +145,7 @@ mpv --sub-file chats/v212431882.ass ytdl://JS7cNXnzCTA
   *  <a onclick="player2.currentTime(1500)">25:00</a>  - Stifled
   *  <a onclick="player2.currentTime(10740)">2:59:00</a>  - Uncanny Valley
 
-<a href="/src/player.html?v=sz8y749Jn_8&s=212678883" onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
 <script>
   var player2

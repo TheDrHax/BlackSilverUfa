@@ -33,7 +33,7 @@
   *  <a onclick="player0.currentTime(11970)">3:19:30</a>  - Stick Fight
   *  <a onclick="player0.currentTime(14524)">4:02:04</a>  - Golf It!
 
-<a href="/src/player.html?v=y2PitYePsOU&s=180663832" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
   var player0
@@ -91,7 +91,7 @@ mpv --sub-file chats/v180663832.ass ytdl://y2PitYePsOU
   *  <a onclick="player1.currentTime(8301)">2:18:21</a>  - Duck Game
   *  <a onclick="player1.currentTime(9960)">2:46:00</a>  - Move or Die
 
-<a href="/src/player.html?v=IqTeWjugKOE&s=182448131" onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
   var player1
@@ -151,7 +151,7 @@ mpv --sub-file chats/v182448131.ass ytdl://IqTeWjugKOE
   *  <a onclick="player2.currentTime(13740)">3:49:00</a>  - Hand Simulator
   *  <a onclick="player2.currentTime(15510)">4:18:30</a>  - Golf It!
 
-<a href="/src/player.html?v=tUc-5QNu_CE&s=184206477" onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
 <script>
   var player2
@@ -208,7 +208,7 @@ mpv --sub-file chats/v184206477.ass ytdl://tUc-5QNu_CE
   *  <a onclick="player3.currentTime(3144)">52:24</a>  - Friday the 13th
   *  <a onclick="player3.currentTime(8483)">2:21:23</a>  - Deceit
 
-<a href="/src/player.html?v=PYqnr5-Lq4o&s=187586726" onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 
 <script>
   var player3
@@ -265,7 +265,7 @@ mpv --sub-file chats/v187586726.ass ytdl://PYqnr5-Lq4o
   *  <a onclick="player4.currentTime(7740)">2:09:00</a>  - Pulsar: Lost Colony
   *  <a onclick="player4.currentTime(14570)">4:02:50</a>  - Deceit
 
-<a href="/src/player.html?v=qyMVUvAjqdE&s=200702885" onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
 <script>
   var player4
@@ -321,7 +321,7 @@ mpv --sub-file chats/v200702885.ass ytdl://qyMVUvAjqdE
   *  <a onclick="player5.currentTime(1260)">21:00</a>  - Human: Fall Flat
   *  <a onclick="player5.currentTime(15840)">4:24:00</a>  - Deceit
 
-<a href="/src/player.html?v=BL6BrZRmRts&s=202631693" onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
 
 <script>
   var player5
@@ -379,7 +379,7 @@ mpv --sub-file chats/v202631693.ass ytdl://BL6BrZRmRts
   *  <a onclick="player6.currentTime(10140)">2:49:00</a>  - We Need to Go Deeper
   *  <a onclick="player6.currentTime(16560)">4:36:00</a>  - Golf It!
 
-<a href="/src/player.html?v=-77Qpme-5EA&s=206394832" onclick="return openPlayer6()" id="button-6">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer6()" id="button-6">**▶ Открыть плеер**</a>
 
 <script>
   var player6
@@ -435,7 +435,7 @@ mpv --sub-file chats/v206394832.ass ytdl://-77Qpme-5EA
   *  <a onclick="player7.currentTime(510)">8:30</a>  - Witch It
   *  <a onclick="player7.currentTime(12240)">3:24:00</a>  - PUBG
 
-<a href="/src/player.html?v=PPZFFjgxKnY&s=207753795" onclick="return openPlayer7()" id="button-7">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer7()" id="button-7">**▶ Открыть плеер**</a>
 
 <script>
   var player7
@@ -491,7 +491,7 @@ mpv --sub-file chats/v207753795.ass ytdl://PPZFFjgxKnY
   *  <a onclick="player8.currentTime(900)">15:00</a>  - The Hunter: Call of the Wild
   *  <a onclick="player8.currentTime(11400)">3:10:00</a>  - Road Redemption
 
-<a href="/src/player.html?v=GPga2h4UUXc&s=213247693" onclick="return openPlayer8()" id="button-8">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer8()" id="button-8">**▶ Открыть плеер**</a>
 
 <script>
   var player8
@@ -549,7 +549,7 @@ mpv --sub-file chats/v213247693.ass ytdl://GPga2h4UUXc
   *  <a onclick="player9.currentTime(10800)">3:00:00</a>  - Astroneer
   *  <a onclick="player9.currentTime(17940)">4:59:00</a>  - Gang Beasts
 
-<a href="/src/player.html?v=8GFZF96owuA&s=213846142" onclick="return openPlayer9()" id="button-9">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer9()" id="button-9">**▶ Открыть плеер**</a>
 
 <script>
   var player9

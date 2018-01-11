@@ -28,7 +28,7 @@
   * Субтитры: [v206933269.ass](../chats/v206933269.ass)
   * Запись (YouTube): [Apcg-z-sBHM](https://www.youtube.com/watch?v=Apcg-z-sBHM)
 
-<a href="/src/player.html?v=Apcg-z-sBHM&s=206933269" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
   var player0

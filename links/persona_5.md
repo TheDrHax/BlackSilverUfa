@@ -28,7 +28,7 @@
   * Субтитры: [v135797319.ass](../chats/v135797319.ass)
   * Запись (YouTube): [-c8n0TR5-no](https://www.youtube.com/watch?v=-c8n0TR5-no)
 
-<a href="/src/player.html?v=-c8n0TR5-no&s=135797319" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
   var player0
@@ -81,7 +81,7 @@ mpv --sub-file chats/v135797319.ass ytdl://-c8n0TR5-no
   * Субтитры: [v136865997.ass](../chats/v136865997.ass)
   * Запись (YouTube): [BlZNqMcZHzg](https://www.youtube.com/watch?v=BlZNqMcZHzg)
 
-<a href="/src/player.html?v=BlZNqMcZHzg&s=136865997" onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
   var player1
@@ -134,7 +134,7 @@ mpv --sub-file chats/v136865997.ass ytdl://BlZNqMcZHzg
   * Субтитры: [v140054639.ass](../chats/v140054639.ass)
   * Запись (YouTube): [Cx2_Mlrx6dM](https://www.youtube.com/watch?v=Cx2_Mlrx6dM)
 
-<a href="/src/player.html?v=Cx2_Mlrx6dM&s=140054639" onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
 <script>
   var player2
@@ -187,7 +187,7 @@ mpv --sub-file chats/v140054639.ass ytdl://Cx2_Mlrx6dM
   * Субтитры: [v146618890.ass](../chats/v146618890.ass)
   * Запись (YouTube): [E8XS7RP8xGE](https://www.youtube.com/watch?v=E8XS7RP8xGE)
 
-<a href="/src/player.html?v=E8XS7RP8xGE&s=146618890" onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 
 <script>
   var player3
@@ -240,7 +240,7 @@ mpv --sub-file chats/v146618890.ass ytdl://E8XS7RP8xGE
   * Субтитры: [v148253751.ass](../chats/v148253751.ass)
   * Запись (YouTube): [eMFwk3Enb3c](https://www.youtube.com/watch?v=eMFwk3Enb3c)
 
-<a href="/src/player.html?v=eMFwk3Enb3c&s=148253751" onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
 <script>
   var player4
@@ -294,7 +294,7 @@ mpv --sub-file chats/v148253751.ass ytdl://eMFwk3Enb3c
   * Запись (YouTube): [f5U_5Gwx-Mk](https://www.youtube.com/watch?v=f5U_5Gwx-Mk)
 * Стрим начинается с  <a onclick="player5.currentTime(8100)">2:15:00</a> 
 
-<a href="/src/player.html?v=f5U_5Gwx-Mk&s=154787759" onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
 
 <script>
   var player5
@@ -349,7 +349,7 @@ mpv --sub-file chats/v154787759.ass ytdl://f5U_5Gwx-Mk
   * Запись (YouTube): [eGY5W8Dtehs](https://www.youtube.com/watch?v=eGY5W8Dtehs)
 * Стрим начинается с  <a onclick="player6.currentTime(7830)">2:10:30</a> 
 
-<a href="/src/player.html?v=eGY5W8Dtehs&s=173993139" onclick="return openPlayer6()" id="button-6">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer6()" id="button-6">**▶ Открыть плеер**</a>
 
 <script>
   var player6
@@ -404,7 +404,7 @@ mpv --sub-file chats/v173993139.ass ytdl://eGY5W8Dtehs
   * Запись (YouTube): [gJX8uR-GZcU](https://www.youtube.com/watch?v=gJX8uR-GZcU)
 * Стрим начинается с  <a onclick="player7.currentTime(7804)">2:10:04</a> 
 
-<a href="/src/player.html?v=gJX8uR-GZcU&s=175695460" onclick="return openPlayer7()" id="button-7">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer7()" id="button-7">**▶ Открыть плеер**</a>
 
 <script>
   var player7

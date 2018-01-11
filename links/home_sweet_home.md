@@ -28,7 +28,7 @@
   * Субтитры: [v178108639.ass](../chats/v178108639.ass)
   * Запись (YouTube): [kgAipkmGNis](https://www.youtube.com/watch?v=kgAipkmGNis)
 
-<a href="/src/player.html?v=kgAipkmGNis&s=178108639" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
   var player0

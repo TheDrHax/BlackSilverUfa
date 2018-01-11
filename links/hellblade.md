@@ -28,7 +28,7 @@
   * Субтитры: [v165359272.ass](../chats/v165359272.ass)
   * Запись (YouTube): [qInCMF9MuEs](https://www.youtube.com/watch?v=qInCMF9MuEs)
 
-<a href="/src/player.html?v=qInCMF9MuEs&s=165359272" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
   var player0
@@ -81,7 +81,7 @@ mpv --sub-file chats/v165359272.ass ytdl://qInCMF9MuEs
   * Субтитры: [v165630859.ass](../chats/v165630859.ass)
   * Запись (YouTube): [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE)
 
-<a href="/src/player.html?v=7r6_dwXVXgE&s=165630859" onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
   var player1

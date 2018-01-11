@@ -28,7 +28,7 @@
   * Субтитры: [v178361269.ass](../chats/v178361269.ass)
   * Запись (YouTube): [T6Y4hGvcIL8](https://www.youtube.com/watch?v=T6Y4hGvcIL8)
 
-<a href="/src/player.html?v=T6Y4hGvcIL8&s=178361269" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
   var player0

@@ -28,7 +28,7 @@
   * Субтитры: [v164633577.ass](../chats/v164633577.ass)
   * Запись (YouTube): [0XeyDh7T0Jw](https://www.youtube.com/watch?v=0XeyDh7T0Jw)
 
-<a href="/src/player.html?v=0XeyDh7T0Jw&s=164633577" onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
   var player0
@@ -82,7 +82,7 @@ mpv --sub-file chats/v164633577.ass ytdl://0XeyDh7T0Jw
   * Запись (YouTube): [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE)
 * Стрим начинается с  <a onclick="player1.currentTime(9015)">2:30:15</a> 
 
-<a href="/src/player.html?v=7r6_dwXVXgE&s=165630859" onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
   var player1
@@ -136,7 +136,7 @@ mpv --sub-file chats/v165630859.ass ytdl://7r6_dwXVXgE
   * Субтитры: [v167924021.ass](../chats/v167924021.ass)
   * Запись (YouTube): [9i6wUrnvLy8](https://www.youtube.com/watch?v=9i6wUrnvLy8)
 
-<a href="/src/player.html?v=9i6wUrnvLy8&s=167924021" onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
 <script>
   var player2
@@ -204,7 +204,7 @@ streamlink -p "mpv --sub-file chats/v168936842.ass" --player-passthrough hls twi
   * Субтитры: [v173993139.ass](../chats/v173993139.ass)
   * Запись (YouTube): [eGY5W8Dtehs](https://www.youtube.com/watch?v=eGY5W8Dtehs)
 
-<a href="/src/player.html?v=eGY5W8Dtehs&s=173993139" onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
 <script>
   var player4
@@ -257,7 +257,7 @@ mpv --sub-file chats/v173993139.ass ytdl://eGY5W8Dtehs
   * Субтитры: [v175695460.ass](../chats/v175695460.ass)
   * Запись (YouTube): [gJX8uR-GZcU](https://www.youtube.com/watch?v=gJX8uR-GZcU)
 
-<a href="/src/player.html?v=gJX8uR-GZcU&s=175695460" onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
+<a onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
 
 <script>
   var player5

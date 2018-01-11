@@ -54,6 +54,7 @@
 
 #### Незавершённые
 
+Прохождения, вероятность продолжения которых КРАЙНЕ мала.
 * [Divinity: Original Sin II](links/divinity.md) (1 стрим)
 * [Middle-earth: Shadow of War](links/middle_earth.md) (3 стрима)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
@@ -63,3 +64,16 @@
 * [Несюжетные ко-опы](links/co-op.md) (10 стримов)
 * [неПрофессиональный E3 2017](links/e3_2017.md) (7 стримов)
 * [Sub-Day и стримы с несколькими играми](links/subday.md) (3 стрима)
+
+
+----
+
+### Стримы без записей
+
+Если у вас есть ссылка на запись любого из этих стримов, сообщите мне через раздел
+[Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
+Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
+
+* [The Evil Within](links/evil_within.md) - 1 (прерван)
+* [NieR Automata](links/nier-automata.md) - 4
+* [Resident Evil 4](links/re4.md) - 4
