@@ -8,12 +8,7 @@
 </%def>
 
 <%def name="player(id, stream)">
-% if stream.get('youtube'):  ## TODO: player.md deprecation
-<a href="/src/player.html?v=${stream['youtube']}&s=${stream['twitch']}" \
-onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть плеер**</a>
-% elif stream.get('direct'):
 <a onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть плеер**</a>
-% endif
 
 <script>
   var player${id}
