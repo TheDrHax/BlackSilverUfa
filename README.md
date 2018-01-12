@@ -38,6 +38,7 @@
 
 * [NieR Automata](links/nier-automata.md) (6 стримов)
 * [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (20 стримов)
+* [Demon's Souls](links/demons-souls.md) (2 стрима)
 
 #### Потенциально бесконечные
 
@@ -47,17 +48,17 @@
 #### Под вопросом
 
 * [Cuphead](links/cuphead.md) (1 стрим)
-* [Home Sweet Home](links/home_sweet_home.md) (1 стрим)
 * [Monster Hunter World](links/monster-hunter-world.md) (1 стрим)
 * [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (2 стрима)
-* [Xenoblade Chronicles 2](links/xenoblade-chronicles-2.md) (1 стрим)
 
 #### Незавершённые
 
 Прохождения, вероятность продолжения которых КРАЙНЕ мала.
 * [Divinity: Original Sin II](links/divinity.md) (1 стрим)
+* [Home Sweet Home](links/home_sweet_home.md) (1 стрим)
 * [Middle-earth: Shadow of War](links/middle_earth.md) (3 стрима)
 * [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
+* [Xenoblade Chronicles 2](links/xenoblade-chronicles-2.md) (1 стрим)
 
 ### Другое
 
@@ -72,9 +73,11 @@
 
 Если у вас есть ссылка на запись любого из этих стримов, сообщите мне через раздел
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
-Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
+Поддерживаются любые не сегментированные видео с YouTube. Спасибо!
 
 * [The Evil Within](links/evil_within.md) - 1 (прерван)
 * [NieR Automata](links/nier-automata.md) - 4
 * [Outlast 2 (с Дашей)](links/outlast_2_dw.md) - 2
 * [Resident Evil 4](links/re4.md) - 4
+* [Demon's Souls](links/demons-souls.md) - 1.1 (прерван)
+* [Demon's Souls](links/demons-souls.md) - 1.2
