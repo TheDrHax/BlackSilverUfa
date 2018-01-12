@@ -33,7 +33,7 @@ if __name__ == "__main__":
     for game in games:
         for stream in game['streams']:
             if not os.path.isfile("chats/v{0[twitch]}.ass".format(stream)):
-                print("Скачиваю чат для стрима {0}".format(stream['twitch']))
+                print(u"Скачиваю чат для стрима {0}".format(stream['twitch']))
                 tcd.download(stream['twitch'])
 
     # Generate README.md
