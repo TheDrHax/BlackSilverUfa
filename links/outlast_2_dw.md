@@ -76,49 +76,16 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
  
 ## 2
 
-* Примечание: Запись найдена у [Олега Степанова](https://vk.com/sova260480)
+* Примечание: Запись найдена у [Олега Степанова](https://vk.com/sova260480), но ВК пока не поддерживается
 * Ссылки:
   * Twitch: [186799946](https://www.twitch.tv/videos/186799946)
   * Субтитры: [v186799946.ass](../chats/v186799946.ass)
-  * Запись: [прямая ссылка](https://cs832504.vkuservideo.net/6/u87862793/videos/dfa2fc2710.720.mp4)
-
-<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
-
-<script>
-  var player1
-  function openPlayer1() {
-    player1 = videojs("player-1", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v186799946.ass"],
-          delay: -0.1,
-        },
-      },
-      sources: [{
-        "type": "video/mp4",
-        "src": "https://cs832504.vkuservideo.net/6/u87862793/videos/dfa2fc2710.720.mp4"
-      }]
-    });
-    document.getElementById("spoiler-1").click();
-    document.getElementById("button-1").remove();
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-1"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
-  </div>
-</details> 
+  * Запись: отсутствует
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-mpv --sub-file chats/v186799946.ass https://cs832504.vkuservideo.net/6/u87862793/videos/dfa2fc2710.720.mp4
+streamlink -p "mpv --sub-file chats/v186799946.ass" --player-passthrough hls twitch.tv/videos/186799946 best
 ```
 
 ---- 
