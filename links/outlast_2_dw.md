@@ -1,3 +1,5 @@
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- video.js -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
@@ -31,7 +33,7 @@
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
-  var player0
+  var player0;
   function openPlayer0() {
     player0 = videojs("player-0", {
       controls: true, nativeControlsForTouch: false,
@@ -76,11 +78,46 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
  
 ## 2
 
-* Примечание: Запись найдена у [Олега Степанова](https://vk.com/sova260480), но ВК пока не поддерживается
 * Ссылки:
   * Twitch: [186799946](https://www.twitch.tv/videos/186799946)
   * Субтитры: [v186799946.ass](../chats/v186799946.ass)
-  * Запись: отсутствует
+  * Запись (ВКонтакте): [87862793_456240876](https://vk.com/video87862793_456240876)
+
+<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
+
+<script>
+  var player1;
+  function openPlayer1() {
+    player1 = videojs("player-1", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v186799946.ass"],
+          delay: -0.1,
+        },
+      },
+    });
+    document.getElementById("spoiler-1").click();
+    document.getElementById("button-1").remove();
+      $.getJSON("https://api.thedrhax.pw/vk/video/87862793_456240876", function(data) {
+          console.log("Ссылка получена: " + data.url);
+          player1.src([{type: 'video/mp4', src: data.url}]);
+      });
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-1"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details> 
+Примечание: Для этого стрима используется экспериментальный сервер, стабильность
+которого уступает GitHub Pages. Если видео не запускается, сообщите мне через
+раздел [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues). Спасибо!
 
 #### Команда для просмотра стрима в проигрывателе MPV
 

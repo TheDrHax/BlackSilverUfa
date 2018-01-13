@@ -1,3 +1,5 @@
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- video.js -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
@@ -31,7 +33,7 @@
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
-  var player0
+  var player0;
   function openPlayer0() {
     player0 = videojs("player-0", {
       controls: true, nativeControlsForTouch: false,
@@ -84,7 +86,7 @@ mpv --sub-file chats/v215612485.ass ytdl://PSFYqx5cHvk
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
-  var player1
+  var player1;
   function openPlayer1() {
     player1 = videojs("player-1", {
       controls: true, nativeControlsForTouch: false,
@@ -137,7 +139,7 @@ mpv --sub-file chats/v215625839.ass ytdl://1KJ_lUDyyVU
 <a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
 <script>
-  var player2
+  var player2;
   function openPlayer2() {
     player2 = videojs("player-2", {
       controls: true, nativeControlsForTouch: false,
@@ -206,7 +208,7 @@ streamlink -p "mpv --sub-file chats/v216293216.ass" --player-passthrough hls twi
 <a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
 <script>
-  var player4
+  var player4;
   function openPlayer4() {
     player4 = videojs("player-4", {
       controls: true, nativeControlsForTouch: false,
@@ -259,7 +261,7 @@ mpv --sub-file chats/v216912425.ass ytdl://jyhO-Szikqc
 <a onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
 
 <script>
-  var player5
+  var player5;
   function openPlayer5() {
     player5 = videojs("player-5", {
       controls: true, nativeControlsForTouch: false,

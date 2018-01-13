@@ -1,3 +1,5 @@
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- video.js -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
@@ -36,7 +38,7 @@
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
-  var player0
+  var player0;
   function openPlayer0() {
     player0 = videojs("player-0", {
       controls: true, nativeControlsForTouch: false,
@@ -94,7 +96,7 @@ mpv --sub-file chats/v180663832.ass ytdl://y2PitYePsOU
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
-  var player1
+  var player1;
   function openPlayer1() {
     player1 = videojs("player-1", {
       controls: true, nativeControlsForTouch: false,
@@ -154,7 +156,7 @@ mpv --sub-file chats/v182448131.ass ytdl://IqTeWjugKOE
 <a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
 <script>
-  var player2
+  var player2;
   function openPlayer2() {
     player2 = videojs("player-2", {
       controls: true, nativeControlsForTouch: false,
@@ -211,7 +213,7 @@ mpv --sub-file chats/v184206477.ass ytdl://tUc-5QNu_CE
 <a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 
 <script>
-  var player3
+  var player3;
   function openPlayer3() {
     player3 = videojs("player-3", {
       controls: true, nativeControlsForTouch: false,
@@ -268,7 +270,7 @@ mpv --sub-file chats/v187586726.ass ytdl://PYqnr5-Lq4o
 <a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
 <script>
-  var player4
+  var player4;
   function openPlayer4() {
     player4 = videojs("player-4", {
       controls: true, nativeControlsForTouch: false,
@@ -324,7 +326,7 @@ mpv --sub-file chats/v200702885.ass ytdl://qyMVUvAjqdE
 <a onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
 
 <script>
-  var player5
+  var player5;
   function openPlayer5() {
     player5 = videojs("player-5", {
       controls: true, nativeControlsForTouch: false,
@@ -382,7 +384,7 @@ mpv --sub-file chats/v202631693.ass ytdl://BL6BrZRmRts
 <a onclick="return openPlayer6()" id="button-6">**▶ Открыть плеер**</a>
 
 <script>
-  var player6
+  var player6;
   function openPlayer6() {
     player6 = videojs("player-6", {
       controls: true, nativeControlsForTouch: false,
@@ -438,7 +440,7 @@ mpv --sub-file chats/v206394832.ass ytdl://-77Qpme-5EA
 <a onclick="return openPlayer7()" id="button-7">**▶ Открыть плеер**</a>
 
 <script>
-  var player7
+  var player7;
   function openPlayer7() {
     player7 = videojs("player-7", {
       controls: true, nativeControlsForTouch: false,
@@ -494,7 +496,7 @@ mpv --sub-file chats/v207753795.ass ytdl://PPZFFjgxKnY
 <a onclick="return openPlayer8()" id="button-8">**▶ Открыть плеер**</a>
 
 <script>
-  var player8
+  var player8;
   function openPlayer8() {
     player8 = videojs("player-8", {
       controls: true, nativeControlsForTouch: false,
@@ -552,7 +554,7 @@ mpv --sub-file chats/v213247693.ass ytdl://GPga2h4UUXc
 <a onclick="return openPlayer9()" id="button-9">**▶ Открыть плеер**</a>
 
 <script>
-  var player9
+  var player9;
   function openPlayer9() {
     player9 = videojs("player-9", {
       controls: true, nativeControlsForTouch: false,

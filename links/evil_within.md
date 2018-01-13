@@ -1,3 +1,5 @@
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- video.js -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
@@ -23,12 +25,55 @@
  
 ## 1 (прерван)
 
-* Примечание: Запись найдена у [Олега Степанова](https://vk.com/sova260480), но ВК пока не поддерживается
 * Ссылки:
   * Twitch: [160844876](https://www.twitch.tv/videos/160844876)
   * Субтитры: [v160844876.ass](../chats/v160844876.ass)
-  * Запись: отсутствует
+  * Запись (ВКонтакте): [87862793_456240552](https://vk.com/video87862793_456240552)
 * Стрим заканчивается в  <a onclick="player0.currentTime(3138)">52:18</a> 
+
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+
+<script>
+  var player0;
+  function openPlayer0() {
+    player0 = videojs("player-0", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v160844876.ass"],
+          delay: -0.1,
+        },
+      },
+    });
+    document.getElementById("spoiler-0").click();
+    document.getElementById("button-0").remove();
+      $.getJSON("https://api.thedrhax.pw/vk/video/87862793_456240552", function(data) {
+          console.log("Ссылка получена: " + data.url);
+          player0.src([{type: 'video/mp4', src: data.url}]);
+      });
+      player0.duration = function() {
+        return 3138; // the amount of seconds of video
+      }
+      player0.remainingTimeDisplay = function() {
+        var a = Math.floor(this.duration()) - Math.floor(this.currentTime());
+        if (a <= 0) this.pause();
+        return a;
+      }
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-0"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details> 
+Примечание: Для этого стрима используется экспериментальный сервер, стабильность
+которого уступает GitHub Pages. Если видео не запускается, сообщите мне через
+раздел [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues). Спасибо!
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -48,7 +93,7 @@ streamlink -p "mpv --sub-file chats/v160844876.ass" --player-passthrough hls twi
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
-  var player1
+  var player1;
   function openPlayer1() {
     player1 = videojs("player-1", {
       controls: true, nativeControlsForTouch: false,
@@ -101,7 +146,7 @@ mpv --sub-file chats/v160852861.ass ytdl://LF6RMOOvA9M
 <a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
 <script>
-  var player2
+  var player2;
   function openPlayer2() {
     player2 = videojs("player-2", {
       controls: true, nativeControlsForTouch: false,
@@ -154,7 +199,7 @@ mpv --sub-file chats/v161110508.ass ytdl://8VCQkjjMu-I
 <a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 
 <script>
-  var player3
+  var player3;
   function openPlayer3() {
     player3 = videojs("player-3", {
       controls: true, nativeControlsForTouch: false,
@@ -207,7 +252,7 @@ mpv --sub-file chats/v161115703.ass ytdl://vxbjz2-Lmgg
 <a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
 <script>
-  var player4
+  var player4;
   function openPlayer4() {
     player4 = videojs("player-4", {
       controls: true, nativeControlsForTouch: false,
@@ -260,7 +305,7 @@ mpv --sub-file chats/v162350334.ass ytdl://hZSVfTxT7Qo
 <a onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
 
 <script>
-  var player5
+  var player5;
   function openPlayer5() {
     player5 = videojs("player-5", {
       controls: true, nativeControlsForTouch: false,
@@ -313,7 +358,7 @@ mpv --sub-file chats/v162844424.ass ytdl://8lhCzaGLmK8
 <a onclick="return openPlayer6()" id="button-6">**▶ Открыть плеер**</a>
 
 <script>
-  var player6
+  var player6;
   function openPlayer6() {
     player6 = videojs("player-6", {
       controls: true, nativeControlsForTouch: false,
@@ -366,7 +411,7 @@ mpv --sub-file chats/v163361169.ass ytdl://Qt1N7foBrUE
 <a onclick="return openPlayer7()" id="button-7">**▶ Открыть плеер**</a>
 
 <script>
-  var player7
+  var player7;
   function openPlayer7() {
     player7 = videojs("player-7", {
       controls: true, nativeControlsForTouch: false,
@@ -419,7 +464,7 @@ mpv --sub-file chats/v164116949.ass ytdl://5JOCDsqrhOY
 <a onclick="return openPlayer8()" id="button-8">**▶ Открыть плеер**</a>
 
 <script>
-  var player8
+  var player8;
   function openPlayer8() {
     player8 = videojs("player-8", {
       controls: true, nativeControlsForTouch: false,

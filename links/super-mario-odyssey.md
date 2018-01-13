@@ -1,3 +1,5 @@
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- video.js -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
@@ -31,7 +33,7 @@
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
 <script>
-  var player0
+  var player0;
   function openPlayer0() {
     player0 = videojs("player-0", {
       controls: true, nativeControlsForTouch: false,
@@ -85,7 +87,7 @@ mpv --sub-file chats/v185763905.ass ytdl://kkeGLQrrkAM
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
 <script>
-  var player1
+  var player1;
   function openPlayer1() {
     player1 = videojs("player-1", {
       controls: true, nativeControlsForTouch: false,
@@ -139,7 +141,7 @@ mpv --sub-file chats/v200401270.ass ytdl://LSHpifkX69Y
 <a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
 <script>
-  var player2
+  var player2;
   function openPlayer2() {
     player2 = videojs("player-2", {
       controls: true, nativeControlsForTouch: false,
@@ -193,7 +195,7 @@ mpv --sub-file chats/v202381358.ass ytdl://Umsq53kBb9I
 <a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 
 <script>
-  var player3
+  var player3;
   function openPlayer3() {
     player3 = videojs("player-3", {
       controls: true, nativeControlsForTouch: false,
