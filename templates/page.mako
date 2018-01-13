@@ -11,7 +11,7 @@
 <a onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть плеер**</a>
 
 <script>
-  var player${id}
+  var player${id};
   function openPlayer${id}() {
     player${id} = videojs("player-${id}", {
       controls: true, nativeControlsForTouch: false,
@@ -43,6 +43,12 @@
     });
     document.getElementById("spoiler-${id}").click();
     document.getElementById("button-${id}").remove();
+    % if stream.get('vk'):
+      $.getJSON("https://api.thedrhax.pw/vk/video/${stream['vk']}", function(data) {
+          console.log("Ссылка получена: " + data.url);
+          player${id}.src([{type: 'video/mp4', src: data.url}]);
+      });
+    % endif
     % if stream.get('start'):
       player${id}.currentTime(${sec(stream['start'])});
     % endif
@@ -80,6 +86,8 @@ ${'##'} ${stream['name']}
   * Субтитры: [v${stream['twitch']}.ass](../chats/v${stream['twitch']}.ass)
 % if stream.get('youtube'):
   * Запись (YouTube): [${stream['youtube']}](https://www.youtube.com/watch?v=${stream['youtube']})
+% elif stream.get('vk'):
+  * Запись (ВКонтакте): [${stream['vk']}](https://vk.com/video${stream['vk']})
 % elif stream.get('direct'):
   * Запись: [прямая ссылка](${stream['direct']})
 % else:
@@ -97,8 +105,13 @@ ${'##'} ${stream['name']}
 % if stream.get('end'):
 * Стрим заканчивается в ${timecode_link(id, stream['end'])}
 % endif
-% if stream.get('youtube') or stream.get('direct'):
+% if stream.get('youtube') or stream.get('direct') or stream.get('vk'):
 ${player(id, stream)}
+% if stream.get('vk'):
+Примечание: Для этого стрима используется экспериментальный сервер, стабильность
+которого уступает GitHub Pages. Если видео не запускается, сообщите мне через
+раздел [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues). Спасибо!
+% endif
 % endif
 
 ${'####'} Команда для просмотра стрима в проигрывателе MPV
@@ -116,6 +129,8 @@ streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrou
 ---- \
 </%def>
 
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- video.js -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
