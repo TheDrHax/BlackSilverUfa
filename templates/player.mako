@@ -1,10 +1,3 @@
-<%
-  def md_trim(input):
-    for i in "()#:":
-      input = input.replace(i, '')
-    return input.strip().lower().replace(' ', '-')
-%>
-
 <a href="/" id="link">Нажмите сюда, если перенаправление не сработало</a>
 
 <script type="application/javascript">
@@ -25,7 +18,7 @@
     % for game in games:
       % for stream in game['streams']:
     case ${stream['twitch']}:
-      url = "/links/${game['filename'].replace('md', 'html')}#${md_trim(stream['name'])}";
+      url = "/links/${game['filename'].replace('md', 'html')}#${game['streams'].index(stream)}";
       break;
       % endfor
     % endfor
