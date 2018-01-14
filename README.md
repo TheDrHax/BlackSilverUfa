@@ -77,5 +77,3 @@
 
 * [NieR Automata](links/nier-automata.md) - 4
 * [Resident Evil 4](links/re4.md) - 4
-* [Demon's Souls](links/demons-souls.md) - 1.1 (прерван)
-* [Demon's Souls](links/demons-souls.md) - 1.2

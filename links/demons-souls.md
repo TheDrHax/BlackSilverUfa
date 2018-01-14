@@ -28,12 +28,50 @@
 * Ссылки:
   * Twitch: [217814961](https://www.twitch.tv/videos/217814961)
   * Субтитры: [v217814961.ass](../chats/v217814961.ass)
-  * Запись: отсутствует
+  * Запись (YouTube): [iKf4tl2Q7Ok](https://www.youtube.com/watch?v=iKf4tl2Q7Ok)
+
+<a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
+
+<script>
+  var player0;
+  function openPlayer0() {
+    player0 = videojs("player-0", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v217814961.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=iKf4tl2Q7Ok"
+      }]
+    });
+    document.getElementById("spoiler-0").click();
+    document.getElementById("button-0").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-0"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v217814961.ass" --player-passthrough hls twitch.tv/videos/217814961 best
+mpv --sub-file chats/v217814961.ass ytdl://iKf4tl2Q7Ok
 ```
 
 ---- 
@@ -43,12 +81,50 @@ streamlink -p "mpv --sub-file chats/v217814961.ass" --player-passthrough hls twi
 * Ссылки:
   * Twitch: [217852593](https://www.twitch.tv/videos/217852593)
   * Субтитры: [v217852593.ass](../chats/v217852593.ass)
-  * Запись: отсутствует
+  * Запись (YouTube): [6OQMTzVS8po](https://www.youtube.com/watch?v=6OQMTzVS8po)
+
+<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
+
+<script>
+  var player1;
+  function openPlayer1() {
+    player1 = videojs("player-1", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v217852593.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=6OQMTzVS8po"
+      }]
+    });
+    document.getElementById("spoiler-1").click();
+    document.getElementById("button-1").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-1"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v217852593.ass" --player-passthrough hls twitch.tv/videos/217852593 best
+mpv --sub-file chats/v217852593.ass ytdl://6OQMTzVS8po
 ```
 
 ---- 
