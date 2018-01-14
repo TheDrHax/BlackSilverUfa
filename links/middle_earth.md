@@ -23,7 +23,7 @@
 
 # Middle-earth: Shadow of War
  
-## 1
+<h2 id="0">1</h2>
 
 * Ссылки:
   * Twitch: [181166703](https://www.twitch.tv/videos/181166703)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v181166703.ass ytdl://ZlMQcv0a1Sc
 
 ---- 
  
-## 2
+<h2 id="1">2</h2>
 
 * Ссылки:
   * Twitch: [181408745](https://www.twitch.tv/videos/181408745)
@@ -129,7 +129,7 @@ mpv --sub-file chats/v181408745.ass ytdl://VQNcHN56go4
 
 ---- 
  
-## 3
+<h2 id="2">3</h2>
 
 * Ссылки:
   * Twitch: [181664458](https://www.twitch.tv/videos/181664458)

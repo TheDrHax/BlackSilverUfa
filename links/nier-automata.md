@@ -23,7 +23,7 @@
 
 # NieR Automata
  
-## 1
+<h2 id="0">1</h2>
 
 * Ссылки:
   * Twitch: [215612485](https://www.twitch.tv/videos/215612485)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v215612485.ass ytdl://PSFYqx5cHvk
 
 ---- 
  
-## 2
+<h2 id="1">2</h2>
 
 * Ссылки:
   * Twitch: [215625839](https://www.twitch.tv/videos/215625839)
@@ -129,7 +129,7 @@ mpv --sub-file chats/v215625839.ass ytdl://1KJ_lUDyyVU
 
 ---- 
  
-## 3 (сайдквесты)
+<h2 id="2">3</h2>
 
 * Ссылки:
   * Twitch: [215959213](https://www.twitch.tv/videos/215959213)
@@ -182,7 +182,7 @@ mpv --sub-file chats/v215959213.ass ytdl://h2rTS3adq9w
 
 ---- 
  
-## 4
+<h2 id="3">4</h2>
 
 * Примечание: Официальной записи [не будет](https://vk.com/b_silver?w=wall-28387068_3181362%2Fall)
 * Ссылки:
@@ -198,7 +198,7 @@ streamlink -p "mpv --sub-file chats/v216293216.ass" --player-passthrough hls twi
 
 ---- 
  
-## 5 (сайдквесты)
+<h2 id="4">5</h2>
 
 * Ссылки:
   * Twitch: [216912425](https://www.twitch.tv/videos/216912425)
@@ -251,7 +251,7 @@ mpv --sub-file chats/v216912425.ass ytdl://jyhO-Szikqc
 
 ---- 
  
-## 6 (сайдквесты)
+<h2 id="5">6</h2>
 
 * Ссылки:
   * Twitch: [217247484](https://www.twitch.tv/videos/217247484)

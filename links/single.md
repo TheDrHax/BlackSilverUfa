@@ -23,7 +23,7 @@
 
 # Полные прохождения за один стрим
  
-## Michigan: Report from Hell
+<h2 id="0">Michigan: Report from Hell</h2>
 
 * Ссылки:
   * Twitch: [152253862](https://www.twitch.tv/videos/152253862)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v152253862.ass ytdl://cTvtS4jAQGk
 
 ---- 
  
-## Absolver
+<h2 id="1">Absolver</h2>
 
 * Ссылки:
   * Twitch: [174225353](https://www.twitch.tv/videos/174225353)
@@ -129,7 +129,7 @@ mpv --sub-file chats/v174225353.ass ytdl://ejp3UDoKx4k
 
 ---- 
  
-## The Count Lucanor
+<h2 id="2">The Count Lucanor</h2>
 
 * Ссылки:
   * Twitch: [184468298](https://www.twitch.tv/videos/184468298)
@@ -182,7 +182,7 @@ mpv --sub-file chats/v184468298.ass ytdl://9p23c9_BYaU
 
 ---- 
  
-## Call of Duty: WWII
+<h2 id="3">Call of Duty: WWII</h2>
 
 * Ссылки:
   * Twitch: [187291538](https://www.twitch.tv/videos/187291538)
@@ -235,7 +235,7 @@ mpv --sub-file chats/v187291538.ass ytdl://Bxj09aAOFaI
 
 ---- 
  
-## Little Nightmares (DLC)
+<h2 id="4">Little Nightmares (DLC)</h2>
 
 * Ссылки:
   * Twitch: [200401270](https://www.twitch.tv/videos/200401270)
@@ -288,7 +288,7 @@ mpv --sub-file chats/v200401270.ass ytdl://LSHpifkX69Y
 
 ---- 
  
-## Hidden Agenda (2 раза)
+<h2 id="5">Hidden Agenda</h2>
 
 * Ссылки:
   * Twitch: [202329656](https://www.twitch.tv/videos/202329656)
@@ -341,7 +341,7 @@ mpv --sub-file chats/v202329656.ass ytdl://9kSnxedrUjM
 
 ---- 
  
-## Unforgiving: A Northern Hymn
+<h2 id="6">Unforgiving: A Northern Hymn</h2>
 
 * Ссылки:
   * Twitch: [204996737](https://www.twitch.tv/videos/204996737)
@@ -394,7 +394,7 @@ mpv --sub-file chats/v204996737.ass ytdl://ZiYWnjvqw_k
 
 ---- 
  
-## SCP Containment Breach
+<h2 id="7">SCP Containment Breach</h2>
 
 * Ссылки:
   * Twitch: [215974261](https://www.twitch.tv/videos/215974261)

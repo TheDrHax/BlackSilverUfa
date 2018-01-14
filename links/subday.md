@@ -23,7 +23,7 @@
 
 # Sub-Day и стримы с несколькими играми
  
-## 1
+<h2 id="0">1</h2>
 
 * Ссылки:
   * Twitch: [180397849](https://www.twitch.tv/videos/180397849)
@@ -80,7 +80,7 @@ mpv --sub-file chats/v180397849.ass ytdl://x5KwWrLRpEg
 
 ---- 
  
-## 2
+<h2 id="1">2</h2>
 
 * Ссылки:
   * Twitch: [212431882](https://www.twitch.tv/videos/212431882)
@@ -137,7 +137,7 @@ mpv --sub-file chats/v212431882.ass ytdl://JS7cNXnzCTA
 
 ---- 
  
-## 3
+<h2 id="2">3</h2>
 
 * Ссылки:
   * Twitch: [212678883](https://www.twitch.tv/videos/212678883)

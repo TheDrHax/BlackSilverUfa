@@ -23,7 +23,7 @@
 
 # Xenoblade Chronicles 2
  
-## 1
+<h2 id="0">1</h2>
 
 * Ссылки:
   * Twitch: [206933269](https://www.twitch.tv/videos/206933269)

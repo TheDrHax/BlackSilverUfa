@@ -21,9 +21,9 @@
   }
 </style>
 
-# Outlast 2 (с Дашей)
+# Outlast 2 с Дашей
  
-## 1
+<h2 id="0">1</h2>
 
 * Ссылки:
   * Twitch: [174697007](https://www.twitch.tv/videos/174697007)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
 
 ---- 
  
-## 2
+<h2 id="1">2</h2>
 
 * Ссылки:
   * Twitch: [186799946](https://www.twitch.tv/videos/186799946)

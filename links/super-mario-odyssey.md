@@ -23,7 +23,7 @@
 
 # Super Mario Odyssey
  
-## 1
+<h2 id="0">1</h2>
 
 * Ссылки:
   * Twitch: [185763905](https://www.twitch.tv/videos/185763905)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v185763905.ass ytdl://kkeGLQrrkAM
 
 ---- 
  
-## 2
+<h2 id="1">2</h2>
 
 * Ссылки:
   * Twitch: [200401270](https://www.twitch.tv/videos/200401270)
@@ -131,7 +131,7 @@ mpv --sub-file chats/v200401270.ass ytdl://LSHpifkX69Y
 
 ---- 
  
-## 3
+<h2 id="2">3</h2>
 
 * Ссылки:
   * Twitch: [202381358](https://www.twitch.tv/videos/202381358)
@@ -184,7 +184,7 @@ mpv --sub-file chats/v202381358.ass ytdl://Umsq53kBb9I
 
 ---- 
  
-## 4
+<h2 id="3">4</h2>
 
 * Ссылки:
   * Twitch: [210846597](https://www.twitch.tv/videos/210846597)

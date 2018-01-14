@@ -30,7 +30,7 @@
 * The Count Lucanor
 * Call of Duty: WWII
 * Little Nightmares (DLC)
-* Hidden Agenda (2 раза)
+* Hidden Agenda
 * Unforgiving: A Northern Hymn
 * SCP Containment Breach
 
@@ -49,7 +49,7 @@
 
 * [Cuphead](links/cuphead.md) (1 стрим)
 * [Monster Hunter World](links/monster-hunter-world.md) (1 стрим)
-* [Outlast 2 (с Дашей)](links/outlast_2_dw.md) (2 стрима)
+* [Outlast 2 с Дашей](links/outlast_2_dw.md) (2 стрима)
 
 #### Незавершённые
 

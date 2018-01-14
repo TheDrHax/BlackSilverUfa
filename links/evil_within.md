@@ -23,8 +23,9 @@
 
 # The Evil Within
  
-## 1 (прерван)
+<h2 id="0">1</h2>
 
+* Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
   * Twitch: [160844876](https://www.twitch.tv/videos/160844876)
   * Субтитры: [v160844876.ass](../chats/v160844876.ass)
@@ -83,7 +84,7 @@ streamlink -p "mpv --sub-file chats/v160844876.ass" --player-passthrough hls twi
 
 ---- 
  
-## 1.5
+<h2 id="1">1.5</h2>
 
 * Ссылки:
   * Twitch: [160852861](https://www.twitch.tv/videos/160852861)
@@ -136,8 +137,9 @@ mpv --sub-file chats/v160852861.ass ytdl://LF6RMOOvA9M
 
 ---- 
  
-## 2 (прерван)
+<h2 id="2">2</h2>
 
+* Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
   * Twitch: [161110508](https://www.twitch.tv/videos/161110508)
   * Субтитры: [v161110508.ass](../chats/v161110508.ass)
@@ -189,7 +191,7 @@ mpv --sub-file chats/v161110508.ass ytdl://8VCQkjjMu-I
 
 ---- 
  
-## 2.5
+<h2 id="3">2.5</h2>
 
 * Ссылки:
   * Twitch: [161115703](https://www.twitch.tv/videos/161115703)
@@ -242,7 +244,7 @@ mpv --sub-file chats/v161115703.ass ytdl://vxbjz2-Lmgg
 
 ---- 
  
-## 3
+<h2 id="4">3</h2>
 
 * Ссылки:
   * Twitch: [162350334](https://www.twitch.tv/videos/162350334)
@@ -295,8 +297,9 @@ mpv --sub-file chats/v162350334.ass ytdl://hZSVfTxT7Qo
 
 ---- 
  
-## 4 (прерван)
+<h2 id="5">4</h2>
 
+* Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
   * Twitch: [162844424](https://www.twitch.tv/videos/162844424)
   * Субтитры: [v162844424.ass](../chats/v162844424.ass)
@@ -348,7 +351,7 @@ mpv --sub-file chats/v162844424.ass ytdl://8lhCzaGLmK8
 
 ---- 
  
-## 5
+<h2 id="6">5</h2>
 
 * Ссылки:
   * Twitch: [163361169](https://www.twitch.tv/videos/163361169)
@@ -401,8 +404,9 @@ mpv --sub-file chats/v163361169.ass ytdl://Qt1N7foBrUE
 
 ---- 
  
-## 6 (прерван)
+<h2 id="7">6</h2>
 
+* Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
   * Twitch: [164116949](https://www.twitch.tv/videos/164116949)
   * Субтитры: [v164116949.ass](../chats/v164116949.ass)
@@ -454,7 +458,7 @@ mpv --sub-file chats/v164116949.ass ytdl://5JOCDsqrhOY
 
 ---- 
  
-## 6.5
+<h2 id="8">6.5</h2>
 
 * Ссылки:
   * Twitch: [164165380](https://www.twitch.tv/videos/164165380)
