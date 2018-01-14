@@ -36,7 +36,7 @@
 
 ### В процессе
 
-* [NieR Automata](links/nier-automata.md) (6 стримов)
+* [NieR Automata](links/nier-automata.md) (7 стримов)
 * [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (20 стримов)
 * [Demon's Souls](links/demons-souls.md) (2 стрима)
 
@@ -73,7 +73,8 @@
 
 Если у вас есть ссылка на запись любого из этих стримов, сообщите мне через раздел
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
-Поддерживаются любые не сегментированные видео с YouTube. Спасибо!
+Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
 * [NieR Automata](links/nier-automata.md) - 4
+* [NieR Automata](links/nier-automata.md) - 7
 * [Resident Evil 4](links/re4.md) - 4
