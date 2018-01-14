@@ -76,7 +76,7 @@
 </%def>
 
 <%def name="gen_stream(id, stream)">
-${'##'} ${stream['name']}
+<h2 id="${id}">${stream['name']}</h2>
 
 % if stream.get('note'):
 * Примечание: ${stream['note']}
