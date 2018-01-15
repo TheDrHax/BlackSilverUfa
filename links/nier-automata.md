@@ -309,12 +309,50 @@ mpv --sub-file chats/v217247484.ass ytdl://-6su7L3esVw
 * Ссылки:
   * Twitch: [218542652](https://www.twitch.tv/videos/218542652)
   * Субтитры: [v218542652.ass](../chats/v218542652.ass)
-  * Запись: отсутствует
+  * Запись (YouTube): [BVQTG-qH8fY](https://www.youtube.com/watch?v=BVQTG-qH8fY)
+
+<a onclick="return openPlayer6()" id="button-6">**▶ Открыть плеер**</a>
+
+<script>
+  var player6;
+  function openPlayer6() {
+    player6 = videojs("player-6", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v218542652.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=BVQTG-qH8fY"
+      }]
+    });
+    document.getElementById("spoiler-6").click();
+    document.getElementById("button-6").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-6"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-6" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v218542652.ass" --player-passthrough hls twitch.tv/videos/218542652 best
+mpv --sub-file chats/v218542652.ass ytdl://BVQTG-qH8fY
 ```
 
 ---- 

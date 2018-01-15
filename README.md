@@ -76,5 +76,4 @@
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
-* [NieR Automata](links/nier-automata.md) - [7](links/nier-automata.md#6)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
