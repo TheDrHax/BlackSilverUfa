@@ -23,17 +23,17 @@
 * [Resident Evil 4](links/re4.md) (6 стримов)
 * [White Day: A Labyrinth Named School](links/white_day.md) (5 стримов)
 
-#### [Прохождения за один стрим](links/single.md)
+#### Прохождения за один стрим
 
-* Michigan: Report from Hell
-* Absolver
-* The Count Lucanor
-* Call of Duty: WWII
-* Little Nightmares (DLC)
-* Hidden Agenda
-* Unforgiving: A Northern Hymn
-* SCP Containment Breach
-* DYING: Reborn
+* [Michigan: Report from Hell](links/single.md#0)
+* [Absolver](links/single.md#1)
+* [The Count Lucanor](links/single.md#2)
+* [Call of Duty: WWII](links/single.md#3)
+* [Little Nightmares (DLC)](links/single.md#4)
+* [Hidden Agenda](links/single.md#5)
+* [Unforgiving: A Northern Hymn](links/single.md#6)
+* [SCP Containment Breach](links/single.md#7)
+* [DYING: Reborn](links/single.md#8)
 
 ### В процессе
 

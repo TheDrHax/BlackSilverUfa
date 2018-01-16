@@ -79,7 +79,7 @@
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v160844876.ass" --player-passthrough hls twitch.tv/videos/160844876 best
+mpv --sub-file chats/v160844876.ass $(curl -s https://api.thedrhax.pw/vk/video/87862793_456240552\?raw)
 ```
 
 ---- 
