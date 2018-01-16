@@ -447,6 +447,21 @@ mpv --sub-file chats/v215974261.ass ytdl://-8anORo35tQ
 
 ---- 
  
+<h2 id="8">DYING: Reborn</h2>
+
+* Ссылки:
+  * Twitch: [219166190](https://www.twitch.tv/videos/219166190)
+  * Субтитры: [v219166190.ass](../chats/v219166190.ass)
+  * Запись: отсутствует
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v219166190.ass" --player-passthrough hls twitch.tv/videos/219166190 best
+```
+
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:

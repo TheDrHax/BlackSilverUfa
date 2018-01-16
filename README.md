@@ -33,6 +33,7 @@
 * Hidden Agenda
 * Unforgiving: A Northern Hymn
 * SCP Containment Breach
+* DYING: Reborn
 
 ### В процессе
 
@@ -77,3 +78,4 @@
 
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
+* [Полные прохождения за один стрим](links/single.md) - [DYING: Reborn](links/single.md#8)
