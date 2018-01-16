@@ -121,6 +121,8 @@ ${'####'} Команда для просмотра стрима в проигр�
 mpv --sub-file chats/v${stream['twitch']}.ass ytdl://${stream['youtube']}
 % elif stream.get('direct'):
 mpv --sub-file chats/v${stream['twitch']}.ass ${stream['direct']}
+% elif stream.get('vk'):
+mpv --sub-file chats/v${stream['twitch']}.ass $(curl -s https://api.thedrhax.pw/vk/video/${stream['vk']}\?raw)
 % else:
 streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
 % endif
