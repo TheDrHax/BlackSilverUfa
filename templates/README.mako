@@ -25,12 +25,7 @@ ${'##'} Архив
 
 % for category in categories:
   ## Заголовок категории
-${'#'*category['level']} \
-  % if category.get('type') is None:
-${category['name']}
-  % elif category['type'] == 'list':
-[${category['name']}](links/${category['games'][0]['filename']})
-  % endif
+${'#'*category['level']} ${category['name']}
 
   ## Содержимое категории
   % if category.get('description'):
@@ -42,7 +37,8 @@ ${category['description']}
     % endfor
   % elif category['type'] == 'list':
     % for stream in category['games'][0]['streams']:
-* ${stream['name']}
+* [${stream['name']}](links/${category['games'][0]['filename']}#\
+${category['games'][0]['streams'].index(stream)})
     % endfor
   % endif
 
