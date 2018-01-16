@@ -23,7 +23,7 @@
 
 # Полные прохождения за один стрим
  
-<h2 id="0">Michigan: Report from Hell</h2>
+<h2 id="0"><a href="#0">Michigan: Report from Hell</a></h2>
 
 * Ссылки:
   * Twitch: [152253862](https://www.twitch.tv/videos/152253862)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v152253862.ass ytdl://cTvtS4jAQGk
 
 ---- 
  
-<h2 id="1">Absolver</h2>
+<h2 id="1"><a href="#1">Absolver</a></h2>
 
 * Ссылки:
   * Twitch: [174225353](https://www.twitch.tv/videos/174225353)
@@ -129,7 +129,7 @@ mpv --sub-file chats/v174225353.ass ytdl://ejp3UDoKx4k
 
 ---- 
  
-<h2 id="2">The Count Lucanor</h2>
+<h2 id="2"><a href="#2">The Count Lucanor</a></h2>
 
 * Ссылки:
   * Twitch: [184468298](https://www.twitch.tv/videos/184468298)
@@ -182,7 +182,7 @@ mpv --sub-file chats/v184468298.ass ytdl://9p23c9_BYaU
 
 ---- 
  
-<h2 id="3">Call of Duty: WWII</h2>
+<h2 id="3"><a href="#3">Call of Duty: WWII</a></h2>
 
 * Ссылки:
   * Twitch: [187291538](https://www.twitch.tv/videos/187291538)
@@ -235,7 +235,7 @@ mpv --sub-file chats/v187291538.ass ytdl://Bxj09aAOFaI
 
 ---- 
  
-<h2 id="4">Little Nightmares (DLC)</h2>
+<h2 id="4"><a href="#4">Little Nightmares (DLC)</a></h2>
 
 * Ссылки:
   * Twitch: [200401270](https://www.twitch.tv/videos/200401270)
@@ -288,7 +288,7 @@ mpv --sub-file chats/v200401270.ass ytdl://LSHpifkX69Y
 
 ---- 
  
-<h2 id="5">Hidden Agenda</h2>
+<h2 id="5"><a href="#5">Hidden Agenda</a></h2>
 
 * Ссылки:
   * Twitch: [202329656](https://www.twitch.tv/videos/202329656)
@@ -341,7 +341,7 @@ mpv --sub-file chats/v202329656.ass ytdl://9kSnxedrUjM
 
 ---- 
  
-<h2 id="6">Unforgiving: A Northern Hymn</h2>
+<h2 id="6"><a href="#6">Unforgiving: A Northern Hymn</a></h2>
 
 * Ссылки:
   * Twitch: [204996737](https://www.twitch.tv/videos/204996737)
@@ -394,7 +394,7 @@ mpv --sub-file chats/v204996737.ass ytdl://ZiYWnjvqw_k
 
 ---- 
  
-<h2 id="7">SCP Containment Breach</h2>
+<h2 id="7"><a href="#7">SCP Containment Breach</a></h2>
 
 * Ссылки:
   * Twitch: [215974261](https://www.twitch.tv/videos/215974261)
@@ -447,7 +447,7 @@ mpv --sub-file chats/v215974261.ass ytdl://-8anORo35tQ
 
 ---- 
  
-<h2 id="8">DYING: Reborn</h2>
+<h2 id="8"><a href="#8">DYING: Reborn</a></h2>
 
 * Ссылки:
   * Twitch: [219166190](https://www.twitch.tv/videos/219166190)

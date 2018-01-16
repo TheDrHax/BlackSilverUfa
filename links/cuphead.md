@@ -23,7 +23,7 @@
 
 # Cuphead
  
-<h2 id="0">1</h2>
+<h2 id="0"><a href="#0">1</a></h2>
 
 * Ссылки:
   * Twitch: [178361269](https://www.twitch.tv/videos/178361269)

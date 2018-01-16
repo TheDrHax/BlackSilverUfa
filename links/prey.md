@@ -23,7 +23,7 @@
 
 # Prey
  
-<h2 id="0">1</h2>
+<h2 id="0"><a href="#0">1</a></h2>
 
 * Ссылки:
   * Twitch: [140288888](https://www.twitch.tv/videos/140288888)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v140288888.ass ytdl://Og2_fkJo8NY
 
 ---- 
  
-<h2 id="1">2</h2>
+<h2 id="1"><a href="#1">2</a></h2>
 
 * Ссылки:
   * Twitch: [140295699](https://www.twitch.tv/videos/140295699)
@@ -129,7 +129,7 @@ mpv --sub-file chats/v140295699.ass ytdl://x8lucgXcyfk
 
 ---- 
  
-<h2 id="2">3</h2>
+<h2 id="2"><a href="#2">3</a></h2>
 
 * Ссылки:
   * Twitch: [140548655](https://www.twitch.tv/videos/140548655)
@@ -182,7 +182,7 @@ mpv --sub-file chats/v140548655.ass ytdl://vbAftlMvoB8
 
 ---- 
  
-<h2 id="3">4</h2>
+<h2 id="3"><a href="#3">4</a></h2>
 
 * Ссылки:
   * Twitch: [141300323](https://www.twitch.tv/videos/141300323)
@@ -235,7 +235,7 @@ mpv --sub-file chats/v141300323.ass ytdl://u2jhKbGE7jY
 
 ---- 
  
-<h2 id="4">5</h2>
+<h2 id="4"><a href="#4">5</a></h2>
 
 * Ссылки:
   * Twitch: [141516144](https://www.twitch.tv/videos/141516144)
@@ -288,7 +288,7 @@ mpv --sub-file chats/v141516144.ass ytdl://qL_kIUCWWIY
 
 ---- 
  
-<h2 id="5">6</h2>
+<h2 id="5"><a href="#5">6</a></h2>
 
 * Ссылки:
   * Twitch: [142839507](https://www.twitch.tv/videos/142839507)

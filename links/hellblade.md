@@ -23,7 +23,7 @@
 
 # Hellblade: Senua's Sacrifice
  
-<h2 id="0">1</h2>
+<h2 id="0"><a href="#0">1</a></h2>
 
 * Ссылки:
   * Twitch: [165359272](https://www.twitch.tv/videos/165359272)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v165359272.ass ytdl://qInCMF9MuEs
 
 ---- 
  
-<h2 id="1">2</h2>
+<h2 id="1"><a href="#1">2</a></h2>
 
 * Ссылки:
   * Twitch: [165630859](https://www.twitch.tv/videos/165630859)

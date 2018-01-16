@@ -23,7 +23,7 @@
 
 # The Legend of Zelda: Breath of the Wild
  
-<h2 id="0">1</h2>
+<h2 id="0"><a href="#0">1</a></h2>
 
 * Ссылки:
   * Twitch: [126330909](https://www.twitch.tv/videos/126330909)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v126330909.ass ytdl://G5waS5gtIlg
 
 ---- 
  
-<h2 id="1">2</h2>
+<h2 id="1"><a href="#1">2</a></h2>
 
 * Ссылки:
   * Twitch: [126599870](https://www.twitch.tv/videos/126599870)
@@ -129,7 +129,7 @@ mpv --sub-file chats/v126599870.ass ytdl://jAqFcUpBoZ4
 
 ---- 
  
-<h2 id="2">3</h2>
+<h2 id="2"><a href="#2">3</a></h2>
 
 * Ссылки:
   * Twitch: [127934409](https://www.twitch.tv/videos/127934409)
@@ -182,7 +182,7 @@ mpv --sub-file chats/v127934409.ass ytdl://hFg4gYQ5Pac
 
 ---- 
  
-<h2 id="3">4</h2>
+<h2 id="3"><a href="#3">4</a></h2>
 
 * Ссылки:
   * Twitch: [128632418](https://www.twitch.tv/videos/128632418)
@@ -235,7 +235,7 @@ mpv --sub-file chats/v128632418.ass ytdl://vP0EEDw30PY
 
 ---- 
  
-<h2 id="4">5</h2>
+<h2 id="4"><a href="#4">5</a></h2>
 
 * Ссылки:
   * Twitch: [129517728](https://www.twitch.tv/videos/129517728)
@@ -288,7 +288,7 @@ mpv --sub-file chats/v129517728.ass ytdl://BKDEwpqADjo
 
 ---- 
  
-<h2 id="5">6</h2>
+<h2 id="5"><a href="#5">6</a></h2>
 
 * Ссылки:
   * Twitch: [130208266](https://www.twitch.tv/videos/130208266)
@@ -341,7 +341,7 @@ mpv --sub-file chats/v130208266.ass ytdl://olgWLuZZoxA
 
 ---- 
  
-<h2 id="6">7</h2>
+<h2 id="6"><a href="#6">7</a></h2>
 
 * Ссылки:
   * Twitch: [130640455](https://www.twitch.tv/videos/130640455)
@@ -394,7 +394,7 @@ mpv --sub-file chats/v130640455.ass ytdl://8aVBYHOL-JA
 
 ---- 
  
-<h2 id="7">8</h2>
+<h2 id="7"><a href="#7">8</a></h2>
 
 * Ссылки:
   * Twitch: [132460500](https://www.twitch.tv/videos/132460500)
@@ -447,7 +447,7 @@ mpv --sub-file chats/v132460500.ass ytdl://aski9zJE18M
 
 ---- 
  
-<h2 id="8">9</h2>
+<h2 id="8"><a href="#8">9</a></h2>
 
 * Ссылки:
   * Twitch: [132722938](https://www.twitch.tv/videos/132722938)
@@ -500,7 +500,7 @@ mpv --sub-file chats/v132722938.ass ytdl://_rlCW6nrxRU
 
 ---- 
  
-<h2 id="9">10</h2>
+<h2 id="9"><a href="#9">10</a></h2>
 
 * Ссылки:
   * Twitch: [134698840](https://www.twitch.tv/videos/134698840)
@@ -553,7 +553,7 @@ mpv --sub-file chats/v134698840.ass ytdl://rEmWFgGTm2o
 
 ---- 
  
-<h2 id="10">11</h2>
+<h2 id="10"><a href="#10">11</a></h2>
 
 * Ссылки:
   * Twitch: [135336477](https://www.twitch.tv/videos/135336477)
@@ -606,7 +606,7 @@ mpv --sub-file chats/v135336477.ass ytdl://Wl6AUvcl4nQ
 
 ---- 
  
-<h2 id="11">12</h2>
+<h2 id="11"><a href="#11">12</a></h2>
 
 * Ссылки:
   * Twitch: [136443704](https://www.twitch.tv/videos/136443704)
@@ -659,7 +659,7 @@ mpv --sub-file chats/v136443704.ass ytdl://_otITp-qIc0
 
 ---- 
  
-<h2 id="12">13</h2>
+<h2 id="12"><a href="#12">13</a></h2>
 
 * Ссылки:
   * Twitch: [138884824](https://www.twitch.tv/videos/138884824)
@@ -712,7 +712,7 @@ mpv --sub-file chats/v138884824.ass ytdl://g44IUL6knpU
 
 ---- 
  
-<h2 id="13">DLC 1 #1</h2>
+<h2 id="13"><a href="#13">DLC 1 #1</a></h2>
 
 * Ссылки:
   * Twitch: [156558088](https://www.twitch.tv/videos/156558088)
@@ -765,7 +765,7 @@ mpv --sub-file chats/v156558088.ass ytdl://SPbHXjRJHyc
 
 ---- 
  
-<h2 id="14">DLC 1 #2</h2>
+<h2 id="14"><a href="#14">DLC 1 #2</a></h2>
 
 * Ссылки:
   * Twitch: [158301208](https://www.twitch.tv/videos/158301208)
@@ -818,7 +818,7 @@ mpv --sub-file chats/v158301208.ass ytdl://CkxzFYX2QDE
 
 ---- 
  
-<h2 id="15">DLC 1 #3</h2>
+<h2 id="15"><a href="#15">DLC 1 #3</a></h2>
 
 * Ссылки:
   * Twitch: [158812902](https://www.twitch.tv/videos/158812902)
@@ -871,7 +871,7 @@ mpv --sub-file chats/v158812902.ass ytdl://nLo-y_ig9Mg
 
 ---- 
  
-<h2 id="16">DLC 2 #1</h2>
+<h2 id="16"><a href="#16">DLC 2 #1</a></h2>
 
 * Ссылки:
   * Twitch: [208349646](https://www.twitch.tv/videos/208349646)
@@ -926,7 +926,7 @@ mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE
 
 ---- 
  
-<h2 id="17">DLC 2 #2</h2>
+<h2 id="17"><a href="#17">DLC 2 #2</a></h2>
 
 * Ссылки:
   * Twitch: [209473798](https://www.twitch.tv/videos/209473798)
@@ -981,7 +981,7 @@ mpv --sub-file chats/v209473798.ass ytdl://I24o7dmQyso
 
 ---- 
  
-<h2 id="18">DLC 2 #3</h2>
+<h2 id="18"><a href="#18">DLC 2 #3</a></h2>
 
 * Ссылки:
   * Twitch: [210846597](https://www.twitch.tv/videos/210846597)
@@ -1034,7 +1034,7 @@ mpv --sub-file chats/v210846597.ass ytdl://sR_zEhQt7_g
 
 ---- 
  
-<h2 id="19">DLC 2 #4</h2>
+<h2 id="19"><a href="#19">DLC 2 #4</a></h2>
 
 * Ссылки:
   * Twitch: [216912425](https://www.twitch.tv/videos/216912425)

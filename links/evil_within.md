@@ -23,7 +23,7 @@
 
 # The Evil Within
  
-<h2 id="0">1</h2>
+<h2 id="0"><a href="#0">1</a></h2>
 
 * Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
@@ -84,7 +84,7 @@ streamlink -p "mpv --sub-file chats/v160844876.ass" --player-passthrough hls twi
 
 ---- 
  
-<h2 id="1">1.5</h2>
+<h2 id="1"><a href="#1">1.5</a></h2>
 
 * Ссылки:
   * Twitch: [160852861](https://www.twitch.tv/videos/160852861)
@@ -137,7 +137,7 @@ mpv --sub-file chats/v160852861.ass ytdl://LF6RMOOvA9M
 
 ---- 
  
-<h2 id="2">2</h2>
+<h2 id="2"><a href="#2">2</a></h2>
 
 * Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
@@ -191,7 +191,7 @@ mpv --sub-file chats/v161110508.ass ytdl://8VCQkjjMu-I
 
 ---- 
  
-<h2 id="3">2.5</h2>
+<h2 id="3"><a href="#3">2.5</a></h2>
 
 * Ссылки:
   * Twitch: [161115703](https://www.twitch.tv/videos/161115703)
@@ -244,7 +244,7 @@ mpv --sub-file chats/v161115703.ass ytdl://vxbjz2-Lmgg
 
 ---- 
  
-<h2 id="4">3</h2>
+<h2 id="4"><a href="#4">3</a></h2>
 
 * Ссылки:
   * Twitch: [162350334](https://www.twitch.tv/videos/162350334)
@@ -297,7 +297,7 @@ mpv --sub-file chats/v162350334.ass ytdl://hZSVfTxT7Qo
 
 ---- 
  
-<h2 id="5">4</h2>
+<h2 id="5"><a href="#5">4</a></h2>
 
 * Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
@@ -351,7 +351,7 @@ mpv --sub-file chats/v162844424.ass ytdl://8lhCzaGLmK8
 
 ---- 
  
-<h2 id="6">5</h2>
+<h2 id="6"><a href="#6">5</a></h2>
 
 * Ссылки:
   * Twitch: [163361169](https://www.twitch.tv/videos/163361169)
@@ -404,7 +404,7 @@ mpv --sub-file chats/v163361169.ass ytdl://Qt1N7foBrUE
 
 ---- 
  
-<h2 id="7">6</h2>
+<h2 id="7"><a href="#7">6</a></h2>
 
 * Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
@@ -458,7 +458,7 @@ mpv --sub-file chats/v164116949.ass ytdl://5JOCDsqrhOY
 
 ---- 
  
-<h2 id="8">6.5</h2>
+<h2 id="8"><a href="#8">6.5</a></h2>
 
 * Ссылки:
   * Twitch: [164165380](https://www.twitch.tv/videos/164165380)

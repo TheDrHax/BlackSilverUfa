@@ -23,7 +23,7 @@
 
 # The Legend of Zelda: Twilight Princess HD
  
-<h2 id="0">1</h2>
+<h2 id="0"><a href="#0">1</a></h2>
 
 * Ссылки:
   * Twitch: [163612448](https://www.twitch.tv/videos/163612448)

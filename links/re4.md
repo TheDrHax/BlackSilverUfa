@@ -23,7 +23,7 @@
 
 # Resident Evil 4
  
-<h2 id="0">1</h2>
+<h2 id="0"><a href="#0">1</a></h2>
 
 * Ссылки:
   * Twitch: [164633577](https://www.twitch.tv/videos/164633577)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v164633577.ass ytdl://0XeyDh7T0Jw
 
 ---- 
  
-<h2 id="1">2</h2>
+<h2 id="1"><a href="#1">2</a></h2>
 
 * Ссылки:
   * Twitch: [165630859](https://www.twitch.tv/videos/165630859)
@@ -131,7 +131,7 @@ mpv --sub-file chats/v165630859.ass ytdl://7r6_dwXVXgE
 
 ---- 
  
-<h2 id="2">3</h2>
+<h2 id="2"><a href="#2">3</a></h2>
 
 * Ссылки:
   * Twitch: [167924021](https://www.twitch.tv/videos/167924021)
@@ -184,7 +184,7 @@ mpv --sub-file chats/v167924021.ass ytdl://9i6wUrnvLy8
 
 ---- 
  
-<h2 id="3">4</h2>
+<h2 id="3"><a href="#3">4</a></h2>
 
 * Ссылки:
   * Twitch: [168936842](https://www.twitch.tv/videos/168936842)
@@ -199,7 +199,7 @@ streamlink -p "mpv --sub-file chats/v168936842.ass" --player-passthrough hls twi
 
 ---- 
  
-<h2 id="4">5</h2>
+<h2 id="4"><a href="#4">5</a></h2>
 
 * Ссылки:
   * Twitch: [173993139](https://www.twitch.tv/videos/173993139)
@@ -252,7 +252,7 @@ mpv --sub-file chats/v173993139.ass ytdl://eGY5W8Dtehs
 
 ---- 
  
-<h2 id="5">6</h2>
+<h2 id="5"><a href="#5">6</a></h2>
 
 * Ссылки:
   * Twitch: [175695460](https://www.twitch.tv/videos/175695460)

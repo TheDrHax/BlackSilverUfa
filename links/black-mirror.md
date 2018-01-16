@@ -23,7 +23,7 @@
 
 # Black Mirror
  
-<h2 id="0">1</h2>
+<h2 id="0"><a href="#0">1</a></h2>
 
 * Ссылки:
   * Twitch: [205262158](https://www.twitch.tv/videos/205262158)
@@ -76,7 +76,7 @@ mpv --sub-file chats/v205262158.ass ytdl://9rrv07l9Bxs
 
 ---- 
  
-<h2 id="1">2</h2>
+<h2 id="1"><a href="#1">2</a></h2>
 
 * Ссылки:
   * Twitch: [206091904](https://www.twitch.tv/videos/206091904)
