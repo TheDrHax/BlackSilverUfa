@@ -414,6 +414,11 @@
       "name": "7",
       "twitch": "218542652",
       "youtube": "BVQTG-qH8fY"
+    },
+    {
+      "name": "8",
+      "twitch": "219463387",
+      "start": "1:16:00"
     }
   ]
 },
@@ -861,6 +866,17 @@
       "name": "1.2",
       "twitch": "217852593",
       "youtube": "6OQMTzVS8po"
+    }
+  ]
+},
+{
+  "name": "IRL",
+  "category": "other",
+  "filename": "events.md",
+  "streams": [
+    {
+      "name": "Сборка кресла",
+      "twitch": "219463387"
     }
   ]
 }]
