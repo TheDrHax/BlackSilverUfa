@@ -37,7 +37,7 @@
 
 ### В процессе
 
-* [NieR Automata](links/nier-automata.md) (7 стримов)
+* [NieR Automata](links/nier-automata.md) (8 стримов)
 * [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (20 стримов)
 * [Demon's Souls](links/demons-souls.md) (2 стрима)
 
@@ -66,6 +66,7 @@
 * [Несюжетные ко-опы](links/co-op.md) (10 стримов)
 * [неПрофессиональный E3 2017](links/e3_2017.md) (7 стримов)
 * [Sub-Day и стримы с несколькими играми](links/subday.md) (3 стрима)
+* [IRL](links/events.md) (1 стрим)
 
 
 ----
@@ -77,4 +78,6 @@
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
+* [NieR Automata](links/nier-automata.md) - [8](links/nier-automata.md#7)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
+* [IRL](links/events.md) - [Сборка кресла](links/events.md#0)
