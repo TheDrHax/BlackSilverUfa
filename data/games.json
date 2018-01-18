@@ -886,4 +886,37 @@
       "youtube": "tj3Rx47t8FI"
     }
   ]
+},
+{
+  "name": "Getting Over It",
+  "category": "ongoing",
+  "filename": "getting-over-it.md",
+  "streams": [
+    {
+      "name": "1",
+      "twitch": "219819121",
+      "start": "1:52:00",
+      "timecodes": [
+        ["20:00", "Metal Gear Survive"],
+        ["1:23:30", "Metal Gear Survive (ко-оп со зрителями)"],
+        ["1:52:00", "Getting Over It"]
+      ]
+    }
+  ]
+},
+{
+  "name": "Metal Gear Survive",
+  "category": "questionable",
+  "filename": "metal-gear-survive.md",
+  "streams": [
+    {
+      "name": "1 (бета)",
+      "twitch": "219819121",
+      "timecodes": [
+        ["20:00", "Metal Gear Survive"],
+        ["1:23:30", "Metal Gear Survive (ко-оп со зрителями)"],
+        ["1:52:00", "Getting Over It"]
+      ]
+    }
+  ]
 }]
