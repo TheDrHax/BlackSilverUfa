@@ -14,9 +14,16 @@ from mako.template import Template
 
 if __name__ == "__main__":
     with io.open("data/games.json", "r", encoding="utf-8") as f1, \
-         io.open("data/categories.json", "r", encoding="utf-8") as f2:
+         io.open("data/categories.json", "r", encoding="utf-8") as f2, \
+         io.open("data/streams.json", "r", encoding="utf-8") as f3:
         games = json.load(f1)
         categories = json.load(f2)
+        streams = json.load(f3)
+
+    for game in games:
+        for stream in game['streams']:
+            if streams[stream['twitch']]:
+                stream.update(streams[stream['twitch']])
 
     for category in categories:
         category['games'] = []
