@@ -1,0 +1,52 @@
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- video.js -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
+<!-- videojs-youtube -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.4.1/Youtube.js"></script>
+<!-- libjass -->
+<link href="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.js"></script>
+<!-- videojs-ass -->
+<link href="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.js"></script>
+<!-- videojs-resolution-switcher -->
+<script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
+
+<style>
+  .main-content {
+    padding: 2rem;
+    max-width: 72rem;
+  }
+</style>
+
+# Getting Over It
+ 
+<h2 id="0"><a href="#0">1</a></h2>
+
+* Ссылки:
+  * Twitch: [219819121](https://www.twitch.tv/videos/219819121)
+  * Субтитры: [v219819121.ass](../chats/v219819121.ass)
+  * Запись: отсутствует
+* Таймкоды:
+  *  <a onclick="player0.currentTime(1200)">20:00</a>  - Metal Gear Survive
+  *  <a onclick="player0.currentTime(5010)">1:23:30</a>  - Metal Gear Survive (ко-оп со зрителями)
+  *  <a onclick="player0.currentTime(6720)">1:52:00</a>  - Getting Over It
+* Стрим начинается с  <a onclick="player0.currentTime(6720)">1:52:00</a> 
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v219819121.ass" --player-passthrough hls twitch.tv/videos/219819121 best
+```
+
+---- 
+ 
+Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
+
+Быстрый старт:
+* `git clone https://github.com/TheDrHax/BlackSilverUfa.git`
+* `cd BlackSilverUfa`
+* `git checkout gh-pages`
+* Команда, приведённая выше

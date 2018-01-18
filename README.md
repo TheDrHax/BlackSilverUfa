@@ -40,6 +40,7 @@
 * [NieR Automata](links/nier-automata.md) (8 стримов)
 * [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (20 стримов)
 * [Demon's Souls](links/demons-souls.md) (3 стрима)
+* [Getting Over It](links/getting-over-it.md) (1 стрим)
 
 #### Потенциально бесконечные
 
@@ -51,6 +52,7 @@
 * [Cuphead](links/cuphead.md) (1 стрим)
 * [Monster Hunter World](links/monster-hunter-world.md) (1 стрим)
 * [Outlast 2 с Дашей](links/outlast_2_dw.md) (2 стрима)
+* [Metal Gear Survive](links/metal-gear-survive.md) (1 стрим)
 
 #### Незавершённые
 
@@ -79,3 +81,5 @@
 
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
+* [Getting Over It](links/getting-over-it.md) - [1](links/getting-over-it.md#0)
+* [Metal Gear Survive](links/metal-gear-survive.md) - [1 (бета)](links/metal-gear-survive.md#0)
