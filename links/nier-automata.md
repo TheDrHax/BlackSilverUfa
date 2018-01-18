@@ -362,13 +362,52 @@ mpv --sub-file chats/v218542652.ass ytdl://BVQTG-qH8fY
 * Ссылки:
   * Twitch: [219463387](https://www.twitch.tv/videos/219463387)
   * Субтитры: [v219463387.ass](../chats/v219463387.ass)
-  * Запись: отсутствует
+  * Запись (YouTube): [tj3Rx47t8FI](https://www.youtube.com/watch?v=tj3Rx47t8FI)
 * Стрим начинается с  <a onclick="player7.currentTime(4560)">1:16:00</a> 
+
+<a onclick="return openPlayer7()" id="button-7">**▶ Открыть плеер**</a>
+
+<script>
+  var player7;
+  function openPlayer7() {
+    player7 = videojs("player-7", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v219463387.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=tj3Rx47t8FI"
+      }]
+    });
+    document.getElementById("spoiler-7").click();
+    document.getElementById("button-7").remove();
+      player7.currentTime(4560);
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-7"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-7" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v219463387.ass" --player-passthrough hls twitch.tv/videos/219463387 best
+mpv --sub-file chats/v219463387.ass ytdl://tj3Rx47t8FI
 ```
 
 ---- 

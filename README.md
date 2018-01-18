@@ -78,7 +78,4 @@
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
-* [NieR Automata](links/nier-automata.md) - [8](links/nier-automata.md#7)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
-* [Demon's Souls](links/demons-souls.md) - [2](links/demons-souls.md#2)
-* [IRL](links/events.md) - [Сборка кресла](links/events.md#0)
