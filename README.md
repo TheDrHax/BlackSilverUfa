@@ -21,6 +21,7 @@
 * [Hellblade: Senua's Sacrifice](links/hellblade.md) (2 стрима)
 * [Prey](links/prey.md) (6 стримов)
 * [Resident Evil 4](links/re4.md) (6 стримов)
+* [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (20 стримов)
 * [White Day: A Labyrinth Named School](links/white_day.md) (5 стримов)
 
 #### Прохождения за один стрим
@@ -38,7 +39,6 @@
 ### В процессе
 
 * [NieR Automata](links/nier-automata.md) (8 стримов)
-* [The Legend of Zelda: Breath of the Wild](links/tloz_botw.md) (20 стримов)
 * [Demon's Souls](links/demons-souls.md) (3 стрима)
 * [Getting Over It](links/getting-over-it.md) (1 стрим)
 
