@@ -81,5 +81,3 @@
 
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
-* [Getting Over It](links/getting-over-it.md) - [1](links/getting-over-it.md#0)
-* [Metal Gear Survive](links/metal-gear-survive.md) - [1 (бета)](links/metal-gear-survive.md#0)
