@@ -33,8 +33,7 @@
 * [Little Nightmares (DLC)](links/single.md#4)
 * [Hidden Agenda](links/single.md#5)
 * [Unforgiving: A Northern Hymn](links/single.md#6)
-* [SCP Containment Breach](links/single.md#7)
-* [DYING: Reborn](links/single.md#8)
+* [DYING: Reborn](links/single.md#7)
 
 ### В процессе
 
@@ -46,6 +45,7 @@
 
 * [Persona 5](links/persona_5.md) (8 стримов)
 * [Super Mario Odyssey](links/super-mario-odyssey.md) (4 стрима)
+* [SCP Containment Breach](links/scp-cb.md) (2 стрима)
 
 #### Под вопросом
 
@@ -81,3 +81,4 @@
 
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
+* [SCP Containment Breach](links/scp-cb.md) - [2](links/scp-cb.md#1)
