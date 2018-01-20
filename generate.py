@@ -20,11 +20,13 @@ if __name__ == "__main__":
         categories = json.load(f2)
         streams = json.load(f3)
 
+    # Populate games with streams info
     for game in games:
         for stream in game['streams']:
             if streams[stream['twitch']]:
                 stream.update(streams[stream['twitch']])
 
+    # Populate categories with games
     for category in categories:
         category['games'] = []
         for game in games:
@@ -37,10 +39,9 @@ if __name__ == "__main__":
             os.mkdir(directory)
 
     # Download missing stream subtitles
-    for game in games:
-        for stream in game['streams']:
-            if not os.path.isfile("chats/v{0[twitch]}.ass".format(stream)):
-                tcd.download(stream['twitch'])
+    for stream in streams:
+        if not os.path.isfile("chats/v{0}.ass".format(stream)):
+            tcd.download(stream)
 
     # Generate README.md
     with io.open("README.md", "w+", encoding="utf-8") as output:
