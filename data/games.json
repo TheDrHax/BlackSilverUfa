@@ -463,10 +463,6 @@
         "twitch": "204996737"
       },
       {
-        "name": "SCP Containment Breach",
-        "twitch": "215974261"
-      },
-      {
         "name": "DYING: Reborn",
         "twitch": "219166190"
       }
@@ -710,6 +706,21 @@
       {
         "name": "1 (бета)",
         "twitch": "219819121"
+      }
+    ]
+  },
+  {
+    "category": "infinite",
+    "filename": "scp-cb.md",
+    "name": "SCP Containment Breach",
+    "streams": [
+      {
+        "name": "1",
+        "twitch": "215974261"
+      },
+      {
+        "name": "2",
+        "twitch": "220513992"
       }
     ]
   }
