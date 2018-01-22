@@ -81,4 +81,3 @@
 
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
-* [SCP Containment Breach](links/scp-cb.md) - [2](links/scp-cb.md#1)
