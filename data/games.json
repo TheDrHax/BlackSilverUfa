@@ -1,731 +1,327 @@
 [
   {
+    "name": "Black Mirror",
     "category": "finished",
     "filename": "black-mirror.md",
-    "name": "Black Mirror",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "205262158"
-      },
-      {
-        "name": "2",
-        "start": "3:07:00",
-        "twitch": "206091904"
-      }
+      { "name": "1", "twitch": "205262158" },
+      { "name": "2", "start": "3:07:00", "twitch": "206091904" }
     ]
   },
   {
+    "name": "Несюжетные ко-опы",
     "category": "other",
     "filename": "co-op.md",
-    "name": "Несюжетные ко-опы",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "180663832"
-      },
-      {
-        "name": "2",
-        "twitch": "182448131"
-      },
-      {
-        "name": "3",
-        "twitch": "184206477"
-      },
-      {
-        "name": "4",
-        "twitch": "187586726"
-      },
-      {
-        "name": "5",
-        "twitch": "200702885"
-      },
-      {
-        "name": "6",
-        "twitch": "202631693"
-      },
-      {
-        "name": "7",
-        "twitch": "206394832"
-      },
-      {
-        "name": "8",
-        "twitch": "207753795"
-      },
-      {
-        "name": "9",
-        "twitch": "213247693"
-      },
-      {
-        "name": "10",
-        "twitch": "213846142"
-      }
+      { "name": "1", "twitch": "180663832" },
+      { "name": "2", "twitch": "182448131" },
+      { "name": "3", "twitch": "184206477" },
+      { "name": "4", "twitch": "187586726" },
+      { "name": "5", "twitch": "200702885" },
+      { "name": "6", "twitch": "202631693" },
+      { "name": "7", "twitch": "206394832" },
+      { "name": "8", "twitch": "207753795" },
+      { "name": "9", "twitch": "213247693" },
+      { "name": "10", "twitch": "213846142" }
     ]
   },
   {
+    "name": "Cuphead",
     "category": "questionable",
     "filename": "cuphead.md",
-    "name": "Cuphead",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "178361269"
-      }
+      { "name": "1", "twitch": "178361269" }
     ]
   },
   {
+    "name": "Darkwood",
     "category": "finished",
     "filename": "darkwood.md",
-    "name": "Darkwood",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "172968603"
-      },
-      {
-        "name": "2",
-        "twitch": "176397641"
-      },
-      {
-        "name": "3",
-        "twitch": "177634045"
-      },
-      {
-        "name": "4",
-        "twitch": "179635876"
-      },
-      {
-        "name": "5",
-        "twitch": "179882105"
-      },
-      {
-        "name": "6",
-        "twitch": "201707253"
-      },
-      {
-        "name": "7",
-        "twitch": "203147401"
-      },
-      {
-        "name": "8",
-        "twitch": "204186576"
-      },
-      {
-        "name": "9",
-        "twitch": "206091904"
-      },
-      {
-        "name": "10",
-        "twitch": "207478875"
-      },
-      {
-        "name": "11",
-        "twitch": "210024030"
-      }
+      { "name": "1", "twitch": "172968603" },
+      { "name": "2", "twitch": "176397641" },
+      { "name": "3", "twitch": "177634045" },
+      { "name": "4", "twitch": "179635876" },
+      { "name": "5", "twitch": "179882105" },
+      { "name": "6", "twitch": "201707253" },
+      { "name": "7", "twitch": "203147401" },
+      { "name": "8", "twitch": "204186576" },
+      { "name": "9", "twitch": "206091904" },
+      { "name": "10", "twitch": "207478875" },
+      { "name": "11", "twitch": "210024030" }
     ]
   },
   {
+    "name": "Divinity: Original Sin II",
     "category": "abandoned",
     "filename": "divinity.md",
-    "name": "Divinity: Original Sin II",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "175198877"
-      }
+      { "name": "1", "twitch": "175198877" }
     ]
   },
   {
+    "name": "неПрофессиональный E3 2017",
     "category": "other",
     "filename": "e3_2017.md",
-    "name": "неПрофессиональный E3 2017",
     "streams": [
-      {
-        "name": "1 (EA)",
-        "twitch": "150938572"
-      },
-      {
-        "name": "2 (Microsoft)",
-        "twitch": "151197837"
-      },
-      {
-        "name": "3 (Bethesda)",
-        "twitch": "151251242"
-      },
-      {
-        "name": "4 (PC Gaming Show)",
-        "twitch": "151332523"
-      },
-      {
-        "name": "5 (Ubisoft)",
-        "twitch": "151384961"
-      },
-      {
-        "name": "6 (Sony)",
-        "twitch": "151532171"
-      },
-      {
-        "name": "7 (Nintendo)",
-        "twitch": "151563859"
-      }
+      { "name": "1 (EA)", "twitch": "150938572" },
+      { "name": "2 (Microsoft)", "twitch": "151197837" },
+      { "name": "3 (Bethesda)", "twitch": "151251242" },
+      { "name": "4 (PC Gaming Show)", "twitch": "151332523" },
+      { "name": "5 (Ubisoft)", "twitch": "151384961" },
+      { "name": "6 (Sony)", "twitch": "151532171" },
+      { "name": "7 (Nintendo)", "twitch": "151563859" }
     ]
   },
   {
+    "name": "The Evil Within",
     "category": "finished",
     "filename": "evil_within.md",
-    "name": "The Evil Within",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "160844876"
-      },
-      {
-        "name": "1.5",
-        "twitch": "160852861"
-      },
-      {
-        "name": "2",
-        "twitch": "161110508"
-      },
-      {
-        "name": "2.5",
-        "twitch": "161115703"
-      },
-      {
-        "name": "3",
-        "twitch": "162350334"
-      },
-      {
-        "name": "4",
-        "twitch": "162844424"
-      },
-      {
-        "name": "5",
-        "twitch": "163361169"
-      },
-      {
-        "name": "6",
-        "twitch": "164116949"
-      },
-      {
-        "name": "6.5",
-        "twitch": "164165380"
-      }
+      { "name": "1", "twitch": "160844876" },
+      { "name": "1.5", "twitch": "160852861" },
+      { "name": "2", "twitch": "161110508" },
+      { "name": "2.5", "twitch": "161115703" },
+      { "name": "3", "twitch": "162350334" },
+      { "name": "4", "twitch": "162844424" },
+      { "name": "5", "twitch": "163361169" },
+      { "name": "6", "twitch": "164116949" },
+      { "name": "6.5", "twitch": "164165380" }
     ]
   },
   {
+    "name": "Hellblade: Senua's Sacrifice",
     "category": "finished",
     "filename": "hellblade.md",
-    "name": "Hellblade: Senua's Sacrifice",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "165359272"
-      },
-      {
-        "name": "2",
-        "twitch": "165630859"
-      }
+      { "name": "1", "twitch": "165359272" },
+      { "name": "2", "twitch": "165630859" }
     ]
   },
   {
+    "name": "Home Sweet Home",
     "category": "abandoned",
     "filename": "home_sweet_home.md",
-    "name": "Home Sweet Home",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "178108639"
-      }
+      { "name": "1", "twitch": "178108639" }
     ]
   },
   {
+    "name": "Middle-earth: Shadow of War",
     "category": "abandoned",
     "filename": "middle_earth.md",
-    "name": "Middle-earth: Shadow of War",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "181166703"
-      },
-      {
-        "name": "2",
-        "twitch": "181408745"
-      },
-      {
-        "name": "3",
-        "twitch": "181664458"
-      }
+      { "name": "1", "twitch": "181166703" },
+      { "name": "2", "twitch": "181408745" },
+      { "name": "3", "twitch": "181664458" }
     ]
   },
   {
+    "name": "Monster Hunter World",
     "category": "questionable",
     "filename": "monster-hunter-world.md",
-    "name": "Monster Hunter World",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "208349646"
-      }
+      { "name": "1", "twitch": "208349646" }
     ]
   },
   {
+    "name": "NieR Automata",
     "category": "ongoing",
     "filename": "nier-automata.md",
-    "name": "NieR Automata",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "215612485"
-      },
-      {
-        "name": "2",
-        "twitch": "215625839"
-      },
-      {
-        "name": "3",
-        "twitch": "215959213"
-      },
-      {
-        "name": "4",
-        "twitch": "216293216"
-      },
-      {
-        "name": "5",
-        "twitch": "216912425"
-      },
-      {
-        "name": "6",
-        "twitch": "217247484"
-      },
-      {
-        "name": "7",
-        "twitch": "218542652"
-      },
-      {
-        "name": "8",
-        "start": "1:16:00",
-        "twitch": "219463387"
-      }
+      { "name": "1", "twitch": "215612485" },
+      { "name": "2", "twitch": "215625839" },
+      { "name": "3", "twitch": "215959213" },
+      { "name": "4", "twitch": "216293216" },
+      { "name": "5", "twitch": "216912425" },
+      { "name": "6", "twitch": "217247484" },
+      { "name": "7", "twitch": "218542652" },
+      { "name": "8", "start": "1:16:00", "twitch": "219463387" }
     ]
   },
   {
+    "name": "Outlast 2 с Дашей",
     "category": "questionable",
     "filename": "outlast_2_dw.md",
-    "name": "Outlast 2 с Дашей",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "174697007"
-      },
-      {
-        "name": "2",
-        "twitch": "186799946"
-      }
+      { "name": "1", "twitch": "174697007" },
+      { "name": "2", "twitch": "186799946" }
     ]
   },
   {
+    "name": "Persona 5",
     "category": "infinite",
     "filename": "persona_5.md",
-    "name": "Persona 5",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "135797319"
-      },
-      {
-        "name": "2",
-        "twitch": "136865997"
-      },
-      {
-        "name": "3",
-        "twitch": "140054639"
-      },
-      {
-        "name": "4",
-        "twitch": "146618890"
-      },
-      {
-        "name": "5",
-        "twitch": "148253751"
-      },
-      {
-        "name": "6",
-        "start": "2:15:00",
-        "twitch": "154787759"
-      },
-      {
-        "name": "7",
-        "start": "2:10:30",
-        "twitch": "173993139"
-      },
-      {
-        "name": "8",
-        "start": "2:10:04",
-        "twitch": "175695460"
-      }
+      { "name": "1", "twitch": "135797319" },
+      { "name": "2", "twitch": "136865997" },
+      { "name": "3", "twitch": "140054639" },
+      { "name": "4", "twitch": "146618890" },
+      { "name": "5", "twitch": "148253751" },
+      { "name": "6", "start": "2:15:00", "twitch": "154787759" },
+      { "name": "7", "start": "2:10:30", "twitch": "173993139" },
+      { "name": "8", "start": "2:10:04", "twitch": "175695460" }
     ]
   },
   {
+    "name": "Prey",
     "category": "finished",
     "filename": "prey.md",
-    "name": "Prey",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "140288888"
-      },
-      {
-        "name": "2",
-        "twitch": "140295699"
-      },
-      {
-        "name": "3",
-        "twitch": "140548655"
-      },
-      {
-        "name": "4",
-        "twitch": "141300323"
-      },
-      {
-        "name": "5",
-        "twitch": "141516144"
-      },
-      {
-        "name": "6",
-        "twitch": "142839507"
-      }
+      { "name": "1", "twitch": "140288888" },
+      { "name": "2", "twitch": "140295699" },
+      { "name": "3", "twitch": "140548655" },
+      { "name": "4", "twitch": "141300323" },
+      { "name": "5", "twitch": "141516144" },
+      { "name": "6", "twitch": "142839507" }
     ]
   },
   {
+    "name": "Resident Evil 4",
     "category": "finished",
     "filename": "re4.md",
-    "name": "Resident Evil 4",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "164633577"
-      },
-      {
-        "name": "2",
-        "start": "2:30:15",
-        "twitch": "165630859"
-      },
-      {
-        "name": "3",
-        "twitch": "167924021"
-      },
-      {
-        "name": "4",
-        "twitch": "168936842"
-      },
-      {
-        "name": "5",
-        "twitch": "173993139"
-      },
-      {
-        "name": "6",
-        "twitch": "175695460"
-      }
+      { "name": "1", "twitch": "164633577" },
+      { "name": "2", "start": "2:30:15", "twitch": "165630859" },
+      { "name": "3", "twitch": "167924021" },
+      { "name": "4", "twitch": "168936842" },
+      { "name": "5", "twitch": "173993139" },
+      { "name": "6", "twitch": "175695460" }
     ]
   },
   {
+    "name": "Полные прохождения за один стрим",
     "category": "single",
     "filename": "single.md",
-    "name": "Полные прохождения за один стрим",
     "streams": [
-      {
-        "name": "Michigan: Report from Hell",
-        "twitch": "152253862"
-      },
-      {
-        "name": "Absolver",
-        "twitch": "174225353"
-      },
-      {
-        "name": "The Count Lucanor",
-        "twitch": "184468298"
-      },
-      {
-        "name": "Call of Duty: WWII",
-        "twitch": "187291538"
-      },
-      {
-        "name": "Little Nightmares (DLC)",
-        "twitch": "200401270"
-      },
-      {
-        "name": "Hidden Agenda",
-        "twitch": "202329656"
-      },
-      {
-        "name": "Unforgiving: A Northern Hymn",
-        "twitch": "204996737"
-      },
-      {
-        "name": "DYING: Reborn",
-        "twitch": "219166190"
-      }
+      { "name": "Michigan: Report from Hell", "twitch": "152253862" },
+      { "name": "Absolver", "twitch": "174225353" },
+      { "name": "The Count Lucanor", "twitch": "184468298" },
+      { "name": "Call of Duty: WWII", "twitch": "187291538" },
+      { "name": "Little Nightmares (DLC)", "twitch": "200401270" },
+      { "name": "Hidden Agenda", "twitch": "202329656" },
+      { "name": "Unforgiving: A Northern Hymn", "twitch": "204996737" },
+      { "name": "DYING: Reborn", "twitch": "219166190" }
     ]
   },
   {
+    "name": "Sub-Day и стримы с несколькими играми",
     "category": "other",
     "filename": "subday.md",
-    "name": "Sub-Day и стримы с несколькими играми",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "180397849"
-      },
-      {
-        "name": "2",
-        "twitch": "212431882"
-      },
-      {
-        "name": "3",
-        "twitch": "212678883"
-      },
-      {
-        "name": "4",
-        "twitch": "222198164"
-      }
+      { "name": "1", "twitch": "180397849" },
+      { "name": "2", "twitch": "212431882" },
+      { "name": "3", "twitch": "212678883" },
+      { "name": "4", "twitch": "222198164" }
     ]
   },
   {
+    "name": "Super Mario Odyssey",
     "category": "infinite",
     "filename": "super-mario-odyssey.md",
-    "name": "Super Mario Odyssey",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "185763905"
-      },
-      {
-        "name": "2",
-        "start": "3:10:20",
-        "twitch": "200401270"
-      },
-      {
-        "name": "3",
-        "twitch": "202381358"
-      },
-      {
-        "name": "4",
-        "start": "2:59:58",
-        "twitch": "210846597"
-      }
+      { "name": "1", "twitch": "185763905" },
+      { "name": "2", "start": "3:10:20", "twitch": "200401270" },
+      { "name": "3", "twitch": "202381358" },
+      { "name": "4", "start": "2:59:58", "twitch": "210846597" }
     ]
   },
   {
+    "name": "The Legend of Zelda: Breath of the Wild",
     "category": "finished",
     "filename": "tloz_botw.md",
-    "name": "The Legend of Zelda: Breath of the Wild",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "126330909"
-      },
-      {
-        "name": "2",
-        "twitch": "126599870"
-      },
-      {
-        "name": "3",
-        "twitch": "127934409"
-      },
-      {
-        "name": "4",
-        "twitch": "128632418"
-      },
-      {
-        "name": "5",
-        "twitch": "129517728"
-      },
-      {
-        "name": "6",
-        "twitch": "130208266"
-      },
-      {
-        "name": "7",
-        "twitch": "130640455"
-      },
-      {
-        "name": "8",
-        "twitch": "132460500"
-      },
-      {
-        "name": "9",
-        "twitch": "132722938"
-      },
-      {
-        "name": "10",
-        "twitch": "134698840"
-      },
-      {
-        "name": "11",
-        "twitch": "135336477"
-      },
-      {
-        "name": "12",
-        "twitch": "136443704"
-      },
-      {
-        "name": "13",
-        "twitch": "138884824"
-      },
-      {
-        "name": "DLC 1 #1",
-        "twitch": "156558088"
-      },
-      {
-        "name": "DLC 1 #2",
-        "twitch": "158301208"
-      },
-      {
-        "name": "DLC 1 #3",
-        "twitch": "158812902"
-      },
-      {
-        "name": "DLC 2 #1",
-        "start": "3:05:00",
-        "twitch": "208349646"
-      },
-      {
-        "name": "DLC 2 #2",
-        "start": "29:30",
-        "twitch": "209473798"
-      },
-      {
-        "name": "DLC 2 #3",
-        "twitch": "210846597"
-      },
-      {
-        "name": "DLC 2 #4",
-        "start": "1:43:00",
-        "twitch": "216912425"
-      }
+      { "name": "1", "twitch": "126330909" },
+      { "name": "2", "twitch": "126599870" },
+      { "name": "3", "twitch": "127934409" },
+      { "name": "4", "twitch": "128632418" },
+      { "name": "5", "twitch": "129517728" },
+      { "name": "6", "twitch": "130208266" },
+      { "name": "7", "twitch": "130640455" },
+      { "name": "8", "twitch": "132460500" },
+      { "name": "9", "twitch": "132722938" },
+      { "name": "10", "twitch": "134698840" },
+      { "name": "11", "twitch": "135336477" },
+      { "name": "12", "twitch": "136443704" },
+      { "name": "13", "twitch": "138884824" },
+      { "name": "DLC 1 #1", "twitch": "156558088" },
+      { "name": "DLC 1 #2", "twitch": "158301208" },
+      { "name": "DLC 1 #3", "twitch": "158812902" },
+      { "name": "DLC 2 #1", "start": "3:05:00", "twitch": "208349646" },
+      { "name": "DLC 2 #2", "start": "29:30", "twitch": "209473798" },
+      { "name": "DLC 2 #3", "twitch": "210846597" },
+      { "name": "DLC 2 #4", "start": "1:43:00", "twitch": "216912425" }
     ]
   },
   {
+    "name": "The Legend of Zelda: Twilight Princess HD",
     "category": "abandoned",
     "filename": "tloz_tp.md",
-    "name": "The Legend of Zelda: Twilight Princess HD",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "163612448"
-      }
+      { "name": "1", "twitch": "163612448" }
     ]
   },
   {
+    "name": "White Day: A Labyrinth Named School",
     "category": "finished",
     "filename": "white_day.md",
-    "name": "White Day: A Labyrinth Named School",
     "streams": [
-      {
-        "name": "1",
-        "start": "2:41:31",
-        "twitch": "172968603"
-      },
-      {
-        "name": "2",
-        "start": "2:49:40",
-        "twitch": "176397641"
-      },
-      {
-        "name": "3",
-        "start": "3:14:05",
-        "twitch": "177634045"
-      },
-      {
-        "name": "4",
-        "start": "3:00:00",
-        "twitch": "179635876"
-      },
-      {
-        "name": "5",
-        "start": "2:48:10",
-        "twitch": "204186576"
-      }
+      { "name": "1", "start": "2:41:31", "twitch": "172968603" },
+      { "name": "2", "start": "2:49:40", "twitch": "176397641" },
+      { "name": "3", "start": "3:14:05", "twitch": "177634045" },
+      { "name": "4", "start": "3:00:00", "twitch": "179635876" },
+      { "name": "5", "start": "2:48:10", "twitch": "204186576" }
     ]
   },
   {
+    "name": "Xenoblade Chronicles 2",
     "category": "abandoned",
     "filename": "xenoblade-chronicles-2.md",
-    "name": "Xenoblade Chronicles 2",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "206933269"
-      }
+      { "name": "1", "twitch": "206933269" }
     ]
   },
   {
+    "name": "Demon's Souls",
     "category": "ongoing",
     "filename": "demons-souls.md",
-    "name": "Demon's Souls",
     "streams": [
-      {
-        "name": "1.1",
-        "twitch": "217814961"
-      },
-      {
-        "name": "1.2",
-        "twitch": "217852593"
-      },
-      {
-        "name": "2",
-        "twitch": "219489801"
-      }
+      { "name": "1.1", "twitch": "217814961" },
+      { "name": "1.2", "twitch": "217852593" },
+      { "name": "2", "twitch": "219489801" }
     ]
   },
   {
+    "name": "IRL",
     "category": "other",
     "filename": "events.md",
-    "name": "IRL",
     "streams": [
-      {
-        "name": "Сборка кресла",
-        "twitch": "219463387"
-      }
+      { "name": "Сборка кресла", "twitch": "219463387" }
     ]
   },
   {
+    "name": "Getting Over It",
     "category": "ongoing",
     "filename": "getting-over-it.md",
-    "name": "Getting Over It",
     "streams": [
-      {
-        "name": "1",
-        "start": "1:52:00",
-        "twitch": "219819121"
-      }
+      { "name": "1", "start": "1:52:00", "twitch": "219819121" }
     ]
   },
   {
+    "name": "Metal Gear Survive",
     "category": "questionable",
     "filename": "metal-gear-survive.md",
-    "name": "Metal Gear Survive",
     "streams": [
-      {
-        "name": "1 (бета)",
-        "twitch": "219819121"
-      }
+      { "name": "1 (бета)", "twitch": "219819121" }
     ]
   },
   {
+    "name": "SCP Containment Breach",
     "category": "infinite",
     "filename": "scp-cb.md",
-    "name": "SCP Containment Breach",
     "streams": [
-      {
-        "name": "1",
-        "twitch": "215974261"
-      },
-      {
-        "name": "2",
-        "twitch": "220513992"
-      }
+      { "name": "1", "twitch": "215974261" },
+      { "name": "2", "twitch": "220513992" }
     ]
   }
 ]
