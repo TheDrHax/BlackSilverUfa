@@ -78,55 +78,18 @@ mpv --sub-file chats/v215974261.ass ytdl://-8anORo35tQ
  
 <h2 id="1"><a href="#1">2</a></h2>
 
-* Примечание: Официальная запись задерживается по неизвестной причине
 * Ссылки:
-  * Twitch: [220513992](https://www.twitch.tv/videos/220513992)
-  * Субтитры: [v220513992.ass](../chats/v220513992.ass)
-  * Запись (ВКонтакте): [87862793_456241068](https://vk.com/video87862793_456241068)
+  * Twitch: [CE21Sxn4xzE](https://www.twitch.tv/videos/CE21Sxn4xzE)
+  * Субтитры: [vCE21Sxn4xzE.ass](../chats/vCE21Sxn4xzE.ass)
+  * Запись: отсутствует
 * Таймкоды:
   *  <a onclick="player1.currentTime(1260)">21:00</a>  - SCP Containment Breach Unity
   *  <a onclick="player1.currentTime(4140)">1:09:00</a>  - SCP Containment Breach
 
-<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
-
-<script>
-  var player1;
-  function openPlayer1() {
-    player1 = videojs("player-1", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v220513992.ass"],
-          delay: -0.1,
-        },
-      },
-    });
-    document.getElementById("spoiler-1").click();
-    document.getElementById("button-1").remove();
-      $.getJSON("https://api.thedrhax.pw/vk/video/87862793_456241068", function(data) {
-          console.log("Ссылка получена: " + data.url);
-          player1.src([{type: 'video/mp4', src: data.url}]);
-      });
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-1"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
-  </div>
-</details> 
-Примечание: Для этого стрима используется экспериментальный сервер, стабильность
-которого уступает GitHub Pages. Если видео не запускается, сообщите мне через
-раздел [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues). Спасибо!
-
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-mpv --sub-file chats/v220513992.ass $(curl -s https://api.thedrhax.pw/vk/video/87862793_456241068\?raw)
+streamlink -p "mpv --sub-file chats/vCE21Sxn4xzE.ass" --player-passthrough hls twitch.tv/videos/CE21Sxn4xzE best
 ```
 
 ---- 
