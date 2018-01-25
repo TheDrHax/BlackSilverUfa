@@ -193,6 +193,25 @@ mpv --sub-file chats/v212678883.ass ytdl://sz8y749Jn_8
 
 ---- 
  
+<h2 id="3"><a href="#3">4</a></h2>
+
+* Ссылки:
+  * Twitch: [222198164](https://www.twitch.tv/videos/222198164)
+  * Субтитры: [v222198164.ass](../chats/v222198164.ass)
+  * Запись: отсутствует
+* Таймкоды:
+  *  <a onclick="player3.currentTime(1560)">26:00</a>  - The Witchkin
+  *  <a onclick="player3.currentTime(6934)">1:55:34</a>  - Emily Wants to Play Too
+  *  <a onclick="player3.currentTime(11873)">3:17:53</a>  - LeftWay
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v222198164.ass" --player-passthrough hls twitch.tv/videos/222198164 best
+```
+
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:

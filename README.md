@@ -67,7 +67,7 @@
 
 * [Несюжетные ко-опы](links/co-op.md) (10 стримов)
 * [неПрофессиональный E3 2017](links/e3_2017.md) (7 стримов)
-* [Sub-Day и стримы с несколькими играми](links/subday.md) (3 стрима)
+* [Sub-Day и стримы с несколькими играми](links/subday.md) (4 стрима)
 * [IRL](links/events.md) (1 стрим)
 
 
@@ -81,3 +81,4 @@
 
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
+* [Sub-Day и стримы с несколькими играми](links/subday.md) - [4](links/subday.md#3)
