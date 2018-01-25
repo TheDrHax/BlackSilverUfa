@@ -79,17 +79,55 @@ mpv --sub-file chats/v215974261.ass ytdl://-8anORo35tQ
 <h2 id="1"><a href="#1">2</a></h2>
 
 * Ссылки:
-  * Twitch: [CE21Sxn4xzE](https://www.twitch.tv/videos/CE21Sxn4xzE)
-  * Субтитры: [vCE21Sxn4xzE.ass](../chats/vCE21Sxn4xzE.ass)
-  * Запись: отсутствует
+  * Twitch: [220513992](https://www.twitch.tv/videos/220513992)
+  * Субтитры: [v220513992.ass](../chats/v220513992.ass)
+  * Запись (YouTube): [CE21Sxn4xzE](https://www.youtube.com/watch?v=CE21Sxn4xzE)
 * Таймкоды:
   *  <a onclick="player1.currentTime(1260)">21:00</a>  - SCP Containment Breach Unity
   *  <a onclick="player1.currentTime(4140)">1:09:00</a>  - SCP Containment Breach
 
+<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
+
+<script>
+  var player1;
+  function openPlayer1() {
+    player1 = videojs("player-1", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v220513992.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=CE21Sxn4xzE"
+      }]
+    });
+    document.getElementById("spoiler-1").click();
+    document.getElementById("button-1").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-1"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details> 
+
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/vCE21Sxn4xzE.ass" --player-passthrough hls twitch.tv/videos/CE21Sxn4xzE best
+mpv --sub-file chats/v220513992.ass ytdl://CE21Sxn4xzE
 ```
 
 ---- 
