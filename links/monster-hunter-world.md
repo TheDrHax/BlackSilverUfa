@@ -76,6 +76,21 @@ mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE
 
 ---- 
  
+<h2 id="1"><a href="#1">2</a></h2>
+
+* Ссылки:
+  * Twitch: [222538863](https://www.twitch.tv/videos/222538863)
+  * Субтитры: [v222538863.ass](../chats/v222538863.ass)
+  * Запись: отсутствует
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v222538863.ass" --player-passthrough hls twitch.tv/videos/222538863 best
+```
+
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:
