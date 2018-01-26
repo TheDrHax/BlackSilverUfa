@@ -118,10 +118,11 @@
   },
   {
     "name": "Monster Hunter World",
-    "category": "questionable",
+    "category": "infinite",
     "filename": "monster-hunter-world.md",
     "streams": [
-      { "name": "1", "twitch": "208349646" }
+      { "name": "1", "twitch": "208349646" },
+      { "name": "2", "twitch": "222538863" }
     ]
   },
   {
