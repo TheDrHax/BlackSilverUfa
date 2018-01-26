@@ -198,16 +198,54 @@ mpv --sub-file chats/v212678883.ass ytdl://sz8y749Jn_8
 * Ссылки:
   * Twitch: [222198164](https://www.twitch.tv/videos/222198164)
   * Субтитры: [v222198164.ass](../chats/v222198164.ass)
-  * Запись: отсутствует
+  * Запись (YouTube): [x9NkgWX09L0](https://www.youtube.com/watch?v=x9NkgWX09L0)
 * Таймкоды:
   *  <a onclick="player3.currentTime(1560)">26:00</a>  - The Witchkin
   *  <a onclick="player3.currentTime(6934)">1:55:34</a>  - Emily Wants to Play Too
   *  <a onclick="player3.currentTime(11873)">3:17:53</a>  - LeftWay
 
+<a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
+
+<script>
+  var player3;
+  function openPlayer3() {
+    player3 = videojs("player-3", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v222198164.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=x9NkgWX09L0"
+      }]
+    });
+    document.getElementById("spoiler-3").click();
+    document.getElementById("button-3").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-3"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-3" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details> 
+
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v222198164.ass" --player-passthrough hls twitch.tv/videos/222198164 best
+mpv --sub-file chats/v222198164.ass ytdl://x9NkgWX09L0
 ```
 
 ---- 

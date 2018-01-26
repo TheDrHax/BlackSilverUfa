@@ -81,4 +81,3 @@
 
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
-* [Sub-Day и стримы с несколькими играми](links/subday.md) - [4](links/subday.md#3)
