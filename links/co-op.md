@@ -597,6 +597,25 @@ mpv --sub-file chats/v213846142.ass ytdl://8GFZF96owuA
 
 ---- 
  
+<h2 id="10"><a href="#10">11</a></h2>
+
+* Ссылки:
+  * Twitch: [222913630](https://www.twitch.tv/videos/222913630)
+  * Субтитры: [v222913630.ass](../chats/v222913630.ass)
+  * Запись: отсутствует
+* Таймкоды:
+  *  <a onclick="player10.currentTime(730)">12:10</a>  - Sea of Thieves (не получилось)
+  *  <a onclick="player10.currentTime(883)">14:43</a>  - SOS
+  *  <a onclick="player10.currentTime(10944)">3:02:24</a>  - Sea of Thieves (опять не получилось)
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v222913630.ass" --player-passthrough hls twitch.tv/videos/222913630 best
+```
+
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:
