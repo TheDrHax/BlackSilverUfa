@@ -602,16 +602,54 @@ mpv --sub-file chats/v213846142.ass ytdl://8GFZF96owuA
 * Ссылки:
   * Twitch: [222913630](https://www.twitch.tv/videos/222913630)
   * Субтитры: [v222913630.ass](../chats/v222913630.ass)
-  * Запись: отсутствует
+  * Запись (YouTube): [TDy4cbm_twQ](https://www.youtube.com/watch?v=TDy4cbm_twQ)
 * Таймкоды:
   *  <a onclick="player10.currentTime(730)">12:10</a>  - Sea of Thieves (не получилось)
   *  <a onclick="player10.currentTime(883)">14:43</a>  - SOS
   *  <a onclick="player10.currentTime(10944)">3:02:24</a>  - Sea of Thieves (опять не получилось)
 
+<a onclick="return openPlayer10()" id="button-10">**▶ Открыть плеер**</a>
+
+<script>
+  var player10;
+  function openPlayer10() {
+    player10 = videojs("player-10", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v222913630.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=TDy4cbm_twQ"
+      }]
+    });
+    document.getElementById("spoiler-10").click();
+    document.getElementById("button-10").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-10"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-10" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details> 
+
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v222913630.ass" --player-passthrough hls twitch.tv/videos/222913630 best
+mpv --sub-file chats/v222913630.ass ytdl://TDy4cbm_twQ
 ```
 
 ---- 

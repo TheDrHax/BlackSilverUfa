@@ -79,7 +79,5 @@
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
-* [Несюжетные ко-опы](links/co-op.md) - [11](links/co-op.md#10)
-* [Monster Hunter World](links/monster-hunter-world.md) - [2](links/monster-hunter-world.md#1)
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
