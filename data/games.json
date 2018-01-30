@@ -326,5 +326,14 @@
       { "name": "1", "twitch": "215974261" },
       { "name": "2", "twitch": "220513992" }
     ]
+  },
+  {
+    "name": "Sea of Thieves",
+    "category": "infinite",
+    "filename": "sea-of-thieves.md",
+    "streams": [
+      { "name": "0 (не получилось)", "twitch": "222913630" },
+      { "name": "1 (бета)", "twitch": "223945520" }
+    ]
   }
 ]
