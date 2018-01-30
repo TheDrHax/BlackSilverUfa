@@ -21,14 +21,18 @@
   }
 </style>
 
-# Monster Hunter World
+# Sea of Thieves
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="0"><a href="#0">0 (не получилось)</a></h2>
 
 * Ссылки:
-  * Twitch: [208349646](https://www.twitch.tv/videos/208349646)
-  * Субтитры: [v208349646.ass](../chats/v208349646.ass)
-  * Запись (YouTube): [gUtKWEEyzPE](https://www.youtube.com/watch?v=gUtKWEEyzPE)
+  * Twitch: [222913630](https://www.twitch.tv/videos/222913630)
+  * Субтитры: [v222913630.ass](../chats/v222913630.ass)
+  * Запись (YouTube): [TDy4cbm_twQ](https://www.youtube.com/watch?v=TDy4cbm_twQ)
+* Таймкоды:
+  *  <a onclick="player0.currentTime(730)">12:10</a>  - Sea of Thieves (не получилось)
+  *  <a onclick="player0.currentTime(883)">14:43</a>  - SOS
+  *  <a onclick="player0.currentTime(10944)">3:02:24</a>  - Sea of Thieves (опять не получилось)
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -40,7 +44,7 @@
       width: 640, height: 360, fluid: true,
       plugins: {
         ass: {
-          src: ["../chats/v208349646.ass"],
+          src: ["../chats/v222913630.ass"],
           delay: -0.1,
         },
         videoJsResolutionSwitcher: {
@@ -51,7 +55,7 @@
       techOrder: ["youtube"],
       sources: [{
         "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=gUtKWEEyzPE"
+        "src": "https://www.youtube.com/watch?v=TDy4cbm_twQ"
       }]
     });
     document.getElementById("spoiler-0").click();
@@ -71,75 +75,22 @@
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE
+mpv --sub-file chats/v222913630.ass ytdl://TDy4cbm_twQ
 ```
 
 ---- 
  
-<h2 id="1"><a href="#1">2</a></h2>
+<h2 id="1"><a href="#1">1 (бета)</a></h2>
 
 * Ссылки:
-  * Twitch: [222538863](https://www.twitch.tv/videos/222538863)
-  * Субтитры: [v222538863.ass](../chats/v222538863.ass)
-  * Запись (YouTube): [R2H6m_lW7sE](https://www.youtube.com/watch?v=R2H6m_lW7sE)
-
-<a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
-
-<script>
-  var player1;
-  function openPlayer1() {
-    player1 = videojs("player-1", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v222538863.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
-      sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=R2H6m_lW7sE"
-      }]
-    });
-    document.getElementById("spoiler-1").click();
-    document.getElementById("button-1").remove();
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-1"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
-  </div>
-</details> 
-
-#### Команда для просмотра стрима в проигрывателе MPV
-
-```
-mpv --sub-file chats/v222538863.ass ytdl://R2H6m_lW7sE
-```
-
----- 
- 
-<h2 id="2"><a href="#2">3</a></h2>
-
-* Ссылки:
-  * Twitch: [223916781](https://www.twitch.tv/videos/223916781)
-  * Субтитры: [v223916781.ass](../chats/v223916781.ass)
+  * Twitch: [223945520](https://www.twitch.tv/videos/223945520)
+  * Субтитры: [v223945520.ass](../chats/v223945520.ass)
   * Запись: отсутствует
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v223916781.ass" --player-passthrough hls twitch.tv/videos/223916781 best
+streamlink -p "mpv --sub-file chats/v223945520.ass" --player-passthrough hls twitch.tv/videos/223945520 best
 ```
 
 ---- 

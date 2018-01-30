@@ -43,10 +43,11 @@
 
 #### Потенциально бесконечные
 
-* [Monster Hunter World](links/monster-hunter-world.md) (2 стрима)
+* [Monster Hunter World](links/monster-hunter-world.md) (3 стрима)
 * [Persona 5](links/persona_5.md) (8 стримов)
 * [Super Mario Odyssey](links/super-mario-odyssey.md) (4 стрима)
 * [SCP Containment Breach](links/scp-cb.md) (2 стрима)
+* [Sea of Thieves](links/sea-of-thieves.md) (2 стрима)
 
 #### Под вопросом
 
@@ -79,5 +80,7 @@
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
+* [Monster Hunter World](links/monster-hunter-world.md) - [3](links/monster-hunter-world.md#2)
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
+* [Sea of Thieves](links/sea-of-thieves.md) - [1 (бета)](links/sea-of-thieves.md#1)
