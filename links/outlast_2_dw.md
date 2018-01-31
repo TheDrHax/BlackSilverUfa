@@ -97,13 +97,13 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
           delay: -0.1,
         },
       },
+      sources: [{
+        "type": "video/mp4",
+        "src": "https://api.thedrhax.pw/vk/video/87862793_456240876?redirect"
+      }]
     });
     document.getElementById("spoiler-1").click();
     document.getElementById("button-1").remove();
-      $.getJSON("https://api.thedrhax.pw/vk/video/87862793_456240876", function(data) {
-          console.log("Ссылка получена: " + data.url);
-          player1.src([{type: 'video/mp4', src: data.url}]);
-      });
     return false;
   }
 </script>
@@ -122,7 +122,7 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-mpv --sub-file chats/v186799946.ass $(curl -s https://api.thedrhax.pw/vk/video/87862793_456240876\?raw)
+mpv --sub-file chats/v186799946.ass https://api.thedrhax.pw/vk/video/87862793_456240876\?redirect
 ```
 
 ---- 

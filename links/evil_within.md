@@ -46,13 +46,13 @@
           delay: -0.1,
         },
       },
+      sources: [{
+        "type": "video/mp4",
+        "src": "https://api.thedrhax.pw/vk/video/87862793_456240552?redirect"
+      }]
     });
     document.getElementById("spoiler-0").click();
     document.getElementById("button-0").remove();
-      $.getJSON("https://api.thedrhax.pw/vk/video/87862793_456240552", function(data) {
-          console.log("Ссылка получена: " + data.url);
-          player0.src([{type: 'video/mp4', src: data.url}]);
-      });
       player0.duration = function() {
         return 3138; // the amount of seconds of video
       }
@@ -79,7 +79,7 @@
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-mpv --sub-file chats/v160844876.ass $(curl -s https://api.thedrhax.pw/vk/video/87862793_456240552\?raw)
+mpv --sub-file chats/v160844876.ass https://api.thedrhax.pw/vk/video/87862793_456240552\?redirect
 ```
 
 ---- 
