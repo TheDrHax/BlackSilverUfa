@@ -34,6 +34,11 @@
         "type": "video/youtube",
         "src": "https://www.youtube.com/watch?v=${stream['youtube']}"
       }]
+      % elif stream.get('vk'):
+      sources: [{
+        "type": "video/mp4",
+        "src": "https://api.thedrhax.pw/vk/video/${stream['vk']}?redirect"
+      }]
       % elif stream.get('direct'):
       sources: [{
         "type": "video/mp4",
@@ -43,12 +48,6 @@
     });
     document.getElementById("spoiler-${id}").click();
     document.getElementById("button-${id}").remove();
-    % if stream.get('vk'):
-      $.getJSON("https://api.thedrhax.pw/vk/video/${stream['vk']}", function(data) {
-          console.log("Ссылка получена: " + data.url);
-          player${id}.src([{type: 'video/mp4', src: data.url}]);
-      });
-    % endif
     % if stream.get('start'):
       player${id}.currentTime(${sec(stream['start'])});
     % endif
@@ -122,7 +121,7 @@ mpv --sub-file chats/v${stream['twitch']}.ass ytdl://${stream['youtube']}
 % elif stream.get('direct'):
 mpv --sub-file chats/v${stream['twitch']}.ass ${stream['direct']}
 % elif stream.get('vk'):
-mpv --sub-file chats/v${stream['twitch']}.ass $(curl -s https://api.thedrhax.pw/vk/video/${stream['vk']}\?raw)
+mpv --sub-file chats/v${stream['twitch']}.ass https://api.thedrhax.pw/vk/video/${stream['vk']}\?redirect
 % else:
 streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
 % endif
