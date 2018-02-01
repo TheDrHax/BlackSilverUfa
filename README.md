@@ -34,6 +34,7 @@
 * [Hidden Agenda](links/single.md#5)
 * [Unforgiving: A Northern Hymn](links/single.md#6)
 * [DYING: Reborn](links/single.md#7)
+* [Remothered: Tormented Fathers](links/single.md#8)
 
 ### В процессе
 
@@ -83,3 +84,4 @@
 * [Monster Hunter World](links/monster-hunter-world.md) - [4](links/monster-hunter-world.md#3)
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
+* [Полные прохождения за один стрим](links/single.md) - [Remothered: Tormented Fathers](links/single.md#8)

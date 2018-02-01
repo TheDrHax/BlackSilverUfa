@@ -447,6 +447,21 @@ mpv --sub-file chats/v219166190.ass ytdl://Fd2nmniSz34
 
 ---- 
  
+<h2 id="8"><a href="#8">Remothered: Tormented Fathers</a></h2>
+
+* Ссылки:
+  * Twitch: [224600319](https://www.twitch.tv/videos/224600319)
+  * Субтитры: [v224600319.ass](../chats/v224600319.ass)
+  * Запись: отсутствует
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v224600319.ass" --player-passthrough hls twitch.tv/videos/224600319 best
+```
+
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:
