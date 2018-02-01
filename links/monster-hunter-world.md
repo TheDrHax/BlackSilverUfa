@@ -182,6 +182,24 @@ mpv --sub-file chats/v223916781.ass ytdl://lK7Mkz_ubf8
 
 ---- 
  
+<h2 id="3"><a href="#3">4</a></h2>
+
+* Ссылки:
+  * Twitch: [224560087](https://www.twitch.tv/videos/224560087)
+  * Субтитры: [v224560087.ass](../chats/v224560087.ass)
+  * Запись: отсутствует
+* Таймкоды:
+  *  <a onclick="player3.currentTime(514)">8:34</a>  - Monster Hunter World
+  *  <a onclick="player3.currentTime(2846)">47:26</a>  - Monster Hunter World (с Артемом)
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v224560087.ass" --player-passthrough hls twitch.tv/videos/224560087 best
+```
+
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:
