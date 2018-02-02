@@ -81,7 +81,6 @@
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
-* [Monster Hunter World](links/monster-hunter-world.md) - [4](links/monster-hunter-world.md#3)
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
 * [Полные прохождения за один стрим](links/single.md) - [Remothered: Tormented Fathers](links/single.md#8)
