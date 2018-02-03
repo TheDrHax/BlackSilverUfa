@@ -253,7 +253,7 @@
     "youtube": "TDy4cbm_twQ",
     "timecodes": [
       ["12:10", "Sea of Thieves (не получилось)"],
-      ["14:43", "SOS"],
+      ["14:43", "S.O.S."],
       ["3:02:24", "Sea of Thieves (опять не получилось)"]
     ]
   },
@@ -266,5 +266,12 @@
       ["47:26", "Monster Hunter World (с Артемом)"]
     ]
   },
-  "224600319": { "youtube": "43q8zNpTCCE" }
+  "224600319": { "youtube": "43q8zNpTCCE" },
+  "225279322": {
+    "timecodes": [
+      ["11:49", "Hunt: Showdown (поиски коопа)"],
+      ["24:40", "Hunt: Showdown"],
+      ["4:06:04", "S.O.S."]
+    ]
+  }
 }
