@@ -67,7 +67,7 @@
 
 ### Другое
 
-* [Несюжетные ко-опы](links/co-op.md) (11 стримов)
+* [Несюжетные коопы](links/co-op.md) (12 стримов)
 * [неПрофессиональный E3 2017](links/e3_2017.md) (7 стримов)
 * [Sub-Day и стримы с несколькими играми](links/subday.md) (4 стрима)
 * [IRL](links/events.md) (1 стрим)
@@ -81,5 +81,6 @@
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
+* [Несюжетные коопы](links/co-op.md) - [12](links/co-op.md#11)
 * [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
 * [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)

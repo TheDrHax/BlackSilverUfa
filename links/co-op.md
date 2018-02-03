@@ -21,7 +21,7 @@
   }
 </style>
 
-# Несюжетные ко-опы
+# Несюжетные коопы
  
 <h2 id="0"><a href="#0">1</a></h2>
 
@@ -605,7 +605,7 @@ mpv --sub-file chats/v213846142.ass ytdl://8GFZF96owuA
   * Запись (YouTube): [TDy4cbm_twQ](https://www.youtube.com/watch?v=TDy4cbm_twQ)
 * Таймкоды:
   *  <a onclick="player10.currentTime(730)">12:10</a>  - Sea of Thieves (не получилось)
-  *  <a onclick="player10.currentTime(883)">14:43</a>  - SOS
+  *  <a onclick="player10.currentTime(883)">14:43</a>  - S.O.S.
   *  <a onclick="player10.currentTime(10944)">3:02:24</a>  - Sea of Thieves (опять не получилось)
 
 <a onclick="return openPlayer10()" id="button-10">**▶ Открыть плеер**</a>
@@ -650,6 +650,25 @@ mpv --sub-file chats/v213846142.ass ytdl://8GFZF96owuA
 
 ```
 mpv --sub-file chats/v222913630.ass ytdl://TDy4cbm_twQ
+```
+
+---- 
+ 
+<h2 id="11"><a href="#11">12</a></h2>
+
+* Ссылки:
+  * Twitch: [225279322](https://www.twitch.tv/videos/225279322)
+  * Субтитры: [v225279322.ass](../chats/v225279322.ass)
+  * Запись: отсутствует
+* Таймкоды:
+  *  <a onclick="player11.currentTime(709)">11:49</a>  - Hunt: Showdown (поиски коопа)
+  *  <a onclick="player11.currentTime(1480)">24:40</a>  - Hunt: Showdown
+  *  <a onclick="player11.currentTime(14764)">4:06:04</a>  - S.O.S.
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v225279322.ass" --player-passthrough hls twitch.tv/videos/225279322 best
 ```
 
 ---- 

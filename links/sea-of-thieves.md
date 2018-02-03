@@ -31,7 +31,7 @@
   * Запись (YouTube): [TDy4cbm_twQ](https://www.youtube.com/watch?v=TDy4cbm_twQ)
 * Таймкоды:
   *  <a onclick="player0.currentTime(730)">12:10</a>  - Sea of Thieves (не получилось)
-  *  <a onclick="player0.currentTime(883)">14:43</a>  - SOS
+  *  <a onclick="player0.currentTime(883)">14:43</a>  - S.O.S.
   *  <a onclick="player0.currentTime(10944)">3:02:24</a>  - Sea of Thieves (опять не получилось)
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
