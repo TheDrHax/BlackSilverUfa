@@ -66,7 +66,13 @@
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '0')
+      openPlayer0();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -121,7 +127,13 @@ mpv --sub-file chats/v164633577.ass ytdl://0XeyDh7T0Jw
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '1')
+      openPlayer1();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -174,7 +186,13 @@ mpv --sub-file chats/v165630859.ass ytdl://7r6_dwXVXgE
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-2" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '2')
+      openPlayer2();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -242,7 +260,13 @@ streamlink -p "mpv --sub-file chats/v168936842.ass" --player-passthrough hls twi
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-4" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '4')
+      openPlayer4();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -295,7 +319,13 @@ mpv --sub-file chats/v173993139.ass ytdl://eGY5W8Dtehs
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-5" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '5')
+      openPlayer5();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 

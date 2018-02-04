@@ -66,7 +66,13 @@
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '0')
+      openPlayer0();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -114,7 +120,13 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '1')
+      openPlayer1();
+</script> 
 Примечание: Для этого стрима используется экспериментальный сервер, стабильность
 которого уступает GitHub Pages. Если видео не запускается, сообщите мне через
 раздел [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues). Спасибо!

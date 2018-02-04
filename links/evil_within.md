@@ -71,7 +71,13 @@
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '0')
+      openPlayer0();
+</script> 
 Примечание: Для этого стрима используется экспериментальный сервер, стабильность
 которого уступает GitHub Pages. Если видео не запускается, сообщите мне через
 раздел [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues). Спасибо!
@@ -127,7 +133,13 @@ mpv --sub-file chats/v160844876.ass https://api.thedrhax.pw/vk/video/87862793_45
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '1')
+      openPlayer1();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -181,7 +193,13 @@ mpv --sub-file chats/v160852861.ass ytdl://LF6RMOOvA9M
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-2" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '2')
+      openPlayer2();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -234,7 +252,13 @@ mpv --sub-file chats/v161110508.ass ytdl://8VCQkjjMu-I
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-3" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '3')
+      openPlayer3();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -287,7 +311,13 @@ mpv --sub-file chats/v161115703.ass ytdl://vxbjz2-Lmgg
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-4" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '4')
+      openPlayer4();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -341,7 +371,13 @@ mpv --sub-file chats/v162350334.ass ytdl://hZSVfTxT7Qo
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-5" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '5')
+      openPlayer5();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -394,7 +430,13 @@ mpv --sub-file chats/v162844424.ass ytdl://8lhCzaGLmK8
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-6" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '6')
+      openPlayer6();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -448,7 +490,13 @@ mpv --sub-file chats/v163361169.ass ytdl://Qt1N7foBrUE
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-7" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '7')
+      openPlayer7();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -501,7 +549,13 @@ mpv --sub-file chats/v164116949.ass ytdl://5JOCDsqrhOY
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-8" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '8')
+      openPlayer8();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 

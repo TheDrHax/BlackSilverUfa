@@ -66,7 +66,13 @@
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '0')
+      openPlayer0();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -119,7 +125,13 @@ mpv --sub-file chats/v152253862.ass ytdl://cTvtS4jAQGk
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '1')
+      openPlayer1();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -172,7 +184,13 @@ mpv --sub-file chats/v174225353.ass ytdl://ejp3UDoKx4k
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-2" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '2')
+      openPlayer2();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -225,7 +243,13 @@ mpv --sub-file chats/v184468298.ass ytdl://9p23c9_BYaU
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-3" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '3')
+      openPlayer3();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -278,7 +302,13 @@ mpv --sub-file chats/v187291538.ass ytdl://Bxj09aAOFaI
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-4" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '4')
+      openPlayer4();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -331,7 +361,13 @@ mpv --sub-file chats/v200401270.ass ytdl://LSHpifkX69Y
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-5" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '5')
+      openPlayer5();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -384,7 +420,13 @@ mpv --sub-file chats/v202329656.ass ytdl://9kSnxedrUjM
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-6" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '6')
+      openPlayer6();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -437,7 +479,13 @@ mpv --sub-file chats/v204996737.ass ytdl://ZiYWnjvqw_k
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-7" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '7')
+      openPlayer7();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -490,7 +538,13 @@ mpv --sub-file chats/v219166190.ass ytdl://Fd2nmniSz34
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-8" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> 
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '8')
+      openPlayer8();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
