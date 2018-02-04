@@ -71,7 +71,13 @@
   <div class="player-wrapper" style="margin-top: 32px">
     <video id="player-${id}" class="video-js vjs-default-skin vjs-big-play-centered" />
   </div>
-</details> \
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '${id}')
+      openPlayer${id}();
+</script> \
 </%def>
 
 <%def name="gen_stream(id, stream)">
