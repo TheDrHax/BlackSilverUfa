@@ -659,54 +659,16 @@ mpv --sub-file chats/v222913630.ass ytdl://TDy4cbm_twQ
 * Ссылки:
   * Twitch: [225279322](https://www.twitch.tv/videos/225279322)
   * Субтитры: [v225279322.ass](../chats/v225279322.ass)
-  * Запись (YouTube): [gM45qS9J840](https://www.youtube.com/watch?v=gM45qS9J840)
+  * Запись: отсутствует
 * Таймкоды:
   *  <a onclick="player11.currentTime(709)">11:49</a>  - Hunt: Showdown (поиски коопа)
   *  <a onclick="player11.currentTime(1480)">24:40</a>  - Hunt: Showdown
   *  <a onclick="player11.currentTime(14764)">4:06:04</a>  - S.O.S.
 
-<a onclick="return openPlayer11()" id="button-11">**▶ Открыть плеер**</a>
-
-<script>
-  var player11;
-  function openPlayer11() {
-    player11 = videojs("player-11", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v225279322.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
-      sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=gM45qS9J840"
-      }]
-    });
-    document.getElementById("spoiler-11").click();
-    document.getElementById("button-11").remove();
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-11"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-11" class="video-js vjs-default-skin vjs-big-play-centered" />
-  </div>
-</details> 
-
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-mpv --sub-file chats/v225279322.ass ytdl://gM45qS9J840
+streamlink -p "mpv --sub-file chats/v225279322.ass" --player-passthrough hls twitch.tv/videos/225279322 best
 ```
 
 ---- 
