@@ -28,7 +28,7 @@
 * Ссылки:
   * Twitch: [180397849](https://www.twitch.tv/videos/180397849)
   * Субтитры: [v180397849.ass](../chats/v180397849.ass)
-   * Запись (YouTube): [x5KwWrLRpEg](https://www.youtube.com/watch?v=x5KwWrLRpEg) 
+  * Запись (YouTube): [x5KwWrLRpEg](https://www.youtube.com/watch?v=x5KwWrLRpEg)
 * Таймкоды:
   *  <a onclick="player0.currentTime(1046)">17:26</a>  - Road Redemption
   *  <a onclick="player0.currentTime(4576)">1:16:16</a>  - Battle Chasers
@@ -92,7 +92,7 @@ mpv --sub-file chats/v180397849.ass ytdl://x5KwWrLRpEg
 * Ссылки:
   * Twitch: [212431882](https://www.twitch.tv/videos/212431882)
   * Субтитры: [v212431882.ass](../chats/v212431882.ass)
-   * Запись (YouTube): [JS7cNXnzCTA](https://www.youtube.com/watch?v=JS7cNXnzCTA) 
+  * Запись (YouTube): [JS7cNXnzCTA](https://www.youtube.com/watch?v=JS7cNXnzCTA)
 * Таймкоды:
   *  <a onclick="player1.currentTime(1247)">20:47</a>  - Uncanny Valley
   *  <a onclick="player1.currentTime(6294)">1:44:54</a>  - The Coma: Recut
@@ -156,7 +156,7 @@ mpv --sub-file chats/v212431882.ass ytdl://JS7cNXnzCTA
 * Ссылки:
   * Twitch: [212678883](https://www.twitch.tv/videos/212678883)
   * Субтитры: [v212678883.ass](../chats/v212678883.ass)
-   * Запись (YouTube): [sz8y749Jn_8](https://www.youtube.com/watch?v=sz8y749Jn_8) 
+  * Запись (YouTube): [sz8y749Jn_8](https://www.youtube.com/watch?v=sz8y749Jn_8)
 * Таймкоды:
   *  <a onclick="player2.currentTime(1500)">25:00</a>  - Stifled
   *  <a onclick="player2.currentTime(10740)">2:59:00</a>  - Uncanny Valley
@@ -219,7 +219,7 @@ mpv --sub-file chats/v212678883.ass ytdl://sz8y749Jn_8
 * Ссылки:
   * Twitch: [222198164](https://www.twitch.tv/videos/222198164)
   * Субтитры: [v222198164.ass](../chats/v222198164.ass)
-   * Запись (YouTube): [x9NkgWX09L0](https://www.youtube.com/watch?v=x9NkgWX09L0) 
+  * Запись (YouTube): [x9NkgWX09L0](https://www.youtube.com/watch?v=x9NkgWX09L0)
 * Таймкоды:
   *  <a onclick="player3.currentTime(1560)">26:00</a>  - The Witchkin
   *  <a onclick="player3.currentTime(6934)">1:55:34</a>  - Emily Wants to Play Too
@@ -274,6 +274,25 @@ mpv --sub-file chats/v212678883.ass ytdl://sz8y749Jn_8
 
 ```
 mpv --sub-file chats/v222198164.ass ytdl://x9NkgWX09L0
+```
+
+---- 
+ 
+<h2 id="4"><a href="#4">5</a></h2>
+
+* Ссылки:
+  * Twitch: [225950740](https://www.twitch.tv/videos/225950740)
+  * Субтитры: [v225950740.ass](../chats/v225950740.ass)
+  * Запись: отсутствует
+* Таймкоды:
+  *  <a onclick="player4.currentTime(1620)">27:00</a>  - Monster Hunter World
+  *  <a onclick="player4.currentTime(7870)">2:11:10</a>  - My Time at Portia
+
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v225950740.ass" --player-passthrough hls twitch.tv/videos/225950740 best
 ```
 
 ---- 

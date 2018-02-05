@@ -28,7 +28,7 @@
 * Ссылки:
   * Twitch: [163612448](https://www.twitch.tv/videos/163612448)
   * Субтитры: [v163612448.ass](../chats/v163612448.ass)
-   * Запись (YouTube): [ujz4o78-orM](https://www.youtube.com/watch?v=ujz4o78-orM) 
+  * Запись (YouTube): [ujz4o78-orM](https://www.youtube.com/watch?v=ujz4o78-orM)
 
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>

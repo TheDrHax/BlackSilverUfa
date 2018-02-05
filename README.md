@@ -44,7 +44,7 @@
 
 #### Потенциально бесконечные
 
-* [Monster Hunter World](links/monster-hunter-world.md) (4 стрима)
+* [Monster Hunter World](links/monster-hunter-world.md) (5 стримов)
 * [Persona 5](links/persona_5.md) (8 стримов)
 * [Super Mario Odyssey](links/super-mario-odyssey.md) (4 стрима)
 * [SCP Containment Breach](links/scp-cb.md) (2 стрима)
@@ -69,7 +69,7 @@
 
 * [Несюжетные коопы](links/co-op.md) (12 стримов)
 * [неПрофессиональный E3 2017](links/e3_2017.md) (7 стримов)
-* [Sub-Day и стримы с несколькими играми](links/subday.md) (4 стрима)
+* [Sub-Day и стримы с несколькими играми](links/subday.md) (5 стримов)
 * [IRL](links/events.md) (1 стрим)
 
 
@@ -81,4 +81,5 @@
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
-* Все записи на месте. Отлично! :)
+* [Monster Hunter World](links/monster-hunter-world.md) - [5](links/monster-hunter-world.md#4)
+* [Sub-Day и стримы с несколькими играми](links/subday.md) - [5](links/subday.md#4)

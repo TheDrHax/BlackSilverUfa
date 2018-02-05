@@ -28,7 +28,7 @@
 * Ссылки:
   * Twitch: [219463387](https://www.twitch.tv/videos/219463387)
   * Субтитры: [v219463387.ass](../chats/v219463387.ass)
-   * Запись (YouTube): [tj3Rx47t8FI](https://www.youtube.com/watch?v=tj3Rx47t8FI) 
+  * Запись (YouTube): [tj3Rx47t8FI](https://www.youtube.com/watch?v=tj3Rx47t8FI)
 
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
