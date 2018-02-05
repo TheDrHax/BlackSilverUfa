@@ -39,36 +39,33 @@
 ### В процессе
 
 * [NieR Automata](links/nier-automata.md) (8 стримов)
+* [Outlast 2 с Дашей](links/outlast_2_dw.md) (2 стрима)
 * [Demon's Souls](links/demons-souls.md) (3 стрима)
-* [Getting Over It](links/getting-over-it.md) (1 стрим)
 
 #### Потенциально бесконечные
 
+Игры или серии стримов, которые либо не имеют логического финала, либо этот финал будет _очень_ нескоро.
 * [Monster Hunter World](links/monster-hunter-world.md) (5 стримов)
 * [Persona 5](links/persona_5.md) (8 стримов)
 * [Super Mario Odyssey](links/super-mario-odyssey.md) (4 стрима)
 * [SCP Containment Breach](links/scp-cb.md) (2 стрима)
 * [Sea of Thieves](links/sea-of-thieves.md) (2 стрима)
 
-#### Под вопросом
-
-* [Cuphead](links/cuphead.md) (1 стрим)
-* [Outlast 2 с Дашей](links/outlast_2_dw.md) (2 стрима)
-* [Metal Gear Survive](links/metal-gear-survive.md) (1 стрим)
-
 #### Первый взгляд
 
 Сюда попадают первые стримы по каждой игре. При продолжении прохождения они переносятся на соответствующую им страницу.
+* [The Legend of Zelda: Twilight Princess HD](links/first.md#163612448)
+* [Divinity: Original Sin II](links/first.md#175198877)
+* [Home Sweet Home](links/first.md#178108639)
+* [Cuphead](links/first.md#178361269)
+* [Xenoblade Chronicles 2](links/first.md#206933269)
+* [Metal Gear Survive / Getting Over It](links/first.md#219819121)
 * [Yakuza 6: The Song of Life](links/first.md#226000025)
 
 #### Незавершённые
 
-Прохождения, вероятность продолжения которых КРАЙНЕ мала.
-* [Divinity: Original Sin II](links/divinity.md) (1 стрим)
-* [Home Sweet Home](links/home_sweet_home.md) (1 стрим)
+Прохождения, вероятность продолжения которых _крайне_ мала.
 * [Middle-earth: Shadow of War](links/middle_earth.md) (3 стрима)
-* [The Legend of Zelda: Twilight Princess HD](links/tloz_tp.md) (1 стрим)
-* [Xenoblade Chronicles 2](links/xenoblade-chronicles-2.md) (1 стрим)
 
 ### Другое
 
