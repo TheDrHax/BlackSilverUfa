@@ -340,5 +340,13 @@
       { "name": "0 (не получилось)", "twitch": "222913630" },
       { "name": "1 (бета)", "twitch": "223945520" }
     ]
+  },
+  {
+    "name": "Первый взгляд",
+    "category": "first",
+    "filename": "first.md",
+    "streams": [
+      { "name": "Yakuza 6: The Song of Life", "twitch": "226000025" }
+    ]
   }
 ]
