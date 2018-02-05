@@ -24,20 +24,20 @@
 <a onclick="player${id}.currentTime(${sec(timecode)})">${timecode}</a> \
 </%def>
 
-<%def name="source_link(stream, text=u'Запись')"> \
+<%def name="source_link(stream, text=u'Запись')">\
 % if stream.get('youtube'):
-  * ${text} (YouTube): [${stream['youtube']}](https://www.youtube.com/watch?v=${stream['youtube']}) \
+  * ${text} (YouTube): [${stream['youtube']}](https://www.youtube.com/watch?v=${stream['youtube']})\
 % elif stream.get('vk'):
-  * ${text} (ВКонтакте): [${stream['vk']}](https://vk.com/video${stream['vk']}) \
+  * ${text} (ВКонтакте): [${stream['vk']}](https://vk.com/video${stream['vk']})\
 % elif stream.get('direct'):
-  * ${text}: [прямая ссылка](${stream['direct']}) \
+  * ${text}: [прямая ссылка](${stream['direct']})\
 % elif stream.get('segments'):
   * Запись сегментирована:
   % for segment in stream['segments']:
     ${source_link(segment, text=u'Часть {}'.format(stream['segments'].index(segment)+1))}
   % endfor
 % else:
-  * ${text}: отсутствует \
+  * ${text}: отсутствует\
 % endif
 </%def>
 
