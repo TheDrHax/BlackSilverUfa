@@ -28,7 +28,8 @@
 * Ссылки:
   * Twitch: [215974261](https://www.twitch.tv/videos/215974261)
   * Субтитры: [v215974261.ass](../chats/v215974261.ass)
-  * Запись (YouTube): [-8anORo35tQ](https://www.youtube.com/watch?v=-8anORo35tQ)
+   * Запись (YouTube): [-8anORo35tQ](https://www.youtube.com/watch?v=-8anORo35tQ) 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -87,10 +88,11 @@ mpv --sub-file chats/v215974261.ass ytdl://-8anORo35tQ
 * Ссылки:
   * Twitch: [220513992](https://www.twitch.tv/videos/220513992)
   * Субтитры: [v220513992.ass](../chats/v220513992.ass)
-  * Запись (YouTube): [CE21Sxn4xzE](https://www.youtube.com/watch?v=CE21Sxn4xzE)
+   * Запись (YouTube): [CE21Sxn4xzE](https://www.youtube.com/watch?v=CE21Sxn4xzE) 
 * Таймкоды:
   *  <a onclick="player1.currentTime(1260)">21:00</a>  - SCP Containment Breach Unity
   *  <a onclick="player1.currentTime(4140)">1:09:00</a>  - SCP Containment Breach
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 

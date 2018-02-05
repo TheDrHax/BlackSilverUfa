@@ -28,7 +28,8 @@
 * Ссылки:
   * Twitch: [178108639](https://www.twitch.tv/videos/178108639)
   * Субтитры: [v178108639.ass](../chats/v178108639.ass)
-  * Запись (YouTube): [kgAipkmGNis](https://www.youtube.com/watch?v=kgAipkmGNis)
+   * Запись (YouTube): [kgAipkmGNis](https://www.youtube.com/watch?v=kgAipkmGNis) 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 

@@ -28,7 +28,8 @@
 * Ссылки:
   * Twitch: [205262158](https://www.twitch.tv/videos/205262158)
   * Субтитры: [v205262158.ass](../chats/v205262158.ass)
-  * Запись (YouTube): [9rrv07l9Bxs](https://www.youtube.com/watch?v=9rrv07l9Bxs)
+   * Запись (YouTube): [9rrv07l9Bxs](https://www.youtube.com/watch?v=9rrv07l9Bxs) 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -87,8 +88,9 @@ mpv --sub-file chats/v205262158.ass ytdl://9rrv07l9Bxs
 * Ссылки:
   * Twitch: [206091904](https://www.twitch.tv/videos/206091904)
   * Субтитры: [v206091904.ass](../chats/v206091904.ass)
-  * Запись (YouTube): [-amaLXxGG30](https://www.youtube.com/watch?v=-amaLXxGG30)
+   * Запись (YouTube): [-amaLXxGG30](https://www.youtube.com/watch?v=-amaLXxGG30) 
 * Стрим начинается с  <a onclick="player1.currentTime(11220)">3:07:00</a> 
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 

@@ -81,6 +81,4 @@
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
-* [Несюжетные коопы](links/co-op.md) - [12](links/co-op.md#11)
-* [NieR Automata](links/nier-automata.md) - [4](links/nier-automata.md#3)
-* [Resident Evil 4](links/re4.md) - [4](links/re4.md#3)
+* Все записи на месте. Отлично! :)

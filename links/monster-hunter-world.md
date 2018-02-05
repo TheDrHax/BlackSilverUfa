@@ -28,7 +28,8 @@
 * Ссылки:
   * Twitch: [208349646](https://www.twitch.tv/videos/208349646)
   * Субтитры: [v208349646.ass](../chats/v208349646.ass)
-  * Запись (YouTube): [gUtKWEEyzPE](https://www.youtube.com/watch?v=gUtKWEEyzPE)
+   * Запись (YouTube): [gUtKWEEyzPE](https://www.youtube.com/watch?v=gUtKWEEyzPE) 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -87,7 +88,8 @@ mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE
 * Ссылки:
   * Twitch: [222538863](https://www.twitch.tv/videos/222538863)
   * Субтитры: [v222538863.ass](../chats/v222538863.ass)
-  * Запись (YouTube): [R2H6m_lW7sE](https://www.youtube.com/watch?v=R2H6m_lW7sE)
+   * Запись (YouTube): [R2H6m_lW7sE](https://www.youtube.com/watch?v=R2H6m_lW7sE) 
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
@@ -146,7 +148,8 @@ mpv --sub-file chats/v222538863.ass ytdl://R2H6m_lW7sE
 * Ссылки:
   * Twitch: [223916781](https://www.twitch.tv/videos/223916781)
   * Субтитры: [v223916781.ass](../chats/v223916781.ass)
-  * Запись (YouTube): [lK7Mkz_ubf8](https://www.youtube.com/watch?v=lK7Mkz_ubf8)
+   * Запись (YouTube): [lK7Mkz_ubf8](https://www.youtube.com/watch?v=lK7Mkz_ubf8) 
+
 
 <a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
@@ -205,10 +208,11 @@ mpv --sub-file chats/v223916781.ass ytdl://lK7Mkz_ubf8
 * Ссылки:
   * Twitch: [224560087](https://www.twitch.tv/videos/224560087)
   * Субтитры: [v224560087.ass](../chats/v224560087.ass)
-  * Запись (YouTube): [JWvgGOuTldg](https://www.youtube.com/watch?v=JWvgGOuTldg)
+   * Запись (YouTube): [JWvgGOuTldg](https://www.youtube.com/watch?v=JWvgGOuTldg) 
 * Таймкоды:
   *  <a onclick="player3.currentTime(514)">8:34</a>  - Monster Hunter World
   *  <a onclick="player3.currentTime(2846)">47:26</a>  - Monster Hunter World (с Артемом)
+
 
 <a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 

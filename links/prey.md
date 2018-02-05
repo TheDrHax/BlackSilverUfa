@@ -28,7 +28,8 @@
 * Ссылки:
   * Twitch: [140288888](https://www.twitch.tv/videos/140288888)
   * Субтитры: [v140288888.ass](../chats/v140288888.ass)
-  * Запись (YouTube): [Og2_fkJo8NY](https://www.youtube.com/watch?v=Og2_fkJo8NY)
+   * Запись (YouTube): [Og2_fkJo8NY](https://www.youtube.com/watch?v=Og2_fkJo8NY) 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -87,7 +88,8 @@ mpv --sub-file chats/v140288888.ass ytdl://Og2_fkJo8NY
 * Ссылки:
   * Twitch: [140295699](https://www.twitch.tv/videos/140295699)
   * Субтитры: [v140295699.ass](../chats/v140295699.ass)
-  * Запись (YouTube): [x8lucgXcyfk](https://www.youtube.com/watch?v=x8lucgXcyfk)
+   * Запись (YouTube): [x8lucgXcyfk](https://www.youtube.com/watch?v=x8lucgXcyfk) 
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
@@ -146,7 +148,8 @@ mpv --sub-file chats/v140295699.ass ytdl://x8lucgXcyfk
 * Ссылки:
   * Twitch: [140548655](https://www.twitch.tv/videos/140548655)
   * Субтитры: [v140548655.ass](../chats/v140548655.ass)
-  * Запись (YouTube): [vbAftlMvoB8](https://www.youtube.com/watch?v=vbAftlMvoB8)
+   * Запись (YouTube): [vbAftlMvoB8](https://www.youtube.com/watch?v=vbAftlMvoB8) 
+
 
 <a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
@@ -205,7 +208,8 @@ mpv --sub-file chats/v140548655.ass ytdl://vbAftlMvoB8
 * Ссылки:
   * Twitch: [141300323](https://www.twitch.tv/videos/141300323)
   * Субтитры: [v141300323.ass](../chats/v141300323.ass)
-  * Запись (YouTube): [u2jhKbGE7jY](https://www.youtube.com/watch?v=u2jhKbGE7jY)
+   * Запись (YouTube): [u2jhKbGE7jY](https://www.youtube.com/watch?v=u2jhKbGE7jY) 
+
 
 <a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 
@@ -264,7 +268,8 @@ mpv --sub-file chats/v141300323.ass ytdl://u2jhKbGE7jY
 * Ссылки:
   * Twitch: [141516144](https://www.twitch.tv/videos/141516144)
   * Субтитры: [v141516144.ass](../chats/v141516144.ass)
-  * Запись (YouTube): [qL_kIUCWWIY](https://www.youtube.com/watch?v=qL_kIUCWWIY)
+   * Запись (YouTube): [qL_kIUCWWIY](https://www.youtube.com/watch?v=qL_kIUCWWIY) 
+
 
 <a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
@@ -323,7 +328,8 @@ mpv --sub-file chats/v141516144.ass ytdl://qL_kIUCWWIY
 * Ссылки:
   * Twitch: [142839507](https://www.twitch.tv/videos/142839507)
   * Субтитры: [v142839507.ass](../chats/v142839507.ass)
-  * Запись (YouTube): [xvSuZzQ9CpM](https://www.youtube.com/watch?v=xvSuZzQ9CpM)
+   * Запись (YouTube): [xvSuZzQ9CpM](https://www.youtube.com/watch?v=xvSuZzQ9CpM) 
+
 
 <a onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
 

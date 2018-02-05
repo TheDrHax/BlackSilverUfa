@@ -28,7 +28,8 @@
 * Ссылки:
   * Twitch: [164633577](https://www.twitch.tv/videos/164633577)
   * Субтитры: [v164633577.ass](../chats/v164633577.ass)
-  * Запись (YouTube): [0XeyDh7T0Jw](https://www.youtube.com/watch?v=0XeyDh7T0Jw)
+   * Запись (YouTube): [0XeyDh7T0Jw](https://www.youtube.com/watch?v=0XeyDh7T0Jw) 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -87,8 +88,9 @@ mpv --sub-file chats/v164633577.ass ytdl://0XeyDh7T0Jw
 * Ссылки:
   * Twitch: [165630859](https://www.twitch.tv/videos/165630859)
   * Субтитры: [v165630859.ass](../chats/v165630859.ass)
-  * Запись (YouTube): [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE)
+   * Запись (YouTube): [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE) 
 * Стрим начинается с  <a onclick="player1.currentTime(9015)">2:30:15</a> 
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
@@ -148,7 +150,8 @@ mpv --sub-file chats/v165630859.ass ytdl://7r6_dwXVXgE
 * Ссылки:
   * Twitch: [167924021](https://www.twitch.tv/videos/167924021)
   * Субтитры: [v167924021.ass](../chats/v167924021.ass)
-  * Запись (YouTube): [9i6wUrnvLy8](https://www.youtube.com/watch?v=9i6wUrnvLy8)
+   * Запись (YouTube): [9i6wUrnvLy8](https://www.youtube.com/watch?v=9i6wUrnvLy8) 
+
 
 <a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
@@ -207,12 +210,94 @@ mpv --sub-file chats/v167924021.ass ytdl://9i6wUrnvLy8
 * Ссылки:
   * Twitch: [168936842](https://www.twitch.tv/videos/168936842)
   * Субтитры: [v168936842.ass](../chats/v168936842.ass)
-  * Запись: отсутствует
+   * Запись сегментирована:
+       * Часть 1 (ВКонтакте): [87862793_456240657](https://vk.com/video87862793_456240657) 
+       * Часть 2 (ВКонтакте): [87862793_456240658](https://vk.com/video87862793_456240658) 
+
+
+ 
+<a onclick="return openPlayer400()" id="button-400">**▶ Часть 1**</a>
+
+<script>
+  var player400;
+  function openPlayer400() {
+    player400 = videojs("player-400", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v168936842.ass"],
+          delay: -0.1,
+        },
+      },
+      sources: [{
+        "type": "video/mp4",
+        "src": "https://api.thedrhax.pw/vk/video/87862793_456240657?redirect"
+      }]
+    });
+    document.getElementById("spoiler-400").click();
+    document.getElementById("button-400").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-400"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-400" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '400')
+      openPlayer400();
+</script> 
+ 
+<a onclick="return openPlayer401()" id="button-401">**▶ Часть 2**</a>
+
+<script>
+  var player401;
+  function openPlayer401() {
+    player401 = videojs("player-401", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v168936842.ass"],
+          delay: -6036.1,
+        },
+      },
+      sources: [{
+        "type": "video/mp4",
+        "src": "https://api.thedrhax.pw/vk/video/87862793_456240658?redirect"
+      }]
+    });
+    document.getElementById("spoiler-401").click();
+    document.getElementById("button-401").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-401"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-401" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+  if (window.location.hash)
+    if (window.location.hash.replace('#', '') == '401')
+      openPlayer401();
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v168936842.ass" --player-passthrough hls twitch.tv/videos/168936842 best
+mpv --sub-file chats/v168936842.ass --merge-files https://api.thedrhax.pw/vk/video/87862793_456240657\?redirect https://api.thedrhax.pw/vk/video/87862793_456240658\?redirect
 ```
 
 ---- 
@@ -222,7 +307,8 @@ streamlink -p "mpv --sub-file chats/v168936842.ass" --player-passthrough hls twi
 * Ссылки:
   * Twitch: [173993139](https://www.twitch.tv/videos/173993139)
   * Субтитры: [v173993139.ass](../chats/v173993139.ass)
-  * Запись (YouTube): [eGY5W8Dtehs](https://www.youtube.com/watch?v=eGY5W8Dtehs)
+   * Запись (YouTube): [eGY5W8Dtehs](https://www.youtube.com/watch?v=eGY5W8Dtehs) 
+
 
 <a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
@@ -281,7 +367,8 @@ mpv --sub-file chats/v173993139.ass ytdl://eGY5W8Dtehs
 * Ссылки:
   * Twitch: [175695460](https://www.twitch.tv/videos/175695460)
   * Субтитры: [v175695460.ass](../chats/v175695460.ass)
-  * Запись (YouTube): [gJX8uR-GZcU](https://www.youtube.com/watch?v=gJX8uR-GZcU)
+   * Запись (YouTube): [gJX8uR-GZcU](https://www.youtube.com/watch?v=gJX8uR-GZcU) 
+
 
 <a onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
 

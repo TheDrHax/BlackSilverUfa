@@ -28,11 +28,12 @@
 * Ссылки:
   * Twitch: [180397849](https://www.twitch.tv/videos/180397849)
   * Субтитры: [v180397849.ass](../chats/v180397849.ass)
-  * Запись (YouTube): [x5KwWrLRpEg](https://www.youtube.com/watch?v=x5KwWrLRpEg)
+   * Запись (YouTube): [x5KwWrLRpEg](https://www.youtube.com/watch?v=x5KwWrLRpEg) 
 * Таймкоды:
   *  <a onclick="player0.currentTime(1046)">17:26</a>  - Road Redemption
   *  <a onclick="player0.currentTime(4576)">1:16:16</a>  - Battle Chasers
   *  <a onclick="player0.currentTime(10665)">2:57:45</a>  - Stardew Valley
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -91,11 +92,12 @@ mpv --sub-file chats/v180397849.ass ytdl://x5KwWrLRpEg
 * Ссылки:
   * Twitch: [212431882](https://www.twitch.tv/videos/212431882)
   * Субтитры: [v212431882.ass](../chats/v212431882.ass)
-  * Запись (YouTube): [JS7cNXnzCTA](https://www.youtube.com/watch?v=JS7cNXnzCTA)
+   * Запись (YouTube): [JS7cNXnzCTA](https://www.youtube.com/watch?v=JS7cNXnzCTA) 
 * Таймкоды:
   *  <a onclick="player1.currentTime(1247)">20:47</a>  - Uncanny Valley
   *  <a onclick="player1.currentTime(6294)">1:44:54</a>  - The Coma: Recut
   *  <a onclick="player1.currentTime(10320)">2:52:00</a>  - Lone Survivor
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
@@ -154,10 +156,11 @@ mpv --sub-file chats/v212431882.ass ytdl://JS7cNXnzCTA
 * Ссылки:
   * Twitch: [212678883](https://www.twitch.tv/videos/212678883)
   * Субтитры: [v212678883.ass](../chats/v212678883.ass)
-  * Запись (YouTube): [sz8y749Jn_8](https://www.youtube.com/watch?v=sz8y749Jn_8)
+   * Запись (YouTube): [sz8y749Jn_8](https://www.youtube.com/watch?v=sz8y749Jn_8) 
 * Таймкоды:
   *  <a onclick="player2.currentTime(1500)">25:00</a>  - Stifled
   *  <a onclick="player2.currentTime(10740)">2:59:00</a>  - Uncanny Valley
+
 
 <a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
@@ -216,11 +219,12 @@ mpv --sub-file chats/v212678883.ass ytdl://sz8y749Jn_8
 * Ссылки:
   * Twitch: [222198164](https://www.twitch.tv/videos/222198164)
   * Субтитры: [v222198164.ass](../chats/v222198164.ass)
-  * Запись (YouTube): [x9NkgWX09L0](https://www.youtube.com/watch?v=x9NkgWX09L0)
+   * Запись (YouTube): [x9NkgWX09L0](https://www.youtube.com/watch?v=x9NkgWX09L0) 
 * Таймкоды:
   *  <a onclick="player3.currentTime(1560)">26:00</a>  - The Witchkin
   *  <a onclick="player3.currentTime(6934)">1:55:34</a>  - Emily Wants to Play Too
   *  <a onclick="player3.currentTime(11873)">3:17:53</a>  - LeftWay
+
 
 <a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 

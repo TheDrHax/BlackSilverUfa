@@ -28,7 +28,8 @@
 * Ссылки:
   * Twitch: [174697007](https://www.twitch.tv/videos/174697007)
   * Субтитры: [v174697007.ass](../chats/v174697007.ass)
-  * Запись (YouTube): [-5aRKoYTGLs](https://www.youtube.com/watch?v=-5aRKoYTGLs)
+   * Запись (YouTube): [-5aRKoYTGLs](https://www.youtube.com/watch?v=-5aRKoYTGLs) 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -87,7 +88,8 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
 * Ссылки:
   * Twitch: [186799946](https://www.twitch.tv/videos/186799946)
   * Субтитры: [v186799946.ass](../chats/v186799946.ass)
-  * Запись (ВКонтакте): [87862793_456240876](https://vk.com/video87862793_456240876)
+   * Запись (ВКонтакте): [87862793_456240876](https://vk.com/video87862793_456240876) 
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
@@ -127,9 +129,6 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
     if (window.location.hash.replace('#', '') == '1')
       openPlayer1();
 </script> 
-Примечание: Для этого стрима используется экспериментальный сервер, стабильность
-которого уступает GitHub Pages. Если видео не запускается, сообщите мне через
-раздел [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues). Спасибо!
 
 #### Команда для просмотра стрима в проигрывателе MPV
 

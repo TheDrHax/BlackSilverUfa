@@ -28,7 +28,8 @@
 * Ссылки:
   * Twitch: [165359272](https://www.twitch.tv/videos/165359272)
   * Субтитры: [v165359272.ass](../chats/v165359272.ass)
-  * Запись (YouTube): [qInCMF9MuEs](https://www.youtube.com/watch?v=qInCMF9MuEs)
+   * Запись (YouTube): [qInCMF9MuEs](https://www.youtube.com/watch?v=qInCMF9MuEs) 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -87,7 +88,8 @@ mpv --sub-file chats/v165359272.ass ytdl://qInCMF9MuEs
 * Ссылки:
   * Twitch: [165630859](https://www.twitch.tv/videos/165630859)
   * Субтитры: [v165630859.ass](../chats/v165630859.ass)
-  * Запись (YouTube): [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE)
+   * Запись (YouTube): [7r6_dwXVXgE](https://www.youtube.com/watch?v=7r6_dwXVXgE) 
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 

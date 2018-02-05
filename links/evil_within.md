@@ -29,8 +29,9 @@
 * Ссылки:
   * Twitch: [160844876](https://www.twitch.tv/videos/160844876)
   * Субтитры: [v160844876.ass](../chats/v160844876.ass)
-  * Запись (ВКонтакте): [87862793_456240552](https://vk.com/video87862793_456240552)
+   * Запись (ВКонтакте): [87862793_456240552](https://vk.com/video87862793_456240552) 
 * Стрим заканчивается в  <a onclick="player0.currentTime(3138)">52:18</a> 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -78,9 +79,6 @@
     if (window.location.hash.replace('#', '') == '0')
       openPlayer0();
 </script> 
-Примечание: Для этого стрима используется экспериментальный сервер, стабильность
-которого уступает GitHub Pages. Если видео не запускается, сообщите мне через
-раздел [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues). Спасибо!
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
@@ -95,7 +93,8 @@ mpv --sub-file chats/v160844876.ass https://api.thedrhax.pw/vk/video/87862793_45
 * Ссылки:
   * Twitch: [160852861](https://www.twitch.tv/videos/160852861)
   * Субтитры: [v160852861.ass](../chats/v160852861.ass)
-  * Запись (YouTube): [LF6RMOOvA9M](https://www.youtube.com/watch?v=LF6RMOOvA9M)
+   * Запись (YouTube): [LF6RMOOvA9M](https://www.youtube.com/watch?v=LF6RMOOvA9M) 
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
@@ -155,7 +154,8 @@ mpv --sub-file chats/v160852861.ass ytdl://LF6RMOOvA9M
 * Ссылки:
   * Twitch: [161110508](https://www.twitch.tv/videos/161110508)
   * Субтитры: [v161110508.ass](../chats/v161110508.ass)
-  * Запись (YouTube): [8VCQkjjMu-I](https://www.youtube.com/watch?v=8VCQkjjMu-I)
+   * Запись (YouTube): [8VCQkjjMu-I](https://www.youtube.com/watch?v=8VCQkjjMu-I) 
+
 
 <a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
@@ -214,7 +214,8 @@ mpv --sub-file chats/v161110508.ass ytdl://8VCQkjjMu-I
 * Ссылки:
   * Twitch: [161115703](https://www.twitch.tv/videos/161115703)
   * Субтитры: [v161115703.ass](../chats/v161115703.ass)
-  * Запись (YouTube): [vxbjz2-Lmgg](https://www.youtube.com/watch?v=vxbjz2-Lmgg)
+   * Запись (YouTube): [vxbjz2-Lmgg](https://www.youtube.com/watch?v=vxbjz2-Lmgg) 
+
 
 <a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 
@@ -273,7 +274,8 @@ mpv --sub-file chats/v161115703.ass ytdl://vxbjz2-Lmgg
 * Ссылки:
   * Twitch: [162350334](https://www.twitch.tv/videos/162350334)
   * Субтитры: [v162350334.ass](../chats/v162350334.ass)
-  * Запись (YouTube): [hZSVfTxT7Qo](https://www.youtube.com/watch?v=hZSVfTxT7Qo)
+   * Запись (YouTube): [hZSVfTxT7Qo](https://www.youtube.com/watch?v=hZSVfTxT7Qo) 
+
 
 <a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 
@@ -333,7 +335,8 @@ mpv --sub-file chats/v162350334.ass ytdl://hZSVfTxT7Qo
 * Ссылки:
   * Twitch: [162844424](https://www.twitch.tv/videos/162844424)
   * Субтитры: [v162844424.ass](../chats/v162844424.ass)
-  * Запись (YouTube): [8lhCzaGLmK8](https://www.youtube.com/watch?v=8lhCzaGLmK8)
+   * Запись (YouTube): [8lhCzaGLmK8](https://www.youtube.com/watch?v=8lhCzaGLmK8) 
+
 
 <a onclick="return openPlayer5()" id="button-5">**▶ Открыть плеер**</a>
 
@@ -392,7 +395,8 @@ mpv --sub-file chats/v162844424.ass ytdl://8lhCzaGLmK8
 * Ссылки:
   * Twitch: [163361169](https://www.twitch.tv/videos/163361169)
   * Субтитры: [v163361169.ass](../chats/v163361169.ass)
-  * Запись (YouTube): [Qt1N7foBrUE](https://www.youtube.com/watch?v=Qt1N7foBrUE)
+   * Запись (YouTube): [Qt1N7foBrUE](https://www.youtube.com/watch?v=Qt1N7foBrUE) 
+
 
 <a onclick="return openPlayer6()" id="button-6">**▶ Открыть плеер**</a>
 
@@ -452,7 +456,8 @@ mpv --sub-file chats/v163361169.ass ytdl://Qt1N7foBrUE
 * Ссылки:
   * Twitch: [164116949](https://www.twitch.tv/videos/164116949)
   * Субтитры: [v164116949.ass](../chats/v164116949.ass)
-  * Запись (YouTube): [5JOCDsqrhOY](https://www.youtube.com/watch?v=5JOCDsqrhOY)
+   * Запись (YouTube): [5JOCDsqrhOY](https://www.youtube.com/watch?v=5JOCDsqrhOY) 
+
 
 <a onclick="return openPlayer7()" id="button-7">**▶ Открыть плеер**</a>
 
@@ -511,7 +516,8 @@ mpv --sub-file chats/v164116949.ass ytdl://5JOCDsqrhOY
 * Ссылки:
   * Twitch: [164165380](https://www.twitch.tv/videos/164165380)
   * Субтитры: [v164165380.ass](../chats/v164165380.ass)
-  * Запись (YouTube): [yH9DIXACVkA](https://www.youtube.com/watch?v=yH9DIXACVkA)
+   * Запись (YouTube): [yH9DIXACVkA](https://www.youtube.com/watch?v=yH9DIXACVkA) 
+
 
 <a onclick="return openPlayer8()" id="button-8">**▶ Открыть плеер**</a>
 

@@ -29,7 +29,7 @@
 * Ссылки:
   * Twitch: [219819121](https://www.twitch.tv/videos/219819121)
   * Субтитры: [v219819121.ass](../chats/v219819121.ass)
-  * Запись (YouTube): [4tbKXowGdSk](https://www.youtube.com/watch?v=4tbKXowGdSk)
+   * Запись (YouTube): [4tbKXowGdSk](https://www.youtube.com/watch?v=4tbKXowGdSk) 
 * Таймкоды:
   *  <a onclick="player0.currentTime(1200)">20:00</a>  - Metal Gear Survive
   *  <a onclick="player0.currentTime(5010)">1:23:30</a>  - Metal Gear Survive (ко-оп со зрителями)
@@ -38,6 +38,7 @@
   *  <a onclick="player0.currentTime(12790)">3:33:10</a>  - + уши
   *  <a onclick="player0.currentTime(13170)">3:39:30</a>  - - уши
   *  <a onclick="player0.currentTime(13890)">3:51:30</a>  - + уши
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 

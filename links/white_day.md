@@ -28,8 +28,9 @@
 * Ссылки:
   * Twitch: [172968603](https://www.twitch.tv/videos/172968603)
   * Субтитры: [v172968603.ass](../chats/v172968603.ass)
-  * Запись (YouTube): [fxwks5MC9Ns](https://www.youtube.com/watch?v=fxwks5MC9Ns)
+   * Запись (YouTube): [fxwks5MC9Ns](https://www.youtube.com/watch?v=fxwks5MC9Ns) 
 * Стрим начинается с  <a onclick="player0.currentTime(9691)">2:41:31</a> 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -89,8 +90,9 @@ mpv --sub-file chats/v172968603.ass ytdl://fxwks5MC9Ns
 * Ссылки:
   * Twitch: [176397641](https://www.twitch.tv/videos/176397641)
   * Субтитры: [v176397641.ass](../chats/v176397641.ass)
-  * Запись (YouTube): [yxlbqLonbKI](https://www.youtube.com/watch?v=yxlbqLonbKI)
+   * Запись (YouTube): [yxlbqLonbKI](https://www.youtube.com/watch?v=yxlbqLonbKI) 
 * Стрим начинается с  <a onclick="player1.currentTime(10180)">2:49:40</a> 
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
@@ -150,8 +152,9 @@ mpv --sub-file chats/v176397641.ass ytdl://yxlbqLonbKI
 * Ссылки:
   * Twitch: [177634045](https://www.twitch.tv/videos/177634045)
   * Субтитры: [v177634045.ass](../chats/v177634045.ass)
-  * Запись (YouTube): [NR3Acyrhnp4](https://www.youtube.com/watch?v=NR3Acyrhnp4)
+   * Запись (YouTube): [NR3Acyrhnp4](https://www.youtube.com/watch?v=NR3Acyrhnp4) 
 * Стрим начинается с  <a onclick="player2.currentTime(11645)">3:14:05</a> 
+
 
 <a onclick="return openPlayer2()" id="button-2">**▶ Открыть плеер**</a>
 
@@ -211,8 +214,9 @@ mpv --sub-file chats/v177634045.ass ytdl://NR3Acyrhnp4
 * Ссылки:
   * Twitch: [179635876](https://www.twitch.tv/videos/179635876)
   * Субтитры: [v179635876.ass](../chats/v179635876.ass)
-  * Запись (YouTube): [zxTKOfKANt8](https://www.youtube.com/watch?v=zxTKOfKANt8)
+   * Запись (YouTube): [zxTKOfKANt8](https://www.youtube.com/watch?v=zxTKOfKANt8) 
 * Стрим начинается с  <a onclick="player3.currentTime(10800)">3:00:00</a> 
+
 
 <a onclick="return openPlayer3()" id="button-3">**▶ Открыть плеер**</a>
 
@@ -272,8 +276,9 @@ mpv --sub-file chats/v179635876.ass ytdl://zxTKOfKANt8
 * Ссылки:
   * Twitch: [204186576](https://www.twitch.tv/videos/204186576)
   * Субтитры: [v204186576.ass](../chats/v204186576.ass)
-  * Запись (YouTube): [kEzcaYOhHaQ](https://www.youtube.com/watch?v=kEzcaYOhHaQ)
+   * Запись (YouTube): [kEzcaYOhHaQ](https://www.youtube.com/watch?v=kEzcaYOhHaQ) 
 * Стрим начинается с  <a onclick="player4.currentTime(10090)">2:48:10</a> 
+
 
 <a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
 

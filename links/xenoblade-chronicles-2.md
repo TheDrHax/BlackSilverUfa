@@ -28,7 +28,8 @@
 * Ссылки:
   * Twitch: [206933269](https://www.twitch.tv/videos/206933269)
   * Субтитры: [v206933269.ass](../chats/v206933269.ass)
-  * Запись (YouTube): [Apcg-z-sBHM](https://www.youtube.com/watch?v=Apcg-z-sBHM)
+   * Запись (YouTube): [Apcg-z-sBHM](https://www.youtube.com/watch?v=Apcg-z-sBHM) 
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 

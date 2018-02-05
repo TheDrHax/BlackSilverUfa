@@ -28,11 +28,12 @@
 * Ссылки:
   * Twitch: [222913630](https://www.twitch.tv/videos/222913630)
   * Субтитры: [v222913630.ass](../chats/v222913630.ass)
-  * Запись (YouTube): [TDy4cbm_twQ](https://www.youtube.com/watch?v=TDy4cbm_twQ)
+   * Запись (YouTube): [TDy4cbm_twQ](https://www.youtube.com/watch?v=TDy4cbm_twQ) 
 * Таймкоды:
   *  <a onclick="player0.currentTime(730)">12:10</a>  - Sea of Thieves (не получилось)
   *  <a onclick="player0.currentTime(883)">14:43</a>  - S.O.S.
   *  <a onclick="player0.currentTime(10944)">3:02:24</a>  - Sea of Thieves (опять не получилось)
+
 
 <a onclick="return openPlayer0()" id="button-0">**▶ Открыть плеер**</a>
 
@@ -91,7 +92,8 @@ mpv --sub-file chats/v222913630.ass ytdl://TDy4cbm_twQ
 * Ссылки:
   * Twitch: [223945520](https://www.twitch.tv/videos/223945520)
   * Субтитры: [v223945520.ass](../chats/v223945520.ass)
-  * Запись (YouTube): [wbpdTqY2hlY](https://www.youtube.com/watch?v=wbpdTqY2hlY)
+   * Запись (YouTube): [wbpdTqY2hlY](https://www.youtube.com/watch?v=wbpdTqY2hlY) 
+
 
 <a onclick="return openPlayer1()" id="button-1">**▶ Открыть плеер**</a>
 
