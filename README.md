@@ -81,7 +81,9 @@
 
 Если у вас есть ссылка на запись любого из этих стримов, сообщите мне через раздел
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
-Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
+Поддерживаются любые видео с YouTube или из ВКонтакте. Сегментированные записи
+работают частично, но я [стараюсь](https://github.com/TheDrHax/BlackSilverUfa/issues/5).
+Спасибо!
 
 * [Monster Hunter World](links/monster-hunter-world.md) - [5](links/monster-hunter-world.md#225950740)
 * [Sub-Day и стримы с несколькими играми](links/subday.md) - [5](links/subday.md#225950740)
