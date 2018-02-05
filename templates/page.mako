@@ -1,14 +1,48 @@
 <%
   def sec(t):
     return sum(int(x) * 60 ** i for i,x in enumerate(reversed(t.split(":"))))
+
+  def mpv_compatible(stream):
+    for i in ['youtube', 'vk', 'direct', 'segments']:
+       if i in stream:
+           return True
+    return False
+
+  def mpv_args(stream):
+    if stream.get('youtube'):
+      return 'ytdl://' + stream['youtube']
+    elif stream.get('vk'):
+      return 'https://api.thedrhax.pw/vk/video/' + stream['vk'] + '\?redirect'
+    elif stream.get('direct'):
+      return stream['direct']
+    elif stream.get('segments'):
+      segments = [mpv_args(segment) for segment in stream['segments']]
+      return '--merge-files ' + ' '.join(segments)
 %>
 
 <%def name="timecode_link(id, timecode)"> \
 <a onclick="player${id}.currentTime(${sec(timecode)})">${timecode}</a> \
 </%def>
 
-<%def name="player(id, stream)">
-<a onclick="return openPlayer${id}()" id="button-${id}">**▶ Открыть плеер**</a>
+<%def name="source_link(stream, text=u'Запись')"> \
+% if stream.get('youtube'):
+  * ${text} (YouTube): [${stream['youtube']}](https://www.youtube.com/watch?v=${stream['youtube']}) \
+% elif stream.get('vk'):
+  * ${text} (ВКонтакте): [${stream['vk']}](https://vk.com/video${stream['vk']}) \
+% elif stream.get('direct'):
+  * ${text}: [прямая ссылка](${stream['direct']}) \
+% elif stream.get('segments'):
+  * Запись сегментирована:
+  % for segment in stream['segments']:
+    ${source_link(segment, text=u'Часть {}'.format(stream['segments'].index(segment)+1))}
+  % endfor
+% else:
+  * ${text}: отсутствует \
+% endif
+</%def>
+
+<%def name="player(id, stream, text=u'Открыть плеер')">
+<a onclick="return openPlayer${id}()" id="button-${id}">**▶ ${text}**</a>
 
 <script>
   var player${id};
@@ -19,7 +53,11 @@
       plugins: {
         ass: {
           src: ["../chats/v${stream['twitch']}.ass"],
+          % if stream.get('subtitle_offset'):
+          delay: ${- sec(stream['subtitle_offset']) - 0.1},
+          % else:
           delay: -0.1,
+          % endif
         },
         % if stream.get('youtube'):
         videoJsResolutionSwitcher: {
@@ -89,17 +127,13 @@
 * Ссылки:
   * Twitch: [${stream['twitch']}](https://www.twitch.tv/videos/${stream['twitch']})
   * Субтитры: [v${stream['twitch']}.ass](../chats/v${stream['twitch']}.ass)
-% if stream.get('youtube'):
-  * Запись (YouTube): [${stream['youtube']}](https://www.youtube.com/watch?v=${stream['youtube']})
-% elif stream.get('vk'):
-  * Запись (ВКонтакте): [${stream['vk']}](https://vk.com/video${stream['vk']})
-% elif stream.get('direct'):
-  * Запись: [прямая ссылка](${stream['direct']})
-% else:
-  * Запись: отсутствует
-% endif
+${source_link(stream)}
 % if stream.get('timecodes'):
+% if stream.get('segments'):
+* Таймкоды (работают только в пределах первой части, см. [#5](https://github.com/TheDrHax/BlackSilverUfa/issues/5))
+% else:
 * Таймкоды:
+% endif
   % for timecode in stream['timecodes']:
   * ${timecode_link(id, timecode[0])} - ${timecode[1]}
   % endfor
@@ -110,24 +144,25 @@
 % if stream.get('end'):
 * Стрим заканчивается в ${timecode_link(id, stream['end'])}
 % endif
+
 % if stream.get('youtube') or stream.get('direct') or stream.get('vk'):
 ${player(id, stream)}
-% if stream.get('vk'):
-Примечание: Для этого стрима используется экспериментальный сервер, стабильность
-которого уступает GitHub Pages. Если видео не запускается, сообщите мне через
-раздел [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues). Спасибо!
-% endif
+% elif stream.get('segments'):
+% for segment in stream['segments']:
+<%
+  segment_index = stream['segments'].index(segment)
+  segment_id = 100*(id+1) + segment_index
+  segment['twitch'] = stream['twitch']
+%> \
+${player(segment_id, segment, text=u'Часть {}'.format(segment_index+1))}
+% endfor
 % endif
 
 ${'####'} Команда для просмотра стрима в проигрывателе MPV
 
 ```
-% if stream.get('youtube'):
-mpv --sub-file chats/v${stream['twitch']}.ass ytdl://${stream['youtube']}
-% elif stream.get('direct'):
-mpv --sub-file chats/v${stream['twitch']}.ass ${stream['direct']}
-% elif stream.get('vk'):
-mpv --sub-file chats/v${stream['twitch']}.ass https://api.thedrhax.pw/vk/video/${stream['vk']}\?redirect
+% if mpv_compatible(stream):
+mpv --sub-file chats/v${stream['twitch']}.ass ${mpv_args(stream)}
 % else:
 streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
 % endif

@@ -55,7 +55,7 @@ ${'###'} Стримы без записей
 <% missing = False %>\
 % for game in games:
   % for stream in game['streams']:
-    % if not stream.get('youtube') and not stream.get('direct') and not stream.get('vk'):
+    % if not stream.get('youtube') and not stream.get('direct') and not stream.get('vk') and not stream.get('segments'):
 <% missing = True %>\
 * [${game['name']}](links/${game['filename']}) - \
 [${stream['name']}](links/${game['filename']}#${game['streams'].index(stream)})
