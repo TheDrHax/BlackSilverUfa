@@ -28,14 +28,6 @@
     ]
   },
   {
-    "name": "Cuphead",
-    "category": "questionable",
-    "filename": "cuphead.md",
-    "streams": [
-      { "name": "1", "twitch": "178361269" }
-    ]
-  },
-  {
     "name": "Darkwood",
     "category": "finished",
     "filename": "darkwood.md",
@@ -51,14 +43,6 @@
       { "name": "9", "twitch": "206091904" },
       { "name": "10", "twitch": "207478875" },
       { "name": "11", "twitch": "210024030" }
-    ]
-  },
-  {
-    "name": "Divinity: Original Sin II",
-    "category": "abandoned",
-    "filename": "divinity.md",
-    "streams": [
-      { "name": "1", "twitch": "175198877" }
     ]
   },
   {
@@ -101,14 +85,6 @@
     ]
   },
   {
-    "name": "Home Sweet Home",
-    "category": "abandoned",
-    "filename": "home_sweet_home.md",
-    "streams": [
-      { "name": "1", "twitch": "178108639" }
-    ]
-  },
-  {
     "name": "Middle-earth: Shadow of War",
     "category": "abandoned",
     "filename": "middle_earth.md",
@@ -147,7 +123,7 @@
   },
   {
     "name": "Outlast 2 с Дашей",
-    "category": "questionable",
+    "category": "ongoing",
     "filename": "outlast_2_dw.md",
     "streams": [
       { "name": "1", "twitch": "174697007" },
@@ -262,14 +238,6 @@
     ]
   },
   {
-    "name": "The Legend of Zelda: Twilight Princess HD",
-    "category": "abandoned",
-    "filename": "tloz_tp.md",
-    "streams": [
-      { "name": "1", "twitch": "163612448" }
-    ]
-  },
-  {
     "name": "White Day: A Labyrinth Named School",
     "category": "finished",
     "filename": "white_day.md",
@@ -279,14 +247,6 @@
       { "name": "3", "start": "3:14:05", "twitch": "177634045" },
       { "name": "4", "start": "3:00:00", "twitch": "179635876" },
       { "name": "5", "start": "2:48:10", "twitch": "204186576" }
-    ]
-  },
-  {
-    "name": "Xenoblade Chronicles 2",
-    "category": "abandoned",
-    "filename": "xenoblade-chronicles-2.md",
-    "streams": [
-      { "name": "1", "twitch": "206933269" }
     ]
   },
   {
@@ -305,22 +265,6 @@
     "filename": "events.md",
     "streams": [
       { "name": "Сборка кресла", "twitch": "219463387" }
-    ]
-  },
-  {
-    "name": "Getting Over It",
-    "category": "ongoing",
-    "filename": "getting-over-it.md",
-    "streams": [
-      { "name": "1", "start": "1:52:00", "twitch": "219819121" }
-    ]
-  },
-  {
-    "name": "Metal Gear Survive",
-    "category": "questionable",
-    "filename": "metal-gear-survive.md",
-    "streams": [
-      { "name": "1 (бета)", "twitch": "219819121" }
     ]
   },
   {
@@ -346,6 +290,12 @@
     "category": "first",
     "filename": "first.md",
     "streams": [
+      { "name": "The Legend of Zelda: Twilight Princess HD", "twitch": "163612448" },
+      { "name": "Divinity: Original Sin II", "twitch": "175198877" },
+      { "name": "Home Sweet Home", "twitch": "178108639" },
+      { "name": "Cuphead", "twitch": "178361269" },
+      { "name": "Xenoblade Chronicles 2", "twitch": "206933269" },
+      { "name": "Metal Gear Survive / Getting Over It", "twitch": "219819121" },
       { "name": "Yakuza 6: The Song of Life", "twitch": "226000025" }
     ]
   }
