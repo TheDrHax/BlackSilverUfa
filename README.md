@@ -26,15 +26,15 @@
 
 #### Прохождения за один стрим
 
-* [Michigan: Report from Hell](links/single.md#0)
-* [Absolver](links/single.md#1)
-* [The Count Lucanor](links/single.md#2)
-* [Call of Duty: WWII](links/single.md#3)
-* [Little Nightmares (DLC)](links/single.md#4)
-* [Hidden Agenda](links/single.md#5)
-* [Unforgiving: A Northern Hymn](links/single.md#6)
-* [DYING: Reborn](links/single.md#7)
-* [Remothered: Tormented Fathers](links/single.md#8)
+* [Michigan: Report from Hell](links/single.md#152253862)
+* [Absolver](links/single.md#174225353)
+* [The Count Lucanor](links/single.md#184468298)
+* [Call of Duty: WWII](links/single.md#187291538)
+* [Little Nightmares (DLC)](links/single.md#200401270)
+* [Hidden Agenda](links/single.md#202329656)
+* [Unforgiving: A Northern Hymn](links/single.md#204996737)
+* [DYING: Reborn](links/single.md#219166190)
+* [Remothered: Tormented Fathers](links/single.md#224600319)
 
 ### В процессе
 
@@ -55,6 +55,11 @@
 * [Cuphead](links/cuphead.md) (1 стрим)
 * [Outlast 2 с Дашей](links/outlast_2_dw.md) (2 стрима)
 * [Metal Gear Survive](links/metal-gear-survive.md) (1 стрим)
+
+#### Первый взгляд
+
+Сюда попадают первые стримы по каждой игре. При продолжении прохождения они переносятся на соответствующую им страницу.
+* [Yakuza 6: The Song of Life](links/first.md#226000025)
 
 #### Незавершённые
 
@@ -81,5 +86,6 @@
 [Issues](https://github.com/TheDrHax/BlackSilverUfa/issues/) этого репозитория.
 Поддерживаются любые не сегментированные видео с YouTube или из ВКонтакте. Спасибо!
 
-* [Monster Hunter World](links/monster-hunter-world.md) - [5](links/monster-hunter-world.md#4)
-* [Sub-Day и стримы с несколькими играми](links/subday.md) - [5](links/subday.md#4)
+* [Monster Hunter World](links/monster-hunter-world.md) - [5](links/monster-hunter-world.md#225950740)
+* [Sub-Day и стримы с несколькими играми](links/subday.md) - [5](links/subday.md#225950740)
+* [Первый взгляд](links/first.md) - [Yakuza 6: The Song of Life](links/first.md#226000025)

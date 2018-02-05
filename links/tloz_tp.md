@@ -23,7 +23,9 @@
 
 # The Legend of Zelda: Twilight Princess HD
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="163612448">
+  <a id="0" href="#163612448">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [163612448](https://www.twitch.tv/videos/163612448)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "163612448")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

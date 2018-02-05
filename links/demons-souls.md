@@ -23,7 +23,9 @@
 
 # Demon's Souls
  
-<h2 id="0"><a href="#0">1.1</a></h2>
+<h2 id="217814961">
+  <a id="0" href="#217814961">1.1</a>
+</h2>
 
 * Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
@@ -71,9 +73,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "217814961")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -84,7 +88,9 @@ mpv --sub-file chats/v217814961.ass ytdl://iKf4tl2Q7Ok
 
 ---- 
  
-<h2 id="1"><a href="#1">1.2</a></h2>
+<h2 id="217852593">
+  <a id="1" href="#217852593">1.2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [217852593](https://www.twitch.tv/videos/217852593)
@@ -131,9 +137,11 @@ mpv --sub-file chats/v217814961.ass ytdl://iKf4tl2Q7Ok
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "217852593")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -144,7 +152,9 @@ mpv --sub-file chats/v217852593.ass ytdl://6OQMTzVS8po
 
 ---- 
  
-<h2 id="2"><a href="#2">2</a></h2>
+<h2 id="219489801">
+  <a id="2" href="#219489801">2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [219489801](https://www.twitch.tv/videos/219489801)
@@ -191,9 +201,11 @@ mpv --sub-file chats/v217852593.ass ytdl://6OQMTzVS8po
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '2')
-      openPlayer2();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "2" || id == "219489801")
+    openPlayer2();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

@@ -23,7 +23,9 @@
 
 # Middle-earth: Shadow of War
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="181166703">
+  <a id="0" href="#181166703">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [181166703](https://www.twitch.tv/videos/181166703)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "181166703")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -83,7 +87,9 @@ mpv --sub-file chats/v181166703.ass ytdl://ZlMQcv0a1Sc
 
 ---- 
  
-<h2 id="1"><a href="#1">2</a></h2>
+<h2 id="181408745">
+  <a id="1" href="#181408745">2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [181408745](https://www.twitch.tv/videos/181408745)
@@ -130,9 +136,11 @@ mpv --sub-file chats/v181166703.ass ytdl://ZlMQcv0a1Sc
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "181408745")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -143,7 +151,9 @@ mpv --sub-file chats/v181408745.ass ytdl://VQNcHN56go4
 
 ---- 
  
-<h2 id="2"><a href="#2">3</a></h2>
+<h2 id="181664458">
+  <a id="2" href="#181664458">3</a>
+</h2>
 
 * Ссылки:
   * Twitch: [181664458](https://www.twitch.tv/videos/181664458)
@@ -190,9 +200,11 @@ mpv --sub-file chats/v181408745.ass ytdl://VQNcHN56go4
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '2')
-      openPlayer2();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "2" || id == "181664458")
+    openPlayer2();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

@@ -23,7 +23,9 @@
 
 # Monster Hunter World
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="208349646">
+  <a id="0" href="#208349646">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [208349646](https://www.twitch.tv/videos/208349646)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "208349646")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -83,7 +87,9 @@ mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE
 
 ---- 
  
-<h2 id="1"><a href="#1">2</a></h2>
+<h2 id="222538863">
+  <a id="1" href="#222538863">2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [222538863](https://www.twitch.tv/videos/222538863)
@@ -130,9 +136,11 @@ mpv --sub-file chats/v208349646.ass ytdl://gUtKWEEyzPE
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "222538863")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -143,7 +151,9 @@ mpv --sub-file chats/v222538863.ass ytdl://R2H6m_lW7sE
 
 ---- 
  
-<h2 id="2"><a href="#2">3</a></h2>
+<h2 id="223916781">
+  <a id="2" href="#223916781">3</a>
+</h2>
 
 * Ссылки:
   * Twitch: [223916781](https://www.twitch.tv/videos/223916781)
@@ -190,9 +200,11 @@ mpv --sub-file chats/v222538863.ass ytdl://R2H6m_lW7sE
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '2')
-      openPlayer2();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "2" || id == "223916781")
+    openPlayer2();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -203,7 +215,9 @@ mpv --sub-file chats/v223916781.ass ytdl://lK7Mkz_ubf8
 
 ---- 
  
-<h2 id="3"><a href="#3">4</a></h2>
+<h2 id="224560087">
+  <a id="3" href="#224560087">4</a>
+</h2>
 
 * Ссылки:
   * Twitch: [224560087](https://www.twitch.tv/videos/224560087)
@@ -253,9 +267,11 @@ mpv --sub-file chats/v223916781.ass ytdl://lK7Mkz_ubf8
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '3')
-      openPlayer3();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "3" || id == "224560087")
+    openPlayer3();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -266,7 +282,9 @@ mpv --sub-file chats/v224560087.ass ytdl://JWvgGOuTldg
 
 ---- 
  
-<h2 id="4"><a href="#4">5</a></h2>
+<h2 id="225950740">
+  <a id="4" href="#225950740">5</a>
+</h2>
 
 * Ссылки:
   * Twitch: [225950740](https://www.twitch.tv/videos/225950740)

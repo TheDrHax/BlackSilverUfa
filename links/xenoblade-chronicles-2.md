@@ -23,7 +23,9 @@
 
 # Xenoblade Chronicles 2
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="206933269">
+  <a id="0" href="#206933269">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [206933269](https://www.twitch.tv/videos/206933269)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "206933269")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

@@ -23,7 +23,9 @@
 
 # Persona 5
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="135797319">
+  <a id="0" href="#135797319">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [135797319](https://www.twitch.tv/videos/135797319)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "135797319")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -83,7 +87,9 @@ mpv --sub-file chats/v135797319.ass ytdl://-c8n0TR5-no
 
 ---- 
  
-<h2 id="1"><a href="#1">2</a></h2>
+<h2 id="136865997">
+  <a id="1" href="#136865997">2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [136865997](https://www.twitch.tv/videos/136865997)
@@ -130,9 +136,11 @@ mpv --sub-file chats/v135797319.ass ytdl://-c8n0TR5-no
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "136865997")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -143,7 +151,9 @@ mpv --sub-file chats/v136865997.ass ytdl://BlZNqMcZHzg
 
 ---- 
  
-<h2 id="2"><a href="#2">3</a></h2>
+<h2 id="140054639">
+  <a id="2" href="#140054639">3</a>
+</h2>
 
 * Ссылки:
   * Twitch: [140054639](https://www.twitch.tv/videos/140054639)
@@ -190,9 +200,11 @@ mpv --sub-file chats/v136865997.ass ytdl://BlZNqMcZHzg
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '2')
-      openPlayer2();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "2" || id == "140054639")
+    openPlayer2();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -203,7 +215,9 @@ mpv --sub-file chats/v140054639.ass ytdl://Cx2_Mlrx6dM
 
 ---- 
  
-<h2 id="3"><a href="#3">4</a></h2>
+<h2 id="146618890">
+  <a id="3" href="#146618890">4</a>
+</h2>
 
 * Ссылки:
   * Twitch: [146618890](https://www.twitch.tv/videos/146618890)
@@ -250,9 +264,11 @@ mpv --sub-file chats/v140054639.ass ytdl://Cx2_Mlrx6dM
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '3')
-      openPlayer3();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "3" || id == "146618890")
+    openPlayer3();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -263,7 +279,9 @@ mpv --sub-file chats/v146618890.ass ytdl://E8XS7RP8xGE
 
 ---- 
  
-<h2 id="4"><a href="#4">5</a></h2>
+<h2 id="148253751">
+  <a id="4" href="#148253751">5</a>
+</h2>
 
 * Ссылки:
   * Twitch: [148253751](https://www.twitch.tv/videos/148253751)
@@ -310,9 +328,11 @@ mpv --sub-file chats/v146618890.ass ytdl://E8XS7RP8xGE
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '4')
-      openPlayer4();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "4" || id == "148253751")
+    openPlayer4();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -323,7 +343,9 @@ mpv --sub-file chats/v148253751.ass ytdl://eMFwk3Enb3c
 
 ---- 
  
-<h2 id="5"><a href="#5">6</a></h2>
+<h2 id="154787759">
+  <a id="5" href="#154787759">6</a>
+</h2>
 
 * Ссылки:
   * Twitch: [154787759](https://www.twitch.tv/videos/154787759)
@@ -372,9 +394,11 @@ mpv --sub-file chats/v148253751.ass ytdl://eMFwk3Enb3c
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '5')
-      openPlayer5();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "5" || id == "154787759")
+    openPlayer5();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -385,7 +409,9 @@ mpv --sub-file chats/v154787759.ass ytdl://f5U_5Gwx-Mk
 
 ---- 
  
-<h2 id="6"><a href="#6">7</a></h2>
+<h2 id="173993139">
+  <a id="6" href="#173993139">7</a>
+</h2>
 
 * Ссылки:
   * Twitch: [173993139](https://www.twitch.tv/videos/173993139)
@@ -434,9 +460,11 @@ mpv --sub-file chats/v154787759.ass ytdl://f5U_5Gwx-Mk
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '6')
-      openPlayer6();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "6" || id == "173993139")
+    openPlayer6();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -447,7 +475,9 @@ mpv --sub-file chats/v173993139.ass ytdl://eGY5W8Dtehs
 
 ---- 
  
-<h2 id="7"><a href="#7">8</a></h2>
+<h2 id="175695460">
+  <a id="7" href="#175695460">8</a>
+</h2>
 
 * Ссылки:
   * Twitch: [175695460](https://www.twitch.tv/videos/175695460)
@@ -496,9 +526,11 @@ mpv --sub-file chats/v173993139.ass ytdl://eGY5W8Dtehs
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '7')
-      openPlayer7();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "7" || id == "175695460")
+    openPlayer7();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

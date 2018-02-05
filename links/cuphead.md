@@ -23,7 +23,9 @@
 
 # Cuphead
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="178361269">
+  <a id="0" href="#178361269">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [178361269](https://www.twitch.tv/videos/178361269)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "178361269")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

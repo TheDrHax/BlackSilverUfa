@@ -23,7 +23,9 @@
 
 # Divinity: Original Sin II
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="175198877">
+  <a id="0" href="#175198877">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [175198877](https://www.twitch.tv/videos/175198877)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "175198877")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

@@ -23,7 +23,9 @@
 
 # Metal Gear Survive
  
-<h2 id="0"><a href="#0">1 (бета)</a></h2>
+<h2 id="219819121">
+  <a id="0" href="#219819121">1 (бета)</a>
+</h2>
 
 * Примечание: Twitch удалил некоторые участки звуковой дорожки (см. таймкоды)
 * Ссылки:
@@ -79,9 +81,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "219819121")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

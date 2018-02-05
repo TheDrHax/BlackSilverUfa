@@ -23,7 +23,9 @@
 
 # SCP Containment Breach
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="215974261">
+  <a id="0" href="#215974261">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [215974261](https://www.twitch.tv/videos/215974261)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "215974261")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -83,7 +87,9 @@ mpv --sub-file chats/v215974261.ass ytdl://-8anORo35tQ
 
 ---- 
  
-<h2 id="1"><a href="#1">2</a></h2>
+<h2 id="220513992">
+  <a id="1" href="#220513992">2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [220513992](https://www.twitch.tv/videos/220513992)
@@ -133,9 +139,11 @@ mpv --sub-file chats/v215974261.ass ytdl://-8anORo35tQ
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "220513992")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

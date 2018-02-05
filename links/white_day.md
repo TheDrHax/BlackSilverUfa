@@ -23,7 +23,9 @@
 
 # White Day: A Labyrinth Named School
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="172968603">
+  <a id="0" href="#172968603">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [172968603](https://www.twitch.tv/videos/172968603)
@@ -72,9 +74,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "172968603")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -85,7 +89,9 @@ mpv --sub-file chats/v172968603.ass ytdl://fxwks5MC9Ns
 
 ---- 
  
-<h2 id="1"><a href="#1">2</a></h2>
+<h2 id="176397641">
+  <a id="1" href="#176397641">2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [176397641](https://www.twitch.tv/videos/176397641)
@@ -134,9 +140,11 @@ mpv --sub-file chats/v172968603.ass ytdl://fxwks5MC9Ns
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "176397641")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -147,7 +155,9 @@ mpv --sub-file chats/v176397641.ass ytdl://yxlbqLonbKI
 
 ---- 
  
-<h2 id="2"><a href="#2">3</a></h2>
+<h2 id="177634045">
+  <a id="2" href="#177634045">3</a>
+</h2>
 
 * Ссылки:
   * Twitch: [177634045](https://www.twitch.tv/videos/177634045)
@@ -196,9 +206,11 @@ mpv --sub-file chats/v176397641.ass ytdl://yxlbqLonbKI
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '2')
-      openPlayer2();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "2" || id == "177634045")
+    openPlayer2();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -209,7 +221,9 @@ mpv --sub-file chats/v177634045.ass ytdl://NR3Acyrhnp4
 
 ---- 
  
-<h2 id="3"><a href="#3">4</a></h2>
+<h2 id="179635876">
+  <a id="3" href="#179635876">4</a>
+</h2>
 
 * Ссылки:
   * Twitch: [179635876](https://www.twitch.tv/videos/179635876)
@@ -258,9 +272,11 @@ mpv --sub-file chats/v177634045.ass ytdl://NR3Acyrhnp4
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '3')
-      openPlayer3();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "3" || id == "179635876")
+    openPlayer3();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -271,7 +287,9 @@ mpv --sub-file chats/v179635876.ass ytdl://zxTKOfKANt8
 
 ---- 
  
-<h2 id="4"><a href="#4">5</a></h2>
+<h2 id="204186576">
+  <a id="4" href="#204186576">5</a>
+</h2>
 
 * Ссылки:
   * Twitch: [204186576](https://www.twitch.tv/videos/204186576)
@@ -320,9 +338,11 @@ mpv --sub-file chats/v179635876.ass ytdl://zxTKOfKANt8
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '4')
-      openPlayer4();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "4" || id == "204186576")
+    openPlayer4();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

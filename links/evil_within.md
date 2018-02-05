@@ -23,7 +23,9 @@
 
 # The Evil Within
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="160844876">
+  <a id="0" href="#160844876">1</a>
+</h2>
 
 * Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
@@ -75,9 +77,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "160844876")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -88,7 +92,9 @@ mpv --sub-file chats/v160844876.ass https://api.thedrhax.pw/vk/video/87862793_45
 
 ---- 
  
-<h2 id="1"><a href="#1">1.5</a></h2>
+<h2 id="160852861">
+  <a id="1" href="#160852861">1.5</a>
+</h2>
 
 * Ссылки:
   * Twitch: [160852861](https://www.twitch.tv/videos/160852861)
@@ -135,9 +141,11 @@ mpv --sub-file chats/v160844876.ass https://api.thedrhax.pw/vk/video/87862793_45
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "160852861")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -148,7 +156,9 @@ mpv --sub-file chats/v160852861.ass ytdl://LF6RMOOvA9M
 
 ---- 
  
-<h2 id="2"><a href="#2">2</a></h2>
+<h2 id="161110508">
+  <a id="2" href="#161110508">2</a>
+</h2>
 
 * Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
@@ -196,9 +206,11 @@ mpv --sub-file chats/v160852861.ass ytdl://LF6RMOOvA9M
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '2')
-      openPlayer2();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "2" || id == "161110508")
+    openPlayer2();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -209,7 +221,9 @@ mpv --sub-file chats/v161110508.ass ytdl://8VCQkjjMu-I
 
 ---- 
  
-<h2 id="3"><a href="#3">2.5</a></h2>
+<h2 id="161115703">
+  <a id="3" href="#161115703">2.5</a>
+</h2>
 
 * Ссылки:
   * Twitch: [161115703](https://www.twitch.tv/videos/161115703)
@@ -256,9 +270,11 @@ mpv --sub-file chats/v161110508.ass ytdl://8VCQkjjMu-I
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '3')
-      openPlayer3();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "3" || id == "161115703")
+    openPlayer3();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -269,7 +285,9 @@ mpv --sub-file chats/v161115703.ass ytdl://vxbjz2-Lmgg
 
 ---- 
  
-<h2 id="4"><a href="#4">3</a></h2>
+<h2 id="162350334">
+  <a id="4" href="#162350334">3</a>
+</h2>
 
 * Ссылки:
   * Twitch: [162350334](https://www.twitch.tv/videos/162350334)
@@ -316,9 +334,11 @@ mpv --sub-file chats/v161115703.ass ytdl://vxbjz2-Lmgg
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '4')
-      openPlayer4();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "4" || id == "162350334")
+    openPlayer4();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -329,7 +349,9 @@ mpv --sub-file chats/v162350334.ass ytdl://hZSVfTxT7Qo
 
 ---- 
  
-<h2 id="5"><a href="#5">4</a></h2>
+<h2 id="162844424">
+  <a id="5" href="#162844424">4</a>
+</h2>
 
 * Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
@@ -377,9 +399,11 @@ mpv --sub-file chats/v162350334.ass ytdl://hZSVfTxT7Qo
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '5')
-      openPlayer5();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "5" || id == "162844424")
+    openPlayer5();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -390,7 +414,9 @@ mpv --sub-file chats/v162844424.ass ytdl://8lhCzaGLmK8
 
 ---- 
  
-<h2 id="6"><a href="#6">5</a></h2>
+<h2 id="163361169">
+  <a id="6" href="#163361169">5</a>
+</h2>
 
 * Ссылки:
   * Twitch: [163361169](https://www.twitch.tv/videos/163361169)
@@ -437,9 +463,11 @@ mpv --sub-file chats/v162844424.ass ytdl://8lhCzaGLmK8
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '6')
-      openPlayer6();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "6" || id == "163361169")
+    openPlayer6();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -450,7 +478,9 @@ mpv --sub-file chats/v163361169.ass ytdl://Qt1N7foBrUE
 
 ---- 
  
-<h2 id="7"><a href="#7">6</a></h2>
+<h2 id="164116949">
+  <a id="7" href="#164116949">6</a>
+</h2>
 
 * Примечание: Трансляция была прервана по техническим причинам
 * Ссылки:
@@ -498,9 +528,11 @@ mpv --sub-file chats/v163361169.ass ytdl://Qt1N7foBrUE
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '7')
-      openPlayer7();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "7" || id == "164116949")
+    openPlayer7();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -511,7 +543,9 @@ mpv --sub-file chats/v164116949.ass ytdl://5JOCDsqrhOY
 
 ---- 
  
-<h2 id="8"><a href="#8">6.5</a></h2>
+<h2 id="164165380">
+  <a id="8" href="#164165380">6.5</a>
+</h2>
 
 * Ссылки:
   * Twitch: [164165380](https://www.twitch.tv/videos/164165380)
@@ -558,9 +592,11 @@ mpv --sub-file chats/v164116949.ass ytdl://5JOCDsqrhOY
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '8')
-      openPlayer8();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "8" || id == "164165380")
+    openPlayer8();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

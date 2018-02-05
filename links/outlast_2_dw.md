@@ -23,7 +23,9 @@
 
 # Outlast 2 с Дашей
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="174697007">
+  <a id="0" href="#174697007">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [174697007](https://www.twitch.tv/videos/174697007)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "174697007")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -83,7 +87,9 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
 
 ---- 
  
-<h2 id="1"><a href="#1">2</a></h2>
+<h2 id="186799946">
+  <a id="1" href="#186799946">2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [186799946](https://www.twitch.tv/videos/186799946)
@@ -125,9 +131,11 @@ mpv --sub-file chats/v174697007.ass ytdl://-5aRKoYTGLs
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "186799946")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

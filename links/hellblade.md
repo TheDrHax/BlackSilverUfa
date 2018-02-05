@@ -23,7 +23,9 @@
 
 # Hellblade: Senua's Sacrifice
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="165359272">
+  <a id="0" href="#165359272">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [165359272](https://www.twitch.tv/videos/165359272)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "165359272")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -83,7 +87,9 @@ mpv --sub-file chats/v165359272.ass ytdl://qInCMF9MuEs
 
 ---- 
  
-<h2 id="1"><a href="#1">2</a></h2>
+<h2 id="165630859">
+  <a id="1" href="#165630859">2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [165630859](https://www.twitch.tv/videos/165630859)
@@ -130,9 +136,11 @@ mpv --sub-file chats/v165359272.ass ytdl://qInCMF9MuEs
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "165630859")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

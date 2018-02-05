@@ -23,7 +23,9 @@
 
 # Super Mario Odyssey
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="185763905">
+  <a id="0" href="#185763905">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [185763905](https://www.twitch.tv/videos/185763905)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "185763905")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -83,7 +87,9 @@ mpv --sub-file chats/v185763905.ass ytdl://kkeGLQrrkAM
 
 ---- 
  
-<h2 id="1"><a href="#1">2</a></h2>
+<h2 id="200401270">
+  <a id="1" href="#200401270">2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [200401270](https://www.twitch.tv/videos/200401270)
@@ -132,9 +138,11 @@ mpv --sub-file chats/v185763905.ass ytdl://kkeGLQrrkAM
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "200401270")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -145,7 +153,9 @@ mpv --sub-file chats/v200401270.ass ytdl://LSHpifkX69Y
 
 ---- 
  
-<h2 id="2"><a href="#2">3</a></h2>
+<h2 id="202381358">
+  <a id="2" href="#202381358">3</a>
+</h2>
 
 * Ссылки:
   * Twitch: [202381358](https://www.twitch.tv/videos/202381358)
@@ -192,9 +202,11 @@ mpv --sub-file chats/v200401270.ass ytdl://LSHpifkX69Y
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '2')
-      openPlayer2();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "2" || id == "202381358")
+    openPlayer2();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -205,7 +217,9 @@ mpv --sub-file chats/v202381358.ass ytdl://Umsq53kBb9I
 
 ---- 
  
-<h2 id="3"><a href="#3">4</a></h2>
+<h2 id="210846597">
+  <a id="3" href="#210846597">4</a>
+</h2>
 
 * Ссылки:
   * Twitch: [210846597](https://www.twitch.tv/videos/210846597)
@@ -254,9 +268,11 @@ mpv --sub-file chats/v202381358.ass ytdl://Umsq53kBb9I
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '3')
-      openPlayer3();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "3" || id == "210846597")
+    openPlayer3();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

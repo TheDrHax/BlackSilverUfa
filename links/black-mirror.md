@@ -23,7 +23,9 @@
 
 # Black Mirror
  
-<h2 id="0"><a href="#0">1</a></h2>
+<h2 id="205262158">
+  <a id="0" href="#205262158">1</a>
+</h2>
 
 * Ссылки:
   * Twitch: [205262158](https://www.twitch.tv/videos/205262158)
@@ -70,9 +72,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "205262158")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -83,7 +87,9 @@ mpv --sub-file chats/v205262158.ass ytdl://9rrv07l9Bxs
 
 ---- 
  
-<h2 id="1"><a href="#1">2</a></h2>
+<h2 id="206091904">
+  <a id="1" href="#206091904">2</a>
+</h2>
 
 * Ссылки:
   * Twitch: [206091904](https://www.twitch.tv/videos/206091904)
@@ -132,9 +138,11 @@ mpv --sub-file chats/v205262158.ass ytdl://9rrv07l9Bxs
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "206091904")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV

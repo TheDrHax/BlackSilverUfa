@@ -23,7 +23,9 @@
 
 # Sea of Thieves
  
-<h2 id="0"><a href="#0">0 (не получилось)</a></h2>
+<h2 id="222913630">
+  <a id="0" href="#222913630">0 (не получилось)</a>
+</h2>
 
 * Ссылки:
   * Twitch: [222913630](https://www.twitch.tv/videos/222913630)
@@ -74,9 +76,11 @@
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '0')
-      openPlayer0();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "222913630")
+    openPlayer0();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
@@ -87,7 +91,9 @@ mpv --sub-file chats/v222913630.ass ytdl://TDy4cbm_twQ
 
 ---- 
  
-<h2 id="1"><a href="#1">1 (бета)</a></h2>
+<h2 id="223945520">
+  <a id="1" href="#223945520">1 (бета)</a>
+</h2>
 
 * Ссылки:
   * Twitch: [223945520](https://www.twitch.tv/videos/223945520)
@@ -134,9 +140,11 @@ mpv --sub-file chats/v222913630.ass ytdl://TDy4cbm_twQ
 </details>
 
 <script>
-  if (window.location.hash)
-    if (window.location.hash.replace('#', '') == '1')
-      openPlayer1();
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "223945520")
+    openPlayer1();
+}
 </script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
