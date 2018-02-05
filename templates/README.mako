@@ -37,8 +37,7 @@ ${category['description']}
     % endfor
   % elif category['type'] == 'list':
     % for stream in category['games'][0]['streams']:
-* [${stream['name']}](links/${category['games'][0]['filename']}#\
-${category['games'][0]['streams'].index(stream)})
+* [${stream['name']}](links/${category['games'][0]['filename']}#${stream['twitch']})
     % endfor
   % endif
 
@@ -58,7 +57,7 @@ ${'###'} Стримы без записей
     % if not stream.get('youtube') and not stream.get('direct') and not stream.get('vk') and not stream.get('segments'):
 <% missing = True %>\
 * [${game['name']}](links/${game['filename']}) - \
-[${stream['name']}](links/${game['filename']}#${game['streams'].index(stream)})
+[${stream['name']}](links/${game['filename']}#${stream['twitch']})
     % endif
   % endfor
 % endfor

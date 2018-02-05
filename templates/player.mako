@@ -18,7 +18,7 @@
     % for game in games:
       % for stream in game['streams']:
     case ${stream['twitch']}:
-      url = "/links/${game['filename'].replace('md', 'html')}#${game['streams'].index(stream)}";
+      url = "/links/${game['filename'].replace('md', 'html')}#${stream['twitch']}";
       break;
       % endfor
     % endfor
