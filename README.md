@@ -87,4 +87,3 @@
 
 * [Monster Hunter World](links/monster-hunter-world.md) - [5](links/monster-hunter-world.md#225950740)
 * [Sub-Day и стримы с несколькими играми](links/subday.md) - [5](links/subday.md#225950740)
-* [Первый взгляд](links/first.md) - [Yakuza 6: The Song of Life](links/first.md#226000025)

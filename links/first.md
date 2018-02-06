@@ -423,13 +423,59 @@ mpv --sub-file chats/v219819121.ass ytdl://4tbKXowGdSk
 * Ссылки:
   * Twitch: [226000025](https://www.twitch.tv/videos/226000025)
   * Субтитры: [v226000025.ass](../chats/v226000025.ass)
-  * Запись: отсутствует
+  * Запись (YouTube): [vB4XCZS5PmA](https://www.youtube.com/watch?v=vB4XCZS5PmA)
 
+
+<a onclick="return openPlayer6()" id="button-6">**▶ Открыть плеер**</a>
+
+<script>
+  var player6;
+  function openPlayer6() {
+    player6 = videojs("player-6", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v226000025.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=vB4XCZS5PmA"
+      }]
+    });
+    document.getElementById("spoiler-6").click();
+    document.getElementById("button-6").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-6"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-6" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "6" || id == "226000025")
+    openPlayer6();
+}
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v226000025.ass" --player-passthrough hls twitch.tv/videos/226000025 best
+mpv --sub-file chats/v226000025.ass ytdl://vB4XCZS5PmA
 ```
 
 ---- 
