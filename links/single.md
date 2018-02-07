@@ -599,6 +599,24 @@ mpv --sub-file chats/v224600319.ass ytdl://43q8zNpTCCE
 
 ---- 
  
+<h2 id="226597573">
+  <a id="9" href="#226597573">Shadow of the Colossus</a>
+</h2>
+
+* Ссылки:
+  * Twitch: [226597573](https://www.twitch.tv/videos/226597573)
+  * Субтитры: [v226597573.ass](../chats/v226597573.ass)
+  * Запись: отсутствует
+
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v226597573.ass" --player-passthrough hls twitch.tv/videos/226597573 best
+```
+
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:

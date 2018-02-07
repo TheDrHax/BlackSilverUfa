@@ -35,6 +35,7 @@
 * [Unforgiving: A Northern Hymn](links/single.md#204996737)
 * [DYING: Reborn](links/single.md#219166190)
 * [Remothered: Tormented Fathers](links/single.md#224600319)
+* [Shadow of the Colossus](links/single.md#226597573)
 
 ### В процессе
 
@@ -86,4 +87,5 @@
 Спасибо!
 
 * [Monster Hunter World](links/monster-hunter-world.md) - [5](links/monster-hunter-world.md#225950740)
+* [Полные прохождения за один стрим](links/single.md) - [Shadow of the Colossus](links/single.md#226597573)
 * [Sub-Day и стримы с несколькими играми](links/subday.md) - [5](links/subday.md#225950740)
