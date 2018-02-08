@@ -606,13 +606,59 @@ mpv --sub-file chats/v224600319.ass ytdl://43q8zNpTCCE
 * Ссылки:
   * Twitch: [226597573](https://www.twitch.tv/videos/226597573)
   * Субтитры: [v226597573.ass](../chats/v226597573.ass)
-  * Запись: отсутствует
+  * Запись (YouTube): [S__uO4lckwk](https://www.youtube.com/watch?v=S__uO4lckwk)
 
+
+<a onclick="return openPlayer9()" id="button-9">**▶ Открыть плеер**</a>
+
+<script>
+  var player9;
+  function openPlayer9() {
+    player9 = videojs("player-9", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v226597573.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=S__uO4lckwk"
+      }]
+    });
+    document.getElementById("spoiler-9").click();
+    document.getElementById("button-9").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-9"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-9" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "9" || id == "226597573")
+    openPlayer9();
+}
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v226597573.ass" --player-passthrough hls twitch.tv/videos/226597573 best
+mpv --sub-file chats/v226597573.ass ytdl://S__uO4lckwk
 ```
 
 ---- 
