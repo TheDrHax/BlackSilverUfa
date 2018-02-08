@@ -86,5 +86,4 @@
 работают частично, но я [стараюсь](https://github.com/TheDrHax/BlackSilverUfa/issues/5).
 Спасибо!
 
-* [Monster Hunter World](links/monster-hunter-world.md) - [5](links/monster-hunter-world.md#225950740)
-* [Sub-Day и стримы с несколькими играми](links/subday.md) - [5](links/subday.md#225950740)
+* Все записи на месте. Отлично! :)

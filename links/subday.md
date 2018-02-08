@@ -301,16 +301,62 @@ mpv --sub-file chats/v222198164.ass ytdl://x9NkgWX09L0
 * Ссылки:
   * Twitch: [225950740](https://www.twitch.tv/videos/225950740)
   * Субтитры: [v225950740.ass](../chats/v225950740.ass)
-  * Запись: отсутствует
+  * Запись (YouTube): [uXXquPRJHOw](https://www.youtube.com/watch?v=uXXquPRJHOw)
 * Таймкоды:
   *  <a onclick="player4.currentTime(1620)">27:00</a>  - Monster Hunter World
   *  <a onclick="player4.currentTime(7870)">2:11:10</a>  - My Time at Portia
 
 
+<a onclick="return openPlayer4()" id="button-4">**▶ Открыть плеер**</a>
+
+<script>
+  var player4;
+  function openPlayer4() {
+    player4 = videojs("player-4", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v225950740.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=uXXquPRJHOw"
+      }]
+    });
+    document.getElementById("spoiler-4").click();
+    document.getElementById("button-4").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-4"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-4" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "4" || id == "225950740")
+    openPlayer4();
+}
+</script> 
+
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v225950740.ass" --player-passthrough hls twitch.tv/videos/225950740 best
+mpv --sub-file chats/v225950740.ass ytdl://uXXquPRJHOw
 ```
 
 ---- 
