@@ -883,6 +883,26 @@ mpv --sub-file chats/v225279322.ass --merge-files https://api.thedrhax.pw/vk/vid
 
 ---- 
  
+<h2 id="227264292">
+  <a id="12" href="#227264292">13</a>
+</h2>
+
+* Ссылки:
+  * Twitch: [227264292](https://www.twitch.tv/videos/227264292)
+  * Субтитры: [v227264292.ass](../chats/v227264292.ass)
+  * Запись: отсутствует
+* Таймкоды:
+  *  <a onclick="player12.currentTime(600)">10:00</a>  - Desolate
+
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v227264292.ass" --player-passthrough hls twitch.tv/videos/227264292 best
+```
+
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:
