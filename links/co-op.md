@@ -890,15 +890,61 @@ mpv --sub-file chats/v225279322.ass --merge-files https://api.thedrhax.pw/vk/vid
 * Ссылки:
   * Twitch: [227264292](https://www.twitch.tv/videos/227264292)
   * Субтитры: [v227264292.ass](../chats/v227264292.ass)
-  * Запись: отсутствует
+  * Запись (YouTube): [q1_IvPFs11A](https://www.youtube.com/watch?v=q1_IvPFs11A)
 * Таймкоды:
   *  <a onclick="player12.currentTime(600)">10:00</a>  - Desolate
 
 
+<a onclick="return openPlayer12()" id="button-12">**▶ Открыть плеер**</a>
+
+<script>
+  var player12;
+  function openPlayer12() {
+    player12 = videojs("player-12", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v227264292.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=q1_IvPFs11A"
+      }]
+    });
+    document.getElementById("spoiler-12").click();
+    document.getElementById("button-12").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-12"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-12" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "12" || id == "227264292")
+    openPlayer12();
+}
+</script> 
+
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v227264292.ass" --player-passthrough hls twitch.tv/videos/227264292 best
+mpv --sub-file chats/v227264292.ass ytdl://q1_IvPFs11A
 ```
 
 ---- 

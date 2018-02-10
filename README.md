@@ -86,4 +86,4 @@
 работают частично, но я [стараюсь](https://github.com/TheDrHax/BlackSilverUfa/issues/5).
 Спасибо!
 
-* [Несюжетные коопы](links/co-op.md) - [13](links/co-op.md#227264292)
+* Все записи на месте. Отлично! :)
