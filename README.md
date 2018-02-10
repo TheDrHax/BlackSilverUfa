@@ -62,6 +62,7 @@
 * [Xenoblade Chronicles 2](links/first.md#206933269)
 * [Metal Gear Survive / Getting Over It](links/first.md#219819121)
 * [Yakuza 6: The Song of Life](links/first.md#226000025)
+* [Last Guardian](links/first.md#227626210)
 
 #### Незавершённые
 
@@ -86,4 +87,4 @@
 работают частично, но я [стараюсь](https://github.com/TheDrHax/BlackSilverUfa/issues/5).
 Спасибо!
 
-* Все записи на месте. Отлично! :)
+* [Первый взгляд](links/first.md) - [Last Guardian](links/first.md#227626210)

@@ -480,6 +480,24 @@ mpv --sub-file chats/v226000025.ass ytdl://vB4XCZS5PmA
 
 ---- 
  
+<h2 id="227626210">
+  <a id="7" href="#227626210">Last Guardian</a>
+</h2>
+
+* Ссылки:
+  * Twitch: [227626210](https://www.twitch.tv/videos/227626210)
+  * Субтитры: [v227626210.ass](../chats/v227626210.ass)
+  * Запись: отсутствует
+
+
+#### Команда для просмотра стрима в проигрывателе MPV
+
+```
+streamlink -p "mpv --sub-file chats/v227626210.ass" --player-passthrough hls twitch.tv/videos/227626210 best
+```
+
+---- 
+ 
 Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
 
 Быстрый старт:
