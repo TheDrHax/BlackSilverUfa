@@ -487,13 +487,54 @@ mpv --sub-file chats/v226000025.ass ytdl://vB4XCZS5PmA
 * Ссылки:
   * Twitch: [227626210](https://www.twitch.tv/videos/227626210)
   * Субтитры: [v227626210.ass](../chats/v227626210.ass)
-  * Запись: отсутствует
+  * Запись (ВКонтакте): [87862793_456241111](https://vk.com/video87862793_456241111)
 
+
+<a onclick="return openPlayer7()" id="button-7">**▶ Открыть плеер**</a>
+
+<script>
+  var player7;
+  function openPlayer7() {
+    player7 = videojs("player-7", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v227626210.ass"],
+          delay: -0.1,
+        },
+      },
+      sources: [{
+        "type": "video/mp4",
+        "src": "https://api.thedrhax.pw/vk/video/87862793_456241111?redirect"
+      }]
+    });
+    document.getElementById("spoiler-7").click();
+    document.getElementById("button-7").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-7"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-7" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "7" || id == "227626210")
+    openPlayer7();
+}
+</script> 
 
 #### Команда для просмотра стрима в проигрывателе MPV
 
 ```
-streamlink -p "mpv --sub-file chats/v227626210.ass" --player-passthrough hls twitch.tv/videos/227626210 best
+mpv --sub-file chats/v227626210.ass https://api.thedrhax.pw/vk/video/87862793_456241111\?redirect
 ```
 
 ---- 

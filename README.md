@@ -87,4 +87,4 @@
 работают частично, но я [стараюсь](https://github.com/TheDrHax/BlackSilverUfa/issues/5).
 Спасибо!
 
-* [Первый взгляд](links/first.md) - [Last Guardian](links/first.md#227626210)
+* Все записи на месте. Отлично! :)
