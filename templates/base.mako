@@ -6,6 +6,7 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/static/style.css">
+    <%block name="head" />
   </head>
   <body>
     <section class="page-header">
@@ -21,9 +22,7 @@
     </section>
 
     <section class="main-content">
-      <%block name="content">
-          Nothing here :O
-      </%block>
+      <%block name="content" />
 
       <footer class="site-footer">
         % if config.get('github'):
