@@ -25,19 +25,6 @@
 <a href="https://addons.mozilla.org/en-US/firefox/addon/globaltwitchemotes/">Firefox</a>.
 </p>
 
-<h2>Инструкции</h2>
-
-<ul>
-  <li>
-    <a href="tutorials/subtitles.md">Как скачать чат в виде субтитров?</a>
-  </li>
-  <li>
-    <a href="tutorials/watch-online.md">Как посмотреть запись стрима с субтитрами?</a>
-  </li>
-</ul>
-
-<h2>Архив</h2>
-
 % for category in categories:
   ## Заголовок категории
   <%self:header level="${category['level']}">
@@ -74,7 +61,7 @@
 
 <hr>
 
-<h3>Стримы без записей</h3>
+<h2>Стримы без записей</h2>
 
 <p>
 Если у вас есть ссылка на запись любого из этих стримов, сообщите мне через раздел
