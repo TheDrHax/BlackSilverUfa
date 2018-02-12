@@ -2,7 +2,7 @@
   {
     "name": "Black Mirror",
     "category": "finished",
-    "filename": "black-mirror.md",
+    "filename": "black-mirror.html",
     "streams": [
       { "name": "1", "twitch": "205262158" },
       { "name": "2", "start": "3:07:00", "twitch": "206091904" }
@@ -11,7 +11,7 @@
   {
     "name": "Несюжетные коопы",
     "category": "other",
-    "filename": "co-op.md",
+    "filename": "co-op.html",
     "streams": [
       { "name": "1", "twitch": "180663832" },
       { "name": "2", "twitch": "182448131" },
@@ -31,7 +31,7 @@
   {
     "name": "Darkwood",
     "category": "finished",
-    "filename": "darkwood.md",
+    "filename": "darkwood.html",
     "streams": [
       { "name": "1", "twitch": "172968603" },
       { "name": "2", "twitch": "176397641" },
@@ -49,7 +49,7 @@
   {
     "name": "неПрофессиональный E3 2017",
     "category": "other",
-    "filename": "e3_2017.md",
+    "filename": "e3_2017.html",
     "streams": [
       { "name": "1 (EA)", "twitch": "150938572" },
       { "name": "2 (Microsoft)", "twitch": "151197837" },
@@ -63,7 +63,7 @@
   {
     "name": "The Evil Within",
     "category": "finished",
-    "filename": "evil_within.md",
+    "filename": "evil_within.html",
     "streams": [
       { "name": "1", "twitch": "160844876" },
       { "name": "1.5", "twitch": "160852861" },
@@ -79,7 +79,7 @@
   {
     "name": "Hellblade: Senua's Sacrifice",
     "category": "finished",
-    "filename": "hellblade.md",
+    "filename": "hellblade.html",
     "streams": [
       { "name": "1", "twitch": "165359272" },
       { "name": "2", "twitch": "165630859" }
@@ -88,7 +88,7 @@
   {
     "name": "Middle-earth: Shadow of War",
     "category": "abandoned",
-    "filename": "middle_earth.md",
+    "filename": "middle_earth.html",
     "streams": [
       { "name": "1", "twitch": "181166703" },
       { "name": "2", "twitch": "181408745" },
@@ -98,7 +98,7 @@
   {
     "name": "Monster Hunter World",
     "category": "infinite",
-    "filename": "monster-hunter-world.md",
+    "filename": "monster-hunter-world.html",
     "streams": [
       { "name": "1", "twitch": "208349646" },
       { "name": "2", "twitch": "222538863" },
@@ -110,7 +110,7 @@
   {
     "name": "NieR Automata",
     "category": "ongoing",
-    "filename": "nier-automata.md",
+    "filename": "nier-automata.html",
     "streams": [
       { "name": "1", "twitch": "215612485" },
       { "name": "2", "twitch": "215625839" },
@@ -125,7 +125,7 @@
   {
     "name": "Outlast 2 с Дашей",
     "category": "ongoing",
-    "filename": "outlast_2_dw.md",
+    "filename": "outlast_2_dw.html",
     "streams": [
       { "name": "1", "twitch": "174697007" },
       { "name": "2", "twitch": "186799946" }
@@ -134,7 +134,7 @@
   {
     "name": "Persona 5",
     "category": "infinite",
-    "filename": "persona_5.md",
+    "filename": "persona_5.html",
     "streams": [
       { "name": "1", "twitch": "135797319" },
       { "name": "2", "twitch": "136865997" },
@@ -149,7 +149,7 @@
   {
     "name": "Prey",
     "category": "finished",
-    "filename": "prey.md",
+    "filename": "prey.html",
     "streams": [
       { "name": "1", "twitch": "140288888" },
       { "name": "2", "twitch": "140295699" },
@@ -162,7 +162,7 @@
   {
     "name": "Resident Evil 4",
     "category": "finished",
-    "filename": "re4.md",
+    "filename": "re4.html",
     "streams": [
       { "name": "1", "twitch": "164633577" },
       { "name": "2", "start": "2:30:15", "twitch": "165630859" },
@@ -175,7 +175,7 @@
   {
     "name": "Полные прохождения за один стрим",
     "category": "single",
-    "filename": "single.md",
+    "filename": "single.html",
     "streams": [
       { "name": "Michigan: Report from Hell", "twitch": "152253862" },
       { "name": "Absolver", "twitch": "174225353" },
@@ -192,7 +192,7 @@
   {
     "name": "Sub-Day и стримы с несколькими играми",
     "category": "other",
-    "filename": "subday.md",
+    "filename": "subday.html",
     "streams": [
       { "name": "1", "twitch": "180397849" },
       { "name": "2", "twitch": "212431882" },
@@ -204,7 +204,7 @@
   {
     "name": "Super Mario Odyssey",
     "category": "infinite",
-    "filename": "super-mario-odyssey.md",
+    "filename": "super-mario-odyssey.html",
     "streams": [
       { "name": "1", "twitch": "185763905" },
       { "name": "2", "start": "3:10:20", "twitch": "200401270" },
@@ -215,7 +215,7 @@
   {
     "name": "The Legend of Zelda: Breath of the Wild",
     "category": "finished",
-    "filename": "tloz_botw.md",
+    "filename": "tloz_botw.html",
     "streams": [
       { "name": "1", "twitch": "126330909" },
       { "name": "2", "twitch": "126599870" },
@@ -242,7 +242,7 @@
   {
     "name": "White Day: A Labyrinth Named School",
     "category": "finished",
-    "filename": "white_day.md",
+    "filename": "white_day.html",
     "streams": [
       { "name": "1", "start": "2:41:31", "twitch": "172968603" },
       { "name": "2", "start": "2:49:40", "twitch": "176397641" },
@@ -254,7 +254,7 @@
   {
     "name": "Demon's Souls",
     "category": "ongoing",
-    "filename": "demons-souls.md",
+    "filename": "demons-souls.html",
     "streams": [
       { "name": "1.1", "twitch": "217814961" },
       { "name": "1.2", "twitch": "217852593" },
@@ -264,7 +264,7 @@
   {
     "name": "IRL",
     "category": "other",
-    "filename": "events.md",
+    "filename": "events.html",
     "streams": [
       { "name": "Сборка кресла", "twitch": "219463387" }
     ]
@@ -272,7 +272,7 @@
   {
     "name": "SCP Containment Breach",
     "category": "infinite",
-    "filename": "scp-cb.md",
+    "filename": "scp-cb.html",
     "streams": [
       { "name": "1", "twitch": "215974261" },
       { "name": "2", "twitch": "220513992" }
@@ -281,7 +281,7 @@
   {
     "name": "Sea of Thieves",
     "category": "infinite",
-    "filename": "sea-of-thieves.md",
+    "filename": "sea-of-thieves.html",
     "streams": [
       { "name": "0 (не получилось)", "twitch": "222913630" },
       { "name": "1 (бета)", "twitch": "223945520" }
@@ -290,7 +290,7 @@
   {
     "name": "Первый взгляд",
     "category": "first",
-    "filename": "first.md",
+    "filename": "first.html",
     "streams": [
       { "name": "The Legend of Zelda: Twilight Princess HD", "twitch": "163612448" },
       { "name": "Divinity: Original Sin II", "twitch": "175198877" },
