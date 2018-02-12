@@ -1,4 +1,4 @@
-node('python-pip') {
+node('python3 && pip') {
     String cred_git = 'GitHub'
     String cred_github = 'GitHub-Token'
 
@@ -9,7 +9,7 @@ node('python-pip') {
     String repo_url = 'git@github.com:' + github_account + '/' + github_repo + '.git'
 
     String reused = 'chats'
-    String outputs = 'chats links src README.md'
+    String outputs = 'chats links src static index.html'
 
 
     stage('Pull') {

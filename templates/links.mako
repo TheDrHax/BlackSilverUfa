@@ -1,3 +1,7 @@
+<%inherit file="base.mako" />
+<%namespace file="markdown.mako" name="md" />
+
+<%block name="content">
 <%
   def sec(t):
     return sum(int(x) * 60 ** i for i,x in enumerate(reversed(t.split(":"))))
@@ -26,23 +30,29 @@
 
 <%def name="source_link(stream, text=u'Запись')">\
 % if stream.get('youtube'):
-  * ${text} (YouTube): [${stream['youtube']}](https://www.youtube.com/watch?v=${stream['youtube']})\
+  <li>${text} (YouTube): <a href="https://www.youtube.com/watch?v=${stream['youtube']}">${stream['youtube']}</a></li>
 % elif stream.get('vk'):
-  * ${text} (ВКонтакте): [${stream['vk']}](https://vk.com/video${stream['vk']})\
+  <li>${text} (ВКонтакте): <a href="https://vk.com/video${stream['vk']}">${stream['vk']}</a></li>
 % elif stream.get('direct'):
-  * ${text}: [прямая ссылка](${stream['direct']})\
+  <li>${text}: <a href="${stream['direct']}">прямая ссылка</a></li>
 % elif stream.get('segments'):
-  * Запись сегментирована:
+  <li>Запись сегментирована:</li>
+  <ul>
   % for segment in stream['segments']:
     ${source_link(segment, text=u'Часть {}'.format(stream['segments'].index(segment)+1))}
   % endfor
+  </ul>
 % else:
-  * ${text}: отсутствует\
+  <li>${text}: отсутствует</li>
 % endif
 </%def>
 
 <%def name="player(id, stream, text=u'Открыть плеер')">
-<a onclick="return openPlayer${id}()" id="button-${id}">**▶ ${text}**</a>
+<p>
+  <a onclick="return openPlayer${id}()" id="button-${id}">
+    <b>▶ ${text}</b>
+  </a>
+</p>
 
 <script>
   var player${id};
@@ -117,7 +127,7 @@ if (window.location.hash) {
   if (id == "${id}" || id == "${stream['twitch']}")
     openPlayer${id}();
 }
-</script> \
+</script>
 </%def>
 
 <%def name="gen_stream(id, stream)">
@@ -125,29 +135,35 @@ if (window.location.hash) {
   <a id="${id}" href="#${stream['twitch']}">${stream['name']}</a>
 </h2>
 
+<ul>
 % if stream.get('note'):
-* Примечание: ${stream['note']}
+  <li>Примечание: ${stream['note']}</li>
 % endif
-* Ссылки:
-  * Twitch: [${stream['twitch']}](https://www.twitch.tv/videos/${stream['twitch']})
-  * Субтитры: [v${stream['twitch']}.ass](../chats/v${stream['twitch']}.ass)
-${source_link(stream)}
+  <li>Ссылки:</li>
+  <ul>
+    <li>Twitch: <a href="https://www.twitch.tv/videos/${stream['twitch']}">${stream['twitch']}</a></li>
+    <li>Субтитры: <a href="../chats/v${stream['twitch']}.ass">v${stream['twitch']}.ass</a></li>
+    ${source_link(stream)}
+  </ul>
 % if stream.get('timecodes'):
 % if stream.get('segments'):
-* Таймкоды (работают только в пределах первой части, см. [#5](https://github.com/TheDrHax/BlackSilverUfa/issues/5))
+  <li>Таймкоды (работают только в пределах первой части, см. <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/5">#5</a>)</li>
 % else:
-* Таймкоды:
+  <li>Таймкоды:</li>
 % endif
+  <ul>
   % for timecode in stream['timecodes']:
-  * ${timecode_link(id, timecode[0])} - ${timecode[1]}
+    <li>${timecode_link(id, timecode[0])} - ${timecode[1]}</li>
   % endfor
+  </ul>
 % endif
 % if stream.get('start'):
-* Стрим начинается с ${timecode_link(id, stream['start'])}
+  <li>Стрим начинается с ${timecode_link(id, stream['start'])}</li>
 % endif
 % if stream.get('end'):
-* Стрим заканчивается в ${timecode_link(id, stream['end'])}
+  <li>Стрим заканчивается в ${timecode_link(id, stream['end'])}</li>
 % endif
+</ul>
 
 % if stream.get('youtube') or stream.get('direct') or stream.get('vk'):
 ${player(id, stream)}
@@ -162,17 +178,17 @@ ${player(segment_id, segment, text=u'Часть {}'.format(segment_index+1))}
 % endfor
 % endif
 
-${'####'} Команда для просмотра стрима в проигрывателе MPV
+<h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
-```
+<%md:code_block>\
 % if mpv_compatible(stream):
 mpv --sub-file chats/v${stream['twitch']}.ass ${mpv_args(stream)}
 % else:
 streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
 % endif
-```
+</%md:code_block>
 
----- \
+<hr>
 </%def>
 
 <!-- jQuery -->
@@ -198,17 +214,20 @@ streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrou
   }
 </style>
 
-${'#'} ${game['name']}
+<h1>${game['name']}</h1>
 <% id = 0 %> \
 % for stream in game['streams']:
 ${gen_stream(id, stream)}
 <% id += 1 %> \
 % endfor
 
-Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по [этой](../tutorials/watch-online.md) инструкции.
+<p>Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по <a href="../tutorials/watch-online.md">этой</a> инструкции.</p>
 
-Быстрый старт:
-* `git clone https://github.com/TheDrHax/BlackSilverUfa.git`
-* `cd BlackSilverUfa`
-* `git checkout gh-pages`
-* Команда, приведённая выше
+<p>Быстрый старт:</p>
+<ul>
+  <li><%md:code>git clone https://github.com/TheDrHax/BlackSilverUfa.git</%md:code></li>
+  <li><%md:code>cd BlackSilverUfa</%md:code></li>
+  <li><%md:code>git checkout gh-pages</%md:code></li>
+  <li>Команда, приведённая выше</li>
+</ul>
+</%block>
