@@ -1,6 +1,32 @@
 <%inherit file="base.mako" />
 <%namespace file="markdown.mako" name="md" />
 
+<%block name="head">
+<title>${game['name']} | ${config['title']}</title>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- video.js -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
+<!-- videojs-youtube -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.4.1/Youtube.js"></script>
+<!-- libjass -->
+<link href="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.js"></script>
+<!-- videojs-ass -->
+<link href="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.js"></script>
+<!-- videojs-resolution-switcher -->
+<script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
+
+<style>
+.main-content {
+  padding: 2rem;
+  max-width: 72rem;
+}
+</style>
+</%block>
+
 <%block name="content">
 <%
   def sec(t):
@@ -190,29 +216,6 @@ streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrou
 
 <hr>
 </%def>
-
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<!-- video.js -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
-<!-- videojs-youtube -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.4.1/Youtube.js"></script>
-<!-- libjass -->
-<link href="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.js"></script>
-<!-- videojs-ass -->
-<link href="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.js"></script>
-<!-- videojs-resolution-switcher -->
-<script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
-
-<style>
-  .main-content {
-    padding: 2rem;
-    max-width: 72rem;
-  }
-</style>
 
 <h1>${game['name']}</h1>
 <% id = 0 %> \

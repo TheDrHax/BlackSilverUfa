@@ -4,6 +4,10 @@
 <h${level}>${caller.body()}</h${level}>\
 </%def>
 
+<%block name="head">
+<title>Главная страница | ${config['title']}</title>
+</%block>
+
 <%block name="content">
 <%
   def count_format(i):
