@@ -4,8 +4,8 @@ node('docker && git') {
 
     String github_account = 'TheDrHax'
     String github_repo = 'BlackSilverUfa'
-    String input_branch = 'ruby-drop'
-    String output_branch = 'gh-pages-test'
+    String input_branch = 'master'
+    String output_branch = 'gh-pages'
 
     String repo_url = 'git@github.com:' + github_account + '/' + github_repo + '.git'
 
