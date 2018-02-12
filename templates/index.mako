@@ -22,11 +22,19 @@
 <h1>Архив чата BlackUFA_Twitch</h1>
 
 <p>
-В этот репозиторий будет выборочно помещаться история соообщений из чата на
-определённых стримах в формате субтитров ASS. Поддерживаются цвета ников, а
-также смайлы (!) с расширением Global Twitch Emotes:
-<a href="https://chrome.google.com/webstore/detail/global-twitch-emotes/pgniedifoejifjkndekolimjeclnokkb">Chrome</a>,
-<a href="https://addons.mozilla.org/en-US/firefox/addon/globaltwitchemotes/">Firefox</a>.
+Этот сайт (и соответствующий ему репозиторий) содержит архив чата Twitch-канала
+<a href="https://www.twitch.tv/blackufa_twitch/">BlackUFA_Twitch</a>. Чат хранится
+в виде субтитров формата ASS, что позволяет накладывать сообщения поверх видео в
+практически любом плеере.
+</p>
+
+<p>
+Архив также содержит ссылки на постоянные записи с возможностью онлайн просмотра.
+Встроенный плеер не только поддерживает воспроизведение видео, но и автоматически
+накладывает соответствующие субтитры. А если у вас установлено расширение Global
+Twitch Emotes (<a href="https://chrome.google.com/webstore/detail/global-twitch-emotes/pgniedifoejifjkndekolimjeclnokkb">Chrome</a>,
+<a href="https://addons.mozilla.org/en-US/firefox/addon/globaltwitchemotes/">Firefox</a>),
+то в сообщениях даже будут видны смайлы! <img src="https://static-cdn.jtvnw.net/emoticons/v1/777635/1.0" />
 </p>
 
 % for category in categories:

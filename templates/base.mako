@@ -25,18 +25,20 @@
       <%block name="content" />
 
       <footer class="site-footer">
-        % if config.get('github'):
-          <span class="site-footer-owner">
-            Репозиторий
-            <a href="https://github.com/${config['github']['user']}/${config['github']['repo']}/">
-              ${config['github']['repo']}
-            </a>
-            поддерживается пользователем
-            <a href="https://github.com/${config['github']['user']}/">
-              ${config['github']['user']}
-            </a>.
-          </span>
-        % endif
+        <span class="site-footer-owner">
+          Репозиторий
+          <a href="https://github.com/${config['github']['user']}/${config['github']['repo']}/">
+            ${config['github']['repo']}
+          </a>
+          поддерживается силами
+          <a href="https://github.com/${config['github']['user']}/">
+            ${config['github']['user']}
+          </a>.
+        </span>
+        <span class="site-footer-credits">
+          Весь контент принадлежит <a href="https://www.youtube.com/user/BlackSilverUfa">Артуру Блэку</a>.<br>
+          Распространение ссылок на Архив под записями на YouTube было одобрено в <a href="/static/images/answer.jpg">комментарии</a>.
+        </span>
       </footer>
     </section>
   </body>
