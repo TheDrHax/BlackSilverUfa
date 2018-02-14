@@ -620,7 +620,7 @@ if (window.location.hash) {
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/227626210">227626210</a></li>
     <li>Субтитры: <a href="../chats/v227626210.ass">v227626210.ass</a></li>
-      <li>Запись (ВКонтакте): <a href="https://vk.com/video87862793_456241111">87862793_456241111</a></li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=P-AL-tuG7uA">P-AL-tuG7uA</a></li>
 
   </ul>
 </ul>
@@ -643,10 +643,15 @@ if (window.location.hash) {
           src: ["../chats/v227626210.ass"],
           delay: -0.1,
         },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
       },
+      techOrder: ["youtube"],
       sources: [{
-        "type": "video/mp4",
-        "src": "https://api.thedrhax.pw/vk/video/87862793_456241111?redirect"
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=P-AL-tuG7uA"
       }]
     });
     document.getElementById("spoiler-7").click();
@@ -676,7 +681,7 @@ if (window.location.hash) {
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file chats/v227626210.ass https://api.thedrhax.pw/vk/video/87862793_456241111\?redirect
+  <pre class="highlight"><code>mpv --sub-file chats/v227626210.ass ytdl://P-AL-tuG7uA
 </code></pre>
 </div></div>
 
