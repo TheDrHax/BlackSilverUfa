@@ -210,6 +210,84 @@ if (window.location.hash) {
 <hr>
 
  
+<h2 id="229064961">
+  <a id="2" href="#229064961">3</a>
+</h2>
+
+<ul>
+  <li>Ссылки:</li>
+  <ul>
+    <li>Twitch: <a href="https://www.twitch.tv/videos/229064961">229064961</a></li>
+    <li>Субтитры: <a href="../chats/v229064961.ass">v229064961.ass</a></li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=V_MelwKC20g">V_MelwKC20g</a></li>
+
+  </ul>
+</ul>
+
+
+<p>
+  <a onclick="return openPlayer2()" id="button-2">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<script>
+  var player2;
+  function openPlayer2() {
+    player2 = videojs("player-2", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v229064961.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=V_MelwKC20g"
+      }]
+    });
+    document.getElementById("spoiler-2").click();
+    document.getElementById("button-2").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-2"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-2" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "2" || id == "229064961")
+    openPlayer2();
+}
+</script>
+
+
+<h4>Команда для просмотра стрима в проигрывателе MPV</h4>
+
+
+<div class="highlighter-rouge"><div class="highlight">
+  <pre class="highlight"><code>mpv --sub-file chats/v229064961.ass ytdl://V_MelwKC20g
+</code></pre>
+</div></div>
+
+
+<hr>
+
+ 
 <p>Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по <a href="../tutorials/watch-online.md">этой</a> инструкции.</p>
 
 <p>Быстрый старт:</p>
