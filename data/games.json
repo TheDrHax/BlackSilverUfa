@@ -318,10 +318,11 @@
   },
   {
     "name": "Metal Gear Survive",
-    "category": "ongoing",
+    "category": "abandoned",
     "filename": "metal-gear-survive.html",
     "streams": [
-      { "name": "0", "twitch": "219819121" }
+      { "name": "0", "twitch": "219819121" },
+      { "name": "1", "twitch": "231626788" }
     ]
   }
 ]
