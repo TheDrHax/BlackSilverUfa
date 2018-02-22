@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/static/style.css">
+    
+<title>Metal Gear Survive | Архив чата BlackUFA_Twitch</title>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- video.js -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
+<!-- videojs-youtube -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.4.1/Youtube.js"></script>
+<!-- libjass -->
+<link href="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.js"></script>
+<!-- videojs-ass -->
+<link href="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.js"></script>
+<!-- videojs-resolution-switcher -->
+<script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
+
+<style>
+.main-content {
+  padding: 2rem;
+  max-width: 72rem;
+}
+</style>
+
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Архив чата BlackUFA_Twitch</h1>
+        <a href="https://github.com/TheDrHax/BlackSilverUfa/" class="btn">
+          Исходный код на GitHub
+        </a>
+    </section>
+
+    <section class="main-content">
+      
+
+
+
+
+
+
+
+
+
+
+<h1>Metal Gear Survive</h1>
+ 
+<h2 id="219819121">
+  <a id="0" href="#219819121">0</a>
+</h2>
+
+<ul>
+  <li>Примечание: Twitch удалил некоторые участки звуковой дорожки (см. таймкоды)</li>
+  <li>Ссылки:</li>
+  <ul>
+    <li>Twitch: <a href="https://www.twitch.tv/videos/219819121">219819121</a></li>
+    <li>Субтитры: <a href="../chats/v219819121.ass">v219819121.ass</a></li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=4tbKXowGdSk">4tbKXowGdSk</a></li>
+
+  </ul>
+  <li>Таймкоды:</li>
+  <ul>
+    <li> <a onclick="player0.currentTime(1200)">20:00</a>  - Metal Gear Survive</li>
+    <li> <a onclick="player0.currentTime(5010)">1:23:30</a>  - Metal Gear Survive (ко-оп со зрителями)</li>
+    <li> <a onclick="player0.currentTime(6720)">1:52:00</a>  - Getting Over It</li>
+    <li> <a onclick="player0.currentTime(12412)">3:26:52</a>  - - уши</li>
+    <li> <a onclick="player0.currentTime(12790)">3:33:10</a>  - + уши</li>
+    <li> <a onclick="player0.currentTime(13170)">3:39:30</a>  - - уши</li>
+    <li> <a onclick="player0.currentTime(13890)">3:51:30</a>  - + уши</li>
+  </ul>
+</ul>
+
+
+<p>
+  <a onclick="return openPlayer0()" id="button-0">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<script>
+  var player0;
+  function openPlayer0() {
+    player0 = videojs("player-0", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v219819121.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=4tbKXowGdSk"
+      }]
+    });
+    document.getElementById("spoiler-0").click();
+    document.getElementById("button-0").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-0"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "219819121")
+    openPlayer0();
+}
+</script>
+
+
+<h4>Команда для просмотра стрима в проигрывателе MPV</h4>
+
+
+<div class="highlighter-rouge"><div class="highlight">
+  <pre class="highlight"><code>mpv --sub-file chats/v219819121.ass ytdl://4tbKXowGdSk
+</code></pre>
+</div></div>
+
+
+<hr>
+
+ 
+<p>Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по <a href="../tutorials/watch-online.md">этой</a> инструкции.</p>
+
+<p>Быстрый старт:</p>
+<ul>
+  <li>
+<code class="highlighter-rouge">git clone https://github.com/TheDrHax/BlackSilverUfa.git</code>
+</li>
+  <li>
+<code class="highlighter-rouge">cd BlackSilverUfa</code>
+</li>
+  <li>
+<code class="highlighter-rouge">git checkout gh-pages</code>
+</li>
+  <li>Команда, приведённая выше</li>
+</ul>
+
+
+      <footer class="site-footer">
+        <span class="site-footer-owner">
+          Репозиторий
+          <a href="https://github.com/TheDrHax/BlackSilverUfa/">
+            BlackSilverUfa
+          </a>
+          поддерживается силами
+          <a href="https://github.com/TheDrHax/">
+            TheDrHax
+          </a>.
+        </span>
+        <span class="site-footer-credits">
+          Весь контент принадлежит <a href="https://www.youtube.com/user/BlackSilverUfa">Артуру Блэку</a>.<br>
+          Распространение ссылок на Архив под записями на YouTube было одобрено в <a href="/static/images/answer.jpg">комментарии</a>.
+        </span>
+      </footer>
+    </section>
+  </body>
+</html>
