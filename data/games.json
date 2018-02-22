@@ -298,7 +298,7 @@
       { "name": "Home Sweet Home", "twitch": "178108639" },
       { "name": "Cuphead", "twitch": "178361269" },
       { "name": "Xenoblade Chronicles 2", "twitch": "206933269" },
-      { "name": "Metal Gear Survive / Getting Over It", "twitch": "219819121" },
+      { "name": "Getting Over It", "twitch": "219819121", "start": "1:52:00" },
       { "name": "Yakuza 6: The Song of Life", "twitch": "226000025" },
       { "name": "Last Guardian", "twitch": "227626210" }
     ]
@@ -314,6 +314,14 @@
       { "name": "4", "twitch": "229286098" },
       { "name": "5", "twitch": "229619716" },
       { "name": "6", "twitch": "230991137" }
+    ]
+  },
+  {
+    "name": "Metal Gear Survive",
+    "category": "ongoing",
+    "filename": "metal-gear-survive.html",
+    "streams": [
+      { "name": "0", "twitch": "219819121" }
     ]
   }
 ]
