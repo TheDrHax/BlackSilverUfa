@@ -152,17 +152,68 @@ if (window.location.hash) {
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/231626788">231626788</a></li>
     <li>Субтитры: <a href="../chats/v231626788.ass">v231626788.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=lRQvjSeUD2s">lRQvjSeUD2s</a></li>
 
   </ul>
 </ul>
+
+
+<p>
+  <a onclick="return openPlayer1()" id="button-1">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<script>
+  var player1;
+  function openPlayer1() {
+    player1 = videojs("player-1", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v231626788.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=lRQvjSeUD2s"
+      }]
+    });
+    document.getElementById("spoiler-1").click();
+    document.getElementById("button-1").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-1"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "1" || id == "231626788")
+    openPlayer1();
+}
+</script>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file chats/v231626788.ass" --player-passthrough hls twitch.tv/videos/231626788 best
+  <pre class="highlight"><code>mpv --sub-file chats/v231626788.ass ytdl://lRQvjSeUD2s
 </code></pre>
 </div></div>
 
