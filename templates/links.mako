@@ -38,7 +38,7 @@
            return True
     return False
 
-  def mpv_args(stream):
+  def mpv_file(stream):
     if stream.get('youtube'):
       return 'ytdl://' + stream['youtube']
     elif stream.get('vk'):
@@ -46,8 +46,17 @@
     elif stream.get('direct'):
       return stream['direct']
     elif stream.get('segments'):
-      segments = [mpv_args(segment) for segment in stream['segments']]
+      segments = [mpv_file(segment) for segment in stream['segments']]
       return '--merge-files ' + ' '.join(segments)
+
+  def mpv_args(stream):
+    result = '--sub-file=chats/v{}.ass '.format(stream['twitch'])
+
+    if stream.get('subtitle_offset'):
+      result += '--sub-delay=-{} '.format(sec(stream['subtitle_offset']))
+
+    return result.strip()
+
 %>
 
 <%def name="timecode_link(id, timecode)"> \
@@ -208,9 +217,9 @@ ${player(segment_id, segment, text=u'Часть {}'.format(segment_index+1))}
 
 <%md:code_block>\
 % if mpv_compatible(stream):
-mpv --sub-file chats/v${stream['twitch']}.ass ${mpv_args(stream)}
+mpv ${mpv_args(stream)} ${mpv_file(stream)}
 % else:
-streamlink -p "mpv --sub-file chats/v${stream['twitch']}.ass" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
+streamlink -p "mpv ${mpv_args(stream)}" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
 % endif
 </%md:code_block>
 
