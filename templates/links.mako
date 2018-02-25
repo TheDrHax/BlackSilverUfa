@@ -247,7 +247,7 @@ streamlink -p "mpv ${mpv_args(stream)}" --player-passthrough hls twitch.tv/video
 <hr>
 </%def>
 
-<h1>${game['name']}</h1>
+<h1><a href="/">Архив</a> → ${game['name']}</h1>
 <% id = 0 %> \
 % for stream in game['streams']:
 ${gen_stream(id, stream)}
