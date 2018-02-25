@@ -118,12 +118,12 @@
       }]
     });
 
+    % if stream.get('start'):
     // Seek to specific position on first start of the video
     player${id}.on('ready', function(event) {
-      % if stream.get('start'):
       player${id}.seek(${sec(stream['start'])});
-      % endif
     });
+    % endif
 
     // Connect Subtitles Octopus to video
     subs${id} = new SubtitlesOctopus({
