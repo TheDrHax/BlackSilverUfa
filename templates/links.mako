@@ -3,6 +3,8 @@
 
 <%block name="head">
 <title>${game['name']} | ${config['title']}</title>
+
+<script src="/static/js/utils.js"></script>
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
@@ -160,6 +162,7 @@
     player${id}.on('ready', subResize);
     player${id}.on('enterfullscreen', subResize);
     player${id}.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
     % endif
 
     document.getElementById("spoiler-${id}").click();
