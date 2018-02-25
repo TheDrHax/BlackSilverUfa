@@ -9,20 +9,12 @@
     
 <title>NieR Automata | Архив чата BlackUFA_Twitch</title>
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<!-- video.js -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
-<!-- videojs-youtube -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.4.1/Youtube.js"></script>
-<!-- libjass -->
-<link href="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.js"></script>
-<!-- videojs-ass -->
-<link href="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.js"></script>
-<!-- videojs-resolution-switcher -->
-<script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Plyr (https://github.com/sampotts/plyr) -->
+<link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
+<script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
+<!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
+<script src="/static/js/subtitles-octopus.js"></script>
 
 <style>
 .main-content {
@@ -52,7 +44,7 @@
 
 
 
-<h1>NieR Automata</h1>
+<h1><a href="/">Архив</a> → NieR Automata</h1>
  
 <h2 id="215612485">
   <a id="0" href="#215612485">1</a>
@@ -76,29 +68,61 @@
 </p>
 
 <script>
-  var player0;
+  var player0, subs0;
+
   function openPlayer0() {
-    player0 = videojs("player-0", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v215612485.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
+    player0 = plyr.setup('#player-0', {
+    })[0];
+
+
+    // Set video source
+    player0.source({
+      type: 'video',
       sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=PSFYqx5cHvk"
+        type: 'youtube',
+        src: "PSFYqx5cHvk"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player0.on('ready', function(event) {
+    });
+
+    // Connect Subtitles Octopus to video
+    subs0 = new SubtitlesOctopus({
+      video: player0.getMedia(),
+      subUrl: "/chats/v215612485.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+    });
+
+    // Fix subtitles position on first start of the video
+    player0.on('play', function(event) {
+      subs0.resize();
+    });
+
+    // Fix Subtitles Octopus to work with embedded YouTube videos
+    // TODO: Fix subtitles position in fullscreen mode
+    function subResize(event) {
+      var e_sub = subs0.canvas;
+      var e_vid = player0.getMedia();
+
+      e_sub.style.display = "block";
+      e_sub.style.top = 0;
+      e_sub.style.position = "absolute";
+      e_sub.style.pointerEvents = "none";
+
+      e_sub.width = e_vid.clientWidth;
+      e_sub.height = e_vid.clientHeight;
+
+      subs0.resize(e_sub.width, e_sub.height);
+    }
+    player0.on('ready', subResize);
+    player0.on('enterfullscreen', subResize);
+    player0.on('exitfullscreen', subResize);
+
     document.getElementById("spoiler-0").click();
     document.getElementById("button-0").remove();
+
     return false;
   }
 </script>
@@ -107,7 +131,7 @@
   <summary id="spoiler-0"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-0"></video>
   </div>
 </details>
 
@@ -154,29 +178,61 @@ if (window.location.hash) {
 </p>
 
 <script>
-  var player1;
+  var player1, subs1;
+
   function openPlayer1() {
-    player1 = videojs("player-1", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v215625839.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
+    player1 = plyr.setup('#player-1', {
+    })[0];
+
+
+    // Set video source
+    player1.source({
+      type: 'video',
       sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=1KJ_lUDyyVU"
+        type: 'youtube',
+        src: "1KJ_lUDyyVU"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player1.on('ready', function(event) {
+    });
+
+    // Connect Subtitles Octopus to video
+    subs1 = new SubtitlesOctopus({
+      video: player1.getMedia(),
+      subUrl: "/chats/v215625839.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+    });
+
+    // Fix subtitles position on first start of the video
+    player1.on('play', function(event) {
+      subs1.resize();
+    });
+
+    // Fix Subtitles Octopus to work with embedded YouTube videos
+    // TODO: Fix subtitles position in fullscreen mode
+    function subResize(event) {
+      var e_sub = subs1.canvas;
+      var e_vid = player1.getMedia();
+
+      e_sub.style.display = "block";
+      e_sub.style.top = 0;
+      e_sub.style.position = "absolute";
+      e_sub.style.pointerEvents = "none";
+
+      e_sub.width = e_vid.clientWidth;
+      e_sub.height = e_vid.clientHeight;
+
+      subs1.resize(e_sub.width, e_sub.height);
+    }
+    player1.on('ready', subResize);
+    player1.on('enterfullscreen', subResize);
+    player1.on('exitfullscreen', subResize);
+
     document.getElementById("spoiler-1").click();
     document.getElementById("button-1").remove();
+
     return false;
   }
 </script>
@@ -185,7 +241,7 @@ if (window.location.hash) {
   <summary id="spoiler-1"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-1"></video>
   </div>
 </details>
 
@@ -232,29 +288,61 @@ if (window.location.hash) {
 </p>
 
 <script>
-  var player2;
+  var player2, subs2;
+
   function openPlayer2() {
-    player2 = videojs("player-2", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v215959213.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
+    player2 = plyr.setup('#player-2', {
+    })[0];
+
+
+    // Set video source
+    player2.source({
+      type: 'video',
       sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=h2rTS3adq9w"
+        type: 'youtube',
+        src: "h2rTS3adq9w"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player2.on('ready', function(event) {
+    });
+
+    // Connect Subtitles Octopus to video
+    subs2 = new SubtitlesOctopus({
+      video: player2.getMedia(),
+      subUrl: "/chats/v215959213.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+    });
+
+    // Fix subtitles position on first start of the video
+    player2.on('play', function(event) {
+      subs2.resize();
+    });
+
+    // Fix Subtitles Octopus to work with embedded YouTube videos
+    // TODO: Fix subtitles position in fullscreen mode
+    function subResize(event) {
+      var e_sub = subs2.canvas;
+      var e_vid = player2.getMedia();
+
+      e_sub.style.display = "block";
+      e_sub.style.top = 0;
+      e_sub.style.position = "absolute";
+      e_sub.style.pointerEvents = "none";
+
+      e_sub.width = e_vid.clientWidth;
+      e_sub.height = e_vid.clientHeight;
+
+      subs2.resize(e_sub.width, e_sub.height);
+    }
+    player2.on('ready', subResize);
+    player2.on('enterfullscreen', subResize);
+    player2.on('exitfullscreen', subResize);
+
     document.getElementById("spoiler-2").click();
     document.getElementById("button-2").remove();
+
     return false;
   }
 </script>
@@ -263,7 +351,7 @@ if (window.location.hash) {
   <summary id="spoiler-2"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-2" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-2"></video>
   </div>
 </details>
 
@@ -317,24 +405,42 @@ if (window.location.hash) {
 </p>
 
 <script>
-  var player400;
+  var player400, subs400;
+
   function openPlayer400() {
-    player400 = videojs("player-400", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v216293216.ass"],
-          delay: -0.1,
-        },
-      },
+    player400 = plyr.setup('#player-400', {
+    })[0];
+
+
+    // Set video source
+    player400.source({
+      type: 'video',
       sources: [{
-        "type": "video/mp4",
-        "src": "https://api.thedrhax.pw/vk/video/87862793_456241029?redirect"
+        type: 'video/mp4',
+        src: "https://api.thedrhax.pw/vk/video/87862793_456241029?redirect"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player400.on('ready', function(event) {
+    });
+
+    // Connect Subtitles Octopus to video
+    subs400 = new SubtitlesOctopus({
+      video: player400.getMedia(),
+      subUrl: "/chats/v216293216.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+    });
+
+    // Fix subtitles position on first start of the video
+    player400.on('play', function(event) {
+      subs400.resize();
+    });
+
+
     document.getElementById("spoiler-400").click();
     document.getElementById("button-400").remove();
+
     return false;
   }
 </script>
@@ -343,7 +449,7 @@ if (window.location.hash) {
   <summary id="spoiler-400"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-400" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-400"></video>
   </div>
 </details>
 
@@ -363,24 +469,43 @@ if (window.location.hash) {
 </p>
 
 <script>
-  var player401;
+  var player401, subs401;
+
   function openPlayer401() {
-    player401 = videojs("player-401", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v216293216.ass"],
-          delay: -12752.1,
-        },
-      },
+    player401 = plyr.setup('#player-401', {
+    })[0];
+
+
+    // Set video source
+    player401.source({
+      type: 'video',
       sources: [{
-        "type": "video/mp4",
-        "src": "https://api.thedrhax.pw/vk/video/87862793_456241030?redirect"
+        type: 'video/mp4',
+        src: "https://api.thedrhax.pw/vk/video/87862793_456241030?redirect"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player401.on('ready', function(event) {
+    });
+
+    // Connect Subtitles Octopus to video
+    subs401 = new SubtitlesOctopus({
+      video: player401.getMedia(),
+      subUrl: "/chats/v216293216.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+      timeOffset: 12752
+    });
+
+    // Fix subtitles position on first start of the video
+    player401.on('play', function(event) {
+      subs401.resize();
+    });
+
+
     document.getElementById("spoiler-401").click();
     document.getElementById("button-401").remove();
+
     return false;
   }
 </script>
@@ -389,7 +514,7 @@ if (window.location.hash) {
   <summary id="spoiler-401"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-401" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-401"></video>
   </div>
 </details>
 
@@ -436,29 +561,61 @@ if (window.location.hash) {
 </p>
 
 <script>
-  var player4;
+  var player4, subs4;
+
   function openPlayer4() {
-    player4 = videojs("player-4", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v216912425.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
+    player4 = plyr.setup('#player-4', {
+    })[0];
+
+
+    // Set video source
+    player4.source({
+      type: 'video',
       sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=jyhO-Szikqc"
+        type: 'youtube',
+        src: "jyhO-Szikqc"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player4.on('ready', function(event) {
+    });
+
+    // Connect Subtitles Octopus to video
+    subs4 = new SubtitlesOctopus({
+      video: player4.getMedia(),
+      subUrl: "/chats/v216912425.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+    });
+
+    // Fix subtitles position on first start of the video
+    player4.on('play', function(event) {
+      subs4.resize();
+    });
+
+    // Fix Subtitles Octopus to work with embedded YouTube videos
+    // TODO: Fix subtitles position in fullscreen mode
+    function subResize(event) {
+      var e_sub = subs4.canvas;
+      var e_vid = player4.getMedia();
+
+      e_sub.style.display = "block";
+      e_sub.style.top = 0;
+      e_sub.style.position = "absolute";
+      e_sub.style.pointerEvents = "none";
+
+      e_sub.width = e_vid.clientWidth;
+      e_sub.height = e_vid.clientHeight;
+
+      subs4.resize(e_sub.width, e_sub.height);
+    }
+    player4.on('ready', subResize);
+    player4.on('enterfullscreen', subResize);
+    player4.on('exitfullscreen', subResize);
+
     document.getElementById("spoiler-4").click();
     document.getElementById("button-4").remove();
+
     return false;
   }
 </script>
@@ -467,7 +624,7 @@ if (window.location.hash) {
   <summary id="spoiler-4"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-4" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-4"></video>
   </div>
 </details>
 
@@ -514,29 +671,61 @@ if (window.location.hash) {
 </p>
 
 <script>
-  var player5;
+  var player5, subs5;
+
   function openPlayer5() {
-    player5 = videojs("player-5", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v217247484.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
+    player5 = plyr.setup('#player-5', {
+    })[0];
+
+
+    // Set video source
+    player5.source({
+      type: 'video',
       sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=-6su7L3esVw"
+        type: 'youtube',
+        src: "-6su7L3esVw"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player5.on('ready', function(event) {
+    });
+
+    // Connect Subtitles Octopus to video
+    subs5 = new SubtitlesOctopus({
+      video: player5.getMedia(),
+      subUrl: "/chats/v217247484.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+    });
+
+    // Fix subtitles position on first start of the video
+    player5.on('play', function(event) {
+      subs5.resize();
+    });
+
+    // Fix Subtitles Octopus to work with embedded YouTube videos
+    // TODO: Fix subtitles position in fullscreen mode
+    function subResize(event) {
+      var e_sub = subs5.canvas;
+      var e_vid = player5.getMedia();
+
+      e_sub.style.display = "block";
+      e_sub.style.top = 0;
+      e_sub.style.position = "absolute";
+      e_sub.style.pointerEvents = "none";
+
+      e_sub.width = e_vid.clientWidth;
+      e_sub.height = e_vid.clientHeight;
+
+      subs5.resize(e_sub.width, e_sub.height);
+    }
+    player5.on('ready', subResize);
+    player5.on('enterfullscreen', subResize);
+    player5.on('exitfullscreen', subResize);
+
     document.getElementById("spoiler-5").click();
     document.getElementById("button-5").remove();
+
     return false;
   }
 </script>
@@ -545,7 +734,7 @@ if (window.location.hash) {
   <summary id="spoiler-5"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-5" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-5"></video>
   </div>
 </details>
 
@@ -592,29 +781,61 @@ if (window.location.hash) {
 </p>
 
 <script>
-  var player6;
+  var player6, subs6;
+
   function openPlayer6() {
-    player6 = videojs("player-6", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v218542652.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
+    player6 = plyr.setup('#player-6', {
+    })[0];
+
+
+    // Set video source
+    player6.source({
+      type: 'video',
       sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=BVQTG-qH8fY"
+        type: 'youtube',
+        src: "BVQTG-qH8fY"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player6.on('ready', function(event) {
+    });
+
+    // Connect Subtitles Octopus to video
+    subs6 = new SubtitlesOctopus({
+      video: player6.getMedia(),
+      subUrl: "/chats/v218542652.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+    });
+
+    // Fix subtitles position on first start of the video
+    player6.on('play', function(event) {
+      subs6.resize();
+    });
+
+    // Fix Subtitles Octopus to work with embedded YouTube videos
+    // TODO: Fix subtitles position in fullscreen mode
+    function subResize(event) {
+      var e_sub = subs6.canvas;
+      var e_vid = player6.getMedia();
+
+      e_sub.style.display = "block";
+      e_sub.style.top = 0;
+      e_sub.style.position = "absolute";
+      e_sub.style.pointerEvents = "none";
+
+      e_sub.width = e_vid.clientWidth;
+      e_sub.height = e_vid.clientHeight;
+
+      subs6.resize(e_sub.width, e_sub.height);
+    }
+    player6.on('ready', subResize);
+    player6.on('enterfullscreen', subResize);
+    player6.on('exitfullscreen', subResize);
+
     document.getElementById("spoiler-6").click();
     document.getElementById("button-6").remove();
+
     return false;
   }
 </script>
@@ -623,7 +844,7 @@ if (window.location.hash) {
   <summary id="spoiler-6"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-6" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-6"></video>
   </div>
 </details>
 
@@ -660,7 +881,7 @@ if (window.location.hash) {
       <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=tj3Rx47t8FI">tj3Rx47t8FI</a></li>
 
   </ul>
-  <li>Стрим начинается с  <a onclick="player7.currentTime(4560)">1:16:00</a> </li>
+  <li>Стрим начинается с  <a onclick="player7.seek(4560)">1:16:00</a> </li>
 </ul>
 
 
@@ -671,30 +892,62 @@ if (window.location.hash) {
 </p>
 
 <script>
-  var player7;
+  var player7, subs7;
+
   function openPlayer7() {
-    player7 = videojs("player-7", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v219463387.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
+    player7 = plyr.setup('#player-7', {
+    })[0];
+
+
+    // Set video source
+    player7.source({
+      type: 'video',
       sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=tj3Rx47t8FI"
+        type: 'youtube',
+        src: "tj3Rx47t8FI"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player7.on('ready', function(event) {
+      player7.seek(4560);
+    });
+
+    // Connect Subtitles Octopus to video
+    subs7 = new SubtitlesOctopus({
+      video: player7.getMedia(),
+      subUrl: "/chats/v219463387.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+    });
+
+    // Fix subtitles position on first start of the video
+    player7.on('play', function(event) {
+      subs7.resize();
+    });
+
+    // Fix Subtitles Octopus to work with embedded YouTube videos
+    // TODO: Fix subtitles position in fullscreen mode
+    function subResize(event) {
+      var e_sub = subs7.canvas;
+      var e_vid = player7.getMedia();
+
+      e_sub.style.display = "block";
+      e_sub.style.top = 0;
+      e_sub.style.position = "absolute";
+      e_sub.style.pointerEvents = "none";
+
+      e_sub.width = e_vid.clientWidth;
+      e_sub.height = e_vid.clientHeight;
+
+      subs7.resize(e_sub.width, e_sub.height);
+    }
+    player7.on('ready', subResize);
+    player7.on('enterfullscreen', subResize);
+    player7.on('exitfullscreen', subResize);
+
     document.getElementById("spoiler-7").click();
     document.getElementById("button-7").remove();
-      player7.currentTime(4560);
+
     return false;
   }
 </script>
@@ -703,7 +956,7 @@ if (window.location.hash) {
   <summary id="spoiler-7"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-7" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-7"></video>
   </div>
 </details>
 

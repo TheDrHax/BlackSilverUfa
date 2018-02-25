@@ -9,20 +9,12 @@
     
 <title>Sea of Thieves | Архив чата BlackUFA_Twitch</title>
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<!-- video.js -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
-<!-- videojs-youtube -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.4.1/Youtube.js"></script>
-<!-- libjass -->
-<link href="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.js"></script>
-<!-- videojs-ass -->
-<link href="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.js"></script>
-<!-- videojs-resolution-switcher -->
-<script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Plyr (https://github.com/sampotts/plyr) -->
+<link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
+<script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
+<!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
+<script src="/static/js/subtitles-octopus.js"></script>
 
 <style>
 .main-content {
@@ -52,7 +44,7 @@
 
 
 
-<h1>Sea of Thieves</h1>
+<h1><a href="/">Архив</a> → Sea of Thieves</h1>
  
 <h2 id="222913630">
   <a id="0" href="#222913630">0 (не получилось)</a>
@@ -68,9 +60,9 @@
   </ul>
   <li>Таймкоды:</li>
   <ul>
-    <li> <a onclick="player0.currentTime(730)">12:10</a>  - Sea of Thieves (не получилось)</li>
-    <li> <a onclick="player0.currentTime(883)">14:43</a>  - S.O.S.</li>
-    <li> <a onclick="player0.currentTime(10944)">3:02:24</a>  - Sea of Thieves (опять не получилось)</li>
+    <li> <a onclick="player0.seek(730)">12:10</a>  - Sea of Thieves (не получилось)</li>
+    <li> <a onclick="player0.seek(883)">14:43</a>  - S.O.S.</li>
+    <li> <a onclick="player0.seek(10944)">3:02:24</a>  - Sea of Thieves (опять не получилось)</li>
   </ul>
 </ul>
 
@@ -82,29 +74,61 @@
 </p>
 
 <script>
-  var player0;
+  var player0, subs0;
+
   function openPlayer0() {
-    player0 = videojs("player-0", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v222913630.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
+    player0 = plyr.setup('#player-0', {
+    })[0];
+
+
+    // Set video source
+    player0.source({
+      type: 'video',
       sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=TDy4cbm_twQ"
+        type: 'youtube',
+        src: "TDy4cbm_twQ"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player0.on('ready', function(event) {
+    });
+
+    // Connect Subtitles Octopus to video
+    subs0 = new SubtitlesOctopus({
+      video: player0.getMedia(),
+      subUrl: "/chats/v222913630.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+    });
+
+    // Fix subtitles position on first start of the video
+    player0.on('play', function(event) {
+      subs0.resize();
+    });
+
+    // Fix Subtitles Octopus to work with embedded YouTube videos
+    // TODO: Fix subtitles position in fullscreen mode
+    function subResize(event) {
+      var e_sub = subs0.canvas;
+      var e_vid = player0.getMedia();
+
+      e_sub.style.display = "block";
+      e_sub.style.top = 0;
+      e_sub.style.position = "absolute";
+      e_sub.style.pointerEvents = "none";
+
+      e_sub.width = e_vid.clientWidth;
+      e_sub.height = e_vid.clientHeight;
+
+      subs0.resize(e_sub.width, e_sub.height);
+    }
+    player0.on('ready', subResize);
+    player0.on('enterfullscreen', subResize);
+    player0.on('exitfullscreen', subResize);
+
     document.getElementById("spoiler-0").click();
     document.getElementById("button-0").remove();
+
     return false;
   }
 </script>
@@ -113,7 +137,7 @@
   <summary id="spoiler-0"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-0" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-0"></video>
   </div>
 </details>
 
@@ -160,29 +184,61 @@ if (window.location.hash) {
 </p>
 
 <script>
-  var player1;
+  var player1, subs1;
+
   function openPlayer1() {
-    player1 = videojs("player-1", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v223945520.ass"],
-          delay: -0.1,
-        },
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-      },
-      techOrder: ["youtube"],
+    player1 = plyr.setup('#player-1', {
+    })[0];
+
+
+    // Set video source
+    player1.source({
+      type: 'video',
       sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=wbpdTqY2hlY"
+        type: 'youtube',
+        src: "wbpdTqY2hlY"
       }]
     });
+
+    // Seek to specific position on first start of the video
+    player1.on('ready', function(event) {
+    });
+
+    // Connect Subtitles Octopus to video
+    subs1 = new SubtitlesOctopus({
+      video: player1.getMedia(),
+      subUrl: "/chats/v223945520.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+    });
+
+    // Fix subtitles position on first start of the video
+    player1.on('play', function(event) {
+      subs1.resize();
+    });
+
+    // Fix Subtitles Octopus to work with embedded YouTube videos
+    // TODO: Fix subtitles position in fullscreen mode
+    function subResize(event) {
+      var e_sub = subs1.canvas;
+      var e_vid = player1.getMedia();
+
+      e_sub.style.display = "block";
+      e_sub.style.top = 0;
+      e_sub.style.position = "absolute";
+      e_sub.style.pointerEvents = "none";
+
+      e_sub.width = e_vid.clientWidth;
+      e_sub.height = e_vid.clientHeight;
+
+      subs1.resize(e_sub.width, e_sub.height);
+    }
+    player1.on('ready', subResize);
+    player1.on('enterfullscreen', subResize);
+    player1.on('exitfullscreen', subResize);
+
     document.getElementById("spoiler-1").click();
     document.getElementById("button-1").remove();
+
     return false;
   }
 </script>
@@ -191,7 +247,7 @@ if (window.location.hash) {
   <summary id="spoiler-1"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-1" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-1"></video>
   </div>
 </details>
 
