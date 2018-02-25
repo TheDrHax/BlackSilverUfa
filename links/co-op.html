@@ -1205,7 +1205,7 @@ if (window.location.hash) {
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/232346216">232346216</a></li>
     <li>Субтитры: <a href="../chats/v232346216.ass">v232346216.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=MCHaIvn1sO4">MCHaIvn1sO4</a></li>
 
   </ul>
   <li>Таймкоды:</li>
@@ -1216,11 +1216,62 @@ if (window.location.hash) {
 </ul>
 
 
+<p>
+  <a onclick="return openPlayer13()" id="button-13">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<script>
+  var player13;
+  function openPlayer13() {
+    player13 = videojs("player-13", {
+      controls: true, nativeControlsForTouch: false,
+      width: 640, height: 360, fluid: true,
+      plugins: {
+        ass: {
+          src: ["../chats/v232346216.ass"],
+          delay: -0.1,
+        },
+        videoJsResolutionSwitcher: {
+          default: 'high',
+          dynamicLabel: true
+        }
+      },
+      techOrder: ["youtube"],
+      sources: [{
+        "type": "video/youtube",
+        "src": "https://www.youtube.com/watch?v=MCHaIvn1sO4"
+      }]
+    });
+    document.getElementById("spoiler-13").click();
+    document.getElementById("button-13").remove();
+    return false;
+  }
+</script>
+
+<details>
+  <summary id="spoiler-13"></summary>
+
+  <div class="player-wrapper" style="margin-top: 32px">
+    <video id="player-13" class="video-js vjs-default-skin vjs-big-play-centered" />
+  </div>
+</details>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "13" || id == "232346216")
+    openPlayer13();
+}
+</script>
+
+
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v232346216.ass" --player-passthrough hls twitch.tv/videos/232346216 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v232346216.ass ytdl://MCHaIvn1sO4
 </code></pre>
 </div></div>
 
