@@ -4,20 +4,12 @@
 <%block name="head">
 <title>${game['name']} | ${config['title']}</title>
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<!-- video.js -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video-js.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.3.3/video.js"></script>
-<!-- videojs-youtube -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.4.1/Youtube.js"></script>
-<!-- libjass -->
-<link href="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/libjass@0.11.0/libjass.js"></script>
-<!-- videojs-ass -->
-<link href="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/videojs-ass@0.8.0/src/videojs.ass.js"></script>
-<!-- videojs-resolution-switcher -->
-<script src="https://cdn.jsdelivr.net/npm/videojs-resolution-switcher@0.4.2/lib/videojs-resolution-switcher.min.js"></script>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Plyr (https://github.com/sampotts/plyr) -->
+<link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
+<script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
+<!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
+<script src="/static/js/subtitles-octopus.js"></script>
 
 <style>
 .main-content {
@@ -60,7 +52,7 @@
 %>
 
 <%def name="timecode_link(id, timecode)"> \
-<a onclick="player${id}.currentTime(${sec(timecode)})">${timecode}</a> \
+<a onclick="player${id}.seek(${sec(timecode)})">${timecode}</a> \
 </%def>
 
 <%def name="source_link(stream, text=u'Запись')">\
@@ -90,60 +82,89 @@
 </p>
 
 <script>
-  var player${id};
+  var player${id}, subs${id};
+
   function openPlayer${id}() {
-    player${id} = videojs("player-${id}", {
-      controls: true, nativeControlsForTouch: false,
-      width: 640, height: 360, fluid: true,
-      plugins: {
-        ass: {
-          src: ["../chats/v${stream['twitch']}.ass"],
-          % if stream.get('subtitle_offset'):
-          delay: ${- sec(stream['subtitle_offset']) - 0.1},
-          % else:
-          delay: -0.1,
-          % endif
-        },
-        % if stream.get('youtube'):
-        videoJsResolutionSwitcher: {
-          default: 'high',
-          dynamicLabel: true
-        }
-        % endif
-      },
+    player${id} = plyr.setup('#player-${id}', {
+      % if stream.get('end'):
+      duration: ${sec(stream['end'])},
+      % endif
+    })[0];
+
+    % if stream.get('end'):
+    // Stop player when video exceeds overriden duration
+    player${id}.on('timeupdate', function(event) {
+      if (player${id}.getCurrentTime() >= player${id}.getDuration()) {
+        player${id}.seek(player${id}.getDuration());
+        player${id}.pause();
+      }
+    });
+    % endif
+
+    // Set video source
+    player${id}.source({
+      type: 'video',
+      sources: [{
       % if stream.get('youtube'):
-      techOrder: ["youtube"],
-      sources: [{
-        "type": "video/youtube",
-        "src": "https://www.youtube.com/watch?v=${stream['youtube']}"
-      }]
+        type: 'youtube',
+        src: "${stream['youtube']}"
       % elif stream.get('vk'):
-      sources: [{
-        "type": "video/mp4",
-        "src": "https://api.thedrhax.pw/vk/video/${stream['vk']}?redirect"
-      }]
+        type: 'video/mp4',
+        src: "https://api.thedrhax.pw/vk/video/${stream['vk']}?redirect"
       % elif stream.get('direct'):
-      sources: [{
-        "type": "video/mp4",
-        "src": "${stream['direct']}"
+        type: 'video/mp4',
+        src: "${stream['direct']}"
+      % endif
       }]
+    });
+
+    // Seek to specific position on first start of the video
+    player${id}.on('ready', function(event) {
+      % if stream.get('start'):
+      player${id}.seek(${sec(stream['start'])});
       % endif
     });
+
+    // Connect Subtitles Octopus to video
+    subs${id} = new SubtitlesOctopus({
+      video: player${id}.getMedia(),
+      subUrl: "/chats/v${stream['twitch']}.ass",
+      workerUrl: '/static/js/subtitles-octopus-worker.js',
+      % if stream.get('subtitle_offset'):
+      timeOffset: ${sec(stream['subtitle_offset'])}
+      % endif
+    });
+
+    // Fix subtitles position on first start of the video
+    player${id}.on('play', function(event) {
+      subs${id}.resize();
+    });
+
+    % if stream.get('youtube'):
+    // Fix Subtitles Octopus to work with embedded YouTube videos
+    // TODO: Fix subtitles position in fullscreen mode
+    function subResize(event) {
+      var e_sub = subs${id}.canvas;
+      var e_vid = player${id}.getMedia();
+
+      e_sub.style.display = "block";
+      e_sub.style.top = 0;
+      e_sub.style.position = "absolute";
+      e_sub.style.pointerEvents = "none";
+
+      e_sub.width = e_vid.clientWidth;
+      e_sub.height = e_vid.clientHeight;
+
+      subs${id}.resize(e_sub.width, e_sub.height);
+    }
+    player${id}.on('ready', subResize);
+    player${id}.on('enterfullscreen', subResize);
+    player${id}.on('exitfullscreen', subResize);
+    % endif
+
     document.getElementById("spoiler-${id}").click();
     document.getElementById("button-${id}").remove();
-    % if stream.get('start'):
-      player${id}.currentTime(${sec(stream['start'])});
-    % endif
-    % if stream.get('end'):
-      player${id}.duration = function() {
-        return ${sec(stream['end'])}; // the amount of seconds of video
-      }
-      player${id}.remainingTimeDisplay = function() {
-        var a = Math.floor(this.duration()) - Math.floor(this.currentTime());
-        if (a <= 0) this.pause();
-        return a;
-      }
-    % endif
+
     return false;
   }
 </script>
@@ -152,7 +173,7 @@
   <summary id="spoiler-${id}"></summary>
 
   <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-${id}" class="video-js vjs-default-skin vjs-big-play-centered" />
+    <video id="player-${id}"></video>
   </div>
 </details>
 
