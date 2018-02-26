@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/static/style.css">
     
 <title>Super Mario Odyssey | Архив чата BlackUFA_Twitch</title>
+
+<script src="/static/js/utils.js"></script>
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
@@ -60,7 +62,7 @@
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer0()" id="button-0">
     <b>▶ Открыть плеер</b>
@@ -116,6 +118,7 @@
     player0.on('ready', subResize);
     player0.on('enterfullscreen', subResize);
     player0.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-0").click();
     document.getElementById("button-0").remove();
@@ -141,6 +144,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -168,7 +172,7 @@ if (window.location.hash) {
   <li>Стрим начинается с  <a onclick="player1.seek(11420)">3:10:20</a> </li>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer1()" id="button-1">
     <b>▶ Открыть плеер</b>
@@ -228,6 +232,7 @@ if (window.location.hash) {
     player1.on('ready', subResize);
     player1.on('enterfullscreen', subResize);
     player1.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-1").click();
     document.getElementById("button-1").remove();
@@ -253,6 +258,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -279,7 +285,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer2()" id="button-2">
     <b>▶ Открыть плеер</b>
@@ -335,6 +341,7 @@ if (window.location.hash) {
     player2.on('ready', subResize);
     player2.on('enterfullscreen', subResize);
     player2.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-2").click();
     document.getElementById("button-2").remove();
@@ -360,6 +367,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -387,7 +395,7 @@ if (window.location.hash) {
   <li>Стрим начинается с  <a onclick="player3.seek(10798)">2:59:58</a> </li>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer3()" id="button-3">
     <b>▶ Открыть плеер</b>
@@ -447,6 +455,7 @@ if (window.location.hash) {
     player3.on('ready', subResize);
     player3.on('enterfullscreen', subResize);
     player3.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-3").click();
     document.getElementById("button-3").remove();
@@ -472,6 +481,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 

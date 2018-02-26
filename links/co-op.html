@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/static/style.css">
     
 <title>Несюжетные коопы | Архив чата BlackUFA_Twitch</title>
+
+<script src="/static/js/utils.js"></script>
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
@@ -67,7 +69,7 @@
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer0()" id="button-0">
     <b>▶ Открыть плеер</b>
@@ -123,6 +125,7 @@
     player0.on('ready', subResize);
     player0.on('enterfullscreen', subResize);
     player0.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-0").click();
     document.getElementById("button-0").remove();
@@ -148,6 +151,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -181,7 +185,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer1()" id="button-1">
     <b>▶ Открыть плеер</b>
@@ -237,6 +241,7 @@ if (window.location.hash) {
     player1.on('ready', subResize);
     player1.on('enterfullscreen', subResize);
     player1.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-1").click();
     document.getElementById("button-1").remove();
@@ -262,6 +267,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -297,7 +303,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer2()" id="button-2">
     <b>▶ Открыть плеер</b>
@@ -353,6 +359,7 @@ if (window.location.hash) {
     player2.on('ready', subResize);
     player2.on('enterfullscreen', subResize);
     player2.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-2").click();
     document.getElementById("button-2").remove();
@@ -378,6 +385,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -410,7 +418,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer3()" id="button-3">
     <b>▶ Открыть плеер</b>
@@ -466,6 +474,7 @@ if (window.location.hash) {
     player3.on('ready', subResize);
     player3.on('enterfullscreen', subResize);
     player3.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-3").click();
     document.getElementById("button-3").remove();
@@ -491,6 +500,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -523,7 +533,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer4()" id="button-4">
     <b>▶ Открыть плеер</b>
@@ -579,6 +589,7 @@ if (window.location.hash) {
     player4.on('ready', subResize);
     player4.on('enterfullscreen', subResize);
     player4.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-4").click();
     document.getElementById("button-4").remove();
@@ -604,6 +615,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -635,7 +647,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer5()" id="button-5">
     <b>▶ Открыть плеер</b>
@@ -691,6 +703,7 @@ if (window.location.hash) {
     player5.on('ready', subResize);
     player5.on('enterfullscreen', subResize);
     player5.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-5").click();
     document.getElementById("button-5").remove();
@@ -716,6 +729,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -749,7 +763,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer6()" id="button-6">
     <b>▶ Открыть плеер</b>
@@ -805,6 +819,7 @@ if (window.location.hash) {
     player6.on('ready', subResize);
     player6.on('enterfullscreen', subResize);
     player6.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-6").click();
     document.getElementById("button-6").remove();
@@ -830,6 +845,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -861,7 +877,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer7()" id="button-7">
     <b>▶ Открыть плеер</b>
@@ -917,6 +933,7 @@ if (window.location.hash) {
     player7.on('ready', subResize);
     player7.on('enterfullscreen', subResize);
     player7.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-7").click();
     document.getElementById("button-7").remove();
@@ -942,6 +959,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -973,7 +991,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer8()" id="button-8">
     <b>▶ Открыть плеер</b>
@@ -1029,6 +1047,7 @@ if (window.location.hash) {
     player8.on('ready', subResize);
     player8.on('enterfullscreen', subResize);
     player8.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-8").click();
     document.getElementById("button-8").remove();
@@ -1054,6 +1073,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1087,7 +1107,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer9()" id="button-9">
     <b>▶ Открыть плеер</b>
@@ -1143,6 +1163,7 @@ if (window.location.hash) {
     player9.on('ready', subResize);
     player9.on('enterfullscreen', subResize);
     player9.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-9").click();
     document.getElementById("button-9").remove();
@@ -1168,6 +1189,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1200,7 +1222,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer10()" id="button-10">
     <b>▶ Открыть плеер</b>
@@ -1256,6 +1278,7 @@ if (window.location.hash) {
     player10.on('ready', subResize);
     player10.on('enterfullscreen', subResize);
     player10.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-10").click();
     document.getElementById("button-10").remove();
@@ -1281,6 +1304,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1320,135 +1344,14 @@ if (window.location.hash) {
   </ul>
 </ul>
 
- 
-<p>
-  <a onclick="return openPlayer1200()" id="button-1200">
-    <b>▶ Часть 1</b>
-  </a>
-</p>
 
-<script>
-  var player1200, subs1200;
-
-  function openPlayer1200() {
-    player1200 = plyr.setup('#player-1200', {
-    })[0];
-
-
-    // Set video source
-    player1200.source({
-      type: 'video',
-      sources: [{
-        type: 'video/mp4',
-        src: "https://api.thedrhax.pw/vk/video/87862793_456241096?redirect"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs1200 = new SubtitlesOctopus({
-      video: player1200.getMedia(),
-      subUrl: "/chats/v225279322.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player1200.on('play', function(event) {
-      subs1200.resize();
-    });
-
-
-    document.getElementById("spoiler-1200").click();
-    document.getElementById("button-1200").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-1200"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-1200"></video>
-  </div>
-</details>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "1200" || id == "225279322")
-    openPlayer1200();
-}
-</script>
-
- 
-<p>
-  <a onclick="return openPlayer1201()" id="button-1201">
-    <b>▶ Часть 2</b>
-  </a>
-</p>
-
-<script>
-  var player1201, subs1201;
-
-  function openPlayer1201() {
-    player1201 = plyr.setup('#player-1201', {
-    })[0];
-
-
-    // Set video source
-    player1201.source({
-      type: 'video',
-      sources: [{
-        type: 'video/mp4',
-        src: "https://api.thedrhax.pw/vk/video/87862793_456241095?redirect"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs1201 = new SubtitlesOctopus({
-      video: player1201.getMedia(),
-      subUrl: "/chats/v225279322.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-      timeOffset: 13572
-    });
-
-    // Fix subtitles position on first start of the video
-    player1201.on('play', function(event) {
-      subs1201.resize();
-    });
-
-
-    document.getElementById("spoiler-1201").click();
-    document.getElementById("button-1201").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-1201"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-1201"></video>
-  </div>
-</details>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "1201" || id == "225279322")
-    openPlayer1201();
-}
-</script>
-
+ <p>Поддержка видео из ВКонтакте <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/8">временно прекращена</a> из-за жадных Mail.Ru :(</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file=chats/v225279322.ass --merge-files https://api.thedrhax.pw/vk/video/87862793_456241096\?redirect https://api.thedrhax.pw/vk/video/87862793_456241095\?redirect
+  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v225279322.ass" --player-passthrough hls twitch.tv/videos/225279322 best
 </code></pre>
 </div></div>
 
@@ -1474,7 +1377,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer12()" id="button-12">
     <b>▶ Открыть плеер</b>
@@ -1530,6 +1433,7 @@ if (window.location.hash) {
     player12.on('ready', subResize);
     player12.on('enterfullscreen', subResize);
     player12.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-12").click();
     document.getElementById("button-12").remove();
@@ -1555,6 +1459,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1586,7 +1491,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer13()" id="button-13">
     <b>▶ Открыть плеер</b>
@@ -1642,6 +1547,7 @@ if (window.location.hash) {
     player13.on('ready', subResize);
     player13.on('enterfullscreen', subResize);
     player13.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-13").click();
     document.getElementById("button-13").remove();
@@ -1667,6 +1573,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 

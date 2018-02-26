@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/static/style.css">
     
 <title>The Legend of Zelda: Breath of the Wild | Архив чата BlackUFA_Twitch</title>
+
+<script src="/static/js/utils.js"></script>
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
@@ -60,7 +62,7 @@
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer0()" id="button-0">
     <b>▶ Открыть плеер</b>
@@ -116,6 +118,7 @@
     player0.on('ready', subResize);
     player0.on('enterfullscreen', subResize);
     player0.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-0").click();
     document.getElementById("button-0").remove();
@@ -141,6 +144,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -167,7 +171,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer1()" id="button-1">
     <b>▶ Открыть плеер</b>
@@ -223,6 +227,7 @@ if (window.location.hash) {
     player1.on('ready', subResize);
     player1.on('enterfullscreen', subResize);
     player1.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-1").click();
     document.getElementById("button-1").remove();
@@ -248,6 +253,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -274,7 +280,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer2()" id="button-2">
     <b>▶ Открыть плеер</b>
@@ -330,6 +336,7 @@ if (window.location.hash) {
     player2.on('ready', subResize);
     player2.on('enterfullscreen', subResize);
     player2.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-2").click();
     document.getElementById("button-2").remove();
@@ -355,6 +362,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -381,7 +389,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer3()" id="button-3">
     <b>▶ Открыть плеер</b>
@@ -437,6 +445,7 @@ if (window.location.hash) {
     player3.on('ready', subResize);
     player3.on('enterfullscreen', subResize);
     player3.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-3").click();
     document.getElementById("button-3").remove();
@@ -462,6 +471,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -488,7 +498,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer4()" id="button-4">
     <b>▶ Открыть плеер</b>
@@ -544,6 +554,7 @@ if (window.location.hash) {
     player4.on('ready', subResize);
     player4.on('enterfullscreen', subResize);
     player4.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-4").click();
     document.getElementById("button-4").remove();
@@ -569,6 +580,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -595,7 +607,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer5()" id="button-5">
     <b>▶ Открыть плеер</b>
@@ -651,6 +663,7 @@ if (window.location.hash) {
     player5.on('ready', subResize);
     player5.on('enterfullscreen', subResize);
     player5.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-5").click();
     document.getElementById("button-5").remove();
@@ -676,6 +689,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -702,7 +716,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer6()" id="button-6">
     <b>▶ Открыть плеер</b>
@@ -758,6 +772,7 @@ if (window.location.hash) {
     player6.on('ready', subResize);
     player6.on('enterfullscreen', subResize);
     player6.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-6").click();
     document.getElementById("button-6").remove();
@@ -783,6 +798,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -809,7 +825,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer7()" id="button-7">
     <b>▶ Открыть плеер</b>
@@ -865,6 +881,7 @@ if (window.location.hash) {
     player7.on('ready', subResize);
     player7.on('enterfullscreen', subResize);
     player7.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-7").click();
     document.getElementById("button-7").remove();
@@ -890,6 +907,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -916,7 +934,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer8()" id="button-8">
     <b>▶ Открыть плеер</b>
@@ -972,6 +990,7 @@ if (window.location.hash) {
     player8.on('ready', subResize);
     player8.on('enterfullscreen', subResize);
     player8.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-8").click();
     document.getElementById("button-8").remove();
@@ -997,6 +1016,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1023,7 +1043,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer9()" id="button-9">
     <b>▶ Открыть плеер</b>
@@ -1079,6 +1099,7 @@ if (window.location.hash) {
     player9.on('ready', subResize);
     player9.on('enterfullscreen', subResize);
     player9.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-9").click();
     document.getElementById("button-9").remove();
@@ -1104,6 +1125,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1130,7 +1152,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer10()" id="button-10">
     <b>▶ Открыть плеер</b>
@@ -1186,6 +1208,7 @@ if (window.location.hash) {
     player10.on('ready', subResize);
     player10.on('enterfullscreen', subResize);
     player10.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-10").click();
     document.getElementById("button-10").remove();
@@ -1211,6 +1234,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1237,7 +1261,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer11()" id="button-11">
     <b>▶ Открыть плеер</b>
@@ -1293,6 +1317,7 @@ if (window.location.hash) {
     player11.on('ready', subResize);
     player11.on('enterfullscreen', subResize);
     player11.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-11").click();
     document.getElementById("button-11").remove();
@@ -1318,6 +1343,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1344,7 +1370,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer12()" id="button-12">
     <b>▶ Открыть плеер</b>
@@ -1400,6 +1426,7 @@ if (window.location.hash) {
     player12.on('ready', subResize);
     player12.on('enterfullscreen', subResize);
     player12.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-12").click();
     document.getElementById("button-12").remove();
@@ -1425,6 +1452,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1451,7 +1479,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer13()" id="button-13">
     <b>▶ Открыть плеер</b>
@@ -1507,6 +1535,7 @@ if (window.location.hash) {
     player13.on('ready', subResize);
     player13.on('enterfullscreen', subResize);
     player13.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-13").click();
     document.getElementById("button-13").remove();
@@ -1532,6 +1561,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1558,7 +1588,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer14()" id="button-14">
     <b>▶ Открыть плеер</b>
@@ -1614,6 +1644,7 @@ if (window.location.hash) {
     player14.on('ready', subResize);
     player14.on('enterfullscreen', subResize);
     player14.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-14").click();
     document.getElementById("button-14").remove();
@@ -1639,6 +1670,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1665,7 +1697,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer15()" id="button-15">
     <b>▶ Открыть плеер</b>
@@ -1721,6 +1753,7 @@ if (window.location.hash) {
     player15.on('ready', subResize);
     player15.on('enterfullscreen', subResize);
     player15.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-15").click();
     document.getElementById("button-15").remove();
@@ -1746,6 +1779,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1773,7 +1807,7 @@ if (window.location.hash) {
   <li>Стрим начинается с  <a onclick="player16.seek(11100)">3:05:00</a> </li>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer16()" id="button-16">
     <b>▶ Открыть плеер</b>
@@ -1833,6 +1867,7 @@ if (window.location.hash) {
     player16.on('ready', subResize);
     player16.on('enterfullscreen', subResize);
     player16.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-16").click();
     document.getElementById("button-16").remove();
@@ -1858,6 +1893,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1885,7 +1921,7 @@ if (window.location.hash) {
   <li>Стрим начинается с  <a onclick="player17.seek(1770)">29:30</a> </li>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer17()" id="button-17">
     <b>▶ Открыть плеер</b>
@@ -1945,6 +1981,7 @@ if (window.location.hash) {
     player17.on('ready', subResize);
     player17.on('enterfullscreen', subResize);
     player17.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-17").click();
     document.getElementById("button-17").remove();
@@ -1970,6 +2007,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -1996,7 +2034,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer18()" id="button-18">
     <b>▶ Открыть плеер</b>
@@ -2052,6 +2090,7 @@ if (window.location.hash) {
     player18.on('ready', subResize);
     player18.on('enterfullscreen', subResize);
     player18.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-18").click();
     document.getElementById("button-18").remove();
@@ -2077,6 +2116,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -2104,7 +2144,7 @@ if (window.location.hash) {
   <li>Стрим начинается с  <a onclick="player19.seek(6180)">1:43:00</a> </li>
 </ul>
 
-
+    
 <p>
   <a onclick="return openPlayer19()" id="button-19">
     <b>▶ Открыть плеер</b>
@@ -2164,6 +2204,7 @@ if (window.location.hash) {
     player19.on('ready', subResize);
     player19.on('enterfullscreen', subResize);
     player19.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100, false));
 
     document.getElementById("spoiler-19").click();
     document.getElementById("button-19").remove();
@@ -2189,6 +2230,7 @@ if (window.location.hash) {
 </script>
 
 
+ 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
