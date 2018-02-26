@@ -298,7 +298,6 @@
       { "name": "Home Sweet Home", "twitch": "178108639" },
       { "name": "Cuphead", "twitch": "178361269" },
       { "name": "Xenoblade Chronicles 2", "twitch": "206933269" },
-      { "name": "Getting Over It", "twitch": "219819121", "start": "1:52:00" },
       { "name": "Yakuza 6: The Song of Life", "twitch": "226000025" },
       { "name": "Last Guardian", "twitch": "227626210" },
       { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
@@ -334,6 +333,15 @@
     "streams": [
       { "name": "DLC: The Depths, The Hideaway", "twitch": "200401270" },
       { "name": "DLC: The Residence", "twitch": "233032380" }
+    ]
+  },
+  {
+    "name": "Getting Over It",
+    "category": "ongoing",
+    "filename": "getting-over-it.html",
+    "streams": [
+      { "name": "1", "twitch": "219819121", "start": "1:52:00" },
+      { "name": "2", "twitch": "233032380", "start": "3:33:22" }
     ]
   }
 ]
