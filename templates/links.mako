@@ -12,7 +12,7 @@
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
-<script src="/static/js/player.js?version=1"></script>
+<script src="/static/js/player.js?version=2"></script>
 
 <style>
 .main-content {
@@ -33,7 +33,8 @@
       for segment in stream['segments']:
         if not player_compatible(segment):
           return False
-    for i in ['youtube', 'direct']:
+      return True
+    for i in ['youtube', 'vk', 'direct']:
        if i in stream:
            return True
     return False
@@ -41,6 +42,8 @@
   def mpv_file(stream):
     if stream.get('youtube'):
       return 'ytdl://' + stream['youtube']
+    elif stream.get('vk'):
+      return 'https://api.thedrhax.pw/vk/video/' + stream['vk'] + '\?redirect'
     elif stream.get('direct'):
       return stream['direct']
     elif stream.get('segments'):
@@ -148,19 +151,6 @@ if (window.location.hash) {
   % else:
     ${player(id, stream)}
   % endif
-% endif
-
-<%
-  def contains_vk(stream):
-    if stream.get('vk'):
-      return True
-    elif stream.get('segments'):
-      return len([True for segment in stream['segments'] if 'vk' in segment]) > 0
-    else:
-      return False
-%> \
-% if contains_vk(stream):
-<p>Поддержка видео из ВКонтакте <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/8">временно прекращена</a> из-за жадных Mail.Ru :(</p>
 % endif
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
