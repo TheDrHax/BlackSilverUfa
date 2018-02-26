@@ -88,19 +88,14 @@
   </a>
 </p>
 
-<details>
-  <summary id="spoiler-${id}"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-${id}"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-${id}" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "${id}" || id == "${stream['twitch']}")
-    openPlayer${id}();
+  if (id == "${id}" || id == "${stream['twitch']}") {
+    spawnPlayer(${id}, JSON.parse('${json.dumps(stream)}'));
+  }
 }
 </script>
 </%def>
