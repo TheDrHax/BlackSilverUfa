@@ -30,6 +30,11 @@ var subs = {};
 function spawnPlayer(id, stream) {
   var player, subtitles;
 
+  document.getElementById("button-" + id).style.display = 'none';
+  var wrapper = document.getElementById('player-wrapper-' + id);
+  wrapper.innerHTML = '<video id="player-' + id + '"></video>';
+  wrapper.style.display = 'block';
+
   var options = {};
   if (stream.end) {
     options.duration = sec(stream.end);
@@ -100,10 +105,6 @@ function spawnPlayer(id, stream) {
     player.on('exitfullscreen', subResize);
     window.addEventListener('resize', debounce(subResize, 100, false));
   }
-
-  // TODO: Remove this
-  document.getElementById("spoiler-" + id).click();
-  document.getElementById("button-" + id).remove();
 
   players[id] = player;
   subs[id] = subtitles;
