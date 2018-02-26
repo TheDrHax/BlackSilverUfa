@@ -9,7 +9,6 @@
     
 <title>Полные прохождения за один стрим | Архив чата BlackUFA_Twitch</title>
 
-<script src="/static/js/utils.js"></script>
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
@@ -17,6 +16,7 @@
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
+<script src="/static/js/player.js?version=1"></script>
 
 <style>
 .main-content {
@@ -64,82 +64,19 @@
 
     
 <p>
-  <a onclick="return openPlayer0()" id="button-0">
+    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;name&quot;: &quot;Michigan: Report from Hell&quot;, &quot;twitch&quot;: &quot;152253862&quot;, &quot;youtube&quot;: &quot;cTvtS4jAQGk&quot;}'))" id="button-0">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player0, subs0;
-
-  function openPlayer0() {
-    player0 = plyr.setup('#player-0', {
-    })[0];
-
-
-    // Set video source
-    player0.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "cTvtS4jAQGk"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs0 = new SubtitlesOctopus({
-      video: player0.getMedia(),
-      subUrl: "/chats/v152253862.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player0.on('play', function(event) {
-      subs0.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs0.canvas;
-      var e_vid = player0.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs0.resize(e_sub.width, e_sub.height);
-    }
-    player0.on('ready', subResize);
-    player0.on('enterfullscreen', subResize);
-    player0.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-0").click();
-    document.getElementById("button-0").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-0"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-0"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "152253862")
-    openPlayer0();
+  if (id == "0" || id == "152253862") {
+    spawnPlayer(0, JSON.parse('{"name": "Michigan: Report from Hell", "twitch": "152253862", "youtube": "cTvtS4jAQGk"}'));
+  }
 }
 </script>
 
@@ -173,82 +110,19 @@ if (window.location.hash) {
 
     
 <p>
-  <a onclick="return openPlayer1()" id="button-1">
+    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;name&quot;: &quot;Absolver&quot;, &quot;twitch&quot;: &quot;174225353&quot;, &quot;youtube&quot;: &quot;ejp3UDoKx4k&quot;}'))" id="button-1">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player1, subs1;
-
-  function openPlayer1() {
-    player1 = plyr.setup('#player-1', {
-    })[0];
-
-
-    // Set video source
-    player1.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "ejp3UDoKx4k"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs1 = new SubtitlesOctopus({
-      video: player1.getMedia(),
-      subUrl: "/chats/v174225353.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player1.on('play', function(event) {
-      subs1.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs1.canvas;
-      var e_vid = player1.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs1.resize(e_sub.width, e_sub.height);
-    }
-    player1.on('ready', subResize);
-    player1.on('enterfullscreen', subResize);
-    player1.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-1").click();
-    document.getElementById("button-1").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-1"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-1"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-1" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "1" || id == "174225353")
-    openPlayer1();
+  if (id == "1" || id == "174225353") {
+    spawnPlayer(1, JSON.parse('{"name": "Absolver", "twitch": "174225353", "youtube": "ejp3UDoKx4k"}'));
+  }
 }
 </script>
 
@@ -282,82 +156,19 @@ if (window.location.hash) {
 
     
 <p>
-  <a onclick="return openPlayer2()" id="button-2">
+    <a onclick="return spawnPlayer(2, JSON.parse('{&quot;name&quot;: &quot;The Count Lucanor&quot;, &quot;twitch&quot;: &quot;184468298&quot;, &quot;youtube&quot;: &quot;9p23c9_BYaU&quot;}'))" id="button-2">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player2, subs2;
-
-  function openPlayer2() {
-    player2 = plyr.setup('#player-2', {
-    })[0];
-
-
-    // Set video source
-    player2.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "9p23c9_BYaU"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs2 = new SubtitlesOctopus({
-      video: player2.getMedia(),
-      subUrl: "/chats/v184468298.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player2.on('play', function(event) {
-      subs2.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs2.canvas;
-      var e_vid = player2.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs2.resize(e_sub.width, e_sub.height);
-    }
-    player2.on('ready', subResize);
-    player2.on('enterfullscreen', subResize);
-    player2.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-2").click();
-    document.getElementById("button-2").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-2"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-2"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-2" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "2" || id == "184468298")
-    openPlayer2();
+  if (id == "2" || id == "184468298") {
+    spawnPlayer(2, JSON.parse('{"name": "The Count Lucanor", "twitch": "184468298", "youtube": "9p23c9_BYaU"}'));
+  }
 }
 </script>
 
@@ -391,82 +202,19 @@ if (window.location.hash) {
 
     
 <p>
-  <a onclick="return openPlayer3()" id="button-3">
+    <a onclick="return spawnPlayer(3, JSON.parse('{&quot;name&quot;: &quot;Call of Duty: WWII&quot;, &quot;twitch&quot;: &quot;187291538&quot;, &quot;youtube&quot;: &quot;Bxj09aAOFaI&quot;}'))" id="button-3">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player3, subs3;
-
-  function openPlayer3() {
-    player3 = plyr.setup('#player-3', {
-    })[0];
-
-
-    // Set video source
-    player3.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "Bxj09aAOFaI"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs3 = new SubtitlesOctopus({
-      video: player3.getMedia(),
-      subUrl: "/chats/v187291538.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player3.on('play', function(event) {
-      subs3.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs3.canvas;
-      var e_vid = player3.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs3.resize(e_sub.width, e_sub.height);
-    }
-    player3.on('ready', subResize);
-    player3.on('enterfullscreen', subResize);
-    player3.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-3").click();
-    document.getElementById("button-3").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-3"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-3"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-3" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "3" || id == "187291538")
-    openPlayer3();
+  if (id == "3" || id == "187291538") {
+    spawnPlayer(3, JSON.parse('{"name": "Call of Duty: WWII", "twitch": "187291538", "youtube": "Bxj09aAOFaI"}'));
+  }
 }
 </script>
 
@@ -484,117 +232,8 @@ if (window.location.hash) {
 <hr>
 
  
-<h2 id="200401270">
-  <a id="4" href="#200401270">Little Nightmares (DLC)</a>
-</h2>
-
-<ul>
-  <li>Ссылки:</li>
-  <ul>
-    <li>Twitch: <a href="https://www.twitch.tv/videos/200401270">200401270</a></li>
-    <li>Субтитры: <a href="../chats/v200401270.ass">v200401270.ass</a></li>
-      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=LSHpifkX69Y">LSHpifkX69Y</a></li>
-
-  </ul>
-</ul>
-
-    
-<p>
-  <a onclick="return openPlayer4()" id="button-4">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<script>
-  var player4, subs4;
-
-  function openPlayer4() {
-    player4 = plyr.setup('#player-4', {
-    })[0];
-
-
-    // Set video source
-    player4.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "LSHpifkX69Y"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs4 = new SubtitlesOctopus({
-      video: player4.getMedia(),
-      subUrl: "/chats/v200401270.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player4.on('play', function(event) {
-      subs4.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs4.canvas;
-      var e_vid = player4.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs4.resize(e_sub.width, e_sub.height);
-    }
-    player4.on('ready', subResize);
-    player4.on('enterfullscreen', subResize);
-    player4.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-4").click();
-    document.getElementById("button-4").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-4"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-4"></video>
-  </div>
-</details>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "4" || id == "200401270")
-    openPlayer4();
-}
-</script>
-
-
- 
-<h4>Команда для просмотра стрима в проигрывателе MPV</h4>
-
-
-<div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file=chats/v200401270.ass ytdl://LSHpifkX69Y
-</code></pre>
-</div></div>
-
-
-<hr>
-
- 
 <h2 id="202329656">
-  <a id="5" href="#202329656">Hidden Agenda</a>
+  <a id="4" href="#202329656">Hidden Agenda</a>
 </h2>
 
 <ul>
@@ -609,82 +248,19 @@ if (window.location.hash) {
 
     
 <p>
-  <a onclick="return openPlayer5()" id="button-5">
+    <a onclick="return spawnPlayer(4, JSON.parse('{&quot;name&quot;: &quot;Hidden Agenda&quot;, &quot;twitch&quot;: &quot;202329656&quot;, &quot;youtube&quot;: &quot;9kSnxedrUjM&quot;}'))" id="button-4">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player5, subs5;
-
-  function openPlayer5() {
-    player5 = plyr.setup('#player-5', {
-    })[0];
-
-
-    // Set video source
-    player5.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "9kSnxedrUjM"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs5 = new SubtitlesOctopus({
-      video: player5.getMedia(),
-      subUrl: "/chats/v202329656.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player5.on('play', function(event) {
-      subs5.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs5.canvas;
-      var e_vid = player5.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs5.resize(e_sub.width, e_sub.height);
-    }
-    player5.on('ready', subResize);
-    player5.on('enterfullscreen', subResize);
-    player5.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-5").click();
-    document.getElementById("button-5").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-5"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-5"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-4" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "5" || id == "202329656")
-    openPlayer5();
+  if (id == "4" || id == "202329656") {
+    spawnPlayer(4, JSON.parse('{"name": "Hidden Agenda", "twitch": "202329656", "youtube": "9kSnxedrUjM"}'));
+  }
 }
 </script>
 
@@ -703,7 +279,7 @@ if (window.location.hash) {
 
  
 <h2 id="204996737">
-  <a id="6" href="#204996737">Unforgiving: A Northern Hymn</a>
+  <a id="5" href="#204996737">Unforgiving: A Northern Hymn</a>
 </h2>
 
 <ul>
@@ -718,82 +294,19 @@ if (window.location.hash) {
 
     
 <p>
-  <a onclick="return openPlayer6()" id="button-6">
+    <a onclick="return spawnPlayer(5, JSON.parse('{&quot;name&quot;: &quot;Unforgiving: A Northern Hymn&quot;, &quot;twitch&quot;: &quot;204996737&quot;, &quot;youtube&quot;: &quot;ZiYWnjvqw_k&quot;}'))" id="button-5">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player6, subs6;
-
-  function openPlayer6() {
-    player6 = plyr.setup('#player-6', {
-    })[0];
-
-
-    // Set video source
-    player6.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "ZiYWnjvqw_k"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs6 = new SubtitlesOctopus({
-      video: player6.getMedia(),
-      subUrl: "/chats/v204996737.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player6.on('play', function(event) {
-      subs6.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs6.canvas;
-      var e_vid = player6.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs6.resize(e_sub.width, e_sub.height);
-    }
-    player6.on('ready', subResize);
-    player6.on('enterfullscreen', subResize);
-    player6.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-6").click();
-    document.getElementById("button-6").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-6"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-6"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-5" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "6" || id == "204996737")
-    openPlayer6();
+  if (id == "5" || id == "204996737") {
+    spawnPlayer(5, JSON.parse('{"name": "Unforgiving: A Northern Hymn", "twitch": "204996737", "youtube": "ZiYWnjvqw_k"}'));
+  }
 }
 </script>
 
@@ -812,7 +325,7 @@ if (window.location.hash) {
 
  
 <h2 id="219166190">
-  <a id="7" href="#219166190">DYING: Reborn</a>
+  <a id="6" href="#219166190">DYING: Reborn</a>
 </h2>
 
 <ul>
@@ -827,82 +340,19 @@ if (window.location.hash) {
 
     
 <p>
-  <a onclick="return openPlayer7()" id="button-7">
+    <a onclick="return spawnPlayer(6, JSON.parse('{&quot;name&quot;: &quot;DYING: Reborn&quot;, &quot;twitch&quot;: &quot;219166190&quot;, &quot;youtube&quot;: &quot;Fd2nmniSz34&quot;}'))" id="button-6">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player7, subs7;
-
-  function openPlayer7() {
-    player7 = plyr.setup('#player-7', {
-    })[0];
-
-
-    // Set video source
-    player7.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "Fd2nmniSz34"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs7 = new SubtitlesOctopus({
-      video: player7.getMedia(),
-      subUrl: "/chats/v219166190.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player7.on('play', function(event) {
-      subs7.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs7.canvas;
-      var e_vid = player7.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs7.resize(e_sub.width, e_sub.height);
-    }
-    player7.on('ready', subResize);
-    player7.on('enterfullscreen', subResize);
-    player7.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-7").click();
-    document.getElementById("button-7").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-7"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-7"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-6" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "7" || id == "219166190")
-    openPlayer7();
+  if (id == "6" || id == "219166190") {
+    spawnPlayer(6, JSON.parse('{"name": "DYING: Reborn", "twitch": "219166190", "youtube": "Fd2nmniSz34"}'));
+  }
 }
 </script>
 
@@ -921,7 +371,7 @@ if (window.location.hash) {
 
  
 <h2 id="224600319">
-  <a id="8" href="#224600319">Remothered: Tormented Fathers</a>
+  <a id="7" href="#224600319">Remothered: Tormented Fathers</a>
 </h2>
 
 <ul>
@@ -936,82 +386,19 @@ if (window.location.hash) {
 
     
 <p>
-  <a onclick="return openPlayer8()" id="button-8">
+    <a onclick="return spawnPlayer(7, JSON.parse('{&quot;name&quot;: &quot;Remothered: Tormented Fathers&quot;, &quot;twitch&quot;: &quot;224600319&quot;, &quot;youtube&quot;: &quot;43q8zNpTCCE&quot;}'))" id="button-7">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player8, subs8;
-
-  function openPlayer8() {
-    player8 = plyr.setup('#player-8', {
-    })[0];
-
-
-    // Set video source
-    player8.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "43q8zNpTCCE"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs8 = new SubtitlesOctopus({
-      video: player8.getMedia(),
-      subUrl: "/chats/v224600319.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player8.on('play', function(event) {
-      subs8.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs8.canvas;
-      var e_vid = player8.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs8.resize(e_sub.width, e_sub.height);
-    }
-    player8.on('ready', subResize);
-    player8.on('enterfullscreen', subResize);
-    player8.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-8").click();
-    document.getElementById("button-8").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-8"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-8"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-7" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "8" || id == "224600319")
-    openPlayer8();
+  if (id == "7" || id == "224600319") {
+    spawnPlayer(7, JSON.parse('{"name": "Remothered: Tormented Fathers", "twitch": "224600319", "youtube": "43q8zNpTCCE"}'));
+  }
 }
 </script>
 
@@ -1030,7 +417,7 @@ if (window.location.hash) {
 
  
 <h2 id="226597573">
-  <a id="9" href="#226597573">Shadow of the Colossus</a>
+  <a id="8" href="#226597573">Shadow of the Colossus</a>
 </h2>
 
 <ul>
@@ -1045,82 +432,19 @@ if (window.location.hash) {
 
     
 <p>
-  <a onclick="return openPlayer9()" id="button-9">
+    <a onclick="return spawnPlayer(8, JSON.parse('{&quot;name&quot;: &quot;Shadow of the Colossus&quot;, &quot;twitch&quot;: &quot;226597573&quot;, &quot;youtube&quot;: &quot;S__uO4lckwk&quot;}'))" id="button-8">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player9, subs9;
-
-  function openPlayer9() {
-    player9 = plyr.setup('#player-9', {
-    })[0];
-
-
-    // Set video source
-    player9.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "S__uO4lckwk"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs9 = new SubtitlesOctopus({
-      video: player9.getMedia(),
-      subUrl: "/chats/v226597573.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player9.on('play', function(event) {
-      subs9.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs9.canvas;
-      var e_vid = player9.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs9.resize(e_sub.width, e_sub.height);
-    }
-    player9.on('ready', subResize);
-    player9.on('enterfullscreen', subResize);
-    player9.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-9").click();
-    document.getElementById("button-9").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-9"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-9"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-8" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "9" || id == "226597573")
-    openPlayer9();
+  if (id == "8" || id == "226597573") {
+    spawnPlayer(8, JSON.parse('{"name": "Shadow of the Colossus", "twitch": "226597573", "youtube": "S__uO4lckwk"}'));
+  }
 }
 </script>
 

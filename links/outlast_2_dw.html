@@ -9,7 +9,6 @@
     
 <title>Outlast 2 с Дашей | Архив чата BlackUFA_Twitch</title>
 
-<script src="/static/js/utils.js"></script>
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
@@ -17,6 +16,7 @@
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
+<script src="/static/js/player.js?version=1"></script>
 
 <style>
 .main-content {
@@ -64,82 +64,19 @@
 
     
 <p>
-  <a onclick="return openPlayer0()" id="button-0">
+    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;name&quot;: &quot;1&quot;, &quot;twitch&quot;: &quot;174697007&quot;, &quot;youtube&quot;: &quot;-5aRKoYTGLs&quot;}'))" id="button-0">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player0, subs0;
-
-  function openPlayer0() {
-    player0 = plyr.setup('#player-0', {
-    })[0];
-
-
-    // Set video source
-    player0.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "-5aRKoYTGLs"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs0 = new SubtitlesOctopus({
-      video: player0.getMedia(),
-      subUrl: "/chats/v174697007.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player0.on('play', function(event) {
-      subs0.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs0.canvas;
-      var e_vid = player0.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs0.resize(e_sub.width, e_sub.height);
-    }
-    player0.on('ready', subResize);
-    player0.on('enterfullscreen', subResize);
-    player0.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-0").click();
-    document.getElementById("button-0").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-0"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-0"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "174697007")
-    openPlayer0();
+  if (id == "0" || id == "174697007") {
+    spawnPlayer(0, JSON.parse('{"name": "1", "twitch": "174697007", "youtube": "-5aRKoYTGLs"}'));
+  }
 }
 </script>
 

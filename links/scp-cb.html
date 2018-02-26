@@ -9,7 +9,6 @@
     
 <title>SCP Containment Breach | Архив чата BlackUFA_Twitch</title>
 
-<script src="/static/js/utils.js"></script>
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
@@ -17,6 +16,7 @@
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
+<script src="/static/js/player.js?version=1"></script>
 
 <style>
 .main-content {
@@ -64,82 +64,19 @@
 
     
 <p>
-  <a onclick="return openPlayer0()" id="button-0">
+    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;name&quot;: &quot;1&quot;, &quot;twitch&quot;: &quot;215974261&quot;, &quot;youtube&quot;: &quot;-8anORo35tQ&quot;}'))" id="button-0">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player0, subs0;
-
-  function openPlayer0() {
-    player0 = plyr.setup('#player-0', {
-    })[0];
-
-
-    // Set video source
-    player0.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "-8anORo35tQ"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs0 = new SubtitlesOctopus({
-      video: player0.getMedia(),
-      subUrl: "/chats/v215974261.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player0.on('play', function(event) {
-      subs0.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs0.canvas;
-      var e_vid = player0.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs0.resize(e_sub.width, e_sub.height);
-    }
-    player0.on('ready', subResize);
-    player0.on('enterfullscreen', subResize);
-    player0.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-0").click();
-    document.getElementById("button-0").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-0"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-0"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "215974261")
-    openPlayer0();
+  if (id == "0" || id == "215974261") {
+    spawnPlayer(0, JSON.parse('{"name": "1", "twitch": "215974261", "youtube": "-8anORo35tQ"}'));
+  }
 }
 </script>
 
@@ -171,89 +108,26 @@ if (window.location.hash) {
   </ul>
   <li>Таймкоды:</li>
   <ul>
-    <li> <a onclick="player1.seek(1260)">21:00</a>  - SCP Containment Breach Unity</li>
-    <li> <a onclick="player1.seek(4140)">1:09:00</a>  - SCP Containment Breach</li>
+    <li> <a onclick="players[1].seek(1260)">21:00</a>  - SCP Containment Breach Unity</li>
+    <li> <a onclick="players[1].seek(4140)">1:09:00</a>  - SCP Containment Breach</li>
   </ul>
 </ul>
 
     
 <p>
-  <a onclick="return openPlayer1()" id="button-1">
+    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;name&quot;: &quot;2&quot;, &quot;twitch&quot;: &quot;220513992&quot;, &quot;youtube&quot;: &quot;CE21Sxn4xzE&quot;, &quot;timecodes&quot;: [[&quot;21:00&quot;, &quot;SCP Containment Breach Unity&quot;], [&quot;1:09:00&quot;, &quot;SCP Containment Breach&quot;]]}'))" id="button-1">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player1, subs1;
-
-  function openPlayer1() {
-    player1 = plyr.setup('#player-1', {
-    })[0];
-
-
-    // Set video source
-    player1.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "CE21Sxn4xzE"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs1 = new SubtitlesOctopus({
-      video: player1.getMedia(),
-      subUrl: "/chats/v220513992.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player1.on('play', function(event) {
-      subs1.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs1.canvas;
-      var e_vid = player1.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs1.resize(e_sub.width, e_sub.height);
-    }
-    player1.on('ready', subResize);
-    player1.on('enterfullscreen', subResize);
-    player1.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-1").click();
-    document.getElementById("button-1").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-1"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-1"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-1" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "1" || id == "220513992")
-    openPlayer1();
+  if (id == "1" || id == "220513992") {
+    spawnPlayer(1, JSON.parse('{"name": "2", "twitch": "220513992", "youtube": "CE21Sxn4xzE", "timecodes": [["21:00", "SCP Containment Breach Unity"], ["1:09:00", "SCP Containment Breach"]]}'));
+  }
 }
 </script>
 

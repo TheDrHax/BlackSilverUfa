@@ -9,7 +9,6 @@
     
 <title>Sub-Day и стримы с несколькими играми | Архив чата BlackUFA_Twitch</title>
 
-<script src="/static/js/utils.js"></script>
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
@@ -17,6 +16,7 @@
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
+<script src="/static/js/player.js?version=1"></script>
 
 <style>
 .main-content {
@@ -62,90 +62,27 @@
   </ul>
   <li>Таймкоды:</li>
   <ul>
-    <li> <a onclick="player0.seek(1046)">17:26</a>  - Road Redemption</li>
-    <li> <a onclick="player0.seek(4576)">1:16:16</a>  - Battle Chasers</li>
-    <li> <a onclick="player0.seek(10665)">2:57:45</a>  - Stardew Valley</li>
+    <li> <a onclick="players[0].seek(1046)">17:26</a>  - Road Redemption</li>
+    <li> <a onclick="players[0].seek(4576)">1:16:16</a>  - Battle Chasers</li>
+    <li> <a onclick="players[0].seek(10665)">2:57:45</a>  - Stardew Valley</li>
   </ul>
 </ul>
 
     
 <p>
-  <a onclick="return openPlayer0()" id="button-0">
+    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;name&quot;: &quot;1&quot;, &quot;twitch&quot;: &quot;180397849&quot;, &quot;timecodes&quot;: [[&quot;17:26&quot;, &quot;Road Redemption&quot;], [&quot;1:16:16&quot;, &quot;Battle Chasers&quot;], [&quot;2:57:45&quot;, &quot;Stardew Valley&quot;]], &quot;youtube&quot;: &quot;x5KwWrLRpEg&quot;}'))" id="button-0">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player0, subs0;
-
-  function openPlayer0() {
-    player0 = plyr.setup('#player-0', {
-    })[0];
-
-
-    // Set video source
-    player0.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "x5KwWrLRpEg"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs0 = new SubtitlesOctopus({
-      video: player0.getMedia(),
-      subUrl: "/chats/v180397849.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player0.on('play', function(event) {
-      subs0.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs0.canvas;
-      var e_vid = player0.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs0.resize(e_sub.width, e_sub.height);
-    }
-    player0.on('ready', subResize);
-    player0.on('enterfullscreen', subResize);
-    player0.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-0").click();
-    document.getElementById("button-0").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-0"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-0"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "180397849")
-    openPlayer0();
+  if (id == "0" || id == "180397849") {
+    spawnPlayer(0, JSON.parse('{"name": "1", "twitch": "180397849", "timecodes": [["17:26", "Road Redemption"], ["1:16:16", "Battle Chasers"], ["2:57:45", "Stardew Valley"]], "youtube": "x5KwWrLRpEg"}'));
+  }
 }
 </script>
 
@@ -177,90 +114,27 @@ if (window.location.hash) {
   </ul>
   <li>Таймкоды:</li>
   <ul>
-    <li> <a onclick="player1.seek(1247)">20:47</a>  - Uncanny Valley</li>
-    <li> <a onclick="player1.seek(6294)">1:44:54</a>  - The Coma: Recut</li>
-    <li> <a onclick="player1.seek(10320)">2:52:00</a>  - Lone Survivor</li>
+    <li> <a onclick="players[1].seek(1247)">20:47</a>  - Uncanny Valley</li>
+    <li> <a onclick="players[1].seek(6294)">1:44:54</a>  - The Coma: Recut</li>
+    <li> <a onclick="players[1].seek(10320)">2:52:00</a>  - Lone Survivor</li>
   </ul>
 </ul>
 
     
 <p>
-  <a onclick="return openPlayer1()" id="button-1">
+    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;name&quot;: &quot;2&quot;, &quot;twitch&quot;: &quot;212431882&quot;, &quot;timecodes&quot;: [[&quot;20:47&quot;, &quot;Uncanny Valley&quot;], [&quot;1:44:54&quot;, &quot;The Coma: Recut&quot;], [&quot;2:52:00&quot;, &quot;Lone Survivor&quot;]], &quot;youtube&quot;: &quot;JS7cNXnzCTA&quot;}'))" id="button-1">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player1, subs1;
-
-  function openPlayer1() {
-    player1 = plyr.setup('#player-1', {
-    })[0];
-
-
-    // Set video source
-    player1.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "JS7cNXnzCTA"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs1 = new SubtitlesOctopus({
-      video: player1.getMedia(),
-      subUrl: "/chats/v212431882.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player1.on('play', function(event) {
-      subs1.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs1.canvas;
-      var e_vid = player1.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs1.resize(e_sub.width, e_sub.height);
-    }
-    player1.on('ready', subResize);
-    player1.on('enterfullscreen', subResize);
-    player1.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-1").click();
-    document.getElementById("button-1").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-1"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-1"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-1" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "1" || id == "212431882")
-    openPlayer1();
+  if (id == "1" || id == "212431882") {
+    spawnPlayer(1, JSON.parse('{"name": "2", "twitch": "212431882", "timecodes": [["20:47", "Uncanny Valley"], ["1:44:54", "The Coma: Recut"], ["2:52:00", "Lone Survivor"]], "youtube": "JS7cNXnzCTA"}'));
+  }
 }
 </script>
 
@@ -292,89 +166,26 @@ if (window.location.hash) {
   </ul>
   <li>Таймкоды:</li>
   <ul>
-    <li> <a onclick="player2.seek(1500)">25:00</a>  - Stifled</li>
-    <li> <a onclick="player2.seek(10740)">2:59:00</a>  - Uncanny Valley</li>
+    <li> <a onclick="players[2].seek(1500)">25:00</a>  - Stifled</li>
+    <li> <a onclick="players[2].seek(10740)">2:59:00</a>  - Uncanny Valley</li>
   </ul>
 </ul>
 
     
 <p>
-  <a onclick="return openPlayer2()" id="button-2">
+    <a onclick="return spawnPlayer(2, JSON.parse('{&quot;name&quot;: &quot;3&quot;, &quot;twitch&quot;: &quot;212678883&quot;, &quot;timecodes&quot;: [[&quot;25:00&quot;, &quot;Stifled&quot;], [&quot;2:59:00&quot;, &quot;Uncanny Valley&quot;]], &quot;youtube&quot;: &quot;sz8y749Jn_8&quot;}'))" id="button-2">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player2, subs2;
-
-  function openPlayer2() {
-    player2 = plyr.setup('#player-2', {
-    })[0];
-
-
-    // Set video source
-    player2.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "sz8y749Jn_8"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs2 = new SubtitlesOctopus({
-      video: player2.getMedia(),
-      subUrl: "/chats/v212678883.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player2.on('play', function(event) {
-      subs2.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs2.canvas;
-      var e_vid = player2.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs2.resize(e_sub.width, e_sub.height);
-    }
-    player2.on('ready', subResize);
-    player2.on('enterfullscreen', subResize);
-    player2.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-2").click();
-    document.getElementById("button-2").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-2"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-2"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-2" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "2" || id == "212678883")
-    openPlayer2();
+  if (id == "2" || id == "212678883") {
+    spawnPlayer(2, JSON.parse('{"name": "3", "twitch": "212678883", "timecodes": [["25:00", "Stifled"], ["2:59:00", "Uncanny Valley"]], "youtube": "sz8y749Jn_8"}'));
+  }
 }
 </script>
 
@@ -406,90 +217,27 @@ if (window.location.hash) {
   </ul>
   <li>Таймкоды:</li>
   <ul>
-    <li> <a onclick="player3.seek(1560)">26:00</a>  - The Witchkin</li>
-    <li> <a onclick="player3.seek(6934)">1:55:34</a>  - Emily Wants to Play Too</li>
-    <li> <a onclick="player3.seek(11873)">3:17:53</a>  - LeftWay</li>
+    <li> <a onclick="players[3].seek(1560)">26:00</a>  - The Witchkin</li>
+    <li> <a onclick="players[3].seek(6934)">1:55:34</a>  - Emily Wants to Play Too</li>
+    <li> <a onclick="players[3].seek(11873)">3:17:53</a>  - LeftWay</li>
   </ul>
 </ul>
 
     
 <p>
-  <a onclick="return openPlayer3()" id="button-3">
+    <a onclick="return spawnPlayer(3, JSON.parse('{&quot;name&quot;: &quot;4&quot;, &quot;twitch&quot;: &quot;222198164&quot;, &quot;youtube&quot;: &quot;x9NkgWX09L0&quot;, &quot;timecodes&quot;: [[&quot;26:00&quot;, &quot;The Witchkin&quot;], [&quot;1:55:34&quot;, &quot;Emily Wants to Play Too&quot;], [&quot;3:17:53&quot;, &quot;LeftWay&quot;]]}'))" id="button-3">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player3, subs3;
-
-  function openPlayer3() {
-    player3 = plyr.setup('#player-3', {
-    })[0];
-
-
-    // Set video source
-    player3.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "x9NkgWX09L0"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs3 = new SubtitlesOctopus({
-      video: player3.getMedia(),
-      subUrl: "/chats/v222198164.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player3.on('play', function(event) {
-      subs3.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs3.canvas;
-      var e_vid = player3.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs3.resize(e_sub.width, e_sub.height);
-    }
-    player3.on('ready', subResize);
-    player3.on('enterfullscreen', subResize);
-    player3.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-3").click();
-    document.getElementById("button-3").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-3"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-3"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-3" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "3" || id == "222198164")
-    openPlayer3();
+  if (id == "3" || id == "222198164") {
+    spawnPlayer(3, JSON.parse('{"name": "4", "twitch": "222198164", "youtube": "x9NkgWX09L0", "timecodes": [["26:00", "The Witchkin"], ["1:55:34", "Emily Wants to Play Too"], ["3:17:53", "LeftWay"]]}'));
+  }
 }
 </script>
 
@@ -521,89 +269,26 @@ if (window.location.hash) {
   </ul>
   <li>Таймкоды:</li>
   <ul>
-    <li> <a onclick="player4.seek(1620)">27:00</a>  - Monster Hunter World</li>
-    <li> <a onclick="player4.seek(7870)">2:11:10</a>  - My Time at Portia</li>
+    <li> <a onclick="players[4].seek(1620)">27:00</a>  - Monster Hunter World</li>
+    <li> <a onclick="players[4].seek(7870)">2:11:10</a>  - My Time at Portia</li>
   </ul>
 </ul>
 
     
 <p>
-  <a onclick="return openPlayer4()" id="button-4">
+    <a onclick="return spawnPlayer(4, JSON.parse('{&quot;name&quot;: &quot;5&quot;, &quot;twitch&quot;: &quot;225950740&quot;, &quot;youtube&quot;: &quot;uXXquPRJHOw&quot;, &quot;timecodes&quot;: [[&quot;27:00&quot;, &quot;Monster Hunter World&quot;], [&quot;2:11:10&quot;, &quot;My Time at Portia&quot;]]}'))" id="button-4">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player4, subs4;
-
-  function openPlayer4() {
-    player4 = plyr.setup('#player-4', {
-    })[0];
-
-
-    // Set video source
-    player4.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "uXXquPRJHOw"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs4 = new SubtitlesOctopus({
-      video: player4.getMedia(),
-      subUrl: "/chats/v225950740.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player4.on('play', function(event) {
-      subs4.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs4.canvas;
-      var e_vid = player4.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs4.resize(e_sub.width, e_sub.height);
-    }
-    player4.on('ready', subResize);
-    player4.on('enterfullscreen', subResize);
-    player4.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-4").click();
-    document.getElementById("button-4").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-4"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-4"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-4" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "4" || id == "225950740")
-    openPlayer4();
+  if (id == "4" || id == "225950740") {
+    spawnPlayer(4, JSON.parse('{"name": "5", "twitch": "225950740", "youtube": "uXXquPRJHOw", "timecodes": [["27:00", "Monster Hunter World"], ["2:11:10", "My Time at Portia"]]}'));
+  }
 }
 </script>
 
@@ -635,89 +320,26 @@ if (window.location.hash) {
   </ul>
   <li>Таймкоды:</li>
   <ul>
-    <li> <a onclick="player5.seek(1814)">30:14</a>  - Never Again</li>
-    <li> <a onclick="player5.seek(10549)">2:55:49</a>  - Boogeyman 2</li>
+    <li> <a onclick="players[5].seek(1814)">30:14</a>  - Never Again</li>
+    <li> <a onclick="players[5].seek(10549)">2:55:49</a>  - Boogeyman 2</li>
   </ul>
 </ul>
 
     
 <p>
-  <a onclick="return openPlayer5()" id="button-5">
+    <a onclick="return spawnPlayer(5, JSON.parse('{&quot;name&quot;: &quot;6&quot;, &quot;twitch&quot;: &quot;230659866&quot;, &quot;youtube&quot;: &quot;L4DTPebYFgw&quot;, &quot;timecodes&quot;: [[&quot;30:14&quot;, &quot;Never Again&quot;], [&quot;2:55:49&quot;, &quot;Boogeyman 2&quot;]]}'))" id="button-5">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
 
-<script>
-  var player5, subs5;
-
-  function openPlayer5() {
-    player5 = plyr.setup('#player-5', {
-    })[0];
-
-
-    // Set video source
-    player5.source({
-      type: 'video',
-      sources: [{
-        type: 'youtube',
-        src: "L4DTPebYFgw"
-      }]
-    });
-
-
-    // Connect Subtitles Octopus to video
-    subs5 = new SubtitlesOctopus({
-      video: player5.getMedia(),
-      subUrl: "/chats/v230659866.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-    });
-
-    // Fix subtitles position on first start of the video
-    player5.on('play', function(event) {
-      subs5.resize();
-    });
-
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs5.canvas;
-      var e_vid = player5.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs5.resize(e_sub.width, e_sub.height);
-    }
-    player5.on('ready', subResize);
-    player5.on('enterfullscreen', subResize);
-    player5.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    document.getElementById("spoiler-5").click();
-    document.getElementById("button-5").remove();
-
-    return false;
-  }
-</script>
-
-<details>
-  <summary id="spoiler-5"></summary>
-
-  <div class="player-wrapper" style="margin-top: 32px">
-    <video id="player-5"></video>
-  </div>
-</details>
+<p class="player-wrapper" id="player-wrapper-5" style="margin-top: 32px; display: none"></p>
 
 <script>
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
-  if (id == "5" || id == "230659866")
-    openPlayer5();
+  if (id == "5" || id == "230659866") {
+    spawnPlayer(5, JSON.parse('{"name": "6", "twitch": "230659866", "youtube": "L4DTPebYFgw", "timecodes": [["30:14", "Never Again"], ["2:55:49", "Boogeyman 2"]]}'));
+  }
 }
 </script>
 
