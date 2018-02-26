@@ -132,7 +132,13 @@
     ],
     "youtube": "PYqnr5-Lq4o"
   },
-  "200401270": { "youtube": "LSHpifkX69Y" },
+  "200401270": {
+    "youtube": "LSHpifkX69Y",
+    "timecodes": [
+      ["27:31", "Little Nightmares"],
+      ["3:10:20", "Super Mario Odissey"]
+    ]
+  },
   "200702885": {
     "timecodes": [
       ["23:30", "Dead by Daylight"],
@@ -327,6 +333,13 @@
     "timecodes": [
       ["28:41", "Party Panic"],
       ["2:58:51", "SCP: Secret Laboratory"]
+    ]
+  },
+  "233032380": {
+    "timecodes": [
+      ["19:20", "Little Nightmares"],
+      ["1:50:04", "Past Cure"],
+      ["3:11:59", "The Apartment"]
     ]
   }
 }

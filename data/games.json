@@ -182,7 +182,6 @@
       { "name": "Absolver", "twitch": "174225353" },
       { "name": "The Count Lucanor", "twitch": "184468298" },
       { "name": "Call of Duty: WWII", "twitch": "187291538" },
-      { "name": "Little Nightmares (DLC)", "twitch": "200401270" },
       { "name": "Hidden Agenda", "twitch": "202329656" },
       { "name": "Unforgiving: A Northern Hymn", "twitch": "204996737" },
       { "name": "DYING: Reborn", "twitch": "219166190" },
@@ -302,7 +301,8 @@
       { "name": "Getting Over It", "twitch": "219819121", "start": "1:52:00" },
       { "name": "Yakuza 6: The Song of Life", "twitch": "226000025" },
       { "name": "Last Guardian", "twitch": "227626210" },
-      { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" }
+      { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
+      { "name": "Past Cure / The Apartment", "twitch": "233032380", "start": "1:50:04" }
     ]
   },
   {
@@ -325,6 +325,15 @@
     "streams": [
       { "name": "0", "twitch": "219819121" },
       { "name": "1", "twitch": "231626788" }
+    ]
+  },
+  {
+    "name": "Little Nightmares",
+    "category": "finished",
+    "filename": "little-nightmares.html",
+    "streams": [
+      { "name": "DLC: The Depths, The Hideaway", "twitch": "200401270" },
+      { "name": "DLC: The Residence", "twitch": "233032380" }
     ]
   }
 ]
