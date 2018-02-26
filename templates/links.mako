@@ -1,6 +1,21 @@
 <%inherit file="base.mako" />
 <%namespace file="markdown.mako" name="md" />
-<%! import json %>
+<%!
+
+import json
+import hashlib
+
+def md5file(f_path, block_size=2**20):
+    md5 = hashlib.md5()
+    with open(f_path, 'rb') as f:
+        while True:
+            data = f.read(block_size)
+            if not data:
+                break
+            md5.update(data)
+    return md5.hexdigest()
+
+%>
 
 <%block name="head">
 <title>${game['name']} | ${config['title']}</title>
@@ -12,7 +27,8 @@
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
-<script src="/static/js/player.js?version=2"></script>
+
+<script src="/static/js/player.js?hash=${md5file('static/js/player.js')}"></script>
 
 <style>
 .main-content {
