@@ -77,16 +77,29 @@
 <p>
 Если у вас есть ссылка на запись любого из этих стримов, сообщите мне через раздел
 <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/">Issues</a> этого репозитория.
-Поддерживаются любые видео с YouTube или из ВКонтакте. Сегментированные записи
-работают частично, но я <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/5">стараюсь</a>.
+Поддерживаются любые видео с YouTube. Сегментированные записи работают частично,
+но я <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/5">стараюсь</a>.
 Спасибо!
 </p>
 
 <ul>
-<% missing = False %>\
+<%
+  # TODO: Export this function into separate file
+  def player_compatible(stream):
+    if 'segments' in stream:
+      for segment in stream['segments']:
+        if not player_compatible(segment):
+          return False
+    for i in ['youtube', 'direct']:
+       if i in stream:
+           return True
+    return False
+
+  missing = False
+%>\
 % for game in games:
   % for stream in game['streams']:
-    % if not stream.get('youtube') and not stream.get('direct') and not stream.get('vk') and not stream.get('segments'):
+    % if not player_compatible(stream):
 <% missing = True %>\
     <li>
       <a href="links/${game['filename']}">${game['name']}</a> -
