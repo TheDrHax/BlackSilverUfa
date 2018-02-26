@@ -1,10 +1,10 @@
 <%inherit file="base.mako" />
 <%namespace file="markdown.mako" name="md" />
+<%! import json %>
 
 <%block name="head">
 <title>${game['name']} | ${config['title']}</title>
 
-<script src="/static/js/utils.js"></script>
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
@@ -12,6 +12,7 @@
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
+<script src="/static/js/player.js?version=1"></script>
 
 <style>
 .main-content {
@@ -57,7 +58,7 @@
 %>
 
 <%def name="timecode_link(id, timecode)"> \
-<a onclick="player${id}.seek(${sec(timecode)})">${timecode}</a> \
+<a onclick="players[${id}].seek(${sec(timecode)})">${timecode}</a> \
 </%def>
 
 <%def name="source_link(stream, text=u'Запись')">\
@@ -81,96 +82,11 @@
 
 <%def name="player(id, stream, text=u'Открыть плеер')">
 <p>
-  <a onclick="return openPlayer${id}()" id="button-${id}">
+  <% player_data = json.dumps(stream).replace('"', '&quot;') %>\
+  <a onclick="return spawnPlayer(${id}, JSON.parse('${player_data}'))" id="button-${id}">
     <b>▶ ${text}</b>
   </a>
 </p>
-
-<script>
-  var player${id}, subs${id};
-
-  function openPlayer${id}() {
-    player${id} = plyr.setup('#player-${id}', {
-      % if stream.get('end'):
-      duration: ${sec(stream['end'])},
-      % endif
-    })[0];
-
-    % if stream.get('end'):
-    // Stop player when video exceeds overriden duration
-    player${id}.on('timeupdate', function(event) {
-      if (player${id}.getCurrentTime() >= player${id}.getDuration()) {
-        player${id}.seek(player${id}.getDuration());
-        player${id}.pause();
-      }
-    });
-    % endif
-
-    // Set video source
-    player${id}.source({
-      type: 'video',
-      sources: [{
-      % if stream.get('youtube'):
-        type: 'youtube',
-        src: "${stream['youtube']}"
-      % elif stream.get('direct'):
-        type: 'video/mp4',
-        src: "${stream['direct']}"
-      % endif
-      }]
-    });
-
-    % if stream.get('start'):
-    // Seek to specific position on first start of the video
-    player${id}.on('ready', function(event) {
-      player${id}.seek(${sec(stream['start'])});
-    });
-    % endif
-
-    // Connect Subtitles Octopus to video
-    subs${id} = new SubtitlesOctopus({
-      video: player${id}.getMedia(),
-      subUrl: "/chats/v${stream['twitch']}.ass",
-      workerUrl: '/static/js/subtitles-octopus-worker.js',
-      % if stream.get('subtitle_offset'):
-      timeOffset: ${sec(stream['subtitle_offset'])}
-      % endif
-    });
-
-    // Fix subtitles position on first start of the video
-    player${id}.on('play', function(event) {
-      subs${id}.resize();
-    });
-
-    % if stream.get('youtube'):
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subs${id}.canvas;
-      var e_vid = player${id}.getMedia();
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
-
-      subs${id}.resize(e_sub.width, e_sub.height);
-    }
-    player${id}.on('ready', subResize);
-    player${id}.on('enterfullscreen', subResize);
-    player${id}.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-    % endif
-
-    document.getElementById("spoiler-${id}").click();
-    document.getElementById("button-${id}").remove();
-
-    return false;
-  }
-</script>
 
 <details>
   <summary id="spoiler-${id}"></summary>
