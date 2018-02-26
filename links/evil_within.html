@@ -16,7 +16,8 @@
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
-<script src="/static/js/player.js?version=1"></script>
+
+<script src="/static/js/player.js?hash=99375106d03c7145a4530a5bac18f96a"></script>
 
 <style>
 .main-content {
@@ -64,14 +65,30 @@
   <li>Стрим заканчивается в  <a onclick="players[0].seek(3138)">52:18</a> </li>
 </ul>
 
+    
+<p>
+    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;name&quot;: &quot;1&quot;, &quot;twitch&quot;: &quot;160844876&quot;, &quot;end&quot;: &quot;52:18&quot;, &quot;note&quot;: &quot;\u0422\u0440\u0430\u043d\u0441\u043b\u044f\u0446\u0438\u044f \u0431\u044b\u043b\u0430 \u043f\u0440\u0435\u0440\u0432\u0430\u043d\u0430 \u043f\u043e \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043f\u0440\u0438\u0447\u0438\u043d\u0430\u043c&quot;, &quot;vk&quot;: &quot;87862793_456240552&quot;}'))" id="button-0">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
 
- <p>Поддержка видео из ВКонтакте <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/8">временно прекращена</a> из-за жадных Mail.Ru :(</p>
+<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "0" || id == "160844876") {
+    spawnPlayer(0, JSON.parse('{"name": "1", "twitch": "160844876", "end": "52:18", "note": "\u0422\u0440\u0430\u043d\u0441\u043b\u044f\u0446\u0438\u044f \u0431\u044b\u043b\u0430 \u043f\u0440\u0435\u0440\u0432\u0430\u043d\u0430 \u043f\u043e \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043f\u0440\u0438\u0447\u0438\u043d\u0430\u043c", "vk": "87862793_456240552"}'));
+  }
+}
+</script>
+
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v160844876.ass" --player-passthrough hls twitch.tv/videos/160844876 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v160844876.ass https://api.thedrhax.pw/vk/video/87862793_456240552\?redirect
 </code></pre>
 </div></div>
 
@@ -112,7 +129,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -159,7 +175,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -205,7 +220,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -251,7 +265,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -298,7 +311,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -344,7 +356,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -391,7 +402,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -437,7 +447,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 

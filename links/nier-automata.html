@@ -16,7 +16,8 @@
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
-<script src="/static/js/player.js?version=1"></script>
+
+<script src="/static/js/player.js?hash=99375106d03c7145a4530a5bac18f96a"></script>
 
 <style>
 .main-content {
@@ -81,7 +82,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -127,7 +127,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -173,7 +172,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -207,14 +205,48 @@ if (window.location.hash) {
   </ul>
 </ul>
 
+             
+<p>
+    <a onclick="return spawnPlayer(400, JSON.parse('{&quot;vk&quot;: &quot;87862793_456241029&quot;, &quot;twitch&quot;: &quot;216293216&quot;}'))" id="button-400">
+    <b>▶ Часть 1</b>
+  </a>
+</p>
 
- <p>Поддержка видео из ВКонтакте <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/8">временно прекращена</a> из-за жадных Mail.Ru :(</p>
+<p class="player-wrapper" id="player-wrapper-400" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "400" || id == "216293216") {
+    spawnPlayer(400, JSON.parse('{"vk": "87862793_456241029", "twitch": "216293216"}'));
+  }
+}
+</script>
+
+             
+<p>
+    <a onclick="return spawnPlayer(401, JSON.parse('{&quot;vk&quot;: &quot;87862793_456241030&quot;, &quot;subtitle_offset&quot;: &quot;3:32:32&quot;, &quot;twitch&quot;: &quot;216293216&quot;}'))" id="button-401">
+    <b>▶ Часть 2</b>
+  </a>
+</p>
+
+<p class="player-wrapper" id="player-wrapper-401" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "401" || id == "216293216") {
+    spawnPlayer(401, JSON.parse('{"vk": "87862793_456241030", "subtitle_offset": "3:32:32", "twitch": "216293216"}'));
+  }
+}
+</script>
+
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v216293216.ass" --player-passthrough hls twitch.tv/videos/216293216 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v216293216.ass --merge-files https://api.thedrhax.pw/vk/video/87862793_456241029\?redirect https://api.thedrhax.pw/vk/video/87862793_456241030\?redirect
 </code></pre>
 </div></div>
 
@@ -255,7 +287,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -301,7 +332,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -347,7 +377,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
@@ -394,7 +423,6 @@ if (window.location.hash) {
 </script>
 
 
- 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
