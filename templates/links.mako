@@ -26,8 +26,13 @@
   def sec(t):
     return sum(int(x) * 60 ** i for i,x in enumerate(reversed(t.split(":"))))
 
-  def mpv_compatible(stream):
-    for i in ['youtube', 'vk', 'direct', 'segments']:
+  # TODO: Export this function into separate file
+  def player_compatible(stream):
+    if 'segments' in stream:
+      for segment in stream['segments']:
+        if not player_compatible(segment):
+          return False
+    for i in ['youtube', 'direct']:
        if i in stream:
            return True
     return False
@@ -35,8 +40,6 @@
   def mpv_file(stream):
     if stream.get('youtube'):
       return 'ytdl://' + stream['youtube']
-    elif stream.get('vk'):
-      return 'https://api.thedrhax.pw/vk/video/' + stream['vk'] + '\?redirect'
     elif stream.get('direct'):
       return stream['direct']
     elif stream.get('segments'):
@@ -110,9 +113,6 @@
       % if stream.get('youtube'):
         type: 'youtube',
         src: "${stream['youtube']}"
-      % elif stream.get('vk'):
-        type: 'video/mp4',
-        src: "https://api.thedrhax.pw/vk/video/${stream['vk']}?redirect"
       % elif stream.get('direct'):
         type: 'video/mp4',
         src: "${stream['direct']}"
@@ -224,23 +224,38 @@ if (window.location.hash) {
 % endif
 </ul>
 
-% if stream.get('youtube') or stream.get('direct') or stream.get('vk'):
-${player(id, stream)}
-% elif stream.get('segments'):
-% for segment in stream['segments']:
+% if player_compatible(stream):
+  % if stream.get('segments'):
+    % for segment in stream['segments']:
+      <%
+        segment_index = stream['segments'].index(segment)
+        segment_id = 100*(id+1) + segment_index
+        segment['twitch'] = stream['twitch']
+      %> \
+      ${player(segment_id, segment, text=u'Часть {}'.format(segment_index+1))}
+    % endfor
+  % else:
+    ${player(id, stream)}
+  % endif
+% endif
+
 <%
-  segment_index = stream['segments'].index(segment)
-  segment_id = 100*(id+1) + segment_index
-  segment['twitch'] = stream['twitch']
+  def contains_vk(stream):
+    if stream.get('vk'):
+      return True
+    elif stream.get('segments'):
+      return len([True for segment in stream['segments'] if 'vk' in segment]) > 0
+    else:
+      return False
 %> \
-${player(segment_id, segment, text=u'Часть {}'.format(segment_index+1))}
-% endfor
+% if contains_vk(stream):
+<p>Поддержка видео из ВКонтакте <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/8">временно прекращена</a> из-за жадных Mail.Ru :(</p>
 % endif
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 <%md:code_block>\
-% if mpv_compatible(stream):
+% if player_compatible(stream):
 mpv ${mpv_args(stream)} ${mpv_file(stream)}
 % else:
 streamlink -p "mpv ${mpv_args(stream)}" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
