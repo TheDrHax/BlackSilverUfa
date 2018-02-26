@@ -53,9 +53,20 @@ function spawnPlayer(id, stream) {
 
   var source = { type: 'video' };
   if (stream.youtube) {
-    source.sources = [{ type: 'youtube', src: stream.youtube }];
+    source.sources = [{
+      type: 'youtube',
+      src: stream.youtube
+    }];
+  } else if (stream.vk) {
+    source.sources = [{
+      type: 'video/mp4',
+      src: 'https://api.thedrhax.pw/vk/video/' + stream.vk + '\?redirect'
+    }];
   } else {
-    source.sources = [{ type: 'video/mp4', src: stream.direct }];
+    source.sources = [{
+      type: 'video/mp4',
+      src: stream.direct
+    }];
   }
   player.source(source);
 

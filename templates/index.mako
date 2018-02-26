@@ -77,8 +77,8 @@
 <p>
 Если у вас есть ссылка на запись любого из этих стримов, сообщите мне через раздел
 <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/">Issues</a> этого репозитория.
-Поддерживаются любые видео с YouTube. Сегментированные записи работают частично,
-но я <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/5">стараюсь</a>.
+Поддерживаются любые видео с YouTube или из ВКонтакте. Сегментированные записи
+работают частично, но я <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/5">стараюсь</a>.
 Спасибо!
 </p>
 
@@ -90,7 +90,8 @@
       for segment in stream['segments']:
         if not player_compatible(segment):
           return False
-    for i in ['youtube', 'direct']:
+      return True
+    for i in ['youtube', 'vk', 'direct']:
        if i in stream:
            return True
     return False
