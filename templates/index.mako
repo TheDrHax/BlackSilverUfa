@@ -86,11 +86,6 @@
 <%
   # TODO: Export this function into separate file
   def player_compatible(stream):
-    if 'segments' in stream:
-      for segment in stream['segments']:
-        if not player_compatible(segment):
-          return False
-      return True
     for i in ['youtube', 'vk', 'direct']:
        if i in stream:
            return True

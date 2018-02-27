@@ -55,11 +55,6 @@ def md5file(f_path, block_size=2**20):
 
   # TODO: Export this function into separate file
   def player_compatible(stream):
-    if 'segments' in stream:
-      for segment in stream['segments']:
-        if not player_compatible(segment):
-          return False
-      return True
     for i in ['youtube', 'vk', 'direct']:
        if i in stream:
            return True
@@ -72,9 +67,6 @@ def md5file(f_path, block_size=2**20):
       return 'https://api.thedrhax.pw/vk/video/' + stream['vk'] + '\?redirect'
     elif stream.get('direct'):
       return stream['direct']
-    elif stream.get('segments'):
-      segments = [mpv_file(segment) for segment in stream['segments']]
-      return '--merge-files ' + ' '.join(segments)
 
   def mpv_args(stream):
     result = '--sub-file=chats/v{}.ass '.format(stream['twitch'])
@@ -98,13 +90,6 @@ def md5file(f_path, block_size=2**20):
   <li>${text} (ВКонтакте): <a href="https://vk.com/video${stream['vk']}">${stream['vk']}</a></li>
 % elif stream.get('direct'):
   <li>${text}: <a href="${stream['direct']}">прямая ссылка</a></li>
-% elif stream.get('segments'):
-  <li>Запись сегментирована:</li>
-  <ul>
-  % for segment in stream['segments']:
-    ${source_link(segment, text=u'Часть {}'.format(stream['segments'].index(segment)+1))}
-  % endfor
-  </ul>
 % else:
   <li>${text}: отсутствует</li>
 % endif
@@ -146,11 +131,7 @@ if (window.location.hash) {
     ${source_link(stream)}
   </ul>
 % if stream.get('timecodes'):
-% if stream.get('segments'):
-  <li>Таймкоды (работают только в пределах первой части, см. <a href="https://github.com/TheDrHax/BlackSilverUfa/issues/5">#5</a>)</li>
-% else:
   <li>Таймкоды:</li>
-% endif
   <ul>
   % for timecode in stream['timecodes']:
     % if sec_with_offset(stream, timecode[0]) > 0:
@@ -168,18 +149,7 @@ if (window.location.hash) {
 </ul>
 
 % if player_compatible(stream):
-  % if stream.get('segments'):
-    % for segment in stream['segments']:
-      <%
-        segment_index = stream['segments'].index(segment)
-        segment_id = 100*(id+1) + segment_index
-        segment['twitch'] = stream['twitch']
-      %> \
-      ${player(segment_id, segment, text=u'Часть {}'.format(segment_index+1))}
-    % endfor
-  % else:
-    ${player(id, stream)}
-  % endif
+${player(id, stream)}
 % endif
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
