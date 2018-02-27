@@ -83,8 +83,8 @@ function spawnPlayer(id, stream) {
     subUrl: "/chats/v" + stream.twitch + ".ass",
     workerUrl: '/static/js/subtitles-octopus-worker.js',
   };
-  if (stream.subtitle_offset) {
-    subtitles_options.timeOffset = sec(stream.subtitle_offset);
+  if (stream.offset) {
+    subtitles_options.timeOffset = sec(stream.offset);
   }
   subtitles = new SubtitlesOctopus(subtitles_options);
 

@@ -69,8 +69,8 @@ def md5file(f_path, block_size=2**20):
   def mpv_args(stream):
     result = '--sub-file=chats/v{}.ass '.format(stream['twitch'])
 
-    if stream.get('subtitle_offset'):
-      result += '--sub-delay=-{} '.format(sec(stream['subtitle_offset']))
+    if stream.get('offset'):
+      result += '--sub-delay=-{} '.format(sec(stream['offset']))
 
     return result.strip()
 
