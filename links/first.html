@@ -416,7 +416,7 @@ if (window.location.hash) {
 
  
 <h2 id="233032380">
-  <a id="8" href="#233032380">Past Cure / The Apartment</a>
+  <a id="8" href="#233032380">Past Cure</a>
 </h2>
 
 <ul>
@@ -425,7 +425,7 @@ if (window.location.hash) {
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/233032380">233032380</a></li>
     <li>Субтитры: <a href="../chats/v233032380.ass">v233032380.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=U8seqd_gNo4">U8seqd_gNo4</a></li>
 
   </ul>
   <li>Таймкоды:</li>
@@ -435,15 +435,32 @@ if (window.location.hash) {
     <li> <a onclick="players[8].seek(11519)">3:11:59</a>  - The Apartment</li>
     <li> <a onclick="players[8].seek(12802)">3:33:22</a>  - Getting Over It</li>
   </ul>
-  <li>Стрим начинается с  <a onclick="players[8].seek(6604)">1:50:04</a> </li>
 </ul>
+
+    
+<p>
+    <a onclick="return spawnPlayer(8, JSON.parse('{&quot;name&quot;: &quot;Past Cure&quot;, &quot;twitch&quot;: &quot;233032380&quot;, &quot;_start&quot;: &quot;1:50:04&quot;, &quot;youtube&quot;: &quot;U8seqd_gNo4&quot;, &quot;subtitle_offset&quot;: &quot;1:49:06&quot;, &quot;note&quot;: &quot;\u0417\u0430\u043f\u0438\u0441\u044c \u0431\u044b\u043b\u0430 \u0440\u0430\u0437\u0431\u0438\u0442\u0430 \u043d\u0430 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b&quot;, &quot;timecodes&quot;: [[&quot;19:20&quot;, &quot;Little Nightmares&quot;], [&quot;1:50:04&quot;, &quot;Past Cure&quot;], [&quot;3:11:59&quot;, &quot;The Apartment&quot;], [&quot;3:33:22&quot;, &quot;Getting Over It&quot;]]}'))" id="button-8">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<p class="player-wrapper" id="player-wrapper-8" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "8" || id == "233032380") {
+    spawnPlayer(8, JSON.parse('{"name": "Past Cure", "twitch": "233032380", "_start": "1:50:04", "youtube": "U8seqd_gNo4", "subtitle_offset": "1:49:06", "note": "\u0417\u0430\u043f\u0438\u0441\u044c \u0431\u044b\u043b\u0430 \u0440\u0430\u0437\u0431\u0438\u0442\u0430 \u043d\u0430 \u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u044b", "timecodes": [["19:20", "Little Nightmares"], ["1:50:04", "Past Cure"], ["3:11:59", "The Apartment"], ["3:33:22", "Getting Over It"]]}'));
+  }
+}
+</script>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v233032380.ass" --player-passthrough hls twitch.tv/videos/233032380 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v233032380.ass --sub-delay=-6546 ytdl://U8seqd_gNo4
 </code></pre>
 </div></div>
 
