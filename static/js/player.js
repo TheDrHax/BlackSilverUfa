@@ -37,7 +37,11 @@ function spawnPlayer(id, stream) {
 
   var options = {};
   if (stream.end) {
-    options.duration = sec(stream.end);
+    options.duration = (
+      stream.offset ?
+        sec(stream.end) - sec(stream.offset) :
+        sec(stream.end)
+    );
   }
   player = plyr.setup('#player-' + id, options)[0];
 
@@ -73,7 +77,11 @@ function spawnPlayer(id, stream) {
   if (stream.start) {
     // Seek to specific position on first start of the video
     player.on('ready', function(event) {
-      player.seek(sec(stream.start));
+      player.seek(
+        stream.offset ?
+          sec(stream.start) - sec(stream.offset) :
+          sec(stream.start)
+      );
     });
   }
 

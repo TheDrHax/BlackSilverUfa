@@ -4,6 +4,7 @@
 
 import json
 import hashlib
+import datetime
 
 def md5file(f_path, block_size=2**20):
     md5 = hashlib.md5()
@@ -43,6 +44,15 @@ def md5file(f_path, block_size=2**20):
   def sec(t):
     return sum(int(x) * 60 ** i for i,x in enumerate(reversed(t.split(":"))))
 
+  def sec_with_offset(stream, t):
+    if stream.get('offset'):
+      return sec(t) - sec(stream['offset'])
+    else:
+      return sec(t)
+
+  def sec_to_timecode(t):
+    return str(datetime.timedelta(seconds=t))
+
   # TODO: Export this function into separate file
   def player_compatible(stream):
     if 'segments' in stream:
@@ -76,8 +86,9 @@ def md5file(f_path, block_size=2**20):
 
 %>
 
-<%def name="timecode_link(id, timecode)"> \
-<a onclick="players[${id}].seek(${sec(timecode)})">${timecode}</a> \
+<%def name="timecode_link(id, stream, timecode)">\
+<% seconds = sec_with_offset(stream, timecode) %>\
+<a onclick="players[${id}].seek(${seconds})">${sec_to_timecode(seconds)}</a>\
 </%def>
 
 <%def name="source_link(stream, text=u'Запись')">\
@@ -142,15 +153,17 @@ if (window.location.hash) {
 % endif
   <ul>
   % for timecode in stream['timecodes']:
-    <li>${timecode_link(id, timecode[0])} - ${timecode[1]}</li>
+    % if sec_with_offset(stream, timecode[0]) > 0:
+    <li>${timecode_link(id, stream, timecode[0])} - ${timecode[1]}</li>
+    % endif
   % endfor
   </ul>
 % endif
 % if stream.get('start'):
-  <li>Стрим начинается с ${timecode_link(id, stream['start'])}</li>
+  <li>Стрим начинается с ${timecode_link(id, stream, stream['start'])}</li>
 % endif
 % if stream.get('end'):
-  <li>Стрим заканчивается в ${timecode_link(id, stream['end'])}</li>
+  <li>Стрим заканчивается в ${timecode_link(id, stream, stream['end'])}</li>
 % endif
 </ul>
 
