@@ -83,6 +83,23 @@ def md5file(f_path, block_size=2**20):
 <a onclick="players[${id}].seek(${seconds})">${sec_to_timecode(seconds)}</a>\
 </%def>
 
+<%def name="timecode_list(id, stream)">\
+<%
+  signs = [sec_with_offset(stream, timecode[0]) > 0
+           for timecode in stream['timecodes']]
+%>\
+% if True in signs:
+  <li>Таймкоды:</li>
+  <ul>
+  % for timecode in stream['timecodes']:
+    % if sec_with_offset(stream, timecode[0]) > 0:
+    <li>${timecode_link(id, stream, timecode[0])} - ${timecode[1]}</li>
+    % endif
+  % endfor
+  </ul>
+% endif
+</%def>
+
 <%def name="source_link(stream, text=u'Запись')">\
 % if stream.get('youtube'):
   <li>${text} (YouTube): <a href="https://www.youtube.com/watch?v=${stream['youtube']}">${stream['youtube']}</a></li>
@@ -131,14 +148,7 @@ if (window.location.hash) {
     ${source_link(stream)}
   </ul>
 % if stream.get('timecodes'):
-  <li>Таймкоды:</li>
-  <ul>
-  % for timecode in stream['timecodes']:
-    % if sec_with_offset(stream, timecode[0]) > 0:
-    <li>${timecode_link(id, stream, timecode[0])} - ${timecode[1]}</li>
-    % endif
-  % endfor
-  </ul>
+  ${timecode_list(id, stream)}
 % endif
 % if stream.get('start'):
   <li>Стрим начинается с ${timecode_link(id, stream, stream['start'])}</li>
