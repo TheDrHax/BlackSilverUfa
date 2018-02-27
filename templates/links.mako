@@ -1,5 +1,5 @@
-<%inherit file="base.mako" />
-<%namespace file="markdown.mako" name="md" />
+<%inherit file="include/base.mako" />
+<%namespace file="include/elements.mako" name="el" />
 <%!
 
 import json
@@ -164,13 +164,13 @@ ${player(id, stream)}
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
-<%md:code_block>\
+<%el:code_block>\
 % if player_compatible(stream):
 mpv ${mpv_args(stream)} ${mpv_file(stream)}
 % else:
 streamlink -p "mpv ${mpv_args(stream)}" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
 % endif
-</%md:code_block>
+</%el:code_block>
 
 <hr>
 </%def>
@@ -186,9 +186,9 @@ ${gen_stream(id, stream)}
 
 <p>Быстрый старт:</p>
 <ul>
-  <li><%md:code>git clone https://github.com/TheDrHax/BlackSilverUfa.git</%md:code></li>
-  <li><%md:code>cd BlackSilverUfa</%md:code></li>
-  <li><%md:code>git checkout gh-pages</%md:code></li>
+  <li><%el:code>git clone https://github.com/TheDrHax/BlackSilverUfa.git</%el:code></li>
+  <li><%el:code>cd BlackSilverUfa</%el:code></li>
+  <li><%el:code>git checkout gh-pages</%el:code></li>
   <li>Команда, приведённая выше</li>
 </ul>
 </%block>

@@ -7,3 +7,7 @@
   <pre class="highlight"><code>${caller.body()}</code></pre>
 </div></div>
 </%def>
+
+<%def name="header(level=1)">\
+<h${level}>${caller.body()}</h${level}>\
+</%def>

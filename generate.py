@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
     # Generate src/player.html for backward compatibility
     with open("src/player.html", "w+") as output:
-        t = lookup.get_template('/player.mako')
+        t = lookup.get_template('/redirect.mako')
         output.write(t.render(**args).strip())
 
     # # Generate links/*.md

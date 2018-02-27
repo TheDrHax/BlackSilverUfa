@@ -1,8 +1,5 @@
-<%inherit file="base.mako" />
-
-<%def name="header(level=1)">\
-<h${level}>${caller.body()}</h${level}>\
-</%def>
+<%inherit file="include/base.mako" />
+<%namespace file="include/elements.mako" name="el" />
 
 <%block name="head">
 <title>Главная страница | ${config['title']}</title>
@@ -38,9 +35,9 @@
 
 % for category in categories:
   ## Заголовок категории
-  <%self:header level="${category['level']}">
+  <%el:header level="${category['level']}">
     ${category['name']}
-  </%self:header>
+  </%el:header>
 
   ## Описание категории
   % if category.get('description'):
