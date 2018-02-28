@@ -106,7 +106,7 @@
       { "name": "2", "twitch": "222538863" },
       { "name": "3", "twitch": "223916781" },
       { "name": "4", "twitch": "224560087" },
-      { "name": "5", "twitch": "225950740" }
+      { "name": "5", "twitch": "225950740", "start": "27:00" }
     ]
   },
   {
@@ -191,19 +191,6 @@
       { "name": "Remothered: Tormented Fathers", "twitch": "224600319" },
       { "name": "Shadow of the Colossus", "twitch": "226597573" },
       { "name": "Rise of Insanity", "twitch": "233711282", "start": "33:29" }
-    ]
-  },
-  {
-    "name": "Sub-Day и стримы с несколькими играми",
-    "category": "other",
-    "filename": "subday.html",
-    "streams": [
-      { "name": "1", "twitch": "180397849" },
-      { "name": "2", "twitch": "212431882" },
-      { "name": "3", "twitch": "212678883" },
-      { "name": "4", "twitch": "222198164" },
-      { "name": "5", "twitch": "225950740" },
-      { "name": "6", "twitch": "230659866" }
     ]
   },
   {
@@ -301,12 +288,27 @@
       { "name": "Divinity: Original Sin II", "twitch": "175198877" },
       { "name": "Home Sweet Home", "twitch": "178108639" },
       { "name": "Cuphead", "twitch": "178361269" },
+      { "name": "Road Redemption / Battle Chasers / Stardew Valley", "twitch": "180397849" },
       { "name": "Xenoblade Chronicles 2", "twitch": "206933269" },
+      { "name": "The Coma: Recut / Lone Survivor", "twitch": "212431882", "start": "1:44:54" },
+      { "name": "Stifled", "twitch": "212678883" },
+      { "name": "The Witchkin / Emily Wants to Play Too / LeftWay", "twitch": "222198164" },
+      { "name": "My Time at Portia", "twitch": "225950740", "start": "2:11:10" },
       { "name": "Yakuza 6: The Song of Life", "twitch": "226000025" },
       { "name": "Last Guardian", "twitch": "227626210" },
+      { "name": "Never Again / Boogeyman 2", "twitch": "230659866" },
       { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
       { "name": "Past Cure", "twitch": "233032380", "start": "1:50:04", "segment": 1 },
       { "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "start": "19:54" }
+    ]
+  },
+  {
+    "name": "Uncanny Valley",
+    "category": "finished",
+    "filename": "uncanny-valley.html",
+    "streams": [
+      { "name": "1", "twitch": "212431882", "start": "20:47" },
+      { "name": "2", "twitch": "212678883", "start": "2:59:00" }
     ]
   },
   {
