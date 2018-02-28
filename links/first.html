@@ -481,7 +481,7 @@ if (window.location.hash) {
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/233355849">233355849</a></li>
     <li>Субтитры: <a href="../chats/v233355849.ass">v233355849.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=J-ExEwSLDiE">J-ExEwSLDiE</a></li>
 
   </ul>
     <li>Таймкоды:</li>
@@ -493,11 +493,29 @@ if (window.location.hash) {
 </ul>
 
 
+<p>
+    <a onclick="return spawnPlayer(9, JSON.parse('{&quot;name&quot;: &quot;Final Fantasy XV: Windows Edition (demo)&quot;, &quot;twitch&quot;: &quot;233355849&quot;, &quot;youtube&quot;: &quot;J-ExEwSLDiE&quot;, &quot;timecodes&quot;: [[&quot;19:54&quot;, &quot;Final Fantasy XV&quot;], [&quot;1:18:31&quot;, &quot;Kingdom Come: Deliverance&quot;]]}'))" id="button-9">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<p class="player-wrapper" id="player-wrapper-9" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "9" || id == "233355849") {
+    spawnPlayer(9, JSON.parse('{"name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "youtube": "J-ExEwSLDiE", "timecodes": [["19:54", "Final Fantasy XV"], ["1:18:31", "Kingdom Come: Deliverance"]]}'));
+  }
+}
+</script>
+
+
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v233355849.ass" --player-passthrough hls twitch.tv/videos/233355849 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v233355849.ass ytdl://J-ExEwSLDiE
 </code></pre>
 </div></div>
 

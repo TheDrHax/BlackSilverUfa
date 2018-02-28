@@ -330,24 +330,41 @@ if (window.location.hash) {
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/233355849">233355849</a></li>
     <li>Субтитры: <a href="../chats/v233355849.ass">v233355849.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=JjnSdFQr7ZA">JjnSdFQr7ZA</a></li>
 
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[6].seek(1194)">0:19:54</a> - Final Fantasy XV</li>
-    <li><a onclick="players[6].seek(4711)">1:18:31</a> - Kingdom Come: Deliverance</li>
+    <li><a onclick="players[6].seek(113)">0:01:53</a> - Kingdom Come: Deliverance</li>
   </ul>
 
-  <li>Стрим начинается с <a onclick="players[6].seek(4711)">1:18:31</a></li>
+  <li>Стрим начинается с <a onclick="players[6].seek(113)">0:01:53</a></li>
 </ul>
+
+
+<p>
+    <a onclick="return spawnPlayer(6, JSON.parse('{&quot;name&quot;: &quot;7&quot;, &quot;twitch&quot;: &quot;233355849&quot;, &quot;start&quot;: &quot;1:18:31&quot;, &quot;youtube&quot;: &quot;JjnSdFQr7ZA&quot;, &quot;offset&quot;: &quot;1:16:38&quot;, &quot;timecodes&quot;: [[&quot;19:54&quot;, &quot;Final Fantasy XV&quot;], [&quot;1:18:31&quot;, &quot;Kingdom Come: Deliverance&quot;]]}'))" id="button-6">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<p class="player-wrapper" id="player-wrapper-6" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "6" || id == "233355849") {
+    spawnPlayer(6, JSON.parse('{"name": "7", "twitch": "233355849", "start": "1:18:31", "youtube": "JjnSdFQr7ZA", "offset": "1:16:38", "timecodes": [["19:54", "Final Fantasy XV"], ["1:18:31", "Kingdom Come: Deliverance"]]}'));
+  }
+}
+</script>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v233355849.ass" --player-passthrough hls twitch.tv/videos/233355849 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v233355849.ass --sub-delay=-4598 ytdl://JjnSdFQr7ZA
 </code></pre>
 </div></div>
 
