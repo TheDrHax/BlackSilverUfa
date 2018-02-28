@@ -24,14 +24,8 @@
       { "name": "9", "twitch": "213247693" },
       { "name": "10", "twitch": "213846142" },
       { "name": "11", "twitch": "222913630" },
-      {
-        "name": "12 (часть 1)", "twitch": "225279322",
-        "vk": "87862793_456241096"
-      },
-      {
-        "name": "12 (часть 2)", "twitch": "225279322",
-        "vk": "87862793_456241095", "offset": "3:46:12"
-      },
+      { "name": "12 (часть 1)", "twitch": "225279322" },
+      { "name": "12 (часть 2)", "twitch": "225279322", "segment": 1 },
       { "name": "13", "twitch": "227264292" },
       { "name": "14", "twitch": "232346216" }
     ]
@@ -123,14 +117,8 @@
       { "name": "1", "twitch": "215612485" },
       { "name": "2", "twitch": "215625839" },
       { "name": "3", "twitch": "215959213" },
-      {
-        "name": "4 (часть 1)", "twitch": "216293216",
-        "vk": "87862793_456241029"
-      },
-      {
-        "name": "4 (часть 2)", "twitch": "216293216",
-        "vk": "87862793_456241030", "offset": "3:32:32"
-      },
+      { "name": "4 (часть 1)", "twitch": "216293216" },
+      { "name": "4 (часть 2)", "twitch": "216293216", "segment": 1 },
       { "name": "5", "twitch": "216912425" },
       { "name": "6", "twitch": "217247484" },
       { "name": "7", "twitch": "218542652" },
@@ -182,14 +170,8 @@
       { "name": "1", "twitch": "164633577" },
       { "name": "2", "start": "2:30:15", "twitch": "165630859" },
       { "name": "3", "twitch": "167924021" },
-      {
-        "name": "4 (часть 1)", "twitch": "168936842",
-        "vk": "87862793_456240657"
-      },
-      {
-        "name": "4 (часть 2)", "twitch": "168936842",
-        "vk": "87862793_456240658", "offset": "1:40:36"
-      },
+      { "name": "4 (часть 1)", "twitch": "168936842" },
+      { "name": "4 (часть 2)", "twitch": "168936842", "segment": 1 },
       { "name": "5", "twitch": "173993139" },
       { "name": "6", "twitch": "175695460" }
     ]
@@ -323,14 +305,8 @@
       { "name": "Yakuza 6: The Song of Life", "twitch": "226000025" },
       { "name": "Last Guardian", "twitch": "227626210" },
       { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
-      {
-        "name": "Past Cure", "twitch": "233032380", "start": "1:50:04",
-        "youtube": "U8seqd_gNo4", "offset": "1:49:06"
-      },
-      {
-        "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849",
-        "youtube": "J-ExEwSLDiE"
-      }
+      { "name": "Past Cure", "twitch": "233032380", "start": "1:50:04", "segment": 1 },
+      { "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "start": "19:54" }
     ]
   },
   {
@@ -344,10 +320,7 @@
       { "name": "4", "twitch": "229286098" },
       { "name": "5", "twitch": "229619716" },
       { "name": "6", "twitch": "230991137" },
-      {
-        "name": "7", "twitch": "233355849", "start": "1:18:31",
-        "youtube": "JjnSdFQr7ZA", "offset": "1:16:38"
-      }
+      { "name": "7", "twitch": "233355849", "segment": 1, "start": "1:18:31" }
     ]
   },
   {
@@ -365,10 +338,7 @@
     "filename": "little-nightmares.html",
     "streams": [
       { "name": "DLC: The Depths, The Hideaway", "twitch": "200401270" },
-      {
-        "name": "DLC: The Residence", "twitch": "233032380",
-        "youtube": "4q-FGOYnXPk"
-      }
+      { "name": "DLC: The Residence", "twitch": "233032380" }
     ]
   },
   {
@@ -377,10 +347,7 @@
     "filename": "getting-over-it.html",
     "streams": [
       { "name": "1", "twitch": "219819121", "start": "1:52:00" },
-      {
-        "name": "2", "twitch": "233032380", "start": "3:33:04",
-        "youtube": "IBDhRIYPURI", "offset": "3:32:56"
-      }
+      { "name": "2", "twitch": "233032380", "start": "3:33:04", "segment": 2 }
     ]
   }
 ]

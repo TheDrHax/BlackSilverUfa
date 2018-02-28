@@ -147,17 +147,17 @@ if (window.location.hash) {
     <li>Субтитры: <a href="../chats/v${stream['twitch']}.ass">v${stream['twitch']}.ass</a></li>
     ${source_link(stream)}
   </ul>
+% if stream.get('offset'):
+  <li>Эта запись смещена на ${stream['offset']} от начала стрима</li>
+% endif
 % if stream.get('timecodes'):
   ${timecode_list(id, stream)}
 % endif
 % if stream.get('start'):
-  <li>Стрим начинается с ${timecode_link(id, stream, stream['start'])}</li>
+  <li>Игра начинается с ${timecode_link(id, stream, stream['start'])}</li>
 % endif
 % if stream.get('end'):
-  <li>Стрим заканчивается в ${timecode_link(id, stream, stream['end'])}</li>
-% endif
-% if stream.get('offset'):
-  <li>Эта запись смещена на ${stream['offset']} от начала стрима</li>
+  <li>Запись заканчивается в ${timecode_link(id, stream, stream['end'])}</li>
 % endif
 </ul>
 
