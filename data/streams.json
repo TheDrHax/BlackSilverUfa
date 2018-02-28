@@ -35,36 +35,21 @@
   "156558088": { "youtube": "SPbHXjRJHyc" },
   "158301208": { "youtube": "CkxzFYX2QDE" },
   "158812902": { "youtube": "nLo-y_ig9Mg" },
-  "160844876": {
-    "end": "52:18",
-    "note": "Трансляция была прервана по техническим причинам",
-    "vk": "87862793_456240552"
-  },
+  "160844876": { "end": "52:18", "vk": "87862793_456240552" },
   "160852861": { "youtube": "LF6RMOOvA9M" },
-  "161110508": {
-    "note": "Трансляция была прервана по техническим причинам",
-    "youtube": "8VCQkjjMu-I"
-  },
+  "161110508": { "youtube": "8VCQkjjMu-I" },
   "161115703": { "youtube": "vxbjz2-Lmgg" },
   "162350334": { "youtube": "hZSVfTxT7Qo" },
-  "162844424": {
-    "note": "Трансляция была прервана по техническим причинам",
-    "youtube": "8lhCzaGLmK8"
-  },
+  "162844424": { "youtube": "8lhCzaGLmK8" },
   "163361169": { "youtube": "Qt1N7foBrUE" },
   "163612448": { "youtube": "ujz4o78-orM" },
-  "164116949": {
-    "note": "Трансляция была прервана по техническим причинам",
-    "youtube": "5JOCDsqrhOY"
-  },
+  "164116949": { "youtube": "5JOCDsqrhOY" },
   "164165380": { "youtube": "yH9DIXACVkA" },
   "164633577": { "youtube": "0XeyDh7T0Jw" },
   "165359272": { "youtube": "qInCMF9MuEs" },
   "165630859": { "youtube": "7r6_dwXVXgE" },
   "167924021": { "youtube": "9i6wUrnvLy8" },
-  "168936842": {
-    "note": "Запись сегментирована."
-  },
+  "168936842": {},
   "172968603": { "youtube": "fxwks5MC9Ns" },
   "173993139": { "youtube": "eGY5W8Dtehs" },
   "174225353": { "youtube": "ejp3UDoKx4k" },
@@ -217,14 +202,11 @@
   "215959213": { "youtube": "h2rTS3adq9w" },
   "215974261": { "youtube": "-8anORo35tQ" },
   "216293216": {
-    "note": "Официальной записи <a href=\"https://vk.com/b_silver?w=wall-28387068_3181362%2Fall\">не будет</a>. Запись сегментирована."
+    "note": "Официальной записи <a href=\"https://vk.com/b_silver?w=wall-28387068_3181362%2Fall\">не будет</a>."
   },
   "216912425": { "youtube": "jyhO-Szikqc" },
   "217247484": { "youtube": "-6su7L3esVw" },
-  "217814961": {
-    "note": "Трансляция была прервана по техническим причинам",
-    "youtube": "iKf4tl2Q7Ok"
-  },
+  "217814961": { "youtube": "iKf4tl2Q7Ok" },
   "217852593": { "youtube": "6OQMTzVS8po" },
   "218542652": { "youtube": "BVQTG-qH8fY" },
   "219166190": { "youtube": "Fd2nmniSz34" },
@@ -276,7 +258,6 @@
   },
   "224600319": { "youtube": "43q8zNpTCCE" },
   "225279322": {
-    "note": "Официальной записи не будет. Запись сегментирована.",
     "timecodes": [
       ["11:49", "Hunt: Showdown (поиски коопа)"],
       ["24:40", "Hunt: Showdown"],
@@ -312,11 +293,7 @@
     ]
   },
   "230991137": { "youtube": "URA98lKNfEI" },
-  "231626788": {
-    "youtube": "lRQvjSeUD2s",
-    "offset": "17:49",
-    "note": "Первые 17 минут и 49 секунд стрима не были загружены на YouTube."
-  },
+  "231626788": { "youtube": "lRQvjSeUD2s", "offset": "17:49" },
   "232346216": {
     "youtube": "MCHaIvn1sO4",
     "timecodes": [
@@ -325,7 +302,6 @@
     ]
   },
   "233032380": {
-    "note": "Запись была разбита на фрагменты.",
     "timecodes": [
       ["19:20", "Little Nightmares"],
       ["1:50:04", "Past Cure"],
