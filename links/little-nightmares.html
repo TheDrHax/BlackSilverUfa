@@ -17,7 +17,7 @@
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=89a35173e5644b8acd4a85b39b153622"></script>
+<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
 
 <style>
 .main-content {
@@ -114,19 +114,11 @@ if (window.location.hash) {
       <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=4q-FGOYnXPk">4q-FGOYnXPk</a></li>
 
   </ul>
-    <li>Таймкоды:</li>
-  <ul>
-    <li><a onclick="players[1].seek(1160)">0:19:20</a> - Little Nightmares</li>
-    <li><a onclick="players[1].seek(6604)">1:50:04</a> - Past Cure</li>
-    <li><a onclick="players[1].seek(11519)">3:11:59</a> - The Apartment</li>
-    <li><a onclick="players[1].seek(12784)">3:33:04</a> - Getting Over It</li>
-  </ul>
-
 </ul>
 
 
 <p>
-    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;name&quot;: &quot;DLC: The Residence&quot;, &quot;twitch&quot;: &quot;233032380&quot;, &quot;youtube&quot;: &quot;4q-FGOYnXPk&quot;, &quot;timecodes&quot;: [[&quot;19:20&quot;, &quot;Little Nightmares&quot;], [&quot;1:50:04&quot;, &quot;Past Cure&quot;], [&quot;3:11:59&quot;, &quot;The Apartment&quot;], [&quot;3:33:04&quot;, &quot;Getting Over It&quot;]]}'))" id="button-1">
+    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;name&quot;: &quot;DLC: The Residence&quot;, &quot;twitch&quot;: &quot;233032380&quot;, &quot;youtube&quot;: &quot;4q-FGOYnXPk&quot;}'))" id="button-1">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
@@ -137,7 +129,7 @@ if (window.location.hash) {
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
   if (id == "1" || id == "233032380") {
-    spawnPlayer(1, JSON.parse('{"name": "DLC: The Residence", "twitch": "233032380", "youtube": "4q-FGOYnXPk", "timecodes": [["19:20", "Little Nightmares"], ["1:50:04", "Past Cure"], ["3:11:59", "The Apartment"], ["3:33:04", "Getting Over It"]]}'));
+    spawnPlayer(1, JSON.parse('{"name": "DLC: The Residence", "twitch": "233032380", "youtube": "4q-FGOYnXPk"}'));
   }
 }
 </script>

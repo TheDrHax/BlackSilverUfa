@@ -74,16 +74,16 @@ function spawnPlayer(id, stream) {
   }
   player.source(source);
 
-  if (stream.start) {
-    // Seek to specific position on first start of the video
-    player.on('ready', function(event) {
-      player.seek(
-        stream.offset ?
-          sec(stream.start) - sec(stream.offset) :
-          sec(stream.start)
-      );
-    });
-  }
+  // if (stream.start) {
+  //   // Seek to specific position on first start of the video
+  //   player.on('ready', function(event) {
+  //     player.seek(
+  //       stream.offset ?
+  //         sec(stream.start) - sec(stream.offset) :
+  //         sec(stream.start)
+  //     );
+  //   });
+  // }
 
   // Connect Subtitles Octopus to video
   var subtitles_options = {

@@ -17,7 +17,7 @@
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=89a35173e5644b8acd4a85b39b153622"></script>
+<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
 
 <style>
 .main-content {
@@ -249,17 +249,12 @@ if (window.location.hash) {
       <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=uXXquPRJHOw">uXXquPRJHOw</a></li>
 
   </ul>
-    <li>Таймкоды:</li>
-  <ul>
-    <li><a onclick="players[4].seek(1620)">0:27:00</a> - Monster Hunter World</li>
-    <li><a onclick="players[4].seek(7870)">2:11:10</a> - My Time at Portia</li>
-  </ul>
-
+  <li>Игра начинается с <a onclick="players[4].seek(1620)">0:27:00</a></li>
 </ul>
 
 
 <p>
-    <a onclick="return spawnPlayer(4, JSON.parse('{&quot;name&quot;: &quot;5&quot;, &quot;twitch&quot;: &quot;225950740&quot;, &quot;youtube&quot;: &quot;uXXquPRJHOw&quot;, &quot;timecodes&quot;: [[&quot;27:00&quot;, &quot;Monster Hunter World&quot;], [&quot;2:11:10&quot;, &quot;My Time at Portia&quot;]]}'))" id="button-4">
+    <a onclick="return spawnPlayer(4, JSON.parse('{&quot;name&quot;: &quot;5&quot;, &quot;twitch&quot;: &quot;225950740&quot;, &quot;start&quot;: &quot;27:00&quot;, &quot;youtube&quot;: &quot;uXXquPRJHOw&quot;}'))" id="button-4">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
@@ -270,7 +265,7 @@ if (window.location.hash) {
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
   if (id == "4" || id == "225950740") {
-    spawnPlayer(4, JSON.parse('{"name": "5", "twitch": "225950740", "youtube": "uXXquPRJHOw", "timecodes": [["27:00", "Monster Hunter World"], ["2:11:10", "My Time at Portia"]]}'));
+    spawnPlayer(4, JSON.parse('{"name": "5", "twitch": "225950740", "start": "27:00", "youtube": "uXXquPRJHOw"}'));
   }
 }
 </script>

@@ -17,7 +17,7 @@
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=89a35173e5644b8acd4a85b39b153622"></script>
+<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
 
 <style>
 .main-content {
@@ -333,18 +333,13 @@ if (window.location.hash) {
       <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=JjnSdFQr7ZA">JjnSdFQr7ZA</a></li>
 
   </ul>
-    <li>Таймкоды:</li>
-  <ul>
-    <li><a onclick="players[6].seek(113)">0:01:53</a> - Kingdom Come: Deliverance</li>
-  </ul>
-
-  <li>Стрим начинается с <a onclick="players[6].seek(113)">0:01:53</a></li>
   <li>Эта запись смещена на 1:16:38 от начала стрима</li>
+  <li>Игра начинается с <a onclick="players[6].seek(113)">0:01:53</a></li>
 </ul>
 
 
 <p>
-    <a onclick="return spawnPlayer(6, JSON.parse('{&quot;name&quot;: &quot;7&quot;, &quot;twitch&quot;: &quot;233355849&quot;, &quot;start&quot;: &quot;1:18:31&quot;, &quot;youtube&quot;: &quot;JjnSdFQr7ZA&quot;, &quot;offset&quot;: &quot;1:16:38&quot;, &quot;timecodes&quot;: [[&quot;19:54&quot;, &quot;Final Fantasy XV&quot;], [&quot;1:18:31&quot;, &quot;Kingdom Come: Deliverance&quot;]]}'))" id="button-6">
+    <a onclick="return spawnPlayer(6, JSON.parse('{&quot;name&quot;: &quot;7&quot;, &quot;twitch&quot;: &quot;233355849&quot;, &quot;segment&quot;: 1, &quot;start&quot;: &quot;1:18:31&quot;, &quot;youtube&quot;: &quot;JjnSdFQr7ZA&quot;, &quot;offset&quot;: &quot;1:16:38&quot;}'))" id="button-6">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
@@ -355,7 +350,7 @@ if (window.location.hash) {
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
   if (id == "6" || id == "233355849") {
-    spawnPlayer(6, JSON.parse('{"name": "7", "twitch": "233355849", "start": "1:18:31", "youtube": "JjnSdFQr7ZA", "offset": "1:16:38", "timecodes": [["19:54", "Final Fantasy XV"], ["1:18:31", "Kingdom Come: Deliverance"]]}'));
+    spawnPlayer(6, JSON.parse('{"name": "7", "twitch": "233355849", "segment": 1, "start": "1:18:31", "youtube": "JjnSdFQr7ZA", "offset": "1:16:38"}'));
   }
 }
 </script>

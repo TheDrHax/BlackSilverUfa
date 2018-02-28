@@ -17,7 +17,7 @@
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=89a35173e5644b8acd4a85b39b153622"></script>
+<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
 
 <style>
 .main-content {
@@ -63,12 +63,12 @@
       <li>Запись (ВКонтакте): <a href="https://vk.com/video87862793_456240552">87862793_456240552</a></li>
 
   </ul>
-  <li>Стрим заканчивается в <a onclick="players[0].seek(3138)">0:52:18</a></li>
+  <li>Запись заканчивается в <a onclick="players[0].seek(3138)">0:52:18</a></li>
 </ul>
 
 
 <p>
-    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;name&quot;: &quot;1&quot;, &quot;twitch&quot;: &quot;160844876&quot;, &quot;end&quot;: &quot;52:18&quot;, &quot;vk&quot;: &quot;87862793_456240552&quot;}'))" id="button-0">
+    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;name&quot;: &quot;1&quot;, &quot;twitch&quot;: &quot;160844876&quot;, &quot;vk&quot;: &quot;87862793_456240552&quot;, &quot;end&quot;: &quot;52:18&quot;}'))" id="button-0">
     <b>▶ Открыть плеер</b>
   </a>
 </p>
@@ -79,7 +79,7 @@
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
   if (id == "0" || id == "160844876") {
-    spawnPlayer(0, JSON.parse('{"name": "1", "twitch": "160844876", "end": "52:18", "vk": "87862793_456240552"}'));
+    spawnPlayer(0, JSON.parse('{"name": "1", "twitch": "160844876", "vk": "87862793_456240552", "end": "52:18"}'));
   }
 }
 </script>
