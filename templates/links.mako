@@ -156,6 +156,9 @@ if (window.location.hash) {
 % if stream.get('end'):
   <li>Стрим заканчивается в ${timecode_link(id, stream, stream['end'])}</li>
 % endif
+% if stream.get('offset'):
+  <li>Эта запись смещена на ${stream['offset']} от начала стрима</li>
+% endif
 </ul>
 
 % if player_compatible(stream):
