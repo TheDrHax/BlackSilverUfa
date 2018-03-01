@@ -465,18 +465,37 @@ if (window.location.hash) {
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/233711282">233711282</a></li>
     <li>Субтитры: <a href="../chats/v233711282.ass">v233711282.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=UTVKKl5OZng">UTVKKl5OZng</a></li>
 
   </ul>
-  <li>Игра начинается с <a onclick="players[9].seek(2009)">0:33:29</a></li>
+  <li>Эта запись смещена на 32:54 от начала стрима</li>
+  <li>Игра начинается с <a onclick="players[9].seek(35)">0:00:35</a></li>
 </ul>
+
+
+<p>
+    <a onclick="return spawnPlayer(9, JSON.parse('{&quot;name&quot;: &quot;Rise of Insanity&quot;, &quot;twitch&quot;: &quot;233711282&quot;, &quot;start&quot;: &quot;33:29&quot;, &quot;youtube&quot;: &quot;UTVKKl5OZng&quot;, &quot;offset&quot;: &quot;32:54&quot;}'))" id="button-9">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<p class="player-wrapper" id="player-wrapper-9" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "9" || id == "233711282") {
+    spawnPlayer(9, JSON.parse('{"name": "Rise of Insanity", "twitch": "233711282", "start": "33:29", "youtube": "UTVKKl5OZng", "offset": "32:54"}'));
+  }
+}
+</script>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v233711282.ass" --player-passthrough hls twitch.tv/videos/233711282 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v233711282.ass --sub-delay=-1974 ytdl://UTVKKl5OZng
 </code></pre>
 </div></div>
 
