@@ -835,28 +835,45 @@ if (window.location.hash) {
 </h2>
 
 <ul>
+  <li>Примечание: Официальная запись <a href="https://vk.com/wall-28387068_3201905">заблокирована</a>.</li>
   <li>Ссылки:</li>
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/234037742">234037742</a></li>
     <li>Субтитры: <a href="../chats/v234037742.ass">v234037742.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (ВКонтакте): <a href="https://vk.com/video87862793_456241139">87862793_456241139</a></li>
 
   </ul>
     <li>Таймкоды:</li>
   <ul>
     <li><a onclick="players[15].seek(824)">0:13:44</a> - Deep Rock Galactic</li>
-    <li><a onclick="players[15].seek(8613)">2:23:33</a> - Warhammer: Vermintide 2</li>
-    <li><a onclick="players[15].seek(16736)">4:38:56</a> - Hunt: Showdown (поиски коопа, безуспешные)</li>
   </ul>
 
 </ul>
+
+
+<p>
+    <a onclick="return spawnPlayer(15, JSON.parse('{&quot;name&quot;: &quot;15&quot;, &quot;twitch&quot;: &quot;234037742&quot;, &quot;note&quot;: &quot;\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c <a href=\&quot;https://vk.com/wall-28387068_3201905\&quot;>\u0437\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u0430</a>.&quot;, &quot;vk&quot;: &quot;87862793_456241139&quot;, &quot;timecodes&quot;: [[&quot;13:44&quot;, &quot;Deep Rock Galactic&quot;]]}'))" id="button-15">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<p class="player-wrapper" id="player-wrapper-15" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "15" || id == "234037742") {
+    spawnPlayer(15, JSON.parse('{"name": "15", "twitch": "234037742", "note": "\u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c <a href=\"https://vk.com/wall-28387068_3201905\">\u0437\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u0430</a>.", "vk": "87862793_456241139", "timecodes": [["13:44", "Deep Rock Galactic"]]}'));
+  }
+}
+</script>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v234037742.ass" --player-passthrough hls twitch.tv/videos/234037742 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v234037742.ass https://api.thedrhax.pw/vk/video/87862793_456241139\?redirect
 </code></pre>
 </div></div>
 
