@@ -3,6 +3,7 @@
 <%!
 
 import json
+import urllib
 import hashlib
 import datetime
 
@@ -114,7 +115,15 @@ def md5file(f_path, block_size=2**20):
 
 <%def name="player(id, stream, text=u'Открыть плеер')">
 <p>
-  <% player_data = json.dumps(stream).replace('"', '&quot;') %>\
+  <%
+  player_data_dict = stream.copy()
+
+  for param in ['name', 'note', 'timecodes', 'segment']:
+    player_data_dict.pop(param, None)
+
+  player_data = json.dumps(player_data_dict).replace('"', '&quot;')
+
+  %>\
   <a onclick="return spawnPlayer(${id}, JSON.parse('${player_data}'))" id="button-${id}">
     <b>▶ ${text}</b>
   </a>
@@ -126,7 +135,7 @@ def md5file(f_path, block_size=2**20):
 if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
   if (id == "${id}" || id == "${stream['twitch']}") {
-    spawnPlayer(${id}, JSON.parse('${json.dumps(stream)}'));
+    spawnPlayer(${id}, JSON.parse('${json.dumps(player_data_dict)}'));
   }
 }
 </script>
