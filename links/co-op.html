@@ -950,32 +950,102 @@ if (window.location.hash) {
 
  
 <h2 id="234373553">
-  <a id="17" href="#234373553">16</a>
+  <a id="17" href="#234373553">16 (часть 1)</a>
 </h2>
 
 <ul>
+  <li>Примечание: Запись задерживается. Пусть пока резервная побудет здесь.</li>
   <li>Ссылки:</li>
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/234373553">234373553</a></li>
     <li>Субтитры: <a href="../chats/v234373553.ass">v234373553.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (ВКонтакте): <a href="https://vk.com/video87862793_456241142">87862793_456241142</a></li>
 
   </ul>
     <li>Таймкоды:</li>
   <ul>
     <li><a onclick="players[17].seek(956)">0:15:56</a> - Friday the 13th (поиски коопа)</li>
     <li><a onclick="players[17].seek(1335)">0:22:15</a> - Friday the 13th</li>
-    <li><a onclick="players[17].seek(11942)">3:19:02</a> - Human: Fall Flat</li>
   </ul>
 
 </ul>
+
+
+<p>
+    <a onclick="return spawnPlayer(17, JSON.parse('{&quot;twitch&quot;: &quot;234373553&quot;, &quot;vk&quot;: &quot;87862793_456241142&quot;}'))" id="button-17">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<p class="player-wrapper" id="player-wrapper-17" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "17" || id == "234373553") {
+    spawnPlayer(17, JSON.parse('{"twitch": "234373553", "vk": "87862793_456241142"}'));
+  }
+}
+</script>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v234373553.ass" --player-passthrough hls twitch.tv/videos/234373553 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v234373553.ass https://api.thedrhax.pw/vk/video/87862793_456241142\?redirect
+</code></pre>
+</div></div>
+
+
+<hr>
+
+ 
+<h2 id="234373553">
+  <a id="18" href="#234373553">16 (часть 2)</a>
+</h2>
+
+<ul>
+  <li>Примечание: Запись задерживается. Пусть пока резервная побудет здесь.</li>
+  <li>Ссылки:</li>
+  <ul>
+    <li>Twitch: <a href="https://www.twitch.tv/videos/234373553">234373553</a></li>
+    <li>Субтитры: <a href="../chats/v234373553.ass">v234373553.ass</a></li>
+      <li>Запись (ВКонтакте): <a href="https://vk.com/video87862793_456241141">87862793_456241141</a></li>
+
+  </ul>
+  <li>Эта запись смещена на 3:11:24 от начала стрима</li>
+    <li>Таймкоды:</li>
+  <ul>
+    <li><a onclick="players[18].seek(458)">0:07:38</a> - Human: Fall Flat</li>
+  </ul>
+
+</ul>
+
+
+<p>
+    <a onclick="return spawnPlayer(18, JSON.parse('{&quot;twitch&quot;: &quot;234373553&quot;, &quot;vk&quot;: &quot;87862793_456241141&quot;, &quot;offset&quot;: &quot;3:11:24&quot;}'))" id="button-18">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<p class="player-wrapper" id="player-wrapper-18" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "18" || id == "234373553") {
+    spawnPlayer(18, JSON.parse('{"twitch": "234373553", "vk": "87862793_456241141", "offset": "3:11:24"}'));
+  }
+}
+</script>
+
+
+<h4>Команда для просмотра стрима в проигрывателе MPV</h4>
+
+
+<div class="highlighter-rouge"><div class="highlight">
+  <pre class="highlight"><code>mpv --sub-file=chats/v234373553.ass --sub-delay=-11484 https://api.thedrhax.pw/vk/video/87862793_456241141\?redirect
 </code></pre>
 </div></div>
 
