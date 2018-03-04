@@ -104,4 +104,25 @@
 % endif
 </ul>
 
+<h3>Записи из ВКонтакте</h3>
+
+<p>
+Перечисленные ниже стримы используют ВКонтакте как источник видео. Mail.Ru активно
+<a href="https://vk.com/blacksilverufa?w=wall140277504_139931">ставит палки в колёса</a>
+тем, кто не хочет смотреть видео у них на сайте, поэтому эти записи могут работать нестабильно.
+</p>
+
+<ul>
+% for game in games:
+  % for stream in game['streams']:
+    % if 'vk' in stream:
+    <li>
+      <a href="links/${game['filename']}">${game['name']}</a> -
+      <a href="links/${game['filename']}#${stream['twitch']}">${stream['name']}</a>
+    </li>
+    % endif
+  % endfor
+% endfor
+</ul>
+
 </%block>
