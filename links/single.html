@@ -527,18 +527,36 @@ if (window.location.hash) {
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/234740795">234740795</a></li>
     <li>Субтитры: <a href="../chats/v234740795.ass">v234740795.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=zZg-Bh2Tfdk">zZg-Bh2Tfdk</a></li>
 
   </ul>
   <li>Игра начинается с <a onclick="players[10].seek(1181)">0:19:41</a></li>
 </ul>
 
 
+<p>
+    <a onclick="return spawnPlayer(10, JSON.parse('{&quot;twitch&quot;: &quot;234740795&quot;, &quot;start&quot;: &quot;19:41&quot;, &quot;youtube&quot;: &quot;zZg-Bh2Tfdk&quot;}'))" id="button-10">
+    <b>▶ Открыть плеер</b>
+  </a>
+</p>
+
+<p class="player-wrapper" id="player-wrapper-10" style="margin-top: 32px; display: none"></p>
+
+<script>
+if (window.location.hash) {
+  var id = window.location.hash.replace('#', '');
+  if (id == "10" || id == "234740795") {
+    spawnPlayer(10, JSON.parse('{"twitch": "234740795", "start": "19:41", "youtube": "zZg-Bh2Tfdk"}'));
+  }
+}
+</script>
+
+
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v234740795.ass" --player-passthrough hls twitch.tv/videos/234740795 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v234740795.ass ytdl://zZg-Bh2Tfdk
 </code></pre>
 </div></div>
 
