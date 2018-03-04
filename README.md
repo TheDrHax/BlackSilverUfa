@@ -1,6 +1,6 @@
-# Архив чата BlackUFA_Twitch [![Build Status](https://local.thedrhax.pw/jenkins/job/BlackSilverUfa/badge/icon)](https://local.thedrhax.pw/jenkins/job/BlackSilverUfa/)
+# Архив чата BlackUFA_Twitch [![Build Status](https://jenkins.thedrhax.pw/job/BlackSilverUfa/badge/icon)](https://jenkins.thedrhax.pw/job/BlackSilverUfa/)
 
-Перейдите на [GitHub Pages](https://thedrhax.github.io/BlackSilverUfa) для доступа ко всем функциям ![](https://static-cdn.jtvnw.net/emoticons/v1/81274/1.0)
+Перейдите на [GitHub Pages](https://blackufa.thedrhax.pw) для доступа ко всем функциям ![](https://static-cdn.jtvnw.net/emoticons/v1/81274/1.0)
 
 ## Инструкции
 
