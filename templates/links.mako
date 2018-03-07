@@ -136,6 +136,7 @@ if (window.location.hash) {
   var id = window.location.hash.replace('#', '');
   if (id == "${id}" || id == "${stream['twitch']}") {
     spawnPlayer(${id}, JSON.parse('${json.dumps(player_data_dict)}'));
+    document.title = "${stream['name']} | ${game['name']} | ${config['title']}";
   }
 }
 </script>
