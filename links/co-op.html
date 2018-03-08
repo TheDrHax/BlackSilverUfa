@@ -9,15 +9,13 @@
     
 <title>Несюжетные коопы | Архив чата BlackUFA_Twitch</title>
 
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
 <link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
+<script src="/static/js/player.js?hash=51cac265a310170fe09afb5330078549"></script>
 
 <style>
 .main-content {
@@ -62,8 +60,6 @@
 
 
 
-
-
 <h1><a href="/">Архив</a> → Несюжетные коопы</h1>
  
 <h2 id="180663832">
@@ -80,33 +76,15 @@
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[0].seek(672)">0:11:12</a> - Hand Simulator</li>
-    <li><a onclick="players[0].seek(5744)">1:35:44</a> - Ben and Ed: Blood Party</li>
-    <li><a onclick="players[0].seek(11970)">3:19:30</a> - Stick Fight</li>
-    <li><a onclick="players[0].seek(14524)">4:02:04</a> - Golf It!</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(672)">0:11:12</a> - Hand Simulator</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(5744)">1:35:44</a> - Ben and Ed: Blood Party</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(11970)">3:19:30</a> - Stick Fight</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(14524)">4:02:04</a> - Golf It!</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;twitch&quot;: &quot;180663832&quot;, &quot;youtube&quot;: &quot;y2PitYePsOU&quot;}'))" id="button-0">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "180663832") {
-    spawnPlayer(0, JSON.parse('{"twitch": "180663832", "youtube": "y2PitYePsOU"}'));
-    document.title = "1 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-0" data-name="1" data-twitch="180663832" data-youtube="y2PitYePsOU" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -134,33 +112,15 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[1].seek(916)">0:15:16</a> - Hand Simulator</li>
-    <li><a onclick="players[1].seek(4346)">1:12:26</a> - Gang Beasts</li>
-    <li><a onclick="players[1].seek(8301)">2:18:21</a> - Duck Game</li>
-    <li><a onclick="players[1].seek(9960)">2:46:00</a> - Move or Die</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(916)">0:15:16</a> - Hand Simulator</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(4346)">1:12:26</a> - Gang Beasts</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(8301)">2:18:21</a> - Duck Game</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(9960)">2:46:00</a> - Move or Die</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;twitch&quot;: &quot;182448131&quot;, &quot;youtube&quot;: &quot;IqTeWjugKOE&quot;}'))" id="button-1">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-1" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "1" || id == "182448131") {
-    spawnPlayer(1, JSON.parse('{"twitch": "182448131", "youtube": "IqTeWjugKOE"}'));
-    document.title = "2 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-1" data-name="2" data-twitch="182448131" data-youtube="IqTeWjugKOE" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -188,35 +148,17 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[2].seek(1495)">0:24:55</a> - Spelunker! Party</li>
-    <li><a onclick="players[2].seek(3298)">0:54:58</a> - Ultimate Chicken Horse</li>
-    <li><a onclick="players[2].seek(6536)">1:48:56</a> - We Need to go Deeper</li>
-    <li><a onclick="players[2].seek(10535)">2:55:35</a> - Gang Beasts</li>
-    <li><a onclick="players[2].seek(13740)">3:49:00</a> - Hand Simulator</li>
-    <li><a onclick="players[2].seek(15510)">4:18:30</a> - Golf It!</li>
+    <li><a onclick="document.getElementById('wrapper-2').seek(1495)">0:24:55</a> - Spelunker! Party</li>
+    <li><a onclick="document.getElementById('wrapper-2').seek(3298)">0:54:58</a> - Ultimate Chicken Horse</li>
+    <li><a onclick="document.getElementById('wrapper-2').seek(6536)">1:48:56</a> - We Need to go Deeper</li>
+    <li><a onclick="document.getElementById('wrapper-2').seek(10535)">2:55:35</a> - Gang Beasts</li>
+    <li><a onclick="document.getElementById('wrapper-2').seek(13740)">3:49:00</a> - Hand Simulator</li>
+    <li><a onclick="document.getElementById('wrapper-2').seek(15510)">4:18:30</a> - Golf It!</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(2, JSON.parse('{&quot;twitch&quot;: &quot;184206477&quot;, &quot;youtube&quot;: &quot;tUc-5QNu_CE&quot;}'))" id="button-2">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-2" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "2" || id == "184206477") {
-    spawnPlayer(2, JSON.parse('{"twitch": "184206477", "youtube": "tUc-5QNu_CE"}'));
-    document.title = "3 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-2" data-name="3" data-twitch="184206477" data-youtube="tUc-5QNu_CE" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -244,32 +186,14 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[3].seek(1522)">0:25:22</a> - Deceit</li>
-    <li><a onclick="players[3].seek(3144)">0:52:24</a> - Friday the 13th</li>
-    <li><a onclick="players[3].seek(8483)">2:21:23</a> - Deceit</li>
+    <li><a onclick="document.getElementById('wrapper-3').seek(1522)">0:25:22</a> - Deceit</li>
+    <li><a onclick="document.getElementById('wrapper-3').seek(3144)">0:52:24</a> - Friday the 13th</li>
+    <li><a onclick="document.getElementById('wrapper-3').seek(8483)">2:21:23</a> - Deceit</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(3, JSON.parse('{&quot;twitch&quot;: &quot;187586726&quot;, &quot;youtube&quot;: &quot;PYqnr5-Lq4o&quot;}'))" id="button-3">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-3" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "3" || id == "187586726") {
-    spawnPlayer(3, JSON.parse('{"twitch": "187586726", "youtube": "PYqnr5-Lq4o"}'));
-    document.title = "4 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-3" data-name="4" data-twitch="187586726" data-youtube="PYqnr5-Lq4o" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -297,32 +221,14 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[4].seek(1410)">0:23:30</a> - Dead by Daylight</li>
-    <li><a onclick="players[4].seek(7740)">2:09:00</a> - Pulsar: Lost Colony</li>
-    <li><a onclick="players[4].seek(14570)">4:02:50</a> - Deceit</li>
+    <li><a onclick="document.getElementById('wrapper-4').seek(1410)">0:23:30</a> - Dead by Daylight</li>
+    <li><a onclick="document.getElementById('wrapper-4').seek(7740)">2:09:00</a> - Pulsar: Lost Colony</li>
+    <li><a onclick="document.getElementById('wrapper-4').seek(14570)">4:02:50</a> - Deceit</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(4, JSON.parse('{&quot;twitch&quot;: &quot;200702885&quot;, &quot;youtube&quot;: &quot;qyMVUvAjqdE&quot;}'))" id="button-4">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-4" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "4" || id == "200702885") {
-    spawnPlayer(4, JSON.parse('{"twitch": "200702885", "youtube": "qyMVUvAjqdE"}'));
-    document.title = "5 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-4" data-name="5" data-twitch="200702885" data-youtube="qyMVUvAjqdE" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -350,31 +256,13 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[5].seek(1260)">0:21:00</a> - Human: Fall Flat</li>
-    <li><a onclick="players[5].seek(15840)">4:24:00</a> - Deceit</li>
+    <li><a onclick="document.getElementById('wrapper-5').seek(1260)">0:21:00</a> - Human: Fall Flat</li>
+    <li><a onclick="document.getElementById('wrapper-5').seek(15840)">4:24:00</a> - Deceit</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(5, JSON.parse('{&quot;twitch&quot;: &quot;202631693&quot;, &quot;youtube&quot;: &quot;BL6BrZRmRts&quot;}'))" id="button-5">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-5" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "5" || id == "202631693") {
-    spawnPlayer(5, JSON.parse('{"twitch": "202631693", "youtube": "BL6BrZRmRts"}'));
-    document.title = "6 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-5" data-name="6" data-twitch="202631693" data-youtube="BL6BrZRmRts" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -402,33 +290,15 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[6].seek(1380)">0:23:00</a> - Looterkings</li>
-    <li><a onclick="players[6].seek(5100)">1:25:00</a> - Mount Your Friends</li>
-    <li><a onclick="players[6].seek(10140)">2:49:00</a> - We Need to Go Deeper</li>
-    <li><a onclick="players[6].seek(16560)">4:36:00</a> - Golf It!</li>
+    <li><a onclick="document.getElementById('wrapper-6').seek(1380)">0:23:00</a> - Looterkings</li>
+    <li><a onclick="document.getElementById('wrapper-6').seek(5100)">1:25:00</a> - Mount Your Friends</li>
+    <li><a onclick="document.getElementById('wrapper-6').seek(10140)">2:49:00</a> - We Need to Go Deeper</li>
+    <li><a onclick="document.getElementById('wrapper-6').seek(16560)">4:36:00</a> - Golf It!</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(6, JSON.parse('{&quot;twitch&quot;: &quot;206394832&quot;, &quot;youtube&quot;: &quot;-77Qpme-5EA&quot;}'))" id="button-6">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-6" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "6" || id == "206394832") {
-    spawnPlayer(6, JSON.parse('{"twitch": "206394832", "youtube": "-77Qpme-5EA"}'));
-    document.title = "7 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-6" data-name="7" data-twitch="206394832" data-youtube="-77Qpme-5EA" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -456,31 +326,13 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[7].seek(510)">0:08:30</a> - Witch It</li>
-    <li><a onclick="players[7].seek(12240)">3:24:00</a> - PUBG</li>
+    <li><a onclick="document.getElementById('wrapper-7').seek(510)">0:08:30</a> - Witch It</li>
+    <li><a onclick="document.getElementById('wrapper-7').seek(12240)">3:24:00</a> - PUBG</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(7, JSON.parse('{&quot;twitch&quot;: &quot;207753795&quot;, &quot;youtube&quot;: &quot;PPZFFjgxKnY&quot;}'))" id="button-7">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-7" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "7" || id == "207753795") {
-    spawnPlayer(7, JSON.parse('{"twitch": "207753795", "youtube": "PPZFFjgxKnY"}'));
-    document.title = "8 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-7" data-name="8" data-twitch="207753795" data-youtube="PPZFFjgxKnY" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -508,31 +360,13 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[8].seek(900)">0:15:00</a> - The Hunter: Call of the Wild</li>
-    <li><a onclick="players[8].seek(11400)">3:10:00</a> - Road Redemption</li>
+    <li><a onclick="document.getElementById('wrapper-8').seek(900)">0:15:00</a> - The Hunter: Call of the Wild</li>
+    <li><a onclick="document.getElementById('wrapper-8').seek(11400)">3:10:00</a> - Road Redemption</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(8, JSON.parse('{&quot;twitch&quot;: &quot;213247693&quot;, &quot;youtube&quot;: &quot;GPga2h4UUXc&quot;}'))" id="button-8">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-8" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "8" || id == "213247693") {
-    spawnPlayer(8, JSON.parse('{"twitch": "213247693", "youtube": "GPga2h4UUXc"}'));
-    document.title = "9 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-8" data-name="9" data-twitch="213247693" data-youtube="GPga2h4UUXc" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -560,33 +394,15 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[9].seek(780)">0:13:00</a> - Hand Simulator</li>
-    <li><a onclick="players[9].seek(7080)">1:58:00</a> - Viscera Cleanup Detail</li>
-    <li><a onclick="players[9].seek(10800)">3:00:00</a> - Astroneer</li>
-    <li><a onclick="players[9].seek(17940)">4:59:00</a> - Gang Beasts</li>
+    <li><a onclick="document.getElementById('wrapper-9').seek(780)">0:13:00</a> - Hand Simulator</li>
+    <li><a onclick="document.getElementById('wrapper-9').seek(7080)">1:58:00</a> - Viscera Cleanup Detail</li>
+    <li><a onclick="document.getElementById('wrapper-9').seek(10800)">3:00:00</a> - Astroneer</li>
+    <li><a onclick="document.getElementById('wrapper-9').seek(17940)">4:59:00</a> - Gang Beasts</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(9, JSON.parse('{&quot;twitch&quot;: &quot;213846142&quot;, &quot;youtube&quot;: &quot;8GFZF96owuA&quot;}'))" id="button-9">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-9" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "9" || id == "213846142") {
-    spawnPlayer(9, JSON.parse('{"twitch": "213846142", "youtube": "8GFZF96owuA"}'));
-    document.title = "10 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-9" data-name="10" data-twitch="213846142" data-youtube="8GFZF96owuA" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -614,32 +430,14 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[10].seek(730)">0:12:10</a> - Sea of Thieves (не получилось)</li>
-    <li><a onclick="players[10].seek(883)">0:14:43</a> - S.O.S.</li>
-    <li><a onclick="players[10].seek(10944)">3:02:24</a> - Sea of Thieves (опять не получилось)</li>
+    <li><a onclick="document.getElementById('wrapper-10').seek(730)">0:12:10</a> - Sea of Thieves (не получилось)</li>
+    <li><a onclick="document.getElementById('wrapper-10').seek(883)">0:14:43</a> - S.O.S.</li>
+    <li><a onclick="document.getElementById('wrapper-10').seek(10944)">3:02:24</a> - Sea of Thieves (опять не получилось)</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(10, JSON.parse('{&quot;twitch&quot;: &quot;222913630&quot;, &quot;youtube&quot;: &quot;TDy4cbm_twQ&quot;}'))" id="button-10">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-10" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "10" || id == "222913630") {
-    spawnPlayer(10, JSON.parse('{"twitch": "222913630", "youtube": "TDy4cbm_twQ"}'));
-    document.title = "11 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-10" data-name="11" data-twitch="222913630" data-youtube="TDy4cbm_twQ" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -667,31 +465,13 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[11].seek(709)">0:11:49</a> - Hunt: Showdown (поиски коопа)</li>
-    <li><a onclick="players[11].seek(1480)">0:24:40</a> - Hunt: Showdown</li>
+    <li><a onclick="document.getElementById('wrapper-11').seek(709)">0:11:49</a> - Hunt: Showdown (поиски коопа)</li>
+    <li><a onclick="document.getElementById('wrapper-11').seek(1480)">0:24:40</a> - Hunt: Showdown</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(11, JSON.parse('{&quot;twitch&quot;: &quot;225279322&quot;, &quot;vk&quot;: &quot;87862793_456241096&quot;}'))" id="button-11">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-11" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "11" || id == "225279322") {
-    spawnPlayer(11, JSON.parse('{"twitch": "225279322", "vk": "87862793_456241096"}'));
-    document.title = "12 (часть 1) | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-11" data-name="12 (часть 1)" data-twitch="225279322" data-vk="87862793_456241096" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -720,30 +500,12 @@ if (window.location.hash) {
   <li>Эта запись смещена на 3:46:12 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[12].seek(1192)">0:19:52</a> - S.O.S.</li>
+    <li><a onclick="document.getElementById('wrapper-12').seek(1192)">0:19:52</a> - S.O.S.</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(12, JSON.parse('{&quot;twitch&quot;: &quot;225279322&quot;, &quot;vk&quot;: &quot;87862793_456241095&quot;, &quot;offset&quot;: &quot;3:46:12&quot;}'))" id="button-12">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-12" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "12" || id == "225279322") {
-    spawnPlayer(12, JSON.parse('{"twitch": "225279322", "vk": "87862793_456241095", "offset": "3:46:12"}'));
-    document.title = "12 (часть 2) | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-12" data-name="12 (часть 2)" data-twitch="225279322" data-vk="87862793_456241095" data-offset="3:46:12" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -771,30 +533,12 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[13].seek(600)">0:10:00</a> - Desolate</li>
+    <li><a onclick="document.getElementById('wrapper-13').seek(600)">0:10:00</a> - Desolate</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(13, JSON.parse('{&quot;twitch&quot;: &quot;227264292&quot;, &quot;youtube&quot;: &quot;q1_IvPFs11A&quot;}'))" id="button-13">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-13" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "13" || id == "227264292") {
-    spawnPlayer(13, JSON.parse('{"twitch": "227264292", "youtube": "q1_IvPFs11A"}'));
-    document.title = "13 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-13" data-name="13" data-twitch="227264292" data-youtube="q1_IvPFs11A" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -822,31 +566,13 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[14].seek(1721)">0:28:41</a> - Party Panic</li>
-    <li><a onclick="players[14].seek(10731)">2:58:51</a> - SCP: Secret Laboratory</li>
+    <li><a onclick="document.getElementById('wrapper-14').seek(1721)">0:28:41</a> - Party Panic</li>
+    <li><a onclick="document.getElementById('wrapper-14').seek(10731)">2:58:51</a> - SCP: Secret Laboratory</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(14, JSON.parse('{&quot;twitch&quot;: &quot;232346216&quot;, &quot;youtube&quot;: &quot;MCHaIvn1sO4&quot;}'))" id="button-14">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-14" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "14" || id == "232346216") {
-    spawnPlayer(14, JSON.parse('{"twitch": "232346216", "youtube": "MCHaIvn1sO4"}'));
-    document.title = "14 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-14" data-name="14" data-twitch="232346216" data-youtube="MCHaIvn1sO4" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -875,30 +601,12 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[15].seek(824)">0:13:44</a> - Deep Rock Galactic</li>
+    <li><a onclick="document.getElementById('wrapper-15').seek(824)">0:13:44</a> - Deep Rock Galactic</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(15, JSON.parse('{&quot;twitch&quot;: &quot;234037742&quot;, &quot;vk&quot;: &quot;87862793_456241139&quot;}'))" id="button-15">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-15" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "15" || id == "234037742") {
-    spawnPlayer(15, JSON.parse('{"twitch": "234037742", "vk": "87862793_456241139"}'));
-    document.title = "15 (часть 1) | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-15" data-name="15 (часть 1)" data-twitch="234037742" data-vk="87862793_456241139" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -928,31 +636,13 @@ if (window.location.hash) {
   <li>Эта запись смещена на 2:22:56 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[16].seek(37)">0:00:37</a> - Warhammer: Vermintide 2</li>
-    <li><a onclick="players[16].seek(8160)">2:16:00</a> - Hunt: Showdown (поиски коопа, безуспешные)</li>
+    <li><a onclick="document.getElementById('wrapper-16').seek(37)">0:00:37</a> - Warhammer: Vermintide 2</li>
+    <li><a onclick="document.getElementById('wrapper-16').seek(8160)">2:16:00</a> - Hunt: Showdown (поиски коопа, безуспешные)</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(16, JSON.parse('{&quot;twitch&quot;: &quot;234037742&quot;, &quot;vk&quot;: &quot;87862793_456241140&quot;, &quot;offset&quot;: &quot;2:22:56&quot;}'))" id="button-16">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-16" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "16" || id == "234037742") {
-    spawnPlayer(16, JSON.parse('{"twitch": "234037742", "vk": "87862793_456241140", "offset": "2:22:56"}'));
-    document.title = "15 (часть 2) | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-16" data-name="15 (часть 2)" data-twitch="234037742" data-vk="87862793_456241140" data-offset="2:22:56" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -980,32 +670,14 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[17].seek(956)">0:15:56</a> - Friday the 13th (поиски коопа)</li>
-    <li><a onclick="players[17].seek(1335)">0:22:15</a> - Friday the 13th</li>
-    <li><a onclick="players[17].seek(11942)">3:19:02</a> - Human: Fall Flat</li>
+    <li><a onclick="document.getElementById('wrapper-17').seek(956)">0:15:56</a> - Friday the 13th (поиски коопа)</li>
+    <li><a onclick="document.getElementById('wrapper-17').seek(1335)">0:22:15</a> - Friday the 13th</li>
+    <li><a onclick="document.getElementById('wrapper-17').seek(11942)">3:19:02</a> - Human: Fall Flat</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(17, JSON.parse('{&quot;twitch&quot;: &quot;234373553&quot;, &quot;youtube&quot;: &quot;bHkaL_L12FU&quot;}'))" id="button-17">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-17" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "17" || id == "234373553") {
-    spawnPlayer(17, JSON.parse('{"twitch": "234373553", "youtube": "bHkaL_L12FU"}'));
-    document.title = "16 | Несюжетные коопы | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-17" data-name="16" data-twitch="234373553" data-youtube="bHkaL_L12FU" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 

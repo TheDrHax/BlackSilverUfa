@@ -9,15 +9,13 @@
     
 <title>Super Mario Odyssey | Архив чата BlackUFA_Twitch</title>
 
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
 <link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
+<script src="/static/js/player.js?hash=51cac265a310170fe09afb5330078549"></script>
 
 <style>
 .main-content {
@@ -62,8 +60,6 @@
 
 
 
-
-
 <h1><a href="/">Архив</a> → Super Mario Odyssey</h1>
  
 <h2 id="185763905">
@@ -80,25 +76,7 @@
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;twitch&quot;: &quot;185763905&quot;, &quot;youtube&quot;: &quot;kkeGLQrrkAM&quot;}'))" id="button-0">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "185763905") {
-    spawnPlayer(0, JSON.parse('{"twitch": "185763905", "youtube": "kkeGLQrrkAM"}'));
-    document.title = "1 | Super Mario Odyssey | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-0" data-name="1" data-twitch="185763905" data-youtube="kkeGLQrrkAM" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -126,32 +104,14 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[1].seek(1651)">0:27:31</a> - Little Nightmares</li>
-    <li><a onclick="players[1].seek(11420)">3:10:20</a> - Super Mario Odyssey</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(1651)">0:27:31</a> - Little Nightmares</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(11420)">3:10:20</a> - Super Mario Odyssey</li>
   </ul>
 
-  <li>Игра начинается с <a onclick="players[1].seek(11420)">3:10:20</a></li>
+  <li>Игра начинается с <a onclick="document.getElementById('wrapper-1').seek(11420)">3:10:20</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;start&quot;: &quot;3:10:20&quot;, &quot;twitch&quot;: &quot;200401270&quot;, &quot;youtube&quot;: &quot;LSHpifkX69Y&quot;}'))" id="button-1">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-1" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "1" || id == "200401270") {
-    spawnPlayer(1, JSON.parse('{"start": "3:10:20", "twitch": "200401270", "youtube": "LSHpifkX69Y"}'));
-    document.title = "2 | Super Mario Odyssey | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-1" data-name="2" data-start="3:10:20" data-twitch="200401270" data-youtube="LSHpifkX69Y" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -179,25 +139,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(2, JSON.parse('{&quot;twitch&quot;: &quot;202381358&quot;, &quot;youtube&quot;: &quot;Umsq53kBb9I&quot;}'))" id="button-2">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-2" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "2" || id == "202381358") {
-    spawnPlayer(2, JSON.parse('{"twitch": "202381358", "youtube": "Umsq53kBb9I"}'));
-    document.title = "3 | Super Mario Odyssey | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-2" data-name="3" data-twitch="202381358" data-youtube="Umsq53kBb9I" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -223,28 +165,10 @@ if (window.location.hash) {
       <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=sR_zEhQt7_g">sR_zEhQt7_g</a></li>
 
   </ul>
-  <li>Игра начинается с <a onclick="players[3].seek(10798)">2:59:58</a></li>
+  <li>Игра начинается с <a onclick="document.getElementById('wrapper-3').seek(10798)">2:59:58</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(3, JSON.parse('{&quot;start&quot;: &quot;2:59:58&quot;, &quot;twitch&quot;: &quot;210846597&quot;, &quot;youtube&quot;: &quot;sR_zEhQt7_g&quot;}'))" id="button-3">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-3" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "3" || id == "210846597") {
-    spawnPlayer(3, JSON.parse('{"start": "2:59:58", "twitch": "210846597", "youtube": "sR_zEhQt7_g"}'));
-    document.title = "4 | Super Mario Odyssey | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-3" data-name="4" data-start="2:59:58" data-twitch="210846597" data-youtube="sR_zEhQt7_g" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 

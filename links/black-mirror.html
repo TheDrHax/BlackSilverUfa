@@ -9,15 +9,13 @@
     
 <title>Black Mirror | Архив чата BlackUFA_Twitch</title>
 
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
 <link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
+<script src="/static/js/player.js?hash=51cac265a310170fe09afb5330078549"></script>
 
 <style>
 .main-content {
@@ -62,8 +60,6 @@
 
 
 
-
-
 <h1><a href="/">Архив</a> → Black Mirror</h1>
  
 <h2 id="205262158">
@@ -80,25 +76,7 @@
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;twitch&quot;: &quot;205262158&quot;, &quot;youtube&quot;: &quot;9rrv07l9Bxs&quot;}'))" id="button-0">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "205262158") {
-    spawnPlayer(0, JSON.parse('{"twitch": "205262158", "youtube": "9rrv07l9Bxs"}'));
-    document.title = "1 | Black Mirror | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-0" data-name="1" data-twitch="205262158" data-youtube="9rrv07l9Bxs" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -124,28 +102,10 @@ if (window.location.hash) {
       <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=-amaLXxGG30">-amaLXxGG30</a></li>
 
   </ul>
-  <li>Игра начинается с <a onclick="players[1].seek(11220)">3:07:00</a></li>
+  <li>Игра начинается с <a onclick="document.getElementById('wrapper-1').seek(11220)">3:07:00</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;start&quot;: &quot;3:07:00&quot;, &quot;twitch&quot;: &quot;206091904&quot;, &quot;youtube&quot;: &quot;-amaLXxGG30&quot;}'))" id="button-1">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-1" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "1" || id == "206091904") {
-    spawnPlayer(1, JSON.parse('{"start": "3:07:00", "twitch": "206091904", "youtube": "-amaLXxGG30"}'));
-    document.title = "2 | Black Mirror | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-1" data-name="2" data-start="3:07:00" data-twitch="206091904" data-youtube="-amaLXxGG30" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 

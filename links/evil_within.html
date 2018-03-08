@@ -9,15 +9,13 @@
     
 <title>The Evil Within | Архив чата BlackUFA_Twitch</title>
 
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
 <link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
+<script src="/static/js/player.js?hash=51cac265a310170fe09afb5330078549"></script>
 
 <style>
 .main-content {
@@ -62,8 +60,6 @@
 
 
 
-
-
 <h1><a href="/">Архив</a> → The Evil Within</h1>
  
 <h2 id="160844876">
@@ -78,28 +74,10 @@
       <li>Запись (ВКонтакте): <a href="https://vk.com/video87862793_456240552">87862793_456240552</a></li>
 
   </ul>
-  <li>Запись заканчивается в <a onclick="players[0].seek(3138)">0:52:18</a></li>
+  <li>Запись заканчивается в <a onclick="document.getElementById('wrapper-0').seek(3138)">0:52:18</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;twitch&quot;: &quot;160844876&quot;, &quot;vk&quot;: &quot;87862793_456240552&quot;, &quot;end&quot;: &quot;52:18&quot;}'))" id="button-0">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "160844876") {
-    spawnPlayer(0, JSON.parse('{"twitch": "160844876", "vk": "87862793_456240552", "end": "52:18"}'));
-    document.title = "1 | The Evil Within | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-0" data-name="1" data-twitch="160844876" data-vk="87862793_456240552" data-end="52:18" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -127,25 +105,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;twitch&quot;: &quot;160852861&quot;, &quot;youtube&quot;: &quot;LF6RMOOvA9M&quot;}'))" id="button-1">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-1" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "1" || id == "160852861") {
-    spawnPlayer(1, JSON.parse('{"twitch": "160852861", "youtube": "LF6RMOOvA9M"}'));
-    document.title = "1.5 | The Evil Within | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-1" data-name="1.5" data-twitch="160852861" data-youtube="LF6RMOOvA9M" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -173,25 +133,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(2, JSON.parse('{&quot;twitch&quot;: &quot;161110508&quot;, &quot;youtube&quot;: &quot;8VCQkjjMu-I&quot;}'))" id="button-2">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-2" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "2" || id == "161110508") {
-    spawnPlayer(2, JSON.parse('{"twitch": "161110508", "youtube": "8VCQkjjMu-I"}'));
-    document.title = "2 | The Evil Within | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-2" data-name="2" data-twitch="161110508" data-youtube="8VCQkjjMu-I" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -219,25 +161,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(3, JSON.parse('{&quot;twitch&quot;: &quot;161115703&quot;, &quot;youtube&quot;: &quot;vxbjz2-Lmgg&quot;}'))" id="button-3">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-3" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "3" || id == "161115703") {
-    spawnPlayer(3, JSON.parse('{"twitch": "161115703", "youtube": "vxbjz2-Lmgg"}'));
-    document.title = "2.5 | The Evil Within | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-3" data-name="2.5" data-twitch="161115703" data-youtube="vxbjz2-Lmgg" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -265,25 +189,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(4, JSON.parse('{&quot;twitch&quot;: &quot;162350334&quot;, &quot;youtube&quot;: &quot;hZSVfTxT7Qo&quot;}'))" id="button-4">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-4" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "4" || id == "162350334") {
-    spawnPlayer(4, JSON.parse('{"twitch": "162350334", "youtube": "hZSVfTxT7Qo"}'));
-    document.title = "3 | The Evil Within | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-4" data-name="3" data-twitch="162350334" data-youtube="hZSVfTxT7Qo" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -311,25 +217,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(5, JSON.parse('{&quot;twitch&quot;: &quot;162844424&quot;, &quot;youtube&quot;: &quot;8lhCzaGLmK8&quot;}'))" id="button-5">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-5" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "5" || id == "162844424") {
-    spawnPlayer(5, JSON.parse('{"twitch": "162844424", "youtube": "8lhCzaGLmK8"}'));
-    document.title = "4 | The Evil Within | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-5" data-name="4" data-twitch="162844424" data-youtube="8lhCzaGLmK8" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -357,25 +245,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(6, JSON.parse('{&quot;twitch&quot;: &quot;163361169&quot;, &quot;youtube&quot;: &quot;Qt1N7foBrUE&quot;}'))" id="button-6">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-6" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "6" || id == "163361169") {
-    spawnPlayer(6, JSON.parse('{"twitch": "163361169", "youtube": "Qt1N7foBrUE"}'));
-    document.title = "5 | The Evil Within | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-6" data-name="5" data-twitch="163361169" data-youtube="Qt1N7foBrUE" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -403,25 +273,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(7, JSON.parse('{&quot;twitch&quot;: &quot;164116949&quot;, &quot;youtube&quot;: &quot;5JOCDsqrhOY&quot;}'))" id="button-7">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-7" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "7" || id == "164116949") {
-    spawnPlayer(7, JSON.parse('{"twitch": "164116949", "youtube": "5JOCDsqrhOY"}'));
-    document.title = "6 | The Evil Within | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-7" data-name="6" data-twitch="164116949" data-youtube="5JOCDsqrhOY" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -449,25 +301,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(8, JSON.parse('{&quot;twitch&quot;: &quot;164165380&quot;, &quot;youtube&quot;: &quot;yH9DIXACVkA&quot;}'))" id="button-8">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-8" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "8" || id == "164165380") {
-    spawnPlayer(8, JSON.parse('{"twitch": "164165380", "youtube": "yH9DIXACVkA"}'));
-    document.title = "6.5 | The Evil Within | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-8" data-name="6.5" data-twitch="164165380" data-youtube="yH9DIXACVkA" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 

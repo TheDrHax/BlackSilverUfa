@@ -9,15 +9,13 @@
     
 <title>Little Nightmares | Архив чата BlackUFA_Twitch</title>
 
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
 <link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
+<script src="/static/js/player.js?hash=51cac265a310170fe09afb5330078549"></script>
 
 <style>
 .main-content {
@@ -62,8 +60,6 @@
 
 
 
-
-
 <h1><a href="/">Архив</a> → Little Nightmares</h1>
  
 <h2 id="200401270">
@@ -80,31 +76,13 @@
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[0].seek(1651)">0:27:31</a> - Little Nightmares</li>
-    <li><a onclick="players[0].seek(11420)">3:10:20</a> - Super Mario Odyssey</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(1651)">0:27:31</a> - Little Nightmares</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(11420)">3:10:20</a> - Super Mario Odyssey</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;twitch&quot;: &quot;200401270&quot;, &quot;youtube&quot;: &quot;LSHpifkX69Y&quot;}'))" id="button-0">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "200401270") {
-    spawnPlayer(0, JSON.parse('{"twitch": "200401270", "youtube": "LSHpifkX69Y"}'));
-    document.title = "DLC: The Depths, The Hideaway | Little Nightmares | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-0" data-name="DLC: The Depths, The Hideaway" data-twitch="200401270" data-youtube="LSHpifkX69Y" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -132,25 +110,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;twitch&quot;: &quot;233032380&quot;, &quot;youtube&quot;: &quot;4q-FGOYnXPk&quot;}'))" id="button-1">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-1" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "1" || id == "233032380") {
-    spawnPlayer(1, JSON.parse('{"twitch": "233032380", "youtube": "4q-FGOYnXPk"}'));
-    document.title = "DLC: The Residence | Little Nightmares | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-1" data-name="DLC: The Residence" data-twitch="233032380" data-youtube="4q-FGOYnXPk" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 

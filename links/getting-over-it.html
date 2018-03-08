@@ -9,15 +9,13 @@
     
 <title>Getting Over It | Архив чата BlackUFA_Twitch</title>
 
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
 <link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
+<script src="/static/js/player.js?hash=51cac265a310170fe09afb5330078549"></script>
 
 <style>
 .main-content {
@@ -62,8 +60,6 @@
 
 
 
-
-
 <h1><a href="/">Архив</a> → Getting Over It</h1>
  
 <h2 id="219819121">
@@ -81,37 +77,19 @@
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[0].seek(1200)">0:20:00</a> - Metal Gear Survive</li>
-    <li><a onclick="players[0].seek(5010)">1:23:30</a> - Metal Gear Survive (ко-оп со зрителями)</li>
-    <li><a onclick="players[0].seek(6720)">1:52:00</a> - Getting Over It</li>
-    <li><a onclick="players[0].seek(12412)">3:26:52</a> - - уши</li>
-    <li><a onclick="players[0].seek(12790)">3:33:10</a> - + уши</li>
-    <li><a onclick="players[0].seek(13170)">3:39:30</a> - - уши</li>
-    <li><a onclick="players[0].seek(13890)">3:51:30</a> - + уши</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(1200)">0:20:00</a> - Metal Gear Survive</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(5010)">1:23:30</a> - Metal Gear Survive (ко-оп со зрителями)</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(6720)">1:52:00</a> - Getting Over It</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(12412)">3:26:52</a> - - уши</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(12790)">3:33:10</a> - + уши</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(13170)">3:39:30</a> - - уши</li>
+    <li><a onclick="document.getElementById('wrapper-0').seek(13890)">3:51:30</a> - + уши</li>
   </ul>
 
-  <li>Игра начинается с <a onclick="players[0].seek(6720)">1:52:00</a></li>
+  <li>Игра начинается с <a onclick="document.getElementById('wrapper-0').seek(6720)">1:52:00</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;twitch&quot;: &quot;219819121&quot;, &quot;start&quot;: &quot;1:52:00&quot;, &quot;youtube&quot;: &quot;4tbKXowGdSk&quot;}'))" id="button-0">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "219819121") {
-    spawnPlayer(0, JSON.parse('{"twitch": "219819121", "start": "1:52:00", "youtube": "4tbKXowGdSk"}'));
-    document.title = "1 | Getting Over It | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-0" data-name="1" data-twitch="219819121" data-start="1:52:00" data-youtube="4tbKXowGdSk" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -138,28 +116,10 @@ if (window.location.hash) {
 
   </ul>
   <li>Эта запись смещена на 3:32:56 от начала стрима</li>
-  <li>Игра начинается с <a onclick="players[1].seek(8)">0:00:08</a></li>
+  <li>Игра начинается с <a onclick="document.getElementById('wrapper-1').seek(8)">0:00:08</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;twitch&quot;: &quot;233032380&quot;, &quot;start&quot;: &quot;3:33:04&quot;, &quot;youtube&quot;: &quot;IBDhRIYPURI&quot;, &quot;offset&quot;: &quot;3:32:56&quot;}'))" id="button-1">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-1" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "1" || id == "233032380") {
-    spawnPlayer(1, JSON.parse('{"twitch": "233032380", "start": "3:33:04", "youtube": "IBDhRIYPURI", "offset": "3:32:56"}'));
-    document.title = "2 | Getting Over It | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-1" data-name="2" data-twitch="233032380" data-start="3:33:04" data-youtube="IBDhRIYPURI" data-offset="3:32:56" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 

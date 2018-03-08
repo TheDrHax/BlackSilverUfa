@@ -9,15 +9,13 @@
     
 <title>Первый взгляд | Архив чата BlackUFA_Twitch</title>
 
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
 <link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=93716f902fec4caaf29cb27bfa79845f"></script>
+<script src="/static/js/player.js?hash=51cac265a310170fe09afb5330078549"></script>
 
 <style>
 .main-content {
@@ -62,8 +60,6 @@
 
 
 
-
-
 <h1><a href="/">Архив</a> → Первый взгляд</h1>
  
 <h2 id="163612448">
@@ -80,25 +76,7 @@
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(0, JSON.parse('{&quot;twitch&quot;: &quot;163612448&quot;, &quot;youtube&quot;: &quot;ujz4o78-orM&quot;}'))" id="button-0">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-0" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "0" || id == "163612448") {
-    spawnPlayer(0, JSON.parse('{"twitch": "163612448", "youtube": "ujz4o78-orM"}'));
-    document.title = "The Legend of Zelda: Twilight Princess HD | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-0" data-name="The Legend of Zelda: Twilight Princess HD" data-twitch="163612448" data-youtube="ujz4o78-orM" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -126,25 +104,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(1, JSON.parse('{&quot;twitch&quot;: &quot;175198877&quot;, &quot;youtube&quot;: &quot;4v5IEZ4zOJo&quot;}'))" id="button-1">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-1" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "1" || id == "175198877") {
-    spawnPlayer(1, JSON.parse('{"twitch": "175198877", "youtube": "4v5IEZ4zOJo"}'));
-    document.title = "Divinity: Original Sin II | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-1" data-name="Divinity: Original Sin II" data-twitch="175198877" data-youtube="4v5IEZ4zOJo" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -172,25 +132,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(2, JSON.parse('{&quot;twitch&quot;: &quot;178108639&quot;, &quot;youtube&quot;: &quot;kgAipkmGNis&quot;}'))" id="button-2">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-2" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "2" || id == "178108639") {
-    spawnPlayer(2, JSON.parse('{"twitch": "178108639", "youtube": "kgAipkmGNis"}'));
-    document.title = "Home Sweet Home | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-2" data-name="Home Sweet Home" data-twitch="178108639" data-youtube="kgAipkmGNis" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -218,25 +160,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(3, JSON.parse('{&quot;twitch&quot;: &quot;178361269&quot;, &quot;youtube&quot;: &quot;T6Y4hGvcIL8&quot;}'))" id="button-3">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-3" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "3" || id == "178361269") {
-    spawnPlayer(3, JSON.parse('{"twitch": "178361269", "youtube": "T6Y4hGvcIL8"}'));
-    document.title = "Cuphead | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-3" data-name="Cuphead" data-twitch="178361269" data-youtube="T6Y4hGvcIL8" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -264,32 +188,14 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[4].seek(1046)">0:17:26</a> - Road Redemption</li>
-    <li><a onclick="players[4].seek(4576)">1:16:16</a> - Battle Chasers</li>
-    <li><a onclick="players[4].seek(10665)">2:57:45</a> - Stardew Valley</li>
+    <li><a onclick="document.getElementById('wrapper-4').seek(1046)">0:17:26</a> - Road Redemption</li>
+    <li><a onclick="document.getElementById('wrapper-4').seek(4576)">1:16:16</a> - Battle Chasers</li>
+    <li><a onclick="document.getElementById('wrapper-4').seek(10665)">2:57:45</a> - Stardew Valley</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(4, JSON.parse('{&quot;twitch&quot;: &quot;180397849&quot;, &quot;youtube&quot;: &quot;x5KwWrLRpEg&quot;}'))" id="button-4">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-4" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "4" || id == "180397849") {
-    spawnPlayer(4, JSON.parse('{"twitch": "180397849", "youtube": "x5KwWrLRpEg"}'));
-    document.title = "Road Redemption / Battle Chasers / Stardew Valley | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-4" data-name="Road Redemption / Battle Chasers / Stardew Valley" data-twitch="180397849" data-youtube="x5KwWrLRpEg" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -317,25 +223,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(5, JSON.parse('{&quot;twitch&quot;: &quot;206933269&quot;, &quot;youtube&quot;: &quot;Apcg-z-sBHM&quot;}'))" id="button-5">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-5" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "5" || id == "206933269") {
-    spawnPlayer(5, JSON.parse('{"twitch": "206933269", "youtube": "Apcg-z-sBHM"}'));
-    document.title = "Xenoblade Chronicles 2 | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-5" data-name="Xenoblade Chronicles 2" data-twitch="206933269" data-youtube="Apcg-z-sBHM" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -363,33 +251,15 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[6].seek(1247)">0:20:47</a> - Uncanny Valley</li>
-    <li><a onclick="players[6].seek(6294)">1:44:54</a> - The Coma: Recut</li>
-    <li><a onclick="players[6].seek(10320)">2:52:00</a> - Lone Survivor</li>
+    <li><a onclick="document.getElementById('wrapper-6').seek(1247)">0:20:47</a> - Uncanny Valley</li>
+    <li><a onclick="document.getElementById('wrapper-6').seek(6294)">1:44:54</a> - The Coma: Recut</li>
+    <li><a onclick="document.getElementById('wrapper-6').seek(10320)">2:52:00</a> - Lone Survivor</li>
   </ul>
 
-  <li>Игра начинается с <a onclick="players[6].seek(6294)">1:44:54</a></li>
+  <li>Игра начинается с <a onclick="document.getElementById('wrapper-6').seek(6294)">1:44:54</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(6, JSON.parse('{&quot;twitch&quot;: &quot;212431882&quot;, &quot;start&quot;: &quot;1:44:54&quot;, &quot;youtube&quot;: &quot;JS7cNXnzCTA&quot;}'))" id="button-6">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-6" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "6" || id == "212431882") {
-    spawnPlayer(6, JSON.parse('{"twitch": "212431882", "start": "1:44:54", "youtube": "JS7cNXnzCTA"}'));
-    document.title = "The Coma: Recut / Lone Survivor | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-6" data-name="The Coma: Recut / Lone Survivor" data-twitch="212431882" data-start="1:44:54" data-youtube="JS7cNXnzCTA" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -417,31 +287,13 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[7].seek(1500)">0:25:00</a> - Stifled</li>
-    <li><a onclick="players[7].seek(10740)">2:59:00</a> - Uncanny Valley</li>
+    <li><a onclick="document.getElementById('wrapper-7').seek(1500)">0:25:00</a> - Stifled</li>
+    <li><a onclick="document.getElementById('wrapper-7').seek(10740)">2:59:00</a> - Uncanny Valley</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(7, JSON.parse('{&quot;twitch&quot;: &quot;212678883&quot;, &quot;youtube&quot;: &quot;sz8y749Jn_8&quot;}'))" id="button-7">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-7" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "7" || id == "212678883") {
-    spawnPlayer(7, JSON.parse('{"twitch": "212678883", "youtube": "sz8y749Jn_8"}'));
-    document.title = "Stifled | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-7" data-name="Stifled" data-twitch="212678883" data-youtube="sz8y749Jn_8" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -469,32 +321,14 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[8].seek(1560)">0:26:00</a> - The Witchkin</li>
-    <li><a onclick="players[8].seek(6934)">1:55:34</a> - Emily Wants to Play Too</li>
-    <li><a onclick="players[8].seek(11873)">3:17:53</a> - LeftWay</li>
+    <li><a onclick="document.getElementById('wrapper-8').seek(1560)">0:26:00</a> - The Witchkin</li>
+    <li><a onclick="document.getElementById('wrapper-8').seek(6934)">1:55:34</a> - Emily Wants to Play Too</li>
+    <li><a onclick="document.getElementById('wrapper-8').seek(11873)">3:17:53</a> - LeftWay</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(8, JSON.parse('{&quot;twitch&quot;: &quot;222198164&quot;, &quot;youtube&quot;: &quot;x9NkgWX09L0&quot;}'))" id="button-8">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-8" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "8" || id == "222198164") {
-    spawnPlayer(8, JSON.parse('{"twitch": "222198164", "youtube": "x9NkgWX09L0"}'));
-    document.title = "The Witchkin / Emily Wants to Play Too / LeftWay | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-8" data-name="The Witchkin / Emily Wants to Play Too / LeftWay" data-twitch="222198164" data-youtube="x9NkgWX09L0" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -520,28 +354,10 @@ if (window.location.hash) {
       <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=uXXquPRJHOw">uXXquPRJHOw</a></li>
 
   </ul>
-  <li>Игра начинается с <a onclick="players[9].seek(7870)">2:11:10</a></li>
+  <li>Игра начинается с <a onclick="document.getElementById('wrapper-9').seek(7870)">2:11:10</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(9, JSON.parse('{&quot;twitch&quot;: &quot;225950740&quot;, &quot;start&quot;: &quot;2:11:10&quot;, &quot;youtube&quot;: &quot;uXXquPRJHOw&quot;}'))" id="button-9">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-9" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "9" || id == "225950740") {
-    spawnPlayer(9, JSON.parse('{"twitch": "225950740", "start": "2:11:10", "youtube": "uXXquPRJHOw"}'));
-    document.title = "My Time at Portia | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-9" data-name="My Time at Portia" data-twitch="225950740" data-start="2:11:10" data-youtube="uXXquPRJHOw" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -569,25 +385,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(10, JSON.parse('{&quot;twitch&quot;: &quot;226000025&quot;, &quot;youtube&quot;: &quot;vB4XCZS5PmA&quot;}'))" id="button-10">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-10" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "10" || id == "226000025") {
-    spawnPlayer(10, JSON.parse('{"twitch": "226000025", "youtube": "vB4XCZS5PmA"}'));
-    document.title = "Yakuza 6: The Song of Life | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-10" data-name="Yakuza 6: The Song of Life" data-twitch="226000025" data-youtube="vB4XCZS5PmA" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -615,25 +413,7 @@ if (window.location.hash) {
   </ul>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(11, JSON.parse('{&quot;twitch&quot;: &quot;227626210&quot;, &quot;youtube&quot;: &quot;P-AL-tuG7uA&quot;}'))" id="button-11">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-11" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "11" || id == "227626210") {
-    spawnPlayer(11, JSON.parse('{"twitch": "227626210", "youtube": "P-AL-tuG7uA"}'));
-    document.title = "Last Guardian | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-11" data-name="Last Guardian" data-twitch="227626210" data-youtube="P-AL-tuG7uA" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -661,31 +441,13 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[12].seek(1814)">0:30:14</a> - Never Again</li>
-    <li><a onclick="players[12].seek(10549)">2:55:49</a> - Boogeyman 2</li>
+    <li><a onclick="document.getElementById('wrapper-12').seek(1814)">0:30:14</a> - Never Again</li>
+    <li><a onclick="document.getElementById('wrapper-12').seek(10549)">2:55:49</a> - Boogeyman 2</li>
   </ul>
 
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(12, JSON.parse('{&quot;twitch&quot;: &quot;230659866&quot;, &quot;youtube&quot;: &quot;L4DTPebYFgw&quot;}'))" id="button-12">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-12" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "12" || id == "230659866") {
-    spawnPlayer(12, JSON.parse('{"twitch": "230659866", "youtube": "L4DTPebYFgw"}'));
-    document.title = "Never Again / Boogeyman 2 | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-12" data-name="Never Again / Boogeyman 2" data-twitch="230659866" data-youtube="L4DTPebYFgw" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -713,32 +475,14 @@ if (window.location.hash) {
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="players[13].seek(1721)">0:28:41</a> - Party Panic</li>
-    <li><a onclick="players[13].seek(10731)">2:58:51</a> - SCP: Secret Laboratory</li>
+    <li><a onclick="document.getElementById('wrapper-13').seek(1721)">0:28:41</a> - Party Panic</li>
+    <li><a onclick="document.getElementById('wrapper-13').seek(10731)">2:58:51</a> - SCP: Secret Laboratory</li>
   </ul>
 
-  <li>Игра начинается с <a onclick="players[13].seek(10731)">2:58:51</a></li>
+  <li>Игра начинается с <a onclick="document.getElementById('wrapper-13').seek(10731)">2:58:51</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(13, JSON.parse('{&quot;twitch&quot;: &quot;232346216&quot;, &quot;start&quot;: &quot;2:58:51&quot;, &quot;youtube&quot;: &quot;MCHaIvn1sO4&quot;}'))" id="button-13">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-13" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "13" || id == "232346216") {
-    spawnPlayer(13, JSON.parse('{"twitch": "232346216", "start": "2:58:51", "youtube": "MCHaIvn1sO4"}'));
-    document.title = "SCP: Secret Laboratory | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-13" data-name="SCP: Secret Laboratory" data-twitch="232346216" data-start="2:58:51" data-youtube="MCHaIvn1sO4" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -765,28 +509,10 @@ if (window.location.hash) {
 
   </ul>
   <li>Эта запись смещена на 1:49:06 от начала стрима</li>
-  <li>Игра начинается с <a onclick="players[14].seek(58)">0:00:58</a></li>
+  <li>Игра начинается с <a onclick="document.getElementById('wrapper-14').seek(58)">0:00:58</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(14, JSON.parse('{&quot;twitch&quot;: &quot;233032380&quot;, &quot;start&quot;: &quot;1:50:04&quot;, &quot;youtube&quot;: &quot;U8seqd_gNo4&quot;, &quot;offset&quot;: &quot;1:49:06&quot;}'))" id="button-14">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-14" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "14" || id == "233032380") {
-    spawnPlayer(14, JSON.parse('{"twitch": "233032380", "start": "1:50:04", "youtube": "U8seqd_gNo4", "offset": "1:49:06"}'));
-    document.title = "Past Cure | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-14" data-name="Past Cure" data-twitch="233032380" data-start="1:50:04" data-youtube="U8seqd_gNo4" data-offset="1:49:06" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
@@ -812,28 +538,10 @@ if (window.location.hash) {
       <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=J-ExEwSLDiE">J-ExEwSLDiE</a></li>
 
   </ul>
-  <li>Игра начинается с <a onclick="players[15].seek(1194)">0:19:54</a></li>
+  <li>Игра начинается с <a onclick="document.getElementById('wrapper-15').seek(1194)">0:19:54</a></li>
 </ul>
 
-
-<p>
-    <a onclick="return spawnPlayer(15, JSON.parse('{&quot;twitch&quot;: &quot;233355849&quot;, &quot;start&quot;: &quot;19:54&quot;, &quot;youtube&quot;: &quot;J-ExEwSLDiE&quot;}'))" id="button-15">
-    <b>▶ Открыть плеер</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-15" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "15" || id == "233355849") {
-    spawnPlayer(15, JSON.parse('{"twitch": "233355849", "start": "19:54", "youtube": "J-ExEwSLDiE"}'));
-    document.title = "Final Fantasy XV: Windows Edition (demo) | Первый взгляд | Архив чата BlackUFA_Twitch";
-  }
-}
-</script>
-
+<p class="stream" id="wrapper-15" data-name="Final Fantasy XV: Windows Edition (demo)" data-twitch="233355849" data-start="19:54" data-youtube="J-ExEwSLDiE" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
