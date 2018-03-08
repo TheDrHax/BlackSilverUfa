@@ -24,28 +24,25 @@ function sec(timecode) {
   return result;
 };
 
-var players = {};
-var subs = {};
-
-function spawnPlayer(id, stream) {
+function spawnPlayer(wrapper, callback) {
   var player, subtitles;
 
-  document.getElementById("button-" + id).style.display = 'none';
-  var wrapper = document.getElementById('player-wrapper-' + id);
-  wrapper.innerHTML = '<video id="player-' + id + '"></video>';
-  wrapper.style.display = 'block';
+  var stream = wrapper.dataset;
 
   var options = {};
-  if (stream.end) {
+  if (wrapper.dataset.end) {
     options.duration = (
-      stream.offset ?
-        sec(stream.end) - sec(stream.offset) :
-        sec(stream.end)
+      wrapper.dataset.offset ?
+        sec(wrapper.dataset.end) - sec(wrapper.dataset.offset) :
+        sec(wrapper.dataset.end)
     );
   }
-  player = plyr.setup('#player-' + id, options)[0];
 
-  if (stream.end) {
+  wrapper.innerHTML = '<video />';
+  wrapper.style.marginTop = "32px";
+  player = plyr.setup(wrapper, options)[0];
+
+  if (wrapper.dataset.end) {
     // Stop player when video exceeds overriden duration
     player.on('timeupdate', function(event) {
       if (player.getCurrentTime() >= player.getDuration()) {
@@ -56,31 +53,31 @@ function spawnPlayer(id, stream) {
   }
 
   var source = { type: 'video' };
-  if (stream.youtube) {
+  if (wrapper.dataset.youtube) {
     source.sources = [{
       type: 'youtube',
-      src: stream.youtube
+      src: wrapper.dataset.youtube
     }];
-  } else if (stream.vk) {
+  } else if (wrapper.dataset.vk) {
     source.sources = [{
       type: 'video/mp4',
-      src: 'https://api.thedrhax.pw/vk/video/' + stream.vk + '\?redirect'
+      src: 'https://api.thedrhax.pw/vk/video/' + wrapper.dataset.vk + '\?redirect'
     }];
   } else {
     source.sources = [{
       type: 'video/mp4',
-      src: stream.direct
+      src: wrapper.dataset.direct
     }];
   }
   player.source(source);
 
-  // if (stream.start) {
+  // if (wrapper.dataset.start) {
   //   // Seek to specific position on first start of the video
   //   player.on('ready', function(event) {
   //     player.seek(
-  //       stream.offset ?
-  //         sec(stream.start) - sec(stream.offset) :
-  //         sec(stream.start)
+  //       wrapper.dataset.offset ?
+  //         sec(wrapper.dataset.start) - sec(wrapper.dataset.offset) :
+  //         sec(wrapper.dataset.start)
   //     );
   //   });
   // }
@@ -88,11 +85,11 @@ function spawnPlayer(id, stream) {
   // Connect Subtitles Octopus to video
   var subtitles_options = {
     video: player.getMedia(),
-    subUrl: "/chats/v" + stream.twitch + ".ass",
+    subUrl: "/chats/v" + wrapper.dataset.twitch + ".ass",
     workerUrl: '/static/js/subtitles-octopus-worker.js',
   };
-  if (stream.offset) {
-    subtitles_options.timeOffset = sec(stream.offset);
+  if (wrapper.dataset.offset) {
+    subtitles_options.timeOffset = sec(wrapper.dataset.offset);
   }
   subtitles = new SubtitlesOctopus(subtitles_options);
 
@@ -101,7 +98,7 @@ function spawnPlayer(id, stream) {
     subtitles.resize();
   });
 
-  if (stream.youtube) {
+  if (wrapper.dataset.youtube) {
     // Fix Subtitles Octopus to work with embedded YouTube videos
     // TODO: Fix subtitles position in fullscreen mode
     function subResize(event) {
@@ -125,8 +122,46 @@ function spawnPlayer(id, stream) {
     window.addEventListener('resize', debounce(subResize, 100, false));
   }
 
-  players[id] = player;
-  subs[id] = subtitles;
+  // Element controls
+  wrapper.seek = function(t) {
+    player.seek(t);
+    player.play();
+    return false;
+  };
+
+  if (callback != undefined) {
+    player.on('ready', function(event) { callback(wrapper); });
+  }
 
   return false;
 };
+
+window.addEventListener('DOMContentLoaded', function() {
+  let streams = document.getElementsByClassName("stream");
+
+  let i = 0;
+  for (let wrapper of streams) {
+    wrapper.innerHTML = "<a><b>▶ Открыть плеер</b></a>";
+    wrapper.children[0].onclick = function() {
+      spawnPlayer(wrapper);
+    };
+
+    // Placeholder methods to trigger spawn of player
+    wrapper.seek = function (t) {
+      spawnPlayer(wrapper, function(wrapper) {
+        console.log(wrapper);
+        wrapper.seek(t);
+      });
+    };
+
+    if (window.location.hash) {
+      let id = window.location.hash.replace('#', '');
+      if (id == i || id == wrapper.dataset.twitch) {
+        spawnPlayer(wrapper);
+        document.title = wrapper.dataset.name + " | " + document.title;
+      }
+    }
+
+    i++;
+  }
+}, false);

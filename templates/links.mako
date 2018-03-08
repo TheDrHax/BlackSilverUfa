@@ -2,8 +2,6 @@
 <%namespace file="include/elements.mako" name="el" />
 <%!
 
-import json
-import urllib
 import hashlib
 import datetime
 
@@ -22,8 +20,6 @@ def md5file(f_path, block_size=2**20):
 <%block name="head">
 <title>${game['name']} | ${config['title']}</title>
 
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 <!-- Plyr (https://github.com/sampotts/plyr) -->
 <link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
@@ -61,6 +57,13 @@ def md5file(f_path, block_size=2**20):
            return True
     return False
 
+  def stream_to_attrs(stream):
+    return ' '.join(
+      ['data-{}="{}"'.format(key, stream[key].replace('"', '&quot;'))
+       for key in stream.keys()
+       if key not in ['note', 'timecodes', 'segment']]
+    )
+
   def mpv_file(stream):
     if stream.get('youtube'):
       return 'ytdl://' + stream['youtube']
@@ -81,7 +84,7 @@ def md5file(f_path, block_size=2**20):
 
 <%def name="timecode_link(id, stream, timecode)">\
 <% seconds = sec_with_offset(stream, timecode) %>\
-<a onclick="players[${id}].seek(${seconds})">${sec_to_timecode(seconds)}</a>\
+<a onclick="document.getElementById('wrapper-${id}').seek(${seconds})">${sec_to_timecode(seconds)}</a>\
 </%def>
 
 <%def name="timecode_list(id, stream)">\
@@ -111,35 +114,6 @@ def md5file(f_path, block_size=2**20):
 % else:
   <li>${text}: отсутствует</li>
 % endif
-</%def>
-
-<%def name="player(id, stream, text=u'Открыть плеер')">
-<p>
-  <%
-  player_data_dict = stream.copy()
-
-  for param in ['name', 'note', 'timecodes', 'segment']:
-    player_data_dict.pop(param, None)
-
-  player_data = json.dumps(player_data_dict).replace('"', '&quot;')
-
-  %>\
-  <a onclick="return spawnPlayer(${id}, JSON.parse('${player_data}'))" id="button-${id}">
-    <b>▶ ${text}</b>
-  </a>
-</p>
-
-<p class="player-wrapper" id="player-wrapper-${id}" style="margin-top: 32px; display: none"></p>
-
-<script>
-if (window.location.hash) {
-  var id = window.location.hash.replace('#', '');
-  if (id == "${id}" || id == "${stream['twitch']}") {
-    spawnPlayer(${id}, JSON.parse('${json.dumps(player_data_dict)}'));
-    document.title = "${stream['name']} | ${game['name']} | ${config['title']}";
-  }
-}
-</script>
 </%def>
 
 <%def name="gen_stream(id, stream)">
@@ -172,7 +146,7 @@ if (window.location.hash) {
 </ul>
 
 % if player_compatible(stream):
-${player(id, stream)}
+<p class="stream" id="wrapper-${id}" ${stream_to_attrs(stream)} />
 % endif
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
