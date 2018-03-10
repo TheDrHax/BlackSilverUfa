@@ -33,11 +33,18 @@ def md5file(f_path, block_size=2**20):
     return md5.hexdigest()
 
 
+def escape_attr(attr):
+    if type(attr) is str:
+        return attr.replace('"', '&quot;')
+    else:
+        return str(attr)
+
+
 def stream_to_attrs(stream):
     return ' '.join(
-        ['data-{}="{}"'.format(key, stream[key].replace('"', '&quot;'))
+        ['data-{}="{}"'.format(key, escape_attr(stream[key]))
          for key in stream.keys()
-         if key not in ['note', 'timecodes', 'segment']]
+         if key not in ['note', 'timecodes']]
     )
 
 
