@@ -118,6 +118,7 @@ def md5file(f_path, block_size=2**20):
 
 <%def name="gen_stream(id, stream)">
 <%
+  # TODO: Move this into separate file
   hash = stream['twitch']
   if stream.get('segment'):
       hash = hash + '.' + str(stream['segment'])
