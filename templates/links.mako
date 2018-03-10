@@ -1,21 +1,11 @@
+<%!
+  import datetime
+  from templates.utils import (player_compatible, stream_hash, md5file,
+                               stream_to_attrs, mpv_file, mpv_args)
+  from templates.utils.timecodes import Timecode
+%>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />
-<%!
-
-import hashlib
-import datetime
-
-def md5file(f_path, block_size=2**20):
-    md5 = hashlib.md5()
-    with open(f_path, 'rb') as f:
-        while True:
-            data = f.read(block_size)
-            if not data:
-                break
-            md5.update(data)
-    return md5.hexdigest()
-
-%>
 
 <%block name="head">
 <title>${game['name']} | ${config['title']}</title>
@@ -37,68 +27,22 @@ def md5file(f_path, block_size=2**20):
 </%block>
 
 <%block name="content">
-<%
-  def sec(t):
-    return sum(int(x) * 60 ** i for i,x in enumerate(reversed(t.split(":"))))
-
-  def sec_with_offset(stream, t):
-    if stream.get('offset'):
-      return sec(t) - sec(stream['offset'])
-    else:
-      return sec(t)
-
-  def sec_to_timecode(t):
-    return str(datetime.timedelta(seconds=t))
-
-  # TODO: Export this function into separate file
-  def player_compatible(stream):
-    for i in ['youtube', 'vk', 'direct']:
-       if i in stream:
-           return True
-    return False
-
-  def stream_to_attrs(stream):
-    return ' '.join(
-      ['data-{}="{}"'.format(key, stream[key].replace('"', '&quot;'))
-       for key in stream.keys()
-       if key not in ['note', 'timecodes', 'segment']]
-    )
-
-  def mpv_file(stream):
-    if stream.get('youtube'):
-      return 'ytdl://' + stream['youtube']
-    elif stream.get('vk'):
-      return 'https://api.thedrhax.pw/vk/video/' + stream['vk'] + '\?redirect'
-    elif stream.get('direct'):
-      return stream['direct']
-
-  def mpv_args(stream):
-    result = '--sub-file=chats/v{}.ass '.format(stream['twitch'])
-
-    if stream.get('offset'):
-      result += '--sub-delay=-{} '.format(sec(stream['offset']))
-
-    return result.strip()
-
-%>
-
-<%def name="timecode_link(id, stream, timecode)">\
-<% seconds = sec_with_offset(stream, timecode) %>\
-<a onclick="document.getElementById('wrapper-${id}').seek(${seconds})">${sec_to_timecode(seconds)}</a>\
+<%def name="timecode_link(id, t)">\
+<a onclick="document.getElementById('wrapper-${id}').seek(${int(t)})">${str(t)}</a>\
 </%def>
 
 <%def name="timecode_list(id, stream)">\
 <%
-  signs = [sec_with_offset(stream, timecode[0]) > 0
-           for timecode in stream['timecodes']]
+  offset = Timecode(stream.get('offset'))
+  timecodes = [(Timecode(t) - offset, name)
+               for t, name in tuple(stream['timecodes'])
+               if Timecode(t) >= offset]
 %>\
-% if True in signs:
+% if len(timecodes) > 0:
   <li>Таймкоды:</li>
   <ul>
-  % for timecode in stream['timecodes']:
-    % if sec_with_offset(stream, timecode[0]) > 0:
-    <li>${timecode_link(id, stream, timecode[0])} - ${timecode[1]}</li>
-    % endif
+  % for t, name in timecodes:
+    <li>${timecode_link(id, t)} - ${name}</li>
   % endfor
   </ul>
 % endif
@@ -117,12 +61,7 @@ def md5file(f_path, block_size=2**20):
 </%def>
 
 <%def name="gen_stream(id, stream)">
-<%
-  # TODO: Move this into separate file
-  hash = stream['twitch']
-  if stream.get('segment'):
-      hash = hash + '.' + str(stream['segment'])
-%>\
+<% hash = stream_hash(stream) %>\
 <h2 id="${hash}"><a id="${id}" href="#${hash}">${stream['name']}</a></h2>
 
 <ul>
@@ -142,10 +81,10 @@ def md5file(f_path, block_size=2**20):
   ${timecode_list(id, stream)}
 % endif
 % if stream.get('start'):
-  <li>Игра начинается с ${timecode_link(id, stream, stream['start'])}</li>
+  <li>Игра начинается с ${timecode_link(id, Timecode(stream['start']) - Timecode(stream.get('offset')))}</li>
 % endif
 % if stream.get('end'):
-  <li>Запись заканчивается в ${timecode_link(id, stream, stream['end'])}</li>
+  <li>Запись заканчивается в ${timecode_link(id, Timecode(stream['end']) - Timecode(stream.get('offset')))}</li>
 % endif
 </ul>
 
