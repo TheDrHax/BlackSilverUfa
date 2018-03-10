@@ -23,6 +23,11 @@
   padding: 2rem;
   max-width: 72rem;
 }
+
+/* Enable caption button in player */
+.plyr [data-plyr=captions] {
+  display: inline-block !important;
+}
 </style>
 </%block>
 

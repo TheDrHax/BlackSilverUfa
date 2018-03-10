@@ -93,6 +93,17 @@ function spawnPlayer(wrapper, callback) {
   }
   subtitles = new SubtitlesOctopus(subtitles_options);
 
+  // Player caption button
+  player.on('captionsenabled', function(event) {
+    subtitles.canvas.style.display = 'block';
+  });
+  player.on('captionsdisabled', function(event) {
+    subtitles.canvas.style.display = 'none';
+  });
+  player.on('ready', function(event) {
+    player.toggleCaptions(true);
+  });
+
   // Fix subtitles position on first start of the video
   player.on('play', function(event) {
     subtitles.resize();
