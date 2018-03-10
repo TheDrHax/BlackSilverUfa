@@ -116,9 +116,15 @@
 % for game in games:
   % for stream in game['streams']:
     % if 'vk' in stream:
+    <%
+      # TODO: Move this into separate file
+      hash = stream['twitch']
+      if stream.get('segment'):
+          hash = hash + '.' + str(stream['segment'])
+    %>\
     <li>
       <a href="links/${game['filename']}">${game['name']}</a> -
-      <a href="links/${game['filename']}#${stream['twitch']}">${stream['name']}</a>
+      <a href="links/${game['filename']}#${hash}">${stream['name']}</a>
     </li>
     % endif
   % endfor
