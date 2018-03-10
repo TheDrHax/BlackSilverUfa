@@ -155,7 +155,8 @@ window.addEventListener('DOMContentLoaded', function() {
     };
 
     if (window.location.hash) {
-      let id = window.location.hash.replace('#', '');
+      let hash = window.location.hash.replace('#', '').split('.');
+      let id = hash[0];
       if (id == i || id == wrapper.dataset.twitch) {
         spawnPlayer(wrapper);
         document.title = wrapper.dataset.name + " | " + document.title;
