@@ -117,9 +117,12 @@ def md5file(f_path, block_size=2**20):
 </%def>
 
 <%def name="gen_stream(id, stream)">
-<h2 id="${stream['twitch']}">
-  <a id="${id}" href="#${stream['twitch']}">${stream['name']}</a>
-</h2>
+<%
+  hash = stream['twitch']
+  if stream.get('segment'):
+      hash = hash + '.' + str(stream['segment'])
+%>\
+<h2 id="${hash}"><a id="${id}" href="#${hash}">${stream['name']}</a></h2>
 
 <ul>
 % if stream.get('note'):
