@@ -1,3 +1,4 @@
+<%! from templates.utils import player_compatible, stream_hash, count_format %>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />
 
@@ -6,16 +7,6 @@
 </%block>
 
 <%block name="content">
-<%
-  def count_format(i):
-      if i == 1:
-          return u'{0} стрим'.format(i)
-      elif i in [2, 3, 4]:
-          return u'{0} стрима'.format(i)
-      else:
-          return u'{0} стримов'.format(i)
-%>
-
 <h1>Архив чата BlackUFA_Twitch</h1>
 
 <p>
@@ -78,16 +69,7 @@
 </p>
 
 <ul>
-<%
-  # TODO: Export this function into separate file
-  def player_compatible(stream):
-    for i in ['youtube', 'vk', 'direct']:
-       if i in stream:
-           return True
-    return False
-
-  missing = False
-%>\
+<% missing = False %>\
 % for game in games:
   % for stream in game['streams']:
     % if not player_compatible(stream):
@@ -116,15 +98,9 @@
 % for game in games:
   % for stream in game['streams']:
     % if 'vk' in stream:
-    <%
-      # TODO: Move this into separate file
-      hash = stream['twitch']
-      if stream.get('segment'):
-          hash = hash + '.' + str(stream['segment'])
-    %>\
     <li>
       <a href="links/${game['filename']}">${game['name']}</a> -
-      <a href="links/${game['filename']}#${hash}">${stream['name']}</a>
+      <a href="links/${game['filename']}#${stream_hash(stream)}">${stream['name']}</a>
     </li>
     % endif
   % endfor
