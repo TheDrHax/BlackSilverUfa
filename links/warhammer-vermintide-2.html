@@ -205,17 +205,18 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/237304245">237304245</a></li>
     <li>Субтитры: <a href="../chats/v237304245.ass">v237304245.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=CMb9zMRgVpY">CMb9zMRgVpY</a></li>
 
   </ul>
 </ul>
 
+<p class="stream" id="wrapper-4" data-name="3 (часть 2)" data-twitch="237304245" data-youtube="CMb9zMRgVpY" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v237304245.ass" --player-passthrough hls twitch.tv/videos/237304245 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v237304245.ass ytdl://CMb9zMRgVpY
 </code></pre>
 </div></div>
 
