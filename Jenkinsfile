@@ -26,8 +26,13 @@ node('docker && git') {
 
     stage('Build') {
         sh 'docker build -t ' + docker_image + ' docker/'
-        sh 'docker run --rm -v \$(pwd):/bsu --workdir /bsu -u \$(id -u) ' + docker_image + ' ./generate.py'
-        sh 'docker rmi ' + docker_image
+        try {
+            sh 'docker run --rm -v \$(pwd):/bsu --workdir /bsu -u \$(id -u) ' + docker_image + ' ./generate.py'
+        } catch (error) {
+            throw error
+        } finally {
+            sh 'docker rmi ' + docker_image
+        }
     }
 
     stage('Commit') {
