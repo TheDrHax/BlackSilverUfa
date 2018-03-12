@@ -30,10 +30,7 @@ if __name__ == "__main__":
             if type(stream_info) is dict:
                 stream.update(stream_info)
             elif type(stream_info) is list:
-                if not stream.get('segment'):
-                    stream.update(stream_info[0])
-                else:
-                    stream.update(stream_info[stream['segment']])
+                stream.update(stream_info[stream['segment']])
 
     # Populate categories with games
     for category in args['categories']:
