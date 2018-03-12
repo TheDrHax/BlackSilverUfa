@@ -1,4 +1,4 @@
-<%! from templates.utils import player_compatible, stream_hash, count_format %>
+<%! from templates.utils import player_compatible, count_format %>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />
 
@@ -39,18 +39,13 @@
   % if category.get('type') is None:
     % for game in category['games']:
     <li>
-      <a href="links/${game['filename']}">
-        ${game['name']}
-      </a>
-      (${count_format(len(game['streams']))})
+      <%el:game_link game="${game}" /> (${count_format(len(game['streams']))})
     </li>
     % endfor
   % elif category['type'] == 'list':
     % for stream in category['games'][0]['streams']:
     <li>
-      <a href="links/${category['games'][0]['filename']}#${stream_hash(stream)}">
-        ${stream['name']}
-      </a>
+      <%el:stream_link game="${category['games'][0]}" stream="${stream}" />
     </li>
     % endfor
   % endif
@@ -75,8 +70,8 @@
     % if not player_compatible(stream):
 <% missing = True %>\
     <li>
-      <a href="links/${game['filename']}">${game['name']}</a> -
-      <a href="links/${game['filename']}#${stream_hash(stream)}">${stream['name']}</a>
+      <%el:game_link game="${game}" /> —\
+      <%el:stream_link game="${category['games'][0]}" stream="${stream}" />
     </li>
     % endif
   % endfor
@@ -99,8 +94,8 @@
   % for stream in game['streams']:
     % if 'vk' in stream:
     <li>
-      <a href="links/${game['filename']}">${game['name']}</a> -
-      <a href="links/${game['filename']}#${stream_hash(stream)}">${stream['name']}</a>
+      <%el:game_link game="${game}" /> —\
+      <%el:stream_link game="${category['games'][0]}" stream="${stream}" />
     </li>
     % endif
   % endfor
