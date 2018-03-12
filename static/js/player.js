@@ -169,7 +169,8 @@ window.addEventListener('DOMContentLoaded', function() {
       let hash = window.location.hash.replace('#', '').split('.');
       let id = hash[0];
       if (id == i || id == wrapper.dataset.twitch) {
-        if (hash.length == 1 || hash[1] == wrapper.dataset.segment) {
+        if (hash.length == 1 && wrapper.dataset.segment === undefined
+            || hash[1] == wrapper.dataset.segment) {
           spawnPlayer(wrapper, function(wrapper) {
             // Trigger autoscroll again
             window.location.hash = window.location.hash;
