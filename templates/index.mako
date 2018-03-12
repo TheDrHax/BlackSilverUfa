@@ -48,7 +48,7 @@
   % elif category['type'] == 'list':
     % for stream in category['games'][0]['streams']:
     <li>
-      <a href="links/${category['games'][0]['filename']}#${stream['twitch']}">
+      <a href="links/${category['games'][0]['filename']}#${stream_hash(stream)}">
         ${stream['name']}
       </a>
     </li>
@@ -76,7 +76,7 @@
 <% missing = True %>\
     <li>
       <a href="links/${game['filename']}">${game['name']}</a> -
-      <a href="links/${game['filename']}#${stream['twitch']}">${stream['name']}</a>
+      <a href="links/${game['filename']}#${stream_hash(stream)}">${stream['name']}</a>
     </li>
     % endif
   % endfor
