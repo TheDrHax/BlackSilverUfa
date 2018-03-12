@@ -169,12 +169,24 @@ window.addEventListener('DOMContentLoaded', function() {
       let hash = window.location.hash.replace('#', '').split('.');
       let id = hash[0];
       if (id == i || id == wrapper.dataset.twitch) {
-        if (hash.length == 1 || hash[1] == wrapper.dataset.segment) {
-          spawnPlayer(wrapper, function(wrapper) {
-            // Trigger autoscroll again
-            window.location.hash = window.location.hash;
-          });
+        let callback = function(wrapper) {
+          // Trigger autoscroll again
+          window.location.hash = window.location.hash;
+        };
+
+        let spawn = function() {
+          spawnPlayer(wrapper, callback);
           document.title = wrapper.dataset.name + " | " + document.title;
+        };
+
+        if (hash.length == 1) { // simple streams
+          spawn();
+        }
+
+        if (hash.length == 2) { // segmented streams
+          if (hash[1] == wrapper.dataset.segment) {
+            spawn();
+          }
         }
       }
     }
