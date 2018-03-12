@@ -16,7 +16,7 @@ def player_compatible(stream):
 def stream_hash(stream):
     hash = stream['twitch']
 
-    if stream.get('segment'):
+    if stream.get('segment') is not None:
         hash = hash + '.' + str(stream['segment'])
 
     return hash
