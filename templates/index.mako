@@ -71,7 +71,7 @@
 <% missing = True %>\
     <li>
       <%el:game_link game="${game}" /> —\
-      <%el:stream_link game="${category['games'][0]}" stream="${stream}" />
+      <%el:stream_link game="${game}" stream="${stream}" />
     </li>
     % endif
   % endfor
@@ -95,7 +95,7 @@
     % if 'vk' in stream:
     <li>
       <%el:game_link game="${game}" /> —\
-      <%el:stream_link game="${category['games'][0]}" stream="${stream}" />
+      <%el:stream_link game="${game}" stream="${stream}" />
     </li>
     % endif
   % endfor
