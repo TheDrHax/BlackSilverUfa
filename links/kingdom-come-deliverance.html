@@ -256,18 +256,19 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/238317087">238317087</a></li>
     <li>Субтитры: <a href="../chats/v238317087.ass">v238317087.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=WvE25NDATlM">WvE25NDATlM</a></li>
 
   </ul>
   <li>Игра начинается с <a onclick="document.getElementById('wrapper-7').seek(1656)">0:27:36</a></li>
 </ul>
 
+<p class="stream" id="wrapper-7" data-name="8" data-twitch="238317087" data-start="27:36" data-youtube="WvE25NDATlM" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v238317087.ass" --player-passthrough hls twitch.tv/videos/238317087 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v238317087.ass ytdl://WvE25NDATlM
 </code></pre>
 </div></div>
 
