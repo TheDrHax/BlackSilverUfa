@@ -533,18 +533,19 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/239018968">239018968</a></li>
     <li>Субтитры: <a href="../chats/v239018968.ass">v239018968.ass</a></li>
-      <li>Запись: отсутствует</li>
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=EBc0XZxPW0s">EBc0XZxPW0s</a></li>
 
   </ul>
-  <li>Игра начинается с <a onclick="document.getElementById('wrapper-16').seek(1364)">0:22:44</a></li>
+  <li>Эта запись смещена на 24:27 от начала стрима</li>
 </ul>
 
+<p class="stream" id="wrapper-16" data-name="Ghost of the Tale" data-twitch="239018968" data-youtube="EBc0XZxPW0s" data-offset="24:27" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v239018968.ass" --player-passthrough hls twitch.tv/videos/239018968 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v239018968.ass --sub-delay=-1467 ytdl://EBc0XZxPW0s
 </code></pre>
 </div></div>
 
