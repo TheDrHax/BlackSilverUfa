@@ -60,8 +60,6 @@
   <li>${text} (ВКонтакте): <a href="https://vk.com/video${stream['vk']}">${stream['vk']}</a></li>
 % elif stream.get('direct'):
   <li>${text}: <a href="${stream['direct']}">прямая ссылка</a></li>
-% else:
-  <li>${text}: отсутствует</li>
 % endif
 </%def>
 
@@ -95,6 +93,13 @@
 
 % if player_compatible(stream):
 <p class="stream" id="wrapper-${id}" ${stream_to_attrs(stream)} />
+% else:
+<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
+прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
+обновился. Обычно на это требуется минута или около того, но я оставляю
+комментарий ещё до завершения процесса. Нажмите
+<a onclick="document.location.reload()">сюда</a>, чтобы попробовать обновить
+страницу.</p>
 % endif
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
