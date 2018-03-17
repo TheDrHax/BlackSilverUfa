@@ -66,43 +66,43 @@
   "179635876": { "youtube": "zxTKOfKANt8" },
   "179882105": { "youtube": "r6fssOx-GCQ" },
   "180397849": {
-    "timecodes": [
-      ["17:26", "Road Redemption"],
-      ["1:16:16", "Battle Chasers"],
-      ["2:57:45", "Stardew Valley"]
-    ],
+    "timecodes": {
+      "17:26": "Road Redemption",
+      "1:16:16": "Battle Chasers",
+      "2:57:45": "Stardew Valley"
+    },
     "youtube": "x5KwWrLRpEg"
   },
   "180663832": {
-    "timecodes": [
-      ["11:12", "Hand Simulator"],
-      ["1:35:44", "Ben and Ed: Blood Party"],
-      ["3:19:30", "Stick Fight"],
-      ["4:02:04", "Golf It!"]
-    ],
+    "timecodes": {
+      "11:12": "Hand Simulator",
+      "1:35:44": "Ben and Ed: Blood Party",
+      "3:19:30": "Stick Fight",
+      "4:02:04": "Golf It!"
+    },
     "youtube": "y2PitYePsOU"
   },
   "181166703": { "youtube": "ZlMQcv0a1Sc" },
   "181408745": { "youtube": "VQNcHN56go4" },
   "181664458": { "youtube": "_k7nFbZSYD0" },
   "182448131": {
-    "timecodes": [
-      ["15:16", "Hand Simulator"],
-      ["1:12:26", "Gang Beasts"],
-      ["2:18:21", "Duck Game"],
-      ["2:46:00", "Move or Die"]
-    ],
+    "timecodes": {
+      "15:16": "Hand Simulator",
+      "1:12:26": "Gang Beasts",
+      "2:18:21": "Duck Game",
+      "2:46:00": "Move or Die"
+    },
     "youtube": "IqTeWjugKOE"
   },
   "184206477": {
-    "timecodes": [
-      ["24:55", "Spelunker! Party"],
-      ["54:58", "Ultimate Chicken Horse"],
-      ["1:48:56", "We Need to go Deeper"],
-      ["2:55:35", "Gang Beasts"],
-      ["3:49:00", "Hand Simulator"],
-      ["4:18:30", "Golf It!"]
-    ],
+    "timecodes": {
+      "24:55": "Spelunker! Party",
+      "54:58": "Ultimate Chicken Horse",
+      "1:48:56": "We Need to go Deeper",
+      "2:55:35": "Gang Beasts",
+      "3:49:00": "Hand Simulator",
+      "4:18:30": "Golf It!"
+    },
     "youtube": "tUc-5QNu_CE"
   },
   "184468298": { "youtube": "9p23c9_BYaU" },
@@ -110,36 +110,36 @@
   "186799946": { "vk": "87862793_456240876" },
   "187291538": { "youtube": "Bxj09aAOFaI" },
   "187586726": {
-    "timecodes": [
-      ["25:22", "Deceit"],
-      ["52:24", "Friday the 13th"],
-      ["2:21:23", "Deceit"]
-    ],
+    "timecodes": {
+      "25:22": "Deceit",
+      "52:24": "Friday the 13th",
+      "2:21:23": "Deceit"
+    },
     "youtube": "PYqnr5-Lq4o"
   },
   "200401270": {
     "youtube": "LSHpifkX69Y",
-    "timecodes": [
-      ["27:31", "Little Nightmares"],
-      ["3:10:20", "Super Mario Odyssey"]
-    ]
+    "timecodes": {
+      "27:31": "Little Nightmares",
+      "3:10:20": "Super Mario Odyssey"
+    }
   },
   "200702885": {
-    "timecodes": [
-      ["23:30", "Dead by Daylight"],
-      ["2:09:00", "Pulsar: Lost Colony"],
-      ["4:02:50", "Deceit"]
-    ],
+    "timecodes": {
+      "23:30": "Dead by Daylight",
+      "2:09:00": "Pulsar: Lost Colony",
+      "4:02:50": "Deceit"
+    },
     "youtube": "qyMVUvAjqdE"
   },
   "201707253": { "youtube": "quashvbtL-M" },
   "202329656": { "youtube": "9kSnxedrUjM" },
   "202381358": { "youtube": "Umsq53kBb9I" },
   "202631693": {
-    "timecodes": [
-      ["21:00", "Human: Fall Flat"],
-      ["4:24:00", "Deceit"]
-    ],
+    "timecodes": {
+      "21:00": "Human: Fall Flat",
+      "4:24:00": "Deceit"
+    },
     "youtube": "BL6BrZRmRts"
   },
   "203147401": { "youtube": "xSMy8oGoWnQ" },
@@ -148,21 +148,21 @@
   "205262158": { "youtube": "9rrv07l9Bxs" },
   "206091904": { "youtube": "-amaLXxGG30" },
   "206394832": {
-    "timecodes": [
-      ["23:00", "Looterkings"],
-      ["1:25:00", "Mount Your Friends"],
-      ["2:49:00", "We Need to Go Deeper"],
-      ["4:36:00", "Golf It!"]
-    ],
+    "timecodes": {
+      "23:00": "Looterkings",
+      "1:25:00": "Mount Your Friends",
+      "2:49:00": "We Need to Go Deeper",
+      "4:36:00": "Golf It!"
+    },
     "youtube": "-77Qpme-5EA"
   },
   "206933269": { "youtube": "Apcg-z-sBHM" },
   "207478875": { "youtube": "30i6tsz6xmw" },
   "207753795": {
-    "timecodes": [
-      ["8:30", "Witch It"],
-      ["3:24:00", "PUBG"]
-    ],
+    "timecodes": {
+      "8:30": "Witch It",
+      "3:24:00": "PUBG"
+    },
     "youtube": "PPZFFjgxKnY"
   },
   "208349646": { "youtube": "gUtKWEEyzPE" },
@@ -170,34 +170,34 @@
   "210024030": { "youtube": "FAjRM5KGsnw" },
   "210846597": { "youtube": "sR_zEhQt7_g" },
   "212431882": {
-    "timecodes": [
-      ["20:47", "Uncanny Valley"],
-      ["1:44:54", "The Coma: Recut"],
-      ["2:52:00", "Lone Survivor"]
-    ],
+    "timecodes": {
+      "20:47": "Uncanny Valley",
+      "1:44:54": "The Coma: Recut",
+      "2:52:00": "Lone Survivor"
+    },
     "youtube": "JS7cNXnzCTA"
   },
   "212678883": {
-    "timecodes": [
-      ["25:00", "Stifled"],
-      ["2:59:00", "Uncanny Valley"]
-    ],
+    "timecodes": {
+      "25:00": "Stifled",
+      "2:59:00": "Uncanny Valley"
+    },
     "youtube": "sz8y749Jn_8"
   },
   "213247693": {
-    "timecodes": [
-      ["15:00", "The Hunter: Call of the Wild"],
-      ["3:10:00", "Road Redemption"]
-    ],
+    "timecodes": {
+      "15:00": "The Hunter: Call of the Wild",
+      "3:10:00": "Road Redemption"
+    },
     "youtube": "GPga2h4UUXc"
   },
   "213846142": {
-    "timecodes": [
-      ["13:00", "Hand Simulator"],
-      ["1:58:00", "Viscera Cleanup Detail"],
-      ["3:00:00", "Astroneer"],
-      ["4:59:00", "Gang Beasts"]
-    ],
+    "timecodes": {
+      "13:00": "Hand Simulator",
+      "1:58:00": "Viscera Cleanup Detail",
+      "3:00:00": "Astroneer",
+      "4:59:00": "Gang Beasts"
+    },
     "youtube": "8GFZF96owuA"
   },
   "215612485": { "youtube": "PSFYqx5cHvk" },
@@ -225,59 +225,61 @@
   "219819121": {
     "youtube": "4tbKXowGdSk",
     "note": "Twitch удалил некоторые участки звуковой дорожки (см. таймкоды)",
-    "timecodes": [
-      ["20:00", "Metal Gear Survive"],
-      ["1:23:30", "Metal Gear Survive (ко-оп со зрителями)"],
-      ["1:52:00", "Getting Over It"],
-      ["3:26:52", "- уши"], ["3:33:10", "+ уши"],
-      ["3:39:30", "- уши"], ["3:51:30", "+ уши"]
-    ]
+    "timecodes": {
+      "20:00": "Metal Gear Survive",
+      "1:23:30": "Metal Gear Survive (ко-оп со зрителями)",
+      "1:52:00": "Getting Over It",
+      "3:26:52": "- уши", "3:33:10": "+ уши",
+      "3:39:30": "- уши", "3:51:30": "+ уши"
+    }
   },
   "220513992": {
     "youtube": "CE21Sxn4xzE",
-    "timecodes": [
-      ["21:00", "SCP Containment Breach Unity"],
-      ["1:09:00", "SCP Containment Breach"]
-    ]
+    "timecodes": {
+      "21:00": "SCP Containment Breach Unity",
+      "1:09:00": "SCP Containment Breach"
+    }
   },
   "222198164": {
     "youtube": "x9NkgWX09L0",
-    "timecodes": [
-      ["26:00", "The Witchkin"],
-      ["1:55:34", "Emily Wants to Play Too"],
-      ["3:17:53", "LeftWay"]
-    ]
+    "timecodes": {
+      "26:00": "The Witchkin",
+      "1:55:34": "Emily Wants to Play Too",
+      "3:17:53": "LeftWay"
+    }
   },
   "222538863": { "youtube": "R2H6m_lW7sE" },
   "222913630": {
     "youtube": "TDy4cbm_twQ",
-    "timecodes": [
-      ["12:10", "Sea of Thieves (не получилось)"],
-      ["14:43", "S.O.S."],
-      ["3:02:24", "Sea of Thieves (опять не получилось)"]
-    ]
+    "timecodes": {
+      "12:10": "Sea of Thieves (не получилось)",
+      "14:43": "S.O.S.",
+      "3:02:24": "Sea of Thieves (опять не получилось)"
+    }
   },
   "223916781": { "youtube": "lK7Mkz_ubf8" },
   "223945520": { "youtube": "wbpdTqY2hlY" },
   "224560087": {
     "youtube": "JWvgGOuTldg",
-    "timecodes": [
-      ["8:34", "Monster Hunter World"],
-      ["47:26", "Monster Hunter World (с Артемом)"]
-    ]
+    "timecodes": {
+      "8:34": "Monster Hunter World",
+      "47:26": "Monster Hunter World (с Артемом)"
+    }
   },
   "224600319": { "youtube": "43q8zNpTCCE" },
   "225279322": [
     {
       "vk": "87862793_456241096",
-      "timecodes": [
-        ["11:49", "Hunt: Showdown (поиски коопа)"],
-        ["24:40", "Hunt: Showdown"]
-      ]
+      "timecodes": {
+        "11:49": "Hunt: Showdown (поиски коопа)",
+        "24:40": "Hunt: Showdown"
+      }
     },
     {
       "vk": "87862793_456241095", "offset": "3:46:12",
-      "timecodes": [["4:06:04", "S.O.S."]]
+      "timecodes": {
+        "4:06:04": "S.O.S."
+      }
     }
   ],
   "225950740": { "youtube": "uXXquPRJHOw" },
@@ -285,9 +287,9 @@
   "226597573": { "youtube": "S__uO4lckwk" },
   "227264292": {
     "youtube": "q1_IvPFs11A",
-    "timecodes": [
-      ["10:00", "Desolate"]
-    ]
+    "timecodes": {
+      "10:00": "Desolate"
+    }
   },
   "227626210": { "youtube": "P-AL-tuG7uA" },
   "228649254": { "youtube": "uqOT_wBQe70" },
@@ -297,19 +299,19 @@
   "229619716": { "youtube": "pCT7XJ3ED3c" },
   "230659866": {
     "youtube": "L4DTPebYFgw",
-    "timecodes": [
-      ["30:14", "Never Again"],
-      ["2:55:49", "Boogeyman 2"]
-    ]
+    "timecodes": {
+      "30:14": "Never Again",
+      "2:55:49": "Boogeyman 2"
+    }
   },
   "230991137": { "youtube": "URA98lKNfEI" },
   "231626788": { "youtube": "lRQvjSeUD2s", "offset": "17:49" },
   "232346216": {
     "youtube": "MCHaIvn1sO4",
-    "timecodes": [
-      ["28:41", "Party Panic"],
-      ["2:58:51", "SCP: Secret Laboratory"]
-    ]
+    "timecodes": {
+      "28:41": "Party Panic",
+      "2:58:51": "SCP: Secret Laboratory"
+    }
   },
   "233032380": [
     { "youtube": "4q-FGOYnXPk" },
@@ -325,33 +327,35 @@
     {
       "note": "Официальная запись <a href=\"https://vk.com/wall-28387068_3201905\">заблокирована</a>.",
       "vk": "87862793_456241139",
-      "timecodes": [["13:44", "Deep Rock Galactic"]]
+      "timecodes": {
+        "13:44": "Deep Rock Galactic"
+      }
     },
     {
       "note": "Официальная запись <a href=\"https://vk.com/wall-28387068_3201905\">заблокирована</a>.",
       "vk": "87862793_456241140", "offset": "2:22:56",
-      "timecodes": [
-        ["2:23:33", "Warhammer: Vermintide 2"],
-        ["4:38:56", "Hunt: Showdown (поиски коопа, безуспешные)"]
-      ]
+      "timecodes": {
+        "2:23:33": "Warhammer: Vermintide 2",
+        "4:38:56": "Hunt: Showdown (поиски коопа, безуспешные)"
+      }
     }
   ],
   "234373553": {
     "youtube": "bHkaL_L12FU",
-    "timecodes": [
-      ["15:56", "Friday the 13th (поиски коопа)"],
-      ["22:15", "Friday the 13th"],
-      ["3:19:02", "Human: Fall Flat"]
-    ]
+    "timecodes": {
+      "15:56": "Friday the 13th (поиски коопа)",
+      "22:15": "Friday the 13th",
+      "3:19:02": "Human: Fall Flat"
+    }
   },
   "234740795": { "youtube": "zZg-Bh2Tfdk" },
   "236175824": { "youtube": "TgUPE-ezSZo" },
   "236864236": [
     {
       "youtube": "QZ9txwxIGmI",
-      "timecodes": [
-        ["28:27", "Dead Dozen"]
-      ]
+      "timecodes": {
+        "28:27": "Dead Dozen"
+      }
     },
     {
       "vk": "87862793_456241150",
@@ -362,29 +366,29 @@
     {
       "youtube": "y1vRhT6GRLg",
       "offset": "1:59:22",
-      "timecodes": [
-        ["4:21:13", "перерыв"],
-        ["4:30:21", "продолжение"]
-      ]
+      "timecodes": {
+        "4:21:13": "перерыв",
+        "4:30:21": "продолжение"
+      }
     }
   ],
   "237277360": {
     "youtube": "4R1Nj6VLbc8",
-    "timecodes": [
-      ["15:58", "Сингл"],
-      ["35:16", "+ Артём"],
-      ["42:26", "+ Таня"],
-      ["1:06:32", "+ Даша"]
-    ]
+    "timecodes": {
+      "15:58": "Сингл",
+      "35:16": "+ Артём",
+      "42:26": "+ Таня",
+      "1:06:32": "+ Даша"
+    }
   },
   "237304245": { "youtube": "CMb9zMRgVpY" },
   "238317087": { "youtube": "WvE25NDATlM" },
   "239018968": { "youtube": "EBc0XZxPW0s", "offset": "24:27" },
   "239364187": { "vk": "87862793_456241158" },
   "239731404": {
-    "timecodes": [
-      ["23:00", "SCP Containment Breach Unity"],
-      ["1:18:02", "SCP Containment Breach Ultimate"]
-    ]
+    "timecodes": {
+      "23:00": "SCP Containment Breach Unity",
+      "1:18:02": "SCP Containment Breach Ultimate"
+    }
   }
 }
