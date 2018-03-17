@@ -40,7 +40,7 @@
 <%
   offset = Timecode(stream.get('offset'))
   timecodes = [(Timecode(t) - offset, name)
-               for t, name in tuple(stream['timecodes'])
+               for t, name in stream['timecodes'].items()
                if Timecode(t) >= offset]
 %>\
 % if len(timecodes) > 0:
