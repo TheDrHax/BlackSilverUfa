@@ -165,8 +165,12 @@ window.addEventListener('DOMContentLoaded', function() {
       });
     };
 
+    function parse_hash() {
+      return window.location.hash.replace('#', '').split('.');
+    }
+
     if (window.location.hash) {
-      let hash = window.location.hash.replace('#', '').split('.');
+      let hash = parse_hash();
       let id = hash[0];
       if (id == i || id == wrapper.dataset.twitch) {
         let callback = function(wrapper) {
@@ -180,7 +184,13 @@ window.addEventListener('DOMContentLoaded', function() {
         };
 
         if (hash.length == 1) { // simple streams
-          spawn();
+          if (wrapper.dataset.segment == undefined) {
+            spawn();
+          } else {
+            // Backward compatibility for direct links to segmented streams
+            window.location.hash += '.' + wrapper.dataset.segment;
+            hash = parse_hash();
+          }
         }
 
         if (hash.length == 2) { // segmented streams
