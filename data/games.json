@@ -319,8 +319,16 @@
       { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
       { "name": "Past Cure", "twitch": "233032380", "start": "1:50:04", "segment": 1 },
       { "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "start": "19:54", "segment": 0 },
-      { "name": "Ghost of a Tale", "twitch": "239018968" },
       { "name": "Albion Online", "twitch": "239364187", "start": "16:00" }
+    ]
+  },
+  {
+    "name": "Ghost of a Tale",
+    "category": "ongoing",
+    "filename": "ghost-of-a-tale.html",
+    "streams": [
+      { "name": "1", "twitch": "239018968" },
+      { "name": "2", "twitch": "240459322", "start": "22:04" }
     ]
   },
   {
