@@ -99,23 +99,19 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/240459322">240459322</a></li>
     <li>Субтитры: <a href="../chats/v240459322.ass">v240459322.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=g-bPLnreu90">g-bPLnreu90</a></li>
+
   </ul>
   <li>Игра начинается с <a onclick="document.getElementById('wrapper-1').seek(1324)">0:22:04</a></li>
 </ul>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a onclick="document.location.reload()">сюда</a>, чтобы попробовать обновить
-страницу.</p>
+<p class="stream" id="wrapper-1" data-name="2" data-twitch="240459322" data-start="22:04" data-youtube="g-bPLnreu90" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v240459322.ass" --player-passthrough hls twitch.tv/videos/240459322 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v240459322.ass ytdl://g-bPLnreu90
 </code></pre>
 </div></div>
 
