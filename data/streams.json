@@ -392,7 +392,13 @@
       "1:18:02": "SCP Containment Breach Ultimate"
     }
   },
-  "240459322": { "youtube": "g-bPLnreu90" },
+  "240459322": {
+    "youtube": "g-bPLnreu90",
+    "timecodes": {
+      "22:04": "Меню",
+      "24:00": "Игра"
+    }
+  },
   "240830747": {
     "timecodes": {
       "12:44": "Меню, создание персонажа",
