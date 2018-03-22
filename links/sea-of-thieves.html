@@ -165,7 +165,8 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/241201704">241201704</a></li>
     <li>Субтитры: <a href="../chats/v241201704.ass">v241201704.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=591RpkhPUUo">591RpkhPUUo</a></li>
+
   </ul>
     <li>Таймкоды:</li>
   <ul>
@@ -176,18 +177,13 @@
 
 </ul>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a onclick="document.location.reload()">сюда</a>, чтобы попробовать обновить
-страницу.</p>
+<p class="stream" id="wrapper-3" data-name="2" data-twitch="241201704" data-youtube="591RpkhPUUo" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v241201704.ass" --player-passthrough hls twitch.tv/videos/241201704 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v241201704.ass ytdl://591RpkhPUUo
 </code></pre>
 </div></div>
 
