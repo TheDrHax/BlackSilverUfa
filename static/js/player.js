@@ -61,7 +61,7 @@ function spawnPlayer(wrapper, callback) {
   } else if (wrapper.dataset.vk) {
     source.sources = [{
       type: 'video/mp4',
-      src: 'https://api.thedrhax.pw/vk/video/' + wrapper.dataset.vk + '\?redirect'
+      src: 'https://api.thedrhax.pw/vk/video/' + wrapper.dataset.vk + '.mp4'
     }];
   } else {
     source.sources = [{
