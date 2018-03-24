@@ -52,7 +52,7 @@ def mpv_file(stream):
     if stream.get('youtube'):
         return 'ytdl://' + stream['youtube']
     elif stream.get('vk'):
-        vk_link = 'https://api.thedrhax.pw/vk/video/{}\?redirect'
+        vk_link = 'https://api.thedrhax.pw/vk/video/{}.mp4'
         return vk_link.format(stream['vk'])
     elif stream.get('direct'):
         return stream['direct']
