@@ -322,7 +322,8 @@
       { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
       { "name": "Past Cure", "twitch": "233032380", "start": "1:50:04", "segment": 1 },
       { "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "start": "19:54", "segment": 0 },
-      { "name": "Albion Online", "twitch": "239364187", "start": "16:00" }
+      { "name": "Albion Online", "twitch": "239364187", "start": "16:00" },
+      { "name": "Living Nightmares / Umfend / Shadow Corridorz / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" }
     ]
   },
   {
@@ -391,7 +392,8 @@
     "filename": "getting-over-it.html",
     "streams": [
       { "name": "1", "twitch": "219819121", "start": "1:52:00" },
-      { "name": "2", "twitch": "233032380", "start": "3:33:04", "segment": 2 }
+      { "name": "2", "twitch": "233032380", "start": "3:33:04", "segment": 2 },
+      { "name": "3", "twitch": "245043791", "start": "3:34:15" }
     ]
   }
 ]
