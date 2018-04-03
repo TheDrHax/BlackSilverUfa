@@ -98,40 +98,37 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/245415969">245415969</a></li>
     <li>Субтитры: <a href="../chats/v245415969.ass">v245415969.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=1BxRQZ1-gIg">1BxRQZ1-gIg</a></li>
+
   </ul>
+  <li>Эта запись смещена на 3:03 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="document.getElementById('wrapper-1').seek(370)">0:06:10</a> - Наушники (sponsored)</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(936)">0:15:36</a> - 1-я посылка</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(1150)">0:19:10</a> - 1-я посылка (открыли)</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(2024)">0:33:44</a> - Тося захватила стрим</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(2086)">0:34:46</a> - 2-я посылка</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(2904)">0:48:24</a> - 3-я посылка</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(3096)">0:51:36</a> - 3-я посылка (открыли)</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(3682)">1:01:22</a> - 4-я посылка</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(3877)">1:04:37</a> - 5-я посылка</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(4859)">1:20:59</a> - 6-я посылка</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(4956)">1:22:36</a> - 6-я посылка (открыли)</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(6322)">1:45:22</a> - 7-я посылка</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(6341)">1:45:41</a> - Стрим захватил Эвана</li>
-    <li><a onclick="document.getElementById('wrapper-1').seek(6433)">1:47:13</a> - 7-я посылка (открыли)</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(187)">0:03:07</a> - Наушники (sponsored)</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(753)">0:12:33</a> - 1-я посылка</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(967)">0:16:07</a> - 1-я посылка (открыли)</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(1841)">0:30:41</a> - Тося захватила стрим</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(1903)">0:31:43</a> - 2-я посылка</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(2721)">0:45:21</a> - 3-я посылка</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(2913)">0:48:33</a> - 3-я посылка (открыли)</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(3499)">0:58:19</a> - 4-я посылка</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(3694)">1:01:34</a> - 5-я посылка</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(4676)">1:17:56</a> - 6-я посылка</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(4773)">1:19:33</a> - 6-я посылка (открыли)</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(6139)">1:42:19</a> - 7-я посылка</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(6158)">1:42:38</a> - Стрим захватил Эвана</li>
+    <li><a onclick="document.getElementById('wrapper-1').seek(6250)">1:44:10</a> - 7-я посылка (открыли)</li>
   </ul>
 
 </ul>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a onclick="document.location.reload()">сюда</a>, чтобы попробовать обновить
-страницу.</p>
+<p class="stream" id="wrapper-1" data-name="Анбоксинг посылок (1.04.2018)" data-twitch="245415969" data-youtube="1BxRQZ1-gIg" data-offset="3:03" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v245415969.ass" --player-passthrough hls twitch.tv/videos/245415969 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v245415969.ass --sub-delay=-183 ytdl://1BxRQZ1-gIg
 </code></pre>
 </div></div>
 
