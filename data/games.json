@@ -326,8 +326,15 @@
       { "name": "Past Cure", "twitch": "233032380", "start": "1:50:04", "segment": 1 },
       { "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "start": "19:54", "segment": 0 },
       { "name": "Albion Online", "twitch": "239364187", "start": "16:00" },
-      { "name": "Living Nightmares / Shadow Corridor / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" },
-      { "name": "Call of Cthulhu: Dark Corners of the Earth", "twitch": "247278205" }
+      { "name": "Living Nightmares / Shadow Corridor / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" }
+    ]
+  },
+  {
+    "name": "Call of Cthulhu: Dark Corners of the Earth",
+    "category": "ongoing",
+    "filename": "call-of-cthulhu.html",
+    "streams": [
+      { "name": "1", "twitch": "247278205" }
     ]
   },
   {
