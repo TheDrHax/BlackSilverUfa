@@ -331,10 +331,11 @@
   },
   {
     "name": "Call of Cthulhu: Dark Corners of the Earth",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "call-of-cthulhu.html",
     "streams": [
-      { "name": "1", "twitch": "247278205" }
+      { "name": "1", "twitch": "247278205" },
+      { "name": "2", "twitch": "247674299" }
     ]
   },
   {
