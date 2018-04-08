@@ -104,7 +104,8 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/247674299">247674299</a></li>
     <li>Субтитры: <a href="../chats/v247674299.ass">v247674299.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=Dhg_evxb_Kc">Dhg_evxb_Kc</a></li>
+
   </ul>
     <li>Таймкоды:</li>
   <ul>
@@ -114,18 +115,13 @@
 
 </ul>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a onclick="document.location.reload()">сюда</a>, чтобы попробовать обновить
-страницу.</p>
+<p class="stream" id="wrapper-1" data-name="2" data-twitch="247674299" data-youtube="Dhg_evxb_Kc" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=chats/v247674299.ass" --player-passthrough hls twitch.tv/videos/247674299 best
+  <pre class="highlight"><code>mpv --sub-file=chats/v247674299.ass ytdl://Dhg_evxb_Kc
 </code></pre>
 </div></div>
 
