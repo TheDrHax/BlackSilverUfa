@@ -328,7 +328,26 @@
       { "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "start": "19:54", "segment": 0 },
       { "name": "Albion Online", "twitch": "239364187", "start": "16:00" },
       { "name": "Living Nightmares / Shadow Corridor / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" },
-      { "name": "Extinction / Minit / Radical Heights / Chuchel", "twitch": "248791166" }
+      { "name": "Extinction / Minit", "twitch": "248791166" },
+      { "name": "Fortunarium / Lobotomy Corporation / Escape Doodland / Jalopy", "twitch": "249160756" }
+    ]
+  },
+  {
+    "name": "Radical Heights",
+    "category": "infinite",
+    "filename": "radical-heights.html",
+    "streams": [
+      { "name": "1", "twitch": "248791166", "start": "1:23:22" },
+      { "name": "2", "twitch": "249160756", "start": "16:00" }
+    ]
+  },
+  {
+    "name": "Chuchel",
+    "category": "ongoing",
+    "filename": "chuchel.html",
+    "streams": [
+      { "name": "1", "twitch": "248791166", "start": "3:18:50" },
+      { "name": "2", "twitch": "249160756", "start": "2:58:33" }
     ]
   },
   {
