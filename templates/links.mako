@@ -112,7 +112,9 @@ streamlink -p "mpv ${mpv_args(stream)}" --player-passthrough hls twitch.tv/video
 % endif
 </%el:code_block>
 
+% if game['streams'].index(stream) != len(game['streams']) - 1:
 <hr>
+% endif
 </%def>
 
 <h1><a href="/">Архив</a> → ${game['name']}</h1>
@@ -121,14 +123,4 @@ streamlink -p "mpv ${mpv_args(stream)}" --player-passthrough hls twitch.tv/video
 ${gen_stream(id, stream)}
 <% id += 1 %> \
 % endfor
-
-<p>Приведённые команды нужно выполнить, находясь в корне ветки gh-pages данного Git репозитория и подготовив все нужные программы по <a href="../tutorials/watch-online.md">этой</a> инструкции.</p>
-
-<p>Быстрый старт:</p>
-<ul>
-  <li><%el:code>git clone https://github.com/TheDrHax/BlackSilverUfa.git</%el:code></li>
-  <li><%el:code>cd BlackSilverUfa</%el:code></li>
-  <li><%el:code>git checkout gh-pages</%el:code></li>
-  <li>Команда, приведённая выше</li>
-</ul>
 </%block>
