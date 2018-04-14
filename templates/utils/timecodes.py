@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from datetime import timedelta
+from datetime import timedelta, datetime
 
 
 class Timecode(object):
@@ -56,3 +56,18 @@ class Timecode(object):
     def __gt__(self, other):
         self._type_check(other)
         return int(self) > int(other)
+
+
+class TimecodeHelper:
+    delay = 23  # Delay of livestreamer + MPV with quality 720p60
+
+    @staticmethod
+    def time():
+        """Get current time as Timecode."""
+        return Timecode(str(datetime.time(datetime.now())).split('.')[0])
+
+    def __init__(self, start):
+        self.start = Timecode(start)
+
+    def get(self):
+        return self.time() - self.start - Timecode(self.delay)
