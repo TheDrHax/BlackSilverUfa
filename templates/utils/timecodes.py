@@ -5,10 +5,13 @@ from datetime import timedelta
 
 
 class Timecode(object):
+    negative = False
+
     @staticmethod
     def text_to_sec(t):
-        return sum(int(x) * 60 ** i
-                   for i, x in enumerate(reversed(t.split(":"))))
+        s = sum(int(x) * 60 ** i
+                for i, x in enumerate(reversed(t.split(":"))))
+        return -s if t[0] is '-' else s
 
     @staticmethod
     def sec_to_text(s):
@@ -16,21 +19,22 @@ class Timecode(object):
 
     def __init__(self, timecode):
         if (type(timecode) is str):
-            self.value = self.text_to_sec(timecode)
+            value = self.text_to_sec(timecode)
         elif (type(timecode) is int):
-            if (timecode < 0):
-                raise ValueError("Timecode must not be negative")
-            self.value = timecode
+            value = timecode
         elif (type(timecode) is Timecode):
-            self.value = timecode.sec()
+            value = int(timecode)
         else:
-            self.value = 0
+            value = 0
+
+        self.value = abs(value)
+        self.negative = value < 0
 
     def __str__(self):
-        return self.sec_to_text(self.value)
+        return ('-' if self.negative else '') + self.sec_to_text(self.value)
 
     def __int__(self):
-        return self.value
+        return (-1 if self.negative else 1) * self.value
 
     @staticmethod
     def _type_check(arg):

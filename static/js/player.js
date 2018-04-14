@@ -16,6 +16,10 @@ function debounce(func, wait, immediate) {
 
 // Convert HH:MM:SS or MM:SS to seconds
 function sec(timecode) {
+  if (timecode[0] == '-') {
+    return - sec(timecode.replace('-', ''));
+  }
+
   var result = 0;
   var segments = timecode.split(':');
   for (var i = segments.length - 1; i >= 0; i--) {
