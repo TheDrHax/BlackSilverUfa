@@ -697,41 +697,38 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/250258247">250258247</a></li>
     <li>Субтитры: <a href="../chats/v250258247.ass">v250258247.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=FY9ikuwXE1c">FY9ikuwXE1c</a></li>
+
   </ul>
+  <li>Эта запись смещена на 0:09 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="document.getElementById('wrapper-19').seek(1021)">0:17:01</a> - Depth (поиски коопа)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(1495)">0:24:55</a> - Depth (обучение)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(1735)">0:28:55</a> - Depth (кооп)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(7093)">1:58:13</a> - Dead Realm (поиски коопа)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(7487)">2:04:47</a> - Dead Realm (попытка коопа)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(7805)">2:10:05</a> - Dead Realm (кооп)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(9225)">2:33:45</a> - Worms W.M.D (настройки команды)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(9750)">2:42:30</a> - Worms W.M.D (раунд 0, слишком много червяков)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(9883)">2:44:43</a> - Worms W.M.D (раунд 0, не та команда + сломано)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(10442)">2:54:02</a> - Worms W.M.D (раунд 1)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(13046)">3:37:26</a> - Worms W.M.D (раунд 2)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(14794)">4:06:34</a> - SoulHunt (поиски коопа)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(14942)">4:09:02</a> - SoulHunt (кооп)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(16335)">4:32:15</a> - Deceit (поиски коопа)</li>
-    <li><a onclick="document.getElementById('wrapper-19').seek(17068)">4:44:28</a> - Deceit (кооп)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(1012)">0:16:52</a> - Depth (поиски коопа)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(1486)">0:24:46</a> - Depth (обучение)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(1726)">0:28:46</a> - Depth (кооп)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(7084)">1:58:04</a> - Dead Realm (поиски коопа)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(7478)">2:04:38</a> - Dead Realm (попытка коопа)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(7796)">2:09:56</a> - Dead Realm (кооп)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(9216)">2:33:36</a> - Worms W.M.D (настройки команды)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(9741)">2:42:21</a> - Worms W.M.D (раунд 0, слишком много червяков)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(9874)">2:44:34</a> - Worms W.M.D (раунд 0, не та команда + сломано)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(10433)">2:53:53</a> - Worms W.M.D (раунд 1)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(13037)">3:37:17</a> - Worms W.M.D (раунд 2)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(14785)">4:06:25</a> - SoulHunt (поиски коопа)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(14933)">4:08:53</a> - SoulHunt (кооп)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(16326)">4:32:06</a> - Deceit (поиски коопа)</li>
+    <li><a onclick="document.getElementById('wrapper-19').seek(17059)">4:44:19</a> - Deceit (кооп)</li>
   </ul>
 
 </ul>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a onclick="document.location.reload()">сюда</a>, чтобы попробовать обновить
-страницу.</p>
+<p class="stream" id="wrapper-19" data-name="18" data-twitch="250258247" data-youtube="FY9ikuwXE1c" data-offset="0:09" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v250258247.ass" --player-passthrough hls twitch.tv/videos/250258247 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v250258247.ass --sub-delay=-9 ytdl://FY9ikuwXE1c
 </code></pre>
 </div></div>
 
