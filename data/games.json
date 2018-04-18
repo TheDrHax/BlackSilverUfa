@@ -214,7 +214,11 @@
       { "name": "A Way Out", "twitch": "241916500" },
       { "name": "Umfend", "twitch": "245043791", "start": "42:52" },
       { "name": "Protocol (демо)", "twitch": "248791166", "start": "2:13:44" },
-      { "name": "SCP: Operation Descent (демо) / Code Rebecca: House of evil / Grandma / The Road to Hades", "twitch": "249888883" }
+      { "name": "SCP: Operation Descent (демо) / Code Rebecca: House of evil / Grandma / The Road to Hades", "twitch": "249888883" },
+      {
+        "name": "Spooky's Jump Scare Mansion (с 500-й комнаты)", "twitch": "251742995", "start": "2:37:20",
+        "note": "Первые 500 комнат есть на <a href=\"https://www.youtube.com/playlist?list=PLIBsKu92G5oqlPiqjXylUB0mwWJwDtmHo\">YouTube</a>."
+      }
     ]
   },
   {
@@ -332,7 +336,8 @@
       { "name": "Living Nightmares / Shadow Corridor / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" },
       { "name": "Extinction / Minit", "twitch": "248791166" },
       { "name": "Fortunarium / Lobotomy Corporation / Escape Doodland / Jalopy", "twitch": "249160756" },
-      { "name": "The Long Reach", "twitch": "249888883", "start": "2:58:39" }
+      { "name": "The Long Reach", "twitch": "249888883", "start": "2:58:39" },
+      { "name": "Descent: Silence of Mind / Tungulus / Ather / The Joy of Creation / SPAGHET / Deadstep", "twitch": "251742995" }
     ]
   },
   {
