@@ -712,33 +712,30 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/251742995">251742995</a></li>
     <li>Субтитры: <a href="../chats/v251742995.ass">v251742995.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=fZLfcYlG3-Q">fZLfcYlG3-Q</a></li>
+
   </ul>
+  <li>Эта запись смещена на -0:09 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a onclick="document.getElementById('wrapper-21').seek(1616)">0:26:56</a> - Descent: Silence of Mind</li>
-    <li><a onclick="document.getElementById('wrapper-21').seek(2048)">0:34:08</a> - Tungulus</li>
-    <li><a onclick="document.getElementById('wrapper-21').seek(2892)">0:48:12</a> - Ather</li>
-    <li><a onclick="document.getElementById('wrapper-21').seek(4185)">1:09:45</a> - The Joy of Creation</li>
-    <li><a onclick="document.getElementById('wrapper-21').seek(6660)">1:51:00</a> - SPAGHET</li>
-    <li><a onclick="document.getElementById('wrapper-21').seek(7523)">2:05:23</a> - Deadstep</li>
-    <li><a onclick="document.getElementById('wrapper-21').seek(9440)">2:37:20</a> - Spooky's Jump Scare Mansion</li>
+    <li><a onclick="document.getElementById('wrapper-21').seek(1625)">0:27:05</a> - Descent: Silence of Mind</li>
+    <li><a onclick="document.getElementById('wrapper-21').seek(2057)">0:34:17</a> - Tungulus</li>
+    <li><a onclick="document.getElementById('wrapper-21').seek(2901)">0:48:21</a> - Ather</li>
+    <li><a onclick="document.getElementById('wrapper-21').seek(4194)">1:09:54</a> - The Joy of Creation</li>
+    <li><a onclick="document.getElementById('wrapper-21').seek(6669)">1:51:09</a> - SPAGHET</li>
+    <li><a onclick="document.getElementById('wrapper-21').seek(7532)">2:05:32</a> - Deadstep</li>
+    <li><a onclick="document.getElementById('wrapper-21').seek(9449)">2:37:29</a> - Spooky's Jump Scare Mansion</li>
   </ul>
 
 </ul>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a onclick="document.location.reload()">сюда</a>, чтобы попробовать обновить
-страницу.</p>
+<p class="stream" id="wrapper-21" data-name="Descent: Silence of Mind / Tungulus / Ather / The Joy of Creation / SPAGHET / Deadstep" data-twitch="251742995" data-youtube="fZLfcYlG3-Q" data-offset="-0:09" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v251742995.ass" --player-passthrough hls twitch.tv/videos/251742995 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v251742995.ass --sub-delay=--9 ytdl://fZLfcYlG3-Q
 </code></pre>
 </div></div>
 
