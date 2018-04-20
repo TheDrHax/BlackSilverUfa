@@ -437,5 +437,17 @@
       { "name": "2", "twitch": "233032380", "start": "3:33:04", "segment": 2 },
       { "name": "3", "twitch": "245043791", "start": "3:34:15" }
     ]
+  },
+  {
+    "name": "God of War (2018)",
+    "category": "ongoing",
+    "filename": "god-of-war.html",
+    "streams": [
+      {
+        "name": "1", "twitch": "252424972",
+        "note": "Прохождение начинается с момента, на котором Артур остановился на YouTube. Начало можно увидеть в <a href=\"https://www.youtube.com/playlist?list=PLIBsKu92G5oqHgoTzZmtduNlL2YpVmxYP\">этом плейлисте</a> (первые 3 видео)."
+      },
+      { "name": "1.5", "twitch": "252508512" }
+    ]
   }
 ]
