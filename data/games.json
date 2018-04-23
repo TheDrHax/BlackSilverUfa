@@ -440,7 +440,7 @@
   },
   {
     "name": "God of War (2018)",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "god-of-war.html",
     "streams": [
       {
@@ -450,7 +450,8 @@
       { "name": "1.5", "twitch": "252508512" },
       { "name": "2", "twitch": "252814465" },
       { "name": "3", "twitch": "253221134" },
-      { "name": "3.5", "twitch": "253271374" }
+      { "name": "3.5", "twitch": "253271374" },
+      { "name": "4", "twitch": "253604008" }
     ]
   }
 ]
