@@ -154,22 +154,19 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/253221134">253221134</a></li>
     <li>Субтитры: <a href="../chats/v253221134.ass">v253221134.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=Ps0gysqMwVs">Ps0gysqMwVs</a></li>
+
   </ul>
+  <li>Эта запись смещена на 3:21 от начала стрима</li>
 </ul>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a onclick="document.location.reload()">сюда</a>, чтобы попробовать обновить
-страницу.</p>
+<p class="stream" id="wrapper-3" data-name="3" data-twitch="253221134" data-youtube="Ps0gysqMwVs" data-offset="3:21" />
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v253221134.ass" --player-passthrough hls twitch.tv/videos/253221134 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v253221134.ass --sub-delay=-201 ytdl://Ps0gysqMwVs
 </code></pre>
 </div></div>
 
