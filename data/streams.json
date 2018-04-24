@@ -573,5 +573,9 @@
   "252814465": { "youtube": "0LguIlfn8d0" },
   "253221134": { "youtube": "Ps0gysqMwVs", "offset": "3:21" },
   "253271374": { "youtube": "7UhRvYBpp-o", "offset": "1:59" },
-  "253604008": { "youtube": "ovEjcJd8iHI", "offset": "8:10" }
+  "253604008": [
+    { "youtube": "ovEjcJd8iHI", "offset": "8:10", "end": "2:10:56" },
+    { "vk": "87862793_456241212", "start": "2:10:56" },
+    { "vk": "87862793_456241213", "offset": "2:47:20" }
+  ]
 }
