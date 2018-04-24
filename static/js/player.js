@@ -63,6 +63,11 @@ function spawnPlayer(wrapper, callback) {
       if (player.getCurrentTime() != 0 && player.getCurrentTime() < start) {
         player.seek(start);
       }
+
+      // Seek to the start only one time
+      if (player.getCurrentTime() != 0) {
+        wrapper.dataset.start = false;
+      }
     }
   });
 
