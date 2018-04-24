@@ -83,9 +83,11 @@
 % if stream.get('timecodes'):
   ${timecode_list(id, stream)}
 % endif
-% if stream.get('start'):
-  <li>Игра начинается с ${timecode_link(id, Timecode(stream['start']) - Timecode(stream.get('offset')))}</li>
-% endif
+% for i in ['start', 'soft_start']:
+  % if stream.get(i):
+  <li>Игра начинается с ${timecode_link(id, Timecode(stream[i]) - Timecode(stream.get('offset')))}</li>
+  % endif
+% endfor
 % if stream.get('end'):
   <li>Запись заканчивается в ${timecode_link(id, Timecode(stream['end']) - Timecode(stream.get('offset')))}</li>
 % endif
