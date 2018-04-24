@@ -46,15 +46,30 @@ function spawnPlayer(wrapper, callback) {
   wrapper.style.marginTop = "32px";
   player = plyr.setup(wrapper, options)[0];
 
-  if (wrapper.dataset.end) {
+  player.on('timeupdate', function(event) {
     // Stop player when video exceeds overriden duration
-    player.on('timeupdate', function(event) {
+    if (wrapper.dataset.end) {
       if (player.getCurrentTime() >= player.getDuration()) {
         player.seek(player.getDuration());
         player.pause();
       }
-    });
-  }
+    }
+
+    if (wrapper.dataset.start) {
+      var start = (wrapper.dataset.offset ?
+          sec(wrapper.dataset.start) - sec(wrapper.dataset.offset) :
+          sec(wrapper.dataset.start));
+
+      if (player.getCurrentTime() != 0 && player.getCurrentTime() < start) {
+        player.seek(start);
+      }
+
+      // Seek to the start only one time
+      if (player.getCurrentTime() != 0) {
+        wrapper.dataset.start = false;
+      }
+    }
+  });
 
   var source = { type: 'video' };
   if (wrapper.dataset.youtube) {
@@ -74,17 +89,6 @@ function spawnPlayer(wrapper, callback) {
     }];
   }
   player.source(source);
-
-  // if (wrapper.dataset.start) {
-  //   // Seek to specific position on first start of the video
-  //   player.on('ready', function(event) {
-  //     player.seek(
-  //       wrapper.dataset.offset ?
-  //         sec(wrapper.dataset.start) - sec(wrapper.dataset.offset) :
-  //         sec(wrapper.dataset.start)
-  //     );
-  //   });
-  // }
 
   // Connect Subtitles Octopus to video
   var subtitles_options = {
