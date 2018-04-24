@@ -61,8 +61,14 @@ def mpv_file(stream):
 def mpv_args(stream):
     sub_format = '--sub-file=https://blackufa.thedrhax.pw/chats/v{}.ass '
     result = sub_format.format(stream['twitch'])
+    offset = Timecode(0)
     if stream.get('offset'):
-        result += '--sub-delay={} '.format(-int(Timecode(stream['offset'])))
+        offset = Timecode(stream['offset'])
+        result += '--sub-delay={} '.format(-int(offset))
+    if stream.get('start'):
+        result += '--start={} '.format(int(Timecode(stream['start']) - offset))
+    if stream.get('end'):
+        result += '--end={} '.format(int(Timecode(stream['end']) - offset))
     return result.strip()
 
 
