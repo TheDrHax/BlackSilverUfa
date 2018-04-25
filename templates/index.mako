@@ -37,7 +37,7 @@
 
   <ul>
   % if category.get('type') is None:
-    % for game in category['games']:
+    % for game in sorted(category['games'], key=lambda k: k['name']):
     <li>
       <%el:game_link game="${game}" /> (${count_format(len(game['streams']))})
     </li>
