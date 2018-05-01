@@ -8,8 +8,6 @@
 </%block>
 
 <%block name="content">
-<h1>Архив стримов BlackUFA_Twitch</h1>
-
 <p>
 Этот сайт содержит архив стримов и чата Twitch-канала
 <a href="https://www.twitch.tv/blackufa_twitch/">BlackUFA_Twitch</a>.
