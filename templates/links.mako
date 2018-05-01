@@ -93,9 +93,9 @@
 % endif
 </ul>
 
-% if player_compatible(stream):
 <p class="stream" id="wrapper-${id}" ${stream_to_attrs(stream)} />
-% else:
+
+% if not player_compatible(stream):
 <p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
 прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
 обновился. Обычно на это требуется минута или около того, но я оставляю
