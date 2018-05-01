@@ -8,21 +8,32 @@
 </%block>
 
 <%block name="content">
-<h1>Архив чата BlackUFA_Twitch</h1>
+<h1>Архив стримов BlackUFA_Twitch</h1>
 
 <p>
-Этот сайт (и соответствующий ему репозиторий) содержит архив чата Twitch-канала
-<a href="https://www.twitch.tv/blackufa_twitch/">BlackUFA_Twitch</a>. Чат хранится
-в виде субтитров формата ASS, что позволяет накладывать сообщения поверх видео в
-практически любом плеере.
+Этот сайт содержит архив стримов и чата Twitch-канала
+<a href="https://www.twitch.tv/blackufa_twitch/">BlackUFA_Twitch</a>.
+Источником записей служат официальные каналы
+<a href="https://www.youtube.com/user/BlackSilverUFA">BlackSilverUFA</a> и
+<a href="https://www.youtube.com/user/BlackSilverChannel">BlackSilverChannel</a>.
+В редких случаях запись не попадает ни на один из этих каналов,
+поэтому в архив вносятся <a href="#vk">неофициальные записи из ВКонтакте</a>.
 </p>
 
 <p>
-Архив также содержит ссылки на постоянные записи с возможностью онлайн просмотра.
-Встроенный плеер <a href="https://github.com/sampotts/plyr">Plyr</a> не только
-поддерживает воспроизведение видео с YouTube и из других источников, но и
-автоматически накладывает соответствующие субтитры с помощью очень быстрого движка
+Чат сохраняется в формате субтитров ASS сразу после завершения трансляции при
+помощи модифицированного скрипта
+<a href="https://github.com/TheDrHax/Twitch-Chat-Downloader">Twitch-Chat-Downloader</a>.
+Все субтитры попадают в репозиторий на GitHub, откуда их можно скачать и подключить
+к практически любому плееру.
+</p>
+
+<p>
+Для просмотра стримов не нужно что-то скачивать или устанавливать: в сайт встроен
+HTML5-плеер <a href="https://github.com/sampotts/plyr">Plyr</a> и движок субтитров
 <a href="https://github.com/Dador/JavascriptSubtitlesOctopus">Subtitles Octopus</a>.
+Просто выберите серию стримов ниже и наслаждайтесь
+<img style="margin-bottom: -0.4em;" src="https://static-cdn.jtvnw.net/emoticons/v1/180344/1.0" /> :)
 </p>
 
 <%stats:statistics />
@@ -84,7 +95,7 @@
 % endif
 </ul>
 
-<h3>Записи из ВКонтакте</h3>
+<h3 id="vk">Записи из ВКонтакте</h3>
 
 <p>
 Перечисленные ниже стримы используют ВКонтакте как источник видео. Mail.Ru активно
