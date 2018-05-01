@@ -29,6 +29,12 @@ function sec(timecode) {
 };
 
 function spawnPlayer(wrapper, callback) {
+  if (wrapper.dataset.youtube || wrapper.dataset.vk || wrapper.dataset.direct) {
+    return spawnPlyr(wrapper, callback);
+  }
+}
+
+function spawnPlyr(wrapper, callback) {
   var player, subtitles;
 
   var stream = wrapper.dataset;
@@ -157,6 +163,16 @@ function spawnPlayer(wrapper, callback) {
 
 window.addEventListener('DOMContentLoaded', function() {
   let streams = document.getElementsByClassName("stream");
+  let hash = false;
+  let spawned = false;
+
+  function parse_hash() {
+    return window.location.hash.replace('#', '').split('.');
+  }
+
+  if (window.location.hash) {
+    hash = parse_hash();
+  }
 
   let i = 0;
   for (let wrapper of streams) {
@@ -177,8 +193,7 @@ window.addEventListener('DOMContentLoaded', function() {
       return window.location.hash.replace('#', '').split('.');
     }
 
-    if (window.location.hash) {
-      let hash = parse_hash();
+    if (hash) {
       let id = hash[0];
       if (id == i || id == wrapper.dataset.twitch) {
         let callback = function(wrapper) {
@@ -187,6 +202,7 @@ window.addEventListener('DOMContentLoaded', function() {
         };
 
         let spawn = function() {
+          spawned = true;
           spawnPlayer(wrapper, callback);
           document.title = wrapper.dataset.name + " | " + document.title;
         };
@@ -210,5 +226,9 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
     i++;
+  }
+
+  if (hash && !spawned) {
+    window.location.replace('/src/player.html?s=' + hash.join('.'));
   }
 }, false);
