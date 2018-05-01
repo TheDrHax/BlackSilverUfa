@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from datetime import timedelta, datetime
+from datetime import datetime
 
 
 class Timecode(object):
@@ -15,7 +15,12 @@ class Timecode(object):
 
     @staticmethod
     def sec_to_text(s):
-        return str(timedelta(seconds=s))
+        result = []
+        for i in [24*60*60, 60*60, 60, 1]:  # days, hours, minutes, seconds
+            if len(result) > 0 or s // i > 0:
+                result.append(str(s // i).zfill(2))
+            s = s % i
+        return ':'.join(result)
 
     def __init__(self, timecode):
         if (type(timecode) is str):
