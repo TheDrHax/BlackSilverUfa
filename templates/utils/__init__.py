@@ -41,11 +41,14 @@ def escape_attr(attr):
 
 
 def stream_to_attrs(stream):
-    return ' '.join(
-        ['data-{}="{}"'.format(key, escape_attr(stream[key]))
-         for key in stream.keys()
-         if key not in ['note', 'timecodes']]
-    )
+    attrs = ['data-{}="{}"'.format(key, escape_attr(stream[key]))
+             for key in stream.keys()
+             if key not in ['note', 'timecodes']]
+
+    if not player_compatible(stream):
+        attrs.append('style="display: none"')
+
+    return ' '.join(attrs)
 
 
 def mpv_file(stream):

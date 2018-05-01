@@ -1,4 +1,5 @@
 <%! from templates.utils import stream_hash %>
+<html><head><title>Перенаправление</title><meta charset="UTF-8"></head><body>
 <a href="/" id="link">Нажмите сюда, если перенаправление не сработало</a>
 <script type="application/javascript">
   function getQueryVariable(variable) {
@@ -14,10 +15,10 @@
   }
 
   var url;
-  switch(Number(getQueryVariable('s'))) {
+  switch(getQueryVariable('s')) {
     % for game in games:
       % for stream in game['streams']:
-    case ${stream['twitch']}: url = "/links/${game['filename']}#${stream_hash(stream)}"; break;
+    case "${stream_hash(stream)}": url = "/links/${game['filename']}#${stream_hash(stream)}"; break;
       % endfor
     % endfor
   }
@@ -25,3 +26,4 @@
   window.location.replace(url);
   document.getElementById('link').setAttribute("href", url);
 </script>
+</body></html>
