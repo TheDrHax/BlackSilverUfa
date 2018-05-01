@@ -3,7 +3,12 @@
 
 import hashlib
 
+from pymorphy2 import MorphAnalyzer
+
 from .timecodes import Timecode
+
+
+morph = MorphAnalyzer()
 
 
 def player_compatible(stream):
@@ -75,10 +80,6 @@ def mpv_args(stream):
     return result.strip()
 
 
-def count_format(i):
-    if i == 1:
-        return u'{0} стрим'.format(i)
-    elif i in [2, 3, 4]:
-        return u'{0} стрима'.format(i)
-    else:
-        return u'{0} стримов'.format(i)
+def numword(num, word):
+    p = morph.parse(word)[0]
+    return '{} {}'.format(num, p.make_agree_with_number(num).word)

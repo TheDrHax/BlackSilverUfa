@@ -1,6 +1,7 @@
-<%! from templates.utils import player_compatible, count_format %>
+<%! from templates.utils import player_compatible, numword %>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />
+<%namespace file="include/statistics.mako" name="stats" />
 
 <%block name="head">
 <title>Главная страница | ${config['title']}</title>
@@ -24,6 +25,8 @@
 <a href="https://github.com/Dador/JavascriptSubtitlesOctopus">Subtitles Octopus</a>.
 </p>
 
+<%stats:statistics />
+
 % for category in categories:
   ## Заголовок категории
   <%el:header level="${category['level']}">
@@ -39,7 +42,7 @@
   % if category.get('type') is None:
     % for game in sorted(category['games'], key=lambda k: k['name']):
     <li>
-      <%el:game_link game="${game}" /> (${count_format(len(game['streams']))})
+      <%el:game_link game="${game}" /> (${numword(len(game['streams']), 'стрим')})
     </li>
     % endfor
   % elif category['type'] == 'list':
