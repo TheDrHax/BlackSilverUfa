@@ -337,8 +337,15 @@
       { "name": "Extinction / Minit", "twitch": "248791166" },
       { "name": "Fortunarium / Lobotomy Corporation / Escape Doodland / Jalopy", "twitch": "249160756" },
       { "name": "The Long Reach", "twitch": "249888883", "start": "2:58:39" },
-      { "name": "Descent: Silence of Mind / Tungulus / Ather / The Joy of Creation / SPAGHET / Deadstep", "twitch": "251742995" },
-      { "name": "Cry of Fear", "twitch": "256150354" }
+      { "name": "Descent: Silence of Mind / Tungulus / Ather / The Joy of Creation / SPAGHET / Deadstep", "twitch": "251742995" }
+    ]
+  },
+  {
+    "name": "Cry of Fear",
+    "category": "ongoing",
+    "filename": "cry-of-fear.html",
+    "streams": [
+      { "name": "1", "twitch": "256150354" }
     ]
   },
   {
