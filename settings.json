@@ -5,7 +5,7 @@
   "cooldown": 100,
 
   "formats": ["ass"],
-  "directory": "chats",
+  "directory": "./_site/chats",
   "filename_format": "{directory}/v{video_id}.{format}",
 
   "subtitle_duration": 2,
