@@ -1,20 +1,50 @@
 #!/bin/bash
 
-IMAGE="thedrhax/buildenv-blacksilverufa"
+export IMAGE="thedrhax/buildenv-blacksilverufa"
+export PREFIX="./_site"
+export PAGES_ORIGIN="origin/gh-pages"
+export PAGES_LOCAL="gh-pages"
 
-run() {
-    docker run -it --rm -v $(pwd):/bsu -u $(id -u) -p 8000:8000 $IMAGE $@
-}
+run="docker run -it --rm -e PREFIX -v $(pwd):/bsu -u $(id -u) -p 8000:8000 $IMAGE"
 
 case $1 in
     image)
         case $2 in
-            build)  docker build -t $IMAGE docker/ ;;
-            remove) docker rmi $IMAGE ;;
-            *)      echo "Usage: $0 $1 build|remove"
+            build)  docker build -t "$IMAGE" docker/ ;;
+            remove) docker rmi "$IMAGE" ;;
+            *)      echo "Usage: $0 $1 build|remove" ;;
         esac ;;
-    build) run ./generate.py ;;
-    serve) run serve ./generate.py ;;
-    download-chats) run ./download-chats.py ;;
-    *) echo "Usage: $0 image|build|serve|download-chats"
+    pages)
+        case $2 in
+            checkout)
+                if [ -e "$PREFIX" ]; then
+                    if [ "_$3" != '_force' ]; then
+                        echo -n "Press Enter to delete $PREFIX or Ctrl+C to abort"
+                        read a
+                    fi
+                    rm -rf "$PREFIX"
+                fi
+                git worktree prune
+                git worktree add "$PREFIX" "$PAGES_ORIGIN" ;;
+            commit)
+                (
+                    cd "$PREFIX"
+                    git branch -D "$PAGES_LOCAL" || true
+                    git checkout -b "$PAGES_LOCAL"
+                    git branch --set-upstream-to="$PAGES_ORIGIN" "$PAGES_LOCAL"
+                    git add .
+                    git commit -m "Jenkins: Обновление статичных файлов"
+                ) ;;
+            push)
+                (
+                    cd "$PREFIX"
+                    git push origin "$PAGES_LOCAL"
+                ) ;;
+            *) echo "Usage: $0 $1 checkout|commit|push" ;;
+        esac ;;
+    build) $run ./generate.py ;;
+    serve) $run serve ./generate.py ;;
+    download-chats) $run ./download-chats.py ;;
+    sh|python) $run $1 ;;
+    *) echo "Usage: $0 image|build|serve|download-chats|sh|python" ;;
 esac

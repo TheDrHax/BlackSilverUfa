@@ -1,8 +1,12 @@
 #!/bin/sh
 
 if [ "_$1" = "_serve" ]; then
-    python -m http.server & PID_SERVER=$!
     $2
+
+    (
+      cd "$PREFIX"
+      python -m http.server
+    ) & PID_SERVER=$!
 
     trap break EXIT
     while true; do

@@ -5,12 +5,8 @@ node('docker && git') {
     String github_account = 'TheDrHax'
     String github_repo = 'BlackSilverUfa'
     String input_branch = 'master'
-    String output_branch = 'gh-pages'
 
     String repo_url = 'git@github.com:' + github_account + '/' + github_repo + '.git'
-
-    String reused = 'chats'
-    String outputs = 'chats links src static index.html'
 
 
     stage('Pull') {
@@ -20,7 +16,7 @@ node('docker && git') {
     stage('Prepare') {
         sh 'git config --global user.email "the.dr.hax@gmail.com"'
         sh 'git config --global user.name "Jenkins"'
-        sh 'git checkout remotes/origin/' + output_branch + ' -- ' + reused
+        sh './bsu pages checkout force'
     }
 
     stage('Build') {
@@ -36,15 +32,7 @@ node('docker && git') {
     }
 
     stage('Commit') {
-        sh 'git add ' + outputs
-        sh 'git stash'
-        sh 'git branch -D ' + output_branch + ' || true'
-        sh 'git checkout -b ' + output_branch + ' remotes/origin/' + output_branch
-        sh 'rm -rf ' + outputs
-        sh 'git checkout stash -- ' + outputs
-        sh 'git stash drop'
-        sh 'git add ' + outputs
-        sh 'git commit -m "Jenkins: Обновление статических файлов" || true'
+        sh './bsu pages commit'
     }
 
     stage('Deploy') {
@@ -56,7 +44,7 @@ node('docker && git') {
             sha: input_branch
         )
         sshagent (credentials: [cred_git]) {
-            sh 'git push origin ' + output_branch
+            sh './bsu pages push'
         }
     }
 }
