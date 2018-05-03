@@ -5,7 +5,14 @@ export PREFIX="./_site"
 export PAGES_ORIGIN="origin/gh-pages"
 export PAGES_LOCAL="gh-pages"
 
-run="docker run -it --rm -e PREFIX -v $(pwd):/bsu -u $(id -u) -p 8000:8000 $IMAGE"
+run="docker run \
+  $([ -t 0 ] && echo '-it') \
+  --rm \
+  -e PREFIX \
+  -v $(pwd):/bsu \
+  -u $(id -u) \
+  -p 8000:8000 \
+  $IMAGE"
 
 case $1 in
     image)
