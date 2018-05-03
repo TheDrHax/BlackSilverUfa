@@ -1,14 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import os
+import json
 import hashlib
-
 from pymorphy2 import MorphAnalyzer
-
 from .timecodes import Timecode
 
 
 morph = MorphAnalyzer()
+prefix = './_site' if 'PREFIX' not in os.environ else os.environ['PREFIX']
+
+
+def _(fp):
+    return prefix + '/' + fp
+
+
+def load_json(filename):
+    with open(filename, "r") as f:
+        return json.load(f)
 
 
 def player_compatible(stream):
