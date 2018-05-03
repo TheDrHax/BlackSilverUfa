@@ -9,7 +9,6 @@ node('docker && git') {
 
     String repo_url = 'git@github.com:' + github_account + '/' + github_repo + '.git'
 
-    String docker_image = 'thedrhax/buildenv-blacksilverufa'
     String reused = 'chats'
     String outputs = 'chats links src static index.html'
 
@@ -25,13 +24,13 @@ node('docker && git') {
     }
 
     stage('Build') {
-        sh 'docker build -t ' + docker_image + ' docker/'
+        sh './bsu image build'
         try {
-            sh 'docker run --rm -v \$(pwd):/bsu --workdir /bsu -u \$(id -u) ' + docker_image + ' ./generate.py'
+            sh './bsu build'
         } catch (error) {
             throw error
         } finally {
-            sh 'docker rmi ' + docker_image
+            sh './bsu image remove'
         }
     }
 

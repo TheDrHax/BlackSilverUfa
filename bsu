@@ -1,0 +1,19 @@
+#!/bin/bash
+
+IMAGE="thedrhax/buildenv-blacksilverufa"
+
+run() {
+    docker run -it --rm -v $(pwd):/bsu -u $(id -u) -p 8000:8000 $IMAGE $@
+}
+
+case $1 in
+    image)
+        case $2 in
+            build)  docker build -t $IMAGE docker/ ;;
+            remove) docker rmi $IMAGE ;;
+            *)      echo "Usage: $0 $1 build|remove"
+        esac ;;
+    build) run ./generate.py ;;
+    serve) run serve ./generate.py ;;
+    *) echo "Usage: $0 image|build|serve"
+esac
