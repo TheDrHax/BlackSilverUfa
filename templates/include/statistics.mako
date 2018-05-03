@@ -7,6 +7,9 @@
 <%def name="statistics()">\
 <%
     def dir_size(dir):
+        if not os.path.isdir(dir):
+            return 0
+
         return sum(os.path.getsize(dir + '/' + f)
                    for f in os.listdir(dir)
                    if os.path.isfile(dir + '/' + f))
@@ -20,11 +23,17 @@
             return f.readline().decode('utf-8')
 
     def stream_length(stream_id):
+        if not os.path.isfile('chats/v{}.ass'):
+            return Timecode(0)
+
         line = last_line('chats/v{}.ass'.format(stream_id))
         return Timecode(line.split(' ')[2].split('.')[0])
 
     # https://stackoverflow.com/a/1019572
     def count_lines(fp):
+        if not os.path.isfile(fp):
+            return 0
+
         with open(fp, 'r') as f:
             return sum(1 for line in f)
 
