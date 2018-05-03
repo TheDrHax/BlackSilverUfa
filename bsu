@@ -15,5 +15,6 @@ case $1 in
         esac ;;
     build) run ./generate.py ;;
     serve) run serve ./generate.py ;;
-    *) echo "Usage: $0 image|build|serve"
+    download-chats) run ./download-chats.py ;;
+    *) echo "Usage: $0 image|build|serve|download-chats"
 esac
