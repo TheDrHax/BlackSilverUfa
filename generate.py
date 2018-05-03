@@ -2,16 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import os
-import json
-
-import tcd
-
 from mako.lookup import TemplateLookup
-
-
-def load_json(filename):
-    with open(filename, "r") as f:
-        return json.load(f)
+from templates.utils import load_json
 
 
 if __name__ == "__main__":
@@ -40,14 +32,9 @@ if __name__ == "__main__":
                 category['games'].append(game)
 
     # Create required directores
-    for directory in ['chats', 'links', 'src']:
+    for directory in ['links', 'src']:
         if not os.path.isdir(directory):
             os.mkdir(directory)
-
-    # Download missing stream subtitles
-    for stream in args['streams']:
-        if not os.path.isfile("chats/v{0}.ass".format(stream)):
-            tcd.download(stream)
 
     # Generate index.html
     with open("index.html", "w+") as out:
@@ -59,7 +46,7 @@ if __name__ == "__main__":
         t = lookup.get_template('/redirect.mako')
         output.write(t.render(**args).strip())
 
-    # # Generate links/*.md
+    # Generate links/*.md
     t = lookup.get_template('/links.mako')
     for game in args['games']:
         filename = "links/{0[filename]}".format(game)

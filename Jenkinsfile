@@ -26,6 +26,7 @@ node('docker && git') {
     stage('Build') {
         sh './bsu image build'
         try {
+            sh './bsu download-chats'
             sh './bsu build'
         } catch (error) {
             throw error

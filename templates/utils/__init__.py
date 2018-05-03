@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import json
 import hashlib
-
 from pymorphy2 import MorphAnalyzer
-
 from .timecodes import Timecode
 
 
 morph = MorphAnalyzer()
+
+
+def load_json(filename):
+    with open(filename, "r") as f:
+        return json.load(f)
 
 
 def player_compatible(stream):
