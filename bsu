@@ -40,7 +40,7 @@ case $1 in
                     git checkout -b "$PAGES_LOCAL"
                     git branch --set-upstream-to="$PAGES_ORIGIN" "$PAGES_LOCAL"
                     git add .
-                    git commit -m "Jenkins: Обновление статичных файлов"
+                    git commit -m "Jenkins: Обновление статичных файлов" || true
                 ) ;;
             push)
                 (
