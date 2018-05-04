@@ -320,7 +320,7 @@
       { "name": "Divinity: Original Sin II", "twitch": "175198877" },
       { "name": "Home Sweet Home", "twitch": "178108639" },
       { "name": "Cuphead", "twitch": "178361269" },
-      { "name": "Road Redemption / Battle Chasers / Stardew Valley", "twitch": "180397849" },
+      { "name": "Road Redemption / Battle Chasers", "twitch": "180397849" },
       { "name": "Xenoblade Chronicles 2", "twitch": "206933269" },
       { "name": "The Coma: Recut / Lone Survivor", "twitch": "212431882", "start": "1:44:54" },
       { "name": "Stifled", "twitch": "212678883" },
@@ -339,6 +339,15 @@
       { "name": "The Long Reach", "twitch": "249888883", "start": "2:58:39" },
       { "name": "Descent: Silence of Mind / Tungulus / Ather / The Joy of Creation / SPAGHET / Deadstep", "twitch": "251742995" },
       { "name": "For Honor", "twitch": "256894852" }
+    ]
+  },
+  {
+    "name": "Stardew Valley",
+    "category": "infinite",
+    "filename": "stardew-walley.html",
+    "streams": [
+      { "name": "1", "twitch": "180397849", "start": "2:57:45" },
+      { "name": "2 (кооп)", "twitch": "257610470" }
     ]
   },
   {
