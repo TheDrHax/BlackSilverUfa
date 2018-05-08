@@ -16,6 +16,8 @@ class Timecode(object):
     @staticmethod
     def sec_to_text(s):
         result = []
+        if s < 60:
+            return '00:' + str(s).zfill(2)
         for i in [24*60*60, 60*60, 60, 1]:  # days, hours, minutes, seconds
             if len(result) > 0 or s // i > 0:
                 result.append(str(s // i).zfill(2))
