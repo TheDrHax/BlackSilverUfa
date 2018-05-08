@@ -88,6 +88,7 @@ function spawnPlyr(wrapper, callback) {
       type: 'video/mp4',
       src: 'https://api.thedrhax.pw/vk/video/' + wrapper.dataset.vk + '.mp4'
     }];
+    source.poster = 'https://api.thedrhax.pw/vk/video/' + wrapper.dataset.vk + '.jpg';
   } else {
     source.sources = [{
       type: 'video/mp4',
