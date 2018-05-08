@@ -1,0 +1,31 @@
+.main-content {
+  max-width: auto;
+  padding-top: 1rem;
+}
+
+.row .col-card {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.card-img-overlay.overlay-transparent-bottom {
+  opacity: .95;
+  padding: 0.7rem;
+  top: auto;
+  font-size: 0.8rem;
+}
+
+.card-img-overlay.overlay-transparent-bottom:hover {
+  opacity: .1;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}
+
+.card-img-overlay.card-badge {
+  padding: 0.3rem;
+  padding-top: 0;
+  left: auto;
+  bottom: auto;
+}

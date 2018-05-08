@@ -42,11 +42,5 @@
     messages = sum([count_lines(_('chats/v{}.ass'.format(stream)))
                     for stream in streams.keys()])
 %>\
-<p>\
-В данный момент в архиве находятся <b>${numword(len(streams), 'стрим')}</b> и
-<b>${int(dir_size(_('chats')) / 1024**2)} МБ</b> субтитров к ним. Общая
-продолжительность всех сохранённых стримов примерно равна <b>${total_length}</b>.
-За это время было написано <b>${numword(messages, 'сообщение')}</b>, то есть в
-среднем по <b>${numword(messages // len(streams), 'сообщение')}</b> за стрим.
-</p>\
+<p>В данный момент в архиве находятся <b>${numword(len(streams), 'стрим')}</b> и <b>${int(dir_size(_('chats')) / 1024**2)} МБ</b> субтитров к ним. Общая продолжительность всех сохранённых стримов примерно равна <b>${total_length}</b>. За это время было написано <b>${numword(messages, 'сообщение')}</b>, то есть в среднем по <b>${numword(messages // len(streams), 'сообщение')}</b> за стрим.</p>
 </%def>
