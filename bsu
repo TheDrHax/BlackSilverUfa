@@ -50,7 +50,9 @@ case $1 in
             *) echo "Usage: $0 $1 checkout|commit|push" ;;
         esac ;;
     build) $run ./generate.py ;;
-    serve) $run ./generate.py serve ;;
+    serve)
+        $run ./generate.py
+        $run ./generate.py serve ;;
     download-chats) $run ./download-chats.py ;;
     sh|python) $run $1 ;;
     *) echo "Usage: $0 image|build|serve|download-chats|sh|python" ;;
