@@ -158,7 +158,11 @@ function spawnPlyr(wrapper, callback) {
   };
 
   if (callback != undefined) {
-    player.on('ready', function(event) { callback(wrapper); });
+    if (wrapper.dataset.vk) {
+      player.on('loadedmetadata', function(event) { callback(wrapper); });
+    } else {
+      player.on('ready', function(event) { callback(wrapper); });
+    }
   }
 
   return false;
