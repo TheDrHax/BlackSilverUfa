@@ -39,7 +39,9 @@ function spawnPlyr(wrapper, callback) {
 
   var stream = wrapper.dataset;
 
-  var options = {};
+  var options = {
+    ratio: '16:9'
+  };
   if (wrapper.dataset.end) {
     options.duration = (
       wrapper.dataset.offset ?
@@ -88,6 +90,7 @@ function spawnPlyr(wrapper, callback) {
       type: 'video/mp4',
       src: 'https://api.thedrhax.pw/vk/video/' + wrapper.dataset.vk + '.mp4'
     }];
+    source.poster = 'https://api.thedrhax.pw/vk/video/' + wrapper.dataset.vk + '.jpg';
   } else {
     source.sources = [{
       type: 'video/mp4',
@@ -106,6 +109,7 @@ function spawnPlyr(wrapper, callback) {
     subtitles_options.timeOffset = sec(wrapper.dataset.offset);
   }
   subtitles = new SubtitlesOctopus(subtitles_options);
+  console.log(subtitles);
 
   // Player caption button
   player.on('captionsenabled', function(event) {
@@ -116,11 +120,6 @@ function spawnPlyr(wrapper, callback) {
   });
   player.on('ready', function(event) {
     player.toggleCaptions(true);
-  });
-
-  // Fix subtitles position on first start of the video
-  player.on('play', function(event) {
-    subtitles.resize();
   });
 
   if (wrapper.dataset.youtube) {
@@ -145,6 +144,13 @@ function spawnPlyr(wrapper, callback) {
     player.on('enterfullscreen', subResize);
     player.on('exitfullscreen', subResize);
     window.addEventListener('resize', debounce(subResize, 100, false));
+  } else if (wrapper.dataset.vk) {
+    // Fix misplaced canvas (appears under the video before the start)
+    subtitles.canvas.style.marginTop = '-150px';
+    player.on('play', function(event) {
+      subtitles.canvas.style.marginTop = '0px';
+      subtitles.resize();
+    });
   }
 
   // Element controls
