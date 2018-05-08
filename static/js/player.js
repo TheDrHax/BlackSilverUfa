@@ -39,9 +39,7 @@ function spawnPlyr(wrapper, callback) {
 
   var stream = wrapper.dataset;
 
-  var options = {
-    ratio: '16:9'
-  };
+  var options = {};
   if (wrapper.dataset.end) {
     options.duration = (
       wrapper.dataset.offset ?
@@ -109,7 +107,6 @@ function spawnPlyr(wrapper, callback) {
     subtitles_options.timeOffset = sec(wrapper.dataset.offset);
   }
   subtitles = new SubtitlesOctopus(subtitles_options);
-  console.log(subtitles);
 
   // Player caption button
   player.on('captionsenabled', function(event) {
