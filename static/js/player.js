@@ -144,7 +144,7 @@ function spawnPlyr(wrapper, callback) {
   } else if (wrapper.dataset.vk) {
     // Fix misplaced canvas (appears under the video before the start)
     subtitles.canvas.style.marginTop = '-150px';
-    player.on('play', function(event) {
+    player.on('playing', function(event) {
       subtitles.canvas.style.marginTop = '0px';
       subtitles.resize();
     });
