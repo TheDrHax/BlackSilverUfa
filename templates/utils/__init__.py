@@ -37,6 +37,17 @@ def stream_hash(stream):
     return hash
 
 
+def stream_thumbnail(stream):
+    if 'youtube' in stream:
+        id = stream['youtube']
+        return 'https://img.youtube.com/vi/{}/mqdefault.jpg'.format(id)
+    elif 'vk' in stream:
+        id = stream['vk']
+        return 'https://api.thedrhax.pw/vk/video/{}.jpg'.format(id)
+    else:
+        return '/static/images/no-preview.png'
+
+
 def md5file(f_path, block_size=2**20):
     md5 = hashlib.md5()
     with open(f_path, 'rb') as f:
