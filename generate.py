@@ -2,10 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import os
-import sys
 import shutil
 from mako.lookup import TemplateLookup
-from livereload import Server
 from templates.utils import load_json, _
 
 
@@ -73,19 +71,5 @@ def generate():
             out.write(t.render(game=game, **args).strip())
 
 
-def serve(host='0.0.0.0', port=8000, root=_('')):
-    server = Server()
-
-    server.watch('data', generate)
-    server.watch('static', generate)
-    server.watch('templates', generate)
-    server.watch('generate.py', generate)
-
-    server.serve(host=host, port=port, root=root)
-
-
 if __name__ == "__main__":
-    if len(sys.argv) == 1:
-        generate()
-    elif sys.argv[1] == 'serve':
-        serve()
+    generate()
