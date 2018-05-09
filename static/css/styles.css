@@ -29,3 +29,11 @@
   left: auto;
   bottom: auto;
 }
+
+footer.page-footer a {
+  color: #fff;
+}
+
+footer .footer-copyright a {
+  text-decoration: underline;
+}
