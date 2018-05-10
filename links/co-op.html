@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/cayman.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
     
 <title>Несюжетные коопы | Архив стримов BlackUFA_Twitch</title>
 
@@ -15,7 +17,7 @@
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 
-<script src="/static/js/player.js?hash=ab87f46c739430233a1bc983f9e1422b"></script>
+<script src="/static/js/player.js?hash=ee88281e08d8d2f489258ec1f761bf88"></script>
 
 <style>
 .main-content {
@@ -26,6 +28,10 @@
 /* Enable caption button in player */
 .plyr [data-plyr=captions] {
   display: inline-block !important;
+}
+
+.stream {
+  max-width: calc(100vh / 9 * 16 - 10%);
 }
 </style>
 
@@ -47,14 +53,26 @@
     <!-- End Matomo Code -->
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Архив стримов BlackUFA_Twitch</h1>
-        <a href="https://github.com/TheDrHax/BlackSilverUfa/" class="btn">
-          Исходный код на GitHub
-        </a>
-    </section>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <div class="mx-auto">
+            <a class="navbar-brand mx-auto" href="/">Архив стримов BlackUFA_Twitch</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
 
-    <section class="main-content">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/TheDrHax/BlackSilverUfa/"><i class="fab fa-github"></i> GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container main-content">
       
 
 
@@ -86,7 +104,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-0" data-name="1" data-twitch="180663832" data-youtube="y2PitYePsOU" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-0" data-name="1" data-twitch="180663832" data-youtube="y2PitYePsOU" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -121,7 +141,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-1" data-name="2" data-twitch="182448131" data-youtube="IqTeWjugKOE" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-1" data-name="2" data-twitch="182448131" data-youtube="IqTeWjugKOE" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -158,7 +180,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-2" data-name="3" data-twitch="184206477" data-youtube="tUc-5QNu_CE" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-2" data-name="3" data-twitch="184206477" data-youtube="tUc-5QNu_CE" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -192,7 +216,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-3" data-name="4" data-twitch="187586726" data-youtube="PYqnr5-Lq4o" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-3" data-name="4" data-twitch="187586726" data-youtube="PYqnr5-Lq4o" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -226,7 +252,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-4" data-name="5" data-twitch="200702885" data-youtube="qyMVUvAjqdE" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-4" data-name="5" data-twitch="200702885" data-youtube="qyMVUvAjqdE" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -259,7 +287,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-5" data-name="6" data-twitch="202631693" data-youtube="BL6BrZRmRts" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-5" data-name="6" data-twitch="202631693" data-youtube="BL6BrZRmRts" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -294,7 +324,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-6" data-name="7" data-twitch="206394832" data-youtube="-77Qpme-5EA" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-6" data-name="7" data-twitch="206394832" data-youtube="-77Qpme-5EA" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -327,7 +359,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-7" data-name="8" data-twitch="207753795" data-youtube="PPZFFjgxKnY" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-7" data-name="8" data-twitch="207753795" data-youtube="PPZFFjgxKnY" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -360,7 +394,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-8" data-name="9" data-twitch="213247693" data-youtube="GPga2h4UUXc" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-8" data-name="9" data-twitch="213247693" data-youtube="GPga2h4UUXc" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -395,7 +431,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-9" data-name="10" data-twitch="213846142" data-youtube="8GFZF96owuA" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-9" data-name="10" data-twitch="213846142" data-youtube="8GFZF96owuA" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -429,7 +467,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-10" data-name="11" data-twitch="222913630" data-youtube="TDy4cbm_twQ" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-10" data-name="11" data-twitch="222913630" data-youtube="TDy4cbm_twQ" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -462,7 +502,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-11" data-name="12 (часть 1)" data-twitch="225279322" data-segment="0" data-vk="87862793_456241096" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-11" data-name="12 (часть 1)" data-twitch="225279322" data-segment="0" data-vk="87862793_456241096" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -495,7 +537,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-12" data-name="12 (часть 2)" data-twitch="225279322" data-segment="1" data-vk="87862793_456241095" data-offset="3:46:12" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-12" data-name="12 (часть 2)" data-twitch="225279322" data-segment="1" data-vk="87862793_456241095" data-offset="3:46:12" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -527,7 +571,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-13" data-name="13" data-twitch="227264292" data-youtube="q1_IvPFs11A" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-13" data-name="13" data-twitch="227264292" data-youtube="q1_IvPFs11A" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -560,7 +606,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-14" data-name="14" data-twitch="232346216" data-youtube="MCHaIvn1sO4" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-14" data-name="14" data-twitch="232346216" data-youtube="MCHaIvn1sO4" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -593,7 +641,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-15" data-name="15 (часть 1)" data-twitch="234037742" data-segment="0" data-vk="87862793_456241139" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-15" data-name="15 (часть 1)" data-twitch="234037742" data-segment="0" data-vk="87862793_456241139" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -628,7 +678,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-16" data-name="15 (часть 2)" data-twitch="234037742" data-segment="1" data-vk="87862793_456241140" data-offset="2:22:56" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-16" data-name="15 (часть 2)" data-twitch="234037742" data-segment="1" data-vk="87862793_456241140" data-offset="2:22:56" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -662,7 +714,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-17" data-name="16" data-twitch="234373553" data-youtube="bHkaL_L12FU" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-17" data-name="16" data-twitch="234373553" data-youtube="bHkaL_L12FU" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -694,7 +748,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-18" data-name="17" data-twitch="236864236" data-segment="0" data-youtube="QZ9txwxIGmI" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-18" data-name="17" data-twitch="236864236" data-segment="0" data-youtube="QZ9txwxIGmI" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -741,7 +797,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-19" data-name="18" data-twitch="250258247" data-youtube="FY9ikuwXE1c" data-offset="-0:09" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-19" data-name="18" data-twitch="250258247" data-youtube="FY9ikuwXE1c" data-offset="-0:09" />
+</div>
 
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
@@ -776,7 +834,9 @@
 
 </ul>
 
-<p class="stream" id="wrapper-20" data-name="19. Conan Exiles" data-twitch="259446831" style="display: none" />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-20" data-name="19. Conan Exiles" data-twitch="259446831" style="display: none" />
+</div>
 
 <p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
 прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
@@ -796,24 +856,78 @@
 
 
  
+    </div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner">
-          Репозиторий
-          <a href="https://github.com/TheDrHax/BlackSilverUfa/">
-            BlackSilverUfa
-          </a>
-          поддерживается силами
-          <a href="https://github.com/TheDrHax/">
-            TheDrHax
-          </a>.
-        </span>
-        <span class="site-footer-credits">
-          Весь контент принадлежит <a href="https://www.youtube.com/user/BlackSilverUfa">Артуру Блэку</a>.<br>
-          Распространение ссылок на Архив под записями на YouTube было одобрено в <a href="/static/images/answer.jpg">комментарии</a>.<br>
-          На сайте используется аналитика <a href="https://matomo.org/">Matomo</a>. Нажмите <a href="//matomo.thedrhax.pw/index.php?module=CoreAdminHome&action=optOut&language=ru">сюда</a>, чтобы отказаться от отслеживания.
-        </span>
-      </footer>
-    </section>
+    <footer class="page-footer font-small bg-dark text-white pt-4 mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="text-uppercase">Полезные ссылки</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://bsarchive.thedrhax.pw">
+                  Зеркало bsarchive.com
+                </a>
+              </li>
+              <li>
+                <a href="https://matomo.thedrhax.pw/index.php?module=CoreAdminHome&action=optOut&language=ru">
+                  Отказ от участия в статистике сайта
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-uppercase">Каналы Артура</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.youtube.com/user/BlackSilverUFA">
+                  <i class="fab fa-youtube"></i> BlackSilverUFA
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/BlackSilverChannel">
+                  <i class="fab fa-youtube"></i> BlackSilverChannel
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitch.tv/blackufa_twitch/">
+                  <i class="fab fa-twitch"></i> BlackUFA_Twitch
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-uppercase">Социальные сети</h5>
+            <ul class="list-unstyled">
+              <li>
+                <li>
+                  <a href="https://vk.com/b_silver">
+                    <i class="fab fa-vk"></i> Группа ВКонтакте
+                  </a>
+                </li>
+                <li>
+                  <a href="https://vk.com/blacksilverufa">
+                    <i class="fab fa-vk"></i> Страница ВКонтакте
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/_BlackUfa">
+                    <i class="fab fa-twitter"></i> Twitter
+                  </a>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright py-3 text-center small">
+        <i class="far fa-copyright"></i> 2017-2018, Дмитрий Карих. Весь контент принадлежит Артуру Блэку. Разрешение на его обработку предоставлено в <a href="https://www.youtube.com/watch?v=Bxj09aAOFaI&lc=UgwQmdNhl4TMNn9-Gg94AaABAg.8ZY93MRq32E8ZY9W3KGSJS">комментарии</a> (<a href="/static/images/answer.jpg">скриншот</a>).
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   </body>
 </html>
