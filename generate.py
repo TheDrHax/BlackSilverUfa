@@ -4,7 +4,8 @@
 import os
 import shutil
 from mako.lookup import TemplateLookup
-from templates.utils import load_json, _
+from templates.data import (load_json, streams, games, categories)
+from templates.utils import _
 
 
 lookup = TemplateLookup(directories=['./templates'],
@@ -12,33 +13,14 @@ lookup = TemplateLookup(directories=['./templates'],
                         input_encoding='utf-8')
 
 
-def load_data():
-    args = {'_': _}
-
-    for data in ['config', 'games', 'categories', 'streams']:
-        args[data] = load_json("data/{}.json".format(data))
-
-    # Populate games with streams info
-    for game in args['games']:
-        for stream in game['streams']:
-            stream_info = args['streams'][stream['twitch']]
-            if type(stream_info) is dict:
-                stream.update(stream_info)
-            elif type(stream_info) is list:
-                stream.update(stream_info[stream['segment']])
-
-    # Populate categories with games
-    for category in args['categories']:
-        category['games'] = []
-        for game in args['games']:
-            if category['code'] == game['category']:
-                category['games'].append(game)
-
-    return args
-
-
 def generate():
-    args = load_data()
+    args = {
+        '_': _,
+        'config': load_json("data/config.json"),
+        'streams': streams,
+        'games': games,
+        'categories': categories
+    }
 
     # Recreate required directores
     if not os.path.isdir(_('')):
