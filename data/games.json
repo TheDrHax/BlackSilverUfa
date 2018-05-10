@@ -403,7 +403,8 @@
     "filename": "ghost-of-a-tale.html",
     "streams": [
       { "name": "1", "twitch": "239018968" },
-      { "name": "2", "twitch": "240459322" }
+      { "name": "2", "twitch": "240459322" },
+      { "name": "3", "twitch": "259798230", "start": "2:51:44" }
     ]
   },
   {
@@ -417,7 +418,7 @@
   },
   {
     "name": "Kingdom Come: Deliverance",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "kingdom-come-deliverance.html",
     "streams": [
       { "name": "1", "twitch": "228649254" },
@@ -428,7 +429,8 @@
       { "name": "6", "twitch": "230991137" },
       { "name": "7", "twitch": "233355849", "segment": 1, "soft_start": "1:18:31" },
       { "name": "8", "twitch": "238317087", "soft_start": "27:36" },
-      { "name": "9", "twitch": "246167971", "soft_start": "21:22" }
+      { "name": "9", "twitch": "246167971", "soft_start": "21:22" },
+      { "name": "10", "twitch": "259798230", "soft_start": "22:25" }
     ]
   },
   {
