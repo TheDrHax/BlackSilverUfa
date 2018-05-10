@@ -183,7 +183,9 @@ window.addEventListener('DOMContentLoaded', function() {
 
   let i = 0;
   for (let wrapper of streams) {
-    wrapper.innerHTML = '<a style="color: #1e6bb8;"><b>▶ Открыть плеер</b></a>';
+    wrapper.innerHTML = '<button type="button" class="btn btn-primary">\
+                             <i class="fas fa-play"></i> Открыть плеер\
+                             </button>';
     wrapper.children[0].onclick = function() {
       spawnPlayer(wrapper);
     };
