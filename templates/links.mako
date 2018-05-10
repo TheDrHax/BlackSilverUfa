@@ -37,7 +37,7 @@
 
 <%block name="content">
 <%def name="timecode_link(id, t)">\
-<a onclick="document.getElementById('wrapper-${id}').seek(${int(t)})">${str(t)}</a>\
+<a href="javascript:void(0)" onclick="document.getElementById('wrapper-${id}').seek(${int(t)})">${str(t)}</a>\
 </%def>
 
 <%def name="timecode_list(id, stream)">\
