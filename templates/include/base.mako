@@ -31,7 +31,7 @@
       <div class="container">
         <div class="mx-auto">
             <a class="navbar-brand mx-auto" href="/">${config['title']}</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
