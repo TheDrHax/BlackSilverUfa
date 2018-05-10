@@ -28,6 +28,10 @@
 .plyr [data-plyr=captions] {
   display: inline-block !important;
 }
+
+.stream {
+  max-width: calc(100vh / 9 * 16 - 10%);
+}
 </style>
 </%block>
 
@@ -93,7 +97,9 @@
 % endif
 </ul>
 
-<p class="stream" id="wrapper-${id}" ${stream_to_attrs(stream)} />
+<div class="row justify-content-md-center">
+  <p class="stream col" id="wrapper-${id}" ${stream_to_attrs(stream)} />
+</div>
 
 % if not player_compatible(stream):
 <p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
