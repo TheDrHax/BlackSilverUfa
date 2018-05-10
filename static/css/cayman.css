@@ -370,7 +370,7 @@ a{
 a:hover{
     text-decoration:underline
 }
-.btn{
+/* .btn{
     display:inline-block;
     margin-bottom:1rem;
     color:rgba(255,255,255,0.7);
@@ -412,7 +412,7 @@ a:hover{
         margin-top:1rem;
         margin-left:0
     }
-}
+} */
 .page-header{
     color:#fff;
     text-align:center;
