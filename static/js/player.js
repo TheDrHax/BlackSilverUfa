@@ -216,20 +216,14 @@ window.addEventListener('DOMContentLoaded', function() {
           document.title = wrapper.dataset.name + " | " + document.title;
         };
 
-        if (hash.length == 1) { // simple streams
-          if (wrapper.dataset.segment == undefined) {
+        // simple streams
+        if (hash.length == 1 && wrapper.dataset.segment == 0) {
             spawn();
-          } else {
-            // Backward compatibility for direct links to segmented streams
-            window.location.hash += '.' + wrapper.dataset.segment;
-            hash = parse_hash();
-          }
         }
 
-        if (hash.length == 2) { // segmented streams
-          if (hash[1] == wrapper.dataset.segment) {
+        // segmented streams
+        if (hash.length == 2 && hash[1] == wrapper.dataset.segment) {
             spawn();
-          }
         }
       }
     }

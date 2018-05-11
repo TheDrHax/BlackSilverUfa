@@ -42,7 +42,10 @@ class Segment(AttrDict):
         return ' '.join(attrs)
 
     def hash(self):
-        return self.twitch + '.' + str(self.segment)
+        if self.segment == 0:
+            return self.twitch
+        else:
+            return self.twitch + '.' + str(self.segment)
 
     def thumbnail(self):
         if 'youtube' in self:
