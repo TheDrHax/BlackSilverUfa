@@ -43,7 +43,7 @@ def generate():
     # Recreate required directores
     if not os.path.isdir(_('')):
         os.mkdir(_(''))
-    for dp in ['links', 'src']:
+    for dp in ['links', 'src', 'r']:
         if os.path.isdir(_(dp)):
             shutil.rmtree(_(dp))
         os.mkdir(_(dp))
@@ -62,6 +62,7 @@ def generate():
     with open(_("src/player.html"), "w") as output:
         t = lookup.get_template('/redirect.mako')
         output.write(t.render(**args).strip())
+    shutil.copyfile(_("src/player.html"), _("r/index.html"))
 
     # Generate links/*.md
     t = lookup.get_template('/links.mako')
