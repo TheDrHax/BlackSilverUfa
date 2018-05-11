@@ -11,16 +11,19 @@
               return decodeURIComponent(pair[1]);
           }
       }
-      console.log('Query variable %s not found', variable);
   }
 
   var url;
-  switch(getQueryVariable('s')) {
+  switch(getQueryVariable('s') || window.location.search.substring(1)) {
     % for game in games:
       % for stream in game['streams']:
+        % if 'segment' in stream and stream['segment'] == 0:
+    case "${stream['twitch']}": url = "/links/${game['filename']}#${stream_hash(stream)}"; break;
+        % endif
     case "${stream_hash(stream)}": url = "/links/${game['filename']}#${stream_hash(stream)}"; break;
       % endfor
     % endfor
+    default: url = '/'; break;
   }
 
   window.location.replace(url);
