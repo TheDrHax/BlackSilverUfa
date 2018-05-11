@@ -4,30 +4,72 @@
 from .utils import load_json, AttrDict
 
 
-class Stream(AttrDict):
-    pass
+class Segment(AttrDict):
+    def __init__(self, segment, key=None):
+        super(Segment, self).__init__(segment)
+
+        if 'segment' not in self:
+            self.segment = 0
+
+        if 'twitch' not in self:
+            if key:
+                self.twitch = key
+            else:
+                raise AttributeError('Missing attribute "twitch"')
 
 
-class SegmentedStream(list):
-    pass
+class Stream(list):
+    def __init__(self, segments, key):
+        if type(segments) is not list:
+            raise TypeError(type(segments))
+
+        self.twitch = key
+        for segment in segments:
+            self.append(Segment(segment, key))
 
 
 class Streams(AttrDict):
-    def __init__(self, data):
-        if type(data) is not dict:
-            raise TypeError
-
-        for id, stream in data.items():
+    def _from_dict(self, streams):
+        for id, stream in streams.items():
             if type(stream) is dict:
-                self[id] = Stream(stream)
+                self[id] = Stream([stream], id)
             elif type(stream) is list:
-                self[id] = SegmentedStream(stream)
+                self[id] = Stream(stream, id)
             else:
                 raise TypeError
 
+    def _from_list(self, streams):
+        for stream in streams:
+            id = stream['twitch']
+            self[id] = Stream([stream], id)
+
+    def __init__(self, streams):
+        if type(streams) is dict:
+            self._from_dict(streams)
+        elif type(streams) is list:
+            self._from_list(streams)
+        else:
+            raise TypeError(type(streams))
+
 
 class Game(AttrDict):
-    pass
+    def __init__(self, game):
+        super(Game, self).__init__()
+
+        if type(game) is not dict:
+            raise TypeError(type(game))
+
+        self.name = game['name']
+        self.category = game['category']
+        self.filename = game['filename']
+
+        self.streams = []
+        for stream in game['streams']:
+            self.streams.append(Segment(stream))
+
+    def update_streams(self, streams):
+        for segment in self.streams:
+            segment.update(streams[segment.twitch][segment.segment])
 
 
 class Games(list):
@@ -40,12 +82,7 @@ class Games(list):
 
     def update_streams(self, streams):
         for game in self:
-            for stream in game['streams']:
-                stream_info = streams[stream['twitch']]
-                if type(stream_info) is Stream:
-                    stream.update(stream_info)
-                elif type(stream_info) is SegmentedStream:
-                    stream.update(stream_info[stream['segment']])
+            game.update_streams(streams)
 
 
 class Category(AttrDict):
