@@ -22,7 +22,7 @@ class Game(AttrDict):
 
     def update_streams(self, streams):
         for segment in self.streams:
-            info = streams[segment.twitch][segment.segment]
+            info = streams[segment.twitch][segment.segment].copy()
             info.update(segment)  # games.json has higher priority
             segment.update(info)
 
