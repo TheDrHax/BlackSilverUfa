@@ -31,12 +31,13 @@
   }
 
   var url;
-  switch(getQueryVariable('s') || window.location.search.substring(1)) {
+  var hash = getQueryVariable('s') || window.location.search.substring(1);
+  if (hash.split('.').length > 1 && hash.split('.')[1] == 0) {
+    hash = hash.split('.')[0];
+  }
+  switch(hash) {
     % for hash, (game, stream) in stream_map.items():
     case "${hash}": url = "/links/${game.filename}#${hash}"; break;
-      % if 'segment' in stream and stream['segment'] == 0:
-    case "${stream.twitch}": url = "/links/${game.filename}#${hash}"; break;
-      % endif
     % endfor
     default: url = '/'; break;
   }
