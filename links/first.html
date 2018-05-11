@@ -911,32 +911,28 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/260173384">260173384</a></li>
     <li>Субтитры: <a href="../chats/v260173384.ass">v260173384.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=4E1DlNdCh-8">4E1DlNdCh-8</a></li>
+
   </ul>
+  <li>Эта запись смещена на -0:04 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(1152)">19:12</a> - Dark Souls: Prepare to Die Edition</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(3772)">01:02:52</a> - Dark Souls: Remastered (Network test)</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(1156)">19:16</a> - Dark Souls: Prepare to Die Edition</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(3776)">01:02:56</a> - Dark Souls: Remastered (Network test)</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-24" data-name="Dark Souls: Prepare to Die Edition / Dark Souls: Remastered (Network test)" data-twitch="260173384" style="display: none" />
+  <p class="stream col" id="wrapper-24" data-name="Dark Souls: Prepare to Die Edition / Dark Souls: Remastered (Network test)" data-twitch="260173384" data-youtube="4E1DlNdCh-8" data-offset="-0:04" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a onclick="document.location.reload()">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v260173384.ass" --player-passthrough hls twitch.tv/videos/260173384 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v260173384.ass --sub-delay=4 ytdl://4E1DlNdCh-8
 </code></pre>
 </div></div>
 
