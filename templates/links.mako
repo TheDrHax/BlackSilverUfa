@@ -68,7 +68,7 @@
 
 <%def name="gen_stream(id, stream)">
 <% hash = stream.hash() %>\
-<h2 id="${hash}"><a id="${id}" href="#${hash}">${stream['name']}</a></h2>
+<h2 id="${hash}"><a href="/r/?${hash}">${stream['name']}</a></h2>
 
 <ul>
 % if stream.get('note'):

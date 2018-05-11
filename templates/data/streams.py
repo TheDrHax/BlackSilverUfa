@@ -32,9 +32,21 @@ class Segment(AttrDict):
         return False
 
     def attrs(self):
-        attrs = ['data-{}="{}"'.format(key, self._escape_attr(self[key]))
-                 for key in self.keys()
-                 if key not in ['note', 'timecodes']]
+        attrs = []
+
+        def add(key, value):
+            attrs.append('data-{}="{}"'.format(key, self._escape_attr(value)))
+
+        for key in self.keys():
+            if key in ['note', 'timecodes']:
+                continue
+
+            if key == 'segment':
+                if self.segment != 0:
+                    add(key, self[key])
+                continue
+
+            add(key, self[key])
 
         if not self.player_compatible():
             attrs.append('style="display: none"')

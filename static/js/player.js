@@ -174,7 +174,14 @@ window.addEventListener('DOMContentLoaded', function() {
   let spawned = false;
 
   function parse_hash() {
-    return window.location.hash.replace('#', '').split('.');
+    let hash = window.location.hash.replace('#', '').split('.');
+
+    if (hash.length == 2 && hash[1] == 0) {
+      window.location.hash = '#' + hash[0];
+      return parse_hash();
+    }
+
+    return hash;
   }
 
   if (window.location.hash) {
@@ -193,14 +200,9 @@ window.addEventListener('DOMContentLoaded', function() {
     // Placeholder methods to trigger spawn of player
     wrapper.seek = function (t) {
       spawnPlayer(wrapper, function(wrapper) {
-        console.log(wrapper);
         wrapper.seek(t);
       });
     };
-
-    function parse_hash() {
-      return window.location.hash.replace('#', '').split('.');
-    }
 
     if (hash) {
       let id = hash[0];
@@ -217,7 +219,7 @@ window.addEventListener('DOMContentLoaded', function() {
         };
 
         // simple streams
-        if (hash.length == 1 && wrapper.dataset.segment == 0) {
+        if (hash.length == 1 && wrapper.dataset.segment === undefined) {
             spawn();
         }
 
