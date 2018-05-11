@@ -1,5 +1,3 @@
-<%! from templates.utils import stream_hash %>
-
 <%def name="code()">
 <code class="highlighter-rouge">${caller.body()}</code>
 </%def>
@@ -23,7 +21,7 @@ ${text if text else game['name']}\
 
 <%def name="stream_link(game, stream)">\
 <% text = capture(caller.body) %>\
-<a href="/links/${game['filename']}#${stream_hash(stream)}">\
+<a href="/links/${game['filename']}#${stream.hash()}">\
 ${text if text else stream['name']}\
 </a>\
 </%def>

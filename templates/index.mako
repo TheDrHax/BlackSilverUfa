@@ -1,4 +1,4 @@
-<%! from templates.utils import player_compatible, numword, stream_thumbnail %>
+<%! from templates.utils import numword %>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />
 <%namespace file="include/statistics.mako" name="stats" />
@@ -33,7 +33,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <%el:game_link game="${game}">
-        <img class="card-img-top" src="${stream_thumbnail(game['streams'][0])}" />
+        <img class="card-img-top" src="${game.streams[0].thumbnail()}" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             ${game['name']}
         </div>
@@ -51,7 +51,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <%el:stream_link game="${category['games'][0]}" stream="${stream}">
-          <img class="card-img" src="${stream_thumbnail(stream)}" />
+          <img class="card-img" src="${stream.thumbnail()}" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             ${stream['name']}
           </div>
@@ -78,7 +78,7 @@
 <% missing = False %>\
 % for game in games:
   % for stream in game['streams']:
-    % if not player_compatible(stream):
+    % if not stream.player_compatible():
 <% missing = True %>\
     <li>
       <%el:game_link game="${game}" /> —\

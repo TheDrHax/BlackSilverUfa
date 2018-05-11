@@ -1,7 +1,6 @@
 <%!
   import datetime
-  from templates.utils import (player_compatible, stream_hash, md5file,
-                               stream_to_attrs, mpv_file, mpv_args)
+  from templates.utils import md5file
   from templates.utils.timecodes import Timecode
 %>
 <%inherit file="include/base.mako" />
@@ -68,7 +67,7 @@
 </%def>
 
 <%def name="gen_stream(id, stream)">
-<% hash = stream_hash(stream) %>\
+<% hash = stream.hash() %>\
 <h2 id="${hash}"><a id="${id}" href="#${hash}">${stream['name']}</a></h2>
 
 <ul>
@@ -98,10 +97,10 @@
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-${id}" ${stream_to_attrs(stream)} />
+  <p class="stream col" id="wrapper-${id}" ${stream.attrs()} />
 </div>
 
-% if not player_compatible(stream):
+% if not stream.player_compatible():
 <p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
 прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
 обновился. Обычно на это требуется минута или около того, но я оставляю
@@ -113,21 +112,21 @@
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 <%el:code_block>\
-% if player_compatible(stream):
-mpv ${mpv_args(stream)} ${mpv_file(stream)}
+% if stream.player_compatible():
+mpv ${stream.mpv_args()} ${stream.mpv_file()}
 % else:
-streamlink -p "mpv ${mpv_args(stream)}" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
+streamlink -p "mpv ${stream.mpv_args()}" --player-passthrough hls twitch.tv/videos/${stream.twitch} best
 % endif
 </%el:code_block>
 
-% if game['streams'].index(stream) != len(game['streams']) - 1:
+% if game.streams.index(stream) != len(game.streams) - 1:
 <hr>
 % endif
 </%def>
 
-<h1><a href="/">Архив</a> → ${game['name']}</h1>
+<h1><a href="/">Архив</a> → ${game.name}</h1>
 <% id = 0 %> \
-% for stream in game['streams']:
+% for stream in game.streams:
 ${gen_stream(id, stream)}
 <% id += 1 %> \
 % endfor
