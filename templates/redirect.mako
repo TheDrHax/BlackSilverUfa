@@ -1,4 +1,3 @@
-<%! from templates.utils import stream_hash %>
 <html><head><title>Перенаправление</title><meta charset="UTF-8"></head><body>
 <a href="/" id="link">Нажмите сюда, если перенаправление не сработало</a>
 <script type="application/javascript">
@@ -18,9 +17,9 @@
     % for game in games:
       % for stream in game['streams']:
         % if 'segment' in stream and stream['segment'] == 0:
-    case "${stream['twitch']}": url = "/links/${game['filename']}#${stream_hash(stream)}"; break;
+    case "${stream.twitch}": url = "/links/${game.filename}#${stream.hash()}"; break;
         % endif
-    case "${stream_hash(stream)}": url = "/links/${game['filename']}#${stream_hash(stream)}"; break;
+    case "${stream.hash()}": url = "/links/${game.filename}#${stream.hash()}"; break;
       % endfor
     % endfor
     default: url = '/'; break;
