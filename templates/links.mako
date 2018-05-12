@@ -42,9 +42,9 @@
 <%def name="timecode_list(id, stream)">\
 <%
   offset = Timecode(stream.get('offset'))
-  timecodes = [(Timecode(t) - offset, name)
-               for t, name in stream['timecodes'].items()
-               if Timecode(t) >= offset]
+  timecodes = [(t - offset, name)
+               for t, name in stream.timecodes.values()
+               if t >= offset]
 %>\
 % if len(timecodes) > 0:
   <li>Таймкоды:</li>

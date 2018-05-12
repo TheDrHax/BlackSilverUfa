@@ -65,6 +65,19 @@ class Timecode(object):
         return int(self) > int(other)
 
 
+class Timecodes(list):
+    def __init__(self, timecodes):
+        if type(timecodes) is not dict:
+            raise TypeError(type(timecodes))
+
+        for key, value in timecodes.items():
+            t = Timecode(key)
+            self.append((t, value), )
+
+    def values(self):
+        return sorted(self)
+
+
 class TimecodeHelper:
     delay = 23  # Delay of livestreamer + MPV with quality 720p60
 
