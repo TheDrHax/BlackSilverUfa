@@ -1,7 +1,7 @@
 <%!
   import datetime
   from templates.utils import md5file
-  from templates.utils.timecodes import Timecode
+  from templates.data.timecodes import Timecode
 %>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />

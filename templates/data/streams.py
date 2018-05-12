@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from .utils import AttrDict
-from ..utils.timecodes import Timecode
+from .timecodes import Timecode
 
 
 class Segment(AttrDict):

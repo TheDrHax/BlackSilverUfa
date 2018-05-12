@@ -1,4 +1,4 @@
-<%! from templates.utils.timecodes import Timecode %>\
+<%! from templates.data.timecodes import Timecode %>\
 <%
     stream_map = {}
 
