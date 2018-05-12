@@ -14,28 +14,7 @@
 <script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
-
 <script src="/static/js/player.js?hash=${md5file('static/js/player.js')}"></script>
-
-<style>
-.main-content {
-  padding: 2rem;
-  max-width: 72rem;
-}
-
-/* Enable caption button in player */
-.plyr [data-plyr=captions] {
-  display: inline-block !important;
-}
-
-.stream {
-  max-width: calc(100vh / 9 * 16 - 10%);
-}
-
-.plyr {
-  max-width: calc(100vh / 9 * 16);
-}
-</style>
 </%block>
 
 <%block name="content">
