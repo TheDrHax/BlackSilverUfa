@@ -31,6 +31,10 @@
 .stream {
   max-width: calc(100vh / 9 * 16 - 10%);
 }
+
+.plyr {
+  max-width: calc(100vh / 9 * 16);
+}
 </style>
 </%block>
 
