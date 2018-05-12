@@ -1,28 +1,26 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from .utils import AttrDict
 from .streams import Segment
 
 
-class Game(AttrDict):
+class Game(dict):
     def __init__(self, game):
         super(Game, self).__init__()
 
         if type(game) is not dict:
             raise TypeError(type(game))
 
-        self.name = game['name']
-        self.category = game['category']
-        self.filename = game['filename']
-
-        self.streams = []
+        self['name'] = game['name']
+        self['category'] = game['category']
+        self['filename'] = game['filename']
+        self['streams'] = []
         for stream in game['streams']:
-            self.streams.append(Segment(stream))
+            self['streams'].append(Segment(stream))
 
     def update_streams(self, streams):
-        for segment in self.streams:
-            info = streams[segment.twitch][segment.segment].copy()
+        for segment in self['streams']:
+            info = streams[segment['twitch']][segment['segment']].copy()
             info.update(segment)  # games.json has higher priority
             segment.update(info)
 

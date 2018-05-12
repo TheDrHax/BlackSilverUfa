@@ -26,7 +26,7 @@
 <%
   offset = Timecode(stream.get('offset'))
   timecodes = [(t - offset, name)
-               for t, name in stream.timecodes.values()
+               for t, name in stream['timecodes'].values()
                if t >= offset]
 %>\
 % if len(timecodes) > 0:
@@ -102,14 +102,14 @@ streamlink -p "mpv ${stream.mpv_args()}" --player-passthrough hls twitch.tv/vide
 % endif
 </%el:code_block>
 
-% if game.streams.index(stream) != len(game.streams) - 1:
+% if game['streams'].index(stream) != len(game['streams']) - 1:
 <hr>
 % endif
 </%def>
 
-<h1><a href="/">Архив</a> → ${game.name}</h1>
+<h1><a href="/">Архив</a> → ${game['name']}</h1>
 <% id = 0 %> \
-% for stream in game.streams:
+% for stream in game['streams']:
 ${gen_stream(id, stream)}
 <% id += 1 %> \
 % endfor

@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from .utils import AttrDict
 from .timecodes import Timecode, Timecodes
 
 
-class Segment(AttrDict):
+class Segment(dict):
     @staticmethod
     def _escape_attr(attr):
         if type(attr) is str:
@@ -17,17 +16,17 @@ class Segment(AttrDict):
         super(Segment, self).__init__(segment)
 
         if 'segment' not in self:
-            self.segment = 0
+            self['segment'] = 0
 
         if 'twitch' not in self:
             if key:
-                self.twitch = key
+                self['twitch'] = key
             else:
                 raise AttributeError('Missing attribute "twitch"')
 
         if 'timecodes' in self:
-            timecodes = self.timecodes
-            self.timecodes = Timecodes(timecodes)
+            timecodes = self['timecodes']
+            self['timecodes'] = Timecodes(timecodes)
 
     def player_compatible(self):
         for field in ['youtube', 'vk', 'direct']:
@@ -46,7 +45,7 @@ class Segment(AttrDict):
                 continue
 
             if key == 'segment':
-                if self.segment != 0:
+                if self['segment'] != 0:
                     add(key, self[key])
                 continue
 
@@ -58,40 +57,41 @@ class Segment(AttrDict):
         return ' '.join(attrs)
 
     def hash(self):
-        if self.segment == 0:
-            return self.twitch
+        if self['segment'] == 0:
+            return self['twitch']
         else:
-            return self.twitch + '.' + str(self.segment)
+            return self['twitch'] + '.' + str(self['segment'])
 
     def thumbnail(self):
         if 'youtube' in self:
-            id = self.youtube
+            id = self['youtube']
             return 'https://img.youtube.com/vi/{}/mqdefault.jpg'.format(id)
         elif 'vk' in self:
-            id = self.vk
+            id = self['vk']
             return 'https://api.thedrhax.pw/vk/video/{}.jpg'.format(id)
         else:
             return '/static/images/no-preview.png'
 
     def mpv_file(self):
         if 'youtube' in self:
-            return 'ytdl://' + self.youtube
+            return 'ytdl://' + self['youtube']
         elif 'vk' in self:
-            return 'https://api.thedrhax.pw/vk/video/{}.mp4'.format(self.vk)
+            return 'https://api.thedrhax.pw/vk/video/{}.mp4'.format(self['vk'])
         elif 'direct' in self:
-            return self.direct
+            return self['direct']
 
     def mpv_args(self):
         sub_format = '--sub-file=https://blackufa.thedrhax.pw/chats/v{}.ass '
-        result = sub_format.format(self.twitch)
+        result = sub_format.format(self['twitch'])
         offset = Timecode(0)
         if 'offset' in self:
-            offset = Timecode(self.offset)
+            offset = Timecode(self['offset'])
             result += '--sub-delay={} '.format(-int(offset))
         if 'start' in self:
-            result += '--start={} '.format(int(Timecode(self.start) - offset))
+            start = int(Timecode(self['start']) - offset)
+            result += '--start={} '.format(start)
         if 'end' in self:
-            result += '--end={} '.format(int(Timecode(self.end) - offset))
+            result += '--end={} '.format(int(Timecode(self['end']) - offset))
         return result.strip()
 
 
@@ -105,7 +105,7 @@ class Stream(list):
             self.append(Segment(segment, key))
 
 
-class Streams(AttrDict):
+class Streams(dict):
     def _from_dict(self, streams):
         for id, stream in streams.items():
             if type(stream) is dict:

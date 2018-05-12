@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from .utils import AttrDict
 
-
-class Category(AttrDict):
+class Category(dict):
     pass
 
 
