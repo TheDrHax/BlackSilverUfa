@@ -37,3 +37,20 @@ footer.page-footer a {
 footer .footer-copyright a {
   text-decoration: underline;
 }
+
+/*
+ *  Plyr styles
+ */
+
+ /* Enable caption button in player */
+ .plyr [data-plyr=captions] {
+   display: inline-block !important;
+ }
+
+ .stream {
+   max-width: calc(100vh / 9 * 16 - 10%);
+ }
+
+ .plyr {
+   max-width: calc(100vh / 9 * 16);
+ }
