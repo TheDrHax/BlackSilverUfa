@@ -13,7 +13,11 @@
   }
 
   var url;
-  switch(getQueryVariable('s') || window.location.search.substring(1)) {
+  var hash = getQueryVariable('s') || window.location.search.substring(1);
+  if (hash.split('.').length > 1 && hash.split('.')[1] == 0) {
+    hash = hash.split('.')[0];
+  }
+  switch(hash) {
     case "205262158": url = "/links/black-mirror.html#205262158"; break;
     case "206091904": url = "/links/darkwood.html#206091904"; break;
     case "180663832": url = "/links/co-op.html#180663832"; break;
@@ -27,16 +31,13 @@
     case "213247693": url = "/links/co-op.html#213247693"; break;
     case "213846142": url = "/links/co-op.html#213846142"; break;
     case "222913630": url = "/links/co-op.html#222913630"; break;
-    case "225279322.0": url = "/links/co-op.html#225279322.0"; break;
-    case "225279322": url = "/links/co-op.html#225279322.0"; break;
+    case "225279322": url = "/links/co-op.html#225279322"; break;
     case "225279322.1": url = "/links/co-op.html#225279322.1"; break;
     case "227264292": url = "/links/co-op.html#227264292"; break;
     case "232346216": url = "/links/co-op.html#232346216"; break;
-    case "234037742.0": url = "/links/co-op.html#234037742.0"; break;
-    case "234037742": url = "/links/co-op.html#234037742.0"; break;
+    case "234037742": url = "/links/co-op.html#234037742"; break;
     case "234373553": url = "/links/co-op.html#234373553"; break;
-    case "236864236.0": url = "/links/co-op.html#236864236.0"; break;
-    case "236864236": url = "/links/co-op.html#236864236.0"; break;
+    case "236864236": url = "/links/co-op.html#236864236"; break;
     case "250258247": url = "/links/co-op.html#250258247"; break;
     case "259446831": url = "/links/co-op.html#259446831"; break;
     case "234037742.1": url = "/links/warhammer-vermintide-2.html#234037742.1"; break;
@@ -84,8 +85,7 @@
     case "215612485": url = "/links/nier-automata.html#215612485"; break;
     case "215625839": url = "/links/nier-automata.html#215625839"; break;
     case "215959213": url = "/links/nier-automata.html#215959213"; break;
-    case "216293216.0": url = "/links/nier-automata.html#216293216.0"; break;
-    case "216293216": url = "/links/nier-automata.html#216293216.0"; break;
+    case "216293216": url = "/links/nier-automata.html#216293216"; break;
     case "216293216.1": url = "/links/nier-automata.html#216293216.1"; break;
     case "216912425": url = "/links/nier-automata.html#216912425"; break;
     case "217247484": url = "/links/nier-automata.html#217247484"; break;
@@ -109,8 +109,7 @@
     case "142839507": url = "/links/prey.html#142839507"; break;
     case "164633577": url = "/links/re4.html#164633577"; break;
     case "167924021": url = "/links/re4.html#167924021"; break;
-    case "168936842.0": url = "/links/re4.html#168936842.0"; break;
-    case "168936842": url = "/links/re4.html#168936842.0"; break;
+    case "168936842": url = "/links/re4.html#168936842"; break;
     case "168936842.1": url = "/links/re4.html#168936842.1"; break;
     case "152253862": url = "/links/single.html#152253862"; break;
     case "174225353": url = "/links/single.html#174225353"; break;
@@ -173,8 +172,7 @@
     case "227626210": url = "/links/first.html#227626210"; break;
     case "230659866": url = "/links/first.html#230659866"; break;
     case "233032380.1": url = "/links/first.html#233032380.1"; break;
-    case "233355849.0": url = "/links/first.html#233355849.0"; break;
-    case "233355849": url = "/links/first.html#233355849.0"; break;
+    case "233355849": url = "/links/first.html#233355849"; break;
     case "239364187": url = "/links/first.html#239364187"; break;
     case "249160756": url = "/links/first.html#249160756"; break;
     case "256894852": url = "/links/first.html#256894852"; break;
@@ -200,16 +198,14 @@
     case "246167971": url = "/links/kingdom-come-deliverance.html#246167971"; break;
     case "219819121": url = "/links/metal-gear-survive.html#219819121"; break;
     case "231626788": url = "/links/metal-gear-survive.html#231626788"; break;
-    case "233032380.0": url = "/links/little-nightmares.html#233032380.0"; break;
-    case "233032380": url = "/links/little-nightmares.html#233032380.0"; break;
+    case "233032380": url = "/links/little-nightmares.html#233032380"; break;
     case "233032380.2": url = "/links/getting-over-it.html#233032380.2"; break;
     case "252424972": url = "/links/god-of-war.html#252424972"; break;
     case "252508512": url = "/links/god-of-war.html#252508512"; break;
     case "252814465": url = "/links/god-of-war.html#252814465"; break;
     case "253221134": url = "/links/god-of-war.html#253221134"; break;
     case "253271374": url = "/links/god-of-war.html#253271374"; break;
-    case "253604008.0": url = "/links/god-of-war.html#253604008.0"; break;
-    case "253604008": url = "/links/god-of-war.html#253604008.0"; break;
+    case "253604008": url = "/links/god-of-war.html#253604008"; break;
     case "253604008.1": url = "/links/god-of-war.html#253604008.1"; break;
     case "253604008.2": url = "/links/god-of-war.html#253604008.2"; break;
     case "255465280": url = "/links/god-of-war.html#255465280"; break;
