@@ -4,7 +4,7 @@
 
     for game in games:
         for stream in game['streams']:
-            hash = stream.hash()
+            hash = stream.hash
 
             if hash in stream_map:
                 s1 = Timecode(stream.get('start'))

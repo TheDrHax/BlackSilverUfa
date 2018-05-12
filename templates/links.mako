@@ -50,7 +50,7 @@
 </%def>
 
 <%def name="gen_stream(id, stream)">
-<% hash = stream.hash() %>\
+<% hash = stream.hash %>\
 <h2 id="${hash}"><a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${stream['name']}</a></h2>
 
 <ul>

@@ -56,6 +56,7 @@ class Segment(dict):
 
         return ' '.join(attrs)
 
+    @property
     def hash(self):
         if self['segment'] == 0:
             return self['twitch']
