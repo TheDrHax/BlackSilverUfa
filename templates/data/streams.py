@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from .utils import AttrDict
-from .timecodes import Timecode
+from .timecodes import Timecode, Timecodes
 
 
 class Segment(AttrDict):
@@ -24,6 +24,10 @@ class Segment(AttrDict):
                 self.twitch = key
             else:
                 raise AttributeError('Missing attribute "twitch"')
+
+        if 'timecodes' in self:
+            timecodes = self.timecodes
+            self.timecodes = Timecodes(timecodes)
 
     def player_compatible(self):
         for field in ['youtube', 'vk', 'direct']:
