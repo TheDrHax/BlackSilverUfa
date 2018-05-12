@@ -131,8 +131,9 @@ function spawnPlyr(wrapper, callback) {
       e_sub.style.position = "absolute";
       e_sub.style.pointerEvents = "none";
 
-      e_sub.width = e_vid.clientWidth;
-      e_sub.height = e_vid.clientHeight;
+      e_sub.width = e_vid.clientWidth * 2;
+      e_sub.height = e_vid.clientHeight * 2;
+      e_sub.style.transform = "scale(0.5, 0.5) translate(-50%, -50%)";
 
       subtitles.resize(e_sub.width, e_sub.height);
     }
