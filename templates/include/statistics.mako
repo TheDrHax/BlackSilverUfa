@@ -1,7 +1,7 @@
 <%!
   import os
   from templates.utils import numword
-  from templates.utils.timecodes import Timecode
+  from templates.data.timecodes import Timecode
 %>
 
 <%def name="statistics()">\
