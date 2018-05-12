@@ -33,7 +33,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <%el:game_link game="${game}">
-        <img class="card-img-top" src="${game.streams[0].thumbnail()}" />
+        <img class="card-img-top" src="${game['streams'][0].thumbnail()}" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             ${game['name']}
         </div>

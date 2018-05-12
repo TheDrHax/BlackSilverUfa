@@ -3,7 +3,7 @@
     stream_map = {}
 
     for game in games:
-        for stream in game.streams:
+        for stream in game['streams']:
             hash = stream.hash()
 
             if hash in stream_map:
@@ -37,7 +37,7 @@
   }
   switch(hash) {
     % for hash, (game, stream) in stream_map.items():
-    case "${hash}": url = "/links/${game.filename}#${hash}"; break;
+    case "${hash}": url = "/links/${game['filename']}#${hash}"; break;
     % endfor
     default: url = '/'; break;
   }
