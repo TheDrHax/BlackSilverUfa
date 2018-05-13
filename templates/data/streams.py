@@ -24,6 +24,10 @@ class Segment(dict):
             else:
                 raise AttributeError('Missing attribute "twitch"')
 
+        for key in ['start', 'soft_start', 'end', 'offset']:
+            if key in self:
+                self[key] = Timecode(self[key])
+
         if 'timecodes' in self:
             timecodes = self['timecodes']
             self['timecodes'] = Timecodes(timecodes)

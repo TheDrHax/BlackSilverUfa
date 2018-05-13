@@ -45,8 +45,8 @@ class Timecode(object):
 
     @staticmethod
     def _type_check(arg):
-        if (type(arg) is not Timecode):
-            raise TypeError("Unsupported argument type")
+        if type(arg) not in [Timecode, int]:
+            raise TypeError(type(arg))
 
     def __add__(self, other):
         self._type_check(other)
@@ -72,10 +72,20 @@ class Timecodes(list):
 
         for key, value in timecodes.items():
             t = Timecode(key)
-            self.append((t, value), )
+            self.append((t, value))
 
     def values(self):
         return sorted(self)
+
+    def __ge__(self, offset):
+        if type(offset) is not Timecode:
+            raise TypeError(type(offset))
+
+        for t, name in self:
+            if t >= offset:
+                return True
+
+        return False
 
 
 class TimecodeHelper:
