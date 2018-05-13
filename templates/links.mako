@@ -23,17 +23,14 @@
 </%def>
 
 <%def name="timecode_list(id, stream)">\
-<%
-  offset = Timecode(stream.get('offset'))
-  timecodes = [(t - offset, name)
-               for t, name in stream['timecodes'].values()
-               if t >= offset]
-%>\
-% if len(timecodes) > 0:
+<% offset = Timecode(stream.get('offset')) %>\
+% if stream['timecodes'] >= offset:
   <li>Таймкоды:</li>
   <ul>
-  % for t, name in timecodes:
-    <li>${timecode_link(id, t)} - ${name}</li>
+  % for t, name in stream['timecodes']:
+    % if t >= offset:
+    <li>${timecode_link(id, t - offset)} - ${name}</li>
+    % endif
   % endfor
   </ul>
 % endif
