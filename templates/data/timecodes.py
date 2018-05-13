@@ -71,8 +71,12 @@ class Timecodes(list):
             raise TypeError(type(timecodes))
 
         for key, value in timecodes.items():
-            t = Timecode(key)
-            self.append((t, value))
+            try:
+                t = Timecode(key)
+                self.append((t, value))
+            except ValueError:
+                t = Timecodes(value)
+                self.append((t, key))
 
     def values(self):
         return sorted(self)

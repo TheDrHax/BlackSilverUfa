@@ -22,13 +22,14 @@
 <a href="javascript:void(0)" onclick="document.getElementById('wrapper-${id}').seek(${int(t)})">${str(t)}</a>\
 </%def>
 
-<%def name="timecode_list(id, stream)">\
-<% offset = Timecode(stream.get('offset')) %>\
-% if stream['timecodes'] >= offset:
-  <li>Таймкоды:</li>
+<%def name="timecode_list(id, timecodes, offset=Timecode(0), text='Таймкоды')">\
+% if timecodes >= offset:
+  <li>${text}:</li>
   <ul>
-  % for t, name in stream['timecodes']:
-    % if t >= offset:
+  % for t, name in timecodes:
+    % if type(t) is type(timecodes):
+    ${timecode_list(id, t, offset=offset, text=name)}
+    % elif t >= offset:
     <li>${timecode_link(id, t - offset)} - ${name}</li>
     % endif
   % endfor
@@ -64,7 +65,7 @@
   <li>Эта запись смещена на ${stream['offset']} от начала стрима</li>
 % endif
 % if stream.get('timecodes'):
-  ${timecode_list(id, stream)}
+  ${timecode_list(id, stream['timecodes'], offset=Timecode(stream.get('offset')))}
 % endif
 % for i in ['start', 'soft_start']:
   % if stream.get(i):
