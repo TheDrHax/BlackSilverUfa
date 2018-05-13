@@ -96,7 +96,7 @@
 % if stream.player_compatible():
 mpv ${stream.mpv_args()} ${stream.mpv_file()}
 % else:
-streamlink -p "mpv ${stream.mpv_args()}" --player-passthrough hls twitch.tv/videos/${stream.twitch} best
+streamlink -p "mpv ${stream.mpv_args()}" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
 % endif
 </%el:code_block>
 
