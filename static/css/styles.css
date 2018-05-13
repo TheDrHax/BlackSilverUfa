@@ -4,8 +4,7 @@
 }
 
 .row .col-card {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 5px;
 }
 
 .card-img-overlay.overlay-transparent-bottom {
