@@ -3,15 +3,13 @@
 
 import os
 import tcd
-from templates.utils import load_json
+from templates.data import streams
 
 
 prefix = './_site' if 'PREFIX' not in os.environ else os.environ['PREFIX']
 
 
 if __name__ == '__main__':
-    streams = load_json('data/streams.json')
-
     # Create destination directory
     for dp in [prefix, '{}/chats'.format(prefix)]:
         if not os.path.isdir(dp):

@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from .streams import Segment
+
+
+class Game(dict):
+    def __init__(self, game):
+        super(Game, self).__init__()
+
+        if type(game) is not dict:
+            raise TypeError(type(game))
+
+        self['name'] = game['name']
+        self['category'] = game['category']
+        self['filename'] = game['filename']
+        self['streams'] = []
+        for stream in game['streams']:
+            self['streams'].append(Segment(stream))
+
+    def update_streams(self, streams):
+        for segment in self['streams']:
+            info = streams[segment['twitch']][segment['segment']].copy()
+            info.update(segment)  # games.json has higher priority
+            segment.update(info)
+
+
+class Games(list):
+    def __init__(self, data):
+        if type(data) is not list:
+            raise TypeError
+
+        for game in data:
+            self.append(Game(game))
+
+    def update_streams(self, streams):
+        for game in self:
+            game.update_streams(streams)

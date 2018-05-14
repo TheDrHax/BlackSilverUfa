@@ -4,7 +4,9 @@
 import os
 import shutil
 from mako.lookup import TemplateLookup
-from templates.utils import load_json, _
+from templates.data import streams, games, categories
+from templates.data.utils import load_json
+from templates.utils import _
 
 
 lookup = TemplateLookup(directories=['./templates'],
@@ -12,38 +14,19 @@ lookup = TemplateLookup(directories=['./templates'],
                         input_encoding='utf-8')
 
 
-def load_data():
-    args = {'_': _}
-
-    for data in ['config', 'games', 'categories', 'streams']:
-        args[data] = load_json("data/{}.json".format(data))
-
-    # Populate games with streams info
-    for game in args['games']:
-        for stream in game['streams']:
-            stream_info = args['streams'][stream['twitch']]
-            if type(stream_info) is dict:
-                stream.update(stream_info)
-            elif type(stream_info) is list:
-                stream.update(stream_info[stream['segment']])
-
-    # Populate categories with games
-    for category in args['categories']:
-        category['games'] = []
-        for game in args['games']:
-            if category['code'] == game['category']:
-                category['games'].append(game)
-
-    return args
-
-
 def generate():
-    args = load_data()
+    args = {
+        '_': _,
+        'config': load_json("data/config.json"),
+        'streams': streams,
+        'games': games,
+        'categories': categories
+    }
 
     # Recreate required directores
     if not os.path.isdir(_('')):
         os.mkdir(_(''))
-    for dp in ['links', 'src']:
+    for dp in ['links', 'src', 'r']:
         if os.path.isdir(_(dp)):
             shutil.rmtree(_(dp))
         os.mkdir(_(dp))
@@ -62,6 +45,7 @@ def generate():
     with open(_("src/player.html"), "w") as output:
         t = lookup.get_template('/redirect.mako')
         output.write(t.render(**args).strip())
+    shutil.copyfile(_("src/player.html"), _("r/index.html"))
 
     # Generate links/*.md
     t = lookup.get_template('/links.mako')
