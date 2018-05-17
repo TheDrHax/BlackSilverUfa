@@ -37,7 +37,7 @@
   },
   {
     "name": "Warhammer: Vermintide 2",
-    "category": "infinite",
+    "category": "irregular",
     "filename": "warhammer-vermintide-2.html",
     "streams": [
       { "name": "1 (бета)", "twitch": "234037742", "segment": 1 },
@@ -117,7 +117,7 @@
   },
   {
     "name": "Monster Hunter World",
-    "category": "infinite",
+    "category": "irregular",
     "filename": "monster-hunter-world.html",
     "streams": [
       { "name": "1", "twitch": "208349646" },
@@ -129,7 +129,7 @@
   },
   {
     "name": "NieR Automata",
-    "category": "ongoing",
+    "category": "irregular",
     "filename": "nier-automata.html",
     "streams": [
       { "name": "1", "twitch": "215612485" },
@@ -145,7 +145,7 @@
   },
   {
     "name": "Outlast 2 с Дашей",
-    "category": "ongoing",
+    "category": "abandoned",
     "filename": "outlast_2_dw.html",
     "streams": [
       { "name": "1", "twitch": "174697007" },
@@ -154,7 +154,7 @@
   },
   {
     "name": "Persona 5",
-    "category": "infinite",
+    "category": "irregular",
     "filename": "persona_5.html",
     "streams": [
       { "name": "1", "twitch": "135797319" },
@@ -223,7 +223,7 @@
   },
   {
     "name": "Super Mario Odyssey",
-    "category": "infinite",
+    "category": "irregular",
     "filename": "super-mario-odyssey.html",
     "streams": [
       { "name": "1", "twitch": "185763905" },
@@ -292,7 +292,7 @@
   },
   {
     "name": "SCP Containment Breach",
-    "category": "infinite",
+    "category": "finished",
     "filename": "scp-cb.html",
     "streams": [
       { "name": "1", "twitch": "215974261" },
@@ -302,7 +302,7 @@
   },
   {
     "name": "Sea of Thieves",
-    "category": "infinite",
+    "category": "irregular",
     "filename": "sea-of-thieves.html",
     "streams": [
       { "name": "0 (бета)", "twitch": "223945520" },
@@ -352,7 +352,7 @@
   },
   {
     "name": "Stardew Valley",
-    "category": "infinite",
+    "category": "ongoing",
     "filename": "stardew-walley.html",
     "streams": [
       { "name": "1", "twitch": "180397849", "start": "2:57:45" },
@@ -371,7 +371,7 @@
   },
   {
     "name": "Radical Heights",
-    "category": "infinite",
+    "category": "abandoned",
     "filename": "radical-heights.html",
     "streams": [
       { "name": "1", "twitch": "248791166", "start": "1:23:22" },
@@ -398,7 +398,7 @@
   },
   {
     "name": "Far Cry 5",
-    "category": "ongoing",
+    "category": "abandoned",
     "filename": "far-cry-5.html",
     "streams": [
       { "name": "0 (демонстрация без спойлеров)", "twitch": "242721044" },
@@ -461,7 +461,7 @@
   },
   {
     "name": "Getting Over It",
-    "category": "ongoing",
+    "category": "irregular",
     "filename": "getting-over-it.html",
     "streams": [
       { "name": "1", "twitch": "219819121", "start": "1:52:00" },
