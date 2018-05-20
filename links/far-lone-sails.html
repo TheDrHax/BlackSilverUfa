@@ -104,27 +104,22 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/263472196">263472196</a></li>
     <li>Субтитры: <a href="../chats/v263472196.ass">v263472196.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=0m1MZSyWvqU">0m1MZSyWvqU</a></li>
+
   </ul>
-  <li>Игра начинается с <a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(1045)">17:25</a></li>
+  <li>Эта запись смещена на 17:30 от начала стрима</li>
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-1" data-name="2" data-twitch="263472196" data-soft_start="17:25" style="display: none" />
+  <p class="stream col" id="wrapper-1" data-name="2" data-twitch="263472196" data-youtube="0m1MZSyWvqU" data-offset="17:30" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a onclick="document.location.reload()">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v263472196.ass" --player-passthrough hls twitch.tv/videos/263472196 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v263472196.ass --sub-delay=-1050 ytdl://0m1MZSyWvqU
 </code></pre>
 </div></div>
 
