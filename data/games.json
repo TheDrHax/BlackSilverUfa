@@ -363,12 +363,16 @@
   },
   {
     "name": "Dark Souls 2: Scholar of the First Sin",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "ds2-scholar.html",
     "streams": [
       { "name": "1", "twitch": "260957900" },
       { "name": "2", "twitch": "262352362" },
-      { "name": "3", "twitch": "263472196", "segment": 1 }
+      { "name": "3", "twitch": "263472196", "segment": 1 },
+      { "name": "4 (часть 1)", "twitch": "264219962" },
+      { "name": "4 (часть 2)", "twitch": "264227986" },
+      { "name": "4 (часть 3)", "twitch": "264244000" },
+      { "name": "4 (часть 4)", "twitch": "264290927" }
     ]
   },
   {
