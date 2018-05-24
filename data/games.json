@@ -344,6 +344,14 @@
     ]
   },
   {
+    "name": "Detroit: Become Human",
+    "category": "ongoing",
+    "filename": "detroit-become-human.html",
+    "streams": [
+      { "name": "1", "twitch": "264943743", "soft_start": "6:50" }
+    ]
+  },
+  {
     "name": "Dark Souls: Remastered",
     "category": "ongoing",
     "filename": "ds-remastered.html",
