@@ -9,9 +9,12 @@ class Timecode(object):
 
     @staticmethod
     def text_to_sec(t):
+        negative = (t[0] == '-')
+        if negative:
+            t = t[1:]
         s = sum(int(x) * 60 ** i
                 for i, x in enumerate(reversed(t.split(":"))))
-        return -s if t[0] is '-' else s
+        return -s if negative else s
 
     @staticmethod
     def sec_to_text(s):
