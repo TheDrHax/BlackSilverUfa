@@ -345,7 +345,7 @@
   },
   {
     "name": "Detroit: Become Human",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "detroit-become-human.html",
     "streams": [
       { "name": "1 (1)", "twitch": "264943743", "soft_start": "6:51", "segment": 0 },
@@ -354,7 +354,8 @@
       { "name": "1 (4)", "twitch": "264943743", "segment": 3 },
       { "name": "1 (5)", "twitch": "264943743", "segment": 4 },
       { "name": "2 (6)", "twitch": "265333757", "segment": 0 },
-      { "name": "2 (7)", "twitch": "265333757", "segment": 1 }
+      { "name": "2 (7, финал)", "twitch": "265333757", "segment": 1 },
+      { "name": "3", "twitch": "265768902", "soft_start": "13:45" }
     ]
   },
   {
