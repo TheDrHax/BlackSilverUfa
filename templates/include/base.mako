@@ -29,20 +29,20 @@
     <!-- End Matomo Code -->
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div style="height: 56px"><!-- floating navbar workaround --></div>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="/">${config['title']}</a>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" id="search" placeholder="Быстрый переход" aria-label="Search">
-        </form>
-      </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="/">Hack</a>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Sorry">
-        </form>
+        <a class="navbar-brand d-none d-sm-block" href="/">${config['title']}</a>
+        <a class="navbar-brand d-sm-none d-xs-block" href="/">${config['title_short']}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+          <form class="form-inline">
+            <input class="form-control" type="search" id="search" placeholder="Быстрый переход" aria-label="Search">
+          </form>
+        </div>
       </div>
     </nav>
 
