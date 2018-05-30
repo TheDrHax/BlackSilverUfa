@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/css/cayman.css">
-    <link rel="stylesheet" href="/static/css/styles.css?hash=f671784b6cb50c13225352ae9a9e2175">
+    <link rel="stylesheet" href="/static/css/styles.css?hash=16a606b1678119bf6ee9b10349bc37d7">
     
 <title>Главная страница | Архив стримов BlackUFA_Twitch</title>
 
@@ -31,20 +31,20 @@
     <!-- End Matomo Code -->
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div style="height: 56px"><!-- floating navbar workaround --></div>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="/">Архив стримов BlackUFA_Twitch</a>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" id="search" placeholder="Быстрый переход" aria-label="Search">
-        </form>
-      </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="/">Hack</a>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Sorry">
-        </form>
+        <a class="navbar-brand d-none d-sm-block" href="/">Архив стримов BlackUFA_Twitch</a>
+        <a class="navbar-brand d-sm-none d-xs-block" href="/">Архив стримов</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+          <form class="form-inline">
+            <input class="form-control" type="search" id="search" placeholder="Быстрый переход" aria-label="Search">
+          </form>
+        </div>
       </div>
     </nav>
 
@@ -68,7 +68,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/black-mirror.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/9rrv07l9Bxs/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/9rrv07l9Bxs/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/9rrv07l9Bxs/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Black Mirror
         </div>
@@ -83,7 +84,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/chuchel.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/bNb3xn7JFOs/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/bNb3xn7JFOs/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/bNb3xn7JFOs/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             CHUCHEL
         </div>
@@ -98,7 +100,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/call-of-cthulhu.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/Wrq9C7Hhj3Q/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/Wrq9C7Hhj3Q/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/Wrq9C7Hhj3Q/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Call of Cthulhu: Dark Corners of the Earth
         </div>
@@ -113,7 +116,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/cry-of-fear.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/cI8GjdkamzI/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/cI8GjdkamzI/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/cI8GjdkamzI/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Cry of Fear
         </div>
@@ -128,7 +132,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/ds2-scholar.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/sI6Gf1iL3zI/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/sI6Gf1iL3zI/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/sI6Gf1iL3zI/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Dark Souls 2: Scholar of the First Sin
         </div>
@@ -143,7 +148,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/darkwood.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/fxwks5MC9Ns/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/fxwks5MC9Ns/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/fxwks5MC9Ns/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Darkwood
         </div>
@@ -158,7 +164,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/detroit-become-human.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/8zsG-GPuZp4/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/8zsG-GPuZp4/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/8zsG-GPuZp4/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Detroit: Become Human
         </div>
@@ -173,7 +180,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/far-lone-sails.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/cLYassVF_zw/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/cLYassVF_zw/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/cLYassVF_zw/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             FAR: Lone Sails
         </div>
@@ -188,7 +196,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/god-of-war.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/3JWvBb9uHvU/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/3JWvBb9uHvU/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/3JWvBb9uHvU/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             God of War (2018)
         </div>
@@ -203,7 +212,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/hellblade.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/qInCMF9MuEs/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/qInCMF9MuEs/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/qInCMF9MuEs/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Hellblade: Senua's Sacrifice
         </div>
@@ -218,7 +228,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/kingdom-come-deliverance.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/uqOT_wBQe70/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/uqOT_wBQe70/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/uqOT_wBQe70/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Kingdom Come: Deliverance
         </div>
@@ -233,7 +244,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/little-nightmares.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/LSHpifkX69Y/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/LSHpifkX69Y/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/LSHpifkX69Y/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Little Nightmares
         </div>
@@ -248,7 +260,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/prey.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/Og2_fkJo8NY/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/Og2_fkJo8NY/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/Og2_fkJo8NY/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Prey
         </div>
@@ -263,7 +276,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/re4.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/0XeyDh7T0Jw/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/0XeyDh7T0Jw/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/0XeyDh7T0Jw/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Resident Evil 4
         </div>
@@ -278,7 +292,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/scp-cb.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/-8anORo35tQ/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/-8anORo35tQ/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/-8anORo35tQ/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             SCP Containment Breach
         </div>
@@ -293,7 +308,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/evil_within.html">
-        <img class="card-img-top" src="https://api.thedrhax.pw/vk/video/87862793_456240552.jpg" />
+        <noscript><img class="card-img-top" src="https://api.thedrhax.pw/vk/video/87862793_456240552.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://api.thedrhax.pw/vk/video/87862793_456240552.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             The Evil Within
         </div>
@@ -308,7 +324,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/tloz_botw.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/G5waS5gtIlg/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/G5waS5gtIlg/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/G5waS5gtIlg/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             The Legend of Zelda: Breath of the Wild
         </div>
@@ -323,7 +340,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/uncanny-valley.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/JS7cNXnzCTA/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/JS7cNXnzCTA/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/JS7cNXnzCTA/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Uncanny Valley
         </div>
@@ -338,7 +356,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/white_day.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/fxwks5MC9Ns/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/fxwks5MC9Ns/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/fxwks5MC9Ns/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             White Day: A Labyrinth Named School
         </div>
@@ -361,7 +380,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#152253862">
-          <img class="card-img" src="https://img.youtube.com/vi/cTvtS4jAQGk/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/cTvtS4jAQGk/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Michigan: Report from Hell
           </div>
@@ -371,7 +390,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#174225353">
-          <img class="card-img" src="https://img.youtube.com/vi/ejp3UDoKx4k/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/ejp3UDoKx4k/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Absolver
           </div>
@@ -381,7 +400,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#184468298">
-          <img class="card-img" src="https://img.youtube.com/vi/9p23c9_BYaU/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/9p23c9_BYaU/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             The Count Lucanor
           </div>
@@ -391,7 +410,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#187291538">
-          <img class="card-img" src="https://img.youtube.com/vi/Bxj09aAOFaI/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/Bxj09aAOFaI/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Call of Duty: WWII
           </div>
@@ -401,7 +420,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#202329656">
-          <img class="card-img" src="https://img.youtube.com/vi/9kSnxedrUjM/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/9kSnxedrUjM/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Hidden Agenda
           </div>
@@ -411,7 +430,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#204996737">
-          <img class="card-img" src="https://img.youtube.com/vi/ZiYWnjvqw_k/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/ZiYWnjvqw_k/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Unforgiving: A Northern Hymn
           </div>
@@ -421,7 +440,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#219166190">
-          <img class="card-img" src="https://img.youtube.com/vi/Fd2nmniSz34/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/Fd2nmniSz34/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             DYING: Reborn
           </div>
@@ -431,7 +450,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#224600319">
-          <img class="card-img" src="https://img.youtube.com/vi/43q8zNpTCCE/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/43q8zNpTCCE/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Remothered: Tormented Fathers
           </div>
@@ -441,7 +460,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#226597573">
-          <img class="card-img" src="https://img.youtube.com/vi/S__uO4lckwk/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/S__uO4lckwk/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Shadow of the Colossus
           </div>
@@ -451,7 +470,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#233711282">
-          <img class="card-img" src="https://img.youtube.com/vi/UTVKKl5OZng/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/UTVKKl5OZng/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Rise of Insanity
           </div>
@@ -461,7 +480,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#234740795">
-          <img class="card-img" src="https://img.youtube.com/vi/zZg-Bh2Tfdk/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/zZg-Bh2Tfdk/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             MONSTRUM
           </div>
@@ -471,7 +490,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#236175824">
-          <img class="card-img" src="https://img.youtube.com/vi/TgUPE-ezSZo/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/TgUPE-ezSZo/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Yume Nikki: Dream Diary
           </div>
@@ -481,7 +500,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#241916500">
-          <img class="card-img" src="https://img.youtube.com/vi/pncG-ihazqw/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/pncG-ihazqw/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             A Way Out
           </div>
@@ -491,7 +510,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#245043791">
-          <img class="card-img" src="https://img.youtube.com/vi/6FZM1jUFUoM/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/6FZM1jUFUoM/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Umfend
           </div>
@@ -501,7 +520,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#248791166">
-          <img class="card-img" src="https://img.youtube.com/vi/bNb3xn7JFOs/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/bNb3xn7JFOs/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Protocol (демо)
           </div>
@@ -511,7 +530,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#249888883">
-          <img class="card-img" src="https://img.youtube.com/vi/BPxfq_baulY/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/BPxfq_baulY/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             SCP: Operation Descent (демо) / Code Rebecca: House of evil / Grandma / The Road to Hades
           </div>
@@ -521,7 +540,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/single.html#251742995">
-          <img class="card-img" src="https://img.youtube.com/vi/fZLfcYlG3-Q/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/fZLfcYlG3-Q/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Spooky's Jump Scare Mansion (с 500-й комнаты)
           </div>
@@ -539,7 +558,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/ds-remastered.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/4E1DlNdCh-8/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/4E1DlNdCh-8/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/4E1DlNdCh-8/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Dark Souls: Remastered
         </div>
@@ -554,7 +574,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/demons-souls.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/iKf4tl2Q7Ok/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/iKf4tl2Q7Ok/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/iKf4tl2Q7Ok/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Demon's Souls
         </div>
@@ -569,7 +590,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/ghost-of-a-tale.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/EBc0XZxPW0s/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/EBc0XZxPW0s/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/EBc0XZxPW0s/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Ghost of a Tale
         </div>
@@ -584,7 +606,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/stardew-walley.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/x5KwWrLRpEg/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/x5KwWrLRpEg/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/x5KwWrLRpEg/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Stardew Valley
         </div>
@@ -608,7 +631,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/getting-over-it.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/4tbKXowGdSk/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/4tbKXowGdSk/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/4tbKXowGdSk/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Getting Over It
         </div>
@@ -623,7 +647,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/monster-hunter-world.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/gUtKWEEyzPE/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/gUtKWEEyzPE/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/gUtKWEEyzPE/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Monster Hunter World
         </div>
@@ -638,7 +663,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/nier-automata.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/PSFYqx5cHvk/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/PSFYqx5cHvk/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/PSFYqx5cHvk/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             NieR Automata
         </div>
@@ -653,7 +679,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/persona_5.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/-c8n0TR5-no/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/-c8n0TR5-no/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/-c8n0TR5-no/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Persona 5
         </div>
@@ -668,7 +695,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/sea-of-thieves.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/wbpdTqY2hlY/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/wbpdTqY2hlY/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/wbpdTqY2hlY/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Sea of Thieves
         </div>
@@ -683,7 +711,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/super-mario-odyssey.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/kkeGLQrrkAM/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/kkeGLQrrkAM/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/kkeGLQrrkAM/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Super Mario Odyssey
         </div>
@@ -698,7 +727,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/warhammer-vermintide-2.html">
-        <img class="card-img-top" src="https://api.thedrhax.pw/vk/video/87862793_456241140.jpg" />
+        <noscript><img class="card-img-top" src="https://api.thedrhax.pw/vk/video/87862793_456241140.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://api.thedrhax.pw/vk/video/87862793_456241140.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Warhammer: Vermintide 2
         </div>
@@ -722,7 +752,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#163612448">
-          <img class="card-img" src="https://img.youtube.com/vi/ujz4o78-orM/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/ujz4o78-orM/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             The Legend of Zelda: Twilight Princess HD
           </div>
@@ -732,7 +762,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#175198877">
-          <img class="card-img" src="https://img.youtube.com/vi/4v5IEZ4zOJo/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/4v5IEZ4zOJo/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Divinity: Original Sin II
           </div>
@@ -742,7 +772,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#178108639">
-          <img class="card-img" src="https://img.youtube.com/vi/kgAipkmGNis/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/kgAipkmGNis/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Home Sweet Home
           </div>
@@ -752,7 +782,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#178361269">
-          <img class="card-img" src="https://img.youtube.com/vi/T6Y4hGvcIL8/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/T6Y4hGvcIL8/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Cuphead
           </div>
@@ -762,7 +792,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#180397849">
-          <img class="card-img" src="https://img.youtube.com/vi/x5KwWrLRpEg/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/x5KwWrLRpEg/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Road Redemption / Battle Chasers
           </div>
@@ -772,7 +802,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#206933269">
-          <img class="card-img" src="https://img.youtube.com/vi/Apcg-z-sBHM/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/Apcg-z-sBHM/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Xenoblade Chronicles 2
           </div>
@@ -782,7 +812,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#212431882">
-          <img class="card-img" src="https://img.youtube.com/vi/JS7cNXnzCTA/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/JS7cNXnzCTA/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             The Coma: Recut / Lone Survivor
           </div>
@@ -792,7 +822,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#212678883">
-          <img class="card-img" src="https://img.youtube.com/vi/sz8y749Jn_8/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/sz8y749Jn_8/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Stifled
           </div>
@@ -802,7 +832,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#222198164">
-          <img class="card-img" src="https://img.youtube.com/vi/x9NkgWX09L0/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/x9NkgWX09L0/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             The Witchkin / Emily Wants to Play Too / LeftWay
           </div>
@@ -812,7 +842,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#225950740">
-          <img class="card-img" src="https://img.youtube.com/vi/uXXquPRJHOw/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/uXXquPRJHOw/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             My Time at Portia
           </div>
@@ -822,7 +852,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#226000025">
-          <img class="card-img" src="https://img.youtube.com/vi/vB4XCZS5PmA/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/vB4XCZS5PmA/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Yakuza 6: The Song of Life
           </div>
@@ -832,7 +862,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#227626210">
-          <img class="card-img" src="https://img.youtube.com/vi/P-AL-tuG7uA/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/P-AL-tuG7uA/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Last Guardian
           </div>
@@ -842,7 +872,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#230659866">
-          <img class="card-img" src="https://img.youtube.com/vi/L4DTPebYFgw/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/L4DTPebYFgw/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Never Again / Boogeyman 2
           </div>
@@ -852,7 +882,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#232346216">
-          <img class="card-img" src="https://img.youtube.com/vi/MCHaIvn1sO4/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/MCHaIvn1sO4/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             SCP: Secret Laboratory
           </div>
@@ -862,7 +892,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#233032380.1">
-          <img class="card-img" src="https://img.youtube.com/vi/U8seqd_gNo4/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/U8seqd_gNo4/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Past Cure
           </div>
@@ -872,7 +902,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#233355849">
-          <img class="card-img" src="https://img.youtube.com/vi/J-ExEwSLDiE/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/J-ExEwSLDiE/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Final Fantasy XV: Windows Edition (demo)
           </div>
@@ -882,7 +912,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#239364187">
-          <img class="card-img" src="https://api.thedrhax.pw/vk/video/87862793_456241158.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://api.thedrhax.pw/vk/video/87862793_456241158.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Albion Online / Farm Together
           </div>
@@ -892,7 +922,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#245043791">
-          <img class="card-img" src="https://img.youtube.com/vi/6FZM1jUFUoM/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/6FZM1jUFUoM/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Living Nightmares / Shadow Corridor / Agnes Doll / Duder / The Nothing / Bunky / Die Young
           </div>
@@ -902,7 +932,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#248791166">
-          <img class="card-img" src="https://img.youtube.com/vi/bNb3xn7JFOs/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/bNb3xn7JFOs/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Extinction / Minit
           </div>
@@ -912,7 +942,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#249160756">
-          <img class="card-img" src="https://img.youtube.com/vi/zfB3QSz2KPE/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/zfB3QSz2KPE/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Fortunarium / Lobotomy Corporation / Escape Doodland / Jalopy
           </div>
@@ -922,7 +952,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#249888883">
-          <img class="card-img" src="https://img.youtube.com/vi/BPxfq_baulY/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/BPxfq_baulY/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             The Long Reach
           </div>
@@ -932,7 +962,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#251742995">
-          <img class="card-img" src="https://img.youtube.com/vi/fZLfcYlG3-Q/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/fZLfcYlG3-Q/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Descent: Silence of Mind / Tungulus / Ather / The Joy of Creation / SPAGHET / Deadstep
           </div>
@@ -942,7 +972,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#256894852">
-          <img class="card-img" src="https://img.youtube.com/vi/MCPuByMVSLQ/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/MCPuByMVSLQ/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             For Honor
           </div>
@@ -952,7 +982,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#257985661">
-          <img class="card-img" src="https://img.youtube.com/vi/yQh1bnndB4M/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/yQh1bnndB4M/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Frostpunk
           </div>
@@ -962,7 +992,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#260173384">
-          <img class="card-img" src="https://img.youtube.com/vi/4E1DlNdCh-8/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/4E1DlNdCh-8/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Dark Souls: Prepare to Die Edition
           </div>
@@ -972,7 +1002,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/first.html#262696959.1">
-          <img class="card-img" src="https://img.youtube.com/vi/9_im59hQ0Xw/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/9_im59hQ0Xw/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             State of Decay 2
           </div>
@@ -991,7 +1021,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/far-cry-5.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/oYgM2WtjarA/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/oYgM2WtjarA/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/oYgM2WtjarA/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Far Cry 5
         </div>
@@ -1006,7 +1037,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/metal-gear-survive.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/4tbKXowGdSk/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/4tbKXowGdSk/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/4tbKXowGdSk/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Metal Gear Survive
         </div>
@@ -1021,7 +1053,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/middle_earth.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/ZlMQcv0a1Sc/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/ZlMQcv0a1Sc/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/ZlMQcv0a1Sc/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Middle-earth: Shadow of War
         </div>
@@ -1036,7 +1069,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/outlast_2_dw.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/-5aRKoYTGLs/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/-5aRKoYTGLs/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/-5aRKoYTGLs/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Outlast 2 с Дашей
         </div>
@@ -1051,7 +1085,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/radical-heights.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/bNb3xn7JFOs/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/bNb3xn7JFOs/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/bNb3xn7JFOs/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Radical Heights
         </div>
@@ -1074,7 +1109,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/events.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/tj3Rx47t8FI/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/tj3Rx47t8FI/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/tj3Rx47t8FI/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             IRL
         </div>
@@ -1089,7 +1125,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/e3_2017.html">
-        <img class="card-img-top" src="https://img.youtube.com/vi/RAb8T5n0r5Q/mqdefault.jpg" />
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/RAb8T5n0r5Q/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/RAb8T5n0r5Q/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             неПрофессиональный E3 2017
         </div>
@@ -1112,7 +1149,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#180663832">
-          <img class="card-img" src="https://img.youtube.com/vi/y2PitYePsOU/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/y2PitYePsOU/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Hand Simulator / Ben and Ed: Blood Party / Stick Fight / Golf It!
           </div>
@@ -1122,7 +1159,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#182448131">
-          <img class="card-img" src="https://img.youtube.com/vi/IqTeWjugKOE/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/IqTeWjugKOE/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Hand Simulator / Gang Beasts / Duck Game / Move or Die
           </div>
@@ -1132,7 +1169,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#184206477">
-          <img class="card-img" src="https://img.youtube.com/vi/tUc-5QNu_CE/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/tUc-5QNu_CE/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Spelunker! Party / Ultimate Chicken Horse / We Need to go Deeper / Gang Beasts / Hand Simulator / Golf It!
           </div>
@@ -1142,7 +1179,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#187586726">
-          <img class="card-img" src="https://img.youtube.com/vi/PYqnr5-Lq4o/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/PYqnr5-Lq4o/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Deceit / Friday the 13th
           </div>
@@ -1152,7 +1189,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#200702885">
-          <img class="card-img" src="https://img.youtube.com/vi/qyMVUvAjqdE/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/qyMVUvAjqdE/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Dead by Daylight / Pulsar: Lost Colony / Deceit
           </div>
@@ -1162,7 +1199,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#202631693">
-          <img class="card-img" src="https://img.youtube.com/vi/BL6BrZRmRts/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/BL6BrZRmRts/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Human: Fall Flat / Deceit
           </div>
@@ -1172,7 +1209,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#206394832">
-          <img class="card-img" src="https://img.youtube.com/vi/-77Qpme-5EA/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/-77Qpme-5EA/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Looterkings / Mount Your Friends / We Need to Go Deeper / Golf It!
           </div>
@@ -1182,7 +1219,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#207753795">
-          <img class="card-img" src="https://img.youtube.com/vi/PPZFFjgxKnY/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/PPZFFjgxKnY/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Witch It / PlayerUnknown's Battlegrounds
           </div>
@@ -1192,7 +1229,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#213247693">
-          <img class="card-img" src="https://img.youtube.com/vi/GPga2h4UUXc/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/GPga2h4UUXc/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             The Hunter: Call of the Wild / Road Redemption
           </div>
@@ -1202,7 +1239,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#213846142">
-          <img class="card-img" src="https://img.youtube.com/vi/8GFZF96owuA/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/8GFZF96owuA/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Hand Simulator / Viscera Cleanup Detail / Astroneer / Gang Beasts
           </div>
@@ -1212,7 +1249,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#222913630">
-          <img class="card-img" src="https://img.youtube.com/vi/TDy4cbm_twQ/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/TDy4cbm_twQ/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             S.O.S.
           </div>
@@ -1222,7 +1259,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#225279322">
-          <img class="card-img" src="https://api.thedrhax.pw/vk/video/87862793_456241096.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://api.thedrhax.pw/vk/video/87862793_456241096.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Hunt: Showdown
           </div>
@@ -1232,7 +1269,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#225279322.1">
-          <img class="card-img" src="https://api.thedrhax.pw/vk/video/87862793_456241095.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://api.thedrhax.pw/vk/video/87862793_456241095.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             S.O.S.
           </div>
@@ -1242,7 +1279,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#227264292">
-          <img class="card-img" src="https://img.youtube.com/vi/q1_IvPFs11A/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/q1_IvPFs11A/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Desolate
           </div>
@@ -1252,7 +1289,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#232346216">
-          <img class="card-img" src="https://img.youtube.com/vi/MCHaIvn1sO4/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/MCHaIvn1sO4/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Party Panic
           </div>
@@ -1262,7 +1299,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#234037742">
-          <img class="card-img" src="https://api.thedrhax.pw/vk/video/87862793_456241139.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://api.thedrhax.pw/vk/video/87862793_456241139.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Deep Rock Galactic
           </div>
@@ -1272,7 +1309,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#234373553">
-          <img class="card-img" src="https://img.youtube.com/vi/bHkaL_L12FU/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/bHkaL_L12FU/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Friday the 13th / Human: Fall Flat
           </div>
@@ -1282,7 +1319,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#236864236">
-          <img class="card-img" src="https://img.youtube.com/vi/QZ9txwxIGmI/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/QZ9txwxIGmI/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Dead Dozen
           </div>
@@ -1292,7 +1329,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#250258247">
-          <img class="card-img" src="https://img.youtube.com/vi/FY9ikuwXE1c/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/FY9ikuwXE1c/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Depth / Dead Realm / Worms W.M.D / SoulHunt / Deceit
           </div>
@@ -1302,7 +1339,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <a href="/links/co-op.html#259446831">
-          <img class="card-img" src="https://img.youtube.com/vi/L8nR3beOFBs/mqdefault.jpg" />
+          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/L8nR3beOFBs/mqdefault.jpg" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             Conan Exiles
           </div>
@@ -1483,6 +1520,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha256-rXnOfjTRp4iAm7hTAxEz3irkXzwZrElV2uRsdJAYjC4=" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
@@ -1491,6 +1529,10 @@
     <script type="text/javascript">
       Search.init("#search");
       $(".fixed-top").autoHidingNavbar({});
+      $('.lazyload').each(function() {
+        $(this).css('display', 'block');
+        $(this).lazyload({});
+      });
     </script>
   </body>
 </html>
