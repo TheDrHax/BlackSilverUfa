@@ -41,15 +41,29 @@ footer .footer-copyright a {
  *  Plyr styles
  */
 
- /* Enable caption button in player */
- .plyr [data-plyr=captions] {
-   display: inline-block !important;
- }
+/* Enable caption button in player */
+.plyr [data-plyr=captions] {
+  display: inline-block !important;
+}
 
- .stream {
-   max-width: calc(100vh / 9 * 16 - 10%);
- }
+.stream {
+  max-width: calc(100vh / 9 * 16 - 10%);
+}
 
- .plyr {
-   max-width: calc(100vh / 9 * 16);
- }
+.plyr {
+  max-width: calc(100vh / 9 * 16);
+}
+
+/*
+ * Search menu
+ */
+
+.ui-menu-item {
+  font-size: 16px;
+}
+
+.ui-menu-item .ui-state-active {
+  color: #fff;
+  background: none;
+  background-color: #007bff;
+}

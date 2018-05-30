@@ -36,16 +36,19 @@ def generate():
         shutil.rmtree(_('static'))
     shutil.copytree('static', _('static'))
 
+    # Generate scripts
+    with open(_("search.js"), "w") as output:
+        t = lookup.get_template('/search.mako')
+        output.write(t.render(**args).strip())
+    with open(_("r/index.html"), "w") as output:
+        t = lookup.get_template('/redirect.mako')
+        output.write(t.render(**args).strip())
+    shutil.copyfile(_("r/index.html"), _("src/player.html"))  # compatibility
+
     # Generate index.html
     with open(_("index.html"), "w") as out:
         t = lookup.get_template('/index.mako')
         out.write(t.render(**args))
-
-    # Generate src/player.html for backward compatibility
-    with open(_("src/player.html"), "w") as output:
-        t = lookup.get_template('/redirect.mako')
-        output.write(t.render(**args).strip())
-    shutil.copyfile(_("src/player.html"), _("r/index.html"))
 
     # Generate links/*.md
     t = lookup.get_template('/links.mako')
