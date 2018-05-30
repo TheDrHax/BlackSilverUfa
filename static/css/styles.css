@@ -67,3 +67,7 @@ footer .footer-copyright a {
   background: none;
   background-color: #007bff;
 }
+
+.ui-widget {
+  z-index: 1050;
+}
