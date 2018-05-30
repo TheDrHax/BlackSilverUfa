@@ -70,4 +70,11 @@ footer .footer-copyright a {
 
 .ui-widget {
   z-index: 1050;
+
+/*
+ * Lazy load
+ */
+
+.lazyload {
+  display: none;
 }
