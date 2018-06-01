@@ -341,8 +341,10 @@
       { "name": "Frostpunk", "twitch": "257985661", "start": "1:08:56" },
       { "name": "Dark Souls: Prepare to Die Edition", "twitch": "260173384" },
       { "name": "State of Decay 2", "twitch": "262696959", "segment": 1 },
-      { "name": "Beware (демо) / Graveyard Keeper / Welcome Back Daddy / Smoke and Sacrifice", "twitch": "267726322",
-        "note": "Официальная запись Beware слишком <a href=\"https://youtu.be/7WmLTIQpciU\">отличается</a> от стрима." }
+      {
+        "name": "Beware (демо) / Graveyard Keeper / Welcome Back Daddy / Smoke and Sacrifice", "twitch": "267726322",
+        "note": "Официальная запись <a href=\"https://youtu.be/7WmLTIQpciU\">Beware</a> не может быть добавлена сюда, т.к. она сделана в виде монтажа. Остальных записей пока нет."
+      }
     ]
   },
   {
