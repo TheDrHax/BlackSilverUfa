@@ -889,12 +889,18 @@
   "265768902": { "youtube": "M0dROx0oTrA", "offset": "34:57" },
   "267726322": {
     "timecodes": {
-      "16:05": "BEWARE (демо)",
+      "16:05": "Beware (демо)",
       "46:21": "Moonlighter",
       "1:43:21": "Graveyard Keeper",
       "2:22:59": "Welcome Back Daddy",
-      "3:33:28": "BEWARE (демо)",
+      "3:33:28": "Beware (демо)",
       "3:43:23": "Smoke and Sacrifice"
+    }
+  },
+  "268055630": {
+    "timecodes": {
+      "10:46": "State of Decay 2 (кооп не удался)",
+      "24:46": "Moonlighter"
     }
   }
 }
