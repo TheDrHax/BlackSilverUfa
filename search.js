@@ -174,6 +174,7 @@ var Redirect = {
     "265768902": "/links/detroit-become-human.html#265768902",
     "263867941": "/links/ds-remastered.html#263867941",
     "264598516": "/links/ds-remastered.html#264598516",
+    "268114023": "/links/ds-remastered.html#268114023",
     "262696959": "/links/far-lone-sails.html#262696959",
     "263472196": "/links/far-lone-sails.html#263472196",
     "260957900": "/links/ds2-scholar.html#260957900",
