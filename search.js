@@ -22,6 +22,7 @@ var Redirect = {
     "236864236": "/links/co-op.html#236864236",
     "250258247": "/links/co-op.html#250258247",
     "259446831": "/links/co-op.html#259446831",
+    "268497396": "/links/co-op.html#268497396",
     "234037742.1": "/links/warhammer-vermintide-2.html#234037742.1",
     "236864236.1": "/links/warhammer-vermintide-2.html#236864236.1",
     "236864236.2": "/links/warhammer-vermintide-2.html#236864236.2",
@@ -339,6 +340,7 @@ var Search = {
     "Dead Dozen": "/links/co-op.html#236864236",
     "Depth / Dead Realm / Worms W.M.D / SoulHunt / Deceit": "/links/co-op.html#250258247",
     "Conan Exiles": "/links/co-op.html#259446831",
+    "Worms W.M.D / Raft / Murderous Pursuits / The Forest": "/links/co-op.html#268497396",
   },
 
   select: function (value) {
