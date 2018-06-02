@@ -43,6 +43,9 @@ class Timecode(object):
     def __str__(self):
         return ('-' if self.negative else '') + self.sec_to_text(self.value)
 
+    def __repr__(self):
+        return 'Timecode({})'.format(str(self))
+
     def __int__(self):
         return (-1 if self.negative else 1) * self.value
 
@@ -96,7 +99,7 @@ class Timecodes(list):
 
 
 class TimecodeHelper:
-    delay = 23  # Delay of livestreamer + MPV with quality 720p60
+    delay = 15  # Delay of `streamlink --stream-url` + `mpv` (quality='best')
 
     @staticmethod
     def time():
