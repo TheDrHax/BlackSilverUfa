@@ -45,10 +45,11 @@ def generate():
         output.write(t.render(**args).strip())
     shutil.copyfile(_("r/index.html"), _("src/player.html"))  # compatibility
 
-    # Generate index.html
-    with open(_("index.html"), "w") as out:
-        t = lookup.get_template('/index.mako')
-        out.write(t.render(**args))
+    # Generate index.html, missing.html
+    for i in ['index', 'missing']:
+        with open(_(i + '.html'), "w") as out:
+            t = lookup.get_template('/{}.mako'.format(i))
+            out.write(t.render(**args))
 
     # Generate links/*.md
     t = lookup.get_template('/links.mako')
