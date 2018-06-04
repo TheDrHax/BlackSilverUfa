@@ -52,6 +52,9 @@
 <h2 id="${hash}"><a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${stream['name']}</a></h2>
 
 <ul>
+% if stream.get('official') == False:
+  <li>Официальная запись не была загружена на YouTube.</li>
+% endif
 % if stream.get('note'):
   <li>Примечание: ${stream['note']}</li>
 % endif

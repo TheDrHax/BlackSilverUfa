@@ -35,10 +35,7 @@
   "156558088": { "youtube": "SPbHXjRJHyc" },
   "158301208": { "youtube": "CkxzFYX2QDE" },
   "158812902": { "youtube": "nLo-y_ig9Mg" },
-  "160844876": {
-    "youtube": "Ele7Jk4rB3M",
-    "note": "Официальная запись не была загружена на YouTube."
-  },
+  "160844876": { "youtube": "Ele7Jk4rB3M", "official": false },
   "160852861": { "youtube": "LF6RMOOvA9M" },
   "161110508": { "youtube": "8VCQkjjMu-I" },
   "161115703": { "youtube": "vxbjz2-Lmgg" },
@@ -52,10 +49,7 @@
   "165359272": { "youtube": "qInCMF9MuEs" },
   "165630859": { "youtube": "7r6_dwXVXgE" },
   "167924021": { "youtube": "9i6wUrnvLy8" },
-  "168936842": {
-    "youtube": "4QoISocV3kY",
-    "note": "Официальная запись не была загружена на YouTube."
-  },
+  "168936842": { "youtube": "4QoISocV3kY", "official": false },
   "172968603": { "youtube": "fxwks5MC9Ns" },
   "173993139": { "youtube": "eGY5W8Dtehs" },
   "174225353": { "youtube": "ejp3UDoKx4k" },
@@ -110,10 +104,7 @@
   },
   "184468298": { "youtube": "9p23c9_BYaU" },
   "185763905": { "youtube": "kkeGLQrrkAM" },
-  "186799946": {
-    "youtube": "0iemEmTQ9G8",
-    "note": "Официальная запись не была загружена на YouTube."
-  },
+  "186799946": { "youtube": "0iemEmTQ9G8", "official": false},
   "187291538": { "youtube": "Bxj09aAOFaI" },
   "187586726": {
     "timecodes": {
@@ -211,10 +202,10 @@
   "215959213": { "youtube": "h2rTS3adq9w" },
   "215974261": { "youtube": "-8anORo35tQ" },
   "216293216": {
-    "youtube": "ln9xmujs7j8",
+    "youtube": "ln9xmujs7j8", "official": false,
     "note": "Официальной записи <a href=\"https://vk.com/b_silver?w=wall-28387068_3181362%2Fall\">не будет</a>.",
     "timecodes": {
-      "2:32:04": "-глаза (да, из-за этого видео и заблокировали)",
+      "2:32:04": "-глаза",
       "2:34:39": "+глаза"
     }
   },
@@ -601,10 +592,7 @@
   "253271374": { "youtube": "7UhRvYBpp-o", "offset": "1:59" },
   "253604008": [
     { "youtube": "ovEjcJd8iHI", "offset": "8:10", "end": "2:10:56" },
-    {
-      "note": "Официальная запись не была загружена на YouTube.",
-      "youtube": "MyjttePpjfg", "offset": "2:10:56"
-    }
+    { "youtube": "MyjttePpjfg", "offset": "2:10:56", "official": false }
   ],
   "255465280": {
     "youtube": "Di0t3RrvIBk",
@@ -702,8 +690,8 @@
     }
   },
   "262352362": {
+    "youtube": "awz9rpY5Kc4", "official": false,
     "note": "Официальной записи <a href=\"https://twitter.com/_BlackUfa/status/997817293068480512\">не будет</a>. Просмотр заблокирован в некоторых странах.",
-    "youtube": "awz9rpY5Kc4",
     "timecodes": {
       "19:37": "Трейлер Rage 2",
       "28:41": "Запуск игры",
@@ -748,8 +736,8 @@
   "263472196": [
     { "youtube": "0m1MZSyWvqU", "offset": "17:30" },
     {
+      "youtube": "c9snszrkzn0", "offset": "1:44:30", "official": false,
       "note": "Официальной записи не будет из-за музыки. Просмотр заблокирован в некоторых странах.",
-      "youtube": "c9snszrkzn0", "offset": "1:44:30",
       "timecodes": {
         "1:50:11": "Запуск игры",
         "1:53:07": "Призыв первого зрителя",
@@ -776,8 +764,7 @@
     }
   ],
   "263867941": {
-    "note": "Официальная запись не была загружена на YouTube.",
-    "youtube": "b7a6K1l1veY",
+    "youtube": "b7a6K1l1veY", "official": false,
     "timecodes": {
       "16:21": "Запуск игры",
       "17:21": "Создание персонажа",
@@ -806,16 +793,14 @@
     }
   },
   "264219962": {
-    "note": "Официальная запись не была загружена на YouTube.",
-    "youtube": "MVc-gf6ihdU",
+    "youtube": "MVc-gf6ihdU", "official": false,
     "timecodes": {
       "15:08": "Запуск игры",
       "21:40": "Призыв первого зрителя"
     }
   },
   "264227986": {
-    "note": "Официальная запись не была загружена на YouTube.",
-    "youtube": "UU4YYb3kYtA",
+    "youtube": "UU4YYb3kYtA", "official": false,
     "timecodes": {
       "Боссы": {
         "8:36": "Дракон-страж",
@@ -824,8 +809,8 @@
     }
   },
   "264244000": {
-    "note": "Официальная запись не была загружена на YouTube. Просмотр заблокирован в некоторых странах.",
-    "youtube": "KLk8ytPcMLI",
+    "youtube": "KLk8ytPcMLI", "official": false,
+    "note": "Просмотр заблокирован в некоторых странах.",
     "timecodes": {
       "1:53": "Попытка 1",
       "Аава, питомец короля": {
@@ -843,8 +828,7 @@
     }
   },
   "264290927": {
-    "note": "Официальная запись не была загружена на YouTube.",
-    "youtube": "Y96ttDT6_5o",
+    "youtube": "Y96ttDT6_5o", "official": false,
     "timecodes": {
       "3:05": "+уши",
       "Боссы": {
@@ -854,8 +838,7 @@
     }
   },
   "264598516": {
-    "note": "Официальная запись не была загружена на YouTube.",
-    "youtube": "jp-AdmKMdgQ",
+    "youtube": "jp-AdmKMdgQ", "official": false,
     "timecodes": {
       "16:24": "Запуск игры",
       "Боссы": {
@@ -921,8 +904,8 @@
     }
   },
   "268114023": {
-    "note": "Официальная запись не была загружена на YouTube. Просмотр заблокирован в некоторых странах.",
-    "youtube": "X-nBa9vvzP8",
+    "youtube": "X-nBa9vvzP8", "official": false,
+    "note": "Просмотр заблокирован в некоторых странах.",
     "timecodes": {
       "14:48": "Запуск игры",
       "16:32": "Создание персонажа",
