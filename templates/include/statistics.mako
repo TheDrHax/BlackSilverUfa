@@ -41,6 +41,16 @@
                             for stream in streams.keys()]))
     messages = sum([count_lines(_('chats/v{}.ass'.format(stream)))
                     for stream in streams.keys()])
+
+    missing = 0
+    for stream in streams.values():
+        for segment in stream:
+            if not segment.player_compatible():
+                missing += 1
 %>\
-<p>В данный момент в архиве находятся <b>${numword(len(streams), 'стрим')}</b> и <b>${int(dir_size(_('chats')) / 1024**2)} МБ</b> субтитров к ним. Общая продолжительность всех сохранённых стримов примерно равна <b>${total_length}</b>. За это время было написано <b>${numword(messages, 'сообщение')}</b>, то есть в среднем по <b>${numword(messages // len(streams), 'сообщение')}</b> за стрим.</p>
+<p>В данный момент в архиве находятся <b>${numword(len(streams), 'стрим')}</b> и <b>${int(dir_size(_('chats')) / 1024**2)} МБ</b> субтитров к ним. Общая продолжительность всех сохранённых стримов примерно равна <b>${total_length}</b>. За это время было написано <b>${numword(messages, 'сообщение')}</b>, то есть в среднем по <b>${numword(messages // len(streams), 'сообщение')}</b> за стрим.
+% if missing > 0:
+У <b>${numword(missing, 'стрима')}</b> в данный момент <a href="/missing.html">нет записи</a>.
+% endif
+</p>
 </%def>
