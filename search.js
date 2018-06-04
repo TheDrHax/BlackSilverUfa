@@ -213,7 +213,6 @@ var Redirect = {
     "253271374": "/links/god-of-war.html#253271374",
     "253604008": "/links/god-of-war.html#253604008",
     "253604008.1": "/links/god-of-war.html#253604008.1",
-    "253604008.2": "/links/god-of-war.html#253604008.2",
     "255465280": "/links/god-of-war.html#255465280",
     "255759468": "/links/god-of-war.html#255759468",
   },
