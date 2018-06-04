@@ -95,16 +95,29 @@
 
 <h3 id="vk">Записи из ВКонтакте</h3>
 
-<p>
-Перечисленные ниже стримы используют ВКонтакте как источник видео. Mail.Ru активно
-<a href="https://vk.com/blacksilverufa?w=wall140277504_139931">ставит палки в колёса</a>
-тем, кто не хочет смотреть видео у них на сайте, поэтому эти записи могут работать нестабильно.
-</p>
+<p>Перечисленные ниже стримы используют ВКонтакте как источник видео. Mail.Ru активно <a href="https://vk.com/blacksilverufa?w=wall140277504_139931">ставит палки в колёса</a> тем, кто не хочет смотреть видео у них на сайте, поэтому эти записи могут работать нестабильно.</p>
 
 <ul>
 % for game in games:
   % for stream in game['streams']:
     % if 'vk' in stream:
+    <li>
+      <%el:game_link game="${game}" /> —\
+      <%el:stream_link game="${game}" stream="${stream}" />
+    </li>
+    % endif
+  % endfor
+% endfor
+</ul>
+
+<h3 id="unofficial">Записи на YouTube</h3>
+
+<p>Перечисленные ниже стримы были перезалиты на сторонние каналы YouTube. Обычно Артур не противодействует этому, так как у видео всё равно снимается монетизация. Главное требование — поддерживать порядок в комментариях.</p>
+
+<ul>
+% for game in games:
+  % for stream in game['streams']:
+    % if 'youtube' in stream and stream.get('official') == False:
     <li>
       <%el:game_link game="${game}" /> —\
       <%el:stream_link game="${game}" stream="${stream}" />
