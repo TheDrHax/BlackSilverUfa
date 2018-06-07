@@ -592,7 +592,7 @@
   "253271374": { "youtube": "7UhRvYBpp-o", "offset": "1:59" },
   "253604008": [
     { "youtube": "ovEjcJd8iHI", "offset": "8:10", "end": "2:10:56" },
-    { "youtube": "MyjttePpjfg", "offset": "2:10:56", "official": false }
+    { "youtube": "JbOdvYC8W8Y", "offset": "2:11:01", "official": false }
   ],
   "255465280": {
     "youtube": "Di0t3RrvIBk",
@@ -736,7 +736,7 @@
   "263472196": [
     { "youtube": "0m1MZSyWvqU", "offset": "17:30" },
     {
-      "youtube": "c9snszrkzn0", "offset": "1:44:30", "official": false,
+      "youtube": "jUJx8PQmjrc", "offset": "1:44:30", "official": false,
       "note": "Официальной записи не будет из-за музыки. Просмотр заблокирован в некоторых странах.",
       "timecodes": {
         "1:50:11": "Запуск игры",
@@ -764,7 +764,7 @@
     }
   ],
   "263867941": {
-    "youtube": "b7a6K1l1veY", "official": false,
+    "youtube": "3ikgxvybywc", "official": false,
     "timecodes": {
       "16:21": "Запуск игры",
       "17:21": "Создание персонажа",
@@ -793,14 +793,14 @@
     }
   },
   "264219962": {
-    "youtube": "MVc-gf6ihdU", "official": false,
+    "youtube": "HB0WwzKTKKs", "official": false,
     "timecodes": {
       "15:08": "Запуск игры",
       "21:40": "Призыв первого зрителя"
     }
   },
   "264227986": {
-    "youtube": "UU4YYb3kYtA", "official": false,
+    "youtube": "VunnfEBeQ6k", "official": false,
     "timecodes": {
       "Боссы": {
         "8:36": "Дракон-страж",
@@ -809,7 +809,7 @@
     }
   },
   "264244000": {
-    "youtube": "KLk8ytPcMLI", "official": false,
+    "youtube": "UqinLmVKs6k", "official": false,
     "note": "Просмотр заблокирован в некоторых странах.",
     "timecodes": {
       "1:53": "Попытка 1",
@@ -828,7 +828,7 @@
     }
   },
   "264290927": {
-    "youtube": "Y96ttDT6_5o", "official": false,
+    "youtube": "gGqgvMS4Iu8", "official": false,
     "timecodes": {
       "3:05": "+уши",
       "Боссы": {
@@ -838,7 +838,7 @@
     }
   },
   "264598516": {
-    "youtube": "jp-AdmKMdgQ", "official": false,
+    "youtube": "2SA8Dl1jXNI", "official": false,
     "timecodes": {
       "16:24": "Запуск игры",
       "Боссы": {
@@ -886,7 +886,7 @@
   ],
   "265768902": { "youtube": "M0dROx0oTrA", "offset": "34:57" },
   "267726322": {
-    "vk": "87862793_456241273",
+    "youtube": "biw1r5sdI0E", "official": false,
     "timecodes": {
       "16:05": "Beware (демо)",
       "46:21": "Moonlighter",
@@ -897,14 +897,14 @@
     }
   },
   "268055630": {
-    "vk": "87862793_456241274",
+    "youtube": "Ye1tia2QSC4", "official": false,
     "timecodes": {
       "10:46": "State of Decay 2 (кооп не удался)",
       "24:46": "Moonlighter"
     }
   },
   "268114023": {
-    "youtube": "X-nBa9vvzP8", "official": false,
+    "youtube": "T-zsW23qqg4", "official": false,
     "note": "Просмотр заблокирован в некоторых странах.",
     "timecodes": {
       "14:48": "Запуск игры",
@@ -935,37 +935,30 @@
       }
     }
   },
-  "268497396": [
-    {
-      "vk": "87862793_456241281",
-      "timecodes": {
-        "Worms W.M.D": {
-          "17:43": "Поиски коопа",
-          "24:13": "Раунд 1"
-        },
-        "1:04:08": "Raft"
-      }
-    },
-    {
-      "vk": "87862793_456241282", "offset": "2:56:28",
-      "timecodes": {
-        "Murderous Pursuits": {
-          "2:56:48": "Поиски коопа",
-          "3:04:30": "Раунд 1",
-          "3:17:40": "Раунд 2",
-          "3:29:10": "Раунд 3",
-          "3:40:00": "Раунд 4",
-          "3:52:10": "Раунд 5"
-        },
-        "The Forest": {
-          "4:05:17": "Поиски коопа",
-          "4:11:34": "Кооп найден"
-        }
+  "268497396": {
+    "youtube": "qtiSoPbuteM", "official": false,
+    "timecodes": {
+      "Worms W.M.D": {
+        "17:43": "Поиски коопа",
+        "24:13": "Раунд 1"
+      },
+      "1:04:08": "Raft",
+      "Murderous Pursuits": {
+        "2:56:48": "Поиски коопа",
+        "3:04:30": "Раунд 1",
+        "3:17:40": "Раунд 2",
+        "3:29:10": "Раунд 3",
+        "3:40:00": "Раунд 4",
+        "3:52:10": "Раунд 5"
+      },
+      "The Forest": {
+        "4:05:17": "Поиски коопа",
+        "4:11:34": "Кооп найден"
       }
     }
-  ],
+  },
   "268900992": {
-    "vk": "87862793_456241285",
+    "youtube": "Ek-nD0a2T8Y", "official": false,
     "note": "Запредельная активность чата. Даже SubtitlesOctopus не успевает!.",
     "timecodes": {
       "14:10": "Immortal Redneck",
