@@ -344,12 +344,13 @@
         "name": "Beware (демо) / Graveyard Keeper / Welcome Back Daddy / Smoke and Sacrifice", "twitch": "267726322",
         "note": "Официальная запись <a href=\"https://youtu.be/7WmLTIQpciU\">Beware</a> не может быть добавлена сюда, т.к. она сделана в виде монтажа. Остальных записей пока нет."
       },
-      { "name": "Immortal Redneck / Clone Drone in the Danger Zone / Choice Chamber", "twitch": "268900992" }
+      { "name": "Immortal Redneck / Clone Drone in the Danger Zone / Choice Chamber", "twitch": "268900992" },
+      { "name": "Exiles / Elderwale / The Road Trip / Darkness Dwells / The Dark Inside Me / Stoneshard: Prologue / Bloodstained: Curse of the Moon", "twitch": "270816212" }
     ]
   },
   {
     "name": "Moonlighter",
-    "category": "ongoing",
+    "category": "irregular",
     "filename": "moonlighter.html",
     "streams": [
       { "name": "1", "twitch": "267726322", "start": "46:21" },
