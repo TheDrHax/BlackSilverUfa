@@ -33,7 +33,26 @@
       { "name": "Dead Dozen", "twitch": "236864236", "segment": 0 },
       { "name": "Depth / Dead Realm / Worms W.M.D / SoulHunt / Deceit", "twitch": "250258247" },
       { "name": "Conan Exiles", "twitch": "259446831" },
-      { "name": "Worms W.M.D / Raft / Murderous Pursuits / The Forest", "twitch": "268497396" }
+      { "name": "Worms W.M.D / Raft / Murderous Pursuits / The Forest", "twitch": "268497396" },
+      { "name": "Totally Accurate Battlegrounds", "twitch": "271255246" }
+    ]
+  },
+  {
+    "name": "неСерьёзный E3 2018",
+    "category": "other",
+    "filename": "e3_2018.html",
+    "streams": [
+      { "name": "Electronic Arts", "twitch": "271255246", "start": "2:01:01" }
+    ],
+    "_streams": [
+      { "name": "Microsoft (10 июня в 23:00)", "twitch": "" },
+      { "name": "Bethesda (11 июня в 4:30)", "twitch": "" },
+      { "name": "Devolver Digital (11 июня в 6:00)", "twitch": "" },
+      { "name": "Square Enix (11 июня в 20:00)", "twitch": "" },
+      { "name": "Ubisoft (11 июня в 23:00)", "twitch": "" },
+      { "name": "РС Gaming Show (12 июня в 1:00)", "twitch": "" },
+      { "name": "Sony (12 июня в 4:00)", "twitch": "" },
+      { "name": "Nintendo (12 июня в 19:00)", "twitch": "" }
     ]
   },
   {
