@@ -23,6 +23,7 @@ var Redirect = {
     "250258247": "/links/co-op.html#250258247",
     "259446831": "/links/co-op.html#259446831",
     "268497396": "/links/co-op.html#268497396",
+    "271255246": "/links/co-op.html#271255246",
     "234037742.1": "/links/warhammer-vermintide-2.html#234037742.1",
     "236864236.1": "/links/warhammer-vermintide-2.html#236864236.1",
     "236864236.2": "/links/warhammer-vermintide-2.html#236864236.2",
@@ -318,6 +319,7 @@ var Search = {
     "Radical Heights": "/links/radical-heights.html",
     "Far Cry 5": "/links/far-cry-5.html",
     "Metal Gear Survive": "/links/metal-gear-survive.html",
+    "неСерьёзный E3 2018": "/links/e3_2018.html",
     "неПрофессиональный E3 2017": "/links/e3_2017.html",
     "IRL": "/links/events.html",
     "Несюжетные коопы": "/links/co-op.html",
@@ -342,6 +344,7 @@ var Search = {
     "Depth / Dead Realm / Worms W.M.D / SoulHunt / Deceit": "/links/co-op.html#250258247",
     "Conan Exiles": "/links/co-op.html#259446831",
     "Worms W.M.D / Raft / Murderous Pursuits / The Forest": "/links/co-op.html#268497396",
+    "Totally Accurate Battlegrounds": "/links/co-op.html#271255246",
   },
 
   select: function (value) {
