@@ -34,7 +34,8 @@
       { "name": "Depth / Dead Realm / Worms W.M.D / SoulHunt / Deceit", "twitch": "250258247" },
       { "name": "Conan Exiles", "twitch": "259446831" },
       { "name": "Worms W.M.D / Raft / Murderous Pursuits / The Forest", "twitch": "268497396" },
-      { "name": "Totally Accurate Battlegrounds", "twitch": "271255246" }
+      { "name": "Totally Accurate Battlegrounds #1", "twitch": "271255246", "segment": 0 }
+      { "name": "Totally Accurate Battlegrounds #2", "twitch": "271255246", "segment": 2 }
     ]
   },
   {
@@ -42,7 +43,7 @@
     "category": "other",
     "filename": "e3_2018.html",
     "streams": [
-      { "name": "Electronic Arts", "twitch": "271255246", "start": "2:01:01" }
+      { "name": "EA Play 2018", "twitch": "271255246", "segment": 1 }
     ],
     "_streams": [
       { "name": "Microsoft (10 июня в 23:00)", "twitch": "" },
