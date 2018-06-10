@@ -43,10 +43,10 @@
     "category": "other",
     "filename": "e3_2018.html",
     "streams": [
-      { "name": "EA Play 2018", "twitch": "271255246", "segment": 1 }
+      { "name": "EA Play 2018", "twitch": "271255246", "segment": 1 },
+      { "name": "Microsoft", "twitch": "271646745", "segment": 1 }
     ],
     "_streams": [
-      { "name": "Microsoft (10 июня в 23:00)", "twitch": "" },
       { "name": "Bethesda (11 июня в 4:30)", "twitch": "" },
       { "name": "Devolver Digital (11 июня в 6:00)", "twitch": "" },
       { "name": "Square Enix (11 июня в 20:00)", "twitch": "" },
@@ -365,7 +365,8 @@
         "note": "Официальная запись <a href=\"https://youtu.be/7WmLTIQpciU\">Beware</a> не может быть добавлена сюда, т.к. она сделана в виде монтажа. Остальных записей пока нет."
       },
       { "name": "Immortal Redneck / Clone Drone in the Danger Zone / Choice Chamber", "twitch": "268900992" },
-      { "name": "Exiles / Elderwale / The Road Trip / Darkness Dwells / The Dark Inside Me / Stoneshard: Prologue / Bloodstained: Curse of the Moon", "twitch": "270816212" }
+      { "name": "Exiles / Elderwale / The Road Trip / Darkness Dwells / The Dark Inside Me / Stoneshard: Prologue / Bloodstained: Curse of the Moon", "twitch": "270816212" },
+      { "name": "Unravel Two", "twitch": "271646745", "start": "6:36" }
     ]
   },
   {
