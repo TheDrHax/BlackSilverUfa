@@ -44,11 +44,10 @@
     "filename": "e3_2018.html",
     "streams": [
       { "name": "EA Play 2018", "twitch": "271255246", "segment": 1 },
-      { "name": "Microsoft", "twitch": "271646745", "segment": 1 }
+      { "name": "Microsoft", "twitch": "271646745", "segment": 1 },
+      { "name": "Bethesda / Devolver Digital", "twitch": "271860192" }
     ],
     "_streams": [
-      { "name": "Bethesda (11 июня в 4:30)", "twitch": "" },
-      { "name": "Devolver Digital (11 июня в 6:00)", "twitch": "" },
       { "name": "Square Enix (11 июня в 20:00)", "twitch": "" },
       { "name": "Ubisoft (11 июня в 23:00)", "twitch": "" },
       { "name": "РС Gaming Show (12 июня в 1:00)", "twitch": "" },
