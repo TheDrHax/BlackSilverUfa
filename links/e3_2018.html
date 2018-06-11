@@ -177,43 +177,39 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/271860192">271860192</a></li>
     <li>Субтитры: <a href="../chats/v271860192.ass">v271860192.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=y6w9G8YalbM">y6w9G8YalbM</a></li>
+
   </ul>
+  <li>Эта запись смещена на 04:31 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(506)">08:26</a> - Начало</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(1263)">21:03</a> - Rage 2</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(1760)">29:20</a> - TES: Legends</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(2048)">34:08</a> - TESO: Summerset</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(2196)">36:36</a> - DOOM: Eternal</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(2593)">43:13</a> - Quake Champions</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(2755)">45:55</a> - Prey: Mooncrash</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(3122)">52:02</a> - Wolfenstein: Youngblood</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(3494)">58:14</a> - Skyrim: Very Special Edition</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(3656)">01:00:56</a> - Fallout 76</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(4988)">01:23:08</a> - TES: Blades</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(5425)">01:30:25</a> - Starfield</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(5516)">01:31:56</a> - TES VI</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(234)">03:54</a> - Начало</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(992)">16:32</a> - Rage 2</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(1489)">24:49</a> - TES: Legends</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(1777)">29:37</a> - TESO: Summerset</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(1925)">32:05</a> - DOOM: Eternal</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(2322)">38:42</a> - Quake Champions</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(2484)">41:24</a> - Prey: Mooncrash</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(2851)">47:31</a> - Wolfenstein: Youngblood</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(3223)">53:43</a> - Skyrim: Very Special Edition</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(3385)">56:25</a> - Fallout 76</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(4717)">01:18:37</a> - TES: Blades</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(5154)">01:25:54</a> - Starfield</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-2').seek(5245)">01:27:25</a> - TES VI</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-2" data-name="Bethesda" data-twitch="271860192" style="display: none" />
+  <p class="stream col" id="wrapper-2" data-name="Bethesda" data-twitch="271860192" data-youtube="y6w9G8YalbM" data-offset="04:31" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v271860192.ass" --player-passthrough hls twitch.tv/videos/271860192 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v271860192.ass --sub-delay=-271 ytdl://y6w9G8YalbM
 </code></pre>
 </div></div>
 
