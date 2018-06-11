@@ -45,7 +45,8 @@
     "streams": [
       { "name": "EA Play", "twitch": "271255246", "segment": 1 },
       { "name": "XBOX Briefing (Microsoft)", "twitch": "271646745", "segment": 1 },
-      { "name": "Bethesda / Devolver Digital", "twitch": "271860192" }
+      { "name": "Bethesda", "twitch": "271860192", "segment": 0 },
+      { "name": "Devolver Digital", "twitch": "271860192", "segment": 1 }
     ],
     "_streams": [
       { "name": "Square Enix (11 июня в 20:00)", "twitch": "" },

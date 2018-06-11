@@ -1054,9 +1054,9 @@
       }
     }
   ],
-  "271860192": {
-    "timecodes": {
-      "Bethesda": {
+  "271860192": [
+    {
+      "timecodes": {
         "8:26": "Начало",
         "21:03": "Rage 2",
         "29:20": "TES: Legends",
@@ -1070,8 +1070,11 @@
         "1:23:08": "TES: Blades",
         "1:30:25": "Starfield",
         "1:31:56": "TES VI"
-      },
-      "Devolver Digital": {
+      }
+    },
+    {
+      "youtube": "nql01ztySzY", "offset": "1:38:44",
+      "timecodes": {
         "1:38:44": "Начало",
         "1:44:49": "SCUM: Supermax Openworld Survival",
         "1:50:14": "My Friend Pedro",
@@ -1079,5 +1082,5 @@
         "1:57:27": "Что, блин, вообще происходит?!"
       }
     }
-  }
+  ]
 }
