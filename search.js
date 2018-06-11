@@ -27,6 +27,7 @@ var Redirect = {
     "271255246.2": "/links/co-op.html#271255246.2",
     "271255246.1": "/links/e3_2018.html#271255246.1",
     "271646745.1": "/links/e3_2018.html#271646745.1",
+    "271860192": "/links/e3_2018.html#271860192",
     "234037742.1": "/links/warhammer-vermintide-2.html#234037742.1",
     "236864236.1": "/links/warhammer-vermintide-2.html#236864236.1",
     "236864236.2": "/links/warhammer-vermintide-2.html#236864236.2",
