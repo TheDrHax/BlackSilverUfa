@@ -28,7 +28,8 @@
       { "name": "Dead Dozen", "twitch": "236864236", "segment": 0 },
       { "name": "Depth / Dead Realm / SoulHunt", "twitch": "250258247" },
       { "name": "Conan Exiles", "twitch": "259446831" },
-      { "name": "Raft / Murderous Pursuits / The Forest", "twitch": "268497396", "start": "1:04:08" }
+      { "name": "Raft / Murderous Pursuits / The Forest", "twitch": "268497396", "start": "1:04:08" },
+      { "name": "Realm Royale", "twitch": "272058083", "segment": 1, "start": "1:18:12" }
     ]
   },
   {
@@ -124,7 +125,8 @@
     "filename": "tabg.html",
     "streams": [
       { "name": "1 (перед EA Play 2018)", "twitch": "271255246", "segment": 0 },
-      { "name": "2 (после EA Play 2018)", "twitch": "271255246", "segment": 2 }
+      { "name": "2 (после EA Play 2018)", "twitch": "271255246", "segment": 2 },
+      { "name": "3", "twitch": "272058083", "segment": 1 }
     ]
   },
   {
@@ -135,11 +137,11 @@
       { "name": "EA Play", "twitch": "271255246", "segment": 1 },
       { "name": "XBOX Briefing (Microsoft)", "twitch": "271646745", "segment": 1 },
       { "name": "Bethesda", "twitch": "271860192", "segment": 0 },
-      { "name": "Devolver Digital", "twitch": "271860192", "segment": 1 }
+      { "name": "Devolver Digital", "twitch": "271860192", "segment": 1 },
+      { "name": "Square Enix", "twitch": "272058083", "segment": 0 },
+      { "name": "Ubisoft", "twitch": "272058083", "segment": 2 }
     ],
     "_streams": [
-      { "name": "Square Enix (11 июня в 20:00)", "twitch": "" },
-      { "name": "Ubisoft (11 июня в 23:00)", "twitch": "" },
       { "name": "РС Gaming Show (12 июня в 1:00)", "twitch": "" },
       { "name": "Sony (12 июня в 4:00)", "twitch": "" },
       { "name": "Nintendo (12 июня в 19:00)", "twitch": "" }
