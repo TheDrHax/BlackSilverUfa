@@ -13,29 +13,118 @@
     "category": "co-op",
     "filename": "co-op.html",
     "streams": [
-      { "name": "Hand Simulator / Ben and Ed: Blood Party / Stick Fight / Golf It!", "twitch": "180663832" },
-      { "name": "Hand Simulator / Gang Beasts / Duck Game / Move or Die", "twitch": "182448131" },
-      { "name": "Spelunker! Party / Ultimate Chicken Horse / We Need to go Deeper / Gang Beasts / Hand Simulator / Golf It!", "twitch": "184206477" },
-      { "name": "Deceit / Friday the 13th", "twitch": "187586726" },
-      { "name": "Dead by Daylight / Pulsar: Lost Colony / Deceit", "twitch": "200702885" },
-      { "name": "Human: Fall Flat / Deceit", "twitch": "202631693" },
-      { "name": "Looterkings / Mount Your Friends / We Need to Go Deeper / Golf It!", "twitch": "206394832" },
+      { "name": "Ben and Ed: Blood Party / Stick Fight", "twitch": "180663832", "start": "1:35:44" },
+      { "name": "Duck Game / Move or Die", "twitch": "182448131", "start": "2:18:21" },
+      { "name": "Spelunker! Party / Ultimate Chicken Horse", "twitch": "184206477" },
+      { "name": "Dead by Daylight / Pulsar: Lost Colony", "twitch": "200702885" },
+      { "name": "Looterkings / Mount Your Friends", "twitch": "206394832" },
       { "name": "Witch It / PlayerUnknown's Battlegrounds", "twitch": "207753795" },
       { "name": "The Hunter: Call of the Wild / Road Redemption", "twitch": "213247693" },
-      { "name": "Hand Simulator / Viscera Cleanup Detail / Astroneer / Gang Beasts", "twitch": "213846142" },
-      { "name": "S.O.S.", "twitch": "222913630" },
+      { "name": "Viscera Cleanup Detail / Astroneer", "twitch": "213846142", "start": "1:58:00" },
       { "name": "Hunt: Showdown", "twitch": "225279322", "segment": 0 },
-      { "name": "S.O.S.", "twitch": "225279322", "segment": 1 },
       { "name": "Desolate", "twitch": "227264292" },
       { "name": "Party Panic", "twitch": "232346216" },
       { "name": "Deep Rock Galactic", "twitch": "234037742", "segment": 0 },
-      { "name": "Friday the 13th / Human: Fall Flat", "twitch": "234373553" },
       { "name": "Dead Dozen", "twitch": "236864236", "segment": 0 },
-      { "name": "Depth / Dead Realm / Worms W.M.D / SoulHunt / Deceit", "twitch": "250258247" },
+      { "name": "Depth / Dead Realm / SoulHunt", "twitch": "250258247" },
       { "name": "Conan Exiles", "twitch": "259446831" },
-      { "name": "Worms W.M.D / Raft / Murderous Pursuits / The Forest", "twitch": "268497396" },
-      { "name": "Totally Accurate Battlegrounds #1", "twitch": "271255246", "segment": 0 },
-      { "name": "Totally Accurate Battlegrounds #2", "twitch": "271255246", "segment": 2 }
+      { "name": "Raft / Murderous Pursuits / The Forest", "twitch": "268497396", "start": "1:04:08" }
+    ]
+  },
+  {
+    "name": "Worms W.M.D",
+    "category": "co-op-series",
+    "filename": "worms-wmd.html",
+    "streams": [
+      { "name": "1", "twitch": "250258247", "start": "2:33:45" },
+      { "name": "2", "twitch": "268497396", "soft_start": "17:43" }
+    ]
+  },
+  {
+    "name": "Human: Fall Flat",
+    "category": "co-op-series",
+    "filename": "human-fall-flat.html",
+    "streams": [
+      { "name": "Human: Fall Flat", "twitch": "202631693" },
+      { "name": "Human: Fall Flat", "twitch": "234373553", "start": "3:19:02" }
+    ]
+  },
+  {
+    "name": "Friday the 13th",
+    "category": "co-op-series",
+    "filename": "friday-13th.html",
+    "streams": [
+      { "name": "1", "twitch": "187586726", "start": "52:24" },
+      { "name": "2", "twitch": "234373553", "soft_start": "15:56" }
+    ]
+  },
+  {
+    "name": "We Need to Go Deeper",
+    "category": "co-op-series",
+    "filename": "we-need-to-go-deeper.html",
+    "streams": [
+      { "name": "1", "twitch": "184206477", "start": "1:48:56" },
+      { "name": "2", "twitch": "206394832", "start": "2:49:00" }
+    ]
+  },
+  {
+    "name": "Deceit",
+    "category": "co-op-series",
+    "filename": "deceit.html",
+    "streams": [
+      { "name": "1", "twitch": "187586726", "soft_start": "25:22" },
+      { "name": "2", "twitch": "200702885", "start": "4:02:50" },
+      { "name": "3", "twitch": "202631693", "start": "4:24:00" },
+      { "name": "4", "twitch": "250258247", "start": "4:32:15" }
+    ]
+  },
+  {
+    "name": "Gang Beasts",
+    "category": "co-op-series",
+    "filename": "gang-beasts.html",
+    "streams": [
+      { "name": "1", "twitch": "182448131", "start": "1:12:26" },
+      { "name": "2", "twitch": "184206477", "start": "2:55:35" },
+      { "name": "3", "twitch": "213846142", "start": "4:59:00" }
+    ]
+  },
+  {
+    "name": "Golf It!",
+    "category": "co-op-series",
+    "filename": "golf-it.html",
+    "streams": [
+      { "name": "1", "twitch": "180663832", "start": "4:02:04" },
+      { "name": "2", "twitch": "184206477", "start": "4:18:30" },
+      { "name": "3", "twitch": "206394832", "start": "4:36:00" }
+    ]
+  },
+  {
+    "name": "S.O.S.",
+    "category": "co-op-series",
+    "filename": "sos.html",
+    "streams": [
+      { "name": "1", "twitch": "222913630" },
+      { "name": "2", "twitch": "225279322", "segment": 1 }
+    ]
+  },
+  {
+    "name": "Hand Simulator",
+    "category": "co-op-series",
+    "filename": "hand-simulator.html",
+    "streams": [
+      { "name": "1", "twitch": "180663832", "soft_start": "11:12" },
+      { "name": "2", "twitch": "182448131", "soft_start": "15:16" },
+      { "name": "3", "twitch": "184206477", "start": "3:49:00" },
+      { "name": "4", "twitch": "213846142", "soft_start": "13:00" }
+    ]
+  },
+  {
+    "name": "Totally Accurate Battlegrounds",
+    "category": "co-op-series",
+    "filename": "tabg.html",
+    "streams": [
+      { "name": "1 (перед EA Play 2018)", "twitch": "271255246", "segment": 0 },
+      { "name": "2 (после EA Play 2018)", "twitch": "271255246", "segment": 2 }
     ]
   },
   {
