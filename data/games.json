@@ -141,7 +141,7 @@
       { "name": "Square Enix", "twitch": "272058083", "segment": 0 },
       { "name": "Ubisoft", "twitch": "272058083", "segment": 2 },
       { "name": "Sony", "twitch": "272205808", "segment": 1 },
-      { "name": "Nintendo", "twitch": "272392172", "segment": 2 }
+      { "name": "Nintendo", "twitch": "272392172", "start": "2:04:35" }
     ]
   },
   {
@@ -287,7 +287,7 @@
       { "name": "5", "twitch": "141516144" },
       { "name": "6", "twitch": "142839507" },
       { "name": "1 (Mooncrash DLC)", "twitch": "272205808", "segment": 0, "soft_start": "7:36" },
-      { "name": "2 (Mooncrash DLC)", "twitch": "272392172", "segment": 0, "soft_start": "17:40" }
+      { "name": "2 (Mooncrash DLC)", "twitch": "272392172", "soft_start": "17:40" }
     ]
   },
   {
@@ -464,8 +464,8 @@
     "category": "ongoing",
     "filename": "jurassic-world-evolution.html",
     "streams": [
-      { "name": "1 (перед Nintendo)", "twitch": "272392172", "segment": 1, "soft_start": "1:17:17" },
-      { "name": "2 (после Nintendo)", "twitch": "272392172", "segment": 3, "soft_start": "2:57:48" }
+      { "name": "1 (перед Nintendo)", "twitch": "272392172", "start": "1:17:17" },
+      { "name": "2 (после Nintendo)", "twitch": "272392172", "start": "2:57:48" }
     ]
   },
   {
