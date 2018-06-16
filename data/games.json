@@ -328,7 +328,8 @@
       {
         "name": "Spooky's Jump Scare Mansion (с 500-й комнаты)", "twitch": "251742995", "start": "2:37:20",
         "note": "Первые 500 комнат есть на <a href=\"https://www.youtube.com/playlist?list=PLIBsKu92G5oqlPiqjXylUB0mwWJwDtmHo\">YouTube</a>."
-      }
+      },
+      { "name": "Lust for Darkness", "twitch": "273929911", "segment": 1, "soft_start": "2:52:24" }
     ]
   },
   {
@@ -466,7 +467,8 @@
     "filename": "jurassic-world-evolution.html",
     "streams": [
       { "name": "1 (перед Nintendo)", "twitch": "272392172", "start": "1:17:17" },
-      { "name": "2 (после Nintendo)", "twitch": "272392172", "start": "2:57:48" }
+      { "name": "2 (после Nintendo)", "twitch": "272392172", "start": "2:57:48" },
+      { "name": "3", "twitch": "273929911", "segment": 0, "soft_start": "4:18" }
     ]
   },
   {
