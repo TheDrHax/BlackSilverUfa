@@ -20,7 +20,7 @@ node('docker && git') {
     }
 
     stage('Build') {
-        sh './bsu image build'
+        sh './bsu image pull'
         try {
             sh './bsu download-chats'
             sh './bsu build'
