@@ -456,9 +456,27 @@
         "name": "Beware (демо) / Graveyard Keeper / Welcome Back Daddy / Smoke and Sacrifice", "twitch": "267726322",
         "note": "Официальная запись <a href=\"https://youtu.be/7WmLTIQpciU\">Beware</a> не может быть добавлена сюда, т.к. она сделана в виде монтажа. Остальных записей пока нет."
       },
-      { "name": "Immortal Redneck / Clone Drone in the Danger Zone / Choice Chamber", "twitch": "268900992" },
-      { "name": "Exiles / Elderwale / The Road Trip / Darkness Dwells / The Dark Inside Me / Stoneshard: Prologue / Bloodstained: Curse of the Moon", "twitch": "270816212" },
+      { "name": "Clone Drone in the Danger Zone / Choice Chamber", "twitch": "268900992", "start": "2:24:57" },
+      { "name": "Exiles / Elderwale / Darkness Dwells / The Dark Inside Me / Stoneshard: Prologue / Bloodstained: Curse of the Moon", "twitch": "270816212" },
       { "name": "Unravel Two", "twitch": "271646745", "start": "6:36" }
+    ]
+  },
+  {
+    "name": "The Road Trip",
+    "category": "ongoing",
+    "filename": "road-trip.html",
+    "streams": [
+      { "name": "1", "twitch": "270816212", "start": "1:19:56" },
+      { "name": "2", "twitch": "274295872", "start": "2:21:14" }
+    ]
+  },
+  {
+    "name": "Immortal Redneck",
+    "category": "irregular",
+    "filename": "immortal-redneck.html",
+    "streams": [
+      { "name": "1", "twitch": "268900992", "soft_start": "14:10" },
+      { "name": "2", "twitch": "274295872", "soft_start": "48:51" }
     ]
   },
   {
@@ -468,7 +486,8 @@
     "streams": [
       { "name": "1 (перед Nintendo)", "twitch": "272392172", "start": "1:17:17" },
       { "name": "2 (после Nintendo)", "twitch": "272392172", "start": "2:57:48" },
-      { "name": "3", "twitch": "273929911", "soft_start": "4:18" }
+      { "name": "3", "twitch": "273929911", "soft_start": "4:18" },
+      { "name": "4", "twitch": "274295872", "soft_start": "19:04" }
     ]
   },
   {
