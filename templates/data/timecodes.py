@@ -9,6 +9,8 @@ class Timecode(object):
 
     @staticmethod
     def text_to_sec(t):
+        if len(t) == 0:
+            return 0
         negative = (t[0] == '-')
         if negative:
             t = t[1:]
