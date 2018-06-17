@@ -45,7 +45,7 @@ var Search = {
       % endfor
       % if category.get('type') == 'list':
         % for segment in category['games'][0]['streams']:
-    "${segment['name']}": "/links/${stream_map[segment.hash][0]['filename']}#${segment.hash}",
+    "${segment['name']}": "/links/${category['games'][0]['filename']}#${segment.hash}",
         % endfor
       % endif
     % endfor
