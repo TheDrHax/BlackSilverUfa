@@ -64,8 +64,8 @@
   ok = (unofficial / len(streams) * 100)
   bad = (missing / len(streams) * 100)
 %>\
-  <div class="progress-bar bg-success" role="progressbar" style="width: ${good}%"></div>
-  <div class="progress-bar bg-warning" role="progressbar" style="width: ${ok}%"></div>
+  <div class="progress-bar bg-success" role="progressbar" style="width: ${good}%">Официальные записи</div>
+  <div class="progress-bar bg-warning" role="progressbar" style="width: ${ok}%"><a href="/missing.html">Неофициальные записи</a></div>
   <div class="progress-bar bg-danger" role="progressbar" style="width: ${bad}%"></div>
 </div>
 </%def>
