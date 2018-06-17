@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export IMAGE="thedrhax/buildenv-blacksilverufa"
+export IMAGE="docker.thedrhax.pw/buildenv-blacksilverufa"
 export PREFIX="./_site"
 export PAGES_ORIGIN="origin/gh-pages"
 export PAGES_LOCAL="gh-pages"
@@ -18,8 +18,10 @@ case $1 in
     image)
         case $2 in
             build)  docker build -t "$IMAGE" docker/ ;;
+            push)   docker push "$IMAGE" ;;
+            pull)   docker pull "$IMAGE" ;;
             remove) docker rmi "$IMAGE" ;;
-            *)      echo "Usage: $0 $1 build|remove" ;;
+            *)      echo "Usage: $0 $1 build|push|pull|remove" ;;
         esac ;;
     pages)
         case $2 in
