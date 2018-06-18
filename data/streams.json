@@ -1180,6 +1180,19 @@
     }
   },
   "273911703": { "youtube": "HOg6fL9j2IM" },
-  "273929911": { "youtube": "VGhLpBQAQ9I" },
-  "274295872": { "_": "Благотоворительный стрим" }
+  "273929911": {
+    "youtube": "VGhLpBQAQ9I",
+    "timecodes": {
+      "4:18": "Jurassic World Evolution",
+      "2:52:24": "Lust for Darkness"
+    }
+  },
+  "274295872": {
+    "youtube": "iAYfQL3khQA",
+    "timecodes": {
+      "19:04": "Jurassic World Evolution",
+      "48:51": "Immortal Redneck",
+      "2:21:14": "The Road Trip"
+    }
+  }
 }
