@@ -115,27 +115,29 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/274295872">274295872</a></li>
     <li>Субтитры: <a href="../chats/v274295872.ass">v274295872.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=iAYfQL3khQA">iAYfQL3khQA</a></li>
+
   </ul>
+    <li>Таймкоды:</li>
+  <ul>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(1144)">19:04</a> - Jurassic World Evolution</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(2931)">48:51</a> - Immortal Redneck</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(8474)">02:21:14</a> - The Road Trip</li>
+  </ul>
+
   <li>Игра начинается с <a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(2931)">48:51</a></li>
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-1" data-name="2" data-twitch="274295872" data-soft_start="48:51" data-_="Благотоворительный стрим" style="display: none" />
+  <p class="stream col" id="wrapper-1" data-name="2" data-twitch="274295872" data-soft_start="48:51" data-youtube="iAYfQL3khQA" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v274295872.ass" --player-passthrough hls twitch.tv/videos/274295872 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v274295872.ass ytdl://iAYfQL3khQA
 </code></pre>
 </div></div>
 
