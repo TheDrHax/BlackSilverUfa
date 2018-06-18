@@ -29,7 +29,16 @@
       { "name": "Depth / Dead Realm / SoulHunt", "twitch": "250258247" },
       { "name": "Conan Exiles", "twitch": "259446831" },
       { "name": "Raft / Murderous Pursuits / The Forest", "twitch": "268497396", "start": "1:04:08" },
-      { "name": "Realm Royale", "twitch": "272058083", "segment": 1, "start": "1:18:12" }
+      { "name": "The Goatman / Cuisine Royale", "twitch": "274651226", "start": "2:07:43" }
+    ]
+  },
+  {
+    "name": "Realm Royale",
+    "category": "co-op-series",
+    "filename": "realm-royale.html",
+    "streams": [
+      { "name": "1", "twitch": "272058083", "segment": 1, "start": "1:18:12" },
+      { "name": "2", "twitch": "274651226", "start": "4:13:05" }
     ]
   },
   {
@@ -458,7 +467,8 @@
       },
       { "name": "Clone Drone in the Danger Zone / Choice Chamber", "twitch": "268900992", "start": "2:24:57" },
       { "name": "Exiles / Elderwale / Darkness Dwells / The Dark Inside Me / Stoneshard: Prologue / Bloodstained: Curse of the Moon", "twitch": "270816212" },
-      { "name": "Unravel Two", "twitch": "271646745", "start": "6:36" }
+      { "name": "Unravel Two", "twitch": "271646745", "start": "6:36" },
+      { "name": "Witch Hunt", "twitch": "274651226", "soft_start": "15:49" }
     ]
   },
   {
