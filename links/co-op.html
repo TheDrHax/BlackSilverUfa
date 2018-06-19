@@ -708,7 +708,8 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/274651226">274651226</a></li>
     <li>Субтитры: <a href="../chats/v274651226.ass">v274651226.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=ck5EKwyhW0Q">ck5EKwyhW0Q</a></li>
+
   </ul>
     <li>Таймкоды:</li>
   <ul>
@@ -737,21 +738,15 @@
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-16" data-name="The Goatman / Cuisine Royale" data-twitch="274651226" data-start="02:07:43" style="display: none" />
+  <p class="stream col" id="wrapper-16" data-name="The Goatman / Cuisine Royale" data-twitch="274651226" data-start="02:07:43" data-youtube="ck5EKwyhW0Q" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v274651226.ass --start=7663" --player-passthrough hls twitch.tv/videos/274651226 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v274651226.ass --start=7663 ytdl://ck5EKwyhW0Q
 </code></pre>
 </div></div>
 
