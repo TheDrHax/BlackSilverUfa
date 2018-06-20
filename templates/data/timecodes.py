@@ -53,7 +53,7 @@ class Timecode(object):
 
     @staticmethod
     def _type_check(arg):
-        if type(arg) not in [Timecode, int]:
+        if type(arg) not in [Timecode, Timecodes, int]:
             raise TypeError(type(arg))
 
     def __add__(self, other):
@@ -72,9 +72,19 @@ class Timecode(object):
         self._type_check(other)
         return int(self) > int(other)
 
+    def __le__(self, other):
+        self._type_check(other)
+        return int(self) <= int(other)
+
+    def __lt__(self, other):
+        self._type_check(other)
+        return int(self) < int(other)
+
 
 class Timecodes(list):
-    def __init__(self, timecodes):
+    offset = Timecode(0)
+
+    def __init__(self, timecodes={}):
         if type(timecodes) is not dict:
             raise TypeError(type(timecodes))
 
@@ -86,18 +96,43 @@ class Timecodes(list):
                 t = Timecodes(value)
                 self.append((t, key))
 
+    def __int__(self):
+        if len(self) > 0:
+            return int(self[0][0])
+        else:
+            return 0
+
     def values(self):
         return sorted(self)
 
-    def __ge__(self, offset):
-        if type(offset) is not Timecode:
-            raise TypeError(type(offset))
+    def append(self, value):
+        if type(value) is not tuple:
+            raise TypeError(type(value))
+        for i, item in enumerate(self):
+            if item[0] >= value[0]:
+                return self.insert(i, value)
+        super(Timecodes, self).append(value)
+        self.value = int(self[0][0])
 
-        for t, name in self:
-            if t >= offset:
-                return True
+    def start_at(self, offset):
+        self.offset += offset
 
-        return False
+        for value in self.copy():
+            if type(value[0]) is Timecode and offset > value[0]:
+                self.remove(value)
+            elif type(value[0]) is Timecodes:
+                value[0].start_at(offset)
+                if len(value[0]) == 0:
+                    self.remove(value)
+
+        for i, (time, name) in enumerate(self.copy()):
+            if type(time) is Timecode:
+                self[i] = (time - offset, name)
+
+    def end_at(self, offset):
+        for value in self.copy():
+            if offset - self.offset <= value[0]:
+                self.remove(value)
 
 
 class TimecodeHelper:
