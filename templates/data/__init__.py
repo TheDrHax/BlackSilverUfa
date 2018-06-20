@@ -8,7 +8,5 @@ from .categories import Categories
 
 
 streams = Streams(load_json("data/streams.json"))
-games = Games(load_json("data/games.json"))
-games.update_streams(streams)
-categories = Categories(load_json("data/categories.json"))
-categories.add_games(games)
+games = Games(streams, load_json("data/games.json"))
+categories = Categories(games, load_json("data/categories.json"))

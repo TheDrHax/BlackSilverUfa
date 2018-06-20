@@ -3,20 +3,19 @@
 
 
 class Category(dict):
-    pass
+    def __init__(self, games, category):
+        super(Category, self).__init__(category)
+
+        self['games'] = []
+        for game in games:
+            if self['code'] == game['category']:
+                self['games'].append(game)
 
 
 class Categories(list):
-    def __init__(self, data):
+    def __init__(self, games, data):
         if type(data) is not list:
             raise TypeError
 
         for category in data:
-            self.append(Category(category))
-
-    def add_games(self, games):
-        for category in self:
-            category['games'] = []
-            for game in games:
-                if category['code'] == game['category']:
-                    category['games'].append(game)
+            self.append(Category(games, category))
