@@ -6,12 +6,13 @@ from .streams import Segment
 
 class SegmentReference(Segment):
     def __init__(self, streams, ref):
-        self.parent = {}
+        self.segment = {}
         super(SegmentReference, self).__init__(ref)
-        self.parent = streams[self['twitch']][self['segment']]
+        self.segment = streams[self['twitch']][self['segment']]
+        self.stream = self.segment.stream
 
     def __len__(self):
-        return super(SegmentReference, self).__len__() + self.parent.__len__()
+        return super(SegmentReference, self).__len__() + self.segment.__len__()
 
     def __iter__(self):
         raise NotImplemented
@@ -19,12 +20,12 @@ class SegmentReference(Segment):
     def __contains__(self, key):
         if super(SegmentReference, self).__contains__(key):
             return True
-        return self.parent.__contains__(key)
+        return self.segment.__contains__(key)
 
     def __getitem__(self, key):
         if super(SegmentReference, self).__contains__(key):
             return super(SegmentReference, self).__getitem__(key)
-        return self.parent.__getitem__(key)
+        return self.segment.__getitem__(key)
 
     def get(self, key):
         try:
@@ -35,7 +36,7 @@ class SegmentReference(Segment):
     def keys(self):
         keys = set()
         [keys.add(key) for key in super(SegmentReference, self).keys()]
-        [keys.add(key) for key in self.parent.keys()]
+        [keys.add(key) for key in self.segment.keys()]
         return keys
 
 
@@ -50,8 +51,10 @@ class Game(dict):
         self['category'] = game['category']
         self['filename'] = game['filename']
         self['streams'] = []
-        for stream in game['streams']:
-            self['streams'].append(SegmentReference(streams, stream))
+        for segment_reference in game['streams']:
+            ref = SegmentReference(streams, segment_reference)
+            ref.stream.games.append((self, ref))
+            self['streams'].append(ref)
 
 
 class Games(list):

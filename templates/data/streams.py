@@ -12,15 +12,16 @@ class Segment(dict):
         else:
             return str(attr)
 
-    def __init__(self, segment, key=None):
+    def __init__(self, segment, stream=None):
         super(Segment, self).__init__(segment)
 
         if 'segment' not in self:
             self['segment'] = 0
 
         if 'twitch' not in self:
-            if key:
-                self['twitch'] = key
+            if stream is not None:
+                self.stream = stream
+                self['twitch'] = stream.twitch
             else:
                 raise AttributeError('Missing attribute "twitch"')
 
@@ -106,8 +107,9 @@ class Stream(list):
             raise TypeError(type(segments))
 
         self.twitch = key
+        self.games = []
         for segment in segments:
-            self.append(Segment(segment, key))
+            self.append(Segment(segment, self))
 
 
 class Streams(dict):
