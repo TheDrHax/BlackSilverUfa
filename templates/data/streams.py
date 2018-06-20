@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from .utils import load_json
 from .timecodes import Timecode, Timecodes
+
+
+timecodes = load_json("data/timecodes.json")
 
 
 class Segment(dict):
@@ -28,10 +32,6 @@ class Segment(dict):
         for key in ['start', 'soft_start', 'end', 'offset']:
             if key in self:
                 self[key] = Timecode(self[key])
-
-        if 'timecodes' in self:
-            timecodes = self['timecodes']
-            self['timecodes'] = Timecodes(timecodes)
 
     def player_compatible(self):
         for field in ['youtube', 'vk', 'direct']:
@@ -109,7 +109,19 @@ class Stream(list):
         self.twitch = key
         self.games = []
         for segment in segments:
-            self.append(Segment(segment, self))
+            self.append(segment)
+
+    def append(self, data):
+        segment = Segment(data, self)
+        super(Stream, self).append(segment)
+
+        if self.twitch in timecodes:
+            segment['timecodes'] = Timecodes(timecodes[self.twitch])
+            if 'offset' in segment:
+                segment['timecodes'].start_at(segment['offset'])
+                if self.index(segment) > 0:
+                    prev = self[self.index(segment) - 1]
+                    prev['timecodes'].end_at(segment['offset'])
 
 
 class Streams(dict):

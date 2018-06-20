@@ -22,15 +22,15 @@
 <a href="javascript:void(0)" onclick="document.getElementById('wrapper-${id}').seek(${int(t)})">${str(t)}</a>\
 </%def>
 
-<%def name="timecode_list(id, timecodes, offset=Timecode(0), text='Таймкоды')">\
-% if timecodes >= offset:
+<%def name="timecode_list(id, timecodes, text='Таймкоды')">\
+% if len(timecodes) > 0:
   <li>${text}:</li>
   <ul>
   % for t, name in timecodes:
     % if type(t) is type(timecodes):
-    ${timecode_list(id, t, offset=offset, text=name)}
-    % elif t >= offset:
-    <li>${timecode_link(id, t - offset)} - ${name}</li>
+    ${timecode_list(id, t, text=name)}
+    % else:
+    <li>${timecode_link(id, t)} - ${name}</li>
     % endif
   % endfor
   </ul>
@@ -67,19 +67,17 @@
 % if segment.get('offset'):
   <li>Эта запись смещена на ${segment['offset']} от начала стрима</li>
 % endif
-% if len(segment.stream.games) > 1:
+<% related = [(g, s) for g, s in segment.stream.games if g is not game] %>\
+% if len(related) > 0:
   <li>Связанные игры:</li>
   <ul>
-    % for game_ref, segment_ref in segment.stream.games:
-      % if segment_ref is not segment and game_ref is not game:
-    <li><%el:game_link game="${game_ref}" /> — \
-        <%el:stream_link game="${game_ref}" stream="${segment_ref}" /></li>
-      % endif
+    % for game_ref, segment_ref in related:
+    <li><%el:game_link game="${game_ref}" /> — <%el:stream_link game="${game_ref}" stream="${segment_ref}" /></li>
     % endfor
   </ul>
 % endif
 % if segment.get('timecodes'):
-  ${timecode_list(id, segment['timecodes'], offset=Timecode(segment.get('offset')))}
+  ${timecode_list(id, segment['timecodes'])}
 % endif
 % for i in ['start', 'soft_start']:
   % if segment.get(i):
