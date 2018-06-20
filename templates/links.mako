@@ -47,44 +47,55 @@
 % endif
 </%def>
 
-<%def name="gen_stream(id, stream)">
-<% hash = stream.hash %>\
-<h2 id="${hash}"><a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${stream['name']}</a></h2>
+<%def name="gen_segment(id, segment)">
+<% hash = segment.hash %>\
+<h2 id="${hash}"><a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${segment['name']}</a></h2>
 
 <ul>
-% if stream.get('official') == False:
+% if segment.get('official') == False:
   <li>Официальная запись не была загружена на YouTube.</li>
 % endif
-% if stream.get('note'):
-  <li>Примечание: ${stream['note']}</li>
+% if segment.get('note'):
+  <li>Примечание: ${segment['note']}</li>
 % endif
   <li>Ссылки:</li>
   <ul>
-    <li>Twitch: <a href="https://www.twitch.tv/videos/${stream['twitch']}">${stream['twitch']}</a></li>
-    <li>Субтитры: <a href="../chats/v${stream['twitch']}.ass">v${stream['twitch']}.ass</a></li>
-    ${source_link(stream)}
+    <li>Twitch: <a href="https://www.twitch.tv/videos/${segment['twitch']}">${segment['twitch']}</a></li>
+    <li>Субтитры: <a href="../chats/v${segment['twitch']}.ass">v${segment['twitch']}.ass</a></li>
+    ${source_link(segment)}
   </ul>
-% if stream.get('offset'):
-  <li>Эта запись смещена на ${stream['offset']} от начала стрима</li>
+% if segment.get('offset'):
+  <li>Эта запись смещена на ${segment['offset']} от начала стрима</li>
 % endif
-% if stream.get('timecodes'):
-  ${timecode_list(id, stream['timecodes'], offset=Timecode(stream.get('offset')))}
+% if len(segment.stream.games) > 1:
+  <li>Связанные игры:</li>
+  <ul>
+    % for game_ref, segment_ref in segment.stream.games:
+      % if segment_ref is not segment and game_ref is not game:
+    <li><%el:game_link game="${game_ref}" /> — \
+        <%el:stream_link game="${game_ref}" stream="${segment_ref}" /></li>
+      % endif
+    % endfor
+  </ul>
+% endif
+% if segment.get('timecodes'):
+  ${timecode_list(id, segment['timecodes'], offset=Timecode(segment.get('offset')))}
 % endif
 % for i in ['start', 'soft_start']:
-  % if stream.get(i):
-  <li>Игра начинается с ${timecode_link(id, Timecode(stream[i]) - Timecode(stream.get('offset')))}</li>
+  % if segment.get(i):
+  <li>Игра начинается с ${timecode_link(id, Timecode(segment[i]) - Timecode(segment.get('offset')))}</li>
   % endif
 % endfor
-% if stream.get('end'):
-  <li>Запись заканчивается в ${timecode_link(id, Timecode(stream['end']) - Timecode(stream.get('offset')))}</li>
+% if segment.get('end'):
+  <li>Запись заканчивается в ${timecode_link(id, Timecode(segment['end']) - Timecode(segment.get('offset')))}</li>
 % endif
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-${id}" ${stream.attrs()} />
+  <p class="stream col" id="wrapper-${id}" ${segment.attrs()} />
 </div>
 
-% if not stream.player_compatible():
+% if not segment.player_compatible():
 <p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
 прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
 обновился. Обычно на это требуется минута или около того, но я оставляю
@@ -96,22 +107,22 @@
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 <%el:code_block>\
-% if stream.player_compatible():
-mpv ${stream.mpv_args()} ${stream.mpv_file()}
+% if segment.player_compatible():
+mpv ${segment.mpv_args()} ${segment.mpv_file()}
 % else:
-streamlink -p "mpv ${stream.mpv_args()}" --player-passthrough hls twitch.tv/videos/${stream['twitch']} best
+streamlink -p "mpv ${segment.mpv_args()}" --player-passthrough hls twitch.tv/videos/${segment['twitch']} best
 % endif
 </%el:code_block>
 
-% if game['streams'].index(stream) != len(game['streams']) - 1:
+% if game['streams'].index(segment) != len(game['streams']) - 1:
 <hr>
 % endif
 </%def>
 
 <h1><a href="/">Архив</a> → ${game['name']}</h1>
 <% id = 0 %> \
-% for stream in game['streams']:
-${gen_stream(id, stream)}
+% for segment in game['streams']:
+${gen_segment(id, segment)}
 <% id += 1 %> \
 % endfor
 </%block>
