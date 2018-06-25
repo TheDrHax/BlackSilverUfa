@@ -271,7 +271,7 @@
   },
   {
     "name": "Persona 5",
-    "category": "irregular",
+    "category": "ongoing",
     "filename": "persona_5.html",
     "streams": [
       { "name": "1", "twitch": "135797319" },
@@ -279,9 +279,10 @@
       { "name": "3", "twitch": "140054639" },
       { "name": "4", "twitch": "146618890" },
       { "name": "5", "twitch": "148253751" },
-      { "name": "6", "start": "2:15:00", "twitch": "154787759" },
-      { "name": "7", "start": "2:10:30", "twitch": "173993139" },
-      { "name": "8", "start": "2:10:04", "twitch": "175695460" }
+      { "name": "6", "twitch": "154787759", "start": "2:15:00" },
+      { "name": "7", "twitch": "173993139", "start": "2:10:30" },
+      { "name": "8", "twitch": "175695460", "start": "2:10:04" },
+      { "name": "9", "twitch": "277440900", "soft_start": "14:35" }
     ]
   },
   {
