@@ -283,7 +283,7 @@
       { "name": "7", "twitch": "173993139", "start": "2:10:30" },
       { "name": "8", "twitch": "175695460", "start": "2:10:04" },
       { "name": "9", "twitch": "277440900", "soft_start": "14:35" },
-      { "name": "10", "twitch": "278566845", "start": "4:19:56" }
+      { "name": "10", "twitch": "278566845", "segment": 1, "start": "4:19:56" }
     ]
   },
   {
@@ -343,7 +343,7 @@
       },
       { "name": "Lust for Darkness", "twitch": "273929911", "start": "2:52:24" },
       { "name": "Shininng Hotel: Lost in Nowhere / Midnight Awake / Pamali (демо)", "twitch": "275418948", "start": "3:15:14" },
-      { "name": "The Awesome Adventures of Captain Spirit", "twitch": "278566845", "soft_start": "23:50" }
+      { "name": "The Awesome Adventures of Captain Spirit", "twitch": "278566845", "segment": 0 }
     ]
   },
   {
@@ -484,7 +484,7 @@
     "filename": "wreckfest.html",
     "streams": [
       { "name": "1", "twitch": "276648637" },
-      { "name": "2", "twitch": "278566845", "start": "2:43:00" }
+      { "name": "2", "twitch": "278566845", "segment": 1 }
     ]
   },
   {
