@@ -80,7 +80,7 @@
   ${timecode_list(id, segment['timecodes'])}
 % endif
 % for i in ['start', 'soft_start']:
-  % if segment.get(i):
+  % if i in segment and Timecode(segment.get(i)) > Timecode(segment.get('offset')):
   <li>Игра начинается с ${timecode_link(id, Timecode(segment[i]) - Timecode(segment.get('offset')))}</li>
   % endif
 % endfor
