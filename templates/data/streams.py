@@ -46,7 +46,7 @@ class Segment(dict):
             attrs.append('data-{}="{}"'.format(key, self._escape_attr(value)))
 
         for key in sorted(self.keys()):
-            if key in ['note', 'timecodes']:
+            if key in ['note', 'timecodes', 'soft_start']:
                 continue
 
             if key == 'segment':
