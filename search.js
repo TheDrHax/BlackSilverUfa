@@ -350,6 +350,7 @@ var Search = {
     "Super Mario Odyssey": "/links/super-mario-odyssey.html",
     "Sea of Thieves": "/links/sea-of-thieves.html",
     "Wreckfest": "/links/wreckfest.html",
+    "Witch Hunt": "/links/witch-hunt.html",
     "Immortal Redneck": "/links/immortal-redneck.html",
     "Moonlighter": "/links/moonlighter.html",
     "Getting Over It": "/links/getting-over-it.html",
