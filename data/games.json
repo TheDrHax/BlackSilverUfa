@@ -487,7 +487,7 @@
     "filename": "wreckfest.html",
     "streams": [
       { "name": "1", "twitch": "276648637" },
-      { "name": "2", "twitch": "278566845", "segment": 1 }
+      { "name": "2", "twitch": "278566845", "segment": 1, "soft_start": "2:43:00" }
     ]
   },
   {
