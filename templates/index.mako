@@ -52,6 +52,7 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <%el:stream_link game="${category['games'][0]}" stream="${stream}">
+          <noscript><img class="card-img-top" src="${stream.thumbnail()}" /></noscript>
           <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="${stream.thumbnail()}" />
           <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             ${stream['name']}
