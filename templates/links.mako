@@ -10,8 +10,8 @@
 <title>${game['name']} | ${config['title']}</title>
 
 <!-- Plyr (https://github.com/sampotts/plyr) -->
-<link rel="stylesheet" href="//cdn.plyr.io/2.0.18/plyr.css">
-<script src="//cdn.plyr.io/2.0.18/plyr.js"></script>
+<link rel="stylesheet" href="//cdn.plyr.io/3.3.12/plyr.css">
+<script src="//cdn.plyr.io/3.3.12/plyr.js" crossorigin="anonymous"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 <script src="/static/js/player.js?hash=${md5file('static/js/player.js')}"></script>
