@@ -16,10 +16,10 @@ function debounce(func, wait, immediate) {
 
 // Convert HH:MM:SS or MM:SS to seconds
 function sec(timecode) {
+  if (timecode === undefined) return 0;
   if (timecode[0] == '-') {
     return - sec(timecode.replace('-', ''));
   }
-
   var result = 0;
   var segments = timecode.split(':');
   for (var i = segments.length - 1; i >= 0; i--) {
@@ -39,48 +39,47 @@ function spawnPlyr(wrapper, callback) {
 
   var stream = wrapper.dataset;
 
-  var options = {};
+  var options = {
+    // Disable quality seletion (doesn't work on YouTube)
+    settings: ['captions', /* 'quality', */ 'speed', 'loop']
+  };
   if (wrapper.dataset.end) {
-    options.duration = (
-      wrapper.dataset.offset ?
-        sec(wrapper.dataset.end) - sec(wrapper.dataset.offset) :
-        sec(wrapper.dataset.end)
-    );
+    options.duration = sec(wrapper.dataset.end) - sec(wrapper.dataset.offset);
   }
 
   wrapper.innerHTML = '<video />';
   wrapper.style.marginTop = "32px";
-  player = plyr.setup(wrapper, options)[0];
+  player = new Plyr(wrapper.children[0], options);
 
   player.on('timeupdate', function(event) {
     // Stop player when video exceeds overriden duration
     if (wrapper.dataset.end) {
-      if (player.getCurrentTime() >= player.getDuration()) {
-        player.seek(player.getDuration());
+      if (player.currentTime >= player.config.duration) {
+        player.currentTime = player.config.duration;
         player.pause();
       }
     }
 
     if (wrapper.dataset.start) {
-      var start = (wrapper.dataset.offset ?
-          sec(wrapper.dataset.start) - sec(wrapper.dataset.offset) :
-          sec(wrapper.dataset.start));
+      var start = sec(wrapper.dataset.start) - sec(wrapper.dataset.offset);
 
-      if (player.getCurrentTime() != 0 && player.getCurrentTime() < start) {
-        player.seek(start);
+      if (player.currentTime != NaN && player.currentTime < start) {
+        player.currentTime = start;
+        wrapper.dataset.start = false; // Seek to the start only one time
       }
-
-      // Seek to the start only one time
-      if (player.getCurrentTime() != 0) {
-        wrapper.dataset.start = false;
-      }
+    }
+  });
+  player.on('playing', function(event) {
+    // Workaround for muted sound after seeking
+    if (!player.muted) {
+      player.muted = false;
     }
   });
 
   var source = { type: 'video' };
   if (wrapper.dataset.youtube) {
     source.sources = [{
-      type: 'youtube',
+      provider: 'youtube',
       src: wrapper.dataset.youtube
     }];
   } else if (wrapper.dataset.vk) {
@@ -95,11 +94,13 @@ function spawnPlyr(wrapper, callback) {
       src: wrapper.dataset.direct
     }];
   }
-  player.source(source);
+  player.source = source;
 
   // Connect Subtitles Octopus to video
   var subtitles_options = {
-    video: player.getMedia(),
+    // Wrapper allows to track player's size and position but time tracking
+    // will not work. See subtitles.setVideo() call below.
+    video: player.elements.wrapper,
     subUrl: "/chats/v" + wrapper.dataset.twitch + ".ass",
     workerUrl: '/static/js/subtitles-octopus-worker.js',
   };
@@ -116,6 +117,11 @@ function spawnPlyr(wrapper, callback) {
     subtitles.canvas.style.display = 'none';
   });
   player.on('ready', function(event) {
+    // Set correct player element to track current time
+    subtitles.setVideo(player.media);
+
+    // Force enable captions button
+    // Also check '.plyr [data-plyr=captions]' style in styles.css
     player.toggleCaptions(true);
   });
 
@@ -124,7 +130,7 @@ function spawnPlyr(wrapper, callback) {
     // TODO: Fix subtitles position in fullscreen mode
     function subResize(event) {
       var e_sub = subtitles.canvas;
-      var e_vid = player.getMedia();
+      var e_vid = player.elements.wrapper;
 
       e_sub.style.display = "block";
       e_sub.style.top = 0;
@@ -152,8 +158,9 @@ function spawnPlyr(wrapper, callback) {
   }
 
   // Element controls
-  wrapper.seek = function(t) {
-    player.seek(t);
+  wrapper.seek = function(time) {
+    player.currentTime = time;
+    wrapper.dataset.start = false; // ignore 'start' attribute
     player.play();
     return false;
   };
