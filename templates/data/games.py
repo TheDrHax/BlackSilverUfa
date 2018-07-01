@@ -42,19 +42,23 @@ class SegmentReference(Segment):
 
 class Game(dict):
     def __init__(self, streams, game):
-        super(Game, self).__init__()
-
         if type(game) is not dict:
             raise TypeError(type(game))
 
-        self['name'] = game['name']
-        self['category'] = game['category']
-        self['filename'] = game['filename']
+        super(Game, self).__init__(game)
+
+        segments = self['streams']
         self['streams'] = []
-        for segment_reference in game['streams']:
+        for segment_reference in segments:
             ref = SegmentReference(streams, segment_reference)
             ref.stream.games.append((self, ref))
             self['streams'].append(ref)
+
+        if 'thumbnail' not in self:
+            self['thumbnail'] = 0
+
+    def thumbnail(self):
+        return self['streams'][self['thumbnail']].thumbnail()
 
 
 class Games(list):

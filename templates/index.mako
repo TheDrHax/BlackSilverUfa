@@ -33,8 +33,8 @@
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
         <%el:game_link game="${game}">
-        <noscript><img class="card-img-top" src="${game['streams'][0].thumbnail()}" /></noscript>
-        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="${game['streams'][0].thumbnail()}" />
+        <noscript><img class="card-img-top" src="${game.thumbnail()}" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="${game.thumbnail()}" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
             ${game['name']}
         </div>

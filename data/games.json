@@ -67,7 +67,8 @@
     "streams": [
       { "name": "1", "twitch": "187586726", "start": "52:24" },
       { "name": "2", "twitch": "234373553", "soft_start": "15:56" }
-    ]
+    ],
+    "thumbnail": 1
   },
   {
     "name": "We Need to Go Deeper",
@@ -137,7 +138,8 @@
       { "name": "1 (перед EA Play 2018)", "twitch": "271255246", "segment": 0 },
       { "name": "2 (после EA Play 2018)", "twitch": "271255246", "segment": 2 },
       { "name": "3", "twitch": "272058083", "segment": 1 }
-    ]
+    ],
+    "thumbnail": 1
   },
   {
     "name": "неСерьёзный E3 2018",
@@ -165,7 +167,8 @@
       { "name": "3 (часть 1)", "twitch": "237277360", "soft_start": "15:58" },
       { "name": "3 (часть 2)", "twitch": "237304245" },
       { "name": "4", "twitch": "246543709" }
-    ]
+    ],
+    "thumbnail": 2
   },
   {
     "name": "Darkwood",
