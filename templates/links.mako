@@ -26,11 +26,11 @@
 % if len(timecodes) > 0:
   <li>${text}:</li>
   <ul>
-  % for t, name in timecodes:
+  % for t in timecodes:
     % if type(t) is type(timecodes):
-    ${timecode_list(id, t, text=name)}
+    ${timecode_list(id, t, text=t.name)}
     % else:
-    <li>${timecode_link(id, t)} - ${name}</li>
+    <li>${timecode_link(id, t)} - ${t.name}</li>
     % endif
   % endfor
   </ul>
