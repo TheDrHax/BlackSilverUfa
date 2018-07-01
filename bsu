@@ -35,6 +35,11 @@ case $1 in
                 fi
                 git worktree prune
                 git worktree add "$PREFIX" "$PAGES_ORIGIN" ;;
+            diff)
+                (
+                    cd "$PREFIX"
+                    git diff
+                ) ;;
             commit)
                 (
                     cd "$PREFIX"
@@ -49,7 +54,7 @@ case $1 in
                     cd "$PREFIX"
                     git push origin "$PAGES_LOCAL"
                 ) ;;
-            *) echo "Usage: $0 $1 checkout|commit|push" ;;
+            *) echo "Usage: $0 $1 checkout|diff|commit|push" ;;
         esac ;;
     build) $run ./generate.py ;;
     serve) $run ./serve.py ;;
