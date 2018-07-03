@@ -108,7 +108,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/_BlackUfa">
+                  <a href="https://twitter.com/Sempai_Black">
                     <i class="fab fa-twitter"></i> Twitter
                   </a>
                 </li>
