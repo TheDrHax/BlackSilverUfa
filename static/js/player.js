@@ -41,7 +41,8 @@ function spawnPlyr(wrapper, callback) {
 
   var options = {
     // Disable quality seletion (doesn't work on YouTube)
-    settings: ['captions', /* 'quality', */ 'speed', 'loop']
+    settings: ['captions', /* 'quality', */ 'speed', 'loop'],
+    invertTime: false
   };
   if (wrapper.dataset.end) {
     options.duration = sec(wrapper.dataset.end) - sec(wrapper.dataset.offset);
