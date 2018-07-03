@@ -480,7 +480,11 @@
       { "name": "Unravel Two", "twitch": "271646745", "start": "6:36" },
       { "name": "Deluded Mind", "twitch": "275043417", "start": "2:38:23" },
       { "name": "Sinner / Trigger", "twitch": "275418948", "start": "2:18:26" },
-      { "name": "The Crew 2 / Overwhelm / P.A.M.E.L.A (Pamela)", "twitch": "276606545" }
+      { "name": "The Crew 2 / Overwhelm / P.A.M.E.L.A (Pamela)", "twitch": "276606545" },
+      {
+        "name": "Red Faction: Guerilla Remastered", "twitch": "280402233", "soft_start": "18:07",
+        "note": "Начало игры есть на <a href=\"https://youtu.be/AZoFxfnnaag\">YouTube</a>."
+      }
     ]
   },
   {
@@ -534,10 +538,11 @@
     "category": "ongoing",
     "filename": "jurassic-world-evolution.html",
     "streams": [
-      { "name": "1 (перед Nintendo)", "twitch": "272392172", "start": "1:17:17" },
-      { "name": "2 (после Nintendo)", "twitch": "272392172", "start": "2:57:48" },
+      { "name": "1", "twitch": "272392172", "start": "1:17:17" },
+      { "name": "2", "twitch": "272392172", "start": "2:57:48" },
       { "name": "3", "twitch": "273929911", "soft_start": "4:18" },
-      { "name": "4", "twitch": "274295872", "soft_start": "19:04" }
+      { "name": "4", "twitch": "274295872", "soft_start": "19:04" },
+      { "name": "5", "twitch": "280402233", "start": "1:39:58" }
     ]
   },
   {
