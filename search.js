@@ -191,6 +191,7 @@ var Redirect = {
     "276648637": "/links/wreckfest.html#276648637",
     "275127021": "/links/witch-hunt.html#275127021",
     "274295872": "/links/immortal-redneck.html#274295872",
+    "280402233.1": "/links/jurassic-world-evolution.html#280402233.1",
     "268055630": "/links/moonlighter.html#268055630",
     "264943743": "/links/detroit-become-human.html#264943743",
     "264943743.1": "/links/detroit-become-human.html#264943743.1",
