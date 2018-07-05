@@ -1,7 +1,7 @@
 <%!
   import datetime
   from templates.utils import md5file
-  from templates.data.timecodes import Timecode
+  from templates.data.timecodes import Timecode, Timecodes
 %>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />
@@ -27,7 +27,7 @@
   <li>${text}:</li>
   <ul>
   % for t in timecodes:
-    % if type(t) is type(timecodes):
+    % if isinstance(t, Timecodes):
     ${timecode_list(id, t, text=t.name)}
     % else:
     <li>${timecode_link(id, t)} - ${t.name}</li>

@@ -5,8 +5,6 @@ from datetime import datetime
 
 
 class Timecode(object):
-    negative = False
-
     @staticmethod
     def text_to_sec(t):
         if len(t) == 0:
@@ -47,14 +45,14 @@ class Timecode(object):
         return ('-' if self.negative else '') + self.sec_to_text(self.value)
 
     def __repr__(self):
-        return 'Timecode({}, {})'.format(str(self), self.name)
+        return str(self)
 
     def __int__(self):
         return (-1 if self.negative else 1) * self.value
 
     @staticmethod
     def _type_check(arg):
-        if type(arg) not in [Timecode, Timecodes, int]:
+        if not (isinstance(arg, Timecode) or isinstance(arg, int)):
             raise TypeError(type(arg))
 
     def __add__(self, other):
@@ -82,9 +80,7 @@ class Timecode(object):
         return int(self) < int(other)
 
 
-class Timecodes(list):
-    offset = Timecode(0)
-
+class Timecodes(Timecode, list):
     def __init__(self, timecodes={}, name=None):
         if type(timecodes) is not dict:
             raise TypeError(type(timecodes))
@@ -99,37 +95,77 @@ class Timecodes(list):
     def __int__(self):
         return int(self[0]) if len(self) > 0 else 0
 
-    def values(self):
-        return sorted(self)
-
     def append(self, value):
-        if type(value) not in [Timecode, Timecodes]:
+        if not isinstance(value, Timecode):
             raise TypeError(type(value))
         for i, item in enumerate(self):
             if item >= value:
-                return self.insert(i, value)
-        super(Timecodes, self).append(value)
-        self.value = int(self[0])
+                return list.insert(self, i, value)
+        return list.append(self, value)
+
+    #
+    # Disguise as the smallest timecode in the list
+    #
+
+    @property
+    def value(self):
+        return self[0].value or 0
+
+    @property
+    def negative(self):
+        return self[0].negative or False
+
+
+class TimecodesSlice(Timecodes):
+    def __init__(self, parent, start=Timecode(0), end=Timecode('7:00:00:00')):
+        self.parent = parent
+        self.start = start
+        self.end = end
 
     def start_at(self, offset):
-        self.offset += offset
-
-        for value in self.copy():
-            if type(value) is Timecode and offset > value:
-                self.remove(value)
-            elif type(value) is Timecodes:
-                value.start_at(offset)
-                if len(value) == 0:
-                    self.remove(value)
-
-        for i, t in enumerate(self.copy()):
-            if type(t) is Timecode:
-                self[i] = t - offset
+        self.start = offset
 
     def end_at(self, offset):
-        for value in self.copy():
-            if offset - self.offset <= value:
-                self.remove(value)
+        self.end = offset
+
+    def _load(self):
+        ts = Timecodes(name=self.name)
+        for t in self.parent:
+            if isinstance(t, Timecodes):
+                tss = TimecodesSlice(t, self.start, self.end)
+                if len(tss) > 0:
+                    ts.append(tss)
+            elif isinstance(t, Timecode) and self.start <= t < self.end:
+                ts.append(t - self.start)
+        return ts
+
+    def __len__(self):
+        return len(self._load())
+
+    def __getitem__(self, i):
+        return self._load()[i]
+
+    def __iter__(self):
+        return self._load().__iter__()
+
+    def __repr__(self):
+        return self._load().__repr__()
+
+    #
+    # Use dynamic properties from parent
+    #
+
+    @property
+    def name(self):
+        return self.parent.name
+
+    @property
+    def value(self):
+        return self.parent.value
+
+    @property
+    def negative(self):
+        return self.parent.negative
 
 
 class TimecodeHelper:
