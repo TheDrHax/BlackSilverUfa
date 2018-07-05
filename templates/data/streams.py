@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from .utils import load_json
-from .timecodes import Timecode, Timecodes
+from .timecodes import Timecode, Timecodes, TimecodesSlice
 
 
 timecodes = load_json("data/timecodes.json")
@@ -108,6 +108,12 @@ class Stream(list):
 
         self.twitch = key
         self.games = []
+
+        if key in timecodes:
+            self.timecodes = Timecodes(timecodes[key])
+        else:
+            self.timecodes = Timecodes()
+
         for segment in segments:
             self.append(segment)
 
@@ -116,7 +122,7 @@ class Stream(list):
         super(Stream, self).append(segment)
 
         if self.twitch in timecodes:
-            segment['timecodes'] = Timecodes(timecodes[self.twitch])
+            segment['timecodes'] = TimecodesSlice(self.timecodes)
             if 'offset' in segment:
                 segment['timecodes'].start_at(segment['offset'])
                 if self.index(segment) > 0:
