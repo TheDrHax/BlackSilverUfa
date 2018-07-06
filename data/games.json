@@ -485,7 +485,16 @@
         "name": "Red Faction: Guerilla Remastered", "twitch": "280402233", "segment": 0, "soft_start": "18:07",
         "note": "Начало игры есть на <a href=\"https://youtu.be/AZoFxfnnaag\">YouTube</a>."
       },
-      { "name": "Resident Evil 5", "twitch": "280767310", "segment": 1, "soft_start": "2:02:15" }
+      { "name": "Garage: Bad Trip / Curse in our heads", "twitch": "281472149", "soft_start": "15:43" }
+    ]
+  },
+  {
+    "name": "Resident Evil 5",
+    "category": "ongoing",
+    "filename": "re5.html",
+    "streams": [
+      { "name": "1", "twitch": "280767310", "segment": 1, "soft_start": "2:02:15" },
+      { "name": "2", "twitch": "281472149", "start": "4:07:17" }
     ]
   },
   {
@@ -698,7 +707,8 @@
       { "name": "7", "twitch": "233355849", "segment": 1, "soft_start": "1:18:31" },
       { "name": "8", "twitch": "238317087", "soft_start": "27:36" },
       { "name": "9", "twitch": "246167971", "soft_start": "21:22" },
-      { "name": "10", "twitch": "259798230", "soft_start": "22:25" }
+      { "name": "10", "twitch": "259798230", "soft_start": "22:25" },
+      { "name": "From the Ashes DLC", "twitch": "281472149", "start": "3:04:53" }
     ]
   },
   {
