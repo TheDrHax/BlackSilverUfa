@@ -63,6 +63,14 @@ class Timecode(object):
         self._type_check(other)
         return Timecode(int(self) - int(other), self.name)
 
+    def __eq__(self, other):
+        if isinstance(other, Timecode):
+            return self.value == other.value
+        elif isinstance(other, int) or isinstance(other, str):
+            return self == Timecode(other)
+        else:
+            return False
+
     def __ge__(self, other):
         self._type_check(other)
         return int(self) >= int(other)
@@ -102,6 +110,17 @@ class Timecodes(Timecode, list):
             if item >= value:
                 return list.insert(self, i, value)
         return list.append(self, value)
+
+    def __contains__(self, value):
+        if isinstance(value, Timecodes):
+            return list.__contains__(self, value)
+        else:
+            for t in self:
+                if isinstance(t, Timecodes) and value in t:
+                    return True
+                elif t == value:
+                    return True
+            return False
 
     #
     # Disguise as the smallest timecode in the list
