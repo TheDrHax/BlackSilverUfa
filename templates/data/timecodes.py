@@ -156,6 +156,14 @@ class TimecodesSlice(Timecodes):
                     ts.append(tss)
             elif isinstance(t, Timecode) and self.start <= t < self.end:
                 ts.append(t - self.start)
+
+        # Expand timecode list
+        if len(ts) == 1 and isinstance(ts[0], Timecodes):
+            tl = ts[0]
+            del ts[0]
+            for t in tl:
+                ts.append(t)
+
         return ts
 
     def __len__(self):
