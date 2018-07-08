@@ -49,7 +49,8 @@
     "filename": "worms-wmd.html",
     "streams": [
       { "name": "1", "twitch": "250258247", "start": "2:33:45" },
-      { "name": "2", "twitch": "268497396", "soft_start": "17:43" }
+      { "name": "2", "twitch": "268497396", "soft_start": "17:43" },
+      { "name": "3", "twitch": "282238591", "start": "1:11:00" }
     ]
   },
   {
@@ -130,7 +131,8 @@
       { "name": "2", "twitch": "182448131", "soft_start": "15:16" },
       { "name": "3", "twitch": "184206477", "start": "3:49:00" },
       { "name": "4", "twitch": "213846142", "soft_start": "13:00" },
-      { "name": "5", "twitch": "281859149", "start": "3:11:26" }
+      { "name": "5", "twitch": "281859149", "start": "3:11:26" },
+      { "name": "6", "twitch": "282238591", "soft_start": "22:21" }
     ]
   },
   {
