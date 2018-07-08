@@ -22,6 +22,7 @@ var Redirect = {
     "278920291.1": "/links/co-op.html#278920291.1",
     "281859149": "/links/garage.html#281859149",
     "272058083.1": "/links/tabg.html#272058083.1",
+    "282238591": "/links/hand-simulator.html#282238591",
     "202631693": "/links/human-fall-flat.html#202631693",
     "234373553": "/links/friday-13th.html#234373553",
     "187586726": "/links/deceit.html#187586726",
