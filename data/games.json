@@ -26,13 +26,32 @@
       { "name": "Party Panic", "twitch": "232346216" },
       { "name": "Deep Rock Galactic", "twitch": "234037742", "segment": 0 },
       { "name": "Dead Dozen", "twitch": "236864236", "segment": 0 },
-      { "name": "Depth / Dead Realm / SoulHunt", "twitch": "250258247" },
+      { "name": "Dead Realm / SoulHunt", "twitch": "250258247", "start": "1:58:13" },
       { "name": "Conan Exiles", "twitch": "259446831" },
       { "name": "Raft / Murderous Pursuits / The Forest", "twitch": "268497396", "start": "1:04:08" },
       { "name": "The Goatman / Cuisine Royale", "twitch": "274651226", "start": "2:07:43" },
       { "name": "Call of Duty WWII: Nazi Zombies", "twitch": "278920291", "segment": 1, "soft_start": "2:13:15" },
-      { "name": "Tricky Towers / Mount Your Friends 3D", "twitch": "281859149", "start": "1:00:58" },
-      { "name": "Grand Theft Auto V", "twitch": "283350700", "soft_start": "16:38" }
+      { "name": "Mount Your Friends 3D", "twitch": "281859149", "start": "2:05:40" },
+      { "name": "Grand Theft Auto V", "twitch": "283350700", "soft_start": "16:38" },
+      { "name": "Drunk-Fu: Wasted Masters", "twitch": "284156303", "start": "3:26:53" }
+    ]
+  },
+  {
+    "name": "Tricky Towers",
+    "category": "co-op-series",
+    "filename": "tricky-towers.html",
+    "streams": [
+      { "name": "1", "twitch": "281859149", "start": "1:00:58" },
+      { "name": "2", "twitch": "284156303", "start": "3:31:10" }
+    ]
+  },
+  {
+    "name": "Depth",
+    "category": "co-op-series",
+    "filename": "depth.html",
+    "streams": [
+      { "name": "1", "twitch": "250258247", "soft_start": "17:01" },
+      { "name": "2", "twitch": "284156303", "soft_start": "51:11" }
     ]
   },
   {
@@ -69,7 +88,8 @@
     "filename": "friday-13th.html",
     "streams": [
       { "name": "1", "twitch": "187586726", "start": "52:24" },
-      { "name": "2", "twitch": "234373553", "soft_start": "15:56" }
+      { "name": "2", "twitch": "234373553", "soft_start": "15:56" },
+      { "name": "3", "twitch": "284156303", "start": "2:11:45" }
     ],
     "thumbnail": 1
   },
@@ -111,7 +131,8 @@
       { "name": "1", "twitch": "180663832", "start": "4:02:04" },
       { "name": "2", "twitch": "184206477", "start": "4:18:30" },
       { "name": "3", "twitch": "206394832", "start": "4:36:00" },
-      { "name": "4", "twitch": "281859149", "start": "4:22:10" }
+      { "name": "4", "twitch": "281859149", "start": "4:22:10" },
+      { "name": "5", "twitch": "284156303", "start": "4:15:10" }
     ]
   },
   {
