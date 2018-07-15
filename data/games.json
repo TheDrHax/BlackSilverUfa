@@ -508,7 +508,7 @@
       { "name": "Unravel Two", "twitch": "271646745", "start": "6:36" },
       { "name": "Deluded Mind", "twitch": "275043417", "start": "2:38:23" },
       { "name": "Sinner / Trigger", "twitch": "275418948", "start": "2:18:26" },
-      { "name": "The Crew 2 / Overwhelm / P.A.M.E.L.A (Pamela)", "twitch": "276606545" },
+      { "name": "Overwhelm / P.A.M.E.L.A (Pamela)", "twitch": "276606545", "start": "1:19:47" },
       {
         "name": "Red Faction: Guerilla Remastered", "twitch": "280402233", "segment": 0, "soft_start": "18:07",
         "note": "Начало игры есть на <a href=\"https://youtu.be/AZoFxfnnaag\">YouTube</a>."
@@ -518,12 +518,22 @@
     ]
   },
   {
+    "name": "The Crew 2",
+    "category": "irregular",
+    "filename": "crew-2.html",
+    "streams": [
+      { "name": "1", "twitch": "276606545", "soft_start": "21:27" },
+      { "name": "2 (с Джеком)", "twitch": "284955107", "start": "3:11:54" }
+    ]
+  },
+  {
     "name": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
     "category": "ongoing",
     "filename": "stalker-soc.html",
     "streams": [
       { "name": "1", "twitch": "282977516", "start": "2:05:21" },
-      { "name": "2", "twitch": "284560594", "soft_start": "25:05" }
+      { "name": "2", "twitch": "284560594", "soft_start": "25:05" },
+      { "name": "3", "twitch": "284955107", "soft_start": "18:26" }
     ]
   },
   {
