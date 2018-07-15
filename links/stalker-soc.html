@@ -114,8 +114,10 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/284560594">284560594</a></li>
     <li>Субтитры: <a href="../chats/v284560594.ass">v284560594.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=VlB8waV0ec4">VlB8waV0ec4</a></li>
+
   </ul>
+  <li>Эта запись смещена на -00:05 от начала стрима</li>
   <li>Связанные игры:</li>
   <ul>
     <li><a href="/links/persona_5.html">Persona 5</a> — <a href="/links/persona_5.html#284560594">12</a></li>
@@ -124,16 +126,16 @@
   <ul>
       <li>Трейлеры:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(922)">15:22</a> - Геймплей Vigor</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(1052)">17:32</a> - We Happy Few</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(1284)">21:24</a> - Earthfall</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(927)">15:27</a> - Геймплей Vigor</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(1057)">17:37</a> - We Happy Few</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(1289)">21:29</a> - Earthfall</li>
   </ul>
 
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(1505)">25:05</a> - S.T.A.L.K.E.R.: Shadow of Chernobyl</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(1510)">25:10</a> - S.T.A.L.K.E.R.: Shadow of Chernobyl</li>
       <li>Persona 5:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(12771)">03:32:51</a> - Проблемы со звуком</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(13122)">03:38:42</a> - Начало игры</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(12776)">03:32:56</a> - Проблемы со звуком</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(13127)">03:38:47</a> - Начало игры</li>
   </ul>
 
   </ul>
@@ -141,21 +143,15 @@
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-1" data-name="2" data-twitch="284560594" style="display: none" />
+  <p class="stream col" id="wrapper-1" data-name="2" data-offset="-00:05" data-twitch="284560594" data-youtube="VlB8waV0ec4" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v284560594.ass" --player-passthrough hls twitch.tv/videos/284560594 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v284560594.ass --sub-delay=5 ytdl://VlB8waV0ec4
 </code></pre>
 </div></div>
 
