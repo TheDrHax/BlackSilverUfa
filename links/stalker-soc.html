@@ -212,32 +212,28 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/285753398">285753398</a></li>
     <li>Субтитры: <a href="../chats/v285753398.ass">v285753398.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=RugjM_b_dYg">RugjM_b_dYg</a></li>
+
   </ul>
+  <li>Эта запись смещена на -00:04 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(1189)">19:49</a> - Начало игры</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(12172)">03:22:52</a> - Самая страшная смерть</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(1193)">19:53</a> - Начало игры</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(12176)">03:22:56</a> - Самая страшная смерть</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-3" data-name="4" data-twitch="285753398" style="display: none" />
+  <p class="stream col" id="wrapper-3" data-name="4" data-offset="-00:04" data-twitch="285753398" data-youtube="RugjM_b_dYg" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v285753398.ass" --player-passthrough hls twitch.tv/videos/285753398 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v285753398.ass --sub-delay=4 ytdl://RugjM_b_dYg
 </code></pre>
 </div></div>
 
