@@ -331,5 +331,8 @@
   "284156303": { "youtube": "MUpw9ehsZjg", "offset": "-0:04" },
   "284560594": { "youtube": "VlB8waV0ec4", "offset": "-0:05" },
   "284955107": { "youtube": "Oj_bRJmuIzY", "offset": "-0:06" },
-  "285753398": { "youtube": "RugjM_b_dYg", "offset": "-0:04" }
+  "285753398": {
+    "youtube": "RugjM_b_dYg", "offset": "-0:04",
+    "note": "Чат этого стрима был повреждён из-за <a href=\"https://www.reddit.com/r/Twitch/comments/8zobgr/chat_replay_missing/\">неполадок</a> у Twitch."
+  }
 }
