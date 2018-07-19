@@ -41,7 +41,7 @@
     "filename": "crazy-ls.html",
     "streams": [
       { "name": "1", "twitch": "283350700", "soft_start": "16:38" },
-      { "name": "2", "twitch": "286171438", "soft_start": "12:35" }
+      { "name": "2", "twitch": "286171438", "soft_start": "12:35", "segment": 0 }
     ]
   },
   {
@@ -550,7 +550,7 @@
     "category": "ongoing",
     "filename": "stalker-cs.html",
     "streams": [
-      { "name": "1", "twitch": "286171438", "start": "2:26:13" }
+      { "name": "1", "twitch": "286171438", "soft_start": "2:26:13", "segment": 1 }
     ]
   },
   {
