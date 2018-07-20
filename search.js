@@ -198,6 +198,7 @@ var Redirect = {
     "284955107": "/links/stalker-soc.html#284955107",
     "285753398": "/links/stalker-soc.html#285753398",
     "286171438.1": "/links/stalker-cs.html#286171438.1",
+    "286989766": "/links/stalker-cs.html#286989766",
     "281472149": "/links/garage.html#281472149",
     "280767310.1": "/links/re5.html#280767310.1",
     "281472149.3": "/links/re5.html#281472149.3",
