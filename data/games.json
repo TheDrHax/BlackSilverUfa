@@ -550,7 +550,8 @@
     "category": "ongoing",
     "filename": "stalker-cs.html",
     "streams": [
-      { "name": "1", "twitch": "286171438", "soft_start": "2:26:13", "segment": 1 }
+      { "name": "1", "twitch": "286171438", "soft_start": "2:26:13", "segment": 1 },
+      { "name": "2", "twitch": "286989766", "soft_start": "26:28" }
     ]
   },
   {
@@ -568,7 +569,8 @@
     "filename": "re5.html",
     "streams": [
       { "name": "1", "twitch": "280767310", "segment": 1, "soft_start": "2:02:15" },
-      { "name": "2", "twitch": "281472149", "segment": 3, "soft_start": "4:07:17" }
+      { "name": "2", "twitch": "281472149", "segment": 3, "soft_start": "4:07:17" },
+      { "name": "3", "twitch": "286989766", "start": "3:18:42" }
     ]
   },
   {
