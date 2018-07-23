@@ -453,6 +453,15 @@
     ]
   },
   {
+    "name": "Благотворительные стримы",
+    "category": "other",
+    "filename": "charity.html",
+    "streams": [
+      { "name": "1", "twitch": "274295872" },
+      { "name": "2", "twitch": "287810258" }
+    ]
+  },
+  {
     "name": "IRL",
     "category": "other",
     "filename": "events.html",
