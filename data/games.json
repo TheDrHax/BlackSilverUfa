@@ -34,7 +34,7 @@
       { "name": "Mount Your Friends 3D", "twitch": "281859149", "start": "2:05:40" },
       { "name": "Drunk-Fu: Wasted Masters", "twitch": "284156303", "start": "3:26:53" },
       { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" },
-      { "name": "No Man's Sky", "twitch": "288630615", "start": "1:45:29" }
+      { "name": "No Man's Sky", "twitch": "288630615", "start": "1:45:29", "segment": 1 }
     ]
   },
   {
@@ -568,7 +568,7 @@
     "streams": [
       { "name": "1", "twitch": "286171438", "soft_start": "2:26:13", "segment": 1 },
       { "name": "2", "twitch": "286989766", "soft_start": "26:28", "segment": 0 },
-      { "name": "3", "twitch": "288630615", "soft_start": "21:48" }
+      { "name": "3", "twitch": "288630615", "soft_start": "21:48", "segment": 0 }
     ]
   },
   {
