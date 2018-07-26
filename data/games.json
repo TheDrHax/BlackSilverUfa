@@ -14,7 +14,7 @@
     "filename": "no-mans-sky.html",
     "streams": [
       { "name": "1 (с Джеком)", "twitch": "288630615", "soft_start": "1:45:29", "segment": 1 },
-      { "name": "2", "twitch": "289052085", "soft_start": "17:34" }
+      { "name": "2", "twitch": "289052085", "soft_start": "17:34", "segment": 0 }
     ]
   },
   {
@@ -547,7 +547,7 @@
       { "name": "Curse in our heads", "twitch": "281472149", "segment": 1, "soft_start": "2:36:30" },
       { "name": "Fear the Wolves", "twitch": "282977516", "soft_start": "11:59" },
       { "name": "Cluster Truck / Party Hard", "twitch": "287810258", "soft_start": "15:06" },
-      { "name": "Adoption", "twitch": "289052085", "start": "2:16:41" }
+      { "name": "Adoption", "twitch": "289052085", "soft_start": "2:16:41", "segment": 1 }
     ]
   },
   {
@@ -578,7 +578,7 @@
       { "name": "1", "twitch": "286171438", "soft_start": "2:26:13", "segment": 1 },
       { "name": "2", "twitch": "286989766", "soft_start": "26:28", "segment": 0 },
       { "name": "3", "twitch": "288630615", "soft_start": "21:48", "segment": 0 },
-      { "name": "4", "twitch": "289052085", "start": "3:21:54" }
+      { "name": "4", "twitch": "289052085", "soft_start": "3:21:54", "segment": 2 }
     ]
   },
   {
