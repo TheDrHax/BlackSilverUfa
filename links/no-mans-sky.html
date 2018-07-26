@@ -116,38 +116,34 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/289052085">289052085</a></li>
     <li>Субтитры: <a href="../chats/v289052085.ass">v289052085.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=jFWlePURaDI">jFWlePURaDI</a></li>
+
   </ul>
+  <li>Эта запись смещена на -00:07 от начала стрима</li>
   <li>Связанные игры:</li>
   <ul>
-    <li><a href="/links/first.html">Первый взгляд</a> — <a href="/links/first.html#289052085">Adoption</a></li>
-    <li><a href="/links/stalker-cs.html">S.T.A.L.K.E.R.: Clear Sky + Mystery</a> — <a href="/links/stalker-cs.html#289052085">4</a></li>
+    <li><a href="/links/first.html">Первый взгляд</a> — <a href="/links/first.html#289052085.1">Adoption</a></li>
+    <li><a href="/links/stalker-cs.html">S.T.A.L.K.E.R.: Clear Sky + Mystery</a> — <a href="/links/stalker-cs.html#289052085.2">4</a></li>
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(1054)">17:34</a> - No Man's Sky</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(8194)">02:16:34</a> - Adoption</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(12114)">03:21:54</a> - S.T.A.L.K.E.R.: Clear Sky: Mystery</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(1061)">17:41</a> - No Man's Sky</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(8201)">02:16:41</a> - Adoption</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(12121)">03:22:01</a> - S.T.A.L.K.E.R.: Clear Sky: Mystery</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-1" data-name="2" data-twitch="289052085" style="display: none" />
+  <p class="stream col" id="wrapper-1" data-name="2" data-offset="-00:07" data-twitch="289052085" data-youtube="jFWlePURaDI" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v289052085.ass" --player-passthrough hls twitch.tv/videos/289052085 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v289052085.ass --sub-delay=7 ytdl://jFWlePURaDI
 </code></pre>
 </div></div>
 
@@ -235,7 +231,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-autohidingnavbar/4.0.0/jquery.bootstrap-autohidingnavbar.min.js"></script>
-    <script src="/search.js?hash=5ff7cf71f8b995d91731a03625818fe2"></script>
+    <script src="/search.js?hash=b2a782a1950eb168606dea4f4dd4f448"></script>
     <script type="text/javascript">
       Search.init("#search");
       $(".fixed-top").autoHidingNavbar({});
