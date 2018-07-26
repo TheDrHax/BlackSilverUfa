@@ -87,8 +87,8 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.twitch.tv/blackufa_twitch/">
-                  <i class="fab fa-twitch"></i> BlackUFA_Twitch
+                <a href="https://www.twitch.tv/blackufa/">
+                  <i class="fab fa-twitch"></i> BlackUFA
                 </a>
               </li>
             </ul>
