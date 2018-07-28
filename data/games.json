@@ -42,8 +42,16 @@
       { "name": "Call of Duty WWII: Nazi Zombies", "twitch": "278920291", "segment": 1, "soft_start": "2:13:15" },
       { "name": "Mount Your Friends 3D", "twitch": "281859149", "start": "2:05:40" },
       { "name": "Drunk-Fu: Wasted Masters", "twitch": "284156303", "start": "3:26:53" },
-      { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" },
-      { "name": "Escape From Tarkov", "twitch": "289825003", "soft_start": "29:19" }
+      { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" }
+    ]
+  },
+  {
+    "name": "Escape From Tarkov",
+    "category": "co-op-series",
+    "filename": "tarkov.html",
+    "streams": [
+      { "name": "1", "twitch": "289825003", "soft_start": "29:19" },
+      { "name": "2", "twitch": "290213414", "start": "2:37:49" }
     ]
   },
   {
@@ -487,7 +495,8 @@
     "streams": [
       { "name": "1", "twitch": "215974261" },
       { "name": "2", "twitch": "220513992" },
-      { "name": "3", "twitch": "239731404" }
+      { "name": "3", "twitch": "239731404" },
+      { "name": "4", "twitch": "290213414", "soft_start": "22:35" }
     ]
   },
   {
@@ -548,7 +557,8 @@
       { "name": "Curse in our heads", "twitch": "281472149", "segment": 1, "soft_start": "2:36:30" },
       { "name": "Fear the Wolves", "twitch": "282977516", "soft_start": "11:59" },
       { "name": "Cluster Truck / Party Hard", "twitch": "287810258", "soft_start": "15:06" },
-      { "name": "Adoption", "twitch": "289052085", "soft_start": "2:16:34", "segment": 1 }
+      { "name": "Adoption", "twitch": "289052085", "soft_start": "2:16:34", "segment": 1 },
+      { "name": "True Fear: Forsaken Souls Part 1", "twitch": "290213414", "start": "1:56:42" }
     ]
   },
   {
