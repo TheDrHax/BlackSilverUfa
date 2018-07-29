@@ -51,7 +51,7 @@
     "filename": "tarkov.html",
     "streams": [
       { "name": "1", "twitch": "289825003", "soft_start": "29:19" },
-      { "name": "2", "twitch": "290213414", "start": "2:37:49" }
+      { "name": "2", "twitch": "290213414", "soft_start": "2:37:49", "segment": 2 }
     ]
   },
   {
@@ -496,7 +496,7 @@
       { "name": "1", "twitch": "215974261" },
       { "name": "2", "twitch": "220513992" },
       { "name": "3", "twitch": "239731404" },
-      { "name": "4", "twitch": "290213414", "soft_start": "22:35" }
+      { "name": "4", "twitch": "290213414", "soft_start": "22:35", "segment": 0 }
     ]
   },
   {
@@ -558,7 +558,7 @@
       { "name": "Fear the Wolves", "twitch": "282977516", "soft_start": "11:59" },
       { "name": "Cluster Truck / Party Hard", "twitch": "287810258", "soft_start": "15:06" },
       { "name": "Adoption", "twitch": "289052085", "soft_start": "2:16:34", "segment": 1 },
-      { "name": "True Fear: Forsaken Souls Part 1", "twitch": "290213414", "start": "1:56:42" }
+      { "name": "True Fear: Forsaken Souls Part 1", "twitch": "290213414", "soft_start": "1:56:42", "segment": 1 }
     ]
   },
   {
