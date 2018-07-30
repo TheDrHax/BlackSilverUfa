@@ -30,7 +30,6 @@
       { "name": "Witch It / PlayerUnknown's Battlegrounds", "twitch": "207753795" },
       { "name": "The Hunter: Call of the Wild / Road Redemption", "twitch": "213247693" },
       { "name": "Viscera Cleanup Detail / Astroneer", "twitch": "213846142", "start": "1:58:00" },
-      { "name": "Hunt: Showdown", "twitch": "225279322", "segment": 0 },
       { "name": "Desolate", "twitch": "227264292" },
       { "name": "Party Panic", "twitch": "232346216" },
       { "name": "Deep Rock Galactic", "twitch": "234037742", "segment": 0 },
@@ -43,6 +42,15 @@
       { "name": "Mount Your Friends 3D", "twitch": "281859149", "start": "2:05:40" },
       { "name": "Drunk-Fu: Wasted Masters", "twitch": "284156303", "start": "3:26:53" },
       { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" }
+    ]
+  },
+  {
+    "name": "Hunt: Showdown",
+    "category": "co-op-series",
+    "filename": "hunt-showdown.html",
+    "streams": [
+      { "name": "1", "twitch": "225279322", "segment": 0 },
+      { "name": "2", "twitch": "289825003", "start": "3:18:02" }
     ]
   },
   {
