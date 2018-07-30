@@ -27,6 +27,7 @@ var Redirect = {
     "287404564": "/links/hand-simulator.html#287404564",
     "289825003": "/links/tarkov.html#289825003",
     "290213414.2": "/links/tarkov.html#290213414.2",
+    "290597816.1": "/links/tarkov.html#290597816.1",
     "283350700": "/links/crazy-ls.html#283350700",
     "286171438": "/links/crazy-ls.html#286171438",
     "272058083.1": "/links/tabg.html#272058083.1",
