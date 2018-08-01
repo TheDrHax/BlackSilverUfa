@@ -208,48 +208,32 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/291392607">291392607</a></li>
     <li>Субтитры: <a href="../chats/v291392607.ass">v291392607.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=uc3FDnhrkYE">uc3FDnhrkYE</a></li>
+
   </ul>
+  <li>Эта запись смещена на 03:11:16 от начала стрима</li>
   <li>Связанные игры:</li>
   <ul>
     <li><a href="/links/stalker-cs.html">S.T.A.L.K.E.R.: Clear Sky + Mystery</a> — <a href="/links/stalker-cs.html#291392607">5</a></li>
   </ul>
     <li>Таймкоды:</li>
   <ul>
-      <li>Трейлеры:</li>
-  <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(598)">09:58</a> - Фильм Venom</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(953)">15:53</a> - The Sinking City</li>
-  </ul>
-
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(1394)">23:14</a> - S.T.A.L.K.E.R.: Clear Sky + Mystery</li>
-      <li>Escape From Tarkov:</li>
-  <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(11424)">03:10:24</a> - Внезапный Артём</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(11519)">03:11:59</a> - Меню</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(11769)">03:16:09</a> - Игра</li>
-  </ul>
-
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(43)">00:43</a> - Меню</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(293)">04:53</a> - Игра</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-3" data-name="4" data-segment="1" data-twitch="291392607" style="display: none" />
+  <p class="stream col" id="wrapper-3" data-name="4" data-offset="03:11:16" data-segment="1" data-twitch="291392607" data-youtube="uc3FDnhrkYE" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v291392607.ass" --player-passthrough hls twitch.tv/videos/291392607 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v291392607.ass --sub-delay=-11476 ytdl://uc3FDnhrkYE
 </code></pre>
 </div></div>
 
