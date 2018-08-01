@@ -61,7 +61,7 @@
       { "name": "1", "twitch": "289825003", "soft_start": "29:19" },
       { "name": "2", "twitch": "290213414", "soft_start": "2:37:48", "segment": 2 },
       { "name": "3", "twitch": "290597816", "soft_start": "3:29:49", "segment": 1 },
-      { "name": "4", "twitch": "291392607", "start": "3:11:59" }
+      { "name": "4", "twitch": "291392607", "soft_start": "3:11:59", "segment": 1 }
     ]
   },
   {
@@ -601,7 +601,7 @@
       { "name": "2", "twitch": "286989766", "soft_start": "26:28", "segment": 0 },
       { "name": "3", "twitch": "288630615", "soft_start": "21:48", "segment": 0 },
       { "name": "4", "twitch": "289052085", "soft_start": "3:21:54", "segment": 2 },
-      { "name": "5", "twitch": "291392607", "soft_start": "23:14" }
+      { "name": "5", "twitch": "291392607", "soft_start": "23:14", "segment": 0 }
     ]
   },
   {
