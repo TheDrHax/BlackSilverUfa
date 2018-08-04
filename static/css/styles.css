@@ -51,7 +51,7 @@ footer .footer-copyright a {
 }
 
 .plyr {
-  max-width: calc(100vh / 9 * 16);
+  max-width: calc(100vh / 9 * 16) !important;
 }
 
 /*
