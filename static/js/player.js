@@ -149,6 +149,13 @@ function spawnPlyr(wrapper, callback) {
     player.on('enterfullscreen', subResize);
     player.on('exitfullscreen', subResize);
     window.addEventListener('resize', debounce(subResize, 100, false));
+
+    // Workaround for starting video from saved position
+    function playpause(event) {
+      player.play();
+      player.pause();
+    }
+    player.on('ready', playpause);
   } else if (wrapper.dataset.vk) {
     // Fix misplaced canvas (appears under the video before the start)
     subtitles.canvas.style.marginTop = '-150px';
