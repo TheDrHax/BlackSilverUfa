@@ -32,6 +32,7 @@ var Redirect = {
     "283350700": "/links/crazy-ls.html#283350700",
     "286171438": "/links/crazy-ls.html#286171438",
     "292591348": "/links/first.html#292591348",
+    "293012700": "/links/sea-of-thieves.html#293012700",
     "272058083.1": "/links/tabg.html#272058083.1",
     "282238591": "/links/hand-simulator.html#282238591",
     "202631693": "/links/human-fall-flat.html#202631693",
@@ -402,7 +403,6 @@ var Search = {
     "Monster Hunter World": "/links/monster-hunter-world.html",
     "NieR Automata": "/links/nier-automata.html",
     "Super Mario Odyssey": "/links/super-mario-odyssey.html",
-    "Sea of Thieves": "/links/sea-of-thieves.html",
     "CASE 2: Animatronics Survival": "/links/case-2.html",
     "The Crew 2": "/links/crew-2.html",
     "Hot Lava": "/links/hot-lava.html",
@@ -457,6 +457,7 @@ var Search = {
     "S.O.S.": "/links/sos.html",
     "Hand Simulator": "/links/hand-simulator.html",
     "Totally Accurate Battlegrounds": "/links/tabg.html",
+    "Sea of Thieves": "/links/sea-of-thieves.html",
   },
 
   select: function (value) {
