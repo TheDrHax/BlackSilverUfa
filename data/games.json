@@ -81,7 +81,8 @@
     "streams": [
       { "name": "1", "twitch": "281859149", "start": "1:00:58" },
       { "name": "2", "twitch": "284156303", "start": "3:31:10" },
-      { "name": "3", "twitch": "287404564", "start": "4:26:16" }
+      { "name": "3", "twitch": "287404564", "start": "4:26:16" },
+      { "name": "4", "twitch": "293012700", "start": "3:26:25" }
     ]
   },
   {
@@ -173,7 +174,8 @@
       { "name": "3", "twitch": "206394832", "start": "4:36:00" },
       { "name": "4", "twitch": "281859149", "start": "4:22:10" },
       { "name": "5", "twitch": "284156303", "start": "4:15:10" },
-      { "name": "6", "twitch": "287404564", "start": "3:56:53" }
+      { "name": "6", "twitch": "287404564", "start": "3:56:53" },
+      { "name": "7", "twitch": "293012700", "start": "4:28:06" }
     ]
   },
   {
@@ -512,12 +514,13 @@
   },
   {
     "name": "Sea of Thieves",
-    "category": "irregular",
+    "category": "co-op-series",
     "filename": "sea-of-thieves.html",
     "streams": [
       { "name": "0 (бета)", "twitch": "223945520" },
       { "name": "1", "twitch": "240830747" },
-      { "name": "2", "twitch": "241201704" }
+      { "name": "2", "twitch": "241201704" },
+      { "name": "3 (Cursed Sails)", "twitch": "293012700", "soft_start": "28:05" }
     ]
   },
   {
@@ -589,7 +592,8 @@
     "filename": "case-2.html",
     "streams": [
       { "name": "1.1 (прерван)", "twitch": "291791543", "soft_start": "1:19:29", "segment": 1 },
-      { "name": "1.2", "twitch": "291816147", "soft_start": "2:39", "segment": 0 }
+      { "name": "1.2", "twitch": "291816147", "soft_start": "2:39", "segment": 0 },
+      { "name": "2 (кооп)", "twitch": "293012700", "start": "2:58:54" }
     ]
   },
   {
