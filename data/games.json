@@ -41,7 +41,8 @@
       { "name": "Call of Duty WWII: Nazi Zombies", "twitch": "278920291", "segment": 1, "soft_start": "2:13:15" },
       { "name": "Mount Your Friends 3D", "twitch": "281859149", "start": "2:05:40" },
       { "name": "Drunk-Fu: Wasted Masters", "twitch": "284156303", "start": "3:26:53" },
-      { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" }
+      { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" },
+      { "name": "CASE 2: Animatronics Survival (кооп)", "twitch": "293012700", "start": "2:58:54" }
     ]
   },
   {
@@ -61,7 +62,8 @@
       { "name": "1", "twitch": "289825003", "soft_start": "29:19" },
       { "name": "2", "twitch": "290213414", "soft_start": "2:37:48", "segment": 2 },
       { "name": "3", "twitch": "290597816", "soft_start": "3:29:49", "segment": 1 },
-      { "name": "4", "twitch": "291392607", "soft_start": "3:11:59", "segment": 1 }
+      { "name": "4", "twitch": "291392607", "soft_start": "3:11:59", "segment": 1 },
+      { "name": "5", "twitch": "293415850", "start": "4:17:57" }
     ]
   },
   {
@@ -420,7 +422,8 @@
       },
       { "name": "Lust for Darkness", "twitch": "273929911", "start": "2:52:24" },
       { "name": "Shininng Hotel: Lost in Nowhere / Midnight Awake / Pamali (демо)", "twitch": "275418948", "start": "3:15:14" },
-      { "name": "The Awesome Adventures of Captain Spirit", "twitch": "278566845", "segment": 0, "soft_start": "23:46" }
+      { "name": "The Awesome Adventures of Captain Spirit", "twitch": "278566845", "segment": 0, "soft_start": "23:46" },
+      { "name": "Dead Forest", "twitch": "293415850", "soft_start": "20:18" }
     ]
   },
   {
@@ -574,7 +577,8 @@
       { "name": "Adoption", "twitch": "289052085", "soft_start": "2:16:34", "segment": 1 },
       { "name": "True Fear: Forsaken Souls Part 1", "twitch": "290213414", "soft_start": "1:56:42", "segment": 1 },
       { "name": "Fractured Lands", "twitch": "291791543", "soft_start": "11:58", "segment": 0 },
-      { "name": "Egress", "twitch": "292591348", "soft_start": "5:31" }
+      { "name": "Egress", "twitch": "292591348", "soft_start": "5:31" },
+      { "name": "PUSS! / Chasm / Airships: Conquer the Skies", "twitch": "293415850", "start": "34:27" }
     ]
   },
   {
@@ -588,12 +592,12 @@
   },
   {
     "name": "CASE 2: Animatronics Survival",
-    "category": "irregular",
+    "category": "ongoing",
     "filename": "case-2.html",
     "streams": [
       { "name": "1.1 (прерван)", "twitch": "291791543", "soft_start": "1:19:29", "segment": 1 },
       { "name": "1.2", "twitch": "291816147", "soft_start": "2:39", "segment": 0 },
-      { "name": "2 (кооп)", "twitch": "293012700", "start": "2:58:54" }
+      { "name": "2", "twitch": "293415850", "start": "2:41:59" }
     ]
   },
   {
