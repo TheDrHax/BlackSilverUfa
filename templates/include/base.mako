@@ -46,6 +46,8 @@
               % for category in categories:
                 <a class="dropdown-item" href="/#${category['code']}">${category['name']}</a>
               % endfor
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/missing.html">Стримы без официальных записей</a>
               </div>
             </li>
           </ul>
