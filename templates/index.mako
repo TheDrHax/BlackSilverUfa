@@ -18,7 +18,7 @@
 
 % for category in categories:
   ## Заголовок категории
-  <%el:header level="${category['level']}">
+  <%el:header level="${category['level']}" id="${category['code']}">
     ${category['name']}
   </%el:header>
 

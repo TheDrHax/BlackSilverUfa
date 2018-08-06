@@ -38,8 +38,19 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
-          <form class="form-inline">
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Категории</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              % for category in categories:
+                <a class="dropdown-item" href="/#${category['code']}">${category['name']}</a>
+              % endfor
+              </div>
+            </li>
+          </ul>
+
+          <form class="form-inline ml-auto">
             <input class="form-control" type="search" id="search" placeholder="Быстрый переход" aria-label="Search">
           </form>
         </div>

@@ -8,8 +8,12 @@
 </div></div>
 </%def>
 
-<%def name="header(level=1)">\
+<%def name="header(level=1, id=None)">\
+% if id:
+<h${level} id="${id}">${caller.body()}</h${level}>\
+% else:
 <h${level}>${caller.body()}</h${level}>\
+% endif
 </%def>
 
 <%def name="game_link(game)">\
