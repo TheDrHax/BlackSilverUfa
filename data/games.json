@@ -10,7 +10,7 @@
   },
   {
     "name": "No Man's Sky",
-    "category": "irregular",
+    "category": "infinite",
     "filename": "no-mans-sky.html",
     "streams": [
       { "name": "1 (с Джеком)", "twitch": "288630615", "soft_start": "1:45:29", "segment": 1 },
@@ -231,7 +231,7 @@
   },
   {
     "name": "Warhammer: Vermintide 2",
-    "category": "irregular",
+    "category": "co-op-series",
     "filename": "warhammer-vermintide-2.html",
     "streams": [
       { "name": "1 (бета)", "twitch": "234037742", "segment": 1 },
@@ -312,7 +312,7 @@
   },
   {
     "name": "Monster Hunter World",
-    "category": "irregular",
+    "category": "co-op-series",
     "filename": "monster-hunter-world.html",
     "streams": [
       { "name": "1", "twitch": "208349646" },
@@ -324,7 +324,7 @@
   },
   {
     "name": "NieR Automata",
-    "category": "irregular",
+    "category": "ongoing",
     "filename": "nier-automata.html",
     "streams": [
       { "name": "1", "twitch": "215612485" },
@@ -428,7 +428,7 @@
   },
   {
     "name": "Super Mario Odyssey",
-    "category": "irregular",
+    "category": "ongoing",
     "filename": "super-mario-odyssey.html",
     "streams": [
       { "name": "1", "twitch": "185763905" },
@@ -602,7 +602,7 @@
   },
   {
     "name": "The Crew 2",
-    "category": "irregular",
+    "category": "infinite",
     "filename": "crew-2.html",
     "streams": [
       { "name": "1", "twitch": "276606545", "soft_start": "21:27" },
@@ -655,7 +655,7 @@
   },
   {
     "name": "Hot Lava",
-    "category": "irregular",
+    "category": "infinite",
     "filename": "hot-lava.html",
     "streams": [
       { "name": "1", "twitch": "278920291", "segment": 0, "soft_start": "17:21" },
@@ -664,7 +664,7 @@
   },
   {
     "name": "Wreckfest",
-    "category": "irregular",
+    "category": "infinite",
     "filename": "wreckfest.html",
     "streams": [
       { "name": "1", "twitch": "276648637" },
@@ -673,7 +673,7 @@
   },
   {
     "name": "Witch Hunt",
-    "category": "irregular",
+    "category": "infinite",
     "filename": "witch-hunt.html",
     "streams": [
       { "name": "1", "twitch": "274651226", "soft_start": "15:49" },
@@ -692,7 +692,7 @@
   },
   {
     "name": "Immortal Redneck",
-    "category": "irregular",
+    "category": "infinite",
     "filename": "immortal-redneck.html",
     "streams": [
       { "name": "1", "twitch": "268900992", "soft_start": "14:10" },
@@ -715,7 +715,7 @@
   },
   {
     "name": "Moonlighter",
-    "category": "irregular",
+    "category": "infinite",
     "filename": "moonlighter.html",
     "streams": [
       { "name": "1", "twitch": "267726322", "start": "46:21" },
@@ -888,7 +888,7 @@
   },
   {
     "name": "Getting Over It",
-    "category": "irregular",
+    "category": "infinite",
     "filename": "getting-over-it.html",
     "streams": [
       { "name": "1", "twitch": "219819121", "start": "1:52:00" },

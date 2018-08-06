@@ -44,7 +44,11 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Категории</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               % for category in categories:
-                <a class="dropdown-item" href="/#${category['code']}">${category['name']}</a>
+                % if category['level'] == 2:
+                  <a class="dropdown-item" href="/#${category['code']}"><b>${category['name']}</b></a>
+                % else:
+                  <a class="dropdown-item" href="/#${category['code']}">${category['name']}</a>
+                % endif
               % endfor
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="/missing.html">Стримы без официальных записей</a>
