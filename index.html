@@ -40,8 +40,27 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
-          <form class="form-inline">
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Категории</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/#finished"><b>Завершённые прохождения</b></a>
+                  <a class="dropdown-item" href="/#single">Прохождения за один стрим</a>
+                  <a class="dropdown-item" href="/#first">Первый взгляд</a>
+                  <a class="dropdown-item" href="/#ongoing"><b>В процессе</b></a>
+                  <a class="dropdown-item" href="/#infinite">Несюжетные</a>
+                  <a class="dropdown-item" href="/#abandoned">Заброшенные</a>
+                  <a class="dropdown-item" href="/#co-op"><b>Несюжетные коопы</b></a>
+                  <a class="dropdown-item" href="/#co-op-series">Серии несюжетных коопов</a>
+                  <a class="dropdown-item" href="/#other"><b>IRL, мероприятия, особые стримы</b></a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/missing.html">Стримы без официальных записей</a>
+              </div>
+            </li>
+          </ul>
+
+          <form class="form-inline ml-auto">
             <input class="form-control" type="search" id="search" placeholder="Быстрый переход" aria-label="Search">
           </form>
         </div>
@@ -66,7 +85,7 @@
 </div>
 
 
-  <h2>
+  <h2 id="finished">
     Завершённые прохождения
   </h2>
 
@@ -206,7 +225,7 @@
         <noscript><img class="card-img-top" src="https://img.youtube.com/vi/3JWvBb9uHvU/mqdefault.jpg" /></noscript>
         <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/3JWvBb9uHvU/mqdefault.jpg" />
         <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            God of War (2018)
+            God of War
         </div>
         <div class="card-img-overlay card-badge">
           <span class="badge badge-primary">
@@ -393,7 +412,7 @@
       </div>
     </div>
   </div>
-  <h3>
+  <h3 id="single">
     Прохождения за один стрим
   </h3>
 
@@ -631,7 +650,7 @@
       </div>
     </div>
   </div>
-  <h3>
+  <h3 id="first">
     Первый взгляд
   </h3>
 
@@ -1101,7 +1120,7 @@
       </div>
     </div>
   </div>
-  <h2>
+  <h2 id="ongoing">
     В процессе
   </h2>
 
@@ -1205,6 +1224,22 @@
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
+        <a href="/links/nier-automata.html">
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/PSFYqx5cHvk/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/PSFYqx5cHvk/mqdefault.jpg" />
+        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+            NieR Automata
+        </div>
+        <div class="card-img-overlay card-badge">
+          <span class="badge badge-primary">
+            8 стримов
+          </span>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
+      <div class="card h-100">
         <a href="/links/persona_5.html">
         <noscript><img class="card-img-top" src="https://img.youtube.com/vi/-c8n0TR5-no/mqdefault.jpg" /></noscript>
         <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/-c8n0TR5-no/mqdefault.jpg" />
@@ -1269,6 +1304,22 @@
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
+        <a href="/links/super-mario-odyssey.html">
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/kkeGLQrrkAM/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/kkeGLQrrkAM/mqdefault.jpg" />
+        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+            Super Mario Odyssey
+        </div>
+        <div class="card-img-overlay card-badge">
+          <span class="badge badge-primary">
+            4 стрима
+          </span>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
+      <div class="card h-100">
         <a href="/links/road-trip.html">
         <noscript><img class="card-img-top" src="https://img.youtube.com/vi/LYUPvm7teuU/mqdefault.jpg" /></noscript>
         <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/LYUPvm7teuU/mqdefault.jpg" />
@@ -1300,11 +1351,11 @@
       </div>
     </div>
   </div>
-  <h3>
-    Нерегулярные
+  <h3 id="infinite">
+    Несюжетные
   </h3>
 
-    <p>Игры или серии стримов, которые обновляются очень редко. Здесь находятся главные кандидаты на попадание в категорию незавершённых прохождений.</p>
+    <p>Прохождения без сюжета или без возможного логического завершения в обозримом будущем.</p>
 
   <div class="row">
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
@@ -1357,22 +1408,6 @@
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
-        <a href="/links/monster-hunter-world.html">
-        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/gUtKWEEyzPE/mqdefault.jpg" /></noscript>
-        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/gUtKWEEyzPE/mqdefault.jpg" />
-        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            Monster Hunter World
-        </div>
-        <div class="card-img-overlay card-badge">
-          <span class="badge badge-primary">
-            5 стримов
-          </span>
-        </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-      <div class="card h-100">
         <a href="/links/moonlighter.html">
         <noscript><img class="card-img-top" src="https://img.youtube.com/vi/biw1r5sdI0E/mqdefault.jpg" /></noscript>
         <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/biw1r5sdI0E/mqdefault.jpg" />
@@ -1382,22 +1417,6 @@
         <div class="card-img-overlay card-badge">
           <span class="badge badge-primary">
             2 стрима
-          </span>
-        </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-      <div class="card h-100">
-        <a href="/links/nier-automata.html">
-        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/PSFYqx5cHvk/mqdefault.jpg" /></noscript>
-        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/PSFYqx5cHvk/mqdefault.jpg" />
-        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            NieR Automata
-        </div>
-        <div class="card-img-overlay card-badge">
-          <span class="badge badge-primary">
-            8 стримов
           </span>
         </div>
         </a>
@@ -1421,22 +1440,6 @@
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
-        <a href="/links/super-mario-odyssey.html">
-        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/kkeGLQrrkAM/mqdefault.jpg" /></noscript>
-        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/kkeGLQrrkAM/mqdefault.jpg" />
-        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            Super Mario Odyssey
-        </div>
-        <div class="card-img-overlay card-badge">
-          <span class="badge badge-primary">
-            4 стрима
-          </span>
-        </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-      <div class="card h-100">
         <a href="/links/crew-2.html">
         <noscript><img class="card-img-top" src="https://img.youtube.com/vi/k39gOXGsXUY/mqdefault.jpg" /></noscript>
         <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/k39gOXGsXUY/mqdefault.jpg" />
@@ -1446,22 +1449,6 @@
         <div class="card-img-overlay card-badge">
           <span class="badge badge-primary">
             2 стрима
-          </span>
-        </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-      <div class="card h-100">
-        <a href="/links/warhammer-vermintide-2.html">
-        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/y1vRhT6GRLg/mqdefault.jpg" /></noscript>
-        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/y1vRhT6GRLg/mqdefault.jpg" />
-        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            Warhammer: Vermintide 2
-        </div>
-        <div class="card-img-overlay card-badge">
-          <span class="badge badge-primary">
-            6 стримов
           </span>
         </div>
         </a>
@@ -1500,11 +1487,11 @@
       </div>
     </div>
   </div>
-  <h3>
-    Незавершённые
+  <h3 id="abandoned">
+    Заброшенные
   </h3>
 
-    <p>Прохождения, вероятность продолжения которых <i>крайне</i> мала.</p>
+    <p>Прохождения, вероятность продолжения которых <i>крайне</i> мала. Это как первый взгляд, только в течение нескольких стримов.</p>
 
   <div class="row">
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
@@ -1588,80 +1575,9 @@
       </div>
     </div>
   </div>
-  <h2>
-    Другое
-  </h2>
-
-
-  <div class="row">
-    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-      <div class="card h-100">
-        <a href="/links/events.html">
-        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/tj3Rx47t8FI/mqdefault.jpg" /></noscript>
-        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/tj3Rx47t8FI/mqdefault.jpg" />
-        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            IRL
-        </div>
-        <div class="card-img-overlay card-badge">
-          <span class="badge badge-primary">
-            2 стрима
-          </span>
-        </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-      <div class="card h-100">
-        <a href="/links/charity.html">
-        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/iAYfQL3khQA/mqdefault.jpg" /></noscript>
-        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/iAYfQL3khQA/mqdefault.jpg" />
-        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            Благотворительные стримы
-        </div>
-        <div class="card-img-overlay card-badge">
-          <span class="badge badge-primary">
-            2 стрима
-          </span>
-        </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-      <div class="card h-100">
-        <a href="/links/e3_2017.html">
-        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/RAb8T5n0r5Q/mqdefault.jpg" /></noscript>
-        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/RAb8T5n0r5Q/mqdefault.jpg" />
-        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            неПрофессиональный E3 2017
-        </div>
-        <div class="card-img-overlay card-badge">
-          <span class="badge badge-primary">
-            7 стримов
-          </span>
-        </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-      <div class="card h-100">
-        <a href="/links/e3_2018.html">
-        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/77QMDHsMHh4/mqdefault.jpg" /></noscript>
-        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/77QMDHsMHh4/mqdefault.jpg" />
-        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            неСерьёзный E3 2018
-        </div>
-        <div class="card-img-overlay card-badge">
-          <span class="badge badge-primary">
-            8 стримов
-          </span>
-        </div>
-        </a>
-      </div>
-    </div>
-  </div>
-  <h3>
+  <h2 id="co-op">
     Несюжетные коопы
-  </h3>
+  </h2>
 
 
   <div class="row">
@@ -1897,7 +1813,7 @@
       </div>
     </div>
   </div>
-  <h3>
+  <h3 id="co-op-series">
     Серии несюжетных коопов
   </h3>
 
@@ -2065,6 +1981,22 @@
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
+        <a href="/links/monster-hunter-world.html">
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/gUtKWEEyzPE/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/gUtKWEEyzPE/mqdefault.jpg" />
+        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+            Monster Hunter World
+        </div>
+        <div class="card-img-overlay card-badge">
+          <span class="badge badge-primary">
+            5 стримов
+          </span>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
+      <div class="card h-100">
         <a href="/links/realm-royale.html">
         <noscript><img class="card-img-top" src="https://img.youtube.com/vi/kJ2UiAsvgew/mqdefault.jpg" /></noscript>
         <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/kJ2UiAsvgew/mqdefault.jpg" />
@@ -2145,6 +2077,22 @@
     </div>
     <div class="col-sm-6 col-md-4 col-lg-3 col-card">
       <div class="card h-100">
+        <a href="/links/warhammer-vermintide-2.html">
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/y1vRhT6GRLg/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/y1vRhT6GRLg/mqdefault.jpg" />
+        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+            Warhammer: Vermintide 2
+        </div>
+        <div class="card-img-overlay card-badge">
+          <span class="badge badge-primary">
+            6 стримов
+          </span>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
+      <div class="card h-100">
         <a href="/links/we-need-to-go-deeper.html">
         <noscript><img class="card-img-top" src="https://img.youtube.com/vi/tUc-5QNu_CE/mqdefault.jpg" /></noscript>
         <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/tUc-5QNu_CE/mqdefault.jpg" />
@@ -2170,6 +2118,77 @@
         <div class="card-img-overlay card-badge">
           <span class="badge badge-primary">
             4 стрима
+          </span>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <h2 id="other">
+    IRL, мероприятия, особые стримы
+  </h2>
+
+
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
+      <div class="card h-100">
+        <a href="/links/events.html">
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/tj3Rx47t8FI/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/tj3Rx47t8FI/mqdefault.jpg" />
+        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+            IRL
+        </div>
+        <div class="card-img-overlay card-badge">
+          <span class="badge badge-primary">
+            2 стрима
+          </span>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
+      <div class="card h-100">
+        <a href="/links/charity.html">
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/iAYfQL3khQA/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/iAYfQL3khQA/mqdefault.jpg" />
+        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+            Благотворительные стримы
+        </div>
+        <div class="card-img-overlay card-badge">
+          <span class="badge badge-primary">
+            2 стрима
+          </span>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
+      <div class="card h-100">
+        <a href="/links/e3_2017.html">
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/RAb8T5n0r5Q/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/RAb8T5n0r5Q/mqdefault.jpg" />
+        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+            неПрофессиональный E3 2017
+        </div>
+        <div class="card-img-overlay card-badge">
+          <span class="badge badge-primary">
+            7 стримов
+          </span>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
+      <div class="card h-100">
+        <a href="/links/e3_2018.html">
+        <noscript><img class="card-img-top" src="https://img.youtube.com/vi/77QMDHsMHh4/mqdefault.jpg" /></noscript>
+        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="https://img.youtube.com/vi/77QMDHsMHh4/mqdefault.jpg" />
+        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+            неСерьёзный E3 2018
+        </div>
+        <div class="card-img-overlay card-badge">
+          <span class="badge badge-primary">
+            8 стримов
           </span>
         </div>
         </a>
@@ -2258,7 +2277,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-autohidingnavbar/4.0.0/jquery.bootstrap-autohidingnavbar.min.js"></script>
-    <script src="/search.js?hash=55b484c1e536edc616e84d0dea4ba27c"></script>
+    <script src="/search.js?hash=8a54dfd6477013e09d6d963b13910046"></script>
     <script type="text/javascript">
       Search.init("#search");
       $(".fixed-top").autoHidingNavbar({});
