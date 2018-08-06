@@ -770,11 +770,14 @@
 <h2 id="293415850"><a onclick="window.location.hash = '#293415850'; return false;" href="/r/?293415850">Dead Forest</a></h2>
 
 <ul>
+  <li>Официальная запись не была загружена на YouTube.</li>
+  <li>Примечание: В начале стрима нет звука, т.к. это неофициальная запись (см. таймкоды).</li>
   <li>Ссылки:</li>
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/293415850">293415850</a></li>
     <li>Субтитры: <a href="../chats/v293415850.ass">v293415850.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=vE38irVbcAI">vE38irVbcAI</a></li>
+
   </ul>
   <li>Связанные игры:</li>
   <ul>
@@ -784,6 +787,7 @@
   </ul>
     <li>Таймкоды:</li>
   <ul>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-20').seek(359)">05:59</a> - + уши (Twitch отключил звук)</li>
     <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-20').seek(1218)">20:18</a> - Dead Forest</li>
     <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-20').seek(2067)">34:27</a> - PUSS!</li>
     <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-20').seek(3260)">54:20</a> - Chasm</li>
@@ -802,21 +806,15 @@
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-20" data-_="Sub-Day" data-name="Dead Forest" data-twitch="293415850" style="display: none" />
+  <p class="stream col" id="wrapper-20" data-_="Sub-Day" data-name="Dead Forest" data-official="False" data-twitch="293415850" data-youtube="vE38irVbcAI" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v293415850.ass" --player-passthrough hls twitch.tv/videos/293415850 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v293415850.ass ytdl://vE38irVbcAI
 </code></pre>
 </div></div>
 
