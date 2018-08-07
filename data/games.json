@@ -63,7 +63,8 @@
       { "name": "2", "twitch": "290213414", "soft_start": "2:37:48", "segment": 2 },
       { "name": "3", "twitch": "290597816", "soft_start": "3:29:49", "segment": 1 },
       { "name": "4", "twitch": "291392607", "soft_start": "3:11:59", "segment": 1 },
-      { "name": "5", "twitch": "293415850", "start": "4:17:57" }
+      { "name": "5", "twitch": "293415850", "start": "4:17:57" },
+      { "name": "6", "twitch": "294220536", "start": "4:24:46" }
     ]
   },
   {
@@ -578,7 +579,8 @@
       { "name": "True Fear: Forsaken Souls Part 1", "twitch": "290213414", "soft_start": "1:56:42", "segment": 1 },
       { "name": "Fractured Lands", "twitch": "291791543", "soft_start": "11:58", "segment": 0 },
       { "name": "Egress", "twitch": "292591348", "soft_start": "5:31" },
-      { "name": "PUSS! / Chasm / Airships: Conquer the Skies", "twitch": "293415850", "start": "34:27" }
+      { "name": "PUSS! / Chasm / Airships: Conquer the Skies", "twitch": "293415850", "start": "34:27" },
+      { "name": "Dead Cells", "twitch": "294220536", "start": "2:43:07" }
     ]
   },
   {
@@ -622,14 +624,15 @@
   },
   {
     "name": "S.T.A.L.K.E.R.: Clear Sky + Mystery",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "stalker-cs.html",
     "streams": [
       { "name": "1", "twitch": "286171438", "soft_start": "2:26:13", "segment": 1 },
       { "name": "2", "twitch": "286989766", "soft_start": "26:28", "segment": 0 },
       { "name": "3", "twitch": "288630615", "soft_start": "21:48", "segment": 0 },
       { "name": "4", "twitch": "289052085", "soft_start": "3:21:54", "segment": 2 },
-      { "name": "5", "twitch": "291392607", "soft_start": "23:14", "segment": 0 }
+      { "name": "5", "twitch": "291392607", "soft_start": "23:14", "segment": 0 },
+      { "name": "6", "twitch": "294220536", "soft_start": "16:29" }
     ]
   },
   {
