@@ -76,7 +76,8 @@
     "streams": [
       { "name": "1", "twitch": "283350700", "soft_start": "16:38" },
       { "name": "2", "twitch": "286171438", "soft_start": "12:35", "segment": 0 },
-      { "name": "3", "twitch": "292591348", "start": "35:59" }
+      { "name": "3", "twitch": "292591348", "start": "35:59" },
+      { "name": "4", "twitch": "295485781", "soft_start": "11:51" }
     ]
   },
   {
