@@ -36,6 +36,7 @@ var Redirect = {
     "283350700": "/links/crazy-ls.html#283350700",
     "286171438": "/links/crazy-ls.html#286171438",
     "292591348": "/links/first.html#292591348",
+    "295485781": "/links/crazy-ls.html#295485781",
     "272058083.1": "/links/tabg.html#272058083.1",
     "282238591": "/links/hand-simulator.html#282238591",
     "202631693": "/links/human-fall-flat.html#202631693",
