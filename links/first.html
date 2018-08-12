@@ -1821,34 +1821,30 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/295925948">295925948</a></li>
     <li>Субтитры: <a href="../chats/v295925948.ass">v295925948.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=6iJkbCyHoDk">6iJkbCyHoDk</a></li>
+
   </ul>
+  <li>Эта запись смещена на -00:04 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-43').seek(1097)">18:17</a> - Меню</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-43').seek(1267)">21:07</a> - Начало игры</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-43').seek(1368)">22:48</a> - Финал LUL</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-43').seek(1487)">24:47</a> - Начало второго прохождения</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-43').seek(1101)">18:21</a> - Меню</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-43').seek(1271)">21:11</a> - Начало игры</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-43').seek(1372)">22:52</a> - Финал LUL</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-43').seek(1491)">24:51</a> - Начало второго прохождения</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-43" data-_="We Happy Few" data-name="We Happy Few" data-twitch="295925948" style="display: none" />
+  <p class="stream col" id="wrapper-43" data-name="We Happy Few" data-offset="-00:04" data-twitch="295925948" data-youtube="6iJkbCyHoDk" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v295925948.ass" --player-passthrough hls twitch.tv/videos/295925948 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v295925948.ass --sub-delay=4 ytdl://6iJkbCyHoDk
 </code></pre>
 </div></div>
 
