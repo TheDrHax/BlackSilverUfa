@@ -131,32 +131,28 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/296361246">296361246</a></li>
     <li>Субтитры: <a href="../chats/v296361246.ass">v296361246.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=_GMTx4etaAE">_GMTx4etaAE</a></li>
+
   </ul>
+  <li>Эта запись смещена на -00:04 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(735)">12:15</a> - Меню</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(848)">14:08</a> - Игра</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(739)">12:19</a> - Меню</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-1').seek(852)">14:12</a> - Игра</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-1" data-name="2" data-twitch="296361246" style="display: none" />
+  <p class="stream col" id="wrapper-1" data-name="2" data-offset="-00:04" data-twitch="296361246" data-youtube="_GMTx4etaAE" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v296361246.ass" --player-passthrough hls twitch.tv/videos/296361246 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v296361246.ass --sub-delay=4 ytdl://_GMTx4etaAE
 </code></pre>
 </div></div>
 
