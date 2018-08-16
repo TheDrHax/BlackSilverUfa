@@ -414,7 +414,6 @@
       { "name": "Remothered: Tormented Fathers", "twitch": "224600319" },
       { "name": "Shadow of the Colossus", "twitch": "226597573" },
       { "name": "Rise of Insanity", "twitch": "233711282", "soft_start": "33:29" },
-      { "name": "MONSTRUM", "twitch": "234740795", "soft_start": "19:41" },
       { "name": "Yume Nikki: Dream Diary", "twitch": "236175824", "soft_start": "24:42" },
       { "name": "A Way Out", "twitch": "241916500" },
       { "name": "Umfend", "twitch": "245043791", "start": "42:52" },
@@ -428,6 +427,15 @@
       { "name": "Shininng Hotel: Lost in Nowhere / Midnight Awake / Pamali (демо)", "twitch": "275418948", "start": "3:15:14" },
       { "name": "The Awesome Adventures of Captain Spirit", "twitch": "278566845", "segment": 0, "soft_start": "23:46" },
       { "name": "Dead Forest", "twitch": "293415850", "soft_start": "20:18" }
+    ]
+  },
+  {
+    "name": "MONSTRUM",
+    "category": "finished",
+    "filename": "monstrum.html",
+    "streams": [
+      { "name": "1", "twitch": "234740795", "soft_start": "19:41" },
+      { "name": "2", "twitch": "298040825", "start": "3:07:16" }
     ]
   },
   {
@@ -584,7 +592,8 @@
       { "name": "Egress", "twitch": "292591348", "soft_start": "5:31" },
       { "name": "PUSS! / Chasm / Airships: Conquer the Skies", "twitch": "293415850", "start": "34:27" },
       { "name": "Dead Cells", "twitch": "294220536", "start": "2:43:07" },
-      { "name": "The Walking Dead - The Final Season", "twitch": "297214143", "soft_start": "19:29" }
+      { "name": "The Walking Dead - The Final Season", "twitch": "297214143", "soft_start": "19:29" },
+      { "name": "Pineview Drive", "twitch": "298040825", "soft_start": "21:16" }
     ]
   },
   {
