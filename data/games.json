@@ -669,14 +669,15 @@
   },
   {
     "name": "Resident Evil 5",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "re5.html",
     "streams": [
       { "name": "1", "twitch": "280767310", "segment": 1, "soft_start": "2:02:15" },
       { "name": "2", "twitch": "281472149", "segment": 3, "soft_start": "4:07:17" },
       { "name": "3", "twitch": "286989766", "soft_start": "3:18:42", "segment": 1 },
       { "name": "4", "twitch": "291816147", "soft_start": "2:16:54", "segment": 2 },
-      { "name": "5", "twitch": "292591348", "start": "3:43:37" }
+      { "name": "5", "twitch": "292591348", "start": "3:43:37" },
+      { "name": "6", "twitch": "298475700", "soft_start": "12:50" }
     ]
   },
   {
