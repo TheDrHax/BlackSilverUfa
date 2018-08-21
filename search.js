@@ -295,6 +295,8 @@ var Redirect = {
     "253604008.1": "/links/god-of-war.html#253604008.1",
     "255465280": "/links/god-of-war.html#255465280",
     "255759468": "/links/god-of-war.html#255759468",
+    "296515537": "/links/zombi.html#296515537",
+    "296520826": "/links/zombi.html#296520826",
   },
 
   link: function (hash) {
@@ -416,6 +418,7 @@ var Search = {
     "Dark Souls: Remastered": "/links/ds-remastered.html",
     "Stardew Valley": "/links/stardew-walley.html",
     "Ghost of a Tale": "/links/ghost-of-a-tale.html",
+    "Zombi (VOD из 2015 года)": "/links/zombi.html",
     "No Man's Sky": "/links/no-mans-sky.html",
     "The Crew 2": "/links/crew-2.html",
     "Hot Lava": "/links/hot-lava.html",
