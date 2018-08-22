@@ -297,6 +297,8 @@ var Redirect = {
     "255759468": "/links/god-of-war.html#255759468",
     "296515537": "/links/zombi.html#296515537",
     "296520826": "/links/zombi.html#296520826",
+    "296680116": "/links/zombi.html#296680116",
+    "296680084": "/links/zombi.html#296680084",
   },
 
   link: function (hash) {
@@ -338,6 +340,7 @@ var Search = {
     "Kingdom Come: Deliverance": "/links/kingdom-come-deliverance.html",
     "Little Nightmares": "/links/little-nightmares.html",
     "God of War": "/links/god-of-war.html",
+    "Zombi (VOD из 2015 года)": "/links/zombi.html",
     "Полные прохождения за один стрим": "/links/single.html",
     "Michigan: Report from Hell": "/links/single.html#152253862",
     "Absolver": "/links/single.html#174225353",
@@ -418,7 +421,6 @@ var Search = {
     "Dark Souls: Remastered": "/links/ds-remastered.html",
     "Stardew Valley": "/links/stardew-walley.html",
     "Ghost of a Tale": "/links/ghost-of-a-tale.html",
-    "Zombi (VOD из 2015 года)": "/links/zombi.html",
     "No Man's Sky": "/links/no-mans-sky.html",
     "The Crew 2": "/links/crew-2.html",
     "Hot Lava": "/links/hot-lava.html",
