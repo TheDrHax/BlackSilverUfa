@@ -947,11 +947,13 @@
   },
   {
     "name": "Zombi (VOD из 2015 года)",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "zombi.html",
     "streams": [
       { "name": "1", "twitch": "296515537", "soft_start": "0:09" },
-      { "name": "2", "twitch": "296520826", "soft_start": "7:18" }
+      { "name": "2", "twitch": "296520826", "soft_start": "7:18" },
+      { "name": "3.1", "twitch": "296680116", "soft_start": "5:52" },
+      { "name": "3.2", "twitch": "296680084", "soft_start": "2:05" }
     ]
   }
 ]
