@@ -301,6 +301,7 @@ var Redirect = {
     "296680084": "/links/zombi.html#296680084",
     "296515241": "/links/vod.html#296515241",
     "296680707": "/links/vod.html#296680707",
+    "296729759": "/links/vod.html#296729759",
   },
 
   link: function (hash) {
@@ -484,6 +485,7 @@ var Search = {
     "VODы": "/links/vod.html",
     "Manual Samuel (2016)": "/links/vod.html#296515241",
     "Dungeon Nightmares II: The Memory / Root of Evil: The Tailor (2016, с Дашей)": "/links/vod.html#296680707",
+    "HITMAN: Episode 2 - Sapienza (2016)": "/links/vod.html#296729759",
     "Zombi (2015)": "/links/zombi.html",
   },
 
