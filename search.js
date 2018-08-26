@@ -147,8 +147,6 @@ var Redirect = {
     "251742995": "/links/first.html#251742995",
     "273929911": "/links/jurassic-world-evolution.html#273929911",
     "278566845": "/links/single.html#278566845",
-    "296515241": "/links/single.html#296515241",
-    "296680707": "/links/first.html#296680707",
     "234740795": "/links/monstrum.html#234740795",
     "298040825": "/links/first.html#298040825",
     "185763905": "/links/super-mario-odyssey.html#185763905",
@@ -301,6 +299,8 @@ var Redirect = {
     "296520826": "/links/zombi.html#296520826",
     "296680116": "/links/zombi.html#296680116",
     "296680084": "/links/zombi.html#296680084",
+    "296515241": "/links/vod.html#296515241",
+    "296680707": "/links/vod.html#296680707",
   },
 
   link: function (hash) {
@@ -342,7 +342,6 @@ var Search = {
     "Kingdom Come: Deliverance": "/links/kingdom-come-deliverance.html",
     "Little Nightmares": "/links/little-nightmares.html",
     "God of War": "/links/god-of-war.html",
-    "Zombi (VOD из 2015 года)": "/links/zombi.html",
     "Полные прохождения за один стрим": "/links/single.html",
     "Michigan: Report from Hell": "/links/single.html#152253862",
     "Absolver": "/links/single.html#174225353",
@@ -364,8 +363,6 @@ var Search = {
     "Shininng Hotel: Lost in Nowhere / Midnight Awake / Pamali (демо)": "/links/single.html#275418948",
     "The Awesome Adventures of Captain Spirit": "/links/single.html#278566845",
     "Dead Forest": "/links/single.html#293415850",
-    "Manual Samuel (VOD из 2016)": "/links/single.html#296515241",
-    "Root of Evil: The Tailor (VOD из 2016)": "/links/single.html#296680707",
     "Первый взгляд": "/links/first.html",
     "The Legend of Zelda: Twilight Princess HD": "/links/first.html#163612448",
     "Divinity: Original Sin II": "/links/first.html#175198877",
@@ -412,7 +409,6 @@ var Search = {
     "Dead Cells": "/links/first.html#294220536",
     "The Walking Dead - The Final Season": "/links/first.html#297214143",
     "Pineview Drive": "/links/first.html#298040825",
-    "Dungeon Nightmares II: The Memory (VOD из 2016)": "/links/first.html#296680707",
     "NieR Automata": "/links/nier-automata.html",
     "Persona 5": "/links/persona_5.html",
     "Super Mario Odyssey": "/links/super-mario-odyssey.html",
@@ -485,6 +481,10 @@ var Search = {
     "неПрофессиональный E3 2017": "/links/e3_2017.html",
     "Благотворительные стримы": "/links/charity.html",
     "IRL": "/links/events.html",
+    "VODы": "/links/vod.html",
+    "Manual Samuel (2016)": "/links/vod.html#296515241",
+    "Dungeon Nightmares II: The Memory / Root of Evil: The Tailor (2016, с Дашей)": "/links/vod.html#296680707",
+    "Zombi (2015)": "/links/zombi.html",
   },
 
   select: function (value) {
