@@ -299,6 +299,8 @@ var Redirect = {
     "296520826": "/links/zombi.html#296520826",
     "296680116": "/links/zombi.html#296680116",
     "296680084": "/links/zombi.html#296680084",
+    "296814089": "/links/mgs-3.html#296814089",
+    "296814088": "/links/mgs-3.html#296814088",
     "296515241": "/links/vod.html#296515241",
     "296680707": "/links/vod.html#296680707",
     "296729759": "/links/vod.html#296729759",
@@ -487,6 +489,7 @@ var Search = {
     "Dungeon Nightmares II: The Memory / Root of Evil: The Tailor (2016, с Дашей)": "/links/vod.html#296680707",
     "HITMAN: Episode 2 - Sapienza (2016)": "/links/vod.html#296729759",
     "Zombi (2015)": "/links/zombi.html",
+    "Metal Gear Solid 3: Snake Eater (2014)": "/links/mgs-3.html",
   },
 
   select: function (value) {
