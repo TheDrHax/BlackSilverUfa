@@ -957,6 +957,15 @@
     ]
   },
   {
+    "name": "Metal Gear Solid 3: Snake Eater (2014)",
+    "category": "vod-series",
+    "filename": "mgs-3.html",
+    "streams": [
+      { "name": "1", "twitch": "296814089" },
+      { "name": "2", "twitch": "296814088" }
+    ]
+  },
+  {
     "name": "VODы",
     "category": "vod",
     "filename": "vod.html",
