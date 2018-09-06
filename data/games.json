@@ -968,6 +968,14 @@
     ]
   },
   {
+    "name": "Marvel's Spider-Man",
+    "category": "ongoing",
+    "filename": "spider-man.html",
+    "streams": [
+      { "name": "1", "twitch": "306581403", "soft_start": "13:19" }
+    ]
+  },
+  {
     "name": "HITMAN (2016)",
     "category": "vod-series",
     "filename": "hitman.html",
