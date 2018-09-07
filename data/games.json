@@ -969,7 +969,7 @@
   },
   {
     "name": "Marvel's Spider-Man",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "spider-man.html",
     "streams": [
       { "name": "1.1", "twitch": "306581403", "soft_start": "13:19", "segment": 0 },
@@ -978,7 +978,8 @@
       { "name": "1.4", "twitch": "306581403", "segment": 3 },
       { "name": "1.5", "twitch": "306581403", "segment": 4 },
       { "name": "1.6", "twitch": "306581403", "segment": 5 },
-      { "name": "1.7", "twitch": "306581403", "segment": 6 }
+      { "name": "1.7", "twitch": "306581403", "segment": 6 },
+      { "name": "2", "twitch": "306956427", "soft_start": "8:17" }
     ]
   },
   {
