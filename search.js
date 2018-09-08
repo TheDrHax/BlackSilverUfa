@@ -311,6 +311,8 @@ var Redirect = {
     "306581403.5": "/links/spider-man.html#306581403.5",
     "306581403.6": "/links/spider-man.html#306581403.6",
     "306956427": "/links/spider-man.html#306956427",
+    "306956427.1": "/links/spider-man.html#306956427.1",
+    "306956427.2": "/links/spider-man.html#306956427.2",
     "296729759": "/links/hitman.html#296729759",
     "296740333": "/links/hitman.html#296740333",
     "296740375": "/links/hitman.html#296740375",
