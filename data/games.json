@@ -595,8 +595,7 @@
       { "name": "The Walking Dead - The Final Season", "twitch": "297214143", "soft_start": "19:29" },
       { "name": "Pineview Drive", "twitch": "298040825", "soft_start": "21:16" },
       { "name": "Green Hell / Guacamelee! 2 / Breathedge", "twitch": "305785431" },
-      { "name": "Fist of the North Star: Lost Paradise / Dragonquest XI: Echoes of an Elusive Age", "twitch": "306199274" },
-      { "name": "Shadow of the Tomb Raider", "twitch": "308730350", "soft_start": "18:07" }
+      { "name": "Fist of the North Star: Lost Paradise / Dragonquest XI: Echoes of an Elusive Age", "twitch": "306199274" }
     ]
   },
   {
@@ -988,6 +987,15 @@
       { "name": "2.6", "twitch": "306956427", "segment": 5 },
       { "name": "2.7", "twitch": "306956427", "segment": 6 },
       { "name": "3 (сайдквесты)", "twitch": "307909573", "soft_start": "16:32" }
+    ]
+  },
+  {
+    "name": "Shadow of the Tomb Raider",
+    "category": "ongoing",
+    "filename": "shadow-of-the-tomb-raider.html",
+    "streams": [
+      { "name": "1", "twitch": "308730350", "soft_start": "18:07" },
+      { "name": "2", "twitch": "309135471", "soft_start": "21:10" }
     ]
   },
   {
