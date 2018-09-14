@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from .utils import load_json
+from ..utils import load_json
 from .streams import Streams
 from .games import Games
 from .categories import Categories
