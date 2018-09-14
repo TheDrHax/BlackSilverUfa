@@ -595,7 +595,17 @@
       { "name": "The Walking Dead - The Final Season", "twitch": "297214143", "soft_start": "19:29" },
       { "name": "Pineview Drive", "twitch": "298040825", "soft_start": "21:16" },
       { "name": "Green Hell / Guacamelee! 2 / Breathedge", "twitch": "305785431" },
-      { "name": "Fist of the North Star: Lost Paradise / Dragonquest XI: Echoes of an Elusive Age", "twitch": "306199274" }
+      { "name": "Fist of the North Star: Lost Paradise", "twitch": "306199274" },
+      { "name": "Call of Duty: Black Ops 4", "twitch": "309949699", "start": "3:00:43" }
+    ]
+  },
+  {
+    "name": "Dragon Quest XI: Echoes of an Elusive Age",
+    "category": "ongoing",
+    "filename": "dragon-quest-xi.html",
+    "streams": [
+      { "name": "1 (нет)", "twitch": "306199274", "start": "1:32:53" },
+      { "name": "2", "twitch": "309949699" }
     ]
   },
   {
