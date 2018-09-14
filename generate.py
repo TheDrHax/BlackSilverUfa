@@ -5,8 +5,7 @@ import os
 import shutil
 from mako.lookup import TemplateLookup
 from templates.data import streams, games, categories
-from templates.data.utils import load_json
-from templates.utils import _
+from templates.utils import _, load_json
 
 
 lookup = TemplateLookup(directories=['./templates'],
