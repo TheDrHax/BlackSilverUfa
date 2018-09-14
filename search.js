@@ -320,6 +320,8 @@ var Redirect = {
     "307909573": "/links/spider-man.html#307909573",
     "308730350": "/links/shadow-of-the-tomb-raider.html#308730350",
     "309135471": "/links/shadow-of-the-tomb-raider.html#309135471",
+    "309553210": "/links/shadow-of-the-tomb-raider.html#309553210",
+    "309591231": "/links/shadow-of-the-tomb-raider.html#309591231",
     "296729759": "/links/hitman.html#296729759",
     "296740333": "/links/hitman.html#296740333",
     "296740375": "/links/hitman.html#296740375",
