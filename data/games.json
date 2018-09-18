@@ -43,7 +43,8 @@
       { "name": "Drunk-Fu: Wasted Masters", "twitch": "284156303", "start": "3:26:53" },
       { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" },
       { "name": "CASE 2: Animatronics Survival (кооп)", "twitch": "293012700", "start": "2:58:54" },
-      { "name": "Bigfoot", "twitch": "294641160", "soft_start": "16:43" }
+      { "name": "Bigfoot", "twitch": "294641160", "soft_start": "16:43" },
+      { "name": "Call of Duty: Black Ops 4", "twitch": "309949699", "start": "3:00:43" }
     ]
   },
   {
@@ -595,8 +596,7 @@
       { "name": "The Walking Dead - The Final Season", "twitch": "297214143", "soft_start": "19:29" },
       { "name": "Pineview Drive", "twitch": "298040825", "soft_start": "21:16" },
       { "name": "Green Hell / Guacamelee! 2 / Breathedge", "twitch": "305785431" },
-      { "name": "Fist of the North Star: Lost Paradise", "twitch": "306199274" },
-      { "name": "Call of Duty: Black Ops 4", "twitch": "309949699", "start": "3:00:43" }
+      { "name": "Fist of the North Star: Lost Paradise", "twitch": "306199274" }
     ]
   },
   {
@@ -606,7 +606,8 @@
     "streams": [
       { "name": "1 (нет)", "twitch": "306199274", "start": "1:32:53" },
       { "name": "2", "twitch": "309949699" }
-    ]
+    ],
+    "thumbnail": 1
   },
   {
     "name": "We Happy Few",
