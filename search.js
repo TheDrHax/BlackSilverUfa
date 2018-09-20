@@ -443,7 +443,7 @@ var Search = {
     "Green Hell / Guacamelee! 2 / Breathedge": "/links/first.html#305785431",
     "Fist of the North Star: Lost Paradise": "/links/first.html#306199274",
     "Super Seducer 2 / Need a packet? / Bus Driver Simulator 2019": "/links/first.html#311651965",
-    "S.T.A.L.K.E.R.: Shadow of Chernobyl: Left To Die": "/links/first.html#312042770",
+    "Left 2 Die (мод на Тень Чернобыля)": "/links/first.html#312042770",
     "NieR Automata": "/links/nier-automata.html",
     "Persona 5": "/links/persona_5.html",
     "Super Mario Odyssey": "/links/super-mario-odyssey.html",
