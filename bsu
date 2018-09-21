@@ -5,14 +5,14 @@ export PREFIX="./_site"
 export PAGES_ORIGIN="origin/gh-pages"
 export PAGES_LOCAL="gh-pages"
 
-run="docker run \
+run_base="docker run \
   $([ -t 0 ] && echo '-it') \
   --rm \
   -e PREFIX \
   -v $(pwd):/bsu \
-  -u $(id -u) \
-  -p 8000:8000 \
-  $IMAGE"
+  -u $(id -u)"
+
+run="$run_base $IMAGE"
 
 case $1 in
     image)
@@ -57,7 +57,7 @@ case $1 in
             *) echo "Usage: $0 $1 checkout|diff|commit|push" ;;
         esac ;;
     build) $run ./generate.py ;;
-    serve) $run ./serve.py ;;
+    serve) $run_base -p 8000:8000 $IMAGE ./serve.py ;;
     download-chats) $run ./download-chats.py ;;
     sh|python) $run $1 ;;
     *) echo "Usage: $0 image|build|serve|download-chats|sh|python" ;;
