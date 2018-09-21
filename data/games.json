@@ -427,7 +427,8 @@
       { "name": "Lust for Darkness", "twitch": "273929911", "start": "2:52:24" },
       { "name": "Shininng Hotel: Lost in Nowhere / Midnight Awake / Pamali (демо)", "twitch": "275418948", "start": "3:15:14" },
       { "name": "The Awesome Adventures of Captain Spirit", "twitch": "278566845", "segment": 0, "soft_start": "23:46" },
-      { "name": "Dead Forest", "twitch": "293415850", "soft_start": "20:18" }
+      { "name": "Dead Forest", "twitch": "293415850", "soft_start": "20:18" },
+      { "name": "Transference", "twitch": "312840878" }
     ]
   },
   {
@@ -597,8 +598,17 @@
       { "name": "Pineview Drive", "twitch": "298040825", "soft_start": "21:16" },
       { "name": "Green Hell / Guacamelee! 2 / Breathedge", "twitch": "305785431" },
       { "name": "Fist of the North Star: Lost Paradise", "twitch": "306199274" },
-      { "name": "Super Seducer 2 / Need a packet? / Bus Driver Simulator 2019", "twitch": "311651965" },
+      { "name": "Need a packet? / Bus Driver Simulator 2019", "twitch": "311651965", "start": "3:45:29" },
       { "name": "S.T.A.L.K.E.R.: Left 2 Die", "twitch": "312042770", "soft_start": "12:55" }
+    ]
+  },
+  {
+    "name": "Super Seducer 2",
+    "category": "ongoing",
+    "filename": "super-seducer-2.html",
+    "streams": [
+      { "name": "1", "twitch": "311651965" },
+      { "name": "2", "twitch": "312840878", "start": "2:19:37" }
     ]
   },
   {
