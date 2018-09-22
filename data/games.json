@@ -600,7 +600,10 @@
       { "name": "Fist of the North Star: Lost Paradise", "twitch": "306199274" },
       { "name": "Need a packet? / Bus Driver Simulator 2019", "twitch": "311651965", "start": "3:45:29" },
       { "name": "S.T.A.L.K.E.R.: Left 2 Die", "twitch": "312042770", "soft_start": "12:55" },
-      { "name": "The Bard's Tale IV / SCUM", "twitch": "313288682" }
+      {
+        "name": "The Bard's Tale IV: Barrows Deep / SCUM", "twitch": "313288682",
+        "note": "Начало игры доступно на <a href=\"https://youtu.be/OYtOrTD5wv4\">YouTube</a>."
+      }
     ]
   },
   {
