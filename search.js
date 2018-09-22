@@ -447,7 +447,7 @@ var Search = {
     "Fist of the North Star: Lost Paradise": "/links/first.html#306199274",
     "Need a packet? / Bus Driver Simulator 2019": "/links/first.html#311651965",
     "S.T.A.L.K.E.R.: Left 2 Die": "/links/first.html#312042770",
-    "The Bard's Tale IV / SCUM": "/links/first.html#313288682",
+    "The Bard's Tale IV: Barrows Deep / SCUM": "/links/first.html#313288682",
     "NieR Automata": "/links/nier-automata.html",
     "Persona 5": "/links/persona_5.html",
     "Super Mario Odyssey": "/links/super-mario-odyssey.html",
