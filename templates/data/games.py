@@ -60,6 +60,10 @@ class Game(dict):
     def thumbnail(self):
         return self['streams'][self['thumbnail']].thumbnail()
 
+    @property
+    def date(self):
+        return self['streams'][0].date
+
 
 class Games(list):
     def __init__(self, streams, data):

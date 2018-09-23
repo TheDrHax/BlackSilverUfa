@@ -27,39 +27,52 @@
     <p>${category['description']}</p>
   % endif
 
+  <% year = None %>\
+
   <div class="row">
   % if category.get('type') is None:
-    % for game in sorted(category['games'], key=lambda k: k['name']):
-    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-      <div class="card h-100">
-        <%el:game_link game="${game}">
-        <noscript><img class="card-img-top" src="${game.thumbnail()}" /></noscript>
-        <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="${game.thumbnail()}" />
-        <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            ${game['name']}
+    % for game in sorted(category['games'], key=lambda k: k.date):
+      % if year is not None and year != game.date.year:
+        <div class="col-12"><div class="hr-sect">${game.date.year} год</div></div>
+      % endif
+      <% year = game.date.year %>
+
+      <div class="col-sm-6 col-md-4 col-lg-3 col-card">
+        <div class="card h-100">
+          <%el:game_link game="${game}">
+          <noscript><img class="card-img-top" src="${game.thumbnail()}" /></noscript>
+          <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="${game.thumbnail()}" />
+          <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+              ${game['name']}
+          </div>
+          <div class="card-img-overlay card-badge">
+            <span class="badge badge-primary">
+              ${numword(len(game['streams']), 'стрим')}
+            </span>
+          </div>
+          </%el:game_link>
         </div>
-        <div class="card-img-overlay card-badge">
-          <span class="badge badge-primary">
-            ${numword(len(game['streams']), 'стрим')}
-          </span>
-        </div>
-        </%el:game_link>
       </div>
-    </div>
     % endfor
   % elif category['type'] == 'list':
     % for stream in category['games'][0]['streams']:
-    <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-      <div class="card h-100">
-        <%el:stream_link game="${category['games'][0]}" stream="${stream}">
-          <noscript><img class="card-img-top" src="${stream.thumbnail()}" /></noscript>
-          <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="${stream.thumbnail()}" />
-          <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-            ${stream['name']}
-          </div>
-        </%el:stream_link>
+
+      % if year is not None and year != stream.date.year:
+      <div class="col-12"><div class="hr-sect">${stream.date.year} год</div></div>
+      % endif
+      <% year = stream.date.year %>
+
+      <div class="col-sm-6 col-md-4 col-lg-3 col-card">
+        <div class="card h-100">
+          <%el:stream_link game="${category['games'][0]}" stream="${stream}">
+            <noscript><img class="card-img-top" src="${stream.thumbnail()}" /></noscript>
+            <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="${stream.thumbnail()}" />
+            <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+              ${stream['name']}
+            </div>
+          </%el:stream_link>
+        </div>
       </div>
-    </div>
     % endfor
   % endif
   </div>
