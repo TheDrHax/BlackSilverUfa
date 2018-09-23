@@ -30,6 +30,10 @@ def generate():
             shutil.rmtree(_(dp))
         os.mkdir(_(dp))
 
+    # Create directory for generated data
+    if not os.path.isdir(_('data')):
+        os.mkdir(_('data'))
+
     # Copy static files
     if os.path.isdir(_('static')):
         shutil.rmtree(_('static'))
