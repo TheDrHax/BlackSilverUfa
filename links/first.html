@@ -2104,23 +2104,25 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/313288682">313288682</a></li>
     <li>Субтитры: <a href="../chats/v313288682.ass">v313288682.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=5uQKAyYIHJI">5uQKAyYIHJI</a></li>
+
   </ul>
+  <li>Эта запись смещена на -00:07 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
       <li>The Bard's Tale IV:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(1553)">25:53</a> - Первая попытка запуска</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(2321)">38:41</a> - Почти запустилось</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(3084)">51:24</a> - Меню</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(3315)">55:15</a> - Игра</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(1560)">26:00</a> - Первая попытка запуска</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(2328)">38:48</a> - Почти запустилось</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(3091)">51:31</a> - Меню</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(3322)">55:22</a> - Игра</li>
   </ul>
 
       <li>SCUM:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(7748)">02:09:08</a> - Меню</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(8169)">02:16:09</a> - Игра</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(14165)">03:56:05</a> - Лучший момент стрима</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(7755)">02:09:15</a> - Меню</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(8176)">02:16:16</a> - Игра</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-49').seek(14172)">03:56:12</a> - Лучший момент стрима</li>
   </ul>
 
   </ul>
@@ -2128,21 +2130,15 @@
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-49" data-name="The Bard's Tale IV: Barrows Deep / SCUM" data-twitch="313288682" style="display: none" />
+  <p class="stream col" id="wrapper-49" data-name="The Bard's Tale IV: Barrows Deep / SCUM" data-offset="-00:07" data-twitch="313288682" data-youtube="5uQKAyYIHJI" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v313288682.ass" --player-passthrough hls twitch.tv/videos/313288682 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v313288682.ass --sub-delay=7 ytdl://5uQKAyYIHJI
 </code></pre>
 </div></div>
 
