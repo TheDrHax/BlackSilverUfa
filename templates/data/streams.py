@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from git import Repo
+from datetime import datetime
 from ..utils import load_json
+from .cache import cached_method
 from .timecodes import Timecode, Timecodes, TimecodesSlice
 
 
+repo = Repo('.')
 timecodes = load_json("data/timecodes.json")
 
 
@@ -60,6 +64,17 @@ class Segment(dict):
             attrs.append('style="display: none"')
 
         return ' '.join(attrs)
+
+    @property
+    @cached_method('date-{0[twitch]}')
+    def _unix_time(self):
+        args = ['--pretty=oneline', '--reverse', '-S', self['twitch']]
+        rev = repo.git.log(args).split(' ')[0]
+        return repo.commit(rev).committed_date
+
+    @property
+    def date(self):
+        return datetime.fromtimestamp(self._unix_time)
 
     @property
     def hash(self):
