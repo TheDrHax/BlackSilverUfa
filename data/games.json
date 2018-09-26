@@ -597,7 +597,6 @@
       { "name": "Egress", "twitch": "292591348", "soft_start": "5:31" },
       { "name": "PUSS! / Chasm / Airships: Conquer the Skies", "twitch": "293415850", "start": "34:27" },
       { "name": "Dead Cells", "twitch": "294220536", "start": "2:43:07" },
-      { "name": "The Walking Dead - The Final Season", "twitch": "297214143", "soft_start": "19:29" },
       { "name": "Pineview Drive", "twitch": "298040825", "soft_start": "21:16" },
       { "name": "Green Hell / Guacamelee! 2 / Breathedge", "twitch": "305785431" },
       { "name": "Fist of the North Star: Lost Paradise", "twitch": "306199274" },
@@ -607,6 +606,26 @@
         "name": "The Bard's Tale IV: Barrows Deep / SCUM", "twitch": "313288682",
         "note": "Начало игры доступно на <a href=\"https://youtu.be/OYtOrTD5wv4\">YouTube</a>."
       }
+    ]
+  },
+  {
+    "name": "Life is Strange 2",
+    "category": "ongoing",
+    "filename": "life-is-strange-2.html",
+    "streams": [
+      {
+        "name": "Episode 1", "twitch": "314960838", "start": "2:40:30",
+        "note": "Начало игры доступно на <a href=\"https://youtu.be/AM12Fg-97sQ\">YouTube</a>."
+      }
+    ]
+  },
+  {
+    "name": "The Walking Dead - The Final Season",
+    "category": "ongoing",
+    "filename": "talking-dead-final.html",
+    "streams": [
+      { "name": "Episode 1", "twitch": "297214143", "soft_start": "19:29" },
+      { "name": "Episode 2", "twitch": "314960838" }
     ]
   },
   {
