@@ -34,6 +34,7 @@
       { "name": "Party Panic", "twitch": "232346216" },
       { "name": "Deep Rock Galactic", "twitch": "234037742", "segment": 0 },
       { "name": "Dead Dozen", "twitch": "236864236", "segment": 0 },
+      { "name": "Albion Online / Farm Together", "twitch": "239364187" },
       { "name": "Dead Realm / SoulHunt", "twitch": "250258247", "start": "1:58:13" },
       { "name": "Conan Exiles", "twitch": "259446831" },
       { "name": "Raft / Murderous Pursuits / The Forest", "twitch": "268497396", "start": "1:04:08" },
@@ -45,7 +46,8 @@
       { "name": "CASE 2: Animatronics Survival (кооп)", "twitch": "293012700", "start": "2:58:54" },
       { "name": "Bigfoot", "twitch": "294641160", "soft_start": "16:43" },
       { "name": "Call of Duty: Black Ops 4", "twitch": "309949699", "start": "3:00:43" },
-      { "name": "Secret Neighbor / I'm not a Monster", "twitch": "313747869" }
+      { "name": "Secret Neighbor / I'm not a Monster", "twitch": "313747869" },
+      { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" }
     ]
   },
   {
@@ -235,6 +237,15 @@
       { "name": "Ubisoft", "twitch": "272058083", "segment": 2 },
       { "name": "Sony", "twitch": "272205808", "segment": 1 },
       { "name": "Nintendo", "twitch": "272392172", "start": "2:04:35" }
+    ]
+  },
+  {
+    "name": "Sponsored",
+    "category": "other",
+    "filename": "sponsored.html",
+    "streams": [
+      { "name": "Albion Online", "twitch": "239364187" },
+      { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" }
     ]
   },
   {
@@ -564,7 +575,6 @@
       { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
       { "name": "Past Cure", "twitch": "233032380", "soft_start": "1:50:04", "segment": 1 },
       { "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "soft_start": "19:54", "segment": 0 },
-      { "name": "Albion Online / Farm Together", "twitch": "239364187" },
       { "name": "Living Nightmares / Shadow Corridor / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" },
       { "name": "Extinction / Minit", "twitch": "248791166" },
       { "name": "Fortunarium / Lobotomy Corporation / Escape Doodland / Jalopy", "twitch": "249160756" },
@@ -605,7 +615,8 @@
       {
         "name": "The Bard's Tale IV: Barrows Deep / SCUM", "twitch": "313288682",
         "note": "Начало игры доступно на <a href=\"https://youtu.be/OYtOrTD5wv4\">YouTube</a>."
-      }
+      },
+      { "name": "Forza Horizon 4", "twitch": "315365879" }
     ]
   },
   {
