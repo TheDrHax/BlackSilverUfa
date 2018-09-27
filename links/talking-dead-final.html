@@ -138,11 +138,13 @@
 <h2 id="314960838"><a onclick="window.location.hash = '#314960838'; return false;" href="/r/?314960838">Episode 2</a></h2>
 
 <ul>
+  <li>Официальная запись не была загружена на YouTube.</li>
   <li>Ссылки:</li>
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/314960838">314960838</a></li>
     <li>Субтитры: <a href="../chats/v314960838.ass">v314960838.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=vjVd9WTkAko">vjVd9WTkAko</a></li>
+
   </ul>
   <li>Связанные игры:</li>
   <ul>
@@ -168,21 +170,15 @@
 </ul>
 
 <div class="row justify-content-md-center">
-  <p class="stream col" id="wrapper-1" data-_="TWD2, LiS2.1" data-name="Episode 2" data-twitch="314960838" style="display: none" />
+  <p class="stream col" id="wrapper-1" data-_="TWD2, LiS2.1" data-name="Episode 2" data-official="False" data-twitch="314960838" data-youtube="vjVd9WTkAko" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v314960838.ass" --player-passthrough hls twitch.tv/videos/314960838 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v314960838.ass ytdl://vjVd9WTkAko
 </code></pre>
 </div></div>
 
