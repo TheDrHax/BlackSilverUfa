@@ -37,8 +37,8 @@
       % endif
       <% year = game.date.year %>
 
-      <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-        <div class="card h-100">
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-card">
+        <div class="card">
           <%el:game_link game="${game}">
           <noscript><img class="card-img-top" src="${game.thumbnail()}" /></noscript>
           <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="${game.thumbnail()}" />
@@ -62,8 +62,8 @@
       % endif
       <% year = stream.date.year %>
 
-      <div class="col-sm-6 col-md-4 col-lg-3 col-card">
-        <div class="card h-100">
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-card">
+        <div class="card">
           <%el:stream_link game="${category['games'][0]}" stream="${stream}">
             <noscript><img class="card-img-top" src="${stream.thumbnail()}" /></noscript>
             <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="${stream.thumbnail()}" />
