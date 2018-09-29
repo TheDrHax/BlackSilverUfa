@@ -89,7 +89,7 @@
 % endif
 </ul>
 
-<div class="row justify-content-md-center">
+<div class="row justify-content-center">
   <p class="stream col" id="wrapper-${id}" ${segment.attrs()} />
 </div>
 
