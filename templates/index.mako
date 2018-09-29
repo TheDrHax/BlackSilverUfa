@@ -29,7 +29,8 @@
 
   <% year = None %>\
 
-  <div class="row">
+  ## Карточки
+  <div class="row d-none d-sm-flex">
   % if category.get('type') is None:
     % for game in sorted(category['games'], key=lambda k: k.date):
       % if year is not None and year != game.date.year:
@@ -56,7 +57,6 @@
     % endfor
   % elif category['type'] == 'list':
     % for stream in category['games'][0]['streams']:
-
       % if year is not None and year != stream.date.year:
       <div class="col-12"><div class="hr-sect">${stream.date.year} год</div></div>
       % endif
@@ -76,5 +76,42 @@
     % endfor
   % endif
   </div>
+
+  <% year = None %>\
+
+  ## Список (для маленьких экранов)
+  <ul class="list-group d-sm-none">
+  % if category.get('type') is None:
+    % for game in sorted(category['games'], key=lambda k: k.date):
+      % if year is not None and year != game.date.year:
+        <div class="col-12"><div class="hr-sect">${game.date.year} год</div></div>
+      % endif
+      <% year = game.date.year %>
+
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <%el:game_link game="${game}">
+          ${game['name']}
+        </%el:game_link>
+
+        <span class="badge badge-primary">
+          ${numword(len(game['streams']), 'стрим')}
+        </span>
+      </li>
+    % endfor
+  % elif category['type'] == 'list':
+    % for stream in category['games'][0]['streams']:
+      % if year is not None and year != stream.date.year:
+      <div class="col-12"><div class="hr-sect">${stream.date.year} год</div></div>
+      % endif
+      <% year = stream.date.year %>
+
+      <li class="list-group-item">
+        <%el:stream_link game="${category['games'][0]}" stream="${stream}">
+          ${stream['name']}
+        </%el:stream_link>
+      </li>
+    % endfor
+  % endif
+  </ul>
 % endfor
 </%block>
