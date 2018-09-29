@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/css/cayman.css">
     <link rel="stylesheet" href="/static/css/styles.css?hash=${md5file('static/css/styles.css')}">
     <%block name="head" />
@@ -30,10 +30,10 @@
   </head>
   <body>
     <div style="height: 56px"><!-- floating navbar workaround --></div>
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand d-none d-sm-block" href="/">${config['title']}</a>
-        <a class="navbar-brand d-sm-none d-xs-block" href="/">${config['title_short']}</a>
+        <a class="navbar-brand d-sm-none d-block" href="/">${config['title_short']}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

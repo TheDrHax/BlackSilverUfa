@@ -3,8 +3,21 @@
   padding-top: 1rem;
 }
 
+@media (max-width: 540px) {
+  .row .col-card {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 540px) {
+  .row .col-card {
+    max-width: 270px;
+  }
+}
+
 .row .col-card {
   padding: 5px;
+  min-width: 225px;
 }
 
 .card-img-overlay.overlay-transparent-bottom {
