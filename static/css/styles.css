@@ -103,7 +103,7 @@ footer .footer-copyright a {
  	flex-basis: 100%;
  	align-items: center;
  	color: rgba(0, 0, 0, 0.35);
- 	margin: 8px 0px;
+ 	margin: 8px 0px !important;
 }
 
 .hr-sect::before,
