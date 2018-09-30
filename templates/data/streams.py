@@ -4,7 +4,7 @@
 from git import Repo
 from datetime import datetime
 from ..utils import load_json
-from .cache import cached_method
+from .cache import cached
 from .timecodes import Timecode, Timecodes, TimecodesSlice
 
 
@@ -66,7 +66,7 @@ class Segment(dict):
         return ' '.join(attrs)
 
     @property
-    @cached_method('date-{0[twitch]}')
+    @cached('date-{0[0][twitch]}')
     def _unix_time(self):
         args = ['--pretty=oneline', '--reverse', '-S', self['twitch']]
         rev = repo.git.log(args).split(' ')[0]
