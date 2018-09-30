@@ -43,10 +43,10 @@ class Cache(object):
 cache = Cache(_('data/cache.json'))
 
 
-def cached_method(key_format):
+def cached(key_format):
     def decorator(func):
         def wrapped(*args, **kwargs):
-            key = key_format.format(args[0])
+            key = key_format.format(args)
             if key in cache:
                 return cache.get(key)
             else:
