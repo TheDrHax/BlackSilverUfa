@@ -59,6 +59,6 @@ case $1 in
     build) $run ./generate.py ;;
     serve) $run_base -p 8000:8000 $IMAGE ./serve.py ;;
     download-chats) $run ./download-chats.py ;;
-    sh|python) $run $1 ;;
+    sh|python) $run $@ ;;
     *) echo "Usage: $0 image|build|serve|download-chats|sh|python" ;;
 esac
