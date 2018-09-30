@@ -51,7 +51,8 @@ def cached(key_format):
                 return cache.get(key)
             else:
                 value = func(*args, **kwargs)
-                cache.set(key, value)
+                if value is not None:
+                    cache.set(key, value)
                 return value
         return wrapped
     return decorator

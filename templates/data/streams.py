@@ -3,7 +3,7 @@
 
 from git import Repo
 from datetime import datetime
-from ..utils import load_json
+from ..utils import _, load_json, last_line, count_lines
 from .cache import cached
 from .timecodes import Timecode, Timecodes, TimecodesSlice
 
@@ -131,6 +131,27 @@ class Stream(list):
 
         for segment in segments:
             self.append(segment)
+
+    @property
+    @cached('length-{0[0].twitch}')
+    def _length(self):
+        line = last_line(_('chats/v{}.ass'.format(self.twitch)))
+        if line is not None:
+            return int(Timecode(line.split(' ')[2].split('.')[0]))
+
+    @property
+    def length(self):
+        return Timecode(self._length)
+
+    @property
+    @cached('messages-{0[0].twitch}')
+    def _messages(self):
+        lines = count_lines(_('chats/v{}.ass'.format(self.twitch)))
+        return (lines - 10) if lines else None
+
+    @property
+    def messages(self):
+        return self._messages or 0
 
     def append(self, data):
         segment = Segment(data, self)
