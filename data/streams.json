@@ -215,7 +215,10 @@
   "259446831": { "youtube": "L8nR3beOFBs", "offset": "-00:04" },
   "259798230": { "youtube": "aO1vU8MX33I", "offset": "-00:05" },
   "260173384": { "youtube": "4E1DlNdCh-8", "offset": "-0:04" },
-  "260957900": { "youtube": "sI6Gf1iL3zI", "offset": "-00:04" },
+  "260957900": {
+    "_youtube": "sI6Gf1iL3zI", "offset": "-00:04", "official": false,
+    "note": "Официальная запись <a href=\"https://youtu.be/sI6Gf1iL3zI\">заблокирована</a>. <b>Неофициальная запись восстанавливается</b>."
+  },
   "262352362": {
     "youtube": "ZNM1VPpKV9k", "official": false,
     "note": "Официальной записи <a href=\"https://twitter.com/_BlackUfa/status/997817293068480512\">не будет</a>. Просмотр заблокирован в некоторых странах."
@@ -227,8 +230,8 @@
   "263472196": [
     { "youtube": "0m1MZSyWvqU", "offset": "17:30" },
     {
-      "youtube": "jUJx8PQmjrc", "offset": "1:44:30", "official": false,
-      "note": "Официальной записи не будет из-за музыки. Просмотр заблокирован в некоторых странах."
+      "_youtube": "jUJx8PQmjrc", "offset": "1:44:30", "official": false,
+      "note": "Просмотр заблокирован в некоторых странах. <b>Неофициальная запись восстанавливается</b>."
     }
   ],
   "263867941": { "youtube": "3ikgxvybywc", "official": false },
