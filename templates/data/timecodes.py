@@ -128,11 +128,11 @@ class Timecodes(Timecode, list):
 
     @property
     def value(self):
-        return self[0].value or 0
+        return self[0].value if len(self) > 0 else 0
 
     @property
     def negative(self):
-        return self[0].negative or False
+        return self[0].negative if len(self) > 0 else False
 
 
 class TimecodesSlice(Timecodes):
