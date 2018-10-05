@@ -157,7 +157,7 @@ class Stream(list):
         segment = Segment(data, self)
         super(Stream, self).append(segment)
 
-        if self.twitch in timecodes:
+        if len(self.timecodes) > 0:
             segment['timecodes'] = TimecodesSlice(self.timecodes)
             if 'offset' in segment:
                 segment['timecodes'].start_at(segment['offset'])
