@@ -19,7 +19,10 @@ class Cache(object):
 
     def _save(self):
         with open(self.filename, 'w') as f:
-            json.dump(self.data, f, indent=2, sort_keys=True)
+            json.dump(self.data, f,
+                      indent=2,
+                      sort_keys=True,
+                      ensure_ascii=False)
 
     def __contains__(self, key):
         return key in self.data.keys()
