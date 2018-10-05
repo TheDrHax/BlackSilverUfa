@@ -29,8 +29,10 @@
   % for t in timecodes:
     % if isinstance(t, Timecodes):
     ${timecode_list(id, t, text=t.name)}
+    % elif t.duration:
+    <li>${timecode_link(id, t)} - ${timecode_link(id, t + t.duration)} — ${t.name}</li>
     % else:
-    <li>${timecode_link(id, t)} - ${t.name}</li>
+    <li>${timecode_link(id, t)} — ${t.name}</li>
     % endif
   % endfor
   </ul>

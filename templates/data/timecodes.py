@@ -6,7 +6,7 @@ from datetime import datetime
 
 class Timecode(object):
     @staticmethod
-    def text_to_sec(t):
+    def _text_to_sec(t):
         if len(t) == 0:
             return 0
         negative = (t[0] == '-')
@@ -17,7 +17,7 @@ class Timecode(object):
         return -s if negative else s
 
     @staticmethod
-    def sec_to_text(s):
+    def _sec_to_text(s):
         result = []
         if s < 60:
             return '00:' + str(s).zfill(2)
@@ -28,21 +28,31 @@ class Timecode(object):
         return ':'.join(result)
 
     def __init__(self, timecode, name=None):
+        value = 0
+        duration = None
+
         if (type(timecode) is str):
-            value = self.text_to_sec(timecode)
+            if '~' in timecode:
+                split = timecode.split('~')
+                if len(split) != 2:
+                    raise ValueError('Invalid range format: ' + timecode)
+                value = self._text_to_sec(split[0])
+                duration = self._text_to_sec(split[1]) - value
+            else:
+                value = self._text_to_sec(timecode)
         elif (type(timecode) is int):
             value = timecode
         elif (type(timecode) is Timecode):
             value = int(timecode)
-        else:
-            value = 0
+            duration = timecode.duration
 
         self.name = name
         self.value = abs(value)
         self.negative = value < 0
+        self.duration = duration
 
     def __str__(self):
-        return ('-' if self.negative else '') + self.sec_to_text(self.value)
+        return ('-' if self.negative else '') + self._sec_to_text(self.value)
 
     def __repr__(self):
         return str(self)
@@ -57,16 +67,22 @@ class Timecode(object):
 
     def __add__(self, other):
         self._type_check(other)
-        return Timecode(int(self) + int(other), self.name)
+        t = Timecode(int(self) + int(other), self.name)
+        t.duration = self.duration
+        return t
 
     def __sub__(self, other):
         self._type_check(other)
-        return Timecode(int(self) - int(other), self.name)
+        t = Timecode(int(self) - int(other), self.name)
+        t.duration = self.duration
+        return t
 
     def __eq__(self, other):
         if isinstance(other, Timecode):
             return self.value == other.value
-        elif isinstance(other, int) or isinstance(other, str):
+        elif isinstance(other, int):
+            return int(self) == other
+        elif isinstance(other, str):
             return self == Timecode(other)
         else:
             return False
