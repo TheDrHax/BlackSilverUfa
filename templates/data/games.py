@@ -70,5 +70,15 @@ class Games(list):
         if type(data) is not list:
             raise TypeError
 
-        for game in data:
-            self.append(Game(streams, game))
+        filenames = set()
+
+        for game_raw in data:
+            game = Game(streams, game_raw)
+
+            filename = game['filename']
+            if filename in filenames:
+                raise ValueError(f'Filename already taken: {filename}')
+            else:
+                filenames.add(filename)
+
+            self.append(game)
