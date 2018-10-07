@@ -63,4 +63,4 @@ def dir_size(dir):
 
 def numword(num, word):
     p = morph.parse(word)[0]
-    return '{} {}'.format(num, p.make_agree_with_number(num).word)
+    return f'{num} {p.make_agree_with_number(num).word}'

@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     # Download missing stream subtitles
     for stream in streams:
-        filename = _('chats/v{}.ass'.format(stream))
+        filename = _(f'chats/v{stream}.ass')
         if not os.path.isfile(filename):
-            print("Downloading chat {}".format(filename))
+            print(f'Downloading chat {filename}')
             tcd.download(stream)

@@ -51,13 +51,13 @@ def generate():
     # Generate index.html, missing.html
     for i in ['index', 'missing']:
         with open(_(i + '.html'), "w") as out:
-            t = lookup.get_template('/{}.mako'.format(i))
+            t = lookup.get_template(f'/{i}.mako')
             out.write(t.render(**args))
 
     # Generate links/*.md
     t = lookup.get_template('/links.mako')
     for game in args['games']:
-        filename = "links/{0[filename]}".format(game)
+        filename = f'links/{game["filename"]}'
         with open(_(filename), "w") as out:
             out.write(t.render(game=game, **args).strip())
 
