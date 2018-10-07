@@ -47,7 +47,7 @@ class Segment(dict):
         attrs = []
 
         def add(key, value):
-            attrs.append('data-{}="{}"'.format(key, self._escape_attr(value)))
+            attrs.append(f'data-{key}="{self._escape_attr(value)}"')
 
         for key in sorted(self.keys()):
             if key in ['note', 'timecodes', 'soft_start']:
@@ -86,10 +86,10 @@ class Segment(dict):
     def thumbnail(self):
         if 'youtube' in self:
             id = self['youtube']
-            return 'https://img.youtube.com/vi/{}/mqdefault.jpg'.format(id)
+            return f'https://img.youtube.com/vi/{id}/mqdefault.jpg'
         elif 'vk' in self:
             id = self['vk']
-            return 'https://api.thedrhax.pw/vk/video/{}.jpg'.format(id)
+            return f'https://api.thedrhax.pw/vk/video/{id}.jpg'
         else:
             return '/static/images/no-preview.png'
 
@@ -97,23 +97,22 @@ class Segment(dict):
         if 'youtube' in self:
             return 'ytdl://' + self['youtube']
         elif 'vk' in self:
-            return 'https://api.thedrhax.pw/vk/video/{}.mp4'.format(self['vk'])
+            return f'https://api.thedrhax.pw/vk/video/{self["vk"]}.mp4'
         elif 'direct' in self:
             return self['direct']
 
     def mpv_args(self):
-        sub_format = '--sub-file=https://blackufa.thedrhax.pw/chats/v{}.ass '
-        result = sub_format.format(self['twitch'])
+        base_url = 'https://blackufa.thedrhax.pw'
+        res = f'--sub-file={base_url}/chats/v{self["twitch"]}.ass '
         offset = Timecode(0)
         if 'offset' in self:
             offset = Timecode(self['offset'])
-            result += '--sub-delay={} '.format(-int(offset))
+            res += f'--sub-delay={-int(offset)} '
         if 'start' in self:
-            start = int(Timecode(self['start']) - offset)
-            result += '--start={} '.format(start)
+            res += f'--start={int(Timecode(self["start"]) - offset)} '
         if 'end' in self:
-            result += '--end={} '.format(int(Timecode(self['end']) - offset))
-        return result.strip()
+            res += f'--end={int(Timecode(self["end"]) - offset)} '
+        return res.strip()
 
 
 class Stream(list):
@@ -135,7 +134,7 @@ class Stream(list):
     @property
     @cached('length-{0[0].twitch}')
     def _length(self):
-        line = last_line(_('chats/v{}.ass'.format(self.twitch)))
+        line = last_line(_(f'chats/v{self.twitch}.ass'))
         if line is not None:
             return int(Timecode(line.split(' ')[2].split('.')[0]))
 
@@ -146,7 +145,7 @@ class Stream(list):
     @property
     @cached('messages-{0[0].twitch}')
     def _messages(self):
-        lines = count_lines(_('chats/v{}.ass'.format(self.twitch)))
+        lines = count_lines(_(f'chats/v{self.twitch}.ass'))
         return (lines - 10) if lines else None
 
     @property

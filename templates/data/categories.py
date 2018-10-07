@@ -24,6 +24,6 @@ class Categories(list):
             self.append(Category(uncategorized, category))
 
         if len(uncategorized) > 0:
-            names = ['{0[name]} ({0[category]})'.format(game)
+            names = [f'{game["name"]} ({game["category"]})'
                      for game in uncategorized]
-            raise(AttributeError("Invalid category in " + ', '.join(names)))
+            raise(AttributeError('Invalid category in ' + ', '.join(names)))
