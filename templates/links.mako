@@ -1,5 +1,6 @@
 <%!
   import datetime
+  from babel.dates import format_date
   from templates.utils import md5file
   from templates.data.timecodes import Timecode, Timecodes
 %>
@@ -51,7 +52,10 @@
 
 <%def name="gen_segment(id, segment)">
 <% hash = segment.hash %>\
-<h2 id="${hash}"><a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${segment['name']}</a></h2>
+<h2 id="${hash}">
+  <a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${segment['name']}</a>
+  <span class="badge badge-secondary">${format_date(segment.date, format='long', locale='ru')}</span>
+</h2>
 
 <ul>
 % if segment.get('official') == False:
