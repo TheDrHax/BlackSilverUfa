@@ -50,6 +50,12 @@ footer .footer-copyright a {
   text-decoration: underline;
 }
 
+h1>.badge, h2>.badge, h3>.badge {
+    vertical-align:middle;
+    font-size: 0.8rem;
+    margin-top: -0.4em;
+}
+
 /*
  *  Plyr styles
  */
