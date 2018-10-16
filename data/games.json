@@ -58,7 +58,8 @@
     "streams": [
       { "name": "1 (бета)", "twitch": "309949699", "start": "3:00:43" },
       { "name": "2", "twitch": "321609984" },
-      { "name": "3", "twitch": "322090247", "start": "2:39:41" }
+      { "name": "3", "twitch": "322090247", "start": "2:39:41" },
+      { "name": "4", "twitch": "323410931" }
     ]
   },
   {
@@ -259,15 +260,6 @@
       { "name": "Ubisoft", "twitch": "272058083", "segment": 2 },
       { "name": "Sony", "twitch": "272205808", "segment": 1 },
       { "name": "Nintendo", "twitch": "272392172", "start": "2:04:35" }
-    ]
-  },
-  {
-    "name": "Sponsored",
-    "category": "other",
-    "filename": "sponsored.html",
-    "streams": [
-      { "name": "Albion Online", "twitch": "239364187" },
-      { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" }
     ]
   },
   {
