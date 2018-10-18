@@ -2324,27 +2324,29 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/323817086">323817086</a></li>
     <li>Субтитры: <a href="../chats/v323817086.ass">v323817086.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=ZsX_Y-mviMY">ZsX_Y-mviMY</a></li>
+
   </ul>
+  <li>Эта запись смещена на -00:08 от начала стрима</li>
   <li>Связанные игры:</li>
   <ul>
     <li><a href="/links/single.html">Полные прохождения за один стрим</a> — <a href="/links/single.html#323817086">God's Basement</a></li>
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(13)">00:13</a> — Интро</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(275)">04:35</a> — Стримлер</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(21)">00:21</a> — Интро</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(283)">04:43</a> — Стримлер</li>
       <li>Max Payne: Блэк Эдишн:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(1058)">17:38</a> — Меню</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(1184)">19:44</a> — Игра</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(1523)">25:23</a> - <a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(1939)">32:19</a> — Перерыв на починку игры</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(1066)">17:46</a> — Меню</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(1192)">19:52</a> — Игра</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(1531)">25:31</a> - <a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(1947)">32:27</a> — Перерыв на починку игры</li>
   </ul>
 
       <li>God's Basement:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(9330)">02:35:30</a> — Меню</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(9637)">02:40:37</a> — Игра</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(9338)">02:35:38</a> — Меню</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-50').seek(9645)">02:40:45</a> — Игра</li>
   </ul>
 
   </ul>
@@ -2352,21 +2354,15 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" id="wrapper-50" data-name="Max Payne: Блэк Эдишн" data-twitch="323817086" style="display: none" />
+  <p class="stream col" id="wrapper-50" data-name="Max Payne: Блэк Эдишн" data-offset="-00:08" data-twitch="323817086" data-youtube="ZsX_Y-mviMY" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v323817086.ass" --player-passthrough hls twitch.tv/videos/323817086 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v323817086.ass --sub-delay=8 ytdl://ZsX_Y-mviMY
 </code></pre>
 </div></div>
 
