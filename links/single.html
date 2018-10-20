@@ -1110,36 +1110,32 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/324642823">324642823</a></li>
     <li>Субтитры: <a href="../chats/v324642823.ass">v324642823.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=LxxLvXPA-pI">LxxLvXPA-pI</a></li>
+
   </ul>
+  <li>Эта запись смещена на -00:07 от начала стрима</li>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(37)">00:37</a> — Топовая нарезка</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(277)">04:37</a> — Топовое интро</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(470)">07:50</a> — Стримлер</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(1574)">26:14</a> — Меню</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(1721)">28:41</a> — Игра</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(16377)">04:32:57</a> — Арты</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(44)">00:44</a> — Топовая нарезка</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(284)">04:44</a> — Топовое интро</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(477)">07:57</a> — Стримлер</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(1581)">26:21</a> — Меню</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(1728)">28:48</a> — Игра</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-24').seek(16384)">04:33:04</a> — Арты</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" id="wrapper-24" data-name="Infliction" data-twitch="324642823" style="display: none" />
+  <p class="stream col" id="wrapper-24" data-name="Infliction" data-offset="-00:07" data-twitch="324642823" data-youtube="LxxLvXPA-pI" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v324642823.ass" --player-passthrough hls twitch.tv/videos/324642823 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v324642823.ass --sub-delay=7 ytdl://LxxLvXPA-pI
 </code></pre>
 </div></div>
 
