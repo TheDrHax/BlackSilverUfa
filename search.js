@@ -34,6 +34,7 @@ var Redirect = {
     "309949699": "/links/dragon-quest-xi.html#309949699",
     "321609984": "/links/cod-bo-4.html#321609984",
     "323410931": "/links/cod-bo-4.html#323410931",
+    "325559385": "/links/cod-bo-4.html#325559385",
     "319559721": "/links/worms-wmd.html#319559721",
     "225279322": "/links/hunt-showdown.html#225279322",
     "289825003": "/links/tarkov.html#289825003",
