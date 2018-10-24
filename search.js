@@ -341,6 +341,7 @@ var Redirect = {
     "306956427.5": "/links/spider-man.html#306956427.5",
     "306956427.6": "/links/spider-man.html#306956427.6",
     "307909573": "/links/spider-man.html#307909573",
+    "326792291": "/links/spider-man.html#326792291",
     "308730350": "/links/shadow-of-the-tomb-raider.html#308730350",
     "309135471": "/links/shadow-of-the-tomb-raider.html#309135471",
     "309553210": "/links/shadow-of-the-tomb-raider.html#309553210",
