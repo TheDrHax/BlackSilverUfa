@@ -219,26 +219,21 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/329332705">329332705</a></li>
     <li>Субтитры: <a href="../chats/v329332705.ass">v329332705.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=4xwnKEN1gD4">4xwnKEN1gD4</a></li>
+
   </ul>
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" id="wrapper-3" data-name="4" data-twitch="329332705" style="display: none" />
+  <p class="stream col" id="wrapper-3" data-name="4" data-twitch="329332705" data-youtube="4xwnKEN1gD4" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v329332705.ass" --player-passthrough hls twitch.tv/videos/329332705 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v329332705.ass ytdl://4xwnKEN1gD4
 </code></pre>
 </div></div>
 
