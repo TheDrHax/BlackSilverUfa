@@ -186,6 +186,7 @@ var Redirect = {
     "158301208": "/links/tloz_botw.html#158301208",
     "158812902": "/links/tloz_botw.html#158812902",
     "209473798": "/links/tloz_botw.html#209473798",
+    "329752092": "/links/white_day.html#329752092",
     "217814961": "/links/demons-souls.html#217814961",
     "217852593": "/links/demons-souls.html#217852593",
     "219489801": "/links/demons-souls.html#219489801",
