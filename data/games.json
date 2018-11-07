@@ -48,8 +48,16 @@
       { "name": "Secret Neighbor / I'm not a Monster", "twitch": "313747869" },
       { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" },
       { "name": "A Gummy's Life", "twitch": "316677687" },
-      { "name": "Overkill's Walking Dead (бета)", "twitch": "322090247" },
       { "name": "Blackout Club / Pummel Party", "twitch": "331965944" }
+    ]
+  },
+  {
+    "name": "Overkill's Walking Dead",
+    "category": "co-op-series",
+    "filename": "overkill-wd.html",
+    "streams": [
+      { "name": "1 (бета)", "twitch": "322090247" },
+      { "name": "2", "twitch": "332769459", "start": "2:12:37" }
     ]
   },
   {
@@ -654,7 +662,8 @@
       { "name": "Forza Horizon 4", "twitch": "315365879" },
       { "name": "Assassin's Creed Odyssey", "twitch": "317042062" },
       { "name": "Max Payne: Блэк Эдишн", "twitch": "323817086" },
-      { "name": "Thronebreaker: The Witcher Tales", "twitch": "326381815" }
+      { "name": "Thronebreaker: The Witcher Tales", "twitch": "326381815" },
+      { "name": "Total Chaos", "twitch": "332769459" }
     ]
   },
   {
