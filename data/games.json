@@ -25,7 +25,7 @@
       { "name": "Ben and Ed: Blood Party / Stick Fight", "twitch": "180663832", "start": "1:35:44" },
       { "name": "Duck Game / Move or Die", "twitch": "182448131", "start": "2:18:21" },
       { "name": "Spelunker! Party / Ultimate Chicken Horse", "twitch": "184206477" },
-      { "name": "Dead by Daylight / Pulsar: Lost Colony", "twitch": "200702885" },
+      { "name": "Pulsar: Lost Colony", "twitch": "200702885", "start": "2:09:00" },
       { "name": "Looterkings / Mount Your Friends", "twitch": "206394832" },
       { "name": "Witch It / PlayerUnknown's Battlegrounds", "twitch": "207753795" },
       { "name": "The Hunter: Call of the Wild / Road Redemption", "twitch": "213247693" },
@@ -49,6 +49,15 @@
       { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" },
       { "name": "A Gummy's Life", "twitch": "316677687" },
       { "name": "Blackout Club / Pummel Party", "twitch": "331965944" }
+    ]
+  },
+  {
+    "name": "Dead by Daylight",
+    "category": "co-op-series",
+    "filename": "dead-by-daylight.html",
+    "streams": [
+      { "name": "1", "twitch": "200702885" },
+      { "name": "2", "twitch": "333586186", "start": "2:12:48" }
     ]
   },
   {
