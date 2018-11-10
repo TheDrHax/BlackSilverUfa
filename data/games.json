@@ -673,8 +673,16 @@
       { "name": "Assassin's Creed Odyssey", "twitch": "317042062" },
       { "name": "Max Payne: Блэк Эдишн", "twitch": "323817086" },
       { "name": "Thronebreaker: The Witcher Tales", "twitch": "326381815" },
-      { "name": "Total Chaos", "twitch": "332769459" },
-      { "name": "HITMAN 2", "twitch": "333586186" }
+      { "name": "Total Chaos", "twitch": "332769459" }
+    ]
+  },
+  {
+    "name": "HITMAN 2",
+    "category": "ongoing",
+    "filename": "hitman-2.html",
+    "streams": [
+      { "name": "1", "twitch": "333586186" },
+      { "name": "2", "twitch": "334043313" }
     ]
   },
   {
