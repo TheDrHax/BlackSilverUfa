@@ -678,11 +678,12 @@
   },
   {
     "name": "HITMAN 2",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "hitman-2.html",
     "streams": [
       { "name": "1", "twitch": "333586186" },
-      { "name": "2", "twitch": "334043313" }
+      { "name": "2", "twitch": "334043313" },
+      { "name": "3", "twitch": "335348537" }
     ]
   },
   {
@@ -1114,7 +1115,8 @@
       { "name": "2", "twitch": "327999053" },
       { "name": "3", "twitch": "328457320" },
       { "name": "4", "twitch": "329332705" },
-      { "name": "5", "twitch": "330582088" }
+      { "name": "5", "twitch": "330582088" },
+      { "name": "6", "twitch": "335348537", "start": "3:04:45" }
     ]
   },
   {
