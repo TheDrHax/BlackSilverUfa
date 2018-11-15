@@ -554,8 +554,7 @@
       { "name": "2", "twitch": "176397641", "start": "2:49:40" },
       { "name": "3", "twitch": "177634045", "start": "3:14:05" },
       { "name": "4", "twitch": "179635876", "start": "3:00:00" },
-      { "name": "5", "twitch": "204186576", "start": "2:48:10" },
-      { "name": "С Дашей (Хэллоуин 2018)", "twitch": "329752092", "soft_start": "21:56" }
+      { "name": "5", "twitch": "204186576", "start": "2:48:10" }
     ]
   },
   {
@@ -575,6 +574,15 @@
     "streams": [
       { "name": "1", "twitch": "274295872" },
       { "name": "2", "twitch": "287810258" }
+    ]
+  },
+  {
+    "name": "Хэллоуин",
+    "category": "other",
+    "filename": "halloween.html",
+    "streams": [
+      { "name": "2017", "twitch": "186799946" },
+      { "name": "2018", "twitch": "329752092" }
     ]
   },
   {
@@ -689,7 +697,7 @@
     ]
   },
   {
-    "name": "The Conjuring House",
+    "name": "The Conjuring House (The Dark Occult)",
     "category": "finished",
     "filename": "conjuring-house.html",
     "streams": [
