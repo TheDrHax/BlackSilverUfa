@@ -332,8 +332,10 @@
   <ul>
     <li>Twitch: <a href="https://www.twitch.tv/videos/337485395">337485395</a></li>
     <li>Субтитры: <a href="../chats/v337485395.ass">v337485395.ass</a></li>
-    
+      <li>Запись (YouTube): <a href="https://www.youtube.com/watch?v=_Q1goj5ytxI">_Q1goj5ytxI</a></li>
+
   </ul>
+  <li>Эта запись смещена на 03:58:37 от начала стрима</li>
   <li>Связанные игры:</li>
   <ul>
     <li><a href="/links/co-op.html">Несюжетные коопы</a> — <a href="/links/co-op.html#337485395.1">Крокодил</a></li>
@@ -342,28 +344,26 @@
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(39)">00:39</a> — Стримлер</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(753)">12:33</a> — Red Dead Redemption 2</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(14414)">04:00:14</a> — Сбор команды</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(97)">01:37</a> — Сбор команды</li>
       <li>Своя Игра (ведет Артем):</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(14978)">04:09:38</a> — Запуск игры</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(15271)">04:14:31</a> — Раунд 1</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(16709)">04:38:29</a> — Раунд 2</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(18156)">05:02:36</a> — Раунд 3</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(19878)">05:31:18</a> — Раунд 4 (сломано)</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(661)">11:01</a> — Запуск игры</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(954)">15:54</a> — Раунд 1</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(2392)">39:52</a> — Раунд 2</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(3839)">01:03:59</a> — Раунд 3</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(5561)">01:32:41</a> — Раунд 4 (сломано)</li>
   </ul>
 
       <li>Deceit:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(20731)">05:45:31</a> — Поиски коопа</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(20986)">05:49:46</a> — Кооп найден</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(6414)">01:46:54</a> — Поиски коопа</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(6669)">01:51:09</a> — Кооп найден</li>
   </ul>
 
       <li>Крокодил:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(25487)">07:04:47</a> — Поиски коопа</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(25560)">07:06:00</a> — Кооп найден</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(11170)">03:06:10</a> — Поиски коопа</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-3').seek(11243)">03:07:23</a> — Кооп найден</li>
   </ul>
 
   </ul>
@@ -371,21 +371,15 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" id="wrapper-3" data-name="4" data-segment="1" data-start="04:09:38" data-twitch="337485395" style="display: none" />
+  <p class="stream col" id="wrapper-3" data-name="4" data-offset="03:58:37" data-segment="1" data-start="04:09:38" data-twitch="337485395" data-youtube="_Q1goj5ytxI" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 <h4>Команда для просмотра стрима в проигрывателе MPV</h4>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v337485395.ass --start=14978" --player-passthrough hls twitch.tv/videos/337485395 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v337485395.ass --sub-delay=-14317 --start=661 ytdl://_Q1goj5ytxI
 </code></pre>
 </div></div>
 
