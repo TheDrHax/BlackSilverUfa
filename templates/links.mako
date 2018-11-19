@@ -40,38 +40,51 @@
 % endif
 </%def>
 
-<%def name="source_link(stream, text=u'Запись')">\
-% if stream.get('youtube'):
-  <li>${text} (YouTube): <a href="https://www.youtube.com/watch?v=${stream['youtube']}">${stream['youtube']}</a></li>
-% elif stream.get('vk'):
-  <li>${text} (ВКонтакте): <a href="https://vk.com/video${stream['vk']}">${stream['vk']}</a></li>
-% elif stream.get('direct'):
-  <li>${text}: <a href="${stream['direct']}">прямая ссылка</a></li>
-% endif
-</%def>
-
 <%def name="gen_segment(id, segment)">
 <% hash = segment.hash %>\
 <h2 id="${hash}">
   <a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${segment['name']}</a>
-  <span class="badge badge-secondary">${format_date(segment.date, format='long', locale='ru')}</span>
+  <span class="badge badge-light">
+    ${format_date(segment.date, format='long', locale='ru')}
+  </span>
 </h2>
 
+<div class="badge-row">
+  <span class="badge badge-primary">
+    <a href="https://www.twitch.tv/videos/${segment['twitch']}">
+      <i class="fab fa-twitch"></i> ${segment['twitch']}
+    </a>
+  </span>
+  <span class="badge badge-secondary">
+    <a href="../chats/v${segment['twitch']}.ass">
+      <i class="far fa-closed-captioning"></i> Субтитры
+    </a>
+  </span>
+  % if segment.get('youtube'):
+  <span class="badge badge-${'warning' if segment.get('official') == False else 'success'}">
+    <a href="https://www.youtube.com/watch?v=${segment['youtube']}">
+      <i class="fab fa-youtube"></i> ${segment['youtube']}
+      % if segment.get('official') == False:
+        (неофициальная запись)
+      % endif
+    </a>
+  % elif segment.get('vk'):
+  <span class="badge badge-danger">
+    <a href="https://vk.com/video${segment['vk']}">
+      <i class="fab fa-vk"></i> ${segment['vk']} (неофициальная запись)
+    </a>
+  % elif segment.get('direct'):
+  <span class="badge badge-danger">
+    <a href="${segment['direct']}">
+      <i class="far fa-link"></i> прямая ссылка (неофициальная запись)
+    </a>
+  % endif
+  </span>
+</div>
+
 <ul>
-% if segment.get('official') == False:
-  <li>Официальная запись не была загружена на YouTube.</li>
-% endif
 % if segment.get('note'):
   <li>Примечание: ${segment['note']}</li>
-% endif
-  <li>Ссылки:</li>
-  <ul>
-    <li>Twitch: <a href="https://www.twitch.tv/videos/${segment['twitch']}">${segment['twitch']}</a></li>
-    <li>Субтитры: <a href="../chats/v${segment['twitch']}.ass">v${segment['twitch']}.ass</a></li>
-    ${source_link(segment)}
-  </ul>
-% if segment.get('offset'):
-  <li>Эта запись смещена на ${segment['offset']} от начала стрима</li>
 % endif
 <% related = [(g, s) for g, s in segment.stream.games if g is not game] %>\
 % if len(related) > 0:
