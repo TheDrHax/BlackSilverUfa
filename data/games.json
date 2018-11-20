@@ -48,8 +48,16 @@
       { "name": "Secret Neighbor / I'm not a Monster", "twitch": "313747869" },
       { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" },
       { "name": "A Gummy's Life", "twitch": "316677687" },
-      { "name": "Blackout Club / Pummel Party", "twitch": "331965944" },
-      { "name": "Крокодил", "twitch": "337485395", "segment": 1, "start": "7:04:47" }
+      { "name": "Blackout Club / Pummel Party", "twitch": "331965944" }
+    ]
+  },
+  {
+    "name": "Крокодил",
+    "category": "co-op-series",
+    "filename": "crocodile.html",
+    "streams": [
+      { "name": "1", "twitch": "333586186", "start": "4:00:15" },
+      { "name": "2", "twitch": "337485395", "segment": 1, "start": "7:04:47" }
     ]
   },
   {
