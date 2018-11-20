@@ -128,5 +128,7 @@ h1>.badge, h2>.badge, h3>.badge {
   color: inherit;
 }
 .badge-row {
+  margin: 0.3em;
   margin-bottom: 1em;
+  margin-left: 1em;
 }
