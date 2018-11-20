@@ -122,3 +122,13 @@ h1>.badge, h2>.badge, h3>.badge {
  	line-height: 0px;
  	margin: 0px 8px;
 }
+
+.badge a {
+  text-decoration: none;
+  color: inherit;
+}
+.badge-row {
+  margin: 0.3em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}

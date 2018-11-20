@@ -49,7 +49,6 @@ function spawnPlyr(wrapper, callback) {
   }
 
   wrapper.innerHTML = '<video />';
-  wrapper.style.marginTop = "32px";
   player = new Plyr(wrapper.children[0], options);
 
   player.on('timeupdate', function(event) {
@@ -111,19 +110,25 @@ function spawnPlyr(wrapper, callback) {
   subtitles = new SubtitlesOctopus(subtitles_options);
 
   // Player caption button
-  player.on('captionsenabled', function(event) {
-    subtitles.canvas.style.display = 'block';
-  });
-  player.on('captionsdisabled', function(event) {
-    subtitles.canvas.style.display = 'none';
-  });
   player.on('ready', function(event) {
     // Set correct player element to track current time
     subtitles.setVideo(player.media);
 
+    var captions = player.elements.controls.childNodes[4];
+    captions.toggle = function() {
+      if (captions.pressed) {
+        captions.pressed = false;
+        subtitles.canvas.style.display = 'none';
+      } else {
+        captions.pressed = true;
+        subtitles.canvas.style.display = 'block';
+      }
+    }
+    captions.onclick = captions.toggle;
+
     // Force enable captions button
     // Also check '.plyr [data-plyr=captions]' style in styles.css
-    player.toggleCaptions(true);
+    captions.toggle();
   });
 
   if (wrapper.dataset.youtube) {
