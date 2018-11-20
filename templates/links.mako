@@ -42,44 +42,44 @@
 
 <%def name="gen_segment(id, segment)">
 <% hash = segment.hash %>\
-<h2 id="${hash}">
-  <a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${segment['name']}</a>
-  <span class="badge badge-light">
-    ${format_date(segment.date, format='long', locale='ru')}
-  </span>
-</h2>
-
-<div class="badge-row">
-  <span class="badge badge-primary">
-    <a href="https://www.twitch.tv/videos/${segment['twitch']}">
-      <i class="fab fa-twitch"></i> ${segment['twitch']}
-    </a>
-  </span>
-  <span class="badge badge-secondary">
-    <a href="../chats/v${segment['twitch']}.ass">
-      <i class="far fa-closed-captioning"></i> Субтитры
-    </a>
-  </span>
-  % if segment.get('youtube'):
-  <span class="badge badge-${'warning' if segment.get('official') == False else 'success'}">
-    <a href="https://www.youtube.com/watch?v=${segment['youtube']}">
-      <i class="fab fa-youtube"></i> ${segment['youtube']}
-      % if segment.get('official') == False:
-        (неофициальная запись)
-      % endif
-    </a>
-  % elif segment.get('vk'):
-  <span class="badge badge-danger">
-    <a href="https://vk.com/video${segment['vk']}">
-      <i class="fab fa-vk"></i> ${segment['vk']} (неофициальная запись)
-    </a>
-  % elif segment.get('direct'):
-  <span class="badge badge-danger">
-    <a href="${segment['direct']}">
-      <i class="far fa-link"></i> прямая ссылка (неофициальная запись)
-    </a>
-  % endif
-  </span>
+<div class="d-flex" style="flex-wrap: wrap;">
+  <div class="">
+    <h2 id="${hash}">
+      <a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${segment['name']}</a>
+    </h2>
+  </div>
+  <div class="badge-row">
+    <span class="badge badge-light">
+      ${format_date(segment.date, format='long', locale='ru')}
+    </span>
+    <span class="badge badge-primary">
+      <a href="https://www.twitch.tv/videos/${segment['twitch']}">
+        <i class="fab fa-twitch"></i> ${segment['twitch']}
+      </a>
+    </span>
+    <span class="badge badge-secondary">
+      <a href="../chats/v${segment['twitch']}.ass">
+        <i class="far fa-closed-captioning"></i> Субтитры
+      </a>
+    </span>
+    % if segment.get('youtube'):
+    <span class="badge badge-${'warning' if segment.get('official') == False else 'success'}">
+      <a href="https://www.youtube.com/watch?v=${segment['youtube']}">
+        <i class="fab fa-youtube"></i> ${segment['youtube']}
+      </a>
+    % elif segment.get('vk'):
+    <span class="badge badge-danger">
+      <a href="https://vk.com/video${segment['vk']}">
+        <i class="fab fa-vk"></i> ${segment['vk']}
+      </a>
+    % elif segment.get('direct'):
+    <span class="badge badge-danger">
+      <a href="${segment['direct']}">
+        <i class="far fa-link"></i> прямая ссылка
+      </a>
+    % endif
+    </span>
+  </div>
 </div>
 
 <ul>
