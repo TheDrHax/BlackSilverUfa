@@ -49,7 +49,6 @@ function spawnPlyr(wrapper, callback) {
   }
 
   wrapper.innerHTML = '<video />';
-  wrapper.style.marginTop = "32px";
   player = new Plyr(wrapper.children[0], options);
 
   player.on('timeupdate', function(event) {

@@ -121,8 +121,6 @@
 страницу.</p>
 % endif
 
-<h4>Команда для просмотра стрима в проигрывателе MPV</h4>
-
 <%el:code_block>\
 % if segment.player_compatible():
 mpv ${segment.mpv_args()} ${segment.mpv_file()}
