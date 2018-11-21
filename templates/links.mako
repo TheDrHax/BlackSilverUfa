@@ -53,7 +53,7 @@
       ${format_date(segment.date, format='long', locale='ru')}
     </span>
     <span class="badge badge-primary">
-      <a href="https://www.twitch.tv/videos/${segment['twitch']}">
+      <a href="https://www.twitch.tv/videos/${segment['twitch']}" target="_blank">
         <i class="fab fa-twitch"></i> ${segment['twitch']}
       </a>
     </span>
@@ -64,17 +64,17 @@
     </span>
     % if segment.get('youtube'):
     <span class="badge badge-${'warning' if segment.get('official') == False else 'success'}">
-      <a href="https://www.youtube.com/watch?v=${segment['youtube']}">
+      <a href="https://www.youtube.com/watch?v=${segment['youtube']}" target="_blank">
         <i class="fab fa-youtube"></i> ${segment['youtube']}
       </a>
     % elif segment.get('vk'):
     <span class="badge badge-danger">
-      <a href="https://vk.com/video${segment['vk']}">
+      <a href="https://vk.com/video${segment['vk']}" target="_blank">
         <i class="fab fa-vk"></i> ${segment['vk']}
       </a>
     % elif segment.get('direct'):
     <span class="badge badge-danger">
-      <a href="${segment['direct']}">
+      <a href="${segment['direct']}" target="_blank">
         <i class="far fa-link"></i> прямая ссылка
       </a>
     % endif
