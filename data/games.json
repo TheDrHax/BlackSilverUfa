@@ -699,7 +699,7 @@
         "note": "Начало игры доступно на <a href=\"https://youtu.be/z5sgJou7Tfw\">YouTube</a>."
       },
       { "name": "Fallout 76", "twitch": "335751293", "segment": 0 },
-      { "name": "Metal Gear Solid 3: Snake Eater", "twitch": "338345713", "start": "2:17:12" }
+      { "name": "Metal Gear Solid 3: Snake Eater", "twitch": "338345713", "start": "2:17:12", "segment": 1 }
     ]
   },
   {
@@ -1144,7 +1144,7 @@
       { "name": "5", "twitch": "330582088" },
       { "name": "6", "twitch": "335348537", "start": "3:04:45" },
       { "name": "7", "twitch": "337485395", "segment": 0 },
-      { "name": "8", "twitch": "338345713" }
+      { "name": "8", "twitch": "338345713", "segment": 0 }
     ]
   },
   {
