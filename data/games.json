@@ -97,7 +97,7 @@
       { "name": "3", "twitch": "322090247", "start": "2:39:41" },
       { "name": "4", "twitch": "323410931" },
       { "name": "5", "twitch": "325559385" },
-      { "name": "6", "twitch": "335751293", "segment": 1, "start": "4:18:03" }
+      { "name": "6", "twitch": "335751293", "segment": 1 }
     ],
     "thumbnail": 1
   },
@@ -109,7 +109,7 @@
       { "name": "1", "twitch": "316677687", "start": "1:05:55" },
       { "name": "2", "twitch": "319559721", "start": "1:11:13" },
       { "name": "3", "twitch": "331512980" },
-      { "name": "4", "twitch": "337485395", "segment": 1, "start": "4:09:38" }
+      { "name": "4", "twitch": "337485395", "segment": 1 }
     ]
   },
   {
@@ -707,7 +707,7 @@
         "note": "Начало игры доступно на <a href=\"https://youtu.be/z5sgJou7Tfw\">YouTube</a>."
       },
       { "name": "Fallout 76", "twitch": "335751293", "segment": 0 },
-      { "name": "Metal Gear Solid 3: Snake Eater", "twitch": "338345713", "start": "2:17:12", "segment": 1 }
+      { "name": "Metal Gear Solid 3: Snake Eater", "twitch": "338345713", "segment": 1 }
     ]
   },
   {
