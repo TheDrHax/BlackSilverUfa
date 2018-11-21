@@ -491,7 +491,6 @@
       { "name": "Yume Nikki: Dream Diary", "twitch": "236175824", "soft_start": "24:42" },
       { "name": "A Way Out", "twitch": "241916500" },
       { "name": "Umfend", "twitch": "245043791", "start": "42:52" },
-      { "name": "Protocol (демо)", "twitch": "248791166", "start": "2:13:44" },
       { "name": "SCP: Operation Descent (демо) / Code Rebecca: House of evil / Grandma / The Road to Hades", "twitch": "249888883" },
       {
         "name": "Spooky's Jump Scare Mansion (с 500-й комнаты)", "twitch": "251742995", "start": "2:37:20",
@@ -508,6 +507,15 @@
       { "name": "Infliction", "twitch": "324642823" },
       { "name": "Battlefield V", "twitch": "333173605" },
       { "name": "Pokemon: Let's Go, Pikachu!", "twitch": "337051811" }
+    ]
+  },
+  {
+    "name": "Protocol",
+    "category": "ongoing",
+    "filename": "protocol.html",
+    "streams": [
+      { "name": "0 (демо)", "twitch": "248791166", "start": "2:13:44" },
+      { "name": "1", "twitch": "338800850" }
     ]
   },
   {
