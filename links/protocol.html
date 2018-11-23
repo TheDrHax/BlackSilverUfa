@@ -180,6 +180,10 @@
         <i class="far fa-closed-captioning"></i> Субтитры
       </a>
     </span>
+    <span class="badge badge-success">
+      <a href="https://www.youtube.com/watch?v=7c_UCz7VBA8">
+        <i class="fab fa-youtube"></i> 7c_UCz7VBA8
+      </a>
     </span>
   </div>
 </div>
@@ -195,19 +199,13 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" id="wrapper-1" data-name="1" data-twitch="338800850" style="display: none" />
+  <p class="stream col" id="wrapper-1" data-name="1" data-twitch="338800850" data-youtube="7c_UCz7VBA8" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v338800850.ass" --player-passthrough hls twitch.tv/videos/338800850 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v338800850.ass ytdl://7c_UCz7VBA8
 </code></pre>
 </div></div>
 
