@@ -48,7 +48,17 @@
       { "name": "Secret Neighbor / I'm not a Monster", "twitch": "313747869" },
       { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" },
       { "name": "A Gummy's Life", "twitch": "316677687" },
-      { "name": "Blackout Club / Pummel Party", "twitch": "331965944" }
+      { "name": "Blackout Club", "twitch": "331965944" },
+      { "name": "The Experiment", "twitch": "339579917", "segment": 1 }
+    ]
+  },
+  {
+    "name": "Pummel Party",
+    "category": "co-op-series",
+    "filename": "pummel-party.html",
+    "streams": [
+      { "name": "1", "twitch": "331965944", "start": "2:11:10" },
+      { "name": "2", "twitch": "339579917", "segment": 1, "start": "5:12:50" }
     ]
   },
   {
@@ -157,7 +167,8 @@
       { "name": "4", "twitch": "293012700", "start": "3:26:25" },
       { "name": "5", "twitch": "313747869", "start": "2:18:35" },
       { "name": "6", "twitch": "319559721", "start": "3:55:26" },
-      { "name": "7", "twitch": "331965944", "start": "4:05:42" }
+      { "name": "7", "twitch": "331965944", "start": "4:05:42" },
+      { "name": "8", "twitch": "339579917", "segment": 1, "start": "6:38:26" }
     ]
   },
   {
@@ -1152,7 +1163,8 @@
       { "name": "5", "twitch": "330582088" },
       { "name": "6", "twitch": "335348537", "start": "3:04:45" },
       { "name": "7", "twitch": "337485395", "segment": 0 },
-      { "name": "8", "twitch": "338345713", "segment": 0 }
+      { "name": "8", "twitch": "338345713", "segment": 0 },
+      { "name": "9", "twitch": "339579917", "segment": 0 }
     ]
   },
   {
