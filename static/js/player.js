@@ -128,7 +128,8 @@ function spawnPlyr(wrapper, callback) {
 
     // Force enable captions button
     // Also check '.plyr [data-plyr=captions]' style in styles.css
-    captions.toggle();
+    captions.classList.add('plyr__control--pressed');
+    captions.pressed = true;
   });
 
   if (wrapper.dataset.youtube) {
