@@ -66,15 +66,8 @@ class Segment(dict):
         return ' '.join(attrs)
 
     @property
-    @cached('date-{0[0][twitch]}')
-    def _unix_time(self):
-        args = ['--pretty=oneline', '--reverse', '-S', self['twitch']]
-        rev = repo.git.log(args).split(' ')[0]
-        return repo.commit(rev).committed_date
-
-    @property
     def date(self):
-        return datetime.fromtimestamp(self._unix_time)
+        return self.stream.date
 
     @property
     def hash(self):
@@ -141,6 +134,17 @@ class Stream(list):
     @property
     def length(self):
         return Timecode(self._length)
+
+    @property
+    @cached('date-{0[0].twitch}')
+    def _unix_time(self):
+        args = ['--pretty=oneline', '--reverse', '-S', self['twitch']]
+        rev = repo.git.log(args).split(' ')[0]
+        return repo.commit(rev).committed_date
+
+    @property
+    def date(self):
+        return datetime.fromtimestamp(self._unix_time)
 
     @property
     @cached('messages-{0[0].twitch}')
