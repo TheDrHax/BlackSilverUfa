@@ -138,7 +138,7 @@ class Stream(list):
     @property
     @cached('date-{0[0].twitch}')
     def _unix_time(self):
-        args = ['--pretty=oneline', '--reverse', '-S', self['twitch']]
+        args = ['--pretty=oneline', '--reverse', '-S', self.twitch]
         rev = repo.git.log(args).split(' ')[0]
         return repo.commit(rev).committed_date
 
