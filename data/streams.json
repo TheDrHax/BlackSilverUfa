@@ -126,8 +126,8 @@
   "224560087": { "youtube": "JWvgGOuTldg" },
   "224600319": { "youtube": "43q8zNpTCCE" },
   "225279322": [
-    { "vk": "87862793_456241096" },
-    { "vk": "87862793_456241095", "offset": "3:46:12" }
+    { "youtube": "PmEyNRdpkbE", "official": false },
+    { "youtube": "--Rd8iLfyVw", "official": false, "offset": "3:47:21" }
   ],
   "225950740": { "youtube": "uXXquPRJHOw" },
   "226000025": { "youtube": "vB4XCZS5PmA" },
@@ -155,11 +155,11 @@
   "233711282": { "youtube": "UTVKKl5OZng", "offset": "32:54" },
   "234037742": [
     {
-      "vk": "87862793_456241139",
+      "youtube": "7osmQxT12SE", "official": false, "offset": "0:19",
       "note": "Официальная запись <a href=\"https://vk.com/wall-28387068_3201905\">заблокирована</a>."
     },
     {
-      "vk": "87862793_456241140", "offset": "2:22:56",
+      "youtube": "ohyCZ_lgInA", "official": false, "offset": "2:22:56",
       "note": "Официальная запись <a href=\"https://vk.com/wall-28387068_3201905\">заблокирована</a>."
     }
   ],
@@ -168,17 +168,14 @@
   "236175824": { "youtube": "TgUPE-ezSZo" },
   "236864236": [
     { "youtube": "QZ9txwxIGmI" },
-    {
-      "vk": "87862793_456241150", "offset": "1:32:10", "end": "1:59:22",
-      "note": "Эта часть стрима не была загружена на YouTube."
-    },
+    { "youtube": "vLtmvNl8BLc", "official": false, "offset": "1:32:10", "end": "1:59:22" },
     { "youtube": "y1vRhT6GRLg", "offset": "1:59:22" }
   ],
   "237277360": { "youtube": "4R1Nj6VLbc8" },
   "237304245": { "youtube": "CMb9zMRgVpY" },
   "238317087": { "youtube": "WvE25NDATlM" },
   "239018968": { "youtube": "EBc0XZxPW0s", "offset": "24:27" },
-  "239364187": { "vk": "87862793_456241158", "sponsored": true },
+  "239364187": { "youtube": "DTrt1MiLoQ8", "official": false, "sponsored": true },
   "239731404": { "youtube": "wK2G0IeC9p8" },
   "240459322": { "youtube": "g-bPLnreu90" },
   "240830747": { "youtube": "2jLoZ6OzZz8" },
@@ -249,8 +246,7 @@
   ],
   "265333757": [
     { "youtube": "f4vH8Yqjvl4", "offset": "11:44" },
-    { "youtube": "jtWuCoPh0SA", "offset": "1:51:16" },
-    { "vk": "87862793_456241263", "start": "3:48:37" }
+    { "youtube": "jtWuCoPh0SA", "offset": "1:51:16" }
   ],
   "265768902": { "youtube": "M0dROx0oTrA", "offset": "34:57" },
   "267726322": { "youtube": "biw1r5sdI0E", "official": false },
