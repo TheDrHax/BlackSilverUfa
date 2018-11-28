@@ -59,6 +59,7 @@ case $1 in
     build) $run ./generate.py ;;
     serve) $run_base -p 8000:8000 $IMAGE ./serve.py ;;
     download-chats) $run ./download-chats.py ;;
-    sh|python) $run $@ ;;
+    sh) $run $@ ;;
+    python) $run $@ -i -c "from templates.data.timecodes import Timecode, TimecodeHelper; from tcd.twitch import Channel" ;;
     *) echo "Usage: $0 image|build|serve|download-chats|sh|python" ;;
 esac
