@@ -539,7 +539,7 @@
     "streams": [
       { "name": "0 (демо)", "twitch": "248791166", "start": "2:13:44" },
       { "name": "1", "twitch": "338800850" },
-      { "name": "2", "twitch": "341780077", "start": "3:11:13" }
+      { "name": "2", "twitch": "341780077", "segment": 1, "start": "3:11:13" }
     ]
   },
   {
@@ -733,7 +733,7 @@
       { "name": "Fallout 76", "twitch": "335751293", "segment": 0 },
       { "name": "Metal Gear Solid 3: Snake Eater", "twitch": "338345713", "segment": 1 },
       { "name": "Darksiders 3", "twitch": "340934900" },
-      { "name": "Red Dead Redemption 2 Online", "twitch": "341780077" }
+      { "name": "Red Dead Redemption 2 Online", "twitch": "341780077", "segment": 0 }
     ]
   },
   {
