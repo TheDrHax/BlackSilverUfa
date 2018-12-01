@@ -49,16 +49,18 @@
       { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" },
       { "name": "A Gummy's Life", "twitch": "316677687" },
       { "name": "Blackout Club", "twitch": "331965944" },
-      { "name": "Among Us / UpBreakers", "twitch": "340545862" }
+      { "name": "Among Us / UpBreakers", "twitch": "340545862" },
+      { "name": "Superfighters Deluxe", "twitch": "343098113", "segment": 1, "start": "3:20:23" }
     ]
   },
   {
-    "name": "The Experiment",
+    "name": "The Experiment / Escape First",
     "category": "co-op-series",
     "filename": "the-experiment.html",
     "streams": [
-      { "name": "1", "twitch": "339579917", "segment": 1 },
-      { "name": "2", "twitch": "340545862", "start": "2:40:44" }
+      { "name": "The Experiment #1", "twitch": "339579917", "segment": 1 },
+      { "name": "The Experiment #2", "twitch": "340545862", "start": "2:40:44" },
+      { "name": "Escape First", "twitch": "343098113", "segment": 1, "start": "5:15:24" }
     ]
   },
   {
@@ -129,7 +131,8 @@
       { "name": "1", "twitch": "316677687", "start": "1:05:55" },
       { "name": "2", "twitch": "319559721", "start": "1:11:13" },
       { "name": "3", "twitch": "331512980" },
-      { "name": "4", "twitch": "337485395", "segment": 1 }
+      { "name": "4", "twitch": "337485395", "segment": 1 },
+      { "name": "5", "twitch": "343098113", "segment": 1, "start": "4:04:44" }
     ]
   },
   {
@@ -277,7 +280,8 @@
       { "name": "6", "twitch": "287404564", "start": "3:56:53" },
       { "name": "7", "twitch": "293012700", "start": "4:28:06" },
       { "name": "8", "twitch": "313747869", "start": "3:55:41" },
-      { "name": "9", "twitch": "331512980", "start": "4:05:13" }
+      { "name": "9", "twitch": "331512980", "start": "4:05:13" },
+      { "name": "10", "twitch": "343098113", "segment": 1, "start": "6:48:48" }
     ]
   },
   {
@@ -733,7 +737,8 @@
       { "name": "Fallout 76", "twitch": "335751293", "segment": 0 },
       { "name": "Metal Gear Solid 3: Snake Eater", "twitch": "338345713", "segment": 1 },
       { "name": "Darksiders 3", "twitch": "340934900" },
-      { "name": "Red Dead Redemption 2 Online", "twitch": "341780077", "segment": 0 }
+      { "name": "Red Dead Redemption 2 Online", "twitch": "341780077", "segment": 0 },
+      { "name": "Just Cause 4", "twitch": "343098113", "segment": 0 }
     ]
   },
   {
