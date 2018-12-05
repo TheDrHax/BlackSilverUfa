@@ -532,8 +532,7 @@
       { "name": "Visage (демо)", "twitch": "317879826" },
       { "name": "God's Basement", "twitch": "323817086", "start": "2:35:30" },
       { "name": "Infliction", "twitch": "324642823" },
-      { "name": "Battlefield V", "twitch": "333173605" },
-      { "name": "Pokemon: Let's Go, Pikachu!", "twitch": "337051811" }
+      { "name": "Battlefield V", "twitch": "333173605" }
     ]
   },
   {
@@ -735,11 +734,30 @@
         "note": "Начало игры доступно на <a href=\"https://youtu.be/z5sgJou7Tfw\">YouTube</a>."
       },
       { "name": "Fallout 76", "twitch": "335751293", "segment": 0 },
+      { "name": "Pokemon: Let's Go, Pikachu!", "twitch": "337051811" }
       { "name": "Metal Gear Solid 3: Snake Eater", "twitch": "338345713", "segment": 1 },
       { "name": "Darksiders 3", "twitch": "340934900" },
       { "name": "Red Dead Redemption 2 Online", "twitch": "341780077", "segment": 0 },
-      { "name": "Just Cause 4", "twitch": "343098113", "segment": 0 },
-      { "name": "Return 2 Games: Book of Demons / Granny / Viviette", "twitch": "344508969" }
+      { "name": "Return 2 Games: Book of Demons / Viviette", "twitch": "344508969" },
+      { "name": "Battlefield V: The Last Tiger / The Shapeshifting Detective", "twitch": "344946351" }
+    ]
+  },
+  {
+    "name": "Just Cause 4",
+    "category": "ongoing",
+    "filename": "just-cause-4.html",
+    "streams": [
+      { "name": "1", "twitch": "343098113", "segment": 0 },
+      { "name": "2 (пасхалка на Getting Over It)", "twitch": "344946351", "start": "4:49:00" }
+    ]
+  },
+  {
+    "name": "Granny",
+    "category": "ongoing",
+    "filename": "granny.html",
+    "streams": [
+      { "name": "1", "twitch": "344508969", "start": "2:26:26" },
+      { "name": "2", "twitch": "344946351", "start": "2:14:23" }
     ]
   },
   {
