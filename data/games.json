@@ -319,6 +319,14 @@
     "thumbnail": 1
   },
   {
+    "name": "неСерьёзный The Game Awards",
+    "category": "other",
+    "filename": "the-game-awards.html",
+    "streams": [
+      { "name": "2018", "twitch": "345649019" }
+    ]
+  },
+  {
     "name": "неСерьёзный E3 2018",
     "category": "other",
     "filename": "e3_2018.html",
