@@ -646,7 +646,8 @@
     "filename": "events.html",
     "streams": [
       { "name": "Сборка кресла", "twitch": "219463387" },
-      { "name": "Анбоксинг посылок (1.04.2018)", "twitch": "245415969" }
+      { "name": "Анбоксинг посылок (1.04.2018)", "twitch": "245415969" },
+      { "name": "Конкурс на лучший арт", "twitch": "344508969", "segment": 0 }
     ]
   },
   {
@@ -746,7 +747,7 @@
       { "name": "Metal Gear Solid 3: Snake Eater", "twitch": "338345713", "segment": 1 },
       { "name": "Darksiders 3", "twitch": "340934900" },
       { "name": "Red Dead Redemption 2 Online", "twitch": "341780077", "segment": 0 },
-      { "name": "Return 2 Games: Book of Demons / Viviette", "twitch": "344508969" },
+      { "name": "Return 2 Games: Book of Demons / Viviette", "twitch": "344508969", "segment": 1 },
       { "name": "Battlefield V: The Last Tiger / The Shapeshifting Detective", "twitch": "344946351" },
       { "name": "The Darkness", "twitch": "345416464" }
     ]
@@ -765,7 +766,7 @@
     "category": "ongoing",
     "filename": "granny.html",
     "streams": [
-      { "name": "1", "twitch": "344508969", "start": "2:26:26" },
+      { "name": "1", "twitch": "344508969", "start": "2:26:26", "segment": 1 },
       { "name": "2", "twitch": "344946351", "start": "2:14:23" }
     ]
   },
