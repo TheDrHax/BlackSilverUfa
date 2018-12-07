@@ -109,6 +109,10 @@
         <i class="far fa-closed-captioning"></i> Субтитры
       </a>
     </span>
+    <span class="badge badge-success">
+      <a href="https://www.youtube.com/watch?v=VDWU9-tKGKs" target="_blank">
+        <i class="fab fa-youtube"></i> VDWU9-tKGKs
+      </a>
     </span>
   </div>
 </div>
@@ -116,28 +120,22 @@
 <ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-0').seek(222)">03:42</a> — Артур</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-0').seek(490)">08:10</a> — Артём</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-0').seek(673)">11:13</a> — Трансляция</li>
-    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-0').seek(1004)">16:44</a> — Начало</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-0').seek(229)">03:49</a> — Артур</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-0').seek(497)">08:17</a> — Артём</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-0').seek(680)">11:20</a> — Трансляция</li>
+    <li><a href="javascript:void(0)" onclick="document.getElementById('wrapper-0').seek(1011)">16:51</a> — Начало</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" id="wrapper-0" data-_="Game Awards 2018" data-name="2018" data-twitch="345649019" style="display: none" />
+  <p class="stream col" id="wrapper-0" data-name="2018" data-offset="-00:07" data-twitch="345649019" data-youtube="VDWU9-tKGKs" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v345649019.ass" --player-passthrough hls twitch.tv/videos/345649019 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v345649019.ass --sub-delay=7 ytdl://VDWU9-tKGKs
 </code></pre>
 </div></div>
 
