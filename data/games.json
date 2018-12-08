@@ -50,7 +50,8 @@
       { "name": "A Gummy's Life", "twitch": "316677687" },
       { "name": "Blackout Club", "twitch": "331965944" },
       { "name": "Among Us / UpBreakers", "twitch": "340545862" },
-      { "name": "Superfighters Deluxe", "twitch": "343098113", "segment": 1, "start": "3:20:23" }
+      { "name": "Superfighters Deluxe", "twitch": "343098113", "segment": 1, "start": "3:20:23" },
+      { "name": "Survived By", "twitch": "346312308", "start": "2:41:26" }
     ]
   },
   {
@@ -119,7 +120,8 @@
       { "name": "3", "twitch": "322090247", "start": "2:39:41" },
       { "name": "4", "twitch": "323410931" },
       { "name": "5", "twitch": "325559385" },
-      { "name": "6", "twitch": "335751293", "segment": 1 }
+      { "name": "6", "twitch": "335751293", "segment": 1 },
+      { "name": "7", "twitch": "346312308", "start": "3:09:58" }
     ],
     "thumbnail": 1
   },
@@ -750,7 +752,16 @@
       { "name": "Return 2 Games: Book of Demons / Viviette", "twitch": "344508969", "segment": 1 },
       { "name": "Battlefield V: The Last Tiger / The Shapeshifting Detective", "twitch": "344946351" },
       { "name": "The Darkness", "twitch": "345416464" },
-      { "name": "Devil May Cry 5 / Ashen", "twitch": "345863416" }
+      { "name": "Devil May Cry 5", "twitch": "345863416" }
+    ]
+  },
+  {
+    "name": "Ashen",
+    "category": "ongoing",
+    "filename": "ashen.html",
+    "streams": [
+      { "name": "1", "twitch": "345863416", "start": "50:07" },
+      { "name": "2 (поиски коопа)", "twitch": "346312308" }
     ]
   },
   {
