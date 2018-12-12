@@ -20,6 +20,7 @@
   {
     "name": "Несюжетные коопы",
     "category": "co-op",
+    "type": "list",
     "filename": "co-op.html",
     "streams": [
       { "name": "Ben and Ed: Blood Party / Stick Fight", "twitch": "180663832", "start": "1:35:44" },
@@ -516,6 +517,7 @@
   {
     "name": "Полные прохождения за один стрим",
     "category": "single",
+    "type": "list",
     "filename": "single.html",
     "streams": [
       { "name": "Michigan: Report from Hell", "twitch": "152253862" },
@@ -649,11 +651,12 @@
   {
     "name": "IRL",
     "category": "other",
+    "type": "list",
     "filename": "events.html",
     "streams": [
-      { "name": "Сборка кресла", "twitch": "219463387" },
-      { "name": "Анбоксинг посылок (1.04.2018)", "twitch": "245415969" },
-      { "name": "Конкурс на лучший арт", "twitch": "344508969", "segment": 0 }
+      { "name": "Сборка кресла (17.01.18)", "twitch": "219463387" },
+      { "name": "Анбоксинг посылок (01.04.18)", "twitch": "245415969" },
+      { "name": "Конкурс на лучший арт (4.12.18)", "twitch": "344508969", "segment": 0 }
     ]
   },
   {
@@ -681,6 +684,7 @@
   {
     "name": "Первый взгляд",
     "category": "first",
+    "type": "list",
     "filename": "first.html",
     "streams": [
       { "name": "The Legend of Zelda: Twilight Princess HD", "twitch": "163612448" },
@@ -1195,7 +1199,7 @@
   },
   {
     "name": "Zombi (2015)",
-    "category": "vod-series",
+    "category": "vod",
     "filename": "zombi.html",
     "streams": [
       { "name": "1", "twitch": "296515537", "soft_start": "0:09" },
@@ -1206,7 +1210,7 @@
   },
   {
     "name": "Metal Gear Solid 3: Snake Eater (2014)",
-    "category": "vod-series",
+    "category": "vod",
     "filename": "mgs-3.html",
     "streams": [
       { "name": "1", "twitch": "296814089" },
@@ -1265,7 +1269,7 @@
   },
   {
     "name": "Hitman (2016)",
-    "category": "vod-series",
+    "category": "vod",
     "filename": "hitman.html",
     "streams": [
       { "name": "Episode 2 - Sapienza (2016)", "twitch": "296729759" },
@@ -1276,6 +1280,7 @@
   {
     "name": "VODы",
     "category": "vod",
+    "type": "list",
     "filename": "vod.html",
     "streams": [
       { "name": "Manual Samuel (2016)", "twitch": "296515241", "soft_start": "16:32" },

@@ -9,7 +9,11 @@ class Category(dict):
         self['games'] = []
         for game in games.copy():
             if self['code'] == game['category']:
-                self['games'].append(game)
+                if not game.get('type'):
+                    self['games'].append(game)
+                elif game['type'] == 'list':
+                    self['games'].extend(game['streams'])
+
                 games.remove(game)
 
 
