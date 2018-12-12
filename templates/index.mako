@@ -35,7 +35,7 @@
   ## Карточки
   <div class="row d-none d-sm-flex">
   % for game in sorted(category['games'], key=lambda k: k.date):
-    % if year is not None and year != game.date.year:
+    % if category.get('split_by_year') != False and year is not None and year != game.date.year:
     <div class="col-12"><div class="hr-sect">↓ ${game.date.year} год ↓</div></div>
     % endif
 <% year = game.date.year %>\
@@ -78,7 +78,7 @@
   ## Список (для маленьких экранов)
   <ul class="list-group d-sm-none">
   % for game in sorted(category['games'], key=lambda k: k.date):
-    % if year is not None and year != game.date.year:
+    % if category.get('split_by_year') != False and year is not None and year != game.date.year:
     <div class="col-12"><div class="hr-sect">↓ ${game.date.year} год ↓</div></div>
     % endif
 <% year = game.date.year %>\
