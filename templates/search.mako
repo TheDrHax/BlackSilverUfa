@@ -1,4 +1,7 @@
-<%! from templates.data.timecodes import Timecode %>\
+<%!
+  from templates.data.timecodes import Timecode
+  from templates.data.games import Game, SegmentReference
+%>\
 <%
     stream_map = {}
 
@@ -39,15 +42,19 @@ var Redirect = {
 
 var Search = {
   index: {
+<% listed_games = [] %>\
     % for category in categories:
       % for game in category['games']:
+        % if type(game) == Game:
     "${game['name']}": "${"/links/" + game['filename']}",
+        % elif type(game) == SegmentReference:
+          % if game.game not in listed_games:
+    "${game.game['name']}": "${"/links/" + game.game['filename']}",
+<% listed_games.append(game.game) %>\
+          % endif
+    "${game['name']}": "/links/${game.game['filename']}#${game.hash}",
+        % endif
       % endfor
-      % if category.get('type') == 'list':
-        % for segment in category['games'][0]['streams']:
-    "${segment['name']}": "/links/${category['games'][0]['filename']}#${segment.hash}",
-        % endfor
-      % endif
     % endfor
   },
 

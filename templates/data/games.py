@@ -51,6 +51,7 @@ class Game(dict):
         self['streams'] = []
         for segment_reference in segments:
             ref = SegmentReference(streams, segment_reference)
+            ref.game = self
             ref.stream.games.append((self, ref))
             self['streams'].append(ref)
 
