@@ -28,7 +28,7 @@
       { "name": "Spelunker! Party / Ultimate Chicken Horse", "twitch": "184206477" },
       { "name": "Pulsar: Lost Colony", "twitch": "200702885", "start": "2:09:00" },
       { "name": "Looterkings / Mount Your Friends", "twitch": "206394832" },
-      { "name": "Witch It / PlayerUnknown's Battlegrounds", "twitch": "207753795" },
+      { "name": "Witch It", "twitch": "207753795" },
       { "name": "The Hunter: Call of the Wild / Road Redemption", "twitch": "213247693" },
       { "name": "Viscera Cleanup Detail / Astroneer", "twitch": "213846142", "start": "1:58:00" },
       { "name": "Desolate", "twitch": "227264292" },
@@ -54,6 +54,15 @@
       { "name": "Superfighters Deluxe", "twitch": "343098113", "segment": 1, "start": "3:20:23" },
       { "name": "Survived By", "twitch": "346312308", "start": "2:41:26" },
       { "name": "Prey: Typhon Hunter", "twitch": "347665549", "segment": 1, "start": "1:47:38" }
+    ]
+  },
+  {
+    "name": "PlayerUnknown's Battlegrounds",
+    "category": "co-op-series",
+    "filename": "pubg.html",
+    "streams": [
+      { "name": "1", "twitch": "207753795", "start": "3:24:00" },
+      { "name": "2", "twitch": "348930664" }
     ]
   },
   {
@@ -771,7 +780,8 @@
     "filename": "ashen.html",
     "streams": [
       { "name": "1", "twitch": "345863416", "start": "50:07" },
-      { "name": "2 (поиски коопа)", "twitch": "346312308" }
+      { "name": "2 (поиски коопа)", "twitch": "346312308" },
+      { "name": "3", "twitch": "348930664", "start": "2:47:53" }
     ]
   },
   {
