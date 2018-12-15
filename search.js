@@ -265,6 +265,7 @@ var Redirect = {
     "345416464": "/links/first.html#345416464",
     "345863416": "/links/first.html#345863416",
     "348094949": "/links/first.html#348094949",
+    "348930664.1": "/links/ashen.html#348930664.1",
     "343098113": "/links/just-cause-4.html#343098113",
     "334043313": "/links/hitman-2.html#334043313",
     "335348537": "/links/hitman-2.html#335348537",
