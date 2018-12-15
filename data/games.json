@@ -53,7 +53,7 @@
       { "name": "Among Us / UpBreakers", "twitch": "340545862" },
       { "name": "Superfighters Deluxe", "twitch": "343098113", "segment": 1, "start": "3:20:23" },
       { "name": "Survived By", "twitch": "346312308", "start": "2:41:26" },
-      { "name": "Prey: Typhon Hunter", "twitch": "347665549", "segment": 1, "start": "1:47:38" }
+      { "name": "Prey: Typhon Hunter", "twitch": "347665549", "start": "1:47:38" }
     ]
   },
   {
@@ -146,7 +146,7 @@
       { "name": "3", "twitch": "331512980" },
       { "name": "4", "twitch": "337485395", "segment": 1 },
       { "name": "5", "twitch": "343098113", "segment": 1, "start": "4:04:44" },
-      { "name": "6", "twitch": "347665549", "segment": 1, "start": "3:03:25" }
+      { "name": "6", "twitch": "347665549", "start": "3:03:25" }
     ]
   },
   {
@@ -197,7 +197,7 @@
       { "name": "7", "twitch": "331965944", "start": "4:05:42" },
       { "name": "8", "twitch": "339579917", "segment": 1, "start": "6:38:26" },
       { "name": "9", "twitch": "340545862", "start": "4:40:45" },
-      { "name": "10", "twitch": "347665549", "segment": 1, "start": "4:38:00" }
+      { "name": "10", "twitch": "347665549", "start": "4:38:00" }
     ]
   },
   {
@@ -557,7 +557,7 @@
       { "name": "God's Basement", "twitch": "323817086", "start": "2:35:30" },
       { "name": "Infliction", "twitch": "324642823" },
       { "name": "Battlefield V", "twitch": "333173605" },
-      { "name": "Room 303", "twitch": "347665549", "segment": 0 }
+      { "name": "Room 303", "twitch": "347665549" }
     ]
   },
   {
@@ -770,7 +770,7 @@
       { "name": "Battlefield V: The Last Tiger / The Shapeshifting Detective", "twitch": "344946351" },
       { "name": "The Darkness", "twitch": "345416464" },
       { "name": "Devil May Cry 5", "twitch": "345863416" },
-      { "name": "Northbury Grove", "twitch": "347665549", "segment": 0, "start": "40:30" },
+      { "name": "Northbury Grove", "twitch": "347665549", "start": "40:30" },
       { "name": "PlayStation Classic (все игры)", "twitch": "348094949" }
     ]
   },
