@@ -62,7 +62,7 @@
     "filename": "pubg.html",
     "streams": [
       { "name": "1", "twitch": "207753795", "start": "3:24:00" },
-      { "name": "2", "twitch": "348930664" }
+      { "name": "2", "twitch": "348930664", "segment": 0 }
     ]
   },
   {
@@ -781,7 +781,7 @@
     "streams": [
       { "name": "1", "twitch": "345863416", "start": "50:07" },
       { "name": "2 (поиски коопа)", "twitch": "346312308" },
-      { "name": "3", "twitch": "348930664", "start": "2:47:53" }
+      { "name": "3", "twitch": "348930664", "segment": 1, "start": "2:47:53" }
     ]
   },
   {
