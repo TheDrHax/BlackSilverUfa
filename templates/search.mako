@@ -28,6 +28,7 @@ var Redirect = {
 
   link: function (hash) {
     let dest = this.index[hash];
+
     if (dest !== undefined) {
       return dest;
     } else {
@@ -36,7 +37,12 @@ var Redirect = {
   },
 
   go: function (hash) {
-    window.location.replace(this.link(hash));
+    let path = document.location.pathname + document.location.hash;
+    let redirect = this.link(hash);
+
+    if (path != redirect) {
+      window.location.replace(this.link(hash));
+    }
   }
 }
 

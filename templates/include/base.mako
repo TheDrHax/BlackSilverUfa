@@ -158,5 +158,6 @@
         $(this).lazyload({});
       });
     </script>
+    <%block name="scripts" />
   </body>
 </html>

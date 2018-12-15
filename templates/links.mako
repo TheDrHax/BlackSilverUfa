@@ -9,7 +9,9 @@
 
 <%block name="head">
 <title>${game['name']} | ${config['title']}</title>
+</%block>
 
+<%block name="scripts">
 <!-- Plyr (https://github.com/sampotts/plyr) -->
 <link rel="stylesheet" href="//cdn.plyr.io/3.4.7/plyr.css">
 <script src="//cdn.plyr.io/3.4.7/plyr.js" crossorigin="anonymous"></script>
