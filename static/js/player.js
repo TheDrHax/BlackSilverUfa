@@ -256,6 +256,6 @@ window.addEventListener('DOMContentLoaded', function() {
   }
 
   if (hash && !spawned) {
-    window.location.replace('/src/player.html?s=' + hash.join('.'));
+    Redirect.go(hash.join('.'));
   }
 }, false);

@@ -34,7 +34,7 @@ var Redirect = {
     "340545862": "/links/co-op.html#340545862",
     "343098113.1": "/links/co-op.html#343098113.1",
     "346312308": "/links/ashen.html#346312308",
-    "347665549.1": "/links/co-op.html#347665549.1",
+    "347665549": "/links/single.html#347665549",
     "348930664": "/links/pubg.html#348930664",
     "339579917.1": "/links/the-experiment.html#339579917.1",
     "333586186": "/links/hitman-2.html#333586186",
@@ -175,7 +175,6 @@ var Redirect = {
     "323817086": "/links/first.html#323817086",
     "324642823": "/links/single.html#324642823",
     "333173605": "/links/single.html#333173605",
-    "347665549": "/links/single.html#347665549",
     "248791166": "/links/first.html#248791166",
     "338800850": "/links/protocol.html#338800850",
     "341780077.1": "/links/protocol.html#341780077.1",
@@ -395,6 +394,7 @@ var Redirect = {
 
   link: function (hash) {
     let dest = this.index[hash];
+
     if (dest !== undefined) {
       return dest;
     } else {
@@ -403,7 +403,12 @@ var Redirect = {
   },
 
   go: function (hash) {
-    window.location.replace(this.link(hash));
+    let path = document.location.pathname + document.location.hash;
+    let redirect = this.link(hash);
+
+    if (path != redirect) {
+      window.location.replace(this.link(hash));
+    }
   }
 }
 
@@ -594,7 +599,7 @@ var Search = {
     "Among Us / UpBreakers": "/links/co-op.html#340545862",
     "Superfighters Deluxe": "/links/co-op.html#343098113.1",
     "Survived By": "/links/co-op.html#346312308",
-    "Prey: Typhon Hunter": "/links/co-op.html#347665549.1",
+    "Prey: Typhon Hunter": "/links/co-op.html#347665549",
     "PlayerUnknown's Battlegrounds": "/links/pubg.html",
     "The Experiment / Escape First": "/links/the-experiment.html",
     "Pummel Party": "/links/pummel-party.html",
