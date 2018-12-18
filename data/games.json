@@ -772,7 +772,8 @@
       { "name": "Devil May Cry 5", "twitch": "345863416" },
       { "name": "Northbury Grove", "twitch": "347665549", "start": "40:30" },
       { "name": "PlayStation Classic (все игры)", "twitch": "348094949" },
-      { "name": "Below / Lucius III", "twitch": "349397154", "segment": 0 }
+      { "name": "Below", "twitch": "349397154", "segment": 0 },
+      { "name": "Lucius III", "twitch": "349397154", "segment": 1, "start": "1:52:52" }
     ]
   },
   {
@@ -783,7 +784,7 @@
       { "name": "1", "twitch": "345863416", "start": "50:07" },
       { "name": "2 (поиски коопа)", "twitch": "346312308" },
       { "name": "3", "twitch": "348930664", "segment": 1, "start": "2:47:53" },
-      { "name": "4", "twitch": "349397154", "segment": 1, "start": "3:04:22" }
+      { "name": "4", "twitch": "349397154", "segment": 2, "start": "3:04:22" }
     ]
   },
   {
