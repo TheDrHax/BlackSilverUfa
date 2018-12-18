@@ -88,7 +88,8 @@
 % if segment.get('note'):
   <li>Примечание: ${segment['note']}</li>
 % endif
-<% related = [(g, s) for g, s in segment.stream.games if g is not game] %>\
+<% related = [(g, s) for g, s in segment.stream.games
+                     if g is not game or game.get('type') == 'list'] %>\
 % if len(related) > 0:
   <li>Связанные игры:</li>
   <ul>
