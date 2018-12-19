@@ -774,7 +774,8 @@
       { "name": "Devil May Cry 5", "twitch": "345863416" },
       { "name": "Northbury Grove", "twitch": "347665549", "start": "40:30" },
       { "name": "PlayStation Classic (все игры)", "twitch": "348094949" },
-      { "name": "Below", "twitch": "349397154", "segment": 0 }
+      { "name": "Below", "twitch": "349397154", "segment": 0 },
+      { "name": "Heathen - The sons of the law / Dread of Laughter", "twitch": "351262416" }
     ]
   },
   {
@@ -808,11 +809,12 @@
   },
   {
     "name": "Granny",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "granny.html",
     "streams": [
       { "name": "1", "twitch": "344508969", "start": "2:26:26", "segment": 1 },
-      { "name": "2", "twitch": "344946351", "start": "2:14:23" }
+      { "name": "2", "twitch": "344946351", "start": "2:14:23" },
+      { "name": "3", "twitch": "351262416", "start": "3:34:46" }
     ]
   },
   {
