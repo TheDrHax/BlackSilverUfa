@@ -54,7 +54,7 @@
       { "name": "Superfighters Deluxe", "twitch": "343098113", "segment": 1, "start": "3:20:23" },
       { "name": "Survived By", "twitch": "346312308", "start": "2:41:26" },
       { "name": "Prey: Typhon Hunter", "twitch": "347665549", "start": "1:47:38" },
-      { "name": "Last Year: The Nightmare", "twitch": "350791309", "segment": 1, "start": "2:19:58" }
+      { "name": "Last Year: The Nightmare", "twitch": "350791309", "start": "2:19:58" }
     ]
   },
   {
@@ -298,7 +298,7 @@
       { "name": "8", "twitch": "313747869", "start": "3:55:41" },
       { "name": "9", "twitch": "331512980", "start": "4:05:13" },
       { "name": "10", "twitch": "343098113", "segment": 1, "start": "6:48:48" },
-      { "name": "11", "twitch": "350791309", "segment": 1, "start": "4:59:53" }
+      { "name": "11", "twitch": "350791309", "start": "4:59:53" }
     ]
   },
   {
@@ -784,7 +784,7 @@
     "filename": "lucius-3.html",
     "streams": [
       { "name": "1", "twitch": "349397154", "segment": 1, "start": "1:52:52" },
-      { "name": "2", "twitch": "350791309", "segment": 0 }
+      { "name": "2", "twitch": "350791309" }
     ]
   },
   {
