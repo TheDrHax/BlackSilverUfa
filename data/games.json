@@ -776,7 +776,17 @@
       { "name": "PlayStation Classic (все игры)", "twitch": "348094949" },
       { "name": "Below", "twitch": "349397154", "segment": 0 },
       { "name": "Heathen - The sons of the law / Dread of Laughter", "twitch": "351262416" },
-      { "name": "The Long Dark - Redux", "twitch": "352177874" }
+      { "name": "The Long Dark - Redux", "twitch": "352177874" },
+      { "name": "The Suffering 2: Ties That Bind / Thief 3: Deadly Shadows", "twitch": "352687063" }
+    ]
+  },
+  {
+    "name": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+    "category": "abandoned",
+    "filename": "sw-kotor2.html",
+    "streams": [
+      { "name": "1.1 (прерван)", "twitch": "352687063", "start": "3:12:41" },
+      { "name": "1.2", "twitch": "352766083", "soft_start": "1:33" }
     ]
   },
   {
