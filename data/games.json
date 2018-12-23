@@ -54,7 +54,8 @@
       { "name": "Superfighters Deluxe", "twitch": "343098113", "segment": 1, "start": "3:20:23" },
       { "name": "Survived By", "twitch": "346312308", "start": "2:41:26" },
       { "name": "Prey: Typhon Hunter", "twitch": "347665549", "start": "1:47:38" },
-      { "name": "Last Year: The Nightmare", "twitch": "350791309", "start": "2:19:58" }
+      { "name": "Last Year: The Nightmare", "twitch": "350791309", "start": "2:19:58" },
+      { "name": "Atlas (кооп не найден)", "twitch": "353211576" }
     ]
   },
   {
@@ -147,7 +148,8 @@
       { "name": "3", "twitch": "331512980" },
       { "name": "4", "twitch": "337485395", "segment": 1 },
       { "name": "5", "twitch": "343098113", "segment": 1, "start": "4:04:44" },
-      { "name": "6", "twitch": "347665549", "start": "3:03:25" }
+      { "name": "6", "twitch": "347665549", "start": "3:03:25" },
+      { "name": "7", "twitch": "353211576", "start": "1:48:51" }
     ]
   },
   {
@@ -238,7 +240,8 @@
     "filename": "human-fall-flat.html",
     "streams": [
       { "name": "1", "twitch": "202631693" },
-      { "name": "2", "twitch": "234373553", "start": "3:19:02" }
+      { "name": "2", "twitch": "234373553", "start": "3:19:02" },
+      { "name": "3", "twitch": "353211576", "start": "3:17:25" }
     ]
   },
   {
@@ -298,7 +301,8 @@
       { "name": "8", "twitch": "313747869", "start": "3:55:41" },
       { "name": "9", "twitch": "331512980", "start": "4:05:13" },
       { "name": "10", "twitch": "343098113", "segment": 1, "start": "6:48:48" },
-      { "name": "11", "twitch": "350791309", "start": "4:59:53" }
+      { "name": "11", "twitch": "350791309", "start": "4:59:53" },
+      { "name": "12", "twitch": "353211576", "start": "4:23:56" }
     ]
   },
   {
