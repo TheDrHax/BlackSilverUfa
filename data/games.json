@@ -781,8 +781,16 @@
       { "name": "Below", "twitch": "349397154", "segment": 0 },
       { "name": "Heathen - The sons of the law / Dread of Laughter", "twitch": "351262416" },
       { "name": "The Long Dark - Redux", "twitch": "352177874" },
-      { "name": "The Suffering 2: Ties That Bind / Thief 3: Deadly Shadows", "twitch": "352687063" },
-      { "name": "Subnautica", "twitch": "354067956" }
+      { "name": "The Suffering 2: Ties That Bind / Thief 3: Deadly Shadows", "twitch": "352687063" }
+    ]
+  },
+  {
+    "name": "Subnautica",
+    "category": "ongoing",
+    "filename": "subnautica.html",
+    "streams": [
+      { "name": "1", "twitch": "354067956" },
+      { "name": "2", "twitch": "354466172" }
     ]
   },
   {
@@ -805,14 +813,15 @@
   },
   {
     "name": "Ashen",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "ashen.html",
     "streams": [
       { "name": "1", "twitch": "345863416", "start": "50:07" },
       { "name": "2 (поиски коопа)", "twitch": "346312308" },
       { "name": "3", "twitch": "348930664", "segment": 1, "start": "2:47:53" },
       { "name": "4", "twitch": "349397154", "segment": 2, "start": "3:04:22" },
-      { "name": "5", "twitch": "352177874", "start": "3:05:39" }
+      { "name": "5", "twitch": "352177874", "start": "3:05:39" },
+      { "name": "6", "twitch": "354466172", "start": "3:04:05" }
     ]
   },
   {
