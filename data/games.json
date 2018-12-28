@@ -554,7 +554,7 @@
         "note": "Первые 500 комнат есть на <a href=\"https://www.youtube.com/playlist?list=PLIBsKu92G5oqlPiqjXylUB0mwWJwDtmHo\">YouTube</a>."
       },
       { "name": "Lust for Darkness", "twitch": "273929911", "start": "2:52:24" },
-      { "name": "Shininng Hotel: Lost in Nowhere / Midnight Awake / Pamali (демо)", "twitch": "275418948", "start": "3:15:14" },
+      { "name": "Shininng Hotel: Lost in Nowhere / Midnight Awake", "twitch": "275418948", "start": "3:15:14" },
       { "name": "The Awesome Adventures of Captain Spirit", "twitch": "278566845", "segment": 0, "soft_start": "23:46" },
       { "name": "Dead Forest", "twitch": "293415850", "soft_start": "20:18" },
       { "name": "Transference", "twitch": "312840878" },
@@ -564,6 +564,15 @@
       { "name": "Infliction", "twitch": "324642823" },
       { "name": "Battlefield V", "twitch": "333173605" },
       { "name": "Room 303", "twitch": "347665549" }
+    ]
+  },
+  {
+    "name": "Pamali: Indonesian Folklore Horror",
+    "category": "ongoing",
+    "filename": "pamali.html",
+    "streams": [
+      { "name": "Демо", "twitch": "275418948", "start": "4:46:56" },
+      { "name": "Folklore 1 - The White Lady", "twitch": "355395099" }
     ]
   },
   {
@@ -781,7 +790,8 @@
       { "name": "Below", "twitch": "349397154", "segment": 0 },
       { "name": "Heathen - The sons of the law / Dread of Laughter", "twitch": "351262416" },
       { "name": "The Long Dark - Redux", "twitch": "352177874" },
-      { "name": "The Suffering 2: Ties That Bind / Thief 3: Deadly Shadows", "twitch": "352687063" }
+      { "name": "The Suffering 2: Ties That Bind / Thief 3: Deadly Shadows", "twitch": "352687063" },
+      { "name": "Lost In Vivo", "twitch": "355395099", "start": "3:20:27" }
     ]
   },
   {
