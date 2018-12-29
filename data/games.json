@@ -28,7 +28,6 @@
       { "name": "Spelunker! Party / Ultimate Chicken Horse", "twitch": "184206477" },
       { "name": "Pulsar: Lost Colony", "twitch": "200702885", "start": "2:09:00" },
       { "name": "Looterkings / Mount Your Friends", "twitch": "206394832" },
-      { "name": "Witch It", "twitch": "207753795" },
       { "name": "The Hunter: Call of the Wild / Road Redemption", "twitch": "213247693" },
       { "name": "Viscera Cleanup Detail / Astroneer", "twitch": "213846142", "start": "1:58:00" },
       { "name": "Desolate", "twitch": "227264292" },
@@ -56,6 +55,15 @@
       { "name": "Prey: Typhon Hunter", "twitch": "347665549", "start": "1:47:38" },
       { "name": "Last Year: The Nightmare", "twitch": "350791309", "start": "2:19:58" },
       { "name": "Atlas (кооп не найден)", "twitch": "353211576" }
+    ]
+  },
+  {
+    "name": "Witch It!",
+    "category": "co-op-series",
+    "filename": "witch-it.html",
+    "streams": [
+      { "name": "1", "twitch": "207753795" },
+      { "name": "2", "twitch": "355865035", "start": "3:37:43" }
     ]
   },
   {
@@ -149,7 +157,8 @@
       { "name": "4", "twitch": "337485395", "segment": 1 },
       { "name": "5", "twitch": "343098113", "segment": 1, "start": "4:04:44" },
       { "name": "6", "twitch": "347665549", "start": "3:03:25" },
-      { "name": "7", "twitch": "353211576", "start": "1:48:51" }
+      { "name": "7", "twitch": "353211576", "start": "1:48:51" },
+      { "name": "8", "twitch": "355865035", "start": "2:25:11" }
     ]
   },
   {
@@ -302,7 +311,8 @@
       { "name": "9", "twitch": "331512980", "start": "4:05:13" },
       { "name": "10", "twitch": "343098113", "segment": 1, "start": "6:48:48" },
       { "name": "11", "twitch": "350791309", "start": "4:59:53" },
-      { "name": "12", "twitch": "353211576", "start": "4:23:56" }
+      { "name": "12", "twitch": "353211576", "start": "4:23:56" },
+      { "name": "13", "twitch": "355865035", "start": "5:10:02" }
     ]
   },
   {
@@ -325,7 +335,8 @@
       { "name": "4", "twitch": "213846142", "soft_start": "13:00" },
       { "name": "5", "twitch": "281859149", "start": "3:11:26" },
       { "name": "6", "twitch": "282238591", "soft_start": "22:21" },
-      { "name": "7", "twitch": "287404564", "soft_start": "17:40" }
+      { "name": "7", "twitch": "287404564", "soft_start": "17:40" },
+      { "name": "8", "twitch": "355865035", "start": "4:48:18" }
     ]
   },
   {
@@ -800,7 +811,8 @@
     "filename": "subnautica.html",
     "streams": [
       { "name": "1", "twitch": "354067956" },
-      { "name": "2", "twitch": "354466172" }
+      { "name": "2", "twitch": "354466172" },
+      { "name": "3", "twitch": "355865035" }
     ]
   },
   {
