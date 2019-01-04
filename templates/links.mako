@@ -22,7 +22,7 @@
 
 <%block name="content">
 <%def name="timecode_link(id, t)">\
-<a href="javascript:void(0)" onclick="document.getElementById('wrapper-${id}').seek(${int(t)})">${str(t)}</a>\
+<a href="javascript:void(0)" class="timecode" data-id="${id}" data-value="${int(t)}">${str(t)}</a>\
 </%def>
 
 <%def name="timecode_list(id, timecodes, text='Таймкоды')">\
@@ -112,7 +112,7 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" id="wrapper-${id}" ${segment.attrs()} />
+  <p class="stream col" data-id="${id}" ${segment.attrs()} />
 </div>
 
 % if not segment.player_compatible():
