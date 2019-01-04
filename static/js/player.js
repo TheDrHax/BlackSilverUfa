@@ -72,6 +72,19 @@ function spawnPlyr(wrapper, callback) {
         wrapper.dataset.start = false; // Seek to the start only one time
       }
     }
+
+    // Change color of timecode links
+    timecodes.forEach(function(el) {
+      if (el.dataset.value < player.currentTime) {
+        if (!el.classList.contains('visited')) {
+          el.classList.add('visited');
+        }
+      } else {
+        if (el.classList.contains('visited')) {
+          el.classList.remove('visited');
+        }
+      }
+    });
   });
   player.on('playing', function(event) {
     // Workaround for muted sound after seeking
