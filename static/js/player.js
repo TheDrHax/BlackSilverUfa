@@ -28,6 +28,10 @@ function sec(timecode) {
   return result;
 };
 
+function get_timecodes(id) {
+  return document.querySelectorAll('.timecode[data-id="' + id + '"]');
+}
+
 function spawnPlayer(wrapper, callback) {
   if (wrapper.dataset.youtube || wrapper.dataset.vk || wrapper.dataset.direct) {
     return spawnPlyr(wrapper, callback);
@@ -36,8 +40,8 @@ function spawnPlayer(wrapper, callback) {
 
 function spawnPlyr(wrapper, callback) {
   var player, subtitles;
-
   var stream = wrapper.dataset;
+  var timecodes = get_timecodes(stream.id);
 
   var options = {
     // Disable quality seletion (doesn't work on YouTube)
@@ -68,6 +72,19 @@ function spawnPlyr(wrapper, callback) {
         wrapper.dataset.start = false; // Seek to the start only one time
       }
     }
+
+    // Change color of timecode links
+    timecodes.forEach(function(el) {
+      if (el.dataset.value < player.currentTime) {
+        if (!el.classList.contains('visited')) {
+          el.classList.add('visited');
+        }
+      } else {
+        if (el.classList.contains('visited')) {
+          el.classList.remove('visited');
+        }
+      }
+    });
   });
   player.on('playing', function(event) {
     // Workaround for muted sound after seeking
@@ -225,6 +242,11 @@ window.addEventListener('DOMContentLoaded', function() {
         wrapper.seek(t);
       });
     };
+
+    // Activate timecode links
+    var timecodes = get_timecodes(wrapper.dataset.id);
+    var timecode_onclick = function() { wrapper.seek(Number(this.dataset.value)); };
+    timecodes.forEach(function(el) { el.onclick = timecode_onclick; });
 
     if (hash) {
       let id = hash[0];

@@ -132,3 +132,7 @@ h1>.badge, h2>.badge, h3>.badge {
   margin-bottom: 1em;
   margin-left: 1em;
 }
+
+.visited {
+  color: purple;
+}
