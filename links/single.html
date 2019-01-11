@@ -1636,6 +1636,10 @@
         <i class="far fa-closed-captioning"></i> Субтитры
       </a>
     </span>
+    <span class="badge badge-success">
+      <a href="https://www.youtube.com/watch?v=AklYDC4aMTc" target="_blank">
+        <i class="fab fa-youtube"></i> AklYDC4aMTc
+      </a>
     </span>
   </div>
 </div>
@@ -1654,19 +1658,13 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="26" data-name="Deltarune Ep. 1" data-twitch="361716902" style="display: none" />
+  <p class="stream col" data-id="26" data-name="Deltarune Ep. 1" data-twitch="361716902" data-youtube="AklYDC4aMTc" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v361716902.ass" --player-passthrough hls twitch.tv/videos/361716902 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v361716902.ass ytdl://AklYDC4aMTc
 </code></pre>
 </div></div>
 
