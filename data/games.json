@@ -58,6 +58,15 @@
     ]
   },
   {
+    "name": "New Super Mario Bros. U",
+    "category": "co-op-series",
+    "filename": "nsmbu.html",
+    "streams": [
+      { "name": "1.1 (прерван)", "twitch": "362762169" },
+      { "name": "1.2", "twitch": "362795883" }
+    ]
+  },
+  {
     "name": "Witch It!",
     "category": "co-op-series",
     "filename": "witch-it.html",
@@ -808,8 +817,16 @@
       { "name": "Heathen - The sons of the law / Dread of Laughter", "twitch": "351262416" },
       { "name": "The Long Dark - Redux", "twitch": "352177874" },
       { "name": "The Suffering 2: Ties That Bind / Thief 3: Deadly Shadows", "twitch": "352687063" },
-      { "name": "Lost In Vivo", "twitch": "355395099", "start": "3:20:27" },
-      { "name": "Resident Evil 2", "twitch": "362192911" }
+      { "name": "Lost In Vivo", "twitch": "355395099", "start": "3:20:27" }
+    ]
+  },
+  {
+    "name": "Resident Evil 2",
+    "category": "ongoing",
+    "filename": "re2.html",
+    "streams": [
+      { "name": "1", "twitch": "362192911" },
+      { "name": "2", "twitch": "362701428" }
     ]
   },
   {
