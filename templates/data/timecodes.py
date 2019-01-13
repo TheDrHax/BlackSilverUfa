@@ -212,7 +212,7 @@ class TimecodesSlice(Timecodes):
 
 
 class TimecodeHelper:
-    delay = 15  # Delay of `streamlink --stream-url` + `mpv` (quality='best')
+    delay = 10  # Delay of experimental low latency streamlink + MPV without cache
 
     @staticmethod
     def time():
@@ -222,5 +222,7 @@ class TimecodeHelper:
     def __init__(self, start):
         self.start = Timecode(start)
 
-    def get(self):
+    def __call__(self):
         return self.time() - self.start - Timecode(self.delay)
+    
+    get = __call__
