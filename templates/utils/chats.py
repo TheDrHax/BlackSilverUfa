@@ -3,8 +3,12 @@
 
 import os
 import tcd
-from templates.data import streams
-from templates.utils import _
+
+from . import _, load_json
+from ..data import streams
+
+
+tcd.settings.update(load_json('data/tcd.json'))
 
 
 if __name__ == '__main__':

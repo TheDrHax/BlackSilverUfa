@@ -56,9 +56,9 @@ case $1 in
                 ) ;;
             *) echo "Usage: $0 $1 checkout|diff|commit|push" ;;
         esac ;;
-    build) $run ./generate.py ;;
-    serve) $run_base -p 8000:8000 $IMAGE ./serve.py ;;
-    download-chats) $run ./download-chats.py ;;
+    build) $run python -m templates.utils.generate ;;
+    serve) $run_base -p 8000:8000 $IMAGE python -m templates.utils.serve ;;
+    download-chats) $run python -m templates.utils.chats ;;
     sh) $run $@ ;;
     python) $run $@ -i -m templates.utils.cli ;;
     *) echo "Usage: $0 image|build|serve|download-chats|sh|python" ;;

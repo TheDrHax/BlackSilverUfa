@@ -4,8 +4,9 @@
 import os
 import shutil
 from mako.lookup import TemplateLookup
-from templates.data import streams, games, categories
-from templates.utils import _, load_json
+
+from . import _, load_json
+from ..data import streams, games, categories
 
 
 lookup = TemplateLookup(directories=['./templates'],
