@@ -3,11 +3,12 @@
 
 from subprocess import call
 from livereload import Server
-from templates.utils import _
+
+from . import _
 
 
 def generate():
-    return call(['python', './generate.py'])
+    return call(['python', '-m', 'templates.utils.generate'])
 
 
 def serve(host='0.0.0.0', port=8000, root=_('')):
