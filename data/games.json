@@ -747,7 +747,6 @@
       { "name": "The Coma: Recut / Lone Survivor", "twitch": "212431882", "start": "1:44:54" },
       { "name": "Stifled", "twitch": "212678883" },
       { "name": "The Witchkin / Emily Wants to Play Too / LeftWay", "twitch": "222198164" },
-      { "name": "My Time at Portia", "twitch": "225950740", "start": "2:11:10" },
       { "name": "Yakuza 6: The Song of Life", "twitch": "226000025" },
       { "name": "Last Guardian", "twitch": "227626210" },
       { "name": "Never Again / Boogeyman 2", "twitch": "230659866" },
@@ -819,7 +818,8 @@
       { "name": "The Long Dark - Redux", "twitch": "352177874" },
       { "name": "The Suffering 2: Ties That Bind / Thief 3: Deadly Shadows", "twitch": "352687063" },
       { "name": "Lost In Vivo", "twitch": "355395099", "start": "3:20:27" },
-      { "name": "Vane / Subject", "twitch": "364318283", "segment": 2 }
+      { "name": "Vane / Subject", "twitch": "364318283", "segment": 2 },
+      { "name": "Onimusha: Warlords", "twitch": "364810379", "start": "3:09:02" }
     ]
   },
   {
@@ -916,6 +916,15 @@
       { "name": "3", "twitch": "319111640" },
       { "name": "4", "twitch": "320779856" },
       { "name": "5", "twitch": "321174954" }
+    ]
+  },
+  {
+    "name": "My Time at Portia",
+    "category": "ongoing",
+    "filename": "portia.html",
+    "streams": [
+      { "name": "1", "twitch": "225950740", "start": "2:11:10" },
+      { "name": "2 (заново)", "twitch": "364810379" }
     ]
   },
   {
