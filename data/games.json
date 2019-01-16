@@ -589,7 +589,7 @@
         "name": "Resident Evil 2 Remake 1-Shot Demo", "twitch": "362192911", "start": "4:19:04",
         "note": "Первое прохождение доступно на <a href=\"https://youtu.be/koDvjemhZnk\">YouTube</a>."
       },
-      { "name": "Bright Memory - Ep. 1", "twitch": "364318283", "start": "2:36:08" }
+      { "name": "Bright Memory - Ep. 1", "twitch": "364318283", "segment": 1, "start": "2:36:08" }
     ]
   },
   {
@@ -819,7 +819,7 @@
       { "name": "The Long Dark - Redux", "twitch": "352177874" },
       { "name": "The Suffering 2: Ties That Bind / Thief 3: Deadly Shadows", "twitch": "352687063" },
       { "name": "Lost In Vivo", "twitch": "355395099", "start": "3:20:27" },
-      { "name": "Vane / Subject", "twitch": "364318283", "start": "3:31:20" }
+      { "name": "Vane / Subject", "twitch": "364318283", "start": "3:31:20", "segment": 1 }
     ]
   },
   {
@@ -936,7 +936,7 @@
     "streams": [
       { "name": "Episode 1", "twitch": "297214143", "soft_start": "19:29" },
       { "name": "Episode 2", "twitch": "314960838" },
-      { "name": "Episode 3", "twitch": "364318283" }
+      { "name": "Episode 3", "twitch": "364318283", "segment": 0 }
     ]
   },
   {
