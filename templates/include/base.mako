@@ -78,12 +78,12 @@
             <ul class="list-unstyled">
               <li>
                 <a href="https://github.com/${config['github']['user']}/${config['github']['repo']}/">
-                  <i class="fab fa-github"></i> GitHub
+                  <i class="fab fa-github"></i> Репозиторий GitHub
                 </a>
               </li>
               <li>
-                <a href="https://bsarchive.thedrhax.pw">
-                  Зеркало bsarchive.com
+                <a href="https://t.me/BlackUFA_Monitor">
+                  <i class="fab fa-telegram"></i> Канал BlackUFA_Monitor
                 </a>
               </li>
               <li>
