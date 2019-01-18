@@ -13,8 +13,8 @@ node('python3 && git && (tzdata || !apline)') {
         git branch: input_branch, credentialsId: cred_git, url: repo_url
         sh 'git config --local user.email "the.dr.hax@gmail.com"'
         sh 'git config --local user.name "Jenkins"'
-        sh './bsu pages checkout force'
         sh './bsu venv update'
+        sh './bsu pages checkout force'
     }
 
     stage('Download Chats') {
