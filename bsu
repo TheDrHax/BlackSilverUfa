@@ -1,27 +1,30 @@
 #!/bin/sh
 
-export IMAGE="docker.thedrhax.pw/buildenv-blacksilverufa"
+export PYTHON="python3"
+export VENV="_python"
+export PATH="$PWD/$VENV/bin:$PATH"
 export PREFIX="./_site"
 export PAGES_ORIGIN="origin/gh-pages"
 export PAGES_LOCAL="gh-pages"
 
-run_base="docker run \
-  $([ -t 0 ] && echo '-it') \
-  --rm \
-  -e PREFIX \
-  -v $(pwd):/bsu \
-  -u $(id -u)"
+venv_setup() {
+    if [ ! -d "$VENV" ]; then
+        $PYTHON -m venv "$VENV"
+    fi
+    $PYTHON -m pip install -U -r requirements.txt
+}
 
-run="$run_base $IMAGE"
+if [ ! -d "$VENV" ]; then
+    echo "Setting up the virtual environment: $VENV"
+    venv_setup
+fi
 
 case $1 in
-    image)
+    venv)
         case $2 in
-            build)  docker build -t "$IMAGE" docker/ ;;
-            push)   docker push "$IMAGE" ;;
-            pull)   docker pull "$IMAGE" ;;
-            remove) docker rmi "$IMAGE" ;;
-            *)      echo "Usage: $0 $1 build|push|pull|remove" ;;
+            update) venv_setup ;;
+            remove) rm -r "$VENV" ;;
+            *) echo "Usage: $0 $1 update|remove" ;;
         esac ;;
     pages)
         case $2 in
@@ -56,10 +59,11 @@ case $1 in
                 ) ;;
             *) echo "Usage: $0 $1 checkout|diff|commit|push" ;;
         esac ;;
-    build) $run python -m templates.utils.generate ;;
-    serve) $run_base -p 8000:8000 $IMAGE python -m templates.utils.serve ;;
-    download-chats) $run python -m templates.utils.chats ;;
-    sh) $run $@ ;;
-    python) $run $@ -i -m templates.utils.cli ;;
-    *) echo "Usage: $0 image|build|serve|download-chats|sh|python" ;;
+    build) $PYTHON -m templates.utils.generate ;;
+    serve) $PYTHON -m templates.utils.serve ;;
+    download-chats) $PYTHON -m templates.utils.chats ;;
+    sh) $@ ;;
+    cli) $PYTHON -i -m templates.utils.cli ;;
+    python) shift; $PYTHON $@ ;;
+    *) echo "Usage: $0 venv|build|serve|download-chats|sh|cli|python" ;;
 esac
