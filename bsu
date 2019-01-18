@@ -14,7 +14,7 @@ venv_setup() {
     $PYTHON -m pip install -U -r requirements.txt
 }
 
-if [ ! -d "$VENV" ]; then
+if [ ! -d "$VENV" ] && [ "_$1" != "_venv" ]; then
     echo "Setting up the virtual environment: $VENV"
     venv_setup
 fi
