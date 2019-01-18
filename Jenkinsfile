@@ -1,4 +1,4 @@
-node('docker && git') {
+node('python3 && git && (tzdata || !apline)') {
     String cred_git = 'GitHub'
     String cred_github = 'GitHub-Token'
 
@@ -9,33 +9,29 @@ node('docker && git') {
     String repo_url = 'git@github.com:' + github_account + '/' + github_repo + '.git'
 
 
-    stage('Pull') {
+    stage('Prepare') {
         git branch: input_branch, credentialsId: cred_git, url: repo_url
+        sh 'git config --local user.email "the.dr.hax@gmail.com"'
+        sh 'git config --local user.name "Jenkins"'
+        sh './bsu pages checkout force'
+        sh './bsu venv update'
     }
 
-    stage('Prepare') {
-        sh 'git config --global user.email "the.dr.hax@gmail.com"'
-        sh 'git config --global user.name "Jenkins"'
-        sh './bsu pages checkout force'
+    stage('Download Chats') {
+        sh './bsu download-chats'
     }
 
     stage('Build') {
-        sh './bsu image pull'
-        try {
-            sh './bsu download-chats'
-            sh './bsu build'
-        } catch (error) {
-            throw error
-        } finally {
-            sh './bsu image remove'
-        }
-    }
-
-    stage('Commit') {
-        sh './bsu pages commit'
+        sh './bsu build'
     }
 
     stage('Deploy') {
+        sh './bsu pages commit'
+
+        sshagent (credentials: [cred_git]) {
+            sh './bsu pages push'
+        }
+
         githubNotify(
             status: "SUCCESS",
             credentialsId: cred_github,
@@ -43,8 +39,5 @@ node('docker && git') {
             repo: github_repo,
             sha: input_branch
         )
-        sshagent (credentials: [cred_git]) {
-            sh './bsu pages push'
-        }
     }
 }
