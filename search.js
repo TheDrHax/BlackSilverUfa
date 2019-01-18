@@ -575,7 +575,7 @@ var Search = {
     "Lost In Vivo": "/links/first.html#355395099",
     "Vane / Subject": "/links/first.html#364318283.2",
     "Onimusha: Warlords": "/links/first.html#364810379",
-    "Ace Combat 7": "/links/first.html#365752221",
+    "Ace Combat 7: Skies Unknown": "/links/first.html#365752221",
     "NieR Automata": "/links/nier-automata.html",
     "Persona 5": "/links/persona_5.html",
     "Pamali: Indonesian Folklore Horror": "/links/pamali.html",
