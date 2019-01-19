@@ -35,9 +35,19 @@
   "code": "co-op-series",
   "level": 3
 }, {
-  "name": "IRL, мероприятия, особые стримы",
+  "name": "Особые стримы",
   "code": "other",
   "level": 2,
+  "split_by_year": false
+}, {
+  "name": "Конференции",
+  "code": "expos",
+  "level": 3,
+  "split_by_year": false
+}, {
+  "name": "Анбоксинги",
+  "code": "unboxing",
+  "level": 3,
   "split_by_year": false
 }, {
   "name": "VODы",
