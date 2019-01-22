@@ -30,9 +30,7 @@
       { "name": "Looterkings / Mount Your Friends", "twitch": "206394832" },
       { "name": "The Hunter: Call of the Wild / Road Redemption", "twitch": "213247693" },
       { "name": "Viscera Cleanup Detail / Astroneer", "twitch": "213846142", "start": "1:58:00" },
-      { "name": "Desolate", "twitch": "227264292" },
       { "name": "Party Panic", "twitch": "232346216" },
-      { "name": "Deep Rock Galactic", "twitch": "234037742", "segment": 0 },
       { "name": "Dead Dozen", "twitch": "236864236", "segment": 0 },
       { "name": "Albion Online / Farm Together", "twitch": "239364187" },
       { "name": "Dead Realm / SoulHunt", "twitch": "250258247", "start": "1:58:13" },
@@ -55,6 +53,24 @@
       { "name": "Prey: Typhon Hunter", "twitch": "347665549", "start": "1:47:38" },
       { "name": "Last Year: The Nightmare", "twitch": "350791309", "start": "2:19:58" },
       { "name": "Atlas (кооп не найден)", "twitch": "353211576" }
+    ]
+  },
+  {
+    "name": "Deep Rock Galactic",
+    "category": "co-op-series",
+    "filename": "deep-rock-galactic.html",
+    "streams": [
+      { "name": "1", "twitch": "234037742", "segment": 0 },
+      { "name": "2", "twitch": "367994742", "start": "4:10:21" }
+    ]
+  },
+  {
+    "name": "Desolate",
+    "category": "co-op-series",
+    "filename": "desolate.html",
+    "streams": [
+      { "name": "1", "twitch": "227264292" },
+      { "name": "2", "twitch": "367994742", "start": "2:20:28" }
     ]
   },
   {
@@ -729,7 +745,8 @@
       { "name": "2", "twitch": "220513992" },
       { "name": "3", "twitch": "239731404" },
       { "name": "4", "twitch": "290213414", "soft_start": "22:34", "segment": 0 },
-      { "name": "5", "twitch": "366354053", "start": "1:10:04" }
+      { "name": "5", "twitch": "366354053", "start": "1:10:04" },
+      { "name": "6", "twitch": "367994742" }
     ]
   },
   {
