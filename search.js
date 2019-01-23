@@ -225,6 +225,7 @@ var Redirect = {
     "220513992": "/links/scp-cb.html#220513992",
     "239731404": "/links/scp-cb.html#239731404",
     "290213414": "/links/scp-cb.html#290213414",
+    "366354053.1": "/links/scp-cb.html#366354053.1",
     "223945520": "/links/sea-of-thieves.html#223945520",
     "240830747": "/links/sea-of-thieves.html#240830747",
     "241201704": "/links/sea-of-thieves.html#241201704",
