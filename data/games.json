@@ -601,10 +601,6 @@
       { "name": "Battlefield V", "twitch": "333173605" },
       { "name": "Room 303", "twitch": "347665549" },
       { "name": "Deltarune - Ep. 1", "twitch": "361716902" },
-      {
-        "name": "Resident Evil 2 Remake 1-Shot Demo", "twitch": "362192911", "start": "4:19:04",
-        "note": "Первое прохождение доступно на <a href=\"https://youtu.be/koDvjemhZnk\">YouTube</a>."
-      },
       { "name": "Bright Memory - Ep. 1", "twitch": "364318283", "segment": 1 }
     ]
   },
@@ -860,6 +856,21 @@
       { "name": "1", "twitch": "362192911" },
       { "name": "2", "twitch": "362701428" }
     ]
+  },
+  {
+    "name": "Resident Evil 2 Remake",
+    "category": "ongoing",
+    "filename": "re2-remake.html",
+    "streams": [
+      {
+        "name": "1-Shot Demo","twitch": "362192911","start": "4:19:04",
+        "note": "Первое прохождение доступно на <a href=\"https://youtu.be/koDvjemhZnk\">YouTube</a>."
+      },
+      { "name": "1.1", "twitch": "368943925", "segment": 0 },
+      { "name": "1.2", "twitch": "368943925", "segment": 1 },
+      { "name": "1.3", "twitch": "368943925", "segment": 2 }
+    ],
+    "thumbnail": 1
   },
   {
     "name": "Subnautica",
