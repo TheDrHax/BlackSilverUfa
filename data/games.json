@@ -859,7 +859,7 @@
   },
   {
     "name": "Resident Evil 2 Remake",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "re2-remake.html",
     "streams": [
       {
@@ -875,7 +875,15 @@
       { "name": "1.7", "twitch": "368943925", "segment": 6 },
       { "name": "1.8", "twitch": "368943925", "segment": 7 },
       { "name": "1.9", "twitch": "368943925", "segment": 8 },
-      { "name": "1.10", "twitch": "368943925", "segment": 9 }
+      { "name": "1.10", "twitch": "368943925", "segment": 9 },
+      { "name": "2.1", "twitch": "369455598", "segment": 0 },
+      { "name": "2.2", "twitch": "369455598", "segment": 1 },
+      { "name": "2.3", "twitch": "369455598", "segment": 2 },
+      { "name": "2.4", "twitch": "369455598", "segment": 3 },
+      { "name": "2.5", "twitch": "369455598", "segment": 4 },
+      { "name": "2.6", "twitch": "369455598", "segment": 5 },
+      { "name": "2.7", "twitch": "369455598", "segment": 6 },
+      { "name": "2.8", "twitch": "369455598", "segment": 7 }
     ],
     "thumbnail": 1
   },
