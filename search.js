@@ -668,7 +668,7 @@ var Search = {
     "Atlas (кооп не найден)": "/links/co-op.html#353211576",
     "Deep Rock Galactic": "/links/deep-rock-galactic.html",
     "Desolate": "/links/desolate.html",
-    "New Super Mario Bros. U": "/links/nsmbu.html",
+    "New Super Mario Bros. U Deluxe": "/links/nsmbu.html",
     "Witch It!": "/links/witch-it.html",
     "PlayerUnknown's Battlegrounds": "/links/pubg.html",
     "The Experiment / Escape First": "/links/the-experiment.html",
