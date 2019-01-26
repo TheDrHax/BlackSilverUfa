@@ -836,6 +836,10 @@
         <i class="far fa-closed-captioning"></i> Субтитры
       </a>
     </span>
+    <span class="badge badge-success">
+      <a href="https://www.youtube.com/watch?v=RnIngA-DDLk" target="_blank">
+        <i class="fab fa-youtube"></i> RnIngA-DDLk
+      </a>
     </span>
   </div>
 </div>
@@ -844,19 +848,13 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="15" data-name="2.5" data-offset="05:35:09" data-segment="4" data-twitch="369455598" style="display: none" />
+  <p class="stream col" data-id="15" data-name="2.5" data-offset="05:35:09" data-segment="4" data-twitch="369455598" data-youtube="RnIngA-DDLk" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v369455598.ass --sub-delay=-20109" --player-passthrough hls twitch.tv/videos/369455598 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v369455598.ass --sub-delay=-20109 ytdl://RnIngA-DDLk
 </code></pre>
 </div></div>
 
