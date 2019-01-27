@@ -846,7 +846,7 @@
       { "name": "Vane / Subject", "twitch": "364318283", "segment": 2 },
       { "name": "Onimusha: Warlords", "twitch": "364810379", "start": "3:09:02" },
       { "name": "Ace Combat 7: Skies Unknown", "twitch": "365752221" },
-      { "name": "Anthem (демо)", "twitch": "370111835", "start": "2:58:23" }
+      { "name": "Anthem (демо)", "twitch": "370111835", "segment": 1, "start": "2:58:23" }
     ]
   },
   {
@@ -884,7 +884,7 @@
       { "name": "2.5", "twitch": "369455598", "segment": 4 },
       { "name": "2.6", "twitch": "369455598", "segment": 5 },
       { "name": "2.7", "twitch": "369455598", "segment": 6 },
-      { "name": "3", "twitch": "370111835" }
+      { "name": "3", "twitch": "370111835", "segment": 0 }
     ],
     "thumbnail": 1
   },
