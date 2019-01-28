@@ -47,44 +47,55 @@ var Redirect = {
 }
 
 var Search = {
-  index: {
+  data: {
 <% listed_games = [] %>\
     % for category in categories:
+    "${category['code']}": [
       % for game in category['games']:
         % if type(game) == Game:
-    "${game['name']}": "${"/links/" + game['filename']}",
+      {name: "${game['name']}", path: "${"/links/" + game['filename']}", year: ${game.date.year}},
         % elif type(game) == SegmentReference:
           % if game.game not in listed_games:
-    "${game.game['name']}": "${"/links/" + game.game['filename']}",
+      {name: "${game.game['name']}", path: "${"/links/" + game.game['filename']}", year: ${game.date.year}},
 <% listed_games.append(game.game) %>\
           % endif
-    "${game['name']}": "/links/${game.game['filename']}#${game.hash}",
+      {name: "${game['name']}", path: "/links/${game.game['filename']}#${game.hash}", year: ${game.date.year}},
         % endif
       % endfor
+    ],
     % endfor
   },
 
-  select: function (value) {
-    let dest = this.index[value];
-    if (dest !== undefined) {
-      window.location = dest;
-    }
-  },
+  categories: [
+    % for category in categories:
+    {header: "${category['name']}", listLocation: "${category['code']}"},
+    % endfor
+  ],
 
   init: function() {
     let search = $("#search");
 
-    search.autocomplete({
-      source: Object.keys(this.index),
-      autoFocus: true,
-      minLength: 2,
-      select: function(event, ui) { Search.select(ui.item.value); },
-      position: { my: "right top", at: "right bottom", "collision": "fit" }
-    });
-
-    search.form().submit(function(e) {
-      Search.select(search.val());
-      e.preventDefault();
+    search.easyAutocomplete({
+      data: this.data,
+      categories: this.categories,
+      getValue: function(element) {
+        return element.name;
+      },
+      list: {
+        maxNumberOfElements: 8,
+        match: { enabled: true },
+        sort: { enabled: true },
+        onChooseEvent: function(arg) {
+            var item = search.getSelectedItemData();
+            window.location = item.path;
+        }
+      },
+      template: {
+        type: "description",
+        fields: {
+          description: "year"
+        }
+      }
     });
   }
 };
