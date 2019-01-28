@@ -77,18 +77,20 @@ h1>.badge, h2>.badge, h3>.badge {
  * Search menu
  */
 
-.ui-menu-item {
-  font-size: 16px;
+@media (min-width: 768px) {
+  .easy-autocomplete-container {
+    right: 0;
+  }
 }
 
-.ui-menu-item .ui-state-active {
-  color: #fff;
-  background: none;
-  background-color: #007bff;
+@media (max-width: 768px) {
+  .easy-autocomplete-container {
+    left: 0;
+  }
 }
 
-.ui-widget {
-  z-index: 1050;
+.easy-autocomplete-container {
+  word-break: normal;
 }
 
 /*
