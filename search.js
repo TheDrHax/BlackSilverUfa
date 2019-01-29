@@ -285,6 +285,7 @@ var Redirect = {
     "364810379": "/links/portia.html#364810379",
     "365752221": "/links/first.html#365752221",
     "370111835.1": "/links/first.html#370111835.1",
+    "371758027": "/links/first.html#371758027",
     "362192911": "/links/re2.html#362192911",
     "362701428": "/links/re2.html#362701428",
     "368943925": "/links/re2-remake.html#368943925",
@@ -604,6 +605,7 @@ var Search = {
       {name: "Onimusha: Warlords", path: "/links/first.html#364810379", year: 2019},
       {name: "Ace Combat 7: Skies Unknown", path: "/links/first.html#365752221", year: 2019},
       {name: "Anthem (демо)", path: "/links/first.html#370111835.1", year: 2019},
+      {name: "Alien: Blackout", path: "/links/first.html#371758027", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
