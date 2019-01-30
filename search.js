@@ -226,6 +226,7 @@ var Redirect = {
     "290213414": "/links/scp-cb.html#290213414",
     "366354053.1": "/links/scp-cb.html#366354053.1",
     "367994742": "/links/scp-cb.html#367994742",
+    "372293257": "/links/scp-cb.html#372293257",
     "223945520": "/links/sea-of-thieves.html#223945520",
     "240830747": "/links/sea-of-thieves.html#240830747",
     "241201704": "/links/sea-of-thieves.html#241201704",
@@ -606,6 +607,7 @@ var Search = {
       {name: "Ace Combat 7: Skies Unknown", path: "/links/first.html#365752221", year: 2019},
       {name: "Anthem (демо)", path: "/links/first.html#370111835.1", year: 2019},
       {name: "Alien: Blackout", path: "/links/first.html#371758027", year: 2019},
+      {name: "Genesis Alpha One / Subnautica: Below Zero", path: "/links/first.html#372293257", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
