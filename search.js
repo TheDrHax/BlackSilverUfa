@@ -287,6 +287,8 @@ var Redirect = {
     "365752221": "/links/first.html#365752221",
     "370111835.1": "/links/first.html#370111835.1",
     "371758027": "/links/first.html#371758027",
+    "372293257.1": "/links/first.html#372293257.1",
+    "372293257.2": "/links/first.html#372293257.2",
     "362192911": "/links/re2.html#362192911",
     "362701428": "/links/re2.html#362701428",
     "368943925": "/links/re2-remake.html#368943925",
@@ -607,7 +609,8 @@ var Search = {
       {name: "Ace Combat 7: Skies Unknown", path: "/links/first.html#365752221", year: 2019},
       {name: "Anthem (демо)", path: "/links/first.html#370111835.1", year: 2019},
       {name: "Alien: Blackout", path: "/links/first.html#371758027", year: 2019},
-      {name: "Genesis Alpha One / Subnautica: Below Zero", path: "/links/first.html#372293257", year: 2019},
+      {name: "Genesis Alpha One", path: "/links/first.html#372293257.1", year: 2019},
+      {name: "Subnautica: Below Zero", path: "/links/first.html#372293257.2", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
