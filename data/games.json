@@ -743,7 +743,8 @@
       { "name": "4", "twitch": "290213414", "soft_start": "22:34", "segment": 0 },
       { "name": "5", "twitch": "366354053", "segment": 1, "start": "1:10:04" },
       { "name": "6", "twitch": "367994742", "segment": 0 },
-      { "name": "7", "twitch": "372293257", "segment": 0 }
+      { "name": "7", "twitch": "372293257", "segment": 0 },
+      { "name": "8", "twitch": "372851375", "start": "2:49:15" }
     ]
   },
   {
@@ -849,8 +850,7 @@
       { "name": "Ace Combat 7: Skies Unknown", "twitch": "365752221" },
       { "name": "Anthem (демо)", "twitch": "370111835", "segment": 1, "start": "2:58:23" },
       { "name": "Alien: Blackout", "twitch": "371758027" },
-      { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
-      { "name": "Subnautica: Below Zero", "twitch": "372293257", "segment": 2 }
+      { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 }
     ]
   },
   {
@@ -905,6 +905,15 @@
       { "name": "6", "twitch": "359212700" },
       { "name": "7 (финал)", "twitch": "360763825" },
       { "name": "8", "twitch": "363313548" }
+    ]
+  },
+  {
+    "name": "Subnautica: Below Zero (early access)",
+    "category": "infinite",
+    "filename": "subnautica-bz.html",
+    "streams": [
+      { "name": "1", "twitch": "372293257", "segment": 2 },
+      { "name": "2", "twitch": "372851375" }
     ]
   },
   {
