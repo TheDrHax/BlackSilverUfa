@@ -744,7 +744,7 @@
       { "name": "5", "twitch": "366354053", "segment": 1, "start": "1:10:04" },
       { "name": "6", "twitch": "367994742", "segment": 0 },
       { "name": "7", "twitch": "372293257", "segment": 0 },
-      { "name": "8", "twitch": "372851375", "start": "2:49:15" }
+      { "name": "8", "twitch": "372851375", "segment": 1, "start": "2:49:15" }
     ]
   },
   {
@@ -913,7 +913,7 @@
     "filename": "subnautica-bz.html",
     "streams": [
       { "name": "1", "twitch": "372293257", "segment": 2 },
-      { "name": "2", "twitch": "372851375" }
+      { "name": "2", "twitch": "372851375", "segment": 0 }
     ]
   },
   {
