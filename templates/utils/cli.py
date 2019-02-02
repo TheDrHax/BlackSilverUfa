@@ -4,14 +4,14 @@ from tcd.twitch import Channel
 from ..data.timecodes import Timecode, TimecodeHelper
 
 
-STATE = 'https://huginn.thedrhax.pw/users/1/web_requests/163/BlackUFA-Stream-State.json'
+STATE = 'https://red.thedrhax.pw/blackufa/twitch'
 
 c = Channel('blackufa')
 t = TimecodeHelper('0:00:00')
 
 
 def stream_state():
-    return requests.get(STATE).json()['items'][0]
+    return requests.get(STATE).json()
 
 
 def wait_for_stream():
