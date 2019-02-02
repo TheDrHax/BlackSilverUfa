@@ -215,6 +215,7 @@ var Redirect = {
     "219489801": "/links/demons-souls.html#219489801",
     "274295872": "/links/charity.html#274295872",
     "287810258": "/links/charity.html#287810258",
+    "373942448": "/links/charity.html#373942448",
     "329752092": "/links/halloween.html#329752092",
     "344508969": "/links/events.html#344508969",
     "245415969": "/links/unboxing.html#245415969",
