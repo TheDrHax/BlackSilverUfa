@@ -34,6 +34,7 @@ var Redirect = {
     "347665549": "/links/single.html#347665549",
     "350791309": "/links/lucius-3.html#350791309",
     "353211576": "/links/co-op.html#353211576",
+    "374556455.1": "/links/sigame.html#374556455.1",
     "234037742": "/links/deep-rock-galactic.html#234037742",
     "367994742.1": "/links/desolate.html#367994742.1",
     "227264292": "/links/desolate.html#227264292",
@@ -290,6 +291,7 @@ var Redirect = {
     "370111835.1": "/links/first.html#370111835.1",
     "371758027": "/links/first.html#371758027",
     "372293257.1": "/links/first.html#372293257.1",
+    "374556455": "/links/first.html#374556455",
     "362192911": "/links/re2.html#362192911",
     "362701428": "/links/re2.html#362701428",
     "368943925": "/links/re2-remake.html#368943925",
@@ -613,6 +615,7 @@ var Search = {
       {name: "Anthem (демо)", path: "/links/first.html#370111835.1", year: 2019},
       {name: "Alien: Blackout", path: "/links/first.html#371758027", year: 2019},
       {name: "Genesis Alpha One", path: "/links/first.html#372293257.1", year: 2019},
+      {name: "Praey for the Gods", path: "/links/first.html#374556455", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
@@ -691,6 +694,7 @@ var Search = {
       {name: "Prey: Typhon Hunter", path: "/links/co-op.html#347665549", year: 2018},
       {name: "Last Year: The Nightmare", path: "/links/co-op.html#350791309", year: 2018},
       {name: "Atlas (кооп не найден)", path: "/links/co-op.html#353211576", year: 2018},
+      {name: "The Isle / Golf With Your Friends", path: "/links/co-op.html#374556455.1", year: 2019},
     ],
     "co-op-series": [
       {name: "Deep Rock Galactic", path: "/links/deep-rock-galactic.html", year: 2018},
