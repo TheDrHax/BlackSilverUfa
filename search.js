@@ -292,6 +292,7 @@ var Redirect = {
     "371758027": "/links/first.html#371758027",
     "372293257.1": "/links/first.html#372293257.1",
     "374556455": "/links/first.html#374556455",
+    "375535539": "/links/first.html#375535539",
     "362192911": "/links/re2.html#362192911",
     "362701428": "/links/re2.html#362701428",
     "368943925": "/links/re2-remake.html#368943925",
@@ -616,6 +617,7 @@ var Search = {
       {name: "Alien: Blackout", path: "/links/first.html#371758027", year: 2019},
       {name: "Genesis Alpha One", path: "/links/first.html#372293257.1", year: 2019},
       {name: "Praey for the Gods", path: "/links/first.html#374556455", year: 2019},
+      {name: "S.T.A.L.K.E.R.: Call of Pripyat", path: "/links/first.html#375535539", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
