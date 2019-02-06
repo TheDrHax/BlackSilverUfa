@@ -312,6 +312,7 @@ var Redirect = {
     "369455598.5": "/links/re2-remake.html#369455598.5",
     "369455598.6": "/links/re2-remake.html#369455598.6",
     "370111835": "/links/re2-remake.html#370111835",
+    "376053722": "/links/re2-remake.html#376053722",
     "354067956": "/links/subnautica.html#354067956",
     "354466172": "/links/subnautica.html#354466172",
     "358216034": "/links/subnautica.html#358216034",
