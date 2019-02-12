@@ -867,7 +867,6 @@
       { "name": "Alien: Blackout", "twitch": "371758027" },
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
-      { "name": "S.T.A.L.K.E.R.: Call of Pripyat", "twitch": "375535539" },
       { "name": "Tom Clancy's The Division 2 (бета)", "twitch": "376580800" }
     ]
   },
@@ -1106,6 +1105,15 @@
       { "name": "4", "twitch": "289052085", "soft_start": "3:21:54", "segment": 2 },
       { "name": "5", "twitch": "291392607", "soft_start": "23:14", "segment": 0 },
       { "name": "6", "twitch": "294220536", "soft_start": "16:29" }
+    ]
+  },
+  {
+    "name": "S.T.A.L.K.E.R.: Call of Pripyat",
+    "category": "ongoing",
+    "filename": "stalker-cop.html",
+    "streams": [
+      { "name": "1", "twitch": "375535539" },
+      { "name": "2", "twitch": "379446154" }
     ]
   },
   {
