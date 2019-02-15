@@ -294,6 +294,7 @@ var Redirect = {
     "372293257.1": "/links/first.html#372293257.1",
     "376580800": "/links/first.html#376580800",
     "380648625": "/links/metro-exodus.html#380648625",
+    "380934386": "/links/metro-exodus.html#380934386",
     "362192911": "/links/re2.html#362192911",
     "362701428": "/links/re2.html#362701428",
     "368943925": "/links/re2-remake.html#368943925",
