@@ -863,11 +863,19 @@
       { "name": "Vane / Subject", "twitch": "364318283", "segment": 2 },
       { "name": "Onimusha: Warlords", "twitch": "364810379", "start": "3:09:02" },
       { "name": "Ace Combat 7: Skies Unknown", "twitch": "365752221" },
-      { "name": "Anthem (демо)", "twitch": "370111835", "segment": 1, "start": "2:58:23" },
       { "name": "Alien: Blackout", "twitch": "371758027" },
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
       { "name": "Tom Clancy's The Division 2 (бета)", "twitch": "376580800" }
+    ]
+  },
+  {
+    "name": "Anthem",
+    "category": "ongoing",
+    "filename": "anthem.html",
+    "streams": [
+      { "name": "0 (демо)", "twitch": "370111835", "segment": 1, "start": "2:58:23" },
+      { "name": "1", "twitch": "382162351" }
     ]
   },
   {
