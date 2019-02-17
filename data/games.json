@@ -872,13 +872,14 @@
   },
   {
     "name": "Metro Exodus",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "metro-exodus.html",
     "streams": [
       { "name": "1", "twitch": "380648625" },
       { "name": "2", "twitch": "380934386" },
       { "name": "3.1", "twitch": "381512063" },
-      { "name": "3.2", "twitch": "381522963" }
+      { "name": "3.2", "twitch": "381522963" },
+      { "name": "4", "twitch": "382092665" }
     ]
   },
   {
