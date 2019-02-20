@@ -185,6 +185,7 @@ var Redirect = {
     "333173605": "/links/single.html#333173605",
     "361716902": "/links/single.html#361716902",
     "364318283.1": "/links/single.html#364318283.1",
+    "383771606.1": "/links/single.html#383771606.1",
     "355395099": "/links/pamali.html#355395099",
     "248791166": "/links/first.html#248791166",
     "338800850": "/links/protocol.html#338800850",
@@ -320,6 +321,7 @@ var Redirect = {
     "369455598.6": "/links/re2-remake.html#369455598.6",
     "370111835": "/links/re2-remake.html#370111835",
     "376053722": "/links/re2-remake.html#376053722",
+    "383771606": "/links/re2-remake.html#383771606",
     "354067956": "/links/subnautica.html#354067956",
     "354466172": "/links/subnautica.html#354466172",
     "358216034": "/links/subnautica.html#358216034",
@@ -548,6 +550,7 @@ var Search = {
       {name: "Room 303", path: "/links/single.html#347665549", year: 2018},
       {name: "Deltarune - Ep. 1", path: "/links/single.html#361716902", year: 2019},
       {name: "Bright Memory - Ep. 1", path: "/links/single.html#364318283.1", year: 2019},
+      {name: "Devotion", path: "/links/single.html#383771606.1", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
