@@ -296,6 +296,7 @@ var Redirect = {
     "376580800": "/links/first.html#376580800",
     "370111835.1": "/links/anthem.html#370111835.1",
     "382162351": "/links/anthem.html#382162351",
+    "385983486": "/links/anthem.html#385983486",
     "380648625": "/links/metro-exodus.html#380648625",
     "380934386": "/links/metro-exodus.html#380934386",
     "381512063": "/links/metro-exodus.html#381512063",
