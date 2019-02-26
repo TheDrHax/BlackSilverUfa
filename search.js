@@ -55,6 +55,7 @@ var Redirect = {
     "323410931": "/links/cod-bo-4.html#323410931",
     "325559385": "/links/cod-bo-4.html#325559385",
     "335751293.1": "/links/cod-bo-4.html#335751293.1",
+    "387007566": "/links/cod-bo-4.html#387007566",
     "319559721": "/links/worms-wmd.html#319559721",
     "385372335.1": "/links/tricky-towers.html#385372335.1",
     "225279322": "/links/hunt-showdown.html#225279322",
