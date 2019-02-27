@@ -881,7 +881,8 @@
     "streams": [
       { "name": "0 (демо)", "twitch": "370111835", "segment": 1, "start": "2:58:23" },
       { "name": "1", "twitch": "382162351" },
-      { "name": "2", "twitch": "385983486" }
+      { "name": "2", "twitch": "385983486" },
+      { "name": "3", "twitch": "387496098", "segment": 1, "start": "4:04:45" }
     ]
   },
   {
@@ -1142,7 +1143,8 @@
       { "name": "1", "twitch": "375535539" },
       { "name": "2", "twitch": "379446154" },
       { "name": "3", "twitch": "384295329" },
-      { "name": "4", "twitch": "385372335", "segment": 0 }
+      { "name": "4", "twitch": "385372335", "segment": 0 },
+      { "name": "5", "twitch": "387496098", "segment": 0 }
     ]
   },
   {
