@@ -292,26 +292,15 @@
   </ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="55">00:55</a> — Стримлер</li>
-      <li>S.T.A.L.K.E.R.: Call of Pripyat:</li>
-  <ul>
-    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="1214">20:14</a> — Меню</li>
-    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="1226">20:26</a> — Игра</li>
-  </ul>
-
-      <li>Anthem:</li>
-  <ul>
-    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="14441">04:00:41</a> — Вход в Discord</li>
-    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="14685">04:04:45</a> — Игра</li>
-    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="15001">04:10:01</a> — Кооп</li>
-  </ul>
-
+    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="41">00:41</a> — Вход в Discord</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="285">04:45</a> — Игра</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="601">10:01</a> — Кооп</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="3" data-name="3" data-segment="1" data-start="04:04:45" data-twitch="387496098" style="display: none" />
+  <p class="stream col" data-id="3" data-name="3" data-offset="04:00:00" data-segment="1" data-start="04:04:45" data-twitch="387496098" style="display: none" />
 </div>
 
 <p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
@@ -323,7 +312,7 @@
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v387496098.ass --start=14685" --player-passthrough hls twitch.tv/videos/387496098 best
+  <pre class="highlight"><code>streamlink -p "mpv --sub-file=https://blackufa.thedrhax.pw/chats/v387496098.ass --sub-delay=-14400 --start=285" --player-passthrough hls twitch.tv/videos/387496098 best
 </code></pre>
 </div></div>
 
