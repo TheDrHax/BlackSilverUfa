@@ -188,6 +188,7 @@ var Redirect = {
     "361716902": "/links/single.html#361716902",
     "364318283.1": "/links/single.html#364318283.1",
     "383771606": "/links/single.html#383771606",
+    "388537884": "/links/single.html#388537884",
     "355395099": "/links/pamali.html#355395099",
     "248791166": "/links/first.html#248791166",
     "338800850": "/links/protocol.html#338800850",
@@ -557,6 +558,7 @@ var Search = {
       {name: "Deltarune - Ep. 1", path: "/links/single.html#361716902", year: 2019},
       {name: "Bright Memory - Ep. 1", path: "/links/single.html#364318283.1", year: 2019},
       {name: "Devotion", path: "/links/single.html#383771606", year: 2019},
+      {name: "The Cursed Forest", path: "/links/single.html#388537884", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
