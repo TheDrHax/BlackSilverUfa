@@ -93,6 +93,11 @@ h1>.badge, h2>.badge, h3>.badge {
   word-break: normal;
 }
 
+/* Workaround for `width: 0` on some mobile browser */
+.easy-autocomplete {
+  width: auto !important;
+}
+
 /*
  * Lazy load
  */
