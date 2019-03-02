@@ -55,6 +55,9 @@ function spawnPlyr(wrapper, callback) {
   wrapper.innerHTML = '<video />';
   player = new Plyr(wrapper.children[0], options);
 
+  // Force enable click and hover events on PCs with touchscreen
+  player.touch = false;
+
   player.on('timeupdate', function(event) {
     // Stop player when video exceeds overriden duration
     if (wrapper.dataset.end) {
