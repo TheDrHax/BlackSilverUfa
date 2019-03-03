@@ -54,7 +54,8 @@
       { "name": "Last Year: The Nightmare", "twitch": "350791309", "start": "2:19:58" },
       { "name": "Atlas (кооп не найден)", "twitch": "353211576" },
       { "name": "Golf With Your Friends", "twitch": "374556455", "start": "4:33:48" },
-      { "name": "Project Winter", "twitch": "378392606" }
+      { "name": "Project Winter", "twitch": "378392606" },
+      { "name": "Half Dead 2 / Pogostuck", "twitch": "389704750", "segment": 1 }
     ]
   },
   {
@@ -251,7 +252,8 @@
       { "name": "9", "twitch": "340545862", "start": "4:40:45" },
       { "name": "10", "twitch": "347665549", "start": "4:38:00" },
       { "name": "11", "twitch": "378392606", "start": "2:57:07" },
-      { "name": "12", "twitch": "385372335", "segment": 1, "_start": "2:13:23" }
+      { "name": "12", "twitch": "385372335", "segment": 1 },
+      { "name": "13", "twitch": "389704750", "segment": 1, "start": "4:39:52" }
     ]
   },
   {
@@ -872,7 +874,8 @@
       { "name": "Alien: Blackout", "twitch": "371758027" },
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
-      { "name": "Tom Clancy's The Division 2 (бета)", "twitch": "376580800" }
+      { "name": "Tom Clancy's The Division 2 (бета)", "twitch": "376580800" },
+      { "name": "Wounded", "twitch": "389704750", "segment": 0 }
     ]
   },
   {
