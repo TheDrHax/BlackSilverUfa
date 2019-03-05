@@ -55,7 +55,16 @@
       { "name": "Atlas (кооп не найден)", "twitch": "353211576" },
       { "name": "Golf With Your Friends", "twitch": "374556455", "start": "4:33:48" },
       { "name": "Project Winter", "twitch": "378392606" },
-      { "name": "Half Dead 2 / Pogostuck", "twitch": "389704750", "start": "1:22:33" }
+      { "name": "Half Dead 2", "twitch": "389704750", "start": "1:22:33" }
+    ]
+  },
+  {
+    "name": "Pogostuck: Rage With Your Friends",
+    "category": "co-op-series",
+    "filename": "pogostuck.html",
+    "streams": [
+      { "name": "1", "twitch": "389704750", "start": "3:21:16" },
+      { "name": "2", "twitch": "390719635", "start": "1:57:15" }
     ]
   },
   {
@@ -623,7 +632,8 @@
       { "name": "Deltarune - Ep. 1", "twitch": "361716902" },
       { "name": "Bright Memory - Ep. 1", "twitch": "364318283", "segment": 1 },
       { "name": "Devotion", "twitch": "383771606" },
-      { "name": "The Cursed Forest", "twitch": "388537884" }
+      { "name": "The Cursed Forest", "twitch": "388537884" },
+      { "name": "SCP: Blackout (демо) / SCP-022", "twitch": "390719635" }
     ]
   },
   {
@@ -875,7 +885,16 @@
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
       { "name": "Tom Clancy's The Division 2 (бета)", "twitch": "376580800" },
-      { "name": "Wounded", "twitch": "389704750" }
+      { "name": "Hollow Knight", "twitch": "390719635", "start": "2:51:28" }
+    ]
+  },
+  {
+    "name": "Wounded",
+    "category": "ongoing",
+    "filename": "wounded.html",
+    "streams": [
+      { "name": "1", "twitch": "389704750" },
+      { "name": "2", "twitch": "390719635", "start": "1:22:54" }
     ]
   },
   {
