@@ -298,6 +298,7 @@ var Redirect = {
     "371758027": "/links/first.html#371758027",
     "372293257.1": "/links/first.html#372293257.1",
     "376580800": "/links/first.html#376580800",
+    "390719635.1": "/links/first.html#390719635.1",
     "370111835.1": "/links/anthem.html#370111835.1",
     "382162351": "/links/anthem.html#382162351",
     "385983486": "/links/anthem.html#385983486",
@@ -641,7 +642,8 @@ var Search = {
       {name: "Genesis Alpha One", path: "/links/first.html#372293257.1", year: 2019},
       {name: "Praey for the Gods", path: "/links/first.html#374556455", year: 2019},
       {name: "Tom Clancy's The Division 2 (бета)", path: "/links/first.html#376580800", year: 2019},
-      {name: "SCP: Blackout (демо) / Hollow Knight", path: "/links/first.html#390719635", year: 2019},
+      {name: "SCP: Blackout (демо)", path: "/links/first.html#390719635", year: 2019},
+      {name: "Hollow Knight", path: "/links/first.html#390719635.1", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
