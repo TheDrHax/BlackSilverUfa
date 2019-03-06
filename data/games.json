@@ -64,7 +64,7 @@
     "filename": "pogostuck.html",
     "streams": [
       { "name": "1", "twitch": "389704750", "start": "3:21:16" },
-      { "name": "2", "twitch": "390719635", "start": "1:57:15" }
+      { "name": "2 (с чатом)", "twitch": "390719635", "start": "1:57:15" }
     ]
   },
   {
@@ -633,7 +633,7 @@
       { "name": "Bright Memory - Ep. 1", "twitch": "364318283", "segment": 1 },
       { "name": "Devotion", "twitch": "383771606" },
       { "name": "The Cursed Forest", "twitch": "388537884" },
-      { "name": "SCP: Blackout (демо) / SCP-022", "twitch": "390719635" }
+      { "name": "SCP-022", "twitch": "390719635", "start": "1:04:10" }
     ]
   },
   {
@@ -885,12 +885,12 @@
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
       { "name": "Tom Clancy's The Division 2 (бета)", "twitch": "376580800" },
-      { "name": "Hollow Knight", "twitch": "390719635", "start": "2:51:28" }
+      { "name": "SCP: Blackout (демо) / Hollow Knight", "twitch": "390719635" }
     ]
   },
   {
     "name": "Wounded",
-    "category": "ongoing",
+    "category": "abandoned",
     "filename": "wounded.html",
     "streams": [
       { "name": "1", "twitch": "389704750" },
@@ -1089,7 +1089,7 @@
   },
   {
     "name": "Super Seducer 2",
-    "category": "ongoing",
+    "category": "abandoned",
     "filename": "super-seducer-2.html",
     "streams": [
       { "name": "1", "twitch": "311651965" },
