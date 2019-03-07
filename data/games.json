@@ -870,7 +870,6 @@
       { "name": "Return 2 Games: Book of Demons / Viviette", "twitch": "344508969", "segment": 1 },
       { "name": "Battlefield V: The Last Tiger / The Shapeshifting Detective", "twitch": "344946351" },
       { "name": "The Darkness", "twitch": "345416464" },
-      { "name": "Devil May Cry 5", "twitch": "345863416" },
       { "name": "Northbury Grove", "twitch": "347665549", "start": "40:30" },
       { "name": "PlayStation Classic (все игры)", "twitch": "348094949" },
       { "name": "Below", "twitch": "349397154", "segment": 0 },
@@ -887,6 +886,15 @@
       { "name": "Tom Clancy's The Division 2 (бета)", "twitch": "376580800" },
       { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 },
       { "name": "Hollow Knight", "twitch": "390719635", "segment": 1 }
+    ]
+  },
+  {
+    "name": "Devil May Cry 5",
+    "category": "ongoing",
+    "filename": "dmc-5.html",
+    "streams": [
+      { "name": "Демо", "twitch": "345863416" },
+      { "name": "1", "twitch": "391675645" }
     ]
   },
   {
