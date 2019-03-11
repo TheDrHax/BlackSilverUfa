@@ -884,8 +884,16 @@
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
       { "name": "Tom Clancy's The Division 2 (бета)", "twitch": "376580800" },
-      { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 },
-      { "name": "Hollow Knight", "twitch": "390719635", "segment": 1 }
+      { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 }
+    ]
+  },
+  {
+    "name": "Hollow Knight",
+    "category": "ongoing",
+    "filename": "hollow-knight.html",
+    "streams": [
+      { "name": "1", "twitch": "390719635", "segment": 1 },
+      { "name": "2", "twitch": "393860794", "segment": 1 }
     ]
   },
   {
@@ -1170,14 +1178,15 @@
   },
   {
     "name": "S.T.A.L.K.E.R.: Call of Pripyat",
-    "category": "ongoing",
+    "category": "finished",
     "filename": "stalker-cop.html",
     "streams": [
       { "name": "1", "twitch": "375535539" },
       { "name": "2", "twitch": "379446154" },
       { "name": "3", "twitch": "384295329" },
       { "name": "4", "twitch": "385372335", "segment": 0 },
-      { "name": "5", "twitch": "387496098", "segment": 0 }
+      { "name": "5", "twitch": "387496098", "segment": 0 },
+      { "name": "6", "twitch": "393860794", "segment": 0 }
     ]
   },
   {
