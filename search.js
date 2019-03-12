@@ -296,7 +296,9 @@ var Redirect = {
     "365752221": "/links/first.html#365752221",
     "371758027": "/links/first.html#371758027",
     "372293257.1": "/links/first.html#372293257.1",
-    "376580800": "/links/first.html#376580800",
+    "394335768": "/links/first.html#394335768",
+    "376580800": "/links/division-2.html#376580800",
+    "394335768.1": "/links/division-2.html#394335768.1",
     "390719635.1": "/links/hollow-knight.html#390719635.1",
     "393860794.1": "/links/hollow-knight.html#393860794.1",
     "345863416": "/links/dmc-5.html#345863416",
@@ -646,8 +648,8 @@ var Search = {
       {name: "Alien: Blackout", path: "/links/first.html#371758027", year: 2019},
       {name: "Genesis Alpha One", path: "/links/first.html#372293257.1", year: 2019},
       {name: "Praey for the Gods", path: "/links/first.html#374556455", year: 2019},
-      {name: "Tom Clancy's The Division 2 (бета)", path: "/links/first.html#376580800", year: 2019},
       {name: "SCP: Blackout (демо)", path: "/links/first.html#390719635", year: 2019},
+      {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/first.html#394335768", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
@@ -768,6 +770,7 @@ var Search = {
       {name: "Warhammer: Vermintide 2", path: "/links/warhammer-vermintide-2.html", year: 2018},
       {name: "Monster Hunter World", path: "/links/monster-hunter-world.html", year: 2017},
       {name: "Sea of Thieves", path: "/links/sea-of-thieves.html", year: 2018},
+      {name: "Tom Clancy's The Division 2", path: "/links/division-2.html", year: 2019},
     ],
     "other": [
       {name: "Благотворительные стримы", path: "/links/charity.html", year: 2018},
