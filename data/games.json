@@ -883,8 +883,17 @@
       { "name": "Alien: Blackout", "twitch": "371758027" },
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
-      { "name": "Tom Clancy's The Division 2 (бета)", "twitch": "376580800" },
-      { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 }
+      { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 },
+      { "name": "S.T.A.L.K.E.R.: Lost Alpha", "twitch": "394335768", "segment": 0 }
+    ]
+  },
+  {
+    "name": "Tom Clancy's The Division 2",
+    "category": "co-op-series",
+    "filename": "division-2.html",
+    "streams": [
+      { "name": "Бета", "twitch": "376580800" },
+      { "name": "1", "twitch": "394335768", "segment": 1 }
     ]
   },
   {
