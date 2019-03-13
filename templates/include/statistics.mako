@@ -13,12 +13,13 @@
     missing, unofficial = 0, 0
     for stream in streams.values():
         for segment in stream:
-            if not segment.player_compatible():
-                missing += 1
             if 'vk' in segment:
                 unofficial += 1
-            if 'youtube' in segment and segment.get('official') == False:
-                unofficial += 1
+            elif 'youtube' in segment:
+                if segment.get('official') == False:
+                    unofficial += 1
+            else:
+                missing += 1
 %>\
 <p>В данный момент в архиве находятся <b>${numword(len(streams), 'стрим')}</b> \
 и <b>${dir} МБ</b> субтитров к ним. Общая продолжительность всех сохранённых \

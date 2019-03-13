@@ -77,7 +77,7 @@
     % elif segment.get('direct'):
     <span class="badge badge-danger">
       <a href="${segment['direct']}" target="_blank">
-        <i class="far fa-link"></i> прямая ссылка
+        <i class="fas fa-download"></i> прямая ссылка
       </a>
     % endif
     </span>
@@ -127,8 +127,9 @@
 <%el:code_block>\
 % if segment.player_compatible():
 mpv ${segment.mpv_args()} ${segment.mpv_file()}
-% else:
-streamlink -p "mpv ${segment.mpv_args()}" --player-passthrough hls twitch.tv/videos/${segment['twitch']} best
+% endif
+% if not segment.player_compatible() or segment.get('direct'):
+streamlink -p mpv -a "${segment.mpv_args()}" --player-passthrough hls twitch.tv/videos/${segment['twitch']} best
 % endif
 </%el:code_block>
 
