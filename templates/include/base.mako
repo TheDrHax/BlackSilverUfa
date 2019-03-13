@@ -1,4 +1,7 @@
-<%! from templates.utils import md5file %>
+<%!
+    from datetime import datetime
+    from templates.utils import md5file
+%>
 <!DOCTYPE html>
 <html lang="ru-RU">
   <head>
@@ -142,7 +145,7 @@
       </div>
 
       <div class="footer-copyright py-3 text-center small">
-        <i class="far fa-copyright"></i> 2017-2018, Дмитрий Карих. Весь контент принадлежит Артуру Блэку. Разрешение на его обработку предоставлено в <a href="https://www.youtube.com/watch?v=Bxj09aAOFaI&lc=UgwQmdNhl4TMNn9-Gg94AaABAg.8ZY93MRq32E8ZY9W3KGSJS">комментарии</a> (<a href="/static/images/answer.jpg">скриншот</a>).
+        <i class="far fa-copyright"></i> 2017-${datetime.now().strftime('%Y')}, Дмитрий Карих. Весь контент принадлежит Артуру Блэку. Разрешение на его обработку предоставлено в <a href="https://www.youtube.com/watch?v=Bxj09aAOFaI&lc=UgwQmdNhl4TMNn9-Gg94AaABAg.8ZY93MRq32E8ZY9W3KGSJS">комментарии</a> (<a href="/static/images/answer.jpg">скриншот</a>).
       </div>
     </footer>
 
