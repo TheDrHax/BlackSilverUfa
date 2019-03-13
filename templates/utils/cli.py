@@ -7,7 +7,7 @@ from ..data.timecodes import Timecode, TimecodeHelper
 STATE = 'https://red.thedrhax.pw/blackufa/twitch'
 
 c = Channel('blackufa')
-v = lambda: c.live_vod()
+v = lambda: c.videos().__next__()
 t = TimecodeHelper('0:00:00')
 
 
