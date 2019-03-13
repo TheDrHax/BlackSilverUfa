@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from datetime import datetime
 from .streams import Segment
 
 
@@ -62,8 +63,16 @@ class Game(dict):
         return self['streams'][self['thumbnail']].thumbnail()
 
     @property
+    def _unix_time(self):
+        time, count = 0, 0
+        for ref in self['streams']:
+            time += ref.stream._unix_time
+            count += 1
+        return time // count
+
+    @property
     def date(self):
-        return self['streams'][0].date
+        return datetime.fromtimestamp(self._unix_time)
 
 
 class Games(list):
