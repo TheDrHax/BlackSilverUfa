@@ -5,8 +5,8 @@ import os
 import shutil
 from mako.lookup import TemplateLookup
 
-from . import _, load_json
-from ..data import streams, games, categories
+from . import _
+from ..data import config, streams, games, categories
 
 
 lookup = TemplateLookup(directories=['./templates'],
@@ -17,7 +17,7 @@ lookup = TemplateLookup(directories=['./templates'],
 def generate():
     args = {
         '_': _,
-        'config': load_json("data/config.json"),
+        'config': config,
         'streams': streams,
         'games': games,
         'categories': categories
