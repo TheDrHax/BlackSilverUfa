@@ -37,6 +37,7 @@ var Redirect = {
     "374556455": "/links/first.html#374556455",
     "378392606": "/links/co-op.html#378392606",
     "389704750": "/links/wounded.html#389704750",
+    "394859046": "/links/co-op.html#394859046",
     "390719635": "/links/first.html#390719635",
     "234037742": "/links/deep-rock-galactic.html#234037742",
     "367994742.1": "/links/desolate.html#367994742.1",
@@ -734,6 +735,7 @@ var Search = {
       {name: "Golf With Your Friends", path: "/links/co-op.html#374556455", year: 2019},
       {name: "Project Winter", path: "/links/co-op.html#378392606", year: 2019},
       {name: "Half Dead 2", path: "/links/co-op.html#389704750", year: 2019},
+      {name: "Diablo", path: "/links/co-op.html#394859046", year: 2019},
     ],
     "co-op-series": [
       {name: "Pogostuck: Rage With Your Friends", path: "/links/pogostuck.html", year: 2019},
