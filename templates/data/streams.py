@@ -9,7 +9,8 @@ from .timecodes import Timecode, Timecodes, TimecodesSlice
 
 
 repo = Repo('.')
-timecodes = load_json("data/timecodes.json")
+config = load_json('data/config.json')
+timecodes = load_json('data/timecodes.json')
 
 
 class Segment(dict):
@@ -32,6 +33,12 @@ class Segment(dict):
                 self['twitch'] = stream.twitch
             else:
                 raise AttributeError('Missing attribute "twitch"')
+
+        if type(self) is Segment:  # HACK: Filter out SegmentReference instances
+            if True not in [key in self for key in ['youtube', 'vk', 'direct']]:
+                if config.get('fallback_source'):
+                    base_url = config['fallback_source']
+                    self['direct'] = f'{base_url}/{self["twitch"]}.mp4'
 
         for key in ['start', 'soft_start', 'end', 'offset']:
             if key in self:
