@@ -40,7 +40,7 @@ class Segment(dict):
                     base_url = config['fallback_source']
                     self['direct'] = f'{base_url}/{self["twitch"]}.mp4'
 
-        for key in ['start', 'soft_start', 'end', 'offset']:
+        for key in ['start', 'end', 'offset']:
             if key in self:
                 self[key] = Timecode(self[key])
 
@@ -57,7 +57,7 @@ class Segment(dict):
             attrs.append(f'data-{key}="{self._escape_attr(value)}"')
 
         for key in sorted(self.keys()):
-            if key in ['note', 'timecodes', 'soft_start']:
+            if key in ['note', 'timecodes']:
                 continue
 
             if key == 'segment':

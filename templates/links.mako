@@ -101,11 +101,9 @@
 % if segment.get('timecodes'):
   ${timecode_list(id, segment['timecodes'])}
 % endif
-% for i in ['start', 'soft_start']:
-  % if i in segment and Timecode(segment.get(i)) > Timecode(segment.get('offset')) and segment.get(i) not in segment.stream.timecodes:
-  <li>Игра начинается с ${timecode_link(id, Timecode(segment[i]) - Timecode(segment.get('offset')))}</li>
-  % endif
-% endfor
+% if 'start' in segment and Timecode(segment['start']) > Timecode(segment.get('offset')) and segment['start'] not in segment.stream.timecodes:
+  <li>Игра начинается с ${timecode_link(id, Timecode(segment['start']) - Timecode(segment.get('offset')))}</li>
+% endif
 % if segment.get('end'):
   <li>Запись заканчивается в ${timecode_link(id, Timecode(segment['end']) - Timecode(segment.get('offset')))}</li>
 % endif
