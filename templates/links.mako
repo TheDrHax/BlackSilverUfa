@@ -101,9 +101,6 @@
 % if segment.get('timecodes'):
   ${timecode_list(id, segment['timecodes'])}
 % endif
-% if 'start' in segment and Timecode(segment['start']) > Timecode(segment.get('offset')) and segment['start'] not in segment.stream.timecodes:
-  <li>Игра начинается с ${timecode_link(id, Timecode(segment['start']) - Timecode(segment.get('offset')))}</li>
-% endif
 </ul>
 
 <div class="row justify-content-center">
