@@ -174,6 +174,12 @@ class Stream(list):
                 if self.index(segment) > 0:
                     prev = self[self.index(segment) - 1]
                     prev['timecodes'].end_at(segment['offset'])
+            
+            if 'end' in segment:
+                end = segment['end']
+                if 'offset' in segment:
+                    end += segment['offset']
+                segment['timecodes'].end_at(end)
 
 
 class Streams(dict):
