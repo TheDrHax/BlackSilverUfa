@@ -119,14 +119,11 @@ class Timecodes(Timecode, list):
             except ValueError:
                 self.append(Timecodes(value, key))
 
-    def __int__(self):
-        return int(self[0]) if len(self) > 0 else 0
-
     def append(self, value):
         if not isinstance(value, Timecode):
             raise TypeError(type(value))
         for i, item in enumerate(self):
-            if item >= value:
+            if abs(item.value) >= abs(value.value):
                 return list.insert(self, i, value)
         return list.append(self, value)
 
@@ -141,17 +138,36 @@ class Timecodes(Timecode, list):
                     return True
             return False
 
+    def to_dict(self):
+        result = {}
+
+        for tc in self:
+            if isinstance(tc, Timecodes):
+                result[tc.name] = tc.to_dict()
+            else:
+                if tc.duration:
+                    key = f'{str(tc)}~{str(tc + tc.duration)}'
+                else:
+                    key = str(tc)
+
+                result[key] = tc.name
+
+        return result
+
     #
     # Disguise as the smallest timecode in the list
     #
 
+    def __int__(self):
+        return abs(self[0].value)
+
     @property
     def value(self):
-        return self[0].value if len(self) > 0 else 0
+        return int(self)
 
     @property
     def negative(self):
-        return self[0].negative if len(self) > 0 else False
+        return False
 
 
 class TimecodesSlice(Timecodes):
