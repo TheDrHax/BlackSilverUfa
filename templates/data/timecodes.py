@@ -20,10 +20,13 @@ class Timecode(object):
     def _sec_to_text(s):
         result = []
         if s < 60:
-            return '00:' + str(s).zfill(2)
+            return '0:' + str(s).zfill(2)
         for i in [24*60*60, 60*60, 60, 1]:  # days, hours, minutes, seconds
-            if len(result) > 0 or s // i > 0:
-                result.append(str(s // i).zfill(2))
+            if s // i > 0 or len(result) > 0:
+                if len(result) == 0:
+                    result.append(str(s // i))
+                else:
+                    result.append(str(s // i).zfill(2))
             s = s % i
         return ':'.join(result)
 
