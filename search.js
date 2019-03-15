@@ -227,6 +227,7 @@ var Redirect = {
     "373942448": "/links/charity.html#373942448",
     "329752092": "/links/halloween.html#329752092",
     "344508969": "/links/events.html#344508969",
+    "395846647": "/links/events.html#395846647",
     "245415969": "/links/unboxing.html#245415969",
     "356378129": "/links/unboxing.html#356378129",
     "366354053": "/links/unboxing.html#366354053",
@@ -302,6 +303,7 @@ var Redirect = {
     "394335768.1": "/links/division-2.html#394335768.1",
     "390719635.1": "/links/hollow-knight.html#390719635.1",
     "393860794.1": "/links/hollow-knight.html#393860794.1",
+    "395846647.1": "/links/hollow-knight.html#395846647.1",
     "345863416": "/links/dmc-5.html#345863416",
     "391675645": "/links/dmc-5.html#391675645",
     "392176181": "/links/dmc-5.html#392176181",
@@ -779,6 +781,7 @@ var Search = {
       {name: "Хэллоуин", path: "/links/halloween.html", year: 2018},
       {name: "IRL", path: "/links/events.html", year: 2018},
       {name: "Конкурс на лучший арт (4.12.18)", path: "/links/events.html#344508969", year: 2018},
+      {name: "Розыгрыш Metro Exodus: Artyom Edition", path: "/links/events.html#395846647", year: 2019},
     ],
     "expos": [
       {name: "неСерьёзный The Game Awards", path: "/links/the-game-awards.html", year: 2018},
