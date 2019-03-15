@@ -751,7 +751,8 @@
     "type": "list",
     "filename": "events.html",
     "streams": [
-      { "name": "Конкурс на лучший арт (4.12.18)", "twitch": "344508969", "segment": 0 }
+      { "name": "Конкурс на лучший арт (4.12.18)", "twitch": "344508969", "segment": 0 },
+      { "name": "Розыгрыш Metro Exodus: Artyom Edition", "twitch": "395846647", "segment": 0 }
     ]
   },
   {
@@ -903,7 +904,8 @@
     "filename": "hollow-knight.html",
     "streams": [
       { "name": "1", "twitch": "390719635", "segment": 1 },
-      { "name": "2", "twitch": "393860794", "segment": 1 }
+      { "name": "2", "twitch": "393860794", "segment": 1 },
+      { "name": "3", "twitch": "395846647", "segment": 1 }
     ]
   },
   {
