@@ -663,7 +663,8 @@
     "filename": "monstrum.html",
     "streams": [
       { "name": "1", "twitch": "234740795" },
-      { "name": "2", "twitch": "298040825", "start": "3:07:16" }
+      { "name": "2", "twitch": "298040825", "start": "3:07:16" },
+      { "name": "3", "twitch": "396376161", "start": "1:32:33" }
     ]
   },
   {
@@ -779,7 +780,8 @@
       { "name": "5", "twitch": "366354053", "segment": 1, "start": "1:10:04" },
       { "name": "6", "twitch": "367994742", "segment": 0 },
       { "name": "7", "twitch": "372293257", "segment": 0 },
-      { "name": "8", "twitch": "372851375", "segment": 1, "start": "2:49:15" }
+      { "name": "8", "twitch": "372851375", "segment": 1, "start": "2:49:15" },
+      { "name": "9 (Nine Tailed Fox Mod)", "twitch": "396376161" }
     ]
   },
   {
@@ -814,7 +816,7 @@
       { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
       { "name": "Past Cure", "twitch": "233032380", "segment": 1 },
       { "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "segment": 0 },
-      { "name": "Living Nightmares / Shadow Corridor / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" },
+      { "name": "Living Nightmares / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" },
       { "name": "Extinction / Minit", "twitch": "248791166" },
       { "name": "Fortunarium / Lobotomy Corporation / Escape Doodland / Jalopy", "twitch": "249160756" },
       { "name": "The Long Reach", "twitch": "249888883", "start": "2:58:39" },
@@ -886,7 +888,17 @@
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
       { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 },
-      { "name": "S.T.A.L.K.E.R.: Lost Alpha", "twitch": "394335768", "segment": 0 }
+      { "name": "S.T.A.L.K.E.R.: Lost Alpha", "twitch": "394335768", "segment": 0 },
+      { "name": "ШХД: Зима", "twitch": "396376161", "start": "1:05:16" }
+    ]
+  },
+  {
+    "name": "Kageroh: Shadow Corridor",
+    "category": "abandoned",
+    "filename": "kageroh.html",
+    "streams": [
+      { "name": "Демо", "twitch": "245043791", "start": "1:15:26" },
+      { "name": "Релиз", "twitch": "396376161", "start": "3:13:37" }
     ]
   },
   {

@@ -12,10 +12,10 @@ class SegmentReference(Segment):
         self.segment = streams[self['twitch']][self['segment']]
         self.stream = self.segment.stream
 
-        if 'start' in self and self['start'] not in self.stream.timecodes:
-            raise ValueError('Wrong "start" value: '
-                             f'Timecode {str(self["start"])} is not '
-                             f'in stream {self["twitch"]}')
+        # if 'start' in self and self['start'] not in self.stream.timecodes:
+        #     raise ValueError('Wrong "start" value: '
+        #                      f'Timecode {str(self["start"])} is not '
+        #                      f'in stream {self["twitch"]}')
 
     def __len__(self):
         return super(SegmentReference, self).__len__() + self.segment.__len__()
