@@ -198,6 +198,7 @@ var Redirect = {
     "341780077.1": "/links/protocol.html#341780077.1",
     "234740795": "/links/monstrum.html#234740795",
     "298040825": "/links/first.html#298040825",
+    "396376161": "/links/scp-cb.html#396376161",
     "185763905": "/links/super-mario-odyssey.html#185763905",
     "200401270": "/links/little-nightmares.html#200401270",
     "202381358": "/links/super-mario-odyssey.html#202381358",
@@ -592,7 +593,7 @@ var Search = {
       {name: "SCP: Secret Laboratory", path: "/links/first.html#232346216", year: 2018},
       {name: "Past Cure", path: "/links/first.html#233032380.1", year: 2018},
       {name: "Final Fantasy XV: Windows Edition (demo)", path: "/links/first.html#233355849", year: 2018},
-      {name: "Living Nightmares / Shadow Corridor / Agnes Doll / Duder / The Nothing / Bunky / Die Young", path: "/links/first.html#245043791", year: 2018},
+      {name: "Living Nightmares / Agnes Doll / Duder / The Nothing / Bunky / Die Young", path: "/links/first.html#245043791", year: 2018},
       {name: "Extinction / Minit", path: "/links/first.html#248791166", year: 2018},
       {name: "Fortunarium / Lobotomy Corporation / Escape Doodland / Jalopy", path: "/links/first.html#249160756", year: 2018},
       {name: "The Long Reach", path: "/links/first.html#249888883", year: 2018},
@@ -653,6 +654,7 @@ var Search = {
       {name: "Praey for the Gods", path: "/links/first.html#374556455", year: 2019},
       {name: "SCP: Blackout (демо)", path: "/links/first.html#390719635", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/first.html#394335768", year: 2019},
+      {name: "ШХД: Зима", path: "/links/first.html#396376161", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
@@ -695,6 +697,7 @@ var Search = {
     "abandoned": [
       {name: "Middle-earth: Shadow of War", path: "/links/middle_earth.html", year: 2017},
       {name: "Outlast 2 с Дашей", path: "/links/outlast_2_dw.html", year: 2017},
+      {name: "Kageroh: Shadow Corridor", path: "/links/kageroh.html", year: 2018},
       {name: "Wounded", path: "/links/wounded.html", year: 2019},
       {name: "Star Wars: Knights of the Old Republic II - The Sith Lords", path: "/links/sw-kotor2.html", year: 2018},
       {name: "Super Seducer 2", path: "/links/super-seducer-2.html", year: 2018},
