@@ -108,16 +108,35 @@ class Timecode(object):
 
 
 class Timecodes(Timecode, list):
+    def _from_dict(self, timecodes):
+        for key, value in timecodes.items():
+            if type(value) in [dict, list]:
+                self.append(Timecodes(value, key))
+            elif type(value) is str:
+                self.append(Timecode(key, value))
+            else:
+                raise TypeError(type(value))
+
+    def _from_list(self, timecodes):
+        for value in timecodes:
+            self.append(Timecode(value))
+
     def __init__(self, timecodes={}, name=None):
-        if type(timecodes) is not dict:
+        self.name = name
+
+        if type(timecodes) is dict:
+            self._from_dict(timecodes)
+        elif type(timecodes) is list:
+            self._from_list(timecodes)
+        else:
             raise TypeError(type(timecodes))
 
-        self.name = name
-        for key, value in timecodes.items():
-            try:
-                self.append(Timecode(key, value))
-            except ValueError:
-                self.append(Timecodes(value, key))
+    @property
+    def is_list(self):
+        for value in self:
+            if value.name:
+                return False
+        return True
 
     def append(self, value):
         if not isinstance(value, Timecode):
@@ -143,7 +162,10 @@ class Timecodes(Timecode, list):
 
         for tc in self:
             if isinstance(tc, Timecodes):
-                result[tc.name] = tc.to_dict()
+                if tc.is_list:
+                    result[tc.name] = [str(value) for value in tc]
+                else:
+                    result[tc.name] = tc.to_dict()
             else:
                 if tc.duration:
                     key = f'{str(tc)}~{str(tc + tc.duration)}'

@@ -22,7 +22,16 @@
 
 <%block name="content">
 <%def name="timecode_link(id, t)">\
+% if t.duration:
+<%
+    duration = t.duration
+    t = Timecode(t)
+    t.duration = None
+%>\
+${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
+% else:
 <a href="javascript:void(0)" class="timecode" data-id="${id}" data-value="${int(t)}">${str(t)}</a>\
+% endif
 </%def>
 
 <%def name="timecode_list(id, timecodes, text='Таймкоды')">\
@@ -30,10 +39,15 @@
   <li>${text}:</li>
   <ul>
   % for t in timecodes:
-    % if isinstance(t, Timecodes):
+    % if isinstance(t, Timecodes) and not t.is_list:
     ${timecode_list(id, t, text=t.name)}
-    % elif t.duration:
-    <li>${timecode_link(id, t)} - ${timecode_link(id, t + t.duration)} — ${t.name}</li>
+    % elif isinstance(t, Timecodes) and t.is_list:
+    <li>
+      % for i, t1 in enumerate(t):
+      ${timecode_link(id, t1)}${',' if i != len(t) - 1 else ''}
+      % endfor
+      — ${t.name}
+    </li>
     % else:
     <li>${timecode_link(id, t)} — ${t.name}</li>
     % endif
