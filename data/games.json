@@ -888,7 +888,6 @@
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
       { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 },
-      { "name": "S.T.A.L.K.E.R.: Lost Alpha", "twitch": "394335768", "segment": 0 },
       { "name": "ШХД: Зима", "twitch": "396376161", "start": "1:05:16" }
     ]
   },
@@ -917,7 +916,8 @@
     "streams": [
       { "name": "1", "twitch": "390719635", "segment": 1 },
       { "name": "2", "twitch": "393860794", "segment": 1 },
-      { "name": "3", "twitch": "395846647", "segment": 1 }
+      { "name": "3", "twitch": "395846647", "segment": 1 },
+      { "name": "4", "twitch": "397419854", "segment": 1 }
     ]
   },
   {
@@ -1212,6 +1212,15 @@
       { "name": "4", "twitch": "385372335", "segment": 0 },
       { "name": "5", "twitch": "387496098", "segment": 0 },
       { "name": "6", "twitch": "393860794", "segment": 0 }
+    ]
+  },
+  {
+    "name": "S.T.A.L.K.E.R.: Lost Alpha",
+    "category": "abandoned",
+    "filename": "stalker-la.html",
+    "streams": [
+      { "name": "1", "twitch": "394335768", "segment": 0 },
+      { "name": "2", "twitch": "397419854", "segment": 0 }
     ]
   },
   {
