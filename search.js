@@ -301,6 +301,7 @@ var Redirect = {
     "372293257.1": "/links/first.html#372293257.1",
     "398439248": "/links/sekiro.html#398439248",
     "398843130": "/links/sekiro.html#398843130",
+    "399315002": "/links/sekiro.html#399315002",
     "376580800": "/links/division-2.html#376580800",
     "394335768.1": "/links/division-2.html#394335768.1",
     "390719635.1": "/links/hollow-knight.html#390719635.1",
