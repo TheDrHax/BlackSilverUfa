@@ -334,15 +334,16 @@
         <i class="far fa-closed-captioning"></i> Субтитры
       </a>
     </span>
-    <span class="badge badge-danger">
-      <a href="https://bsufiles.thedrhax.pw/streams/400422352.mp4" target="_blank">
-        <i class="fas fa-download"></i> прямая ссылка
+    <span class="badge badge-success">
+      <a href="https://www.youtube.com/watch?v=LkjKrxeUjbo" target="_blank">
+        <i class="fab fa-youtube"></i> LkjKrxeUjbo
       </a>
     </span>
   </div>
 </div>
 
 <ul>
+  <li>Примечание: Есть рассинхрон чата в конце стрима. Постараюсь исправить.</li>
     <li>Таймкоды:</li>
   <ul>
     <li><a href="javascript:void(0)" class="timecode" data-id="4" data-value="231">3:51</a> — Стримлер</li>
@@ -353,14 +354,13 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="4" data-direct="https://bsufiles.thedrhax.pw/streams/400422352.mp4" data-name="5" data-twitch="400422352" />
+  <p class="stream col" data-id="4" data-name="5" data-twitch="400422352" data-youtube="LkjKrxeUjbo" />
 </div>
 
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v400422352.ass https://bsufiles.thedrhax.pw/streams/400422352.mp4
-streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v400422352.ass" --player-passthrough hls twitch.tv/videos/400422352 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v400422352.ass ytdl://LkjKrxeUjbo
 </code></pre>
 </div></div>
 
