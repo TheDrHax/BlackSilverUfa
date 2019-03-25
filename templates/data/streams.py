@@ -34,15 +34,19 @@ class Segment(dict):
             else:
                 raise AttributeError('Missing attribute "twitch"')
 
-        if type(self) is Segment:  # HACK: Filter out SegmentReference instances
-            if True not in [key in self for key in ['youtube', 'vk', 'direct']]:
-                if config.get('fallback_source') and not self.get('offset'):
-                    base_url = config['fallback_source']
-                    self['direct'] = f'{base_url}/{self["twitch"]}.mp4'
-
         for key in ['start', 'end', 'offset']:
             if key in self:
                 self[key] = Timecode(self[key])
+
+        if type(self) is Segment:  # HACK: Filter out SegmentReference instances
+            if True not in [key in self for key in ['youtube', 'vk', 'direct']]:
+                if config.get('fallback_source'):
+                    if self.get('offset'):
+                        self['start'] = self['offset']
+                        del self['offset']
+
+                    base_url = config['fallback_source']
+                    self['direct'] = f'{base_url}/{self["twitch"]}.mp4'
 
     def player_compatible(self):
         for field in ['youtube', 'vk', 'direct']:
