@@ -399,9 +399,9 @@
         <i class="far fa-closed-captioning"></i> Субтитры
       </a>
     </span>
-    <span class="badge badge-danger">
-      <a href="https://bsufiles.thedrhax.pw/streams/400422352.mp4" target="_blank">
-        <i class="fas fa-download"></i> прямая ссылка
+    <span class="badge badge-warning">
+      <a href="https://www.youtube.com/watch?v=BqhpDelQ9HE" target="_blank">
+        <i class="fab fa-youtube"></i> BqhpDelQ9HE
       </a>
     </span>
   </div>
@@ -409,24 +409,16 @@
 
 <ul>
   <li>Примечание: Этот фрагмент стрима был вырезан из официальной записи.</li>
-    <li>Таймкоды:</li>
-  <ul>
-    <li><a href="javascript:void(0)" class="timecode" data-id="5" data-value="231">3:51</a> — Стримлер</li>
-    <li><a href="javascript:void(0)" class="timecode" data-id="5" data-value="638">10:38</a> — Меню</li>
-    <li><a href="javascript:void(0)" class="timecode" data-id="5" data-value="667">11:07</a> — Игра</li>
-  </ul>
-
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="5" data-direct="https://bsufiles.thedrhax.pw/streams/400422352.mp4" data-name="5 (часть 2)" data-segment="1" data-start="6:28:48" data-twitch="400422352" />
+  <p class="stream col" data-id="5" data-name="5 (часть 2)" data-official="False" data-offset="6:28:45" data-segment="1" data-twitch="400422352" data-youtube="BqhpDelQ9HE" />
 </div>
 
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v400422352.ass --start=23328 https://bsufiles.thedrhax.pw/streams/400422352.mp4
-streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v400422352.ass --start=23328" --player-passthrough hls twitch.tv/videos/400422352 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v400422352.ass --sub-delay=-23325 ytdl://BqhpDelQ9HE
 </code></pre>
 </div></div>
 
