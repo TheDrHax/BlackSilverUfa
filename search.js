@@ -299,6 +299,7 @@ var Redirect = {
     "365752221": "/links/first.html#365752221",
     "371758027": "/links/first.html#371758027",
     "372293257.1": "/links/first.html#372293257.1",
+    "401955929.1": "/links/first.html#401955929.1",
     "398439248": "/links/sekiro.html#398439248",
     "398843130": "/links/sekiro.html#398843130",
     "399315002": "/links/sekiro.html#399315002",
@@ -366,6 +367,7 @@ var Redirect = {
     "314960838": "/links/talking-dead-final.html#314960838",
     "297214143": "/links/talking-dead-final.html#297214143",
     "364318283": "/links/talking-dead-final.html#364318283",
+    "401955929": "/links/talking-dead-final.html#401955929",
     "295925948": "/links/we-happy-few.html#295925948",
     "296361246": "/links/we-happy-few.html#296361246",
     "290597816": "/links/police-2.html#290597816",
@@ -662,6 +664,7 @@ var Search = {
       {name: "Praey for the Gods", path: "/links/first.html#374556455", year: 2019},
       {name: "SCP: Blackout (демо)", path: "/links/first.html#390719635", year: 2019},
       {name: "ШХД: Зима", path: "/links/first.html#396376161", year: 2019},
+      {name: "Mortal Kombat 11 (online beta)", path: "/links/first.html#401955929.1", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
