@@ -888,7 +888,8 @@
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
       { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 },
-      { "name": "ШХД: Зима", "twitch": "396376161", "start": "1:05:16" }
+      { "name": "ШХД: Зима", "twitch": "396376161", "start": "1:05:16" },
+      { "name": "Mortal Kombat 11 (online beta)", "twitch": "401955929", "segment": 1 }
     ]
   },
   {
@@ -1140,7 +1141,8 @@
     "streams": [
       { "name": "Episode 1", "twitch": "297214143" },
       { "name": "Episode 2", "twitch": "314960838" },
-      { "name": "Episode 3", "twitch": "364318283", "segment": 0 }
+      { "name": "Episode 3", "twitch": "364318283", "segment": 0 },
+      { "name": "Episode 4", "twitch": "401955929", "segment": 0 }
     ]
   },
   {
