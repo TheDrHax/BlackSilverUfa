@@ -38,6 +38,7 @@ var Redirect = {
     "378392606": "/links/co-op.html#378392606",
     "389704750": "/links/wounded.html#389704750",
     "394859046": "/links/co-op.html#394859046",
+    "402450066.1": "/links/co-op.html#402450066.1",
     "390719635": "/links/first.html#390719635",
     "234037742": "/links/deep-rock-galactic.html#234037742",
     "367994742.1": "/links/desolate.html#367994742.1",
@@ -306,6 +307,7 @@ var Redirect = {
     "399850727": "/links/sekiro.html#399850727",
     "400422352": "/links/sekiro.html#400422352",
     "400422352.1": "/links/sekiro.html#400422352.1",
+    "402450066": "/links/sekiro.html#402450066",
     "376580800": "/links/division-2.html#376580800",
     "394335768.1": "/links/division-2.html#394335768.1",
     "390719635.1": "/links/hollow-knight.html#390719635.1",
@@ -752,6 +754,7 @@ var Search = {
       {name: "Project Winter", path: "/links/co-op.html#378392606", year: 2019},
       {name: "Half Dead 2", path: "/links/co-op.html#389704750", year: 2019},
       {name: "Diablo", path: "/links/co-op.html#394859046", year: 2019},
+      {name: "Generation Zero", path: "/links/co-op.html#402450066.1", year: 2019},
     ],
     "co-op-series": [
       {name: "Pogostuck: Rage With Your Friends", path: "/links/pogostuck.html", year: 2019},
