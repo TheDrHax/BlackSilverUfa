@@ -157,13 +157,24 @@ class Timecodes(Timecode, list):
                     return True
             return False
 
+    def to_list(self):
+        result = []
+
+        for tc in self:
+            if tc.duration:
+                result.append(f'{str(tc)}~{str(tc + tc.duration)}')
+            else:
+                result.append(str(tc))
+        
+        return result
+
     def to_dict(self):
         result = {}
 
         for tc in self:
             if isinstance(tc, Timecodes):
                 if tc.is_list:
-                    result[tc.name] = [str(value) for value in tc]
+                    result[tc.name] = tc.to_list()
                 else:
                     result[tc.name] = tc.to_dict()
             else:
