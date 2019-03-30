@@ -934,7 +934,8 @@
       { "name": "1", "twitch": "390719635", "segment": 1 },
       { "name": "2", "twitch": "393860794", "segment": 1 },
       { "name": "3", "twitch": "395846647", "segment": 1 },
-      { "name": "4", "twitch": "397419854", "start": "3:02:48" }
+      { "name": "4", "twitch": "397419854", "start": "3:02:48" },
+      { "name": "5", "twitch": "403500896", "segment": 1 }
     ]
   },
   {
@@ -1234,11 +1235,12 @@
   },
   {
     "name": "S.T.A.L.K.E.R.: Lost Alpha",
-    "category": "abandoned",
+    "category": "ongoing",
     "filename": "stalker-la.html",
     "streams": [
       { "name": "1", "twitch": "394335768", "segment": 0 },
-      { "name": "2", "twitch": "397419854" }
+      { "name": "2", "twitch": "397419854" },
+      { "name": "3", "twitch": "403500896", "segment": 0 }
     ]
   },
   {
