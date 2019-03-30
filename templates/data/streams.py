@@ -57,19 +57,22 @@ class Segment(dict):
     def attrs(self):
         attrs = []
 
-        def add(key, value):
-            attrs.append(f'data-{key}="{self._escape_attr(value)}"')
+        def add(key, func = lambda x: x):
+            if key in self:
+                value = func(self[key])
+                value = self._escape_attr(value)
+                attrs.append(f'data-{key}="{value}"')
 
-        for key in sorted(self.keys()):
-            if key in ['note', 'timecodes']:
-                continue
+        if self['segment'] != 0:
+            add('segment')
 
-            if key == 'segment':
-                if self['segment'] != 0:
-                    add(key, self[key])
-                continue
+        add('offset', lambda x: int(x))
 
-            add(key, self[key])
+        for key in ['start', 'end']:
+            add(key, lambda x: int(x - Timecode(self.get('offset'))))
+
+        for key in ['name', 'twitch', 'youtube', 'vk', 'direct']:
+            add(key)
 
         if not self.player_compatible():
             attrs.append('style="display: none"')

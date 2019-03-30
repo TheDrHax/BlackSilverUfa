@@ -14,20 +14,6 @@ function debounce(func, wait, immediate) {
   };
 };
 
-// Convert HH:MM:SS or MM:SS to seconds
-function sec(timecode) {
-  if (timecode === undefined) return 0;
-  if (timecode[0] == '-') {
-    return - sec(timecode.replace('-', ''));
-  }
-  var result = 0;
-  var segments = timecode.split(':');
-  for (var i = segments.length - 1; i >= 0; i--) {
-    result += Number(segments[i]) * 60**(segments.length - 1 - i);
-  }
-  return result;
-};
-
 function get_timecodes(id) {
   return document.querySelectorAll('.timecode[data-id="' + id + '"]');
 }
@@ -49,7 +35,7 @@ function spawnPlyr(wrapper, callback) {
     invertTime: false
   };
   if (wrapper.dataset.end) {
-    options.duration = sec(wrapper.dataset.end) - sec(wrapper.dataset.offset);
+    options.duration = +wrapper.dataset.end;
   }
 
   wrapper.innerHTML = '<video />';
@@ -68,7 +54,7 @@ function spawnPlyr(wrapper, callback) {
     }
 
     if (wrapper.dataset.start) {
-      var start = sec(wrapper.dataset.start) - sec(wrapper.dataset.offset);
+      var start = +wrapper.dataset.start;
 
       if (player.currentTime != NaN && player.currentTime < start) {
         player.currentTime = start;
@@ -125,7 +111,7 @@ function spawnPlyr(wrapper, callback) {
     workerUrl: '/static/js/subtitles-octopus-worker.js',
   };
   if (wrapper.dataset.offset) {
-    subtitles_options.timeOffset = sec(wrapper.dataset.offset);
+    subtitles_options.timeOffset = +wrapper.dataset.offset;
   }
   subtitles = new SubtitlesOctopus(subtitles_options);
 
