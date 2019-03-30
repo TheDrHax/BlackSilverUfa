@@ -528,7 +528,7 @@ var Search = {
       {name: "Protocol", path: "/links/protocol.html", year: 2018},
       {name: "The Legend of Zelda: Breath of the Wild", path: "/links/tloz_botw.html", year: 2017},
       {name: "White Day: A Labyrinth Named School", path: "/links/white_day.html", year: 2017},
-      {name: "Sekiro: Shadows Die Twice", path: "/links/sekiro.html", year: 2018},
+      {name: "Sekiro: Shadows Die Twice", path: "/links/sekiro.html", year: 2019},
       {name: "Devil May Cry 5", path: "/links/dmc-5.html", year: 2019},
       {name: "Metro Exodus", path: "/links/metro-exodus.html", year: 2019},
       {name: "Resident Evil 2 Remake", path: "/links/re2-remake.html", year: 2019},
