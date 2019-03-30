@@ -9,18 +9,27 @@ class Timecode(object):
     def _text_to_sec(t):
         if len(t) == 0:
             return 0
+
         negative = (t[0] == '-')
         if negative:
             t = t[1:]
+
         s = sum(int(x) * 60 ** i
-                for i, x in enumerate(reversed(t.split(":"))))
+                for i, x in enumerate(reversed(t.split(':'))))
+
         return -s if negative else s
 
     @staticmethod
     def _sec_to_text(s):
-        result = []
+        negative = (s < 0)
+
+        if negative:
+            s = -s
+
         if s < 60:
-            return '0:' + str(s).zfill(2)
+            return ('-' if negative else '') + '0:' + str(s).zfill(2)
+
+        result = []
         for i in [24*60*60, 60*60, 60, 1]:  # days, hours, minutes, seconds
             if s // i > 0 or len(result) > 0:
                 if len(result) == 0:
@@ -28,40 +37,48 @@ class Timecode(object):
                 else:
                     result.append(str(s // i).zfill(2))
             s = s % i
-        return ':'.join(result)
+
+        return ('-' if negative else '') + ':'.join(result)
+
+    name = None
+    value = 0
+    duration = None
 
     def __init__(self, timecode, name=None):
-        value = 0
-        duration = None
+        if name:
+            self.name = name
 
-        if (type(timecode) is str):
+        if type(timecode) is str:
             if '~' in timecode:
                 split = timecode.split('~')
+
                 if len(split) != 2:
                     raise ValueError('Invalid range format: ' + timecode)
-                value = self._text_to_sec(split[0])
-                duration = self._text_to_sec(split[1]) - value
-            else:
-                value = self._text_to_sec(timecode)
-        elif (type(timecode) is int):
-            value = timecode
-        elif (type(timecode) is Timecode):
-            value = int(timecode)
-            duration = timecode.duration
 
-        self.name = name
-        self.value = abs(value)
-        self.negative = value < 0
-        self.duration = duration
+                self.value = self._text_to_sec(split[0])
+                self.duration = self._text_to_sec(split[1]) - self.value
+            else:
+                self.value = self._text_to_sec(timecode)
+        elif type(timecode) is int:
+            self.value = timecode
+        elif type(timecode) is Timecode:
+            self.value = timecode.value
+            self.duration = timecode.duration
 
     def __str__(self):
-        return ('-' if self.negative else '') + self._sec_to_text(self.value)
+        result = self._sec_to_text(self.value)
+
+        if self.duration:
+            result += '~'
+            result += self._sec_to_text(self.value + self.duration)
+
+        return result
 
     def __repr__(self):
         return str(self)
 
     def __int__(self):
-        return (-1 if self.negative else 1) * self.value
+        return self.value
 
     @staticmethod
     def _type_check(arg):
@@ -158,15 +175,7 @@ class Timecodes(Timecode, list):
             return False
 
     def to_list(self):
-        result = []
-
-        for tc in self:
-            if tc.duration:
-                result.append(f'{str(tc)}~{str(tc + tc.duration)}')
-            else:
-                result.append(str(tc))
-        
-        return result
+        return [str(tc) for tc in self]
 
     def to_dict(self):
         result = {}
@@ -178,12 +187,7 @@ class Timecodes(Timecode, list):
                 else:
                     result[tc.name] = tc.to_dict()
             else:
-                if tc.duration:
-                    key = f'{str(tc)}~{str(tc + tc.duration)}'
-                else:
-                    key = str(tc)
-
-                result[key] = tc.name
+                result[str(tc)] = tc.name
 
         return result
 
@@ -197,10 +201,6 @@ class Timecodes(Timecode, list):
     @property
     def value(self):
         return int(self)
-
-    @property
-    def negative(self):
-        return False
 
 
 class TimecodesSlice(Timecodes):
@@ -257,10 +257,6 @@ class TimecodesSlice(Timecodes):
     @property
     def value(self):
         return self.parent.value
-
-    @property
-    def negative(self):
-        return self.parent.negative
 
 
 class TimecodeHelper:
