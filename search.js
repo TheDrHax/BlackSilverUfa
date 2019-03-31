@@ -200,6 +200,7 @@ var Redirect = {
     "234740795": "/links/monstrum.html#234740795",
     "298040825": "/links/first.html#298040825",
     "396376161": "/links/scp-cb.html#396376161",
+    "404063748": "/links/first.html#404063748",
     "185763905": "/links/super-mario-odyssey.html#185763905",
     "200401270": "/links/little-nightmares.html#200401270",
     "202381358": "/links/super-mario-odyssey.html#202381358",
@@ -670,6 +671,7 @@ var Search = {
       {name: "SCP: Blackout (демо)", path: "/links/first.html#390719635", year: 2019},
       {name: "ШХД: Зима", path: "/links/first.html#396376161", year: 2019},
       {name: "Mortal Kombat 11 (online beta)", path: "/links/first.html#401955929.1", year: 2019},
+      {name: "SCP-3008 / Blame him (демо) / Demense: Chapter 1", path: "/links/first.html#404063748", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
