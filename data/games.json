@@ -666,7 +666,8 @@
     "streams": [
       { "name": "1", "twitch": "234740795" },
       { "name": "2", "twitch": "298040825", "start": "3:07:16" },
-      { "name": "3", "twitch": "396376161", "start": "1:32:33" }
+      { "name": "3", "twitch": "396376161", "start": "1:32:33" },
+      { "name": "4", "twitch": "404063748", "start": "2:05:55" }
     ]
   },
   {
@@ -891,7 +892,8 @@
       { "name": "Praey for the Gods", "twitch": "374556455" },
       { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 },
       { "name": "ШХД: Зима", "twitch": "396376161", "start": "1:05:16" },
-      { "name": "Mortal Kombat 11 (online beta)", "twitch": "401955929", "segment": 1 }
+      { "name": "Mortal Kombat 11 (online beta)", "twitch": "401955929", "segment": 1 },
+      { "name": "SCP-3008 / Blame him (демо) / Demense: Chapter 1", "twitch": "404063748" }
     ]
   },
   {
