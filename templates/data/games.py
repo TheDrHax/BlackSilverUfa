@@ -64,6 +64,9 @@ class Game(dict):
         if 'thumbnail' not in self:
             self['thumbnail'] = 0
 
+    def stream_count(self):
+        return len(set([s['twitch'] for s in self['streams']]))
+
     def thumbnail(self):
         return self['streams'][self['thumbnail']].thumbnail()
 

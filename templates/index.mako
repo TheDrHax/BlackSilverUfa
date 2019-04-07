@@ -51,7 +51,7 @@
             </div>
             <div class="card-img-overlay card-badge">
               <span class="badge badge-primary">
-                ${numword(len(game['streams']), 'стрим')}
+                ${numword(game.stream_count(), 'стрим')}
               </span>
             </div>
           </%el:game_link>
@@ -90,7 +90,7 @@
         </%el:game_link>
 
         <span class="badge badge-primary">
-          ${numword(len(game['streams']), 'стрим')}
+          ${numword(game.stream_count(), 'стрим')}
         </span>
       </li>
     % elif type(game) == SegmentReference:
