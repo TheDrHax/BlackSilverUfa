@@ -85,7 +85,8 @@
     "streams": [
       { "name": "1", "twitch": "234037742", "segment": 0 },
       { "name": "2", "twitch": "367994742", "segment": 1, "start": "4:10:21" }
-    ]
+    ],
+    "thumbnail": 1
   },
   {
     "name": "Desolate",
@@ -297,7 +298,8 @@
       { "name": "4", "twitch": "287404564", "start": "3:03:49" },
       { "name": "5", "twitch": "319559721" },
       { "name": "6", "twitch": "340545862", "start": "1:48:08" }
-    ]
+    ],
+    "thumbnail": 3
   },
   {
     "name": "Human: Fall Flat",
@@ -491,7 +493,8 @@
       { "name": "5", "twitch": "163361169" },
       { "name": "6", "twitch": "164116949" },
       { "name": "6.5", "twitch": "164165380" }
-    ]
+    ],
+    "thumbnail": 1
   },
   {
     "name": "Hellblade: Senua's Sacrifice",
@@ -966,7 +969,8 @@
     "streams": [
       { "name": "1", "twitch": "389704750" },
       { "name": "2", "twitch": "390719635", "segment": 0, "start": "1:22:54" }
-    ]
+    ],
+    "thumbnail": 1
   },
   {
     "name": "Anthem",
