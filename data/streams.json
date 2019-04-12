@@ -654,7 +654,13 @@
   "398439248": { "youtube": "Unw59tkQ5Pg", "offset": "16:34" },
   "398843130": { "youtube": "qaITO_iwUF0" },
   "399315002": { "youtube": "JrDYIlmwo2g" },
-  "399850727": { "youtube": "IHc2XRynEQs" },
+  "399850727": [
+    {
+      "youtube": "IHc2XRynEQs", "end": "13:23",
+      "note": "Стрим был разделён на два сегмента, так как из записи пропал фрагмент 13:23-49:54."
+    },
+    { "youtube": "IHc2XRynEQs", "start": "49:54", "offset": "49:54" }
+  ],
   "400422352": [
     { "youtube": "LkjKrxeUjbo", "end": "6:28:48" },
     {
