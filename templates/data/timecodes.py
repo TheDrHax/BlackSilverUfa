@@ -225,8 +225,8 @@ class TimecodesSlice(Timecodes):
             elif isinstance(t, Timecode) and self.start <= t < self.end:
                 ts.append(t - self.start)
 
-        # Expand timecode list
-        if len(ts) == 1 and isinstance(ts[0], Timecodes):
+        # Collapse timecode list
+        if len(ts) == 1 and isinstance(ts[0], Timecodes) and not ts[0].is_list:
             tl = ts[0]
             del ts[0]
             for t in tl:
