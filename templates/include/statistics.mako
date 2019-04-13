@@ -26,7 +26,7 @@
     all_segments = official + unofficial + missing
 %>\
 <p>В данный момент в архиве находятся <b>${numword(len(streams), 'стрим')}</b>, \
-разбитые на <b>${numword(all_segments, 'сегментов')}</b>, и <b>${dir} МБ</b> субтитров к ним. \
+разбитые на <b>${numword(all_segments, 'сегмент')}</b>, и <b>${dir} МБ</b> субтитров к ним. \
 Общая продолжительность всех сохранённых стримов примерно равна <b>${sum_length}</b>. \
 За это время было написано <b>${numword(messages, 'сообщение')}</b>, то есть в среднем по \
 <b>${numword(messages // len(streams), 'сообщение')}</b> за стрим. \
