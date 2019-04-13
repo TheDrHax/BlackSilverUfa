@@ -216,13 +216,28 @@ class TimecodesSlice(Timecodes):
         self.end = offset
 
     def _load(self):
+        def in_range(t):
+            return self.start <= t < self.end
+
         ts = Timecodes(name=self.name)
+
         for t in self.parent:
             if isinstance(t, Timecodes):
                 tss = TimecodesSlice(t, self.start, self.end)
                 if len(tss) > 0:
                     ts.append(tss)
-            elif isinstance(t, Timecode) and self.start <= t < self.end:
+            elif isinstance(t, Timecode):
+                duration = t.duration or 0
+
+                if not in_range(t) and not in_range(t + duration):
+                    continue
+
+                if in_range(t) and not in_range(t + duration):  # start only
+                    t = Timecode(t.value, t.name)
+                
+                if not in_range(t) and in_range(t + duration):  # end only
+                    t = Timecode(t.value + duration, t.name)
+
                 ts.append(t - self.start)
 
         # Collapse timecode list
