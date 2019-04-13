@@ -180,7 +180,8 @@ class Stream(list):
                 segment['timecodes'].start_at(segment['offset'])
                 if self.index(segment) > 0:
                     prev = self[self.index(segment) - 1]
-                    prev['timecodes'].end_at(segment['offset'])
+                    if 'end' not in prev:
+                        prev['timecodes'].end_at(segment['offset'])
             
             if 'end' in segment:
                 end = segment['end']
