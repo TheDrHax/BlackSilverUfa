@@ -6,9 +6,17 @@
 
 <%def name="statistics()">\
 <%
-    sum_length = sum([stream.length for stream in streams.values()], Timecode(0))
-    messages = sum([stream.messages for stream in streams.values()])
-    dir = int(dir_size(_('chats')) / 1024**2)
+    duration_streams, duration_segments = Timecode(0), Timecode(0)
+    messages = 0
+
+    for stream in streams.values():
+        duration_streams += stream.duration
+        messages += stream.messages
+
+        for segment in stream:
+            duration_segments += segment.duration
+
+    subs_size_mb = int(dir_size(_('chats')) / 1024**2)
 
     official, unofficial, missing = 0, 0, 0
     for stream in streams.values():
@@ -26,8 +34,8 @@
     all_segments = official + unofficial + missing
 %>\
 <p>В данный момент в архиве находятся <b>${numword(len(streams), 'стрим')}</b>, \
-разбитые на <b>${numword(all_segments, 'сегмент')}</b>, и <b>${dir} МБ</b> субтитров к ним. \
-Общая продолжительность всех сохранённых стримов примерно равна <b>${sum_length}</b>. \
+разбитые на <b>${numword(all_segments, 'сегмент')}</b>, и <b>${subs_size_mb} МБ</b> субтитров к ним. \
+Продолжительность всех сохранённых стримов примерно равна <b>${duration_streams}</b>, а всех записей — <b>${duration_segments}</b>. \
 За это время было написано <b>${numword(messages, 'сообщение')}</b>, то есть в среднем по \
 <b>${numword(messages // len(streams), 'сообщение')}</b> за стрим. \
 % if missing > 0:
