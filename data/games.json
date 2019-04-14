@@ -58,7 +58,8 @@
       { "name": "Half Dead 2", "twitch": "389704750", "start": "1:22:33" },
       { "name": "Diablo", "twitch": "394859046" },
       { "name": "Generation Zero", "twitch": "402450066", "segment": 1 },
-      { "name": "Pacify", "twitch": "410400457", "start": "1:33:15" }
+      { "name": "Pacify", "twitch": "410400457", "start": "1:33:15" },
+      { "name": "Peekaboo / Shotgun Farmers", "twitch": "410963500", "start": "1:19:27" }
     ]
   },
   {
@@ -213,7 +214,8 @@
       { "name": "7", "twitch": "353211576", "start": "1:48:51" },
       { "name": "8", "twitch": "355865035", "start": "2:25:11" },
       { "name": "9", "twitch": "374556455", "start": "1:22:48" },
-      { "name": "10", "twitch": "385372335", "segment": 1, "start": "2:55:39" }
+      { "name": "10", "twitch": "385372335", "segment": 1, "start": "2:55:39" },
+      { "name": "11", "twitch": "410963500", "start": "2:01:39" }
     ]
   },
   {
@@ -374,7 +376,8 @@
       { "name": "11", "twitch": "350791309", "start": "4:59:53" },
       { "name": "12", "twitch": "353211576", "start": "4:23:56" },
       { "name": "13", "twitch": "355865035", "start": "5:10:02" },
-      { "name": "14", "twitch": "385372335", "segment": 1, "start": "4:19:03" }
+      { "name": "14", "twitch": "385372335", "segment": 1, "start": "4:19:03" },
+      { "name": "15", "twitch": "410963500", "start": "4:35:31" }
     ]
   },
   {
@@ -909,7 +912,8 @@
       { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 },
       { "name": "ШХД: Зима", "twitch": "396376161", "start": "1:05:16" },
       { "name": "Mortal Kombat 11 (online beta)", "twitch": "401955929", "segment": 1 },
-      { "name": "SCP-3008 / Blame him (демо) / Demense: Chapter 1", "twitch": "404063748" }
+      { "name": "SCP-3008 / Blame him (демо) / Demense: Chapter 1", "twitch": "404063748" },
+      { "name": "Totally Accurate Battle Simulator", "twitch": "410963500" }
     ]
   },
   {
