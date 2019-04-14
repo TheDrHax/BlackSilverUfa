@@ -58,7 +58,7 @@
       { "name": "Half Dead 2", "twitch": "389704750", "start": "1:22:33" },
       { "name": "Diablo", "twitch": "394859046" },
       { "name": "Generation Zero", "twitch": "402450066", "segment": 1 },
-      { "name": "Pacify", "twitch": "410400457", "segment": 1 }
+      { "name": "Pacify", "twitch": "410400457", "start": "1:33:15" }
     ]
   },
   {
@@ -142,7 +142,7 @@
     "streams": [
       { "name": "1", "twitch": "331965944", "start": "2:11:10" },
       { "name": "2", "twitch": "339579917", "segment": 1, "start": "5:12:50" },
-      { "name": "3", "twitch": "410400457", "segment": 1, "start": "2:11:12" }
+      { "name": "3", "twitch": "410400457", "start": "2:11:12" }
     ]
   },
   {
@@ -269,7 +269,7 @@
       { "name": "12", "twitch": "385372335", "segment": 1 },
       { "name": "13", "twitch": "389704750", "start": "4:39:52" },
       { "name": "14", "twitch": "402450066", "segment": 1, "start": "5:12:47" },
-      { "name": "15", "twitch": "410400457", "segment": 1, "start": "5:04:32" }
+      { "name": "15", "twitch": "410400457", "start": "5:04:32" }
     ]
   },
   {
@@ -652,7 +652,7 @@
       { "name": "The Cursed Forest", "twitch": "388537884" },
       { "name": "SCP-022", "twitch": "390719635", "segment": 0, "start": "1:04:10" },
       { "name": "Pineview Drive: Homeless", "twitch": "408497895" },
-      { "name": "The Beast Inside (демо)", "twitch": "410400457", "segment": 0 }
+      { "name": "The Beast Inside (демо)", "twitch": "410400457" }
     ]
   },
   {
