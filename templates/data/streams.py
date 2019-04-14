@@ -3,6 +3,7 @@
 
 from git import Repo
 from datetime import datetime
+from subprocess import run, PIPE
 from ..utils import _, load_json, last_line, count_lines
 from .cache import cached
 from .timecodes import Timecode, Timecodes, TimecodesSlice
@@ -79,6 +80,26 @@ class Segment(dict):
 
         return ' '.join(attrs)
 
+    @staticmethod
+    @cached('duration-youtube-{0[0]}')
+    def _duration_youtube(id):
+        cmd = ['youtube-dl', '--get-duration', id]
+        out = run(cmd, stdout=PIPE)
+
+        if out.returncode == 0:
+            t = out.stdout.decode('utf-8').strip()
+            return Timecode(t).value
+        else:
+            raise Exception(f'`{" ".join(cmd)}` exited with '
+                            f'non-zero code {out.returncode}')
+
+    @property
+    def duration(self):
+        if 'youtube' in self:
+            return Timecode(self._duration_youtube(self['youtube']))
+        else:
+            return Timecode(0)
+
     @property
     def date(self):
         return self.stream.date
@@ -139,15 +160,15 @@ class Stream(list):
             self.append(segment)
 
     @property
-    @cached('length-{0[0].twitch}')
-    def _length(self):
+    @cached('duration-twitch-{0[0].twitch}')
+    def _duration(self):
         line = last_line(_(f'chats/v{self.twitch}.ass'))
         if line is not None:
             return int(Timecode(line.split(' ')[2].split('.')[0]))
 
     @property
-    def length(self):
-        return Timecode(self._length)
+    def duration(self):
+        return Timecode(self._duration)
 
     @property
     @cached('date-{0[0].twitch}')
