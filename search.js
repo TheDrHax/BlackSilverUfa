@@ -40,6 +40,7 @@ var Redirect = {
     "394859046": "/links/co-op.html#394859046",
     "402450066.1": "/links/co-op.html#402450066.1",
     "410400457": "/links/single.html#410400457",
+    "410963500": "/links/first.html#410963500",
     "390719635": "/links/first.html#390719635",
     "234037742": "/links/deep-rock-galactic.html#234037742",
     "367994742.1": "/links/desolate.html#367994742.1",
@@ -678,6 +679,7 @@ var Search = {
       {name: "ШХД: Зима", path: "/links/first.html#396376161", year: 2019},
       {name: "Mortal Kombat 11 (online beta)", path: "/links/first.html#401955929.1", year: 2019},
       {name: "SCP-3008 / Blame him (демо) / Demense: Chapter 1", path: "/links/first.html#404063748", year: 2019},
+      {name: "Totally Accurate Battle Simulator", path: "/links/first.html#410963500", year: 2019},
     ],
     "ongoing": [
       {name: "NieR Automata", path: "/links/nier-automata.html", year: 2018},
@@ -766,6 +768,7 @@ var Search = {
       {name: "Diablo", path: "/links/co-op.html#394859046", year: 2019},
       {name: "Generation Zero", path: "/links/co-op.html#402450066.1", year: 2019},
       {name: "Pacify", path: "/links/co-op.html#410400457", year: 2019},
+      {name: "Peekaboo / Shotgun Farmers", path: "/links/co-op.html#410963500", year: 2019},
     ],
     "co-op-series": [
       {name: "Pogostuck: Rage With Your Friends", path: "/links/pogostuck.html", year: 2019},
