@@ -321,6 +321,7 @@ var Redirect = {
     "395846647.1": "/links/hollow-knight.html#395846647.1",
     "397419854": "/links/stalker-la.html#397419854",
     "403500896": "/links/hollow-knight.html#403500896",
+    "411920597": "/links/hollow-knight.html#411920597",
     "345863416": "/links/dmc-5.html#345863416",
     "391675645": "/links/dmc-5.html#391675645",
     "392176181": "/links/dmc-5.html#392176181",
