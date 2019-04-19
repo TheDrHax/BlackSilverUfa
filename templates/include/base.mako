@@ -35,13 +35,13 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Категории</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               % for category in categories:
-                % if category['level'] == 2:
+                % if category.level == 2:
                   % if categories.index(category) > 0:
                     <div class="dropdown-divider"></div>
                   % endif
-                  <a class="dropdown-item" href="/#${category['code']}"><b>${category['name']}</b></a>
+                  <a class="dropdown-item" href="/#${category.code}"><b>${category.name}</b></a>
                 % else:
-                  <a class="dropdown-item" href="/#${category['code']}">${category['name']}</a>
+                  <a class="dropdown-item" href="/#${category.code}">${category.name}</a>
                 % endif
               % endfor
                 <div class="dropdown-divider"></div>

@@ -19,7 +19,7 @@
 <%def name="game_link(game)">\
 <% text = capture(caller.body) %>\
 <a href="${game.filename}">\
-${text if text else game['name']}\
+${text if text else game.name}\
 </a>\
 </%def>
 

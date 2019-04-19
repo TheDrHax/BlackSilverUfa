@@ -26,41 +26,39 @@ class SegmentReference(Segment):
         return getattr(self._segment, attr)
 
 
-class Game(dict):
-    def __init__(self, streams, game):
-        if type(game) is not dict:
-            raise TypeError(type(game))
+class Game:
+    def __init__(self, streams, data):
+        if type(data) is not dict:
+            raise TypeError(type(data))
 
-        super(Game, self).__init__(game)
+        self.name = data['name']
+        self.category = data['category']
+        self.type = data.get('type') or None
+        self.id = data['id']
+        self.streams = []
+        self.thumb_index = data.get('thumbnail') or 0
 
-        segments = self['streams']
-        self['streams'] = []
-        for segment_reference in segments:
-            ref = SegmentReference(streams, segment_reference)
+        for segment in data['streams']:
+            ref = SegmentReference(streams, segment)
             ref.game = self
             ref.stream.games.append((self, ref))
-            self['streams'].append(ref)
-
-        if 'thumbnail' not in self:
-            self['thumbnail'] = 0
+            self.streams.append(ref)
 
     def stream_count(self):
-        return len(set([s.twitch for s in self['streams']]))
+        return len(set([s.twitch for s in self.streams]))
 
+    @property
     def thumbnail(self):
-        return self['streams'][self['thumbnail']].thumbnail()
+        return self.streams[self.thumb_index].thumbnail
     
     @property
     def filename(self):
-        return f'/links/{self["id"]}.html'
+        return f'/links/{self.id}.html'
 
     @property
     def _unix_time(self):
-        time, count = 0, 0
-        for ref in self['streams']:
-            time += ref.stream._unix_time
-            count += 1
-        return time // count
+        streams = self.streams
+        return sum(s.stream._unix_time for s in streams) // len(streams)
 
     @property
     def date(self):
@@ -77,9 +75,9 @@ class Games(list):
         for game_raw in data:
             game = Game(streams, game_raw)
 
-            if game['id'] in ids:
-                raise ValueError(f'ID already taken: {game["id"]}')
+            if game.id in ids:
+                raise ValueError(f'ID already taken: {game.id}')
             else:
-                ids.add(game['id'])
+                ids.add(game.id)
 
             self.append(game)

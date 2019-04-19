@@ -31,13 +31,13 @@ var Search = {
   data: {
 <% listed_games = [] %>\
     % for category in categories:
-    "${category['code']}": [
-      % for game in category['games']:
+    "${category.code}": [
+      % for game in category.games:
         % if type(game) == Game:
-      {name: "${game['name']}", path: "${game.filename}", year: ${game.date.year}},
+      {name: "${game.name}", path: "${game.filename}", year: ${game.date.year}},
         % elif type(game) == SegmentReference:
           % if game.game not in listed_games:
-      {name: "${game.game['name']}", path: "${game.game.filename}", year: ${game.date.year}},
+      {name: "${game.game.name}", path: "${game.game.filename}", year: ${game.date.year}},
 <% listed_games.append(game.game) %>\
           % endif
       {name: "${game.name}", path: "${game.game.filename}#${game.hash}", year: ${game.date.year}},
@@ -49,7 +49,7 @@ var Search = {
 
   categories: [
     % for category in categories:
-    {header: "${category['name']}", listLocation: "${category['code']}"},
+    {header: "${category.name}", listLocation: "${category.code}"},
     % endfor
   ],
 
