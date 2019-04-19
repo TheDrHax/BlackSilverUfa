@@ -18,14 +18,14 @@
 
 <%def name="game_link(game)">\
 <% text = capture(caller.body) %>\
-<a href="/links/${game['filename']}">\
+<a href="${game.filename}">\
 ${text if text else game['name']}\
 </a>\
 </%def>
 
 <%def name="stream_link(game, stream)">\
 <% text = capture(caller.body) %>\
-<a href="/links/${game['filename']}#${stream.hash}">\
+<a href="${game.filename}#${stream.hash}">\
 ${text if text else stream['name']}\
 </a>\
 </%def>
