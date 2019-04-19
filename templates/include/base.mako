@@ -17,22 +17,7 @@
     <link rel="stylesheet" href="/static/css/cayman.css">
     <link rel="stylesheet" href="/static/css/styles.css?hash=${md5file('static/css/styles.css')}">
     <%block name="head" />
-    <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['enableHeartBeatTimer']);
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//matomo.thedrhax.pw/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <!-- End Matomo Code -->
+    <script src="/static/js/matomo.js?hash=${md5file(_('static/js/matomo.js'))}"></script>
   </head>
   <body>
     <div style="height: 56px"><!-- floating navbar workaround --></div>
