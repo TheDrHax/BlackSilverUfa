@@ -11,7 +11,8 @@ class SegmentReference(Segment):
         super(SegmentReference, self).__init__(ref)
         self.segment = streams[self['twitch']][self['segment']]
         self.stream = self.segment.stream
-
+        self.segment.references.add(self)
+        
         # if 'start' in self and self['start'] not in self.stream.timecodes:
         #     raise ValueError('Wrong "start" value: '
         #                      f'Timecode {str(self["start"])} is not '

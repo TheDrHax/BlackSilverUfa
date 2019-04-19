@@ -1,28 +1,9 @@
-<%!
-  from templates.data.timecodes import Timecode
-  from templates.data.games import Game, SegmentReference
-%>\
-<%
-    stream_map = {}
-
-    for game in games:
-        for stream in game['streams']:
-            hash = stream.hash
-
-            if hash in stream_map:
-                s1 = Timecode(stream.get('start'))
-                s2 = Timecode(stream_map[hash][1].get('start'))
-
-                if s1 < s2:
-                    stream_map[hash] = (game, stream)
-            else:
-                stream_map[hash] = (game, stream)
-%>
+<%! from templates.data.games import Game, SegmentReference %>
 
 var Redirect = {
   index: {
-    % for hash, (game, stream) in stream_map.items():
-    "${hash}": "${game.filename}#${hash}",
+    % for segment in streams.segments:
+    "${segment.hash}": "${segment.references[0].game.filename}#${segment.hash}",
     % endfor
   },
 
