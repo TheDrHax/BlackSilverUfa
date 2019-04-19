@@ -64,7 +64,7 @@
             <noscript><img class="card-img-top" src="${game.thumbnail()}" /></noscript>
             <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="${game.thumbnail()}" />
             <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-              ${game['name']}
+              ${game.name}
             </div>
           </%el:stream_link>
         </div>
@@ -96,7 +96,7 @@
     % elif type(game) == SegmentReference:
       <li class="list-group-item">
         <%el:stream_link game="${game.game}" stream="${game}">
-          ${game['name']}
+          ${game.name}
         </%el:stream_link>
       </li>
     % endif

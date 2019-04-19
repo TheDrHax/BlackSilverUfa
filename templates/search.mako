@@ -40,7 +40,7 @@ var Search = {
       {name: "${game.game['name']}", path: "${game.game.filename}", year: ${game.date.year}},
 <% listed_games.append(game.game) %>\
           % endif
-      {name: "${game['name']}", path: "${game.game.filename}#${game.hash}", year: ${game.date.year}},
+      {name: "${game.name}", path: "${game.game.filename}#${game.hash}", year: ${game.date.year}},
         % endif
       % endfor
     ],

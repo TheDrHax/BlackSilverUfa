@@ -61,7 +61,7 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
 <div class="d-flex" style="flex-wrap: wrap;">
   <div class="">
     <h2 id="${hash}">
-      <a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${segment['name']}</a>
+      <a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${segment.name}</a>
     </h2>
   </div>
   <div class="badge-row">
@@ -69,28 +69,28 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
       ${format_date(segment.date, format='long', locale='ru')}
     </span>
     <span class="badge badge-primary">
-      <a href="https://www.twitch.tv/videos/${segment['twitch']}" target="_blank">
-        <i class="fab fa-twitch"></i> ${segment['twitch']}
+      <a href="https://www.twitch.tv/videos/${segment.twitch}" target="_blank">
+        <i class="fab fa-twitch"></i> ${segment.twitch}
       </a>
     </span>
     <span class="badge badge-secondary">
-      <a href="../chats/v${segment['twitch']}.ass">
+      <a href="../chats/v${segment.twitch}.ass">
         <i class="far fa-closed-captioning"></i> Субтитры
       </a>
     </span>
-    % if segment.get('youtube'):
-    <span class="badge badge-${'warning' if segment.get('official') == False else 'success'}">
-      <a href="https://www.youtube.com/watch?v=${segment['youtube']}" target="_blank">
-        <i class="fab fa-youtube"></i> ${segment['youtube']}
+    % if segment.youtube:
+    <span class="badge badge-${'warning' if segment.official == False else 'success'}">
+      <a href="https://www.youtube.com/watch?v=${segment.youtube}" target="_blank">
+        <i class="fab fa-youtube"></i> ${segment.youtube}
       </a>
-    % elif segment.get('vk'):
+    % elif segment.vk:
     <span class="badge badge-danger">
-      <a href="https://vk.com/video${segment['vk']}" target="_blank">
-        <i class="fab fa-vk"></i> ${segment['vk']}
+      <a href="https://vk.com/video${segment.vk}" target="_blank">
+        <i class="fab fa-vk"></i> ${segment.vk}
       </a>
-    % elif segment.get('direct'):
+    % elif segment.direct:
     <span class="badge badge-danger">
-      <a href="${segment['direct']}" target="_blank">
+      <a href="${segment.direct}" target="_blank">
         <i class="fas fa-download"></i> прямая ссылка
       </a>
     % endif
@@ -99,8 +99,8 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
 </div>
 
 <ul>
-% if segment.get('note'):
-  <li>Примечание: ${segment['note']}</li>
+% if segment.note:
+  <li>Примечание: ${segment.note}</li>
 % endif
 <% related = [(g, s) for g, s in segment.stream.games
                      if g is not game and s is not segment] %>\
@@ -112,8 +112,8 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
     % endfor
   </ul>
 % endif
-% if segment.get('timecodes'):
-  ${timecode_list(id, segment['timecodes'])}
+% if segment.timecodes:
+  ${timecode_list(id, segment.timecodes)}
 % endif
 </ul>
 
@@ -134,8 +134,8 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
 % if segment.player_compatible():
 mpv ${segment.mpv_args()} ${segment.mpv_file()}
 % endif
-% if not segment.player_compatible() or segment.get('direct'):
-streamlink -p mpv -a "${segment.mpv_args()}" --player-passthrough hls twitch.tv/videos/${segment['twitch']} best
+% if not segment.player_compatible() or segment.direct:
+streamlink -p mpv -a "${segment.mpv_args()}" --player-passthrough hls twitch.tv/videos/${segment.twitch} best
 % endif
 </%el:code_block>
 

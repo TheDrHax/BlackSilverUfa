@@ -26,6 +26,6 @@ ${text if text else game['name']}\
 <%def name="stream_link(game, stream)">\
 <% text = capture(caller.body) %>\
 <a href="${game.filename}#${stream.hash}">\
-${text if text else stream['name']}\
+${text if text else stream.name}\
 </a>\
 </%def>
