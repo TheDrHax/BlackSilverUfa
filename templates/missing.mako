@@ -14,7 +14,7 @@
     missing = []
 
     for game in games:
-        for stream in game['streams']:
+        for stream in game.streams:
             if stream.vk:
                 vk.append((game, stream))
             elif stream.youtube:

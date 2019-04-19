@@ -8,7 +8,7 @@
 <%namespace file="include/elements.mako" name="el" />
 
 <%block name="head">
-<title>${game['name']} | ${config['title']}</title>
+<title>${game.name} | ${config['title']}</title>
 </%block>
 
 <%block name="scripts">
@@ -139,14 +139,14 @@ streamlink -p mpv -a "${segment.mpv_args()}" --player-passthrough hls twitch.tv/
 % endif
 </%el:code_block>
 
-% if game['streams'].index(segment) != len(game['streams']) - 1:
+% if game.streams.index(segment) != len(game.streams) - 1:
 <hr>
 % endif
 </%def>
 
-<h1><a href="/">Архив</a> → ${game['name']}</h1>
+<h1><a href="/">Архив</a> → ${game.name}</h1>
 <% id = 0 %> \
-% for segment in game['streams']:
+% for segment in game.streams:
 ${gen_segment(id, segment)}
 <% id += 1 %> \
 % endfor
