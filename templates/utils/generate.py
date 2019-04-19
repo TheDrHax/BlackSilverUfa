@@ -58,8 +58,7 @@ def generate():
     # Generate links/*.md
     t = lookup.get_template('/links.mako')
     for game in args['games']:
-        filename = f'links/{game["filename"]}'
-        with open(_(filename), "w") as out:
+        with open(_(game.filename), "w") as out:
             out.write(t.render(game=game, **args).strip())
 
 

@@ -69,6 +69,10 @@ class Game(dict):
 
     def thumbnail(self):
         return self['streams'][self['thumbnail']].thumbnail()
+    
+    @property
+    def filename(self):
+        return f'/links/{self["id"]}.html'
 
     @property
     def _unix_time(self):
@@ -88,15 +92,14 @@ class Games(list):
         if type(data) is not list:
             raise TypeError
 
-        filenames = set()
+        ids = set()
 
         for game_raw in data:
             game = Game(streams, game_raw)
 
-            filename = game['filename']
-            if filename in filenames:
-                raise ValueError(f'Filename already taken: {filename}')
+            if game['id'] in ids:
+                raise ValueError(f'ID already taken: {game["id"]}')
             else:
-                filenames.add(filename)
+                ids.add(game['id'])
 
             self.append(game)
