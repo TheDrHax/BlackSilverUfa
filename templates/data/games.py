@@ -3,48 +3,27 @@
 
 from datetime import datetime
 from .streams import Segment
+from .timecodes import Timecode
 
 
 class SegmentReference(Segment):
-    def __init__(self, streams, ref):
-        self.segment = {}
-        super(SegmentReference, self).__init__(ref)
-        self.segment = streams[self['twitch']][self['segment']]
-        self.stream = self.segment.stream
-        self.segment.references.add(self)
-        
-        # if 'start' in self and self['start'] not in self.stream.timecodes:
-        #     raise ValueError('Wrong "start" value: '
-        #                      f'Timecode {str(self["start"])} is not '
-        #                      f'in stream {self["twitch"]}')
+    def __init__(self, streams, data):
+        self._segment = streams[data['twitch']][data.get('segment') or 0]
+        self.stream = self._segment.stream
 
-    def __len__(self):
-        return super(SegmentReference, self).__len__() + self.segment.__len__()
+        self.name = data['name']
 
-    def __iter__(self):
-        raise NotImplemented
+        if 'note' in data:
+            self.note = data['note']
 
-    def __contains__(self, key):
-        if super(SegmentReference, self).__contains__(key):
-            return True
-        return self.segment.__contains__(key)
+        for key in ['start', 'end', 'offset']:
+            if key in data:
+                self.__setattr__(key, Timecode(data[key]))
 
-    def __getitem__(self, key):
-        if super(SegmentReference, self).__contains__(key):
-            return super(SegmentReference, self).__getitem__(key)
-        return self.segment.__getitem__(key)
+        self._segment.references.add(self)
 
-    def get(self, key):
-        try:
-            return self.__getitem__(key)
-        except KeyError:
-            return None
-
-    def keys(self):
-        keys = set()
-        [keys.add(key) for key in super(SegmentReference, self).keys()]
-        [keys.add(key) for key in self.segment.keys()]
-        return keys
+    def __getattr__(self, attr):
+        return getattr(self._segment, attr)
 
 
 class Game(dict):
@@ -66,7 +45,7 @@ class Game(dict):
             self['thumbnail'] = 0
 
     def stream_count(self):
-        return len(set([s['twitch'] for s in self['streams']]))
+        return len(set([s.twitch for s in self['streams']]))
 
     def thumbnail(self):
         return self['streams'][self['thumbnail']].thumbnail()

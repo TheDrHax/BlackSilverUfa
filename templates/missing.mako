@@ -15,10 +15,10 @@
 
     for game in games:
         for stream in game['streams']:
-            if 'vk' in stream:
+            if stream.vk:
                 vk.append((game, stream))
-            elif 'youtube' in stream:
-                if stream.get('official') == False:
+            elif stream.youtube:
+                if stream.official == False:
                     yt.append((game, stream))
             else:
                 missing.append((game, stream))
