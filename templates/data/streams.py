@@ -4,6 +4,7 @@
 from git import Repo
 from datetime import datetime
 from subprocess import run, PIPE
+from sortedcontainers import SortedList
 from ..utils import _, load_json, last_line, count_lines
 from .cache import cached
 from .timecodes import Timecode, Timecodes, TimecodesSlice
@@ -24,6 +25,8 @@ class Segment(dict):
 
     def __init__(self, segment, stream=None):
         super(Segment, self).__init__(segment)
+
+        self.references = SortedList(key=lambda k: Timecode(k.get('start')))
 
         if 'segment' not in self:
             self['segment'] = 0
@@ -156,7 +159,8 @@ class Stream(list):
         else:
             self.timecodes = Timecodes()
 
-        for segment in segments:
+        for i, segment in enumerate(segments):
+            segment['segment'] = i
             self.append(segment)
 
     @property
@@ -225,6 +229,12 @@ class Streams(dict):
         for stream in streams:
             id = stream['twitch']
             self[id] = Stream([stream], id)
+
+    @property
+    def segments(self):
+        for key, stream in self.items():
+            for segment in stream:
+                yield segment
 
     def __init__(self, streams):
         if type(streams) is dict:
