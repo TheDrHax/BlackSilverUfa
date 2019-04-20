@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from sortedcontainers import SortedList
+
 
 class Category:
     def __init__(self, games, data):
@@ -10,14 +12,14 @@ class Category:
         self.description = data.get('description')
         self.split_by_year = data.get('split_by_year')
         self.search = data.get('search')
-        self.games = []
+        self.games = SortedList(key=lambda x: x.date)
 
         for game in games.copy():
             if self.code == game.category:
                 if not game.type:
-                    self.games.append(game)
+                    self.games.add(game)
                 elif game.type == 'list':
-                    self.games.extend(game.streams)
+                    self.games.update(game.streams)
 
                 games.remove(game)
 
@@ -35,7 +37,7 @@ class Categories(list):
                 last_segments = list(streams.segments)[-10:]
 
                 for segment in last_segments:
-                    recent.games.append(segment.reference())
+                    recent.games.add(segment.reference())
                 
                 self.append(recent)
             else:
