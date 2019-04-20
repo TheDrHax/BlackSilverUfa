@@ -30,77 +30,7 @@
     <p>${category.description}</p>
   % endif
 
-  <% year = None %>\
-
-  ## Карточки
-  <div class="row d-none d-sm-flex">
-  % for game in category.games:
-    % if category.split_by_year != False and year is not None and year != game.date.year:
-    <div class="col-12"><div class="hr-sect">↓ ${game.date.year} год ↓</div></div>
-    % endif
-<% year = game.date.year %>\
-
-    % if type(game) == Game:
-      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-card">
-        <div class="card">
-          <%el:game_link game="${game}">
-            <noscript><img class="card-img-top" src="${game.thumbnail}" /></noscript>
-            <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="${game.thumbnail}" />
-            <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-              ${game.name}
-            </div>
-            <div class="card-img-overlay card-badge">
-              <span class="badge badge-primary">
-                ${numword(game.stream_count(), 'стрим')}
-              </span>
-            </div>
-          </%el:game_link>
-        </div>
-      </div>
-    % elif type(game) == SegmentReference:
-      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-card">
-        <div class="card">
-          <%el:stream_link game="${game.game}" stream="${game}">
-            <noscript><img class="card-img-top" src="${game.thumbnail}" /></noscript>
-            <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="${game.thumbnail}" />
-            <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-              ${game.name}
-            </div>
-          </%el:stream_link>
-        </div>
-      </div>
-    % endif
-  % endfor
-  </div>
-
-  <% year = None %>\
-
-  ## Список (для маленьких экранов)
-  <ul class="list-group d-sm-none">
-  % for game in category.games:
-    % if category.split_by_year != False and year is not None and year != game.date.year:
-    <div class="col-12"><div class="hr-sect">↓ ${game.date.year} год ↓</div></div>
-    % endif
-<% year = game.date.year %>\
-
-    % if type(game) == Game:
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <%el:game_link game="${game}">
-          ${game.name}
-        </%el:game_link>
-
-        <span class="badge badge-primary">
-          ${numword(game.stream_count(), 'стрим')}
-        </span>
-      </li>
-    % elif type(game) == SegmentReference:
-      <li class="list-group-item">
-        <%el:stream_link game="${game.game}" stream="${game}">
-          ${game.name}
-        </%el:stream_link>
-      </li>
-    % endif
-  % endfor
-  </ul>
+  <%el:segment_grid category="${category}" />
+  <%el:segment_grid_xs category="${category}" />
 % endfor
 </%block>
