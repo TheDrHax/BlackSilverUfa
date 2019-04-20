@@ -59,7 +59,8 @@
       { "name": "Diablo", "twitch": "394859046" },
       { "name": "Generation Zero", "twitch": "402450066", "segment": 1 },
       { "name": "Pacify", "twitch": "410400457", "start": "1:33:15" },
-      { "name": "Peekaboo / Shotgun Farmers", "twitch": "410963500", "start": "1:19:27" }
+      { "name": "Peekaboo / Shotgun Farmers", "twitch": "410963500", "start": "1:19:27" },
+      { "name": "World War Z с Куплиновым", "twitch": "413860733", "start": "1:02:12" }
     ]
   },
   {
@@ -922,7 +923,8 @@
     "id": "tabs",
     "streams": [
       { "name": "1", "twitch": "410963500" },
-      { "name": "2", "twitch": "412393845", "start": "1:08:45" }
+      { "name": "2", "twitch": "412393845", "start": "1:08:45" },
+      { "name": "3", "twitch": "413860733" }
     ]
   },
   {
