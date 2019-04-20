@@ -504,6 +504,7 @@ var Redirect = {
     "411920597": "/links/hollow-knight.html#411920597",
     "412393845": "/links/first.html#412393845",
     "413860733": "/links/tabs.html#413860733",
+    "413860733.1": "/links/co-op.html#413860733.1",
   },
 
   link: function (hash) {
@@ -773,7 +774,7 @@ var Search = {
       {name: "Generation Zero", path: "/links/co-op.html#402450066.1", year: 2019},
       {name: "Pacify", path: "/links/co-op.html#410400457", year: 2019},
       {name: "Peekaboo / Shotgun Farmers", path: "/links/co-op.html#410963500", year: 2019},
-      {name: "World War Z с Куплиновым", path: "/links/co-op.html#413860733", year: 2019},
+      {name: "World War Z с Куплиновым", path: "/links/co-op.html#413860733.1", year: 2019},
     ],
     "co-op-series": [
       {name: "Gang Beasts", path: "/links/gang-beasts.html", year: 2017},
