@@ -47,6 +47,11 @@ class Segment:
             url = config['fallback_source']
             self.direct = f'{url}/{self.twitch}.mp4'
 
+    def reference(self):
+        ref = SegmentReference(segment=self.references[0])
+        ref.name = ' / '.join([r.game_name for r in self.references])
+        return ref
+
     def player_compatible(self):
         return True in [getattr(self, key) is not None
                         for key in ['youtube', 'vk', 'direct']]
@@ -143,6 +148,36 @@ class Segment:
         if self.end:
             res += f'--end={int(Timecode(self.end) - offset)} '
         return res.strip()
+
+
+class SegmentReference(Segment):
+    def __init__(self, data={}, stream=None, game=None, segment=None):
+        if stream and not segment:
+            self._segment = stream[data.get('segment') or 0]
+            self.game = game
+        elif segment:
+            self._segment = segment
+            self.game = segment.game or game
+        else:
+            raise ValueError('Provide either `data` and `stream` OR `segment`')
+
+        for key in ['name', 'data', 'note']:
+            if key in data:
+                self.__setattr__(key, data[key])
+
+        for key in ['start', 'end', 'offset']:
+            if key in data:
+                self.__setattr__(key, Timecode(data[key]))
+
+    @property
+    def game_name(self):
+        if self.game.type == 'list':
+            return self.name
+        else:
+            return self.game.name
+
+    def __getattr__(self, attr):
+        return getattr(self._segment, attr)
 
 
 class Stream(list):

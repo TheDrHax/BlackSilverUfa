@@ -30,7 +30,8 @@ var Redirect = {
 var Search = {
   data: {
 <% listed_games = [] %>\
-    % for category in categories:
+  % for category in categories:
+    % if category.search != False:
     "${category.code}": [
       % for game in category.games:
         % if type(game) == Game:
@@ -44,13 +45,16 @@ var Search = {
         % endif
       % endfor
     ],
-    % endfor
+    % endif
+  % endfor
   },
 
   categories: [
-    % for category in categories:
+  % for category in categories:
+    % if category.search != False:
     {header: "${category.name}", listLocation: "${category.code}"},
-    % endfor
+    % endif
+  % endfor
   ],
 
   init: function() {

@@ -2,28 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from datetime import datetime
-from .streams import Segment
-from .timecodes import Timecode
-
-
-class SegmentReference(Segment):
-    def __init__(self, streams, data):
-        self._segment = streams[data['twitch']][data.get('segment') or 0]
-        self.stream = self._segment.stream
-
-        self.name = data['name']
-
-        if 'note' in data:
-            self.note = data['note']
-
-        for key in ['start', 'end', 'offset']:
-            if key in data:
-                self.__setattr__(key, Timecode(data[key]))
-
-        self._segment.references.add(self)
-
-    def __getattr__(self, attr):
-        return getattr(self._segment, attr)
+from .streams import SegmentReference
 
 
 class Game:
@@ -39,8 +18,9 @@ class Game:
         self.thumb_index = data.get('thumbnail') or 0
 
         for segment in data['streams']:
-            ref = SegmentReference(streams, segment)
-            ref.game = self
+            ref = SegmentReference(stream=streams[segment['twitch']],
+                                   data=segment, game=self)
+            ref._segment.references.add(ref)
             ref.stream.games.append((self, ref))
             self.streams.append(ref)
 

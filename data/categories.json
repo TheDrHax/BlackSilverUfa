@@ -1,4 +1,9 @@
 [{
+  "name": "Недавние стримы",
+  "code": "recent",
+  "level": 2,
+  "search": false
+}, {
   "name": "Завершённые прохождения",
   "code": "finished",
   "level": 2

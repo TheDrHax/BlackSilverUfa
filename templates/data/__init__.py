@@ -10,4 +10,4 @@ from .categories import Categories
 config = load_json("data/config.json")
 streams = Streams(load_json("data/streams.json"))
 games = Games(streams, load_json("data/games.json"))
-categories = Categories(games, load_json("data/categories.json"))
+categories = Categories(streams, games, load_json("data/categories.json"))
