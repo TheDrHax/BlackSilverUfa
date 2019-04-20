@@ -15,22 +15,7 @@
     
 <title>Totally Accurate Battle Simulator | Архив стримов BlackUFA</title>
 
-    <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['enableHeartBeatTimer']);
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//matomo.thedrhax.pw/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <!-- End Matomo Code -->
+    <script src="/static/js/matomo.js?hash=9cba7cec16b2dfd7aad4886404927995"></script>
   </head>
   <body>
     <div style="height: 56px"><!-- floating navbar workaround --></div>
@@ -47,6 +32,8 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Категории</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/#recent"><b>Недавние стримы</b></a>
+                    <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="/#finished"><b>Завершённые прохождения</b></a>
                   <a class="dropdown-item" href="/#single">Прохождения за один стрим</a>
                   <a class="dropdown-item" href="/#first">Первый взгляд</a>
@@ -278,6 +265,77 @@
 </div></div>
 
 
+<hr>
+
+ 
+<div class="d-flex" style="flex-wrap: wrap;">
+  <div class="">
+    <h2 id="413860733">
+      <a onclick="window.location.hash = '#413860733'; return false;" href="/r/?413860733">3</a>
+    </h2>
+  </div>
+  <div class="badge-row">
+    <span class="badge badge-light">
+      20 апреля 2019 г.
+    </span>
+    <span class="badge badge-primary">
+      <a href="https://www.twitch.tv/videos/413860733" target="_blank">
+        <i class="fab fa-twitch"></i> 413860733
+      </a>
+    </span>
+    <span class="badge badge-secondary">
+      <a href="../chats/v413860733.ass">
+        <i class="far fa-closed-captioning"></i> Субтитры
+      </a>
+    </span>
+    </span>
+  </div>
+</div>
+
+<ul>
+  <li>Связанные игры:</li>
+  <ul>
+    <li><a href="/links/co-op.html">Несюжетные коопы</a> — <a href="/links/co-op.html#413860733">World War Z с Куплиновым</a></li>
+  </ul>
+    <li>Таймкоды:</li>
+  <ul>
+    <li><a href="javascript:void(0)" class="timecode" data-id="2" data-value="15">0:15</a> — Интро</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="2" data-value="198">3:18</a> — Стримлер</li>
+      <li>Totally Accurate Battle Simulator:</li>
+  <ul>
+    <li><a href="javascript:void(0)" class="timecode" data-id="2" data-value="1265">21:05</a> — Меню</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="2" data-value="1323">22:03</a> — Игра</li>
+  </ul>
+
+    <li><a href="javascript:void(0)" class="timecode" data-id="2" data-value="3523">58:43</a> — Вход в Discord (-уши)</li>
+      <li>World War Z:</li>
+  <ul>
+    <li><a href="javascript:void(0)" class="timecode" data-id="2" data-value="3732">1:02:12</a> — Поиски коопа</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="2" data-value="4075">1:07:55</a> — Кооп найден</li>
+  </ul>
+
+  </ul>
+
+</ul>
+
+<div class="row justify-content-center">
+  <p class="stream col" data-id="2" data-name="3" data-twitch="413860733" style="display: none" />
+</div>
+
+<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
+прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
+обновился. Обычно на это требуется минута или около того, но я оставляю
+комментарий ещё до завершения процесса. Нажмите
+<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
+страницу.</p>
+
+
+<div class="highlighter-rouge"><div class="highlight">
+  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v413860733.ass" --player-passthrough hls twitch.tv/videos/413860733 best
+</code></pre>
+</div></div>
+
+
 
  
     </div>
@@ -362,7 +420,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-autohidingnavbar/4.0.0/jquery.bootstrap-autohidingnavbar.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
-    <script src="/search.js?hash=9d6201c5a5ecd5c117c975964393e454"></script>
+    <script src="/search.js?hash=89fce7cf38238cf8f409c792cfd10201"></script>
     <script type="text/javascript">
       Search.init("#search");
       $(".fixed-top").autoHidingNavbar({});
