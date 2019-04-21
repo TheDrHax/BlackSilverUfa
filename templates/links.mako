@@ -121,7 +121,7 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
   <p class="stream col" data-id="${id}" ${segment.attrs()} />
 </div>
 
-% if not segment.player_compatible():
+% if not segment.player_compatible:
 <p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
 прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
 обновился. Обычно на это требуется минута или около того, но я оставляю
@@ -131,10 +131,10 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
 % endif
 
 <%el:code_block>\
-% if segment.player_compatible():
+% if segment.player_compatible:
 mpv ${segment.mpv_args()} ${segment.mpv_file()}
 % endif
-% if not segment.player_compatible() or segment.direct:
+% if not segment.player_compatible or segment.direct:
 streamlink -p mpv -a "${segment.mpv_args()}" --player-passthrough hls twitch.tv/videos/${segment.twitch} best
 % endif
 </%el:code_block>

@@ -52,6 +52,7 @@ class Segment:
         ref.name = ' / '.join([r.game_name for r in self.references])
         return ref
 
+    @property
     def player_compatible(self):
         return True in [getattr(self, key) is not None
                         for key in ['youtube', 'vk', 'direct']]
@@ -83,7 +84,7 @@ class Segment:
         for key in ['name', 'twitch', 'youtube', 'vk', 'direct']:
             add(key)
 
-        if not self.player_compatible():
+        if not self.player_compatible:
             attrs.append('style="display: none"')
 
         return ' '.join(attrs)
