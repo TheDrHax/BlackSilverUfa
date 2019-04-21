@@ -505,6 +505,7 @@ var Redirect = {
     "412393845": "/links/first.html#412393845",
     "413860733": "/links/tabs.html#413860733",
     "413860733.1": "/links/co-op.html#413860733.1",
+    "414349690": "/links/scp-cb.html#414349690",
   },
 
   link: function (hash) {
@@ -602,6 +603,7 @@ var Search = {
       {name: "SCP-022", path: "/links/single.html#390719635", year: 2019},
       {name: "Pineview Drive: Homeless", path: "/links/single.html#408497895", year: 2019},
       {name: "The Beast Inside (демо)", path: "/links/single.html#410400457", year: 2019},
+      {name: "Paper Dolls: Original", path: "/links/single.html#414349690", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
