@@ -270,7 +270,8 @@ class Streams(dict):
     def segments(self):
         for key, stream in self.items():
             for segment in stream:
-                yield segment
+                if len(segment.references) > 0:
+                    yield segment
 
     def __init__(self, streams):
         if type(streams) is dict:

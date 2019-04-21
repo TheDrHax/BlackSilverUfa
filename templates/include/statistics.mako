@@ -19,17 +19,16 @@
     subs_size_mb = int(dir_size(_('chats')) / 1024**2)
 
     official, unofficial, missing = 0, 0, 0
-    for stream in streams.values():
-        for segment in stream:
-            if segment.vk:
+    for segment in streams.segments:
+        if segment.vk:
+            unofficial += 1
+        elif segment.youtube:
+            if segment.official == False:
                 unofficial += 1
-            elif segment.youtube:
-                if segment.official == False:
-                    unofficial += 1
-                else:
-                    official += 1
             else:
-                missing += 1
+                official += 1
+        else:
+            missing += 1
 
     all_segments = official + unofficial + missing
 %>\
