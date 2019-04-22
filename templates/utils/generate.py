@@ -2,8 +2,11 @@
 # -*- coding: utf-8 -*-
 
 import os
+import json
 import shutil
+
 from mako.lookup import TemplateLookup
+from sortedcontainers import SortedDict
 
 from . import _
 from ..data import config, streams, games, categories
@@ -39,6 +42,14 @@ def generate():
     if os.path.isdir(_('static')):
         shutil.rmtree(_('static'))
     shutil.copytree('static', _('static'))
+
+    # Generate preprocessed timecodes.json
+    tc_dict = SortedDict()
+    for segment in streams.segments:
+        if segment.timecodes:
+            tc_dict[segment.hash] = segment.timecodes.to_dict()
+    with open(_("data/timecodes.json"), 'w') as fo:
+        json.dump(tc_dict, fo, ensure_ascii=False, indent=2)
 
     # Generate scripts
     with open(_("search.js"), "w") as output:
