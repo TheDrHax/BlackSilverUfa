@@ -239,13 +239,14 @@ class Stream(list):
 
             if segment.offset:
                 segment.timecodes.start_at(segment.offset)
-                if self.index(segment) > 0:
-                    prev = self[self.index(segment) - 1]
-                    if not prev.end:
-                        prev.timecodes.end_at(segment.offset)
-            
+
+            end = None
             if segment.end:
                 end = segment.end
+            elif segment.duration > 0:
+                end = segment.duration
+
+            if end:
                 if segment.offset:
                     end += segment.offset
                 segment.timecodes.end_at(end)
