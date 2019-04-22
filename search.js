@@ -688,7 +688,7 @@ var Search = {
       {name: "ШХД: Зима", path: "/links/first.html#396376161", year: 2019},
       {name: "SCP-3008 / Blame him (демо) / Demense: Chapter 1", path: "/links/first.html#404063748", year: 2019},
       {name: "Border Officer / Risk of Rain 2 / Creature Hunt", path: "/links/first.html#412393845", year: 2019},
-      {name: "Days Gone (предзаписано)", path: "/links/first.html#414763532", year: 2019},
+      {name: "Days Gone (Preview)", path: "/links/first.html#414763532", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
