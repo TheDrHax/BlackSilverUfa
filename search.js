@@ -493,7 +493,7 @@ var Redirect = {
     "400422352": "/links/sekiro.html#400422352",
     "400422352.1": "/links/sekiro.html#400422352.1",
     "401955929": "/links/talking-dead-final.html#401955929",
-    "401955929.1": "/links/first.html#401955929.1",
+    "401955929.1": "/links/mk-11.html#401955929.1",
     "402450066": "/links/sekiro.html#402450066",
     "402450066.1": "/links/co-op.html#402450066.1",
     "403500896": "/links/hollow-knight.html#403500896",
@@ -506,6 +506,8 @@ var Redirect = {
     "413860733": "/links/tabs.html#413860733",
     "413860733.1": "/links/co-op.html#413860733.1",
     "414349690": "/links/scp-cb.html#414349690",
+    "414763532": "/links/first.html#414763532",
+    "414763532.1": "/links/mk-11.html#414763532.1",
   },
 
   link: function (hash) {
@@ -567,6 +569,7 @@ var Search = {
       {name: "Metro Exodus", path: "/links/metro-exodus.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Call of Pripyat", path: "/links/stalker-cop.html", year: 2019},
       {name: "Sekiro: Shadows Die Twice", path: "/links/sekiro.html", year: 2019},
+      {name: "Mortal Combat 11", path: "/links/mk-11.html", year: 2019},
     ],
     "single": [
       {name: "Полные прохождения за один стрим", path: "/links/single.html", year: 2017},
@@ -683,9 +686,9 @@ var Search = {
       {name: "Praey for the Gods", path: "/links/first.html#374556455", year: 2019},
       {name: "SCP: Blackout (демо)", path: "/links/first.html#390719635", year: 2019},
       {name: "ШХД: Зима", path: "/links/first.html#396376161", year: 2019},
-      {name: "Mortal Kombat 11 (online beta)", path: "/links/first.html#401955929.1", year: 2019},
       {name: "SCP-3008 / Blame him (демо) / Demense: Chapter 1", path: "/links/first.html#404063748", year: 2019},
       {name: "Border Officer / Risk of Rain 2 / Creature Hunt", path: "/links/first.html#412393845", year: 2019},
+      {name: "Days Gone (предзаписано)", path: "/links/first.html#414763532", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
