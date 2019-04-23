@@ -3,6 +3,10 @@
 
 from sortedcontainers import SortedList
 
+from .games import games
+from .streams import streams
+from ..utils import load_json
+
 
 class Category:
     @staticmethod
@@ -35,7 +39,7 @@ class Category:
 
 
 class Categories(list):
-    def __init__(self, streams, games, data):
+    def __init__(self, data):
         if type(data) is not list:
             raise TypeError
 
@@ -57,3 +61,6 @@ class Categories(list):
             names = [f'{game.name} ({game.category})'
                      for game in uncategorized]
             raise(AttributeError('Invalid category in ' + ', '.join(names)))
+
+
+categories = Categories(load_json('data/categories.json'))

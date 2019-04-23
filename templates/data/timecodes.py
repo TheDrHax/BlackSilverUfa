@@ -3,6 +3,8 @@
 
 from datetime import datetime
 
+from ..utils import load_json
+
 
 class Timecode(object):
     @staticmethod
@@ -289,3 +291,6 @@ class TimecodeHelper:
         return self.time() - self.start - Timecode(self.delay)
     
     get = __call__
+
+
+timecodes = load_json('data/timecodes.json')
