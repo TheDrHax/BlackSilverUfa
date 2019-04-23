@@ -8,18 +8,15 @@ from ..utils import load_json
 
 
 class Game:
-    def __init__(self, data):
-        if type(data) is not dict:
-            raise TypeError(type(data))
-
-        self.name = data['name']
-        self.category = data['category']
-        self.type = data.get('type') or None
-        self.id = data['id']
+    def __init__(self, **kwargs):
+        self.name = kwargs['name']
+        self.category = kwargs['category']
+        self.type = kwargs.get('type') or None
+        self.id = kwargs['id']
         self.streams = []
-        self.thumb_index = data.get('thumbnail') or 0
+        self.thumb_index = kwargs.get('thumbnail') or 0
 
-        for segment in data['streams']:
+        for segment in kwargs['streams']:
             ref = SegmentReference(stream=streams[segment['twitch']],
                                    data=segment, game=self)
             ref._segment.references.add(ref)
@@ -55,7 +52,7 @@ class Games(list):
         ids = set()
 
         for game_raw in data:
-            game = Game(game_raw)
+            game = Game(**game_raw)
 
             if game.id in ids:
                 raise ValueError(f'ID already taken: {game.id}')
