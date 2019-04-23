@@ -5,14 +5,14 @@ from git import Repo
 from datetime import datetime
 from subprocess import run, PIPE
 from sortedcontainers import SortedList
-from ..utils import _, load_json, last_line, count_lines
+
 from .cache import cached
-from .timecodes import Timecode, Timecodes, TimecodesSlice
+from .config import config
+from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice
+from ..utils import _, load_json, last_line, count_lines
 
 
 repo = Repo('.')
-config = load_json('data/config.json')
-timecodes = load_json('data/timecodes.json')
 
 
 class Segment:
@@ -281,3 +281,6 @@ class Streams(dict):
             self._from_list(streams)
         else:
             raise TypeError(type(streams))
+
+
+streams = Streams(load_json('data/streams.json'))

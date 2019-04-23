@@ -2,11 +2,13 @@
 # -*- coding: utf-8 -*-
 
 from datetime import datetime
-from .streams import SegmentReference
+
+from .streams import streams, SegmentReference
+from ..utils import load_json
 
 
 class Game:
-    def __init__(self, streams, data):
+    def __init__(self, data):
         if type(data) is not dict:
             raise TypeError(type(data))
 
@@ -46,14 +48,14 @@ class Game:
 
 
 class Games(list):
-    def __init__(self, streams, data):
+    def __init__(self, data):
         if type(data) is not list:
             raise TypeError
 
         ids = set()
 
         for game_raw in data:
-            game = Game(streams, game_raw)
+            game = Game(game_raw)
 
             if game.id in ids:
                 raise ValueError(f'ID already taken: {game.id}')
@@ -61,3 +63,6 @@ class Games(list):
                 ids.add(game.id)
 
             self.append(game)
+
+
+games = Games(load_json('data/games.json'))
