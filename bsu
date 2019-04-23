@@ -29,15 +29,19 @@ case $1 in
     pages)
         case $2 in
             checkout)
-                if [ -e "$PREFIX" ]; then
-                    if [ "_$3" != '_force' ]; then
-                        echo -n "Press Enter to delete $PREFIX or Ctrl+C to abort"
-                        read a
-                    fi
+                git fetch origin
+
+                if [ "_$3" = '_force' ] || [ ! -e "$PREFIX" ]; then
                     rm -rf "$PREFIX"
-                fi
-                git worktree prune
-                git worktree add "$PREFIX" "$PAGES_ORIGIN" ;;
+                    git worktree prune
+                    git worktree add "$PREFIX" "$PAGES_ORIGIN"
+                else
+                    (
+                        cd "$PREFIX"
+                        git clean -d -f
+                        git reset --hard "$PAGES_ORIGIN"
+                    )
+                fi ;;
             diff)
                 (
                     cd "$PREFIX"
