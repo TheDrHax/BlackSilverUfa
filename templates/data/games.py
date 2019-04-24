@@ -11,15 +11,15 @@ class Game:
     def __init__(self, **kwargs):
         self.name = kwargs['name']
         self.category = kwargs['category']
-        self.type = kwargs.get('type') or None
+        self.type = kwargs.get('type')
         self.id = kwargs['id']
         self.streams = []
         self.thumb_index = kwargs.get('thumbnail') or 0
 
         for segment in kwargs['streams']:
-            ref = SegmentReference(stream=streams[segment['twitch']],
-                                   data=segment, game=self)
-            ref._segment.references.add(ref)
+            parent = streams[segment['twitch']][segment.get('segment') or 0]
+            ref = SegmentReference(parent, game=self, **segment)
+            ref.parent.references.add(ref)
             ref.stream.games.append((self, ref))
             self.streams.append(ref)
 
