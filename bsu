@@ -42,8 +42,6 @@ case $1 in
     pages)
         case $2 in
             checkout)
-                git fetch origin
-
                 if [ "_$3" = '_force' ] || [ ! -e "$PREFIX" ]; then
                     rm -rf "$PREFIX"
                     git worktree prune
