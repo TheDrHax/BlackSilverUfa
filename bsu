@@ -8,10 +8,18 @@ export PAGES_ORIGIN="origin/gh-pages"
 export PAGES_LOCAL="gh-pages"
 
 venv_setup() {
+    if [ -e "$VENV/requirements.md5" ] && md5sum -c "$VENV/requirements.md5" > /dev/null 2>&1; then
+        echo "Skipping virtual environment update (no changes in requirements.txt)"
+        return 0
+    fi
+
     if [ ! -d "$VENV" ]; then
         $PYTHON -m venv "$VENV"
     fi
+
     $PYTHON -m pip install -U -r requirements.txt
+
+    md5sum requirements.txt > "$VENV/requirements.md5"
 }
 
 if [ ! -d "$VENV" ] && [ "_$1" != "_venv" ]; then
@@ -22,7 +30,12 @@ fi
 case $1 in
     venv)
         case $2 in
-            update) venv_setup ;;
+            update)
+                if [ "_$3" = '_force' ] && [ -e "$VENV/requirements.md5" ]; then
+                    rm "$VENV/requirements.md5"
+                fi
+
+                venv_setup ;;
             remove) rm -r "$VENV" ;;
             *) echo "Usage: $0 $1 update|remove" ;;
         esac ;;
