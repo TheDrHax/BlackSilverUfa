@@ -25,15 +25,13 @@ class Category:
         return self
 
     def __init__(self, **kwargs):
-        def attr(key, default):
+        def attr(key, default=None):
             setattr(self, key, kwargs.get(key, default))
 
-        attr('name', None)
-        attr('code', None)
+        for key in ['name', 'code', 'description', 'split_by_year', 'search']:
+            attr(key)
+
         attr('level', 2)
-        attr('description', None)
-        attr('split_by_year', None)
-        attr('search', None)
 
         self.games = SortedList(key=lambda x: x.date)
 

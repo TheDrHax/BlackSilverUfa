@@ -16,28 +16,26 @@ repo = Repo('.')
 
 
 class Segment:
-    def __init__(self, data, stream=None):
+    def __init__(self, stream, **kwargs):
         self.references = SortedList(key=lambda x: Timecode(x.start))
         self.timecodes = None
 
         self.stream = stream
-        self.segment = data.get('segment') or 0
+        self.twitch = stream.twitch
+
+        def attr(key, default=None, func=lambda x: x):
+            if key in kwargs:
+                setattr(self, key, func(kwargs[key]))
+            else:
+                setattr(self, key, default)
+
+        attr('segment', 0)
 
         for key in ['start', 'end', 'offset']:
-            if key in data:
-                self.__setattr__(key, Timecode(data[key]))
-            else:
-                self.__setattr__(key, None)
+            attr(key, func=lambda x: Timecode(x))
 
         for key in ['youtube', 'vk', 'direct', 'official', 'note', 'name']:
-            self.__setattr__(key, data.get(key))
-
-        if stream is not None:
-            self.twitch = stream.twitch
-        elif 'twitch' in data:
-            self.twitch = data['twitch']
-        else:
-            raise AttributeError('Missing attribute "twitch"')
+            attr(key)
 
         if not self.player_compatible and config.get('fallback_source'):
             if self.offset:
@@ -47,10 +45,28 @@ class Segment:
             url = config['fallback_source']
             self.direct = f'{url}/{self.twitch}.mp4'
 
+        if len(stream.timecodes) > 0:
+            self.timecodes = TimecodesSlice(stream.timecodes)
+
+            if self.offset:
+                self.timecodes.start_at(self.offset)
+
+            end = None
+            if self.end:
+                end = self.end
+            elif self.duration > 0:
+                end = self.duration
+
+            if end:
+                if self.offset:
+                    end += self.offset
+                self.timecodes.end_at(end)
+
     def reference(self):
-        ref = SegmentReference(segment=self.references[0])
-        ref.name = ' / '.join([r.game_name for r in self.references])
-        return ref
+        return SegmentReference(
+            parent=self.references[0],
+            name=' / '.join([r.game_name for r in self.references])
+        )
 
     @property
     def player_compatible(self):
@@ -152,23 +168,22 @@ class Segment:
 
 
 class SegmentReference(Segment):
-    def __init__(self, data={}, stream=None, game=None, segment=None):
-        if stream and not segment:
-            self._segment = stream[data.get('segment') or 0]
-            self.game = game
-        elif segment:
-            self._segment = segment
-            self.game = segment.game or game
-        else:
-            raise ValueError('Provide either `data` and `stream` OR `segment`')
+    def __init__(self, parent, game=None, **kwargs):
+        self.parent = parent
+        self.game = getattr(parent, 'game', game)
 
-        for key in ['name', 'data', 'note']:
-            if key in data:
-                self.__setattr__(key, data[key])
+        if self.game is None:
+            raise ValueError('`game` is required when referencing Segment')
+
+        def attr(key, func=lambda x: x):
+            if key in kwargs:
+                setattr(self, key, func(kwargs[key]))
+
+        for key in ['name', 'note']:
+            attr(key)
 
         for key in ['start', 'end', 'offset']:
-            if key in data:
-                self.__setattr__(key, Timecode(data[key]))
+            attr(key, lambda x: Timecode(x))
 
     @property
     def game_name(self):
@@ -178,7 +193,7 @@ class SegmentReference(Segment):
             return self.game.name
 
     def __getattr__(self, attr):
-        return getattr(self._segment, attr)
+        return getattr(self.parent, attr)
 
 
 class Stream(list):
@@ -188,15 +203,10 @@ class Stream(list):
 
         self.twitch = key
         self.games = []
-
-        if key in timecodes:
-            self.timecodes = Timecodes(timecodes[key])
-        else:
-            self.timecodes = Timecodes()
+        self.timecodes = Timecodes(timecodes.get(key) or {})
 
         for i, segment in enumerate(data):
-            segment['segment'] = i
-            self.append(segment)
+            self.append(Segment(self, segment=i, **segment))
 
     @property
     @cached('duration-twitch-{0[0].twitch}')
@@ -229,27 +239,6 @@ class Stream(list):
     @property
     def messages(self):
         return self._messages or 0
-
-    def append(self, data):
-        segment = Segment(data, self)
-        super(Stream, self).append(segment)
-
-        if len(self.timecodes) > 0:
-            segment.timecodes = TimecodesSlice(self.timecodes)
-
-            if segment.offset:
-                segment.timecodes.start_at(segment.offset)
-
-            end = None
-            if segment.end:
-                end = segment.end
-            elif segment.duration > 0:
-                end = segment.duration
-
-            if end:
-                if segment.offset:
-                    end += segment.offset
-                segment.timecodes.end_at(end)
 
 
 class Streams(dict):
