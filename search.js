@@ -506,8 +506,9 @@ var Redirect = {
     "413860733": "/links/tabs.html#413860733",
     "413860733.1": "/links/co-op.html#413860733.1",
     "414349690": "/links/scp-cb.html#414349690",
-    "414763532": "/links/first.html#414763532",
+    "414763532": "/links/days-gone.html#414763532",
     "414763532.1": "/links/mk-11.html#414763532.1",
+    "416130306": "/links/days-gone.html#416130306",
   },
 
   link: function (hash) {
@@ -688,7 +689,6 @@ var Search = {
       {name: "ШХД: Зима", path: "/links/first.html#396376161", year: 2019},
       {name: "SCP-3008 / Blame him (демо) / Demense: Chapter 1", path: "/links/first.html#404063748", year: 2019},
       {name: "Border Officer / Risk of Rain 2 / Creature Hunt", path: "/links/first.html#412393845", year: 2019},
-      {name: "Days Gone (Preview)", path: "/links/first.html#414763532", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
@@ -714,6 +714,7 @@ var Search = {
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
       {name: "Hollow Knight", path: "/links/hollow-knight.html", year: 2019},
+      {name: "Days Gone", path: "/links/days-gone.html", year: 2019},
     ],
     "infinite": [
       {name: "Getting Over It", path: "/links/getting-over-it.html", year: 2018},
