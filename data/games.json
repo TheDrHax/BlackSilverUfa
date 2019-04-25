@@ -915,9 +915,18 @@
       { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 },
       { "name": "ШХД: Зима", "twitch": "396376161", "start": "1:05:16" },
       { "name": "SCP-3008 / Blame him (демо) / Demense: Chapter 1", "twitch": "404063748" },
-      { "name": "Border Officer / Risk of Rain 2 / Creature Hunt", "twitch": "412393845" },
-      { "name": "Days Gone (Preview)", "twitch": "414763532", "segment": 0 }
+      { "name": "Border Officer / Risk of Rain 2 / Creature Hunt", "twitch": "412393845" }
     ]
+  },
+  {
+    "name": "Days Gone",
+    "category": "ongoing",
+    "id": "days-gone",
+    "streams": [
+      { "name": "Preview", "twitch": "414763532", "segment": 0 },
+      { "name": "1", "twitch": "416130306" }
+    ],
+    "thumbnail": 1
   },
   {
     "name": "Mortal Combat 11",
