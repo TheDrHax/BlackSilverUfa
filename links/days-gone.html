@@ -149,9 +149,9 @@
         <i class="far fa-closed-captioning"></i> Субтитры
       </a>
     </span>
-    <span class="badge badge-danger">
-      <a href="https://bsufiles.thedrhax.pw/streams/416130306.mp4" target="_blank">
-        <i class="fas fa-download"></i> прямая ссылка
+    <span class="badge badge-success">
+      <a href="https://www.youtube.com/watch?v=cLYnj8cgri4" target="_blank">
+        <i class="fab fa-youtube"></i> cLYnj8cgri4
       </a>
     </span>
   </div>
@@ -160,23 +160,22 @@
 <ul>
     <li>Таймкоды:</li>
   <ul>
-    <li><a href="javascript:void(0)" class="timecode" data-id="1" data-value="52">0:52</a> — Интро</li>
-    <li><a href="javascript:void(0)" class="timecode" data-id="1" data-value="206">3:26</a> — Стримлер</li>
-    <li><a href="javascript:void(0)" class="timecode" data-id="1" data-value="472">7:52</a> — Вступление</li>
-    <li><a href="javascript:void(0)" class="timecode" data-id="1" data-value="801">13:21</a> — Игра</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="1" data-value="0">0:00</a> — Интро</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="1" data-value="154">2:34</a> — Стримлер</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="1" data-value="420">7:00</a> — Вступление</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="1" data-value="749">12:29</a> — Игра</li>
   </ul>
 
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="1" data-name="1" data-twitch="416130306" data-direct="https://bsufiles.thedrhax.pw/streams/416130306.mp4" />
+  <p class="stream col" data-id="1" data-offset="52" data-name="1" data-twitch="416130306" data-youtube="cLYnj8cgri4" />
 </div>
 
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v416130306.ass https://bsufiles.thedrhax.pw/streams/416130306.mp4
-streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v416130306.ass" --player-passthrough hls twitch.tv/videos/416130306 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v416130306.ass --sub-delay=-52 ytdl://cLYnj8cgri4
 </code></pre>
 </div></div>
 
