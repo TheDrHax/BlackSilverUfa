@@ -798,15 +798,23 @@
     "id": "scp-cb",
     "streams": [
       { "name": "1", "twitch": "215974261" },
-      { "name": "2", "twitch": "220513992" },
-      { "name": "3", "twitch": "239731404" },
-      { "name": "4", "twitch": "290213414", "segment": 0 },
-      { "name": "5", "twitch": "366354053", "segment": 1, "start": "1:10:04" },
-      { "name": "6", "twitch": "367994742", "segment": 0 },
-      { "name": "7", "twitch": "372293257", "segment": 0 },
-      { "name": "8", "twitch": "372851375", "segment": 1, "start": "2:49:15" },
-      { "name": "9 (Nine Tailed Fox Mod)", "twitch": "396376161" },
-      { "name": "10", "twitch": "414349690" }
+      { "name": "2", "twitch": "220513992", "start": "1:06:26" },
+      { "name": "3", "twitch": "366354053", "segment": 1, "start": "2:26:24" },
+      { "name": "4", "twitch": "367994742", "segment": 0 },
+      { "name": "5", "twitch": "372851375", "segment": 1, "start": "2:49:15" }
+    ]
+  },
+  {
+    "name": "SCP Containment Breach - Unity",
+    "category": "infinite",
+    "id": "scp-cbu",
+    "streams": [
+      { "name": "1", "twitch": "220513992" },
+      { "name": "2", "twitch": "239731404" },
+      { "name": "3", "twitch": "290213414", "segment": 0 },
+      { "name": "4", "twitch": "366354053", "segment": 1, "start": "1:10:04" },
+      { "name": "5", "twitch": "372293257", "segment": 0 },
+      { "name": "6", "twitch": "414349690" }
     ]
   },
   {
@@ -841,6 +849,7 @@
       { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
       { "name": "Past Cure", "twitch": "233032380", "segment": 1 },
       { "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "segment": 0 },
+      { "name": "SCP Containment Breach - Ultimate Edition", "twitch": "239731404", "start": "1:17:59" },
       { "name": "Living Nightmares / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" },
       { "name": "Extinction / Minit", "twitch": "248791166" },
       { "name": "Fortunarium / Lobotomy Corporation / Escape Doodland / Jalopy", "twitch": "249160756" },
@@ -913,7 +922,7 @@
       { "name": "Genesis Alpha One", "twitch": "372293257", "segment": 1 },
       { "name": "Praey for the Gods", "twitch": "374556455" },
       { "name": "SCP: Blackout (демо)", "twitch": "390719635", "segment": 0 },
-      { "name": "ШХД: Зима", "twitch": "396376161", "start": "1:05:16" },
+      { "name": "SCP Containment Breach - Nine Tailed Fox Mod / ШХД: Зима", "twitch": "396376161" },
       { "name": "SCP-3008 / Blame him (демо) / Demense: Chapter 1", "twitch": "404063748" },
       { "name": "Border Officer / Risk of Rain 2 / Creature Hunt", "twitch": "412393845" }
     ]
