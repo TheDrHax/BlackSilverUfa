@@ -139,7 +139,7 @@ var Redirect = {
     "233032380": "/links/little-nightmares.html#233032380",
     "233032380.1": "/links/first.html#233032380.1",
     "233032380.2": "/links/getting-over-it.html#233032380.2",
-    "233355849": "/links/first.html#233355849",
+    "233355849": "/links/ff-xv.html#233355849",
     "233355849.1": "/links/kingdom-come-deliverance.html#233355849.1",
     "233711282": "/links/single.html#233711282",
     "234037742": "/links/deep-rock-galactic.html#234037742",
@@ -510,6 +510,7 @@ var Redirect = {
     "414763532.1": "/links/mk-11.html#414763532.1",
     "416130306": "/links/days-gone.html#416130306",
     "416573434": "/links/days-gone.html#416573434",
+    "417052586": "/links/days-gone.html#417052586",
   },
 
   link: function (hash) {
@@ -536,12 +537,12 @@ var Search = {
   data: {
     "finished": [
       {name: "The Legend of Zelda: Breath of the Wild", path: "/links/tloz_botw.html", year: 2017},
-      {name: "Final Fantasy XV", path: "/links/ff-xv.html", year: 2017},
       {name: "The Evil Within", path: "/links/evil_within.html", year: 2017},
       {name: "Hellblade: Senua's Sacrifice", path: "/links/hellblade.html", year: 2017},
       {name: "Resident Evil 4", path: "/links/re4.html", year: 2017},
       {name: "White Day: A Labyrinth Named School", path: "/links/white_day.html", year: 2017},
       {name: "Prey", path: "/links/prey.html", year: 2017},
+      {name: "Final Fantasy XV", path: "/links/ff-xv.html", year: 2017},
       {name: "Darkwood", path: "/links/darkwood.html", year: 2017},
       {name: "Black Mirror", path: "/links/black-mirror.html", year: 2017},
       {name: "Uncanny Valley", path: "/links/uncanny-valley.html", year: 2017},
@@ -635,7 +636,6 @@ var Search = {
       {name: "Boogeyman 2", path: "/links/first.html#230659866", year: 2018},
       {name: "SCP: Secret Laboratory", path: "/links/first.html#232346216", year: 2018},
       {name: "Past Cure", path: "/links/first.html#233032380.1", year: 2018},
-      {name: "Final Fantasy XV: Windows Edition (demo)", path: "/links/first.html#233355849", year: 2018},
       {name: "SCP Containment Breach - Ultimate Edition", path: "/links/first.html#239731404", year: 2018},
       {name: "Living Nightmares", path: "/links/first.html#245043791", year: 2018},
       {name: "Agnes Doll", path: "/links/first.html#245043791", year: 2018},
