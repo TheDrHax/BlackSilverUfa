@@ -563,7 +563,8 @@
     "category": "finished",
     "id": "ff-xv",
     "streams": [
-      { "name": "Episode Prompto", "twitch": "154787759" }
+      { "name": "Episode Prompto", "twitch": "154787759" },
+      { "name": "Windows Edition (демо)", "twitch": "233355849", "segment": 0 }
     ]
   },
   {
@@ -848,7 +849,6 @@
       { "name": "Never Again / Boogeyman 2", "twitch": "230659866" },
       { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
       { "name": "Past Cure", "twitch": "233032380", "segment": 1 },
-      { "name": "Final Fantasy XV: Windows Edition (demo)", "twitch": "233355849", "segment": 0 },
       { "name": "SCP Containment Breach - Ultimate Edition", "twitch": "239731404", "start": "1:17:59" },
       { "name": "Living Nightmares / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" },
       { "name": "Extinction / Minit", "twitch": "248791166" },
