@@ -252,8 +252,9 @@
   "267726322": { "youtube": "ng5A3gOPBzo", "official": false },
   "268055630": { "youtube": "RjQzoSnVkLs", "official": false },
   "268114023": {
-    "youtube": "D2gLXwpoc30", "official": false,
-    "note": "Просмотр заблокирован в Японии."
+    "_youtube": "D2gLXwpoc30", "_official": false,
+    "_note": "Просмотр заблокирован в Японии.",
+    "note": "Запись была заблокирована. <b>Перезалив в процессе</b>."
   },
   "268497396": { "youtube": "qtiSoPbuteM", "official": false },
   "268900992": {
