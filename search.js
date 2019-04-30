@@ -512,6 +512,7 @@ var Redirect = {
     "416573434": "/links/days-gone.html#416573434",
     "417052586": "/links/days-gone.html#417052586",
     "417527615": "/links/days-gone.html#417527615",
+    "418378382": "/links/days-gone.html#418378382",
   },
 
   link: function (hash) {
