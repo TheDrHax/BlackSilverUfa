@@ -79,6 +79,7 @@ case $1 in
     download-chats) $PYTHON -m templates.utils.chats ;;
     sh) $@ ;;
     cli) $PYTHON -i -m templates.utils.cli ;;
+    script) shift; $PYTHON -m templates.scripts.$@ ;;
     python) shift; $PYTHON $@ ;;
-    *) echo "Usage: $0 venv|build|serve|download-chats|sh|cli|python" ;;
+    *) echo "Usage: $0 venv|pages|build|serve|download-chats|sh|cli|script|python" ;;
 esac
