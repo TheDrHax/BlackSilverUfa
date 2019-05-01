@@ -513,6 +513,7 @@ var Redirect = {
     "417052586": "/links/days-gone.html#417052586",
     "417527615": "/links/days-gone.html#417527615",
     "418378382": "/links/days-gone.html#418378382",
+    "418879336": "/links/first.html#418879336",
   },
 
   link: function (hash) {
@@ -617,6 +618,7 @@ var Search = {
       {name: "Pineview Drive: Homeless", path: "/links/single.html#408497895", year: 2019},
       {name: "The Beast Inside (демо)", path: "/links/single.html#410400457", year: 2019},
       {name: "Paper Dolls: Original", path: "/links/single.html#414349690", year: 2019},
+      {name: "Katana Zero", path: "/links/single.html#418879336", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
@@ -745,6 +747,7 @@ var Search = {
       {name: "Border Officer", path: "/links/first.html#412393845", year: 2019},
       {name: "Risk of Rain 2", path: "/links/first.html#412393845", year: 2019},
       {name: "Creature Hunt", path: "/links/first.html#412393845", year: 2019},
+      {name: "Dark Devotion", path: "/links/first.html#418879336", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
