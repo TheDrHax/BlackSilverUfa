@@ -575,6 +575,7 @@ var Search = {
       {name: "S.T.A.L.K.E.R.: Call of Pripyat", path: "/links/stalker-cop.html", year: 2019},
       {name: "Sekiro: Shadows Die Twice", path: "/links/sekiro.html", year: 2019},
       {name: "Mortal Combat 11", path: "/links/mk-11.html", year: 2019},
+      {name: "Days Gone", path: "/links/days-gone.html", year: 2019},
     ],
     "single": [
       {name: "Полные прохождения за один стрим", path: "/links/single.html", year: 2017},
@@ -769,7 +770,6 @@ var Search = {
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
       {name: "Hollow Knight", path: "/links/hollow-knight.html", year: 2019},
-      {name: "Days Gone", path: "/links/days-gone.html", year: 2019},
     ],
     "infinite": [
       {name: "Getting Over It", path: "/links/getting-over-it.html", year: 2018},
