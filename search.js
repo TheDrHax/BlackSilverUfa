@@ -515,6 +515,7 @@ var Redirect = {
     "418378382": "/links/days-gone.html#418378382",
     "418879336": "/links/first.html#418879336",
     "419736177": "/links/single.html#419736177",
+    "419736177.1": "/links/first.html#419736177.1",
   },
 
   link: function (hash) {
@@ -750,7 +751,7 @@ var Search = {
       {name: "Risk of Rain 2", path: "/links/first.html#412393845", year: 2019},
       {name: "Creature Hunt", path: "/links/first.html#412393845", year: 2019},
       {name: "Dark Devotion", path: "/links/first.html#418879336", year: 2019},
-      {name: "Close to the Sun", path: "/links/first.html#419736177", year: 2019},
+      {name: "Close to the Sun", path: "/links/first.html#419736177.1", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
