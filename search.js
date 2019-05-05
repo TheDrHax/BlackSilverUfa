@@ -517,6 +517,7 @@ var Redirect = {
     "419736177": "/links/single.html#419736177",
     "419736177.1": "/links/close-to-the-sun.html#419736177.1",
     "420241791": "/links/close-to-the-sun.html#420241791",
+    "420241791.1": "/links/unboxing.html#420241791.1",
   },
 
   link: function (hash) {
@@ -753,7 +754,7 @@ var Search = {
       {name: "Risk of Rain 2", path: "/links/first.html#412393845", year: 2019},
       {name: "Creature Hunt", path: "/links/first.html#412393845", year: 2019},
       {name: "Dark Devotion", path: "/links/first.html#418879336", year: 2019},
-      {name: "The Painscreek Killings", path: "/links/first.html#420241791", year: 2019},
+      {name: "The Painscreek Killings", path: "/links/first.html#420241791.1", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
@@ -915,8 +916,8 @@ var Search = {
       {name: "Посылки (01.04.18)", path: "/links/unboxing.html#245415969", year: 2018},
       {name: "Посылки (30.12.18)", path: "/links/unboxing.html#356378129", year: 2018},
       {name: "Asus ROG Phone", path: "/links/unboxing.html#366354053", year: 2019},
-      {name: "Asus ROG Zephyrus", path: "/links/unboxing.html#420241791", year: 2019},
-      {name: "Sheath", path: "/links/unboxing.html#420241791", year: 2019},
+      {name: "Asus ROG Zephyrus", path: "/links/unboxing.html#420241791.1", year: 2019},
+      {name: "Sheath", path: "/links/unboxing.html#420241791.1", year: 2019},
     ],
     "vod": [
       {name: "Zombi (2015)", path: "/links/zombi.html", year: 2018},
