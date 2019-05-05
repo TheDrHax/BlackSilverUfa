@@ -793,7 +793,7 @@
       { "name": "Посылки (01.04.18)", "twitch": "245415969" },
       { "name": "Посылки (30.12.18)", "twitch": "356378129" },
       { "name": "Asus ROG Phone", "twitch": "366354053", "segment": 0 },
-      { "name": "Asus ROG Zephyrus / Sheath", "twitch": "420241791", "start": "1:25:03" }
+      { "name": "Asus ROG Zephyrus / Sheath", "twitch": "420241791", "segment": 1, "start": "1:25:03" }
     ]
   },
   {
@@ -929,7 +929,7 @@
       { "name": "SCP-3008 / Blame him (демо) / Demense: Chapter 1", "twitch": "404063748" },
       { "name": "Border Officer / Risk of Rain 2 / Creature Hunt", "twitch": "412393845" },
       { "name": "Dark Devotion", "twitch": "418879336" },
-      { "name": "The Painscreek Killings", "twitch": "420241791", "start": "1:44:22" }
+      { "name": "The Painscreek Killings", "twitch": "420241791", "segment": 1, "start": "1:44:22" }
     ]
   },
   {
@@ -938,7 +938,7 @@
     "id": "close-to-the-sun",
     "streams": [
       { "name": "1", "twitch": "419736177", "segment": 1 },
-      { "name": "2", "twitch": "420241791" }
+      { "name": "2", "twitch": "420241791", "segment": 0 }
     ]
   },
   {
