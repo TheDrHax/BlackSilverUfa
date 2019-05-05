@@ -519,6 +519,7 @@ var Redirect = {
     "420241791": "/links/close-to-the-sun.html#420241791",
     "420241791.1": "/links/unboxing.html#420241791.1",
     "420241791.2": "/links/first.html#420241791.2",
+    "420724646": "/links/hollow-knight.html#420724646",
   },
 
   link: function (hash) {
