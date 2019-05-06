@@ -13,7 +13,6 @@ from ..data import config, streams, games, categories
 
 
 lookup = TemplateLookup(directories=['./templates'],
-                        module_directory='/tmp/mako_modules',
                         input_encoding='utf-8')
 
 
