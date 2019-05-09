@@ -521,6 +521,7 @@ var Redirect = {
     "420241791.2": "/links/first.html#420241791.2",
     "420724646": "/links/hollow-knight.html#420724646",
     "422048555": "/links/hollow-knight.html#422048555",
+    "422486024": "/links/charity.html#422486024",
   },
 
   link: function (hash) {
@@ -758,6 +759,7 @@ var Search = {
       {name: "Creature Hunt", path: "/links/first.html#412393845", year: 2019},
       {name: "Dark Devotion", path: "/links/first.html#418879336", year: 2019},
       {name: "The Painscreek Killings", path: "/links/first.html#420241791.2", year: 2019},
+      {name: "Jump King", path: "/links/first.html#422486024", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
@@ -792,9 +794,9 @@ var Search = {
       {name: "Hot Lava", path: "/links/hot-lava.html", year: 2018},
       {name: "The Crew 2", path: "/links/crew-2.html", year: 2018},
       {name: "No Man's Sky", path: "/links/no-mans-sky.html", year: 2018},
-      {name: "Immortal Redneck", path: "/links/immortal-redneck.html", year: 2018},
       {name: "SCP Containment Breach", path: "/links/scp-cb.html", year: 2018},
       {name: "SCP Containment Breach - Unity", path: "/links/scp-cbu.html", year: 2018},
+      {name: "Immortal Redneck", path: "/links/immortal-redneck.html", year: 2018},
       {name: "MONSTRUM", path: "/links/monstrum.html", year: 2018},
       {name: "Subnautica: Below Zero (early access)", path: "/links/subnautica-bz.html", year: 2019},
       {name: "Totally Accurate Battle Simulator", path: "/links/tabs.html", year: 2019},
