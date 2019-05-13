@@ -711,5 +711,11 @@
   "420724646": { "youtube": "A4CzcnxUfR8" },
   "422048555": { "youtube": "E7XyhyPvORg" },
   "422486024": { "youtube": "VEoMopOTvGg" },
-  "423369283": { "youtube": "dWelI2WV9lo" }
+  "423369283": [
+    { "youtube": "dWelI2WV9lo" },
+    {
+      "offset": "5:43:27",
+      "note": "Эта часть стрима по какой-то причине не попала на официальную запись."
+    }
+  ]
 }

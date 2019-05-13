@@ -135,7 +135,7 @@
       { "name": "The Experiment #1", "twitch": "339579917", "segment": 1 },
       { "name": "The Experiment #2", "twitch": "340545862", "start": "2:40:44" },
       { "name": "Escape First", "twitch": "343098113", "segment": 1, "start": "5:15:24" },
-      { "name": "Tales of Escape", "twitch": "423369283", "start": "4:50:15" }
+      { "name": "Tales of Escape", "twitch": "423369283", "segment": 0, "start": "4:50:15" }
     ]
   },
   {
@@ -218,7 +218,7 @@
       { "name": "9", "twitch": "374556455", "start": "1:22:48" },
       { "name": "10", "twitch": "385372335", "segment": 1, "start": "2:55:39" },
       { "name": "11", "twitch": "410963500", "start": "2:01:39" },
-      { "name": "12", "twitch": "423369283", "start": "2:13:25" }
+      { "name": "12", "twitch": "423369283", "segment": 0, "start": "2:13:25" }
     ]
   },
   {
@@ -317,7 +317,7 @@
       { "name": "1", "twitch": "202631693" },
       { "name": "2", "twitch": "234373553", "start": "3:19:02" },
       { "name": "3", "twitch": "353211576", "start": "3:13:55" },
-      { "name": "4", "twitch": "423369283", "start": "3:02:31" }
+      { "name": "4", "twitch": "423369283", "segment": 0, "start": "3:02:31" }
     ]
   },
   {
@@ -382,7 +382,7 @@
       { "name": "13", "twitch": "355865035", "start": "5:10:02" },
       { "name": "14", "twitch": "385372335", "segment": 1, "start": "4:19:03" },
       { "name": "15", "twitch": "410963500", "start": "4:35:31" },
-      { "name": "16", "twitch": "423369283", "start": "5:43:27" }
+      { "name": "16", "twitch": "423369283", "segment": 1 }
     ]
   },
   {
@@ -1028,7 +1028,7 @@
       { "name": "6", "twitch": "411920597" },
       { "name": "7", "twitch": "420724646" },
       { "name": "8", "twitch": "422048555" },
-      { "name": "9", "twitch": "423369283" }
+      { "name": "9", "twitch": "423369283", "segment": 0 }
     ]
   },
   {
