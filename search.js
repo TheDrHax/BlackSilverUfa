@@ -524,6 +524,7 @@ var Redirect = {
     "422486024": "/links/charity.html#422486024",
     "423369283": "/links/hollow-knight.html#423369283",
     "423369283.1": "/links/golf-it.html#423369283.1",
+    "424274940": "/links/rage-2.html#424274940",
   },
 
   link: function (hash) {
@@ -787,6 +788,7 @@ var Search = {
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
       {name: "Hollow Knight", path: "/links/hollow-knight.html", year: 2019},
+      {name: "Rage 2", path: "/links/rage-2.html", year: 2019},
     ],
     "infinite": [
       {name: "Getting Over It", path: "/links/getting-over-it.html", year: 2018},
