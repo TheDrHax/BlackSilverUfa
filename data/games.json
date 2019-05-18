@@ -69,7 +69,7 @@
       { "name": "Generation Zero", "twitch": "402450066", "segment": 1 },
       { "name": "Pacify", "twitch": "410400457", "start": "1:33:15" },
       { "name": "Peekaboo / Shotgun Farmers", "twitch": "410963500", "start": "1:19:27" },
-      { "name": "Mortal Kombat 11 с Куплиновым", "twitch": "426022824", "start": "48:47" }
+      { "name": "Mortal Kombat 11 с Куплиновым", "twitch": "426022824", "segment": 1, "start": "48:47" }
     ]
   },
   {
@@ -78,7 +78,7 @@
     "id": "world-war-z",
     "streams": [
       { "name": "1", "twitch": "413860733", "segment": 1 },
-      { "name": "2", "twitch": "426022824", "start": "2:44:59" }
+      { "name": "2", "twitch": "426022824", "segment": 1, "start": "2:44:59" }
     ]
   },
   {
@@ -492,7 +492,7 @@
       { "name": "10", "twitch": "207478875" },
       { "name": "11", "twitch": "210024030" },
       { "name": "PS4-версия (часть 1)", "twitch": "426011884" },
-      { "name": "PS4-версия (часть 2)", "twitch": "426022824" }
+      { "name": "PS4-версия (часть 2)", "twitch": "426022824", "segment": 0 }
     ],
     "thumbnail": 1
   },
