@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from git import Repo
+from requests import Session
 from datetime import datetime
 from subprocess import run, PIPE
 from sortedcontainers import SortedList
@@ -13,6 +14,7 @@ from ..utils import _, load_json, last_line, count_lines
 
 
 repo = Repo('.')
+req = Session()
 
 
 class Segment:
@@ -38,12 +40,15 @@ class Segment:
             attr(key)
 
         if not self.player_compatible and config.get('fallback_source'):
-            if self.offset:
-                self.start = self.offset
-                self.offset = None
-
             url = config['fallback_source']
-            self.direct = f'{url}/{self.twitch}.mp4'
+            url = f'{url}/{self.twitch}.mp4'
+
+            if req.head(url).status_code != 404:
+                if self.offset:
+                    self.start = self.offset
+                    self.offset = None
+
+                self.direct = url
 
         if len(stream.timecodes) > 0:
             self.timecodes = TimecodesSlice(stream.timecodes)
