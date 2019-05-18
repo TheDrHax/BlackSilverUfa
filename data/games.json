@@ -51,7 +51,6 @@
       { "name": "Drunk-Fu: Wasted Masters", "twitch": "284156303", "start": "3:26:53" },
       { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" },
       { "name": "CASE 2: Animatronics Survival (кооп)", "twitch": "293012700", "start": "2:58:54" },
-      { "name": "Bigfoot", "twitch": "294641160" },
       { "name": "Secret Neighbor / I'm not a Monster", "twitch": "313747869" },
       { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" },
       { "name": "A Gummy's Life", "twitch": "316677687" },
@@ -69,7 +68,17 @@
       { "name": "Generation Zero", "twitch": "402450066", "segment": 1 },
       { "name": "Pacify", "twitch": "410400457", "start": "1:33:15" },
       { "name": "Peekaboo / Shotgun Farmers", "twitch": "410963500", "start": "1:19:27" },
-      { "name": "Mortal Kombat 11 с Куплиновым", "twitch": "426022824", "segment": 1, "start": "48:47" }
+      { "name": "Mortal Kombat 11 с Куплиновым", "twitch": "426022824", "segment": 1, "start": "48:47" },
+      { "name": "Mordhau", "twitch": "426474797", "start": "2:25:54" }
+    ]
+  },
+  {
+    "name": "Bigfoot",
+    "category": "co-op-series",
+    "id": "bigfoot",
+    "streams": [
+      { "name": "1", "twitch": "294641160" },
+      { "name": "2", "twitch": "426474797" }
     ]
   },
   {
