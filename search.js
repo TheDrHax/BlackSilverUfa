@@ -287,7 +287,7 @@ var Redirect = {
     "293012700": "/links/sea-of-thieves.html#293012700",
     "293415850": "/links/single.html#293415850",
     "294220536": "/links/stalker-cs.html#294220536",
-    "294641160": "/links/co-op.html#294641160",
+    "294641160": "/links/bigfoot.html#294641160",
     "295485781": "/links/crazy-ls.html#295485781",
     "295925948": "/links/we-happy-few.html#295925948",
     "296361246": "/links/we-happy-few.html#296361246",
@@ -529,6 +529,7 @@ var Redirect = {
     "426011884": "/links/darkwood.html#426011884",
     "426022824": "/links/darkwood.html#426022824",
     "426022824.1": "/links/co-op.html#426022824.1",
+    "426474797": "/links/bigfoot.html#426474797",
   },
 
   link: function (hash) {
@@ -851,7 +852,6 @@ var Search = {
       {name: "Drunk-Fu: Wasted Masters", path: "/links/co-op.html#284156303", year: 2018},
       {name: "Darwin Project", path: "/links/co-op.html#287404564", year: 2018},
       {name: "CASE 2: Animatronics Survival (кооп)", path: "/links/co-op.html#293012700", year: 2018},
-      {name: "Bigfoot", path: "/links/co-op.html#294641160", year: 2018},
       {name: "Secret Neighbor", path: "/links/co-op.html#313747869", year: 2018},
       {name: "I'm not a Monster", path: "/links/co-op.html#313747869", year: 2018},
       {name: "Destiny 2 со StopGame", path: "/links/co-op.html#315365879", year: 2018},
@@ -873,6 +873,7 @@ var Search = {
       {name: "Peekaboo", path: "/links/co-op.html#410963500", year: 2019},
       {name: "Shotgun Farmers", path: "/links/co-op.html#410963500", year: 2019},
       {name: "Mortal Kombat 11 с Куплиновым", path: "/links/co-op.html#426022824.1", year: 2019},
+      {name: "Mordhau", path: "/links/co-op.html#426474797", year: 2019},
     ],
     "co-op-series": [
       {name: "Gang Beasts", path: "/links/gang-beasts.html", year: 2017},
@@ -903,6 +904,7 @@ var Search = {
       {name: "Call of Duty: Black Ops 4", path: "/links/cod-bo-4.html", year: 2018},
       {name: "Tricky Towers", path: "/links/tricky-towers.html", year: 2018},
       {name: "Крокодил", path: "/links/crocodile.html", year: 2018},
+      {name: "Bigfoot", path: "/links/bigfoot.html", year: 2018},
       {name: "Своя Игра", path: "/links/sigame.html", year: 2018},
       {name: "Pummel Party", path: "/links/pummel-party.html", year: 2019},
       {name: "The Experiment / Escape First / Tales of Escape", path: "/links/the-experiment.html", year: 2019},
