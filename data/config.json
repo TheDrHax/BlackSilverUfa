@@ -7,5 +7,9 @@
     "master": "master",
     "pages": "gh-pages"
   },
-  "_fallback_source": "https://bsufiles.thedrhax.pw/streams"
+  "fallback": {
+    "prefix": "https://bsufiles.thedrhax.pw/streams",
+    "streams": false,
+    "chats": true
+  }
 }

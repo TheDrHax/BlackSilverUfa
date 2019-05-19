@@ -39,8 +39,9 @@ class Segment:
         for key in ['youtube', 'vk', 'direct', 'official', 'note', 'name']:
             attr(key)
 
-        if not self.player_compatible and config.get('fallback_source'):
-            url = config['fallback_source']
+        fallback = config['fallback']
+        if not self.player_compatible and fallback['streams']:
+            url = fallback['prefix']
             url = f'{url}/{self.twitch}.mp4'
 
             if req.head(url).status_code != 404:

@@ -13,8 +13,9 @@ tcd.settings.update(load_json('data/tcd.json'))
 
 
 def download(id, dest):
-    if config.get('fallback_source'):
-        base_url = config['fallback_source']
+    fallback = config['fallback']
+    if fallback['chats']:
+        base_url = fallback['prefix']
         url = f'{base_url}/{id}.ass'
 
         if requests.head(url).status_code == 200:
