@@ -44,7 +44,7 @@ class Segment:
             url = fallback['prefix']
             url = f'{url}/{self.twitch}.mp4'
 
-            if req.head(url).status_code != 404:
+            if req.head(url, allow_redirects=fallback['redirects']).status_code == 200:
                 if self.offset:
                     self.start = self.offset
                     self.offset = None

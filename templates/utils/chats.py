@@ -18,7 +18,7 @@ def download(id, dest):
         base_url = fallback['prefix']
         url = f'{base_url}/{id}.ass'
 
-        if requests.head(url).status_code == 200:
+        if requests.head(url, allow_redirects=fallback['redirects']).status_code == 200:
             print(f'Downloading chat {filename} via fallback source')
             try:
                 r = requests.get(url)
