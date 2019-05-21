@@ -530,6 +530,7 @@ var Redirect = {
     "426022824": "/links/darkwood.html#426022824",
     "426022824.1": "/links/co-op.html#426022824.1",
     "426474797": "/links/bigfoot.html#426474797",
+    "426474797.1": "/links/mordhau.html#426474797.1",
     "427832718": "/links/first.html#427832718",
   },
 
@@ -875,7 +876,6 @@ var Search = {
       {name: "Peekaboo", path: "/links/co-op.html#410963500", year: 2019},
       {name: "Shotgun Farmers", path: "/links/co-op.html#410963500", year: 2019},
       {name: "Mortal Kombat 11 с Куплиновым", path: "/links/co-op.html#426022824.1", year: 2019},
-      {name: "Mordhau", path: "/links/co-op.html#426474797", year: 2019},
     ],
     "co-op-series": [
       {name: "Gang Beasts", path: "/links/gang-beasts.html", year: 2017},
@@ -915,6 +915,7 @@ var Search = {
       {name: "Tom Clancy's The Division 2", path: "/links/division-2.html", year: 2019},
       {name: "Pogostuck: Rage With Your Friends", path: "/links/pogostuck.html", year: 2019},
       {name: "World War Z с Куплиновым", path: "/links/world-war-z.html", year: 2019},
+      {name: "Mordhau", path: "/links/mordhau.html", year: 2019},
     ],
     "other": [
       {name: "Хэллоуин", path: "/links/halloween.html", year: 2018},
