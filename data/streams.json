@@ -728,6 +728,12 @@
     },
     { "youtube": "ZSAAbo5nuQc", "start": "22:34" }
   ],
-  "426474797": { "youtube": "VRmQE4rW13I" },
+  "426474797": [
+    { "youtube": "VRmQE4rW13I" },
+    {
+      "note": "Эта часть стрима не попала на официальную запись.",
+      "youtube": "EQye_zCdYdw", "official": false, "offset": "5:36:46"
+    }
+  ],
   "427832718": {  }
 }
