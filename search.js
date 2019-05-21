@@ -530,6 +530,7 @@ var Redirect = {
     "426022824": "/links/darkwood.html#426022824",
     "426022824.1": "/links/co-op.html#426022824.1",
     "426474797": "/links/bigfoot.html#426474797",
+    "427832718": "/links/first.html#427832718",
   },
 
   link: function (hash) {
@@ -769,6 +770,7 @@ var Search = {
       {name: "Dark Devotion", path: "/links/first.html#418879336", year: 2019},
       {name: "The Painscreek Killings", path: "/links/first.html#420241791.2", year: 2019},
       {name: "Jump King", path: "/links/first.html#422486024", year: 2019},
+      {name: "Observation", path: "/links/first.html#427832718", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
