@@ -532,6 +532,7 @@ var Redirect = {
     "426474797": "/links/bigfoot.html#426474797",
     "426474797.1": "/links/mordhau.html#426474797.1",
     "427832718": "/links/first.html#427832718",
+    "428271249": "/links/co-op.html#428271249",
   },
 
   link: function (hash) {
@@ -876,6 +877,7 @@ var Search = {
       {name: "Peekaboo", path: "/links/co-op.html#410963500", year: 2019},
       {name: "Shotgun Farmers", path: "/links/co-op.html#410963500", year: 2019},
       {name: "Mortal Kombat 11 с Куплиновым", path: "/links/co-op.html#426022824.1", year: 2019},
+      {name: "Overwatch", path: "/links/co-op.html#428271249", year: 2019},
     ],
     "co-op-series": [
       {name: "Gang Beasts", path: "/links/gang-beasts.html", year: 2017},
