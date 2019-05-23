@@ -974,7 +974,16 @@
       { "name": "Dark Devotion", "twitch": "418879336" },
       { "name": "The Painscreek Killings", "twitch": "420241791", "segment": 2 },
       { "name": "Jump King", "twitch": "422486024", "start": "1:37:07" },
-      { "name": "Observation", "twitch": "427832718" }
+      { "name": "Pathologic 2 (Мор)", "twitch": "428684611", "start": "3:24:21" }
+    ]
+  },
+  {
+    "name": "Observation",
+    "category": "finished",
+    "id": "observation",
+    "streams": [
+      { "name": "1", "twitch": "427832718" },
+      { "name": "2", "twitch": "428684611" }
     ]
   },
   {
