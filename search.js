@@ -531,8 +531,9 @@ var Redirect = {
     "426022824.1": "/links/co-op.html#426022824.1",
     "426474797": "/links/bigfoot.html#426474797",
     "426474797.1": "/links/mordhau.html#426474797.1",
-    "427832718": "/links/first.html#427832718",
+    "427832718": "/links/observation.html#427832718",
     "428271249": "/links/co-op.html#428271249",
+    "428684611": "/links/observation.html#428684611",
   },
 
   link: function (hash) {
@@ -598,6 +599,7 @@ var Search = {
       {name: "Days Gone", path: "/links/days-gone.html", year: 2019},
       {name: "Close to the Sun", path: "/links/close-to-the-sun.html", year: 2019},
       {name: "Rage 2", path: "/links/rage-2.html", year: 2019},
+      {name: "Observation", path: "/links/observation.html", year: 2019},
     ],
     "single": [
       {name: "Полные прохождения за один стрим", path: "/links/single.html", year: 2017},
@@ -772,7 +774,7 @@ var Search = {
       {name: "Dark Devotion", path: "/links/first.html#418879336", year: 2019},
       {name: "The Painscreek Killings", path: "/links/first.html#420241791.2", year: 2019},
       {name: "Jump King", path: "/links/first.html#422486024", year: 2019},
-      {name: "Observation", path: "/links/first.html#427832718", year: 2019},
+      {name: "Pathologic 2 (Мор)", path: "/links/first.html#428684611", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
