@@ -534,6 +534,7 @@ var Redirect = {
     "427832718": "/links/observation.html#427832718",
     "428271249": "/links/co-op.html#428271249",
     "428684611": "/links/observation.html#428684611",
+    "429660363": "/links/first.html#429660363",
   },
 
   link: function (hash) {
@@ -643,6 +644,7 @@ var Search = {
       {name: "Paper Dolls: Original", path: "/links/single.html#414349690", year: 2019},
       {name: "Katana Zero", path: "/links/single.html#418879336", year: 2019},
       {name: "Burning Daylight", path: "/links/single.html#419736177", year: 2019},
+      {name: "Escape Until Friday", path: "/links/single.html#429660363", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
@@ -775,6 +777,7 @@ var Search = {
       {name: "The Painscreek Killings", path: "/links/first.html#420241791.2", year: 2019},
       {name: "Jump King", path: "/links/first.html#422486024", year: 2019},
       {name: "Pathologic 2 (Мор)", path: "/links/first.html#428684611", year: 2019},
+      {name: "Dollhouse", path: "/links/first.html#429660363", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
