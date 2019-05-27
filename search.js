@@ -537,6 +537,7 @@ var Redirect = {
     "429660363": "/links/first.html#429660363",
     "430120134": "/links/hollow-knight.html#430120134",
     "430120134.1": "/links/co-op.html#430120134.1",
+    "430120134.2": "/links/mordhau.html#430120134.2",
   },
 
   link: function (hash) {
