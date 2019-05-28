@@ -820,6 +820,16 @@
     ]
   },
   {
+    "name": "Разное",
+    "category": "other",
+    "id": "other",
+    "type": "list",
+    "streams": [
+      { "name": "PlayStation Classic (все игры)", "twitch": "348094949" },
+      { "name": "Godzilla (PS4, NES, Sega, PS2)", "twitch": "431084407" }
+    ]
+  },
+  {
     "name": "IRL",
     "category": "other",
     "type": "list",
@@ -958,7 +968,6 @@
       { "name": "Battlefield V: The Last Tiger / The Shapeshifting Detective", "twitch": "344946351" },
       { "name": "The Darkness", "twitch": "345416464" },
       { "name": "Northbury Grove", "twitch": "347665549", "start": "40:30" },
-      { "name": "PlayStation Classic (все игры)", "twitch": "348094949" },
       { "name": "Below", "twitch": "349397154", "segment": 0 },
       { "name": "Heathen - The sons of the law / Dread of Laughter", "twitch": "351262416" },
       { "name": "The Long Dark - Redux", "twitch": "352177874" },
