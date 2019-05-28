@@ -387,7 +387,7 @@ var Redirect = {
     "345863416": "/links/dmc-5.html#345863416",
     "346312308": "/links/ashen.html#346312308",
     "347665549": "/links/single.html#347665549",
-    "348094949": "/links/first.html#348094949",
+    "348094949": "/links/other.html#348094949",
     "348930664": "/links/pubg.html#348930664",
     "348930664.1": "/links/ashen.html#348930664.1",
     "349397154": "/links/first.html#349397154",
@@ -538,6 +538,7 @@ var Redirect = {
     "430120134": "/links/hollow-knight.html#430120134",
     "430120134.1": "/links/co-op.html#430120134.1",
     "430120134.2": "/links/mordhau.html#430120134.2",
+    "431084407": "/links/other.html#431084407",
   },
 
   link: function (hash) {
@@ -752,7 +753,6 @@ var Search = {
       {name: "The Shapeshifting Detective", path: "/links/first.html#344946351", year: 2018},
       {name: "The Darkness", path: "/links/first.html#345416464", year: 2018},
       {name: "Northbury Grove", path: "/links/first.html#347665549", year: 2018},
-      {name: "PlayStation Classic (все игры)", path: "/links/first.html#348094949", year: 2018},
       {name: "Below", path: "/links/first.html#349397154", year: 2018},
       {name: "Heathen - The sons of the law", path: "/links/first.html#351262416", year: 2018},
       {name: "Dread of Laughter", path: "/links/first.html#351262416", year: 2018},
@@ -934,7 +934,10 @@ var Search = {
       {name: "Благотворительные стримы", path: "/links/charity.html", year: 2018},
       {name: "IRL", path: "/links/events.html", year: 2018},
       {name: "Конкурс на лучший арт (4.12.18)", path: "/links/events.html#344508969", year: 2018},
+      {name: "Разное", path: "/links/other.html", year: 2018},
+      {name: "PlayStation Classic (все игры)", path: "/links/other.html#348094949", year: 2018},
       {name: "Розыгрыш Metro Exodus: Artyom Edition", path: "/links/events.html#395846647", year: 2019},
+      {name: "Godzilla (PS4, NES, Sega, PS2)", path: "/links/other.html#431084407", year: 2019},
     ],
     "expos": [
       {name: "неПрофессиональный E3 2017", path: "/links/e3_2017.html", year: 2017},
