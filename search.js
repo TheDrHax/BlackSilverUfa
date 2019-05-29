@@ -539,6 +539,7 @@ var Redirect = {
     "430120134.1": "/links/co-op.html#430120134.1",
     "430120134.2": "/links/mordhau.html#430120134.2",
     "431084407": "/links/other.html#431084407",
+    "431574734": "/links/first.html#431574734",
   },
 
   link: function (hash) {
@@ -781,6 +782,7 @@ var Search = {
       {name: "Jump King", path: "/links/first.html#422486024", year: 2019},
       {name: "Pathologic 2 (Мор)", path: "/links/first.html#428684611", year: 2019},
       {name: "Dollhouse", path: "/links/first.html#429660363", year: 2019},
+      {name: "Layers of Fear 2", path: "/links/first.html#431574734", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
