@@ -114,7 +114,7 @@ class Segment:
     @staticmethod
     @cached('duration-youtube-{0[0]}')
     def _duration_youtube(id):
-        cmd = ['youtube-dl', '--get-duration', id]
+        cmd = ['youtube-dl', '--get-duration', f'youtu.be/{id}']
         out = run(cmd, stdout=PIPE)
 
         if out.returncode == 0:
