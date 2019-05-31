@@ -988,7 +988,7 @@
       { "name": "Jump King", "twitch": "422486024", "start": "1:37:07" },
       { "name": "Pathologic 2 (Мор)", "twitch": "428684611", "start": "3:24:21" },
       { "name": "Dollhouse", "twitch": "429660363" },
-      { "name": "Code Vein", "twitch": "432481618" }
+      { "name": "Code Vein", "twitch": "432481618", "segment": 0 }
     ]
   },
   {
@@ -997,7 +997,7 @@
     "id": "lof-2",
     "streams": [
       { "name": "1", "twitch": "431574734" },
-      { "name": "2", "twitch": "432481618", "start": "2:30:31" }
+      { "name": "2", "twitch": "432481618", "segment": 1 }
     ]
   },
   {
