@@ -539,7 +539,8 @@ var Redirect = {
     "430120134.1": "/links/co-op.html#430120134.1",
     "430120134.2": "/links/mordhau.html#430120134.2",
     "431084407": "/links/other.html#431084407",
-    "431574734": "/links/first.html#431574734",
+    "431574734": "/links/lof-2.html#431574734",
+    "432481618": "/links/first.html#432481618",
   },
 
   link: function (hash) {
@@ -606,6 +607,7 @@ var Search = {
       {name: "Close to the Sun", path: "/links/close-to-the-sun.html", year: 2019},
       {name: "Rage 2", path: "/links/rage-2.html", year: 2019},
       {name: "Observation", path: "/links/observation.html", year: 2019},
+      {name: "Layers of Fear 2", path: "/links/lof-2.html", year: 2019},
     ],
     "single": [
       {name: "Полные прохождения за один стрим", path: "/links/single.html", year: 2017},
@@ -782,7 +784,7 @@ var Search = {
       {name: "Jump King", path: "/links/first.html#422486024", year: 2019},
       {name: "Pathologic 2 (Мор)", path: "/links/first.html#428684611", year: 2019},
       {name: "Dollhouse", path: "/links/first.html#429660363", year: 2019},
-      {name: "Layers of Fear 2", path: "/links/first.html#431574734", year: 2019},
+      {name: "Code Vein", path: "/links/first.html#432481618", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
