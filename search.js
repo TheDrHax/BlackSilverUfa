@@ -541,6 +541,7 @@ var Redirect = {
     "431084407": "/links/other.html#431084407",
     "431574734": "/links/lof-2.html#431574734",
     "432481618": "/links/first.html#432481618",
+    "432481618.1": "/links/lof-2.html#432481618.1",
   },
 
   link: function (hash) {
