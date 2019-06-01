@@ -375,7 +375,7 @@ var Redirect = {
     "339579917.1": "/links/the-experiment.html#339579917.1",
     "340545862": "/links/co-op.html#340545862",
     "340934900": "/links/first.html#340934900",
-    "341780077": "/links/first.html#341780077",
+    "341780077": "/links/rdr2-online.html#341780077",
     "341780077.1": "/links/protocol.html#341780077.1",
     "343098113": "/links/just-cause-4.html#343098113",
     "343098113.1": "/links/co-op.html#343098113.1",
@@ -542,6 +542,7 @@ var Redirect = {
     "431574734": "/links/lof-2.html#431574734",
     "432481618": "/links/first.html#432481618",
     "432481618.1": "/links/lof-2.html#432481618.1",
+    "432985887": "/links/rdr2-online.html#432985887",
   },
 
   link: function (hash) {
@@ -750,7 +751,6 @@ var Search = {
       {name: "Pokemon: Let's Go, Pikachu!", path: "/links/first.html#337051811", year: 2018},
       {name: "Metal Gear Solid 3: Snake Eater", path: "/links/first.html#338345713.1", year: 2018},
       {name: "Darksiders 3", path: "/links/first.html#340934900", year: 2018},
-      {name: "Red Dead Redemption 2 Online", path: "/links/first.html#341780077", year: 2018},
       {name: "Return 2 Games: Book of Demons", path: "/links/first.html#344508969.1", year: 2018},
       {name: "Viviette", path: "/links/first.html#344508969.1", year: 2018},
       {name: "Battlefield V: The Last Tiger", path: "/links/first.html#344946351", year: 2018},
@@ -930,6 +930,7 @@ var Search = {
       {name: "New Super Mario Bros. U Deluxe", path: "/links/nsmbu.html", year: 2019},
       {name: "The Isle", path: "/links/isle.html", year: 2019},
       {name: "Tom Clancy's The Division 2", path: "/links/division-2.html", year: 2019},
+      {name: "Red Dead Redemption 2 Online", path: "/links/rdr2-online.html", year: 2019},
       {name: "Pogostuck: Rage With Your Friends", path: "/links/pogostuck.html", year: 2019},
       {name: "World War Z с Куплиновым", path: "/links/world-war-z.html", year: 2019},
       {name: "Mordhau", path: "/links/mordhau.html", year: 2019},
