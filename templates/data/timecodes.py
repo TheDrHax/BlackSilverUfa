@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from datetime import datetime
+from sortedcontainers import SortedKeyList
 
 from ..utils import load_json
 
@@ -126,21 +127,25 @@ class Timecode(object):
         return int(self) < int(other)
 
 
-class Timecodes(Timecode, list):
+class Timecodes(Timecode, SortedKeyList):
     def _from_dict(self, timecodes):
         for key, value in timecodes.items():
             if type(value) in [dict, list]:
-                self.append(Timecodes(value, key))
+                self.add(Timecodes(value, key))
             elif type(value) is str:
-                self.append(Timecode(key, value))
+                self.add(Timecode(key, value))
             else:
                 raise TypeError(type(value))
 
     def _from_list(self, timecodes):
         for value in timecodes:
-            self.append(Timecode(value))
+            self.add(Timecode(value))
+
+    # Ignore SortedKeyList.__new__
+    __new__ = Timecode.__new__
 
     def __init__(self, timecodes={}, name=None):
+        SortedKeyList.__init__(self, key=lambda x: int(x))
         self.name = name
 
         if type(timecodes) is dict:
@@ -156,14 +161,6 @@ class Timecodes(Timecode, list):
             if value.name:
                 return False
         return True
-
-    def append(self, value):
-        if not isinstance(value, Timecode):
-            raise TypeError(type(value))
-        for i, item in enumerate(self):
-            if abs(item.value) >= abs(value.value):
-                return list.insert(self, i, value)
-        return list.append(self, value)
 
     def __contains__(self, value):
         if isinstance(value, Timecodes):
@@ -227,7 +224,7 @@ class TimecodesSlice(Timecodes):
             if isinstance(t, Timecodes):
                 tss = TimecodesSlice(t, self.start, self.end)
                 if len(tss) > 0:
-                    ts.append(tss)
+                    ts.add(tss)
             elif isinstance(t, Timecode):
                 duration = t.duration or 0
 
@@ -240,14 +237,14 @@ class TimecodesSlice(Timecodes):
                 if not in_range(t) and in_range(t + duration):  # end only
                     t = Timecode(t.value + duration, t.name)
 
-                ts.append(t - self.start)
+                ts.add(t - self.start)
 
         # Collapse timecode list
         if len(ts) == 1 and isinstance(ts[0], Timecodes) and not ts[0].is_list:
             tl = ts[0]
             del ts[0]
             for t in tl:
-                ts.append(t)
+                ts.add(t)
 
         return ts
 
@@ -273,7 +270,7 @@ class TimecodesSlice(Timecodes):
 
     @property
     def value(self):
-        return self.parent.value
+        return int(self.parent - self.start)
 
 
 class TimecodeHelper:
