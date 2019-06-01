@@ -963,7 +963,6 @@
       { "name": "Pokemon: Let's Go, Pikachu!", "twitch": "337051811" },
       { "name": "Metal Gear Solid 3: Snake Eater", "twitch": "338345713", "segment": 1 },
       { "name": "Darksiders 3", "twitch": "340934900" },
-      { "name": "Red Dead Redemption 2 Online", "twitch": "341780077", "segment": 0 },
       { "name": "Return 2 Games: Book of Demons / Viviette", "twitch": "344508969", "segment": 1 },
       { "name": "Battlefield V: The Last Tiger / The Shapeshifting Detective", "twitch": "344946351" },
       { "name": "The Darkness", "twitch": "345416464" },
@@ -989,6 +988,15 @@
       { "name": "Pathologic 2 (Мор)", "twitch": "428684611", "start": "3:24:21" },
       { "name": "Dollhouse", "twitch": "429660363" },
       { "name": "Code Vein", "twitch": "432481618", "segment": 0 }
+    ]
+  },
+  {
+    "name": "Red Dead Redemption 2 Online",
+    "category": "co-op-series",
+    "id": "rdr2-online",
+    "streams": [
+      { "name": "1 (соло)", "twitch": "341780077", "segment": 0 },
+      { "name": "2", "twitch": "432985887" }
     ]
   },
   {
