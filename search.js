@@ -543,6 +543,7 @@ var Redirect = {
     "432481618": "/links/first.html#432481618",
     "432481618.1": "/links/lof-2.html#432481618.1",
     "432985887": "/links/rdr2-online.html#432985887",
+    "433466467": "/links/first.html#433466467",
   },
 
   link: function (hash) {
@@ -786,6 +787,8 @@ var Search = {
       {name: "Pathologic 2 (Мор)", path: "/links/first.html#428684611", year: 2019},
       {name: "Dollhouse", path: "/links/first.html#429660363", year: 2019},
       {name: "Code Vein", path: "/links/first.html#432481618", year: 2019},
+      {name: "Gato Roboto", path: "/links/first.html#433466467", year: 2019},
+      {name: "Void Bastards", path: "/links/first.html#433466467", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
