@@ -988,7 +988,17 @@
       { "name": "Pathologic 2 (Мор)", "twitch": "428684611", "start": "3:24:21" },
       { "name": "Dollhouse", "twitch": "429660363" },
       { "name": "Code Vein", "twitch": "432481618", "segment": 0 },
-      { "name": "Gato Roboto / Void Bastards", "twitch": "433466467" }
+      { "name": "Gato Roboto / Void Bastards", "twitch": "433466467" },
+      { "name": "Shattered: Tale of the Forgotten King", "twitch": "434798330" }
+    ]
+  },
+  {
+    "name": "Outer Wilds",
+    "category": "ongoing",
+    "id": "outer-wilds",
+    "streams": [
+      { "name": "1 (часть 1)", "twitch": "434798330", "start": "1:24:50" },
+      { "name": "1 (часть 2)", "twitch": "434907657" }
     ]
   },
   {
