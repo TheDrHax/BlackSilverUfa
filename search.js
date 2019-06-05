@@ -544,6 +544,8 @@ var Redirect = {
     "432481618.1": "/links/lof-2.html#432481618.1",
     "432985887": "/links/rdr2-online.html#432985887",
     "433466467": "/links/first.html#433466467",
+    "434798330": "/links/first.html#434798330",
+    "434907657": "/links/outer-wilds.html#434907657",
   },
 
   link: function (hash) {
@@ -789,6 +791,7 @@ var Search = {
       {name: "Code Vein", path: "/links/first.html#432481618", year: 2019},
       {name: "Gato Roboto", path: "/links/first.html#433466467", year: 2019},
       {name: "Void Bastards", path: "/links/first.html#433466467", year: 2019},
+      {name: "Shattered: Tale of the Forgotten King", path: "/links/first.html#434798330", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
@@ -814,6 +817,7 @@ var Search = {
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
       {name: "Hollow Knight", path: "/links/hollow-knight.html", year: 2019},
+      {name: "Outer Wilds", path: "/links/outer-wilds.html", year: 2019},
     ],
     "infinite": [
       {name: "Getting Over It", path: "/links/getting-over-it.html", year: 2018},
