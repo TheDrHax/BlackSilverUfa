@@ -994,11 +994,12 @@
   },
   {
     "name": "Outer Wilds",
-    "category": "ongoing",
+    "category": "finished",
     "id": "outer-wilds",
     "streams": [
       { "name": "1 (часть 1)", "twitch": "434798330", "start": "1:24:50" },
-      { "name": "1 (часть 2)", "twitch": "434907657" }
+      { "name": "1 (часть 2)", "twitch": "434907657" },
+      { "name": "2", "twitch": "435209211" }
     ]
   },
   {
