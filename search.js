@@ -546,6 +546,7 @@ var Redirect = {
     "433466467": "/links/first.html#433466467",
     "434798330": "/links/first.html#434798330",
     "434907657": "/links/outer-wilds.html#434907657",
+    "435209211": "/links/outer-wilds.html#435209211",
   },
 
   link: function (hash) {
@@ -613,6 +614,7 @@ var Search = {
       {name: "Rage 2", path: "/links/rage-2.html", year: 2019},
       {name: "Observation", path: "/links/observation.html", year: 2019},
       {name: "Layers of Fear 2", path: "/links/lof-2.html", year: 2019},
+      {name: "Outer Wilds", path: "/links/outer-wilds.html", year: 2019},
     ],
     "single": [
       {name: "Полные прохождения за один стрим", path: "/links/single.html", year: 2017},
@@ -817,7 +819,6 @@ var Search = {
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
       {name: "Hollow Knight", path: "/links/hollow-knight.html", year: 2019},
-      {name: "Outer Wilds", path: "/links/outer-wilds.html", year: 2019},
     ],
     "infinite": [
       {name: "Getting Over It", path: "/links/getting-over-it.html", year: 2018},
