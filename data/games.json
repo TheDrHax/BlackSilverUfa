@@ -69,8 +69,17 @@
       { "name": "Pacify", "twitch": "410400457", "start": "1:33:15" },
       { "name": "Peekaboo / Shotgun Farmers", "twitch": "410963500", "start": "1:19:27" },
       { "name": "Mortal Kombat 11 с Куплиновым", "twitch": "426022824", "segment": 1 },
-      { "name": "Overwatch", "twitch": "428271249" },
-      { "name": "We Were Here / We Were Here Too", "twitch": "430120134", "segment": 1 }
+      { "name": "We Were Here / We Were Here Too", "twitch": "430120134", "segment": 1 },
+      { "name": "Barotrauma", "twitch": "435683759" }
+    ]
+  },
+  {
+    "name": "Overwatch",
+    "category": "co-op-series",
+    "id": "overwatch",
+    "streams": [
+      { "name": "1", "twitch": "428271249" },
+      { "name": "2", "twitch": "435683759", "start": "4:36:42" }
     ]
   },
   {
@@ -173,7 +182,8 @@
       { "name": "The Experiment #1", "twitch": "339579917", "segment": 1 },
       { "name": "The Experiment #2", "twitch": "340545862", "start": "2:40:44" },
       { "name": "Escape First", "twitch": "343098113", "segment": 1, "start": "5:15:24" },
-      { "name": "Tales of Escape", "twitch": "423369283", "segment": 0, "start": "4:50:15" }
+      { "name": "Tales of Escape #1", "twitch": "423369283", "segment": 0, "start": "4:50:15" },
+      { "name": "Tales of Escape #2", "twitch": "435683759", "start": "3:52:35" }
     ]
   },
   {
