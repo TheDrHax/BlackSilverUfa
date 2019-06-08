@@ -171,7 +171,8 @@
     "id": "pubg",
     "streams": [
       { "name": "1", "twitch": "207753795", "start": "3:24:00" },
-      { "name": "2 (на PS4 Pro)", "twitch": "348930664", "segment": 0 }
+      { "name": "2 (на PS4 Pro)", "twitch": "348930664", "segment": 0 },
+      { "name": "3", "twitch": "436159113", "segment": 1 }
     ]
   },
   {
@@ -525,6 +526,14 @@
       { "name": "PS4-версия (часть 2)", "twitch": "426022824", "segment": 0 }
     ],
     "thumbnail": 1
+  },
+  {
+    "name": "неПрофессиональный E3 2019",
+    "category": "expos",
+    "id": "e3_2019",
+    "streams": [
+      { "name": "EA", "twitch": "436159113", "segment": 1, "start": "3:21:16" }
+    ]
   },
   {
     "name": "неПрофессиональный E3 2017",
@@ -1130,7 +1139,8 @@
       { "name": "7", "twitch": "420724646" },
       { "name": "8", "twitch": "422048555" },
       { "name": "9", "twitch": "423369283", "segment": 0 },
-      { "name": "10", "twitch": "430120134", "segment": 0 }
+      { "name": "10", "twitch": "430120134", "segment": 0 },
+      { "name": "11", "twitch": "436159113", "segment": 0 }
     ]
   },
   {
