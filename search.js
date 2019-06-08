@@ -548,6 +548,8 @@ var Redirect = {
     "434907657": "/links/outer-wilds.html#434907657",
     "435209211": "/links/outer-wilds.html#435209211",
     "435683759": "/links/co-op.html#435683759",
+    "436159113": "/links/hollow-knight.html#436159113",
+    "436159113.1": "/links/pubg.html#436159113.1",
   },
 
   link: function (hash) {
@@ -917,7 +919,6 @@ var Search = {
       {name: "Dead by Daylight", path: "/links/dead-by-daylight.html", year: 2018},
       {name: "Depth", path: "/links/depth.html", year: 2018},
       {name: "Totally Accurate Battlegrounds", path: "/links/tabg.html", year: 2018},
-      {name: "PlayerUnknown's Battlegrounds", path: "/links/pubg.html", year: 2018},
       {name: "Realm Royale", path: "/links/realm-royale.html", year: 2018},
       {name: "Witch It!", path: "/links/witch-it.html", year: 2018},
       {name: "Grand Theft Auto V: Crazy LS", path: "/links/crazy-ls.html", year: 2018},
@@ -928,6 +929,7 @@ var Search = {
       {name: "Deep Rock Galactic", path: "/links/deep-rock-galactic.html", year: 2018},
       {name: "Raft", path: "/links/raft.html", year: 2018},
       {name: "Golf It!", path: "/links/golf-it.html", year: 2018},
+      {name: "PlayerUnknown's Battlegrounds", path: "/links/pubg.html", year: 2018},
       {name: "Overkill's Walking Dead", path: "/links/overkill-wd.html", year: 2018},
       {name: "Call of Duty: Black Ops 4", path: "/links/cod-bo-4.html", year: 2018},
       {name: "Tricky Towers", path: "/links/tricky-towers.html", year: 2018},
@@ -959,6 +961,7 @@ var Search = {
       {name: "неПрофессиональный E3 2017", path: "/links/e3_2017.html", year: 2017},
       {name: "неСерьёзный E3 2018", path: "/links/e3_2018.html", year: 2018},
       {name: "неСерьёзный The Game Awards", path: "/links/the-game-awards.html", year: 2018},
+      {name: "неПрофессиональный E3 2019", path: "/links/e3_2019.html", year: 2019},
     ],
     "unboxing": [
       {name: "Анбоксинги", path: "/links/unboxing.html", year: 2018},
