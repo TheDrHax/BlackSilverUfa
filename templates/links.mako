@@ -75,7 +75,7 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
     </span>
     <span class="badge badge-secondary">
       <a href="../chats/v${segment.twitch}.ass">
-        <i class="far fa-closed-captioning"></i> Субтитры
+        <i class="fas fa-comments"></i> ${segment.stream.messages}
       </a>
     </span>
     % if segment.youtube:
