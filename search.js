@@ -959,8 +959,8 @@ var Search = {
     ],
     "expos": [
       {name: "неПрофессиональный E3 2017", path: "/links/e3_2017.html", year: 2017},
-      {name: "неСерьёзный E3 2018", path: "/links/e3_2018.html", year: 2018},
-      {name: "неСерьёзный The Game Awards", path: "/links/the-game-awards.html", year: 2018},
+      {name: "неПрофессиональный E3 2018", path: "/links/e3_2018.html", year: 2018},
+      {name: "неПрофессиональный The Game Awards", path: "/links/the-game-awards.html", year: 2018},
       {name: "неПрофессиональный E3 2019", path: "/links/e3_2019.html", year: 2019},
     ],
     "unboxing": [
