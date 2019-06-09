@@ -285,7 +285,10 @@ class TimecodeHelper:
         self.start = Timecode(start)
 
     def __call__(self):
-        return self.time() - self.start - Timecode(self.delay)
+        t = self.time() - self.start - Timecode(self.delay)
+        if t.value < 0:
+            t += Timecode('24:00:00')
+        return t
     
     get = __call__
 
