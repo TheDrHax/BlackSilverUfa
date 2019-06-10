@@ -9,7 +9,7 @@
   },
   "fallback": {
     "prefix": "https://bsufiles.thedrhax.pw/streams",
-    "streams": false,
+    "streams": true,
     "chats": true,
     "redirects": true
   }
