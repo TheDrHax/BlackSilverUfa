@@ -296,6 +296,10 @@
         <i class="fas fa-comments"></i> 37383
       </a>
     </span>
+    <span class="badge badge-danger">
+      <a href="https://bsufiles.thedrhax.pw/streams/436769739.mp4" target="_blank">
+        <i class="fas fa-download"></i> прямая ссылка
+      </a>
     </span>
   </div>
 </div>
@@ -428,19 +432,14 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="3" data-name="4" data-twitch="436769739" style="display: none" />
+  <p class="stream col" data-id="3" data-name="4" data-twitch="436769739" data-direct="https://bsufiles.thedrhax.pw/streams/436769739.mp4" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v436769739.ass" --player-passthrough hls twitch.tv/videos/436769739 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v436769739.ass https://bsufiles.thedrhax.pw/streams/436769739.mp4
+streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v436769739.ass" --player-passthrough hls twitch.tv/videos/436769739 best
 </code></pre>
 </div></div>
 
