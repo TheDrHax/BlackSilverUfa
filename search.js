@@ -551,6 +551,7 @@ var Redirect = {
     "436159113": "/links/hollow-knight.html#436159113",
     "436159113.1": "/links/pubg.html#436159113.1",
     "436769739": "/links/pubg.html#436769739",
+    "436769739.1": "/links/pubg.html#436769739.1",
   },
 
   link: function (hash) {
@@ -933,12 +934,12 @@ var Search = {
       {name: "Overkill's Walking Dead", path: "/links/overkill-wd.html", year: 2018},
       {name: "Call of Duty: Black Ops 4", path: "/links/cod-bo-4.html", year: 2018},
       {name: "Tricky Towers", path: "/links/tricky-towers.html", year: 2018},
-      {name: "PlayerUnknown's Battlegrounds", path: "/links/pubg.html", year: 2018},
       {name: "Bigfoot", path: "/links/bigfoot.html", year: 2018},
       {name: "Pummel Party", path: "/links/pummel-party.html", year: 2019},
       {name: "Своя Игра", path: "/links/sigame.html", year: 2019},
       {name: "New Super Mario Bros. U Deluxe", path: "/links/nsmbu.html", year: 2019},
       {name: "Крокодил", path: "/links/crocodile.html", year: 2019},
+      {name: "PlayerUnknown's Battlegrounds", path: "/links/pubg.html", year: 2019},
       {name: "The Experiment / Escape First / Tales of Escape", path: "/links/the-experiment.html", year: 2019},
       {name: "The Isle", path: "/links/isle.html", year: 2019},
       {name: "Tom Clancy's The Division 2", path: "/links/division-2.html", year: 2019},
