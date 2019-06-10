@@ -172,7 +172,8 @@
     "streams": [
       { "name": "1", "twitch": "207753795", "start": "3:24:00" },
       { "name": "2 (на PS4 Pro)", "twitch": "348930664", "segment": 0 },
-      { "name": "3", "twitch": "436159113", "segment": 1 }
+      { "name": "3", "twitch": "436159113", "segment": 1 },
+      { "name": "4", "twitch": "436769739" }
     ]
   },
   {
@@ -205,7 +206,8 @@
       { "name": "1", "twitch": "333586186", "start": "4:00:15" },
       { "name": "2", "twitch": "337485395", "segment": 1, "start": "7:04:47" },
       { "name": "3", "twitch": "340545862", "start": "4:01:23" },
-      { "name": "4", "twitch": "374556455", "start": "2:47:35" }
+      { "name": "4", "twitch": "374556455", "start": "2:47:35" },
+      { "name": "5", "twitch": "436769739", "start": "4:42:41" }
     ]
   },
   {
@@ -267,7 +269,8 @@
       { "name": "9", "twitch": "374556455", "start": "1:22:48" },
       { "name": "10", "twitch": "385372335", "segment": 1, "start": "2:55:39" },
       { "name": "11", "twitch": "410963500", "start": "2:01:39" },
-      { "name": "12", "twitch": "423369283", "segment": 0, "start": "2:13:25" }
+      { "name": "12", "twitch": "423369283", "segment": 0, "start": "2:13:25" },
+      { "name": "13", "twitch": "436769739", "start": "3:47:22" }
     ]
   },
   {
@@ -532,7 +535,8 @@
     "category": "expos",
     "id": "e3_2019",
     "streams": [
-      { "name": "EA", "twitch": "436159113", "segment": 1, "start": "3:21:16" }
+      { "name": "Electronic Arts", "twitch": "436159113", "segment": 1, "start": "3:21:16" },
+      { "name": "Microsoft / Bethesda / Devolver Digital", "twitch": "436769739", "start": "56:39" }
     ]
   },
   {
@@ -540,13 +544,13 @@
     "category": "expos",
     "id": "e3_2017",
     "streams": [
-      { "name": "1 (EA)", "twitch": "150938572" },
-      { "name": "2 (Microsoft)", "twitch": "151197837" },
-      { "name": "3 (Bethesda)", "twitch": "151251242" },
-      { "name": "4 (PC Gaming Show)", "twitch": "151332523" },
-      { "name": "5 (Ubisoft)", "twitch": "151384961" },
-      { "name": "6 (Sony)", "twitch": "151532171" },
-      { "name": "7 (Nintendo)", "twitch": "151563859" }
+      { "name": "Electronic Arts", "twitch": "150938572" },
+      { "name": "Microsoft", "twitch": "151197837" },
+      { "name": "Bethesda", "twitch": "151251242" },
+      { "name": "PC Gaming Show", "twitch": "151332523" },
+      { "name": "Ubisoft", "twitch": "151384961" },
+      { "name": "Sony", "twitch": "151532171" },
+      { "name": "Nintendo", "twitch": "151563859" }
     ]
   },
   {
