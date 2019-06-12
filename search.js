@@ -558,6 +558,7 @@ var Redirect = {
     "437135971.1": "/links/pubg.html#437135971.1",
     "437135971.2": "/links/human-fall-flat.html#437135971.2",
     "437135971.3": "/links/e3_2019.html#437135971.3",
+    "437956853": "/links/tloz_botw.html#437956853",
   },
 
   link: function (hash) {
@@ -583,8 +584,8 @@ var Redirect = {
 var Search = {
   data: {
     "finished": [
-      {name: "The Legend of Zelda: Breath of the Wild", path: "/links/tloz_botw.html", year: 2017},
       {name: "The Evil Within", path: "/links/evil_within.html", year: 2017},
+      {name: "The Legend of Zelda: Breath of the Wild", path: "/links/tloz_botw.html", year: 2017},
       {name: "Hellblade: Senua's Sacrifice", path: "/links/hellblade.html", year: 2017},
       {name: "Resident Evil 4", path: "/links/re4.html", year: 2017},
       {name: "White Day: A Labyrinth Named School", path: "/links/white_day.html", year: 2017},
