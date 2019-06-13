@@ -559,6 +559,7 @@ var Redirect = {
     "437135971.2": "/links/human-fall-flat.html#437135971.2",
     "437135971.3": "/links/e3_2019.html#437135971.3",
     "437956853": "/links/tloz_botw.html#437956853",
+    "438447673": "/links/other.html#438447673",
   },
 
   link: function (hash) {
@@ -806,6 +807,10 @@ var Search = {
       {name: "Gato Roboto", path: "/links/first.html#433466467", year: 2019},
       {name: "Void Bastards", path: "/links/first.html#433466467", year: 2019},
       {name: "Shattered: Tale of the Forgotten King", path: "/links/first.html#434798330", year: 2019},
+      {name: "Quake 2 RTX", path: "/links/first.html#438447673", year: 2019},
+      {name: "Atomic Heart (демо)", path: "/links/first.html#438447673", year: 2019},
+      {name: "Stay in the Light", path: "/links/first.html#438447673", year: 2019},
+      {name: "Minecraft RTX", path: "/links/first.html#438447673", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
@@ -965,6 +970,7 @@ var Search = {
       {name: "PlayStation Classic (все игры)", path: "/links/other.html#348094949", year: 2018},
       {name: "Розыгрыш Metro Exodus: Artyom Edition", path: "/links/events.html#395846647", year: 2019},
       {name: "Godzilla (PS4, NES, Sega, PS2)", path: "/links/other.html#431084407", year: 2019},
+      {name: "RTX-стрим", path: "/links/other.html#438447673", year: 2019},
     ],
     "expos": [
       {name: "неПрофессиональный E3 2017", path: "/links/e3_2017.html", year: 2017},
