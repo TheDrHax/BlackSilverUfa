@@ -808,7 +808,6 @@ var Search = {
       {name: "Void Bastards", path: "/links/first.html#433466467", year: 2019},
       {name: "Shattered: Tale of the Forgotten King", path: "/links/first.html#434798330", year: 2019},
       {name: "Quake 2 RTX", path: "/links/first.html#438447673", year: 2019},
-      {name: "Atomic Heart (демо)", path: "/links/first.html#438447673", year: 2019},
       {name: "Stay in the Light", path: "/links/first.html#438447673", year: 2019},
       {name: "Minecraft RTX", path: "/links/first.html#438447673", year: 2019},
     ],
