@@ -384,12 +384,15 @@
         <i class="fas fa-comments"></i> 4128
       </a>
     </span>
+    <span class="badge badge-warning">
+      <a href="https://www.youtube.com/watch?v=Y0vekValhdM" target="_blank">
+        <i class="fab fa-youtube"></i> Y0vekValhdM
+      </a>
     </span>
   </div>
 </div>
 
 <ul>
-  <li>Примечание: Запись заблокирована. <b>Перезалив в процессе.</b></li>
     <li>Таймкоды:</li>
   <ul>
     <li><a href="javascript:void(0)" class="timecode" data-id="4" data-value="516">8:36</a> — Дракон-страж</li>
@@ -399,19 +402,13 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="4" data-name="4 (часть 2)" data-twitch="264227986" style="display: none" />
+  <p class="stream col" data-id="4" data-name="4 (часть 2)" data-twitch="264227986" data-youtube="Y0vekValhdM" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v264227986.ass" --player-passthrough hls twitch.tv/videos/264227986 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v264227986.ass ytdl://Y0vekValhdM
 </code></pre>
 </div></div>
 
