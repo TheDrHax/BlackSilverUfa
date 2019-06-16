@@ -560,6 +560,8 @@ var Redirect = {
     "437135971.3": "/links/e3_2019.html#437135971.3",
     "437956853": "/links/tloz_botw.html#437956853",
     "438447673": "/links/other.html#438447673",
+    "439860739": "/links/hollow-knight.html#439860739",
+    "439860739.1": "/links/co-op.html#439860739.1",
   },
 
   link: function (hash) {
@@ -917,6 +919,7 @@ var Search = {
       {name: "We Were Here", path: "/links/co-op.html#430120134.1", year: 2019},
       {name: "We Were Here Too", path: "/links/co-op.html#430120134.1", year: 2019},
       {name: "Barotrauma", path: "/links/co-op.html#435683759", year: 2019},
+      {name: "Havocado", path: "/links/co-op.html#439860739.1", year: 2019},
     ],
     "co-op-series": [
       {name: "Gang Beasts", path: "/links/gang-beasts.html", year: 2017},
@@ -946,12 +949,12 @@ var Search = {
       {name: "Call of Duty: Black Ops 4", path: "/links/cod-bo-4.html", year: 2018},
       {name: "Tricky Towers", path: "/links/tricky-towers.html", year: 2018},
       {name: "Bigfoot", path: "/links/bigfoot.html", year: 2018},
-      {name: "Pummel Party", path: "/links/pummel-party.html", year: 2019},
       {name: "Своя Игра", path: "/links/sigame.html", year: 2019},
       {name: "New Super Mario Bros. U Deluxe", path: "/links/nsmbu.html", year: 2019},
       {name: "The Experiment / Escape First / Tales of Escape", path: "/links/the-experiment.html", year: 2019},
       {name: "Крокодил", path: "/links/crocodile.html", year: 2019},
       {name: "The Isle", path: "/links/isle.html", year: 2019},
+      {name: "Pummel Party", path: "/links/pummel-party.html", year: 2019},
       {name: "Tom Clancy's The Division 2", path: "/links/division-2.html", year: 2019},
       {name: "PlayerUnknown's Battlegrounds", path: "/links/pubg.html", year: 2019},
       {name: "Red Dead Redemption 2 Online", path: "/links/rdr2-online.html", year: 2019},
