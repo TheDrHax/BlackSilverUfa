@@ -561,7 +561,6 @@ var Redirect = {
     "437956853": "/links/tloz_botw.html#437956853",
     "438447673": "/links/other.html#438447673",
     "439860739": "/links/hollow-knight.html#439860739",
-    "439860739.1": "/links/co-op.html#439860739.1",
   },
 
   link: function (hash) {
@@ -919,7 +918,7 @@ var Search = {
       {name: "We Were Here", path: "/links/co-op.html#430120134.1", year: 2019},
       {name: "We Were Here Too", path: "/links/co-op.html#430120134.1", year: 2019},
       {name: "Barotrauma", path: "/links/co-op.html#435683759", year: 2019},
-      {name: "Havocado", path: "/links/co-op.html#439860739.1", year: 2019},
+      {name: "Havocado", path: "/links/co-op.html#439860739", year: 2019},
     ],
     "co-op-series": [
       {name: "Gang Beasts", path: "/links/gang-beasts.html", year: 2017},
