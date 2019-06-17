@@ -71,7 +71,7 @@
       { "name": "Mortal Kombat 11 с Куплиновым", "twitch": "426022824", "segment": 1 },
       { "name": "We Were Here / We Were Here Too", "twitch": "430120134", "segment": 1 },
       { "name": "Barotrauma", "twitch": "435683759" },
-      { "name": "Havocado", "twitch": "439860739", "segment": 1 }
+      { "name": "Havocado", "twitch": "439860739", "start": "1:51:51" }
     ]
   },
   {
@@ -200,7 +200,7 @@
       { "name": "1", "twitch": "331965944", "start": "2:11:10" },
       { "name": "2", "twitch": "339579917", "segment": 1, "start": "5:12:50" },
       { "name": "3", "twitch": "410400457", "start": "2:11:12" },
-      { "name": "4", "twitch": "439860739", "segment": 1, "start": "3:37:22" }
+      { "name": "4", "twitch": "439860739", "start": "3:37:22" }
     ]
   },
   {
@@ -333,7 +333,7 @@
       { "name": "13", "twitch": "389704750", "start": "4:39:52" },
       { "name": "14", "twitch": "402450066", "segment": 1, "start": "5:12:47" },
       { "name": "15", "twitch": "410400457", "start": "5:04:32" },
-      { "name": "16", "twitch": "439860739", "segment": 1, "start": "5:21:58" }
+      { "name": "16", "twitch": "439860739", "start": "5:21:58" }
     ]
   },
   {
@@ -1161,7 +1161,7 @@
       { "name": "9", "twitch": "423369283", "segment": 0 },
       { "name": "10", "twitch": "430120134", "segment": 0 },
       { "name": "11", "twitch": "436159113", "segment": 0 },
-      { "name": "12", "twitch": "439860739", "segment": 0 }
+      { "name": "12", "twitch": "439860739" }
     ]
   },
   {
