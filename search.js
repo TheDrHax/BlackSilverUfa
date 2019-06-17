@@ -561,6 +561,7 @@ var Redirect = {
     "437956853": "/links/tloz_botw.html#437956853",
     "438447673": "/links/other.html#438447673",
     "439860739": "/links/hollow-knight.html#439860739",
+    "440294828": "/links/hollow-knight.html#440294828",
   },
 
   link: function (hash) {
@@ -956,8 +957,8 @@ var Search = {
       {name: "Pummel Party", path: "/links/pummel-party.html", year: 2019},
       {name: "Tom Clancy's The Division 2", path: "/links/division-2.html", year: 2019},
       {name: "PlayerUnknown's Battlegrounds", path: "/links/pubg.html", year: 2019},
-      {name: "Red Dead Redemption 2 Online", path: "/links/rdr2-online.html", year: 2019},
       {name: "Pogostuck: Rage With Your Friends", path: "/links/pogostuck.html", year: 2019},
+      {name: "Red Dead Redemption 2 Online", path: "/links/rdr2-online.html", year: 2019},
       {name: "World War Z с Куплиновым", path: "/links/world-war-z.html", year: 2019},
       {name: "Mordhau", path: "/links/mordhau.html", year: 2019},
       {name: "Overwatch", path: "/links/overwatch.html", year: 2019},
