@@ -1047,7 +1047,8 @@
     "id": "rdr2-online",
     "streams": [
       { "name": "1 (соло)", "twitch": "341780077", "segment": 0 },
-      { "name": "2", "twitch": "432985887" }
+      { "name": "2", "twitch": "432985887" },
+      { "name": "3", "twitch": "440294828", "start": "1:08:00" }
     ]
   },
   {
@@ -1161,7 +1162,8 @@
       { "name": "9", "twitch": "423369283", "segment": 0 },
       { "name": "10", "twitch": "430120134", "segment": 0 },
       { "name": "11", "twitch": "436159113", "segment": 0 },
-      { "name": "12", "twitch": "439860739" }
+      { "name": "12", "twitch": "439860739" },
+      { "name": "13", "twitch": "440294828" }
     ]
   },
   {
