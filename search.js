@@ -562,6 +562,7 @@ var Redirect = {
     "438447673": "/links/other.html#438447673",
     "439860739": "/links/hollow-knight.html#439860739",
     "440294828": "/links/hollow-knight.html#440294828",
+    "440765344": "/links/hollow-knight.html#440765344",
   },
 
   link: function (hash) {
@@ -625,6 +626,7 @@ var Search = {
       {name: "Sekiro: Shadows Die Twice", path: "/links/sekiro.html", year: 2019},
       {name: "Mortal Kombat 11", path: "/links/mk-11.html", year: 2019},
       {name: "Days Gone", path: "/links/days-gone.html", year: 2019},
+      {name: "Hollow Knight", path: "/links/hollow-knight.html", year: 2019},
       {name: "Close to the Sun", path: "/links/close-to-the-sun.html", year: 2019},
       {name: "Rage 2", path: "/links/rage-2.html", year: 2019},
       {name: "Observation", path: "/links/observation.html", year: 2019},
@@ -836,7 +838,6 @@ var Search = {
       {name: "Resident Evil 2", path: "/links/re2.html", year: 2019},
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
-      {name: "Hollow Knight", path: "/links/hollow-knight.html", year: 2019},
     ],
     "infinite": [
       {name: "Getting Over It", path: "/links/getting-over-it.html", year: 2018},
