@@ -820,7 +820,7 @@ var Search = {
       {name: "Stay in the Light", path: "/links/first.html#438447673", year: 2019},
       {name: "Minecraft RTX", path: "/links/first.html#438447673", year: 2019},
       {name: "Mario Royale", path: "/links/first.html#442171113", year: 2019},
-      {name: "TMNT Resque-Palooza", path: "/links/first.html#442171113.1", year: 2019},
+      {name: "TMNT: Rescue-Palooza", path: "/links/first.html#442171113.1", year: 2019},
       {name: "Crash Team Racing", path: "/links/first.html#442171113.2", year: 2019},
       {name: "My Friend Pedro", path: "/links/first.html#442171113.3", year: 2019},
       {name: "Bloodstained: Ritual of the Night", path: "/links/first.html#442171113.4", year: 2019},
