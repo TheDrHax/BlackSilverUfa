@@ -564,6 +564,10 @@ var Redirect = {
     "440294828": "/links/hollow-knight.html#440294828",
     "440765344": "/links/hollow-knight.html#440765344",
     "442171113": "/links/first.html#442171113",
+    "442171113.1": "/links/first.html#442171113.1",
+    "442171113.2": "/links/first.html#442171113.2",
+    "442171113.3": "/links/first.html#442171113.3",
+    "442171113.4": "/links/first.html#442171113.4",
   },
 
   link: function (hash) {
@@ -816,10 +820,10 @@ var Search = {
       {name: "Stay in the Light", path: "/links/first.html#438447673", year: 2019},
       {name: "Minecraft RTX", path: "/links/first.html#438447673", year: 2019},
       {name: "Mario Royale", path: "/links/first.html#442171113", year: 2019},
-      {name: "TMNT Resque-Palooza", path: "/links/first.html#442171113", year: 2019},
-      {name: "Crash Team Racing", path: "/links/first.html#442171113", year: 2019},
-      {name: "My Friend Pedro", path: "/links/first.html#442171113", year: 2019},
-      {name: "Bloodstained: Ritual of the Night", path: "/links/first.html#442171113", year: 2019},
+      {name: "TMNT Resque-Palooza", path: "/links/first.html#442171113.1", year: 2019},
+      {name: "Crash Team Racing", path: "/links/first.html#442171113.2", year: 2019},
+      {name: "My Friend Pedro", path: "/links/first.html#442171113.3", year: 2019},
+      {name: "Bloodstained: Ritual of the Night", path: "/links/first.html#442171113.4", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
