@@ -564,6 +564,7 @@ var Redirect = {
     "440294828": "/links/hollow-knight.html#440294828",
     "440765344": "/links/hollow-knight.html#440765344",
     "442171113": "/links/first.html#442171113",
+    "442647463": "/links/single.html#442647463",
   },
 
   link: function (hash) {
@@ -677,6 +678,7 @@ var Search = {
       {name: "Katana Zero", path: "/links/single.html#418879336", year: 2019},
       {name: "Burning Daylight", path: "/links/single.html#419736177", year: 2019},
       {name: "Escape Until Friday", path: "/links/single.html#429660363", year: 2019},
+      {name: "Asura's Wrath", path: "/links/single.html#442647463", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
