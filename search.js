@@ -565,6 +565,7 @@ var Redirect = {
     "440765344": "/links/hollow-knight.html#440765344",
     "442171113": "/links/first.html#442171113",
     "442647463": "/links/single.html#442647463",
+    "443118072": "/links/minecraft.html#443118072",
   },
 
   link: function (hash) {
@@ -816,7 +817,6 @@ var Search = {
       {name: "Shattered: Tale of the Forgotten King", path: "/links/first.html#434798330", year: 2019},
       {name: "Quake 2 RTX", path: "/links/first.html#438447673", year: 2019},
       {name: "Stay in the Light", path: "/links/first.html#438447673", year: 2019},
-      {name: "Minecraft RTX", path: "/links/first.html#438447673", year: 2019},
       {name: "Mario Royale", path: "/links/first.html#442171113", year: 2019},
       {name: "TMNT Resque-Palooza", path: "/links/first.html#442171113", year: 2019},
       {name: "Crash Team Racing", path: "/links/first.html#442171113", year: 2019},
@@ -971,6 +971,7 @@ var Search = {
       {name: "World War Z с Куплиновым", path: "/links/world-war-z.html", year: 2019},
       {name: "Mordhau", path: "/links/mordhau.html", year: 2019},
       {name: "Overwatch", path: "/links/overwatch.html", year: 2019},
+      {name: "Minecraft", path: "/links/minecraft.html", year: 2019},
     ],
     "other": [
       {name: "Хэллоуин", path: "/links/halloween.html", year: 2018},
