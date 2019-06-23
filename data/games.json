@@ -75,6 +75,15 @@
     ]
   },
   {
+    "name": "Minecraft",
+    "category": "co-op-series",
+    "id": "minecraft",
+    "streams": [
+      { "name": "1 (соло)", "twitch": "438447673", "start": "1:52:41" },
+      { "name": "2", "twitch": "443118072" }
+    ]
+  },
+  {
     "name": "Overwatch",
     "category": "co-op-series",
     "id": "overwatch",
@@ -1029,7 +1038,7 @@
       { "name": "Code Vein", "twitch": "432481618", "segment": 0 },
       { "name": "Gato Roboto / Void Bastards", "twitch": "433466467" },
       { "name": "Shattered: Tale of the Forgotten King", "twitch": "434798330" },
-      { "name": "Quake 2 RTX / Stay in the Light / Minecraft RTX", "twitch": "438447673" },
+      { "name": "Quake 2 RTX / Stay in the Light", "twitch": "438447673" },
       { "name": "Mario Royale / TMNT Resque-Palooza / Crash Team Racing / My Friend Pedro / Bloodstained: Ritual of the Night", "twitch": "442171113" }
     ]
   },
