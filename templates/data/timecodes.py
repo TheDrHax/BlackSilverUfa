@@ -203,26 +203,24 @@ class Timecodes(Timecode, SortedKeyList):
 
 
 class TimecodesSlice(Timecodes):
-    def __init__(self, parent, start=Timecode(0), end=Timecode('7:00:00:00')):
+    def __init__(self, parent,
+                 start=Timecode(0),
+                 offset=Timecode(0),
+                 end=Timecode('7:00:00:00')):
         self.parent = parent
         self.start = start
+        self.offset = offset
         self.end = end
-
-    def start_at(self, offset):
-        self.start = offset
-
-    def end_at(self, offset):
-        self.end = offset
 
     def _load(self):
         def in_range(t):
-            return self.start <= t < self.end
+            return max(self.offset, self.start) <= t < self.end
 
         ts = Timecodes(name=self.name)
 
         for t in self.parent:
             if isinstance(t, Timecodes):
-                tss = TimecodesSlice(t, self.start, self.end)
+                tss = TimecodesSlice(t, self.start, self.offset, self.end)
                 if len(tss) > 0:
                     ts.add(tss)
             elif isinstance(t, Timecode):
@@ -237,7 +235,7 @@ class TimecodesSlice(Timecodes):
                 if not in_range(t) and in_range(t + duration):  # end only
                     t = Timecode(t.value + duration, t.name)
 
-                ts.add(t - self.start)
+                ts.add(t - self.offset)
 
         # Collapse timecode list
         if len(ts) == 1 and isinstance(ts[0], Timecodes) and not ts[0].is_list:
