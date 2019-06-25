@@ -892,7 +892,8 @@
     "id": "events",
     "streams": [
       { "name": "Конкурс на лучший арт (4.12.18)", "twitch": "344508969", "segment": 0 },
-      { "name": "Розыгрыш Metro Exodus: Artyom Edition", "twitch": "395846647", "segment": 0 }
+      { "name": "Розыгрыш Metro Exodus: Artyom Edition", "twitch": "395846647", "segment": 0 },
+      { "name": "Розыгрыш Asus ROG Phone", "twitch": "444021917" }
     ]
   },
   {
@@ -905,7 +906,8 @@
       { "name": "Посылки (01.04.18)", "twitch": "245415969" },
       { "name": "Посылки (30.12.18)", "twitch": "356378129" },
       { "name": "Asus ROG Phone", "twitch": "366354053", "segment": 0 },
-      { "name": "Asus ROG Zephyrus / Asus ROG Sheath", "twitch": "420241791", "segment": 1, "start": "1:25:03" }
+      { "name": "Asus ROG Zephyrus / Asus ROG Sheath", "twitch": "420241791", "segment": 1, "start": "1:25:03" },
+      { "name": "Сундук Ктулху от Melinyx", "twitch": "444021917", "start": "25:10" }
     ]
   },
   {
@@ -1047,7 +1049,8 @@
       { "name": "Gato Roboto / Void Bastards", "twitch": "433466467" },
       { "name": "Shattered: Tale of the Forgotten King", "twitch": "434798330" },
       { "name": "Quake 2 RTX / Stay in the Light", "twitch": "438447673" },
-      { "name": "Mario Royale / TMNT Rescue-Palooza / Crash Team Racing / My Friend Pedro / Bloodstained: Ritual of the Night", "twitch": "442171113" }
+      { "name": "Mario Royale / TMNT Rescue-Palooza / Crash Team Racing / My Friend Pedro / Bloodstained: Ritual of the Night", "twitch": "442171113" },
+      { "name": "Failed State", "twitch": "444021917", "start": "1:12:33" }
     ]
   },
   {
