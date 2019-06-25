@@ -567,6 +567,7 @@ var Redirect = {
     "442647463": "/links/asuras-wrath.html#442647463",
     "442647463.1": "/links/asuras-wrath.html#442647463.1",
     "443118072": "/links/minecraft.html#443118072",
+    "444021917": "/links/events.html#444021917",
   },
 
   link: function (hash) {
@@ -823,6 +824,7 @@ var Search = {
       {name: "Crash Team Racing", path: "/links/first.html#442171113", year: 2019},
       {name: "My Friend Pedro", path: "/links/first.html#442171113", year: 2019},
       {name: "Bloodstained: Ritual of the Night", path: "/links/first.html#442171113", year: 2019},
+      {name: "Failed State", path: "/links/first.html#444021917", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
@@ -984,6 +986,7 @@ var Search = {
       {name: "Розыгрыш Metro Exodus: Artyom Edition", path: "/links/events.html#395846647", year: 2019},
       {name: "Godzilla (PS4, NES, Sega, PS2)", path: "/links/other.html#431084407", year: 2019},
       {name: "RTX-стрим", path: "/links/other.html#438447673", year: 2019},
+      {name: "Розыгрыш Asus ROG Phone", path: "/links/events.html#444021917", year: 2019},
     ],
     "expos": [
       {name: "неПрофессиональный E3 2017", path: "/links/e3_2017.html", year: 2017},
@@ -999,6 +1002,7 @@ var Search = {
       {name: "Asus ROG Phone", path: "/links/unboxing.html#366354053", year: 2019},
       {name: "Asus ROG Zephyrus", path: "/links/unboxing.html#420241791.1", year: 2019},
       {name: "Asus ROG Sheath", path: "/links/unboxing.html#420241791.1", year: 2019},
+      {name: "Сундук Ктулху от Melinyx", path: "/links/unboxing.html#444021917", year: 2019},
     ],
     "vod": [
       {name: "Zombi (2015)", path: "/links/zombi.html", year: 2018},
