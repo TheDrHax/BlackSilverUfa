@@ -750,8 +750,16 @@
       { "name": "Paper Dolls: Original", "twitch": "414349690", "start": "1:25:58" },
       { "name": "Katana Zero", "twitch": "418879336", "start": "1:01:41" },
       { "name": "Burning Daylight", "twitch": "419736177", "segment": 0 },
-      { "name": "Escape Until Friday", "twitch": "429660363", "start": "1:53:19" },
-      { "name": "Asura's Wrath", "twitch": "442647463" }
+      { "name": "Escape Until Friday", "twitch": "429660363", "start": "1:53:19" }
+    ]
+  },
+  {
+    "name": "Asura's Wrath",
+    "category": "finished",
+    "id": "asuras-wrath",
+    "streams": [
+      { "name": "1 (часть 1)", "twitch": "442647463", "segment": 0 },
+      { "name": "1 (часть 2)", "twitch": "442647463", "segment": 1 }
     ]
   },
   {
