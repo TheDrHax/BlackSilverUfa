@@ -568,6 +568,8 @@ var Redirect = {
     "442647463.1": "/links/asuras-wrath.html#442647463.1",
     "443118072": "/links/minecraft.html#443118072",
     "444021917": "/links/events.html#444021917",
+    "444061926": "/links/sinking-city.html#444061926",
+    "444161282": "/links/sinking-city.html#444161282",
   },
 
   link: function (hash) {
@@ -849,6 +851,7 @@ var Search = {
       {name: "Resident Evil 2", path: "/links/re2.html", year: 2019},
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
+      {name: "Sinking City", path: "/links/sinking-city.html", year: 2019},
     ],
     "infinite": [
       {name: "Getting Over It", path: "/links/getting-over-it.html", year: 2018},
