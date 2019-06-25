@@ -259,16 +259,19 @@ class TimecodesSlice(Timecodes):
         return self._load().__repr__()
 
     #
-    # Use dynamic properties from parent
+    # Disguise as the smallest timecode in the list
     #
+
+    def __int__(self):
+        return abs(self[0].value)
+
+    @property
+    def value(self):
+        return int(self)
 
     @property
     def name(self):
         return self.parent.name
-
-    @property
-    def value(self):
-        return int(self.parent - self.start)
 
 
 class TimecodeHelper:
