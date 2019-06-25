@@ -55,7 +55,10 @@ class Segment:
             self.timecodes = TimecodesSlice(stream.timecodes)
 
             if self.offset:
-                self.timecodes.start_at(self.offset)
+                self.timecodes.offset = self.offset
+
+            if type(self) is Segment and self.start:
+                self.timecodes.start = self.start
 
             end = None
             if self.end:
@@ -66,7 +69,7 @@ class Segment:
             if end:
                 if self.offset:
                     end += self.offset
-                self.timecodes.end_at(end)
+                self.timecodes.end = end
 
     def reference(self):
         return SegmentReference(
