@@ -570,6 +570,7 @@ var Redirect = {
     "444021917": "/links/events.html#444021917",
     "444061926": "/links/sinking-city.html#444061926",
     "444161282": "/links/sinking-city.html#444161282",
+    "444461379": "/links/sinking-city.html#444461379",
   },
 
   link: function (hash) {
