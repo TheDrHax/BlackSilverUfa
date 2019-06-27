@@ -571,6 +571,7 @@ var Redirect = {
     "444061926": "/links/sinking-city.html#444061926",
     "444161282": "/links/sinking-city.html#444161282",
     "444461379": "/links/sinking-city.html#444461379",
+    "444937025": "/links/single.html#444937025",
   },
 
   link: function (hash) {
@@ -685,6 +686,7 @@ var Search = {
       {name: "Katana Zero", path: "/links/single.html#418879336", year: 2019},
       {name: "Burning Daylight", path: "/links/single.html#419736177", year: 2019},
       {name: "Escape Until Friday", path: "/links/single.html#429660363", year: 2019},
+      {name: "Black Mesa: Xen (бета)", path: "/links/single.html#444937025", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
