@@ -573,6 +573,7 @@ var Redirect = {
     "444461379": "/links/sinking-city.html#444461379",
     "444937025": "/links/single.html#444937025",
     "444937025.1": "/links/sinking-city.html#444937025.1",
+    "445389664": "/links/sinking-city.html#445389664",
   },
 
   link: function (hash) {
@@ -643,6 +644,7 @@ var Search = {
       {name: "Layers of Fear 2", path: "/links/lof-2.html", year: 2019},
       {name: "Outer Wilds", path: "/links/outer-wilds.html", year: 2019},
       {name: "Asura's Wrath", path: "/links/asuras-wrath.html", year: 2019},
+      {name: "Sinking City", path: "/links/sinking-city.html", year: 2019},
     ],
     "single": [
       {name: "Полные прохождения за один стрим", path: "/links/single.html", year: 2017},
@@ -855,7 +857,6 @@ var Search = {
       {name: "Resident Evil 2", path: "/links/re2.html", year: 2019},
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
-      {name: "Sinking City", path: "/links/sinking-city.html", year: 2019},
     ],
     "infinite": [
       {name: "Getting Over It", path: "/links/getting-over-it.html", year: 2018},
