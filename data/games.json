@@ -190,7 +190,7 @@
     ]
   },
   {
-    "name": "The Experiment / Escape First / Tales of Escape",
+    "name": "The Experiment / Escape First / Tales of Escape / Curious Cases",
     "category": "co-op-series",
     "id": "the-experiment",
     "streams": [
@@ -198,7 +198,8 @@
       { "name": "The Experiment #2", "twitch": "340545862", "start": "2:40:44" },
       { "name": "Escape First", "twitch": "343098113", "segment": 1, "start": "5:15:24" },
       { "name": "Tales of Escape #1", "twitch": "423369283", "segment": 0, "start": "4:50:15" },
-      { "name": "Tales of Escape #2", "twitch": "435683759", "start": "3:52:35" }
+      { "name": "Tales of Escape #2", "twitch": "435683759", "start": "3:52:35" },
+      { "name": "Curious Cases", "twitch": "445866715", "start": "3:12:52" }
     ]
   },
   {
@@ -231,7 +232,8 @@
     "id": "dead-by-daylight",
     "streams": [
       { "name": "1", "twitch": "200702885" },
-      { "name": "2", "twitch": "333586186", "start": "2:12:48" }
+      { "name": "2", "twitch": "333586186", "start": "2:12:48" },
+      { "name": "3", "twitch": "445866715", "start": "1:07:32" }
     ]
   },
   {
@@ -285,7 +287,8 @@
       { "name": "10", "twitch": "385372335", "segment": 1, "start": "2:55:39" },
       { "name": "11", "twitch": "410963500", "start": "2:01:39" },
       { "name": "12", "twitch": "423369283", "segment": 0, "start": "2:13:25" },
-      { "name": "13", "twitch": "436769739", "segment": 1, "start": "3:47:22" }
+      { "name": "13", "twitch": "436769739", "segment": 1, "start": "3:47:22" },
+      { "name": "14", "twitch": "445866715" }
     ]
   },
   {
@@ -451,7 +454,8 @@
       { "name": "13", "twitch": "355865035", "start": "5:10:02" },
       { "name": "14", "twitch": "385372335", "segment": 1, "start": "4:19:03" },
       { "name": "15", "twitch": "410963500", "start": "4:35:31" },
-      { "name": "16", "twitch": "423369283", "segment": 1 }
+      { "name": "16", "twitch": "423369283", "segment": 1 },
+      { "name": "17", "twitch": "445866715", "start": "4:27:04" }
     ]
   },
   {
