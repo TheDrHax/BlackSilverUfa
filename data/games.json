@@ -754,9 +754,18 @@
       { "name": "Paper Dolls: Original", "twitch": "414349690", "start": "1:25:58" },
       { "name": "Katana Zero", "twitch": "418879336", "start": "1:01:41" },
       { "name": "Burning Daylight", "twitch": "419736177", "segment": 0 },
-      { "name": "Escape Until Friday", "twitch": "429660363", "start": "1:53:19" },
-      { "name": "Black Mesa: Xen (бета)", "twitch": "444937025", "segment": 0 }
+      { "name": "Escape Until Friday", "twitch": "429660363", "start": "1:53:19" }
     ]
+  },
+  {
+    "name": "Black Mesa",
+    "category": "ongoing",
+    "id": "black-mesa",
+    "streams": [
+      { "name": "Xen (бета)", "twitch": "444937025", "segment": 0 },
+      { "name": "1", "twitch": "447694923", "start": "3:09:58" }
+    ],
+    "thumbnail": 1
   },
   {
     "name": "Asura's Wrath",
@@ -1055,7 +1064,8 @@
       { "name": "Shattered: Tale of the Forgotten King", "twitch": "434798330" },
       { "name": "Quake 2 RTX / Stay in the Light", "twitch": "438447673" },
       { "name": "Mario Royale / TMNT Rescue-Palooza / Crash Team Racing / My Friend Pedro / Bloodstained: Ritual of the Night", "twitch": "442171113" },
-      { "name": "Failed State", "twitch": "444021917", "start": "1:12:33" }
+      { "name": "Failed State", "twitch": "444021917", "start": "1:12:33" },
+      { "name": "Daymare: 1998 (демо)", "twitch": "447694923" }
     ]
   },
   {
