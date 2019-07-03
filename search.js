@@ -571,10 +571,11 @@ var Redirect = {
     "444061926": "/links/sinking-city.html#444061926",
     "444161282": "/links/sinking-city.html#444161282",
     "444461379": "/links/sinking-city.html#444461379",
-    "444937025": "/links/single.html#444937025",
+    "444937025": "/links/black-mesa.html#444937025",
     "444937025.1": "/links/sinking-city.html#444937025.1",
     "445389664": "/links/sinking-city.html#445389664",
     "445866715": "/links/sigame.html#445866715",
+    "447694923": "/links/first.html#447694923",
   },
 
   link: function (hash) {
@@ -690,7 +691,6 @@ var Search = {
       {name: "Katana Zero", path: "/links/single.html#418879336", year: 2019},
       {name: "Burning Daylight", path: "/links/single.html#419736177", year: 2019},
       {name: "Escape Until Friday", path: "/links/single.html#429660363", year: 2019},
-      {name: "Black Mesa: Xen (бета)", path: "/links/single.html#444937025", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
@@ -834,6 +834,7 @@ var Search = {
       {name: "My Friend Pedro", path: "/links/first.html#442171113", year: 2019},
       {name: "Bloodstained: Ritual of the Night", path: "/links/first.html#442171113", year: 2019},
       {name: "Failed State", path: "/links/first.html#444021917", year: 2019},
+      {name: "Daymare: 1998 (демо)", path: "/links/first.html#447694923", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
@@ -858,6 +859,7 @@ var Search = {
       {name: "Resident Evil 2", path: "/links/re2.html", year: 2019},
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
+      {name: "Black Mesa", path: "/links/black-mesa.html", year: 2019},
     ],
     "infinite": [
       {name: "Getting Over It", path: "/links/getting-over-it.html", year: 2018},
