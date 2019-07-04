@@ -576,6 +576,7 @@ var Redirect = {
     "445389664": "/links/sinking-city.html#445389664",
     "445866715": "/links/sigame.html#445866715",
     "447694923": "/links/first.html#447694923",
+    "447694923.1": "/links/black-mesa.html#447694923.1",
   },
 
   link: function (hash) {
