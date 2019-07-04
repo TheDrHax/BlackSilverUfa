@@ -337,7 +337,7 @@ var Redirect = {
     "316219912": "/links/single.html#316219912",
     "316677687": "/links/co-op.html#316677687",
     "317042062": "/links/first.html#317042062",
-    "317879826": "/links/single.html#317879826",
+    "317879826": "/links/visage.html#317879826",
     "319111640": "/links/conjuring-house.html#319111640",
     "319559721": "/links/worms-wmd.html#319559721",
     "320779856": "/links/conjuring-house.html#320779856",
@@ -577,6 +577,7 @@ var Redirect = {
     "445866715": "/links/sigame.html#445866715",
     "447694923": "/links/first.html#447694923",
     "447694923.1": "/links/black-mesa.html#447694923.1",
+    "448154135": "/links/visage.html#448154135",
   },
 
   link: function (hash) {
@@ -676,7 +677,6 @@ var Search = {
       {name: "Dead Forest", path: "/links/single.html#293415850", year: 2018},
       {name: "Transference", path: "/links/single.html#312840878", year: 2018},
       {name: "The Works of Mercy", path: "/links/single.html#316219912", year: 2018},
-      {name: "Visage (демо)", path: "/links/single.html#317879826", year: 2018},
       {name: "God's Basement", path: "/links/single.html#323817086", year: 2018},
       {name: "Infliction", path: "/links/single.html#324642823", year: 2018},
       {name: "Battlefield V", path: "/links/single.html#333173605", year: 2018},
@@ -859,6 +859,7 @@ var Search = {
       {name: "Lucius III", path: "/links/lucius-3.html", year: 2018},
       {name: "Resident Evil 2", path: "/links/re2.html", year: 2019},
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
+      {name: "Visage", path: "/links/visage.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
       {name: "Black Mesa", path: "/links/black-mesa.html", year: 2019},
     ],
