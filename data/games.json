@@ -763,7 +763,7 @@
     "id": "black-mesa",
     "streams": [
       { "name": "Xen (бета)", "twitch": "444937025", "segment": 0 },
-      { "name": "1", "twitch": "447694923", "start": "3:09:58" }
+      { "name": "1", "twitch": "447694923", "segment": 1 }
     ],
     "thumbnail": 1
   },
@@ -1065,7 +1065,7 @@
       { "name": "Quake 2 RTX / Stay in the Light", "twitch": "438447673" },
       { "name": "Mario Royale / TMNT Rescue-Palooza / Crash Team Racing / My Friend Pedro / Bloodstained: Ritual of the Night", "twitch": "442171113" },
       { "name": "Failed State", "twitch": "444021917", "start": "1:12:33" },
-      { "name": "Daymare: 1998 (демо)", "twitch": "447694923" }
+      { "name": "Daymare: 1998 (демо)", "twitch": "447694923", "segment": 0 }
     ]
   },
   {
