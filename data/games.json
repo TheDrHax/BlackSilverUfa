@@ -739,7 +739,6 @@
       { "name": "Dead Forest", "twitch": "293415850" },
       { "name": "Transference", "twitch": "312840878" },
       { "name": "The Works of Mercy", "twitch": "316219912" },
-      { "name": "Visage (демо)", "twitch": "317879826" },
       { "name": "God's Basement", "twitch": "323817086", "start": "2:35:30" },
       { "name": "Infliction", "twitch": "324642823" },
       { "name": "Battlefield V", "twitch": "333173605" },
@@ -755,6 +754,15 @@
       { "name": "Katana Zero", "twitch": "418879336", "start": "1:01:41" },
       { "name": "Burning Daylight", "twitch": "419736177", "segment": 0 },
       { "name": "Escape Until Friday", "twitch": "429660363", "start": "1:53:19" }
+    ]
+  },
+  {
+    "name": "Visage",
+    "category": "ongoing",
+    "id": "visage",
+    "streams": [
+      { "name": "1", "twitch": "317879826" },
+      { "name": "2", "twitch": "448154135" }
     ]
   },
   {
