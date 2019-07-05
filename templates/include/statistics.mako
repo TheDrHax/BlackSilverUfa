@@ -20,9 +20,7 @@
 
     official, unofficial, missing = 0, 0, 0
     for segment in streams.segments:
-        if segment.vk:
-            unofficial += 1
-        elif segment.youtube:
+        if segment.youtube:
             if segment.official == False:
                 unofficial += 1
             else:

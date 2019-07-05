@@ -36,7 +36,7 @@ class Segment:
         for key in ['start', 'end', 'offset']:
             attr(key, func=lambda x: Timecode(x))
 
-        for key in ['youtube', 'vk', 'direct', 'official', 'note', 'name']:
+        for key in ['youtube', 'direct', 'official', 'note', 'name']:
             attr(key)
 
         fallback = config['fallback']
@@ -80,7 +80,7 @@ class Segment:
     @property
     def player_compatible(self):
         return True in [getattr(self, key) is not None
-                        for key in ['youtube', 'vk', 'direct']]
+                        for key in ['youtube', 'direct']]
 
     def attrs(self):
         attrs = []
@@ -106,7 +106,7 @@ class Segment:
         for key in ['start', 'end']:
             add(key, lambda x: int(x - Timecode(self.offset)))
 
-        for key in ['name', 'twitch', 'youtube', 'vk', 'direct']:
+        for key in ['name', 'twitch', 'youtube', 'direct']:
             add(key)
 
         if not self.player_compatible:
@@ -149,16 +149,12 @@ class Segment:
     def thumbnail(self):
         if self.youtube:
             return f'https://img.youtube.com/vi/{self.youtube}/mqdefault.jpg'
-        elif self.vk:
-            return f'https://api.thedrhax.pw/vk/video/{self.vk}.jpg'
         else:
             return '/static/images/no-preview.png'
 
     def mpv_file(self):
         if self.youtube:
             return 'ytdl://' + self.youtube
-        elif self.vk:
-            return f'https://api.thedrhax.pw/vk/video/{self.vk}.mp4'
         elif self.direct:
             return self.direct
 
