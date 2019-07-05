@@ -9,15 +9,12 @@
 
 <%block name="content">
 <%
-    vk = []
     yt = []
     missing = []
 
     for game in games:
         for stream in game.streams:
-            if stream.vk:
-                vk.append((game, stream))
-            elif stream.youtube:
+            if stream.youtube:
                 if stream.official == False:
                     yt.append((game, stream))
             else:
@@ -56,23 +53,6 @@
   </ul>
 % else:
   <p>Если вы видите эту надпись, то на YouTube нет ни одной неофициальной записи. Надеюсь, что все записи стали официальными, а не вот это вот. Вооот.</p>
-% endif
-
-<h3 id="vk">Записи из ВКонтакте</h3>
-
-% if len(vk) > 0:
-  <p>Перечисленные ниже стримы используют ВКонтакте как источник видео. Mail.Ru активно <a href="https://vk.com/blacksilverufa?w=wall140277504_139931">ставит палки в колёса</a> тем, кто не хочет смотреть видео у них на сайте, поэтому эти записи могут работать нестабильно.</p>
-
-  <ul>
-  % for game, stream in vk:
-    <li>
-      <%el:game_link game="${game}" /> —\
-      <%el:stream_link game="${game}" stream="${stream}" />
-    </li>
-  % endfor
-  </ul>
-% else:
-  <p>В данный момент ВКонтакте не используется в качестве источника записей (все записи есть на YouTube). И это хорошо, так как Mail.Ru активно <a href="https://vk.com/blacksilverufa?w=wall140277504_139931">ставит палки в колёса</a> тем, кто не хочет смотреть видео у них на сайте.</p>
 % endif
 
 </%block>
