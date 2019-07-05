@@ -578,6 +578,7 @@ var Redirect = {
     "447694923": "/links/first.html#447694923",
     "447694923.1": "/links/black-mesa.html#447694923.1",
     "448154135": "/links/visage.html#448154135",
+    "448568048": "/links/visage.html#448568048",
   },
 
   link: function (hash) {
@@ -859,8 +860,8 @@ var Search = {
       {name: "Lucius III", path: "/links/lucius-3.html", year: 2018},
       {name: "Resident Evil 2", path: "/links/re2.html", year: 2019},
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
-      {name: "Visage", path: "/links/visage.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
+      {name: "Visage", path: "/links/visage.html", year: 2019},
       {name: "Black Mesa", path: "/links/black-mesa.html", year: 2019},
     ],
     "infinite": [
@@ -1000,6 +1001,7 @@ var Search = {
       {name: "Godzilla (PS4, NES, Sega, PS2)", path: "/links/other.html#431084407", year: 2019},
       {name: "RTX-стрим", path: "/links/other.html#438447673", year: 2019},
       {name: "Розыгрыш Asus ROG Phone", path: "/links/events.html#444021917", year: 2019},
+      {name: "Розыгрыш двух ноутбуков Asus", path: "/links/events.html#448568048", year: 2019},
     ],
     "expos": [
       {name: "неПрофессиональный E3 2017", path: "/links/e3_2017.html", year: 2017},

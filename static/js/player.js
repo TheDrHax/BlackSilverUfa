@@ -19,7 +19,7 @@ function get_timecodes(id) {
 }
 
 function spawnPlayer(wrapper, callback) {
-  if (wrapper.dataset.youtube || wrapper.dataset.vk || wrapper.dataset.direct) {
+  if (wrapper.dataset.youtube || wrapper.dataset.direct) {
     return spawnPlyr(wrapper, callback);
   }
 }
@@ -88,12 +88,6 @@ function spawnPlyr(wrapper, callback) {
       provider: 'youtube',
       src: wrapper.dataset.youtube
     }];
-  } else if (wrapper.dataset.vk) {
-    source.sources = [{
-      type: 'video/mp4',
-      src: 'https://api.thedrhax.pw/vk/video/' + wrapper.dataset.vk + '.mp4'
-    }];
-    source.poster = 'https://api.thedrhax.pw/vk/video/' + wrapper.dataset.vk + '.jpg';
   } else {
     source.sources = [{
       type: 'video/mp4',
@@ -168,13 +162,6 @@ function spawnPlyr(wrapper, callback) {
       player.pause();
     }
     player.on('ready', playpause);
-  } else if (wrapper.dataset.vk) {
-    // Fix misplaced canvas (appears under the video before the start)
-    subtitles.canvas.style.marginTop = '-150px';
-    player.on('playing', function(event) {
-      subtitles.canvas.style.marginTop = '0px';
-      subtitles.resize();
-    });
   }
 
   // Element controls
@@ -186,7 +173,7 @@ function spawnPlyr(wrapper, callback) {
   };
 
   if (callback != undefined) {
-    if (wrapper.dataset.vk || wrapper.dataset.direct) {
+    if (wrapper.dataset.direct) {
       player.on('loadedmetadata', function(event) { callback(wrapper); });
     } else {
       player.on('ready', function(event) { callback(wrapper); });
