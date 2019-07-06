@@ -578,7 +578,8 @@ var Redirect = {
     "447694923": "/links/first.html#447694923",
     "447694923.1": "/links/black-mesa.html#447694923.1",
     "448154135": "/links/visage.html#448154135",
-    "448568048": "/links/visage.html#448568048",
+    "448568048": "/links/events.html#448568048",
+    "448568048.1": "/links/visage.html#448568048.1",
   },
 
   link: function (hash) {
