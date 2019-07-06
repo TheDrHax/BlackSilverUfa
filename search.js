@@ -580,6 +580,7 @@ var Redirect = {
     "448154135": "/links/visage.html#448154135",
     "448568048": "/links/events.html#448568048",
     "448568048.1": "/links/visage.html#448568048.1",
+    "449016487": "/links/minecraft.html#449016487",
   },
 
   link: function (hash) {
