@@ -581,6 +581,7 @@ var Redirect = {
     "448568048": "/links/events.html#448568048",
     "448568048.1": "/links/visage.html#448568048.1",
     "449016487": "/links/minecraft.html#449016487",
+    "449465888": "/links/co-op.html#449465888",
   },
 
   link: function (hash) {
@@ -948,6 +949,7 @@ var Search = {
       {name: "We Were Here Too", path: "/links/co-op.html#430120134.1", year: 2019},
       {name: "Barotrauma", path: "/links/co-op.html#435683759", year: 2019},
       {name: "Havocado", path: "/links/co-op.html#439860739", year: 2019},
+      {name: "DayZ с Джеком", path: "/links/co-op.html#449465888", year: 2019},
     ],
     "co-op-series": [
       {name: "Gang Beasts", path: "/links/gang-beasts.html", year: 2017},
