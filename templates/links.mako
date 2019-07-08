@@ -83,9 +83,14 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
       <a href="https://www.youtube.com/watch?v=${segment.youtube}" target="_blank">
         <i class="fab fa-youtube"></i> ${segment.youtube}
       </a>
+    % elif segment.torrent:
+    <span class="badge badge-danger">
+      <a href="${segment.torrent}">
+        <i class="fas fa-download"></i> торрент
+      </a>
     % elif segment.direct:
     <span class="badge badge-danger">
-      <a href="${segment.direct}" target="_blank">
+      <a href="${segment.direct}">
         <i class="fas fa-download"></i> прямая ссылка
       </a>
     % endif

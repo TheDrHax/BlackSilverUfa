@@ -36,20 +36,29 @@ class Segment:
         for key in ['start', 'end', 'offset']:
             attr(key, func=lambda x: Timecode(x))
 
-        for key in ['youtube', 'direct', 'official', 'note', 'name']:
+        for key in ['youtube', 'direct', 'torrent', 'official', 'note', 'name']:
             attr(key)
 
         fallback = config['fallback']
         if not self.player_compatible and fallback['streams']:
-            url = fallback['prefix']
-            url = f'{url}/{self.twitch}.mp4'
+            def check(url, code=200):
+                return req.head(
+                    url, allow_redirects=fallback['redirects']
+                ).status_code == code
 
-            if req.head(url, allow_redirects=fallback['redirects']).status_code == 200:
+            url = f'{fallback["prefix"]}/{self.twitch}.mp4'
+
+            if check(url):
                 if self.offset:
                     self.start = self.offset
                     self.offset = None
 
                 self.direct = url
+
+            torrent_url = f'{fallback["prefix"]}/{self.twitch}.torrent'
+
+            if check(torrent_url):
+                self.torrent = torrent_url
 
         if len(stream.timecodes) > 0:
             self.timecodes = TimecodesSlice(stream.timecodes)
