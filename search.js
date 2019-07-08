@@ -949,7 +949,7 @@ var Search = {
       {name: "We Were Here Too", path: "/links/co-op.html#430120134.1", year: 2019},
       {name: "Barotrauma", path: "/links/co-op.html#435683759", year: 2019},
       {name: "Havocado", path: "/links/co-op.html#439860739", year: 2019},
-      {name: "DayZ с Джеком", path: "/links/co-op.html#449465888", year: 2019},
+      {name: "DayZ на PS4 с Джеком", path: "/links/co-op.html#449465888", year: 2019},
     ],
     "co-op-series": [
       {name: "Gang Beasts", path: "/links/gang-beasts.html", year: 2017},
