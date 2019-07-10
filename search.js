@@ -583,6 +583,7 @@ var Redirect = {
     "449016487": "/links/minecraft.html#449016487",
     "449465888": "/links/co-op.html#449465888",
     "450348959": "/links/single.html#450348959",
+    "450812665": "/links/single.html#450812665",
   },
 
   link: function (hash) {
@@ -698,6 +699,7 @@ var Search = {
       {name: "Burning Daylight", path: "/links/single.html#419736177", year: 2019},
       {name: "Escape Until Friday", path: "/links/single.html#429660363", year: 2019},
       {name: "Sea of Solitude", path: "/links/single.html#450348959", year: 2019},
+      {name: "Gears of War: Ultimate Edition", path: "/links/single.html#450812665", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
