@@ -584,6 +584,7 @@ var Redirect = {
     "449465888": "/links/co-op.html#449465888",
     "450348959": "/links/single.html#450348959",
     "450812665": "/links/single.html#450812665",
+    "451727019": "/links/single.html#451727019",
   },
 
   link: function (hash) {
@@ -700,6 +701,8 @@ var Search = {
       {name: "Escape Until Friday", path: "/links/single.html#429660363", year: 2019},
       {name: "Sea of Solitude", path: "/links/single.html#450348959", year: 2019},
       {name: "Gears of War: Ultimate Edition", path: "/links/single.html#450812665", year: 2019},
+      {name: "Monsters of Little Haven", path: "/links/single.html#451727019", year: 2019},
+      {name: "Love, Sam", path: "/links/single.html#451727019", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
@@ -860,11 +863,11 @@ var Search = {
       {name: "This is the Police 2", path: "/links/police-2.html", year: 2018},
       {name: "CASE 2: Animatronics Survival", path: "/links/case-2.html", year: 2018},
       {name: "We Happy Few", path: "/links/we-happy-few.html", year: 2018},
-      {name: "Pamali: Indonesian Folklore Horror", path: "/links/pamali.html", year: 2018},
       {name: "Life is Strange 2", path: "/links/life-is-strange-2.html", year: 2018},
       {name: "Red Dead Redemption 2", path: "/links/rdr2.html", year: 2018},
       {name: "Just Cause 4", path: "/links/just-cause-4.html", year: 2018},
       {name: "Lucius III", path: "/links/lucius-3.html", year: 2018},
+      {name: "Pamali: Indonesian Folklore Horror", path: "/links/pamali.html", year: 2018},
       {name: "Resident Evil 2", path: "/links/re2.html", year: 2019},
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
