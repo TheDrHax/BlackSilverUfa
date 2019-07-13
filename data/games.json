@@ -758,7 +758,8 @@
       { "name": "Escape Until Friday", "twitch": "429660363", "start": "1:53:19" },
       { "name": "Sea of Solitude", "twitch": "450348959" },
       { "name": "Gears of War: Ultimate Edition", "twitch": "450812665" },
-      { "name": "Monsters of Little Haven / Love, Sam", "twitch": "451727019" }
+      { "name": "Monsters of Little Haven", "twitch": "451727019", "segment": 0 },
+      { "name": "Love, Sam", "twitch": "451727019", "segment": 2 }
     ]
   },
   {
@@ -797,7 +798,7 @@
     "streams": [
       { "name": "Демо", "twitch": "275418948", "start": "4:46:56" },
       { "name": "Folklore 1 - The White Lady", "twitch": "355395099" },
-      { "name": "Folklore 2 - The Tied Corpse", "twitch": "451727019", "start": "1:02:52" }
+      { "name": "Folklore 2 - The Tied Corpse", "twitch": "451727019", "segment": 1 }
     ]
   },
   {
