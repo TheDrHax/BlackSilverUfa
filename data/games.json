@@ -63,7 +63,6 @@
       { "name": "Atlas (кооп не найден)", "twitch": "353211576" },
       { "name": "Golf With Your Friends", "twitch": "374556455", "start": "4:33:48" },
       { "name": "Project Winter", "twitch": "378392606" },
-      { "name": "Half Dead 2", "twitch": "389704750", "start": "1:22:33" },
       { "name": "Diablo", "twitch": "394859046" },
       { "name": "Generation Zero", "twitch": "402450066", "segment": 1 },
       { "name": "Pacify", "twitch": "410400457", "start": "1:33:15" },
@@ -73,6 +72,15 @@
       { "name": "Barotrauma", "twitch": "435683759" },
       { "name": "Havocado", "twitch": "439860739", "start": "1:51:51" },
       { "name": "DayZ на PS4 с Джеком", "twitch": "449465888" }
+    ]
+  },
+  {
+    "name": "Half Dead 2",
+    "category": "co-op-series",
+    "id": "half-dead-2",
+    "streams": [
+      { "name": "1", "twitch": "389704750", "start": "1:22:33" },
+      { "name": "2", "twitch": "452195101", "start": "3:07:18" }
     ]
   },
   {
@@ -201,7 +209,8 @@
       { "name": "Escape First", "twitch": "343098113", "segment": 1, "start": "5:15:24" },
       { "name": "Tales of Escape #1", "twitch": "423369283", "segment": 0, "start": "4:50:15" },
       { "name": "Tales of Escape #2", "twitch": "435683759", "start": "3:52:35" },
-      { "name": "Curious Cases", "twitch": "445866715", "start": "3:12:52" }
+      { "name": "Curious Cases", "twitch": "445866715", "start": "3:12:52" },
+      { "name": "Escape First 2", "twitch": "452195101", "start": "3:37:50" }
     ]
   },
   {
@@ -225,7 +234,8 @@
       { "name": "3", "twitch": "340545862", "start": "4:01:23" },
       { "name": "4", "twitch": "374556455", "start": "2:47:35" },
       { "name": "5", "twitch": "436769739", "segment": 1, "start": "4:42:41" },
-      { "name": "6", "twitch": "437135971", "segment": 2, "start": "7:44:27" }
+      { "name": "6", "twitch": "437135971", "segment": 2, "start": "7:44:27" },
+      { "name": "7", "twitch": "452195101", "start": "3:26:19" }
     ]
   },
   {
@@ -378,7 +388,8 @@
       { "name": "3", "twitch": "282238591", "start": "1:11:00" },
       { "name": "4", "twitch": "287404564", "start": "3:03:49" },
       { "name": "5", "twitch": "319559721" },
-      { "name": "6", "twitch": "340545862", "start": "1:48:08" }
+      { "name": "6", "twitch": "340545862", "start": "1:48:08" },
+      { "name": "7", "twitch": "452195101", "start": "2:05:37" }
     ],
     "thumbnail": 3
   },
@@ -391,7 +402,8 @@
       { "name": "2", "twitch": "234373553", "start": "3:19:02" },
       { "name": "3", "twitch": "353211576", "start": "3:13:55" },
       { "name": "4", "twitch": "423369283", "segment": 0, "start": "3:02:31" },
-      { "name": "5", "twitch": "437135971", "segment": 2 }
+      { "name": "5", "twitch": "437135971", "segment": 2 },
+      { "name": "6", "twitch": "452195101" }
     ]
   },
   {
@@ -457,7 +469,8 @@
       { "name": "14", "twitch": "385372335", "segment": 1, "start": "4:19:03" },
       { "name": "15", "twitch": "410963500", "start": "4:35:31" },
       { "name": "16", "twitch": "423369283", "segment": 1 },
-      { "name": "17", "twitch": "445866715", "start": "4:27:04" }
+      { "name": "17", "twitch": "445866715", "start": "4:27:04" },
+      { "name": "18", "twitch": "452195101", "start": "4:03:11" }
     ]
   },
   {
