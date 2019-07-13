@@ -585,6 +585,8 @@ var Redirect = {
     "450348959": "/links/single.html#450348959",
     "450812665": "/links/single.html#450812665",
     "451727019": "/links/single.html#451727019",
+    "451727019.1": "/links/pamali.html#451727019.1",
+    "451727019.2": "/links/single.html#451727019.2",
   },
 
   link: function (hash) {
@@ -702,7 +704,7 @@ var Search = {
       {name: "Sea of Solitude", path: "/links/single.html#450348959", year: 2019},
       {name: "Gears of War: Ultimate Edition", path: "/links/single.html#450812665", year: 2019},
       {name: "Monsters of Little Haven", path: "/links/single.html#451727019", year: 2019},
-      {name: "Love, Sam", path: "/links/single.html#451727019", year: 2019},
+      {name: "Love, Sam", path: "/links/single.html#451727019.2", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
