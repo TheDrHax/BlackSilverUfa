@@ -74,6 +74,7 @@ case $1 in
                 ) ;;
             *) echo "Usage: $0 $1 checkout|diff|commit|push" ;;
         esac ;;
+    pull) git pull --rebase && ./bsu pages checkout ;;
     build) $PYTHON -m templates.utils.generate ;;
     serve) $PYTHON -m templates.utils.serve ;;
     download-chats) $PYTHON -m templates.utils.chats ;;
