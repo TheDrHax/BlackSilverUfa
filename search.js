@@ -588,6 +588,7 @@ var Redirect = {
     "451727019.1": "/links/pamali.html#451727019.1",
     "451727019.2": "/links/single.html#451727019.2",
     "452195101": "/links/human-fall-flat.html#452195101",
+    "452633607": "/links/first.html#452633607",
   },
 
   link: function (hash) {
@@ -850,6 +851,7 @@ var Search = {
       {name: "Bloodstained: Ritual of the Night", path: "/links/first.html#442171113", year: 2019},
       {name: "Failed State", path: "/links/first.html#444021917", year: 2019},
       {name: "Daymare: 1998 (демо)", path: "/links/first.html#447694923", year: 2019},
+      {name: "Gears of War 2", path: "/links/first.html#452633607", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
