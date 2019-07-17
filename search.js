@@ -589,6 +589,7 @@ var Redirect = {
     "451727019.2": "/links/single.html#451727019.2",
     "452195101": "/links/human-fall-flat.html#452195101",
     "452633607": "/links/first.html#452633607",
+    "454019548": "/links/first.html#454019548",
   },
 
   link: function (hash) {
@@ -707,6 +708,7 @@ var Search = {
       {name: "Gears of War: Ultimate Edition", path: "/links/single.html#450812665", year: 2019},
       {name: "Monsters of Little Haven", path: "/links/single.html#451727019", year: 2019},
       {name: "Love, Sam", path: "/links/single.html#451727019.2", year: 2019},
+      {name: "Duck Season", path: "/links/single.html#454019548", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
@@ -852,6 +854,7 @@ var Search = {
       {name: "Failed State", path: "/links/first.html#444021917", year: 2019},
       {name: "Daymare: 1998 (демо)", path: "/links/first.html#447694923", year: 2019},
       {name: "Gears of War 2", path: "/links/first.html#452633607", year: 2019},
+      {name: "Thief Simulator", path: "/links/first.html#454019548", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
