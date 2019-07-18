@@ -590,6 +590,7 @@ var Redirect = {
     "452195101": "/links/human-fall-flat.html#452195101",
     "452633607": "/links/first.html#452633607",
     "454019548": "/links/first.html#454019548",
+    "454019548.1": "/links/single.html#454019548.1",
   },
 
   link: function (hash) {
@@ -708,7 +709,7 @@ var Search = {
       {name: "Gears of War: Ultimate Edition", path: "/links/single.html#450812665", year: 2019},
       {name: "Monsters of Little Haven", path: "/links/single.html#451727019", year: 2019},
       {name: "Love, Sam", path: "/links/single.html#451727019.2", year: 2019},
-      {name: "Duck Season", path: "/links/single.html#454019548", year: 2019},
+      {name: "Duck Season", path: "/links/single.html#454019548.1", year: 2019},
     ],
     "first": [
       {name: "Первый взгляд", path: "/links/first.html", year: 2017},
