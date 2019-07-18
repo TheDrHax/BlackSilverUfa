@@ -773,7 +773,7 @@
       { "name": "Gears of War: Ultimate Edition", "twitch": "450812665" },
       { "name": "Monsters of Little Haven", "twitch": "451727019", "segment": 0 },
       { "name": "Love, Sam", "twitch": "451727019", "segment": 2 },
-      { "name": "Duck Season", "twitch": "454019548", "start": "2:57:43" }
+      { "name": "Duck Season", "twitch": "454019548", "segment": 1 }
     ]
   },
   {
@@ -1098,7 +1098,7 @@
       { "name": "Failed State", "twitch": "444021917", "start": "1:12:33" },
       { "name": "Daymare: 1998 (демо)", "twitch": "447694923", "segment": 0 },
       { "name": "Gears of War 2", "twitch": "452633607" },
-      { "name": "Thief Simulator", "twitch": "454019548" }
+      { "name": "Thief Simulator", "twitch": "454019548", "segment": 0 }
     ]
   },
   {
