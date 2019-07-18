@@ -588,9 +588,11 @@ var Redirect = {
     "451727019.1": "/links/pamali.html#451727019.1",
     "451727019.2": "/links/single.html#451727019.2",
     "452195101": "/links/human-fall-flat.html#452195101",
-    "452633607": "/links/first.html#452633607",
+    "452633607": "/links/gears-of-war-2.html#452633607",
     "454019548": "/links/first.html#454019548",
     "454019548.1": "/links/single.html#454019548.1",
+    "454488796": "/links/first.html#454488796",
+    "454488796.1": "/links/gears-of-war-2.html#454488796.1",
   },
 
   link: function (hash) {
@@ -662,6 +664,7 @@ var Search = {
       {name: "Outer Wilds", path: "/links/outer-wilds.html", year: 2019},
       {name: "Asura's Wrath", path: "/links/asuras-wrath.html", year: 2019},
       {name: "Sinking City", path: "/links/sinking-city.html", year: 2019},
+      {name: "Gears of War 2", path: "/links/gears-of-war-2.html", year: 2019},
     ],
     "single": [
       {name: "Полные прохождения за один стрим", path: "/links/single.html", year: 2017},
@@ -854,8 +857,8 @@ var Search = {
       {name: "Bloodstained: Ritual of the Night", path: "/links/first.html#442171113", year: 2019},
       {name: "Failed State", path: "/links/first.html#444021917", year: 2019},
       {name: "Daymare: 1998 (демо)", path: "/links/first.html#447694923", year: 2019},
-      {name: "Gears of War 2", path: "/links/first.html#452633607", year: 2019},
       {name: "Thief Simulator", path: "/links/first.html#454019548", year: 2019},
+      {name: "Doki Doki Literature Club", path: "/links/first.html#454488796", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
