@@ -1097,8 +1097,16 @@
       { "name": "Mario Royale / TMNT Rescue-Palooza / Crash Team Racing / My Friend Pedro / Bloodstained: Ritual of the Night", "twitch": "442171113" },
       { "name": "Failed State", "twitch": "444021917", "start": "1:12:33" },
       { "name": "Daymare: 1998 (демо)", "twitch": "447694923", "segment": 0 },
-      { "name": "Thief Simulator", "twitch": "454019548", "segment": 0 },
-      { "name": "Doki Doki Literature Club", "twitch": "454488796", "segment": 0 }
+      { "name": "Thief Simulator", "twitch": "454019548", "segment": 0 }
+    ]
+  },
+  {
+    "name": "Doki Doki Literature Club",
+    "category": "finished",
+    "id": "doki-doki",
+    "streams": [
+      { "name": "1", "twitch": "454488796", "segment": 0 },
+      { "name": "2", "twitch": "455431771" }
     ]
   },
   {
