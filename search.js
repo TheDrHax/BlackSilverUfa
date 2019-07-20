@@ -591,8 +591,9 @@ var Redirect = {
     "452633607": "/links/gears-of-war-2.html#452633607",
     "454019548": "/links/first.html#454019548",
     "454019548.1": "/links/single.html#454019548.1",
-    "454488796": "/links/first.html#454488796",
+    "454488796": "/links/doki-doki.html#454488796",
     "454488796.1": "/links/gears-of-war-2.html#454488796.1",
+    "455431771": "/links/doki-doki.html#455431771",
   },
 
   link: function (hash) {
@@ -665,6 +666,7 @@ var Search = {
       {name: "Asura's Wrath", path: "/links/asuras-wrath.html", year: 2019},
       {name: "Sinking City", path: "/links/sinking-city.html", year: 2019},
       {name: "Gears of War 2", path: "/links/gears-of-war-2.html", year: 2019},
+      {name: "Doki Doki Literature Club", path: "/links/doki-doki.html", year: 2019},
     ],
     "single": [
       {name: "Полные прохождения за один стрим", path: "/links/single.html", year: 2017},
@@ -858,7 +860,6 @@ var Search = {
       {name: "Failed State", path: "/links/first.html#444021917", year: 2019},
       {name: "Daymare: 1998 (демо)", path: "/links/first.html#447694923", year: 2019},
       {name: "Thief Simulator", path: "/links/first.html#454019548", year: 2019},
-      {name: "Doki Doki Literature Club", path: "/links/first.html#454488796", year: 2019},
     ],
     "ongoing": [
       {name: "Persona 5", path: "/links/persona_5.html", year: 2017},
