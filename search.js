@@ -1008,7 +1008,7 @@ var Search = {
       {name: "Крокодил", path: "/links/crocodile.html", year: 2019},
       {name: "Pogostuck: Rage With Your Friends", path: "/links/pogostuck.html", year: 2019},
       {name: "Эскейп-румы", path: "/links/escape-rooms.html", year: 2019},
-      {name: "Red Dead Redemption 2 Online", path: "/links/rdr2-online.html", year: 2019},
+      {name: "Red Dead Online", path: "/links/rdr2-online.html", year: 2019},
       {name: "World War Z с Куплиновым", path: "/links/world-war-z.html", year: 2019},
       {name: "Half Dead 2", path: "/links/half-dead-2.html", year: 2019},
       {name: "Mordhau", path: "/links/mordhau.html", year: 2019},
