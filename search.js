@@ -595,6 +595,7 @@ var Redirect = {
     "454488796.1": "/links/gears-of-war-2.html#454488796.1",
     "455431771": "/links/doki-doki.html#455431771",
     "455921735": "/links/rdr2-online.html#455921735",
+    "456859112": "/links/life-is-strange-2.html#456859112",
   },
 
   link: function (hash) {
@@ -877,13 +878,13 @@ var Search = {
       {name: "This is the Police 2", path: "/links/police-2.html", year: 2018},
       {name: "CASE 2: Animatronics Survival", path: "/links/case-2.html", year: 2018},
       {name: "We Happy Few", path: "/links/we-happy-few.html", year: 2018},
-      {name: "Life is Strange 2", path: "/links/life-is-strange-2.html", year: 2018},
       {name: "Red Dead Redemption 2", path: "/links/rdr2.html", year: 2018},
       {name: "Just Cause 4", path: "/links/just-cause-4.html", year: 2018},
       {name: "Lucius III", path: "/links/lucius-3.html", year: 2018},
       {name: "Pamali: Indonesian Folklore Horror", path: "/links/pamali.html", year: 2018},
       {name: "Resident Evil 2", path: "/links/re2.html", year: 2019},
       {name: "Anthem", path: "/links/anthem.html", year: 2019},
+      {name: "Life is Strange 2", path: "/links/life-is-strange-2.html", year: 2019},
       {name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019},
       {name: "Visage", path: "/links/visage.html", year: 2019},
       {name: "Black Mesa", path: "/links/black-mesa.html", year: 2019},
