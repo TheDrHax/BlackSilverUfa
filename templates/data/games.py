@@ -36,8 +36,7 @@ class Game:
 
     @property
     def _unix_time(self):
-        streams = self.streams
-        return sum(s.stream._unix_time for s in streams) // len(streams)
+        return self.streams[self.thumb_index].stream._unix_time
 
     @property
     def date(self):

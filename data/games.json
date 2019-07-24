@@ -725,8 +725,8 @@
     ]
   },
   {
-    "name": "Полные прохождения за один стрим",
-    "category": "single",
+    "name": "Прохождения за один стрим",
+    "category": "finished",
     "type": "list",
     "id": "single",
     "streams": [
