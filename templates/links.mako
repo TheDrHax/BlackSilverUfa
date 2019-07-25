@@ -13,8 +13,8 @@
 
 <%block name="scripts">
 <!-- Plyr (https://github.com/sampotts/plyr) -->
-<link rel="stylesheet" href="//cdn.plyr.io/3.4.7/plyr.css">
-<script src="//cdn.plyr.io/3.4.7/plyr.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="//cdn.plyr.io/3.5.6/plyr.css">
+<script src="//cdn.plyr.io/3.5.6/plyr.js" crossorigin="anonymous"></script>
 <!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
 <script src="/static/js/subtitles-octopus.js"></script>
 <script src="/static/js/player.js?hash=${md5file('static/js/player.js')}"></script>
