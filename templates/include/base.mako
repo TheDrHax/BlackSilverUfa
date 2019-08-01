@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/css/cayman.css">
     <link rel="stylesheet" href="/static/css/styles.css?hash=${md5file('static/css/styles.css')}">
     <%block name="head" />
     <script src="/static/js/matomo.js?hash=${md5file(_('static/js/matomo.js'))}"></script>
@@ -84,7 +83,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-6">
             <h5 class="text-uppercase">Каналы Артура</h5>
             <ul class="list-unstyled">
               <li>
@@ -104,7 +103,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3 col-md-6">
             <h5 class="text-uppercase">Социальные сети</h5>
             <ul class="list-unstyled">
               <li>
