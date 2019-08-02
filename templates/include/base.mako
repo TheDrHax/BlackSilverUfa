@@ -10,16 +10,16 @@
     <meta name="theme-color" content="#157878">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css?hash=${md5file('static/css/bootstrap.min.css')}">
     <link rel="stylesheet" href="/static/css/styles.css?hash=${md5file('static/css/styles.css')}">
     <%block name="head" />
+    <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.5.1/intersection-observer.js"></script>
     <script src="/static/js/matomo.js?hash=${md5file(_('static/js/matomo.js'))}"></script>
   </head>
   <body>
     <div style="height: 56px"><!-- floating navbar workaround --></div>
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar headroom fixed-top navbar-expand-md navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand d-none d-sm-block" href="/">${config['title']}</a>
         <a class="navbar-brand d-sm-none d-block" href="/">${config['title_short']}</a>
@@ -48,7 +48,7 @@
             </li>
           </ul>
 
-          <form class="form-inline ml-auto">
+          <form class="form-inline" autocomplete="off" action="#">
             <input class="form-control" type="search" id="search" placeholder="Быстрый переход" aria-label="Search">
           </form>
         </div>
@@ -132,18 +132,23 @@
       </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha256-rXnOfjTRp4iAm7hTAxEz3irkXzwZrElV2uRsdJAYjC4=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-autohidingnavbar/4.0.0/jquery.bootstrap-autohidingnavbar.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
+    <!-- https://github.com/verlok/lazyload -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+    <!-- https://github.com/thednp/bootstrap.native -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.15/bootstrap-native-v4.min.js"></script>
+    <!-- https://github.com/WickyNilliams/headroom.js -->
+    <script src="https://npmcdn.com/headroom.js@0.9.4/dist/headroom.min.js"></script>
+    <!-- https://github.com/kraaden/autocomplete -->
+    <script src="/static/js/autocomplete.js?hash=${md5file('static/js/autocomplete.js')}"></script>
     <script src="/search.js?hash=${md5file(_('search.js'))}"></script>
     <script type="text/javascript">
       Search.init("#search");
-      $(".fixed-top").autoHidingNavbar({});
-      $('.lazyload').each(function() {
-        $(this).css('display', 'block');
-        $(this).lazyload({});
+
+      var headroom  = new Headroom(document.querySelector('nav'));
+      headroom.init();
+
+      var lazyload = new LazyLoad({
+        elements_selector: ".lazyload"
       });
     </script>
     <%block name="scripts" />

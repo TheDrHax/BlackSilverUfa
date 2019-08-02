@@ -79,33 +79,36 @@ h3>.badge {
  * Search menu
  */
 
-@media (min-width: 768px) {
-  .easy-autocomplete-container {
-    right: 0;
+.autocomplete {
+  background: white;
+  z-index: 1050;
+  overflow: auto;
+  box-sizing: border-box;
+  border: 1px solid rgba(50, 50, 50, 0.6);
+  border-bottom: inherit;
   }
+
+.autocomplete>div {
+  padding: 0 4px;
+  border-bottom: 1px solid rgba(50, 50, 50, 0.6);
 }
 
-@media (max-width: 768px) {
-  .easy-autocomplete-container {
-    left: 0;
-  }
+.autocomplete span {
+  /* color: #aaa; */
+  font-style: italic;
+  font-size: 0.8em;
 }
 
-.easy-autocomplete-container {
-  word-break: normal;
+.autocomplete .group {
+  background: rgb(86, 90, 94);
+  color: #fff;
+  font-size: 14px;
 }
 
-/* Workaround for `width: 0` on some mobile browsers */
-.easy-autocomplete {
-  width: auto !important;
-}
-
-/*
- * Lazy load
- */
-
-.lazyload {
-  display: none;
+.autocomplete>div:hover:not(.group),
+.autocomplete>div.selected {
+  background: #80bdff;
+  cursor: pointer;
 }
 
 /*
@@ -146,6 +149,23 @@ h3>.badge {
 
 .visited {
   color: purple;
+}
+
+/*
+ * Headroom
+ */
+
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+  transform: translateY(0%);
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
 }
 
 /*
