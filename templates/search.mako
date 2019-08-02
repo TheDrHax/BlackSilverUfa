@@ -28,60 +28,43 @@ var Redirect = {
 }
 
 var Search = {
-  data: {
+  data: [
 <% listed_games = [] %>\
   % for category in categories:
     % if category.search != False:
-    "${category.code}": [
-      % for game in category.games:
+      % for game in reversed(category.games):
         % if type(game) == Game:
-      {name: "${game.name}", path: "${game.filename}", year: ${game.date.year}},
+    {name: "${game.name}", path: "${game.filename}", year: ${game.date.year}, group: "${category.name}"},
         % elif type(game) == SegmentReference:
           % if game.game not in listed_games:
-      {name: "${game.game.name}", path: "${game.game.filename}", year: ${game.date.year}},
+    {name: "${game.game.name}", path: "${game.game.filename}", year: ${game.date.year}, group: "${category.name}"},
 <% listed_games.append(game.game) %>\
           % endif
           % for name in game.name.split(' / '):
-      {name: "${name}", path: "${game.game.filename}#${game.hash}", year: ${game.date.year}},
+    {name: "${name}", path: "${game.game.filename}#${game.hash}", year: ${game.date.year}, group: "${category.name}"},
           % endfor
         % endif
       % endfor
-    ],
-    % endif
-  % endfor
-  },
-
-  categories: [
-  % for category in categories:
-    % if category.search != False:
-    {header: "${category.name}", listLocation: "${category.code}"},
     % endif
   % endfor
   ],
 
   init: function() {
-    let search = $("#search");
-
-    search.easyAutocomplete({
-      data: this.data,
-      categories: this.categories,
-      getValue: function(element) {
-        return element.name;
+    autocomplete({
+      minLength: 3,
+      input: document.querySelector("#search"),
+      fetch: function(text, update) {
+        text = text.toLowerCase();
+        var suggestions = Search.data.filter(n => n.name.toLowerCase().indexOf(text) !== -1);
+        update(suggestions);
       },
-      list: {
-        maxNumberOfElements: 8,
-        match: { enabled: true },
-        sort: { enabled: true },
-        onChooseEvent: function(arg) {
-            var item = search.getSelectedItemData();
-            window.location = item.path;
-        }
+      render: function(item, currentValue) {
+        var div = document.createElement("div");
+        div.innerHTML = item.name + ' - <span>' + item.year + '</span>';
+        return div;
       },
-      template: {
-        type: "description",
-        fields: {
-          description: "year"
-        }
+      onSelect: function(item) {
+        window.location = item.path;
       }
     });
   }

@@ -40,7 +40,7 @@ ${text if text else stream.name}\
   <div class="card">
     <%self:game_link game="${game}">
       <noscript><img class="card-img-top" src="${game.thumbnail}" /></noscript>
-      <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-original="${game.thumbnail}" />
+      <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-src="${game.thumbnail}" />
       <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
         ${game.name}
       </div>
@@ -59,7 +59,7 @@ ${text if text else stream.name}\
   <div class="card">
     <%self:stream_link game="${segment.game}" stream="${segment}">
       <noscript><img class="card-img-top" src="${segment.thumbnail}" /></noscript>
-      <img class="card-img lazyload" src="/static/images/no-preview.png" data-original="${segment.thumbnail}" />
+      <img class="card-img lazyload" src="/static/images/no-preview.png" data-src="${segment.thumbnail}" />
       <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
         ${segment.name}
       </div>
