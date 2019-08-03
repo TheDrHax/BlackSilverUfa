@@ -51,11 +51,14 @@ var Search = {
 
   init: function() {
     autocomplete({
-      minLength: 3,
+      minLength: 2,
       input: document.querySelector("#search"),
       fetch: function(text, update) {
         text = text.toLowerCase();
-        var suggestions = Search.data.filter(n => n.name.toLowerCase().indexOf(text) !== -1);
+        var suggestions = Search.data.filter(function (x) {
+          var words = x.name.toLowerCase().split(' ');
+          return words.filter(y => y.startsWith(text)).length > 0;
+        });
         update(suggestions);
       },
       render: function(item, currentValue) {
