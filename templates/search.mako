@@ -28,41 +28,62 @@ var Redirect = {
 }
 
 var Search = {
-  data: [
+  categories: {
+  % for category in categories:
+    % if category.search != False:
+    "${category.code}": "${category.name}",
+    % endif
+  % endfor
+  },
+
+  games: {
 <% listed_games = [] %>\
   % for category in categories:
     % if category.search != False:
+    "${category.code}": [
       % for game in reversed(category.games):
         % if type(game) == Game:
-    {name: "${game.name}", path: "${game.filename}", year: ${game.date.year}, group: "${category.name}"},
+      { name: "${game.name}", path: "${game.filename}", year: ${game.date.year} },
         % elif type(game) == SegmentReference:
           % if game.game not in listed_games:
-    {name: "${game.game.name}", path: "${game.game.filename}", year: ${game.date.year}, group: "${category.name}"},
+      { name: "${game.game.name}", path: "${game.game.filename}", year: ${game.date.year} },
 <% listed_games.append(game.game) %>\
           % endif
           % for name in game.name.split(' / '):
-    {name: "${name}", path: "${game.game.filename}#${game.hash}", year: ${game.date.year}, group: "${category.name}"},
+      { name: "${name}", path: "${game.game.filename}#${game.hash}", year: ${game.date.year} },
           % endfor
         % endif
       % endfor
+    ],
     % endif
   % endfor
-  ],
+  },
+
+  data: function() {
+    return Object.keys(Search.games).flatMap(function (category) {
+      return Search.games[category].map(function (x) {
+        x.group = Search.categories[category];
+        return x;
+      });
+    });
+  },
 
   init: function() {
+    let data = Search.data();
+
     autocomplete({
       minLength: 2,
       input: document.querySelector("#search"),
       fetch: function(text, update) {
         text = text.toLowerCase();
-        var suggestions = Search.data.filter(function (x) {
-          var words = x.name.toLowerCase().split(' ');
+        let suggestions = data.filter(function (x) {
+          let words = x.name.toLowerCase().split(' ');
           return words.filter(y => y.startsWith(text)).length > 0;
         });
         update(suggestions);
       },
       render: function(item, currentValue) {
-        var div = document.createElement("div");
+        let div = document.createElement("div");
         div.innerHTML = item.name + ' - <span>' + item.year + '</span>';
         return div;
       },
