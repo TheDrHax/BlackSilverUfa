@@ -91,7 +91,7 @@ var Redirect = {
     "207478875": "/links/darkwood.html#207478875",
     "207753795": "/links/witch-it.html#207753795",
     "208349646": "/links/monster-hunter-world.html#208349646",
-    "209473798": "/links/tloz_botw.html#209473798",
+    "209473798": "/links/events.html#209473798",
     "210024030": "/links/darkwood.html#210024030",
     "210846597": "/links/tloz_botw.html#210846597",
     "212431882": "/links/uncanny-valley.html#212431882",
@@ -1040,6 +1040,7 @@ var Search = {
       { name: "PlayStation Classic (все игры)", path: "/links/other.html#348094949", year: 2018 },
       { name: "Конкурс на лучший арт (4.12.18)", path: "/links/events.html#344508969", year: 2018 },
       { name: "Благотворительные стримы", path: "/links/charity.html", year: 2018 },
+      { name: "Розыгрыш Seagate Game Drive 2 TB", path: "/links/events.html#209473798", year: 2017 },
       { name: "Хэллоуин", path: "/links/halloween.html", year: 2017 },
     ],
     "expos": [
