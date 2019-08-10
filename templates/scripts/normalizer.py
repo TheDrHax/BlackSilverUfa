@@ -12,33 +12,31 @@ Currently supported files:
 
 import json
 
-from ..utils import load_json
 from ..data.games import games
 from ..data.streams import streams
-from ..data.timecodes import Timecodes
+from ..data.timecodes import Timecodes, timecodes
 
 
-def normalize_timecodes(filename='data/timecodes.json'):
-    data = load_json(filename)
-    keys = sorted(data.keys())
+def normalize_timecodes(output='data/timecodes.json'):
+    keys = sorted(timecodes.keys())
     result = {}
 
     for key in keys:
-        result[key] = Timecodes(data[key]).to_dict()
+        result[key] = Timecodes(timecodes[key]).to_dict()
 
-    with open(filename, 'w') as fo:
+    with open(output, 'w') as fo:
         json.dump(result, fo, indent=2, ensure_ascii=False)
         fo.write('\n')
 
 
-def normalize_games(filename='data/games.json'):
-    with open(filename, 'w') as fo:
+def normalize_games(output='data/games.json'):
+    with open(output, 'w') as fo:
         fo.write(games.to_json())
         fo.write('\n')
 
 
-def normalize_streams(filename='data/streams.json'):
-    with open(filename, 'w') as fo:
+def normalize_streams(output='data/streams.json'):
+    with open(output, 'w') as fo:
         fo.write(streams.to_json())
         fo.write('\n')
 
