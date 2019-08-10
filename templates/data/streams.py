@@ -10,7 +10,7 @@ from sortedcontainers import SortedList
 from .cache import cached
 from .config import config
 from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice
-from ..utils import _, load_json, last_line, count_lines
+from ..utils import _, load_json, last_line, count_lines, join, json_escape
 
 
 repo = Repo('.')
@@ -196,7 +196,7 @@ class SegmentReference(Segment):
         for key in ['name', 'note']:
             attr(key)
 
-        for key in ['start', 'end', 'offset']:
+        for key in ['start', 'end']:
             attr(key, lambda x: Timecode(x))
 
     @property
@@ -208,6 +208,50 @@ class SegmentReference(Segment):
 
     def __getattr__(self, attr):
         return getattr(self.parent, attr)
+
+    @join()
+    def to_json(self):
+        keys = ['name', 'twitch', 'segment', 'start', 'end']
+        multiline_keys = ['note']
+
+        def inherited(key):
+            if key not in ['twitch', 'segment']:
+                if getattr(self, key) == getattr(self.parent, key):
+                    return True
+            return False
+
+        multiline = True in [getattr(self, key) and not inherited(key)
+                             for key in multiline_keys]
+
+        yield '{'
+        yield '\n  ' if multiline else ' '
+
+        first = True
+        for key in keys:
+            if getattr(self, key) is None or inherited(key):
+                continue
+
+            if key == 'segment':
+                if len(self.parent.stream) > 1:
+                    yield f', "segment": {self.parent.segment}'
+                continue
+
+            if not first:
+                yield ', '
+            else:
+                first = False
+
+            yield f'"{key}": {json_escape(getattr(self, key))}'
+
+        for key in multiline_keys:
+            if getattr(self, key) and not inherited(key):
+                yield f',\n  "{key}": {json_escape(getattr(self, key))}'
+
+        yield '\n' if multiline else ' '
+        yield '}'
+
+    def __str__(self):
+        return self.to_json()
 
 
 class Stream(list):

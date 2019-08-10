@@ -4,7 +4,7 @@
 from datetime import datetime
 
 from .streams import streams, SegmentReference
-from ..utils import load_json
+from ..utils import load_json, join, json_escape, indent
 
 
 class Game:
@@ -42,6 +42,41 @@ class Game:
     def date(self):
         return datetime.fromtimestamp(self._unix_time)
 
+    @join()
+    def to_json(self):
+        keys = ['name', 'category', 'type', 'id', 'streams', 'thumbnail']
+
+        yield '{\n  '
+
+        first = True
+        for key in keys:
+            if key == 'thumbnail':
+                if self.thumb_index != 0:
+                    yield f',\n  "{key}": {self.thumb_index}'
+                continue
+
+            if key == 'streams':
+                yield ',\n  "streams": [\n'
+                refs = [ref.to_json() for ref in self.streams]
+                yield indent(',\n'.join(refs), 4)
+                yield '\n  ]'
+                continue
+            
+            if not getattr(self, key):
+                continue
+
+            if not first:
+                yield ',\n  '
+            else:
+                first = False
+
+            yield f'"{key}": {json_escape(getattr(self, key))}'
+
+        yield '\n}'
+    
+    def __str__(self):
+        return self.to_json()
+
 
 class Games(list):
     def __init__(self, data):
@@ -59,6 +94,24 @@ class Games(list):
                 ids.add(game.id)
 
             self.append(game)
+
+    @join()
+    def to_json(self):
+        yield '[\n'
+
+        first = True
+        for game in self:
+            if not first:
+                yield ',\n'
+            else:
+                first = False
+
+            yield indent(game.to_json(), 2)
+
+        yield '\n]'
+    
+    def __str__(self):
+        return self.to_json()
 
 
 games = Games(load_json('data/games.json'))

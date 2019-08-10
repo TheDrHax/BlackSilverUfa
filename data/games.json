@@ -5,7 +5,7 @@
     "id": "black-mirror",
     "streams": [
       { "name": "1", "twitch": "205262158" },
-      { "name": "2", "start": "3:08:06", "twitch": "206091904" }
+      { "name": "2", "twitch": "206091904", "start": "3:08:06" }
     ]
   },
   {
@@ -435,7 +435,7 @@
       { "name": "2", "twitch": "200702885", "start": "4:02:50" },
       { "name": "3", "twitch": "202631693", "start": "4:24:00" },
       { "name": "4", "twitch": "250258247", "start": "4:32:15" },
-      { "name": "5", "twitch": "337485395", "segment": 1, "start": "05:45:31" }
+      { "name": "5", "twitch": "337485395", "segment": 1, "start": "5:45:31" }
     ]
   },
   {
@@ -573,8 +573,8 @@
     "streams": [
       { "name": "Electronic Arts", "twitch": "436159113", "segment": 1, "start": "3:21:16" },
       { "name": "Microsoft", "twitch": "436769739", "segment": 0, "start": "56:39" },
-      { "name": "Bethesda", "segment": 2, "twitch": "436769739" },
-      { "name": "Devolver Digital", "segment": 3, "twitch": "436769739" },
+      { "name": "Bethesda", "twitch": "436769739", "segment": 2 },
+      { "name": "Devolver Digital", "twitch": "436769739", "segment": 3 },
       { "name": "PC Gaming Show", "twitch": "437135971", "segment": 0, "start": "53:30" },
       { "name": "Ubisoft", "twitch": "437135971", "segment": 1, "start": "3:55:56" },
       { "name": "Square Enix", "twitch": "437135971", "segment": 3 }
@@ -843,9 +843,9 @@
     "id": "super-mario-odyssey",
     "streams": [
       { "name": "1", "twitch": "185763905" },
-      { "name": "2", "start": "3:10:20", "twitch": "200401270" },
+      { "name": "2", "twitch": "200401270", "start": "3:10:20" },
       { "name": "3", "twitch": "202381358" },
-      { "name": "4", "start": "2:59:59", "twitch": "210846597" }
+      { "name": "4", "twitch": "210846597", "start": "2:59:59" }
     ]
   },
   {
@@ -921,8 +921,8 @@
   {
     "name": "Разное",
     "category": "other",
-    "id": "other",
     "type": "list",
+    "id": "other",
     "streams": [
       { "name": "PlayStation Classic (все игры)", "twitch": "348094949" },
       { "name": "Godzilla (PS4, NES, Sega, PS2)", "twitch": "431084407" },
@@ -1028,7 +1028,7 @@
       },
       { "name": "Clone Drone in the Danger Zone / Choice Chamber", "twitch": "268900992", "start": "2:24:57" },
       { "name": "Exiles / Elderwale / Darkness Dwells / The Dark Inside Me / Stoneshard: Prologue / Bloodstained: Curse of the Moon", "twitch": "270816212" },
-      { "name": "Unravel Two", "twitch": "271646745", "start": "6:36" },
+      { "name": "Unravel Two", "twitch": "271646745", "segment": 0, "start": "6:36" },
       { "name": "Deluded Mind", "twitch": "275043417", "start": "2:38:23" },
       { "name": "Sinner / Trigger", "twitch": "275418948", "start": "2:18:26" },
       { "name": "Overwhelm / P.A.M.E.L.A (Pamela)", "twitch": "276606545", "start": "1:19:47" },
@@ -1328,7 +1328,7 @@
     "id": "re2-remake",
     "streams": [
       {
-        "name": "1-Shot Demo","twitch": "362192911","start": "4:19:04",
+        "name": "1-Shot Demo", "twitch": "362192911", "start": "4:19:04",
         "note": "Первое прохождение доступно на <a href=\"https://youtu.be/koDvjemhZnk\">YouTube</a>."
       },
       { "name": "1.1 (Леон \"A\")", "twitch": "368943925", "segment": 0 },
@@ -1423,7 +1423,7 @@
     "category": "finished",
     "id": "granny",
     "streams": [
-      { "name": "1", "twitch": "344508969", "start": "2:26:26", "segment": 1 },
+      { "name": "1", "twitch": "344508969", "segment": 1, "start": "2:26:26" },
       { "name": "2", "twitch": "344946351", "start": "2:14:23" },
       { "name": "3", "twitch": "351262416", "start": "3:34:46" }
     ]
