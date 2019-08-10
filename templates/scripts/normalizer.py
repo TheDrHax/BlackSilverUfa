@@ -6,11 +6,13 @@ This script attempts to normalize JSON data files.
 
 Currently supported files:
 * data/timecodes.json (sort and format)
+* data/games.json (format)
 """
 
 import json
 
 from ..utils import load_json
+from ..data.games import games
 from ..data.timecodes import Timecodes
 
 
@@ -26,5 +28,10 @@ def normalize_timecodes(filename='data/timecodes.json'):
         json.dump(result, fo, indent=2, ensure_ascii=False)
 
 
+def normalize_games(filename='data/games.json'):
+    with open(filename, 'w') as fo:
+        fo.write(games.to_json())
+
 if __name__ == '__main__':
     normalize_timecodes()
+    normalize_games()

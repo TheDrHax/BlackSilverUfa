@@ -31,6 +31,27 @@ def md5file(f_path, block_size=2**20):
     return md5.hexdigest()
 
 
+def json_escape(x):
+    if isinstance(x, int):
+        return x
+    else:
+        escaped_str = str(x).replace('"', '\\"')
+        return f'"{escaped_str}"'
+
+
+def join(separator=''):
+    def decorator(func):
+        def wrapped(*args, **kwargs):
+            return separator.join(list(func(*args, **kwargs)))
+        return wrapped
+    return decorator
+
+
+@join('\n')
+def indent(x, level):
+    return [f'{" " * level}{line}' for line in x.split('\n')]
+
+
 # https://stackoverflow.com/a/18603065
 def last_line(fp):
     if not os.path.isfile(fp):
