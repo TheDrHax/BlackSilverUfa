@@ -32,7 +32,9 @@ def md5file(f_path, block_size=2**20):
 
 
 def json_escape(x):
-    if isinstance(x, int):
+    if isinstance(x, bool):
+        return 'true' if x else 'false'
+    elif isinstance(x, int):
         return x
     else:
         escaped_str = str(x).replace('"', '\\"')
