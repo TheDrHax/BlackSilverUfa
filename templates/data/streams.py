@@ -10,7 +10,7 @@ from sortedcontainers import SortedList
 from .cache import cached
 from .config import config
 from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice
-from ..utils import _, load_json, last_line, count_lines, join, json_escape
+from ..utils import _, load_json, last_line, count_lines, join, json_escape, indent
 
 
 repo = Repo('.')
@@ -39,6 +39,7 @@ class Segment:
         for key in ['youtube', 'direct', 'torrent', 'official', 'note', 'name']:
             attr(key)
 
+        self.fallback = False
         fallback = config['fallback']
         if not self.player_compatible and fallback['streams']:
             def check(url, code=200):
@@ -54,11 +55,13 @@ class Segment:
                     self.offset = None
 
                 self.direct = url
+                self.fallback = True
 
             torrent_url = f'{fallback["prefix"]}/{self.twitch}.torrent'
 
             if check(torrent_url):
                 self.torrent = torrent_url
+                self.fallback = True
 
         if len(stream.timecodes) > 0:
             self.timecodes = TimecodesSlice(stream.timecodes)
@@ -180,6 +183,42 @@ class Segment:
             res += f'--end={int(Timecode(self.end) - offset)} '
         return res.strip()
 
+    @join()
+    def to_json(self):
+        keys = ['youtube', 'direct', 'offset', 'official', 'start', 'end']
+        multiline_keys = ['note']
+
+        multiline = True in [getattr(self, key) is not None
+                             for key in multiline_keys]
+
+        yield '{'
+        yield '\n  ' if multiline else ' '
+
+        first = True
+        for key in keys:
+            if getattr(self, key) is None:
+                continue
+
+            if key in ['direct', 'torrent', 'offset'] and self.fallback:
+                continue
+
+            if not first:
+                yield ', '
+            else:
+                first = False
+
+            yield f'"{key}": {json_escape(getattr(self, key))}'
+
+        for key in multiline_keys:
+            if getattr(self, key):
+                yield f',\n  "{key}": {json_escape(getattr(self, key))}'
+
+        yield '\n' if multiline else ' '
+        yield '}'
+
+    def __str__(self):
+        return self.to_json()
+
 
 class SegmentReference(Segment):
     def __init__(self, parent, game=None, **kwargs):
@@ -298,6 +337,27 @@ class Stream(list):
     def messages(self):
         return self._messages or 0
 
+    @join()
+    def to_json(self):
+        if len(self) > 1:
+            yield '[\n'
+            
+            first = True
+            for segment in self:
+                if not first:
+                    yield ',\n'
+                else:
+                    first = False
+
+                yield indent(segment.to_json(), 2)
+            
+            yield '\n]'
+        else:
+            yield self[0].to_json()
+
+    def __str__(self):
+        return self.to_json()
+
 
 class Streams(dict):
     def _from_dict(self, streams):
@@ -328,6 +388,24 @@ class Streams(dict):
             self._from_list(streams)
         else:
             raise TypeError(type(streams))
+    
+    @join()
+    def to_json(self):
+        yield '{\n'
+        
+        first = True
+        for key, stream in self.items():
+            if not first:
+                yield ',\n'
+            else:
+                first = False
+
+            yield f'  "{key}": {indent(stream.to_json(), 2)[2:]}'
+
+        yield '\n}'
+
+    def __str__(self):
+        return self.to_json()
 
 
 streams = Streams(load_json('data/streams.json'))

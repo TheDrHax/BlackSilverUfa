@@ -130,7 +130,7 @@
   "224600319": { "youtube": "43q8zNpTCCE" },
   "225279322": [
     { "youtube": "PmEyNRdpkbE", "official": false },
-    { "youtube": "--Rd8iLfyVw", "official": false, "offset": "3:47:21" }
+    { "youtube": "--Rd8iLfyVw", "offset": "3:47:21", "official": false }
   ],
   "225950740": { "youtube": "uXXquPRJHOw" },
   "226000025": { "youtube": "vB4XCZS5PmA" },
@@ -158,11 +158,11 @@
   "233711282": { "youtube": "UTVKKl5OZng", "offset": "32:55" },
   "234037742": [
     {
-      "youtube": "7osmQxT12SE", "official": false, "offset": "0:19",
+      "youtube": "7osmQxT12SE", "offset": "0:19", "official": false,
       "note": "Официальная запись <a href=\"https://vk.com/wall-28387068_3201905\">заблокирована</a>."
     },
     {
-      "youtube": "ohyCZ_lgInA", "official": false, "offset": "2:22:56",
+      "youtube": "ohyCZ_lgInA", "offset": "2:22:56", "official": false,
       "note": "Официальная запись <a href=\"https://vk.com/wall-28387068_3201905\">заблокирована</a>."
     }
   ],
@@ -171,14 +171,14 @@
   "236175824": { "youtube": "TgUPE-ezSZo" },
   "236864236": [
     { "youtube": "QZ9txwxIGmI" },
-    { "youtube": "vLtmvNl8BLc", "official": false, "offset": "1:32:10", "end": "1:59:22" },
+    { "youtube": "vLtmvNl8BLc", "offset": "1:32:10", "official": false, "end": "1:59:22" },
     { "youtube": "y1vRhT6GRLg", "offset": "1:59:22" }
   ],
   "237277360": { "youtube": "4R1Nj6VLbc8" },
   "237304245": { "youtube": "CMb9zMRgVpY" },
   "238317087": { "youtube": "WvE25NDATlM" },
   "239018968": { "youtube": "EBc0XZxPW0s", "offset": "24:27" },
-  "239364187": { "youtube": "DTrt1MiLoQ8", "official": false, "sponsored": true },
+  "239364187": { "youtube": "DTrt1MiLoQ8", "official": false },
   "239731404": { "youtube": "wK2G0IeC9p8" },
   "240459322": { "youtube": "g-bPLnreu90" },
   "240830747": { "youtube": "2jLoZ6OzZz8" },
@@ -210,10 +210,10 @@
   "255759468": { "youtube": "PZMw0uRTvGM" },
   "256150354": { "youtube": "cI8GjdkamzI" },
   "256894852": { "youtube": "MCPuByMVSLQ" },
-  "257610470": { "youtube": "vXRhoEb1Ea8", "offset": "-00:06" },
+  "257610470": { "youtube": "vXRhoEb1Ea8", "offset": "-0:06" },
   "257985661": { "youtube": "yQh1bnndB4M" },
-  "259446831": { "youtube": "L8nR3beOFBs", "offset": "-00:04" },
-  "259798230": { "youtube": "aO1vU8MX33I", "offset": "-00:05" },
+  "259446831": { "youtube": "L8nR3beOFBs", "offset": "-0:04" },
+  "259798230": { "youtube": "aO1vU8MX33I", "offset": "-0:05" },
   "260173384": { "youtube": "4E1DlNdCh-8", "offset": "-0:04" },
   "260957900": {
     "youtube": "5h6Dqu1gGV0", "official": false,
@@ -227,8 +227,8 @@
   "263472196": [
     { "youtube": "0m1MZSyWvqU", "offset": "17:30" },
     {
-      "note": "Это видео блокируется во всех странах без каких-либо сообщений. Восстановил звуковую дорожку и залил на свой сервер.",
-      "direct": "https://bsufiles.thedrhax.pw/streams/permanent/263472196.1.mp4", "offset": "1:47:06"
+      "direct": "https://bsufiles.thedrhax.pw/streams/permanent/263472196.1.mp4", "offset": "1:47:06",
+      "note": "Это видео блокируется во всех странах без каких-либо сообщений. Восстановил звуковую дорожку и залил на свой сервер."
     }
   ],
   "263867941": { "youtube": "LkBp9giS1Hk", "official": false },
@@ -267,7 +267,7 @@
   "271255246": [
     { "youtube": "VwLxLaYUpPk", "official": false },
     { "youtube": "77QMDHsMHh4", "offset": "1:55:12" },
-    { "youtube": "wRL8-CbbqZg", "official": false, "offset": "3:25:20" }
+    { "youtube": "wRL8-CbbqZg", "offset": "3:25:20", "official": false }
   ],
   "271646745": [
     { "youtube": "iZ1nAHm0q6I", "official": false },
@@ -370,7 +370,7 @@
   "291791543": [
     { "youtube": "S67jJ1DcPXI", "offset": "-0:06" },
     {
-      "youtube": "zyN0W-jCa9g", "official": false, "offset": "1:18:24",
+      "youtube": "zyN0W-jCa9g", "offset": "1:18:24", "official": false,
       "note": "Стрим прерван по техническим причинам."
     }
   ],
@@ -430,8 +430,8 @@
   "309553210": { "youtube": "wyPWchWncI0", "offset": "-0:08" },
   "309591231": { "youtube": "5Z-d9aovMZY", "offset": "-0:07" },
   "309949699": {
-    "note": "Официальной записи <a href=\"https://twitter.com/Sempai_Black/status/1040868783244627970\">не будет</a>.",
-    "youtube": "iaaJSOkp3VA", "official": false
+    "youtube": "iaaJSOkp3VA", "official": false,
+    "note": "Официальной записи <a href=\"https://twitter.com/Sempai_Black/status/1040868783244627970\">не будет</a>."
   },
   "311651965": { "youtube": "jYH-YKyDelc" },
   "312042770": { "youtube": "xlTxDGQCqxE", "offset": "-0:05" },
@@ -439,7 +439,7 @@
   "313288682": { "youtube": "5uQKAyYIHJI", "offset": "-0:07" },
   "313747869": { "youtube": "MaIl87jzmxI", "offset": "-0:07" },
   "314960838": { "youtube": "255lqgwxcUk", "offset": "-0:07" },
-  "315365879": { "youtube": "xv_KBi44Tpk", "sponsored": true },
+  "315365879": { "youtube": "xv_KBi44Tpk" },
   "316219912": { "youtube": "o4m8E_HTIMA" },
   "316677687": { "youtube": "kxzXcDaLX5w" },
   "317042062": { "youtube": "9S2C0WSq_x8" },
@@ -450,11 +450,11 @@
   "321174954": { "youtube": "v-rXL-YyuOM" },
   "321609984": { "youtube": "Lp7F9saZvZc" },
   "322090247": { "youtube": "i846T8NRySc" },
-  "323410931": { "youtube": "ei_Wae-v_eY", "sponsored": true },
+  "323410931": { "youtube": "ei_Wae-v_eY" },
   "323817086": { "youtube": "ZsX_Y-mviMY", "offset": "-0:09" },
   "324642823": { "youtube": "LxxLvXPA-pI", "offset": "-0:07" },
   "325559385": { "youtube": "WLoTgzMfPiQ", "official": false },
-  "326381815": { "youtube": "Oav8ofjbLPs", "sponsored": true },
+  "326381815": { "youtube": "Oav8ofjbLPs" },
   "326792291": { "youtube": "KwjWtkrlnYc" },
   "327553236": { "youtube": "qwtJJbiCnnw" },
   "327999053": { "youtube": "TGTfw46-WzE" },
@@ -506,8 +506,8 @@
   "344508969": [
     { "youtube": "DgtSzu2YOyY", "offset": "-0:08" },
     {
-      "note": "На Book of Demons пришлось удалить 21481 сообщение.",
-      "youtube": "SO-ZRUNr_8o", "offset": "54:24"
+      "youtube": "SO-ZRUNr_8o", "offset": "54:24",
+      "note": "На Book of Demons пришлось удалить 21481 сообщение."
     }
   ],
   "344946351": { "youtube": "JHcC3pCGKKc", "offset": "-0:07" },
@@ -529,8 +529,8 @@
   "350791309": { "youtube": "EKcEct_YRKY" },
   "351262416": { "youtube": "IB_AEgjEoWg" },
   "352177874": { "youtube": "eBmclf8kX8o" },
-  "352687063": { "youtube": "oH8e8UEV9no", "official": false, "sponsored": true },
-  "352766083": { "youtube": "y4Xetg-Q0-w", "official": false, "sponsored": true },
+  "352687063": { "youtube": "oH8e8UEV9no", "official": false },
+  "352766083": { "youtube": "y4Xetg-Q0-w", "official": false },
   "353211576": { "youtube": "NPzMdwc1H2k" },
   "354067956": { "youtube": "lVLsdWSH_h0" },
   "354466172": { "youtube": "OoU4tQ0ekn0" },
@@ -615,16 +615,16 @@
   "381512063": { "youtube": "vmMSIcOBTic" },
   "381522963": { "youtube": "9gn0MDPk4GY" },
   "382092665": { "youtube": "G5eXWMZaS8E" },
-  "382162351": { "youtube": "D80Sboinge8", "sponsored": true },
+  "382162351": { "youtube": "D80Sboinge8" },
   "383771606": { "youtube": "bfz66zyAQsk" },
   "384295329": { "youtube": "F9qIF9vjf7s" },
   "385372335": [
     { "youtube": "Va3s8fHkDqs" },
-    { "youtube": "RPwIU4kM2xo", "official": false, "offset": "1:56:10" }
+    { "youtube": "RPwIU4kM2xo", "offset": "1:56:10", "official": false }
   ],
   "385983486": { "youtube": "vySEpxQvDdE" },
   "387007566": {
-    "youtube": "Gn67rOW2OJo", "official": false, "sponsored": true,
+    "youtube": "Gn67rOW2OJo", "official": false,
     "note": "На официальный канал попал только <a href=\"https://youtu.be/_NeGsFRIXzA\">небольшой фрагмент</a> этого стрима."
   },
   "387496098": [
@@ -647,7 +647,7 @@
     { "youtube": "UyUJ6QUJBYQ" },
     { "youtube": "Pq-5lWmmkqc", "offset": "2:52:22" }
   ],
-  "394859046": { "youtube": "Vps1tVugURY", "sponsored": true },
+  "394859046": { "youtube": "Vps1tVugURY" },
   "395846647": [
     { "youtube": "VINr8fu7Kbw" },
     { "youtube": "I3P1JbRcadk", "offset": "1:46:09" }
@@ -662,19 +662,19 @@
       "youtube": "IHc2XRynEQs", "end": "13:23",
       "note": "Стрим разделён на три сегмента, так как из записи был вырезан фрагмент 13:23-1:03:17."
     },
-    { "youtube": "XbzAt8-b9RU", "official": false, "offset": "13:23" },
-    { "youtube": "IHc2XRynEQs", "start": "1:03:17", "offset": "49:54" }
+    { "youtube": "XbzAt8-b9RU", "offset": "13:23", "official": false },
+    { "youtube": "IHc2XRynEQs", "offset": "49:54", "start": "1:03:17" }
   ],
   "400422352": [
     { "youtube": "LkjKrxeUjbo", "end": "6:28:48" },
     {
-      "youtube": "BqhpDelQ9HE", "official": false, "offset": "6:28:45",
+      "youtube": "BqhpDelQ9HE", "offset": "6:28:45", "official": false,
       "note": "Этот фрагмент стрима был вырезан из официальной записи."
     }
   ],
   "401955929": [
     { "youtube": "cR9tL7z9tNE", "offset": "15:31" },
-    { "youtube": "z7au6nNShfQ", "official": false, "offset": "2:19:53" }
+    { "youtube": "z7au6nNShfQ", "offset": "2:19:53", "official": false }
   ],
   "402450066": [
     { "youtube": "AeqJTJeuRMQ", "official": false },
@@ -720,7 +720,7 @@
   "423369283": [
     { "youtube": "dWelI2WV9lo" },
     {
-      "youtube": "0LS5AFjmgY0", "official": false, "offset": "5:43:25",
+      "youtube": "0LS5AFjmgY0", "offset": "5:43:25", "official": false,
       "note": "Эта часть стрима по какой-то причине не попала на официальную запись."
     }
   ],
@@ -729,20 +729,20 @@
   "426011884": { "youtube": "Cw-YimnBMKo", "official": false },
   "426022824": [
     {
-      "note": "В официальной записи на первых 6 минутах нет звука, поэтому оставляю неофициальную.",
-      "youtube": "V7aab4Vk7wA", "official": false
+      "youtube": "V7aab4Vk7wA", "official": false,
+      "note": "В официальной записи на первых 6 минутах нет звука, поэтому оставляю неофициальную."
     },
     { "youtube": "ZSAAbo5nuQc", "start": "22:34" }
   ],
   "426474797": [
     { "youtube": "VRmQE4rW13I" },
     {
-      "note": "Эта часть стрима не попала на официальную запись.",
-      "youtube": "EQye_zCdYdw", "official": false, "offset": "5:36:46"
+      "youtube": "EQye_zCdYdw", "offset": "5:36:46", "official": false,
+      "note": "Эта часть стрима не попала на официальную запись."
     }
   ],
   "427832718": { "youtube": "VZZ0EeScFnc" },
-  "428271249": { "youtube": "UHWUfjzO3Yc", "official": false, "sponsored": true },
+  "428271249": { "youtube": "UHWUfjzO3Yc", "official": false },
   "428684611": { "youtube": "RyEKE78FeCA" },
   "429660363": { "youtube": "9zOlkjDiR7E" },
   "430120134": [
@@ -750,7 +750,7 @@
     { "youtube": "iDGOWGBB9nE", "offset": "1:59:58" },
     { "youtube": "1i3A3mCwEww", "offset": "5:41:36", "official": false }
   ],
-  "431084407": { "youtube": "rWm1_HRQGBg", "sponsored": true },
+  "431084407": { "youtube": "rWm1_HRQGBg" },
   "431574734": { "youtube": "AasvJgkiawo" },
   "432481618": [
     { "youtube": "-qY3xtl98cg" },
@@ -802,8 +802,8 @@
   ],
   "445389664": { "youtube": "Kjt2l84NcH0" },
   "445866715": {
-    "note": "Официальная запись <a href=\"https://twitter.com/Sempai_Black/status/1145994206663589888\">заблокирована</a>.",
-    "youtube": "DWf86cn_BMs", "official": false
+    "youtube": "DWf86cn_BMs", "official": false,
+    "note": "Официальная запись <a href=\"https://twitter.com/Sempai_Black/status/1145994206663589888\">заблокирована</a>."
   },
   "447694923": [
     { "youtube": "iAa4VBV3o6E" },
@@ -839,5 +839,5 @@
   "455431771": { "youtube": "smFpBepI1N0" },
   "455921735": { "youtube": "9xG8WTopMtU" },
   "456859112": { "youtube": "T02PGbceDAc" },
-  "461911206": { "youtube": "b7y6HsTJgBw", "official": false }
+  "461911206": {  }
 }
