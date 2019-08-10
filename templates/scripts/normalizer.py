@@ -28,16 +28,19 @@ def normalize_timecodes(filename='data/timecodes.json'):
 
     with open(filename, 'w') as fo:
         json.dump(result, fo, indent=2, ensure_ascii=False)
+        fo.write('\n')
 
 
 def normalize_games(filename='data/games.json'):
     with open(filename, 'w') as fo:
         fo.write(games.to_json())
+        fo.write('\n')
 
 
 def normalize_streams(filename='data/streams.json'):
     with open(filename, 'w') as fo:
         fo.write(streams.to_json())
+        fo.write('\n')
 
 
 if __name__ == '__main__':
