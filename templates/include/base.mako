@@ -136,13 +136,20 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
     <!-- https://github.com/thednp/bootstrap.native -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.15/bootstrap-native-v4.min.js"></script>
+    <!-- https://github.com/sandoche/Darkmode.js -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.4.0/lib/darkmode-js.min.js"></script>
     <!-- https://github.com/WickyNilliams/headroom.js -->
     <script src="https://npmcdn.com/headroom.js@0.9.4/dist/headroom.min.js"></script>
     <!-- https://github.com/kraaden/autocomplete -->
     <script src="/static/js/autocomplete.js?hash=${md5file('static/js/autocomplete.js')}"></script>
     <script src="/search.js?hash=${md5file(_('search.js'))}"></script>
     <script type="text/javascript">
-      Search.init("#search");
+      var darkmode = new Darkmode({
+        saveInCookies: true,
+        label: '<i class="fas fa-lightbulb"></i>',
+        autoMatchOsTheme: true
+      });
+      darkmode.showWidget();
 
       var headroom  = new Headroom(document.querySelector('nav'));
       headroom.init();
@@ -150,6 +157,8 @@
       var lazyload = new LazyLoad({
         elements_selector: ".lazyload"
       });
+
+      Search.init("#search");
     </script>
     <%block name="scripts" />
   </body>

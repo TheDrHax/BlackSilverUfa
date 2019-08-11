@@ -42,6 +42,10 @@
   bottom: auto;
 }
 
+.card {
+  background-color: #fff0;
+}
+
 footer.page-footer a {
   color: #fff;
 }
@@ -86,7 +90,12 @@ h3>.badge {
   box-sizing: border-box;
   border: 1px solid rgba(50, 50, 50, 0.6);
   border-bottom: inherit;
-  }
+}
+
+.darkmode--activated .autocomplete {
+  background: #343a40;
+  color: white;
+}
 
 .autocomplete>div {
   padding: 0 4px;
@@ -100,15 +109,21 @@ h3>.badge {
 }
 
 .autocomplete .group {
-  background: rgb(86, 90, 94);
+  background: rgb(37, 40, 43);
   color: #fff;
   font-size: 14px;
 }
 
 .autocomplete>div:hover:not(.group),
 .autocomplete>div.selected {
-  background: #80bdff;
+  background: #a4d0ff;
   cursor: pointer;
+}
+
+.darkmode--activated .autocomplete>div:hover:not(.group),
+.darkmode--activated .autocomplete>div.selected {
+  background: #224564;
+  color: white;
 }
 
 /*
@@ -124,6 +139,10 @@ h3>.badge {
   margin: 8px 0px !important;
 }
 
+.darkmode--activated .hr-sect {
+  color: rgba(255, 255, 255, 0.35);
+}
+
 .hr-sect::before,
 .hr-sect::after {
   content: "";
@@ -133,6 +152,11 @@ h3>.badge {
   font-size: 0px;
   line-height: 0px;
   margin: 0px 8px;
+}
+
+.darkmode--activated .hr-sect:before,
+.darkmode--activated .hr-sect:after {
+  background: rgba(255, 255, 255, 0.35);
 }
 
 .badge a {
@@ -245,4 +269,37 @@ a:hover {
   white-space: pre;
   background: transparent;
   border: 0
+}
+
+/*
+ * Dark Mode overrides
+ */
+
+footer,
+h1,
+h2,
+h3,
+.progress,
+.badge-row {
+  isolation: isolate;
+}
+
+.darkmode-toggle>i {
+  color: white;
+}
+
+.darkmode--activated .darkmode-toggle>i {
+  color: #100f2c;
+}
+
+.darkmode--activated .dropdown-menu {
+  background-color: #343a40;
+}
+
+.darkmode--activated .dropdown-item {
+  color: white;
+}
+
+.darkmode--activated .dropdown-item:hover {
+  background-color: #485057;
 }
