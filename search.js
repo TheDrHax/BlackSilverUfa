@@ -597,6 +597,7 @@ var Redirect = {
     "455921735": "/links/rdr2-online.html#455921735",
     "456859112": "/links/life-is-strange-2.html#456859112",
     "461911206": "/links/hollow-knight.html#461911206",
+    "466152548": "/links/first.html#466152548",
   },
 
   link: function (hash) {
@@ -733,6 +734,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Spirit Hunter: Death Mark", path: "/links/first.html#466152548", year: 2019 },
       { name: "Thief Simulator", path: "/links/first.html#454019548", year: 2019 },
       { name: "Daymare: 1998 (демо)", path: "/links/first.html#447694923", year: 2019 },
       { name: "Failed State", path: "/links/first.html#444021917", year: 2019 },

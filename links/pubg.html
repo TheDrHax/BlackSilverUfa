@@ -746,7 +746,7 @@
     <script src="https://npmcdn.com/headroom.js@0.9.4/dist/headroom.min.js"></script>
     <!-- https://github.com/kraaden/autocomplete -->
     <script src="/static/js/autocomplete.js?hash=b076cd4584e06fb673280ea003e193e7"></script>
-    <script src="/search.js?hash=3ae25485a25c0aeddf4a14f34685517a"></script>
+    <script src="/search.js?hash=9c9c77a8eea613d9c4a249ceb93ee77f"></script>
     <script type="text/javascript">
       var darkmode = new Darkmode({
         saveInCookies: true,
@@ -758,9 +758,17 @@
       var headroom  = new Headroom(document.querySelector('nav'), {
         onPin: function() {
           darkmode.button.hidden = false;
+
+          if (!darkmode.isActivated()) {
+            darkmode.layer.hidden = false;
+          }
         },
         onUnpin: function() {
           darkmode.button.hidden = true;
+
+          if (!darkmode.isActivated()) {
+            darkmode.layer.hidden = true;
+          }
         }
       });
       headroom.init();
