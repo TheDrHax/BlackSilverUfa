@@ -154,9 +154,17 @@
       var headroom  = new Headroom(document.querySelector('nav'), {
         onPin: function() {
           darkmode.button.hidden = false;
+
+          if (!darkmode.isActivated()) {
+            darkmode.layer.hidden = false;
+          }
         },
         onUnpin: function() {
           darkmode.button.hidden = true;
+
+          if (!darkmode.isActivated()) {
+            darkmode.layer.hidden = true;
+          }
         }
       });
       headroom.init();
