@@ -151,7 +151,14 @@
       });
       darkmode.showWidget();
 
-      var headroom  = new Headroom(document.querySelector('nav'));
+      var headroom  = new Headroom(document.querySelector('nav'), {
+        onPin: function() {
+          darkmode.button.hidden = false;
+        },
+        onUnpin: function() {
+          darkmode.button.hidden = true;
+        }
+      });
       headroom.init();
 
       var lazyload = new LazyLoad({
