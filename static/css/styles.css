@@ -284,6 +284,10 @@ h3,
   isolation: isolate;
 }
 
+.darkmode-toggle {
+  z-index: 1;
+}
+
 .darkmode-toggle>i {
   color: white;
 }
