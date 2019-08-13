@@ -598,6 +598,7 @@ var Redirect = {
     "456859112": "/links/life-is-strange-2.html#456859112",
     "461911206": "/links/hollow-knight.html#461911206",
     "466152548": "/links/first.html#466152548",
+    "466612968": "/links/single.html#466612968",
   },
 
   link: function (hash) {
@@ -637,8 +638,9 @@ var Search = {
 
   games: {
     "finished": [
-      { name: "Doki Doki Literature Club", path: "/links/doki-doki.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
+      { name: "The Dark Pictures: Man of Medan (демо)", path: "/links/single.html#466612968", year: 2019 },
+      { name: "Doki Doki Literature Club", path: "/links/doki-doki.html", year: 2019 },
       { name: "Duck Season", path: "/links/single.html#454019548.1", year: 2019 },
       { name: "Gears of War 2", path: "/links/gears-of-war-2.html", year: 2019 },
       { name: "Love, Sam", path: "/links/single.html#451727019.2", year: 2019 },
@@ -734,6 +736,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Gibbous - A Cthulhu Adventure", path: "/links/first.html#466612968", year: 2019 },
       { name: "Spirit Hunter: Death Mark", path: "/links/first.html#466152548", year: 2019 },
       { name: "Thief Simulator", path: "/links/first.html#454019548", year: 2019 },
       { name: "Daymare: 1998 (демо)", path: "/links/first.html#447694923", year: 2019 },
