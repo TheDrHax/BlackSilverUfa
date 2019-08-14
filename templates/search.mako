@@ -71,14 +71,22 @@ var Search = {
   init: function() {
     let data = Search.data();
 
+    function strip(string) {
+      return string.trim().toLowerCase().match(/[a-zа-я0-9]+/gi).join(' ');
+    }
+
     autocomplete({
       minLength: 2,
       input: document.querySelector("#search"),
       fetch: function(text, update) {
-        text = text.toLowerCase();
+        text = strip(text);
         let suggestions = data.filter(function (x) {
-          let words = x.name.toLowerCase().split(' ');
-          return words.filter(y => y.startsWith(text)).length > 0;
+          if (text.indexOf(' ') != -1) {
+            return strip(x.name).indexOf(text) != -1;
+          } else {
+            let words = strip(x.name).split(' ');
+            return words.filter(y => y.startsWith(text)).length > 0;
+          }
         });
         update(suggestions);
       },
