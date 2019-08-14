@@ -275,7 +275,7 @@ class TimecodesSlice(Timecodes):
 
 
 class TimecodeHelper:
-    delay = 10  # Delay of experimental low latency streamlink + MPV without cache
+    offset = 16  # Constant for experimental low latency streamlink + MPV without cache
 
     @staticmethod
     def time():
@@ -286,7 +286,7 @@ class TimecodeHelper:
         self.start = Timecode(start)
 
     def __call__(self):
-        t = self.time() - self.start - Timecode(self.delay)
+        t = self.time() - self.start - Timecode(self.offset)
         if t.value < 0:
             t += Timecode('24:00:00')
         return t
