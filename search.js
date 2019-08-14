@@ -599,6 +599,7 @@ var Redirect = {
     "461911206": "/links/hollow-knight.html#461911206",
     "466152548": "/links/first.html#466152548",
     "466612968": "/links/single.html#466612968",
+    "467081484": "/links/gears-of-war-3.html#467081484",
   },
 
   link: function (hash) {
@@ -882,6 +883,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Gears of War 3", path: "/links/gears-of-war-3.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
       { name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019 },
       { name: "Anthem", path: "/links/anthem.html", year: 2019 },
