@@ -601,7 +601,8 @@ var Redirect = {
     "466612968": "/links/single.html#466612968",
     "467081484": "/links/gears-of-war-3.html#467081484",
     "467982647": "/links/first.html#467982647",
-    "467982647.1": "/links/first.html#467982647.1",
+    "467982647.1": "/links/remnant-from-the-ashes.html#467982647.1",
+    "468461070": "/links/remnant-from-the-ashes.html#468461070",
   },
 
   link: function (hash) {
@@ -739,7 +740,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
-      { name: "Remnant: From the Ashes", path: "/links/first.html#467982647.1", year: 2019 },
       { name: "Ion Fury", path: "/links/first.html#467982647", year: 2019 },
       { name: "Gibbous - A Cthulhu Adventure", path: "/links/first.html#466612968", year: 2019 },
       { name: "Spirit Hunter: Death Mark", path: "/links/first.html#466152548", year: 2019 },
@@ -887,6 +887,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Remnant: From the Ashes", path: "/links/remnant-from-the-ashes.html", year: 2019 },
       { name: "Gears of War 3", path: "/links/gears-of-war-3.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
       { name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019 },
