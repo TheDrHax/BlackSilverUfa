@@ -601,6 +601,7 @@ var Redirect = {
     "466612968": "/links/single.html#466612968",
     "467081484": "/links/gears-of-war-3.html#467081484",
     "467982647": "/links/first.html#467982647",
+    "467982647.1": "/links/first.html#467982647.1",
   },
 
   link: function (hash) {
@@ -738,8 +739,8 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Remnant: From the Ashes", path: "/links/first.html#467982647.1", year: 2019 },
       { name: "Ion Fury", path: "/links/first.html#467982647", year: 2019 },
-      { name: "Remnant: From the Ashes", path: "/links/first.html#467982647", year: 2019 },
       { name: "Gibbous - A Cthulhu Adventure", path: "/links/first.html#466612968", year: 2019 },
       { name: "Spirit Hunter: Death Mark", path: "/links/first.html#466152548", year: 2019 },
       { name: "Thief Simulator", path: "/links/first.html#454019548", year: 2019 },
