@@ -1105,8 +1105,16 @@
       { "name": "Thief Simulator", "twitch": "454019548", "segment": 0 },
       { "name": "Spirit Hunter: Death Mark", "twitch": "466152548" },
       { "name": "Gibbous - A Cthulhu Adventure", "twitch": "466612968", "start": "2:07:28" },
-      { "name": "Ion Fury", "twitch": "467982647", "segment": 0 },
-      { "name": "Remnant: From the Ashes", "twitch": "467982647", "segment": 1 }
+      { "name": "Ion Fury", "twitch": "467982647", "segment": 0 }
+    ]
+  },
+  {
+    "name": "Remnant: From the Ashes",
+    "category": "ongoing",
+    "id": "remnant-from-the-ashes",
+    "streams": [
+      { "name": "1", "twitch": "467982647", "segment": 1 },
+      { "name": "2", "twitch": "468461070" }
     ]
   },
   {
