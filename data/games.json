@@ -39,7 +39,6 @@
       { "name": "Looterkings / Mount Your Friends", "twitch": "206394832" },
       { "name": "The Hunter: Call of the Wild / Road Redemption", "twitch": "213247693" },
       { "name": "Viscera Cleanup Detail / Astroneer", "twitch": "213846142", "start": "1:58:00" },
-      { "name": "Party Panic", "twitch": "232346216" },
       { "name": "Dead Dozen", "twitch": "236864236", "segment": 0 },
       { "name": "Albion Online / Farm Together", "twitch": "239364187" },
       { "name": "Dead Realm / SoulHunt", "twitch": "250258247", "start": "1:58:13" },
@@ -47,7 +46,6 @@
       { "name": "Murderous Pursuits / The Forest", "twitch": "268497396", "start": "2:56:48" },
       { "name": "The Goatman / Cuisine Royale", "twitch": "274651226", "start": "2:07:43" },
       { "name": "Call of Duty WWII: Nazi Zombies", "twitch": "278920291", "segment": 1 },
-      { "name": "Mount Your Friends 3D", "twitch": "281859149", "start": "2:05:40" },
       { "name": "Drunk-Fu: Wasted Masters", "twitch": "284156303", "start": "3:26:53" },
       { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" },
       { "name": "CASE 2: Animatronics Survival (кооп)", "twitch": "293012700", "start": "2:58:54" },
@@ -70,8 +68,35 @@
       { "name": "Mortal Kombat 11 с Куплиновым", "twitch": "426022824", "segment": 1 },
       { "name": "We Were Here / We Were Here Too", "twitch": "430120134", "segment": 1 },
       { "name": "Barotrauma", "twitch": "435683759" },
-      { "name": "Havocado", "twitch": "439860739", "start": "1:51:51" },
-      { "name": "DayZ на PS4 с Джеком", "twitch": "449465888" }
+      { "name": "DayZ на PS4 с Джеком", "twitch": "449465888" },
+      { "name": "Hot Shot Burn", "twitch": "468908083", "start": "2:33:36" }
+    ]
+  },
+  {
+    "name": "Havocado",
+    "category": "co-op-series",
+    "id": "havocado",
+    "streams": [
+      { "name": "1", "twitch": "439860739", "start": "1:51:51" },
+      { "name": "2", "twitch": "468908083", "start": "3:33:50" }
+    ]
+  },
+  {
+    "name": "Party Panic",
+    "category": "co-op-series",
+    "id": "party-panic",
+    "streams": [
+      { "name": "1", "twitch": "232346216" },
+      { "name": "2", "twitch": "468908083" }
+    ]
+  },
+  {
+    "name": "Mount Your Friends 3D",
+    "category": "co-op-series",
+    "id": "mount-your-friends-3d",
+    "streams": [
+      { "name": "1", "twitch": "281859149", "start": "2:05:40" },
+      { "name": "2", "twitch": "468908083", "start": "2:59:50" }
     ]
   },
   {
@@ -357,7 +382,8 @@
       { "name": "13", "twitch": "389704750", "start": "4:39:52" },
       { "name": "14", "twitch": "402450066", "segment": 1, "start": "5:12:47" },
       { "name": "15", "twitch": "410400457", "start": "5:04:32" },
-      { "name": "16", "twitch": "439860739", "start": "5:21:58" }
+      { "name": "16", "twitch": "439860739", "start": "5:21:58" },
+      { "name": "17", "twitch": "468908083", "start": "4:35:10" }
     ]
   },
   {
