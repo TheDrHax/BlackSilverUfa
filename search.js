@@ -383,7 +383,7 @@ var Redirect = {
     "344508969.1": "/links/first.html#344508969.1",
     "344946351": "/links/first.html#344946351",
     "345416464": "/links/first.html#345416464",
-    "345649019": "/links/the-game-awards.html#345649019",
+    "345649019": "/links/expos.html#345649019",
     "345863416": "/links/dmc-5.html#345863416",
     "346312308": "/links/ashen.html#346312308",
     "347665549": "/links/single.html#347665549",
@@ -604,6 +604,7 @@ var Redirect = {
     "467982647.1": "/links/remnant-from-the-ashes.html#467982647.1",
     "468461070": "/links/remnant-from-the-ashes.html#468461070",
     "468908083": "/links/party-panic.html#468908083",
+    "469393130": "/links/expos.html#469393130",
   },
 
   link: function (hash) {
@@ -1058,8 +1059,10 @@ var Search = {
       { name: "Хэллоуин", path: "/links/halloween.html", year: 2017 },
     ],
     "expos": [
+      { name: "Конференции", path: "/links/expos.html", year: 2019 },
+      { name: "Gamescom 2019", path: "/links/expos.html#469393130", year: 2019 },
       { name: "неПрофессиональный E3 2019", path: "/links/e3_2019.html", year: 2019 },
-      { name: "неПрофессиональный The Game Awards", path: "/links/the-game-awards.html", year: 2018 },
+      { name: "неПрофессиональный The Game Awards 2018", path: "/links/expos.html#345649019", year: 2018 },
       { name: "неПрофессиональный E3 2018", path: "/links/e3_2018.html", year: 2018 },
       { name: "неПрофессиональный E3 2017", path: "/links/e3_2017.html", year: 2017 },
     ],
