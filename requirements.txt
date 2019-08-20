@@ -6,4 +6,4 @@ pymorphy2==0.8
 requests==2.21.0
 sortedcontainers==2.1.0
 youtube-dl==2019.6.21
-git+git://github.com/TheDrHax/Twitch-Chat-Downloader.git@2.3.2
+tdh-tcd==2.4
