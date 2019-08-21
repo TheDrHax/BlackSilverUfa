@@ -79,8 +79,8 @@ case $1 in
     serve) $PYTHON -m templates.utils.serve ;;
     download-chats) $PYTHON -m templates.utils.chats ;;
     sh) $@ ;;
-    cli) $PYTHON -i -m templates.utils.cli ;;
+    repl) $PYTHON -i -m templates.utils.repl ;;
     script) shift; $PYTHON -m templates.scripts.$@ ;;
     python) shift; $PYTHON $@ ;;
-    *) echo "Usage: $0 venv|pages|build|serve|download-chats|sh|cli|script|python" ;;
+    *) echo "Usage: $0 venv|pages|build|serve|download-chats|sh|repl|script|python" ;;
 esac
