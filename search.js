@@ -605,6 +605,7 @@ var Redirect = {
     "468461070": "/links/remnant-from-the-ashes.html#468461070",
     "468908083": "/links/party-panic.html#468908083",
     "469393130": "/links/expos.html#469393130",
+    "470288598": "/links/events.html#470288598",
   },
 
   link: function (hash) {
@@ -1046,6 +1047,7 @@ var Search = {
     ],
     "other": [
       { name: "IRL", path: "/links/events.html", year: 2019 },
+      { name: "Розыгрыш Cyberpunk 2077", path: "/links/events.html#470288598", year: 2019 },
       { name: "Розыгрыш двух ноутбуков Asus", path: "/links/events.html#448568048", year: 2019 },
       { name: "Розыгрыш Asus ROG Phone", path: "/links/events.html#444021917", year: 2019 },
       { name: "Разное", path: "/links/other.html", year: 2019 },
