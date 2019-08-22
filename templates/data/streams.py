@@ -33,7 +33,7 @@ class Segment:
             else:
                 setattr(self, key, default)
 
-        attr('segment', 0)
+        self._segment = len(self.stream)
 
         for key in ['start', 'end', 'offset']:
             attr(key, func=lambda x: Timecode(x))
@@ -87,6 +87,13 @@ class Segment:
                 self.timecodes.end = end
 
     @property
+    def segment(self) -> int:
+        if self in self.stream:
+            return self.stream.index(self)
+        else:
+            return self._segment
+
+    @property
     def fallback(self):
         return self._fallback
     
@@ -106,7 +113,8 @@ class Segment:
     def reference(self):
         return SegmentReference(
             parent=self.references[0],
-            name=' / '.join([r.game_name for r in self.references])
+            name=' / '.join([r.game_name for r in self.references]),
+            parent_ro=True
         )
 
     @property
@@ -250,7 +258,6 @@ class Segment:
 
 class SegmentReference(Segment):
     def __init__(self, parent, game=None, **kwargs):
-        self.parent = parent
         self.game = getattr(parent, 'game', game)
 
         if self.game is None:
@@ -265,6 +272,24 @@ class SegmentReference(Segment):
 
         for key in ['start', 'end']:
             attr(key, lambda x: Timecode(x))
+        
+        self._parent = None
+        self.parent_ro = kwargs.get('parent_ro', False)
+        self.parent = parent
+
+    @property
+    def parent(self):
+        return self._parent
+    
+    @parent.setter
+    def parent(self, segment):
+        if self._parent and not self.parent_ro:
+            self._parent.references.remove(self)
+
+        self._parent = segment
+
+        if not self.parent_ro:
+            self._parent.references.add(self)
 
     @property
     def game_name(self):
@@ -274,7 +299,7 @@ class SegmentReference(Segment):
             return self.game.name
 
     def __getattr__(self, attr):
-        return getattr(self.parent, attr)
+        return getattr(self._parent, attr)
 
     @join()
     def to_json(self):
@@ -338,8 +363,8 @@ class Stream(list):
         self.games = []
         self.timecodes = Timecodes(timecodes.get(key) or {})
 
-        for i, segment in enumerate(data):
-            self.append(Segment(self, segment=i, **segment))
+        for segment in data:
+            self.append(Segment(self, **segment))
 
     @property
     @cached('duration-twitch-{0[0].twitch}')

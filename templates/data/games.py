@@ -22,7 +22,6 @@ class Game:
         for segment in kwargs['streams']:
             parent = streams[segment['twitch']][segment.get('segment') or 0]
             ref = SegmentReference(parent, game=self, **segment)
-            ref.parent.references.add(ref)
             ref.stream.games.append((self, ref))
             self.streams.append(ref)
 
