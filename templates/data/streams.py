@@ -41,7 +41,7 @@ class Segment:
         for key in ['youtube', 'direct', 'torrent', 'official', 'note', 'name']:
             attr(key)
 
-        self.fallback = False
+        self._fallback = False
         fallback = config['fallback']
         if not self.player_compatible and fallback['streams']:
             def check(url, code=200):
@@ -53,17 +53,18 @@ class Segment:
 
             if check(url):
                 if self.offset:
+                    self._fallback_start = self.start
                     self.start = self.offset
                     self.offset = None
 
                 self.direct = url
-                self.fallback = True
+                self._fallback = True
 
             torrent_url = f'{fallback["prefix"]}/{self.twitch}.torrent'
 
             if check(torrent_url):
                 self.torrent = torrent_url
-                self.fallback = True
+                self._fallback = True
 
         if len(stream.timecodes) > 0:
             self.timecodes = TimecodesSlice(stream.timecodes)
@@ -84,6 +85,23 @@ class Segment:
                 if self.offset:
                     end += self.offset
                 self.timecodes.end = end
+
+    @property
+    def fallback(self):
+        return self._fallback
+    
+    @fallback.setter
+    def fallback(self, enable: bool):
+        if not self._fallback and enable:
+            raise ValueError('Can not enable fallback at this point')
+
+        if self._fallback and not enable:
+            self._fallback = False
+            if self.start:
+                self.offset = self.start
+                self.start = self._fallback_start
+            self.direct = None
+            self.torrent = None
 
     def reference(self):
         return SegmentReference(
