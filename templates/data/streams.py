@@ -16,6 +16,8 @@ from ..utils import _, load_json, last_line, count_lines, join, json_escape, ind
 repo = Repo('.')
 req = Session()
 
+STREAMS_JSON = 'data/streams.json'
+
 
 class Segment:
     def __init__(self, stream, **kwargs):
@@ -370,7 +372,10 @@ class Stream(list):
 
 
 class Streams(dict):
-    def _from_dict(self, streams):
+    def __init__(self, filename: str = STREAMS_JSON):
+        self.filename = filename
+        streams = load_json(filename)
+
         for id, stream in streams.items():
             if type(stream) is dict:
                 self[id] = Stream([stream], id)
@@ -378,12 +383,7 @@ class Streams(dict):
                 self[id] = Stream(stream, id)
             else:
                 raise TypeError
-
-    def _from_list(self, streams):
-        for stream in streams:
-            id = stream['twitch']
-            self[id] = Stream([stream], id)
-
+    
     @property
     def segments(self):
         for key, stream in self.items():
@@ -391,16 +391,8 @@ class Streams(dict):
                 if len(segment.references) > 0:
                     yield segment
 
-    def __init__(self, streams):
-        if type(streams) is dict:
-            self._from_dict(streams)
-        elif type(streams) is list:
-            self._from_list(streams)
-        else:
-            raise TypeError(type(streams))
-    
     @join()
-    def to_json(self):
+    def to_json(self) -> str:
         yield '{\n'
         
         first = True
@@ -417,5 +409,13 @@ class Streams(dict):
     def __str__(self):
         return self.to_json()
 
+    def save(self, filename: str = None):
+        if filename == None:
+            filename = self.filename
+        
+        with open(filename, 'w') as fo:
+            fo.write(self.to_json())
+            fo.write('\n')
 
-streams = Streams(load_json('data/streams.json'))
+
+streams = Streams()

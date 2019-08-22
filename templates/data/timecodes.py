@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import json
+
 from datetime import datetime
 from sortedcontainers import SortedKeyList
 
 from ..utils import load_json
+
+
+TIMECODES_JSON = 'data/timecodes.json'
 
 
 class Timecode(object):
@@ -294,4 +299,24 @@ class TimecodeHelper:
     get = __call__
 
 
-timecodes = load_json('data/timecodes.json')
+class TimecodesDatabase(dict):
+    def __init__(self, filename: str = TIMECODES_JSON):
+        self.filename = filename
+        self.update(load_json(filename))
+    
+    def to_json(self) -> str:
+        return json.dumps(self, indent=2, ensure_ascii=False)
+
+    def __str__(self):
+        return self.to_json()
+
+    def save(self, filename: str = None):
+        if filename == None:
+            filename = self.filename
+
+        with open(filename, 'w') as fo:
+            fo.write(self.to_json())
+            fo.write('\n')
+
+
+timecodes = TimecodesDatabase()
