@@ -410,28 +410,37 @@
         <i class="fas fa-comments"></i> 3529
       </a>
     </span>
+    <span class="badge badge-success">
+      <a href="https://www.youtube.com/watch?v=OX8onC2rww8" target="_blank">
+        <i class="fab fa-youtube"></i> OX8onC2rww8
+      </a>
     </span>
   </div>
 </div>
 
 <ul>
   <li>Примечание: Этот стрим проводился на канале <a href="https://twitch.tv/artgameslp">ArtGamesLP</a></li>
+    <li>Таймкоды:</li>
+  <ul>
+    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="3">0:03</a> — Артур</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="281">4:41</a> — Игра</li>
+      <li>Боссы:</li>
+  <ul>
+    <li><a href="javascript:void(0)" class="timecode" data-id="3" data-value="565">9:25</a> - <a href="javascript:void(0)" class="timecode" data-id="3" data-value="1108">18:28</a> — Бессмертный король (6 попыток)</li>
+  </ul>
+
+  </ul>
+
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="3" data-name="4.1" data-twitch="470762578" style="display: none" />
+  <p class="stream col" data-id="3" data-offset="6868" data-name="4.1" data-twitch="470762578" data-youtube="OX8onC2rww8" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v470762578.ass" --player-passthrough hls twitch.tv/videos/470762578 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v470762578.ass --sub-delay=-6868 ytdl://OX8onC2rww8
 </code></pre>
 </div></div>
 
