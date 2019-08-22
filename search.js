@@ -607,6 +607,7 @@ var Redirect = {
     "469393130": "/links/expos.html#469393130",
     "470288598": "/links/events.html#470288598",
     "470811733": "/links/remnant-from-the-ashes.html#470811733",
+    "470811733.1": "/links/remnant-from-the-ashes.html#470811733.1",
   },
 
   link: function (hash) {
