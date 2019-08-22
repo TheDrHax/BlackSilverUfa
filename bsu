@@ -79,6 +79,7 @@ case $1 in
     serve) $PYTHON -m templates.utils.serve ;;
     download-chats) $PYTHON -m templates.utils.chats ;;
     sh) $@ ;;
+    cli) shift; $PYTHON -m templates.utils.cli $@ ;;
     repl) $PYTHON -i -m templates.utils.repl ;;
     script) shift; $PYTHON -m templates.scripts.$@ ;;
     python) shift; $PYTHON $@ ;;
