@@ -7,3 +7,4 @@ requests==2.21.0
 sortedcontainers==2.1.0
 youtube-dl==2019.8.13
 tdh-tcd==2.4
+docopt==0.6.2
