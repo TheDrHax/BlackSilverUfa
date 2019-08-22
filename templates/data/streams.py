@@ -211,7 +211,12 @@ class Segment:
 
         for key in multiline_keys:
             if getattr(self, key):
-                yield f',\n  "{key}": {json_escape(getattr(self, key))}'
+                if not first:
+                    yield ',\n  '
+                else:
+                    first = False
+
+                yield f'"{key}": {json_escape(getattr(self, key))}'
 
         yield '\n' if multiline else ' '
         yield '}'
@@ -284,7 +289,12 @@ class SegmentReference(Segment):
 
         for key in multiline_keys:
             if getattr(self, key) and not inherited(key):
-                yield f',\n  "{key}": {json_escape(getattr(self, key))}'
+                if not first:
+                    yield ',\n  '
+                else:
+                    first = False
+
+                yield f'"{key}": {json_escape(getattr(self, key))}'
 
         yield '\n' if multiline else ' '
         yield '}'
