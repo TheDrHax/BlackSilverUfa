@@ -225,6 +225,9 @@ class Segment:
 
     def __str__(self):
         return self.to_json()
+    
+    def __repr__(self):
+        return self.to_json()
 
 
 class SegmentReference(Segment):
@@ -304,6 +307,9 @@ class SegmentReference(Segment):
     def __str__(self):
         return self.to_json()
 
+    def __repr__(self):
+        return self.to_json()
+
 
 class Stream(list):
     def __init__(self, data, key):
@@ -370,6 +376,9 @@ class Stream(list):
     def __str__(self):
         return self.to_json()
 
+    def __repr__(self):
+        return self.to_json()
+
 
 class Streams(dict):
     def __init__(self, filename: str = STREAMS_JSON):
@@ -408,6 +417,9 @@ class Streams(dict):
 
     def __str__(self):
         return self.to_json()
+
+    def __repr__(self):
+        return f'Streams({len(self)})'
 
     def save(self, filename: str = None):
         if filename == None:
