@@ -7,6 +7,9 @@ from .streams import streams, SegmentReference
 from ..utils import load_json, join, json_escape, indent
 
 
+GAMES_JSON = 'data/games.json'
+
+
 class Game:
     def __init__(self, **kwargs):
         self.name = kwargs['name']
@@ -79,12 +82,11 @@ class Game:
 
 
 class Games(list):
-    def __init__(self, data):
-        if type(data) is not list:
-            raise TypeError
+    def __init__(self, filename: str = GAMES_JSON):
+        self.filename = filename
+        data = load_json(filename)
 
         ids = set()
-
         for game_raw in data:
             game = Game(**game_raw)
 
@@ -96,7 +98,7 @@ class Games(list):
             self.append(game)
 
     @join()
-    def to_json(self):
+    def to_json(self) -> str:
         yield '[\n'
 
         first = True
@@ -113,5 +115,13 @@ class Games(list):
     def __str__(self):
         return self.to_json()
 
+    def save(self, filename: str = None):
+        if filename is None:
+            filename = self.filename
+        
+        with open(filename, 'w') as fo:
+            fo.write(self.to_json())
+            fo.write('\n')
 
-games = Games(load_json('data/games.json'))
+
+games = Games()
