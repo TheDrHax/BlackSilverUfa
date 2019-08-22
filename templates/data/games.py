@@ -79,6 +79,9 @@ class Game:
     
     def __str__(self):
         return self.to_json()
+    
+    def __repr__(self):
+        return self.to_json()
 
 
 class Games(list):
@@ -114,6 +117,9 @@ class Games(list):
     
     def __str__(self):
         return self.to_json()
+    
+    def __repr__(self):
+        return f'Games({len(self)})'
 
     def save(self, filename: str = None):
         if filename is None:
