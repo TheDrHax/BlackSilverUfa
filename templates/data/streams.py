@@ -41,30 +41,8 @@ class Segment:
         for key in ['youtube', 'direct', 'torrent', 'official', 'note', 'name']:
             attr(key)
 
-        self._fallback = False
-        fallback = config['fallback']
-        if not self.player_compatible and fallback['streams']:
-            def check(url, code=200):
-                return req.head(
-                    url, allow_redirects=fallback['redirects']
-                ).status_code == code
-
-            url = f'{fallback["prefix"]}/{self.twitch}.mp4'
-
-            if check(url):
-                if self.offset:
-                    self._fallback_start = self.start
-                    self.start = self.offset
-                    self.offset = None
-
-                self.direct = url
-                self._fallback = True
-
-            torrent_url = f'{fallback["prefix"]}/{self.twitch}.torrent'
-
-            if check(torrent_url):
-                self.torrent = torrent_url
-                self._fallback = True
+        # Try to set fallback if enabled in config and segment is not playable
+        self.fallback = not self.player_compatible
 
         if len(stream.timecodes) > 0:
             self.timecodes = TimecodesSlice(stream.timecodes)
@@ -94,13 +72,44 @@ class Segment:
             return self._segment
 
     @property
-    def fallback(self):
-        return self._fallback
+    def fallback(self) -> bool:
+        if hasattr(self, '_fallback'):
+            return self._fallback
+        else:
+            return False
     
     @fallback.setter
     def fallback(self, enable: bool):
-        if not self._fallback and enable:
-            raise ValueError('Can not enable fallback at this point')
+        if not hasattr(self, '_fallback'):
+            self._fallback = False
+
+        fallback = config['fallback']
+
+        if not self._fallback and enable and \
+           not self.player_compatible and fallback['streams']:
+
+            def check(url, code=200):
+                return req.head(
+                    url, allow_redirects=fallback['redirects']
+                ).status_code == code
+
+            url = f'{fallback["prefix"]}/{self.twitch}.mp4'
+
+            if check(url):
+                if self.offset:
+                    self._fallback_start = self.start
+                    self.start = self.offset
+                    self.offset = None
+
+                self.direct = url
+                self._fallback = True
+
+            if fallback['torrents']:
+                torrent_url = f'{fallback["prefix"]}/{self.twitch}.torrent'
+
+                if check(torrent_url):
+                    self.torrent = torrent_url
+                    self._fallback = True
 
         if self._fallback and not enable:
             self._fallback = False
