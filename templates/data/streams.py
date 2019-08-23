@@ -42,7 +42,7 @@ class Segment:
             attr(key)
 
         # Try to set fallback if enabled in config and segment is not playable
-        self.fallback = not self.player_compatible
+        self.fallback = not self.playable
 
         if len(stream.timecodes) > 0:
             self.timecodes = TimecodesSlice(stream.timecodes)
@@ -86,7 +86,7 @@ class Segment:
         fallback = config['fallback']
 
         if not self._fallback and enable and \
-           not self.player_compatible and fallback['streams']:
+           not self.playable and fallback['streams']:
 
             def check(url, code=200):
                 return req.head(
@@ -127,7 +127,7 @@ class Segment:
         )
 
     @property
-    def player_compatible(self):
+    def playable(self):
         return True in [getattr(self, key) is not None
                         for key in ['youtube', 'direct']]
 
@@ -158,7 +158,7 @@ class Segment:
         for key in ['name', 'twitch', 'youtube', 'direct']:
             add(key)
 
-        if not self.player_compatible:
+        if not self.playable:
             attrs.append('style="display: none"')
 
         return ' '.join(attrs)
