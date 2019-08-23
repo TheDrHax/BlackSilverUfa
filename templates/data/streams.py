@@ -5,7 +5,7 @@ from git import Repo
 from requests import Session
 from datetime import datetime
 from subprocess import run, PIPE
-from sortedcontainers import SortedList
+from sortedcontainers import SortedList, SortedKeyList
 
 from .cache import cached
 from .config import config
@@ -24,22 +24,21 @@ class Segment:
         self.references = SortedList(key=lambda x: Timecode(x.start))
         self.timecodes = None
 
-        self.stream = stream
-        self.twitch = stream.twitch
-
         def attr(key, default=None, func=lambda x: x):
             if key in kwargs:
                 setattr(self, key, func(kwargs[key]))
             else:
                 setattr(self, key, default)
 
-        self._segment = len(self.stream)
-
         for key in ['start', 'end', 'offset']:
-            attr(key, func=lambda x: Timecode(x))
+            attr(key, func=lambda x: Timecode(x) if Timecode(x).value != 0 else None)
 
         for key in ['youtube', 'direct', 'torrent', 'official', 'note', 'name']:
             attr(key)
+
+        self.stream = stream
+        self.twitch = stream.twitch
+        stream.add(self)
 
         # Try to set fallback if enabled in config and segment is not playable
         self.fallback = not self.playable
@@ -65,11 +64,21 @@ class Segment:
                 self.timecodes.end = end
 
     @property
-    def segment(self) -> int:
-        if self in self.stream:
-            return self.stream.index(self)
+    def offset(self):
+        return self._offset
+    
+    @offset.setter
+    def offset(self, value):
+        if hasattr(self, 'stream'):
+            self.stream.remove(self)
+            self._offset = value
+            self.stream.add(self)
         else:
-            return self._segment
+            self._offset = value
+
+    @property
+    def segment(self) -> int:
+        return self.stream.index(self)
 
     @property
     def fallback(self) -> bool:
@@ -184,6 +193,26 @@ class Segment:
             return Timecode(0)
 
     @property
+    def abs_start(self):
+        if self.offset:
+            return self.offset
+        elif self.segment > 0:
+            return self.stream[self.segment - 1].abs_end
+        else:
+            return Timecode(0)
+
+    @property
+    def abs_end(self):
+        if self.duration.value > 0:
+            return self.abs_start + self.duration
+        elif self.segment == len(self.stream) - 1:
+            return self.stream.duration
+        else:
+            next_refs = self.stream[self.segment + 1].references
+            if len(next_refs) > 0:
+                return next_refs[0].abs_start
+
+    @property
     def date(self):
         return self.stream.date
 
@@ -290,8 +319,15 @@ class SegmentReference(Segment):
     def parent(self):
         return self._parent
     
+    @property
+    def segment(self) -> int:
+        return self._parent.segment
+
     @parent.setter
     def parent(self, segment):
+        if isinstance(segment, SegmentReference):
+            segment = segment.parent
+
         if self._parent and not self.parent_ro:
             self._parent.references.remove(self)
 
@@ -299,6 +335,21 @@ class SegmentReference(Segment):
 
         if not self.parent_ro:
             self._parent.references.add(self)
+
+    @property
+    def abs_start(self):
+        if self.start:
+            return self.start
+        else:
+            return self.parent.abs_start
+
+    @property
+    def abs_end(self):
+        index = self.references.index(self)
+        if index == len(self.references) - 1:
+            return self.parent.abs_end
+        else:
+            return Timecode(self.references[index + 1].start)
 
     @property
     def game_name(self):
@@ -363,8 +414,10 @@ class SegmentReference(Segment):
         return self.to_json()
 
 
-class Stream(list):
+class Stream(SortedKeyList):
     def __init__(self, data, key):
+        SortedKeyList.__init__(self, key=lambda s: int(Timecode(s.offset)))
+
         if type(data) is not list:
             raise TypeError(type(data))
 
@@ -373,7 +426,7 @@ class Stream(list):
         self.timecodes = Timecodes(timecodes.get(key) or {})
 
         for segment in data:
-            self.append(Segment(self, **segment))
+            Segment(self, **segment)
 
     @property
     @cached('duration-twitch-{0[0].twitch}')
