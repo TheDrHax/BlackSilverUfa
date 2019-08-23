@@ -22,7 +22,6 @@ STREAMS_JSON = 'data/streams.json'
 class Segment:
     def __init__(self, stream, **kwargs):
         self.references = SortedList(key=lambda x: Timecode(x.start))
-        self.timecodes = None
 
         def attr(key, default=None, func=lambda x: x):
             if key in kwargs:
@@ -37,31 +36,47 @@ class Segment:
             attr(key)
 
         self.stream = stream
-        self.twitch = stream.twitch
-        stream.add(self)
 
         # Try to set fallback if enabled in config and segment is not playable
         self.fallback = not self.playable
 
-        if len(stream.timecodes) > 0:
-            self.timecodes = TimecodesSlice(stream.timecodes)
+    @property
+    def stream(self) -> 'Stream':
+        return self._stream
+    
+    @stream.setter
+    def stream(self, new):
+        if hasattr(self, 'stream'):
+            self.stream.remove(self)
+        self._stream = new
+        self.twitch = self._stream.twitch
+        self._stream.add(self)
 
+    @property
+    def timecodes(self):
+        if len(self.stream.timecodes) == 0:
+            return None
+
+        timecodes = TimecodesSlice(self.stream.timecodes)
+
+        if self.offset:
+            timecodes.offset = self.offset
+
+        if type(self) is Segment and self.start:
+            timecodes.start = self.start
+
+        end = None
+        if self.end:
+            end = self.end
+        elif self.duration > 0:
+            end = self.duration
+
+        if end:
             if self.offset:
-                self.timecodes.offset = self.offset
-
-            if type(self) is Segment and self.start:
-                self.timecodes.start = self.start
-
-            end = None
-            if self.end:
-                end = self.end
-            elif self.duration > 0:
-                end = self.duration
-
-            if end:
-                if self.offset:
-                    end += self.offset
-                self.timecodes.end = end
+                end += self.offset
+            timecodes.end = end
+        
+        return timecodes
 
     @property
     def offset(self):
@@ -319,6 +334,10 @@ class SegmentReference(Segment):
     def parent(self):
         return self._parent
     
+    @property
+    def timecodes(self):
+        return self.parent.timecodes
+
     @property
     def segment(self) -> int:
         return self._parent.segment
