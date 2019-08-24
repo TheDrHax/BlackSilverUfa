@@ -608,6 +608,7 @@ var Redirect = {
     "470288598": "/links/events.html#470288598",
     "470762578": "/links/remnant-from-the-ashes.html#470762578",
     "470811733": "/links/remnant-from-the-ashes.html#470811733",
+    "471633775": "/links/remnant-from-the-ashes.html#471633775",
   },
 
   link: function (hash) {
@@ -647,6 +648,7 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Remnant: From the Ashes", path: "/links/remnant-from-the-ashes.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "The Dark Pictures: Man of Medan (демо)", path: "/links/single.html#466612968", year: 2019 },
       { name: "Doki Doki Literature Club", path: "/links/doki-doki.html", year: 2019 },
@@ -892,7 +894,6 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
-      { name: "Remnant: From the Ashes", path: "/links/remnant-from-the-ashes.html", year: 2019 },
       { name: "Gears of War 3", path: "/links/gears-of-war-3.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
       { name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019 },
