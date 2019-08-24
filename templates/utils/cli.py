@@ -1,22 +1,44 @@
 """Usage:
-  cli segment (get | set | update) <stream> [<segment>] [options]
-  cli segment add <stream> [options]
+  cli [options] segment (get | set | update) <stream> [<segment>] --youtube <id> [--offset <t>] 
+  cli [options] segment add <stream> --youtube <id> [--offset <t>] 
+  cli [options] segment match --youtube <id> [--all] [--directory <path>]
+
+Commands:
+  segment
+    get         Output matching segment in JSON format.
+    set         Recreate existing segment with following parameters.
+    update      Update specified fields of existing segment.
+    add         Create a new segment with known stream ID and offset.
+    match       Try to find matching stream and offset of provided video.
 
 Options:
-  --dry-run         Do not change anything, just print the result.
+  --dry-run           Do not change anything, just print the result.
 
 Segment options:
-  --youtube <id>    ID of YouTube video that can be used as a source for
-                    this segment. Warning: full URLs are not supported!
-  --offset <t>      Offset of this segment relative to the start of
-                    original stream. [default: 0]
+  --youtube <id>      ID of YouTube video that can be used as a source for
+                      this segment. Warning: full URLs are not supported!
+  --offset <t>        Offset of this segment relative to the start of
+                      original stream. [default: 0]
+
+Segment matching options:
+  --all               Check all streams with at least one unofficial or
+                      empty source. Streams without fallbacks will be skipped.
+  --directory <path>  Use a local directory as a fallback source for
+                      faster matching of streams. Directory must contain
+                      original stream recordings. Expected filename format
+                      is '{twitch_id}.mp4'.
 """
 
+
+import os
 import sys
 import itertools
 
 from docopt import docopt
 from sortedcontainers import SortedList
+from subprocess import run, PIPE
+from twitch_utils.offset import find_offset
+from twitch_utils.clip import Clip
 
 from ..data.streams import streams, Segment, Stream
 from ..data.games import games
@@ -89,6 +111,73 @@ def cmd_add(stream, segment_kwargs):
             setattr(s.references[0], 'start', None)
 
 
+def cmd_match(segment_kwargs, directory=None, match_all=False):
+    def original(segment):
+        if directory:
+            filename = f'{directory}{os.path.sep}{segment.twitch}.mp4'
+        else:
+            filename = None
+
+        if filename and os.path.exists(filename):
+            return filename
+
+        if segment.direct and not segment.offset:
+            return segment.direct
+
+        return None
+
+    def can_match(segment):
+        if segment.youtube and segment.official != False and not match_all:
+            return False
+
+        return original(segment) is not None
+
+    candidates = [s for s in streams.segments if can_match(s)]
+    youtube_source = ytdl_best_source(segment_kwargs['youtube'])
+
+    checked_streams = set()
+    matching_stream = None
+    video_offset = None
+
+    for segment in candidates:
+        if segment.stream.twitch in checked_streams:
+            continue
+        else:
+            checked_streams.add(segment.stream.twitch)
+
+        path = original(segment)
+        print(f'Checking stream {segment.twitch} (path: {path})')
+
+        offset, score = find_offset(
+            f1=youtube_source,
+            f2=path,
+            template_start=300,
+            template_duration=120,
+            min_score=100
+        )
+
+        if score > 0:
+            matching_stream = segment.stream
+            video_offset = Timecode(round(offset))
+            break
+
+    if matching_stream is None:
+        raise Exception('Video does not match any streams')
+
+    segment_kwargs['offset'] = video_offset
+    cmd_add(matching_stream, segment_kwargs)
+    return matching_stream
+
+
+def ytdl_best_source(video_id):
+    p = run(['youtube-dl', '-gf', 'best', video_id], stdout=PIPE)
+
+    if p.returncode != 0:
+        raise RuntimeError(f'youtube-dl exited with non-zero code {p.returncode}')
+
+    return p.stdout.decode('utf-8').strip()
+
+
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
@@ -96,11 +185,12 @@ def main(argv=None):
         stream_id = args['<stream>']
         segment_id = int(args.get('<segment>') or 0)
 
-        if stream_id not in streams:
-            print(f'Stream {stream_id} does not exist')
-            sys.exit(1)
+        if not args['match']:
+            if stream_id not in streams:
+                print(f'Stream {stream_id} does not exist')
+                sys.exit(1)
 
-        stream = streams[stream_id]
+            stream = streams[stream_id]
 
         if args['get'] or args['update'] or args['set']:
             if len(stream) - 1 < segment_id:
@@ -115,7 +205,7 @@ def main(argv=None):
             sys.exit(0)
 
         # Parse segment options
-        if args['update'] or args['set'] or args['add']:
+        if args['update'] or args['set'] or args['add'] or args['match']:
             options = (('youtube', str), ('offset', Timecode))
             segment_kwargs = dict()
 
@@ -131,6 +221,11 @@ def main(argv=None):
 
         if args['add']:
             cmd_add(stream, segment_kwargs)
+
+        if args['match']:
+            stream = cmd_match(segment_kwargs,
+                               directory=args['--directory'],
+                               match_all=args['--all'])
 
         if args['--dry-run']:
             print(stream)
