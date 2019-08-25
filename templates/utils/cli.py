@@ -111,6 +111,7 @@ def cmd_add(stream, segment_kwargs):
 
     [stream.remove(s) for s in list(stream) if len(s.references) == 0]
 
+    covered[0].start = None
     for s in stream:
         if s.references[0].start:
             setattr(s, 'offset', s.references[0].start)
