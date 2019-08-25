@@ -1138,6 +1138,14 @@
     ]
   },
   {
+    "name": "Control",
+    "category": "ongoing",
+    "id": "control",
+    "streams": [
+      { "name": "1", "twitch": "472179762" }
+    ]
+  },
+  {
     "name": "Remnant: From the Ashes",
     "category": "finished",
     "id": "remnant-from-the-ashes",
