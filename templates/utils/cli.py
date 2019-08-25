@@ -63,13 +63,13 @@ def refs_coverage(stream, segment):
         # Find percentage of covered timeline
         coverage = 0
         if seg_end > ref_start and seg_start < ref_end:
-            coverage = int(min(ref_end, seg_end) -
-                            max(ref_start, seg_start))
+            coverage = int(min(ref_end, seg_end) - max(ref_start, seg_start))
             coverage *= 100
             coverage //= int(ref_end - ref_start)
 
         if coverage > 0:
-            print(f'Covered {coverage}% of `{ref.game.id}` - `{ref.name}`')
+            print(f'Covered {coverage}% of `{ref.game.id}` - `{ref.name}`',
+                  file=sys.stderr)
 
         if coverage >= 50:
             covered.append(ref)
@@ -89,7 +89,7 @@ def cmd_add(stream, segment_kwargs):
     left, covered, right = refs_coverage(stream, segment)
 
     if len(covered) == 0:
-        return
+        raise Exception('Video does not cover any segment references')
 
     segment.stream = stream
     [setattr(ref, 'parent', segment) for ref in covered]
@@ -146,7 +146,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
             checked_streams.add(segment.stream.twitch)
 
         path = original(segment)
-        print(f'Checking stream {segment.twitch} (path: {path})')
+        print(f'Checking stream {segment.twitch} (path: {path})',
+              file=sys.stderr)
 
         offset, score = find_offset(
             f1=youtube_source,
@@ -187,15 +188,13 @@ def main(argv=None):
 
         if not args['match']:
             if stream_id not in streams:
-                print(f'Stream {stream_id} does not exist')
-                sys.exit(1)
+                raise Exception(f'Stream {stream_id} does not exist')
 
             stream = streams[stream_id]
 
         if args['get'] or args['update'] or args['set']:
             if len(stream) - 1 < segment_id:
-                print(f'Stream {stream_id} does not have segment {segment_id}')
-                sys.exit(1)
+                raise Exception(f'Segment {stream_id}.{segment_id} does not exist')
 
             segment = stream[segment_id]
             segment.fallback = False
