@@ -13,6 +13,9 @@ Commands:
 
 Options:
   --dry-run           Do not change anything, just print the result.
+  --commit            Create a new commit in current branch. All changes in
+                      data/{games,streams}.json will be committed.
+                      WARNING: Repository index will not be cleared!
 
 Segment options:
   --youtube <id>      ID of YouTube video that can be used as a source for
@@ -34,14 +37,15 @@ import os
 import sys
 import itertools
 
+from git import Repo
 from docopt import docopt
-from sortedcontainers import SortedList
 from subprocess import run, PIPE
-from twitch_utils.offset import find_offset
+from sortedcontainers import SortedList
 from twitch_utils.clip import Clip
+from twitch_utils.offset import find_offset
 
-from ..data.streams import streams, Segment, Stream
-from ..data.games import games
+from ..data.streams import streams, Segment, Stream, STREAMS_JSON
+from ..data.games import games, GAMES_JSON
 from ..data.timecodes import Timecode
 
 
@@ -66,6 +70,8 @@ def refs_coverage(stream, segment):
             coverage = int(min(ref_end, seg_end) - max(ref_start, seg_start))
             coverage *= 100
             coverage //= int(ref_end - ref_start)
+
+        ref._coverage = coverage
 
         if coverage > 0:
             print(f'Covered {coverage}% of `{ref.game.id}` - `{ref.name}`',
@@ -110,6 +116,7 @@ def cmd_add(stream, segment_kwargs):
             setattr(s, 'offset', s.references[0].start)
             setattr(s.references[0], 'start', None)
 
+    return segment
 
 def cmd_match(segment_kwargs, directory=None, match_all=False):
     def original(segment):
@@ -164,8 +171,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
         raise Exception('Video does not match any streams')
 
     segment_kwargs['offset'] = video_offset
-    cmd_add(matching_stream, segment_kwargs)
-    return matching_stream
+    segment = cmd_add(matching_stream, segment_kwargs)
+    return matching_stream, segment
 
 
 def ytdl_best_source(video_id):
@@ -190,7 +197,7 @@ def main(argv=None):
 
             stream = streams[stream_id]
 
-        if args['get'] or args['update'] or args['set']:
+        if not args['add'] and not args['match']:
             if len(stream) - 1 < segment_id:
                 raise Exception(f'Segment {stream_id}.{segment_id} does not exist')
 
@@ -199,16 +206,17 @@ def main(argv=None):
 
         if args['get']:
             print(segment)
-            sys.exit(0)
+            return
 
         # Parse segment options
-        if args['update'] or args['set'] or args['add'] or args['match']:
-            options = (('youtube', str), ('offset', Timecode))
-            segment_kwargs = dict()
+        options = (('youtube', str), ('offset', Timecode))
+        segment_kwargs = dict()
 
-            for key, type in options:
-                if args.get(f'--{key}') is not None:
-                    segment_kwargs[key] = type(args[f'--{key}'])
+        for key, type in options:
+            if args.get(f'--{key}') is not None:
+                segment_kwargs[key] = type(args[f'--{key}'])
+
+        commit_msg = None
 
         # Update existing segment's options
         if args['update'] or args['set']:
@@ -216,19 +224,38 @@ def main(argv=None):
                 if value is not None or args['set']:
                     setattr(segment, key, value)
 
+            commit_msg = f'Изменение сегмента {segment.hash}'
+
         if args['add']:
-            cmd_add(stream, segment_kwargs)
+            segment = cmd_add(stream, segment_kwargs)
 
         if args['match']:
-            stream = cmd_match(segment_kwargs,
-                               directory=args['--directory'],
-                               match_all=args['--all'])
+            stream, segment = cmd_match(segment_kwargs,
+                                        directory=args['--directory'],
+                                        match_all=args['--all'])
 
-        if args['--dry-run']:
-            print(stream)
-        else:
+        if args['add'] or args['match']:
+            if len(stream) == 1:
+                commit_title = f'Запись стрима {stream.twitch}'
+            else:
+                commit_title = f'Запись сегмента {segment.hash}'
+
+            commit_msg = '\n'.join(flat([
+                [commit_title, ''],
+                [f'* {ref.game.name} — {ref.name} [{ref._coverage}%]'
+                 for ref in segment.references]
+            ]))
+
+        if not args['--dry-run']:
             games.save()
             streams.save()
+
+            if commit_msg and args['--commit']:
+                repo = Repo('.')
+                repo.index.add([STREAMS_JSON, GAMES_JSON])
+                repo.index.commit(commit_msg)
+
+        print(stream)
 
 
 if __name__ == '__main__':
