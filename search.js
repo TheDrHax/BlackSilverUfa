@@ -610,6 +610,9 @@ var Redirect = {
     "470811733": "/links/remnant-from-the-ashes.html#470811733",
     "471633775": "/links/remnant-from-the-ashes.html#471633775",
     "472179762": "/links/control.html#472179762",
+    "472179762.1": "/links/control.html#472179762.1",
+    "472179762.2": "/links/control.html#472179762.2",
+    "472179762.3": "/links/control.html#472179762.3",
   },
 
   link: function (hash) {
