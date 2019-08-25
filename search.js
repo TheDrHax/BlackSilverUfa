@@ -609,6 +609,7 @@ var Redirect = {
     "470762578": "/links/remnant-from-the-ashes.html#470762578",
     "470811733": "/links/remnant-from-the-ashes.html#470811733",
     "471633775": "/links/remnant-from-the-ashes.html#471633775",
+    "472179762": "/links/control.html#472179762",
   },
 
   link: function (hash) {
@@ -894,6 +895,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Control", path: "/links/control.html", year: 2019 },
       { name: "Gears of War 3", path: "/links/gears-of-war-3.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
       { name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019 },
