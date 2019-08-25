@@ -1,5 +1,5 @@
 """Usage:
-  cli [options] segment (get | set | update) <stream> [<segment>] --youtube <id> [--offset <t>] 
+  cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id>] [--offset <t>] 
   cli [options] segment add <stream> --youtube <id> [--offset <t>] 
   cli [options] segment match --youtube <id> [--all] [--directory <path>]
 
