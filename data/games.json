@@ -1142,7 +1142,10 @@
     "category": "ongoing",
     "id": "control",
     "streams": [
-      { "name": "1", "twitch": "472179762" }
+      { "name": "1.1", "twitch": "472179762", "segment": 0 },
+      { "name": "1.2", "twitch": "472179762", "segment": 1 },
+      { "name": "1.3", "twitch": "472179762", "segment": 2 },
+      { "name": "1.4", "twitch": "472179762", "segment": 3 }
     ]
   },
   {
