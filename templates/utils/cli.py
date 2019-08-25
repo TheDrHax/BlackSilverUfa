@@ -149,13 +149,11 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
         print(f'Checking stream {segment.twitch} (path: {path})',
               file=sys.stderr)
 
-        offset, score = find_offset(
-            f1=youtube_source,
-            f2=path,
-            template_start=300,
-            template_duration=120,
-            min_score=100
-        )
+        offset, score = find_offset(f1=youtube_source,
+                                    f2=path,
+                                    template_start=300,
+                                    template_duration=120,
+                                    min_score=250)
 
         if score > 0:
             matching_stream = segment.stream
