@@ -59,7 +59,7 @@ class Segment:
 
         timecodes = TimecodesSlice(self.stream.timecodes)
 
-        if self.offset:
+        if self.offset and not self.fallback:
             timecodes.offset = self.offset
 
         if type(self) is Segment and self.start:
@@ -120,26 +120,17 @@ class Segment:
             url = f'{fallback["prefix"]}/{self.twitch}.mp4'
 
             if check(url):
-                if self.offset:
-                    self._fallback_start = self.start
-                    self.start = self.offset
-                    self.offset = None
-
                 self.direct = url
                 self._fallback = True
 
-            if fallback['torrents']:
-                torrent_url = f'{fallback["prefix"]}/{self.twitch}.torrent'
+            torrent_url = f'{fallback["prefix"]}/{self.twitch}.torrent'
 
-                if check(torrent_url):
-                    self.torrent = torrent_url
-                    self._fallback = True
+            if fallback['torrents'] and check(torrent_url):
+                self.torrent = torrent_url
+                self._fallback = True
 
         if self._fallback and not enable:
             self._fallback = False
-            if self.start:
-                self.offset = self.start
-                self.start = self._fallback_start
             self.direct = None
             self.torrent = None
 
@@ -174,7 +165,8 @@ class Segment:
         if self.segment != 0:
             add('segment')
 
-        add('offset', lambda x: int(x))
+        if not self.fallback:
+            add('offset', lambda x: int(x))
 
         for key in ['start', 'end']:
             add(key, lambda x: int(x - Timecode(self.offset)))
@@ -255,7 +247,7 @@ class Segment:
         base_url = 'https://blackufa.thedrhax.pw'
         res = f'--sub-file={base_url}/chats/v{self.twitch}.ass '
         offset = Timecode(0)
-        if self.offset:
+        if self.offset and not self.fallback:
             offset = Timecode(self.offset)
             res += f'--sub-delay={-int(offset)} '
         if self.start:
