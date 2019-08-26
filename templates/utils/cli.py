@@ -89,6 +89,9 @@ def refs_coverage(stream, segment):
 def cmd_add(stream, segment_kwargs):
     tmp_stream = Stream([], stream.twitch)
     segment = Segment(tmp_stream, **segment_kwargs)
+
+    # Disable all fallbacks
+    [setattr(s, 'fallback', False) for s in stream]
     segment.fallback = False
 
     left, covered, right = refs_coverage(stream, segment)
