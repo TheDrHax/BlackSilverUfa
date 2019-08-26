@@ -613,6 +613,7 @@ var Redirect = {
     "472179762.1": "/links/control.html#472179762.1",
     "472179762.2": "/links/control.html#472179762.2",
     "472179762.3": "/links/control.html#472179762.3",
+    "472535546": "/links/control.html#472535546",
   },
 
   link: function (hash) {
@@ -751,6 +752,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Ancestors: The Humankind Odyssey", path: "/links/first.html#472535546", year: 2019 },
       { name: "Ion Fury", path: "/links/first.html#467982647", year: 2019 },
       { name: "Gibbous - A Cthulhu Adventure", path: "/links/first.html#466612968", year: 2019 },
       { name: "Spirit Hunter: Death Mark", path: "/links/first.html#466152548", year: 2019 },
