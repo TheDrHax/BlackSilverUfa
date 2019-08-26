@@ -41,8 +41,7 @@ from git import Repo
 from docopt import docopt
 from subprocess import run, PIPE
 from sortedcontainers import SortedList
-from twitch_utils.clip import Clip
-from twitch_utils.offset import find_offset
+from twitch_utils.offset import Clip, find_offset
 
 from ..data.streams import streams, Segment, Stream, STREAMS_JSON
 from ..data.games import games, GAMES_JSON
@@ -143,6 +142,9 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
     candidates = [s for s in streams.segments if can_match(s)]
     youtube_source = ytdl_best_source(segment_kwargs['youtube'])
 
+    print(f'Preparing template...', file=sys.stderr)
+    template = Clip(youtube_source).slice(300, 300)[0]
+
     checked_streams = set()
     matching_stream = None
     video_offset = None
@@ -157,11 +159,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
         print(f'Checking stream {segment.twitch} (path: {path})',
               file=sys.stderr)
 
-        offset, score = find_offset(f1=youtube_source,
-                                    f2=path,
-                                    template_start=300,
-                                    template_duration=120,
-                                    min_score=250)
+        offset, score = find_offset(template, Clip(path), min_score=100)
+        offset -= 300
 
         if score > 0:
             matching_stream = segment.stream
