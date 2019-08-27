@@ -611,6 +611,7 @@ var Redirect = {
     "471633775": "/links/remnant-from-the-ashes.html#471633775",
     "472179762": "/links/control.html#472179762",
     "472535546": "/links/control.html#472535546",
+    "473004524": "/links/control.html#473004524",
   },
 
   link: function (hash) {
@@ -749,7 +750,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
-      { name: "Ancestors: The Humankind Odyssey", path: "/links/first.html#472535546", year: 2019 },
       { name: "Ion Fury", path: "/links/first.html#467982647", year: 2019 },
       { name: "Gibbous - A Cthulhu Adventure", path: "/links/first.html#466612968", year: 2019 },
       { name: "Spirit Hunter: Death Mark", path: "/links/first.html#466152548", year: 2019 },
@@ -925,6 +925,7 @@ var Search = {
       { name: "Persona 5", path: "/links/persona_5.html", year: 2017 },
     ],
     "infinite": [
+      { name: "Ancestors: The Humankind Odyssey", path: "/links/ancestors.html", year: 2019 },
       { name: "Totally Accurate Battle Simulator", path: "/links/tabs.html", year: 2019 },
       { name: "Subnautica: Below Zero (early access)", path: "/links/subnautica-bz.html", year: 2019 },
       { name: "No Man's Sky", path: "/links/no-mans-sky.html", year: 2018 },
