@@ -118,10 +118,10 @@ function spawnPlyr(wrapper, callback) {
     captions.toggle = function() {
       if (captions.pressed) {
         captions.pressed = false;
-        subtitles.canvas.style.display = 'none';
+        subtitles.canvasParent.style.visibility = 'hidden';
       } else {
         captions.pressed = true;
-        subtitles.canvas.style.display = 'block';
+        subtitles.canvasParent.style.visibility = '';
       }
     }
     captions.onclick = captions.toggle;
