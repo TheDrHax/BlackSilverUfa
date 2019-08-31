@@ -1135,14 +1135,16 @@
   },
   {
     "name": "The Dark Pictures: Man of Medan",
-    "category": "ongoing",
+    "category": "finished",
     "id": "man-of-medan",
     "streams": [
       {
         "name": "Демо", "twitch": "466612968",
         "note": "Первое прохождение можно посмотреть на <a href=\"https://youtu.be/liNcj-zX60Q\">YouTube</a>."
       },
-      { "name": "0 (cоло)", "twitch": "473511087" }
+      { "name": "0 (cоло)", "twitch": "473511087" },
+      { "name": "1 (часть 1)", "twitch": "474912732" },
+      { "name": "1 (часть 2)", "twitch": "474993960" }
     ]
   },
   {
