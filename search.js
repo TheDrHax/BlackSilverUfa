@@ -613,6 +613,8 @@ var Redirect = {
     "472535546": "/links/control.html#472535546",
     "473004524": "/links/control.html#473004524",
     "473511087": "/links/man-of-medan.html#473511087",
+    "474912732": "/links/man-of-medan.html#474912732",
+    "474993960": "/links/man-of-medan.html#474993960",
   },
 
   link: function (hash) {
@@ -653,6 +655,7 @@ var Search = {
   games: {
     "finished": [
       { name: "Remnant: From the Ashes", path: "/links/remnant-from-the-ashes.html", year: 2019 },
+      { name: "The Dark Pictures: Man of Medan", path: "/links/man-of-medan.html", year: 2019 },
       { name: "Doki Doki Literature Club", path: "/links/doki-doki.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Duck Season", path: "/links/single.html#454019548.1", year: 2019 },
@@ -899,7 +902,6 @@ var Search = {
     "ongoing": [
       { name: "Control", path: "/links/control.html", year: 2019 },
       { name: "Gears of War 3", path: "/links/gears-of-war-3.html", year: 2019 },
-      { name: "The Dark Pictures: Man of Medan", path: "/links/man-of-medan.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
       { name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019 },
       { name: "Anthem", path: "/links/anthem.html", year: 2019 },
