@@ -615,6 +615,7 @@ var Redirect = {
     "473511087": "/links/man-of-medan.html#473511087",
     "474912732": "/links/man-of-medan.html#474912732",
     "474993960": "/links/man-of-medan.html#474993960",
+    "475369885": "/links/man-of-medan.html#475369885",
   },
 
   link: function (hash) {
