@@ -1,4 +1,4 @@
-node('python3 && git && (tzdata || !apline)') {
+node('python3 && git && (tzdata || !alpine)') {
     String cred_git = 'GitHub'
     String cred_github = 'GitHub-Token'
 
