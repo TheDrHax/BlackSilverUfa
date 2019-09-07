@@ -617,6 +617,7 @@ var Redirect = {
     "474993960": "/links/man-of-medan.html#474993960",
     "475369885": "/links/man-of-medan.html#475369885",
     "477628127": "/links/first.html#477628127",
+    "478129023": "/links/co-op.html#478129023",
   },
 
   link: function (hash) {
@@ -959,6 +960,10 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
+      { name: "Nippon Marathon", path: "/links/co-op.html#478129023", year: 2019 },
+      { name: "Bloody Trapland", path: "/links/co-op.html#478129023", year: 2019 },
+      { name: "Super Mario Party", path: "/links/co-op.html#478129023", year: 2019 },
+      { name: "Mario Kart 8 Deluxe", path: "/links/co-op.html#478129023", year: 2019 },
       { name: "Hot Shot Burn", path: "/links/co-op.html#468908083", year: 2019 },
       { name: "DayZ на PS4 с Джеком", path: "/links/co-op.html#449465888", year: 2019 },
       { name: "Barotrauma", path: "/links/co-op.html#435683759", year: 2019 },
