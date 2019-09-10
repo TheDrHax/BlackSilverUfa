@@ -210,7 +210,9 @@ class Segment:
 
     @property
     def abs_end(self):
-        if self.duration.value > 0:
+        if self.end:
+            return self.end
+        elif self.duration.value > 0:
             return self.abs_start + self.duration
         elif self.segment == len(self.stream) - 1:
             return self.stream.duration
