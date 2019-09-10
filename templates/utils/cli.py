@@ -1,6 +1,7 @@
 """Usage:
-  cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id>] [--offset <t>] 
-  cli [options] segment add <stream> --youtube <id> [--offset <t>] 
+  cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id>] [--offset <t>]
+  cli [options] segment add <stream> --youtube <id> [--offset <t>] [--end <t>]
+  cli [options] segment add <stream> --end <t> [--offset <t>]
   cli [options] segment match --youtube <id> [--all] [--directory <path>]
 
 Commands:
@@ -22,6 +23,7 @@ Segment options:
                       this segment. Warning: full URLs are not supported!
   --offset <t>        Offset of this segment relative to the start of
                       original stream. [default: 0]
+  --end <t>           Forced absolute timecode of segment's ending.
 
 Segment matching options:
   --all               Check all streams with at least one unofficial or
@@ -58,8 +60,8 @@ def refs_coverage(stream, segment):
     left, covered, right = [], [], []
 
     for ref in refs:
-        seg_start = Timecode(segment.offset)
-        seg_end = segment.duration + Timecode(segment.offset)
+        seg_start = segment.abs_start
+        seg_end = segment.abs_end
         ref_start = ref.abs_start
         ref_end = ref.abs_end
 
@@ -212,7 +214,7 @@ def main(argv=None):
             return
 
         # Parse segment options
-        options = (('youtube', str), ('offset', Timecode))
+        options = (('youtube', str), ('offset', Timecode), ('end', Timecode))
         segment_kwargs = dict()
 
         for key, type in options:
