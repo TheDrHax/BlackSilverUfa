@@ -618,6 +618,7 @@ var Redirect = {
     "475369885": "/links/man-of-medan.html#475369885",
     "477628127": "/links/first.html#477628127",
     "478129023": "/links/co-op.html#478129023",
+    "479485735": "/links/first.html#479485735",
   },
 
   link: function (hash) {
@@ -756,6 +757,9 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "GreedFall", path: "/links/first.html#479485735", year: 2019 },
+      { name: "Blasphemous", path: "/links/first.html#479485735", year: 2019 },
+      { name: "Astral Chain", path: "/links/first.html#479485735", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint (демо)", path: "/links/first.html#477628127", year: 2019 },
       { name: "Ion Fury", path: "/links/first.html#467982647", year: 2019 },
       { name: "Gibbous - A Cthulhu Adventure", path: "/links/first.html#466612968", year: 2019 },
