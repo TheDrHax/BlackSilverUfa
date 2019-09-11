@@ -305,7 +305,7 @@ var Redirect = {
     "296814088": "/links/mgs-3.html#296814088",
     "296740333": "/links/hitman.html#296740333",
     "296740375": "/links/hitman.html#296740375",
-    "305785431": "/links/first.html#305785431",
+    "305785431": "/links/green-hell.html#305785431",
     "306199274": "/links/first.html#306199274",
     "306581403": "/links/spider-man.html#306581403",
     "306581403.1": "/links/spider-man.html#306581403.1",
@@ -619,6 +619,7 @@ var Redirect = {
     "477628127": "/links/first.html#477628127",
     "478129023": "/links/co-op.html#478129023",
     "479485735": "/links/first.html#479485735",
+    "479926128": "/links/green-hell.html#479926128",
   },
 
   link: function (hash) {
@@ -759,7 +760,6 @@ var Search = {
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
       { name: "GreedFall", path: "/links/first.html#479485735", year: 2019 },
       { name: "Blasphemous", path: "/links/first.html#479485735", year: 2019 },
-      { name: "Astral Chain", path: "/links/first.html#479485735", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint (демо)", path: "/links/first.html#477628127", year: 2019 },
       { name: "Ion Fury", path: "/links/first.html#467982647", year: 2019 },
       { name: "Gibbous - A Cthulhu Adventure", path: "/links/first.html#466612968", year: 2019 },
@@ -828,7 +828,6 @@ var Search = {
       { name: "Bus Driver Simulator 2019", path: "/links/first.html#311651965", year: 2018 },
       { name: "Dragon Quest XI: Echoes of an Elusive Age", path: "/links/first.html#309949699", year: 2018 },
       { name: "Fist of the North Star: Lost Paradise", path: "/links/first.html#306199274", year: 2018 },
-      { name: "Green Hell", path: "/links/first.html#305785431", year: 2018 },
       { name: "Guacamelee! 2", path: "/links/first.html#305785431", year: 2018 },
       { name: "Breathedge", path: "/links/first.html#305785431", year: 2018 },
       { name: "Pineview Drive", path: "/links/first.html#298040825", year: 2018 },
@@ -908,6 +907,8 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
+      { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
       { name: "Control", path: "/links/control.html", year: 2019 },
       { name: "Gears of War 3", path: "/links/gears-of-war-3.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
