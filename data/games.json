@@ -1077,7 +1077,7 @@
       { "name": "PUSS! / Chasm / Airships: Conquer the Skies", "twitch": "293415850", "start": "34:27" },
       { "name": "Dead Cells", "twitch": "294220536", "start": "2:43:07" },
       { "name": "Pineview Drive", "twitch": "298040825" },
-      { "name": "Green Hell / Guacamelee! 2 / Breathedge", "twitch": "305785431" },
+      { "name": "Guacamelee! 2 / Breathedge", "twitch": "305785431", "start": "24:31" },
       { "name": "Fist of the North Star: Lost Paradise", "twitch": "306199274" },
       { "name": "Dragon Quest XI: Echoes of an Elusive Age", "twitch": "309949699" },
       { "name": "Need a packet? / Bus Driver Simulator 2019", "twitch": "311651965", "start": "3:45:29" },
@@ -1134,8 +1134,27 @@
       { "name": "Gibbous - A Cthulhu Adventure", "twitch": "466612968", "start": "2:07:28" },
       { "name": "Ion Fury", "twitch": "467982647", "segment": 0 },
       { "name": "Tom Clancy's Ghost Recon Breakpoint (демо)", "twitch": "477628127" },
-      { "name": "GreedFall / Blasphemous / Astral Chain", "twitch": "479485735" }
+      { "name": "GreedFall / Blasphemous", "twitch": "479485735" }
     ]
+  },
+  {
+    "name": "Astral Chain",
+    "category": "ongoing",
+    "id": "astral-chain",
+    "streams": [
+      { "name": "1", "twitch": "479485735", "start": "3:20:19" },
+      { "name": "2", "twitch": "479926128", "start": "3:58:33" }
+    ]
+  },
+  {
+    "name": "Green Hell",
+    "category": "ongoing",
+    "id": "green-hell",
+    "streams": [
+      { "name": "0 (бета)", "twitch": "305785431" },
+      { "name": "1", "twitch": "479926128" }
+    ],
+    "thumbnail": 1
   },
   {
     "name": "The Dark Pictures: Man of Medan",
@@ -1159,7 +1178,8 @@
     "streams": [
       { "name": "1", "twitch": "472535546", "start": "2:12:01" },
       { "name": "2", "twitch": "473004524", "start": "3:27:25" },
-      { "name": "3", "twitch": "473511087", "start": "1:33:36" }
+      { "name": "3", "twitch": "473511087", "start": "1:33:36" },
+      { "name": "4", "twitch": "479926128", "start": "2:04:01" }
     ]
   },
   {
