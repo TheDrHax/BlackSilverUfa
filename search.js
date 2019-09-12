@@ -620,6 +620,7 @@ var Redirect = {
     "478129023": "/links/co-op.html#478129023",
     "479485735": "/links/first.html#479485735",
     "479926128": "/links/green-hell.html#479926128",
+    "480390004": "/links/expos.html#480390004",
   },
 
   link: function (hash) {
@@ -759,7 +760,6 @@ var Search = {
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
       { name: "GreedFall", path: "/links/first.html#479485735", year: 2019 },
-      { name: "Blasphemous", path: "/links/first.html#479485735", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint (демо)", path: "/links/first.html#477628127", year: 2019 },
       { name: "Ion Fury", path: "/links/first.html#467982647", year: 2019 },
       { name: "Gibbous - A Cthulhu Adventure", path: "/links/first.html#466612968", year: 2019 },
@@ -909,6 +909,7 @@ var Search = {
     "ongoing": [
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
       { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
+      { name: "Blasphemous", path: "/links/blasphemous.html", year: 2019 },
       { name: "Control", path: "/links/control.html", year: 2019 },
       { name: "Gears of War 3", path: "/links/gears-of-war-3.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
@@ -1086,6 +1087,7 @@ var Search = {
     ],
     "expos": [
       { name: "Конференции", path: "/links/expos.html", year: 2019 },
+      { name: "Tokyo Game Show 2019 (обзор)", path: "/links/expos.html#480390004", year: 2019 },
       { name: "Gamescom 2019", path: "/links/expos.html#469393130", year: 2019 },
       { name: "неПрофессиональный E3 2019", path: "/links/e3_2019.html", year: 2019 },
       { name: "неПрофессиональный The Game Awards 2018", path: "/links/expos.html#345649019", year: 2018 },
