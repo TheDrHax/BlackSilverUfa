@@ -543,7 +543,8 @@
     "id": "expos",
     "streams": [
       { "name": "неПрофессиональный The Game Awards 2018", "twitch": "345649019" },
-      { "name": "Gamescom 2019", "twitch": "469393130" }
+      { "name": "Gamescom 2019", "twitch": "469393130" },
+      { "name": "Tokyo Game Show 2019 (обзор)", "twitch": "480390004" }
     ]
   },
   {
@@ -1134,7 +1135,16 @@
       { "name": "Gibbous - A Cthulhu Adventure", "twitch": "466612968", "start": "2:07:28" },
       { "name": "Ion Fury", "twitch": "467982647", "segment": 0 },
       { "name": "Tom Clancy's Ghost Recon Breakpoint (демо)", "twitch": "477628127" },
-      { "name": "GreedFall / Blasphemous", "twitch": "479485735" }
+      { "name": "GreedFall", "twitch": "479485735" }
+    ]
+  },
+  {
+    "name": "Blasphemous",
+    "category": "ongoing",
+    "id": "blasphemous",
+    "streams": [
+      { "name": "1", "twitch": "479485735", "start": "2:31:38" },
+      { "name": "2 (заново)", "twitch": "480390004", "start": "1:54:56" }
     ]
   },
   {
