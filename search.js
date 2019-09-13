@@ -621,6 +621,7 @@ var Redirect = {
     "479485735": "/links/first.html#479485735",
     "479926128": "/links/green-hell.html#479926128",
     "480390004": "/links/expos.html#480390004",
+    "480853384": "/links/borderlands-3.html#480853384",
   },
 
   link: function (hash) {
@@ -907,6 +908,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Borderlands 3", path: "/links/borderlands-3.html", year: 2019 },
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
       { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
       { name: "Blasphemous", path: "/links/blasphemous.html", year: 2019 },
