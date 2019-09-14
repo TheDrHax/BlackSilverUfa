@@ -620,8 +620,9 @@ var Redirect = {
     "478129023": "/links/co-op.html#478129023",
     "479485735": "/links/first.html#479485735",
     "479926128": "/links/green-hell.html#479926128",
-    "480390004": "/links/expos.html#480390004",
+    "480390004": "/links/tgs-2019.html#480390004",
     "480853384": "/links/borderlands-3.html#480853384",
+    "481343199": "/links/single.html#481343199",
   },
 
   link: function (hash) {
@@ -661,10 +662,11 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
+      { name: "Amnesia: The Silver Dream", path: "/links/single.html#481343199", year: 2019 },
       { name: "Remnant: From the Ashes", path: "/links/remnant-from-the-ashes.html", year: 2019 },
       { name: "The Dark Pictures: Man of Medan", path: "/links/man-of-medan.html", year: 2019 },
       { name: "Doki Doki Literature Club", path: "/links/doki-doki.html", year: 2019 },
-      { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Duck Season", path: "/links/single.html#454019548.1", year: 2019 },
       { name: "Gears of War 2", path: "/links/gears-of-war-2.html", year: 2019 },
       { name: "Love, Sam", path: "/links/single.html#451727019.2", year: 2019 },
@@ -760,6 +762,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "SCP-087-B", path: "/links/first.html#481343199", year: 2019 },
       { name: "GreedFall", path: "/links/first.html#479485735", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint (демо)", path: "/links/first.html#477628127", year: 2019 },
       { name: "Ion Fury", path: "/links/first.html#467982647", year: 2019 },
@@ -1088,8 +1091,8 @@ var Search = {
       { name: "Хэллоуин", path: "/links/halloween.html", year: 2017 },
     ],
     "expos": [
+      { name: "Tokyo Game Show 2019 (обзор)", path: "/links/tgs-2019.html", year: 2019 },
       { name: "Конференции", path: "/links/expos.html", year: 2019 },
-      { name: "Tokyo Game Show 2019 (обзор)", path: "/links/expos.html#480390004", year: 2019 },
       { name: "Gamescom 2019", path: "/links/expos.html#469393130", year: 2019 },
       { name: "неПрофессиональный E3 2019", path: "/links/e3_2019.html", year: 2019 },
       { name: "неПрофессиональный The Game Awards 2018", path: "/links/expos.html#345649019", year: 2018 },
