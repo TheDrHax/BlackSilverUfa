@@ -543,8 +543,16 @@
     "id": "expos",
     "streams": [
       { "name": "неПрофессиональный The Game Awards 2018", "twitch": "345649019" },
-      { "name": "Gamescom 2019", "twitch": "469393130" },
-      { "name": "Tokyo Game Show 2019 (обзор)", "twitch": "480390004" }
+      { "name": "Gamescom 2019", "twitch": "469393130" }
+    ]
+  },
+  {
+    "name": "Tokyo Game Show 2019 (обзор)",
+    "category": "expos",
+    "id": "tgs-2019",
+    "streams": [
+      { "name": "1", "twitch": "480390004" },
+      { "name": "2", "twitch": "481343199", "start": "1:10:17" }
     ]
   },
   {
@@ -804,7 +812,8 @@
       { "name": "Gears of War: Ultimate Edition", "twitch": "450812665" },
       { "name": "Monsters of Little Haven", "twitch": "451727019", "segment": 0 },
       { "name": "Love, Sam", "twitch": "451727019", "segment": 2 },
-      { "name": "Duck Season", "twitch": "454019548", "segment": 1 }
+      { "name": "Duck Season", "twitch": "454019548", "segment": 1 },
+      { "name": "Amnesia: The Silver Dream", "twitch": "481343199", "start": "53:48" }
     ]
   },
   {
@@ -997,7 +1006,8 @@
       { "name": "2", "twitch": "220513992", "start": "1:06:26" },
       { "name": "3", "twitch": "366354053", "segment": 1, "start": "2:26:24" },
       { "name": "4", "twitch": "367994742", "segment": 0 },
-      { "name": "5", "twitch": "372851375", "segment": 1, "start": "2:49:15" }
+      { "name": "5", "twitch": "372851375", "segment": 1, "start": "2:49:15" },
+      { "name": "6", "twitch": "481343199", "start": "2:12:58" }
     ]
   },
   {
@@ -1135,7 +1145,8 @@
       { "name": "Gibbous - A Cthulhu Adventure", "twitch": "466612968", "start": "2:07:28" },
       { "name": "Ion Fury", "twitch": "467982647", "segment": 0 },
       { "name": "Tom Clancy's Ghost Recon Breakpoint (демо)", "twitch": "477628127" },
-      { "name": "GreedFall", "twitch": "479485735" }
+      { "name": "GreedFall", "twitch": "479485735" },
+      { "name": "SCP-087-B", "twitch": "481343199", "start": "1:56:00" }
     ]
   },
   {
