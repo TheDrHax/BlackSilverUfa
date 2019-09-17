@@ -623,6 +623,7 @@ var Redirect = {
     "480390004": "/links/tgs-2019.html#480390004",
     "480853384": "/links/borderlands-3.html#480853384",
     "481343199": "/links/single.html#481343199",
+    "482664774": "/links/first.html#482664774",
   },
 
   link: function (hash) {
@@ -762,6 +763,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Neon Abyss (демо)", path: "/links/first.html#482664774", year: 2019 },
       { name: "SCP-087-B", path: "/links/first.html#481343199", year: 2019 },
       { name: "GreedFall", path: "/links/first.html#479485735", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint (демо)", path: "/links/first.html#477628127", year: 2019 },
