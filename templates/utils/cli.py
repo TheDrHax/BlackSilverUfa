@@ -148,7 +148,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
     youtube_source = ytdl_best_source(segment_kwargs['youtube'])
 
     print(f'Preparing template...', file=sys.stderr)
-    template = Clip(youtube_source).slice(300, 300)[0]
+    template = Clip(youtube_source, ar=1000).slice(300, 300)[0]
 
     checked_streams = set()
     matching_stream = None
@@ -164,7 +164,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
         print(f'Checking stream {segment.twitch} (path: {path})',
               file=sys.stderr)
 
-        offset, score = find_offset(template, Clip(path), min_score=100)
+        offset, score = find_offset(template, Clip(path, ar=1000), min_score=100)
         offset -= 300
 
         if score > 0:
