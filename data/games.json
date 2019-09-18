@@ -65,7 +65,6 @@
       { "name": "Generation Zero", "twitch": "402450066", "segment": 1 },
       { "name": "Pacify", "twitch": "410400457", "start": "1:33:15" },
       { "name": "Peekaboo / Shotgun Farmers", "twitch": "410963500", "start": "1:19:27" },
-      { "name": "Mortal Kombat 11 с Куплиновым", "twitch": "426022824", "segment": 1 },
       { "name": "We Were Here / We Were Here Too", "twitch": "430120134", "segment": 1 },
       { "name": "Barotrauma", "twitch": "435683759" },
       { "name": "DayZ на PS4 с Джеком", "twitch": "449465888" },
@@ -1342,7 +1341,9 @@
     "id": "mk-11",
     "streams": [
       { "name": "Online Beta", "twitch": "401955929", "segment": 1 },
-      { "name": "Прохождение", "twitch": "414763532", "segment": 1 }
+      { "name": "Прохождение", "twitch": "414763532", "segment": 1 },
+      { "name": "С Куплиновым", "twitch": "426022824", "segment": 1 },
+      { "name": "Со зрителями", "twitch": "483098038" }
     ],
     "thumbnail": 1
   },
