@@ -528,7 +528,7 @@ var Redirect = {
     "424698903": "/links/rage-2.html#424698903",
     "426011884": "/links/darkwood.html#426011884",
     "426022824": "/links/darkwood.html#426022824",
-    "426022824.1": "/links/co-op.html#426022824.1",
+    "426022824.1": "/links/mk-11.html#426022824.1",
     "426474797": "/links/bigfoot.html#426474797",
     "426474797.1": "/links/mordhau.html#426474797.1",
     "427832718": "/links/observation.html#427832718",
@@ -624,6 +624,7 @@ var Redirect = {
     "480853384": "/links/borderlands-3.html#480853384",
     "481343199": "/links/single.html#481343199",
     "482664774": "/links/first.html#482664774",
+    "483098038": "/links/mk-11.html#483098038",
   },
 
   link: function (hash) {
@@ -982,7 +983,6 @@ var Search = {
       { name: "Barotrauma", path: "/links/co-op.html#435683759", year: 2019 },
       { name: "We Were Here", path: "/links/co-op.html#430120134.1", year: 2019 },
       { name: "We Were Here Too", path: "/links/co-op.html#430120134.1", year: 2019 },
-      { name: "Mortal Kombat 11 с Куплиновым", path: "/links/co-op.html#426022824.1", year: 2019 },
       { name: "Peekaboo", path: "/links/co-op.html#410963500", year: 2019 },
       { name: "Shotgun Farmers", path: "/links/co-op.html#410963500", year: 2019 },
       { name: "Pacify", path: "/links/co-op.html#410400457", year: 2019 },
