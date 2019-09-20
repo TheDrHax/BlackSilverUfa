@@ -627,6 +627,7 @@ var Redirect = {
     "483098038": "/links/mk-11.html#483098038",
     "483585370": "/links/first.html#483585370",
     "483918141": "/links/first.html#483918141",
+    "483965510": "/links/co-op.html#483965510",
   },
 
   link: function (hash) {
@@ -978,6 +979,7 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
+      { name: "Call of Duty: Modern Warfare", path: "/links/co-op.html#483965510", year: 2019 },
       { name: "Nippon Marathon", path: "/links/co-op.html#478129023", year: 2019 },
       { name: "Bloody Trapland", path: "/links/co-op.html#478129023", year: 2019 },
       { name: "Super Mario Party", path: "/links/co-op.html#478129023", year: 2019 },
