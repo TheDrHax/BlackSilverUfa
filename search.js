@@ -627,7 +627,8 @@ var Redirect = {
     "483098038": "/links/mk-11.html#483098038",
     "483585370": "/links/first.html#483585370",
     "483918141": "/links/first.html#483918141",
-    "483965510": "/links/co-op.html#483965510",
+    "483965510": "/links/cod-mw.html#483965510",
+    "484398311": "/links/cod-mw.html#484398311",
   },
 
   link: function (hash) {
@@ -951,6 +952,7 @@ var Search = {
       { name: "Persona 5", path: "/links/persona_5.html", year: 2017 },
     ],
     "infinite": [
+      { name: "Call of Duty: Modern Warfare", path: "/links/cod-mw.html", year: 2019 },
       { name: "Ancestors: The Humankind Odyssey", path: "/links/ancestors.html", year: 2019 },
       { name: "Totally Accurate Battle Simulator", path: "/links/tabs.html", year: 2019 },
       { name: "Subnautica: Below Zero (early access)", path: "/links/subnautica-bz.html", year: 2019 },
@@ -979,7 +981,6 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
-      { name: "Call of Duty: Modern Warfare", path: "/links/co-op.html#483965510", year: 2019 },
       { name: "Nippon Marathon", path: "/links/co-op.html#478129023", year: 2019 },
       { name: "Bloody Trapland", path: "/links/co-op.html#478129023", year: 2019 },
       { name: "Super Mario Party", path: "/links/co-op.html#478129023", year: 2019 },
