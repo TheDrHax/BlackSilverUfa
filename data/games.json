@@ -73,13 +73,14 @@
     ]
   },
   {
-    "name": "Call of Duty: Modern Warfare",
+    "name": "Call of Duty: Modern Warfare (бета)",
     "category": "infinite",
     "id": "cod-mw",
     "streams": [
       { "name": "1", "twitch": "483965510" },
       { "name": "2", "twitch": "484398311" },
-      { "name": "3.1", "twitch": "484914562", "start": "3:58:42" }
+      { "name": "3.1", "twitch": "484914562", "start": "3:58:42" },
+      { "name": "3.2", "twitch": "485019796" }
     ]
   },
   {
