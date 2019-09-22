@@ -630,6 +630,7 @@ var Redirect = {
     "483965510": "/links/cod-mw.html#483965510",
     "484398311": "/links/cod-mw.html#484398311",
     "484914562": "/links/tloz-la.html#484914562",
+    "485019796": "/links/cod-mw.html#485019796",
   },
 
   link: function (hash) {
@@ -953,7 +954,7 @@ var Search = {
       { name: "Persona 5", path: "/links/persona_5.html", year: 2017 },
     ],
     "infinite": [
-      { name: "Call of Duty: Modern Warfare", path: "/links/cod-mw.html", year: 2019 },
+      { name: "Call of Duty: Modern Warfare (бета)", path: "/links/cod-mw.html", year: 2019 },
       { name: "Ancestors: The Humankind Odyssey", path: "/links/ancestors.html", year: 2019 },
       { name: "Totally Accurate Battle Simulator", path: "/links/tabs.html", year: 2019 },
       { name: "Subnautica: Below Zero (early access)", path: "/links/subnautica-bz.html", year: 2019 },
