@@ -631,6 +631,7 @@ var Redirect = {
     "484398311": "/links/cod-mw.html#484398311",
     "484914562": "/links/tloz-la.html#484914562",
     "485019796": "/links/cod-mw.html#485019796",
+    "485417805": "/links/first.html#485417805",
   },
 
   link: function (hash) {
@@ -770,6 +771,8 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Code Vein", path: "/links/first.html#485417805", year: 2019 },
+      { name: "The Surge 2", path: "/links/first.html#485417805", year: 2019 },
       { name: "Police Stories", path: "/links/first.html#483585370", year: 2019 },
       { name: "Neon Abyss (демо)", path: "/links/first.html#482664774", year: 2019 },
       { name: "SCP-087-B", path: "/links/first.html#481343199", year: 2019 },
