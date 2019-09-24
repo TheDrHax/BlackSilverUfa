@@ -1160,8 +1160,16 @@
       { "name": "SCP-087-B", "twitch": "481343199", "start": "1:56:00" },
       { "name": "Neon Abyss (демо)", "twitch": "482664774" },
       { "name": "Police Stories", "twitch": "483585370" },
-      { "name": "Code Vein", "twitch": "485417805", "segment": 0 },
-      { "name": "The Surge 2", "twitch": "485417805", "segment": 1, "start": "1:55:22" }
+      { "name": "Code Vein", "twitch": "485417805", "segment": 0 }
+    ]
+  },
+  {
+    "name": "The Surge 2",
+    "category": "ongoing",
+    "id": "surge-2",
+    "streams": [
+      { "name": "1", "twitch": "485417805", "segment": 1, "start": "1:55:22" },
+      { "name": "2", "twitch": "485786489" }
     ]
   },
   {
