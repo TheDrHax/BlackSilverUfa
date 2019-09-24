@@ -632,7 +632,8 @@ var Redirect = {
     "484914562": "/links/tloz-la.html#484914562",
     "485019796": "/links/cod-mw.html#485019796",
     "485417805": "/links/first.html#485417805",
-    "485417805.1": "/links/first.html#485417805.1",
+    "485417805.1": "/links/surge-2.html#485417805.1",
+    "485786489": "/links/surge-2.html#485786489",
   },
 
   link: function (hash) {
@@ -772,7 +773,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
-      { name: "The Surge 2", path: "/links/first.html#485417805.1", year: 2019 },
       { name: "Code Vein", path: "/links/first.html#485417805", year: 2019 },
       { name: "Police Stories", path: "/links/first.html#483585370", year: 2019 },
       { name: "Neon Abyss (демо)", path: "/links/first.html#482664774", year: 2019 },
@@ -926,6 +926,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "The Legend of Zelda: Link's Awakening", path: "/links/tloz-la.html", year: 2019 },
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
       { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
