@@ -164,7 +164,11 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
         print(f'Checking stream {segment.twitch} (path: {path})',
               file=sys.stderr)
 
-        offset, score = find_offset(template, Clip(path, ar=1000), min_score=100)
+        try:
+            offset, score = find_offset(template, Clip(path, ar=1000), min_score=10)
+        except Exception:
+            continue
+
         offset -= 300
 
         if score > 0:
