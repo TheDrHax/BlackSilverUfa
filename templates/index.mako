@@ -19,7 +19,7 @@
 
 <%stats:statistics />
 
-% for category in categories:
+% for category in categories.values():
   ## Заголовок категории
   <%el:header level="${category.level}" id="${category.code}">
     ${category.name}

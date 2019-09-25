@@ -32,9 +32,9 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Категории</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              % for category in categories:
+              % for i, category in enumerate(categories.values()):
                 % if category.level == 2:
-                  % if categories.index(category) > 0:
+                  % if i > 0:
                     <div class="dropdown-divider"></div>
                   % endif
                   <a class="dropdown-item" href="/#${category.code}"><b>${category.name}</b></a>
