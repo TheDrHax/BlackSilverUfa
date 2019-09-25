@@ -74,7 +74,7 @@
   },
   {
     "name": "Call of Duty: Modern Warfare (бета)",
-    "category": "infinite",
+    "category": "co-op-series",
     "id": "cod-mw",
     "streams": [
       { "name": "1", "twitch": "483965510" },
@@ -671,7 +671,7 @@
   },
   {
     "name": "Middle-earth: Shadow of War",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "middle_earth",
     "streams": [
       { "name": "1", "twitch": "181166703" },
@@ -708,7 +708,7 @@
   },
   {
     "name": "Outlast 2 с Дашей",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "outlast_2_dw",
     "streams": [
       { "name": "1", "twitch": "174697007" },
@@ -1400,7 +1400,7 @@
   },
   {
     "name": "Kageroh: Shadow Corridor",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "kageroh",
     "streams": [
       { "name": "Демо", "twitch": "245043791", "start": "1:15:26" },
@@ -1451,7 +1451,7 @@
   },
   {
     "name": "Wounded",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "wounded",
     "streams": [
       { "name": "1", "twitch": "389704750" },
@@ -1461,14 +1461,15 @@
   },
   {
     "name": "Anthem",
-    "category": "ongoing",
+    "category": "co-op-series",
     "id": "anthem",
     "streams": [
       { "name": "0 (демо)", "twitch": "370111835", "segment": 1, "start": "2:58:23" },
       { "name": "1", "twitch": "382162351" },
       { "name": "2", "twitch": "385983486" },
       { "name": "3", "twitch": "387496098", "segment": 1, "start": "4:04:45" }
-    ]
+    ],
+    "thumbnail": 1
   },
   {
     "name": "Metro Exodus",
@@ -1540,7 +1541,7 @@
     ]
   },
   {
-    "name": "Subnautica: Below Zero (early access)",
+    "name": "Subnautica: Below Zero (ранний доступ)",
     "category": "infinite",
     "id": "subnautica-bz",
     "streams": [
@@ -1550,7 +1551,7 @@
   },
   {
     "name": "Star Wars: Knights of the Old Republic II - The Sith Lords",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "sw-kotor2",
     "streams": [
       { "name": "1.1 (прерван)", "twitch": "352687063", "start": "3:12:41" },
@@ -1657,7 +1658,7 @@
   },
   {
     "name": "Super Seducer 2",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "super-seducer-2",
     "streams": [
       { "name": "1", "twitch": "311651965" },
@@ -1822,7 +1823,7 @@
   },
   {
     "name": "Jurassic World Evolution",
-    "category": "ongoing",
+    "category": "infinite",
     "id": "jurassic-world-evolution",
     "streams": [
       { "name": "1", "twitch": "272392172", "start": "1:17:17" },
@@ -1836,7 +1837,7 @@
   },
   {
     "name": "Moonlighter",
-    "category": "infinite",
+    "category": "ongoing",
     "id": "moonlighter",
     "streams": [
       { "name": "1", "twitch": "267726322", "start": "46:21" },
@@ -1914,7 +1915,7 @@
   },
   {
     "name": "Radical Heights",
-    "category": "abandoned",
+    "category": "infinite",
     "id": "radical-heights",
     "streams": [
       { "name": "1", "twitch": "248791166", "start": "1:23:22" },
@@ -1941,7 +1942,7 @@
   },
   {
     "name": "Far Cry 5",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "far-cry-5",
     "streams": [
       { "name": "0 (демонстрация без спойлеров)", "twitch": "242721044" },
@@ -1987,7 +1988,7 @@
   },
   {
     "name": "Metal Gear Survive",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "metal-gear-survive",
     "streams": [
       { "name": "0", "twitch": "219819121" },

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from datetime import datetime, timedelta
 from sortedcontainers import SortedList
 
 from .games import games
@@ -36,7 +37,7 @@ class Category:
         self.games = SortedList(key=lambda x: x.date)
 
 
-class Categories(list):
+class Categories(dict):
     def __init__(self, data):
         if type(data) is not list:
             raise TypeError
@@ -45,15 +46,23 @@ class Categories(list):
 
         for category in data:
             if category['code'] == 'recent':
-                recent = Category.from_dict(category)
+                c = Category.from_dict(category)
                 last_segments = list(streams.segments)[-10:]
 
                 for segment in last_segments:
-                    recent.games.add(segment.reference())
-                
-                self.append(recent)
+                    c.games.add(segment.reference())
             else:
-                self.append(Category.from_dict(category, games=uncategorized))
+                c = Category.from_dict(category, games=uncategorized)
+
+            self[c.code] = c
+
+        month_ago = datetime.now() - timedelta(days=30)
+                
+        if 'ongoing' in self and 'abandoned' in self:
+            for game in self['ongoing'].games.copy():
+                if game.streams[-1].date < month_ago:
+                    self['ongoing'].games.remove(game)
+                    self['abandoned'].games.add(game)
 
         if len(uncategorized) > 0:
             names = [f'{game.name} ({game.category})'
