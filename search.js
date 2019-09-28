@@ -634,6 +634,7 @@ var Redirect = {
     "485417805": "/links/first.html#485417805",
     "485417805.1": "/links/surge-2.html#485417805.1",
     "485786489": "/links/surge-2.html#485786489",
+    "487490676": "/links/first.html#487490676",
   },
 
   link: function (hash) {
@@ -773,6 +774,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Lost Ark Online", path: "/links/first.html#487490676", year: 2019 },
       { name: "Code Vein", path: "/links/first.html#485417805", year: 2019 },
       { name: "Police Stories", path: "/links/first.html#483585370", year: 2019 },
       { name: "Neon Abyss (демо)", path: "/links/first.html#482664774", year: 2019 },
@@ -931,7 +933,6 @@ var Search = {
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
       { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
       { name: "Blasphemous", path: "/links/blasphemous.html", year: 2019 },
-      { name: "Control", path: "/links/control.html", year: 2019 },
     ],
     "infinite": [
       { name: "Ancestors: The Humankind Odyssey", path: "/links/ancestors.html", year: 2019 },
@@ -951,6 +952,7 @@ var Search = {
       { name: "SCP Containment Breach", path: "/links/scp-cb.html", year: 2018 },
     ],
     "abandoned": [
+      { name: "Control", path: "/links/control.html", year: 2019 },
       { name: "Gears of War 3", path: "/links/gears-of-war-3.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
       { name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019 },
@@ -986,6 +988,7 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
+      { name: "Farming Simulator 19", path: "/links/co-op.html#487490676", year: 2019 },
       { name: "Nippon Marathon", path: "/links/co-op.html#478129023", year: 2019 },
       { name: "Bloody Trapland", path: "/links/co-op.html#478129023", year: 2019 },
       { name: "Super Mario Party", path: "/links/co-op.html#478129023", year: 2019 },
