@@ -53,7 +53,7 @@
       { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" },
       { "name": "A Gummy's Life", "twitch": "316677687" },
       { "name": "Blackout Club", "twitch": "331965944" },
-      { "name": "Among Us / UpBreakers", "twitch": "340545862" },
+      { "name": "UpBreakers", "twitch": "340545862", "start": "1:26:13" },
       { "name": "Superfighters Deluxe", "twitch": "343098113", "segment": 1, "start": "3:20:23" },
       { "name": "Survived By", "twitch": "346312308", "start": "2:41:26" },
       { "name": "Prey: Typhon Hunter", "twitch": "347665549", "start": "1:47:38" },
@@ -70,7 +70,17 @@
       { "name": "DayZ на PS4 с Джеком", "twitch": "449465888" },
       { "name": "Hot Shot Burn", "twitch": "468908083", "start": "2:33:36" },
       { "name": "Nippon Marathon / Bloody Trapland / Super Mario Party / Mario Kart 8 Deluxe", "twitch": "478129023" },
-      { "name": "Farming Simulator 19", "twitch": "487490676", "start": "2:11:17" }
+      { "name": "Farming Simulator 19", "twitch": "487490676", "start": "2:11:17" },
+      { "name": "Marooners / Save Your Nuts", "twitch": "487949971", "start": "1:25:19" }
+    ]
+  },
+  {
+    "name": "Among Us",
+    "category": "co-op-series",
+    "id": "among-us",
+    "streams": [
+      { "name": "1", "twitch": "340545862" },
+      { "name": "2", "twitch": "487949971", "start": "2:27:48" }
     ]
   },
   {
@@ -338,7 +348,8 @@
       { "name": "11", "twitch": "410963500", "start": "2:01:39" },
       { "name": "12", "twitch": "423369283", "segment": 0, "start": "2:13:25" },
       { "name": "13", "twitch": "436769739", "segment": 1, "start": "3:47:22" },
-      { "name": "14", "twitch": "445866715" }
+      { "name": "14", "twitch": "445866715" },
+      { "name": "15", "twitch": "487949971", "start": "53:20" }
     ]
   },
   {
@@ -428,7 +439,8 @@
       { "name": "4", "twitch": "287404564", "start": "3:03:49" },
       { "name": "5", "twitch": "319559721" },
       { "name": "6", "twitch": "340545862", "start": "1:48:08" },
-      { "name": "7", "twitch": "452195101", "start": "2:05:37" }
+      { "name": "7", "twitch": "452195101", "start": "2:05:37" },
+      { "name": "8", "twitch": "487949971", "start": "3:37:04" }
     ],
     "thumbnail": 3
   },
@@ -509,7 +521,8 @@
       { "name": "15", "twitch": "410963500", "start": "4:35:31" },
       { "name": "16", "twitch": "423369283", "segment": 1 },
       { "name": "17", "twitch": "445866715", "start": "4:27:04" },
-      { "name": "18", "twitch": "452195101", "start": "4:03:11" }
+      { "name": "18", "twitch": "452195101", "start": "4:03:11" },
+      { "name": "19", "twitch": "487949971", "start": "4:58:26" }
     ]
   },
   {
@@ -1005,7 +1018,8 @@
       { "name": "Посылки (30.12.18)", "twitch": "356378129" },
       { "name": "Asus ROG Phone", "twitch": "366354053", "segment": 0 },
       { "name": "Asus ROG Zephyrus / Asus ROG Sheath", "twitch": "420241791", "segment": 1, "start": "1:25:03" },
-      { "name": "Сундук Ктулху от Melinyx", "twitch": "444021917", "start": "25:10" }
+      { "name": "Сундук Ктулху от Melinyx", "twitch": "444021917", "start": "25:10" },
+      { "name": "Asus Rog Gladius II Wireless / Asus TUF Gaming H7", "twitch": "487949971" }
     ]
   },
   {
