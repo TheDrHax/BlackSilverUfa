@@ -373,7 +373,7 @@ var Redirect = {
     "338800850": "/links/protocol.html#338800850",
     "339579917": "/links/rdr2.html#339579917",
     "339579917.1": "/links/escape-rooms.html#339579917.1",
-    "340545862": "/links/co-op.html#340545862",
+    "340545862": "/links/among-us.html#340545862",
     "340934900": "/links/first.html#340934900",
     "341780077": "/links/rdr2-online.html#341780077",
     "341780077.1": "/links/protocol.html#341780077.1",
@@ -635,6 +635,7 @@ var Redirect = {
     "485417805.1": "/links/surge-2.html#485417805.1",
     "485786489": "/links/surge-2.html#485786489",
     "487490676": "/links/first.html#487490676",
+    "487949971": "/links/unboxing.html#487949971",
   },
 
   link: function (hash) {
@@ -988,6 +989,8 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
+      { name: "Marooners", path: "/links/co-op.html#487949971", year: 2019 },
+      { name: "Save Your Nuts", path: "/links/co-op.html#487949971", year: 2019 },
       { name: "Farming Simulator 19", path: "/links/co-op.html#487490676", year: 2019 },
       { name: "Nippon Marathon", path: "/links/co-op.html#478129023", year: 2019 },
       { name: "Bloody Trapland", path: "/links/co-op.html#478129023", year: 2019 },
@@ -1010,7 +1013,6 @@ var Search = {
       { name: "Prey: Typhon Hunter", path: "/links/co-op.html#347665549", year: 2018 },
       { name: "Survived By", path: "/links/co-op.html#346312308", year: 2018 },
       { name: "Superfighters Deluxe", path: "/links/co-op.html#343098113.1", year: 2018 },
-      { name: "Among Us", path: "/links/co-op.html#340545862", year: 2018 },
       { name: "UpBreakers", path: "/links/co-op.html#340545862", year: 2018 },
       { name: "Blackout Club", path: "/links/co-op.html#331965944", year: 2018 },
       { name: "A Gummy's Life", path: "/links/co-op.html#316677687", year: 2018 },
@@ -1060,6 +1062,7 @@ var Search = {
       { name: "Deep Rock Galactic", path: "/links/deep-rock-galactic.html", year: 2019 },
       { name: "New Super Mario Bros. U Deluxe", path: "/links/nsmbu.html", year: 2019 },
       { name: "Red Dead Online", path: "/links/rdr2-online.html", year: 2018 },
+      { name: "Among Us", path: "/links/among-us.html", year: 2018 },
       { name: "Эскейп-румы", path: "/links/escape-rooms.html", year: 2018 },
       { name: "Крокодил", path: "/links/crocodile.html", year: 2018 },
       { name: "Pummel Party", path: "/links/pummel-party.html", year: 2018 },
@@ -1120,6 +1123,8 @@ var Search = {
     ],
     "unboxing": [
       { name: "Анбоксинги", path: "/links/unboxing.html", year: 2019 },
+      { name: "Asus Rog Gladius II Wireless", path: "/links/unboxing.html#487949971", year: 2019 },
+      { name: "Asus TUF Gaming H7", path: "/links/unboxing.html#487949971", year: 2019 },
       { name: "Сундук Ктулху от Melinyx", path: "/links/unboxing.html#444021917", year: 2019 },
       { name: "Asus ROG Zephyrus", path: "/links/unboxing.html#420241791.1", year: 2019 },
       { name: "Asus ROG Sheath", path: "/links/unboxing.html#420241791.1", year: 2019 },
