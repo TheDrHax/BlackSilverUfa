@@ -837,7 +837,8 @@
       { "name": "Monsters of Little Haven", "twitch": "451727019", "segment": 0 },
       { "name": "Love, Sam", "twitch": "451727019", "segment": 2 },
       { "name": "Duck Season", "twitch": "454019548", "segment": 1 },
-      { "name": "Amnesia: The Silver Dream", "twitch": "481343199" }
+      { "name": "Amnesia: The Silver Dream", "twitch": "481343199" },
+      { "name": "Little Misfortune", "twitch": "488372344" }
     ]
   },
   {
@@ -1169,7 +1170,6 @@
       { "name": "Spirit Hunter: Death Mark", "twitch": "466152548" },
       { "name": "Gibbous - A Cthulhu Adventure", "twitch": "466612968", "start": "2:07:28" },
       { "name": "Ion Fury", "twitch": "467982647", "segment": 0 },
-      { "name": "Tom Clancy's Ghost Recon Breakpoint (демо)", "twitch": "477628127" },
       { "name": "GreedFall", "twitch": "479485735" },
       { "name": "Borderlands 3", "twitch": "480853384" },
       { "name": "SCP-087-B", "twitch": "481343199", "start": "1:56:00" },
@@ -1177,6 +1177,15 @@
       { "name": "Police Stories", "twitch": "483585370" },
       { "name": "Code Vein", "twitch": "485417805", "segment": 0 },
       { "name": "Lost Ark Online", "twitch": "487490676" }
+    ]
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon Breakpoint",
+    "category": "ongoing",
+    "id": "ghost-recon-breakpoint",
+    "streams": [
+      { "name": "Демо", "twitch": "477628127" },
+      { "name": "1", "twitch": "488372344", "start": "4:08:20" }
     ]
   },
   {
