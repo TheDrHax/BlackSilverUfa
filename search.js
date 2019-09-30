@@ -616,7 +616,7 @@ var Redirect = {
     "474912732": "/links/man-of-medan.html#474912732",
     "474993960": "/links/man-of-medan.html#474993960",
     "475369885": "/links/man-of-medan.html#475369885",
-    "477628127": "/links/first.html#477628127",
+    "477628127": "/links/ghost-recon-breakpoint.html#477628127",
     "478129023": "/links/co-op.html#478129023",
     "479485735": "/links/first.html#479485735",
     "479926128": "/links/green-hell.html#479926128",
@@ -636,6 +636,7 @@ var Redirect = {
     "485786489": "/links/surge-2.html#485786489",
     "487490676": "/links/first.html#487490676",
     "487949971": "/links/unboxing.html#487949971",
+    "488372344": "/links/single.html#488372344",
   },
 
   link: function (hash) {
@@ -676,6 +677,7 @@ var Search = {
   games: {
     "finished": [
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
+      { name: "Little Misfortune", path: "/links/single.html#488372344", year: 2019 },
       { name: "Amnesia: The Silver Dream", path: "/links/single.html#481343199", year: 2019 },
       { name: "Remnant: From the Ashes", path: "/links/remnant-from-the-ashes.html", year: 2019 },
       { name: "The Dark Pictures: Man of Medan", path: "/links/man-of-medan.html", year: 2019 },
@@ -782,7 +784,6 @@ var Search = {
       { name: "SCP-087-B", path: "/links/first.html#481343199", year: 2019 },
       { name: "Borderlands 3", path: "/links/first.html#480853384", year: 2019 },
       { name: "GreedFall", path: "/links/first.html#479485735", year: 2019 },
-      { name: "Tom Clancy's Ghost Recon Breakpoint (демо)", path: "/links/first.html#477628127", year: 2019 },
       { name: "Ion Fury", path: "/links/first.html#467982647", year: 2019 },
       { name: "Gibbous - A Cthulhu Adventure", path: "/links/first.html#466612968", year: 2019 },
       { name: "Spirit Hunter: Death Mark", path: "/links/first.html#466152548", year: 2019 },
@@ -934,6 +935,7 @@ var Search = {
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
       { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
       { name: "Blasphemous", path: "/links/blasphemous.html", year: 2019 },
+      { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
     ],
     "infinite": [
       { name: "Ancestors: The Humankind Odyssey", path: "/links/ancestors.html", year: 2019 },
