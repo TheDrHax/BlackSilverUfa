@@ -838,7 +838,7 @@
       { "name": "Love, Sam", "twitch": "451727019", "segment": 2 },
       { "name": "Duck Season", "twitch": "454019548", "segment": 1 },
       { "name": "Amnesia: The Silver Dream", "twitch": "481343199" },
-      { "name": "Little Misfortune", "twitch": "488372344" }
+      { "name": "Little Misfortune", "twitch": "488372344", "segment": 0 }
     ]
   },
   {
@@ -1185,7 +1185,7 @@
     "id": "ghost-recon-breakpoint",
     "streams": [
       { "name": "Демо", "twitch": "477628127" },
-      { "name": "1", "twitch": "488372344", "start": "4:08:20" }
+      { "name": "1", "twitch": "488372344", "segment": 1 }
     ]
   },
   {
