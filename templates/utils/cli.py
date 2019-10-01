@@ -144,7 +144,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
 
         return original(segment) is not None
 
-    candidates = [s for s in streams.segments if can_match(s)]
+    candidates = sorted([s for s in streams.segments if can_match(s)],
+                        key=lambda s: 1 if s.official == False else 0)
     youtube_source = ytdl_best_source(segment_kwargs['youtube'])
 
     print(f'Preparing template...', file=sys.stderr)
