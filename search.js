@@ -638,6 +638,7 @@ var Redirect = {
     "487949971": "/links/unboxing.html#487949971",
     "488372344": "/links/single.html#488372344",
     "488372344.1": "/links/ghost-recon-breakpoint.html#488372344.1",
+    "488770279": "/links/ghost-recon-breakpoint.html#488770279",
   },
 
   link: function (hash) {
