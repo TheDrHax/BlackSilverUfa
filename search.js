@@ -639,6 +639,7 @@ var Redirect = {
     "488372344": "/links/single.html#488372344",
     "488372344.1": "/links/ghost-recon-breakpoint.html#488372344.1",
     "488770279": "/links/ghost-recon-breakpoint.html#488770279",
+    "489658551": "/links/first.html#489658551",
   },
 
   link: function (hash) {
@@ -779,6 +780,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Fran Bow", path: "/links/first.html#489658551", year: 2019 },
       { name: "Lost Ark Online", path: "/links/first.html#487490676", year: 2019 },
       { name: "Code Vein", path: "/links/first.html#485417805", year: 2019 },
       { name: "Police Stories", path: "/links/first.html#483585370", year: 2019 },
