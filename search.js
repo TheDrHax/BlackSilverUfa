@@ -625,7 +625,7 @@ var Redirect = {
     "481343199": "/links/single.html#481343199",
     "482664774": "/links/first.html#482664774",
     "483098038": "/links/mk-11.html#483098038",
-    "483585370": "/links/first.html#483585370",
+    "483585370": "/links/police-stories.html#483585370",
     "483918141": "/links/tloz-la.html#483918141",
     "483965510": "/links/cod-mw.html#483965510",
     "484398311": "/links/cod-mw.html#484398311",
@@ -640,6 +640,7 @@ var Redirect = {
     "488372344.1": "/links/ghost-recon-breakpoint.html#488372344.1",
     "488770279": "/links/ghost-recon-breakpoint.html#488770279",
     "489658551": "/links/first.html#489658551",
+    "490059507": "/links/first.html#490059507",
   },
 
   link: function (hash) {
@@ -780,10 +781,10 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Stygian: Reign of the Old Ones", path: "/links/first.html#490059507", year: 2019 },
       { name: "Fran Bow", path: "/links/first.html#489658551", year: 2019 },
       { name: "Lost Ark Online", path: "/links/first.html#487490676", year: 2019 },
       { name: "Code Vein", path: "/links/first.html#485417805", year: 2019 },
-      { name: "Police Stories", path: "/links/first.html#483585370", year: 2019 },
       { name: "Neon Abyss (демо)", path: "/links/first.html#482664774", year: 2019 },
       { name: "SCP-087-B", path: "/links/first.html#481343199", year: 2019 },
       { name: "Borderlands 3", path: "/links/first.html#480853384", year: 2019 },
@@ -942,6 +943,7 @@ var Search = {
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
     ],
     "infinite": [
+      { name: "Police Stories", path: "/links/police-stories.html", year: 2019 },
       { name: "Ancestors: The Humankind Odyssey", path: "/links/ancestors.html", year: 2019 },
       { name: "Totally Accurate Battle Simulator", path: "/links/tabs.html", year: 2019 },
       { name: "Subnautica: Below Zero (ранний доступ)", path: "/links/subnautica-bz.html", year: 2019 },
