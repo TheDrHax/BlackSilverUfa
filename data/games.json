@@ -1174,10 +1174,19 @@
       { "name": "Borderlands 3", "twitch": "480853384" },
       { "name": "SCP-087-B", "twitch": "481343199", "start": "1:56:00" },
       { "name": "Neon Abyss (демо)", "twitch": "482664774" },
-      { "name": "Police Stories", "twitch": "483585370" },
       { "name": "Code Vein", "twitch": "485417805", "segment": 0 },
       { "name": "Lost Ark Online", "twitch": "487490676" },
-      { "name": "Fran Bow", "twitch": "489658551" }
+      { "name": "Fran Bow", "twitch": "489658551" },
+      { "name": "Stygian: Reign of the Old Ones", "twitch": "490059507" }
+    ]
+  },
+  {
+    "name": "Police Stories",
+    "category": "infinite",
+    "id": "police-stories",
+    "streams": [
+      { "name": "1", "twitch": "483585370" },
+      { "name": "2 (кооп)", "twitch": "490059507", "start": "2:36:43" }
     ]
   },
   {
@@ -1187,7 +1196,8 @@
     "streams": [
       { "name": "Демо", "twitch": "477628127" },
       { "name": "0", "twitch": "488372344", "segment": 1 },
-      { "name": "1", "twitch": "488770279" }
+      { "name": "1", "twitch": "488770279" },
+      { "name": "2", "twitch": "490059507", "start": "4:04:19" }
     ]
   },
   {
