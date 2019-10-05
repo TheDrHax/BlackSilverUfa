@@ -171,7 +171,10 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
               file=sys.stderr)
 
         try:
-            offset, score = find_offset(template, Clip(path, ar=1000), min_score=10)
+            offset, score = find_offset(template, Clip(path, ar=1000),
+                                        start=int(segment.abs_start),
+                                        end=int(segment.abs_end),
+                                        min_score=10)
         except Exception:
             continue
 
