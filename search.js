@@ -643,6 +643,7 @@ var Redirect = {
     "490059507": "/links/first.html#490059507",
     "490059507.1": "/links/police-stories.html#490059507.1",
     "490059507.2": "/links/ghost-recon-breakpoint.html#490059507.2",
+    "490488498": "/links/surge-2.html#490488498",
   },
 
   link: function (hash) {
@@ -783,6 +784,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Ghostbusters", path: "/links/first.html#490488498", year: 2019 },
       { name: "Stygian: Reign of the Old Ones", path: "/links/first.html#490059507", year: 2019 },
       { name: "Fran Bow", path: "/links/first.html#489658551", year: 2019 },
       { name: "Lost Ark Online", path: "/links/first.html#487490676", year: 2019 },
