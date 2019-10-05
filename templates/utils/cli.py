@@ -146,10 +146,15 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
 
     candidates = sorted([s for s in streams.segments if can_match(s)],
                         key=lambda s: 1 if s.official == False else 0)
-    youtube_source = ytdl_best_source(segment_kwargs['youtube'])
 
-    print(f'Preparing template...', file=sys.stderr)
-    template = Clip(youtube_source, ar=1000).slice(300, 300)[0]
+    try:
+        print(f'Preparing template...', file=sys.stderr)
+        youtube_source = ytdl_best_source(segment_kwargs['youtube'])
+        template = Clip(youtube_source, ar=1000).slice(300, 300)[0]
+    except:
+        print(f'Falling back to bestaudio...', file=sys.stderr)
+        youtube_source = ytdl_best_source(segment_kwargs['youtube'], 'bestaudio')
+        template = Clip(youtube_source, ar=1000).slice(300, 300)[0]
 
     checked_streams = set()
     matching_stream = None
@@ -185,8 +190,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
     return matching_stream, segment
 
 
-def ytdl_best_source(video_id):
-    p = run(['youtube-dl', '-gf', 'best', video_id], stdout=PIPE)
+def ytdl_best_source(video_id, quality='best'):
+    p = run(['youtube-dl', '-gf', quality, video_id], stdout=PIPE)
 
     if p.returncode != 0:
         raise RuntimeError(f'youtube-dl exited with non-zero code {p.returncode}')
