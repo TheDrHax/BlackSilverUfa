@@ -641,6 +641,7 @@ var Redirect = {
     "488770279": "/links/ghost-recon-breakpoint.html#488770279",
     "489658551": "/links/first.html#489658551",
     "490059507": "/links/first.html#490059507",
+    "490059507.1": "/links/police-stories.html#490059507.1",
   },
 
   link: function (hash) {
