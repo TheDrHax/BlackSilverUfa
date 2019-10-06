@@ -645,6 +645,7 @@ var Redirect = {
     "490059507.2": "/links/ghost-recon-breakpoint.html#490059507.2",
     "490488498": "/links/surge-2.html#490488498",
     "490488498.1": "/links/first.html#490488498.1",
+    "491017258": "/links/single.html#491017258",
   },
 
   link: function (hash) {
@@ -685,6 +686,7 @@ var Search = {
   games: {
     "finished": [
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
+      { name: "Project Nightmare: Case 36", path: "/links/single.html#491017258", year: 2019 },
       { name: "Little Misfortune", path: "/links/single.html#488372344", year: 2019 },
       { name: "Amnesia: The Silver Dream", path: "/links/single.html#481343199", year: 2019 },
       { name: "Remnant: From the Ashes", path: "/links/remnant-from-the-ashes.html", year: 2019 },
@@ -785,6 +787,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Home Sweet Home: Episode II", path: "/links/first.html#491017258", year: 2019 },
       { name: "Ghostbusters", path: "/links/first.html#490488498.1", year: 2019 },
       { name: "Stygian: Reign of the Old Ones", path: "/links/first.html#490059507", year: 2019 },
       { name: "Fran Bow", path: "/links/first.html#489658551", year: 2019 },
@@ -918,7 +921,6 @@ var Search = {
       { name: "The Nothing", path: "/links/first.html#245043791", year: 2018 },
       { name: "Bunky", path: "/links/first.html#245043791", year: 2018 },
       { name: "Die Young", path: "/links/first.html#245043791", year: 2018 },
-      { name: "SCP Containment Breach - Ultimate Edition", path: "/links/first.html#239731404", year: 2018 },
       { name: "Past Cure", path: "/links/first.html#233032380.1", year: 2018 },
       { name: "SCP: Secret Laboratory", path: "/links/first.html#232346216", year: 2018 },
       { name: "Never Again", path: "/links/first.html#230659866", year: 2018 },
@@ -960,6 +962,7 @@ var Search = {
       { name: "Witch Hunt", path: "/links/witch-hunt.html", year: 2018 },
       { name: "Immortal Redneck", path: "/links/immortal-redneck.html", year: 2018 },
       { name: "Radical Heights", path: "/links/radical-heights.html", year: 2018 },
+      { name: "SCP Containment Breach - Ultimate Edition", path: "/links/scp-cb-ultimate.html", year: 2018 },
       { name: "MONSTRUM", path: "/links/monstrum.html", year: 2018 },
       { name: "SCP Containment Breach - Unity", path: "/links/scp-cbu.html", year: 2018 },
       { name: "Getting Over It", path: "/links/getting-over-it.html", year: 2018 },
