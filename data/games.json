@@ -838,7 +838,8 @@
       { "name": "Love, Sam", "twitch": "451727019", "segment": 2 },
       { "name": "Duck Season", "twitch": "454019548", "segment": 1 },
       { "name": "Amnesia: The Silver Dream", "twitch": "481343199" },
-      { "name": "Little Misfortune", "twitch": "488372344", "segment": 0 }
+      { "name": "Little Misfortune", "twitch": "488372344", "segment": 0 },
+      { "name": "Project Nightmare: Case 36", "twitch": "491017258" }
     ]
   },
   {
@@ -1080,7 +1081,6 @@
       { "name": "Never Again / Boogeyman 2", "twitch": "230659866" },
       { "name": "SCP: Secret Laboratory", "twitch": "232346216", "start": "2:58:51" },
       { "name": "Past Cure", "twitch": "233032380", "segment": 1 },
-      { "name": "SCP Containment Breach - Ultimate Edition", "twitch": "239731404", "start": "1:17:59" },
       { "name": "Living Nightmares / Agnes Doll / Duder / The Nothing / Bunky / Die Young", "twitch": "245043791" },
       { "name": "Extinction / Minit", "twitch": "248791166" },
       { "name": "Fortunarium / Lobotomy Corporation / Escape Doodland / Jalopy", "twitch": "249160756" },
@@ -1178,7 +1178,17 @@
       { "name": "Lost Ark Online", "twitch": "487490676" },
       { "name": "Fran Bow", "twitch": "489658551" },
       { "name": "Stygian: Reign of the Old Ones", "twitch": "490059507", "segment": 0 },
-      { "name": "Ghostbusters", "twitch": "490488498", "segment": 1 }
+      { "name": "Ghostbusters", "twitch": "490488498", "segment": 1 },
+      { "name": "Home Sweet Home: Episode II", "twitch": "491017258", "start": "3:04:35" }
+    ]
+  },
+  {
+    "name": "SCP Containment Breach - Ultimate Edition",
+    "category": "infinite",
+    "id": "scp-cb-ultimate",
+    "streams": [
+      { "name": "1", "twitch": "239731404", "start": "1:17:59" },
+      { "name": "2", "twitch": "491017258", "start": "4:00:25" }
     ]
   },
   {
