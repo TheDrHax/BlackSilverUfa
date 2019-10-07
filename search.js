@@ -686,7 +686,7 @@ var Search = {
   games: {
     "finished": [
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
-      { name: "Project Nightmare: Case 36", path: "/links/single.html#491017258", year: 2019 },
+      { name: "Project Nightmares Case 36: Henrietta Kedward", path: "/links/single.html#491017258", year: 2019 },
       { name: "Little Misfortune", path: "/links/single.html#488372344", year: 2019 },
       { name: "Amnesia: The Silver Dream", path: "/links/single.html#481343199", year: 2019 },
       { name: "Remnant: From the Ashes", path: "/links/remnant-from-the-ashes.html", year: 2019 },
