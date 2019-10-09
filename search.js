@@ -639,13 +639,14 @@ var Redirect = {
     "488372344": "/links/single.html#488372344",
     "488372344.1": "/links/ghost-recon-breakpoint.html#488372344.1",
     "488770279": "/links/ghost-recon-breakpoint.html#488770279",
-    "489658551": "/links/first.html#489658551",
+    "489658551": "/links/fran-bow.html#489658551",
     "490059507": "/links/first.html#490059507",
     "490059507.1": "/links/police-stories.html#490059507.1",
     "490059507.2": "/links/ghost-recon-breakpoint.html#490059507.2",
     "490488498": "/links/surge-2.html#490488498",
     "490488498.1": "/links/first.html#490488498.1",
     "491017258": "/links/single.html#491017258",
+    "492261356": "/links/fran-bow.html#492261356",
   },
 
   link: function (hash) {
@@ -687,6 +688,7 @@ var Search = {
     "finished": [
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Project Nightmares Case 36: Henrietta Kedward", path: "/links/single.html#491017258", year: 2019 },
+      { name: "Fran Bow", path: "/links/fran-bow.html", year: 2019 },
       { name: "Little Misfortune", path: "/links/single.html#488372344", year: 2019 },
       { name: "Amnesia: The Silver Dream", path: "/links/single.html#481343199", year: 2019 },
       { name: "Remnant: From the Ashes", path: "/links/remnant-from-the-ashes.html", year: 2019 },
@@ -790,7 +792,6 @@ var Search = {
       { name: "Home Sweet Home: Episode II", path: "/links/first.html#491017258", year: 2019 },
       { name: "Ghostbusters", path: "/links/first.html#490488498.1", year: 2019 },
       { name: "Stygian: Reign of the Old Ones", path: "/links/first.html#490059507", year: 2019 },
-      { name: "Fran Bow", path: "/links/first.html#489658551", year: 2019 },
       { name: "Lost Ark Online", path: "/links/first.html#487490676", year: 2019 },
       { name: "Code Vein", path: "/links/first.html#485417805", year: 2019 },
       { name: "Neon Abyss (демо)", path: "/links/first.html#482664774", year: 2019 },
