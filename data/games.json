@@ -1204,8 +1204,9 @@
     "category": "infinite",
     "id": "police-stories",
     "streams": [
-      { "name": "1", "twitch": "483585370" },
-      { "name": "2 (кооп)", "twitch": "490059507", "segment": 1 }
+      { "name": "1 (соло)", "twitch": "483585370" },
+      { "name": "2", "twitch": "490059507", "segment": 1 },
+      { "name": "3", "twitch": "492682718", "start": "45:51" }
     ]
   },
   {
@@ -1336,10 +1337,15 @@
   },
   {
     "name": "Gears of War 3",
-    "category": "ongoing",
+    "category": "finished",
     "id": "gears-of-war-3",
     "streams": [
-      { "name": "1", "twitch": "467081484" }
+      { "name": "1", "twitch": "467081484" },
+      { 
+        "name": "2.1 (поиски коопа)", "twitch": "492682718",
+        "note": "Этот сегмент добавлен на случай, если запись будет разбита на части. Удалю чуть позже."
+      },
+      { "name": "2.2", "twitch": "492682718", "start": "1:12:01" }
     ]
   },
   {
