@@ -647,6 +647,7 @@ var Redirect = {
     "490488498.1": "/links/first.html#490488498.1",
     "491017258": "/links/single.html#491017258",
     "492261356": "/links/fran-bow.html#492261356",
+    "492682718": "/links/gears-of-war-3.html#492682718",
   },
 
   link: function (hash) {
@@ -692,6 +693,7 @@ var Search = {
       { name: "Little Misfortune", path: "/links/single.html#488372344", year: 2019 },
       { name: "Amnesia: The Silver Dream", path: "/links/single.html#481343199", year: 2019 },
       { name: "Remnant: From the Ashes", path: "/links/remnant-from-the-ashes.html", year: 2019 },
+      { name: "Gears of War 3", path: "/links/gears-of-war-3.html", year: 2019 },
       { name: "The Dark Pictures: Man of Medan", path: "/links/man-of-medan.html", year: 2019 },
       { name: "Doki Doki Literature Club", path: "/links/doki-doki.html", year: 2019 },
       { name: "Duck Season", path: "/links/single.html#454019548.1", year: 2019 },
@@ -971,7 +973,6 @@ var Search = {
     ],
     "abandoned": [
       { name: "Control", path: "/links/control.html", year: 2019 },
-      { name: "Gears of War 3", path: "/links/gears-of-war-3.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
       { name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019 },
       { name: "Wounded", path: "/links/wounded.html", year: 2019 },
