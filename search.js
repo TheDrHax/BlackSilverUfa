@@ -647,7 +647,8 @@ var Redirect = {
     "490488498.1": "/links/first.html#490488498.1",
     "491017258": "/links/single.html#491017258",
     "492261356": "/links/fran-bow.html#492261356",
-    "492682718": "/links/gears-of-war-3.html#492682718",
+    "492682718": "/links/police-stories.html#492682718",
+    "493101229": "/links/scp-cb-ultimate.html#493101229",
   },
 
   link: function (hash) {
