@@ -24,6 +24,7 @@ Segment options:
   --offset <t>        Offset of this segment relative to the start of
                       original stream. [default: 0]
   --end <t>           Forced absolute timecode of segment's ending.
+  --unofficial        Mark new segment as unofficial.
 
 Segment matching options:
   --all               Check all streams with at least one unofficial or
@@ -227,12 +228,15 @@ def main(argv=None):
             return
 
         # Parse segment options
-        options = (('youtube', str), ('offset', Timecode), ('end', Timecode))
+        options = (('youtube', str, 'youtube'),
+                   ('offset', Timecode, 'offset'),
+                   ('end', Timecode, 'end'),
+                   ('unofficial', lambda x: False if x else None, 'official'))
         segment_kwargs = dict()
 
-        for key, type in options:
-            if args.get(f'--{key}') is not None:
-                segment_kwargs[key] = type(args[f'--{key}'])
+        for option, type, key in options:
+            if args.get(f'--{option}') is not None:
+                segment_kwargs[key] = type(args[f'--{option}'])
 
         commit_msg = None
 
