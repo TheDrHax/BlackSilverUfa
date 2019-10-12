@@ -649,6 +649,7 @@ var Redirect = {
     "492261356": "/links/fran-bow.html#492261356",
     "492682718": "/links/police-stories.html#492682718",
     "493101229": "/links/scp-cb-ultimate.html#493101229",
+    "493514454": "/links/surge-2.html#493514454",
   },
 
   link: function (hash) {
@@ -948,7 +949,6 @@ var Search = {
     "ongoing": [
       { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "The Legend of Zelda: Link's Awakening", path: "/links/tloz-la.html", year: 2019 },
-      { name: "Blasphemous", path: "/links/blasphemous.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
     ],
     "infinite": [
@@ -973,6 +973,7 @@ var Search = {
     "abandoned": [
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
       { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
+      { name: "Blasphemous", path: "/links/blasphemous.html", year: 2019 },
       { name: "Control", path: "/links/control.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
       { name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019 },
