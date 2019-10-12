@@ -145,37 +145,37 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
 
         return original(segment) is not None
 
-    candidates = sorted([s for s in streams.segments if can_match(s)],
-                        key=lambda s: 1 if s.official == False else 0)
-
     try:
         print(f'Preparing template...', file=sys.stderr)
         youtube_source = ytdl_best_source(segment_kwargs['youtube'])
-        template = Clip(youtube_source, ar=1000).slice(300, 300)[0]
+        video = Clip(youtube_source, ar=1000)
+        template = video.slice(300, 300)[0]
     except:
         print(f'Falling back to bestaudio...', file=sys.stderr)
         youtube_source = ytdl_best_source(segment_kwargs['youtube'], 'bestaudio')
-        template = Clip(youtube_source, ar=1000).slice(300, 300)[0]
+        video = Clip(youtube_source, ar=1000)
+        template = video.slice(300, 300)[0]
 
-    checked_streams = set()
+    candidates = sorted(
+        [s for s in streams.segments if can_match(s)],
+        key=lambda s: abs(int(s.abs_end - s.abs_start) - video.duration)
+    )
+
     matching_stream = None
     video_offset = None
 
     for segment in candidates:
-        if segment.stream.twitch in checked_streams:
-            continue
-        else:
-            checked_streams.add(segment.stream.twitch)
-
         path = original(segment)
-        print(f'Checking stream {segment.twitch} (path: {path})',
+        print(f'Checking segment {segment.hash} (path: {path})',
               file=sys.stderr)
 
         try:
-            offset, score = find_offset(template, Clip(path, ar=1000),
-                                        start=int(segment.abs_start),
-                                        end=int(segment.abs_end),
-                                        min_score=10)
+            offset, score = find_offset(
+                template, Clip(path, ar=1000),
+                start=int(segment.abs_start),
+                end=int(segment.abs_end) - video.duration + 10 * 60,
+                min_score=10
+            )
         except Exception:
             continue
 
