@@ -650,6 +650,7 @@ var Redirect = {
     "492682718": "/links/police-stories.html#492682718",
     "493101229": "/links/scp-cb-ultimate.html#493101229",
     "493514454": "/links/surge-2.html#493514454",
+    "493585395": "/links/co-op.html#493585395",
   },
 
   link: function (hash) {
@@ -1009,6 +1010,7 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
+      { name: "We Were Here Together", path: "/links/co-op.html#493585395", year: 2019 },
       { name: "Marooners", path: "/links/co-op.html#487949971", year: 2019 },
       { name: "Save Your Nuts", path: "/links/co-op.html#487949971", year: 2019 },
       { name: "Farming Simulator 19", path: "/links/co-op.html#487490676", year: 2019 },
