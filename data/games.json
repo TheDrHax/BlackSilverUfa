@@ -1178,7 +1178,7 @@
       { "name": "Code Vein", "twitch": "485417805", "segment": 0 },
       { "name": "Lost Ark Online", "twitch": "487490676" },
       { "name": "Stygian: Reign of the Old Ones", "twitch": "490059507", "segment": 0 },
-      { "name": "Ghostbusters", "twitch": "490488498", "segment": 1 },
+      { "name": "Ghostbusters", "twitch": "490488498", "start": "4:01:22" },
       { "name": "Home Sweet Home: Episode II", "twitch": "491017258", "start": "3:04:35" }
     ]
   },
@@ -1229,7 +1229,7 @@
     "streams": [
       { "name": "1", "twitch": "485417805", "segment": 1, "start": "1:55:22" },
       { "name": "2", "twitch": "485786489" },
-      { "name": "3", "twitch": "490488498", "segment": 0 },
+      { "name": "3", "twitch": "490488498" },
       { "name": "4", "twitch": "493514454" }
     ]
   },
