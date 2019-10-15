@@ -1177,7 +1177,7 @@
       { "name": "Neon Abyss (демо)", "twitch": "482664774" },
       { "name": "Code Vein", "twitch": "485417805", "segment": 0 },
       { "name": "Lost Ark Online", "twitch": "487490676" },
-      { "name": "Stygian: Reign of the Old Ones", "twitch": "490059507", "segment": 0 },
+      { "name": "Stygian: Reign of the Old Ones", "twitch": "490059507" },
       { "name": "Ghostbusters", "twitch": "490488498", "start": "4:01:22" },
       { "name": "Home Sweet Home: Episode II", "twitch": "491017258", "start": "3:04:35" }
     ]
@@ -1207,7 +1207,7 @@
     "id": "police-stories",
     "streams": [
       { "name": "1 (соло)", "twitch": "483585370" },
-      { "name": "2", "twitch": "490059507", "segment": 1 },
+      { "name": "2", "twitch": "490059507", "start": "2:36:43" },
       { "name": "3", "twitch": "492682718", "start": "45:51" }
     ]
   },
@@ -1219,7 +1219,7 @@
       { "name": "Демо", "twitch": "477628127" },
       { "name": "0", "twitch": "488372344", "segment": 1 },
       { "name": "1", "twitch": "488770279" },
-      { "name": "2", "twitch": "490059507", "segment": 2 }
+      { "name": "2", "twitch": "490059507", "start": "4:04:19" }
     ]
   },
   {
