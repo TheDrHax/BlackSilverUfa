@@ -644,7 +644,6 @@ var Redirect = {
     "490059507.1": "/links/police-stories.html#490059507.1",
     "490059507.2": "/links/ghost-recon-breakpoint.html#490059507.2",
     "490488498": "/links/surge-2.html#490488498",
-    "490488498.1": "/links/first.html#490488498.1",
     "491017258": "/links/single.html#491017258",
     "492261356": "/links/fran-bow.html#492261356",
     "492682718": "/links/police-stories.html#492682718",
@@ -795,7 +794,7 @@ var Search = {
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
       { name: "Home Sweet Home: Episode II", path: "/links/first.html#491017258", year: 2019 },
-      { name: "Ghostbusters", path: "/links/first.html#490488498.1", year: 2019 },
+      { name: "Ghostbusters", path: "/links/first.html#490488498", year: 2019 },
       { name: "Stygian: Reign of the Old Ones", path: "/links/first.html#490059507", year: 2019 },
       { name: "Lost Ark Online", path: "/links/first.html#487490676", year: 2019 },
       { name: "Code Vein", path: "/links/first.html#485417805", year: 2019 },
