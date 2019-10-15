@@ -641,8 +641,6 @@ var Redirect = {
     "488770279": "/links/ghost-recon-breakpoint.html#488770279",
     "489658551": "/links/fran-bow.html#489658551",
     "490059507": "/links/first.html#490059507",
-    "490059507.1": "/links/police-stories.html#490059507.1",
-    "490059507.2": "/links/ghost-recon-breakpoint.html#490059507.2",
     "490488498": "/links/surge-2.html#490488498",
     "491017258": "/links/single.html#491017258",
     "492261356": "/links/fran-bow.html#492261356",
