@@ -90,6 +90,10 @@
         <i class="fas fa-comments"></i> 9585
       </a>
     </span>
+    <span class="badge badge-success">
+      <a href="https://www.youtube.com/watch?v=I-bvHcO5kt8" target="_blank">
+        <i class="fab fa-youtube"></i> I-bvHcO5kt8
+      </a>
     </span>
   </div>
 </div>
@@ -103,7 +107,7 @@
     <li>Таймкоды:</li>
   <ul>
     <li><a href="javascript:void(0)" class="timecode" data-id="0" data-value="0">0:00</a> — Меню</li>
-    <li><a href="javascript:void(0)" class="timecode" data-id="0" data-value="38">0:38</a> — Интро</li>
+    <li><a href="javascript:void(0)" class="timecode" data-id="0" data-value="37">0:37</a> — Интро</li>
     <li><a href="javascript:void(0)" class="timecode" data-id="0" data-value="143">2:23</a> - <a href="javascript:void(0)" class="timecode" data-id="0" data-value="323">5:23</a> — Создание персонажа</li>
     <li><a href="javascript:void(0)" class="timecode" data-id="0" data-value="362">6:02</a> — Игра</li>
   </ul>
@@ -111,19 +115,13 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="0" data-segment="1" data-offset="6922" data-start="0" data-name="1" data-twitch="485417805" style="display: none" />
+  <p class="stream col" data-id="0" data-segment="1" data-offset="6922" data-start="0" data-name="1" data-twitch="485417805" data-youtube="I-bvHcO5kt8" />
 </div>
 
-<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
-прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
-обновился. Обычно на это требуется минута или около того, но я оставляю
-комментарий ещё до завершения процесса. Нажмите
-<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
-страницу.</p>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v485417805.ass --sub-delay=-6922 --start=0" --player-passthrough hls twitch.tv/videos/485417805 best
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v485417805.ass --sub-delay=-6922 --start=0 ytdl://I-bvHcO5kt8
 </code></pre>
 </div></div>
 
