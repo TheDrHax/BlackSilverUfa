@@ -142,6 +142,9 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
     def can_match(segment):
         if segment.youtube and segment.official != False and not match_all:
             return False
+        
+        if segment.official == False and segment_kwargs['official'] == False:
+            return False
 
         return original(segment) is not None
 
