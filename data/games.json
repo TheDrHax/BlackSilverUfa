@@ -1183,6 +1183,15 @@
     ]
   },
   {
+    "name": "Chernobylite",
+    "category": "first",
+    "id": "chernobylite",
+    "streams": [
+      { "name": "1.1", "twitch": "495362547" },
+      { "name": "1.2", "twitch": "495449259" }
+    ]
+  },
+  {
     "name": "Fran Bow",
     "category": "finished",
     "id": "fran-bow",
