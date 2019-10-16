@@ -648,6 +648,8 @@ var Redirect = {
     "493101229": "/links/scp-cb-ultimate.html#493101229",
     "493514454": "/links/surge-2.html#493514454",
     "493585395": "/links/co-op.html#493585395",
+    "495362547": "/links/chernobylite.html#495362547",
+    "495449259": "/links/chernobylite.html#495449259",
   },
 
   link: function (hash) {
@@ -790,6 +792,7 @@ var Search = {
       { name: "The Legend of Zelda: Breath of the Wild", path: "/links/tloz_botw.html", year: 2017 },
     ],
     "first": [
+      { name: "Chernobylite", path: "/links/chernobylite.html", year: 2019 },
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
       { name: "Home Sweet Home: Episode II", path: "/links/first.html#491017258", year: 2019 },
       { name: "Ghostbusters", path: "/links/first.html#490488498", year: 2019 },
