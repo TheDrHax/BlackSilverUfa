@@ -1845,7 +1845,7 @@
   },
   {
     "name": "Hot Lava",
-    "category": "infinite",
+    "category": "first",
     "id": "hot-lava",
     "streams": [
       { "name": "1", "twitch": "278920291", "segment": 0 },
