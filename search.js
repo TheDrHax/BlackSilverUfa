@@ -650,6 +650,7 @@ var Redirect = {
     "493585395": "/links/co-op.html#493585395",
     "495362547": "/links/chernobylite.html#495362547",
     "495449259": "/links/chernobylite.html#495449259",
+    "495816363": "/links/first.html#495816363",
   },
 
   link: function (hash) {
@@ -792,8 +793,9 @@ var Search = {
       { name: "The Legend of Zelda: Breath of the Wild", path: "/links/tloz_botw.html", year: 2017 },
     ],
     "first": [
-      { name: "Chernobylite", path: "/links/chernobylite.html", year: 2019 },
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Mafia", path: "/links/first.html#495816363", year: 2019 },
+      { name: "Chernobylite", path: "/links/chernobylite.html", year: 2019 },
       { name: "Home Sweet Home: Episode II", path: "/links/first.html#491017258", year: 2019 },
       { name: "Ghostbusters", path: "/links/first.html#490488498", year: 2019 },
       { name: "Stygian: Reign of the Old Ones", path: "/links/first.html#490059507", year: 2019 },
@@ -886,6 +888,7 @@ var Search = {
       { name: "Fear the Wolves", path: "/links/first.html#282977516", year: 2018 },
       { name: "Curse in our heads", path: "/links/first.html#281472149.1", year: 2018 },
       { name: "Red Faction: Guerilla Remastered", path: "/links/first.html#280402233", year: 2018 },
+      { name: "Hot Lava", path: "/links/hot-lava.html", year: 2018 },
       { name: "Overwhelm", path: "/links/first.html#276606545", year: 2018 },
       { name: "P.A.M.E.L.A (Pamela)", path: "/links/first.html#276606545", year: 2018 },
       { name: "Sinner", path: "/links/first.html#275418948", year: 2018 },
@@ -959,7 +962,6 @@ var Search = {
       { name: "Subnautica: Below Zero (ранний доступ)", path: "/links/subnautica-bz.html", year: 2019 },
       { name: "No Man's Sky", path: "/links/no-mans-sky.html", year: 2018 },
       { name: "Jurassic World Evolution", path: "/links/jurassic-world-evolution.html", year: 2018 },
-      { name: "Hot Lava", path: "/links/hot-lava.html", year: 2018 },
       { name: "Wreckfest", path: "/links/wreckfest.html", year: 2018 },
       { name: "The Crew 2", path: "/links/crew-2.html", year: 2018 },
       { name: "Witch Hunt", path: "/links/witch-hunt.html", year: 2018 },
