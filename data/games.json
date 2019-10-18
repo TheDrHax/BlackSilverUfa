@@ -1160,7 +1160,6 @@
       { "name": "Jump King", "twitch": "422486024", "start": "1:37:07" },
       { "name": "Pathologic 2 (Мор)", "twitch": "428684611", "start": "3:24:21" },
       { "name": "Dollhouse", "twitch": "429660363" },
-      { "name": "Code Vein", "twitch": "432481618", "segment": 0 },
       { "name": "Gato Roboto / Void Bastards", "twitch": "433466467" },
       { "name": "Shattered: Tale of the Forgotten King", "twitch": "434798330" },
       { "name": "Quake 2 RTX / Stay in the Light", "twitch": "438447673" },
@@ -1175,12 +1174,20 @@
       { "name": "Borderlands 3", "twitch": "480853384" },
       { "name": "SCP-087-B", "twitch": "481343199", "start": "1:56:00" },
       { "name": "Neon Abyss (демо)", "twitch": "482664774" },
-      { "name": "Code Vein", "twitch": "485417805", "segment": 0 },
       { "name": "Lost Ark Online", "twitch": "487490676" },
       { "name": "Stygian: Reign of the Old Ones", "twitch": "490059507" },
       { "name": "Ghostbusters", "twitch": "490488498", "start": "4:01:22" },
       { "name": "Home Sweet Home: Episode II", "twitch": "491017258", "start": "3:04:35" },
       { "name": "Mafia", "twitch": "495816363" }
+    ]
+  },
+  {
+    "name": "Code Vein",
+    "category": "first",
+    "id": "code-vein",
+    "streams": [
+      { "name": "Бета", "twitch": "432481618", "segment": 0 },
+      { "name": "Релиз", "twitch": "485417805", "segment": 0 }
     ]
   },
   {
