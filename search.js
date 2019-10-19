@@ -652,6 +652,7 @@ var Redirect = {
     "495449259": "/links/chernobylite.html#495449259",
     "495816363": "/links/mafia.html#495816363",
     "496247270": "/links/mafia.html#496247270",
+    "496714817": "/links/farming-simulator-19.html#496714817",
   },
 
   link: function (hash) {
@@ -1015,7 +1016,6 @@ var Search = {
       { name: "We Were Here Together", path: "/links/co-op.html#493585395", year: 2019 },
       { name: "Marooners", path: "/links/co-op.html#487949971", year: 2019 },
       { name: "Save Your Nuts", path: "/links/co-op.html#487949971", year: 2019 },
-      { name: "Farming Simulator 19", path: "/links/co-op.html#487490676", year: 2019 },
       { name: "Nippon Marathon", path: "/links/co-op.html#478129023", year: 2019 },
       { name: "Bloody Trapland", path: "/links/co-op.html#478129023", year: 2019 },
       { name: "Super Mario Party", path: "/links/co-op.html#478129023", year: 2019 },
@@ -1072,6 +1072,7 @@ var Search = {
       { name: "Stick Fight", path: "/links/co-op.html#180663832", year: 2017 },
     ],
     "co-op-series": [
+      { name: "Farming Simulator 19", path: "/links/farming-simulator-19.html", year: 2019 },
       { name: "Call of Duty: Modern Warfare (бета)", path: "/links/cod-mw.html", year: 2019 },
       { name: "Havocado", path: "/links/havocado.html", year: 2019 },
       { name: "Minecraft", path: "/links/minecraft.html", year: 2019 },
