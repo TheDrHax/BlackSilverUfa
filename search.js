@@ -653,6 +653,7 @@ var Redirect = {
     "495816363": "/links/mafia.html#495816363",
     "496247270": "/links/mafia.html#496247270",
     "496714817": "/links/farming-simulator-19.html#496714817",
+    "497190114": "/links/co-op.html#497190114",
   },
 
   link: function (hash) {
@@ -1013,6 +1014,8 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
+      { name: "Crimson Hotel", path: "/links/co-op.html#497190114", year: 2019 },
+      { name: "Niffelheim", path: "/links/co-op.html#497190114", year: 2019 },
       { name: "We Were Here Together", path: "/links/co-op.html#493585395", year: 2019 },
       { name: "Marooners", path: "/links/co-op.html#487949971", year: 2019 },
       { name: "Save Your Nuts", path: "/links/co-op.html#487949971", year: 2019 },
