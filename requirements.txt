@@ -9,3 +9,4 @@ youtube-dl==2019.9.12.1
 tdh-tcd==2.4
 tdh-twitch-utils==1.1.1
 docopt==0.6.2
+cached-property==1.5.1

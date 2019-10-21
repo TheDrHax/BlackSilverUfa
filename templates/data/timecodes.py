@@ -5,6 +5,7 @@ import json
 
 from datetime import datetime
 from sortedcontainers import SortedKeyList
+from cached_property import cached_property
 
 from ..utils import load_json
 
@@ -88,19 +89,12 @@ class Timecode(object):
     def __int__(self):
         return self.value
 
-    @staticmethod
-    def _type_check(arg):
-        if not (isinstance(arg, Timecode) or isinstance(arg, int)):
-            raise TypeError(type(arg))
-
     def __add__(self, other):
-        self._type_check(other)
         t = Timecode(int(self) + int(other), self.name)
         t.duration = self.duration
         return t
 
     def __sub__(self, other):
-        self._type_check(other)
         t = Timecode(int(self) - int(other), self.name)
         t.duration = self.duration
         return t
@@ -116,19 +110,15 @@ class Timecode(object):
             return False
 
     def __ge__(self, other):
-        self._type_check(other)
         return int(self) >= int(other)
 
     def __gt__(self, other):
-        self._type_check(other)
         return int(self) > int(other)
 
     def __le__(self, other):
-        self._type_check(other)
         return int(self) <= int(other)
 
     def __lt__(self, other):
-        self._type_check(other)
         return int(self) < int(other)
 
 
@@ -217,7 +207,8 @@ class TimecodesSlice(Timecodes):
         self.offset = offset
         self.end = end
 
-    def _load(self):
+    @cached_property
+    def _data(self):
         def in_range(t):
             return max(self.offset, self.start) <= t < self.end
 
@@ -231,13 +222,16 @@ class TimecodesSlice(Timecodes):
             elif isinstance(t, Timecode):
                 duration = t.duration or 0
 
-                if not in_range(t) and not in_range(t + duration):
+                left = in_range(t)
+                right = in_range(t + duration)
+
+                if not left and not right:
                     continue
 
-                if in_range(t) and not in_range(t + duration):  # start only
+                if left and not right:  # start only
                     t = Timecode(t.value, t.name)
                 
-                if not in_range(t) and in_range(t + duration):  # end only
+                if not left and right:  # end only
                     t = Timecode(t.value + duration, t.name)
 
                 ts.add(t - self.offset)
@@ -252,16 +246,16 @@ class TimecodesSlice(Timecodes):
         return ts
 
     def __len__(self):
-        return len(self._load())
+        return len(self._data)
 
     def __getitem__(self, i):
-        return self._load()[i]
+        return self._data[i]
 
     def __iter__(self):
-        return self._load().__iter__()
+        return self._data.__iter__()
 
     def __repr__(self):
-        return self._load().__repr__()
+        return self._data.__repr__()
 
     #
     # Disguise as the smallest timecode in the list
