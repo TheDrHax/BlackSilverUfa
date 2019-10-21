@@ -654,6 +654,7 @@ var Redirect = {
     "496247270": "/links/mafia.html#496247270",
     "496714817": "/links/farming-simulator-19.html#496714817",
     "497190114": "/links/co-op.html#497190114",
+    "497590135": "/links/mafia.html#497590135",
   },
 
   link: function (hash) {
@@ -693,6 +694,7 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Mafia: City of Lost Heaven", path: "/links/mafia.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Project Nightmares Case 36: Henrietta Kedward", path: "/links/single.html#491017258", year: 2019 },
       { name: "Fran Bow", path: "/links/fran-bow.html", year: 2019 },
@@ -952,7 +954,6 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
-      { name: "Mafia: City of Lost Heaven", path: "/links/mafia.html", year: 2019 },
       { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "The Legend of Zelda: Link's Awakening", path: "/links/tloz-la.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
