@@ -7,9 +7,15 @@ export PREFIX="./_site"
 export PAGES_ORIGIN="origin/gh-pages"
 export PAGES_LOCAL="gh-pages"
 
-venv_setup() {
-    if [ -e "$VENV/requirements.md5" ] && md5sum -c "$VENV/requirements.md5" > /dev/null 2>&1; then
-        echo "Skipping virtual environment update (no changes in requirements.txt)"
+venv_setup() { # filename [force | silent]
+    MD5_FILE="$VENV/$1.md5"
+
+    if [ "_$2" = '_force' ] && [ -e "$MD5_FILE" ]; then
+        rm "$MD5_FILE"
+    fi
+
+    if [ -e "$MD5_FILE" ] && md5sum -c "$MD5_FILE" > /dev/null 2>&1; then
+        [ "_$2" != "_silent" ] && echo "Skipping virtual environment update (no changes in $1)"
         return 0
     fi
 
@@ -17,25 +23,24 @@ venv_setup() {
         $PYTHON -m venv "$VENV"
     fi
 
-    $PYTHON -m pip install -U -r requirements.txt
+    $PYTHON -m pip install -U -r "$1"
 
-    md5sum requirements.txt > "$VENV/requirements.md5"
+    md5sum "$1" > "$MD5_FILE"
 }
 
 if [ ! -d "$VENV" ] && [ "_$1" != "_venv" ]; then
     echo "Setting up the virtual environment: $VENV"
-    venv_setup
+    venv_setup requirements.txt
 fi
 
 case $1 in
     venv)
         case $2 in
             update)
-                if [ "_$3" = '_force' ] && [ -e "$VENV/requirements.md5" ]; then
-                    rm "$VENV/requirements.md5"
-                fi
-
-                venv_setup ;;
+                venv_setup requirements.txt $3
+                if [ -e "$VENV/cli-requirements.txt.md5" ]; then
+                    venv_setup cli-requirements.txt $3
+                fi ;;
             remove) rm -r "$VENV" ;;
             *) echo "Usage: $0 $1 update|remove" ;;
         esac ;;
@@ -79,7 +84,10 @@ case $1 in
     serve) $PYTHON -m templates.utils.serve ;;
     download-chats) $PYTHON -m templates.utils.chats ;;
     sh) $@ ;;
-    cli) shift; $PYTHON -m templates.utils.cli $@ ;;
+    cli)
+        shift
+        venv_setup cli-requirements.txt silent
+        $PYTHON -m templates.utils.cli $@ ;;
     repl) $PYTHON -i -m templates.utils.repl ;;
     script) shift; $PYTHON -m templates.scripts.$@ ;;
     python) shift; $PYTHON $@ ;;
