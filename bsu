@@ -20,10 +20,10 @@ venv_setup() { # filename [force | silent]
     fi
 
     if [ ! -d "$VENV" ]; then
-        $PYTHON -m venv "$VENV"
+        $PYTHON -m venv "$VENV" || exit 1
     fi
 
-    $PYTHON -m pip install -U -r "$1"
+    $PYTHON -m pip install -U -r "$1" || exit 1
 
     md5sum "$1" > "$MD5_FILE"
 }
