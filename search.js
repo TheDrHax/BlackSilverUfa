@@ -655,6 +655,7 @@ var Redirect = {
     "496714817": "/links/farming-simulator-19.html#496714817",
     "497190114": "/links/co-op.html#497190114",
     "497590135": "/links/mafia.html#497590135",
+    "498426882": "/links/first.html#498426882",
   },
 
   link: function (hash) {
@@ -798,8 +799,9 @@ var Search = {
       { name: "The Legend of Zelda: Breath of the Wild", path: "/links/tloz_botw.html", year: 2017 },
     ],
     "first": [
-      { name: "Chernobylite", path: "/links/chernobylite.html", year: 2019 },
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "The Outer Worlds", path: "/links/first.html#498426882", year: 2019 },
+      { name: "Chernobylite", path: "/links/chernobylite.html", year: 2019 },
       { name: "Home Sweet Home: Episode II", path: "/links/first.html#491017258", year: 2019 },
       { name: "Ghostbusters", path: "/links/first.html#490488498", year: 2019 },
       { name: "Stygian: Reign of the Old Ones", path: "/links/first.html#490059507", year: 2019 },
@@ -955,7 +957,6 @@ var Search = {
     ],
     "ongoing": [
       { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
-      { name: "The Legend of Zelda: Link's Awakening", path: "/links/tloz-la.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
     ],
     "infinite": [
@@ -977,6 +978,7 @@ var Search = {
       { name: "SCP Containment Breach", path: "/links/scp-cb.html", year: 2018 },
     ],
     "abandoned": [
+      { name: "The Legend of Zelda: Link's Awakening", path: "/links/tloz-la.html", year: 2019 },
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
       { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
       { name: "Blasphemous", path: "/links/blasphemous.html", year: 2019 },
