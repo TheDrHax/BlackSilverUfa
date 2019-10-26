@@ -658,6 +658,7 @@ var Redirect = {
     "498426882": "/links/outer-worlds.html#498426882",
     "498846687": "/links/outer-worlds.html#498846687",
     "499320490": "/links/first.html#499320490",
+    "499849877": "/links/charity.html#499849877",
   },
 
   link: function (hash) {
@@ -802,6 +803,8 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Cooking Simulator", path: "/links/first.html#499849877", year: 2019 },
+      { name: "House Flipper", path: "/links/first.html#499849877", year: 2019 },
       { name: "Call of Duty: Modern Warfare", path: "/links/first.html#499320490", year: 2019 },
       { name: "Chernobylite", path: "/links/chernobylite.html", year: 2019 },
       { name: "Home Sweet Home: Episode II", path: "/links/first.html#491017258", year: 2019 },
