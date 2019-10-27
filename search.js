@@ -331,7 +331,7 @@ var Redirect = {
     "312042770": "/links/first.html#312042770",
     "312840878": "/links/single.html#312840878",
     "313288682": "/links/first.html#313288682",
-    "313747869": "/links/co-op.html#313747869",
+    "313747869": "/links/secret-neighbor.html#313747869",
     "314960838": "/links/talking-dead-final.html#314960838",
     "315365879": "/links/first.html#315365879",
     "316219912": "/links/single.html#316219912",
@@ -658,6 +658,7 @@ var Redirect = {
     "498426882": "/links/outer-worlds.html#498426882",
     "498846687": "/links/outer-worlds.html#498846687",
     "499849877": "/links/charity.html#499849877",
+    "500334713": "/links/secret-neighbor.html#500334713",
   },
 
   link: function (hash) {
@@ -1051,7 +1052,6 @@ var Search = {
       { name: "Blackout Club", path: "/links/co-op.html#331965944", year: 2018 },
       { name: "A Gummy's Life", path: "/links/co-op.html#316677687", year: 2018 },
       { name: "Destiny 2 со StopGame", path: "/links/co-op.html#315365879", year: 2018 },
-      { name: "Secret Neighbor", path: "/links/co-op.html#313747869", year: 2018 },
       { name: "I'm not a Monster", path: "/links/co-op.html#313747869", year: 2018 },
       { name: "CASE 2: Animatronics Survival (кооп)", path: "/links/co-op.html#293012700", year: 2018 },
       { name: "Darwin Project", path: "/links/co-op.html#287404564", year: 2018 },
@@ -1104,6 +1104,7 @@ var Search = {
       { name: "Overkill's Walking Dead", path: "/links/overkill-wd.html", year: 2018 },
       { name: "Call of Duty: Black Ops 4", path: "/links/cod-bo-4.html", year: 2018 },
       { name: "Своя Игра", path: "/links/sigame.html", year: 2018 },
+      { name: "Secret Neighbor", path: "/links/secret-neighbor.html", year: 2018 },
       { name: "Bigfoot", path: "/links/bigfoot.html", year: 2018 },
       { name: "Escape From Tarkov", path: "/links/tarkov.html", year: 2018 },
       { name: "Worms W.M.D", path: "/links/worms-wmd.html", year: 2018 },
