@@ -359,10 +359,13 @@ class SegmentReference(Segment):
     @property
     def abs_end(self):
         index = self.references.index(self)
-        if index == len(self.references) - 1:
-            return self.parent.abs_end
-        else:
-            return Timecode(self.references[index + 1].start)
+
+        if index < len(self.references):
+            for ref in self.references[index+1:]:
+                if ref.start != self.start:
+                    return Timecode(ref.start)
+
+        return self.parent.abs_end
 
     @property
     def game_name(self):
