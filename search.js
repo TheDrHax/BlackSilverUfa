@@ -659,6 +659,7 @@ var Redirect = {
     "498846687": "/links/outer-worlds.html#498846687",
     "499849877": "/links/charity.html#499849877",
     "500334713": "/links/secret-neighbor.html#500334713",
+    "500788270": "/links/co-op.html#500788270",
   },
 
   link: function (hash) {
@@ -1022,6 +1023,7 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
+      { name: "GTFO (альфа)", path: "/links/co-op.html#500788270", year: 2019 },
       { name: "Crimson Hotel", path: "/links/co-op.html#497190114", year: 2019 },
       { name: "Niffelheim", path: "/links/co-op.html#497190114", year: 2019 },
       { name: "We Were Here Together", path: "/links/co-op.html#493585395", year: 2019 },
