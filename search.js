@@ -660,6 +660,7 @@ var Redirect = {
     "499849877": "/links/charity.html#499849877",
     "500334713": "/links/secret-neighbor.html#500334713",
     "500788270": "/links/co-op.html#500788270",
+    "502082379": "/links/halloween.html#502082379",
   },
 
   link: function (hash) {
@@ -804,6 +805,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Luigi's Mansion 3", path: "/links/first.html#502082379", year: 2019 },
       { name: "Cooking Simulator", path: "/links/first.html#499849877", year: 2019 },
       { name: "House Flipper", path: "/links/first.html#499849877", year: 2019 },
       { name: "Chernobylite", path: "/links/chernobylite.html", year: 2019 },
