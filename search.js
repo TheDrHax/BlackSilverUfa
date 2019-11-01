@@ -54,7 +54,7 @@ var Redirect = {
     "172968603": "/links/darkwood.html#172968603",
     "173993139": "/links/re4.html#173993139",
     "174225353": "/links/single.html#174225353",
-    "174697007": "/links/outlast_2_dw.html#174697007",
+    "174697007": "/links/outlast_2.html#174697007",
     "175198877": "/links/first.html#175198877",
     "175695460": "/links/re4.html#175695460",
     "176397641": "/links/darkwood.html#176397641",
@@ -72,7 +72,7 @@ var Redirect = {
     "184206477": "/links/co-op.html#184206477",
     "184468298": "/links/single.html#184468298",
     "185763905": "/links/super-mario-odyssey.html#185763905",
-    "186799946": "/links/outlast_2_dw.html#186799946",
+    "186799946": "/links/outlast_2.html#186799946",
     "187291538": "/links/single.html#187291538",
     "187586726": "/links/deceit.html#187586726",
     "200401270": "/links/little-nightmares.html#200401270",
@@ -661,6 +661,7 @@ var Redirect = {
     "500334713": "/links/secret-neighbor.html#500334713",
     "500788270": "/links/co-op.html#500788270",
     "502082379": "/links/halloween.html#502082379",
+    "502487271": "/links/first.html#502487271",
   },
 
   link: function (hash) {
@@ -805,6 +806,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Mafia II", path: "/links/first.html#502487271", year: 2019 },
       { name: "Luigi's Mansion 3", path: "/links/first.html#502082379", year: 2019 },
       { name: "Cooking Simulator", path: "/links/first.html#499849877", year: 2019 },
       { name: "House Flipper", path: "/links/first.html#499849877", year: 2019 },
@@ -966,6 +968,7 @@ var Search = {
       { name: "The Outer Worlds", path: "/links/outer-worlds.html", year: 2019 },
       { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
+      { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
     ],
     "infinite": [
       { name: "Police Stories", path: "/links/police-stories.html", year: 2019 },
@@ -1020,7 +1023,6 @@ var Search = {
       { name: "Super Mario Odyssey", path: "/links/super-mario-odyssey.html", year: 2017 },
       { name: "Stardew Valley", path: "/links/stardew-walley.html", year: 2017 },
       { name: "Middle-earth: Shadow of War", path: "/links/middle_earth.html", year: 2017 },
-      { name: "Outlast 2 с Дашей", path: "/links/outlast_2_dw.html", year: 2017 },
       { name: "Persona 5", path: "/links/persona_5.html", year: 2017 },
     ],
     "co-op": [
