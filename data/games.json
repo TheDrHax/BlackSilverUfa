@@ -744,12 +744,13 @@
     ]
   },
   {
-    "name": "Outlast 2 с Дашей",
+    "name": "Outlast 2",
     "category": "ongoing",
-    "id": "outlast_2_dw",
+    "id": "outlast_2",
     "streams": [
-      { "name": "1", "twitch": "174697007" },
-      { "name": "2", "twitch": "186799946" }
+      { "name": "1 (с Дашей)", "twitch": "174697007" },
+      { "name": "2", "twitch": "186799946" },
+      { "name": "1 (заново)", "twitch": "502487271", "start": "3:34:11" }
     ]
   },
   {
@@ -1205,7 +1206,8 @@
       { "name": "Ghostbusters", "twitch": "490488498", "start": "4:01:22" },
       { "name": "Home Sweet Home: Episode II", "twitch": "491017258", "start": "3:04:35" },
       { "name": "Cooking Simulator / House Flipper", "twitch": "499849877" },
-      { "name": "Luigi's Mansion 3", "twitch": "502082379" }
+      { "name": "Luigi's Mansion 3", "twitch": "502082379" },
+      { "name": "Mafia II", "twitch": "502487271" }
     ]
   },
   {
