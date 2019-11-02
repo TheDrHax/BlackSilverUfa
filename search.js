@@ -661,7 +661,8 @@ var Redirect = {
     "500334713": "/links/secret-neighbor.html#500334713",
     "500788270": "/links/co-op.html#500788270",
     "502082379": "/links/halloween.html#502082379",
-    "502487271": "/links/first.html#502487271",
+    "502487271": "/links/mafia-2.html#502487271",
+    "502940448": "/links/expos.html#502940448",
   },
 
   link: function (hash) {
@@ -806,7 +807,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
-      { name: "Mafia II", path: "/links/first.html#502487271", year: 2019 },
+      { name: "NioH 2 (бета)", path: "/links/first.html#502940448", year: 2019 },
       { name: "Luigi's Mansion 3", path: "/links/first.html#502082379", year: 2019 },
       { name: "Cooking Simulator", path: "/links/first.html#499849877", year: 2019 },
       { name: "House Flipper", path: "/links/first.html#499849877", year: 2019 },
@@ -965,6 +966,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Mafia II", path: "/links/mafia-2.html", year: 2019 },
       { name: "The Outer Worlds", path: "/links/outer-worlds.html", year: 2019 },
       { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
@@ -1155,8 +1157,9 @@ var Search = {
       { name: "Хэллоуин", path: "/links/halloween.html", year: 2017 },
     ],
     "expos": [
-      { name: "Tokyo Game Show 2019 (обзор)", path: "/links/tgs-2019.html", year: 2019 },
       { name: "Конференции", path: "/links/expos.html", year: 2019 },
+      { name: "BlizzCon 2019 (обзор)", path: "/links/expos.html#502940448", year: 2019 },
+      { name: "Tokyo Game Show 2019 (обзор)", path: "/links/tgs-2019.html", year: 2019 },
       { name: "Gamescom 2019", path: "/links/expos.html#469393130", year: 2019 },
       { name: "неПрофессиональный E3 2019", path: "/links/e3_2019.html", year: 2019 },
       { name: "неПрофессиональный The Game Awards 2018", path: "/links/expos.html#345649019", year: 2018 },
