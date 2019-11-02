@@ -590,7 +590,8 @@
     "id": "expos",
     "streams": [
       { "name": "неПрофессиональный The Game Awards 2018", "twitch": "345649019" },
-      { "name": "Gamescom 2019", "twitch": "469393130" }
+      { "name": "Gamescom 2019", "twitch": "469393130" },
+      { "name": "BlizzCon 2019 (обзор)", "twitch": "502940448" }
     ]
   },
   {
@@ -1207,7 +1208,16 @@
       { "name": "Home Sweet Home: Episode II", "twitch": "491017258", "start": "3:04:35" },
       { "name": "Cooking Simulator / House Flipper", "twitch": "499849877" },
       { "name": "Luigi's Mansion 3", "twitch": "502082379" },
-      { "name": "Mafia II", "twitch": "502487271" }
+      { "name": "NioH 2 (бета)", "twitch": "502940448", "start": "1:00:00" }
+    ]
+  },
+  {
+    "name": "Mafia II",
+    "category": "ongoing",
+    "id": "mafia-2",
+    "streams": [
+      { "name": "1", "twitch": "502487271" },
+      { "name": "2", "twitch": "502940448", "start": "2:30:00" }
     ]
   },
   {
