@@ -142,47 +142,7 @@
     <script src="https://npmcdn.com/headroom.js@0.9.4/dist/headroom.min.js"></script>
     <!-- https://github.com/kraaden/autocomplete -->
     <script src="/static/js/autocomplete.js?hash=${md5file('static/js/autocomplete.js')}"></script>
-    <script src="/search.js?hash=${md5file(_('search.js'))}"></script>
-    <script type="text/javascript">
-      var darkmode = new Darkmode({
-        saveInCookies: true,
-        label: '<i class="fas fa-lightbulb"></i>',
-        autoMatchOsTheme: true
-      });
-      darkmode.showWidget();
-
-      // Workaround for https://github.com/sandoche/Darkmode.js/issues/7
-      document.querySelector('.darkmode-toggle').addEventListener('click', function(e) {
-        this.style.pointerEvents = 'none';
-        setTimeout(() => {
-          this.style.pointerEvents = '';
-        }, 500);
-      });
-
-      var headroom  = new Headroom(document.querySelector('nav'), {
-        onPin: function() {
-          darkmode.button.hidden = false;
-
-          if (!darkmode.isActivated()) {
-            darkmode.layer.hidden = false;
-          }
-        },
-        onUnpin: function() {
-          darkmode.button.hidden = true;
-
-          if (!darkmode.isActivated()) {
-            darkmode.layer.hidden = true;
-          }
-        }
-      });
-      headroom.init();
-
-      var lazyload = new LazyLoad({
-        elements_selector: ".lazyload"
-      });
-
-      Search.init("#search");
-    </script>
+    <script src="/static/js/loader.js?hash=${md5file('static/js/loader.js')}"></script>
     <%block name="scripts" />
   </body>
 </html>
