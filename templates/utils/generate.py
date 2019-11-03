@@ -41,6 +41,9 @@ def generate():
     if os.path.isdir(_('static')):
         shutil.rmtree(_('static'))
     shutil.copytree('static', _('static'))
+    shutil.copyfile(_('static/html/redirect.html'), _('r/index.html'))
+    shutil.copyfile(_('r/index.html'), _('src/player.html'))  # compatibility
+    shutil.rmtree(_('static/html'))
 
     # Generate preprocessed timecodes.json
     tc_dict = SortedDict()
@@ -54,10 +57,6 @@ def generate():
     with open(_("search.js"), "w") as output:
         t = lookup.get_template('/search.mako')
         output.write(t.render(**args).strip())
-    with open(_("r/index.html"), "w") as output:
-        t = lookup.get_template('/redirect.mako')
-        output.write(t.render(**args).strip())
-    shutil.copyfile(_("r/index.html"), _("src/player.html"))  # compatibility
 
     # Generate index.html, missing.html
     for i in ['index', 'missing']:
@@ -65,7 +64,7 @@ def generate():
             t = lookup.get_template(f'/{i}.mako')
             out.write(t.render(**args))
 
-    # Generate links/*.md
+    # Generate links/*.html
     t = lookup.get_template('/links.mako')
     for game in args['games']:
         with open(_(game.filename), "w") as out:
