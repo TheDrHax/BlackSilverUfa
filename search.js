@@ -663,6 +663,7 @@ var Redirect = {
     "502082379": "/links/halloween.html#502082379",
     "502487271": "/links/mafia-2.html#502487271",
     "502940448": "/links/expos.html#502940448",
+    "503413959": "/links/mafia-2.html#503413959",
   },
 
   link: function (hash) {
