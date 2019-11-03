@@ -4181,23 +4181,6 @@
       <div class="col-12"><div class="hr-sect">↓ 2019 год ↓</div></div>
       <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-card">
   <div class="card">
-    <a href="/links/ghost-recon-breakpoint.html">
-      <noscript><img class="card-img-top" src="https://img.youtube.com/vi/APONOkYo1Is/mqdefault.jpg" /></noscript>
-      <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-src="https://img.youtube.com/vi/APONOkYo1Is/mqdefault.jpg" />
-      <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
-        Tom Clancy's Ghost Recon Breakpoint
-      </div>
-      <div class="card-img-overlay card-badge">
-        <span class="badge badge-primary">
-          4 стрима
-        </span>
-      </div>
-    </a>
-  </div>
-</div>
-
-      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-card">
-  <div class="card">
     <a href="/links/surge-2.html">
       <noscript><img class="card-img-top" src="https://img.youtube.com/vi/I-bvHcO5kt8/mqdefault.jpg" /></noscript>
       <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-src="https://img.youtube.com/vi/I-bvHcO5kt8/mqdefault.jpg" />
@@ -4259,14 +4242,6 @@
         </span>
       </li>
       <div class="col-12"><div class="hr-sect">↓ 2019 год ↓</div></div>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <a href="/links/ghost-recon-breakpoint.html">
-          Tom Clancy's Ghost Recon Breakpoint
-        </a>
-        <span class="badge badge-primary">
-          4 стрима
-        </span>
-      </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         <a href="/links/surge-2.html">
           The Surge 2
@@ -5244,6 +5219,23 @@
 
       <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-card">
   <div class="card">
+    <a href="/links/ghost-recon-breakpoint.html">
+      <noscript><img class="card-img-top" src="https://img.youtube.com/vi/APONOkYo1Is/mqdefault.jpg" /></noscript>
+      <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-src="https://img.youtube.com/vi/APONOkYo1Is/mqdefault.jpg" />
+      <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">
+        Tom Clancy's Ghost Recon Breakpoint
+      </div>
+      <div class="card-img-overlay card-badge">
+        <span class="badge badge-primary">
+          4 стрима
+        </span>
+      </div>
+    </a>
+  </div>
+</div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-card">
+  <div class="card">
     <a href="/links/blasphemous.html">
       <noscript><img class="card-img-top" src="https://img.youtube.com/vi/sU7KeDoj8WU/mqdefault.jpg" /></noscript>
       <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-src="https://img.youtube.com/vi/sU7KeDoj8WU/mqdefault.jpg" />
@@ -5561,6 +5553,14 @@
         </a>
         <span class="badge badge-primary">
           3 стрима
+        </span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <a href="/links/ghost-recon-breakpoint.html">
+          Tom Clancy's Ghost Recon Breakpoint
+        </a>
+        <span class="badge badge-primary">
+          4 стрима
         </span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -8304,47 +8304,7 @@
     <script src="https://npmcdn.com/headroom.js@0.9.4/dist/headroom.min.js"></script>
     <!-- https://github.com/kraaden/autocomplete -->
     <script src="/static/js/autocomplete.js?hash=b076cd4584e06fb673280ea003e193e7"></script>
-    <script src="/search.js?hash=582b29a1acb35d2bd8d1a831c06ecae1"></script>
-    <script type="text/javascript">
-      var darkmode = new Darkmode({
-        saveInCookies: true,
-        label: '<i class="fas fa-lightbulb"></i>',
-        autoMatchOsTheme: true
-      });
-      darkmode.showWidget();
-
-      // Workaround for https://github.com/sandoche/Darkmode.js/issues/7
-      document.querySelector('.darkmode-toggle').addEventListener('click', function(e) {
-        this.style.pointerEvents = 'none';
-        setTimeout(() => {
-          this.style.pointerEvents = '';
-        }, 500);
-      });
-
-      var headroom  = new Headroom(document.querySelector('nav'), {
-        onPin: function() {
-          darkmode.button.hidden = false;
-
-          if (!darkmode.isActivated()) {
-            darkmode.layer.hidden = false;
-          }
-        },
-        onUnpin: function() {
-          darkmode.button.hidden = true;
-
-          if (!darkmode.isActivated()) {
-            darkmode.layer.hidden = true;
-          }
-        }
-      });
-      headroom.init();
-
-      var lazyload = new LazyLoad({
-        elements_selector: ".lazyload"
-      });
-
-      Search.init("#search");
-    </script>
+    <script src="/static/js/loader.js?hash=6d51eaa057d2052ec1a3d0b755d7e0e2"></script>
     
   </body>
 </html>

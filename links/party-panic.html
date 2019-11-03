@@ -311,47 +311,7 @@
     <script src="https://npmcdn.com/headroom.js@0.9.4/dist/headroom.min.js"></script>
     <!-- https://github.com/kraaden/autocomplete -->
     <script src="/static/js/autocomplete.js?hash=b076cd4584e06fb673280ea003e193e7"></script>
-    <script src="/search.js?hash=582b29a1acb35d2bd8d1a831c06ecae1"></script>
-    <script type="text/javascript">
-      var darkmode = new Darkmode({
-        saveInCookies: true,
-        label: '<i class="fas fa-lightbulb"></i>',
-        autoMatchOsTheme: true
-      });
-      darkmode.showWidget();
-
-      // Workaround for https://github.com/sandoche/Darkmode.js/issues/7
-      document.querySelector('.darkmode-toggle').addEventListener('click', function(e) {
-        this.style.pointerEvents = 'none';
-        setTimeout(() => {
-          this.style.pointerEvents = '';
-        }, 500);
-      });
-
-      var headroom  = new Headroom(document.querySelector('nav'), {
-        onPin: function() {
-          darkmode.button.hidden = false;
-
-          if (!darkmode.isActivated()) {
-            darkmode.layer.hidden = false;
-          }
-        },
-        onUnpin: function() {
-          darkmode.button.hidden = true;
-
-          if (!darkmode.isActivated()) {
-            darkmode.layer.hidden = true;
-          }
-        }
-      });
-      headroom.init();
-
-      var lazyload = new LazyLoad({
-        elements_selector: ".lazyload"
-      });
-
-      Search.init("#search");
-    </script>
+    <script src="/static/js/loader.js?hash=6d51eaa057d2052ec1a3d0b755d7e0e2"></script>
     
 <!-- Plyr (https://github.com/sampotts/plyr) -->
 <link rel="stylesheet" href="//cdn.plyr.io/3.5.6/plyr.css">
