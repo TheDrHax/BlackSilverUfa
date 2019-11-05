@@ -664,6 +664,7 @@ var Redirect = {
     "502487271": "/links/mafia-2.html#502487271",
     "502940448": "/links/expos.html#502940448",
     "503413959": "/links/mafia-2.html#503413959",
+    "504248004": "/links/first.html#504248004",
   },
 
   link: function (hash) {
@@ -808,6 +809,8 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Need for Speed Heat", path: "/links/first.html#504248004", year: 2019 },
+      { name: "Red Dead Redemption 2 (PC)", path: "/links/first.html#504248004", year: 2019 },
       { name: "NioH 2 (бета)", path: "/links/first.html#502940448", year: 2019 },
       { name: "Luigi's Mansion 3", path: "/links/first.html#502082379", year: 2019 },
       { name: "Cooking Simulator", path: "/links/first.html#499849877", year: 2019 },
