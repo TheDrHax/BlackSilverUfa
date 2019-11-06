@@ -665,6 +665,7 @@ var Redirect = {
     "502940448": "/links/expos.html#502940448",
     "503413959": "/links/mafia-2.html#503413959",
     "504248004": "/links/first.html#504248004",
+    "504672487": "/links/mafia-2.html#504672487",
   },
 
   link: function (hash) {
@@ -704,6 +705,7 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Mafia II", path: "/links/mafia-2.html", year: 2019 },
       { name: "Mafia: City of Lost Heaven", path: "/links/mafia.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Project Nightmares Case 36: Henrietta Kedward", path: "/links/single.html#491017258", year: 2019 },
@@ -809,6 +811,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Planet Zoo", path: "/links/first.html#504672487", year: 2019 },
       { name: "Need for Speed Heat", path: "/links/first.html#504248004", year: 2019 },
       { name: "Red Dead Redemption 2 (PC)", path: "/links/first.html#504248004", year: 2019 },
       { name: "NioH 2 (бета)", path: "/links/first.html#502940448", year: 2019 },
@@ -970,7 +973,6 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
-      { name: "Mafia II", path: "/links/mafia-2.html", year: 2019 },
       { name: "The Outer Worlds", path: "/links/outer-worlds.html", year: 2019 },
       { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
