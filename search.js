@@ -666,6 +666,7 @@ var Redirect = {
     "503413959": "/links/mafia-2.html#503413959",
     "504248004": "/links/first.html#504248004",
     "504672487": "/links/mafia-2.html#504672487",
+    "505477026": "/links/death-stranding.html#505477026",
   },
 
   link: function (hash) {
@@ -973,6 +974,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Death Stranding", path: "/links/death-stranding.html", year: 2019 },
       { name: "The Outer Worlds", path: "/links/outer-worlds.html", year: 2019 },
       { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
