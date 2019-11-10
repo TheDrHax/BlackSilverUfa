@@ -93,10 +93,6 @@ def cmd_add(stream, segment_kwargs):
     tmp_stream = Stream([], stream.twitch)
     segment = Segment(tmp_stream, **segment_kwargs)
 
-    # Disable all fallbacks
-    [setattr(s, 'fallback', False) for s in stream]
-    segment.fallback = False
-
     left, covered, right = refs_coverage(stream, segment)
 
     if len(covered) == 0:
@@ -224,7 +220,6 @@ def main(argv=None):
                 raise Exception(f'Segment {stream_id}.{segment_id} does not exist')
 
             segment = stream[segment_id]
-            segment.fallback = False
 
         if args['get']:
             print(segment)

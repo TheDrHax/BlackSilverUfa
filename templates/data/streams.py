@@ -36,9 +36,7 @@ class Segment:
             attr(key)
 
         self.stream = stream
-
-        # Try to set fallback if enabled in config and segment is not playable
-        self.fallback = not self.playable
+        self.fallbacks = set()
 
     @property
     def stream(self) -> 'Stream':
@@ -59,7 +57,7 @@ class Segment:
 
         timecodes = TimecodesSlice(self.stream.timecodes)
 
-        if self.offset and not self.fallback:
+        if self.offset:
             timecodes.offset = self.offset
 
         if type(self) is Segment and self.start:
@@ -95,45 +93,6 @@ class Segment:
     def segment(self) -> int:
         return self.stream.index(self)
 
-    @property
-    def fallback(self) -> bool:
-        if hasattr(self, '_fallback'):
-            return self._fallback
-        else:
-            return False
-    
-    @fallback.setter
-    def fallback(self, enable: bool):
-        if not hasattr(self, '_fallback'):
-            self._fallback = False
-
-        fallback = config['fallback']
-
-        if not self._fallback and enable and \
-           not self.playable and fallback['streams']:
-
-            def check(url, code=200):
-                return req.head(
-                    url, allow_redirects=fallback['redirects']
-                ).status_code == code
-
-            url = f'{fallback["prefix"]}/{self.twitch}.mp4'
-
-            if check(url):
-                self.direct = url
-                self._fallback = True
-
-            torrent_url = f'{fallback["prefix"]}/{self.twitch}.torrent'
-
-            if fallback['torrents'] and check(torrent_url):
-                self.torrent = torrent_url
-                self._fallback = True
-
-        if self._fallback and not enable:
-            self._fallback = False
-            self.direct = None
-            self.torrent = None
-
     def reference(self):
         return SegmentReference(
             parent=self.references[0],
@@ -165,8 +124,7 @@ class Segment:
         if self.segment != 0:
             add('segment')
 
-        if not self.fallback:
-            add('offset', lambda x: int(x))
+        add('offset', lambda x: int(x))
 
         for key in ['start', 'end']:
             add(key, lambda x: int(x - Timecode(self.offset)))
@@ -249,7 +207,7 @@ class Segment:
         base_url = 'https://blackufa.thedrhax.pw'
         res = f'--sub-file={base_url}/chats/v{self.twitch}.ass '
         offset = Timecode(0)
-        if self.offset and not self.fallback:
+        if self.offset:
             offset = Timecode(self.offset)
             res += f'--sub-delay={-int(offset)} '
         if self.start:
@@ -274,8 +232,9 @@ class Segment:
             if getattr(self, key) is None:
                 continue
 
-            if key in ['direct', 'torrent', 'offset'] and self.fallback:
-                continue
+            if key in ['direct', 'torrent', 'offset']:
+                if key not in self.fallbacks:
+                    continue
 
             if not first:
                 yield ', '
@@ -513,7 +472,36 @@ class Streams(dict):
                 self[id] = Stream(stream, id)
             else:
                 raise TypeError
-    
+        
+        self._enable_fallbacks()
+
+    def _enable_fallbacks(self):
+        fallback = config['fallback']
+
+        def check(url, code=200):
+            return req.head(
+                url, allow_redirects=fallback['redirects']
+            ).status_code == code
+
+        for key, stream in list(self.items())[-fallback['capacity']:]:
+            if fallback['streams'] and False in [s.playable for s in stream]:
+                url = f'{fallback["prefix"]}/{stream.twitch}.mp4'
+                if check(url):
+                    for segment in stream:
+                        if not segment.playable:
+                            segment.direct = url
+                            segment.offset = None
+                            segment.fallbacks.add('direct')
+                            segment.fallbacks.add('offset')
+            
+            if fallback['torrents'] and None in [s.torrent for s in stream]:
+                url = f'{fallback["prefix"]}/{stream.twitch}.torrent'
+                if check(url):
+                    for segment in stream:
+                        if segment.torrent is None:
+                            segment.torrent = url
+                            segment.fallbacks.add('torrent')
+
     @property
     def segments(self):
         for key, stream in self.items():
