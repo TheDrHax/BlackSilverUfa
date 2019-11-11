@@ -233,7 +233,7 @@ class Segment:
                 continue
 
             if key in ['direct', 'torrent', 'offset']:
-                if key not in self.fallbacks:
+                if key in self.fallbacks:
                     continue
 
             if not first:
@@ -490,6 +490,7 @@ class Streams(dict):
                     for segment in stream:
                         if not segment.playable:
                             segment.direct = url
+                            segment._offset = segment.offset
                             segment.offset = None
                             segment.fallbacks.add('direct')
                             segment.fallbacks.add('offset')
