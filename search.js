@@ -669,6 +669,7 @@ var Redirect = {
     "505477026": "/links/death-stranding.html#505477026",
     "505944491": "/links/death-stranding.html#505944491",
     "506424196": "/links/death-stranding.html#506424196",
+    "506857937": "/links/death-stranding.html#506857937",
   },
 
   link: function (hash) {
@@ -708,6 +709,7 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Death Stranding", path: "/links/death-stranding.html", year: 2019 },
       { name: "Mafia II", path: "/links/mafia-2.html", year: 2019 },
       { name: "Mafia: City of Lost Heaven", path: "/links/mafia.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
@@ -976,9 +978,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
-      { name: "Death Stranding", path: "/links/death-stranding.html", year: 2019 },
       { name: "The Outer Worlds", path: "/links/outer-worlds.html", year: 2019 },
-      { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
     ],
     "infinite": [
@@ -1000,6 +1000,7 @@ var Search = {
       { name: "SCP Containment Breach", path: "/links/scp-cb.html", year: 2018 },
     ],
     "abandoned": [
+      { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "The Legend of Zelda: Link's Awakening", path: "/links/tloz-la.html", year: 2019 },
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
       { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
