@@ -670,6 +670,7 @@ var Redirect = {
     "505944491": "/links/death-stranding.html#505944491",
     "506424196": "/links/death-stranding.html#506424196",
     "506857937": "/links/death-stranding.html#506857937",
+    "508178551": "/links/events.html#508178551",
   },
 
   link: function (hash) {
@@ -709,10 +710,11 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
+      { name: "Superliminal", path: "/links/single.html#508178551", year: 2019 },
       { name: "Death Stranding", path: "/links/death-stranding.html", year: 2019 },
       { name: "Mafia II", path: "/links/mafia-2.html", year: 2019 },
       { name: "Mafia: City of Lost Heaven", path: "/links/mafia.html", year: 2019 },
-      { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Project Nightmares Case 36: Henrietta Kedward", path: "/links/single.html#491017258", year: 2019 },
       { name: "Fran Bow", path: "/links/fran-bow.html", year: 2019 },
       { name: "Little Misfortune", path: "/links/single.html#488372344", year: 2019 },
@@ -816,6 +818,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
       { name: "Planet Zoo", path: "/links/first.html#504672487", year: 2019 },
       { name: "Need for Speed Heat", path: "/links/first.html#504248004", year: 2019 },
       { name: "Red Dead Redemption 2 (PC)", path: "/links/first.html#504248004", year: 2019 },
@@ -1154,6 +1157,7 @@ var Search = {
     ],
     "other": [
       { name: "IRL", path: "/links/events.html", year: 2019 },
+      { name: "Розыгрыш Asus ROG Strix SCAR II", path: "/links/events.html#508178551", year: 2019 },
       { name: "Розыгрыш Cyberpunk 2077", path: "/links/events.html#470288598", year: 2019 },
       { name: "Розыгрыш двух ноутбуков Asus", path: "/links/events.html#448568048", year: 2019 },
       { name: "Розыгрыш Asus ROG Phone", path: "/links/events.html#444021917", year: 2019 },
