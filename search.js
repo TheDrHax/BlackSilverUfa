@@ -671,6 +671,7 @@ var Redirect = {
     "506424196": "/links/death-stranding.html#506424196",
     "506857937": "/links/death-stranding.html#506857937",
     "508178551": "/links/events.html#508178551",
+    "508580428": "/links/first.html#508580428",
   },
 
   link: function (hash) {
@@ -818,6 +819,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Star Wars Jedi: Fallen Order", path: "/links/first.html#508580428", year: 2019 },
       { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
       { name: "Planet Zoo", path: "/links/first.html#504672487", year: 2019 },
       { name: "Need for Speed Heat", path: "/links/first.html#504248004", year: 2019 },
