@@ -1213,8 +1213,16 @@
       { "name": "NioH 2 (бета)", "twitch": "502940448", "start": "1:00:00" },
       { "name": "Need for Speed Heat / Red Dead Redemption 2 (PC)", "twitch": "504248004" },
       { "name": "Planet Zoo", "twitch": "504672487", "start": "3:50:24" },
-      { "name": "Untitled Goose Game", "twitch": "508178551", "start": "3:20:41" },
-      { "name": "Star Wars Jedi: Fallen Order", "twitch": "508580428" }
+      { "name": "Untitled Goose Game", "twitch": "508178551", "start": "3:20:41" }
+    ]
+  },
+  {
+    "name": "Star Wars Jedi: Fallen Order",
+    "category": "finished",
+    "id": "star-wars-jedi",
+    "streams": [
+      { "name": "1", "twitch": "508580428" },
+      { "name": "2", "twitch": "509067029" }
     ]
   },
   {
