@@ -674,6 +674,7 @@ var Redirect = {
     "508580428": "/links/star-wars-jedi.html#508580428",
     "509067029": "/links/star-wars-jedi.html#509067029",
     "510472726": "/links/first.html#510472726",
+    "510917796": "/links/luigis-mansion-3.html#510917796",
   },
 
   link: function (hash) {
@@ -829,7 +830,6 @@ var Search = {
       { name: "Need for Speed Heat", path: "/links/first.html#504248004", year: 2019 },
       { name: "Red Dead Redemption 2 (PC)", path: "/links/first.html#504248004", year: 2019 },
       { name: "NioH 2 (бета)", path: "/links/first.html#502940448", year: 2019 },
-      { name: "Luigi's Mansion 3", path: "/links/first.html#502082379", year: 2019 },
       { name: "Cooking Simulator", path: "/links/first.html#499849877", year: 2019 },
       { name: "House Flipper", path: "/links/first.html#499849877", year: 2019 },
       { name: "Chernobylite", path: "/links/chernobylite.html", year: 2019 },
@@ -987,6 +987,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "The Outer Worlds", path: "/links/outer-worlds.html", year: 2019 },
       { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
     ],
