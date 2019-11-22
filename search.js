@@ -673,8 +673,9 @@ var Redirect = {
     "508178551": "/links/events.html#508178551",
     "508580428": "/links/star-wars-jedi.html#508580428",
     "509067029": "/links/star-wars-jedi.html#509067029",
-    "510472726": "/links/first.html#510472726",
+    "510472726": "/links/terminator-resistance.html#510472726",
     "510917796": "/links/luigis-mansion-3.html#510917796",
+    "511744934": "/links/terminator-resistance.html#511744934",
   },
 
   link: function (hash) {
@@ -714,6 +715,7 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Terminator: Resistance", path: "/links/terminator-resistance.html", year: 2019 },
       { name: "Star Wars Jedi: Fallen Order", path: "/links/star-wars-jedi.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Superliminal", path: "/links/single.html#508178551", year: 2019 },
@@ -823,7 +825,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
-      { name: "Terminator: Resistance", path: "/links/first.html#510472726", year: 2019 },
       { name: "Shenmue III", path: "/links/first.html#510472726", year: 2019 },
       { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
       { name: "Planet Zoo", path: "/links/first.html#504672487", year: 2019 },
