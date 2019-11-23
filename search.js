@@ -676,6 +676,7 @@ var Redirect = {
     "510472726": "/links/terminator-resistance.html#510472726",
     "510917796": "/links/luigis-mansion-3.html#510917796",
     "511744934": "/links/terminator-resistance.html#511744934",
+    "512218604": "/links/first.html#512218604",
   },
 
   link: function (hash) {
@@ -825,6 +826,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "The Suffering: Prison is Hell", path: "/links/first.html#512218604", year: 2019 },
       { name: "Shenmue III", path: "/links/first.html#510472726", year: 2019 },
       { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
       { name: "Planet Zoo", path: "/links/first.html#504672487", year: 2019 },
@@ -989,7 +991,6 @@ var Search = {
     ],
     "ongoing": [
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
-      { name: "The Outer Worlds", path: "/links/outer-worlds.html", year: 2019 },
       { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
     ],
     "infinite": [
@@ -1011,6 +1012,7 @@ var Search = {
       { name: "SCP Containment Breach", path: "/links/scp-cb.html", year: 2018 },
     ],
     "abandoned": [
+      { name: "The Outer Worlds", path: "/links/outer-worlds.html", year: 2019 },
       { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "The Legend of Zelda: Link's Awakening", path: "/links/tloz-la.html", year: 2019 },
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
