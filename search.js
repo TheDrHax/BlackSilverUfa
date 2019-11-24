@@ -677,6 +677,7 @@ var Redirect = {
     "510917796": "/links/luigis-mansion-3.html#510917796",
     "511744934": "/links/terminator-resistance.html#511744934",
     "512218604": "/links/first.html#512218604",
+    "512697561": "/links/single.html#512697561",
   },
 
   link: function (hash) {
@@ -716,9 +717,10 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
+      { name: "Lost Ember", path: "/links/single.html#512697561", year: 2019 },
       { name: "Terminator: Resistance", path: "/links/terminator-resistance.html", year: 2019 },
       { name: "Star Wars Jedi: Fallen Order", path: "/links/star-wars-jedi.html", year: 2019 },
-      { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Superliminal", path: "/links/single.html#508178551", year: 2019 },
       { name: "Death Stranding", path: "/links/death-stranding.html", year: 2019 },
       { name: "Mafia II", path: "/links/mafia-2.html", year: 2019 },
