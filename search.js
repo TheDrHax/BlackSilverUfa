@@ -678,6 +678,7 @@ var Redirect = {
     "511744934": "/links/terminator-resistance.html#511744934",
     "512218604": "/links/first.html#512218604",
     "512697561": "/links/single.html#512697561",
+    "513118218": "/links/ghost-recon-breakpoint.html#513118218",
   },
 
   link: function (hash) {
@@ -993,6 +994,7 @@ var Search = {
     ],
     "ongoing": [
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
+      { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
       { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
     ],
     "infinite": [
@@ -1020,7 +1022,6 @@ var Search = {
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
       { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
       { name: "Blasphemous", path: "/links/blasphemous.html", year: 2019 },
-      { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
       { name: "Control", path: "/links/control.html", year: 2019 },
       { name: "Black Mesa", path: "/links/black-mesa.html", year: 2019 },
       { name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019 },
