@@ -676,9 +676,10 @@ var Redirect = {
     "510472726": "/links/terminator-resistance.html#510472726",
     "510917796": "/links/luigis-mansion-3.html#510917796",
     "511744934": "/links/terminator-resistance.html#511744934",
-    "512218604": "/links/first.html#512218604",
+    "512218604": "/links/suffering.html#512218604",
     "512697561": "/links/single.html#512697561",
     "513118218": "/links/ghost-recon-breakpoint.html#513118218",
+    "513964498": "/links/suffering.html#513964498",
   },
 
   link: function (hash) {
@@ -829,7 +830,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
-      { name: "The Suffering: Prison is Hell", path: "/links/first.html#512218604", year: 2019 },
       { name: "Shenmue III", path: "/links/first.html#510472726", year: 2019 },
       { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
       { name: "Planet Zoo", path: "/links/first.html#504672487", year: 2019 },
@@ -993,6 +993,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "The Suffering: Prison is Hell", path: "/links/suffering.html", year: 2019 },
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
       { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
