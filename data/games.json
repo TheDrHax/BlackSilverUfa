@@ -1174,7 +1174,7 @@
       { "name": "Below", "twitch": "349397154", "segment": 0 },
       { "name": "Heathen - The sons of the law / Dread of Laughter", "twitch": "351262416" },
       { "name": "The Long Dark - Redux", "twitch": "352177874" },
-      { "name": "The Suffering 2: Ties That Bind / Thief 3: Deadly Shadows", "twitch": "352687063" },
+      { "name": "Thief 3: Deadly Shadows", "twitch": "352687063", "start": "1:59:07" },
       { "name": "Lost In Vivo", "twitch": "355395099", "start": "3:20:27" },
       { "name": "Vane / Subject", "twitch": "364318283", "segment": 2 },
       { "name": "Onimusha: Warlords", "twitch": "364810379", "start": "3:09:02" },
@@ -1219,11 +1219,21 @@
   },
   {
     "name": "The Suffering: Prison is Hell",
-    "category": "ongoing",
+    "category": "finished",
     "id": "suffering",
     "streams": [
       { "name": "1", "twitch": "512218604" },
-      { "name": "2", "twitch": "513964498" }
+      { "name": "2", "twitch": "513964498" },
+      { "name": "3", "twitch": "514393833" }
+    ]
+  },
+  {
+    "name": "The Suffering 2: Ties That Bind",
+    "category": "ongoing",
+    "id": "suffering-2",
+    "streams": [
+      { "name": "1", "twitch": "352687063" },
+      { "name": "1 (заново)", "twitch": "514393833", "start": "1:23:49" }
     ]
   },
   {
