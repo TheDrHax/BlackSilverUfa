@@ -396,7 +396,7 @@ var Redirect = {
     "350791309": "/links/lucius-3.html#350791309",
     "351262416": "/links/first.html#351262416",
     "352177874": "/links/first.html#352177874",
-    "352687063": "/links/first.html#352687063",
+    "352687063": "/links/suffering-2.html#352687063",
     "352766083": "/links/sw-kotor2.html#352766083",
     "353211576": "/links/co-op.html#353211576",
     "354067956": "/links/subnautica.html#354067956",
@@ -680,6 +680,7 @@ var Redirect = {
     "512697561": "/links/single.html#512697561",
     "513118218": "/links/ghost-recon-breakpoint.html#513118218",
     "513964498": "/links/suffering.html#513964498",
+    "514393833": "/links/suffering.html#514393833",
   },
 
   link: function (hash) {
@@ -721,6 +722,7 @@ var Search = {
     "finished": [
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Lost Ember", path: "/links/single.html#512697561", year: 2019 },
+      { name: "The Suffering: Prison is Hell", path: "/links/suffering.html", year: 2019 },
       { name: "Terminator: Resistance", path: "/links/terminator-resistance.html", year: 2019 },
       { name: "Star Wars Jedi: Fallen Order", path: "/links/star-wars-jedi.html", year: 2019 },
       { name: "Superliminal", path: "/links/single.html#508178551", year: 2019 },
@@ -886,7 +888,6 @@ var Search = {
       { name: "Vane", path: "/links/first.html#364318283.2", year: 2019 },
       { name: "Subject", path: "/links/first.html#364318283.2", year: 2019 },
       { name: "Lost In Vivo", path: "/links/first.html#355395099", year: 2018 },
-      { name: "The Suffering 2: Ties That Bind", path: "/links/first.html#352687063", year: 2018 },
       { name: "Thief 3: Deadly Shadows", path: "/links/first.html#352687063", year: 2018 },
       { name: "The Long Dark - Redux", path: "/links/first.html#352177874", year: 2018 },
       { name: "Heathen - The sons of the law", path: "/links/first.html#351262416", year: 2018 },
@@ -993,9 +994,9 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
-      { name: "The Suffering: Prison is Hell", path: "/links/suffering.html", year: 2019 },
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
+      { name: "The Suffering 2: Ties That Bind", path: "/links/suffering-2.html", year: 2018 },
       { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
     ],
     "infinite": [
