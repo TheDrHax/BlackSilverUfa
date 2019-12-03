@@ -681,6 +681,7 @@ var Redirect = {
     "513118218": "/links/ghost-recon-breakpoint.html#513118218",
     "513964498": "/links/suffering.html#513964498",
     "514393833": "/links/suffering.html#514393833",
+    "516508179": "/links/suffering-2.html#516508179",
   },
 
   link: function (hash) {
@@ -770,6 +771,7 @@ var Search = {
       { name: "Bright Memory - Ep. 1", path: "/links/single.html#364318283.1", year: 2019 },
       { name: "Deltarune - Ep. 1", path: "/links/single.html#361716902", year: 2019 },
       { name: "Subnautica", path: "/links/subnautica.html", year: 2018 },
+      { name: "The Suffering 2: Ties That Bind", path: "/links/suffering-2.html", year: 2018 },
       { name: "Room 303", path: "/links/single.html#347665549", year: 2018 },
       { name: "Ashen", path: "/links/ashen.html", year: 2018 },
       { name: "Granny", path: "/links/granny.html", year: 2018 },
@@ -996,7 +998,6 @@ var Search = {
     "ongoing": [
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
-      { name: "The Suffering 2: Ties That Bind", path: "/links/suffering-2.html", year: 2018 },
     ],
     "infinite": [
       { name: "Police Stories", path: "/links/police-stories.html", year: 2019 },
