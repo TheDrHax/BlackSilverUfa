@@ -997,7 +997,6 @@ var Search = {
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
       { name: "The Suffering 2: Ties That Bind", path: "/links/suffering-2.html", year: 2018 },
-      { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
     ],
     "infinite": [
       { name: "Police Stories", path: "/links/police-stories.html", year: 2019 },
@@ -1054,6 +1053,7 @@ var Search = {
       { name: "Super Mario Odyssey", path: "/links/super-mario-odyssey.html", year: 2017 },
       { name: "Stardew Valley", path: "/links/stardew-walley.html", year: 2017 },
       { name: "Middle-earth: Shadow of War", path: "/links/middle_earth.html", year: 2017 },
+      { name: "Outlast 2", path: "/links/outlast_2.html", year: 2017 },
       { name: "Persona 5", path: "/links/persona_5.html", year: 2017 },
     ],
     "co-op": [
