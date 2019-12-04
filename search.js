@@ -682,6 +682,7 @@ var Redirect = {
     "513964498": "/links/suffering.html#513964498",
     "514393833": "/links/suffering.html#514393833",
     "516508179": "/links/suffering-2.html#516508179",
+    "516941489": "/links/first.html#516941489",
   },
 
   link: function (hash) {
@@ -834,6 +835,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Grand Theft Auto: Vice City", path: "/links/first.html#516941489", year: 2019 },
       { name: "Shenmue III", path: "/links/first.html#510472726", year: 2019 },
       { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
       { name: "Planet Zoo", path: "/links/first.html#504672487", year: 2019 },
