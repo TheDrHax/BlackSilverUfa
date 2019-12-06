@@ -682,7 +682,8 @@ var Redirect = {
     "513964498": "/links/suffering.html#513964498",
     "514393833": "/links/suffering.html#514393833",
     "516508179": "/links/suffering-2.html#516508179",
-    "516941489": "/links/first.html#516941489",
+    "516941489": "/links/gta-vice-city.html#516941489",
+    "517802976": "/links/gta-vice-city.html#517802976",
   },
 
   link: function (hash) {
@@ -835,7 +836,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
-      { name: "Grand Theft Auto: Vice City", path: "/links/first.html#516941489", year: 2019 },
       { name: "Shenmue III", path: "/links/first.html#510472726", year: 2019 },
       { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
       { name: "Planet Zoo", path: "/links/first.html#504672487", year: 2019 },
@@ -998,6 +998,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Grand Theft Auto: Vice City", path: "/links/gta-vice-city.html", year: 2019 },
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
     ],
