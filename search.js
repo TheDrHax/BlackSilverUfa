@@ -684,6 +684,7 @@ var Redirect = {
     "516508179": "/links/suffering-2.html#516508179",
     "516941489": "/links/gta-vice-city.html#516941489",
     "517802976": "/links/gta-vice-city.html#517802976",
+    "518306588": "/links/co-op.html#518306588",
   },
 
   link: function (hash) {
@@ -1062,6 +1063,9 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
+      { name: "Heave Ho", path: "/links/co-op.html#518306588", year: 2019 },
+      { name: "Tools Up!", path: "/links/co-op.html#518306588", year: 2019 },
+      { name: "Out of Space", path: "/links/co-op.html#518306588", year: 2019 },
       { name: "GTFO (альфа)", path: "/links/co-op.html#500788270", year: 2019 },
       { name: "Crimson Hotel", path: "/links/co-op.html#497190114", year: 2019 },
       { name: "Niffelheim", path: "/links/co-op.html#497190114", year: 2019 },
