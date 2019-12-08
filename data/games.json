@@ -882,12 +882,12 @@
     ]
   },
   {
-    "name": "Black Mesa",
+    "name": "Black Mesa: Xen",
     "category": "ongoing",
-    "id": "black-mesa",
+    "id": "black-mesa-xen",
     "streams": [
-      { "name": "Xen (бета)", "twitch": "444937025", "segment": 0 },
-      { "name": "1", "twitch": "447694923", "segment": 1 }
+      { "name": "0 (бета)", "twitch": "444937025", "segment": 0 },
+      { "name": "1", "twitch": "518751002" }
     ],
     "thumbnail": 1
   },
@@ -1199,6 +1199,7 @@
       { "name": "Mario Royale / TMNT Rescue-Palooza / Crash Team Racing / My Friend Pedro / Bloodstained: Ritual of the Night", "twitch": "442171113" },
       { "name": "Failed State", "twitch": "444021917", "start": "1:12:33" },
       { "name": "Daymare: 1998 (демо)", "twitch": "447694923", "segment": 0 },
+      { "name": "Black Mesa", "twitch": "447694923", "segment": 1 },
       { "name": "Thief Simulator", "twitch": "454019548", "segment": 0 },
       { "name": "Spirit Hunter: Death Mark", "twitch": "466152548" },
       { "name": "Gibbous - A Cthulhu Adventure", "twitch": "466612968", "start": "2:07:28" },
