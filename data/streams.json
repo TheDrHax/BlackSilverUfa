@@ -946,8 +946,14 @@
   "513964498": { "youtube": "4yvxCzK-gfc" },
   "514393833": { "youtube": "N41WAm4PNlI" },
   "516508179": { "youtube": "w8nJdnXrSJU" },
-  "516941489": { "youtube": "ww9v20a8QOE", "official": false },
-  "517802976": { "youtube": "EXLIJurCOXc", "official": false },
+  "516941489": {
+    "youtube": "ww9v20a8QOE", "official": false,
+    "note": "Официальная запись <a href=\"https://twitter.com/Sempai_Black/status/1204020703827300353\">заблокирована</a>."
+  },
+  "517802976": {
+    "youtube": "EXLIJurCOXc", "official": false,
+    "note": "Официальная запись <a href=\"https://twitter.com/Sempai_Black/status/1204020703827300353\">заблокирована</a>."
+  },
   "518306588": { "youtube": "AK1CYqvyHIc" },
   "518751002": { "youtube": "gJO6G7Uc0IY" }
 }
