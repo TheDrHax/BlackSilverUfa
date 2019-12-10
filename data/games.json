@@ -73,9 +73,18 @@
       { "name": "Marooners / Save Your Nuts", "twitch": "487949971", "start": "1:25:19" },
       { "name": "We Were Here Together", "twitch": "493585395" },
       { "name": "Crimson Hotel / Niffelheim", "twitch": "497190114" },
-      { "name": "GTFO (альфа)", "twitch": "500788270" },
       { "name": "Heave Ho / Tools Up! / Out of Space", "twitch": "518306588" }
     ]
+  },
+  {
+    "name": "GTFO",
+    "category": "co-op-series",
+    "id": "gtfo",
+    "streams": [
+      { "name": "Альфа", "twitch": "500788270" },
+      { "name": "1", "twitch": "519609666", "start": "1:16:19" }
+    ],
+    "thumbnail": 1
   },
   {
     "name": "Secret Neighbor",
@@ -593,7 +602,8 @@
     "streams": [
       { "name": "неПрофессиональный The Game Awards 2018", "twitch": "345649019" },
       { "name": "Gamescom 2019", "twitch": "469393130" },
-      { "name": "BlizzCon 2019 (обзор)", "twitch": "502940448" }
+      { "name": "BlizzCon 2019 (обзор)", "twitch": "502940448" },
+      { "name": "State of Play 2019", "twitch": "519609666" }
     ]
   },
   {
