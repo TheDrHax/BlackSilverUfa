@@ -659,7 +659,7 @@ var Redirect = {
     "498846687": "/links/outer-worlds.html#498846687",
     "499849877": "/links/charity.html#499849877",
     "500334713": "/links/secret-neighbor.html#500334713",
-    "500788270": "/links/co-op.html#500788270",
+    "500788270": "/links/gtfo.html#500788270",
     "502082379": "/links/halloween.html#502082379",
     "502487271": "/links/mafia-2.html#502487271",
     "502940448": "/links/expos.html#502940448",
@@ -686,6 +686,7 @@ var Redirect = {
     "517802976": "/links/gta-vice-city.html#517802976",
     "518306588": "/links/co-op.html#518306588",
     "518751002": "/links/black-mesa-xen.html#518751002",
+    "519609666": "/links/expos.html#519609666",
   },
 
   link: function (hash) {
@@ -1068,7 +1069,6 @@ var Search = {
       { name: "Heave Ho", path: "/links/co-op.html#518306588", year: 2019 },
       { name: "Tools Up!", path: "/links/co-op.html#518306588", year: 2019 },
       { name: "Out of Space", path: "/links/co-op.html#518306588", year: 2019 },
-      { name: "GTFO (альфа)", path: "/links/co-op.html#500788270", year: 2019 },
       { name: "Crimson Hotel", path: "/links/co-op.html#497190114", year: 2019 },
       { name: "Niffelheim", path: "/links/co-op.html#497190114", year: 2019 },
       { name: "We Were Here Together", path: "/links/co-op.html#493585395", year: 2019 },
@@ -1129,6 +1129,7 @@ var Search = {
       { name: "Stick Fight", path: "/links/co-op.html#180663832", year: 2017 },
     ],
     "co-op-series": [
+      { name: "GTFO", path: "/links/gtfo.html", year: 2019 },
       { name: "Farming Simulator 19", path: "/links/farming-simulator-19.html", year: 2019 },
       { name: "Call of Duty: Modern Warfare (бета)", path: "/links/cod-mw.html", year: 2019 },
       { name: "Havocado", path: "/links/havocado.html", year: 2019 },
@@ -1198,6 +1199,7 @@ var Search = {
     ],
     "expos": [
       { name: "Конференции", path: "/links/expos.html", year: 2019 },
+      { name: "State of Play 2019", path: "/links/expos.html#519609666", year: 2019 },
       { name: "BlizzCon 2019 (обзор)", path: "/links/expos.html#502940448", year: 2019 },
       { name: "Tokyo Game Show 2019 (обзор)", path: "/links/tgs-2019.html", year: 2019 },
       { name: "Gamescom 2019", path: "/links/expos.html#469393130", year: 2019 },
