@@ -893,11 +893,12 @@
   },
   {
     "name": "Black Mesa: Xen",
-    "category": "ongoing",
+    "category": "finished",
     "id": "black-mesa-xen",
     "streams": [
       { "name": "0 (бета)", "twitch": "444937025", "segment": 0 },
-      { "name": "1", "twitch": "518751002" }
+      { "name": "1", "twitch": "518751002" },
+      { "name": "2", "twitch": "520025510" }
     ],
     "thumbnail": 1
   },
@@ -1232,11 +1233,12 @@
   },
   {
     "name": "Grand Theft Auto: Vice City",
-    "category": "ongoing",
+    "category": "finished",
     "id": "gta-vice-city",
     "streams": [
       { "name": "1", "twitch": "516941489" },
-      { "name": "2", "twitch": "517802976" }
+      { "name": "2", "twitch": "517802976" },
+      { "name": "3", "twitch": "520025510", "start": "2:56:11" }
     ]
   },
   {
