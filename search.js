@@ -687,6 +687,7 @@ var Redirect = {
     "518306588": "/links/co-op.html#518306588",
     "518751002": "/links/black-mesa-xen.html#518751002",
     "519609666": "/links/expos.html#519609666",
+    "520025510": "/links/black-mesa-xen.html#520025510",
   },
 
   link: function (hash) {
@@ -726,6 +727,8 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Black Mesa: Xen", path: "/links/black-mesa-xen.html", year: 2019 },
+      { name: "Grand Theft Auto: Vice City", path: "/links/gta-vice-city.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Lost Ember", path: "/links/single.html#512697561", year: 2019 },
       { name: "The Suffering: Prison is Hell", path: "/links/suffering.html", year: 2019 },
@@ -1002,8 +1005,6 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
-      { name: "Black Mesa: Xen", path: "/links/black-mesa-xen.html", year: 2019 },
-      { name: "Grand Theft Auto: Vice City", path: "/links/gta-vice-city.html", year: 2019 },
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
     ],
