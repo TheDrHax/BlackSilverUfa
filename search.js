@@ -688,6 +688,7 @@ var Redirect = {
     "518751002": "/links/black-mesa-xen.html#518751002",
     "519609666": "/links/expos.html#519609666",
     "520025510": "/links/black-mesa-xen.html#520025510",
+    "520025510.1": "/links/gta-vice-city.html#520025510.1",
   },
 
   link: function (hash) {
