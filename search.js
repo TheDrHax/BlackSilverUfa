@@ -689,6 +689,7 @@ var Redirect = {
     "519609666": "/links/expos.html#519609666",
     "520025510": "/links/black-mesa-xen.html#520025510",
     "520025510.1": "/links/gta-vice-city.html#520025510.1",
+    "520877239": "/links/expos.html#520877239",
   },
 
   link: function (hash) {
@@ -1201,6 +1202,7 @@ var Search = {
     ],
     "expos": [
       { name: "Конференции", path: "/links/expos.html", year: 2019 },
+      { name: "The Game Awards 2019 (обзор)", path: "/links/expos.html#520877239", year: 2019 },
       { name: "State of Play 2019", path: "/links/expos.html#519609666", year: 2019 },
       { name: "BlizzCon 2019 (обзор)", path: "/links/expos.html#502940448", year: 2019 },
       { name: "Tokyo Game Show 2019 (обзор)", path: "/links/tgs-2019.html", year: 2019 },
