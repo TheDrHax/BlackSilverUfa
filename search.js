@@ -690,6 +690,7 @@ var Redirect = {
     "520025510": "/links/black-mesa-xen.html#520025510",
     "520025510.1": "/links/gta-vice-city.html#520025510.1",
     "520877239": "/links/expos.html#520877239",
+    "521336731": "/links/first.html#521336731",
   },
 
   link: function (hash) {
@@ -844,6 +845,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Gothic - Playable Teaser", path: "/links/first.html#521336731", year: 2019 },
       { name: "Shenmue III", path: "/links/first.html#510472726", year: 2019 },
       { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
       { name: "Planet Zoo", path: "/links/first.html#504672487", year: 2019 },
@@ -1007,6 +1009,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Metal Gear Solid", path: "/links/mgs.html", year: 2019 },
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
     ],
