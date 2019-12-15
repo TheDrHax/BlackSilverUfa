@@ -90,11 +90,6 @@
         <i class="fas fa-comments"></i> 20535
       </a>
     </span>
-    <span class="badge badge-danger">
-      <a href="https://bsufiles.thedrhax.pw/streams/521336731.torrent">
-        <i class="fas fa-download"></i> торрент
-      </a>
-    </span>
   </div>
 </div>
 
@@ -136,14 +131,19 @@
 </ul>
 
 <div class="row justify-content-center">
-  <p class="stream col" data-id="0" data-start="4709" data-name="1" data-twitch="521336731" data-direct="https://bsufiles.thedrhax.pw/streams/521336731.mp4" />
+  <p class="stream col" data-id="0" data-start="4709" data-name="1" data-twitch="521336731" style="display: none" />
 </div>
 
+<p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по
+прямой ссылке с YouTube, то это значит, что запись уже есть, но сайт ещё не
+обновился. Обычно на это требуется минута или около того, но я оставляю
+комментарий ещё до завершения процесса. Нажмите
+<a href="#" onclick="document.location.reload(); return false;">сюда</a>, чтобы попробовать обновить
+страницу.</p>
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/v521336731.ass --start=4709 https://bsufiles.thedrhax.pw/streams/521336731.mp4
-streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v521336731.ass --start=4709" --player-passthrough hls twitch.tv/videos/521336731 best
+  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/v521336731.ass --start=4709" --player-passthrough hls twitch.tv/videos/521336731 best
 </code></pre>
 </div></div>
 
