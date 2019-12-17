@@ -692,6 +692,7 @@ var Redirect = {
     "520877239": "/links/expos.html#520877239",
     "521336731": "/links/first.html#521336731",
     "521837299": "/links/mgs.html#521837299",
+    "522691278": "/links/first.html#522691278",
   },
 
   link: function (hash) {
@@ -847,6 +848,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Spore", path: "/links/first.html#522691278", year: 2019 },
       { name: "Gothic - Playable Teaser", path: "/links/first.html#521336731", year: 2019 },
       { name: "Shenmue III", path: "/links/first.html#510472726", year: 2019 },
       { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
