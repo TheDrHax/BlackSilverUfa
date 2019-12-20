@@ -692,8 +692,9 @@ var Redirect = {
     "520877239": "/links/expos.html#520877239",
     "521336731": "/links/first.html#521336731",
     "521837299": "/links/mgs.html#521837299",
-    "522691278": "/links/first.html#522691278",
+    "522691278": "/links/spore.html#522691278",
     "523121734": "/links/mgs-2.html#523121734",
+    "523968481": "/links/spore.html#523968481",
   },
 
   link: function (hash) {
@@ -849,7 +850,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
-      { name: "Spore", path: "/links/first.html#522691278", year: 2019 },
       { name: "Gothic - Playable Teaser", path: "/links/first.html#521336731", year: 2019 },
       { name: "Shenmue III", path: "/links/first.html#510472726", year: 2019 },
       { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
@@ -888,7 +888,6 @@ var Search = {
       { name: "Code Vein", path: "/links/code-vein.html", year: 2019 },
       { name: "Dollhouse", path: "/links/first.html#429660363", year: 2019 },
       { name: "Pathologic 2 (Мор)", path: "/links/first.html#428684611", year: 2019 },
-      { name: "Jump King", path: "/links/first.html#422486024", year: 2019 },
       { name: "The Painscreek Killings", path: "/links/first.html#420241791.2", year: 2019 },
       { name: "Dark Devotion", path: "/links/first.html#418879336", year: 2019 },
       { name: "Border Officer", path: "/links/first.html#412393845", year: 2019 },
@@ -1014,6 +1013,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Spore", path: "/links/spore.html", year: 2019 },
       { name: "Metal Gear Solid 2: Sons of Liberty", path: "/links/mgs-2.html", year: 2019 },
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
@@ -1021,6 +1021,7 @@ var Search = {
     "infinite": [
       { name: "Police Stories", path: "/links/police-stories.html", year: 2019 },
       { name: "Ancestors: The Humankind Odyssey", path: "/links/ancestors.html", year: 2019 },
+      { name: "Jump King", path: "/links/jump-king.html", year: 2019 },
       { name: "Totally Accurate Battle Simulator", path: "/links/tabs.html", year: 2019 },
       { name: "Subnautica: Below Zero (ранний доступ)", path: "/links/subnautica-bz.html", year: 2019 },
       { name: "No Man's Sky", path: "/links/no-mans-sky.html", year: 2018 },
