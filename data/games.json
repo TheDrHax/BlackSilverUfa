@@ -57,7 +57,6 @@
       { "name": "Superfighters Deluxe", "twitch": "343098113", "segment": 1, "start": "3:20:23" },
       { "name": "Survived By", "twitch": "346312308", "start": "2:41:26" },
       { "name": "Prey: Typhon Hunter", "twitch": "347665549", "start": "1:47:38" },
-      { "name": "Last Year: The Nightmare", "twitch": "350791309", "start": "2:19:58" },
       { "name": "Atlas (кооп не найден)", "twitch": "353211576" },
       { "name": "Golf With Your Friends", "twitch": "374556455", "start": "4:33:48" },
       { "name": "Project Winter", "twitch": "378392606" },
@@ -77,6 +76,15 @@
     ]
   },
   {
+    "name": "Last Year",
+    "category": "co-op-series",
+    "id": "last-year",
+    "streams": [
+      { "name": "The Nightmare", "twitch": "350791309", "start": "2:19:58" },
+      { "name": "Chapter 1: After Dark", "twitch": "524415764", "start": "2:30:29" }
+    ]
+  },
+  {
     "name": "GTFO",
     "category": "co-op-series",
     "id": "gtfo",
@@ -93,7 +101,8 @@
     "id": "secret-neighbor",
     "streams": [
       { "name": "1", "twitch": "313747869" },
-      { "name": "2", "twitch": "500334713" }
+      { "name": "2", "twitch": "500334713" },
+      { "name": "3", "twitch": "524415764", "start": "3:51:37" }
     ]
   },
   {
@@ -301,7 +310,8 @@
       { "name": "2", "twitch": "339579917", "segment": 1, "start": "5:12:50" },
       { "name": "3", "twitch": "410400457", "start": "2:11:12" },
       { "name": "4", "twitch": "439860739", "start": "3:37:22" },
-      { "name": "5 (6D)", "twitch": "500334713", "start": "1:36:32" }
+      { "name": "5 (6D)", "twitch": "500334713", "start": "1:36:32" },
+      { "name": "6 (6D)", "twitch": "524415764", "start": "4:43:41" }
     ]
   },
   {
@@ -1239,7 +1249,8 @@
     "id": "jump-king",
     "streams": [
       { "name": "1", "twitch": "422486024", "start": "1:37:07" },
-      { "name": "2", "twitch": "523968481", "start": "2:50:38" }
+      { "name": "2 (заново)", "twitch": "523968481", "start": "2:50:38" },
+      { "name": "3", "twitch": "524415764" }
     ]
   },
   {
