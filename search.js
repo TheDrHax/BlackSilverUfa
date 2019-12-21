@@ -695,6 +695,7 @@ var Redirect = {
     "522691278": "/links/spore.html#522691278",
     "523121734": "/links/mgs-2.html#523121734",
     "523968481": "/links/spore.html#523968481",
+    "524415764": "/links/jump-king.html#524415764",
   },
 
   link: function (hash) {
@@ -1015,7 +1016,6 @@ var Search = {
     "ongoing": [
       { name: "Spore", path: "/links/spore.html", year: 2019 },
       { name: "Metal Gear Solid 2: Sons of Liberty", path: "/links/mgs-2.html", year: 2019 },
-      { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
     ],
     "infinite": [
@@ -1038,6 +1038,7 @@ var Search = {
       { name: "SCP Containment Breach", path: "/links/scp-cb.html", year: 2018 },
     ],
     "abandoned": [
+      { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "The Outer Worlds", path: "/links/outer-worlds.html", year: 2019 },
       { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
       { name: "The Legend of Zelda: Link's Awakening", path: "/links/tloz-la.html", year: 2019 },
@@ -1103,7 +1104,6 @@ var Search = {
       { name: "Project Winter", path: "/links/co-op.html#378392606", year: 2019 },
       { name: "Golf With Your Friends", path: "/links/co-op.html#374556455", year: 2019 },
       { name: "Atlas (кооп не найден)", path: "/links/co-op.html#353211576", year: 2018 },
-      { name: "Last Year: The Nightmare", path: "/links/co-op.html#350791309", year: 2018 },
       { name: "Prey: Typhon Hunter", path: "/links/co-op.html#347665549", year: 2018 },
       { name: "Survived By", path: "/links/co-op.html#346312308", year: 2018 },
       { name: "Superfighters Deluxe", path: "/links/co-op.html#343098113.1", year: 2018 },
@@ -1156,6 +1156,7 @@ var Search = {
       { name: "The Isle", path: "/links/isle.html", year: 2019 },
       { name: "Deep Rock Galactic", path: "/links/deep-rock-galactic.html", year: 2019 },
       { name: "New Super Mario Bros. U Deluxe", path: "/links/nsmbu.html", year: 2019 },
+      { name: "Last Year", path: "/links/last-year.html", year: 2018 },
       { name: "Red Dead Online", path: "/links/rdr2-online.html", year: 2018 },
       { name: "Among Us", path: "/links/among-us.html", year: 2018 },
       { name: "Эскейп-румы", path: "/links/escape-rooms.html", year: 2018 },
