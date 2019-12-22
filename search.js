@@ -696,6 +696,7 @@ var Redirect = {
     "523121734": "/links/mgs-2.html#523121734",
     "523968481": "/links/spore.html#523968481",
     "524415764": "/links/jump-king.html#524415764",
+    "524865260": "/links/first.html#524865260",
   },
 
   link: function (hash) {
@@ -735,10 +736,12 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
+      { name: "Suite 776", path: "/links/single.html#524865260", year: 2019 },
+      { name: "The Alien Cube (демо)", path: "/links/single.html#524865260", year: 2019 },
       { name: "Metal Gear Solid", path: "/links/mgs.html", year: 2019 },
       { name: "Black Mesa: Xen", path: "/links/black-mesa-xen.html", year: 2019 },
       { name: "Grand Theft Auto: Vice City", path: "/links/gta-vice-city.html", year: 2019 },
-      { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Lost Ember", path: "/links/single.html#512697561", year: 2019 },
       { name: "The Suffering: Prison is Hell", path: "/links/suffering.html", year: 2019 },
       { name: "Terminator: Resistance", path: "/links/terminator-resistance.html", year: 2019 },
@@ -851,6 +854,8 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Trepang2 (демо)", path: "/links/first.html#524865260", year: 2019 },
+      { name: "The Paperman", path: "/links/first.html#524865260", year: 2019 },
       { name: "Gothic - Playable Teaser", path: "/links/first.html#521336731", year: 2019 },
       { name: "Shenmue III", path: "/links/first.html#510472726", year: 2019 },
       { name: "Untitled Goose Game", path: "/links/first.html#508178551", year: 2019 },
@@ -1014,6 +1019,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Alien: Isolation (Extreme + новый ИИ)", path: "/links/alien-isolation-ai.html", year: 2019 },
       { name: "Spore", path: "/links/spore.html", year: 2019 },
       { name: "Metal Gear Solid 2: Sons of Liberty", path: "/links/mgs-2.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
