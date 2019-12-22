@@ -890,7 +890,8 @@
       { "name": "Little Misfortune", "twitch": "488372344", "segment": 0 },
       { "name": "Project Nightmares Case 36: Henrietta Kedward", "twitch": "491017258" },
       { "name": "Superliminal", "twitch": "508178551", "start": "32:49" },
-      { "name": "Lost Ember", "twitch": "512697561" }
+      { "name": "Lost Ember", "twitch": "512697561" },
+      { "name": "Suite 776 / The Alien Cube (демо)", "twitch": "524865260", "start": "43:20" }
     ]
   },
   {
@@ -1240,7 +1241,16 @@
       { "name": "Planet Zoo", "twitch": "504672487", "start": "3:50:24" },
       { "name": "Untitled Goose Game", "twitch": "508178551", "start": "3:20:41" },
       { "name": "Shenmue III", "twitch": "510472726", "start": "3:19:55" },
-      { "name": "Gothic - Playable Teaser", "twitch": "521336731" }
+      { "name": "Gothic - Playable Teaser", "twitch": "521336731" },
+      { "name": "Trepang2 (демо) / The Paperman", "twitch": "524865260" }
+    ]
+  },
+  {
+    "name": "Alien: Isolation (Extreme + новый ИИ)",
+    "category": "ongoing",
+    "id": "alien-isolation-ai",
+    "streams": [
+      { "name": "1", "twitch": "524865260", "start": "3:14:47" }
     ]
   },
   {
