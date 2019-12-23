@@ -696,6 +696,7 @@ var Redirect = {
     "523121734": "/links/mgs-2.html#523121734",
     "523968481": "/links/spore.html#523968481",
     "524415764": "/links/jump-king.html#524415764",
+    "524415764.1": "/links/last-year.html#524415764.1",
     "524865260": "/links/first.html#524865260",
   },
 
