@@ -1283,11 +1283,12 @@
   },
   {
     "name": "Metal Gear Solid 2: Sons of Liberty",
-    "category": "ongoing",
+    "category": "finished",
     "id": "mgs-2",
     "streams": [
       { "name": "1", "twitch": "521837299", "start": "4:27:23" },
-      { "name": "2", "twitch": "523121734" }
+      { "name": "2", "twitch": "523121734" },
+      { "name": "3", "twitch": "525744926" }
     ]
   },
   {
