@@ -698,6 +698,7 @@ var Redirect = {
     "524415764": "/links/jump-king.html#524415764",
     "524415764.1": "/links/last-year.html#524415764.1",
     "524865260": "/links/first.html#524865260",
+    "525744926": "/links/mgs-2.html#525744926",
   },
 
   link: function (hash) {
@@ -740,6 +741,7 @@ var Search = {
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Suite 776", path: "/links/single.html#524865260", year: 2019 },
       { name: "The Alien Cube (демо)", path: "/links/single.html#524865260", year: 2019 },
+      { name: "Metal Gear Solid 2: Sons of Liberty", path: "/links/mgs-2.html", year: 2019 },
       { name: "Metal Gear Solid", path: "/links/mgs.html", year: 2019 },
       { name: "Black Mesa: Xen", path: "/links/black-mesa-xen.html", year: 2019 },
       { name: "Grand Theft Auto: Vice City", path: "/links/gta-vice-city.html", year: 2019 },
@@ -1022,7 +1024,6 @@ var Search = {
     "ongoing": [
       { name: "Alien: Isolation (Extreme + новый ИИ)", path: "/links/alien-isolation-ai.html", year: 2019 },
       { name: "Spore", path: "/links/spore.html", year: 2019 },
-      { name: "Metal Gear Solid 2: Sons of Liberty", path: "/links/mgs-2.html", year: 2019 },
       { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
     ],
     "infinite": [
