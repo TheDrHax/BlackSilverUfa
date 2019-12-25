@@ -699,6 +699,7 @@ var Redirect = {
     "524415764.1": "/links/last-year.html#524415764.1",
     "524865260": "/links/first.html#524865260",
     "525744926": "/links/mgs-2.html#525744926",
+    "526101430": "/links/first.html#526101430",
   },
 
   link: function (hash) {
@@ -857,6 +858,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", path: "/links/first.html#526101430", year: 2019 },
       { name: "Trepang2 (демо)", path: "/links/first.html#524865260", year: 2019 },
       { name: "The Paperman", path: "/links/first.html#524865260", year: 2019 },
       { name: "Gothic - Playable Teaser", path: "/links/first.html#521336731", year: 2019 },
@@ -1024,7 +1026,6 @@ var Search = {
     "ongoing": [
       { name: "Alien: Isolation (Extreme + новый ИИ)", path: "/links/alien-isolation-ai.html", year: 2019 },
       { name: "Spore", path: "/links/spore.html", year: 2019 },
-      { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
     ],
     "infinite": [
       { name: "Police Stories", path: "/links/police-stories.html", year: 2019 },
@@ -1053,6 +1054,7 @@ var Search = {
       { name: "Green Hell", path: "/links/green-hell.html", year: 2019 },
       { name: "Astral Chain", path: "/links/astral-chain.html", year: 2019 },
       { name: "Blasphemous", path: "/links/blasphemous.html", year: 2019 },
+      { name: "Tom Clancy's Ghost Recon Breakpoint", path: "/links/ghost-recon-breakpoint.html", year: 2019 },
       { name: "Control", path: "/links/control.html", year: 2019 },
       { name: "S.T.A.L.K.E.R.: Lost Alpha", path: "/links/stalker-la.html", year: 2019 },
       { name: "Wounded", path: "/links/wounded.html", year: 2019 },
