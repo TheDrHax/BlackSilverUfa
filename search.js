@@ -700,6 +700,7 @@ var Redirect = {
     "524865260": "/links/first.html#524865260",
     "525744926": "/links/mgs-2.html#525744926",
     "526101430": "/links/first.html#526101430",
+    "526521156": "/links/other.html#526521156",
   },
 
   link: function (hash) {
@@ -1205,12 +1206,13 @@ var Search = {
       { name: "Golf It!", path: "/links/golf-it.html", year: 2017 },
     ],
     "other": [
+      { name: "Разное", path: "/links/other.html", year: 2019 },
+      { name: "Xbox Game Pass Ultimate", path: "/links/other.html#526521156", year: 2019 },
       { name: "IRL", path: "/links/events.html", year: 2019 },
       { name: "Розыгрыш Asus ROG Strix SCAR II", path: "/links/events.html#508178551", year: 2019 },
       { name: "Розыгрыш Cyberpunk 2077", path: "/links/events.html#470288598", year: 2019 },
       { name: "Розыгрыш двух ноутбуков Asus", path: "/links/events.html#448568048", year: 2019 },
       { name: "Розыгрыш Asus ROG Phone", path: "/links/events.html#444021917", year: 2019 },
-      { name: "Разное", path: "/links/other.html", year: 2019 },
       { name: "RTX-стрим", path: "/links/other.html#438447673", year: 2019 },
       { name: "Godzilla (PS4, NES, Sega, PS2)", path: "/links/other.html#431084407", year: 2019 },
       { name: "Розыгрыш Metro Exodus: Artyom Edition", path: "/links/events.html#395846647", year: 2019 },
