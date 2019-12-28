@@ -701,6 +701,7 @@ var Redirect = {
     "525744926": "/links/mgs-2.html#525744926",
     "526101430": "/links/first.html#526101430",
     "526521156": "/links/other.html#526521156",
+    "527412040": "/links/re2-remake.html#527412040",
   },
 
   link: function (hash) {
