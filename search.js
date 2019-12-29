@@ -684,7 +684,7 @@ var Redirect = {
     "516508179": "/links/suffering-2.html#516508179",
     "516941489": "/links/gta-vice-city.html#516941489",
     "517802976": "/links/gta-vice-city.html#517802976",
-    "518306588": "/links/co-op.html#518306588",
+    "518306588": "/links/heave-ho.html#518306588",
     "518751002": "/links/black-mesa-xen.html#518751002",
     "519609666": "/links/expos.html#519609666",
     "520025510": "/links/black-mesa-xen.html#520025510",
@@ -702,6 +702,7 @@ var Redirect = {
     "526101430": "/links/first.html#526101430",
     "526521156": "/links/other.html#526521156",
     "527412040": "/links/re2-remake.html#527412040",
+    "527927154": "/links/heave-ho.html#527927154",
   },
 
   link: function (hash) {
@@ -1091,7 +1092,9 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
-      { name: "Heave Ho", path: "/links/co-op.html#518306588", year: 2019 },
+      { name: "Beyond Senses", path: "/links/co-op.html#527927154", year: 2019 },
+      { name: "eXplosive Dinosaurs", path: "/links/co-op.html#527927154", year: 2019 },
+      { name: "Titeuf", path: "/links/co-op.html#527927154", year: 2019 },
       { name: "Tools Up!", path: "/links/co-op.html#518306588", year: 2019 },
       { name: "Out of Space", path: "/links/co-op.html#518306588", year: 2019 },
       { name: "Crimson Hotel", path: "/links/co-op.html#497190114", year: 2019 },
@@ -1154,6 +1157,7 @@ var Search = {
     ],
     "co-op-series": [
       { name: "GTFO", path: "/links/gtfo.html", year: 2019 },
+      { name: "Heave Ho", path: "/links/heave-ho.html", year: 2019 },
       { name: "Farming Simulator 19", path: "/links/farming-simulator-19.html", year: 2019 },
       { name: "Call of Duty: Modern Warfare (бета)", path: "/links/cod-mw.html", year: 2019 },
       { name: "Havocado", path: "/links/havocado.html", year: 2019 },
