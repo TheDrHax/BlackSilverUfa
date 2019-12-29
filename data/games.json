@@ -72,7 +72,17 @@
       { "name": "Marooners / Save Your Nuts", "twitch": "487949971", "start": "1:25:19" },
       { "name": "We Were Here Together", "twitch": "493585395" },
       { "name": "Crimson Hotel / Niffelheim", "twitch": "497190114" },
-      { "name": "Heave Ho / Tools Up! / Out of Space", "twitch": "518306588" }
+      { "name": "Tools Up! / Out of Space", "twitch": "518306588", "start": "1:43:33" },
+      { "name": "Beyond Senses / eXplosive Dinosaurs / Titeuf", "twitch": "527927154", "start": "2:07:14" }
+    ]
+  },
+  {
+    "name": "Heave Ho",
+    "category": "co-op-series",
+    "id": "heave-ho",
+    "streams": [
+      { "name": "1", "twitch": "518306588" },
+      { "name": "2", "twitch": "527927154" }
     ]
   },
   {
@@ -452,7 +462,8 @@
       { "name": "17", "twitch": "468908083", "start": "4:35:10" },
       { "name": "18", "twitch": "497190114", "start": "3:49:48" },
       { "name": "19", "twitch": "500334713", "start": "4:06:35" },
-      { "name": "20", "twitch": "518306588", "start": "3:04:27" }
+      { "name": "20", "twitch": "518306588", "start": "3:04:27" },
+      { "name": "21", "twitch": "527927154", "start": "3:29:21" }
     ]
   },
   {
