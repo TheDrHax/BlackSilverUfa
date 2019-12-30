@@ -704,6 +704,7 @@ var Redirect = {
     "527412040": "/links/re2-remake.html#527412040",
     "527927154": "/links/heave-ho.html#527927154",
     "528366297": "/links/alien-isolation-ai.html#528366297",
+    "528406911": "/links/alien-isolation-ai.html#528406911",
   },
 
   link: function (hash) {
