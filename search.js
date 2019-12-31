@@ -705,6 +705,7 @@ var Redirect = {
     "527927154": "/links/heave-ho.html#527927154",
     "528366297": "/links/alien-isolation-ai.html#528366297",
     "528406911": "/links/alien-isolation-ai.html#528406911",
+    "528855659": "/links/unboxing.html#528855659",
   },
 
   link: function (hash) {
@@ -1243,6 +1244,7 @@ var Search = {
     ],
     "unboxing": [
       { name: "Анбоксинги", path: "/links/unboxing.html", year: 2019 },
+      { name: "Посылки (31.12.19)", path: "/links/unboxing.html#528855659", year: 2019 },
       { name: "Asus Rog Gladius II Wireless", path: "/links/unboxing.html#487949971", year: 2019 },
       { name: "Asus TUF Gaming H7", path: "/links/unboxing.html#487949971", year: 2019 },
       { name: "Сундук Ктулху от Melinyx", path: "/links/unboxing.html#444021917", year: 2019 },
