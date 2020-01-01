@@ -186,7 +186,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
             break
 
     if matching_stream is None:
-        raise Exception('Video does not match any streams')
+        print('Video does not match any streams', file=sys.stderr)
+        sys.exit(2)
 
     segment_kwargs['offset'] = video_offset
     segment = cmd_add(matching_stream, segment_kwargs)
