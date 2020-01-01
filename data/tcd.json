@@ -25,6 +25,7 @@
   "group_repeating_emotes": {
     "enabled": true,
     "threshold": 3,
-    "format": "{emote} x{count}"
+    "collocations": 5,
+    "format": "{emote} x⁣{count}"
   }
 }
