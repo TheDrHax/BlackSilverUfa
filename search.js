@@ -706,6 +706,7 @@ var Redirect = {
     "528366297": "/links/alien-isolation-ai.html#528366297",
     "528406911": "/links/alien-isolation-ai.html#528406911",
     "528855659": "/links/unboxing.html#528855659",
+    "530784764": "/links/alien-isolation-ai.html#530784764",
   },
 
   link: function (hash) {
@@ -745,6 +746,7 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Alien: Isolation (Extreme + новый ИИ)", path: "/links/alien-isolation-ai.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Suite 776", path: "/links/single.html#524865260", year: 2019 },
       { name: "The Alien Cube (демо)", path: "/links/single.html#524865260", year: 2019 },
@@ -863,7 +865,9 @@ var Search = {
       { name: "The Legend of Zelda: Breath of the Wild", path: "/links/tloz_botw.html", year: 2017 },
     ],
     "first": [
-      { name: "Первый взгляд", path: "/links/first.html", year: 2019 },
+      { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
+      { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
+      { name: "Granny: Chapter Two", path: "/links/first.html#530784764", year: 2020 },
       { name: "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", path: "/links/first.html#526101430", year: 2019 },
       { name: "Trepang2 (демо)", path: "/links/first.html#524865260", year: 2019 },
       { name: "The Paperman", path: "/links/first.html#524865260", year: 2019 },
@@ -1030,7 +1034,6 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
-      { name: "Alien: Isolation (Extreme + новый ИИ)", path: "/links/alien-isolation-ai.html", year: 2019 },
       { name: "Spore", path: "/links/spore.html", year: 2019 },
     ],
     "infinite": [
