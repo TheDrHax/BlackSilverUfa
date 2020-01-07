@@ -93,30 +93,24 @@ case $1 in
                     git -c push.default=upstream push
                 )
                 done ;;
-            *) echo "Usage: $0 $1 checkout|commit|push" ;;
+            pull)
+                echo "Fetching updates for gh-pages"
+                git fetch $GIT_REMOTE $PAGES_BRANCH_REMOTE
+
+                echo "Registering additional remotes"
+                jq -r '.repos.remotes[] | "\(.name) \(.pull) \(.push)"' data/config.json | while read name pull push; do
+                    git remote add "$name" "$pull" 2>/dev/null || git remote set-url "$name" "$pull"
+                    git remote set-url --push "$name" "$push"
+                done
+
+                echo "Fetching updates for additional remotes"
+                jq -r '.repos.chats[] | "\(.remote) \(.branch)"' data/config.json | while read remote branch; do
+                    git fetch "$remote" "$branch"
+                done
+
+                ./bsu pages checkout ;;
+            *) echo "Usage: $0 $1 checkout|commit|push|pull" ;;
         esac ;;
-    pull)
-        echo "Fetching updates for master"
-        git fetch $GIT_REMOTE $MASTER_BRANCH_REMOTE
-
-        echo "Updating master"
-        git pull --rebase $GIT_REMOTE $MASTER_BRANCH_REMOTE || exit 1
-
-        echo "Fetching updates for gh-pages"
-        git fetch $GIT_REMOTE $PAGES_BRANCH_REMOTE
-
-        echo "Registering additional remotes"
-        jq -r '.repos.remotes[] | "\(.name) \(.pull) \(.push)"' data/config.json | while read name pull push; do
-            git remote add "$name" "$pull" 2>/dev/null || git remote set-url "$name" "$pull"
-            git remote set-url --push "$name" "$push"
-        done
-
-        echo "Fetching updates for additional remotes"
-        jq -r '.repos.chats[] | "\(.remote) \(.branch)"' data/config.json | while read remote branch; do
-            git fetch "$remote" "$branch"
-        done
-
-        ./bsu pages checkout ;;
     build) $PYTHON -m templates.utils.generate ;;
     serve) $PYTHON -m templates.utils.serve ;;
     download-chats) $PYTHON -m templates.utils.chats ;;

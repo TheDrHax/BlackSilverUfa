@@ -14,7 +14,7 @@ node('python3 && git && (tzdata || !alpine)') {
         sh 'git config --local user.email "the.dr.hax@gmail.com"'
         sh 'git config --local user.name "Jenkins"'
         sh './bsu venv update'
-        sh './bsu pages checkout'
+        sh './bsu pages pull'
     }
 
     stage('Download Chats') {
