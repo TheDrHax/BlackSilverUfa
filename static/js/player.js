@@ -101,7 +101,7 @@ function spawnPlyr(wrapper, callback) {
     // Wrapper allows to track player's size and position but time tracking
     // will not work. See subtitles.setVideo() call below.
     video: player.elements.wrapper,
-    subUrl: "/chats/v" + wrapper.dataset.twitch + ".ass",
+    subUrl: wrapper.dataset.subtitles,
     workerUrl: '/static/js/subtitles-octopus-worker.js',
   };
   if (wrapper.dataset.offset) {

@@ -9,17 +9,17 @@ from . import _, load_json
 from ..data import config, streams
 
 
-tcd.settings.update(load_json('data/tcd.json'))
+tcd_config = load_json('data/tcd.json')
 
 
-def download(id, dest):
+def download(key, dest):
     fallback = config['fallback']
     if fallback['chats']:
         base_url = fallback['prefix']
-        url = f'{base_url}/{id}.ass'
+        url = f'{base_url}/{key}.ass'
 
         if requests.head(url, allow_redirects=fallback['redirects']).status_code == 200:
-            print(f'Downloading chat {filename} via fallback source')
+            print(f'Downloading chat {key} via fallback source')
             try:
                 r = requests.get(url)
                 with open(dest, 'wb') as of:
@@ -30,8 +30,10 @@ def download(id, dest):
                 print(ex)
                 os.unlink(dest)
 
-    print(f'Downloading chat {filename} via TCD')
-    tcd.download(id)
+    print(f'Downloading chat {key} via TCD')
+    tcd_config['directory'] = '/'.join(dest.split('/')[:-1])
+    tcd.settings.update(tcd_config)
+    tcd.download(key)
 
 
 if __name__ == '__main__':
@@ -41,7 +43,6 @@ if __name__ == '__main__':
             os.mkdir(dp)
 
     # Download missing stream subtitles
-    for stream in streams:
-        filename = _(f'chats/v{stream}.ass')
-        if not os.path.isfile(filename):
-            download(stream, filename)
+    for key, stream in streams.items():
+        if not os.path.isfile(stream.subtitles_path):
+            download(key, stream.subtitles_path)
