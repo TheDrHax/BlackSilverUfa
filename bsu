@@ -93,10 +93,10 @@ case $1 in
                     git -c push.default=upstream push
                 )
                 done ;;
-            pull)
+            fetch)
                 echo "Fetching updates for gh-pages"
-                git fetch $GIT_REMOTE $PAGES_BRANCH_REMOTE
-
+                git fetch $GIT_REMOTE $PAGES_BRANCH_REMOTE ;;
+            pull)
                 echo "Registering additional remotes"
                 jq -r '.repos.remotes[] | "\(.name) \(.pull) \(.push)"' data/config.json | while read name pull push; do
                     git remote add "$name" "$pull" 2>/dev/null || git remote set-url "$name" "$pull"
@@ -109,7 +109,10 @@ case $1 in
                 done
 
                 ./bsu pages checkout ;;
-            *) echo "Usage: $0 $1 checkout|commit|push|pull" ;;
+            update)
+                ./bsu pages fetch
+                ./bsu pages pull ;;
+            *) echo "Usage: $0 $1 checkout|commit|push|fetch|pull|update" ;;
         esac ;;
     build) $PYTHON -m templates.utils.generate ;;
     serve) $PYTHON -m templates.utils.serve ;;
