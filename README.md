@@ -10,6 +10,7 @@
 
 * [Python 3.6+](https://www.python.org/)
 * [Git](https://git-scm.com/)
+* jq (для парсинга config.json в скрипте `bsu`)
 * tzdata (для корректной сборки в Alpine Linux)
 
 ### Сборка и тестирование
