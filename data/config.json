@@ -1,11 +1,58 @@
 {
   "title": "Архив стримов BlackUFA",
   "title_short": "Архив стримов",
+  "prefix": "https://blackufa.thedrhax.pw",
   "github": {
     "user": "TheDrHax",
     "repo": "BlackSilverUfa",
     "master": "master",
     "pages": "gh-pages"
+  },
+  "repos": {
+    "remotes": [
+      {
+        "name": "chats-2017",
+        "pull": "https://github.com/BlackSilverUfa/chats-2017.git",
+        "push": "git@github.com:BlackSilverUfa/chats-2017.git"
+      },
+      {
+        "name": "chats-2018",
+        "pull": "https://github.com/BlackSilverUfa/chats-2018.git",
+        "push": "git@github.com:BlackSilverUfa/chats-2018.git"
+      },
+      {
+        "name": "chats-2019",
+        "pull": "https://github.com/BlackSilverUfa/chats-2019.git",
+        "push": "git@github.com:BlackSilverUfa/chats-2019.git"
+      },
+      {
+        "name": "chats-2020",
+        "pull": "https://github.com/BlackSilverUfa/chats-2020.git",
+        "push": "git@github.com:BlackSilverUfa/chats-2020.git"
+      }
+    ],
+    "chats": {
+      "2017": {
+        "remote": "chats-2017",
+        "branch": "master",
+        "prefix": "https://blacksilverufa.github.io/chats-2017"
+      },
+      "2018": {
+        "remote": "chats-2018",
+        "branch": "master",
+        "prefix": "https://blacksilverufa.github.io/chats-2018"
+      },
+      "2019": {
+        "remote": "chats-2019",
+        "branch": "master",
+        "prefix": "https://blacksilverufa.github.io/chats-2019"
+      },
+      "2020": {
+        "remote": "chats-2020",
+        "branch": "master",
+        "prefix": "https://blacksilverufa.github.io/chats-2020"
+      }
+    }
   },
   "fallback": {
     "prefix": "https://bsufiles.thedrhax.pw/streams",

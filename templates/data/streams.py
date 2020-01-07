@@ -125,6 +125,7 @@ class Segment:
             add('segment')
 
         add('offset', lambda x: int(x))
+        add('subtitles')
 
         for key in ['start', 'end']:
             add(key, lambda x: int(x - Timecode(self.offset)))
@@ -136,6 +137,10 @@ class Segment:
             attrs.append('style="display: none"')
 
         return ' '.join(attrs)
+
+    @property
+    def subtitles(self):
+        return self.stream.subtitles
 
     @staticmethod
     @cached('duration-youtube-{0[0]}')
@@ -204,8 +209,7 @@ class Segment:
             return self.direct
 
     def mpv_args(self):
-        base_url = 'https://blackufa.thedrhax.pw'
-        res = f'--sub-file={base_url}/chats/v{self.twitch}.ass '
+        res = f'--sub-file={self.stream.subtitles} '
         offset = Timecode(0)
         if self.offset:
             offset = Timecode(self.offset)
@@ -406,7 +410,7 @@ class Stream(SortedKeyList):
     @property
     @cached('duration-twitch-{0[0].twitch}')
     def _duration(self):
-        line = last_line(_(f'chats/v{self.twitch}.ass'))
+        line = last_line(self.subtitles_path)
         if line is not None:
             return int(Timecode(line.split(' ')[2].split('.')[0]))
 
@@ -426,9 +430,21 @@ class Stream(SortedKeyList):
         return datetime.fromtimestamp(self._unix_time)
 
     @property
+    def subtitles(self):
+        year = str(self.date.year)
+        if year not in config['repos']['chats']:
+            raise Exception(f'Repository for year {year} is not configured')
+        prefix = config['repos']['chats'][year]['prefix']
+        return f'{prefix}/v{self.twitch}.ass'
+
+    @property
+    def subtitles_path(self):
+        return _(f'chats/{self.date.year}/v{self.twitch}.ass')
+
+    @property
     @cached('messages-{0[0].twitch}')
     def _messages(self):
-        lines = count_lines(_(f'chats/v{self.twitch}.ass'))
+        lines = count_lines(_(self.subtitles_path))
         return (lines - 10) if lines else None
 
     @property

@@ -4,8 +4,12 @@ export PYTHON="python3"
 export VENV="_python"
 export PATH="$PWD/$VENV/bin:$PATH"
 export PREFIX="./_site"
-export PAGES_ORIGIN="origin/gh-pages"
-export PAGES_LOCAL="gh-pages"
+
+export GIT_REMOTE="origin"
+export MASTER_BRANCH_REMOTE="master"
+export PAGES_BRANCH_LOCAL="gh-pages"
+export PAGES_BRANCH_REMOTE="gh-pages"
+
 
 venv_setup() { # filename [force | silent]
     MD5_FILE="$VENV/$1.md5"
@@ -28,6 +32,22 @@ venv_setup() { # filename [force | silent]
     md5sum "$1" > "$MD5_FILE"
 }
 
+new_worktree() { # prefix ref branch [force]
+    if [ "_$4" = '_force' ] || [ ! -e "$1" ]; then
+        [ -e "$1" ] && rm -rf "$1"
+        git worktree prune
+        git worktree add "$1" "$2"
+    fi
+
+    (
+        cd "$1"
+        git checkout -B "$3"
+        git clean -d -f
+        git reset --hard "$2"
+        git branch --set-upstream-to="$2" "$3"
+    )
+}
+
 if [ ! -d "$VENV" ] && [ "_$1" != "_venv" ]; then
     echo "Setting up the virtual environment: $VENV"
     venv_setup requirements.txt
@@ -47,39 +67,56 @@ case $1 in
     pages)
         case $2 in
             checkout)
-                if [ "_$3" = '_force' ] || [ ! -e "$PREFIX" ]; then
-                    rm -rf "$PREFIX"
-                    git worktree prune
-                    git worktree add "$PREFIX" "$PAGES_ORIGIN"
-                else
-                    (
-                        cd "$PREFIX"
-                        git clean -d -f
-                        git reset --hard "$PAGES_ORIGIN"
-                    )
-                fi ;;
-            diff)
-                (
-                    cd "$PREFIX"
-                    git diff
-                ) ;;
+                echo "Updating $PREFIX"
+                new_worktree "$PREFIX" "$GIT_REMOTE/$PAGES_BRANCH_REMOTE" "$PAGES_BRANCH_LOCAL" "$3"
+
+                [ ! -e "$PREFIX/chats" ] && mkdir -p "$PREFIX/chats"
+                jq -r '.repos.chats | keys | "\(.[])"' data/config.json | while read year; do
+                    remote=$(jq -r ".repos.chats[\"$year\"].remote" data/config.json)
+                    branch=$(jq -r ".repos.chats[\"$year\"].branch" data/config.json)
+
+                    echo "Updating $PREFIX/chats/$year"
+                    new_worktree "$PREFIX/chats/$year" "$remote/$branch" "$remote-$branch" "$3"
+                done ;;
             commit)
+                for worktree in $PREFIX $PREFIX/chats/*; do
                 (
-                    cd "$PREFIX"
-                    git branch -D "$PAGES_LOCAL" || true
-                    git checkout -b "$PAGES_LOCAL"
-                    git branch --set-upstream-to="$PAGES_ORIGIN" "$PAGES_LOCAL"
+                    cd "$worktree"
                     git add .
                     git commit -m "Jenkins: Обновление статичных файлов" || true
-                ) ;;
+                )
+                done ;;
             push)
+                for worktree in $PREFIX $PREFIX/chats/*; do
                 (
-                    cd "$PREFIX"
-                    git push origin "$PAGES_LOCAL"
-                ) ;;
-            *) echo "Usage: $0 $1 checkout|diff|commit|push" ;;
+                    cd "$worktree"
+                    git -c push.default=upstream push
+                )
+                done ;;
+            *) echo "Usage: $0 $1 checkout|commit|push" ;;
         esac ;;
-    pull) git pull --rebase && ./bsu pages checkout ;;
+    pull)
+        echo "Fetching updates for master"
+        git fetch $GIT_REMOTE $MASTER_BRANCH_REMOTE
+
+        echo "Updating master"
+        git pull --rebase $GIT_REMOTE $MASTER_BRANCH_REMOTE || exit 1
+
+        echo "Fetching updates for gh-pages"
+        git fetch $GIT_REMOTE $PAGES_BRANCH_REMOTE
+
+        echo "Registering additional remotes"
+        jq -r '.repos.remotes[] | "\(.name) \(.pull) \(.push)"' data/config.json | while read name pull push; do
+            git remote add "$name" "$pull" 2>/dev/null || git remote set-url "$name" "$pull"
+            git remote set-url --push "$name" "$push"
+        done
+
+        echo "Fetching updates for additional remotes"
+        jq -r '.repos.chats[] | "\(.remote) \(.branch)"' data/config.json | while read remote branch; do
+            git fetch "$remote" "$branch"
+        done
+
+        ./bsu pages checkout ;;
     build) $PYTHON -m templates.utils.generate ;;
     serve) $PYTHON -m templates.utils.serve ;;
     download-chats) $PYTHON -m templates.utils.chats ;;

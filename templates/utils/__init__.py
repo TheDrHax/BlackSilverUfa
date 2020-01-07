@@ -75,13 +75,19 @@ def count_lines(fp):
         return sum(1 for line in f)
 
 
-def dir_size(dir):
-    if not os.path.isdir(dir):
-        return 0
+def dir_size(path):
+    if not os.path.isdir(path):
+        return os.path.getsize(path)
 
-    return sum(os.path.getsize(dir + '/' + f)
-               for f in os.listdir(dir)
-               if os.path.isfile(dir + '/' + f))
+    total = 0
+
+    for f in os.listdir(path):
+        if os.path.isfile(f'{path}/{f}'):
+            total += os.path.getsize(f'{path}/{f}')
+        else:
+            total += dir_size(f'{path}/{f}')
+
+    return total
 
 
 def numword(num, word):

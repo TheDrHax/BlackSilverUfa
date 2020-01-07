@@ -74,7 +74,7 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
       </a>
     </span>
     <span class="badge badge-secondary">
-      <a href="../chats/v${segment.twitch}.ass">
+      <a href="${segment.subtitles}">
         <i class="fas fa-comments"></i> ${segment.stream.messages}
       </a>
     </span>
