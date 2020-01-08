@@ -708,6 +708,7 @@ var Redirect = {
     "528855659": "/links/unboxing.html#528855659",
     "530784764": "/links/alien-isolation-ai.html#530784764",
     "531327327": "/links/spore.html#531327327",
+    "532342982": "/links/co-op.html#532342982",
   },
 
   link: function (hash) {
@@ -1099,7 +1100,8 @@ var Search = {
       { name: "Persona 5", path: "/links/persona_5.html", year: 2017 },
     ],
     "co-op": [
-      { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2019 },
+      { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2020 },
+      { name: "Left 4 Dead 2", path: "/links/co-op.html#532342982", year: 2020 },
       { name: "Beyond Senses", path: "/links/co-op.html#527927154", year: 2019 },
       { name: "eXplosive Dinosaurs", path: "/links/co-op.html#527927154", year: 2019 },
       { name: "Titeuf", path: "/links/co-op.html#527927154", year: 2019 },
