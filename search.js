@@ -709,6 +709,7 @@ var Redirect = {
     "530784764": "/links/alien-isolation-ai.html#530784764",
     "531327327": "/links/spore.html#531327327",
     "532342982": "/links/co-op.html#532342982",
+    "532787117": "/links/life-is-strange-2.html#532787117",
   },
 
   link: function (hash) {
@@ -816,6 +817,7 @@ var Search = {
       { name: "God's Basement", path: "/links/single.html#323817086", year: 2018 },
       { name: "The Conjuring House (The Dark Occult)", path: "/links/conjuring-house.html", year: 2018 },
       { name: "The Works of Mercy", path: "/links/single.html#316219912", year: 2018 },
+      { name: "Life is Strange 2", path: "/links/life-is-strange-2.html", year: 2018 },
       { name: "Transference", path: "/links/single.html#312840878", year: 2018 },
       { name: "Shadow of the Tomb Raider", path: "/links/shadow-of-the-tomb-raider.html", year: 2018 },
       { name: "Marvel's Spider-Man", path: "/links/spider-man.html", year: 2018 },
@@ -1076,7 +1078,6 @@ var Search = {
       { name: "Just Cause 4", path: "/links/just-cause-4.html", year: 2018 },
       { name: "Red Dead Redemption 2", path: "/links/rdr2.html", year: 2018 },
       { name: "Visage", path: "/links/visage.html", year: 2018 },
-      { name: "Life is Strange 2", path: "/links/life-is-strange-2.html", year: 2018 },
       { name: "Super Seducer 2", path: "/links/super-seducer-2.html", year: 2018 },
       { name: "We Happy Few", path: "/links/we-happy-few.html", year: 2018 },
       { name: "CASE 2: Animatronics Survival", path: "/links/case-2.html", year: 2018 },
