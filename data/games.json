@@ -1946,7 +1946,7 @@
   },
   {
     "name": "Life is Strange 2",
-    "category": "ongoing",
+    "category": "finished",
     "id": "life-is-strange-2",
     "streams": [
       {
@@ -1956,7 +1956,8 @@
       {
         "name": "Episode 3", "twitch": "456859112",
         "note": "Второй эпизод доступен на <a href=\"https://youtu.be/X84LY_NZdFw\">YouTube</a>."
-      }
+      },
+      { "name": "Episode 4 / Episode 5", "twitch": "532787117" }
     ]
   },
   {
