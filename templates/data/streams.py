@@ -444,7 +444,7 @@ class Stream(SortedKeyList):
     @property
     @cached('messages-{0[0].twitch}')
     def _messages(self):
-        lines = count_lines(_(self.subtitles_path))
+        lines = count_lines(self.subtitles_path)
         return (lines - 10) if lines else None
 
     @property
