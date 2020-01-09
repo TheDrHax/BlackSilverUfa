@@ -711,6 +711,7 @@ var Redirect = {
     "531327327.1": "/links/first.html#531327327.1",
     "532342982": "/links/co-op.html#532342982",
     "532787117": "/links/life-is-strange-2.html#532787117",
+    "533269694": "/links/first.html#533269694",
   },
 
   link: function (hash) {
@@ -871,6 +872,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
+      { name: "Grand Theft Auto: San Andreas", path: "/links/first.html#533269694", year: 2020 },
       { name: "The Sims 4", path: "/links/first.html#531327327.1", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
       { name: "Granny: Chapter Two", path: "/links/first.html#530784764", year: 2020 },
