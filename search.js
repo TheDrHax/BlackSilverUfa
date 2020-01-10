@@ -711,7 +711,8 @@ var Redirect = {
     "531327327.1": "/links/first.html#531327327.1",
     "532342982": "/links/co-op.html#532342982",
     "532787117": "/links/life-is-strange-2.html#532787117",
-    "533269694": "/links/first.html#533269694",
+    "533269694": "/links/gta-san-andreas.html#533269694",
+    "533755753": "/links/gta-san-andreas.html#533755753",
   },
 
   link: function (hash) {
@@ -872,7 +873,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
-      { name: "Grand Theft Auto: San Andreas", path: "/links/first.html#533269694", year: 2020 },
       { name: "The Sims 4", path: "/links/first.html#531327327.1", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
       { name: "Granny: Chapter Two", path: "/links/first.html#530784764", year: 2020 },
@@ -1042,6 +1042,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Grand Theft Auto: San Andreas", path: "/links/gta-san-andreas.html", year: 2020 },
       { name: "Spore", path: "/links/spore.html", year: 2019 },
     ],
     "infinite": [
