@@ -225,7 +225,16 @@ class Segment:
         keys = ['youtube', 'direct', 'offset', 'official', 'start', 'end']
         multiline_keys = ['note']
 
-        multiline = True in [getattr(self, key) is not None
+        def get_attr(key):
+            if key in self.fallbacks:
+                if hasattr(self, f'_fallback_{key}'):
+                    return getattr(self, f'_fallback_{key}')
+                else:
+                    return None
+            else:
+                return getattr(self, key)
+
+        multiline = True in [get_attr(key) is not None
                              for key in multiline_keys]
 
         yield '{'
@@ -233,28 +242,30 @@ class Segment:
 
         first = True
         for key in keys:
-            if getattr(self, key) is None:
-                continue
+            value = get_attr(key)
 
-            if key in ['direct', 'torrent', 'offset']:
-                if key in self.fallbacks:
-                    continue
+            if value is None:
+                continue
 
             if not first:
                 yield ', '
             else:
                 first = False
 
-            yield f'"{key}": {json_escape(getattr(self, key))}'
+            yield f'"{key}": {json_escape(value)}'
 
         for key in multiline_keys:
-            if getattr(self, key):
-                if not first:
-                    yield ',\n  '
-                else:
-                    first = False
+            value = get_attr(key)
 
-                yield f'"{key}": {json_escape(getattr(self, key))}'
+            if value is None:
+                continue
+
+            if not first:
+                yield ',\n  '
+            else:
+                first = False
+
+            yield f'"{key}": {json_escape(value)}'
 
         yield '\n' if multiline else ' '
         yield '}'
@@ -506,7 +517,7 @@ class Streams(dict):
                     for segment in stream:
                         if not segment.playable:
                             segment.direct = url
-                            segment._offset = segment.offset
+                            segment._fallback_offset = segment.offset
                             segment.offset = None
                             segment.fallbacks.add('direct')
                             segment.fallbacks.add('offset')
