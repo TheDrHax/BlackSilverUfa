@@ -15,7 +15,7 @@ function debounce(func, wait, immediate) {
 };
 
 function get_timecodes(id) {
-  return document.querySelectorAll('.timecode[data-id="' + id + '"]');
+  return document.querySelectorAll('.timecodes[data-id="' + id + '"] a[data-value]');
 }
 
 function spawnPlayer(wrapper, callback) {
@@ -221,8 +221,13 @@ window.addEventListener('DOMContentLoaded', function() {
 
     // Activate timecode links
     var timecodes = get_timecodes(wrapper.dataset.id);
-    var timecode_onclick = function() { wrapper.seek(Number(this.dataset.value)); };
-    timecodes.forEach(function(el) { el.onclick = timecode_onclick; });
+    var timecode_onclick = function() {
+      wrapper.seek(Number(this.dataset.value));
+    };
+    timecodes.forEach(function(el) {
+      el.onclick = timecode_onclick;
+      el.href = 'javascript:void(0)';
+    });
 
     if (hash) {
       let id = hash[0];
