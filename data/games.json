@@ -436,7 +436,8 @@
       { "name": "1", "twitch": "283350700" },
       { "name": "2", "twitch": "286171438", "segment": 0 },
       { "name": "3", "twitch": "292591348", "start": "35:59" },
-      { "name": "4", "twitch": "295485781" }
+      { "name": "4", "twitch": "295485781" },
+      { "name": "5", "twitch": "533755753", "start": "2:10:08" }
     ]
   },
   {
@@ -1259,8 +1260,7 @@
       { "name": "Trepang2 (демо) / The Paperman", "twitch": "524865260" },
       { "name": "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", "twitch": "526101430" },
       { "name": "Zombie Claus / Granny: Chapter Two", "twitch": "530784764", "start": "3:59:51" },
-      { "name": "The Sims 4", "twitch": "531327327", "segment": 1 },
-      { "name": "Grand Theft Auto: San Andreas", "twitch": "533269694" }
+      { "name": "The Sims 4", "twitch": "531327327", "segment": 1 }
     ]
   },
   {
@@ -1324,6 +1324,15 @@
       { "name": "1", "twitch": "516941489" },
       { "name": "2", "twitch": "517802976" },
       { "name": "3", "twitch": "520025510", "segment": 1 }
+    ]
+  },
+  {
+    "name": "Grand Theft Auto: San Andreas",
+    "category": "ongoing",
+    "id": "gta-san-andreas",
+    "streams": [
+      { "name": "1", "twitch": "533269694" },
+      { "name": "2", "twitch": "533755753" }
     ]
   },
   {
