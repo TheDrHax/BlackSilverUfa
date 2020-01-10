@@ -21,35 +21,35 @@
 </%block>
 
 <%block name="content">
-<%def name="timecode_link(id, t)">\
+<%def name="timecode_link(t)">\
 % if t.duration:
 <%
     duration = t.duration
     t = Timecode(t)
     t.duration = None
 %>\
-${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
+${timecode_link(t)} - ${timecode_link(t + duration)}\
 % else:
-<a href="javascript:void(0)" class="timecode" data-id="${id}" data-value="${int(t)}">${str(t)}</a>\
+<a data-value="${int(t)}">${str(t)}</a>\
 % endif
 </%def>
 
-<%def name="timecode_list(id, timecodes, text='Таймкоды')">\
+<%def name="timecode_list(timecodes, text='Таймкоды')">\
 % if len(timecodes) > 0:
   <li>${text}:</li>
   <ul>
   % for t in timecodes:
     % if isinstance(t, Timecodes) and not t.is_list:
-    ${timecode_list(id, t, text=t.name)}
+    ${timecode_list(t, text=t.name)}
     % elif isinstance(t, Timecodes) and t.is_list:
     <li>
       % for i, t1 in enumerate(t):
-      ${timecode_link(id, t1)}${',' if i != len(t) - 1 else ''}
+      ${timecode_link(t1)}${',' if i != len(t) - 1 else ''}
       % endfor
       — ${t.name}
     </li>
     % else:
-    <li>${timecode_link(id, t)} — ${t.name}</li>
+    <li>${timecode_link(t)} — ${t.name}</li>
     % endif
   % endfor
   </ul>
@@ -116,7 +116,9 @@ ${timecode_link(id, t)} - ${timecode_link(id, t + duration)}\
   </ul>
 % endif
 % if segment.timecodes:
-  ${timecode_list(id, segment.timecodes)}
+  <div class="timecodes" data-id="${id}">
+  ${timecode_list(segment.timecodes)}
+  </div>
 % endif
 </ul>
 
