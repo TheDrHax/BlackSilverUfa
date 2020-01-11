@@ -69,7 +69,7 @@ def convert_line(line):
 
     # Unpack / Repack emotes
     text = unpack_emotes(text)
-    text = Message.group(text, group_format='{emote} x⁣{count}')
+    text = Message.group(text, format='{emote} x⁣{count}', collocations=10)
     msg_split[9] = f'{username}: {text}'
 
     # Convert message durations
@@ -97,8 +97,13 @@ def convert_file(input_file):
     os.rename(input_file + '.tmp', input_file)
 
 
+def chats():
+        for year in os.listdir('./_site/chats'):
+            for chat in os.listdir(f'./_site/chats/{year}'):
+                yield f'./_site/chats/{year}/{chat}'
+
+
 if __name__ == '__main__':
     p = Pool(8)
-    l = map(lambda x: './_site/chats/' + x, os.listdir('./_site/chats/'))
-    p.map(convert_file, l)
+    p.map(convert_file, chats())
     p.close()
