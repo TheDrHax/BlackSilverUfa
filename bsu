@@ -41,10 +41,10 @@ new_worktree() { # prefix ref branch [force]
 
     (
         cd "$1"
-        git checkout -B "$3"
-        git clean -d -f
-        git reset --hard "$2"
-        git branch --set-upstream-to="$2" "$3"
+        git reset -q --hard "$2"
+        git clean -q -d -f
+        git checkout -q -B "$3"
+        git branch -q --set-upstream-to="$2" "$3"
     )
 }
 
@@ -66,6 +66,21 @@ case $1 in
         esac ;;
     pages)
         case $2 in
+            pull)
+                echo "Fetching updates for $GIT_REMOTE/$PAGES_BRANCH_REMOTE"
+                git fetch -q "$GIT_REMOTE" "$PAGES_BRANCH_REMOTE"
+
+                jq -r '.repos.remotes[] | "\(.name) \(.pull) \(.push)"' data/config.json | while read name pull push; do
+                    git remote add "$name" "$pull" 2>/dev/null || git remote set-url "$name" "$pull"
+                    git remote set-url --push "$name" "$push"
+                done
+
+                jq -r '.repos.chats[] | "\(.remote) \(.branch)"' data/config.json | while read remote branch; do
+                    echo "Fetching updates for $remote/$branch"
+                    git fetch -q "$remote" "$branch"
+                done
+
+                ./bsu pages checkout ;;
             checkout)
                 echo "Updating $PREFIX"
                 new_worktree "$PREFIX" "$GIT_REMOTE/$PAGES_BRANCH_REMOTE" "$PAGES_BRANCH_LOCAL" "$3"
@@ -93,31 +108,21 @@ case $1 in
                     git -c push.default=upstream push
                 )
                 done ;;
-            fetch)
-                echo "Fetching updates for gh-pages"
-                git fetch $GIT_REMOTE $PAGES_BRANCH_REMOTE ;;
-            pull)
-                echo "Registering additional remotes"
-                jq -r '.repos.remotes[] | "\(.name) \(.pull) \(.push)"' data/config.json | while read name pull push; do
-                    git remote add "$name" "$pull" 2>/dev/null || git remote set-url "$name" "$pull"
-                    git remote set-url --push "$name" "$push"
-                done
-
-                echo "Fetching updates for additional remotes"
-                jq -r '.repos.chats[] | "\(.remote) \(.branch)"' data/config.json | while read remote branch; do
-                    git fetch "$remote" "$branch"
-                done
-
-                ./bsu pages checkout ;;
-            update)
-                ./bsu pages fetch
-                ./bsu pages pull ;;
-            *) echo "Usage: $0 $1 checkout|commit|push|fetch|pull|update" ;;
+            *) echo "Usage: $0 $1 checkout|commit|pull|push" ;;
         esac ;;
+    pull)
+        if [ "$(git status --porcelain=v1 | wc -l)" -eq 0 ]; then
+            echo "Updating ./"
+            git pull -q --rebase "$GIT_REMOTE" "$MASTER_BRANCH_REMOTE"
+        else
+            echo "Not updating master due to uncommitted changes"
+        fi
+
+        ./bsu pages pull ;;
     build) $PYTHON -m templates.utils.generate ;;
     serve) $PYTHON -m templates.utils.serve ;;
     download-chats) $PYTHON -m templates.utils.chats ;;
-    sh) $@ ;;
+    sh|bash) $@ ;;
     cli)
         shift
         venv_setup cli-requirements.txt silent
@@ -125,5 +130,5 @@ case $1 in
     repl) $PYTHON -i -m templates.utils.repl ;;
     script) shift; $PYTHON -m templates.scripts.$@ ;;
     python) shift; $PYTHON $@ ;;
-    *) echo "Usage: $0 venv|pages|build|serve|download-chats|sh|repl|script|python" ;;
+    *) echo "Usage: $0 venv|pages|pull|build|serve|download-chats|sh|repl|script|python" ;;
 esac
