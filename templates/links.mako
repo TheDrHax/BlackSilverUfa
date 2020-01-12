@@ -111,7 +111,7 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
   <li>Связанные игры:</li>
   <ul>
     % for game_ref, segment_ref in related:
-    <li><%el:game_link game="${game_ref}" /> — <%el:stream_link game="${game_ref}" stream="${segment_ref}" /></li>
+    <li><a href="${game_ref.filename}">${game_ref.name}</a> — <a href="${game_ref.filename}#${segment_ref.hash}">${segment_ref.name}</a></li>
     % endfor
   </ul>
 % endif
