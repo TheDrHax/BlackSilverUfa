@@ -3,6 +3,7 @@
   cli [options] segment add <stream> --youtube <id> [--offset <t>] [--end <t>]
   cli [options] segment add <stream> --end <t> [--offset <t>]
   cli [options] segment match --youtube <id> [--all] [--directory <path>]
+  cli [options] segment cuts <stream> [<segment>] [--directory <path>] [--youtube <id>]
 
 Commands:
   segment
@@ -11,6 +12,8 @@ Commands:
     update      Update specified fields of existing segment.
     add         Create a new segment with known stream ID and offset.
     match       Try to find matching stream and offset of provided video.
+    cuts        Try to detect cuts in YouTube video by comparing it to the
+                fallback source.
 
 Options:
   --dry-run           Do not change anything, just print the result.
@@ -120,43 +123,50 @@ def cmd_add(stream, segment_kwargs):
 
     return segment
 
-def cmd_match(segment_kwargs, directory=None, match_all=False):
-    def original(segment):
-        if directory:
-            filename = f'{directory}{os.path.sep}{segment.twitch}.mp4'
-        else:
-            filename = None
 
-        if filename and os.path.exists(filename):
-            return filename
+def original_video(segment, directory=None):
+    if directory:
+        filename = f'{directory}{os.path.sep}{segment.twitch}.mp4'
+    else:
+        filename = None
 
-        if segment.direct and not segment.offset:
-            return segment.direct
+    if filename and os.path.exists(filename):
+        return filename
 
-        return None
+    if segment.direct and not segment.offset:
+        return segment.direct
 
-    def can_match(segment):
-        if segment.youtube and segment.official != False and not match_all:
-            return False
-        
-        if segment.official == False and segment_kwargs['official'] == False:
-            return False
+    return None
 
-        return original(segment) is not None
 
+def can_match(segment, segment_kwargs, directory=None):
+    if segment.youtube and segment.official != False and not match_all:
+        return False
+    
+    if segment.official == False and segment_kwargs.get('official') == False:
+        return False
+
+    return original_video(segment, directory) is not None
+
+
+def ytdl_video(video_id):
     try:
         print(f'Preparing template...', file=sys.stderr)
-        youtube_source = ytdl_best_source(segment_kwargs['youtube'])
+        youtube_source = ytdl_best_source(video_id)
         video = Clip(youtube_source, ar=1000)
-        template = video.slice(300, 300)[0]
     except:
         print(f'Falling back to bestaudio...', file=sys.stderr)
-        youtube_source = ytdl_best_source(segment_kwargs['youtube'], 'bestaudio')
+        youtube_source = ytdl_best_source(video_id, 'bestaudio')
         video = Clip(youtube_source, ar=1000)
-        template = video.slice(300, 300)[0]
+    return video
+
+
+def cmd_match(segment_kwargs, directory=None, match_all=False):
+    video = ytdl_video(segment_kwargs['youtube'])
+    template = video.slice(300, 300)[0]
 
     candidates = sorted(
-        [s for s in streams.segments if can_match(s)],
+        [s for s in streams.segments if can_match(s, segment_kwargs, directory)],
         key=lambda s: abs(int(s.abs_end - s.abs_start) - video.duration)
     )
 
@@ -164,7 +174,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
     video_offset = None
 
     for segment in candidates:
-        path = original(segment)
+        path = original_video(segment, directory)
         print(f'Checking segment {segment.hash} (path: {path})',
               file=sys.stderr)
 
@@ -173,8 +183,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
                 template, Clip(path, ar=1000),
                 start=int(segment.abs_start),
                 end=int(segment.abs_end) - video.duration + 10 * 60,
-                min_score=10
-            )
+                min_score=10)
         except Exception:
             continue
 
@@ -192,6 +201,32 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
     segment_kwargs['offset'] = video_offset
     segment = cmd_add(matching_stream, segment_kwargs)
     return matching_stream, segment
+
+
+def cmd_cuts(segment, segment_kwargs, directory=None):
+    video_id = segment_kwargs.get('youtube') or segment.youtube
+
+    if not video_id:
+        raise Exception('only youtube segments are supported')
+
+    original = Clip(original_video(segment, directory), ar=1000)
+    video = ytdl_video(video_id)
+    template = video.slice(video.duration - 600, 300)[0]
+
+    offset, score = find_offset(
+        template, original,
+        start=Timecode(segment.offset).value,
+        end=Timecode(segment.offset).value + int(video.duration),
+        reverse=True,
+        min_score=10)
+
+    diff = offset - (video.duration - 600) - Timecode(segment.offset).value
+
+    if diff < 2:
+        print('The video is the same as the original')
+    else:
+        print(f'The video is {int(diff)} seconds shorter than the original')
+        sys.exit(1)
 
 
 def ytdl_best_source(video_id, quality='best'):
@@ -254,6 +289,10 @@ def main(argv=None):
             stream, segment = cmd_match(segment_kwargs,
                                         directory=args['--directory'],
                                         match_all=args['--all'])
+
+        if args['cuts']:
+            cmd_cuts(segment, segment_kwargs, directory=args['--directory'])
+            return
 
         if args['add'] or args['match']:
             if len(stream) == 1:
