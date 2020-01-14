@@ -139,7 +139,7 @@ def original_video(segment, directory=None):
     return None
 
 
-def can_match(segment, segment_kwargs, directory=None):
+def can_match(segment, segment_kwargs, directory=None, match_all=False):
     if segment.youtube and segment.official != False and not match_all:
         return False
     
@@ -166,7 +166,9 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
     template = video.slice(300, 300)[0]
 
     candidates = sorted(
-        [s for s in streams.segments if can_match(s, segment_kwargs, directory)],
+        [s
+         for s in streams.segments
+         if can_match(s, segment_kwargs, directory, match_all)],
         key=lambda s: abs(int(s.abs_end - s.abs_start) - video.duration)
     )
 
