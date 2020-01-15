@@ -1,9 +1,8 @@
 """Usage:
-  cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id>] [--offset <t>]
-  cli [options] segment add <stream> --youtube <id> [--offset <t>] [--end <t>]
-  cli [options] segment add <stream> --end <t> [--offset <t>]
-  cli [options] segment match --youtube <id> [--all] [--directory <path>]
-  cli [options] segment cuts <stream> [<segment>] [--directory <path>] [--youtube <id>]
+  cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id> | --direct <url>] [--offset <t>]
+  cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--end <t>]
+  cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>]
+  cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --direct <url>) [--directory <path>]
 
 Commands:
   segment
@@ -21,9 +20,12 @@ Options:
                       data/{games,streams}.json will be committed.
                       WARNING: Repository index will not be cleared!
 
-Segment options:
+Video sources:
   --youtube <id>      ID of YouTube video that can be used as a source for
                       this segment. Warning: full URLs are not supported!
+  --direct <url>      URL or path of the video.
+
+Segment options:
   --offset <t>        Offset of this segment relative to the start of
                       original stream. [default: 0]
   --end <t>           Forced absolute timecode of segment's ending.
@@ -162,7 +164,11 @@ def ytdl_video(video_id):
 
 
 def cmd_match(segment_kwargs, directory=None, match_all=False):
-    video = ytdl_video(segment_kwargs['youtube'])
+    if 'youtube' in segment_kwargs:
+        video = ytdl_video(segment_kwargs['youtube'])
+    elif 'direct' in segment_kwargs:
+        video = Clip(segment_kwargs['direct'], ar=1000)
+
     template = video.slice(300, 300)[0]
 
     candidates = sorted(
@@ -206,13 +212,12 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
 
 
 def cmd_cuts(segment, segment_kwargs, directory=None):
-    video_id = segment_kwargs.get('youtube') or segment.youtube
-
-    if not video_id:
-        raise Exception('only youtube segments are supported')
+    if 'youtube' in segment_kwargs:
+        video = ytdl_video(segment_kwargs['youtube'])
+    elif 'direct' in segment_kwargs:
+        video = Clip(segment_kwargs['direct'], ar=1000)
 
     original = Clip(original_video(segment, directory), ar=1000)
-    video = ytdl_video(video_id)
     template = video.slice(video.duration - 600, 300)[0]
 
     offset, score = find_offset(
@@ -265,6 +270,7 @@ def main(argv=None):
 
         # Parse segment options
         options = (('youtube', str, 'youtube'),
+                   ('direct', str, 'direct'),
                    ('offset', Timecode, 'offset'),
                    ('end', Timecode, 'end'),
                    ('unofficial', lambda x: False if x else None, 'official'))
