@@ -1261,8 +1261,16 @@
       { "name": "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", "twitch": "526101430" },
       { "name": "Zombie Claus / Granny: Chapter Two", "twitch": "530784764", "start": "3:59:51" },
       { "name": "The Sims 4", "twitch": "531327327", "segment": 1 },
-      { "name": "Gears of War 4", "twitch": "535873254" },
-      { "name": "Dead Space", "twitch": "536349138" }
+      { "name": "Gears of War 4", "twitch": "535873254" }
+    ]
+  },
+  {
+    "name": "Dead Space",
+    "category": "ongoing",
+    "id": "dead-space",
+    "streams": [
+      { "name": "1", "twitch": "536349138" },
+      { "name": "2", "twitch": "537340056" }
     ]
   },
   {
