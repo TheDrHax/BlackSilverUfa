@@ -712,6 +712,8 @@ var Redirect = {
     "532342982": "/links/co-op.html#532342982",
     "532787117": "/links/life-is-strange-2.html#532787117",
     "533269694": "/links/gta-san-andreas.html#533269694",
+    "533269694.1": "/links/gta-san-andreas.html#533269694.1",
+    "533269694.2": "/links/gta-san-andreas.html#533269694.2",
     "533755753": "/links/gta-san-andreas.html#533755753",
     "534301966": "/links/gta-san-andreas.html#534301966",
     "534316789": "/links/gta-san-andreas.html#534316789",
