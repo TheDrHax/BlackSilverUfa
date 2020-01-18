@@ -987,7 +987,11 @@
   ],
   "532342982": { "youtube": "P9H7zaD1juw" },
   "532787117": { "youtube": "7BwEYyVi1YU" },
-  "533269694": { "youtube": "g3pJbHFxP7g", "offset": "-0:08" },
+  "533269694": [
+    { "youtube": "g3pJbHFxP7g", "offset": "-0:08", "end": "3:32:05" },
+    { "youtube": "g3pJbHFxP7g", "offset": "1:58", "start": "3:34:04", "end": "4:57:07" },
+    { "youtube": "g3pJbHFxP7g", "offset": "2:12", "start": "4:55:09" }
+  ],
   "533755753": { "youtube": "AN7xJO44nxM" },
   "534301966": { "youtube": "sm91IRWhzmY", "official": false },
   "534316789": { "youtube": "aabCy5s0q1M", "official": false },
