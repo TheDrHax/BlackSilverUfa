@@ -655,12 +655,8 @@
   "398843130": { "youtube": "qaITO_iwUF0" },
   "399315002": { "youtube": "JrDYIlmwo2g" },
   "399850727": [
-    {
-      "youtube": "IHc2XRynEQs", "end": "13:23",
-      "note": "Стрим разделён на три сегмента, так как из записи был вырезан фрагмент 13:23-1:03:17."
-    },
-    { "youtube": "XbzAt8-b9RU", "offset": "13:23", "official": false },
-    { "youtube": "IHc2XRynEQs", "offset": "49:54", "start": "1:03:17", "force_start": true }
+    { "youtube": "IHc2XRynEQs", "cuts": ["13:23~1:03:17"] },
+    { "youtube": "XbzAt8-b9RU", "offset": "13:23", "official": false }
   ],
   "400422352": [
     { "youtube": "LkjKrxeUjbo", "end": "6:28:48" },
@@ -781,13 +777,7 @@
   "440294828": { "youtube": "RvEaPMvtvAE" },
   "440765344": { "youtube": "oA20eqJRTUw" },
   "442171113": { "youtube": "R7aeAZUkaZo", "official": false },
-  "442647463": [
-    {
-      "youtube": "7KFKZTMmhmY", "end": "1:01:30",
-      "note": "На запись не попал фрагмент 1:01:30-1:01:50, поэтому она разбита на две части."
-    },
-    { "youtube": "7KFKZTMmhmY", "offset": "0:20", "start": "1:01:50", "force_start": true }
-  ],
+  "442647463": { "youtube": "7KFKZTMmhmY", "cuts": ["1:01:30~1:01:50"] },
   "443118072": { "youtube": "dH2BbOVhOi4" },
   "444021917": { "youtube": "5wEM9XJIHGI" },
   "444061926": { "youtube": "4R8p28KHAlU" },
@@ -981,24 +971,14 @@
   "528406911": { "youtube": "J7r3In6EKk4" },
   "528855659": { "youtube": "bUvub6AtVcc" },
   "530784764": { "youtube": "mgK_Gc33JQw" },
-  "531327327": [
-    { "youtube": "HbZaYnkfzjw", "end": "1:47:56" },
-    { "youtube": "HbZaYnkfzjw", "offset": "3:10", "start": "1:51:06", "force_start": true }
-  ],
+  "531327327": { "youtube": "HbZaYnkfzjw", "cuts": ["1:47:56~1:51:06"] },
   "532342982": { "youtube": "P9H7zaD1juw" },
   "532787117": { "youtube": "7BwEYyVi1YU" },
-  "533269694": [
-    { "youtube": "g3pJbHFxP7g", "offset": "-0:08", "end": "3:31:58" },
-    { "youtube": "g3pJbHFxP7g", "offset": "1:58", "start": "3:34:04", "end": "4:57:07", "force_start": true },
-    { "youtube": "g3pJbHFxP7g", "offset": "2:12", "start": "4:57:21", "force_start": true }
-  ],
+  "533269694": { "youtube": "g3pJbHFxP7g", "offset": "-0:08", "cuts": ["3:31:58~3:34:04", "4:57:07~4:57:21"] },
   "533755753": { "youtube": "AN7xJO44nxM" },
   "534301966": { "youtube": "yky_-3I336M" },
   "534316789": { "youtube": "q84PIs7GKes" },
-  "535374681": [
-    { "youtube": "72dFs18VRzo", "end": "2:50:04" },
-    { "youtube": "72dFs18VRzo", "offset": "0:10", "start": "2:50:14", "force_start": true }
-  ],
+  "535374681": { "youtube": "72dFs18VRzo", "cuts": ["2:50:04~2:50:14"] },
   "535873254": { "youtube": "lPiTS74Qw54" },
   "536349138": { "youtube": "kUR7ZUNoudg" },
   "537340056": { "youtube": "iGIMaIchmJ8" },
