@@ -722,6 +722,7 @@ var Redirect = {
     "535873254": "/links/first.html#535873254",
     "536349138": "/links/dead-space.html#536349138",
     "537340056": "/links/dead-space.html#537340056",
+    "538458255": "/links/gta-san-andreas.html#538458255",
   },
 
   link: function (hash) {
@@ -1211,7 +1212,7 @@ var Search = {
       { name: "Bigfoot", path: "/links/bigfoot.html", year: 2018 },
       { name: "Escape From Tarkov", path: "/links/tarkov.html", year: 2018 },
       { name: "Worms W.M.D", path: "/links/worms-wmd.html", year: 2018 },
-      { name: "Grand Theft Auto V: Crazy LS", path: "/links/crazy-ls.html", year: 2018 },
+      { name: "Grand Theft Auto Online: Crazy LS", path: "/links/crazy-ls.html", year: 2018 },
       { name: "Tricky Towers", path: "/links/tricky-towers.html", year: 2018 },
       { name: "Mount Your Friends 3D", path: "/links/mount-your-friends-3d.html", year: 2018 },
       { name: "Realm Royale", path: "/links/realm-royale.html", year: 2018 },
