@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import json
 from git import Repo
 from requests import Session
 from datetime import datetime
@@ -36,8 +37,31 @@ class Segment:
                     'note', 'name', 'force_start']:
             attr(key)
 
+        attr('cuts', func=Timecodes)
+        attr('virtual', default=False)
+
         self.stream = stream
         self.fallbacks = set()
+
+        if self.cuts:
+            self._fallback_end = self.end
+            self.fallbacks.add('end')
+            self.end = Timecode(self.cuts[0].value)
+
+            s = self
+            args = kwargs.copy()
+            del args['cuts']
+
+            for i, cut in enumerate(self.cuts):
+                args['offset'] = Timecode(s.offset) + cut.duration
+                args['start'] = (cut + cut.duration).value
+                args['force_start'] = True
+                args['virtual'] = True
+                if len(self.cuts) > i + 1:
+                    args['end'] = list(self.cuts)[i+1].value
+                elif 'end' in args:
+                    del args['end']
+                s = Segment(stream, **args)
 
     @property
     def stream(self) -> 'Stream':
@@ -226,7 +250,7 @@ class Segment:
 
     @join()
     def to_json(self):
-        keys = ['youtube', 'direct', 'offset', 'official',
+        keys = ['youtube', 'direct', 'offset', 'cuts', 'official',
                 'start', 'end', 'force_start']
         multiline_keys = ['note']
 
@@ -245,6 +269,15 @@ class Segment:
         yield '{'
         yield '\n  ' if multiline else ' '
 
+        def get_attr(key):
+            if key in self.fallbacks:
+                if hasattr(self, f'_fallback_{key}'):
+                    return getattr(self, f'_fallback_{key}')
+                else:
+                    return None
+            else:
+                return getattr(self, key)
+
         first = True
         for key in keys:
             value = get_attr(key)
@@ -257,7 +290,10 @@ class Segment:
             else:
                 first = False
 
-            yield f'"{key}": {json_escape(value)}'
+            if key == 'cuts':
+                yield f'"{key}": {json.dumps(self.cuts.to_list())}'
+            else:
+                yield f'"{key}": {json_escape(value)}'
 
         for key in multiline_keys:
             value = get_attr(key)
@@ -469,11 +505,16 @@ class Stream(SortedKeyList):
 
     @join()
     def to_json(self):
-        if len(self) > 1:
+        length = len([s for s in self if not s.virtual])
+
+        if length > 1:
             yield '[\n'
             
             first = True
             for segment in self:
+                if segment.virtual:
+                    continue
+
                 if not first:
                     yield ',\n'
                 else:

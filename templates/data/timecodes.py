@@ -190,7 +190,7 @@ class Timecodes(Timecode, SortedKeyList):
     #
 
     def __int__(self):
-        return abs(self[0].value)
+        return abs(self[0].value if len(self) > 0 else 0)
 
     @property
     def value(self):
