@@ -429,7 +429,7 @@
     ]
   },
   {
-    "name": "Grand Theft Auto V: Crazy LS",
+    "name": "Grand Theft Auto Online: Crazy LS",
     "category": "co-op-series",
     "id": "crazy-ls",
     "streams": [
@@ -437,7 +437,8 @@
       { "name": "2", "twitch": "286171438", "segment": 0 },
       { "name": "3", "twitch": "292591348", "start": "35:59" },
       { "name": "4", "twitch": "295485781" },
-      { "name": "5", "twitch": "533755753", "start": "2:10:08" }
+      { "name": "5", "twitch": "533755753", "start": "2:10:08" },
+      { "name": "6", "twitch": "538458255", "start": "2:21:06" }
     ]
   },
   {
@@ -1348,7 +1349,8 @@
       { "name": "3.1", "twitch": "534301966" },
       { "name": "3.2", "twitch": "534316789" },
       { "name": "4.1", "twitch": "535374681", "segment": 0 },
-      { "name": "4.2", "twitch": "535374681", "segment": 1 }
+      { "name": "4.2", "twitch": "535374681", "segment": 1 },
+      { "name": "5", "twitch": "538458255" }
     ]
   },
   {
