@@ -32,7 +32,8 @@ class Segment:
         for key in ['start', 'end', 'offset']:
             attr(key, func=lambda x: Timecode(x) if Timecode(x).value != 0 else None)
 
-        for key in ['youtube', 'direct', 'torrent', 'official', 'note', 'name']:
+        for key in ['youtube', 'direct', 'torrent', 'official',
+                    'note', 'name', 'force_start']:
             attr(key)
 
         self.stream = stream
@@ -132,6 +133,9 @@ class Segment:
 
         for key in ['name', 'twitch', 'youtube', 'direct']:
             add(key)
+        
+        if self.force_start:
+            add('force_start', lambda x: 'true' if x else 'false')
 
         if not self.playable:
             attrs.append('style="display: none"')
