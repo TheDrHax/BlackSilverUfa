@@ -226,7 +226,8 @@ class Segment:
 
     @join()
     def to_json(self):
-        keys = ['youtube', 'direct', 'offset', 'official', 'start', 'end']
+        keys = ['youtube', 'direct', 'offset', 'official',
+                'start', 'end', 'force_start']
         multiline_keys = ['note']
 
         def get_attr(key):
@@ -357,7 +358,7 @@ class SegmentReference(Segment):
 
     @join()
     def to_json(self):
-        keys = ['name', 'twitch', 'segment', 'start', 'end']
+        keys = ['name', 'twitch', 'segment', 'start', 'end', 'force_start']
         multiline_keys = ['note']
 
         def inherited(key):
