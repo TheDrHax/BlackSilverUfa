@@ -1,7 +1,7 @@
 """Usage:
   cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id> | --direct <url>] [--offset <t>]
   cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--end <t>]
-  cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>]
+  cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>] [--fail-if-cut]
   cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --direct <url>) [--directory <path>]
 
 Commands:
@@ -38,6 +38,11 @@ Segment matching options:
                       faster matching of streams. Directory must contain
                       original stream recordings. Expected filename format
                       is '{twitch_id}.mp4'.
+  --fail-if-cut       Stop if input video has an inconsistent offset. For
+                      example, if some parts in the middle of the video were
+                      removed, its ending will be closer to the beginning.
+                      Edited videos are not compatible with subtitles and
+                      timecodes, thus they shouldn't be used in this project.
 """
 
 
@@ -163,7 +168,7 @@ def ytdl_video(video_id):
     return video
 
 
-def cmd_match(segment_kwargs, directory=None, match_all=False):
+def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False):
     if 'youtube' in segment_kwargs:
         video = ytdl_video(segment_kwargs['youtube'])
     elif 'direct' in segment_kwargs:
@@ -178,6 +183,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
         key=lambda s: abs(int(s.abs_end - s.abs_start) - video.duration)
     )
 
+    original = None
     matching_stream = None
     video_offset = None
 
@@ -186,9 +192,11 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
         print(f'Checking segment {segment.hash} (path: {path})',
               file=sys.stderr)
 
+        original = Clip(path, ar=1000)
+
         try:
             offset, score = find_offset(
-                template, Clip(path, ar=1000),
+                template, original,
                 start=int(segment.abs_start),
                 end=int(segment.abs_end) - video.duration + 10 * 60,
                 min_score=10)
@@ -203,12 +211,34 @@ def cmd_match(segment_kwargs, directory=None, match_all=False):
             break
 
     if matching_stream is None:
-        print('Video does not match any streams', file=sys.stderr)
+        print('Error: Video does not match any streams', file=sys.stderr)
         sys.exit(2)
 
     segment_kwargs['offset'] = video_offset
+
+    if fail_if_cut:
+        print('Checking for cuts...')
+        diff = check_cuts(original, video, offset=video_offset.value)
+        if diff > 1:
+            print(f'Error: The video is {int(diff)} seconds shorter '
+                   'than the original.', file=sys.stderr)
+            sys.exit(3)
+
     segment = cmd_add(matching_stream, segment_kwargs)
     return matching_stream, segment
+
+
+def check_cuts(original_video, input_video, offset=0):
+    template = input_video.slice(input_video.duration - 600, 300)[0]
+
+    new_offset, _ = find_offset(
+        template, original_video,
+        start=offset,
+        end=offset + int(input_video.duration),
+        reverse=True,
+        min_score=10)
+
+    return new_offset - (input_video.duration - 600) - offset
 
 
 def cmd_cuts(segment, segment_kwargs, directory=None):
@@ -218,18 +248,9 @@ def cmd_cuts(segment, segment_kwargs, directory=None):
         video = Clip(segment_kwargs['direct'], ar=1000)
 
     original = Clip(original_video(segment, directory), ar=1000)
-    template = video.slice(video.duration - 600, 300)[0]
+    diff = check_cuts(original, video, offset=Timecode(segment.offset).value)
 
-    offset, score = find_offset(
-        template, original,
-        start=Timecode(segment.offset).value,
-        end=Timecode(segment.offset).value + int(video.duration),
-        reverse=True,
-        min_score=10)
-
-    diff = offset - (video.duration - 600) - Timecode(segment.offset).value
-
-    if diff < 2:
+    if diff <= 1:
         print('The video is the same as the original')
     else:
         print(f'The video is {int(diff)} seconds shorter than the original')
@@ -296,7 +317,8 @@ def main(argv=None):
         if args['match']:
             stream, segment = cmd_match(segment_kwargs,
                                         directory=args['--directory'],
-                                        match_all=args['--all'])
+                                        match_all=args['--all'],
+                                        fail_if_cut=args['--fail-if-cut'])
 
         if args['cuts']:
             cmd_cuts(segment, segment_kwargs, directory=args['--directory'])
