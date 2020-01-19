@@ -44,6 +44,8 @@ function spawnPlyr(wrapper, callback) {
   // Force enable click and hover events on PCs with touchscreen
   player.touch = false;
 
+  const force_start = Boolean(wrapper.dataset.force_start);
+
   player.on('timeupdate', function(event) {
     // Stop player when video exceeds overriden duration
     if (wrapper.dataset.end) {
@@ -58,7 +60,10 @@ function spawnPlyr(wrapper, callback) {
 
       if (player.currentTime != NaN && player.currentTime < start) {
         player.currentTime = start;
-        wrapper.dataset.start = false; // Seek to the start only one time
+
+        if (!force_start) {
+          wrapper.dataset.start = false; // Seek to the start only one time
+        }
       }
     }
 
