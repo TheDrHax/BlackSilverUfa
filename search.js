@@ -724,6 +724,7 @@ var Redirect = {
     "537340056": "/links/dead-space.html#537340056",
     "538458255": "/links/gta-san-andreas.html#538458255",
     "542106142": "/links/gta-san-andreas.html#542106142",
+    "542613780": "/links/dead-space.html#542613780",
   },
 
   link: function (hash) {
@@ -763,6 +764,7 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Dead Space", path: "/links/dead-space.html", year: 2020 },
       { name: "Alien: Isolation (Extreme + новый ИИ)", path: "/links/alien-isolation-ai.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
       { name: "Suite 776", path: "/links/single.html#524865260", year: 2019 },
@@ -1054,7 +1056,6 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
-      { name: "Dead Space", path: "/links/dead-space.html", year: 2020 },
       { name: "Grand Theft Auto: San Andreas", path: "/links/gta-san-andreas.html", year: 2020 },
       { name: "Spore", path: "/links/spore.html", year: 2019 },
     ],
