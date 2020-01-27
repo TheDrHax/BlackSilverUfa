@@ -3,6 +3,7 @@
   cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--end <t>]
   cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>] [--fail-if-cut]
   cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --direct <url>) [--directory <path>]
+  cli [options] copyright mute <stream> <input> <output>
 
 Commands:
   segment
@@ -13,6 +14,11 @@ Commands:
     match       Try to find matching stream and offset of provided video.
     cuts        Try to detect cuts in YouTube video by comparing it to the
                 fallback source.
+
+  copyright
+    mute        Uses ffmpeg to mute all copyrighted segments in the <input>
+                video. Time ranges must be listed in <stream>'s timecodes
+                under the top-level key 'Проблемы с правообладателями'.
 
 Options:
   --dry-run           Do not change anything, just print the result.
@@ -58,7 +64,7 @@ from twitch_utils.offset import Clip, find_offset
 
 from ..data.streams import streams, Segment, Stream, STREAMS_JSON
 from ..data.games import games, GAMES_JSON
-from ..data.timecodes import Timecode
+from ..data.timecodes import timecodes, Timecode, Timecodes
 
 
 flat = itertools.chain.from_iterable
@@ -347,6 +353,38 @@ def main(argv=None):
 
         print(stream)
 
+    if args['copyright'] and args['mute']:
+        tc = timecodes[args['<stream>']]
+        tc_ranges = Timecodes(tc['Проблемы с правообладателями'])
+
+        def tc_to_ff(t):  # Convert timecodes to ffmpeg's time ranges
+            result = []
+
+            if isinstance(t, Timecodes):
+                for t1 in t:
+                    result += tc_to_ff(t1)
+            elif t.duration:
+                result.append(f'between(t,{t.value},{t.value+t.duration})')
+            else:
+                print(f'Ignoring timecode {t} (no duration)', file=sys.stderr)
+            
+            return result
+
+        filters = [f"volume=enable='{f_range}':volume=0"
+                   for f_range in tc_to_ff(tc_ranges)]
+
+        cmd = ['ffmpeg', '-i', args['<input>'],
+               '-c:v', 'copy', '-strict', '-2',
+               '-af', ",".join(filters),
+               args['<output>']]
+
+        if args['--dry-run']:
+            print(' '.join([f'"{arg}"' if "'" in arg else arg
+                            for arg in cmd]))
+            return
+
+        p = run(cmd)
+        sys.exit(p.returncode)
 
 if __name__ == '__main__':
     main()
