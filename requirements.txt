@@ -5,6 +5,6 @@ mako==1.0.9
 pymorphy2==0.8
 requests==2.21.0
 sortedcontainers==2.1.0
-youtube-dl==2020.1.24
 tdh-tcd==2.4.3
 cached-property==1.5.1
+youtube-dl
