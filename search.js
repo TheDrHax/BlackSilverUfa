@@ -719,12 +719,13 @@ var Redirect = {
     "534316789": "/links/gta-san-andreas.html#534316789",
     "535374681": "/links/gta-san-andreas.html#535374681",
     "535374681.1": "/links/gta-san-andreas.html#535374681.1",
-    "535873254": "/links/first.html#535873254",
+    "535873254": "/links/gears-of-war-4.html#535873254",
     "536349138": "/links/dead-space.html#536349138",
     "537340056": "/links/dead-space.html#537340056",
     "538458255": "/links/gta-san-andreas.html#538458255",
     "542106142": "/links/gta-san-andreas.html#542106142",
     "542613780": "/links/dead-space.html#542613780",
+    "543096330": "/links/gears-of-war-4.html#543096330",
   },
 
   link: function (hash) {
@@ -886,7 +887,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
-      { name: "Gears of War 4", path: "/links/first.html#535873254", year: 2020 },
       { name: "The Sims 4", path: "/links/first.html#531327327.1", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
       { name: "Granny: Chapter Two", path: "/links/first.html#530784764", year: 2020 },
@@ -1056,6 +1056,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Gears of War 4", path: "/links/gears-of-war-4.html", year: 2020 },
       { name: "Grand Theft Auto: San Andreas", path: "/links/gta-san-andreas.html", year: 2020 },
       { name: "Spore", path: "/links/spore.html", year: 2019 },
     ],
