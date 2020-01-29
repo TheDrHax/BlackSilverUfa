@@ -725,7 +725,7 @@ var Redirect = {
     "538458255": "/links/gta-san-andreas.html#538458255",
     "542106142": "/links/gta-san-andreas.html#542106142",
     "542613780": "/links/dead-space.html#542613780",
-    "543096330": "/links/gears-of-war-4.html#543096330",
+    "543096330": "/links/first.html#543096330",
   },
 
   link: function (hash) {
@@ -887,6 +887,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
+      { name: "Zombie Army 4: Dead War", path: "/links/first.html#543096330", year: 2020 },
       { name: "The Sims 4", path: "/links/first.html#531327327.1", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
       { name: "Granny: Chapter Two", path: "/links/first.html#530784764", year: 2020 },
