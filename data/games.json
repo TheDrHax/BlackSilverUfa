@@ -1271,7 +1271,8 @@
     "category": "ongoing",
     "id": "gears-of-war-4",
     "streams": [
-      { "name": "1", "twitch": "535873254" },
+      { "name": "1 (часть 1)", "twitch": "535873254", "segment": 0 },
+      { "name": "1 (часть 2)", "twitch": "535873254", "segment": 1 },
       { "name": "2", "twitch": "543096330", "start": "2:02:44" }
     ]
   },
