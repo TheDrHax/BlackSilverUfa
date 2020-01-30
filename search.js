@@ -720,6 +720,7 @@ var Redirect = {
     "535374681": "/links/gta-san-andreas.html#535374681",
     "535374681.1": "/links/gta-san-andreas.html#535374681.1",
     "535873254": "/links/gears-of-war-4.html#535873254",
+    "535873254.1": "/links/gears-of-war-4.html#535873254.1",
     "536349138": "/links/dead-space.html#536349138",
     "537340056": "/links/dead-space.html#537340056",
     "538458255": "/links/gta-san-andreas.html#538458255",
