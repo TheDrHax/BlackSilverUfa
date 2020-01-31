@@ -728,6 +728,7 @@ var Redirect = {
     "542613780": "/links/dead-space.html#542613780",
     "543096330": "/links/first.html#543096330",
     "543591605": "/links/first.html#543591605",
+    "544589716": "/links/first.html#544589716",
   },
 
   link: function (hash) {
@@ -889,6 +890,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
+      { name: "Dark Messiah of Might & Magic", path: "/links/first.html#544589716", year: 2020 },
       { name: "Warcraft III: Reforged", path: "/links/first.html#543591605", year: 2020 },
       { name: "Zombie Army 4: Dead War", path: "/links/first.html#543096330", year: 2020 },
       { name: "The Sims 4", path: "/links/first.html#531327327.1", year: 2020 },
