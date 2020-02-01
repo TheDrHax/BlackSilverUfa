@@ -708,7 +708,7 @@ var Redirect = {
     "528855659": "/links/unboxing.html#528855659",
     "530784764": "/links/alien-isolation-ai.html#530784764",
     "531327327": "/links/spore.html#531327327",
-    "531327327.1": "/links/first.html#531327327.1",
+    "531327327.1": "/links/sims-4.html#531327327.1",
     "532342982": "/links/co-op.html#532342982",
     "532787117": "/links/life-is-strange-2.html#532787117",
     "533269694": "/links/gta-san-andreas.html#533269694",
@@ -729,6 +729,7 @@ var Redirect = {
     "543096330": "/links/first.html#543096330",
     "543591605": "/links/first.html#543591605",
     "544589716": "/links/first.html#544589716",
+    "545136550": "/links/sims-4.html#545136550",
   },
 
   link: function (hash) {
@@ -893,7 +894,6 @@ var Search = {
       { name: "Dark Messiah of Might & Magic", path: "/links/first.html#544589716", year: 2020 },
       { name: "Warcraft III: Reforged", path: "/links/first.html#543591605", year: 2020 },
       { name: "Zombie Army 4: Dead War", path: "/links/first.html#543096330", year: 2020 },
-      { name: "The Sims 4", path: "/links/first.html#531327327.1", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
       { name: "Granny: Chapter Two", path: "/links/first.html#530784764", year: 2020 },
       { name: "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", path: "/links/first.html#526101430", year: 2019 },
@@ -1064,6 +1064,7 @@ var Search = {
     "ongoing": [
       { name: "Gears of War 4", path: "/links/gears-of-war-4.html", year: 2020 },
       { name: "Grand Theft Auto: San Andreas", path: "/links/gta-san-andreas.html", year: 2020 },
+      { name: "The Sims 4", path: "/links/sims-4.html", year: 2020 },
       { name: "Spore", path: "/links/spore.html", year: 2019 },
     ],
     "infinite": [
