@@ -1262,8 +1262,24 @@
       { "name": "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", "twitch": "526101430" },
       { "name": "Zombie Claus / Granny: Chapter Two", "twitch": "530784764", "start": "3:59:51" },
       { "name": "Zombie Army 4: Dead War", "twitch": "543096330" },
-      { "name": "Warcraft III: Reforged", "twitch": "543591605" },
-      { "name": "Dark Messiah of Might & Magic", "twitch": "544589716" }
+      { "name": "Warcraft III: Reforged", "twitch": "543591605" }
+    ]
+  },
+  {
+    "name": "Dark Messiah of Might & Magic",
+    "category": "ongoing",
+    "id": "dark-messiah",
+    "streams": [
+      { "name": "1", "twitch": "544589716" },
+      { "name": "2", "twitch": "545709814", "start": "3:39:43" }
+    ]
+  },
+  {
+    "name": "Dead Space 2",
+    "category": "ongoing",
+    "id": "dead-space-2",
+    "streams": [
+      { "name": "1", "twitch": "545709814" }
     ]
   },
   {
