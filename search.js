@@ -728,8 +728,9 @@ var Redirect = {
     "542613780": "/links/dead-space.html#542613780",
     "543096330": "/links/first.html#543096330",
     "543591605": "/links/first.html#543591605",
-    "544589716": "/links/first.html#544589716",
+    "544589716": "/links/dark-messiah.html#544589716",
     "545136550": "/links/sims-4.html#545136550",
+    "545709814": "/links/dead-space-2.html#545709814",
   },
 
   link: function (hash) {
@@ -891,7 +892,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
-      { name: "Dark Messiah of Might & Magic", path: "/links/first.html#544589716", year: 2020 },
       { name: "Warcraft III: Reforged", path: "/links/first.html#543591605", year: 2020 },
       { name: "Zombie Army 4: Dead War", path: "/links/first.html#543096330", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
@@ -1062,6 +1062,8 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "Dead Space 2", path: "/links/dead-space-2.html", year: 2020 },
+      { name: "Dark Messiah of Might & Magic", path: "/links/dark-messiah.html", year: 2020 },
       { name: "Gears of War 4", path: "/links/gears-of-war-4.html", year: 2020 },
       { name: "Grand Theft Auto: San Andreas", path: "/links/gta-san-andreas.html", year: 2020 },
       { name: "The Sims 4", path: "/links/sims-4.html", year: 2020 },
