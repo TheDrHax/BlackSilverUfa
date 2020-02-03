@@ -729,7 +729,7 @@ var Redirect = {
     "543096330": "/links/first.html#543096330",
     "543591605": "/links/first.html#543591605",
     "544589716": "/links/dark-messiah.html#544589716",
-    "545136550": "/links/sims-4.html#545136550",
+    "545136550": "/links/spore.html#545136550",
     "545709814": "/links/dead-space-2.html#545709814",
   },
 
