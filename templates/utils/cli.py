@@ -91,10 +91,6 @@ def refs_coverage(stream, segment):
 
         ref._coverage = coverage
 
-        if coverage > 0:
-            print(f'Covered {coverage}% of `{ref.game.id}` - `{ref.name}`',
-                  file=sys.stderr)
-
         if coverage >= 50:
             covered.append(ref)
         elif len(covered) == 0:
@@ -110,6 +106,11 @@ def cmd_add(stream, segment_kwargs):
     segment = Segment(tmp_stream, **segment_kwargs)
 
     left, covered, right = refs_coverage(stream, segment)
+
+    for ref in flat([left, covered, right]):
+        if ref._coverage > 0:
+            print(f'Covered {ref._coverage}% of `{ref.game.id}` - `{ref.name}`',
+                  file=sys.stderr)
 
     if len(covered) == 0:
         raise Exception('Video does not cover any segment references')
@@ -153,18 +154,32 @@ def original_video(segment, directory=None):
 
 
 def can_match(segment, segment_kwargs, directory=None, match_all=False):
+    if not original_video(segment, directory):
+        return False
+
     if segment.youtube and segment.official != False and not match_all:
         return False
     
     if segment.official == False and segment_kwargs.get('official') == False:
+        print(f'Skipping segment {segment.hash} (both videos are unofficial)',
+              file=sys.stderr)
         return False
 
-    return original_video(segment, directory) is not None
+    tmp_stream = Stream([], segment.stream.twitch)
+    new_segment = Segment(tmp_stream, **segment_kwargs)
+    _, covered, _ = refs_coverage(segment.stream, new_segment)
+
+    if len(covered) == 0:
+        print(f'Skipping segment {segment.hash} (input video is too short)',
+              file=sys.stderr)
+        return False
+
+    return True
 
 
 def ytdl_video(video_id):
     try:
-        print(f'Preparing template...', file=sys.stderr)
+        print(f'Retrieving video from YouTube...', file=sys.stderr)
         youtube_source = ytdl_best_source(video_id)
         video = Clip(youtube_source, ar=1000)
     except:
@@ -176,11 +191,17 @@ def ytdl_video(video_id):
 
 def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False):
     if 'youtube' in segment_kwargs:
+        dupes = [s for s in streams.segments
+                 if s.youtube == segment_kwargs['youtube']]
+        
+        if len(dupes) != 0:
+            print(f'Error: Video is already assigned to segment {dupes[0].hash}',
+                  file=sys.stderr)
+            sys.exit(2)
+
         video = ytdl_video(segment_kwargs['youtube'])
     elif 'direct' in segment_kwargs:
         video = Clip(segment_kwargs['direct'], ar=1000)
-
-    template = video.slice(300, 300)[0]
 
     candidates = sorted(
         [s
@@ -188,6 +209,13 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
          if can_match(s, segment_kwargs, directory, match_all)],
         key=lambda s: abs(int(s.abs_end - s.abs_start) - video.duration)
     )
+
+    if len(candidates) == 0:
+        print('Error: No candidates found', file=sys.stderr)
+        sys.exit(2)
+
+    print(f'Preparing template...', file=sys.stderr)
+    template = video.slice(300, 300)[0]
 
     original = None
     matching_stream = None
@@ -214,6 +242,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
         if score > 0:
             matching_stream = segment.stream
             video_offset = Timecode(round(offset))
+            print(f'Match found: segment {segment.hash}, offset {video_offset}',
+                  file=sys.stderr)
             break
 
     if matching_stream is None:
