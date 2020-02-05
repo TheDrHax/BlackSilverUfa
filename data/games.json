@@ -50,7 +50,6 @@
       { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" },
       { "name": "CASE 2: Animatronics Survival (кооп)", "twitch": "293012700", "start": "2:58:54" },
       { "name": "I'm not a Monster", "twitch": "313747869", "start": "2:42:03" },
-      { "name": "Destiny 2 со StopGame", "twitch": "315365879", "start": "2:04:12" },
       { "name": "A Gummy's Life", "twitch": "316677687" },
       { "name": "Blackout Club", "twitch": "331965944" },
       { "name": "UpBreakers", "twitch": "340545862", "start": "1:26:13" },
@@ -75,6 +74,15 @@
       { "name": "Tools Up! / Out of Space", "twitch": "518306588", "start": "1:43:33" },
       { "name": "Beyond Senses / eXplosive Dinosaurs / Titeuf", "twitch": "527927154", "start": "2:07:14" },
       { "name": "Left 4 Dead 2", "twitch": "532342982" }
+    ]
+  },
+  {
+    "name": "Destiny 2",
+    "category": "co-op-series",
+    "id": "destiny-2",
+    "streams": [
+      { "name": "Со StopGame", "twitch": "315365879", "start": "2:04:12" },
+      { "name": "С Triplewipe", "twitch": "547176657", "start": "2:52:57" }
     ]
   },
   {
@@ -1390,7 +1398,8 @@
       { "name": "4.1", "twitch": "535374681", "segment": 0 },
       { "name": "4.2", "twitch": "535374681", "segment": 1 },
       { "name": "5", "twitch": "538458255" },
-      { "name": "6", "twitch": "542106142" }
+      { "name": "6", "twitch": "542106142" },
+      { "name": "7", "twitch": "547176657" }
     ]
   },
   {
