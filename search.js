@@ -734,6 +734,7 @@ var Redirect = {
     "546672311": "/links/dead-space-2.html#546672311",
     "547176657": "/links/gta-san-andreas.html#547176657",
     "548170121": "/links/gta-san-andreas.html#548170121",
+    "548730617": "/links/dead-space-2.html#548730617",
   },
 
   link: function (hash) {
@@ -773,6 +774,7 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Dead Space 2", path: "/links/dead-space-2.html", year: 2020 },
       { name: "Dead Space", path: "/links/dead-space.html", year: 2020 },
       { name: "Alien: Isolation (Extreme + новый ИИ)", path: "/links/alien-isolation-ai.html", year: 2019 },
       { name: "Прохождения за один стрим", path: "/links/single.html", year: 2019 },
@@ -1065,7 +1067,6 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
-      { name: "Dead Space 2", path: "/links/dead-space-2.html", year: 2020 },
       { name: "Dark Messiah of Might & Magic", path: "/links/dark-messiah.html", year: 2020 },
       { name: "Gears of War 4", path: "/links/gears-of-war-4.html", year: 2020 },
       { name: "Grand Theft Auto: San Andreas", path: "/links/gta-san-andreas.html", year: 2020 },
