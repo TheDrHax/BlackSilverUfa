@@ -1290,7 +1290,16 @@
       { "name": "1", "twitch": "545709814" },
       { "name": "2.1", "twitch": "546672311", "segment": 0 },
       { "name": "2.2", "twitch": "546672311", "segment": 2 },
-      { "name": "3", "twitch": "548730617" }
+      { "name": "3", "twitch": "548730617" },
+      { "name": "DLC: Severed", "twitch": "549258537" }
+    ]
+  },
+  {
+    "name": "Dead Space 3",
+    "category": "ongoing",
+    "id": "dead-space-3",
+    "streams": [
+      { "name": "1", "twitch": "549258537", "start": "2:56:20" }
     ]
   },
   {
