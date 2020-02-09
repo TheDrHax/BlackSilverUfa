@@ -1288,7 +1288,9 @@
     "id": "dead-space-2",
     "streams": [
       { "name": "1", "twitch": "545709814" },
-      { "name": "2", "twitch": "546672311" },
+      { "name": "2.1", "twitch": "546672311", "segment": 0 },
+      { "name": "2.2", "twitch": "546672311", "segment": 1 },
+      { "name": "2.3", "twitch": "546672311", "segment": 2 },
       { "name": "3", "twitch": "548730617" }
     ]
   },
