@@ -14,7 +14,8 @@
         messages += stream.messages
 
         for segment in stream:
-            duration_segments += segment.duration
+            if not segment.virtual:
+                duration_segments += segment.duration
 
     subs_size_mb = int(dir_size(_('chats')) / 1024**2)
 
