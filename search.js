@@ -738,6 +738,8 @@ var Redirect = {
     "548730617": "/links/dead-space-2.html#548730617",
     "549258537": "/links/dead-space-2.html#549258537",
     "550299037": "/links/dead-space-3.html#550299037",
+    "550381390": "/links/metro-exodus.html#550381390",
+    "550387516": "/links/metro-exodus.html#550387516",
   },
 
   link: function (hash) {
