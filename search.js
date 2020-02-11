@@ -737,6 +737,7 @@ var Redirect = {
     "548170121": "/links/gta-san-andreas.html#548170121",
     "548730617": "/links/dead-space-2.html#548730617",
     "549258537": "/links/dead-space-2.html#549258537",
+    "550299037": "/links/dead-space-3.html#550299037",
   },
 
   link: function (hash) {
