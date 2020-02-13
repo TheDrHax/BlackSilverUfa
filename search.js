@@ -741,7 +741,9 @@ var Redirect = {
     "550381390": "/links/metro-exodus.html#550381390",
     "550387516": "/links/metro-exodus.html#550387516",
     "550791781": "/links/metro-exodus.html#550791781",
+    "550791781.1": "/links/metro-exodus.html#550791781.1",
     "550874352": "/links/metro-exodus.html#550874352",
+    "550874352.1": "/links/metro-exodus.html#550874352.1",
   },
 
   link: function (hash) {
