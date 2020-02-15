@@ -22,7 +22,7 @@ STREAMS_JSON = 'data/streams.json'
 
 class Segment:
     def __init__(self, stream, **kwargs):
-        self.references = SortedList(key=lambda x: Timecode(x.start))
+        self.references = SortedList(key=lambda x: x.start)
 
         def attr(key, default=None, func=lambda x: x):
             if key in kwargs:
@@ -30,8 +30,8 @@ class Segment:
             else:
                 setattr(self, key, default)
 
-        for key in ['start', 'end', 'offset']:
-            attr(key, func=lambda x: Timecode(x) if Timecode(x).value != 0 else None)
+        for key in ['offset', 'start', 'end']:
+            attr(key, Timecode(0), Timecode)
 
         for key in ['youtube', 'direct', 'torrent', 'official',
                     'note', 'name', 'force_start']:
@@ -59,15 +59,11 @@ class Segment:
         if len(self.stream.timecodes) == 0:
             return None
 
-        timecodes = TimecodesSlice(self.stream.timecodes)
+        timecodes = TimecodesSlice(self.stream.timecodes,
+                                   start=self.start,
+                                   offset=self.offset)
 
-        if self.offset:
-            timecodes.offset = self.offset
-
-        if type(self) is Segment and self.start:
-            timecodes.start = self.start
-
-        if self.end:
+        if self.end != 0:
             timecodes.end = self.end
         elif self.duration > 0:
             timecodes.end = self.duration
@@ -115,9 +111,9 @@ class Segment:
             else:
                 return str(attr)
 
-        def add(key, func = lambda x: x):
+        def add(key, func=lambda x: x, check=lambda x: x is not None):
             value = getattr(self, key)
-            if value:
+            if check(value):
                 value = func(value)
                 value = escape_attr(value)
                 attrs.append(f'data-{key}="{value}"')
@@ -125,11 +121,11 @@ class Segment:
         if self.segment != 0:
             add('segment')
 
-        add('offset', lambda x: int(x))
+        add('offset', lambda x: x.value, lambda x: x != 0)
         add('subtitles')
 
         for key in ['start', 'end']:
-            add(key, lambda x: int(x - Timecode(self.offset)))
+            add(key, lambda x: int(x - self.offset), lambda x: x != 0)
 
         for key in ['name', 'twitch', 'youtube', 'direct']:
             add(key)
@@ -186,7 +182,7 @@ class Segment:
 
     @property
     def abs_start(self):
-        if self.offset:
+        if self.offset != 0:
             return self.offset
         elif self.segment > 0:
             return self.stream[self.segment - 1].abs_end
@@ -195,7 +191,7 @@ class Segment:
 
     @property
     def abs_end(self):
-        if self.end:
+        if self.end != 0:
             return self.end
         elif self.duration.value > 0:
             return self.abs_start + self.duration
@@ -233,13 +229,12 @@ class Segment:
     def mpv_args(self):
         res = f'--sub-file={self.subtitles} '
         offset = Timecode(0)
-        if self.offset:
-            offset = Timecode(self.offset)
-            res += f'--sub-delay={-int(offset)} '
-        if self.start:
-            res += f'--start={int(Timecode(self.start) - offset)} '
-        if self.end:
-            res += f'--end={int(Timecode(self.end) - offset)} '
+        if self.offset != 0:
+            res += f'--sub-delay={-int(self.offset)} '
+        if self.start != 0:
+            res += f'--start={int(self.start - self.offset)} '
+        if self.end != 0:
+            res += f'--end={int(self.end - self.offset)} '
         return res.strip()
 
     @join()
@@ -277,6 +272,9 @@ class Segment:
             value = get_attr(key)
 
             if value is None:
+                continue
+
+            if key in ['offset', 'start', 'end'] and value == 0:
                 continue
 
             if not first:
@@ -360,7 +358,7 @@ class SegmentReference(Segment):
 
     @property
     def abs_start(self):
-        if self.start:
+        if self.start != 0:
             return self.start
         else:
             return self.parent.abs_start
@@ -372,7 +370,7 @@ class SegmentReference(Segment):
         if index < len(self.references):
             for ref in self.references[index+1:]:
                 if ref.start != self.start:
-                    return Timecode(ref.start)
+                    return ref.start
 
         return self.parent.abs_end
 
@@ -405,7 +403,12 @@ class SegmentReference(Segment):
 
         first = True
         for key in keys:
-            if getattr(self, key) is None or inherited(key):
+            value = getattr(self, key)
+
+            if value is None or inherited(key):
+                continue
+
+            if key in ['start', 'end'] and value == 0:
                 continue
 
             if key == 'segment':
@@ -418,16 +421,18 @@ class SegmentReference(Segment):
             else:
                 first = False
 
-            yield f'"{key}": {json_escape(getattr(self, key))}'
+            yield f'"{key}": {json_escape(value)}'
 
         for key in multiline_keys:
-            if getattr(self, key) and not inherited(key):
+            value = getattr(self, key)
+
+            if value and not inherited(key):
                 if not first:
                     yield ',\n  '
                 else:
                     first = False
 
-                yield f'"{key}": {json_escape(getattr(self, key))}'
+                yield f'"{key}": {json_escape(value)}'
 
         yield '\n' if multiline else ' '
         yield '}'
@@ -557,7 +562,7 @@ class Streams(dict):
                         if not segment.playable:
                             segment.direct = url
                             segment._fallback_offset = segment.offset
-                            segment.offset = None
+                            segment.offset = Timecode(0)
                             segment.fallbacks.add('direct')
                             segment.fallbacks.add('offset')
             
