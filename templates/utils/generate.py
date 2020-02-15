@@ -10,6 +10,7 @@ from sortedcontainers import SortedDict
 
 from . import _
 from ..data import config, streams, games, categories
+from ..data.config import DEBUG
 
 
 lookup = TemplateLookup(directories=['./templates'],
@@ -32,6 +33,12 @@ def generate():
         if os.path.isdir(_(dp)):
             shutil.rmtree(_(dp))
         os.mkdir(_(dp))
+
+    # Create debug marker
+    if DEBUG:
+        open(_('.DEBUG'), 'a').close()
+    elif os.path.exists(_('.DEBUG')):
+        os.unlink(_('.DEBUG'))
 
     # Create directory for generated data
     if not os.path.isdir(_('data')):
