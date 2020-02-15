@@ -903,6 +903,7 @@
       { "name": "Katana Zero", "twitch": "418879336", "start": "1:01:41" },
       { "name": "Burning Daylight", "twitch": "419736177", "segment": 0 },
       { "name": "Escape Until Friday", "twitch": "429660363", "start": "1:53:19" },
+      { "name": "Asura's Wrath", "twitch": "442647463" },
       { "name": "Sea of Solitude", "twitch": "450348959" },
       { "name": "Gears of War: Ultimate Edition", "twitch": "450812665" },
       { "name": "Monsters of Little Haven", "twitch": "451727019", "segment": 0 },
@@ -936,15 +937,6 @@
       { "name": "2", "twitch": "520025510", "segment": 0 }
     ],
     "thumbnail": 1
-  },
-  {
-    "name": "Asura's Wrath",
-    "category": "finished",
-    "id": "asuras-wrath",
-    "streams": [
-      { "name": "1 (часть 1)", "twitch": "442647463", "segment": 0 },
-      { "name": "1 (часть 2)", "twitch": "442647463", "segment": 1 }
-    ]
   },
   {
     "name": "Pamali: Indonesian Folklore Horror",
@@ -1289,8 +1281,7 @@
     "id": "dead-space-2",
     "streams": [
       { "name": "1", "twitch": "545709814" },
-      { "name": "2.1", "twitch": "546672311", "segment": 0 },
-      { "name": "2.2", "twitch": "546672311", "segment": 2 },
+      { "name": "2", "twitch": "546672311" },
       { "name": "3", "twitch": "548730617" },
       { "name": "DLC: Severed", "twitch": "549258537" }
     ]
@@ -1310,7 +1301,7 @@
     "category": "ongoing",
     "id": "sims-4",
     "streams": [
-      { "name": "1", "twitch": "531327327", "segment": 1 },
+      { "name": "1", "twitch": "531327327", "start": "3:34:09" },
       { "name": "2", "twitch": "545136550", "start": "3:23:17" }
     ]
   },
@@ -1319,8 +1310,7 @@
     "category": "ongoing",
     "id": "gears-of-war-4",
     "streams": [
-      { "name": "1 (часть 1)", "twitch": "535873254", "segment": 0 },
-      { "name": "1 (часть 2)", "twitch": "535873254", "segment": 1 },
+      { "name": "1", "twitch": "535873254" },
       { "name": "2", "twitch": "543096330", "start": "2:02:44" },
       { "name": "3", "twitch": "548170121", "start": "2:04:20" }
     ]
@@ -1365,8 +1355,7 @@
     "streams": [
       { "name": "1", "twitch": "522691278" },
       { "name": "2", "twitch": "523968481" },
-      { "name": "3 (заново, часть 1)", "twitch": "531327327", "segment": 0 },
-      { "name": "3 (часть 2)", "twitch": "531327327", "segment": 1 },
+      { "name": "3 (заново)", "twitch": "531327327" },
       { "name": "4", "twitch": "545136550" }
     ]
   },
@@ -1404,14 +1393,11 @@
     "category": "ongoing",
     "id": "gta-san-andreas",
     "streams": [
-      { "name": "1.1", "twitch": "533269694", "segment": 0 },
-      { "name": "1.2", "twitch": "533269694", "segment": 1 },
-      { "name": "1.3", "twitch": "533269694", "segment": 2 },
+      { "name": "1", "twitch": "533269694" },
       { "name": "2", "twitch": "533755753" },
       { "name": "3.1", "twitch": "534301966" },
       { "name": "3.2", "twitch": "534316789" },
-      { "name": "4.1", "twitch": "535374681", "segment": 0 },
-      { "name": "4.2", "twitch": "535374681", "segment": 1 },
+      { "name": "4", "twitch": "535374681" },
       { "name": "5", "twitch": "538458255" },
       { "name": "6", "twitch": "542106142" },
       { "name": "7", "twitch": "547176657" },
@@ -1799,7 +1785,6 @@
       { "name": "3", "twitch": "399315002" },
       { "name": "4 (часть 1)", "twitch": "399850727", "segment": 0 },
       { "name": "4 (часть 2)", "twitch": "399850727", "segment": 1 },
-      { "name": "4 (часть 3)", "twitch": "399850727", "segment": 2 },
       { "name": "5 (часть 1)", "twitch": "400422352", "segment": 0 },
       { "name": "5 (часть 2)", "twitch": "400422352", "segment": 1 },
       { "name": "6", "twitch": "402450066", "segment": 0 }
@@ -1891,10 +1876,8 @@
       { "name": "The Two Colonels", "twitch": "470288598", "start": "24:35" },
       { "name": "Sam's Story 1.1", "twitch": "550381390" },
       { "name": "Sam's Story 1.2", "twitch": "550387516" },
-      { "name": "Sam's Story 2.1.1", "twitch": "550791781", "segment": 0 },
-      { "name": "Sam's Story 2.1.2", "twitch": "550791781", "segment": 1 },
-      { "name": "Sam's Story 2.2.1", "twitch": "550874352", "segment": 0 },
-      { "name": "Sam's Story 2.2.2", "twitch": "550874352", "segment": 1 }
+      { "name": "Sam's Story 2.1", "twitch": "550791781" },
+      { "name": "Sam's Story 2.2", "twitch": "550874352" }
     ]
   },
   {

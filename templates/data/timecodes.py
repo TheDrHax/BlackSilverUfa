@@ -201,22 +201,38 @@ class TimecodesSlice(Timecodes):
     def __init__(self, parent,
                  start=Timecode(0),
                  offset=Timecode(0),
-                 end=Timecode('7:00:00:00')):
+                 end=Timecode('7:00:00:00'),
+                 cuts=Timecodes()):
         self.parent = parent
         self.start = start
         self.offset = offset
         self.end = end
+        self.cuts = cuts
+
+    def calculate_offset(self, t):
+        return self.offset + sum([cut.duration for cut in self.cuts if cut <= t])
 
     @cached_property
     def _data(self):
         def in_range(t):
-            return max(self.offset, self.start) <= t < self.end
+            if t < max(self.offset, self.start):
+                return False
+            
+            if t >= self.end + self.calculate_offset(self.end):
+                return False
+
+            for cut in self.cuts:
+                if cut.value <= t <= cut.value + cut.duration:
+                    return False
+
+            return True
 
         ts = Timecodes(name=self.name)
 
         for t in self.parent:
             if isinstance(t, Timecodes):
-                tss = TimecodesSlice(t, self.start, self.offset, self.end)
+                tss = TimecodesSlice(t, self.start, self.offset,
+                                     self.end, self.cuts)
                 if len(tss) > 0:
                     ts.add(tss)
             elif isinstance(t, Timecode):
@@ -234,7 +250,7 @@ class TimecodesSlice(Timecodes):
                 if not left and right:  # end only
                     t = Timecode(t.value + duration, t.name)
 
-                ts.add(t - self.offset)
+                ts.add(t - self.calculate_offset(t))
 
         # Collapse timecode list
         if len(ts) == 1 and isinstance(ts[0], Timecodes) and not ts[0].is_list:

@@ -1,24 +1,14 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import os
 import re
+from ..utils.ass import convert as convert_ass
 from tcd.twitch import Message
 from multiprocessing import Pool
-# from datetime import timedelta, datetime as dtt
+# from datetime import timedelta
 
 
 # T_MIN = 2
 # T_MAX = 5
 # MSG_MAX = 100
-
-
-# def ptime(t):
-#     return dtt.strptime(t, '%H:%M:%S.%f')
-
-
-# def ftime(t):
-#     return dtt.strftime(t, '%-H:%M:%S.%f')[:-4]
 
 
 # def convert_time(t, msg_len):
@@ -28,10 +18,6 @@ from multiprocessing import Pool
 
 
 PACKED_EMOTE = re.compile('([^\ ]+) x⁣([0-9]+)')
-
-
-class EmptyLineError(Exception):
-    pass
 
 
 def unpack_emotes(line):
@@ -59,48 +45,28 @@ def unpack_emotes(line):
     return result
 
 
-def convert_line(line):
-    msg_split = line.split(', ', 9)
-
-    try:
-        username, text = msg_split[9].split(': ', 1)
-    except Exception as ex:
-        raise EmptyLineError()
-
-    # Unpack / Repack emotes
-    text = unpack_emotes(text)
+def convert_msg(msg):
+    # Update emote groups
+    text = unpack_emotes(msg.text)
     text = Message.group(text, format='{emote} x⁣{count}', collocations=10)
-    msg_split[9] = f'{username}: {text}'
+    msg.text = text
 
     # Convert message durations
     # msg_len = len(msg[msg.index(': ') + 2:])
-    # t_start = ptime(msg_split[1])
-    # t_end = convert_time(t_start, msg_len)
-    # msg_split[2] = ftime(t_end)
+    # msg.duration = convert_time(msg.start, msg_len)
 
-    return ', '.join(msg_split)
+    return msg
 
 
-def convert_file(input_file):
-    print('Converting ' + input_file)
-
-    with open(input_file, 'r') as f_in, open(input_file + '.tmp', 'w') as f_out:
-        for line in f_in:
-            try:
-                if line.startswith('Dialogue: '):
-                    line = convert_line(line.strip()) + '\n'
-
-                f_out.write(line)
-            except EmptyLineError:
-                continue
-
-    os.rename(input_file + '.tmp', input_file)
+def convert_file(file):
+    print(f'Converting {file}')
+    return convert_ass(file, func=convert_msg)
 
 
 def chats():
-        for year in os.listdir('./_site/chats'):
-            for chat in os.listdir(f'./_site/chats/{year}'):
-                yield f'./_site/chats/{year}/{chat}'
+    for year in os.listdir('./_site/chats'):
+        for chat in os.listdir(f'./_site/chats/{year}'):
+            yield f'./_site/chats/{year}/{chat}'
 
 
 if __name__ == '__main__':

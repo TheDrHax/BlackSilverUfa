@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import os
 import json
 from git import Repo
+from hashlib import md5
 from requests import Session
-from datetime import datetime
+from datetime import datetime, timedelta
 from subprocess import run, PIPE
 from sortedcontainers import SortedList, SortedKeyList
 
-from .cache import cached
+from .cache import cache, cached
 from .config import config
 from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice
 from ..utils import _, load_json, last_line, count_lines, join, json_escape, indent
+from ..utils.ass import EmptyLineError, convert as convert_ass
 
 
 repo = Repo('.')
@@ -38,30 +41,50 @@ class Segment:
             attr(key)
 
         attr('cuts', func=Timecodes)
-        attr('virtual', default=False)
 
         self.stream = stream
         self.fallbacks = set()
 
-        if self.cuts:
-            self._fallback_end = self.end
-            self.fallbacks.add('end')
-            self.end = Timecode(self.cuts[0].value)
+        self._check_cut_subtitles()
 
-            s = self
-            args = kwargs.copy()
-            del args['cuts']
+    def _check_cut_subtitles(self):
+        if not os.path.exists(self.stream.subtitles_path):
+            return
 
-            for i, cut in enumerate(self.cuts):
-                args['offset'] = Timecode(s.offset) + cut.duration
-                args['start'] = (cut + cut.duration).value
-                args['force_start'] = True
-                args['virtual'] = True
-                if len(self.cuts) > i + 1:
-                    args['end'] = list(self.cuts)[i+1].value
-                elif 'end' in args:
-                    del args['end']
-                s = Segment(stream, **args)
+        cache_key = f'cuts-{self.hash}'
+        cut_hash = md5(str(self.cuts).encode('utf-8')).hexdigest()
+
+        if not self.cuts:
+            if cache_key in cache:
+                print(f'Removing cut subtitles of segment {self.hash}')
+                os.unlink(self.cut_subtitles_path)
+                cache.remove(cache_key)
+            return
+
+        def convert_msg(msg):
+            time = msg.time.time()
+            time = 3600 * time.hour + 60 * time.minute + time.second
+
+            # Drop all cut messages
+            for cut in self.cuts:
+                if cut.value <= time <= cut.value + cut.duration:
+                    raise EmptyLineError()
+
+            # Rebase messages after cuts
+            msg.time -= timedelta(seconds=sum([cut.duration
+                                               for cut in self.cuts
+                                               if cut.value <= time]))
+
+            return msg
+
+        if cache.get(cache_key) != cut_hash:
+            print(f'Cutting subtitles for segment {self.hash}')
+
+            convert_ass(self.stream.subtitles_path,
+                        self.subtitles_path,
+                        func=convert_msg)
+
+            cache.set(cache_key, cut_hash)
 
     @property
     def stream(self) -> 'Stream':
@@ -88,17 +111,14 @@ class Segment:
         if type(self) is Segment and self.start:
             timecodes.start = self.start
 
-        end = None
         if self.end:
-            end = self.end
+            timecodes.end = self.end
         elif self.duration > 0:
-            end = self.duration
+            timecodes.end = self.duration
 
-        if end:
-            if self.offset:
-                end += self.offset
-            timecodes.end = end
-        
+        if self.cuts:
+            timecodes.cuts = self.cuts
+
         return timecodes
 
     @property
@@ -167,8 +187,26 @@ class Segment:
         return ' '.join(attrs)
 
     @property
+    def cut_subtitles(self):
+        return f'{self.stream.subtitles_prefix}/v{self.twitch}+{self.segment}.ass'
+
+    @property
     def subtitles(self):
-        return self.stream.subtitles
+        if self.cuts:
+            return self.cut_subtitles
+        else:
+            return self.stream.subtitles
+
+    @property
+    def cut_subtitles_path(self):
+        return _(f'chats/{self.date.year}/v{self.twitch}+{self.segment}.ass')
+
+    @property
+    def subtitles_path(self):
+        if self.cuts:
+            return self.cut_subtitles_path
+        else:
+            return self.stream.subtitles_path
 
     @staticmethod
     @cached('duration-youtube-{0[0]}')
@@ -237,7 +275,7 @@ class Segment:
             return self.direct
 
     def mpv_args(self):
-        res = f'--sub-file={self.stream.subtitles} '
+        res = f'--sub-file={self.subtitles} '
         offset = Timecode(0)
         if self.offset:
             offset = Timecode(self.offset)
@@ -482,12 +520,16 @@ class Stream(SortedKeyList):
         return datetime.fromtimestamp(self._unix_time)
 
     @property
-    def subtitles(self):
+    def subtitles_prefix(self):
         year = str(self.date.year)
         if year not in config['repos']['chats']:
             raise Exception(f'Repository for year {year} is not configured')
         prefix = config['repos']['chats'][year]['prefix']
-        return f'{prefix}/v{self.twitch}.ass'
+        return prefix
+
+    @property
+    def subtitles(self):
+        return f'{self.subtitles_prefix}/v{self.twitch}.ass'
 
     @property
     def subtitles_path(self):
@@ -505,16 +547,11 @@ class Stream(SortedKeyList):
 
     @join()
     def to_json(self):
-        length = len([s for s in self if not s.virtual])
-
-        if length > 1:
+        if len(self) > 1:
             yield '[\n'
             
             first = True
             for segment in self:
-                if segment.virtual:
-                    continue
-
                 if not first:
                     yield ',\n'
                 else:
