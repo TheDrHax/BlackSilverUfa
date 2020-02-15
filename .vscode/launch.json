@@ -5,6 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Build",
+      "type": "python",
+      "request": "launch",
+      "module": "templates.utils.generate",
+      "console": "internalConsole"
+    },
+    {
       "name": "CLI",
       "type": "python",
       "request": "launch",
