@@ -97,6 +97,12 @@ case $1 in
                     new_worktree "$PREFIX/chats/$year" "$remote/$branch" "$remote-$branch" "$3"
                 done ;;
             commit)
+                if [ -e "$PREFIX/.DEBUG" ]; then
+                    echo "Error: The site was generated with debug mode enabled."
+                    echo "Please rebuild it with './bsu build' before committing."
+                    exit 1
+                fi
+
                 for worktree in $PREFIX $PREFIX/chats/*; do
                 (
                     cd "$worktree"
@@ -124,6 +130,7 @@ case $1 in
         ./bsu pages pull ;;
     build) $PYTHON -m templates.utils.generate ;;
     serve) $PYTHON -m templates.utils.serve ;;
+    debug) DEBUG=1 $PYTHON -m templates.utils.serve ;;
     download-chats) $PYTHON -m templates.utils.chats ;;
     sh|bash) $@ ;;
     cli)
