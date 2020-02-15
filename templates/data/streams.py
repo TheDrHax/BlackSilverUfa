@@ -1,20 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import os
 import json
 from git import Repo
-from hashlib import md5
 from requests import Session
-from datetime import datetime, timedelta
+from datetime import datetime
 from subprocess import run, PIPE
 from sortedcontainers import SortedList, SortedKeyList
 
-from .cache import cache, cached
+from .cache import cached
 from .config import config
 from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice
 from ..utils import _, load_json, last_line, count_lines, join, json_escape, indent
-from ..utils.ass import EmptyLineError, convert as convert_ass
 
 
 repo = Repo('.')
@@ -44,47 +41,6 @@ class Segment:
 
         self.stream = stream
         self.fallbacks = set()
-
-        self._check_cut_subtitles()
-
-    def _check_cut_subtitles(self):
-        if not os.path.exists(self.stream.subtitles_path):
-            return
-
-        cache_key = f'cuts-{self.hash}'
-        cut_hash = md5(str(self.cuts).encode('utf-8')).hexdigest()
-
-        if not self.cuts:
-            if cache_key in cache:
-                print(f'Removing cut subtitles of segment {self.hash}')
-                os.unlink(self.cut_subtitles_path)
-                cache.remove(cache_key)
-            return
-
-        def convert_msg(msg):
-            time = msg.time.time()
-            time = 3600 * time.hour + 60 * time.minute + time.second
-
-            # Drop all cut messages
-            for cut in self.cuts:
-                if cut.value <= time <= cut.value + cut.duration:
-                    raise EmptyLineError()
-
-            # Rebase messages after cuts
-            msg.time -= timedelta(seconds=sum([cut.duration
-                                               for cut in self.cuts
-                                               if cut.value <= time]))
-
-            return msg
-
-        if cache.get(cache_key) != cut_hash:
-            print(f'Cutting subtitles for segment {self.hash}')
-
-            convert_ass(self.stream.subtitles_path,
-                        self.subtitles_path,
-                        func=convert_msg)
-
-            cache.set(cache_key, cut_hash)
 
     @property
     def stream(self) -> 'Stream':

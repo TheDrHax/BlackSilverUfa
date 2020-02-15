@@ -1,4 +1,6 @@
 import os
+from ..data.cache import cache
+from hashlib import md5
 from datetime import timedelta, datetime as dtt
 
 
@@ -54,3 +56,43 @@ def convert(input_file, output_file=None, func=lambda msg: msg):
 
     if replace:
         os.rename(output_file, input_file)
+
+
+def cut_subtitles(segment):
+    if not os.path.exists(segment.stream.subtitles_path):
+        return
+
+    cache_key = f'cuts-{segment.hash}'
+    cut_hash = md5(str(segment.cuts).encode('utf-8')).hexdigest()
+
+    if not segment.cuts:
+        if cache_key in cache:
+            print(f'Removing cut subtitles of segment {segment.hash}')
+            os.unlink(segment.cut_subtitles_path)
+            cache.remove(cache_key)
+        return
+
+    def convert_msg(msg):
+        time = msg.time.time()
+        time = 3600 * time.hour + 60 * time.minute + time.second
+
+        # Drop all cut messages
+        for cut in segment.cuts:
+            if cut.value <= time <= cut.value + cut.duration:
+                raise EmptyLineError()
+
+        # Rebase messages after cuts
+        msg.time -= timedelta(seconds=sum([cut.duration
+                                           for cut in segment.cuts
+                                           if cut.value <= time]))
+
+        return msg
+
+    if cache.get(cache_key) != cut_hash:
+        print(f'Cutting subtitles for segment {segment.hash}')
+
+        convert(segment.stream.subtitles_path,
+                segment.subtitles_path,
+                func=convert_msg)
+
+        cache.set(cache_key, cut_hash)
