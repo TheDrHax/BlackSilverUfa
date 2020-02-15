@@ -9,6 +9,7 @@ from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
 
 from . import _
+from .ass import cut_subtitles
 from ..data import config, streams, games, categories
 from ..data.config import DEBUG
 
@@ -52,11 +53,17 @@ def generate():
     shutil.copyfile(_('r/index.html'), _('src/player.html'))  # compatibility
     shutil.rmtree(_('static/html'))
 
-    # Generate preprocessed timecodes.json
     tc_dict = SortedDict()
+
     for segment in streams.segments:
+        # Generate preprocessed timecodes.json
         if segment.timecodes:
             tc_dict[segment.hash] = segment.timecodes.to_dict()
+
+        # Generate cut subtitles
+        if segment.cuts:
+            cut_subtitles(segment)
+
     with open(_("data/timecodes.json"), 'w') as fo:
         json.dump(tc_dict, fo, ensure_ascii=False, indent=2)
 
