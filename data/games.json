@@ -73,7 +73,8 @@
       { "name": "Crimson Hotel / Niffelheim", "twitch": "497190114" },
       { "name": "Tools Up! / Out of Space", "twitch": "518306588", "start": "1:43:33" },
       { "name": "Beyond Senses / eXplosive Dinosaurs / Titeuf", "twitch": "527927154", "start": "2:07:14" },
-      { "name": "Left 4 Dead 2", "twitch": "532342982" }
+      { "name": "Left 4 Dead 2", "twitch": "532342982" },
+      { "name": "Totally Reliable Delivery Service / Paunch / Besiege", "twitch": "552313454", "start": "4:01:43" }
     ]
   },
   {
@@ -1168,7 +1169,7 @@
         "name": "Beware (демо) / Graveyard Keeper / Welcome Back Daddy / Smoke and Sacrifice", "twitch": "267726322",
         "note": "Официальная запись <a href=\"https://youtu.be/7WmLTIQpciU\">Beware</a> не может быть добавлена сюда, т.к. она сделана в виде монтажа. Остальных записей пока нет."
       },
-      { "name": "Clone Drone in the Danger Zone / Choice Chamber", "twitch": "268900992", "start": "2:24:57" },
+      { "name": "Choice Chamber", "twitch": "268900992", "start": "3:00:48" },
       { "name": "Exiles / Elderwale / Darkness Dwells / The Dark Inside Me / Stoneshard: Prologue / Bloodstained: Curse of the Moon", "twitch": "270816212" },
       { "name": "Unravel Two", "twitch": "271646745", "segment": 0, "start": "6:36" },
       { "name": "Deluded Mind", "twitch": "275043417", "start": "2:38:23" },
@@ -1186,7 +1187,6 @@
       { "name": "Fractured Lands", "twitch": "291791543", "segment": 0 },
       { "name": "Egress", "twitch": "292591348" },
       { "name": "PUSS! / Chasm / Airships: Conquer the Skies", "twitch": "293415850", "start": "34:27" },
-      { "name": "Dead Cells", "twitch": "294220536", "start": "2:43:07" },
       { "name": "Pineview Drive", "twitch": "298040825" },
       { "name": "Guacamelee! 2 / Breathedge", "twitch": "305785431", "start": "24:31" },
       { "name": "Fist of the North Star: Lost Paradise", "twitch": "306199274" },
@@ -1263,6 +1263,24 @@
       { "name": "Zombie Claus / Granny: Chapter Two", "twitch": "530784764", "start": "3:59:51" },
       { "name": "Zombie Army 4: Dead War", "twitch": "543096330" },
       { "name": "Warcraft III: Reforged", "twitch": "543591605" }
+    ]
+  },
+  {
+    "name": "Clone Drone in the Danger Zone",
+    "category": "infinite",
+    "id": "clone-drone",
+    "streams": [
+      { "name": "1", "twitch": "268900992", "start": "2:24:57" },
+      { "name": "2", "twitch": "552313454" }
+    ]
+  },
+  {
+    "name": "Dead Cells",
+    "category": "infinite",
+    "id": "dead-cells",
+    "streams": [
+      { "name": "1", "twitch": "294220536", "start": "2:43:07" },
+      { "name": "2", "twitch": "552313454", "start": "2:06:09" }
     ]
   },
   {
