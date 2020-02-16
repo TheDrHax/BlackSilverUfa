@@ -147,7 +147,7 @@ def original_video(segment, directory=None):
     if filename and os.path.exists(filename):
         return filename
 
-    if segment.direct and not segment.offset:
+    if segment.direct and segment.offset() == 0:
         return segment.direct
 
     return None

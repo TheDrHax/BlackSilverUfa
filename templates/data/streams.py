@@ -45,7 +45,7 @@ class Segment:
     @property
     def stream(self) -> 'Stream':
         return self._stream
-    
+
     @stream.setter
     def stream(self, new):
         if hasattr(self, 'stream'):
@@ -73,10 +73,19 @@ class Segment:
 
         return timecodes
 
+    def _calculate_offset(self, t=0):
+        offset = self._offset
+
+        if self.cuts:
+            offset += sum([cut.duration for cut in self.cuts if cut <= t])
+
+        return offset
+
     @property
     def offset(self):
-        return self._offset
-    
+        """Return function to calculate offset at specific timestamp"""
+        return self._calculate_offset
+
     @offset.setter
     def offset(self, value):
         if hasattr(self, 'stream'):
@@ -121,15 +130,15 @@ class Segment:
         if self.segment != 0:
             add('segment')
 
-        add('offset', lambda x: x.value, lambda x: x != 0)
+        add('offset', lambda x: x().value, lambda x: x() != 0)
         add('subtitles')
 
         for key in ['start', 'end']:
-            add(key, lambda x: int(x - self.offset), lambda x: x != 0)
+            add(key, lambda x: int(x - self.offset(x)), lambda x: x != 0)
 
         for key in ['name', 'twitch', 'youtube', 'direct']:
             add(key)
-        
+
         if self.force_start:
             add('force_start', lambda x: 'true' if x else 'false')
 
@@ -182,8 +191,8 @@ class Segment:
 
     @property
     def abs_start(self):
-        if self.offset != 0:
-            return self.offset
+        if self.offset() != 0:
+            return self.offset()
         elif self.segment > 0:
             return self.stream[self.segment - 1].abs_end
         else:
@@ -228,13 +237,12 @@ class Segment:
 
     def mpv_args(self):
         res = f'--sub-file={self.subtitles} '
-        offset = Timecode(0)
-        if self.offset != 0:
-            res += f'--sub-delay={-int(self.offset)} '
+        if self.offset() != 0:
+            res += f'--sub-delay={-int(self.offset())} '
         if self.start != 0:
-            res += f'--start={int(self.start - self.offset)} '
+            res += f'--start={int(self.start - self.offset(self.start))} '
         if self.end != 0:
-            res += f'--end={int(self.end - self.offset)} '
+            res += f'--end={int(self.end - self.offset(self.end))} '
         return res.strip()
 
     @join()
@@ -271,6 +279,9 @@ class Segment:
         for key in keys:
             value = get_attr(key)
 
+            if key == 'offset':
+                value = value()
+
             if value is None:
                 continue
 
@@ -305,7 +316,7 @@ class Segment:
 
     def __str__(self):
         return self.to_json()
-    
+
     def __repr__(self):
         return self.to_json()
 
@@ -326,7 +337,7 @@ class SegmentReference(Segment):
 
         for key in ['start', 'end']:
             attr(key, lambda x: Timecode(x))
-        
+
         self._parent = None
         self.parent_ro = kwargs.get('parent_ro', False)
         self.parent = parent
@@ -334,7 +345,7 @@ class SegmentReference(Segment):
     @property
     def parent(self):
         return self._parent
-    
+
     @property
     def timecodes(self):
         return self.parent.timecodes
@@ -446,7 +457,7 @@ class SegmentReference(Segment):
 
 class Stream(SortedKeyList):
     def __init__(self, data, key):
-        SortedKeyList.__init__(self, key=lambda s: int(Timecode(s.offset)))
+        SortedKeyList.__init__(self, key=lambda s: int(Timecode(s.offset())))
 
         if type(data) is not list:
             raise TypeError(type(data))
@@ -510,7 +521,7 @@ class Stream(SortedKeyList):
     def to_json(self):
         if len(self) > 1:
             yield '[\n'
-            
+
             first = True
             for segment in self:
                 if not first:
@@ -519,7 +530,7 @@ class Stream(SortedKeyList):
                     first = False
 
                 yield indent(segment.to_json(), 2)
-            
+
             yield '\n]'
         else:
             yield self[0].to_json()
@@ -543,7 +554,7 @@ class Streams(dict):
                 self[id] = Stream(stream, id)
             else:
                 raise TypeError
-        
+
         self._enable_fallbacks()
 
     def _enable_fallbacks(self):
@@ -561,11 +572,11 @@ class Streams(dict):
                     for segment in stream:
                         if not segment.playable:
                             segment.direct = url
-                            segment._fallback_offset = segment.offset
+                            segment._fallback_offset = segment.offset()
                             segment.offset = Timecode(0)
                             segment.fallbacks.add('direct')
                             segment.fallbacks.add('offset')
-            
+
             if fallback['torrents'] and None in [s.torrent for s in stream]:
                 url = f'{fallback["prefix"]}/{stream.twitch}.torrent'
                 if check(url):
@@ -584,7 +595,7 @@ class Streams(dict):
     @join()
     def to_json(self) -> str:
         yield '{\n'
-        
+
         first = True
         for key, stream in self.items():
             if not first:
@@ -603,9 +614,9 @@ class Streams(dict):
         return f'Streams({len(self)})'
 
     def save(self, filename: str = None):
-        if filename == None:
+        if filename is None:
             filename = self.filename
-        
+
         with open(filename, 'w') as fo:
             fo.write(self.to_json())
             fo.write('\n')
