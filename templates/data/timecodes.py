@@ -209,16 +209,13 @@ class TimecodesSlice(Timecodes):
         self.end = end
         self.cuts = cuts
 
-    def calculate_offset(self, t):
-        return self.offset + sum([cut.duration for cut in self.cuts if cut <= t])
-
     @cached_property
     def _data(self):
         def in_range(t):
-            if t < max(self.offset, self.start):
+            if t - self.offset(t) < self.start:
                 return False
-            
-            if t >= self.end + self.calculate_offset(self.end):
+
+            if t - self.offset(t) >= self.end:
                 return False
 
             for cut in self.cuts:
@@ -246,11 +243,11 @@ class TimecodesSlice(Timecodes):
 
                 if left and not right:  # start only
                     t = Timecode(t.value, t.name)
-                
+
                 if not left and right:  # end only
                     t = Timecode(t.value + duration, t.name)
 
-                ts.add(t - self.calculate_offset(t))
+                ts.add(t - self.offset(t))
 
         # Collapse timecode list
         if len(ts) == 1 and isinstance(ts[0], Timecodes) and not ts[0].is_list:
