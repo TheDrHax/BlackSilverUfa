@@ -30,7 +30,7 @@ var Redirect = {
 var Search = {
   categories: {
   % for category in categories.values():
-    % if category.search != False:
+    % if category.search:
     "${category.code}": "${category.name}",
     % endif
   % endfor
@@ -39,7 +39,7 @@ var Search = {
   games: {
 <% listed_games = [] %>\
   % for category in categories.values():
-    % if category.search != False:
+    % if category.search:
     "${category.code}": [
       % for game in reversed(category.games):
         % if type(game) == Game:

@@ -26,10 +26,16 @@ class Category:
         return self
 
     def __init__(self, **kwargs):
-        def attr(key, default=None):
-            setattr(self, key, kwargs.get(key, default))
+        def attr(key, default=None, func=lambda x: x):
+            if key in kwargs:
+                setattr(self, key, func(kwargs[key]))
+            else:
+                setattr(self, key, default)
 
-        for key in ['name', 'code', 'description', 'split_by_year', 'search']:
+        attr('search', True, bool)
+        attr('split_by_year', True, bool)
+
+        for key in ['name', 'code', 'description']:
             attr(key)
 
         attr('level', 2)

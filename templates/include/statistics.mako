@@ -21,7 +21,7 @@
     official, unofficial, missing = 0, 0, 0
     for segment in streams.segments:
         if segment.youtube:
-            if segment.official == False:
+            if not segment.official:
                 unofficial += 1
             else:
                 official += 1
