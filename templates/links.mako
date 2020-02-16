@@ -79,7 +79,7 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
       </a>
     </span>
     % if segment.youtube:
-    <span class="badge badge-${'warning' if segment.official == False else 'success'}">
+    <span class="badge badge-${'warning' if not segment.official else 'success'}">
       <a href="https://www.youtube.com/watch?v=${segment.youtube}" target="_blank">
         <i class="fab fa-youtube"></i> ${segment.youtube}
       </a>

@@ -33,8 +33,10 @@ class Segment:
         for key in ['offset', 'start', 'end']:
             attr(key, Timecode(0), Timecode)
 
-        for key in ['youtube', 'direct', 'torrent', 'official',
-                    'note', 'name', 'force_start']:
+        attr('official', True, bool)
+        attr('force_start', False, bool)
+
+        for key in ['youtube', 'direct', 'torrent', 'note', 'name']:
             attr(key)
 
         attr('cuts', func=Timecodes)

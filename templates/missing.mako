@@ -15,7 +15,7 @@
     for game in games:
         for stream in game.streams:
             if stream.youtube:
-                if stream.official == False:
+                if not stream.official:
                     yt.append((game, stream))
             else:
                 missing.append((game, stream))

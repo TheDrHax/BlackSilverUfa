@@ -157,10 +157,10 @@ def can_match(segment, segment_kwargs, directory=None, match_all=False):
     if not original_video(segment, directory):
         return False
 
-    if segment.youtube and segment.official != False and not match_all:
+    if segment.youtube and segment.official and not match_all:
         return False
-    
-    if segment.official == False and segment_kwargs.get('official') == False:
+
+    if not segment.official and segment_kwargs.get('official') is not False:
         print(f'Skipping segment {segment.hash} (both videos are unofficial)',
               file=sys.stderr)
         return False
