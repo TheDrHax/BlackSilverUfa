@@ -719,7 +719,7 @@ var Redirect = {
     "538458255": "/links/gta-san-andreas.html#538458255",
     "542106142": "/links/gta-san-andreas.html#542106142",
     "542613780": "/links/dead-space.html#542613780",
-    "543096330": "/links/first.html#543096330",
+    "543096330": "/links/zombie-army-4.html#543096330",
     "543591605": "/links/first.html#543591605",
     "544589716": "/links/dark-messiah.html#544589716",
     "545136550": "/links/spore.html#545136550",
@@ -736,6 +736,7 @@ var Redirect = {
     "550874352": "/links/metro-exodus.html#550874352",
     "551290502": "/links/dead-space-3.html#551290502",
     "552313454": "/links/clone-drone.html#552313454",
+    "552876850": "/links/dead-cells.html#552876850",
   },
 
   link: function (hash) {
@@ -899,7 +900,6 @@ var Search = {
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
       { name: "Warcraft III: Reforged", path: "/links/first.html#543591605", year: 2020 },
-      { name: "Zombie Army 4: Dead War", path: "/links/first.html#543096330", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
       { name: "Granny: Chapter Two", path: "/links/first.html#530784764", year: 2020 },
       { name: "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", path: "/links/first.html#526101430", year: 2019 },
@@ -1203,6 +1203,7 @@ var Search = {
       { name: "Stick Fight", path: "/links/co-op.html#180663832", year: 2017 },
     ],
     "co-op-series": [
+      { name: "Zombie Army 4: Dead War", path: "/links/zombie-army-4.html", year: 2020 },
       { name: "GTFO", path: "/links/gtfo.html", year: 2019 },
       { name: "Heave Ho", path: "/links/heave-ho.html", year: 2019 },
       { name: "Farming Simulator 19", path: "/links/farming-simulator-19.html", year: 2019 },
