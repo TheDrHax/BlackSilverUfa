@@ -290,6 +290,12 @@ class Segment:
             if key in ['offset', 'start', 'end'] and value == 0:
                 continue
 
+            if key == 'official' and value:
+                continue
+
+            if key == 'force_start' and not value:
+                continue
+
             if not first:
                 yield ', '
             else:
