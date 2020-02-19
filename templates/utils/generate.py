@@ -27,6 +27,8 @@ def generate():
         'categories': categories
     }
 
+    streams.enable_fallbacks()
+
     # Recreate required directores
     if not os.path.isdir(_('')):
         os.mkdir(_(''))

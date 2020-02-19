@@ -190,6 +190,8 @@ def ytdl_video(video_id):
 
 
 def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False):
+    streams.enable_fallbacks()
+
     if 'youtube' in segment_kwargs:
         dupes = [s for s in streams.segments
                  if s.youtube == segment_kwargs['youtube']]
@@ -278,6 +280,8 @@ def check_cuts(original_video, input_video, offset=0):
 
 
 def cmd_cuts(segment, segment_kwargs, directory=None):
+    streams.enable_fallbacks()
+
     if 'youtube' in segment_kwargs:
         video = ytdl_video(segment_kwargs['youtube'])
     elif 'direct' in segment_kwargs:
