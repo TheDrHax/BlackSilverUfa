@@ -160,7 +160,7 @@ def can_match(segment, segment_kwargs, directory=None, match_all=False):
     if segment.youtube and segment.official and not match_all:
         return False
 
-    if not segment.official and segment_kwargs.get('official') is not False:
+    if not segment.official and segment_kwargs.get('official') is False:
         print(f'Skipping segment {segment.hash} (both videos are unofficial)',
               file=sys.stderr)
         return False
@@ -335,7 +335,9 @@ def main(argv=None):
 
         for option, type, key in options:
             if args.get(f'--{option}') is not None:
-                segment_kwargs[key] = type(args[f'--{option}'])
+                value = type(args[f'--{option}'])
+                if value is not None:
+                    segment_kwargs[key] = type(args[f'--{option}'])
 
         commit_msg = None
 
