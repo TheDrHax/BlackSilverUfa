@@ -563,9 +563,7 @@ class Streams(dict):
             else:
                 raise TypeError
 
-        self._enable_fallbacks()
-
-    def _enable_fallbacks(self):
+    def enable_fallbacks(self):
         fallback = config['fallback']
 
         def check(url, code=200):
