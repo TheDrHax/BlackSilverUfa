@@ -3,19 +3,18 @@
 
 import json
 from git import Repo
-from requests import Session
 from datetime import datetime
 from subprocess import run, PIPE
 from sortedcontainers import SortedList, SortedKeyList
 
 from .cache import cached
 from .config import config
+from .fallback import FallbackSource
 from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice
 from ..utils import _, load_json, last_line, count_lines, join, json_escape, indent
 
 
 repo = Repo('.')
-req = Session()
 
 STREAMS_JSON = 'data/streams.json'
 
@@ -564,31 +563,30 @@ class Streams(dict):
                 raise TypeError
 
     def enable_fallbacks(self):
-        fallback = config['fallback']
+        fallback = FallbackSource(**config['fallback'])
 
-        def check(url, code=200):
-            return req.head(
-                url, allow_redirects=fallback['redirects']
-            ).status_code == code
+        items = list(self.items())
+        if not fallback.index:
+            items = items[-fallback.capacity:]
 
-        for key, stream in list(self.items())[-fallback['capacity']:]:
-            if fallback['streams'] and False in [s.playable for s in stream]:
-                url = f'{fallback["prefix"]}/{stream.twitch}.mp4'
-                if check(url):
+        for key, stream in items:
+            if fallback.streams and False in [s.playable for s in stream]:
+                filename = f'{stream.twitch}.mp4'
+                if filename in fallback:
                     for segment in stream:
                         if not segment.playable:
-                            segment.direct = url
+                            segment.direct = fallback.url(filename)
                             segment._fallback_offset = segment.offset()
                             segment.offset = Timecode(0)
                             segment.fallbacks.add('direct')
                             segment.fallbacks.add('offset')
 
-            if fallback['torrents'] and None in [s.torrent for s in stream]:
-                url = f'{fallback["prefix"]}/{stream.twitch}.torrent'
-                if check(url):
+            if fallback.torrents and None in [s.torrent for s in stream]:
+                filename = f'{stream.twitch}.torrent'
+                if filename in fallback:
                     for segment in stream:
                         if segment.torrent is None:
-                            segment.torrent = url
+                            segment.torrent = fallback.url(filename)
                             segment.fallbacks.add('torrent')
 
     @property

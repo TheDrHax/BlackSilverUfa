@@ -6,34 +6,39 @@ import tcd
 import requests
 
 from . import _, load_json
+from ..data.fallback import FallbackSource
 from ..data import config, streams
 
 
 tcd_config = load_json('data/tcd.json')
+fallback = FallbackSource(**config['fallback'])
 
 
 def download(key, dest):
-    fallback = config['fallback']
-    if fallback['chats']:
-        base_url = fallback['prefix']
-        url = f'{base_url}/{key}.ass'
+    if fallback.chats and f'{key}.ass' in fallback:
+        url = fallback.url(f'{key}.ass')
 
-        if requests.head(url, allow_redirects=fallback['redirects']).status_code == 200:
-            print(f'Downloading chat {key} via fallback source')
-            try:
-                r = requests.get(url)
-                with open(dest, 'wb') as of:
-                    for chunk in r.iter_content(chunk_size=1024):
-                        of.write(chunk)
-                return
-            except Exception as ex:
-                print(ex)
-                os.unlink(dest)
+        print(f'Downloading chat {key} via fallback source')
+
+        try:
+            r = requests.get(url)
+            with open(dest, 'wb') as of:
+                for chunk in r.iter_content(chunk_size=1024):
+                    of.write(chunk)
+            return
+        except Exception as ex:
+            print(ex)
+            os.unlink(dest)
 
     print(f'Downloading chat {key} via TCD')
     tcd_config['directory'] = '/'.join(dest.split('/')[:-1])
     tcd.settings.update(tcd_config)
-    tcd.download(key)
+
+    try:
+        tcd.download(key)
+    except Exception as ex:
+        print(ex)
+        os.unlink(dest)
 
 
 if __name__ == '__main__':
