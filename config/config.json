@@ -58,6 +58,7 @@
   "fallback": {
     "prefix": "https://bsufiles.thedrhax.pw/streams",
     "capacity": 50,
+    "parse_index": true,
     "streams": true,
     "chats": true,
     "redirects": true,
