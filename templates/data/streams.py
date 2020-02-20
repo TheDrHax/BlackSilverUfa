@@ -397,7 +397,7 @@ class SegmentReference(Segment):
         if self.game.type == 'list':
             return self.name
         else:
-            return self.game.name
+            return f'{self.game.name} - {self.name}'
 
     def __getattr__(self, attr):
         return getattr(self._parent, attr)
