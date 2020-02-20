@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
+import attr
 from datetime import datetime, timedelta
 from sortedcontainers import SortedList
 
@@ -9,7 +7,23 @@ from .streams import streams
 from ..utils import load_json
 
 
+CATEGORIES_JSON = 'data/categories.json'
+
+
+@attr.s(auto_attribs=True)
 class Category:
+    name: str = None
+    description: str = None
+    code: str = None
+    level: int = 2
+    search: bool = True
+    split_by_year: bool = True
+
+    games: SortedList = attr.ib(init=False, repr=False)
+
+    def __attrs_post_init__(self):
+        self.games = SortedList(key=lambda x: x.date)
+
     @staticmethod
     def from_dict(data, games=[]):
         self = Category(**data)
@@ -24,23 +38,6 @@ class Category:
                 games.remove(game)
 
         return self
-
-    def __init__(self, **kwargs):
-        def attr(key, default=None, func=lambda x: x):
-            if key in kwargs:
-                setattr(self, key, func(kwargs[key]))
-            else:
-                setattr(self, key, default)
-
-        attr('search', True, bool)
-        attr('split_by_year', True, bool)
-
-        for key in ['name', 'code', 'description']:
-            attr(key)
-
-        attr('level', 2)
-
-        self.games = SortedList(key=lambda x: x.date)
 
 
 class Categories(dict):
@@ -63,7 +60,7 @@ class Categories(dict):
             self[c.code] = c
 
         month_ago = datetime.now() - timedelta(days=30)
-                
+
         if 'ongoing' in self and 'abandoned' in self:
             for game in self['ongoing'].games.copy():
                 if game.streams[-1].date < month_ago:
@@ -76,4 +73,4 @@ class Categories(dict):
             raise(AttributeError('Invalid category in ' + ', '.join(names)))
 
 
-categories = Categories(load_json('data/categories.json'))
+categories = Categories(load_json(CATEGORIES_JSON))
