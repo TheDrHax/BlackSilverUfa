@@ -18,6 +18,8 @@ function get_timecodes(id) {
   return document.querySelectorAll('.timecodes[data-id="' + id + '"] a[data-value]');
 }
 
+const resume = JSON.parse(localStorage.getItem("resume_playback")) || {};
+
 function spawnPlayer(wrapper, callback) {
   if (wrapper.dataset.youtube || wrapper.dataset.direct) {
     return spawnPlyr(wrapper, callback);
@@ -29,14 +31,18 @@ function spawnPlyr(wrapper, callback) {
   var stream = wrapper.dataset;
   var timecodes = get_timecodes(stream.id);
 
+  const id = stream.twitch + '.' + (stream.segment || 0);
+  const offset = +stream.offset || 0;
+  var start = +stream.start || 0;
+  const end = +stream.end || 0;
+  const force_start = Boolean(stream.force_start);
+
   var options = {
-    // Disable quality seletion (doesn't work on YouTube)
+    // Disable quality selection (doesn't work on YouTube)
     settings: ['captions', /* 'quality', */ 'speed', 'loop'],
-    invertTime: false
+    invertTime: false,
+    duration: end > 0 ? end : undefined
   };
-  if (wrapper.dataset.end) {
-    options.duration = +wrapper.dataset.end;
-  }
 
   wrapper.innerHTML = '<video />';
   player = new Plyr(wrapper.children[0], options);
@@ -44,32 +50,41 @@ function spawnPlyr(wrapper, callback) {
   // Force enable click and hover events on PCs with touchscreen
   player.touch = false;
 
-  const force_start = Boolean(wrapper.dataset.force_start);
-
+  var last_timestamp = -1;
   player.on('timeupdate', function(event) {
-    // Stop player when video exceeds overriden duration
-    if (wrapper.dataset.end) {
-      if (player.currentTime >= player.config.duration) {
-        player.currentTime = player.config.duration;
-        player.pause();
-      }
+    var time = Math.floor(player.currentTime);
+
+    // Run only once per second
+    if (time != last_timestamp) {
+      last_timestamp = time;
+    } else {
+      return;
     }
 
-    if (wrapper.dataset.start) {
-      var start = +wrapper.dataset.start;
+    // Stop player when video exceeds overridden duration
+    if (end > 0 && time >= player.config.duration) {
+      player.currentTime = player.config.duration;
+      player.pause();
+    }
 
-      if (player.currentTime != NaN && player.currentTime < start) {
-        player.currentTime = start;
+    // Save current position every 5 seconds
+    if (time % 5 == 0) {
+      resume[id] = time - offset;
+      localStorage.setItem('resume_playback', JSON.stringify(resume));
+    }
 
-        if (!force_start) {
-          wrapper.dataset.start = false; // Seek to the start only one time
-        }
+    // Seek forward if start field is specified
+    if (time < start) {
+      player.currentTime = start;
+
+      if (!force_start) {
+        start = 0; // Seek to the start only one time
       }
     }
 
     // Change color of timecode links
     timecodes.forEach(function(el) {
-      if (el.dataset.value < player.currentTime) {
+      if (el.dataset.value < time) {
         if (!el.classList.contains('visited')) {
           el.classList.add('visited');
         }
@@ -80,6 +95,7 @@ function spawnPlyr(wrapper, callback) {
       }
     });
   });
+
   player.on('playing', function(event) {
     // Workaround for muted sound after seeking
     if (!player.muted) {
@@ -88,31 +104,28 @@ function spawnPlyr(wrapper, callback) {
   });
 
   var source = { type: 'video' };
-  if (wrapper.dataset.youtube) {
+  if (stream.youtube) {
     source.sources = [{
       provider: 'youtube',
-      src: wrapper.dataset.youtube
+      src: stream.youtube
     }];
   } else {
     source.sources = [{
       type: 'video/mp4',
-      src: wrapper.dataset.direct
+      src: stream.direct
     }];
   }
   player.source = source;
 
   // Connect Subtitles Octopus to video
-  var subtitles_options = {
+  subtitles = new SubtitlesOctopus({
     // Wrapper allows to track player's size and position but time tracking
     // will not work. See subtitles.setVideo() call below.
     video: player.elements.wrapper,
-    subUrl: wrapper.dataset.subtitles,
+    subUrl: stream.subtitles,
     workerUrl: '/static/js/subtitles-octopus-worker.js',
-  };
-  if (wrapper.dataset.offset) {
-    subtitles_options.timeOffset = +wrapper.dataset.offset;
-  }
-  subtitles = new SubtitlesOctopus(subtitles_options);
+    timeOffset: offset
+  });
 
   // Player caption button
   player.on('ready', function(event) {
@@ -137,7 +150,7 @@ function spawnPlyr(wrapper, callback) {
     captions.pressed = true;
   });
 
-  if (wrapper.dataset.youtube) {
+  if (stream.youtube) {
     // Fix Subtitles Octopus to work with embedded YouTube videos
     // TODO: Fix subtitles position in fullscreen mode
     function subResize(event) {
@@ -161,27 +174,35 @@ function spawnPlyr(wrapper, callback) {
     player.on('exitfullscreen', subResize);
     window.addEventListener('resize', debounce(subResize, 100, false));
 
-    // Workaround for starting video from saved position
-    function playpause(event) {
+    // Trigger seeking to the last position saved by YouTube
+    player.on('ready', function (event) {
       player.play();
       player.pause();
-    }
-    player.on('ready', playpause);
+    });
   }
 
   // Element controls
   wrapper.seek = function(time) {
     player.currentTime = time;
-    wrapper.dataset.start = false; // ignore 'start' attribute
+    start = 0; // ignore 'start' attribute
     player.play();
     return false;
   };
 
   if (callback != undefined) {
-    if (wrapper.dataset.direct) {
-      player.on('loadedmetadata', function(event) { callback(wrapper); });
+    function ready(event) {
+      // Seek to the saved position
+      if (resume[id]) {
+        player.currentTime = resume[id] + offset;
+      }
+
+      callback(wrapper);
+    }
+    
+    if (stream.direct) {
+      player.on('loadedmetadata', ready);
     } else {
-      player.on('ready', function(event) { callback(wrapper); });
+      player.on('ready', ready);
     }
   }
 
