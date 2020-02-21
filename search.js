@@ -739,6 +739,7 @@ var Redirect = {
     "552876850": "/links/dead-cells.html#552876850",
     "553926728": "/links/first.html#553926728",
     "554432443": "/links/gta-san-andreas.html#554432443",
+    "555473037": "/links/zombie-army-4.html#555473037",
   },
 
   link: function (hash) {
