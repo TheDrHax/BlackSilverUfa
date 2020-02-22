@@ -51,11 +51,12 @@ function spawnPlyr(wrapper, callback) {
   player.touch = false;
 
   var last_timestamp = -1;
+  var last_save = -1;
   player.on('timeupdate', function(event) {
-    var time = Math.floor(player.currentTime);
+    var time = player.currentTime;
 
     // Run only once per second
-    if (time != last_timestamp) {
+    if (Math.abs(time - last_timestamp) > 1) {
       last_timestamp = time;
     } else {
       return;
@@ -68,9 +69,10 @@ function spawnPlyr(wrapper, callback) {
     }
 
     // Save current position every 5 seconds
-    if (time % 5 == 0) {
-      resume[id] = time - offset;
+    if (Math.abs(time - last_save) > 5) {
+      resume[id] = Math.floor(time) - offset;
       localStorage.setItem('resume_playback', JSON.stringify(resume));
+      last_save = time;
     }
 
     // Seek forward if start field is specified
