@@ -281,7 +281,7 @@ class Segment:
             value = get_attr(key)
 
             if key == 'offset':
-                value = value()
+                value = self.offset()
 
             if value is None:
                 continue
