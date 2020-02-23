@@ -737,10 +737,11 @@ var Redirect = {
     "551290502": "/links/dead-space-3.html#551290502",
     "552313454": "/links/clone-drone.html#552313454",
     "552876850": "/links/dead-cells.html#552876850",
-    "553926728": "/links/first.html#553926728",
+    "553926728": "/links/dreams.html#553926728",
     "554432443": "/links/gta-san-andreas.html#554432443",
     "555473037": "/links/zombie-army-4.html#555473037",
     "556030369": "/links/dead-space-3.html#556030369",
+    "556596083": "/links/dreams.html#556596083",
   },
 
   link: function (hash) {
@@ -903,7 +904,6 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
-      { name: "Dreams", path: "/links/first.html#553926728", year: 2020 },
       { name: "Warcraft III: Reforged", path: "/links/first.html#543591605", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
       { name: "Granny: Chapter Two", path: "/links/first.html#530784764", year: 2020 },
@@ -1079,6 +1079,7 @@ var Search = {
       { name: "Spore", path: "/links/spore.html", year: 2019 },
     ],
     "infinite": [
+      { name: "Dreams", path: "/links/dreams.html", year: 2020 },
       { name: "Police Stories", path: "/links/police-stories.html", year: 2019 },
       { name: "Ancestors: The Humankind Odyssey", path: "/links/ancestors.html", year: 2019 },
       { name: "Jump King", path: "/links/jump-king.html", year: 2019 },
@@ -1141,6 +1142,8 @@ var Search = {
     ],
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2020 },
+      { name: "I Will Eat You", path: "/links/co-op.html#556596083", year: 2020 },
+      { name: "Hand Simulator: Survival", path: "/links/co-op.html#556596083", year: 2020 },
       { name: "Totally Reliable Delivery Service", path: "/links/co-op.html#552313454", year: 2020 },
       { name: "Paunch", path: "/links/co-op.html#552313454", year: 2020 },
       { name: "Besiege", path: "/links/co-op.html#552313454", year: 2020 },
