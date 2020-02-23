@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
+import attr
 from datetime import datetime
 
 from .streams import streams, SegmentReference
@@ -10,35 +8,42 @@ from ..utils import load_json, join, json_escape, indent
 GAMES_JSON = 'data/games.json'
 
 
+@attr.s(auto_attribs=True)
 class Game:
-    def __init__(self, **kwargs):
-        self.name = kwargs['name']
-        self.category = kwargs['category']
-        self.type = kwargs.get('type')
-        self.id = kwargs['id']
-        self.streams = []
-        self.thumb_index = kwargs.get('thumbnail') or 0
+    name: str = None
+    category: str = None
+    type: str = None
+    id: str = None
+    cover: int = 0
+    streams: list = attr.ib(factory=list)
 
-        for segment in kwargs['streams']:
+    def __attrs_post_init__(self):
+        refs = []
+        for segment in self.streams:
             parent = streams[segment['twitch']][segment.get('segment') or 0]
             ref = SegmentReference(parent, game=self, **segment)
             ref.stream.games.append((self, ref))
-            self.streams.append(ref)
+            refs.append(ref)
+        self.streams = refs
 
+    @property
     def stream_count(self):
         return len(set([s.twitch for s in self.streams]))
 
     @property
     def thumbnail(self):
-        return self.streams[self.thumb_index].thumbnail
-    
+        if isinstance(self.cover, int):
+            return self.streams[self.cover].thumbnail
+        else:
+            return self.cover
+
     @property
     def filename(self):
         return f'/links/{self.id}.html'
 
     @property
     def _unix_time(self):
-        return self.streams[self.thumb_index].stream._unix_time
+        return self.streams[self.cover].stream._unix_time
 
     @property
     def date(self):
@@ -46,15 +51,13 @@ class Game:
 
     @join()
     def to_json(self):
-        keys = ['name', 'category', 'type', 'id', 'streams', 'thumbnail']
+        keys = ['name', 'category', 'type', 'id', 'streams', 'cover']
 
         yield '{\n  '
 
         first = True
         for key in keys:
-            if key == 'thumbnail':
-                if self.thumb_index != 0:
-                    yield f',\n  "{key}": {self.thumb_index}'
+            if key == 'cover' and self.cover == 0:
                 continue
 
             if key == 'streams':
@@ -63,7 +66,7 @@ class Game:
                 yield indent(',\n'.join(refs), 4)
                 yield '\n  ]'
                 continue
-            
+
             if not getattr(self, key):
                 continue
 
@@ -75,10 +78,10 @@ class Game:
             yield f'"{key}": {json_escape(getattr(self, key))}'
 
         yield '\n}'
-    
+
     def __str__(self):
         return self.to_json()
-    
+
     def __repr__(self):
         return self.to_json()
 
@@ -113,17 +116,17 @@ class Games(list):
             yield indent(game.to_json(), 2)
 
         yield '\n]'
-    
+
     def __str__(self):
         return self.to_json()
-    
+
     def __repr__(self):
         return f'Games({len(self)})'
 
     def save(self, filename: str = None):
         if filename is None:
             filename = self.filename
-        
+
         with open(filename, 'w') as fo:
             fo.write(self.to_json())
             fo.write('\n')
