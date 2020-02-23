@@ -74,7 +74,8 @@
       { "name": "Tools Up! / Out of Space", "twitch": "518306588", "start": "1:43:33" },
       { "name": "Beyond Senses / eXplosive Dinosaurs / Titeuf", "twitch": "527927154", "start": "2:07:14" },
       { "name": "Left 4 Dead 2", "twitch": "532342982" },
-      { "name": "Totally Reliable Delivery Service / Paunch / Besiege", "twitch": "552313454", "start": "4:01:43" }
+      { "name": "Totally Reliable Delivery Service / Paunch / Besiege", "twitch": "552313454", "start": "4:01:43" },
+      { "name": "I Will Eat You / Hand Simulator: Survival", "twitch": "556596083", "start": "2:07:59" }
     ]
   },
   {
@@ -331,7 +332,8 @@
       { "name": "3", "twitch": "410400457", "start": "2:11:12" },
       { "name": "4", "twitch": "439860739", "start": "3:37:22" },
       { "name": "5 (6D)", "twitch": "500334713", "start": "1:36:32" },
-      { "name": "6 (6D)", "twitch": "524415764", "segment": 1, "start": "4:43:41" }
+      { "name": "6 (6D)", "twitch": "524415764", "segment": 1, "start": "4:43:41" },
+      { "name": "7 (6D)", "twitch": "556596083", "start": "3:49:11" }
     ]
   },
   {
@@ -590,7 +592,8 @@
       { "name": "16", "twitch": "423369283", "segment": 1 },
       { "name": "17", "twitch": "445866715", "start": "4:27:04" },
       { "name": "18", "twitch": "452195101", "start": "4:03:11" },
-      { "name": "19", "twitch": "487949971", "start": "4:58:26" }
+      { "name": "19", "twitch": "487949971", "start": "4:58:26" },
+      { "name": "20", "twitch": "556596083", "start": "5:13:26" }
     ]
   },
   {
@@ -1261,8 +1264,16 @@
       { "name": "Trepang2 (демо) / The Paperman", "twitch": "524865260" },
       { "name": "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", "twitch": "526101430" },
       { "name": "Zombie Claus / Granny: Chapter Two", "twitch": "530784764", "start": "3:59:51" },
-      { "name": "Warcraft III: Reforged", "twitch": "543591605" },
-      { "name": "Dreams", "twitch": "553926728" }
+      { "name": "Warcraft III: Reforged", "twitch": "543591605" }
+    ]
+  },
+  {
+    "name": "Dreams",
+    "category": "infinite",
+    "id": "dreams",
+    "streams": [
+      { "name": "1", "twitch": "553926728" },
+      { "name": "2", "twitch": "556596083" }
     ]
   },
   {
