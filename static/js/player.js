@@ -126,6 +126,7 @@ function spawnPlyr(wrapper, callback) {
     video: player.elements.wrapper,
     subUrl: stream.subtitles,
     workerUrl: '/static/js/subtitles-octopus-worker.js',
+    fonts: ['/static/fonts/LiberationSans-Extended.ttf'],
     timeOffset: offset
   });
 
