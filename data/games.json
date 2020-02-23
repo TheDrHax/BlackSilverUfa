@@ -114,7 +114,7 @@
       { "name": "1", "twitch": "519609666", "start": "1:16:19" },
       { "name": "2", "twitch": "520877239", "start": "2:08:31" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Secret Neighbor",
@@ -264,7 +264,7 @@
       { "name": "1", "twitch": "234037742", "segment": 0 },
       { "name": "2", "twitch": "367994742", "segment": 1, "start": "4:10:21" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Desolate",
@@ -392,7 +392,7 @@
       { "name": "7", "twitch": "346312308", "start": "3:09:58" },
       { "name": "8", "twitch": "387007566" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Своя Игра",
@@ -512,7 +512,7 @@
       { "name": "7", "twitch": "452195101", "start": "2:05:37" },
       { "name": "8", "twitch": "487949971", "start": "3:37:04" }
     ],
-    "thumbnail": 3
+    "cover": 3
   },
   {
     "name": "Human: Fall Flat",
@@ -536,7 +536,7 @@
       { "name": "2", "twitch": "234373553" },
       { "name": "3", "twitch": "284156303", "start": "2:11:45" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "We Need to Go Deeper",
@@ -629,7 +629,7 @@
       { "name": "2 (после EA Play 2018)", "twitch": "271255246", "segment": 2 },
       { "name": "3", "twitch": "272058083", "segment": 1 }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Конференции",
@@ -680,7 +680,7 @@
       { "name": "3 (часть 2)", "twitch": "237304245" },
       { "name": "4", "twitch": "246543709" }
     ],
-    "thumbnail": 2
+    "cover": 2
   },
   {
     "name": "Darkwood",
@@ -701,7 +701,7 @@
       { "name": "PS4-версия (часть 1)", "twitch": "426011884" },
       { "name": "PS4-версия (часть 2)", "twitch": "426022824", "segment": 0 }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "неПрофессиональный E3 2019",
@@ -746,7 +746,7 @@
       { "name": "6 (The Assignment и The Consequence)", "twitch": "164116949" },
       { "name": "6.5 (The Consequence и The Executioner)", "twitch": "164165380" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Hellblade: Senua's Sacrifice",
@@ -940,7 +940,7 @@
       { "name": "1", "twitch": "518751002" },
       { "name": "2", "twitch": "520025510", "segment": 0 }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Pamali: Indonesian Folklore Horror",
@@ -961,7 +961,7 @@
       { "name": "1", "twitch": "338800850" },
       { "name": "2", "twitch": "341780077", "segment": 1, "start": "3:11:13" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "MONSTRUM",
@@ -1642,7 +1642,7 @@
       { "name": "0 (бета)", "twitch": "305785431" },
       { "name": "1", "twitch": "479926128" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "The Dark Pictures: Man of Medan",
@@ -1793,7 +1793,7 @@
       { "name": "4", "twitch": "417527615" },
       { "name": "5", "twitch": "418378382" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Mortal Kombat 11",
@@ -1805,7 +1805,7 @@
       { "name": "С Куплиновым", "twitch": "426022824", "segment": 1 },
       { "name": "Со зрителями", "twitch": "483098038" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Totally Accurate Battle Simulator",
@@ -1882,7 +1882,7 @@
       { "name": "1", "twitch": "391675645" },
       { "name": "2", "twitch": "392176181" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Wounded",
@@ -1892,7 +1892,7 @@
       { "name": "1", "twitch": "389704750" },
       { "name": "2", "twitch": "390719635", "segment": 0, "start": "1:22:54" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Anthem",
@@ -1904,7 +1904,7 @@
       { "name": "2", "twitch": "385983486" },
       { "name": "3", "twitch": "387496098", "segment": 1, "start": "4:04:45" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Metro Exodus",
@@ -1963,7 +1963,7 @@
       { "name": "5 (DLC - Выжившие призраки)", "twitch": "383771606" },
       { "name": "6 (Every enemy is Mr. X)", "twitch": "527412040" }
     ],
-    "thumbnail": 1
+    "cover": 1
   },
   {
     "name": "Subnautica",
@@ -2274,7 +2274,7 @@
       { "name": "5", "twitch": "280402233", "segment": 1 },
       { "name": "6", "twitch": "280767310", "segment": 0 }
     ],
-    "thumbnail": 4
+    "cover": 4
   },
   {
     "name": "Moonlighter",
