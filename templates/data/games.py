@@ -10,10 +10,10 @@ GAMES_JSON = 'data/games.json'
 
 @attr.s(auto_attribs=True)
 class Game:
-    name: str = None
-    category: str = None
+    name: str = attr.ib()
+    category: str = attr.ib()
+    id: str = attr.ib()
     type: str = None
-    id: str = None
     cover: int = 0
     streams: list = attr.ib(factory=list)
 

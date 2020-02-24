@@ -10,7 +10,7 @@ req = Session()
 
 @attr.s(auto_attribs=True)
 class FallbackSource:
-    prefix: str = None
+    prefix: str = attr.ib()
     capacity: int = 50
     parse_index: bool = True
     streams: bool = True
