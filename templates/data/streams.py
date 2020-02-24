@@ -26,17 +26,16 @@ class Segment:
     official: bool = True
     force_start: bool = False
 
-    start: Timecode = attr.ib(Timecode(0), converter=Timecode)
-    end: Timecode = attr.ib(Timecode(0), converter=Timecode)
-    _offset: Timecode = attr.ib(Timecode(0), converter=Timecode)
-    cuts: Timecodes = attr.ib([], converter=Timecodes)
+    start: Timecode = attr.ib(0, converter=Timecode)
+    end: Timecode = attr.ib(0, converter=Timecode)
+    _offset: Timecode = attr.ib(0, converter=Timecode)
+    cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
 
-    stream: 'Stream' = None  # depends on offset
+    stream: 'Stream' = attr.ib(attr.NOTHING)  # depends on _offset
 
-    twitch: str = attr.ib(init=False)
-    references: SortedList = attr.ib(init=False, repr=False)
-    fallbacks: dict = attr.ib(init=False, repr=False)
-    timecodes: TimecodesSlice = attr.ib(init=False, repr=False)
+    references: SortedList = attr.ib(init=False)
+    fallbacks: dict = attr.ib(init=False)
+    timecodes: TimecodesSlice = attr.ib(init=False)
 
     def __attrs_post_init__(self):
         self.references = SortedList(key=lambda x: x.start)
@@ -60,11 +59,14 @@ class Segment:
             if hasattr(self, 'stream') and self.stream and self in self.stream:
                 self.stream.remove(self)
             super().__setattr__(name, value)
-            self.twitch = self.stream.twitch
             self.stream.add(self)
             return
 
         return super().__setattr__(name, value)
+
+    @property
+    def twitch(self) -> str:
+        return self.stream.twitch
 
     @property
     def segment(self) -> int:
@@ -241,14 +243,14 @@ class Segment:
 
 @attr.s(auto_attribs=True, kw_only=True)
 class SegmentReference:
-    silent: bool = False
-    game: 'Game' = None
-    name: str = None
-    twitch: str = None
+    name: str = attr.ib()
+    game: 'Game' = attr.ib()
+    _twitch: str = None  # ignored
     segment: int = 0
     note: str = None
-    start: Timecode = attr.ib(Timecode(0), converter=Timecode)
-    parent: Segment = None  # depends on silent, start
+    start: Timecode = attr.ib(0, converter=Timecode)
+    silent: bool = False
+    parent: Segment = attr.ib()  # depends on silent, start
 
     def __attrs_post_init__(self):
         if not self.game:

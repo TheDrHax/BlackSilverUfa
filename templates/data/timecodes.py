@@ -198,8 +198,8 @@ class Timecodes(Timecode, SortedKeyList):
 
 @attr.s(auto_attribs=True)
 class TimecodesSlice(Timecodes):
-    segment: Union['Segment', 'SegmentReference'] = attr.NOTHING
-    parent: Timecodes = attr.NOTHING
+    segment: Union['Segment', 'SegmentReference'] = attr.ib()
+    parent: Timecodes = attr.ib()
 
     def in_range(self, t):
         if t < self.segment.abs_start:

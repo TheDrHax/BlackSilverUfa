@@ -12,9 +12,9 @@ CATEGORIES_JSON = 'data/categories.json'
 
 @attr.s(auto_attribs=True)
 class Category:
-    name: str = None
+    name: str = attr.ib()
+    code: str = attr.ib()
     description: str = None
-    code: str = None
     level: int = 2
     search: bool = True
     split_by_year: bool = True
