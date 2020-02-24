@@ -248,7 +248,6 @@ class SegmentReference:
     segment: int = 0
     note: str = None
     start: Timecode = attr.ib(Timecode(0), converter=Timecode)
-    end: Timecode = attr.ib(Timecode(0), converter=Timecode)
     parent: Segment = None  # depends on silent, start
 
     def __attrs_post_init__(self):
