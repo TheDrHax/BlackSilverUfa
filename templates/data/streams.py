@@ -154,7 +154,9 @@ class Segment:
         if self.end != 0:
             return self.end
         elif self.duration.value > 0:
-            return self.abs_start + self.duration
+            end = self.abs_start + self.duration
+            end += sum(cut.duration for cut in self.cuts)
+            return end
         elif self.segment == len(self.stream) - 1:
             return self.stream.duration
         else:
