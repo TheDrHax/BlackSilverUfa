@@ -65,7 +65,7 @@ def cut_subtitles(segment):
     cache_key = f'cuts-{segment.hash}'
     cut_hash = md5(str(segment.cuts).encode('utf-8')).hexdigest()
 
-    if not segment.cuts:
+    if len(segment.cuts) == 0:
         if cache_key in cache:
             print(f'Removing cut subtitles of segment {segment.hash}')
             os.unlink(segment.cut_subtitles_path)

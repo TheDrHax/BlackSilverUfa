@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
+import attr
 import json
+from typing import Union
 
 from datetime import datetime
 from sortedcontainers import SortedKeyList
@@ -197,46 +196,38 @@ class Timecodes(Timecode, SortedKeyList):
         return int(self)
 
 
+@attr.s(auto_attribs=True)
 class TimecodesSlice(Timecodes):
-    def __init__(self, parent,
-                 start=Timecode(0),
-                 offset=Timecode(0),
-                 end=Timecode('7:00:00:00'),
-                 cuts=Timecodes()):
-        self.parent = parent
-        self.start = start
-        self.offset = offset
-        self.end = end
-        self.cuts = cuts
+    segment: Union['Segment', 'SegmentReference'] = attr.NOTHING
+    parent: Timecodes = attr.NOTHING
+
+    def in_range(self, t):
+        if t < self.segment.abs_start:
+            return False
+
+        if t >= self.segment.abs_end:
+            return False
+
+        for cut in self.segment.cuts:
+            if cut.value <= t <= cut.value + cut.duration:
+                return False
+
+        return True
 
     @cached_property
     def _data(self):
-        def in_range(t):
-            if t - self.offset(t) < self.start:
-                return False
-
-            if t - self.offset(t) >= self.end:
-                return False
-
-            for cut in self.cuts:
-                if cut.value <= t <= cut.value + cut.duration:
-                    return False
-
-            return True
-
         ts = Timecodes(name=self.name)
 
         for t in self.parent:
             if isinstance(t, Timecodes):
-                tss = TimecodesSlice(t, self.start, self.offset,
-                                     self.end, self.cuts)
+                tss = TimecodesSlice(parent=t, segment=self.segment)
                 if len(tss) > 0:
                     ts.add(tss)
             elif isinstance(t, Timecode):
                 duration = t.duration or 0
 
-                left = in_range(t)
-                right = in_range(t + duration)
+                left = self.in_range(t)
+                right = self.in_range(t + duration)
 
                 if not left and not right:
                     continue
@@ -247,7 +238,7 @@ class TimecodesSlice(Timecodes):
                 if not left and right:  # end only
                     t = Timecode(t.value + duration, t.name)
 
-                ts.add(t - self.offset(t))
+                ts.add(t - self.segment.offset(t))
 
         # Collapse timecode list
         if len(ts) == 1 and isinstance(ts[0], Timecodes) and not ts[0].is_list:
