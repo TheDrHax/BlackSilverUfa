@@ -318,11 +318,13 @@ class TimecodesDatabase(dict):
         return self.to_json()
 
     def save(self, filename: str = None):
-        if filename == None:
+        if filename is None:
             filename = self.filename
 
+        data = self.to_json()
+
         with open(filename, 'w') as fo:
-            fo.write(self.to_json())
+            fo.write(data)
             fo.write('\n')
 
 
