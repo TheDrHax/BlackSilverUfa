@@ -115,7 +115,7 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
     % endfor
   </ul>
 % endif
-% if segment.timecodes:
+% if len(segment.timecodes) > 0:
   <div class="timecodes" data-id="${id}">
   ${timecode_list(segment.timecodes)}
   </div>

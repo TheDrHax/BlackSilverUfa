@@ -36,29 +36,13 @@ class Segment:
     twitch: str = attr.ib(init=False)
     references: SortedList = attr.ib(init=False, repr=False)
     fallbacks: dict = attr.ib(init=False, repr=False)
+    timecodes: TimecodesSlice = attr.ib(init=False, repr=False)
 
     def __attrs_post_init__(self):
         self.references = SortedList(key=lambda x: x.start)
         self.fallbacks = dict()
-
-    @property
-    def timecodes(self):
-        if len(self.stream.timecodes) == 0:
-            return None
-
-        timecodes = TimecodesSlice(self.stream.timecodes,
-                                   start=self.start,
-                                   offset=self.offset)
-
-        if self.end != 0:
-            timecodes.end = self.end
-        elif self.duration > 0:
-            timecodes.end = self.duration
-
-        if self.cuts:
-            timecodes.cuts = self.cuts
-
-        return timecodes
+        self.timecodes = TimecodesSlice(parent=self.stream.timecodes,
+                                        segment=self)
 
     def offset(self, t=0):
         cuts = sum([cut.duration for cut in self.cuts if cut <= t])
@@ -104,7 +88,7 @@ class Segment:
 
     @property
     def subtitles(self):
-        if self.cuts:
+        if len(self.cuts) > 0:
             return self.cut_subtitles
         else:
             return self.stream.subtitles
@@ -115,7 +99,7 @@ class Segment:
 
     @property
     def subtitles_path(self):
-        if self.cuts:
+        if len(self.cuts) > 0:
             return self.cut_subtitles_path
         else:
             return self.stream.subtitles_path

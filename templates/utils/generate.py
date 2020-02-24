@@ -59,11 +59,11 @@ def generate():
 
     for segment in streams.segments:
         # Generate preprocessed timecodes.json
-        if segment.timecodes:
+        if len(segment.timecodes) > 0:
             tc_dict[segment.hash] = segment.timecodes.to_dict()
 
         # Generate cut subtitles
-        if segment.cuts:
+        if len(segment.cuts) > 0:
             cut_subtitles(segment)
 
     with open(_("data/timecodes.json"), 'w') as fo:
