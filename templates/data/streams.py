@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
+import attr
 import json
 from git import Repo
 from datetime import datetime
@@ -19,41 +17,29 @@ repo = Repo('.')
 STREAMS_JSON = 'data/streams.json'
 
 
+@attr.s(auto_attribs=True, kw_only=True)
 class Segment:
-    def __init__(self, stream, **kwargs):
+    note: str = None
+    youtube: str = None
+    direct: str = None
+    torrent: str = None
+    official: bool = True
+    force_start: bool = False
+
+    start: Timecode = attr.ib(Timecode(0), converter=Timecode)
+    end: Timecode = attr.ib(Timecode(0), converter=Timecode)
+    _offset: Timecode = attr.ib(Timecode(0), converter=Timecode)
+    cuts: Timecodes = attr.ib([], converter=Timecodes)
+
+    stream: 'Stream' = None  # depends on offset
+
+    twitch: str = attr.ib(init=False)
+    references: SortedList = attr.ib(init=False, repr=False)
+    fallbacks: dict = attr.ib(init=False, repr=False)
+
+    def __attrs_post_init__(self):
         self.references = SortedList(key=lambda x: x.start)
-
-        def attr(key, default=None, func=lambda x: x):
-            if key in kwargs:
-                setattr(self, key, func(kwargs[key]))
-            else:
-                setattr(self, key, default)
-
-        for key in ['offset', 'start', 'end']:
-            attr(key, Timecode(0), Timecode)
-
-        attr('official', True, bool)
-        attr('force_start', False, bool)
-
-        for key in ['youtube', 'direct', 'torrent', 'note', 'name']:
-            attr(key)
-
-        attr('cuts', func=Timecodes)
-
-        self.stream = stream
-        self.fallbacks = set()
-
-    @property
-    def stream(self) -> 'Stream':
-        return self._stream
-
-    @stream.setter
-    def stream(self, new):
-        if hasattr(self, 'stream'):
-            self.stream.remove(self)
-        self._stream = new
-        self.twitch = self._stream.twitch
-        self._stream.add(self)
+        self.fallbacks = dict()
 
     @property
     def timecodes(self):
@@ -74,27 +60,27 @@ class Segment:
 
         return timecodes
 
-    def _calculate_offset(self, t=0):
-        offset = self._offset
+    def offset(self, t=0):
+        cuts = sum([cut.duration for cut in self.cuts if cut <= t])
+        return self._offset + cuts
 
-        if self.cuts:
-            offset += sum([cut.duration for cut in self.cuts if cut <= t])
+    def __setattr__(self, name, value):
+        if name in ['offset', '_offset']:
+            super().__setattr__('_offset', value)
+            if hasattr(self, 'stream') and self.stream and self in self.stream:
+                self.stream.remove(self)
+                self.stream.add(self)
+            return
 
-        return offset
-
-    @property
-    def offset(self):
-        """Return function to calculate offset at specific timestamp"""
-        return self._calculate_offset
-
-    @offset.setter
-    def offset(self, value):
-        if hasattr(self, 'stream'):
-            self.stream.remove(self)
-            self._offset = value
+        if name == 'stream':
+            if hasattr(self, 'stream') and self.stream and self in self.stream:
+                self.stream.remove(self)
+            super().__setattr__(name, value)
+            self.twitch = self.stream.twitch
             self.stream.add(self)
-        else:
-            self._offset = value
+            return
+
+        return super().__setattr__(name, value)
 
     @property
     def segment(self) -> int:
@@ -103,50 +89,14 @@ class Segment:
     def reference(self):
         return SegmentReference(
             parent=self.references[0],
+            game=self.references[0].game,
             name=' / '.join([r.game_name for r in self.references]),
-            parent_ro=True
-        )
+            silent=True)
 
     @property
     def playable(self):
         return True in [getattr(self, key) is not None
                         for key in ['youtube', 'direct']]
-
-    def attrs(self):
-        attrs = []
-
-        def escape_attr(attr):
-            if type(attr) is str:
-                return attr.replace('"', '&quot;')
-            else:
-                return str(attr)
-
-        def add(key, func=lambda x: x, check=lambda x: x is not None):
-            value = getattr(self, key)
-            if check(value):
-                value = func(value)
-                value = escape_attr(value)
-                attrs.append(f'data-{key}="{value}"')
-
-        if self.segment != 0:
-            add('segment')
-
-        add('offset', lambda x: x().value, lambda x: x() != 0)
-        add('subtitles')
-
-        for key in ['start', 'end']:
-            add(key, lambda x: int(x - self.offset(x)), lambda x: x != 0)
-
-        for key in ['name', 'twitch', 'youtube', 'direct']:
-            add(key)
-
-        if self.force_start:
-            add('force_start', lambda x: 'true' if x else 'false')
-
-        if not self.playable:
-            attrs.append('style="display: none"')
-
-        return ' '.join(attrs)
 
     @property
     def cut_subtitles(self):
@@ -230,22 +180,6 @@ class Segment:
         else:
             return '/static/images/no-preview.png'
 
-    def mpv_file(self):
-        if self.youtube:
-            return 'ytdl://' + self.youtube
-        elif self.direct:
-            return self.direct
-
-    def mpv_args(self):
-        res = f'--sub-file={self.subtitles} '
-        if self.offset() != 0:
-            res += f'--sub-delay={-int(self.offset())} '
-        if self.start != 0:
-            res += f'--start={int(self.start - self.offset(self.start))} '
-        if self.end != 0:
-            res += f'--end={int(self.end - self.offset(self.end))} '
-        return res.strip()
-
     @join()
     def to_json(self):
         keys = ['youtube', 'direct', 'offset', 'cuts', 'official',
@@ -254,10 +188,7 @@ class Segment:
 
         def get_attr(key):
             if key in self.fallbacks:
-                if hasattr(self, f'_fallback_{key}'):
-                    return getattr(self, f'_fallback_{key}')
-                else:
-                    return None
+                return self.fallbacks[key]
             else:
                 return getattr(self, key)
 
@@ -267,15 +198,6 @@ class Segment:
         yield '{'
         yield '\n  ' if multiline else ' '
 
-        def get_attr(key):
-            if key in self.fallbacks:
-                if hasattr(self, f'_fallback_{key}'):
-                    return getattr(self, f'_fallback_{key}')
-                else:
-                    return None
-            else:
-                return getattr(self, key)
-
         first = True
         for key in keys:
             value = get_attr(key)
@@ -284,6 +206,9 @@ class Segment:
                 value = self.offset()
 
             if value is None:
+                continue
+
+            if key == 'cuts' and len(self.cuts) == 0:
                 continue
 
             if key in ['offset', 'start', 'end'] and value == 0:
@@ -328,51 +253,107 @@ class Segment:
         return self.to_json()
 
 
-class SegmentReference(Segment):
-    def __init__(self, parent, game=None, **kwargs):
-        self.game = getattr(parent, 'game', game)
+@attr.s(auto_attribs=True, kw_only=True)
+class SegmentReference:
+    silent: bool = False
+    game: 'Game' = None
+    name: str = None
+    twitch: str = None
+    segment: int = 0
+    note: str = None
+    start: Timecode = attr.ib(Timecode(0), converter=Timecode)
+    end: Timecode = attr.ib(Timecode(0), converter=Timecode)
+    parent: Segment = None  # depends on silent, start
 
-        if self.game is None:
-            raise ValueError('`game` is required when referencing Segment')
+    def __attrs_post_init__(self):
+        if not self.game:
+            if not isinstance(self.parent, SegmentReference):
+                raise ValueError('`game` is required when referencing Segment')
+            self.game = self.parent.game
 
-        def attr(key, func=lambda x: x):
-            if key in kwargs:
-                setattr(self, key, func(kwargs[key]))
+    def __setattr__(self, name, value):
+        if name == 'parent':
+            if isinstance(value, SegmentReference):
+                value = value.parent
 
-        for key in ['name', 'note']:
-            attr(key)
+            if hasattr(self, 'parent') and self.parent and not self.silent:
+                self.parent.references.remove(self)
+
+            super().__setattr__(name, value)
+
+            if not self.silent:
+                self.parent.references.add(self)
+
+        return super().__setattr__(name, value)
+
+    def __getattr__(self, name):
+        if 'parent' in self.__dict__:
+            return getattr(self.parent, name)
+        else:
+            raise AttributeError
+
+    def __getattribute__(self, name):
+        value = super().__getattribute__(name)
+
+        if name in ['start', 'end'] and value == 0:
+            return getattr(self.parent, name)
+
+        if value is None:
+            return getattr(self.parent, name)
+
+        return value
+
+    def attrs(self):
+        attrs = []
+
+        def escape_attr(attr):
+            if type(attr) is str:
+                return attr.replace('"', '&quot;')
+            else:
+                return str(attr)
+
+        def add(key, func=lambda x: x, check=lambda x: x is not None):
+            value = getattr(self, key)
+            if check(value):
+                value = func(value)
+                value = escape_attr(value)
+                attrs.append(f'data-{key}="{value}"')
+
+        if self.segment != 0:
+            add('segment')
+
+        add('offset', lambda x: x().value, lambda x: x() != 0)
+        add('subtitles')
 
         for key in ['start', 'end']:
-            attr(key, lambda x: Timecode(x))
+            add(key, lambda x: int(x - self.offset(x)), lambda x: x != 0)
 
-        self._parent = None
-        self.parent_ro = kwargs.get('parent_ro', False)
-        self.parent = parent
+        for key in ['name', 'twitch', 'youtube', 'direct']:
+            add(key)
 
-    @property
-    def parent(self):
-        return self._parent
+        if self.force_start:
+            add('force_start', lambda x: 'true' if x else 'false')
 
-    @property
-    def timecodes(self):
-        return self.parent.timecodes
+        if not self.playable:
+            attrs.append('style="display: none"')
 
-    @property
-    def segment(self) -> int:
-        return self._parent.segment
+        return ' '.join(attrs)
 
-    @parent.setter
-    def parent(self, segment):
-        if isinstance(segment, SegmentReference):
-            segment = segment.parent
+    def mpv_file(self):
+        if self.youtube:
+            return 'ytdl://' + self.youtube
+        elif self.direct:
+            return self.direct
 
-        if self._parent and not self.parent_ro:
-            self._parent.references.remove(self)
-
-        self._parent = segment
-
-        if not self.parent_ro:
-            self._parent.references.add(self)
+    def mpv_args(self):
+        res = f'--sub-file={self.subtitles} '
+        if self.offset() != 0:
+            res += f'--sub-delay={-int(self.offset())} '
+        if self.start != 0:
+            res += f'--start={int(self.start - self.offset(self.start))} '
+        if self.end != 0:
+            res += f'--end={int(self.end - self.offset(self.end))} '
+        return res.strip()
 
     @property
     def abs_start(self):
@@ -399,18 +380,19 @@ class SegmentReference(Segment):
         else:
             return f'{self.game.name} - {self.name}'
 
-    def __getattr__(self, attr):
-        return getattr(self._parent, attr)
-
     @join()
     def to_json(self):
         keys = ['name', 'twitch', 'segment', 'start', 'end', 'force_start']
         multiline_keys = ['note']
 
         def inherited(key):
-            if key not in ['twitch', 'segment']:
+            if key in ['twitch', 'segment']:
+                return False
+
+            if hasattr(self.parent, key):
                 if getattr(self, key) == getattr(self.parent, key):
                     return True
+
             return False
 
         multiline = True in [getattr(self, key) and not inherited(key)
@@ -474,7 +456,7 @@ class Stream(SortedKeyList):
         self.timecodes = Timecodes(timecodes.get(key) or {})
 
         for segment in data:
-            Segment(self, **segment)
+            Segment(stream=self, **segment)
 
     @property
     @cached('duration-twitch-{0[0].twitch}')
@@ -575,19 +557,18 @@ class Streams(dict):
                 if filename in fallback:
                     for segment in stream:
                         if not segment.playable:
+                            segment.fallbacks['direct'] = segment.direct
                             segment.direct = fallback.url(filename)
-                            segment._fallback_offset = segment.offset()
+                            segment.fallbacks['offset'] = segment.offset()
                             segment.offset = Timecode(0)
-                            segment.fallbacks.add('direct')
-                            segment.fallbacks.add('offset')
 
             if fallback.torrents and None in [s.torrent for s in stream]:
                 filename = f'{stream.twitch}.torrent'
                 if filename in fallback:
                     for segment in stream:
                         if segment.torrent is None:
+                            segment.fallbacks['torrent'] = segment.torrent
                             segment.torrent = fallback.url(filename)
-                            segment.fallbacks.add('torrent')
 
     @property
     def segments(self):
