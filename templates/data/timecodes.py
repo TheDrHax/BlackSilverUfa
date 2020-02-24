@@ -53,7 +53,7 @@ class Timecode(object):
     value = 0
     duration = None
 
-    def __init__(self, timecode, name=None):
+    def __init__(self, timecode=0, name=None):
         if name:
             self.name = name
 

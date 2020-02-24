@@ -103,7 +103,7 @@ def refs_coverage(stream, segment):
 
 def cmd_add(stream, segment_kwargs):
     tmp_stream = Stream([], stream.twitch)
-    segment = Segment(tmp_stream, **segment_kwargs)
+    segment = Segment(stream=tmp_stream, **segment_kwargs)
 
     left, covered, right = refs_coverage(stream, segment)
 
@@ -124,7 +124,7 @@ def cmd_add(stream, segment_kwargs):
     to_split_refs = flat([s.references for s in to_split])
 
     if len(to_split) > 0:
-        right_segment = Segment(stream, offset=segment.abs_end)
+        right_segment = Segment(stream=stream, offset=segment.abs_end)
         [setattr(ref, 'parent', right_segment) for ref in right if ref in to_split_refs]
 
     [stream.remove(s) for s in list(stream) if len(s.references) == 0]
@@ -166,7 +166,7 @@ def can_match(segment, segment_kwargs, directory=None, match_all=False):
         return False
 
     tmp_stream = Stream([], segment.stream.twitch)
-    new_segment = Segment(tmp_stream, **segment_kwargs)
+    new_segment = Segment(stream=tmp_stream, **segment_kwargs)
     _, covered, _ = refs_coverage(segment.stream, new_segment)
 
     if len(covered) == 0:
