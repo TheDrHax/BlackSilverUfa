@@ -1302,18 +1302,20 @@
     "streams": [
       { "name": "1", "twitch": "294220536", "start": "2:43:07" },
       { "name": "2", "twitch": "552313454", "start": "2:06:09" },
-      { "name": "3", "twitch": "552876850" }
+      { "name": "3", "twitch": "552876850" },
+      { "name": "4", "twitch": "557620811", "start": "4:57:47" }
     ]
   },
   {
     "name": "Dark Messiah of Might & Magic",
-    "category": "ongoing",
+    "category": "finished",
     "id": "dark-messiah",
     "streams": [
       { "name": "1", "twitch": "544589716" },
       { "name": "2", "twitch": "545709814", "start": "3:39:43" },
       { "name": "3", "twitch": "551290502", "start": "3:02:22" },
-      { "name": "4", "twitch": "556030369", "start": "3:02:02" }
+      { "name": "4", "twitch": "556030369", "start": "3:02:02" },
+      { "name": "5", "twitch": "557620811" }
     ]
   },
   {
