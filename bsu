@@ -35,6 +35,15 @@ venv_setup() { # filename [force | silent]
     md5sum "$1" > "$MD5_FILE"
 }
 
+get_worktrees() { # returns: prefix, remote, branch, local_branch
+    echo "$PREFIX" "$GIT_REMOTE" "$PAGES_BRANCH_REMOTE" "$PAGES_BRANCH_LOCAL"
+    jq -r '.repos.chats | keys | "\(.[])"' data/config.json | while read year; do
+        remote=$(jq -r ".repos.chats[\"$year\"].remote" data/config.json)
+        branch=$(jq -r ".repos.chats[\"$year\"].branch" data/config.json)
+        echo "$PREFIX/chats/$year" "$remote" "$branch" "$remote-$branch"
+    done
+}
+
 new_worktree() { # prefix ref branch [force]
     if [ "_$4" = '_force' ] || [ ! -e "$1" ]; then
         [ -e "$1" ] && rm -rf "$1"
@@ -69,33 +78,23 @@ case $1 in
         esac ;;
     pages)
         case $2 in
-            pull)
-                echo "Fetching updates for $GIT_REMOTE/$PAGES_BRANCH_REMOTE"
-                git fetch -q "$GIT_REMOTE" "$PAGES_BRANCH_REMOTE"
+            fetch)
+                echo "Fetching updates for $PREFIX"
 
                 jq -r '.repos.remotes[] | "\(.name) \(.pull) \(.push)"' data/config.json | while read name pull push; do
                     git remote add "$name" "$pull" 2>/dev/null || git remote set-url "$name" "$pull"
                     git remote set-url --push "$name" "$push"
                 done
 
-                jq -r '.repos.chats[] | "\(.remote) \(.branch)"' data/config.json | while read remote branch; do
-                    echo "Fetching updates for $remote/$branch"
-                    git fetch -q "$remote" "$branch"
-                done
-
-                ./bsu pages checkout ;;
+                get_worktrees | awk '{print $2 " " $3}' | xargs -n2 -P8 git fetch -q ;;
             checkout)
-                echo "Updating $PREFIX"
-                new_worktree "$PREFIX" "$GIT_REMOTE/$PAGES_BRANCH_REMOTE" "$PAGES_BRANCH_LOCAL" "$3"
-
-                [ ! -e "$PREFIX/chats" ] && mkdir -p "$PREFIX/chats"
-                jq -r '.repos.chats | keys | "\(.[])"' data/config.json | while read year; do
-                    remote=$(jq -r ".repos.chats[\"$year\"].remote" data/config.json)
-                    branch=$(jq -r ".repos.chats[\"$year\"].branch" data/config.json)
-
-                    echo "Updating $PREFIX/chats/$year"
-                    new_worktree "$PREFIX/chats/$year" "$remote/$branch" "$remote-$branch" "$3"
+                get_worktrees | while read prefix remote branch local_branch; do
+                    echo "Updating $prefix"
+                    new_worktree "$prefix" "$remote/$branch" "$local_branch" "$3"
                 done ;;
+            pull)
+                ./bsu pages fetch
+                ./bsu pages checkout ;;
             commit)
                 if [ -e "$PREFIX/.DEBUG" ]; then
                     echo "Error: The site was generated with debug mode enabled."
@@ -103,21 +102,16 @@ case $1 in
                     exit 1
                 fi
 
-                for worktree in $PREFIX $PREFIX/chats/*; do
-                (
-                    cd "$worktree"
+                get_worktrees | while read prefix remote branch local_branch; do (
+                    cd "$prefix"
                     git add .
                     git commit -m "Jenkins: Обновление статичных файлов" || true
-                )
-                done ;;
+                ) done ;;
             push)
-                for worktree in $PREFIX $PREFIX/chats/*; do
-                (
-                    cd "$worktree"
-                    git -c push.default=upstream push
-                )
-                done ;;
-            *) echo "Usage: $0 $1 checkout|commit|pull|push" ;;
+                get_worktrees | \
+                    awk '{print $2 " " $4}' | \
+                    xargs -n2 -P8 git -c push.default=upstream push ;;
+            *) echo "Usage: $0 $1 fetch|checkout|commit|pull|push" ;;
         esac ;;
     pull)
         if [ "$(git status --porcelain=v1 | wc -l)" -eq 0 ]; then
