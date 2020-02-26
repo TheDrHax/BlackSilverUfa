@@ -743,6 +743,7 @@ var Redirect = {
     "556030369": "/links/dead-space-3.html#556030369",
     "556596083": "/links/dreams.html#556596083",
     "557620811": "/links/dark-messiah.html#557620811",
+    "558120691": "/links/first.html#558120691",
   },
 
   link: function (hash) {
@@ -906,6 +907,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
+      { name: "Cold Fear", path: "/links/first.html#558120691", year: 2020 },
       { name: "Warcraft III: Reforged", path: "/links/first.html#543591605", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
       { name: "Granny: Chapter Two", path: "/links/first.html#530784764", year: 2020 },
