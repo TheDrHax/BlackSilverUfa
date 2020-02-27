@@ -69,6 +69,9 @@ def generate():
     with open(_("data/timecodes.json"), 'w') as fo:
         json.dump(tc_dict, fo, ensure_ascii=False, indent=2)
 
+    # Generate preprocessed segments.json
+    streams.segments.save(_('data/segments.json'), compiled=True)
+
     # Generate scripts
     with open(_("search.js"), "w") as output:
         t = lookup.get_template('/search.mako')

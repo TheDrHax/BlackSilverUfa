@@ -31,7 +31,7 @@ class Segment:
     _offset: Timecode = attr.ib(0, converter=Timecode)
     cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
 
-    stream: 'Stream' = attr.ib(attr.NOTHING)  # depends on _offset
+    stream: 'Stream' = attr.ib()  # depends on _offset
 
     references: SortedList = attr.ib(init=False)
     fallbacks: dict = attr.ib(init=False)
@@ -72,11 +72,15 @@ class Segment:
     def segment(self) -> int:
         return self.stream.index(self)
 
+    @property
+    def name(self) -> str:
+        return ' / '.join([r.game_name for r in self.references])
+
     def reference(self):
         return SegmentReference(
             parent=self.references[0],
             game=self.references[0].game,
-            name=' / '.join([r.game_name for r in self.references]),
+            name=self.name,
             silent=True)
 
     @property
@@ -169,13 +173,18 @@ class Segment:
             return '/static/images/no-preview.png'
 
     @join()
-    def to_json(self):
-        keys = ['youtube', 'direct', 'offset', 'cuts', 'official',
-                'start', 'end', 'force_start']
-        multiline_keys = ['note']
+    def to_json(self, compiled=False):
+        if not compiled:
+            keys = ['youtube', 'offset', 'cuts', 'official',
+                    'start', 'end', 'force_start']
+            multiline_keys = ['note', 'direct', 'torrent']
+        else:
+            keys = ['youtube', 'cuts', 'official',
+                    'abs_start', 'abs_end', 'duration']
+            multiline_keys = ['name', 'direct', 'torrent']
 
         def get_attr(key):
-            if key in self.fallbacks:
+            if key in self.fallbacks and not compiled:
                 return self.fallbacks[key]
             else:
                 return getattr(self, key)
@@ -185,6 +194,8 @@ class Segment:
 
         yield '{'
         yield '\n  ' if multiline else ' '
+
+        fields = attr.fields_dict(type(self))
 
         first = True
         for key in keys:
@@ -196,27 +207,25 @@ class Segment:
             if value is None:
                 continue
 
-            if key == 'cuts' and len(self.cuts) == 0:
+            if key in fields and fields[key].default == value:
                 continue
 
-            if key in ['offset', 'start', 'end'] and value == 0:
-                continue
+            if key == 'cuts':
+                if len(value) == 0:
+                    continue
 
-            if key == 'official' and value:
-                continue
+                value = value.to_list()
 
-            if key == 'force_start' and not value:
-                continue
+            if isinstance(value, Timecode):
+                if not compiled and value == 0:
+                    continue
 
             if not first:
                 yield ', '
             else:
                 first = False
 
-            if key == 'cuts':
-                yield f'"{key}": {json.dumps(self.cuts.to_list())}'
-            else:
-                yield f'"{key}": {json_escape(value)}'
+            yield f'"{key}": {json_escape(value)}'
 
         for key in multiline_keys:
             value = get_attr(key)
@@ -373,7 +382,7 @@ class SegmentReference:
         multiline_keys = ['note']
 
         def inherited(key):
-            if key in ['twitch', 'segment']:
+            if key in ['name', 'twitch', 'segment']:
                 return False
 
             if hasattr(self.parent, key):
@@ -518,6 +527,38 @@ class Stream(SortedKeyList):
         return self.to_json()
 
 
+@attr.s(auto_attribs=True)
+class Segments:
+    streams: 'Streams' = attr.ib()
+
+    def __iter__(self):
+        for stream in streams.values():
+            for segment in stream:
+                yield segment
+
+    @join()
+    def to_json(self, compiled=False) -> str:
+        yield '{\n'
+
+        first = True
+        for s in self:
+            if not first:
+                yield ',\n'
+            else:
+                first = False
+
+            yield f'  "{s.hash}": {indent(s.to_json(compiled), 2)[2:]}'
+
+        yield '\n}'
+
+    def save(self, filename: str, compiled=False):
+        data = self.to_json(compiled)
+
+        with open(filename, 'w') as fo:
+            fo.write(data)
+            fo.write('\n')
+
+
 class Streams(dict):
     def __init__(self, filename: str = STREAMS_JSON):
         self.filename = filename
@@ -559,10 +600,7 @@ class Streams(dict):
 
     @property
     def segments(self):
-        for key, stream in self.items():
-            for segment in stream:
-                if len(segment.references) > 0:
-                    yield segment
+        return Segments(self)
 
     @join()
     def to_json(self) -> str:
