@@ -1255,7 +1255,6 @@
       { "name": "Ghostbusters", "twitch": "490488498", "start": "4:01:22" },
       { "name": "Home Sweet Home: Episode II", "twitch": "491017258", "start": "3:04:35" },
       { "name": "Cooking Simulator / House Flipper", "twitch": "499849877" },
-      { "name": "NioH 2 (бета)", "twitch": "502940448", "start": "1:00:00" },
       { "name": "Need for Speed Heat / Red Dead Redemption 2 (PC)", "twitch": "504248004" },
       { "name": "Planet Zoo", "twitch": "504672487", "start": "3:50:24" },
       { "name": "Untitled Goose Game", "twitch": "508178551", "start": "3:20:41" },
@@ -1265,7 +1264,17 @@
       { "name": "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", "twitch": "526101430" },
       { "name": "Zombie Claus / Granny: Chapter Two", "twitch": "530784764", "start": "3:59:51" },
       { "name": "Warcraft III: Reforged", "twitch": "543591605" },
-      { "name": "Cold Fear", "twitch": "558120691" }
+      { "name": "Cold Fear", "twitch": "558120691" },
+      { "name": "One Punch Man: A Hero Nobody Knows", "twitch": "559121361" }
+    ]
+  },
+  {
+    "name": "Nioh 2",
+    "category": "ongoing",
+    "id": "nioh-2",
+    "streams": [
+      { "name": "Бета", "twitch": "502940448", "start": "1:00:00" },
+      { "name": "Демо", "twitch": "559121361", "start": "3:17:02" }
     ]
   },
   {
