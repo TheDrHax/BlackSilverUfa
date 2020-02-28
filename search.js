@@ -744,6 +744,7 @@ var Redirect = {
     "556596083": "/links/dreams.html#556596083",
     "557620811": "/links/dark-messiah.html#557620811",
     "558120691": "/links/first.html#558120691",
+    "559121361": "/links/first.html#559121361",
   },
 
   link: function (hash) {
@@ -907,6 +908,7 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
+      { name: "One Punch Man: A Hero Nobody Knows", path: "/links/first.html#559121361", year: 2020 },
       { name: "Cold Fear", path: "/links/first.html#558120691", year: 2020 },
       { name: "Warcraft III: Reforged", path: "/links/first.html#543591605", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
@@ -920,7 +922,6 @@ var Search = {
       { name: "Planet Zoo", path: "/links/first.html#504672487", year: 2019 },
       { name: "Need for Speed Heat", path: "/links/first.html#504248004", year: 2019 },
       { name: "Red Dead Redemption 2 (PC)", path: "/links/first.html#504248004", year: 2019 },
-      { name: "NioH 2 (бета)", path: "/links/first.html#502940448", year: 2019 },
       { name: "Cooking Simulator", path: "/links/first.html#499849877", year: 2019 },
       { name: "House Flipper", path: "/links/first.html#499849877", year: 2019 },
       { name: "Chernobylite", path: "/links/chernobylite.html", year: 2019 },
@@ -1080,6 +1081,7 @@ var Search = {
       { name: "Grand Theft Auto: San Andreas", path: "/links/gta-san-andreas.html", year: 2020 },
       { name: "The Sims 4", path: "/links/sims-4.html", year: 2020 },
       { name: "Spore", path: "/links/spore.html", year: 2019 },
+      { name: "Nioh 2", path: "/links/nioh-2.html", year: 2019 },
     ],
     "infinite": [
       { name: "Dreams", path: "/links/dreams.html", year: 2020 },

@@ -2641,7 +2641,7 @@
   },
   "502940448": {
     "youtube": "iScIVVQgd9E", "abs_start": "0:00", "abs_end": "5:13:53", "duration": "5:13:53",
-    "name": "BlizzCon 2019 (обзор) / NioH 2 (бета) / Mafia II - 2"
+    "name": "BlizzCon 2019 (обзор) / Nioh 2 - Бета / Mafia II - 2"
   },
   "503413959": {
     "youtube": "OEtxAju0oPU", "abs_start": "0:00", "abs_end": "5:14:17", "duration": "5:14:17",
@@ -2897,8 +2897,7 @@
   },
   "546672311": {
     "youtube": "1Vvuwf6-AzU", "cuts": ["26:35~26:50", "27:01~28:45"], "abs_start": "0:00", "abs_end": "5:47:09", "duration": "5:45:10",
-    "name": "Dead Space 2 - 2",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/546672311.torrent"
+    "name": "Dead Space 2 - 2"
   },
   "547176657": {
     "youtube": "Zr-YQgat8Gs", "abs_start": "0:00", "abs_end": "6:08:13", "duration": "6:08:13",
@@ -2994,5 +2993,11 @@
     "youtube": "IeXGLsha6dM", "abs_start": "0:00", "abs_end": "6:02:07", "duration": "6:02:07",
     "name": "Cold Fear",
     "torrent": "https://bsufiles.thedrhax.pw/streams/558120691.torrent"
+  },
+  "559121361": {
+    "abs_start": "0:00", "abs_end": "5:59:47", "duration": "0:00",
+    "name": "One Punch Man: A Hero Nobody Knows / Nioh 2 - Демо",
+    "direct": "https://bsufiles.thedrhax.pw/streams/559121361.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/559121361.torrent"
   }
 }
