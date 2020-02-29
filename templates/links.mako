@@ -122,8 +122,8 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
 % endif
 </ul>
 
-<div class="row justify-content-center">
-  <p class="stream col" data-id="${id}" ${segment.attrs()} />
+<div class="video-row d-flex justify-content-center">
+  <p class="stream" data-id="${id}" ${segment.attrs()} />
 </div>
 
 % if not segment.playable:
