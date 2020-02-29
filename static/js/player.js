@@ -21,6 +21,9 @@ function get_timecodes(id) {
 const resume = JSON.parse(localStorage.getItem("resume_playback")) || {};
 
 function spawnPlayer(wrapper, callback) {
+  wrapper.classList.remove('d-flex', 'justify-content-center');
+  Array.from(wrapper.children).forEach(function (e) { e.visible = false; })
+
   if (wrapper.dataset.youtube || wrapper.dataset.direct) {
     return spawnPlyr(wrapper, callback);
   }
@@ -241,12 +244,16 @@ window.addEventListener('DOMContentLoaded', function() {
 
   let i = 0;
   for (let wrapper of streams) {
-    wrapper.innerHTML = '<button type="button" class="btn btn-primary">\
-                             <i class="fas fa-play"></i> Открыть плеер\
-                             </button>';
-    wrapper.children[0].onclick = function() {
+    var button = document.createElement('button');
+    button.classList.add('btn', 'btn-primary');
+    button.type = 'button';
+    button.innerHTML = '<i class="fas fa-play"></i> Открыть плеер';
+    button.onclick = function () {
       spawnPlayer(wrapper);
     };
+
+    wrapper.classList.add('d-flex', 'justify-content-center');
+    wrapper.appendChild(button);
 
     // Placeholder methods to trigger spawn of player
     wrapper.seek = function (t) {

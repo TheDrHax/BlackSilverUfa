@@ -81,11 +81,23 @@ h3>.badge {
 }
 
 .stream {
-  max-width: calc(100vh / 9 * 16 - 10%);
+  width: calc(100vh / 9 * 16 - 10%);
+  max-width: calc(100vw - 30px);
 }
 
-.plyr {
-  max-width: calc(100vh / 9 * 16) !important;
+@media (min-width: 1200px) {
+  .stream {
+    max-width: 1200px;
+  }
+}
+
+.stream > .btn {
+  width: 200px;
+}
+
+.video-row {
+  width: 200%;
+  margin-left: -50%;
 }
 
 /*
@@ -288,6 +300,7 @@ footer,
 h1,
 h2,
 h3,
+.btn,
 .progress,
 .badge-row {
   isolation: isolate;
