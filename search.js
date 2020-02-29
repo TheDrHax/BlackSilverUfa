@@ -744,7 +744,8 @@ var Redirect = {
     "556596083": "/links/dreams.html#556596083",
     "557620811": "/links/dark-messiah.html#557620811",
     "558120691": "/links/first.html#558120691",
-    "559121361": "/links/first.html#559121361",
+    "559121361": "/links/one-punch-man.html#559121361",
+    "559668833": "/links/first.html#559668833",
   },
 
   link: function (hash) {
@@ -908,7 +909,8 @@ var Search = {
     ],
     "first": [
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
-      { name: "One Punch Man: A Hero Nobody Knows", path: "/links/first.html#559121361", year: 2020 },
+      { name: "Foregone", path: "/links/first.html#559668833", year: 2020 },
+      { name: "Beautiful Desolation", path: "/links/first.html#559668833", year: 2020 },
       { name: "Cold Fear", path: "/links/first.html#558120691", year: 2020 },
       { name: "Warcraft III: Reforged", path: "/links/first.html#543591605", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
@@ -1076,6 +1078,7 @@ var Search = {
       { name: "The Legend of Zelda: Twilight Princess HD", path: "/links/first.html#163612448", year: 2017 },
     ],
     "ongoing": [
+      { name: "One Punch Man: A Hero Nobody Knows", path: "/links/one-punch-man.html", year: 2020 },
       { name: "Dead Space 3", path: "/links/dead-space-3.html", year: 2020 },
       { name: "Gears of War 4", path: "/links/gears-of-war-4.html", year: 2020 },
       { name: "Grand Theft Auto: San Andreas", path: "/links/gta-san-andreas.html", year: 2020 },
