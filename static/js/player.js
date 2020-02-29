@@ -53,50 +53,56 @@ function spawnPlyr(wrapper, callback) {
 
   var last_timestamp = -1;
   var last_save = -1;
+  var first_loop = true;
+
   player.on('timeupdate', function(event) {
     var time = player.currentTime;
+
+    // Ignore first loop if time has already been modified
+    first_loop &= time < 1;
+
+    if ((first_loop || force_start) && time < start) {
+      // Seek forward if start field is specified
+      player.currentTime = start;
+    }
+
+    if (first_loop && resume[id]) {
+      // Seek to the saved position
+      player.currentTime = resume[id] + offset;
+    }
+
+    first_loop = false;
 
     // Run only once per second
     if (Math.abs(time - last_timestamp) > 1) {
       last_timestamp = time;
-    } else {
-      return;
-    }
 
-    // Stop player when video exceeds overridden duration
-    if (end > 0 && time >= player.config.duration) {
-      player.currentTime = player.config.duration;
-      player.pause();
-    }
-
-    // Save current position every 5 seconds
-    if (Math.abs(time - last_save) > 5) {
-      resume[id] = Math.floor(time) - offset;
-      localStorage.setItem('resume_playback', JSON.stringify(resume));
-      last_save = time;
-    }
-
-    // Seek forward if start field is specified
-    if (time < start) {
-      player.currentTime = start;
-
-      if (!force_start) {
-        start = 0; // Seek to the start only one time
+      // Stop player when video exceeds overridden duration
+      if (end > 0 && time >= player.config.duration) {
+        player.currentTime = player.config.duration;
+        player.pause();
       }
-    }
-
-    // Change color of timecode links
-    timecodes.forEach(function(el) {
-      if (el.dataset.value < time) {
-        if (!el.classList.contains('visited')) {
-          el.classList.add('visited');
-        }
-      } else {
-        if (el.classList.contains('visited')) {
-          el.classList.remove('visited');
-        }
+  
+      // Save current position every 5 seconds
+      if (Math.abs(time - last_save) > 5) {
+        resume[id] = Math.floor(time) - offset;
+        localStorage.setItem('resume_playback', JSON.stringify(resume));
+        last_save = time;
       }
-    });
+  
+      // Change color of timecode links
+      timecodes.forEach(function(el) {
+        if (el.dataset.value < time) {
+          if (!el.classList.contains('visited')) {
+            el.classList.add('visited');
+          }
+        } else {
+          if (el.classList.contains('visited')) {
+            el.classList.remove('visited');
+          }
+        }
+      });
+    }
   });
 
   player.on('playing', function(event) {
@@ -197,32 +203,18 @@ function spawnPlyr(wrapper, callback) {
     subResize();
   });
 
-  if (stream.youtube) {
-    // Trigger seeking to the last position saved by YouTube
-    player.on(ready, function (event) {
-      player.play();
-      player.pause();
-    });
-  }
-
   // Element controls
   wrapper.seek = function(time) {
     player.currentTime = time;
-    start = 0; // ignore 'start' attribute
     player.play();
     return false;
   };
 
-  player.on(ready, function (event) {
-    // Seek to the saved position
-    if (resume[id]) {
-      player.currentTime = resume[id] + offset;
-    }
-
-    if (callback != undefined) {
+  if (callback != undefined) {
+    player.on(ready, function (event) {
       callback(wrapper);
-    }
-  });
+    })
+  }
 
   return false;
 };
