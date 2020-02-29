@@ -30,6 +30,7 @@ function spawnPlyr(wrapper, callback) {
   var player, subtitles;
   var stream = wrapper.dataset;
   var timecodes = get_timecodes(stream.id);
+  var ready = stream.direct ? 'loadedmetadata' : 'ready';
 
   const id = stream.twitch + '.' + (stream.segment || 0);
   const offset = +stream.offset || 0;
@@ -52,50 +53,56 @@ function spawnPlyr(wrapper, callback) {
 
   var last_timestamp = -1;
   var last_save = -1;
+  var first_loop = true;
+
   player.on('timeupdate', function(event) {
     var time = player.currentTime;
+
+    // Ignore first loop if time has already been modified
+    first_loop &= time < 1;
+
+    if ((first_loop || force_start) && time < start) {
+      // Seek forward if start field is specified
+      player.currentTime = start;
+    }
+
+    if (first_loop && resume[id]) {
+      // Seek to the saved position
+      player.currentTime = resume[id] + offset;
+    }
+
+    first_loop = false;
 
     // Run only once per second
     if (Math.abs(time - last_timestamp) > 1) {
       last_timestamp = time;
-    } else {
-      return;
-    }
 
-    // Stop player when video exceeds overridden duration
-    if (end > 0 && time >= player.config.duration) {
-      player.currentTime = player.config.duration;
-      player.pause();
-    }
-
-    // Save current position every 5 seconds
-    if (Math.abs(time - last_save) > 5) {
-      resume[id] = Math.floor(time) - offset;
-      localStorage.setItem('resume_playback', JSON.stringify(resume));
-      last_save = time;
-    }
-
-    // Seek forward if start field is specified
-    if (time < start) {
-      player.currentTime = start;
-
-      if (!force_start) {
-        start = 0; // Seek to the start only one time
+      // Stop player when video exceeds overridden duration
+      if (end > 0 && time >= player.config.duration) {
+        player.currentTime = player.config.duration;
+        player.pause();
       }
-    }
-
-    // Change color of timecode links
-    timecodes.forEach(function(el) {
-      if (el.dataset.value < time) {
-        if (!el.classList.contains('visited')) {
-          el.classList.add('visited');
-        }
-      } else {
-        if (el.classList.contains('visited')) {
-          el.classList.remove('visited');
-        }
+  
+      // Save current position every 5 seconds
+      if (Math.abs(time - last_save) > 5) {
+        resume[id] = Math.floor(time) - offset;
+        localStorage.setItem('resume_playback', JSON.stringify(resume));
+        last_save = time;
       }
-    });
+  
+      // Change color of timecode links
+      timecodes.forEach(function(el) {
+        if (el.dataset.value < time) {
+          if (!el.classList.contains('visited')) {
+            el.classList.add('visited');
+          }
+        } else {
+          if (el.classList.contains('visited')) {
+            el.classList.remove('visited');
+          }
+        }
+      });
+    }
   });
 
   player.on('playing', function(event) {
@@ -121,8 +128,8 @@ function spawnPlyr(wrapper, callback) {
 
   // Connect Subtitles Octopus to video
   subtitles = new SubtitlesOctopus({
-    // Wrapper allows to track player's size and position but time tracking
-    // will not work. See subtitles.setVideo() call below.
+    // Wrapper only allows to create a correct canvas. Time tracking is
+    // configured using the subtitles.setVideo() call below.
     video: player.elements.wrapper,
     subUrl: stream.subtitles,
     workerUrl: '/static/js/subtitles-octopus-worker.js',
@@ -130,10 +137,51 @@ function spawnPlyr(wrapper, callback) {
     timeOffset: offset
   });
 
+  // Subtitles are not visible when player.media.videoWidth is undefined
+  subtitles.canvas.style.display = "block";
+  subtitles.canvas.style.position = "absolute";
+  subtitles.canvas.style.top = 0;
+  subtitles.canvas.style.pointerEvents = "none";
+
+  function subResize() {
+    var e_sub = subtitles.canvas;
+    var e_vid = player.elements.wrapper;
+
+    var width = Math.min(e_vid.clientWidth, e_vid.clientHeight / 9 * 16);
+    var height = width / 16 * 9;
+
+    // Render at double resolution for better quality
+    e_sub.style.transform = 'scale(0.5, 0.5) translate(-50%, -50%)';
+    subtitles.resize(width * 2, height * 2);
+
+    // Position canvas in the center of the video
+    e_sub.style.marginTop = e_vid.clientHeight / 2 - height / 2 + 'px';
+    e_sub.style.marginLeft = e_vid.clientWidth / 2 - width / 2 + 'px';
+  }
+
+  window.subResize = subResize;
+  player.on('enterfullscreen', subResize);
+  player.on('exitfullscreen', subResize);
+  window.addEventListener('resize', debounce(subResize, 100, false));
+
   // Player caption button
-  player.on('ready', function(event) {
+  player.on(ready, function(event) {
     // Set correct player element to track current time
-    subtitles.setVideo(player.media);
+    subtitles.setVideo(new Proxy(player.media, {
+      get(obj, prop) {
+        // Remove video size info for consistency with YouTube source
+        if (prop === 'videoWidth' || prop === 'videoHeight') {
+          return undefined;
+        }
+
+        // https://stackoverflow.com/a/59110022
+        var value = Reflect.get(obj, prop);
+        if (typeof (value) == "function") {
+          return value.bind(obj);
+        }
+        return value;
+      }
+    }));
 
     var captions = player.elements.controls.childNodes[4];
     captions.toggle = function() {
@@ -151,62 +199,21 @@ function spawnPlyr(wrapper, callback) {
     // Also check '.plyr [data-plyr=captions]' style in styles.css
     captions.classList.add('plyr__control--pressed');
     captions.pressed = true;
+
+    subResize();
   });
-
-  if (stream.youtube) {
-    // Fix Subtitles Octopus to work with embedded YouTube videos
-    // TODO: Fix subtitles position in fullscreen mode
-    function subResize(event) {
-      var e_sub = subtitles.canvas;
-      var e_vid = player.elements.wrapper;
-
-      e_sub.style.display = "block";
-      e_sub.style.top = 0;
-      e_sub.style.position = "absolute";
-      e_sub.style.pointerEvents = "none";
-
-      e_sub.width = e_vid.clientWidth * 2;
-      e_sub.height = e_vid.clientHeight * 2;
-      e_sub.style.transform = "scale(0.5, 0.5) translate(-50%, -50%)";
-
-      subtitles.resize(e_sub.width, e_sub.height);
-    }
-
-    player.on('ready', subResize);
-    player.on('enterfullscreen', subResize);
-    player.on('exitfullscreen', subResize);
-    window.addEventListener('resize', debounce(subResize, 100, false));
-
-    // Trigger seeking to the last position saved by YouTube
-    player.on('ready', function (event) {
-      player.play();
-      player.pause();
-    });
-  }
 
   // Element controls
   wrapper.seek = function(time) {
     player.currentTime = time;
-    start = 0; // ignore 'start' attribute
     player.play();
     return false;
   };
 
   if (callback != undefined) {
-    function ready(event) {
-      // Seek to the saved position
-      if (resume[id]) {
-        player.currentTime = resume[id] + offset;
-      }
-
+    player.on(ready, function (event) {
       callback(wrapper);
-    }
-    
-    if (stream.direct) {
-      player.on('loadedmetadata', ready);
-    } else {
-      player.on('ready', ready);
-    }
+    })
   }
 
   return false;
