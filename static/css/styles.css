@@ -75,6 +75,11 @@ h3>.badge {
  *  Plyr styles
  */
 
+/* Subtitles break without this rule */
+.plyr {
+  display: block !important;
+}
+
 /* Enable caption button in player */
 .plyr [data-plyr=captions] {
   display: inline-block !important;
