@@ -241,18 +241,12 @@ window.addEventListener('DOMContentLoaded', function() {
 
   let i = 0;
   for (let wrapper of streams) {
-    var button = document.createElement('button');
-    button.classList.add('btn', 'btn-primary');
-    button.type = 'button';
-    button.innerHTML = '<i class="fas fa-play"></i> Открыть плеер';
-    button.onclick = function () {
-      wrapper.classList.remove('d-flex', 'justify-content-center');
-      button.visible = false;
+    wrapper.innerHTML = '<button type="button" class="btn btn-primary">\
+                             <i class="fas fa-play"></i> Открыть плеер\
+                             </button>';
+    wrapper.children[0].onclick = function() {
       spawnPlayer(wrapper);
     };
-
-    wrapper.classList.add('d-flex', 'justify-content-center');
-    wrapper.appendChild(button);
 
     // Placeholder methods to trigger spawn of player
     wrapper.seek = function (t) {
