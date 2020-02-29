@@ -1265,7 +1265,16 @@
       { "name": "Zombie Claus / Granny: Chapter Two", "twitch": "530784764", "start": "3:59:51" },
       { "name": "Warcraft III: Reforged", "twitch": "543591605" },
       { "name": "Cold Fear", "twitch": "558120691" },
-      { "name": "One Punch Man: A Hero Nobody Knows", "twitch": "559121361" }
+      { "name": "Foregone / Beautiful Desolation", "twitch": "559668833" }
+    ]
+  },
+  {
+    "name": "One Punch Man: A Hero Nobody Knows",
+    "category": "ongoing",
+    "id": "one-punch-man",
+    "streams": [
+      { "name": "1", "twitch": "559121361" },
+      { "name": "2", "twitch": "559668833", "start": "1:05:22" }
     ]
   },
   {
@@ -1274,7 +1283,8 @@
     "id": "nioh-2",
     "streams": [
       { "name": "Бета", "twitch": "502940448", "start": "1:00:00" },
-      { "name": "Демо", "twitch": "559121361", "start": "3:17:02" }
+      { "name": "Демо 1", "twitch": "559121361", "start": "3:17:02" },
+      { "name": "Демо 2", "twitch": "559668833", "start": "4:33:34" }
     ]
   },
   {
