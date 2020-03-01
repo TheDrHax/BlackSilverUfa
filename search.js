@@ -746,6 +746,7 @@ var Redirect = {
     "558120691": "/links/first.html#558120691",
     "559121361": "/links/one-punch-man.html#559121361",
     "559668833": "/links/first.html#559668833",
+    "560235613": "/links/dead-cells.html#560235613",
   },
 
   link: function (hash) {
@@ -1151,7 +1152,6 @@ var Search = {
     "co-op": [
       { name: "Несюжетные коопы", path: "/links/co-op.html", year: 2020 },
       { name: "I Will Eat You", path: "/links/co-op.html#556596083", year: 2020 },
-      { name: "Hand Simulator: Survival", path: "/links/co-op.html#556596083", year: 2020 },
       { name: "Totally Reliable Delivery Service", path: "/links/co-op.html#552313454", year: 2020 },
       { name: "Paunch", path: "/links/co-op.html#552313454", year: 2020 },
       { name: "Besiege", path: "/links/co-op.html#552313454", year: 2020 },
@@ -1219,6 +1219,7 @@ var Search = {
       { name: "Stick Fight", path: "/links/co-op.html#180663832", year: 2017 },
     ],
     "co-op-series": [
+      { name: "Hand Simulator: Survival", path: "/links/hand-simulator-survival.html", year: 2020 },
       { name: "Zombie Army 4: Dead War", path: "/links/zombie-army-4.html", year: 2020 },
       { name: "GTFO", path: "/links/gtfo.html", year: 2019 },
       { name: "Heave Ho", path: "/links/heave-ho.html", year: 2019 },
