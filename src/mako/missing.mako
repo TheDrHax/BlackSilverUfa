@@ -1,4 +1,4 @@
-<%! from templates.utils import numword %>
+<%! from src.utils import numword %>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />
 <%namespace file="include/statistics.mako" name="stats" />

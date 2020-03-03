@@ -1,4 +1,4 @@
-<%! from templates.data.games import Game, SegmentReference %>
+<%! from src.data.games import Game, SegmentReference %>
 
 var Redirect = {
   index: {

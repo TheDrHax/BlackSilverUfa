@@ -133,17 +133,17 @@ case $1 in
         fi
 
         ./bsu pages pull ;;
-    build) $PYTHON -m templates.utils.generate ;;
-    serve) $PYTHON -m templates.utils.serve ;;
-    debug) DEBUG=1 $PYTHON -m templates.utils.serve ;;
-    download-chats) $PYTHON -m templates.utils.chats ;;
+    build) $PYTHON -m src.utils.generate ;;
+    serve) $PYTHON -m src.utils.serve ;;
+    debug) DEBUG=1 $PYTHON -m src.utils.serve ;;
+    download-chats) $PYTHON -m src.utils.chats ;;
     sh|bash) $@ ;;
     cli)
         shift
         venv_setup cli-requirements.txt silent
-        $PYTHON -m templates.utils.cli $@ ;;
-    repl) $PYTHON -i -m templates.utils.repl ;;
-    script) shift; $PYTHON -m templates.scripts.$@ ;;
+        $PYTHON -m src.utils.cli $@ ;;
+    repl) $PYTHON -i -m src.utils.repl ;;
+    script) shift; $PYTHON -m src.scripts.$@ ;;
     python) shift; $PYTHON $@ ;;
     *) echo "Usage: $0 venv|pages|pull|build|serve|download-chats|sh|repl|script|python" ;;
 esac

@@ -1,6 +1,6 @@
 <%!
-  from templates.utils import numword
-  from templates.data.games import Game, SegmentReference
+  from src.utils import numword
+  from src.data.games import Game, SegmentReference
 %>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />
