@@ -1,6 +1,6 @@
 <%!
     from datetime import datetime
-    from templates.utils import md5file
+    from src.utils import md5file
 %>
 <!DOCTYPE html>
 <html lang="ru-RU">

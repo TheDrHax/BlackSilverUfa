@@ -1,8 +1,8 @@
 <%!
   import datetime
   from babel.dates import format_date
-  from templates.utils import md5file
-  from templates.data.timecodes import Timecode, Timecodes
+  from src.utils import md5file
+  from src.data.timecodes import Timecode, Timecodes
 %>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />

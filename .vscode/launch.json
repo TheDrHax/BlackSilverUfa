@@ -8,14 +8,14 @@
       "name": "Build",
       "type": "python",
       "request": "launch",
-      "module": "templates.utils.generate",
+      "module": "src.utils.generate",
       "console": "internalConsole"
     },
     {
       "name": "CLI",
       "type": "python",
       "request": "launch",
-      "module": "templates.utils.cli",
+      "module": "src.utils.cli",
       "args": [
         "segment", "match",
         "--youtube", "YLPLupZTOys",

@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import os
 import json
 import shutil
@@ -14,7 +11,7 @@ from ..data import config, streams, games, categories
 from ..data.config import DEBUG
 
 
-lookup = TemplateLookup(directories=['./templates'],
+lookup = TemplateLookup(directories=['./src/mako'],
                         input_encoding='utf-8')
 
 

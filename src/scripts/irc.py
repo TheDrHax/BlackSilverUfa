@@ -1,10 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 HELP = """
 This script converts IRC logs to chat subtitles.
 
-Usage: ./bsu python -m templates.scripts.irc <INPUT> <START> <DURATION> <ID>
+Usage: ./bsu python -m src.scripts.irc <INPUT> <START> <DURATION> <ID>
     INPUT - Name of IRC log file
     START - Date and time of stream start (ISO 8601, UTC)
     DURATION - Length of stream (HH:MM:SS)

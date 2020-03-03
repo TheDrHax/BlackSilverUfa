@@ -1,7 +1,7 @@
 <%!
     import os
-    from templates.utils import numword, last_line, dir_size
-    from templates.data.timecodes import Timecode
+    from src.utils import numword, last_line, dir_size
+    from src.data.timecodes import Timecode
 %>
 
 <%def name="statistics()">\
