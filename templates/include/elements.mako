@@ -67,7 +67,7 @@
   % if type(game) == Game:
     <li class="list-group-item d-flex justify-content-between align-items-center">
       <a href="${game.filename}">${game.name}</a>
-      <span class="badge badge-primary">${numword(game.stream_count, 'стрим')}}</span>
+      <span class="badge badge-primary">${numword(game.stream_count, 'стрим')}</span>
     </li>
   % elif type(game) == SegmentReference:
     <li class="list-group-item"><a href="${game.game.filename}#${game.hash}">${game.name}</a></li>
