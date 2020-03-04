@@ -1,6 +1,7 @@
 import os
 import json
 import shutil
+from subprocess import call
 
 from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
@@ -29,7 +30,7 @@ def generate():
     # Recreate required directores
     if not os.path.isdir(_('')):
         os.mkdir(_(''))
-    for dp in ['links', 'src', 'r']:
+    for dp in ['links', 'src', 'r', 'dist']:
         if os.path.isdir(_(dp)):
             shutil.rmtree(_(dp))
         os.mkdir(_(dp))
@@ -73,6 +74,12 @@ def generate():
     with open(_("search.js"), "w") as output:
         t = lookup.get_template('/search.mako')
         output.write(t.render(**args).strip())
+
+    # Webpack
+    call(['npx', 'webpack',
+          '--config', 'src/js/webpack.config.js',
+          '--mode', 'development' if DEBUG else 'production',
+          '--output-path', os.path.abspath(_('dist'))])
 
     # Generate index.html, missing.html
     for i in ['index', 'missing']:
