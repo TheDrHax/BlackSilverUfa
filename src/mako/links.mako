@@ -9,15 +9,11 @@
 
 <%block name="head">
 <title>${game.name} | ${config['title']}</title>
+<link rel="stylesheet" href="/dist/player.css?hash=${md5file(_('dist/player.css'))}">
 </%block>
 
 <%block name="scripts">
-<!-- Plyr (https://github.com/sampotts/plyr) -->
-<link rel="stylesheet" href="//cdn.plyr.io/3.5.10/plyr.css">
-<script src="//cdn.plyr.io/3.5.10/plyr.js" crossorigin="anonymous"></script>
-<!-- Subtitles Octopus (https://github.com/Dador/JavascriptSubtitlesOctopus) -->
-<script src="/static/js/subtitles-octopus.js"></script>
-<script src="/static/js/player.js?hash=${md5file('static/js/player.js')}"></script>
+<script src="/dist/player.js?hash=${md5file(_('dist/player.js'))}"></script>
 </%block>
 
 <%block name="content">

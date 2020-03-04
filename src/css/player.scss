@@ -1,0 +1,31 @@
+@import "~plyr";
+
+/* Subtitles break without this rule */
+.plyr {
+  display: block !important;
+}
+
+/* Enable caption button in player */
+.plyr [data-plyr=captions] {
+  display: inline-block !important;
+}
+
+.stream {
+  width: calc(100vh / 9 * 16 - 10%);
+  max-width: calc(100vw - 30px);
+}
+
+@media (min-width: 1200px) {
+  .stream {
+    max-width: 1200px;
+  }
+}
+
+.stream > .btn {
+  width: 200px;
+}
+
+.video-row {
+  width: 200%;
+  margin-left: -50%;
+}
