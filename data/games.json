@@ -1281,11 +1281,12 @@
   },
   {
     "name": "Cold Fear",
-    "category": "ongoing",
+    "category": "finished",
     "id": "cold-fear",
     "streams": [
       { "name": "1", "twitch": "558120691" },
-      { "name": "2.1", "twitch": "561746068" }
+      { "name": "2.1", "twitch": "561746068" },
+      { "name": "2.2", "twitch": "561821972" }
     ]
   },
   {
@@ -1294,7 +1295,8 @@
     "id": "one-punch-man",
     "streams": [
       { "name": "1", "twitch": "559121361" },
-      { "name": "2", "twitch": "559668833", "start": "1:05:22" }
+      { "name": "2", "twitch": "559668833", "start": "1:05:22" },
+      { "name": "3", "twitch": "561821972", "start": "33:02" }
     ]
   },
   {
