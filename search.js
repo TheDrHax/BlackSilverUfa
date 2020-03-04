@@ -748,6 +748,7 @@ var Redirect = {
     "559668833": "/links/first.html#559668833",
     "560235613": "/links/dead-cells.html#560235613",
     "561746068": "/links/cold-fear.html#561746068",
+    "561821972": "/links/cold-fear.html#561821972",
   },
 
   link: function (hash) {
@@ -787,6 +788,7 @@ var Search = {
 
   games: {
     "finished": [
+      { name: "Cold Fear", path: "/links/cold-fear.html", year: 2020 },
       { name: "Dead Space 2", path: "/links/dead-space-2.html", year: 2020 },
       { name: "Dark Messiah of Might & Magic", path: "/links/dark-messiah.html", year: 2020 },
       { name: "Dead Space", path: "/links/dead-space.html", year: 2020 },
@@ -1080,7 +1082,6 @@ var Search = {
     ],
     "ongoing": [
       { name: "One Punch Man: A Hero Nobody Knows", path: "/links/one-punch-man.html", year: 2020 },
-      { name: "Cold Fear", path: "/links/cold-fear.html", year: 2020 },
       { name: "Dead Space 3", path: "/links/dead-space-3.html", year: 2020 },
       { name: "Gears of War 4", path: "/links/gears-of-war-4.html", year: 2020 },
       { name: "Grand Theft Auto: San Andreas", path: "/links/gta-san-andreas.html", year: 2020 },
