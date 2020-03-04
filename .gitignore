@@ -1,4 +1,7 @@
-_site
 __pycache__
 *.pyc
-_python
+/_site
+/_python
+/_node
+/node_modules
+/package-lock.json

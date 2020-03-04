@@ -2,7 +2,8 @@
 
 export PYTHON="python3"
 export VENV="_python"
-export PATH="$PWD/$VENV/bin:$PATH"
+export NODEENV="_node"
+export PATH="$PWD/$VENV/bin:$PWD/$NODEENV/bin:$PATH"
 export PREFIX="./_site"
 
 export GIT_REMOTE="origin"
@@ -35,6 +36,29 @@ venv_setup() { # filename [force | silent]
     $PYTHON -m pip install -U -r "$1" | grep -v "skipping upgrade" || exit 1
 
     md5sum "$1" > "$MD5_FILE"
+}
+
+node_setup() { # [force | silent]
+    MD5_FILE="$NODEENV/package.json.md5"
+
+    if [ "_$2" = '_force' ] && [ -e "$MD5_FILE" ]; then
+        rm "$MD5_FILE"
+    fi
+
+    if [ ! -d "$NODEENV" ]; then
+        # Specified version must have builds for musl libc at
+        # https://unofficial-builds.nodejs.org/download/release/
+        nodeenv -n '13.8.0' "$NODEENV" || exit 1
+    fi
+
+    if [ -e "$MD5_FILE" ] && md5sum -c "$MD5_FILE" > /dev/null 2>&1; then
+        [ "_$2" != "_silent" ] && echo "Skipping virtual environment update (no changes in package.json)"
+        return 0
+    fi
+
+    npm install || exit 1
+
+    md5sum "package.json" > "$MD5_FILE"
 }
 
 get_worktrees() { # returns: prefix, remote, branch, local_branch
@@ -72,8 +96,13 @@ new_worktree() { # prefix ref branch [force]
 }
 
 if [ ! -d "$VENV" ] && [ "_$1" != "_venv" ]; then
-    echo "Setting up the virtual environment: $VENV"
+    echo "Setting up Python virtual environment: $VENV"
     venv_setup requirements.txt
+fi
+
+if [ ! -d "$NODEENV" ] && [ "_$1" != "_venv" ]; then
+    echo "Setting up Node.js virtual environment: $VENV"
+    node_setup
 fi
 
 case $1 in
@@ -83,7 +112,8 @@ case $1 in
                 venv_setup requirements.txt $3
                 if [ -e "$VENV/cli-requirements.txt.md5" ]; then
                     venv_setup cli-requirements.txt $3
-                fi ;;
+                fi
+                node_setup ;;
             remove) rm -r "$VENV" ;;
             *) echo "Usage: $0 $1 update|remove" ;;
         esac ;;
