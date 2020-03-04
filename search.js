@@ -743,10 +743,11 @@ var Redirect = {
     "556030369": "/links/dead-space-3.html#556030369",
     "556596083": "/links/dreams.html#556596083",
     "557620811": "/links/dark-messiah.html#557620811",
-    "558120691": "/links/first.html#558120691",
+    "558120691": "/links/cold-fear.html#558120691",
     "559121361": "/links/one-punch-man.html#559121361",
     "559668833": "/links/first.html#559668833",
     "560235613": "/links/dead-cells.html#560235613",
+    "561746068": "/links/cold-fear.html#561746068",
   },
 
   link: function (hash) {
@@ -912,7 +913,6 @@ var Search = {
       { name: "Первый взгляд", path: "/links/first.html", year: 2020 },
       { name: "Foregone", path: "/links/first.html#559668833", year: 2020 },
       { name: "Beautiful Desolation", path: "/links/first.html#559668833", year: 2020 },
-      { name: "Cold Fear", path: "/links/first.html#558120691", year: 2020 },
       { name: "Warcraft III: Reforged", path: "/links/first.html#543591605", year: 2020 },
       { name: "Zombie Claus", path: "/links/first.html#530784764", year: 2020 },
       { name: "Granny: Chapter Two", path: "/links/first.html#530784764", year: 2020 },
@@ -1080,11 +1080,10 @@ var Search = {
     ],
     "ongoing": [
       { name: "One Punch Man: A Hero Nobody Knows", path: "/links/one-punch-man.html", year: 2020 },
+      { name: "Cold Fear", path: "/links/cold-fear.html", year: 2020 },
       { name: "Dead Space 3", path: "/links/dead-space-3.html", year: 2020 },
       { name: "Gears of War 4", path: "/links/gears-of-war-4.html", year: 2020 },
       { name: "Grand Theft Auto: San Andreas", path: "/links/gta-san-andreas.html", year: 2020 },
-      { name: "The Sims 4", path: "/links/sims-4.html", year: 2020 },
-      { name: "Spore", path: "/links/spore.html", year: 2019 },
       { name: "Nioh 2", path: "/links/nioh-2.html", year: 2019 },
     ],
     "infinite": [
@@ -1110,6 +1109,8 @@ var Search = {
       { name: "SCP Containment Breach", path: "/links/scp-cb.html", year: 2018 },
     ],
     "abandoned": [
+      { name: "The Sims 4", path: "/links/sims-4.html", year: 2020 },
+      { name: "Spore", path: "/links/spore.html", year: 2019 },
       { name: "Luigi's Mansion 3", path: "/links/luigis-mansion-3.html", year: 2019 },
       { name: "The Outer Worlds", path: "/links/outer-worlds.html", year: 2019 },
       { name: "The Surge 2", path: "/links/surge-2.html", year: 2019 },
