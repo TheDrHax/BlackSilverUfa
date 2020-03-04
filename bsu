@@ -46,11 +46,20 @@ get_worktrees() { # returns: prefix, remote, branch, local_branch
     done
 }
 
+is_worktree() { # prefix
+    [ -d "$1" ] && git worktree list | grep -q "$(realpath $1)"
+}
+
 new_worktree() { # prefix ref branch [force]
     if [ "_$4" = '_force' ] || [ ! -e "$1" ]; then
-        [ -e "$1" ] && rm -rf "$1"
-        git worktree prune
-        git worktree add "$1" "$2"
+        rm -rf "$1"
+    fi
+
+    git worktree prune
+    mkdir -p "$1"
+
+    if ! is_worktree "$1"; then
+        git worktree add "$1" "$2" || exit 1
     fi
 
     (
