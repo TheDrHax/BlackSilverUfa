@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = [
   {
     entry: [
+      './src/js/index.js',
       './src/css/styles.scss',
     ],
     stats: 'errors-only',
@@ -17,6 +18,14 @@ module.exports = [
             'sass-loader',
           ],
         },
+        {
+          test: /\.js$/,
+          exclude: /node_modules/,
+          use: [
+            'cache-loader',
+            'babel-loader',
+          ]
+        }
       ],
     },
     output: {
