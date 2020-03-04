@@ -1,0 +1,19 @@
+{
+  "name": "blacksilverufa",
+  "version": "1.0.0",
+  "description": "Архив стримов BlackUFA",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDrHax/BlackSilverUfa.git"
+  },
+  "keywords": [],
+  "author": "TheDrHax <the.dr.hax@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/TheDrHax/BlackSilverUfa/issues"
+  },
+  "homepage": "https://blackufa.thedrhax.pw"
+}
