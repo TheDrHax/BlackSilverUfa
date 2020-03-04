@@ -1,3 +1,8 @@
+require('bootstrap.native/dist/bootstrap-native-v4');
+import Darkmode from 'darkmode-js';
+import Headroom from 'headroom.js';
+import LazyLoad from 'vanilla-lazyload';
+
 var darkmode = new Darkmode({
   saveInCookies: true,
   label: '<i class="fas fa-lightbulb"></i>',
@@ -31,9 +36,7 @@ var headroom = new Headroom(document.querySelector('nav'), {
 });
 headroom.init();
 
-var lazyload = new LazyLoad({
-  elements_selector: '.lazyload'
-});
+new LazyLoad({ elements_selector: '.lazyload' });
 
 function jsLoad(src, onload, uncached) {
   var script = document.createElement('script');

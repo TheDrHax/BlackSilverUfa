@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="/dist/bundle.css?hash=${md5file(_('dist/bundle.css'))}">
     <%block name="head" />
-    <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.5.1/intersection-observer.js"></script>
     <script src="/static/js/matomo.js?hash=${md5file(_('static/js/matomo.js'))}"></script>
   </head>
   <body>
@@ -131,17 +130,9 @@
       </div>
     </footer>
 
-    <!-- https://github.com/verlok/lazyload -->
-    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
-    <!-- https://github.com/thednp/bootstrap.native -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.15/bootstrap-native-v4.min.js"></script>
-    <!-- https://github.com/sandoche/Darkmode.js -->
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.4.0/lib/darkmode-js.min.js"></script>
-    <!-- https://github.com/WickyNilliams/headroom.js -->
-    <script src="https://npmcdn.com/headroom.js@0.9.4/dist/headroom.min.js"></script>
     <!-- https://github.com/kraaden/autocomplete -->
     <script src="/static/js/autocomplete.js?hash=${md5file('static/js/autocomplete.js')}"></script>
-    <script src="/static/js/loader.js?hash=${md5file('static/js/loader.js')}"></script>
+    <script src="/dist/bundle.js?hash=${md5file(_('dist/bundle.js'))}"></script>
     <%block name="scripts" />
   </body>
 </html>
