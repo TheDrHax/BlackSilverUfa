@@ -11,8 +11,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-    <link rel="stylesheet" href="/static/css/bootstrap.min.css?hash=${md5file('static/css/bootstrap.min.css')}">
-    <link rel="stylesheet" href="/static/css/styles.css?hash=${md5file('static/css/styles.css')}">
+    <link rel="stylesheet" href="/dist/bundle.css?hash=${md5file(_('dist/bundle.css'))}">
     <%block name="head" />
     <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.5.1/intersection-observer.js"></script>
     <script src="/static/js/matomo.js?hash=${md5file(_('static/js/matomo.js'))}"></script>
