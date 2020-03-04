@@ -24,8 +24,10 @@ venv_setup() { # filename [force | silent]
 
     if [ -e "$MD5_FILE" ] && md5sum -c "$MD5_FILE" > /dev/null 2>&1; then
         [ "_$2" != "_silent" ] && echo "Skipping full virtual environment update (no changes in $1)"
-        if grep -qv '==' "$1"; then
-            grep -v '==' "$1" | xargs $PYTHON -m pip install -U | grep -v "skipping upgrade"
+        if grep -q '# dynamic$' "$1"; then
+            awk '/# dynamic$/{print $1}' "$1" |
+                xargs $PYTHON -m pip install -U | \
+                grep -v "skipping upgrade"
         fi
         return 0
     fi

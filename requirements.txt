@@ -9,4 +9,4 @@ requests==2.21.0
 sortedcontainers==2.1.0
 tdh-tcd==2.4.3
 cached-property==1.5.1
-youtube-dl
+youtube-dl # dynamic
