@@ -3,7 +3,7 @@
 var Redirect = {
   index: {
     % for segment in streams.segments:
-    "${segment.hash}": "${segment.references[0].game.filename}#${segment.hash}",
+    "${segment.hash}": "${segment.url}",
     % endfor
   },
 
@@ -50,7 +50,7 @@ var Search = {
 <% listed_games.append(game.game) %>\
           % endif
           % for name in game.name.split(' / '):
-      { name: "${name}", path: "${game.game.filename}#${game.hash}", year: ${game.date.year} },
+      { name: "${name}", path: "${game.url}", year: ${game.date.year} },
           % endfor
         % endif
       % endfor

@@ -1,5 +1,5 @@
 import attr
-import json
+import typing
 from git import Repo
 from datetime import datetime
 from subprocess import run, PIPE
@@ -75,6 +75,12 @@ class Segment:
     @property
     def name(self) -> str:
         return ' / '.join([r.game_name for r in self.references])
+
+    @property
+    def url(self) -> str:
+        """Return relative URL of the first reference to this segment"""
+        if len(self.references) > 0:
+            return self.references[0].url
 
     def reference(self):
         return SegmentReference(
@@ -375,6 +381,11 @@ class SegmentReference:
             return self.name
         else:
             return f'{self.game.name} - {self.name}'
+
+    @property
+    def url(self):
+        """Return relative URL of this reference"""
+        return f'{self.game.filename}#{self.hash}'
 
     @join()
     def to_json(self):
