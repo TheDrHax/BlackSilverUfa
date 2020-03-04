@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="/dist/bundle.css?hash=${md5file(_('dist/bundle.css'))}">
     <%block name="head" />
-    <script src="/static/js/matomo.js?hash=${md5file(_('static/js/matomo.js'))}"></script>
   </head>
   <body>
     <div style="height: 56px"><!-- floating navbar workaround --></div>
