@@ -28,7 +28,7 @@
 
   <ul>
   % for game, segment in missing:
-    <li><a href="${game.filename}">${game.name}</a> — <a href="${game.filename}#${segment.hash}">${segment.name}</a></li>
+    <li><a href="${game.filename}">${game.name}</a> — <a href="${segment.url}">${segment.name}</a></li>
   % endfor
 % else:
   <p>Все записи на месте. Отлично! :)</p>
@@ -42,7 +42,7 @@
 
   <ul>
   % for game, segment in yt:
-    <li><a href="${game.filename}">${game.name}</a> — <a href="${game.filename}#${segment.hash}">${segment.name}</a></li>
+    <li><a href="${game.filename}">${game.name}</a> — <a href="${segment.url}">${segment.name}</a></li>
   % endfor
   </ul>
 % else:

@@ -50,7 +50,7 @@
     <%self:card
       text="${game.name}"
       thumbnail="${game.thumbnail}"
-      link="${game.game.filename}#${game.hash}" />
+      link="${game.url}" />
   % endif
 % endfor
 </div>
@@ -70,7 +70,7 @@
       <span class="badge badge-primary">${numword(game.stream_count, 'стрим')}</span>
     </li>
   % elif type(game) == SegmentReference:
-    <li class="list-group-item"><a href="${game.game.filename}#${game.hash}">${game.name}</a></li>
+    <li class="list-group-item"><a href="${game.url}">${game.name}</a></li>
   % endif
 % endfor
 </ul>
