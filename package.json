@@ -18,6 +18,7 @@
   "homepage": "https://blackufa.thedrhax.pw",
   "devDependencies": {
     "@babel/core": "^7.8.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/polyfill": "^7.8.3",
     "@babel/preset-env": "^7.8.6",
     "babel-loader": "^8.0.6",
@@ -31,6 +32,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "autocompleter": "^6.0.2",
     "bootstrap": "^4.4.1",
     "bootstrap.native": "^2.0.27",
     "darkmode-js": "^1.5.5",

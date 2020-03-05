@@ -187,7 +187,7 @@ class Segment:
         else:
             keys = ['youtube', 'cuts', 'official',
                     'abs_start', 'abs_end', 'duration']
-            multiline_keys = ['name', 'direct', 'torrent']
+            multiline_keys = ['name', 'url', 'direct', 'torrent']
 
         def get_attr(key):
             if key in self.fallbacks and not compiled:
