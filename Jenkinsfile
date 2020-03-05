@@ -13,10 +13,10 @@ node('python3 && git && jq && (tzdata || !alpine)') {
         git branch: input_branch, credentialsId: cred_git, url: repo_url
         sh 'git config --local user.email "the.dr.hax@gmail.com"'
         sh 'git config --local user.name "Jenkins"'
+        sh './bsu venv update'
         sshagent (credentials: [cred_git]) {
             sh './bsu pull'
         }
-        sh './bsu venv update'
     }
 
     stage('Download Chats') {
