@@ -252,9 +252,6 @@ class Segment:
     def __str__(self):
         return self.to_json()
 
-    def __repr__(self):
-        return self.to_json()
-
 
 @attr.s(auto_attribs=True, kw_only=True)
 class SegmentReference:
@@ -447,9 +444,6 @@ class SegmentReference:
     def __str__(self):
         return self.to_json()
 
-    def __repr__(self):
-        return self.to_json()
-
 
 class Stream(SortedKeyList):
     def __init__(self, data, key):
@@ -532,9 +526,6 @@ class Stream(SortedKeyList):
             yield self[0].to_json()
 
     def __str__(self):
-        return self.to_json()
-
-    def __repr__(self):
         return self.to_json()
 
 
@@ -630,9 +621,6 @@ class Streams(dict):
 
     def __str__(self):
         return self.to_json()
-
-    def __repr__(self):
-        return f'Streams({len(self)})'
 
     def save(self, filename: str = None):
         if filename is None:
