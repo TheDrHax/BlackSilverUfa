@@ -70,10 +70,8 @@ def generate():
     # Generate preprocessed segments.json
     streams.segments.save(_('data/segments.json'), compiled=True)
 
-    # Generate scripts
-    with open(_("search.js"), "w") as output:
-        t = lookup.get_template('/search.mako')
-        output.write(t.render(**args).strip())
+    # Generate preprocessed categories.json
+    categories.save(_('data/categories.json'), compiled=True)
 
     # Webpack
     call(['npx', 'webpack',
