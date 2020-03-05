@@ -1,7 +1,8 @@
-require('bootstrap.native/dist/bootstrap-native-v4');
+import 'bootstrap.native/dist/bootstrap-native-v4';
 import Darkmode from 'darkmode-js';
 import Headroom from 'headroom.js';
 import LazyLoad from 'vanilla-lazyload';
+import './player';
 
 var darkmode = new Darkmode({
   saveInCookies: true,
