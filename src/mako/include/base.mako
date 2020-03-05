@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-    <link rel="stylesheet" href="/dist/bundle.css?hash=${md5file(_('dist/bundle.css'))}">
+    <link rel="stylesheet" href="/dist/bundle.css">
     <%block name="head" />
   </head>
   <body>
@@ -129,7 +129,7 @@
       </div>
     </footer>
 
-    <script src="/dist/bundle.js?hash=${md5file(_('dist/bundle.js'))}"></script>
+    <script src="/dist/bundle.js"></script>
     <%block name="scripts" />
   </body>
 </html>
