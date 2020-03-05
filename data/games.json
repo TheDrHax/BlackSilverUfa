@@ -1380,7 +1380,8 @@
       { "name": "1", "twitch": "549258537", "start": "2:56:20" },
       { "name": "2", "twitch": "550299037" },
       { "name": "3", "twitch": "551290502" },
-      { "name": "4", "twitch": "556030369" }
+      { "name": "4", "twitch": "556030369" },
+      { "name": "5", "twitch": "562243368", "start": "" }
     ]
   },
   {
@@ -1477,7 +1478,7 @@
   },
   {
     "name": "Grand Theft Auto: San Andreas",
-    "category": "ongoing",
+    "category": "finished",
     "id": "gta-san-andreas",
     "streams": [
       { "name": "1", "twitch": "533269694" },
@@ -1489,7 +1490,8 @@
       { "name": "6", "twitch": "542106142" },
       { "name": "7", "twitch": "547176657" },
       { "name": "8", "twitch": "548170121" },
-      { "name": "9", "twitch": "554432443" }
+      { "name": "9", "twitch": "554432443" },
+      { "name": "10", "twitch": "562243368" }
     ]
   },
   {
