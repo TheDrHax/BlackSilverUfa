@@ -113,9 +113,9 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
 % endif
 </ul>
 
-<div class="video-row-wrapper"><div class="video-row d-flex justify-content-center">
+<div class="video-row d-flex justify-content-center">
   <p class="stream" data-id="${id}" ${segment.attrs()} />
-</div></div>
+</div>
 
 % if not segment.playable:
 <p>Запись этого стрима в данный момент отсутствует. Если вы попали сюда по

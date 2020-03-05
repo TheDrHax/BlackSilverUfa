@@ -11,7 +11,7 @@
 }
 
 .stream {
-  width: calc(100vh / 9 * 16 - 10%);
+  width: calc(80vh / 9 * 16);
   max-width: calc(100vw - 30px);
 }
 
@@ -25,11 +25,11 @@
   width: 200px;
 }
 
-.video-row-wrapper {
+body {
   overflow-x: hidden;
 }
 
 .video-row {
-  width: 200%;
-  margin-left: -50%;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
 }
