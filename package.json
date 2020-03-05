@@ -32,6 +32,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
+    "@datapunt/matomo-tracker-js": "^0.1.1",
     "autocompleter": "^6.0.2",
     "bootstrap": "^4.4.1",
     "bootstrap.native": "^2.0.27",
