@@ -2,6 +2,8 @@ import 'bootstrap.native/dist/bootstrap-native-v4';
 import Darkmode from 'darkmode-js';
 import Headroom from 'headroom.js';
 import LazyLoad from 'vanilla-lazyload';
+import { Search } from './search';
+import { Redirect } from './redirect';
 import './player';
 
 var darkmode = new Darkmode({
@@ -52,17 +54,10 @@ _paq.push(['enableLinkTracking']);
 
 new LazyLoad({ elements_selector: '.lazyload' });
 
-function jsLoad(src, onload, uncached) {
-  var script = document.createElement('script');
-  if (uncached) {
-    script.src = src + '?ts=' + Math.floor(Date.now() / 1000);
-  } else {
-    script.src = src;
-  }
-  script.onload = onload;
-  document.body.appendChild(script);
+// Search
+if (document.querySelector('#search')) {
+  Search.init('#search');
 }
 
-jsLoad('/search.js', function() {
-  Search.init('#search');
-}, true);
+// Redirect
+window.Redirect = Redirect;

@@ -49,9 +49,6 @@ def generate():
     if os.path.isdir(_('static')):
         shutil.rmtree(_('static'))
     shutil.copytree('static', _('static'))
-    shutil.copyfile(_('static/html/redirect.html'), _('r/index.html'))
-    shutil.copyfile(_('r/index.html'), _('src/player.html'))  # compatibility
-    shutil.rmtree(_('static/html'))
 
     tc_dict = SortedDict()
 
@@ -84,6 +81,12 @@ def generate():
         with open(_(i + '.html'), "w") as out:
             t = lookup.get_template(f'/{i}.mako')
             out.write(t.render(**args))
+
+    # Generate redirects
+    with open(_('r/index.html'), 'w') as out:
+        t = lookup.get_template(f'/redirect.mako')
+        out.write(t.render(**args))
+    shutil.copyfile(_('r/index.html'), _('src/player.html'))  # for old links
 
     # Generate links/*.html
     t = lookup.get_template('/links.mako')

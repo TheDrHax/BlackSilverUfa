@@ -1,6 +1,7 @@
 import Plyr from 'plyr';
 import SubtitlesOctopus from 'libass-wasm';
 import { debounce } from 'debounce';
+import { Redirect } from './redirect';
 
 function get_timecodes(id) {
   return document.querySelectorAll('.timecodes[data-id="' + id + '"] a[data-value]');
