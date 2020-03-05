@@ -132,6 +132,5 @@
     <!-- https://github.com/kraaden/autocomplete -->
     <script src="/static/js/autocomplete.js?hash=${md5file('static/js/autocomplete.js')}"></script>
     <script src="/dist/bundle.js?hash=${md5file(_('dist/bundle.js'))}"></script>
-    <%block name="scripts" />
   </body>
 </html>

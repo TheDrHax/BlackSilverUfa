@@ -219,6 +219,12 @@ window.addEventListener('DOMContentLoaded', function() {
   let hash = false;
   let spawned = false;
 
+  if (streams.length == 0) {
+    return;
+  } else {
+    console.log(`Initializing ${streams.length} streams`);
+  }
+
   function parse_hash() {
     let hash = window.location.hash.replace('#', '').split('.');
 

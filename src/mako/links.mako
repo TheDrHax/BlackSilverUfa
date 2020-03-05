@@ -9,11 +9,6 @@
 
 <%block name="head">
 <title>${game.name} | ${config['title']}</title>
-<link rel="stylesheet" href="/dist/player.css?hash=${md5file(_('dist/player.css'))}">
-</%block>
-
-<%block name="scripts">
-<script src="/dist/player.js?hash=${md5file(_('dist/player.js'))}"></script>
 </%block>
 
 <%block name="content">

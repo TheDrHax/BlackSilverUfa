@@ -36,42 +36,6 @@ module.exports = [
       new MiniCssExtractPlugin({
         filename: 'bundle.css'
       }),
-    ]
-  },
-  {
-    entry: [
-      './src/js/player.js',
-      './src/css/player.scss',
-    ],
-    stats: 'errors-only',
-    module: {
-      rules: [
-        {
-          test: /\.s[ac]ss$/i,
-          use: [
-            MiniCssExtractPlugin.loader,
-            'cache-loader',
-            'css-loader',
-            'sass-loader',
-          ],
-        },
-        {
-          test: /\.js$/,
-          exclude: /node_modules/,
-          use: [
-            'cache-loader',
-            'babel-loader',
-          ]
-        }
-      ],
-    },
-    output: {
-      filename: 'player.js',
-    },
-    plugins: [
-      new MiniCssExtractPlugin({
-        filename: 'player.css'
-      }),
       new CopyPlugin([{
         from: 'node_modules/libass-wasm/dist/*worker*',
         flatten: true
