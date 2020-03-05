@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Zombie Army 4: Dead War - 2", "year": 2020, "url": "/links/zombie-army-4.html#555473037"},
       {"name": "Dead Space 3 - 4 / Dark Messiah of Might & Magic - 4", "year": 2020, "url": "/links/dead-space-3.html#556030369"},
       {"name": "Dreams - 2 / I Will Eat You / Hand Simulator: Survival - 1 / Pummel Party - 7 (6D) / Golf It! - 20", "year": 2020, "url": "/links/dreams.html#556596083"},
       {"name": "Dark Messiah of Might & Magic - 5 / Dead Cells - 4", "year": 2020, "url": "/links/dark-messiah.html#557620811"},
@@ -11,7 +10,8 @@
       {"name": "Foregone / Beautiful Desolation / One Punch Man: A Hero Nobody Knows - 2 / Nioh 2 - Демо 2", "year": 2020, "url": "/links/first.html#559668833"},
       {"name": "Dead Cells - 5 / Hand Simulator: Survival - 2 / Своя Игра - 16 / Pummel Party - 8 (6D) / Golf It! - 21", "year": 2020, "url": "/links/dead-cells.html#560235613"},
       {"name": "Cold Fear - 2.1", "year": 2020, "url": "/links/cold-fear.html#561746068"},
-      {"name": "Cold Fear - 2.2 / One Punch Man: A Hero Nobody Knows - 3", "year": 2020, "url": "/links/cold-fear.html#561821972"}
+      {"name": "Cold Fear - 2.2 / One Punch Man: A Hero Nobody Knows - 3", "year": 2020, "url": "/links/cold-fear.html#561821972"},
+      {"name": "Dead Space 3 - 5 / Grand Theft Auto: San Andreas - 10", "year": 2020, "url": "/links/dead-space-3.html#562243368"}
     ]
   },
   "finished": {
@@ -129,6 +129,7 @@
       {"name": "Metal Gear Solid 2: Sons of Liberty", "year": 2019, "url": "/links/mgs-2.html"},
       {"name": "Suite 776 / The Alien Cube (демо)", "year": 2019, "url": "/links/single.html#524865260"},
       {"name": "Alien: Isolation (Extreme + новый ИИ)", "year": 2019, "url": "/links/alien-isolation-ai.html"},
+      {"name": "Grand Theft Auto: San Andreas", "year": 2020, "url": "/links/gta-san-andreas.html"},
       {"name": "Dead Space", "year": 2020, "url": "/links/dead-space.html"},
       {"name": "Dark Messiah of Might & Magic", "year": 2020, "url": "/links/dark-messiah.html"},
       {"name": "Dead Space 2", "year": 2020, "url": "/links/dead-space-2.html"},
@@ -255,7 +256,6 @@
     "name": "Активные",
     "games": [
       {"name": "Nioh 2", "year": 2019, "url": "/links/nioh-2.html"},
-      {"name": "Grand Theft Auto: San Andreas", "year": 2020, "url": "/links/gta-san-andreas.html"},
       {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
       {"name": "Dead Space 3", "year": 2020, "url": "/links/dead-space-3.html"},
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"}
