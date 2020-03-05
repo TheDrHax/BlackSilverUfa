@@ -58,7 +58,7 @@ node_setup() { # [force | silent]
 
     npm install || exit 1
 
-    md5sum "package.json" > "$MD5_FILE"
+    md5sum "package.json" "package-lock.json" > "$MD5_FILE"
 }
 
 get_worktrees() { # returns: prefix, remote, branch, local_branch
