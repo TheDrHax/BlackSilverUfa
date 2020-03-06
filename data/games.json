@@ -74,8 +74,17 @@
       { "name": "Tools Up! / Out of Space", "twitch": "518306588", "start": "1:43:33" },
       { "name": "Beyond Senses / eXplosive Dinosaurs / Titeuf", "twitch": "527927154", "start": "2:07:14" },
       { "name": "Left 4 Dead 2", "twitch": "532342982" },
-      { "name": "Totally Reliable Delivery Service / Paunch / Besiege", "twitch": "552313454", "start": "4:01:43" },
+      { "name": "Totally Reliable Delivery Service / Paunch", "twitch": "552313454", "start": "4:01:43" },
       { "name": "I Will Eat You", "twitch": "556596083", "start": "2:07:59" }
+    ]
+  },
+  {
+    "name": "Besiege",
+    "category": "co-op-series",
+    "id": "besiege",
+    "streams": [
+      { "name": "1", "twitch": "552313454", "start": "5:06:05" },
+      { "name": "2", "twitch": "562741500", "start": "4:36:53" }
     ]
   },
   {
@@ -1276,7 +1285,8 @@
       { "name": "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", "twitch": "526101430" },
       { "name": "Zombie Claus / Granny: Chapter Two", "twitch": "530784764", "start": "3:59:51" },
       { "name": "Warcraft III: Reforged", "twitch": "543591605" },
-      { "name": "Foregone / Beautiful Desolation", "twitch": "559668833" }
+      { "name": "Foregone / Beautiful Desolation", "twitch": "559668833" },
+      { "name": "Weakless / Wolcen: Lords of Mayhem", "twitch": "562741500" }
     ]
   },
   {
@@ -1343,10 +1353,11 @@
     "id": "dead-cells",
     "streams": [
       { "name": "1", "twitch": "294220536", "start": "2:43:07" },
-      { "name": "2", "twitch": "552313454", "start": "2:06:09" },
+      { "name": "2 (заново)", "twitch": "552313454", "start": "2:06:09" },
       { "name": "3", "twitch": "552876850" },
       { "name": "4", "twitch": "557620811", "start": "4:57:47" },
-      { "name": "5", "twitch": "560235613" }
+      { "name": "5", "twitch": "560235613" },
+      { "name": "6", "twitch": "562741500", "start": "1:01:36" }
     ]
   },
   {
