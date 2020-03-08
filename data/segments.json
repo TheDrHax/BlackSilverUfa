@@ -3652,26 +3652,22 @@
   "550381390": {
     "youtube": "vcBH3WrhhOI", "abs_start": "0:00", "abs_end": "13:39", "duration": "13:39",
     "name": "Metro Exodus - Sam's Story 1.1",
-    "url": "/links/metro-exodus.html#550381390",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/550381390.torrent"
+    "url": "/links/metro-exodus.html#550381390"
   },
   "550387516": {
     "youtube": "d9PmQu3LXnU", "abs_start": "0:00", "abs_end": "2:08:27", "duration": "2:08:27",
     "name": "Metro Exodus - Sam's Story 1.2",
-    "url": "/links/metro-exodus.html#550387516",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/550387516.torrent"
+    "url": "/links/metro-exodus.html#550387516"
   },
   "550791781": {
     "youtube": "2qfqkG0-Ew0", "cuts": ["2:53:30~2:53:40"], "abs_start": "0:00", "abs_end": "4:02:15", "duration": "4:02:05",
     "name": "Metro Exodus - Sam's Story 2.1",
-    "url": "/links/metro-exodus.html#550791781",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/550791781.torrent"
+    "url": "/links/metro-exodus.html#550791781"
   },
   "550874352": {
     "youtube": "Vhg23OEZOis", "cuts": ["1:49:40~1:49:50"], "abs_start": "0:00", "abs_end": "2:14:13", "duration": "2:14:03",
     "name": "Metro Exodus - Sam's Story 2.2",
-    "url": "/links/metro-exodus.html#550874352",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/550874352.torrent"
+    "url": "/links/metro-exodus.html#550874352"
   },
   "551290502": {
     "youtube": "v5_1KkGWKNE", "cuts": ["31:26~37:12"], "abs_start": "0:00", "abs_end": "5:48:00", "duration": "5:42:14",
@@ -3776,9 +3772,10 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/562741500.torrent"
   },
   "563294076": {
-    "youtube": "D8tlxk5rxcc", "official": false, "abs_start": "0:00", "abs_end": "5:57:41", "duration": "5:57:41",
-    "name": "Dead Cells - 7 / Ori and the Will of the Wisps",
-    "url": "/links/dead-cells.html#563294076",
+    "abs_start": "0:00", "abs_end": "5:58:13", "duration": "0:00",
+    "name": "Halo: Combat Evolved Anniversary / Walking Simulator / Stilt Fella / The Longing / Yes, Your Grace / Dead Cells - 7 / Ori and the Will of the Wisps",
+    "url": "/links/first.html#563294076",
+    "direct": "https://bsufiles.thedrhax.pw/streams/563294076.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/563294076.torrent"
   }
 }
