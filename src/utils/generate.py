@@ -1,18 +1,48 @@
 import os
+import sys
 import json
 import shutil
+from time import time
 from subprocess import call
 
 from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
 
 from . import _
-from .ass import cut_subtitles
-from ..data import config, streams, games, categories
-from ..data.config import DEBUG
 
 
+DEBUG = False
+config = streams = games = categories = None
+
+
+def timed(label):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            t = time()
+            res = func(*args, **kwargs)
+            t = time() - t
+            print(label.format(int(t * 1000)), file=sys.stderr)
+            return res
+        return wrapper
+    return decorator
+
+
+@timed('Database loaded in {}ms')
+def load_database():
+    global config, streams, games, categories, DEBUG
+    from ..data import config, streams, games, categories
+    from ..data.config import DEBUG
+
+
+@timed('Fallbacks activated in {}ms')
+def enable_fallbacks():
+    streams.enable_fallbacks()
+
+
+@timed('JSON files built in {}ms')
 def build_data():
+    from .ass import cut_subtitles
+
     # Create required directories
     if not os.path.isdir(_('data')):
         os.mkdir(_('data'))
@@ -38,6 +68,7 @@ def build_data():
     categories.save(_('data/categories.json'), compiled=True)
 
 
+@timed('Mako templates built in {}ms')
 def build_mako():
     env = {
         '_': _,
@@ -77,6 +108,7 @@ def build_mako():
             out.write(t.render(game=game, **env).strip())
 
 
+@timed('Webpack completed in {}ms')
 def build_webpack():
     # Recreate required directories
     if os.path.isdir(_('dist')):
@@ -90,7 +122,11 @@ def build_webpack():
           '--output-path', os.path.abspath(_('dist'))])
 
 
+@timed('Build completed in {}ms')
 def generate():
+    load_database()
+    enable_fallbacks()
+
     # Create debug marker
     if DEBUG:
         open(_('.DEBUG'), 'a').close()
@@ -102,7 +138,6 @@ def generate():
         shutil.rmtree(_('static'))
     shutil.copytree('static', _('static'))
 
-    streams.enable_fallbacks()
     build_data()
     build_webpack()
     build_mako()
