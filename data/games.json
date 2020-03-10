@@ -939,7 +939,8 @@
       { "name": "Project Nightmares Case 36: Henrietta Kedward", "twitch": "491017258" },
       { "name": "Superliminal", "twitch": "508178551", "start": "32:49" },
       { "name": "Lost Ember", "twitch": "512697561" },
-      { "name": "Suite 776 / The Alien Cube (демо)", "twitch": "524865260", "start": "43:20" }
+      { "name": "Suite 776 / The Alien Cube (демо)", "twitch": "524865260", "start": "43:20" },
+      { "name": "Walking Simulator", "twitch": "563856575", "start": "1:22:25" }
     ]
   },
   {
@@ -1288,7 +1289,25 @@
       { "name": "Foregone / Beautiful Desolation", "twitch": "559668833" },
       { "name": "Weakless / Wolcen: Lords of Mayhem", "twitch": "562741500" },
       { "name": "Ori and the Will of the Wisps", "twitch": "563294076", "start": "1:57:37" },
-      { "name": "Halo: Combat Evolved Anniversary / Walking Simulator / Stilt Fella / The Longing / Yes, Your Grace", "twitch": "563856575" }
+      { "name": "Halo: Combat Evolved Anniversary / Stilt Fella", "twitch": "563856575" }
+    ]
+  },
+  {
+    "name": "The Longing",
+    "category": "ongoing",
+    "id": "the-longing",
+    "streams": [
+      { "name": "День 400", "twitch": "563856575", "start": "3:36:11" },
+      { "name": "Дни 396-395", "twitch": "564858921" }
+    ]
+  },
+  {
+    "name": "Yes, Your Grace",
+    "category": "ongoing",
+    "id": "yes-your-grace",
+    "streams": [
+      { "name": "1", "twitch": "563856575", "start": "4:42:00" },
+      { "name": "2", "twitch": "564858921", "start": "4:00:23" }
     ]
   },
   {
@@ -1632,7 +1651,8 @@
       { "name": "1", "twitch": "239731404", "start": "1:17:59" },
       { "name": "2 (релиз)", "twitch": "491017258", "start": "4:00:25" },
       { "name": "3", "twitch": "493101229" },
-      { "name": "4", "twitch": "498426882", "start": "3:18:02" }
+      { "name": "4", "twitch": "498426882", "start": "3:18:02" },
+      { "name": "5", "twitch": "564858921", "start": "2:24:02" }
     ]
   },
   {
