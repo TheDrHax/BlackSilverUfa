@@ -1288,8 +1288,16 @@
       { "name": "Warcraft III: Reforged", "twitch": "543591605" },
       { "name": "Foregone / Beautiful Desolation", "twitch": "559668833" },
       { "name": "Weakless / Wolcen: Lords of Mayhem", "twitch": "562741500" },
-      { "name": "Ori and the Will of the Wisps", "twitch": "563294076", "start": "1:57:37" },
       { "name": "Halo: Combat Evolved Anniversary / Stilt Fella", "twitch": "563856575" }
+    ]
+  },
+  {
+    "name": "Ori and the Will of the Wisps",
+    "category": "ongoing",
+    "id": "ori-wotw",
+    "streams": [
+      { "name": "1", "twitch": "563294076", "start": "1:57:37" },
+      { "name": "2", "twitch": "565405331", "start": "1:41:02" }
     ]
   },
   {
@@ -1297,8 +1305,9 @@
     "category": "ongoing",
     "id": "the-longing",
     "streams": [
-      { "name": "День 400", "twitch": "563856575", "start": "3:36:11" },
-      { "name": "Дни 396-395", "twitch": "564858921" }
+      { "name": "400", "twitch": "563856575", "start": "3:36:11" },
+      { "name": "396-395", "twitch": "564858921" },
+      { "name": "393-392", "twitch": "565405331" }
     ]
   },
   {
@@ -1652,7 +1661,8 @@
       { "name": "2 (релиз)", "twitch": "491017258", "start": "4:00:25" },
       { "name": "3", "twitch": "493101229" },
       { "name": "4", "twitch": "498426882", "start": "3:18:02" },
-      { "name": "5", "twitch": "564858921", "start": "2:24:02" }
+      { "name": "5", "twitch": "564858921", "start": "2:24:02" },
+      { "name": "6", "twitch": "565405331", "start": "5:39:50" }
     ]
   },
   {
