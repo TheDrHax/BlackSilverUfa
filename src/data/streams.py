@@ -1,5 +1,4 @@
 import attr
-import typing
 from git import Repo
 from datetime import datetime
 from subprocess import run, PIPE
@@ -450,8 +449,17 @@ class SegmentReference:
 
 
 class Stream(SortedKeyList):
+    @staticmethod
+    def _segment_key(s):
+        if hasattr(s, 'fallbacks') and 'offset' in s.fallbacks:
+            offset = s.fallbacks['offset']
+        else:
+            offset = s.offset()
+
+        return int(offset)
+
     def __init__(self, data, key):
-        SortedKeyList.__init__(self, key=lambda s: int(Timecode(s.offset())))
+        SortedKeyList.__init__(self, key=self._segment_key)
 
         if type(data) is not list:
             raise TypeError(type(data))
@@ -593,6 +601,8 @@ class Streams(dict):
                         if not segment.playable:
                             segment.fallbacks['direct'] = segment.direct
                             segment.direct = fallback.url(filename)
+                            segment.fallbacks['cuts'] = segment.cuts
+                            segment.cuts = Timecodes()
                             segment.fallbacks['offset'] = segment.offset()
                             segment.offset = Timecode(0)
 
