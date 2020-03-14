@@ -157,28 +157,31 @@ def original_video(segment, directory=None):
     return None
 
 
-def can_match(segment, segment_kwargs, directory=None, match_all=False):
-    if not original_video(segment, directory):
-        return False
+def match_candidates(segment_kwargs, directory=None, match_all=False):
+    for segment in streams.segments:
+        if not original_video(segment, directory):
+            continue
 
-    if segment.youtube and segment.official and not match_all:
-        return False
+        if segment.youtube and segment.official and not match_all:
+            continue
 
-    if not segment.official and segment_kwargs.get('official') is False:
-        print(f'Skipping segment {segment.hash} (both videos are unofficial)',
-              file=sys.stderr)
-        return False
+        if not segment.official and segment_kwargs.get('official') is False:
+            print(f'Skipping segment {segment.hash} '
+                  '(both videos are unofficial)', file=sys.stderr)
+            continue
 
-    tmp_stream = Stream([], segment.stream.twitch)
-    new_segment = Segment(stream=tmp_stream, **segment_kwargs)
-    _, covered, _ = refs_coverage(segment.stream, new_segment)
+        tmp_stream = Stream([], segment.stream.twitch)
+        new_segment = Segment(stream=tmp_stream, **segment_kwargs)
+        _, covered, _ = refs_coverage(segment.stream, new_segment)
 
-    if len(covered) == 0:
-        print(f'Skipping segment {segment.hash} (input video is too short)',
-              file=sys.stderr)
-        return False
+        if len(covered) == 0:
+            print(f'Skipping segment {segment.hash} '
+                  '(input video is too short)', file=sys.stderr)
+            continue
 
-    return True
+        time_range = Timecode(covered[0].abs_start)
+        time_range.duration = covered[-1].abs_end - covered[0].abs_start
+        yield segment, time_range
 
 
 def ytdl_video(video_id):
@@ -199,7 +202,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
     if 'youtube' in segment_kwargs:
         dupes = [s for s in streams.segments
                  if s.youtube == segment_kwargs['youtube']]
-        
+
         if len(dupes) != 0:
             print(f'Error: Video is already assigned to segment {dupes[0].hash}',
                   file=sys.stderr)
@@ -210,11 +213,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
         video = Clip(segment_kwargs['direct'], ar=1000)
 
     candidates = sorted(
-        [s
-         for s in streams.segments
-         if can_match(s, segment_kwargs, directory, match_all)],
-        key=lambda s: abs(int(s.abs_end - s.abs_start) - video.duration)
-    )
+        match_candidates(segment_kwargs, directory, match_all),
+        key=lambda s: abs(int(s[1].duration) - video.duration))
 
     if len(candidates) == 0:
         print('Error: No candidates found', file=sys.stderr)
@@ -227,7 +227,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
     matching_stream = None
     video_offset = None
 
-    for segment in candidates:
+    for segment, t_range in candidates:
         path = original_video(segment, directory)
         print(f'Checking segment {segment.hash} (path: {path})',
               file=sys.stderr)
@@ -237,8 +237,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
         try:
             offset, score = find_offset(
                 template, original,
-                start=int(segment.abs_start),
-                end=int(segment.abs_end) - video.duration + 10 * 60,
+                start=int(t_range),
+                end=int(t_range + t_range.duration) - video.duration + 10 * 60,
                 min_score=10)
         except Exception:
             continue
