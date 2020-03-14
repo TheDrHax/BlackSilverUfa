@@ -243,6 +243,11 @@ window.addEventListener('DOMContentLoaded', function() {
 
   let i = 0;
   for (let wrapper of streams) {
+    if (!wrapper.dataset.youtube && !wrapper.dataset.direct) {
+      spawned = true;
+      continue;
+    }
+
     var button = document.createElement('button');
     button.classList.add('btn', 'btn-primary');
     button.type = 'button';
