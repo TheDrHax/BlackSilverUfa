@@ -65,6 +65,7 @@ from twitch_utils.offset import Clip, find_offset
 from ..data.streams import streams, Segment, Stream, STREAMS_JSON
 from ..data.games import games, GAMES_JSON
 from ..data.timecodes import timecodes, Timecode, Timecodes
+from ..data.fallback import fallback
 
 
 flat = itertools.chain.from_iterable
@@ -97,7 +98,7 @@ def refs_coverage(stream, segment):
             left.append(ref)
         else:
             right.append(ref)
-        
+
     return left, covered, right
 
 
@@ -151,8 +152,8 @@ def original_video(segment, directory=None):
     if filename and os.path.exists(filename):
         return filename
 
-    if segment.direct and segment.offset() == 0:
-        return segment.direct
+    if f'{segment.twitch}.mp4' in fallback:
+        return fallback.url(f'{segment.twitch}.mp4')
 
     return None
 
@@ -197,8 +198,6 @@ def ytdl_video(video_id):
 
 
 def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False):
-    streams.enable_fallbacks()
-
     if 'youtube' in segment_kwargs:
         dupes = [s for s in streams.segments
                  if s.youtube == segment_kwargs['youtube']]
@@ -284,8 +283,6 @@ def check_cuts(original_video, input_video, offset=0):
 
 
 def cmd_cuts(segment, segment_kwargs, directory=None):
-    streams.enable_fallbacks()
-
     if 'youtube' in segment_kwargs:
         video = ytdl_video(segment_kwargs['youtube'])
     elif 'direct' in segment_kwargs:

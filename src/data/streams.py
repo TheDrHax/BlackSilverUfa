@@ -6,7 +6,7 @@ from sortedcontainers import SortedList, SortedKeyList
 
 from .cache import cached
 from .config import config
-from .fallback import FallbackSource
+from .fallback import fallback
 from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice
 from ..utils import _, load_json, last_line, count_lines, join, json_escape, indent
 
@@ -587,9 +587,8 @@ class Streams(dict):
                 raise TypeError
 
     def enable_fallbacks(self):
-        fallback = FallbackSource(**config['fallback'])
-
         items = list(self.items())
+
         if not fallback.index:
             items = items[-fallback.capacity:]
 
