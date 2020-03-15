@@ -48,12 +48,15 @@ class Segment:
 
     def __setattr__(self, name, value):
         if name in ['offset', '_offset']:
-            super().__setattr__('_offset', value)
+            refresh = False
             if hasattr(self, 'stream'):
                 if isinstance(self.stream, Stream):
                     if self in self.stream:
                         self.stream.remove(self)
-                        self.stream.add(self)
+                        refresh = True
+            super().__setattr__('_offset', value)
+            if refresh:
+                self.stream.add(self)
             return
 
         if name == 'stream':
