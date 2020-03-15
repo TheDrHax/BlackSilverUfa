@@ -120,10 +120,16 @@ def cmd_add(stream, segment_kwargs):
     [setattr(ref, 'parent', segment) for ref in covered]
 
     # split original segment if new one covered only refs in the middle
-    left_segments = list(set(ref.parent for ref in left))
-    to_split = list(set(ref.parent
-                        for ref in right
-                        if ref.parent in left_segments))
+    left_segments = []
+    for ref in left:
+        if ref.parent not in left_segments:
+            left_segments.append(ref.parent)
+
+    to_split = []
+    for ref in right:
+        if ref.parent in left_segments and ref.parent not in to_split:
+            to_split.append(ref.parent)
+
     to_split_refs = flat([s.references for s in to_split])
 
     if len(to_split) > 0:
