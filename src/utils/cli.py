@@ -178,7 +178,9 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
             continue
 
         tmp_stream = Stream([], segment.stream.twitch)
-        new_segment = Segment(stream=tmp_stream, **segment_kwargs)
+        new_segment = Segment(stream=tmp_stream,
+                              offset=segment.offset(),
+                              **segment_kwargs)
         _, covered, _ = refs_coverage(segment.stream, new_segment)
 
         if len(covered) == 0:
@@ -187,7 +189,7 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
             continue
 
         time_range = Timecode(covered[0].abs_start)
-        time_range.duration = covered[-1].abs_end - covered[0].abs_start
+        time_range.duration = int(covered[-1].abs_end - covered[0].abs_start)
         yield segment, time_range
 
 
@@ -364,6 +366,7 @@ def main(argv=None):
             segment = cmd_add(stream, segment_kwargs)
 
         if args['match']:
+            del segment_kwargs['offset']
             stream, segment = cmd_match(segment_kwargs,
                                         directory=args['--directory'],
                                         match_all=args['--all'],
