@@ -177,20 +177,20 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
                   '(both videos are unofficial)', file=sys.stderr)
             continue
 
-        tmp_stream = Stream([], segment.stream.twitch)
-        new_segment = Segment(stream=tmp_stream,
+            tmp_stream = Stream([], segment.stream.twitch)
+            new_segment = Segment(stream=tmp_stream,
                               offset=segment.offset(),
-                              **segment_kwargs)
+                                  **segment_kwargs)
         _, covered, _ = refs_coverage(segment.stream, new_segment)
 
         if len(covered) == 0:
-            print(f'Skipping segment {segment.hash} '
-                  '(input video is too short)', file=sys.stderr)
-            continue
+                print(f'Skipping segment {segment.hash} '
+                      '(input video is too short)', file=sys.stderr)
+                continue
 
         time_range = Timecode(covered[0].abs_start)
         time_range.duration = int(covered[-1].abs_end - covered[0].abs_start)
-        yield segment, time_range
+            yield segment, time_range
 
 
 def ytdl_video(video_id):
@@ -236,7 +236,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
     for segment, t_range in candidates:
         path = original_video(segment, directory)
-        print(f'Checking segment {segment.hash} (path: {path})',
+        print(f'Checking segment {segment.hash} {t_range} (path: {path})',
               file=sys.stderr)
 
         original = Clip(path, ar=1000)
