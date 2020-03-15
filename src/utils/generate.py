@@ -4,8 +4,6 @@ import json
 import shutil
 from time import time
 from subprocess import call
-from multiprocessing import cpu_count
-from multiprocessing.pool import ThreadPool
 
 from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
@@ -140,12 +138,9 @@ def generate():
         shutil.rmtree(_('static'))
     shutil.copytree('static', _('static'))
 
-    p = ThreadPool(min(cpu_count(), 3))
-    p.apply_async(build_data)
-    p.apply_async(build_webpack)
-    p.apply_async(build_mako)
-    p.close()
-    p.join()
+    build_data()
+    build_webpack()
+    build_mako()
 
 
 if __name__ == '__main__':
