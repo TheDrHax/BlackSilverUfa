@@ -1,8 +1,10 @@
 import re
 import attr
-import typing
-from bs4 import BeautifulSoup as BS
 from requests import Session
+from bs4 import BeautifulSoup as BS
+from cached_property import cached_property
+
+from .config import config
 
 
 req = Session()
@@ -18,17 +20,11 @@ class FallbackSource:
     redirects: bool = False
     torrents: bool = False
 
-    index: typing.List[str] = attr.ib(init=False, repr=False)
-
     def __attrs_post_init__(self):
         self._check_cache = dict()
 
-        if self.parse_index:
-            self.index = self._index()
-        else:
-            self.index = None
-
-    def _index(self):
+    @cached_property
+    def index(self):
         res = req.get(f'{self.prefix}/',
                       allow_redirects=self.redirects)
 
@@ -38,7 +34,8 @@ class FallbackSource:
         bs = BS(res.text, features="html.parser")
         links = bs.find_all('a', href=re.compile('\\.(mp4|ass|torrent)$'))
 
-        return list([link.attrs['href'].split('/')[-1] for link in links])
+        result = list([link.attrs['href'].split('/')[-1] for link in links])
+        return result if len(result) > 0 else None
 
     def _check(self, filename):
         if filename in self._check_cache:
@@ -53,10 +50,13 @@ class FallbackSource:
         return result
 
     def __contains__(self, filename):
-        if self.index:
+        if self.parse_index and self.index:
             return filename in self.index
 
         return self._check(filename)
 
     def url(self, filename):
         return f'{self.prefix}/{filename}'
+
+
+fallback = FallbackSource(**config['fallback'])
