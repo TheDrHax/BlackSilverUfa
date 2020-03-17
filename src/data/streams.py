@@ -149,7 +149,7 @@ class Segment:
         elif self.segment > 0:
             return self.stream[self.segment - 1].abs_end
         else:
-            return Timecode(0)
+            return self.stream.abs_start
 
     @property
     def abs_end(self):
@@ -160,11 +160,9 @@ class Segment:
             end += sum(cut.duration for cut in self.cuts)
             return end
         elif self.segment == len(self.stream) - 1:
-            return self.stream.duration
+            return self.stream.abs_end
         else:
-            next_refs = self.stream[self.segment + 1].references
-            if len(next_refs) > 0:
-                return next_refs[0].abs_start
+            return self.stream[self.segment + 1].abs_start
 
     @property
     def date(self):
@@ -266,16 +264,10 @@ class SegmentReference:
     _name: str = None
     _start: Timecode = attr.ib(0, converter=Timecode)
     silent: bool = False
-    subrefs: SortedKeyList = attr.ib(
-        factory=list,
-        converter=lambda x: SegmentReference._parse_subrefs(x))
+    _subrefs: list = attr.ib(factory=list)
+    subrefs: SortedKeyList = attr.ib(init=False)
     _parent: Segment = attr.ib()
     parent: Segment = attr.ib(init=False)
-
-    @staticmethod
-    def _parse_subrefs(subrefs):
-        return SortedKeyList([SubReference(**data) for data in subrefs],
-                             key=lambda x: x.start)
 
     def __attrs_post_init__(self):
         if not self.game:
@@ -283,11 +275,19 @@ class SegmentReference:
                 raise ValueError('`game` is required when referencing Segment')
             self.game = self.parent.game
 
+        self.subrefs = SortedKeyList(key=lambda x: x.start)
+
+        if len(self._subrefs) > 0:
+            [SubReference(**data, parent=self)
+             for data in self._subrefs]
+        
+        delattr(self, '_subrefs')
+
         if len(self.subrefs) == 0:
             if not self._name:
                 raise ValueError('`name` is required without `subrefs`')
 
-            self.subrefs.add(SubReference(name=self._name, start=self._start))
+            SubReference(name=self._name, start=self._start, parent=self)
 
         delattr(self, '_name')
         delattr(self, '_start')
@@ -394,20 +394,13 @@ class SegmentReference:
     @property
     def abs_start(self):
         if self.start != 0:
-            return self.start
+            return self.subrefs[0].abs_start
         else:
             return self.parent.abs_start
 
     @property
     def abs_end(self):
-        index = self.references.index(self)
-
-        if index < len(self.references):
-            for ref in self.references[index+1:]:
-                if ref.start != self.start:
-                    return ref.start
-
-        return self.parent.abs_end
+        return self.subrefs[-1].abs_end
 
     @property
     def game_name(self):
@@ -499,6 +492,38 @@ class SegmentReference:
 class SubReference:
     name: str = attr.ib()
     start: Timecode = attr.ib(0, converter=Timecode)
+    silent: bool = False
+    parent: SegmentReference = attr.ib()
+
+    def __setattr__(self, name, value):
+        if name == 'parent':
+            if hasattr(self, 'parent') and self.parent and not self.silent:
+                self.parent.subrefs.remove(self)
+
+            super().__setattr__(name, value)
+
+            if not self.silent:
+                self.parent.subrefs.add(self)
+
+        return super().__setattr__(name, value)
+
+    @property
+    def abs_start(self) -> Timecode:
+        return self.start
+
+    @property
+    def abs_end(self) -> Timecode:
+        subrefs = SortedKeyList(key=lambda x: x.start)
+
+        for refs in self.parent.parent.references:
+            for subref in refs.subrefs:
+                if subref.abs_start > self.abs_start:
+                    subrefs.add(subref)
+
+        if len(subrefs) > 0:
+            return subrefs[0].abs_start
+        else:
+            return self.parent.parent.abs_end
 
     @join()
     def to_json(self):
@@ -542,6 +567,14 @@ class Stream(SortedKeyList):
     @property
     def duration(self):
         return Timecode(self._duration)
+
+    @property
+    def abs_start(self) -> Timecode:
+        return Timecode(0)
+    
+    @property
+    def abs_end(self) -> Timecode:
+        return self.duration
 
     @property
     @cached('date-{0[0].twitch}')
