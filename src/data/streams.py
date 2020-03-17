@@ -259,22 +259,41 @@ class Segment:
         return self.to_json()
 
 
-@attr.s(auto_attribs=True, kw_only=True)
+@attr.s(auto_attribs=True, kw_only=True, cmp=False)
 class SegmentReference:
-    name: str = attr.ib()
     game: 'Game' = attr.ib()
-    _twitch: str = None  # ignored
-    segment: int = 0
     note: str = None
-    start: Timecode = attr.ib(0, converter=Timecode)
+    _name: str = None
+    _start: Timecode = attr.ib(0, converter=Timecode)
     silent: bool = False
-    parent: Segment = attr.ib()  # depends on silent, start
+    subrefs: SortedKeyList = attr.ib(
+        factory=list,
+        converter=lambda x: SegmentReference._parse_subrefs(x))
+    _parent: Segment = attr.ib()
+    parent: Segment = attr.ib(init=False)
+
+    @staticmethod
+    def _parse_subrefs(subrefs):
+        return SortedKeyList([SubReference(**data) for data in subrefs],
+                             key=lambda x: x.start)
 
     def __attrs_post_init__(self):
         if not self.game:
             if not isinstance(self.parent, SegmentReference):
                 raise ValueError('`game` is required when referencing Segment')
             self.game = self.parent.game
+
+        if len(self.subrefs) == 0:
+            if not self._name:
+                raise ValueError('`name` is required without `subrefs`')
+
+            self.subrefs.add(SubReference(name=self._name, start=self._start))
+
+        delattr(self, '_name')
+        delattr(self, '_start')
+
+        self.parent = self._parent
+        delattr(self, '_parent')
 
     def __setattr__(self, name, value):
         if name == 'parent':
@@ -295,7 +314,7 @@ class SegmentReference:
         if 'parent' in self.__dict__:
             return getattr(self.parent, name)
         else:
-            raise AttributeError
+            raise AttributeError(f'No such attribute: {name}')
 
     def __getattribute__(self, name):
         value = super().__getattribute__(name)
@@ -361,6 +380,18 @@ class SegmentReference:
         return res.strip()
 
     @property
+    def name(self) -> str:
+        return ' / '.join(set([s.name for s in self.subrefs]))
+
+    @property
+    def start(self) -> Timecode:
+        return self.subrefs[0].start
+
+    @start.setter
+    def start(self, value):
+        self.subrefs[0].start = value
+
+    @property
     def abs_start(self):
         if self.start != 0:
             return self.start
@@ -392,7 +423,8 @@ class SegmentReference:
 
     @join()
     def to_json(self):
-        keys = ['name', 'twitch', 'segment', 'start', 'end', 'force_start']
+        keys = ['name', 'twitch', 'segment', 'start', 'end',
+                'force_start', 'subrefs']
         multiline_keys = ['note']
 
         def inherited(key):
@@ -418,7 +450,13 @@ class SegmentReference:
             if value is None or inherited(key):
                 continue
 
+            if key in ['name', 'start'] and len(self.subrefs) > 1:
+                continue
+
             if key in ['start', 'end'] and value == 0:
+                continue
+
+            if key == 'subrefs' and len(value) == 1:
                 continue
 
             if key == 'segment':
@@ -430,6 +468,12 @@ class SegmentReference:
                 yield ', '
             else:
                 first = False
+
+            if key == 'subrefs':
+                yield f'"{key}": [\n  '
+                yield ',\n  '.join(s.to_json() for s in self.subrefs)
+                yield '\n]'
+                continue
 
             yield f'"{key}": {json_escape(value)}'
 
@@ -449,6 +493,20 @@ class SegmentReference:
 
     def __str__(self):
         return self.to_json()
+
+
+@attr.s(auto_attribs=True, kw_only=True)
+class SubReference:
+    name: str = attr.ib()
+    start: Timecode = attr.ib(0, converter=Timecode)
+
+    @join()
+    def to_json(self):
+        yield '{ '
+        yield f'"name": {json_escape(self.name)}'
+        if self.start != 0:
+            yield f', "start": {json_escape(self.start)}'
+        yield ' }'
 
 
 class Stream(SortedKeyList):
