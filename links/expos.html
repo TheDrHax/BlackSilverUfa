@@ -639,6 +639,11 @@
         <i class="fas fa-comments"></i> 19906
       </a>
     </span>
+    <span class="badge badge-success">
+      <a href="https://www.youtube.com/watch?v=hCPXhP4CVz4" target="_blank">
+        <i class="fab fa-youtube"></i> hCPXhP4CVz4
+      </a>
+    </span>
     <span class="badge badge-danger">
       <a href="https://bsufiles.thedrhax.pw/streams/569683310.torrent">
         <i class="fas fa-download"></i> торрент
@@ -657,28 +662,23 @@
   <ul>
       <li>Перерыв на конференцию Sony:</li>
   <ul>
-    <li><a data-value="10861">3:01:01</a> — Артём</li>
-    <li><a data-value="11025">3:03:45</a> — Начало</li>
-    <li><a data-value="12846">3:34:06</a> — 4221</li>
-    <li><a data-value="14177">3:56:17</a> — Thank you for joining</li>
-    <li><a data-value="14274">3:57:54</a> - <a data-value="14327">3:58:47</a> — Возвращение в игру</li>
+    <li><a data-value="7">0:07</a> — Возвращение в игру</li>
   </ul>
 
-    <li><a data-value="26376">7:19:36</a> - <a data-value="26684">7:24:44</a> — Перерыв на сетевой режим (недоступен)</li>
+    <li><a data-value="12056">3:20:56</a> - <a data-value="12364">3:26:04</a> — Перерыв на сетевой режим (недоступен)</li>
   </ul>
 
   </div>
 </ul>
 
 <div class="video-row d-flex justify-content-center">
-  <p class="stream" data-id="5" data-segment="1" data-subtitles="https://blacksilverufa.github.io/chats-2020/v569683310.ass" data-name="Презентация PlayStation 5" data-twitch="569683310" data-direct="https://bsufiles.thedrhax.pw/streams/569683310.mp4" />
+  <p class="stream" data-id="5" data-segment="1" data-offset="14320" data-subtitles="https://blacksilverufa.github.io/chats-2020/v569683310.ass" data-name="Презентация PlayStation 5" data-twitch="569683310" data-youtube="hCPXhP4CVz4" />
 </div>
 
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file=https://blacksilverufa.github.io/chats-2020/v569683310.ass https://bsufiles.thedrhax.pw/streams/569683310.mp4
-streamlink -p mpv -a "--sub-file=https://blacksilverufa.github.io/chats-2020/v569683310.ass" --player-passthrough hls twitch.tv/videos/569683310 best
+  <pre class="highlight"><code>mpv --sub-file=https://blacksilverufa.github.io/chats-2020/v569683310.ass --sub-delay=-14320 ytdl://hCPXhP4CVz4
 </code></pre>
 </div></div>
 
