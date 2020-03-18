@@ -1,6 +1,6 @@
 """Usage:
   cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id> | --direct <url>] [--offset <t>]
-  cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--end <t>]
+  cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--end <t>] [--duration <t>]
   cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>] [--fail-if-cut]
   cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --direct <url>) [--directory <path>]
   cli [options] copyright mute <stream> <input> <output>
@@ -34,6 +34,7 @@ Video sources:
 Segment options:
   --offset <t>        Offset of this segment relative to the start of
                       original stream. [default: 0]
+  --duration <t>      Set video duration for more precise segment splitting.
   --end <t>           Forced absolute timecode of segment's ending.
   --unofficial        Mark new segment as unofficial.
 
@@ -343,6 +344,7 @@ def main(argv=None):
                    ('direct', str, 'direct'),
                    ('offset', Timecode, 'offset'),
                    ('end', Timecode, 'end'),
+                   ('duration', Timecode, 'duration'),
                    ('unofficial', lambda x: False if x else None, 'official'))
         segment_kwargs = dict()
 
@@ -377,6 +379,10 @@ def main(argv=None):
             return
 
         if args['add'] or args['match']:
+            # Do not write manually set duration into database
+            if args['--duration']:
+                segment._duration = Timecode(0)
+
             if len(stream) == 1:
                 commit_title = f'Запись стрима {stream.twitch}'
             else:

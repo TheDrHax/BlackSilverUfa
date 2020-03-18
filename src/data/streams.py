@@ -28,6 +28,7 @@ class Segment:
     start: Timecode = attr.ib(0, converter=Timecode)
     end: Timecode = attr.ib(0, converter=Timecode)
     _offset: Timecode = attr.ib(0, converter=Timecode)
+    _duration: Timecode = attr.ib(0, converter=Timecode)
     cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
 
     stream: 'Stream' = attr.ib()  # depends on _offset
@@ -137,7 +138,9 @@ class Segment:
 
     @property
     def duration(self):
-        if self.youtube:
+        if self._duration != 0:
+            return self._duration
+        elif self.youtube:
             return Timecode(self._duration_youtube(self.youtube))
         else:
             return Timecode(0)
@@ -186,7 +189,7 @@ class Segment:
     def to_json(self, compiled=False):
         if not compiled:
             keys = ['youtube', 'offset', 'cuts', 'official',
-                    'start', 'end', 'force_start']
+                    'start', 'end', '_duration', 'force_start']
             multiline_keys = ['note', 'direct', 'torrent']
         else:
             keys = ['youtube', 'cuts', 'official',
@@ -234,6 +237,9 @@ class Segment:
                 yield ', '
             else:
                 first = False
+
+            if key.startswith('_'):
+                key = key[1:]
 
             yield f'"{key}": {json_escape(value)}'
 
