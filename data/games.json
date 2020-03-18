@@ -665,7 +665,7 @@
       { "name": "BlizzCon 2019 (обзор)", "twitch": "502940448" },
       { "name": "State of Play 2019", "twitch": "519609666" },
       { "name": "The Game Awards 2019 (обзор)", "twitch": "520877239" },
-      { "name": "Презентация PlayStation 5", "twitch": "569683310", "segment": 1 }
+      { "name": "Презентация PlayStation 5", "twitch": "569683310", "start": "3:03:45" }
     ]
   },
   {
@@ -1299,8 +1299,7 @@
     "category": "ongoing",
     "id": "doom-eternal",
     "streams": [
-      { "name": "1.1", "twitch": "569683310", "segment": 0 },
-      { "name": "1.2", "twitch": "569683310", "segment": 2 }
+      { "name": "1", "twitch": "569683310" }
     ]
   },
   {
@@ -1321,7 +1320,7 @@
       { "name": "2 (396-395)", "twitch": "564858921" },
       { "name": "3 (393-392)", "twitch": "565405331" },
       { "name": "4 (383-382)", "twitch": "567045755", "segment": 1 },
-      { "name": "5 (380-379)", "twitch": "567719582", "segment": 0 },
+      { "name": "5 (380-379)", "twitch": "567719582" },
       { "name": "6 (372-371)", "twitch": "568999004", "segment": 1 }
     ]
   },
@@ -1364,7 +1363,7 @@
       { "name": "Демо 2", "twitch": "559668833", "start": "4:33:34" },
       { "name": "1", "twitch": "566459252" },
       { "name": "2", "twitch": "567045755", "segment": 0 },
-      { "name": "3", "twitch": "567719582", "segment": 1 },
+      { "name": "3", "twitch": "567719582", "start": "2:01:22" },
       { "name": "4", "twitch": "568999004", "segment": 0 }
     ]
   },
