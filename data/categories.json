@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Halo: Combat Evolved Anniversary / Stilt Fella / Walking Simulator / The Longing - 1 (400) / Yes, Your Grace - 1", "year": 2020, "url": "/links/first.html#563856575"},
       {"name": "The Longing - 2 (396-395) / SCP Containment Breach - Ultimate Edition - 5 / Yes, Your Grace - 2", "year": 2020, "url": "/links/the-longing.html#564858921"},
       {"name": "The Longing - 3 (393-392) / Ori and the Will of the Wisps - 2 / SCP Containment Breach - Ultimate Edition - 6", "year": 2020, "url": "/links/the-longing.html#565405331"},
       {"name": "Nioh 2 - 1", "year": 2020, "url": "/links/nioh-2.html#566459252"},
@@ -11,7 +10,8 @@
       {"name": "The Longing - 5 (380-379)", "year": 2020, "url": "/links/the-longing.html#567719582"},
       {"name": "Nioh 2 - 3", "year": 2020, "url": "/links/nioh-2.html#567719582.1"},
       {"name": "Nioh 2 - 4", "year": 2020, "url": "/links/nioh-2.html#568999004"},
-      {"name": "The Longing - 6 (372-371)", "year": 2020, "url": "/links/the-longing.html#568999004.1"}
+      {"name": "The Longing - 6 (372-371)", "year": 2020, "url": "/links/the-longing.html#568999004.1"},
+      {"name": "Doom Eternal - 1 / Презентация PlayStation 5", "year": 2020, "url": "/links/doom-eternal.html#569683310"}
     ]
   },
   "finished": {
@@ -263,7 +263,8 @@
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
       {"name": "The Longing", "year": 2020, "url": "/links/the-longing.html"},
-      {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"}
+      {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"},
+      {"name": "Doom Eternal", "year": 2020, "url": "/links/doom-eternal.html"}
     ]
   },
   "infinite": {
@@ -478,7 +479,8 @@
       {"name": "Tokyo Game Show 2019 (обзор)", "year": 2019, "url": "/links/tgs-2019.html"},
       {"name": "BlizzCon 2019 (обзор)", "year": 2019, "url": "/links/expos.html#502940448"},
       {"name": "State of Play 2019", "year": 2019, "url": "/links/expos.html#519609666"},
-      {"name": "The Game Awards 2019 (обзор)", "year": 2019, "url": "/links/expos.html#520877239"}
+      {"name": "The Game Awards 2019 (обзор)", "year": 2019, "url": "/links/expos.html#520877239"},
+      {"name": "Презентация PlayStation 5", "year": 2020, "url": "/links/expos.html#569683310"}
     ]
   },
   "unboxing": {
