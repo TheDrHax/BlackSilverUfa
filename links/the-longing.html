@@ -591,6 +591,11 @@
         <i class="fas fa-comments"></i> 14352
       </a>
     </span>
+    <span class="badge badge-warning">
+      <a href="https://www.youtube.com/watch?v=wRed80A0uDU" target="_blank">
+        <i class="fab fa-youtube"></i> wRed80A0uDU
+      </a>
+    </span>
     <span class="badge badge-danger">
       <a href="https://bsufiles.thedrhax.pw/streams/568999004.torrent">
         <i class="fas fa-download"></i> торрент
@@ -607,23 +612,22 @@
   <div class="timecodes" data-id="5">
     <li>Таймкоды:</li>
   <ul>
-    <li><a data-value="18323">5:05:23</a> — Игра</li>
-    <li><a data-value="19925">5:32:05</a> — Накрыло</li>
-    <li><a data-value="20238">5:37:18</a> — 4221</li>
+    <li><a data-value="101">1:41</a> — Игра</li>
+    <li><a data-value="1703">28:23</a> — Накрыло</li>
+    <li><a data-value="2016">33:36</a> — 4221</li>
   </ul>
 
   </div>
 </ul>
 
 <div class="video-row d-flex justify-content-center">
-  <p class="stream" data-id="5" data-segment="1" data-subtitles="https://blacksilverufa.github.io/chats-2020/v568999004.ass" data-name="6 (372-371)" data-twitch="568999004" data-direct="https://bsufiles.thedrhax.pw/streams/568999004.mp4" />
+  <p class="stream" data-id="5" data-segment="1" data-offset="18222" data-subtitles="https://blacksilverufa.github.io/chats-2020/v568999004.ass" data-name="6 (372-371)" data-twitch="568999004" data-youtube="wRed80A0uDU" />
 </div>
 
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file=https://blacksilverufa.github.io/chats-2020/v568999004.ass https://bsufiles.thedrhax.pw/streams/568999004.mp4
-streamlink -p mpv -a "--sub-file=https://blacksilverufa.github.io/chats-2020/v568999004.ass" --player-passthrough hls twitch.tv/videos/568999004 best
+  <pre class="highlight"><code>mpv --sub-file=https://blacksilverufa.github.io/chats-2020/v568999004.ass --sub-delay=-18222 ytdl://wRed80A0uDU
 </code></pre>
 </div></div>
 
