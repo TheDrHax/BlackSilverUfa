@@ -3789,15 +3789,16 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/565405331.torrent"
   },
   "566459252": {
-    "youtube": "mS9eiWXm7A8", "abs_start": "0:01", "abs_end": "5:49:13", "duration": "5:49:12",
+    "youtube": "yur7BnWAx6I", "official": false, "abs_start": "0:00", "abs_end": "5:49:13", "duration": "5:49:13",
     "name": "Nioh 2 - 1",
     "url": "/links/nioh-2.html#566459252",
     "torrent": "https://bsufiles.thedrhax.pw/streams/566459252.torrent"
   },
   "567045755": {
-    "youtube": "GArg_58jxX4", "abs_start": "2:47", "abs_end": "2:55:21", "duration": "2:52:34",
+    "abs_start": "0:00", "abs_end": "2:55:20", "duration": "0:00",
     "name": "Nioh 2 - 2",
     "url": "/links/nioh-2.html#567045755",
+    "direct": "https://bsufiles.thedrhax.pw/streams/567045755.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/567045755.torrent"
   },
   "567045755.1": {
@@ -3808,20 +3809,15 @@
   },
   "567719582": {
     "youtube": "cloHohhnjao", "official": false, "abs_start": "0:00", "abs_end": "5:42:53", "duration": "5:42:53",
-    "name": "The Longing - 5 (380-379)",
+    "name": "The Longing - 5 (380-379) / Nioh 2 - 3",
     "url": "/links/the-longing.html#567719582",
     "torrent": "https://bsufiles.thedrhax.pw/streams/567719582.torrent"
   },
-  "567719582.1": {
-    "youtube": "CZOuODpIASo", "abs_start": "2:01:31", "abs_end": "4:48:33", "duration": "2:47:02",
-    "name": "Nioh 2 - 3",
-    "url": "/links/nioh-2.html#567719582.1",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/567719582.torrent"
-  },
   "568999004": {
-    "youtube": "rct-Dfml884", "abs_start": "15:50", "abs_end": "5:03:43", "duration": "4:47:53",
+    "abs_start": "0:00", "abs_end": "5:03:42", "duration": "0:00",
     "name": "Nioh 2 - 4",
     "url": "/links/nioh-2.html#568999004",
+    "direct": "https://bsufiles.thedrhax.pw/streams/568999004.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/568999004.torrent"
   },
   "568999004.1": {
@@ -3831,22 +3827,10 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/568999004.torrent"
   },
   "569683310": {
-    "youtube": "HggXjlMcLsA", "abs_start": "2:52", "abs_end": "2:56:36", "duration": "2:53:44",
-    "name": "Doom Eternal - 1.1",
+    "abs_start": "0:00", "abs_end": "7:44:12", "duration": "0:00",
+    "name": "Doom Eternal - 1 / Презентация PlayStation 5",
     "url": "/links/doom-eternal.html#569683310",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/569683310.torrent"
-  },
-  "569683310.1": {
-    "abs_start": "2:56:36", "abs_end": "3:58:40", "duration": "0:00",
-    "name": "Презентация PlayStation 5",
-    "url": "/links/expos.html#569683310.1",
     "direct": "https://bsufiles.thedrhax.pw/streams/569683310.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/569683310.torrent"
-  },
-  "569683310.2": {
-    "youtube": "hCPXhP4CVz4", "abs_start": "3:58:40", "abs_end": "7:41:29", "duration": "3:42:49",
-    "name": "Doom Eternal - 1.2",
-    "url": "/links/doom-eternal.html#569683310.2",
     "torrent": "https://bsufiles.thedrhax.pw/streams/569683310.torrent"
   }
 }
