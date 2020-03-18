@@ -1299,7 +1299,8 @@
     "category": "ongoing",
     "id": "doom-eternal",
     "streams": [
-      { "name": "1", "twitch": "569683310", "segment": 0 }
+      { "name": "1.1", "twitch": "569683310", "segment": 0 },
+      { "name": "1.2", "twitch": "569683310", "segment": 2 }
     ]
   },
   {
