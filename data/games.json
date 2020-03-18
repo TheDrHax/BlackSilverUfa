@@ -665,7 +665,7 @@
       { "name": "BlizzCon 2019 (обзор)", "twitch": "502940448" },
       { "name": "State of Play 2019", "twitch": "519609666" },
       { "name": "The Game Awards 2019 (обзор)", "twitch": "520877239" },
-      { "name": "Презентация PlayStation 5", "twitch": "569683310", "start": "3:03:45" }
+      { "name": "Презентация PlayStation 5", "twitch": "569683310", "segment": 1 }
     ]
   },
   {
@@ -1299,7 +1299,7 @@
     "category": "ongoing",
     "id": "doom-eternal",
     "streams": [
-      { "name": "1", "twitch": "569683310" }
+      { "name": "1", "twitch": "569683310", "segment": 0 }
     ]
   },
   {
