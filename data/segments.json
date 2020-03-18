@@ -3832,14 +3832,21 @@
   },
   "569683310": {
     "youtube": "HggXjlMcLsA", "abs_start": "2:52", "abs_end": "2:56:36", "duration": "2:53:44",
-    "name": "Doom Eternal - 1",
+    "name": "Doom Eternal - 1.1",
     "url": "/links/doom-eternal.html#569683310",
     "torrent": "https://bsufiles.thedrhax.pw/streams/569683310.torrent"
   },
   "569683310.1": {
-    "youtube": "hCPXhP4CVz4", "abs_start": "3:58:40", "abs_end": "7:41:29", "duration": "3:42:49",
+    "abs_start": "2:56:36", "abs_end": "3:58:40", "duration": "0:00",
     "name": "Презентация PlayStation 5",
     "url": "/links/expos.html#569683310.1",
+    "direct": "https://bsufiles.thedrhax.pw/streams/569683310.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/569683310.torrent"
+  },
+  "569683310.2": {
+    "youtube": "hCPXhP4CVz4", "abs_start": "3:58:40", "abs_end": "7:41:29", "duration": "3:42:49",
+    "name": "Doom Eternal - 1.2",
+    "url": "/links/doom-eternal.html#569683310.2",
     "torrent": "https://bsufiles.thedrhax.pw/streams/569683310.torrent"
   }
 }
