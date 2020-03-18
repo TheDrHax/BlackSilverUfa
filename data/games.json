@@ -664,7 +664,8 @@
       { "name": "Gamescom 2019", "twitch": "469393130" },
       { "name": "BlizzCon 2019 (обзор)", "twitch": "502940448" },
       { "name": "State of Play 2019", "twitch": "519609666" },
-      { "name": "The Game Awards 2019 (обзор)", "twitch": "520877239" }
+      { "name": "The Game Awards 2019 (обзор)", "twitch": "520877239" },
+      { "name": "Презентация PlayStation 5", "twitch": "569683310", "start": "3:03:45" }
     ]
   },
   {
@@ -1291,6 +1292,14 @@
       { "name": "Foregone / Beautiful Desolation", "twitch": "559668833" },
       { "name": "Weakless / Wolcen: Lords of Mayhem", "twitch": "562741500" },
       { "name": "Halo: Combat Evolved Anniversary / Stilt Fella", "twitch": "563856575" }
+    ]
+  },
+  {
+    "name": "Doom Eternal",
+    "category": "ongoing",
+    "id": "doom-eternal",
+    "streams": [
+      { "name": "1", "twitch": "569683310" }
     ]
   },
   {
