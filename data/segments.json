@@ -3831,9 +3831,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/568999004.torrent"
   },
   "569683310": {
-    "abs_start": "0:00", "abs_end": "7:44:12", "duration": "0:00",
-    "name": "Doom Eternal - 1 / Презентация PlayStation 5",
+    "youtube": "HggXjlMcLsA", "abs_start": "2:52", "abs_end": "2:56:36", "duration": "2:53:44",
+    "name": "Doom Eternal - 1",
     "url": "/links/doom-eternal.html#569683310",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/569683310.torrent"
+  },
+  "569683310.1": {
+    "abs_start": "2:56:36", "abs_end": "7:44:12", "duration": "0:00",
+    "name": "Презентация PlayStation 5",
+    "url": "/links/expos.html#569683310.1",
     "direct": "https://bsufiles.thedrhax.pw/streams/569683310.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/569683310.torrent"
   }
