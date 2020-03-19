@@ -19,11 +19,18 @@ class Game:
 
     def __attrs_post_init__(self):
         refs = []
+
         for segment in self.streams:
             parent = streams[segment['twitch']][segment.get('segment') or 0]
+
+            del segment['twitch']
+            if 'segment' in segment:
+                del segment['segment']
+
             ref = SegmentReference(parent=parent, game=self, **segment)
             ref.stream.games.append((self, ref))
             refs.append(ref)
+
         self.streams = refs
 
     @property

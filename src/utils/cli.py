@@ -1,6 +1,6 @@
 """Usage:
   cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id> | --direct <url>] [--offset <t>]
-  cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--end <t>]
+  cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--end <t>] [--duration <t>]
   cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>] [--fail-if-cut]
   cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --direct <url>) [--directory <path>]
   cli [options] copyright mute <stream> <input> <output>
@@ -34,6 +34,7 @@ Video sources:
 Segment options:
   --offset <t>        Offset of this segment relative to the start of
                       original stream. [default: 0]
+  --duration <t>      Set video duration for more precise segment splitting.
   --end <t>           Forced absolute timecode of segment's ending.
   --unofficial        Mark new segment as unofficial.
 
@@ -62,7 +63,8 @@ from subprocess import run, PIPE
 from sortedcontainers import SortedList
 from twitch_utils.offset import Clip, find_offset
 
-from ..data.streams import streams, Segment, Stream, STREAMS_JSON
+from ..data.streams import (streams, Segment, SegmentReference,
+                            Stream, STREAMS_JSON)
 from ..data.games import games, GAMES_JSON
 from ..data.timecodes import timecodes, Timecode, Timecodes
 from ..data.fallback import fallback
@@ -72,16 +74,18 @@ flat = itertools.chain.from_iterable
 
 
 def refs_coverage(stream, segment):
-    refs = SortedList(flat([seg.references for seg in stream]),
-                      key=lambda x: x.abs_start)
+    subrefs = SortedList([subref
+                          for seg in stream
+                          for ref in seg.references
+                          for subref in ref.subrefs],
+                         key=lambda x: x.abs_start)
 
-    left, covered, right = [], [], []
+    seg_start = segment.abs_start
+    seg_end = segment.abs_end
 
-    for ref in refs:
-        seg_start = segment.abs_start
-        seg_end = segment.abs_end
-        ref_start = ref.abs_start
-        ref_end = ref.abs_end
+    for subref in subrefs:
+        ref_start = subref.abs_start
+        ref_end = subref.abs_end
 
         # Find percentage of covered timeline
         coverage = 0
@@ -90,57 +94,87 @@ def refs_coverage(stream, segment):
             coverage *= 100
             coverage //= int(ref_end - ref_start)
 
-        ref._coverage = coverage
+        subref._coverage = coverage
 
-        if coverage >= 50:
-            covered.append(ref)
-        elif len(covered) == 0:
-            left.append(ref)
-        else:
-            right.append(ref)
+    covered, partial, uncovered = [], [], []
 
-    return left, covered, right
+    for segment in stream:
+        for ref in segment.references:
+            cov = sum(1 for subref in ref.subrefs if subref._coverage >= 50)
+            total = len(ref.subrefs)
+            ref._coverage = cov, total
+
+            if cov == 0:
+                uncovered.append(ref)
+            elif cov == total:
+                covered.append(ref)
+            else:
+                partial.append(ref)
+
+    return covered, partial, uncovered
 
 
 def cmd_add(stream, segment_kwargs):
     tmp_stream = Stream([], stream.twitch)
     segment = Segment(stream=tmp_stream, **segment_kwargs)
 
-    left, covered, right = refs_coverage(stream, segment)
+    covered, partial, uncovered = refs_coverage(stream, segment)
 
-    for ref in flat([left, covered, right]):
-        if ref._coverage > 0:
-            print(f'Covered {ref._coverage}% of `{ref.game.id}` - `{ref.name}`',
+    for ref in flat([covered, partial, uncovered]):
+        cov, total = ref._coverage
+        print(f'Covered {cov}/{total} subrefs '
+              f'of `{ref.game.id}` - `{ref.name}`',
+              file=sys.stderr)
+        for subref in ref.subrefs:
+            print(f'  {subref._coverage}% of `{subref.name}`',
                   file=sys.stderr)
 
-    if len(covered) == 0:
-        raise Exception('Video does not cover any segment references')
+    if len(covered) == 0 and len(partial) == 0:
+        raise Exception('Video does not cover any subrefs')
 
+    # add segment to stream
     segment.stream = stream
+
+    # move fully covered refs into new segment
     [setattr(ref, 'parent', segment) for ref in covered]
 
-    # split original segment if new one covered only refs in the middle
-    left_segments = []
-    for ref in left:
-        if ref.parent not in left_segments:
-            left_segments.append(ref.parent)
+    # split partially covered refs by subrefs
+    for ref in partial:
+        # find subrefs that are on the left and right of the covered ones
+        left, center, right = [], [], []
+        for subref in ref.subrefs:
+            if subref._coverage < 50:
+                if len(center) == 0:
+                    left.append(subref)
+                else:
+                    right.append(subref)
+            else:
+                center.append(subref)
 
-    to_split = []
-    for ref in right:
-        if ref.parent in left_segments and ref.parent not in to_split:
-            to_split.append(ref.parent)
+        # create ref for left subrefs
+        if len(left) > 0:
+            left_ref = SegmentReference(game=ref.game,
+                                        parent=ref.parent,
+                                        subrefs=left)
+            index = ref.game.streams.index(ref)
+            ref.game.streams.insert(index, left_ref)
 
-    to_split_refs = flat([s.references for s in to_split])
+        # create ref for right subrefs
+        if len(right) > 0:
+            right_ref = SegmentReference(game=ref.game,
+                                         parent=ref.parent,
+                                         subrefs=right)
+            index = ref.game.streams.index(ref)
+            ref.game.streams.insert(index + 1, right_ref)
 
-    if len(to_split) > 0:
-        right_segment = Segment(stream=stream, offset=segment.abs_end)
-        [setattr(ref, 'parent', right_segment)
-         for ref in right
-         if ref in to_split_refs]
+        # move now fully covered ref to new segment
+        ref.parent = segment
 
+    # remove empty segments
     [stream.remove(s) for s in list(stream) if len(s.references) == 0]
 
-    covered[0].start = None
+    # move start field of first ref into each segment's offset field
+    segment.references[0].start = Timecode(0)
     for s in stream:
         if s.references[0].start != 0:
             setattr(s, 'offset', s.references[0].start)
@@ -165,32 +199,45 @@ def original_video(segment, directory=None):
 
 
 def match_candidates(segment_kwargs, directory=None, match_all=False):
-    for segment in streams.segments:
-        if not original_video(segment, directory):
+    for s in streams.segments:
+        if not original_video(s, directory):
             continue
 
-        if segment.youtube and segment.official and not match_all:
+        if s.youtube and s.official and not match_all:
             continue
 
-        if not segment.official and segment_kwargs.get('official') is False:
-            print(f'Skipping segment {segment.hash} '
+        if not s.official and segment_kwargs.get('official') is False:
+            print(f'Skipping segment {s.hash} '
                   '(both videos are unofficial)', file=sys.stderr)
             continue
 
-        tmp_stream = Stream([], segment.stream.twitch)
-        new_segment = Segment(stream=tmp_stream,
-                              offset=segment.offset(),
-                              **segment_kwargs)
-        _, covered, _ = refs_coverage(segment.stream, new_segment)
+        tmp_stream = Stream([], s.stream.twitch)
+        tmp_segment = Segment(stream=tmp_stream, **segment_kwargs)
 
-        if len(covered) == 0:
-            print(f'Skipping segment {segment.hash} '
-                    '(input video is too short)', file=sys.stderr)
-            continue
+        subrefs = SortedList([subref
+                              for ref in s.references
+                              for subref in ref.subrefs],
+                             key=lambda x: x.abs_start)
 
-        time_range = Timecode(covered[0].abs_start)
-        time_range.duration = int(covered[-1].abs_end - covered[0].abs_start)
-        yield segment, time_range
+        for subref in subrefs:
+            tmp_segment.offset = subref.abs_start
+
+            covered, partial, _ = refs_coverage(s.stream, tmp_segment)
+
+            c_refs = SortedList([subref
+                                 for ref in flat([covered, partial])
+                                 for subref in ref.subrefs
+                                 if subref._coverage >= 50],
+                                key=lambda x: x.abs_start)
+
+            if len(c_refs) == 0:
+                print(f'Skipping segment {s.hash} '
+                      '(would not cover any subrefs)', file=sys.stderr)
+                continue
+
+            time_range = Timecode(c_refs[0].abs_start)
+            time_range.duration = int(c_refs[-1].abs_end - c_refs[0].abs_start)
+            yield s, time_range
 
 
 def ytdl_video(video_id):
@@ -219,6 +266,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
     elif 'direct' in segment_kwargs:
         video = Clip(segment_kwargs['direct'], ar=1000)
 
+    segment_kwargs['duration'] = video.duration
+
     candidates = sorted(
         match_candidates(segment_kwargs, directory, match_all),
         key=lambda s: abs(int(s[1].duration) - video.duration))
@@ -240,13 +289,12 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
               file=sys.stderr)
 
         original = Clip(path, ar=1000)
+        start = t_range.value
+        end = t_range.value + max(t_range.duration - video.duration, 0) + 600
 
         try:
-            offset, score = find_offset(
-                template, original,
-                start=int(t_range),
-                end=int(t_range + t_range.duration) - video.duration + 10 * 60,
-                min_score=10)
+            offset, score = find_offset(template, original, start=start,
+                                        end=end, min_score=10)
         except Exception:
             continue
 
@@ -343,6 +391,7 @@ def main(argv=None):
                    ('direct', str, 'direct'),
                    ('offset', Timecode, 'offset'),
                    ('end', Timecode, 'end'),
+                   ('duration', Timecode, 'duration'),
                    ('unofficial', lambda x: False if x else None, 'official'))
         segment_kwargs = dict()
 
@@ -377,6 +426,10 @@ def main(argv=None):
             return
 
         if args['add'] or args['match']:
+            # Do not write manually set duration into database
+            if args['--duration']:
+                segment._duration = Timecode(0)
+
             if len(stream) == 1:
                 commit_title = f'Запись стрима {stream.twitch}'
             else:
@@ -384,8 +437,9 @@ def main(argv=None):
 
             commit_msg = '\n'.join(flat([
                 [commit_title, ''],
-                [f'* {ref.game.name} — {ref.name} [{ref._coverage}%]'
-                 for ref in segment.references]
+                [f'* {ref.game.name} — {subref.name} [{subref._coverage}%]'
+                 for ref in segment.references
+                 for subref in ref.subrefs]
             ]))
 
         if not args['--dry-run']:
@@ -413,7 +467,7 @@ def main(argv=None):
                 result.append(f'between(t,{t.value},{t.value+t.duration})')
             else:
                 print(f'Ignoring timecode {t} (no duration)', file=sys.stderr)
-            
+
             return result
 
         filters = [f"volume=enable='{f_range}':volume=0"
@@ -431,6 +485,7 @@ def main(argv=None):
 
         p = run(cmd)
         sys.exit(p.returncode)
+
 
 if __name__ == '__main__':
     main()
