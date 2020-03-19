@@ -199,32 +199,45 @@ def original_video(segment, directory=None):
 
 
 def match_candidates(segment_kwargs, directory=None, match_all=False):
-    for segment in streams.segments:
-        if not original_video(segment, directory):
+    for s in streams.segments:
+        if not original_video(s, directory):
             continue
 
-        if segment.youtube and segment.official and not match_all:
+        if s.youtube and s.official and not match_all:
             continue
 
-        if not segment.official and segment_kwargs.get('official') is False:
-            print(f'Skipping segment {segment.hash} '
+        if not s.official and segment_kwargs.get('official') is False:
+            print(f'Skipping segment {s.hash} '
                   '(both videos are unofficial)', file=sys.stderr)
             continue
 
-        tmp_stream = Stream([], segment.stream.twitch)
-        new_segment = Segment(stream=tmp_stream,
-                              offset=segment.offset(),
-                              **segment_kwargs)
-        _, covered, _ = refs_coverage(segment.stream, new_segment)
+        tmp_stream = Stream([], s.stream.twitch)
+        tmp_segment = Segment(stream=tmp_stream, **segment_kwargs)
 
-        if len(covered) == 0:
-            print(f'Skipping segment {segment.hash} '
-                    '(input video is too short)', file=sys.stderr)
-            continue
+        subrefs = SortedList([subref
+                              for ref in s.references
+                              for subref in ref.subrefs],
+                             key=lambda x: x.abs_start)
 
-        time_range = Timecode(covered[0].abs_start)
-        time_range.duration = int(covered[-1].abs_end - covered[0].abs_start)
-        yield segment, time_range
+        for subref in subrefs:
+            tmp_segment.offset = subref.abs_start
+
+            covered, partial, _ = refs_coverage(s.stream, tmp_segment)
+
+            c_refs = SortedList([subref
+                                 for ref in flat([covered, partial])
+                                 for subref in ref.subrefs
+                                 if subref._coverage >= 50],
+                                key=lambda x: x.abs_start)
+
+            if len(c_refs) == 0:
+                print(f'Skipping segment {s.hash} '
+                      '(would not cover any subrefs)', file=sys.stderr)
+                continue
+
+            time_range = Timecode(c_refs[0].abs_start)
+            time_range.duration = int(c_refs[-1].abs_end - c_refs[0].abs_start)
+            yield s, time_range
 
 
 def ytdl_video(video_id):
@@ -253,6 +266,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
     elif 'direct' in segment_kwargs:
         video = Clip(segment_kwargs['direct'], ar=1000)
 
+    segment_kwargs['duration'] = video.duration
+
     candidates = sorted(
         match_candidates(segment_kwargs, directory, match_all),
         key=lambda s: abs(int(s[1].duration) - video.duration))
@@ -274,13 +289,12 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
               file=sys.stderr)
 
         original = Clip(path, ar=1000)
+        start = t_range.value
+        end = t_range.value + max(t_range.duration - video.duration, 0) + 600
 
         try:
-            offset, score = find_offset(
-                template, original,
-                start=int(t_range),
-                end=int(t_range + t_range.duration) - video.duration + 10 * 60,
-                min_score=10)
+            offset, score = find_offset(template, original, start=start,
+                                        end=end, min_score=10)
         except Exception:
             continue
 
@@ -471,6 +485,7 @@ def main(argv=None):
 
         p = run(cmd)
         sys.exit(p.returncode)
+
 
 if __name__ == '__main__':
     main()
