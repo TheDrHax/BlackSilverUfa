@@ -1291,7 +1291,8 @@
       { "name": "Warcraft III: Reforged", "twitch": "543591605" },
       { "name": "Foregone / Beautiful Desolation", "twitch": "559668833" },
       { "name": "Weakless / Wolcen: Lords of Mayhem", "twitch": "562741500" },
-      { "name": "Halo: Combat Evolved Anniversary / Stilt Fella", "twitch": "563856575" }
+      { "name": "Halo: Combat Evolved Anniversary / Stilt Fella", "twitch": "563856575" },
+      { "name": "Resident Evil 3 Remake - Raccoon City Demo", "twitch": "570386805" }
     ]
   },
   {
@@ -1299,7 +1300,8 @@
     "category": "ongoing",
     "id": "doom-eternal",
     "streams": [
-      { "name": "1", "twitch": "569683310" }
+      { "name": "1", "twitch": "569683310" },
+      { "name": "2", "twitch": "570386805", "start": "1:02:58" }
     ]
   },
   {
