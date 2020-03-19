@@ -284,9 +284,15 @@ class SegmentReference:
         self.subrefs = SortedKeyList(key=lambda x: x.start)
 
         if len(self._subrefs) > 0:
-            [SubReference(**data, parent=self)
-             for data in self._subrefs]
-        
+            for data in self._subrefs:
+                if isinstance(data, dict):
+                    SubReference(**data, parent=self)
+                elif isinstance(data, SubReference):
+                    if data.parent is not self:
+                        data.parent = self
+                else:
+                    raise TypeError(f'Unsupported subref type: {type(data)}')
+
         delattr(self, '_subrefs')
 
         if len(self.subrefs) == 0:
@@ -400,7 +406,7 @@ class SegmentReference:
     @property
     def abs_start(self):
         if self.start != 0:
-            return self.subrefs[0].abs_start
+            return self.start
         else:
             return self.parent.abs_start
 
@@ -515,16 +521,20 @@ class SubReference:
 
     @property
     def abs_start(self) -> Timecode:
-        return self.start
+        if self.start != 0:
+            return self.start
+        else:
+            return self.parent.abs_start
 
     @property
     def abs_end(self) -> Timecode:
-        subrefs = SortedKeyList(key=lambda x: x.start)
+        subrefs = SortedKeyList(key=lambda x: x.abs_start)
 
-        for refs in self.parent.parent.references:
-            for subref in refs.subrefs:
-                if subref.abs_start > self.abs_start:
-                    subrefs.add(subref)
+        for segment in self.parent.parent.stream:
+            for ref in segment.references:
+                for subref in ref.subrefs:
+                    if subref.abs_start > self.abs_start:
+                        subrefs.add(subref)
 
         if len(subrefs) > 0:
             return subrefs[0].abs_start
