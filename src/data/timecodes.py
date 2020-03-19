@@ -69,6 +69,8 @@ class Timecode(object):
                 self.value = self._text_to_sec(timecode)
         elif type(timecode) is int:
             self.value = timecode
+        elif type(timecode) is float:
+            self.value = int(timecode)
         elif type(timecode) is Timecode:
             self.value = timecode.value
             self.duration = timecode.duration

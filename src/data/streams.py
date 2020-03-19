@@ -16,7 +16,7 @@ repo = Repo('.')
 STREAMS_JSON = 'data/streams.json'
 
 
-@attr.s(auto_attribs=True, kw_only=True)
+@attr.s(auto_attribs=True, kw_only=True, repr=False, cmp=False)
 class Segment:
     note: str = None
     youtube: str = None
@@ -262,8 +262,11 @@ class Segment:
     def __str__(self):
         return self.to_json()
 
+    def __repr__(self):
+        return f'Segment({self.hash})'
 
-@attr.s(auto_attribs=True, kw_only=True, cmp=False)
+
+@attr.s(auto_attribs=True, kw_only=True, repr=False, cmp=False)
 class SegmentReference:
     game: 'Game' = attr.ib()
     note: str = None
@@ -499,8 +502,11 @@ class SegmentReference:
     def __str__(self):
         return self.to_json()
 
+    def __repr__(self):
+        return f'SegmentReference({self.name}, {self.parent.hash})'
 
-@attr.s(auto_attribs=True, kw_only=True)
+
+@attr.s(auto_attribs=True, kw_only=True, repr=False, cmp=False)
 class SubReference:
     name: str = attr.ib()
     start: Timecode = attr.ib(0, converter=Timecode)
@@ -548,6 +554,9 @@ class SubReference:
         if self.start != 0:
             yield f', "start": {json_escape(self.start)}'
         yield ' }'
+    
+    def __repr__(self):
+        return f'SubReference({self.name}, {self.start})'
 
 
 class Stream(SortedKeyList):
