@@ -1297,14 +1297,15 @@
   },
   {
     "name": "Doom Eternal",
-    "category": "ongoing",
+    "category": "finished",
     "id": "doom-eternal",
     "streams": [
       { "twitch": "569683310", "subrefs": [
         { "name": "1" },
         { "name": "1", "start": "3:57:54" }
       ] },
-      { "name": "2", "twitch": "570386805", "start": "1:02:58" }
+      { "name": "2", "twitch": "570386805", "start": "1:02:58" },
+      { "name": "3", "twitch": "571133425" }
     ]
   },
   {
