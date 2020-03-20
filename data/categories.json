@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Halo: Combat Evolved Anniversary / Stilt Fella / Walking Simulator / The Longing - 1 (400) / Yes, Your Grace - 1", "year": 2020, "url": "/links/first.html#563856575"},
       {"name": "The Longing - 2 (396-395) / SCP Containment Breach - Ultimate Edition - 5 / Yes, Your Grace - 2", "year": 2020, "url": "/links/the-longing.html#564858921"},
       {"name": "The Longing - 3 (393-392) / Ori and the Will of the Wisps - 2 / SCP Containment Breach - Ultimate Edition - 6", "year": 2020, "url": "/links/the-longing.html#565405331"},
       {"name": "Nioh 2 - 1", "year": 2020, "url": "/links/nioh-2.html#566459252"},
@@ -11,7 +10,8 @@
       {"name": "The Longing - 5 (380-379) / Nioh 2 - 3", "year": 2020, "url": "/links/the-longing.html#567719582"},
       {"name": "The Longing - 6 (372-371) / Nioh 2 - 4", "year": 2020, "url": "/links/the-longing.html#568999004"},
       {"name": "Doom Eternal - 1 / Презентация PlayStation 5", "year": 2020, "url": "/links/doom-eternal.html#569683310"},
-      {"name": "Resident Evil 3 Remake - Raccoon City Demo / Doom Eternal - 2", "year": 2020, "url": "/links/first.html#570386805"}
+      {"name": "Resident Evil 3 Remake - Raccoon City Demo / Doom Eternal - 2", "year": 2020, "url": "/links/first.html#570386805"},
+      {"name": "Doom Eternal - 3", "year": 2020, "url": "/links/doom-eternal.html#571133425"}
     ]
   },
   "finished": {
@@ -134,7 +134,8 @@
       {"name": "Dark Messiah of Might & Magic", "year": 2020, "url": "/links/dark-messiah.html"},
       {"name": "Dead Space 2", "year": 2020, "url": "/links/dead-space-2.html"},
       {"name": "Cold Fear", "year": 2020, "url": "/links/cold-fear.html"},
-      {"name": "Walking Simulator", "year": 2020, "url": "/links/single.html#563856575"}
+      {"name": "Walking Simulator", "year": 2020, "url": "/links/single.html#563856575"},
+      {"name": "Doom Eternal", "year": 2020, "url": "/links/doom-eternal.html"}
     ]
   },
   "first": {
@@ -264,8 +265,7 @@
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
       {"name": "The Longing", "year": 2020, "url": "/links/the-longing.html"},
-      {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"},
-      {"name": "Doom Eternal", "year": 2020, "url": "/links/doom-eternal.html"}
+      {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"}
     ]
   },
   "infinite": {
