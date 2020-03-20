@@ -426,9 +426,8 @@ def main(argv=None):
             return
 
         if args['add'] or args['match']:
-            # Do not write manually set duration into database
-            if args['--duration']:
-                segment._duration = Timecode(0)
+            # Do not write duration into streams.json
+            segment._duration = Timecode(0)
 
             if len(stream) == 1:
                 commit_title = f'Запись стрима {stream.twitch}'
