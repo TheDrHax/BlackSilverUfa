@@ -5,7 +5,10 @@ class Search {
   static games = null;
 
   static strip(string) {
-    return string.trim().toLowerCase().match(/[a-zа-я0-9\.]+/gi).join(' ');
+    return string.trim().split(' ').map((word) => {
+      let match = word.toLowerCase().match(/[a-zа-я0-9]+/g);
+      return match ? match.join('') : '';
+    }).join(' ');
   }
 
   static async load() {
