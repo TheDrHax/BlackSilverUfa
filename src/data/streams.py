@@ -396,7 +396,11 @@ class SegmentReference:
 
     @property
     def name(self) -> str:
-        return ' / '.join(set([s.name for s in self.subrefs]))
+        names = []
+        for subref in self.subrefs:
+            if subref.name not in names:
+                names.append(subref.name)
+        return ' / '.join(names)
 
     @property
     def start(self) -> Timecode:
