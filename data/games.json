@@ -221,14 +221,15 @@
     ]
   },
   {
-    "name": "Call of Duty: Modern Warfare (бета)",
+    "name": "Call of Duty: Modern Warfare",
     "category": "co-op-series",
     "id": "cod-mw",
     "streams": [
       { "name": "1", "twitch": "483965510" },
       { "name": "2", "twitch": "484398311" },
       { "name": "3.1", "twitch": "484914562", "start": "3:58:42" },
-      { "name": "3.2", "twitch": "485019796" }
+      { "name": "3.2", "twitch": "485019796" },
+      { "name": "4 (релиз)", "twitch": "572721394", "start": "4:06:10" }
     ]
   },
   {
@@ -1174,7 +1175,8 @@
       { "name": "Розыгрыш Asus ROG Phone", "twitch": "444021917" },
       { "name": "Розыгрыш двух ноутбуков Asus", "twitch": "448568048", "segment": 0 },
       { "name": "Розыгрыш Cyberpunk 2077", "twitch": "470288598" },
-      { "name": "Розыгрыш Asus ROG Strix SCAR II", "twitch": "508178551" }
+      { "name": "Розыгрыш Asus ROG Strix SCAR II", "twitch": "508178551" },
+      { "name": "Розыгрыш мерча Metro Exodus", "twitch": "572721394" }
     ]
   },
   {
@@ -1490,8 +1492,16 @@
       { "twitch": "563856575", "subrefs": [
         { "name": "Halo: Combat Evolved Anniversary" },
         { "name": "Stilt Fella", "start": "2:08:34" }
-      ] },
-      { "name": "Resident Evil 3 Remake - Raccoon City Demo", "twitch": "570386805" }
+      ] }
+    ]
+  },
+  {
+    "name": "Resident Evil 3 Remake",
+    "category": "ongoing",
+    "id": "re3-remake",
+    "streams": [
+      { "name": "Raccoon City Demo (PS4)", "twitch": "570386805" },
+      { "name": "Raccoon City Demo (PC)", "twitch": "572721394", "start": "1:08:02" }
     ]
   },
   {
@@ -1538,7 +1548,8 @@
         { "name": "5 (380-379)" },
         { "name": "5 (380-379)", "start": "4:52:12" }
       ] },
-      { "name": "6 (372-371)", "twitch": "568999004" }
+      { "name": "6 (372-371)", "twitch": "568999004" },
+      { "name": "7 (350)", "twitch": "572721394", "start": "1:50:07" }
     ]
   },
   {
