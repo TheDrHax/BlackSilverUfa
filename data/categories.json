@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "The Longing - 2 (396-395) / SCP Containment Breach - Ultimate Edition - 5 / Yes, Your Grace - 2", "year": 2020, "url": "/links/the-longing.html#564858921"},
       {"name": "The Longing - 3 (393-392) / Ori and the Will of the Wisps - 2 / SCP Containment Breach - Ultimate Edition - 6", "year": 2020, "url": "/links/the-longing.html#565405331"},
       {"name": "Nioh 2 - 1", "year": 2020, "url": "/links/nioh-2.html#566459252"},
       {"name": "Nioh 2 - 2", "year": 2020, "url": "/links/nioh-2.html#567045755"},
@@ -10,8 +9,9 @@
       {"name": "The Longing - 5 (380-379) / Nioh 2 - 3", "year": 2020, "url": "/links/the-longing.html#567719582"},
       {"name": "The Longing - 6 (372-371) / Nioh 2 - 4", "year": 2020, "url": "/links/the-longing.html#568999004"},
       {"name": "Doom Eternal - 1 / Презентация PlayStation 5", "year": 2020, "url": "/links/doom-eternal.html#569683310"},
-      {"name": "Resident Evil 3 Remake - Raccoon City Demo / Doom Eternal - 2", "year": 2020, "url": "/links/first.html#570386805"},
-      {"name": "Doom Eternal - 3", "year": 2020, "url": "/links/doom-eternal.html#571133425"}
+      {"name": "Resident Evil 3 Remake - Raccoon City Demo (PS4) / Doom Eternal - 2", "year": 2020, "url": "/links/re3-remake.html#570386805"},
+      {"name": "Doom Eternal - 3", "year": 2020, "url": "/links/doom-eternal.html#571133425"},
+      {"name": "Розыгрыш мерча Metro Exodus / Resident Evil 3 Remake - Raccoon City Demo (PC) / The Longing - 7 (350) / Call of Duty: Modern Warfare - 4 (релиз)", "year": 2020, "url": "/links/events.html#572721394"}
     ]
   },
   "finished": {
@@ -253,8 +253,7 @@
       {"name": "Warcraft III: Reforged", "year": 2020, "url": "/links/first.html#543591605"},
       {"name": "Foregone / Beautiful Desolation", "year": 2020, "url": "/links/first.html#559668833"},
       {"name": "Weakless / Wolcen: Lords of Mayhem", "year": 2020, "url": "/links/first.html#562741500"},
-      {"name": "Halo: Combat Evolved Anniversary / Stilt Fella", "year": 2020, "url": "/links/first.html#563856575"},
-      {"name": "Resident Evil 3 Remake - Raccoon City Demo", "year": 2020, "url": "/links/first.html#570386805"}
+      {"name": "Halo: Combat Evolved Anniversary / Stilt Fella", "year": 2020, "url": "/links/first.html#563856575"}
     ]
   },
   "ongoing": {
@@ -265,7 +264,8 @@
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
       {"name": "The Longing", "year": 2020, "url": "/links/the-longing.html"},
-      {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"}
+      {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"},
+      {"name": "Resident Evil 3 Remake", "year": 2020, "url": "/links/re3-remake.html"}
     ]
   },
   "infinite": {
@@ -442,7 +442,7 @@
       {"name": "Overwatch", "year": 2019, "url": "/links/overwatch.html"},
       {"name": "Minecraft", "year": 2019, "url": "/links/minecraft.html"},
       {"name": "Havocado", "year": 2019, "url": "/links/havocado.html"},
-      {"name": "Call of Duty: Modern Warfare (бета)", "year": 2019, "url": "/links/cod-mw.html"},
+      {"name": "Call of Duty: Modern Warfare", "year": 2019, "url": "/links/cod-mw.html"},
       {"name": "Farming Simulator 19", "year": 2019, "url": "/links/farming-simulator-19.html"},
       {"name": "Heave Ho", "year": 2019, "url": "/links/heave-ho.html"},
       {"name": "GTFO", "year": 2019, "url": "/links/gtfo.html"},
@@ -466,7 +466,8 @@
       {"name": "Розыгрыш двух ноутбуков Asus", "year": 2019, "url": "/links/events.html#448568048"},
       {"name": "Розыгрыш Cyberpunk 2077", "year": 2019, "url": "/links/events.html#470288598"},
       {"name": "Розыгрыш Asus ROG Strix SCAR II", "year": 2019, "url": "/links/events.html#508178551"},
-      {"name": "Xbox Game Pass Ultimate", "year": 2019, "url": "/links/other.html#526521156"}
+      {"name": "Xbox Game Pass Ultimate", "year": 2019, "url": "/links/other.html#526521156"},
+      {"name": "Розыгрыш мерча Metro Exodus", "year": 2020, "url": "/links/events.html#572721394"}
     ]
   },
   "expos": {
