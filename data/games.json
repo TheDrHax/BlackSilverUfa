@@ -1493,10 +1493,16 @@
         { "name": "Halo: Combat Evolved Anniversary" },
         { "name": "Stilt Fella", "start": "2:08:34" }
       ] },
-      { "twitch": "573544874", "subrefs": [
-        { "name": "Animal Crossing: New Horizons" },
-        { "name": "Half-Life: Alyx", "start": "1:43:41" }
-      ] }
+      { "name": "Animal Crossing: New Horizons", "twitch": "573544874" }
+    ]
+  },
+  {
+    "name": "Half-Life: Alyx",
+    "category": "ongoing",
+    "id": "hl-alyx",
+    "streams": [
+      { "name": "1", "twitch": "573544874", "start": "1:43:41" },
+      { "name": "2", "twitch": "574246616" }
     ]
   },
   {
