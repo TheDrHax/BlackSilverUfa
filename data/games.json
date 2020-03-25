@@ -1498,11 +1498,12 @@
   },
   {
     "name": "Half-Life: Alyx",
-    "category": "ongoing",
+    "category": "finished",
     "id": "hl-alyx",
     "streams": [
       { "name": "1", "twitch": "573544874", "start": "1:43:41" },
-      { "name": "2", "twitch": "574246616" }
+      { "name": "2", "twitch": "574246616" },
+      { "name": "3", "twitch": "575026259" }
     ]
   },
   {
