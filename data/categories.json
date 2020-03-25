@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Nioh 2 - 2", "year": 2020, "url": "/links/nioh-2.html#567045755"},
       {"name": "The Longing - 4 (383-382) / Broomstick League / Human: Fall Flat - 7", "year": 2020, "url": "/links/the-longing.html#567045755.1"},
       {"name": "The Longing - 5 (380-379) / Nioh 2 - 3", "year": 2020, "url": "/links/the-longing.html#567719582"},
       {"name": "The Longing - 6 (372-371) / Nioh 2 - 4", "year": 2020, "url": "/links/the-longing.html#568999004"},
@@ -11,7 +10,8 @@
       {"name": "Doom Eternal - 3", "year": 2020, "url": "/links/doom-eternal.html#571133425"},
       {"name": "Розыгрыш мерча Metro Exodus / Resident Evil 3 Remake - Raccoon City Demo (PC) / The Longing - 7 (350) / Call of Duty: Modern Warfare - 4 (релиз)", "year": 2020, "url": "/links/events.html#572721394"},
       {"name": "Animal Crossing: New Horizons / Half-Life: Alyx - 1", "year": 2020, "url": "/links/first.html#573544874"},
-      {"name": "Half-Life: Alyx - 2", "year": 2020, "url": "/links/hl-alyx.html#574246616"}
+      {"name": "Half-Life: Alyx - 2", "year": 2020, "url": "/links/hl-alyx.html#574246616"},
+      {"name": "Half-Life: Alyx - 3", "year": 2020, "url": "/links/hl-alyx.html#575026259"}
     ]
   },
   "finished": {
@@ -135,7 +135,8 @@
       {"name": "Dead Space 2", "year": 2020, "url": "/links/dead-space-2.html"},
       {"name": "Cold Fear", "year": 2020, "url": "/links/cold-fear.html"},
       {"name": "Walking Simulator", "year": 2020, "url": "/links/single.html#563856575"},
-      {"name": "Doom Eternal", "year": 2020, "url": "/links/doom-eternal.html"}
+      {"name": "Doom Eternal", "year": 2020, "url": "/links/doom-eternal.html"},
+      {"name": "Half-Life: Alyx", "year": 2020, "url": "/links/hl-alyx.html"}
     ]
   },
   "first": {
@@ -266,8 +267,7 @@
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
       {"name": "The Longing", "year": 2020, "url": "/links/the-longing.html"},
       {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"},
-      {"name": "Resident Evil 3 Remake", "year": 2020, "url": "/links/re3-remake.html"},
-      {"name": "Half-Life: Alyx", "year": 2020, "url": "/links/hl-alyx.html"}
+      {"name": "Resident Evil 3 Remake", "year": 2020, "url": "/links/re3-remake.html"}
     ]
   },
   "infinite": {

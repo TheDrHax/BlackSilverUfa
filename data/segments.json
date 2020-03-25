@@ -3737,14 +3737,12 @@
   "561746068": {
     "youtube": "vP1G-xX9CKg", "official": false, "abs_start": "0:00", "abs_end": "3:45:38", "duration": "3:45:38",
     "name": "Cold Fear - 2.1",
-    "url": "/links/cold-fear.html#561746068",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/561746068.torrent"
+    "url": "/links/cold-fear.html#561746068"
   },
   "561821972": {
     "youtube": "QDZGVRocUqs", "official": false, "abs_start": "0:00", "abs_end": "2:08:49", "duration": "2:08:49",
     "name": "Cold Fear - 2.2 / One Punch Man: A Hero Nobody Knows - 3",
-    "url": "/links/cold-fear.html#561821972",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/561821972.torrent"
+    "url": "/links/cold-fear.html#561821972"
   },
   "562243368": {
     "youtube": "7-FYRHDLOZ4", "official": false, "abs_start": "0:00", "abs_end": "5:57:21", "duration": "5:57:21",
@@ -3847,5 +3845,12 @@
     "name": "Half-Life: Alyx - 2",
     "url": "/links/hl-alyx.html#574246616",
     "torrent": "https://bsufiles.thedrhax.pw/streams/574246616.torrent"
+  },
+  "575026259": {
+    "abs_start": "0:00", "abs_end": "7:07:22", "duration": "0:00",
+    "name": "Half-Life: Alyx - 3",
+    "url": "/links/hl-alyx.html#575026259",
+    "direct": "https://bsufiles.thedrhax.pw/streams/575026259.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/575026259.torrent"
   }
 }
