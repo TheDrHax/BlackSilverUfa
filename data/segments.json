@@ -3126,23 +3126,23 @@
   },
   "483965510": {
     "youtube": "93_6bLjL2Ls", "abs_start": "0:00", "abs_end": "4:35:43", "duration": "4:35:43",
-    "name": "Call of Duty: Modern Warfare - 1",
-    "url": "/links/cod-mw.html#483965510"
+    "name": "Call of Duty: Warzone - 1",
+    "url": "/links/cod-warzone.html#483965510"
   },
   "484398311": {
     "youtube": "yWPLRf2nErw", "abs_start": "0:00", "abs_end": "6:17:58", "duration": "6:17:58",
-    "name": "Call of Duty: Modern Warfare - 2",
-    "url": "/links/cod-mw.html#484398311"
+    "name": "Call of Duty: Warzone - 2",
+    "url": "/links/cod-warzone.html#484398311"
   },
   "484914562": {
     "youtube": "mpYwsil91iQ", "abs_start": "0:00", "abs_end": "4:45:18", "duration": "4:45:18",
-    "name": "The Legend of Zelda: Link's Awakening - 2 / Call of Duty: Modern Warfare - 3.1",
+    "name": "The Legend of Zelda: Link's Awakening - 2 / Call of Duty: Warzone - 3.1",
     "url": "/links/tloz-la.html#484914562"
   },
   "485019796": {
     "youtube": "C7SNwnu3_AM", "official": false, "abs_start": "0:00", "abs_end": "1:25:02", "duration": "1:25:02",
-    "name": "Call of Duty: Modern Warfare - 3.2",
-    "url": "/links/cod-mw.html#485019796"
+    "name": "Call of Duty: Warzone - 3.2",
+    "url": "/links/cod-warzone.html#485019796"
   },
   "485417805": {
     "youtube": "F85dDZIflyk", "abs_start": "5:24", "abs_end": "1:44:18", "duration": "1:38:54",
@@ -3747,8 +3747,7 @@
   "562243368": {
     "youtube": "7-FYRHDLOZ4", "official": false, "abs_start": "0:00", "abs_end": "5:57:21", "duration": "5:57:21",
     "name": "Grand Theft Auto: San Andreas - 10 / Dead Space 3 - 5",
-    "url": "/links/gta-san-andreas.html#562243368",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/562243368.torrent"
+    "url": "/links/gta-san-andreas.html#562243368"
   },
   "562741500": {
     "youtube": "ziZYfrfSSGE", "official": false, "abs_start": "0:00", "abs_end": "6:08:37", "duration": "6:08:37",
@@ -3830,7 +3829,7 @@
   },
   "572721394": {
     "youtube": "QbSuDWsggRc", "official": false, "abs_start": "0:00", "abs_end": "9:42:15", "duration": "9:42:15",
-    "name": "Розыгрыш мерча Metro Exodus / Resident Evil 3 Remake - Raccoon City Demo (PC) / The Longing - 7 (350) / Call of Duty: Modern Warfare - 4 (релиз)",
+    "name": "Розыгрыш мерча Metro Exodus / Resident Evil 3 Remake - Raccoon City Demo (PC) / The Longing - 7 (350) / Call of Duty: Warzone - 4 (релиз)",
     "url": "/links/events.html#572721394",
     "torrent": "https://bsufiles.thedrhax.pw/streams/572721394.torrent"
   },
@@ -3851,5 +3850,12 @@
     "name": "Half-Life: Alyx - 3",
     "url": "/links/hl-alyx.html#575026259",
     "torrent": "https://bsufiles.thedrhax.pw/streams/575026259.torrent"
+  },
+  "576592201": {
+    "abs_start": "0:00", "abs_end": "9:01:27", "duration": "0:00",
+    "name": "The Longing - 8 (313-312) / Call of Duty: Warzone - 5",
+    "url": "/links/the-longing.html#576592201",
+    "direct": "https://bsufiles.thedrhax.pw/streams/576592201.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/576592201.torrent"
   }
 }
