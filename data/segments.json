@@ -3762,14 +3762,12 @@
   "563856575": {
     "youtube": "s_4ty-UhrHQ", "official": false, "abs_start": "0:00", "abs_end": "6:07:36", "duration": "6:07:36",
     "name": "Halo: Combat Evolved Anniversary / Stilt Fella / Walking Simulator / The Longing - 1 (400) / Yes, Your Grace - 1",
-    "url": "/links/first.html#563856575",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/563856575.torrent"
+    "url": "/links/first.html#563856575"
   },
   "564858921": {
     "youtube": "QUKGdLUljfs", "official": false, "abs_start": "0:00", "abs_end": "5:28:16", "duration": "5:28:16",
     "name": "The Longing - 2 (396-395) / SCP Containment Breach - Ultimate Edition - 5 / Yes, Your Grace - 2",
-    "url": "/links/the-longing.html#564858921",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/564858921.torrent"
+    "url": "/links/the-longing.html#564858921"
   },
   "565405331": {
     "youtube": "fTluidI4EHU", "official": false, "abs_start": "0:00", "abs_end": "6:02:15", "duration": "6:02:15",
@@ -3860,5 +3858,12 @@
     "name": "SCP: Unity - 7 / Predator: Hunting Grounds / Stab Stab Stab! / Heave Ho - 3 (заново) / Tricky Towers - 22",
     "url": "/links/scp-unity.html#577415879",
     "torrent": "https://bsufiles.thedrhax.pw/streams/577415879.torrent"
+  },
+  "578269918": {
+    "abs_start": "0:00", "abs_end": "4:34:34", "duration": "0:00",
+    "name": "The Longing - 9 (296) / SCP: Unity - 8 (часть 1)",
+    "url": "/links/the-longing.html#578269918",
+    "direct": "https://bsufiles.thedrhax.pw/streams/578269918.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/578269918.torrent"
   }
 }
