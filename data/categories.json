@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Resident Evil 3 Remake - Raccoon City Demo (PS4) / Doom Eternal - 2", "year": 2020, "url": "/links/re3-remake.html#570386805"},
       {"name": "Doom Eternal - 3", "year": 2020, "url": "/links/doom-eternal.html#571133425"},
       {"name": "Розыгрыш мерча Metro Exodus / Resident Evil 3 Remake - Raccoon City Demo (PC) / The Longing - 7 (350) / Call of Duty: Warzone - 1", "year": 2020, "url": "/links/events.html#572721394"},
       {"name": "Animal Crossing: New Horizons / Half-Life: Alyx - 1", "year": 2020, "url": "/links/first.html#573544874"},
@@ -11,7 +10,8 @@
       {"name": "The Longing - 8 (313-312) / Call of Duty: Warzone - 2", "year": 2020, "url": "/links/the-longing.html#576592201"},
       {"name": "SCP: Unity - 7 / Predator: Hunting Grounds / Stab Stab Stab! / Heave Ho - 3 (заново) / Tricky Towers - 22", "year": 2020, "url": "/links/scp-unity.html#577415879"},
       {"name": "The Longing - 9 (296, часть 1) / SCP: Unity - 8 (часть 1)", "year": 2020, "url": "/links/the-longing.html#578269918"},
-      {"name": "SCP: Unity - 8 (часть 2) / The Longing - 9 (296, часть 2)", "year": 2020, "url": "/links/scp-unity.html#578448008"}
+      {"name": "SCP: Unity - 8 (часть 2) / The Longing - 9 (296, часть 2)", "year": 2020, "url": "/links/scp-unity.html#578448008"},
+      {"name": "Persona 5: The Royal / The Longing - 10 (276)", "year": 2020, "url": "/links/first.html#579786256"}
     ]
   },
   "finished": {
@@ -255,7 +255,8 @@
       {"name": "Foregone / Beautiful Desolation", "year": 2020, "url": "/links/first.html#559668833"},
       {"name": "Weakless / Wolcen: Lords of Mayhem", "year": 2020, "url": "/links/first.html#562741500"},
       {"name": "Halo: Combat Evolved Anniversary / Stilt Fella", "year": 2020, "url": "/links/first.html#563856575"},
-      {"name": "Animal Crossing: New Horizons", "year": 2020, "url": "/links/first.html#573544874"}
+      {"name": "Animal Crossing: New Horizons", "year": 2020, "url": "/links/first.html#573544874"},
+      {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/first.html#579786256"}
     ]
   },
   "ongoing": {
