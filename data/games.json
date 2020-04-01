@@ -929,6 +929,15 @@
     ]
   },
   {
+    "name": "Persona 5: The Royal",
+    "category": "ongoing",
+    "id": "persona-5-royal",
+    "streams": [
+      { "name": "1", "twitch": "579786256" },
+      { "name": "2 (часть 1)", "twitch": "580574509", "start": "1:04:53" }
+    ]
+  },
+  {
     "name": "Prey",
     "category": "finished",
     "id": "prey",
@@ -1510,8 +1519,7 @@
         { "name": "Halo: Combat Evolved Anniversary" },
         { "name": "Stilt Fella", "start": "2:08:34" }
       ] },
-      { "name": "Animal Crossing: New Horizons", "twitch": "573544874" },
-      { "name": "Persona 5: The Royal", "twitch": "579786256" }
+      { "name": "Animal Crossing: New Horizons", "twitch": "573544874" }
     ]
   },
   {
@@ -1582,7 +1590,8 @@
       { "name": "8 (313-312)", "twitch": "576592201" },
       { "name": "9 (296, часть 1)", "twitch": "578269918" },
       { "name": "9 (296, часть 2)", "twitch": "578448008", "start": "58:02" },
-      { "name": "10 (276)", "twitch": "579786256", "start": "3:17:20" }
+      { "name": "10 (276)", "twitch": "579786256", "start": "3:17:20" },
+      { "name": "11 (268, часть 1)", "twitch": "580574509" }
     ]
   },
   {
