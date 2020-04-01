@@ -3860,13 +3860,13 @@
   },
   "578269918": {
     "youtube": "EnGRkafmjw4", "official": false, "abs_start": "0:00", "abs_end": "4:33:45", "duration": "4:33:45",
-    "name": "The Longing - 9 (296, часть 1) / SCP: Unity - 8 (часть 1)",
+    "name": "The Longing - 9 (часть 1, 296) / SCP: Unity - 8 (часть 1)",
     "url": "/links/the-longing.html#578269918",
     "torrent": "https://bsufiles.thedrhax.pw/streams/578269918.torrent"
   },
   "578448008": {
     "youtube": "N8kwG6AKXIM", "official": false, "abs_start": "0:00", "abs_end": "1:36:49", "duration": "1:36:49",
-    "name": "SCP: Unity - 8 (часть 2) / The Longing - 9 (296, часть 2)",
+    "name": "SCP: Unity - 8 (часть 2) / The Longing - 9 (часть 2, 296)",
     "url": "/links/scp-unity.html#578448008",
     "torrent": "https://bsufiles.thedrhax.pw/streams/578448008.torrent"
   },
@@ -3878,8 +3878,15 @@
   },
   "580574509": {
     "youtube": "G3XqWGzz-hM", "official": false, "abs_start": "0:00", "abs_end": "2:03:49", "duration": "2:03:49",
-    "name": "The Longing - 11 (268, часть 1) / Persona 5: The Royal - 2 (часть 1)",
+    "name": "The Longing - 11 (часть 1, 268) / Persona 5: The Royal - 2",
     "url": "/links/the-longing.html#580574509",
     "torrent": "https://bsufiles.thedrhax.pw/streams/580574509.torrent"
+  },
+  "580642883": {
+    "abs_start": "0:00", "abs_end": "4:09:26", "duration": "0:00",
+    "name": "The Longing - 11 (часть 2, 267)",
+    "url": "/links/the-longing.html#580642883",
+    "direct": "https://bsufiles.thedrhax.pw/streams/580642883.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/580642883.torrent"
   }
 }
