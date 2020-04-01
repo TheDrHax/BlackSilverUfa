@@ -3773,14 +3773,12 @@
   "565405331": {
     "youtube": "fTluidI4EHU", "official": false, "abs_start": "0:00", "abs_end": "6:02:15", "duration": "6:02:15",
     "name": "The Longing - 3 (393-392) / Ori and the Will of the Wisps - 2 / SCP Containment Breach - Ultimate Edition - 6",
-    "url": "/links/the-longing.html#565405331",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/565405331.torrent"
+    "url": "/links/the-longing.html#565405331"
   },
   "566459252": {
     "youtube": "yur7BnWAx6I", "official": false, "abs_start": "0:00", "abs_end": "5:49:13", "duration": "5:49:13",
     "name": "Nioh 2 - 1",
-    "url": "/links/nioh-2.html#566459252",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/566459252.torrent"
+    "url": "/links/nioh-2.html#566459252"
   },
   "567045755": {
     "youtube": "0PQmXrkq-dw", "official": false, "abs_start": "0:00", "abs_end": "2:55:20", "duration": "2:55:20",
@@ -3874,8 +3872,15 @@
   },
   "579786256": {
     "youtube": "ptB2QsOVO6M", "official": false, "abs_start": "0:00", "abs_end": "5:54:39", "duration": "5:54:39",
-    "name": "Persona 5: The Royal / The Longing - 10 (276)",
-    "url": "/links/first.html#579786256",
+    "name": "Persona 5: The Royal - 1 / The Longing - 10 (276)",
+    "url": "/links/persona-5-royal.html#579786256",
     "torrent": "https://bsufiles.thedrhax.pw/streams/579786256.torrent"
+  },
+  "580574509": {
+    "abs_start": "0:00", "abs_end": "2:04:44", "duration": "0:00",
+    "name": "The Longing - 11 (268, часть 1) / Persona 5: The Royal - 2 (часть 1)",
+    "url": "/links/the-longing.html#580574509",
+    "direct": "https://bsufiles.thedrhax.pw/streams/580574509.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/580574509.torrent"
   }
 }
