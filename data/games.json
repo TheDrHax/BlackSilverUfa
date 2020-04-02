@@ -1534,11 +1534,12 @@
   },
   {
     "name": "Resident Evil 3 Remake",
-    "category": "ongoing",
+    "category": "finished",
     "id": "re3-remake",
     "streams": [
       { "name": "Raccoon City Demo (PS4)", "twitch": "570386805" },
-      { "name": "Raccoon City Demo (PC)", "twitch": "572721394", "start": "1:08:02" }
+      { "name": "Raccoon City Demo (PC)", "twitch": "572721394", "start": "1:08:02" },
+      { "name": "Прохождение", "twitch": "581326233" }
     ]
   },
   {
