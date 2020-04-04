@@ -3783,14 +3783,12 @@
   "567045755": {
     "youtube": "0PQmXrkq-dw", "official": false, "abs_start": "0:00", "abs_end": "2:55:20", "duration": "2:55:20",
     "name": "Nioh 2 - 2",
-    "url": "/links/nioh-2.html#567045755",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/567045755.torrent"
+    "url": "/links/nioh-2.html#567045755"
   },
   "567045755.1": {
     "youtube": "AMT6MNSxVGU", "official": false, "abs_start": "2:55:20", "abs_end": "8:10:02", "duration": "5:14:42",
     "name": "The Longing - 4 (383-382) / Broomstick League / Human: Fall Flat - 7",
-    "url": "/links/the-longing.html#567045755.1",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/567045755.torrent"
+    "url": "/links/the-longing.html#567045755.1"
   },
   "567719582": {
     "youtube": "cloHohhnjao", "official": false, "abs_start": "0:00", "abs_end": "5:42:53", "duration": "5:42:53",
@@ -3893,5 +3891,12 @@
     "name": "Resident Evil 3 Remake - Прохождение",
     "url": "/links/re3-remake.html#581326233",
     "torrent": "https://bsufiles.thedrhax.pw/streams/581326233.torrent"
+  },
+  "583080179": {
+    "abs_start": "0:00", "abs_end": "6:06:48", "duration": "0:00",
+    "name": "The Longing - 12 (237-236)",
+    "url": "/links/the-longing.html#583080179",
+    "direct": "https://bsufiles.thedrhax.pw/streams/583080179.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/583080179.torrent"
   }
 }

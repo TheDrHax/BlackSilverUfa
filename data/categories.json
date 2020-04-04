@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Half-Life: Alyx - 2", "year": 2020, "url": "/links/hl-alyx.html#574246616"},
       {"name": "Half-Life: Alyx - 3", "year": 2020, "url": "/links/hl-alyx.html#575026259"},
       {"name": "The Longing - 8 (313-312) / Call of Duty: Warzone - 2", "year": 2020, "url": "/links/the-longing.html#576592201"},
       {"name": "SCP: Unity - 7 / Predator: Hunting Grounds / Stab Stab Stab! / Heave Ho - 3 (заново) / Tricky Towers - 22", "year": 2020, "url": "/links/scp-unity.html#577415879"},
@@ -11,7 +10,8 @@
       {"name": "Persona 5: The Royal - 1 / The Longing - 10 (276)", "year": 2020, "url": "/links/persona-5-royal.html#579786256"},
       {"name": "The Longing - 11 (часть 1, 268) / Persona 5: The Royal - 2", "year": 2020, "url": "/links/the-longing.html#580574509"},
       {"name": "The Longing - 11 (часть 2, 267)", "year": 2020, "url": "/links/the-longing.html#580642883"},
-      {"name": "Resident Evil 3 Remake - Прохождение", "year": 2020, "url": "/links/re3-remake.html#581326233"}
+      {"name": "Resident Evil 3 Remake - Прохождение", "year": 2020, "url": "/links/re3-remake.html#581326233"},
+      {"name": "The Longing - 12 (237-236)", "year": 2020, "url": "/links/the-longing.html#583080179"}
     ]
   },
   "finished": {
@@ -263,8 +263,6 @@
     "name": "Активные",
     "games": [
       {"name": "Nioh 2", "year": 2019, "url": "/links/nioh-2.html"},
-      {"name": "Dead Space 3", "year": 2020, "url": "/links/dead-space-3.html"},
-      {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
       {"name": "The Longing", "year": 2020, "url": "/links/the-longing.html"},
       {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"},
@@ -339,7 +337,9 @@
       {"name": "Luigi's Mansion 3", "year": 2019, "url": "/links/luigis-mansion-3.html"},
       {"name": "Spore", "year": 2019, "url": "/links/spore.html"},
       {"name": "The Sims 4", "year": 2020, "url": "/links/sims-4.html"},
-      {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"}
+      {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
+      {"name": "Dead Space 3", "year": 2020, "url": "/links/dead-space-3.html"},
+      {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"}
     ]
   },
   "co-op": {
