@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "The Longing - 8 (313-312) / Call of Duty: Warzone - 2", "year": 2020, "url": "/links/the-longing.html#576592201"},
       {"name": "SCP: Unity - 7 / Predator: Hunting Grounds / Stab Stab Stab! / Heave Ho - 3 (заново) / Tricky Towers - 22", "year": 2020, "url": "/links/scp-unity.html#577415879"},
       {"name": "The Longing - 9 (часть 1, 296) / SCP: Unity - 8 (часть 1)", "year": 2020, "url": "/links/the-longing.html#578269918"},
       {"name": "SCP: Unity - 8 (часть 2) / The Longing - 9 (часть 2, 296)", "year": 2020, "url": "/links/scp-unity.html#578448008"},
@@ -11,7 +10,8 @@
       {"name": "The Longing - 11 (часть 2, 267)", "year": 2020, "url": "/links/the-longing.html#580642883"},
       {"name": "Resident Evil 3 Remake - Прохождение", "year": 2020, "url": "/links/re3-remake.html#581326233"},
       {"name": "The Longing - 12 (237-236)", "year": 2020, "url": "/links/the-longing.html#583080179"},
-      {"name": "The Longing - 13 (финал, 235)", "year": 2020, "url": "/links/the-longing.html#583958350"}
+      {"name": "The Longing - 13 (финал, 235)", "year": 2020, "url": "/links/the-longing.html#583958350"},
+      {"name": "Biped / Green Hell - Кооп", "year": 2020, "url": "/links/co-op.html#586412927"}
     ]
   },
   "finished": {
@@ -290,6 +290,7 @@
       {"name": "Totally Accurate Battle Simulator", "year": 2019, "url": "/links/tabs.html"},
       {"name": "Jump King", "year": 2019, "url": "/links/jump-king.html"},
       {"name": "Ancestors: The Humankind Odyssey", "year": 2019, "url": "/links/ancestors.html"},
+      {"name": "Green Hell", "year": 2019, "url": "/links/green-hell.html"},
       {"name": "Police Stories", "year": 2019, "url": "/links/police-stories.html"},
       {"name": "Dreams", "year": 2020, "url": "/links/dreams.html"}
     ]
@@ -330,7 +331,6 @@
       {"name": "Tom Clancy's Ghost Recon Breakpoint", "year": 2019, "url": "/links/ghost-recon-breakpoint.html"},
       {"name": "Blasphemous", "year": 2019, "url": "/links/blasphemous.html"},
       {"name": "Astral Chain", "year": 2019, "url": "/links/astral-chain.html"},
-      {"name": "Green Hell", "year": 2019, "url": "/links/green-hell.html"},
       {"name": "The Legend of Zelda: Link's Awakening", "year": 2019, "url": "/links/tloz-la.html"},
       {"name": "The Surge 2", "year": 2019, "url": "/links/surge-2.html"},
       {"name": "The Outer Worlds", "year": 2019, "url": "/links/outer-worlds.html"},
@@ -390,7 +390,8 @@
       {"name": "Totally Reliable Delivery Service / Paunch", "year": 2020, "url": "/links/co-op.html#552313454"},
       {"name": "I Will Eat You", "year": 2020, "url": "/links/co-op.html#556596083"},
       {"name": "Broomstick League", "year": 2020, "url": "/links/co-op.html#567045755.1"},
-      {"name": "Predator: Hunting Grounds / Stab Stab Stab!", "year": 2020, "url": "/links/co-op.html#577415879"}
+      {"name": "Predator: Hunting Grounds / Stab Stab Stab!", "year": 2020, "url": "/links/co-op.html#577415879"},
+      {"name": "Biped", "year": 2020, "url": "/links/co-op.html#586412927"}
     ]
   },
   "co-op-series": {
