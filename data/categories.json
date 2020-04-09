@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "SCP: Unity - 7 / Predator: Hunting Grounds / Stab Stab Stab! / Heave Ho - 3 (заново) / Tricky Towers - 22", "year": 2020, "url": "/links/scp-unity.html#577415879"},
       {"name": "The Longing - 9 (часть 1, 296) / SCP: Unity - 8 (часть 1)", "year": 2020, "url": "/links/the-longing.html#578269918"},
       {"name": "SCP: Unity - 8 (часть 2) / The Longing - 9 (часть 2, 296)", "year": 2020, "url": "/links/scp-unity.html#578448008"},
       {"name": "Persona 5: The Royal - 1 / The Longing - 10 (276)", "year": 2020, "url": "/links/persona-5-royal.html#579786256"},
@@ -11,7 +10,8 @@
       {"name": "Resident Evil 3 Remake - Прохождение", "year": 2020, "url": "/links/re3-remake.html#581326233"},
       {"name": "The Longing - 12 (237-236)", "year": 2020, "url": "/links/the-longing.html#583080179"},
       {"name": "The Longing - 13 (финал, 235)", "year": 2020, "url": "/links/the-longing.html#583958350"},
-      {"name": "Biped / Green Hell - Кооп", "year": 2020, "url": "/links/co-op.html#586412927"}
+      {"name": "Biped / Green Hell - Кооп", "year": 2020, "url": "/links/co-op.html#586412927"},
+      {"name": "Final Fantasy VII Remake", "year": 2020, "url": "/links/first.html#587333512"}
     ]
   },
   "finished": {
@@ -257,7 +257,8 @@
       {"name": "Foregone / Beautiful Desolation", "year": 2020, "url": "/links/first.html#559668833"},
       {"name": "Weakless / Wolcen: Lords of Mayhem", "year": 2020, "url": "/links/first.html#562741500"},
       {"name": "Halo: Combat Evolved Anniversary / Stilt Fella", "year": 2020, "url": "/links/first.html#563856575"},
-      {"name": "Animal Crossing: New Horizons", "year": 2020, "url": "/links/first.html#573544874"}
+      {"name": "Animal Crossing: New Horizons", "year": 2020, "url": "/links/first.html#573544874"},
+      {"name": "Final Fantasy VII Remake", "year": 2020, "url": "/links/first.html#587333512"}
     ]
   },
   "ongoing": {
@@ -265,7 +266,6 @@
     "games": [
       {"name": "Nioh 2", "year": 2019, "url": "/links/nioh-2.html"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
-      {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"},
       {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/persona-5-royal.html"}
     ]
   },
@@ -339,7 +339,8 @@
       {"name": "The Sims 4", "year": 2020, "url": "/links/sims-4.html"},
       {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
       {"name": "Dead Space 3", "year": 2020, "url": "/links/dead-space-3.html"},
-      {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"}
+      {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"},
+      {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"}
     ]
   },
   "co-op": {
