@@ -3808,8 +3808,7 @@
   "570386805": {
     "youtube": "bLpFpAgaQ6E", "official": false, "abs_start": "0:00", "abs_end": "6:42:49", "duration": "6:42:49",
     "name": "Resident Evil 3 Remake - Raccoon City Demo (PS4) / Doom Eternal - 2",
-    "url": "/links/re3-remake.html#570386805",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/570386805.torrent"
+    "url": "/links/re3-remake.html#570386805"
   },
   "571133425": {
     "youtube": "7AYJWRvs1B4", "official": false, "abs_start": "0:00", "abs_end": "6:19:29", "duration": "6:19:29",
@@ -3909,8 +3908,15 @@
   },
   "587333512": {
     "youtube": "8g-tmP1nkk4", "official": false, "abs_start": "0:00", "abs_end": "6:01:47", "duration": "6:01:47",
-    "name": "Final Fantasy VII Remake",
-    "url": "/links/first.html#587333512",
+    "name": "Final Fantasy VII Remake - 1",
+    "url": "/links/ff-vii-remake.html#587333512",
     "torrent": "https://bsufiles.thedrhax.pw/streams/587333512.torrent"
+  },
+  "588123594": {
+    "abs_start": "0:00", "abs_end": "8:08:21", "duration": "0:00",
+    "name": "Final Fantasy VII Remake - 2",
+    "url": "/links/ff-vii-remake.html#588123594",
+    "direct": "https://bsufiles.thedrhax.pw/streams/588123594.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/588123594.torrent"
   }
 }
