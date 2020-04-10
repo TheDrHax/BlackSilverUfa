@@ -1520,8 +1520,16 @@
         { "name": "Halo: Combat Evolved Anniversary" },
         { "name": "Stilt Fella", "start": "2:08:34" }
       ] },
-      { "name": "Animal Crossing: New Horizons", "twitch": "573544874" },
-      { "name": "Final Fantasy VII Remake", "twitch": "587333512" }
+      { "name": "Animal Crossing: New Horizons", "twitch": "573544874" }
+    ]
+  },
+  {
+    "name": "Final Fantasy VII Remake",
+    "category": "ongoing",
+    "id": "ff-vii-remake",
+    "streams": [
+      { "name": "1", "twitch": "587333512" },
+      { "name": "2", "twitch": "588123594" }
     ]
   },
   {
