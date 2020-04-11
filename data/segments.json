@@ -3813,8 +3813,7 @@
   "571133425": {
     "youtube": "7AYJWRvs1B4", "official": false, "abs_start": "0:00", "abs_end": "6:19:29", "duration": "6:19:29",
     "name": "Doom Eternal - 3",
-    "url": "/links/doom-eternal.html#571133425",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/571133425.torrent"
+    "url": "/links/doom-eternal.html#571133425"
   },
   "572721394": {
     "youtube": "QbSuDWsggRc", "official": false, "abs_start": "0:00", "abs_end": "9:42:15", "duration": "9:42:15",
@@ -3917,5 +3916,12 @@
     "name": "Final Fantasy VII Remake - 2",
     "url": "/links/ff-vii-remake.html#588123594",
     "torrent": "https://bsufiles.thedrhax.pw/streams/588123594.torrent"
+  },
+  "589032624": {
+    "abs_start": "0:00", "abs_end": "9:36:35", "duration": "0:00",
+    "name": "Final Fantasy VII Remake - 3",
+    "url": "/links/ff-vii-remake.html#589032624",
+    "direct": "https://bsufiles.thedrhax.pw/streams/589032624.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/589032624.torrent"
   }
 }
