@@ -3818,8 +3818,7 @@
   "572721394": {
     "youtube": "QbSuDWsggRc", "official": false, "abs_start": "0:00", "abs_end": "9:42:15", "duration": "9:42:15",
     "name": "Розыгрыш мерча Metro Exodus / Resident Evil 3 Remake - Raccoon City Demo (PC) / The Longing - 7 (350) / Call of Duty: Warzone - 1",
-    "url": "/links/events.html#572721394",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/572721394.torrent"
+    "url": "/links/events.html#572721394"
   },
   "573544874": {
     "youtube": "zFrEalowznA", "official": false, "abs_start": "0:00", "abs_end": "4:50:59", "duration": "4:50:59",
@@ -3922,5 +3921,12 @@
     "name": "Final Fantasy VII Remake - 3",
     "url": "/links/ff-vii-remake.html#589032624",
     "torrent": "https://bsufiles.thedrhax.pw/streams/589032624.torrent"
+  },
+  "589974459": {
+    "abs_start": "0:00", "abs_end": "8:34:56", "duration": "0:00",
+    "name": "Final Fantasy VII Remake - 4",
+    "url": "/links/ff-vii-remake.html#589974459",
+    "direct": "https://bsufiles.thedrhax.pw/streams/589974459.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/589974459.torrent"
   }
 }
