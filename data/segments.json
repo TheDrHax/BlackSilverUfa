@@ -3828,14 +3828,12 @@
   "574246616": {
     "youtube": "zMRkBt0uX90", "official": false, "abs_start": "0:00", "abs_end": "6:10:33", "duration": "6:10:33",
     "name": "Half-Life: Alyx - 2",
-    "url": "/links/hl-alyx.html#574246616",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/574246616.torrent"
+    "url": "/links/hl-alyx.html#574246616"
   },
   "575026259": {
     "youtube": "sJg8pmmrt0U", "official": false, "abs_start": "0:00", "abs_end": "7:06:57", "duration": "7:06:57",
     "name": "Half-Life: Alyx - 3",
-    "url": "/links/hl-alyx.html#575026259",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/575026259.torrent"
+    "url": "/links/hl-alyx.html#575026259"
   },
   "576592201": {
     "youtube": "wEGyfASRUZs", "official": false, "abs_start": "0:00", "abs_end": "9:01:13", "duration": "9:01:13",
@@ -3932,5 +3930,12 @@
     "name": "Final Fantasy VII Remake - 5",
     "url": "/links/ff-vii-remake.html#590838420",
     "torrent": "https://bsufiles.thedrhax.pw/streams/590838420.torrent"
+  },
+  "592666810": {
+    "abs_start": "0:00", "abs_end": "5:54:12", "duration": "0:00",
+    "name": "Call of Duty: Warzone - 3",
+    "url": "/links/cod-warzone.html#592666810",
+    "direct": "https://bsufiles.thedrhax.pw/streams/592666810.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/592666810.torrent"
   }
 }
