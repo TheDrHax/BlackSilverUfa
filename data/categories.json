@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Resident Evil 3 Remake - Прохождение", "year": 2020, "url": "/links/re3-remake.html#581326233"},
       {"name": "The Longing - 12 (237-236)", "year": 2020, "url": "/links/the-longing.html#583080179"},
       {"name": "The Longing - 13 (финал, 235)", "year": 2020, "url": "/links/the-longing.html#583958350"},
       {"name": "Biped / Green Hell - Кооп", "year": 2020, "url": "/links/co-op.html#586412927"},
@@ -11,7 +10,8 @@
       {"name": "Final Fantasy VII Remake - 3", "year": 2020, "url": "/links/ff-vii-remake.html#589032624"},
       {"name": "Final Fantasy VII Remake - 4", "year": 2020, "url": "/links/ff-vii-remake.html#589974459"},
       {"name": "Final Fantasy VII Remake - 5", "year": 2020, "url": "/links/ff-vii-remake.html#590838420"},
-      {"name": "Call of Duty: Warzone - 3", "year": 2020, "url": "/links/cod-warzone.html#592666810"}
+      {"name": "Call of Duty: Warzone - 3", "year": 2020, "url": "/links/cod-warzone.html#592666810"},
+      {"name": "Dead Space 3 - 6", "year": 2020, "url": "/links/dead-space-3.html#593579171"}
     ]
   },
   "finished": {
@@ -133,6 +133,7 @@
       {"name": "Dead Space", "year": 2020, "url": "/links/dead-space.html"},
       {"name": "Dark Messiah of Might & Magic", "year": 2020, "url": "/links/dark-messiah.html"},
       {"name": "Dead Space 2", "year": 2020, "url": "/links/dead-space-2.html"},
+      {"name": "Dead Space 3", "year": 2020, "url": "/links/dead-space-3.html"},
       {"name": "Cold Fear", "year": 2020, "url": "/links/cold-fear.html"},
       {"name": "Walking Simulator", "year": 2020, "url": "/links/single.html#563856575"},
       {"name": "The Longing", "year": 2020, "url": "/links/the-longing.html"},
@@ -264,7 +265,6 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Nioh 2", "year": 2019, "url": "/links/nioh-2.html"},
       {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/persona-5-royal.html"}
     ]
   },
@@ -334,10 +334,10 @@
       {"name": "The Surge 2", "year": 2019, "url": "/links/surge-2.html"},
       {"name": "The Outer Worlds", "year": 2019, "url": "/links/outer-worlds.html"},
       {"name": "Luigi's Mansion 3", "year": 2019, "url": "/links/luigis-mansion-3.html"},
+      {"name": "Nioh 2", "year": 2019, "url": "/links/nioh-2.html"},
       {"name": "Spore", "year": 2019, "url": "/links/spore.html"},
       {"name": "The Sims 4", "year": 2020, "url": "/links/sims-4.html"},
       {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
-      {"name": "Dead Space 3", "year": 2020, "url": "/links/dead-space-3.html"},
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
       {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"}
