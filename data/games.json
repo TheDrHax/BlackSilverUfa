@@ -1722,14 +1722,15 @@
   },
   {
     "name": "Dead Space 3",
-    "category": "ongoing",
+    "category": "finished",
     "id": "dead-space-3",
     "streams": [
       { "name": "1", "twitch": "549258537", "start": "2:56:20" },
       { "name": "2", "twitch": "550299037" },
       { "name": "3", "twitch": "551290502" },
       { "name": "4", "twitch": "556030369" },
-      { "name": "5", "twitch": "562243368", "start": "1:22:17" }
+      { "name": "5", "twitch": "562243368", "start": "1:22:17" },
+      { "name": "6", "twitch": "593579171" }
     ]
   },
   {
