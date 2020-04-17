@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "The Longing - 12 (237-236)", "year": 2020, "url": "/links/the-longing.html#583080179"},
       {"name": "The Longing - 13 (финал, 235)", "year": 2020, "url": "/links/the-longing.html#583958350"},
       {"name": "Biped / Green Hell - Кооп", "year": 2020, "url": "/links/co-op.html#586412927"},
       {"name": "Final Fantasy VII Remake - 1", "year": 2020, "url": "/links/ff-vii-remake.html#587333512"},
@@ -11,7 +10,8 @@
       {"name": "Final Fantasy VII Remake - 4", "year": 2020, "url": "/links/ff-vii-remake.html#589974459"},
       {"name": "Final Fantasy VII Remake - 5", "year": 2020, "url": "/links/ff-vii-remake.html#590838420"},
       {"name": "Call of Duty: Warzone - 3", "year": 2020, "url": "/links/cod-warzone.html#592666810"},
-      {"name": "Dead Space 3 - 6", "year": 2020, "url": "/links/dead-space-3.html#593579171"}
+      {"name": "Dead Space 3 - 6", "year": 2020, "url": "/links/dead-space-3.html#593579171"},
+      {"name": "Dead Space 3 - DLC: Awakened / The Complex", "year": 2020, "url": "/links/dead-space-3.html#594489443"}
     ]
   },
   "finished": {
@@ -140,7 +140,8 @@
       {"name": "Doom Eternal", "year": 2020, "url": "/links/doom-eternal.html"},
       {"name": "Resident Evil 3 Remake", "year": 2020, "url": "/links/re3-remake.html"},
       {"name": "Half-Life: Alyx", "year": 2020, "url": "/links/hl-alyx.html"},
-      {"name": "Final Fantasy VII Remake", "year": 2020, "url": "/links/ff-vii-remake.html"}
+      {"name": "Final Fantasy VII Remake", "year": 2020, "url": "/links/ff-vii-remake.html"},
+      {"name": "The Complex", "year": 2020, "url": "/links/single.html#594489443"}
     ]
   },
   "first": {
