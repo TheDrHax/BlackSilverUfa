@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Biped / Green Hell - Кооп", "year": 2020, "url": "/links/co-op.html#586412927"},
       {"name": "Final Fantasy VII Remake - 1", "year": 2020, "url": "/links/ff-vii-remake.html#587333512"},
       {"name": "Final Fantasy VII Remake - 2", "year": 2020, "url": "/links/ff-vii-remake.html#588123594"},
       {"name": "Final Fantasy VII Remake - 3", "year": 2020, "url": "/links/ff-vii-remake.html#589032624"},
@@ -11,7 +10,8 @@
       {"name": "Call of Duty: Warzone - 3", "year": 2020, "url": "/links/cod-warzone.html#592666810"},
       {"name": "Dead Space 3 - 6", "year": 2020, "url": "/links/dead-space-3.html#593579171"},
       {"name": "Dead Space 3 - DLC: Awakened / The Complex", "year": 2020, "url": "/links/dead-space-3.html#594489443"},
-      {"name": "L.A. Noire", "year": 2020, "url": "/links/first.html#595537714"}
+      {"name": "L.A. Noire - 1", "year": 2020, "url": "/links/la-noire.html#595537714"},
+      {"name": "L.A. Noire - 2", "year": 2020, "url": "/links/la-noire.html#598326228"}
     ]
   },
   "finished": {
@@ -260,14 +260,14 @@
       {"name": "Foregone / Beautiful Desolation", "year": 2020, "url": "/links/first.html#559668833"},
       {"name": "Weakless / Wolcen: Lords of Mayhem", "year": 2020, "url": "/links/first.html#562741500"},
       {"name": "Halo: Combat Evolved Anniversary / Stilt Fella", "year": 2020, "url": "/links/first.html#563856575"},
-      {"name": "Animal Crossing: New Horizons", "year": 2020, "url": "/links/first.html#573544874"},
-      {"name": "L.A. Noire", "year": 2020, "url": "/links/first.html#595537714"}
+      {"name": "Animal Crossing: New Horizons", "year": 2020, "url": "/links/first.html#573544874"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/persona-5-royal.html"}
+      {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/persona-5-royal.html"},
+      {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"}
     ]
   },
   "infinite": {
