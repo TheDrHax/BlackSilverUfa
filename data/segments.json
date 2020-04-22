@@ -2791,7 +2791,7 @@
   },
   "438447673": {
     "youtube": "LBrMzkjsCW0", "abs_start": "0:00", "abs_end": "3:35:45", "duration": "3:35:45",
-    "name": "RTX-стрим / Quake 2 RTX / Stay in the Light / Minecraft - 0 (соло)",
+    "name": "RTX-стрим / Quake 2 RTX / Stay in the Light / Minecraft - 1 (соло)",
     "url": "/links/other.html#438447673"
   },
   "439860739": {
@@ -2821,7 +2821,7 @@
   },
   "443118072": {
     "youtube": "dH2BbOVhOi4", "abs_start": "0:00", "abs_end": "4:35:48", "duration": "4:35:48",
-    "name": "Minecraft - 1",
+    "name": "Minecraft - 2",
     "url": "/links/minecraft.html#443118072"
   },
   "444021917": {
@@ -2891,7 +2891,7 @@
   },
   "449016487": {
     "youtube": "Hf7NQkI7oQA", "abs_start": "0:00", "abs_end": "5:00:11", "duration": "5:00:11",
-    "name": "Minecraft - 2",
+    "name": "Minecraft - 3",
     "url": "/links/minecraft.html#449016487"
   },
   "449465888": {
@@ -3853,14 +3853,12 @@
   "578448008": {
     "youtube": "N8kwG6AKXIM", "official": false, "abs_start": "0:00", "abs_end": "1:36:49", "duration": "1:36:49",
     "name": "SCP: Unity - 8 (часть 2) / The Longing - 9 (часть 2, 296)",
-    "url": "/links/scp-unity.html#578448008",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/578448008.torrent"
+    "url": "/links/scp-unity.html#578448008"
   },
   "579786256": {
     "youtube": "ptB2QsOVO6M", "official": false, "abs_start": "0:00", "abs_end": "5:54:39", "duration": "5:54:39",
     "name": "Persona 5: The Royal - 1 / The Longing - 10 (276)",
-    "url": "/links/persona-5-royal.html#579786256",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/579786256.torrent"
+    "url": "/links/persona-5-royal.html#579786256"
   },
   "580574509": {
     "youtube": "G3XqWGzz-hM", "official": false, "abs_start": "0:00", "abs_end": "2:03:49", "duration": "2:03:49",
@@ -3957,5 +3955,12 @@
     "name": "L.A. Noire - 2",
     "url": "/links/la-noire.html#598326228",
     "torrent": "https://bsufiles.thedrhax.pw/streams/598326228.torrent"
+  },
+  "599255447": {
+    "abs_start": "0:00", "abs_end": "5:58:05", "duration": "0:00",
+    "name": "Minecraft - 4 (Bedrock Edition, соло, RTX)",
+    "url": "/links/minecraft.html#599255447",
+    "direct": "https://bsufiles.thedrhax.pw/streams/599255447.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/599255447.torrent"
   }
 }
