@@ -128,17 +128,29 @@
         { "name": "Titeuf", "start": "2:45:39" }
       ] },
       { "name": "Left 4 Dead 2", "twitch": "532342982" },
-      { "twitch": "552313454", "subrefs": [
-        { "name": "Totally Reliable Delivery Service", "start": "4:01:43" },
-        { "name": "Paunch", "start": "4:48:30" }
-      ] },
+      { "name": "Paunch", "twitch": "552313454", "start": "4:48:30" },
       { "name": "I Will Eat You", "twitch": "556596083", "start": "2:07:59" },
       { "name": "Broomstick League", "twitch": "567045755", "segment": 1, "start": "3:44:15" },
-      { "twitch": "577415879", "subrefs": [
-        { "name": "Predator: Hunting Grounds", "start": "2:11:26" },
-        { "name": "Stab Stab Stab!", "start": "3:49:35" }
-      ] },
+      { "name": "Stab Stab Stab!", "twitch": "577415879", "start": "3:49:35" },
       { "name": "Biped", "twitch": "586412927" }
+    ]
+  },
+  {
+    "name": "Totally Reliable Delivery Service",
+    "category": "co-op-series",
+    "id": "tr-delivery-service",
+    "streams": [
+      { "name": "1", "twitch": "552313454", "start": "4:01:43" },
+      { "name": "2", "twitch": "601167190", "start": "4:18:51" }
+    ]
+  },
+  {
+    "name": "Predator: Hunting Grounds",
+    "category": "co-op-series",
+    "id": "predator-hunting-grounds",
+    "streams": [
+      { "name": "1", "twitch": "577415879", "start": "2:11:26" },
+      { "name": "2", "twitch": "601167190" }
     ]
   },
   {
@@ -573,7 +585,8 @@
       { "name": "19", "twitch": "500334713", "start": "4:06:35" },
       { "name": "20", "twitch": "518306588", "start": "3:04:27" },
       { "name": "21", "twitch": "527927154", "start": "3:29:21" },
-      { "name": "22", "twitch": "577415879", "start": "5:09:44" }
+      { "name": "22", "twitch": "577415879", "start": "5:09:44" },
+      { "name": "23", "twitch": "601167190", "start": "5:45:40" }
     ]
   },
   {
