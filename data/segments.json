@@ -3868,14 +3868,12 @@
   "580642883": {
     "youtube": "Yzz0X4SyZPY", "official": false, "abs_start": "0:00", "abs_end": "4:08:14", "duration": "4:08:14",
     "name": "The Longing - 11 (часть 2, 267)",
-    "url": "/links/the-longing.html#580642883",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/580642883.torrent"
+    "url": "/links/the-longing.html#580642883"
   },
   "581326233": {
     "youtube": "uykW6oNFMns", "abs_start": "0:00", "abs_end": "9:32:43", "duration": "9:32:43",
     "name": "Resident Evil 3 Remake - Прохождение",
-    "url": "/links/re3-remake.html#581326233",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/581326233.torrent"
+    "url": "/links/re3-remake.html#581326233"
   },
   "583080179": {
     "youtube": "bJx5WIC_Zaw", "official": false, "abs_start": "0:00", "abs_end": "6:05:49", "duration": "6:05:49",
@@ -3966,5 +3964,12 @@
     "name": "Predator: Hunting Grounds - 2 / Totally Reliable Delivery Service - 2 / Tricky Towers - 23",
     "url": "/links/predator-hunting-grounds.html#601167190",
     "torrent": "https://bsufiles.thedrhax.pw/streams/601167190.torrent"
+  },
+  "602188455": {
+    "abs_start": "0:00", "abs_end": "4:13:11", "duration": "0:00",
+    "name": "Predator: Hunting Grounds - 3",
+    "url": "/links/predator-hunting-grounds.html#602188455",
+    "direct": "https://bsufiles.thedrhax.pw/streams/602188455.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/602188455.torrent"
   }
 }
