@@ -1526,7 +1526,7 @@
   },
   "305785431": {
     "youtube": "cXUlxIgvJVY", "abs_start": "-0:06", "abs_end": "4:56:45", "duration": "4:56:51",
-    "name": "Green Hell - Бета / Guacamelee! 2 / Breathedge",
+    "name": "Green Hell - Бета (соло) / Guacamelee! 2 / Breathedge",
     "url": "/links/green-hell.html#305785431"
   },
   "306199274": {
@@ -3086,7 +3086,7 @@
   },
   "479926128": {
     "youtube": "QExDE1BuIIU", "abs_start": "0:00", "abs_end": "6:54:08", "duration": "6:54:08",
-    "name": "Green Hell - Релиз / Ancestors: The Humankind Odyssey - 4 / Astral Chain - 2",
+    "name": "Green Hell - Релиз (соло) / Ancestors: The Humankind Odyssey - 4 / Astral Chain - 2",
     "url": "/links/green-hell.html#479926128"
   },
   "480390004": {
@@ -3889,7 +3889,7 @@
   },
   "586412927": {
     "youtube": "hQop2Shi9F8", "official": false, "abs_start": "0:00", "abs_end": "6:27:49", "duration": "6:27:49",
-    "name": "Biped / Green Hell - Кооп",
+    "name": "Biped / Green Hell - 1",
     "url": "/links/co-op.html#586412927",
     "torrent": "https://bsufiles.thedrhax.pw/streams/586412927.torrent"
   },
@@ -3971,5 +3971,12 @@
     "url": "/links/predator-hunting-grounds.html#602188455",
     "direct": "https://bsufiles.thedrhax.pw/streams/602188455.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/602188455.torrent"
+  },
+  "602384829": {
+    "abs_start": "0:00", "abs_end": "2:02:51", "duration": "0:00",
+    "name": "Green Hell - 2",
+    "url": "/links/green-hell.html#602384829",
+    "direct": "https://bsufiles.thedrhax.pw/streams/602384829.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/602384829.torrent"
   }
 }

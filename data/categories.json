@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Final Fantasy VII Remake - 4", "year": 2020, "url": "/links/ff-vii-remake.html#589974459"},
       {"name": "Final Fantasy VII Remake - 5", "year": 2020, "url": "/links/ff-vii-remake.html#590838420"},
       {"name": "Call of Duty: Warzone - 3", "year": 2020, "url": "/links/cod-warzone.html#592666810"},
       {"name": "Dead Space 3 - 6", "year": 2020, "url": "/links/dead-space-3.html#593579171"},
@@ -11,7 +10,8 @@
       {"name": "L.A. Noire - 2", "year": 2020, "url": "/links/la-noire.html#598326228"},
       {"name": "Minecraft - 4 (Bedrock Edition, соло, RTX)", "year": 2020, "url": "/links/minecraft.html#599255447"},
       {"name": "Predator: Hunting Grounds - 2 / Totally Reliable Delivery Service - 2 / Tricky Towers - 23", "year": 2020, "url": "/links/predator-hunting-grounds.html#601167190"},
-      {"name": "Predator: Hunting Grounds - 3", "year": 2020, "url": "/links/predator-hunting-grounds.html#602188455"}
+      {"name": "Predator: Hunting Grounds - 3", "year": 2020, "url": "/links/predator-hunting-grounds.html#602188455"},
+      {"name": "Green Hell - 2", "year": 2020, "url": "/links/green-hell.html#602384829"}
     ]
   },
   "finished": {
@@ -291,7 +291,6 @@
       {"name": "Totally Accurate Battle Simulator", "year": 2019, "url": "/links/tabs.html"},
       {"name": "Jump King", "year": 2019, "url": "/links/jump-king.html"},
       {"name": "Ancestors: The Humankind Odyssey", "year": 2019, "url": "/links/ancestors.html"},
-      {"name": "Green Hell", "year": 2019, "url": "/links/green-hell.html"},
       {"name": "Police Stories", "year": 2019, "url": "/links/police-stories.html"},
       {"name": "Dreams", "year": 2020, "url": "/links/dreams.html"}
     ]
@@ -450,6 +449,7 @@
       {"name": "Overwatch", "year": 2019, "url": "/links/overwatch.html"},
       {"name": "Minecraft", "year": 2019, "url": "/links/minecraft.html"},
       {"name": "Havocado", "year": 2019, "url": "/links/havocado.html"},
+      {"name": "Green Hell", "year": 2019, "url": "/links/green-hell.html"},
       {"name": "Call of Duty: Modern Warfare", "year": 2019, "url": "/links/cod-mw.html"},
       {"name": "Farming Simulator 19", "year": 2019, "url": "/links/farming-simulator-19.html"},
       {"name": "Heave Ho", "year": 2019, "url": "/links/heave-ho.html"},
