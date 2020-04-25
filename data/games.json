@@ -2060,12 +2060,13 @@
   },
   {
     "name": "Green Hell",
-    "category": "infinite",
+    "category": "co-op-series",
     "id": "green-hell",
     "streams": [
-      { "name": "Бета", "twitch": "305785431" },
-      { "name": "Релиз", "twitch": "479926128" },
-      { "name": "Кооп", "twitch": "586412927", "start": "3:33:11" }
+      { "name": "Бета (соло)", "twitch": "305785431" },
+      { "name": "Релиз (соло)", "twitch": "479926128" },
+      { "name": "1", "twitch": "586412927", "start": "3:33:11" },
+      { "name": "2", "twitch": "602384829" }
     ],
     "cover": 1
   },
