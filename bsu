@@ -167,7 +167,7 @@ case $1 in
     serve) $PYTHON -m src.utils.serve ;;
     debug) DEBUG=1 $PYTHON -m src.utils.serve ;;
     download-chats) $PYTHON -m src.utils.chats ;;
-    sh|bash) $@ ;;
+    sh|bash) "$@" ;;
     cli)
         shift
         venv_setup cli-requirements.txt silent
@@ -175,5 +175,5 @@ case $1 in
     repl) $PYTHON -i -m src.utils.repl ;;
     script) shift; $PYTHON -m src.scripts.$@ ;;
     python) shift; $PYTHON $@ ;;
-    *) echo "Usage: $0 venv|pages|pull|build|serve|download-chats|sh|repl|script|python" ;;
+    *) echo "Usage: $0 venv|pages|pull|build|serve|download-chats|sh|bash|repl|script|python" ;;
 esac
