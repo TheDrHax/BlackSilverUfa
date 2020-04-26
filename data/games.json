@@ -1053,7 +1053,8 @@
         { "name": "The Alien Cube (демо)", "start": "2:06:17" }
       ] },
       { "name": "Walking Simulator", "twitch": "563856575", "start": "1:22:25" },
-      { "name": "The Complex", "twitch": "594489443", "start": "2:46:52" }
+      { "name": "The Complex", "twitch": "594489443", "start": "2:46:52" },
+      { "name": "Locked Up", "twitch": "603199458", "start": "3:50:00" }
     ]
   },
   {
@@ -1537,7 +1538,13 @@
         { "name": "Halo: Combat Evolved Anniversary" },
         { "name": "Stilt Fella", "start": "2:08:34" }
       ] },
-      { "name": "Animal Crossing: New Horizons", "twitch": "573544874" }
+      { "name": "Animal Crossing: New Horizons", "twitch": "573544874" },
+      { "twitch": "603199458", "subrefs": [
+        { "name": "Onryo" },
+        { "name": "Cloudpunk", "start": "1:19:57" },
+        { "name": "Help Will Come Tomorrow", "start": "2:22:21" },
+        { "name": "The Walking Evil", "start": "3:01:52" }
+      ] }
     ]
   },
   {
