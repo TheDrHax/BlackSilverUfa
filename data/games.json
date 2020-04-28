@@ -303,8 +303,16 @@
     "streams": [
       { "name": "1 (соло)", "twitch": "438447673", "start": "1:52:41" },
       { "name": "2", "twitch": "443118072" },
-      { "name": "3", "twitch": "449016487" },
-      { "name": "4 (Bedrock Edition, соло, RTX)", "twitch": "599255447" }
+      { "name": "3", "twitch": "449016487" }
+    ]
+  },
+  {
+    "name": "Minecraft - Bedrock Edition (RTX beta)",
+    "category": "infinite",
+    "id": "minecraft-bedrock",
+    "streams": [
+      { "name": "1", "twitch": "599255447" },
+      { "name": "2", "twitch": "605080262" }
     ]
   },
   {
