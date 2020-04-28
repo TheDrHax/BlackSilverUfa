@@ -3878,8 +3878,7 @@
   "583080179": {
     "youtube": "bJx5WIC_Zaw", "official": false, "abs_start": "0:00", "abs_end": "6:05:49", "duration": "6:05:49",
     "name": "The Longing - 12 (237-236)",
-    "url": "/links/the-longing.html#583080179",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/583080179.torrent"
+    "url": "/links/the-longing.html#583080179"
   },
   "583958350": {
     "youtube": "VrqpO4AB7Lk", "official": false, "abs_start": "0:00", "abs_end": "1:46:27", "duration": "1:46:27",
@@ -3955,8 +3954,8 @@
   },
   "599255447": {
     "youtube": "cxfj6-GPKo4", "official": false, "abs_start": "0:00", "abs_end": "5:56:29", "duration": "5:56:29",
-    "name": "Minecraft - 4 (Bedrock Edition, соло, RTX)",
-    "url": "/links/minecraft.html#599255447",
+    "name": "Minecraft - Bedrock Edition (RTX beta) - 1",
+    "url": "/links/minecraft-bedrock.html#599255447",
     "torrent": "https://bsufiles.thedrhax.pw/streams/599255447.torrent"
   },
   "601167190": {
@@ -3982,5 +3981,12 @@
     "name": "Onryo / Cloudpunk / Help Will Come Tomorrow / The Walking Evil / Locked Up",
     "url": "/links/first.html#603199458",
     "torrent": "https://bsufiles.thedrhax.pw/streams/603199458.torrent"
+  },
+  "605080262": {
+    "abs_start": "0:00", "abs_end": "5:56:08", "duration": "0:00",
+    "name": "Minecraft - Bedrock Edition (RTX beta) - 2",
+    "url": "/links/minecraft-bedrock.html#605080262",
+    "direct": "https://bsufiles.thedrhax.pw/streams/605080262.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/605080262.torrent"
   }
 }
