@@ -3627,7 +3627,7 @@
   },
   "547176657": {
     "youtube": "Zr-YQgat8Gs", "abs_start": "0:00", "abs_end": "6:08:13", "duration": "6:08:13",
-    "name": "Grand Theft Auto: San Andreas - 7 / Destiny 2 - С Triplewipe",
+    "name": "Grand Theft Auto: San Andreas - 7 / Destiny 2 - 1 (с Triplewipe)",
     "url": "/links/gta-san-andreas.html#547176657"
   },
   "548170121": {
@@ -3883,14 +3883,12 @@
   "583958350": {
     "youtube": "VrqpO4AB7Lk", "official": false, "abs_start": "0:00", "abs_end": "1:46:27", "duration": "1:46:27",
     "name": "The Longing - 13 (финал, 235)",
-    "url": "/links/the-longing.html#583958350",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/583958350.torrent"
+    "url": "/links/the-longing.html#583958350"
   },
   "586412927": {
     "youtube": "hQop2Shi9F8", "official": false, "abs_start": "0:00", "abs_end": "6:27:49", "duration": "6:27:49",
     "name": "Biped / Green Hell - 1",
-    "url": "/links/co-op.html#586412927",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/586412927.torrent"
+    "url": "/links/co-op.html#586412927"
   },
   "587333512": {
     "youtube": "vn_elUH2kSk", "abs_start": "0:00", "abs_end": "6:01:47", "duration": "6:01:47",
@@ -3987,5 +3985,12 @@
     "name": "Minecraft - Bedrock Edition (RTX beta) - 2",
     "url": "/links/minecraft-bedrock.html#605080262",
     "torrent": "https://bsufiles.thedrhax.pw/streams/605080262.torrent"
+  },
+  "606017953": {
+    "abs_start": "0:00", "abs_end": "7:02:05", "duration": "0:00",
+    "name": "Gears Tactics / SnowRunner / Destiny 2 - 2 (с Triplewipe)",
+    "url": "/links/first.html#606017953",
+    "direct": "https://bsufiles.thedrhax.pw/streams/606017953.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/606017953.torrent"
   }
 }
