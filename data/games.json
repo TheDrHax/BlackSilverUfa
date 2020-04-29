@@ -178,7 +178,8 @@
     "id": "destiny-2",
     "streams": [
       { "name": "Со StopGame", "twitch": "315365879", "start": "2:04:12" },
-      { "name": "С Triplewipe", "twitch": "547176657", "start": "2:52:57" }
+      { "name": "1 (с Triplewipe)", "twitch": "547176657", "start": "2:52:57" },
+      { "name": "2 (с Triplewipe)", "twitch": "606017953", "start": "4:00:40" }
     ]
   },
   {
@@ -1552,6 +1553,10 @@
         { "name": "Cloudpunk", "start": "1:19:57" },
         { "name": "Help Will Come Tomorrow", "start": "2:22:21" },
         { "name": "The Walking Evil", "start": "3:01:52" }
+      ] },
+      { "twitch": "606017953", "subrefs": [
+        { "name": "Gears Tactics" },
+        { "name": "SnowRunner", "start": "2:00:58" }
       ] }
     ]
   },
