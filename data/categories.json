@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "L.A. Noire - 1", "year": 2020, "url": "/links/la-noire.html#595537714"},
       {"name": "L.A. Noire - 2", "year": 2020, "url": "/links/la-noire.html#598326228"},
       {"name": "Minecraft - Bedrock Edition (RTX beta) - 1", "year": 2020, "url": "/links/minecraft-bedrock.html#599255447"},
       {"name": "Predator: Hunting Grounds - 2 / Totally Reliable Delivery Service - 2 / Tricky Towers - 23", "year": 2020, "url": "/links/predator-hunting-grounds.html#601167190"},
@@ -10,8 +9,9 @@
       {"name": "Green Hell - 2", "year": 2020, "url": "/links/green-hell.html#602384829"},
       {"name": "Onryo / Cloudpunk / Help Will Come Tomorrow / The Walking Evil / Locked Up", "year": 2020, "url": "/links/first.html#603199458"},
       {"name": "Minecraft - Bedrock Edition (RTX beta) - 2", "year": 2020, "url": "/links/minecraft-bedrock.html#605080262"},
-      {"name": "Gears Tactics / SnowRunner - 1 / Destiny 2 - 2 (с Triplewipe)", "year": 2020, "url": "/links/first.html#606017953"},
-      {"name": "SnowRunner - 2 / Gears of War 4 - 4", "year": 2020, "url": "/links/snowrunner.html#607002083"}
+      {"name": "Gears Tactics / SnowRunner - 1 (соло) / Destiny 2 - 2 (с Triplewipe)", "year": 2020, "url": "/links/first.html#606017953"},
+      {"name": "SnowRunner - 2 (соло) / Gears of War 4 - 4", "year": 2020, "url": "/links/snowrunner.html#607002083"},
+      {"name": "SnowRunner - 3", "year": 2020, "url": "/links/snowrunner.html#608001507"}
     ]
   },
   "finished": {
@@ -270,7 +270,6 @@
     "name": "Активные",
     "games": [
       {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
-      {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/persona-5-royal.html"},
       {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"}
     ]
   },
@@ -297,8 +296,7 @@
       {"name": "Ancestors: The Humankind Odyssey", "year": 2019, "url": "/links/ancestors.html"},
       {"name": "Police Stories", "year": 2019, "url": "/links/police-stories.html"},
       {"name": "Dreams", "year": 2020, "url": "/links/dreams.html"},
-      {"name": "Minecraft - Bedrock Edition (RTX beta)", "year": 2020, "url": "/links/minecraft-bedrock.html"},
-      {"name": "SnowRunner", "year": 2020, "url": "/links/snowrunner.html"}
+      {"name": "Minecraft - Bedrock Edition (RTX beta)", "year": 2020, "url": "/links/minecraft-bedrock.html"}
     ]
   },
   "abandoned": {
@@ -346,7 +344,8 @@
       {"name": "The Sims 4", "year": 2020, "url": "/links/sims-4.html"},
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
-      {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"}
+      {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"},
+      {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/persona-5-royal.html"}
     ]
   },
   "co-op": {
@@ -464,7 +463,8 @@
       {"name": "Besiege", "year": 2020, "url": "/links/besiege.html"},
       {"name": "Hand Simulator: Survival", "year": 2020, "url": "/links/hand-simulator-survival.html"},
       {"name": "Call of Duty: Warzone", "year": 2020, "url": "/links/cod-warzone.html"},
-      {"name": "Predator: Hunting Grounds", "year": 2020, "url": "/links/predator-hunting-grounds.html"}
+      {"name": "Predator: Hunting Grounds", "year": 2020, "url": "/links/predator-hunting-grounds.html"},
+      {"name": "SnowRunner", "year": 2020, "url": "/links/snowrunner.html"}
     ]
   },
   "other": {

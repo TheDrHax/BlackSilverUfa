@@ -3898,8 +3898,7 @@
   "588123594": {
     "youtube": "BZNfG0Yskz0", "abs_start": "0:00", "abs_end": "8:07:43", "duration": "8:07:43",
     "name": "Final Fantasy VII Remake - 2",
-    "url": "/links/ff-vii-remake.html#588123594",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/588123594.torrent"
+    "url": "/links/ff-vii-remake.html#588123594"
   },
   "589032624": {
     "youtube": "6otYoF7fbpA", "abs_start": "0:00", "abs_end": "9:35:22", "duration": "9:35:22",
@@ -3987,14 +3986,21 @@
   },
   "606017953": {
     "youtube": "8E7LMazl7Ag", "official": false, "abs_start": "0:00", "abs_end": "7:01:49", "duration": "7:01:49",
-    "name": "Gears Tactics / SnowRunner - 1 / Destiny 2 - 2 (с Triplewipe)",
+    "name": "Gears Tactics / SnowRunner - 1 (соло) / Destiny 2 - 2 (с Triplewipe)",
     "url": "/links/first.html#606017953",
     "torrent": "https://bsufiles.thedrhax.pw/streams/606017953.torrent"
   },
   "607002083": {
     "youtube": "VOJ78hs1zdU", "abs_start": "0:00", "abs_end": "6:32:33", "duration": "6:32:33",
-    "name": "SnowRunner - 2 / Gears of War 4 - 4",
+    "name": "SnowRunner - 2 (соло) / Gears of War 4 - 4",
     "url": "/links/snowrunner.html#607002083",
     "torrent": "https://bsufiles.thedrhax.pw/streams/607002083.torrent"
+  },
+  "608001507": {
+    "abs_start": "0:00", "abs_end": "5:53:52", "duration": "0:00",
+    "name": "SnowRunner - 3",
+    "url": "/links/snowrunner.html#608001507",
+    "direct": "https://bsufiles.thedrhax.pw/streams/608001507.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/608001507.torrent"
   }
 }
