@@ -1559,11 +1559,12 @@
   },
   {
     "name": "SnowRunner",
-    "category": "infinite",
+    "category": "co-op-series",
     "id": "snowrunner",
     "streams": [
-      { "name": "1", "twitch": "606017953", "start": "2:00:58" },
-      { "name": "2", "twitch": "607002083" }
+      { "name": "1 (соло)", "twitch": "606017953", "start": "2:00:58" },
+      { "name": "2 (соло)", "twitch": "607002083" },
+      { "name": "3", "twitch": "608001507" }
     ]
   },
   {
