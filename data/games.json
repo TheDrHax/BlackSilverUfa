@@ -765,7 +765,8 @@
       { "name": "BlizzCon 2019 (обзор)", "twitch": "502940448" },
       { "name": "State of Play 2019", "twitch": "519609666" },
       { "name": "The Game Awards 2019 (обзор)", "twitch": "520877239" },
-      { "name": "Презентация PlayStation 5", "twitch": "569683310", "start": "3:03:45" }
+      { "name": "Презентация PlayStation 5", "twitch": "569683310", "start": "3:03:45" },
+      { "name": "Xbox Inside 2020", "twitch": "613793616", "start": "1:59:40" }
     ]
   },
   {
@@ -1568,7 +1569,11 @@
       { "name": "1 (соло)", "twitch": "606017953", "start": "2:00:58" },
       { "name": "2 (соло)", "twitch": "607002083" },
       { "name": "3", "twitch": "608001507" },
-      { "name": "4", "twitch": "610027262" }
+      { "name": "4", "twitch": "610027262" },
+      { "twitch": "613793616", "subrefs": [
+        { "name": "5" },
+        { "name": "5", "start": "2:42:38" }
+      ] }
     ]
   },
   {
