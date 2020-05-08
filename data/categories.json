@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Onryo / Cloudpunk / Help Will Come Tomorrow / The Walking Evil / Locked Up", "year": 2020, "url": "/links/first.html#603199458"},
       {"name": "Minecraft - Bedrock Edition (RTX beta) - 2", "year": 2020, "url": "/links/minecraft-bedrock.html#605080262"},
       {"name": "Gears Tactics / SnowRunner - 1 (соло) / Destiny 2 - 2 (с Triplewipe)", "year": 2020, "url": "/links/first.html#606017953"},
       {"name": "SnowRunner - 2 (соло) / Gears of War 4 - 4", "year": 2020, "url": "/links/snowrunner.html#607002083"},
@@ -11,7 +10,8 @@
       {"name": "Call of Duty: Modern Warfare 2 Remastered", "year": 2020, "url": "/links/single.html#610935319"},
       {"name": "L.A. Noire - 3", "year": 2020, "url": "/links/la-noire.html#611858028"},
       {"name": "Moving Out / Heave Ho - 4 / Green Hell - 3", "year": 2020, "url": "/links/co-op.html#612822436"},
-      {"name": "SnowRunner - 5 / Xbox Inside 2020", "year": 2020, "url": "/links/snowrunner.html#613793616"}
+      {"name": "SnowRunner - 5 / Xbox Inside 2020", "year": 2020, "url": "/links/snowrunner.html#613793616"},
+      {"name": "Metal Gear Solid 4: Guns of the Patriots - 1", "year": 2020, "url": "/links/mgs-4.html#614769111"}
     ]
   },
   "finished": {
@@ -256,7 +256,6 @@
       {"name": "Shenmue III", "year": 2019, "url": "/links/first.html#510472726"},
       {"name": "Gothic - Playable Teaser", "year": 2019, "url": "/links/first.html#521336731"},
       {"name": "Trepang2 (демо) / The Paperman", "year": 2019, "url": "/links/first.html#524865260"},
-      {"name": "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", "year": 2019, "url": "/links/first.html#526101430"},
       {"name": "Zombie Claus / Granny: Chapter Two", "year": 2020, "url": "/links/first.html#530784764"},
       {"name": "Warcraft III: Reforged", "year": 2020, "url": "/links/first.html#543591605"},
       {"name": "Foregone / Beautiful Desolation", "year": 2020, "url": "/links/first.html#559668833"},
@@ -270,6 +269,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Metal Gear Solid 4: Guns of the Patriots", "year": 2019, "url": "/links/mgs-4.html"},
       {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
       {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"}
     ]
