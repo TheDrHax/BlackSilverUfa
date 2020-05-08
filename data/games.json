@@ -1533,7 +1533,6 @@
         { "name": "Trepang2 (демо)" },
         { "name": "The Paperman", "start": "2:49:10" }
       ] },
-      { "name": "Metal Gear Solid 4: Guns of the Patriots (RPCS3)", "twitch": "526101430" },
       { "twitch": "530784764", "subrefs": [
         { "name": "Zombie Claus", "start": "3:59:51" },
         { "name": "Granny: Chapter Two", "start": "4:02:11" }
@@ -1877,6 +1876,15 @@
       { "name": "1", "twitch": "521837299", "start": "4:27:23" },
       { "name": "2", "twitch": "523121734" },
       { "name": "3", "twitch": "525744926" }
+    ]
+  },
+  {
+    "name": "Metal Gear Solid 4: Guns of the Patriots",
+    "category": "ongoing",
+    "id": "mgs-4",
+    "streams": [
+      { "name": "0 (тест эмулятора)", "twitch": "526101430" },
+      { "name": "1", "twitch": "614769111" }
     ]
   },
   {
