@@ -1880,12 +1880,13 @@
   },
   {
     "name": "Metal Gear Solid 4: Guns of the Patriots",
-    "category": "ongoing",
+    "category": "finished",
     "id": "mgs-4",
     "streams": [
       { "name": "0 (тест эмулятора)", "twitch": "526101430" },
       { "name": "1", "twitch": "614769111" },
-      { "name": "2", "twitch": "615757437" }
+      { "name": "2", "twitch": "615757437" },
+      { "name": "3", "twitch": "616784129" }
     ]
   },
   {
