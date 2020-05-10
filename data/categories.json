@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Gears Tactics / SnowRunner - 1 (соло) / Destiny 2 - 2 (с Triplewipe)", "year": 2020, "url": "/links/first.html#606017953"},
       {"name": "SnowRunner - 2 (соло) / Gears of War 4 - 4", "year": 2020, "url": "/links/snowrunner.html#607002083"},
       {"name": "SnowRunner - 3", "year": 2020, "url": "/links/snowrunner.html#608001507"},
       {"name": "SnowRunner - 4", "year": 2020, "url": "/links/snowrunner.html#610027262"},
@@ -11,7 +10,8 @@
       {"name": "Moving Out / Heave Ho - 4 / Green Hell - 3", "year": 2020, "url": "/links/co-op.html#612822436"},
       {"name": "SnowRunner - 5 / Xbox Inside 2020", "year": 2020, "url": "/links/snowrunner.html#613793616"},
       {"name": "Metal Gear Solid 4: Guns of the Patriots - 1", "year": 2020, "url": "/links/mgs-4.html#614769111"},
-      {"name": "Metal Gear Solid 4: Guns of the Patriots - 2", "year": 2020, "url": "/links/mgs-4.html#615757437"}
+      {"name": "Metal Gear Solid 4: Guns of the Patriots - 2", "year": 2020, "url": "/links/mgs-4.html#615757437"},
+      {"name": "Metal Gear Solid 4: Guns of the Patriots - 3", "year": 2020, "url": "/links/mgs-4.html#616784129"}
     ]
   },
   "finished": {
@@ -129,6 +129,7 @@
       {"name": "Metal Gear Solid 2: Sons of Liberty", "year": 2019, "url": "/links/mgs-2.html"},
       {"name": "Suite 776 / The Alien Cube (демо)", "year": 2019, "url": "/links/single.html#524865260"},
       {"name": "Alien: Isolation (Extreme + новый ИИ)", "year": 2019, "url": "/links/alien-isolation-ai.html"},
+      {"name": "Metal Gear Solid 4: Guns of the Patriots", "year": 2019, "url": "/links/mgs-4.html"},
       {"name": "Grand Theft Auto: San Andreas", "year": 2020, "url": "/links/gta-san-andreas.html"},
       {"name": "Dead Space", "year": 2020, "url": "/links/dead-space.html"},
       {"name": "Dark Messiah of Might & Magic", "year": 2020, "url": "/links/dark-messiah.html"},
@@ -269,7 +270,6 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Metal Gear Solid 4: Guns of the Patriots", "year": 2019, "url": "/links/mgs-4.html"},
       {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
       {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"}
     ]
