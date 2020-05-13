@@ -3933,8 +3933,7 @@
   "595537714": {
     "youtube": "MtCTzOWV46w", "official": false, "abs_start": "0:00", "abs_end": "6:02:39", "duration": "6:02:39",
     "name": "L.A. Noire - 1",
-    "url": "/links/la-noire.html#595537714",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/595537714.torrent"
+    "url": "/links/la-noire.html#595537714"
   },
   "598326228": {
     "youtube": "6jlO24W6JkY", "official": false, "abs_start": "0:00", "abs_end": "5:58:15", "duration": "5:58:15",
@@ -4049,5 +4048,12 @@
     "name": "Ghostrunner / SnowRunner - 6",
     "url": "/links/first.html#618698350",
     "torrent": "https://bsufiles.thedrhax.pw/streams/618698350.torrent"
+  },
+  "619696167": {
+    "abs_start": "0:00", "abs_end": "6:04:25", "duration": "0:00",
+    "name": "Minecraft - 4 (соло) / GeoGuessr",
+    "url": "/links/minecraft.html#619696167",
+    "direct": "https://bsufiles.thedrhax.pw/streams/619696167.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/619696167.torrent"
   }
 }
