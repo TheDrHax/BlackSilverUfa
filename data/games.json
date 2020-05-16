@@ -307,7 +307,8 @@
       { "name": "1 (соло)", "twitch": "438447673", "start": "1:52:41" },
       { "name": "2", "twitch": "443118072" },
       { "name": "3", "twitch": "449016487" },
-      { "name": "4 (соло)", "twitch": "619696167" }
+      { "name": "4 (соло)", "twitch": "619696167" },
+      { "name": "5 (соло)", "twitch": "622728652" }
     ]
   },
   {
@@ -1559,8 +1560,16 @@
         { "name": "The Walking Evil", "start": "3:01:52" }
       ] },
       { "name": "Gears Tactics", "twitch": "606017953" },
-      { "name": "Ghostrunner", "twitch": "618698350" },
-      { "name": "GeoGuessr", "twitch": "619696167", "start": "4:20:50" }
+      { "name": "Ghostrunner", "twitch": "618698350" }
+    ]
+  },
+  {
+    "name": "GeoGuessr",
+    "category": "infinite",
+    "id": "geoguessr",
+    "streams": [
+      { "name": "1", "twitch": "619696167", "start": "4:20:50" },
+      { "name": "2", "twitch": "622728652", "start": "4:02:25" }
     ]
   },
   {
