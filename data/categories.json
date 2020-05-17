@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "L.A. Noire - 3", "year": 2020, "url": "/links/la-noire.html#611858028"},
       {"name": "Moving Out / Heave Ho - 4 / Green Hell - 3", "year": 2020, "url": "/links/co-op.html#612822436"},
       {"name": "SnowRunner - 5 / Xbox Inside 2020", "year": 2020, "url": "/links/snowrunner.html#613793616"},
       {"name": "Metal Gear Solid 4: Guns of the Patriots - 1", "year": 2020, "url": "/links/mgs-4.html#614769111"},
@@ -11,7 +10,8 @@
       {"name": "Ghostrunner / SnowRunner - 6", "year": 2020, "url": "/links/first.html#618698350"},
       {"name": "Minecraft - 4 (соло) / GeoGuessr - 1", "year": 2020, "url": "/links/minecraft.html#619696167"},
       {"name": "L.A. Noire - 4", "year": 2020, "url": "/links/la-noire.html#620631764"},
-      {"name": "Minecraft - 5 (соло) / GeoGuessr - 2", "year": 2020, "url": "/links/minecraft.html#622728652"}
+      {"name": "Minecraft - 5 (соло) / GeoGuessr - 2", "year": 2020, "url": "/links/minecraft.html#622728652"},
+      {"name": "Huntdown / Streets of Rage 4 / Gears of War 4 - 5 / SnowRunner - 7", "year": 2020, "url": "/links/first.html#623734401"}
     ]
   },
   "finished": {
@@ -265,7 +265,8 @@
       {"name": "Animal Crossing: New Horizons", "year": 2020, "url": "/links/first.html#573544874"},
       {"name": "Onryo / Cloudpunk / Help Will Come Tomorrow / The Walking Evil", "year": 2020, "url": "/links/first.html#603199458"},
       {"name": "Gears Tactics", "year": 2020, "url": "/links/first.html#606017953"},
-      {"name": "Ghostrunner", "year": 2020, "url": "/links/first.html#618698350"}
+      {"name": "Ghostrunner", "year": 2020, "url": "/links/first.html#618698350"},
+      {"name": "Huntdown", "year": 2020, "url": "/links/first.html#623734401"}
     ]
   },
   "ongoing": {
@@ -401,7 +402,8 @@
       {"name": "Broomstick League", "year": 2020, "url": "/links/co-op.html#567045755.1"},
       {"name": "Stab Stab Stab!", "year": 2020, "url": "/links/co-op.html#577415879"},
       {"name": "Biped", "year": 2020, "url": "/links/co-op.html#586412927"},
-      {"name": "Moving Out", "year": 2020, "url": "/links/co-op.html#612822436"}
+      {"name": "Moving Out", "year": 2020, "url": "/links/co-op.html#612822436"},
+      {"name": "Streets of Rage 4", "year": 2020, "url": "/links/co-op.html#623734401"}
     ]
   },
   "co-op-series": {
