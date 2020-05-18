@@ -11,6 +11,9 @@ export MASTER_BRANCH_REMOTE="master"
 export PAGES_BRANCH_LOCAL="gh-pages"
 export PAGES_BRANCH_REMOTE="gh-pages"
 
+# Specified version must have builds for musl libc at
+# https://unofficial-builds.nodejs.org/download/release/
+NODE_VERSION="14.2.0"
 
 venv_setup() { # filename [force | silent]
     MD5_FILE="$VENV/$1.md5"
@@ -45,10 +48,8 @@ node_setup() { # [force | silent]
         rm "$MD5_FILE"
     fi
 
-    if [ ! -d "$NODEENV" ]; then
-        # Specified version must have builds for musl libc at
-        # https://unofficial-builds.nodejs.org/download/release/
-        nodeenv -n '13.8.0' "$NODEENV" || exit 1
+    if [ ! -d "$NODEENV" ] || [ "$(node -v)" != "v$NODE_VERSION" ]; then
+        nodeenv --force -n "$NODE_VERSION" "$NODEENV" || exit 1
     fi
 
     if [ -e "$MD5_FILE" ] && md5sum -c "$MD5_FILE" > /dev/null 2>&1; then
