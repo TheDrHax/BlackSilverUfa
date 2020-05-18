@@ -163,7 +163,7 @@ case $1 in
         fi
 
         ./bsu pages pull ;;
-    build) $PYTHON -m src.utils.generate ;;
+    build) shift; $PYTHON -m src.utils.generate $@ ;;
     serve) $PYTHON -m src.utils.serve ;;
     debug) DEBUG=1 $PYTHON -m src.utils.serve ;;
     download-chats) $PYTHON -m src.utils.chats ;;

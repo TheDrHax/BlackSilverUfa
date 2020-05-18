@@ -1,6 +1,7 @@
 attrs==19.3.0
 babel==2.6.0
 beautifulsoup4==4.8.2
+docopt==0.6.2
 GitPython==3.1.0
 livereload==2.6.0
 mako==1.0.9
