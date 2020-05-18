@@ -1,3 +1,6 @@
+"""Usage: build [--no-webpack]"""
+
+
 import os
 import sys
 import json
@@ -5,6 +8,7 @@ import shutil
 from time import time
 from subprocess import call
 
+from docopt import docopt
 from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
 
@@ -123,7 +127,9 @@ def build_webpack():
 
 
 @timed('Build completed in {}ms')
-def generate():
+def generate(argv=None):
+    args = docopt(__doc__, argv=argv)
+
     load_database()
     enable_fallbacks()
 
@@ -139,7 +145,8 @@ def generate():
     shutil.copytree('static', _('static'))
 
     build_data()
-    build_webpack()
+    if not args['--no-webpack']:
+        build_webpack()
     build_mako()
 
 
