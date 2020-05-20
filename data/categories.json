@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "SnowRunner - 5 / Xbox Inside 2020", "year": 2020, "url": "/links/snowrunner.html#613793616"},
       {"name": "Metal Gear Solid 4: Guns of the Patriots - 1", "year": 2020, "url": "/links/mgs-4.html#614769111"},
       {"name": "Metal Gear Solid 4: Guns of the Patriots - 2", "year": 2020, "url": "/links/mgs-4.html#615757437"},
       {"name": "Metal Gear Solid 4: Guns of the Patriots - 3", "year": 2020, "url": "/links/mgs-4.html#616784129"},
@@ -11,7 +10,8 @@
       {"name": "L.A. Noire - 4", "year": 2020, "url": "/links/la-noire.html#620631764"},
       {"name": "Minecraft - 5 (соло) / GeoGuessr - 2", "year": 2020, "url": "/links/minecraft.html#622728652"},
       {"name": "Huntdown / Streets of Rage 4 / Gears of War 4 - 5 / SnowRunner - 7", "year": 2020, "url": "/links/first.html#623734401"},
-      {"name": "Minecraft - 6 (соло) / Mafia II: Definitive Edition", "year": 2020, "url": "/links/minecraft.html#625606171"}
+      {"name": "Minecraft - 6 (соло) / Mafia II: Definitive Edition - 1", "year": 2020, "url": "/links/minecraft.html#625606171"},
+      {"name": "Mafia II: Definitive Edition - 2 / The Persistence / Black Book / GeoGuessr - 3", "year": 2020, "url": "/links/mafia-2-definitive.html#626564087"}
     ]
   },
   "finished": {
@@ -267,14 +267,15 @@
       {"name": "Gears Tactics", "year": 2020, "url": "/links/first.html#606017953"},
       {"name": "Ghostrunner", "year": 2020, "url": "/links/first.html#618698350"},
       {"name": "Huntdown", "year": 2020, "url": "/links/first.html#623734401"},
-      {"name": "Mafia II: Definitive Edition", "year": 2020, "url": "/links/first.html#625606171"}
+      {"name": "The Persistence / Black Book", "year": 2020, "url": "/links/first.html#626564087"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
-      {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"}
+      {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"},
+      {"name": "Mafia II: Definitive Edition", "year": 2020, "url": "/links/mafia-2-definitive.html"}
     ]
   },
   "infinite": {
