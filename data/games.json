@@ -133,8 +133,16 @@
       { "name": "Broomstick League", "twitch": "567045755", "segment": 1, "start": "3:44:15" },
       { "name": "Stab Stab Stab!", "twitch": "577415879", "start": "3:49:35" },
       { "name": "Biped", "twitch": "586412927" },
-      { "name": "Moving Out", "twitch": "612822436" },
-      { "name": "Streets of Rage 4", "twitch": "623734401", "start": "1:07:42" }
+      { "name": "Moving Out", "twitch": "612822436" }
+    ]
+  },
+  {
+    "name": "Streets of Rage 4",
+    "category": "finished",
+    "id": "streets-of-rage-4",
+    "streams": [
+      { "name": "1", "twitch": "623734401", "start": "1:07:42" },
+      { "name": "2", "twitch": "628517071", "start": "3:54:49" }
     ]
   },
   {
@@ -1567,6 +1575,10 @@
       { "twitch": "626564087", "subrefs": [
         { "name": "The Persistence", "start": "2:55:31" },
         { "name": "Black Book", "start": "4:14:31" }
+      ] },
+      { "twitch": "628517071", "subrefs": [
+        { "name": "ManEater" },
+        { "name": "Saints Row: The Third", "start": "2:04:17" }
       ] }
     ]
   },
@@ -1603,7 +1615,8 @@
         { "name": "5", "start": "2:42:38" }
       ] },
       { "name": "6", "twitch": "618698350", "start": "58:37" },
-      { "name": "7", "twitch": "623734401", "start": "5:08:04" }
+      { "name": "7", "twitch": "623734401", "start": "5:08:04" },
+      { "name": "8", "twitch": "628517071", "start": "5:15:28" }
     ]
   },
   {
