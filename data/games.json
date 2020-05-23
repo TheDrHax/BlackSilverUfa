@@ -1079,7 +1079,8 @@
       { "name": "Walking Simulator", "twitch": "563856575", "start": "1:22:25" },
       { "name": "The Complex", "twitch": "594489443", "start": "2:46:52" },
       { "name": "Locked Up", "twitch": "603199458", "start": "3:50:00" },
-      { "name": "Call of Duty: Modern Warfare 2 Remastered", "twitch": "610935319" }
+      { "name": "Call of Duty: Modern Warfare 2 Remastered", "twitch": "610935319" },
+      { "name": "House of Detention", "twitch": "629544387", "start": "3:56:40" }
     ]
   },
   {
@@ -1579,6 +1580,14 @@
       { "twitch": "628517071", "subrefs": [
         { "name": "ManEater" },
         { "name": "Saints Row: The Third", "start": "2:04:17" }
+      ] },
+      { "twitch": "629544387", "subrefs": [
+        { "name": "What the Golf?" },
+        { "name": "Startup Valley Adventure", "start": "37:29" },
+        { "name": "Total Tank Simulator", "start": "1:19:58" },
+        { "name": "Alien: Hope for the Future", "start": "2:24:26" },
+        { "name": "Timelie", "start": "4:09:24" },
+        { "name": "Filament", "start": "4:29:04" }
       ] }
     ]
   },
