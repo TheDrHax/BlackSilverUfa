@@ -2,7 +2,6 @@
   "recent": {
     "name": "Недавние стримы",
     "games": [
-      {"name": "Ghostrunner / SnowRunner - 6", "year": 2020, "url": "/links/first.html#618698350"},
       {"name": "Minecraft - 4 (соло) / GeoGuessr - 1", "year": 2020, "url": "/links/minecraft.html#619696167"},
       {"name": "L.A. Noire - 4", "year": 2020, "url": "/links/la-noire.html#620631764"},
       {"name": "Minecraft - 5 (соло) / GeoGuessr - 2", "year": 2020, "url": "/links/minecraft.html#622728652"},
@@ -11,7 +10,8 @@
       {"name": "Mafia II: Definitive Edition - 2 / The Persistence / Black Book / GeoGuessr - 3", "year": 2020, "url": "/links/mafia-2-definitive.html#626564087"},
       {"name": "ManEater / Saints Row: The Third / Streets of Rage 4 - 2 / SnowRunner - 8", "year": 2020, "url": "/links/first.html#628517071"},
       {"name": "What the Golf? / Startup Valley Adventure / Total Tank Simulator / Alien: Hope for the Future / Timelie / Filament / House of Detention", "year": 2020, "url": "/links/first.html#629544387"},
-      {"name": "The Legend of Zelda: Breath of the Wild (Cemu)", "year": 2020, "url": "/links/first.html#630549212"}
+      {"name": "The Legend of Zelda: Breath of the Wild (Cemu)", "year": 2020, "url": "/links/first.html#630549212"},
+      {"name": "Minecraft - 7 (соло) / Mortal Kombat 11: Aftermath", "year": 2020, "url": "/links/minecraft.html#632445518"}
     ]
   },
   "finished": {
@@ -146,7 +146,8 @@
       {"name": "Locked Up", "year": 2020, "url": "/links/single.html#603199458"},
       {"name": "Call of Duty: Modern Warfare 2 Remastered", "year": 2020, "url": "/links/single.html#610935319"},
       {"name": "Streets of Rage 4", "year": 2020, "url": "/links/streets-of-rage-4.html"},
-      {"name": "House of Detention", "year": 2020, "url": "/links/single.html#629544387"}
+      {"name": "House of Detention", "year": 2020, "url": "/links/single.html#629544387"},
+      {"name": "Mortal Kombat 11: Aftermath", "year": 2020, "url": "/links/single.html#632445518"}
     ]
   },
   "first": {
