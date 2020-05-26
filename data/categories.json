@@ -1,17 +1,18 @@
 {
   "recent": {
     "name": "Недавние стримы",
+    "search": false,
     "games": [
-      {"name": "Minecraft - 4 (соло) / GeoGuessr - 1", "year": 2020, "url": "/links/minecraft.html#619696167"},
+      {"name": "Minecraft - 2 / GeoGuessr - 1", "year": 2020, "url": "/links/minecraft.html#619696167"},
       {"name": "L.A. Noire - 4", "year": 2020, "url": "/links/la-noire.html#620631764"},
-      {"name": "Minecraft - 5 (соло) / GeoGuessr - 2", "year": 2020, "url": "/links/minecraft.html#622728652"},
+      {"name": "Minecraft - 3 / GeoGuessr - 2", "year": 2020, "url": "/links/minecraft.html#622728652"},
       {"name": "Huntdown / Streets of Rage 4 - 1 / Gears of War 4 - 5 / SnowRunner - 7", "year": 2020, "url": "/links/first.html#623734401"},
-      {"name": "Minecraft - 6 (соло) / Mafia II: Definitive Edition - 1", "year": 2020, "url": "/links/minecraft.html#625606171"},
+      {"name": "Minecraft - 4 / Mafia II: Definitive Edition - 1", "year": 2020, "url": "/links/minecraft.html#625606171"},
       {"name": "Mafia II: Definitive Edition - 2 / The Persistence / Black Book / GeoGuessr - 3", "year": 2020, "url": "/links/mafia-2-definitive.html#626564087"},
       {"name": "ManEater / Saints Row: The Third / Streets of Rage 4 - 2 / SnowRunner - 8", "year": 2020, "url": "/links/first.html#628517071"},
       {"name": "What the Golf? / Startup Valley Adventure / Total Tank Simulator / Alien: Hope for the Future / Timelie / Filament / House of Detention", "year": 2020, "url": "/links/first.html#629544387"},
       {"name": "The Legend of Zelda: Breath of the Wild (Cemu)", "year": 2020, "url": "/links/first.html#630549212"},
-      {"name": "Minecraft - 7 (соло) / Mortal Kombat 11: Aftermath", "year": 2020, "url": "/links/minecraft.html#632445518"}
+      {"name": "Minecraft - 5 / Mortal Kombat 11: Aftermath", "year": 2020, "url": "/links/minecraft.html#632445518"}
     ]
   },
   "finished": {
@@ -304,6 +305,7 @@
       {"name": "Subnautica: Below Zero (ранний доступ)", "year": 2019, "url": "/links/subnautica-bz.html"},
       {"name": "Totally Accurate Battle Simulator", "year": 2019, "url": "/links/tabs.html"},
       {"name": "Jump King", "year": 2019, "url": "/links/jump-king.html"},
+      {"name": "Minecraft", "year": 2019, "url": "/links/minecraft.html"},
       {"name": "Ancestors: The Humankind Odyssey", "year": 2019, "url": "/links/ancestors.html"},
       {"name": "Police Stories", "year": 2019, "url": "/links/police-stories.html"},
       {"name": "Dreams", "year": 2020, "url": "/links/dreams.html"},
@@ -464,8 +466,8 @@
       {"name": "World War Z с Куплиновым", "year": 2019, "url": "/links/world-war-z.html"},
       {"name": "Mordhau", "year": 2019, "url": "/links/mordhau.html"},
       {"name": "Overwatch", "year": 2019, "url": "/links/overwatch.html"},
-      {"name": "Minecraft", "year": 2019, "url": "/links/minecraft.html"},
       {"name": "Havocado", "year": 2019, "url": "/links/havocado.html"},
+      {"name": "Minecraft (кооп)", "year": 2019, "url": "/links/minecraft-coop.html"},
       {"name": "Green Hell", "year": 2019, "url": "/links/green-hell.html"},
       {"name": "Call of Duty: Modern Warfare", "year": 2019, "url": "/links/cod-mw.html"},
       {"name": "Farming Simulator 19", "year": 2019, "url": "/links/farming-simulator-19.html"},
