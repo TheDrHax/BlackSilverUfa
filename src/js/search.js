@@ -20,6 +20,11 @@ class Search {
       // Create flat array of games and add category name to each of them
       Search.games = Object.keys(categories).flatMap((key) => {
         let category = categories[key];
+
+        if (category.search === false) {
+          return [];
+        }
+
         return category.games.map((game) => {
           game.group = category.name;
           return game;
