@@ -310,16 +310,23 @@
   },
   {
     "name": "Minecraft",
-    "category": "co-op-series",
+    "category": "infinite",
     "id": "minecraft",
     "streams": [
-      { "name": "1 (соло)", "twitch": "438447673", "start": "1:52:41" },
-      { "name": "2", "twitch": "443118072" },
-      { "name": "3", "twitch": "449016487" },
-      { "name": "4 (соло)", "twitch": "619696167" },
-      { "name": "5 (соло)", "twitch": "622728652" },
-      { "name": "6 (соло)", "twitch": "625606171" },
-      { "name": "7 (соло)", "twitch": "632445518" }
+      { "name": "1", "twitch": "438447673", "start": "1:52:41" },
+      { "name": "2", "twitch": "619696167" },
+      { "name": "3", "twitch": "622728652" },
+      { "name": "4", "twitch": "625606171" },
+      { "name": "5", "twitch": "632445518" }
+    ]
+  },
+  {
+    "name": "Minecraft (кооп)",
+    "category": "co-op-series",
+    "id": "minecraft-coop",
+    "streams": [
+      { "name": "1", "twitch": "443118072" },
+      { "name": "2", "twitch": "449016487" }
     ]
   },
   {
