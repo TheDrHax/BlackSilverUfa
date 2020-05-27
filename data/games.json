@@ -118,10 +118,7 @@
         { "name": "Crimson Hotel" },
         { "name": "Niffelheim", "start": "1:13:26" }
       ] },
-      { "twitch": "518306588", "subrefs": [
-        { "name": "Tools Up!", "start": "1:43:33" },
-        { "name": "Out of Space", "start": "2:53:26" }
-      ] },
+      { "name": "Out of Space", "twitch": "518306588", "start": "2:53:26" },
       { "twitch": "527927154", "subrefs": [
         { "name": "Beyond Senses", "start": "2:07:14" },
         { "name": "eXplosive Dinosaurs", "start": "2:23:48" },
@@ -133,7 +130,20 @@
       { "name": "Broomstick League", "twitch": "567045755", "segment": 1, "start": "3:44:15" },
       { "name": "Stab Stab Stab!", "twitch": "577415879", "start": "3:49:35" },
       { "name": "Biped", "twitch": "586412927" },
-      { "name": "Moving Out", "twitch": "612822436" }
+      { "name": "Moving Out", "twitch": "612822436" },
+      { "twitch": "633403643", "subrefs": [
+        { "name": "Embr", "start": "2:09:37" },
+        { "name": "Cannibal Cuisine", "start": "3:28:31" }
+      ] }
+    ]
+  },
+  {
+    "name": "Tools Up!",
+    "category": "co-op-series",
+    "id": "tools-up",
+    "streams": [
+      { "name": "1", "twitch": "518306588", "start": "1:43:33" },
+      { "name": "2", "twitch": "633403643", "start": "4:29:43" }
     ]
   },
   {
@@ -618,7 +628,8 @@
       { "name": "20", "twitch": "518306588", "start": "3:04:27" },
       { "name": "21", "twitch": "527927154", "start": "3:29:21" },
       { "name": "22", "twitch": "577415879", "start": "5:09:44" },
-      { "name": "23", "twitch": "601167190", "start": "5:45:40" }
+      { "name": "23", "twitch": "601167190", "start": "5:45:40" },
+      { "name": "24", "twitch": "633403643", "start": "4:55:16" }
     ]
   },
   {
@@ -1088,8 +1099,7 @@
       { "name": "The Complex", "twitch": "594489443", "start": "2:46:52" },
       { "name": "Locked Up", "twitch": "603199458", "start": "3:50:00" },
       { "name": "Call of Duty: Modern Warfare 2 Remastered", "twitch": "610935319" },
-      { "name": "House of Detention", "twitch": "629544387", "start": "3:56:40" },
-      { "name": "Mortal Kombat 11: Aftermath", "twitch": "632445518", "start": "2:59:03" }
+      { "name": "House of Detention", "twitch": "629544387", "start": "3:56:40" }
     ]
   },
   {
@@ -1598,7 +1608,8 @@
         { "name": "Timelie", "start": "4:09:24" },
         { "name": "Filament", "start": "4:29:04" }
       ] },
-      { "name": "The Legend of Zelda: Breath of the Wild (Cemu)", "twitch": "630549212" }
+      { "name": "The Legend of Zelda: Breath of the Wild (Cemu)", "twitch": "630549212" },
+      { "name": "The Elder Scrolls Online (Greymoor)", "twitch": "633403643" }
     ]
   },
   {
@@ -2346,6 +2357,15 @@
       { "name": "Со зрителями", "twitch": "483098038" }
     ],
     "cover": 1
+  },
+  {
+    "name": "Mortal Kombat 11: Aftermath",
+    "category": "finished",
+    "id": "mk-11-aftermath",
+    "streams": [
+      { "name": "Прохождение", "twitch": "632445518", "start": "2:59:03" },
+      { "name": "Контент", "twitch": "633403643", "start": "37:01" }
+    ]
   },
   {
     "name": "Totally Accurate Battle Simulator",
