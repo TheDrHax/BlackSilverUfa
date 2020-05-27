@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Minecraft - 2 / GeoGuessr - 1", "year": 2020, "url": "/links/minecraft.html#619696167"},
       {"name": "L.A. Noire - 4", "year": 2020, "url": "/links/la-noire.html#620631764"},
       {"name": "Minecraft - 3 / GeoGuessr - 2", "year": 2020, "url": "/links/minecraft.html#622728652"},
       {"name": "Huntdown / Streets of Rage 4 - 1 / Gears of War 4 - 5 / SnowRunner - 7", "year": 2020, "url": "/links/first.html#623734401"},
@@ -12,7 +11,8 @@
       {"name": "ManEater / Saints Row: The Third / Streets of Rage 4 - 2 / SnowRunner - 8", "year": 2020, "url": "/links/first.html#628517071"},
       {"name": "What the Golf? / Startup Valley Adventure / Total Tank Simulator / Alien: Hope for the Future / Timelie / Filament / House of Detention", "year": 2020, "url": "/links/first.html#629544387"},
       {"name": "The Legend of Zelda: Breath of the Wild (Cemu)", "year": 2020, "url": "/links/first.html#630549212"},
-      {"name": "Minecraft - 5 / Mortal Kombat 11: Aftermath", "year": 2020, "url": "/links/minecraft.html#632445518"}
+      {"name": "Minecraft - 5 / Mortal Kombat 11: Aftermath - Прохождение", "year": 2020, "url": "/links/minecraft.html#632445518"},
+      {"name": "The Elder Scrolls Online (Greymoor) / Mortal Kombat 11: Aftermath - Контент / Embr / Cannibal Cuisine / Tools Up! - 2 / Tricky Towers - 24", "year": 2020, "url": "/links/first.html#633403643"}
     ]
   },
   "finished": {
@@ -148,7 +148,7 @@
       {"name": "Call of Duty: Modern Warfare 2 Remastered", "year": 2020, "url": "/links/single.html#610935319"},
       {"name": "Streets of Rage 4", "year": 2020, "url": "/links/streets-of-rage-4.html"},
       {"name": "House of Detention", "year": 2020, "url": "/links/single.html#629544387"},
-      {"name": "Mortal Kombat 11: Aftermath", "year": 2020, "url": "/links/single.html#632445518"}
+      {"name": "Mortal Kombat 11: Aftermath", "year": 2020, "url": "/links/mk-11-aftermath.html"}
     ]
   },
   "first": {
@@ -274,7 +274,8 @@
       {"name": "The Persistence / Black Book", "year": 2020, "url": "/links/first.html#626564087"},
       {"name": "ManEater / Saints Row: The Third", "year": 2020, "url": "/links/first.html#628517071"},
       {"name": "What the Golf? / Startup Valley Adventure / Total Tank Simulator / Alien: Hope for the Future / Timelie / Filament", "year": 2020, "url": "/links/first.html#629544387"},
-      {"name": "The Legend of Zelda: Breath of the Wild (Cemu)", "year": 2020, "url": "/links/first.html#630549212"}
+      {"name": "The Legend of Zelda: Breath of the Wild (Cemu)", "year": 2020, "url": "/links/first.html#630549212"},
+      {"name": "The Elder Scrolls Online (Greymoor)", "year": 2020, "url": "/links/first.html#633403643"}
     ]
   },
   "ongoing": {
@@ -404,7 +405,7 @@
       {"name": "Marooners / Save Your Nuts", "year": 2019, "url": "/links/co-op.html#487949971"},
       {"name": "We Were Here Together", "year": 2019, "url": "/links/co-op.html#493585395"},
       {"name": "Crimson Hotel / Niffelheim", "year": 2019, "url": "/links/co-op.html#497190114"},
-      {"name": "Tools Up! / Out of Space", "year": 2019, "url": "/links/co-op.html#518306588"},
+      {"name": "Out of Space", "year": 2019, "url": "/links/co-op.html#518306588"},
       {"name": "Beyond Senses / eXplosive Dinosaurs / Titeuf", "year": 2019, "url": "/links/co-op.html#527927154"},
       {"name": "Left 4 Dead 2", "year": 2020, "url": "/links/co-op.html#532342982"},
       {"name": "Paunch", "year": 2020, "url": "/links/co-op.html#552313454"},
@@ -412,7 +413,8 @@
       {"name": "Broomstick League", "year": 2020, "url": "/links/co-op.html#567045755.1"},
       {"name": "Stab Stab Stab!", "year": 2020, "url": "/links/co-op.html#577415879"},
       {"name": "Biped", "year": 2020, "url": "/links/co-op.html#586412927"},
-      {"name": "Moving Out", "year": 2020, "url": "/links/co-op.html#612822436"}
+      {"name": "Moving Out", "year": 2020, "url": "/links/co-op.html#612822436"},
+      {"name": "Embr / Cannibal Cuisine", "year": 2020, "url": "/links/co-op.html#633403643"}
     ]
   },
   "co-op-series": {
@@ -471,6 +473,7 @@
       {"name": "Green Hell", "year": 2019, "url": "/links/green-hell.html"},
       {"name": "Call of Duty: Modern Warfare", "year": 2019, "url": "/links/cod-mw.html"},
       {"name": "Farming Simulator 19", "year": 2019, "url": "/links/farming-simulator-19.html"},
+      {"name": "Tools Up!", "year": 2019, "url": "/links/tools-up.html"},
       {"name": "Heave Ho", "year": 2019, "url": "/links/heave-ho.html"},
       {"name": "GTFO", "year": 2019, "url": "/links/gtfo.html"},
       {"name": "Zombie Army 4: Dead War", "year": 2020, "url": "/links/zombie-army-4.html"},
