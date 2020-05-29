@@ -1608,8 +1608,16 @@
         { "name": "Timelie", "start": "4:09:24" },
         { "name": "Filament", "start": "4:29:04" }
       ] },
-      { "name": "The Legend of Zelda: Breath of the Wild (Cemu)", "twitch": "630549212" },
-      { "name": "The Elder Scrolls Online (Greymoor)", "twitch": "633403643" }
+      { "name": "The Legend of Zelda: Breath of the Wild (Cemu)", "twitch": "630549212" }
+    ]
+  },
+  {
+    "name": "The Elder Scrolls Online (Greymoor)",
+    "category": "infinite",
+    "id": "teso-greymoor",
+    "streams": [
+      { "name": "0", "twitch": "633403643" },
+      { "name": "1 (со зрителями)", "twitch": "635328249" }
     ]
   },
   {
