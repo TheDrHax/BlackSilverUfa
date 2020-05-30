@@ -3984,14 +3984,12 @@
   "608001507": {
     "youtube": "wxO2lFL5ZdM", "abs_start": "0:00", "abs_end": "5:53:27", "duration": "5:53:27",
     "name": "SnowRunner - 3",
-    "url": "/links/snowrunner.html#608001507",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/608001507.torrent"
+    "url": "/links/snowrunner.html#608001507"
   },
   "610027262": {
     "youtube": "HnWiRaiApE8", "abs_start": "0:00", "abs_end": "6:04:58", "duration": "6:04:58",
     "name": "SnowRunner - 4",
-    "url": "/links/snowrunner.html#610027262",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/610027262.torrent"
+    "url": "/links/snowrunner.html#610027262"
   },
   "610935319": {
     "youtube": "dz-qfoPYopM", "abs_start": "0:00", "abs_end": "5:00:15", "duration": "5:00:15",
@@ -4112,5 +4110,12 @@
     "name": "The Elder Scrolls Online - 1 (со зрителями)",
     "url": "/links/teso.html#635328249",
     "torrent": "https://bsufiles.thedrhax.pw/streams/635328249.torrent"
+  },
+  "636327019": {
+    "abs_start": "0:00", "abs_end": "5:54:17", "duration": "0:00",
+    "name": "Arx Fatalis / Dishonored / Prey - 7 (заново)",
+    "url": "/links/first.html#636327019",
+    "direct": "https://bsufiles.thedrhax.pw/streams/636327019.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/636327019.torrent"
   }
 }
