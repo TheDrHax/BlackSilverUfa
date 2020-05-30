@@ -1011,7 +1011,8 @@
       { "name": "1 (Mooncrash DLC)", "twitch": "272205808", "segment": 0 },
       { "name": "2 (Mooncrash DLC)", "twitch": "272392172" },
       { "name": "3 (Mooncrash DLC)", "twitch": "273911703" },
-      { "name": "4 (Mooncrash DLC)", "twitch": "275418948" }
+      { "name": "4 (Mooncrash DLC)", "twitch": "275418948" },
+      { "name": "7 (заново)", "twitch": "636327019", "start": "4:36:14" }
     ]
   },
   {
@@ -1608,7 +1609,11 @@
         { "name": "Timelie", "start": "4:09:24" },
         { "name": "Filament", "start": "4:29:04" }
       ] },
-      { "name": "The Legend of Zelda: Breath of the Wild (Cemu)", "twitch": "630549212" }
+      { "name": "The Legend of Zelda: Breath of the Wild (Cemu)", "twitch": "630549212" },
+      { "twitch": "636327019", "subrefs": [
+        { "name": "Arx Fatalis" },
+        { "name": "Dishonored", "start": "3:15:42" }
+      ] }
     ]
   },
   {
