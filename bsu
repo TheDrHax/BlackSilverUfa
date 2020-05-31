@@ -165,8 +165,8 @@ case $1 in
 
         ./bsu pages pull ;;
     build) shift; $PYTHON -m src.utils.generate $@ ;;
-    serve) $PYTHON -m src.utils.serve ;;
-    debug) DEBUG=1 $PYTHON -m src.utils.serve ;;
+    serve) shift; $PYTHON -m src.utils.serve $@ ;;
+    debug) shift; DEBUG=1 $PYTHON -m src.utils.serve $@ ;;
     download-chats) $PYTHON -m src.utils.chats ;;
     sh|bash) "$@" ;;
     cli)
