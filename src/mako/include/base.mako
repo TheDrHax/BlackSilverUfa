@@ -45,7 +45,7 @@
             </li>
           </ul>
 
-          <form class="form-inline" autocomplete="off" action="#">
+          <form class="form-inline" autocomplete="off" onSubmit="return false;" action="#">
             <input class="form-control" type="search" id="search" placeholder="Быстрый переход" aria-label="Search">
           </form>
         </div>
