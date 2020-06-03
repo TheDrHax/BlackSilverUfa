@@ -1330,7 +1330,8 @@
       { "name": "3 (Cursed Sails)", "twitch": "293012700" },
       { "name": "4", "twitch": "497190114", "start": "2:14:14" },
       { "name": "5", "twitch": "500788270", "start": "2:14:07" },
-      { "name": "6", "twitch": "637278017", "start": "2:04:59" }
+      { "name": "6", "twitch": "637278017", "start": "2:04:59" },
+      { "name": "7", "twitch": "639990705", "start": "2:09:11" }
     ]
   },
   {
@@ -1607,7 +1608,6 @@
         { "name": "What the Golf?" },
         { "name": "Startup Valley Adventure", "start": "37:29" },
         { "name": "Total Tank Simulator", "start": "1:19:58" },
-        { "name": "Alien: Hope for the Future", "start": "2:24:26" },
         { "name": "Timelie", "start": "4:09:24" },
         { "name": "Filament", "start": "4:29:04" }
       ] },
@@ -1620,6 +1620,15 @@
         { "name": "Those Who Remain" },
         { "name": "Someday You'll Return", "start": "3:11:24" }
       ] }
+    ]
+  },
+  {
+    "name": "Alien: Hope for the Future",
+    "category": "infinite",
+    "id": "alien-hope-for-the-future",
+    "streams": [
+      { "name": "1", "twitch": "629544387", "start": "2:24:26" },
+      { "name": "2", "twitch": "639990705" }
     ]
   },
   {
