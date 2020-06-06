@@ -59,8 +59,7 @@ def build_data():
             tc_dict[segment.hash] = segment.timecodes.to_dict()
 
         # Generate cut subtitles
-        if len(segment.cuts) > 0:
-            cut_subtitles(segment)
+        cut_subtitles(segment)
 
     with open(_('data/timecodes.json'), 'w') as fo:
         json.dump(tc_dict, fo, ensure_ascii=False, indent=2)
