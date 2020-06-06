@@ -328,7 +328,8 @@
       { "name": "3", "twitch": "622728652" },
       { "name": "4", "twitch": "625606171" },
       { "name": "5", "twitch": "632445518" },
-      { "name": "6", "twitch": "637278017" }
+      { "name": "6", "twitch": "637278017" },
+      { "name": "7", "twitch": "642910038", "start": "4:38:00" }
     ]
   },
   {
@@ -1101,7 +1102,8 @@
       { "name": "The Complex", "twitch": "594489443", "start": "2:46:52" },
       { "name": "Locked Up", "twitch": "603199458", "start": "3:50:00" },
       { "name": "Call of Duty: Modern Warfare 2 Remastered", "twitch": "610935319" },
-      { "name": "House of Detention", "twitch": "629544387", "start": "3:56:40" }
+      { "name": "House of Detention", "twitch": "629544387", "start": "3:56:40" },
+      { "name": "The Light Remake", "twitch": "642910038" }
     ]
   },
   {
@@ -1193,7 +1195,8 @@
       { "name": "DLC 2 #2", "twitch": "209473798", "start": "29:55" },
       { "name": "DLC 2 #3", "twitch": "210846597" },
       { "name": "DLC 2 #4", "twitch": "216912425", "start": "1:43:08" },
-      { "name": "21", "twitch": "437956853" }
+      { "name": "21", "twitch": "437956853" },
+      { "name": "Тест Cemu", "twitch": "630549212" }
     ]
   },
   {
@@ -1215,7 +1218,8 @@
     "streams": [
       { "name": "1.1", "twitch": "217814961" },
       { "name": "1.2", "twitch": "217852593" },
-      { "name": "2", "twitch": "219489801" }
+      { "name": "2", "twitch": "219489801" },
+      { "name": "Тест RPCS3", "twitch": "642910038", "start": "2:39:43" }
     ]
   },
   {
@@ -1611,7 +1615,6 @@
         { "name": "Timelie", "start": "4:09:24" },
         { "name": "Filament", "start": "4:29:04" }
       ] },
-      { "name": "The Legend of Zelda: Breath of the Wild (Cemu)", "twitch": "630549212" },
       { "twitch": "636327019", "subrefs": [
         { "name": "Arx Fatalis" },
         { "name": "Dishonored", "start": "3:15:42" }
