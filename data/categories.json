@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "ManEater / Saints Row: The Third / Streets of Rage 4 - 2 / SnowRunner - 8", "year": 2020, "url": "/links/first.html#628517071"},
       {"name": "What the Golf? / Startup Valley Adventure / Total Tank Simulator / Timelie / Filament / Alien: Hope for the Future - 1 / House of Detention", "year": 2020, "url": "/links/first.html#629544387"},
-      {"name": "The Legend of Zelda: Breath of the Wild (Cemu)", "year": 2020, "url": "/links/first.html#630549212"},
+      {"name": "The Legend of Zelda: Breath of the Wild - Тест Cemu", "year": 2020, "url": "/links/tloz_botw.html#630549212"},
       {"name": "Minecraft - 5 / Mortal Kombat 11: Aftermath - Прохождение", "year": 2020, "url": "/links/minecraft.html#632445518"},
       {"name": "The Elder Scrolls Online - 0 / Mortal Kombat 11: Aftermath - Контент / Embr / Cannibal Cuisine / Tools Up! - 2 / Tricky Towers - 24", "year": 2020, "url": "/links/teso.html#633403643"},
       {"name": "The Elder Scrolls Online - 1 (со зрителями)", "year": 2020, "url": "/links/teso.html#635328249"},
       {"name": "Arx Fatalis / Dishonored / Prey - 7 (заново)", "year": 2020, "url": "/links/first.html#636327019"},
       {"name": "Minecraft - 6 / Sea of Thieves - 6", "year": 2020, "url": "/links/minecraft.html#637278017"},
       {"name": "Those Who Remain / Someday You'll Return", "year": 2020, "url": "/links/first.html#639075772"},
-      {"name": "Alien: Hope for the Future - 2 / Sea of Thieves - 7", "year": 2020, "url": "/links/alien-hope-for-the-future.html#639990705"}
+      {"name": "Alien: Hope for the Future - 2 / Sea of Thieves - 7", "year": 2020, "url": "/links/alien-hope-for-the-future.html#639990705"},
+      {"name": "The Light Remake / Demon's Souls - Тест RPCS3 / Minecraft - 7", "year": 2020, "url": "/links/single.html#642910038"}
     ]
   },
   "finished": {
@@ -148,7 +148,8 @@
       {"name": "Call of Duty: Modern Warfare 2 Remastered", "year": 2020, "url": "/links/single.html#610935319"},
       {"name": "Streets of Rage 4", "year": 2020, "url": "/links/streets-of-rage-4.html"},
       {"name": "House of Detention", "year": 2020, "url": "/links/single.html#629544387"},
-      {"name": "Mortal Kombat 11: Aftermath", "year": 2020, "url": "/links/mk-11-aftermath.html"}
+      {"name": "Mortal Kombat 11: Aftermath", "year": 2020, "url": "/links/mk-11-aftermath.html"},
+      {"name": "The Light Remake", "year": 2020, "url": "/links/single.html#642910038"}
     ]
   },
   "first": {
@@ -274,7 +275,6 @@
       {"name": "The Persistence / Black Book", "year": 2020, "url": "/links/first.html#626564087"},
       {"name": "ManEater / Saints Row: The Third", "year": 2020, "url": "/links/first.html#628517071"},
       {"name": "What the Golf? / Startup Valley Adventure / Total Tank Simulator / Timelie / Filament", "year": 2020, "url": "/links/first.html#629544387"},
-      {"name": "The Legend of Zelda: Breath of the Wild (Cemu)", "year": 2020, "url": "/links/first.html#630549212"},
       {"name": "Arx Fatalis / Dishonored", "year": 2020, "url": "/links/first.html#636327019"},
       {"name": "Those Who Remain / Someday You'll Return", "year": 2020, "url": "/links/first.html#639075772"}
     ]
@@ -282,6 +282,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Demon's Souls", "year": 2018, "url": "/links/demons-souls.html"},
       {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
       {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"},
       {"name": "Mafia II: Definitive Edition", "year": 2020, "url": "/links/mafia-2-definitive.html"}
@@ -326,7 +327,6 @@
       {"name": "Stardew Valley", "year": 2017, "url": "/links/stardew-walley.html"},
       {"name": "Super Mario Odyssey", "year": 2017, "url": "/links/super-mario-odyssey.html"},
       {"name": "NieR Automata", "year": 2018, "url": "/links/nier-automata.html"},
-      {"name": "Demon's Souls", "year": 2018, "url": "/links/demons-souls.html"},
       {"name": "Metal Gear Survive", "year": 2018, "url": "/links/metal-gear-survive.html"},
       {"name": "My Time at Portia", "year": 2018, "url": "/links/portia.html"},
       {"name": "Ghost of a Tale", "year": 2018, "url": "/links/ghost-of-a-tale.html"},
