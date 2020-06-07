@@ -10,6 +10,5 @@ requests==2.21.0
 sortedcontainers==2.1.0
 tdh-tcd==2.4.3
 cached-property==1.5.1
-# waiting for nodeenv > 1.3.5
--e git+https://github.com/ekalinin/nodeenv.git@079fcf52c323e06cf5a3d7b242b261f2e0e38dda#egg=nodeenv
+nodeenv==1.4.0
 youtube-dl # dynamic
