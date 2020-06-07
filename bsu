@@ -115,7 +115,7 @@ case $1 in
                     venv_setup cli-requirements.txt $3
                 fi
                 node_setup ;;
-            remove) rm -r "$VENV" ;;
+            remove) rm -rf "$VENV" "$NODEENV" "node_modules" ;;
             *) echo "Usage: $0 $1 update|remove" ;;
         esac ;;
     pages)
