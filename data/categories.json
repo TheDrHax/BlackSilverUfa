@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "The Elder Scrolls Online - 1 (со зрителями)", "year": 2020, "url": "/links/teso.html#635328249"},
       {"name": "Arx Fatalis / Dishonored / Prey - 7 (заново)", "year": 2020, "url": "/links/first.html#636327019"},
       {"name": "Minecraft - 6 / Sea of Thieves - 6", "year": 2020, "url": "/links/minecraft.html#637278017"},
       {"name": "Those Who Remain / Someday You'll Return", "year": 2020, "url": "/links/first.html#639075772"},
@@ -12,7 +11,8 @@
       {"name": "Sea of Thieves - 8", "year": 2020, "url": "/links/sea-of-thieves.html#643897384"},
       {"name": "L.A. Noire - 5 / SOLUM / No One Lives Under The Lighthouse", "year": 2020, "url": "/links/la-noire.html#644774531"},
       {"name": "L.A. Noire - 6 / The Walking Fish 2: Final Frontier / The Disappearance of the Mitchels", "year": 2020, "url": "/links/la-noire.html#645734946"},
-      {"name": "Beyond Blue - 1.1", "year": 2020, "url": "/links/beyond-blue.html#647778850"}
+      {"name": "Beyond Blue - 1.1", "year": 2020, "url": "/links/beyond-blue.html#647778850"},
+      {"name": "Beyond Blue - 1.2 / SnowRunner - 9 / неПрофессиональный E3 2020 - Sony", "year": 2020, "url": "/links/beyond-blue.html#647860070"}
     ]
   },
   "finished": {
@@ -525,7 +525,8 @@
       {"name": "State of Play 2019", "year": 2019, "url": "/links/expos.html#519609666"},
       {"name": "The Game Awards 2019 (обзор)", "year": 2019, "url": "/links/expos.html#520877239"},
       {"name": "Презентация PlayStation 5", "year": 2020, "url": "/links/expos.html#569683310"},
-      {"name": "Xbox Inside 2020", "year": 2020, "url": "/links/expos.html#613793616"}
+      {"name": "Xbox Inside 2020", "year": 2020, "url": "/links/expos.html#613793616"},
+      {"name": "неПрофессиональный E3 2020", "year": 2020, "url": "/links/e3_2020.html"}
     ]
   },
   "unboxing": {
