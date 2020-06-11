@@ -27,6 +27,14 @@
     ]
   },
   {
+    "name": "Beyond Blue",
+    "category": "ongoing",
+    "id": "beyond-blue",
+    "streams": [
+      { "name": "1.1", "twitch": "647778850" }
+    ]
+  },
+  {
     "name": "Несюжетные коопы",
     "category": "co-op",
     "type": "list",
