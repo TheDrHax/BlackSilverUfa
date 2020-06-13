@@ -890,7 +890,8 @@
     "category": "expos",
     "id": "e3_2020",
     "streams": [
-      { "name": "Sony", "twitch": "647860070", "segment": 1 }
+      { "name": "Sony", "twitch": "647860070", "segment": 1 },
+      { "name": "PC Gaming Show", "twitch": "649632498", "start": "5:00:34" }
     ]
   },
   {
@@ -1123,7 +1124,8 @@
       { "name": "House of Detention", "twitch": "629544387", "start": "3:56:40" },
       { "name": "The Light Remake", "twitch": "642910038" },
       { "name": "No One Lives Under The Lighthouse", "twitch": "644774531", "start": "4:55:52" },
-      { "name": "The Walking Fish 2: Final Frontier", "twitch": "645734946", "start": "4:19:43" }
+      { "name": "The Walking Fish 2: Final Frontier", "twitch": "645734946", "start": "4:19:43" },
+      { "name": "Secret Agent Barbie", "twitch": "649632498" }
     ]
   },
   {
@@ -1682,7 +1684,8 @@
     "streams": [
       { "name": "1", "twitch": "619696167", "start": "4:20:50" },
       { "name": "2", "twitch": "622728652", "start": "4:02:25" },
-      { "name": "3", "twitch": "626564087", "start": "5:19:20" }
+      { "name": "3", "twitch": "626564087", "start": "5:19:20" },
+      { "name": "4", "twitch": "649632498", "start": "3:28:40" }
     ]
   },
   {
