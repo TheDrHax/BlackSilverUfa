@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "The Light Remake / Demon's Souls - Тест RPCS3 / Minecraft - 7", "year": 2020, "url": "/links/single.html#642910038"},
       {"name": "Sea of Thieves - 8", "year": 2020, "url": "/links/sea-of-thieves.html#643897384"},
       {"name": "L.A. Noire - 5 / SOLUM / No One Lives Under The Lighthouse", "year": 2020, "url": "/links/la-noire.html#644774531"},
       {"name": "L.A. Noire - 6 / The Walking Fish 2: Final Frontier / The Disappearance of the Mitchels", "year": 2020, "url": "/links/la-noire.html#645734946"},
@@ -12,7 +11,8 @@
       {"name": "неПрофессиональный E3 2020 - Sony", "year": 2020, "url": "/links/e3_2020.html#647860070.1"},
       {"name": "Call of Duty: Warzone - 4", "year": 2020, "url": "/links/cod-warzone.html#648739017"},
       {"name": "Secret Agent Barbie / GeoGuessr - 4 / неПрофессиональный E3 2020 - PC Gaming Show", "year": 2020, "url": "/links/single.html#649632498"},
-      {"name": "Asus ROG Zephyrus G15 / In Sound Mind (демо) / Sea of Thieves - 9", "year": 2020, "url": "/links/unboxing.html#650534841"}
+      {"name": "Asus ROG Zephyrus G15 / In Sound Mind (демо) / Sea of Thieves - 9", "year": 2020, "url": "/links/unboxing.html#650534841"},
+      {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"}
     ]
   },
   "finished": {
@@ -282,14 +282,14 @@
       {"name": "Those Who Remain / Someday You'll Return", "year": 2020, "url": "/links/first.html#639075772"},
       {"name": "SOLUM", "year": 2020, "url": "/links/first.html#644774531"},
       {"name": "The Disappearance of the Mitchels", "year": 2020, "url": "/links/first.html#645734946"},
-      {"name": "In Sound Mind (демо)", "year": 2020, "url": "/links/first.html#650534841"}
+      {"name": "In Sound Mind (демо)", "year": 2020, "url": "/links/first.html#650534841"},
+      {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "Demon's Souls", "year": 2018, "url": "/links/demons-souls.html"},
-      {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
       {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"},
       {"name": "Mafia II: Definitive Edition", "year": 2020, "url": "/links/mafia-2-definitive.html"},
       {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"}
@@ -367,6 +367,7 @@
       {"name": "Nioh 2", "year": 2019, "url": "/links/nioh-2.html"},
       {"name": "Spore", "year": 2019, "url": "/links/spore.html"},
       {"name": "The Sims 4", "year": 2020, "url": "/links/sims-4.html"},
+      {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
       {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"},
