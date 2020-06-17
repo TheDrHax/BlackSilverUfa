@@ -1650,7 +1650,14 @@
       ] },
       { "name": "SOLUM", "twitch": "644774531", "start": "4:30:33" },
       { "name": "The Disappearance of the Mitchels", "twitch": "645734946", "start": "5:15:53" },
-      { "name": "In Sound Mind (демо)", "twitch": "650534841", "start": "1:31:36" }
+      { "name": "In Sound Mind (демо)", "twitch": "650534841", "start": "1:31:36" },
+      { "twitch": "653411860", "subrefs": [
+        { "name": "Haven" },
+        { "name": "Hardspace: Shipbreaker", "start": "1:53:28" },
+        { "name": "Gloomwood", "start": "2:33:58" },
+        { "name": "Among Trees", "start": "3:59:59" },
+        { "name": "Hello Guest", "start": "5:12:52" }
+      ] }
     ]
   },
   {
