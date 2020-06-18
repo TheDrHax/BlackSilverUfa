@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Sea of Thieves - 8", "year": 2020, "url": "/links/sea-of-thieves.html#643897384"},
       {"name": "L.A. Noire - 5 / SOLUM / No One Lives Under The Lighthouse", "year": 2020, "url": "/links/la-noire.html#644774531"},
       {"name": "L.A. Noire - 6 / The Walking Fish 2: Final Frontier / The Disappearance of the Mitchels", "year": 2020, "url": "/links/la-noire.html#645734946"},
       {"name": "Beyond Blue - 1.1", "year": 2020, "url": "/links/beyond-blue.html#647778850"},
@@ -12,7 +11,8 @@
       {"name": "Call of Duty: Warzone - 4", "year": 2020, "url": "/links/cod-warzone.html#648739017"},
       {"name": "Secret Agent Barbie / GeoGuessr - 4 / неПрофессиональный E3 2020 - PC Gaming Show", "year": 2020, "url": "/links/single.html#649632498"},
       {"name": "Asus ROG Zephyrus G15 / In Sound Mind (демо) / Sea of Thieves - 9", "year": 2020, "url": "/links/unboxing.html#650534841"},
-      {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"}
+      {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"},
+      {"name": "The Last of Us: Part II - 1", "year": 2020, "url": "/links/tlou-2.html#654380816"}
     ]
   },
   "finished": {
@@ -292,7 +292,8 @@
       {"name": "Demon's Souls", "year": 2018, "url": "/links/demons-souls.html"},
       {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"},
       {"name": "Mafia II: Definitive Edition", "year": 2020, "url": "/links/mafia-2-definitive.html"},
-      {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"}
+      {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"},
+      {"name": "The Last of Us: Part II", "year": 2020, "url": "/links/tlou-2.html"}
     ]
   },
   "infinite": {
