@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "L.A. Noire - 6 / The Walking Fish 2: Final Frontier / The Disappearance of the Mitchels", "year": 2020, "url": "/links/la-noire.html#645734946"},
       {"name": "Beyond Blue - 1.1", "year": 2020, "url": "/links/beyond-blue.html#647778850"},
       {"name": "Beyond Blue - 1.2 / SnowRunner - 9", "year": 2020, "url": "/links/beyond-blue.html#647860070"},
       {"name": "неПрофессиональный E3 2020 - Sony", "year": 2020, "url": "/links/e3_2020.html#647860070.1"},
@@ -12,7 +11,8 @@
       {"name": "Asus ROG Zephyrus G15 / In Sound Mind (демо) / Sea of Thieves - 9", "year": 2020, "url": "/links/unboxing.html#650534841"},
       {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"},
       {"name": "The Last of Us: Part II - 1", "year": 2020, "url": "/links/tlou-2.html#654380816"},
-      {"name": "The Last of Us: Part II - 2.1", "year": 2020, "url": "/links/tlou-2.html#655265437"}
+      {"name": "The Last of Us: Part II - 2.1", "year": 2020, "url": "/links/tlou-2.html#655265437"},
+      {"name": "The Last of Us: Part II - 2.2", "year": 2020, "url": "/links/tlou-2.html#655528246"}
     ]
   },
   "finished": {
@@ -291,7 +291,6 @@
     "games": [
       {"name": "Demon's Souls", "year": 2018, "url": "/links/demons-souls.html"},
       {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"},
-      {"name": "Mafia II: Definitive Edition", "year": 2020, "url": "/links/mafia-2-definitive.html"},
       {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"},
       {"name": "The Last of Us: Part II", "year": 2020, "url": "/links/tlou-2.html"}
     ]
@@ -372,7 +371,8 @@
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
       {"name": "Yes, Your Grace", "year": 2020, "url": "/links/yes-your-grace.html"},
-      {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/persona-5-royal.html"}
+      {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/persona-5-royal.html"},
+      {"name": "Mafia II: Definitive Edition", "year": 2020, "url": "/links/mafia-2-definitive.html"}
     ]
   },
   "co-op": {
