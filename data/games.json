@@ -1662,12 +1662,13 @@
   },
   {
     "name": "The Last of Us: Part II",
-    "category": "ongoing",
+    "category": "finished",
     "id": "tlou-2",
     "streams": [
       { "name": "1", "twitch": "654380816" },
       { "name": "2.1", "twitch": "655265437" },
-      { "name": "2.2", "twitch": "655528246" }
+      { "name": "2.2", "twitch": "655528246" },
+      { "name": "3", "twitch": "656257835" }
     ]
   },
   {
