@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Beyond Blue - 1.2 / SnowRunner - 9", "year": 2020, "url": "/links/beyond-blue.html#647860070"},
       {"name": "неПрофессиональный E3 2020 - Sony", "year": 2020, "url": "/links/e3_2020.html#647860070.1"},
       {"name": "Call of Duty: Warzone - 4", "year": 2020, "url": "/links/cod-warzone.html#648739017"},
       {"name": "Secret Agent Barbie / GeoGuessr - 4 / неПрофессиональный E3 2020 - PC Gaming Show", "year": 2020, "url": "/links/single.html#649632498"},
@@ -12,7 +11,8 @@
       {"name": "The Last of Us: Part II - 1", "year": 2020, "url": "/links/tlou-2.html#654380816"},
       {"name": "The Last of Us: Part II - 2.1", "year": 2020, "url": "/links/tlou-2.html#655265437"},
       {"name": "The Last of Us: Part II - 2.2", "year": 2020, "url": "/links/tlou-2.html#655528246"},
-      {"name": "The Last of Us: Part II - 3", "year": 2020, "url": "/links/tlou-2.html#656257835"}
+      {"name": "The Last of Us: Part II - 3", "year": 2020, "url": "/links/tlou-2.html#656257835"},
+      {"name": "L.A. Noire - 7", "year": 2020, "url": "/links/la-noire.html#658127870"}
     ]
   },
   "finished": {
@@ -144,6 +144,7 @@
       {"name": "Half-Life: Alyx", "year": 2020, "url": "/links/hl-alyx.html"},
       {"name": "Final Fantasy VII Remake", "year": 2020, "url": "/links/ff-vii-remake.html"},
       {"name": "The Complex", "year": 2020, "url": "/links/single.html#594489443"},
+      {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"},
       {"name": "Locked Up", "year": 2020, "url": "/links/single.html#603199458"},
       {"name": "Call of Duty: Modern Warfare 2 Remastered", "year": 2020, "url": "/links/single.html#610935319"},
       {"name": "Streets of Rage 4", "year": 2020, "url": "/links/streets-of-rage-4.html"},
@@ -291,7 +292,6 @@
     "name": "Активные",
     "games": [
       {"name": "Demon's Souls", "year": 2018, "url": "/links/demons-souls.html"},
-      {"name": "L.A. Noire", "year": 2020, "url": "/links/la-noire.html"},
       {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"}
     ]
   },
