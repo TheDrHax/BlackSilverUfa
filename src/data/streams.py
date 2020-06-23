@@ -364,8 +364,9 @@ class SegmentReference:
         add('offset', lambda x: x().value, lambda x: x() != 0)
         add('subtitles')
 
-        for key in ['start', 'end']:
-            add(key, lambda x: int(x - self.offset(x)), lambda x: x != 0)
+        add('start', lambda x: int(x - self.offset(x)),
+            lambda x: x != 0 or self.force_start)
+        add('end', lambda x: int(x - self.offset(x)), lambda x: x != 0)
 
         for key in ['name', 'twitch', 'youtube', 'direct']:
             add(key)
@@ -388,7 +389,7 @@ class SegmentReference:
         res = f'--sub-file={self.subtitles} '
         if self.offset() != 0:
             res += f'--sub-delay={-int(self.offset())} '
-        if self.start != 0:
+        if self.start != 0 or self.force_start:
             res += f'--start={int(self.start - self.offset(self.start))} '
         if self.end != 0:
             res += f'--end={int(self.end - self.offset(self.end))} '
