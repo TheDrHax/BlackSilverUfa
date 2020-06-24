@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Call of Duty: Warzone - 4", "year": 2020, "url": "/links/cod-warzone.html#648739017"},
       {"name": "Secret Agent Barbie / GeoGuessr - 4 / неПрофессиональный E3 2020 - PC Gaming Show", "year": 2020, "url": "/links/single.html#649632498"},
       {"name": "Asus ROG Zephyrus G15 / In Sound Mind (демо) / Sea of Thieves - 9", "year": 2020, "url": "/links/unboxing.html#650534841"},
       {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"},
@@ -12,7 +11,8 @@
       {"name": "The Last of Us: Part II - 2.2", "year": 2020, "url": "/links/tlou-2.html#655528246"},
       {"name": "The Last of Us: Part II - 3", "year": 2020, "url": "/links/tlou-2.html#656257835"},
       {"name": "L.A. Noire - 7", "year": 2020, "url": "/links/la-noire.html#658127870"},
-      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/first.html#659080815"}
+      {"name": "Vampire: The Masquerade - Bloodlines - 1", "year": 2020, "url": "/links/vampire-masquerade.html#659080815"},
+      {"name": "Vampire: The Masquerade - Bloodlines - 2 / неПрофессиональный E3 2020 - Square Enix - Marvel's Avengers", "year": 2020, "url": "/links/vampire-masquerade.html#660069027"}
     ]
   },
   "finished": {
@@ -285,15 +285,15 @@
       {"name": "SOLUM", "year": 2020, "url": "/links/first.html#644774531"},
       {"name": "The Disappearance of the Mitchels", "year": 2020, "url": "/links/first.html#645734946"},
       {"name": "In Sound Mind (демо)", "year": 2020, "url": "/links/first.html#650534841"},
-      {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"},
-      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/first.html#659080815"}
+      {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "Demon's Souls", "year": 2018, "url": "/links/demons-souls.html"},
-      {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"}
+      {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"},
+      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"}
     ]
   },
   "infinite": {
