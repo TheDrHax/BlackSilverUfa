@@ -891,7 +891,8 @@
     "id": "e3_2020",
     "streams": [
       { "name": "Sony", "twitch": "647860070", "segment": 1 },
-      { "name": "PC Gaming Show", "twitch": "649632498", "start": "5:00:34" }
+      { "name": "PC Gaming Show", "twitch": "649632498", "start": "5:00:34" },
+      { "name": "Square Enix - Marvel's Avengers", "twitch": "660069027", "start": "3:59:33" }
     ]
   },
   {
@@ -1657,8 +1658,19 @@
         { "name": "Gloomwood", "start": "2:33:58" },
         { "name": "Among Trees", "start": "3:59:59" },
         { "name": "Hello Guest", "start": "5:12:52" }
-      ] },
-      { "name": "Vampire: The Masquerade - Bloodlines", "twitch": "659080815" }
+      ] }
+    ]
+  },
+  {
+    "name": "Vampire: The Masquerade - Bloodlines",
+    "category": "ongoing",
+    "id": "vampire-masquerade",
+    "streams": [
+      { "name": "1", "twitch": "659080815" },
+      { "twitch": "660069027", "subrefs": [
+        { "name": "2" },
+        { "name": "2", "start": "4:28:55" }
+      ] }
     ]
   },
   {
