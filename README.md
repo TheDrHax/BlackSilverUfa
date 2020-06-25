@@ -48,3 +48,9 @@
 # Отправить изменения на GitHub
 ./bsu pages push
 ```
+
+## Связанные проекты
+
+* [Twitch-Chat-Downloader](https://github.com/TheDrHax/Twitch-Chat-Downloader) (форк) — для сохранения чата в виде субтитров;
+* [streamlink](https://github.com/TheDrHax/streamlink) (форк) — для записи стримов без рекламы (требуется аккаунт подписчика);
+* [Twitch-Utils](https://github.com/TheDrHax/Twitch-Utils) — для автоматического склеивания записей стримов и сопоставления им записей с YouTube;
