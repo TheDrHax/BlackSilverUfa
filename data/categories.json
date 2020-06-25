@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Secret Agent Barbie / GeoGuessr - 4 / неПрофессиональный E3 2020 - PC Gaming Show", "year": 2020, "url": "/links/single.html#649632498"},
       {"name": "Asus ROG Zephyrus G15 / In Sound Mind (демо) / Sea of Thieves - 9", "year": 2020, "url": "/links/unboxing.html#650534841"},
       {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"},
       {"name": "The Last of Us: Part II - 1", "year": 2020, "url": "/links/tlou-2.html#654380816"},
@@ -12,7 +11,8 @@
       {"name": "The Last of Us: Part II - 3", "year": 2020, "url": "/links/tlou-2.html#656257835"},
       {"name": "L.A. Noire - 7", "year": 2020, "url": "/links/la-noire.html#658127870"},
       {"name": "Vampire: The Masquerade - Bloodlines - 1", "year": 2020, "url": "/links/vampire-masquerade.html#659080815"},
-      {"name": "Vampire: The Masquerade - Bloodlines - 2 / неПрофессиональный E3 2020 - Square Enix - Marvel's Avengers", "year": 2020, "url": "/links/vampire-masquerade.html#660069027"}
+      {"name": "Vampire: The Masquerade - Bloodlines - 2 / неПрофессиональный неE3 2020 - Square Enix - Marvel's Avengers (без Артёма)", "year": 2020, "url": "/links/vampire-masquerade.html#660069027"},
+      {"name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated / неПрофессиональный неE3 2020 - CD Projekt Red - Cyberpunk 2077 / Biped - 2 / Broforce", "year": 2020, "url": "/links/first.html#661040084"}
     ]
   },
   "finished": {
@@ -285,7 +285,8 @@
       {"name": "SOLUM", "year": 2020, "url": "/links/first.html#644774531"},
       {"name": "The Disappearance of the Mitchels", "year": 2020, "url": "/links/first.html#645734946"},
       {"name": "In Sound Mind (демо)", "year": 2020, "url": "/links/first.html#650534841"},
-      {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"}
+      {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"},
+      {"name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated", "year": 2020, "url": "/links/first.html#661040084"}
     ]
   },
   "ongoing": {
@@ -425,9 +426,9 @@
       {"name": "I Will Eat You", "year": 2020, "url": "/links/co-op.html#556596083"},
       {"name": "Broomstick League", "year": 2020, "url": "/links/co-op.html#567045755.1"},
       {"name": "Stab Stab Stab!", "year": 2020, "url": "/links/co-op.html#577415879"},
-      {"name": "Biped", "year": 2020, "url": "/links/co-op.html#586412927"},
       {"name": "Moving Out", "year": 2020, "url": "/links/co-op.html#612822436"},
-      {"name": "Embr / Cannibal Cuisine", "year": 2020, "url": "/links/co-op.html#633403643"}
+      {"name": "Embr / Cannibal Cuisine", "year": 2020, "url": "/links/co-op.html#633403643"},
+      {"name": "Broforce", "year": 2020, "url": "/links/co-op.html#661040084"}
     ]
   },
   "co-op-series": {
@@ -495,6 +496,7 @@
       {"name": "Hand Simulator: Survival", "year": 2020, "url": "/links/hand-simulator-survival.html"},
       {"name": "Call of Duty: Warzone", "year": 2020, "url": "/links/cod-warzone.html"},
       {"name": "Predator: Hunting Grounds", "year": 2020, "url": "/links/predator-hunting-grounds.html"},
+      {"name": "Biped", "year": 2020, "url": "/links/biped.html"},
       {"name": "SnowRunner", "year": 2020, "url": "/links/snowrunner.html"}
     ]
   },
@@ -531,7 +533,7 @@
       {"name": "The Game Awards 2019 (обзор)", "year": 2019, "url": "/links/expos.html#520877239"},
       {"name": "Презентация PlayStation 5", "year": 2020, "url": "/links/expos.html#569683310"},
       {"name": "Xbox Inside 2020", "year": 2020, "url": "/links/expos.html#613793616"},
-      {"name": "неПрофессиональный E3 2020", "year": 2020, "url": "/links/e3_2020.html"}
+      {"name": "неПрофессиональный неE3 2020", "year": 2020, "url": "/links/e3_2020.html"}
     ]
   },
   "unboxing": {
