@@ -138,12 +138,21 @@
       { "name": "I Will Eat You", "twitch": "556596083", "start": "2:07:59" },
       { "name": "Broomstick League", "twitch": "567045755", "segment": 1, "start": "3:44:15" },
       { "name": "Stab Stab Stab!", "twitch": "577415879", "start": "3:49:35" },
-      { "name": "Biped", "twitch": "586412927" },
       { "name": "Moving Out", "twitch": "612822436" },
       { "twitch": "633403643", "subrefs": [
         { "name": "Embr", "start": "2:09:37" },
         { "name": "Cannibal Cuisine", "start": "3:28:31" }
-      ] }
+      ] },
+      { "name": "Broforce", "twitch": "661040084", "start": "4:44:29" }
+    ]
+  },
+  {
+    "name": "Biped",
+    "category": "co-op-series",
+    "id": "biped",
+    "streams": [
+      { "name": "1", "twitch": "586412927" },
+      { "name": "2", "twitch": "661040084", "start": "3:24:32" }
     ]
   },
   {
@@ -886,13 +895,14 @@
     ]
   },
   {
-    "name": "неПрофессиональный E3 2020",
+    "name": "неПрофессиональный неE3 2020",
     "category": "expos",
     "id": "e3_2020",
     "streams": [
       { "name": "Sony", "twitch": "647860070", "segment": 1 },
       { "name": "PC Gaming Show", "twitch": "649632498", "start": "5:00:34" },
-      { "name": "Square Enix - Marvel's Avengers", "twitch": "660069027", "start": "3:59:33" }
+      { "name": "Square Enix - Marvel's Avengers (без Артёма)", "twitch": "660069027", "start": "3:59:33" },
+      { "name": "CD Projekt Red - Cyberpunk 2077", "twitch": "661040084", "start": "2:58:33" }
     ]
   },
   {
@@ -1658,7 +1668,8 @@
         { "name": "Gloomwood", "start": "2:33:58" },
         { "name": "Among Trees", "start": "3:59:59" },
         { "name": "Hello Guest", "start": "5:12:52" }
-      ] }
+      ] },
+      { "name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated", "twitch": "661040084" }
     ]
   },
   {
