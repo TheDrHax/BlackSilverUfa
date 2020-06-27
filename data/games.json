@@ -1061,6 +1061,15 @@
     ]
   },
   {
+    "name": "Resident Evil 7",
+    "category": "ongoing",
+    "id": "re7",
+    "streams": [
+      { "name": "1 (часть 1)", "twitch": "663012938" },
+      { "name": "1 (часть 2)", "twitch": "663045694" }
+    ]
+  },
+  {
     "name": "Прохождения за один стрим",
     "category": "finished",
     "type": "list",
