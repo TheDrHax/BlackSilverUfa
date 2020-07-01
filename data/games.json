@@ -298,7 +298,8 @@
       { "name": "1", "twitch": "572721394", "start": "4:06:10" },
       { "name": "2", "twitch": "576592201", "start": "5:08:32" },
       { "name": "3", "twitch": "592666810" },
-      { "name": "4", "twitch": "648739017" }
+      { "name": "4", "twitch": "648739017" },
+      { "name": "5 (часть 1)", "twitch": "666848828", "start": "3:09:13" }
     ]
   },
   {
@@ -1061,13 +1062,14 @@
     ]
   },
   {
-    "name": "Resident Evil 7",
+    "name": "Resident Evil 7 (Madhouse)",
     "category": "ongoing",
     "id": "re7",
     "streams": [
       { "name": "1 (часть 1)", "twitch": "663012938" },
       { "name": "1 (часть 2)", "twitch": "663045694" },
-      { "name": "2", "twitch": "665878817", "start": "4:28:53" }
+      { "name": "2", "twitch": "665878817", "start": "4:28:53" },
+      { "name": "3", "twitch": "666848828" }
     ]
   },
   {
