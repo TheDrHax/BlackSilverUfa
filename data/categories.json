@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "The Last of Us: Part II - 2.2", "year": 2020, "url": "/links/tlou-2.html#655528246"},
       {"name": "The Last of Us: Part II - 3", "year": 2020, "url": "/links/tlou-2.html#656257835"},
       {"name": "L.A. Noire - 7", "year": 2020, "url": "/links/la-noire.html#658127870"},
       {"name": "Vampire: The Masquerade - Bloodlines - 1", "year": 2020, "url": "/links/vampire-masquerade.html#659080815"},
       {"name": "Vampire: The Masquerade - Bloodlines - 2 / неПрофессиональный неE3 2020 - Square Enix - Marvel's Avengers (без Артёма)", "year": 2020, "url": "/links/vampire-masquerade.html#660069027"},
       {"name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated / неПрофессиональный неE3 2020 - CD Projekt Red - Cyberpunk 2077 / Biped - 2 / Broforce", "year": 2020, "url": "/links/first.html#661040084"},
-      {"name": "Resident Evil 7 - 1 (часть 1)", "year": 2020, "url": "/links/re7.html#663012938"},
-      {"name": "Resident Evil 7 - 1 (часть 2)", "year": 2020, "url": "/links/re7.html#663045694"},
+      {"name": "Resident Evil 7 (Madhouse) - 1 (часть 1)", "year": 2020, "url": "/links/re7.html#663012938"},
+      {"name": "Resident Evil 7 (Madhouse) - 1 (часть 2)", "year": 2020, "url": "/links/re7.html#663045694"},
       {"name": "GeoGuessr - 5 / Sea of Thieves - 10", "year": 2020, "url": "/links/geoguessr.html#663976925"},
-      {"name": "Vampire: The Masquerade - Bloodlines - 3 / Resident Evil 7 - 2", "year": 2020, "url": "/links/vampire-masquerade.html#665878817"}
+      {"name": "Vampire: The Masquerade - Bloodlines - 3 / Resident Evil 7 (Madhouse) - 2", "year": 2020, "url": "/links/vampire-masquerade.html#665878817"},
+      {"name": "Resident Evil 7 (Madhouse) - 3 / Call of Duty: Warzone - 5 (часть 1)", "year": 2020, "url": "/links/re7.html#666848828"}
     ]
   },
   "finished": {
@@ -295,7 +295,7 @@
       {"name": "Demon's Souls", "year": 2018, "url": "/links/demons-souls.html"},
       {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"},
       {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
-      {"name": "Resident Evil 7", "year": 2020, "url": "/links/re7.html"}
+      {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "url": "/links/re7.html"}
     ]
   },
   "infinite": {

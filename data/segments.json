@@ -3275,9 +3275,10 @@
     "url": "/links/outer-worlds.html#498846687"
   },
   "499849877": {
-    "youtube": "iRkbxvRwX94", "official": false, "abs_start": "0:00", "abs_end": "3:54:41", "duration": "3:54:41",
+    "abs_start": "0:00", "abs_end": "3:54:24", "duration": "0:00",
     "name": "Благотворительные стримы - 5 / Cooking Simulator / House Flipper",
-    "url": "/links/charity.html#499849877"
+    "url": "/links/charity.html#499849877",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/499849877.mp4"
   },
   "500334713": {
     "youtube": "mUcq4SdJRo8", "abs_start": "0:00", "abs_end": "5:09:07", "duration": "5:09:07",
@@ -3541,7 +3542,7 @@
     "url": "/links/life-is-strange-2.html#532787117"
   },
   "533269694": {
-    "youtube": "iYCaK9j1c-0", "official": false, "abs_start": "0:00", "abs_end": "5:59:49", "duration": "5:59:49",
+    "youtube": "g3pJbHFxP7g", "cuts": ["3:31:58~3:34:04", "4:57:07~4:57:21"], "abs_start": "-0:08", "abs_end": "5:59:48", "duration": "5:57:36",
     "name": "Grand Theft Auto: San Andreas - 1",
     "url": "/links/gta-san-andreas.html#533269694"
   },
@@ -4113,8 +4114,7 @@
   "642910038": {
     "youtube": "ehlwuK0fUBQ", "abs_start": "0:00", "abs_end": "5:51:55", "duration": "5:51:55",
     "name": "The Light Remake / Demon's Souls - Тест RPCS3 / Minecraft - 7",
-    "url": "/links/single.html#642910038",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/642910038.torrent"
+    "url": "/links/single.html#642910038"
   },
   "643897384": {
     "youtube": "TNcCyUU7eQM", "abs_start": "0:00", "abs_end": "6:22:49", "duration": "6:22:49",
@@ -4226,13 +4226,13 @@
   },
   "663012938": {
     "youtube": "pWu8cdmPllk", "abs_start": "0:00", "abs_end": "56:33", "duration": "56:33",
-    "name": "Resident Evil 7 - 1 (часть 1)",
+    "name": "Resident Evil 7 (Madhouse) - 1 (часть 1)",
     "url": "/links/re7.html#663012938",
     "torrent": "https://bsufiles.thedrhax.pw/streams/663012938.torrent"
   },
   "663045694": {
     "youtube": "Kaux0yofy7g", "abs_start": "0:00", "abs_end": "4:54:42", "duration": "4:54:42",
-    "name": "Resident Evil 7 - 1 (часть 2)",
+    "name": "Resident Evil 7 (Madhouse) - 1 (часть 2)",
     "url": "/links/re7.html#663045694",
     "torrent": "https://bsufiles.thedrhax.pw/streams/663045694.torrent"
   },
@@ -4244,9 +4244,16 @@
   },
   "665878817": {
     "abs_start": "0:00", "abs_end": "5:53:50", "duration": "0:00",
-    "name": "Vampire: The Masquerade - Bloodlines - 3 / Resident Evil 7 - 2",
+    "name": "Vampire: The Masquerade - Bloodlines - 3 / Resident Evil 7 (Madhouse) - 2",
     "url": "/links/vampire-masquerade.html#665878817",
     "direct": "https://bsufiles.thedrhax.pw/streams/665878817.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/665878817.torrent"
+  },
+  "666848828": {
+    "abs_start": "0:00", "abs_end": "5:18:38", "duration": "0:00",
+    "name": "Resident Evil 7 (Madhouse) - 3 / Call of Duty: Warzone - 5 (часть 1)",
+    "url": "/links/re7.html#666848828",
+    "direct": "https://bsufiles.thedrhax.pw/streams/666848828.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/666848828.torrent"
   }
 }
