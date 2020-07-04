@@ -1683,7 +1683,11 @@
         { "name": "Among Trees", "start": "3:59:59" },
         { "name": "Hello Guest", "start": "5:12:52" }
       ] },
-      { "name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated", "twitch": "661040084" }
+      { "name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated", "twitch": "661040084" },
+      { "twitch": "669777336", "subrefs": [
+        { "name": "Mortal Shell" },
+        { "name": "Fury Unleashed", "start": "3:32:05" }
+      ] }
     ]
   },
   {
@@ -1952,7 +1956,8 @@
       { "name": "4", "twitch": "557620811", "start": "4:57:47" },
       { "name": "5", "twitch": "560235613" },
       { "name": "6", "twitch": "562741500", "start": "1:01:36" },
-      { "name": "7", "twitch": "563294076" }
+      { "name": "7", "twitch": "563294076" },
+      { "name": "8 (заново)", "twitch": "669777336", "start": "3:56:41" }
     ]
   },
   {
