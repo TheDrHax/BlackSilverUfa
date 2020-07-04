@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "L.A. Noire - 7", "year": 2020, "url": "/links/la-noire.html#658127870"},
       {"name": "Vampire: The Masquerade - Bloodlines - 1", "year": 2020, "url": "/links/vampire-masquerade.html#659080815"},
       {"name": "Vampire: The Masquerade - Bloodlines - 2 / неПрофессиональный неE3 2020 - Square Enix - Marvel's Avengers (без Артёма)", "year": 2020, "url": "/links/vampire-masquerade.html#660069027"},
       {"name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated / неПрофессиональный неE3 2020 - CD Projekt Red - Cyberpunk 2077 / Biped - 2 / Broforce", "year": 2020, "url": "/links/first.html#661040084"},
@@ -12,7 +11,8 @@
       {"name": "GeoGuessr - 5 / Sea of Thieves - 10", "year": 2020, "url": "/links/geoguessr.html#663976925"},
       {"name": "Vampire: The Masquerade - Bloodlines - 3 / Resident Evil 7 (Madhouse) - 2", "year": 2020, "url": "/links/vampire-masquerade.html#665878817"},
       {"name": "Resident Evil 7 (Madhouse) - 3 / Call of Duty: Warzone - 5 (часть 1)", "year": 2020, "url": "/links/re7.html#666848828"},
-      {"name": "Call of Duty: Warzone - 5 (часть 2)", "year": 2020, "url": "/links/cod-warzone.html#667061238"}
+      {"name": "Call of Duty: Warzone - 5 (часть 2)", "year": 2020, "url": "/links/cod-warzone.html#667061238"},
+      {"name": "Mortal Shell / Fury Unleashed / Dead Cells - 8 (заново)", "year": 2020, "url": "/links/first.html#669777336"}
     ]
   },
   "finished": {
@@ -286,7 +286,8 @@
       {"name": "The Disappearance of the Mitchels", "year": 2020, "url": "/links/first.html#645734946"},
       {"name": "In Sound Mind (демо)", "year": 2020, "url": "/links/first.html#650534841"},
       {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "url": "/links/first.html#653411860"},
-      {"name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated", "year": 2020, "url": "/links/first.html#661040084"}
+      {"name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated", "year": 2020, "url": "/links/first.html#661040084"},
+      {"name": "Mortal Shell / Fury Unleashed", "year": 2020, "url": "/links/first.html#669777336"}
     ]
   },
   "ongoing": {
