@@ -376,11 +376,6 @@
         <i class="fas fa-comments"></i> 48265
       </a>
     </span>
-    <span class="badge badge-warning">
-      <a href="https://www.youtube.com/watch?v=7gFSrcsOPuM" target="_blank">
-        <i class="fab fa-youtube"></i> 7gFSrcsOPuM
-      </a>
-    </span>
     <span class="badge badge-danger">
       <a href="https://bsufiles.thedrhax.pw/streams/649632498.torrent">
         <i class="fas fa-download"></i> торрент
@@ -490,13 +485,14 @@
 </ul>
 
 <div class="video-row d-flex justify-content-center">
-  <p class="stream" data-id="3" data-subtitles="https://blacksilverufa.github.io/chats-2020/v649632498.ass" data-start="12520" data-name="4" data-twitch="649632498" data-youtube="7gFSrcsOPuM" />
+  <p class="stream" data-id="3" data-subtitles="https://blacksilverufa.github.io/chats-2020/v649632498.ass" data-start="12520" data-name="4" data-twitch="649632498" data-direct="https://bsufiles.thedrhax.pw/streams/permanent/649632498.mp4" />
 </div>
 
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file=https://blacksilverufa.github.io/chats-2020/v649632498.ass --start=12520 ytdl://7gFSrcsOPuM
+  <pre class="highlight"><code>mpv --sub-file=https://blacksilverufa.github.io/chats-2020/v649632498.ass --start=12520 https://bsufiles.thedrhax.pw/streams/permanent/649632498.mp4
+streamlink -p mpv -a "--sub-file=https://blacksilverufa.github.io/chats-2020/v649632498.ass --start=12520" --player-passthrough hls twitch.tv/videos/649632498 best
 </code></pre>
 </div></div>
 
