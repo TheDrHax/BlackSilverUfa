@@ -1070,7 +1070,8 @@
       { "name": "1 (часть 1)", "twitch": "663012938" },
       { "name": "1 (часть 2)", "twitch": "663045694" },
       { "name": "2", "twitch": "665878817", "start": "4:28:53" },
-      { "name": "3", "twitch": "666848828" }
+      { "name": "3", "twitch": "666848828" },
+      { "name": "4", "twitch": "675494632", "start": "3:14:18" }
     ]
   },
   {
@@ -1339,7 +1340,8 @@
         { "name": "Asus TUF Gaming H7", "start": "10:51" }
       ] },
       { "name": "Посылки (31.12.19)", "twitch": "528855659" },
-      { "name": "Asus ROG Zephyrus G15", "twitch": "650534841" }
+      { "name": "Asus ROG Zephyrus G15", "twitch": "650534841" },
+      { "name": "Asus ROG Strix Scope", "twitch": "675494632" }
     ]
   },
   {
@@ -1688,7 +1690,8 @@
       { "twitch": "669777336", "subrefs": [
         { "name": "Mortal Shell" },
         { "name": "Fury Unleashed", "start": "3:32:05" }
-      ] }
+      ] },
+      { "name": "Destroy All Humans! (демо)", "twitch": "675494632", "start": "2:44:33" }
     ]
   },
   {
