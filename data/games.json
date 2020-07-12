@@ -905,7 +905,8 @@
       { "name": "PC Gaming Show", "twitch": "649632498", "start": "5:00:34" },
       { "name": "Square Enix - Marvel's Avengers (без Артёма)", "twitch": "660069027", "start": "3:59:33" },
       { "name": "CD Projekt Red - Cyberpunk 2077", "twitch": "661040084", "start": "2:58:33" },
-      { "name": "Devolver Digital", "twitch": "676500778", "start": "6:00:51" }
+      { "name": "Devolver Digital", "twitch": "676500778", "start": "6:00:51" },
+      { "name": "Ubisoft (без Артёма)", "twitch": "677524120", "start": "3:53:13" }
     ]
   },
   {
@@ -1152,7 +1153,8 @@
       { "name": "No One Lives Under The Lighthouse", "twitch": "644774531", "start": "4:55:52" },
       { "name": "The Walking Fish 2: Final Frontier", "twitch": "645734946", "start": "4:19:43" },
       { "name": "Secret Agent Barbie", "twitch": "649632498" },
-      { "name": "Winx Club", "twitch": "670671274" }
+      { "name": "Winx Club", "twitch": "670671274" },
+      { "name": "Devolverland Expo", "twitch": "677524120" }
     ]
   },
   {
@@ -1694,7 +1696,8 @@
         { "name": "Mortal Shell" },
         { "name": "Fury Unleashed", "start": "3:32:05" }
       ] },
-      { "name": "Destroy All Humans! (демо)", "twitch": "675494632", "start": "2:44:33" }
+      { "name": "Destroy All Humans! (демо)", "twitch": "675494632", "start": "2:44:33" },
+      { "name": "Trackmania", "twitch": "677524120", "start": "1:40:14" }
     ]
   },
   {
@@ -2926,7 +2929,8 @@
     "streams": [
       { "name": "1", "twitch": "276648637" },
       { "name": "2", "twitch": "278566845", "segment": 1 },
-      { "name": "3", "twitch": "676500778", "start": "58:38" }
+      { "name": "3", "twitch": "676500778", "start": "58:38" },
+      { "name": "4", "twitch": "677524120", "start": "2:00:30" }
     ]
   },
   {
