@@ -427,7 +427,10 @@ class SegmentReference:
         if self.game.type == 'list':
             return self.name
         else:
-            return f'{self.game.name} - {self.name}'
+            if self.name.split(' ')[0].isnumeric():
+                return f'{self.game.name} #{self.name}'
+            else:
+                return f'{self.game.name} - {self.name}'
 
     @property
     def url(self):
