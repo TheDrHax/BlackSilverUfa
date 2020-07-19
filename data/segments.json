@@ -4168,8 +4168,7 @@
   "654380816": {
     "youtube": "ZBHv3E0ZDHo", "abs_start": "0:00", "abs_end": "7:32:13", "duration": "1:04:04:29",
     "name": "The Last of Us: Part II #1",
-    "url": "/links/tlou-2.html#654380816",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/654380816.torrent"
+    "url": "/links/tlou-2.html#654380816"
   },
   "655265437": {
     "youtube": "ZBHv3E0ZDHo", "abs_start": "-7:32:13", "abs_end": "6:41:07", "duration": "1:04:04:29",
@@ -4308,5 +4307,12 @@
     "name": "Ghost of Tsushima #2",
     "url": "/links/ghost-of-tsushima.html#682267155",
     "torrent": "https://bsufiles.thedrhax.pw/streams/682267155.torrent"
+  },
+  "683282462": {
+    "abs_start": "0:00", "abs_end": "13:44:32", "duration": "0:00",
+    "name": "Ghost of Tsushima #3",
+    "url": "/links/ghost-of-tsushima.html#683282462",
+    "direct": "https://bsufiles.thedrhax.pw/streams/683282462.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/683282462.torrent"
   }
 }
