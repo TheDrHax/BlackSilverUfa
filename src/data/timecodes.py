@@ -38,7 +38,7 @@ class Timecode(object):
             return ('-' if negative else '') + '0:' + str(s).zfill(2)
 
         result = []
-        for i in [24*60*60, 60*60, 60, 1]:  # days, hours, minutes, seconds
+        for i in [60*60, 60, 1]:  # hours, minutes, seconds
             if s // i > 0 or len(result) > 0:
                 if len(result) == 0:
                     result.append(str(s // i))
