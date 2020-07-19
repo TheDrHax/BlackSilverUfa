@@ -26,7 +26,8 @@ def wait_for_stream():
 def init():
     global t
     stream = wait_for_stream()
-    print(stream)
+    print(f'VOD: {stream["vod"]}')
+    print(f'Start: {stream["time"]}')
     t = TimecodeHelper(stream['time'])
 
 
