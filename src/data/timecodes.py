@@ -233,12 +233,13 @@ class TimecodesSlice(Timecodes):
 
                 if not left and not right:
                     continue
-
-                if left and not right:  # start only
+                elif left and not right:  # start only
                     t = Timecode(t.value, t.name)
-
-                if not left and right:  # end only
-                    t = Timecode(t.value + duration, t.name)
+                elif not left and right:  # end only
+                    t = Timecode(t.value + duration, t.name) 
+                elif t.duration: # both ends
+                    delta = self.segment.offset(t + t.duration) - self.segment.offset(t)
+                    t.duration -= delta.value
 
                 ts.add(t - self.segment.offset(t))
 
