@@ -25,9 +25,20 @@ class Search {
           return [];
         }
 
-        return category.games.map((game) => {
+        return category.games.flatMap((game) => {
           game.group = category.name;
-          return game;
+
+          let names = game.name.split(' / ');
+
+          if (names.length > 1) {
+            return names.map((name) => {
+              let subref = Object.assign({}, game);
+              subref.name = name;
+              return subref;
+            });
+          } else {
+            return game;
+          }
         });
       });
 
