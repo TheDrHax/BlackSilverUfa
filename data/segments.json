@@ -4304,10 +4304,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/682267155.torrent"
   },
   "683282462": {
-    "abs_start": "0:00", "abs_end": "13:44:32", "duration": "0:00",
-    "name": "Ghost of Tsushima #3",
+    "youtube": "FTTHKugmVTM", "official": false, "abs_start": "0:00", "abs_end": "6:53:43", "duration": "6:53:43",
+    "name": "Ghost of Tsushima #3 (часть 1)",
     "url": "/links/ghost-of-tsushima.html#683282462",
-    "direct": "https://bsufiles.thedrhax.pw/streams/683282462.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/683282462.torrent"
+  },
+  "683282462.1": {
+    "youtube": "IXgv-8u2244", "official": false, "abs_start": "6:53:42", "abs_end": "13:44:08", "duration": "6:50:26",
+    "name": "Ghost of Tsushima #3 (часть 2)",
+    "url": "/links/ghost-of-tsushima.html#683282462.1",
     "torrent": "https://bsufiles.thedrhax.pw/streams/683282462.torrent"
   },
   "684388398": {
