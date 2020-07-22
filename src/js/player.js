@@ -141,7 +141,7 @@ function spawnPlyr(wrapper, callback) {
 
   function subResize() {
     var e_sub = subtitles.canvas;
-    var e_vid = player.elements.wrapper;
+    var e_vid = player.elements.container;
 
     var width = Math.min(e_vid.clientWidth, e_vid.clientHeight / 9 * 16);
     var height = width / 16 * 9;
