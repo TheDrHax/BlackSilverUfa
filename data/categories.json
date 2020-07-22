@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Розыгрыш Asus ROG Strix Scope / Wreckfest #3 / Sea of Thieves #11 / неПрофессиональный неE3 2020 - Devolver Digital", "year": 2020, "url": "/links/events.html#676500778"},
       {"name": "Devolverland Expo / Trackmania / Wreckfest #4 / неПрофессиональный неE3 2020 - Ubisoft (без Артёма)", "year": 2020, "url": "/links/single.html#677524120"},
       {"name": "Far Cry 3 #1 / Wreckfest #5", "year": 2020, "url": "/links/far-cry-3.html#678368491"},
       {"name": "Far Cry 3 #2 / Death Stranding #1 (заново, PC)", "year": 2020, "url": "/links/far-cry-3.html#679308738"},
@@ -12,7 +11,8 @@
       {"name": "Ghost of Tsushima #2", "year": 2020, "url": "/links/ghost-of-tsushima.html#682267155"},
       {"name": "Ghost of Tsushima #3 (часть 1)", "year": 2020, "url": "/links/ghost-of-tsushima.html#683282462"},
       {"name": "Ghost of Tsushima #3 (часть 2)", "year": 2020, "url": "/links/ghost-of-tsushima.html#683282462.1"},
-      {"name": "Green Hell #4 (сюжет)", "year": 2020, "url": "/links/green-hell.html#684388398"}
+      {"name": "Green Hell #4 (сюжет)", "year": 2020, "url": "/links/green-hell.html#684388398"},
+      {"name": "Трейлеры и нарезки", "year": 2020, "url": "/links/other.html#687309207"}
     ]
   },
   "finished": {
@@ -526,7 +526,8 @@
       {"name": "Розыгрыш Asus ROG Strix SCAR II", "year": 2019, "url": "/links/events.html#508178551"},
       {"name": "Xbox Game Pass Ultimate", "year": 2019, "url": "/links/other.html#526521156"},
       {"name": "Розыгрыш мерча Metro Exodus", "year": 2020, "url": "/links/events.html#572721394"},
-      {"name": "Розыгрыш Asus ROG Strix Scope", "year": 2020, "url": "/links/events.html#676500778"}
+      {"name": "Розыгрыш Asus ROG Strix Scope", "year": 2020, "url": "/links/events.html#676500778"},
+      {"name": "Трейлеры и нарезки", "year": 2020, "url": "/links/other.html#687309207"}
     ]
   },
   "expos": {
