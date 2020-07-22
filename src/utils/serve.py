@@ -16,6 +16,9 @@ def generate():
 def serve(host='0.0.0.0', port=8000, root=_('')):
     server = Server()
 
+    server.setHeader('Access-Control-Allow-Origin', '*')
+    server.setHeader('Access-Control-Allow-Methods', '*')
+
     server.watch('data', generate)
     server.watch('static', generate)
     server.watch('src', generate)
