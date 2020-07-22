@@ -14,14 +14,6 @@ var darkmode = new Darkmode({
 });
 darkmode.showWidget();
 
-// Workaround for https://github.com/sandoche/Darkmode.js/issues/7
-document.querySelector('.darkmode-toggle').addEventListener('click', function (e) {
-  this.style.pointerEvents = 'none';
-  setTimeout(() => {
-    this.style.pointerEvents = '';
-  }, 500);
-});
-
 var headroom = new Headroom(document.querySelector('nav'), {
   onPin: function () {
     darkmode.button.hidden = false;
