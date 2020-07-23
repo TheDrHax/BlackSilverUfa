@@ -5,6 +5,8 @@ from datetime import timedelta, datetime as dtt
 from ..data.cache import cache
 from ..data.config import tcd_config
 
+from tcd.subtitles import SubtitlesASS
+
 
 class EmptyLineError(Exception):
     pass
@@ -44,12 +46,19 @@ class Message:
         self.end = self.start + timedelta(seconds=value)
 
     @property
-    def username(self):
-        return self.fields['Text'].split(': ', 1)[0]
+    def color_bgr(self):
+        username = self.fields['Text'].split(': ', 1)[0]
+        if username.startswith('{\\c&H'):
+            return username[5:11]
+        else:
+            return None
 
-    @username.setter
-    def username(self, value):
-        self.fields['Text'] = f'{value}: {self.text}'
+    @property
+    def username(self):
+        username = self.fields['Text'].split(': ', 1)[0]
+        if self.color_bgr:
+            username = username[13:len(username)-13]
+        return username
 
     @property
     def text(self):
@@ -57,7 +66,8 @@ class Message:
 
     @text.setter
     def text(self, value):
-        self.fields['Text'] = f'{self.username}: {value}'
+        username = self.fields['Text'].split(': ', 1)[0]
+        self.fields['Text'] = f'{username}: {value}'
 
     def __init__(self, line, event_format):
         self.format = event_format
@@ -93,14 +103,14 @@ def convert(input_file, output_file=None, func=lambda msg: msg):
         for line in f_in:
             line = line.strip()
 
-            if line.startswith('[Events]'):
+            if not event_section and line.startswith('[Events]'):
                 event_section = True
 
             if event_section and line.startswith('Format: '):
                 input_event_format = line[8:].split(', ')
                 line = tcd_config['ssa_events_format']
 
-            if line.startswith('Dialogue: '):
+            if event_section and line.startswith('Dialogue: '):
                 if not input_event_format:
                     raise ValueError(f'Events format not found in {input_file}')
 
