@@ -22,7 +22,7 @@ class Message:
     @property
     def start(self):
         return self._ptime(self.fields['Start'])
-    
+
     @start.setter
     def start(self, value):
         self.fields['Start'] = self._ftime(value)
@@ -34,6 +34,14 @@ class Message:
     @end.setter
     def end(self, value):
         self.fields['End'] = self._ftime(value)
+
+    @property
+    def duration(self):
+        return self.end - self.start
+
+    @duration.setter
+    def duration(self, value):
+        self.end = self.start + timedelta(seconds=value)
 
     @property
     def username(self):
@@ -59,7 +67,7 @@ class Message:
 
         try:
             self.text
-        except:
+        except Exception:
             raise EmptyLineError()
 
     def to_str(self, event_format=None):

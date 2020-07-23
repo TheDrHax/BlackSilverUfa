@@ -7,10 +7,16 @@ import os
 import re
 from multiprocessing import Pool
 
+import tcd
 from docopt import docopt
 from tcd.twitch import Message
+from tcd.subtitles import Subtitle
 
 from ..utils.ass import convert
+from ..data.config import tcd_config
+
+
+tcd.settings.update(tcd_config)
 
 
 PACKED_EMOTE = re.compile('([^\ ]+) x⁣([0-9]+)')
@@ -42,9 +48,13 @@ def unpack_emotes(line):
 
 
 def convert_msg(msg):
-    # Update emote groups
+    # Repack emote groups
     text = unpack_emotes(msg.text)
-    msg.text = Message.group(text, format='{emote} x⁣{count}', collocations=10)
+    text = Message.group(text, format='{emote} x⁣{count}', collocations=10)
+    msg.text = text
+
+    # Update message durations
+    msg.duration = Subtitle._duration(text)
 
     return msg
 
