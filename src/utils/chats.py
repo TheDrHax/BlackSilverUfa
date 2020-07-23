@@ -5,9 +5,9 @@ import requests
 from . import _, load_json
 from ..data.fallback import FallbackSource
 from ..data import config, streams
+from ..data.config import tcd_config
 
 
-tcd_config = load_json('data/tcd.json')
 fallback = FallbackSource(**config['fallback'])
 
 
