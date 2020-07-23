@@ -907,7 +907,11 @@
       { "name": "Square Enix - Marvel's Avengers (без Артёма)", "twitch": "660069027", "start": "3:59:33" },
       { "name": "CD Projekt Red - Cyberpunk 2077", "twitch": "661040084", "start": "2:58:33" },
       { "name": "Devolver Digital", "twitch": "676500778", "start": "6:00:51" },
-      { "name": "Ubisoft (без Артёма)", "twitch": "677524120", "start": "3:53:13" }
+      { "name": "Ubisoft (без Артёма)", "twitch": "677524120", "start": "3:53:13" },
+      { "twitch": "688270341", "subrefs": [
+        { "name": "Microsoft", "start": "2:32:00" },
+        { "name": "Microsoft", "start": "2:57:55" }
+      ] }
     ]
   },
   {
@@ -1703,7 +1707,8 @@
       ] },
       { "name": "Destroy All Humans! (демо)", "twitch": "675494632", "start": "2:44:33" },
       { "name": "Trackmania", "twitch": "677524120", "start": "1:40:14" },
-      { "name": "Rocket Arena", "twitch": "680344977", "start": "1:54:55" }
+      { "name": "Rocket Arena", "twitch": "680344977", "start": "1:54:55" },
+      { "name": "Carrion", "twitch": "688270341" }
     ]
   },
   {
@@ -1806,7 +1811,8 @@
       { "name": "6", "twitch": "618698350", "start": "58:37" },
       { "name": "7", "twitch": "623734401", "start": "5:08:04" },
       { "name": "8", "twitch": "628517071", "start": "5:15:28" },
-      { "name": "9", "twitch": "647860070", "segment": 0, "start": "1:20:09" }
+      { "name": "9", "twitch": "647860070", "segment": 0, "start": "1:20:09" },
+      { "name": "10", "twitch": "688270341", "start": "3:58:45" }
     ]
   },
   {
