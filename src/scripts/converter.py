@@ -10,7 +10,7 @@ from multiprocessing import Pool
 import tcd
 from docopt import docopt
 from tcd.twitch import Message
-from tcd.subtitles import Subtitle
+from tcd.subtitles import SubtitlesASS as Subtitle
 
 from ..utils.ass import convert
 from ..data.config import tcd_config
@@ -29,7 +29,7 @@ def unpack_emotes(line):
         mg = m.groups()
         ms = m.span()
 
-        emote = mg[0]
+        emote = mg[0].replace(' ', ' ')  # thin space to regular space
         count = int(mg[1])
 
         if count > 200:
@@ -47,14 +47,24 @@ def unpack_emotes(line):
     return result
 
 
+def unpack_line_breaks(line):
+    return line.replace('\\N', '')
+
+
 def convert_msg(msg):
+    text = unpack_line_breaks(msg.text)
+
     # Repack emote groups
-    text = unpack_emotes(msg.text)
-    text = Message.group(text, format='{emote} x⁣{count}', collocations=10)
-    msg.text = text
+    text = unpack_emotes(text)
+    text = Message.group(text, **tcd_config['group_repeating_emotes'])
 
     # Update message durations
     msg.duration = Subtitle._duration(text)
+
+    # Recreate line breaks
+    text = Subtitle.wrap(msg.username, text)
+
+    msg.text = text
 
     return msg
 

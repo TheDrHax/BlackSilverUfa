@@ -1,5 +1,5 @@
 {
-  "version": "2.3",
+  "version": "2.4.4",
 
   "client_id": "jzkbprff40iqj646a697cyrvl0zt2m6",
   "cooldown": 100,
@@ -9,6 +9,7 @@
   "directory": "./_site/chats",
   "filename_format": "{directory}/v{video_id}.{format}",
 
+  "max_width": 60,
   "subtitle_duration": 2,
 
   "dynamic_duration": {
@@ -26,6 +27,7 @@
     "enabled": true,
     "threshold": 3,
     "collocations": 10,
+    "collocations_threshold": 2,
     "format": "{emote} x⁣{count}"
   }
 }
