@@ -28,7 +28,7 @@ def download(key, dest):
             os.unlink(dest)
 
     print(f'Downloading chat {key} via TCD')
-    tcd_config['directory'] = '/'.join(dest.split('/')[:-1])
+    tcd_config['directory'] = os.path.dirname(dest)
     tcd.settings.update(tcd_config)
 
     try:
