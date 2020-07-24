@@ -4256,7 +4256,7 @@
   },
   "675494632": {
     "youtube": "pcxoaLQ2YvI", "official": false, "abs_start": "0:00", "abs_end": "5:37:55", "duration": "5:37:55",
-    "name": "Asus ROG Strix Scope / Destroy All Humans! (демо) / Resident Evil 7 (Madhouse) #4",
+    "name": "Asus ROG Strix Scope / Destroy All Humans! - Демо / Resident Evil 7 (Madhouse) #4",
     "url": "/links/unboxing.html#675494632",
     "torrent": "https://bsufiles.thedrhax.pw/streams/675494632.torrent"
   },
@@ -4328,8 +4328,15 @@
   },
   "688270341": {
     "youtube": "lBzivhUxMSI", "official": false, "abs_start": "0:00", "abs_end": "6:10:49", "duration": "6:10:49",
-    "name": "Carrion / неПрофессиональный неE3 2020 - Microsoft / SnowRunner #10",
-    "url": "/links/first.html#688270341",
+    "name": "Carrion #1 / неПрофессиональный неE3 2020 - Microsoft / SnowRunner #10",
+    "url": "/links/carrion.html#688270341",
     "torrent": "https://bsufiles.thedrhax.pw/streams/688270341.torrent"
+  },
+  "689243227": {
+    "abs_start": "0:00", "abs_end": "6:47:36", "duration": "0:00",
+    "name": "Carrion #2 / Destroy All Humans! #1",
+    "url": "/links/carrion.html#689243227",
+    "direct": "https://bsufiles.thedrhax.pw/streams/689243227.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/689243227.torrent"
   }
 }
