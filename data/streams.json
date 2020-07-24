@@ -1124,12 +1124,9 @@
   "678368491": { "youtube": "_GkQZR47NdM", "official": false },
   "679308738": { "youtube": "guLSkf5B0Dg", "official": false },
   "680344977": { "youtube": "dEXmtFgACq4", "official": false },
-  "681457263": { "youtube": "4Q_wL9nmS1s", "official": false },
-  "682267155": { "youtube": "p0PWbXx3upA", "official": false },
-  "683282462": [
-    { "youtube": "FTTHKugmVTM", "official": false },
-    { "youtube": "IXgv-8u2244", "offset": "6:53:42", "official": false }
-  ],
+  "681457263": { "youtube": "LBrFuF__368", "end": "4:56:33" },
+  "682267155": { "youtube": "LBrFuF__368", "offset": "-4:56:33", "end": "8:30:22", "force_start": true },
+  "683282462": { "youtube": "LBrFuF__368", "offset": "-13:26:56", "force_start": true, "cuts": ["12:29:06~13:22:46"] },
   "684388398": { "youtube": "thAzX-Tb9bc", "official": false },
   "687309207": { "youtube": "LVlDWbpOg9o", "official": false },
   "688270341": { "youtube": "lBzivhUxMSI", "official": false },
