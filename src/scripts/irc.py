@@ -9,6 +9,7 @@ vod         Twitch VOD ID
 """
 
 
+import os
 from datetime import datetime, timedelta
 
 import requests
@@ -18,6 +19,7 @@ from tcd.settings import settings as tcd_settings
 from tcd.subtitles import SubtitleWriter
 
 from ..data.config import tcd_config
+from ..data.streams import streams
 from ..data.timecodes import Timecode
 
 
@@ -82,6 +84,7 @@ def main(argv=None):
     duration = timedelta(seconds=int(Timecode(args['<duration>'])))
     vod = args['<vod>']
 
+    tcd_settings['directory'] = os.path.dirname(streams[vod].subtitles_path)
     writer = SubtitleWriter(vod)
 
     for msg in parser(source, start, duration):
