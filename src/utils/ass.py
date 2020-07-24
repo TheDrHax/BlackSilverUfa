@@ -146,7 +146,7 @@ def cut_subtitles(segment):
         return
 
     def convert_msg(msg):
-        time = msg.time.time()
+        time = msg.start.time()
         time = 3600 * time.hour + 60 * time.minute + time.second
 
         # Drop all cut messages
@@ -155,9 +155,11 @@ def cut_subtitles(segment):
                 raise EmptyLineError()
 
         # Rebase messages after cuts
-        msg.time -= timedelta(seconds=sum([cut.duration
-                                           for cut in segment.cuts
-                                           if cut.value <= time]))
+        delta = timedelta(seconds=sum([cut.duration
+                                       for cut in segment.cuts
+                                       if cut.value <= time]))
+        msg.start -= delta
+        msg.end -= delta
 
         return msg
 
