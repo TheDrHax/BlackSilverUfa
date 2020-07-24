@@ -194,7 +194,7 @@ class Segment:
         else:
             keys = ['youtube', 'cuts', 'official',
                     'abs_start', 'abs_end', 'duration']
-            multiline_keys = ['name', 'url', 'direct', 'torrent']
+            multiline_keys = ['name', 'date', 'url', 'direct', 'torrent']
 
         def get_attr(key):
             if key in self.fallbacks and not compiled:
@@ -245,6 +245,9 @@ class Segment:
 
         for key in multiline_keys:
             value = get_attr(key)
+
+            if key == 'date':
+                value = value.date().isoformat()
 
             if value is None:
                 continue
