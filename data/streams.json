@@ -1126,9 +1126,9 @@
   "680344977": { "youtube": "dEXmtFgACq4", "official": false },
   "681457263": { "youtube": "LBrFuF__368", "end": "4:56:33" },
   "682267155": { "youtube": "LBrFuF__368", "offset": "-4:56:33", "end": "8:30:22", "force_start": true },
-  "683282462": { "youtube": "LBrFuF__368", "offset": "-13:26:56", "force_start": true, "cuts": ["12:29:06~13:22:46"] },
+  "683282462": { "youtube": "LBrFuF__368", "offset": "-13:26:56", "cuts": ["12:29:06~13:22:46"], "force_start": true },
   "684388398": { "youtube": "thAzX-Tb9bc", "official": false },
   "687309207": { "youtube": "LVlDWbpOg9o", "official": false },
   "688270341": { "youtube": "lBzivhUxMSI", "official": false },
-  "689243227": {  }
+  "689243227": { "youtube": "2mOvta9wmMo", "official": false }
 }
