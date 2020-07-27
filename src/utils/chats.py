@@ -2,16 +2,20 @@ import os
 import tcd
 import requests
 
-from . import _, load_json
+from . import _
 from ..data.fallback import FallbackSource
 from ..data import config, streams
 from ..data.config import tcd_config
+from ..utils.ass import convert_file
 
 
 fallback = FallbackSource(**config['fallback'])
 
 
-def download(key, dest):
+def download(stream):
+    key = stream.twitch
+    dest = stream.subtitles_path
+
     if fallback.chats and f'{key}.ass' in fallback:
         url = fallback.url(f'{key}.ass')
 
@@ -19,9 +23,13 @@ def download(key, dest):
 
         try:
             r = requests.get(url)
+
             with open(dest, 'wb') as of:
                 for chunk in r.iter_content(chunk_size=1024):
                     of.write(chunk)
+
+            convert_file(dest, style=stream.subtitles_style)
+
             return
         except Exception as ex:
             print(ex)
@@ -29,6 +37,7 @@ def download(key, dest):
 
     print(f'Downloading chat {key} via TCD')
     tcd_config['directory'] = os.path.dirname(dest)
+    tcd_config['ssa_style_default'] = stream.subtitles_style.compile()
     tcd.settings.update(tcd_config)
 
     try:
@@ -47,4 +56,4 @@ if __name__ == '__main__':
     # Download missing stream subtitles
     for key, stream in streams.items():
         if not os.path.isfile(stream.subtitles_path):
-            download(key, stream.subtitles_path)
+            download(stream)
