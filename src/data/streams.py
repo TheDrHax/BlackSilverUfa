@@ -5,15 +5,17 @@ from subprocess import run, PIPE
 from sortedcontainers import SortedList, SortedKeyList
 
 from .cache import cached
-from .config import config
+from .config import config, tcd_config
 from .fallback import fallback
 from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice
 from ..utils import _, load_json, last_line, count_lines, join, json_escape, indent
+from ..utils.ass import SubtitlesStyle
 
 
 repo = Repo('.')
 
 STREAMS_JSON = 'data/streams.json'
+STREAMS_META_JSON = 'data/streams-meta.json'
 
 
 @attr.s(auto_attribs=True, kw_only=True, repr=False, cmp=False)
@@ -580,7 +582,7 @@ class Stream(SortedKeyList):
 
         return int(offset)
 
-    def __init__(self, data, key):
+    def __init__(self, data, key, meta={}):
         SortedKeyList.__init__(self, key=self._segment_key)
 
         if type(data) is not list:
@@ -588,10 +590,15 @@ class Stream(SortedKeyList):
 
         self.twitch = key
         self.games = []
+        self.meta = meta
         self.timecodes = Timecodes(timecodes.get(key) or {})
 
         for segment in data:
             Segment(stream=self, **segment)
+
+    # Workaround for SortedKeyList.__init__
+    def __new__(cls, *args, **kwargs):
+        return object.__new__(cls)
 
     @property
     @cached('duration-twitch-{0[0].twitch}')
@@ -607,7 +614,7 @@ class Stream(SortedKeyList):
     @property
     def abs_start(self) -> Timecode:
         return Timecode(0)
-    
+
     @property
     def abs_end(self) -> Timecode:
         return self.duration
@@ -638,6 +645,18 @@ class Stream(SortedKeyList):
     @property
     def subtitles_path(self):
         return _(f'chats/{self.date.year}/v{self.twitch}.ass')
+
+    @property
+    def subtitles_style(self) -> SubtitlesStyle:
+        style = SubtitlesStyle(tcd_config['ssa_style_format'],
+                               tcd_config['ssa_style_default'])
+
+        if self.meta.get('chromakey'):
+            style['Alignment'] = '5'
+        else:
+            style['Alignment'] = '1'
+
+        return style
 
     @property
     @cached('messages-{0[0].twitch}')
@@ -704,15 +723,25 @@ class Segments:
 
 
 class Streams(dict):
-    def __init__(self, filename: str = STREAMS_JSON):
-        self.filename = filename
-        streams = load_json(filename)
+    def __init__(self, streams_json: str = STREAMS_JSON,
+                 meta_json: str = STREAMS_META_JSON):
+        self.filename = streams_json
 
-        for id, stream in streams.items():
+        streams = load_json(streams_json)
+        metadata = load_json(meta_json)
+
+        meta = metadata.get('default') or {}
+
+        for twitch_id, stream in streams.items():
+            meta = dict(meta)
+
+            if twitch_id in metadata:
+                meta.update(metadata[twitch_id])
+
             if type(stream) is dict:
-                self[id] = Stream([stream], id)
+                self[twitch_id] = Stream([stream], twitch_id, meta=meta)
             elif type(stream) is list:
-                self[id] = Stream(stream, id)
+                self[twitch_id] = Stream(stream, twitch_id, meta=meta)
             else:
                 raise TypeError
 
