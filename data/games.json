@@ -1715,10 +1715,11 @@
   },
   {
     "name": "Maid of Sker",
-    "category": "ongoing",
+    "category": "finished",
     "id": "maid-of-sker",
     "streams": [
-      { "name": "1 (часть 1)", "twitch": "693186645" }
+      { "name": "1", "twitch": "693186645" },
+      { "name": "2", "twitch": "693322490" }
     ]
   },
   {
