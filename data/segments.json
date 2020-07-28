@@ -5198,11 +5198,18 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/690295728.torrent"
   },
   "693186645": {
-    "abs_start": "0:00", "abs_end": "3:33:15", "duration": "0:00",
-    "name": "Maid of Sker #1 (часть 1)",
+    "youtube": "rEu-KXLiAAc", "official": false, "abs_start": "0:00", "abs_end": "3:32:18", "duration": "3:32:18",
+    "name": "Maid of Sker #1",
     "date": "2020-07-28",
     "url": "/links/maid-of-sker.html#693186645",
-    "direct": "https://bsufiles.thedrhax.pw/streams/693186645.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/693186645.torrent"
+  },
+  "693322490": {
+    "abs_start": "0:00", "abs_end": "2:23:57", "duration": "0:00",
+    "name": "Maid of Sker #2",
+    "date": "2020-07-28",
+    "url": "/links/maid-of-sker.html#693322490",
+    "direct": "https://bsufiles.thedrhax.pw/streams/693322490.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/693322490.torrent"
   }
 }
