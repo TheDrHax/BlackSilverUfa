@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Far Cry 3 #2 / Death Stranding #1 (заново, PC)", "year": 2020, "url": "/links/far-cry-3.html#679308738"},
       {"name": "Far Cry 3 #3 / Rocket Arena / Call of Duty: Warzone #6", "year": 2020, "url": "/links/far-cry-3.html#680344977"},
       {"name": "Ghost of Tsushima #1", "year": 2020, "url": "/links/ghost-of-tsushima.html#681457263"},
       {"name": "Ghost of Tsushima #2", "year": 2020, "url": "/links/ghost-of-tsushima.html#682267155"},
@@ -12,7 +11,8 @@
       {"name": "Трейлеры и нарезки", "year": 2020, "url": "/links/other.html#687309207"},
       {"name": "Carrion #1 / неПрофессиональный неE3 2020 - Microsoft / SnowRunner #10", "year": 2020, "url": "/links/carrion.html#688270341"},
       {"name": "Carrion #2 / Destroy All Humans! #1", "year": 2020, "url": "/links/carrion.html#689243227"},
-      {"name": "Hello Neighbor 2 (альфа 1) / Fall Guys (бета) / Tricky Towers #25 / Golf It! #22", "year": 2020, "url": "/links/first.html#690295728"}
+      {"name": "Hello Neighbor 2 (альфа 1) / Fall Guys (бета) / Tricky Towers #25 / Golf It! #22", "year": 2020, "url": "/links/first.html#690295728"},
+      {"name": "Maid of Sker #1 (часть 1)", "year": 2020, "url": "/links/maid-of-sker.html#693186645"}
     ]
   },
   "finished": {
@@ -303,7 +303,8 @@
       {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
       {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "url": "/links/re7.html"},
       {"name": "Destroy All Humans!", "year": 2020, "url": "/links/destroy-all-humans.html"},
-      {"name": "Far Cry 3", "year": 2020, "url": "/links/far-cry-3.html"}
+      {"name": "Far Cry 3", "year": 2020, "url": "/links/far-cry-3.html"},
+      {"name": "Maid of Sker", "year": 2020, "url": "/links/maid-of-sker.html"}
     ]
   },
   "infinite": {
