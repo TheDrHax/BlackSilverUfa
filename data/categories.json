@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Ghost of Tsushima #1", "year": 2020, "url": "/links/ghost-of-tsushima.html#681457263"},
       {"name": "Ghost of Tsushima #2", "year": 2020, "url": "/links/ghost-of-tsushima.html#682267155"},
       {"name": "Ghost of Tsushima #3", "year": 2020, "url": "/links/ghost-of-tsushima.html#683282462"},
       {"name": "Green Hell #4 (сюжет)", "year": 2020, "url": "/links/green-hell.html#684388398"},
@@ -12,7 +11,8 @@
       {"name": "Carrion #2 / Destroy All Humans! #1", "year": 2020, "url": "/links/carrion.html#689243227"},
       {"name": "Hello Neighbor 2 (альфа 1) / Fall Guys (бета) / Tricky Towers #25 / Golf It! #22", "year": 2020, "url": "/links/first.html#690295728"},
       {"name": "Maid of Sker #1", "year": 2020, "url": "/links/maid-of-sker.html#693186645"},
-      {"name": "Maid of Sker #2", "year": 2020, "url": "/links/maid-of-sker.html#693322490"}
+      {"name": "Maid of Sker #2", "year": 2020, "url": "/links/maid-of-sker.html#693322490"},
+      {"name": "Grounded (ранний доступ)", "year": 2020, "url": "/links/first.html#694197234"}
     ]
   },
   "finished": {
@@ -295,7 +295,8 @@
       {"name": "Mortal Shell / Fury Unleashed", "year": 2020, "url": "/links/first.html#669777336"},
       {"name": "Trackmania", "year": 2020, "url": "/links/first.html#677524120"},
       {"name": "Rocket Arena", "year": 2020, "url": "/links/first.html#680344977"},
-      {"name": "Hello Neighbor 2 (альфа 1)", "year": 2020, "url": "/links/first.html#690295728"}
+      {"name": "Hello Neighbor 2 (альфа 1)", "year": 2020, "url": "/links/first.html#690295728"},
+      {"name": "Grounded (ранний доступ)", "year": 2020, "url": "/links/first.html#694197234"}
     ]
   },
   "ongoing": {
