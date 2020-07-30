@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Ghost of Tsushima #2", "year": 2020, "url": "/links/ghost-of-tsushima.html#682267155"},
       {"name": "Ghost of Tsushima #3", "year": 2020, "url": "/links/ghost-of-tsushima.html#683282462"},
       {"name": "Green Hell #4 (сюжет)", "year": 2020, "url": "/links/green-hell.html#684388398"},
       {"name": "Трейлеры и нарезки", "year": 2020, "url": "/links/other.html#687309207"},
@@ -12,7 +11,8 @@
       {"name": "Hello Neighbor 2 (альфа 1) / Fall Guys (бета) / Tricky Towers #25 / Golf It! #22", "year": 2020, "url": "/links/first.html#690295728"},
       {"name": "Maid of Sker #1", "year": 2020, "url": "/links/maid-of-sker.html#693186645"},
       {"name": "Maid of Sker #2", "year": 2020, "url": "/links/maid-of-sker.html#693322490"},
-      {"name": "Grounded (ранний доступ)", "year": 2020, "url": "/links/first.html#694197234"}
+      {"name": "Grounded (ранний доступ)", "year": 2020, "url": "/links/first.html#694197234"},
+      {"name": "Hellpoint #1 (часть 1)", "year": 2020, "url": "/links/hellpoint.html#695209589"}
     ]
   },
   "finished": {
@@ -305,7 +305,8 @@
       {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
       {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "url": "/links/re7.html"},
       {"name": "Destroy All Humans!", "year": 2020, "url": "/links/destroy-all-humans.html"},
-      {"name": "Far Cry 3", "year": 2020, "url": "/links/far-cry-3.html"}
+      {"name": "Far Cry 3", "year": 2020, "url": "/links/far-cry-3.html"},
+      {"name": "Hellpoint", "year": 2020, "url": "/links/hellpoint.html"}
     ]
   },
   "infinite": {
