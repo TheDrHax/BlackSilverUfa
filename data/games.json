@@ -1162,7 +1162,8 @@
       { "name": "The Walking Fish 2: Final Frontier", "twitch": "645734946", "start": "4:19:43" },
       { "name": "Secret Agent Barbie", "twitch": "649632498" },
       { "name": "Winx Club", "twitch": "670671274" },
-      { "name": "Devolverland Expo", "twitch": "677524120" }
+      { "name": "Devolverland Expo", "twitch": "677524120" },
+      { "name": "House on the Hill", "twitch": "695229266", "start": "2:05:26" }
     ]
   },
   {
@@ -1710,8 +1711,16 @@
       ] },
       { "name": "Trackmania", "twitch": "677524120", "start": "1:40:14" },
       { "name": "Rocket Arena", "twitch": "680344977", "start": "1:54:55" },
-      { "name": "Hello Neighbor 2 (альфа 1)", "twitch": "690295728" },
-      { "name": "Grounded (ранний доступ)", "twitch": "694197234" }
+      { "name": "Hello Neighbor 2 (альфа 1)", "twitch": "690295728" }
+    ]
+  },
+  {
+    "name": "Grounded",
+    "category": "infinite",
+    "id": "grounded",
+    "streams": [
+      { "name": "1 (ранний доступ)", "twitch": "694197234" },
+      { "name": "2", "twitch": "695229266", "start": "4:25:01" }
     ]
   },
   {
@@ -1719,7 +1728,8 @@
     "category": "ongoing",
     "id": "hellpoint",
     "streams": [
-      { "name": "1 (часть 1)", "twitch": "695209589" }
+      { "name": "1 (часть 1)", "twitch": "695209589" },
+      { "name": "1 (часть 2)", "twitch": "695229266" }
     ]
   },
   {
