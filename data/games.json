@@ -1715,6 +1715,15 @@
     ]
   },
   {
+    "name": "Halo: Reach",
+    "category": "finished",
+    "id": "halo-reach",
+    "streams": [
+      { "name": "Xbox Game Pass Ultimate", "twitch": "526521156", "start": "2:29:56" },
+      { "name": "Прохождение с Дашей и Джеком", "twitch": "696198252" }
+    ]
+  },
+  {
     "name": "Grounded",
     "category": "infinite",
     "id": "grounded",
