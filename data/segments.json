@@ -4190,7 +4190,7 @@
   },
   "526521156": {
     "youtube": "2U9Si43g4Yc", "abs_start": "0:00", "abs_end": "4:11:38", "duration": "4:11:38",
-    "name": "Xbox Game Pass Ultimate",
+    "name": "Xbox Game Pass Ultimate / Halo: Reach - Xbox Game Pass Ultimate",
     "date": "2019-12-26",
     "url": "/links/other.html#526521156"
   },
@@ -5074,8 +5074,7 @@
     "youtube": "AtiTh2KXX7o", "abs_start": "0:00", "abs_end": "5:17:31", "duration": "5:17:31",
     "name": "Resident Evil 7 (Madhouse) #3 / Call of Duty: Warzone #5 (часть 1)",
     "date": "2020-07-01",
-    "url": "/links/re7.html#666848828",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/666848828.torrent"
+    "url": "/links/re7.html#666848828"
   },
   "667061238": {
     "youtube": "xHHDgqfVeqI", "official": false, "abs_start": "0:00", "abs_end": "1:06:39", "duration": "1:06:39",
@@ -5230,5 +5229,13 @@
     "date": "2020-07-30",
     "url": "/links/hellpoint.html#695229266",
     "torrent": "https://bsufiles.thedrhax.pw/streams/695229266.torrent"
+  },
+  "696198252": {
+    "abs_start": "0:00", "abs_end": "6:20:47", "duration": "0:00",
+    "name": "Halo: Reach - Прохождение с Дашей и Джеком",
+    "date": "2020-07-31",
+    "url": "/links/halo-reach.html#696198252",
+    "direct": "https://bsufiles.thedrhax.pw/streams/696198252.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/696198252.torrent"
   }
 }
