@@ -31,8 +31,8 @@
     "category": "ongoing",
     "id": "beyond-blue",
     "streams": [
-      { "name": "1.1", "twitch": "647778850" },
-      { "name": "1.2", "twitch": "647860070", "segment": 0 }
+      { "name": "1 (часть 1)", "twitch": "647778850" },
+      { "name": "1 (часть 2)", "twitch": "647860070", "segment": 0 }
     ]
   },
   {
@@ -87,7 +87,6 @@
       { "name": "Call of Duty WWII: Nazi Zombies", "twitch": "278920291", "segment": 1 },
       { "name": "Drunk-Fu: Wasted Masters", "twitch": "284156303", "start": "3:26:53" },
       { "name": "Darwin Project", "twitch": "287404564", "start": "53:23" },
-      { "name": "CASE 2: Animatronics Survival (кооп)", "twitch": "293012700", "start": "2:58:54" },
       { "name": "I'm not a Monster", "twitch": "313747869", "start": "2:42:03" },
       { "name": "A Gummy's Life", "twitch": "316677687" },
       { "name": "Blackout Club", "twitch": "331965944" },
@@ -287,8 +286,8 @@
     "streams": [
       { "name": "1", "twitch": "483965510" },
       { "name": "2", "twitch": "484398311" },
-      { "name": "3.1", "twitch": "484914562", "start": "3:58:42" },
-      { "name": "3.2", "twitch": "485019796" }
+      { "name": "3 (часть 1)", "twitch": "484914562", "start": "3:58:42" },
+      { "name": "3 (часть 2)", "twitch": "485019796" }
     ]
   },
   {
@@ -452,8 +451,8 @@
     "category": "co-op-series",
     "id": "nsmbu",
     "streams": [
-      { "name": "1.1 (прерван)", "twitch": "362762169" },
-      { "name": "1.2", "twitch": "362795883" },
+      { "name": "1 (часть 1)", "twitch": "362762169" },
+      { "name": "1 (часть 2)", "twitch": "362795883" },
       { "name": "2", "twitch": "478129023", "start": "5:21:17" }
     ]
   },
@@ -936,15 +935,15 @@
     "category": "finished",
     "id": "evil_within",
     "streams": [
-      { "name": "1", "twitch": "160844876" },
-      { "name": "1.5", "twitch": "160852861" },
-      { "name": "2", "twitch": "161110508" },
-      { "name": "2.5", "twitch": "161115703" },
+      { "name": "1 (часть 1)", "twitch": "160844876" },
+      { "name": "1 (часть 2)", "twitch": "160852861" },
+      { "name": "2 (часть 1)", "twitch": "161110508" },
+      { "name": "2 (часть 2)", "twitch": "161115703" },
       { "name": "3", "twitch": "162350334" },
       { "name": "4", "twitch": "162844424" },
       { "name": "5 (Финал и The Assignment)", "twitch": "163361169" },
-      { "name": "6 (The Assignment и The Consequence)", "twitch": "164116949" },
-      { "name": "6.5 (The Consequence и The Executioner)", "twitch": "164165380" }
+      { "name": "6 (часть 1, The Assignment и The Consequence)", "twitch": "164116949" },
+      { "name": "6 (часть 2, The Consequence и The Executioner)", "twitch": "164165380" }
     ],
     "cover": 1
   },
@@ -1284,8 +1283,8 @@
     "category": "ongoing",
     "id": "demons-souls",
     "streams": [
-      { "name": "1.1", "twitch": "217814961" },
-      { "name": "1.2", "twitch": "217852593" },
+      { "name": "1 (часть 1)", "twitch": "217814961" },
+      { "name": "1 (часть 2)", "twitch": "217852593" },
       { "name": "2", "twitch": "219489801" },
       { "name": "Тест RPCS3", "twitch": "642910038", "start": "2:39:43" }
     ]
@@ -1821,8 +1820,8 @@
     "id": "tlou-2",
     "streams": [
       { "name": "1", "twitch": "654380816" },
-      { "name": "2.1", "twitch": "655265437" },
-      { "name": "2.2", "twitch": "655528246" },
+      { "name": "2 (часть 1)", "twitch": "655265437" },
+      { "name": "2 (часть 2)", "twitch": "655528246" },
       { "name": "3", "twitch": "656257835" }
     ]
   },
@@ -2002,8 +2001,8 @@
     "id": "cold-fear",
     "streams": [
       { "name": "1", "twitch": "558120691" },
-      { "name": "2.1", "twitch": "561746068" },
-      { "name": "2.2", "twitch": "561821972" }
+      { "name": "2 (часть 1)", "twitch": "561746068" },
+      { "name": "2 (часть 2)", "twitch": "561821972" }
     ]
   },
   {
@@ -2149,8 +2148,8 @@
       { "name": "1", "twitch": "524865260", "start": "3:14:47" },
       { "name": "2", "twitch": "526101430", "start": "1:45:58" },
       { "name": "3", "twitch": "527412040", "start": "2:22:45" },
-      { "name": "4.1", "twitch": "528366297" },
-      { "name": "4.2", "twitch": "528406911" },
+      { "name": "4 (часть 1)", "twitch": "528366297" },
+      { "name": "4 (часть 2)", "twitch": "528406911" },
       { "name": "5", "twitch": "530784764" }
     ]
   },
@@ -2222,8 +2221,8 @@
     "streams": [
       { "name": "1", "twitch": "533269694" },
       { "name": "2", "twitch": "533755753" },
-      { "name": "3.1", "twitch": "534301966" },
-      { "name": "3.2", "twitch": "534316789" },
+      { "name": "3 (часть 1)", "twitch": "534301966" },
+      { "name": "3 (часть 2)", "twitch": "534316789" },
       { "name": "4", "twitch": "535374681" },
       { "name": "5", "twitch": "538458255" },
       { "name": "6", "twitch": "542106142" },
@@ -2337,8 +2336,8 @@
     "category": "first",
     "id": "chernobylite",
     "streams": [
-      { "name": "1.1", "twitch": "495362547" },
-      { "name": "1.2", "twitch": "495449259" }
+      { "name": "1 (часть 1)", "twitch": "495362547" },
+      { "name": "1 (часть 2)", "twitch": "495449259" }
     ]
   },
   {
@@ -2482,8 +2481,8 @@
       { "name": "1", "twitch": "467982647", "segment": 1 },
       { "name": "2", "twitch": "468461070" },
       { "name": "3", "twitch": "469393130", "start": "2:32:24" },
-      { "name": "4.1", "twitch": "470762578" },
-      { "name": "4.2", "twitch": "470811733" },
+      { "name": "4 (часть 1)", "twitch": "470762578" },
+      { "name": "4 (часть 2)", "twitch": "470811733" },
       { "name": "5", "twitch": "471633775" }
     ]
   },
@@ -2519,8 +2518,8 @@
     "category": "finished",
     "id": "sinking-city",
     "streams": [
-      { "name": "1.1", "twitch": "444061926" },
-      { "name": "1.2", "twitch": "444161282" },
+      { "name": "1 (часть 1)", "twitch": "444061926" },
+      { "name": "1 (часть 2)", "twitch": "444161282" },
       { "name": "2", "twitch": "444461379" },
       { "name": "3", "twitch": "444937025", "segment": 1 },
       { "name": "4", "twitch": "445389664" }
@@ -2715,14 +2714,14 @@
     "streams": [
       { "name": "1", "twitch": "380648625" },
       { "name": "2", "twitch": "380934386" },
-      { "name": "3.1", "twitch": "381512063" },
-      { "name": "3.2", "twitch": "381522963" },
+      { "name": "3 (часть 1)", "twitch": "381512063" },
+      { "name": "3 (часть 2)", "twitch": "381522963" },
       { "name": "4", "twitch": "382092665" },
       { "name": "The Two Colonels", "twitch": "470288598", "start": "24:35" },
-      { "name": "Sam's Story 1.1", "twitch": "550381390" },
-      { "name": "Sam's Story 1.2", "twitch": "550387516" },
-      { "name": "Sam's Story 2.1", "twitch": "550791781" },
-      { "name": "Sam's Story 2.2", "twitch": "550874352" }
+      { "name": "Sam's Story #1 (часть 1)", "twitch": "550381390" },
+      { "name": "Sam's Story #1 (часть 2)", "twitch": "550387516" },
+      { "name": "Sam's Story #2 (часть 1)", "twitch": "550791781" },
+      { "name": "Sam's Story #2 (часть 2)", "twitch": "550874352" }
     ]
   },
   {
@@ -2743,23 +2742,23 @@
         "name": "1-Shot Demo", "twitch": "362192911", "start": "4:19:04",
         "note": "Первое прохождение доступно на <a href=\"https://youtu.be/koDvjemhZnk\">YouTube</a>."
       },
-      { "name": "1.1 (Леон \"A\")", "twitch": "368943925", "segment": 0 },
-      { "name": "1.2", "twitch": "368943925", "segment": 1 },
-      { "name": "1.3", "twitch": "368943925", "segment": 2 },
-      { "name": "1.4", "twitch": "368943925", "segment": 3 },
-      { "name": "1.5", "twitch": "368943925", "segment": 4 },
-      { "name": "1.6", "twitch": "368943925", "segment": 5 },
-      { "name": "1.7", "twitch": "368943925", "segment": 6 },
-      { "name": "1.8", "twitch": "368943925", "segment": 7 },
-      { "name": "1.9", "twitch": "368943925", "segment": 8 },
-      { "name": "1.10", "twitch": "368943925", "segment": 9 },
-      { "name": "2.1 (Клэр \"B\")", "twitch": "369455598", "segment": 0 },
-      { "name": "2.2", "twitch": "369455598", "segment": 1 },
-      { "name": "2.3", "twitch": "369455598", "segment": 2 },
-      { "name": "2.4", "twitch": "369455598", "segment": 3 },
-      { "name": "2.5", "twitch": "369455598", "segment": 4 },
-      { "name": "2.6", "twitch": "369455598", "segment": 5 },
-      { "name": "2.7", "twitch": "369455598", "segment": 6 },
+      { "name": "1 (часть 1, Леон \"A\")", "twitch": "368943925", "segment": 0 },
+      { "name": "1 (часть 2)", "twitch": "368943925", "segment": 1 },
+      { "name": "1 (часть 3)", "twitch": "368943925", "segment": 2 },
+      { "name": "1 (часть 4)", "twitch": "368943925", "segment": 3 },
+      { "name": "1 (часть 5)", "twitch": "368943925", "segment": 4 },
+      { "name": "1 (часть 6)", "twitch": "368943925", "segment": 5 },
+      { "name": "1 (часть 7)", "twitch": "368943925", "segment": 6 },
+      { "name": "1 (часть 8)", "twitch": "368943925", "segment": 7 },
+      { "name": "1 (часть 9)", "twitch": "368943925", "segment": 8 },
+      { "name": "1 (часть 10)", "twitch": "368943925", "segment": 9 },
+      { "name": "2 (часть 1, Клэр \"B\")", "twitch": "369455598", "segment": 0 },
+      { "name": "2 (часть 2)", "twitch": "369455598", "segment": 1 },
+      { "name": "2 (часть 3)", "twitch": "369455598", "segment": 2 },
+      { "name": "2 (часть 4)", "twitch": "369455598", "segment": 3 },
+      { "name": "2 (часть 5)", "twitch": "369455598", "segment": 4 },
+      { "name": "2 (часть 6)", "twitch": "369455598", "segment": 5 },
+      { "name": "2 (часть 7)", "twitch": "369455598", "segment": 6 },
       { "name": "3", "twitch": "370111835", "segment": 0 },
       { "name": "4 (Клэр \"A\" от первого лица)", "twitch": "376053722" },
       { "name": "5 (DLC - Выжившие призраки)", "twitch": "383771606" },
@@ -2796,8 +2795,8 @@
     "category": "ongoing",
     "id": "sw-kotor2",
     "streams": [
-      { "name": "1.1 (прерван)", "twitch": "352687063", "start": "3:12:41" },
-      { "name": "1.2", "twitch": "352766083" }
+      { "name": "1 (часть 1)", "twitch": "352687063", "start": "3:12:41" },
+      { "name": "1 (часть 2)", "twitch": "352766083" }
     ]
   },
   {
@@ -2935,8 +2934,9 @@
     "category": "ongoing",
     "id": "case-2",
     "streams": [
-      { "name": "1.1 (прерван)", "twitch": "291791543", "segment": 1 },
-      { "name": "1.2", "twitch": "291816147", "segment": 0 },
+      { "name": "1 (часть 1)", "twitch": "291791543", "segment": 1 },
+      { "name": "1 (часть 2)", "twitch": "291816147", "segment": 0 },
+      { "name": "Кооп", "twitch": "293012700", "start": "2:58:54" },
       { "name": "2", "twitch": "293415850", "start": "2:41:59" }
     ]
   },
@@ -3045,8 +3045,8 @@
     "id": "witch-hunt",
     "streams": [
       { "name": "1", "twitch": "274651226" },
-      { "name": "2.1 (прерван)", "twitch": "275043417" },
-      { "name": "2.2", "twitch": "275127021" }
+      { "name": "2 (часть 1)", "twitch": "275043417" },
+      { "name": "2 (часть 2)", "twitch": "275127021" }
     ]
   },
   {
@@ -3269,13 +3269,13 @@
     "id": "god-of-war",
     "streams": [
       {
-        "name": "1", "twitch": "252424972",
+        "name": "1 (часть 1)", "twitch": "252424972",
         "note": "Прохождение начинается с момента, на котором Артур остановился на YouTube. Начало можно увидеть в <a href=\"https://www.youtube.com/playlist?list=PLIBsKu92G5oqHgoTzZmtduNlL2YpVmxYP\">этом плейлисте</a> (первые 3 видео)."
       },
-      { "name": "1.5", "twitch": "252508512" },
+      { "name": "1 (часть 2)", "twitch": "252508512" },
       { "name": "2", "twitch": "252814465" },
-      { "name": "3", "twitch": "253221134" },
-      { "name": "3.5", "twitch": "253271374" },
+      { "name": "3 (часть 1)", "twitch": "253221134" },
+      { "name": "3 (часть 2)", "twitch": "253271374" },
       {
         "name": "4 (часть 1, финал)", "twitch": "253604008", "segment": 0,
         "note": "Часть стрима с постгеймом была вырезана. Вы можете посмотреть её ниже."
@@ -3292,8 +3292,8 @@
     "streams": [
       { "name": "1", "twitch": "296515537" },
       { "name": "2", "twitch": "296520826" },
-      { "name": "3.1", "twitch": "296680116" },
-      { "name": "3.2", "twitch": "296680084" }
+      { "name": "3 (часть 1)", "twitch": "296680116" },
+      { "name": "3 (часть 2)", "twitch": "296680084" }
     ]
   },
   {
@@ -3326,20 +3326,20 @@
     "category": "finished",
     "id": "spider-man",
     "streams": [
-      { "name": "1.1", "twitch": "306581403", "segment": 0 },
-      { "name": "1.2", "twitch": "306581403", "segment": 1 },
-      { "name": "1.3", "twitch": "306581403", "segment": 2 },
-      { "name": "1.4", "twitch": "306581403", "segment": 3 },
-      { "name": "1.5", "twitch": "306581403", "segment": 4 },
-      { "name": "1.6", "twitch": "306581403", "segment": 5 },
-      { "name": "1.7", "twitch": "306581403", "segment": 6 },
-      { "name": "2.1", "twitch": "306956427", "segment": 0 },
-      { "name": "2.2", "twitch": "306956427", "segment": 1 },
-      { "name": "2.3", "twitch": "306956427", "segment": 2 },
-      { "name": "2.4", "twitch": "306956427", "segment": 3 },
-      { "name": "2.5", "twitch": "306956427", "segment": 4 },
-      { "name": "2.6", "twitch": "306956427", "segment": 5 },
-      { "name": "2.7", "twitch": "306956427", "segment": 6 },
+      { "name": "1 (часть 1)", "twitch": "306581403", "segment": 0 },
+      { "name": "1 (часть 2)", "twitch": "306581403", "segment": 1 },
+      { "name": "1 (часть 3)", "twitch": "306581403", "segment": 2 },
+      { "name": "1 (часть 4)", "twitch": "306581403", "segment": 3 },
+      { "name": "1 (часть 5)", "twitch": "306581403", "segment": 4 },
+      { "name": "1 (часть 6)", "twitch": "306581403", "segment": 5 },
+      { "name": "1 (часть 7)", "twitch": "306581403", "segment": 6 },
+      { "name": "2 (часть 1)", "twitch": "306956427", "segment": 0 },
+      { "name": "2 (часть 2)", "twitch": "306956427", "segment": 1 },
+      { "name": "2 (часть 3)", "twitch": "306956427", "segment": 2 },
+      { "name": "2 (часть 4)", "twitch": "306956427", "segment": 3 },
+      { "name": "2 (часть 5)", "twitch": "306956427", "segment": 4 },
+      { "name": "2 (часть 6)", "twitch": "306956427", "segment": 5 },
+      { "name": "2 (часть 7)", "twitch": "306956427", "segment": 6 },
       { "name": "3 (сайдквесты)", "twitch": "307909573" },
       { "name": "4 (The Heist DLC)", "twitch": "326792291" }
     ]
@@ -3351,8 +3351,8 @@
     "streams": [
       { "name": "1", "twitch": "308730350" },
       { "name": "2", "twitch": "309135471" },
-      { "name": "3.1", "twitch": "309553210" },
-      { "name": "3.2", "twitch": "309591231" }
+      { "name": "3 (часть 1)", "twitch": "309553210" },
+      { "name": "3 (часть 2)", "twitch": "309591231" }
     ]
   },
   {
