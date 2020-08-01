@@ -281,7 +281,7 @@ class TimecodesSlice(Timecodes):
 
 
 class TimecodeHelper:
-    offset = 8  # Constant for experimental low latency streamlink + MPV without cache
+    offset = 10  # Constant for low latency streamlink + MPV without cache
 
     @staticmethod
     def time():
@@ -296,7 +296,7 @@ class TimecodeHelper:
         if t.value < 0:
             t += Timecode('24:00:00')
         return t
-    
+
     get = __call__
 
 
@@ -304,7 +304,7 @@ class TimecodesDatabase(dict):
     def __init__(self, filename: str = TIMECODES_JSON):
         self.filename = filename
         self.update(load_json(filename))
-    
+
     def to_json(self) -> str:
         return json.dumps(self, indent=2, ensure_ascii=False)
 
