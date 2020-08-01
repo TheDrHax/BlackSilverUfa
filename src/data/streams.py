@@ -1,5 +1,6 @@
 import attr
 from git import Repo
+from typing import List
 from datetime import datetime
 from subprocess import run, PIPE
 from sortedcontainers import SortedList, SortedKeyList
@@ -82,8 +83,17 @@ class Segment:
         return self.stream.index(self)
 
     @property
+    def subrefs(self) -> List['SubReference']:
+        return sorted([sr for r in self.references for sr in r.subrefs],
+                      key=lambda sr: sr.start)
+
+    @property
     def name(self) -> str:
-        return ' / '.join([r.game_name for r in self.references])
+        names = []
+        for sr in self.subrefs:
+            if sr.full_name not in names:
+                names.append(sr.full_name)
+        return ' / '.join(names)
 
     @property
     def url(self) -> str:
@@ -428,16 +438,6 @@ class SegmentReference:
         return self.subrefs[-1].abs_end
 
     @property
-    def game_name(self):
-        if self.game.type == 'list':
-            return self.name
-        else:
-            if self.name.split(' ')[0].isnumeric():
-                return f'{self.game.name} #{self.name}'
-            else:
-                return f'{self.game.name} - {self.name}'
-
-    @property
     def url(self):
         """Return relative URL of this reference"""
         return f'{self.game.filename}#{self.hash}'
@@ -537,6 +537,18 @@ class SubReference:
                 self.parent.subrefs.add(self)
 
         return super().__setattr__(name, value)
+
+    @property
+    def full_name(self) -> str:
+        game = self.parent.game
+
+        if game.type == 'list':
+            return self.name
+
+        if self.name.split(' ')[0].isnumeric():
+            return f'{game.name} #{self.name}'
+        else:
+            return f'{game.name} - {self.name}'
 
     @property
     def abs_start(self) -> Timecode:
