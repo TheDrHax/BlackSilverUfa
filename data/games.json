@@ -1163,7 +1163,15 @@
       { "name": "Secret Agent Barbie", "twitch": "649632498" },
       { "name": "Winx Club", "twitch": "670671274" },
       { "name": "Devolverland Expo", "twitch": "677524120" },
-      { "name": "House on the Hill", "twitch": "695229266", "start": "2:06:58" }
+      { "name": "House on the Hill", "twitch": "695229266", "start": "2:06:58" },
+      { "twitch": "697191590", "subrefs": [
+        { "name": "There Are Ghosts in These Stalls", "start": "1:17:36" },
+        { "name": "The Baby in Yellow", "start": "1:22:58" },
+        { "name": "Lapso: NIMBO", "start": "1:41:50" },
+        { "name": "Redundancy", "start": "2:07:25" },
+        { "name": "Forgotten Tunnels 2", "start": "2:36:55" },
+        { "name": "Re:Turn (демо)", "start": "4:16:10" }
+      ] }
     ]
   },
   {
@@ -1711,7 +1719,13 @@
       ] },
       { "name": "Trackmania", "twitch": "677524120", "start": "1:40:14" },
       { "name": "Rocket Arena", "twitch": "680344977", "start": "1:54:55" },
-      { "name": "Hello Neighbor 2 (альфа 1)", "twitch": "690295728" }
+      { "name": "Hello Neighbor 2 (альфа 1)", "twitch": "690295728" },
+      { "twitch": "697191590", "subrefs": [
+        { "name": "What Happened" },
+        { "name": "I Have a Fear", "start": "2:19:56" },
+        { "name": "Missing Children", "start": "3:06:40" },
+        { "name": "Othercide", "start": "5:16:59" }
+      ] }
     ]
   },
   {
