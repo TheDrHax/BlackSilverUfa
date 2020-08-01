@@ -3,7 +3,7 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Carrion #1 / неПрофессиональный неE3 2020 - Microsoft / SnowRunner #10", "year": 2020, "url": "/links/carrion.html#688270341"},
+      {"name": "Carrion #1 / неПрофессиональный E3 2020 - Microsoft / SnowRunner #10", "year": 2020, "url": "/links/carrion.html#688270341"},
       {"name": "Carrion #2 / Destroy All Humans! #1", "year": 2020, "url": "/links/carrion.html#689243227"},
       {"name": "Hello Neighbor 2 (альфа 1) / Fall Guys (бета) / Tricky Towers #25 / Golf It! #22", "year": 2020, "url": "/links/first.html#690295728"},
       {"name": "Maid of Sker #1", "year": 2020, "url": "/links/maid-of-sker.html#693186645"},
@@ -12,7 +12,7 @@
       {"name": "Hellpoint #1 (часть 1)", "year": 2020, "url": "/links/hellpoint.html#695209589"},
       {"name": "Hellpoint #1 (часть 2) / House on the Hill / Grounded #2", "year": 2020, "url": "/links/hellpoint.html#695229266"},
       {"name": "Halo: Reach - Прохождение с Дашей и Джеком", "year": 2020, "url": "/links/halo-reach.html#696198252"},
-      {"name": "What Happened / I Have a Fear / Missing Children / Othercide / There Are Ghosts in These Stalls / The Baby in Yellow / Lapso: NIMBO / Redundancy / Forgotten Tunnels 2 / Re:Turn (демо)", "year": 2020, "url": "/links/first.html#697191590"}
+      {"name": "What Happened / There Are Ghosts in These Stalls / The Baby in Yellow / Lapso: NIMBO / Redundancy / I Have a Fear / Forgotten Tunnels 2 / Missing Children / Re:Turn (демо) / Othercide", "year": 2020, "url": "/links/first.html#697191590"}
     ]
   },
   "finished": {
@@ -414,7 +414,6 @@
       {"name": "Call of Duty WWII: Nazi Zombies", "year": 2018, "url": "/links/co-op.html#278920291.1"},
       {"name": "Drunk-Fu: Wasted Masters", "year": 2018, "url": "/links/co-op.html#284156303"},
       {"name": "Darwin Project", "year": 2018, "url": "/links/co-op.html#287404564"},
-      {"name": "CASE 2: Animatronics Survival (кооп)", "year": 2018, "url": "/links/co-op.html#293012700"},
       {"name": "I'm not a Monster", "year": 2018, "url": "/links/co-op.html#313747869"},
       {"name": "A Gummy's Life", "year": 2018, "url": "/links/co-op.html#316677687"},
       {"name": "Blackout Club", "year": 2018, "url": "/links/co-op.html#331965944"},
@@ -554,7 +553,7 @@
       {"name": "The Game Awards 2019 (обзор)", "year": 2019, "url": "/links/expos.html#520877239"},
       {"name": "Презентация PlayStation 5", "year": 2020, "url": "/links/expos.html#569683310"},
       {"name": "Xbox Inside 2020", "year": 2020, "url": "/links/expos.html#613793616"},
-      {"name": "неПрофессиональный неE3 2020", "year": 2020, "url": "/links/e3_2020.html"}
+      {"name": "неПрофессиональный E3 2020", "year": 2020, "url": "/links/e3_2020.html"}
     ]
   },
   "unboxing": {
