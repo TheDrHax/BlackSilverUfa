@@ -83,14 +83,14 @@ class Segment:
         return self.stream.index(self)
 
     @property
-    def subrefs(self) -> List['SubReference']:
+    def all_subrefs(self) -> List['SubReference']:
         return sorted([sr for r in self.references for sr in r.subrefs],
                       key=lambda sr: sr.start)
 
     @property
     def name(self) -> str:
         names = []
-        for sr in self.subrefs:
+        for sr in self.all_subrefs:
             if sr.full_name not in names:
                 names.append(sr.full_name)
         return ' / '.join(names)
