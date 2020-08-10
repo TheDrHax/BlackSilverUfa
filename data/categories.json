@@ -306,7 +306,6 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "url": "/links/re7.html"},
       {"name": "Destroy All Humans!", "year": 2020, "url": "/links/destroy-all-humans.html"},
       {"name": "Far Cry 3", "year": 2020, "url": "/links/far-cry-3.html"},
       {"name": "Hellpoint", "year": 2020, "url": "/links/hellpoint.html"}
@@ -393,7 +392,8 @@
       {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/persona-5-royal.html"},
       {"name": "Mafia II: Definitive Edition", "year": 2020, "url": "/links/mafia-2-definitive.html"},
       {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"},
-      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"}
+      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
+      {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "url": "/links/re7.html"}
     ]
   },
   "co-op": {
