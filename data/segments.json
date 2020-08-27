@@ -3655,7 +3655,7 @@
   },
   "473004524": {
     "youtube": "8fDP5OFGp-g", "abs_start": "0:00", "abs_end": "7:09:55", "duration": "7:09:55",
-    "name": "Control #3 / Ancestors: The Humankind Odyssey #2",
+    "name": "Control #3 (заброшено) / Ancestors: The Humankind Odyssey #2",
     "date": "2019-08-27",
     "url": "/links/control.html#473004524"
   },
@@ -5084,9 +5084,9 @@
   },
   "669777336": {
     "youtube": "1LlQzR1KLII", "abs_start": "0:00", "abs_end": "5:48:29", "duration": "5:48:29",
-    "name": "Mortal Shell / Fury Unleashed / Dead Cells #8 (заново)",
+    "name": "Mortal Shell - Ранний доступ / Fury Unleashed / Dead Cells #8 (заново)",
     "date": "2020-07-04",
-    "url": "/links/first.html#669777336"
+    "url": "/links/mortal-shell.html#669777336"
   },
   "670671274": {
     "youtube": "tk6wCquZtvk", "official": false, "abs_start": "0:00", "abs_end": "7:17:09", "duration": "7:17:09",
@@ -5277,5 +5277,13 @@
     "date": "2020-08-26",
     "url": "/links/first.html#721969297.1",
     "torrent": "https://bsufiles.thedrhax.pw/streams/721969297.torrent"
+  },
+  "723011325": {
+    "abs_start": "0:00", "abs_end": "7:07:40", "duration": "0:00",
+    "name": "Mortal Shell - Релиз / Control #1 (AWE DLC) / Gamescom 2020",
+    "date": "2020-08-27",
+    "url": "/links/mortal-shell.html#723011325",
+    "direct": "https://bsufiles.thedrhax.pw/streams/723011325.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/723011325.torrent"
   }
 }
