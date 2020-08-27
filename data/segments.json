@@ -5122,15 +5122,13 @@
     "youtube": "guLSkf5B0Dg", "official": false, "abs_start": "0:00", "abs_end": "6:52:36", "duration": "6:52:36",
     "name": "Far Cry 3 #2 / Death Stranding #1 (заново, PC)",
     "date": "2020-07-14",
-    "url": "/links/far-cry-3.html#679308738",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/679308738.torrent"
+    "url": "/links/far-cry-3.html#679308738"
   },
   "680344977": {
     "youtube": "dEXmtFgACq4", "official": false, "abs_start": "0:00", "abs_end": "6:24:13", "duration": "6:24:13",
     "name": "Far Cry 3 #3 / Rocket Arena / Call of Duty: Warzone #6",
     "date": "2020-07-15",
-    "url": "/links/far-cry-3.html#680344977",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/680344977.torrent"
+    "url": "/links/far-cry-3.html#680344977"
   },
   "681457263": {
     "youtube": "LBrFuF__368", "abs_start": "0:00", "abs_end": "4:56:33", "duration": "26:17:24",
@@ -5266,11 +5264,18 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/720973722.torrent"
   },
   "721969297": {
-    "abs_start": "0:00", "abs_end": "6:13:53", "duration": "0:00",
-    "name": "Mafia: City of Lost Heaven #1 (заново) / Mafia: Definitive Edition (превью)",
+    "abs_start": "0:00", "abs_end": "1:59:53", "duration": "0:00",
+    "name": "Mafia: City of Lost Heaven #1 (заново)",
     "date": "2020-08-26",
     "url": "/links/mafia.html#721969297",
     "direct": "https://bsufiles.thedrhax.pw/streams/721969297.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/721969297.torrent"
+  },
+  "721969297.1": {
+    "youtube": "9vzJKwzDQLQ", "abs_start": "1:59:53", "abs_end": "6:13:07", "duration": "4:13:14",
+    "name": "Mafia: Definitive Edition (превью)",
+    "date": "2020-08-26",
+    "url": "/links/first.html#721969297.1",
     "torrent": "https://bsufiles.thedrhax.pw/streams/721969297.torrent"
   }
 }
