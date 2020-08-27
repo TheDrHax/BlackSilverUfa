@@ -823,7 +823,8 @@
       { "name": "State of Play 2019", "twitch": "519609666" },
       { "name": "The Game Awards 2019 (обзор)", "twitch": "520877239" },
       { "name": "Презентация PlayStation 5", "twitch": "569683310", "start": "3:03:45" },
-      { "name": "Xbox Inside 2020", "twitch": "613793616", "start": "1:59:40" }
+      { "name": "Xbox Inside 2020", "twitch": "613793616", "start": "1:59:40" },
+      { "name": "Gamescom 2020", "twitch": "723011325", "start": "4:48:39" }
     ]
   },
   {
@@ -1713,10 +1714,7 @@
         { "name": "Hello Guest", "start": "5:12:52" }
       ] },
       { "name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated", "twitch": "661040084" },
-      { "twitch": "669777336", "subrefs": [
-        { "name": "Mortal Shell" },
-        { "name": "Fury Unleashed", "start": "3:32:05" }
-      ] },
+      { "name": "Fury Unleashed", "twitch": "669777336", "start": "3:32:05" },
       { "name": "Trackmania", "twitch": "677524120", "start": "1:40:14" },
       { "name": "Rocket Arena", "twitch": "680344977", "start": "1:54:55" },
       { "name": "Hello Neighbor 2 (альфа 1)", "twitch": "690295728" },
@@ -1732,6 +1730,15 @@
       ] },
       { "name": "Battletoads", "twitch": "720973722" },
       { "name": "Mafia: Definitive Edition (превью)", "twitch": "721969297", "segment": 1 }
+    ]
+  },
+  {
+    "name": "Mortal Shell",
+    "category": "ongoing",
+    "id": "mortal-shell",
+    "streams": [
+      { "name": "Ранний доступ", "twitch": "669777336" },
+      { "name": "Релиз", "twitch": "723011325" }
     ]
   },
   {
@@ -2481,7 +2488,8 @@
     "streams": [
       { "name": "1", "twitch": "472179762" },
       { "name": "2", "twitch": "472535546" },
-      { "name": "3", "twitch": "473004524" }
+      { "name": "3 (заброшено)", "twitch": "473004524" },
+      { "name": "1 (AWE DLC)", "twitch": "723011325", "start": "2:48:13" }
     ]
   },
   {
