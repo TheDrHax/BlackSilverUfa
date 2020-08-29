@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Hellpoint #1 (часть 2) / House on the Hill / Grounded #2", "year": 2020, "url": "/links/hellpoint.html#695229266"},
       {"name": "Halo: Reach - Прохождение с Дашей и Джеком", "year": 2020, "url": "/links/halo-reach.html#696198252"},
       {"name": "What Happened / There Are Ghosts in These Stalls / The Baby in Yellow / Lapso: NIMBO / Redundancy / I Have a Fear / Forgotten Tunnels 2 / Missing Children / Re:Turn (демо) / Othercide", "year": 2020, "url": "/links/first.html#697191590"},
       {"name": "Grounded #3 / Green Hell #5", "year": 2020, "url": "/links/grounded.html#698150167"},
@@ -12,7 +11,8 @@
       {"name": "Battletoads / Remnant: From the Ashes - Subject 2923", "year": 2020, "url": "/links/first.html#720973722"},
       {"name": "Mafia: City of Lost Heaven #1 (заново)", "year": 2020, "url": "/links/mafia.html#721969297"},
       {"name": "Mafia: Definitive Edition (превью)", "year": 2020, "url": "/links/first.html#721969297.1"},
-      {"name": "Mortal Shell - Релиз / Control #1 (AWE DLC) / Gamescom 2020", "year": 2020, "url": "/links/mortal-shell.html#723011325"}
+      {"name": "Mortal Shell - Релиз / Control #1 (AWE DLC) / Gamescom 2020", "year": 2020, "url": "/links/mortal-shell.html#723011325"},
+      {"name": "The Dark Pictures: Little Hope (превью) / Observer: System Redux (демо) / Struggling / Surgeon Simulator 2 / Fall Guys #2", "year": 2020, "url": "/links/first.html#725080998"}
     ]
   },
   "finished": {
@@ -303,15 +303,15 @@
       {"name": "What Happened / I Have a Fear / Missing Children / Othercide", "year": 2020, "url": "/links/first.html#697191590"},
       {"name": "Train 113 / Fast & Furious: Crossroads", "year": 2020, "url": "/links/first.html#719986899"},
       {"name": "Battletoads", "year": 2020, "url": "/links/first.html#720973722"},
-      {"name": "Mafia: Definitive Edition (превью)", "year": 2020, "url": "/links/first.html#721969297.1"}
+      {"name": "Mafia: Definitive Edition (превью)", "year": 2020, "url": "/links/first.html#721969297.1"},
+      {"name": "The Dark Pictures: Little Hope (превью) / Observer: System Redux (демо) / Struggling", "year": 2020, "url": "/links/first.html#725080998"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "Control", "year": 2019, "url": "/links/control.html"},
-      {"name": "Mortal Shell", "year": 2020, "url": "/links/mortal-shell.html"},
-      {"name": "Hellpoint", "year": 2020, "url": "/links/hellpoint.html"}
+      {"name": "Mortal Shell", "year": 2020, "url": "/links/mortal-shell.html"}
     ]
   },
   "infinite": {
@@ -397,7 +397,8 @@
       {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
       {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "url": "/links/re7.html"},
       {"name": "Destroy All Humans!", "year": 2020, "url": "/links/destroy-all-humans.html"},
-      {"name": "Far Cry 3", "year": 2020, "url": "/links/far-cry-3.html"}
+      {"name": "Far Cry 3", "year": 2020, "url": "/links/far-cry-3.html"},
+      {"name": "Hellpoint", "year": 2020, "url": "/links/hellpoint.html"}
     ]
   },
   "co-op": {
@@ -451,7 +452,7 @@
       {"name": "Moving Out", "year": 2020, "url": "/links/co-op.html#612822436"},
       {"name": "Embr / Cannibal Cuisine", "year": 2020, "url": "/links/co-op.html#633403643"},
       {"name": "Broforce", "year": 2020, "url": "/links/co-op.html#661040084"},
-      {"name": "Fall Guys (бета)", "year": 2020, "url": "/links/co-op.html#690295728"}
+      {"name": "Surgeon Simulator 2", "year": 2020, "url": "/links/co-op.html#725080998"}
     ]
   },
   "co-op-series": {
@@ -520,7 +521,8 @@
       {"name": "Call of Duty: Warzone", "year": 2020, "url": "/links/cod-warzone.html"},
       {"name": "Predator: Hunting Grounds", "year": 2020, "url": "/links/predator-hunting-grounds.html"},
       {"name": "Biped", "year": 2020, "url": "/links/biped.html"},
-      {"name": "SnowRunner", "year": 2020, "url": "/links/snowrunner.html"}
+      {"name": "SnowRunner", "year": 2020, "url": "/links/snowrunner.html"},
+      {"name": "Fall Guys", "year": 2020, "url": "/links/fall-guys.html"}
     ]
   },
   "other": {
