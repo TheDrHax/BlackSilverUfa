@@ -143,7 +143,16 @@
         { "name": "Cannibal Cuisine", "start": "3:28:31" }
       ] },
       { "name": "Broforce", "twitch": "661040084", "start": "4:44:29" },
-      { "name": "Fall Guys (бета)", "twitch": "690295728", "start": "1:52:17" }
+      { "name": "Surgeon Simulator 2", "twitch": "725080998", "start": "2:02:15" }
+    ]
+  },
+  {
+    "name": "Fall Guys",
+    "category": "co-op-series",
+    "id": "fall-guys",
+    "streams": [
+      { "name": "1 (бета)", "twitch": "690295728", "start": "1:52:17" },
+      { "name": "2", "twitch": "725080998", "start": "4:56:08" }
     ]
   },
   {
@@ -1729,7 +1738,13 @@
         { "name": "Fast & Furious: Crossroads", "start": "3:38:38" }
       ] },
       { "name": "Battletoads", "twitch": "720973722" },
-      { "name": "Mafia: Definitive Edition (превью)", "twitch": "721969297", "segment": 1 }
+      { "name": "Mafia: Definitive Edition (превью)", "twitch": "721969297", "segment": 1 },
+      { "twitch": "725080998", "subrefs": [
+        { "name": "The Dark Pictures: Little Hope (превью)" },
+        { "name": "Observer: System Redux (демо)", "start": "55:02" },
+        { "name": "Struggling", "start": "1:27:55" },
+        { "name": "The Dark Pictures: Little Hope (превью)", "start": "1:37:24" }
+      ] }
     ]
   },
   {
