@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Halo: Reach - Прохождение с Дашей и Джеком", "year": 2020, "url": "/links/halo-reach.html#696198252"},
       {"name": "What Happened / There Are Ghosts in These Stalls / The Baby in Yellow / Lapso: NIMBO / Redundancy / I Have a Fear / Forgotten Tunnels 2 / Missing Children / Re:Turn (демо) / Othercide", "year": 2020, "url": "/links/first.html#697191590"},
       {"name": "Grounded #3 / Green Hell #5", "year": 2020, "url": "/links/grounded.html#698150167"},
       {"name": "UnMetal (демо) / Grounded #4", "year": 2020, "url": "/links/single.html#700057034"},
@@ -12,7 +11,8 @@
       {"name": "Mafia: City of Lost Heaven #1 (заново)", "year": 2020, "url": "/links/mafia.html#721969297"},
       {"name": "Mafia: Definitive Edition (превью)", "year": 2020, "url": "/links/first.html#721969297.1"},
       {"name": "Mortal Shell - Релиз / Control #1 (AWE DLC) / Gamescom 2020", "year": 2020, "url": "/links/mortal-shell.html#723011325"},
-      {"name": "The Dark Pictures: Little Hope (превью) / Observer: System Redux (демо) / Struggling / Surgeon Simulator 2 / Fall Guys #2", "year": 2020, "url": "/links/first.html#725080998"}
+      {"name": "The Dark Pictures: Little Hope (превью)", "year": 2020, "url": "/links/first.html#725080998"},
+      {"name": "Observer: System Redux (демо) / Struggling / The Dark Pictures: Little Hope (превью) / Surgeon Simulator 2 / Fall Guys #2", "year": 2020, "url": "/links/first.html#725080998.1"}
     ]
   },
   "finished": {
@@ -304,7 +304,8 @@
       {"name": "Train 113 / Fast & Furious: Crossroads", "year": 2020, "url": "/links/first.html#719986899"},
       {"name": "Battletoads", "year": 2020, "url": "/links/first.html#720973722"},
       {"name": "Mafia: Definitive Edition (превью)", "year": 2020, "url": "/links/first.html#721969297.1"},
-      {"name": "The Dark Pictures: Little Hope (превью) / Observer: System Redux (демо) / Struggling", "year": 2020, "url": "/links/first.html#725080998"}
+      {"name": "The Dark Pictures: Little Hope (превью)", "year": 2020, "url": "/links/first.html#725080998"},
+      {"name": "Observer: System Redux (демо) / Struggling / The Dark Pictures: Little Hope (превью)", "year": 2020, "url": "/links/first.html#725080998.1"}
     ]
   },
   "ongoing": {
@@ -452,7 +453,7 @@
       {"name": "Moving Out", "year": 2020, "url": "/links/co-op.html#612822436"},
       {"name": "Embr / Cannibal Cuisine", "year": 2020, "url": "/links/co-op.html#633403643"},
       {"name": "Broforce", "year": 2020, "url": "/links/co-op.html#661040084"},
-      {"name": "Surgeon Simulator 2", "year": 2020, "url": "/links/co-op.html#725080998"}
+      {"name": "Surgeon Simulator 2", "year": 2020, "url": "/links/co-op.html#725080998.1"}
     ]
   },
   "co-op-series": {
