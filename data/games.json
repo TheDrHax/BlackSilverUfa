@@ -1738,13 +1738,20 @@
         { "name": "Fast & Furious: Crossroads", "start": "3:38:38" }
       ] },
       { "name": "Battletoads", "twitch": "720973722" },
-      { "name": "Mafia: Definitive Edition (превью)", "twitch": "721969297", "segment": 1 },
-      { "name": "The Dark Pictures: Little Hope (превью)", "twitch": "725080998", "segment": 1 },
+      { "name": "Mafia: Definitive Edition (демо)", "twitch": "721969297", "segment": 1 },
       { "twitch": "725080998", "segment": 0, "subrefs": [
-        { "name": "Observer: System Redux (демо)" },
-        { "name": "Struggling", "start": "1:27:55" },
-        { "name": "The Dark Pictures: Little Hope (превью)", "start": "1:37:24" }
+        { "name": "Observer: System Redux (демо)", "start": "55:02" },
+        { "name": "Struggling", "start": "1:27:55" }
       ] }
+    ]
+  },
+  {
+    "name": "The Dark Pictures: Little Hope",
+    "category": "infinite",
+    "id": "little-hope",
+    "streams": [
+      { "name": "1 (демо)", "twitch": "725080998", "segment": 1 },
+      { "name": "2", "twitch": "725080998", "start": "1:37:24" }
     ]
   },
   {
