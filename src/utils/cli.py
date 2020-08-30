@@ -173,12 +173,12 @@ def cmd_add(stream, segment_kwargs):
     # remove empty segments
     [stream.remove(s) for s in list(stream) if len(s.references) == 0]
 
-    # move start field of first ref into each segment's offset field
+    # use start of first ref as a hint for future segment matches
     segment.references[0].start = Timecode(0)
     for s in stream:
-        if s.references[0].start != 0:
+        if s.references[0].start != 0 and not s.playable:
             setattr(s, 'offset', s.references[0].start)
-            setattr(s.references[0], 'start', None)
+            setattr(s.references[0], 'start', 0)
 
     return segment
 
