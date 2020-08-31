@@ -1747,9 +1747,17 @@
       { "twitch": "726104659", "subrefs": [
         { "name": "Windbound" },
         { "name": "Wasteland 3", "start": "2:05:25" },
-        { "name": "Mr. Prepper", "start": "3:40:10" },
-        { "name": "The Last Campfire", "start": "4:21:55" }
+        { "name": "Mr. Prepper", "start": "3:40:10" }
       ] }
+    ]
+  },
+  {
+    "name": "The Last Campfire",
+    "category": "finished",
+    "id": "last-campfire",
+    "streams": [
+      { "name": "1", "twitch": "726104659", "start": "4:21:55" },
+      { "name": "2", "twitch": "727071763" }
     ]
   },
   {
