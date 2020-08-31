@@ -1758,7 +1758,7 @@
     "id": "little-hope",
     "streams": [
       { "name": "1 (демо)", "twitch": "725080998", "segment": 1 },
-      { "name": "2", "twitch": "725080998", "start": "1:37:24" }
+      { "name": "2", "twitch": "725080998", "segment": 0, "start": "1:37:24" }
     ]
   },
   {
