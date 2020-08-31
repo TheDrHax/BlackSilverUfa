@@ -5140,8 +5140,7 @@
     "youtube": "LBrFuF__368", "abs_start": "-4:56:33", "abs_end": "8:30:22", "duration": "26:17:24",
     "name": "Ghost of Tsushima #2",
     "date": "2020-07-17",
-    "url": "/links/ghost-of-tsushima.html#682267155",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/682267155.torrent"
+    "url": "/links/ghost-of-tsushima.html#682267155"
   },
   "683282462": {
     "youtube": "LBrFuF__368", "cuts": ["12:29:06~13:22:46"], "abs_start": "-13:26:56", "abs_end": "13:44:08", "duration": "26:17:24",
@@ -5299,9 +5298,17 @@
   },
   "726104659": {
     "youtube": "d87CqT9S4ww", "official": false, "abs_start": "0:00", "abs_end": "6:05:29", "duration": "6:05:29",
-    "name": "Windbound / Fall Guys #3 (соло) / Wasteland 3 / Mr. Prepper / The Last Campfire",
+    "name": "Windbound / Fall Guys #3 (соло) / Wasteland 3 / Mr. Prepper / The Last Campfire #1",
     "date": "2020-08-30",
     "url": "/links/first.html#726104659",
     "torrent": "https://bsufiles.thedrhax.pw/streams/726104659.torrent"
+  },
+  "727071763": {
+    "abs_start": "0:00", "abs_end": "4:32:29", "duration": "0:00",
+    "name": "The Last Campfire #2",
+    "date": "2020-08-31",
+    "url": "/links/last-campfire.html#727071763",
+    "direct": "https://bsufiles.thedrhax.pw/streams/727071763.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/727071763.torrent"
   }
 }
