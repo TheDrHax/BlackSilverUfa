@@ -1748,7 +1748,21 @@
         { "name": "Windbound" },
         { "name": "Wasteland 3", "start": "2:05:25" },
         { "name": "Mr. Prepper", "start": "3:40:10" }
-      ] }
+      ] },
+      { "name": "World of Warcraft: Shadowlands", "twitch": "728015486" }
+    ]
+  },
+  {
+    "name": "Marvel's Avengers",
+    "category": "ongoing",
+    "id": "marvel-avengers",
+    "streams": [
+      { "name": "1 (часть 1)", "twitch": "728015486", "start": "3:13:21" },
+      { "name": "1 (часть 2)", "twitch": "728162478" },
+      { "name": "1 (часть 3)", "twitch": "728192109" },
+      { "name": "1 (часть 4)", "twitch": "728196605" },
+      { "name": "1 (часть 5)", "twitch": "728204189" },
+      { "name": "1 (часть 6)", "twitch": "728213819" }
     ]
   },
   {
