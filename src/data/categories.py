@@ -101,7 +101,10 @@ class Categories(dict):
         for category in categories:
             if category['code'] == 'recent':
                 c = Category.from_dict(category)
-                last_segments = list(streams.segments)[-10:]
+                segments_with_refs = [segment
+                                      for segment in streams.segments
+                                      if len(segment.references) > 0]
+                last_segments = list(segments_with_refs)[-10:]
 
                 for segment in last_segments:
                     c.games.add(segment.reference())
