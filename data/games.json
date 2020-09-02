@@ -1182,7 +1182,9 @@
         { "name": "Forgotten Tunnels 2", "start": "2:36:55" },
         { "name": "Re:Turn (демо)", "start": "4:16:10" }
       ] },
-      { "name": "UnMetal (демо)", "twitch": "700057034" }
+      { "name": "UnMetal (демо)", "twitch": "700057034" },
+      { "name": "The Last of Us: Part II", "twitch": ["654380816", "655265437", "655528246", "656257835"] },
+      { "name": "Ghost of Tsushima", "twitch": ["681457263", "682267155", "683282462"] }
     ]
   },
   {
@@ -1758,13 +1760,8 @@
     "id": "marvel-avengers",
     "streams": [
       { "name": "1 (часть 1)", "twitch": "728015486", "start": "3:13:21" },
-      { "name": "1 (часть 2)", "twitch": "728162478" },
-      { "name": "1 (часть 3)", "twitch": "728192109" },
-      { "name": "1 (часть 4)", "twitch": "728196605" },
-      { "name": "1 (часть 5)", "twitch": "728204189" },
-      { "name": "1 (часть 6)", "twitch": "728213819" },
-      { "name": "2 (заново, часть 1)", "twitch": "728972501" },
-      { "name": "2 (часть 2)", "twitch": "729152253" }
+      { "name": "1 (части 2-6)", "twitch": ["728162478", "728192109", "728196605", "728204189", "728213819"] },
+      { "name": "2 (заново)", "twitch": ["728972501", "729152253"] }
     ]
   },
   {
@@ -1851,16 +1848,6 @@
     ]
   },
   {
-    "name": "Ghost of Tsushima",
-    "category": "finished",
-    "id": "ghost-of-tsushima",
-    "streams": [
-      { "name": "1", "twitch": "681457263" },
-      { "name": "2", "twitch": "682267155" },
-      { "name": "3", "twitch": "683282462" }
-    ]
-  },
-  {
     "name": "Far Cry 3",
     "category": "ongoing",
     "id": "far-cry-3",
@@ -1881,17 +1868,6 @@
         { "name": "2", "start": "4:28:55" }
       ] },
       { "name": "3", "twitch": "665878817" }
-    ]
-  },
-  {
-    "name": "The Last of Us: Part II",
-    "category": "finished",
-    "id": "tlou-2",
-    "streams": [
-      { "name": "1", "twitch": "654380816" },
-      { "name": "2 (часть 1)", "twitch": "655265437" },
-      { "name": "2 (часть 2)", "twitch": "655528246" },
-      { "name": "3", "twitch": "656257835" }
     ]
   },
   {
