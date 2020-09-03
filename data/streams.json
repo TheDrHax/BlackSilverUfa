@@ -1106,6 +1106,7 @@
   "655265437": { "youtube": "ZBHv3E0ZDHo", "offset": "-7:32:13" },
   "655528246": { "youtube": "ZBHv3E0ZDHo", "offset": "-14:13:20" },
   "656257835": { "youtube": "ZBHv3E0ZDHo", "offset": "-17:13:32" },
+  "654380816,655265437,655528246,656257835": { "note": "4 стрима были склеены в одну запись." },
   "658127870": { "youtube": "Rb25ko56u-s" },
   "659080815": { "youtube": "BwULm0cDUUY" },
   "660069027": { "youtube": "YwwZayvGUXE" },
@@ -1127,6 +1128,7 @@
   "681457263": { "youtube": "LBrFuF__368" },
   "682267155": { "youtube": "LBrFuF__368", "offset": "-4:56:33" },
   "683282462": { "youtube": "LBrFuF__368", "offset": "-13:26:56", "cuts": ["12:29:06~13:22:46"] },
+  "681457263,682267155,683282462": { "note": "3 стрима были склеены в одну запись." },
   "684388398": { "youtube": "thAzX-Tb9bc", "official": false },
   "687309207": { "youtube": "LVlDWbpOg9o", "official": false },
   "688270341": { "youtube": "4sNGzIz8k4w" },
@@ -1160,6 +1162,8 @@
   "728196605": { "youtube": "QAluNP4N50Q", "official": false, "offset": "-22:42" },
   "728204189": { "youtube": "QAluNP4N50Q", "official": false, "offset": "-30:09" },
   "728213819": { "youtube": "QAluNP4N50Q", "official": false, "offset": "-38:33" },
+  "728162478,728192109,728196605,728204189,728213819": { "note": "Стрим падал 6 раз. 5 частей были склеены в одну запись." },
   "728972501": { "youtube": "KuC2TPa8ySg", "official": false },
-  "729152253": { "youtube": "KuC2TPa8ySg", "official": false, "offset": "-5:05:40" }
+  "729152253": { "youtube": "KuC2TPa8ySg", "official": false, "offset": "-5:05:40" },
+  "728972501,729152253": { "note": "Стрим падал 3 раза. 2 части склеены в одну запись. 1 часть длиной 50 секунд отброшена." }
 }
