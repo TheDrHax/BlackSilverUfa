@@ -114,24 +114,25 @@ class Segment:
                         for key in ['youtube', 'direct']]
 
     @property
-    def cut_subtitles(self):
-        return f'{self.stream.subtitles_prefix}/v{self.twitch}+{self.segment}.ass'
+    def generated_subtitles(self):
+        prefix = config['repos']['chats']['generated']['prefix']
+        return f'{prefix}/v{self.twitch}+{self.segment}.ass'
 
     @property
     def subtitles(self):
         if len(self.cuts) > 0:
-            return self.cut_subtitles
+            return self.generated_subtitles
         else:
             return self.stream.subtitles
 
     @property
-    def cut_subtitles_path(self):
-        return _(f'chats/{self.date.year}/v{self.twitch}+{self.segment}.ass')
+    def generated_subtitles_path(self):
+        return _(f'chats/generated/v{self.twitch}+{self.segment}.ass')
 
     @property
     def subtitles_path(self):
         if len(self.cuts) > 0:
-            return self.cut_subtitles_path
+            return self.generated_subtitles_path
         else:
             return self.stream.subtitles_path
 
