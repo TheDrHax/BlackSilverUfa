@@ -702,6 +702,52 @@ class Stream(SortedKeyList):
         return self.to_json()
 
 
+class JoinedStream(Stream):
+    def __init__(self, data: List[dict], key: str, streams: 'Streams', meta={}):
+        SortedKeyList.__init__(self, key=Stream._segment_key)
+
+        self.twitch = key
+        self.games = []
+        self.meta = meta
+        self.streams = list([streams[i] for i in key.split(',')])
+
+        if not isinstance(data, list):
+            raise TypeError(type(data))
+
+        if len(data) > 1:
+            raise ValueError("Only 1 segment is supported in JoinedStream")
+
+        base = self.streams[0][0]
+        data = data[0]
+
+        data['youtube'] = base.youtube
+        data['direct'] = base.direct
+        data['official'] = base.official
+        data['cuts'] = [cut
+                        for stream in self.streams
+                        for segment in stream
+                        for cut in segment.cuts]
+
+        Segment(stream=self, **data)
+
+    @property
+    def timecodes(self) -> Timecodes:
+        # TODO
+        return Timecodes()
+
+    @property
+    def date(self) -> datetime:
+        return self.streams[0].date
+
+    @property
+    def messages(self) -> int:
+        return sum(s.messages for s in self.streams)
+    
+    @property
+    def duration(self) -> Timecode:
+        return Timecode(sum(int(s.duration) for s in self.streams))
+
+
 @attr.s(auto_attribs=True)
 class Segments:
     streams: 'Streams' = attr.ib()
@@ -750,12 +796,17 @@ class Streams(dict):
             if twitch_id in metadata:
                 meta.update(metadata[twitch_id])
 
-            if type(stream) is dict:
-                self[twitch_id] = Stream([stream], twitch_id, meta=meta)
-            elif type(stream) is list:
-                self[twitch_id] = Stream(stream, twitch_id, meta=meta)
+            if isinstance(stream, dict):
+                stream = [stream]
+
+            if not isinstance(stream, list):
+                raise TypeError(type(stream))
+
+            if ',' in twitch_id:
+                self[twitch_id] = JoinedStream(stream, twitch_id,
+                                               streams=self, meta=meta)
             else:
-                raise TypeError
+                self[twitch_id] = Stream(stream, twitch_id, meta=meta)
 
     def enable_fallbacks(self):
         items = list(self.items())
