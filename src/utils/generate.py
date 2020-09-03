@@ -45,7 +45,7 @@ def enable_fallbacks():
 
 @timed('JSON files built in {}ms')
 def build_data():
-    from .ass import cut_subtitles
+    from .ass import generate_subtitles
 
     # Create required directories
     if not os.path.isdir(_('data')):
@@ -58,8 +58,8 @@ def build_data():
         if len(segment.timecodes) > 0:
             tc_dict[segment.hash] = segment.timecodes.to_dict()
 
-        # Generate cut subtitles
-        cut_subtitles(segment)
+        # Generate subtitles
+        generate_subtitles(segment)
 
     with open(_('data/timecodes.json'), 'w') as fo:
         json.dump(tc_dict, fo, ensure_ascii=False, indent=2)
