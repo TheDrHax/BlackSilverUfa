@@ -1749,12 +1749,13 @@
         { "name": "Wasteland 3", "start": "2:05:25" },
         { "name": "Mr. Prepper", "start": "3:40:10" }
       ] },
-      { "name": "World of Warcraft: Shadowlands", "twitch": "728015486" }
+      { "name": "World of Warcraft: Shadowlands", "twitch": "728015486" },
+      { "name": "Tony Hawk's Pro Skater 1+2", "twitch": "729970116", "start": "6:19:03" }
     ]
   },
   {
     "name": "Marvel's Avengers",
-    "category": "ongoing",
+    "category": "finished",
     "id": "marvel-avengers",
     "streams": [
       { "name": "1 (часть 1)", "twitch": "728015486", "start": "3:13:21" },
@@ -1764,7 +1765,8 @@
       { "name": "1 (часть 5)", "twitch": "728204189" },
       { "name": "1 (часть 6)", "twitch": "728213819" },
       { "name": "2 (заново, часть 1)", "twitch": "728972501" },
-      { "name": "2 (часть 2)", "twitch": "729152253" }
+      { "name": "2 (часть 2)", "twitch": "729152253" },
+      { "name": "3", "twitch": "729970116" }
     ]
   },
   {
