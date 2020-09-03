@@ -225,7 +225,7 @@ def convert_file(file: str, style: SubtitlesStyle = None):
     return convert(file, style=style, func=convert_msg)
 
 
-def cut_subtitles(segment):
+def generate_subtitles(segment):
     if not os.path.exists(segment.stream.subtitles_path):
         return
 
@@ -235,7 +235,7 @@ def cut_subtitles(segment):
     if len(segment.cuts) == 0:
         if cache_key in cache:
             print(f'Removing cut subtitles of segment {segment.hash}')
-            os.unlink(segment.cut_subtitles_path)
+            os.unlink(segment.generated_subtitles_path)
             cache.remove(cache_key)
         return
 

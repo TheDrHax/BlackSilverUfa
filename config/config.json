@@ -12,6 +12,11 @@
   "repos": {
     "remotes": [
       {
+        "name": "chats-generated",
+        "pull": "https://github.com/BlackSilverUfa/chats-generated.git",
+        "push": "git@github.com:BlackSilverUfa/chats-generated.git"
+      },
+      {
         "name": "chats-2017",
         "pull": "https://github.com/BlackSilverUfa/chats-2017.git",
         "push": "git@github.com:BlackSilverUfa/chats-2017.git"
@@ -33,6 +38,11 @@
       }
     ],
     "chats": {
+      "generated": {
+        "remote": "chats-generated",
+        "branch": "master",
+        "prefix": "https://blacksilverufa.github.io/chats-generated"
+      },
       "2017": {
         "remote": "chats-2017",
         "branch": "master",
