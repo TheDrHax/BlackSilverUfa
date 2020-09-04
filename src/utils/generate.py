@@ -45,7 +45,7 @@ def enable_fallbacks():
 
 @timed('JSON files built in {}ms')
 def build_data():
-    from .ass import generate_subtitles
+    from ..scripts.converter import generate_subtitles
 
     # Create required directories
     if not os.path.isdir(_('data')):

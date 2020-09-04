@@ -1,51 +1,5 @@
-import re
-import os
 from typing import List
-from hashlib import md5
 from datetime import timedelta, datetime as dtt
-
-import tcd
-from tcd.twitch import Message
-from tcd.subtitles import SubtitlesASS
-
-from ..data.cache import cache
-from ..data.config import tcd_config
-
-
-tcd.settings.update(tcd_config)
-
-GROUPED_EMOTES = re.compile('([^\ ]+) x⁣([0-9]+)')
-
-
-def unpack_emotes(line: str, pattern: re.Pattern = GROUPED_EMOTES) -> str:
-    """Reverse changes made by tcd.twitch.Message.group()."""
-    result = line
-
-    for m in reversed(list(pattern.finditer(line))):
-        mg = m.groups()
-        ms = m.span()
-
-        emote = mg[0].replace(' ', ' ')  # thin space to regular space
-        count = int(mg[1])
-
-        if count > 200:
-            print(f'Ignoring line: {line}')
-            continue
-
-        result = ''.join((result[:ms[0]],
-                          ' '.join([emote] * int(count)),
-                          result[ms[1]:]))
-
-        if len(result) > 500:
-            print(f'{len(result)}/500 chars: {line}')
-            return line
-
-    return result
-
-
-def unpack_line_breaks(line: str) -> str:
-    """Reverse changes made by tcd.subtitles.SubtitleASS.wrap()."""
-    return line.replace('\\N', '')
 
 
 class EmptyLineError(Exception):
@@ -127,26 +81,6 @@ class SubtitlesEvent(dict):
         return 'Dialogue: ' + ', '.join([self[key] for key in event_format])
 
 
-def convert_msg(msg: SubtitlesEvent) -> SubtitlesEvent:
-    """Reapply all TCD settings for messages."""
-
-    # Remove line breaks
-    text = unpack_line_breaks(msg.text)
-
-    # Repack emote groups
-    text = unpack_emotes(text)
-    text = Message.group(text, **tcd_config['group_repeating_emotes'])
-
-    # Update message durations
-    msg.duration = SubtitlesASS._duration(text)
-
-    # Recreate line breaks
-    text = SubtitlesASS.wrap(msg.username, text)
-
-    msg.text = text
-    return msg
-
-
 class SubtitlesStyle(dict):
     def __init__(self, format_line: str, style_line: str):
         if format_line.startswith('Format: '):
@@ -202,7 +136,7 @@ class SubtitlesReader:
                 if line.startswith('Format: '):
                     self.event_format = line[8:].split(', ')
                     break
-            
+
             if not style_section and not event_section:
                 self.header.append(line)
 
@@ -229,86 +163,10 @@ class SubtitlesWriter:
             '[Events]\n',
             'Format: ' + ', '.join(event_format) + '\n'
         ])
-    
+
     def write(self, event: SubtitlesEvent):
         self.file.write(event.compile(self.event_format) + '\n')
 
     def close(self):
         self.file.close()
 
-
-def convert(ifn: str, ofn: str = None,
-            style: SubtitlesStyle = None,
-            func=lambda msg: msg):
-
-    if ofn is None:
-        ofn = f'{ifn}.tmp'
-        replace = True
-    else:
-        replace = False
-
-    r = SubtitlesReader(ifn)
-    w = SubtitlesWriter(ofn, r.header, style if style else r.style,
-                        tcd_config['ssa_events_format'][8:].split(', '))
-
-    for event in r.events():
-        try:
-            event = func(event)
-
-            if event is None:
-                continue
-
-            w.write(event)
-        except EmptyLineError:
-            continue
-
-    if replace:
-        os.rename(ofn, ifn)
-
-
-def convert_file(file: str, style: SubtitlesStyle = None):
-    print(f'Converting {file}')
-    return convert(file, style=style, func=convert_msg)
-
-
-def generate_subtitles(segment):
-    if not os.path.exists(segment.stream.subtitles_path):
-        return
-
-    cache_key = f'cuts-{segment.hash}'
-    cut_hash = md5(str(segment.cuts).encode('utf-8')).hexdigest()
-
-    if len(segment.cuts) == 0:
-        if cache_key in cache:
-            print(f'Removing cut subtitles of segment {segment.hash}')
-            os.unlink(segment.generated_subtitles_path)
-            cache.remove(cache_key)
-        return
-
-    def rebase_msg(msg):
-        time = msg.start.time()
-        time = 3600 * time.hour + 60 * time.minute + time.second
-
-        # Drop all cut messages
-        for cut in segment.cuts:
-            if cut.value <= time <= cut.value + cut.duration:
-                raise EmptyLineError()
-
-        # Rebase messages after cuts
-        delta = timedelta(seconds=sum([cut.duration
-                                       for cut in segment.cuts
-                                       if cut.value <= time]))
-        msg.start -= delta
-        msg.end -= delta
-
-        return msg
-
-    if cache.get(cache_key) != cut_hash:
-        print(f'Cutting subtitles for segment {segment.hash}')
-
-        convert(segment.stream.subtitles_path,
-                segment.subtitles_path,
-                style=segment.stream.subtitles_style,
-                func=rebase_msg)
-
-        cache.set(cache_key, cut_hash)
