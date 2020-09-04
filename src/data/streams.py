@@ -1,6 +1,8 @@
 import attr
+import json
 from git import Repo
 from typing import List
+from hashlib import md5
 from datetime import datetime
 from subprocess import run, PIPE
 from sortedcontainers import SortedList, SortedKeyList
@@ -130,8 +132,25 @@ class Segment:
         return _(f'chats/generated/v{self.twitch}+{self.segment}.ass')
 
     @property
-    def subtitles_path(self):
+    def _generated_subtitles_data(self):
+        if isinstance(self.stream, JoinedStream):
+            return list(str(s[0].offset(0)) for s in self.stream.streams)
+
         if len(self.cuts) > 0:
+            return self.cuts.to_list()
+
+    @property
+    def generated_subtitles_hash(self) -> str:
+        data = self._generated_subtitles_data
+
+        if data is None:
+            return None
+
+        return md5(json.dumps(data).encode('utf-8')).hexdigest()
+
+    @property
+    def subtitles_path(self):
+        if self.generated_subtitles_hash:
             return self.generated_subtitles_path
         else:
             return self.stream.subtitles_path

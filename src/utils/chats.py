@@ -6,7 +6,7 @@ from . import _
 from ..data.fallback import FallbackSource
 from ..data import config, streams
 from ..data.config import tcd_config
-from ..utils.ass import convert_file
+from ..scripts.converter import convert_file
 
 
 fallback = FallbackSource(**config['fallback'])
