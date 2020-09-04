@@ -100,6 +100,11 @@ class Timecode(object):
         t.duration = self.duration
         return t
 
+    def __neg__(self):
+        t = Timecode(-int(self), self.name)
+        t.duration = self.duration
+        return t
+
     def __eq__(self, other):
         if isinstance(other, Timecode):
             return self.value == other.value
@@ -140,13 +145,20 @@ class Timecodes(Timecode, SortedKeyList):
     # Ignore SortedKeyList.__new__
     __new__ = Timecode.__new__
 
-    def __init__(self, timecodes={}, name=None):
+    def __init__(self, timecodes: Union[list, dict, 'Timecodes'] = {},
+                 name: str = None):
         SortedKeyList.__init__(self, key=lambda x: int(x))
         self.name = name
 
-        if type(timecodes) is dict:
+        if isinstance(timecodes, Timecodes):
+            if timecodes.is_list:
+                timecodes = timecodes.to_list()
+            else:
+                timecodes = timecodes.to_dict()
+
+        if isinstance(timecodes, dict):
             self._from_dict(timecodes)
-        elif type(timecodes) is list:
+        elif isinstance(timecodes, list):
             self._from_list(timecodes)
         else:
             raise TypeError(type(timecodes))

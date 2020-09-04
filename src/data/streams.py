@@ -724,17 +724,23 @@ class JoinedStream(Stream):
         data['youtube'] = base.youtube
         data['direct'] = base.direct
         data['official'] = base.official
-        data['cuts'] = [cut
-                        for stream in self.streams
-                        for segment in stream
-                        for cut in segment.cuts]
 
         Segment(stream=self, **data)
 
     @property
     def timecodes(self) -> Timecodes:
-        # TODO
-        return Timecodes()
+        timecodes = Timecodes()
+
+        for i, stream in enumerate(self.streams):
+            segment = stream[0]
+            t = Timecodes(segment.timecodes, name=f'{i+1}-й стрим')
+
+            if i > 0 and segment.offset() < 0:
+                t.add(Timecode(-segment.offset(), 'Начало'))
+
+            timecodes.add(t)
+
+        return timecodes
 
     @property
     def date(self) -> datetime:
