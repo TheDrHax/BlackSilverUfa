@@ -1,10 +1,11 @@
 import re
 import os
+from typing import List
 from hashlib import md5
 from datetime import timedelta, datetime as dtt
 
 import tcd
-from tcd.twitch import Message as TCDMessage
+from tcd.twitch import Message
 from tcd.subtitles import SubtitlesASS
 
 from ..data.cache import cache
@@ -51,7 +52,7 @@ class EmptyLineError(Exception):
     pass
 
 
-class Message:
+class SubtitlesEvent(dict):
     @staticmethod
     def _ptime(t):
         return dtt.strptime(t, '%H:%M:%S.%f')
@@ -62,19 +63,19 @@ class Message:
 
     @property
     def start(self):
-        return self._ptime(self.fields['Start'])
+        return self._ptime(self['Start'])
 
     @start.setter
     def start(self, value):
-        self.fields['Start'] = self._ftime(value)
+        self['Start'] = self._ftime(value)
 
     @property
     def end(self):
-        return self._ptime(self.fields['End'])
+        return self._ptime(self['End'])
 
     @end.setter
     def end(self, value):
-        self.fields['End'] = self._ftime(value)
+        self['End'] = self._ftime(value)
 
     @property
     def duration(self):
@@ -86,7 +87,7 @@ class Message:
 
     @property
     def color_bgr(self):
-        username = self.fields['Text'].split(': ', 1)[0]
+        username = self['Text'].split(': ', 1)[0]
         if username.startswith('{\\c&H'):
             return username[5:11]
         else:
@@ -94,40 +95,39 @@ class Message:
 
     @property
     def username(self):
-        username = self.fields['Text'].split(': ', 1)[0]
+        username = self['Text'].split(': ', 1)[0]
         if self.color_bgr:
             username = username[13:len(username)-13]
         return username
 
     @property
     def text(self):
-        return self.fields['Text'].split(': ', 1)[1]
+        return self['Text'].split(': ', 1)[1]
 
     @text.setter
     def text(self, value):
-        username = self.fields['Text'].split(': ', 1)[0]
-        self.fields['Text'] = f'{username}: {value}'
+        username = self['Text'].split(': ', 1)[0]
+        self['Text'] = f'{username}: {value}'
 
     def __init__(self, line, event_format):
         self.format = event_format
 
         msg = line[10:].split(', ', len(event_format) - 1)
-        self.fields = dict(zip(event_format, msg))
+        super().__init__(zip(event_format, msg))
 
         try:
             self.text
         except Exception:
             raise EmptyLineError()
 
-    def to_str(self, event_format=None):
+    def compile(self, event_format: List[str] = None):
         if not event_format:
             event_format = self.format
 
-        return 'Dialogue: ' + ', '.join(
-            [self.fields[field] for field in event_format])
+        return 'Dialogue: ' + ', '.join([self[key] for key in event_format])
 
 
-def convert_msg(msg: Message) -> Message:
+def convert_msg(msg: SubtitlesEvent) -> SubtitlesEvent:
     """Reapply all TCD settings for messages."""
 
     # Remove line breaks
@@ -135,7 +135,7 @@ def convert_msg(msg: Message) -> Message:
 
     # Repack emote groups
     text = unpack_emotes(text)
-    text = TCDMessage.group(text, **tcd_config['group_repeating_emotes'])
+    text = Message.group(text, **tcd_config['group_repeating_emotes'])
 
     # Update message durations
     msg.duration = SubtitlesASS._duration(text)
@@ -163,6 +163,80 @@ class SubtitlesStyle(dict):
         return 'Style: ' + ', '.join(self.values())
 
 
+class SubtitlesReader:
+    @staticmethod
+    def __iter_file(f):
+        for line in f:
+            yield line.strip()
+
+    def __init__(self, fi: str):
+        self.file = open(fi, 'r')
+        self._iter = self.__iter_file(self.file)
+
+        self.header = []
+        self.style = None
+        self.event_format = None
+
+        style_section = False
+        style_format = None
+
+        event_section = False
+
+        while True:
+            line = self._iter.__next__()
+
+            if not style_section and line.startswith('[V4 Styles]'):
+                style_section = True
+
+            if style_section and not self.style:
+                if line.startswith('Format: '):
+                    style_format = line
+                elif line.startswith('Style: '):
+                    self.style = SubtitlesStyle(style_format, line)
+
+            if not event_section and line.startswith('[Events]'):
+                style_section = False
+                event_section = True
+
+            if event_section:
+                if line.startswith('Format: '):
+                    self.event_format = line[8:].split(', ')
+                    break
+            
+            if not style_section and not event_section:
+                self.header.append(line)
+
+    def close(self):
+        self.file.close()
+
+    def events(self):
+        for line in self._iter:
+            yield SubtitlesEvent(line, self.event_format)
+
+
+class SubtitlesWriter:
+    def __init__(self, fo, header: List[str], style: SubtitlesStyle,
+                 event_format: List[str]):
+        self.file = open(fo, 'w')
+        self.style = style
+        self.event_format = event_format
+
+        self.file.writelines([
+            '\n'.join(header) + '\n',
+            '[V4 Styles]\n',
+            'Format: ' + ', '.join(style.format) + '\n',
+            style.compile() + '\n\n',
+            '[Events]\n',
+            'Format: ' + ', '.join(event_format) + '\n'
+        ])
+    
+    def write(self, event: SubtitlesEvent):
+        self.file.write(event.compile(self.event_format) + '\n')
+
+    def close(self):
+        self.file.close()
+
+
 def convert(ifn: str, ofn: str = None,
             style: SubtitlesStyle = None,
             func=lambda msg: msg):
@@ -173,48 +247,20 @@ def convert(ifn: str, ofn: str = None,
     else:
         replace = False
 
-    style_section = False
-    event_section = False
-    input_event_format = None
-    output_event_format = tcd_config['ssa_events_format'][8:].split(', ')
+    r = SubtitlesReader(ifn)
+    w = SubtitlesWriter(ofn, r.header, style if style else r.style,
+                        tcd_config['ssa_events_format'][8:].split(', '))
 
-    with open(ifn, 'r') as f_in, open(ofn, 'w') as f_out:
-        for line in f_in:
-            line = line.strip()
+    for event in r.events():
+        try:
+            event = func(event)
 
-            if not style_section and line.startswith('[V4 Styles]'):
-                style_section = True
+            if event is None:
+                continue
 
-            if style_section and style:
-                if line.startswith('Format: '):
-                    line = 'Format: ' + ', '.join(style.format)
-                elif line.startswith('Style: '):
-                    line = style.compile()
-
-            if not event_section and line.startswith('[Events]'):
-                style_section = False
-                event_section = True
-
-            if event_section:
-                if line.startswith('Format: '):
-                    input_event_format = line[8:].split(', ')
-                    line = tcd_config['ssa_events_format']
-                elif line.startswith('Dialogue: '):
-                    if not input_event_format:
-                        raise ValueError(f'Events format not found in {ifn}')
-
-                    try:
-                        msg = Message(line, input_event_format)
-                        msg = func(msg)
-
-                        if msg is None:
-                            raise EmptyLineError()
-
-                        line = msg.to_str(output_event_format)
-                    except EmptyLineError:
-                        continue
-
-            f_out.write(line + '\n')
+            w.write(event)
+        except EmptyLineError:
+            continue
 
     if replace:
         os.rename(ofn, ifn)
