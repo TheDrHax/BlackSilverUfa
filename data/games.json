@@ -147,13 +147,23 @@
     ]
   },
   {
+    "name": "Struggling",
+    "category": "co-op-series",
+    "id": "struggling",
+    "streams": [
+      { "name": "1 (соло)", "twitch": "725080998", "start": "1:27:55" },
+      { "name": "2", "twitch": "731025039", "start": "2:01:22" }
+    ]
+  },
+  {
     "name": "Fall Guys",
     "category": "co-op-series",
     "id": "fall-guys",
     "streams": [
       { "name": "1 (бета)", "twitch": "690295728", "start": "1:52:17" },
       { "name": "2", "twitch": "725080998", "segment": 0, "start": "4:56:08" },
-      { "name": "3 (соло)", "twitch": "726104659", "start": "1:38:13" }
+      { "name": "3 (соло)", "twitch": "726104659", "start": "1:38:13" },
+      { "name": "4", "twitch": "731025039", "start": "5:06:17" }
     ]
   },
   {
@@ -1740,17 +1750,23 @@
       ] },
       { "name": "Battletoads", "twitch": "720973722" },
       { "name": "Mafia: Definitive Edition (демо)", "twitch": "721969297", "segment": 1 },
-      { "twitch": "725080998", "segment": 0, "subrefs": [
-        { "name": "Observer: System Redux (демо)", "start": "55:02" },
-        { "name": "Struggling", "start": "1:27:55" }
-      ] },
+      { "name": "Observer: System Redux (демо)", "twitch": "725080998", "segment": 0, "start": "55:02" },
       { "twitch": "726104659", "subrefs": [
         { "name": "Windbound" },
-        { "name": "Wasteland 3", "start": "2:05:25" },
         { "name": "Mr. Prepper", "start": "3:40:10" }
       ] },
       { "name": "World of Warcraft: Shadowlands", "twitch": "728015486" },
-      { "name": "Tony Hawk's Pro Skater 1+2", "twitch": "729970116", "start": "6:19:03" }
+      { "name": "Tony Hawk's Pro Skater 1+2", "twitch": "729970116", "start": "6:19:03" },
+      { "name": "Inmost", "twitch": "731025039" }
+    ]
+  },
+  {
+    "name": "Wasteland 3",
+    "category": "co-op-series",
+    "id": "wasteland-3",
+    "streams": [
+      { "name": "1 (соло)", "twitch": "726104659", "start": "2:05:25" },
+      { "name": "2", "twitch": "731025039", "start": "3:07:37" }
     ]
   },
   {
