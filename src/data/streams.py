@@ -122,7 +122,7 @@ class Segment:
 
     @property
     def subtitles(self):
-        if len(self.cuts) > 0:
+        if self.generated_subtitles_hash:
             return self.generated_subtitles
         else:
             return self.stream.subtitles

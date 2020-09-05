@@ -1,5 +1,5 @@
 from typing import List
-from datetime import timedelta, datetime as dtt
+from math import floor
 
 
 class EmptyLineError(Exception):
@@ -8,36 +8,48 @@ class EmptyLineError(Exception):
 
 class SubtitlesEvent(dict):
     @staticmethod
-    def _ptime(t):
-        return dtt.strptime(t, '%H:%M:%S.%f')
+    def _ptime(t: str) -> float:
+        hours, minutes, seconds = map(float, t.split(':'))
+        return hours * 3600 + minutes * 60 + seconds
 
     @staticmethod
-    def _ftime(t):
-        return dtt.strftime(t, '%-H:%M:%S.%f')[:-4]
+    def _ftime(t: float) -> str:
+        """Converts float to ASS timestamp. Supports more than 24 hours."""
+
+        # Attempt to copy weird rounding of datetime and timedelta
+        t = floor(round(t + 0.000001, 6) * 100) / 100
+
+        hours = int(t // 3600)
+        t %= 3600
+        minutes = str(int(t // 60)).zfill(2)
+        t %= 60
+        seconds = format(t, '.2f').zfill(5)
+
+        return f'{int(hours)}:{minutes}:{seconds}'
 
     @property
-    def start(self):
+    def start(self) -> float:
         return self._ptime(self['Start'])
 
     @start.setter
-    def start(self, value):
+    def start(self, value: float):
         self['Start'] = self._ftime(value)
 
     @property
-    def end(self):
+    def end(self) -> float:
         return self._ptime(self['End'])
 
     @end.setter
-    def end(self, value):
+    def end(self, value: float):
         self['End'] = self._ftime(value)
 
     @property
-    def duration(self):
+    def duration(self) -> float:
         return self.end - self.start
 
     @duration.setter
-    def duration(self, value):
-        self.end = self.start + timedelta(seconds=value)
+    def duration(self, value: float):
+        self.end = self.start + value
 
     @property
     def color_bgr(self):
@@ -169,4 +181,3 @@ class SubtitlesWriter:
 
     def close(self):
         self.file.close()
-

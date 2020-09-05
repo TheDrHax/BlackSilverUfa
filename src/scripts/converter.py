@@ -10,7 +10,7 @@ Options:
 
 import os
 import re
-from datetime import timedelta
+from typing import Iterator
 from multiprocessing import Pool
 
 import tcd
@@ -106,6 +106,9 @@ def convert(ifn: str, ofn: str = None,
         except EmptyLineError:
             continue
 
+    r.close()
+    w.close()
+
     if replace:
         os.rename(ofn, ifn)
 
@@ -115,8 +118,7 @@ def cut_subtitles(segment: Segment):
         raise FileNotFoundError(segment.stream.subtitles_path)
 
     def rebase_msg(msg):
-        time = msg.start.time()
-        time = 3600 * time.hour + 60 * time.minute + time.second
+        time = msg.start
 
         # Drop all cut messages
         for cut in segment.cuts:
@@ -124,9 +126,9 @@ def cut_subtitles(segment: Segment):
                 raise EmptyLineError()
 
         # Rebase messages after cuts
-        delta = timedelta(seconds=sum([cut.duration
-                                       for cut in segment.cuts
-                                       if cut.value <= time]))
+        delta = sum([cut.duration
+                     for cut in segment.cuts
+                     if cut.value <= time])
         msg.start -= delta
         msg.end -= delta
 
@@ -139,7 +141,33 @@ def cut_subtitles(segment: Segment):
 
 
 def concatenate_subtitles(stream: JoinedStream):
-    raise NotImplementedError
+    for s in stream.streams:
+        if not os.path.exists(s[0].subtitles_path):
+            raise FileNotFoundError(s[0].subtitles_path)
+
+    def events() -> Iterator[SubtitlesEvent]:
+        for s in stream.streams:
+            segment = s[0]
+
+            r = SubtitlesReader(segment.subtitles_path)
+            offset = segment.offset(0).value
+
+            for event in r.events():
+                event.start -= offset
+                event.end -= offset
+                yield event
+
+            r.close()
+
+    r = SubtitlesReader(stream.streams[0][0].subtitles_path)
+    w = SubtitlesWriter(stream[0].generated_subtitles_path,
+                        r.header, r.style, r.event_format)
+    r.close()
+
+    for event in events():
+        w.write(event)
+
+    w.close()
 
 
 def generate_subtitles(segment):
@@ -166,9 +194,6 @@ def generate_subtitles(segment):
             cut_subtitles(segment)
     except FileNotFoundError as ex:
         print(f'Skipping segment {segment.hash}: {ex.filename} does not exist')
-        return
-    except Exception as ex:
-        print(f'Skipping segment {segment.hash}: {type(ex)}')
         return
 
     cache.set(cache_key, cache_hash)
