@@ -8,6 +8,14 @@ class Redirect {
       return res.json();
     }).then((segments) => {
       Redirect.segments = segments;
+
+      // Expand JoinedStreams onto their original segments
+      Object.keys(segments).filter((key) => key.indexOf(',') !== -1).map((key) => {
+        key.split(',').map((key_part) => {
+          segments[key_part] = segments[key];
+        });
+      });
+
       return segments;
     });
   }

@@ -45,20 +45,18 @@ class Search {
       minLength: 2,
       input: document.querySelector(selector),
       fetch: (text, update) => {
-        text = Search.strip(text);
-
         if (segments.indexOf(text) !== -1) {
-          update(segments.filter((key) => key.startsWith(text)).map((key) => {
-            let segment = Redirect.segments[key];
-            return {
-              name: segment.name,
-              group: 'Переход по ID',
-              url: segment.url
-            };
-          }));
+          let segment = Redirect.segments[text];;
+          update([{
+            name: segment.name,
+            group: 'Переход по ID',
+            url: segment.url
+          }]);
           return;
         }
 
+        text = Search.strip(text);
+        
         let suggestions = games.filter((x) => {
           if (text.indexOf(' ') != -1) {
             return Search.strip(x.name).indexOf(text) != -1;
