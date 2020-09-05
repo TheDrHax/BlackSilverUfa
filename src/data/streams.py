@@ -133,11 +133,16 @@ class Segment:
 
     @property
     def _generated_subtitles_data(self):
+        data = []
+
         if isinstance(self.stream, JoinedStream):
-            return list(str(s[0].offset(0)) for s in self.stream.streams)
+            data += list(str(s[0].offset(0)) for s in self.stream.streams)
 
         if len(self.cuts) > 0:
-            return self.cuts.to_list()
+            data += self.cuts.to_list()
+
+        if len(data) > 0:
+            return data
 
     @property
     def generated_subtitles_hash(self) -> str:
@@ -737,14 +742,7 @@ class JoinedStream(Stream):
         if len(data) > 1:
             raise ValueError("Only 1 segment is supported in JoinedStream")
 
-        base = self.streams[0][0]
-        data = data[0]
-
-        data['youtube'] = base.youtube
-        data['direct'] = base.direct
-        data['official'] = base.official
-
-        Segment(stream=self, **data)
+        Segment(stream=self, **data[0])
 
     @property
     def timecodes(self) -> Timecodes:
@@ -768,7 +766,7 @@ class JoinedStream(Stream):
     @property
     def messages(self) -> int:
         return sum(s.messages for s in self.streams)
-    
+
     @property
     def duration(self) -> Timecode:
         return Timecode(sum(int(s.duration) for s in self.streams))
