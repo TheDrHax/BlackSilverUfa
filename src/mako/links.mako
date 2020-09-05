@@ -59,11 +59,13 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
     <span class="badge badge-light">
       ${format_date(segment.date, format='long', locale='ru')}
     </span>
+    % for stream_id in segment.twitch.split(','):
     <span class="badge badge-primary">
-      <a href="https://www.twitch.tv/videos/${segment.twitch}" target="_blank">
-        <i class="fab fa-twitch"></i> ${segment.twitch}
+      <a href="https://www.twitch.tv/videos/${stream_id}" target="_blank">
+        <i class="fab fa-twitch"></i> ${stream_id}
       </a>
     </span>
+    % endfor
     <span class="badge badge-secondary">
       <a href="${segment.subtitles}">
         <i class="fas fa-comments"></i> ${segment.stream.messages}
