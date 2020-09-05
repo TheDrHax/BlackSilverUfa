@@ -787,9 +787,6 @@ class Segments:
 
         first = True
         for s in self:
-            if len(s.references) == 0:
-                continue
-
             if not first:
                 yield ',\n'
             else:
