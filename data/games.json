@@ -151,7 +151,7 @@
     "category": "co-op-series",
     "id": "struggling",
     "streams": [
-      { "name": "1 (соло)", "twitch": "725080998", "start": "1:27:55" },
+      { "name": "1 (соло)", "twitch": "725080998", "segment": 0, "start": "1:27:55" },
       { "name": "2", "twitch": "731025039", "start": "2:01:22" }
     ]
   },
