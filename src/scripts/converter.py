@@ -10,7 +10,8 @@ Options:
 
 import os
 import re
-from typing import Iterator
+import shutil
+from typing import List, Iterator
 from multiprocessing import Pool
 
 import tcd
@@ -18,9 +19,10 @@ from tcd.twitch import Message
 from tcd.subtitles import SubtitlesASS
 from docopt import docopt
 
-from ..data.streams import streams, Segment, JoinedStream
+from ..data.streams import streams, Stream, JoinedStream
 from ..data.cache import cache
 from ..data.config import tcd_config
+from ..data.timecodes import Timecodes
 from ..utils.ass import (EmptyLineError, SubtitlesReader,
                          SubtitlesWriter, SubtitlesEvent, SubtitlesStyle)
 
@@ -113,43 +115,38 @@ def convert(ifn: str, ofn: str = None,
         os.rename(ofn, ifn)
 
 
-def cut_subtitles(segment: Segment):
-    if not os.path.exists(segment.stream.subtitles_path):
-        raise FileNotFoundError(segment.stream.subtitles_path)
+def cut_subtitles(cuts: Timecodes, fi: str, fo: str = None):
+    if not os.path.exists(fi):
+        raise FileNotFoundError(fi)
 
     def rebase_msg(msg):
         time = msg.start
 
         # Drop all cut messages
-        for cut in segment.cuts:
+        for cut in cuts:
             if cut.value <= time <= cut.value + cut.duration:
                 raise EmptyLineError()
 
         # Rebase messages after cuts
-        delta = sum([cut.duration
-                     for cut in segment.cuts
-                     if cut.value <= time])
+        delta = sum([cut.duration for cut in cuts if cut.value <= time])
         msg.start -= delta
         msg.end -= delta
 
         return msg
 
-    convert(segment.stream.subtitles_path,
-            segment.subtitles_path,
-            style=segment.stream.subtitles_style,
-            func=rebase_msg)
+    convert(fi, fo, func=rebase_msg)
 
 
-def concatenate_subtitles(stream: JoinedStream):
-    for s in stream.streams:
-        if not os.path.exists(s[0].subtitles_path):
-            raise FileNotFoundError(s[0].subtitles_path)
+def concatenate_subtitles(stream_list: List[Stream], fo: str):
+    for stream in stream_list:
+        if not os.path.exists(stream[0].subtitles_path):
+            raise FileNotFoundError(stream[0].subtitles_path)
 
     def events() -> Iterator[SubtitlesEvent]:
-        for s in stream.streams:
-            segment = s[0]
+        for stream in stream_list:
+            segment = stream[0]
 
-            r = SubtitlesReader(segment.subtitles_path)
+            r = SubtitlesReader(segment.stream.subtitles_path)
             offset = segment.offset(0).value
 
             for event in r.events():
@@ -159,9 +156,11 @@ def concatenate_subtitles(stream: JoinedStream):
 
             r.close()
 
-    r = SubtitlesReader(stream.streams[0][0].subtitles_path)
-    w = SubtitlesWriter(stream[0].generated_subtitles_path,
-                        r.header, r.style, r.event_format)
+    # Get metadata from the first file
+    r = SubtitlesReader(stream_list[0][0].subtitles_path)
+
+    w = SubtitlesWriter(fo, r.header, r.style, r.event_format)
+
     r.close()
 
     for event in events():
@@ -187,14 +186,28 @@ def generate_subtitles(segment):
 
     print(f'Generating subtitles for segment {segment.hash}')
 
+    fo = segment.generated_subtitles_path
+
+    if os.path.exists(fo):
+        os.unlink(fo)
+
     try:
         if isinstance(segment.stream, JoinedStream):
-            concatenate_subtitles(segment.stream)
-        elif len(segment.cuts) > 0:
-            cut_subtitles(segment)
+            concatenate_subtitles(segment.stream.streams, fo)
+        else:
+            fi = segment.stream.subtitles_path
+            shutil.copyfile(fi, fo, follow_symlinks=True)
+
+        if len(segment.cuts) > 0:
+            cut_subtitles(segment.cuts, fo)
     except FileNotFoundError as ex:
         print(f'Skipping segment {segment.hash}: {ex.filename} does not exist')
+        if os.path.exists(fo):
+            os.unlink(fo)
         return
+    except Exception:
+        if os.path.exists(fo):
+            os.unlink(fo)
 
     cache.set(cache_key, cache_hash)
 
