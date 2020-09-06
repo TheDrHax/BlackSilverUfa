@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "World of Warcraft: Shadowlands / Marvel's Avengers #1 (часть 1)", "year": 2020, "url": "/links/first.html#728015486"},
       {"name": "Marvel's Avengers #1 (часть 2)", "year": 2020, "url": "/links/marvel-avengers.html#728162478"},
       {"name": "Marvel's Avengers #1 (часть 3)", "year": 2020, "url": "/links/marvel-avengers.html#728192109"},
       {"name": "Marvel's Avengers #1 (часть 4)", "year": 2020, "url": "/links/marvel-avengers.html#728196605"},
@@ -12,7 +11,8 @@
       {"name": "Marvel's Avengers #2 (заново, часть 1)", "year": 2020, "url": "/links/marvel-avengers.html#728972501"},
       {"name": "Marvel's Avengers #2 (часть 2)", "year": 2020, "url": "/links/marvel-avengers.html#729152253"},
       {"name": "Marvel's Avengers #3 / Tony Hawk's Pro Skater 1+2", "year": 2020, "url": "/links/marvel-avengers.html#729970116"},
-      {"name": "Inmost / Struggling #2 / Wasteland 3 #2 / Fall Guys #4", "year": 2020, "url": "/links/first.html#731025039"}
+      {"name": "Inmost / Struggling #2 / Wasteland 3 #2 / Fall Guys #4", "year": 2020, "url": "/links/first.html#731025039"},
+      {"name": "Vampire: The Masquerade - Bloodlines #4", "year": 2020, "url": "/links/vampire-masquerade.html#733113254"}
     ]
   },
   "finished": {
@@ -317,6 +317,7 @@
     "name": "Активные",
     "games": [
       {"name": "Control", "year": 2019, "url": "/links/control.html"},
+      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
       {"name": "Mortal Shell", "year": 2020, "url": "/links/mortal-shell.html"}
     ]
   },
@@ -401,7 +402,6 @@
       {"name": "Persona 5: The Royal", "year": 2020, "url": "/links/persona-5-royal.html"},
       {"name": "Mafia II: Definitive Edition", "year": 2020, "url": "/links/mafia-2-definitive.html"},
       {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"},
-      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
       {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "url": "/links/re7.html"},
       {"name": "Destroy All Humans!", "year": 2020, "url": "/links/destroy-all-humans.html"},
       {"name": "Far Cry 3", "year": 2020, "url": "/links/far-cry-3.html"},
