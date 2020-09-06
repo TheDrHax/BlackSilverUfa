@@ -5,6 +5,7 @@ import requests
 from . import _
 from ..data.fallback import FallbackSource
 from ..data import config, streams
+from ..data.streams import JoinedStream
 from ..data.config import tcd_config
 from ..scripts.converter import convert_file
 
@@ -55,5 +56,10 @@ if __name__ == '__main__':
 
     # Download missing stream subtitles
     for key, stream in streams.items():
-        if not os.path.isfile(stream.subtitles_path):
-            download(stream)
+        if isinstance(stream, JoinedStream):
+            continue
+
+        if os.path.isfile(stream.subtitles_path):
+            continue
+
+        download(stream)
