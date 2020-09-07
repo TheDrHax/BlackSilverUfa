@@ -22,6 +22,11 @@ class Redirect {
 
   static async link(hash) {
     let segments = await Redirect.init();
+
+    if (hash.indexOf(',') !== -1 && !Object.keys(segments).includes(hash)) {
+      hash = hash.split(',')[0];
+    }
+
     let dest = segments[hash];
 
     if (dest !== undefined) {
