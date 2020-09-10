@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Marvel's Avengers #1 (часть 4)", "year": 2020, "url": "/links/marvel-avengers.html#728196605"},
       {"name": "Marvel's Avengers #1 (часть 5)", "year": 2020, "url": "/links/marvel-avengers.html#728204189"},
       {"name": "Marvel's Avengers #1 (часть 6)", "year": 2020, "url": "/links/marvel-avengers.html#728213819"},
       {"name": "Marvel's Avengers #2 (заново, часть 1)", "year": 2020, "url": "/links/marvel-avengers.html#728972501"},
@@ -12,7 +11,8 @@
       {"name": "Inmost / Struggling #2 / Wasteland 3 #2 / Fall Guys #4", "year": 2020, "url": "/links/first.html#731025039"},
       {"name": "Vampire: The Masquerade - Bloodlines #4", "year": 2020, "url": "/links/vampire-masquerade.html#733113254"},
       {"name": "Craftopia / Fast & Furious: Crossroads #2 / Streamer Life Simulator / Fall Guys #5 (соло)", "year": 2020, "url": "/links/first.html#734046513"},
-      {"name": "Fall Guys #6 (соло) / Kingdoms of Amalur: Re-Reckoning", "year": 2020, "url": "/links/fall-guys.html#735013484"}
+      {"name": "Fall Guys #6 (соло) / Kingdoms of Amalur: Re-Reckoning", "year": 2020, "url": "/links/fall-guys.html#735013484"},
+      {"name": "There Is No Light (демо) / Star Renegades / Redneck Ed: Astro Monsters Show / The Sims 4 - Star Wars - Journey to Batuu / неПрофессиональный E3 2020 - Ubisoft (осень)", "year": 2020, "url": "/links/first.html#736906091"}
     ]
   },
   "finished": {
@@ -313,13 +313,15 @@
       {"name": "Tony Hawk's Pro Skater 1+2", "year": 2020, "url": "/links/first.html#729970116"},
       {"name": "Inmost", "year": 2020, "url": "/links/first.html#731025039"},
       {"name": "Craftopia / Streamer Life Simulator", "year": 2020, "url": "/links/first.html#734046513"},
-      {"name": "Kingdoms of Amalur: Re-Reckoning", "year": 2020, "url": "/links/first.html#735013484"}
+      {"name": "Kingdoms of Amalur: Re-Reckoning", "year": 2020, "url": "/links/first.html#735013484"},
+      {"name": "There Is No Light (демо) / Star Renegades / Redneck Ed: Astro Monsters Show", "year": 2020, "url": "/links/first.html#736906091"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "Control", "year": 2019, "url": "/links/control.html"},
+      {"name": "The Sims 4", "year": 2020, "url": "/links/sims-4.html"},
       {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
       {"name": "Mortal Shell", "year": 2020, "url": "/links/mortal-shell.html"}
     ]
@@ -396,7 +398,6 @@
       {"name": "Luigi's Mansion 3", "year": 2019, "url": "/links/luigis-mansion-3.html"},
       {"name": "Nioh 2", "year": 2019, "url": "/links/nioh-2.html"},
       {"name": "Spore", "year": 2019, "url": "/links/spore.html"},
-      {"name": "The Sims 4", "year": 2020, "url": "/links/sims-4.html"},
       {"name": "Gears of War 4", "year": 2020, "url": "/links/gears-of-war-4.html"},
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "url": "/links/one-punch-man.html"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "url": "/links/ori-wotw.html"},
