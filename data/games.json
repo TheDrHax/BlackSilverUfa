@@ -935,11 +935,12 @@
       { "name": "Square Enix - Marvel's Avengers (без Артёма)", "twitch": "660069027", "start": "3:59:33" },
       { "name": "CD Projekt Red - Cyberpunk 2077", "twitch": "661040084", "start": "2:58:33" },
       { "name": "Devolver Digital", "twitch": "676500778", "start": "6:00:51" },
-      { "name": "Ubisoft (без Артёма)", "twitch": "677524120", "start": "3:53:13" },
+      { "name": "Ubisoft (лето, без Артёма)", "twitch": "677524120", "start": "3:53:13" },
       { "twitch": "688270341", "subrefs": [
         { "name": "Microsoft", "start": "2:32:00" },
         { "name": "Microsoft", "start": "2:57:55" }
-      ] }
+      ] },
+      { "name": "Ubisoft (осень)", "twitch": "736906091", "start": "5:28:27" }
     ]
   },
   {
@@ -1768,7 +1769,12 @@
         { "name": "Craftopia" },
         { "name": "Streamer Life Simulator", "start": "3:41:19" }
       ] },
-      { "name": "Kingdoms of Amalur: Re-Reckoning", "twitch": "735013484", "start": "1:53:30" }
+      { "name": "Kingdoms of Amalur: Re-Reckoning", "twitch": "735013484", "start": "1:53:30" },
+      { "twitch": "736906091", "subrefs": [
+        { "name": "There Is No Light (демо)" },
+        { "name": "Star Renegades", "start": "1:36:53" },
+        { "name": "Redneck Ed: Astro Monsters Show", "start": "2:16:23" }
+      ] }
     ]
   },
   {
@@ -2214,7 +2220,8 @@
     "id": "sims-4",
     "streams": [
       { "name": "1", "twitch": "531327327", "start": "3:34:09" },
-      { "name": "2", "twitch": "545136550", "start": "3:23:17" }
+      { "name": "2", "twitch": "545136550", "start": "3:23:17" },
+      { "name": "Star Wars - Journey to Batuu", "twitch": "736906091", "start": "2:58:51" }
     ]
   },
   {
