@@ -5182,22 +5182,19 @@
     "youtube": "AlunRIkGSa8", "abs_start": "0:00", "abs_end": "3:32:19", "duration": "3:32:19",
     "name": "Maid of Sker #1",
     "date": "2020-07-28",
-    "url": "/links/maid-of-sker.html#693186645",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/693186645.torrent"
+    "url": "/links/maid-of-sker.html#693186645"
   },
   "693322490": {
     "youtube": "wGO4lJgHSHg", "abs_start": "0:00", "abs_end": "2:23:01", "duration": "2:23:01",
     "name": "Maid of Sker #2",
     "date": "2020-07-28",
-    "url": "/links/maid-of-sker.html#693322490",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/693322490.torrent"
+    "url": "/links/maid-of-sker.html#693322490"
   },
   "694197234": {
     "youtube": "zQGAo8BHOgY", "abs_start": "0:00", "abs_end": "6:03:33", "duration": "6:03:33",
     "name": "Grounded #1 (ранний доступ)",
     "date": "2020-07-29",
-    "url": "/links/grounded.html#694197234",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/694197234.torrent"
+    "url": "/links/grounded.html#694197234"
   },
   "695209589": {
     "youtube": "JP0XKa288bU", "official": false, "abs_start": "0:00", "abs_end": "34:35", "duration": "34:35",
@@ -5394,5 +5391,13 @@
     "date": "2020-09-11",
     "url": "/links/first.html#736906091",
     "torrent": "https://bsufiles.thedrhax.pw/streams/736906091.torrent"
+  },
+  "737853754": {
+    "abs_start": "0:00", "abs_end": "6:04:24", "duration": "0:00",
+    "name": "Vampire: The Masquerade - Bloodlines #5",
+    "date": "2020-09-11",
+    "url": "/links/vampire-masquerade.html#737853754",
+    "direct": "https://bsufiles.thedrhax.pw/streams/737853754.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/737853754.torrent"
   }
 }
