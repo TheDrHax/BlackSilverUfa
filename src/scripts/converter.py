@@ -19,7 +19,7 @@ from tcd.twitch import Message
 from tcd.subtitles import SubtitlesASS
 from docopt import docopt
 
-from ..data.streams import streams, Stream, JoinedStream
+from ..data.streams import streams, Stream
 from ..data.cache import cache
 from ..data.config import tcd_config
 from ..data.timecodes import Timecodes
@@ -137,17 +137,17 @@ def cut_subtitles(cuts: Timecodes, fi: str, fo: str = None):
     convert(fi, fo, func=rebase_msg)
 
 
-def concatenate_subtitles(stream_list: List[Stream], fo: str):
+def concatenate_subtitles(stream_list: List[Stream], offsets: Timecodes, fo: str):
     for stream in stream_list:
         if not os.path.exists(stream[0].subtitles_path):
             raise FileNotFoundError(stream[0].subtitles_path)
 
     def events() -> Iterator[SubtitlesEvent]:
-        for stream in stream_list:
+        for i, stream in enumerate(stream_list):
             segment = stream[0]
 
             r = SubtitlesReader(segment.stream.subtitles_path)
-            offset = segment.offset(0).value
+            offset = -offsets[i].value
 
             for event in r.events():
                 event.start -= offset
@@ -192,8 +192,8 @@ def generate_subtitles(segment):
         os.unlink(fo)
 
     try:
-        if isinstance(segment.stream, JoinedStream):
-            concatenate_subtitles(segment.stream.streams, fo)
+        if segment.stream.is_joined:
+            concatenate_subtitles(segment.stream.streams, segment.offsets, fo)
         else:
             fi = segment.stream.subtitles_path
             shutil.copyfile(fi, fo, follow_symlinks=True)

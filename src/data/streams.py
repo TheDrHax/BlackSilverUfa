@@ -1,7 +1,7 @@
 import attr
 import json
 from git import Repo
-from typing import List
+from typing import List, Tuple, Dict, Any
 from hashlib import md5
 from datetime import datetime
 from subprocess import run, PIPE
@@ -33,6 +33,7 @@ class Segment:
     start: Timecode = attr.ib(0, converter=Timecode)
     end: Timecode = attr.ib(0, converter=Timecode)
     _offset: Timecode = attr.ib(0, converter=Timecode)
+    offsets: Timecodes = attr.ib([], converter=Timecodes)  # for joined streams
     _duration: Timecode = attr.ib(0, converter=Timecode)
     cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
 
@@ -42,11 +43,30 @@ class Segment:
     fallbacks: dict = attr.ib(init=False)
     timecodes: TimecodesSlice = attr.ib(init=False)
 
+    def joined_timecodes(self) -> Timecodes:
+        timecodes = Timecodes()
+
+        for i, stream in enumerate(self.stream.streams):
+            segment = stream[0]
+            t = Timecodes(segment.timecodes, name=f'{i+1}-й стрим')
+
+            if i > 0 and self.offsets[i] > 0:
+                t.add(Timecode(0, 'Начало'))
+
+            timecodes.add(t + self.offsets[i])
+
+        return timecodes
+
     def __attrs_post_init__(self):
         self.references = SortedList(key=lambda x: x.start)
         self.fallbacks = dict()
-        self.timecodes = TimecodesSlice(parent=self.stream.timecodes,
-                                        segment=self)
+
+        if self.stream.is_joined:
+            timecodes = self.joined_timecodes()
+        else:
+            timecodes = self.stream.timecodes
+
+        self.timecodes = TimecodesSlice(parent=timecodes, segment=self)
 
     def offset(self, t=0):
         cuts = sum([cut.duration for cut in self.cuts if cut <= t])
@@ -135,8 +155,8 @@ class Segment:
     def _generated_subtitles_data(self):
         data = []
 
-        if isinstance(self.stream, JoinedStream):
-            data += list(str(s[0].offset(0)) for s in self.stream.streams)
+        if self.stream.is_joined:
+            data += self.offsets.to_list()
 
         if len(self.cuts) > 0:
             data += self.cuts.to_list()
@@ -609,9 +629,21 @@ class SubReference:
         return f'SubReference({self.name}, {self.start})'
 
 
-class Stream(SortedKeyList):
+@attr.s(auto_attribs=True, kw_only=True, repr=False, cmp=False)
+class Stream:
+    _key: str = attr.ib()
+    _data: List[dict] = attr.ib()
+
+    meta: Dict[str, Any] = attr.ib(factory=dict)
+    streams: List['Stream'] = attr.ib(factory=list)  # for joined streams
+
+    twitch: str = attr.ib(init=False)
+    games: List[Tuple['Game', SegmentReference]] = attr.ib(init=False)
+    segments: List[Segment] = attr.ib(init=False)
+    timecodes: Timecodes = attr.ib(init=False)
+
     @staticmethod
-    def _segment_key(s):
+    def _segment_key(s) -> int:
         if hasattr(s, 'fallbacks') and 'offset' in s.fallbacks:
             offset = s.fallbacks['offset']
         else:
@@ -619,18 +651,13 @@ class Stream(SortedKeyList):
 
         return int(offset)
 
-    def __init__(self, data, key, meta={}):
-        SortedKeyList.__init__(self, key=self._segment_key)
-
-        if type(data) is not list:
-            raise TypeError(type(data))
-
-        self.twitch = key
+    def __attrs_post_init__(self):
+        self.twitch = self._key
         self.games = []
-        self.meta = meta
-        self.timecodes = Timecodes(timecodes.get(key) or {})
+        self.segments = SortedKeyList(key=self._segment_key)
+        self.timecodes = Timecodes(timecodes.get(self.twitch) or {})
 
-        for segment in data:
+        for segment in self._data:
             Segment(stream=self, **segment)
 
     # Workaround for SortedKeyList.__init__
@@ -638,15 +665,22 @@ class Stream(SortedKeyList):
         return object.__new__(cls)
 
     @property
+    def is_joined(self) -> bool:
+        return len(self.streams) > 0
+
+    @property
     @cached('duration-twitch-{0[0].twitch}')
-    def _duration(self):
+    def _duration(self) -> int:
         line = last_line(self.subtitles_path)
         if line is not None:
             return int(Timecode(line.split(' ')[2].split('.')[0]))
 
     @property
-    def duration(self):
-        return Timecode(self._duration)
+    def duration(self) -> Timecode:
+        if self.is_joined:
+            return Timecode(sum(int(s.duration) for s in self.streams))
+        else:
+            return Timecode(self._duration)
 
     @property
     def abs_start(self) -> Timecode:
@@ -658,17 +692,21 @@ class Stream(SortedKeyList):
 
     @property
     @cached('date-{0[0].twitch}')
-    def _unix_time(self):
+    def _unix_time(self) -> str:
         args = ['--pretty=oneline', '--reverse', '-S', self.twitch]
         rev = repo.git.log(args).split(' ')[0]
         return repo.commit(rev).committed_date
 
     @property
-    def date(self):
-        return datetime.fromtimestamp(self._unix_time)
+    def date(self) -> datetime:
+        if self.is_joined:
+            return self.streams[0].date
+        else:
+            return datetime.fromtimestamp(self._unix_time)
 
     @property
-    def subtitles_prefix(self):
+    def subtitles_prefix(self) -> str:
+        """Returns public URL prefix of subtitles for this segment."""
         year = str(self.date.year)
         if year not in config['repos']['chats']:
             raise Exception(f'Repository for year {year} is not configured')
@@ -676,11 +714,13 @@ class Stream(SortedKeyList):
         return prefix
 
     @property
-    def subtitles(self):
+    def subtitles(self) -> str:
+        """Returns full public URL of subtitles for this segment."""
         return f'{self.subtitles_prefix}/v{self.twitch}.ass'
 
     @property
-    def subtitles_path(self):
+    def subtitles_path(self) -> str:
+        """Returns relative path of subtitles in current environment."""
         return _(f'chats/{self.date.year}/v{self.twitch}.ass')
 
     @property
@@ -697,16 +737,37 @@ class Stream(SortedKeyList):
 
     @property
     @cached('messages-{0[0].twitch}')
-    def _messages(self):
+    def _messages(self) -> int:
         lines = count_lines(self.subtitles_path)
         return (lines - 10) if lines else None
 
     @property
-    def messages(self):
-        return self._messages or 0
+    def messages(self) -> int:
+        if self.is_joined:
+            return sum([s.messages for s in self.streams])
+        else:
+            return self._messages or 0
+
+    def __getitem__(self, index: int) -> Segment:
+        return self.segments[index]
+
+    def __contains__(self, segment: Segment) -> bool:
+        return segment in self.segments
+
+    def __len__(self) -> int:
+        return len(self.segments)
+
+    def index(self, segment: Segment) -> int:
+        return self.segments.index(segment)
+
+    def add(self, segment: Segment):
+        self.segments.add(segment)
+
+    def remove(self, index: int):
+        self.segments.remove(index)
 
     @join()
-    def to_json(self):
+    def to_json(self) -> str:
         if len(self) > 1:
             yield '[\n'
 
@@ -723,53 +784,8 @@ class Stream(SortedKeyList):
         else:
             yield self[0].to_json()
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.to_json()
-
-
-class JoinedStream(Stream):
-    def __init__(self, data: List[dict], key: str, streams: 'Streams', meta={}):
-        SortedKeyList.__init__(self, key=Stream._segment_key)
-
-        self.twitch = key
-        self.games = []
-        self.meta = meta
-        self.streams = list([streams[i] for i in key.split(',')])
-
-        if not isinstance(data, list):
-            raise TypeError(type(data))
-
-        if len(data) > 1:
-            raise ValueError("Only 1 segment is supported in JoinedStream")
-
-        Segment(stream=self, **data[0])
-
-    @property
-    def timecodes(self) -> Timecodes:
-        timecodes = Timecodes()
-
-        for i, stream in enumerate(self.streams):
-            segment = stream[0]
-            t = Timecodes(segment.timecodes, name=f'{i+1}-й стрим')
-
-            if i > 0 and segment.offset() < 0:
-                t.add(Timecode(-segment.offset(), 'Начало'))
-
-            timecodes.add(t)
-
-        return timecodes
-
-    @property
-    def date(self) -> datetime:
-        return self.streams[0].date
-
-    @property
-    def messages(self) -> int:
-        return sum(s.messages for s in self.streams)
-
-    @property
-    def duration(self) -> Timecode:
-        return Timecode(sum(int(s.duration) for s in self.streams))
 
 
 @attr.s(auto_attribs=True)
@@ -827,10 +843,12 @@ class Streams(dict):
                 raise TypeError(type(stream))
 
             if ',' in twitch_id:
-                self[twitch_id] = JoinedStream(stream, twitch_id,
-                                               streams=self, meta=meta)
+                targets = list([self[key] for key in twitch_id.split(',')])
             else:
-                self[twitch_id] = Stream(stream, twitch_id, meta=meta)
+                targets = []
+
+            self[twitch_id] = Stream(data=stream, key=twitch_id,
+                                     streams=targets, meta=meta)
 
     def enable_fallbacks(self):
         items = list(self.items())
