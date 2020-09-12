@@ -56,10 +56,5 @@ if __name__ == '__main__':
 
     # Download missing stream subtitles
     for key, stream in streams.items():
-        if isinstance(stream, JoinedStream):
-            continue
-
-        if os.path.isfile(stream.subtitles_path):
-            continue
-
-        download(stream)
+        if not os.path.isfile(stream.subtitles_path) and not stream.is_joined:
+            download(stream)

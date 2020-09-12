@@ -198,6 +198,18 @@ class Timecodes(Timecode, SortedKeyList):
 
         return result
 
+    def __add__(self, value: Union[Timecode,int,str]) -> 'Timecodes':
+        value = Timecode(value)
+        result = Timecodes({}, self.name)
+
+        for tc in self:
+            result.add(tc + value)
+        
+        return result
+
+    def __sub__(self, value: Union[Timecode,int,str]) -> 'Timecodes':
+        return self.__add__(-value)
+
     #
     # Disguise as the smallest timecode in the list
     #
