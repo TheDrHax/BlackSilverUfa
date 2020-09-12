@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Marvel's Avengers #1 (часть 6)", "year": 2020, "url": "/links/marvel-avengers.html#728213819"},
       {"name": "Marvel's Avengers #2 (заново, часть 1)", "year": 2020, "url": "/links/marvel-avengers.html#728972501"},
       {"name": "Marvel's Avengers #2 (часть 2)", "year": 2020, "url": "/links/marvel-avengers.html#729152253"},
       {"name": "Marvel's Avengers #3 / Tony Hawk's Pro Skater 1+2", "year": 2020, "url": "/links/marvel-avengers.html#729970116"},
@@ -12,7 +11,8 @@
       {"name": "Craftopia / Fast & Furious: Crossroads #2 / Streamer Life Simulator / Fall Guys #5 (соло)", "year": 2020, "url": "/links/first.html#734046513"},
       {"name": "Fall Guys #6 (соло) / Kingdoms of Amalur: Re-Reckoning", "year": 2020, "url": "/links/fall-guys.html#735013484"},
       {"name": "There Is No Light (демо) / Star Renegades / Redneck Ed: Astro Monsters Show / The Sims 4 - Star Wars - Journey to Batuu / неПрофессиональный E3 2020 - Ubisoft (осень)", "year": 2020, "url": "/links/first.html#736906091"},
-      {"name": "Vampire: The Masquerade - Bloodlines #5", "year": 2020, "url": "/links/vampire-masquerade.html#737853754"}
+      {"name": "Vampire: The Masquerade - Bloodlines #5", "year": 2020, "url": "/links/vampire-masquerade.html#737853754"},
+      {"name": "Игровые места зрителей / Escape Game Fort Boyard / Escape From Skull Dungeon / Fall Guys #7", "year": 2020, "url": "/links/other.html#738885129"}
     ]
   },
   "finished": {
@@ -462,7 +462,8 @@
       {"name": "Moving Out", "year": 2020, "url": "/links/co-op.html#612822436"},
       {"name": "Embr / Cannibal Cuisine", "year": 2020, "url": "/links/co-op.html#633403643"},
       {"name": "Broforce", "year": 2020, "url": "/links/co-op.html#661040084"},
-      {"name": "Surgeon Simulator 2", "year": 2020, "url": "/links/co-op.html#725080998"}
+      {"name": "Surgeon Simulator 2", "year": 2020, "url": "/links/co-op.html#725080998"},
+      {"name": "Escape Game Fort Boyard / Escape From Skull Dungeon", "year": 2020, "url": "/links/co-op.html#738885129"}
     ]
   },
   "co-op-series": {
@@ -555,7 +556,8 @@
       {"name": "Xbox Game Pass Ultimate", "year": 2019, "url": "/links/other.html#526521156"},
       {"name": "Розыгрыш мерча Metro Exodus", "year": 2020, "url": "/links/events.html#572721394"},
       {"name": "Розыгрыш Asus ROG Strix Scope", "year": 2020, "url": "/links/events.html#676500778"},
-      {"name": "Трейлеры и нарезки", "year": 2020, "url": "/links/other.html#687309207"}
+      {"name": "Трейлеры и нарезки", "year": 2020, "url": "/links/other.html#687309207"},
+      {"name": "Игровые места зрителей", "year": 2020, "url": "/links/other.html#738885129"}
     ]
   },
   "expos": {
