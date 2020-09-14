@@ -1357,8 +1357,16 @@
       {
         "name": "Трейлеры и нарезки", "twitch": "687309207",
         "note": "Первый стрим, где было так много трейлеров, что на игры не хватило времени."
-      },
-      { "name": "Игровые места зрителей", "twitch": "738885129" }
+      }
+    ]
+  },
+  {
+    "name": "Игровые места зрителей",
+    "category": "other",
+    "id": "setups",
+    "streams": [
+      { "name": "1", "twitch": "738885129" },
+      { "name": "2", "twitch": "740853378", "start": "1:54:01" }
     ]
   },
   {
@@ -1780,7 +1788,8 @@
         { "name": "There Is No Light (демо)" },
         { "name": "Star Renegades", "start": "1:36:53" },
         { "name": "Redneck Ed: Astro Monsters Show", "start": "2:16:23" }
-      ] }
+      ] },
+      { "name": "Marbles On Stream", "twitch": "740853378" }
     ]
   },
   {
