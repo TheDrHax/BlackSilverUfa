@@ -5206,15 +5206,13 @@
     "youtube": "mnJAoj40LXA", "abs_start": "0:00", "abs_end": "5:23:24", "duration": "5:23:24",
     "name": "Hellpoint #1 (часть 2) / House on the Hill / Grounded #2",
     "date": "2020-07-30",
-    "url": "/links/hellpoint.html#695229266",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/695229266.torrent"
+    "url": "/links/hellpoint.html#695229266"
   },
   "696198252": {
     "youtube": "aewuWcW-bI4", "abs_start": "0:00", "abs_end": "6:19:41", "duration": "6:19:41",
     "name": "Halo: Reach - Прохождение с Дашей и Джеком",
     "date": "2020-07-31",
-    "url": "/links/halo-reach.html#696198252",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/696198252.torrent"
+    "url": "/links/halo-reach.html#696198252"
   },
   "697191590": {
     "youtube": "EFLx2YQ4RLQ", "abs_start": "0:00", "abs_end": "6:03:03", "duration": "6:03:03",
@@ -5400,9 +5398,17 @@
   },
   "738885129": {
     "youtube": "qE2ioYUcfxY", "official": false, "abs_start": "0:00", "abs_end": "6:21:13", "duration": "6:21:13",
-    "name": "Игровые места зрителей / Escape Game Fort Boyard / Escape From Skull Dungeon / Fall Guys #7",
+    "name": "Игровые места зрителей #1 / Escape Game Fort Boyard / Escape From Skull Dungeon / Fall Guys #7",
     "date": "2020-09-12",
-    "url": "/links/other.html#738885129",
+    "url": "/links/setups.html#738885129",
     "torrent": "https://bsufiles.thedrhax.pw/streams/738885129.torrent"
+  },
+  "740853378": {
+    "abs_start": "0:00", "abs_end": "3:09:31", "duration": "0:00",
+    "name": "Marbles On Stream / Игровые места зрителей #2",
+    "date": "2020-09-14",
+    "url": "/links/first.html#740853378",
+    "direct": "https://bsufiles.thedrhax.pw/streams/740853378.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/740853378.torrent"
   }
 }
