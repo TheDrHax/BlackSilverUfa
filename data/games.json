@@ -173,7 +173,8 @@
         { "name": "6 (соло)" },
         { "name": "6 (соло)", "start": "3:51:47" }
       ] },
-      { "name": "7", "twitch": "738885129", "start": "4:28:33" }
+      { "name": "7", "twitch": "738885129", "start": "4:28:33" },
+      { "name": "8 (соло)", "twitch": "747742325", "start": "3:03:01" }
     ]
   },
   {
@@ -1790,7 +1791,11 @@
         { "name": "Redneck Ed: Astro Monsters Show", "start": "2:16:23" }
       ] },
       { "name": "Marbles On Stream", "twitch": "740853378" },
-      { "name": "Crysis: Remastered", "twitch": "746844135" }
+      { "name": "Crysis: Remastered", "twitch": "746844135" },
+      { "twitch": "747742325", "subrefs": [
+        { "name": "BPM: Bullets Per Minute" },
+        { "name": "Hades", "start": "1:24:49" }
+      ] }
     ]
   },
   {
@@ -1933,7 +1938,8 @@
       ] },
       { "name": "3", "twitch": "665878817" },
       { "name": "4", "twitch": "733113254" },
-      { "name": "5", "twitch": "737853754" }
+      { "name": "5", "twitch": "737853754" },
+      { "name": "6", "twitch": "747742325", "start": "3:31:05" }
     ]
   },
   {
