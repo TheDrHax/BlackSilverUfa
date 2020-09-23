@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Inmost / Struggling #2 / Wasteland 3 #2 / Fall Guys #4", "year": 2020, "url": "/links/first.html#731025039"},
       {"name": "Vampire: The Masquerade - Bloodlines #4", "year": 2020, "url": "/links/vampire-masquerade.html#733113254"},
       {"name": "Craftopia / Fast & Furious: Crossroads #2 / Streamer Life Simulator / Fall Guys #5 (соло)", "year": 2020, "url": "/links/first.html#734046513"},
       {"name": "Fall Guys #6 (соло) / Kingdoms of Amalur: Re-Reckoning", "year": 2020, "url": "/links/fall-guys.html#735013484"},
@@ -12,7 +11,8 @@
       {"name": "Игровые места зрителей #1 / Escape Game Fort Boyard / Escape From Skull Dungeon / Fall Guys #7", "year": 2020, "url": "/links/setups.html#738885129"},
       {"name": "Marbles On Stream / Игровые места зрителей #2", "year": 2020, "url": "/links/first.html#740853378"},
       {"name": "Crysis: Remastered", "year": 2020, "url": "/links/first.html#746844135"},
-      {"name": "BPM: Bullets Per Minute / Hades / Fall Guys #8 (соло) / Vampire: The Masquerade - Bloodlines #6", "year": 2020, "url": "/links/first.html#747742325"}
+      {"name": "BPM: Bullets Per Minute / Hades / Fall Guys #8 (соло) / Vampire: The Masquerade - Bloodlines #6", "year": 2020, "url": "/links/first.html#747742325"},
+      {"name": "Contraband Police (демо) / Fall Guys #9 (соло) / Serious Sam 4", "year": 2020, "url": "/links/single.html#749640613"}
     ]
   },
   "finished": {
@@ -166,7 +166,8 @@
       {"name": "UnMetal (демо)", "year": 2020, "url": "/links/single.html#700057034"},
       {"name": "Fast & Furious: Crossroads", "year": 2020, "url": "/links/fnf-crossroads.html"},
       {"name": "The Last Campfire", "year": 2020, "url": "/links/last-campfire.html"},
-      {"name": "Marvel's Avengers", "year": 2020, "url": "/links/marvel-avengers.html"}
+      {"name": "Marvel's Avengers", "year": 2020, "url": "/links/marvel-avengers.html"},
+      {"name": "Contraband Police (демо)", "year": 2020, "url": "/links/single.html#749640613"}
     ]
   },
   "first": {
@@ -466,7 +467,8 @@
       {"name": "Embr / Cannibal Cuisine", "year": 2020, "url": "/links/co-op.html#633403643"},
       {"name": "Broforce", "year": 2020, "url": "/links/co-op.html#661040084"},
       {"name": "Surgeon Simulator 2", "year": 2020, "url": "/links/co-op.html#725080998"},
-      {"name": "Escape Game Fort Boyard / Escape From Skull Dungeon", "year": 2020, "url": "/links/co-op.html#738885129"}
+      {"name": "Escape Game Fort Boyard / Escape From Skull Dungeon", "year": 2020, "url": "/links/co-op.html#738885129"},
+      {"name": "Serious Sam 4", "year": 2020, "url": "/links/co-op.html#749640613"}
     ]
   },
   "co-op-series": {
