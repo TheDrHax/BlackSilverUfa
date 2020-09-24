@@ -1105,10 +1105,22 @@
   "649632498": { "youtube": "79mltcLTpkM" },
   "650534841": { "youtube": "7xYwbs5Rc80" },
   "653411860": { "youtube": "k13C51HA-RE" },
-  "654380816": { "youtube": "ZBHv3E0ZDHo", "end": "7:32:13" },
-  "655265437": { "youtube": "ZBHv3E0ZDHo", "offset": "-7:32:13", "end": "6:41:07", "force_start": true },
-  "655528246": { "youtube": "ZBHv3E0ZDHo", "offset": "-14:13:20", "end": "3:00:11", "force_start": true },
-  "656257835": { "youtube": "ZBHv3E0ZDHo", "offset": "-17:13:32", "force_start": true },
+  "654380816": {
+    "youtube": "0xbMsFhQ71s", "official": false,
+    "note": "<a href=\"https://youtu.be/ZBHv3E0ZDHo\">Официальная запись заблокирована</a> 24 сентября 2020."
+  },
+  "655265437": {
+    "youtube": "rsGC0GI9ZU4", "official": false,
+    "note": "<a href=\"https://youtu.be/ZBHv3E0ZDHo\">Официальная запись заблокирована</a> 24 сентября 2020."
+  },
+  "655528246": {
+    "youtube": "MLh93Y6CoCw", "official": false,
+    "note": "<a href=\"https://youtu.be/ZBHv3E0ZDHo\">Официальная запись заблокирована</a> 24 сентября 2020."
+  },
+  "656257835": {
+    "youtube": "jnzpKbZHaPA", "official": false,
+    "note": "<a href=\"https://youtu.be/ZBHv3E0ZDHo\">Официальная запись заблокирована</a> 24 сентября 2020."
+  },
   "658127870": { "youtube": "Rb25ko56u-s" },
   "659080815": { "youtube": "BwULm0cDUUY" },
   "660069027": { "youtube": "YwwZayvGUXE" },
