@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Vampire: The Masquerade - Bloodlines #4", "year": 2020, "url": "/links/vampire-masquerade.html#733113254"},
       {"name": "Craftopia / Fast & Furious: Crossroads #2 / Streamer Life Simulator / Fall Guys #5 (соло)", "year": 2020, "url": "/links/first.html#734046513"},
       {"name": "Fall Guys #6 (соло) / Kingdoms of Amalur: Re-Reckoning", "year": 2020, "url": "/links/fall-guys.html#735013484"},
       {"name": "There Is No Light (демо) / Star Renegades / Redneck Ed: Astro Monsters Show / The Sims 4 - Star Wars - Journey to Batuu / неПрофессиональный E3 2020 - Ubisoft (осень)", "year": 2020, "url": "/links/first.html#736906091"},
@@ -12,7 +11,8 @@
       {"name": "Marbles On Stream / Игровые места зрителей #2", "year": 2020, "url": "/links/first.html#740853378"},
       {"name": "Crysis: Remastered", "year": 2020, "url": "/links/first.html#746844135"},
       {"name": "BPM: Bullets Per Minute / Hades / Fall Guys #8 (соло) / Vampire: The Masquerade - Bloodlines #6", "year": 2020, "url": "/links/first.html#747742325"},
-      {"name": "Contraband Police (демо) / Fall Guys #9 (соло) / Serious Sam 4", "year": 2020, "url": "/links/single.html#749640613"}
+      {"name": "Contraband Police (демо) / Fall Guys #9 (соло) / Serious Sam 4", "year": 2020, "url": "/links/single.html#749640613"},
+      {"name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1", "year": 2020, "url": "/links/mafia.html#750578050"}
     ]
   },
   "finished": {
@@ -307,7 +307,6 @@
       {"name": "What Happened / I Have a Fear / Missing Children / Othercide", "year": 2020, "url": "/links/first.html#697191590"},
       {"name": "Train 113", "year": 2020, "url": "/links/first.html#719986899"},
       {"name": "Battletoads", "year": 2020, "url": "/links/first.html#720973722"},
-      {"name": "Mafia: Definitive Edition (демо)", "year": 2020, "url": "/links/first.html#721969297.1"},
       {"name": "The Dark Pictures: Little Hope (демо) / Observer: System Redux (демо)", "year": 2020, "url": "/links/first.html#725080998"},
       {"name": "Windbound / Mr. Prepper", "year": 2020, "url": "/links/first.html#726104659"},
       {"name": "World of Warcraft: Shadowlands", "year": 2020, "url": "/links/first.html#728015486"},
@@ -327,7 +326,8 @@
       {"name": "Control", "year": 2019, "url": "/links/control.html"},
       {"name": "The Sims 4", "year": 2020, "url": "/links/sims-4.html"},
       {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
-      {"name": "Mortal Shell", "year": 2020, "url": "/links/mortal-shell.html"}
+      {"name": "Mortal Shell", "year": 2020, "url": "/links/mortal-shell.html"},
+      {"name": "Mafia: Definitive Edition", "year": 2020, "url": "/links/mafia-de.html"}
     ]
   },
   "infinite": {

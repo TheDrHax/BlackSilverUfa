@@ -5230,8 +5230,7 @@
     "youtube": "GyIX9TxIK5g", "official": false, "abs_start": "0:00", "abs_end": "3:54:53", "duration": "3:54:53",
     "name": "UnMetal (демо) / Grounded #4",
     "date": "2020-08-04",
-    "url": "/links/single.html#700057034",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/700057034.torrent"
+    "url": "/links/single.html#700057034"
   },
   "719986899": {
     "youtube": "Uf595IvHhAw", "official": false, "abs_start": "0:00", "abs_end": "6:01:56", "duration": "6:01:56",
@@ -5256,9 +5255,9 @@
   },
   "721969297.1": {
     "youtube": "9vzJKwzDQLQ", "abs_start": "1:59:53", "abs_end": "6:13:07", "duration": "4:13:14",
-    "name": "Mafia: Definitive Edition (демо)",
+    "name": "Mafia: Definitive Edition - Демо",
     "date": "2020-08-26",
-    "url": "/links/first.html#721969297.1",
+    "url": "/links/mafia-de.html#721969297.1",
     "torrent": "https://bsufiles.thedrhax.pw/streams/721969297.torrent"
   },
   "723011325": {
@@ -5428,5 +5427,13 @@
     "date": "2020-09-23",
     "url": "/links/single.html#749640613",
     "torrent": "https://bsufiles.thedrhax.pw/streams/749640613.torrent"
+  },
+  "750578050": {
+    "abs_start": "0:00", "abs_end": "6:52:10", "duration": "0:00",
+    "name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1",
+    "date": "2020-09-24",
+    "url": "/links/mafia.html#750578050",
+    "direct": "https://bsufiles.thedrhax.pw/streams/750578050.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/750578050.torrent"
   }
 }
