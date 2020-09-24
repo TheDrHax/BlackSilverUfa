@@ -1770,7 +1770,6 @@
       ] },
       { "name": "Train 113", "twitch": "719986899" },
       { "name": "Battletoads", "twitch": "720973722" },
-      { "name": "Mafia: Definitive Edition (демо)", "twitch": "721969297", "segment": 1 },
       { "twitch": "725080998", "subrefs": [
         { "name": "The Dark Pictures: Little Hope (демо)" },
         { "name": "Observer: System Redux (демо)", "start": "55:02" },
@@ -1799,6 +1798,15 @@
         { "name": "BPM: Bullets Per Minute" },
         { "name": "Hades", "start": "1:24:49" }
       ] }
+    ]
+  },
+  {
+    "name": "Mafia: Definitive Edition",
+    "category": "ongoing",
+    "id": "mafia-de",
+    "streams": [
+      { "name": "Демо", "twitch": "721969297", "segment": 1 },
+      { "name": "1", "twitch": "750578050", "start": "2:00:33" }
     ]
   },
   {
@@ -2452,7 +2460,8 @@
       { "name": "1", "twitch": "495816363" },
       { "name": "2", "twitch": "496247270" },
       { "name": "3", "twitch": "497590135" },
-      { "name": "1 (заново)", "twitch": "721969297", "segment": 0 }
+      { "name": "1 (заново)", "twitch": "721969297", "segment": 0 },
+      { "name": "2", "twitch": "750578050" }
     ]
   },
   {
