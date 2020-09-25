@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Craftopia / Fast & Furious: Crossroads #2 / Streamer Life Simulator / Fall Guys #5 (соло)", "year": 2020, "url": "/links/first.html#734046513"},
       {"name": "Fall Guys #6 (соло) / Kingdoms of Amalur: Re-Reckoning", "year": 2020, "url": "/links/fall-guys.html#735013484"},
       {"name": "There Is No Light (демо) / Star Renegades / Redneck Ed: Astro Monsters Show / The Sims 4 - Star Wars - Journey to Batuu / неПрофессиональный E3 2020 - Ubisoft (осень)", "year": 2020, "url": "/links/first.html#736906091"},
       {"name": "Vampire: The Masquerade - Bloodlines #5", "year": 2020, "url": "/links/vampire-masquerade.html#737853754"},
@@ -12,7 +11,8 @@
       {"name": "Crysis: Remastered", "year": 2020, "url": "/links/first.html#746844135"},
       {"name": "BPM: Bullets Per Minute / Hades / Fall Guys #8 (соло) / Vampire: The Masquerade - Bloodlines #6", "year": 2020, "url": "/links/first.html#747742325"},
       {"name": "Contraband Police (демо) / Fall Guys #9 (соло) / Serious Sam 4", "year": 2020, "url": "/links/single.html#749640613"},
-      {"name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1", "year": 2020, "url": "/links/mafia.html#750578050"}
+      {"name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1", "year": 2020, "url": "/links/mafia.html#750578050"},
+      {"name": "Mafia: Definitive Edition #2", "year": 2020, "url": "/links/mafia-de.html#751534901"}
     ]
   },
   "finished": {
@@ -165,6 +165,7 @@
       {"name": "There Are Ghosts in These Stalls / The Baby in Yellow / Lapso: NIMBO / Redundancy / Forgotten Tunnels 2 / Re:Turn (демо)", "year": 2020, "url": "/links/single.html#697191590"},
       {"name": "UnMetal (демо)", "year": 2020, "url": "/links/single.html#700057034"},
       {"name": "Fast & Furious: Crossroads", "year": 2020, "url": "/links/fnf-crossroads.html"},
+      {"name": "Mafia: Definitive Edition", "year": 2020, "url": "/links/mafia-de.html"},
       {"name": "The Last Campfire", "year": 2020, "url": "/links/last-campfire.html"},
       {"name": "Marvel's Avengers", "year": 2020, "url": "/links/marvel-avengers.html"},
       {"name": "Contraband Police (демо)", "year": 2020, "url": "/links/single.html#749640613"}
@@ -326,8 +327,7 @@
       {"name": "Control", "year": 2019, "url": "/links/control.html"},
       {"name": "The Sims 4", "year": 2020, "url": "/links/sims-4.html"},
       {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
-      {"name": "Mortal Shell", "year": 2020, "url": "/links/mortal-shell.html"},
-      {"name": "Mafia: Definitive Edition", "year": 2020, "url": "/links/mafia-de.html"}
+      {"name": "Mortal Shell", "year": 2020, "url": "/links/mortal-shell.html"}
     ]
   },
   "infinite": {
