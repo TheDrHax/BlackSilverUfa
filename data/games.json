@@ -1802,11 +1802,12 @@
   },
   {
     "name": "Mafia: Definitive Edition",
-    "category": "ongoing",
+    "category": "finished",
     "id": "mafia-de",
     "streams": [
       { "name": "Демо", "twitch": "721969297", "segment": 1 },
-      { "name": "1", "twitch": "750578050", "start": "2:00:33" }
+      { "name": "1", "twitch": "750578050", "start": "2:00:33" },
+      { "name": "2", "twitch": "751534901" }
     ]
   },
   {
