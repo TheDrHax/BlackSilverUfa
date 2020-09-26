@@ -247,7 +247,7 @@ class Segment:
         if not compiled:
             keys = ['youtube', 'offset', 'cuts', 'official',
                     'start', 'end', '_duration', 'force_start']
-            multiline_keys = ['note', 'direct', 'torrent']
+            multiline_keys = ['offsets', 'note', 'direct', 'torrent']
         else:
             keys = ['youtube', 'cuts', 'official',
                     'abs_start', 'abs_end', 'duration']
@@ -255,9 +255,14 @@ class Segment:
 
         def get_attr(key):
             if key in self.fallbacks and not compiled:
-                return self.fallbacks[key]
+                value = self.fallbacks[key]
             else:
-                return getattr(self, key)
+                value = getattr(self, key)
+
+            if isinstance(value, Timecodes) and len(value) == 0:
+                return None
+
+            return value
 
         multiline = True in [get_attr(key) is not None
                              for key in multiline_keys]
@@ -305,6 +310,12 @@ class Segment:
 
             if key == 'date':
                 value = value.date().isoformat()
+
+            if key == 'offsets':
+                if self.stream.is_joined:
+                    value = self.offsets.to_list()
+                else:
+                    continue
 
             if value is None:
                 continue
