@@ -754,7 +754,10 @@
   "434798330": { "youtube": "hrujaHuqqh4" },
   "434907657": { "youtube": "QDCdbbm8T8E" },
   "435209211": { "youtube": "XRv7CHRBagI" },
-  "435683759": { "youtube": "mm462LoelaY" },
+  "435683759": {
+    "youtube": "lasTzyCgapE", "official": false,
+    "note": "<a href=\"https://youtu.be/mm462LoelaY\">Официальная запись</a> не может быть использована на этом сайте (встраивание запрещено)."
+  },
   "436159113": [
     { "youtube": "lIaPF2NU95s" },
     { "youtube": "FHsR6BIP2d4", "offset": "2:00:20" }
@@ -1102,14 +1105,21 @@
   "649632498": { "youtube": "79mltcLTpkM" },
   "650534841": { "youtube": "7xYwbs5Rc80" },
   "653411860": { "youtube": "k13C51HA-RE" },
-  "654380816": {  },
-  "655265437": {  },
-  "655528246": {  },
-  "656257835": {  },
-  "654380816,655265437,655528246,656257835": {
-    "youtube": "ZBHv3E0ZDHo",
-    "offsets": ["0:00", "7:32:13", "14:13:20", "17:13:32"],
-    "note": "4 стрима были склеены в одну запись."
+  "654380816": {
+    "youtube": "0xbMsFhQ71s", "official": false,
+    "note": "<a href=\"https://youtu.be/ZBHv3E0ZDHo\">Официальная запись</a> заблокирована 24 сентября 2020."
+  },
+  "655265437": {
+    "youtube": "rsGC0GI9ZU4", "official": false,
+    "note": "<a href=\"https://youtu.be/ZBHv3E0ZDHo\">Официальная запись</a> заблокирована 24 сентября 2020."
+  },
+  "655528246": {
+    "youtube": "MLh93Y6CoCw", "official": false,
+    "note": "<a href=\"https://youtu.be/ZBHv3E0ZDHo\">Официальная запись</a> заблокирована 24 сентября 2020."
+  },
+  "656257835": {
+    "youtube": "jnzpKbZHaPA", "official": false,
+    "note": "<a href=\"https://youtu.be/ZBHv3E0ZDHo\">Официальная запись</a> заблокирована 24 сентября 2020."
   },
   "658127870": { "youtube": "Rb25ko56u-s" },
   "659080815": { "youtube": "BwULm0cDUUY" },
@@ -1158,10 +1168,7 @@
     { "youtube": "9vzJKwzDQLQ", "offset": "1:59:53" }
   ],
   "723011325": { "youtube": "Zieo4ovQjLA", "official": false },
-  "725080998": [
-    { "youtube": "J_uazlzyEW4", "official": false },
-    { "youtube": "tBBnVWRtrbU", "offset": "12:59" }
-  ],
+  "725080998": { "youtube": "J_uazlzyEW4", "official": false },
   "726104659": { "youtube": "d87CqT9S4ww", "official": false },
   "727071763": { "youtube": "C5Rj9CgVciE", "official": false },
   "728015486": { "youtube": "4dVKqb4pUvY", "official": false },
@@ -1181,5 +1188,20 @@
     "youtube": "KuC2TPa8ySg", "official": false,
     "offsets": ["0:00", "5:05:40"],
     "note": "Стрим падал 3 раза. 2 части склеены в одну запись. 1 часть длиной 50 секунд отброшена."
-  }
+  },
+  "729970116": { "youtube": "8DKpxtGWNHM", "official": false },
+  "731025039": { "youtube": "QqnudzNJqKs", "official": false },
+  "733113254": { "youtube": "fcE9JzLqGk8", "official": false },
+  "734046513": { "youtube": "_qQ2GXWV8to", "official": false },
+  "735013484": { "youtube": "VkfiWfnoW48", "official": false },
+  "736906091": { "youtube": "rg58Y5Fe13M", "official": false },
+  "737853754": { "youtube": "4XSj80oJZ1s", "official": false },
+  "738885129": { "youtube": "qE2ioYUcfxY", "official": false },
+  "740853378": { "youtube": "0uXjZYTO2ks", "official": false },
+  "746844135": { "youtube": "QT-388R9gtU", "official": false },
+  "747742325": { "youtube": "SMLIMejupXc", "official": false },
+  "749640613": { "youtube": "UwLqQHKOUkM", "official": false },
+  "750578050": { "youtube": "-ZdvF7C8hm4", "official": false },
+  "751534901": { "youtube": "AdZDD2gc91Y", "official": false },
+  "752595682": {  }
 }
