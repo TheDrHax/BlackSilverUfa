@@ -324,10 +324,8 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Control", "year": 2019, "url": "/links/control.html"},
       {"name": "The Sims 4", "year": 2020, "url": "/links/sims-4.html"},
-      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"},
-      {"name": "Mortal Shell", "year": 2020, "url": "/links/mortal-shell.html"}
+      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "url": "/links/vampire-masquerade.html"}
     ]
   },
   "infinite": {
@@ -393,6 +391,7 @@
       {"name": "Resident Evil 2", "year": 2019, "url": "/links/re2.html"},
       {"name": "Wounded", "year": 2019, "url": "/links/wounded.html"},
       {"name": "S.T.A.L.K.E.R.: Lost Alpha", "year": 2019, "url": "/links/stalker-la.html"},
+      {"name": "Control", "year": 2019, "url": "/links/control.html"},
       {"name": "Tom Clancy's Ghost Recon Breakpoint", "year": 2019, "url": "/links/ghost-recon-breakpoint.html"},
       {"name": "Blasphemous", "year": 2019, "url": "/links/blasphemous.html"},
       {"name": "Astral Chain", "year": 2019, "url": "/links/astral-chain.html"},
@@ -410,6 +409,7 @@
       {"name": "Mafia II: Definitive Edition", "year": 2020, "url": "/links/mafia-2-definitive.html"},
       {"name": "Beyond Blue", "year": 2020, "url": "/links/beyond-blue.html"},
       {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "url": "/links/re7.html"},
+      {"name": "Mortal Shell", "year": 2020, "url": "/links/mortal-shell.html"},
       {"name": "Destroy All Humans!", "year": 2020, "url": "/links/destroy-all-humans.html"},
       {"name": "Far Cry 3", "year": 2020, "url": "/links/far-cry-3.html"},
       {"name": "Hellpoint", "year": 2020, "url": "/links/hellpoint.html"}
