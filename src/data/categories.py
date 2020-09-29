@@ -71,10 +71,11 @@ class Category:
             first = True
             for game in self.games:
                 data = dict(name=game.name, year=game.date.year)
+
                 if isinstance(game, Game):
-                    data['url'] = game.filename
+                    data['id'] = game.id
                 elif isinstance(game, SegmentReference):
-                    data['url'] = game.url
+                    data['id'] = game.hash
 
                 if not first:
                     yield ',\n'
