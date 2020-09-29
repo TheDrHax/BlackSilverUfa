@@ -1,3 +1,5 @@
+const SEGMENT_HASH_REGEX = /^[0-9]+(\.[0-9]+)?$/;
+
 class Redirect {
   static segments = null;
 
@@ -13,6 +15,10 @@ class Redirect {
   }
 
   static async link(hash) {
+    if (!Redirect.isHash(hash)) { // Assume ID of a game
+      return '/links/' + hash + '.html';
+    }
+
     let segments = await Redirect.init();
     let dest = segments[hash];
 
@@ -32,21 +38,14 @@ class Redirect {
     }
   }
 
-  static getQueryVariable(variable) {
-    var query = window.location.search.substring(1);
-    var vars = query.split('&');
-    for (var i = 0; i < vars.length; i++) {
-      var pair = vars[i].split('=');
-      if (decodeURIComponent(pair[0]) == variable) {
-        return decodeURIComponent(pair[1]);
-      }
-    }
+  static isHash(hash) {
+    return hash.match(SEGMENT_HASH_REGEX) !== null;
   }
 
   static detect() {
-    var hash = Redirect.getQueryVariable('s') || window.location.search.substring(1);
+    var hash = window.location.search.substring(1);
 
-    if (hash.split('.').length > 1 && hash.split('.')[1] == 0) {
+    if (Redirect.isHash(hash) && hash.endsWith('.0')) {
       hash = hash.split('.')[0];
     }
 

@@ -89,7 +89,7 @@ class Search {
         return div;
       },
       onSelect: (item) => {
-        window.location = item.url;
+        Redirect.go(item.id);
       }
     });
   }

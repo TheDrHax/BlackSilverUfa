@@ -87,7 +87,7 @@ def build_mako():
     # Recreate required directories
     if not os.path.isdir(_('')):
         os.mkdir(_(''))
-    for dp in ['links', 'src', 'r']:
+    for dp in ['links', 'r']:
         if os.path.isdir(_(dp)):
             shutil.rmtree(_(dp))
         os.mkdir(_(dp))
@@ -102,7 +102,6 @@ def build_mako():
     with open(_('r/index.html'), 'w') as out:
         t = lookup.get_template(f'/redirect.mako')
         out.write(t.render(**env))
-    shutil.copyfile(_('r/index.html'), _('src/player.html'))  # for old links
 
     # Generate links/*.html
     t = lookup.get_template('/links.mako')
