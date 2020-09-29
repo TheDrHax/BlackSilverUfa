@@ -15,6 +15,10 @@ class Redirect {
   }
 
   static async link(hash) {
+    if (hash.length == 0) {
+      return '/';
+    }
+
     if (!Redirect.isHash(hash)) { // Assume ID of a game
       return '/links/' + hash + '.html';
     }
