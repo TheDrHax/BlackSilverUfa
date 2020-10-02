@@ -183,17 +183,35 @@ def cmd_add(stream, segment_kwargs):
     return segment
 
 
-def original_video(segment, directory=None):
+def original_video(segment, directory):
+    # Try to find file in the specified directory
     if directory:
-        filename = f'{directory}{os.path.sep}{segment.twitch}.mp4'
-    else:
-        filename = None
+        filename = os.path.join(directory, f'{segment.twitch}.mp4')
 
-    if filename and os.path.exists(filename):
-        return filename
+        if os.path.exists(filename):
+            return filename
 
+    if not directory:
+        directory = fallback.directory
+
+    # Get path or URL from fallback
     if f'{segment.twitch}.mp4' in fallback:
-        return fallback.url(f'{segment.twitch}.mp4')
+        url = fallback.url(f'{segment.twitch}.mp4')
+        filename = url.replace(fallback.prefix, directory)
+
+        if os.path.exists(filename):
+            return filename
+        else:
+            return url
+
+    # Get path from direct URL
+    if segment.direct and segment.direct.startswith(fallback.prefix):
+        filename = segment.direct.replace(fallback.prefix, directory)
+
+        if os.path.exists(filename):
+            return filename
+        else:
+            return segment.direct
 
     return None
 
