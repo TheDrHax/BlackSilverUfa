@@ -12,46 +12,60 @@ class Search {
   }
 
   static async load() {
-    if (Search.games != null) return Search.games;
+    if (!Search.games) {
+      Search.games = fetch('/data/categories.json').then((res) => {
+        return res.json();
+      }).then((categories) => {
+        // Create flat array of games and add category name to each of them
+        let games = Object.keys(categories).flatMap((key) => {
+          let category = categories[key];
 
-    return fetch('/data/categories.json').then((res) => {
-      return res.json();
-    }).then((categories) => {
-      // Create flat array of games and add category name to each of them
-      Search.games = Object.keys(categories).flatMap((key) => {
-        let category = categories[key];
+          if (category.search === false) {
+            return [];
+          }
 
-        if (category.search === false) {
-          return [];
-        }
+          return category.games.flatMap((game) => {
+            game.group = category.name;
 
-        return category.games.map((game) => {
-          game.group = category.name;
-          return game;
+            let names = game.name.split(' / ');
+
+            if (names.length > 1) {
+              return names.map((name) => {
+                let subref = Object.assign({}, game);
+                subref.name = name;
+                return subref;
+              });
+            } else {
+              return game;
+            }
+          });
         });
-      });
 
-      return Search.games;
-    });
+        return games;
+      });
+    }
+
+    return await Search.games;
   }
 
   static async init(selector) {
     let games = await Search.load();
-
-    await Redirect.init();
-    let segments = Object.keys(Redirect.segments);
+    let segments = await Redirect.init();
+    let segment_ids = Object.keys(segments);
 
     return autocomplete({
       minLength: 2,
       input: document.querySelector(selector),
       fetch: (text, update) => {
-        if (segments.indexOf(text) !== -1) {
-          let segment = Redirect.segments[text];;
-          update([{
-            name: segment.name,
-            group: 'Переход по ID',
-            url: segment.url
-          }]);
+        if (segment_ids.indexOf(text) !== -1) {
+          update(segment_ids.filter((key) => key.startsWith(text)).map((key) => {
+            let segment = segments[key];
+            return {
+              name: segment.name,
+              group: 'Переход по ID',
+              id: key
+            };
+          }));
           return;
         }
 
@@ -76,7 +90,7 @@ class Search {
         return div;
       },
       onSelect: (item) => {
-        window.location = item.url;
+        Redirect.go(item.id);
       }
     });
   }
