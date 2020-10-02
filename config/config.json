@@ -67,6 +67,7 @@
   },
   "fallback": {
     "prefix": "https://bsufiles.thedrhax.pw/streams",
+    "directory": "/media/BlackUFA/Streams",
     "capacity": 50,
     "parse_index": true,
     "streams": true,
