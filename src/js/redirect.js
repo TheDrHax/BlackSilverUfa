@@ -4,18 +4,21 @@ class Redirect {
   static segments = null;
 
   static async init() {
-    if (Redirect.segments) return Redirect.segments;
+    if (!Redirect.segments) {
+      Redirect.segments = fetch('/data/segments.json').then((res) => {
+        return res.json();
+      });
+    }
 
-    return fetch('/data/segments.json').then((res) => {
-      return res.json();
-    }).then((segments) => {
-      Redirect.segments = segments;
-      return segments;
-    });
+    return await Redirect.segments;
+  }
+
+  static isHash(hash) {
+    return hash.match(SEGMENT_HASH_REGEX) !== null;
   }
 
   static async link(hash) {
-    if (hash.length == 0) {
+    if (!hash || hash.length == 0) {
       return '/';
     }
 
@@ -24,10 +27,9 @@ class Redirect {
     }
 
     let segments = await Redirect.init();
-    let dest = segments[hash];
 
-    if (dest !== undefined) {
-      return dest.url;
+    if (segments[hash]) {
+      return segments[hash].url;
     } else {
       return '/';
     }
@@ -42,12 +44,8 @@ class Redirect {
     }
   }
 
-  static isHash(hash) {
-    return hash.match(SEGMENT_HASH_REGEX) !== null;
-  }
-
   static detect() {
-    var hash = window.location.search.substring(1);
+    let hash = window.location.search.substring(1);
 
     if (Redirect.isHash(hash) && hash.endsWith('.0')) {
       hash = hash.split('.')[0];
