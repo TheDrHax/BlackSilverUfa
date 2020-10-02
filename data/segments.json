@@ -5279,15 +5279,13 @@
     "youtube": "C5Rj9CgVciE", "official": false, "abs_start": "0:00", "abs_end": "4:32:08", "duration": "4:32:08",
     "name": "The Last Campfire #2",
     "date": "2020-08-31",
-    "url": "/links/last-campfire.html#727071763",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/727071763.torrent"
+    "url": "/links/last-campfire.html#727071763"
   },
   "728015486": {
     "youtube": "4dVKqb4pUvY", "official": false, "abs_start": "0:00", "abs_end": "3:45:15", "duration": "3:45:15",
     "name": "World of Warcraft: Shadowlands / Marvel's Avengers #1 (часть 1)",
     "date": "2020-09-01",
-    "url": "/links/first.html#728015486",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/728015486.torrent"
+    "url": "/links/first.html#728015486"
   },
   "728162478": {
     "youtube": "QAluNP4N50Q", "official": false, "abs_start": "0:00", "abs_end": "19:54", "duration": "1:41:20",
@@ -5463,5 +5461,13 @@
     "date": "2020-10-01",
     "url": "/links/vampire-masquerade.html#757370746",
     "torrent": "https://bsufiles.thedrhax.pw/streams/757370746.torrent"
+  },
+  "758360932": {
+    "abs_start": "0:00", "abs_end": "6:33:39", "duration": "0:00",
+    "name": "Star Wars: Squadrons",
+    "date": "2020-10-02",
+    "url": "/links/first.html#758360932",
+    "direct": "https://bsufiles.thedrhax.pw/streams/758360932.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/758360932.torrent"
   }
 }
