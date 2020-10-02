@@ -64,7 +64,7 @@ class Search {
             return {
               name: segment.name,
               group: 'Переход по ID',
-              url: segment.url
+              id: key
             };
           }));
           return;
