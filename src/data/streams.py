@@ -435,6 +435,11 @@ class SegmentReference:
         add('offset', lambda x: x().value, lambda x: x() != 0)
         add('subtitles')
 
+        if self.stream.is_joined:
+            add('offsets',
+                lambda x: ','.join([str(t.value) for t in x]),
+                lambda x: len(x) != 0)
+
         add('start', lambda x: int(x - self.offset(x)),
             lambda x: x != 0 or self.force_start)
         add('end', lambda x: int(x - self.offset(x)), lambda x: x != 0)

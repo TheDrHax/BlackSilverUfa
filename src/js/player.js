@@ -7,7 +7,59 @@ function get_timecodes(id) {
   return document.querySelectorAll('.timecodes[data-id="' + id + '"] a[data-value]');
 }
 
-const resume = JSON.parse(localStorage.getItem("resume_playback")) || {};
+
+const resume = JSON.parse(localStorage.getItem('resume_playback')) || {};
+
+class SavedPosition {
+  constructor(stream) {
+    this.ids = stream.twitch.split(',');
+
+    if (stream.offsets) {
+      this.offsets = stream.offsets.split(',').map((t) => +t);
+    } else if (stream.offset) {
+      this.offsets = [stream.offset];
+    } else {
+      this.offsets = [0];
+    }
+  }
+
+  set(t) {
+    let match = null;
+
+    this.ids.map((id, i) => {
+      let offset = this.offsets[i];
+
+      if (t >= offset) {
+        match = [id, offset];
+      }
+
+      delete resume[id];
+    });
+
+    if (match !== null) {
+      resume[match[0]] = t - match[1];
+      localStorage.setItem('resume_playback', JSON.stringify(resume));
+    }
+  }
+
+  get() {
+    let positions = this.ids.map((id, i) => {
+      return +resume[id] + this.offsets[i];
+    }).filter((x) => !isNaN(x));
+
+    return positions[positions.length - 1];
+  }
+
+  exists() {
+    for (let i = 0; i < this.ids.length; i++) {
+      if (resume[this.ids[i]]) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+}
 
 function spawnPlayer(wrapper, callback) {
   wrapper.classList.remove('d-flex', 'justify-content-center');
@@ -19,18 +71,19 @@ function spawnPlayer(wrapper, callback) {
 }
 
 function spawnPlyr(wrapper, callback) {
-  var player, subtitles;
-  var stream = wrapper.dataset;
-  var timecodes = get_timecodes(stream.id);
-  var ready = stream.direct ? 'loadedmetadata' : 'ready';
+  let player, subtitles;
+  let stream = wrapper.dataset;
+  let timecodes = get_timecodes(stream.id);
+  let ready = stream.direct ? 'loadedmetadata' : 'ready';
+  let saved_pos = new SavedPosition(stream);
 
   const id = stream.twitch + '.' + (stream.segment || 0);
   const offset = +stream.offset || 0;
-  var start = +stream.start || 0;
+  let start = +stream.start || 0;
   const end = +stream.end || 0;
   const force_start = Boolean(stream.force_start);
 
-  var options = {
+  let options = {
     // Disable quality selection (doesn't work on YouTube)
     settings: ['captions', /* 'quality', */ 'speed', 'loop'],
     invertTime: false,
@@ -43,12 +96,12 @@ function spawnPlyr(wrapper, callback) {
   // Force enable click and hover events on PCs with touchscreen
   player.touch = false;
 
-  var last_timestamp = -1;
-  var last_save = -1;
-  var first_loop = true;
+  let last_timestamp = -1;
+  let last_save = -1;
+  let first_loop = true;
 
   player.on('timeupdate', function(event) {
-    var time = player.currentTime;
+    let time = player.currentTime;
 
     // Ignore first loop if time has already been modified
     first_loop &= time < 1;
@@ -58,9 +111,9 @@ function spawnPlyr(wrapper, callback) {
       player.currentTime = start;
     }
 
-    if (first_loop && resume[id]) {
+    if (first_loop && saved_pos.exists()) {
       // Seek to the saved position
-      player.currentTime = resume[id] + offset;
+      player.currentTime = saved_pos.get();
     }
 
     first_loop = false;
@@ -77,8 +130,7 @@ function spawnPlyr(wrapper, callback) {
   
       // Save current position every 5 seconds
       if (Math.abs(time - last_save) > 5) {
-        resume[id] = Math.floor(time) - offset;
-        localStorage.setItem('resume_playback', JSON.stringify(resume));
+        saved_pos.set(Math.floor(time));
         last_save = time;
       }
   
@@ -104,7 +156,7 @@ function spawnPlyr(wrapper, callback) {
     }
   });
 
-  var source = { type: 'video' };
+  let source = { type: 'video' };
   if (stream.youtube) {
     source.sources = [{
       provider: 'youtube',
@@ -140,11 +192,11 @@ function spawnPlyr(wrapper, callback) {
   subtitles.canvas.style.pointerEvents = "none";
 
   function subResize() {
-    var e_sub = subtitles.canvas;
-    var e_vid = player.elements.container;
+    let e_sub = subtitles.canvas;
+    let e_vid = player.elements.container;
 
-    var width = Math.min(e_vid.clientWidth, e_vid.clientHeight / 9 * 16);
-    var height = width / 16 * 9;
+    let width = Math.min(e_vid.clientWidth, e_vid.clientHeight / 9 * 16);
+    let height = width / 16 * 9;
 
     // Render at double resolution for better quality
     e_sub.style.transform = 'scale(0.5, 0.5) translate(-50%, -50%)';
@@ -171,7 +223,7 @@ function spawnPlyr(wrapper, callback) {
         }
 
         // https://stackoverflow.com/a/59110022
-        var value = Reflect.get(obj, prop);
+        let value = Reflect.get(obj, prop);
         if (typeof (value) == "function") {
           return value.bind(obj);
         }
@@ -179,7 +231,7 @@ function spawnPlyr(wrapper, callback) {
       }
     }));
 
-    var captions = player.elements.controls.childNodes[4];
+    let captions = player.elements.controls.childNodes[4];
     captions.toggle = function() {
       if (captions.pressed) {
         captions.pressed = false;
@@ -248,7 +300,7 @@ window.addEventListener('DOMContentLoaded', function() {
       continue;
     }
 
-    var button = document.createElement('button');
+    let button = document.createElement('button');
     button.classList.add('btn', 'btn-primary');
     button.type = 'button';
     button.innerHTML = '<i class="fas fa-play"></i> Открыть плеер';
@@ -267,8 +319,8 @@ window.addEventListener('DOMContentLoaded', function() {
     };
 
     // Activate timecode links
-    var timecodes = get_timecodes(wrapper.dataset.id);
-    var timecode_onclick = function() {
+    let timecodes = get_timecodes(wrapper.dataset.id);
+    let timecode_onclick = function() {
       wrapper.seek(Number(this.dataset.value));
     };
     timecodes.forEach(function(el) {
