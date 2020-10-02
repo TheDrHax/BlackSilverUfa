@@ -12,45 +12,46 @@ class Search {
   }
 
   static async load() {
-    if (Search.games != null) return Search.games;
+    if (!Search.games) {
+      Search.games = fetch('/data/categories.json').then((res) => {
+        return res.json();
+      }).then((categories) => {
+        // Create flat array of games and add category name to each of them
+        let games = Object.keys(categories).flatMap((key) => {
+          let category = categories[key];
 
-    return fetch('/data/categories.json').then((res) => {
-      return res.json();
-    }).then((categories) => {
-      // Create flat array of games and add category name to each of them
-      Search.games = Object.keys(categories).flatMap((key) => {
-        let category = categories[key];
-
-        if (category.search === false) {
-          return [];
-        }
-
-        return category.games.flatMap((game) => {
-          game.group = category.name;
-
-          let names = game.name.split(' / ');
-
-          if (names.length > 1) {
-            return names.map((name) => {
-              let subref = Object.assign({}, game);
-              subref.name = name;
-              return subref;
-            });
-          } else {
-            return game;
+          if (category.search === false) {
+            return [];
           }
-        });
-      });
 
-      return Search.games;
-    });
+          return category.games.flatMap((game) => {
+            game.group = category.name;
+
+            let names = game.name.split(' / ');
+
+            if (names.length > 1) {
+              return names.map((name) => {
+                let subref = Object.assign({}, game);
+                subref.name = name;
+                return subref;
+              });
+            } else {
+              return game;
+            }
+          });
+        });
+
+        return games;
+      });
+    }
+
+    return await Search.games;
   }
 
   static async init(selector) {
     let games = await Search.load();
-
-    await Redirect.init();
-    let segments = Object.keys(Redirect.segments);
+    let segments = await Redirect.init();
+    let segment_ids = Object.keys(segments);
 
     return autocomplete({
       minLength: 2,
@@ -58,9 +59,9 @@ class Search {
       fetch: (text, update) => {
         text = Search.strip(text);
 
-        if (segments.indexOf(text) !== -1) {
-          update(segments.filter((key) => key.startsWith(text)).map((key) => {
-            let segment = Redirect.segments[key];
+        if (segment_ids.indexOf(text) !== -1) {
+          update(segment_ids.filter((key) => key.startsWith(text)).map((key) => {
+            let segment = segments[key];
             return {
               name: segment.name,
               group: 'Переход по ID',
