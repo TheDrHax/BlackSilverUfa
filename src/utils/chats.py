@@ -5,7 +5,6 @@ import requests
 from . import _
 from ..data.fallback import FallbackSource
 from ..data import config, streams
-from ..data.streams import JoinedStream
 from ..data.config import tcd_config
 from ..scripts.converter import convert_file
 
