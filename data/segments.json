@@ -5132,22 +5132,25 @@
     "url": "/links/far-cry-3.html#680344977"
   },
   "681457263": {
-    "youtube": "LBrFuF__368", "abs_start": "0:00", "abs_end": "4:56:33", "duration": "26:17:24",
-    "name": "Ghost of Tsushima #1",
-    "date": "2020-07-16",
-    "url": "/links/ghost-of-tsushima.html#681457263"
+    "abs_start": "0:00", "abs_end": "4:56:36", "duration": "0:00",
+    "name": "",
+    "date": "2020-07-16"
   },
   "682267155": {
-    "youtube": "LBrFuF__368", "abs_start": "-4:56:33", "abs_end": "8:30:22", "duration": "26:17:24",
-    "name": "Ghost of Tsushima #2",
-    "date": "2020-07-17",
-    "url": "/links/ghost-of-tsushima.html#682267155"
+    "abs_start": "0:00", "abs_end": "8:30:50", "duration": "0:00",
+    "name": "",
+    "date": "2020-07-17"
   },
   "683282462": {
-    "youtube": "LBrFuF__368", "cuts": ["12:29:06~13:22:46"], "abs_start": "-13:26:56", "abs_end": "13:44:08", "duration": "26:17:24",
-    "name": "Ghost of Tsushima #3",
-    "date": "2020-07-18",
-    "url": "/links/ghost-of-tsushima.html#683282462"
+    "abs_start": "0:00", "abs_end": "13:44:32", "duration": "0:00",
+    "name": "",
+    "date": "2020-07-18"
+  },
+  "681457263,682267155,683282462": {
+    "youtube": "LBrFuF__368", "cuts": ["25:56:02~26:49:42"], "abs_start": "0:00", "abs_end": "27:11:04", "duration": "26:17:24",
+    "name": "Ghost of Tsushima",
+    "date": "2020-07-16",
+    "url": "/links/single.html#681457263,682267155,683282462"
   },
   "684388398": {
     "youtube": "thAzX-Tb9bc", "official": false, "abs_start": "0:00", "abs_end": "4:29:22", "duration": "4:29:22",
@@ -5288,53 +5291,65 @@
     "url": "/links/first.html#728015486"
   },
   "728162478": {
-    "youtube": "QAluNP4N50Q", "official": false, "abs_start": "0:00", "abs_end": "19:54", "duration": "1:41:20",
-    "name": "Marvel's Avengers #1 (часть 2)",
+    "abs_start": "0:00", "abs_end": "20:59", "duration": "0:00",
+    "name": "",
     "date": "2020-09-01",
-    "url": "/links/marvel-avengers.html#728162478",
+    "direct": "https://bsufiles.thedrhax.pw/streams/728162478.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/728162478.torrent"
   },
   "728192109": {
-    "youtube": "QAluNP4N50Q", "official": false, "abs_start": "-19:54", "abs_end": "2:47", "duration": "1:41:20",
-    "name": "Marvel's Avengers #1 (часть 3)",
+    "abs_start": "0:00", "abs_end": "3:11", "duration": "0:00",
+    "name": "",
     "date": "2020-09-01",
-    "url": "/links/marvel-avengers.html#728192109",
+    "direct": "https://bsufiles.thedrhax.pw/streams/728192109.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/728192109.torrent"
   },
   "728196605": {
-    "youtube": "QAluNP4N50Q", "official": false, "abs_start": "-22:42", "abs_end": "7:26", "duration": "1:41:20",
-    "name": "Marvel's Avengers #1 (часть 4)",
+    "abs_start": "0:00", "abs_end": "8:19", "duration": "0:00",
+    "name": "",
     "date": "2020-09-01",
-    "url": "/links/marvel-avengers.html#728196605",
+    "direct": "https://bsufiles.thedrhax.pw/streams/728196605.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/728196605.torrent"
   },
   "728204189": {
-    "youtube": "QAluNP4N50Q", "official": false, "abs_start": "-30:09", "abs_end": "8:24", "duration": "1:41:20",
-    "name": "Marvel's Avengers #1 (часть 5)",
+    "abs_start": "0:00", "abs_end": "9:55", "duration": "0:00",
+    "name": "",
     "date": "2020-09-01",
-    "url": "/links/marvel-avengers.html#728204189",
+    "direct": "https://bsufiles.thedrhax.pw/streams/728204189.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/728204189.torrent"
   },
   "728213819": {
-    "youtube": "QAluNP4N50Q", "official": false, "abs_start": "-38:33", "abs_end": "1:02:47", "duration": "1:41:20",
-    "name": "Marvel's Avengers #1 (часть 6)",
+    "abs_start": "0:00", "abs_end": "1:04:03", "duration": "0:00",
+    "name": "",
     "date": "2020-09-01",
-    "url": "/links/marvel-avengers.html#728213819",
+    "direct": "https://bsufiles.thedrhax.pw/streams/728213819.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/728213819.torrent"
   },
+  "728162478,728192109,728196605,728204189,728213819": {
+    "youtube": "QAluNP4N50Q", "official": false, "abs_start": "0:00", "abs_end": "1:41:20", "duration": "1:41:20",
+    "name": "Marvel's Avengers #1 (части 2-6)",
+    "date": "2020-09-01",
+    "url": "/links/marvel-avengers.html#728162478,728192109,728196605,728204189,728213819"
+  },
   "728972501": {
-    "youtube": "KuC2TPa8ySg", "official": false, "abs_start": "0:00", "abs_end": "5:05:40", "duration": "5:15:30",
-    "name": "Marvel's Avengers #2 (заново, часть 1)",
+    "abs_start": "0:00", "abs_end": "5:09:41", "duration": "0:00",
+    "name": "",
     "date": "2020-09-02",
-    "url": "/links/marvel-avengers.html#728972501",
+    "direct": "https://bsufiles.thedrhax.pw/streams/728972501.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/728972501.torrent"
   },
   "729152253": {
-    "youtube": "KuC2TPa8ySg", "official": false, "abs_start": "-5:05:40", "abs_end": "9:50", "duration": "5:15:30",
-    "name": "Marvel's Avengers #2 (часть 2)",
+    "abs_start": "0:00", "abs_end": "11:57", "duration": "0:00",
+    "name": "",
     "date": "2020-09-02",
-    "url": "/links/marvel-avengers.html#729152253",
+    "direct": "https://bsufiles.thedrhax.pw/streams/729152253.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/729152253.torrent"
+  },
+  "728972501,729152253": {
+    "youtube": "KuC2TPa8ySg", "official": false, "abs_start": "0:00", "abs_end": "5:15:30", "duration": "5:15:30",
+    "name": "Marvel's Avengers #2 (заново)",
+    "date": "2020-09-02",
+    "url": "/links/marvel-avengers.html#728972501,729152253"
   },
   "729970116": {
     "youtube": "8DKpxtGWNHM", "official": false, "abs_start": "0:00", "abs_end": "7:13:50", "duration": "7:13:50",
