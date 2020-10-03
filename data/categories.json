@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Crysis: Remastered", "year": 2020, "id": "746844135"},
       {"name": "BPM: Bullets Per Minute / Hades / Fall Guys #8 (соло) / Vampire: The Masquerade - Bloodlines #6", "year": 2020, "id": "747742325"},
       {"name": "Contraband Police (демо) / Fall Guys #9 (соло) / Serious Sam 4", "year": 2020, "id": "749640613"},
       {"name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1", "year": 2020, "id": "750578050"},
@@ -12,7 +11,8 @@
       {"name": "Игровые места зрителей #3 / Fall Guys #10 (Wycc, WLG, BeastQT)", "year": 2020, "id": "754538542"},
       {"name": "Call of Duty: Warzone #7", "year": 2020, "id": "755571254"},
       {"name": "Vampire: The Masquerade - Bloodlines #7", "year": 2020, "id": "757370746"},
-      {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"}
+      {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
+      {"name": "Crash Bandicoot 4: It's About Time / Cyberpunk 2077 - Night City Wire / SnowRunner #11", "year": 2020, "id": "759389769"}
     ]
   },
   "finished": {
@@ -319,7 +319,8 @@
       {"name": "Marbles On Stream", "year": 2020, "id": "740853378"},
       {"name": "Crysis: Remastered", "year": 2020, "id": "746844135"},
       {"name": "BPM: Bullets Per Minute / Hades", "year": 2020, "id": "747742325"},
-      {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"}
+      {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
+      {"name": "Crash Bandicoot 4: It's About Time", "year": 2020, "id": "759389769"}
     ]
   },
   "ongoing": {
@@ -581,7 +582,8 @@
       {"name": "Презентация PlayStation 5", "year": 2020, "id": "569683310"},
       {"name": "Xbox Inside 2020", "year": 2020, "id": "613793616"},
       {"name": "неПрофессиональный E3 2020", "year": 2020, "id": "e3_2020"},
-      {"name": "Gamescom 2020", "year": 2020, "id": "723011325"}
+      {"name": "Gamescom 2020", "year": 2020, "id": "723011325"},
+      {"name": "Cyberpunk 2077 - Night City Wire", "year": 2020, "id": "759389769"}
     ]
   },
   "unboxing": {
