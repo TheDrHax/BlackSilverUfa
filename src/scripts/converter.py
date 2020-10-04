@@ -21,13 +21,15 @@ from docopt import docopt
 
 from ..data.streams import streams, Stream
 from ..data.cache import cache
-from ..data.config import tcd_config
+from ..data.config import config, tcd_config
 from ..data.timecodes import Timecodes
 from ..utils.ass import (EmptyLineError, SubtitlesReader,
-                         SubtitlesWriter, SubtitlesEvent, SubtitlesStyle)
+                         SubtitlesWriter, SubtitlesEvent,
+                         SubtitlesStyle, Blacklist)
 
 
 tcd.settings.update(tcd_config)
+blacklist = Blacklist(**config['blacklist'])
 
 GROUPED_EMOTES = re.compile('([^\ ]+) x⁣([0-9]+)')
 
@@ -80,6 +82,10 @@ def convert_msg(msg: SubtitlesEvent) -> SubtitlesEvent:
     text = SubtitlesASS.wrap(msg.username, text)
 
     msg.text = text
+
+    # Disable blacklisted messages
+    msg.disabled = msg in blacklist
+
     return msg
 
 
@@ -119,8 +125,11 @@ def cut_subtitles(cuts: Timecodes, fi: str, fo: str = None):
     if not os.path.exists(fi):
         raise FileNotFoundError(fi)
 
-    def rebase_msg(msg):
-        time = msg.start
+    def rebase_msg(event):
+        if event.disabled:
+            return None
+
+        time = event.start
 
         # Drop all cut messages
         for cut in cuts:
@@ -129,10 +138,10 @@ def cut_subtitles(cuts: Timecodes, fi: str, fo: str = None):
 
         # Rebase messages after cuts
         delta = sum([cut.duration for cut in cuts if cut.value <= time])
-        msg.start -= delta
-        msg.end -= delta
+        event.start -= delta
+        event.end -= delta
 
-        return msg
+        return event
 
     convert(fi, fo, func=rebase_msg)
 
@@ -164,7 +173,8 @@ def concatenate_subtitles(stream_list: List[Stream], offsets: Timecodes, fo: str
     r.close()
 
     for event in events():
-        w.write(event)
+        if not event.disabled:
+            w.write(event)
 
     w.close()
 
@@ -222,7 +232,8 @@ def main(argv=None):
 
     if args['--all']:
         tasks = [(s.subtitles_path, s.subtitles_style)
-                 for s in streams.values()]
+                 for s in streams.values()
+                 if not s.is_joined]
     elif args['--stream']:
         stream = streams[args['<id>']]
         if args['<file>']:

@@ -27,24 +27,22 @@ def download(stream):
             with open(dest, 'wb') as of:
                 for chunk in r.iter_content(chunk_size=1024):
                     of.write(chunk)
-
-            convert_file(dest, style=stream.subtitles_style)
-
-            return
         except Exception as ex:
-            print(ex)
             os.unlink(dest)
+            raise ex
+    else:
+        print(f'Downloading chat {key} via TCD')
+        tcd_config['directory'] = os.path.dirname(dest)
+        tcd_config['ssa_style_default'] = stream.subtitles_style.compile()
+        tcd.settings.update(tcd_config)
 
-    print(f'Downloading chat {key} via TCD')
-    tcd_config['directory'] = os.path.dirname(dest)
-    tcd_config['ssa_style_default'] = stream.subtitles_style.compile()
-    tcd.settings.update(tcd_config)
+        try:
+            tcd.download(key)
+        except Exception as ex:
+            os.unlink(dest)
+            raise ex
 
-    try:
-        tcd.download(key)
-    except Exception as ex:
-        print(ex)
-        os.unlink(dest)
+    convert_file(dest, style=stream.subtitles_style)
 
 
 if __name__ == '__main__':
