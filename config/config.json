@@ -74,5 +74,16 @@
     "chats": true,
     "redirects": true,
     "torrents": true
+  },
+  "blacklist": {
+    "users": [
+      "nightbot",
+      "streamelements",
+      "dudelkabot",
+      "thedrhaxbot"
+    ],
+    "messages": [
+      "^!.*"
+    ]
   }
 }
