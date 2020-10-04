@@ -75,8 +75,13 @@ class SubtitlesEvent(dict):
         username = self['Text'].split(': ', 1)[0]
         self['Text'] = f'{username}: {value}'
 
-    def __init__(self, line, event_format):
+    def __init__(self, line: str, event_format: List[str]):
         self.format = event_format
+
+        self.disabled = line.startswith('; ')
+
+        if self.disabled:
+            line = line[2:]
 
         msg = line[10:].split(', ', len(event_format) - 1)
         super().__init__(zip(event_format, msg))
@@ -90,7 +95,11 @@ class SubtitlesEvent(dict):
         if not event_format:
             event_format = self.format
 
-        return 'Dialogue: ' + ', '.join([self[key] for key in event_format])
+        return ''.join([
+            '; ' if self.disabled else '',
+            'Dialogue: ',
+            ', '.join([self[key] for key in event_format])
+        ])
 
 
 class SubtitlesStyle(dict):
