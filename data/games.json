@@ -1808,7 +1808,8 @@
         { "name": "Hades", "start": "1:24:49" }
       ] },
       { "name": "Star Wars: Squadrons", "twitch": "758360932" },
-      { "name": "Crash Bandicoot 4: It's About Time", "twitch": "759389769" }
+      { "name": "Crash Bandicoot 4: It's About Time", "twitch": "759389769" },
+      { "name": "Amnesia: The Dark Descent", "twitch": "761311327", "start": "3:06:12" }
     ]
   },
   {
@@ -1937,7 +1938,7 @@
   },
   {
     "name": "Vampire: The Masquerade - Bloodlines",
-    "category": "ongoing",
+    "category": "finished",
     "id": "vampire-masquerade",
     "streams": [
       { "name": "1", "twitch": "659080815" },
@@ -1949,7 +1950,8 @@
       { "name": "4", "twitch": "733113254" },
       { "name": "5", "twitch": "737853754" },
       { "name": "6", "twitch": "747742325", "start": "3:31:05" },
-      { "name": "7", "twitch": "757370746" }
+      { "name": "7", "twitch": "757370746" },
+      { "name": "8", "twitch": "761311327" }
     ]
   },
   {
