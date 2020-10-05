@@ -5292,37 +5292,27 @@
   "728162478": {
     "abs_start": "0:00", "abs_end": "20:59", "duration": "0:00",
     "name": "",
-    "date": "2020-09-01",
-    "direct": "https://bsufiles.thedrhax.pw/streams/728162478.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/728162478.torrent"
+    "date": "2020-09-01"
   },
   "728192109": {
     "abs_start": "0:00", "abs_end": "3:11", "duration": "0:00",
     "name": "",
-    "date": "2020-09-01",
-    "direct": "https://bsufiles.thedrhax.pw/streams/728192109.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/728192109.torrent"
+    "date": "2020-09-01"
   },
   "728196605": {
     "abs_start": "0:00", "abs_end": "8:19", "duration": "0:00",
     "name": "",
-    "date": "2020-09-01",
-    "direct": "https://bsufiles.thedrhax.pw/streams/728196605.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/728196605.torrent"
+    "date": "2020-09-01"
   },
   "728204189": {
     "abs_start": "0:00", "abs_end": "9:55", "duration": "0:00",
     "name": "",
-    "date": "2020-09-01",
-    "direct": "https://bsufiles.thedrhax.pw/streams/728204189.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/728204189.torrent"
+    "date": "2020-09-01"
   },
   "728213819": {
     "abs_start": "0:00", "abs_end": "1:04:03", "duration": "0:00",
     "name": "",
-    "date": "2020-09-01",
-    "direct": "https://bsufiles.thedrhax.pw/streams/728213819.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/728213819.torrent"
+    "date": "2020-09-01"
   },
   "728162478,728192109,728196605,728204189,728213819": {
     "youtube": "QAluNP4N50Q", "official": false, "abs_start": "0:00", "abs_end": "1:41:20", "duration": "1:41:20",
@@ -5333,9 +5323,7 @@
   "728972501": {
     "abs_start": "0:00", "abs_end": "5:09:41", "duration": "0:00",
     "name": "",
-    "date": "2020-09-02",
-    "direct": "https://bsufiles.thedrhax.pw/streams/728972501.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/728972501.torrent"
+    "date": "2020-09-02"
   },
   "729152253": {
     "abs_start": "0:00", "abs_end": "11:57", "duration": "0:00",
@@ -5496,5 +5484,13 @@
     "date": "2020-10-04",
     "url": "/links/pummel-party.html#760503086",
     "torrent": "https://bsufiles.thedrhax.pw/streams/760503086.torrent"
+  },
+  "761311327": {
+    "abs_start": "0:00", "abs_end": "6:34:36", "duration": "0:00",
+    "name": "Vampire: The Masquerade - Bloodlines #8 / Amnesia: The Dark Descent",
+    "date": "2020-10-05",
+    "url": "/links/vampire-masquerade.html#761311327",
+    "direct": "https://bsufiles.thedrhax.pw/streams/761311327.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/761311327.torrent"
   }
 }

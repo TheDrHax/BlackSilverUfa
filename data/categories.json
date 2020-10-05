@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Contraband Police (демо) / Fall Guys #9 (соло) / Serious Sam 4", "year": 2020, "id": "749640613"},
       {"name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1", "year": 2020, "id": "750578050"},
       {"name": "Mafia: Definitive Edition #2", "year": 2020, "id": "751534901"},
       {"name": "Mafia: Definitive Edition #3 (прогулка) / Pummel Party #9 (7D) / Human: Fall Flat #8", "year": 2020, "id": "752595682"},
@@ -12,7 +11,8 @@
       {"name": "Vampire: The Masquerade - Bloodlines #7", "year": 2020, "id": "757370746"},
       {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
       {"name": "Crash Bandicoot 4: It's About Time / Cyberpunk 2077 - Night City Wire / SnowRunner #11", "year": 2020, "id": "759389769"},
-      {"name": "Pummel Party #10 (7D) / Human: Fall Flat #9", "year": 2020, "id": "760503086"}
+      {"name": "Pummel Party #10 (7D) / Human: Fall Flat #9", "year": 2020, "id": "760503086"},
+      {"name": "Vampire: The Masquerade - Bloodlines #8 / Amnesia: The Dark Descent", "year": 2020, "id": "761311327"}
     ]
   },
   "finished": {
@@ -156,6 +156,7 @@
       {"name": "The Walking Fish 2: Final Frontier", "year": 2020, "id": "645734946"},
       {"name": "Secret Agent Barbie", "year": 2020, "id": "649632498"},
       {"name": "The Last of Us: Part II", "year": 2020, "id": "tlou-2"},
+      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "id": "vampire-masquerade"},
       {"name": "Winx Club", "year": 2020, "id": "670671274"},
       {"name": "Devolverland Expo", "year": 2020, "id": "677524120"},
       {"name": "Ghost of Tsushima", "year": 2020, "id": "681457263,682267155,683282462"},
@@ -320,14 +321,14 @@
       {"name": "Crysis: Remastered", "year": 2020, "id": "746844135"},
       {"name": "BPM: Bullets Per Minute / Hades", "year": 2020, "id": "747742325"},
       {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
-      {"name": "Crash Bandicoot 4: It's About Time", "year": 2020, "id": "759389769"}
+      {"name": "Crash Bandicoot 4: It's About Time", "year": 2020, "id": "759389769"},
+      {"name": "Amnesia: The Dark Descent", "year": 2020, "id": "761311327"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "The Sims 4", "year": 2020, "id": "sims-4"},
-      {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "id": "vampire-masquerade"}
+      {"name": "The Sims 4", "year": 2020, "id": "sims-4"}
     ]
   },
   "infinite": {
