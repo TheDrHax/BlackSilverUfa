@@ -20,6 +20,7 @@
     "games": [
       {"name": "Until Dawn", "year": 2015, "id": "until-dawn"},
       {"name": "SOMA", "year": 2016, "id": "soma"},
+      {"name": "Undertale", "year": 2017, "id": "undertale"},
       {"name": "The Legend of Zelda: Breath of the Wild", "year": 2017, "id": "tloz_botw"},
       {"name": "Prey", "year": 2017, "id": "prey"},
       {"name": "Michigan: Report from Hell", "year": 2017, "id": "152253862"},
@@ -177,6 +178,7 @@
   "first": {
     "name": "Первый взгляд",
     "games": [
+      {"name": "My Summer Car / The Amazing Frog?", "year": 2017, "id": "001701070"},
       {"name": "Arcanum: Of Steamworks & Magick Obscura", "year": 2017, "id": "001702230"},
       {"name": "The Legend of Zelda: Twilight Princess HD", "year": 2017, "id": "163612448"},
       {"name": "Divinity: Original Sin II", "year": 2017, "id": "175198877"},
@@ -370,6 +372,7 @@
     "name": "Заброшенные",
     "games": [
       {"name": "Fallout 2", "year": 2016, "id": "fallout-2"},
+      {"name": "The Elder Scrolls III: Morrowind", "year": 2017, "id": "tes-morrowind"},
       {"name": "Persona 5", "year": 2017, "id": "persona_5"},
       {"name": "Outlast 2", "year": 2017, "id": "outlast_2"},
       {"name": "Middle-earth: Shadow of War", "year": 2017, "id": "middle_earth"},
