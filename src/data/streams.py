@@ -254,17 +254,11 @@ class Segment:
         if not compiled:
             keys = ['youtube', 'offset', 'cuts', 'official',
                     'start', 'end', '_duration', 'force_start']
-            multiline_keys = ['offsets', 'note', 'direct', 'torrent']
-
-            if len(self.vk) > 0:
-                if len(self.vk) == 1:
-                    keys.append('vk')
-                else:
-                    multiline_keys.append('vk')
+            multiline_keys = ['offsets', 'note', 'direct', 'torrent', 'vk']
         else:
             keys = ['youtube', 'cuts', 'official',
                     'abs_start', 'abs_end', 'duration']
-            multiline_keys = ['name', 'date', 'url', 'direct', 'torrent']
+            multiline_keys = ['name', 'date', 'url', 'direct', 'torrent', 'vk']
 
         def get_attr(key):
             if key in self.fallbacks and not compiled:
@@ -273,6 +267,9 @@ class Segment:
                 value = getattr(self, key)
 
             if isinstance(value, Timecodes) and len(value) == 0:
+                return None
+
+            if key == 'vk' and len(value) == 0:
                 return None
 
             return value
@@ -291,9 +288,6 @@ class Segment:
 
             if key == 'offset':
                 value = self.offset()
-            
-            if key == 'vk':
-                value = self.vk[0]
 
             if value is None:
                 continue
@@ -323,6 +317,12 @@ class Segment:
 
         for key in multiline_keys:
             value = get_attr(key)
+
+            if key == 'vk':
+                if len(self.vk) == 0:
+                    continue
+                elif len(self.vk) == 1 and not compiled:
+                    value = self.vk[0]
 
             if key == 'date':
                 value = value.date().isoformat()
