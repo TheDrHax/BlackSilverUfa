@@ -18,6 +18,7 @@
   "finished": {
     "name": "Завершённые прохождения",
     "games": [
+      {"name": "SOMA", "year": 2016, "id": "soma"},
       {"name": "The Legend of Zelda: Breath of the Wild", "year": 2017, "id": "tloz_botw"},
       {"name": "Prey", "year": 2017, "id": "prey"},
       {"name": "Michigan: Report from Hell", "year": 2017, "id": "152253862"},
@@ -334,6 +335,7 @@
   "infinite": {
     "name": "Сессионные / Несюжетные",
     "games": [
+      {"name": "Steep", "year": 2016, "id": "steep"},
       {"name": "SCP Containment Breach", "year": 2018, "id": "scp-cb"},
       {"name": "Getting Over It", "year": 2018, "id": "getting-over-it"},
       {"name": "SCP: Unity", "year": 2018, "id": "scp-unity"},
