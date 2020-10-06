@@ -174,82 +174,84 @@ function spawnPlyr(wrapper, callback) {
   // but it doesn't work with Proxy objects
   window.ResizeObserver = undefined;
 
-  // Connect Subtitles Octopus to video
-  subtitles = new SubtitlesOctopus({
-    // Wrapper only allows to create a correct canvas. Time tracking is
-    // configured using the subtitles.setVideo() call below.
-    video: player.elements.wrapper,
-    subUrl: stream.subtitles,
-    workerUrl: '/dist/subtitles-octopus-worker.js',
-    fonts: ['/static/fonts/LiberationSans-Extended.ttf'],
-    timeOffset: offset
-  });
+  if (stream.subtitles) {
+    // Connect Subtitles Octopus to video
+    subtitles = new SubtitlesOctopus({
+      // Wrapper only allows to create a correct canvas. Time tracking is
+      // configured using the subtitles.setVideo() call below.
+      video: player.elements.wrapper,
+      subUrl: stream.subtitles,
+      workerUrl: '/dist/subtitles-octopus-worker.js',
+      fonts: ['/static/fonts/LiberationSans-Extended.ttf'],
+      timeOffset: offset
+    });
 
-  // Subtitles are not visible when player.media.videoWidth is undefined
-  subtitles.canvas.style.display = "block";
-  subtitles.canvas.style.position = "absolute";
-  subtitles.canvas.style.top = 0;
-  subtitles.canvas.style.pointerEvents = "none";
+    // Subtitles are not visible when player.media.videoWidth is undefined
+    subtitles.canvas.style.display = "block";
+    subtitles.canvas.style.position = "absolute";
+    subtitles.canvas.style.top = 0;
+    subtitles.canvas.style.pointerEvents = "none";
 
-  function subResize() {
-    let e_sub = subtitles.canvas;
-    let e_vid = player.elements.container;
+    function subResize() {
+      let e_sub = subtitles.canvas;
+      let e_vid = player.elements.container;
 
-    let width = Math.min(e_vid.clientWidth, e_vid.clientHeight / 9 * 16);
-    let height = width / 16 * 9;
+      let width = Math.min(e_vid.clientWidth, e_vid.clientHeight / 9 * 16);
+      let height = width / 16 * 9;
 
-    // Render at double resolution for better quality
-    e_sub.style.transform = 'scale(0.5, 0.5) translate(-50%, -50%)';
-    subtitles.resize(width * 2, height * 2);
+      // Render at double resolution for better quality
+      e_sub.style.transform = 'scale(0.5, 0.5) translate(-50%, -50%)';
+      subtitles.resize(width * 2, height * 2);
 
-    // Position canvas in the center of the video
-    e_sub.style.marginTop = e_vid.clientHeight / 2 - height / 2 + 'px';
-    e_sub.style.marginLeft = e_vid.clientWidth / 2 - width / 2 + 'px';
-  }
-
-  window.subResize = subResize;
-  player.on('enterfullscreen', subResize);
-  player.on('exitfullscreen', subResize);
-  window.addEventListener('resize', debounce(subResize, 100));
-
-  // Player caption button
-  player.on(ready, function(event) {
-    // Set correct player element to track current time
-    subtitles.setVideo(new Proxy(player.media, {
-      get(obj, prop) {
-        // Remove video size info for consistency with YouTube source
-        if (prop === 'videoWidth' || prop === 'videoHeight') {
-          return undefined;
-        }
-
-        // https://stackoverflow.com/a/59110022
-        let value = Reflect.get(obj, prop);
-        if (typeof (value) == "function") {
-          return value.bind(obj);
-        }
-        return value;
-      }
-    }));
-
-    let captions = player.elements.controls.childNodes[4];
-    captions.toggle = function() {
-      if (captions.pressed) {
-        captions.pressed = false;
-        subtitles.canvasParent.style.visibility = 'hidden';
-      } else {
-        captions.pressed = true;
-        subtitles.canvasParent.style.visibility = '';
-      }
+      // Position canvas in the center of the video
+      e_sub.style.marginTop = e_vid.clientHeight / 2 - height / 2 + 'px';
+      e_sub.style.marginLeft = e_vid.clientWidth / 2 - width / 2 + 'px';
     }
-    captions.onclick = captions.toggle;
 
-    // Force enable captions button
-    // Also check '.plyr [data-plyr=captions]' style in styles.css
-    captions.classList.add('plyr__control--pressed');
-    captions.pressed = true;
+    window.subResize = subResize;
+    player.on('enterfullscreen', subResize);
+    player.on('exitfullscreen', subResize);
+    window.addEventListener('resize', debounce(subResize, 100));
 
-    subResize();
-  });
+    // Player caption button
+    player.on(ready, function(event) {
+      // Set correct player element to track current time
+      subtitles.setVideo(new Proxy(player.media, {
+        get(obj, prop) {
+          // Remove video size info for consistency with YouTube source
+          if (prop === 'videoWidth' || prop === 'videoHeight') {
+            return undefined;
+          }
+
+          // https://stackoverflow.com/a/59110022
+          let value = Reflect.get(obj, prop);
+          if (typeof (value) == "function") {
+            return value.bind(obj);
+          }
+          return value;
+        }
+      }));
+
+      let captions = player.elements.controls.childNodes[4];
+      captions.toggle = function() {
+        if (captions.pressed) {
+          captions.pressed = false;
+          subtitles.canvasParent.style.visibility = 'hidden';
+        } else {
+          captions.pressed = true;
+          subtitles.canvasParent.style.visibility = '';
+        }
+      }
+      captions.onclick = captions.toggle;
+
+      // Force enable captions button
+      // Also check '.plyr [data-plyr=captions]' style in styles.css
+      captions.classList.add('plyr__control--pressed');
+      captions.pressed = true;
+
+      subResize();
+    });
+  }
 
   // Element controls
   wrapper.seek = function(time) {
