@@ -74,7 +74,7 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
       </a>
     </span>
     % endif
-    % if segment.vk:
+    % if len(segment.vk) > 0:
       % for vk in segment.vk:
     <span class="badge badge-primary">
       <a href="https://vk.com/video${vk}" target="_blank">
@@ -145,7 +145,6 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
 mpv ${segment.mpv_args()} ${segment.mpv_file()}
 </%el:code_block>
 % endif
-
 % if (not segment.playable or segment.direct) and segment.stream.type is StreamType.DEFAULT:
 <%el:code_block>\
 streamlink -p mpv -a "${segment.mpv_args()}" --player-passthrough hls twitch.tv/videos/${segment.twitch} best
