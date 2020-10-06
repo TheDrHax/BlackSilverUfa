@@ -18,6 +18,7 @@
   "finished": {
     "name": "Завершённые прохождения",
     "games": [
+      {"name": "Until Dawn", "year": 2015, "id": "until-dawn"},
       {"name": "SOMA", "year": 2016, "id": "soma"},
       {"name": "The Legend of Zelda: Breath of the Wild", "year": 2017, "id": "tloz_botw"},
       {"name": "Prey", "year": 2017, "id": "prey"},
