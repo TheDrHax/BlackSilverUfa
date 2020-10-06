@@ -17,6 +17,17 @@
     ]
   },
   {
+    "name": "Until Dawn",
+    "category": "finished",
+    "id": "until-dawn",
+    "streams": [
+      { "name": "1", "twitch": "001508250" },
+      { "name": "2", "twitch": "001508260" },
+      { "name": "1 (злое прохождение)", "twitch": "001509120" },
+      { "name": "2", "twitch": "001509150" }
+    ]
+  },
+  {
     "name": "Black Mirror",
     "category": "finished",
     "id": "black-mirror",
