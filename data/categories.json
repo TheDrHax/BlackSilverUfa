@@ -368,6 +368,7 @@
   "abandoned": {
     "name": "Заброшенные",
     "games": [
+      {"name": "Fallout 2", "year": 2016, "id": "fallout-2"},
       {"name": "Persona 5", "year": 2017, "id": "persona_5"},
       {"name": "Outlast 2", "year": 2017, "id": "outlast_2"},
       {"name": "Middle-earth: Shadow of War", "year": 2017, "id": "middle_earth"},
