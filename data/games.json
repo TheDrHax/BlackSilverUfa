@@ -1,5 +1,22 @@
 [
   {
+    "name": "SOMA",
+    "category": "finished",
+    "id": "soma",
+    "streams": [
+      { "name": "1", "twitch": "001611180" },
+      { "name": "2", "twitch": "001611190" }
+    ]
+  },
+  {
+    "name": "Steep",
+    "category": "infinite",
+    "id": "steep",
+    "streams": [
+      { "name": "?", "twitch": "001611190", "start": "3:07:07" }
+    ]
+  },
+  {
     "name": "Black Mirror",
     "category": "finished",
     "id": "black-mirror",
