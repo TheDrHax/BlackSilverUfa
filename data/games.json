@@ -28,6 +28,17 @@
     ]
   },
   {
+    "name": "Fallout 2",
+    "category": "ongoing",
+    "id": "fallout-2",
+    "streams": [
+      { "name": "1", "twitch": "001609040" },
+      { "name": "2", "twitch": "001609070" },
+      { "name": "3", "twitch": "001610020" },
+      { "name": "4", "twitch": "001611230" }
+    ]
+  },
+  {
     "name": "Black Mirror",
     "category": "finished",
     "id": "black-mirror",
