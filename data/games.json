@@ -39,6 +39,25 @@
     ]
   },
   {
+    "name": "Undertale",
+    "category": "finished",
+    "id": "undertale",
+    "streams": [
+      { "name": "1", "twitch": "001701070", "start": "1:48:33" },
+      { "name": "2", "twitch": "001701120" },
+      { "name": "3", "twitch": "001701140" },
+      { "name": "4", "twitch": "001701190" }
+    ]
+  },
+  {
+    "name": "The Elder Scrolls III: Morrowind",
+    "category": "ongoing",
+    "id": "tes-morrowind",
+    "streams": [
+      { "name": "8", "twitch": "001701120", "start": "2:18:36" }
+    ]
+  },
+  {
     "name": "Black Mirror",
     "category": "finished",
     "id": "black-mirror",
@@ -1516,6 +1535,10 @@
     "type": "list",
     "id": "first",
     "streams": [
+      { "twitch": "001701070", "subrefs": [
+        { "name": "My Summer Car" },
+        { "name": "The Amazing Frog?", "start": "1:12:28" }
+      ] },
       { "name": "Arcanum: Of Steamworks & Magick Obscura", "twitch": "001702230" },
       { "name": "The Legend of Zelda: Twilight Princess HD", "twitch": "163612448" },
       { "name": "Divinity: Original Sin II", "twitch": "175198877" },
