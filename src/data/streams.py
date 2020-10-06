@@ -1,5 +1,6 @@
 import attr
 import json
+from enum import Enum
 from git import Repo
 from typing import List, Tuple, Dict, Any
 from hashlib import md5
@@ -26,6 +27,8 @@ class Segment:
     note: str = None
     youtube: str = None
     direct: str = None
+    vk: str = attr.ib(None,
+                      converter=lambda x: x if isinstance(x, list) else [x])
     torrent: str = None
     official: bool = True
     force_start: bool = False
@@ -61,7 +64,7 @@ class Segment:
         self.references = SortedList(key=lambda x: x.start)
         self.fallbacks = dict()
 
-        if self.stream.is_joined:
+        if self.stream.type is StreamType.JOINED:
             timecodes = self.joined_timecodes()
         else:
             timecodes = self.stream.timecodes
@@ -155,7 +158,7 @@ class Segment:
     def _generated_subtitles_data(self):
         data = []
 
-        if self.stream.is_joined:
+        if self.stream.type is StreamType.JOINED:
             data += self.offsets.to_list()
 
         if len(self.cuts) > 0:
@@ -220,6 +223,10 @@ class Segment:
             end += sum(cut.duration for cut in self.cuts)
             return end
         elif self.segment == len(self.stream) - 1:
+            # Stream.abs_end is not available is stream is recovered
+            if self.stream.type is StreamType.NO_CHAT:
+                return self.abs_start
+
             return self.stream.abs_end
         else:
             return self.stream[self.segment + 1].abs_start
@@ -248,6 +255,12 @@ class Segment:
             keys = ['youtube', 'offset', 'cuts', 'official',
                     'start', 'end', '_duration', 'force_start']
             multiline_keys = ['offsets', 'note', 'direct', 'torrent']
+
+            if self.vk:
+                if len(self.vk) == 1:
+                    keys.append('vk')
+                else:
+                    multiline_keys.append('vk')
         else:
             keys = ['youtube', 'cuts', 'official',
                     'abs_start', 'abs_end', 'duration']
@@ -278,6 +291,9 @@ class Segment:
 
             if key == 'offset':
                 value = self.offset()
+            
+            if key == 'vk':
+                value = self.vk[0]
 
             if value is None:
                 continue
@@ -312,7 +328,7 @@ class Segment:
                 value = value.date().isoformat()
 
             if key == 'offsets':
-                if self.stream.is_joined:
+                if self.stream.type is StreamType.JOINED:
                     value = self.offsets.to_list()
                 else:
                     continue
@@ -433,9 +449,11 @@ class SegmentReference:
             add('segment')
 
         add('offset', lambda x: x().value, lambda x: x() != 0)
-        add('subtitles')
 
-        if self.stream.is_joined:
+        if self.stream.type is not StreamType.NO_CHAT:
+            add('subtitles')
+
+        if self.stream.type is StreamType.JOINED:
             add('offsets',
                 lambda x: ','.join([str(t.value) for t in x]),
                 lambda x: len(x) != 0)
@@ -462,7 +480,9 @@ class SegmentReference:
             return self.direct
 
     def mpv_args(self):
-        res = f'--sub-file={self.subtitles} '
+        res = ''
+        if self.stream.type is not StreamType.NO_CHAT:
+            res += f'--sub-file={self.subtitles} '
         if self.offset() != 0:
             res += f'--sub-delay={-int(self.offset())} '
         if self.start != 0 or self.force_start:
@@ -645,6 +665,12 @@ class SubReference:
         return f'SubReference({self.name}, {self.start})'
 
 
+class StreamType(Enum):
+    DEFAULT = 1
+    JOINED = 2
+    NO_CHAT = 3
+
+
 @attr.s(auto_attribs=True, kw_only=True, repr=False, cmp=False)
 class Stream:
     _key: str = attr.ib()
@@ -654,6 +680,7 @@ class Stream:
     streams: List['Stream'] = attr.ib(factory=list)  # for joined streams
 
     twitch: str = attr.ib(init=False)
+    type: StreamType = attr.ib(init=False)
     games: List[Tuple['Game', SegmentReference]] = attr.ib(init=False)
     segments: List[Segment] = attr.ib(init=False)
     timecodes: Timecodes = attr.ib(init=False)
@@ -669,6 +696,14 @@ class Stream:
 
     def __attrs_post_init__(self):
         self.twitch = self._key
+
+        if ',' in self.twitch:
+            self.type = StreamType.JOINED
+        elif self.twitch.startswith('00'):
+            self.type = StreamType.NO_CHAT
+        else:
+            self.type = StreamType.DEFAULT
+
         self.games = []
         self.segments = SortedKeyList(key=self._segment_key)
         self.timecodes = Timecodes(timecodes.get(self.twitch) or {})
@@ -681,10 +716,6 @@ class Stream:
         return object.__new__(cls)
 
     @property
-    def is_joined(self) -> bool:
-        return len(self.streams) > 0
-
-    @property
     @cached('duration-twitch-{0[0].twitch}')
     def _duration(self) -> int:
         line = last_line(self.subtitles_path)
@@ -693,8 +724,10 @@ class Stream:
 
     @property
     def duration(self) -> Timecode:
-        if self.is_joined:
+        if self.type is StreamType.JOINED:
             return Timecode(sum(int(s.duration) for s in self.streams))
+        elif self.type is StreamType.NO_CHAT:
+            return Timecode(max(int(s.abs_end) for s in self))
         else:
             return Timecode(self._duration)
 
@@ -715,8 +748,10 @@ class Stream:
 
     @property
     def date(self) -> datetime:
-        if self.is_joined:
+        if self.type is StreamType.JOINED:
             return self.streams[0].date
+        elif self.type is StreamType.NO_CHAT:
+            return datetime.strptime(self.twitch[2:8], '%y%m%d')
         else:
             return datetime.fromtimestamp(self._unix_time)
 
@@ -731,7 +766,10 @@ class Stream:
 
     @property
     def subtitles(self) -> str:
-        """Returns full public URL of subtitles for this segment."""
+        """Returns full public URL of subtitles for this stream."""
+        if self.type is StreamType.NO_CHAT:
+            return None
+
         return f'{self.subtitles_prefix}/v{self.twitch}.ass'
 
     @property
@@ -759,7 +797,7 @@ class Stream:
 
     @property
     def messages(self) -> int:
-        if self.is_joined:
+        if self.type is StreamType.JOINED:
             return sum([s.messages for s in self.streams])
         else:
             return self._messages or 0

@@ -1,6 +1,7 @@
 <%!
     import os
     from src.utils import numword, last_line, dir_size
+    from src.data.streams import StreamType
     from src.data.timecodes import Timecode
     from src.data.config import config
 %>
@@ -12,7 +13,7 @@
     messages = 0
 
     for stream in streams.values():
-        if stream.is_joined:
+        if stream.type is StreamType.JOINED:
             continue
 
         streams_total += 1

@@ -19,7 +19,7 @@ from tcd.twitch import Message
 from tcd.subtitles import SubtitlesASS
 from docopt import docopt
 
-from ..data.streams import streams, Stream
+from ..data.streams import streams, Stream, StreamType
 from ..data.cache import cache
 from ..data.config import config, tcd_config
 from ..data.timecodes import Timecodes
@@ -202,7 +202,7 @@ def generate_subtitles(segment):
         os.unlink(fo)
 
     try:
-        if segment.stream.is_joined:
+        if segment.stream.type is StreamType.JOINED:
             concatenate_subtitles(segment.stream.streams, segment.offsets, fo)
         else:
             fi = segment.stream.subtitles_path
@@ -233,7 +233,7 @@ def main(argv=None):
     if args['--all']:
         tasks = [(s.subtitles_path, s.subtitles_style)
                  for s in streams.values()
-                 if not s.is_joined]
+                 if s.type is StreamType.DEFAULT]
     elif args['--stream']:
         stream = streams[args['<id>']]
         if args['<file>']:

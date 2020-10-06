@@ -2,6 +2,7 @@
   import datetime
   from babel.dates import format_date
   from src.utils import md5file
+  from src.data.streams import StreamType
   from src.data.timecodes import Timecode, Timecodes
 %>
 <%inherit file="include/base.mako" />
@@ -59,18 +60,29 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
     <span class="badge badge-light">
       ${format_date(segment.date, format='long', locale='ru')}
     </span>
-    % for stream_id in segment.twitch.split(','):
+    % if segment.stream.type is not StreamType.NO_CHAT:
+      % for stream_id in segment.twitch.split(','):
     <span class="badge badge-primary">
       <a href="https://www.twitch.tv/videos/${stream_id}" target="_blank">
         <i class="fab fa-twitch"></i> ${stream_id}
       </a>
     </span>
-    % endfor
+      % endfor
     <span class="badge badge-secondary">
       <a href="${segment.subtitles}">
         <i class="fas fa-comments"></i> ${segment.stream.messages}
       </a>
     </span>
+    % endif
+    % if segment.vk:
+      % for vk in segment.vk:
+    <span class="badge badge-primary">
+      <a href="https://vk.com/video${vk}" target="_blank">
+        <i class="fab fa-vk"></i> ${vk}
+      </a>
+    </span>
+      % endfor
+    % endif
     % if segment.youtube:
     <span class="badge badge-${'warning' if not segment.official else 'success'}">
       <a href="https://www.youtube.com/watch?v=${segment.youtube}" target="_blank">
@@ -128,14 +140,17 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
 страницу.</p>
 % endif
 
-<%el:code_block>\
 % if segment.playable:
+<%el:code_block>\
 mpv ${segment.mpv_args()} ${segment.mpv_file()}
-% endif
-% if not segment.playable or segment.direct:
-streamlink -p mpv -a "${segment.mpv_args()}" --player-passthrough hls twitch.tv/videos/${segment.twitch} best
-% endif
 </%el:code_block>
+% endif
+
+% if (not segment.playable or segment.direct) and segment.stream.type is StreamType.DEFAULT:
+<%el:code_block>\
+streamlink -p mpv -a "${segment.mpv_args()}" --player-passthrough hls twitch.tv/videos/${segment.twitch} best
+</%el:code_block>
+% endif
 
 % if game.streams.index(segment) != len(game.streams) - 1:
 <hr>

@@ -49,12 +49,8 @@ class Game:
         return f'/links/{self.id}.html'
 
     @property
-    def _unix_time(self):
-        return self.streams[self.cover].stream._unix_time
-
-    @property
     def date(self):
-        return datetime.fromtimestamp(self._unix_time)
+        return self.streams[self.cover].stream.date
 
     @join()
     def to_json(self):
