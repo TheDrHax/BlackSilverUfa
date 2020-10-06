@@ -27,7 +27,7 @@ class Segment:
     note: str = None
     youtube: str = None
     direct: str = None
-    vk: str = attr.ib(None,
+    vk: str = attr.ib([],
                       converter=lambda x: x if isinstance(x, list) else [x])
     torrent: str = None
     official: bool = True
@@ -256,7 +256,7 @@ class Segment:
                     'start', 'end', '_duration', 'force_start']
             multiline_keys = ['offsets', 'note', 'direct', 'torrent']
 
-            if self.vk:
+            if len(self.vk) > 0:
                 if len(self.vk) == 1:
                     keys.append('vk')
                 else:
