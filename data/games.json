@@ -54,7 +54,22 @@
     "category": "ongoing",
     "id": "tes-morrowind",
     "streams": [
+      { "name": "1", "twitch": "001607100" },
+      { "name": "2", "twitch": "001607230" },
+      { "name": "3", "twitch": "001607280" },
+      { "name": "4", "twitch": "001608040" },
+      { "name": "5", "twitch": "001608160" },
+      { "name": "6", "twitch": "001608200" },
+      { "name": "7", "twitch": "001610270" },
       { "name": "8", "twitch": "001701120", "start": "2:18:36" }
+    ]
+  },
+  {
+    "name": "The Elder Scrolls V: Skyrim - Special Edition",
+    "category": "ongoing",
+    "id": "tes-skyrim",
+    "streams": [
+      { "name": "1", "twitch": "001610270", "start": "3:06:25" }
     ]
   },
   {
