@@ -23,6 +23,66 @@
     "date": "2015-09-15",
     "url": "/links/until-dawn.html#001509150"
   },
+  "001603100": {
+    "youtube": "bJJzW0pyIxA", "abs_start": "0:00", "abs_end": "3:23:09", "duration": "3:23:09",
+    "name": "Hitman #1 - Paris",
+    "date": "2016-03-10",
+    "url": "/links/hitman.html#001603100"
+  },
+  "001604260": {
+    "youtube": "W0TRk9ZlyKo", "abs_start": "0:00", "abs_end": "3:50:47", "duration": "3:50:47",
+    "name": "Hitman #2 - Sapienza",
+    "date": "2016-04-26",
+    "url": "/links/hitman.html#001604260"
+  },
+  "001605310": {
+    "youtube": "wtig_YaME6A", "official": false, "abs_start": "0:00", "abs_end": "4:24:09", "duration": "4:24:09",
+    "name": "Hitman #3 - Marrakesh",
+    "date": "2016-05-31",
+    "url": "/links/hitman.html#001605310"
+  },
+  "001607100": {
+    "youtube": "MghUVl30hbM", "abs_start": "0:00", "abs_end": "3:25:03", "duration": "3:25:03",
+    "name": "The Elder Scrolls III: Morrowind #1",
+    "date": "2016-07-10",
+    "url": "/links/tes-morrowind.html#001607100"
+  },
+  "001607230": {
+    "youtube": "GApKHWo_Cuc", "abs_start": "0:00", "abs_end": "6:00:21", "duration": "6:00:21",
+    "name": "The Elder Scrolls III: Morrowind #2",
+    "date": "2016-07-23",
+    "url": "/links/tes-morrowind.html#001607230"
+  },
+  "001607280": {
+    "youtube": "CjwoACbIcRQ", "abs_start": "0:00", "abs_end": "5:45:21", "duration": "5:45:21",
+    "name": "The Elder Scrolls III: Morrowind #3",
+    "date": "2016-07-28",
+    "url": "/links/tes-morrowind.html#001607280"
+  },
+  "001608040": {
+    "youtube": "7DO9Hh8M3Fw", "abs_start": "0:00", "abs_end": "5:27:15", "duration": "5:27:15",
+    "name": "The Elder Scrolls III: Morrowind #4",
+    "date": "2016-08-04",
+    "url": "/links/tes-morrowind.html#001608040"
+  },
+  "001608160": {
+    "youtube": "OlozVwwSTCU", "abs_start": "0:00", "abs_end": "4:00:37", "duration": "4:00:37",
+    "name": "The Elder Scrolls III: Morrowind #5",
+    "date": "2016-08-16",
+    "url": "/links/tes-morrowind.html#001608160"
+  },
+  "001608180": {
+    "youtube": "NdhI-DDdoUA", "abs_start": "0:00", "abs_end": "3:32:49", "duration": "3:32:49",
+    "name": "Hitman #4 - Bangkok",
+    "date": "2016-08-18",
+    "url": "/links/hitman.html#001608180"
+  },
+  "001608200": {
+    "youtube": "G6pSSXUVX3M", "abs_start": "0:00", "abs_end": "4:35:51", "duration": "4:35:51",
+    "name": "The Elder Scrolls III: Morrowind #6",
+    "date": "2016-08-20",
+    "url": "/links/tes-morrowind.html#001608200"
+  },
   "001609040": {
     "youtube": "D2oQXhIcuzM", "abs_start": "0:00", "abs_end": "4:48:58", "duration": "4:48:58",
     "name": "Fallout 2 #1",
@@ -35,17 +95,47 @@
     "date": "2016-09-07",
     "url": "/links/fallout-2.html#001609070"
   },
+  "001609280": {
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
+    "name": "Hitman #5 - Colorado",
+    "date": "2016-09-28",
+    "url": "/links/hitman.html#001609280"
+  },
   "001610020": {
     "youtube": "5SXGmQ86NZs", "official": false, "abs_start": "0:00", "abs_end": "3:06:28", "duration": "3:06:28",
     "name": "Fallout 2 #3",
     "date": "2016-10-02",
     "url": "/links/fallout-2.html#001610020"
   },
-  "001611230": {
-    "youtube": "_9P7QOJooe4", "official": false, "abs_start": "0:00", "abs_end": "3:45:30", "duration": "3:45:30",
-    "name": "Fallout 2 #4",
-    "date": "2016-11-23",
-    "url": "/links/fallout-2.html#001611230"
+  "001610270": {
+    "youtube": "KTcZatLXxeE", "official": false, "abs_start": "0:00", "abs_end": "4:58:18", "duration": "4:58:18",
+    "name": "The Elder Scrolls III: Morrowind #7 / The Elder Scrolls V: Skyrim - Special Edition #1",
+    "date": "2016-10-27",
+    "url": "/links/tes-morrowind.html#001610270"
+  },
+  "001610280": {
+    "youtube": "mnymQVnDaZc", "official": false, "abs_start": "0:00", "abs_end": "7:15:59", "duration": "7:15:59",
+    "name": "Titanfall 2 / The Elder Scrolls V: Skyrim - Special Edition #2",
+    "date": "2016-10-28",
+    "url": "/links/first.html#001610280"
+  },
+  "001610290": {
+    "youtube": "m-eJn9J-pM0", "official": false, "abs_start": "0:00", "abs_end": "4:10:37", "duration": "4:10:37",
+    "name": "The Elder Scrolls V: Skyrim - Special Edition #3",
+    "date": "2016-10-29",
+    "url": "/links/tes-skyrim.html#001610290"
+  },
+  "001611020": {
+    "youtube": "f4tePh9Vj0o", "official": false, "abs_start": "0:00", "abs_end": "4:34:04", "duration": "4:34:04",
+    "name": "Hitman #6 - Hokkaido / The Elder Scrolls V: Skyrim - Special Edition #4",
+    "date": "2016-11-02",
+    "url": "/links/hitman.html#001611020"
+  },
+  "001611160": {
+    "youtube": "FNhKfo1edrc", "official": false, "abs_start": "0:00", "abs_end": "5:11:48", "duration": "5:11:48",
+    "name": "Assassin's Creed II - The Ezio Collection / The Elder Scrolls V: Skyrim - Special Edition #5",
+    "date": "2016-11-16",
+    "url": "/links/first.html#001611160"
   },
   "001611180": {
     "youtube": "keBePvr_Ceg", "official": false, "abs_start": "0:00", "abs_end": "5:33:08", "duration": "5:33:08",
@@ -59,11 +149,23 @@
     "date": "2016-11-19",
     "url": "/links/soma.html#001611190"
   },
+  "001611230": {
+    "youtube": "_9P7QOJooe4", "official": false, "abs_start": "0:00", "abs_end": "3:45:30", "duration": "3:45:30",
+    "name": "Fallout 2 #4",
+    "date": "2016-11-23",
+    "url": "/links/fallout-2.html#001611230"
+  },
   "001701070": {
     "youtube": "uAM6WeyD1-0", "official": false, "abs_start": "0:00", "abs_end": "5:59:58", "duration": "5:59:58",
     "name": "My Summer Car / The Amazing Frog? / Undertale #1",
     "date": "2017-01-07",
     "url": "/links/first.html#001701070"
+  },
+  "001701110": {
+    "youtube": "ilQ8wE4T2Jg", "official": false, "abs_start": "0:00", "abs_end": "3:58:17", "duration": "3:58:17",
+    "name": "Tales of Berseria (демо) / The Elder Scrolls V: Skyrim - Special Edition #6",
+    "date": "2017-01-11",
+    "url": "/links/first.html#001701110"
   },
   "001701120": {
     "youtube": "bDESZGpX2wY", "official": false, "abs_start": "0:00", "abs_end": "4:06:05", "duration": "4:06:05",
@@ -1891,9 +1993,8 @@
   },
   "296729759": {
     "youtube": "W0TRk9ZlyKo", "abs_start": "-1:08", "abs_end": "3:49:39", "duration": "3:50:47",
-    "name": "Hitman (2016) - Episode 2 - Sapienza (2016)",
-    "date": "2018-08-26",
-    "url": "/links/hitman.html#296729759"
+    "name": "",
+    "date": "2018-08-26"
   },
   "296814089": {
     "youtube": "mYeA8ZklHDE", "official": false, "abs_start": "0:00", "abs_end": "44:57", "duration": "44:57",
@@ -1909,15 +2010,13 @@
   },
   "296740333": {
     "youtube": "wtig_YaME6A", "official": false, "abs_start": "0:00", "abs_end": "4:24:09", "duration": "4:24:09",
-    "name": "Hitman (2016) - Episode 3 - Marrakesh (2016)",
-    "date": "2018-08-28",
-    "url": "/links/hitman.html#296740333"
+    "name": "",
+    "date": "2018-08-28"
   },
   "296740375": {
     "youtube": "pJDqV52nwvU", "official": false, "abs_start": "0:00", "abs_end": "4:34:04", "duration": "4:34:04",
-    "name": "Hitman (2016) - Episode 6 - Hokkaido (2016)",
-    "date": "2018-08-30",
-    "url": "/links/hitman.html#296740375"
+    "name": "",
+    "date": "2018-08-30"
   },
   "305785431": {
     "youtube": "cXUlxIgvJVY", "abs_start": "-0:06", "abs_end": "4:56:45", "duration": "4:56:51",

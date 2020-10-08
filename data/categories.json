@@ -19,6 +19,7 @@
     "name": "Завершённые прохождения",
     "games": [
       {"name": "Until Dawn", "year": 2015, "id": "until-dawn"},
+      {"name": "Hitman", "year": 2016, "id": "hitman"},
       {"name": "SOMA", "year": 2016, "id": "soma"},
       {"name": "Undertale", "year": 2017, "id": "undertale"},
       {"name": "The Legend of Zelda: Breath of the Wild", "year": 2017, "id": "tloz_botw"},
@@ -178,7 +179,10 @@
   "first": {
     "name": "Первый взгляд",
     "games": [
+      {"name": "Titanfall 2", "year": 2016, "id": "001610280"},
+      {"name": "Assassin's Creed II - The Ezio Collection", "year": 2016, "id": "001611160"},
       {"name": "My Summer Car / The Amazing Frog?", "year": 2017, "id": "001701070"},
+      {"name": "Tales of Berseria (демо)", "year": 2017, "id": "001701110"},
       {"name": "Arcanum: Of Steamworks & Magick Obscura", "year": 2017, "id": "001702230"},
       {"name": "The Legend of Zelda: Twilight Princess HD", "year": 2017, "id": "163612448"},
       {"name": "Divinity: Original Sin II", "year": 2017, "id": "175198877"},
@@ -372,8 +376,9 @@
   "abandoned": {
     "name": "Заброшенные",
     "games": [
+      {"name": "The Elder Scrolls III: Morrowind", "year": 2016, "id": "tes-morrowind"},
       {"name": "Fallout 2", "year": 2016, "id": "fallout-2"},
-      {"name": "The Elder Scrolls III: Morrowind", "year": 2017, "id": "tes-morrowind"},
+      {"name": "The Elder Scrolls V: Skyrim - Special Edition", "year": 2016, "id": "tes-skyrim"},
       {"name": "Persona 5", "year": 2017, "id": "persona_5"},
       {"name": "Outlast 2", "year": 2017, "id": "outlast_2"},
       {"name": "Middle-earth: Shadow of War", "year": 2017, "id": "middle_earth"},
@@ -617,7 +622,6 @@
       {"name": "Zombi (2015)", "year": 2018, "id": "zombi"},
       {"name": "Manual Samuel (2016)", "year": 2018, "id": "296515241"},
       {"name": "Dungeon Nightmares II: The Memory (2016) / Root of Evil: The Tailor (с Дашей)", "year": 2018, "id": "296680707"},
-      {"name": "Hitman (2016)", "year": 2018, "id": "hitman"},
       {"name": "Metal Gear Solid 3: Snake Eater (2014)", "year": 2018, "id": "mgs-3"}
     ]
   }
