@@ -91,6 +91,18 @@
     ]
   },
   {
+    "name": "Quantum Break",
+    "category": "finished",
+    "id": "quantum-break",
+    "streams": [
+      { "name": "1", "twitch": "001604050" },
+      { "name": "2", "twitch": "001604051" },
+      { "name": "3", "twitch": "001604060" },
+      { "name": "4", "twitch": "001604061" },
+      { "name": "5", "twitch": "001604062" }
+    ]
+  },
+  {
     "name": "Black Mirror",
     "category": "finished",
     "id": "black-mirror",
