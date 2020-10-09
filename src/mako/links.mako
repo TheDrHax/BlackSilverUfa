@@ -74,15 +74,6 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
       </a>
     </span>
     % endif
-    % if len(segment.vk) > 0:
-      % for vk in segment.vk:
-    <span class="badge badge-primary">
-      <a href="https://vk.com/video${vk}" target="_blank">
-        <i class="fab fa-vk"></i> ${vk}
-      </a>
-    </span>
-      % endfor
-    % endif
     % if segment.youtube:
     <span class="badge badge-${'warning' if not segment.official else 'success'}">
       <a href="https://www.youtube.com/watch?v=${segment.youtube}" target="_blank">
