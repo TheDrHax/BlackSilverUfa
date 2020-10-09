@@ -49,10 +49,4 @@
   "code": "unboxing",
   "level": 3,
   "split_by_year": false
-}, {
-  "name": "VODы",
-  "description": "VOD в данном контексте — стрим записи старого стрима, не сохранившегося на Twitch. В данную категорию попадают старые стримы с новым чатом.",
-  "code": "vod",
-  "level": 2,
-  "split_by_year": false
 }]
