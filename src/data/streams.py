@@ -252,7 +252,7 @@ class Segment:
         if not compiled:
             keys = ['youtube', 'offset', 'cuts', 'official',
                     'start', 'end', '_duration', 'force_start']
-            multiline_keys = ['offsets', 'note', 'direct', 'torrent']
+            multiline_keys = ['direct', 'offsets', 'note', 'torrent']
         else:
             keys = ['youtube', 'cuts', 'official',
                     'abs_start', 'abs_end', 'duration']
