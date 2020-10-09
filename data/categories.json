@@ -383,6 +383,7 @@
     "games": [
       {"name": "The Elder Scrolls III: Morrowind", "year": 2016, "id": "tes-morrowind"},
       {"name": "Fallout 2", "year": 2016, "id": "fallout-2"},
+      {"name": "Amnesia: The Dark Descent (с Дашей)", "year": 2016, "id": "amnesia-dw"},
       {"name": "The Elder Scrolls V: Skyrim - Special Edition", "year": 2016, "id": "tes-skyrim"},
       {"name": "Persona 5", "year": 2017, "id": "persona_5"},
       {"name": "Outlast 2", "year": 2017, "id": "outlast_2"},
@@ -569,7 +570,7 @@
   "other": {
     "name": "Особые стримы",
     "games": [
-      {"name": "Хэллоуин", "year": 2017, "id": "halloween"},
+      {"name": "Хэллоуин", "year": 2016, "id": "halloween"},
       {"name": "Розыгрыш Seagate Game Drive 2 TB", "year": 2017, "id": "209473798"},
       {"name": "Благотворительные стримы", "year": 2018, "id": "charity"},
       {"name": "Конкурс на лучший арт (4.12.18)", "year": 2018, "id": "344508969"},
