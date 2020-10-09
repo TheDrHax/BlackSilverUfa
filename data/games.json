@@ -114,6 +114,15 @@
     ]
   },
   {
+    "name": "Amnesia: The Dark Descent (с Дашей)",
+    "category": "ongoing",
+    "id": "amnesia-dw",
+    "streams": [
+      { "name": "1", "twitch": "001610010" },
+      { "name": "2", "twitch": "001610310" }
+    ]
+  },
+  {
     "name": "Black Mirror",
     "category": "finished",
     "id": "black-mirror",
@@ -1471,6 +1480,7 @@
     "category": "other",
     "id": "halloween",
     "streams": [
+      { "name": "2016", "twitch": "001610310" },
       { "name": "2017", "twitch": "186799946" },
       { "name": "2018", "twitch": "329752092" },
       { "name": "2019", "twitch": "502082379" }
