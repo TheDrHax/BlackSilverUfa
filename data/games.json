@@ -1,5 +1,16 @@
 [
   {
+    "name": "Zombi",
+    "category": "finished",
+    "id": "zombi",
+    "streams": [
+      { "name": "1", "twitch": "001508180" },
+      { "name": "2", "twitch": "001508200" },
+      { "name": "3 (часть 1)", "twitch": "001508220" },
+      { "name": "3 (часть 2)", "twitch": "001508221" }
+    ]
+  },
+  {
     "name": "SOMA",
     "category": "finished",
     "id": "soma",
@@ -3548,17 +3559,6 @@
       { "name": "4 (часть 2)", "twitch": "253604008", "segment": 1 },
       { "name": "5", "twitch": "255465280" },
       { "name": "6", "twitch": "255759468" }
-    ]
-  },
-  {
-    "name": "Zombi (2015)",
-    "category": "vod",
-    "id": "zombi",
-    "streams": [
-      { "name": "1", "twitch": "296515537" },
-      { "name": "2", "twitch": "296520826" },
-      { "name": "3 (часть 1)", "twitch": "296680116" },
-      { "name": "3 (часть 2)", "twitch": "296680084" }
     ]
   },
   {
