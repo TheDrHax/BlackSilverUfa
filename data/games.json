@@ -1238,6 +1238,7 @@
     "id": "single",
     "streams": [
       { "name": "Manual Samuel", "twitch": "001610190" },
+      { "name": "Root of Evil: The Tailor (с Дашей)", "twitch": "001612170", "start": "1:33:07" },
       { "name": "Michigan: Report from Hell", "twitch": "152253862" },
       { "name": "Absolver", "twitch": "174225353" },
       { "name": "The Count Lucanor", "twitch": "184468298" },
@@ -1586,6 +1587,7 @@
     "streams": [
       { "name": "Titanfall 2", "twitch": "001610280" },
       { "name": "Assassin's Creed II - The Ezio Collection", "twitch": "001611160" },
+      { "name": "Dungeon Nightmares II: The Memory (с Дашей)", "twitch": "001612170" },
       { "twitch": "001701070", "subrefs": [
         { "name": "My Summer Car" },
         { "name": "The Amazing Frog?", "start": "1:12:28" }
@@ -3616,18 +3618,6 @@
       { "name": "2", "twitch": "309135471" },
       { "name": "3 (часть 1)", "twitch": "309553210" },
       { "name": "3 (часть 2)", "twitch": "309591231" }
-    ]
-  },
-  {
-    "name": "VODы",
-    "category": "vod",
-    "type": "list",
-    "id": "vod",
-    "streams": [
-      { "twitch": "296680707", "subrefs": [
-        { "name": "Dungeon Nightmares II: The Memory (2016)" },
-        { "name": "Root of Evil: The Tailor (с Дашей)", "start": "1:33:07" }
-      ] }
     ]
   }
 ]
