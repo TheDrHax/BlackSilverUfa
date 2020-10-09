@@ -18,10 +18,13 @@
   "finished": {
     "name": "Завершённые прохождения",
     "games": [
+      {"name": "Zombi", "year": 2015, "id": "zombi"},
       {"name": "Until Dawn", "year": 2015, "id": "until-dawn"},
       {"name": "Hitman", "year": 2016, "id": "hitman"},
       {"name": "Quantum Break", "year": 2016, "id": "quantum-break"},
+      {"name": "Manual Samuel", "year": 2016, "id": "001610190"},
       {"name": "SOMA", "year": 2016, "id": "soma"},
+      {"name": "Root of Evil: The Tailor (с Дашей)", "year": 2016, "id": "001612170"},
       {"name": "Undertale", "year": 2017, "id": "undertale"},
       {"name": "The Legend of Zelda: Breath of the Wild", "year": 2017, "id": "tloz_botw"},
       {"name": "Prey", "year": 2017, "id": "prey"},
@@ -182,6 +185,7 @@
     "games": [
       {"name": "Titanfall 2", "year": 2016, "id": "001610280"},
       {"name": "Assassin's Creed II - The Ezio Collection", "year": 2016, "id": "001611160"},
+      {"name": "Dungeon Nightmares II: The Memory (с Дашей)", "year": 2016, "id": "001612170"},
       {"name": "My Summer Car / The Amazing Frog?", "year": 2017, "id": "001701070"},
       {"name": "Tales of Berseria (демо)", "year": 2017, "id": "001701110"},
       {"name": "Arcanum: Of Steamworks & Magick Obscura", "year": 2017, "id": "001702230"},
@@ -621,9 +625,6 @@
   "vod": {
     "name": "VODы",
     "games": [
-      {"name": "Zombi (2015)", "year": 2018, "id": "zombi"},
-      {"name": "Manual Samuel (2016)", "year": 2018, "id": "296515241"},
-      {"name": "Dungeon Nightmares II: The Memory (2016) / Root of Evil: The Tailor (с Дашей)", "year": 2018, "id": "296680707"},
       {"name": "Metal Gear Solid 3: Snake Eater (2014)", "year": 2018, "id": "mgs-3"}
     ]
   }
