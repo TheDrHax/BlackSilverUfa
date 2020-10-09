@@ -1237,6 +1237,7 @@
     "type": "list",
     "id": "single",
     "streams": [
+      { "name": "Manual Samuel", "twitch": "001610190" },
       { "name": "Michigan: Report from Hell", "twitch": "152253862" },
       { "name": "Absolver", "twitch": "174225353" },
       { "name": "The Count Lucanor", "twitch": "184468298" },
@@ -3623,7 +3624,6 @@
     "type": "list",
     "id": "vod",
     "streams": [
-      { "name": "Manual Samuel (2016)", "twitch": "296515241" },
       { "twitch": "296680707", "subrefs": [
         { "name": "Dungeon Nightmares II: The Memory (2016)" },
         { "name": "Root of Evil: The Tailor (с Дашей)", "start": "1:33:07" }
