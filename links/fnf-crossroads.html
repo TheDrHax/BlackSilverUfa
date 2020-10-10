@@ -85,15 +85,16 @@
         <i class="fas fa-comments"></i> 35317
       </a>
     </span>
-    <span class="badge badge-warning">
-      <a href="https://www.youtube.com/watch?v=Uf595IvHhAw" target="_blank">
-        <i class="fab fa-youtube"></i> Uf595IvHhAw
+    <span class="badge badge-danger">
+      <a href="https://bsufiles.thedrhax.pw/streams/permanent/719986899.mp4">
+        <i class="fas fa-download"></i> скачать
       </a>
     </span>
   </div>
 </div>
 
 <ul>
+  <li>Примечание: Запись заблокирована. Перезалив в процессе.</li>
   <li>Связанные игры:</li>
   <ul>
     <li><a href="/links/first.html">Первый взгляд</a> — <a href="/links/first.html#719986899">Train 113</a></li>
@@ -161,6 +162,11 @@
     <li><a data-value="11828">3:17:08</a> — Raised by Wolves</li>
   </ul>
 
+      <li>Проблемы с правообладателями:</li>
+  <ul>
+    <li><a data-value="5300">1:28:20</a> - <a data-value="5373">1:29:33</a> — Ludwig Göransson - POSTERITY</li>
+  </ul>
+
     <li><a data-value="9838">2:43:58</a> — Когда зашёл в ВК</li>
     <li><a data-value="10274">2:51:14</a> — Анекдот</li>
       <li>Train 113:</li>
@@ -187,13 +193,19 @@
 </ul>
 
 <div class="video-row d-flex justify-content-center">
-  <p class="stream" data-id="0" data-subtitles="https://blacksilverufa.github.io/chats-2020/v719986899.ass" data-start="13118" data-name="1" data-twitch="719986899" data-youtube="Uf595IvHhAw" />
+  <p class="stream" data-id="0" data-subtitles="https://blacksilverufa.github.io/chats-2020/v719986899.ass" data-start="13118" data-name="1" data-twitch="719986899" data-direct="https://bsufiles.thedrhax.pw/streams/permanent/719986899.mp4" />
 </div>
 
 
 
 <div class="highlighter-rouge"><div class="highlight">
-  <pre class="highlight"><code>mpv --sub-file=https://blacksilverufa.github.io/chats-2020/v719986899.ass --start=13118 ytdl://Uf595IvHhAw
+  <pre class="highlight"><code>mpv --sub-file=https://blacksilverufa.github.io/chats-2020/v719986899.ass --start=13118 https://bsufiles.thedrhax.pw/streams/permanent/719986899.mp4
+</code></pre>
+</div></div>
+
+
+<div class="highlighter-rouge"><div class="highlight">
+  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blacksilverufa.github.io/chats-2020/v719986899.ass --start=13118" --player-passthrough hls twitch.tv/videos/719986899 best
 </code></pre>
 </div></div>
 
