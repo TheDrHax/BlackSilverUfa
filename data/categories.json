@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Mafia: Definitive Edition #3 (прогулка) / Pummel Party #9 (7D) / Human: Fall Flat #8", "year": 2020, "id": "752595682"},
       {"name": "Игровые места зрителей #3 / Fall Guys #10 (Wycc, WLG, BeastQT)", "year": 2020, "id": "754538542"},
       {"name": "Call of Duty: Warzone #7", "year": 2020, "id": "755571254"},
       {"name": "Vampire: The Masquerade - Bloodlines #7", "year": 2020, "id": "757370746"},
       {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
       {"name": "Crash Bandicoot 4: It's About Time / Cyberpunk 2077 - Night City Wire / SnowRunner #11", "year": 2020, "id": "759389769"},
       {"name": "Pummel Party #10 (7D) / Human: Fall Flat #9", "year": 2020, "id": "760503086"},
-      {"name": "Vampire: The Masquerade - Bloodlines #8 / Amnesia: The Dark Descent", "year": 2020, "id": "761311327"},
+      {"name": "Vampire: The Masquerade - Bloodlines #8 / Amnesia: The Dark Descent #1", "year": 2020, "id": "761311327"},
       {"name": "Baldur's Gate 3 / Call of Duty: Warzone #8", "year": 2020, "id": "763202430"},
-      {"name": "Call of Duty: Warzone #9 / Call of Duty: Black Ops Cold War", "year": 2020, "id": "764187591"}
+      {"name": "Call of Duty: Warzone #9 / Call of Duty: Black Ops Cold War", "year": 2020, "id": "764187591"},
+      {"name": "Amnesia: The Dark Descent #2", "year": 2020, "id": "766202800"}
     ]
   },
   "finished": {
@@ -336,14 +336,14 @@
       {"name": "BPM: Bullets Per Minute / Hades", "year": 2020, "id": "747742325"},
       {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
       {"name": "Crash Bandicoot 4: It's About Time", "year": 2020, "id": "759389769"},
-      {"name": "Amnesia: The Dark Descent", "year": 2020, "id": "761311327"},
       {"name": "Baldur's Gate 3", "year": 2020, "id": "763202430"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "The Sims 4", "year": 2020, "id": "sims-4"}
+      {"name": "The Sims 4", "year": 2020, "id": "sims-4"},
+      {"name": "Amnesia: The Dark Descent", "year": 2020, "id": "amnesia"}
     ]
   },
   "infinite": {
