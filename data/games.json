@@ -1344,7 +1344,11 @@
       ] },
       { "name": "UnMetal (демо)", "twitch": "700057034" },
       { "name": "Ghost of Tsushima", "twitch": "681457263,682267155,683282462" },
-      { "name": "Contraband Police (демо)", "twitch": "749640613" }
+      { "name": "Contraband Police (демо)", "twitch": "749640613" },
+      { "twitch": "767249770", "subrefs": [
+        { "name": "Xuan-Yuan Sword VII (демо)" },
+        { "name": "Webbed (демо)", "start": "1:35:51" }
+      ] }
     ]
   },
   {
@@ -1949,7 +1953,13 @@
       ] },
       { "name": "Star Wars: Squadrons", "twitch": "758360932" },
       { "name": "Crash Bandicoot 4: It's About Time", "twitch": "759389769" },
-      { "name": "Baldur's Gate 3", "twitch": "763202430" }
+      { "name": "Baldur's Gate 3", "twitch": "763202430" },
+      { "twitch": "767249770", "subrefs": [
+        { "name": "Everspace 2 (демо)", "start": "2:09:01" },
+        { "name": "Partisans 1941 (демо)", "start": "2:30:12" },
+        { "name": "F.I.S.T.: Forged In Shadow Torch (демо)", "start": "3:16:45" },
+        { "name": "Party Animals (демо)", "start": "3:40:17" }
+      ] }
     ]
   },
   {
