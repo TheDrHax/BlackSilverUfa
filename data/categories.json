@@ -342,7 +342,6 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "The Sims 4", "year": 2020, "id": "sims-4"},
       {"name": "Amnesia: The Dark Descent", "year": 2020, "id": "amnesia"}
     ]
   },
@@ -424,6 +423,7 @@
       {"name": "Luigi's Mansion 3", "year": 2019, "id": "luigis-mansion-3"},
       {"name": "Nioh 2", "year": 2019, "id": "nioh-2"},
       {"name": "Spore", "year": 2019, "id": "spore"},
+      {"name": "The Sims 4", "year": 2020, "id": "sims-4"},
       {"name": "Gears of War 4", "year": 2020, "id": "gears-of-war-4"},
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "id": "one-punch-man"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "id": "ori-wotw"},
