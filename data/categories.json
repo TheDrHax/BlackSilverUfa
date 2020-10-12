@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Call of Duty: Warzone #7", "year": 2020, "id": "755571254"},
       {"name": "Vampire: The Masquerade - Bloodlines #7", "year": 2020, "id": "757370746"},
       {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
       {"name": "Crash Bandicoot 4: It's About Time / Cyberpunk 2077 - Night City Wire / SnowRunner #11", "year": 2020, "id": "759389769"},
@@ -12,7 +11,8 @@
       {"name": "Baldur's Gate 3 / Call of Duty: Warzone #8", "year": 2020, "id": "763202430"},
       {"name": "Call of Duty: Warzone #9 / Call of Duty: Black Ops Cold War", "year": 2020, "id": "764187591"},
       {"name": "Amnesia: The Dark Descent #2", "year": 2020, "id": "766202800"},
-      {"name": "Xuan-Yuan Sword VII (демо) / Webbed (демо) / Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals (демо)", "year": 2020, "id": "767249770"}
+      {"name": "Xuan-Yuan Sword VII (демо) / Webbed (демо) / Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (со зрителями)", "year": 2020, "id": "767249770"},
+      {"name": "Розыгрыш Asus ROG GA502IV / Amnesia: The Dark Descent #3 / Party Animals #2 / Call of Duty: Warzone #10", "year": 2020, "id": "768182935"}
     ]
   },
   "finished": {
@@ -178,6 +178,7 @@
       {"name": "The Last Campfire", "year": 2020, "id": "last-campfire"},
       {"name": "Marvel's Avengers", "year": 2020, "id": "marvel-avengers"},
       {"name": "Contraband Police (демо)", "year": 2020, "id": "749640613"},
+      {"name": "Amnesia: The Dark Descent", "year": 2020, "id": "amnesia"},
       {"name": "Xuan-Yuan Sword VII (демо) / Webbed (демо)", "year": 2020, "id": "767249770"}
     ]
   },
@@ -338,13 +339,13 @@
       {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
       {"name": "Crash Bandicoot 4: It's About Time", "year": 2020, "id": "759389769"},
       {"name": "Baldur's Gate 3", "year": 2020, "id": "763202430"},
-      {"name": "Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals (демо)", "year": 2020, "id": "767249770"}
+      {"name": "Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо)", "year": 2020, "id": "767249770"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Amnesia: The Dark Descent", "year": 2020, "id": "amnesia"}
+  
     ]
   },
   "infinite": {
@@ -566,7 +567,8 @@
       {"name": "SnowRunner", "year": 2020, "id": "snowrunner"},
       {"name": "Fall Guys", "year": 2020, "id": "fall-guys"},
       {"name": "Struggling", "year": 2020, "id": "struggling"},
-      {"name": "Wasteland 3", "year": 2020, "id": "wasteland-3"}
+      {"name": "Wasteland 3", "year": 2020, "id": "wasteland-3"},
+      {"name": "Party Animals", "year": 2020, "id": "party-animals"}
     ]
   },
   "other": {
@@ -588,7 +590,8 @@
       {"name": "Розыгрыш мерча Metro Exodus", "year": 2020, "id": "572721394"},
       {"name": "Розыгрыш Asus ROG Strix Scope", "year": 2020, "id": "676500778"},
       {"name": "Трейлеры и нарезки", "year": 2020, "id": "687309207"},
-      {"name": "Игровые места зрителей", "year": 2020, "id": "setups"}
+      {"name": "Игровые места зрителей", "year": 2020, "id": "setups"},
+      {"name": "Розыгрыш Asus ROG GA502IV", "year": 2020, "id": "768182935"}
     ]
   },
   "expos": {
