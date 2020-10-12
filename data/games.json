@@ -462,7 +462,8 @@
       { "name": "6", "twitch": "680344977", "start": "4:11:45" },
       { "name": "7", "twitch": "755571254" },
       { "name": "8", "twitch": "763202430", "start": "4:40:37" },
-      { "name": "9", "twitch": "764187591" }
+      { "name": "9", "twitch": "764187591" },
+      { "name": "10", "twitch": "768182935", "start": "5:13:14" }
     ]
   },
   {
@@ -1531,7 +1532,8 @@
       { "name": "Розыгрыш Cyberpunk 2077", "twitch": "470288598" },
       { "name": "Розыгрыш Asus ROG Strix SCAR II", "twitch": "508178551" },
       { "name": "Розыгрыш мерча Metro Exodus", "twitch": "572721394" },
-      { "name": "Розыгрыш Asus ROG Strix Scope", "twitch": "676500778" }
+      { "name": "Розыгрыш Asus ROG Strix Scope", "twitch": "676500778" },
+      { "name": "Розыгрыш Asus ROG GA502IV", "twitch": "768182935" }
     ]
   },
   {
@@ -1957,18 +1959,27 @@
       { "twitch": "767249770", "subrefs": [
         { "name": "Everspace 2 (демо)", "start": "2:09:01" },
         { "name": "Partisans 1941 (демо)", "start": "2:30:12" },
-        { "name": "F.I.S.T.: Forged In Shadow Torch (демо)", "start": "3:16:45" },
-        { "name": "Party Animals (демо)", "start": "3:40:17" }
+        { "name": "F.I.S.T.: Forged In Shadow Torch (демо)", "start": "3:16:45" }
       ] }
     ]
   },
   {
+    "name": "Party Animals",
+    "category": "co-op-series",
+    "id": "party-animals",
+    "streams": [
+      { "name": "1 (со зрителями)", "twitch": "767249770", "start": "3:40:17" },
+      { "name": "2", "twitch": "768182935", "start": "3:49:08" }
+    ]
+  },
+  {
     "name": "Amnesia: The Dark Descent",
-    "category": "ongoing",
+    "category": "finished",
     "id": "amnesia",
     "streams": [
       { "name": "1", "twitch": "761311327", "start": "3:06:12" },
-      { "name": "2", "twitch": "766202800" }
+      { "name": "2", "twitch": "766202800" },
+      { "name": "3", "twitch": "768182935", "start": "44:59" }
     ]
   },
   {
