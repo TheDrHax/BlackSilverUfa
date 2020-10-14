@@ -272,7 +272,11 @@
         { "name": "Escape From Skull Dungeon", "start": "3:27:38" }
       ] },
       { "name": "Serious Sam 4", "twitch": "749640613", "start": "2:25:48" },
-      { "name": "Call of Duty: Black Ops Cold War", "twitch": "764187591", "start": "3:04:23" }
+      { "name": "Call of Duty: Black Ops Cold War", "twitch": "764187591", "start": "3:04:23" },
+      { "twitch": "770075059", "subrefs": [
+        { "name": "Sign of Silence" },
+        { "name": "Second Extinction", "start": "4:05:51" }
+      ] }
     ]
   },
   {
