@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Vampire: The Masquerade - Bloodlines #7", "year": 2020, "id": "757370746"},
       {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
       {"name": "Crash Bandicoot 4: It's About Time / Cyberpunk 2077 - Night City Wire / SnowRunner #11", "year": 2020, "id": "759389769"},
       {"name": "Pummel Party #10 (7D) / Human: Fall Flat #9", "year": 2020, "id": "760503086"},
@@ -12,7 +11,8 @@
       {"name": "Call of Duty: Warzone #9 / Call of Duty: Black Ops Cold War", "year": 2020, "id": "764187591"},
       {"name": "Amnesia: The Dark Descent #2", "year": 2020, "id": "766202800"},
       {"name": "Xuan-Yuan Sword VII (демо) / Webbed (демо) / Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (со зрителями)", "year": 2020, "id": "767249770"},
-      {"name": "Розыгрыш Asus ROG GA502IV / Amnesia: The Dark Descent #3 / Party Animals #2 / Call of Duty: Warzone #10", "year": 2020, "id": "768182935"}
+      {"name": "Розыгрыш Asus ROG GA502IV / Amnesia: The Dark Descent #3 / Party Animals #2 / Call of Duty: Warzone #10", "year": 2020, "id": "768182935"},
+      {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"}
     ]
   },
   "finished": {
@@ -495,7 +495,8 @@
       {"name": "Surgeon Simulator 2", "year": 2020, "id": "725080998"},
       {"name": "Escape Game Fort Boyard / Escape From Skull Dungeon", "year": 2020, "id": "738885129"},
       {"name": "Serious Sam 4", "year": 2020, "id": "749640613"},
-      {"name": "Call of Duty: Black Ops Cold War", "year": 2020, "id": "764187591"}
+      {"name": "Call of Duty: Black Ops Cold War", "year": 2020, "id": "764187591"},
+      {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"}
     ]
   },
   "co-op-series": {
