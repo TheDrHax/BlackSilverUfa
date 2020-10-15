@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
-      {"name": "Crash Bandicoot 4: It's About Time / Cyberpunk 2077 - Night City Wire / SnowRunner #11", "year": 2020, "id": "759389769"},
+      {"name": "Crash Bandicoot 4: It's About Time / Cyberpunk 2077 - Night City Wire #1 / SnowRunner #11", "year": 2020, "id": "759389769"},
       {"name": "Pummel Party #10 (7D) / Human: Fall Flat #9", "year": 2020, "id": "760503086"},
       {"name": "Vampire: The Masquerade - Bloodlines #8 / Amnesia: The Dark Descent #1", "year": 2020, "id": "761311327"},
       {"name": "Baldur's Gate 3 / Call of Duty: Warzone #8", "year": 2020, "id": "763202430"},
-      {"name": "Call of Duty: Warzone #9 / Call of Duty: Black Ops Cold War", "year": 2020, "id": "764187591"},
+      {"name": "Call of Duty: Warzone #9 / Call of Duty: Black Ops Cold War #1 (бета)", "year": 2020, "id": "764187591"},
       {"name": "Amnesia: The Dark Descent #2", "year": 2020, "id": "766202800"},
       {"name": "Xuan-Yuan Sword VII (демо) / Webbed (демо) / Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (со зрителями)", "year": 2020, "id": "767249770"},
       {"name": "Розыгрыш Asus ROG GA502IV / Amnesia: The Dark Descent #3 / Party Animals #2 / Call of Duty: Warzone #10", "year": 2020, "id": "768182935"},
-      {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"}
+      {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
+      {"name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2", "year": 2020, "id": "771021424"}
     ]
   },
   "finished": {
@@ -496,7 +496,6 @@
       {"name": "Surgeon Simulator 2", "year": 2020, "id": "725080998"},
       {"name": "Escape Game Fort Boyard / Escape From Skull Dungeon", "year": 2020, "id": "738885129"},
       {"name": "Serious Sam 4", "year": 2020, "id": "749640613"},
-      {"name": "Call of Duty: Black Ops Cold War", "year": 2020, "id": "764187591"},
       {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"}
     ]
   },
@@ -570,6 +569,7 @@
       {"name": "Fall Guys", "year": 2020, "id": "fall-guys"},
       {"name": "Struggling", "year": 2020, "id": "struggling"},
       {"name": "Wasteland 3", "year": 2020, "id": "wasteland-3"},
+      {"name": "Call of Duty: Black Ops Cold War", "year": 2020, "id": "cod-bocw"},
       {"name": "Party Animals", "year": 2020, "id": "party-animals"}
     ]
   },
@@ -612,7 +612,7 @@
       {"name": "Xbox Inside 2020", "year": 2020, "id": "613793616"},
       {"name": "неПрофессиональный E3 2020", "year": 2020, "id": "e3_2020"},
       {"name": "Gamescom 2020", "year": 2020, "id": "723011325"},
-      {"name": "Cyberpunk 2077 - Night City Wire", "year": 2020, "id": "759389769"}
+      {"name": "Cyberpunk 2077 - Night City Wire", "year": 2020, "id": "cp2077-ncw"}
     ]
   },
   "unboxing": {
