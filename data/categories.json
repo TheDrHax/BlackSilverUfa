@@ -20,6 +20,7 @@
     "games": [
       {"name": "Zombi", "year": 2015, "id": "zombi"},
       {"name": "Until Dawn", "year": 2015, "id": "until-dawn"},
+      {"name": "Metal Gear Solid V: Phantom Pain", "year": 2015, "id": "mgs-v"},
       {"name": "Hitman", "year": 2016, "id": "hitman"},
       {"name": "Quantum Break", "year": 2016, "id": "quantum-break"},
       {"name": "Manual Samuel", "year": 2016, "id": "001610190"},
@@ -70,8 +71,8 @@
       {"name": "The Walking Dead - The Final Season", "year": 2018, "id": "talking-dead-final"},
       {"name": "Marvel's Spider-Man", "year": 2018, "id": "spider-man"},
       {"name": "Shadow of the Tomb Raider", "year": 2018, "id": "shadow-of-the-tomb-raider"},
-      {"name": "Transference", "year": 2018, "id": "312840878"},
       {"name": "Life is Strange 2", "year": 2018, "id": "life-is-strange-2"},
+      {"name": "Transference", "year": 2018, "id": "312840878"},
       {"name": "The Works of Mercy", "year": 2018, "id": "316219912"},
       {"name": "The Conjuring House (The Dark Occult)", "year": 2018, "id": "conjuring-house"},
       {"name": "God's Basement", "year": 2018, "id": "323817086"},
