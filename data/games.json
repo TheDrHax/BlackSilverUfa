@@ -297,11 +297,19 @@
         { "name": "Escape From Skull Dungeon", "start": "3:27:38" }
       ] },
       { "name": "Serious Sam 4", "twitch": "749640613", "start": "2:25:48" },
-      { "name": "Call of Duty: Black Ops Cold War", "twitch": "764187591", "start": "3:04:23" },
       { "twitch": "770075059", "subrefs": [
         { "name": "Sign of Silence" },
         { "name": "Second Extinction", "start": "4:05:51" }
       ] }
+    ]
+  },
+  {
+    "name": "Call of Duty: Black Ops Cold War",
+    "category": "co-op-series",
+    "id": "cod-bocw",
+    "streams": [
+      { "name": "1 (бета)", "twitch": "764187591", "start": "3:04:23" },
+      { "name": "2", "twitch": "771021424", "start": "3:26:19" }
     ]
   },
   {
@@ -330,7 +338,8 @@
       { "name": "7", "twitch": "738885129", "start": "4:28:33" },
       { "name": "8 (соло)", "twitch": "747742325", "start": "3:03:01" },
       { "name": "9 (соло)", "twitch": "749640613", "start": "1:14:30" },
-      { "name": "10 (Wycc, WLG, BeastQT)", "twitch": "754538542", "start": "2:35:40" }
+      { "name": "10 (Wycc, WLG, BeastQT)", "twitch": "754538542", "start": "2:35:40" },
+      { "name": "11 (соло)", "twitch": "771021424" }
     ]
   },
   {
@@ -492,7 +501,8 @@
       { "name": "7", "twitch": "755571254" },
       { "name": "8", "twitch": "763202430", "start": "4:40:37" },
       { "name": "9", "twitch": "764187591" },
-      { "name": "10", "twitch": "768182935", "start": "5:13:14" }
+      { "name": "10", "twitch": "768182935", "start": "5:13:14" },
+      { "name": "11", "twitch": "771021424", "start": "1:28:18" }
     ]
   },
   {
@@ -1019,8 +1029,16 @@
       { "name": "The Game Awards 2019 (обзор)", "twitch": "520877239" },
       { "name": "Презентация PlayStation 5", "twitch": "569683310", "start": "3:03:45" },
       { "name": "Xbox Inside 2020", "twitch": "613793616", "start": "1:59:40" },
-      { "name": "Gamescom 2020", "twitch": "723011325", "start": "4:48:39" },
-      { "name": "Cyberpunk 2077 - Night City Wire", "twitch": "759389769", "start": "4:05:17" }
+      { "name": "Gamescom 2020", "twitch": "723011325", "start": "4:48:39" }
+    ]
+  },
+  {
+    "name": "Cyberpunk 2077 - Night City Wire",
+    "category": "expos",
+    "id": "cp2077-ncw",
+    "streams": [
+      { "name": "1", "twitch": "759389769", "start": "4:05:17" },
+      { "name": "2", "twitch": "771021424", "start": "2:26:19" }
     ]
   },
   {
