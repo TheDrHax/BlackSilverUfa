@@ -123,6 +123,31 @@
     ]
   },
   {
+    "name": "Metal Gear Solid V: Phantom Pain",
+    "category": "finished",
+    "id": "mgs-v",
+    "streams": [
+      { "name": "1", "twitch": "001508310" },
+      { "name": "2 (вне стримов)", "twitch": "001509020" },
+      { "name": "3 (вне стримов)", "twitch": "001509030" },
+      { "name": "4 (вне стримов)", "twitch": "001509040" },
+      { "name": "5 (вне стримов)", "twitch": "001509050" },
+      { "name": "6 (вне стримов)", "twitch": "001509070" },
+      { "name": "7", "twitch": "001509080" },
+      { "name": "8", "twitch": "001509100" },
+      { "name": "9", "twitch": "001509170" },
+      { "name": "10", "twitch": "001509220" },
+      { "name": "11", "twitch": "001509230" },
+      { "name": "12", "twitch": "001510010" },
+      { "name": "13", "twitch": "001510050" },
+      { "name": "14", "twitch": "001510060" },
+      { "name": "15", "twitch": "001510120" },
+      { "name": "16 (часть 1)", "twitch": "001510150" },
+      { "name": "16 (часть 2)", "twitch": "001510151" },
+      { "name": "17", "twitch": "001510170" }
+    ]
+  },
+  {
     "name": "Black Mirror",
     "category": "finished",
     "id": "black-mirror",
