@@ -3211,14 +3211,10 @@
     "category": "finished",
     "id": "life-is-strange-2",
     "streams": [
-      {
-        "name": "Episode 1", "twitch": "314960838", "start": "2:40:30",
-        "note": "Начало игры доступно на <a href=\"https://youtu.be/AM12Fg-97sQ\">YouTube</a>."
-      },
-      {
-        "name": "Episode 3", "twitch": "456859112",
-        "note": "Второй эпизод доступен на <a href=\"https://youtu.be/X84LY_NZdFw\">YouTube</a>."
-      },
+      { "name": "Episode 1 (часть 1, вне стримов)", "twitch": "001809200" },
+      { "name": "Episode 1 (часть 2)", "twitch": "314960838", "start": "2:40:30" },
+      { "name": "Episode 2 (вне стримов)", "twitch": "001901240" },
+      { "name": "Episode 3", "twitch": "456859112" },
       { "twitch": "532787117", "subrefs": [
         { "name": "Episode 4" },
         { "name": "Episode 5", "start": "3:28:22" }
