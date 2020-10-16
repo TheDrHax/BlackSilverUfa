@@ -87,7 +87,8 @@ function spawnPlyr(wrapper, callback) {
     // Disable quality selection (doesn't work on YouTube)
     settings: ['captions', /* 'quality', */ 'speed', 'loop'],
     invertTime: false,
-    duration: end > 0 ? end : undefined
+    duration: end > 0 ? end : undefined,
+    youtube: { controls: 1 }
   };
 
   wrapper.innerHTML = '<video />';
@@ -170,11 +171,11 @@ function spawnPlyr(wrapper, callback) {
   }
   player.source = source;
 
-  // SubtitlesOctopus uses ResizeObserver on video object,
-  // but it doesn't work with Proxy objects
-  window.ResizeObserver = undefined;
-
   if (stream.subtitles) {
+    // SubtitlesOctopus uses ResizeObserver on video object,
+    // but it doesn't work with Proxy objects
+    window.ResizeObserver = undefined;
+
     // Connect Subtitles Octopus to video
     subtitles = new SubtitlesOctopus({
       // Wrapper only allows to create a correct canvas. Time tracking is
@@ -250,6 +251,55 @@ function spawnPlyr(wrapper, callback) {
       captions.pressed = true;
 
       subResize();
+    });
+  }
+
+
+  if (stream.youtube) { // Allow to switch between Plyr and YouTube
+    // Fix instant pause by Plyr
+    player.on('statechange', event => {
+      if (event.detail.code == 1) player.play();
+    });
+
+    player.on(ready, function (event) {
+      // Disable fullscreen for YouTube Player
+      let iframe = wrapper.querySelector('iframe');
+      iframe.allowFullscreen = false;
+
+      // Add control button
+      let controls = player.elements.controls;
+      let fullscreen = controls.querySelector('button[data-plyr="fullscreen"]');
+
+      let button = document.createElement('button');
+      button.classList.add('plyr__controls__item');
+      button.classList.add('plyr__control');
+      button.classList.add('plyr__control--pressed');
+      button.classList.add('plyr-yt-open');
+
+      let icon = document.createElement('i');
+      icon.classList.add('fab');
+      icon.classList.add('fa-youtube');
+      button.appendChild(icon);
+
+      controls.insertBefore(button, fullscreen);
+
+      // Add floating button
+      let float_button = document.createElement('button');
+      float_button.classList.add('btn');
+      float_button.classList.add('btn-primary');
+      float_button.classList.add('plyr-yt-return')
+      float_button.innerText = 'Вернуться в Plyr';
+      player.elements.wrapper.appendChild(float_button);
+
+      button.onclick = function (e) {
+        iframe.style.zIndex = 30;
+        float_button.style.display = 'block';
+      };
+
+      float_button.onclick = function (e) {
+        iframe.style.zIndex = "";
+        float_button.style.display = 'none';
+      }
     });
   }
 

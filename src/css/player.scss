@@ -10,6 +10,19 @@
   display: inline-block !important;
 }
 
+button.plyr-yt-return {
+  display: none;
+  position: absolute;
+  z-index: 31;
+  top: 10px;
+  right: 10px;
+  opacity: 0.8;
+}
+
+button.plyr-yt-open {
+  line-height: 0;
+}
+
 .stream {
   width: calc(80vh / 9 * 16);
   max-width: calc(100vw - 30px);
