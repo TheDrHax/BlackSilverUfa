@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Crash Bandicoot 4: It's About Time / Cyberpunk 2077 - Night City Wire #1 / SnowRunner #11", "year": 2020, "id": "759389769"},
       {"name": "Pummel Party #10 (7D) / Human: Fall Flat #9", "year": 2020, "id": "760503086"},
       {"name": "Vampire: The Masquerade - Bloodlines #8 / Amnesia: The Dark Descent #1", "year": 2020, "id": "761311327"},
       {"name": "Baldur's Gate 3 / Call of Duty: Warzone #8", "year": 2020, "id": "763202430"},
@@ -12,7 +11,8 @@
       {"name": "Xuan-Yuan Sword VII (демо) / Webbed (демо) / Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (со зрителями)", "year": 2020, "id": "767249770"},
       {"name": "Розыгрыш Asus ROG GA502IV / Amnesia: The Dark Descent #3 / Party Animals #2 / Call of Duty: Warzone #10", "year": 2020, "id": "768182935"},
       {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
-      {"name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2", "year": 2020, "id": "771021424"}
+      {"name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2", "year": 2020, "id": "771021424"},
+      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita", "year": 2020, "id": "772063368"}
     ]
   },
   "finished": {
@@ -340,7 +340,8 @@
       {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
       {"name": "Crash Bandicoot 4: It's About Time", "year": 2020, "id": "759389769"},
       {"name": "Baldur's Gate 3", "year": 2020, "id": "763202430"},
-      {"name": "Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо)", "year": 2020, "id": "767249770"}
+      {"name": "Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо)", "year": 2020, "id": "767249770"},
+      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita", "year": 2020, "id": "772063368"}
     ]
   },
   "ongoing": {
