@@ -43,7 +43,7 @@ def download(stream):
             os.unlink(dest)
             raise ex
 
-    convert_file(dest, style=stream.subtitles_style)
+    convert_file(dest, stream.blacklist, stream.subtitles_style)
 
 
 if __name__ == '__main__':

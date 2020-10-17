@@ -21,15 +21,14 @@ from docopt import docopt
 
 from ..data.streams import streams, Stream, StreamType
 from ..data.cache import cache
-from ..data.config import config, tcd_config
+from ..data.config import tcd_config
 from ..data.timecodes import Timecodes
+from ..data.blacklist import Blacklist
 from ..utils.ass import (EmptyLineError, SubtitlesReader,
-                         SubtitlesWriter, SubtitlesEvent,
-                         SubtitlesStyle, Blacklist)
+                         SubtitlesWriter, SubtitlesEvent, SubtitlesStyle)
 
 
 tcd.settings.update(tcd_config)
-blacklist = Blacklist(**config['blacklist'])
 
 GROUPED_EMOTES = re.compile('([^\ ]+) x⁣([0-9]+)')
 
@@ -65,7 +64,7 @@ def unpack_line_breaks(line: str) -> str:
     return line.replace('\\N', '')
 
 
-def convert_msg(msg: SubtitlesEvent) -> SubtitlesEvent:
+def convert_msg(msg: SubtitlesEvent, blacklist: Blacklist) -> SubtitlesEvent:
     """Reapply all TCD settings for messages."""
 
     # Remove line breaks
@@ -222,24 +221,25 @@ def generate_subtitles(segment):
     cache.set(cache_key, cache_hash)
 
 
-def convert_file(file: str, style: SubtitlesStyle = None):
+def convert_file(file: str, blacklist: Blacklist, style: SubtitlesStyle = None):
     print(f'Converting {file}')
-    return convert(file, style=style, func=convert_msg)
+    return convert(file, style=style,
+                   func=lambda msg: convert_msg(msg, blacklist))
 
 
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
     if args['--all']:
-        tasks = [(s.subtitles_path, s.subtitles_style)
+        tasks = [(s.subtitles_path, s.blacklist, s.subtitles_style)
                  for s in streams.values()
                  if s.type is StreamType.DEFAULT]
     elif args['--stream']:
-        stream = streams[args['<id>']]
+        s = streams[args['<id>']]
         if args['<file>']:
-            tasks = [(args['<file>'], stream.subtitles_style)]
+            tasks = [(args['<file>'], s.blacklist, s.subtitles_style)]
         else:
-            tasks = [(stream.subtitles_path, stream.subtitles_style)]
+            tasks = [(s.subtitles_path, s.blacklist, s.subtitles_style)]
 
     p = Pool(4)
     p.starmap(convert_file, tasks)

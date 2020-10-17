@@ -1,7 +1,10 @@
 import attr
-from datetime import datetime
+from typing import Dict, List
+from cached_property import cached_property
 
 from .streams import streams, SegmentReference
+from .config import config
+from .blacklist import Blacklist, blacklist
 from ..utils import load_json, join, json_escape, indent
 
 
@@ -16,6 +19,7 @@ class Game:
     type: str = None
     cover: int = 0
     streams: list = attr.ib(factory=list)
+    _blacklist: Blacklist = attr.ib({}, converter=lambda x: Blacklist(**x))
 
     def __attrs_post_init__(self):
         refs = []
@@ -48,13 +52,18 @@ class Game:
     def filename(self):
         return f'/links/{self.id}.html'
 
+    @cached_property
+    def blacklist(self):
+        return blacklist + self._blacklist
+
     @property
     def date(self):
         return self.streams[self.cover].stream.date
 
     @join()
     def to_json(self):
-        keys = ['name', 'category', 'type', 'id', 'streams', 'cover']
+        keys = ['name', 'category', 'type', 'id',
+                'streams', 'cover', '_blacklist']
 
         yield '{\n  '
 
@@ -70,7 +79,17 @@ class Game:
                 yield '\n  ]'
                 continue
 
-            if not getattr(self, key):
+            if key == '_blacklist':
+                if len(self._blacklist) == 0:
+                    continue
+
+                yield ',\n  "blacklist": '
+                yield indent(self._blacklist.to_json(), 2)[2:]
+                continue
+
+            value = getattr(self, key)
+
+            if not value:
                 continue
 
             if not first:
@@ -78,7 +97,7 @@ class Game:
             else:
                 first = False
 
-            yield f'"{key}": {json_escape(getattr(self, key))}'
+            yield f'"{key}": {json_escape(value)}'
 
         yield '\n}'
 

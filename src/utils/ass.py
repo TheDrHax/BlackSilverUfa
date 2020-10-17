@@ -192,13 +192,3 @@ class SubtitlesWriter:
 
     def close(self):
         self.file.close()
-
-
-class Blacklist:
-    def __init__(self, users: List[str] = [], messages: List[str] = []):
-        self.users = re.compile('^(' + '|'.join(users) + ')$')
-        self.messages = re.compile('(' + '|'.join(messages) + ')')
-
-    def __contains__(self, msg: SubtitlesEvent):
-        return any([self.users.match(msg.username.lower()),
-                    self.messages.match(msg.text.lower())])
