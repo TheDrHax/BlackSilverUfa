@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Pummel Party #10 (7D) / Human: Fall Flat #9", "year": 2020, "id": "760503086"},
       {"name": "Vampire: The Masquerade - Bloodlines #8 / Amnesia: The Dark Descent #1", "year": 2020, "id": "761311327"},
       {"name": "Baldur's Gate 3 / Call of Duty: Warzone #8", "year": 2020, "id": "763202430"},
       {"name": "Call of Duty: Warzone #9 / Call of Duty: Black Ops Cold War #1 (бета)", "year": 2020, "id": "764187591"},
@@ -12,7 +11,8 @@
       {"name": "Розыгрыш Asus ROG GA502IV / Amnesia: The Dark Descent #3 / Party Animals #2 / Call of Duty: Warzone #10", "year": 2020, "id": "768182935"},
       {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2", "year": 2020, "id": "771021424"},
-      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita", "year": 2020, "id": "772063368"}
+      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita", "year": 2020, "id": "772063368"},
+      {"name": "Phasmophobia", "year": 2020, "id": "773147726"}
     ]
   },
   "finished": {
@@ -497,7 +497,8 @@
       {"name": "Surgeon Simulator 2", "year": 2020, "id": "725080998"},
       {"name": "Escape Game Fort Boyard / Escape From Skull Dungeon", "year": 2020, "id": "738885129"},
       {"name": "Serious Sam 4", "year": 2020, "id": "749640613"},
-      {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"}
+      {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
+      {"name": "Phasmophobia", "year": 2020, "id": "773147726"}
     ]
   },
   "co-op-series": {
