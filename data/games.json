@@ -2011,7 +2011,14 @@
       { "twitch": "772063368", "subrefs": [
         { "name": "AquaNox: Deep Descent" },
         { "name": "Fishing: North Atlantic", "start": "2:32:49" },
-        { "name": "Noita", "start": "3:58:41" }
+        {
+          "name": "Noita", "start": "3:58:41",
+          "blacklist": {
+            "messages": [
+              "^[0-9]$"
+            ]
+          }
+        }
       ] }
     ]
   },
@@ -2407,7 +2414,12 @@
     "streams": [
       { "name": "1", "twitch": "268900992", "start": "2:24:57" },
       { "name": "2", "twitch": "552313454" }
-    ]
+    ],
+    "blacklist": {
+      "users": [
+        "blackufa"
+      ]
+    }
   },
   {
     "name": "Dead Cells",
@@ -2422,7 +2434,19 @@
       { "name": "6", "twitch": "562741500", "start": "1:01:36" },
       { "name": "7", "twitch": "563294076" },
       { "name": "8 (заново)", "twitch": "669777336", "start": "3:56:41" }
-    ]
+    ],
+    "blacklist": {
+      "users": [
+        "blackufa"
+      ],
+      "messages": [
+        "!?(pick ?me|gg|rain|bombs|flies|cheers|jump|gud|rofl|dark|nice|spikes|easy|brut).*",
+        "!?(poison|noob|notbad|tact|surv|secret|zombies?|heal|woot|fuuu|cool|great|praise).*",
+        "!?(doors|chic?ken|shots|blood|dmg|boo|awww|chicken|nooo|birds|rekt|boy|ouch|:'\\().*",
+        "!?(gitgud|boi|бабах|бах|паф|бум|тик|так|буф|пиф|хрясь|дзинь|[дL][0-9@\\!#]|do ?it).*",
+        "!?(go|good ?luck|секрет|boss|lol|rofg|ahah|nice ?fall|haha).*"
+      ]
+    }
   },
   {
     "name": "Dark Messiah of Might & Magic",

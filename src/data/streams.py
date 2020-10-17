@@ -1,6 +1,7 @@
 import attr
 import json
 from enum import Enum
+from cached_property import cached_property
 from git import Repo
 from typing import List, Tuple, Dict, Any
 from hashlib import md5
@@ -11,6 +12,7 @@ from sortedcontainers import SortedList, SortedKeyList
 from .cache import cached
 from .config import config, tcd_config
 from .fallback import fallback
+from .blacklist import Blacklist, BlacklistTimeline
 from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice
 from ..utils import _, load_json, last_line, count_lines, join, json_escape, indent
 from ..utils.ass import SubtitlesStyle
@@ -348,6 +350,7 @@ class SegmentReference:
     note: str = None
     _name: str = None
     _start: Timecode = attr.ib(0, converter=Timecode)
+    _blacklist: Blacklist = attr.ib({}, converter=lambda x: Blacklist(**x))
     silent: bool = False
     _subrefs: list = attr.ib(factory=list)
     subrefs: SortedKeyList = attr.ib(init=False)
@@ -363,6 +366,9 @@ class SegmentReference:
         self.subrefs = SortedKeyList(key=lambda x: x.start)
 
         if len(self._subrefs) > 0:
+            if len(self._blacklist) > 0:
+                raise ValueError(f'`blacklist` can not be used with `subrefs`')
+
             for data in self._subrefs:
                 if isinstance(data, dict):
                     SubReference(**data, parent=self)
@@ -378,7 +384,8 @@ class SegmentReference:
             if not self._name:
                 raise ValueError('`name` is required without `subrefs`')
 
-            SubReference(name=self._name, start=self._start, parent=self)
+            SubReference(name=self._name, start=self._start, parent=self,
+                         blacklist=self._blacklist)
 
         delattr(self, '_name')
         delattr(self, '_start')
@@ -516,10 +523,10 @@ class SegmentReference:
     def to_json(self):
         keys = ['name', 'twitch', 'segment', 'start', 'end',
                 'force_start', 'subrefs']
-        multiline_keys = ['note']
+        multiline_keys = ['note', '_blacklist']
 
         def inherited(key):
-            if key in ['name', 'twitch', 'segment']:
+            if key in ['name', 'twitch', 'segment', '_blacklist']:
                 return False
 
             if hasattr(self.parent, key):
@@ -571,13 +578,19 @@ class SegmentReference:
         for key in multiline_keys:
             value = getattr(self, key)
 
+            if key == '_blacklist' and len(self.subrefs) > 1:
+                continue
+
             if value and not inherited(key):
                 if not first:
                     yield ',\n  '
                 else:
                     first = False
 
-                yield f'"{key}": {json_escape(value)}'
+                if key == '_blacklist':
+                    yield f'"blacklist": {indent(value.to_json(), 2)[2:]}'
+                else:
+                    yield f'"{key}": {json_escape(value)}'
 
         yield '\n' if multiline else ' '
         yield '}'
@@ -595,6 +608,8 @@ class SubReference:
     start: Timecode = attr.ib(0, converter=Timecode)
     silent: bool = False
     parent: SegmentReference = attr.ib()
+    _blacklist: Blacklist = attr.ib({},
+        converter=lambda x: x if isinstance(x, Blacklist) else Blacklist(**x))
 
     def __setattr__(self, name, value):
         if name == 'parent':
@@ -642,13 +657,25 @@ class SubReference:
         else:
             return self.parent.parent.abs_end
 
+    @cached_property
+    def blacklist(self):
+        return self.parent.game.blacklist + self._blacklist
+
     @join()
     def to_json(self):
-        yield '{ '
+        multiline = len(self._blacklist) > 0
+
+        yield '{\n    ' if multiline else '{ '
+
         yield f'"name": {json_escape(self.name)}'
+
         if self.start != 0:
             yield f', "start": {json_escape(self.start)}'
-        yield ' }'
+
+        if len(self._blacklist) > 0:
+            yield f',\n    "blacklist": {indent(self._blacklist.to_json(), 4)[4:]}'
+
+        yield '\n  }' if multiline else ' }'
     
     def __repr__(self):
         return f'SubReference({self.name}, {self.start})'
@@ -777,6 +804,16 @@ class Stream:
             style['Alignment'] = '1'
 
         return style
+
+    @cached_property
+    def blacklist(self) -> BlacklistTimeline:
+        bl = BlacklistTimeline()
+
+        for segment in self:
+            for subref in segment.all_subrefs:
+                bl.add(subref.blacklist, subref.abs_start, subref.abs_end)
+
+        return bl
 
     @property
     @cached('messages-{0[0].twitch}')
