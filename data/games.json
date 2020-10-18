@@ -148,6 +148,18 @@
     ]
   },
   {
+    "name": "Heavy Rain",
+    "category": "finished",
+    "id": "heavy-rain",
+    "streams": [
+      { "name": "1 (часть 1)", "twitch": "001602290" },
+      { "name": "1 (часть 2)", "twitch": "001602291" },
+      { "name": "1 (часть 3)", "twitch": "001602292" },
+      { "name": "2", "twitch": "001603010" },
+      { "name": "Злое прохождение", "twitch": "001603190" }
+    ]
+  },
+  {
     "name": "Black Mirror",
     "category": "finished",
     "id": "black-mirror",
