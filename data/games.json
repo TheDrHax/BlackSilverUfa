@@ -172,6 +172,20 @@
     ]
   },
   {
+    "name": "Dishonored",
+    "category": "finished",
+    "id": "dishonored",
+    "streams": [
+      { "name": "1", "twitch": "001511170" },
+      { "name": "2", "twitch": "001511190" },
+      { "name": "3", "twitch": "001511210" },
+      { "name": "4", "twitch": "001511250" },
+      { "name": "5 (The Knife of the Dunwall)", "twitch": "001512220" },
+      { "name": "6 (The Knife of the Dunwall / The Brigmore Witches)", "twitch": "001512250" },
+      { "name": "1 (заново)", "twitch": "636327019", "start": "3:15:42" }
+    ]
+  },
+  {
     "name": "Black Mirror",
     "category": "finished",
     "id": "black-mirror",
@@ -1966,10 +1980,7 @@
         { "name": "Timelie", "start": "4:09:24" },
         { "name": "Filament", "start": "4:29:04" }
       ] },
-      { "twitch": "636327019", "subrefs": [
-        { "name": "Arx Fatalis" },
-        { "name": "Dishonored", "start": "3:15:42" }
-      ] },
+      { "name": "Arx Fatalis", "twitch": "636327019" },
       { "twitch": "639075772", "subrefs": [
         { "name": "Those Who Remain" },
         { "name": "Someday You'll Return", "start": "3:11:24" }
