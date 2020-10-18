@@ -1,11 +1,31 @@
 import Plyr from 'plyr';
 import SubtitlesOctopus from 'libass-wasm';
+import animateScrollTo from 'animated-scroll-to';
 import { debounce } from 'debounce';
 import { Redirect } from './redirect';
 import { SavedPosition } from './utils/saved-position';
 
-function get_timecodes(id) {
-  return document.querySelectorAll('.timecodes[data-id="' + id + '"] a[data-value]');
+function getTimecodes(id) {
+  return document.querySelectorAll(`.timecodes[data-id="${id}"] a[data-value]`);
+}
+
+function setupTimecodes(wrapper) {
+  let id = wrapper.dataset.id;
+  let parent = document.querySelector(`.timecodes[data-id="${id}"]`);
+
+  let click = function () {
+    wrapper.seek(Number(this.dataset.value));
+    return false;
+  };
+
+  getTimecodes(id).forEach((el) => {
+    let url = `/r/?${parent.dataset.game}`;
+    url += `/${wrapper.dataset.hash}`;
+    url += `/${el.dataset.value}`;
+
+    el.href = url;
+    el.onclick = click;
+  });
 }
 
 function spawnPlayer(wrapper, callback) {
@@ -20,11 +40,10 @@ function spawnPlayer(wrapper, callback) {
 function spawnPlyr(wrapper, callback) {
   let player, subtitles;
   let stream = wrapper.dataset;
-  let timecodes = get_timecodes(stream.id);
+  let timecodes = getTimecodes(stream.id);
   let ready = stream.direct ? 'loadedmetadata' : 'ready';
   let saved_pos = new SavedPosition(stream);
 
-  const id = stream.twitch + '.' + (stream.segment || 0);
   const offset = +stream.offset || 0;
   let start = +stream.start || 0;
   const end = +stream.end || 0;
@@ -268,7 +287,6 @@ function spawnPlyr(wrapper, callback) {
 
 window.addEventListener('DOMContentLoaded', function() {
   let streams = document.getElementsByClassName("stream");
-  let hash = false;
   let spawned = false;
 
   if (streams.length == 0) {
@@ -277,22 +295,37 @@ window.addEventListener('DOMContentLoaded', function() {
     console.log(`Initializing ${streams.length} streams`);
   }
 
-  function parse_hash() {
-    let hash = window.location.hash.replace('#', '').split('.');
-
-    if (hash.length == 2 && hash[1] == 0) {
-      window.location.hash = '#' + hash[0];
-      return parse_hash();
+  function parse_hash(hash) {
+    if (!hash) {
+      return null;
     }
 
-    return hash;
+    let segment, params;
+    [segment, params] = hash.split('?');
+
+    // Strip .0 from segments
+    if (segment.endsWith('.0')) {
+      segment = segment.substr(0, segment.length - 2);
+    }
+
+    // Parse params
+    let parsed_params = {};
+    if (params) {
+      params.split('&').map((param) => {
+        let name, value;
+        [name, value] = param.split('=');
+        parsed_params[name] = value;
+      });
+    }
+
+    return {
+      segment: segment,
+      params: parsed_params
+    };
   }
 
-  if (window.location.hash) {
-    hash = parse_hash();
-  }
+  let hash = parse_hash(window.location.hash.substr(1));
 
-  let i = 0;
   for (let wrapper of streams) {
     if (!wrapper.dataset.youtube && !wrapper.dataset.direct) {
       spawned = true;
@@ -317,46 +350,36 @@ window.addEventListener('DOMContentLoaded', function() {
       });
     };
 
-    // Activate timecode links
-    let timecodes = get_timecodes(wrapper.dataset.id);
-    let timecode_onclick = function() {
-      wrapper.seek(Number(this.dataset.value));
-    };
-    timecodes.forEach(function(el) {
-      el.onclick = timecode_onclick;
-      el.href = 'javascript:void(0)';
-    });
+    setupTimecodes(wrapper);
 
     if (hash) {
-      let id = hash[0];
-      if (id == i || id == wrapper.dataset.twitch) {
+      if (hash.segment == wrapper.dataset.hash) {
+        let header = document.querySelector(`.stream-header[data-id="${wrapper.dataset.id}"]`);
+
         let callback = function(wrapper) {
-          // Trigger autoscroll again
-          window.location.hash = window.location.hash;
+          animateScrollTo(header, {
+            maxDuration: 1000,
+            verticalOffset: -56 // Floating navbar
+          });
+
+          if (hash.params.t) {
+            wrapper.seek(Number(hash.params.t));
+          }
         };
 
-        let spawn = function() {
-          spawned = true;
-          spawnPlayer(wrapper, callback);
-          document.title = wrapper.dataset.name + " | " + document.title;
-        };
+        animateScrollTo(header, {
+          maxDuration: 1000,
+          verticalOffset: -56 // Floating navbar
+        });
 
-        // simple streams
-        if (hash.length == 1 && wrapper.dataset.segment === undefined) {
-            spawn();
-        }
-
-        // segmented streams
-        if (hash.length == 2 && hash[1] == wrapper.dataset.segment) {
-            spawn();
-        }
+        spawned = true;
+        document.title = wrapper.dataset.name + " | " + document.title;
+        spawnPlayer(wrapper, callback);
       }
     }
-
-    i++;
   }
 
   if (hash && !spawned) {
-    Redirect.go(hash.join('.'));
+    Redirect.go(hash.segment);
   }
 }, false);

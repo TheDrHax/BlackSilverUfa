@@ -113,6 +113,10 @@ class Segment:
                       key=lambda sr: sr.start)
 
     @property
+    def games(self) -> List['Game']:
+        return list(ref.game for ref in self.references)
+
+    @property
     def name(self) -> str:
         names = []
         for sr in self.all_subrefs:
@@ -258,7 +262,7 @@ class Segment:
         else:
             keys = ['youtube', 'cuts', 'official',
                     'abs_start', 'abs_end', 'duration']
-            multiline_keys = ['name', 'date', 'url', 'direct', 'torrent']
+            multiline_keys = ['name', 'date', 'direct', 'torrent', 'games']
 
         def get_attr(key):
             if key in self.fallbacks and not compiled:
@@ -323,6 +327,9 @@ class Segment:
                     value = self.offsets.to_list()
                 else:
                     continue
+
+            if key == 'games':
+                value = list(game.id for game in self.games)
 
             if value is None:
                 continue
@@ -441,9 +448,7 @@ class SegmentReference:
                 value = escape_attr(value)
                 attrs.append(f'data-{key}="{value}"')
 
-        if self.segment != 0:
-            add('segment')
-
+        add('hash')
         add('offset', lambda x: x().value, lambda x: x() != 0)
 
         if self.stream.type is not StreamType.NO_CHAT:
@@ -458,7 +463,7 @@ class SegmentReference:
             lambda x: x != 0 or self.force_start)
         add('end', lambda x: int(x - self.offset(x)), lambda x: x != 0)
 
-        for key in ['name', 'twitch', 'youtube', 'direct']:
+        for key in ['name', 'youtube', 'direct']:
             add(key)
 
         if self.force_start:

@@ -2,7 +2,7 @@ const resume = JSON.parse(localStorage.getItem('resume_playback')) || {};
 
 class SavedPosition {
   constructor(stream) {
-    this.ids = stream.twitch.split(',');
+    this.ids = stream.hash.split(',');
 
     if (stream.offsets) {
       this.offsets = stream.offsets.split(',').map((t) => +t);

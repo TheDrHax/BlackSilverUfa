@@ -50,11 +50,9 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
 
 <%def name="gen_segment(id, segment)">
 <% hash = segment.hash %>\
-<div class="d-flex" style="flex-wrap: wrap;">
+<div class="stream-header d-flex" data-id="${id}" style="flex-wrap: wrap;">
   <div class="">
-    <h2 id="${hash}">
-      <a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${hash}">${segment.name}</a>
-    </h2>
+    <h2><a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${game.id}/${hash}">${segment.name}</a></h2>
   </div>
   <div class="badge-row">
     <span class="badge badge-light">
@@ -112,7 +110,7 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
   </ul>
 % endif
 % if len(segment.timecodes) > 0:
-  <div class="timecodes" data-id="${id}">
+  <div class="timecodes" data-id="${id}" data-game="${game.id}">
   ${timecode_list(segment.timecodes)}
   </div>
 % endif
