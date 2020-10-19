@@ -19,8 +19,11 @@ function setupTimecodes(wrapper) {
   };
 
   getTimecodes(id).forEach((el) => {
-    let url = `/r/?${parent.dataset.game}`;
-    url += `/${wrapper.dataset.hash}`;
+    let url = '/r/?';
+    if (parent.dataset.game) {
+      url += `${parent.dataset.game}/`;
+    }
+    url += `${wrapper.dataset.hash}`;
     url += `/${el.dataset.value}`;
 
     el.href = url;
