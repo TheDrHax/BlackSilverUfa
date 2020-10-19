@@ -52,7 +52,13 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
 <% hash = segment.hash %>\
 <div class="stream-header d-flex" data-id="${id}" style="flex-wrap: wrap;">
   <div class="">
-    <h2><a onclick="window.location.hash = '#${hash}'; return false;" href="/r/?${game.id}/${hash}">${segment.name}</a></h2>
+    <%
+      if segment.games[0] == game:
+        short_link = f'/r/?{segment.hash}'
+      else:
+        short_link = f'/r/?{game.id}/{segment.hash}'
+    %>\
+    <h2><a onclick="window.location.hash = '#${hash}'; return false;" href="${short_link}">${segment.name}</a></h2>
   </div>
   <div class="badge-row">
     <span class="badge badge-light">
@@ -110,7 +116,11 @@ ${timecode_link(t)} - ${timecode_link(t + duration)}\
   </ul>
 % endif
 % if len(segment.timecodes) > 0:
+  % if segment.games[0] != game:
   <div class="timecodes" data-id="${id}" data-game="${game.id}">
+  % else:
+  <div class="timecodes" data-id="${id}">
+  % endif
   ${timecode_list(segment.timecodes)}
   </div>
 % endif
