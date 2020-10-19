@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Vampire: The Masquerade - Bloodlines #8 / Amnesia: The Dark Descent #1", "year": 2020, "id": "761311327"},
       {"name": "Baldur's Gate 3 / Call of Duty: Warzone #8", "year": 2020, "id": "763202430"},
       {"name": "Call of Duty: Warzone #9 / Call of Duty: Black Ops Cold War #1 (бета)", "year": 2020, "id": "764187591"},
       {"name": "Amnesia: The Dark Descent #2", "year": 2020, "id": "766202800"},
@@ -12,7 +11,8 @@
       {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2", "year": 2020, "id": "771021424"},
       {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita", "year": 2020, "id": "772063368"},
-      {"name": "Phasmophobia", "year": 2020, "id": "773147726"}
+      {"name": "Phasmophobia", "year": 2020, "id": "773147726"},
+      {"name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs / Amnesia: Rebirth", "year": 2020, "id": "775167526"}
     ]
   },
   "finished": {
@@ -344,7 +344,8 @@
       {"name": "Crash Bandicoot 4: It's About Time", "year": 2020, "id": "759389769"},
       {"name": "Baldur's Gate 3", "year": 2020, "id": "763202430"},
       {"name": "Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо)", "year": 2020, "id": "767249770"},
-      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita", "year": 2020, "id": "772063368"}
+      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita", "year": 2020, "id": "772063368"},
+      {"name": "Amnesia: A Machine for Pigs / Amnesia: Rebirth", "year": 2020, "id": "775167526"}
     ]
   },
   "ongoing": {

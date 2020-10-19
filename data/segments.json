@@ -5841,7 +5841,6 @@
     "youtube": "SMLIMejupXc", "official": false, "abs_start": "0:00", "abs_end": "5:58:08", "duration": "5:58:08",
     "name": "BPM: Bullets Per Minute / Hades / Fall Guys #8 (соло) / Vampire: The Masquerade - Bloodlines #6",
     "date": "2020-09-21",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/747742325.torrent",
     "games": ["first", "fall-guys", "vampire-masquerade"]
   },
   "749640613": {
@@ -5983,5 +5982,13 @@
     "date": "2020-10-17",
     "torrent": "https://bsufiles.thedrhax.pw/streams/773147726.torrent",
     "games": ["co-op"]
+  },
+  "775167526": {
+    "abs_start": "0:00", "abs_end": "9:20:32", "duration": "0:00",
+    "name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs / Amnesia: Rebirth",
+    "date": "2020-10-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/775167526.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/775167526.torrent",
+    "games": ["amnesia", "first"]
   }
 }
