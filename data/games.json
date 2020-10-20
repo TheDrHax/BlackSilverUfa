@@ -2056,10 +2056,16 @@
           }
         }
       ] },
-      { "twitch": "775167526", "subrefs": [
-        { "name": "Amnesia: A Machine for Pigs", "start": "1:30:58" },
-        { "name": "Amnesia: Rebirth", "start": "5:02:17" }
-      ] }
+      { "name": "Amnesia: A Machine for Pigs", "twitch": "775167526", "start": "1:30:58" }
+    ]
+  },
+  {
+    "name": "Amnesia: Rebirth",
+    "category": "finished",
+    "id": "amnesia-rebirth",
+    "streams": [
+      { "name": "1", "twitch": "775167526", "start": "5:02:17" },
+      { "name": "2", "twitch": "776153173" }
     ]
   },
   {
