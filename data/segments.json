@@ -5847,7 +5847,6 @@
     "youtube": "UwLqQHKOUkM", "official": false, "abs_start": "0:00", "abs_end": "5:34:49", "duration": "5:34:49",
     "name": "Contraband Police (демо) / Fall Guys #9 (соло) / Serious Sam 4",
     "date": "2020-09-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/749640613.torrent",
     "games": ["single", "fall-guys", "co-op"]
   },
   "750578050": {
@@ -5985,9 +5984,17 @@
   },
   "775167526": {
     "youtube": "Xe79w1-Nu5c", "official": false, "abs_start": "0:00", "abs_end": "9:20:24", "duration": "9:20:24",
-    "name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs / Amnesia: Rebirth",
+    "name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs / Amnesia: Rebirth #1",
     "date": "2020-10-19",
     "torrent": "https://bsufiles.thedrhax.pw/streams/775167526.torrent",
-    "games": ["amnesia", "first"]
+    "games": ["amnesia", "first", "amnesia-rebirth"]
+  },
+  "776153173": {
+    "abs_start": "0:00", "abs_end": "6:47:03", "duration": "0:00",
+    "name": "Amnesia: Rebirth #2",
+    "date": "2020-10-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/776153173.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/776153173.torrent",
+    "games": ["amnesia-rebirth"]
   }
 }
