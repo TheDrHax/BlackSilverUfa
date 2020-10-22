@@ -339,7 +339,8 @@
         { "name": "Sign of Silence" },
         { "name": "Second Extinction", "start": "4:05:51" }
       ] },
-      { "name": "Phasmophobia", "twitch": "773147726" }
+      { "name": "Phasmophobia", "twitch": "773147726" },
+      { "name": "Valorant (Джек, Артём, Дима, Gamelife)", "twitch": "778186468", "start": "2:03:45" }
     ]
   },
   {
@@ -541,7 +542,8 @@
       { "name": "8", "twitch": "763202430", "start": "4:40:37" },
       { "name": "9", "twitch": "764187591" },
       { "name": "10", "twitch": "768182935", "start": "5:13:14" },
-      { "name": "11", "twitch": "771021424", "start": "1:28:18" }
+      { "name": "11", "twitch": "771021424", "start": "1:28:18" },
+      { "name": "12", "twitch": "778186468", "start": "5:10:22" }
     ]
   },
   {
@@ -2047,18 +2049,25 @@
       ] },
       { "twitch": "772063368", "subrefs": [
         { "name": "AquaNox: Deep Descent" },
-        { "name": "Fishing: North Atlantic", "start": "2:32:49" },
-        {
-          "name": "Noita", "start": "3:58:41",
-          "blacklist": {
-            "messages": [
-              "^[0-9]$"
-            ]
-          }
-        }
+        { "name": "Fishing: North Atlantic", "start": "2:32:49" }
       ] },
-      { "name": "Amnesia: A Machine for Pigs", "twitch": "775167526", "start": "1:30:58" }
+      { "name": "Amnesia: A Machine for Pigs", "twitch": "775167526", "start": "1:30:58" },
+      { "name": "9 Monkeys of Shaolin", "twitch": "778186468" }
     ]
+  },
+  {
+    "name": "Noita",
+    "category": "infinite",
+    "id": "noita",
+    "streams": [
+      { "name": "1", "twitch": "772063368", "start": "3:58:41" },
+      { "name": "2", "twitch": "778186468", "start": "1:00:41" }
+    ],
+    "blacklist": {
+      "messages": [
+        "^[0-9]$"
+      ]
+    }
   },
   {
     "name": "Party Animals",
