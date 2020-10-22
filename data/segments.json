@@ -5853,35 +5853,30 @@
     "youtube": "-ZdvF7C8hm4", "official": false, "abs_start": "0:00", "abs_end": "6:51:59", "duration": "6:51:59",
     "name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1",
     "date": "2020-09-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/750578050.torrent",
     "games": ["mafia", "mafia-de"]
   },
   "751534901": {
     "youtube": "AdZDD2gc91Y", "official": false, "abs_start": "0:00", "abs_end": "6:40:08", "duration": "6:40:08",
     "name": "Mafia: Definitive Edition #2",
     "date": "2020-09-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/751534901.torrent",
     "games": ["mafia-de"]
   },
   "752595682": {
     "youtube": "8hqFioxVlYM", "official": false, "abs_start": "0:00", "abs_end": "6:13:42", "duration": "6:13:42",
     "name": "Mafia: Definitive Edition #3 (прогулка) / Pummel Party #9 (7D) / Human: Fall Flat #8",
     "date": "2020-09-26",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/752595682.torrent",
     "games": ["mafia-de", "pummel-party", "human-fall-flat"]
   },
   "754538542": {
     "youtube": "bke3eNThZD8", "official": false, "abs_start": "0:00", "abs_end": "5:25:45", "duration": "5:25:45",
     "name": "Игровые места зрителей #3 / Fall Guys #10 (Wycc, WLG, BeastQT)",
     "date": "2020-09-28",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/754538542.torrent",
     "games": ["setups", "fall-guys"]
   },
   "755571254": {
     "youtube": "Cz2aYGboSvk", "official": false, "abs_start": "0:00", "abs_end": "4:18:23", "duration": "4:18:23",
     "name": "Call of Duty: Warzone #7",
     "date": "2020-09-29",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/755571254.torrent",
     "games": ["cod-warzone"]
   },
   "757370746": {
@@ -5984,16 +5979,22 @@
   },
   "775167526": {
     "youtube": "Xe79w1-Nu5c", "official": false, "abs_start": "0:00", "abs_end": "9:20:24", "duration": "9:20:24",
-    "name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs / Amnesia: Rebirth #1",
+    "name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs",
     "date": "2020-10-19",
     "torrent": "https://bsufiles.thedrhax.pw/streams/775167526.torrent",
-    "games": ["amnesia", "first", "amnesia-rebirth"]
+    "games": ["amnesia", "first"]
   },
   "776153173": {
     "youtube": "siqEF0YaHBU", "official": false, "abs_start": "0:00", "abs_end": "6:46:41", "duration": "6:46:41",
-    "name": "Amnesia: Rebirth #2",
+    "name": "",
     "date": "2020-10-20",
     "torrent": "https://bsufiles.thedrhax.pw/streams/776153173.torrent",
-    "games": ["amnesia-rebirth"]
+    "games": []
+  },
+  "775167526,776153173": {
+    "youtube": "rjlbf0WP-TY", "abs_start": "0:00", "abs_end": "11:05:51", "duration": "11:05:51",
+    "name": "Amnesia: Rebirth",
+    "date": "2020-10-19",
+    "games": ["single"]
   }
 }
