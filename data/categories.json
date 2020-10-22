@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Call of Duty: Warzone #9 / Call of Duty: Black Ops Cold War #1 (бета)", "year": 2020, "id": "764187591"},
       {"name": "Amnesia: The Dark Descent #2", "year": 2020, "id": "766202800"},
       {"name": "Xuan-Yuan Sword VII (демо) / Webbed (демо) / Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (со зрителями)", "year": 2020, "id": "767249770"},
       {"name": "Розыгрыш Asus ROG GA502IV / Amnesia: The Dark Descent #3 / Party Animals #2 / Call of Duty: Warzone #10", "year": 2020, "id": "768182935"},
       {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2", "year": 2020, "id": "771021424"},
-      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita", "year": 2020, "id": "772063368"},
+      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita #1", "year": 2020, "id": "772063368"},
       {"name": "Phasmophobia", "year": 2020, "id": "773147726"},
       {"name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"},
-      {"name": "Amnesia: Rebirth", "year": 2020, "id": "775167526,776153173"}
+      {"name": "Amnesia: Rebirth", "year": 2020, "id": "775167526,776153173"},
+      {"name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) / Call of Duty: Warzone #12", "year": 2020, "id": "778186468"}
     ]
   },
   "finished": {
@@ -345,8 +345,9 @@
       {"name": "Crash Bandicoot 4: It's About Time", "year": 2020, "id": "759389769"},
       {"name": "Baldur's Gate 3", "year": 2020, "id": "763202430"},
       {"name": "Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо)", "year": 2020, "id": "767249770"},
-      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita", "year": 2020, "id": "772063368"},
-      {"name": "Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"}
+      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic", "year": 2020, "id": "772063368"},
+      {"name": "Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"},
+      {"name": "9 Monkeys of Shaolin", "year": 2020, "id": "778186468"}
     ]
   },
   "ongoing": {
@@ -384,7 +385,8 @@
       {"name": "GeoGuessr", "year": 2020, "id": "geoguessr"},
       {"name": "Alien: Hope for the Future", "year": 2020, "id": "alien-hope-for-the-future"},
       {"name": "The Elder Scrolls Online", "year": 2020, "id": "teso"},
-      {"name": "Grounded", "year": 2020, "id": "grounded"}
+      {"name": "Grounded", "year": 2020, "id": "grounded"},
+      {"name": "Noita", "year": 2020, "id": "noita"}
     ]
   },
   "abandoned": {
@@ -503,7 +505,8 @@
       {"name": "Escape Game Fort Boyard / Escape From Skull Dungeon", "year": 2020, "id": "738885129"},
       {"name": "Serious Sam 4", "year": 2020, "id": "749640613"},
       {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
-      {"name": "Phasmophobia", "year": 2020, "id": "773147726"}
+      {"name": "Phasmophobia", "year": 2020, "id": "773147726"},
+      {"name": "Valorant (Джек, Артём, Дима, Gamelife)", "year": 2020, "id": "778186468"}
     ]
   },
   "co-op-series": {

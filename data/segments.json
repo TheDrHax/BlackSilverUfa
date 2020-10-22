@@ -5965,10 +5965,10 @@
   },
   "772063368": {
     "youtube": "4QuPrgxQzCQ", "official": false, "abs_start": "0:00", "abs_end": "5:10:22", "duration": "5:10:22",
-    "name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita",
+    "name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita #1",
     "date": "2020-10-16",
     "torrent": "https://bsufiles.thedrhax.pw/streams/772063368.torrent",
-    "games": ["first"]
+    "games": ["first", "noita"]
   },
   "773147726": {
     "youtube": "U5zI2J9iiT0", "official": false, "abs_start": "0:00", "abs_end": "6:04:53", "duration": "6:04:53",
@@ -5996,5 +5996,13 @@
     "name": "Amnesia: Rebirth",
     "date": "2020-10-19",
     "games": ["single"]
+  },
+  "778186468": {
+    "abs_start": "0:00", "abs_end": "6:01:41", "duration": "0:00",
+    "name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) / Call of Duty: Warzone #12",
+    "date": "2020-10-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/778186468.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/778186468.torrent",
+    "games": ["first", "noita", "co-op", "cod-warzone"]
   }
 }
