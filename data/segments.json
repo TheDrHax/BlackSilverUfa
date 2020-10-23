@@ -5883,7 +5883,6 @@
     "youtube": "x3OP6zIrCPY", "official": false, "abs_start": "0:00", "abs_end": "6:07:23", "duration": "6:07:23",
     "name": "Vampire: The Masquerade - Bloodlines #7",
     "date": "2020-10-01",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/757370746.torrent",
     "games": ["vampire-masquerade"]
   },
   "758360932": {
@@ -6003,5 +6002,13 @@
     "date": "2020-10-22",
     "torrent": "https://bsufiles.thedrhax.pw/streams/778186468.torrent",
     "games": ["first", "noita", "co-op", "cod-warzone"]
+  },
+  "779201810": {
+    "abs_start": "0:00", "abs_end": "6:08:22", "duration": "0:00",
+    "name": "Harry Potter and the Sorcerer's Stone",
+    "date": "2020-10-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/779201810.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/779201810.torrent",
+    "games": ["single"]
   }
 }
