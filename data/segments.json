@@ -5889,7 +5889,6 @@
     "youtube": "7YVvTUD8CxM", "official": false, "abs_start": "0:00", "abs_end": "6:33:12", "duration": "6:33:12",
     "name": "Star Wars: Squadrons",
     "date": "2020-10-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/758360932.torrent",
     "games": ["first"]
   },
   "759389769": {
@@ -5998,10 +5997,10 @@
   },
   "778186468": {
     "youtube": "ufVqSaJYaOY", "official": false, "abs_start": "0:00", "abs_end": "6:01:11", "duration": "6:01:11",
-    "name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) / Call of Duty: Warzone #12",
+    "name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) #1 / Call of Duty: Warzone #12",
     "date": "2020-10-22",
     "torrent": "https://bsufiles.thedrhax.pw/streams/778186468.torrent",
-    "games": ["first", "noita", "co-op", "cod-warzone"]
+    "games": ["first", "noita", "valorant", "cod-warzone"]
   },
   "779201810": {
     "youtube": "b3tB_CgL8bc", "official": false, "abs_start": "0:00", "abs_end": "6:07:49", "duration": "6:07:49",
@@ -6009,5 +6008,13 @@
     "date": "2020-10-23",
     "torrent": "https://bsufiles.thedrhax.pw/streams/779201810.torrent",
     "games": ["single"]
+  },
+  "780320448": {
+    "abs_start": "0:00", "abs_end": "6:06:38", "duration": "0:00",
+    "name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal - The Ancient Gods - Part One",
+    "date": "2020-10-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/780320448.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/780320448.torrent",
+    "games": ["valorant", "doom-eternal"]
   }
 }

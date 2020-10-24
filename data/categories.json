@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Xuan-Yuan Sword VII (демо) / Webbed (демо) / Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (со зрителями)", "year": 2020, "id": "767249770"},
       {"name": "Розыгрыш Asus ROG GA502IV / Amnesia: The Dark Descent #3 / Party Animals #2 / Call of Duty: Warzone #10", "year": 2020, "id": "768182935"},
       {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2", "year": 2020, "id": "771021424"},
@@ -11,8 +10,9 @@
       {"name": "Phasmophobia", "year": 2020, "id": "773147726"},
       {"name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"},
       {"name": "Amnesia: Rebirth", "year": 2020, "id": "775167526,776153173"},
-      {"name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) / Call of Duty: Warzone #12", "year": 2020, "id": "778186468"},
-      {"name": "Harry Potter and the Sorcerer's Stone", "year": 2020, "id": "779201810"}
+      {"name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) #1 / Call of Duty: Warzone #12", "year": 2020, "id": "778186468"},
+      {"name": "Harry Potter and the Sorcerer's Stone", "year": 2020, "id": "779201810"},
+      {"name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal - The Ancient Gods - Part One", "year": 2020, "id": "780320448"}
     ]
   },
   "finished": {
@@ -506,8 +506,7 @@
       {"name": "Escape Game Fort Boyard / Escape From Skull Dungeon", "year": 2020, "id": "738885129"},
       {"name": "Serious Sam 4", "year": 2020, "id": "749640613"},
       {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
-      {"name": "Phasmophobia", "year": 2020, "id": "773147726"},
-      {"name": "Valorant (Джек, Артём, Дима, Gamelife)", "year": 2020, "id": "778186468"}
+      {"name": "Phasmophobia", "year": 2020, "id": "773147726"}
     ]
   },
   "co-op-series": {
@@ -581,7 +580,8 @@
       {"name": "Struggling", "year": 2020, "id": "struggling"},
       {"name": "Wasteland 3", "year": 2020, "id": "wasteland-3"},
       {"name": "Call of Duty: Black Ops Cold War", "year": 2020, "id": "cod-bocw"},
-      {"name": "Party Animals", "year": 2020, "id": "party-animals"}
+      {"name": "Party Animals", "year": 2020, "id": "party-animals"},
+      {"name": "Valorant (Джек, Артём, Дима, Gamelife)", "year": 2020, "id": "valorant"}
     ]
   },
   "other": {
