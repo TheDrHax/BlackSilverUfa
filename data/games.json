@@ -339,8 +339,16 @@
         { "name": "Sign of Silence" },
         { "name": "Second Extinction", "start": "4:05:51" }
       ] },
-      { "name": "Phasmophobia", "twitch": "773147726" },
-      { "name": "Valorant (Джек, Артём, Дима, Gamelife)", "twitch": "778186468", "start": "2:03:45" }
+      { "name": "Phasmophobia", "twitch": "773147726" }
+    ]
+  },
+  {
+    "name": "Valorant (Джек, Артём, Дима, Gamelife)",
+    "category": "co-op-series",
+    "id": "valorant",
+    "streams": [
+      { "name": "1", "twitch": "778186468", "start": "2:03:45" },
+      { "name": "2 (турнир)", "twitch": "780320448" }
     ]
   },
   {
@@ -2348,7 +2356,8 @@
         { "name": "1", "start": "3:57:54" }
       ] },
       { "name": "2", "twitch": "570386805", "start": "1:02:58" },
-      { "name": "3", "twitch": "571133425" }
+      { "name": "3", "twitch": "571133425" },
+      { "name": "The Ancient Gods - Part One", "twitch": "780320448", "start": "2:44:08" }
     ]
   },
   {
