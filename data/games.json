@@ -1178,7 +1178,7 @@
         { "name": "Microsoft", "start": "2:32:00" },
         { "name": "Microsoft", "start": "2:57:55" }
       ] },
-      { "name": "Ubisoft (осень)", "twitch": "736906091", "start": "5:28:27" }
+      { "name": "Ubisoft (осень)", "twitch": "736906091", "segment": 0, "start": "5:28:27" }
     ]
   },
   {
@@ -2037,7 +2037,7 @@
         { "name": "Streamer Life Simulator", "start": "3:41:19" }
       ] },
       { "name": "Kingdoms of Amalur: Re-Reckoning", "twitch": "735013484", "start": "1:53:30" },
-      { "twitch": "736906091", "subrefs": [
+      { "twitch": "736906091", "segment": 0, "subrefs": [
         { "name": "There Is No Light (демо)" },
         { "name": "Star Renegades", "start": "1:36:53" },
         { "name": "Redneck Ed: Astro Monsters Show", "start": "2:16:23" }
@@ -2756,7 +2756,7 @@
       { "name": "2", "twitch": "496247270" },
       { "name": "3", "twitch": "497590135" },
       { "name": "1 (заново)", "twitch": "721969297", "segment": 0 },
-      { "name": "2", "twitch": "750578050" }
+      { "name": "2", "twitch": "750578050", "segment": 0 }
     ]
   },
   {
