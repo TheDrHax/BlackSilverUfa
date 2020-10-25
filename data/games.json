@@ -335,11 +335,25 @@
         { "name": "Escape From Skull Dungeon", "start": "3:27:38" }
       ] },
       { "name": "Serious Sam 4", "twitch": "749640613", "start": "2:25:48" },
-      { "twitch": "770075059", "subrefs": [
-        { "name": "Sign of Silence" },
-        { "name": "Second Extinction", "start": "4:05:51" }
-      ] },
-      { "name": "Phasmophobia", "twitch": "773147726" }
+      { "name": "Second Extinction", "twitch": "770075059", "start": "4:05:51" }
+    ]
+  },
+  {
+    "name": "Phasmophobia",
+    "category": "co-op-series",
+    "id": "phasmophobia",
+    "streams": [
+      { "name": "1", "twitch": "773147726" },
+      { "name": "2", "twitch": "781406533", "start": "1:11:41" }
+    ]
+  },
+  {
+    "name": "Sign of Silence",
+    "category": "co-op-series",
+    "id": "sign-of-silence",
+    "streams": [
+      { "name": "1", "twitch": "770075059" },
+      { "name": "2", "twitch": "781406533", "start": "5:57:59" }
     ]
   },
   {
@@ -2357,7 +2371,8 @@
       ] },
       { "name": "2", "twitch": "570386805", "start": "1:02:58" },
       { "name": "3", "twitch": "571133425" },
-      { "name": "The Ancient Gods - Part One", "twitch": "780320448", "start": "2:44:08" }
+      { "name": "4 (The Ancient Gods: Part One)", "twitch": "780320448", "start": "2:44:08" },
+      { "name": "5 (The Ancient Gods: Part One)", "twitch": "781406533" }
     ]
   },
   {
