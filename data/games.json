@@ -2104,7 +2104,7 @@
     "id": "mafia-de",
     "streams": [
       { "name": "Демо", "twitch": "721969297", "segment": 1 },
-      { "name": "1", "twitch": "750578050", "start": "2:00:33" },
+      { "name": "1", "twitch": "750578050", "segment": 1 },
       { "name": "2", "twitch": "751534901" },
       { "name": "3 (прогулка)", "twitch": "752595682" }
     ]
