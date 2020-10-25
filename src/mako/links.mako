@@ -155,7 +155,7 @@ streamlink -p mpv -a "${segment.mpv_args()}" --player-passthrough hls twitch.tv/
 % endif
 </%def>
 
-<h1><a href="/">Архив</a> → ${game.name}</h1>
+<h1><a href="/">Архив</a> → <a href="/r/?${game.id}" onclick="return false;">${game.name}</a></h1>
 <% id = 0 %> \
 % for segment in game.streams:
 ${gen_segment(id, segment)}
