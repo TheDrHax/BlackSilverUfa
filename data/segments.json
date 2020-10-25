@@ -5851,9 +5851,15 @@
   },
   "750578050": {
     "youtube": "-ZdvF7C8hm4", "official": false, "abs_start": "0:00", "abs_end": "6:51:59", "duration": "6:51:59",
-    "name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1",
+    "name": "Mafia: City of Lost Heaven #2",
     "date": "2020-09-24",
-    "games": ["mafia", "mafia-de"]
+    "games": ["mafia"]
+  },
+  "750578050.1": {
+    "youtube": "6PQtXj9OP8E", "abs_start": "2:02:12", "abs_end": "6:51:58", "duration": "4:49:46",
+    "name": "Mafia: Definitive Edition #1",
+    "date": "2020-09-24",
+    "games": ["mafia-de"]
   },
   "751534901": {
     "youtube": "AdZDD2gc91Y", "official": false, "abs_start": "0:00", "abs_end": "6:40:08", "duration": "6:40:08",
