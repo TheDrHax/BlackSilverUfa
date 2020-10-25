@@ -5961,10 +5961,10 @@
   },
   "770075059": {
     "youtube": "jIXr5-FycNs", "official": false, "abs_start": "0:00", "abs_end": "6:19:46", "duration": "6:19:46",
-    "name": "Sign of Silence / Second Extinction",
+    "name": "Sign of Silence #1 / Second Extinction",
     "date": "2020-10-14",
     "torrent": "https://bsufiles.thedrhax.pw/streams/770075059.torrent",
-    "games": ["co-op"]
+    "games": ["sign-of-silence", "co-op"]
   },
   "771021424": {
     "youtube": "igtjYd4E0TQ", "official": false, "abs_start": "0:00", "abs_end": "7:12:38", "duration": "7:12:38",
@@ -5982,10 +5982,10 @@
   },
   "773147726": {
     "youtube": "U5zI2J9iiT0", "official": false, "abs_start": "0:00", "abs_end": "6:04:53", "duration": "6:04:53",
-    "name": "Phasmophobia",
+    "name": "Phasmophobia #1",
     "date": "2020-10-17",
     "torrent": "https://bsufiles.thedrhax.pw/streams/773147726.torrent",
-    "games": ["co-op"]
+    "games": ["phasmophobia"]
   },
   "775167526": {
     "youtube": "Xe79w1-Nu5c", "official": false, "abs_start": "0:00", "abs_end": "9:20:24", "duration": "9:20:24",
@@ -6023,9 +6023,17 @@
   },
   "780320448": {
     "youtube": "Mj7-AjdQm1E", "official": false, "abs_start": "0:00", "abs_end": "6:06:21", "duration": "6:06:21",
-    "name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal - The Ancient Gods - Part One",
+    "name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal #4 (The Ancient Gods: Part One)",
     "date": "2020-10-24",
     "torrent": "https://bsufiles.thedrhax.pw/streams/780320448.torrent",
     "games": ["valorant", "doom-eternal"]
+  },
+  "781406533": {
+    "abs_start": "0:00", "abs_end": "7:39:03", "duration": "0:00",
+    "name": "Doom Eternal #5 (The Ancient Gods: Part One) / Phasmophobia #2 / Sign of Silence #2",
+    "date": "2020-10-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/781406533.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/781406533.torrent",
+    "games": ["doom-eternal", "phasmophobia", "sign-of-silence"]
   }
 }

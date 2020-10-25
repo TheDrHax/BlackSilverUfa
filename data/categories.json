@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Розыгрыш Asus ROG GA502IV / Amnesia: The Dark Descent #3 / Party Animals #2 / Call of Duty: Warzone #10", "year": 2020, "id": "768182935"},
-      {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
+      {"name": "Sign of Silence #1 / Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2", "year": 2020, "id": "771021424"},
       {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita #1", "year": 2020, "id": "772063368"},
-      {"name": "Phasmophobia", "year": 2020, "id": "773147726"},
+      {"name": "Phasmophobia #1", "year": 2020, "id": "773147726"},
       {"name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"},
       {"name": "Amnesia: Rebirth", "year": 2020, "id": "775167526,776153173"},
       {"name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) #1 / Call of Duty: Warzone #12", "year": 2020, "id": "778186468"},
       {"name": "Harry Potter and the Sorcerer's Stone", "year": 2020, "id": "779201810"},
-      {"name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal - The Ancient Gods - Part One", "year": 2020, "id": "780320448"}
+      {"name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal #4 (The Ancient Gods: Part One)", "year": 2020, "id": "780320448"},
+      {"name": "Doom Eternal #5 (The Ancient Gods: Part One) / Phasmophobia #2 / Sign of Silence #2", "year": 2020, "id": "781406533"}
     ]
   },
   "finished": {
@@ -505,8 +505,7 @@
       {"name": "Surgeon Simulator 2", "year": 2020, "id": "725080998"},
       {"name": "Escape Game Fort Boyard / Escape From Skull Dungeon", "year": 2020, "id": "738885129"},
       {"name": "Serious Sam 4", "year": 2020, "id": "749640613"},
-      {"name": "Sign of Silence / Second Extinction", "year": 2020, "id": "770075059"},
-      {"name": "Phasmophobia", "year": 2020, "id": "773147726"}
+      {"name": "Second Extinction", "year": 2020, "id": "770075059"}
     ]
   },
   "co-op-series": {
@@ -581,6 +580,8 @@
       {"name": "Wasteland 3", "year": 2020, "id": "wasteland-3"},
       {"name": "Call of Duty: Black Ops Cold War", "year": 2020, "id": "cod-bocw"},
       {"name": "Party Animals", "year": 2020, "id": "party-animals"},
+      {"name": "Sign of Silence", "year": 2020, "id": "sign-of-silence"},
+      {"name": "Phasmophobia", "year": 2020, "id": "phasmophobia"},
       {"name": "Valorant (Джек, Артём, Дима, Gamelife)", "year": 2020, "id": "valorant"}
     ]
   },
