@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Sign of Silence #1 / Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2", "year": 2020, "id": "771021424"},
       {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita #1", "year": 2020, "id": "772063368"},
       {"name": "Phasmophobia #1", "year": 2020, "id": "773147726"},
@@ -12,7 +11,8 @@
       {"name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) #1 / Call of Duty: Warzone #12", "year": 2020, "id": "778186468"},
       {"name": "Harry Potter and the Sorcerer's Stone", "year": 2020, "id": "779201810"},
       {"name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal #4 (The Ancient Gods: Part One)", "year": 2020, "id": "780320448"},
-      {"name": "Doom Eternal #5 (The Ancient Gods: Part One) / Phasmophobia #2 / Sign of Silence #2", "year": 2020, "id": "781406533"}
+      {"name": "Doom Eternal #5 (The Ancient Gods: Part One) / Phasmophobia #2 / Sign of Silence #2", "year": 2020, "id": "781406533"},
+      {"name": "Phasmophobia #3 / Watch Dogs: Legion", "year": 2020, "id": "782383170"}
     ]
   },
   "finished": {
@@ -348,7 +348,8 @@
       {"name": "Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо)", "year": 2020, "id": "767249770"},
       {"name": "AquaNox: Deep Descent / Fishing: North Atlantic", "year": 2020, "id": "772063368"},
       {"name": "Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"},
-      {"name": "9 Monkeys of Shaolin", "year": 2020, "id": "778186468"}
+      {"name": "9 Monkeys of Shaolin", "year": 2020, "id": "778186468"},
+      {"name": "Watch Dogs: Legion", "year": 2020, "id": "782383170"}
     ]
   },
   "ongoing": {
