@@ -263,10 +263,12 @@ def ytdl_video(video_id):
         print(f'Retrieving video from YouTube...', file=sys.stderr)
         youtube_source = ytdl_best_source(video_id)
         video = Clip(youtube_source, ar=1000)
+        video.slice(0, 1)
     except:
         print(f'Falling back to bestaudio...', file=sys.stderr)
         youtube_source = ytdl_best_source(video_id, 'bestaudio')
         video = Clip(youtube_source, ar=1000)
+        video.slice(0, 1)
     return video
 
 
