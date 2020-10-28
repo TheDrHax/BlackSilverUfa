@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2", "year": 2020, "id": "771021424"},
       {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita #1", "year": 2020, "id": "772063368"},
       {"name": "Phasmophobia #1", "year": 2020, "id": "773147726"},
       {"name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"},
@@ -12,7 +11,8 @@
       {"name": "Harry Potter and the Sorcerer's Stone", "year": 2020, "id": "779201810"},
       {"name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal #4 (The Ancient Gods: Part One)", "year": 2020, "id": "780320448"},
       {"name": "Doom Eternal #5 (The Ancient Gods: Part One) / Phasmophobia #2 / Sign of Silence #2", "year": 2020, "id": "781406533"},
-      {"name": "Phasmophobia #3 / Watch Dogs: Legion", "year": 2020, "id": "782383170"}
+      {"name": "Phasmophobia #3 (с Джеком) / Watch Dogs: Legion", "year": 2020, "id": "782383170"},
+      {"name": "Phasmophobia #4 (с Джеком и Дашей) / Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"}
     ]
   },
   "finished": {
@@ -606,7 +606,8 @@
       {"name": "Розыгрыш Asus ROG Strix Scope", "year": 2020, "id": "676500778"},
       {"name": "Трейлеры и нарезки", "year": 2020, "id": "687309207"},
       {"name": "Игровые места зрителей", "year": 2020, "id": "setups"},
-      {"name": "Розыгрыш Asus ROG GA502IV", "year": 2020, "id": "768182935"}
+      {"name": "Розыгрыш Asus ROG GA502IV", "year": 2020, "id": "768182935"},
+      {"name": "Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"}
     ]
   },
   "expos": {
