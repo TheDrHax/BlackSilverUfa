@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita #1", "year": 2020, "id": "772063368"},
       {"name": "Phasmophobia #1", "year": 2020, "id": "773147726"},
       {"name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"},
       {"name": "Amnesia: Rebirth", "year": 2020, "id": "775167526,776153173"},
@@ -12,7 +11,8 @@
       {"name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal #4 (The Ancient Gods: Part One)", "year": 2020, "id": "780320448"},
       {"name": "Doom Eternal #5 (The Ancient Gods: Part One) / Phasmophobia #2 / Sign of Silence #2", "year": 2020, "id": "781406533"},
       {"name": "Phasmophobia #3 (с Джеком) / Watch Dogs: Legion", "year": 2020, "id": "782383170"},
-      {"name": "Phasmophobia #4 (с Джеком и Дашей) / Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"}
+      {"name": "Phasmophobia #4 (с Джеком и Дашей) / Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"},
+      {"name": "Кужлёвка (демо) / Ghostrunner #1 / Transient", "year": 2020, "id": "785416056"}
     ]
   },
   "finished": {
@@ -185,7 +185,8 @@
       {"name": "Amnesia: The Dark Descent", "year": 2020, "id": "amnesia"},
       {"name": "Xuan-Yuan Sword VII (демо) / Webbed (демо)", "year": 2020, "id": "767249770"},
       {"name": "Amnesia: Rebirth", "year": 2020, "id": "775167526,776153173"},
-      {"name": "Harry Potter and the Sorcerer's Stone", "year": 2020, "id": "779201810"}
+      {"name": "Harry Potter and the Sorcerer's Stone", "year": 2020, "id": "779201810"},
+      {"name": "Кужлёвка (демо)", "year": 2020, "id": "785416056"}
     ]
   },
   "first": {
@@ -312,7 +313,6 @@
       {"name": "Animal Crossing: New Horizons", "year": 2020, "id": "573544874"},
       {"name": "Onryo / Cloudpunk / Help Will Come Tomorrow / The Walking Evil", "year": 2020, "id": "603199458"},
       {"name": "Gears Tactics", "year": 2020, "id": "606017953"},
-      {"name": "Ghostrunner", "year": 2020, "id": "618698350"},
       {"name": "Huntdown", "year": 2020, "id": "623734401"},
       {"name": "The Persistence / Black Book", "year": 2020, "id": "626564087"},
       {"name": "ManEater / Saints Row: The Third", "year": 2020, "id": "628517071"},
@@ -349,13 +349,14 @@
       {"name": "AquaNox: Deep Descent / Fishing: North Atlantic", "year": 2020, "id": "772063368"},
       {"name": "Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"},
       {"name": "9 Monkeys of Shaolin", "year": 2020, "id": "778186468"},
-      {"name": "Watch Dogs: Legion", "year": 2020, "id": "782383170"}
+      {"name": "Watch Dogs: Legion", "year": 2020, "id": "782383170"},
+      {"name": "Transient", "year": 2020, "id": "785416056"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
-  
+      {"name": "Ghostrunner", "year": 2020, "id": "ghostrunner"}
     ]
   },
   "infinite": {

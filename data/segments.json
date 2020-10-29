@@ -5257,9 +5257,9 @@
   },
   "618698350": {
     "youtube": "q-WyBseNlVg", "official": false, "abs_start": "0:00", "abs_end": "6:11:25", "duration": "6:11:25",
-    "name": "Ghostrunner / SnowRunner #6",
+    "name": "Ghostrunner - Демо / SnowRunner #6",
     "date": "2020-05-12",
-    "games": ["first", "snowrunner"]
+    "games": ["ghostrunner", "snowrunner"]
   },
   "619696167": {
     "youtube": "-bwN_1GMnRE", "abs_start": "0:00", "abs_end": "6:03:29", "duration": "6:03:29",
@@ -6041,10 +6041,18 @@
     "games": ["phasmophobia", "first"]
   },
   "784351602": {
-    "youtube": "YwwVb0NqrCU", "abs_start": "0:00", "abs_end": "4:28:29", "duration": "4:28:29",
+    "youtube": "JodhsxKx1r8", "official": false, "abs_start": "0:00", "abs_end": "4:28:29", "duration": "4:28:29",
     "name": "Phasmophobia #4 (с Джеком и Дашей) / Клаустрофобия - The Dark Pictures: Little Hope",
     "date": "2020-10-28",
     "torrent": "https://bsufiles.thedrhax.pw/streams/784351602.torrent",
     "games": ["phasmophobia", "other"]
+  },
+  "785416056": {
+    "abs_start": "0:00", "abs_end": "2:43:47", "duration": "0:00",
+    "name": "Кужлёвка (демо) / Ghostrunner #1 / Transient",
+    "date": "2020-10-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/785416056.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/785416056.torrent",
+    "games": ["single", "ghostrunner", "first"]
   }
 }
