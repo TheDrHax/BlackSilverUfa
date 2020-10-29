@@ -11,6 +11,7 @@ function getTimecodes(id) {
 
 function setupTimecodes(wrapper) {
   let id = wrapper.dataset.id;
+  let offset = +wrapper.dataset.offset || 0;
   let parent = document.querySelector(`.timecodes[data-id="${id}"]`);
 
   let click = function () {
@@ -24,7 +25,7 @@ function setupTimecodes(wrapper) {
       url += `${parent.dataset.game}/`;
     }
     url += `${wrapper.dataset.hash}`;
-    url += `/${el.dataset.value}`;
+    url += `?at=${+el.dataset.value + offset}`;
 
     el.href = url;
     el.onclick = click;
@@ -305,25 +306,16 @@ window.addEventListener('DOMContentLoaded', function() {
 
     let segment, params;
     [segment, params] = hash.split('?');
+    params = Redirect.parse_params(params);
 
     // Strip .0 from segments
     if (segment.endsWith('.0')) {
       segment = segment.substr(0, segment.length - 2);
     }
 
-    // Parse params
-    let parsed_params = {};
-    if (params) {
-      params.split('&').map((param) => {
-        let name, value;
-        [name, value] = param.split('=');
-        parsed_params[name] = value;
-      });
-    }
-
     return {
       segment: segment,
-      params: parsed_params
+      params: params
     };
   }
 
@@ -365,8 +357,11 @@ window.addEventListener('DOMContentLoaded', function() {
             verticalOffset: -56 // Floating navbar
           });
 
-          if (hash.params.t) {
-            wrapper.seek(Number(hash.params.t));
+          if (hash.params.at) {
+            let offset = +wrapper.dataset.offset || 0;
+            wrapper.seek(+hash.params.at - offset);
+          } else if (hash.params.t) {
+            wrapper.seek(+hash.params.t);
           }
         };
 
