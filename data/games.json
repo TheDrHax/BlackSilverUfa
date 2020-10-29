@@ -1463,7 +1463,8 @@
         { "name": "Webbed (демо)", "start": "1:35:51" }
       ] },
       { "name": "Amnesia: Rebirth", "twitch": "775167526,776153173" },
-      { "name": "Harry Potter and the Sorcerer's Stone", "twitch": "779201810" }
+      { "name": "Harry Potter and the Sorcerer's Stone", "twitch": "779201810" },
+      { "name": "Кужлёвка (демо)", "twitch": "785416056" }
     ]
   },
   {
@@ -1992,7 +1993,6 @@
         { "name": "The Walking Evil", "start": "3:01:52" }
       ] },
       { "name": "Gears Tactics", "twitch": "606017953" },
-      { "name": "Ghostrunner", "twitch": "618698350" },
       { "name": "Huntdown", "twitch": "623734401" },
       { "twitch": "626564087", "subrefs": [
         { "name": "The Persistence", "start": "2:55:31" },
@@ -2079,7 +2079,17 @@
       ] },
       { "name": "Amnesia: A Machine for Pigs", "twitch": "775167526", "start": "1:30:58" },
       { "name": "9 Monkeys of Shaolin", "twitch": "778186468" },
-      { "name": "Watch Dogs: Legion", "twitch": "782383170", "start": "2:53:38" }
+      { "name": "Watch Dogs: Legion", "twitch": "782383170", "start": "2:53:38" },
+      { "name": "Transient", "twitch": "785416056", "start": "2:06:03" }
+    ]
+  },
+  {
+    "name": "Ghostrunner",
+    "category": "ongoing",
+    "id": "ghostrunner",
+    "streams": [
+      { "name": "Демо", "twitch": "618698350" },
+      { "name": "1", "twitch": "785416056", "start": "59:24" }
     ]
   },
   {
