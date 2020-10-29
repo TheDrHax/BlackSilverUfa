@@ -26,13 +26,33 @@ class Redirect {
     return hash.match(SEGMENT_HASH_REGEX) !== null;
   }
 
+  static parse_params(params) {
+    let parsed_params = {};
+    if (!params) return parsed_params;
+    params.split('&').map((param) => {
+      let [name, value] = param.split('=');
+      parsed_params[name] = value;
+    });
+    return parsed_params;
+  }
+
+  static compile_params(parsed_params) {
+    return Object.entries(parsed_params).map(([key, value]) => {
+      return key + '=' + value;
+    }).join('&');
+  }
+
   static async parse(hash) {
     if (!hash) {
       return null;
     }
 
+    let params;
+    [hash, params] = hash.split('?');
+    params = Redirect.parse_params(params);
+
     let parts = hash.split('/');
-    let game = null, segment = null, timecode = null;
+    let game, segment, timecode;
 
     if (!Redirect.isHash(parts[0])) {
       [game, segment, timecode] = parts;
@@ -40,12 +60,17 @@ class Redirect {
       if (!segment) {
         return {
           game: game,
-          segment: segment,
-          timecode: timecode
+          segment: null,
+          params: null
         };
       }
     } else {
       [segment, timecode] = parts;
+    }
+
+    // Legacy timecodes support
+    if (timecode) {
+      params['t'] = timecode;
     }
 
     // Strip .0 from segments
@@ -87,7 +112,7 @@ class Redirect {
     return {
       game: game,
       segment: segment,
-      timecode: timecode
+      params: params
     };
   }
 
@@ -104,8 +129,9 @@ class Redirect {
       url += `#${hash.segment}`;
     }
 
-    if (hash.timecode) {
-      url += `?t=${hash.timecode}`;
+    if (hash.params) {
+      url += '?';
+      url += Redirect.compile_params(hash.params);
     }
 
     return url;
