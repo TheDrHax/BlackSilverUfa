@@ -6035,10 +6035,10 @@
   },
   "782383170": {
     "youtube": "yCWmXMM0Dak", "abs_start": "0:00", "abs_end": "6:03:06", "duration": "6:03:06",
-    "name": "Phasmophobia #3 (с Джеком) / Watch Dogs: Legion",
+    "name": "Phasmophobia #3 (с Джеком) / Watch Dogs: Legion #1",
     "date": "2020-10-26",
     "torrent": "https://bsufiles.thedrhax.pw/streams/782383170.torrent",
-    "games": ["phasmophobia", "first"]
+    "games": ["phasmophobia", "watch-dogs"]
   },
   "784351602": {
     "youtube": "YwwVb0NqrCU", "abs_start": "0:00", "abs_end": "4:28:29", "duration": "4:28:29",
@@ -6054,5 +6054,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/785416056.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/785416056.torrent",
     "games": ["single", "ghostrunner", "first"]
+  },
+  "785524800": {
+    "abs_start": "0:00", "abs_end": "4:40:32", "duration": "0:00",
+    "name": "Paranormal Entities / Under: Depths of Fear / Watch Dogs: Legion #2",
+    "date": "2020-10-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/785524800.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/785524800.torrent",
+    "games": ["single", "first", "watch-dogs"]
   }
 }
