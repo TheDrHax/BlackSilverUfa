@@ -1464,7 +1464,8 @@
       ] },
       { "name": "Amnesia: Rebirth", "twitch": "775167526,776153173" },
       { "name": "Harry Potter and the Sorcerer's Stone", "twitch": "779201810" },
-      { "name": "Кужлёвка (демо)", "twitch": "785416056" }
+      { "name": "Кужлёвка (демо)", "twitch": "785416056" },
+      { "name": "Paranormal Entities", "twitch": "785524800" }
     ]
   },
   {
@@ -2079,8 +2080,17 @@
       ] },
       { "name": "Amnesia: A Machine for Pigs", "twitch": "775167526", "start": "1:30:58" },
       { "name": "9 Monkeys of Shaolin", "twitch": "778186468" },
-      { "name": "Watch Dogs: Legion", "twitch": "782383170", "start": "2:53:38" },
-      { "name": "Transient", "twitch": "785416056", "start": "2:06:03" }
+      { "name": "Transient", "twitch": "785416056", "start": "2:06:03" },
+      { "name": "Under: Depths of Fear", "twitch": "785524800", "start": "32:38" }
+    ]
+  },
+  {
+    "name": "Watch Dogs: Legion",
+    "category": "ongoing",
+    "id": "watch-dogs",
+    "streams": [
+      { "name": "1", "twitch": "782383170", "start": "2:53:38" },
+      { "name": "2", "twitch": "785524800", "start": "2:03:22" }
     ]
   },
   {
