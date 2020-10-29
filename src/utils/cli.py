@@ -375,7 +375,7 @@ def cmd_cuts(segment, segment_kwargs, directory=None):
 
 
 def ytdl_best_source(video_id, quality='best'):
-    p = run(['youtube-dl', '-gf', quality, '--', video_id], stdout=PIPE)
+    p = run(['youtube-dlc', '-gf', quality, '--', video_id], stdout=PIPE)
 
     if p.returncode != 0:
         raise RuntimeError(f'youtube-dl exited with non-zero code {p.returncode}')
