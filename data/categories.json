@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"},
       {"name": "Amnesia: Rebirth", "year": 2020, "id": "775167526,776153173"},
       {"name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) #1 / Call of Duty: Warzone #12", "year": 2020, "id": "778186468"},
       {"name": "Harry Potter and the Sorcerer's Stone", "year": 2020, "id": "779201810"},
@@ -12,7 +11,8 @@
       {"name": "Phasmophobia #3 (с Джеком) / Watch Dogs: Legion #1", "year": 2020, "id": "782383170"},
       {"name": "Phasmophobia #4 (с Джеком и Дашей) / Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"},
       {"name": "Кужлёвка (демо) / Ghostrunner #1 / Transient", "year": 2020, "id": "785416056"},
-      {"name": "Paranormal Entities / Under: Depths of Fear / Watch Dogs: Legion #2", "year": 2020, "id": "785524800"}
+      {"name": "Paranormal Entities / Under: Depths of Fear / Watch Dogs: Legion #2", "year": 2020, "id": "785524800"},
+      {"name": "Teardown / Phasmophobia #5 (с Артёмом, Джеком и Gamelife) / GTFO #3 (с Артёмом, Джеком и Gamelife)", "year": 2020, "id": "786440219"}
     ]
   },
   "finished": {
@@ -351,7 +351,8 @@
       {"name": "Amnesia: A Machine for Pigs", "year": 2020, "id": "775167526"},
       {"name": "9 Monkeys of Shaolin", "year": 2020, "id": "778186468"},
       {"name": "Transient", "year": 2020, "id": "785416056"},
-      {"name": "Under: Depths of Fear", "year": 2020, "id": "785524800"}
+      {"name": "Under: Depths of Fear", "year": 2020, "id": "785524800"},
+      {"name": "Teardown", "year": 2020, "id": "786440219"}
     ]
   },
   "ongoing": {
