@@ -129,7 +129,7 @@ class Redirect {
       url += `#${hash.segment}`;
     }
 
-    if (hash.params) {
+    if (hash.params && Object.keys(hash.params).length > 0) {
       url += '?';
       url += Redirect.compile_params(hash.params);
     }
