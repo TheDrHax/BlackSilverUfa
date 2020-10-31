@@ -2040,11 +2040,7 @@
       ] },
       { "name": "Train 113", "twitch": "719986899" },
       { "name": "Battletoads", "twitch": "720973722" },
-      { "twitch": "725080998", "subrefs": [
-        { "name": "The Dark Pictures: Little Hope (демо)" },
-        { "name": "Observer: System Redux (демо)", "start": "55:02" },
-        { "name": "The Dark Pictures: Little Hope (демо)", "start": "1:37:24" }
-      ] },
+      { "name": "Observer: System Redux (демо)", "twitch": "725080998", "start": "55:02" },
       { "twitch": "726104659", "subrefs": [
         { "name": "Windbound" },
         { "name": "Mr. Prepper", "start": "3:40:10" }
@@ -2085,6 +2081,18 @@
       { "name": "Transient", "twitch": "785416056", "start": "2:06:03" },
       { "name": "Under: Depths of Fear", "twitch": "785524800", "start": "32:38" },
       { "name": "Teardown", "twitch": "786440219" }
+    ]
+  },
+  {
+    "name": "The Dark Pictures: Little Hope",
+    "category": "finished",
+    "id": "little-hope",
+    "streams": [
+      { "twitch": "725080998", "subrefs": [
+        { "name": "Демо" },
+        { "name": "Демо", "start": "1:37:24" }
+      ] },
+      { "name": "1", "twitch": "787564730" }
     ]
   },
   {
