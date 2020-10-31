@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Amnesia: Rebirth", "year": 2020, "id": "775167526,776153173"},
       {"name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) #1 / Call of Duty: Warzone #12", "year": 2020, "id": "778186468"},
       {"name": "Harry Potter and the Sorcerer's Stone", "year": 2020, "id": "779201810"},
       {"name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal #4 (The Ancient Gods: Part One)", "year": 2020, "id": "780320448"},
@@ -12,7 +11,8 @@
       {"name": "Phasmophobia #4 (с Джеком и Дашей) / Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"},
       {"name": "Кужлёвка (демо) / Ghostrunner #1 / Transient", "year": 2020, "id": "785416056"},
       {"name": "Paranormal Entities / Under: Depths of Fear / Watch Dogs: Legion #2", "year": 2020, "id": "785524800"},
-      {"name": "Teardown / Phasmophobia #5 (с Артёмом, Джеком и Gamelife) / GTFO #3 (с Артёмом, Джеком и Gamelife)", "year": 2020, "id": "786440219"}
+      {"name": "Teardown / Phasmophobia #5 (с Артёмом, Джеком и Gamelife) / GTFO #3 (с Артёмом, Джеком и Gamelife)", "year": 2020, "id": "786440219"},
+      {"name": "The Dark Pictures: Little Hope #1", "year": 2020, "id": "787564730"}
     ]
   },
   "finished": {
@@ -179,6 +179,7 @@
       {"name": "UnMetal (демо)", "year": 2020, "id": "700057034"},
       {"name": "Fast & Furious: Crossroads", "year": 2020, "id": "fnf-crossroads"},
       {"name": "Mafia: Definitive Edition", "year": 2020, "id": "mafia-de"},
+      {"name": "The Dark Pictures: Little Hope", "year": 2020, "id": "little-hope"},
       {"name": "The Last Campfire", "year": 2020, "id": "last-campfire"},
       {"name": "Marvel's Avengers", "year": 2020, "id": "marvel-avengers"},
       {"name": "Contraband Police (демо)", "year": 2020, "id": "749640613"},
@@ -332,7 +333,7 @@
       {"name": "What Happened / I Have a Fear / Missing Children / Othercide", "year": 2020, "id": "697191590"},
       {"name": "Train 113", "year": 2020, "id": "719986899"},
       {"name": "Battletoads", "year": 2020, "id": "720973722"},
-      {"name": "The Dark Pictures: Little Hope (демо) / Observer: System Redux (демо)", "year": 2020, "id": "725080998"},
+      {"name": "Observer: System Redux (демо)", "year": 2020, "id": "725080998"},
       {"name": "Windbound / Mr. Prepper", "year": 2020, "id": "726104659"},
       {"name": "World of Warcraft: Shadowlands", "year": 2020, "id": "728015486"},
       {"name": "Tony Hawk's Pro Skater 1+2", "year": 2020, "id": "729970116"},

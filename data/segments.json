@@ -5701,9 +5701,9 @@
   },
   "725080998": {
     "youtube": "J_uazlzyEW4", "official": false, "abs_start": "0:00", "abs_end": "6:18:12", "duration": "6:18:12",
-    "name": "The Dark Pictures: Little Hope (демо) / Observer: System Redux (демо) / Struggling #1 (соло) / Surgeon Simulator 2 / Fall Guys #2",
+    "name": "The Dark Pictures: Little Hope - Демо / Observer: System Redux (демо) / Struggling #1 (соло) / Surgeon Simulator 2 / Fall Guys #2",
     "date": "2020-08-29",
-    "games": ["first", "struggling", "co-op", "fall-guys"]
+    "games": ["little-hope", "first", "struggling", "co-op", "fall-guys"]
   },
   "726104659": {
     "youtube": "d87CqT9S4ww", "official": false, "abs_start": "0:00", "abs_end": "6:05:29", "duration": "6:05:29",
@@ -5919,7 +5919,6 @@
     "youtube": "iJYHVNT2VsY", "official": false, "abs_start": "0:00", "abs_end": "6:34:40", "duration": "6:34:40",
     "name": "Vampire: The Masquerade - Bloodlines #8 / Amnesia: The Dark Descent #1",
     "date": "2020-10-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/761311327.torrent",
     "games": ["vampire-masquerade", "amnesia"]
   },
   "763202430": {
@@ -6068,5 +6067,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/786440219.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/786440219.torrent",
     "games": ["first", "phasmophobia", "gtfo"]
+  },
+  "787564730": {
+    "abs_start": "0:00", "abs_end": "6:47:11", "duration": "0:00",
+    "name": "The Dark Pictures: Little Hope #1",
+    "date": "2020-10-31",
+    "direct": "https://bsufiles.thedrhax.pw/streams/787564730.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/787564730.torrent",
+    "games": ["little-hope"]
   }
 }
