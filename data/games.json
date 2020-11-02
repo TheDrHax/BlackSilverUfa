@@ -1291,6 +1291,15 @@
     "category": "finished",
     "id": "ff-xv",
     "streams": [
+      { "name": "Первый взгляд (вне стримов)", "twitch": "001611290" },
+      { "name": "1", "twitch": "001611291" },
+      { "name": "2", "twitch": "001611300" },
+      { "name": "3", "twitch": "001612020" },
+      { "name": "4", "twitch": "001612030" },
+      { "name": "5 (финал)", "twitch": "001612060" },
+      { "name": "6", "twitch": "001612120" },
+      { "name": "7", "twitch": "001612150" },
+      { "name": "Episode Gladiolus", "twitch": "001703290" },
       { "name": "Episode Prompto", "twitch": "154787759" },
       { "name": "Windows Edition (демо)", "twitch": "233355849", "segment": 0 }
     ]
