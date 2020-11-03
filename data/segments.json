@@ -209,6 +209,33 @@
     "date": "2015-12-01",
     "games": ["beyond-two-souls"]
   },
+  "001512070": {
+    "youtube": "4sjUnPa6Z8c", "abs_start": "0:00", "abs_end": "29:22", "duration": "29:22",
+    "name": "Outlast (с Дашей) - Первый взгляд (вне стримов)",
+    "date": "2015-12-07",
+    "games": ["outlast-dw"]
+  },
+  "001512080": {
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
+    "name": "Outlast (с Дашей) #1",
+    "date": "2015-12-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001512080.mp4",
+    "games": ["outlast-dw"]
+  },
+  "001512110": {
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
+    "name": "Outlast (с Дашей) #2",
+    "date": "2015-12-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001512110.mp4",
+    "games": ["outlast-dw"]
+  },
+  "001512180": {
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
+    "name": "Outlast (с Дашей) - Whistleblower",
+    "date": "2015-12-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001512180.mp4",
+    "games": ["outlast-dw"]
+  },
   "001512220": {
     "youtube": "SclxD3qRimw", "official": false, "abs_start": "0:00", "abs_end": "3:28:55", "duration": "3:28:55",
     "name": "Dishonored #5 (The Knife of the Dunwall)",
@@ -871,9 +898,9 @@
   },
   "174697007": {
     "youtube": "-5aRKoYTGLs", "abs_start": "0:00", "abs_end": "4:08:32", "duration": "4:08:32",
-    "name": "Outlast 2 #1 (с Дашей)",
+    "name": "Outlast 2 (с Дашей) #1",
     "date": "2017-09-14",
-    "games": ["outlast_2"]
+    "games": ["outlast-2-dw"]
   },
   "175198877": {
     "youtube": "4v5IEZ4zOJo", "abs_start": "0:00", "abs_end": "4:39:48", "duration": "4:39:48",
@@ -979,9 +1006,9 @@
   },
   "186799946": {
     "youtube": "0iemEmTQ9G8", "official": false, "abs_start": "0:00", "abs_end": "3:19:33", "duration": "3:19:33",
-    "name": "Outlast 2 #2 / Хэллоуин #2017",
+    "name": "Outlast 2 (с Дашей) #2 / Хэллоуин #2017",
     "date": "2017-11-01",
-    "games": ["outlast_2", "halloween"]
+    "games": ["outlast-2-dw", "halloween"]
   },
   "187291538": {
     "youtube": "Bxj09aAOFaI", "abs_start": "0:00", "abs_end": "6:01:15", "duration": "6:01:15",
@@ -4435,9 +4462,9 @@
   },
   "502487271": {
     "youtube": "zDDRb0wzB-s", "abs_start": "0:00", "abs_end": "5:00:29", "duration": "5:00:29",
-    "name": "Mafia II #1 / Outlast 2 #1 (заново)",
+    "name": "Mafia II #1 / Outlast 2",
     "date": "2019-11-01",
-    "games": ["mafia-2", "outlast_2"]
+    "games": ["mafia-2", "first"]
   },
   "502940448": {
     "youtube": "iScIVVQgd9E", "abs_start": "0:00", "abs_end": "5:13:53", "duration": "5:13:53",
