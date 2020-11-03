@@ -176,5 +176,7 @@ case $1 in
     repl) $PYTHON -i -m src.utils.repl ;;
     script) shift; $PYTHON -m src.scripts.$@ ;;
     python) shift; $PYTHON $@ ;;
+    pip) shift; $PYTHON -m pip $@ ;;
+    npm) shift; npm $@ ;;
     *) echo "Usage: $0 venv|pages|pull|build|serve|download-chats|sh|bash|repl|script|python" ;;
 esac
