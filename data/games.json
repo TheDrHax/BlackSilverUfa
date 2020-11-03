@@ -2637,6 +2637,17 @@
     ]
   },
   {
+    "name": "Dead Space (с Дашей)",
+    "category": "finished",
+    "id": "dead-space-dw",
+    "streams": [
+      { "name": "1", "twitch": "001602060" },
+      { "name": "2", "twitch": "001602110" },
+      { "name": "3", "twitch": "001602200" },
+      { "name": "4", "twitch": "001602270" }
+    ]
+  },
+  {
     "name": "Dead Space",
     "category": "finished",
     "id": "dead-space",
@@ -2644,6 +2655,15 @@
       { "name": "1", "twitch": "536349138" },
       { "name": "2", "twitch": "537340056" },
       { "name": "3", "twitch": "542613780" }
+    ]
+  },
+  {
+    "name": "Dead Space 2 (с Дашей)",
+    "category": "ongoing",
+    "id": "dead-space-2-dw",
+    "streams": [
+      { "name": "1", "twitch": "001603260" },
+      { "name": "2", "twitch": "001604300" }
     ]
   },
   {
