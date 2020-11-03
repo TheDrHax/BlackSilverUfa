@@ -289,6 +289,60 @@ function spawnPlyr(wrapper, callback) {
   return false;
 };
 
+function parseHash(hash) {
+  if (!hash) {
+    return null;
+  }
+
+  let segment, params;
+  [segment, params] = hash.split('?');
+  params = Redirect.parse_params(params);
+
+  // Strip .0 from segments
+  if (segment.endsWith('.0')) {
+    segment = segment.substr(0, segment.length - 2);
+  }
+
+  return {
+    segment: segment,
+    params: params
+  };
+}
+
+function handleHash() {
+  let hash = parseHash(window.location.hash.substr(1));
+  if (!hash) return;
+
+  let wrapper = document.querySelector(`.stream[data-hash="${hash.segment}"]`);
+  if (!wrapper) {
+    Redirect.go(hash.segment);
+  }
+
+  let header = document.querySelector(`.stream-header[data-id="${wrapper.dataset.id}"]`);
+
+  let callback = function (wrapper) {
+    animateScrollTo(header, {
+      maxDuration: 1000,
+      verticalOffset: -56 // Floating navbar
+    });
+
+    if (hash.params.at) {
+      let offset = +wrapper.dataset.offset || 0;
+      wrapper.seek(+hash.params.at - offset);
+    } else if (hash.params.t) {
+      wrapper.seek(+hash.params.t);
+    }
+  };
+
+  animateScrollTo(header, {
+    maxDuration: 1000,
+    verticalOffset: -56 // Floating navbar
+  });
+
+  document.title = wrapper.dataset.name + " | " + document.title;
+  spawnPlayer(wrapper, callback);
+}
+
 window.addEventListener('DOMContentLoaded', function() {
   let streams = document.getElementsByClassName("stream");
   let spawned = false;
@@ -298,28 +352,6 @@ window.addEventListener('DOMContentLoaded', function() {
   } else {
     console.log(`Initializing ${streams.length} streams`);
   }
-
-  function parse_hash(hash) {
-    if (!hash) {
-      return null;
-    }
-
-    let segment, params;
-    [segment, params] = hash.split('?');
-    params = Redirect.parse_params(params);
-
-    // Strip .0 from segments
-    if (segment.endsWith('.0')) {
-      segment = segment.substr(0, segment.length - 2);
-    }
-
-    return {
-      segment: segment,
-      params: params
-    };
-  }
-
-  let hash = parse_hash(window.location.hash.substr(1));
 
   for (let wrapper of streams) {
     if (!wrapper.dataset.youtube && !wrapper.dataset.direct) {
@@ -346,38 +378,8 @@ window.addEventListener('DOMContentLoaded', function() {
     };
 
     setupTimecodes(wrapper);
-
-    if (hash) {
-      if (hash.segment == wrapper.dataset.hash) {
-        let header = document.querySelector(`.stream-header[data-id="${wrapper.dataset.id}"]`);
-
-        let callback = function(wrapper) {
-          animateScrollTo(header, {
-            maxDuration: 1000,
-            verticalOffset: -56 // Floating navbar
-          });
-
-          if (hash.params.at) {
-            let offset = +wrapper.dataset.offset || 0;
-            wrapper.seek(+hash.params.at - offset);
-          } else if (hash.params.t) {
-            wrapper.seek(+hash.params.t);
-          }
-        };
-
-        animateScrollTo(header, {
-          maxDuration: 1000,
-          verticalOffset: -56 // Floating navbar
-        });
-
-        spawned = true;
-        document.title = wrapper.dataset.name + " | " + document.title;
-        spawnPlayer(wrapper, callback);
-      }
-    }
   }
 
-  if (hash && !spawned) {
-    Redirect.go(hash.segment);
-  }
+  document.body.onhashchange = handleHash;
+  handleHash();
 }, false);
