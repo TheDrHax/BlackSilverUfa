@@ -275,6 +275,30 @@
     "date": "2016-01-30",
     "games": ["alien-isolation-dw"]
   },
+  "001602060": {
+    "youtube": "0TlImd47Ckc", "abs_start": "0:00", "abs_end": "4:39:21", "duration": "4:39:21",
+    "name": "Dead Space (с Дашей) #1",
+    "date": "2016-02-06",
+    "games": ["dead-space-dw"]
+  },
+  "001602110": {
+    "youtube": "N74kuJh4dOc", "abs_start": "0:00", "abs_end": "3:58:36", "duration": "3:58:36",
+    "name": "Dead Space (с Дашей) #2",
+    "date": "2016-02-11",
+    "games": ["dead-space-dw"]
+  },
+  "001602200": {
+    "youtube": "RNnDV07Fy-g", "abs_start": "0:00", "abs_end": "4:57:33", "duration": "4:57:33",
+    "name": "Dead Space (с Дашей) #3",
+    "date": "2016-02-20",
+    "games": ["dead-space-dw"]
+  },
+  "001602270": {
+    "youtube": "aVI4FysAkoY", "abs_start": "0:00", "abs_end": "5:23:40", "duration": "5:23:40",
+    "name": "Dead Space (с Дашей) #4",
+    "date": "2016-02-27",
+    "games": ["dead-space-dw"]
+  },
   "001602290": {
     "youtube": "_FGu_Qmxg3s", "abs_start": "0:00", "abs_end": "2:13:07", "duration": "2:13:07",
     "name": "Heavy Rain #1 (часть 1)",
@@ -311,11 +335,11 @@
     "date": "2016-03-19",
     "games": ["heavy-rain"]
   },
-  "001604260": {
-    "youtube": "W0TRk9ZlyKo", "abs_start": "0:00", "abs_end": "3:50:47", "duration": "3:50:47",
-    "name": "Hitman #2 - Sapienza",
-    "date": "2016-04-26",
-    "games": ["hitman"]
+  "001603260": {
+    "youtube": "gLqTQuEo2KY", "abs_start": "0:00", "abs_end": "4:21:15", "duration": "4:21:15",
+    "name": "Dead Space 2 (с Дашей) #1",
+    "date": "2016-03-26",
+    "games": ["dead-space-2-dw"]
   },
   "001604050": {
     "youtube": "850MY5iRbog", "abs_start": "0:00", "abs_end": "4:11:40", "duration": "4:11:40",
@@ -346,6 +370,18 @@
     "name": "Quantum Break #5",
     "date": "2016-04-06",
     "games": ["quantum-break"]
+  },
+  "001604260": {
+    "youtube": "W0TRk9ZlyKo", "abs_start": "0:00", "abs_end": "3:50:47", "duration": "3:50:47",
+    "name": "Hitman #2 - Sapienza",
+    "date": "2016-04-26",
+    "games": ["hitman"]
+  },
+  "001604300": {
+    "youtube": "zlRA_r1uphw", "official": false, "abs_start": "0:00", "abs_end": "4:54:53", "duration": "4:54:53",
+    "name": "Dead Space 2 (с Дашей) #2",
+    "date": "2016-04-30",
+    "games": ["dead-space-2-dw"]
   },
   "001605310": {
     "youtube": "wtig_YaME6A", "official": false, "abs_start": "0:00", "abs_end": "4:24:09", "duration": "4:24:09",

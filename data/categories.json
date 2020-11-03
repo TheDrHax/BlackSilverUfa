@@ -25,6 +25,7 @@
       {"name": "Beyond: Two Souls (злое прохождение)", "year": 2015, "id": "beyond-two-souls"},
       {"name": "Outlast (с Дашей)", "year": 2015, "id": "outlast-dw"},
       {"name": "Alien: Isolation (с Дашей)", "year": 2016, "id": "alien-isolation-dw"},
+      {"name": "Dead Space (с Дашей)", "year": 2016, "id": "dead-space-dw"},
       {"name": "Heavy Rain", "year": 2016, "id": "heavy-rain"},
       {"name": "Hitman", "year": 2016, "id": "hitman"},
       {"name": "Quantum Break", "year": 2016, "id": "quantum-break"},
@@ -402,6 +403,7 @@
   "abandoned": {
     "name": "Заброшенные",
     "games": [
+      {"name": "Dead Space 2 (с Дашей)", "year": 2016, "id": "dead-space-2-dw"},
       {"name": "The Elder Scrolls III: Morrowind", "year": 2016, "id": "tes-morrowind"},
       {"name": "Fallout 2", "year": 2016, "id": "fallout-2"},
       {"name": "Amnesia: The Dark Descent (с Дашей)", "year": 2016, "id": "amnesia-dw"},
