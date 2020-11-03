@@ -1277,13 +1277,23 @@
     ]
   },
   {
-    "name": "Outlast 2",
-    "category": "ongoing",
-    "id": "outlast_2",
+    "name": "Outlast (с Дашей)",
+    "category": "finished",
+    "id": "outlast-dw",
     "streams": [
-      { "name": "1 (с Дашей)", "twitch": "174697007" },
-      { "name": "2", "twitch": "186799946" },
-      { "name": "1 (заново)", "twitch": "502487271", "start": "3:34:11" }
+      { "name": "Первый взгляд (вне стримов)", "twitch": "001512070" },
+      { "name": "1", "twitch": "001512080" },
+      { "name": "2", "twitch": "001512110" },
+      { "name": "Whistleblower", "twitch": "001512180" }
+    ]
+  },
+  {
+    "name": "Outlast 2 (с Дашей)",
+    "category": "ongoing",
+    "id": "outlast-2-dw",
+    "streams": [
+      { "name": "1", "twitch": "174697007" },
+      { "name": "2", "twitch": "186799946" }
     ]
   },
   {
@@ -1969,6 +1979,7 @@
         { "name": "Cooking Simulator" },
         { "name": "House Flipper", "start": "2:37:41" }
       ] },
+      { "name": "Outlast 2", "twitch": "502487271", "start": "3:34:11" },
       { "twitch": "504248004", "subrefs": [
         { "name": "Need for Speed Heat" },
         { "name": "Red Dead Redemption 2 (PC)", "start": "2:06:04" }
