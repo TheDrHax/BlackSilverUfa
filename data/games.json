@@ -2647,6 +2647,18 @@
     ]
   },
   {
+    "name": "Alien: Isolation (с Дашей)",
+    "category": "finished",
+    "id": "alien-isolation-dw",
+    "streams": [
+      { "name": "1", "twitch": "001601070" },
+      { "name": "2", "twitch": "001601120" },
+      { "name": "3", "twitch": "001601190" },
+      { "name": "4", "twitch": "001601260" },
+      { "name": "5", "twitch": "001601300" }
+    ]
+  },
+  {
     "name": "Alien: Isolation (Extreme + новый ИИ)",
     "category": "finished",
     "id": "alien-isolation-ai",
