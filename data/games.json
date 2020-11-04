@@ -148,6 +148,14 @@
     ]
   },
   {
+    "name": "Metal Gear Solid V: Phantom Pain (злое прохождение)",
+    "category": "ongoing",
+    "id": "mgs-v-2020",
+    "streams": [
+      { "name": "1", "twitch": "791632745", "start": "2:23:17" }
+    ]
+  },
+  {
     "name": "Heavy Rain",
     "category": "finished",
     "id": "heavy-rain",
@@ -1486,7 +1494,8 @@
       { "name": "Amnesia: Rebirth", "twitch": "775167526,776153173" },
       { "name": "Harry Potter and the Sorcerer's Stone", "twitch": "779201810" },
       { "name": "Кужлёвка (демо)", "twitch": "785416056" },
-      { "name": "Paranormal Entities", "twitch": "785524800" }
+      { "name": "Paranormal Entities", "twitch": "785524800" },
+      { "name": "Metal Gear Solid V: Ground Zeroes", "twitch": "791632745" }
     ]
   },
   {
