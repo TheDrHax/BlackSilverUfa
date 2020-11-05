@@ -63,6 +63,7 @@ function spawnPlyr(wrapper, callback) {
 
   wrapper.innerHTML = '<video />';
   player = new Plyr(wrapper.children[0], options);
+  wrapper.player = player;
 
   // Force enable click and hover events on PCs with touchscreen
   player.touch = false;
@@ -309,6 +310,8 @@ function parseHash(hash) {
   };
 }
 
+const originalTitle = document.title;
+
 function handleHash() {
   let hash = parseHash(window.location.hash.substr(1));
   if (!hash) return;
@@ -339,13 +342,14 @@ function handleHash() {
     verticalOffset: -56 // Floating navbar
   });
 
-  document.title = wrapper.dataset.name + " | " + document.title;
-  spawnPlayer(wrapper, callback);
+  document.title = wrapper.dataset.name + " | " + originalTitle;
+  if (!wrapper.player) {
+    spawnPlayer(wrapper, callback);
+  }
 }
 
 window.addEventListener('DOMContentLoaded', function() {
   let streams = document.getElementsByClassName("stream");
-  let spawned = false;
 
   if (streams.length == 0) {
     return;
@@ -355,7 +359,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
   for (let wrapper of streams) {
     if (!wrapper.dataset.youtube && !wrapper.dataset.direct) {
-      spawned = true;
       continue;
     }
 
