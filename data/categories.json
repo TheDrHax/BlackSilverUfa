@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Harry Potter and the Sorcerer's Stone", "year": 2020, "id": "779201810"},
       {"name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal #4 (The Ancient Gods: Part One)", "year": 2020, "id": "780320448"},
       {"name": "Doom Eternal #5 (The Ancient Gods: Part One) / Phasmophobia #2 / Sign of Silence #2", "year": 2020, "id": "781406533"},
       {"name": "Phasmophobia #3 (с Джеком) / Watch Dogs: Legion #1", "year": 2020, "id": "782383170"},
@@ -12,7 +11,8 @@
       {"name": "Paranormal Entities / Under: Depths of Fear / Watch Dogs: Legion #2", "year": 2020, "id": "785524800"},
       {"name": "Teardown / Phasmophobia #5 (с Артёмом, Джеком и Gamelife) / GTFO #3 (с Артёмом, Джеком и Gamelife)", "year": 2020, "id": "786440219"},
       {"name": "Хэллоуин #2020 / The Dark Pictures: Little Hope #1", "year": 2020, "id": "787564730"},
-      {"name": "Metal Gear Solid V: Ground Zeroes / Metal Gear Solid V: Phantom Pain (злое прохождение) #1", "year": 2020, "id": "791632745"}
+      {"name": "Metal Gear Solid V: Ground Zeroes / Metal Gear Solid V: Phantom Pain (злое прохождение) #1", "year": 2020, "id": "791632745"},
+      {"name": "Asus ROG Chariot Core / Xbox Series X / Metal Gear Solid V: Phantom Pain (злое прохождение) #2", "year": 2020, "id": "792632708"}
     ]
   },
   "finished": {
@@ -653,7 +653,8 @@
       {"name": "Asus Rog Gladius II Wireless / Asus TUF Gaming H7", "year": 2019, "id": "487949971"},
       {"name": "Посылки (31.12.19)", "year": 2019, "id": "528855659"},
       {"name": "Asus ROG Zephyrus G15", "year": 2020, "id": "650534841"},
-      {"name": "Asus ROG Strix Scope", "year": 2020, "id": "675494632"}
+      {"name": "Asus ROG Strix Scope", "year": 2020, "id": "675494632"},
+      {"name": "Asus ROG Chariot Core / Xbox Series X", "year": 2020, "id": "792632708"}
     ]
   }
 }
