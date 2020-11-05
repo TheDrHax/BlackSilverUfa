@@ -152,7 +152,8 @@
     "category": "ongoing",
     "id": "mgs-v-2020",
     "streams": [
-      { "name": "1", "twitch": "791632745", "start": "2:23:17" }
+      { "name": "1", "twitch": "791632745", "start": "2:23:17" },
+      { "name": "2", "twitch": "792632708", "start": "3:02:24" }
     ]
   },
   {
@@ -1705,7 +1706,11 @@
       ] },
       { "name": "Посылки (31.12.19)", "twitch": "528855659" },
       { "name": "Asus ROG Zephyrus G15", "twitch": "650534841" },
-      { "name": "Asus ROG Strix Scope", "twitch": "675494632" }
+      { "name": "Asus ROG Strix Scope", "twitch": "675494632" },
+      { "twitch": "792632708", "subrefs": [
+        { "name": "Asus ROG Chariot Core" },
+        { "name": "Xbox Series X", "start": "1:50:44" }
+      ] }
     ]
   },
   {
