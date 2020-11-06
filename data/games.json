@@ -1654,7 +1654,8 @@
         "name": "Трейлеры и нарезки", "twitch": "687309207",
         "note": "Первый стрим, где было так много трейлеров, что на игры не хватило времени."
       },
-      { "name": "Клаустрофобия - The Dark Pictures: Little Hope", "twitch": "784351602", "start": "3:49:20" }
+      { "name": "Клаустрофобия - The Dark Pictures: Little Hope", "twitch": "784351602", "start": "3:49:20" },
+      { "name": "Тест Xbox Series X", "twitch": "793751031" }
     ]
   },
   {
@@ -1900,7 +1901,6 @@
       ],
         "note": "Начало игры доступно на <a href=\"https://youtu.be/OYtOrTD5wv4\">YouTube</a>."
       },
-      { "name": "Forza Horizon 4", "twitch": "315365879" },
       { "name": "Assassin's Creed Odyssey", "twitch": "317042062" },
       { "name": "Max Payne: Блэк Эдишн", "twitch": "323817086" },
       { "name": "Thronebreaker: The Witcher Tales", "twitch": "326381815" },
@@ -2115,7 +2115,21 @@
       { "name": "9 Monkeys of Shaolin", "twitch": "778186468" },
       { "name": "Transient", "twitch": "785416056", "start": "2:06:03" },
       { "name": "Under: Depths of Fear", "twitch": "785524800", "start": "32:38" },
-      { "name": "Teardown", "twitch": "786440219" }
+      { "name": "Teardown", "twitch": "786440219" },
+      { "twitch": "793751031", "subrefs": [
+        { "name": "Gears 5" },
+        { "name": "Black", "start": "1:46:55" },
+        { "name": "Assassin's Creed: Valhalla", "start": "4:02:13" }
+      ] }
+    ]
+  },
+  {
+    "name": "Forza Horizon 4",
+    "category": "infinite",
+    "id": "forza-horizon-4",
+    "streams": [
+      { "name": "1", "twitch": "315365879" },
+      { "name": "2", "twitch": "793751031", "start": "2:32:32" }
     ]
   },
   {
