@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal #4 (The Ancient Gods: Part One)", "year": 2020, "id": "780320448"},
       {"name": "Doom Eternal #5 (The Ancient Gods: Part One) / Phasmophobia #2 / Sign of Silence #2", "year": 2020, "id": "781406533"},
       {"name": "Phasmophobia #3 (с Джеком) / Watch Dogs: Legion #1", "year": 2020, "id": "782383170"},
       {"name": "Phasmophobia #4 (с Джеком и Дашей) / Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"},
@@ -12,7 +11,8 @@
       {"name": "Teardown / Phasmophobia #5 (с Артёмом, Джеком и Gamelife) / GTFO #3 (с Артёмом, Джеком и Gamelife)", "year": 2020, "id": "786440219"},
       {"name": "Хэллоуин #2020 / The Dark Pictures: Little Hope #1", "year": 2020, "id": "787564730"},
       {"name": "Metal Gear Solid V: Ground Zeroes / Metal Gear Solid V: Phantom Pain (злое прохождение) #1", "year": 2020, "id": "791632745"},
-      {"name": "Asus ROG Chariot Core / Xbox Series X / Metal Gear Solid V: Phantom Pain (злое прохождение) #2", "year": 2020, "id": "792632708"}
+      {"name": "Asus ROG Chariot Core / Xbox Series X / Metal Gear Solid V: Phantom Pain (злое прохождение) #2", "year": 2020, "id": "792632708"},
+      {"name": "Тест Xbox Series X / Gears 5 / Black / Forza Horizon 4 #2 / Assassin's Creed: Valhalla", "year": 2020, "id": "793751031"}
     ]
   },
   "finished": {
@@ -251,7 +251,6 @@
       {"name": "Need a packet? / Bus Driver Simulator 2019", "year": 2018, "id": "311651965"},
       {"name": "S.T.A.L.K.E.R.: Left 2 Die", "year": 2018, "id": "312042770"},
       {"name": "The Bard's Tale IV: Barrows Deep / SCUM", "year": 2018, "id": "313288682"},
-      {"name": "Forza Horizon 4", "year": 2018, "id": "315365879"},
       {"name": "Assassin's Creed Odyssey", "year": 2018, "id": "317042062"},
       {"name": "Max Payne: Блэк Эдишн", "year": 2018, "id": "323817086"},
       {"name": "Thronebreaker: The Witcher Tales", "year": 2018, "id": "326381815"},
@@ -358,7 +357,8 @@
       {"name": "9 Monkeys of Shaolin", "year": 2020, "id": "778186468"},
       {"name": "Transient", "year": 2020, "id": "785416056"},
       {"name": "Under: Depths of Fear", "year": 2020, "id": "785524800"},
-      {"name": "Teardown", "year": 2020, "id": "786440219"}
+      {"name": "Teardown", "year": 2020, "id": "786440219"},
+      {"name": "Gears 5 / Black / Assassin's Creed: Valhalla", "year": 2020, "id": "793751031"}
     ]
   },
   "ongoing": {
@@ -387,6 +387,7 @@
       {"name": "Jurassic World Evolution", "year": 2018, "id": "jurassic-world-evolution"},
       {"name": "No Man's Sky", "year": 2018, "id": "no-mans-sky"},
       {"name": "Dead Cells", "year": 2018, "id": "dead-cells"},
+      {"name": "Forza Horizon 4", "year": 2018, "id": "forza-horizon-4"},
       {"name": "Subnautica: Below Zero (ранний доступ)", "year": 2019, "id": "subnautica-bz"},
       {"name": "Totally Accurate Battle Simulator", "year": 2019, "id": "tabs"},
       {"name": "Jump King", "year": 2019, "id": "jump-king"},
@@ -619,7 +620,8 @@
       {"name": "Трейлеры и нарезки", "year": 2020, "id": "687309207"},
       {"name": "Игровые места зрителей", "year": 2020, "id": "setups"},
       {"name": "Розыгрыш Asus ROG GA502IV", "year": 2020, "id": "768182935"},
-      {"name": "Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"}
+      {"name": "Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"},
+      {"name": "Тест Xbox Series X", "year": 2020, "id": "793751031"}
     ]
   },
   "expos": {

@@ -2569,9 +2569,9 @@
   },
   "315365879": {
     "youtube": "xv_KBi44Tpk", "abs_start": "0:00", "abs_end": "4:24:35", "duration": "4:24:35",
-    "name": "Forza Horizon 4 / Destiny 2 - Со StopGame",
+    "name": "Forza Horizon 4 #1 / Destiny 2 - Со StopGame",
     "date": "2018-09-27",
-    "games": ["first", "destiny-2"]
+    "games": ["forza-horizon-4", "destiny-2"]
   },
   "316219912": {
     "youtube": "o4m8E_HTIMA", "abs_start": "0:00", "abs_end": "4:49:31", "duration": "4:49:31",
@@ -6087,7 +6087,6 @@
     "youtube": "f00l6tmLWSY", "official": false, "abs_start": "0:00", "abs_end": "6:21:03", "duration": "6:21:03",
     "name": "Xuan-Yuan Sword VII (демо) / Webbed (демо) / Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (со зрителями)",
     "date": "2020-10-11",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/767249770.torrent",
     "games": ["single", "first", "party-animals"]
   },
   "768182935": {
@@ -6229,5 +6228,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/792632708.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/792632708.torrent",
     "games": ["unboxing", "mgs-v-2020"]
+  },
+  "793751031": {
+    "abs_start": "0:00", "abs_end": "5:58:46", "duration": "0:00",
+    "name": "Тест Xbox Series X / Gears 5 / Black / Forza Horizon 4 #2 / Assassin's Creed: Valhalla",
+    "date": "2020-11-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/793751031.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/793751031.torrent",
+    "games": ["other", "first", "forza-horizon-4"]
   }
 }
