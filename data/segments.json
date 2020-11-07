@@ -6093,7 +6093,6 @@
     "youtube": "6N3HJE1MHR0", "official": false, "abs_start": "0:00", "abs_end": "7:23:09", "duration": "7:23:09",
     "name": "Розыгрыш Asus ROG GA502IV / Amnesia: The Dark Descent #3 / Party Animals #2 / Call of Duty: Warzone #10",
     "date": "2020-10-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/768182935.torrent",
     "games": ["events", "amnesia", "party-animals", "cod-warzone"]
   },
   "770075059": {
@@ -6230,9 +6229,17 @@
   },
   "793751031": {
     "youtube": "JfRite_R5po", "abs_start": "0:00", "abs_end": "5:58:25", "duration": "5:58:25",
-    "name": "Тест Xbox Series X / Gears 5 / Black / Forza Horizon 4 #2 / Assassin's Creed: Valhalla",
+    "name": "Тест Xbox Series X / Gears 5 / Black / Forza Horizon 4 #2 / Assassin's Creed: Valhalla #1 (Xbox Series X)",
     "date": "2020-11-06",
     "torrent": "https://bsufiles.thedrhax.pw/streams/793751031.torrent",
-    "games": ["other", "first", "forza-horizon-4"]
+    "games": ["other", "first", "forza-horizon-4", "ac-valhalla"]
+  },
+  "794840118": {
+    "abs_start": "0:00", "abs_end": "8:52:51", "duration": "0:00",
+    "name": "Terminator: Resistance - Infiltrator Mode / Assassin's Creed: Valhalla #2 (заново на ПК)",
+    "date": "2020-11-07",
+    "direct": "https://bsufiles.thedrhax.pw/streams/794840118.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/794840118.torrent",
+    "games": ["terminator-resistance", "ac-valhalla"]
   }
 }
