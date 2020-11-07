@@ -2118,9 +2118,17 @@
       { "name": "Teardown", "twitch": "786440219" },
       { "twitch": "793751031", "subrefs": [
         { "name": "Gears 5" },
-        { "name": "Black", "start": "1:46:55" },
-        { "name": "Assassin's Creed: Valhalla", "start": "4:02:13" }
+        { "name": "Black", "start": "1:46:55" }
       ] }
+    ]
+  },
+  {
+    "name": "Assassin's Creed: Valhalla",
+    "category": "ongoing",
+    "id": "ac-valhalla",
+    "streams": [
+      { "name": "1 (Xbox Series X)", "twitch": "793751031", "start": "4:02:13" },
+      { "name": "2 (заново на ПК)", "twitch": "794840118", "start": "1:35:32" }
     ]
   },
   {
@@ -2824,7 +2832,8 @@
     "id": "terminator-resistance",
     "streams": [
       { "name": "1", "twitch": "510472726" },
-      { "name": "2", "twitch": "511744934" }
+      { "name": "2", "twitch": "511744934" },
+      { "name": "Infiltrator Mode", "twitch": "794840118" }
     ]
   },
   {
