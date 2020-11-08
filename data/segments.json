@@ -6099,7 +6099,6 @@
     "youtube": "jIXr5-FycNs", "official": false, "abs_start": "0:00", "abs_end": "6:19:46", "duration": "6:19:46",
     "name": "Sign of Silence #1 / Second Extinction",
     "date": "2020-10-14",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/770075059.torrent",
     "games": ["sign-of-silence", "co-op"]
   },
   "771021424": {
@@ -6229,16 +6228,24 @@
   },
   "793751031": {
     "youtube": "JfRite_R5po", "abs_start": "0:00", "abs_end": "5:58:25", "duration": "5:58:25",
-    "name": "Тест Xbox Series X / Gears 5 / Black / Forza Horizon 4 #2 / Assassin's Creed: Valhalla #1 (Xbox Series X)",
+    "name": "Тест Xbox Series X / Gears 5 / Black / Forza Horizon 4 #2 / Assassin's Creed: Valhalla - Первый взгляд на Xbox Series X",
     "date": "2020-11-06",
     "torrent": "https://bsufiles.thedrhax.pw/streams/793751031.torrent",
     "games": ["other", "first", "forza-horizon-4", "ac-valhalla"]
   },
   "794840118": {
     "youtube": "_J7K5FmpiYE", "abs_start": "0:00", "abs_end": "8:52:28", "duration": "8:52:28",
-    "name": "Terminator: Resistance - Infiltrator Mode / Assassin's Creed: Valhalla #2 (заново на ПК)",
+    "name": "Terminator: Resistance - Infiltrator Mode / Assassin's Creed: Valhalla #1",
     "date": "2020-11-07",
     "torrent": "https://bsufiles.thedrhax.pw/streams/794840118.torrent",
     "games": ["terminator-resistance", "ac-valhalla"]
+  },
+  "795935885": {
+    "abs_start": "0:00", "abs_end": "8:40:30", "duration": "0:00",
+    "name": "Assassin's Creed: Valhalla #2 / Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House / Tricky Towers #26",
+    "date": "2020-11-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/795935885.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/795935885.torrent",
+    "games": ["ac-valhalla", "co-op", "tricky-towers"]
   }
 }
