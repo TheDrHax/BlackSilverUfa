@@ -461,6 +461,20 @@
     "date": "2016-10-02",
     "games": ["fallout-2"]
   },
+  "001610070": {
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
+    "name": "Mafia III #1",
+    "date": "2016-10-07",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001610070.mp4",
+    "games": ["mafia-3"]
+  },
+  "001610100": {
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
+    "name": "Mafia III #2",
+    "date": "2016-10-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001610100.mp4",
+    "games": ["mafia-3"]
+  },
   "001610190": {
     "youtube": "0NLXzJa2Kd4", "official": false, "abs_start": "0:00", "abs_end": "2:30:02", "duration": "2:30:02",
     "name": "Manual Samuel",
