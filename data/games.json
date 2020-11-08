@@ -1283,6 +1283,7 @@
     "category": "ongoing",
     "id": "nier-automata",
     "streams": [
+      { "name": "Бета", "twitch": "001612240" },
       { "name": "1", "twitch": "215612485" },
       { "name": "2", "twitch": "215625839" },
       { "name": "3", "twitch": "215959213" },
@@ -1291,7 +1292,8 @@
       { "name": "6", "twitch": "217247484" },
       { "name": "7", "twitch": "218542652" },
       { "name": "8", "twitch": "219463387", "start": "1:15:39" }
-    ]
+    ],
+    "cover": 1
   },
   {
     "name": "Outlast (с Дашей)",
@@ -1326,6 +1328,7 @@
       { "name": "5 (финал)", "twitch": "001612060" },
       { "name": "6", "twitch": "001612120" },
       { "name": "7", "twitch": "001612150" },
+      { "name": "8", "twitch": "001612240", "start": "3:17:35" },
       { "name": "Episode Gladiolus", "twitch": "001703290" },
       { "name": "Episode Prompto", "twitch": "154787759" },
       { "name": "Windows Edition (демо)", "twitch": "233355849", "segment": 0 }
@@ -1779,6 +1782,7 @@
       { "name": "Titanfall 2", "twitch": "001610280" },
       { "name": "Assassin's Creed II - The Ezio Collection", "twitch": "001611160" },
       { "name": "Dungeon Nightmares II: The Memory (с Дашей)", "twitch": "001612170" },
+      { "name": "Let It Die", "twitch": "001612240", "start": "1:03:41" },
       { "twitch": "001701070", "subrefs": [
         { "name": "My Summer Car" },
         { "name": "The Amazing Frog?", "start": "1:12:28" }
