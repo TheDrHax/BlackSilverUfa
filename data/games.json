@@ -344,7 +344,14 @@
         { "name": "Escape From Skull Dungeon", "start": "3:27:38" }
       ] },
       { "name": "Serious Sam 4", "twitch": "749640613", "start": "2:25:48" },
-      { "name": "Second Extinction", "twitch": "770075059", "start": "4:05:51" }
+      { "name": "Second Extinction", "twitch": "770075059", "start": "4:05:51" },
+      { "twitch": "795935885", "subrefs": [
+        { "name": "Cake Bash", "start": "4:36:33" },
+        { "name": "Bake 'n Switch", "start": "5:26:33" },
+        { "name": "Never Breakup", "start": "6:01:37" },
+        { "name": "Labyrinthine", "start": "6:07:31" },
+        { "name": "Escape From Kyoto House", "start": "6:24:11" }
+      ] }
     ]
   },
   {
@@ -933,7 +940,8 @@
       { "name": "22", "twitch": "577415879", "start": "5:09:44" },
       { "name": "23", "twitch": "601167190", "start": "5:45:40" },
       { "name": "24", "twitch": "633403643", "start": "4:55:16" },
-      { "name": "25", "twitch": "690295728", "start": "4:41:25" }
+      { "name": "25", "twitch": "690295728", "start": "4:41:25" },
+      { "name": "26", "twitch": "795935885", "start": "7:11:39" }
     ]
   },
   {
@@ -2127,8 +2135,9 @@
     "category": "ongoing",
     "id": "ac-valhalla",
     "streams": [
-      { "name": "1 (Xbox Series X)", "twitch": "793751031", "start": "4:02:13" },
-      { "name": "2 (заново на ПК)", "twitch": "794840118", "start": "1:35:32" }
+      { "name": "Первый взгляд на Xbox Series X", "twitch": "793751031", "start": "4:02:13" },
+      { "name": "1", "twitch": "794840118", "start": "1:35:32" },
+      { "name": "2", "twitch": "795935885" }
     ]
   },
   {
