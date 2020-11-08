@@ -2225,6 +2225,15 @@
     ]
   },
   {
+    "name": "Mafia III",
+    "category": "ongoing",
+    "id": "mafia-3",
+    "streams": [
+      { "name": "1", "twitch": "001610070" },
+      { "name": "2", "twitch": "001610100" }
+    ]
+  },
+  {
     "name": "Fast & Furious: Crossroads",
     "category": "finished",
     "id": "fnf-crossroads",
