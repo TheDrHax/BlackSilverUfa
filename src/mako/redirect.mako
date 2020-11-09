@@ -16,6 +16,8 @@
 
 <%block name="scripts">
 <script>
-  Redirect.detect();
+  Redirect.init().then((segments) => {
+    Redirect.detect();
+  });
 </script>
 </%block>

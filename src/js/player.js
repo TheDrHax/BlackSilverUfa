@@ -318,7 +318,10 @@ function handleHash() {
 
   let wrapper = document.querySelector(`.stream[data-hash="${hash.segment}"]`);
   if (!wrapper) {
-    Redirect.go(hash.segment);
+    Redirect.init().then((segments) => {
+      Redirect.go(hash.segment);
+    });
+    return;
   }
 
   let header = document.querySelector(`.stream-header[data-id="${wrapper.dataset.id}"]`);

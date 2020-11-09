@@ -3,6 +3,7 @@ import { Redirect } from './redirect';
 
 class Search {
   static games = null;
+  static _games = null; // promise
 
   static strip(string) {
     return string.trim().split(' ').map((word) => {
@@ -12,8 +13,8 @@ class Search {
   }
 
   static async load() {
-    if (!Search.games) {
-      Search.games = fetch('/data/categories.json').then((res) => {
+    if (!Search._games) {
+      Search._games = fetch('/data/categories.json').then((res) => {
         return res.json();
       }).then((categories) => {
         // Create flat array of games and add category name to each of them
@@ -45,33 +46,33 @@ class Search {
       });
     }
 
-    return await Search.games;
+    Search.games = await Search._games;
+    return Search.games;
   }
 
   static async init(selector) {
-    let games = await Search.load();
-    let segments = await Redirect.init();
-    let segment_ids = Object.keys(segments);
+    await Promise.all([Search.load(), Redirect.init()]);
 
     return autocomplete({
       minLength: 2,
       input: document.querySelector(selector),
       fetch: (text, update) => {
-        if (segment_ids.indexOf(text) !== -1) {
-          update(segment_ids.filter((key) => key.startsWith(text)).map((key) => {
-            let segment = segments[key];
-            return {
-              name: segment.name,
-              group: 'Переход по ID',
-              id: key
-            };
-          }));
+        let parsed_hash = Redirect.check_hash(text);
+        
+        if (parsed_hash) {
+          let segment = Redirect.segments[parsed_hash.segment];
+
+          update([{
+            name: segment.name,
+            group: 'Переход по ID',
+            id: parsed_hash.segment
+          }]);
           return;
         }
 
         text = Search.strip(text);
         
-        let suggestions = games.filter((x) => {
+        let suggestions = Search.games.filter((x) => {
           if (text.indexOf(' ') != -1) {
             return Search.strip(x.name).indexOf(text) != -1;
           } else {
