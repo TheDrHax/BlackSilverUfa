@@ -2605,7 +2605,7 @@
   },
   "317042062": {
     "youtube": "9S2C0WSq_x8", "abs_start": "0:00", "abs_end": "7:36:01", "duration": "7:36:01",
-    "name": "Assassin's Creed Odyssey",
+    "name": "Assassin's Creed: Odyssey",
     "date": "2018-10-01",
     "games": ["first"]
   },
@@ -6245,7 +6245,7 @@
   },
   "793751031": {
     "youtube": "JfRite_R5po", "abs_start": "0:00", "abs_end": "5:58:25", "duration": "5:58:25",
-    "name": "Тест Xbox Series X / Gears 5 / Black / Forza Horizon 4 #2 / Assassin's Creed: Valhalla - Первый взгляд на Xbox Series X",
+    "name": "Тест Xbox Series X / Gears 5 / Black / Forza Horizon 4 #2 / Assassin's Creed: Valhalla - Первый взгляд",
     "date": "2020-11-06",
     "torrent": "https://bsufiles.thedrhax.pw/streams/793751031.torrent",
     "games": ["other", "first", "forza-horizon-4", "ac-valhalla"]
@@ -6264,5 +6264,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/795935885.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/795935885.torrent",
     "games": ["ac-valhalla", "co-op", "tricky-towers"]
+  },
+  "796958566": {
+    "abs_start": "0:00", "abs_end": "10:00:26", "duration": "0:00",
+    "name": "Assassin's Creed: Valhalla #3",
+    "date": "2020-11-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/796958566.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/796958566.torrent",
+    "games": ["ac-valhalla"]
   }
 }
