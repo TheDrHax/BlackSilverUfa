@@ -1913,7 +1913,7 @@
       ],
         "note": "Начало игры доступно на <a href=\"https://youtu.be/OYtOrTD5wv4\">YouTube</a>."
       },
-      { "name": "Assassin's Creed Odyssey", "twitch": "317042062" },
+      { "name": "Assassin's Creed: Odyssey", "twitch": "317042062" },
       { "name": "Max Payne: Блэк Эдишн", "twitch": "323817086" },
       { "name": "Thronebreaker: The Witcher Tales", "twitch": "326381815" },
       {
@@ -2139,9 +2139,10 @@
     "category": "ongoing",
     "id": "ac-valhalla",
     "streams": [
-      { "name": "Первый взгляд на Xbox Series X", "twitch": "793751031", "start": "4:02:13" },
+      { "name": "Первый взгляд", "twitch": "793751031", "start": "4:02:13" },
       { "name": "1", "twitch": "794840118", "start": "1:35:32" },
-      { "name": "2", "twitch": "795935885" }
+      { "name": "2", "twitch": "795935885" },
+      { "name": "3", "twitch": "796958566" }
     ]
   },
   {
