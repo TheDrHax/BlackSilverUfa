@@ -2,24 +2,17 @@ const SEGMENT_HASH_REGEX = /^([0-9]+(\.[0-9]+|,)?)+$/;
 
 class Redirect {
   static segments = null;
+  static _segments = null; // promise
 
   static async init() {
-    if (!Redirect.segments) {
-      Redirect.segments = fetch('/data/segments.json').then((res) => {
+    if (!Redirect._segments) {
+      Redirect._segments = fetch('/data/segments.json').then((res) => {
         return res.json();
-      }).then((segments) => {
-        // Expand JoinedStreams onto their original segments
-        Object.keys(segments).filter((key) => key.indexOf(',') !== -1).map((key) => {
-          key.split(',').map((key_part) => {
-            segments[key_part] = segments[key];
-          });
-        });
-
-        return segments;
       });
     }
 
-    return await Redirect.segments;
+    Redirect.segments = await Redirect._segments;
+    return Redirect.segments;
   }
 
   static isHash(hash) {
@@ -42,7 +35,91 @@ class Redirect {
     }).join('&');
   }
 
-  static async parse(hash) {
+  /**
+   * Update parsed hash if its segment is missing or disabled
+   */
+  static check_hash(segment, params) {
+    if (!segment ||
+        typeof(segment) != "string" ||
+        !segment.match(SEGMENT_HASH_REGEX)) {
+
+      return null;
+    }
+
+    let segments = Redirect.segments;
+
+    // Handle missing segments
+    if (Object.keys(segments).indexOf(segment) === -1) {
+      let found = false;
+
+      // Redirect from removed joined streams
+      if (segment.indexOf(',') !== -1) {
+        let joined_parts = segment.split(',');
+
+        for (let i = 0; i < joined_parts.length; i++) {
+          let part = joined_parts[i];
+
+          if (Object.keys(segments).indexOf(part) !== -1) {
+            segment = part;
+            found = true;
+            break;
+          }
+        }
+      }
+
+      if (!found) {
+        return null;
+      }
+    }
+
+    // Handle segments without references
+    if (segments[segment].games.length === 0) {
+      let found = false;
+
+      // Redirect to joined streams
+      let candidates = Object.keys(segments)
+        .filter((k) => k.indexOf(',') !== -1)
+        .filter((k) => k.split(',').indexOf(segment) !== -1);
+
+      if (candidates.length > 0) {
+        let old_segment = segment;
+
+        segment = candidates[0];
+        found = true;
+
+        // Rebase timestamp
+        if (params && params.at) {
+          let segment_data = segments[segment];
+          let segment_index = segment.split(',').indexOf(old_segment);
+
+          let t = +params.at;
+          let offset = segment_data.offsets[segment_index];
+
+          if (segment_data.cuts) {
+            segment_data.cuts
+              .filter(([start, end]) => end <= t + offset)
+              .map(([start, end]) => {
+                offset -= end - start;
+              });
+          }
+
+          params.at = t + offset;
+        }
+      }
+
+      if (!found) {
+        return null;
+      }
+    }
+
+    return {
+      game: segments[segment].games[0],
+      segment: segment,
+      params: params
+    };
+  }
+
+  static parse(hash) {
     if (!hash) {
       return null;
     }
@@ -78,46 +155,11 @@ class Redirect {
       segment = segment.substr(0, segment.length - 2);
     }
 
-    let segments = await Redirect.init();
-
-    if (Object.keys(segments).indexOf(segment) === -1) {
-      if (segment.indexOf(',') !== -1) { // Redirect from removed joined streams
-        let joined_parts = segment.split(',');
-        let found = false;
-
-        for (let i = 0; i < joined_parts.length; i++) {
-          let part = joined_parts[i];
-
-          if (Object.keys(segments).indexOf(part) !== -1) {
-            segment = part;
-            found = true;
-            break;
-          }
-
-          if (!found) {
-            return null;
-          }
-        }
-      } else {
-        return null;
-      }
-    }
-
-    let segment_data = segments[segment];
-
-    if (segment && (!game || segment_data.games.indexOf(game) === -1)) {
-      game = segment_data.games[0];
-    }
-
-    return {
-      game: game,
-      segment: segment,
-      params: params
-    };
+    return Redirect.check_hash(segment, params);
   }
 
-  static async link(raw_hash) {
-    let hash = await Redirect.parse(raw_hash);
+  static link(raw_hash) {
+    let hash = Redirect.parse(raw_hash);
 
     if (!hash) {
       return '/';
@@ -137,9 +179,9 @@ class Redirect {
     return url;
   }
 
-  static async go(raw_hash) {
+  static go(raw_hash) {
     let path = document.location.pathname + document.location.hash;
-    let dest = await Redirect.link(raw_hash);
+    let dest = Redirect.link(raw_hash);
 
     if (path != dest) {
       window.location.replace(dest);
