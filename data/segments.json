@@ -3510,9 +3510,10 @@
     "games": ["sekiro"]
   },
   "399850727": {
-    "youtube": "IHc2XRynEQs", "cuts": ["13:23~1:03:17"], "abs_start": "0:00", "abs_end": "7:37:23", "duration": "6:47:29",
+    "youtube": "IHc2XRynEQs", "abs_start": "0:00", "abs_end": "7:37:23", "duration": "6:47:29",
     "name": "Sekiro: Shadows Die Twice #4 (часть 1)",
     "date": "2019-03-23",
+    "cuts": [[803, 3797]],
     "games": ["sekiro"]
   },
   "399850727.1": {
@@ -3966,9 +3967,10 @@
     "games": ["first"]
   },
   "442647463": {
-    "youtube": "7KFKZTMmhmY", "cuts": ["1:01:30~1:01:50"], "abs_start": "0:00", "abs_end": "6:13:09", "duration": "6:12:49",
+    "youtube": "7KFKZTMmhmY", "abs_start": "0:00", "abs_end": "6:13:09", "duration": "6:12:49",
     "name": "Asura's Wrath",
     "date": "2019-06-22",
+    "cuts": [[3690, 3710]],
     "games": ["single"]
   },
   "443118072": {
@@ -4818,9 +4820,10 @@
     "games": ["alien-isolation-ai", "first"]
   },
   "531327327": {
-    "youtube": "HbZaYnkfzjw", "cuts": ["1:47:56~1:51:06"], "abs_start": "0:00", "abs_end": "5:49:26", "duration": "5:46:16",
+    "youtube": "HbZaYnkfzjw", "abs_start": "0:00", "abs_end": "5:49:26", "duration": "5:46:16",
     "name": "Spore #3 (заново) / The Sims 4 #1",
     "date": "2020-01-05",
+    "cuts": [[6476, 6666]],
     "games": ["spore", "sims-4"]
   },
   "532342982": {
@@ -4836,9 +4839,10 @@
     "games": ["life-is-strange-2"]
   },
   "533269694": {
-    "youtube": "g3pJbHFxP7g", "cuts": ["3:31:58~3:34:04", "4:57:07~4:57:21"], "abs_start": "-0:08", "abs_end": "5:59:48", "duration": "5:57:36",
+    "youtube": "g3pJbHFxP7g", "abs_start": "-0:08", "abs_end": "5:59:48", "duration": "5:57:36",
     "name": "Grand Theft Auto: San Andreas #1",
     "date": "2020-01-09",
+    "cuts": [[12718, 12844], [17827, 17841]],
     "games": ["gta-san-andreas"]
   },
   "533755753": {
@@ -4860,15 +4864,17 @@
     "games": ["gta-san-andreas"]
   },
   "535374681": {
-    "youtube": "72dFs18VRzo", "cuts": ["2:50:04~2:50:14"], "abs_start": "0:00", "abs_end": "5:41:58", "duration": "5:41:48",
+    "youtube": "72dFs18VRzo", "abs_start": "0:00", "abs_end": "5:41:58", "duration": "5:41:48",
     "name": "Grand Theft Auto: San Andreas #4",
     "date": "2020-01-13",
+    "cuts": [[10204, 10214]],
     "games": ["gta-san-andreas"]
   },
   "535873254": {
-    "youtube": "lPiTS74Qw54", "cuts": ["42:57~43:54"], "abs_start": "0:00", "abs_end": "5:14:37", "duration": "5:13:40",
+    "youtube": "lPiTS74Qw54", "abs_start": "0:00", "abs_end": "5:14:37", "duration": "5:13:40",
     "name": "Gears of War 4 #1",
     "date": "2020-01-14",
+    "cuts": [[2577, 2634]],
     "games": ["gears-of-war-4"]
   },
   "536349138": {
@@ -4932,9 +4938,10 @@
     "games": ["dead-space-2", "dark-messiah"]
   },
   "546672311": {
-    "youtube": "1Vvuwf6-AzU", "cuts": ["26:35~26:50", "27:01~28:45"], "abs_start": "0:00", "abs_end": "5:47:09", "duration": "5:45:10",
+    "youtube": "1Vvuwf6-AzU", "abs_start": "0:00", "abs_end": "5:47:09", "duration": "5:45:10",
     "name": "Dead Space 2 #2",
     "date": "2020-02-04",
+    "cuts": [[1595, 1610], [1621, 1725]],
     "games": ["dead-space-2"]
   },
   "547176657": {
@@ -4980,21 +4987,24 @@
     "games": ["metro-exodus"]
   },
   "550791781": {
-    "youtube": "2qfqkG0-Ew0", "cuts": ["2:53:30~2:53:40"], "abs_start": "0:00", "abs_end": "4:02:15", "duration": "4:02:05",
+    "youtube": "2qfqkG0-Ew0", "abs_start": "0:00", "abs_end": "4:02:15", "duration": "4:02:05",
     "name": "Metro Exodus - Sam's Story #2 (часть 1)",
     "date": "2020-02-12",
+    "cuts": [[10410, 10420]],
     "games": ["metro-exodus"]
   },
   "550874352": {
-    "youtube": "Vhg23OEZOis", "cuts": ["1:49:40~1:49:50"], "abs_start": "0:00", "abs_end": "2:14:13", "duration": "2:14:03",
+    "youtube": "Vhg23OEZOis", "abs_start": "0:00", "abs_end": "2:14:13", "duration": "2:14:03",
     "name": "Metro Exodus - Sam's Story #2 (часть 2)",
     "date": "2020-02-12",
+    "cuts": [[6580, 6590]],
     "games": ["metro-exodus"]
   },
   "551290502": {
-    "youtube": "v5_1KkGWKNE", "cuts": ["31:26~37:12"], "abs_start": "0:00", "abs_end": "5:48:00", "duration": "5:42:14",
+    "youtube": "v5_1KkGWKNE", "abs_start": "0:00", "abs_end": "5:48:00", "duration": "5:42:14",
     "name": "Dead Space 3 #3 / Dark Messiah of Might & Magic #3",
     "date": "2020-02-13",
+    "cuts": [[1886, 2232]],
     "games": ["dead-space-3", "dark-messiah"]
   },
   "552313454": {
@@ -5613,6 +5623,7 @@
     "youtube": "ZBHv3E0ZDHo", "abs_start": "0:00", "abs_end": "28:04:29", "duration": "28:04:29",
     "name": "The Last of Us: Part II",
     "date": "2020-06-18",
+    "offsets": [0, 27133, 51200, 62012],
     "games": ["single"]
   },
   "658127870": {
@@ -5742,9 +5753,11 @@
     "games": []
   },
   "681457263,682267155,683282462": {
-    "youtube": "LBrFuF__368", "cuts": ["25:56:02~26:49:42"], "abs_start": "0:00", "abs_end": "27:11:04", "duration": "26:17:24",
+    "youtube": "LBrFuF__368", "abs_start": "0:00", "abs_end": "27:11:04", "duration": "26:17:24",
     "name": "Ghost of Tsushima",
     "date": "2020-07-16",
+    "offsets": [0, 17793, 48416],
+    "cuts": [[93362, 96582]],
     "games": ["single"]
   },
   "684388398": {
@@ -5919,6 +5932,7 @@
     "youtube": "QAluNP4N50Q", "official": false, "abs_start": "0:00", "abs_end": "1:41:20", "duration": "1:41:20",
     "name": "Marvel's Avengers #1 (части 2-6)",
     "date": "2020-09-01",
+    "offsets": [0, 1194, 1362, 1809, 2313],
     "games": ["marvel-avengers"]
   },
   "728972501": {
@@ -5937,6 +5951,7 @@
     "youtube": "KuC2TPa8ySg", "official": false, "abs_start": "0:00", "abs_end": "5:15:30", "duration": "5:15:30",
     "name": "Marvel's Avengers #2 (заново)",
     "date": "2020-09-02",
+    "offsets": [0, 18340],
     "games": ["marvel-avengers"]
   },
   "729970116": {
@@ -6157,6 +6172,7 @@
     "youtube": "rjlbf0WP-TY", "abs_start": "0:00", "abs_end": "11:05:51", "duration": "11:05:51",
     "name": "Amnesia: Rebirth",
     "date": "2020-10-19",
+    "offsets": [-18074, 15550],
     "games": ["single"]
   },
   "778186468": {

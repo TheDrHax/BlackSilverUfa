@@ -144,7 +144,9 @@
     <script src="/dist/bundle.js"></script>
     
 <script>
-  Redirect.detect();
+  Redirect.init().then((segments) => {
+    Redirect.detect();
+  });
 </script>
 
   </body>
