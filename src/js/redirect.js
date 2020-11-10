@@ -52,8 +52,8 @@ class Redirect {
     if (Object.keys(segments).indexOf(segment) === -1) {
       let found = false;
 
-      // Redirect from removed joined streams
       if (segment.indexOf(',') !== -1) {
+        // Redirect from removed joined streams
         let joined_parts = segment.split(',');
 
         for (let i = 0; i < joined_parts.length; i++) {
@@ -64,6 +64,14 @@ class Redirect {
             found = true;
             break;
           }
+        }
+      } else if (segment.indexOf('.') !== -1) {
+        // Redirect from removed segments to main segment
+        let main_segment = segment.substr(0, segment.indexOf('.'));
+
+        if (Object.keys(segments).indexOf(main_segment) !== -1) {
+          segment = main_segment;
+          found = true;
         }
       }
 
