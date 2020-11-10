@@ -231,6 +231,16 @@
     ]
   },
   {
+    "name": "The Hunter: Call of the Wild",
+    "category": "co-op-series",
+    "id": "the-hunter",
+    "streams": [
+      { "name": "1", "twitch": "001707060" },
+      { "name": "2", "twitch": "001707180" },
+      { "name": "3", "twitch": "213247693" }
+    ]
+  },
+  {
     "name": "Несюжетные коопы",
     "category": "co-op",
     "type": "list",
@@ -253,10 +263,7 @@
         { "name": "Looterkings" },
         { "name": "Mount Your Friends", "start": "1:25:00" }
       ] },
-      { "twitch": "213247693", "subrefs": [
-        { "name": "The Hunter: Call of the Wild" },
-        { "name": "Road Redemption", "start": "3:10:00" }
-      ] },
+      { "name": "Road Redemption", "twitch": "213247693", "start": "3:10:00" },
       { "twitch": "213846142", "subrefs": [
         { "name": "Viscera Cleanup Detail", "start": "1:58:00" },
         { "name": "Astroneer", "start": "3:00:00" }
