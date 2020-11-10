@@ -476,7 +476,7 @@
       {"name": "Spelunker! Party / Ultimate Chicken Horse", "year": 2017, "id": "184206477"},
       {"name": "Pulsar: Lost Colony", "year": 2017, "id": "200702885"},
       {"name": "Looterkings / Mount Your Friends", "year": 2017, "id": "206394832"},
-      {"name": "The Hunter: Call of the Wild / Road Redemption", "year": 2017, "id": "213247693"},
+      {"name": "Road Redemption", "year": 2017, "id": "213247693"},
       {"name": "Viscera Cleanup Detail / Astroneer", "year": 2017, "id": "213846142"},
       {"name": "Dead Dozen", "year": 2018, "id": "236864236"},
       {"name": "Albion Online / Farm Together", "year": 2018, "id": "239364187"},
@@ -529,6 +529,7 @@
   "co-op-series": {
     "name": "Серии несюжетных коопов",
     "games": [
+      {"name": "The Hunter: Call of the Wild", "year": 2017, "id": "the-hunter"},
       {"name": "Golf It!", "year": 2017, "id": "golf-it"},
       {"name": "Hand Simulator", "year": 2017, "id": "hand-simulator"},
       {"name": "Gang Beasts", "year": 2017, "id": "gang-beasts"},

@@ -641,6 +641,18 @@
     "date": "2017-03-29",
     "games": ["ff-xv"]
   },
+  "001707060": {
+    "youtube": "92AnIckY8EU", "abs_start": "0:00", "abs_end": "4:06:36", "duration": "4:06:36",
+    "name": "The Hunter: Call of the Wild #1",
+    "date": "2017-07-06",
+    "games": ["the-hunter"]
+  },
+  "001707180": {
+    "youtube": "v50BdVrVD0A", "abs_start": "0:00", "abs_end": "3:56:59", "duration": "3:56:59",
+    "name": "The Hunter: Call of the Wild #2",
+    "date": "2017-07-18",
+    "games": ["the-hunter"]
+  },
   "001809200": {
     "youtube": "AM12Fg-97sQ", "abs_start": "0:00", "abs_end": "50:02", "duration": "50:02",
     "name": "Life is Strange 2 - Episode 1 (часть 1, вне стримов)",
@@ -1231,9 +1243,9 @@
   },
   "213247693": {
     "youtube": "GPga2h4UUXc", "abs_start": "0:00", "abs_end": "4:22:43", "duration": "4:22:43",
-    "name": "The Hunter: Call of the Wild / Road Redemption",
+    "name": "The Hunter: Call of the Wild #3 / Road Redemption",
     "date": "2017-12-28",
-    "games": ["co-op"]
+    "games": ["the-hunter", "co-op"]
   },
   "213846142": {
     "youtube": "8GFZF96owuA", "abs_start": "0:00", "abs_end": "6:02:37", "duration": "6:02:37",
@@ -6144,14 +6156,12 @@
     "youtube": "4QuPrgxQzCQ", "official": false, "abs_start": "0:00", "abs_end": "5:10:22", "duration": "5:10:22",
     "name": "AquaNox: Deep Descent / Fishing: North Atlantic / Noita #1",
     "date": "2020-10-16",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/772063368.torrent",
     "games": ["first", "noita"]
   },
   "773147726": {
     "youtube": "U5zI2J9iiT0", "official": false, "abs_start": "0:00", "abs_end": "6:04:53", "duration": "6:04:53",
     "name": "Phasmophobia #1",
     "date": "2020-10-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/773147726.torrent",
     "games": ["phasmophobia"]
   },
   "775167526": {
