@@ -318,7 +318,7 @@ function handleHash() {
 
   let wrapper = document.querySelector(`.stream[data-hash="${hash.segment}"]`);
   if (!wrapper) {
-    Redirect.init().then((segments) => {
+    Redirect.init().then(() => {
       Redirect.go(hash.segment);
     });
     return;

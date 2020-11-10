@@ -1,18 +1,12 @@
+import { Data } from './data';
+
 const SEGMENT_HASH_REGEX = /^([0-9]+(\.[0-9]+|,)?)+$/;
 
 class Redirect {
   static segments = null;
-  static _segments = null; // promise
 
   static async init() {
-    if (!Redirect._segments) {
-      Redirect._segments = fetch('/data/segments.json').then((res) => {
-        return res.json();
-      });
-    }
-
-    Redirect.segments = await Redirect._segments;
-    return Redirect.segments;
+    Redirect.segments = await Data.segments;
   }
 
   static isHash(hash) {

@@ -1,9 +1,9 @@
 import autocomplete from 'autocompleter';
+import { Data } from './data';
 import { Redirect } from './redirect';
 
 class Search {
   static games = null;
-  static _games = null; // promise
 
   static strip(string) {
     return string.trim().split(' ').map((word) => {
@@ -13,41 +13,7 @@ class Search {
   }
 
   static async load() {
-    if (!Search._games) {
-      Search._games = fetch('/data/categories.json').then((res) => {
-        return res.json();
-      }).then((categories) => {
-        // Create flat array of games and add category name to each of them
-        let games = Object.keys(categories).flatMap((key) => {
-          let category = categories[key];
-
-          if (category.search === false) {
-            return [];
-          }
-
-          return category.games.flatMap((game) => {
-            game.group = category.name;
-
-            let names = game.name.split(' / ');
-
-            if (names.length > 1) {
-              return names.map((name) => {
-                let subref = Object.assign({}, game);
-                subref.name = name;
-                return subref;
-              });
-            } else {
-              return game;
-            }
-          });
-        });
-
-        return games;
-      });
-    }
-
-    Search.games = await Search._games;
-    return Search.games;
+    Search.games = await Data.games;
   }
 
   static async init(selector) {
