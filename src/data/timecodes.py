@@ -6,7 +6,7 @@ from datetime import datetime
 from sortedcontainers import SortedKeyList
 from cached_property import cached_property
 
-from ..utils import load_json
+from ..utils import join, indent, load_json
 
 
 TIMECODES_JSON = 'data/timecodes.json'
@@ -329,8 +329,21 @@ class TimecodesDatabase(dict):
         self.filename = filename
         self.update(load_json(filename))
 
+    @join()
     def to_json(self) -> str:
-        return json.dumps(self, indent=2, ensure_ascii=False)
+        yield '{\n'
+
+        first = True
+        for key, value in sorted(self.items(), key=lambda x: x[0]):
+            if not first:
+                yield ',\n'
+            else:
+                first = False
+
+            yield f'  "{key}": '
+            yield indent(json.dumps(value, indent=2, ensure_ascii=False), 2)[2:]
+
+        yield '\n}'
 
     def __str__(self):
         return self.to_json()
