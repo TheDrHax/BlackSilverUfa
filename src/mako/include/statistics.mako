@@ -10,13 +10,18 @@
 <%
     duration_streams, duration_segments = Timecode(0), Timecode(0)
     streams_total = 0
+    chats_total = 0
     messages = 0
 
     for stream in streams.values():
         if stream.type is StreamType.JOINED:
             continue
 
+        if stream.type is not StreamType.NO_CHAT:
+            chats_total += 1
+        
         streams_total += 1
+
         duration_streams += stream.duration
         messages += stream.messages
 
@@ -48,7 +53,7 @@
 разбитые на <b>${numword(all_segments, 'сегмент')}</b>, и <b>${subs_size_mb} МБ</b> субтитров к ним. \
 Продолжительность всех сохранённых стримов примерно равна <b>${duration_streams}</b>, а всех записей — <b>${duration_segments}</b>. \
 За это время было написано <b>${numword(messages, 'сообщение')}</b>, то есть в среднем по \
-<b>${numword(messages // len(streams), 'сообщение')}</b> за стрим. \
+<b>${numword(messages // chats_total, 'сообщение')}</b> за стрим. \
 % if missing > 0:
 У <b>${numword(missing, 'сегмента')}</b> в данный момент <a href="/missing.html">нет записи</a>.\
 % endif
