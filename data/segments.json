@@ -6342,10 +6342,9 @@
     "games": ["terminator-resistance", "ac-valhalla"]
   },
   "795935885": {
-    "youtube": "fyDnkpW6UZ8", "official": false, "abs_start": "0:00", "abs_end": "8:40:31", "duration": "8:38:21",
+    "youtube": "I64fiHG8noI", "official": false, "abs_start": "0:00", "abs_end": "8:40:31", "duration": "8:40:31",
     "name": "Assassin's Creed: Valhalla #2 / Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House / Tricky Towers #26",
     "date": "2020-11-08",
-    "cuts": [[12134, 12264]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/795935885.torrent",
     "games": ["ac-valhalla", "co-op", "tricky-towers"]
   },
@@ -6362,5 +6361,13 @@
     "date": "2020-11-10",
     "torrent": "https://bsufiles.thedrhax.pw/streams/797983663.torrent",
     "games": ["ac-valhalla"]
+  },
+  "799135139": {
+    "abs_start": "0:00", "abs_end": "7:40:34", "duration": "0:00",
+    "name": "Assassin's Creed: Valhalla #5 / Destiny 2 - Beyond Light (с WeLoveGames)",
+    "date": "2020-11-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/799135139.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/799135139.torrent",
+    "games": ["ac-valhalla", "destiny-2"]
   }
 }
