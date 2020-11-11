@@ -983,8 +983,14 @@ class Streams(dict):
     def to_json(self) -> str:
         yield '{\n'
 
+        def sort_key(item):
+            key = item[0]
+            if ',' in key:  # place joined streams after the last part
+                return key.split(',')[-1] + '_'
+            return key
+
         first = True
-        for key, stream in self.items():
+        for key, stream in sorted(streams.items(), key=sort_key):
             if not first:
                 yield ',\n'
             else:
