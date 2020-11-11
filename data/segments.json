@@ -6228,14 +6228,12 @@
     "youtube": "Xe79w1-Nu5c", "official": false, "abs_start": "0:00", "abs_end": "9:20:24", "duration": "9:20:24",
     "name": "Amnesia: The Dark Descent - Justine / Amnesia: A Machine for Pigs",
     "date": "2020-10-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/775167526.torrent",
     "games": ["amnesia", "first"]
   },
   "776153173": {
     "youtube": "siqEF0YaHBU", "official": false, "abs_start": "0:00", "abs_end": "6:46:41", "duration": "6:46:41",
     "name": "",
     "date": "2020-10-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/776153173.torrent",
     "games": []
   },
   "775167526,776153173": {
@@ -6344,9 +6342,10 @@
     "games": ["terminator-resistance", "ac-valhalla"]
   },
   "795935885": {
-    "youtube": "fyDnkpW6UZ8", "official": false, "abs_start": "0:00", "abs_end": "8:38:21", "duration": "8:38:21",
+    "youtube": "fyDnkpW6UZ8", "official": false, "abs_start": "0:00", "abs_end": "8:40:31", "duration": "8:38:21",
     "name": "Assassin's Creed: Valhalla #2 / Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House / Tricky Towers #26",
     "date": "2020-11-08",
+    "cuts": [[12134, 12264]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/795935885.torrent",
     "games": ["ac-valhalla", "co-op", "tricky-towers"]
   },
