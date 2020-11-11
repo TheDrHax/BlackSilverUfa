@@ -3751,6 +3751,22 @@
     ]
   },
   {
+    "name": "Dark Souls 3",
+    "category": "finished",
+    "id": "ds3",
+    "streams": [
+      { "name": "С Дашей", "twitch": "001604110" },
+      { "name": "PVP со зрителями", "twitch": "001605070" },
+      { "name": "1 (с миньонами)", "twitch": "001605080" },
+      { "name": "2", "twitch": "001605090" },
+      { "name": "3", "twitch": "001605120" },
+      { "name": "4", "twitch": "001605140" },
+      { "name": "5", "twitch": "001605240" },
+      { "name": "6", "twitch": "001605270" },
+      { "name": "7", "twitch": "001607030" }
+    ]
+  },
+  {
     "name": "Stardew Valley",
     "category": "ongoing",
     "id": "stardew-walley",
