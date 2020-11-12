@@ -389,6 +389,12 @@
     "date": "2016-04-30",
     "games": ["dead-space-2-dw"]
   },
+  "001605050": {
+    "youtube": "FxV7dDXWmO0", "official": false, "abs_start": "0:00", "abs_end": "5:48:06", "duration": "5:48:06",
+    "name": "Nioh - Альфа",
+    "date": "2016-05-05",
+    "games": ["nioh"]
+  },
   "001605070": {
     "youtube": "8ty_Aq13Rlw", "abs_start": "0:00", "abs_end": "3:59:07", "duration": "3:59:07",
     "name": "Dark Souls 3 - PVP со зрителями",
@@ -490,6 +496,18 @@
     "name": "The Elder Scrolls III: Morrowind #6",
     "date": "2016-08-20",
     "games": ["tes-morrowind"]
+  },
+  "001608240": {
+    "youtube": "TCp0oJB3erg", "abs_start": "0:00", "abs_end": "5:39:57", "duration": "5:39:57",
+    "name": "Nioh - Бета 1 #1",
+    "date": "2016-08-24",
+    "games": ["nioh"]
+  },
+  "001608250": {
+    "youtube": "N8nGC8ilgRc", "abs_start": "0:00", "abs_end": "4:56:00", "duration": "4:56:00",
+    "name": "Nioh - Бета 1 #2",
+    "date": "2016-08-25",
+    "games": ["nioh"]
   },
   "001609040": {
     "youtube": "D2oQXhIcuzM", "abs_start": "0:00", "abs_end": "4:48:58", "duration": "4:48:58",
@@ -683,11 +701,35 @@
     "date": "2017-01-19",
     "games": ["undertale"]
   },
+  "001701210": {
+    "youtube": "nNzyfdk47Ko", "official": false, "abs_start": "0:00", "abs_end": "5:15:15", "duration": "5:15:15",
+    "name": "Nioh - Бета 2",
+    "date": "2017-01-21",
+    "games": ["nioh"]
+  },
   "001701280": {
     "youtube": "KRW-INDTc4g", "official": false, "abs_start": "0:00", "abs_end": "4:07:13", "duration": "4:07:13",
     "name": "MONSTRUM #1",
     "date": "2017-01-28",
     "games": ["monstrum"]
+  },
+  "001702080": {
+    "youtube": "Xuf4uTD0FLg", "official": false, "abs_start": "0:00", "abs_end": "5:31:13", "duration": "5:31:13",
+    "name": "Nioh #1",
+    "date": "2017-02-08",
+    "games": ["nioh"]
+  },
+  "001702090": {
+    "youtube": "NR7TocTZjjA", "official": false, "abs_start": "0:00", "abs_end": "7:58:04", "duration": "7:58:04",
+    "name": "Nioh #2",
+    "date": "2017-02-09",
+    "games": ["nioh"]
+  },
+  "001702100": {
+    "youtube": "ZOa22-DzyUw", "official": false, "abs_start": "0:00", "abs_end": "5:21:50", "duration": "5:21:50",
+    "name": "Nioh #3",
+    "date": "2017-02-10",
+    "games": ["nioh"]
   },
   "001702230": {
     "youtube": "EADNHPIxuHM", "abs_start": "0:00", "abs_end": "5:07:38", "duration": "5:07:38",
