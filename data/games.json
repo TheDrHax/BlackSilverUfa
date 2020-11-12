@@ -2573,6 +2573,20 @@
     ]
   },
   {
+    "name": "Nioh",
+    "category": "ongoing",
+    "id": "nioh",
+    "streams": [
+      { "name": "Альфа", "twitch": "001605050" },
+      { "name": "Бета 1 #1", "twitch": "001608240" },
+      { "name": "Бета 1 #2", "twitch": "001608250" },
+      { "name": "Бета 2", "twitch": "001701210" },
+      { "name": "1", "twitch": "001702080" },
+      { "name": "2", "twitch": "001702090" },
+      { "name": "3", "twitch": "001702100" }
+    ]
+  },
+  {
     "name": "Nioh 2",
     "category": "ongoing",
     "id": "nioh-2",
