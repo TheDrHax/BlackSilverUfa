@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Хэллоуин #2020 / The Dark Pictures: Little Hope #1", "year": 2020, "id": "787564730"},
       {"name": "Metal Gear Solid V: Ground Zeroes / Metal Gear Solid V: Phantom Pain (злое прохождение) #1", "year": 2020, "id": "791632745"},
       {"name": "Asus ROG Chariot Core / Xbox Series X / Metal Gear Solid V: Phantom Pain (злое прохождение) #2", "year": 2020, "id": "792632708"},
       {"name": "Тест Xbox Series X / Gears 5 / Black / Forza Horizon 4 #2 / Assassin's Creed: Valhalla - Первый взгляд", "year": 2020, "id": "793751031"},
@@ -12,7 +11,8 @@
       {"name": "Assassin's Creed: Valhalla #3", "year": 2020, "id": "796958566"},
       {"name": "Assassin's Creed: Valhalla #4", "year": 2020, "id": "797983663"},
       {"name": "Assassin's Creed: Valhalla #5 / Destiny 2 - Beyond Light (с WeLoveGames)", "year": 2020, "id": "799135139"},
-      {"name": "Call of Duty: Warzone #13 / Marvel's Spider-Man: Miles Morales", "year": 2020, "id": "800233089"}
+      {"name": "Call of Duty: Warzone #13", "year": 2020, "id": "800233089"},
+      {"name": "Marvel's Spider-Man: Miles Morales", "year": 2020, "id": "800233089.1"}
     ]
   },
   "finished": {
@@ -361,7 +361,7 @@
       {"name": "Under: Depths of Fear", "year": 2020, "id": "785524800"},
       {"name": "Teardown", "year": 2020, "id": "786440219"},
       {"name": "Gears 5 / Black", "year": 2020, "id": "793751031"},
-      {"name": "Marvel's Spider-Man: Miles Morales", "year": 2020, "id": "800233089"}
+      {"name": "Marvel's Spider-Man: Miles Morales", "year": 2020, "id": "800233089.1"}
     ]
   },
   "ongoing": {
