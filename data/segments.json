@@ -6289,7 +6289,6 @@
     "youtube": "ufVqSaJYaOY", "official": false, "abs_start": "0:00", "abs_end": "6:01:11", "duration": "6:01:11",
     "name": "9 Monkeys of Shaolin / Noita #2 / Valorant (Джек, Артём, Дима, Gamelife) #1 / Call of Duty: Warzone #12",
     "date": "2020-10-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/778186468.torrent",
     "games": ["first", "noita", "valorant", "cod-warzone"]
   },
   "779201810": {
@@ -6424,5 +6423,13 @@
     "date": "2020-11-12",
     "torrent": "https://bsufiles.thedrhax.pw/streams/800233089.torrent",
     "games": ["first"]
+  },
+  "801377729": {
+    "abs_start": "0:00", "abs_end": "7:05:07", "duration": "0:00",
+    "name": "Call of Duty: Black Ops Cold War (сюжет) / Call of Duty: Black Ops Cold War #3",
+    "date": "2020-11-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/801377729.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/801377729.torrent",
+    "games": ["first", "cod-bocw"]
   }
 }
