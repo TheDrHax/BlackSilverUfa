@@ -594,7 +594,7 @@
       { "name": "10", "twitch": "768182935", "start": "5:13:14" },
       { "name": "11", "twitch": "771021424", "start": "1:28:18" },
       { "name": "12", "twitch": "778186468", "start": "5:10:22" },
-      { "name": "13", "twitch": "800233089" }
+      { "name": "13", "twitch": "800233089", "segment": 0 }
     ]
   },
   {
@@ -2141,7 +2141,7 @@
         { "name": "Gears 5" },
         { "name": "Black", "start": "1:46:55" }
       ] },
-      { "name": "Marvel's Spider-Man: Miles Morales", "twitch": "800233089", "start": "2:34:43" }
+      { "name": "Marvel's Spider-Man: Miles Morales", "twitch": "800233089", "segment": 1 }
     ]
   },
   {
