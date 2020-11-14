@@ -6295,7 +6295,6 @@
     "youtube": "ytiod7VXCrM", "abs_start": "0:00", "abs_end": "6:07:49", "duration": "6:07:49",
     "name": "Harry Potter and the Sorcerer's Stone",
     "date": "2020-10-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/779201810.torrent",
     "games": ["single"]
   },
   "780320448": {
@@ -6431,5 +6430,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/801377729.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/801377729.torrent",
     "games": ["first", "cod-bocw"]
+  },
+  "802744738": {
+    "abs_start": "0:00", "abs_end": "4:31:11", "duration": "0:00",
+    "name": "Call of Duty: Black Ops Cold War #4 (1-й этап Cold War Rivals)",
+    "date": "2020-11-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/802744738.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/802744738.torrent",
+    "games": ["cod-bocw"]
   }
 }
