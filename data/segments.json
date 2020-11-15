@@ -6301,7 +6301,6 @@
     "youtube": "Mj7-AjdQm1E", "official": false, "abs_start": "0:00", "abs_end": "6:06:21", "duration": "6:06:21",
     "name": "Valorant (Джек, Артём, Дима, Gamelife) #2 (турнир) / Doom Eternal #4 (The Ancient Gods: Part One)",
     "date": "2020-10-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/780320448.torrent",
     "games": ["valorant", "doom-eternal"]
   },
   "781406533": {
@@ -6404,7 +6403,7 @@
   },
   "799135139": {
     "youtube": "2z92zj8luok", "abs_start": "0:00", "abs_end": "7:40:18", "duration": "7:40:18",
-    "name": "Assassin's Creed: Valhalla #5 / Destiny 2 - Beyond Light (с WeLoveGames)",
+    "name": "Assassin's Creed: Valhalla #5 / Destiny 2 #3 (Beyond Light с WeLoveGames)",
     "date": "2020-11-11",
     "torrent": "https://bsufiles.thedrhax.pw/streams/799135139.torrent",
     "games": ["ac-valhalla", "destiny-2"]
@@ -6438,5 +6437,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/802744738.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/802744738.torrent",
     "games": ["cod-bocw"]
+  },
+  "803926941": {
+    "abs_start": "0:00", "abs_end": "7:34:28", "duration": "0:00",
+    "name": "Call of Duty: Black Ops Cold War #5 (2-й этап Cold War Rivals) / Destiny 2 #4 (Beyond Light с WeLoveGames)",
+    "date": "2020-11-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/803926941.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/803926941.torrent",
+    "games": ["cod-bocw", "destiny-2"]
   }
 }
