@@ -6307,7 +6307,6 @@
     "youtube": "gKf4iutnY1Y", "abs_start": "0:00", "abs_end": "7:39:01", "duration": "7:39:01",
     "name": "Doom Eternal #5 (The Ancient Gods: Part One) / Phasmophobia #2 / Sign of Silence #2",
     "date": "2020-10-26",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/781406533.torrent",
     "games": ["doom-eternal", "phasmophobia", "sign-of-silence"]
   },
   "782383170": {
@@ -6424,10 +6423,10 @@
   },
   "801377729": {
     "youtube": "plgno45snwg", "official": false, "abs_start": "0:00", "abs_end": "7:04:52", "duration": "7:04:52",
-    "name": "Call of Duty: Black Ops Cold War (сюжет) / Call of Duty: Black Ops Cold War #3",
+    "name": "Call of Duty: Black Ops Cold War (сюжет) #1 / Call of Duty: Black Ops Cold War #3",
     "date": "2020-11-13",
     "torrent": "https://bsufiles.thedrhax.pw/streams/801377729.torrent",
-    "games": ["first", "cod-bocw"]
+    "games": ["cod-bo-cw", "cod-bocw"]
   },
   "802744738": {
     "youtube": "t9U_TWNNT-M", "official": false, "abs_start": "0:00", "abs_end": "4:30:57", "duration": "4:30:57",
@@ -6442,5 +6441,13 @@
     "date": "2020-11-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/803926941.torrent",
     "games": ["cod-bocw", "destiny-2"]
+  },
+  "804979766": {
+    "abs_start": "0:00", "abs_end": "4:52:33", "duration": "0:00",
+    "name": "Call of Duty: Black Ops Cold War (сюжет) #2",
+    "date": "2020-11-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/804979766.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/804979766.torrent",
+    "games": ["cod-bo-cw"]
   }
 }
