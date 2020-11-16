@@ -11,6 +11,7 @@ node('python3 && git && jq && (tzdata || !alpine)') {
 
     stage('Prepare') {
         git branch: input_branch, credentialsId: cred_git, url: repo_url
+        scmSkip deleteBuild: true, skipPattern:'^Запись (стрима|сегмента) [0-9]+.*'
         sh 'git config --local user.email "the.dr.hax@gmail.com"'
         sh 'git config --local user.name "Jenkins"'
         sh './bsu venv update'
