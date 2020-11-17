@@ -213,7 +213,7 @@ class Segment:
     def abs_start(self):
         if self.offset() != 0:
             return self.offset()
-        elif self.segment > 0:
+        elif self.segment > 0 and not self.playable:
             return self.stream[self.segment - 1].abs_end
         else:
             return self.stream.abs_start
