@@ -1735,7 +1735,8 @@
       { "twitch": "792632708", "subrefs": [
         { "name": "Asus ROG Chariot Core" },
         { "name": "Xbox Series X", "start": "1:50:44" }
-      ] }
+      ] },
+      { "name": "Sony PlayStation 5", "twitch": "806256296" }
     ]
   },
   {
@@ -2145,7 +2146,16 @@
         { "name": "Gears 5" },
         { "name": "Black", "start": "1:46:55" }
       ] },
-      { "name": "Marvel's Spider-Man: Miles Morales", "twitch": "800233089", "segment": 1 }
+      { "name": "Marvel's Spider-Man: Miles Morales", "twitch": "800233089", "segment": 1 },
+      { "name": "Astro's Playroom (PS5)", "twitch": "806256296", "start": "1:05:26" }
+    ]
+  },
+  {
+    "name": "Demon's Souls Remake",
+    "category": "ongoing",
+    "id": "demons-souls-remake",
+    "streams": [
+      { "name": "1", "twitch": "806256296", "start": "1:37:17" }
     ]
   },
   {
