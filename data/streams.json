@@ -1403,7 +1403,10 @@
     { "youtube": "CSjEpw0w5gE", "official": false },
     { "youtube": "XcOSWStaSB0", "offset": "2:34:24" }
   ],
-  "801377729": { "youtube": "plgno45snwg", "official": false },
+  "801377729": [
+    { "youtube": "plgno45snwg", "official": false },
+    { "youtube": "DTRtUFC-uvg" }
+  ],
   "802744738": { "youtube": "t9U_TWNNT-M", "official": false },
   "803926941": { "youtube": "xULIUQt9ol8", "official": false },
   "804979766": { "youtube": "8kGSuZyNjO4", "official": false }

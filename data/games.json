@@ -398,7 +398,7 @@
     "streams": [
       { "name": "1 (бета)", "twitch": "764187591", "start": "3:04:23" },
       { "name": "2", "twitch": "771021424", "start": "3:26:19" },
-      { "name": "3", "twitch": "801377729", "start": "2:54:32" },
+      { "name": "3", "twitch": "801377729", "segment": 0, "start": "2:54:32" },
       { "name": "4 (1-й этап Cold War Rivals)", "twitch": "802744738" },
       { "name": "5 (2-й этап Cold War Rivals)", "twitch": "803926941" }
     ]
@@ -2153,7 +2153,7 @@
     "category": "finished",
     "id": "cod-bo-cw",
     "streams": [
-      { "name": "1", "twitch": "801377729" },
+      { "name": "1", "twitch": "801377729", "segment": 1 },
       { "name": "2", "twitch": "804979766" }
     ]
   },
