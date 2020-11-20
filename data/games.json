@@ -2153,7 +2153,7 @@
   },
   {
     "name": "Demon's Souls Remake",
-    "category": "ongoing",
+    "category": "finished",
     "id": "demons-souls-remake",
     "streams": [
       { "name": "1", "twitch": "806256296", "start": "1:37:17" },
@@ -2162,7 +2162,8 @@
       { "twitch": "808249476", "subrefs": [
         { "name": "3" },
         { "name": "3", "start": "5:33:09" }
-      ] }
+      ] },
+      { "name": "4", "twitch": "809354719" }
     ]
   },
   {
