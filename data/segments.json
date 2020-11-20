@@ -6337,7 +6337,6 @@
     "youtube": "GRrDKGBd_gA", "abs_start": "0:00", "abs_end": "6:21:05", "duration": "6:21:05",
     "name": "Teardown / Phasmophobia #5 (с Артёмом, Джеком и Gamelife) / GTFO #3 (с Артёмом, Джеком и Gamelife)",
     "date": "2020-10-30",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/786440219.torrent",
     "games": ["first", "phasmophobia", "gtfo"]
   },
   "787564730": {
@@ -6479,5 +6478,13 @@
     "date": "2020-11-19",
     "torrent": "https://bsufiles.thedrhax.pw/streams/808249476.torrent",
     "games": ["demons-souls-remake", "cp2077-ncw"]
+  },
+  "809354719": {
+    "abs_start": "0:00", "abs_end": "4:21:11", "duration": "0:00",
+    "name": "Demon's Souls Remake #4",
+    "date": "2020-11-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/809354719.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/809354719.torrent",
+    "games": ["demons-souls-remake"]
   }
 }

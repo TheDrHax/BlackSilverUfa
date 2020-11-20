@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Marvel's Spider-Man: Miles Morales", "year": 2020, "id": "800233089.1"},
       {"name": "Call of Duty: Black Ops Cold War #3", "year": 2020, "id": "801377729"},
       {"name": "Call of Duty: Black Ops Cold War (сюжет) #1", "year": 2020, "id": "801377729.1"},
       {"name": "Call of Duty: Black Ops Cold War #4 (1-й этап Cold War Rivals)", "year": 2020, "id": "802744738"},
@@ -12,7 +11,8 @@
       {"name": "Sony PlayStation 5 / Astro's Playroom (PS5) / Demon's Souls Remake #1", "year": 2020, "id": "806256296"},
       {"name": "Demon's Souls Remake #2 (часть 1)", "year": 2020, "id": "807121392"},
       {"name": "Demon's Souls Remake #2 (часть 2)", "year": 2020, "id": "807205679"},
-      {"name": "Demon's Souls Remake #3 / Cyberpunk 2077 - Night City Wire #3", "year": 2020, "id": "808249476"}
+      {"name": "Demon's Souls Remake #3 / Cyberpunk 2077 - Night City Wire #3", "year": 2020, "id": "808249476"},
+      {"name": "Demon's Souls Remake #4", "year": 2020, "id": "809354719"}
     ]
   },
   "finished": {
@@ -194,7 +194,8 @@
       {"name": "Кужлёвка (демо)", "year": 2020, "id": "785416056"},
       {"name": "Paranormal Entities", "year": 2020, "id": "785524800"},
       {"name": "Metal Gear Solid V: Ground Zeroes", "year": 2020, "id": "791632745"},
-      {"name": "Call of Duty: Black Ops Cold War (сюжет)", "year": 2020, "id": "cod-bo-cw"}
+      {"name": "Call of Duty: Black Ops Cold War (сюжет)", "year": 2020, "id": "cod-bo-cw"},
+      {"name": "Demon's Souls Remake", "year": 2020, "id": "demons-souls-remake"}
     ]
   },
   "first": {
@@ -372,8 +373,7 @@
       {"name": "Ghostrunner", "year": 2020, "id": "ghostrunner"},
       {"name": "Watch Dogs: Legion", "year": 2020, "id": "watch-dogs"},
       {"name": "Metal Gear Solid V: Phantom Pain (злое прохождение)", "year": 2020, "id": "mgs-v-2020"},
-      {"name": "Assassin's Creed: Valhalla", "year": 2020, "id": "ac-valhalla"},
-      {"name": "Demon's Souls Remake", "year": 2020, "id": "demons-souls-remake"}
+      {"name": "Assassin's Creed: Valhalla", "year": 2020, "id": "ac-valhalla"}
     ]
   },
   "infinite": {
