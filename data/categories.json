@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Call of Duty: Black Ops Cold War (сюжет) #1", "year": 2020, "id": "801377729.1"},
       {"name": "Call of Duty: Black Ops Cold War #4 (1-й этап Cold War Rivals)", "year": 2020, "id": "802744738"},
       {"name": "Call of Duty: Black Ops Cold War #5 (2-й этап Cold War Rivals) / Destiny 2 #4 (Beyond Light с WeLoveGames)", "year": 2020, "id": "803926941"},
       {"name": "Call of Duty: Black Ops Cold War (сюжет) #2", "year": 2020, "id": "804979766"},
@@ -12,7 +11,8 @@
       {"name": "Demon's Souls Remake #2 (часть 2)", "year": 2020, "id": "807205679"},
       {"name": "Demon's Souls Remake #3 / Cyberpunk 2077 - Night City Wire #3", "year": 2020, "id": "808249476"},
       {"name": "Demon's Souls Remake #4", "year": 2020, "id": "809354719"},
-      {"name": "Half-Life: Alyx #1 (заново, Chompski Challenge) / Demon's Souls Remake #1 (заново) / Days Gone #1 (заново, PS5)", "year": 2020, "id": "811962733"}
+      {"name": "Half-Life: Alyx #1 (заново, Chompski Challenge) / Demon's Souls Remake #1 (заново) / Days Gone #1 (заново, PS5)", "year": 2020, "id": "811962733"},
+      {"name": "Asus ROG Zephyrus G14 / Bugsnax", "year": 2020, "id": "812974689"}
     ]
   },
   "finished": {
@@ -364,7 +364,8 @@
       {"name": "Teardown", "year": 2020, "id": "786440219"},
       {"name": "Gears 5 / Black", "year": 2020, "id": "793751031"},
       {"name": "Marvel's Spider-Man: Miles Morales", "year": 2020, "id": "800233089.1"},
-      {"name": "Astro's Playroom (PS5)", "year": 2020, "id": "806256296"}
+      {"name": "Astro's Playroom (PS5)", "year": 2020, "id": "806256296"},
+      {"name": "Bugsnax", "year": 2020, "id": "812974689"}
     ]
   },
   "ongoing": {
@@ -668,7 +669,8 @@
       {"name": "Asus ROG Zephyrus G15", "year": 2020, "id": "650534841"},
       {"name": "Asus ROG Strix Scope", "year": 2020, "id": "675494632"},
       {"name": "Asus ROG Chariot Core / Xbox Series X", "year": 2020, "id": "792632708"},
-      {"name": "Sony PlayStation 5", "year": 2020, "id": "806256296"}
+      {"name": "Sony PlayStation 5", "year": 2020, "id": "806256296"},
+      {"name": "Asus ROG Zephyrus G14", "year": 2020, "id": "812974689"}
     ]
   }
 }
