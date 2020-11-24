@@ -6008,9 +6008,9 @@
   },
   "728015486": {
     "youtube": "-uu0kFcTFXk", "abs_start": "0:00", "abs_end": "3:45:10", "duration": "3:45:10",
-    "name": "World of Warcraft: Shadowlands / Marvel's Avengers #1 (часть 1)",
+    "name": "World of Warcraft: Shadowlands #1 / Marvel's Avengers #1 (часть 1)",
     "date": "2020-09-01",
-    "games": ["first", "marvel-avengers"]
+    "games": ["wow-shadowlands", "marvel-avengers"]
   },
   "728162478": {
     "abs_start": "0:00", "abs_end": "20:59", "duration": "0:00",
@@ -6355,7 +6355,6 @@
     "youtube": "pRwNwzUefnQ", "abs_start": "0:00", "abs_end": "7:13:51", "duration": "7:13:51",
     "name": "Asus ROG Chariot Core / Xbox Series X / Metal Gear Solid V: Phantom Pain (злое прохождение) #2",
     "date": "2020-11-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/792632708.torrent",
     "games": ["unboxing", "mgs-v-2020"]
   },
   "793751031": {
@@ -6493,10 +6492,18 @@
   },
   "812974689": {
     "abs_start": "0:00", "abs_end": "7:08:56", "duration": "0:00",
-    "name": "Asus ROG Zephyrus G14 / Bugsnax",
+    "name": "Asus ROG Zephyrus G14 / Bugsnax #1",
     "date": "2020-11-23",
     "direct": "https://bsufiles.thedrhax.pw/streams/812974689.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/812974689.torrent",
-    "games": ["unboxing", "first"]
+    "games": ["unboxing", "bugsnax"]
+  },
+  "814088106": {
+    "abs_start": "0:00", "abs_end": "7:19:00", "duration": "0:00",
+    "name": "World of Warcraft: Shadowlands #2 / Bugsnax #2",
+    "date": "2020-11-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/814088106.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/814088106.torrent",
+    "games": ["wow-shadowlands", "bugsnax"]
   }
 }

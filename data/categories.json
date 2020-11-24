@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Call of Duty: Black Ops Cold War #4 (1-й этап Cold War Rivals)", "year": 2020, "id": "802744738"},
       {"name": "Call of Duty: Black Ops Cold War #5 (2-й этап Cold War Rivals) / Destiny 2 #4 (Beyond Light с WeLoveGames)", "year": 2020, "id": "803926941"},
       {"name": "Call of Duty: Black Ops Cold War (сюжет) #2", "year": 2020, "id": "804979766"},
       {"name": "Sony PlayStation 5 / Astro's Playroom (PS5) / Demon's Souls Remake #1", "year": 2020, "id": "806256296"},
@@ -12,7 +11,8 @@
       {"name": "Demon's Souls Remake #3 / Cyberpunk 2077 - Night City Wire #3", "year": 2020, "id": "808249476"},
       {"name": "Demon's Souls Remake #4", "year": 2020, "id": "809354719"},
       {"name": "Half-Life: Alyx #1 (заново, Chompski Challenge) / Demon's Souls Remake #1 (заново) / Days Gone #1 (заново, PS5)", "year": 2020, "id": "811962733"},
-      {"name": "Asus ROG Zephyrus G14 / Bugsnax", "year": 2020, "id": "812974689"}
+      {"name": "Asus ROG Zephyrus G14 / Bugsnax #1", "year": 2020, "id": "812974689"},
+      {"name": "World of Warcraft: Shadowlands #2 / Bugsnax #2", "year": 2020, "id": "814088106"}
     ]
   },
   "finished": {
@@ -195,7 +195,8 @@
       {"name": "Paranormal Entities", "year": 2020, "id": "785524800"},
       {"name": "Metal Gear Solid V: Ground Zeroes", "year": 2020, "id": "791632745"},
       {"name": "Call of Duty: Black Ops Cold War (сюжет)", "year": 2020, "id": "cod-bo-cw"},
-      {"name": "Demon's Souls Remake", "year": 2020, "id": "demons-souls-remake"}
+      {"name": "Demon's Souls Remake", "year": 2020, "id": "demons-souls-remake"},
+      {"name": "Bugsnax", "year": 2020, "id": "bugsnax"}
     ]
   },
   "first": {
@@ -343,7 +344,6 @@
       {"name": "Battletoads", "year": 2020, "id": "720973722"},
       {"name": "Observer: System Redux (демо)", "year": 2020, "id": "725080998"},
       {"name": "Windbound / Mr. Prepper", "year": 2020, "id": "726104659"},
-      {"name": "World of Warcraft: Shadowlands", "year": 2020, "id": "728015486"},
       {"name": "Tony Hawk's Pro Skater 1+2", "year": 2020, "id": "729970116"},
       {"name": "Inmost", "year": 2020, "id": "731025039"},
       {"name": "Craftopia / Streamer Life Simulator", "year": 2020, "id": "734046513"},
@@ -364,14 +364,14 @@
       {"name": "Teardown", "year": 2020, "id": "786440219"},
       {"name": "Gears 5 / Black", "year": 2020, "id": "793751031"},
       {"name": "Marvel's Spider-Man: Miles Morales", "year": 2020, "id": "800233089.1"},
-      {"name": "Astro's Playroom (PS5)", "year": 2020, "id": "806256296"},
-      {"name": "Bugsnax", "year": 2020, "id": "812974689"}
+      {"name": "Astro's Playroom (PS5)", "year": 2020, "id": "806256296"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "Ghostrunner", "year": 2020, "id": "ghostrunner"},
+      {"name": "World of Warcraft: Shadowlands", "year": 2020, "id": "wow-shadowlands"},
       {"name": "Watch Dogs: Legion", "year": 2020, "id": "watch-dogs"},
       {"name": "Metal Gear Solid V: Phantom Pain (злое прохождение)", "year": 2020, "id": "mgs-v-2020"},
       {"name": "Assassin's Creed: Valhalla", "year": 2020, "id": "ac-valhalla"}
