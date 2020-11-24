@@ -2108,7 +2108,6 @@
         { "name": "Windbound" },
         { "name": "Mr. Prepper", "start": "3:40:10" }
       ] },
-      { "name": "World of Warcraft: Shadowlands", "twitch": "728015486" },
       { "name": "Tony Hawk's Pro Skater 1+2", "twitch": "729970116", "start": "6:19:03" },
       { "name": "Inmost", "twitch": "731025039" },
       { "twitch": "734046513", "subrefs": [
@@ -2149,8 +2148,25 @@
         { "name": "Black", "start": "1:46:55" }
       ] },
       { "name": "Marvel's Spider-Man: Miles Morales", "twitch": "800233089", "segment": 1 },
-      { "name": "Astro's Playroom (PS5)", "twitch": "806256296", "start": "1:05:26" },
-      { "name": "Bugsnax", "twitch": "812974689", "start": "1:47:01" }
+      { "name": "Astro's Playroom (PS5)", "twitch": "806256296", "start": "1:05:26" }
+    ]
+  },
+  {
+    "name": "Bugsnax",
+    "category": "finished",
+    "id": "bugsnax",
+    "streams": [
+      { "name": "1", "twitch": "812974689", "start": "1:47:01" },
+      { "name": "2", "twitch": "814088106", "start": "2:42:09" }
+    ]
+  },
+  {
+    "name": "World of Warcraft: Shadowlands",
+    "category": "ongoing",
+    "id": "wow-shadowlands",
+    "streams": [
+      { "name": "1", "twitch": "728015486" },
+      { "name": "2", "twitch": "814088106" }
     ]
   },
   {
