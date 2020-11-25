@@ -6361,14 +6361,12 @@
     "youtube": "JfRite_R5po", "abs_start": "0:00", "abs_end": "5:58:25", "duration": "5:58:25",
     "name": "Тест Xbox Series X / Gears 5 / Black / Forza Horizon 4 #2 / Assassin's Creed: Valhalla - Первый взгляд",
     "date": "2020-11-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/793751031.torrent",
     "games": ["other", "first", "forza-horizon-4", "ac-valhalla"]
   },
   "794840118": {
     "youtube": "_J7K5FmpiYE", "abs_start": "0:00", "abs_end": "8:52:28", "duration": "8:52:28",
     "name": "Terminator: Resistance - Infiltrator Mode / Assassin's Creed: Valhalla #1",
     "date": "2020-11-07",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/794840118.torrent",
     "games": ["terminator-resistance", "ac-valhalla"]
   },
   "795935885": {
@@ -6503,5 +6501,13 @@
     "date": "2020-11-24",
     "torrent": "https://bsufiles.thedrhax.pw/streams/814088106.torrent",
     "games": ["wow-shadowlands", "bugsnax"]
+  },
+  "815193918": {
+    "abs_start": "0:00", "abs_end": "9:42:24", "duration": "0:00",
+    "name": "Розыгрыш флешек Asus ROG и ACRONYM / Gears of War 4 #6",
+    "date": "2020-11-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/815193918.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/815193918.torrent",
+    "games": ["events", "gears-of-war-4"]
   }
 }

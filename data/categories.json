@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Call of Duty: Black Ops Cold War #5 (2-й этап Cold War Rivals) / Destiny 2 #4 (Beyond Light с WeLoveGames)", "year": 2020, "id": "803926941"},
       {"name": "Call of Duty: Black Ops Cold War (сюжет) #2", "year": 2020, "id": "804979766"},
       {"name": "Sony PlayStation 5 / Astro's Playroom (PS5) / Demon's Souls Remake #1", "year": 2020, "id": "806256296"},
       {"name": "Demon's Souls Remake #2 (часть 1)", "year": 2020, "id": "807121392"},
@@ -12,7 +11,8 @@
       {"name": "Demon's Souls Remake #4", "year": 2020, "id": "809354719"},
       {"name": "Half-Life: Alyx #1 (заново, Chompski Challenge) / Demon's Souls Remake #1 (заново) / Days Gone #1 (заново, PS5)", "year": 2020, "id": "811962733"},
       {"name": "Asus ROG Zephyrus G14 / Bugsnax #1", "year": 2020, "id": "812974689"},
-      {"name": "World of Warcraft: Shadowlands #2 / Bugsnax #2", "year": 2020, "id": "814088106"}
+      {"name": "World of Warcraft: Shadowlands #2 / Bugsnax #2", "year": 2020, "id": "814088106"},
+      {"name": "Розыгрыш флешек Asus ROG и ACRONYM / Gears of War 4 #6", "year": 2020, "id": "815193918"}
     ]
   },
   "finished": {
@@ -370,6 +370,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Gears of War 4", "year": 2020, "id": "gears-of-war-4"},
       {"name": "Ghostrunner", "year": 2020, "id": "ghostrunner"},
       {"name": "World of Warcraft: Shadowlands", "year": 2020, "id": "wow-shadowlands"},
       {"name": "Watch Dogs: Legion", "year": 2020, "id": "watch-dogs"},
@@ -461,7 +462,6 @@
       {"name": "Nioh 2", "year": 2019, "id": "nioh-2"},
       {"name": "Spore", "year": 2019, "id": "spore"},
       {"name": "The Sims 4", "year": 2020, "id": "sims-4"},
-      {"name": "Gears of War 4", "year": 2020, "id": "gears-of-war-4"},
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "id": "one-punch-man"},
       {"name": "Ori and the Will of the Wisps", "year": 2020, "id": "ori-wotw"},
       {"name": "Yes, Your Grace", "year": 2020, "id": "yes-your-grace"},
@@ -633,7 +633,8 @@
       {"name": "Игровые места зрителей", "year": 2020, "id": "setups"},
       {"name": "Розыгрыш Asus ROG GA502IV", "year": 2020, "id": "768182935"},
       {"name": "Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"},
-      {"name": "Тест Xbox Series X", "year": 2020, "id": "793751031"}
+      {"name": "Тест Xbox Series X", "year": 2020, "id": "793751031"},
+      {"name": "Розыгрыш флешек Asus ROG и ACRONYM", "year": 2020, "id": "815193918"}
     ]
   },
   "expos": {
