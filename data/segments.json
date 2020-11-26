@@ -6373,7 +6373,6 @@
     "youtube": "GofIUIqsvPc", "abs_start": "0:00", "abs_end": "8:40:31", "duration": "8:40:31",
     "name": "Assassin's Creed: Valhalla #2 / Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House / Tricky Towers #26",
     "date": "2020-11-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/795935885.torrent",
     "games": ["ac-valhalla", "co-op", "tricky-towers"]
   },
   "796958566": {
@@ -6508,5 +6507,13 @@
     "date": "2020-11-25",
     "torrent": "https://bsufiles.thedrhax.pw/streams/815193918.torrent",
     "games": ["events", "gears-of-war-4"]
+  },
+  "816312412": {
+    "abs_start": "0:00", "abs_end": "4:04:56", "duration": "0:00",
+    "name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate",
+    "date": "2020-11-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/816312412.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/816312412.torrent",
+    "games": ["first"]
   }
 }
