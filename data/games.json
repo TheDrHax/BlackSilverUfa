@@ -2149,12 +2149,21 @@
         { "name": "Black", "start": "1:46:55" }
       ] },
       { "name": "Marvel's Spider-Man: Miles Morales", "twitch": "800233089", "segment": 1 },
-      { "name": "Astro's Playroom (PS5)", "twitch": "806256296", "start": "1:05:26" },
       { "twitch": "816312412", "subrefs": [
         { "name": "The Falconeer" },
         { "name": "Prodeus", "start": "1:31:25" },
         { "name": "Mortal Kombat 11 Ultimate", "start": "2:04:25" }
-      ] }
+      ] },
+      { "name": "Immortals Fenyx Rising", "twitch": "817321307", "start": "4:02:43" }
+    ]
+  },
+  {
+    "name": "Astro's Playroom",
+    "category": "finished",
+    "id": "astros-playroom",
+    "streams": [
+      { "name": "1", "twitch": "806256296", "start": "1:05:26" },
+      { "name": "2", "twitch": "817321307" }
     ]
   },
   {
