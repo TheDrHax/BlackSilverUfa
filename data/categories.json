@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Sony PlayStation 5 / Astro's Playroom (PS5) / Demon's Souls Remake #1", "year": 2020, "id": "806256296"},
       {"name": "Demon's Souls Remake #2 (часть 1)", "year": 2020, "id": "807121392"},
       {"name": "Demon's Souls Remake #2 (часть 2)", "year": 2020, "id": "807205679"},
       {"name": "Demon's Souls Remake #3 / Cyberpunk 2077 - Night City Wire #3", "year": 2020, "id": "808249476"},
@@ -12,7 +11,8 @@
       {"name": "Asus ROG Zephyrus G14 / Bugsnax #1", "year": 2020, "id": "812974689"},
       {"name": "World of Warcraft: Shadowlands #2 / Bugsnax #2", "year": 2020, "id": "814088106"},
       {"name": "Розыгрыш флешек Asus ROG и ACRONYM / Gears of War 4 #6", "year": 2020, "id": "815193918"},
-      {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"}
+      {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
+      {"name": "Astro's Playroom #2 / Immortals Fenyx Rising", "year": 2020, "id": "817321307"}
     ]
   },
   "finished": {
@@ -195,6 +195,7 @@
       {"name": "Paranormal Entities", "year": 2020, "id": "785524800"},
       {"name": "Metal Gear Solid V: Ground Zeroes", "year": 2020, "id": "791632745"},
       {"name": "Call of Duty: Black Ops Cold War (сюжет)", "year": 2020, "id": "cod-bo-cw"},
+      {"name": "Astro's Playroom", "year": 2020, "id": "astros-playroom"},
       {"name": "Demon's Souls Remake", "year": 2020, "id": "demons-souls-remake"},
       {"name": "Bugsnax", "year": 2020, "id": "bugsnax"}
     ]
@@ -364,8 +365,8 @@
       {"name": "Teardown", "year": 2020, "id": "786440219"},
       {"name": "Gears 5 / Black", "year": 2020, "id": "793751031"},
       {"name": "Marvel's Spider-Man: Miles Morales", "year": 2020, "id": "800233089.1"},
-      {"name": "Astro's Playroom (PS5)", "year": 2020, "id": "806256296"},
-      {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"}
+      {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
+      {"name": "Immortals Fenyx Rising", "year": 2020, "id": "817321307"}
     ]
   },
   "ongoing": {

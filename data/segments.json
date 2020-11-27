@@ -6447,10 +6447,10 @@
   },
   "806256296": {
     "youtube": "N6Qc_8N0H-8", "abs_start": "0:00", "abs_end": "5:59:51", "duration": "5:59:51",
-    "name": "Sony PlayStation 5 / Astro's Playroom (PS5) / Demon's Souls Remake #1",
+    "name": "Sony PlayStation 5 / Astro's Playroom #1 / Demon's Souls Remake #1",
     "date": "2020-11-17",
     "torrent": "https://bsufiles.thedrhax.pw/streams/806256296.torrent",
-    "games": ["unboxing", "first", "demons-souls-remake"]
+    "games": ["unboxing", "astros-playroom", "demons-souls-remake"]
   },
   "807121392": {
     "youtube": "K-RCGBhdupo", "abs_start": "0:00", "abs_end": "2:55:47", "duration": "2:55:47",
@@ -6514,5 +6514,13 @@
     "date": "2020-11-26",
     "torrent": "https://bsufiles.thedrhax.pw/streams/816312412.torrent",
     "games": ["first"]
+  },
+  "817321307": {
+    "abs_start": "0:00", "abs_end": "6:04:54", "duration": "0:00",
+    "name": "Astro's Playroom #2 / Immortals Fenyx Rising",
+    "date": "2020-11-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/817321307.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/817321307.torrent",
+    "games": ["astros-playroom", "first"]
   }
 }
