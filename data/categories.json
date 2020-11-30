@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Demon's Souls Remake #2 (часть 1)", "year": 2020, "id": "807121392"},
       {"name": "Demon's Souls Remake #2 (часть 2)", "year": 2020, "id": "807205679"},
       {"name": "Demon's Souls Remake #3 / Cyberpunk 2077 - Night City Wire #3", "year": 2020, "id": "808249476"},
       {"name": "Demon's Souls Remake #4", "year": 2020, "id": "809354719"},
@@ -12,7 +11,8 @@
       {"name": "World of Warcraft: Shadowlands #2 / Bugsnax #2", "year": 2020, "id": "814088106"},
       {"name": "Розыгрыш флешек Asus ROG и ACRONYM / Gears of War 4 #6", "year": 2020, "id": "815193918"},
       {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
-      {"name": "Astro's Playroom #2 / Immortals Fenyx Rising", "year": 2020, "id": "817321307"}
+      {"name": "Astro's Playroom #2 / Immortals Fenyx Rising", "year": 2020, "id": "817321307"},
+      {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"}
     ]
   },
   "finished": {
@@ -197,7 +197,8 @@
       {"name": "Call of Duty: Black Ops Cold War (сюжет)", "year": 2020, "id": "cod-bo-cw"},
       {"name": "Astro's Playroom", "year": 2020, "id": "astros-playroom"},
       {"name": "Demon's Souls Remake", "year": 2020, "id": "demons-souls-remake"},
-      {"name": "Bugsnax", "year": 2020, "id": "bugsnax"}
+      {"name": "Bugsnax", "year": 2020, "id": "bugsnax"},
+      {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"}
     ]
   },
   "first": {
@@ -373,9 +374,7 @@
     "name": "Активные",
     "games": [
       {"name": "Gears of War 4", "year": 2020, "id": "gears-of-war-4"},
-      {"name": "Ghostrunner", "year": 2020, "id": "ghostrunner"},
       {"name": "World of Warcraft: Shadowlands", "year": 2020, "id": "wow-shadowlands"},
-      {"name": "Watch Dogs: Legion", "year": 2020, "id": "watch-dogs"},
       {"name": "Metal Gear Solid V: Phantom Pain (злое прохождение)", "year": 2020, "id": "mgs-v-2020"},
       {"name": "Assassin's Creed: Valhalla", "year": 2020, "id": "ac-valhalla"}
     ]
@@ -468,13 +467,15 @@
       {"name": "Ori and the Will of the Wisps", "year": 2020, "id": "ori-wotw"},
       {"name": "Yes, Your Grace", "year": 2020, "id": "yes-your-grace"},
       {"name": "Persona 5: The Royal", "year": 2020, "id": "persona-5-royal"},
+      {"name": "Ghostrunner", "year": 2020, "id": "ghostrunner"},
       {"name": "Mafia II: Definitive Edition", "year": 2020, "id": "mafia-2-definitive"},
       {"name": "Beyond Blue", "year": 2020, "id": "beyond-blue"},
       {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "id": "re7"},
       {"name": "Mortal Shell", "year": 2020, "id": "mortal-shell"},
       {"name": "Destroy All Humans!", "year": 2020, "id": "destroy-all-humans"},
       {"name": "Far Cry 3", "year": 2020, "id": "far-cry-3"},
-      {"name": "Hellpoint", "year": 2020, "id": "hellpoint"}
+      {"name": "Hellpoint", "year": 2020, "id": "hellpoint"},
+      {"name": "Watch Dogs: Legion", "year": 2020, "id": "watch-dogs"}
     ]
   },
   "co-op": {
