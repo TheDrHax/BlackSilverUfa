@@ -2155,7 +2155,8 @@
         { "name": "Prodeus", "start": "1:31:25" },
         { "name": "Mortal Kombat 11 Ultimate", "start": "2:04:25" }
       ] },
-      { "name": "Immortals Fenyx Rising", "twitch": "817321307", "start": "4:02:43" }
+      { "name": "Immortals Fenyx Rising", "twitch": "817321307", "start": "4:02:43" },
+      { "name": "Road Rash 3", "twitch": "821805079" }
     ]
   },
   {
@@ -2778,7 +2779,7 @@
   },
   {
     "name": "Gears of War 4",
-    "category": "ongoing",
+    "category": "finished",
     "id": "gears-of-war-4",
     "streams": [
       { "name": "1", "twitch": "535873254" },
@@ -2786,7 +2787,16 @@
       { "name": "3", "twitch": "548170121", "start": "2:04:20" },
       { "name": "4", "twitch": "607002083", "start": "44:54" },
       { "name": "5", "twitch": "623734401", "start": "3:42:56" },
-      { "name": "6", "twitch": "815193918", "start": "2:05:51" }
+      { "name": "6", "twitch": "815193918", "start": "2:05:51" },
+      { "name": "7", "twitch": "821805079", "start": "2:05:33" }
+    ]
+  },
+  {
+    "name": "Gears 5",
+    "category": "ongoing",
+    "id": "gears-5",
+    "streams": [
+      { "name": "1", "twitch": "821805079", "start": "5:21:12" }
     ]
   },
   {
