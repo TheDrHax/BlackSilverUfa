@@ -6379,14 +6379,12 @@
     "youtube": "iAhHsKTjKcI", "abs_start": "0:00", "abs_end": "10:00:15", "duration": "10:00:15",
     "name": "Assassin's Creed: Valhalla #3",
     "date": "2020-11-09",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/796958566.torrent",
     "games": ["ac-valhalla"]
   },
   "797983663": {
     "youtube": "XlWQs5dExRg", "abs_start": "0:00", "abs_end": "8:49:47", "duration": "8:49:47",
     "name": "Assassin's Creed: Valhalla #4",
     "date": "2020-11-10",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/797983663.torrent",
     "games": ["ac-valhalla"]
   },
   "799135139": {
@@ -6528,5 +6526,13 @@
     "date": "2020-11-30",
     "torrent": "https://bsufiles.thedrhax.pw/streams/820741630.torrent",
     "games": ["single"]
+  },
+  "821805079": {
+    "abs_start": "0:00", "abs_end": "7:25:21", "duration": "0:00",
+    "name": "Road Rash 3 / Gears of War 4 #7 / Gears 5 #1",
+    "date": "2020-12-01",
+    "direct": "https://bsufiles.thedrhax.pw/streams/821805079.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/821805079.torrent",
+    "games": ["first", "gears-of-war-4", "gears-5"]
   }
 }
