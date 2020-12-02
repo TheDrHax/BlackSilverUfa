@@ -1710,7 +1710,8 @@
       { "name": "Розыгрыш мерча Metro Exodus", "twitch": "572721394" },
       { "name": "Розыгрыш Asus ROG Strix Scope", "twitch": "676500778" },
       { "name": "Розыгрыш Asus ROG GA502IV", "twitch": "768182935" },
-      { "name": "Розыгрыш флешек Asus ROG и ACRONYM", "twitch": "815193918" }
+      { "name": "Розыгрыш флешек Asus ROG и ACRONYM", "twitch": "815193918" },
+      { "name": "Розыгрыш NVIDIA GeForce RTX 2080 Super", "twitch": "823035178" }
     ]
   },
   {
@@ -2156,7 +2157,12 @@
         { "name": "Mortal Kombat 11 Ultimate", "start": "2:04:25" }
       ] },
       { "name": "Immortals Fenyx Rising", "twitch": "817321307", "start": "4:02:43" },
-      { "name": "Road Rash 3", "twitch": "821805079" }
+      { "name": "Road Rash 3", "twitch": "821805079" },
+      { "twitch": "823035178", "subrefs": [
+        { "name": "XIII Remake", "start": "21:52" },
+        { "name": "Chronos: Before the Ashes", "start": "2:01:37" },
+        { "name": "Twin Mirror", "start": "4:57:56" }
+      ] }
     ]
   },
   {
