@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Demon's Souls Remake #3 / Cyberpunk 2077 - Night City Wire #3", "year": 2020, "id": "808249476"},
       {"name": "Demon's Souls Remake #4", "year": 2020, "id": "809354719"},
       {"name": "Half-Life: Alyx #1 (заново, Chompski Challenge) / Demon's Souls Remake #1 (заново) / Days Gone #1 (заново, PS5)", "year": 2020, "id": "811962733"},
       {"name": "Asus ROG Zephyrus G14 / Bugsnax #1", "year": 2020, "id": "812974689"},
@@ -12,7 +11,8 @@
       {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
       {"name": "Astro's Playroom #2 / Immortals Fenyx Rising", "year": 2020, "id": "817321307"},
       {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"},
-      {"name": "Road Rash 3 / Gears of War 4 #7 / Gears 5 #1", "year": 2020, "id": "821805079"}
+      {"name": "Road Rash 3 / Gears of War 4 #7 / Gears 5 #1", "year": 2020, "id": "821805079"},
+      {"name": "Розыгрыш NVIDIA GeForce RTX 2080 Super / XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"}
     ]
   },
   "finished": {
@@ -369,7 +369,8 @@
       {"name": "Marvel's Spider-Man: Miles Morales", "year": 2020, "id": "800233089.1"},
       {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
       {"name": "Immortals Fenyx Rising", "year": 2020, "id": "817321307"},
-      {"name": "Road Rash 3", "year": 2020, "id": "821805079"}
+      {"name": "Road Rash 3", "year": 2020, "id": "821805079"},
+      {"name": "XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"}
     ]
   },
   "ongoing": {
@@ -639,7 +640,8 @@
       {"name": "Розыгрыш Asus ROG GA502IV", "year": 2020, "id": "768182935"},
       {"name": "Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"},
       {"name": "Тест Xbox Series X", "year": 2020, "id": "793751031"},
-      {"name": "Розыгрыш флешек Asus ROG и ACRONYM", "year": 2020, "id": "815193918"}
+      {"name": "Розыгрыш флешек Asus ROG и ACRONYM", "year": 2020, "id": "815193918"},
+      {"name": "Розыгрыш NVIDIA GeForce RTX 2080 Super", "year": 2020, "id": "823035178"}
     ]
   },
   "expos": {
