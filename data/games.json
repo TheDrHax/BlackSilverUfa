@@ -2087,7 +2087,6 @@
       { "name": "The Disappearance of the Mitchels", "twitch": "645734946", "start": "5:15:53" },
       { "name": "In Sound Mind (демо)", "twitch": "650534841", "start": "1:31:36" },
       { "twitch": "653411860", "subrefs": [
-        { "name": "Haven" },
         { "name": "Hardspace: Shipbreaker", "start": "1:53:28" },
         { "name": "Gloomwood", "start": "2:33:58" },
         { "name": "Among Trees", "start": "3:59:59" },
@@ -2156,13 +2155,34 @@
         { "name": "Prodeus", "start": "1:31:25" },
         { "name": "Mortal Kombat 11 Ultimate", "start": "2:04:25" }
       ] },
-      { "name": "Immortals Fenyx Rising", "twitch": "817321307", "start": "4:02:43" },
       { "name": "Road Rash 3", "twitch": "821805079" },
       { "twitch": "823035178", "subrefs": [
         { "name": "XIII Remake", "start": "21:52" },
         { "name": "Chronos: Before the Ashes", "start": "2:01:37" },
         { "name": "Twin Mirror", "start": "4:57:56" }
+      ] },
+      { "twitch": "824147065", "subrefs": [
+        { "name": "Morbid: The Seven Acolytes" },
+        { "name": "The Life and Suffering of Sir Brante", "start": "2:57:48" }
       ] }
+    ]
+  },
+  {
+    "name": "Immortals Fenyx Rising",
+    "category": "ongoing",
+    "id": "immortals-fr",
+    "streams": [
+      { "name": "1", "twitch": "817321307", "start": "4:02:43" },
+      { "name": "2", "twitch": "824147065", "start": "3:59:44" }
+    ]
+  },
+  {
+    "name": "Haven",
+    "category": "ongoing",
+    "id": "haven",
+    "streams": [
+      { "name": "Демо", "twitch": "653411860" },
+      { "name": "1", "twitch": "824147065", "start": "1:33:42" }
     ]
   },
   {
