@@ -5705,9 +5705,9 @@
   },
   "653411860": {
     "youtube": "k13C51HA-RE", "abs_start": "0:00", "abs_end": "6:11:39", "duration": "6:11:39",
-    "name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest",
+    "name": "Haven - Демо / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest",
     "date": "2020-06-17",
-    "games": ["first"]
+    "games": ["haven", "first"]
   },
   "654380816": {
     "abs_start": "0:00", "abs_end": "7:32:11", "duration": "0:00",
@@ -6514,10 +6514,10 @@
   },
   "817321307": {
     "youtube": "5ZgT2e3rJdU", "abs_start": "0:00", "abs_end": "6:04:25", "duration": "6:04:25",
-    "name": "Astro's Playroom #2 / Immortals Fenyx Rising",
+    "name": "Astro's Playroom #2 / Immortals Fenyx Rising #1",
     "date": "2020-11-27",
     "torrent": "https://bsufiles.thedrhax.pw/streams/817321307.torrent",
-    "games": ["astros-playroom", "first"]
+    "games": ["astros-playroom", "immortals-fr"]
   },
   "820741630": {
     "youtube": "e5qyWVI1B80", "abs_start": "0:00", "abs_end": "5:31:26", "duration": "5:31:26",
@@ -6541,5 +6541,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/823035178.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/823035178.torrent",
     "games": ["events", "first"]
+  },
+  "824147065": {
+    "abs_start": "0:00", "abs_end": "7:22:36", "duration": "0:00",
+    "name": "Morbid: The Seven Acolytes / Haven #1 / The Life and Suffering of Sir Brante / Immortals Fenyx Rising #2",
+    "date": "2020-12-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/824147065.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/824147065.torrent",
+    "games": ["first", "haven", "immortals-fr"]
   }
 }

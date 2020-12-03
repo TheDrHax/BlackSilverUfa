@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Demon's Souls Remake #4", "year": 2020, "id": "809354719"},
       {"name": "Half-Life: Alyx #1 (заново, Chompski Challenge) / Demon's Souls Remake #1 (заново) / Days Gone #1 (заново, PS5)", "year": 2020, "id": "811962733"},
       {"name": "Asus ROG Zephyrus G14 / Bugsnax #1", "year": 2020, "id": "812974689"},
       {"name": "World of Warcraft: Shadowlands #2 / Bugsnax #2", "year": 2020, "id": "814088106"},
       {"name": "Розыгрыш флешек Asus ROG и ACRONYM / Gears of War 4 #6", "year": 2020, "id": "815193918"},
       {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
-      {"name": "Astro's Playroom #2 / Immortals Fenyx Rising", "year": 2020, "id": "817321307"},
+      {"name": "Astro's Playroom #2 / Immortals Fenyx Rising #1", "year": 2020, "id": "817321307"},
       {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"},
       {"name": "Road Rash 3 / Gears of War 4 #7 / Gears 5 #1", "year": 2020, "id": "821805079"},
-      {"name": "Розыгрыш NVIDIA GeForce RTX 2080 Super / XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"}
+      {"name": "Розыгрыш NVIDIA GeForce RTX 2080 Super / XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"},
+      {"name": "Morbid: The Seven Acolytes / Haven #1 / The Life and Suffering of Sir Brante / Immortals Fenyx Rising #2", "year": 2020, "id": "824147065"}
     ]
   },
   "finished": {
@@ -336,7 +336,7 @@
       {"name": "SOLUM", "year": 2020, "id": "644774531"},
       {"name": "The Disappearance of the Mitchels", "year": 2020, "id": "645734946"},
       {"name": "In Sound Mind (демо)", "year": 2020, "id": "650534841"},
-      {"name": "Haven / Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "id": "653411860"},
+      {"name": "Hardspace: Shipbreaker / Gloomwood / Among Trees / Hello Guest", "year": 2020, "id": "653411860"},
       {"name": "SpongeBob SquarePants: Battle for Bikini Bottom — Rehydrated", "year": 2020, "id": "661040084"},
       {"name": "Fury Unleashed", "year": 2020, "id": "669777336"},
       {"name": "Trackmania", "year": 2020, "id": "677524120"},
@@ -368,17 +368,19 @@
       {"name": "Gears 5 / Black", "year": 2020, "id": "793751031"},
       {"name": "Marvel's Spider-Man: Miles Morales", "year": 2020, "id": "800233089.1"},
       {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
-      {"name": "Immortals Fenyx Rising", "year": 2020, "id": "817321307"},
       {"name": "Road Rash 3", "year": 2020, "id": "821805079"},
-      {"name": "XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"}
+      {"name": "XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"},
+      {"name": "Morbid: The Seven Acolytes / The Life and Suffering of Sir Brante", "year": 2020, "id": "824147065"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Haven", "year": 2020, "id": "haven"},
       {"name": "World of Warcraft: Shadowlands", "year": 2020, "id": "wow-shadowlands"},
       {"name": "Metal Gear Solid V: Phantom Pain (злое прохождение)", "year": 2020, "id": "mgs-v-2020"},
       {"name": "Assassin's Creed: Valhalla", "year": 2020, "id": "ac-valhalla"},
+      {"name": "Immortals Fenyx Rising", "year": 2020, "id": "immortals-fr"},
       {"name": "Gears 5", "year": 2020, "id": "gears-5"}
     ]
   },
