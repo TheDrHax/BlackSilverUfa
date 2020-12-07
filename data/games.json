@@ -1538,7 +1538,11 @@
       { "name": "Кужлёвка (демо)", "twitch": "785416056" },
       { "name": "Paranormal Entities", "twitch": "785524800" },
       { "name": "Metal Gear Solid V: Ground Zeroes", "twitch": "791632745" },
-      { "name": "Boogerman: A Pick and Flick Adventure", "twitch": "820741630" }
+      { "name": "Boogerman: A Pick and Flick Adventure", "twitch": "820741630" },
+      { "twitch": "828815728", "subrefs": [
+        { "name": "Stasis: Bone Totem (демо)", "start": "3:07:42" },
+        { "name": "DARQ: Complete Edition", "start": "4:43:52" }
+      ] }
     ]
   },
   {
@@ -2180,6 +2184,10 @@
       { "twitch": "824147065", "subrefs": [
         { "name": "Morbid: The Seven Acolytes" },
         { "name": "The Life and Suffering of Sir Brante", "start": "2:57:48" }
+      ] },
+      { "twitch": "828815728", "subrefs": [
+        { "name": "El Hijo: A Wild West Game" },
+        { "name": "Worms Rumble", "start": "2:04:09" }
       ] }
     ]
   },
