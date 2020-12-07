@@ -6409,14 +6409,12 @@
     "youtube": "plgno45snwg", "official": false, "abs_start": "0:00", "abs_end": "7:04:52", "duration": "7:04:52",
     "name": "Call of Duty: Black Ops Cold War #3",
     "date": "2020-11-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/801377729.torrent",
     "games": ["cod-bocw"]
   },
   "801377729.1": {
     "youtube": "DTRtUFC-uvg", "abs_start": "0:00", "abs_end": "2:50:06", "duration": "2:50:06",
     "name": "Call of Duty: Black Ops Cold War (сюжет) #1",
     "date": "2020-11-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/801377729.torrent",
     "games": ["cod-bo-cw"]
   },
   "802744738": {
@@ -6551,5 +6549,13 @@
     "date": "2020-12-06",
     "torrent": "https://bsufiles.thedrhax.pw/streams/827759529.torrent",
     "games": ["co-op"]
+  },
+  "828815728": {
+    "abs_start": "0:00", "abs_end": "6:36:57", "duration": "0:00",
+    "name": "El Hijo: A Wild West Game / Worms Rumble / Stasis: Bone Totem (демо) / DARQ: Complete Edition",
+    "date": "2020-12-07",
+    "direct": "https://bsufiles.thedrhax.pw/streams/828815728.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/828815728.torrent",
+    "games": ["first", "single"]
   }
 }

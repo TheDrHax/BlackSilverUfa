@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Asus ROG Zephyrus G14 / Bugsnax #1", "year": 2020, "id": "812974689"},
       {"name": "World of Warcraft: Shadowlands #2 / Bugsnax #2", "year": 2020, "id": "814088106"},
       {"name": "Розыгрыш флешек Asus ROG и ACRONYM / Gears of War 4 #6", "year": 2020, "id": "815193918"},
       {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
@@ -12,7 +11,8 @@
       {"name": "Road Rash 3 / Gears of War 4 #7 / Gears 5 #1", "year": 2020, "id": "821805079"},
       {"name": "Розыгрыш NVIDIA GeForce RTX 2080 Super / XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"},
       {"name": "Morbid: The Seven Acolytes / Haven #1 / The Life and Suffering of Sir Brante / Immortals Fenyx Rising #2", "year": 2020, "id": "824147065"},
-      {"name": "Gartic.io / In Silence / Scribble It!", "year": 2020, "id": "827759529"}
+      {"name": "Gartic.io / In Silence / Scribble It!", "year": 2020, "id": "827759529"},
+      {"name": "El Hijo: A Wild West Game / Worms Rumble / Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"}
     ]
   },
   "finished": {
@@ -199,7 +199,8 @@
       {"name": "Astro's Playroom", "year": 2020, "id": "astros-playroom"},
       {"name": "Demon's Souls Remake", "year": 2020, "id": "demons-souls-remake"},
       {"name": "Bugsnax", "year": 2020, "id": "bugsnax"},
-      {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"}
+      {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"},
+      {"name": "Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"}
     ]
   },
   "first": {
@@ -370,7 +371,8 @@
       {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
       {"name": "Road Rash 3", "year": 2020, "id": "821805079"},
       {"name": "XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"},
-      {"name": "Morbid: The Seven Acolytes / The Life and Suffering of Sir Brante", "year": 2020, "id": "824147065"}
+      {"name": "Morbid: The Seven Acolytes / The Life and Suffering of Sir Brante", "year": 2020, "id": "824147065"},
+      {"name": "El Hijo: A Wild West Game / Worms Rumble", "year": 2020, "id": "828815728"}
     ]
   },
   "ongoing": {
