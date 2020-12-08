@@ -447,7 +447,10 @@
   "272058083": [
     { "youtube": "chF48xAxDys", "offset": "2:20" },
     { "youtube": "ZMCvY2zIatU", "offset": "38:10", "official": false },
-    { "direct": "https://bsufiles.thedrhax.pw/streams/permanent/272058083.2.mp4", "offset": "2:53:19" }
+    {
+      "youtube": "AULuROy92d8", "offset": "2:53:19", "official": false,
+      "note": "Запись предоставил <a href=\"https://vk.com/87862793_456241306\">Олег Степанов</a>."
+    }
   ],
   "272205808": [
     { "youtube": "5l10zcURUpI", "offset": "7:17" },
