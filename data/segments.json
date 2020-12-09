@@ -6556,5 +6556,13 @@
     "date": "2020-12-07",
     "torrent": "https://bsufiles.thedrhax.pw/streams/828815728.torrent",
     "games": ["first", "single"]
+  },
+  "830961978": {
+    "abs_start": "0:00", "abs_end": "11:02:45", "duration": "0:00",
+    "name": "Cyberpunk 2077 #1",
+    "date": "2020-12-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/830961978.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/830961978.torrent",
+    "games": ["cyberpunk-2077"]
   }
 }
