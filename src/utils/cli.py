@@ -143,6 +143,7 @@ def cmd_add(stream, segment_kwargs):
         # find subrefs that are on the left and right of the covered ones
         left, center, right = [], [], []
         for subref in ref.subrefs:
+            subref.hidden = False
             if subref._coverage < 50:
                 if len(center) == 0:
                     left.append(subref)
