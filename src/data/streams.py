@@ -109,7 +109,10 @@ class Segment:
 
     @property
     def all_subrefs(self) -> List['SubReference']:
-        return sorted([sr for r in self.references for sr in r.subrefs],
+        return sorted([sr
+                       for r in self.references
+                       for sr in r.subrefs
+                       if not sr.hidden],
                       key=lambda sr: sr.start)
 
     @property
@@ -509,7 +512,7 @@ class SegmentReference:
     def name(self) -> str:
         names = []
         for subref in self.subrefs:
-            if subref.name not in names:
+            if subref.name not in names and not subref.hidden:
                 names.append(subref.name)
         return ' / '.join(names)
 
@@ -624,20 +627,18 @@ class SegmentReference:
 class SubReference:
     name: str = attr.ib()
     start: Timecode = attr.ib(0, converter=Timecode)
-    silent: bool = False
+    hidden: bool = attr.ib(False)
     parent: SegmentReference = attr.ib()
     _blacklist: Blacklist = attr.ib({},
         converter=lambda x: x if isinstance(x, Blacklist) else Blacklist(**x))
 
     def __setattr__(self, name, value):
         if name == 'parent':
-            if hasattr(self, 'parent') and self.parent and not self.silent:
+            if hasattr(self, 'parent') and self.parent:
                 self.parent.subrefs.remove(self)
 
             super().__setattr__(name, value)
-
-            if not self.silent:
-                self.parent.subrefs.add(self)
+            self.parent.subrefs.add(self)
 
         return super().__setattr__(name, value)
 
