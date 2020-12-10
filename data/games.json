@@ -1142,11 +1142,12 @@
       { "name": "The Game Awards 2019 (обзор)", "twitch": "520877239" },
       { "name": "Презентация PlayStation 5", "twitch": "569683310", "start": "3:03:45" },
       { "name": "Xbox Inside 2020", "twitch": "613793616", "start": "1:59:40" },
-      { "name": "Gamescom 2020", "twitch": "723011325", "start": "4:48:39" }
+      { "name": "Gamescom 2020", "twitch": "723011325", "start": "4:48:39" },
+      { "name": "неПрофессиональный The Game Awards 2020", "twitch": "832197729", "start": "12:34:01" }
     ]
   },
   {
-    "name": "Cyberpunk 2077 - Night City Wire",
+    "name": "Night City Wire",
     "category": "expos",
     "id": "cp2077-ncw",
     "streams": [
@@ -1550,7 +1551,8 @@
     "category": "ongoing",
     "id": "cyberpunk-2077",
     "streams": [
-      { "name": "1", "twitch": "830961978" }
+      { "name": "1", "twitch": "830961978" },
+      { "name": "2", "twitch": "832197729" }
     ]
   },
   {
