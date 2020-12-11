@@ -1143,7 +1143,7 @@
       { "name": "Презентация PlayStation 5", "twitch": "569683310", "start": "3:03:45" },
       { "name": "Xbox Inside 2020", "twitch": "613793616", "start": "1:59:40" },
       { "name": "Gamescom 2020", "twitch": "723011325", "start": "4:48:39" },
-      { "name": "неПрофессиональный The Game Awards 2020", "twitch": "832197729", "segment": 1 }
+      { "name": "неПрофессиональный The Game Awards 2020", "twitch": "832197729", "segment": 1, "start": "12:34:01" }
     ]
   },
   {
@@ -1552,7 +1552,8 @@
     "id": "cyberpunk-2077",
     "streams": [
       { "name": "1", "twitch": "830961978" },
-      { "name": "2", "twitch": "832197729", "segment": 0 }
+      { "name": "2 (часть 1)", "twitch": "832197729", "segment": 0 },
+      { "name": "2 (часть 2)", "twitch": "832197729", "segment": 1 }
     ]
   },
   {
