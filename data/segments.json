@@ -6433,21 +6433,18 @@
     "youtube": "ylgs2INFKMc", "abs_start": "0:00", "abs_end": "4:52:49", "duration": "4:52:49",
     "name": "Call of Duty: Black Ops Cold War (сюжет) #2",
     "date": "2020-11-16",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/804979766.torrent",
     "games": ["cod-bo-cw"]
   },
   "806256296": {
     "youtube": "N6Qc_8N0H-8", "abs_start": "0:00", "abs_end": "5:59:51", "duration": "5:59:51",
     "name": "Sony PlayStation 5 / Astro's Playroom #1 / Demon's Souls Remake #1",
     "date": "2020-11-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/806256296.torrent",
     "games": ["unboxing", "astros-playroom", "demons-souls-remake"]
   },
   "807121392": {
     "youtube": "K-RCGBhdupo", "abs_start": "0:00", "abs_end": "2:55:47", "duration": "2:55:47",
     "name": "Demon's Souls Remake #2 (часть 1)",
     "date": "2020-11-18",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/807121392.torrent",
     "games": ["demons-souls-remake"]
   },
   "807205679": {
@@ -6564,17 +6561,17 @@
   },
   "832197729": {
     "youtube": "xsvdcMhWUBI", "abs_start": "0:00", "abs_end": "12:00:00", "duration": "12:00:00",
-    "name": "Cyberpunk 2077 #2",
+    "name": "Cyberpunk 2077 #2 (часть 1)",
     "date": "2020-12-10",
     "torrent": "https://bsufiles.thedrhax.pw/streams/832197729.torrent",
     "games": ["cyberpunk-2077"]
   },
   "832197729.1": {
     "abs_start": "0:00", "abs_end": "15:55:35", "duration": "0:00",
-    "name": "неПрофессиональный The Game Awards 2020",
+    "name": "Cyberpunk 2077 #2 (часть 2) / неПрофессиональный The Game Awards 2020",
     "date": "2020-12-10",
     "direct": "https://bsufiles.thedrhax.pw/streams/832197729.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/832197729.torrent",
-    "games": ["expos"]
+    "games": ["cyberpunk-2077", "expos"]
   }
 }
