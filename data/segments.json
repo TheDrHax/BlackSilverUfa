@@ -6563,11 +6563,18 @@
     "games": ["cyberpunk-2077"]
   },
   "832197729": {
+    "youtube": "xsvdcMhWUBI", "abs_start": "0:00", "abs_end": "12:00:00", "duration": "12:00:00",
+    "name": "Cyberpunk 2077 #2",
+    "date": "2020-12-10",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/832197729.torrent",
+    "games": ["cyberpunk-2077"]
+  },
+  "832197729.1": {
     "abs_start": "0:00", "abs_end": "15:55:35", "duration": "0:00",
-    "name": "Cyberpunk 2077 #2 / неПрофессиональный The Game Awards 2020",
+    "name": "неПрофессиональный The Game Awards 2020",
     "date": "2020-12-10",
     "direct": "https://bsufiles.thedrhax.pw/streams/832197729.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/832197729.torrent",
-    "games": ["cyberpunk-2077", "expos"]
+    "games": ["expos"]
   }
 }

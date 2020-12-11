@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
       {"name": "Astro's Playroom #2 / Immortals Fenyx Rising #1", "year": 2020, "id": "817321307"},
       {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"},
       {"name": "Road Rash 3 / Gears of War 4 #7 / Gears 5 #1", "year": 2020, "id": "821805079"},
@@ -12,7 +11,8 @@
       {"name": "Gartic.io / In Silence / Scribble It!", "year": 2020, "id": "827759529"},
       {"name": "El Hijo: A Wild West Game / Worms Rumble / Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"},
       {"name": "Cyberpunk 2077 #1", "year": 2020, "id": "830961978"},
-      {"name": "Cyberpunk 2077 #2 / неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729"}
+      {"name": "Cyberpunk 2077 #2", "year": 2020, "id": "832197729"},
+      {"name": "неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729.1"}
     ]
   },
   "finished": {
@@ -667,7 +667,7 @@
       {"name": "неПрофессиональный E3 2020", "year": 2020, "id": "e3_2020"},
       {"name": "Gamescom 2020", "year": 2020, "id": "723011325"},
       {"name": "Night City Wire", "year": 2020, "id": "cp2077-ncw"},
-      {"name": "неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729"}
+      {"name": "неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729.1"}
     ]
   },
   "unboxing": {
