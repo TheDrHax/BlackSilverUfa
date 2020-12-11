@@ -6196,7 +6196,7 @@
   },
   "759389769": {
     "youtube": "nCyijEdFoKE", "official": false, "abs_start": "0:00", "abs_end": "6:20:16", "duration": "6:20:16",
-    "name": "Crash Bandicoot 4: It's About Time / Cyberpunk 2077 - Night City Wire #1 / SnowRunner #11",
+    "name": "Crash Bandicoot 4: It's About Time / Night City Wire #1 / SnowRunner #11",
     "date": "2020-10-03",
     "games": ["first", "cp2077-ncw", "snowrunner"]
   },
@@ -6250,7 +6250,7 @@
   },
   "771021424": {
     "youtube": "igtjYd4E0TQ", "official": false, "abs_start": "0:00", "abs_end": "7:12:38", "duration": "7:12:38",
-    "name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Cyberpunk 2077 - Night City Wire #2 / Call of Duty: Black Ops Cold War #2",
+    "name": "Fall Guys #11 (соло) / Call of Duty: Warzone #11 / Night City Wire #2 / Call of Duty: Black Ops Cold War #2",
     "date": "2020-10-15",
     "games": ["fall-guys", "cod-warzone", "cp2077-ncw", "cod-bocw"]
   },
@@ -6421,14 +6421,12 @@
     "youtube": "t9U_TWNNT-M", "official": false, "abs_start": "0:00", "abs_end": "4:30:57", "duration": "4:30:57",
     "name": "Call of Duty: Black Ops Cold War #4 (1-й этап Cold War Rivals)",
     "date": "2020-11-14",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/802744738.torrent",
     "games": ["cod-bocw"]
   },
   "803926941": {
     "youtube": "xULIUQt9ol8", "official": false, "abs_start": "0:00", "abs_end": "7:33:52", "duration": "7:33:52",
     "name": "Call of Duty: Black Ops Cold War #5 (2-й этап Cold War Rivals) / Destiny 2 #4 (Beyond Light с WeLoveGames)",
     "date": "2020-11-15",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/803926941.torrent",
     "games": ["cod-bocw", "destiny-2"]
   },
   "804979766": {
@@ -6461,7 +6459,7 @@
   },
   "808249476": {
     "youtube": "RQiUxuVASbE", "abs_start": "0:00", "abs_end": "7:56:15", "duration": "7:56:15",
-    "name": "Demon's Souls Remake #3 / Cyberpunk 2077 - Night City Wire #3",
+    "name": "Demon's Souls Remake #3 / Night City Wire #3",
     "date": "2020-11-19",
     "torrent": "https://bsufiles.thedrhax.pw/streams/808249476.torrent",
     "games": ["demons-souls-remake", "cp2077-ncw"]
@@ -6563,5 +6561,13 @@
     "date": "2020-12-09",
     "torrent": "https://bsufiles.thedrhax.pw/streams/830961978.torrent",
     "games": ["cyberpunk-2077"]
+  },
+  "832197729": {
+    "abs_start": "0:00", "abs_end": "15:55:35", "duration": "0:00",
+    "name": "Cyberpunk 2077 #2 / неПрофессиональный The Game Awards 2020",
+    "date": "2020-12-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/832197729.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/832197729.torrent",
+    "games": ["cyberpunk-2077", "expos"]
   }
 }

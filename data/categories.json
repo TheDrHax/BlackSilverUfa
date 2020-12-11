@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Розыгрыш флешек Asus ROG и ACRONYM / Gears of War 4 #6", "year": 2020, "id": "815193918"},
       {"name": "The Falconeer / Prodeus / Mortal Kombat 11 Ultimate", "year": 2020, "id": "816312412"},
       {"name": "Astro's Playroom #2 / Immortals Fenyx Rising #1", "year": 2020, "id": "817321307"},
       {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"},
@@ -12,7 +11,8 @@
       {"name": "Morbid: The Seven Acolytes / Haven #1 / The Life and Suffering of Sir Brante / Immortals Fenyx Rising #2", "year": 2020, "id": "824147065"},
       {"name": "Gartic.io / In Silence / Scribble It!", "year": 2020, "id": "827759529"},
       {"name": "El Hijo: A Wild West Game / Worms Rumble / Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"},
-      {"name": "Cyberpunk 2077 #1", "year": 2020, "id": "830961978"}
+      {"name": "Cyberpunk 2077 #1", "year": 2020, "id": "830961978"},
+      {"name": "Cyberpunk 2077 #2 / неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729"}
     ]
   },
   "finished": {
@@ -666,7 +666,8 @@
       {"name": "Xbox Inside 2020", "year": 2020, "id": "613793616"},
       {"name": "неПрофессиональный E3 2020", "year": 2020, "id": "e3_2020"},
       {"name": "Gamescom 2020", "year": 2020, "id": "723011325"},
-      {"name": "Cyberpunk 2077 - Night City Wire", "year": 2020, "id": "cp2077-ncw"}
+      {"name": "Night City Wire", "year": 2020, "id": "cp2077-ncw"},
+      {"name": "неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729"}
     ]
   },
   "unboxing": {
