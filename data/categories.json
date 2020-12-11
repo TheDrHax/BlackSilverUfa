@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Astro's Playroom #2 / Immortals Fenyx Rising #1", "year": 2020, "id": "817321307"},
       {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"},
       {"name": "Road Rash 3 / Gears of War 4 #7 / Gears 5 #1", "year": 2020, "id": "821805079"},
       {"name": "Розыгрыш NVIDIA GeForce RTX 2080 Super / XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"},
@@ -12,7 +11,8 @@
       {"name": "El Hijo: A Wild West Game / Worms Rumble / Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"},
       {"name": "Cyberpunk 2077 #1", "year": 2020, "id": "830961978"},
       {"name": "Cyberpunk 2077 #2 (часть 1)", "year": 2020, "id": "832197729"},
-      {"name": "Cyberpunk 2077 #2 (часть 2) / неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729.1"}
+      {"name": "Cyberpunk 2077 #2 (часть 2) / неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729.1"},
+      {"name": "Cyberpunk 2077 #3", "year": 2020, "id": "833444670"}
     ]
   },
   "finished": {
@@ -380,7 +380,6 @@
     "games": [
       {"name": "Haven", "year": 2020, "id": "haven"},
       {"name": "World of Warcraft: Shadowlands", "year": 2020, "id": "wow-shadowlands"},
-      {"name": "Assassin's Creed: Valhalla", "year": 2020, "id": "ac-valhalla"},
       {"name": "Immortals Fenyx Rising", "year": 2020, "id": "immortals-fr"},
       {"name": "Gears 5", "year": 2020, "id": "gears-5"},
       {"name": "Cyberpunk 2077", "year": 2020, "id": "cyberpunk-2077"}
@@ -483,7 +482,8 @@
       {"name": "Far Cry 3", "year": 2020, "id": "far-cry-3"},
       {"name": "Hellpoint", "year": 2020, "id": "hellpoint"},
       {"name": "Watch Dogs: Legion", "year": 2020, "id": "watch-dogs"},
-      {"name": "Metal Gear Solid V: Phantom Pain (злое прохождение)", "year": 2020, "id": "mgs-v-2020"}
+      {"name": "Metal Gear Solid V: Phantom Pain (злое прохождение)", "year": 2020, "id": "mgs-v-2020"},
+      {"name": "Assassin's Creed: Valhalla", "year": 2020, "id": "ac-valhalla"}
     ]
   },
   "co-op": {
