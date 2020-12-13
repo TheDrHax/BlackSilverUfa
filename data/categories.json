@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Road Rash 3 / Gears of War 4 #7 / Gears 5 #1", "year": 2020, "id": "821805079"},
       {"name": "Розыгрыш NVIDIA GeForce RTX 2080 Super / XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"},
       {"name": "Morbid: The Seven Acolytes / Haven #1 / The Life and Suffering of Sir Brante / Immortals Fenyx Rising #2", "year": 2020, "id": "824147065"},
       {"name": "Gartic.io / In Silence / Scribble It!", "year": 2020, "id": "827759529"},
@@ -12,7 +11,8 @@
       {"name": "Cyberpunk 2077 #2 (часть 1)", "year": 2020, "id": "832197729"},
       {"name": "Cyberpunk 2077 #2 (часть 2) / неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729.1"},
       {"name": "Cyberpunk 2077 #3", "year": 2020, "id": "833444670"},
-      {"name": "Cyberpunk 2077 #4", "year": 2020, "id": "834647659"}
+      {"name": "Cyberpunk 2077 #4", "year": 2020, "id": "834647659"},
+      {"name": "Cyberpunk 2077 #5 (финал)", "year": 2020, "id": "835893888"}
     ]
   },
   "finished": {
@@ -200,7 +200,8 @@
       {"name": "Demon's Souls Remake", "year": 2020, "id": "demons-souls-remake"},
       {"name": "Bugsnax", "year": 2020, "id": "bugsnax"},
       {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"},
-      {"name": "Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"}
+      {"name": "Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"},
+      {"name": "Cyberpunk 2077", "year": 2020, "id": "cyberpunk-2077"}
     ]
   },
   "first": {
@@ -381,8 +382,7 @@
       {"name": "Haven", "year": 2020, "id": "haven"},
       {"name": "World of Warcraft: Shadowlands", "year": 2020, "id": "wow-shadowlands"},
       {"name": "Immortals Fenyx Rising", "year": 2020, "id": "immortals-fr"},
-      {"name": "Gears 5", "year": 2020, "id": "gears-5"},
-      {"name": "Cyberpunk 2077", "year": 2020, "id": "cyberpunk-2077"}
+      {"name": "Gears 5", "year": 2020, "id": "gears-5"}
     ]
   },
   "infinite": {

@@ -6464,21 +6464,18 @@
     "youtube": "2GZM40Oi4DU", "abs_start": "0:00", "abs_end": "4:21:13", "duration": "4:21:13",
     "name": "Demon's Souls Remake #4",
     "date": "2020-11-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/809354719.torrent",
     "games": ["demons-souls-remake"]
   },
   "811962733": {
     "youtube": "h8he68ht058", "official": false, "abs_start": "0:00", "abs_end": "3:34:59", "duration": "3:34:59",
     "name": "Half-Life: Alyx #1 (заново, Chompski Challenge) / Demon's Souls Remake #1 (заново) / Days Gone #1 (заново, PS5)",
     "date": "2020-11-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/811962733.torrent",
     "games": ["hl-alyx", "demons-souls-remake", "days-gone"]
   },
   "812974689": {
     "youtube": "JE6_pIHuUa0", "abs_start": "0:00", "abs_end": "7:08:39", "duration": "7:08:39",
     "name": "Asus ROG Zephyrus G14 / Bugsnax #1",
     "date": "2020-11-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/812974689.torrent",
     "games": ["unboxing", "bugsnax"]
   },
   "814088106": {
@@ -6584,6 +6581,14 @@
     "name": "Cyberpunk 2077 #4",
     "date": "2020-12-12",
     "torrent": "https://bsufiles.thedrhax.pw/streams/834647659.torrent",
+    "games": ["cyberpunk-2077"]
+  },
+  "835893888": {
+    "abs_start": "0:00", "abs_end": "9:55:26", "duration": "0:00",
+    "name": "Cyberpunk 2077 #5 (финал)",
+    "date": "2020-12-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/835893888.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/835893888.torrent",
     "games": ["cyberpunk-2077"]
   }
 }
