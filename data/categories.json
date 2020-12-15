@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Розыгрыш NVIDIA GeForce RTX 2080 Super / XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"},
       {"name": "Morbid: The Seven Acolytes / Haven #1 / The Life and Suffering of Sir Brante / Immortals Fenyx Rising #2", "year": 2020, "id": "824147065"},
       {"name": "Gartic.io / In Silence / Scribble It!", "year": 2020, "id": "827759529"},
       {"name": "El Hijo: A Wild West Game / Worms Rumble / Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"},
@@ -12,7 +11,8 @@
       {"name": "Cyberpunk 2077 #2 (часть 2) / неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729.1"},
       {"name": "Cyberpunk 2077 #3", "year": 2020, "id": "833444670"},
       {"name": "Cyberpunk 2077 #4", "year": 2020, "id": "834647659"},
-      {"name": "Cyberpunk 2077 #5 (финал)", "year": 2020, "id": "835893888"}
+      {"name": "Cyberpunk 2077 #5 (финал)", "year": 2020, "id": "835893888"},
+      {"name": "Little Nightmares 2 (демо) / Call of the Sea", "year": 2020, "id": "838158299"}
     ]
   },
   "finished": {
@@ -201,7 +201,8 @@
       {"name": "Bugsnax", "year": 2020, "id": "bugsnax"},
       {"name": "Boogerman: A Pick and Flick Adventure", "year": 2020, "id": "820741630"},
       {"name": "Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"},
-      {"name": "Cyberpunk 2077", "year": 2020, "id": "cyberpunk-2077"}
+      {"name": "Cyberpunk 2077", "year": 2020, "id": "cyberpunk-2077"},
+      {"name": "Little Nightmares 2 (демо) / Call of the Sea", "year": 2020, "id": "838158299"}
     ]
   },
   "first": {
