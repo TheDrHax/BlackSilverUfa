@@ -446,7 +446,8 @@
       { "name": "8 (соло)", "twitch": "747742325", "start": "3:03:01" },
       { "name": "9 (соло)", "twitch": "749640613", "start": "1:14:30" },
       { "name": "10 (Wycc, WLG, BeastQT)", "twitch": "754538542", "start": "2:35:40" },
-      { "name": "11 (соло)", "twitch": "771021424" }
+      { "name": "11 (соло)", "twitch": "771021424" },
+      { "name": "12 (соло)", "twitch": "839294640" }
     ]
   },
   {
@@ -2183,10 +2184,7 @@
       { "name": "Transient", "twitch": "785416056", "start": "2:06:03" },
       { "name": "Under: Depths of Fear", "twitch": "785524800", "start": "32:38" },
       { "name": "Teardown", "twitch": "786440219" },
-      { "twitch": "793751031", "subrefs": [
-        { "name": "Gears 5" },
-        { "name": "Black", "start": "1:46:55" }
-      ] },
+      { "name": "Black", "twitch": "793751031", "start": "1:46:55" },
       { "name": "Marvel's Spider-Man: Miles Morales", "twitch": "800233089", "segment": 1 },
       { "twitch": "816312412", "subrefs": [
         { "name": "The Falconeer" },
@@ -2864,7 +2862,9 @@
     "category": "ongoing",
     "id": "gears-5",
     "streams": [
-      { "name": "1", "twitch": "821805079", "start": "5:21:12" }
+      { "name": "Тест Xbox Series X", "twitch": "793751031" },
+      { "name": "1", "twitch": "821805079", "start": "5:21:12" },
+      { "name": "2", "twitch": "839294640", "start": "2:06:00" }
     ]
   },
   {
