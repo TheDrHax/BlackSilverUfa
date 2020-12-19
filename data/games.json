@@ -359,23 +359,38 @@
         { "name": "Labyrinthine", "start": "6:07:31" },
         { "name": "Escape From Kyoto House", "start": "6:24:11" }
       ] },
-      { "twitch": "827759529", "subrefs": [
-        { "name": "Gartic.io" },
-        { "name": "In Silence", "start": "2:17:29" },
-        {
-          "name": "Scribble It!", "start": "4:38:51",
-          "blacklist": {
-            "users": [
-              "blackufa"
-            ],
-            "messages": [
-              "^[а-я]$",
-              "^[0-9]+$"
-            ]
-          }
-        }
-      ] }
+      { "name": "In Silence", "twitch": "827759529", "start": "2:17:29" }
     ]
+  },
+  {
+    "name": "Gartic.io",
+    "category": "co-op-series",
+    "id": "gartic",
+    "streams": [
+      { "name": "1", "twitch": "827759529" },
+      { "name": "2", "twitch": "842813272", "start": "2:46:53" }
+    ]
+  },
+  {
+    "name": "Scribble It!",
+    "category": "co-op-series",
+    "id": "scribble-it",
+    "streams": [
+      { "name": "1", "twitch": "827759529", "start": "4:38:51" },
+      { "twitch": "842813272", "subrefs": [
+        { "name": "2", "start": "2:30:07" },
+        { "name": "2", "start": "5:42:49" }
+      ] }
+    ],
+    "blacklist": {
+      "users": [
+        "blackufa"
+      ],
+      "messages": [
+        "^[а-я]$",
+        "^[0-9]+$"
+      ]
+    }
   },
   {
     "name": "Phasmophobia",
@@ -804,7 +819,8 @@
       { "name": "Tales of Escape #1", "twitch": "423369283", "segment": 0, "start": "4:50:15" },
       { "name": "Tales of Escape #2", "twitch": "435683759", "start": "3:52:35" },
       { "name": "Curious Cases", "twitch": "445866715", "start": "3:12:52" },
-      { "name": "Escape First 2", "twitch": "452195101", "start": "3:37:50" }
+      { "name": "Escape First 2", "twitch": "452195101", "start": "3:37:50" },
+      { "name": "Escape First 3", "twitch": "842813272" }
     ]
   },
   {
@@ -1021,7 +1037,8 @@
       { "name": "6", "twitch": "452195101" },
       { "name": "7", "twitch": "567045755", "segment": 1, "start": "4:55:46" },
       { "name": "8", "twitch": "752595682", "start": "5:13:22" },
-      { "name": "9", "twitch": "760503086", "start": "3:35:01" }
+      { "name": "9", "twitch": "760503086", "start": "3:35:01" },
+      { "name": "10", "twitch": "842813272", "start": "3:29:54" }
     ]
   },
   {
