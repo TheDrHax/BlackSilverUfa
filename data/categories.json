@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "El Hijo: A Wild West Game / Worms Rumble / Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"},
       {"name": "Cyberpunk 2077 #1", "year": 2020, "id": "830961978"},
       {"name": "Cyberpunk 2077 #2 (часть 1)", "year": 2020, "id": "832197729"},
       {"name": "Cyberpunk 2077 #2 (часть 2) / неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729.1"},
@@ -12,7 +11,8 @@
       {"name": "Cyberpunk 2077 #5 (финал)", "year": 2020, "id": "835893888"},
       {"name": "Little Nightmares 2 (демо) / Call of the Sea", "year": 2020, "id": "838158299"},
       {"name": "Fall Guys #12 (соло) / Gears 5 #2", "year": 2020, "id": "839294640"},
-      {"name": "Harry Potter and the Chamber of Secrets", "year": 2020, "id": "841556992"}
+      {"name": "Harry Potter and the Chamber of Secrets", "year": 2020, "id": "841556992"},
+      {"name": "Эскейп-румы - Escape First 3 / Scribble It! #2 / Gartic.io #2 / Human: Fall Flat #10", "year": 2020, "id": "842813272"}
     ]
   },
   "finished": {
@@ -544,7 +544,7 @@
       {"name": "Serious Sam 4", "year": 2020, "id": "749640613"},
       {"name": "Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House", "year": 2020, "id": "795935885"},
-      {"name": "Gartic.io / In Silence / Scribble It!", "year": 2020, "id": "827759529"}
+      {"name": "In Silence", "year": 2020, "id": "827759529"}
     ]
   },
   "co-op-series": {
@@ -622,7 +622,9 @@
       {"name": "Party Animals", "year": 2020, "id": "party-animals"},
       {"name": "Sign of Silence", "year": 2020, "id": "sign-of-silence"},
       {"name": "Phasmophobia", "year": 2020, "id": "phasmophobia"},
-      {"name": "Valorant (Джек, Артём, Дима, Gamelife)", "year": 2020, "id": "valorant"}
+      {"name": "Valorant (Джек, Артём, Дима, Gamelife)", "year": 2020, "id": "valorant"},
+      {"name": "Gartic.io", "year": 2020, "id": "gartic"},
+      {"name": "Scribble It!", "year": 2020, "id": "scribble-it"}
     ]
   },
   "other": {
