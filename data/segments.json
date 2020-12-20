@@ -6499,7 +6499,6 @@
     "youtube": "5ZgT2e3rJdU", "abs_start": "0:00", "abs_end": "6:04:25", "duration": "6:04:25",
     "name": "Astro's Playroom #2 / Immortals Fenyx Rising #1",
     "date": "2020-11-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/817321307.torrent",
     "games": ["astros-playroom", "immortals-fr"]
   },
   "820741630": {
@@ -6532,7 +6531,7 @@
   },
   "827759529": {
     "youtube": "0xm_S6InA3Y", "abs_start": "0:00", "abs_end": "6:16:57", "duration": "6:16:57",
-    "name": "Gartic.io #1 / In Silence / Scribble It! #1",
+    "name": "Gartic #1 / In Silence / Scribble It! #1",
     "date": "2020-12-06",
     "torrent": "https://bsufiles.thedrhax.pw/streams/827759529.torrent",
     "games": ["gartic", "co-op", "scribble-it"]
@@ -6609,10 +6608,18 @@
   },
   "842813272": {
     "abs_start": "0:00", "abs_end": "6:08:47", "duration": "0:00",
-    "name": "Эскейп-румы - Escape First 3 / Scribble It! #2 / Gartic.io #2 / Human: Fall Flat #10",
+    "name": "Эскейп-румы - Escape First 3 / Scribble It! #2 / Gartic #2 / Human: Fall Flat #10",
     "date": "2020-12-19",
     "direct": "https://bsufiles.thedrhax.pw/streams/842813272.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/842813272.torrent",
     "games": ["escape-rooms", "scribble-it", "gartic", "human-fall-flat"]
+  },
+  "843955454": {
+    "abs_start": "0:00", "abs_end": "6:02:46", "duration": "0:00",
+    "name": "Demon's Souls Remake #1 (заново, с миньонами (кооп не найден)) / Dino Crisis",
+    "date": "2020-12-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/843955454.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/843955454.torrent",
+    "games": ["demons-souls-remake", "first"]
   }
 }
