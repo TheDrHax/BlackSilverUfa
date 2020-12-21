@@ -2222,8 +2222,16 @@
       { "twitch": "828815728", "subrefs": [
         { "name": "El Hijo: A Wild West Game" },
         { "name": "Worms Rumble", "start": "2:04:09" }
-      ] },
-      { "name": "Dino Crisis", "twitch": "843955454", "start": "2:14:37" }
+      ] }
+    ]
+  },
+  {
+    "name": "Dino Crisis",
+    "category": "finished",
+    "id": "dino-crisis",
+    "streams": [
+      { "name": "1", "twitch": "843955454", "start": "2:14:37" },
+      { "name": "2", "twitch": "845055963" }
     ]
   },
   {
