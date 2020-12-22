@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Cyberpunk 2077 #2 (часть 2) / неПрофессиональный The Game Awards 2020", "year": 2020, "id": "832197729.1"},
       {"name": "Cyberpunk 2077 #3", "year": 2020, "id": "833444670"},
       {"name": "Cyberpunk 2077 #4", "year": 2020, "id": "834647659"},
       {"name": "Cyberpunk 2077 #5 (финал)", "year": 2020, "id": "835893888"},
@@ -12,7 +11,8 @@
       {"name": "Harry Potter and the Chamber of Secrets", "year": 2020, "id": "841556992"},
       {"name": "Эскейп-румы - Escape First 3 / Scribble It! #2 / Gartic #2 / Human: Fall Flat #10", "year": 2020, "id": "842813272"},
       {"name": "Demon's Souls Remake #1 (заново, с миньонами (кооп не найден)) / Dino Crisis #1", "year": 2020, "id": "843955454"},
-      {"name": "Dino Crisis #2", "year": 2020, "id": "845055963"}
+      {"name": "Dino Crisis #2", "year": 2020, "id": "845055963"},
+      {"name": "Clive Barker's Undying", "year": 2020, "id": "846191668"}
     ]
   },
   "finished": {
@@ -376,7 +376,8 @@
       {"name": "Road Rash 3", "year": 2020, "id": "821805079"},
       {"name": "XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"},
       {"name": "Morbid: The Seven Acolytes / The Life and Suffering of Sir Brante", "year": 2020, "id": "824147065"},
-      {"name": "El Hijo: A Wild West Game / Worms Rumble", "year": 2020, "id": "828815728"}
+      {"name": "El Hijo: A Wild West Game / Worms Rumble", "year": 2020, "id": "828815728"},
+      {"name": "Clive Barker's Undying", "year": 2020, "id": "846191668"}
     ]
   },
   "ongoing": {
