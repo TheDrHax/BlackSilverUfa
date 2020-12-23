@@ -6517,14 +6517,12 @@
     "youtube": "Gxu_QALg2Vo", "abs_start": "0:00", "abs_end": "6:21:42", "duration": "6:21:42",
     "name": "Розыгрыш NVIDIA GeForce RTX 2080 Super / XIII Remake / Chronos: Before the Ashes / Twin Mirror",
     "date": "2020-12-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/823035178.torrent",
     "games": ["events", "first"]
   },
   "824147065": {
     "youtube": "3s3x1Gp8vvQ", "abs_start": "0:00", "abs_end": "7:22:01", "duration": "7:22:01",
     "name": "Morbid: The Seven Acolytes / Haven #1 / The Life and Suffering of Sir Brante / Immortals Fenyx Rising #2",
     "date": "2020-12-03",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/824147065.torrent",
     "games": ["first", "haven", "immortals-fr"]
   },
   "827759529": {
@@ -6627,9 +6625,17 @@
   },
   "846191668": {
     "youtube": "v7adTZY247c", "abs_start": "0:00", "abs_end": "6:34:39", "duration": "6:34:39",
-    "name": "Clive Barker's Undying",
+    "name": "Clive Barker's Undying #1",
     "date": "2020-12-22",
     "torrent": "https://bsufiles.thedrhax.pw/streams/846191668.torrent",
-    "games": ["first"]
+    "games": ["cb-undying"]
+  },
+  "847404053": {
+    "abs_start": "0:00", "abs_end": "4:49:52", "duration": "0:00",
+    "name": "Clive Barker's Undying #2",
+    "date": "2020-12-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/847404053.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/847404053.torrent",
+    "games": ["cb-undying"]
   }
 }
