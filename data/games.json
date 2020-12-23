@@ -2222,8 +2222,16 @@
       { "twitch": "828815728", "subrefs": [
         { "name": "El Hijo: A Wild West Game" },
         { "name": "Worms Rumble", "start": "2:04:09" }
-      ] },
-      { "name": "Clive Barker's Undying", "twitch": "846191668" }
+      ] }
+    ]
+  },
+  {
+    "name": "Clive Barker's Undying",
+    "category": "ongoing",
+    "id": "cb-undying",
+    "streams": [
+      { "name": "1", "twitch": "846191668" },
+      { "name": "2", "twitch": "847404053" }
     ]
   },
   {
