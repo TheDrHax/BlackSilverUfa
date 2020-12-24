@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Cyberpunk 2077 #4", "year": 2020, "id": "834647659"},
       {"name": "Cyberpunk 2077 #5 (финал)", "year": 2020, "id": "835893888"},
       {"name": "Little Nightmares 2 (демо) / Call of the Sea", "year": 2020, "id": "838158299"},
       {"name": "Fall Guys #12 (соло) / Gears 5 #2", "year": 2020, "id": "839294640"},
@@ -12,7 +11,8 @@
       {"name": "Demon's Souls Remake #1 (заново, с миньонами (кооп не найден)) / Dino Crisis #1", "year": 2020, "id": "843955454"},
       {"name": "Dino Crisis #2", "year": 2020, "id": "845055963"},
       {"name": "Clive Barker's Undying #1", "year": 2020, "id": "846191668"},
-      {"name": "Clive Barker's Undying #2", "year": 2020, "id": "847404053"}
+      {"name": "Clive Barker's Undying #2", "year": 2020, "id": "847404053"},
+      {"name": "Clive Barker's Undying #3", "year": 2020, "id": "848512607"}
     ]
   },
   "finished": {
