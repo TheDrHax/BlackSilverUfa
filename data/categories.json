@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Cyberpunk 2077 #5 (финал)", "year": 2020, "id": "835893888"},
       {"name": "Little Nightmares 2 (демо) / Call of the Sea", "year": 2020, "id": "838158299"},
       {"name": "Fall Guys #12 (соло) / Gears 5 #2", "year": 2020, "id": "839294640"},
       {"name": "Harry Potter and the Chamber of Secrets", "year": 2020, "id": "841556992"},
@@ -12,7 +11,8 @@
       {"name": "Dino Crisis #2", "year": 2020, "id": "845055963"},
       {"name": "Clive Barker's Undying #1", "year": 2020, "id": "846191668"},
       {"name": "Clive Barker's Undying #2", "year": 2020, "id": "847404053"},
-      {"name": "Clive Barker's Undying #3", "year": 2020, "id": "848512607"}
+      {"name": "Clive Barker's Undying #3", "year": 2020, "id": "848512607"},
+      {"name": "Gothic", "year": 2020, "id": "849365667"}
     ]
   },
   "finished": {
@@ -376,14 +376,14 @@
       {"name": "Road Rash 3", "year": 2020, "id": "821805079"},
       {"name": "XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"},
       {"name": "Morbid: The Seven Acolytes / The Life and Suffering of Sir Brante", "year": 2020, "id": "824147065"},
-      {"name": "El Hijo: A Wild West Game / Worms Rumble", "year": 2020, "id": "828815728"}
+      {"name": "El Hijo: A Wild West Game / Worms Rumble", "year": 2020, "id": "828815728"},
+      {"name": "Gothic", "year": 2020, "id": "849365667"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "Haven", "year": 2020, "id": "haven"},
-      {"name": "World of Warcraft: Shadowlands", "year": 2020, "id": "wow-shadowlands"},
       {"name": "Gears 5", "year": 2020, "id": "gears-5"},
       {"name": "Immortals Fenyx Rising", "year": 2020, "id": "immortals-fr"},
       {"name": "Clive Barker's Undying", "year": 2020, "id": "cb-undying"}
@@ -485,6 +485,7 @@
       {"name": "Destroy All Humans!", "year": 2020, "id": "destroy-all-humans"},
       {"name": "Far Cry 3", "year": 2020, "id": "far-cry-3"},
       {"name": "Hellpoint", "year": 2020, "id": "hellpoint"},
+      {"name": "World of Warcraft: Shadowlands", "year": 2020, "id": "wow-shadowlands"},
       {"name": "Watch Dogs: Legion", "year": 2020, "id": "watch-dogs"},
       {"name": "Metal Gear Solid V: Phantom Pain (злое прохождение)", "year": 2020, "id": "mgs-v-2020"},
       {"name": "Assassin's Creed: Valhalla", "year": 2020, "id": "ac-valhalla"}
