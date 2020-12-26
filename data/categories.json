@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Little Nightmares 2 (демо) / Call of the Sea", "year": 2020, "id": "838158299"},
       {"name": "Fall Guys #12 (соло) / Gears 5 #2", "year": 2020, "id": "839294640"},
       {"name": "Harry Potter and the Chamber of Secrets", "year": 2020, "id": "841556992"},
       {"name": "Эскейп-румы - Escape First 3 / Scribble It! #2 / Gartic #2 / Human: Fall Flat #10", "year": 2020, "id": "842813272"},
@@ -12,7 +11,8 @@
       {"name": "Clive Barker's Undying #1", "year": 2020, "id": "846191668"},
       {"name": "Clive Barker's Undying #2", "year": 2020, "id": "847404053"},
       {"name": "Clive Barker's Undying #3", "year": 2020, "id": "848512607"},
-      {"name": "Gothic", "year": 2020, "id": "849365667"}
+      {"name": "Gothic", "year": 2020, "id": "849365667"},
+      {"name": "MONSTRUM #6 / Gone Golfing / Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"}
     ]
   },
   "finished": {
@@ -204,7 +204,8 @@
       {"name": "Cyberpunk 2077", "year": 2020, "id": "cyberpunk-2077"},
       {"name": "Little Nightmares 2 (демо) / Call of the Sea", "year": 2020, "id": "838158299"},
       {"name": "Harry Potter and the Chamber of Secrets", "year": 2020, "id": "841556992"},
-      {"name": "Dino Crisis", "year": 2020, "id": "dino-crisis"}
+      {"name": "Dino Crisis", "year": 2020, "id": "dino-crisis"},
+      {"name": "Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"}
     ]
   },
   "first": {
@@ -377,7 +378,8 @@
       {"name": "XIII Remake / Chronos: Before the Ashes / Twin Mirror", "year": 2020, "id": "823035178"},
       {"name": "Morbid: The Seven Acolytes / The Life and Suffering of Sir Brante", "year": 2020, "id": "824147065"},
       {"name": "El Hijo: A Wild West Game / Worms Rumble", "year": 2020, "id": "828815728"},
-      {"name": "Gothic", "year": 2020, "id": "849365667"}
+      {"name": "Gothic", "year": 2020, "id": "849365667"},
+      {"name": "Gone Golfing", "year": 2020, "id": "850367913"}
     ]
   },
   "ongoing": {

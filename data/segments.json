@@ -6529,7 +6529,6 @@
     "youtube": "0xm_S6InA3Y", "abs_start": "0:00", "abs_end": "6:16:57", "duration": "6:16:57",
     "name": "Gartic #1 / In Silence / Scribble It! #1",
     "date": "2020-12-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/827759529.torrent",
     "games": ["gartic", "co-op", "scribble-it"]
   },
   "828815728": {
@@ -6650,5 +6649,13 @@
     "date": "2020-12-25",
     "torrent": "https://bsufiles.thedrhax.pw/streams/849365667.torrent",
     "games": ["first"]
+  },
+  "850367913": {
+    "abs_start": "0:00", "abs_end": "6:01:47", "duration": "0:00",
+    "name": "MONSTRUM #6 / Gone Golfing / Out of Range / I Opened the Walls and Found Something Beautiful",
+    "date": "2020-12-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/850367913.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/850367913.torrent",
+    "games": ["monstrum", "first", "single"]
   }
 }
