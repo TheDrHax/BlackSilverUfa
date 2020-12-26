@@ -1566,7 +1566,11 @@
         { "name": "Little Nightmares 2 (демо)" },
         { "name": "Call of the Sea", "start": "2:00:36" }
       ] },
-      { "name": "Harry Potter and the Chamber of Secrets", "twitch": "841556992" }
+      { "name": "Harry Potter and the Chamber of Secrets", "twitch": "841556992" },
+      { "twitch": "850367913", "subrefs": [
+        { "name": "Out of Range", "start": "4:04:49" },
+        { "name": "I Opened the Walls and Found Something Beautiful", "start": "5:18:05" }
+      ] }
     ]
   },
   {
@@ -1633,7 +1637,8 @@
       { "name": "2", "twitch": "234740795" },
       { "name": "3", "twitch": "298040825", "start": "3:07:16" },
       { "name": "4", "twitch": "396376161", "start": "1:32:33" },
-      { "name": "5", "twitch": "404063748", "start": "2:05:55" }
+      { "name": "5", "twitch": "404063748", "start": "2:05:55" },
+      { "name": "6", "twitch": "850367913" }
     ]
   },
   {
@@ -2223,7 +2228,8 @@
         { "name": "El Hijo: A Wild West Game" },
         { "name": "Worms Rumble", "start": "2:04:09" }
       ] },
-      { "name": "Gothic", "twitch": "849365667" }
+      { "name": "Gothic", "twitch": "849365667" },
+      { "name": "Gone Golfing", "twitch": "850367913", "start": "3:22:30" }
     ]
   },
   {
