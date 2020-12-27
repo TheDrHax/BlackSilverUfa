@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Fall Guys #12 (соло) / Gears 5 #2", "year": 2020, "id": "839294640"},
       {"name": "Harry Potter and the Chamber of Secrets", "year": 2020, "id": "841556992"},
       {"name": "Эскейп-румы - Escape First 3 / Scribble It! #2 / Gartic #2 / Human: Fall Flat #10", "year": 2020, "id": "842813272"},
       {"name": "Demon's Souls Remake #1 (заново, с миньонами (кооп не найден)) / Dino Crisis #1", "year": 2020, "id": "843955454"},
@@ -12,7 +11,8 @@
       {"name": "Clive Barker's Undying #2", "year": 2020, "id": "847404053"},
       {"name": "Clive Barker's Undying #3", "year": 2020, "id": "848512607"},
       {"name": "Gothic", "year": 2020, "id": "849365667"},
-      {"name": "MONSTRUM #6 / Gone Golfing / Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"}
+      {"name": "MONSTRUM #6 / Gone Golfing / Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"},
+      {"name": "SCP: Janitorial Work / SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place", "year": 2020, "id": "851535429"}
     ]
   },
   "finished": {
@@ -205,7 +205,8 @@
       {"name": "Little Nightmares 2 (демо) / Call of the Sea", "year": 2020, "id": "838158299"},
       {"name": "Harry Potter and the Chamber of Secrets", "year": 2020, "id": "841556992"},
       {"name": "Dino Crisis", "year": 2020, "id": "dino-crisis"},
-      {"name": "Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"}
+      {"name": "Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"},
+      {"name": "SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place", "year": 2020, "id": "851535429"}
     ]
   },
   "first": {
@@ -379,7 +380,8 @@
       {"name": "Morbid: The Seven Acolytes / The Life and Suffering of Sir Brante", "year": 2020, "id": "824147065"},
       {"name": "El Hijo: A Wild West Game / Worms Rumble", "year": 2020, "id": "828815728"},
       {"name": "Gothic", "year": 2020, "id": "849365667"},
-      {"name": "Gone Golfing", "year": 2020, "id": "850367913"}
+      {"name": "Gone Golfing", "year": 2020, "id": "850367913"},
+      {"name": "SCP: Janitorial Work", "year": 2020, "id": "851535429"}
     ]
   },
   "ongoing": {
