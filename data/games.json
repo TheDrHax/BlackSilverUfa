@@ -1570,6 +1570,10 @@
       { "twitch": "850367913", "subrefs": [
         { "name": "Out of Range", "start": "4:04:49" },
         { "name": "I Opened the Walls and Found Something Beautiful", "start": "5:18:05" }
+      ] },
+      { "twitch": "851535429", "subrefs": [
+        { "name": "SCP-002: The \"Living\" Room", "start": "1:07:27" },
+        { "name": "SCP-1437: A Hole to Another Place", "start": "1:16:52" }
       ] }
     ]
   },
@@ -2229,7 +2233,11 @@
         { "name": "Worms Rumble", "start": "2:04:09" }
       ] },
       { "name": "Gothic", "twitch": "849365667" },
-      { "name": "Gone Golfing", "twitch": "850367913", "start": "3:22:30" }
+      { "name": "Gone Golfing", "twitch": "850367913", "start": "3:22:30" },
+      { "twitch": "851535429", "subrefs": [
+        { "name": "SCP: Janitorial Work" },
+        { "name": "SCP: Janitorial Work", "start": "2:04:28" }
+      ] }
     ]
   },
   {
