@@ -1868,6 +1868,12 @@
       { "name": "Assassin's Creed II - The Ezio Collection", "twitch": "001611160" },
       { "name": "Dungeon Nightmares II: The Memory (с Дашей)", "twitch": "001612170" },
       { "name": "Let It Die", "twitch": "001612240", "start": "1:03:41" },
+      { "twitch": "001701051", "subrefs": [
+        { "name": "Captured", "start": "20:03" },
+        { "name": "Wick", "start": "43:15" },
+        { "name": "Locked Fears", "start": "1:01:29" },
+        { "name": "Slender: The Arrival", "start": "1:19:04" }
+      ] },
       { "twitch": "001701070", "subrefs": [
         { "name": "My Summer Car" },
         { "name": "The Amazing Frog?", "start": "1:12:28" }
