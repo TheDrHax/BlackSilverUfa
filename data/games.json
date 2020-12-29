@@ -2241,6 +2241,15 @@
     ]
   },
   {
+    "name": "Shadows 2",
+    "category": "finished",
+    "id": "shadows-2",
+    "streams": [
+      { "name": "1", "twitch": "001701050" },
+      { "name": "2", "twitch": "001701051" }
+    ]
+  },
+  {
     "name": "Clive Barker's Undying",
     "category": "ongoing",
     "id": "cb-undying",
