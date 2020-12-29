@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Harry Potter and the Chamber of Secrets", "year": 2020, "id": "841556992"},
       {"name": "Эскейп-румы - Escape First 3 / Scribble It! #2 / Gartic #2 / Human: Fall Flat #10", "year": 2020, "id": "842813272"},
       {"name": "Demon's Souls Remake #1 (заново, с миньонами (кооп не найден)) / Dino Crisis #1", "year": 2020, "id": "843955454"},
       {"name": "Dino Crisis #2", "year": 2020, "id": "845055963"},
@@ -12,7 +11,8 @@
       {"name": "Clive Barker's Undying #3", "year": 2020, "id": "848512607"},
       {"name": "Gothic", "year": 2020, "id": "849365667"},
       {"name": "MONSTRUM #6 / Gone Golfing / Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"},
-      {"name": "SCP: Janitorial Work / SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place", "year": 2020, "id": "851535429"}
+      {"name": "SCP: Janitorial Work #1 / SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place", "year": 2020, "id": "851535429"},
+      {"name": "SCP: Janitorial Work #2 / Ebola 2 / Visage #4 (заново, релиз)", "year": 2020, "id": "853883043"}
     ]
   },
   "finished": {
@@ -383,16 +383,18 @@
       {"name": "El Hijo: A Wild West Game / Worms Rumble", "year": 2020, "id": "828815728"},
       {"name": "Gothic", "year": 2020, "id": "849365667"},
       {"name": "Gone Golfing", "year": 2020, "id": "850367913"},
-      {"name": "SCP: Janitorial Work", "year": 2020, "id": "851535429"}
+      {"name": "Ebola 2", "year": 2020, "id": "853883043"}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Visage", "year": 2018, "id": "visage"},
       {"name": "Haven", "year": 2020, "id": "haven"},
       {"name": "Gears 5", "year": 2020, "id": "gears-5"},
       {"name": "Immortals Fenyx Rising", "year": 2020, "id": "immortals-fr"},
-      {"name": "Clive Barker's Undying", "year": 2020, "id": "cb-undying"}
+      {"name": "Clive Barker's Undying", "year": 2020, "id": "cb-undying"},
+      {"name": "SCP: Janitorial Work", "year": 2020, "id": "scp-janitor"}
     ]
   },
   "infinite": {
@@ -460,7 +462,6 @@
       {"name": "CASE 2: Animatronics Survival", "year": 2018, "id": "case-2"},
       {"name": "We Happy Few", "year": 2018, "id": "we-happy-few"},
       {"name": "Super Seducer 2", "year": 2018, "id": "super-seducer-2"},
-      {"name": "Visage", "year": 2018, "id": "visage"},
       {"name": "Red Dead Redemption 2", "year": 2018, "id": "rdr2"},
       {"name": "Just Cause 4", "year": 2018, "id": "just-cause-4"},
       {"name": "Lucius III", "year": 2018, "id": "lucius-3"},

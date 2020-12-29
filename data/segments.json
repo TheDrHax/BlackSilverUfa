@@ -6669,9 +6669,17 @@
   },
   "851535429": {
     "youtube": "5cRFkvygT2I", "abs_start": "0:00", "abs_end": "6:06:25", "duration": "6:06:25",
-    "name": "SCP: Janitorial Work / SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place",
+    "name": "SCP: Janitorial Work #1 / SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place",
     "date": "2020-12-27",
     "torrent": "https://bsufiles.thedrhax.pw/streams/851535429.torrent",
-    "games": ["first", "single"]
+    "games": ["scp-janitor", "single"]
+  },
+  "853883043": {
+    "abs_start": "0:00", "abs_end": "6:25:30", "duration": "0:00",
+    "name": "SCP: Janitorial Work #2 / Ebola 2 / Visage #4 (заново, релиз)",
+    "date": "2020-12-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/853883043.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/853883043.torrent",
+    "games": ["scp-janitor", "first", "visage"]
   }
 }
