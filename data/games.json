@@ -1734,6 +1734,16 @@
     ]
   },
   {
+    "name": "Первые стримы",
+    "category": "other",
+    "id": "testing",
+    "streams": [
+      { "name": "1", "twitch": "001508100" },
+      { "name": "2", "twitch": "001508120" },
+      { "name": "3", "twitch": "001508170" }
+    ]
+  },
+  {
     "name": "Разное",
     "category": "other",
     "type": "list",
@@ -1866,6 +1876,14 @@
     "type": "list",
     "id": "first",
     "streams": [
+      { "twitch": "001508100", "subrefs": [
+        { "name": "Metro 2033 Redux" },
+        { "name": "Bloodborne", "start": "1:02:17" }
+      ] },
+      { "twitch": "001508120", "subrefs": [
+        { "name": "Nightmare House 2" },
+        { "name": "Bioshock Infinite", "start": "1:11:49" }
+      ] },
       { "name": "Titanfall 2", "twitch": "001610280" },
       { "name": "Assassin's Creed II - The Ezio Collection", "twitch": "001611160" },
       { "name": "Dungeon Nightmares II: The Memory (с Дашей)", "twitch": "001612170" },
@@ -3988,6 +4006,7 @@
     "category": "finished",
     "id": "ds2-scholar",
     "streams": [
+      { "name": "0 (тестовый стрим)", "twitch": "001508170" },
       { "name": "1", "twitch": "260957900" },
       { "name": "2", "twitch": "262352362" },
       { "name": "3", "twitch": "263472196", "segment": 1 },
@@ -3995,7 +4014,8 @@
       { "name": "4 (часть 2)", "twitch": "264227986" },
       { "name": "4 (часть 3)", "twitch": "264244000" },
       { "name": "4 (часть 4)", "twitch": "264290927" }
-    ]
+    ],
+    "cover": 1
   },
   {
     "name": "Dark Souls 3",
