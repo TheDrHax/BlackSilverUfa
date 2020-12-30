@@ -1,4 +1,24 @@
 {
+  "001508100": {
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
+    "name": "Первые стримы #1 / Metro 2033 Redux / Bloodborne",
+    "date": "2015-08-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001508100.mp4",
+    "games": ["testing", "first"]
+  },
+  "001508120": {
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
+    "name": "Первые стримы #2 / Nightmare House 2 / Bioshock Infinite",
+    "date": "2015-08-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001508120.mp4",
+    "games": ["testing", "first"]
+  },
+  "001508170": {
+    "youtube": "cXpD8bHr4BU", "official": false, "abs_start": "0:00", "abs_end": "2:21:35", "duration": "2:21:35",
+    "name": "Первые стримы #3 / Dark Souls 2: Scholar of the First Sin #0 (тестовый стрим)",
+    "date": "2015-08-17",
+    "games": ["testing", "ds2-scholar"]
+  },
   "001508180": {
     "youtube": "tcjMsr95TIE", "official": false, "abs_start": "0:00", "abs_end": "2:53:01", "duration": "2:53:01",
     "name": "Zombi #1",
