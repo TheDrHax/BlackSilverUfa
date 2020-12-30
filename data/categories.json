@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Эскейп-румы - Escape First 3 / Scribble It! #2 / Gartic #2 / Human: Fall Flat #10", "year": 2020, "id": "842813272"},
       {"name": "Demon's Souls Remake #1 (заново, с миньонами (кооп не найден)) / Dino Crisis #1", "year": 2020, "id": "843955454"},
       {"name": "Dino Crisis #2", "year": 2020, "id": "845055963"},
       {"name": "Clive Barker's Undying #1", "year": 2020, "id": "846191668"},
@@ -12,7 +11,8 @@
       {"name": "Gothic", "year": 2020, "id": "849365667"},
       {"name": "MONSTRUM #6 / Gone Golfing / Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"},
       {"name": "SCP: Janitorial Work #1 / SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place", "year": 2020, "id": "851535429"},
-      {"name": "SCP: Janitorial Work #2 / Ebola 2 / Visage #4 (заново, релиз)", "year": 2020, "id": "853883043"}
+      {"name": "SCP: Janitorial Work #2 / Ebola 2 / Visage #4 (заново, релиз)", "year": 2020, "id": "853883043"},
+      {"name": "Gartic #3 / Granny Simulator / Secret Neighbor #4 / Pummel Party #11 (6D) / Эскейп-румы - Escape First 3 #2", "year": 2020, "id": "855161482"}
     ]
   },
   "finished": {
@@ -556,7 +556,8 @@
       {"name": "Serious Sam 4", "year": 2020, "id": "749640613"},
       {"name": "Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House", "year": 2020, "id": "795935885"},
-      {"name": "In Silence", "year": 2020, "id": "827759529"}
+      {"name": "In Silence", "year": 2020, "id": "827759529"},
+      {"name": "Granny Simulator", "year": 2020, "id": "855161482"}
     ]
   },
   "co-op-series": {
