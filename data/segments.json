@@ -6154,13 +6154,13 @@
   },
   "738885129": {
     "youtube": "qE2ioYUcfxY", "official": false, "abs_start": "0:00", "abs_end": "6:21:13", "duration": "6:21:13",
-    "name": "Игровые места зрителей #1 / Escape Game Fort Boyard / Escape From Skull Dungeon / Fall Guys #7",
+    "name": "Сетапы зрителей #1 / Escape Game Fort Boyard / Escape From Skull Dungeon / Fall Guys #7",
     "date": "2020-09-12",
     "games": ["setups", "co-op", "fall-guys"]
   },
   "740853378": {
     "youtube": "0uXjZYTO2ks", "official": false, "abs_start": "0:00", "abs_end": "3:09:01", "duration": "3:09:01",
-    "name": "Marbles On Stream / Игровые места зрителей #2",
+    "name": "Marbles On Stream / Сетапы зрителей #2",
     "date": "2020-09-14",
     "games": ["first", "setups"]
   },
@@ -6208,7 +6208,7 @@
   },
   "754538542": {
     "youtube": "bke3eNThZD8", "official": false, "abs_start": "0:00", "abs_end": "5:25:45", "duration": "5:25:45",
-    "name": "Игровые места зрителей #3 / Fall Guys #10 (Wycc, WLG, BeastQT)",
+    "name": "Сетапы зрителей #3 / Fall Guys #10 (Wycc, WLG, BeastQT)",
     "date": "2020-09-28",
     "games": ["setups", "fall-guys"]
   },
@@ -6583,28 +6583,24 @@
     "youtube": "xsvdcMhWUBI", "abs_start": "0:00", "abs_end": "12:00:00", "duration": "12:00:00",
     "name": "Cyberpunk 2077 #2 (часть 1)",
     "date": "2020-12-10",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/832197729.torrent",
     "games": ["cyberpunk-2077"]
   },
   "832197729.1": {
     "youtube": "HIYXSNbY7n8", "official": false, "abs_start": "12:00:00", "abs_end": "15:55:38", "duration": "3:55:38",
     "name": "Cyberpunk 2077 #2 (часть 2) / неПрофессиональный The Game Awards 2020",
     "date": "2020-12-10",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/832197729.torrent",
     "games": ["cyberpunk-2077", "expos"]
   },
   "833444670": {
     "youtube": "vRsfIGIWpT4", "abs_start": "0:00", "abs_end": "7:37:06", "duration": "7:37:06",
     "name": "Cyberpunk 2077 #3",
     "date": "2020-12-11",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/833444670.torrent",
     "games": ["cyberpunk-2077"]
   },
   "834647659": {
     "youtube": "2lxC-1vdKYM", "abs_start": "0:00", "abs_end": "8:54:26", "duration": "8:54:26",
     "name": "Cyberpunk 2077 #4",
     "date": "2020-12-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/834647659.torrent",
     "games": ["cyberpunk-2077"]
   },
   "835893888": {
@@ -6713,5 +6709,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/855161482.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/855161482.torrent",
     "games": ["gartic", "co-op", "secret-neighbor", "pummel-party", "escape-rooms"]
+  },
+  "856402931": {
+    "abs_start": "0:00", "abs_end": "4:44:26", "duration": "0:00",
+    "name": "Сетапы зрителей #4 (новогодний выппуск)",
+    "date": "2020-12-31",
+    "direct": "https://bsufiles.thedrhax.pw/streams/856402931.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/856402931.torrent",
+    "games": ["setups"]
   }
 }

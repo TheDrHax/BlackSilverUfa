@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Demon's Souls Remake #1 (заново, с миньонами (кооп не найден)) / Dino Crisis #1", "year": 2020, "id": "843955454"},
       {"name": "Dino Crisis #2", "year": 2020, "id": "845055963"},
       {"name": "Clive Barker's Undying #1", "year": 2020, "id": "846191668"},
       {"name": "Clive Barker's Undying #2", "year": 2020, "id": "847404053"},
@@ -12,7 +11,8 @@
       {"name": "MONSTRUM #6 / Gone Golfing / Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"},
       {"name": "SCP: Janitorial Work #1 / SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place", "year": 2020, "id": "851535429"},
       {"name": "SCP: Janitorial Work #2 / Ebola 2 / Visage #4 (заново, релиз)", "year": 2020, "id": "853883043"},
-      {"name": "Gartic #3 / Granny Simulator / Secret Neighbor #4 / Pummel Party #11 (6D) / Эскейп-румы - Escape First 3 #2", "year": 2020, "id": "855161482"}
+      {"name": "Gartic #3 / Granny Simulator / Secret Neighbor #4 / Pummel Party #11 (6D) / Эскейп-румы - Escape First 3 #2", "year": 2020, "id": "855161482"},
+      {"name": "Сетапы зрителей #4 (новогодний выппуск)", "year": 2020, "id": "856402931"}
     ]
   },
   "finished": {
@@ -660,7 +660,7 @@
       {"name": "Розыгрыш мерча Metro Exodus", "year": 2020, "id": "572721394"},
       {"name": "Розыгрыш Asus ROG Strix Scope", "year": 2020, "id": "676500778"},
       {"name": "Трейлеры и нарезки", "year": 2020, "id": "687309207"},
-      {"name": "Игровые места зрителей", "year": 2020, "id": "setups"},
+      {"name": "Сетапы зрителей", "year": 2020, "id": "setups"},
       {"name": "Розыгрыш Asus ROG GA502IV", "year": 2020, "id": "768182935"},
       {"name": "Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"},
       {"name": "Тест Xbox Series X", "year": 2020, "id": "793751031"},
