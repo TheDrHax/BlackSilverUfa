@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Dino Crisis #2", "year": 2020, "id": "845055963"},
       {"name": "Clive Barker's Undying #1", "year": 2020, "id": "846191668"},
       {"name": "Clive Barker's Undying #2", "year": 2020, "id": "847404053"},
       {"name": "Clive Barker's Undying #3", "year": 2020, "id": "848512607"},
@@ -12,7 +11,8 @@
       {"name": "SCP: Janitorial Work #1 / SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place", "year": 2020, "id": "851535429"},
       {"name": "SCP: Janitorial Work #2 / Ebola 2 / Visage #4 (заново, релиз)", "year": 2020, "id": "853883043"},
       {"name": "Gartic #3 / Granny Simulator / Secret Neighbor #4 / Pummel Party #11 (6D) / Эскейп-румы - Escape First 3 #2", "year": 2020, "id": "855161482"},
-      {"name": "Сетапы зрителей #4 (новогодний выпуск)", "year": 2020, "id": "856402931"}
+      {"name": "Сетапы зрителей #4 (новогодний выпуск)", "year": 2020, "id": "856402931"},
+      {"name": "Hades #2 (без комментариев)", "year": 2021, "id": "858724132"}
     ]
   },
   "finished": {
@@ -365,7 +365,7 @@
       {"name": "There Is No Light (демо) / Star Renegades / Redneck Ed: Astro Monsters Show", "year": 2020, "id": "736906091"},
       {"name": "Marbles On Stream", "year": 2020, "id": "740853378"},
       {"name": "Crysis: Remastered", "year": 2020, "id": "746844135"},
-      {"name": "BPM: Bullets Per Minute / Hades", "year": 2020, "id": "747742325"},
+      {"name": "BPM: Bullets Per Minute", "year": 2020, "id": "747742325"},
       {"name": "Star Wars: Squadrons", "year": 2020, "id": "758360932"},
       {"name": "Crash Bandicoot 4: It's About Time", "year": 2020, "id": "759389769"},
       {"name": "Baldur's Gate 3", "year": 2020, "id": "763202430"},
@@ -430,6 +430,7 @@
       {"name": "Alien: Hope for the Future", "year": 2020, "id": "alien-hope-for-the-future"},
       {"name": "The Elder Scrolls Online", "year": 2020, "id": "teso"},
       {"name": "Grounded", "year": 2020, "id": "grounded"},
+      {"name": "Hades", "year": 2020, "id": "hades"},
       {"name": "Noita", "year": 2020, "id": "noita"}
     ]
   },

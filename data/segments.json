@@ -6172,9 +6172,9 @@
   },
   "747742325": {
     "youtube": "SMLIMejupXc", "official": false, "abs_start": "0:00", "abs_end": "5:58:08", "duration": "5:58:08",
-    "name": "BPM: Bullets Per Minute / Hades / Fall Guys #8 (соло) / Vampire: The Masquerade - Bloodlines #6",
+    "name": "BPM: Bullets Per Minute / Hades #1 / Fall Guys #8 (соло) / Vampire: The Masquerade - Bloodlines #6",
     "date": "2020-09-21",
-    "games": ["first", "fall-guys", "vampire-masquerade"]
+    "games": ["first", "hades", "fall-guys", "vampire-masquerade"]
   },
   "749640613": {
     "youtube": "UwLqQHKOUkM", "official": false, "abs_start": "0:00", "abs_end": "5:34:49", "duration": "5:34:49",
@@ -6714,5 +6714,13 @@
     "date": "2020-12-31",
     "torrent": "https://bsufiles.thedrhax.pw/streams/856402931.torrent",
     "games": ["setups"]
+  },
+  "858724132": {
+    "abs_start": "0:00", "abs_end": "2:40:22", "duration": "0:00",
+    "name": "Hades #2 (без комментариев)",
+    "date": "2021-01-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/858724132.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/858724132.torrent",
+    "games": ["hades"]
   }
 }
