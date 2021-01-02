@@ -2222,10 +2222,7 @@
       ] },
       { "name": "Marbles On Stream", "twitch": "740853378" },
       { "name": "Crysis: Remastered", "twitch": "746844135" },
-      { "twitch": "747742325", "subrefs": [
-        { "name": "BPM: Bullets Per Minute" },
-        { "name": "Hades", "start": "1:24:49" }
-      ] },
+      { "name": "BPM: Bullets Per Minute", "twitch": "747742325" },
       { "name": "Star Wars: Squadrons", "twitch": "758360932" },
       { "name": "Crash Bandicoot 4: It's About Time", "twitch": "759389769" },
       { "name": "Baldur's Gate 3", "twitch": "763202430" },
@@ -2267,6 +2264,15 @@
       { "name": "Gothic", "twitch": "849365667" },
       { "name": "Gone Golfing", "twitch": "850367913", "start": "3:22:30" },
       { "name": "Ebola 2", "twitch": "853883043", "start": "2:12:38" }
+    ]
+  },
+  {
+    "name": "Hades",
+    "category": "infinite",
+    "id": "hades",
+    "streams": [
+      { "name": "1", "twitch": "747742325", "start": "1:24:49" },
+      { "name": "2 (без комментариев)", "twitch": "858724132" }
     ]
   },
   {
