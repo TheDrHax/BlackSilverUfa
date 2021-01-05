@@ -779,7 +779,7 @@ class Stream:
     def _unix_time(self) -> str:
         args = ['--pretty=oneline', '--reverse', '-S', self.twitch]
         rev = repo.git.log(args).split(' ')[0]
-        return repo.commit(rev).committed_date
+        return repo.commit(rev).authored_date
 
     @property
     def date(self) -> datetime:
