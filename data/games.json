@@ -1579,7 +1579,8 @@
       { "twitch": "851535429", "subrefs": [
         { "name": "SCP-002: The \"Living\" Room", "start": "1:07:27" },
         { "name": "SCP-1437: A Hole to Another Place", "start": "1:16:52" }
-      ] }
+      ] },
+      { "name": "Remothered: Broken Porcelain", "twitch": "860924750", "start": "2:54:07" }
     ]
   },
   {
@@ -2264,10 +2265,7 @@
       { "name": "Gothic", "twitch": "849365667" },
       { "name": "Gone Golfing", "twitch": "850367913", "start": "3:22:30" },
       { "name": "Ebola 2", "twitch": "853883043", "start": "2:12:38" },
-      { "twitch": "860924750", "subrefs": [
-        { "name": "Hidden Deep (демо)" },
-        { "name": "Remothered: Broken Porcelain", "start": "2:54:07" }
-      ] }
+      { "name": "Hidden Deep (демо)", "twitch": "860924750" }
     ]
   },
   {
@@ -4240,6 +4238,9 @@
       { "name": "2", "twitch": "309135471" },
       { "name": "3 (часть 1)", "twitch": "309553210" },
       { "name": "3 (часть 2)", "twitch": "309591231" }
+    ]
+  }
+]
     ]
   }
 ]
