@@ -6728,5 +6728,13 @@
     "date": "2021-01-04",
     "torrent": "https://bsufiles.thedrhax.pw/streams/860924750.torrent",
     "games": ["first", "single"]
+  },
+  "862110712": {
+    "abs_start": "0:00", "abs_end": "6:20:15", "duration": "0:00",
+    "name": "Subnautica: Below Zero (ранний доступ) #3 (новый сюжет)",
+    "date": "2021-01-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/862110712.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/862110712.torrent",
+    "games": ["subnautica-bz"]
   }
 }
