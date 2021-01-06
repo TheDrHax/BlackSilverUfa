@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Clive Barker's Undying #3", "year": 2020, "id": "848512607"},
       {"name": "Gothic", "year": 2020, "id": "849365667"},
       {"name": "MONSTRUM #6 / Gone Golfing / Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"},
       {"name": "SCP: Janitorial Work #1 / SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place", "year": 2020, "id": "851535429"},
@@ -12,7 +11,8 @@
       {"name": "Сетапы зрителей #4 (новогодний выпуск)", "year": 2020, "id": "856402931"},
       {"name": "Hades #2 (без комментариев)", "year": 2021, "id": "858724132"},
       {"name": "Hidden Deep (демо) / Remothered: Broken Porcelain", "year": 2021, "id": "860924750"},
-      {"name": "Subnautica: Below Zero (ранний доступ) #3 (новый сюжет)", "year": 2021, "id": "862110712"}
+      {"name": "Subnautica: Below Zero (ранний доступ) #3 (новый сюжет)", "year": 2021, "id": "862110712"},
+      {"name": "Subnautica: Below Zero (ранний доступ) #4 (часть 1)", "year": 2021, "id": "863312509"}
     ]
   },
   "finished": {
