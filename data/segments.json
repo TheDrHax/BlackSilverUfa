@@ -6607,7 +6607,6 @@
     "youtube": "Vs44BLV4lX4", "abs_start": "0:00", "abs_end": "9:54:53", "duration": "9:54:53",
     "name": "Cyberpunk 2077 #5 (финал)",
     "date": "2020-12-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/835893888.torrent",
     "games": ["cyberpunk-2077"]
   },
   "838158299": {
@@ -6763,5 +6762,13 @@
     "date": "2021-01-11",
     "torrent": "https://bsufiles.thedrhax.pw/streams/869571796.torrent",
     "games": ["single"]
+  },
+  "870760177": {
+    "abs_start": "0:00", "abs_end": "7:09:03", "duration": "0:00",
+    "name": "Yaga / Fall Guys #13 (соло) / Subnautica: Below Zero (ранний доступ) #5",
+    "date": "2021-01-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/870760177.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/870760177.torrent",
+    "games": ["first", "fall-guys", "subnautica-bz"]
   }
 }
