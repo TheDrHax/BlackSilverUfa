@@ -6613,7 +6613,6 @@
     "youtube": "eXL62NChcos", "abs_start": "0:00", "abs_end": "7:50:07", "duration": "7:50:07",
     "name": "Little Nightmares 2 (демо) / Call of the Sea",
     "date": "2020-12-15",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/838158299.torrent",
     "games": ["single"]
   },
   "839294640": {
@@ -6769,5 +6768,13 @@
     "date": "2021-01-12",
     "torrent": "https://bsufiles.thedrhax.pw/streams/870760177.torrent",
     "games": ["first", "fall-guys", "subnautica-bz"]
+  },
+  "871972944": {
+    "abs_start": "0:00", "abs_end": "6:12:20", "duration": "0:00",
+    "name": "Subnautica: Below Zero (ранний доступ) #6",
+    "date": "2021-01-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/871972944.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/871972944.torrent",
+    "games": ["subnautica-bz"]
   }
 }
