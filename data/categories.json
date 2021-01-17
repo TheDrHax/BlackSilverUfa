@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Hades #2 (без комментариев)", "year": 2021, "id": "858724132"},
       {"name": "Hidden Deep (демо) / Remothered: Broken Porcelain", "year": 2021, "id": "860924750"},
       {"name": "Subnautica: Below Zero (ранний доступ) #3 (новый сюжет)", "year": 2021, "id": "862110712"},
       {"name": "Subnautica: Below Zero (ранний доступ) #4 (часть 1)", "year": 2021, "id": "863312509"},
@@ -12,7 +11,8 @@
       {"name": "Noch (демо) / Dom Rusalok", "year": 2021, "id": "869571796"},
       {"name": "Yaga / Fall Guys #13 (соло) / Subnautica: Below Zero (ранний доступ) #5", "year": 2021, "id": "870760177"},
       {"name": "Subnautica: Below Zero (ранний доступ) #6", "year": 2021, "id": "871972944"},
-      {"name": "Subnautica: Below Zero (ранний доступ) #7", "year": 2021, "id": "873197357"}
+      {"name": "Subnautica: Below Zero (ранний доступ) #7", "year": 2021, "id": "873197357"},
+      {"name": "Among Us #3 / Gartic Phone / Pummel Party #12 (6D) / Golf It! #23", "year": 2021, "id": "877211836"}
     ]
   },
   "finished": {
@@ -563,7 +563,8 @@
       {"name": "Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House", "year": 2020, "id": "795935885"},
       {"name": "In Silence", "year": 2020, "id": "827759529"},
-      {"name": "Granny Simulator", "year": 2020, "id": "855161482"}
+      {"name": "Granny Simulator", "year": 2020, "id": "855161482"},
+      {"name": "Gartic Phone", "year": 2021, "id": "877211836"}
     ]
   },
   "co-op-series": {

@@ -6625,7 +6625,6 @@
     "youtube": "aurYIKcqvEQ", "abs_start": "0:00", "abs_end": "7:48:47", "duration": "7:48:47",
     "name": "Harry Potter and the Chamber of Secrets",
     "date": "2020-12-18",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/841556992.torrent",
     "games": ["single"]
   },
   "842813272": {
@@ -6781,5 +6780,13 @@
     "date": "2021-01-14",
     "torrent": "https://bsufiles.thedrhax.pw/streams/873197357.torrent",
     "games": ["subnautica-bz"]
+  },
+  "877211836": {
+    "abs_start": "0:00", "abs_end": "5:50:23", "duration": "0:00",
+    "name": "Among Us #3 / Gartic Phone / Pummel Party #12 (6D) / Golf It! #23",
+    "date": "2021-01-17",
+    "direct": "https://bsufiles.thedrhax.pw/streams/877211836.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/877211836.torrent",
+    "games": ["among-us", "co-op", "pummel-party", "golf-it"]
   }
 }
