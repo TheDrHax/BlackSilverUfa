@@ -2237,7 +2237,6 @@
       { "name": "Crash Bandicoot 4: It's About Time", "twitch": "759389769" },
       { "name": "Baldur's Gate 3", "twitch": "763202430" },
       { "twitch": "767249770", "subrefs": [
-        { "name": "Everspace 2 (демо)", "start": "2:09:01" },
         { "name": "Partisans 1941 (демо)", "start": "2:30:12" },
         { "name": "F.I.S.T.: Forged In Shadow Torch (демо)", "start": "3:16:45" }
       ] },
@@ -2278,6 +2277,15 @@
       { "name": "Medal of Honor: Above and Beyond", "twitch": "864545602" },
       { "name": "Yaga", "twitch": "870760177" },
       { "name": "Song of Horror", "twitch": "878410974" }
+    ]
+  },
+  {
+    "name": "Everspace 2",
+    "category": "infinite",
+    "id": "everspace-2",
+    "streams": [
+      { "name": "Демо", "twitch": "767249770", "start": "2:09:01" },
+      { "name": "Ранний доступ", "twitch": "879661416" }
     ]
   },
   {
@@ -2990,7 +2998,8 @@
     "streams": [
       { "name": "Тест Xbox Series X", "twitch": "793751031" },
       { "name": "1", "twitch": "821805079", "start": "5:21:12" },
-      { "name": "2", "twitch": "839294640", "start": "2:06:00" }
+      { "name": "2", "twitch": "839294640", "start": "2:06:00" },
+      { "name": "3", "twitch": "879661416", "start": "2:08:43" }
     ]
   },
   {
