@@ -6268,9 +6268,9 @@
   },
   "767249770": {
     "youtube": "f00l6tmLWSY", "official": false, "abs_start": "0:00", "abs_end": "6:21:03", "duration": "6:21:03",
-    "name": "Xuan-Yuan Sword VII (демо) / Webbed (демо) / Everspace 2 (демо) / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (со зрителями)",
+    "name": "Xuan-Yuan Sword VII (демо) / Webbed (демо) / Everspace 2 - Демо / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (со зрителями)",
     "date": "2020-10-11",
-    "games": ["single", "first", "party-animals"]
+    "games": ["single", "everspace-2", "first", "party-animals"]
   },
   "768182935": {
     "youtube": "6N3HJE1MHR0", "official": false, "abs_start": "0:00", "abs_end": "7:23:09", "duration": "7:23:09",
@@ -6631,7 +6631,6 @@
     "youtube": "v3PTiHxAQEc", "abs_start": "0:00", "abs_end": "6:08:24", "duration": "6:08:24",
     "name": "Эскейп-румы - Escape First 3 #1 / Scribble It! #2 / Gartic #2 / Human: Fall Flat #10",
     "date": "2020-12-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/842813272.torrent",
     "games": ["escape-rooms", "scribble-it", "gartic", "human-fall-flat"]
   },
   "843955454": {
@@ -6794,5 +6793,13 @@
     "date": "2021-01-18",
     "torrent": "https://bsufiles.thedrhax.pw/streams/878410974.torrent",
     "games": ["first"]
+  },
+  "879661416": {
+    "abs_start": "0:00", "abs_end": "6:58:21", "duration": "0:00",
+    "name": "Everspace 2 - Ранний доступ / Gears 5 #3",
+    "date": "2021-01-19",
+    "direct": "https://bsufiles.thedrhax.pw/streams/879661416.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/879661416.torrent",
+    "games": ["everspace-2", "gears-5"]
   }
 }
