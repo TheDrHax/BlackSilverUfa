@@ -13,7 +13,7 @@ node('python3 && git && jq && (tzdata || !alpine)') {
         git branch: input_branch, credentialsId: cred_git, url: repo_url
 
         try {
-            sh "! git log --pretty=oneline -1 | grep -qE 'Запись (стрима|сегмента) [0-9]+'"
+            sh "! git log --pretty=oneline -1 | grep -qE 'Запись (стрима|сегмента) [0-9.,]+\$'"
         } catch (Exception ex) {
             currentBuild.result = 'ABORTED'
             error('Skipping build of automated commit')
