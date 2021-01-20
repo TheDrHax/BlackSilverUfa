@@ -6637,14 +6637,12 @@
     "youtube": "aaOU6gqLE20", "abs_start": "0:00", "abs_end": "6:02:17", "duration": "6:02:17",
     "name": "Demon's Souls Remake #1 (заново, с миньонами (кооп не найден)) / Dino Crisis #1",
     "date": "2020-12-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/843955454.torrent",
     "games": ["demons-souls-remake", "dino-crisis"]
   },
   "845055963": {
     "youtube": "cV4PG2He-J0", "abs_start": "0:00", "abs_end": "6:37:41", "duration": "6:37:41",
     "name": "Dino Crisis #2",
     "date": "2020-12-21",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/845055963.torrent",
     "games": ["dino-crisis"]
   },
   "846191668": {
@@ -6800,5 +6798,13 @@
     "date": "2021-01-19",
     "torrent": "https://bsufiles.thedrhax.pw/streams/879661416.torrent",
     "games": ["everspace-2", "gears-5"]
+  },
+  "880899353": {
+    "abs_start": "0:00", "abs_end": "7:24:39", "duration": "0:00",
+    "name": "Hitman 3",
+    "date": "2021-01-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/880899353.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/880899353.torrent",
+    "games": ["first"]
   }
 }
