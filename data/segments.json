@@ -6649,7 +6649,6 @@
     "youtube": "v7adTZY247c", "abs_start": "0:00", "abs_end": "6:34:39", "duration": "6:34:39",
     "name": "Clive Barker's Undying #1",
     "date": "2020-12-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/846191668.torrent",
     "games": ["cb-undying"]
   },
   "847404053": {
@@ -6801,9 +6800,17 @@
   },
   "880899353": {
     "youtube": "S3N7MgXcsvk", "official": false, "abs_start": "0:00", "abs_end": "7:24:06", "duration": "7:24:06",
-    "name": "Hitman 3",
+    "name": "Hitman 3 #1",
     "date": "2021-01-20",
     "torrent": "https://bsufiles.thedrhax.pw/streams/880899353.torrent",
-    "games": ["first"]
+    "games": ["hitman-3"]
+  },
+  "882168228": {
+    "abs_start": "0:00", "abs_end": "4:49:12", "duration": "0:00",
+    "name": "Hitman 3 #2",
+    "date": "2021-01-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/882168228.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/882168228.torrent",
+    "games": ["hitman-3"]
   }
 }

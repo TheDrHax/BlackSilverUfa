@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Subnautica: Below Zero (ранний доступ) #4 (часть 2)", "year": 2021, "id": "863375029"},
       {"name": "Medal of Honor: Above and Beyond", "year": 2021, "id": "864545602"},
       {"name": "Noch (демо) / Dom Rusalok", "year": 2021, "id": "869571796"},
       {"name": "Yaga / Fall Guys #13 (соло) / Subnautica: Below Zero (ранний доступ) #5", "year": 2021, "id": "870760177"},
@@ -12,7 +11,8 @@
       {"name": "Among Us #3 / Gartic Phone / Pummel Party #12 (6D) / Golf It! #23", "year": 2021, "id": "877211836"},
       {"name": "Song of Horror", "year": 2021, "id": "878410974"},
       {"name": "Everspace 2 - Ранний доступ / Gears 5 #3", "year": 2021, "id": "879661416"},
-      {"name": "Hitman 3", "year": 2021, "id": "880899353"}
+      {"name": "Hitman 3 #1", "year": 2021, "id": "880899353"},
+      {"name": "Hitman 3 #2", "year": 2021, "id": "882168228"}
     ]
   },
   "finished": {
@@ -209,7 +209,8 @@
       {"name": "Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"},
       {"name": "SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place", "year": 2020, "id": "851535429"},
       {"name": "Remothered: Broken Porcelain", "year": 2021, "id": "860924750"},
-      {"name": "Noch (демо) / Dom Rusalok", "year": 2021, "id": "869571796"}
+      {"name": "Noch (демо) / Dom Rusalok", "year": 2021, "id": "869571796"},
+      {"name": "Hitman 3", "year": 2021, "id": "hitman-3"}
     ]
   },
   "first": {
@@ -391,8 +392,7 @@
       {"name": "Hidden Deep (демо)", "year": 2021, "id": "860924750"},
       {"name": "Medal of Honor: Above and Beyond", "year": 2021, "id": "864545602"},
       {"name": "Yaga", "year": 2021, "id": "870760177"},
-      {"name": "Song of Horror", "year": 2021, "id": "878410974"},
-      {"name": "Hitman 3", "year": 2021, "id": "880899353"}
+      {"name": "Song of Horror", "year": 2021, "id": "878410974"}
     ]
   },
   "ongoing": {
