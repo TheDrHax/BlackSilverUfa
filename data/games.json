@@ -2276,8 +2276,16 @@
       { "name": "Hidden Deep (демо)", "twitch": "860924750" },
       { "name": "Medal of Honor: Above and Beyond", "twitch": "864545602" },
       { "name": "Yaga", "twitch": "870760177" },
-      { "name": "Song of Horror", "twitch": "878410974" },
-      { "name": "Hitman 3", "twitch": "880899353" }
+      { "name": "Song of Horror", "twitch": "878410974" }
+    ]
+  },
+  {
+    "name": "Hitman 3",
+    "category": "finished",
+    "id": "hitman-3",
+    "streams": [
+      { "name": "1", "twitch": "880899353" },
+      { "name": "2", "twitch": "882168228" }
     ]
   },
   {
