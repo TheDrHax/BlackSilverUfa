@@ -245,7 +245,7 @@ function spawnPlyr(wrapper, callback) {
       button.classList.add('plyr__controls__item');
       button.classList.add('plyr__control');
       button.classList.add('plyr__control--pressed');
-      button.classList.add('plyr-yt-open');
+      button.classList.add('plyr__control__custom');
 
       let icon = document.createElement('i');
       icon.classList.add('fab');
@@ -281,6 +281,7 @@ function spawnPlyr(wrapper, callback) {
     let theaterButton = document.createElement('button');
     theaterButton.classList.add('plyr__controls__item');
     theaterButton.classList.add('plyr__control');
+    theaterButton.classList.add('plyr__control__custom');
 
     let theaterIcon = document.createElement('i');
     theaterIcon.classList.add('fas');
