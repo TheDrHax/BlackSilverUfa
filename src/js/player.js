@@ -185,7 +185,6 @@ function spawnPlyr(wrapper, callback) {
     player.on('exitfullscreen', subResize);
     window.addEventListener('resize', debounce(subResize, 100));
 
-    // Player caption button
     player.on(ready, function(event) {
       // Set correct player element to track current time
       subtitles.setVideo(new Proxy(player.media, {
@@ -204,6 +203,7 @@ function spawnPlyr(wrapper, callback) {
         }
       }));
 
+      // Player caption button
       let captions = player.elements.controls.childNodes[4];
       captions.toggle = function() {
         if (captions.pressed) {
@@ -275,7 +275,7 @@ function spawnPlyr(wrapper, callback) {
   }
 
   // Add theater mode control button
-  player.on(ready, function () {
+  player.once(ready, function () {
     let controls = player.elements.controls;
     let fullscreen = controls.querySelector('button[data-plyr="fullscreen"]');
     let theaterButton = document.createElement('button');
