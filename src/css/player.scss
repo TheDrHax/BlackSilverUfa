@@ -26,6 +26,23 @@ button.plyr-yt-open {
 .stream {
   width: calc(80vh / 9 * 16);
   max-width: calc(100vw - 30px);
+
+  &.theater {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    background: rgba(0,0,0,0.9);
+    z-index: 99999;
+
+    & > * {
+      width: calc(100vh / 9 * 16)
+    }
+  }
 }
 
 @media (min-width: 1200px) {
