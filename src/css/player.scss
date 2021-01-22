@@ -29,7 +29,7 @@ button.plyr-yt-open {
 
   &.theater {
     display: flex;
-    align-items: center;
+    justify-content: center;
     position: fixed;
     left: 0;
     top: 0;
@@ -40,8 +40,7 @@ button.plyr-yt-open {
     z-index: 99999;
 
     & > * {
-      flex: 1;
-      max-height: 100vh;
+      width: calc(100vh / 9 * 16)
     }
   }
 }
