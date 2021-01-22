@@ -275,24 +275,26 @@ function spawnPlyr(wrapper, callback) {
   }
 
   // Add theater mode control button
-  let controls = player.elements.controls;
-  let fullscreen = controls.querySelector('button[data-plyr="fullscreen"]');
-  let theaterButton = document.createElement('button');
-  theaterButton.classList.add('plyr__controls__item');
-  theaterButton.classList.add('plyr__control');
-  theaterButton.classList.add('plyr__control__custom');
+  player.on(ready, function () {
+    let controls = player.elements.controls;
+    let fullscreen = controls.querySelector('button[data-plyr="fullscreen"]');
+    let theaterButton = document.createElement('button');
+    theaterButton.classList.add('plyr__controls__item');
+    theaterButton.classList.add('plyr__control');
+    theaterButton.classList.add('plyr__control__custom');
 
-  let theaterIcon = document.createElement('i');
-  theaterIcon.classList.add('fas');
-  theaterIcon.classList.add('fa-expand');
-  theaterButton.appendChild(theaterIcon);
+    let theaterIcon = document.createElement('i');
+    theaterIcon.classList.add('fas');
+    theaterIcon.classList.add('fa-expand');
+    theaterButton.appendChild(theaterIcon);
 
-  theaterButton.onclick = function (e) {
-    wrapper.classList.toggle('theater');
-    subResize();
-  };
+    theaterButton.onclick = function (e) {
+      wrapper.classList.toggle('theater');
+      subResize();
+    };
 
-  controls.insertBefore(theaterButton, fullscreen);
+    controls.insertBefore(theaterButton, fullscreen);
+  });
 
   // Element controls
   wrapper.seek = function(time) {
