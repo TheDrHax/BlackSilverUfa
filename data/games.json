@@ -1454,14 +1454,15 @@
   },
   {
     "name": "Resident Evil 7 (Madhouse)",
-    "category": "ongoing",
+    "category": "finished",
     "id": "re7",
     "streams": [
       { "name": "1 (часть 1)", "twitch": "663012938" },
       { "name": "1 (часть 2)", "twitch": "663045694" },
       { "name": "2", "twitch": "665878817", "start": "4:28:53" },
       { "name": "3", "twitch": "666848828" },
-      { "name": "4", "twitch": "675494632", "start": "3:14:18" }
+      { "name": "4", "twitch": "675494632", "start": "3:14:18" },
+      { "name": "5", "twitch": "883419848", "start": "3:11:32" }
     ]
   },
   {
@@ -1589,7 +1590,8 @@
       { "twitch": "869571796", "subrefs": [
         { "name": "Noch (демо)" },
         { "name": "Dom Rusalok", "start": "2:17:12" }
-      ] }
+      ] },
+      { "name": "Resident Evil Village (демо)", "twitch": "883419848" }
     ]
   },
   {
