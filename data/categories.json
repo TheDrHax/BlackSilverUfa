@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Medal of Honor: Above and Beyond", "year": 2021, "id": "864545602"},
       {"name": "Noch (демо) / Dom Rusalok", "year": 2021, "id": "869571796"},
       {"name": "Yaga / Fall Guys #13 (соло) / Subnautica: Below Zero (ранний доступ) #5", "year": 2021, "id": "870760177"},
       {"name": "Subnautica: Below Zero (ранний доступ) #6", "year": 2021, "id": "871972944"},
@@ -12,7 +11,8 @@
       {"name": "Song of Horror", "year": 2021, "id": "878410974"},
       {"name": "Everspace 2 - Ранний доступ / Gears 5 #3", "year": 2021, "id": "879661416"},
       {"name": "Hitman 3 #1", "year": 2021, "id": "880899353"},
-      {"name": "Hitman 3 #2", "year": 2021, "id": "882168228"}
+      {"name": "Hitman 3 #2", "year": 2021, "id": "882168228"},
+      {"name": "Resident Evil Village (демо) / Resident Evil 7 (Madhouse) #5", "year": 2021, "id": "883419848"}
     ]
   },
   "finished": {
@@ -175,6 +175,7 @@
       {"name": "Secret Agent Barbie", "year": 2020, "id": "649632498"},
       {"name": "The Last of Us: Part II", "year": 2020, "id": "654380816,655265437,655528246,656257835"},
       {"name": "Vampire: The Masquerade - Bloodlines", "year": 2020, "id": "vampire-masquerade"},
+      {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "id": "re7"},
       {"name": "Winx Club", "year": 2020, "id": "670671274"},
       {"name": "Devolverland Expo", "year": 2020, "id": "677524120"},
       {"name": "Ghost of Tsushima", "year": 2020, "id": "681457263,682267155,683282462"},
@@ -210,7 +211,8 @@
       {"name": "SCP-002: The \"Living\" Room / SCP-1437: A Hole to Another Place", "year": 2020, "id": "851535429"},
       {"name": "Remothered: Broken Porcelain", "year": 2021, "id": "860924750"},
       {"name": "Noch (демо) / Dom Rusalok", "year": 2021, "id": "869571796"},
-      {"name": "Hitman 3", "year": 2021, "id": "hitman-3"}
+      {"name": "Hitman 3", "year": 2021, "id": "hitman-3"},
+      {"name": "Resident Evil Village (демо)", "year": 2021, "id": "883419848"}
     ]
   },
   "first": {
@@ -497,7 +499,6 @@
       {"name": "Mafia II: Definitive Edition", "year": 2020, "id": "mafia-2-definitive"},
       {"name": "Beyond Blue", "year": 2020, "id": "beyond-blue"},
       {"name": "Haven", "year": 2020, "id": "haven"},
-      {"name": "Resident Evil 7 (Madhouse)", "year": 2020, "id": "re7"},
       {"name": "Mortal Shell", "year": 2020, "id": "mortal-shell"},
       {"name": "Destroy All Humans!", "year": 2020, "id": "destroy-all-humans"},
       {"name": "Far Cry 3", "year": 2020, "id": "far-cry-3"},

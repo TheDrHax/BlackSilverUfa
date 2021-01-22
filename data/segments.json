@@ -6812,5 +6812,13 @@
     "date": "2021-01-21",
     "torrent": "https://bsufiles.thedrhax.pw/streams/882168228.torrent",
     "games": ["hitman-3"]
+  },
+  "883419848": {
+    "abs_start": "0:00", "abs_end": "6:48:15", "duration": "0:00",
+    "name": "Resident Evil Village (демо) / Resident Evil 7 (Madhouse) #5",
+    "date": "2021-01-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/883419848.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/883419848.torrent",
+    "games": ["single", "re7"]
   }
 }
