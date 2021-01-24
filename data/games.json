@@ -360,8 +360,16 @@
         { "name": "Escape From Kyoto House", "start": "6:24:11" }
       ] },
       { "name": "In Silence", "twitch": "827759529", "start": "2:17:29" },
-      { "name": "Granny Simulator", "twitch": "855161482", "start": "1:28:04" },
-      { "name": "Gartic Phone", "twitch": "877211836", "start": "2:59:45" }
+      { "name": "Granny Simulator", "twitch": "855161482", "start": "1:28:04" }
+    ]
+  },
+  {
+    "name": "Gartic Phone",
+    "category": "co-op-series",
+    "id": "gartic-phone",
+    "streams": [
+      { "name": "1", "twitch": "877211836", "start": "2:59:45" },
+      { "name": "2", "twitch": "886277729" }
     ]
   },
   {
@@ -371,7 +379,8 @@
     "streams": [
       { "name": "1", "twitch": "827759529" },
       { "name": "2", "twitch": "842813272", "start": "2:46:53" },
-      { "name": "3", "twitch": "855161482" }
+      { "name": "3", "twitch": "855161482" },
+      { "name": "4", "twitch": "886277729", "start": "4:35:12" }
     ]
   },
   {
@@ -846,7 +855,8 @@
       { "name": "9 (7D)", "twitch": "752595682", "start": "2:27:46" },
       { "name": "10 (7D)", "twitch": "760503086" },
       { "name": "11 (6D)", "twitch": "855161482", "start": "3:15:44" },
-      { "name": "12 (6D)", "twitch": "877211836", "start": "4:05:36" }
+      { "name": "12 (6D)", "twitch": "877211836", "start": "4:05:36" },
+      { "name": "13 (6D)", "twitch": "886277729", "start": "2:32:04" }
     ]
   },
   {
@@ -996,7 +1006,8 @@
       { "name": "23", "twitch": "601167190", "start": "5:45:40" },
       { "name": "24", "twitch": "633403643", "start": "4:55:16" },
       { "name": "25", "twitch": "690295728", "start": "4:41:25" },
-      { "name": "26", "twitch": "795935885", "start": "7:11:39" }
+      { "name": "26", "twitch": "795935885", "start": "7:11:39" },
+      { "name": "27", "twitch": "886277729", "start": "5:00:27" }
     ]
   },
   {
@@ -1119,7 +1130,8 @@
       { "name": "20", "twitch": "556596083", "start": "5:13:26" },
       { "name": "21", "twitch": "560235613", "start": "5:33:18" },
       { "name": "22", "twitch": "690295728", "start": "5:28:43" },
-      { "name": "23", "twitch": "877211836", "start": "5:02:40" }
+      { "name": "23", "twitch": "877211836", "start": "5:02:40" },
+      { "name": "24", "twitch": "886277729", "start": "3:32:55" }
     ]
   },
   {
