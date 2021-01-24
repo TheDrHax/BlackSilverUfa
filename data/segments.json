@@ -6655,14 +6655,12 @@
     "youtube": "nG8YMehyUlQ", "abs_start": "0:00", "abs_end": "4:49:32", "duration": "4:49:32",
     "name": "Clive Barker's Undying #2",
     "date": "2020-12-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/847404053.torrent",
     "games": ["cb-undying"]
   },
   "848512607": {
     "youtube": "Tgp493ez0Xo", "abs_start": "0:00", "abs_end": "2:25:59", "duration": "2:25:59",
     "name": "Clive Barker's Undying #3",
     "date": "2020-12-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/848512607.torrent",
     "games": ["cb-undying"]
   },
   "849365667": {
@@ -6780,10 +6778,10 @@
   },
   "877211836": {
     "youtube": "NMlbeCIhTMA", "abs_start": "0:00", "abs_end": "5:49:54", "duration": "5:49:54",
-    "name": "Among Us #3 / Gartic Phone / Pummel Party #12 (6D) / Golf It! #23",
+    "name": "Among Us #3 / Gartic Phone #1 / Pummel Party #12 (6D) / Golf It! #23",
     "date": "2021-01-17",
     "torrent": "https://bsufiles.thedrhax.pw/streams/877211836.torrent",
-    "games": ["among-us", "co-op", "pummel-party", "golf-it"]
+    "games": ["among-us", "gartic-phone", "pummel-party", "golf-it"]
   },
   "878410974": {
     "youtube": "iC2jlvVuC7c", "abs_start": "0:00", "abs_end": "6:03:31", "duration": "6:03:31",
@@ -6820,5 +6818,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/883419848.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/883419848.torrent",
     "games": ["single", "re7"]
+  },
+  "886277729": {
+    "abs_start": "0:00", "abs_end": "5:32:05", "duration": "0:00",
+    "name": "Gartic Phone #2 / Pummel Party #13 (6D) / Golf It! #24 / Gartic #4 / Tricky Towers #27",
+    "date": "2021-01-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/886277729.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/886277729.torrent",
+    "games": ["gartic-phone", "pummel-party", "golf-it", "gartic", "tricky-towers"]
   }
 }

@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Noch (демо) / Dom Rusalok", "year": 2021, "id": "869571796"},
       {"name": "Yaga / Fall Guys #13 (соло) / Subnautica: Below Zero (ранний доступ) #5", "year": 2021, "id": "870760177"},
       {"name": "Subnautica: Below Zero (ранний доступ) #6", "year": 2021, "id": "871972944"},
       {"name": "Subnautica: Below Zero (ранний доступ) #7", "year": 2021, "id": "873197357"},
-      {"name": "Among Us #3 / Gartic Phone / Pummel Party #12 (6D) / Golf It! #23", "year": 2021, "id": "877211836"},
+      {"name": "Among Us #3 / Gartic Phone #1 / Pummel Party #12 (6D) / Golf It! #23", "year": 2021, "id": "877211836"},
       {"name": "Song of Horror", "year": 2021, "id": "878410974"},
       {"name": "Everspace 2 - Ранний доступ / Gears 5 #3", "year": 2021, "id": "879661416"},
       {"name": "Hitman 3 #1", "year": 2021, "id": "880899353"},
       {"name": "Hitman 3 #2", "year": 2021, "id": "882168228"},
-      {"name": "Resident Evil Village (демо) / Resident Evil 7 (Madhouse) #5", "year": 2021, "id": "883419848"}
+      {"name": "Resident Evil Village (демо) / Resident Evil 7 (Madhouse) #5", "year": 2021, "id": "883419848"},
+      {"name": "Gartic Phone #2 / Pummel Party #13 (6D) / Golf It! #24 / Gartic #4 / Tricky Towers #27", "year": 2021, "id": "886277729"}
     ]
   },
   "finished": {
@@ -567,8 +567,7 @@
       {"name": "Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House", "year": 2020, "id": "795935885"},
       {"name": "In Silence", "year": 2020, "id": "827759529"},
-      {"name": "Granny Simulator", "year": 2020, "id": "855161482"},
-      {"name": "Gartic Phone", "year": 2021, "id": "877211836"}
+      {"name": "Granny Simulator", "year": 2020, "id": "855161482"}
     ]
   },
   "co-op-series": {
@@ -648,7 +647,8 @@
       {"name": "Phasmophobia", "year": 2020, "id": "phasmophobia"},
       {"name": "Valorant (Джек, Артём, Дима, Gamelife)", "year": 2020, "id": "valorant"},
       {"name": "Gartic", "year": 2020, "id": "gartic"},
-      {"name": "Scribble It!", "year": 2020, "id": "scribble-it"}
+      {"name": "Scribble It!", "year": 2020, "id": "scribble-it"},
+      {"name": "Gartic Phone", "year": 2021, "id": "gartic-phone"}
     ]
   },
   "other": {
