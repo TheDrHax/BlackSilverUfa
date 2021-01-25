@@ -2290,7 +2290,11 @@
       { "name": "Hidden Deep (демо)", "twitch": "860924750" },
       { "name": "Medal of Honor: Above and Beyond", "twitch": "864545602" },
       { "name": "Yaga", "twitch": "870760177" },
-      { "name": "Song of Horror", "twitch": "878410974" }
+      { "name": "Song of Horror", "twitch": "878410974" },
+      { "twitch": "887445977", "subrefs": [
+        { "name": "At Dead Of Night" },
+        { "name": "Disco Elysium", "start": "4:25:16" }
+      ] }
     ]
   },
   {
