@@ -6667,7 +6667,6 @@
     "youtube": "ZML-x0cnpUM", "abs_start": "0:00", "abs_end": "6:25:57", "duration": "6:25:57",
     "name": "Gothic",
     "date": "2020-12-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/849365667.torrent",
     "games": ["first"]
   },
   "850367913": {
@@ -6825,5 +6824,13 @@
     "date": "2021-01-24",
     "torrent": "https://bsufiles.thedrhax.pw/streams/886277729.torrent",
     "games": ["gartic-phone", "pummel-party", "golf-it", "gartic", "tricky-towers"]
+  },
+  "887445977": {
+    "abs_start": "0:00", "abs_end": "6:06:18", "duration": "0:00",
+    "name": "At Dead Of Night / Disco Elysium",
+    "date": "2021-01-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/887445977.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/887445977.torrent",
+    "games": ["first"]
   }
 }
