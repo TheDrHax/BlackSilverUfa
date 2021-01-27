@@ -6673,7 +6673,6 @@
     "youtube": "dQbqrExe5Y4", "abs_start": "0:00", "abs_end": "6:01:28", "duration": "6:01:28",
     "name": "MONSTRUM #6 / Gone Golfing / Out of Range / I Opened the Walls and Found Something Beautiful",
     "date": "2020-12-26",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/850367913.torrent",
     "games": ["monstrum", "first", "single"]
   },
   "851535429": {
@@ -6826,10 +6825,18 @@
   },
   "887445977": {
     "abs_start": "0:00", "abs_end": "6:06:18", "duration": "0:00",
-    "name": "At Dead Of Night / Disco Elysium",
+    "name": "At Dead Of Night #1 / Disco Elysium #1",
     "date": "2021-01-25",
     "direct": "https://bsufiles.thedrhax.pw/streams/887445977.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/887445977.torrent",
-    "games": ["first"]
+    "games": ["at-dead-of-night", "disco-elysium"]
+  },
+  "889976499": {
+    "abs_start": "0:00", "abs_end": "6:04:44", "duration": "0:00",
+    "name": "At Dead Of Night #2 / Disco Elysium #2 (заново)",
+    "date": "2021-01-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/889976499.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/889976499.torrent",
+    "games": ["at-dead-of-night", "disco-elysium"]
   }
 }

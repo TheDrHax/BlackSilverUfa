@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Subnautica: Below Zero (ранний доступ) #6", "year": 2021, "id": "871972944"},
       {"name": "Subnautica: Below Zero (ранний доступ) #7", "year": 2021, "id": "873197357"},
       {"name": "Among Us #3 / Gartic Phone #1 / Pummel Party #12 (6D) / Golf It! #23", "year": 2021, "id": "877211836"},
       {"name": "Song of Horror", "year": 2021, "id": "878410974"},
@@ -12,7 +11,8 @@
       {"name": "Hitman 3 #2", "year": 2021, "id": "882168228"},
       {"name": "Resident Evil Village (демо) / Resident Evil 7 (Madhouse) #5", "year": 2021, "id": "883419848"},
       {"name": "Gartic Phone #2 / Pummel Party #13 (6D) / Golf It! #24 / Gartic #4 / Tricky Towers #27", "year": 2021, "id": "886277729"},
-      {"name": "At Dead Of Night / Disco Elysium", "year": 2021, "id": "887445977"}
+      {"name": "At Dead Of Night #1 / Disco Elysium #1", "year": 2021, "id": "887445977"},
+      {"name": "At Dead Of Night #2 / Disco Elysium #2 (заново)", "year": 2021, "id": "889976499"}
     ]
   },
   "finished": {
@@ -394,8 +394,7 @@
       {"name": "Hidden Deep (демо)", "year": 2021, "id": "860924750"},
       {"name": "Medal of Honor: Above and Beyond", "year": 2021, "id": "864545602"},
       {"name": "Yaga", "year": 2021, "id": "870760177"},
-      {"name": "Song of Horror", "year": 2021, "id": "878410974"},
-      {"name": "At Dead Of Night / Disco Elysium", "year": 2021, "id": "887445977"}
+      {"name": "Song of Horror", "year": 2021, "id": "878410974"}
     ]
   },
   "ongoing": {
@@ -403,7 +402,9 @@
     "games": [
       {"name": "Visage", "year": 2018, "id": "visage"},
       {"name": "Gears 5", "year": 2020, "id": "gears-5"},
-      {"name": "SCP: Janitorial Work", "year": 2020, "id": "scp-janitor"}
+      {"name": "SCP: Janitorial Work", "year": 2020, "id": "scp-janitor"},
+      {"name": "At Dead Of Night", "year": 2021, "id": "at-dead-of-night"},
+      {"name": "Disco Elysium", "year": 2021, "id": "disco-elysium"}
     ]
   },
   "infinite": {
