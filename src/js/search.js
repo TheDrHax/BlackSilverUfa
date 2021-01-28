@@ -23,7 +23,7 @@ class Search {
       minLength: 2,
       input: document.querySelector(selector),
       fetch: (text, update) => {
-        let parsed_hash = Redirect.check_hash(text);
+        let parsed_hash = Redirect.check_hash(null, text);
         
         if (parsed_hash) {
           let segment = Redirect.segments[parsed_hash.segment];
