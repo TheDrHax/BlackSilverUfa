@@ -346,12 +346,10 @@ function handleHash() {
     return;
   }
 
-  let header = document.querySelector(`.stream-header[data-id="${wrapper.dataset.id}"]`);
-
   let callback = function (wrapper) {
-    animateScrollTo(header, {
+    animateScrollTo(wrapper, {
       maxDuration: 1000,
-      verticalOffset: -56 // Floating navbar
+      verticalOffset: (wrapper.offsetHeight - window.outerHeight) / 2
     });
 
     if (hash.params.at) {
@@ -361,6 +359,8 @@ function handleHash() {
       wrapper.seek(+hash.params.t);
     }
   };
+
+  let header = document.querySelector(`.stream-header[data-id="${wrapper.dataset.id}"]`);
 
   animateScrollTo(header, {
     maxDuration: 1000,
