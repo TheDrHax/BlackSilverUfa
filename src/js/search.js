@@ -28,11 +28,30 @@ class Search {
         if (parsed_hash) {
           let segment = Redirect.segments[parsed_hash.segment];
 
-          update([{
+          let segments = [];
+          segments.push({
             name: segment.name,
             group: 'Переход по ID',
             id: parsed_hash.segment
-          }]);
+          });
+
+          if (parsed_hash.segment.indexOf('.') === -1) {
+            for (let i = 1;; i++) {
+              let hash = parsed_hash.segment + '.' + i;
+              segment = Redirect.segments[hash];
+              if (segment) {
+                segments.push({
+                  name: segment.name,
+                  group: 'Переход по ID',
+                  id: hash
+                });
+              } else {
+                break;
+              }
+            }
+          }
+
+          update(segments);
           return;
         }
 
