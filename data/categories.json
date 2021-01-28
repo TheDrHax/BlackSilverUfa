@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Subnautica: Below Zero (ранний доступ) #7", "year": 2021, "id": "873197357"},
       {"name": "Among Us #3 / Gartic Phone #1 / Pummel Party #12 (6D) / Golf It! #23", "year": 2021, "id": "877211836"},
       {"name": "Song of Horror", "year": 2021, "id": "878410974"},
       {"name": "Everspace 2 - Ранний доступ / Gears 5 #3", "year": 2021, "id": "879661416"},
@@ -12,7 +11,8 @@
       {"name": "Resident Evil Village (демо) / Resident Evil 7 (Madhouse) #5", "year": 2021, "id": "883419848"},
       {"name": "Gartic Phone #2 / Pummel Party #13 (6D) / Golf It! #24 / Gartic #4 / Tricky Towers #27", "year": 2021, "id": "886277729"},
       {"name": "At Dead Of Night #1 / Disco Elysium #1", "year": 2021, "id": "887445977"},
-      {"name": "At Dead Of Night #2 / Disco Elysium #2 (заново)", "year": 2021, "id": "889976499"}
+      {"name": "At Dead Of Night #2 / Disco Elysium #2 (заново)", "year": 2021, "id": "889976499"},
+      {"name": "The Medium", "year": 2021, "id": "891206240"}
     ]
   },
   "finished": {
@@ -212,7 +212,8 @@
       {"name": "Remothered: Broken Porcelain", "year": 2021, "id": "860924750"},
       {"name": "Noch (демо) / Dom Rusalok", "year": 2021, "id": "869571796"},
       {"name": "Hitman 3", "year": 2021, "id": "hitman-3"},
-      {"name": "Resident Evil Village (демо)", "year": 2021, "id": "883419848"}
+      {"name": "Resident Evil Village (демо)", "year": 2021, "id": "883419848"},
+      {"name": "The Medium", "year": 2021, "id": "891206240"}
     ]
   },
   "first": {
@@ -400,9 +401,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Visage", "year": 2018, "id": "visage"},
       {"name": "Gears 5", "year": 2020, "id": "gears-5"},
-      {"name": "SCP: Janitorial Work", "year": 2020, "id": "scp-janitor"},
       {"name": "At Dead Of Night", "year": 2021, "id": "at-dead-of-night"},
       {"name": "Disco Elysium", "year": 2021, "id": "disco-elysium"}
     ]
@@ -474,6 +473,7 @@
       {"name": "CASE 2: Animatronics Survival", "year": 2018, "id": "case-2"},
       {"name": "We Happy Few", "year": 2018, "id": "we-happy-few"},
       {"name": "Super Seducer 2", "year": 2018, "id": "super-seducer-2"},
+      {"name": "Visage", "year": 2018, "id": "visage"},
       {"name": "Red Dead Redemption 2", "year": 2018, "id": "rdr2"},
       {"name": "Just Cause 4", "year": 2018, "id": "just-cause-4"},
       {"name": "Lucius III", "year": 2018, "id": "lucius-3"},
@@ -509,7 +509,8 @@
       {"name": "Metal Gear Solid V: Phantom Pain (злое прохождение)", "year": 2020, "id": "mgs-v-2020"},
       {"name": "Assassin's Creed: Valhalla", "year": 2020, "id": "ac-valhalla"},
       {"name": "Immortals Fenyx Rising", "year": 2020, "id": "immortals-fr"},
-      {"name": "Clive Barker's Undying", "year": 2020, "id": "cb-undying"}
+      {"name": "Clive Barker's Undying", "year": 2020, "id": "cb-undying"},
+      {"name": "SCP: Janitorial Work", "year": 2020, "id": "scp-janitor"}
     ]
   },
   "co-op": {
