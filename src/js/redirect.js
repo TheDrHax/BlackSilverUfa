@@ -32,7 +32,7 @@ class Redirect {
   /**
    * Update parsed hash if its segment is missing or disabled
    */
-  static check_hash(segment, params) {
+  static check_hash(game, segment, params) {
     if (!segment ||
         typeof(segment) != "string" ||
         !segment.match(SEGMENT_HASH_REGEX)) {
@@ -114,8 +114,12 @@ class Redirect {
       }
     }
 
+    if (!game || segments[segment].games.indexOf(game) === -1) {
+      game = segments[segment].games[0];
+    }
+
     return {
-      game: segments[segment].games[0],
+      game: game,
       segment: segment,
       params: params
     };
@@ -157,7 +161,7 @@ class Redirect {
       segment = segment.substr(0, segment.length - 2);
     }
 
-    return Redirect.check_hash(segment, params);
+    return Redirect.check_hash(game, segment, params);
   }
 
   static link(raw_hash) {
