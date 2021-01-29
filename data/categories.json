@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Among Us #3 / Gartic Phone #1 / Pummel Party #12 (6D) / Golf It! #23", "year": 2021, "id": "877211836"},
       {"name": "Song of Horror", "year": 2021, "id": "878410974"},
       {"name": "Everspace 2 - Ранний доступ / Gears 5 #3", "year": 2021, "id": "879661416"},
       {"name": "Hitman 3 #1", "year": 2021, "id": "880899353"},
@@ -12,7 +11,8 @@
       {"name": "Gartic Phone #2 / Pummel Party #13 (6D) / Golf It! #24 / Gartic #4 / Tricky Towers #27", "year": 2021, "id": "886277729"},
       {"name": "At Dead Of Night #1 / Disco Elysium #1", "year": 2021, "id": "887445977"},
       {"name": "At Dead Of Night #2 / Disco Elysium #2 (заново)", "year": 2021, "id": "889976499"},
-      {"name": "The Medium", "year": 2021, "id": "891206240"}
+      {"name": "The Medium", "year": 2021, "id": "891206240"},
+      {"name": "Monstrum 2 (ранний доступ) / SnowRunner #12", "year": 2021, "id": "892529745"}
     ]
   },
   "finished": {
@@ -395,7 +395,8 @@
       {"name": "Hidden Deep (демо)", "year": 2021, "id": "860924750"},
       {"name": "Medal of Honor: Above and Beyond", "year": 2021, "id": "864545602"},
       {"name": "Yaga", "year": 2021, "id": "870760177"},
-      {"name": "Song of Horror", "year": 2021, "id": "878410974"}
+      {"name": "Song of Horror", "year": 2021, "id": "878410974"},
+      {"name": "Monstrum 2 (ранний доступ)", "year": 2021, "id": "892529745"}
     ]
   },
   "ongoing": {
