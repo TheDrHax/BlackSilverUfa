@@ -6685,14 +6685,12 @@
     "youtube": "Gw7N4kbTAtM", "official": false, "abs_start": "0:00", "abs_end": "6:25:09", "duration": "6:25:09",
     "name": "SCP: Janitorial Work #2 / Ebola 2 / Visage #4 (заново, релиз)",
     "date": "2020-12-29",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/853883043.torrent",
     "games": ["scp-janitor", "first", "visage"]
   },
   "855161482": {
     "youtube": "FeeMwTgrddE", "abs_start": "0:00", "abs_end": "5:25:01", "duration": "5:25:01",
     "name": "Gartic #3 / Granny Simulator / Secret Neighbor #4 / Pummel Party #11 (6D) / Эскейп-румы - Escape First 3 #2",
     "date": "2020-12-30",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/855161482.torrent",
     "games": ["gartic", "co-op", "secret-neighbor", "pummel-party", "escape-rooms"]
   },
   "856402931": {
@@ -6837,10 +6835,9 @@
     "games": ["at-dead-of-night", "disco-elysium"]
   },
   "891206240": {
-    "abs_start": "0:00", "abs_end": "8:46:31", "duration": "0:00",
+    "youtube": "QMDCHjCDy5k", "official": false, "abs_start": "0:00", "abs_end": "8:46:15", "duration": "8:46:15",
     "name": "The Medium",
     "date": "2021-01-28",
-    "direct": "https://bsufiles.thedrhax.pw/streams/891206240.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/891206240.torrent",
     "games": ["single"]
   }
