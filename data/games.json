@@ -360,7 +360,11 @@
         { "name": "Escape From Kyoto House", "start": "6:24:11" }
       ] },
       { "name": "In Silence", "twitch": "827759529", "start": "2:17:29" },
-      { "name": "Granny Simulator", "twitch": "855161482", "start": "1:28:04" }
+      { "name": "Granny Simulator", "twitch": "855161482", "start": "1:28:04" },
+      { "twitch": "895496717", "subrefs": [
+        { "name": "Devour" },
+        { "name": "Hand Simulator: Horror", "start": "1:21:31" }
+      ] }
     ]
   },
   {
@@ -1007,7 +1011,8 @@
       { "name": "24", "twitch": "633403643", "start": "4:55:16" },
       { "name": "25", "twitch": "690295728", "start": "4:41:25" },
       { "name": "26", "twitch": "795935885", "start": "7:11:39" },
-      { "name": "27", "twitch": "886277729", "start": "5:00:27" }
+      { "name": "27", "twitch": "886277729", "start": "5:00:27" },
+      { "name": "28", "twitch": "895496717", "start": "4:07:03" }
     ]
   },
   {
@@ -1788,7 +1793,8 @@
         "note": "Первый стрим, где было так много трейлеров, что на игры не хватило времени."
       },
       { "name": "Клаустрофобия - The Dark Pictures: Little Hope", "twitch": "784351602", "start": "3:49:20" },
-      { "name": "Тест Xbox Series X", "twitch": "793751031" }
+      { "name": "Тест Xbox Series X", "twitch": "793751031" },
+      { "name": "Трейлеры и арты", "twitch": "895436223" }
     ]
   },
   {
