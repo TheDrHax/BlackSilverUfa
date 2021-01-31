@@ -6697,7 +6697,6 @@
     "youtube": "vGRzS3cpq9g", "official": false, "abs_start": "0:00", "abs_end": "4:44:25", "duration": "4:44:25",
     "name": "Сетапы зрителей #4 (новогодний выпуск)",
     "date": "2020-12-31",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/856402931.torrent",
     "games": ["setups"]
   },
   "858724132": {
@@ -6847,5 +6846,21 @@
     "date": "2021-01-29",
     "torrent": "https://bsufiles.thedrhax.pw/streams/892529745.torrent",
     "games": ["first", "snowrunner"]
+  },
+  "895436223": {
+    "abs_start": "0:00", "abs_end": "1:06:39", "duration": "0:00",
+    "name": "Трейлеры и арты",
+    "date": "2021-01-31",
+    "direct": "https://bsufiles.thedrhax.pw/streams/895436223.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/895436223.torrent",
+    "games": ["other"]
+  },
+  "895496717": {
+    "abs_start": "0:00", "abs_end": "4:35:16", "duration": "0:00",
+    "name": "Devour / Hand Simulator: Horror / Tricky Towers #28",
+    "date": "2021-01-31",
+    "direct": "https://bsufiles.thedrhax.pw/streams/895496717.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/895496717.torrent",
+    "games": ["co-op", "tricky-towers"]
   }
 }

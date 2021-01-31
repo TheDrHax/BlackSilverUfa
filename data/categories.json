@@ -3,8 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Song of Horror", "year": 2021, "id": "878410974"},
-      {"name": "Everspace 2 - Ранний доступ / Gears 5 #3", "year": 2021, "id": "879661416"},
       {"name": "Hitman 3 #1", "year": 2021, "id": "880899353"},
       {"name": "Hitman 3 #2", "year": 2021, "id": "882168228"},
       {"name": "Resident Evil Village (демо) / Resident Evil 7 (Madhouse) #5", "year": 2021, "id": "883419848"},
@@ -12,7 +10,9 @@
       {"name": "At Dead Of Night #1 / Disco Elysium #1", "year": 2021, "id": "887445977"},
       {"name": "At Dead Of Night #2 / Disco Elysium #2 (заново)", "year": 2021, "id": "889976499"},
       {"name": "The Medium", "year": 2021, "id": "891206240"},
-      {"name": "Monstrum 2 (ранний доступ) / SnowRunner #12", "year": 2021, "id": "892529745"}
+      {"name": "Monstrum 2 (ранний доступ) / SnowRunner #12", "year": 2021, "id": "892529745"},
+      {"name": "Трейлеры и арты", "year": 2021, "id": "895436223"},
+      {"name": "Devour / Hand Simulator: Horror / Tricky Towers #28", "year": 2021, "id": "895496717"}
     ]
   },
   "finished": {
@@ -571,7 +571,8 @@
       {"name": "Second Extinction", "year": 2020, "id": "770075059"},
       {"name": "Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House", "year": 2020, "id": "795935885"},
       {"name": "In Silence", "year": 2020, "id": "827759529"},
-      {"name": "Granny Simulator", "year": 2020, "id": "855161482"}
+      {"name": "Granny Simulator", "year": 2020, "id": "855161482"},
+      {"name": "Devour / Hand Simulator: Horror", "year": 2021, "id": "895496717"}
     ]
   },
   "co-op-series": {
@@ -680,7 +681,8 @@
       {"name": "Клаустрофобия - The Dark Pictures: Little Hope", "year": 2020, "id": "784351602"},
       {"name": "Тест Xbox Series X", "year": 2020, "id": "793751031"},
       {"name": "Розыгрыш флешек Asus ROG и ACRONYM", "year": 2020, "id": "815193918"},
-      {"name": "Розыгрыш NVIDIA GeForce RTX 2080 Super", "year": 2020, "id": "823035178"}
+      {"name": "Розыгрыш NVIDIA GeForce RTX 2080 Super", "year": 2020, "id": "823035178"},
+      {"name": "Трейлеры и арты", "year": 2021, "id": "895436223"}
     ]
   },
   "expos": {
