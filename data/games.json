@@ -2298,7 +2298,20 @@
       { "name": "Medal of Honor: Above and Beyond", "twitch": "864545602" },
       { "name": "Yaga", "twitch": "870760177" },
       { "name": "Song of Horror", "twitch": "878410974" },
-      { "name": "Monstrum 2 (ранний доступ)", "twitch": "892529745" }
+      { "name": "Monstrum 2 (ранний доступ)", "twitch": "892529745" },
+      { "twitch": "896656796", "subrefs": [
+        { "name": "Olija" },
+        {
+          "name": "Boris The Rocket", "start": "2:27:49",
+          "blacklist": {
+            "messages": [
+              "^#?[0-9]$",
+              "^BORIS EVENT"
+            ]
+          }
+        },
+        { "name": "Tohu", "start": "4:27:45" }
+      ] }
     ]
   },
   {
