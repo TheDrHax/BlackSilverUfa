@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Hitman 3 #2", "year": 2021, "id": "882168228"},
       {"name": "Resident Evil Village (демо) / Resident Evil 7 (Madhouse) #5", "year": 2021, "id": "883419848"},
       {"name": "Gartic Phone #2 / Pummel Party #13 (6D) / Golf It! #24 / Gartic #4 / Tricky Towers #27", "year": 2021, "id": "886277729"},
       {"name": "At Dead Of Night #1 / Disco Elysium #1", "year": 2021, "id": "887445977"},
@@ -12,7 +11,8 @@
       {"name": "Monstrum 2 (ранний доступ) / SnowRunner #12", "year": 2021, "id": "892529745"},
       {"name": "Трейлеры и арты", "year": 2021, "id": "895436223"},
       {"name": "Devour / Hand Simulator: Horror / Tricky Towers #28", "year": 2021, "id": "895496717"},
-      {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"}
+      {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
+      {"name": "At Dead Of Night #3", "year": 2021, "id": "897937088"}
     ]
   },
   "finished": {
@@ -213,6 +213,7 @@
       {"name": "Noch (демо) / Dom Rusalok", "year": 2021, "id": "869571796"},
       {"name": "Hitman 3", "year": 2021, "id": "hitman-3"},
       {"name": "Resident Evil Village (демо)", "year": 2021, "id": "883419848"},
+      {"name": "At Dead Of Night", "year": 2021, "id": "at-dead-of-night"},
       {"name": "The Medium", "year": 2021, "id": "891206240"}
     ]
   },
@@ -404,7 +405,6 @@
     "name": "Активные",
     "games": [
       {"name": "Gears 5", "year": 2020, "id": "gears-5"},
-      {"name": "At Dead Of Night", "year": 2021, "id": "at-dead-of-night"},
       {"name": "Disco Elysium", "year": 2021, "id": "disco-elysium"}
     ]
   },
