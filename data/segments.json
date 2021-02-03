@@ -6715,7 +6715,6 @@
     "youtube": "XIuZ48le1gc", "abs_start": "0:00", "abs_end": "6:19:48", "duration": "6:19:48",
     "name": "Subnautica: Below Zero (ранний доступ) #3 (новый сюжет)",
     "date": "2021-01-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/862110712.torrent",
     "games": ["subnautica-bz"]
   },
   "863312509": {
@@ -6873,5 +6872,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/897937088.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/897937088.torrent",
     "games": ["at-dead-of-night"]
+  },
+  "899289707": {
+    "abs_start": "0:00", "abs_end": "3:44:40", "duration": "0:00",
+    "name": "Destruction AllStars",
+    "date": "2021-02-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/899289707.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/899289707.torrent",
+    "games": ["first"]
   }
 }
