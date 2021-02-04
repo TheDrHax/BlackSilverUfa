@@ -3869,7 +3869,30 @@
     ]
   },
   {
-    "name": "The Walking Dead - The Final Season",
+    "name": "Guardians of the Galaxy: The Telltale Series",
+    "category": "ongoing",
+    "id": "telltale-gotg",
+    "streams": [
+      { "name": "Episode 1 (вне стримов)", "twitch": "001704200" },
+      { "name": "Episode 2", "twitch": "001706060" }
+    ]
+  },
+  {
+    "name": "The Walking Dead: A New Frontier",
+    "category": "finished",
+    "id": "talking-dead-frontier",
+    "streams": [
+      { "twitch": "001612200", "subrefs": [
+        { "name": "Episode 1" },
+        { "name": "Episode 2", "start": "1:41:11" }
+      ] },
+      { "name": "Episode 3", "twitch": "001703291" },
+      { "name": "Episode 4", "twitch": "001705020" },
+      { "name": "Episode 5", "twitch": "001706060", "start": "2:03:16" }
+    ]
+  },
+  {
+    "name": "The Walking Dead: The Final Season",
     "category": "finished",
     "id": "talking-dead-final",
     "streams": [
@@ -4246,6 +4269,8 @@
     "category": "finished",
     "id": "little-nightmares",
     "streams": [
+      { "name": "Первый взгляд (вне стримов)", "twitch": "001704280" },
+      { "name": "Прохождение", "twitch": "001705020", "start": "1:40:22" },
       { "name": "DLC: The Depths, The Hideaway", "twitch": "200401270" },
       { "name": "DLC: The Residence", "twitch": "233032380", "segment": 0 }
     ]
