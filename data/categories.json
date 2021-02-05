@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Gartic Phone #2 / Pummel Party #13 (6D) / Golf It! #24 / Gartic #4 / Tricky Towers #27", "year": 2021, "id": "886277729"},
       {"name": "At Dead Of Night #1 / Disco Elysium #1", "year": 2021, "id": "887445977"},
       {"name": "At Dead Of Night #2 / Disco Elysium #2 (заново)", "year": 2021, "id": "889976499"},
       {"name": "The Medium", "year": 2021, "id": "891206240"},
@@ -12,7 +11,8 @@
       {"name": "Devour / Hand Simulator: Horror / Tricky Towers #28", "year": 2021, "id": "895496717"},
       {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
       {"name": "At Dead Of Night #3", "year": 2021, "id": "897937088"},
-      {"name": "Destruction AllStars", "year": 2021, "id": "899289707"}
+      {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
+      {"name": "Expedition Zero (демо) / Lamentum (демо) / NUTS", "year": 2021, "id": "901835689"}
     ]
   },
   "finished": {
@@ -215,7 +215,8 @@
       {"name": "Hitman 3", "year": 2021, "id": "hitman-3"},
       {"name": "Resident Evil Village (демо)", "year": 2021, "id": "883419848"},
       {"name": "At Dead Of Night", "year": 2021, "id": "at-dead-of-night"},
-      {"name": "The Medium", "year": 2021, "id": "891206240"}
+      {"name": "The Medium", "year": 2021, "id": "891206240"},
+      {"name": "NUTS", "year": 2021, "id": "901835689"}
     ]
   },
   "first": {
@@ -400,7 +401,8 @@
       {"name": "Song of Horror", "year": 2021, "id": "878410974"},
       {"name": "Monstrum 2 (ранний доступ)", "year": 2021, "id": "892529745"},
       {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
-      {"name": "Destruction AllStars", "year": 2021, "id": "899289707"}
+      {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
+      {"name": "Expedition Zero (демо) / Lamentum (демо)", "year": 2021, "id": "901835689"}
     ]
   },
   "ongoing": {

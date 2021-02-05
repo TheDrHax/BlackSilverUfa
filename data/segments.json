@@ -6914,5 +6914,13 @@
     "date": "2021-02-03",
     "torrent": "https://bsufiles.thedrhax.pw/streams/899289707.torrent",
     "games": ["first"]
+  },
+  "901835689": {
+    "abs_start": "0:00", "abs_end": "6:03:51", "duration": "0:00",
+    "name": "Expedition Zero (демо) / Lamentum (демо) / NUTS",
+    "date": "2021-02-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/901835689.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/901835689.torrent",
+    "games": ["first", "single"]
   }
 }
