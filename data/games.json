@@ -1614,6 +1614,15 @@
     ]
   },
   {
+    "name": "Harry Potter and the Sorcerer's Stone (PC)",
+    "category": "finished",
+    "id": "hp-ss-pc",
+    "streams": [
+      { "name": "Часть 1", "twitch": "903270544" },
+      { "name": "Часть 2", "twitch": "903527267" }
+    ]
+  },
+  {
     "name": "Cyberpunk 2077",
     "category": "finished",
     "id": "cyberpunk-2077",
