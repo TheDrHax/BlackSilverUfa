@@ -6757,7 +6757,6 @@
     "youtube": "4iES-l_R5lU", "abs_start": "0:00", "abs_end": "1:34:07", "duration": "1:34:07",
     "name": "Subnautica: Below Zero (ранний доступ) #4 (часть 1)",
     "date": "2021-01-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/863312509.torrent",
     "games": ["subnautica-bz"]
   },
   "863375029": {
@@ -6921,5 +6920,21 @@
     "date": "2021-02-05",
     "torrent": "https://bsufiles.thedrhax.pw/streams/901835689.torrent",
     "games": ["first", "single"]
+  },
+  "903270544": {
+    "abs_start": "0:00", "abs_end": "4:17:58", "duration": "0:00",
+    "name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 1",
+    "date": "2021-02-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/903270544.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/903270544.torrent",
+    "games": ["hp-ss-pc"]
+  },
+  "903527267": {
+    "abs_start": "0:00", "abs_end": "1:18:50", "duration": "0:00",
+    "name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 2",
+    "date": "2021-02-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/903527267.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/903527267.torrent",
+    "games": ["hp-ss-pc"]
   }
 }
