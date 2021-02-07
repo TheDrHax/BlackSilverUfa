@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "The Medium", "year": 2021, "id": "891206240"},
       {"name": "Monstrum 2 (ранний доступ) / SnowRunner #12", "year": 2021, "id": "892529745"},
       {"name": "Трейлеры и арты", "year": 2021, "id": "895436223"},
       {"name": "Devour / Hand Simulator: Horror / Tricky Towers #28", "year": 2021, "id": "895496717"},
@@ -12,7 +11,8 @@
       {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
       {"name": "Expedition Zero (демо) / Lamentum (демо) / NUTS", "year": 2021, "id": "901835689"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 1", "year": 2021, "id": "903270544"},
-      {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 2", "year": 2021, "id": "903527267"}
+      {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 2", "year": 2021, "id": "903527267"},
+      {"name": "Minecraft (кооп) #3 (Middle-Earth)", "year": 2021, "id": "904750607"}
     ]
   },
   "finished": {
