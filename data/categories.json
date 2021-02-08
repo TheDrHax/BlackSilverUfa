@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Monstrum 2 (ранний доступ) / SnowRunner #12", "year": 2021, "id": "892529745"},
       {"name": "Трейлеры и арты", "year": 2021, "id": "895436223"},
       {"name": "Devour / Hand Simulator: Horror / Tricky Towers #28", "year": 2021, "id": "895496717"},
       {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
@@ -12,7 +11,8 @@
       {"name": "Expedition Zero (демо) / Lamentum (демо) / NUTS", "year": 2021, "id": "901835689"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 1", "year": 2021, "id": "903270544"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 2", "year": 2021, "id": "903527267"},
-      {"name": "Minecraft (кооп) #3 (Middle-Earth)", "year": 2021, "id": "904750607"}
+      {"name": "Minecraft (кооп) #3 (Middle-Earth)", "year": 2021, "id": "904750607"},
+      {"name": "Forgotten Tunnels - Episode 3 / Potentia (демо) / Graven (демо) / Marita Boy (демо) / Evil Inside (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"}
     ]
   },
   "finished": {
@@ -183,7 +183,7 @@
       {"name": "Carrion", "year": 2020, "id": "carrion"},
       {"name": "Maid of Sker", "year": 2020, "id": "maid-of-sker"},
       {"name": "House on the Hill", "year": 2020, "id": "695229266"},
-      {"name": "There Are Ghosts in These Stalls / The Baby in Yellow / Lapso: NIMBO / Redundancy / Forgotten Tunnels 2 / Re:Turn (демо)", "year": 2020, "id": "697191590"},
+      {"name": "There Are Ghosts in These Stalls / The Baby in Yellow / Lapso: NIMBO / Redundancy / Re:Turn (демо)", "year": 2020, "id": "697191590"},
       {"name": "UnMetal (демо)", "year": 2020, "id": "700057034"},
       {"name": "Fast & Furious: Crossroads", "year": 2020, "id": "fnf-crossroads"},
       {"name": "Mafia: Definitive Edition", "year": 2020, "id": "mafia-de"},
@@ -217,7 +217,8 @@
       {"name": "At Dead Of Night", "year": 2021, "id": "at-dead-of-night"},
       {"name": "The Medium", "year": 2021, "id": "891206240"},
       {"name": "NUTS", "year": 2021, "id": "901835689"},
-      {"name": "Harry Potter and the Sorcerer's Stone (PC)", "year": 2021, "id": "hp-ss-pc"}
+      {"name": "Harry Potter and the Sorcerer's Stone (PC)", "year": 2021, "id": "hp-ss-pc"},
+      {"name": "Marita Boy (демо) / Evil Inside (демо)", "year": 2021, "id": "905895866"}
     ]
   },
   "first": {
@@ -403,7 +404,8 @@
       {"name": "Monstrum 2 (ранний доступ)", "year": 2021, "id": "892529745"},
       {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
       {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
-      {"name": "Expedition Zero (демо) / Lamentum (демо)", "year": 2021, "id": "901835689"}
+      {"name": "Expedition Zero (демо) / Lamentum (демо)", "year": 2021, "id": "901835689"},
+      {"name": "Potentia (демо) / Graven (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"}
     ]
   },
   "ongoing": {
@@ -444,6 +446,7 @@
       {"name": "Alien: Hope for the Future", "year": 2020, "id": "alien-hope-for-the-future"},
       {"name": "The Elder Scrolls Online", "year": 2020, "id": "teso"},
       {"name": "Grounded", "year": 2020, "id": "grounded"},
+      {"name": "Forgotten Tunnels", "year": 2020, "id": "forgotten-tunnels"},
       {"name": "Hades", "year": 2020, "id": "hades"},
       {"name": "Everspace 2", "year": 2020, "id": "everspace-2"},
       {"name": "Noita", "year": 2020, "id": "noita"}
