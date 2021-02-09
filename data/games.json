@@ -1590,10 +1590,7 @@
         { "name": "Stasis: Bone Totem (демо)", "start": "3:07:42" },
         { "name": "DARQ: Complete Edition", "start": "4:43:52" }
       ] },
-      { "twitch": "838158299", "subrefs": [
-        { "name": "Little Nightmares 2 (демо)" },
-        { "name": "Call of the Sea", "start": "2:00:36" }
-      ] },
+      { "name": "Call of the Sea", "twitch": "838158299", "start": "2:00:36" },
       { "name": "Harry Potter and the Chamber of Secrets", "twitch": "841556992" },
       { "twitch": "850367913", "subrefs": [
         { "name": "Out of Range", "start": "4:04:49" },
@@ -1828,7 +1825,8 @@
       { "name": "1", "twitch": "738885129" },
       { "name": "2", "twitch": "740853378", "start": "1:54:01" },
       { "name": "3", "twitch": "754538542" },
-      { "name": "4 (новогодний выпуск)", "twitch": "856402931" }
+      { "name": "4 (новогодний выпуск)", "twitch": "856402931" },
+      { "name": "5", "twitch": "907145168" }
     ]
   },
   {
@@ -4308,6 +4306,15 @@
       { "name": "Прохождение", "twitch": "001705020", "start": "1:40:22" },
       { "name": "DLC: The Depths, The Hideaway", "twitch": "200401270" },
       { "name": "DLC: The Residence", "twitch": "233032380", "segment": 0 }
+    ]
+  },
+  {
+    "name": "Little Nightmares 2",
+    "category": "ongoing",
+    "id": "little-nightmares-2",
+    "streams": [
+      { "name": "Демо", "twitch": "838158299" },
+      { "name": "1", "twitch": "907145168", "start": "2:02:37" }
     ]
   },
   {
