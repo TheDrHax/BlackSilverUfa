@@ -6647,9 +6647,9 @@
   },
   "838158299": {
     "youtube": "eXL62NChcos", "abs_start": "0:00", "abs_end": "7:50:07", "duration": "7:50:07",
-    "name": "Little Nightmares 2 (демо) / Call of the Sea",
+    "name": "Little Nightmares 2 - Демо / Call of the Sea",
     "date": "2020-12-15",
-    "games": ["single"]
+    "games": ["little-nightmares-2", "single"]
   },
   "839294640": {
     "youtube": "c1RmBY0utEE", "abs_start": "0:00", "abs_end": "6:10:05", "duration": "6:10:05",
@@ -6769,7 +6769,6 @@
     "youtube": "iMKjyUAYyNo", "official": false, "abs_start": "0:00", "abs_end": "2:24:31", "duration": "2:24:31",
     "name": "Medal of Honor: Above and Beyond",
     "date": "2021-01-07",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/864545602.torrent",
     "games": ["first"]
   },
   "869571796": {
@@ -6777,7 +6776,6 @@
     "name": "Noch (демо) / Dom Rusalok",
     "date": "2021-01-11",
     "cuts": [[22307, 22320]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/869571796.torrent",
     "games": ["single"]
   },
   "870760177": {
@@ -6948,5 +6946,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/905895866.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/905895866.torrent",
     "games": ["forgotten-tunnels", "first", "single"]
+  },
+  "907145168": {
+    "abs_start": "0:00", "abs_end": "5:52:30", "duration": "0:00",
+    "name": "Сетапы зрителей #5 / Little Nightmares 2 #1",
+    "date": "2021-02-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/907145168.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/907145168.torrent",
+    "games": ["setups", "little-nightmares-2"]
   }
 }
