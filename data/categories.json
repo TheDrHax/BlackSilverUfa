@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Devour / Hand Simulator: Horror / Tricky Towers #28", "year": 2021, "id": "895496717"},
-      {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
-      {"name": "At Dead Of Night #3", "year": 2021, "id": "897937088"},
       {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
       {"name": "Expedition Zero (демо) / Lamentum (демо) / NUTS", "year": 2021, "id": "901835689"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 1", "year": 2021, "id": "903270544"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 2", "year": 2021, "id": "903527267"},
       {"name": "Minecraft (кооп) #3 (Middle-Earth)", "year": 2021, "id": "904750607"},
       {"name": "Forgotten Tunnels - Episode 3 / Potentia (демо) / Graven (демо) / Narita Boy (демо) / Evil Inside (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"},
-      {"name": "Сетапы зрителей #5 / Little Nightmares 2 #1", "year": 2021, "id": "907145168"}
+      {"name": "Сетапы зрителей #5 / Little Nightmares 2 #1", "year": 2021, "id": "907145168"},
+      {"name": "Nioh 2 - The Complete Edition (часть 1)", "year": 2021, "id": "907684984"},
+      {"name": "Nioh 2 - The Complete Edition (часть 2)", "year": 2021, "id": "907729352"},
+      {"name": "Nioh 2 - The Complete Edition (часть 3)", "year": 2021, "id": "907741660"}
     ]
   },
   "finished": {
@@ -411,6 +411,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Nioh 2", "year": 2019, "id": "nioh-2"},
       {"name": "Gears 5", "year": 2020, "id": "gears-5"},
       {"name": "Little Nightmares 2", "year": 2020, "id": "little-nightmares-2"},
       {"name": "Disco Elysium", "year": 2021, "id": "disco-elysium"}
@@ -501,7 +502,6 @@
       {"name": "The Surge 2", "year": 2019, "id": "surge-2"},
       {"name": "The Outer Worlds", "year": 2019, "id": "outer-worlds"},
       {"name": "Luigi's Mansion 3", "year": 2019, "id": "luigis-mansion-3"},
-      {"name": "Nioh 2", "year": 2019, "id": "nioh-2"},
       {"name": "Spore", "year": 2019, "id": "spore"},
       {"name": "The Sims 4", "year": 2020, "id": "sims-4"},
       {"name": "One Punch Man: A Hero Nobody Knows", "year": 2020, "id": "one-punch-man"},
