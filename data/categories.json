@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
       {"name": "At Dead Of Night #3", "year": 2021, "id": "897937088"},
       {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
       {"name": "Expedition Zero (демо) / Lamentum (демо) / NUTS", "year": 2021, "id": "901835689"},
@@ -12,7 +11,8 @@
       {"name": "Minecraft (кооп) #3 (Middle-Earth)", "year": 2021, "id": "904750607"},
       {"name": "Forgotten Tunnels - Episode 3 / Potentia (демо) / Graven (демо) / Narita Boy (демо) / Evil Inside (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"},
       {"name": "Сетапы зрителей #5 / Little Nightmares 2 #1", "year": 2021, "id": "907145168"},
-      {"name": "Nioh 2 - The Complete Edition (PC)", "year": 2021, "id": "907684984,907729352,907741660"}
+      {"name": "Nioh 2 - The Complete Edition (PC)", "year": 2021, "id": "907684984,907729352,907741660"},
+      {"name": "Little Nightmares 2 #2 / Blackberry / SnowRunner #13", "year": 2021, "id": "909697737"}
     ]
   },
   "finished": {
@@ -206,6 +206,7 @@
       {"name": "Stasis: Bone Totem (демо) / DARQ: Complete Edition", "year": 2020, "id": "828815728"},
       {"name": "Cyberpunk 2077", "year": 2020, "id": "cyberpunk-2077"},
       {"name": "Call of the Sea", "year": 2020, "id": "838158299"},
+      {"name": "Little Nightmares 2", "year": 2020, "id": "little-nightmares-2"},
       {"name": "Harry Potter and the Chamber of Secrets", "year": 2020, "id": "841556992"},
       {"name": "Dino Crisis", "year": 2020, "id": "dino-crisis"},
       {"name": "Out of Range / I Opened the Walls and Found Something Beautiful", "year": 2020, "id": "850367913"},
@@ -405,7 +406,8 @@
       {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
       {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
       {"name": "Expedition Zero (демо) / Lamentum (демо)", "year": 2021, "id": "901835689"},
-      {"name": "Potentia (демо) / Graven (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"}
+      {"name": "Potentia (демо) / Graven (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"},
+      {"name": "Blackberry", "year": 2021, "id": "909697737"}
     ]
   },
   "ongoing": {
@@ -413,7 +415,6 @@
     "games": [
       {"name": "Nioh 2", "year": 2019, "id": "nioh-2"},
       {"name": "Gears 5", "year": 2020, "id": "gears-5"},
-      {"name": "Little Nightmares 2", "year": 2020, "id": "little-nightmares-2"},
       {"name": "Disco Elysium", "year": 2021, "id": "disco-elysium"}
     ]
   },
