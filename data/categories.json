@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
       {"name": "Expedition Zero (демо) / Lamentum (демо) / NUTS", "year": 2021, "id": "901835689"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 1", "year": 2021, "id": "903270544"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 2", "year": 2021, "id": "903527267"},
@@ -11,8 +10,9 @@
       {"name": "Forgotten Tunnels - Episode 3 / Potentia (демо) / Graven (демо) / Narita Boy (демо) / Evil Inside (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"},
       {"name": "Сетапы зрителей #5 / Little Nightmares 2 #1", "year": 2021, "id": "907145168"},
       {"name": "Nioh 2 - The Complete Edition (PC)", "year": 2021, "id": "907684984,907729352,907741660"},
-      {"name": "Little Nightmares 2 #2 / Blackberry / SnowRunner #13", "year": 2021, "id": "909697737"},
-      {"name": "Destiny 2 #5 (с Triplewipe)", "year": 2021, "id": "910977286"}
+      {"name": "Little Nightmares 2 #2 / Blackberry #1 / SnowRunner #13", "year": 2021, "id": "909697737"},
+      {"name": "Destiny 2 #5 (с Triplewipe)", "year": 2021, "id": "910977286"},
+      {"name": "Blackberry #2", "year": 2021, "id": "911193492"}
     ]
   },
   "finished": {
@@ -219,7 +219,8 @@
       {"name": "The Medium", "year": 2021, "id": "891206240"},
       {"name": "NUTS", "year": 2021, "id": "901835689"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC)", "year": 2021, "id": "hp-ss-pc"},
-      {"name": "Narita Boy (демо) / Evil Inside (демо)", "year": 2021, "id": "905895866"}
+      {"name": "Narita Boy (демо) / Evil Inside (демо)", "year": 2021, "id": "905895866"},
+      {"name": "Blackberry", "year": 2021, "id": "blackberry"}
     ]
   },
   "first": {
@@ -406,8 +407,7 @@
       {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
       {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
       {"name": "Expedition Zero (демо) / Lamentum (демо)", "year": 2021, "id": "901835689"},
-      {"name": "Potentia (демо) / Graven (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"},
-      {"name": "Blackberry", "year": 2021, "id": "909697737"}
+      {"name": "Potentia (демо) / Graven (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"}
     ]
   },
   "ongoing": {
