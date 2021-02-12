@@ -6788,14 +6788,12 @@
     "youtube": "quip-UCMH0M", "abs_start": "0:00", "abs_end": "6:12:05", "duration": "6:12:05",
     "name": "Subnautica: Below Zero (ранний доступ) #6",
     "date": "2021-01-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/871972944.torrent",
     "games": ["subnautica-bz"]
   },
   "873197357": {
     "youtube": "AinWqdkN7Mc", "official": false, "abs_start": "0:00", "abs_end": "6:14:36", "duration": "6:14:36",
     "name": "Subnautica: Below Zero (ранний доступ) #7",
     "date": "2021-01-14",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/873197357.torrent",
     "games": ["subnautica-bz"]
   },
   "877211836": {
@@ -6989,5 +6987,13 @@
     "date": "2021-02-11",
     "torrent": "https://bsufiles.thedrhax.pw/streams/909697737.torrent",
     "games": ["little-nightmares-2", "first", "snowrunner"]
+  },
+  "910977286": {
+    "abs_start": "0:00", "abs_end": "4:09:02", "duration": "0:00",
+    "name": "Destiny 2 #5 (с Triplewipe)",
+    "date": "2021-02-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/910977286.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/910977286.torrent",
+    "games": ["destiny-2"]
   }
 }
