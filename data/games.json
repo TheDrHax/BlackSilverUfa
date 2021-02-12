@@ -2346,8 +2346,16 @@
         { "name": "Escape (демо)", "start": "5:35:43" },
         { "name": "Slender Threads (демо)", "start": "5:41:00" },
         { "name": "Tasomachi (демо)", "start": "5:48:58" }
-      ] },
-      { "name": "Blackberry", "twitch": "909697737", "start": "3:57:23" }
+      ] }
+    ]
+  },
+  {
+    "name": "Blackberry",
+    "category": "finished",
+    "id": "blackberry",
+    "streams": [
+      { "name": "1", "twitch": "909697737", "start": "3:57:23" },
+      { "name": "2", "twitch": "911193492" }
     ]
   },
   {
