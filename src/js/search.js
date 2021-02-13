@@ -26,7 +26,7 @@ class Search {
         let parsed_hash = Redirect.check_hash(null, text);
         
         if (parsed_hash) {
-          let segment = Redirect.segments[parsed_hash.segment];
+          let segment = Redirect.segments.by('segment', parsed_hash.segment);
 
           let segments = [];
           segments.push({
@@ -38,7 +38,7 @@ class Search {
           if (parsed_hash.segment.indexOf('.') === -1) {
             for (let i = 1;; i++) {
               let hash = parsed_hash.segment + '.' + i;
-              segment = Redirect.segments[hash];
+              segment = Redirect.segments.by('segment', hash);
               if (segment) {
                 segments.push({
                   name: segment.name,
@@ -55,18 +55,34 @@ class Search {
           return;
         }
 
-        text = Search.strip(text);
         
-        let suggestions = Search.games.filter((x) => {
-          if (text.indexOf(' ') != -1) {
-            return Search.strip(x.name).indexOf(text) != -1;
-          } else {
-            let words = Search.strip(x.name).split(' ');
-            return words.filter(y => y.startsWith(text)).length > 0;
-          }
-        });
+        let max_rank = 0;
+        let query = Search.strip(text).split(' ');
 
-        update(suggestions);
+        let suggestions = Search.games
+          .chain()
+          .find({'name': {'$regex': ['(' + query.join('|') + ')', 'i']}})
+          .where((item) => item.category.search !== false)
+          .simplesort('category.$loki')
+          .data()
+          .map((item) => {
+            let words = Search.strip(item.name).split(' ');
+            let rank = query.map((query_word) => {
+              return words.filter((word) => word.startsWith(query_word)).length > 0;
+            }).reduce((a, b) => a + b);
+            
+            if (rank > max_rank) {
+              max_rank = rank;
+            }
+
+            return {
+              ...item,
+              group: item.category.name,
+              rank: rank
+            };
+          });
+
+        update(suggestions.filter((item) => item.rank == max_rank));
       },
       render: (item, currentValue) => {
         let div = document.createElement("div");
