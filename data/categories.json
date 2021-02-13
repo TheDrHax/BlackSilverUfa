@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Expedition Zero (демо) / Lamentum (демо) / NUTS", "year": 2021, "id": "901835689"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 1", "year": 2021, "id": "903270544"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 2", "year": 2021, "id": "903527267"},
       {"name": "Minecraft (кооп) #3 (Middle-Earth)", "year": 2021, "id": "904750607"},
@@ -12,7 +11,8 @@
       {"name": "Nioh 2 - The Complete Edition (PC)", "year": 2021, "id": "907684984,907729352,907741660"},
       {"name": "Little Nightmares 2 #2 / Blackberry #1 / SnowRunner #13", "year": 2021, "id": "909697737"},
       {"name": "Destiny 2 #5 (с Triplewipe)", "year": 2021, "id": "910977286"},
-      {"name": "Blackberry #2", "year": 2021, "id": "911193492"}
+      {"name": "Blackberry #2", "year": 2021, "id": "911193492"},
+      {"name": "Благотворительные стримы #6 / SuchArt: Genius Artist Simulator", "year": 2021, "id": "912392953"}
     ]
   },
   "finished": {
@@ -407,7 +407,8 @@
       {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
       {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
       {"name": "Expedition Zero (демо) / Lamentum (демо)", "year": 2021, "id": "901835689"},
-      {"name": "Potentia (демо) / Graven (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"}
+      {"name": "Potentia (демо) / Graven (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"},
+      {"name": "SuchArt: Genius Artist Simulator", "year": 2021, "id": "912392953"}
     ]
   },
   "ongoing": {
