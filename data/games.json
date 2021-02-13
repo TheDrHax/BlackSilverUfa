@@ -1774,7 +1774,8 @@
       { "name": "2", "twitch": "287810258" },
       { "name": "3", "twitch": "373942448" },
       { "name": "4", "twitch": "422486024" },
-      { "name": "5", "twitch": "499849877" }
+      { "name": "5", "twitch": "499849877" },
+      { "name": "6", "twitch": "912392953" }
     ]
   },
   {
@@ -2346,7 +2347,19 @@
         { "name": "Escape (демо)", "start": "5:35:43" },
         { "name": "Slender Threads (демо)", "start": "5:41:00" },
         { "name": "Tasomachi (демо)", "start": "5:48:58" }
-      ] }
+      ] },
+      {
+        "name": "SuchArt: Genius Artist Simulator", "twitch": "912392953", "start": "2:40:39",
+        "blacklist": {
+          "users": [
+            "blackufa"
+          ],
+          "messages": [
+            "^!?(хлоп|фу)!?$",
+            "^[0-9]+$"
+          ]
+        }
+      }
     ]
   },
   {
