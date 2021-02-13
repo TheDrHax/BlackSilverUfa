@@ -1,6 +1,23 @@
+import * as loki from 'lokijs';
+
+const db = new loki('BSU');
+
 class Data {
   static segments = fetch('/data/segments.json').then((res) => {
     return res.json();
+  }).then((data) => {
+    let segments_collection = db.addCollection('segments');
+
+    Object.keys(data)
+      .sort((a, b) => String(a).localeCompare(b))
+      .map((k) => [k, data[k]])
+      .map(([key, segment]) => {
+        segment.date = new Date(segment.date);
+        segment.segment = key;
+        segments_collection.insert(segment);
+      });
+
+    return segments_collection;
   });
 
   static categories = fetch('/data/categories.json').then((res) => {
@@ -8,32 +25,28 @@ class Data {
   });
 
   static games = Data.categories.then((categories) => {
-    // Create flat array of games and add category name to each of them
-    let games = Object.keys(categories).flatMap((key) => {
-      let category = categories[key];
+    let categories_collection = db.addCollection('categories');
+    let games_collection = db.addCollection('games');
 
-      if (category.search === false) {
-        return [];
-      }
+    Object.entries(categories).map(([cat_key, category]) => {
+      let games = category.games;
+      delete category['games'];
+      category.id = cat_key;
+      categories_collection.insert(category);
 
-      return category.games.flatMap((game) => {
-        game.group = category.name;
+      games.map((game) => {
+        game.category = category;
 
-        let names = game.name.split(' / ');
-
-        if (names.length > 1) {
-          return names.map((name) => {
-            let subref = Object.assign({}, game);
-            subref.name = name;
-            return subref;
+        game.name.split(' / ').map((name) => {
+          games_collection.insert({
+            ...game,
+            name: name
           });
-        } else {
-          return game;
-        }
+        });
       });
     });
 
-    return games;
+    return games_collection;
   });
 }
 

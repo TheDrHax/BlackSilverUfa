@@ -43,7 +43,7 @@ class Redirect {
     let segments = Redirect.segments;
 
     // Handle missing segments
-    if (Object.keys(segments).indexOf(segment) === -1) {
+    if (!segments.by('segment', segment)) {
       let found = false;
 
       if (segment.indexOf(',') !== -1) {
@@ -53,7 +53,7 @@ class Redirect {
         for (let i = 0; i < joined_parts.length; i++) {
           let part = joined_parts[i];
 
-          if (Object.keys(segments).indexOf(part) !== -1) {
+          if (segments.by('segment', part)) {
             segment = part;
             found = true;
             break;
@@ -63,7 +63,7 @@ class Redirect {
         // Redirect from removed segments to main segment
         let main_segment = segment.substr(0, segment.indexOf('.'));
 
-        if (Object.keys(segments).indexOf(main_segment) !== -1) {
+        if (segments.by('segment', main_segment)) {
           segment = main_segment;
           found = true;
         }
@@ -75,13 +75,14 @@ class Redirect {
     }
 
     // Handle segments without references
-    if (segments[segment].games.length === 0) {
+    if (segments.by('segment', segment).games.length === 0) {
       let found = false;
 
       // Redirect to joined streams
-      let candidates = Object.keys(segments)
-        .filter((k) => k.indexOf(',') !== -1)
-        .filter((k) => k.split(',').indexOf(segment) !== -1);
+      let candidates = segments.chain()
+        .find({segment: {'$contains': ','}})
+        .where((obj) => obj.segment.split(',').indexOf(segment) !== -1)
+        .data().map((s) => s.segment);
 
       if (candidates.length > 0) {
         let old_segment = segment;
@@ -91,7 +92,7 @@ class Redirect {
 
         // Rebase timestamp
         if (params && params.at) {
-          let segment_data = segments[segment];
+          let segment_data = segments.by('segment', segment);
           let segment_index = segment.split(',').indexOf(old_segment);
 
           let t = +params.at;
@@ -114,8 +115,9 @@ class Redirect {
       }
     }
 
-    if (!game || segments[segment].games.indexOf(game) === -1) {
-      game = segments[segment].games[0];
+    let segment_data = segments.by('segment', segment);
+    if (!game || segment_data.games.indexOf(game) === -1) {
+      game = segment_data.games[0];
     }
 
     return {
