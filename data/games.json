@@ -364,7 +364,8 @@
       { "twitch": "895496717", "subrefs": [
         { "name": "Devour" },
         { "name": "Hand Simulator: Horror", "start": "1:21:31" }
-      ] }
+      ] },
+      { "name": "Valheim", "twitch": "915004866", "start": "4:55:05" }
     ]
   },
   {
@@ -2320,7 +2321,6 @@
       { "name": "Hidden Deep (демо)", "twitch": "860924750" },
       { "name": "Medal of Honor: Above and Beyond", "twitch": "864545602" },
       { "name": "Yaga", "twitch": "870760177" },
-      { "name": "Song of Horror", "twitch": "878410974" },
       { "name": "Monstrum 2 (ранний доступ)", "twitch": "892529745" },
       { "twitch": "896656796", "subrefs": [
         { "name": "Olija" },
@@ -2360,6 +2360,15 @@
           ]
         }
       }
+    ]
+  },
+  {
+    "name": "Song of Horror",
+    "category": "ongoing",
+    "id": "song-of-horror",
+    "streams": [
+      { "name": "1", "twitch": "878410974" },
+      { "name": "2", "twitch": "915004866" }
     ]
   },
   {
