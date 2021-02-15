@@ -6800,15 +6800,14 @@
     "youtube": "NMlbeCIhTMA", "abs_start": "0:00", "abs_end": "5:49:54", "duration": "5:49:54",
     "name": "Among Us #3 / Gartic Phone #1 / Pummel Party #12 (6D) / Golf It! #23",
     "date": "2021-01-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/877211836.torrent",
     "games": ["among-us", "gartic-phone", "pummel-party", "golf-it"]
   },
   "878410974": {
     "youtube": "iC2jlvVuC7c", "abs_start": "0:00", "abs_end": "6:03:31", "duration": "6:03:31",
-    "name": "Song of Horror",
+    "name": "Song of Horror #1",
     "date": "2021-01-18",
     "torrent": "https://bsufiles.thedrhax.pw/streams/878410974.torrent",
-    "games": ["first"]
+    "games": ["song-of-horror"]
   },
   "879661416": {
     "youtube": "9IEtfzyUzqU", "abs_start": "0:00", "abs_end": "6:58:03", "duration": "6:58:03",
@@ -7008,5 +7007,13 @@
     "date": "2021-02-13",
     "torrent": "https://bsufiles.thedrhax.pw/streams/912392953.torrent",
     "games": ["charity", "first"]
+  },
+  "915004866": {
+    "abs_start": "0:00", "abs_end": "7:04:10", "duration": "0:00",
+    "name": "Song of Horror #2 / Valheim",
+    "date": "2021-02-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/915004866.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/915004866.torrent",
+    "games": ["song-of-horror", "co-op"]
   }
 }
