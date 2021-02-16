@@ -364,8 +364,16 @@
       { "twitch": "895496717", "subrefs": [
         { "name": "Devour" },
         { "name": "Hand Simulator: Horror", "start": "1:21:31" }
-      ] },
-      { "name": "Valheim", "twitch": "915004866", "start": "4:55:05" }
+      ] }
+    ]
+  },
+  {
+    "name": "Valheim",
+    "category": "co-op-series",
+    "id": "valheim",
+    "streams": [
+      { "name": "1", "twitch": "915004866", "start": "4:55:05" },
+      { "name": "2", "twitch": "916293705", "start": "1:04:50" }
     ]
   },
   {
@@ -2324,15 +2332,6 @@
       { "name": "Monstrum 2 (ранний доступ)", "twitch": "892529745" },
       { "twitch": "896656796", "subrefs": [
         { "name": "Olija" },
-        {
-          "name": "Boris The Rocket", "start": "2:27:49",
-          "blacklist": {
-            "messages": [
-              "^#?[0-9]$",
-              "^BORIS EVENT"
-            ]
-          }
-        },
         { "name": "Tohu", "start": "4:27:45" }
       ] },
       { "name": "Destruction AllStars", "twitch": "899289707" },
@@ -2359,8 +2358,24 @@
             "^[0-9]+$"
           ]
         }
-      }
+      },
+      { "name": "What Lives Below (демо)", "twitch": "916293705" }
     ]
+  },
+  {
+    "name": "Boris The Rocket",
+    "category": "ongoing",
+    "id": "boris-rocket",
+    "streams": [
+      { "name": "1", "twitch": "896656796", "start": "2:27:49" },
+      { "name": "2", "twitch": "916293705", "start": "3:49:16" }
+    ],
+    "blacklist": {
+      "messages": [
+        "^#?[0-9]$",
+        "^BORIS EVENT"
+      ]
+    }
   },
   {
     "name": "Song of Horror",
@@ -3047,7 +3062,8 @@
       { "name": "5", "twitch": "560235613" },
       { "name": "6", "twitch": "562741500", "start": "1:01:36" },
       { "name": "7", "twitch": "563294076" },
-      { "name": "8 (заново)", "twitch": "669777336", "start": "3:56:41" }
+      { "name": "8 (заново)", "twitch": "669777336", "start": "3:56:41" },
+      { "name": "9", "twitch": "916293705", "start": "4:57:43" }
     ],
     "blacklist": {
       "users": [
@@ -3055,10 +3071,10 @@
       ],
       "messages": [
         "!?(pick ?me|gg|rain|bombs|flies|cheers|jump|gud|rofl|dark|nice|spikes|easy|brut).*",
-        "!?(poison|noob|notbad|tact|surv|secret|zombies?|heal|woot|fuuu|cool|great|praise).*",
+        "!?(poison|noob|notbad|tact|surv|secret|zombies?|(no)?heal|woot|fuuu|cool|great|praise).*",
         "!?(doors|chic?ken|shots|blood|dmg|boo|awww|chicken|nooo|birds|rekt|boy|ouch|:'\\().*",
-        "!?(gitgud|boi|бабах|бах|паф|бум|тик|так|буф|пиф|хрясь|дзинь|[дL][0-9@\\!#]|do ?it).*",
-        "!?(go|good ?luck|секрет|boss|lol|rofg|ahah|nice ?fall|haha).*"
+        "!?(gitgud|boi|бабах|б[ау][мх]|тик|так|буф|п[аи]ф|хрясь|дзинь|[дL][0-9@\\!#]|do ?it).*",
+        "!?(go|good ?luck|секрет|boss|lol|rofg|ahah|nice ?fall|haha|potion|life|шкварк).*"
       ]
     }
   },
