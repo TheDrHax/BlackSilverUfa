@@ -67,23 +67,24 @@ def unpack_line_breaks(line: str) -> str:
 def convert_msg(msg: SubtitlesEvent, blacklist: Blacklist) -> SubtitlesEvent:
     """Reapply all TCD settings for messages."""
 
-    # Remove line breaks
+    # Unpack message text
     text = unpack_line_breaks(msg.text)
+    text = unpack_emotes(text)
+
+    # Disable blacklisted messages
+    msg.text = text
+    msg.disabled = msg in blacklist
 
     # Repack emote groups
-    text = unpack_emotes(text)
     text = Message.group(text, **tcd_config['group_repeating_emotes'])
 
-    # Update message durations
+    # Update message duration
     msg.duration = SubtitlesASS._duration(text)
 
     # Recreate line breaks
     text = SubtitlesASS.wrap(msg.username, text)
 
     msg.text = text
-
-    # Disable blacklisted messages
-    msg.disabled = msg in blacklist
 
     return msg
 
