@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 2", "year": 2021, "id": "903527267"},
       {"name": "Minecraft (кооп) #3 (Middle-Earth)", "year": 2021, "id": "904750607"},
       {"name": "Forgotten Tunnels - Episode 3 / Potentia (демо) / Graven (демо) / Narita Boy (демо) / Evil Inside (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"},
       {"name": "Сетапы зрителей #5 / Little Nightmares 2 #1", "year": 2021, "id": "907145168"},
@@ -12,7 +11,8 @@
       {"name": "Destiny 2 #5 (с Triplewipe)", "year": 2021, "id": "910977286"},
       {"name": "Blackberry #2", "year": 2021, "id": "911193492"},
       {"name": "Благотворительные стримы #6 / SuchArt: Genius Artist Simulator", "year": 2021, "id": "912392953"},
-      {"name": "Song of Horror #2 / Valheim", "year": 2021, "id": "915004866"}
+      {"name": "Song of Horror #2 / Valheim #1", "year": 2021, "id": "915004866"},
+      {"name": "What Lives Below (демо) / Valheim #2 / Boris The Rocket #2 / Dead Cells #9", "year": 2021, "id": "916293705"}
     ]
   },
   "finished": {
@@ -403,11 +403,12 @@
       {"name": "Medal of Honor: Above and Beyond", "year": 2021, "id": "864545602"},
       {"name": "Yaga", "year": 2021, "id": "870760177"},
       {"name": "Monstrum 2 (ранний доступ)", "year": 2021, "id": "892529745"},
-      {"name": "Olija / Boris The Rocket / Tohu", "year": 2021, "id": "896656796"},
+      {"name": "Olija / Tohu", "year": 2021, "id": "896656796"},
       {"name": "Destruction AllStars", "year": 2021, "id": "899289707"},
       {"name": "Expedition Zero (демо) / Lamentum (демо)", "year": 2021, "id": "901835689"},
       {"name": "Potentia (демо) / Graven (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "year": 2021, "id": "905895866"},
-      {"name": "SuchArt: Genius Artist Simulator", "year": 2021, "id": "912392953"}
+      {"name": "SuchArt: Genius Artist Simulator", "year": 2021, "id": "912392953"},
+      {"name": "What Lives Below (демо)", "year": 2021, "id": "916293705"}
     ]
   },
   "ongoing": {
@@ -416,7 +417,8 @@
       {"name": "Nioh 2", "year": 2019, "id": "nioh-2"},
       {"name": "Gears 5", "year": 2020, "id": "gears-5"},
       {"name": "Song of Horror", "year": 2021, "id": "song-of-horror"},
-      {"name": "Disco Elysium", "year": 2021, "id": "disco-elysium"}
+      {"name": "Disco Elysium", "year": 2021, "id": "disco-elysium"},
+      {"name": "Boris The Rocket", "year": 2021, "id": "boris-rocket"}
     ]
   },
   "infinite": {
@@ -585,8 +587,7 @@
       {"name": "Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House", "year": 2020, "id": "795935885"},
       {"name": "In Silence", "year": 2020, "id": "827759529"},
       {"name": "Granny Simulator", "year": 2020, "id": "855161482"},
-      {"name": "Devour / Hand Simulator: Horror", "year": 2021, "id": "895496717"},
-      {"name": "Valheim", "year": 2021, "id": "915004866"}
+      {"name": "Devour / Hand Simulator: Horror", "year": 2021, "id": "895496717"}
     ]
   },
   "co-op-series": {
@@ -667,7 +668,8 @@
       {"name": "Valorant (Джек, Артём, Дима, Gamelife)", "year": 2020, "id": "valorant"},
       {"name": "Gartic", "year": 2020, "id": "gartic"},
       {"name": "Scribble It!", "year": 2020, "id": "scribble-it"},
-      {"name": "Gartic Phone", "year": 2021, "id": "gartic-phone"}
+      {"name": "Gartic Phone", "year": 2021, "id": "gartic-phone"},
+      {"name": "Valheim", "year": 2021, "id": "valheim"}
     ]
   },
   "other": {
