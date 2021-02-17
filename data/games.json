@@ -373,7 +373,11 @@
     "id": "valheim",
     "streams": [
       { "name": "1", "twitch": "915004866", "start": "4:55:05" },
-      { "name": "2", "twitch": "916293705", "start": "1:04:50" }
+      { "name": "2", "twitch": "916293705", "start": "1:04:50" },
+      { "twitch": "917504095", "subrefs": [
+        { "name": "3" },
+        { "name": "3", "start": "7:18:39" }
+      ] }
     ]
   },
   {
@@ -565,7 +569,8 @@
       { "name": "2 (с Triplewipe)", "twitch": "606017953", "start": "4:00:40" },
       { "name": "3 (Beyond Light с WeLoveGames)", "twitch": "799135139", "start": "2:52:40" },
       { "name": "4 (Beyond Light с WeLoveGames)", "twitch": "803926941", "start": "4:28:49" },
-      { "name": "5 (с Triplewipe)", "twitch": "910977286" }
+      { "name": "5 (с Triplewipe)", "twitch": "910977286" },
+      { "name": "6 (с Triplewipe)", "twitch": "917504095", "start": "4:24:37" }
     ]
   },
   {
