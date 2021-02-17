@@ -6812,7 +6812,6 @@
     "youtube": "9IEtfzyUzqU", "abs_start": "0:00", "abs_end": "6:58:03", "duration": "6:58:03",
     "name": "Everspace 2 - Ранний доступ / Gears 5 #3",
     "date": "2021-01-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/879661416.torrent",
     "games": ["everspace-2", "gears-5"]
   },
   "880899353": {
@@ -7020,5 +7019,13 @@
     "date": "2021-02-16",
     "torrent": "https://bsufiles.thedrhax.pw/streams/916293705.torrent",
     "games": ["first", "valheim", "boris-rocket", "dead-cells"]
+  },
+  "917504095": {
+    "abs_start": "0:00", "abs_end": "8:52:03", "duration": "0:00",
+    "name": "Valheim #3 / Destiny 2 #6 (с Triplewipe)",
+    "date": "2021-02-17",
+    "direct": "https://bsufiles.thedrhax.pw/streams/917504095.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/917504095.torrent",
+    "games": ["valheim", "destiny-2"]
   }
 }
