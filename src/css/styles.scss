@@ -4,6 +4,24 @@ $grid-breakpoints: ( xs: 0, sm: 450px, md: 768px, lg: 992px, xl: 1200px);
 @import "~bootstrap";
 @import "./player";
 
+html, body {
+  height: 100%;
+}
+
+body {
+  display: table;
+  width: 100%;
+}
+
+.page-row {
+  display: table-row;
+  height: 1px;
+}
+
+.page-row-expanded {
+  height: 100%;
+}
+
 .main-content {
   max-width: auto;
   padding-top: 1rem;
