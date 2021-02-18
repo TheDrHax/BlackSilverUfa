@@ -6818,7 +6818,6 @@
     "youtube": "qFP2KG-QFDg", "abs_start": "0:00", "abs_end": "7:24:06", "duration": "7:24:06",
     "name": "Hitman 3 #1",
     "date": "2021-01-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/880899353.torrent",
     "games": ["hitman-3"]
   },
   "882168228": {
@@ -7027,5 +7026,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/917504095.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/917504095.torrent",
     "games": ["valheim", "destiny-2"]
+  },
+  "918810670": {
+    "abs_start": "0:00", "abs_end": "7:22:35", "duration": "0:00",
+    "name": "Valheim #4",
+    "date": "2021-02-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/918810670.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/918810670.torrent",
+    "games": ["valheim"]
   }
 }
