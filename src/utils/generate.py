@@ -118,10 +118,7 @@ def build_webpack():
     os.mkdir(_('dist'))
 
     # Webpack
-    call(['npx', 'webpack',
-          '--config', 'src/js/webpack.config.js',
-          '--mode', 'development' if DEBUG else 'production',
-          '--output-path', os.path.abspath(_('dist'))])
+    call(['npx', 'webpack', '--config', 'src/js/webpack.config.js'])
 
 
 @timed('Build completed in {}ms')
