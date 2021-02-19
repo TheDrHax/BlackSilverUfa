@@ -61,7 +61,6 @@ class Search {
 
         let suggestions = Search.games
           .chain()
-          .find({'name': {'$regex': ['(' + query.join('|') + ')', 'i']}})
           .where((item) => item.category.search !== false)
           .simplesort('category.$loki')
           .data()
