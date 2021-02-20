@@ -6830,14 +6830,12 @@
     "youtube": "dn9uQy2eePE", "official": false, "abs_start": "0:00", "abs_end": "6:48:04", "duration": "6:48:04",
     "name": "Resident Evil Village (демо) / Resident Evil 7 (Madhouse) #5",
     "date": "2021-01-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/883419848.torrent",
     "games": ["single", "re7"]
   },
   "886277729": {
     "youtube": "ew9dM_1QDcQ", "abs_start": "0:00", "abs_end": "5:31:41", "duration": "5:31:41",
     "name": "Gartic Phone #2 / Pummel Party #13 (6D) / Golf It! #24 / Gartic #4 / Tricky Towers #27",
     "date": "2021-01-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/886277729.torrent",
     "games": ["gartic-phone", "pummel-party", "golf-it", "gartic", "tricky-towers"]
   },
   "887445977": {
@@ -7037,6 +7035,14 @@
     "name": "Valheim #5",
     "date": "2021-02-19",
     "torrent": "https://bsufiles.thedrhax.pw/streams/920088359.torrent",
+    "games": ["valheim"]
+  },
+  "921499255": {
+    "abs_start": "0:00", "abs_end": "7:46:32", "duration": "0:00",
+    "name": "Valheim #6",
+    "date": "2021-02-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/921499255.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/921499255.torrent",
     "games": ["valheim"]
   }
 }
