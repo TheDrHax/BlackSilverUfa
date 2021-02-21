@@ -6842,7 +6842,6 @@
     "youtube": "jIGq-DDVWzY", "official": false, "abs_start": "0:00", "abs_end": "6:06:15", "duration": "6:06:15",
     "name": "At Dead Of Night #1 / Disco Elysium #1",
     "date": "2021-01-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/887445977.torrent",
     "games": ["at-dead-of-night", "disco-elysium"]
   },
   "889976499": {
@@ -7042,6 +7041,14 @@
     "name": "Valheim #6",
     "date": "2021-02-20",
     "torrent": "https://bsufiles.thedrhax.pw/streams/921499255.torrent",
+    "games": ["valheim"]
+  },
+  "922840727": {
+    "abs_start": "0:00", "abs_end": "9:46:43", "duration": "0:00",
+    "name": "Valheim #7",
+    "date": "2021-02-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/922840727.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/922840727.torrent",
     "games": ["valheim"]
   }
 }
