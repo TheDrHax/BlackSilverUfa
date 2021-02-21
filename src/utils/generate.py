@@ -92,8 +92,8 @@ def build_mako():
             shutil.rmtree(_(dp))
         os.mkdir(_(dp))
 
-    # Generate index.html, missing.html
-    for i in ['index', 'missing']:
+    # Generate index.html, all.html, missing.html
+    for i in ['index', 'all', 'missing']:
         with open(_(i + '.html'), 'w') as out:
             t = lookup.get_template(f'/{i}.mako')
             out.write(t.render(**env))
