@@ -325,14 +325,9 @@ h3,
   background-color: #485057;
 }
 
-// Date picker fully custom tiles
-.react-calendar__tile abbr {
-  display: none;
-}
-
-.react-calendar__tile abbr:only-child {
-  display: inline;
-}
+/*
+ * Date Picker
+ */
 
 .react-date-picker__calendar-button {
   display: none;
@@ -353,4 +348,12 @@ h3,
 
 .react-date-picker__inputGroup {
   text-align: center;
+}
+
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+
+.bg-lightcoral {
+  background-color: lightcoral;
 }
