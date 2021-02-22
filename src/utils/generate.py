@@ -93,7 +93,7 @@ def build_mako():
         os.mkdir(_(dp))
 
     # Generate index.html, all.html, missing.html
-    for i in ['index', 'all', 'missing']:
+    for i in ['index', 'search', 'missing']:
         with open(_(i + '.html'), 'w') as out:
             t = lookup.get_template(f'/{i}.mako')
             out.write(t.render(**env))

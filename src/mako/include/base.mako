@@ -34,14 +34,18 @@
                   % if i > 0:
                     <div class="dropdown-divider"></div>
                   % endif
-                  <a class="dropdown-item" href="/all.html#${category.code}"><b>${category.name}</b></a>
+                  <a class="dropdown-item" href="/#${category.code}"><b>${category.name}</b></a>
                 % else:
-                  <a class="dropdown-item" href="/all.html#${category.code}">${category.name}</a>
+                  <a class="dropdown-item" href="/#${category.code}">${category.name}</a>
                 % endif
               % endfor
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="/missing.html">Стримы без официальных записей</a>
               </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/search.html">Поиск</a>
             </li>
           </ul>
 
