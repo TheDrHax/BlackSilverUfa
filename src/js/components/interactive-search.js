@@ -11,9 +11,7 @@ import {
   Form,
   InputGroup,
   Dropdown,
-  Button,
-  OverlayTrigger,
-  Tooltip
+  Button
 } from 'react-bootstrap';
 
 import {
@@ -42,7 +40,8 @@ class InteractiveSearch extends React.Component {
       filters: {
         category: null,
         dateStart: null,
-        dateEnd: null
+        dateEnd: null,
+        dateScale: 'year'
       },
       results: {
         mode: null,
@@ -77,14 +76,34 @@ class InteractiveSearch extends React.Component {
       const segments = this.state.data.segments;
       chain = segments.chain();
 
-      if (this.state.filters.dateStart) {
-        if (this.state.filters.dateEnd) {
+      let { dateStart, dateEnd, dateScale } = this.state.filters;
+
+      if (dateStart) {
+        let end;
+
+        switch(dateScale) {
+          case 'year':
+            end = new Date(dateStart);
+            Sugar.Date.reset(end, 'month');
+            Sugar.Date.advance(end, { months: 1 });
+            Sugar.Date.rewind(end, { days: 1 });
+            break;
+          case 'decade':
+            end = new Date(dateStart);
+            Sugar.Date.reset(end, 'year');
+            Sugar.Date.advance(end, { years: 1 });
+            Sugar.Date.rewind(end, { days: 1 });
+            break;
+          case 'month':
+            end = dateEnd;
+        }
+
+        if (end) {
           chain = chain.find({ date: { $between: [
-            this.state.filters.dateStart,
-            this.state.filters.dateEnd
+            dateStart, end
           ] } });
         } else {
-          chain = chain.find({ date: { $dteq: this.state.filters.dateStart } });
+          chain = chain.find({ date: { $dteq: dateStart } });
         }
       }
 
@@ -120,11 +139,12 @@ class InteractiveSearch extends React.Component {
 
       let minDate = new Date(this.state.data.segments.min('date'));
       let maxDate = new Date(this.state.data.segments.max('date'));
-      let { dateStart, dateEnd } = this.state.filters;
+      let { dateStart, dateEnd, dateScale } = this.state.filters;
 
       let datePickerOptions = {
         maxDate,
         minDetail: 'decade',
+        maxDetail: dateScale,
         locale: 'ru-RU',
         tileContent: ({ date, view }) => {
           if (view === 'month') return;
@@ -151,19 +171,38 @@ class InteractiveSearch extends React.Component {
 
       return (
         <Form.Row className="mb-2">
-          <InputGroup size="sm" xs={12} md={6} lg={4} as={Col}>
+          <InputGroup xs={12} md={6} lg={4} as={Col}>
             <InputGroup.Prepend>
-              <OverlayTrigger placement="bottom"
-                overlay={
-                  <Tooltip>
-                    Заполните первое поле для поиска по точной дате
-                    или оба поля для поиска по диапазону
-                  </Tooltip>
-                }>
-                  <InputGroup.Text>
-                    Дата<sup>?</sup>
-                  </InputGroup.Text>
-              </OverlayTrigger>
+              <Dropdown>
+                <Dropdown.Toggle variant="secondary">
+                  {dateScale === 'month' ? 'День' :
+                  dateScale === 'year' ? 'Месяц' :
+                  dateScale === 'decade' && 'Год'}
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                  <Dropdown.Item
+                    onClick={() => updateState(this, {
+                      filters: {
+                        $unset: ['dateStart', 'dateEnd'],
+                        dateScale: { $set: 'month' }
+                      }
+                    })}>День</Dropdown.Item>
+                  <Dropdown.Item
+                    onClick={() => updateState(this, {
+                      filters: {
+                        $unset: ['dateStart', 'dateEnd'],
+                        dateScale: { $set: 'year' }
+                      }
+                    })}>Месяц</Dropdown.Item>
+                  <Dropdown.Item
+                    onClick={() => updateState(this, {
+                      filters: {
+                        $unset: ['dateStart', 'dateEnd'],
+                        dateScale: { $set: 'decade' }
+                      }
+                    })}>Год</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </InputGroup.Prepend>
             <Form.Control
               as={DatePicker}
@@ -173,19 +212,24 @@ class InteractiveSearch extends React.Component {
               })}
               minDate={new Date(this.state.data.segments.min('date'))}
               {...datePickerOptions} />
-            <Form.Control
-              as={DatePicker}
-              value={dateEnd}
-              onChange={(date) => updateState(this, {
-                filters: { dateEnd: { $set: date } }
-              })}
-              minDate={dateStart || minDate}
-              {...datePickerOptions} />
+            {dateScale === 'month' && (
+              <Form.Control
+                as={DatePicker}
+                value={dateEnd}
+                onChange={(date) => updateState(this, {
+                  filters: { dateEnd: { $set: date } }
+                })}
+                minDate={dateStart || minDate}
+                {...datePickerOptions} />
+            )}
             {dateStart && (
               <InputGroup.Append>
                 <Button variant="danger"
                   onClick={() => updateState(this, {
-                    filters: { $unset: ['dateStart', 'dateEnd'] }
+                    filters: {
+                      $unset: ['dateStart', 'dateEnd'],
+                      dateScale: { $set: 'year' }
+                    }
                   })}>x</Button>
               </InputGroup.Append>
             )}
