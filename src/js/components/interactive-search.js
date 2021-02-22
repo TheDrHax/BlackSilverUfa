@@ -26,10 +26,14 @@ class InteractiveSearch extends React.Component {
       mode: 'segments',
       data: {
         segments: null,
+        categories: null,
         games: null
       },
       query: {
         text: ''
+      },
+      filters: {
+        category: null
       },
       results: {
         mode: null,
@@ -40,11 +44,12 @@ class InteractiveSearch extends React.Component {
 
   loadData() {
     Promise.all([
-      Data.segments, Data.games
-    ]).then(([segments, games]) => {
+      Data.segments, Data.categories, Data.games
+    ]).then(([segments, categories, games]) => {
       this.setState({
         data: {
           segments,
+          categories,
           games
         },
         loaded: true
@@ -77,7 +82,9 @@ class InteractiveSearch extends React.Component {
       const games = this.state.data.games;
       chain = games.chain()
 
-      // filters should be here
+      if (this.state.filters.category) {
+        chain = chain.find({ 'category.id': this.state.filters.category });
+      }
 
       chain = chain.where((item) => item.category.search !== false);
     }
@@ -94,6 +101,31 @@ class InteractiveSearch extends React.Component {
         items: results
       }
     });
+  }
+
+  filters() {
+    if (this.state.mode === 'segments') {
+      return null;
+    } else if (this.state.mode === 'games') {
+      return (
+        <Form.Row className="mt-2">
+          <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
+            <Form.Control name="category" as="select" custom>
+              <option onClick={() => this.setState({ filters: { category: null } })}>Категория...</option>
+              {Object.values(this.state.data.categories)
+                .filter((category) => category.search !== false)
+                .map((category) => (
+                <option key={category.id} onClick={() => this.setState({ filters: { category: category.id } })}>
+                  {category.name}
+                </option>
+              ))}
+            </Form.Control>
+          </InputGroup>
+        </Form.Row>
+      );
+    }
+
+    return null;
   }
 
   inputForm() {
@@ -120,6 +152,7 @@ class InteractiveSearch extends React.Component {
             <Button variant="primary" onClick={this.submitForm.bind(this)}>Найти</Button>
           </InputGroup.Append>
         </InputGroup>
+        {this.filters()}
       </Form>
     );
   }
@@ -127,9 +160,11 @@ class InteractiveSearch extends React.Component {
   resultsRenderer() {
     if (this.state.results.mode === 'segments') {
       return SegmentsList;
-    } else {
+    } else if (this.state.results.mode === 'games') {
       return GamesList;
     }
+
+    return null;
   }
 
   render() {
@@ -140,14 +175,16 @@ class InteractiveSearch extends React.Component {
       );
     }
 
+    let renderer = this.resultsRenderer();
+
     return (
       <>
         <Row><Col>{this.inputForm()}</Col></Row>
-        <ResultsPagination
+        {renderer ? <ResultsPagination
           items={this.state.results.items}
           max={10}
           renderer={this.resultsRenderer()}
-          rendererProps={{ data: { ...this.state.data } }} />
+          rendererProps={{ data: { ...this.state.data } }} /> : null}
       </>
     );
   }
