@@ -1,4 +1,5 @@
 import React from 'react';
+import animateScrollTo from 'animated-scroll-to';
 import updateState from '../../utils/update-state';
 
 import {
@@ -57,7 +58,7 @@ class GenericList extends React.Component {
 
   render() {
     return (
-      <ListGroup variant="flush">
+      <ListGroup variant="flush" className="mb-2">
         {this.items()}
       </ListGroup>
     )
@@ -172,16 +173,19 @@ class ResultsPagination extends React.Component {
 
     return (
       <Row>
-        <Col>
+        <Col className="d-flex justify-content-center">
           <Pagination
             totalPages={pages}
             value={this.state.page}
             showFirstLast={false}
             atBeginEnd={1}
             aroundCurrent={2}
-            onChange={({ target: { value }}) => updateState(this, {
-              page: { $set: value }
-            })} />
+            onChange={({ target: { value }}) => {
+              animateScrollTo(0);
+              updateState(this, {
+                page: { $set: value }
+              });
+            }} />
         </Col>
       </Row>
     )

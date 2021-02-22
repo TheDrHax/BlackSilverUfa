@@ -150,7 +150,7 @@ class InteractiveSearch extends React.Component {
       };
 
       return (
-        <Form.Row className="mt-2">
+        <Form.Row className="mb-2">
           <InputGroup size="sm" xs={12} md={6} lg={4} as={Col}>
             <InputGroup.Prepend>
               <OverlayTrigger placement="bottom"
@@ -194,7 +194,7 @@ class InteractiveSearch extends React.Component {
       );
     } else if (this.state.mode === 'games') {
       return (
-        <Form.Row className="mt-2">
+        <Form.Row className="mb-2">
           <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
             <Form.Control name="category" as="select" custom>
               <option
@@ -222,7 +222,7 @@ class InteractiveSearch extends React.Component {
   inputForm() {
     return (
       <Form onSubmit={this.submitForm.bind(this)}>
-        <InputGroup>
+        <InputGroup className="mb-2">
           <InputGroup.Prepend>
             <Dropdown>
               <Dropdown.Toggle variant="success">
