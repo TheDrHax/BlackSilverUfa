@@ -10,7 +10,9 @@ import {
   Form,
   InputGroup,
   Dropdown,
-  Button
+  Button,
+  OverlayTrigger,
+  Tooltip
 } from 'react-bootstrap';
 
 import {
@@ -113,66 +115,61 @@ class InteractiveSearch extends React.Component {
 
   filters() {
     if (this.state.mode === 'segments') {
-      let maxDate = new Date(this.state.data.segments.max('date'));
+      let minDate = new Date(this.state.data.segments.min('date'));
+      let { dateStart, dateEnd } = this.state.filters;
+      let datePickerOptions = {
+        maxDate: new Date(this.state.data.segments.max('date')),
+        minDetail: 'decade',
+        locale: 'ru-RU',
+        tileDisabled: ({ date, view }) => {
+          if (view !== 'month') return false;
+          const segments = this.state.data.segments;
+          return segments.count({ date: { $dteq: date } }) === 0;
+        },
+        showLeadingZeros: true
+      };
 
       return (
         <Form.Row className="mt-2">
-          <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
-            <DatePicker
-              value={this.state.filters.dateStart}
+          <InputGroup size="sm" xs={12} md={6} lg={4} as={Col}>
+            <InputGroup.Prepend>
+              <OverlayTrigger placement="bottom"
+                overlay={
+                  <Tooltip>
+                    Заполните первое поле для поиска по точной дате
+                    или оба поля для поиска по диапазону
+                  </Tooltip>
+                }>
+                  <InputGroup.Text>
+                    Дата<sup>?</sup>
+                  </InputGroup.Text>
+              </OverlayTrigger>
+            </InputGroup.Prepend>
+            <Form.Control
+              as={DatePicker}
+              value={dateStart}
               onChange={(date) => updateState(this, {
                 filters: { dateStart: { $set: date } }
               })}
-              maxDate={maxDate}
               minDate={new Date(this.state.data.segments.min('date'))}
-              minDetail="decade"
-              locale="ru-RU"
-              tileDisabled={({ date, view }) => {
-                if (view !== 'month') return false;
-                const segments = this.state.data.segments;
-                return segments.count({ date: { $dteq: date } }) === 0;
-              }}
-              showLeadingZeros />
-            {this.state.filters.dateStart ? (
+              {...datePickerOptions} />
+            <Form.Control
+              as={DatePicker}
+              value={dateEnd}
+              onChange={(date) => updateState(this, {
+                filters: { dateEnd: { $set: date } }
+              })}
+              minDate={dateStart || minDate}
+              {...datePickerOptions} />
+            {dateStart && (
               <InputGroup.Append>
-                <Button
-                  variant="secondary"
-                  style={{ lineHeight: 0 }}
+                <Button variant="danger"
                   onClick={() => updateState(this, {
                     filters: { $unset: ['dateStart', 'dateEnd'] }
                   })}>x</Button>
               </InputGroup.Append>
-            ) : null}
+            )}
           </InputGroup>
-          {this.state.filters.dateStart ? (
-            <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
-              <DatePicker
-                value={this.state.filters.dateEnd}
-                onChange={(date) => updateState(this, {
-                  filters: { dateEnd: { $set: date } }
-                })}
-                maxDate={maxDate}
-                minDate={this.state.filters.dateStart}
-                minDetail="decade"
-                locale="ru-RU"
-                tileDisabled={({ date, view }) => {
-                  if (view !== 'month') return false;
-                  const segments = this.state.data.segments;
-                  return segments.count({ date: { $dteq: date } }) === 0;
-                }}
-                showLeadingZeros />
-              {this.state.filters.dateEnd ? (
-                <InputGroup.Append>
-                  <Button
-                    variant="secondary"
-                    style={{ lineHeight: 0 }}
-                    onClick={() => updateState(this, {
-                      filters: { $unset: ['dateEnd'] }
-                    })}>x</Button>
-                </InputGroup.Append>
-              ) : null}
-            </InputGroup>
-          ) : null}
         </Form.Row>
       );
     } else if (this.state.mode === 'games') {
