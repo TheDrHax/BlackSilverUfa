@@ -29,9 +29,15 @@ module.exports = [
     module: {
       rules: [
         {
-          test: /\.s[ac]ss$/i,
+          test: /\.(css|s[ac]ss)$/i,
           use: [
-            MiniCssExtractPlugin.loader,
+            {
+              loader: MiniCssExtractPlugin.loader,
+              options: {
+                hmr: DEBUG,
+                reloadAll: true,
+              }
+            },
             'cache-loader',
             'css-loader',
             'sass-loader',
