@@ -65,6 +65,9 @@ module.exports = [
     node: {
       fs: 'empty'
     },
+    performance: {
+      hints: false
+    },
     plugins: [
       new MiniCssExtractPlugin({
         filename: 'bundle.css'
