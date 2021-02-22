@@ -92,8 +92,8 @@ def build_mako():
             shutil.rmtree(_(dp))
         os.mkdir(_(dp))
 
-    # Generate index.html, missing.html
-    for i in ['index', 'missing']:
+    # Generate index.html, all.html, missing.html
+    for i in ['index', 'search', 'missing']:
         with open(_(i + '.html'), 'w') as out:
             t = lookup.get_template(f'/{i}.mako')
             out.write(t.render(**env))
@@ -118,10 +118,7 @@ def build_webpack():
     os.mkdir(_('dist'))
 
     # Webpack
-    call(['npx', 'webpack',
-          '--config', 'src/js/webpack.config.js',
-          '--mode', 'development' if DEBUG else 'production',
-          '--output-path', os.path.abspath(_('dist'))])
+    call(['npx', 'webpack', '--config', 'src/js/webpack.config.js'])
 
 
 @timed('Build completed in {}ms')

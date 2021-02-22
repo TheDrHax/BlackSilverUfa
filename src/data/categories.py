@@ -70,12 +70,16 @@ class Category:
 
             first = True
             for game in self.games:
-                data = dict(name=game.name, year=game.date.year)
+                data = dict(name=game.name)
 
                 if isinstance(game, Game):
+                    data['type'] = 'game'
                     data['id'] = game.id
+                    data['segment'] = game.streams[game.cover].hash
                 elif isinstance(game, SegmentReference):
-                    data['id'] = game.hash
+                    data['type'] = 'segment'
+                    data['id'] = game.references[0].game.id
+                    data['segment'] = game.hash
 
                 if not first:
                     yield ',\n'

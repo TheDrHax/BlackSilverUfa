@@ -2,15 +2,37 @@ import autocomplete from 'autocompleter';
 import { Data } from './data';
 import { Redirect } from './redirect';
 
+function tokenize(string) {
+  return string.trim().split(' ').map((word) => {
+    let match = word.toLowerCase().match(/[a-zа-я0-9]+/g);
+    return match ? match.join('') : '';
+  });
+}
+
+function fts(query, items, lambda) {
+  query = tokenize(query);
+
+  let max_rank = 0;
+
+  return items.map((item) => {
+    let words = tokenize(lambda(item));
+
+    let rank = query.map((query_word) => {
+      return words.filter((word) => word.startsWith(query_word)).length > 0;
+    }).reduce((a, b) => a + b);
+
+    if (rank > max_rank) {
+      max_rank = rank;
+    }
+
+    return { item, rank };
+  })
+  .filter((item) => item.rank == max_rank && item.rank > 0)
+  .map((item) => item.item);
+}
+
 class Search {
   static games = null;
-
-  static strip(string) {
-    return string.trim().split(' ').map((word) => {
-      let match = word.toLowerCase().match(/[a-zа-я0-9]+/g);
-      return match ? match.join('') : '';
-    }).join(' ');
-  }
 
   static async load() {
     Search.games = await Data.games;
@@ -55,33 +77,23 @@ class Search {
           return;
         }
 
-        
-        let max_rank = 0;
-        let query = Search.strip(text).split(' ');
-
         let suggestions = Search.games
           .chain()
           .where((item) => item.category.search !== false)
           .simplesort('category.$loki')
-          .data()
-          .map((item) => {
-            let words = Search.strip(item.name).split(' ');
-            let rank = query.map((query_word) => {
-              return words.filter((word) => word.startsWith(query_word)).length > 0;
-            }).reduce((a, b) => a + b);
-            
-            if (rank > max_rank) {
-              max_rank = rank;
-            }
+          .data();
 
-            return {
-              ...item,
-              group: item.category.name,
-              rank: rank
-            };
-          });
+        suggestions = fts(text, suggestions, (item) => item.name);
 
-        update(suggestions.filter((item) => item.rank == max_rank));
+        update(suggestions.map((item) => {
+          let segment = Redirect.segments.by('segment', item.segment);
+
+          return {
+            ...item,
+            year: segment.date.getFullYear(),
+            group: item.category.name
+          };
+        }));
       },
       render: (item, currentValue) => {
         let div = document.createElement("div");
@@ -97,4 +109,4 @@ class Search {
   }
 }
 
-export { Search };
+export { tokenize, fts, Search };

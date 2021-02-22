@@ -2,9 +2,12 @@ import 'bootstrap.native/dist/bootstrap-native-v4';
 import Darkmode from 'darkmode-js';
 import Headroom from 'headroom.js';
 import LazyLoad from 'vanilla-lazyload';
+import React from 'react';
+import { render } from 'react-dom';
 import { Search } from './search';
 import { Redirect } from './redirect';
 import { Matomo } from './matomo';
+import InteractiveSearch from './components/interactive-search';
 import './player';
 
 var darkmode = new Darkmode({
@@ -44,3 +47,7 @@ if (document.querySelector('#search')) {
 
 // Redirect
 window.Redirect = Redirect;
+
+if (document.getElementById('react-main-root')) {
+  render(<InteractiveSearch />, document.getElementById('react-main-root'));
+}

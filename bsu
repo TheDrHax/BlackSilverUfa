@@ -167,6 +167,9 @@ case $1 in
     build) shift; $PYTHON -m src.utils.generate $@ ;;
     serve) shift; $PYTHON -m src.utils.serve $@ ;;
     debug) shift; DEBUG=1 $PYTHON -m src.utils.serve $@ ;;
+    react)
+        DEBUG=1 ./bsu build --no-webpack
+        DEBUG=1 npx webpack-dev-server --config src/js/webpack.config.js ;;
     download-chats) $PYTHON -m src.utils.chats ;;
     sh|bash) "$@" ;;
     cli)
@@ -178,5 +181,6 @@ case $1 in
     python) shift; $PYTHON $@ ;;
     pip) shift; $PYTHON -m pip $@ ;;
     npm) shift; npm $@ ;;
-    *) echo "Usage: $0 venv|pages|pull|build|serve|download-chats|sh|bash|repl|script|python" ;;
+    node) shift; node $@ ;;
+    *) echo "Usage: $0 venv|pages|pull|build|serve|react|download-chats|sh|bash|repl|script|python|pip|node|npm" ;;
 esac
