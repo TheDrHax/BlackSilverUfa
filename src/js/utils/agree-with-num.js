@@ -1,5 +1,5 @@
 function agreeWithNum(number, word, endings) {
-  if (number >= 10) {
+  if (number >= 20) {
     number = number % 10;
   }
 
