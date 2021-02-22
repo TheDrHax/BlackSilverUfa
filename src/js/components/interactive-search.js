@@ -1,6 +1,8 @@
 import React from 'react';
+import update from 'immutability-helper';
 import { Data } from '../data';
 import { tokenize, fts } from '../search';
+import updateState from '../utils/update-state';
 
 import {
   Row,
@@ -50,23 +52,16 @@ class InteractiveSearch extends React.Component {
     Promise.all([
       Data.segments, Data.categories, Data.games
     ]).then(([segments, categories, games]) => {
-      this.setState({
-        data: {
-          segments,
-          categories,
-          games
-        },
-        loaded: true
-      })
+      updateState(this, {
+        data: { $merge: { segments, categories, games } },
+        loaded: { $set: true }
+      });
     });
   }
 
   handleChange(event) {
-    this.setState({
-      query: {
-        ...this.state.query,
-        [event.target.name]: event.target.value
-      }
+    updateState(this, {
+      query: { [event.target.name]: { $set: event.target.value } }
     });
   }
 
@@ -107,12 +102,12 @@ class InteractiveSearch extends React.Component {
     if (tokenize(this.state.query.text).length > 0) {
       results = fts(this.state.query.text, results, (item) => item.name);
     }
-
-    this.setState({
-      results: {
+  
+    updateState(this, {
+      results: { $merge: {
         mode: this.state.mode,
         items: results
-      }
+      } }
     });
   }
 
@@ -125,7 +120,9 @@ class InteractiveSearch extends React.Component {
           <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
             <DatePicker
               value={this.state.filters.dateStart}
-              onChange={(date) => this.setState({ filters: { ...this.state.filters, dateStart: date } })}
+              onChange={(date) => updateState(this, {
+                filters: { dateStart: { $set: date } }
+              })}
               maxDate={maxDate}
               minDate={new Date(this.state.data.segments.min('date'))}
               minDetail="decade"
@@ -141,9 +138,9 @@ class InteractiveSearch extends React.Component {
                 <Button
                   variant="secondary"
                   style={{ lineHeight: 0 }}
-                  onClick={() => this.setState({ filters: { ...this.state.filters, dateStart: null } })}>
-                    x
-                </Button>
+                  onClick={() => updateState(this, {
+                    filters: { $unset: ['dateStart', 'dateEnd'] }
+                  })}>x</Button>
               </InputGroup.Append>
             ) : null}
           </InputGroup>
@@ -151,7 +148,9 @@ class InteractiveSearch extends React.Component {
             <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
               <DatePicker
                 value={this.state.filters.dateEnd}
-                onChange={(date) => this.setState({ filters: { ...this.state.filters, dateEnd: date } })}
+                onChange={(date) => updateState(this, {
+                  filters: { dateEnd: { $set: date } }
+                })}
                 maxDate={maxDate}
                 minDate={this.state.filters.dateStart}
                 minDetail="decade"
@@ -167,9 +166,9 @@ class InteractiveSearch extends React.Component {
                   <Button
                     variant="secondary"
                     style={{ lineHeight: 0 }}
-                    onClick={() => this.setState({ filters: { ...this.state.filters, dateEnd: null } })}>
-                    x
-                  </Button>
+                    onClick={() => updateState(this, {
+                      filters: { $unset: ['dateEnd'] }
+                    })}>x</Button>
                 </InputGroup.Append>
               ) : null}
             </InputGroup>
@@ -181,13 +180,18 @@ class InteractiveSearch extends React.Component {
         <Form.Row className="mt-2">
           <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
             <Form.Control name="category" as="select" custom>
-              <option onClick={() => this.setState({ filters: { ...this.state.filters, category: null } })}>Категория...</option>
+              <option
+                onClick={() => updateState(this, {
+                  filters: { category: { $set: null } }
+                })}>Категория...</option>
               {Object.values(this.state.data.categories)
                 .filter((category) => category.search !== false)
                 .map((category) => (
-                  <option key={category.id} onClick={() => this.setState({ filters: { ...this.state.filters, category: category.id } })}>
-                    {category.name}
-                  </option>
+                  <option
+                    key={category.id}
+                    onClick={() => updateState(this, {
+                      filters: { category: { $set: category.id } }
+                    })}>{category.name}</option>
               ))}
             </Form.Control>
           </InputGroup>
@@ -208,14 +212,21 @@ class InteractiveSearch extends React.Component {
                 {this.state.mode === 'segments' ? 'Стримы' : 'Игры'}
               </Dropdown.Toggle>
               <Dropdown.Menu>
-                <Dropdown.Item onClick={() => this.setState({ mode: 'segments' })}>Стримы</Dropdown.Item>
-                <Dropdown.Item onClick={() => this.setState({ mode: 'games' })}>Игры</Dropdown.Item>
+                <Dropdown.Item
+                  onClick={() => updateState(this, {
+                    mode: { $set: 'segments' }
+                  })}>Стримы</Dropdown.Item>
+                <Dropdown.Item
+                  onClick={() => updateState(this, {
+                    mode: { $set: 'games' }
+                  })}>Игры</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </InputGroup.Prepend>
           <Form.Control
             name="text"
             onChange={this.handleChange.bind(this)}
+            onKeyPress={(event) => { if (event.code == 'Enter') { this.submitForm(event); } }}
             type="text"
             placeholder="Поиск по названию" />
           <InputGroup.Append>
