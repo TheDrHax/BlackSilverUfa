@@ -1,4 +1,5 @@
 import React from 'react';
+import updateState from '../../utils/update-state';
 
 import {
   Row,
@@ -178,7 +179,9 @@ class ResultsPagination extends React.Component {
             showFirstLast={false}
             atBeginEnd={1}
             aroundCurrent={2}
-            onChange={({ target: { value }}) => this.setState({ page: value })} />
+            onChange={({ target: { value }}) => updateState(this, {
+              page: { $set: value }
+            })} />
         </Col>
       </Row>
     )
