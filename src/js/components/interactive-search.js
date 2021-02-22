@@ -1,7 +1,8 @@
 import React from 'react';
-import update from 'immutability-helper';
+import Sugar from '../utils/sugar';
 import { Data } from '../data';
 import { tokenize, fts } from '../search';
+import { agreeWithNum } from '../utils/agree-with-num';
 import updateState from '../utils/update-state';
 
 import {
@@ -115,16 +116,35 @@ class InteractiveSearch extends React.Component {
 
   filters() {
     if (this.state.mode === 'segments') {
+      const { segments } = this.state.data;
+
       let minDate = new Date(this.state.data.segments.min('date'));
+      let maxDate = new Date(this.state.data.segments.max('date'));
       let { dateStart, dateEnd } = this.state.filters;
+
       let datePickerOptions = {
-        maxDate: new Date(this.state.data.segments.max('date')),
+        maxDate,
         minDetail: 'decade',
         locale: 'ru-RU',
-        tileDisabled: ({ date, view }) => {
-          if (view !== 'month') return false;
-          const segments = this.state.data.segments;
-          return segments.count({ date: { $dteq: date } }) === 0;
+        tileContent: ({ date, view }) => {
+          if (view === 'month') return;
+          if (date > maxDate) return;
+
+          let end = new Date(date);
+          if (view === 'year') {
+            Sugar.Date.advance(end, { months: 1 });
+          } else if (view === 'decade') {
+            Sugar.Date.advance(end, { years: 1});
+          }
+          Sugar.Date.rewind(end, { days: 1 });
+
+          let count = segments.count({ date: { $between: [date, end] } });
+          return <div>{count} {agreeWithNum(count, 'стрим', ['', 'а', 'ов'])}</div>;
+        },
+        tileClassName: ({ date, view }) => {
+          if (view !== 'month') return;
+          let count = segments.count({ date: { $dteq: date } });
+          return count > 0 ? 'bg-lightgreen' : 'bg-lightcoral';
         },
         showLeadingZeros: true
       };
