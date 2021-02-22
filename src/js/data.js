@@ -12,7 +12,7 @@ class Data {
       .sort((a, b) => String(a).localeCompare(b))
       .map((k) => [k, data[k]])
       .map(([key, segment]) => {
-        segment.date = new Date(segment.date);
+        segment.date = new Date(segment.date + 'T00:00:00');
         segment.segment = key;
         segments_collection.insert(segment);
       });

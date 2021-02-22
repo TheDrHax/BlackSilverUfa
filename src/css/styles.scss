@@ -324,3 +324,20 @@ h3,
 .darkmode--activated .dropdown-item:hover {
   background-color: #485057;
 }
+
+// Date picker fully custom tiles
+.react-calendar__tile abbr {
+  display: none;
+}
+
+.react-calendar__tile abbr:only-child {
+  display: inline;
+}
+
+.react-date-picker__calendar-button {
+  display: none;
+}
+
+.react-date-picker__clear-button {
+  display: none;
+}

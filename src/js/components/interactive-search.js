@@ -17,6 +17,8 @@ import {
   ResultsPagination
 } from './search/results';
 
+import DatePicker from 'react-date-picker';
+
 class InteractiveSearch extends React.Component {
   constructor(props) {
     super(props);
@@ -33,7 +35,8 @@ class InteractiveSearch extends React.Component {
         text: ''
       },
       filters: {
-        category: null
+        category: null,
+        date: null
       },
       results: {
         mode: null,
@@ -75,7 +78,9 @@ class InteractiveSearch extends React.Component {
       const segments = this.state.data.segments;
       chain = segments.chain();
 
-      // filters should be here
+      if (this.state.filters.date) {
+        chain = chain.find({ date: { $dteq: this.state.filters.date } });
+      }
 
       chain = chain.find({ games: { $size: { $gt: 0 } } });
     } else {
@@ -105,7 +110,35 @@ class InteractiveSearch extends React.Component {
 
   filters() {
     if (this.state.mode === 'segments') {
-      return null;
+      return (
+        <Form.Row className="mt-2">
+          <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
+            <DatePicker
+              value={this.state.filters.date}
+              onChange={(date) => this.setState({ filters: { date } })}
+              maxDate={new Date(this.state.data.segments.max('date'))}
+              minDate={new Date(this.state.data.segments.min('date'))}
+              minDetail="decade"
+              locale="ru-RU"
+              tileDisabled={({ date, view }) => {
+                if (view !== 'month') return false;
+                const segments = this.state.data.segments;
+                return segments.count({ date: { $dteq: date } }) === 0;
+              }}
+              showLeadingZeros />
+            {this.state.filters.date ? (
+              <InputGroup.Append>
+                <Button
+                  variant="secondary"
+                  style={{ lineHeight: 0 }}
+                  onClick={() => this.setState({ filters: { date: null } })}>
+                    x
+                </Button>
+              </InputGroup.Append>
+            ) : null}
+          </InputGroup>
+        </Form.Row>
+      );
     } else if (this.state.mode === 'games') {
       return (
         <Form.Row className="mt-2">
