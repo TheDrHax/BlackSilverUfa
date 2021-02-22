@@ -341,3 +341,16 @@ h3,
 .react-date-picker__clear-button {
   display: none;
 }
+
+.react-date-picker.form-control {
+  padding: 0;
+
+  & > .react-date-picker__wrapper {
+    height: 100%;
+    border: none;
+  }
+}
+
+.react-date-picker__inputGroup {
+  text-align: center;
+}
