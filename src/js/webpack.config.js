@@ -3,7 +3,8 @@ const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin'
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
-const DEBUG = process.env.DEBUG === '1';
+const HMR = process.env.HMR === '1';
+const DEBUG = HMR || process.env.DEBUG === '1';
 
 module.exports = [
   {
@@ -52,7 +53,7 @@ module.exports = [
               loader: 'babel-loader',
               options: {
                 plugins: [
-                  DEBUG && 'react-refresh/babel',
+                  HMR && 'react-refresh/babel',
                   '@babel/plugin-proposal-class-properties'
                 ].filter(Boolean),
                 presets: ['@babel/preset-env', '@babel/preset-react'],
@@ -76,7 +77,7 @@ module.exports = [
         from: 'node_modules/libass-wasm/dist/*worker*',
         flatten: true
       }]),
-      DEBUG && new ReactRefreshWebpackPlugin()
+      HMR && new ReactRefreshWebpackPlugin()
     ].filter(Boolean)
   }
 ];
