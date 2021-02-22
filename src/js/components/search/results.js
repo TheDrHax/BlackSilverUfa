@@ -81,7 +81,7 @@ class SegmentsList extends GenericList {
   }
 
   description(segment) {
-    return '';
+    return Sugar.Date.short(segment.date);
   }
 }
 
