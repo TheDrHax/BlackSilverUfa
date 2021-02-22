@@ -36,7 +36,8 @@ class InteractiveSearch extends React.Component {
       },
       filters: {
         category: null,
-        date: null
+        dateStart: null,
+        dateEnd: null
       },
       results: {
         mode: null,
@@ -78,8 +79,15 @@ class InteractiveSearch extends React.Component {
       const segments = this.state.data.segments;
       chain = segments.chain();
 
-      if (this.state.filters.date) {
-        chain = chain.find({ date: { $dteq: this.state.filters.date } });
+      if (this.state.filters.dateStart) {
+        if (this.state.filters.dateEnd) {
+          chain = chain.find({ date: { $between: [
+            this.state.filters.dateStart,
+            this.state.filters.dateEnd
+          ] } });
+        } else {
+          chain = chain.find({ date: { $dteq: this.state.filters.dateStart } });
+        }
       }
 
       chain = chain.find({ games: { $size: { $gt: 0 } } });
@@ -110,13 +118,15 @@ class InteractiveSearch extends React.Component {
 
   filters() {
     if (this.state.mode === 'segments') {
+      let maxDate = new Date(this.state.data.segments.max('date'));
+
       return (
         <Form.Row className="mt-2">
           <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
             <DatePicker
-              value={this.state.filters.date}
-              onChange={(date) => this.setState({ filters: { date } })}
-              maxDate={new Date(this.state.data.segments.max('date'))}
+              value={this.state.filters.dateStart}
+              onChange={(date) => this.setState({ filters: { ...this.state.filters, dateStart: date } })}
+              maxDate={maxDate}
               minDate={new Date(this.state.data.segments.min('date'))}
               minDetail="decade"
               locale="ru-RU"
@@ -126,17 +136,44 @@ class InteractiveSearch extends React.Component {
                 return segments.count({ date: { $dteq: date } }) === 0;
               }}
               showLeadingZeros />
-            {this.state.filters.date ? (
+            {this.state.filters.dateStart ? (
               <InputGroup.Append>
                 <Button
                   variant="secondary"
                   style={{ lineHeight: 0 }}
-                  onClick={() => this.setState({ filters: { date: null } })}>
+                  onClick={() => this.setState({ filters: { ...this.state.filters, dateStart: null } })}>
                     x
                 </Button>
               </InputGroup.Append>
             ) : null}
           </InputGroup>
+          {this.state.filters.dateStart ? (
+            <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
+              <DatePicker
+                value={this.state.filters.dateEnd}
+                onChange={(date) => this.setState({ filters: { ...this.state.filters, dateEnd: date } })}
+                maxDate={maxDate}
+                minDate={this.state.filters.dateStart}
+                minDetail="decade"
+                locale="ru-RU"
+                tileDisabled={({ date, view }) => {
+                  if (view !== 'month') return false;
+                  const segments = this.state.data.segments;
+                  return segments.count({ date: { $dteq: date } }) === 0;
+                }}
+                showLeadingZeros />
+              {this.state.filters.dateEnd ? (
+                <InputGroup.Append>
+                  <Button
+                    variant="secondary"
+                    style={{ lineHeight: 0 }}
+                    onClick={() => this.setState({ filters: { ...this.state.filters, dateEnd: null } })}>
+                    x
+                  </Button>
+                </InputGroup.Append>
+              ) : null}
+            </InputGroup>
+          ) : null}
         </Form.Row>
       );
     } else if (this.state.mode === 'games') {
@@ -144,13 +181,13 @@ class InteractiveSearch extends React.Component {
         <Form.Row className="mt-2">
           <InputGroup size="sm" as={Col} sm={6} md={4} lg={3}>
             <Form.Control name="category" as="select" custom>
-              <option onClick={() => this.setState({ filters: { category: null } })}>Категория...</option>
+              <option onClick={() => this.setState({ filters: { ...this.state.filters, category: null } })}>Категория...</option>
               {Object.values(this.state.data.categories)
                 .filter((category) => category.search !== false)
                 .map((category) => (
-                <option key={category.id} onClick={() => this.setState({ filters: { category: category.id } })}>
-                  {category.name}
-                </option>
+                  <option key={category.id} onClick={() => this.setState({ filters: { ...this.state.filters, category: category.id } })}>
+                    {category.name}
+                  </option>
               ))}
             </Form.Control>
           </InputGroup>
