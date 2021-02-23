@@ -11,7 +11,8 @@ import {
   Form,
   InputGroup,
   Dropdown,
-  Button
+  Button,
+  Alert
 } from 'react-bootstrap';
 
 import {
@@ -321,6 +322,14 @@ class InteractiveSearch extends React.Component {
 
     return (
       <>
+        <Row>
+          <Col>
+            <Alert variant="warning">
+              Поиск ещё находится на стадии разработки. Я планирую добавить больше
+              фильтров, сортировку результатов и доработать оформление :)
+            </Alert>
+          </Col>
+        </Row>
         <Row><Col>{this.inputForm()}</Col></Row>
         {renderer ? <ResultsPagination
           items={this.state.results.items}
