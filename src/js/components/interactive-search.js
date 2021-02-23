@@ -62,6 +62,10 @@ class InteractiveSearch extends React.Component {
     });
   }
 
+  componentDidMount() {
+    this.loadData();
+  }
+
   handleChange(event) {
     updateState(this, {
       query: { [event.target.name]: { $set: event.target.value } }
@@ -312,7 +316,6 @@ class InteractiveSearch extends React.Component {
 
   render() {
     if (!this.state.loaded) {
-      this.loadData();
       return (
         <div>loading...</div>
       );
