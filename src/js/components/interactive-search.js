@@ -1,9 +1,9 @@
 import React from 'react';
-import Sugar from '../utils/sugar';
 import { Data } from '../data';
 import { tokenize, fts } from '../search';
 import { agreeWithNum } from '../utils/agree-with-num';
 import updateState from '../utils/update-state';
+import DateFilter from './search/date-filter';
 
 import {
   Row,
@@ -20,8 +20,6 @@ import {
   GamesList,
   ResultsPagination
 } from './search/results';
-
-import DatePicker from 'react-date-picker';
 
 class InteractiveSearch extends React.Component {
   constructor(props) {
@@ -41,8 +39,7 @@ class InteractiveSearch extends React.Component {
       filters: {
         category: null,
         dateStart: null,
-        dateEnd: null,
-        dateScale: 'year'
+        dateEnd: null
       },
       results: {
         mode: null,
@@ -81,31 +78,12 @@ class InteractiveSearch extends React.Component {
       const segments = this.state.data.segments;
       chain = segments.chain();
 
-      let { dateStart, dateEnd, dateScale } = this.state.filters;
+      let { dateStart, dateEnd } = this.state.filters;
 
       if (dateStart) {
-        let end;
-
-        switch(dateScale) {
-          case 'year':
-            end = new Date(dateStart);
-            Sugar.Date.reset(end, 'month');
-            Sugar.Date.advance(end, { months: 1 });
-            Sugar.Date.rewind(end, { days: 1 });
-            break;
-          case 'decade':
-            end = new Date(dateStart);
-            Sugar.Date.reset(end, 'year');
-            Sugar.Date.advance(end, { years: 1 });
-            Sugar.Date.rewind(end, { days: 1 });
-            break;
-          case 'month':
-            end = dateEnd;
-        }
-
-        if (end) {
+        if (dateEnd) {
           chain = chain.find({ date: { $between: [
-            dateStart, end
+            dateStart, dateEnd
           ] } });
         } else {
           chain = chain.find({ date: { $dteq: dateStart } });
@@ -144,101 +122,29 @@ class InteractiveSearch extends React.Component {
 
       let minDate = new Date(this.state.data.segments.min('date'));
       let maxDate = new Date(this.state.data.segments.max('date'));
-      let { dateStart, dateEnd, dateScale } = this.state.filters;
-
-      let datePickerOptions = {
-        maxDate,
-        minDetail: 'decade',
-        maxDetail: dateScale,
-        locale: 'ru-RU',
-        tileContent: ({ date, view }) => {
-          if (view === 'month') return;
-          if (date > maxDate) return;
-
-          let end = new Date(date);
-          if (view === 'year') {
-            Sugar.Date.advance(end, { months: 1 });
-          } else if (view === 'decade') {
-            Sugar.Date.advance(end, { years: 1});
-          }
-          Sugar.Date.rewind(end, { days: 1 });
-
-          let count = segments.count({ date: { $between: [date, end] } });
-          return <div>{count} {agreeWithNum(count, 'стрим', ['', 'а', 'ов'])}</div>;
-        },
-        tileClassName: ({ date, view }) => {
-          if (view !== 'month') return;
-          let count = segments.count({ date: { $dteq: date } });
-          return count > 0 ? 'bg-lightgreen' : 'bg-lightcoral';
-        },
-        showLeadingZeros: true
-      };
 
       return (
         <Form.Row className="mb-2">
-          <InputGroup xs={12} md={6} lg={4} as={Col}>
-            <InputGroup.Prepend>
-              <Dropdown>
-                <Dropdown.Toggle variant="secondary">
-                  {dateScale === 'month' ? 'День' :
-                  dateScale === 'year' ? 'Месяц' :
-                  dateScale === 'decade' && 'Год'}
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  <Dropdown.Item
-                    onClick={() => updateState(this, {
-                      filters: {
-                        $unset: ['dateStart', 'dateEnd'],
-                        dateScale: { $set: 'month' }
-                      }
-                    })}>День</Dropdown.Item>
-                  <Dropdown.Item
-                    onClick={() => updateState(this, {
-                      filters: {
-                        $unset: ['dateStart', 'dateEnd'],
-                        dateScale: { $set: 'year' }
-                      }
-                    })}>Месяц</Dropdown.Item>
-                  <Dropdown.Item
-                    onClick={() => updateState(this, {
-                      filters: {
-                        $unset: ['dateStart', 'dateEnd'],
-                        dateScale: { $set: 'decade' }
-                      }
-                    })}>Год</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </InputGroup.Prepend>
-            <Form.Control
-              as={DatePicker}
-              value={dateStart}
-              onChange={(date) => updateState(this, {
-                filters: { dateStart: { $set: date } }
-              })}
-              minDate={new Date(this.state.data.segments.min('date'))}
-              {...datePickerOptions} />
-            {dateScale === 'month' && (
-              <Form.Control
-                as={DatePicker}
-                value={dateEnd}
-                onChange={(date) => updateState(this, {
-                  filters: { dateEnd: { $set: date } }
-                })}
-                minDate={dateStart || minDate}
-                {...datePickerOptions} />
-            )}
-            {dateStart && (
-              <InputGroup.Append>
-                <Button variant="danger"
-                  onClick={() => updateState(this, {
-                    filters: {
-                      $unset: ['dateStart', 'dateEnd'],
-                      dateScale: { $set: 'year' }
-                    }
-                  })}>x</Button>
-              </InputGroup.Append>
-            )}
-          </InputGroup>
+          <DateFilter
+            minDate={minDate}
+            maxDate={maxDate}
+            tileContent={({ date, view }) => {
+              if (view === 'month' || date > maxDate) return;
+              let range = DateFilter.dateToRange(date, view);
+              let count = segments.count({ date: { $between: range } });
+              return <div>{count} {agreeWithNum(count, 'стрим', ['', 'а', 'ов'])}</div>;
+            }}
+            tileClassName={({ date, view }) => {
+              if (view !== 'month') return;
+              let count = segments.count({ date: { $dteq: date } });
+              return count > 0 ? 'bg-lightgreen' : 'bg-lightcoral';
+            }}
+            onChange={(start, end) => updateState(this, {
+              filters: {
+                dateStart: { $set: start },
+                dateEnd: { $set: end }
+              }
+            })} />
         </Form.Row>
       );
     } else if (this.state.mode === 'games') {
