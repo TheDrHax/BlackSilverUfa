@@ -369,7 +369,7 @@
   },
   {
     "name": "Valheim",
-    "category": "co-op-series",
+    "category": "finished",
     "id": "valheim",
     "streams": [
       { "name": "1", "twitch": "915004866", "start": "4:55:05" },
@@ -381,7 +381,8 @@
       { "name": "4", "twitch": "918810670" },
       { "name": "5", "twitch": "920088359" },
       { "name": "6", "twitch": "921499255" },
-      { "name": "7", "twitch": "922840727" }
+      { "name": "7", "twitch": "922840727" },
+      { "name": "8", "twitch": "925288073" }
     ]
   },
   {
