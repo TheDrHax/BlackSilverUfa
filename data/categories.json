@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Blackberry #2", "type": "segment", "id": "blackberry", "segment": "911193492"},
       {"name": "Благотворительные стримы #6 / SuchArt: Genius Artist Simulator", "type": "segment", "id": "charity", "segment": "912392953"},
-      {"name": "Song of Horror #2 / Valheim #1", "type": "segment", "id": "song-of-horror", "segment": "915004866"},
-      {"name": "What Lives Below (демо) / Valheim #2 / Boris The Rocket #2 / Dead Cells #9", "type": "segment", "id": "first", "segment": "916293705"},
-      {"name": "Valheim #3 / Destiny 2 #6 (с Triplewipe)", "type": "segment", "id": "valheim", "segment": "917504095"},
-      {"name": "Valheim #4", "type": "segment", "id": "valheim", "segment": "918810670"},
-      {"name": "Valheim #5", "type": "segment", "id": "valheim", "segment": "920088359"},
-      {"name": "Valheim #6", "type": "segment", "id": "valheim", "segment": "921499255"},
-      {"name": "Valheim #7", "type": "segment", "id": "valheim", "segment": "922840727"},
-      {"name": "Valheim #8", "type": "segment", "id": "valheim", "segment": "925288073"}
+      {"name": "Song of Horror #2 / Valheim (с Дашей и Джеком) #1", "type": "segment", "id": "song-of-horror", "segment": "915004866"},
+      {"name": "What Lives Below (демо) / Valheim (с Дашей и Джеком) #2 / Boris The Rocket #2 / Dead Cells #9", "type": "segment", "id": "first", "segment": "916293705"},
+      {"name": "Valheim (с Дашей и Джеком) #3 / Destiny 2 #6 (с Triplewipe)", "type": "segment", "id": "valheim", "segment": "917504095"},
+      {"name": "Valheim (с Дашей и Джеком) #4", "type": "segment", "id": "valheim", "segment": "918810670"},
+      {"name": "Valheim (с Дашей и Джеком) #5", "type": "segment", "id": "valheim", "segment": "920088359"},
+      {"name": "Valheim (с Дашей и Джеком) #6", "type": "segment", "id": "valheim", "segment": "921499255"},
+      {"name": "Valheim (с Дашей и Джеком) #7", "type": "segment", "id": "valheim", "segment": "922840727"},
+      {"name": "Valheim (с Дашей и Джеком) #8", "type": "segment", "id": "valheim", "segment": "925288073"},
+      {"name": "Loop Hero (демо) / Valheim (с Дашей и Джеком) #9", "type": "segment", "id": "first", "segment": "926537203"}
     ]
   },
   "finished": {
@@ -220,8 +220,7 @@
       {"name": "NUTS", "type": "segment", "id": "first", "segment": "901835689"},
       {"name": "Harry Potter and the Sorcerer's Stone (PC)", "type": "game", "id": "hp-ss-pc", "segment": "903270544"},
       {"name": "Narita Boy (демо) / Evil Inside (демо)", "type": "segment", "id": "forgotten-tunnels", "segment": "905895866"},
-      {"name": "Blackberry", "type": "game", "id": "blackberry", "segment": "909697737"},
-      {"name": "Valheim", "type": "game", "id": "valheim", "segment": "915004866"}
+      {"name": "Blackberry", "type": "game", "id": "blackberry", "segment": "909697737"}
     ]
   },
   "first": {
@@ -409,7 +408,8 @@
       {"name": "Expedition Zero (демо) / Lamentum (демо)", "type": "segment", "id": "first", "segment": "901835689"},
       {"name": "Potentia (демо) / Graven (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "type": "segment", "id": "forgotten-tunnels", "segment": "905895866"},
       {"name": "SuchArt: Genius Artist Simulator", "type": "segment", "id": "charity", "segment": "912392953"},
-      {"name": "What Lives Below (демо)", "type": "segment", "id": "first", "segment": "916293705"}
+      {"name": "What Lives Below (демо)", "type": "segment", "id": "first", "segment": "916293705"},
+      {"name": "Loop Hero (демо)", "type": "segment", "id": "first", "segment": "926537203"}
     ]
   },
   "ongoing": {
@@ -669,7 +669,8 @@
       {"name": "Valorant (Джек, Артём, Дима, Gamelife)", "type": "game", "id": "valorant", "segment": "778186468"},
       {"name": "Gartic", "type": "game", "id": "gartic", "segment": "827759529"},
       {"name": "Scribble It!", "type": "game", "id": "scribble-it", "segment": "827759529"},
-      {"name": "Gartic Phone", "type": "game", "id": "gartic-phone", "segment": "877211836"}
+      {"name": "Gartic Phone", "type": "game", "id": "gartic-phone", "segment": "877211836"},
+      {"name": "Valheim (с Дашей и Джеком)", "type": "game", "id": "valheim", "segment": "915004866"}
     ]
   },
   "other": {
