@@ -368,8 +368,8 @@
     ]
   },
   {
-    "name": "Valheim",
-    "category": "finished",
+    "name": "Valheim (с Дашей и Джеком)",
+    "category": "co-op-series",
     "id": "valheim",
     "streams": [
       { "name": "1", "twitch": "915004866", "start": "4:55:05" },
@@ -382,7 +382,8 @@
       { "name": "5", "twitch": "920088359" },
       { "name": "6", "twitch": "921499255" },
       { "name": "7", "twitch": "922840727" },
-      { "name": "8", "twitch": "925288073" }
+      { "name": "8", "twitch": "925288073" },
+      { "name": "9", "twitch": "926537203", "start": "4:32:06" }
     ]
   },
   {
@@ -2369,7 +2370,8 @@
           ]
         }
       },
-      { "name": "What Lives Below (демо)", "twitch": "916293705" }
+      { "name": "What Lives Below (демо)", "twitch": "916293705" },
+      { "name": "Loop Hero (демо)", "twitch": "926537203" }
     ]
   },
   {
