@@ -1210,7 +1210,8 @@
       { "name": "Презентация PlayStation 5", "twitch": "569683310", "start": "3:03:45" },
       { "name": "Xbox Inside 2020", "twitch": "613793616", "start": "1:59:40" },
       { "name": "Gamescom 2020", "twitch": "723011325", "start": "4:48:39" },
-      { "name": "неПрофессиональный The Game Awards 2020", "twitch": "832197729", "segment": 1, "start": "12:34:01" }
+      { "name": "неПрофессиональный The Game Awards 2020", "twitch": "832197729", "segment": 1, "start": "12:34:01" },
+      { "name": "State of Play 2021", "twitch": "927781155", "start": "8:58:26" }
     ]
   },
   {
@@ -2086,10 +2087,7 @@
         { "name": "Airships: Conquer the Skies", "start": "1:36:57" }
       ] },
       { "name": "Pineview Drive", "twitch": "298040825" },
-      { "twitch": "305785431", "subrefs": [
-        { "name": "Guacamelee! 2", "start": "24:31" },
-        { "name": "Breathedge", "start": "2:36:13" }
-      ] },
+      { "name": "Guacamelee! 2", "twitch": "305785431", "start": "24:31" },
       { "name": "Fist of the North Star: Lost Paradise", "twitch": "306199274" },
       { "name": "Dragon Quest XI: Echoes of an Elusive Age", "twitch": "309949699" },
       { "twitch": "311651965", "subrefs": [
@@ -2371,8 +2369,19 @@
         }
       },
       { "name": "What Lives Below (демо)", "twitch": "916293705" },
-      { "name": "Loop Hero (демо)", "twitch": "926537203" }
+      { "name": "Loop Hero (демо)", "twitch": "926537203" },
+      { "name": "Yakuza: Like a Dragon", "twitch": "927781155" }
     ]
+  },
+  {
+    "name": "Breathedge",
+    "category": "ongoing",
+    "id": "breathedge",
+    "streams": [
+      { "name": "Ранний доступ", "twitch": "305785431", "start": "2:36:13" },
+      { "name": "1", "twitch": "927781155", "start": "3:58:15" }
+    ],
+    "cover": 1
   },
   {
     "name": "Boris The Rocket",
@@ -2863,7 +2872,11 @@
       { "name": "10", "twitch": "688270341", "start": "3:58:45" },
       { "name": "11", "twitch": "759389769", "start": "4:48:54" },
       { "name": "12", "twitch": "892529745", "start": "4:38:08" },
-      { "name": "13", "twitch": "909697737", "start": "5:02:17" }
+      { "name": "13", "twitch": "909697737", "start": "5:02:17" },
+      { "twitch": "927781155", "subrefs": [
+        { "name": "14", "start": "7:03:33" },
+        { "name": "14", "start": "9:30:59" }
+      ] }
     ]
   },
   {
