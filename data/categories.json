@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "Благотворительные стримы #6 / SuchArt: Genius Artist Simulator", "type": "segment", "id": "charity", "segment": "912392953"},
       {"name": "Song of Horror #2 / Valheim (с Дашей и Джеком) #1", "type": "segment", "id": "song-of-horror", "segment": "915004866"},
       {"name": "What Lives Below (демо) / Valheim (с Дашей и Джеком) #2 / Boris The Rocket #2 / Dead Cells #9", "type": "segment", "id": "first", "segment": "916293705"},
       {"name": "Valheim (с Дашей и Джеком) #3 / Destiny 2 #6 (с Triplewipe)", "type": "segment", "id": "valheim", "segment": "917504095"},
@@ -12,7 +11,8 @@
       {"name": "Valheim (с Дашей и Джеком) #6", "type": "segment", "id": "valheim", "segment": "921499255"},
       {"name": "Valheim (с Дашей и Джеком) #7", "type": "segment", "id": "valheim", "segment": "922840727"},
       {"name": "Valheim (с Дашей и Джеком) #8", "type": "segment", "id": "valheim", "segment": "925288073"},
-      {"name": "Loop Hero (демо) / Valheim (с Дашей и Джеком) #9", "type": "segment", "id": "first", "segment": "926537203"}
+      {"name": "Loop Hero (демо) / Valheim (с Дашей и Джеком) #9", "type": "segment", "id": "first", "segment": "926537203"},
+      {"name": "Yakuza: Like a Dragon / Breathedge #1 / SnowRunner #14 / State of Play 2021", "type": "segment", "id": "first", "segment": "927781155"}
     ]
   },
   "finished": {
@@ -277,7 +277,7 @@
       {"name": "Egress", "type": "segment", "id": "first", "segment": "292591348"},
       {"name": "PUSS! / Chasm / Airships: Conquer the Skies", "type": "segment", "id": "first", "segment": "293415850"},
       {"name": "Pineview Drive", "type": "segment", "id": "first", "segment": "298040825"},
-      {"name": "Guacamelee! 2 / Breathedge", "type": "segment", "id": "first", "segment": "305785431"},
+      {"name": "Guacamelee! 2", "type": "segment", "id": "first", "segment": "305785431"},
       {"name": "Fist of the North Star: Lost Paradise", "type": "segment", "id": "first", "segment": "306199274"},
       {"name": "Dragon Quest XI: Echoes of an Elusive Age", "type": "segment", "id": "first", "segment": "309949699"},
       {"name": "Need a packet? / Bus Driver Simulator 2019", "type": "segment", "id": "first", "segment": "311651965"},
@@ -409,7 +409,8 @@
       {"name": "Potentia (демо) / Graven (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "type": "segment", "id": "first", "segment": "905895866"},
       {"name": "SuchArt: Genius Artist Simulator", "type": "segment", "id": "first", "segment": "912392953"},
       {"name": "What Lives Below (демо)", "type": "segment", "id": "first", "segment": "916293705"},
-      {"name": "Loop Hero (демо)", "type": "segment", "id": "first", "segment": "926537203"}
+      {"name": "Loop Hero (демо)", "type": "segment", "id": "first", "segment": "926537203"},
+      {"name": "Yakuza: Like a Dragon", "type": "segment", "id": "first", "segment": "927781155"}
     ]
   },
   "ongoing": {
@@ -418,7 +419,8 @@
       {"name": "Nioh 2", "type": "game", "id": "nioh-2", "segment": "502940448"},
       {"name": "Song of Horror", "type": "game", "id": "song-of-horror", "segment": "878410974"},
       {"name": "Disco Elysium", "type": "game", "id": "disco-elysium", "segment": "887445977"},
-      {"name": "Boris The Rocket", "type": "game", "id": "boris-rocket", "segment": "896656796"}
+      {"name": "Boris The Rocket", "type": "game", "id": "boris-rocket", "segment": "896656796"},
+      {"name": "Breathedge", "type": "game", "id": "breathedge", "segment": "927781155"}
     ]
   },
   "infinite": {
@@ -719,7 +721,8 @@
       {"name": "неПрофессиональный E3 2020", "type": "game", "id": "e3_2020", "segment": "647860070.1"},
       {"name": "Gamescom 2020", "type": "segment", "id": "expos", "segment": "723011325"},
       {"name": "Night City Wire", "type": "game", "id": "cp2077-ncw", "segment": "759389769"},
-      {"name": "неПрофессиональный The Game Awards 2020", "type": "segment", "id": "expos", "segment": "832197729.1"}
+      {"name": "неПрофессиональный The Game Awards 2020", "type": "segment", "id": "expos", "segment": "832197729.1"},
+      {"name": "State of Play 2021", "type": "segment", "id": "expos", "segment": "927781155"}
     ]
   },
   "unboxing": {
