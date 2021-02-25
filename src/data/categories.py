@@ -78,7 +78,7 @@ class Category:
                     data['segment'] = game.streams[game.cover].hash
                 elif isinstance(game, SegmentReference):
                     data['type'] = 'segment'
-                    data['id'] = game.references[0].game.id
+                    data['id'] = game.game.id
                     data['segment'] = game.hash
 
                 if not first:

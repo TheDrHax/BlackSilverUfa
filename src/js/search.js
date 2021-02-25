@@ -103,7 +103,11 @@ class Search {
         return div;
       },
       onSelect: (item) => {
-        Redirect.go(item.id);
+        if (item.type === 'segment') {
+          Redirect.go(item.segment);
+        } else {
+          Redirect.go(item.id);
+        }
       }
     });
   }
