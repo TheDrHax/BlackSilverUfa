@@ -2370,11 +2370,19 @@
       },
       { "name": "What Lives Below (демо)", "twitch": "916293705" },
       { "name": "Loop Hero (демо)", "twitch": "926537203" },
-      { "name": "Yakuza: Like a Dragon", "twitch": "927781155" },
       { "twitch": "928993182", "subrefs": [
         { "name": "System Shock (демо)" },
         { "name": "Outriders (демо)", "start": "2:05:10" }
       ] }
+    ]
+  },
+  {
+    "name": "Yakuza: Like a Dragon",
+    "category": "ongoing",
+    "id": "yakuza-like-dragon",
+    "streams": [
+      { "name": "1", "twitch": "927781155" },
+      { "name": "2", "twitch": "929556422" }
     ]
   },
   {
