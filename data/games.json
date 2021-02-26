@@ -2370,7 +2370,11 @@
       },
       { "name": "What Lives Below (демо)", "twitch": "916293705" },
       { "name": "Loop Hero (демо)", "twitch": "926537203" },
-      { "name": "Yakuza: Like a Dragon", "twitch": "927781155" }
+      { "name": "Yakuza: Like a Dragon", "twitch": "927781155" },
+      { "twitch": "928993182", "subrefs": [
+        { "name": "System Shock (демо)" },
+        { "name": "Outriders (демо)", "start": "2:05:10" }
+      ] }
     ]
   },
   {
@@ -2379,7 +2383,8 @@
     "id": "breathedge",
     "streams": [
       { "name": "Ранний доступ", "twitch": "305785431", "start": "2:36:13" },
-      { "name": "1", "twitch": "927781155", "start": "3:58:15" }
+      { "name": "1", "twitch": "927781155", "start": "3:58:15" },
+      { "name": "2", "twitch": "928993182", "start": "4:24:28" }
     ],
     "cover": 1
   },
