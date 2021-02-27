@@ -6884,14 +6884,12 @@
     "youtube": "e91FAxSxMow", "official": false, "abs_start": "0:00", "abs_end": "6:39:17", "duration": "6:39:17",
     "name": "At Dead Of Night #3",
     "date": "2021-02-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/897937088.torrent",
     "games": ["at-dead-of-night"]
   },
   "899289707": {
     "youtube": "8dnotxfs7Us", "abs_start": "0:00", "abs_end": "3:44:23", "duration": "3:44:23",
     "name": "Destruction AllStars",
     "date": "2021-02-03",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/899289707.torrent",
     "games": ["first"]
   },
   "901835689": {
@@ -7060,10 +7058,10 @@
   },
   "927781155": {
     "youtube": "hIq-aCD13Xc", "official": false, "abs_start": "0:00", "abs_end": "10:06:11", "duration": "10:06:11",
-    "name": "Yakuza: Like a Dragon / Breathedge #1 / SnowRunner #14 / State of Play 2021",
+    "name": "Yakuza: Like a Dragon #1 / Breathedge #1 / SnowRunner #14 / State of Play 2021",
     "date": "2021-02-25",
     "torrent": "https://bsufiles.thedrhax.pw/streams/927781155.torrent",
-    "games": ["first", "breathedge", "snowrunner", "expos"]
+    "games": ["yakuza-like-dragon", "breathedge", "snowrunner", "expos"]
   },
   "928993182": {
     "abs_start": "0:00", "abs_end": "6:03:03", "duration": "0:00",
@@ -7072,5 +7070,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/928993182.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/928993182.torrent",
     "games": ["first", "breathedge"]
+  },
+  "929556422": {
+    "abs_start": "0:00", "abs_end": "2:39:05", "duration": "0:00",
+    "name": "Yakuza: Like a Dragon #2",
+    "date": "2021-02-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/929556422.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/929556422.torrent",
+    "games": ["yakuza-like-dragon"]
   }
 }

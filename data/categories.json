@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"name": "What Lives Below (демо) / Valheim (с Дашей и Джеком) #2 / Boris The Rocket #2 / Dead Cells #9", "type": "segment", "id": "first", "segment": "916293705"},
       {"name": "Valheim (с Дашей и Джеком) #3 / Destiny 2 #6 (с Triplewipe)", "type": "segment", "id": "valheim", "segment": "917504095"},
       {"name": "Valheim (с Дашей и Джеком) #4", "type": "segment", "id": "valheim", "segment": "918810670"},
       {"name": "Valheim (с Дашей и Джеком) #5", "type": "segment", "id": "valheim", "segment": "920088359"},
@@ -11,8 +10,9 @@
       {"name": "Valheim (с Дашей и Джеком) #7", "type": "segment", "id": "valheim", "segment": "922840727"},
       {"name": "Valheim (с Дашей и Джеком) #8", "type": "segment", "id": "valheim", "segment": "925288073"},
       {"name": "Loop Hero (демо) / Valheim (с Дашей и Джеком) #9", "type": "segment", "id": "first", "segment": "926537203"},
-      {"name": "Yakuza: Like a Dragon / Breathedge #1 / SnowRunner #14 / State of Play 2021", "type": "segment", "id": "first", "segment": "927781155"},
-      {"name": "System Shock (демо) / Outriders (демо) / Breathedge #2", "type": "segment", "id": "first", "segment": "928993182"}
+      {"name": "Yakuza: Like a Dragon #1 / Breathedge #1 / SnowRunner #14 / State of Play 2021", "type": "segment", "id": "yakuza-like-dragon", "segment": "927781155"},
+      {"name": "System Shock (демо) / Outriders (демо) / Breathedge #2", "type": "segment", "id": "first", "segment": "928993182"},
+      {"name": "Yakuza: Like a Dragon #2", "type": "segment", "id": "yakuza-like-dragon", "segment": "929556422"}
     ]
   },
   "finished": {
@@ -410,7 +410,6 @@
       {"name": "SuchArt: Genius Artist Simulator", "type": "segment", "id": "first", "segment": "912392953"},
       {"name": "What Lives Below (демо)", "type": "segment", "id": "first", "segment": "916293705"},
       {"name": "Loop Hero (демо)", "type": "segment", "id": "first", "segment": "926537203"},
-      {"name": "Yakuza: Like a Dragon", "type": "segment", "id": "first", "segment": "927781155"},
       {"name": "System Shock (демо) / Outriders (демо)", "type": "segment", "id": "first", "segment": "928993182"}
     ]
   },
@@ -419,8 +418,8 @@
     "games": [
       {"name": "Nioh 2", "type": "game", "id": "nioh-2", "segment": "502940448"},
       {"name": "Song of Horror", "type": "game", "id": "song-of-horror", "segment": "878410974"},
-      {"name": "Disco Elysium", "type": "game", "id": "disco-elysium", "segment": "887445977"},
       {"name": "Boris The Rocket", "type": "game", "id": "boris-rocket", "segment": "896656796"},
+      {"name": "Yakuza: Like a Dragon", "type": "game", "id": "yakuza-like-dragon", "segment": "927781155"},
       {"name": "Breathedge", "type": "game", "id": "breathedge", "segment": "927781155"}
     ]
   },
@@ -530,7 +529,8 @@
       {"name": "Gears 5", "type": "game", "id": "gears-5", "segment": "793751031"},
       {"name": "Immortals Fenyx Rising", "type": "game", "id": "immortals-fr", "segment": "817321307"},
       {"name": "Clive Barker's Undying", "type": "game", "id": "cb-undying", "segment": "846191668"},
-      {"name": "SCP: Janitorial Work", "type": "game", "id": "scp-janitor", "segment": "851535429"}
+      {"name": "SCP: Janitorial Work", "type": "game", "id": "scp-janitor", "segment": "851535429"},
+      {"name": "Disco Elysium", "type": "game", "id": "disco-elysium", "segment": "887445977"}
     ]
   },
   "co-op": {
