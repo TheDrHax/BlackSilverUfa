@@ -1,44 +1,48 @@
 import * as loki from 'lokijs';
 
-const db = new loki('BSU');
+function reload() {
+  return Promise.all([
+    fetch('/data/segments.json').then((res) => res.json()),
+    fetch('/data/categories.json').then((res) => res.json())
+  ]).then(([segments_raw, categories_raw]) => {
+    const db = new loki('BSU');
+    const segments = db.addCollection('segments');
+    const categories = db.addCollection('categories');
+    const games = db.addCollection('games');
 
-class Data {
-  static segments = fetch('/data/segments.json').then((res) => {
-    return res.json();
-  }).then((data) => {
-    let segments_collection = db.addCollection('segments');
-
-    Object.keys(data)
+    Object.keys(segments_raw)
       .sort((a, b) => String(a).localeCompare(b))
-      .map((k) => [k, data[k]])
+      .map((k) => [k, segments_raw[k]])
       .map(([key, segment]) => {
         segment.date = new Date(segment.date + 'T00:00:00');
         segment.segment = key;
-        segments_collection.insert(segment);
+        segments.insert(segment);
       });
-
-    return segments_collection;
-  });
-
-  static categories = fetch('/data/categories.json').then((res) => {
-    return res.json();
-  });
-
-  static games = Data.categories.then((categories) => {
-    let categories_collection = db.addCollection('categories');
-    let games_collection = db.addCollection('games');
-
-    Object.entries(categories).map(([cat_key, category]) => {
-      let games = category.games;
+    
+    Object.entries(categories_raw).map(([cat_key, category]) => {
+      let games_raw = category.games;
       delete category['games'];
-      category.id = cat_key;
-      categories_collection.insert(category);
 
-      games.map((game) => {
+      category.id = cat_key;
+      categories.insert(category);
+
+      games_raw.map((game) => {
         game.category = category;
 
+        if (game.type === 'segment') {
+          game.segments = [segments.by('segment', game.segment)];
+        } else if (game.type === 'game') {
+          game.segments = segments
+            .chain()
+            .find({ games: { $contains: game.id } })
+            .simplesort('date')
+            .data();
+        }
+
+        game.date = game.segments[0].date;
+
         game.name.split(' / ').map((name) => {
-          games_collection.insert({
+          games.insert({
             ...game,
             name: name
           });
@@ -46,8 +50,10 @@ class Data {
       });
     });
 
-    return games_collection;
+    return { segments, categories, games };
   });
 }
 
-export { Data };
+var Data = reload();
+
+export { Data, reload };

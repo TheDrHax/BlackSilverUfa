@@ -35,7 +35,7 @@ class Search {
   static games = null;
 
   static async load() {
-    Search.games = await Data.games;
+    Search.games = (await Data).games;
   }
 
   static async init(selector) {

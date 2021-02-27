@@ -49,9 +49,7 @@ class InteractiveSearch extends React.Component {
   }
 
   loadData() {
-    Promise.all([
-      Data.segments, Data.categories, Data.games
-    ]).then(([segments, categories, games]) => {
+    Data.then(({segments, categories, games}) => {
       updateState(this, {
         data: { $merge: { segments, categories, games } },
         loaded: { $set: true }
