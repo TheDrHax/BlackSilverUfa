@@ -79,7 +79,7 @@ export default class DateFilter extends React.Component {
     };
 
     return (
-      <InputGroup xs={12} md={6} lg={4} as={Col}>
+      <InputGroup as={Col}>
         <InputGroup.Prepend>
           <Dropdown>
             <Dropdown.Toggle variant="secondary">
