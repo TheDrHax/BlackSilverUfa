@@ -19,6 +19,10 @@ export default class DateFilter extends React.Component {
   }
 
   static dateToRange(date, scale) {
+    if (!date) {
+      return [null, null];
+    }
+
     let start = new Date(date);
 
     if (scale === 'year') {
@@ -114,7 +118,7 @@ export default class DateFilter extends React.Component {
         {start && (
           <InputGroup.Append>
             <Button variant="danger"
-              onClick={() => updateState(this, {
+              onClick={() => this.onChange({
                 start: { $set: null },
                 end: { $set: null },
                 scale: { $set: 'year' }
