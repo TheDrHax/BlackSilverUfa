@@ -6,7 +6,7 @@ class Redirect {
   static segments = null;
 
   static async init() {
-    Redirect.segments = await Data.segments;
+    Redirect.segments = (await Data).segments;
   }
 
   static isHash(hash) {
