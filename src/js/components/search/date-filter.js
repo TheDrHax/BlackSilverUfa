@@ -89,7 +89,8 @@ export default class DateFilter extends React.Component {
               {Object.entries(this.scales).map(([scale, name]) => (
                 <Dropdown.Item key={scale}
                   onClick={() => this.onChange({
-                    $unset: ['start', 'end'],
+                    start: { $set: null },
+                    end: { $set: null },
                     scale: { $set: scale }
                   })}>{name}</Dropdown.Item>
               ))}
@@ -114,7 +115,8 @@ export default class DateFilter extends React.Component {
           <InputGroup.Append>
             <Button variant="danger"
               onClick={() => updateState(this, {
-                $unset: ['start', 'end'],
+                start: { $set: null },
+                end: { $set: null },
                 scale: { $set: 'year' }
               })}>x</Button>
           </InputGroup.Append>
