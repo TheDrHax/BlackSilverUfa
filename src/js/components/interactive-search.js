@@ -51,7 +51,7 @@ class InteractiveSearch extends React.Component {
   }
 
   loadData() {
-    Data.then(({segments, categories, games}) => {
+    return Data.then(({segments, categories, games}) => {
       updateState(this, {
         data: { $merge: { segments, categories, games } },
         loaded: { $set: true }
@@ -59,8 +59,9 @@ class InteractiveSearch extends React.Component {
     });
   }
 
-  componentDidMount() {
-    this.loadData();
+  async componentDidMount() {
+    await this.loadData();
+    this.submitForm();
   }
 
   submitForm(event) {
@@ -154,7 +155,7 @@ class InteractiveSearch extends React.Component {
               dateStart: { $set: start },
               dateEnd: { $set: end }
             }
-          })} />
+          }, this.submitForm.bind(this))} />
       );
     } else if (this.state.mode === 'games') {
       let { category } = this.state.filters;
@@ -254,11 +255,11 @@ class InteractiveSearch extends React.Component {
                 <Dropdown.Item
                   onClick={() => updateState(this, {
                     mode: { $set: 'segments' }
-                  })}>Стримы</Dropdown.Item>
+                  }, this.submitForm.bind(this))}>Стримы</Dropdown.Item>
                 <Dropdown.Item
                   onClick={() => updateState(this, {
                     mode: { $set: 'games' }
-                  })}>Игры</Dropdown.Item>
+                  }, this.submitForm.bind(this))}>Игры</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </InputGroup.Prepend>
