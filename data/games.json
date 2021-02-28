@@ -1211,7 +1211,7 @@
       { "name": "Xbox Inside 2020", "twitch": "613793616", "start": "1:59:40" },
       { "name": "Gamescom 2020", "twitch": "723011325", "start": "4:48:39" },
       { "name": "неПрофессиональный The Game Awards 2020", "twitch": "832197729", "segment": 1, "start": "12:34:01" },
-      { "name": "State of Play 2021", "twitch": "927781155", "start": "8:58:26" }
+      { "name": "State of Play 2021", "twitch": "927781155", "segment": 0, "start": "8:58:26" }
     ]
   },
   {
@@ -2381,7 +2381,7 @@
     "category": "ongoing",
     "id": "yakuza-like-dragon",
     "streams": [
-      { "name": "1", "twitch": "927781155" },
+      { "name": "1", "twitch": "927781155", "segment": 1 },
       { "name": "2", "twitch": "929556422" }
     ]
   },
@@ -2391,7 +2391,7 @@
     "id": "breathedge",
     "streams": [
       { "name": "Ранний доступ", "twitch": "305785431", "start": "2:36:13" },
-      { "name": "1", "twitch": "927781155", "start": "3:58:15" },
+      { "name": "1", "twitch": "927781155", "segment": 0, "start": "3:58:15" },
       { "name": "2", "twitch": "928993182", "start": "4:24:28" }
     ],
     "cover": 1
@@ -2886,7 +2886,7 @@
       { "name": "11", "twitch": "759389769", "start": "4:48:54" },
       { "name": "12", "twitch": "892529745", "start": "4:38:08" },
       { "name": "13", "twitch": "909697737", "start": "5:02:17" },
-      { "twitch": "927781155", "subrefs": [
+      { "twitch": "927781155", "segment": 0, "subrefs": [
         { "name": "14", "start": "7:03:33" },
         { "name": "14", "start": "9:30:59" }
       ] }
