@@ -93,11 +93,7 @@ class GamesList extends GenericList {
   }
 
   url(game) {
-    if (game.type === 'segment') {
-      return `/links/${game.id}.html#${game.segment}`;
-    } else {
-      return `/links/${game.id}.html`;
-    }
+    return game.url;
   }
 
   thumbnail(game) {

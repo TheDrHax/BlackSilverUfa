@@ -70,23 +70,33 @@ class Category:
 
             first = True
             for game in self.games:
-                data = dict(name=game.name)
+                data = dict()
 
                 if isinstance(game, Game):
-                    data['type'] = 'game'
+                    data['name'] = game.name
                     data['id'] = game.id
                     data['segment'] = game.streams[game.cover].hash
+
+                    if not first:
+                        yield ',\n'
+                    else:
+                        first = False
+
+                    yield f'    {json_escape(data)}'
                 elif isinstance(game, SegmentReference):
-                    data['type'] = 'segment'
                     data['id'] = game.game.id
                     data['segment'] = game.hash
 
-                if not first:
-                    yield ',\n'
-                else:
-                    first = False
+                    for subref in game.subrefs:
+                        data['name'] = subref.name
+                        data['start'] = subref.start.value
 
-                yield f'    {json_escape(data)}'
+                        if not first:
+                            yield ',\n'
+                        else:
+                            first = False
+
+                        yield f'    {json_escape(data)}'
 
             yield '\n  ]'
 

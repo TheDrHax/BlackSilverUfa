@@ -29,24 +29,26 @@ function reload() {
       games_raw.map((game) => {
         game.category = category;
 
-        if (game.type === 'segment') {
-          game.segments = [segments.by('segment', game.segment)];
-        } else if (game.type === 'game') {
+        if (game.start === undefined) { // game
           game.segments = segments
             .chain()
             .find({ games: { $contains: game.id } })
             .simplesort('date')
             .data();
+
+          game.url = `/links/${game.id}.html`;
+        } else { // segment
+          game.segments = [segments.by('segment', game.segment)];
+          game.url = `/links/${game.id}.html#${game.segment}`;
+
+          if (game.start > 0) {
+            game.url += `?at=${game.start}`;
+          }
         }
 
         game.date = game.segments[0].date;
 
-        game.name.split(' / ').map((name) => {
-          games.insert({
-            ...game,
-            name: name
-          });
-        });
+        games.insert(game);
       });
     });
 
