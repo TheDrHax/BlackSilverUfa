@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "valheim", "segment": "917504095", "name": "Valheim (с Дашей и Джеком) #3 / Destiny 2 #6 (с Triplewipe)", "start": 0},
       {"id": "valheim", "segment": "918810670", "name": "Valheim (с Дашей и Джеком) #4", "start": 0},
       {"id": "valheim", "segment": "920088359", "name": "Valheim (с Дашей и Джеком) #5", "start": 0},
       {"id": "valheim", "segment": "921499255", "name": "Valheim (с Дашей и Джеком) #6", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "926537203", "name": "Loop Hero (демо) / Valheim (с Дашей и Джеком) #9", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "927781155", "name": "Yakuza: Like a Dragon #1 / Breathedge #1 / SnowRunner #14 / State of Play 2021", "start": 0},
       {"id": "first", "segment": "928993182", "name": "System Shock (демо) / Outriders (демо) / Breathedge #2", "start": 0},
-      {"id": "yakuza-like-dragon", "segment": "929556422", "name": "Yakuza: Like a Dragon #2", "start": 0}
+      {"id": "yakuza-like-dragon", "segment": "929556422", "name": "Yakuza: Like a Dragon #2", "start": 0},
+      {"id": "first", "segment": "932891083", "name": "HellSign / Breathedge #3 / Yakuza: Like a Dragon #3", "start": 0}
     ]
   },
   "finished": {
@@ -523,7 +523,8 @@
       {"id": "first", "segment": "916293705", "name": "What Lives Below (демо)", "start": 0},
       {"id": "first", "segment": "926537203", "name": "Loop Hero (демо)", "start": 0},
       {"id": "first", "segment": "928993182", "name": "System Shock (демо)", "start": 0},
-      {"id": "first", "segment": "928993182", "name": "Outriders (демо)", "start": 7510}
+      {"id": "first", "segment": "928993182", "name": "Outriders (демо)", "start": 7510},
+      {"id": "first", "segment": "932891083", "name": "HellSign", "start": 0}
     ]
   },
   "ongoing": {
