@@ -2373,7 +2373,8 @@
       { "twitch": "928993182", "subrefs": [
         { "name": "System Shock (демо)" },
         { "name": "Outriders (демо)", "start": "2:05:10" }
-      ] }
+      ] },
+      { "name": "HellSign", "twitch": "932891083" }
     ]
   },
   {
@@ -2382,7 +2383,8 @@
     "id": "yakuza-like-dragon",
     "streams": [
       { "name": "1", "twitch": "927781155" },
-      { "name": "2", "twitch": "929556422" }
+      { "name": "2", "twitch": "929556422" },
+      { "name": "3", "twitch": "932891083", "start": "5:08:10" }
     ]
   },
   {
@@ -2392,7 +2394,8 @@
     "streams": [
       { "name": "Ранний доступ", "twitch": "305785431", "start": "2:36:13" },
       { "name": "1", "twitch": "927781155", "start": "3:58:15" },
-      { "name": "2", "twitch": "928993182", "start": "4:24:28" }
+      { "name": "2", "twitch": "928993182", "start": "4:24:28" },
+      { "name": "3", "twitch": "932891083", "start": "2:55:35" }
     ],
     "cover": 1
   },
