@@ -7082,5 +7082,13 @@
     "date": "2021-03-01",
     "torrent": "https://bsufiles.thedrhax.pw/streams/932891083.torrent",
     "games": ["first", "breathedge", "yakuza-like-dragon"]
+  },
+  "934210523": {
+    "abs_start": "0:00", "abs_end": "4:13:19", "duration": "0:00",
+    "name": "Yakuza: Like a Dragon #4",
+    "date": "2021-03-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/934210523.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/934210523.torrent",
+    "games": ["yakuza-like-dragon"]
   }
 }
