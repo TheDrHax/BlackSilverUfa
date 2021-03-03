@@ -6908,14 +6908,12 @@
     "youtube": "Qg8HkRN-pU8", "abs_start": "0:00", "abs_end": "1:18:27", "duration": "1:18:27",
     "name": "Harry Potter and the Sorcerer's Stone (PC) - Часть 2",
     "date": "2021-02-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/903527267.torrent",
     "games": ["hp-ss-pc"]
   },
   "904750607": {
     "youtube": "QgyEpAx9uBU", "abs_start": "0:00", "abs_end": "5:40:12", "duration": "5:40:12",
     "name": "Minecraft (кооп) #3 (Middle-Earth)",
     "date": "2021-02-07",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/904750607.torrent",
     "games": ["minecraft-coop"]
   },
   "905895866": {
@@ -7089,6 +7087,14 @@
     "date": "2021-03-02",
     "direct": "https://bsufiles.thedrhax.pw/streams/934210523.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/934210523.torrent",
+    "games": ["yakuza-like-dragon"]
+  },
+  "934599690": {
+    "abs_start": "0:00", "abs_end": "2:32:53", "duration": "0:00",
+    "name": "Yakuza: Like a Dragon #5",
+    "date": "2021-03-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/934599690.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/934599690.torrent",
     "games": ["yakuza-like-dragon"]
   }
 }
