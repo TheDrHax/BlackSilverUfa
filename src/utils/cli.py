@@ -315,7 +315,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
         try:
             offset, score = find_offset(template, original, start=start,
-                                        end=end, min_score=10)
+                                        end=end, min_score=50)
         except Exception:
             continue
 
