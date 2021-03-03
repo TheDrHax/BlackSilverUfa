@@ -2374,7 +2374,11 @@
         { "name": "System Shock (демо)" },
         { "name": "Outriders (демо)", "start": "2:05:10" }
       ] },
-      { "name": "HellSign", "twitch": "932891083" }
+      { "name": "HellSign", "twitch": "932891083" },
+      { "twitch": "935303434", "subrefs": [
+        { "name": "Winter Survival Simulator (демо)" },
+        { "name": "Maquette", "start": "2:17:00" }
+      ] }
     ]
   },
   {
@@ -2386,7 +2390,8 @@
       { "name": "2", "twitch": "929556422" },
       { "name": "3", "twitch": "932891083", "start": "5:08:10" },
       { "name": "4", "twitch": "934210523" },
-      { "name": "5", "twitch": "934599690" }
+      { "name": "5", "twitch": "934599690" },
+      { "name": "6", "twitch": "935303434", "start": "3:32:27" }
     ]
   },
   {
