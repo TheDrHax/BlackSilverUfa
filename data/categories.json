@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "valheim", "segment": "921499255", "name": "Valheim (с Дашей и Джеком) #6", "start": 0},
       {"id": "valheim", "segment": "922840727", "name": "Valheim (с Дашей и Джеком) #7", "start": 0},
       {"id": "valheim", "segment": "925288073", "name": "Valheim (с Дашей и Джеком) #8", "start": 0},
       {"id": "first", "segment": "926537203", "name": "Loop Hero (демо) / Valheim (с Дашей и Джеком) #9", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "yakuza-like-dragon", "segment": "929556422", "name": "Yakuza: Like a Dragon #2", "start": 0},
       {"id": "first", "segment": "932891083", "name": "HellSign / Breathedge #3 / Yakuza: Like a Dragon #3", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "934210523", "name": "Yakuza: Like a Dragon #4", "start": 0},
-      {"id": "yakuza-like-dragon", "segment": "934599690", "name": "Yakuza: Like a Dragon #5", "start": 0}
+      {"id": "yakuza-like-dragon", "segment": "934599690", "name": "Yakuza: Like a Dragon #5", "start": 0},
+      {"id": "first", "segment": "935303434", "name": "Winter Survival Simulator (демо) / Maquette / Yakuza: Like a Dragon #6", "start": 0}
     ]
   },
   "finished": {
@@ -524,7 +524,9 @@
       {"id": "first", "segment": "926537203", "name": "Loop Hero (демо)", "start": 0},
       {"id": "first", "segment": "928993182", "name": "System Shock (демо)", "start": 0},
       {"id": "first", "segment": "928993182", "name": "Outriders (демо)", "start": 7510},
-      {"id": "first", "segment": "932891083", "name": "HellSign", "start": 0}
+      {"id": "first", "segment": "932891083", "name": "HellSign", "start": 0},
+      {"id": "first", "segment": "935303434", "name": "Winter Survival Simulator (демо)", "start": 0},
+      {"id": "first", "segment": "935303434", "name": "Maquette", "start": 8220}
     ]
   },
   "ongoing": {
