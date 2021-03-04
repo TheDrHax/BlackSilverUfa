@@ -6920,7 +6920,6 @@
     "youtube": "iwZuEXPMa5c", "official": false, "abs_start": "0:00", "abs_end": "6:04:57", "duration": "6:04:57",
     "name": "Forgotten Tunnels - Episode 3 / Potentia (демо) / Graven (демо) / Narita Boy (демо) / Evil Inside (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)",
     "date": "2021-02-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/905895866.torrent",
     "games": ["forgotten-tunnels", "first", "single"]
   },
   "907145168": {
@@ -7102,5 +7101,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/935303434.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/935303434.torrent",
     "games": ["first", "yakuza-like-dragon"]
+  },
+  "936535434": {
+    "abs_start": "0:00", "abs_end": "7:48:42", "duration": "0:00",
+    "name": "Yakuza: Like a Dragon #7",
+    "date": "2021-03-04",
+    "direct": "https://bsufiles.thedrhax.pw/streams/936535434.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/936535434.torrent",
+    "games": ["yakuza-like-dragon"]
   }
 }
