@@ -108,16 +108,7 @@ class GamesList extends GenericList {
 
   description(game) {
     let res = '';
-    let segments;
-
-    if (game.type === 'segment') {
-      segments = [this.props.data.segments.by('segment', game.segment)];
-    } else {
-      segments = this.props.data.segments.chain()
-        .find({ games: { $contains: game.id } })
-        .simplesort('date')
-        .data();
-    }
+    let segments = game.segments;
 
     if (segments.length > 1) {
       res += `${segments.length} ${agreeWithNum(segments.length, 'стрим', ['', 'а', 'ов'])}`;
