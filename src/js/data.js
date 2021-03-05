@@ -46,6 +46,15 @@ function reload() {
           }
         }
 
+        game.streams = game.segments.map((segment) => {
+          let dot = segment.segment.indexOf('.');
+          if (dot !== -1) {
+            return segment.segment.substring(0, dot);
+          } else {
+            return segment.segment;
+          }
+        }).filter((v, i, s) => i == s.indexOf(v)).length;
+
         game.date = game.segments[0].date;
 
         games.insert(game);

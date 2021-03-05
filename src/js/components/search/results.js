@@ -107,14 +107,15 @@ class GamesList extends GenericList {
   description(game) {
     let res = '';
     let segments = game.segments;
+    let streams = game.streams;
 
-    if (segments.length > 1) {
-      res += `${segments.length} ${agreeWithNum(segments.length, 'стрим', ['', 'а', 'ов'])}`;
+    res += `${streams} ${agreeWithNum(streams, 'стрим', ['', 'а', 'ов'])}`;
 
+    if (streams > 1) {
       res += ` с ${Sugar.Date.short(segments[0].date)}`
       res += ` по ${Sugar.Date.short(segments[segments.length - 1].date)}`
     } else {
-      res += Sugar.Date.short(segments[0].date);
+      res += ' ' + Sugar.Date.short(segments[0].date);
     }
 
     return res;
