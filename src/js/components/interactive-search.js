@@ -105,7 +105,7 @@ class InteractiveSearch extends React.Component {
       let { mode, desc } = this.state.sorting;
 
       if (mode === 'date') {
-        chain = chain.simplesort('date', { desc });
+        chain = chain.compoundsort([['date', desc], ['segment', desc]]);
       }
     }
 
