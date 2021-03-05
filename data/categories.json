@@ -3,8 +3,7 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "valheim", "segment": "925288073", "name": "Valheim (с Дашей и Джеком) #8", "start": 0},
-      {"id": "first", "segment": "926537203", "name": "Loop Hero (демо) / Valheim (с Дашей и Джеком) #9", "start": 0},
+      {"id": "loop-hero", "segment": "926537203", "name": "Loop Hero #1 (демо) / Valheim (с Дашей и Джеком) #9", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "927781155", "name": "Yakuza: Like a Dragon #1 / Breathedge #1 / SnowRunner #14 / State of Play 2021", "start": 0},
       {"id": "first", "segment": "928993182", "name": "System Shock (демо) / Outriders (демо) / Breathedge #2", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "929556422", "name": "Yakuza: Like a Dragon #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "yakuza-like-dragon", "segment": "934210523", "name": "Yakuza: Like a Dragon #4", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "934599690", "name": "Yakuza: Like a Dragon #5", "start": 0},
       {"id": "first", "segment": "935303434", "name": "Winter Survival Simulator (демо) / Maquette / Yakuza: Like a Dragon #6", "start": 0},
-      {"id": "yakuza-like-dragon", "segment": "936535434", "name": "Yakuza: Like a Dragon #7", "start": 0}
+      {"id": "yakuza-like-dragon", "segment": "936535434", "name": "Yakuza: Like a Dragon #7", "start": 0},
+      {"id": "single", "segment": "937766301", "name": "Voyage / Loop Hero #2 / SnowRunner #15", "start": 0}
     ]
   },
   "finished": {
@@ -235,7 +235,8 @@
       {"name": "Harry Potter and the Sorcerer's Stone (PC)", "id": "hp-ss-pc", "segment": "903270544"},
       {"id": "single", "segment": "905895866", "name": "Narita Boy (демо)", "start": 12342},
       {"id": "single", "segment": "905895866", "name": "Evil Inside (демо)", "start": 15966},
-      {"name": "Blackberry", "id": "blackberry", "segment": "909697737"}
+      {"name": "Blackberry", "id": "blackberry", "segment": "909697737"},
+      {"id": "single", "segment": "937766301", "name": "Voyage", "start": 0}
     ]
   },
   "first": {
@@ -521,7 +522,6 @@
       {"id": "first", "segment": "905895866", "name": "Tasomachi (демо)", "start": 20938},
       {"id": "first", "segment": "912392953", "name": "SuchArt: Genius Artist Simulator", "start": 9639},
       {"id": "first", "segment": "916293705", "name": "What Lives Below (демо)", "start": 0},
-      {"id": "first", "segment": "926537203", "name": "Loop Hero (демо)", "start": 0},
       {"id": "first", "segment": "928993182", "name": "System Shock (демо)", "start": 0},
       {"id": "first", "segment": "928993182", "name": "Outriders (демо)", "start": 7510},
       {"id": "first", "segment": "932891083", "name": "HellSign", "start": 0},
@@ -535,6 +535,7 @@
       {"name": "Nioh 2", "id": "nioh-2", "segment": "502940448"},
       {"name": "Song of Horror", "id": "song-of-horror", "segment": "878410974"},
       {"name": "Boris The Rocket", "id": "boris-rocket", "segment": "896656796"},
+      {"name": "Loop Hero", "id": "loop-hero", "segment": "926537203"},
       {"name": "Yakuza: Like a Dragon", "id": "yakuza-like-dragon", "segment": "927781155"},
       {"name": "Breathedge", "id": "breathedge", "segment": "927781155"}
     ]

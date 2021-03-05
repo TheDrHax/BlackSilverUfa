@@ -6926,31 +6926,24 @@
     "youtube": "5NZOS_Tp60k", "abs_start": "0:00", "abs_end": "5:52:15", "duration": "5:52:15",
     "name": "Сетапы зрителей #5 / Little Nightmares 2 #1",
     "date": "2021-02-09",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/907145168.torrent",
     "games": ["setups", "little-nightmares-2"]
   },
   "907684984": {
     "abs_start": "0:00", "abs_end": "34:09", "duration": "0:00",
     "name": "",
     "date": "2021-02-10",
-    "direct": "https://bsufiles.thedrhax.pw/streams/907684984.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/907684984.torrent",
     "games": []
   },
   "907729352": {
     "abs_start": "0:00", "abs_end": "10:06", "duration": "0:00",
     "name": "",
     "date": "2021-02-10",
-    "direct": "https://bsufiles.thedrhax.pw/streams/907729352.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/907729352.torrent",
     "games": []
   },
   "907741660": {
     "abs_start": "0:00", "abs_end": "52:53", "duration": "0:00",
     "name": "",
     "date": "2021-02-10",
-    "direct": "https://bsufiles.thedrhax.pw/streams/907741660.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/907741660.torrent",
     "games": []
   },
   "907684984,907729352,907741660": {
@@ -7047,10 +7040,10 @@
   },
   "926537203": {
     "youtube": "MctPtZOjH7U", "abs_start": "0:00", "abs_end": "6:59:57", "duration": "6:59:57",
-    "name": "Loop Hero (демо) / Valheim (с Дашей и Джеком) #9",
+    "name": "Loop Hero #1 (демо) / Valheim (с Дашей и Джеком) #9",
     "date": "2021-02-24",
     "torrent": "https://bsufiles.thedrhax.pw/streams/926537203.torrent",
-    "games": ["first", "valheim"]
+    "games": ["loop-hero", "valheim"]
   },
   "927781155": {
     "youtube": "zRgj4d08-9I", "abs_start": "0:00", "abs_end": "10:06:11", "duration": "10:06:11",
@@ -7109,5 +7102,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/936535434.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/936535434.torrent",
     "games": ["yakuza-like-dragon"]
+  },
+  "937766301": {
+    "abs_start": "0:00", "abs_end": "6:17:02", "duration": "0:00",
+    "name": "Voyage / Loop Hero #2 / SnowRunner #15",
+    "date": "2021-03-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/937766301.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/937766301.torrent",
+    "games": ["single", "loop-hero", "snowrunner"]
   }
 }
