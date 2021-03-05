@@ -1633,7 +1633,8 @@
       { "twitch": "905895866", "subrefs": [
         { "name": "Narita Boy (демо)", "start": "3:25:42" },
         { "name": "Evil Inside (демо)", "start": "4:26:06" }
-      ] }
+      ] },
+      { "name": "Voyage", "twitch": "937766301" }
     ]
   },
   {
@@ -2369,7 +2370,6 @@
         }
       },
       { "name": "What Lives Below (демо)", "twitch": "916293705" },
-      { "name": "Loop Hero (демо)", "twitch": "926537203" },
       { "twitch": "928993182", "subrefs": [
         { "name": "System Shock (демо)" },
         { "name": "Outriders (демо)", "start": "2:05:10" }
@@ -2379,6 +2379,15 @@
         { "name": "Winter Survival Simulator (демо)" },
         { "name": "Maquette", "start": "2:17:00" }
       ] }
+    ]
+  },
+  {
+    "name": "Loop Hero",
+    "category": "ongoing",
+    "id": "loop-hero",
+    "streams": [
+      { "name": "1 (демо)", "twitch": "926537203" },
+      { "name": "2", "twitch": "937766301", "start": "3:31:11" }
     ]
   },
   {
@@ -2900,7 +2909,8 @@
       { "twitch": "927781155", "subrefs": [
         { "name": "14", "start": "7:03:33" },
         { "name": "14", "start": "9:30:59" }
-      ] }
+      ] },
+      { "name": "15", "twitch": "937766301", "start": "4:04:18" }
     ]
   },
   {
