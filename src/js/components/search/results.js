@@ -1,6 +1,4 @@
 import React from 'react';
-import animateScrollTo from 'animated-scroll-to';
-import updateState from '../../utils/update-state';
 
 import {
   Row,
@@ -124,22 +122,14 @@ class GamesList extends GenericList {
 }
 
 class ResultsPagination extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      page: 0
-    };
-  }
-
   items() {
     if (this.props.items.length <= this.props.max) {
       return this.props.items;
     }
 
     return this.props.items.slice(
-      this.state.page * this.props.max,
-      (this.state.page + 1) * this.props.max
+      this.props.page * this.props.max,
+      (this.props.page + 1) * this.props.max
     );
   }
 
@@ -163,15 +153,12 @@ class ResultsPagination extends React.Component {
         <Col className="d-flex justify-content-center">
           <Pagination
             totalPages={pages}
-            value={this.state.page}
+            value={this.props.page}
             showFirstLast={false}
             atBeginEnd={1}
             aroundCurrent={2}
             onChange={({ target: { value }}) => {
-              animateScrollTo(0);
-              updateState(this, {
-                page: { $set: value }
-              });
+              this.props.onPageChange(value);
             }} />
         </Col>
       </Row>

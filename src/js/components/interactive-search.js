@@ -1,4 +1,5 @@
 import React from 'react';
+import animateScrollTo from 'animated-scroll-to';
 import { Data } from '../data';
 import { tokenize, fts } from '../search';
 import { agreeWithNum } from '../utils/agree-with-num';
@@ -45,7 +46,8 @@ class InteractiveSearch extends React.Component {
       },
       results: {
         mode: null,
-        items: []
+        items: [],
+        page: 0
       }
     };
   }
@@ -120,7 +122,8 @@ class InteractiveSearch extends React.Component {
     updateState(this, {
       results: { $merge: {
         mode: this.state.mode,
-        items: results
+        items: results,
+        page: 0
       } }
     });
   }
@@ -311,6 +314,15 @@ class InteractiveSearch extends React.Component {
         <Row><Col>{this.inputForm()}</Col></Row>
         {renderer ? <ResultsPagination
           items={this.state.results.items}
+          page={this.state.results.page}
+          onPageChange={(page) => {
+            updateState(this, {
+              results: {
+                page: { $set: page }
+              }
+            });
+            animateScrollTo(0);
+          }}
           max={10}
           renderer={this.resultsRenderer()}
           rendererProps={{ data: { ...this.state.data } }} /> : null}
