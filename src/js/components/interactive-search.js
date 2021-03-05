@@ -106,6 +106,8 @@ class InteractiveSearch extends React.Component {
 
       if (mode === 'date') {
         chain = chain.compoundsort([['date', desc], ['segment', desc]]);
+      } else if (mode === 'stream_count' && this.state.mode === 'games') {
+        chain = chain.compoundsort([['streams', desc], ['date', desc], ['segment', desc]]);
       }
     }
 
@@ -207,6 +209,10 @@ class InteractiveSearch extends React.Component {
       date: 'дата'
     };
 
+    if (this.state.mode === 'games') {
+      sortingModes.stream_count = 'количество стримов';
+    }
+
     filters.push(
       <InputGroup key="sorting" xs={12} md={6} lg={4} as={Col}>
         <InputGroup.Prepend>
@@ -257,11 +263,17 @@ class InteractiveSearch extends React.Component {
               <Dropdown.Menu>
                 <Dropdown.Item
                   onClick={() => updateState(this, {
-                    mode: { $set: 'segments' }
+                    mode: { $set: 'segments' },
+                    sorting: {
+                      mode: { $set: 'date' }
+                    }
                   }, this.submitForm.bind(this))}>Стримы</Dropdown.Item>
                 <Dropdown.Item
                   onClick={() => updateState(this, {
-                    mode: { $set: 'games' }
+                    mode: { $set: 'games' },
+                    sorting: {
+                      mode: { $set: 'date' }
+                    }
                   }, this.submitForm.bind(this))}>Игры</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
