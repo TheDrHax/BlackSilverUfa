@@ -6957,7 +6957,6 @@
     "youtube": "8jy4Q8RjO0c", "abs_start": "0:00", "abs_end": "7:41:11", "duration": "7:41:11",
     "name": "Little Nightmares 2 #2 / Blackberry #1 / SnowRunner #13",
     "date": "2021-02-11",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/909697737.torrent",
     "games": ["little-nightmares-2", "blackberry", "snowrunner"]
   },
   "910977286": {
@@ -7108,5 +7107,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/937766301.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/937766301.torrent",
     "games": ["single", "loop-hero", "snowrunner"]
+  },
+  "939107107": {
+    "abs_start": "0:00", "abs_end": "7:01:48", "duration": "0:00",
+    "name": "Yakuza: Like a Dragon #8",
+    "date": "2021-03-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/939107107.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/939107107.torrent",
+    "games": ["yakuza-like-dragon"]
   }
 }
