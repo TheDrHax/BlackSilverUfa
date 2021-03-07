@@ -22,7 +22,7 @@
 </%def>
 
 <%def name="card(text, thumbnail, link, badge=None)">\
-<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-card"><div class="card"><a href="${link}">
+<div class="col-6 col-md-4 col-lg-3 col-xl-2 col-card"><div class="card"><a href="${link}">
   <noscript><img class="card-img-top" src="${thumbnail}" /></noscript>
   <img class="card-img-top lazyload" src="/static/images/no-preview.png" data-src="${thumbnail}" />
   <div class="card-img-overlay overlay-transparent-bottom bg-dark text-white">${text}</div>
@@ -34,7 +34,7 @@
 
 <%def name="segment_grid(category)">\
 <% year = None %>\
-<div class="row d-none d-sm-flex">
+<div class="row d-flex">
 % for game in category.games:
   % if category.split_by_year and year is not None and year != game.date.year:
     <div class="col-12"><div class="hr-sect">↓ ${game.date.year} год ↓</div></div>
@@ -54,24 +54,4 @@
   % endif
 % endfor
 </div>
-</%def>
-
-<%def name="segment_grid_xs(category)">\
-<% year = None %>\
-<ul class="list-group d-sm-none">
-% for game in category.games:
-  % if category.split_by_year and year is not None and year != game.date.year:
-    <div class="col-12"><div class="hr-sect">↓ ${game.date.year} год ↓</div></div>
-  % endif
-<% year = game.date.year %>\
-  % if type(game) == Game:
-    <li class="list-group-item d-flex justify-content-between align-items-center">
-      <a href="${game.filename}">${game.name}</a>
-      <span class="badge badge-primary">${numword(game.stream_count, 'стрим')}</span>
-    </li>
-  % elif type(game) == SegmentReference:
-    <li class="list-group-item"><a href="${game.url}">${game.name}</a></li>
-  % endif
-% endfor
-</ul>
 </%def>

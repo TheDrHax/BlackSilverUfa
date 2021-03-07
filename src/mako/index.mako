@@ -31,6 +31,5 @@
   % endif
 
   <%el:segment_grid category="${category}" />
-  <%el:segment_grid_xs category="${category}" />
 % endfor
 </%block>
