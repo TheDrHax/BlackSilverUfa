@@ -342,3 +342,13 @@ h3,
 .bg-lightcoral {
   background-color: lightcoral;
 }
+
+/*
+ * Interactive search
+ */
+
+.interactive-search-form {
+  .input-group {
+    margin-bottom: $spacer * .5; // .mt-2
+  }
+}

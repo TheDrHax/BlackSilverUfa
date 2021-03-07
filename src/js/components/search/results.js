@@ -56,7 +56,7 @@ class GenericList extends React.Component {
 
   render() {
     return (
-      <ListGroup variant="flush" className="mb-2">
+      <ListGroup variant="flush">
         {this.items()}
       </ListGroup>
     )
@@ -65,7 +65,7 @@ class GenericList extends React.Component {
 
 class SegmentsList extends GenericList {
   key(segment) {
-    return segment.segment;
+    return segment.name;
   }
 
   thumbnail(segment) {
