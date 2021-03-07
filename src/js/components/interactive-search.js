@@ -36,7 +36,7 @@ class InteractiveSearch extends React.Component {
       },
       filters: {
         text: '',
-        category: null,
+        category: 'any',
         dateStart: null,
         dateEnd: null
       },
@@ -94,8 +94,9 @@ class InteractiveSearch extends React.Component {
     } else if (this.state.mode === 'games') {
       chain = this.state.data.games.chain()
 
-      if (this.state.filters.category) {
-        chain = chain.find({ 'category.id': this.state.filters.category });
+      let { category } = this.state.filters;
+      if (category != 'any') {
+        chain = chain.find({ 'category.id': category });
       }
 
       chain = chain.where((item) => item.category.search !== false);
@@ -140,8 +141,7 @@ class InteractiveSearch extends React.Component {
       let maxDate = new Date(segments.max('date'));
 
       filters.push(
-        <DateFilter
-          key="date"
+        <DateFilter key="date" xs={12} sm={8} md={6} lg={4}
           minDate={minDate}
           maxDate={maxDate}
           tileContent={({ date, view }) => {
@@ -163,86 +163,78 @@ class InteractiveSearch extends React.Component {
           }, this.submitForm.bind(this))} />
       );
     } else if (this.state.mode === 'games') {
-      let { category } = this.state.filters;
+      {
+        let { category } = this.state.filters;
 
-      let categoriesMap = Object.assign({},
-        ...Object.values(categories.data)
-          .filter(({ search }) => search !== false)
-          .map(({ id, name }) => ({ [id]: name }))
+        let catMap = Object.assign({ any: 'Любая' },
+          ...Object.values(categories.data)
+            .filter(({ search }) => search !== false)
+            .map(({ id, name }) => ({ [id]: name }))
+        );
+
+        let invCatMap = Object.assign({},
+          ...Object.entries(catMap).map(([k, v]) => ({ [v]: k }))
+        );
+
+        filters.push(
+          <InputGroup key="category" xs={12} sm={8} md={6} lg={4} as={Col}>
+            <InputGroup.Prepend>
+              <InputGroup.Text>Категория:</InputGroup.Text>
+            </InputGroup.Prepend>
+            <Form.Control as="select" custom
+              value={catMap[category]}
+              onChange={({ target: { value } }) => updateState(this, {
+                filters: { category: { $set: invCatMap[value] } }
+              }, this.submitForm.bind(this))}>
+                {Object.entries(catMap).map(([key, name]) => (
+                  <option key={key}>{name}</option>
+                ))}
+            </Form.Control>
+          </InputGroup>
+        );
+      }
+    }
+
+    {
+      let { mode, desc } = this.state.sorting;
+
+      let sortModes = {
+        date: 'дата'
+      };
+
+      if (this.state.mode === 'games') {
+        sortModes.stream_count = 'стримы';
+      }
+
+      let invSortModes = Object.assign({}, 
+        ...Object.entries(sortModes).map(([k, v]) => ({ [v]: k }))
       );
 
       filters.push(
-        <InputGroup key="category" as={Col}>
+        <InputGroup key="sorting" xs={12} sm={8} md={6} lg={4} as={Col}>
           <InputGroup.Prepend>
-            <InputGroup.Text>Категория:</InputGroup.Text>
+            <InputGroup.Text>Сортировка:</InputGroup.Text>
           </InputGroup.Prepend>
-          <Form.Control as={Dropdown} custom>
-            <Dropdown.Toggle variant="secondary" className="w-100">
-              {category ? categoriesMap[category] : 'Любая'}
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
-              <Dropdown.Item
-                key="any"
-                active={category === null}
-                onClick={() => updateState(this, {
-                  filters: { category: { $set: null } }
-                }, this.submitForm.bind(this))}>
-                Любая
-              </Dropdown.Item>
-              {Object.entries(categoriesMap).map(([key, name]) => (
-                <Dropdown.Item
-                  key={key}
-                  active={category === key}
-                  onClick={() => updateState(this, {
-                    filters: { category: { $set: key } }
-                  }, this.submitForm.bind(this))}>
-                  {name}
-                </Dropdown.Item>
+          <Form.Control as="select" custom
+            value={sortModes[mode]}
+            onChange={({ target: { value } }) => updateState(this, {
+              sorting: { mode: { $set: invSortModes[value] } }
+            }, this.submitForm.bind(this))}>
+              {Object.entries(sortModes).map(([key, name]) => (
+                <option key={key}>{name}</option>
               ))}
-            </Dropdown.Menu>
           </Form.Control>
+          <InputGroup.Append>
+            <Button variant="secondary"
+              onClick={() => updateState(this, {
+                sorting: { $toggle: ['desc'] }
+              }, this.submitForm.bind(this))}>
+                {desc ? '↓' : '↑'}
+            </Button>
+          </InputGroup.Append>
         </InputGroup>
       );
     }
-
-    let sortingModes = {
-      date: 'дата'
-    };
-
-    if (this.state.mode === 'games') {
-      sortingModes.stream_count = 'количество стримов';
-    }
-
-    filters.push(
-      <InputGroup key="sorting" xs={12} md={6} lg={4} as={Col}>
-        <InputGroup.Prepend>
-          <InputGroup.Text>Сортировка:</InputGroup.Text>
-        </InputGroup.Prepend>
-        <Form.Control as={Dropdown} custom>
-          <Dropdown.Toggle variant="secondary">
-            {sortingModes[this.state.sorting.mode]}
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            {Object.entries(sortingModes).map(([key, name]) => (
-              <Dropdown.Item
-                key={key}
-                active={this.state.sorting.mode === key}
-                onClick={() => updateState(this, {
-                  sorting: { mode: { $set: key } }
-                }, this.submitForm.bind(this))}>
-                  {name}
-              </Dropdown.Item>
-            ))}
-          </Dropdown.Menu>
-        </Form.Control>
-        <Button variant="secondary"
-          onClick={() => updateState(this, {
-            sorting: { $toggle: ['desc'] }
-          }, this.submitForm.bind(this))}>
-            {this.state.sorting.desc ? '↓' : '↑'}
-        </Button>
-      </InputGroup>
-    );
 
     return <Form.Row>{filters}</Form.Row>;
   }
