@@ -8,9 +8,9 @@
 </%def>
 
 <%def name="code_block()">
-<div class="highlighter-rouge"><div class="highlight">
+<div class="highlighter-rouge">
   <pre class="highlight"><code>${caller.body()}</code></pre>
-</div></div>
+</div>
 </%def>
 
 <%def name="header(level=1, id=None)">\

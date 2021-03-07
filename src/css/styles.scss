@@ -258,7 +258,9 @@ a:hover {
   word-wrap: normal;
   background-color: #f3f6fa;
   border: solid 1px #dce6f0;
-  border-radius: 0.3rem
+  border-radius: 0.3rem;
+  white-space: pre-wrap; 
+  word-break: break-word;
 }
 
 .main-content pre>code {
@@ -266,8 +268,6 @@ a:hover {
   margin: 0;
   font-size: 0.9rem;
   color: #567482;
-  word-break: normal;
-  white-space: pre;
   background: transparent;
   border: 0
 }
