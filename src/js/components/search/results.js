@@ -150,7 +150,7 @@ class ResultsPagination extends React.Component {
     }
 
     return (
-      <Row>
+      <Row key="navigator">
         <Col className="d-flex justify-content-center">
           <Pagination
             totalPages={pages}
