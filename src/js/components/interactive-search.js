@@ -244,17 +244,13 @@ class InteractiveSearch extends React.Component {
       </InputGroup>
     );
 
-    return (
-      <Form.Row className="mb-2">
-        {filters}
-      </Form.Row>
-    );
+    return <Form.Row>{filters}</Form.Row>;
   }
 
   inputForm() {
     return (
       <Form onSubmit={this.submitForm.bind(this)}>
-        <InputGroup className="mb-2">
+        <InputGroup>
           <InputGroup.Prepend>
             <Dropdown>
               <Dropdown.Toggle variant="success">
@@ -323,7 +319,9 @@ class InteractiveSearch extends React.Component {
             </Alert>
           </Col>
         </Row>
-        <Row><Col>{this.inputForm()}</Col></Row>
+        <Row className="interactive-search-form">
+          <Col>{this.inputForm()}</Col>
+        </Row>
         {renderer ? <ResultsPagination
           items={this.state.results.items}
           page={this.state.results.page}
