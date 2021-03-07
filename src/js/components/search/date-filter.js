@@ -82,8 +82,10 @@ export default class DateFilter extends React.Component {
       showLeadingZeros: true
     };
 
+    let { xs, sm, md, lg, xl } = this.props;
+
     return (
-      <InputGroup as={Col}>
+      <InputGroup as={Col} {...{ xs, sm, md, lg, xl }}>
         <InputGroup.Prepend>
           <Dropdown>
             <Dropdown.Toggle variant="secondary">
