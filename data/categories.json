@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "yakuza-like-dragon", "segment": "927781155", "name": "Yakuza: Like a Dragon #1 / Breathedge #1 / SnowRunner #14 / State of Play 2021", "start": 0},
       {"id": "first", "segment": "928993182", "name": "System Shock (демо) / Outriders (демо) / Breathedge #2", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "929556422", "name": "Yakuza: Like a Dragon #2", "start": 0},
       {"id": "first", "segment": "932891083", "name": "HellSign / Breathedge #3 / Yakuza: Like a Dragon #3", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "935303434", "name": "Winter Survival Simulator (демо) / Maquette / Yakuza: Like a Dragon #6", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "936535434", "name": "Yakuza: Like a Dragon #7", "start": 0},
       {"id": "single", "segment": "937766301", "name": "Voyage / Loop Hero #2 / SnowRunner #15", "start": 0},
-      {"id": "yakuza-like-dragon", "segment": "939107107", "name": "Yakuza: Like a Dragon #8", "start": 0}
+      {"id": "yakuza-like-dragon", "segment": "939107107", "name": "Yakuza: Like a Dragon #8", "start": 0},
+      {"id": "yakuza-like-dragon", "segment": "941624679", "name": "Yakuza: Like a Dragon #9", "start": 0}
     ]
   },
   "finished": {
