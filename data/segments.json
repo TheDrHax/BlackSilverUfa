@@ -6976,14 +6976,12 @@
     "youtube": "AFKZAtpTVp0", "abs_start": "0:00", "abs_end": "4:00:23", "duration": "4:00:23",
     "name": "Благотворительные стримы #6 / SuchArt: Genius Artist Simulator",
     "date": "2021-02-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/912392953.torrent",
     "games": ["charity", "first"]
   },
   "915004866": {
     "youtube": "JeKu9TGiNK8", "abs_start": "0:00", "abs_end": "7:04:09", "duration": "7:04:09",
     "name": "Song of Horror #2 / Valheim (с Дашей и Джеком) #1",
     "date": "2021-02-15",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/915004866.torrent",
     "games": ["song-of-horror", "valheim"]
   },
   "916293705": {
@@ -7117,6 +7115,14 @@
     "name": "Yakuza: Like a Dragon #9",
     "date": "2021-03-08",
     "torrent": "https://bsufiles.thedrhax.pw/streams/941624679.torrent",
+    "games": ["yakuza-like-dragon"]
+  },
+  "942788997": {
+    "abs_start": "0:00", "abs_end": "6:53:34", "duration": "0:00",
+    "name": "Yakuza: Like a Dragon #10",
+    "date": "2021-03-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/942788997.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/942788997.torrent",
     "games": ["yakuza-like-dragon"]
   }
 }
