@@ -1,5 +1,6 @@
 import React from 'react';
 import animateScrollTo from 'animated-scroll-to';
+import { invert } from 'lodash/object';
 import { Data } from '../data';
 import { tokenize, fts } from '../search';
 import { agreeWithNum } from '../utils/agree-with-num';
@@ -172,9 +173,7 @@ class InteractiveSearch extends React.Component {
             .map(({ id, name }) => ({ [id]: name }))
         );
 
-        let invCatMap = Object.assign({},
-          ...Object.entries(catMap).map(([k, v]) => ({ [v]: k }))
-        );
+        let invCatMap = invert(catMap);
 
         filters.push(
           <InputGroup key="category" xs={12} sm={8} md={6} lg={4} as={Col}>
@@ -206,9 +205,7 @@ class InteractiveSearch extends React.Component {
         sortModes.stream_count = 'стримы';
       }
 
-      let invSortModes = Object.assign({}, 
-        ...Object.entries(sortModes).map(([k, v]) => ({ [v]: k }))
-      );
+      let invSortModes = invert(sortModes);
 
       filters.push(
         <InputGroup key="sorting" xs={12} sm={8} md={6} lg={4} as={Col}>
