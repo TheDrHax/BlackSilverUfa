@@ -532,7 +532,6 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Nioh 2", "id": "nioh-2", "segment": "502940448"},
       {"name": "Song of Horror", "id": "song-of-horror", "segment": "878410974"},
       {"name": "Boris The Rocket", "id": "boris-rocket", "segment": "896656796"},
       {"name": "Loop Hero", "id": "loop-hero", "segment": "926537203"},
@@ -625,6 +624,7 @@
       {"name": "The Surge 2", "id": "surge-2", "segment": "485417805.1"},
       {"name": "The Outer Worlds", "id": "outer-worlds", "segment": "498426882"},
       {"name": "Luigi's Mansion 3", "id": "luigis-mansion-3", "segment": "502082379"},
+      {"name": "Nioh 2", "id": "nioh-2", "segment": "502940448"},
       {"name": "Spore", "id": "spore", "segment": "522691278"},
       {"name": "The Sims 4", "id": "sims-4", "segment": "531327327"},
       {"name": "One Punch Man: A Hero Nobody Knows", "id": "one-punch-man", "segment": "559121361"},
