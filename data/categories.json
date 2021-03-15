@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "932891083", "name": "HellSign / Breathedge #3 / Yakuza: Like a Dragon #3", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "934210523", "name": "Yakuza: Like a Dragon #4", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "934599690", "name": "Yakuza: Like a Dragon #5", "start": 0},
       {"id": "first", "segment": "935303434", "name": "Winter Survival Simulator (демо) / Maquette / Yakuza: Like a Dragon #6", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "yakuza-like-dragon", "segment": "939107107", "name": "Yakuza: Like a Dragon #8", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "941624679", "name": "Yakuza: Like a Dragon #9", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "942788997", "name": "Yakuza: Like a Dragon #10", "start": 0},
-      {"id": "expos", "segment": "943938218", "name": "ROG Phone 5 Launch Event", "start": 0}
+      {"id": "expos", "segment": "943938218", "name": "ROG Phone 5 Launch Event", "start": 0},
+      {"id": "first", "segment": "950210383", "name": "Lust from Beyond / Dead Rising", "start": 0}
     ]
   },
   "finished": {
@@ -526,7 +526,9 @@
       {"id": "first", "segment": "928993182", "name": "Outriders (демо)", "start": 7510},
       {"id": "first", "segment": "932891083", "name": "HellSign", "start": 0},
       {"id": "first", "segment": "935303434", "name": "Winter Survival Simulator (демо)", "start": 0},
-      {"id": "first", "segment": "935303434", "name": "Maquette", "start": 8220}
+      {"id": "first", "segment": "935303434", "name": "Maquette", "start": 8220},
+      {"id": "first", "segment": "950210383", "name": "Lust from Beyond", "start": 0},
+      {"id": "first", "segment": "950210383", "name": "Dead Rising", "start": 11197}
     ]
   },
   "ongoing": {
