@@ -6993,14 +6993,12 @@
     "youtube": "0wZclRw6irA", "abs_start": "0:00", "abs_end": "8:52:03", "duration": "8:52:03",
     "name": "Valheim (с Дашей и Джеком) #3 / Destiny 2 #6 (с Triplewipe)",
     "date": "2021-02-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/917504095.torrent",
     "games": ["valheim", "destiny-2"]
   },
   "918810670": {
     "youtube": "pZw8RtcZXtQ", "abs_start": "0:00", "abs_end": "7:22:51", "duration": "7:22:51",
     "name": "Valheim (с Дашей и Джеком) #4",
     "date": "2021-02-18",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/918810670.torrent",
     "games": ["valheim"]
   },
   "920088359": {
@@ -7136,5 +7134,13 @@
     "date": "2021-03-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/950210383.torrent",
     "games": ["first"]
+  },
+  "951366585": {
+    "abs_start": "0:00", "abs_end": "10:13:26", "duration": "0:00",
+    "name": "Yakuza: Like a Dragon #11",
+    "date": "2021-03-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/951366585.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/951366585.torrent",
+    "games": ["yakuza-like-dragon"]
   }
 }
