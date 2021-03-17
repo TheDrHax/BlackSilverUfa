@@ -51,7 +51,7 @@ class Segment:
 
         for i, stream in enumerate(self.stream.streams):
             segment = stream[0]
-            t = Timecodes(segment.timecodes, name=f'{i+1}-й стрим')
+            t = Timecodes(segment.stream.timecodes, name=f'{i+1}-й стрим')
 
             if i > 0 and self.offsets[i] > 0:
                 t.add(Timecode(0, 'Начало'))
