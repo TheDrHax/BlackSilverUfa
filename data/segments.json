@@ -4652,16 +4652,23 @@
     "games": ["co-op"]
   },
   "495362547": {
-    "youtube": "Ht7nHaxd3j4", "abs_start": "30:39", "abs_end": "4:18:57", "duration": "4:44:48",
-    "name": "Chernobylite #1 (часть 1)",
+    "abs_start": "0:00", "abs_end": "4:19:21", "duration": "0:00",
+    "name": "",
     "date": "2019-10-16",
-    "games": ["chernobylite"]
+    "games": []
   },
   "495449259": {
-    "youtube": "Ht7nHaxd3j4", "abs_start": "-3:48:18", "abs_end": "56:30", "duration": "4:44:48",
-    "name": "Chernobylite #1 (часть 2)",
+    "abs_start": "0:00", "abs_end": "1:02:22", "duration": "0:00",
+    "name": "",
     "date": "2019-10-16",
-    "games": ["chernobylite"]
+    "games": []
+  },
+  "495362547,495449259": {
+    "youtube": "Ht7nHaxd3j4", "abs_start": "0:00", "abs_end": "4:44:48", "duration": "4:44:48",
+    "name": "Chernobylite",
+    "date": "2019-10-16",
+    "offsets": [-1839, 13698],
+    "games": ["first"]
   },
   "495816363": {
     "youtube": "4XYQNkwZxu8", "abs_start": "0:00", "abs_end": "5:07:53", "duration": "5:07:53",
