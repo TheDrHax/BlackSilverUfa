@@ -2193,6 +2193,7 @@
       { "name": "Stygian: Reign of the Old Ones", "twitch": "490059507" },
       { "name": "Ghostbusters", "twitch": "490488498", "start": "4:01:22" },
       { "name": "Home Sweet Home: Episode II", "twitch": "491017258", "start": "3:04:35" },
+      { "name": "Chernobylite", "twitch": "495362547,495449259" },
       { "twitch": "499849877", "subrefs": [
         { "name": "Cooking Simulator" },
         { "name": "House Flipper", "start": "2:37:41" }
@@ -3453,15 +3454,6 @@
     "streams": [
       { "name": "Бета", "twitch": "432481618", "segment": 0 },
       { "name": "Релиз", "twitch": "485417805", "segment": 0 }
-    ]
-  },
-  {
-    "name": "Chernobylite",
-    "category": "first",
-    "id": "chernobylite",
-    "streams": [
-      { "name": "1 (часть 1)", "twitch": "495362547" },
-      { "name": "1 (часть 2)", "twitch": "495449259" }
     ]
   },
   {

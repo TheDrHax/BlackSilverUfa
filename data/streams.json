@@ -1085,8 +1085,11 @@
   "493101229": { "youtube": "qLR5GIjv5f0" },
   "493514454": { "youtube": "OBtFLPVF8QI" },
   "493585395": { "youtube": "7qZzgwlhPy0" },
-  "495362547": { "youtube": "Ht7nHaxd3j4", "offset": "30:39", "end": "4:18:57" },
-  "495449259": { "youtube": "Ht7nHaxd3j4", "offset": "-3:48:18" },
+  "495362547": {  },
+  "495449259": {  },
+  "495362547,495449259": {
+    "youtube": "Ht7nHaxd3j4", "offsets": ["-30:39", "3:48:18"], "start": "3:46", "force_start": true
+  },
   "495816363": { "youtube": "4XYQNkwZxu8" },
   "496247270": { "youtube": "Q4E0QtlVaGM" },
   "496714817": { "youtube": "pbyXQH4Q9qQ", "official": false },

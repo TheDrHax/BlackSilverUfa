@@ -231,6 +231,9 @@ class TimecodesSlice(Timecodes):
         if t < self.segment.abs_start:
             return False
 
+        if self.segment.force_start and t < self.segment.start:
+            return False
+
         if self.segment.abs_end != 0 and t >= self.segment.abs_end:
             return False
 
