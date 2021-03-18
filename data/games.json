@@ -1212,7 +1212,8 @@
       { "name": "Gamescom 2020", "twitch": "723011325", "start": "4:48:39" },
       { "name": "неПрофессиональный The Game Awards 2020", "twitch": "832197729", "segment": 1, "start": "12:34:01" },
       { "name": "State of Play 2021", "twitch": "927781155", "start": "8:58:26" },
-      { "name": "ROG Phone 5 Launch Event", "twitch": "943938218" }
+      { "name": "ROG Phone 5 Launch Event", "twitch": "943938218" },
+      { "name": "Square Enix Presents (Весна 2021)", "twitch": "953865835", "start": "3:04:45" }
     ]
   },
   {
@@ -2385,7 +2386,8 @@
       { "twitch": "950210383", "subrefs": [
         { "name": "Lust from Beyond" },
         { "name": "Dead Rising", "start": "3:06:37" }
-      ] }
+      ] },
+      { "name": "ALTF4", "twitch": "953865835" }
     ]
   },
   {
