@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "935303434", "name": "Winter Survival Simulator (демо) / Maquette / Yakuza: Like a Dragon #6", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "936535434", "name": "Yakuza: Like a Dragon #7", "start": 0},
       {"id": "single", "segment": "937766301", "name": "Voyage / Loop Hero #2 / SnowRunner #15", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "939107107", "name": "Yakuza: Like a Dragon #8", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "expos", "segment": "943938218", "name": "ROG Phone 5 Launch Event", "start": 0},
       {"id": "first", "segment": "950210383", "name": "Lust from Beyond / Dead Rising", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "951366585", "name": "Yakuza: Like a Dragon #11", "start": 0},
-      {"id": "single", "segment": "952632063", "name": "Mundaun", "start": 0}
+      {"id": "single", "segment": "952632063", "name": "Mundaun", "start": 0},
+      {"id": "first", "segment": "953865835", "name": "ALTF4 / Square Enix Presents (Весна 2021)", "start": 0}
     ]
   },
   "finished": {
@@ -530,7 +530,8 @@
       {"id": "first", "segment": "935303434", "name": "Winter Survival Simulator (демо)", "start": 0},
       {"id": "first", "segment": "935303434", "name": "Maquette", "start": 8220},
       {"id": "first", "segment": "950210383", "name": "Lust from Beyond", "start": 0},
-      {"id": "first", "segment": "950210383", "name": "Dead Rising", "start": 11197}
+      {"id": "first", "segment": "950210383", "name": "Dead Rising", "start": 11197},
+      {"id": "first", "segment": "953865835", "name": "ALTF4", "start": 0}
     ]
   },
   "ongoing": {
@@ -864,7 +865,8 @@
       {"name": "Night City Wire", "id": "cp2077-ncw", "segment": "759389769"},
       {"id": "expos", "segment": "832197729.1", "name": "неПрофессиональный The Game Awards 2020", "start": 45241},
       {"id": "expos", "segment": "927781155", "name": "State of Play 2021", "start": 32306},
-      {"id": "expos", "segment": "943938218", "name": "ROG Phone 5 Launch Event", "start": 0}
+      {"id": "expos", "segment": "943938218", "name": "ROG Phone 5 Launch Event", "start": 0},
+      {"id": "expos", "segment": "953865835", "name": "Square Enix Presents (Весна 2021)", "start": 11085}
     ]
   },
   "unboxing": {
