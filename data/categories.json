@@ -537,7 +537,6 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Boris The Rocket", "id": "boris-rocket", "segment": "896656796"},
       {"name": "Loop Hero", "id": "loop-hero", "segment": "926537203"},
       {"name": "Breathedge", "id": "breathedge", "segment": "927781155"}
     ]
@@ -651,7 +650,8 @@
       {"name": "Clive Barker's Undying", "id": "cb-undying", "segment": "846191668"},
       {"name": "SCP: Janitorial Work", "id": "scp-janitor", "segment": "851535429"},
       {"name": "Song of Horror", "id": "song-of-horror", "segment": "878410974"},
-      {"name": "Disco Elysium", "id": "disco-elysium", "segment": "887445977"}
+      {"name": "Disco Elysium", "id": "disco-elysium", "segment": "887445977"},
+      {"name": "Boris The Rocket", "id": "boris-rocket", "segment": "896656796"}
     ]
   },
   "co-op": {
