@@ -1956,7 +1956,7 @@
     "games": ["cry-of-fear", "first"]
   },
   "259446831": {
-    "youtube": "L8nR3beOFBs", "abs_start": "-0:04", "abs_end": "4:32:37", "duration": "4:32:41",
+    "youtube": "g-G9bqx5fV4", "official": false, "abs_start": "-0:04", "abs_end": "4:32:36", "duration": "4:32:40",
     "name": "Conan Exiles",
     "date": "2018-05-09",
     "games": ["co-op"]
@@ -5056,10 +5056,10 @@
     "games": ["gta-san-andreas"]
   },
   "535374681": {
-    "youtube": "72dFs18VRzo", "abs_start": "0:00", "abs_end": "5:41:58", "duration": "5:41:48",
+    "abs_start": "0:00", "abs_end": "5:42:10", "duration": "0:00",
     "name": "Grand Theft Auto: San Andreas #4",
     "date": "2020-01-13",
-    "cuts": [[10204, 10214]],
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/535374681.mp4",
     "games": ["gta-san-andreas"]
   },
   "535873254": {
