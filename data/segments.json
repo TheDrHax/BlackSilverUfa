@@ -7029,7 +7029,6 @@
     "youtube": "LXKuiU6zwH4", "abs_start": "0:00", "abs_end": "8:15:11", "duration": "8:15:11",
     "name": "Valheim (с Дашей и Джеком) #8",
     "date": "2021-02-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/925288073.torrent",
     "games": ["valheim"]
   },
   "926537203": {
@@ -7164,5 +7163,13 @@
     "date": "2021-03-19",
     "torrent": "https://bsufiles.thedrhax.pw/streams/955030446.torrent",
     "games": ["doom-eternal"]
+  },
+  "956331335": {
+    "abs_start": "0:00", "abs_end": "7:22:41", "duration": "0:00",
+    "name": "Yakuza: Like a Dragon #12",
+    "date": "2021-03-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/956331335.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/956331335.torrent",
+    "games": ["yakuza-like-dragon"]
   }
 }
