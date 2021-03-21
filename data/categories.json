@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "yakuza-like-dragon", "segment": "939107107", "name": "Yakuza: Like a Dragon #8", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "941624679", "name": "Yakuza: Like a Dragon #9", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "942788997", "name": "Yakuza: Like a Dragon #10", "start": 0},
       {"id": "expos", "segment": "943938218", "name": "ROG Phone 5 Launch Event", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "single", "segment": "952632063", "name": "Mundaun", "start": 0},
       {"id": "first", "segment": "953865835", "name": "ALTF4 / Square Enix Presents (Весна 2021)", "start": 0},
       {"id": "doom-eternal", "segment": "955030446", "name": "Doom Eternal #6 (The Ancient Gods: Part Two)", "start": 0},
-      {"id": "yakuza-like-dragon", "segment": "956331335", "name": "Yakuza: Like a Dragon #12", "start": 0}
+      {"id": "yakuza-like-dragon", "segment": "956331335", "name": "Yakuza: Like a Dragon #12", "start": 0},
+      {"id": "co-op", "segment": "957785419", "name": "Draw & Guess / Unlasting Horror / Hide and Seek / Golf Party / Golf It! #25", "start": 0}
     ]
   },
   "finished": {
@@ -814,7 +814,11 @@
       {"name": "Gartic Phone", "id": "gartic-phone", "segment": "877211836"},
       {"id": "co-op", "segment": "895496717", "name": "Devour", "start": 0},
       {"id": "co-op", "segment": "895496717", "name": "Hand Simulator: Horror", "start": 4891},
-      {"name": "Valheim (с Дашей и Джеком)", "id": "valheim", "segment": "915004866"}
+      {"name": "Valheim (с Дашей и Джеком)", "id": "valheim", "segment": "915004866"},
+      {"id": "co-op", "segment": "957785419", "name": "Draw & Guess", "start": 0},
+      {"id": "co-op", "segment": "957785419", "name": "Unlasting Horror", "start": 7396},
+      {"id": "co-op", "segment": "957785419", "name": "Hide and Seek", "start": 9065},
+      {"id": "co-op", "segment": "957785419", "name": "Golf Party", "start": 10401}
     ]
   },
   "other": {
