@@ -2394,7 +2394,11 @@
         { "name": "Lust from Beyond" },
         { "name": "Dead Rising", "start": "3:06:37" }
       ] },
-      { "name": "ALTF4", "twitch": "953865835" }
+      { "name": "ALTF4", "twitch": "953865835" },
+      { "twitch": "958844668", "subrefs": [
+        { "name": "The Eternal Cylinder" },
+        { "name": "Wanted Raccoon", "start": "4:09:54" }
+      ] }
     ]
   },
   {
@@ -2931,7 +2935,8 @@
         { "name": "14", "start": "7:03:33" },
         { "name": "14", "start": "9:30:59" }
       ] },
-      { "name": "15", "twitch": "937766301", "start": "4:04:18" }
+      { "name": "15", "twitch": "937766301", "start": "4:04:18" },
+      { "name": "16", "twitch": "958844668", "start": "5:02:53" }
     ]
   },
   {
