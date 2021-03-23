@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
+import { Badge, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import QuickSearch from './quick-search';
 import config from '../../../data/config.json';
@@ -137,7 +137,10 @@ export default class BasePage extends React.Component {
         <div className="navbar-space">{/* floating navbar workaround */}</div>
         <Navbar variant="dark" expand="sm" fixed="top">
           <Container>
-            <Navbar.Brand as={Link} to="/">{config.title}</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
+              {config.title}
+              <Badge variant="warning" className="ml-2">beta</Badge>
+            </Navbar.Brand>
             <Navbar.Toggle />
 
             <Navbar.Collapse id="navbar-collapse">
