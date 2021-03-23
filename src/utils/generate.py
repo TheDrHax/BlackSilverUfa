@@ -96,6 +96,10 @@ def build_mako():
         if os.path.isdir(_(dp)):
             shutil.rmtree(_(dp))
 
+    for fp in ['search.html', 'missing.html']:
+        if os.path.exists(_(fp)):
+            os.unlink(_(fp))
+
     # Generate index.html, 404.html
     for i in ['index', '404']:
         with open(_(i + '.html'), 'w') as out:
@@ -131,6 +135,13 @@ def generate(argv=None):
     if os.path.isdir(_('static')):
         shutil.rmtree(_('static'))
     shutil.copytree('static', _('static'))
+
+    # Create CNAME
+    if config['domain']:
+        with open(_('CNAME'), 'w') as fo:
+            fo.write(config['domain'])
+    elif os.path.exists(_('CNAME')):
+        os.unlink(_('CNAME'))
 
     build_data()
     if not args['--no-webpack']:
