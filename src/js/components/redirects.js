@@ -30,7 +30,7 @@ function RedirectR() {
   let { location: { search } } = useHistory();
   search = search.substr(1);
 
-  let [hash, params] = search.split('?');
+  let [hash, params] = search.replaceAll(/%3F/g, '?').split('?');
   const parts = hash.split('/');
 
   let game;
