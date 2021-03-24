@@ -339,10 +339,6 @@ export default class SegmentPlayer extends React.Component {
       timecodes, setTime, currentTime,
     } = this.state;
 
-    if (!timecodes) {
-      return null;
-    }
-
     return (
       <>
         <div className="sidebar-header border-bottom border-top">
@@ -419,6 +415,9 @@ export default class SegmentPlayer extends React.Component {
               </div>
 
               {this.renderTimecodes()}
+              <div className="collapsed-content">
+                <div className="sidebar-header">Таймкоды</div>
+              </div>
             </Col>
             {sidebarCollapsed && (
               <div className="sidebar-placeholder" />
@@ -430,6 +429,9 @@ export default class SegmentPlayer extends React.Component {
           <MediaQuery minDeviceWidth={768} maxDeviceWidth={1199}>
             <Col className="col-sidebar border-right collapsed" tabIndex="0">
               {this.renderTimecodes()}
+              <div className="collapsed-content">
+                <div className="sidebar-header">Таймкоды</div>
+              </div>
             </Col>
             <div className="sidebar-placeholder" />
           </MediaQuery>

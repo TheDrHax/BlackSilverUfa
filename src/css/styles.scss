@@ -540,6 +540,10 @@ h3>.badge {
   z-index: 1;
   flex: 0 0 240px;
 
+  & > .collapsed-content {
+    display: none;
+  }
+
   &.collapsed {
     position: absolute;
     left: 0;
@@ -551,15 +555,30 @@ h3>.badge {
       margin-left: calc(2rem - 240px);
       padding-left: calc(240px - 2rem);
 
-      & > .sidebar-header {
-        writing-mode: sideways-lr;
-        padding: 1rem 0.3rem;
-        height: unset;
-        width: 100%;
+      & > *:not(.collapsed-content) {
+        display: none;
       }
 
-      & > *:not(.sidebar-header) {
-        display: none;
+      & > .collapsed-content {
+        display: flex;
+        flex-direction: row;
+        width: calc(100vh - #{$navbar-height});
+        transform: translateY(-100%) rotate(90deg);
+        transform-origin: bottom left;
+
+        & > .sidebar-header {
+          width: unset;
+          flex-grow: 1;
+
+          transform: rotate(180deg);
+
+          border-bottom: #{$border-color} 1px solid;
+          border-right: #{$border-color} 1px solid;
+
+          &:first-child:not(:last-child) {
+            border-left: #{$border-color} 1px solid;
+          }
+        }
       }
     }
   }
