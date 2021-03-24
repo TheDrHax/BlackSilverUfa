@@ -91,12 +91,9 @@ $pagination-hover-border-color: #{$border-color};
 
 $contentHeight: calc(100vh - #{$navbar-height});
 
-body {
-  overflow-x: hidden;
-}
-
 html, body, #react-main-root {
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .main-content {
