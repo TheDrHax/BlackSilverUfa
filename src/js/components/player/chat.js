@@ -12,10 +12,12 @@ export default class Chat extends React.Component {
     subtitles: PropTypes.string.isRequired,
     currentTime: PropTypes.number.isRequired,
     offset: PropTypes.number,
+    simple: PropTypes.bool,
   }
 
   static defaultProps = {
     offset: 0,
+    simple: false,
   }
 
   constructor(props) {
@@ -156,10 +158,42 @@ export default class Chat extends React.Component {
     localStorage.setItem('chat-messages-hidden', JSON.stringify(!showHidden));
   }
 
+  renderMessages() {
+    return (
+      <ListGroup className="chat-messages-list">
+        {this.getMessages().map((msg) => (
+          <ListGroupItem key={msg.$loki}>
+            <span
+              style={{ color: msg.color }}
+              className="username"
+            >
+              {msg.user}
+            </span>
+            {': '}
+            {msg.text}
+          </ListGroupItem>
+        ))}
+      </ListGroup>
+    );
+  }
+
+  renderScrollable() {
+    return (
+      <Scroll flex="1 0 0" keepAtBottom>
+        {this.renderMessages()}
+      </Scroll>
+    );
+  }
+
   render() {
     const { loaded, error, showHidden } = this.state;
+    const { simple } = this.props;
 
     if (error) {
+      if (simple) {
+        return null;
+      }
+
       return (
         <div className="flex-1-0-0 d-flex flex-column justify-content-center align-items-center">
           <span>Ошибка: {error}</span>
@@ -175,6 +209,10 @@ export default class Chat extends React.Component {
     }
 
     if (!loaded) {
+      if (simple) {
+        return null;
+      }
+
       return (
         <div className="flex-1-0-0 d-flex flex-column justify-content-center align-items-center">
           <Spinner animation="border" role="status" />
@@ -183,24 +221,13 @@ export default class Chat extends React.Component {
       );
     }
 
+    if (simple) {
+      return this.renderScrollable();
+    }
+
     return (
       <>
-        <Scroll flex="1 0 0" keepAtBottom>
-          <ListGroup className="chat-messages-list">
-            {this.getMessages().map((msg) => (
-              <ListGroupItem key={msg.$loki}>
-                <span
-                  style={{ color: msg.color }}
-                  className="username"
-                >
-                  {msg.user}
-                </span>
-                {': '}
-                {msg.text}
-              </ListGroupItem>
-            ))}
-          </ListGroup>
-        </Scroll>
+        {this.renderScrollable()}
 
         <div className="sidebar-row border-top d-flex">
           <OverlayTrigger

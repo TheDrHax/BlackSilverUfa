@@ -598,21 +598,60 @@ h3>.badge {
   }
 }
 
-.plyr-youtube {
-  & .plyr__video-wrapper {
-    padding-bottom: 56.25% !important; // force 16:9
+.player-controls {
+  display: flex;
+  flex-direction: row;
+  padding: 0.3rem;
+  background-color: #{$color-bg-light};
+}
+
+.plyr .plyr-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1; // above video (0) but below controls (3)
+
+  & .chat-overlay {
+    position: absolute;
+    padding: 10vh 0.5rem 10vh 0rem;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 240px;
+
+    display: flex;
+    flex-direction: column;
+
+    & .chat-messages-list {
+      pointer-events: all;
+      border: none;
+
+      & > .list-group-item {
+        margin: 0.2rem 0 0.2rem 0;
+        border-radius: 0.5rem;
+        background-color: transparentize($color-bg-dark, 0.1);
+        border-width: 2px;
+      }
+    }
+  }
+}
+
+.plyr--youtube {
+  &:not(:fullscreen) {
+    & .plyr__video-wrapper {
+      padding-bottom: 56.25% !important; // force 16:9
+    }
+  
+    & .plyr__controls, .plyr__control[data-plyr="play"] {
+      display: none;
+    }
   }
 
-  & .plyr__video-embed iframe { // show YouTube UI
-    z-index: 30;
-  }
-
-  & .plyr__controls {
-    display: none;
-  }
-
-  & .plyr__control[data-plyr="play"] {
-    display: none;
+  &:fullscreen iframe {
+    pointer-events: none;
   }
 
   & .plyr__poster {

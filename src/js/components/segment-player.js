@@ -4,9 +4,11 @@ import ReactDOM from 'react-dom';
 import {
   Button,
   Col,
+  OverlayTrigger,
   Row,
   Tab,
   Tabs,
+  Tooltip,
 } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
@@ -38,6 +40,7 @@ export default class SegmentPlayer extends React.Component {
 
     this.state = {
       loaded: false,
+      fullscreen: false,
       segment: null,
       segmentRef: null,
       playlist: null,
@@ -48,6 +51,7 @@ export default class SegmentPlayer extends React.Component {
     };
 
     this.toggleSidebar = this.toggleSidebar.bind(this);
+    this.renderPlayerOverlay = this.renderPlayerOverlay.bind(this);
 
     this.chatContainer = this.createChatContainer();
   }
@@ -279,12 +283,15 @@ export default class SegmentPlayer extends React.Component {
             plyr.currentTime = ts;
             plyr.play();
           },
+          toggleFullscreen: () => plyr.fullscreen.toggle(),
         });
       },
+      onFullScreen: (fullscreen) => this.setState({ fullscreen }),
       onDestroy: () => this.setState({
         setTime: null,
         currentTime: 0,
       }),
+      renderOverlay: this.renderPlayerOverlay,
     };
 
     return (
@@ -296,8 +303,54 @@ export default class SegmentPlayer extends React.Component {
     );
   }
 
+  renderPlayerOverlay() {
+    const {
+      fullscreen,
+      segment: {
+        subtitles,
+      },
+    } = this.state;
+
+    if (!fullscreen || !subtitles) {
+      return null;
+    }
+
+    return (
+      <div className="chat-overlay">
+        {this.renderChat()}
+      </div>
+    );
+  }
+
+  renderPlayerControls() {
+    const { toggleFullscreen } = this.state;
+
+    return (
+      <Row className="no-gutters">
+        <Col>
+          <div className="player-controls border-top border-bottom">
+            <div className="flex-grow-1" />
+            <OverlayTrigger
+              placement="top"
+              overlay={(props) => (
+                <Tooltip {...props}>
+                  Развернуть плеер на весь экран
+                </Tooltip>
+              )}
+            >
+              <Button variant="dark" size="sm" onClick={toggleFullscreen}>
+                <i className="fas fa-expand" />
+              </Button>
+            </OverlayTrigger>
+          </div>
+        </Col>
+      </Row>
+    );
+  }
+
   renderChat() {
     const {
+      fullscreen,
       currentTime,
       segment: {
         subtitles,
@@ -324,11 +377,12 @@ export default class SegmentPlayer extends React.Component {
 
     return (
       <>
-        {header}
+        {!fullscreen && header}
         <Chat
           currentTime={currentTime}
           offset={-absStart}
           subtitles={subtitles}
+          simple={fullscreen}
         />
       </>
     );
@@ -444,6 +498,7 @@ export default class SegmentPlayer extends React.Component {
     const {
       chatContainer,
       state: {
+        fullscreen,
         playlist,
         timecodes,
         segment: {
@@ -460,7 +515,7 @@ export default class SegmentPlayer extends React.Component {
       <MediaQuery minDeviceWidth={768}>
         <Col className="col-sidebar-wide border-left">
           {playlist && this.renderPlaylist()}
-          {subtitles && (
+          {(subtitles && !fullscreen) && (
             <Reparentable el={chatContainer} className="flex-1-1-0" />
           )}
           {(!subtitles && timecodes) && this.renderTimecodes()}
@@ -489,6 +544,7 @@ export default class SegmentPlayer extends React.Component {
     const {
       chatContainer,
       state: {
+        fullscreen,
         playlist,
         timecodes,
         segment: {
@@ -517,7 +573,9 @@ export default class SegmentPlayer extends React.Component {
                 {timecodes && this.renderTimecodes()}
               </Col>
               <Col className="sidebar-content border-left">
-                <Reparentable el={chatContainer} className="flex-1-1-0" />
+                {!fullscreen && (
+                  <Reparentable el={chatContainer} className="flex-1-1-0" />
+                )}
               </Col>
             </Row>
           </MediaQuery>
@@ -566,7 +624,9 @@ export default class SegmentPlayer extends React.Component {
 
                   {subtitles && (
                     <Tab eventKey="chat" title="Запись чата">
-                      <Reparentable el={chatContainer} className="flex-1-1-0" />
+                      {!fullscreen && (
+                        <Reparentable el={chatContainer} className="flex-1-1-0" />
+                      )}
                     </Tab>
                   )}
                 </Tabs>
@@ -605,6 +665,7 @@ export default class SegmentPlayer extends React.Component {
             {this.renderAbovePlayer()}
 
             {this.renderPlayer()} {/* Can't be moved without reloading */}
+            {this.renderPlayerControls()}
 
             {this.renderBelowPlayer()}
           </Col>

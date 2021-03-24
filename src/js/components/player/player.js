@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import Plyr from 'plyr';
 
@@ -14,6 +15,8 @@ export default class Player extends React.PureComponent {
     onReady: PropTypes.func,
     onDestroy: PropTypes.func,
     onTimeChange: PropTypes.func,
+    onFullScreen: PropTypes.func,
+    renderOverlay: PropTypes.func,
   }
 
   static defaultProps = {
@@ -27,15 +30,21 @@ export default class Player extends React.PureComponent {
     onReady: () => null,
     onDestroy: () => null,
     onTimeChange: () => null,
+    onFullScreen: () => null,
+    renderOverlay: () => null,
   }
 
   constructor(props) {
     super(props);
 
     this.ref = React.createRef();
+    this.overlay = document.createElement('div');
+    this.overlay.className = 'plyr-overlay';
 
     this.onReady = this.onReady.bind(this);
     this.onTimeUpdate = this.onTimeUpdate.bind(this);
+    this.onFullScreenEnter = this.onFullScreenEnter.bind(this);
+    this.onFullScreenExit = this.onFullScreenExit.bind(this);
 
     this.firstTimeUpdate = true;
     this.firstReady = true;
@@ -46,7 +55,10 @@ export default class Player extends React.PureComponent {
       // Disable quality selection (doesn't work on YouTube)
       settings: ['captions', /* 'quality', */ 'speed', 'loop'],
       invertTime: false,
-      youtube: { controls: 1 },
+      youtube: {
+        controls: 1,
+        fs: false,
+      },
       keyboard: { global: true },
     };
   }
@@ -138,6 +150,16 @@ export default class Player extends React.PureComponent {
     }
   }
 
+  onFullScreenEnter() {
+    const { onFullScreen } = this.props;
+    onFullScreen(true);
+  }
+
+  onFullScreenExit() {
+    const { onFullScreen } = this.props;
+    onFullScreen(false);
+  }
+
   spawnPlyr() {
     const ref = this.ref.current;
 
@@ -146,6 +168,8 @@ export default class Player extends React.PureComponent {
 
     const plyr = new Plyr(video, this.plyrOptions());
     this.plyr = plyr;
+
+    plyr.elements.container.appendChild(this.overlay);
 
     plyr.source = this.plyrSource();
     plyr.touch = false; // Force click and hover events on PCs with touchscreen
@@ -179,6 +203,9 @@ export default class Player extends React.PureComponent {
         plyr.muted = false;
       }
     });
+
+    plyr.on('enterfullscreen', this.onFullScreenEnter);
+    plyr.on('exitfullscreen', this.onFullScreenExit);
   }
 
   destroyPlyr() {
@@ -192,7 +219,6 @@ export default class Player extends React.PureComponent {
   }
 
   componentDidMount() {
-    console.log('player mounted');
     this.spawnPlyr();
   }
 
@@ -211,7 +237,13 @@ export default class Player extends React.PureComponent {
   }
 
   render() {
-    const { youtube } = this.props;
-    return <div ref={this.ref} className={youtube ? 'plyr-youtube' : ''} />;
+    const { renderOverlay } = this.props;
+
+    return (
+      <>
+        {ReactDOM.createPortal(renderOverlay(), this.overlay)}
+        <div ref={this.ref} />
+      </>
+    );
   }
 }
