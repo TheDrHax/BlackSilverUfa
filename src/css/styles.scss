@@ -528,6 +528,11 @@ h3>.badge {
   }
 }
 
+.scroll-outer {
+  display: flex;
+  flex-direction: column;
+}
+
 .col-sidebar {
   @extend .sidebar-content;
 

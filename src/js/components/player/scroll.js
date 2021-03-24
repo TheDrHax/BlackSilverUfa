@@ -88,10 +88,7 @@ export default class Scroll extends React.Component {
       ...otherProps
     } = this.props;
 
-    const containerStyle = {
-      display: 'flex',
-      flexDirection: 'column',
-    };
+    const containerStyle = {};
 
     if (flex) {
       containerStyle.flex = flex;
@@ -109,7 +106,7 @@ export default class Scroll extends React.Component {
           }
 
           return (
-            <div ref={outerMeasureRef} style={containerStyle}>
+            <div ref={outerMeasureRef} style={containerStyle} className="scroll-outer">
               <CustomScroll
                 ref={this.scrollRef}
                 flex="1 1 0"
