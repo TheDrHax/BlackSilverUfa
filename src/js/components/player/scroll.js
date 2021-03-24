@@ -6,10 +6,16 @@ import Measure from 'react-measure';
 export default class Scroll extends React.Component {
   static propTypes = {
     scrollToSelector: PropTypes.string,
+    flex: PropTypes.string,
+    heightRelativeToParent: PropTypes.string,
+    keepAtBottom: PropTypes.bool,
   }
 
   static defaultProps = {
     scrollToSelector: null,
+    flex: null,
+    heightRelativeToParent: null,
+    keepAtBottom: false,
   }
 
   constructor(props) {
@@ -17,6 +23,10 @@ export default class Scroll extends React.Component {
 
     this.scrollRef = React.createRef();
     this.onSizeChange = this.onSizeChange.bind(this);
+
+    this.innerHeight = 0;
+    this.outerHeight = 0;
+    this.prevOuterHeight = 0;
   }
 
   onSizeChange() {
@@ -53,20 +63,70 @@ export default class Scroll extends React.Component {
     }
   }
 
+  keepAtBottom() {
+    const {
+      innerHeight,
+      scrollRef: {
+        current: ref,
+      },
+      props: {
+        keepAtBottom,
+      },
+    } = this;
+
+    if (keepAtBottom && ref && innerHeight) {
+      ref.updateScrollPosition(innerHeight);
+    }
+  }
+
   render() {
-    const { children, scrollToSelector, ...otherProps } = this.props;
+    const {
+      children,
+      scrollToSelector,
+      flex,
+      heightRelativeToParent,
+      ...otherProps
+    } = this.props;
+
+    const containerStyle = {
+      display: 'flex',
+      flexDirection: 'column',
+    };
+
+    if (flex) {
+      containerStyle.flex = flex;
+    } else if (heightRelativeToParent) {
+      containerStyle.height = heightRelativeToParent;
+    }
 
     return (
-      <CustomScroll
-        ref={this.scrollRef}
-        {...otherProps}
-      >
-        <Measure onResize={this.onSizeChange}>
-          {({ measureRef }) => (
-            <div ref={measureRef}>{children}</div>
-          )}
-        </Measure>
-      </CustomScroll>
+      <Measure onResize={this.onSizeChange}>
+        {({ contentRect: { entry: { height: outerHeight } }, measureRef: outerMeasureRef }) => {
+          this.prevOuterHeight = this.outerHeight;
+          this.outerHeight = outerHeight;
+          if (this.prevOuterHeight !== this.outerHeight) {
+            this.keepAtBottom();
+          }
+
+          return (
+            <div ref={outerMeasureRef} style={containerStyle}>
+              <CustomScroll
+                ref={this.scrollRef}
+                flex="1 1 0"
+                {...otherProps}
+              >
+                <Measure onResize={this.onSizeChange}>
+                  {({ contentRect: { entry: { height: innerHeight } }, measureRef }) => {
+                    this.innerHeight = innerHeight;
+
+                    return <div ref={measureRef}>{children}</div>;
+                  }}
+                </Measure>
+              </CustomScroll>
+            </div>
+          );
+        }}
+      </Measure>
     );
   }
 }
