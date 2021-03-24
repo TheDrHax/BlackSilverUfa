@@ -7041,7 +7041,6 @@
     "youtube": "zRgj4d08-9I", "abs_start": "0:00", "abs_end": "10:06:11", "duration": "10:06:11",
     "name": "Yakuza: Like a Dragon #1 / Breathedge #1 / SnowRunner #14 / State of Play 2021",
     "date": "2021-02-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/927781155.torrent",
     "games": ["yakuza-like-dragon", "breathedge", "snowrunner", "expos"]
   },
   "928993182": {
@@ -7183,5 +7182,13 @@
     "date": "2021-03-22",
     "torrent": "https://bsufiles.thedrhax.pw/streams/958844668.torrent",
     "games": ["first", "snowrunner"]
+  },
+  "961225183": {
+    "abs_start": "0:00", "abs_end": "5:51:34", "duration": "0:00",
+    "name": "Paradise Lost",
+    "date": "2021-03-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/961225183.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/961225183.torrent",
+    "games": ["single"]
   }
 }
