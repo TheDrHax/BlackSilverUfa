@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "950210383", "name": "Lust from Beyond / Dead Rising", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "951366585", "name": "Yakuza: Like a Dragon #11", "start": 0},
       {"id": "single", "segment": "952632063", "name": "Mundaun", "start": 0},
       {"id": "first", "segment": "953865835", "name": "ALTF4 / Square Enix Presents (Весна 2021)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "co-op", "segment": "957785419", "name": "Draw & Guess / Unlasting Horror / Hide and Seek / Golf Party / Golf It! #25", "start": 0},
       {"id": "first", "segment": "958844668", "name": "The Eternal Cylinder / Wanted Raccoon / SnowRunner #16", "start": 0},
       {"id": "single", "segment": "961225183", "name": "Paradise Lost", "start": 0},
-      {"id": "doom-eternal", "segment": "961777772", "name": "Doom Eternal #1 (заново)", "start": 0}
+      {"id": "doom-eternal", "segment": "961777772", "name": "Doom Eternal #1 (заново)", "start": 0},
+      {"id": "unboxing", "segment": "962439245", "name": "ROG Flow X13 / Evil Inside - Прохождение / Crash Bandicoot 4: It's About Time #2 (заново)", "start": 0}
     ]
   },
   "finished": {
@@ -234,7 +234,7 @@
       {"id": "single", "segment": "901835689", "name": "NUTS", "start": 9828},
       {"name": "Harry Potter and the Sorcerer's Stone (PC)", "id": "hp-ss-pc", "segment": "903270544"},
       {"id": "single", "segment": "905895866", "name": "Narita Boy (демо)", "start": 12342},
-      {"id": "single", "segment": "905895866", "name": "Evil Inside (демо)", "start": 15966},
+      {"name": "Evil Inside", "id": "evil-inside", "segment": "905895866"},
       {"name": "Blackberry", "id": "blackberry", "segment": "909697737"},
       {"name": "Yakuza: Like a Dragon", "id": "yakuza-like-dragon", "segment": "927781155"},
       {"id": "single", "segment": "937766301", "name": "Voyage", "start": 0},
@@ -481,7 +481,6 @@
       {"id": "first", "segment": "746844135", "name": "Crysis: Remastered", "start": 0},
       {"id": "first", "segment": "747742325", "name": "BPM: Bullets Per Minute", "start": 0},
       {"id": "first", "segment": "758360932", "name": "Star Wars: Squadrons", "start": 0},
-      {"id": "first", "segment": "759389769", "name": "Crash Bandicoot 4: It's About Time", "start": 0},
       {"id": "first", "segment": "763202430", "name": "Baldur's Gate 3", "start": 0},
       {"id": "first", "segment": "767249770", "name": "Partisans 1941 (демо)", "start": 9012},
       {"id": "first", "segment": "767249770", "name": "F.I.S.T.: Forged In Shadow Torch (демо)", "start": 11805},
@@ -540,6 +539,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
       {"name": "Loop Hero", "id": "loop-hero", "segment": "926537203"},
       {"name": "Breathedge", "id": "breathedge", "segment": "927781155"}
     ]
@@ -895,7 +895,8 @@
       {"id": "unboxing", "segment": "792632708", "name": "Asus ROG Chariot Core", "start": 0},
       {"id": "unboxing", "segment": "792632708", "name": "Xbox Series X", "start": 6644},
       {"id": "unboxing", "segment": "806256296", "name": "Sony PlayStation 5", "start": 0},
-      {"id": "unboxing", "segment": "812974689", "name": "Asus ROG Zephyrus G14", "start": 0}
+      {"id": "unboxing", "segment": "812974689", "name": "Asus ROG Zephyrus G14", "start": 0},
+      {"id": "unboxing", "segment": "962439245", "name": "ROG Flow X13", "start": 0}
     ]
   }
 }
