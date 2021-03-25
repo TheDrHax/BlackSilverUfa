@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "expos", "segment": "943938218", "name": "ROG Phone 5 Launch Event", "start": 0},
       {"id": "first", "segment": "950210383", "name": "Lust from Beyond / Dead Rising", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "951366585", "name": "Yakuza: Like a Dragon #11", "start": 0},
       {"id": "single", "segment": "952632063", "name": "Mundaun", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "yakuza-like-dragon", "segment": "956331335", "name": "Yakuza: Like a Dragon #12", "start": 0},
       {"id": "co-op", "segment": "957785419", "name": "Draw & Guess / Unlasting Horror / Hide and Seek / Golf Party / Golf It! #25", "start": 0},
       {"id": "first", "segment": "958844668", "name": "The Eternal Cylinder / Wanted Raccoon / SnowRunner #16", "start": 0},
-      {"id": "single", "segment": "961225183", "name": "Paradise Lost", "start": 0}
+      {"id": "single", "segment": "961225183", "name": "Paradise Lost", "start": 0},
+      {"id": "doom-eternal", "segment": "961777772", "name": "Doom Eternal #1 (заново)", "start": 0}
     ]
   },
   "finished": {
