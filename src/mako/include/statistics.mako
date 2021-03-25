@@ -28,10 +28,12 @@
         for segment in stream:
             duration_segments += segment.duration
 
-    subs_dirs = config['repos']['chats'].keys()
-    subs_size_mb = sum([dir_size(_(f'chats/{i}'))
+    subs_dirs = list(key.replace('$PREFIX/', '')
+                     for key in config['repos']['mounts'].keys()
+                     if key.startswith('$PREFIX/chats'))
+    subs_size_mb = sum([dir_size(_(i))
                         for i in subs_dirs
-                        if i != 'generated'])
+                        if 'generated' not in i])
     subs_size_mb = int(subs_size_mb / 1024**2)
 
     official, unofficial, missing = 0, 0, 0

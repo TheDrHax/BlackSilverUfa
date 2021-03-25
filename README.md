@@ -2,15 +2,12 @@
 
 Перейдите на [GitHub Pages](https://blackufa.thedrhax.pw) для доступа ко всем функциям ![](https://static-cdn.jtvnw.net/emoticons/v1/81274/1.0)
 
-## Документация
-
-* [Описание формата данных](data/README.md)
-
 ### Зависимости
 
 * `python3-venv` (Ubuntu) или `python3` (Alpine)
 * `git` (для работы с gh-pages и получения даты добавления стрима)
 * `jq` — для парсинга `config.json` в скрипте `bsu`
+* `gettext` — для парсинга `config.json` в скрипте `bsu`
 * `tzdata` — для установки правильного часового пояса
 * `libc6` (Ubuntu) или `libstdc++` (Alpine) — для Node.js
 
@@ -28,7 +25,10 @@
 
 # Загрузить текущую версию ветки gh-pages в директорию ./_site
 # (обязательно для сборки проекта, т.к. в ветке gh-pages хранятся важные данные)
-./bsu pull
+./bsu pages pull
+
+# Загрузить текущую версию базы данных со стримами в ./data (обязательно)
+./bsu data pull
 
 # Загрузить недостающие субтитры (если они ещё доступны)
 ./bsu download-chats

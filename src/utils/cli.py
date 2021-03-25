@@ -63,9 +63,8 @@ from subprocess import run, PIPE
 from sortedcontainers import SortedList
 from twitch_utils.offset import Clip, find_offset
 
-from ..data.streams import (streams, Segment, SegmentReference,
-                            Stream, STREAMS_JSON)
-from ..data.games import games, GAMES_JSON
+from ..data.streams import streams, Segment, SegmentReference, Stream
+from ..data.games import games
 from ..data.timecodes import timecodes, Timecode, Timecodes
 from ..data.fallback import fallback
 
@@ -467,8 +466,8 @@ def main(argv=None):
             streams.save()
 
             if commit_msg and args['--commit']:
-                repo = Repo('.')
-                repo.index.add([STREAMS_JSON, GAMES_JSON])
+                repo = Repo('data/')
+                repo.index.add(['streams.json', 'games.json'])
                 repo.index.commit(commit_msg)
 
         print(stream)

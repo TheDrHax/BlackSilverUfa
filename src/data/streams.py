@@ -18,7 +18,7 @@ from ..utils import _, load_json, last_line, count_lines, join, json_escape, ind
 from ..utils.ass import SubtitlesStyle
 
 
-repo = Repo('.')
+repo = Repo('data/')
 
 STREAMS_JSON = 'data/streams.json'
 STREAMS_META_JSON = 'data/streams-meta.json'
@@ -147,7 +147,7 @@ class Segment:
 
     @property
     def generated_subtitles(self):
-        prefix = config['repos']['chats']['generated']['prefix']
+        prefix = config['repos']['mounts']['$PREFIX/chats/generated']['prefix']
         return f'{prefix}/v{self.twitch}+{self.segment}.ass'
 
     @property
@@ -794,9 +794,10 @@ class Stream:
     def subtitles_prefix(self) -> str:
         """Returns public URL prefix of subtitles for this segment."""
         year = str(self.date.year)
-        if year not in config['repos']['chats']:
+        key = f'$PREFIX/chats/{year}'
+        if key not in config['repos']['mounts']:
             raise Exception(f'Repository for year {year} is not configured')
-        prefix = config['repos']['chats'][year]['prefix']
+        prefix = config['repos']['mounts'][key]['prefix']
         return prefix
 
     @property

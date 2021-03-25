@@ -12,18 +12,14 @@ node('python3 && git && jq && (tzdata || !alpine)') {
     stage('Prepare') {
         git branch: input_branch, credentialsId: cred_git, url: repo_url
 
-        try {
-            sh "! git log --pretty=oneline -1 | grep -qE 'Запись (стрима|сегмента) [0-9.,]+\$'"
-        } catch (Exception ex) {
-            currentBuild.result = 'ABORTED'
-            error('Skipping build of automated commit')
-        }
-
         sh 'git config --local user.email "the.dr.hax@gmail.com"'
         sh 'git config --local user.name "Jenkins"'
+
         sh './bsu venv update'
+
         sshagent (credentials: [cred_git]) {
-            sh './bsu pull'
+            sh './bsu data pull'
+            sh './bsu pages pull'
         }
     }
 
