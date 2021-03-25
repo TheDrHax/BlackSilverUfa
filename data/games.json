@@ -1639,13 +1639,19 @@
       { "name": "Resident Evil Village (демо)", "twitch": "883419848" },
       { "name": "The Medium", "twitch": "891206240" },
       { "name": "NUTS", "twitch": "901835689", "start": "2:43:48" },
-      { "twitch": "905895866", "subrefs": [
-        { "name": "Narita Boy (демо)", "start": "3:25:42" },
-        { "name": "Evil Inside (демо)", "start": "4:26:06" }
-      ] },
+      { "name": "Narita Boy (демо)", "twitch": "905895866", "start": "3:25:42" },
       { "name": "Voyage", "twitch": "937766301" },
       { "name": "Mundaun", "twitch": "952632063" },
       { "name": "Paradise Lost", "twitch": "961225183" }
+    ]
+  },
+  {
+    "name": "Evil Inside",
+    "category": "finished",
+    "id": "evil-inside",
+    "streams": [
+      { "name": "Демо", "twitch": "905895866", "start": "4:26:06" },
+      { "name": "Прохождение", "twitch": "962439245", "start": "1:38:48" }
     ]
   },
   {
@@ -1912,7 +1918,8 @@
         { "name": "Xbox Series X", "start": "1:50:44" }
       ] },
       { "name": "Sony PlayStation 5", "twitch": "806256296" },
-      { "name": "Asus ROG Zephyrus G14", "twitch": "812974689" }
+      { "name": "Asus ROG Zephyrus G14", "twitch": "812974689" },
+      { "name": "ROG Flow X13", "twitch": "962439245" }
     ]
   },
   {
@@ -2309,7 +2316,6 @@
       { "name": "Crysis: Remastered", "twitch": "746844135" },
       { "name": "BPM: Bullets Per Minute", "twitch": "747742325" },
       { "name": "Star Wars: Squadrons", "twitch": "758360932" },
-      { "name": "Crash Bandicoot 4: It's About Time", "twitch": "759389769" },
       { "name": "Baldur's Gate 3", "twitch": "763202430" },
       { "twitch": "767249770", "subrefs": [
         { "name": "Partisans 1941 (демо)", "start": "2:30:12" },
@@ -2400,6 +2406,15 @@
         { "name": "The Eternal Cylinder" },
         { "name": "Wanted Raccoon", "start": "4:09:54" }
       ] }
+    ]
+  },
+  {
+    "name": "Crash Bandicoot 4: It's About Time",
+    "category": "ongoing",
+    "id": "crash-bandicoot-4",
+    "streams": [
+      { "name": "1", "twitch": "759389769" },
+      { "name": "2 (заново)", "twitch": "962439245", "start": "2:42:25" }
     ]
   },
   {
