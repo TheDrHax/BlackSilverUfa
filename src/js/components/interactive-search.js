@@ -14,7 +14,7 @@ import {
 
 import { Data } from '../data';
 import fts, { tokenize } from '../utils/full-text-search';
-import config from '../../../data/config.json';
+import config from '../../../config/config.json';
 import agreeWithNum from '../utils/agree-with-num';
 import updateState from '../utils/update-state';
 import DateFilter from './search/date-filter';

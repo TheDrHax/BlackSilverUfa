@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Badge, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import QuickSearch from './quick-search';
-import config from '../../../data/config.json';
+import config from '../../../config/config.json';
 
 export default class BasePage extends React.Component {
   static propTypes = {

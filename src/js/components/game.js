@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Card, Col, Row } from 'react-bootstrap';
 import { zip } from 'lodash';
 import { Data } from '../data';
-import config from '../../../data/config.json';
+import config from '../../../config/config.json';
 import BasePage from './base-page';
 import updateState from '../utils/update-state';
 

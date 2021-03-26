@@ -1,7 +1,7 @@
 const path = require('path');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const config = require('../../data/config.json');
+const config = require('../../config/config.json');
 
 const HMR = process.env.HMR === '1';
 const DEBUG = HMR || process.env.DEBUG === '1';

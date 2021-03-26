@@ -21,7 +21,7 @@ import Timecodes from './player/timecodes';
 import Scroll from './player/scroll';
 import Playlist from './player/playlist';
 import Reparentable from './utils/reparentable';
-import config from '../../../data/config.json';
+import config from '../../../config/config.json';
 import BigSpinner from './big-spinner';
 
 export default class SegmentPlayer extends React.Component {
