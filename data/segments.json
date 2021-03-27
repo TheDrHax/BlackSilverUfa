@@ -7053,14 +7053,12 @@
     "youtube": "tTvQHxfvnfg", "abs_start": "0:00", "abs_end": "2:38:45", "duration": "2:38:45",
     "name": "Yakuza: Like a Dragon #2",
     "date": "2021-02-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/929556422.torrent",
     "games": ["yakuza-like-dragon"]
   },
   "932891083": {
     "youtube": "MrX0RV79GEA", "abs_start": "0:00", "abs_end": "7:58:09", "duration": "7:58:09",
     "name": "HellSign / Breathedge #3 / Yakuza: Like a Dragon #3",
     "date": "2021-03-01",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/932891083.torrent",
     "games": ["first", "breathedge", "yakuza-like-dragon"]
   },
   "934210523": {
@@ -7205,9 +7203,17 @@
   },
   "963666663": {
     "youtube": "tg2aLiQqiCs", "official": false, "abs_start": "0:00", "abs_end": "6:24:33", "duration": "6:24:33",
-    "name": "It Takes Two",
+    "name": "It Takes Two #1",
     "date": "2021-03-26",
     "torrent": "https://bsufiles.thedrhax.pw/streams/963666663.torrent",
-    "games": ["first"]
+    "games": ["it-takes-two"]
+  },
+  "965027459": {
+    "abs_start": "0:00", "abs_end": "7:05:18", "duration": "0:00",
+    "name": "It Takes Two #2",
+    "date": "2021-03-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/965027459.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/965027459.torrent",
+    "games": ["it-takes-two"]
   }
 }
