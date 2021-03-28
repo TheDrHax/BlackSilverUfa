@@ -241,6 +241,20 @@ export default class SegmentPlayer extends React.Component {
 
   toggleSidebar() {
     const { sidebarCollapsed } = this.state;
+
+    if (!sidebarCollapsed) { // collapse immediately
+      const { pointerEvents } = document.body.style;
+
+      // release focus
+      document.activeElement.blur();
+
+      // release hover for 100ms
+      document.body.style.pointerEvents = 'none';
+      setTimeout(() => {
+        document.body.style.pointerEvents = pointerEvents;
+      }, 100);
+    }
+
     this.setState({ sidebarCollapsed: !sidebarCollapsed });
   }
 
