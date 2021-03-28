@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "953865835", "name": "ALTF4 / Square Enix Presents (Весна 2021)", "start": 0},
       {"id": "doom-eternal", "segment": "955030446", "name": "Doom Eternal #6 (The Ancient Gods: Part Two)", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "956331335", "name": "Yakuza: Like a Dragon #12", "start": 0},
       {"id": "co-op", "segment": "957785419", "name": "Draw & Guess / Unlasting Horror / Hide and Seek / Golf Party / Golf It! #25", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "doom-eternal", "segment": "961777772", "name": "Doom Eternal #1 (заново)", "start": 0},
       {"id": "unboxing", "segment": "962439245", "name": "ROG Flow X13 / Evil Inside - Прохождение / Crash Bandicoot 4: It's About Time #2 (заново)", "start": 0},
       {"id": "it-takes-two", "segment": "963666663", "name": "It Takes Two #1", "start": 0},
-      {"id": "it-takes-two", "segment": "965027459", "name": "It Takes Two #2", "start": 0}
+      {"id": "it-takes-two", "segment": "965027459", "name": "It Takes Two #2", "start": 0},
+      {"id": "it-takes-two", "segment": "966354094", "name": "It Takes Two #3", "start": 0}
     ]
   },
   "finished": {
@@ -239,7 +239,8 @@
       {"name": "Yakuza: Like a Dragon", "id": "yakuza-like-dragon", "segment": "927781155"},
       {"id": "single", "segment": "937766301", "name": "Voyage", "start": 0},
       {"id": "single", "segment": "952632063", "name": "Mundaun", "start": 0},
-      {"id": "single", "segment": "961225183", "name": "Paradise Lost", "start": 0}
+      {"id": "single", "segment": "961225183", "name": "Paradise Lost", "start": 0},
+      {"name": "It Takes Two", "id": "it-takes-two", "segment": "963666663"}
     ]
   },
   "first": {
@@ -541,8 +542,7 @@
     "games": [
       {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
       {"name": "Loop Hero", "id": "loop-hero", "segment": "926537203"},
-      {"name": "Breathedge", "id": "breathedge", "segment": "927781155"},
-      {"name": "It Takes Two", "id": "it-takes-two", "segment": "963666663"}
+      {"name": "Breathedge", "id": "breathedge", "segment": "927781155"}
     ]
   },
   "infinite": {
