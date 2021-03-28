@@ -6,6 +6,7 @@ import { Data } from '../data';
 import config from '../../../config/config.json';
 import BasePage from './base-page';
 import updateState from '../utils/update-state';
+import Matomo from '../matomo';
 
 export default class Game extends React.Component {
   constructor(props) {
@@ -28,6 +29,8 @@ export default class Game extends React.Component {
       const game = games.by('id', gameId);
 
       document.title = `${game.name} | ${config.title}`;
+
+      Matomo.trackPageView();
 
       updateState(this, {
         loaded: { $set: true },

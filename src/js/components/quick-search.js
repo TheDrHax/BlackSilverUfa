@@ -4,6 +4,7 @@ import { Form } from 'react-bootstrap';
 import { AsyncTypeahead } from 'react-bootstrap-typeahead';
 import { Data } from '../data';
 import fts from '../utils/full-text-search';
+import Matomo from '../matomo';
 
 export default class QuickSearch extends React.Component {
   constructor(props) {
@@ -13,6 +14,10 @@ export default class QuickSearch extends React.Component {
       loaded: false,
       index: null,
       segments: null,
+      query: {
+        text: null,
+        count: 0,
+      },
       suggestions: [],
     };
 
@@ -65,11 +70,24 @@ export default class QuickSearch extends React.Component {
       }));
     }
 
-    this.setState({ suggestions });
+    this.setState({
+      suggestions,
+      query: {
+        text: query,
+        count: suggestions.length,
+      },
+    });
   }
 
   onItemSelected(items) {
     if (items.length > 0) {
+      const { query: { text, count } } = this.state;
+      Matomo.trackSiteSearch({
+        keyword: text,
+        category: 'quick-search',
+        count,
+      });
+
       const history = getHistory();
       history.push(items[0].url);
     }

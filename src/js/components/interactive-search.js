@@ -25,6 +25,7 @@ import {
   ResultsPagination,
 } from './search/results';
 import BigSpinner from './big-spinner';
+import Matomo from '../matomo';
 
 class InteractiveSearch extends React.Component {
   constructor(props) {
@@ -71,6 +72,7 @@ class InteractiveSearch extends React.Component {
   async componentDidMount() {
     await this.loadData();
     document.title = `Главная страница | ${config.title}`;
+    Matomo.trackPageView();
     this.submitForm();
   }
 
@@ -128,6 +130,14 @@ class InteractiveSearch extends React.Component {
 
       if (tokenize(text).length > 0) {
         results = fts(text, results, ({ name }) => name);
+
+        if (event) {
+          Matomo.trackSiteSearch({
+            keyword: text,
+            category: mode,
+            count: results.length,
+          });
+        }
       }
     }
 

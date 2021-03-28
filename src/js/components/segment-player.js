@@ -25,6 +25,7 @@ import Playlist from './player/playlist';
 import Reparentable from './utils/reparentable';
 import config from '../../../config/config.json';
 import BigSpinner from './big-spinner';
+import Matomo from '../matomo';
 
 export default class SegmentPlayer extends React.Component {
   createChatContainer() {
@@ -224,6 +225,8 @@ export default class SegmentPlayer extends React.Component {
       }
 
       document.title = `${segmentRef.name} | ${game.name} | ${config.title}`;
+
+      Matomo.trackPageView();
 
       this.setState({
         loaded: true,
