@@ -11,11 +11,13 @@ export default class Playlist extends React.Component {
     activeItem: PropTypes.object.isRequired,
     forceExpanded: PropTypes.bool,
     fullHeight: PropTypes.bool,
+    opened: PropTypes.bool,
   }
 
   static defaultProps = {
     forceExpanded: false,
     fullHeight: false,
+    opened: false,
   }
 
   constructor(props) {
@@ -24,15 +26,17 @@ export default class Playlist extends React.Component {
     this.state = {
       collapsed: true,
     };
-
-    this.onSelect = this.onSelect.bind(this);
   }
 
-  onSelect(value) {
-    // Wait for transition before triggering update
-    setTimeout(() => {
-      this.setState({ collapsed: value === null });
-    }, 10);
+  componentDidUpdate(prevProps) {
+    const { opened: prevOpened } = prevProps;
+    const { opened } = this.props;
+
+    if (prevOpened !== opened) {
+      setTimeout(() => {
+        this.setState({ collapsed: !opened });
+      }, 10);
+    }
   }
 
   renderNowPlaying() {
@@ -58,7 +62,7 @@ export default class Playlist extends React.Component {
           variant="dark"
           size="sm"
           className="border-left border-right now-playing"
-          eventKey="0"
+          eventKey="streams"
         >
           {activeItem.ref.name}
         </Accordion.Toggle>
@@ -141,12 +145,12 @@ export default class Playlist extends React.Component {
     }
 
     return (
-      <Accordion onSelect={this.onSelect}>
+      <>
         {this.renderNowPlaying()}
-        <Accordion.Collapse eventKey="0">
+        <Accordion.Collapse eventKey="streams">
           {this.renderScrollableList()}
         </Accordion.Collapse>
-      </Accordion>
+      </>
     );
   }
 }

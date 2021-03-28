@@ -2,8 +2,10 @@ import { find } from 'lodash';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
+  Accordion,
   Button,
   Col,
+  ListGroup,
   OverlayTrigger,
   Row,
   Tab,
@@ -44,14 +46,17 @@ export default class SegmentPlayer extends React.Component {
       segment: null,
       segmentRef: null,
       playlist: null,
+      relatedRefs: null,
       timecodes: null,
       currentTime: 0,
       setTime: null,
+      playlistAccordion: null,
       sidebarCollapsed: false, // TODO: сохранять состояние в localStorage
     };
 
     this.toggleSidebar = this.toggleSidebar.bind(this);
     this.renderPlayerOverlay = this.renderPlayerOverlay.bind(this);
+    this.onPlaylistAccordionSelect = this.onPlaylistAccordionSelect.bind(this);
 
     this.chatContainer = this.createChatContainer();
   }
@@ -200,13 +205,22 @@ export default class SegmentPlayer extends React.Component {
         params,
       } = request;
 
-      let playlist = null;
+      const playlist = game.streams.map((ref) => ({
+        ref,
+        segment: segments.by('segment', ref.segment),
+      }));
 
-      if (game.type !== 'list') {
-        playlist = game.streams.map((ref) => ({
-          ref,
-          segment: segments.by('segment', ref.segment),
-        }));
+      let relatedRefs = segment.games.map((gameId) => {
+        const relatedGame = games.by('id', gameId);
+
+        return find(
+          relatedGame.streams,
+          (ref) => ref.segment === segment.segment,
+        );
+      }).filter((ref) => ref.game !== game);
+
+      if (relatedRefs.length === 0) {
+        relatedRefs = null;
       }
 
       document.title = `${segmentRef.name} | ${game.name} | ${config.title}`;
@@ -217,6 +231,7 @@ export default class SegmentPlayer extends React.Component {
         game,
         segmentRef,
         playlist,
+        relatedRefs,
         params,
         savedPositionAdapter: new SavedPosition(segment),
         timecodes: timecodes[segment.segment],
@@ -423,24 +438,61 @@ export default class SegmentPlayer extends React.Component {
     );
   }
 
+  onPlaylistAccordionSelect(eventKey) {
+    this.setState({ playlistAccordion: eventKey });
+  }
+
   renderPlaylist({ forceExpanded = false, fullHeight = false } = {}) {
-    const { segmentRef, playlist } = this.state;
+    const {
+      game,
+      relatedRefs,
+      segmentRef,
+      playlist,
+      playlistAccordion,
+    } = this.state;
 
-    if (!playlist) return null;
-
-    const activeItem = find(playlist, ({ ref }) => ref === segmentRef);
+    if (!playlist && !relatedRefs) return null;
 
     return (
       <>
         <div className="sidebar-header border-top border-bottom">
           Плейлист
         </div>
-        <Playlist
-          items={playlist}
-          activeItem={activeItem}
-          forceExpanded={forceExpanded}
-          fullHeight={fullHeight}
-        />
+        <Accordion onSelect={this.onPlaylistAccordionSelect}>
+          {relatedRefs && (
+            <>
+              <div className="playlist-game">
+                <Accordion.Toggle
+                  as={Button}
+                  variant="dark"
+                  size="sm"
+                  className="border-bottom current-game"
+                  eventKey="game"
+                >
+                  {game.name}
+                </Accordion.Toggle>
+              </div>
+              <Accordion.Collapse eventKey="game">
+                <ListGroup className="playlist">
+                  {relatedRefs.map((ref) => (
+                    <ListGroup.Item action as={Link} to={ref.url}>
+                      {ref.game.type === 'list' ? ref.name : ref.game.name}
+                    </ListGroup.Item>
+                  ))}
+                </ListGroup>
+              </Accordion.Collapse>
+            </>
+          )}
+          {playlist && (
+            <Playlist
+              items={playlist}
+              activeItem={find(playlist, ({ ref }) => ref === segmentRef)}
+              forceExpanded={forceExpanded}
+              fullHeight={fullHeight}
+              opened={playlistAccordion === 'streams'}
+            />
+          )}
+        </Accordion>
       </>
     );
   }
@@ -449,6 +501,8 @@ export default class SegmentPlayer extends React.Component {
     const {
       sidebarCollapsed,
       timecodes,
+      playlist,
+      relatedRefs,
       segment: {
         subtitles,
       },
@@ -465,7 +519,7 @@ export default class SegmentPlayer extends React.Component {
 
     return (
       <>
-        {timecodes && (
+        {(timecodes || playlist) && (
           <MediaQuery minDeviceWidth={1200}>
             <Col className={leftSidebarClasses} tabIndex="0">
               <div className="sidebar-row-overlay flex-row-reverse">
@@ -482,9 +536,16 @@ export default class SegmentPlayer extends React.Component {
                 </Button>
               </div>
 
-              {this.renderTimecodes()}
+              {(playlist || relatedRefs) && this.renderPlaylist()}
+              {timecodes && this.renderTimecodes()}
+
               <div className="collapsed-content">
-                <div className="sidebar-header">Таймкоды</div>
+                {(playlist || relatedRefs) && (
+                  <div className="sidebar-header">Плейлист</div>
+                )}
+                {timecodes && (
+                  <div className="sidebar-header">Таймкоды</div>
+                )}
               </div>
             </Col>
             {sidebarCollapsed && (
@@ -493,12 +554,19 @@ export default class SegmentPlayer extends React.Component {
           </MediaQuery>
         )}
 
-        {timecodes && (
+        {(timecodes || playlist) && (
           <MediaQuery minDeviceWidth={768} maxDeviceWidth={1199}>
             <Col className="col-sidebar border-right collapsed" tabIndex="0">
-              {this.renderTimecodes()}
+              {(playlist || relatedRefs) && this.renderPlaylist()}
+              {timecodes && this.renderTimecodes()}
+
               <div className="collapsed-content">
-                <div className="sidebar-header">Таймкоды</div>
+                {(playlist || relatedRefs) && (
+                  <div className="sidebar-header">Плейлист</div>
+                )}
+                {timecodes && (
+                  <div className="sidebar-header">Таймкоды</div>
+                )}
               </div>
             </Col>
             <div className="sidebar-placeholder" />
@@ -514,6 +582,7 @@ export default class SegmentPlayer extends React.Component {
       state: {
         fullscreen,
         playlist,
+        relatedRefs,
         timecodes,
         segment: {
           subtitles,
@@ -528,10 +597,10 @@ export default class SegmentPlayer extends React.Component {
     return (
       <MediaQuery minDeviceWidth={768}>
         <Col className="col-sidebar-wide border-left">
-          {playlist && this.renderPlaylist()}
           {(subtitles && !fullscreen) && (
             <Reparentable el={chatContainer} className="flex-1-1-0" />
           )}
+          {(!subtitles && (playlist || relatedRefs)) && this.renderPlaylist()}
           {(!subtitles && timecodes) && this.renderTimecodes()}
         </Col>
       </MediaQuery>

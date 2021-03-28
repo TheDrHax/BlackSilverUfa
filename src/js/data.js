@@ -43,6 +43,7 @@ function reload() {
     rawGames.forEach((game) => {
       game.streams.forEach((ref) => {
         ref.url = `/play/${game.id}/${ref.segment}`;
+        ref.game = game;
       });
 
       games.insert(game);

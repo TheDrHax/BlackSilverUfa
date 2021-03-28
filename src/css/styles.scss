@@ -349,6 +349,15 @@ h3>.badge {
   }
 }
 
+.playlist-game {
+  @extend .playlist-now;
+
+  & .current-game {
+    flex-grow: 1;
+    justify-content: center;
+  }
+}
+
 .playlist.list-group {
   font-size: 0.8rem;
 
