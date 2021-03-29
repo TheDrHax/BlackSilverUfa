@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "doom-eternal", "segment": "955030446", "name": "Doom Eternal #6 (The Ancient Gods: Part Two)", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "956331335", "name": "Yakuza: Like a Dragon #12", "start": 0},
       {"id": "co-op", "segment": "957785419", "name": "Draw & Guess / Unlasting Horror / Hide and Seek / Golf Party / Golf It! #25", "start": 0},
       {"id": "first", "segment": "958844668", "name": "The Eternal Cylinder / Wanted Raccoon / SnowRunner #16", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "unboxing", "segment": "962439245", "name": "ROG Flow X13 / Evil Inside - Прохождение / Crash Bandicoot 4: It's About Time #2 (заново)", "start": 0},
       {"id": "it-takes-two", "segment": "963666663", "name": "It Takes Two #1", "start": 0},
       {"id": "it-takes-two", "segment": "965027459", "name": "It Takes Two #2", "start": 0},
-      {"id": "it-takes-two", "segment": "966354094", "name": "It Takes Two #3", "start": 0}
+      {"id": "it-takes-two", "segment": "966354094", "name": "It Takes Two #3", "start": 0},
+      {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0}
     ]
   },
   "finished": {
@@ -534,7 +534,8 @@
       {"id": "first", "segment": "950210383", "name": "Dead Rising", "start": 11197},
       {"id": "first", "segment": "953865835", "name": "ALTF4", "start": 0},
       {"id": "first", "segment": "958844668", "name": "The Eternal Cylinder", "start": 0},
-      {"id": "first", "segment": "958844668", "name": "Wanted Raccoon", "start": 14994}
+      {"id": "first", "segment": "958844668", "name": "Wanted Raccoon", "start": 14994},
+      {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0}
     ]
   },
   "ongoing": {
