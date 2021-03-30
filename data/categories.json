@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "yakuza-like-dragon", "segment": "956331335", "name": "Yakuza: Like a Dragon #12", "start": 0},
       {"id": "co-op", "segment": "957785419", "name": "Draw & Guess / Unlasting Horror / Hide and Seek / Golf Party / Golf It! #25", "start": 0},
       {"id": "first", "segment": "958844668", "name": "The Eternal Cylinder / Wanted Raccoon / SnowRunner #16", "start": 0},
       {"id": "single", "segment": "961225183", "name": "Paradise Lost", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "it-takes-two", "segment": "963666663", "name": "It Takes Two #1", "start": 0},
       {"id": "it-takes-two", "segment": "965027459", "name": "It Takes Two #2", "start": 0},
       {"id": "it-takes-two", "segment": "966354094", "name": "It Takes Two #3", "start": 0},
-      {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0}
+      {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0},
+      {"id": "yakuza-like-dragon", "segment": "968731343", "name": "Yakuza: Like a Dragon #13 / PlayerUnknown's Battlegrounds #6", "start": 0}
     ]
   },
   "finished": {

@@ -7071,14 +7071,12 @@
     "youtube": "myrj9iYCY_w", "abs_start": "0:00", "abs_end": "2:32:49", "duration": "2:32:49",
     "name": "Yakuza: Like a Dragon #5",
     "date": "2021-03-03",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/934599690.torrent",
     "games": ["yakuza-like-dragon"]
   },
   "935303434": {
     "youtube": "4aawYzYcxkA", "abs_start": "0:00", "abs_end": "7:16:37", "duration": "7:16:37",
     "name": "Winter Survival Simulator (демо) / Maquette / Yakuza: Like a Dragon #6",
     "date": "2021-03-03",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/935303434.torrent",
     "games": ["first", "yakuza-like-dragon"]
   },
   "936535434": {
@@ -7227,5 +7225,13 @@
     "date": "2021-03-29",
     "torrent": "https://bsufiles.thedrhax.pw/streams/967584774.torrent",
     "games": ["first"]
+  },
+  "968731343": {
+    "abs_start": "0:00", "abs_end": "7:34:08", "duration": "0:00",
+    "name": "Yakuza: Like a Dragon #13 / PlayerUnknown's Battlegrounds #6",
+    "date": "2021-03-30",
+    "direct": "https://bsufiles.thedrhax.pw/streams/968731343.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/968731343.torrent",
+    "games": ["yakuza-like-dragon", "pubg"]
   }
 }
