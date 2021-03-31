@@ -218,7 +218,7 @@ export default class SegmentPlayer extends React.Component {
           relatedGame.streams,
           (ref) => ref.segment === segment.segment,
         );
-      }).filter((ref) => ref.game !== game);
+      });
 
       if (relatedRefs.length === 0) {
         relatedRefs = null;
@@ -490,7 +490,7 @@ export default class SegmentPlayer extends React.Component {
               <Accordion.Collapse eventKey="game">
                 <ListGroup className="playlist">
                   {relatedRefs.map((ref) => (
-                    <ListGroup.Item action as={Link} to={ref.url}>
+                    <ListGroup.Item action as={Link} to={ref.url} active={ref === segmentRef}>
                       {ref.game.type === 'list' ? ref.name : ref.game.name}
                     </ListGroup.Item>
                   ))}
