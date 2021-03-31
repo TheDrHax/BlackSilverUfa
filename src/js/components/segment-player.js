@@ -456,6 +456,18 @@ export default class SegmentPlayer extends React.Component {
 
     if (!playlist && !relatedRefs) return null;
 
+    const playlistComp = (
+      playlist && (
+        <Playlist
+          items={playlist}
+          activeItem={find(playlist, ({ ref }) => ref === segmentRef)}
+          forceExpanded={forceExpanded}
+          fullHeight={fullHeight}
+          opened={playlistAccordion === 'streams'}
+        />
+      )
+    );
+
     return (
       <>
         <div className="sidebar-header border-top border-bottom">
@@ -486,16 +498,9 @@ export default class SegmentPlayer extends React.Component {
               </Accordion.Collapse>
             </>
           )}
-          {playlist && (
-            <Playlist
-              items={playlist}
-              activeItem={find(playlist, ({ ref }) => ref === segmentRef)}
-              forceExpanded={forceExpanded}
-              fullHeight={fullHeight}
-              opened={playlistAccordion === 'streams'}
-            />
-          )}
+          {playlist && !forceExpanded && playlistComp}
         </Accordion>
+        {playlist && forceExpanded && playlistComp}
       </>
     );
   }
