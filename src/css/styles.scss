@@ -644,15 +644,10 @@ h3>.badge {
   z-index: 1; // above video (0) but below controls (3)
 
   & .chat-overlay {
-    position: absolute;
-    padding: 10vh 0.5rem 10vh 0rem;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 240px;
-
-    display: flex;
+    pointer-events: all;
+    display: flex !important;
     flex-direction: column;
+    border: 2px solid #{$border-color};
 
     & .chat-messages-list {
       pointer-events: all;

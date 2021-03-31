@@ -14,6 +14,7 @@ import {
 } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
+import { Rnd } from 'react-rnd';
 import { Data } from '../data';
 import SavedPosition from '../utils/saved-position';
 import BasePage from './base-page';
@@ -348,9 +349,18 @@ export default class SegmentPlayer extends React.Component {
     }
 
     return (
-      <div className="chat-overlay">
+      <Rnd
+        className="chat-overlay"
+        default={{
+          x: 0,
+          y: 0,
+          width: 240,
+          height: '80%',
+        }}
+        bounds="parent"
+      >
         {this.renderChat()}
-      </div>
+      </Rnd>
     );
   }
 
