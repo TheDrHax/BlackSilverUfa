@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "co-op", "segment": "957785419", "name": "Draw & Guess / Unlasting Horror / Hide and Seek / Golf Party / Golf It! #25", "start": 0},
       {"id": "first", "segment": "958844668", "name": "The Eternal Cylinder / Wanted Raccoon / SnowRunner #16", "start": 0},
       {"id": "single", "segment": "961225183", "name": "Paradise Lost", "start": 0},
       {"id": "doom-eternal", "segment": "961777772", "name": "Doom Eternal #1 (заново)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "it-takes-two", "segment": "965027459", "name": "It Takes Two #2", "start": 0},
       {"id": "it-takes-two", "segment": "966354094", "name": "It Takes Two #3", "start": 0},
       {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0},
-      {"id": "yakuza-like-dragon", "segment": "968731343", "name": "Yakuza: Like a Dragon #13 / PlayerUnknown's Battlegrounds #6", "start": 0}
+      {"id": "yakuza-like-dragon", "segment": "968731343", "name": "Yakuza: Like a Dragon #13 / PlayerUnknown's Battlegrounds #6", "start": 0},
+      {"id": "outriders", "segment": "970047432", "name": "Outriders #2", "start": 0}
     ]
   },
   "finished": {
@@ -526,7 +526,6 @@
       {"id": "first", "segment": "912392953", "name": "SuchArt: Genius Artist Simulator", "start": 9639},
       {"id": "first", "segment": "916293705", "name": "What Lives Below (демо)", "start": 0},
       {"id": "first", "segment": "928993182", "name": "System Shock (демо)", "start": 0},
-      {"id": "first", "segment": "928993182", "name": "Outriders (демо)", "start": 7510},
       {"id": "first", "segment": "932891083", "name": "HellSign", "start": 0},
       {"id": "first", "segment": "935303434", "name": "Winter Survival Simulator (демо)", "start": 0},
       {"id": "first", "segment": "935303434", "name": "Maquette", "start": 8220},
@@ -543,7 +542,7 @@
     "games": [
       {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
       {"name": "Loop Hero", "id": "loop-hero", "segment": "926537203"},
-      {"name": "Breathedge", "id": "breathedge", "segment": "927781155"}
+      {"name": "Outriders", "id": "outriders", "segment": "928993182"}
     ]
   },
   "infinite": {
@@ -656,7 +655,8 @@
       {"name": "SCP: Janitorial Work", "id": "scp-janitor", "segment": "851535429"},
       {"name": "Song of Horror", "id": "song-of-horror", "segment": "878410974"},
       {"name": "Disco Elysium", "id": "disco-elysium", "segment": "887445977"},
-      {"name": "Boris The Rocket", "id": "boris-rocket", "segment": "896656796"}
+      {"name": "Boris The Rocket", "id": "boris-rocket", "segment": "896656796"},
+      {"name": "Breathedge", "id": "breathedge", "segment": "927781155"}
     ]
   },
   "co-op": {

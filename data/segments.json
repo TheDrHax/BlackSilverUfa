@@ -7045,9 +7045,9 @@
   },
   "928993182": {
     "youtube": "TUgjIYuIzq0", "abs_start": "0:00", "abs_end": "6:02:45", "duration": "6:02:45",
-    "name": "System Shock (демо) / Outriders (демо) / Breathedge #2",
+    "name": "System Shock (демо) / Outriders #1 (демо) / Breathedge #2",
     "date": "2021-02-26",
-    "games": ["first", "breathedge"]
+    "games": ["first", "outriders", "breathedge"]
   },
   "929556422": {
     "youtube": "tTvQHxfvnfg", "abs_start": "0:00", "abs_end": "2:38:45", "duration": "2:38:45",
@@ -7083,7 +7083,6 @@
     "youtube": "ZpeTZNKr4CU", "abs_start": "0:00", "abs_end": "7:48:26", "duration": "7:48:26",
     "name": "Yakuza: Like a Dragon #7",
     "date": "2021-03-04",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/936535434.torrent",
     "games": ["yakuza-like-dragon"]
   },
   "937766301": {
@@ -7232,5 +7231,13 @@
     "date": "2021-03-30",
     "torrent": "https://bsufiles.thedrhax.pw/streams/968731343.torrent",
     "games": ["yakuza-like-dragon", "pubg"]
+  },
+  "970047432": {
+    "abs_start": "0:00", "abs_end": "4:10:54", "duration": "0:00",
+    "name": "Outriders #2",
+    "date": "2021-03-31",
+    "direct": "https://bsufiles.thedrhax.pw/streams/970047432.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/970047432.torrent",
+    "games": ["outriders"]
   }
 }
