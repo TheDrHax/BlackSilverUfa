@@ -58,7 +58,7 @@ export default class Game extends React.Component {
     const { match: { url } } = this.props;
 
     return (
-      <Col className="col-card" xs={6} md={4} lg={3} xl={2}>
+      <Col className="col-card" xs={6} md={4} lg={3} xl={2} key={ref.segment}>
         <Card>
           <Link to={`${url}/${ref.segment}`}>
             <Card.Img variant="top" src={segment.thumbnail} />

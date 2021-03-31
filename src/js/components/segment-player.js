@@ -490,7 +490,13 @@ export default class SegmentPlayer extends React.Component {
               <Accordion.Collapse eventKey="game">
                 <ListGroup className="playlist">
                   {relatedRefs.map((ref) => (
-                    <ListGroup.Item action as={Link} to={ref.url} active={ref === segmentRef}>
+                    <ListGroup.Item
+                      action
+                      key={ref.game.id}
+                      as={Link}
+                      to={ref.url}
+                      active={ref === segmentRef}
+                    >
                       {ref.game.type === 'list' ? ref.name : ref.game.name}
                     </ListGroup.Item>
                   ))}

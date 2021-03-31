@@ -77,27 +77,25 @@ export default class BasePage extends React.Component {
               <h5 className="text-uppercase">Социальные сети</h5>
               <ul className="list-unstyled">
                 <li>
-                  <li>
-                    <a href="https://vk.com/b_silver">
-                      <i className="fab fa-vk" />
-                      {' '}
-                      Группа ВКонтакте
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://vk.com/blacksilverufa">
-                      <i className="fab fa-vk" />
-                      {' '}
-                      Страница ВКонтакте
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/Sempai_Black">
-                      <i className="fab fa-twitter" />
-                      {' '}
-                      Twitter
-                    </a>
-                  </li>
+                  <a href="https://vk.com/b_silver">
+                    <i className="fab fa-vk" />
+                    {' '}
+                    Группа ВКонтакте
+                  </a>
+                </li>
+                <li>
+                  <a href="https://vk.com/blacksilverufa">
+                    <i className="fab fa-vk" />
+                    {' '}
+                    Страница ВКонтакте
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/Sempai_Black">
+                    <i className="fab fa-twitter" />
+                    {' '}
+                    Twitter
+                  </a>
                 </li>
               </ul>
             </Col>
