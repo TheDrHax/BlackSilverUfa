@@ -610,26 +610,12 @@ export default class SegmentPlayer extends React.Component {
     );
   }
 
-  renderAbovePlayer() {
-    const { game, segmentRef } = this.state;
-
-    return (
-      <Row>
-        <Col>
-          <div className="stream-header border-bottom border-top">
-            <Link to={`/play/${game.id}`}>{game.name}</Link>
-            <span>—</span>
-            <span className="flex-grow-1">{segmentRef.name}</span>
-          </div>
-        </Col>
-      </Row>
-    );
-  }
-
   renderBelowPlayer() {
     const {
       chatContainer,
       state: {
+        game,
+        segmentRef,
         fullscreen,
         playlist,
         timecodes,
@@ -651,6 +637,16 @@ export default class SegmentPlayer extends React.Component {
 
     return (
       <>
+        <Row>
+          <Col>
+            <div className="stream-header border-bottom">
+              <Link to={`/play/${game.id}`}>{game.name}</Link>
+              <span>—</span>
+              <span className="flex-grow-1">{segmentRef.name}</span>
+            </div>
+          </Col>
+        </Row>
+
         {(subtitles && (timecodes || playlist)) && (
           <MediaQuery minDeviceWidth={576} maxDeviceWidth={767}>
             <Row className="no-gutters flex-grow-1 flex-shrink-1">
@@ -748,11 +744,8 @@ export default class SegmentPlayer extends React.Component {
           {this.renderLeftSidebar()}
 
           <Col className="d-flex flex-column">
-            {this.renderAbovePlayer()}
-
             {this.renderPlayer()} {/* Can't be moved without reloading */}
             {this.renderPlayerControls()}
-
             {this.renderBelowPlayer()}
           </Col>
 

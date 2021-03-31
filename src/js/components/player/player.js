@@ -242,7 +242,7 @@ export default class Player extends React.PureComponent {
     return (
       <>
         {ReactDOM.createPortal(renderOverlay(), this.overlay)}
-        <div ref={this.ref} />
+        <div ref={this.ref} className="plyr-row" />
       </>
     );
   }
