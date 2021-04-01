@@ -100,8 +100,7 @@ def convert(ifn: str, ofn: str = None,
         replace = False
 
     r = SubtitlesReader(ifn)
-    w = SubtitlesWriter(ofn, r.header, style if style else r.style,
-                        tcd_config['ssa_events_format'][8:].split(', '))
+    w = SubtitlesWriter(ofn, r.header, style if style else r.style)
 
     for event in r.events():
         try:

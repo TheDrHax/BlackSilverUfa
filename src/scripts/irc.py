@@ -14,16 +14,11 @@ from datetime import datetime, timedelta
 
 import requests
 from docopt import docopt
-from tcd.twitch import Message
-from tcd.settings import settings as tcd_settings
-from tcd.subtitles import SubtitleWriter
 
 from ..data.config import tcd_config
 from ..data.streams import streams
 from ..data.timecodes import Timecode
-
-
-tcd_settings.update(tcd_config)
+from ..utils.ass import SubtitlesEvent, SubtitlesWriter
 
 
 def irc_params(params):
@@ -59,18 +54,19 @@ def parser(source: str, start: datetime, duration: datetime):
             break
 
         params = irc_params(parts[2])
-        message = ' '.join(parts[4:])[1:].strip()
 
-        yield Message({
-            'commenter': {
-                'display_name': params['display-name']
-            },
-            'message': {
-                'body': message,
-                'user_color': (params.get('color') or '#FFFFFF')[1:]
-            },
-            'content_offset_seconds': (ts - start).total_seconds()
-        })
+        msg = SubtitlesEvent()
+
+        msg.start = (ts - start).total_seconds()
+        msg.duration = 5
+
+        msg.username = params['display-name']
+        msg.text = ' '.join(parts[4:])[1:].strip()
+
+        color = params.get('color') or '#FFFFFF'
+        msg.color_bgr = color[5:7] + color[3:5] + color[1:3]
+
+        yield msg
 
     if not isinstance(fi, list):
         fi.close()
@@ -84,11 +80,10 @@ def main(argv=None):
     duration = timedelta(seconds=int(Timecode(args['<duration>'])))
     vod = args['<vod>']
 
-    tcd_settings['directory'] = os.path.dirname(streams[vod].subtitles_path)
-    writer = SubtitleWriter(vod)
+    writer = SubtitlesWriter(streams[vod].subtitles_path)
 
     for msg in parser(source, start, duration):
-        writer.add(msg)
+        writer.write(msg)
 
     writer.close()
 
