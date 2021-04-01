@@ -3,6 +3,8 @@ import re
 from typing import List
 from math import floor
 
+from ..data.config import tcd_config
+
 
 class EmptyLineError(Exception):
     pass
@@ -53,6 +55,12 @@ class SubtitlesEvent(dict):
     def duration(self, value: float):
         self.end = self.start + value
 
+    def full_text(self, user, text, color):
+        if color:
+            return '{\c&' + color + '&}' + user + '{\c&HFFFFFF&}: ' + text
+        else:
+            return f'{user}: {text}'
+
     @property
     def color_bgr(self):
         username = self['Text'].split(': ', 1)[0]
@@ -61,6 +69,10 @@ class SubtitlesEvent(dict):
         else:
             return None
 
+    @color_bgr.setter
+    def color_bgr(self, value):
+        self['Text'] = self.full_text(self.username, self.text, value)
+
     @property
     def username(self):
         username = self['Text'].split(': ', 1)[0]
@@ -68,16 +80,21 @@ class SubtitlesEvent(dict):
             username = username[13:len(username)-13]
         return username
 
+    @username.setter
+    def username(self, value):
+        self['Text'] = self.full_text(value, self.text, self.color_bgr)
+
     @property
     def text(self):
         return self['Text'].split(': ', 1)[1]
 
     @text.setter
     def text(self, value):
-        username = self['Text'].split(': ', 1)[0]
-        self['Text'] = f'{username}: {value}'
+        self['Text'] = self.full_text(self.username, value, self.color_bgr)
 
-    def __init__(self, line: str, event_format: List[str]):
+    def __init__(self,
+                 line: str = 'Dialogue: 0:00:00.00, 0:00:00.00, Default, user: msg',
+                 event_format: List[str] = ['Start', 'End', 'Style', 'Text']):
         self.format = event_format
 
         self.disabled = line.startswith('; ')
@@ -171,9 +188,22 @@ class SubtitlesReader:
             yield SubtitlesEvent(line, self.event_format)
 
 
+SUBTITLES_HEADER = '''[Script Info]
+PlayResX: 1280
+PlayResY: 720
+'''.split('\n')
+
+DEFAULT_STYLE = SubtitlesStyle(tcd_config['ssa_style_format'],
+                               tcd_config['ssa_style_default'])
+
+DEFAULT_FORMAT = tcd_config['ssa_events_format'][8:].split(', ')
+
+
 class SubtitlesWriter:
-    def __init__(self, fo, header: List[str], style: SubtitlesStyle,
-                 event_format: List[str]):
+    def __init__(self, fo,
+                 header: List[str] = SUBTITLES_HEADER,
+                 style: SubtitlesStyle = DEFAULT_STYLE,
+                 event_format: List[str] = DEFAULT_FORMAT):
         self.file = open(fo, 'w')
         self.style = style
         self.event_format = event_format
