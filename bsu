@@ -213,7 +213,7 @@ case $1 in
     debug) shift; DEBUG=1 $PYTHON -m src.utils.serve $@ ;;
     react)
         DEBUG=1 ./bsu build --no-webpack
-        HMR=1 webpack serve --config src/js/webpack.config.js ;;
+        HMR=1 webpack serve --host 0.0.0.0 --config src/js/webpack.config.js ;;
     download-chats) $PYTHON -m src.utils.chats ;;
     sh|bash) "$@" ;;
     cli)

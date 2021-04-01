@@ -21,7 +21,7 @@ module.exports = [
     output: {
       filename: 'bundle.js',
       path: path.join(process.env.PWD, '_site', 'dist'),
-      publicPath: `${config.dev_prefix}/dist/`,
+      publicPath: '/dist/',
     },
     devServer: {
       contentBase: path.join(process.env.PWD, '_site'),
