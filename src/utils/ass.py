@@ -57,7 +57,7 @@ class SubtitlesEvent(dict):
 
     def full_text(self, user, text, color):
         if color:
-            return '{\c&' + color + '&}' + user + '{\c&HFFFFFF&}: ' + text
+            return '{\c&H' + color + '&}' + user + '{\c&HFFFFFF&}: ' + text
         else:
             return f'{user}: {text}'
 
