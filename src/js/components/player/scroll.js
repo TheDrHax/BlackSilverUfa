@@ -27,6 +27,9 @@ export default class Scroll extends React.Component {
     this.innerHeight = 0;
     this.outerHeight = 0;
     this.prevOuterHeight = 0;
+    this.innerWidth = 0;
+    this.outerWidth = 0;
+    this.prevOuterWidth = 0;
   }
 
   onSizeChange() {
@@ -98,10 +101,22 @@ export default class Scroll extends React.Component {
 
     return (
       <Measure onResize={this.onSizeChange}>
-        {({ contentRect: { entry: { height: outerHeight } }, measureRef: outerMeasureRef }) => {
+        {({
+          contentRect: {
+            entry: {
+              width: outerWidth,
+              height: outerHeight,
+            },
+          },
+          measureRef: outerMeasureRef,
+        }) => {
           this.prevOuterHeight = this.outerHeight;
           this.outerHeight = outerHeight;
-          if (this.prevOuterHeight !== this.outerHeight) {
+          this.prevOuterWidth = this.outerWidth;
+          this.outerWidth = outerWidth;
+
+          if (this.prevOuterHeight !== this.outerHeight
+              || this.prevOuterWidth !== this.outerWidth) {
             this.keepAtBottom();
           }
 
