@@ -647,7 +647,13 @@ h3>.badge {
     pointer-events: all;
     display: flex !important;
     flex-direction: column;
-    border: 2px solid #{$border-color};
+
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 0.5rem;
+
+    &:hover, &:active {
+      border: 5px solid #00b3ff;
+    }
 
     & .chat-messages-list {
       pointer-events: all;
