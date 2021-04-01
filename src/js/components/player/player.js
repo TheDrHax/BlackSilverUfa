@@ -38,6 +38,10 @@ export default class Player extends React.PureComponent {
   constructor(props) {
     super(props);
 
+    this.state = {
+      chatOverlay: true, // TODO: сохранять состояние в localStorage
+    };
+
     this.ref = React.createRef();
     this.overlay = document.createElement('div');
     this.overlay.className = 'plyr-overlay';
@@ -83,12 +87,64 @@ export default class Player extends React.PureComponent {
     return source;
   }
 
+  addControlButton({
+    before = 'button[data-plyr="fullscreen"]',
+    iconClass = 'fas fa-comments',
+    value = true,
+    onToggle = (state) => state,
+  }) {
+    const { controls } = this.plyr.elements;
+
+    const button = document.createElement('button');
+    [
+      'plyr__controls__item',
+      'plyr__control',
+      'plyr__control__custom',
+    ].forEach((i) => button.classList.add(i));
+
+    const icon = document.createElement('i');
+    iconClass.split(' ').forEach((i) => icon.classList.add(i));
+    button.appendChild(icon);
+
+    if (value) {
+      button.pressed = true;
+      button.classList.add('plyr__control--pressed');
+    } else {
+      button.pressed = false;
+    }
+
+    button.onclick = () => {
+      if (button.pressed) {
+        button.pressed = false;
+        button.classList.remove('plyr__control--pressed');
+      } else {
+        button.pressed = true;
+        button.classList.add('plyr__control--pressed');
+      }
+
+      onToggle(button.pressed);
+    };
+
+    const nextNode = controls.querySelector(before);
+    controls.insertBefore(button, nextNode);
+  }
+
   onReady() {
     const { onReady, autostart } = this.props;
+    const { chatOverlay } = this.state;
     const { firstReady = true } = this;
 
     if (firstReady) {
       this.firstReady = false;
+
+      this.addControlButton({
+        before: '.plyr__menu',
+        iconClass: 'fas fa-comments',
+        value: chatOverlay,
+        onToggle: (value) => {
+          this.setState({ chatOverlay: value });
+        },
+      });
 
       onReady(this.plyr);
 
@@ -239,6 +295,7 @@ export default class Player extends React.PureComponent {
 
   render() {
     const { renderOverlay } = this.props;
+    const { chatOverlay } = this.state;
 
     return (
       <>
@@ -246,7 +303,7 @@ export default class Player extends React.PureComponent {
           <Measure>
             {({ contentRect: { entry }, measureRef }) => (
               <div className="plyr-overlay" ref={measureRef}>
-                {renderOverlay(entry)}
+                {chatOverlay && renderOverlay(entry)}
               </div>
             )}
           </Measure>,

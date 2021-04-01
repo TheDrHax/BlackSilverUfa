@@ -616,6 +616,15 @@ h3>.badge {
   background-color: #{$color-bg-light};
 }
 
+.plyr__control__custom {
+  line-height: 0 !important;
+  opacity: 0.5;
+
+  &.plyr__control--pressed {
+    opacity: 1;
+  }
+}
+
 @media(max-width: 399px) {
   .plyr iframe {
     width: 125%;
