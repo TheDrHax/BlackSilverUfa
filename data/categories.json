@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "958844668", "name": "The Eternal Cylinder / Wanted Raccoon / SnowRunner #16", "start": 0},
       {"id": "single", "segment": "961225183", "name": "Paradise Lost", "start": 0},
       {"id": "doom-eternal", "segment": "961777772", "name": "Doom Eternal #1 (заново)", "start": 0},
       {"id": "unboxing", "segment": "962439245", "name": "ROG Flow X13 / Evil Inside - Прохождение / Crash Bandicoot 4: It's About Time #2 (заново)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "it-takes-two", "segment": "966354094", "name": "It Takes Two #3", "start": 0},
       {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "968731343", "name": "Yakuza: Like a Dragon #13 / PlayerUnknown's Battlegrounds #6", "start": 0},
-      {"id": "outriders", "segment": "970047432", "name": "Outriders #2", "start": 0}
+      {"id": "outriders", "segment": "970047432", "name": "Outriders #2", "start": 0},
+      {"id": "first", "segment": "971240375", "name": "Super Seducer 3", "start": 0}
     ]
   },
   "finished": {
@@ -534,7 +534,8 @@
       {"id": "first", "segment": "953865835", "name": "ALTF4", "start": 0},
       {"id": "first", "segment": "958844668", "name": "The Eternal Cylinder", "start": 0},
       {"id": "first", "segment": "958844668", "name": "Wanted Raccoon", "start": 14994},
-      {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0}
+      {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0},
+      {"id": "first", "segment": "971240375", "name": "Super Seducer 3", "start": 0}
     ]
   },
   "ongoing": {
