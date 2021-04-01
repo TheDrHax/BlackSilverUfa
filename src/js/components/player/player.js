@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import Plyr from 'plyr';
+import Measure from 'react-measure';
 
 export default class Player extends React.PureComponent {
   static propTypes = {
@@ -241,7 +242,16 @@ export default class Player extends React.PureComponent {
 
     return (
       <>
-        {ReactDOM.createPortal(renderOverlay(), this.overlay)}
+        {ReactDOM.createPortal(
+          <Measure>
+            {({ contentRect: { entry }, measureRef }) => (
+              <div className="plyr-overlay" ref={measureRef}>
+                {renderOverlay(entry)}
+              </div>
+            )}
+          </Measure>,
+          this.overlay,
+        )}
         <div ref={this.ref} className="plyr-row" />
       </>
     );

@@ -27,6 +27,7 @@ import Reparentable from './utils/reparentable';
 import config from '../../../config/config.json';
 import BigSpinner from './big-spinner';
 import Matomo from '../matomo';
+import updateState from '../utils/update-state';
 
 export default class SegmentPlayer extends React.Component {
   createChatContainer() {
@@ -53,6 +54,12 @@ export default class SegmentPlayer extends React.Component {
       currentTime: 0,
       setTime: null,
       playlistAccordion: null,
+      chatOverlay: { // TODO: сохранять состояние в localStorage
+        width: null,
+        height: null,
+        x: null,
+        y: null,
+      },
       sidebarCollapsed: false, // TODO: сохранять состояние в localStorage
     };
 
@@ -336,12 +343,13 @@ export default class SegmentPlayer extends React.Component {
     );
   }
 
-  renderPlayerOverlay() {
+  renderPlayerOverlay({ height }) {
     const {
       fullscreen,
       segment: {
         subtitles,
       },
+      chatOverlay,
     } = this.state;
 
     if (!fullscreen || !subtitles) {
@@ -351,11 +359,27 @@ export default class SegmentPlayer extends React.Component {
     return (
       <Rnd
         className="chat-overlay"
-        default={{
-          x: 0,
-          y: 0,
-          width: 240,
-          height: '80%',
+        position={{
+          x: chatOverlay.x !== null ? chatOverlay.x : 0,
+          y: chatOverlay.y !== null ? chatOverlay.y : height * 0.65,
+        }}
+        size={{
+          width: chatOverlay.width || '35%',
+          height: chatOverlay.height || '35%',
+        }}
+        onDragStop={(e, { x, y }) => {
+          updateState(this, {
+            chatOverlay: { $merge: { x, y } },
+          });
+        }}
+        onResizeStop={(e, direction, ref, delta, position) => {
+          updateState(this, {
+            chatOverlay: {
+              width: { $set: ref.style.width },
+              height: { $set: ref.style.height },
+              $merge: position,
+            },
+          });
         }}
         bounds="parent"
       >
