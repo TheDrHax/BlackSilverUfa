@@ -300,7 +300,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
     template = video.slice(300, 300)[0]
 
     original = None
-    matching_stream = None
+    matching_segment = None
     video_offset = None
 
     for segment, t_range in candidates:
@@ -321,13 +321,13 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
         offset -= 300
 
         if score > 0:
-            matching_stream = segment.stream
+            matching_segment = segment
             video_offset = Timecode(round(offset))
             print(f'Match found: segment {segment.hash}, offset {video_offset}',
                   file=sys.stderr)
             break
 
-    if matching_stream is None:
+    if matching_segment is None:
         print('Error: Video does not match any streams', file=sys.stderr)
         sys.exit(2)
 
@@ -341,8 +341,20 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
                    'than the original.', file=sys.stderr)
             sys.exit(3)
 
-    segment = cmd_add(matching_stream, segment_kwargs)
-    return matching_stream, segment
+    if segment.note:
+        segment_kwargs['note'] = segment.note
+
+    segment_duration = int(segment.abs_end - segment.offset(segment.abs_end))
+
+    if video_offset == 0 and abs(video.duration - segment_duration) < 5:
+        if len(segment.cuts) > 0:
+            segment_kwargs['cuts'] = segment.cuts
+
+        if segment.offset(0) != 0:
+            segment_kwargs['offset'] = segment.offset(0)
+
+    segment = cmd_add(matching_segment.stream, segment_kwargs)
+    return matching_segment.stream, segment
 
 
 def check_cuts(original_video, input_video, offset=0):
