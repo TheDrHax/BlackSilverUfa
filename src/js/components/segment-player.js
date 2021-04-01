@@ -343,13 +343,13 @@ export default class SegmentPlayer extends React.Component {
     );
   }
 
-  renderPlayerOverlay({ height }) {
+  renderPlayerOverlay({ width, height }) {
     const {
       fullscreen,
       segment: {
         subtitles,
       },
-      chatOverlay,
+      chatOverlay: ol,
     } = this.state;
 
     if (!fullscreen || !subtitles) {
@@ -360,24 +360,30 @@ export default class SegmentPlayer extends React.Component {
       <Rnd
         className="chat-overlay"
         position={{
-          x: chatOverlay.x !== null ? chatOverlay.x : 0,
-          y: chatOverlay.y !== null ? chatOverlay.y : height * 0.65,
+          x: ol.x !== null ? ol.x * width : 0,
+          y: ol.y !== null ? ol.y * height : 0.65 * height,
         }}
         size={{
-          width: chatOverlay.width || '35%',
-          height: chatOverlay.height || '35%',
+          width: ol.width ? `${ol.width * 100}%` : '35%',
+          height: ol.height ? `${ol.height * 100}%` : '35%',
         }}
         onDragStop={(e, { x, y }) => {
           updateState(this, {
-            chatOverlay: { $merge: { x, y } },
+            chatOverlay: { $merge: {
+              x: x / width,
+              y: y / height,
+            } },
           });
         }}
         onResizeStop={(e, direction, ref, delta, position) => {
           updateState(this, {
             chatOverlay: {
-              width: { $set: ref.style.width },
-              height: { $set: ref.style.height },
-              $merge: position,
+              $merge: {
+                width: ref.offsetWidth / width,
+                height: ref.offsetHeight / height,
+                x: position.x / width,
+                y: position.y / height,
+              },
             },
           });
         }}
