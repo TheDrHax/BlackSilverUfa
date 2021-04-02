@@ -7245,5 +7245,13 @@
     "cuts": [[10360, 12672]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/971240375.torrent",
     "games": ["first"]
+  },
+  "972475218": {
+    "abs_start": "0:00", "abs_end": "6:33:31", "duration": "0:00",
+    "name": "Last Oasis",
+    "date": "2021-04-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/972475218.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/972475218.torrent",
+    "games": ["first"]
   }
 }
