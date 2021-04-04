@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import Plyr from 'plyr';
 import Measure from 'react-measure';
+import Persist from '../../utils/persist';
 
-export default class Player extends React.PureComponent {
+export default class Player extends React.Component {
   static propTypes = {
     youtube: PropTypes.string,
     direct: PropTypes.string,
@@ -39,7 +40,9 @@ export default class Player extends React.PureComponent {
     super(props);
 
     this.state = {
-      chatOverlay: true, // TODO: сохранять состояние в localStorage
+      ...Persist.load('Player', {
+        chatOverlay: true,
+      }),
     };
 
     this.ref = React.createRef();
@@ -277,6 +280,14 @@ export default class Player extends React.PureComponent {
 
   componentDidMount() {
     this.spawnPlyr();
+  }
+
+  shouldComponentUpdate(prevProps, nextState) {
+    Persist.save('Player', this.state, nextState, [
+      'chatOverlay',
+    ]);
+
+    return true;
   }
 
   componentDidUpdate(prev) {

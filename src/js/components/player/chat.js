@@ -6,6 +6,7 @@ import { Button, ListGroup, ListGroupItem, OverlayTrigger, Spinner, Tooltip } fr
 import fetchline from 'fetchline';
 import Timecodes from './timecodes';
 import Scroll from './scroll';
+import Persist from '../../utils/persist';
 
 export default class Chat extends React.Component {
   static propTypes = {
@@ -26,8 +27,10 @@ export default class Chat extends React.Component {
     this.state = {
       loaded: false,
       error: null,
-      showHidden: false,
       maxItems: 100,
+      ...Persist.load('Chat', {
+        showHidden: false,
+      }),
     };
 
     this.toggleShowHidden = this.toggleShowHidden.bind(this);
@@ -117,6 +120,14 @@ export default class Chat extends React.Component {
     }
   }
 
+  shouldComponentUpdate(prevProps, nextState) {
+    Persist.save('Chat', this.state, nextState, [
+      'showHidden',
+    ]);
+
+    return true;
+  }
+
   componentDidUpdate(prevProps) {
     const { subtitles } = this.props;
     const { subtitles: prevSubtitles } = prevProps;
@@ -128,10 +139,6 @@ export default class Chat extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({
-      showHidden: JSON.parse(localStorage.getItem('chat-messages-hidden')) || false,
-    });
-
     this.tryLoadData();
   }
 
@@ -155,7 +162,6 @@ export default class Chat extends React.Component {
   toggleShowHidden() {
     const { showHidden } = this.state;
     this.setState({ showHidden: !showHidden });
-    localStorage.setItem('chat-messages-hidden', JSON.stringify(!showHidden));
   }
 
   renderMessages() {

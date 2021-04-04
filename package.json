@@ -69,6 +69,7 @@
     "react-rnd": "^10.2.4",
     "react-router-dom": "^5.2.0",
     "react-router-global-history": "^1.1.0",
+    "shallowequal": "^1.1.0",
     "sugar": "^2.0.6"
   }
 }

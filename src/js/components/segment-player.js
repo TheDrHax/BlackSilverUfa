@@ -17,6 +17,7 @@ import MediaQuery from 'react-responsive';
 import { Rnd } from 'react-rnd';
 import { Data } from '../data';
 import SavedPosition from '../utils/saved-position';
+import Persist from '../utils/persist';
 import BasePage from './base-page';
 import Chat from './player/chat';
 import Player from './player/player';
@@ -54,13 +55,15 @@ export default class SegmentPlayer extends React.Component {
       currentTime: 0,
       setTime: null,
       playlistAccordion: null,
-      chatOverlay: { // TODO: сохранять состояние в localStorage
-        width: null,
-        height: null,
-        x: null,
-        y: null,
-      },
-      sidebarCollapsed: false, // TODO: сохранять состояние в localStorage
+      ...Persist.load('SegmentPlayer', {
+        chatOverlay: {
+          width: null,
+          height: null,
+          x: null,
+          y: null,
+        },
+        sidebarCollapsed: false,
+      }),
     };
 
     this.toggleSidebar = this.toggleSidebar.bind(this);
@@ -252,6 +255,15 @@ export default class SegmentPlayer extends React.Component {
 
   componentDidMount() {
     this.loadData();
+  }
+
+  shouldComponentUpdate(prevProps, nextState) {
+    Persist.save('SegmentPlayer', this.state, nextState, [
+      'chatOverlay',
+      'sidebarCollapsed',
+    ]);
+
+    return true;
   }
 
   componentDidUpdate(prevProps) {
