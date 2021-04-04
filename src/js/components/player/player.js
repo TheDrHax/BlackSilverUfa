@@ -152,7 +152,7 @@ export default class Player extends React.Component {
       onReady(this.plyr);
 
       if (autostart) {
-        this.plyr.play();
+        this.plyr.play().catch(() => null);
       }
     }
   }
@@ -179,7 +179,7 @@ export default class Player extends React.Component {
     if (firstTimeUpdate) {
       this.firstTimeUpdate = false;
 
-      if (time === 0) {
+      if (time < 1) {
         if (autostart) {
           plyr.currentTime = autostart;
         } else if (spa && spa.exists()) {
