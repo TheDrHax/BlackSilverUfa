@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "doom-eternal", "segment": "961777772", "name": "Doom Eternal #1 (заново)", "start": 0},
       {"id": "unboxing", "segment": "962439245", "name": "ROG Flow X13 / Evil Inside - Прохождение / Crash Bandicoot 4: It's About Time #2 (заново)", "start": 0},
       {"id": "it-takes-two", "segment": "963666663", "name": "It Takes Two #1", "start": 0},
       {"id": "it-takes-two", "segment": "965027459", "name": "It Takes Two #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "yakuza-like-dragon", "segment": "968731343", "name": "Yakuza: Like a Dragon #13 / PlayerUnknown's Battlegrounds #6", "start": 0},
       {"id": "outriders", "segment": "970047432", "name": "Outriders #2", "start": 0},
       {"id": "first", "segment": "971240375", "name": "Super Seducer 3", "start": 0},
-      {"id": "first", "segment": "972475218", "name": "Last Oasis", "start": 0}
+      {"id": "first", "segment": "972475218", "name": "Last Oasis", "start": 0},
+      {"id": "re2-remake", "segment": "975061581", "name": "Resident Evil 2 Remake #7 (заново) / Игровые коллекции зрителей / Knockout City (WLG, Bale)", "start": 0}
     ]
   },
   "finished": {
@@ -543,7 +543,6 @@
     "name": "Активные",
     "games": [
       {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
-      {"name": "Loop Hero", "id": "loop-hero", "segment": "926537203"},
       {"name": "Outriders", "id": "outriders", "segment": "928993182"}
     ]
   },
@@ -658,6 +657,7 @@
       {"name": "Song of Horror", "id": "song-of-horror", "segment": "878410974"},
       {"name": "Disco Elysium", "id": "disco-elysium", "segment": "887445977"},
       {"name": "Boris The Rocket", "id": "boris-rocket", "segment": "896656796"},
+      {"name": "Loop Hero", "id": "loop-hero", "segment": "926537203"},
       {"name": "Breathedge", "id": "breathedge", "segment": "927781155"}
     ]
   },
@@ -825,7 +825,8 @@
       {"id": "co-op", "segment": "957785419", "name": "Draw & Guess", "start": 0},
       {"id": "co-op", "segment": "957785419", "name": "Unlasting Horror", "start": 7396},
       {"id": "co-op", "segment": "957785419", "name": "Hide and Seek", "start": 9065},
-      {"id": "co-op", "segment": "957785419", "name": "Golf Party", "start": 10401}
+      {"id": "co-op", "segment": "957785419", "name": "Golf Party", "start": 10401},
+      {"id": "co-op", "segment": "975061581", "name": "Knockout City (WLG, Bale)", "start": 11486}
     ]
   },
   "other": {
@@ -854,7 +855,8 @@
       {"id": "other", "segment": "793751031", "name": "Тест Xbox Series X", "start": 0},
       {"id": "events", "segment": "815193918", "name": "Розыгрыш флешек Asus ROG и ACRONYM", "start": 0},
       {"id": "events", "segment": "823035178", "name": "Розыгрыш NVIDIA GeForce RTX 2080 Super", "start": 0},
-      {"id": "other", "segment": "895436223", "name": "Трейлеры и арты", "start": 0}
+      {"id": "other", "segment": "895436223", "name": "Трейлеры и арты", "start": 0},
+      {"id": "events", "segment": "975061581", "name": "Игровые коллекции зрителей", "start": 9662}
     ]
   },
   "expos": {
