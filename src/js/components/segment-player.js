@@ -423,6 +423,7 @@ export default class SegmentPlayer extends React.Component {
 
             <OverlayTrigger
               trigger="click"
+              rootClose
               placement="top"
               overlay={(
                 <ShareOverlay
