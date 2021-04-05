@@ -17,6 +17,10 @@ $input-color-placeholder: darken($text-color, 50%);
 $input-color: #{$text-color};
 $input-group-addon-bg: #{$color-bg};
 
+$popover-bg: $color-bg-light;
+$popover-header-color: $text-color;
+$popover-body-color: $text-color;
+
 $border-color: hsla(0, 0%, 100%, 0.1);
 
 $pagination-bg: #{$color-bg-light};
@@ -36,6 +40,11 @@ $pagination-hover-border-color: #{$border-color};
 
 .flex-1-1-0 {
   flex: 1 1 0;
+}
+
+.popover input.form-control {
+  background-color: #{$input-bg};
+  color: #{$input-color};
 }
 
 .form-control, .input-group-text, .input-group > select {

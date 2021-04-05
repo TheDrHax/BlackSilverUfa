@@ -29,6 +29,7 @@ import config from '../../../config/config.json';
 import BigSpinner from './big-spinner';
 import Matomo from '../matomo';
 import updateState from '../utils/update-state';
+import { ShareOverlay } from './player/share-overlay';
 
 export default class SegmentPlayer extends React.Component {
   createChatContainer() {
@@ -407,13 +408,34 @@ export default class SegmentPlayer extends React.Component {
   }
 
   renderPlayerControls() {
-    const { toggleFullscreen } = this.state;
+    const {
+      toggleFullscreen,
+      segment: { segment, abs_start: absStart },
+      game: { id: game },
+      currentTime,
+    } = this.state;
 
     return (
       <Row className="no-gutters">
         <Col>
           <div className="player-controls border-top border-bottom">
             <div className="flex-grow-1" />
+
+            <OverlayTrigger
+              trigger="click"
+              placement="top"
+              overlay={(
+                <ShareOverlay
+                  game={game}
+                  segment={segment}
+                  offset={absStart}
+                  currentTime={currentTime}
+                />
+              )}
+            >
+              <Button variant="dark" size="sm" className="mr-2">Поделиться</Button>
+            </OverlayTrigger>
+
             <OverlayTrigger
               placement="top"
               overlay={(props) => (
