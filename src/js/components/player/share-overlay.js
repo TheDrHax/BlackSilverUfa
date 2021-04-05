@@ -17,7 +17,7 @@ const ShareOverlay = React.forwardRef((props, ref) => {
   let baseUrl = `https://bsu.us.to/${game}/${segment}`;
 
   if (includeTime) {
-    baseUrl += `?at=${time - offset}`;
+    baseUrl += `?at=${time + offset}`;
   }
 
   return (
