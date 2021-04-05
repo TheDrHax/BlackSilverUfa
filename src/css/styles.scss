@@ -455,6 +455,21 @@ h3>.badge {
  * Segment Player
  */
 
+.share-popover {
+  & .form-check {
+    display: flex;
+    align-items: center;
+
+    & .form-check-input {
+      margin-top: 0;
+    }
+  }
+
+  & .time-selector {
+    width: unset;
+  }
+}
+
 .spinner-border-xl {
   width: 10rem;
   height: 10rem;
