@@ -7101,7 +7101,6 @@
     "youtube": "WjEAgrXvrzI", "abs_start": "0:00", "abs_end": "9:00:08", "duration": "9:00:08",
     "name": "Yakuza: Like a Dragon #9",
     "date": "2021-03-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/941624679.torrent",
     "games": ["yakuza-like-dragon"]
   },
   "942788997": {
@@ -7265,5 +7264,13 @@
     "date": "2021-04-08",
     "torrent": "https://bsufiles.thedrhax.pw/streams/979229370.torrent",
     "games": ["doom-eternal"]
+  },
+  "979835510": {
+    "abs_start": "0:00", "abs_end": "6:55:28", "duration": "0:00",
+    "name": "Oddworld: Soulstorm / Silent Hill",
+    "date": "2021-04-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/979835510.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/979835510.torrent",
+    "games": ["first"]
   }
 }
