@@ -7095,7 +7095,6 @@
     "youtube": "Y7Hn-lNLY0Y", "abs_start": "0:00", "abs_end": "7:01:45", "duration": "7:01:45",
     "name": "Yakuza: Like a Dragon #8",
     "date": "2021-03-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/939107107.torrent",
     "games": ["yakuza-like-dragon"]
   },
   "941624679": {
@@ -7259,5 +7258,13 @@
     "date": "2021-04-04",
     "torrent": "https://bsufiles.thedrhax.pw/streams/975061581.torrent",
     "games": ["re2-remake", "events", "co-op"]
+  },
+  "979229370": {
+    "abs_start": "0:00", "abs_end": "54:32", "duration": "0:00",
+    "name": "Doom Eternal #2 (без комментариев)",
+    "date": "2021-04-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/979229370.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/979229370.torrent",
+    "games": ["doom-eternal"]
   }
 }
