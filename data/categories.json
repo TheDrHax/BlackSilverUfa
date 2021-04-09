@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "it-takes-two", "segment": "965027459", "name": "It Takes Two #2", "start": 0},
       {"id": "it-takes-two", "segment": "966354094", "name": "It Takes Two #3", "start": 0},
       {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0},
       {"id": "yakuza-like-dragon", "segment": "968731343", "name": "Yakuza: Like a Dragon #13 / PlayerUnknown's Battlegrounds #6", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "972475218", "name": "Last Oasis", "start": 0},
       {"id": "re2-remake", "segment": "975061581", "name": "Resident Evil 2 Remake #7 (заново) / Игровые коллекции зрителей / Knockout City (WLG, Bale)", "start": 0},
       {"id": "doom-eternal", "segment": "979229370", "name": "Doom Eternal #2 (без комментариев)", "start": 0},
-      {"id": "first", "segment": "979835510", "name": "Oddworld: Soulstorm / Silent Hill", "start": 0}
+      {"id": "first", "segment": "979835510", "name": "Oddworld: Soulstorm / Silent Hill #1", "start": 0},
+      {"id": "sh", "segment": "980365564", "name": "Silent Hill #2", "start": 0}
     ]
   },
   "finished": {
@@ -240,7 +240,8 @@
       {"id": "single", "segment": "937766301", "name": "Voyage", "start": 0},
       {"id": "single", "segment": "952632063", "name": "Mundaun", "start": 0},
       {"id": "single", "segment": "961225183", "name": "Paradise Lost", "start": 0},
-      {"name": "It Takes Two", "id": "it-takes-two", "segment": "963666663"}
+      {"name": "It Takes Two", "id": "it-takes-two", "segment": "963666663"},
+      {"name": "Silent Hill", "id": "sh", "segment": "979835510"}
     ]
   },
   "first": {
@@ -537,8 +538,7 @@
       {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0},
       {"id": "first", "segment": "971240375", "name": "Super Seducer 3", "start": 0},
       {"id": "first", "segment": "972475218", "name": "Last Oasis", "start": 0},
-      {"id": "first", "segment": "979835510", "name": "Oddworld: Soulstorm", "start": 0},
-      {"id": "first", "segment": "979835510", "name": "Silent Hill", "start": 7425}
+      {"id": "first", "segment": "979835510", "name": "Oddworld: Soulstorm", "start": 0}
     ]
   },
   "ongoing": {

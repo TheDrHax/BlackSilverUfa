@@ -7267,10 +7267,18 @@
   },
   "979835510": {
     "abs_start": "0:00", "abs_end": "6:55:28", "duration": "0:00",
-    "name": "Oddworld: Soulstorm / Silent Hill",
+    "name": "Oddworld: Soulstorm / Silent Hill #1",
     "date": "2021-04-08",
     "direct": "https://bsufiles.thedrhax.pw/streams/979835510.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/979835510.torrent",
-    "games": ["first"]
+    "games": ["first", "sh"]
+  },
+  "980365564": {
+    "abs_start": "0:00", "abs_end": "2:38:42", "duration": "0:00",
+    "name": "Silent Hill #2",
+    "date": "2021-04-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/980365564.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/980365564.torrent",
+    "games": ["sh"]
   }
 }
