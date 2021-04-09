@@ -41,6 +41,9 @@ def parser(source: str, start: datetime, duration: datetime):
     for line in fi:
         parts = line.split(' ')
 
+        if len(parts) < 2:
+            continue
+
         if parts[1] != 'privmsg':
             continue
 
