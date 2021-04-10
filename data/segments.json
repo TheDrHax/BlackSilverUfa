@@ -7113,7 +7113,6 @@
     "youtube": "obEk9jSEIQ8", "abs_start": "0:00", "abs_end": "1:18:25", "duration": "1:18:25",
     "name": "ROG Phone 5 Launch Event",
     "date": "2021-03-10",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/943938218.torrent",
     "games": ["expos"]
   },
   "950210383": {
@@ -7280,9 +7279,17 @@
   },
   "981050724": {
     "youtube": "SfE51X3hbVc", "official": false, "abs_start": "0:00", "abs_end": "6:27:17", "duration": "6:27:17",
-    "name": "Silent Hill 2",
+    "name": "Silent Hill 2 #1",
     "date": "2021-04-09",
     "torrent": "https://bsufiles.thedrhax.pw/streams/981050724.torrent",
-    "games": ["first"]
+    "games": ["sh2"]
+  },
+  "982375076": {
+    "abs_start": "0:00", "abs_end": "5:36:13", "duration": "0:00",
+    "name": "Silent Hill 2 #2",
+    "date": "2021-04-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/982375076.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/982375076.torrent",
+    "games": ["sh2"]
   }
 }
