@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "yakuza-like-dragon", "segment": "968731343", "name": "Yakuza: Like a Dragon #13 / PlayerUnknown's Battlegrounds #6", "start": 0},
       {"id": "outriders", "segment": "970047432", "name": "Outriders #2", "start": 0},
       {"id": "first", "segment": "971240375", "name": "Super Seducer 3", "start": 0},
       {"id": "first", "segment": "972475218", "name": "Last Oasis", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "979835510", "name": "Oddworld: Soulstorm / Silent Hill #1", "start": 0},
       {"id": "sh", "segment": "980365564", "name": "Silent Hill #2", "start": 0},
       {"id": "sh2", "segment": "981050724", "name": "Silent Hill 2 #1", "start": 0},
-      {"id": "sh2", "segment": "982375076", "name": "Silent Hill 2 #2", "start": 0}
+      {"id": "sh2", "segment": "982375076", "name": "Silent Hill 2 #2", "start": 0},
+      {"id": "sh3", "segment": "983663320", "name": "Silent Hill 3 #1", "start": 0}
     ]
   },
   "finished": {
@@ -546,7 +546,8 @@
     "name": "Активные",
     "games": [
       {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
-      {"name": "Outriders", "id": "outriders", "segment": "928993182"}
+      {"name": "Outriders", "id": "outriders", "segment": "928993182"},
+      {"name": "Silent Hill 3", "id": "sh3", "segment": "983663320"}
     ]
   },
   "infinite": {

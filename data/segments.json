@@ -7119,7 +7119,6 @@
     "youtube": "8ls5FUVoaSg", "official": false, "abs_start": "0:00", "abs_end": "7:21:46", "duration": "7:21:46",
     "name": "Lust from Beyond / Dead Rising",
     "date": "2021-03-15",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/950210383.torrent",
     "games": ["first"]
   },
   "951366585": {
@@ -7290,5 +7289,13 @@
     "date": "2021-04-10",
     "torrent": "https://bsufiles.thedrhax.pw/streams/982375076.torrent",
     "games": ["sh2"]
+  },
+  "983663320": {
+    "abs_start": "0:00", "abs_end": "6:16:30", "duration": "0:00",
+    "name": "Silent Hill 3 #1",
+    "date": "2021-04-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/983663320.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/983663320.torrent",
+    "games": ["sh3"]
   }
 }
