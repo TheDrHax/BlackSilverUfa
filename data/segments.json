@@ -7125,7 +7125,6 @@
     "youtube": "YCPy_beJdvg", "abs_start": "0:00", "abs_end": "10:13:21", "duration": "10:13:21",
     "name": "Yakuza: Like a Dragon #11",
     "date": "2021-03-16",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/951366585.torrent",
     "games": ["yakuza-like-dragon"]
   },
   "952632063": {
@@ -7296,5 +7295,13 @@
     "date": "2021-04-11",
     "torrent": "https://bsufiles.thedrhax.pw/streams/983663320.torrent",
     "games": ["sh3"]
+  },
+  "984801715": {
+    "abs_start": "0:00", "abs_end": "6:11:46", "duration": "0:00",
+    "name": "Say No! More / Gartic Phone #3 / First Class Trouble",
+    "date": "2021-04-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/984801715.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/984801715.torrent",
+    "games": ["first", "gartic-phone", "co-op"]
   }
 }

@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "outriders", "segment": "970047432", "name": "Outriders #2", "start": 0},
       {"id": "first", "segment": "971240375", "name": "Super Seducer 3", "start": 0},
       {"id": "first", "segment": "972475218", "name": "Last Oasis", "start": 0},
       {"id": "re2-remake", "segment": "975061581", "name": "Resident Evil 2 Remake #7 (заново) / Игровые коллекции зрителей / Knockout City (WLG, Bale)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "sh", "segment": "980365564", "name": "Silent Hill #2", "start": 0},
       {"id": "sh2", "segment": "981050724", "name": "Silent Hill 2 #1", "start": 0},
       {"id": "sh2", "segment": "982375076", "name": "Silent Hill 2 #2", "start": 0},
-      {"id": "sh3", "segment": "983663320", "name": "Silent Hill 3 #1", "start": 0}
+      {"id": "sh3", "segment": "983663320", "name": "Silent Hill 3 #1", "start": 0},
+      {"id": "first", "segment": "984801715", "name": "Say No! More / Gartic Phone #3 / First Class Trouble", "start": 0}
     ]
   },
   "finished": {
@@ -539,7 +539,8 @@
       {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0},
       {"id": "first", "segment": "971240375", "name": "Super Seducer 3", "start": 0},
       {"id": "first", "segment": "972475218", "name": "Last Oasis", "start": 0},
-      {"id": "first", "segment": "979835510", "name": "Oddworld: Soulstorm", "start": 0}
+      {"id": "first", "segment": "979835510", "name": "Oddworld: Soulstorm", "start": 0},
+      {"id": "first", "segment": "984801715", "name": "Say No! More", "start": 0}
     ]
   },
   "ongoing": {
@@ -830,7 +831,8 @@
       {"id": "co-op", "segment": "957785419", "name": "Unlasting Horror", "start": 7396},
       {"id": "co-op", "segment": "957785419", "name": "Hide and Seek", "start": 9065},
       {"id": "co-op", "segment": "957785419", "name": "Golf Party", "start": 10401},
-      {"id": "co-op", "segment": "975061581", "name": "Knockout City (WLG, Bale)", "start": 11486}
+      {"id": "co-op", "segment": "975061581", "name": "Knockout City (WLG, Bale)", "start": 11486},
+      {"id": "co-op", "segment": "984801715", "name": "First Class Trouble", "start": 13557}
     ]
   },
   "other": {
