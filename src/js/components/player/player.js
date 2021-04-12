@@ -169,6 +169,7 @@ export default class Player extends React.Component {
 
     const {
       plyr,
+      firstReady = true,
       firstTimeUpdate = true,
       lastCallback = -0.25,
       lastSave = 0,
@@ -176,7 +177,7 @@ export default class Player extends React.Component {
 
     const time = plyr.currentTime;
 
-    if (firstTimeUpdate) {
+    if (!firstReady && firstTimeUpdate) {
       this.firstTimeUpdate = false;
 
       if (time < 1) {
