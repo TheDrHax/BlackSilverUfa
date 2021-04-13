@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "971240375", "name": "Super Seducer 3", "start": 0},
       {"id": "first", "segment": "972475218", "name": "Last Oasis", "start": 0},
       {"id": "re2-remake", "segment": "975061581", "name": "Resident Evil 2 Remake #7 (заново) / Игровые коллекции зрителей / Knockout City (WLG, Bale)", "start": 0},
       {"id": "doom-eternal", "segment": "979229370", "name": "Doom Eternal #2 (без комментариев)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "sh2", "segment": "981050724", "name": "Silent Hill 2 #1", "start": 0},
       {"id": "sh2", "segment": "982375076", "name": "Silent Hill 2 #2", "start": 0},
       {"id": "sh3", "segment": "983663320", "name": "Silent Hill 3 #1", "start": 0},
-      {"id": "first", "segment": "984801715", "name": "Say No! More / Gartic Phone #3 / First Class Trouble", "start": 0}
+      {"id": "first", "segment": "984801715", "name": "Say No! More / Gartic Phone #3 / First Class Trouble", "start": 0},
+      {"id": "sh3", "segment": "985933335", "name": "Silent Hill 3 #2 / SnowRunner #17", "start": 0}
     ]
   },
   "finished": {
@@ -242,7 +242,8 @@
       {"id": "single", "segment": "961225183", "name": "Paradise Lost", "start": 0},
       {"name": "It Takes Two", "id": "it-takes-two", "segment": "963666663"},
       {"name": "Silent Hill", "id": "sh", "segment": "979835510"},
-      {"name": "Silent Hill 2", "id": "sh2", "segment": "981050724"}
+      {"name": "Silent Hill 2", "id": "sh2", "segment": "981050724"},
+      {"name": "Silent Hill 3", "id": "sh3", "segment": "983663320"}
     ]
   },
   "first": {
@@ -547,8 +548,7 @@
     "name": "Активные",
     "games": [
       {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
-      {"name": "Outriders", "id": "outriders", "segment": "928993182"},
-      {"name": "Silent Hill 3", "id": "sh3", "segment": "983663320"}
+      {"name": "Outriders", "id": "outriders", "segment": "928993182"}
     ]
   },
   "infinite": {
