@@ -471,7 +471,7 @@ export default class SegmentPlayer extends React.Component {
     } = this.state;
 
     const header = (
-      <div className="sidebar-header border-bottom border-top">
+      <div className="sidebar-header">
         Запись чата
       </div>
     );
@@ -507,7 +507,7 @@ export default class SegmentPlayer extends React.Component {
 
     return (
       <>
-        <div className="sidebar-header border-bottom border-top">
+        <div className="sidebar-header">
           Таймкоды
         </div>
         <Scroll flex="1 1 0">
@@ -550,7 +550,7 @@ export default class SegmentPlayer extends React.Component {
 
     return (
       <>
-        <div className="sidebar-header border-top border-bottom">
+        <div className="sidebar-header">
           Плейлист
         </div>
         <Accordion onSelect={this.onPlaylistAccordionSelect}>

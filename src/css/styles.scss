@@ -568,6 +568,12 @@ h3>.badge {
     font-size: 0.9rem;
     font-weight: 600;
     justify-content: center;
+
+    border-bottom: 1px solid #{$border-color};
+  }
+
+  *:not(.sidebar-row-overlay) + .sidebar-header {
+    border-top: 1px solid #{$border-color};
   }
 }
 
@@ -617,8 +623,8 @@ h3>.badge {
 
           transform: rotate(180deg);
 
+          border-top: none;
           border-bottom: #{$border-color} 1px solid;
-          border-right: #{$border-color} 1px solid;
 
           &:first-child:not(:last-child) {
             border-left: #{$border-color} 1px solid;
