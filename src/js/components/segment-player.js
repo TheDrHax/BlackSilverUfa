@@ -28,6 +28,7 @@ import Reparentable from './utils/reparentable';
 import config from '../../../config/config.json';
 import BigSpinner from './big-spinner';
 import Matomo from '../matomo';
+import Sugar from '../utils/sugar';
 import updateState from '../utils/update-state';
 import { ShareOverlay } from './player/share-overlay';
 
@@ -700,12 +701,88 @@ export default class SegmentPlayer extends React.Component {
     );
   }
 
+  renderDescription() {
+    const {
+      game,
+      segment,
+      segmentRef,
+    } = this.state;
+
+    return (
+      <Row className="stream-description">
+        <Col>
+          <h3>
+            <Link to={`/play/${game.id}`}>{game.name}</Link>
+            <span> — </span>
+            <span className="flex-grow-1">{segmentRef.name}</span>
+          </h3>
+
+          <ListGroup variant="flush" size="sm">
+            <ListGroup.Item>
+              Дата стрима:
+              {' '}
+              {Sugar.Date.medium(segment.date)}
+              {' '}
+              ({Sugar.Date.relative(segment.date)})
+            </ListGroup.Item>
+
+            {!segment.segment.startsWith('00') ? (
+              <ListGroup.Item>
+                Источник стрима:
+                {' '}
+                <a href={`https://twitch.tv/videos/${segment.segment}`} target="blank">
+                  <i className="fab fa-twitch" />
+                  <span>Twitch</span>
+                </a>
+                {' '}
+                (ID: <code>{segment.segment}</code>)
+              </ListGroup.Item>
+            ) : (
+              <ListGroup.Item>
+                ID стрима: <code>{segment.segment}</code>
+              </ListGroup.Item>
+            )}
+
+            <ListGroup.Item>
+              Источник записи:
+              {' '}
+              {segment.youtube ? (
+                <>
+                  <a href={`https://youtu.be/${segment.youtube}`} target="blank">
+                    <i className="fab fa-youtube" />
+                    <span>YouTube</span>
+                  </a>
+                  {' '}
+                  ({segment.official === false ? 'неофициальный' : 'официальный'} канал)
+                </>
+              ) : (
+                <a href={segment.direct}>
+                  <i className="fas fa-link" />
+                  <span>Прямая ссылка</span>
+                </a>
+              )}
+            </ListGroup.Item>
+
+            {segment.torrent && (
+              <ListGroup.Item>
+                Торрент:
+                {' '}
+                <a href={segment.torrent}>
+                  <i className="fas fa-download" />
+                  <span>Скачать</span>
+                </a>
+              </ListGroup.Item>
+            )}
+          </ListGroup>
+        </Col>
+      </Row>
+    );
+  }
+
   renderBelowPlayer() {
     const {
       chatContainer,
       state: {
-        game,
-        segmentRef,
         fullscreen,
         playlist,
         timecodes,
@@ -715,97 +792,58 @@ export default class SegmentPlayer extends React.Component {
       },
     } = this;
 
-    let tabsDefaultKey = 'chat';
-
-    if (!subtitles) {
-      if (timecodes) {
-        tabsDefaultKey = 'timecodes';
-      } else {
-        tabsDefaultKey = 'playlist';
-      }
-    }
-
     return (
       <>
-        <Row>
-          <Col>
-            <div className="stream-header border-bottom">
-              <Link to={`/play/${game.id}`}>{game.name}</Link>
-              <span>—</span>
-              <span className="flex-grow-1">{segmentRef.name}</span>
-            </div>
-          </Col>
-        </Row>
+        <MediaQuery minDeviceWidth={768}>
+          {this.renderDescription()}
+        </MediaQuery>
 
-        {(subtitles && (timecodes || playlist)) && (
-          <MediaQuery minDeviceWidth={576} maxDeviceWidth={767}>
-            <Row className="no-gutters flex-grow-1 flex-shrink-1">
-              <Col className="sidebar-content">
-                {playlist && this.renderPlaylist()}
-                {timecodes && this.renderTimecodes()}
-              </Col>
-              <Col className="sidebar-content border-left">
-                {!fullscreen && (
-                  <Reparentable el={chatContainer} className="flex-1-1-0" />
-                )}
-              </Col>
-            </Row>
-          </MediaQuery>
-        )}
-
-        {(!subtitles && (timecodes || playlist)) && (
-          <MediaQuery minDeviceWidth={576} maxDeviceWidth={767}>
-            <Row className="no-gutters flex-grow-1 flex-shrink-1">
-              {playlist && (
-                <Col className="sidebar-content border-right">
-                  {this.renderPlaylist({
-                    forceExpanded: true,
-                    fullHeight: true,
-                  })}
-                </Col>
-              )}
-
-              {timecodes && (
-                <Col className="sidebar-content">
-                  {this.renderTimecodes()}
-                </Col>
-              )}
-            </Row>
-          </MediaQuery>
-        )}
-
-        {(timecodes || playlist || subtitles) && (
+        <MediaQuery maxDeviceWidth={767}>
           <MediaQuery maxDeviceWidth={575}>
-            <Row className="flex-grow-1 flex-shrink-1">
-              <Col className="sidebar-content">
-                <Tabs defaultActiveKey={tabsDefaultKey} mountOnEnter>
-                  {timecodes && (
-                    <Tab eventKey="timecodes" title="Таймкоды">
-                      {this.renderTimecodes()}
+            {(subtitlesInTab) => (
+              <Row className="flex-grow-1 flex-shrink-1 no-gutters">
+                <Col className="sidebar-content">
+                  <Tabs mountOnEnter>
+                    <Tab eventKey="description" title="Описание">
+                      {this.renderDescription()}
                     </Tab>
-                  )}
 
-                  {playlist && (
-                    <Tab eventKey="playlist" title="Плейлист">
-                      {this.renderPlaylist({
-                        forceExpanded: true,
-                        fullHeight: true,
-                      })}
-                    </Tab>
-                  )}
+                    {timecodes && (
+                      <Tab eventKey="timecodes" title="Таймкоды">
+                        {this.renderTimecodes()}
+                      </Tab>
+                    )}
 
-                  {subtitles && (
-                    <Tab eventKey="chat" title="Запись чата">
-                      {!fullscreen && (
-                        <Reparentable el={chatContainer} className="flex-1-1-0" />
-                      )}
-                    </Tab>
-                  )}
-                </Tabs>
-              </Col>
-            </Row>
+                    {playlist && (
+                      <Tab eventKey="playlist" title="Плейлист">
+                        {this.renderPlaylist({
+                          forceExpanded: true,
+                          fullHeight: true,
+                        })}
+                      </Tab>
+                    )}
+
+                    {subtitles && subtitlesInTab && (
+                      <Tab eventKey="chat" title="Запись чата">
+                        {!fullscreen && (
+                          <Reparentable el={chatContainer} className="flex-1-1-0" />
+                        )}
+                      </Tab>
+                    )}
+                  </Tabs>
+                </Col>
+
+                {subtitles && !subtitlesInTab && (
+                  <Col className="sidebar-content border-left">
+                    {!fullscreen && (
+                      <Reparentable el={chatContainer} className="flex-1-1-0" />
+                    )}
+                  </Col>
+                )}
+              </Row>
+            )}
           </MediaQuery>
-        )}
+        </MediaQuery>
       </>
     );
   }
