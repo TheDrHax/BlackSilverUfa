@@ -9,6 +9,7 @@ export default class Scroll extends React.Component {
     flex: PropTypes.string,
     heightRelativeToParent: PropTypes.string,
     keepAtBottom: PropTypes.bool,
+    bottomSelector: PropTypes.string,
   }
 
   static defaultProps = {
@@ -16,6 +17,7 @@ export default class Scroll extends React.Component {
     flex: null,
     heightRelativeToParent: null,
     keepAtBottom: false,
+    bottomSelector: '* + :last-child',
   }
 
   constructor(props) {
@@ -24,10 +26,8 @@ export default class Scroll extends React.Component {
     this.scrollRef = React.createRef();
     this.onSizeChange = this.onSizeChange.bind(this);
 
-    this.innerHeight = 0;
     this.outerHeight = 0;
     this.prevOuterHeight = 0;
-    this.innerWidth = 0;
     this.outerWidth = 0;
     this.prevOuterWidth = 0;
   }
@@ -38,47 +38,51 @@ export default class Scroll extends React.Component {
     }
   }
 
-  scrollToSelector() {
-    const { scrollToSelector } = this.props;
-
-    if (!scrollToSelector) {
-      return;
-    }
-
+  scrollToSelector(selector) {
     const scroll = this.scrollRef.current;
     const container = scroll.innerContainerRef.current;
-    const node = container.querySelector(scrollToSelector);
+    const node = container.querySelector(selector);
 
     if (node) {
-      scroll.updateScrollPosition(node.offsetTop - container.offsetTop);
+      // We need to wait for child components to render
+      // This is probably a bad solution
+      setTimeout(() => {
+        scroll.updateScrollPosition(node.offsetTop - container.offsetTop);
+      }, 10);
     }
   }
 
   componentDidMount() {
-    setTimeout(() => this.scrollToSelector(), 10); // sorry
+    const { scrollToSelector, keepAtBottom } = this.props;
+
+    if (scrollToSelector) {
+      this.scrollToSelector(scrollToSelector);
+    } else if (keepAtBottom) {
+      this.keepAtBottom();
+    }
   }
 
   componentDidUpdate(prevProps) {
     const { scrollToSelector } = this.props;
 
-    if (prevProps.scrollToSelector !== scrollToSelector) {
-      this.scrollToSelector();
+    if (scrollToSelector && prevProps.scrollToSelector !== scrollToSelector) {
+      this.scrollToSelector(scrollToSelector);
     }
   }
 
   keepAtBottom() {
     const {
-      innerHeight,
       scrollRef: {
         current: ref,
       },
       props: {
         keepAtBottom,
+        bottomSelector,
       },
     } = this;
 
-    if (keepAtBottom && ref && innerHeight) {
-      ref.updateScrollPosition(innerHeight);
+    if (keepAtBottom && ref) {
+      this.scrollToSelector(bottomSelector);
     }
   }
 
@@ -128,11 +132,9 @@ export default class Scroll extends React.Component {
                 {...otherProps}
               >
                 <Measure onResize={this.onSizeChange}>
-                  {({ contentRect: { entry: { height: innerHeight } }, measureRef }) => {
-                    this.innerHeight = innerHeight;
-
-                    return <div ref={measureRef}>{children}</div>;
-                  }}
+                  {({ measureRef }) => (
+                    <div ref={measureRef}>{children}</div>
+                  )}
                 </Measure>
               </CustomScroll>
             </div>
