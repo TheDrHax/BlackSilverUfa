@@ -500,16 +500,16 @@ h3>.badge {
     border-bottom-color: #{$border-color};
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: nowrap;
+
     & .nav-item.nav-link {
-      flex: 1;
+      flex: 1 0 auto;
       padding: 0.2rem 0.4rem;
       color: #{$text-color};
       border-radius: 0;
       display: flex;
       justify-content: center;
       text-transform: uppercase;
-      font-size: 0.9rem;
       font-weight: 600;
 
       &.active {

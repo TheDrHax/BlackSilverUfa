@@ -472,7 +472,7 @@ export default class SegmentPlayer extends React.Component {
 
     const header = (
       <div className="sidebar-header">
-        Запись чата
+        Чат
       </div>
     );
 
@@ -824,7 +824,7 @@ export default class SegmentPlayer extends React.Component {
                     )}
 
                     {subtitles && subtitlesInTab && (
-                      <Tab eventKey="chat" title="Запись чата">
+                      <Tab eventKey="chat" title="Чат">
                         {!fullscreen && (
                           <Reparentable el={chatContainer} className="flex-1-1-0" />
                         )}
