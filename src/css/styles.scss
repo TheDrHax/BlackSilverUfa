@@ -638,6 +638,18 @@ h3>.badge {
   flex-direction: row;
   padding: 0.3rem;
   background-color: #{$color-bg-light};
+
+  & button {
+    i + span {
+      padding-left: 0.25rem;
+    }
+
+    @media(max-width: 575px) {
+      i + span {
+        display: none;
+      }
+    }
+  }
 }
 
 .plyr__control__custom {

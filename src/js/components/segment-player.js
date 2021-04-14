@@ -434,7 +434,10 @@ export default class SegmentPlayer extends React.Component {
                 />
               )}
             >
-              <Button variant="dark" size="sm" className="mr-2">Поделиться</Button>
+              <Button variant="dark" size="sm" className="mr-2">
+                <i className="fas fa-share-square" />
+                <span>Поделиться</span>
+              </Button>
             </OverlayTrigger>
 
             <OverlayTrigger
@@ -447,6 +450,7 @@ export default class SegmentPlayer extends React.Component {
             >
               <Button variant="dark" size="sm" onClick={toggleFullscreen}>
                 <i className="fas fa-expand" />
+                <span>На весь экран</span>
               </Button>
             </OverlayTrigger>
           </div>
