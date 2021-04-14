@@ -7131,7 +7131,6 @@
     "youtube": "DarfGScrUWQ", "abs_start": "0:00", "abs_end": "7:36:03", "duration": "7:36:03",
     "name": "Mundaun",
     "date": "2021-03-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/952632063.torrent",
     "games": ["single"]
   },
   "953865835": {
@@ -7309,5 +7308,13 @@
     "date": "2021-04-13",
     "torrent": "https://bsufiles.thedrhax.pw/streams/985933335.torrent",
     "games": ["sh3", "snowrunner"]
+  },
+  "987111954": {
+    "abs_start": "0:00", "abs_end": "6:22:25", "duration": "0:00",
+    "name": "Silent Hill 4: The Room #1",
+    "date": "2021-04-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/987111954.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/987111954.torrent",
+    "games": ["sh4"]
   }
 }
