@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "doom-eternal", "segment": "979229370", "name": "Doom Eternal #2 (без комментариев)", "start": 0},
       {"id": "first", "segment": "979835510", "name": "Oddworld: Soulstorm / Silent Hill #1", "start": 0},
       {"id": "sh", "segment": "980365564", "name": "Silent Hill #2", "start": 0},
       {"id": "sh2", "segment": "981050724", "name": "Silent Hill 2 #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "984801715", "name": "Say No! More / Gartic Phone #3 / First Class Trouble", "start": 0},
       {"id": "sh3", "segment": "985933335", "name": "Silent Hill 3 #2 / SnowRunner #17", "start": 0},
       {"id": "sh4", "segment": "987111954", "name": "Silent Hill 4: The Room #1", "start": 0},
-      {"id": "sh4", "segment": "988290747", "name": "Silent Hill 4: The Room #2", "start": 0}
+      {"id": "sh4", "segment": "988290747", "name": "Silent Hill 4: The Room #2", "start": 0},
+      {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse / Resident Evil Showcase (Апрель 2021)", "start": 0}
     ]
   },
   "finished": {
@@ -541,7 +541,9 @@
       {"id": "first", "segment": "971240375", "name": "Super Seducer 3", "start": 0},
       {"id": "first", "segment": "972475218", "name": "Last Oasis", "start": 0},
       {"id": "first", "segment": "979835510", "name": "Oddworld: Soulstorm", "start": 0},
-      {"id": "first", "segment": "984801715", "name": "Say No! More", "start": 0}
+      {"id": "first", "segment": "984801715", "name": "Say No! More", "start": 0},
+      {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 0},
+      {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 3260}
     ]
   },
   "ongoing": {
@@ -886,7 +888,8 @@
       {"id": "expos", "segment": "832197729.1", "name": "неПрофессиональный The Game Awards 2020", "start": 45241},
       {"id": "expos", "segment": "927781155", "name": "State of Play 2021", "start": 32306},
       {"id": "expos", "segment": "943938218", "name": "ROG Phone 5 Launch Event", "start": 0},
-      {"id": "expos", "segment": "953865835", "name": "Square Enix Presents (Весна 2021)", "start": 11085}
+      {"id": "expos", "segment": "953865835", "name": "Square Enix Presents (Весна 2021)", "start": 11085},
+      {"id": "expos", "segment": "988804108", "name": "Resident Evil Showcase (Апрель 2021)", "start": 1627}
     ]
   },
   "unboxing": {
