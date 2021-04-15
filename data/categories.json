@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "re2-remake", "segment": "975061581", "name": "Resident Evil 2 Remake #7 (заново) / Игровые коллекции зрителей / Knockout City (WLG, Bale)", "start": 0},
       {"id": "doom-eternal", "segment": "979229370", "name": "Doom Eternal #2 (без комментариев)", "start": 0},
       {"id": "first", "segment": "979835510", "name": "Oddworld: Soulstorm / Silent Hill #1", "start": 0},
       {"id": "sh", "segment": "980365564", "name": "Silent Hill #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "sh3", "segment": "983663320", "name": "Silent Hill 3 #1", "start": 0},
       {"id": "first", "segment": "984801715", "name": "Say No! More / Gartic Phone #3 / First Class Trouble", "start": 0},
       {"id": "sh3", "segment": "985933335", "name": "Silent Hill 3 #2 / SnowRunner #17", "start": 0},
-      {"id": "sh4", "segment": "987111954", "name": "Silent Hill 4: The Room #1", "start": 0}
+      {"id": "sh4", "segment": "987111954", "name": "Silent Hill 4: The Room #1", "start": 0},
+      {"id": "sh4", "segment": "988290747", "name": "Silent Hill 4: The Room #2", "start": 0}
     ]
   },
   "finished": {

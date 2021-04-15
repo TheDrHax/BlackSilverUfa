@@ -7137,21 +7137,18 @@
     "youtube": "n87Icr6ojN4", "abs_start": "0:00", "abs_end": "3:47:39", "duration": "3:47:39",
     "name": "ALTF4 / Square Enix Presents (Весна 2021)",
     "date": "2021-03-18",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/953865835.torrent",
     "games": ["first", "expos"]
   },
   "955030446": {
     "youtube": "BY4xxIKbLfE", "abs_start": "0:00", "abs_end": "6:30:17", "duration": "6:30:17",
     "name": "Doom Eternal #6 (The Ancient Gods: Part Two)",
     "date": "2021-03-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/955030446.torrent",
     "games": ["doom-eternal"]
   },
   "956331335": {
     "youtube": "Z347imV4CTI", "abs_start": "0:00", "abs_end": "7:22:28", "duration": "7:22:28",
     "name": "Yakuza: Like a Dragon #12",
     "date": "2021-03-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/956331335.torrent",
     "games": ["yakuza-like-dragon"]
   },
   "957785419": {
@@ -7314,6 +7311,14 @@
     "name": "Silent Hill 4: The Room #1",
     "date": "2021-04-14",
     "torrent": "https://bsufiles.thedrhax.pw/streams/987111954.torrent",
+    "games": ["sh4"]
+  },
+  "988290747": {
+    "abs_start": "0:00", "abs_end": "6:50:36", "duration": "0:00",
+    "name": "Silent Hill 4: The Room #2",
+    "date": "2021-04-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/988290747.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/988290747.torrent",
     "games": ["sh4"]
   }
 }
