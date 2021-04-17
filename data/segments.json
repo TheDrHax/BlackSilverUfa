@@ -7161,7 +7161,6 @@
     "youtube": "er5dLLEL0rU", "abs_start": "0:00", "abs_end": "7:02:47", "duration": "7:02:47",
     "name": "The Eternal Cylinder / Wanted Raccoon / SnowRunner #16",
     "date": "2021-03-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/958844668.torrent",
     "games": ["first", "snowrunner"]
   },
   "961225183": {
@@ -7328,9 +7327,17 @@
   },
   "989503848": {
     "youtube": "PXQfe8WkuNY", "official": false, "abs_start": "0:00", "abs_end": "5:59:48", "duration": "5:59:48",
-    "name": "Demon Skin / Enlisted",
+    "name": "Demon Skin / Enlisted #1",
     "date": "2021-04-16",
     "torrent": "https://bsufiles.thedrhax.pw/streams/989503848.torrent",
-    "games": ["first"]
+    "games": ["first", "enlisted"]
+  },
+  "990810001": {
+    "abs_start": "0:00", "abs_end": "5:43:47", "duration": "0:00",
+    "name": "Зайчик (Tiny Bunny) #1 / Enlisted #2",
+    "date": "2021-04-17",
+    "direct": "https://bsufiles.thedrhax.pw/streams/990810001.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/990810001.torrent",
+    "games": ["tiny-bunny", "enlisted"]
   }
 }

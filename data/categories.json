@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "sh", "segment": "980365564", "name": "Silent Hill #2", "start": 0},
       {"id": "sh2", "segment": "981050724", "name": "Silent Hill 2 #1", "start": 0},
       {"id": "sh2", "segment": "982375076", "name": "Silent Hill 2 #2", "start": 0},
       {"id": "sh3", "segment": "983663320", "name": "Silent Hill 3 #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "sh4", "segment": "987111954", "name": "Silent Hill 4: The Room #1", "start": 0},
       {"id": "sh4", "segment": "988290747", "name": "Silent Hill 4: The Room #2", "start": 0},
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse / Resident Evil Showcase (Апрель 2021)", "start": 0},
-      {"id": "first", "segment": "989503848", "name": "Demon Skin / Enlisted", "start": 0}
+      {"id": "first", "segment": "989503848", "name": "Demon Skin / Enlisted #1", "start": 0},
+      {"id": "tiny-bunny", "segment": "990810001", "name": "Зайчик (Tiny Bunny) #1 / Enlisted #2", "start": 0}
     ]
   },
   "finished": {
@@ -544,8 +544,7 @@
       {"id": "first", "segment": "984801715", "name": "Say No! More", "start": 0},
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 0},
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 3260},
-      {"id": "first", "segment": "989503848", "name": "Demon Skin", "start": 0},
-      {"id": "first", "segment": "989503848", "name": "Enlisted", "start": 7262}
+      {"id": "first", "segment": "989503848", "name": "Demon Skin", "start": 0}
     ]
   },
   "ongoing": {
@@ -553,7 +552,8 @@
     "games": [
       {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
       {"name": "Outriders", "id": "outriders", "segment": "928993182"},
-      {"name": "Silent Hill 4: The Room", "id": "sh4", "segment": "987111954"}
+      {"name": "Silent Hill 4: The Room", "id": "sh4", "segment": "987111954"},
+      {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"}
     ]
   },
   "infinite": {
@@ -837,7 +837,8 @@
       {"id": "co-op", "segment": "957785419", "name": "Hide and Seek", "start": 9065},
       {"id": "co-op", "segment": "957785419", "name": "Golf Party", "start": 10401},
       {"id": "co-op", "segment": "975061581", "name": "Knockout City (WLG, Bale)", "start": 11486},
-      {"id": "co-op", "segment": "984801715", "name": "First Class Trouble", "start": 13557}
+      {"id": "co-op", "segment": "984801715", "name": "First Class Trouble", "start": 13557},
+      {"name": "Enlisted", "id": "enlisted", "segment": "989503848"}
     ]
   },
   "other": {
