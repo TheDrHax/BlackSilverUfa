@@ -6833,9 +6833,9 @@
   },
   "883419848": {
     "youtube": "dn9uQy2eePE", "official": false, "abs_start": "0:00", "abs_end": "6:48:04", "duration": "6:48:04",
-    "name": "Resident Evil Village (демо) / Resident Evil 7 (Madhouse) #5",
+    "name": "Resident Evil Village - Maiden (демо) / Resident Evil 7 (Madhouse) #5",
     "date": "2021-01-22",
-    "games": ["single", "re7"]
+    "games": ["re8", "re7"]
   },
   "886277729": {
     "youtube": "ew9dM_1QDcQ", "abs_start": "0:00", "abs_end": "5:31:41", "duration": "5:31:41",
@@ -7167,7 +7167,6 @@
     "youtube": "dd2nTLH_EGs", "official": false, "abs_start": "0:00", "abs_end": "5:51:17", "duration": "5:51:17",
     "name": "Paradise Lost",
     "date": "2021-03-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/961225183.torrent",
     "games": ["single"]
   },
   "961777772": {
@@ -7338,5 +7337,13 @@
     "date": "2021-04-17",
     "torrent": "https://bsufiles.thedrhax.pw/streams/990810001.torrent",
     "games": ["tiny-bunny", "enlisted"]
+  },
+  "992035730": {
+    "abs_start": "0:00", "abs_end": "4:40:25", "duration": "0:00",
+    "name": "Resident Evil Zero / Resident Evil Village - Gameplay (демо) / Resident Evil Village - Maiden (демо)",
+    "date": "2021-04-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/992035730.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/992035730.torrent",
+    "games": ["first", "re8"]
   }
 }

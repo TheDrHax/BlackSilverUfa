@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "sh2", "segment": "981050724", "name": "Silent Hill 2 #1", "start": 0},
       {"id": "sh2", "segment": "982375076", "name": "Silent Hill 2 #2", "start": 0},
       {"id": "sh3", "segment": "983663320", "name": "Silent Hill 3 #1", "start": 0},
       {"id": "first", "segment": "984801715", "name": "Say No! More / Gartic Phone #3 / First Class Trouble", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "sh4", "segment": "988290747", "name": "Silent Hill 4: The Room #2", "start": 0},
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse / Resident Evil Showcase (Апрель 2021)", "start": 0},
       {"id": "first", "segment": "989503848", "name": "Demon Skin / Enlisted #1", "start": 0},
-      {"id": "tiny-bunny", "segment": "990810001", "name": "Зайчик (Tiny Bunny) #1 / Enlisted #2", "start": 0}
+      {"id": "tiny-bunny", "segment": "990810001", "name": "Зайчик (Tiny Bunny) #1 / Enlisted #2", "start": 0},
+      {"id": "first", "segment": "992035730", "name": "Resident Evil Zero / Resident Evil Village - Gameplay (демо) / Resident Evil Village - Maiden (демо)", "start": 0}
     ]
   },
   "finished": {
@@ -228,7 +228,6 @@
       {"id": "single", "segment": "869571796", "name": "Noch (демо)", "start": 0},
       {"id": "single", "segment": "869571796", "name": "Dom Rusalok", "start": 8232},
       {"name": "Hitman 3", "id": "hitman-3", "segment": "880899353"},
-      {"id": "single", "segment": "883419848", "name": "Resident Evil Village (демо)", "start": 0},
       {"name": "At Dead Of Night", "id": "at-dead-of-night", "segment": "887445977"},
       {"id": "single", "segment": "891206240", "name": "The Medium", "start": 0},
       {"id": "single", "segment": "901835689", "name": "NUTS", "start": 9828},
@@ -544,13 +543,15 @@
       {"id": "first", "segment": "984801715", "name": "Say No! More", "start": 0},
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 0},
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 3260},
-      {"id": "first", "segment": "989503848", "name": "Demon Skin", "start": 0}
+      {"id": "first", "segment": "989503848", "name": "Demon Skin", "start": 0},
+      {"id": "first", "segment": "992035730", "name": "Resident Evil Zero", "start": 0}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
+      {"name": "Resident Evil Village", "id": "re8", "segment": "883419848"},
       {"name": "Outriders", "id": "outriders", "segment": "928993182"},
       {"name": "Silent Hill 4: The Room", "id": "sh4", "segment": "987111954"},
       {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"}
