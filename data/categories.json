@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "sh2", "segment": "982375076", "name": "Silent Hill 2 #2", "start": 0},
       {"id": "sh3", "segment": "983663320", "name": "Silent Hill 3 #1", "start": 0},
       {"id": "first", "segment": "984801715", "name": "Say No! More / Gartic Phone #3 / First Class Trouble", "start": 0},
       {"id": "sh3", "segment": "985933335", "name": "Silent Hill 3 #2 / SnowRunner #17", "start": 0},
@@ -11,8 +10,9 @@
       {"id": "sh4", "segment": "988290747", "name": "Silent Hill 4: The Room #2", "start": 0},
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse / Resident Evil Showcase (Апрель 2021)", "start": 0},
       {"id": "first", "segment": "989503848", "name": "Demon Skin / Enlisted #1", "start": 0},
-      {"id": "tiny-bunny", "segment": "990810001", "name": "Зайчик (Tiny Bunny) #1 / Enlisted #2", "start": 0},
-      {"id": "first", "segment": "992035730", "name": "Resident Evil Zero / Resident Evil Village - Maiden (демо) / Resident Evil Village - Gameplay (демо)", "start": 0}
+      {"id": "tiny-bunny", "segment": "990810001", "name": "Зайчик (Tiny Bunny) - Эпизод 1 / Enlisted #2", "start": 0},
+      {"id": "first", "segment": "992035730", "name": "Resident Evil Zero / Resident Evil Village - Maiden (демо) / Resident Evil Village - Gameplay (демо)", "start": 0},
+      {"id": "tiny-bunny", "segment": "995413784", "name": "Зайчик (Tiny Bunny) - Эпизод 2 / Enlisted #3", "start": 0}
     ]
   },
   "finished": {
