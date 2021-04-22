@@ -7179,14 +7179,12 @@
     "youtube": "a0TW8-UwLFU", "official": false, "abs_start": "0:00", "abs_end": "3:32:45", "duration": "3:32:45",
     "name": "ROG Flow X13 / Evil Inside - Прохождение / Crash Bandicoot 4: It's About Time #2 (заново)",
     "date": "2021-03-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/962439245.torrent",
     "games": ["unboxing", "evil-inside", "crash-bandicoot-4"]
   },
   "963666663": {
     "youtube": "tg2aLiQqiCs", "official": false, "abs_start": "0:00", "abs_end": "6:24:33", "duration": "6:24:33",
     "name": "It Takes Two #1",
     "date": "2021-03-26",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/963666663.torrent",
     "games": ["it-takes-two"]
   },
   "965027459": {
@@ -7350,5 +7348,13 @@
     "date": "2021-04-21",
     "torrent": "https://bsufiles.thedrhax.pw/streams/995413784.torrent",
     "games": ["tiny-bunny", "enlisted"]
+  },
+  "996609423": {
+    "abs_start": "0:00", "abs_end": "7:40:49", "duration": "0:00",
+    "name": "NieR Replicant",
+    "date": "2021-04-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/996609423.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/996609423.torrent",
+    "games": ["first"]
   }
 }

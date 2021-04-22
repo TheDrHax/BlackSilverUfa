@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "sh3", "segment": "983663320", "name": "Silent Hill 3 #1", "start": 0},
       {"id": "first", "segment": "984801715", "name": "Say No! More / Gartic Phone #3 / First Class Trouble", "start": 0},
       {"id": "sh3", "segment": "985933335", "name": "Silent Hill 3 #2 / SnowRunner #17", "start": 0},
       {"id": "sh4", "segment": "987111954", "name": "Silent Hill 4: The Room #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "989503848", "name": "Demon Skin / Enlisted #1", "start": 0},
       {"id": "tiny-bunny", "segment": "990810001", "name": "Зайчик (Tiny Bunny) - Эпизод 1 / Enlisted #2", "start": 0},
       {"id": "first", "segment": "992035730", "name": "Resident Evil Zero / Resident Evil Village - Maiden (демо) / Resident Evil Village - Gameplay (демо)", "start": 0},
-      {"id": "tiny-bunny", "segment": "995413784", "name": "Зайчик (Tiny Bunny) - Эпизод 2 / Enlisted #3", "start": 0}
+      {"id": "tiny-bunny", "segment": "995413784", "name": "Зайчик (Tiny Bunny) - Эпизод 2 / Enlisted #3", "start": 0},
+      {"id": "first", "segment": "996609423", "name": "NieR Replicant", "start": 0}
     ]
   },
   "finished": {
@@ -544,7 +544,8 @@
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 0},
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 3260},
       {"id": "first", "segment": "989503848", "name": "Demon Skin", "start": 0},
-      {"id": "first", "segment": "992035730", "name": "Resident Evil Zero", "start": 0}
+      {"id": "first", "segment": "992035730", "name": "Resident Evil Zero", "start": 0},
+      {"id": "first", "segment": "996609423", "name": "NieR Replicant", "start": 0}
     ]
   },
   "ongoing": {
