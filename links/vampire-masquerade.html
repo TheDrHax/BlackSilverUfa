@@ -309,9 +309,9 @@
         <i class="fas fa-comments"></i> 17832
       </a>
     </span>
-    <span class="badge badge-warning">
-      <a href="https://www.youtube.com/watch?v=fcE9JzLqGk8" target="_blank">
-        <i class="fab fa-youtube"></i> fcE9JzLqGk8
+    <span class="badge badge-danger">
+      <a href="https://bsufiles.thedrhax.pw/streams/permanent/733113254.mp4">
+        <i class="fas fa-download"></i> скачать
       </a>
     </span>
   </div>
@@ -328,6 +328,15 @@
     <li><a data-value="3974">1:06:14</a> — Меню</li>
     <li><a data-value="4037">1:07:17</a> — Игра</li>
     <li><a data-value="4493">1:14:53</a> - <a data-value="4719">1:18:39</a> — Перерыв</li>
+      <li>Проблемы с правообладателями:</li>
+  <ul>
+    <li>
+      <a data-value="9791">2:43:11</a> - <a data-value="9898">2:44:58</a>,
+      <a data-value="9909">2:45:09</a> - <a data-value="9987">2:46:27</a>
+      — Rik Schaffer - Club Vesuvious
+    </li>
+  </ul>
+
     <li><a data-value="13132">3:38:52</a> - <a data-value="13175">3:39:35</a> — Пасхалка</li>
     <li>
       <a data-value="13328">3:42:08</a>,
@@ -350,13 +359,19 @@
 </ul>
 
 <div class="video-row d-flex justify-content-center">
-  <p class="stream" data-id="3" data-hash="733113254" data-subtitles="https://blacksilverufa.github.io/chats-2020/v733113254.ass" data-name="4" data-youtube="fcE9JzLqGk8" />
+  <p class="stream" data-id="3" data-hash="733113254" data-subtitles="https://blacksilverufa.github.io/chats-2020/v733113254.ass" data-name="4" data-direct="https://bsufiles.thedrhax.pw/streams/permanent/733113254.mp4" />
 </div>
 
 
 
 <div class="highlighter-rouge">
-  <pre class="highlight"><code>mpv --sub-file=https://blacksilverufa.github.io/chats-2020/v733113254.ass ytdl://fcE9JzLqGk8
+  <pre class="highlight"><code>mpv --sub-file=https://blacksilverufa.github.io/chats-2020/v733113254.ass https://bsufiles.thedrhax.pw/streams/permanent/733113254.mp4
+</code></pre>
+</div>
+
+
+<div class="highlighter-rouge">
+  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blacksilverufa.github.io/chats-2020/v733113254.ass" --player-passthrough hls twitch.tv/videos/733113254 best
 </code></pre>
 </div>
 
