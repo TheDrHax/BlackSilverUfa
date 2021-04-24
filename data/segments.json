@@ -7191,7 +7191,6 @@
     "youtube": "jUGmPP74RLQ", "official": false, "abs_start": "0:00", "abs_end": "7:05:11", "duration": "7:05:11",
     "name": "It Takes Two #2",
     "date": "2021-03-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/965027459.torrent",
     "games": ["it-takes-two"]
   },
   "966354094": {
@@ -7352,10 +7351,10 @@
   },
   "996609423": {
     "youtube": "BRYNvV4VMDA", "official": false, "abs_start": "0:00", "abs_end": "7:40:53", "duration": "7:40:53",
-    "name": "NieR Replicant",
+    "name": "NieR Replicant #1",
     "date": "2021-04-22",
     "torrent": "https://bsufiles.thedrhax.pw/streams/996609423.torrent",
-    "games": ["first"]
+    "games": ["nier-replicant"]
   },
   "997843732": {
     "youtube": "fqvS9VODd8Y", "official": false, "abs_start": "0:00", "abs_end": "6:04:28", "duration": "6:04:28",
@@ -7363,5 +7362,13 @@
     "date": "2021-04-23",
     "torrent": "https://bsufiles.thedrhax.pw/streams/997843732.torrent",
     "games": ["first", "cod-warzone"]
+  },
+  "999099020": {
+    "abs_start": "0:00", "abs_end": "6:55:14", "duration": "0:00",
+    "name": "NieR Replicant #2",
+    "date": "2021-04-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/999099020.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/999099020.torrent",
+    "games": ["nier-replicant"]
   }
 }

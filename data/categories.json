@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "sh3", "segment": "985933335", "name": "Silent Hill 3 #2 / SnowRunner #17", "start": 0},
       {"id": "sh4", "segment": "987111954", "name": "Silent Hill 4: The Room #1", "start": 0},
       {"id": "sh4", "segment": "988290747", "name": "Silent Hill 4: The Room #2", "start": 0},
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse / Resident Evil Showcase (Апрель 2021)", "start": 0},
@@ -11,8 +10,9 @@
       {"id": "tiny-bunny", "segment": "990810001", "name": "Зайчик (Tiny Bunny) - Эпизод 1 / Enlisted #2", "start": 0},
       {"id": "first", "segment": "992035730", "name": "Resident Evil Zero / Resident Evil Village - Maiden (демо) / Resident Evil Village - Gameplay (демо)", "start": 0},
       {"id": "tiny-bunny", "segment": "995413784", "name": "Зайчик (Tiny Bunny) - Эпизод 2 / Enlisted #3", "start": 0},
-      {"id": "first", "segment": "996609423", "name": "NieR Replicant", "start": 0},
-      {"id": "first", "segment": "997843732", "name": "Don't Forget Me / Call of Duty: Warzone #14", "start": 0}
+      {"id": "nier-replicant", "segment": "996609423", "name": "NieR Replicant #1", "start": 0},
+      {"id": "first", "segment": "997843732", "name": "Don't Forget Me / Call of Duty: Warzone #14", "start": 0},
+      {"id": "nier-replicant", "segment": "999099020", "name": "NieR Replicant #2", "start": 0}
     ]
   },
   "finished": {
@@ -545,18 +545,17 @@
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 3260},
       {"id": "first", "segment": "989503848", "name": "Demon Skin", "start": 0},
       {"id": "first", "segment": "992035730", "name": "Resident Evil Zero", "start": 0},
-      {"id": "first", "segment": "996609423", "name": "NieR Replicant", "start": 0},
       {"id": "first", "segment": "997843732", "name": "Don't Forget Me", "start": 0}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
       {"name": "Resident Evil Village", "id": "re8", "segment": "883419848"},
       {"name": "Outriders", "id": "outriders", "segment": "928993182"},
       {"name": "Silent Hill 4: The Room", "id": "sh4", "segment": "987111954"},
-      {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"}
+      {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"},
+      {"name": "NieR Replicant", "id": "nier-replicant", "segment": "996609423"}
     ]
   },
   "infinite": {
@@ -660,6 +659,7 @@
       {"name": "Far Cry 3", "id": "far-cry-3", "segment": "678368491"},
       {"name": "Hellpoint", "id": "hellpoint", "segment": "695209589"},
       {"name": "World of Warcraft: Shadowlands", "id": "wow-shadowlands", "segment": "728015486"},
+      {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
       {"name": "Watch Dogs: Legion", "id": "watch-dogs", "segment": "782383170"},
       {"name": "Metal Gear Solid V: Phantom Pain (злое прохождение)", "id": "mgs-v-2020", "segment": "791632745"},
       {"name": "Assassin's Creed: Valhalla", "id": "ac-valhalla", "segment": "793751031"},
