@@ -3,6 +3,7 @@ import json
 from typing import Union
 
 from datetime import datetime
+from natsort import natsorted
 from sortedcontainers import SortedKeyList
 from cached_property import cached_property
 
@@ -337,7 +338,7 @@ class TimecodesDatabase(dict):
         yield '{\n'
 
         first = True
-        for key, value in sorted(self.items(), key=lambda x: x[0]):
+        for key, value in natsorted(self.items(), key=lambda x: x[0]):
             if not first:
                 yield ',\n'
             else:
