@@ -839,12 +839,6 @@
     "date": "2019-01-24",
     "games": ["life-is-strange-2"]
   },
-  "1000457538": {
-    "youtube": "m4pu3_6AA4Q", "official": false, "abs_start": "0:00", "abs_end": "4:45:02", "duration": "4:45:02",
-    "name": "Chivalry 2 / Resident Evil Village - Gameplay 2 (демо) / Devour #2",
-    "date": "2021-04-25",
-    "games": ["co-op", "re8", "devour"]
-  },
   "126330909": {
     "youtube": "G5waS5gtIlg", "abs_start": "0:00", "abs_end": "4:16:29", "duration": "4:16:29",
     "name": "The Legend of Zelda: Breath of the Wild #1",
@@ -7372,6 +7366,20 @@
     "name": "NieR Replicant #2",
     "date": "2021-04-24",
     "torrent": "https://bsufiles.thedrhax.pw/streams/999099020.torrent",
+    "games": ["nier-replicant"]
+  },
+  "1000457538": {
+    "youtube": "m4pu3_6AA4Q", "official": false, "abs_start": "0:00", "abs_end": "4:45:02", "duration": "4:45:02",
+    "name": "Chivalry 2 / Resident Evil Village - Gameplay 2 (демо) / Devour #2",
+    "date": "2021-04-25",
+    "games": ["co-op", "re8", "devour"]
+  },
+  "1001445798": {
+    "abs_start": "0:00", "abs_end": "6:55:14", "duration": "0:00",
+    "name": "NieR Replicant #3",
+    "date": "2021-04-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1001445798.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1001445798.torrent",
     "games": ["nier-replicant"]
   }
 }
