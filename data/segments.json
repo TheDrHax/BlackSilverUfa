@@ -5860,9 +5860,10 @@
     "games": ["geoguessr", "sea-of-thieves"]
   },
   "665878817": {
-    "youtube": "R7GWQcpD7no", "official": false, "abs_start": "0:00", "abs_end": "5:53:33", "duration": "5:53:33",
+    "abs_start": "0:00", "abs_end": "5:53:50", "duration": "0:00",
     "name": "Vampire: The Masquerade - Bloodlines #3 / Resident Evil 7 (Madhouse) #2",
     "date": "2020-06-30",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/665878817.mp4",
     "games": ["vampire-masquerade", "re7"]
   },
   "666848828": {
@@ -7389,7 +7390,6 @@
     "youtube": "GQFx0axEyMM", "official": false, "abs_start": "0:00", "abs_end": "5:54:22", "duration": "5:54:22",
     "name": "Scene Investigators (демо) / Ranch Simulator / Horror Squad / Tricky Towers #29",
     "date": "2021-04-28",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1003719769.torrent",
     "games": ["single", "co-op", "tricky-towers"]
   }
 }
