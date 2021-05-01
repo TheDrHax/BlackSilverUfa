@@ -7393,8 +7393,16 @@
   },
   "1005904918": {
     "youtube": "Vn0aM9uE6Lc", "official": false, "abs_start": "0:00", "abs_end": "9:23:44", "duration": "9:23:44",
-    "name": "Returnal",
+    "name": "Returnal #1",
     "date": "2021-04-30",
-    "games": ["first"]
+    "games": ["returnal"]
+  },
+  "1007193234": {
+    "abs_start": "0:00", "abs_end": "9:41:44", "duration": "0:00",
+    "name": "Returnal #2",
+    "date": "2021-05-01",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1007193234.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1007193234.torrent",
+    "games": ["returnal"]
   }
 }

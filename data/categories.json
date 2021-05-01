@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "992035730", "name": "Resident Evil Zero / Resident Evil Village - Maiden (демо) / Resident Evil Village - Gameplay (демо)", "start": 0},
       {"id": "tiny-bunny", "segment": "995413784", "name": "Зайчик (Tiny Bunny) - Эпизод 2 / Enlisted #3", "start": 0},
       {"id": "nier-replicant", "segment": "996609423", "name": "NieR Replicant #1", "start": 0},
       {"id": "first", "segment": "997843732", "name": "Don't Forget Me / Call of Duty: Warzone #14", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "nier-replicant", "segment": "1001445798", "name": "NieR Replicant #3", "start": 0},
       {"id": "nier-replicant", "segment": "1002673460", "name": "NieR Replicant #4", "start": 0},
       {"id": "single", "segment": "1003719769", "name": "Scene Investigators (демо) / Ranch Simulator / Horror Squad / Tricky Towers #29", "start": 0},
-      {"id": "first", "segment": "1005904918", "name": "Returnal", "start": 0}
+      {"id": "returnal", "segment": "1005904918", "name": "Returnal #1", "start": 0},
+      {"id": "returnal", "segment": "1007193234", "name": "Returnal #2", "start": 0}
     ]
   },
   "finished": {
@@ -547,8 +547,7 @@
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 3260},
       {"id": "first", "segment": "989503848", "name": "Demon Skin", "start": 0},
       {"id": "first", "segment": "992035730", "name": "Resident Evil Zero", "start": 0},
-      {"id": "first", "segment": "997843732", "name": "Don't Forget Me", "start": 0},
-      {"id": "first", "segment": "1005904918", "name": "Returnal", "start": 0}
+      {"id": "first", "segment": "997843732", "name": "Don't Forget Me", "start": 0}
     ]
   },
   "ongoing": {
@@ -556,7 +555,8 @@
     "games": [
       {"name": "Resident Evil Village", "id": "re8", "segment": "883419848"},
       {"name": "Silent Hill 4: The Room", "id": "sh4", "segment": "987111954"},
-      {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"}
+      {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"},
+      {"name": "Returnal", "id": "returnal", "segment": "1005904918"}
     ]
   },
   "infinite": {
