@@ -3,6 +3,7 @@ import json
 from enum import Enum
 from cached_property import cached_property
 from git import Repo
+from natsort import natsorted
 from typing import List, Tuple, Dict, Any
 from hashlib import md5
 from datetime import datetime
@@ -933,7 +934,7 @@ class Streams(dict):
             return key
 
         first = True
-        for key, stream in sorted(streams.items(), key=sort_key):
+        for key, stream in natsorted(streams.items(), key=sort_key):
             if not first:
                 yield ',\n'
             else:
