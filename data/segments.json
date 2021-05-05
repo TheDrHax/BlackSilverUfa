@@ -7406,7 +7406,6 @@
     "youtube": "tC2z7sJ_9eE", "official": false, "abs_start": "0:00", "abs_end": "6:07:02", "duration": "6:07:02",
     "name": "Returnal #3 / Resident Evil Village - Gameplay 1 и 2 (демо)",
     "date": "2021-05-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1008423983.torrent",
     "games": ["returnal", "re8"]
   },
   "1010778171": {
@@ -7414,6 +7413,14 @@
     "name": "Returnal #4",
     "date": "2021-05-04",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1010778171.torrent",
+    "games": ["returnal"]
+  },
+  "1011964836": {
+    "abs_start": "0:00", "abs_end": "4:32:01", "duration": "0:00",
+    "name": "Returnal #5",
+    "date": "2021-05-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1011964836.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1011964836.torrent",
     "games": ["returnal"]
   }
 }
