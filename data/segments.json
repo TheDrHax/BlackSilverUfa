@@ -7408,5 +7408,13 @@
     "date": "2021-05-02",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1008423983.torrent",
     "games": ["returnal", "re8"]
+  },
+  "1010778171": {
+    "abs_start": "0:00", "abs_end": "9:58:26", "duration": "0:00",
+    "name": "Returnal #4",
+    "date": "2021-05-04",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1010778171.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1010778171.torrent",
+    "games": ["returnal"]
   }
 }
