@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "nier-replicant", "segment": "999099020", "name": "NieR Replicant #2", "start": 0},
-      {"id": "co-op", "segment": "1000457538", "name": "Chivalry 2 / Resident Evil Village - Gameplay 2 (демо) / Devour #2", "start": 0},
+      {"id": "co-op", "segment": "1000457538", "name": "Chivalry 2 / Resident Evil Village - Замок (демо) / Devour #2", "start": 0},
       {"id": "nier-replicant", "segment": "1001445798", "name": "NieR Replicant #3", "start": 0},
       {"id": "nier-replicant", "segment": "1002673460", "name": "NieR Replicant #4", "start": 0},
       {"id": "single", "segment": "1003719769", "name": "Scene Investigators (демо) / Ranch Simulator / Horror Squad / Tricky Towers #29", "start": 0},
       {"id": "returnal", "segment": "1005904918", "name": "Returnal #1", "start": 0},
       {"id": "returnal", "segment": "1007193234", "name": "Returnal #2", "start": 0},
-      {"id": "returnal", "segment": "1008423983", "name": "Returnal #3 / Resident Evil Village - Gameplay 1 и 2 (демо)", "start": 0},
+      {"id": "returnal", "segment": "1008423983", "name": "Returnal #3 / Resident Evil Village - Деревня (демо) / Resident Evil Village - Замок (демо)", "start": 0},
       {"id": "returnal", "segment": "1010778171", "name": "Returnal #4", "start": 0},
-      {"id": "returnal", "segment": "1011964836", "name": "Returnal #5", "start": 0}
+      {"id": "returnal", "segment": "1011964836", "name": "Returnal #5", "start": 0},
+      {"id": "re8", "segment": "1012980938", "name": "Resident Evil Village - Maiden (демо) / Resident Evil Village - Замок (демо) / Resident Evil Village #1", "start": 0}
     ]
   },
   "finished": {
