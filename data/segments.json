@@ -7418,14 +7418,20 @@
     "youtube": "4wAZGun2sVk", "official": false, "abs_start": "0:00", "abs_end": "4:31:44", "duration": "4:31:44",
     "name": "Returnal #5",
     "date": "2021-05-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1011964836.torrent",
     "games": ["returnal"]
   },
   "1012980938": {
     "youtube": "fi4tuB3H66E", "official": false, "abs_start": "0:00", "abs_end": "11:05:42", "duration": "11:05:42",
     "name": "Resident Evil Village - Maiden (демо) / Resident Evil Village - Замок (демо) / Resident Evil Village #1",
     "date": "2021-05-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1012980938.torrent",
+    "games": ["re8"]
+  },
+  "1014133625": {
+    "abs_start": "0:00", "abs_end": "3:33:30", "duration": "0:00",
+    "name": "Resident Evil Village #2 (часть 1)",
+    "date": "2021-05-07",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1014133625.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1014133625.torrent",
     "games": ["re8"]
   }
 }
