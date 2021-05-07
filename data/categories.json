@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "nier-replicant", "segment": "1001445798", "name": "NieR Replicant #3", "start": 0},
       {"id": "nier-replicant", "segment": "1002673460", "name": "NieR Replicant #4", "start": 0},
       {"id": "single", "segment": "1003719769", "name": "Scene Investigators (демо) / Ranch Simulator / Horror Squad / Tricky Towers #29", "start": 0},
       {"id": "returnal", "segment": "1005904918", "name": "Returnal #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "returnal", "segment": "1010778171", "name": "Returnal #4", "start": 0},
       {"id": "returnal", "segment": "1011964836", "name": "Returnal #5", "start": 0},
       {"id": "re8", "segment": "1012980938", "name": "Resident Evil Village - Maiden (демо) / Resident Evil Village - Замок (демо) / Resident Evil Village #1", "start": 0},
-      {"id": "re8", "segment": "1014133625", "name": "Resident Evil Village #2 (часть 1)", "start": 0}
+      {"id": "re8", "segment": "1014133625", "name": "Resident Evil Village #2 (часть 1)", "start": 0},
+      {"id": "re8", "segment": "1014279040", "name": "Resident Evil Village #2 (часть 2)", "start": 0}
     ]
   },
   "finished": {
@@ -228,6 +228,7 @@
       {"id": "single", "segment": "869571796", "name": "Noch (демо)", "start": 0},
       {"id": "single", "segment": "869571796", "name": "Dom Rusalok", "start": 8232},
       {"name": "Hitman 3", "id": "hitman-3", "segment": "880899353"},
+      {"name": "Resident Evil Village", "id": "re8", "segment": "883419848"},
       {"name": "At Dead Of Night", "id": "at-dead-of-night", "segment": "887445977"},
       {"id": "single", "segment": "891206240", "name": "The Medium", "start": 0},
       {"id": "single", "segment": "901835689", "name": "NUTS", "start": 9828},
@@ -554,7 +555,6 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Resident Evil Village", "id": "re8", "segment": "883419848"},
       {"name": "Silent Hill 4: The Room", "id": "sh4", "segment": "987111954"},
       {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"}
     ]
