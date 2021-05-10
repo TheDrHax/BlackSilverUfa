@@ -2106,9 +2106,10 @@
     "games": ["moonlighter"]
   },
   "268114023": {
-    "youtube": "VzqWyytjckQ", "official": false, "abs_start": "0:00", "abs_end": "5:02:43", "duration": "5:02:43",
+    "abs_start": "0:00", "abs_end": "5:03:43", "duration": "0:00",
     "name": "Dark Souls: Remastered #1 (заново, со зрителями)",
     "date": "2018-06-01",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/268114023.mp4",
     "games": ["ds-remastered"]
   },
   "268497396": {
@@ -6472,15 +6473,9 @@
   },
   "800233089": {
     "youtube": "CSjEpw0w5gE", "official": false, "abs_start": "0:00", "abs_end": "2:34:24", "duration": "2:34:24",
-    "name": "Call of Duty: Warzone #13",
+    "name": "Call of Duty: Warzone #13 / Marvel's Spider-Man: Miles Morales",
     "date": "2020-11-12",
-    "games": ["cod-warzone"]
-  },
-  "800233089.1": {
-    "youtube": "XcOSWStaSB0", "abs_start": "2:34:24", "abs_end": "7:34:06", "duration": "4:59:42",
-    "name": "Marvel's Spider-Man: Miles Morales",
-    "date": "2020-11-12",
-    "games": ["first"]
+    "games": ["cod-warzone", "first"]
   },
   "801377729": {
     "youtube": "plgno45snwg", "official": false, "abs_start": "0:00", "abs_end": "7:04:52", "duration": "7:04:52",

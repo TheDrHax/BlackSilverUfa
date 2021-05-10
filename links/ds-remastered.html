@@ -308,16 +308,15 @@
         <i class="fas fa-comments"></i> 14705
       </a>
     </span>
-    <span class="badge badge-warning">
-      <a href="https://www.youtube.com/watch?v=VzqWyytjckQ" target="_blank">
-        <i class="fab fa-youtube"></i> VzqWyytjckQ
+    <span class="badge badge-danger">
+      <a href="https://bsufiles.thedrhax.pw/streams/permanent/268114023.mp4">
+        <i class="fas fa-download"></i> скачать
       </a>
     </span>
   </div>
 </div>
 
 <ul>
-  <li>Примечание: Просмотр заблокирован в Японии.</li>
   <div class="timecodes" data-id="3">
     <li>Таймкоды:</li>
   <ul>
@@ -355,6 +354,7 @@
   <ul>
     <li><a data-value="12414">3:26:54</a> - <a data-value="12786">3:33:06</a> — Twitch вырезал звук</li>
     <li><a data-value="12845">3:34:05</a> - <a data-value="13049">3:37:29</a> — Highway to Hell - AC/DC</li>
+    <li><a data-value="13654">3:47:34</a> - <a data-value="13845">3:50:45</a> — Fate/Stay Night - The flower will bloom</li>
     <li><a data-value="16544">4:35:44</a> - <a data-value="16760">4:39:20</a> — Туман - Сектор газа</li>
   </ul>
 
@@ -364,13 +364,19 @@
 </ul>
 
 <div class="video-row d-flex justify-content-center">
-  <p class="stream" data-id="3" data-hash="268114023" data-subtitles="https://blackufa-chats.thedrhax.pw/chats-2018/v268114023.ass" data-name="1 (заново, со зрителями)" data-youtube="VzqWyytjckQ" />
+  <p class="stream" data-id="3" data-hash="268114023" data-subtitles="https://blackufa-chats.thedrhax.pw/chats-2018/v268114023.ass" data-name="1 (заново, со зрителями)" data-direct="https://bsufiles.thedrhax.pw/streams/permanent/268114023.mp4" />
 </div>
 
 
 
 <div class="highlighter-rouge">
-  <pre class="highlight"><code>mpv --sub-file=https://blackufa-chats.thedrhax.pw/chats-2018/v268114023.ass ytdl://VzqWyytjckQ
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa-chats.thedrhax.pw/chats-2018/v268114023.ass https://bsufiles.thedrhax.pw/streams/permanent/268114023.mp4
+</code></pre>
+</div>
+
+
+<div class="highlighter-rouge">
+  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blackufa-chats.thedrhax.pw/chats-2018/v268114023.ass" --player-passthrough hls twitch.tv/videos/268114023 best
 </code></pre>
 </div>
 
