@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "nier-replicant", "segment": "1002673460", "name": "NieR Replicant #4", "start": 0},
       {"id": "single", "segment": "1003719769", "name": "Scene Investigators (демо) / Ranch Simulator / Horror Squad / Tricky Towers #29", "start": 0},
       {"id": "returnal", "segment": "1005904918", "name": "Returnal #1", "start": 0},
       {"id": "returnal", "segment": "1007193234", "name": "Returnal #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "returnal", "segment": "1011964836", "name": "Returnal #5", "start": 0},
       {"id": "re8", "segment": "1012980938", "name": "Resident Evil Village - Maiden (демо) / Resident Evil Village - Замок (демо) / Resident Evil Village #1", "start": 0},
       {"id": "re8", "segment": "1014133625", "name": "Resident Evil Village #2 (часть 1)", "start": 0},
-      {"id": "re8", "segment": "1014279040", "name": "Resident Evil Village #2 (часть 2)", "start": 0}
+      {"id": "re8", "segment": "1014279040", "name": "Resident Evil Village #2 (часть 2)", "start": 0},
+      {"id": "unboxing", "segment": "1017725694", "name": "ROG Gladius III / Starless / War Mongrels / Metro Exodus - Enhanced Edition", "start": 0}
     ]
   },
   "finished": {
@@ -549,7 +549,9 @@
       {"id": "first", "segment": "988804108", "name": "Resident Evil Re:Verse", "start": 3260},
       {"id": "first", "segment": "989503848", "name": "Demon Skin", "start": 0},
       {"id": "first", "segment": "992035730", "name": "Resident Evil Zero", "start": 0},
-      {"id": "first", "segment": "997843732", "name": "Don't Forget Me", "start": 0}
+      {"id": "first", "segment": "997843732", "name": "Don't Forget Me", "start": 0},
+      {"id": "first", "segment": "1017725694", "name": "Starless", "start": 6508},
+      {"id": "first", "segment": "1017725694", "name": "War Mongrels", "start": 7480}
     ]
   },
   "ongoing": {
@@ -923,7 +925,8 @@
       {"id": "unboxing", "segment": "792632708", "name": "Xbox Series X", "start": 6644},
       {"id": "unboxing", "segment": "806256296", "name": "Sony PlayStation 5", "start": 0},
       {"id": "unboxing", "segment": "812974689", "name": "Asus ROG Zephyrus G14", "start": 0},
-      {"id": "unboxing", "segment": "962439245", "name": "ROG Flow X13", "start": 0}
+      {"id": "unboxing", "segment": "962439245", "name": "ROG Flow X13", "start": 0},
+      {"id": "unboxing", "segment": "1017725694", "name": "ROG Gladius III", "start": 0}
     ]
   }
 }
