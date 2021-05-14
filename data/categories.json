@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "returnal", "segment": "1005904918", "name": "Returnal #1", "start": 0},
       {"id": "returnal", "segment": "1007193234", "name": "Returnal #2", "start": 0},
       {"id": "returnal", "segment": "1008423983", "name": "Returnal #3 / Resident Evil Village - Деревня (демо) / Resident Evil Village - Замок (демо)", "start": 0},
       {"id": "returnal", "segment": "1010778171", "name": "Returnal #4", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "re8", "segment": "1014133625", "name": "Resident Evil Village #2 (часть 1)", "start": 0},
       {"id": "re8", "segment": "1014279040", "name": "Resident Evil Village #2 (часть 2)", "start": 0},
       {"id": "unboxing", "segment": "1017725694", "name": "ROG Gladius III / Starless / War Mongrels / Metro Exodus - Enhanced Edition", "start": 0},
-      {"id": "first", "segment": "1021117640", "name": "Until We Die (демо) / Severed Steel (демо) / In Sound Mind #2 (демо) / Happy Game (демо) / Gravewood High (демо) / SCP: Escape Together / Wreckfest #6 / Subnautica: Below Zero (ранний доступ) #8", "start": 0}
+      {"id": "first", "segment": "1021117640", "name": "Until We Die (демо) / Severed Steel (демо) / In Sound Mind #2 (демо) / Happy Game (демо) / Gravewood High (демо) / SCP: Escape Together / Wreckfest #6 / Subnautica: Below Zero (ранний доступ) #8", "start": 0},
+      {"id": "first", "segment": "1022192586", "name": "Mass Effect: Legendary Edition", "start": 0}
     ]
   },
   "finished": {
@@ -555,7 +555,8 @@
       {"id": "first", "segment": "1021117640", "name": "Severed Steel (демо)", "start": 6992},
       {"id": "first", "segment": "1021117640", "name": "Happy Game (демо)", "start": 9165},
       {"id": "first", "segment": "1021117640", "name": "Gravewood High (демо)", "start": 10035},
-      {"id": "first", "segment": "1021117640", "name": "SCP: Escape Together", "start": 10512}
+      {"id": "first", "segment": "1021117640", "name": "SCP: Escape Together", "start": 10512},
+      {"id": "first", "segment": "1022192586", "name": "Mass Effect: Legendary Edition", "start": 0}
     ]
   },
   "ongoing": {
