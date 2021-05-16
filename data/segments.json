@@ -2917,7 +2917,7 @@
   },
   "331965944": {
     "youtube": "9IGkvnhsS7k", "abs_start": "0:00", "abs_end": "4:34:15", "duration": "4:34:15",
-    "name": "Blackout Club / Pummel Party #1 / Tricky Towers #7",
+    "name": "Blackout Club / Pummel Party #1 (4D) / Tricky Towers #7",
     "date": "2018-11-05",
     "games": ["co-op", "pummel-party", "tricky-towers"]
   },
@@ -3007,7 +3007,7 @@
   },
   "339579917.1": {
     "youtube": "xupecZC5l7I", "abs_start": "3:19:44", "abs_end": "7:37:40", "duration": "4:17:56",
-    "name": "Эскейп-румы - The Experiment #1 / Pummel Party #2 / Tricky Towers #8",
+    "name": "Эскейп-румы - The Experiment #1 / Pummel Party #2 (4D) / Tricky Towers #8",
     "date": "2018-11-23",
     "games": ["escape-rooms", "pummel-party", "tricky-towers"]
   },
@@ -3764,7 +3764,7 @@
   },
   "410400457": {
     "youtube": "h18MVwEQsww", "abs_start": "0:00", "abs_end": "6:02:37", "duration": "6:02:37",
-    "name": "The Beast Inside (демо) / Pacify / Pummel Party #3 / Tricky Towers #15",
+    "name": "The Beast Inside (демо) / Pacify / Pummel Party #3 (4D) / Tricky Towers #15",
     "date": "2019-04-13",
     "games": ["single", "co-op", "pummel-party", "tricky-towers"]
   },
@@ -4130,7 +4130,7 @@
   },
   "439860739": {
     "youtube": "_JfrkgyEAYw", "abs_start": "0:00", "abs_end": "6:17:07", "duration": "6:17:07",
-    "name": "Hollow Knight #12 / Havocado #1 / Pummel Party #4 / Tricky Towers #16",
+    "name": "Hollow Knight #12 / Havocado #1 / Pummel Party #4 (4D) / Tricky Towers #16",
     "date": "2019-06-16",
     "games": ["hollow-knight", "havocado", "pummel-party", "tricky-towers"]
   },
@@ -7448,7 +7448,6 @@
     "youtube": "RTa60x9-sic", "official": false, "abs_start": "0:00", "abs_end": "7:32:18", "duration": "7:32:18",
     "name": "Mass Effect: Legendary Edition #1",
     "date": "2021-05-14",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1022192586.torrent",
     "games": ["me"]
   },
   "1023398734": {
@@ -7457,5 +7456,13 @@
     "date": "2021-05-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1023398734.torrent",
     "games": ["me", "me2"]
+  },
+  "1024777649": {
+    "abs_start": "0:00", "abs_end": "4:29:47", "duration": "0:00",
+    "name": "Dread Hunger / Pummel Party #14 (6D)",
+    "date": "2021-05-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1024777649.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1024777649.torrent",
+    "games": ["co-op", "pummel-party"]
   }
 }

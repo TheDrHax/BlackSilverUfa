@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "returnal", "segment": "1008423983", "name": "Returnal #3 / Resident Evil Village - Деревня (демо) / Resident Evil Village - Замок (демо)", "start": 0},
       {"id": "returnal", "segment": "1010778171", "name": "Returnal #4", "start": 0},
       {"id": "returnal", "segment": "1011964836", "name": "Returnal #5", "start": 0},
       {"id": "re8", "segment": "1012980938", "name": "Resident Evil Village - Maiden (демо) / Resident Evil Village - Замок (демо) / Resident Evil Village #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "unboxing", "segment": "1017725694", "name": "ROG Gladius III / Starless / War Mongrels / Metro Exodus - Enhanced Edition", "start": 0},
       {"id": "first", "segment": "1021117640", "name": "Until We Die (демо) / Severed Steel (демо) / In Sound Mind #2 (демо) / Happy Game (демо) / Gravewood High (демо) / SCP: Escape Together / Wreckfest #6 / Subnautica: Below Zero (ранний доступ) #8", "start": 0},
       {"id": "me", "segment": "1022192586", "name": "Mass Effect: Legendary Edition #1", "start": 0},
-      {"id": "me", "segment": "1023398734", "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #1", "start": 0}
+      {"id": "me", "segment": "1023398734", "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #1", "start": 0},
+      {"id": "co-op", "segment": "1024777649", "name": "Dread Hunger / Pummel Party #14 (6D)", "start": 0}
     ]
   },
   "finished": {
@@ -855,7 +855,8 @@
       {"name": "Enlisted", "id": "enlisted", "segment": "989503848"},
       {"id": "co-op", "segment": "1000457538", "name": "Chivalry 2", "start": 0},
       {"id": "co-op", "segment": "1003719769", "name": "Ranch Simulator", "start": 7739},
-      {"id": "co-op", "segment": "1003719769", "name": "Horror Squad", "start": 14940}
+      {"id": "co-op", "segment": "1003719769", "name": "Horror Squad", "start": 14940},
+      {"id": "co-op", "segment": "1024777649", "name": "Dread Hunger", "start": 0}
     ]
   },
   "other": {
