@@ -7452,7 +7452,7 @@
   },
   "1023398734": {
     "youtube": "udkGxx6D0rM", "official": false, "abs_start": "0:00", "abs_end": "7:55:33", "duration": "7:55:33",
-    "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #1",
+    "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #0 (первые 3 минуты)",
     "date": "2021-05-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1023398734.torrent",
     "games": ["me", "me2"]
@@ -7463,5 +7463,13 @@
     "date": "2021-05-16",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1024777649.torrent",
     "games": ["co-op", "pummel-party"]
+  },
+  "1025736815": {
+    "abs_start": "0:00", "abs_end": "6:18:20", "duration": "0:00",
+    "name": "Розыгрыш ROG Gladius III / Mass Effect 2: Legendary Edition #1",
+    "date": "2021-05-17",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1025736815.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1025736815.torrent",
+    "games": ["events", "me2"]
   }
 }

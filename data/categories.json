@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "returnal", "segment": "1010778171", "name": "Returnal #4", "start": 0},
       {"id": "returnal", "segment": "1011964836", "name": "Returnal #5", "start": 0},
       {"id": "re8", "segment": "1012980938", "name": "Resident Evil Village - Maiden (демо) / Resident Evil Village - Замок (демо) / Resident Evil Village #1", "start": 0},
       {"id": "re8", "segment": "1014133625", "name": "Resident Evil Village #2 (часть 1)", "start": 0},
@@ -11,8 +10,9 @@
       {"id": "unboxing", "segment": "1017725694", "name": "ROG Gladius III / Starless / War Mongrels / Metro Exodus - Enhanced Edition", "start": 0},
       {"id": "first", "segment": "1021117640", "name": "Until We Die (демо) / Severed Steel (демо) / In Sound Mind #2 (демо) / Happy Game (демо) / Gravewood High (демо) / SCP: Escape Together / Wreckfest #6 / Subnautica: Below Zero (ранний доступ) #8", "start": 0},
       {"id": "me", "segment": "1022192586", "name": "Mass Effect: Legendary Edition #1", "start": 0},
-      {"id": "me", "segment": "1023398734", "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #1", "start": 0},
-      {"id": "co-op", "segment": "1024777649", "name": "Dread Hunger / Pummel Party #14 (6D)", "start": 0}
+      {"id": "me", "segment": "1023398734", "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #0 (первые 3 минуты)", "start": 0},
+      {"id": "co-op", "segment": "1024777649", "name": "Dread Hunger / Pummel Party #14 (6D)", "start": 0},
+      {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III / Mass Effect 2: Legendary Edition #1", "start": 0}
     ]
   },
   "finished": {
@@ -886,7 +886,8 @@
       {"id": "events", "segment": "815193918", "name": "Розыгрыш флешек Asus ROG и ACRONYM", "start": 0},
       {"id": "events", "segment": "823035178", "name": "Розыгрыш NVIDIA GeForce RTX 2080 Super", "start": 0},
       {"id": "other", "segment": "895436223", "name": "Трейлеры и арты", "start": 0},
-      {"id": "events", "segment": "975061581", "name": "Игровые коллекции зрителей", "start": 9662}
+      {"id": "events", "segment": "975061581", "name": "Игровые коллекции зрителей", "start": 9662},
+      {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0}
     ]
   },
   "expos": {
