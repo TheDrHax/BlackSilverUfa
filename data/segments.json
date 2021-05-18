@@ -7454,7 +7454,6 @@
     "youtube": "udkGxx6D0rM", "official": false, "abs_start": "0:00", "abs_end": "7:55:33", "duration": "7:55:33",
     "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #0 (первые 3 минуты)",
     "date": "2021-05-15",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1023398734.torrent",
     "games": ["me", "me2"]
   },
   "1024777649": {
@@ -7471,5 +7470,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1025736815.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1025736815.torrent",
     "games": ["events", "me2"]
+  },
+  "1026264805": {
+    "abs_start": "0:00", "abs_end": "1:45:55", "duration": "0:00",
+    "name": "Mass Effect 2: Legendary Edition #2",
+    "date": "2021-05-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1026264805.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1026264805.torrent",
+    "games": ["me2"]
   }
 }
