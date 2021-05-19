@@ -6538,7 +6538,7 @@
   },
   "811962733": {
     "youtube": "h8he68ht058", "official": false, "abs_start": "0:00", "abs_end": "3:34:59", "duration": "3:34:59",
-    "name": "Half-Life: Alyx #1 (заново, Chompski Challenge) / Demon's Souls Remake #1 (заново) / Days Gone #1 (заново, PS5)",
+    "name": "Half-Life: Alyx #1 (заново, Chompski Challenge) / Demon's Souls Remake #1 (заново) / Days Gone - PlayStation 5",
     "date": "2020-11-22",
     "games": ["hl-alyx", "demons-souls-remake", "days-gone"]
   },
@@ -7318,7 +7318,6 @@
     "youtube": "JmOSv7LJXPo", "official": false, "abs_start": "0:00", "abs_end": "7:20:02", "duration": "7:20:02",
     "name": "Зайчик (Tiny Bunny) - Эпизод 2 / Enlisted #3",
     "date": "2021-04-21",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/995413784.torrent",
     "games": ["tiny-bunny", "enlisted"]
   },
   "996609423": {
@@ -7474,5 +7473,13 @@
     "date": "2021-05-18",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1026264805.torrent",
     "games": ["me2"]
+  },
+  "1027931171": {
+    "abs_start": "0:00", "abs_end": "6:58:48", "duration": "0:00",
+    "name": "Days Gone - PC / SnowRunner #18",
+    "date": "2021-05-19",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1027931171.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1027931171.torrent",
+    "games": ["days-gone", "snowrunner"]
   }
 }
