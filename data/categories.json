@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "re8", "segment": "1014133625", "name": "Resident Evil Village #2 (часть 1)", "start": 0},
       {"id": "re8", "segment": "1014279040", "name": "Resident Evil Village #2 (часть 2)", "start": 0},
       {"id": "unboxing", "segment": "1017725694", "name": "ROG Gladius III / Starless / War Mongrels / Metro Exodus - Enhanced Edition", "start": 0},
-      {"id": "first", "segment": "1021117640", "name": "Until We Die (демо) / Severed Steel (демо) / In Sound Mind #2 (демо) / Happy Game (демо) / Gravewood High (демо) / SCP: Escape Together / Wreckfest #6 / Subnautica: Below Zero (ранний доступ) #8", "start": 0},
+      {"id": "first", "segment": "1021117640", "name": "Until We Die (демо) / Severed Steel (демо) / In Sound Mind #2 (демо) / Happy Game (демо) / Gravewood High (демо) / SCP: Escape Together / Wreckfest #6 / Subnautica: Below Zero #8 (релиз)", "start": 0},
       {"id": "me", "segment": "1022192586", "name": "Mass Effect: Legendary Edition #1", "start": 0},
       {"id": "me", "segment": "1023398734", "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #0 (первые 3 минуты)", "start": 0},
       {"id": "co-op", "segment": "1024777649", "name": "Dread Hunger / Pummel Party #14 (6D)", "start": 0},
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III / Mass Effect 2: Legendary Edition #1", "start": 0},
       {"id": "me2", "segment": "1026264805", "name": "Mass Effect 2: Legendary Edition #2", "start": 0},
-      {"id": "days-gone", "segment": "1027931171", "name": "Days Gone - PC / SnowRunner #18", "start": 0}
+      {"id": "days-gone", "segment": "1027931171", "name": "Days Gone - PC / SnowRunner #18", "start": 0},
+      {"id": "subnautica-bz", "segment": "1028999291", "name": "Subnautica: Below Zero #9", "start": 0}
     ]
   },
   "finished": {
@@ -101,6 +101,7 @@
       {"id": "single", "segment": "361716902", "name": "Deltarune - Ep. 1", "start": 0},
       {"id": "single", "segment": "364318283.1", "name": "Bright Memory - Ep. 1", "start": 0},
       {"name": "Resident Evil 2 Remake", "id": "re2-remake", "segment": "368943925"},
+      {"name": "Subnautica: Below Zero", "id": "subnautica-bz", "segment": "372293257.2"},
       {"name": "S.T.A.L.K.E.R.: Call of Pripyat", "id": "stalker-cop", "segment": "375535539"},
       {"name": "Metro Exodus", "id": "metro-exodus", "segment": "380648625"},
       {"id": "single", "segment": "383771606", "name": "Devotion", "start": 0},
@@ -586,7 +587,6 @@
       {"name": "No Man's Sky", "id": "no-mans-sky", "segment": "288630615.1"},
       {"name": "Dead Cells", "id": "dead-cells", "segment": "294220536"},
       {"name": "Forza Horizon 4", "id": "forza-horizon-4", "segment": "315365879"},
-      {"name": "Subnautica: Below Zero (ранний доступ)", "id": "subnautica-bz", "segment": "372293257.2"},
       {"name": "Totally Accurate Battle Simulator", "id": "tabs", "segment": "410963500"},
       {"name": "Jump King", "id": "jump-king", "segment": "422486024"},
       {"name": "Minecraft", "id": "minecraft", "segment": "438447673"},
