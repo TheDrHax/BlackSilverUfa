@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "re8", "segment": "1014279040", "name": "Resident Evil Village #2 (часть 2)", "start": 0},
       {"id": "unboxing", "segment": "1017725694", "name": "ROG Gladius III / Starless / War Mongrels / Metro Exodus - Enhanced Edition", "start": 0},
       {"id": "first", "segment": "1021117640", "name": "Until We Die (демо) / Severed Steel (демо) / In Sound Mind #2 (демо) / Happy Game (демо) / Gravewood High (демо) / SCP: Escape Together / Wreckfest #6 / Subnautica: Below Zero #8 (релиз)", "start": 0},
       {"id": "me", "segment": "1022192586", "name": "Mass Effect: Legendary Edition #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III / Mass Effect 2: Legendary Edition #1", "start": 0},
       {"id": "me2", "segment": "1026264805", "name": "Mass Effect 2: Legendary Edition #2", "start": 0},
       {"id": "days-gone", "segment": "1027931171", "name": "Days Gone - PC / SnowRunner #18", "start": 0},
-      {"id": "subnautica-bz", "segment": "1028999291", "name": "Subnautica: Below Zero #9", "start": 0}
+      {"id": "subnautica-bz", "segment": "1028999291", "name": "Subnautica: Below Zero #9", "start": 0},
+      {"id": "first", "segment": "1030127769", "name": "Phantom Abyss / Knockout City #2 (с Куплиновым и Дангаром)", "start": 0}
     ]
   },
   "finished": {
@@ -557,14 +557,14 @@
       {"id": "first", "segment": "1021117640", "name": "Severed Steel (демо)", "start": 6992},
       {"id": "first", "segment": "1021117640", "name": "Happy Game (демо)", "start": 9165},
       {"id": "first", "segment": "1021117640", "name": "Gravewood High (демо)", "start": 10035},
-      {"id": "first", "segment": "1021117640", "name": "SCP: Escape Together", "start": 10512}
+      {"id": "first", "segment": "1021117640", "name": "SCP: Escape Together", "start": 10512},
+      {"id": "first", "segment": "1030127769", "name": "Phantom Abyss", "start": 0}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "In Sound Mind", "id": "in-sound-mind", "segment": "650534841"},
-      {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"},
       {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"}
     ]
   },
@@ -682,7 +682,8 @@
       {"name": "Loop Hero", "id": "loop-hero", "segment": "926537203"},
       {"name": "Breathedge", "id": "breathedge", "segment": "927781155"},
       {"name": "Outriders", "id": "outriders", "segment": "928993182"},
-      {"name": "Silent Hill 4: The Room", "id": "sh4", "segment": "987111954"}
+      {"name": "Silent Hill 4: The Room", "id": "sh4", "segment": "987111954"},
+      {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"}
     ]
   },
   "co-op": {
@@ -850,7 +851,7 @@
       {"id": "co-op", "segment": "957785419", "name": "Unlasting Horror", "start": 7396},
       {"id": "co-op", "segment": "957785419", "name": "Hide and Seek", "start": 9065},
       {"id": "co-op", "segment": "957785419", "name": "Golf Party", "start": 10401},
-      {"id": "co-op", "segment": "975061581", "name": "Knockout City (WLG, Bale)", "start": 11486},
+      {"name": "Knockout City", "id": "knockout-city", "segment": "975061581"},
       {"id": "co-op", "segment": "984801715", "name": "First Class Trouble", "start": 13557},
       {"name": "Enlisted", "id": "enlisted", "segment": "989503848"},
       {"id": "co-op", "segment": "1000457538", "name": "Chivalry 2", "start": 0},
