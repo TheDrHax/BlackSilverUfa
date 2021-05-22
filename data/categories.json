@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "unboxing", "segment": "1017725694", "name": "ROG Gladius III / Starless / War Mongrels / Metro Exodus - Enhanced Edition", "start": 0},
       {"id": "first", "segment": "1021117640", "name": "Until We Die (демо) / Severed Steel (демо) / In Sound Mind #2 (демо) / Happy Game (демо) / Gravewood High (демо) / SCP: Escape Together / Wreckfest #6 / Subnautica: Below Zero #8 (релиз)", "start": 0},
       {"id": "me", "segment": "1022192586", "name": "Mass Effect: Legendary Edition #1", "start": 0},
       {"id": "me", "segment": "1023398734", "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #0 (первые 3 минуты)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "me2", "segment": "1026264805", "name": "Mass Effect 2: Legendary Edition #2", "start": 0},
       {"id": "days-gone", "segment": "1027931171", "name": "Days Gone - PC / SnowRunner #18", "start": 0},
       {"id": "subnautica-bz", "segment": "1028999291", "name": "Subnautica: Below Zero #9", "start": 0},
-      {"id": "first", "segment": "1030127769", "name": "Phantom Abyss / Knockout City #2 (с Куплиновым и Дангаром)", "start": 0}
+      {"id": "phantom-abyss", "segment": "1030127769", "name": "Phantom Abyss #1 / Knockout City #2 (с Куплиновым и Дангаром)", "start": 0},
+      {"id": "first", "segment": "1031332081", "name": "Sniper Ghost Warrior Contracts 2 (демо) / Phantom Abyss #2", "start": 0}
     ]
   },
   "finished": {
@@ -558,7 +558,7 @@
       {"id": "first", "segment": "1021117640", "name": "Happy Game (демо)", "start": 9165},
       {"id": "first", "segment": "1021117640", "name": "Gravewood High (демо)", "start": 10035},
       {"id": "first", "segment": "1021117640", "name": "SCP: Escape Together", "start": 10512},
-      {"id": "first", "segment": "1030127769", "name": "Phantom Abyss", "start": 0}
+      {"id": "first", "segment": "1031332081", "name": "Sniper Ghost Warrior Contracts 2 (демо)", "start": 0}
     ]
   },
   "ongoing": {
@@ -601,7 +601,8 @@
       {"name": "Forgotten Tunnels", "id": "forgotten-tunnels", "segment": "697191590"},
       {"name": "Hades", "id": "hades", "segment": "747742325"},
       {"name": "Everspace 2", "id": "everspace-2", "segment": "767249770"},
-      {"name": "Noita", "id": "noita", "segment": "772063368"}
+      {"name": "Noita", "id": "noita", "segment": "772063368"},
+      {"name": "Phantom Abyss", "id": "phantom-abyss", "segment": "1030127769"}
     ]
   },
   "abandoned": {
