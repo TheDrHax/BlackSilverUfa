@@ -51,8 +51,7 @@ export default class SegmentPlayer extends React.Component {
       fullscreen: false,
       segment: null,
       segmentRef: null,
-      playlist: null,
-      relatedRefs: null,
+      playlists: null,
       timecodes: null,
       currentTime: 0,
       setTime: null,
@@ -219,22 +218,15 @@ export default class SegmentPlayer extends React.Component {
         params,
       } = request;
 
-      const playlist = game.streams.map((ref) => ({
+      const relatedGames = segment.games.map((gameId) => games.by('id', gameId));
+
+      let playlists = relatedGames.map((relatedGame) => relatedGame.streams.map((ref) => ({
         ref,
         segment: segments.by('segment', ref.segment),
-      }));
+      })));
 
-      let relatedRefs = segment.games.map((gameId) => {
-        const relatedGame = games.by('id', gameId);
-
-        return find(
-          relatedGame.streams,
-          (ref) => ref.segment === segment.segment,
-        );
-      });
-
-      if (relatedRefs.length === 0) {
-        relatedRefs = null;
+      if (playlists.length === 0) {
+        playlists = null;
       }
 
       document.title = `${segmentRef.name} | ${game.name} | ${config.title}`;
@@ -246,8 +238,7 @@ export default class SegmentPlayer extends React.Component {
         segment,
         game,
         segmentRef,
-        playlist,
-        relatedRefs,
+        playlists,
         params,
         savedPositionAdapter: new SavedPosition(segment),
         timecodes: timecodes[segment.segment],
@@ -383,10 +374,12 @@ export default class SegmentPlayer extends React.Component {
         }}
         onDragStop={(e, { x, y }) => {
           updateState(this, {
-            chatOverlay: { $merge: {
-              x: x / width,
-              y: y / height,
-            } },
+            chatOverlay: {
+              $merge: {
+                x: x / width,
+                y: y / height,
+              }
+            },
           });
         }}
         onResizeStop={(e, direction, ref, delta, position) => {
@@ -527,25 +520,29 @@ export default class SegmentPlayer extends React.Component {
 
   renderPlaylist({ forceExpanded = false, fullHeight = false } = {}) {
     const {
-      game,
-      relatedRefs,
       segmentRef,
-      playlist,
+      playlists,
       playlistAccordion,
     } = this.state;
 
-    if (!playlist && !relatedRefs) return null;
+    if (!playlists) return null;
 
     const playlistComp = (
-      playlist && (
-        <Playlist
-          items={playlist}
-          activeItem={find(playlist, ({ ref }) => ref === segmentRef)}
-          forceExpanded={forceExpanded}
-          fullHeight={fullHeight}
-          opened={playlistAccordion === 'streams'}
-        />
-      )
+      playlists && playlists.map((playlist) => {
+        const { ref: { game: { id } } } = playlist[0];
+
+        return (
+          <Playlist
+            key={id}
+            id={id}
+            items={playlist}
+            activeItem={find(playlist, ({ ref }) => ref.segment === segmentRef.segment)}
+            forceExpanded={forceExpanded}
+            fullHeight={fullHeight}
+            opened={playlistAccordion === id}
+          />
+        );
+      })
     );
 
     return (
@@ -553,40 +550,13 @@ export default class SegmentPlayer extends React.Component {
         <div className="sidebar-header">
           Плейлист
         </div>
-        <Accordion onSelect={this.onPlaylistAccordionSelect}>
-          {relatedRefs && (
-            <>
-              <div className="playlist-game">
-                <Accordion.Toggle
-                  as={Button}
-                  variant="dark"
-                  size="sm"
-                  className="border-bottom current-game"
-                  eventKey="game"
-                >
-                  {game.name}
-                </Accordion.Toggle>
-              </div>
-              <Accordion.Collapse eventKey="game">
-                <ListGroup className="playlist">
-                  {relatedRefs.map((ref) => (
-                    <ListGroup.Item
-                      action
-                      key={ref.game.id}
-                      as={Link}
-                      to={ref.url}
-                      active={ref === segmentRef}
-                    >
-                      {ref.game.type === 'list' ? ref.name : ref.game.name}
-                    </ListGroup.Item>
-                  ))}
-                </ListGroup>
-              </Accordion.Collapse>
-            </>
-          )}
-          {playlist && !forceExpanded && playlistComp}
-        </Accordion>
-        {playlist && forceExpanded && playlistComp}
+        {forceExpanded ? (
+          playlistComp
+        ) : (
+          <Accordion onSelect={this.onPlaylistAccordionSelect}>
+            {playlistComp}
+          </Accordion>
+        )}
       </>
     );
   }
@@ -595,8 +565,7 @@ export default class SegmentPlayer extends React.Component {
     const {
       sidebarCollapsed,
       timecodes,
-      playlist,
-      relatedRefs,
+      playlists,
       segment: {
         subtitles,
       },
@@ -613,7 +582,7 @@ export default class SegmentPlayer extends React.Component {
 
     return (
       <>
-        {(timecodes || playlist) && (
+        {(timecodes || playlists) && (
           <MediaQuery minDeviceWidth={1200}>
             <Col className={leftSidebarClasses} tabIndex="0">
               <div className="sidebar-row-overlay flex-row-reverse">
@@ -630,11 +599,11 @@ export default class SegmentPlayer extends React.Component {
                 </Button>
               </div>
 
-              {(playlist || relatedRefs) && this.renderPlaylist()}
+              {playlists && this.renderPlaylist()}
               {timecodes && this.renderTimecodes()}
 
               <div className="collapsed-content">
-                {(playlist || relatedRefs) && (
+                {playlists && (
                   <div className="sidebar-header">Плейлист</div>
                 )}
                 {timecodes && (
@@ -648,14 +617,14 @@ export default class SegmentPlayer extends React.Component {
           </MediaQuery>
         )}
 
-        {(timecodes || playlist) && (
+        {(timecodes || playlists) && (
           <MediaQuery minDeviceWidth={768} maxDeviceWidth={1199}>
             <Col className="col-sidebar border-right collapsed" tabIndex="0">
-              {(playlist || relatedRefs) && this.renderPlaylist()}
+              {playlists && this.renderPlaylist()}
               {timecodes && this.renderTimecodes()}
 
               <div className="collapsed-content">
-                {(playlist || relatedRefs) && (
+                {playlists && (
                   <div className="sidebar-header">Плейлист</div>
                 )}
                 {timecodes && (
@@ -675,8 +644,7 @@ export default class SegmentPlayer extends React.Component {
       chatContainer,
       state: {
         fullscreen,
-        playlist,
-        relatedRefs,
+        playlists,
         timecodes,
         segment: {
           subtitles,
@@ -684,7 +652,7 @@ export default class SegmentPlayer extends React.Component {
       },
     } = this;
 
-    if (!subtitles && !playlist && !timecodes) {
+    if (!subtitles && !playlists && !timecodes) {
       return null;
     }
 
@@ -694,7 +662,7 @@ export default class SegmentPlayer extends React.Component {
           {(subtitles && !fullscreen) && (
             <Reparentable el={chatContainer} className="flex-1-1-0" />
           )}
-          {(!subtitles && (playlist || relatedRefs)) && this.renderPlaylist()}
+          {(!subtitles && playlists) && this.renderPlaylist()}
           {(!subtitles && timecodes) && this.renderTimecodes()}
         </Col>
       </MediaQuery>
@@ -784,7 +752,7 @@ export default class SegmentPlayer extends React.Component {
       chatContainer,
       state: {
         fullscreen,
-        playlist,
+        playlists,
         timecodes,
         segment: {
           subtitles,
@@ -814,7 +782,7 @@ export default class SegmentPlayer extends React.Component {
                       </Tab>
                     )}
 
-                    {playlist && (
+                    {playlists && (
                       <Tab eventKey="playlist" title="Плейлист">
                         {this.renderPlaylist({
                           forceExpanded: true,

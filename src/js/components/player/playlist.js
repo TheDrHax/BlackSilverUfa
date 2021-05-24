@@ -7,6 +7,7 @@ import Sugar from '../../utils/sugar';
 
 export default class Playlist extends React.Component {
   static propTypes = {
+    id: PropTypes.string,
     items: PropTypes.array.isRequired,
     activeItem: PropTypes.object.isRequired,
     forceExpanded: PropTypes.bool,
@@ -15,6 +16,7 @@ export default class Playlist extends React.Component {
   }
 
   static defaultProps = {
+    id: 'streams',
     forceExpanded: false,
     fullHeight: false,
     opened: false,
@@ -40,7 +42,7 @@ export default class Playlist extends React.Component {
   }
 
   renderNowPlaying() {
-    const { items, activeItem } = this.props;
+    const { items, activeItem, id } = this.props;
 
     const activeIndex = items.indexOf(activeItem);
     const prevItem = activeIndex !== -1 && items[activeIndex - 1];
@@ -62,9 +64,9 @@ export default class Playlist extends React.Component {
           variant="dark"
           size="sm"
           className="border-left border-right now-playing"
-          eventKey="streams"
+          eventKey={id}
         >
-          {activeItem.ref.name}
+          {activeItem.ref.game.name}
         </Accordion.Toggle>
         {nextItem ? (
           <Button as={Link} to={nextItem.ref.url} variant="dark" size="sm">
@@ -133,7 +135,7 @@ export default class Playlist extends React.Component {
   }
 
   render() {
-    const { forceExpanded } = this.props;
+    const { forceExpanded, id } = this.props;
 
     if (forceExpanded) {
       return (
@@ -147,7 +149,7 @@ export default class Playlist extends React.Component {
     return (
       <>
         {this.renderNowPlaying()}
-        <Accordion.Collapse eventKey="streams">
+        <Accordion.Collapse eventKey={id}>
           {this.renderScrollableList()}
         </Accordion.Collapse>
       </>
