@@ -382,6 +382,19 @@ window.addEventListener('DOMContentLoaded', function() {
     console.log(`Initializing ${streams.length} streams`);
   }
 
+  function convertLocationToBeta() {
+    let l = window.location;
+    return 'https://blackufa-beta.thedrhax.pw' + l.pathname + l.search + l.hash;
+  }
+
+  let tryBeta = document.getElementById("try-beta");
+  tryBeta.href = convertLocationToBeta();
+  tryBeta.onclick = function (e) {
+    e.preventDefault();
+    window.location.assign(convertLocationToBeta());
+    return false;
+  }
+
   for (let wrapper of streams) {
     if (!wrapper.dataset.youtube && !wrapper.dataset.direct) {
       continue;
