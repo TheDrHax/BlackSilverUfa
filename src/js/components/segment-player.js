@@ -239,6 +239,7 @@ export default class SegmentPlayer extends React.Component {
         game,
         segmentRef,
         playlists,
+        playlistAccordion: game.id,
         params,
         savedPositionAdapter: new SavedPosition(segment),
         timecodes: timecodes[segment.segment],
@@ -518,7 +519,7 @@ export default class SegmentPlayer extends React.Component {
     this.setState({ playlistAccordion: eventKey });
   }
 
-  renderPlaylist({ forceExpanded = false, fullHeight = false } = {}) {
+  renderPlaylist({ autoExpand = false, fullHeight = false } = {}) {
     const {
       segmentRef,
       playlists,
@@ -537,7 +538,6 @@ export default class SegmentPlayer extends React.Component {
             id={id}
             items={playlist}
             activeItem={find(playlist, ({ ref }) => ref.segment === segmentRef.segment)}
-            forceExpanded={forceExpanded}
             fullHeight={fullHeight}
             opened={playlistAccordion === id}
           />
@@ -550,13 +550,13 @@ export default class SegmentPlayer extends React.Component {
         <div className="sidebar-header">
           Плейлист
         </div>
-        {forceExpanded ? (
-          playlistComp
-        ) : (
-          <Accordion onSelect={this.onPlaylistAccordionSelect}>
-            {playlistComp}
-          </Accordion>
-        )}
+        <Accordion
+          onSelect={this.onPlaylistAccordionSelect}
+          activeKey={autoExpand ? playlistAccordion : undefined}
+          className={fullHeight ? 'h-100 d-flex flex-column' : undefined}
+        >
+          {playlistComp}
+        </Accordion>
       </>
     );
   }
@@ -773,7 +773,11 @@ export default class SegmentPlayer extends React.Component {
                 <Col className="sidebar-content">
                   <Tabs mountOnEnter>
                     <Tab eventKey="description" title="Описание">
-                      {this.renderDescription()}
+                      {!subtitlesInTab ? (
+                        <Scroll flex="1 1 0">
+                          {this.renderDescription()}
+                        </Scroll>
+                      ) : this.renderDescription()}
                     </Tab>
 
                     {timecodes && (
@@ -785,7 +789,7 @@ export default class SegmentPlayer extends React.Component {
                     {playlists && (
                       <Tab eventKey="playlist" title="Плейлист">
                         {this.renderPlaylist({
-                          forceExpanded: true,
+                          autoExpand: true,
                           fullHeight: true,
                         })}
                       </Tab>

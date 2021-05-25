@@ -10,14 +10,12 @@ export default class Playlist extends React.Component {
     id: PropTypes.string,
     items: PropTypes.array.isRequired,
     activeItem: PropTypes.object.isRequired,
-    forceExpanded: PropTypes.bool,
     fullHeight: PropTypes.bool,
     opened: PropTypes.bool,
   }
 
   static defaultProps = {
     id: 'streams',
-    forceExpanded: false,
     fullHeight: false,
     opened: false,
   }
@@ -26,7 +24,7 @@ export default class Playlist extends React.Component {
     super(props);
 
     this.state = {
-      collapsed: true,
+      collapsed: !props.opened,
     };
   }
 
@@ -117,8 +115,7 @@ export default class Playlist extends React.Component {
 
     const component = (
       <Scroll
-        heightRelativeToParent={fullHeight ? undefined : '100%'}
-        flex={fullHeight ? '1 1 0' : undefined}
+        heightRelativeToParent="100%"
         scrollToSelector={collapsed ? undefined : '.active'}
       >
         {this.renderList()}
@@ -135,21 +132,12 @@ export default class Playlist extends React.Component {
   }
 
   render() {
-    const { forceExpanded, id } = this.props;
-
-    if (forceExpanded) {
-      return (
-        <>
-          {this.renderNowPlaying()}
-          {this.renderScrollableList()}
-        </>
-      );
-    }
+    const { id } = this.props;
 
     return (
       <>
         {this.renderNowPlaying()}
-        <Accordion.Collapse eventKey={id}>
+        <Accordion.Collapse eventKey={id} className="flex-1-1-0">
           {this.renderScrollableList()}
         </Accordion.Collapse>
       </>
