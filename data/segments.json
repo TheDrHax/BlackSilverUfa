@@ -7511,9 +7511,17 @@
   },
   "1033590091": {
     "youtube": "_uv6WWu5Rx0", "official": false, "abs_start": "0:00", "abs_end": "5:59:29", "duration": "5:59:29",
-    "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant",
+    "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1",
     "date": "2021-05-24",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1033590091.torrent",
-    "games": ["first"]
+    "games": ["first", "biomutant"]
+  },
+  "1034612378": {
+    "abs_start": "0:00", "abs_end": "7:47:12", "duration": "0:00",
+    "name": "Biomutant #2",
+    "date": "2021-05-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1034612378.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1034612378.torrent",
+    "games": ["biomutant"]
   }
 }

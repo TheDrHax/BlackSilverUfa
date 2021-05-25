@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "me", "segment": "1023398734", "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #0 (первые 3 минуты)", "start": 0},
       {"id": "co-op", "segment": "1024777649", "name": "Dread Hunger / Pummel Party #14 (6D)", "start": 0},
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III / Mass Effect 2: Legendary Edition #1", "start": 0},
       {"id": "me2", "segment": "1026264805", "name": "Mass Effect 2: Legendary Edition #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "phantom-abyss", "segment": "1030127769", "name": "Phantom Abyss #1 / Knockout City #2 (с Куплиновым и Дангаром)", "start": 0},
       {"id": "first", "segment": "1031332081", "name": "Sniper Ghost Warrior Contracts 2 (демо) / Phantom Abyss #2", "start": 0},
       {"id": "co-op", "segment": "1031432095", "name": "Just Die Already / A House of Thieves", "start": 0},
-      {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant", "start": 0}
+      {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1", "start": 0},
+      {"id": "biomutant", "segment": "1034612378", "name": "Biomutant #2", "start": 0}
     ]
   },
   "finished": {
@@ -559,15 +559,15 @@
       {"id": "first", "segment": "1021117640", "name": "Gravewood High (демо)", "start": 10035},
       {"id": "first", "segment": "1021117640", "name": "SCP: Escape Together", "start": 10512},
       {"id": "first", "segment": "1031332081", "name": "Sniper Ghost Warrior Contracts 2 (демо)", "start": 0},
-      {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо)", "start": 0},
-      {"id": "first", "segment": "1033590091", "name": "Biomutant", "start": 7150}
+      {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо)", "start": 0}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "In Sound Mind", "id": "in-sound-mind", "segment": "650534841"},
-      {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"}
+      {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"},
+      {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"}
     ]
   },
   "infinite": {
