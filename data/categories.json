@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "co-op", "segment": "1024777649", "name": "Dread Hunger / Pummel Party #14 (6D)", "start": 0},
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III / Mass Effect 2: Legendary Edition #1", "start": 0},
       {"id": "me2", "segment": "1026264805", "name": "Mass Effect 2: Legendary Edition #2", "start": 0},
       {"id": "days-gone", "segment": "1027931171", "name": "Days Gone - PC / SnowRunner #18", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1031332081", "name": "Sniper Ghost Warrior Contracts 2 (демо) / Phantom Abyss #2", "start": 0},
       {"id": "co-op", "segment": "1031432095", "name": "Just Die Already / A House of Thieves", "start": 0},
       {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1", "start": 0},
-      {"id": "biomutant", "segment": "1034612378", "name": "Biomutant #2", "start": 0}
+      {"id": "biomutant", "segment": "1034612378", "name": "Biomutant #2", "start": 0},
+      {"id": "first", "segment": "1035840249", "name": "Siege Survival: Gloria Victis / Knockout City #3 (с WeLoveGames и Бейлом)", "start": 0}
     ]
   },
   "finished": {
@@ -559,7 +559,8 @@
       {"id": "first", "segment": "1021117640", "name": "Gravewood High (демо)", "start": 10035},
       {"id": "first", "segment": "1021117640", "name": "SCP: Escape Together", "start": 10512},
       {"id": "first", "segment": "1031332081", "name": "Sniper Ghost Warrior Contracts 2 (демо)", "start": 0},
-      {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо)", "start": 0}
+      {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо)", "start": 0},
+      {"id": "first", "segment": "1035840249", "name": "Siege Survival: Gloria Victis", "start": 0}
     ]
   },
   "ongoing": {
