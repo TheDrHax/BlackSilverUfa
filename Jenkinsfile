@@ -1,4 +1,4 @@
-node('blackufa') {
+node('python3 && git && jq && (tzdata || !alpine)') {
     String cred_git = 'GitHub'
     String cred_github = 'GitHub-Token'
 
