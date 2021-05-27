@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III / Mass Effect 2: Legendary Edition #1", "start": 0},
       {"id": "me2", "segment": "1026264805", "name": "Mass Effect 2: Legendary Edition #2", "start": 0},
       {"id": "days-gone", "segment": "1027931171", "name": "Days Gone - PC / SnowRunner #18", "start": 0},
       {"id": "subnautica-bz", "segment": "1028999291", "name": "Subnautica: Below Zero #9", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "co-op", "segment": "1031432095", "name": "Just Die Already / A House of Thieves", "start": 0},
       {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1", "start": 0},
       {"id": "biomutant", "segment": "1034612378", "name": "Biomutant #2", "start": 0},
-      {"id": "first", "segment": "1035840249", "name": "Siege Survival: Gloria Victis / Knockout City #3 (с WeLoveGames и Бейлом)", "start": 0}
+      {"id": "first", "segment": "1035840249", "name": "Siege Survival: Gloria Victis / Knockout City #3 (с WeLoveGames и Бейлом)", "start": 0},
+      {"id": "first", "segment": "1036865162", "name": "Scarlet Nexus (демо) / Graven #1 / Chivalry 2 #2 / Dying 2 Know - Dying Light 2 / State of Play - Horizon Forbidden West", "start": 0}
     ]
   },
   "finished": {
@@ -525,7 +525,6 @@
       {"id": "first", "segment": "901835689", "name": "Expedition Zero (демо)", "start": 0},
       {"id": "first", "segment": "901835689", "name": "Lamentum (демо)", "start": 6775},
       {"id": "first", "segment": "905895866", "name": "Potentia (демо)", "start": 6713},
-      {"id": "first", "segment": "905895866", "name": "Graven (демо)", "start": 8214},
       {"id": "first", "segment": "905895866", "name": "Minute of Islands (демо)", "start": 17465},
       {"id": "first", "segment": "905895866", "name": "Escape (демо)", "start": 20143},
       {"id": "first", "segment": "905895866", "name": "Slender Threads (демо)", "start": 20460},
@@ -560,13 +559,15 @@
       {"id": "first", "segment": "1021117640", "name": "SCP: Escape Together", "start": 10512},
       {"id": "first", "segment": "1031332081", "name": "Sniper Ghost Warrior Contracts 2 (демо)", "start": 0},
       {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо)", "start": 0},
-      {"id": "first", "segment": "1035840249", "name": "Siege Survival: Gloria Victis", "start": 0}
+      {"id": "first", "segment": "1035840249", "name": "Siege Survival: Gloria Victis", "start": 0},
+      {"id": "first", "segment": "1036865162", "name": "Scarlet Nexus (демо)", "start": 0}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "In Sound Mind", "id": "in-sound-mind", "segment": "650534841"},
+      {"name": "Graven", "id": "graven", "segment": "905895866"},
       {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"},
       {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"}
     ]
@@ -858,7 +859,7 @@
       {"name": "Knockout City", "id": "knockout-city", "segment": "975061581"},
       {"id": "co-op", "segment": "984801715", "name": "First Class Trouble", "start": 13557},
       {"name": "Enlisted", "id": "enlisted", "segment": "989503848"},
-      {"id": "co-op", "segment": "1000457538", "name": "Chivalry 2", "start": 0},
+      {"name": "Chivalry 2", "id": "chivalry-2", "segment": "1000457538"},
       {"id": "co-op", "segment": "1003719769", "name": "Ranch Simulator", "start": 7739},
       {"id": "co-op", "segment": "1003719769", "name": "Horror Squad", "start": 14940},
       {"id": "co-op", "segment": "1024777649", "name": "Dread Hunger", "start": 0},
@@ -902,23 +903,20 @@
     "games": [
       {"name": "неПрофессиональный E3 2017", "id": "e3_2017", "segment": "150938572"},
       {"name": "неПрофессиональный E3 2018", "id": "e3_2018", "segment": "271255246.1"},
-      {"id": "expos", "segment": "345649019", "name": "неПрофессиональный The Game Awards 2018", "start": 0},
+      {"name": "The Game Awards", "id": "tga", "segment": "345649019"},
       {"name": "неПрофессиональный E3 2019", "id": "e3_2019", "segment": "436159113.1"},
-      {"id": "expos", "segment": "469393130", "name": "Gamescom 2019", "start": 0},
+      {"name": "Gamescom", "id": "gamescom", "segment": "469393130"},
       {"name": "Tokyo Game Show 2019 (обзор)", "id": "tgs-2019", "segment": "480390004"},
       {"id": "expos", "segment": "502940448", "name": "BlizzCon 2019 (обзор)", "start": 0},
-      {"id": "expos", "segment": "519609666", "name": "State of Play 2019", "start": 0},
-      {"id": "expos", "segment": "520877239", "name": "The Game Awards 2019 (обзор)", "start": 0},
+      {"name": "State of Play", "id": "sony-sop", "segment": "519609666"},
       {"id": "expos", "segment": "569683310", "name": "Презентация PlayStation 5", "start": 11025},
       {"id": "expos", "segment": "613793616", "name": "Xbox Inside 2020", "start": 7180},
       {"name": "неПрофессиональный E3 2020", "id": "e3_2020", "segment": "647860070.1"},
-      {"id": "expos", "segment": "723011325", "name": "Gamescom 2020", "start": 17319},
       {"name": "Night City Wire", "id": "cp2077-ncw", "segment": "759389769"},
-      {"id": "expos", "segment": "832197729.1", "name": "неПрофессиональный The Game Awards 2020", "start": 45241},
-      {"id": "expos", "segment": "927781155", "name": "State of Play 2021", "start": 32306},
       {"id": "expos", "segment": "943938218", "name": "ROG Phone 5 Launch Event", "start": 0},
       {"id": "expos", "segment": "953865835", "name": "Square Enix Presents (Весна 2021)", "start": 11085},
-      {"id": "expos", "segment": "988804108", "name": "Resident Evil Showcase (Апрель 2021)", "start": 1627}
+      {"id": "expos", "segment": "988804108", "name": "Resident Evil Showcase (Апрель 2021)", "start": 1627},
+      {"id": "expos", "segment": "1036865162", "name": "Dying 2 Know - Dying Light 2", "start": 21520}
     ]
   },
   "unboxing": {

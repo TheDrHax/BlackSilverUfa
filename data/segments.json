@@ -3073,9 +3073,9 @@
   },
   "345649019": {
     "youtube": "VDWU9-tKGKs", "abs_start": "-0:07", "abs_end": "3:38:57", "duration": "3:39:04",
-    "name": "неПрофессиональный The Game Awards 2018",
+    "name": "The Game Awards #2018",
     "date": "2018-12-07",
-    "games": ["expos"]
+    "games": ["tga"]
   },
   "345863416": {
     "youtube": "mYy8D9mrjlk", "abs_start": "0:00", "abs_end": "2:09:41", "duration": "2:09:41",
@@ -4389,9 +4389,9 @@
   },
   "469393130": {
     "youtube": "gz_UJp6sBrw", "abs_start": "0:00", "abs_end": "5:01:40", "duration": "5:01:40",
-    "name": "Gamescom 2019 / Remnant: From the Ashes #3",
+    "name": "Gamescom #2019 / Remnant: From the Ashes #3",
     "date": "2019-08-19",
-    "games": ["expos", "remnant-from-the-ashes"]
+    "games": ["gamescom", "remnant-from-the-ashes"]
   },
   "470288598": {
     "youtube": "W7cChccMbnk", "abs_start": "0:00", "abs_end": "3:43:15", "duration": "3:43:15",
@@ -4888,9 +4888,9 @@
   },
   "519609666": {
     "youtube": "53_URt94pg8", "abs_start": "0:00", "abs_end": "5:06:26", "duration": "5:06:26",
-    "name": "State of Play 2019 / GTFO #1",
+    "name": "State of Play #2019 / GTFO #1",
     "date": "2019-12-10",
-    "games": ["expos", "gtfo"]
+    "games": ["sony-sop", "gtfo"]
   },
   "520025510": {
     "youtube": "VWO7aKQg1hY", "abs_start": "0:00", "abs_end": "2:55:52", "duration": "2:55:52",
@@ -4906,9 +4906,9 @@
   },
   "520877239": {
     "youtube": "a6KZKvd853M", "abs_start": "0:00", "abs_end": "6:22:37", "duration": "6:22:37",
-    "name": "The Game Awards 2019 (обзор) / GTFO #2",
+    "name": "The Game Awards #2019 (обзор) / GTFO #2",
     "date": "2019-12-13",
-    "games": ["expos", "gtfo"]
+    "games": ["tga", "gtfo"]
   },
   "521336731": {
     "youtube": "HyL3c-0QomY", "abs_start": "0:00", "abs_end": "6:09:07", "duration": "6:09:07",
@@ -6061,9 +6061,9 @@
   },
   "723011325": {
     "youtube": "Zieo4ovQjLA", "official": false, "abs_start": "0:00", "abs_end": "7:06:59", "duration": "7:06:59",
-    "name": "Mortal Shell - Релиз / Control #1 (AWE DLC) / Gamescom 2020",
+    "name": "Mortal Shell - Релиз / Control #1 (AWE DLC) / Gamescom #2020",
     "date": "2020-08-27",
-    "games": ["mortal-shell", "control", "expos"]
+    "games": ["mortal-shell", "control", "gamescom"]
   },
   "725080998": {
     "youtube": "J_uazlzyEW4", "official": false, "abs_start": "0:00", "abs_end": "6:18:12", "duration": "6:18:12",
@@ -6622,9 +6622,9 @@
   },
   "832197729.1": {
     "youtube": "HIYXSNbY7n8", "official": false, "abs_start": "12:00:00", "abs_end": "15:55:38", "duration": "3:55:38",
-    "name": "Cyberpunk 2077 #2 (часть 2) / неПрофессиональный The Game Awards 2020",
+    "name": "Cyberpunk 2077 #2 (часть 2) / The Game Awards #2020",
     "date": "2020-12-10",
-    "games": ["cyberpunk-2077", "expos"]
+    "games": ["cyberpunk-2077", "tga"]
   },
   "833444670": {
     "youtube": "vRsfIGIWpT4", "abs_start": "0:00", "abs_end": "7:37:06", "duration": "7:37:06",
@@ -6917,9 +6917,9 @@
   },
   "905895866": {
     "youtube": "iwZuEXPMa5c", "official": false, "abs_start": "0:00", "abs_end": "6:04:57", "duration": "6:04:57",
-    "name": "Forgotten Tunnels - Episode 3 / Potentia (демо) / Graven (демо) / Narita Boy (демо) / Evil Inside - Демо / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)",
+    "name": "Forgotten Tunnels - Episode 3 / Potentia (демо) / Graven - Демо / Narita Boy (демо) / Evil Inside - Демо / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)",
     "date": "2021-02-08",
-    "games": ["forgotten-tunnels", "first", "single", "evil-inside"]
+    "games": ["forgotten-tunnels", "first", "graven", "single", "evil-inside"]
   },
   "907145168": {
     "youtube": "5NZOS_Tp60k", "abs_start": "0:00", "abs_end": "5:52:15", "duration": "5:52:15",
@@ -7033,9 +7033,9 @@
   },
   "927781155": {
     "youtube": "zRgj4d08-9I", "abs_start": "0:00", "abs_end": "10:06:11", "duration": "10:06:11",
-    "name": "Yakuza: Like a Dragon #1 / Breathedge #1 / SnowRunner #14 / State of Play 2021",
+    "name": "Yakuza: Like a Dragon #1 / Breathedge #1 / SnowRunner #14 / State of Play #2021",
     "date": "2021-02-25",
-    "games": ["yakuza-like-dragon", "breathedge", "snowrunner", "expos"]
+    "games": ["yakuza-like-dragon", "breathedge", "snowrunner", "sony-sop"]
   },
   "928993182": {
     "youtube": "TUgjIYuIzq0", "abs_start": "0:00", "abs_end": "6:02:45", "duration": "6:02:45",
@@ -7343,10 +7343,10 @@
   },
   "1000457538": {
     "youtube": "m4pu3_6AA4Q", "official": false, "abs_start": "0:00", "abs_end": "4:45:02", "duration": "4:45:02",
-    "name": "Chivalry 2 / Resident Evil Village - Замок (демо) / Devour #2",
+    "name": "Chivalry 2 #1 / Resident Evil Village - Замок (демо) / Devour #2",
     "date": "2021-04-25",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1000457538.torrent",
-    "games": ["co-op", "re8", "devour"]
+    "games": ["chivalry-2", "re8", "devour"]
   },
   "1001445798": {
     "youtube": "QOsmaTlbIrc", "official": false, "abs_start": "0:00", "abs_end": "6:55:25", "duration": "6:55:25",
@@ -7530,5 +7530,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1035840249.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1035840249.torrent",
     "games": ["first", "knockout-city"]
+  },
+  "1036865162": {
+    "abs_start": "0:00", "abs_end": "8:25:43", "duration": "0:00",
+    "name": "Scarlet Nexus (демо) / Graven #1 / Chivalry 2 #2 / Dying 2 Know - Dying Light 2 / State of Play - Horizon Forbidden West",
+    "date": "2021-05-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1036865162.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1036865162.torrent",
+    "games": ["first", "graven", "chivalry-2", "expos", "sony-sop"]
   }
 }
