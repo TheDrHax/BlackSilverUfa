@@ -4972,9 +4972,9 @@
   },
   "526521156": {
     "youtube": "2U9Si43g4Yc", "abs_start": "0:00", "abs_end": "4:11:38", "duration": "4:11:38",
-    "name": "Xbox Game Pass Ultimate / Halo: Reach - Xbox Game Pass Ultimate",
+    "name": "Xbox Game Pass #1 / Halo: Reach - Xbox Game Pass Ultimate",
     "date": "2019-12-26",
-    "games": ["other", "halo-reach"]
+    "games": ["xbox-gp", "halo-reach"]
   },
   "527412040": {
     "youtube": "P8Tn4c5U-aM", "abs_start": "0:00", "abs_end": "5:51:59", "duration": "5:51:59",
@@ -5662,9 +5662,9 @@
   },
   "628517071": {
     "youtube": "Vf-lQOvAryc", "abs_start": "0:00", "abs_end": "6:13:41", "duration": "6:13:41",
-    "name": "ManEater / Saints Row: The Third / Streets of Rage 4 #2 / SnowRunner #8",
+    "name": "Maneater #1 / Saints Row: The Third / Streets of Rage 4 #2 / SnowRunner #8",
     "date": "2020-05-22",
-    "games": ["first", "streets-of-rage-4", "snowrunner"]
+    "games": ["maneater", "first", "streets-of-rage-4", "snowrunner"]
   },
   "629544387": {
     "youtube": "WDTDMVEjxdM", "abs_start": "0:00", "abs_end": "6:26:38", "duration": "6:26:38",
@@ -7538,5 +7538,45 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1036865162.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1036865162.torrent",
     "games": ["first", "graven", "chivalry-2", "expos", "sony-sop"]
+  },
+  "1037951212": {
+    "abs_start": "0:00", "abs_end": "11:13", "duration": "0:00",
+    "name": "",
+    "date": "2021-05-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1037951212.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1037951212.torrent",
+    "games": []
+  },
+  "1037962598": {
+    "abs_start": "0:00", "abs_end": "1:45:46", "duration": "0:00",
+    "name": "",
+    "date": "2021-05-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1037962598.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1037962598.torrent",
+    "games": []
+  },
+  "1038035275": {
+    "abs_start": "0:00", "abs_end": "1:46:36", "duration": "0:00",
+    "name": "",
+    "date": "2021-05-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1038035275.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1038035275.torrent",
+    "games": []
+  },
+  "1038124022": {
+    "abs_start": "0:00", "abs_end": "3:30:50", "duration": "0:00",
+    "name": "",
+    "date": "2021-05-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1038124022.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1038124022.torrent",
+    "games": []
+  },
+  "1037951212,1037962598,1038035275,1038124022": {
+    "abs_start": "0:00", "abs_end": "7:14:25", "duration": "0:00",
+    "name": "Xbox Game Pass #2 / Wolfenstein: The Old Blood / Spiritfarer / DOOM 64 / Maneater #2 / Resident Evil 6 #1",
+    "date": "2021-05-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1037951212,1037962598,1038035275,1038124022.mp4",
+    "offsets": [0, 637, 6926, 13280],
+    "games": ["xbox-gp", "first", "maneater", "re6"]
   }
 }

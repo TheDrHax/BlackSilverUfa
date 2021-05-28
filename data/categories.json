@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "me2", "segment": "1026264805", "name": "Mass Effect 2: Legendary Edition #2", "start": 0},
       {"id": "days-gone", "segment": "1027931171", "name": "Days Gone - PC / SnowRunner #18", "start": 0},
       {"id": "subnautica-bz", "segment": "1028999291", "name": "Subnautica: Below Zero #9", "start": 0},
       {"id": "phantom-abyss", "segment": "1030127769", "name": "Phantom Abyss #1 / Knockout City #2 (с Куплиновым и Дангаром)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1", "start": 0},
       {"id": "biomutant", "segment": "1034612378", "name": "Biomutant #2", "start": 0},
       {"id": "first", "segment": "1035840249", "name": "Siege Survival: Gloria Victis / Knockout City #3 (с WeLoveGames и Бейлом)", "start": 0},
-      {"id": "first", "segment": "1036865162", "name": "Scarlet Nexus (демо) / Graven #1 / Chivalry 2 #2 / Dying 2 Know - Dying Light 2 / State of Play - Horizon Forbidden West", "start": 0}
+      {"id": "first", "segment": "1036865162", "name": "Scarlet Nexus (демо) / Graven #1 / Chivalry 2 #2 / Dying 2 Know - Dying Light 2 / State of Play - Horizon Forbidden West", "start": 0},
+      {"id": "xbox-gp", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "Xbox Game Pass #2 / Wolfenstein: The Old Blood / Spiritfarer / DOOM 64 / Maneater #2 / Resident Evil 6 #1", "start": 0}
     ]
   },
   "finished": {
@@ -447,7 +447,6 @@
       {"id": "first", "segment": "623734401", "name": "Huntdown", "start": 0},
       {"id": "first", "segment": "626564087", "name": "The Persistence", "start": 10531},
       {"id": "first", "segment": "626564087", "name": "Black Book", "start": 15271},
-      {"id": "first", "segment": "628517071", "name": "ManEater", "start": 0},
       {"id": "first", "segment": "628517071", "name": "Saints Row: The Third", "start": 7457},
       {"id": "first", "segment": "629544387", "name": "What the Golf?", "start": 0},
       {"id": "first", "segment": "629544387", "name": "Startup Valley Adventure", "start": 2249},
@@ -560,7 +559,10 @@
       {"id": "first", "segment": "1031332081", "name": "Sniper Ghost Warrior Contracts 2 (демо)", "start": 0},
       {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо)", "start": 0},
       {"id": "first", "segment": "1035840249", "name": "Siege Survival: Gloria Victis", "start": 0},
-      {"id": "first", "segment": "1036865162", "name": "Scarlet Nexus (демо)", "start": 0}
+      {"id": "first", "segment": "1036865162", "name": "Scarlet Nexus (демо)", "start": 0},
+      {"id": "first", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "Wolfenstein: The Old Blood", "start": 0},
+      {"id": "first", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "Spiritfarer", "start": 3036},
+      {"id": "first", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "DOOM 64", "start": 4846}
     ]
   },
   "ongoing": {
@@ -569,7 +571,8 @@
       {"name": "In Sound Mind", "id": "in-sound-mind", "segment": "650534841"},
       {"name": "Graven", "id": "graven", "segment": "905895866"},
       {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"},
-      {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"}
+      {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"},
+      {"name": "Resident Evil 6", "id": "re6", "segment": "1037951212,1037962598,1038035275,1038124022"}
     ]
   },
   "infinite": {
@@ -599,6 +602,7 @@
       {"name": "Dreams", "id": "dreams", "segment": "553926728"},
       {"name": "Minecraft - Bedrock Edition (RTX beta)", "id": "minecraft-bedrock", "segment": "599255447"},
       {"name": "GeoGuessr", "id": "geoguessr", "segment": "619696167"},
+      {"name": "Maneater", "id": "maneater", "segment": "628517071"},
       {"name": "Alien: Hope for the Future", "id": "alien-hope-for-the-future", "segment": "629544387"},
       {"name": "The Elder Scrolls Online", "id": "teso", "segment": "633403643"},
       {"name": "Grounded", "id": "grounded", "segment": "694197234"},
@@ -883,7 +887,7 @@
       {"id": "events", "segment": "448568048", "name": "Розыгрыш двух ноутбуков Asus", "start": 0},
       {"id": "events", "segment": "470288598", "name": "Розыгрыш Cyberpunk 2077", "start": 0},
       {"id": "events", "segment": "508178551", "name": "Розыгрыш Asus ROG Strix SCAR II", "start": 0},
-      {"id": "other", "segment": "526521156", "name": "Xbox Game Pass Ultimate", "start": 0},
+      {"name": "Xbox Game Pass", "id": "xbox-gp", "segment": "526521156"},
       {"id": "events", "segment": "572721394", "name": "Розыгрыш мерча Metro Exodus", "start": 0},
       {"id": "events", "segment": "676500778", "name": "Розыгрыш Asus ROG Strix Scope", "start": 0},
       {"id": "other", "segment": "687309207", "name": "Трейлеры и нарезки", "start": 0},
