@@ -7571,10 +7571,18 @@
   },
   "1037951212,1037962598,1038035275,1038124022": {
     "youtube": "XuNW6L_J78E", "official": false, "abs_start": "0:00", "abs_end": "7:11:46", "duration": "7:11:46",
-    "name": "Xbox Game Pass #2 / Wolfenstein: The Old Blood / Spiritfarer / DOOM 64 / Maneater #2 / Resident Evil 6 #1",
+    "name": "Xbox Game Pass #2 / Wolfenstein: The Old Blood / Spiritfarer / DOOM 64 / Maneater #2 / Resident Evil 6 #1 (Леон)",
     "date": "2021-05-28",
     "offsets": [0, 637, 6926, 13280],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1037951212,1037962598,1038035275,1038124022.torrent",
     "games": ["xbox-gp", "first", "maneater", "re6"]
+  },
+  "1039198379": {
+    "abs_start": "0:00", "abs_end": "4:37:07", "duration": "0:00",
+    "name": "Resident Evil 6 #2 (Леон, Крис)",
+    "date": "2021-05-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1039198379.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1039198379.torrent",
+    "games": ["re6"]
   }
 }
