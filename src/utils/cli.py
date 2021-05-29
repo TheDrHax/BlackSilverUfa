@@ -48,8 +48,8 @@ Segment matching options:
   --fail-if-cut       Stop if input video has an inconsistent offset. For
                       example, if some parts in the middle of the video were
                       removed, its ending will be closer to the beginning.
-                      Edited videos are not compatible with subtitles and
-                      timecodes, thus they shouldn't be used in this project.
+                      This allows exact matching of videos to preserve some
+                      fields of a segment (offset[s], cuts).
 """
 
 
@@ -63,7 +63,8 @@ from subprocess import run, PIPE
 from sortedcontainers import SortedList
 from twitch_utils.offset import Clip, find_offset
 
-from ..data.streams import streams, Segment, SegmentReference, Stream
+from ..data.streams import (StreamType, streams, Stream,
+                            Segment, SegmentReference)
 from ..data.games import games
 from ..data.timecodes import timecodes, Timecode, Timecodes
 from ..data.fallback import fallback
@@ -333,6 +334,10 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
     segment_kwargs['offset'] = video_offset
 
+    if segment.stream.type == StreamType.JOINED and not fail_if_cut:
+        print('Matching stream is joined, forcing --fail-if-cut')
+        fail_if_cut = True
+
     if fail_if_cut:
         print('Checking for cuts...')
         diff = check_cuts(original, video, offset=video_offset.value)
@@ -344,11 +349,12 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
     if segment.note:
         segment_kwargs['note'] = segment.note
 
-    segment_duration = int(segment.abs_end - segment.offset(segment.abs_end))
-
-    if video_offset == 0 and abs(video.duration - segment_duration) < 5:
+    if video_offset == 0 and fail_if_cut:
         if len(segment.cuts) > 0:
             segment_kwargs['cuts'] = segment.cuts
+
+        if segment.stream.type == StreamType.JOINED:
+            segment_kwargs['offsets'] = segment.offsets
 
         if segment.offset(0) != 0:
             segment_kwargs['offset'] = segment.offset(0)
