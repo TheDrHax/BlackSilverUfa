@@ -1,6 +1,7 @@
 import re
 import attr
 from requests import Session
+from urllib.parse import quote
 from bs4 import BeautifulSoup as BS
 from cached_property import cached_property
 
@@ -52,7 +53,7 @@ class FallbackSource:
 
     def __contains__(self, filename):
         if self.parse_index and self.index:
-            return filename in self.index
+            return quote(filename) in self.index
 
         return self._check(filename)
 
