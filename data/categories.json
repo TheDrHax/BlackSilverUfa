@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "phantom-abyss", "segment": "1030127769", "name": "Phantom Abyss #1 / Knockout City #2 (с Куплиновым и Дангаром)", "start": 0},
       {"id": "first", "segment": "1031332081", "name": "Sniper Ghost Warrior Contracts 2 (демо) / Phantom Abyss #2", "start": 0},
       {"id": "co-op", "segment": "1031432095", "name": "Just Die Already / A House of Thieves", "start": 0},
       {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1036865162", "name": "Scarlet Nexus (демо) / Graven #1 / Chivalry 2 #2 / Dying 2 Know - Dying Light 2 / State of Play - Horizon Forbidden West", "start": 0},
       {"id": "xbox-gp", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "Xbox Game Pass #2 / Wolfenstein: The Old Blood / Spiritfarer / DOOM 64 / Maneater #2 / Resident Evil 6 #1 (Леон)", "start": 0},
       {"id": "re6", "segment": "1039198379", "name": "Resident Evil 6 #2 (Леон, Крис)", "start": 0},
-      {"id": "re6", "segment": "1041310214", "name": "Resident Evil 6 #3 (Крис)", "start": 0}
+      {"id": "re6", "segment": "1041310214", "name": "Resident Evil 6 #3 (Крис)", "start": 0},
+      {"id": "first", "segment": "1043310851", "name": "Necromunda: Hired Gun / First Class Trouble #2 / Dread Hunger #2", "start": 0}
     ]
   },
   "finished": {
@@ -562,7 +562,8 @@
       {"id": "first", "segment": "1036865162", "name": "Scarlet Nexus (демо)", "start": 0},
       {"id": "first", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "Wolfenstein: The Old Blood", "start": 0},
       {"id": "first", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "Spiritfarer", "start": 3036},
-      {"id": "first", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "DOOM 64", "start": 4846}
+      {"id": "first", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "DOOM 64", "start": 4846},
+      {"id": "first", "segment": "1043310851", "name": "Necromunda: Hired Gun", "start": 0}
     ]
   },
   "ongoing": {
@@ -861,12 +862,12 @@
       {"id": "co-op", "segment": "957785419", "name": "Hide and Seek", "start": 9065},
       {"id": "co-op", "segment": "957785419", "name": "Golf Party", "start": 10401},
       {"name": "Knockout City", "id": "knockout-city", "segment": "975061581"},
-      {"id": "co-op", "segment": "984801715", "name": "First Class Trouble", "start": 13557},
+      {"name": "First Class Trouble", "id": "fct", "segment": "984801715"},
       {"name": "Enlisted", "id": "enlisted", "segment": "989503848"},
       {"name": "Chivalry 2", "id": "chivalry-2", "segment": "1000457538"},
       {"id": "co-op", "segment": "1003719769", "name": "Ranch Simulator", "start": 7739},
       {"id": "co-op", "segment": "1003719769", "name": "Horror Squad", "start": 14940},
-      {"id": "co-op", "segment": "1024777649", "name": "Dread Hunger", "start": 0},
+      {"name": "Dread Hunger", "id": "dread-hunger", "segment": "1024777649"},
       {"id": "co-op", "segment": "1031432095", "name": "Just Die Already", "start": 0},
       {"id": "co-op", "segment": "1031432095", "name": "A House of Thieves", "start": 4321}
     ]
