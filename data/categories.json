@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1031332081", "name": "Sniper Ghost Warrior Contracts 2 (демо) / Phantom Abyss #2", "start": 0},
       {"id": "co-op", "segment": "1031432095", "name": "Just Die Already / A House of Thieves", "start": 0},
       {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1", "start": 0},
       {"id": "biomutant", "segment": "1034612378", "name": "Biomutant #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "xbox-gp", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "Xbox Game Pass #2 / Wolfenstein: The Old Blood / Spiritfarer / DOOM 64 / Maneater #2 / Resident Evil 6 #1 (Леон)", "start": 0},
       {"id": "re6", "segment": "1039198379", "name": "Resident Evil 6 #2 (Леон, Крис)", "start": 0},
       {"id": "re6", "segment": "1041310214", "name": "Resident Evil 6 #3 (Крис)", "start": 0},
-      {"id": "first", "segment": "1043310851", "name": "Necromunda: Hired Gun / First Class Trouble #2 / Dread Hunger #2", "start": 0}
+      {"id": "first", "segment": "1043310851", "name": "Necromunda: Hired Gun / First Class Trouble #2 / Dread Hunger #2", "start": 0},
+      {"id": "wow", "segment": "1044426110", "name": "World of Warcraft #1 (заново) / GeoGuessr #6 / Operation: Tango #1 (часть 1)", "start": 0}
     ]
   },
   "finished": {
@@ -570,10 +570,12 @@
     "name": "Активные",
     "games": [
       {"name": "In Sound Mind", "id": "in-sound-mind", "segment": "650534841"},
+      {"name": "World of Warcraft", "id": "wow", "segment": "728015486"},
       {"name": "Graven", "id": "graven", "segment": "905895866"},
       {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"},
       {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"},
-      {"name": "Resident Evil 6", "id": "re6", "segment": "1037951212,1037962598,1038035275,1038124022"}
+      {"name": "Resident Evil 6", "id": "re6", "segment": "1037951212,1037962598,1038035275,1038124022"},
+      {"name": "Operation: Tango", "id": "op-tango", "segment": "1044426110"}
     ]
   },
   "infinite": {
@@ -677,7 +679,6 @@
       {"name": "Destroy All Humans!", "id": "destroy-all-humans", "segment": "675494632"},
       {"name": "Far Cry 3", "id": "far-cry-3", "segment": "678368491"},
       {"name": "Hellpoint", "id": "hellpoint", "segment": "695209589"},
-      {"name": "World of Warcraft: Shadowlands", "id": "wow-shadowlands", "segment": "728015486"},
       {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
       {"name": "Watch Dogs: Legion", "id": "watch-dogs", "segment": "782383170"},
       {"name": "Metal Gear Solid V: Phantom Pain (злое прохождение)", "id": "mgs-v-2020", "segment": "791632745"},

@@ -6085,9 +6085,9 @@
   },
   "728015486": {
     "youtube": "-uu0kFcTFXk", "abs_start": "0:00", "abs_end": "3:45:10", "duration": "3:45:10",
-    "name": "World of Warcraft: Shadowlands #1 / Marvel's Avengers #1 (часть 1)",
+    "name": "World of Warcraft #1 (Shadowlands) / Marvel's Avengers #1 (часть 1)",
     "date": "2020-09-01",
-    "games": ["wow-shadowlands", "marvel-avengers"]
+    "games": ["wow", "marvel-avengers"]
   },
   "728162478": {
     "abs_start": "0:00", "abs_end": "20:59", "duration": "0:00",
@@ -6550,9 +6550,9 @@
   },
   "814088106": {
     "youtube": "wdfNCPtQYaI", "abs_start": "0:00", "abs_end": "7:18:39", "duration": "7:18:39",
-    "name": "World of Warcraft: Shadowlands #2 / Bugsnax #2",
+    "name": "World of Warcraft #2 / Bugsnax #2",
     "date": "2020-11-24",
-    "games": ["wow-shadowlands", "bugsnax"]
+    "games": ["wow", "bugsnax"]
   },
   "815193918": {
     "youtube": "Iingh-kPELU", "abs_start": "0:00", "abs_end": "9:42:07", "duration": "9:42:07",
@@ -7598,5 +7598,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1043310851.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1043310851.torrent",
     "games": ["first", "fct", "dread-hunger"]
+  },
+  "1044426110": {
+    "abs_start": "0:00", "abs_end": "5:00:44", "duration": "0:00",
+    "name": "World of Warcraft #1 (заново) / GeoGuessr #6 / Operation: Tango #1 (часть 1)",
+    "date": "2021-06-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1044426110.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1044426110.torrent",
+    "games": ["wow", "geoguessr", "op-tango"]
   }
 }
