@@ -7601,10 +7601,18 @@
   },
   "1044426110": {
     "abs_start": "0:00", "abs_end": "5:00:44", "duration": "0:00",
-    "name": "World of Warcraft #1 (заново) / GeoGuessr #6 / Operation: Tango #1 (часть 1)",
+    "name": "World of Warcraft #1 (заново) / GeoGuessr #6 / Operation: Tango #1",
     "date": "2021-06-03",
     "direct": "https://bsufiles.thedrhax.pw/streams/1044426110.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1044426110.torrent",
     "games": ["wow", "geoguessr", "op-tango"]
+  },
+  "1044665544": {
+    "abs_start": "0:00", "abs_end": "2:33:08", "duration": "0:00",
+    "name": "Operation: Tango #2",
+    "date": "2021-06-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1044665544.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1044665544.torrent",
+    "games": ["op-tango"]
   }
 }

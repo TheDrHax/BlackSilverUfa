@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "co-op", "segment": "1031432095", "name": "Just Die Already / A House of Thieves", "start": 0},
       {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1", "start": 0},
       {"id": "biomutant", "segment": "1034612378", "name": "Biomutant #2", "start": 0},
       {"id": "first", "segment": "1035840249", "name": "Siege Survival: Gloria Victis / Knockout City #3 (с WeLoveGames и Бейлом)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "re6", "segment": "1039198379", "name": "Resident Evil 6 #2 (Леон, Крис)", "start": 0},
       {"id": "re6", "segment": "1041310214", "name": "Resident Evil 6 #3 (Крис)", "start": 0},
       {"id": "first", "segment": "1043310851", "name": "Necromunda: Hired Gun / First Class Trouble #2 / Dread Hunger #2", "start": 0},
-      {"id": "wow", "segment": "1044426110", "name": "World of Warcraft #1 (заново) / GeoGuessr #6 / Operation: Tango #1 (часть 1)", "start": 0}
+      {"id": "wow", "segment": "1044426110", "name": "World of Warcraft #1 (заново) / GeoGuessr #6 / Operation: Tango #1", "start": 0},
+      {"id": "op-tango", "segment": "1044665544", "name": "Operation: Tango #2", "start": 0}
     ]
   },
   "finished": {
@@ -248,7 +248,8 @@
       {"name": "NieR Replicant", "id": "nier-replicant", "segment": "996609423"},
       {"id": "single", "segment": "1003719769", "name": "Scene Investigators (демо)", "start": 0},
       {"name": "Returnal", "id": "returnal", "segment": "1005904918"},
-      {"name": "Mass Effect: Legendary Edition", "id": "me", "segment": "1022192586"}
+      {"name": "Mass Effect: Legendary Edition", "id": "me", "segment": "1022192586"},
+      {"name": "Operation: Tango", "id": "op-tango", "segment": "1044426110"}
     ]
   },
   "first": {
@@ -574,8 +575,7 @@
       {"name": "Graven", "id": "graven", "segment": "905895866"},
       {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"},
       {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"},
-      {"name": "Resident Evil 6", "id": "re6", "segment": "1037951212,1037962598,1038035275,1038124022"},
-      {"name": "Operation: Tango", "id": "op-tango", "segment": "1044426110"}
+      {"name": "Resident Evil 6", "id": "re6", "segment": "1037951212,1037962598,1038035275,1038124022"}
     ]
   },
   "infinite": {
