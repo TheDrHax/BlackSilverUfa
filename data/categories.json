@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1033590091", "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1", "start": 0},
       {"id": "biomutant", "segment": "1034612378", "name": "Biomutant #2", "start": 0},
       {"id": "first", "segment": "1035840249", "name": "Siege Survival: Gloria Victis / Knockout City #3 (с WeLoveGames и Бейлом)", "start": 0},
       {"id": "first", "segment": "1036865162", "name": "Scarlet Nexus (демо) / Graven #1 / Chivalry 2 #2 / Dying 2 Know - Dying Light 2 / State of Play - Horizon Forbidden West", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "re6", "segment": "1041310214", "name": "Resident Evil 6 #3 (Крис)", "start": 0},
       {"id": "first", "segment": "1043310851", "name": "Necromunda: Hired Gun / First Class Trouble #2 / Dread Hunger #2", "start": 0},
       {"id": "wow", "segment": "1044426110", "name": "World of Warcraft #1 (заново) / GeoGuessr #6 / Operation: Tango #1", "start": 0},
-      {"id": "op-tango", "segment": "1044665544", "name": "Operation: Tango #2", "start": 0}
+      {"id": "op-tango", "segment": "1044665544", "name": "Operation: Tango #2", "start": 0},
+      {"id": "fct", "segment": "1045525867", "name": "First Class Trouble #3 (WLG, Wycc и другие)", "start": 0}
     ]
   },
   "finished": {
