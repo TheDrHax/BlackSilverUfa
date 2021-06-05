@@ -249,6 +249,7 @@
       {"id": "single", "segment": "1003719769", "name": "Scene Investigators (демо)", "start": 0},
       {"name": "Returnal", "id": "returnal", "segment": "1005904918"},
       {"name": "Mass Effect: Legendary Edition", "id": "me", "segment": "1022192586"},
+      {"name": "Resident Evil 6", "id": "re6", "segment": "1037951212,1037962598,1038035275,1038124022"},
       {"name": "Operation: Tango", "id": "op-tango", "segment": "1044426110"}
     ]
   },
@@ -574,8 +575,7 @@
       {"name": "World of Warcraft", "id": "wow", "segment": "728015486"},
       {"name": "Graven", "id": "graven", "segment": "905895866"},
       {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"},
-      {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"},
-      {"name": "Resident Evil 6", "id": "re6", "segment": "1037951212,1037962598,1038035275,1038124022"}
+      {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"}
     ]
   },
   "infinite": {
