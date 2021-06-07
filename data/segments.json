@@ -7434,10 +7434,10 @@
   },
   "1021117640": {
     "youtube": "w4F6IQSX6XA", "official": false, "abs_start": "0:00", "abs_end": "5:39:59", "duration": "5:39:59",
-    "name": "Until We Die (демо) / Severed Steel (демо) / In Sound Mind #2 (демо) / Happy Game (демо) / Gravewood High (демо) / SCP: Escape Together / Wreckfest #6 / Subnautica: Below Zero #8 (релиз)",
+    "name": "Until We Die - Демо / Severed Steel (демо) / In Sound Mind #2 (демо) / Happy Game (демо) / Gravewood High (демо) / SCP: Escape Together / Wreckfest #6 / Subnautica: Below Zero #8 (релиз)",
     "date": "2021-05-13",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1021117640.torrent",
-    "games": ["first", "in-sound-mind", "wreckfest", "subnautica-bz"]
+    "games": ["until-we-die", "first", "in-sound-mind", "wreckfest", "subnautica-bz"]
   },
   "1022192586": {
     "youtube": "RTa60x9-sic", "official": false, "abs_start": "0:00", "abs_end": "7:32:18", "duration": "7:32:18",
@@ -7642,5 +7642,13 @@
     "date": "2021-06-05",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1046577531.torrent",
     "games": ["re6"]
+  },
+  "1048673954": {
+    "abs_start": "0:00", "abs_end": "6:02:38", "duration": "0:00",
+    "name": "Until We Die #1 / Skinwalker Hunt / SnowRunner #19 / GeoGuessr #7",
+    "date": "2021-06-07",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1048673954.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1048673954.torrent",
+    "games": ["until-we-die", "first", "snowrunner", "geoguessr"]
   }
 }
