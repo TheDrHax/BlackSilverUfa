@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1036865162", "name": "Scarlet Nexus (демо) / Graven #1 / Chivalry 2 #2 / Dying 2 Know - Dying Light 2 / State of Play - Horizon Forbidden West", "start": 0},
       {"id": "xbox-gp", "segment": "1037951212,1037962598,1038035275,1038124022", "name": "Xbox Game Pass #2 / Wolfenstein: The Old Blood / Spiritfarer / DOOM 64 / Maneater #2 / Resident Evil 6 #1 (Леон)", "start": 0},
       {"id": "re6", "segment": "1039198379", "name": "Resident Evil 6 #2 (Леон, Крис)", "start": 0},
       {"id": "re6", "segment": "1041310214", "name": "Resident Evil 6 #3 (Крис)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "op-tango", "segment": "1044665544", "name": "Operation: Tango #2", "start": 0},
       {"id": "fct", "segment": "1045525867,1045800801", "name": "First Class Trouble #3 (WLG, Wycc, Орк-подкастер / Михаил Juice / Шпрот)", "start": 0},
       {"id": "re6", "segment": "1046577531", "name": "Resident Evil 6 #4 (Джейк, Ада)", "start": 0},
-      {"id": "until-we-die", "segment": "1048673954", "name": "Until We Die #1 / Skinwalker Hunt / SnowRunner #19 / GeoGuessr #7", "start": 0}
+      {"id": "until-we-die", "segment": "1048673954", "name": "Until We Die #1 / Skinwalker Hunt / SnowRunner #19 / GeoGuessr #7", "start": 0},
+      {"id": "chivalry-2", "segment": "1051795746,1052015039,1052084349", "name": "Chivalry 2 #3 / Summer Game Fest 2021", "start": 0}
     ]
   },
   "finished": {
@@ -923,7 +923,8 @@
       {"id": "expos", "segment": "943938218", "name": "ROG Phone 5 Launch Event", "start": 0},
       {"id": "expos", "segment": "953865835", "name": "Square Enix Presents (Весна 2021)", "start": 11085},
       {"id": "expos", "segment": "988804108", "name": "Resident Evil Showcase (Апрель 2021)", "start": 1627},
-      {"id": "expos", "segment": "1036865162", "name": "Dying 2 Know - Dying Light 2", "start": 21520}
+      {"id": "expos", "segment": "1036865162", "name": "Dying 2 Know - Dying Light 2", "start": 21520},
+      {"id": "expos", "segment": "1051795746,1052015039,1052084349", "name": "Summer Game Fest 2021", "start": 16241}
     ]
   },
   "unboxing": {
