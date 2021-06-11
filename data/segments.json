@@ -7336,7 +7336,6 @@
     "youtube": "ib6cIsvXmh4", "official": false, "abs_start": "0:00", "abs_end": "6:55:20", "duration": "6:55:20",
     "name": "NieR Replicant #2",
     "date": "2021-04-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/999099020.torrent",
     "games": ["nier-replicant"]
   },
   "1000457538": {
@@ -7679,5 +7678,13 @@
     "offsets": [0, 16657, 20651],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1051795746,1052015039,1052084349.torrent",
     "games": ["chivalry-2", "expos"]
+  },
+  "1052761973": {
+    "abs_start": "0:00", "abs_end": "6:50:17", "duration": "0:00",
+    "name": "Ratchet & Clank: Rift Apart #1",
+    "date": "2021-06-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1052761973.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1052761973.torrent",
+    "games": ["rc-rift-apart"]
   }
 }
