@@ -7342,28 +7342,24 @@
     "youtube": "m4pu3_6AA4Q", "official": false, "abs_start": "0:00", "abs_end": "4:45:02", "duration": "4:45:02",
     "name": "Chivalry 2 #1 / Resident Evil Village - Замок (демо) / Devour #2",
     "date": "2021-04-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1000457538.torrent",
     "games": ["chivalry-2", "re8", "devour"]
   },
   "1001445798": {
     "youtube": "QOsmaTlbIrc", "official": false, "abs_start": "0:00", "abs_end": "6:55:25", "duration": "6:55:25",
     "name": "NieR Replicant #3",
     "date": "2021-04-26",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1001445798.torrent",
     "games": ["nier-replicant"]
   },
   "1002673460": {
     "youtube": "-vMwm_TYa-4", "official": false, "abs_start": "0:00", "abs_end": "1:59:40", "duration": "1:59:40",
     "name": "NieR Replicant #4",
     "date": "2021-04-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1002673460.torrent",
     "games": ["nier-replicant"]
   },
   "1003719769": {
     "youtube": "GQFx0axEyMM", "official": false, "abs_start": "0:00", "abs_end": "5:54:22", "duration": "5:54:22",
     "name": "Scene Investigators (демо) / Ranch Simulator / Horror Squad / Tricky Towers #29",
     "date": "2021-04-28",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1003719769.torrent",
     "games": ["single", "co-op", "tricky-towers"]
   },
   "1005904918": {
@@ -7673,11 +7669,11 @@
   },
   "1051795746,1052015039,1052084349": {
     "youtube": "Dd66lUIJ4TE", "official": false, "abs_start": "0:00", "abs_end": "6:33:43", "duration": "6:33:43",
-    "name": "Chivalry 2 #3 / Summer Game Fest 2021",
+    "name": "Chivalry 2 #3 / неПрофессиональный E3 2021 - Summer Game Fest",
     "date": "2021-06-10",
     "offsets": [0, 16657, 20651],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1051795746,1052015039,1052084349.torrent",
-    "games": ["chivalry-2", "expos"]
+    "games": ["chivalry-2", "e3_2021"]
   },
   "1052761973": {
     "youtube": "Pr0IyZpc9Tg", "official": false, "abs_start": "0:00", "abs_end": "6:50:21", "duration": "6:50:21",
@@ -7685,5 +7681,38 @@
     "date": "2021-06-11",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1052761973.torrent",
     "games": ["rc-rift-apart"]
+  },
+  "1053861574": {
+    "abs_start": "0:00", "abs_end": "1:37:45", "duration": "0:00",
+    "name": "",
+    "date": "2021-06-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1053861574.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1053861574.torrent",
+    "games": []
+  },
+  "1053916259": {
+    "abs_start": "0:00", "abs_end": "2:33:51", "duration": "0:00",
+    "name": "",
+    "date": "2021-06-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1053916259.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1053916259.torrent",
+    "games": []
+  },
+  "1054022725": {
+    "abs_start": "0:00", "abs_end": "6:05:16", "duration": "0:00",
+    "name": "",
+    "date": "2021-06-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1054022725.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1054022725.torrent",
+    "games": []
+  },
+  "1053861574,1053916259,1054022725": {
+    "abs_start": "0:00", "abs_end": "10:16:52", "duration": "0:00",
+    "name": "Ratchet & Clank: Rift Apart #2 / неПрофессиональный E3 2021 - Ubisoft Forward / неПрофессиональный E3 2021 - Devolver Digital / неПрофессиональный E3 2021 - Gearbox",
+    "date": "2021-06-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1053861574,1053916259,1054022725.mp4",
+    "offsets": [0, 5817, 15002],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1053861574,1053916259,1054022725.torrent",
+    "games": ["rc-rift-apart", "e3_2021"]
   }
 }

@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "re6", "segment": "1039198379", "name": "Resident Evil 6 #2 (Леон, Крис)", "start": 0},
       {"id": "re6", "segment": "1041310214", "name": "Resident Evil 6 #3 (Крис)", "start": 0},
       {"id": "first", "segment": "1043310851", "name": "Necromunda: Hired Gun / First Class Trouble #2 / Dread Hunger #2", "start": 0},
       {"id": "wow", "segment": "1044426110", "name": "World of Warcraft #1 (заново) / GeoGuessr #6 / Operation: Tango #1", "start": 0},
@@ -11,8 +10,9 @@
       {"id": "fct", "segment": "1045525867,1045800801", "name": "First Class Trouble #3 (WLG, Wycc, Орк-подкастер / Михаил Juice / Шпрот)", "start": 0},
       {"id": "re6", "segment": "1046577531", "name": "Resident Evil 6 #4 (Джейк, Ада)", "start": 0},
       {"id": "until-we-die", "segment": "1048673954", "name": "Until We Die #1 / Skinwalker Hunt / SnowRunner #19 / GeoGuessr #7", "start": 0},
-      {"id": "chivalry-2", "segment": "1051795746,1052015039,1052084349", "name": "Chivalry 2 #3 / Summer Game Fest 2021", "start": 0},
-      {"id": "rc-rift-apart", "segment": "1052761973", "name": "Ratchet & Clank: Rift Apart #1", "start": 0}
+      {"id": "chivalry-2", "segment": "1051795746,1052015039,1052084349", "name": "Chivalry 2 #3 / неПрофессиональный E3 2021 - Summer Game Fest", "start": 0},
+      {"id": "rc-rift-apart", "segment": "1052761973", "name": "Ratchet & Clank: Rift Apart #1", "start": 0},
+      {"id": "rc-rift-apart", "segment": "1053861574,1053916259,1054022725", "name": "Ratchet & Clank: Rift Apart #2 / неПрофессиональный E3 2021 - Ubisoft Forward / неПрофессиональный E3 2021 - Devolver Digital / неПрофессиональный E3 2021 - Gearbox", "start": 0}
     ]
   },
   "finished": {
@@ -250,7 +250,8 @@
       {"name": "Returnal", "id": "returnal", "segment": "1005904918"},
       {"name": "Mass Effect: Legendary Edition", "id": "me", "segment": "1022192586"},
       {"name": "Resident Evil 6", "id": "re6", "segment": "1037951212,1037962598,1038035275,1038124022"},
-      {"name": "Operation: Tango", "id": "op-tango", "segment": "1044426110"}
+      {"name": "Operation: Tango", "id": "op-tango", "segment": "1044426110"},
+      {"name": "Ratchet & Clank: Rift Apart", "id": "rc-rift-apart", "segment": "1052761973"}
     ]
   },
   "first": {
@@ -571,13 +572,11 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "In Sound Mind", "id": "in-sound-mind", "segment": "650534841"},
       {"name": "World of Warcraft", "id": "wow", "segment": "728015486"},
       {"name": "Graven", "id": "graven", "segment": "905895866"},
       {"name": "Until We Die", "id": "until-we-die", "segment": "1021117640"},
       {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"},
-      {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"},
-      {"name": "Ratchet & Clank: Rift Apart", "id": "rc-rift-apart", "segment": "1052761973"}
+      {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"}
     ]
   },
   "infinite": {
@@ -676,6 +675,7 @@
       {"name": "Ghostrunner", "id": "ghostrunner", "segment": "618698350"},
       {"name": "Mafia II: Definitive Edition", "id": "mafia-2-definitive", "segment": "625606171"},
       {"name": "Beyond Blue", "id": "beyond-blue", "segment": "647778850"},
+      {"name": "In Sound Mind", "id": "in-sound-mind", "segment": "650534841"},
       {"name": "Haven", "id": "haven", "segment": "653411860"},
       {"name": "Mortal Shell", "id": "mortal-shell", "segment": "669777336"},
       {"name": "Destroy All Humans!", "id": "destroy-all-humans", "segment": "675494632"},
@@ -925,7 +925,7 @@
       {"id": "expos", "segment": "953865835", "name": "Square Enix Presents (Весна 2021)", "start": 11085},
       {"id": "expos", "segment": "988804108", "name": "Resident Evil Showcase (Апрель 2021)", "start": 1627},
       {"id": "expos", "segment": "1036865162", "name": "Dying 2 Know - Dying Light 2", "start": 21520},
-      {"id": "expos", "segment": "1051795746,1052015039,1052084349", "name": "Summer Game Fest 2021", "start": 16241}
+      {"name": "неПрофессиональный E3 2021", "id": "e3_2021", "segment": "1051795746,1052015039,1052084349"}
     ]
   },
   "unboxing": {
