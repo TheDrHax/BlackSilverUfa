@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "re6", "segment": "1041310214", "name": "Resident Evil 6 #3 (Крис)", "start": 0},
       {"id": "first", "segment": "1043310851", "name": "Necromunda: Hired Gun / First Class Trouble #2 / Dread Hunger #2", "start": 0},
       {"id": "wow", "segment": "1044426110", "name": "World of Warcraft #1 (заново) / GeoGuessr #6 / Operation: Tango #1", "start": 0},
       {"id": "op-tango", "segment": "1044665544", "name": "Operation: Tango #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "until-we-die", "segment": "1048673954", "name": "Until We Die #1 / Skinwalker Hunt / SnowRunner #19 / GeoGuessr #7", "start": 0},
       {"id": "chivalry-2", "segment": "1051795746,1052015039,1052084349", "name": "Chivalry 2 #3 / неПрофессиональный E3 2021 - Summer Game Fest", "start": 0},
       {"id": "rc-rift-apart", "segment": "1052761973", "name": "Ratchet & Clank: Rift Apart #1", "start": 0},
-      {"id": "rc-rift-apart", "segment": "1053861574,1053916259,1054022725", "name": "Ratchet & Clank: Rift Apart #2 / неПрофессиональный E3 2021 - Ubisoft Forward / неПрофессиональный E3 2021 - Devolver Digital / неПрофессиональный E3 2021 - Gearbox", "start": 0}
+      {"id": "rc-rift-apart", "segment": "1053861574,1053916259,1054022725", "name": "Ratchet & Clank: Rift Apart #2 / неПрофессиональный E3 2021 - Ubisoft Forward / неПрофессиональный E3 2021 - Devolver Digital / неПрофессиональный E3 2021 - Gearbox", "start": 0},
+      {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village / Chivalry 2 #4 (часть 1)", "start": 0}
     ]
   },
   "finished": {
@@ -903,7 +903,8 @@
       {"id": "events", "segment": "823035178", "name": "Розыгрыш NVIDIA GeForce RTX 2080 Super", "start": 0},
       {"id": "other", "segment": "895436223", "name": "Трейлеры и арты", "start": 0},
       {"id": "events", "segment": "975061581", "name": "Игровые коллекции зрителей", "start": 9662},
-      {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0}
+      {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0},
+      {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village", "start": 0}
     ]
   },
   "expos": {

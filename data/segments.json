@@ -7366,7 +7366,6 @@
     "youtube": "Vn0aM9uE6Lc", "official": false, "abs_start": "0:00", "abs_end": "9:23:44", "duration": "9:23:44",
     "name": "Returnal #1",
     "date": "2021-04-30",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1005904918.torrent",
     "games": ["returnal"]
   },
   "1007193234": {
@@ -7714,5 +7713,13 @@
     "offsets": [0, 5817, 15002],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1053861574,1053916259,1054022725.torrent",
     "games": ["rc-rift-apart", "e3_2021"]
+  },
+  "1054943681": {
+    "abs_start": "0:00", "abs_end": "2:32:00", "duration": "0:00",
+    "name": "Розыгрыш Resident Evil Village / Chivalry 2 #4 (часть 1)",
+    "date": "2021-06-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1054943681.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1054943681.torrent",
+    "games": ["events", "chivalry-2"]
   }
 }
