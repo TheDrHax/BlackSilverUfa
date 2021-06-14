@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "wow", "segment": "1044426110", "name": "World of Warcraft #1 (заново) / GeoGuessr #6 / Operation: Tango #1", "start": 0},
       {"id": "op-tango", "segment": "1044665544", "name": "Operation: Tango #2", "start": 0},
       {"id": "fct", "segment": "1045525867,1045800801", "name": "First Class Trouble #3 (WLG, Wycc, Орк-подкастер / Михаил Juice / Шпрот)", "start": 0},
       {"id": "re6", "segment": "1046577531", "name": "Resident Evil 6 #4 (Джейк, Ада)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "rc-rift-apart", "segment": "1052761973", "name": "Ratchet & Clank: Rift Apart #1", "start": 0},
       {"id": "rc-rift-apart", "segment": "1053861574,1053916259,1054022725", "name": "Ratchet & Clank: Rift Apart #2 / неПрофессиональный E3 2021 - Ubisoft Forward / неПрофессиональный E3 2021 - Devolver Digital / неПрофессиональный E3 2021 - Gearbox", "start": 0},
       {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village / Chivalry 2 #4 (часть 1)", "start": 0},
-      {"id": "chivalry-2", "segment": "1055052153", "name": "Chivalry 2 #4 (часть 2) / неПрофессиональный E3 2021 - Xbox & Bethesda Showcase / неПрофессиональный E3 2021 - Square Enix Presents / неПрофессиональный E3 2021 - PC Gaming Show / неПрофессиональный E3 2021 - Future Games Show", "start": 0}
+      {"id": "chivalry-2", "segment": "1055052153", "name": "Chivalry 2 #4 (часть 2) / неПрофессиональный E3 2021 - Xbox & Bethesda Showcase / неПрофессиональный E3 2021 - Square Enix Presents / неПрофессиональный E3 2021 - PC Gaming Show / неПрофессиональный E3 2021 - Future Games Show", "start": 0},
+      {"id": "e3_2021", "segment": "1055969948", "name": "неПрофессиональный E3 2021 - Take-Two Interactive / Chivalry 2 #5 / неПрофессиональный E3 2021 - Capcom", "start": 0}
     ]
   },
   "finished": {
