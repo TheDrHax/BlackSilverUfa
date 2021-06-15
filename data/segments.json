@@ -7731,5 +7731,13 @@
     "date": "2021-06-14",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1055969948.torrent",
     "games": ["e3_2021", "chivalry-2"]
+  },
+  "1056977056": {
+    "abs_start": "0:00", "abs_end": "1:55:50", "duration": "0:00",
+    "name": "Sable (демо) / неПрофессиональный E3 2021 - Nintendo Direct",
+    "date": "2021-06-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1056977056.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1056977056.torrent",
+    "games": ["first", "e3_2021"]
   }
 }
