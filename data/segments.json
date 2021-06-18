@@ -7384,7 +7384,6 @@
     "youtube": "K7wgkD65YcU", "official": false, "abs_start": "0:00", "abs_end": "9:58:22", "duration": "9:58:22",
     "name": "Returnal #4",
     "date": "2021-05-04",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1010778171.torrent",
     "games": ["returnal"]
   },
   "1011964836": {
@@ -7738,5 +7737,13 @@
     "date": "2021-06-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1056977056.torrent",
     "games": ["first", "e3_2021"]
+  },
+  "1059978031": {
+    "abs_start": "0:00", "abs_end": "6:37:26", "duration": "0:00",
+    "name": "The Red Solstice 2: Survivors / Industria (демо) / Greak: Memories of Azur (демо) / Chasing Static (демо) / Song of Iron (демо) / Death Trash (демо) / Undying Symphony (демо) / Bandit Simulator (демо) / Super Bomberman R Online",
+    "date": "2021-06-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1059978031.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1059978031.torrent",
+    "games": ["co-op", "single", "first"]
   }
 }
