@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "re6", "segment": "1046577531", "name": "Resident Evil 6 #4 (Джейк, Ада)", "start": 0},
       {"id": "until-we-die", "segment": "1048673954", "name": "Until We Die #1 / Skinwalker Hunt / SnowRunner #19 / GeoGuessr #7", "start": 0},
       {"id": "chivalry-2", "segment": "1051795746,1052015039,1052084349", "name": "Chivalry 2 #3 / неПрофессиональный E3 2021 - Summer Game Fest", "start": 0},
       {"id": "rc-rift-apart", "segment": "1052761973", "name": "Ratchet & Clank: Rift Apart #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "chivalry-2", "segment": "1055052153", "name": "Chivalry 2 #4 (часть 2) / неПрофессиональный E3 2021 - Xbox & Bethesda Showcase / неПрофессиональный E3 2021 - Square Enix Presents / неПрофессиональный E3 2021 - PC Gaming Show / неПрофессиональный E3 2021 - Future Games Show", "start": 0},
       {"id": "e3_2021", "segment": "1055969948", "name": "неПрофессиональный E3 2021 - Take-Two Interactive / Chivalry 2 #5 / неПрофессиональный E3 2021 - Capcom", "start": 0},
       {"id": "first", "segment": "1056977056", "name": "Sable (демо) / неПрофессиональный E3 2021 - Nintendo Direct", "start": 0},
-      {"id": "co-op", "segment": "1059978031", "name": "The Red Solstice 2: Survivors / Industria (демо) / Greak: Memories of Azur (демо) / Chasing Static (демо) / Song of Iron (демо) / Death Trash (демо) / Undying Symphony (демо) / Bandit Simulator (демо) / Super Bomberman R Online", "start": 0}
+      {"id": "co-op", "segment": "1059978031", "name": "The Red Solstice 2: Survivors / Industria (демо) / Greak: Memories of Azur (демо) / Chasing Static (демо) / Song of Iron (демо) / Death Trash (демо) / Undying Symphony (демо) / Bandit Simulator (демо) / Super Bomberman R Online", "start": 0},
+      {"id": "single", "segment": "1061050549", "name": "They Are Here (демо) / Rocket Stop Incident (демо) / Dagon (демо) / Interference (демо) / Tormented Souls / Ebola 2 Survival (демо) / Horrors of Space (демо) / Rabbit Hole (демо)", "start": 0}
     ]
   },
   "finished": {
@@ -256,7 +256,13 @@
       {"id": "single", "segment": "1059978031", "name": "Greak: Memories of Azur (демо)", "start": 11213},
       {"id": "single", "segment": "1059978031", "name": "Chasing Static (демо)", "start": 14069},
       {"id": "single", "segment": "1059978031", "name": "Song of Iron (демо)", "start": 15579},
-      {"id": "single", "segment": "1059978031", "name": "Undying Symphony (демо)", "start": 19486}
+      {"id": "single", "segment": "1059978031", "name": "Undying Symphony (демо)", "start": 19486},
+      {"id": "single", "segment": "1061050549", "name": "They Are Here (демо)", "start": 0},
+      {"id": "single", "segment": "1061050549", "name": "Rocket Stop Incident (демо)", "start": 3877},
+      {"id": "single", "segment": "1061050549", "name": "Dagon (демо)", "start": 6722},
+      {"id": "single", "segment": "1061050549", "name": "Interference (демо)", "start": 7669},
+      {"id": "single", "segment": "1061050549", "name": "Tormented Souls", "start": 8784},
+      {"id": "single", "segment": "1061050549", "name": "Ebola 2 Survival (демо)", "start": 13539}
     ]
   },
   "first": {
@@ -575,7 +581,9 @@
       {"id": "first", "segment": "1056977056", "name": "Sable (демо)", "start": 0},
       {"id": "first", "segment": "1059978031", "name": "Death Trash (демо)", "start": 17844},
       {"id": "first", "segment": "1059978031", "name": "Bandit Simulator (демо)", "start": 20449},
-      {"id": "first", "segment": "1059978031", "name": "Super Bomberman R Online", "start": 20975}
+      {"id": "first", "segment": "1059978031", "name": "Super Bomberman R Online", "start": 20975},
+      {"id": "first", "segment": "1061050549", "name": "Horrors of Space (демо)", "start": 19113},
+      {"id": "first", "segment": "1061050549", "name": "Rabbit Hole (демо)", "start": 19914}
     ]
   },
   "ongoing": {
