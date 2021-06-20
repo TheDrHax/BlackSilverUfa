@@ -7390,7 +7390,6 @@
     "youtube": "4wAZGun2sVk", "official": false, "abs_start": "0:00", "abs_end": "4:31:44", "duration": "4:31:44",
     "name": "Returnal #5",
     "date": "2021-05-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1011964836.torrent",
     "games": ["returnal"]
   },
   "1012980938": {
@@ -7751,5 +7750,13 @@
     "date": "2021-06-19",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1061050549.torrent",
     "games": ["single", "first"]
+  },
+  "1062093790": {
+    "abs_start": "0:00", "abs_end": "3:32:26", "duration": "0:00",
+    "name": "Barbie in The 12 Dancing Princesses",
+    "date": "2021-06-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1062093790.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1062093790.torrent",
+    "games": ["single"]
   }
 }
