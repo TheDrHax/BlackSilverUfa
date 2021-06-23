@@ -7396,7 +7396,6 @@
     "youtube": "fi4tuB3H66E", "official": false, "abs_start": "0:00", "abs_end": "11:05:42", "duration": "11:05:42",
     "name": "Resident Evil Village - Maiden (демо) / Resident Evil Village - Замок (демо) / Resident Evil Village #1",
     "date": "2021-05-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1012980938.torrent",
     "games": ["re8"]
   },
   "1014133625": {
@@ -7757,5 +7756,13 @@
     "date": "2021-06-20",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1062093790.torrent",
     "games": ["single"]
+  },
+  "1065051420": {
+    "abs_start": "0:00", "abs_end": "6:18:32", "duration": "0:00",
+    "name": "Sony BloggerCam ZV-1 / Phantom Abyss #3 / Dungeons & Dragons: Dark Alliance / Tricky Towers #30",
+    "date": "2021-06-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1065051420.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1065051420.torrent",
+    "games": ["unboxing", "phantom-abyss", "co-op", "tricky-towers"]
   }
 }
