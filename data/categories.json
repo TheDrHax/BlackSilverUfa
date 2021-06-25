@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "rc-rift-apart", "segment": "1053861574,1053916259,1054022725", "name": "Ratchet & Clank: Rift Apart #2 / неПрофессиональный E3 2021 - Ubisoft Forward / неПрофессиональный E3 2021 - Devolver Digital / неПрофессиональный E3 2021 - Gearbox", "start": 0},
       {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village / Chivalry 2 #4 (часть 1)", "start": 0},
       {"id": "chivalry-2", "segment": "1055052153", "name": "Chivalry 2 #4 (часть 2) / неПрофессиональный E3 2021 - Xbox & Bethesda Showcase / неПрофессиональный E3 2021 - Square Enix Presents / неПрофессиональный E3 2021 - PC Gaming Show / неПрофессиональный E3 2021 - Future Games Show", "start": 0},
       {"id": "e3_2021", "segment": "1055969948", "name": "неПрофессиональный E3 2021 - Take-Two Interactive / Chivalry 2 #5 / неПрофессиональный E3 2021 - Capcom", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "single", "segment": "1061050549", "name": "They Are Here (демо) / Last Village (демо) / Rocket Stop Incident (демо) / Dagon (демо) / Interference (демо) / Tormented Souls / Ebola 2 Survival (демо) / Horrors of Space (демо) / Rabbit Hole (демо)", "start": 0},
       {"id": "single", "segment": "1062093790", "name": "Barbie in The 12 Dancing Princesses", "start": 0},
       {"id": "unboxing", "segment": "1065051420", "name": "Sony BloggerCam ZV-1 / Phantom Abyss #3 / Dungeons & Dragons: Dark Alliance / Tricky Towers #30", "start": 0},
-      {"id": "unboxing", "segment": "1066067703", "name": "ROG Phone 5 / Scarlet Nexus #1 / Stranger of Paradise: Final Fantasy Origin (демо) / Guilty Gear: Strive", "start": 0}
+      {"id": "unboxing", "segment": "1066067703", "name": "ROG Phone 5 / Scarlet Nexus #1 / Stranger of Paradise: Final Fantasy Origin (демо) / Guilty Gear: Strive", "start": 0},
+      {"id": "sea-of-thieves", "segment": "1067131113", "name": "Sea of Thieves #12 (A Pirate's Life)", "start": 0}
     ]
   },
   "finished": {
