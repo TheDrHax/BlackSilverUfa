@@ -595,7 +595,6 @@
       {"name": "World of Warcraft", "id": "wow", "segment": "728015486"},
       {"name": "Graven", "id": "graven", "segment": "905895866"},
       {"name": "Until We Die", "id": "until-we-die", "segment": "1021117640"},
-      {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"},
       {"name": "Scarlet Nexus", "id": "scarlet-nexus", "segment": "1036865162"}
     ]
   },
@@ -717,7 +716,8 @@
       {"name": "Outriders", "id": "outriders", "segment": "928993182"},
       {"name": "Silent Hill 4: The Room", "id": "sh4", "segment": "987111954"},
       {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"},
-      {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"}
+      {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"},
+      {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"}
     ]
   },
   "co-op": {
