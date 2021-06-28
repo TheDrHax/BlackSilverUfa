@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village / Chivalry 2 #4 (часть 1)", "start": 0},
       {"id": "chivalry-2", "segment": "1055052153", "name": "Chivalry 2 #4 (часть 2) / неПрофессиональный E3 2021 - Xbox & Bethesda Showcase / неПрофессиональный E3 2021 - Square Enix Presents / неПрофессиональный E3 2021 - PC Gaming Show / неПрофессиональный E3 2021 - Future Games Show", "start": 0},
       {"id": "e3_2021", "segment": "1055969948", "name": "неПрофессиональный E3 2021 - Take-Two Interactive / Chivalry 2 #5 / неПрофессиональный E3 2021 - Capcom", "start": 0},
       {"id": "first", "segment": "1056977056", "name": "Sable (демо) / неПрофессиональный E3 2021 - Nintendo Direct", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "single", "segment": "1062093790", "name": "Barbie in The 12 Dancing Princesses", "start": 0},
       {"id": "unboxing", "segment": "1065051420", "name": "Sony BloggerCam ZV-1 / Phantom Abyss #3 / Dungeons & Dragons: Dark Alliance / Tricky Towers #30", "start": 0},
       {"id": "unboxing", "segment": "1066067703", "name": "ROG Phone 5 / Scarlet Nexus #1 / Stranger of Paradise: Final Fantasy Origin (демо) / Guilty Gear: Strive", "start": 0},
-      {"id": "sea-of-thieves", "segment": "1067131113", "name": "Sea of Thieves #12 (A Pirate's Life)", "start": 0}
+      {"id": "sea-of-thieves", "segment": "1067131113", "name": "Sea of Thieves #12 (A Pirate's Life)", "start": 0},
+      {"id": "first", "segment": "1070208965", "name": "Open Country / Witch Hunt #3 (заново) / Untitled Goose Game - Кооп", "start": 0}
     ]
   },
   "finished": {
@@ -143,6 +143,7 @@
       {"name": "Mafia II", "id": "mafia-2", "segment": "502487271"},
       {"name": "Death Stranding", "id": "death-stranding", "segment": "505477026"},
       {"id": "single", "segment": "508178551", "name": "Superliminal", "start": 1969},
+      {"name": "Untitled Goose Game", "id": "goose", "segment": "508178551"},
       {"name": "Star Wars Jedi: Fallen Order", "id": "star-wars-jedi", "segment": "508580428"},
       {"name": "Terminator: Resistance", "id": "terminator-resistance", "segment": "510472726"},
       {"name": "The Suffering: Prison is Hell", "id": "suffering", "segment": "512218604"},
@@ -440,7 +441,6 @@
       {"id": "first", "segment": "504248004", "name": "Need for Speed Heat", "start": 0},
       {"id": "first", "segment": "504248004", "name": "Red Dead Redemption 2 (PC)", "start": 7564},
       {"id": "first", "segment": "504672487", "name": "Planet Zoo", "start": 13824},
-      {"id": "first", "segment": "508178551", "name": "Untitled Goose Game", "start": 12041},
       {"id": "first", "segment": "510472726", "name": "Shenmue III", "start": 11995},
       {"id": "first", "segment": "521336731", "name": "Gothic - Playable Teaser", "start": 0},
       {"id": "first", "segment": "524865260", "name": "Trepang2 (демо)", "start": 0},
@@ -586,14 +586,14 @@
       {"id": "first", "segment": "1061050549", "name": "Horrors of Space (демо)", "start": 19113},
       {"id": "first", "segment": "1061050549", "name": "Rabbit Hole (демо)", "start": 19914},
       {"id": "first", "segment": "1066067703", "name": "Stranger of Paradise: Final Fantasy Origin (демо)", "start": 13148},
-      {"id": "first", "segment": "1066067703", "name": "Guilty Gear: Strive", "start": 18386}
+      {"id": "first", "segment": "1066067703", "name": "Guilty Gear: Strive", "start": 18386},
+      {"id": "first", "segment": "1070208965", "name": "Open Country", "start": 0}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "World of Warcraft", "id": "wow", "segment": "728015486"},
-      {"name": "Graven", "id": "graven", "segment": "905895866"},
       {"name": "Until We Die", "id": "until-we-die", "segment": "1021117640"},
       {"name": "Scarlet Nexus", "id": "scarlet-nexus", "segment": "1036865162"}
     ]
@@ -711,6 +711,7 @@
       {"name": "Song of Horror", "id": "song-of-horror", "segment": "878410974"},
       {"name": "Disco Elysium", "id": "disco-elysium", "segment": "887445977"},
       {"name": "Boris The Rocket", "id": "boris-rocket", "segment": "896656796"},
+      {"name": "Graven", "id": "graven", "segment": "905895866"},
       {"name": "Loop Hero", "id": "loop-hero", "segment": "926537203"},
       {"name": "Breathedge", "id": "breathedge", "segment": "927781155"},
       {"name": "Outriders", "id": "outriders", "segment": "928993182"},

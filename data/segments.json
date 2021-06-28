@@ -4792,9 +4792,9 @@
   },
   "508178551": {
     "youtube": "pWllHf0z1vE", "abs_start": "0:00", "abs_end": "4:43:55", "duration": "4:43:55",
-    "name": "Розыгрыш Asus ROG Strix SCAR II / Superliminal / Untitled Goose Game",
+    "name": "Розыгрыш Asus ROG Strix SCAR II / Superliminal / Untitled Goose Game - Первый взгляд",
     "date": "2019-11-14",
-    "games": ["events", "single", "first"]
+    "games": ["events", "single", "goose"]
   },
   "508580428": {
     "youtube": "CvNTd-O3OzI", "abs_start": "-0:08", "abs_end": "9:53:03", "duration": "9:53:11",
@@ -7777,5 +7777,13 @@
     "date": "2021-06-25",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1067131113.torrent",
     "games": ["sea-of-thieves"]
+  },
+  "1070208965": {
+    "abs_start": "0:00", "abs_end": "6:54:06", "duration": "0:00",
+    "name": "Open Country / Witch Hunt #3 (заново) / Untitled Goose Game - Кооп",
+    "date": "2021-06-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1070208965.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1070208965.torrent",
+    "games": ["first", "witch-hunt", "goose"]
   }
 }
