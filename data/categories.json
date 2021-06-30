@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "chivalry-2", "segment": "1055052153", "name": "Chivalry 2 #4 (часть 2) / неПрофессиональный E3 2021 - Xbox & Bethesda Showcase / неПрофессиональный E3 2021 - Square Enix Presents / неПрофессиональный E3 2021 - PC Gaming Show / неПрофессиональный E3 2021 - Future Games Show", "start": 0},
       {"id": "e3_2021", "segment": "1055969948", "name": "неПрофессиональный E3 2021 - Take-Two Interactive / Chivalry 2 #5 / неПрофессиональный E3 2021 - Capcom", "start": 0},
       {"id": "first", "segment": "1056977056", "name": "Sable (демо) / неПрофессиональный E3 2021 - Nintendo Direct", "start": 0},
       {"id": "co-op", "segment": "1059978031", "name": "The Red Solstice 2: Survivors / Industria (демо) / Greak: Memories of Azur (демо) / Chasing Static (демо) / Song of Iron (демо) / Death Trash (демо) / Undying Symphony (демо) / Bandit Simulator (демо) / Super Bomberman R Online", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "unboxing", "segment": "1065051420", "name": "Sony BloggerCam ZV-1 / Phantom Abyss #3 / Dungeons & Dragons: Dark Alliance / Tricky Towers #30", "start": 0},
       {"id": "unboxing", "segment": "1066067703", "name": "ROG Phone 5 / Scarlet Nexus #1 / Stranger of Paradise: Final Fantasy Origin (демо) / Guilty Gear: Strive", "start": 0},
       {"id": "sea-of-thieves", "segment": "1067131113", "name": "Sea of Thieves #12 (A Pirate's Life)", "start": 0},
-      {"id": "first", "segment": "1070208965", "name": "Open Country / Witch Hunt #3 (заново) / Untitled Goose Game - Кооп", "start": 0}
+      {"id": "first", "segment": "1070208965", "name": "Open Country / Witch Hunt #3 (заново) / Untitled Goose Game - Кооп", "start": 0},
+      {"id": "first", "segment": "1072311121", "name": "Call of Duty: Mobile / Genshin Impact / Клуб Романтики / Sky: Children of the Light", "start": 0}
     ]
   },
   "finished": {
@@ -587,7 +587,11 @@
       {"id": "first", "segment": "1061050549", "name": "Rabbit Hole (демо)", "start": 19914},
       {"id": "first", "segment": "1066067703", "name": "Stranger of Paradise: Final Fantasy Origin (демо)", "start": 13148},
       {"id": "first", "segment": "1066067703", "name": "Guilty Gear: Strive", "start": 18386},
-      {"id": "first", "segment": "1070208965", "name": "Open Country", "start": 0}
+      {"id": "first", "segment": "1070208965", "name": "Open Country", "start": 0},
+      {"id": "first", "segment": "1072311121", "name": "Call of Duty: Mobile", "start": 0},
+      {"id": "first", "segment": "1072311121", "name": "Genshin Impact", "start": 2549},
+      {"id": "first", "segment": "1072311121", "name": "Клуб Романтики", "start": 7893},
+      {"id": "first", "segment": "1072311121", "name": "Sky: Children of the Light", "start": 9565}
     ]
   },
   "ongoing": {
