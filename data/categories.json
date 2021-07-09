@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1056977056", "name": "Sable (демо) / неПрофессиональный E3 2021 - Nintendo Direct", "start": 0},
       {"id": "co-op", "segment": "1059978031", "name": "The Red Solstice 2: Survivors / Industria (демо) / Greak: Memories of Azur (демо) / Chasing Static (демо) / Song of Iron (демо) / Death Trash (демо) / Undying Symphony (демо) / Bandit Simulator (демо) / Super Bomberman R Online", "start": 0},
       {"id": "single", "segment": "1061050549", "name": "They Are Here (демо) / Last Village (демо) / Rocket Stop Incident (демо) / Dagon (демо) / Interference (демо) / Tormented Souls / Ebola 2 Survival (демо) / Horrors of Space (демо) / Rabbit Hole (демо)", "start": 0},
       {"id": "single", "segment": "1062093790", "name": "Barbie in The 12 Dancing Princesses", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "sea-of-thieves", "segment": "1067131113", "name": "Sea of Thieves #12 (A Pirate's Life)", "start": 0},
       {"id": "first", "segment": "1070208965", "name": "Open Country / Witch Hunt #3 (заново) / Untitled Goose Game - Кооп", "start": 0},
       {"id": "first", "segment": "1072311121", "name": "Call of Duty: Mobile / Genshin Impact / Клуб Романтики / Sky: Children of the Light", "start": 0},
-      {"id": "first", "segment": "1073309664", "name": "Dying Light / Dying 2 Know #2", "start": 0}
+      {"id": "first", "segment": "1073309664", "name": "Dying Light / Dying 2 Know #2", "start": 0},
+      {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light / Black Skylands / WitcherCon", "start": 0}
     ]
   },
   "finished": {
@@ -593,13 +593,13 @@
       {"id": "first", "segment": "1072311121", "name": "Клуб Романтики", "start": 7893},
       {"id": "first", "segment": "1072311121", "name": "Sky: Children of the Light", "start": 9565},
       {"id": "first", "segment": "1073309664", "name": "Dying Light", "start": 0},
-      {"id": "first", "segment": "1073309664", "name": "Dying Light", "start": 27413}
+      {"id": "first", "segment": "1073309664", "name": "Dying Light", "start": 27413},
+      {"id": "first", "segment": "1081385499,1081403044", "name": "Black Skylands", "start": 6522}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Until We Die", "id": "until-we-die", "segment": "1021117640"},
       {"name": "Scarlet Nexus", "id": "scarlet-nexus", "segment": "1036865162"}
     ]
   },
@@ -723,6 +723,7 @@
       {"name": "Outriders", "id": "outriders", "segment": "928993182"},
       {"name": "Silent Hill 4: The Room", "id": "sh4", "segment": "987111954"},
       {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"},
+      {"name": "Until We Die", "id": "until-we-die", "segment": "1021117640"},
       {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"},
       {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"}
     ]
@@ -934,7 +935,8 @@
       {"id": "other", "segment": "895436223", "name": "Трейлеры и арты", "start": 0},
       {"id": "events", "segment": "975061581", "name": "Игровые коллекции зрителей", "start": 9662},
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0},
-      {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village", "start": 0}
+      {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village", "start": 0},
+      {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0}
     ]
   },
   "expos": {
@@ -956,7 +958,8 @@
       {"id": "expos", "segment": "953865835", "name": "Square Enix Presents (Весна 2021)", "start": 11085},
       {"id": "expos", "segment": "988804108", "name": "Resident Evil Showcase (Апрель 2021)", "start": 1627},
       {"name": "Dying 2 Know", "id": "dying-2-know", "segment": "1036865162"},
-      {"name": "неПрофессиональный E3 2021", "id": "e3_2021", "segment": "1051795746,1052015039,1052084349"}
+      {"name": "неПрофессиональный E3 2021", "id": "e3_2021", "segment": "1051795746,1052015039,1052084349"},
+      {"id": "expos", "segment": "1081385499,1081403044", "name": "WitcherCon", "start": 14495}
     ]
   },
   "unboxing": {
