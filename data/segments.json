@@ -6973,9 +6973,9 @@
   },
   "912392953": {
     "youtube": "AFKZAtpTVp0", "abs_start": "0:00", "abs_end": "4:00:23", "duration": "4:00:23",
-    "name": "Благотворительные стримы #6 / SuchArt: Genius Artist Simulator",
+    "name": "Благотворительные стримы #6 / SuchArt: Genius Artist Simulator #1",
     "date": "2021-02-13",
-    "games": ["charity", "first"]
+    "games": ["charity", "suchart"]
   },
   "915004866": {
     "youtube": "JeKu9TGiNK8", "abs_start": "0:00", "abs_end": "7:04:09", "duration": "7:04:09",
@@ -7432,14 +7432,12 @@
     "youtube": "udkGxx6D0rM", "official": false, "abs_start": "0:00", "abs_end": "7:55:33", "duration": "7:55:33",
     "name": "Mass Effect: Legendary Edition #2 / Mass Effect 2: Legendary Edition #0 (первые 3 минуты)",
     "date": "2021-05-15",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1023398734.torrent",
     "games": ["me", "me2"]
   },
   "1024777649": {
     "youtube": "A1luD_1z7xg", "official": false, "abs_start": "0:00", "abs_end": "4:29:39", "duration": "4:29:39",
     "name": "Dread Hunger #1 / Pummel Party #14 (6D)",
     "date": "2021-05-16",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1024777649.torrent",
     "games": ["dread-hunger", "pummel-party"]
   },
   "1025736815": {
@@ -7817,5 +7815,30 @@
     "offsets": [0, 1658],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1081385499,1081403044.torrent",
     "games": ["events", "first", "expos"]
+  },
+  "1086385946": {
+    "abs_start": "0:00", "abs_end": "3:52:09", "duration": "0:00",
+    "name": "",
+    "date": "2021-07-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1086385946.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1086385946.torrent",
+    "games": []
+  },
+  "1086545283": {
+    "abs_start": "0:00", "abs_end": "3:02:35", "duration": "0:00",
+    "name": "",
+    "date": "2021-07-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1086545283.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1086545283.torrent",
+    "games": []
+  },
+  "1086385946,1086545283": {
+    "abs_start": "0:00", "abs_end": "6:54:44", "duration": "0:00",
+    "name": "Farmer's Life: Prologue / Reminiscence / SuchArt: Genius Artist Simulator #2",
+    "date": "2021-07-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1086385946,1086545283.mp4",
+    "offsets": [0, 13862],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1086385946,1086545283.torrent",
+    "games": ["first", "single", "suchart"]
   }
 }
