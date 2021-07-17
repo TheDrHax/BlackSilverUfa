@@ -7474,21 +7474,18 @@
     "youtube": "-uE5AuCjLz0", "official": false, "abs_start": "0:00", "abs_end": "2:06:03", "duration": "2:06:03",
     "name": "Sniper Ghost Warrior Contracts 2 (демо) / Phantom Abyss #2",
     "date": "2021-05-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1031332081.torrent",
     "games": ["first", "phantom-abyss"]
   },
   "1031432095": {
     "youtube": "wjs1VKuX0Ns", "official": false, "abs_start": "0:00", "abs_end": "2:24:47", "duration": "2:24:47",
     "name": "Just Die Already / A House of Thieves",
     "date": "2021-05-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1031432095.torrent",
     "games": ["co-op"]
   },
   "1033590091": {
     "youtube": "_uv6WWu5Rx0", "official": false, "abs_start": "0:00", "abs_end": "5:59:29", "duration": "5:59:29",
     "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1",
     "date": "2021-05-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1033590091.torrent",
     "games": ["first", "biomutant"]
   },
   "1034612378": {
@@ -7882,5 +7879,13 @@
     "offsets": [0, 14064],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1088456849,1088621069.torrent",
     "games": ["geoguessr", "friday-13th"]
+  },
+  "1089427413": {
+    "abs_start": "0:00", "abs_end": "8:09:50", "duration": "0:00",
+    "name": "The Legend of Zelda: Skyward Sword HD",
+    "date": "2021-07-17",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1089427413.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1089427413.torrent",
+    "games": ["first"]
   }
 }
