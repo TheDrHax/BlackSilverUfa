@@ -7492,7 +7492,6 @@
     "youtube": "1dyQStbb5ZY", "official": false, "abs_start": "0:00", "abs_end": "7:46:51", "duration": "7:46:51",
     "name": "Biomutant #2",
     "date": "2021-05-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1034612378.torrent",
     "games": ["biomutant"]
   },
   "1035840249": {
@@ -7772,10 +7771,10 @@
   },
   "1072311121": {
     "youtube": "wGeEyU3d7QQ", "official": false, "abs_start": "0:00", "abs_end": "3:07:43", "duration": "3:07:43",
-    "name": "Call of Duty: Mobile / Genshin Impact / Клуб Романтики / Sky: Children of the Light",
+    "name": "Call of Duty: Mobile / Genshin Impact #1 / Клуб Романтики / Sky: Children of the Light",
     "date": "2021-06-30",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1072311121.torrent",
-    "games": ["first"]
+    "games": ["first", "genshin-impact"]
   },
   "1073309664": {
     "youtube": "wFqobUvb3lQ", "official": false, "abs_start": "0:00", "abs_end": "9:23:18", "duration": "9:23:18",
@@ -7886,5 +7885,13 @@
     "date": "2021-07-17",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1089427413.torrent",
     "games": ["first"]
+  },
+  "1090437240": {
+    "abs_start": "0:00", "abs_end": "5:45:56", "duration": "0:00",
+    "name": "Genshin Impact #2 (заново, PC)",
+    "date": "2021-07-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1090437240.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1090437240.torrent",
+    "games": ["genshin-impact"]
   }
 }

@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "unboxing", "segment": "1066067703", "name": "ROG Phone 5 / Scarlet Nexus #1 / Stranger of Paradise: Final Fantasy Origin (демо) / Guilty Gear: Strive", "start": 0},
       {"id": "sea-of-thieves", "segment": "1067131113", "name": "Sea of Thieves #12 (A Pirate's Life)", "start": 0},
       {"id": "first", "segment": "1070208965", "name": "Open Country / Witch Hunt #3 (заново) / Untitled Goose Game - Кооп", "start": 0},
-      {"id": "first", "segment": "1072311121", "name": "Call of Duty: Mobile / Genshin Impact / Клуб Романтики / Sky: Children of the Light", "start": 0},
+      {"id": "first", "segment": "1072311121", "name": "Call of Duty: Mobile / Genshin Impact #1 / Клуб Романтики / Sky: Children of the Light", "start": 0},
       {"id": "first", "segment": "1073309664", "name": "Dying Light / Dying 2 Know #2", "start": 0},
       {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light / Black Skylands / WitcherCon", "start": 0},
       {"id": "first", "segment": "1086385946,1086545283", "name": "Farmer's Life: Prologue / Reminiscence / SuchArt: Genius Artist Simulator #2", "start": 0},
       {"id": "chernobylite", "segment": "1087387683,1087417437", "name": "Chernobylite - Релиз / Escape From Tarkov #8", "start": 0},
       {"id": "geoguessr", "segment": "1088456849,1088621069", "name": "GeoGuessr #8 / Friday the 13th #4", "start": 0},
-      {"id": "first", "segment": "1089427413", "name": "The Legend of Zelda: Skyward Sword HD", "start": 0}
+      {"id": "first", "segment": "1089427413", "name": "The Legend of Zelda: Skyward Sword HD", "start": 0},
+      {"id": "genshin-impact", "segment": "1090437240", "name": "Genshin Impact #2 (заново, PC)", "start": 0}
     ]
   },
   "finished": {
@@ -588,7 +588,6 @@
       {"id": "first", "segment": "1066067703", "name": "Guilty Gear: Strive", "start": 18386},
       {"id": "first", "segment": "1070208965", "name": "Open Country", "start": 0},
       {"id": "first", "segment": "1072311121", "name": "Call of Duty: Mobile", "start": 0},
-      {"id": "first", "segment": "1072311121", "name": "Genshin Impact", "start": 2549},
       {"id": "first", "segment": "1072311121", "name": "Клуб Романтики", "start": 7893},
       {"id": "first", "segment": "1072311121", "name": "Sky: Children of the Light", "start": 9565},
       {"id": "first", "segment": "1073309664", "name": "Dying Light", "start": 0},
@@ -602,7 +601,8 @@
     "name": "Активные",
     "games": [
       {"name": "Chernobylite", "id": "chernobylite", "segment": "495362547,495449259"},
-      {"name": "Scarlet Nexus", "id": "scarlet-nexus", "segment": "1036865162"}
+      {"name": "Scarlet Nexus", "id": "scarlet-nexus", "segment": "1036865162"},
+      {"name": "Genshin Impact", "id": "genshin-impact", "segment": "1072311121"}
     ]
   },
   "infinite": {
