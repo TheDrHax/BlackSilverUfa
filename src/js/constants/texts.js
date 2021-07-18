@@ -4,7 +4,7 @@ export default {
   footer: {
     linksTitle: 'Полезные ссылки',
     channelsTitle: 'Каналы Артура',
-    networksTitle: 'Соцыальные сети',
+    networksTitle: 'Социальные сети',
     repositoryLabel: 'Репозиторий GitHub',
     channelLabel: 'Канал BlackUFA_Monitor',
     denialLabel: 'Отказ от участия в статистике сайта',

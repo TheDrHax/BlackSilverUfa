@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // Components
 import { Container } from 'react-bootstrap';
-import { Header, Footer } from './components';
+import Header from './header';
+import Footer from './footer';
 
 const Layout = ({
   className,

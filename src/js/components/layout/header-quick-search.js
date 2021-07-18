@@ -5,11 +5,34 @@ import { AsyncTypeahead } from 'react-bootstrap-typeahead';
 import { Form } from 'react-bootstrap';
 // Namespace
 import PropTypes from 'prop-types';
-import { MIN_CHARS, MAX_CHARS } from './header-quick-search.constants';
-import t from '../../../../constants/texts';
+import t from '../../constants/texts';
 // Utils
-import Matomo from '../../../../matomo';
-import { hasStreamId, getByStreamId, getByTextMatch } from './header-quick-search.utils';
+import Matomo from '../../matomo';
+import fts from '../../utils/full-text-search';
+
+export const MIN_CHARS = 2;
+export const MAX_CHARS = 20;
+
+export const hasStreamId = (query) => /^\d+$/.test(query);
+
+export const getByStreamId = (query, store) => store.chain()
+  .find({ streams: { $contains: query } })
+  .where((segment) => segment.games.length)
+  .data();
+
+export const getByTextMatch = (query, store) => {
+  const data = store.chain()
+    .where((item) => item.category.search !== false)
+    .simplesort('date', { desc: true })
+    .data();
+
+  // TODO: dig into it and refactor fts @zaprvalcer
+  return fts(
+    query,
+    data,
+    (item) => item.name,
+  );
+};
 
 const HeaderQuickSearch = ({ indexStore, segmentsStore }) => {
   const [suggestions, setSuggestions] = useState({

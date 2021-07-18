@@ -2,12 +2,12 @@ import React from 'react';
 // Components
 import { Badge, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { HeaderQuickSearch } from '../header-quick-search';
+import HeaderQuickSearch from './header-quick-search';
 // Namespace
-import PATHS from '../../../../constants/urls';
-import config from '../../../../../../config/config.json';
+import PATHS from '../../constants/urls';
+import config from '../../../../config/config.json';
 // Hooks
-import { useDataStore } from '../../../../hooks/use-data-store';
+import { useDataStore } from '../../hooks/use-data-store';
 
 const Header = () => {
   const { isReady, index, segments } = useDataStore();
