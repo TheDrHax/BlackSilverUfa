@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "sea-of-thieves", "segment": "1067131113", "name": "Sea of Thieves #12 (A Pirate's Life)", "start": 0},
       {"id": "first", "segment": "1070208965", "name": "Open Country / Witch Hunt #3 (заново) / Untitled Goose Game - Кооп", "start": 0},
       {"id": "first", "segment": "1072311121", "name": "Call of Duty: Mobile / Genshin Impact #1 / Клуб Романтики / Sky: Children of the Light", "start": 0},
       {"id": "first", "segment": "1073309664", "name": "Dying Light / Dying 2 Know #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "chernobylite", "segment": "1087387683,1087417437", "name": "Chernobylite - Релиз / Escape From Tarkov #8", "start": 0},
       {"id": "geoguessr", "segment": "1088456849,1088621069", "name": "GeoGuessr #8 / Friday the 13th #4", "start": 0},
       {"id": "first", "segment": "1089427413", "name": "The Legend of Zelda: Skyward Sword HD", "start": 0},
-      {"id": "genshin-impact", "segment": "1090437240", "name": "Genshin Impact #2 (заново, PC)", "start": 0}
+      {"id": "genshin-impact", "segment": "1090437240", "name": "Genshin Impact #2 (заново, PC)", "start": 0},
+      {"id": "single", "segment": "1091562344", "name": "Game For Anna / Fears to Fathom: Home Alone", "start": 0}
     ]
   },
   "finished": {
@@ -266,7 +266,9 @@
       {"id": "single", "segment": "1061050549", "name": "Tormented Souls", "start": 8784},
       {"id": "single", "segment": "1061050549", "name": "Ebola 2 Survival (демо)", "start": 13539},
       {"id": "single", "segment": "1062093790", "name": "Barbie in The 12 Dancing Princesses", "start": 0},
-      {"id": "single", "segment": "1086385946,1086545283", "name": "Reminiscence", "start": 11627}
+      {"id": "single", "segment": "1086385946,1086545283", "name": "Reminiscence", "start": 11627},
+      {"id": "single", "segment": "1091562344", "name": "Game For Anna", "start": 0},
+      {"id": "single", "segment": "1091562344", "name": "Fears to Fathom: Home Alone", "start": 6414}
     ]
   },
   "first": {
