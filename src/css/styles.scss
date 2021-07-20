@@ -429,6 +429,7 @@ h3>.badge {
   & .list-group-item {
     background-color: inherit;
     padding: 0.25rem;
+    overflow-wrap: anywhere; // by @AriesAlex
 
     & span.username {
       font-weight: 700;
