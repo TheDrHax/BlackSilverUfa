@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1070208965", "name": "Open Country / Witch Hunt #3 (заново) / Untitled Goose Game - Кооп", "start": 0},
       {"id": "first", "segment": "1072311121", "name": "Call of Duty: Mobile / Genshin Impact #1 / Клуб Романтики / Sky: Children of the Light", "start": 0},
       {"id": "first", "segment": "1073309664", "name": "Dying Light / Dying 2 Know #2", "start": 0},
       {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light / Black Skylands / WitcherCon", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "geoguessr", "segment": "1088456849,1088621069", "name": "GeoGuessr #8 / Friday the 13th #4", "start": 0},
       {"id": "first", "segment": "1089427413", "name": "The Legend of Zelda: Skyward Sword HD", "start": 0},
       {"id": "genshin-impact", "segment": "1090437240", "name": "Genshin Impact #2 (заново, PC)", "start": 0},
-      {"id": "single", "segment": "1091562344", "name": "Game For Anna / Fears to Fathom: Home Alone", "start": 0}
+      {"id": "single", "segment": "1091562344", "name": "Game For Anna / Fears to Fathom: Home Alone", "start": 0},
+      {"id": "setups", "segment": "1092418023", "name": "Сетапы зрителей #6 / Death's Door / Underwater / I'm on Observation Duty / Raid: Shadow Legends", "start": 0}
     ]
   },
   "finished": {
@@ -596,7 +596,11 @@
       {"id": "first", "segment": "1073309664", "name": "Dying Light", "start": 27413},
       {"id": "first", "segment": "1081385499,1081403044", "name": "Black Skylands", "start": 6522},
       {"id": "first", "segment": "1086385946,1086545283", "name": "Farmer's Life: Prologue", "start": 0},
-      {"id": "first", "segment": "1089427413", "name": "The Legend of Zelda: Skyward Sword HD", "start": 0}
+      {"id": "first", "segment": "1089427413", "name": "The Legend of Zelda: Skyward Sword HD", "start": 0},
+      {"id": "first", "segment": "1092418023", "name": "Death's Door", "start": 0},
+      {"id": "first", "segment": "1092418023", "name": "Underwater", "start": 4905},
+      {"id": "first", "segment": "1092418023", "name": "I'm on Observation Duty", "start": 6233},
+      {"id": "first", "segment": "1092418023", "name": "Raid: Shadow Legends", "start": 17118}
     ]
   },
   "ongoing": {

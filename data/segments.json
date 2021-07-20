@@ -7498,14 +7498,12 @@
     "youtube": "9fu8Iw71Nag", "official": false, "abs_start": "0:00", "abs_end": "5:24:20", "duration": "5:24:20",
     "name": "Siege Survival: Gloria Victis / Knockout City #3 (с WeLoveGames и Бейлом)",
     "date": "2021-05-26",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1035840249.torrent",
     "games": ["first", "knockout-city"]
   },
   "1036865162": {
     "youtube": "yworObqCUXo", "official": false, "abs_start": "0:00", "abs_end": "8:25:43", "duration": "8:25:43",
     "name": "Scarlet Nexus - Демо / Graven #1 / Chivalry 2 #2 / Dying 2 Know #1 / State of Play - Horizon Forbidden West",
     "date": "2021-05-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1036865162.torrent",
     "games": ["scarlet-nexus", "graven", "chivalry-2", "dying-2-know", "sony-sop"]
   },
   "1037951212": {
@@ -7899,5 +7897,13 @@
     "date": "2021-07-19",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1091562344.torrent",
     "games": ["single"]
+  },
+  "1092418023": {
+    "abs_start": "0:00", "abs_end": "6:59:23", "duration": "0:00",
+    "name": "Сетапы зрителей #6 / Death's Door / Underwater / I'm on Observation Duty / Raid: Shadow Legends",
+    "date": "2021-07-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1092418023.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1092418023.torrent",
+    "games": ["setups", "first"]
   }
 }
