@@ -7880,10 +7880,10 @@
   },
   "1089427413": {
     "youtube": "viv5qndXuWg", "official": false, "abs_start": "0:00", "abs_end": "8:09:34", "duration": "8:09:34",
-    "name": "The Legend of Zelda: Skyward Sword HD",
+    "name": "The Legend of Zelda: Skyward Sword HD #1",
     "date": "2021-07-17",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1089427413.torrent",
-    "games": ["first"]
+    "games": ["tloz-sshd"]
   },
   "1090437240": {
     "youtube": "pxdxNDIw35s", "official": false, "abs_start": "0:00", "abs_end": "5:45:41", "duration": "5:45:41",
@@ -7906,5 +7906,30 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1092418023.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1092418023.torrent",
     "games": ["first", "setups"]
+  },
+  "1093482724": {
+    "abs_start": "0:00", "abs_end": "34:41", "duration": "0:00",
+    "name": "",
+    "date": "2021-07-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1093482724.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1093482724.torrent",
+    "games": []
+  },
+  "1093514203": {
+    "abs_start": "0:00", "abs_end": "7:22", "duration": "0:00",
+    "name": "",
+    "date": "2021-07-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1093514203.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1093514203.torrent",
+    "games": []
+  },
+  "1093482724,1093514203": {
+    "abs_start": "0:00", "abs_end": "42:03", "duration": "0:00",
+    "name": "The Legend of Zelda: Skyward Sword HD #2",
+    "date": "2021-07-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1093482724,1093514203.mp4",
+    "offsets": [0, 2020],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1093482724,1093514203.torrent",
+    "games": ["tloz-sshd"]
   }
 }

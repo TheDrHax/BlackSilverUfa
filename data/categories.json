@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1072311121", "name": "Call of Duty: Mobile / Genshin Impact #1 / Клуб Романтики / Sky: Children of the Light", "start": 0},
       {"id": "first", "segment": "1073309664", "name": "Dying Light / Dying 2 Know #2", "start": 0},
       {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light / Black Skylands / WitcherCon", "start": 0},
       {"id": "first", "segment": "1086385946,1086545283", "name": "Farmer's Life: Prologue / Reminiscence / SuchArt: Genius Artist Simulator #2", "start": 0},
       {"id": "chernobylite", "segment": "1087387683,1087417437", "name": "Chernobylite - Релиз / Escape From Tarkov #8", "start": 0},
       {"id": "geoguessr", "segment": "1088456849,1088621069", "name": "GeoGuessr #8 / Friday the 13th #4", "start": 0},
-      {"id": "first", "segment": "1089427413", "name": "The Legend of Zelda: Skyward Sword HD", "start": 0},
+      {"id": "tloz-sshd", "segment": "1089427413", "name": "The Legend of Zelda: Skyward Sword HD #1", "start": 0},
       {"id": "genshin-impact", "segment": "1090437240", "name": "Genshin Impact #2 (заново, PC)", "start": 0},
       {"id": "single", "segment": "1091562344", "name": "Game For Anna / Fears to Fathom: Home Alone", "start": 0},
-      {"id": "first", "segment": "1092418023", "name": "Death's Door / Underwater / I'm on Observation Duty / Сетапы зрителей #6 / Raid: Shadow Legends", "start": 0}
+      {"id": "first", "segment": "1092418023", "name": "Death's Door / Underwater / I'm on Observation Duty / Сетапы зрителей #6 / Raid: Shadow Legends", "start": 0},
+      {"id": "tloz-sshd", "segment": "1093482724,1093514203", "name": "The Legend of Zelda: Skyward Sword HD #2", "start": 0}
     ]
   },
   "finished": {
@@ -596,7 +596,6 @@
       {"id": "first", "segment": "1073309664", "name": "Dying Light", "start": 27413},
       {"id": "first", "segment": "1081385499,1081403044", "name": "Black Skylands", "start": 6522},
       {"id": "first", "segment": "1086385946,1086545283", "name": "Farmer's Life: Prologue", "start": 0},
-      {"id": "first", "segment": "1089427413", "name": "The Legend of Zelda: Skyward Sword HD", "start": 0},
       {"id": "first", "segment": "1092418023", "name": "Death's Door", "start": 0},
       {"id": "first", "segment": "1092418023", "name": "Underwater", "start": 4905},
       {"id": "first", "segment": "1092418023", "name": "I'm on Observation Duty", "start": 6233},
@@ -608,7 +607,8 @@
     "games": [
       {"name": "Chernobylite", "id": "chernobylite", "segment": "495362547,495449259"},
       {"name": "Scarlet Nexus", "id": "scarlet-nexus", "segment": "1036865162"},
-      {"name": "Genshin Impact", "id": "genshin-impact", "segment": "1072311121"}
+      {"name": "Genshin Impact", "id": "genshin-impact", "segment": "1072311121"},
+      {"name": "The Legend of Zelda: Skyward Sword HD", "id": "tloz-sshd", "segment": "1089427413"}
     ]
   },
   "infinite": {
