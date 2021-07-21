@@ -468,9 +468,10 @@
     "games": ["hitman"]
   },
   "001607030": {
-    "youtube": "s3W09ew-nOk", "official": false, "abs_start": "0:00", "abs_end": "4:00:05", "duration": "4:00:05",
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
     "name": "Dark Souls 3 #7",
     "date": "2016-07-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001607030.mp4",
     "games": ["ds3"]
   },
   "001607100": {
