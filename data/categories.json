@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1073309664", "name": "Dying Light / Dying 2 Know #2", "start": 0},
       {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light / Black Skylands / WitcherCon", "start": 0},
       {"id": "first", "segment": "1086385946,1086545283", "name": "Farmer's Life: Prologue / Reminiscence / SuchArt: Genius Artist Simulator #2", "start": 0},
       {"id": "chernobylite", "segment": "1087387683,1087417437", "name": "Chernobylite - Релиз / Escape From Tarkov #8", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "genshin-impact", "segment": "1090437240", "name": "Genshin Impact #2 (заново, PC)", "start": 0},
       {"id": "single", "segment": "1091562344", "name": "Game For Anna / Fears to Fathom: Home Alone", "start": 0},
       {"id": "first", "segment": "1092418023", "name": "Death's Door / Underwater / I'm on Observation Duty / Сетапы зрителей #6 / Raid: Shadow Legends", "start": 0},
-      {"id": "tloz-sshd", "segment": "1093482724,1093514203", "name": "The Legend of Zelda: Skyward Sword HD #2", "start": 0}
+      {"id": "tloz-sshd", "segment": "1093482724,1093514203", "name": "The Legend of Zelda: Skyward Sword HD #2", "start": 0},
+      {"id": "demons-souls-remake", "segment": "1093719957,1093732841", "name": "Demon's Souls Remake - Тестовый стрим (NG+)", "start": 0}
     ]
   },
   "finished": {

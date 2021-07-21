@@ -7510,16 +7510,12 @@
     "abs_start": "0:00", "abs_end": "11:13", "duration": "0:00",
     "name": "",
     "date": "2021-05-28",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1037951212.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1037951212.torrent",
     "games": []
   },
   "1037962598": {
     "abs_start": "0:00", "abs_end": "1:45:46", "duration": "0:00",
     "name": "",
     "date": "2021-05-28",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1037962598.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1037962598.torrent",
     "games": []
   },
   "1038035275": {
@@ -7543,7 +7539,6 @@
     "name": "Xbox Game Pass #2 / Wolfenstein: The Old Blood / Spiritfarer / DOOM 64 / Maneater #2 / Resident Evil 6 #1 (Леон)",
     "date": "2021-05-28",
     "offsets": [0, 637, 6926, 13280],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1037951212,1037962598,1038035275,1038124022.torrent",
     "games": ["xbox-gp", "first", "maneater", "re6"]
   },
   "1039198379": {
@@ -7928,5 +7923,30 @@
     "offsets": [0, 2020],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1093482724,1093514203.torrent",
     "games": ["tloz-sshd"]
+  },
+  "1093719957": {
+    "abs_start": "0:00", "abs_end": "11:16", "duration": "0:00",
+    "name": "",
+    "date": "2021-07-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1093719957.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1093719957.torrent",
+    "games": []
+  },
+  "1093732841": {
+    "abs_start": "0:00", "abs_end": "50:14", "duration": "0:00",
+    "name": "",
+    "date": "2021-07-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1093732841.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1093732841.torrent",
+    "games": []
+  },
+  "1093719957,1093732841": {
+    "abs_start": "0:00", "abs_end": "1:01:30", "duration": "0:00",
+    "name": "Demon's Souls Remake - Тестовый стрим (NG+)",
+    "date": "2021-07-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1093719957,1093732841.mp4",
+    "offsets": [0, 659],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1093719957,1093732841.torrent",
+    "games": ["demons-souls-remake"]
   }
 }
