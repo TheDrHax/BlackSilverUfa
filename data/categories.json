@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light / Black Skylands / WitcherCon", "start": 0},
       {"id": "first", "segment": "1086385946,1086545283", "name": "Farmer's Life: Prologue / Reminiscence / SuchArt: Genius Artist Simulator #2", "start": 0},
       {"id": "chernobylite", "segment": "1087387683,1087417437", "name": "Chernobylite - Релиз / Escape From Tarkov #8", "start": 0},
       {"id": "geoguessr", "segment": "1088456849,1088621069", "name": "GeoGuessr #8 / Friday the 13th #4", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "single", "segment": "1091562344", "name": "Game For Anna / Fears to Fathom: Home Alone", "start": 0},
       {"id": "first", "segment": "1092418023", "name": "Death's Door / Underwater / I'm on Observation Duty / Сетапы зрителей #6 / Raid: Shadow Legends", "start": 0},
       {"id": "tloz-sshd", "segment": "1093482724,1093514203", "name": "The Legend of Zelda: Skyward Sword HD #2", "start": 0},
-      {"id": "demons-souls-remake", "segment": "1093719957,1093732841", "name": "Demon's Souls Remake - Тестовый стрим (NG+)", "start": 0}
+      {"id": "demons-souls-remake", "segment": "1093719957,1093732841", "name": "Demon's Souls Remake - Тестовый стрим (NG+)", "start": 0},
+      {"id": "first", "segment": "1095567001,1095811167", "name": "Noosphere / I'm on Observation Duty 2 / Ghost Hunters Corp / GeoGuessr #9", "start": 0}
     ]
   },
   "finished": {
@@ -599,7 +599,10 @@
       {"id": "first", "segment": "1092418023", "name": "Death's Door", "start": 0},
       {"id": "first", "segment": "1092418023", "name": "Underwater", "start": 4905},
       {"id": "first", "segment": "1092418023", "name": "I'm on Observation Duty", "start": 6233},
-      {"id": "first", "segment": "1092418023", "name": "Raid: Shadow Legends", "start": 17118}
+      {"id": "first", "segment": "1092418023", "name": "Raid: Shadow Legends", "start": 17118},
+      {"id": "first", "segment": "1095567001,1095811167", "name": "Noosphere", "start": 0},
+      {"id": "first", "segment": "1095567001,1095811167", "name": "I'm on Observation Duty 2", "start": 10223},
+      {"id": "first", "segment": "1095567001,1095811167", "name": "Ghost Hunters Corp", "start": 18448}
     ]
   },
   "ongoing": {
