@@ -51,7 +51,8 @@ class Segment:
         res = Timecodes()
 
         for i, stream in enumerate(self.stream.streams):
-            res.update(stream.timecodes + self.offsets[i])
+            for t in stream.timecodes + self.offsets[i]:
+                res.add(t)
 
             if i > 0 and self.offsets[i] > 0 and self.offsets[i] not in res:
                 res.add(Timecode(self.offsets[i], name=f'{i+1}-й стрим'))
