@@ -322,7 +322,7 @@ class TimecodesSlice(Timecodes):
 
 
 class TimecodeHelper:
-    offset = 10  # Constant for low latency streamlink + MPV without cache
+    offset = 17  # Constant for low latency streamlink + MPV without cache
 
     @staticmethod
     def time():
