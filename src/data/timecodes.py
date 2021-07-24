@@ -171,9 +171,22 @@ class Timecodes(Timecode, SortedKeyList):
                 return False
         return True
 
+    _add = SortedKeyList.add
+
+    def add(self, t):
+        if isinstance(t, Timecodes) and t in self:
+            t1 = [t2 for t2 in self if t2.name == t.name][0]
+            t1.update(t)
+            return
+
+        return self._add(t)
+
     def __contains__(self, value):
         if isinstance(value, Timecodes):
-            return list.__contains__(self, value)
+            for t in self:
+                if isinstance(t, Timecodes) and value.name == t.name:
+                    return True
+            return False
         else:
             for t in self:
                 if isinstance(t, Timecodes) and value in t:

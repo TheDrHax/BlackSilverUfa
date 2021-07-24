@@ -48,18 +48,16 @@ class Segment:
     timecodes: TimecodesSlice = attr.ib(init=False)
 
     def joined_timecodes(self) -> Timecodes:
-        timecodes = Timecodes()
+        res = Timecodes()
 
         for i, stream in enumerate(self.stream.streams):
-            segment = stream[0]
-            t = Timecodes(segment.stream.timecodes, name=f'{i+1}-й стрим')
+            for t in stream.timecodes + self.offsets[i]:
+                res.add(t)
 
-            if i > 0 and self.offsets[i] > 0:
-                t.add(Timecode(0, 'Начало'))
+            if i > 0 and self.offsets[i] > 0 and self.offsets[i] not in res:
+                res.add(Timecode(self.offsets[i], name=f'{i+1}-й стрим'))
 
-            timecodes.add(t + self.offsets[i])
-
-        return timecodes
+        return res
 
     def __attrs_post_init__(self):
         self.references = SortedList(key=lambda x: x.start)
