@@ -1,7 +1,6 @@
 const path = require('path');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const config = require('../../config/config.json');
 
 const HMR = process.env.HMR === '1';
 const DEBUG = HMR || process.env.DEBUG === '1';
@@ -30,7 +29,7 @@ module.exports = [
       hot: true,
       historyApiFallback: {
         rewrites: [
-          { from: /^\/.*/, to: '/404.html' },
+          { from: /^\/.*/, to: '/index.html' },
         ],
       },
     },

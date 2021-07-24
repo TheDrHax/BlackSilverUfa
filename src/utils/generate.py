@@ -100,11 +100,10 @@ def build_mako():
         if os.path.exists(_(fp)):
             os.unlink(_(fp))
 
-    # Generate index.html, 404.html
-    for i in ['index', '404']:
-        with open(_(i + '.html'), 'w') as out:
-            t = lookup.get_template(f'/{i}.mako')
-            out.write(t.render(**env))
+    # Generate index.html
+    with open(_('index.html'), 'w') as out:
+        t = lookup.get_template(f'/index.mako')
+        out.write(t.render(**env))
 
 
 @timed('Webpack completed in {}ms')

@@ -1,10 +1,11 @@
 import React from 'react';
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link,
+  Redirect,
 } from 'react-router-dom';
 
 import { ReactRouterGlobalHistory } from 'react-router-global-history';
@@ -26,7 +27,17 @@ export default class App extends React.PureComponent {
           <Route path="/play/:game" component={Game} />
           <Route path="/links/:game.html" component={RedirectLinks} />
           <Route path="/r" component={RedirectR} />
-          <Route exact path="/" component={InteractiveSearch} />
+          <Route
+            exact
+            path="/"
+            render={({ location }) => {
+              if (location.hash.startsWith('#/')) {
+                return <Redirect to={location.hash.substring(1)} />;
+              } else {
+                return <InteractiveSearch />;
+              }
+            }}
+          />
           <Route path="*">
             <BasePage flex>
               <div className="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
