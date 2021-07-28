@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "tloz-sshd", "segment": "1089427413", "name": "The Legend of Zelda: Skyward Sword HD #1", "start": 0},
       {"id": "genshin-impact", "segment": "1090437240", "name": "Genshin Impact #2 (заново, PC)", "start": 0},
       {"id": "single", "segment": "1091562344", "name": "Game For Anna / Fears to Fathom: Home Alone", "start": 0},
       {"id": "first", "segment": "1092418023", "name": "Death's Door / Underwater / I'm on Observation Duty / Сетапы зрителей #6 / Raid: Shadow Legends", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1095567001,1095811167", "name": "Noosphere / I'm on Observation Duty 2 / Ghost Hunters Corp / GeoGuessr #9", "start": 0},
       {"id": "grounded", "segment": "1096585533", "name": "Grounded #5 (3D)", "start": 0},
       {"id": "grounded", "segment": "1098539430", "name": "Grounded #6 (3D)", "start": 0},
-      {"id": "single", "segment": "1099599998", "name": "Z Mutants / Summer of '58 / From Day To Day (демо)", "start": 0}
+      {"id": "single", "segment": "1099599998", "name": "Z Mutants / Summer of '58 / From Day To Day (демо)", "start": 0},
+      {"id": "grounded", "segment": "1100650264", "name": "Grounded #7 (3D)", "start": 0}
     ]
   },
   "finished": {
