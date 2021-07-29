@@ -12,7 +12,7 @@
       {"id": "grounded", "segment": "1098539430", "name": "Grounded #6 (3D)", "start": 0},
       {"id": "single", "segment": "1099599998", "name": "Z Mutants / Summer of '58 / From Day To Day (демо)", "start": 0},
       {"id": "grounded", "segment": "1100650264", "name": "Grounded #7 (3D)", "start": 0},
-      {"id": "todo", "segment": "1101797325", "name": "Не оформлено (я в отпуске) #1101797325", "start": 0}
+      {"id": "sea-of-thieves", "segment": "1101797325", "name": "Sea of Thieves #13 (A Pirate's Life)", "start": 0}
     ]
   },
   "finished": {
@@ -951,8 +951,7 @@
       {"id": "events", "segment": "975061581", "name": "Игровые коллекции зрителей", "start": 9662},
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0},
       {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village", "start": 0},
-      {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0},
-      {"name": "Не оформлено (я в отпуске)", "id": "todo", "segment": "1101797325"}
+      {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0}
     ]
   },
   "expos": {
