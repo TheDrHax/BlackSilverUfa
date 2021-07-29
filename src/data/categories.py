@@ -31,7 +31,8 @@ class Category:
         for game in games.copy():
             if self.code == game.category:
                 if not game.type:
-                    self.games.add(game)
+                    if len(game.streams) > 0:
+                        self.games.add(game)
                 elif game.type == 'list':
                     self.games.update(game.streams)
 

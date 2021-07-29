@@ -1,11 +1,17 @@
 """Usage:
+  cli [options] stream add <stream>
   cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id> | --direct <url>] [--offset <t>]
   cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--end <t>] [--duration <t>]
   cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>] [--fail-if-cut]
   cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --direct <url>) [--directory <path>]
+  cli [options] game add <game> <category> <name>
+  cli [options] ref add <game> <stream> [<segment>] --name <name> [--start <t>]
   cli [options] copyright mute <stream> <input> <output>
 
 Commands:
+  stream
+    add         Create a new empty stream in streams.json.
+
   segment
     get         Output matching segment in JSON format.
     set         Recreate existing segment with following parameters.
@@ -15,6 +21,12 @@ Commands:
     cuts        Try to detect cuts in YouTube video by comparing it to the
                 fallback source.
 
+  game
+    add         Create a new game without streams.
+
+  ref
+    add         Create a new link between game and segment.
+
   copyright
     mute        Uses ffmpeg to mute all copyrighted segments in the <input>
                 video. Time ranges must be listed in <stream>'s timecodes
@@ -22,9 +34,6 @@ Commands:
 
 Options:
   --dry-run           Do not change anything, just print the result.
-  --commit            Create a new commit in current branch. All changes in
-                      data/{games,streams}.json will be committed.
-                      WARNING: Repository index will not be cleared!
 
 Video sources:
   --youtube <id>      ID of YouTube video that can be used as a source for
@@ -37,6 +46,14 @@ Segment options:
   --duration <t>      Set video duration for more precise segment splitting.
   --end <t>           Forced absolute timecode of segment's ending.
   --unofficial        Mark new segment as unofficial.
+  --commit            Create a new commit in current branch. All changes in
+                      data/{games,streams}.json will be committed.
+                      WARNING: Repository index will not be cleared!
+
+Ref options:
+  --name <name>       Name of the segment reference.
+  --start <t>         Offset of segment reference from the start of the segment.
+                      First ref's offset is always ignored. [default: 0]
 
 Segment matching options:
   --all               Check all streams with at least one unofficial or
@@ -63,9 +80,10 @@ from subprocess import run, PIPE
 from sortedcontainers import SortedList
 from twitch_utils.offset import Clip, find_offset
 
-from ..data.streams import (StreamType, streams, Stream,
+from ..data.streams import (StreamType, SubReference, streams, Stream,
                             Segment, SegmentReference)
-from ..data.games import games
+from ..data.games import games, Game
+from ..data.categories import categories
 from ..data.timecodes import timecodes, Timecode, Timecodes
 from ..data.fallback import fallback
 
@@ -404,6 +422,18 @@ def ytdl_best_source(video_id, quality='best'):
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
+    if args['stream'] and args['add']:
+        stream_id = args['<stream>']
+
+        if stream_id in streams:
+            raise Exception(f'Stream {stream_id} already exists')
+
+        stream = Stream(key=stream_id, data=[{}])
+
+        if not args['--dry-run']:
+            streams[stream_id] = stream
+            streams.save()
+
     if args['segment']:
         stream_id = args['<stream>']
         segment_id = int(args.get('<segment>') or 0)
@@ -489,6 +519,69 @@ def main(argv=None):
                 repo.index.commit(commit_msg)
 
         print(stream)
+
+    if args['game'] and args['add']:
+        game_id = args['<game>']
+        category_id = args['<category>']
+        name = args['<name>']
+
+        if game_id in [game.id for game in games]:
+            raise Exception(f'Game {game_id} already exists')
+
+        if category_id not in categories:
+            raise Exception(f'Category {category_id} does not exist')
+
+        game = Game(name=name, category=category_id, id=game_id)
+        games.append(game)
+
+        if not args['--dry-run']:
+            games.save()
+
+        print(game)
+
+    if args['ref'] and args['add']:
+        game_id = args['<game>']
+        stream_id = args['<stream>']
+        segment_id = int(args['<segment>'] or 0)
+        name = args['--name']
+        start = Timecode(args['--start'] or 0)
+
+        game = list([game for game in games if game.id == game_id])
+
+        if len(game) == 0:
+            raise Exception(f'Game {game_id} does not exist')
+        else:
+            game = game[0]
+
+        if stream_id not in streams:
+            raise Exception(f'Stream {stream_id} does not exist')
+
+        stream = streams[stream_id]
+
+        if segment_id > 0 and len(stream) < segment_id + 1:
+            raise Exception(f'Segment {stream_id}.{segment_id} does not exist')
+
+        segment = stream[segment_id]
+
+        ref = list([ref for ref in game.streams if ref.parent == segment])
+
+        if len(ref) > 0:
+            ref = ref[0]
+
+            if len([sr for sr in ref.subrefs if sr.start == start]) > 0:
+                raise Exception(f'Subref with start at {start} already exists')
+
+            SubReference(name=name, start=start, parent=ref)
+        else:
+            ref = SegmentReference(game=game, parent=segment,
+                                   name=name, start=start)
+
+            game.streams.append(ref)
+
+        if not args['--dry-run']:
+            games.save()
+
+        print(ref)
 
     if args['copyright'] and args['mute']:
         tc = timecodes[args['<stream>']]

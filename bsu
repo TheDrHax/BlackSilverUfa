@@ -219,7 +219,7 @@ case $1 in
     cli)
         shift
         venv_setup cli-requirements.txt silent
-        $PYTHON -m src.utils.cli $@ ;;
+        $PYTHON -m src.utils.cli "$@" ;;
     repl) $PYTHON -i -m src.utils.repl ;;
     script) shift; $PYTHON -m src.scripts.$@ ;;
     python) shift; $PYTHON $@ ;;
