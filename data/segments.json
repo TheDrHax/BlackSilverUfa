@@ -7565,15 +7565,12 @@
     "youtube": "EcIgPuaoCk0", "official": false, "abs_start": "0:00", "abs_end": "2:32:54", "duration": "2:32:54",
     "name": "Operation: Tango #2",
     "date": "2021-06-03",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1044665544.torrent",
     "games": ["op-tango"]
   },
   "1045525867": {
     "abs_start": "0:00", "abs_end": "5:02:45", "duration": "0:00",
     "name": "",
     "date": "2021-06-04",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1045525867.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1045525867.torrent",
     "games": []
   },
   "1045800801": {
@@ -7998,5 +7995,13 @@
     "date": "2021-07-29",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1101797325.torrent",
     "games": ["sea-of-thieves"]
+  },
+  "1102702263": {
+    "abs_start": "0:00", "abs_end": "6:50:35", "duration": "0:00",
+    "name": "Не оформлено (я в отпуске) #1102702263",
+    "date": "2021-07-30",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1102702263.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1102702263.torrent",
+    "games": ["todo"]
   }
 }
