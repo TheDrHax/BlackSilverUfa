@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1092418023", "name": "Death's Door / Underwater / I'm on Observation Duty / Сетапы зрителей #6 / Raid: Shadow Legends", "start": 0},
       {"id": "tloz-sshd", "segment": "1093482724,1093514203", "name": "The Legend of Zelda: Skyward Sword HD #2", "start": 0},
       {"id": "demons-souls-remake", "segment": "1093719957,1093732841", "name": "Demon's Souls Remake - Тестовый стрим (NG+)", "start": 0},
       {"id": "first", "segment": "1095567001,1095811167", "name": "Noosphere / I'm on Observation Duty 2 / Ghost Hunters Corp / GeoGuessr #9", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "single", "segment": "1099599998", "name": "Z Mutants / Summer of '58 / From Day To Day (демо)", "start": 0},
       {"id": "grounded", "segment": "1100650264", "name": "Grounded #7 (3D)", "start": 0},
       {"id": "sea-of-thieves", "segment": "1101797325", "name": "Sea of Thieves #13 (A Pirate's Life)", "start": 0},
-      {"id": "todo", "segment": "1102702263", "name": "Не оформлено (я в отпуске) #1102702263", "start": 0}
+      {"id": "todo", "segment": "1102702263", "name": "Не оформлено (я в отпуске) #1102702263", "start": 0},
+      {"id": "todo", "segment": "1103759348", "name": "Не оформлено (я в отпуске) #1103759348", "start": 0}
     ]
   },
   "finished": {
