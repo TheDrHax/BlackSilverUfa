@@ -7577,8 +7577,6 @@
     "abs_start": "0:00", "abs_end": "3:24", "duration": "0:00",
     "name": "",
     "date": "2021-06-04",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1045800801.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1045800801.torrent",
     "games": []
   },
   "1045525867,1045800801": {
@@ -7592,7 +7590,6 @@
     "youtube": "OQRi6ofHe-8", "official": false, "abs_start": "0:00", "abs_end": "7:10:44", "duration": "7:10:44",
     "name": "Resident Evil 6 #4 (Джейк, Ада)",
     "date": "2021-06-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1046577531.torrent",
     "games": ["re6"]
   },
   "1048673954": {
@@ -8009,6 +8006,14 @@
     "date": "2021-07-31",
     "direct": "https://bsufiles.thedrhax.pw/streams/1103759348.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1103759348.torrent",
+    "games": ["todo"]
+  },
+  "1105750453": {
+    "abs_start": "0:00", "abs_end": "7:03:20", "duration": "0:00",
+    "name": "Не оформлено (я в отпуске) #1105750453",
+    "date": "2021-08-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1105750453.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1105750453.torrent",
     "games": ["todo"]
   }
 }
