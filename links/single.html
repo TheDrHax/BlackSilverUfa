@@ -7591,11 +7591,6 @@
         <i class="fas fa-comments"></i> 21149
       </a>
     </span>
-    <span class="badge badge-warning">
-      <a href="https://www.youtube.com/watch?v=J8SuXsPJUwM" target="_blank">
-        <i class="fab fa-youtube"></i> J8SuXsPJUwM
-      </a>
-    </span>
     <span class="badge badge-danger">
       <a href="https://bsufiles.thedrhax.pw/streams/1099599998.torrent">
         <i class="fas fa-download"></i> торрент
@@ -7690,13 +7685,19 @@
 </ul>
 
 <div class="video-row d-flex justify-content-center">
-  <p class="stream" data-id="93" data-hash="1099599998" data-subtitles="https://blackufa.thedrhax.pw/chats/2021/v1099599998.ass" data-name="Z Mutants / Summer of '58 / From Day To Day (демо)" data-youtube="J8SuXsPJUwM" />
+  <p class="stream" data-id="93" data-hash="1099599998" data-subtitles="https://blackufa.thedrhax.pw/chats/2021/v1099599998.ass" data-name="Z Mutants / Summer of '58 / From Day To Day (демо)" data-direct="https://bsufiles.thedrhax.pw/streams/1099599998.mp4" />
 </div>
 
 
 
 <div class="highlighter-rouge">
-  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/2021/v1099599998.ass ytdl://J8SuXsPJUwM
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/2021/v1099599998.ass https://bsufiles.thedrhax.pw/streams/1099599998.mp4
+</code></pre>
+</div>
+
+
+<div class="highlighter-rouge">
+  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/2021/v1099599998.ass" --player-passthrough hls twitch.tv/videos/1099599998 best
 </code></pre>
 </div>
 
