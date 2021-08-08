@@ -94,11 +94,6 @@
         <i class="fas fa-comments"></i> 24042
       </a>
     </span>
-    <span class="badge badge-success">
-      <a href="https://www.youtube.com/watch?v=O0nnLNMHF7c" target="_blank">
-        <i class="fab fa-youtube"></i> O0nnLNMHF7c
-      </a>
-    </span>
     <span class="badge badge-danger">
       <a href="https://bsufiles.thedrhax.pw/streams/1102702263.torrent">
         <i class="fas fa-download"></i> торрент
@@ -111,13 +106,19 @@
 </ul>
 
 <div class="video-row d-flex justify-content-center">
-  <p class="stream" data-id="0" data-hash="1102702263" data-subtitles="https://blackufa.thedrhax.pw/chats/2021/v1102702263.ass" data-name="1102702263" data-youtube="O0nnLNMHF7c" />
+  <p class="stream" data-id="0" data-hash="1102702263" data-subtitles="https://blackufa.thedrhax.pw/chats/2021/v1102702263.ass" data-name="1102702263" data-direct="https://bsufiles.thedrhax.pw/streams/1102702263.mp4" />
 </div>
 
 
 
 <div class="highlighter-rouge">
-  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/2021/v1102702263.ass ytdl://O0nnLNMHF7c
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/2021/v1102702263.ass https://bsufiles.thedrhax.pw/streams/1102702263.mp4
+</code></pre>
+</div>
+
+
+<div class="highlighter-rouge">
+  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/2021/v1102702263.ass" --player-passthrough hls twitch.tv/videos/1102702263 best
 </code></pre>
 </div>
 
