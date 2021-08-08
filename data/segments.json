@@ -7625,7 +7625,6 @@
     "name": "Chivalry 2 #3 / неПрофессиональный E3 2021 - Summer Game Fest",
     "date": "2021-06-10",
     "offsets": [0, 16657, 20651],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1051795746,1052015039,1052084349.torrent",
     "games": ["chivalry-2", "e3_2021"]
   },
   "1052761973": {
@@ -8030,6 +8029,14 @@
     "name": "Не оформлено (я в отпуске) #1109866143",
     "date": "2021-08-06",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1109866143.torrent",
+    "games": ["todo"]
+  },
+  "1111966540": {
+    "abs_start": "0:00", "abs_end": "6:35:49", "duration": "0:00",
+    "name": "Не оформлено (я в отпуске) #1111966540",
+    "date": "2021-08-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1111966540.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1111966540.torrent",
     "games": ["todo"]
   }
 }

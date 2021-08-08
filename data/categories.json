@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "grounded", "segment": "1098539430", "name": "Grounded #6 (3D)", "start": 0},
       {"id": "single", "segment": "1099599998", "name": "Z Mutants / Summer of '58 / From Day To Day (демо)", "start": 0},
       {"id": "grounded", "segment": "1100650264", "name": "Grounded #7 (3D)", "start": 0},
       {"id": "sea-of-thieves", "segment": "1101797325", "name": "Sea of Thieves #13 (A Pirate's Life)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "todo", "segment": "1105750453", "name": "Не оформлено (я в отпуске) #1105750453", "start": 0},
       {"id": "todo", "segment": "1106771829", "name": "Не оформлено (я в отпуске) #1106771829", "start": 0},
       {"id": "todo", "segment": "1108872519", "name": "Не оформлено (я в отпуске) #1108872519", "start": 0},
-      {"id": "todo", "segment": "1109866143", "name": "Не оформлено (я в отпуске) #1109866143", "start": 0}
+      {"id": "todo", "segment": "1109866143", "name": "Не оформлено (я в отпуске) #1109866143", "start": 0},
+      {"id": "todo", "segment": "1111966540", "name": "Не оформлено (я в отпуске) #1111966540", "start": 0}
     ]
   },
   "finished": {
