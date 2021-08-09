@@ -7,7 +7,7 @@
       {"id": "grounded", "segment": "1100650264", "name": "Grounded #7 (3D)", "start": 0},
       {"id": "sea-of-thieves", "segment": "1101797325", "name": "Sea of Thieves #13 (A Pirate's Life)", "start": 0},
       {"id": "first", "segment": "1102702263", "name": "Microsoft Flight Simulator / The Ascent / I'm on Observation Duty - Часть 2 #2 / I'm on Observation Duty - Часть 3", "start": 0},
-      {"id": "todo", "segment": "1103759348", "name": "Не оформлено (я в отпуске) #1103759348", "start": 0},
+      {"id": "fallout-76", "segment": "1103759348", "name": "Fallout 76 #2 (с Дашей и Джеком)", "start": 0},
       {"id": "todo", "segment": "1105750453", "name": "Не оформлено (я в отпуске) #1105750453", "start": 0},
       {"id": "todo", "segment": "1106771829", "name": "Не оформлено (я в отпуске) #1106771829", "start": 0},
       {"id": "todo", "segment": "1108872519", "name": "Не оформлено (я в отпуске) #1108872519", "start": 0},
@@ -378,7 +378,6 @@
       {"id": "first", "segment": "323817086", "name": "Max Payne: Блэк Эдишн", "start": 0},
       {"id": "first", "segment": "326381815", "name": "Thronebreaker: The Witcher Tales", "start": 0},
       {"id": "first", "segment": "332769459", "name": "Total Chaos", "start": 0},
-      {"id": "first", "segment": "335751293", "name": "Fallout 76", "start": 0},
       {"id": "first", "segment": "337051811", "name": "Pokemon: Let's Go, Pikachu!", "start": 0},
       {"id": "first", "segment": "338345713.1", "name": "Metal Gear Solid 3: Snake Eater", "start": 0},
       {"id": "first", "segment": "340934900", "name": "Darksiders 3", "start": 0},
@@ -611,6 +610,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Fallout 76", "id": "fallout-76", "segment": "335751293"},
       {"name": "Chernobylite", "id": "chernobylite", "segment": "495362547,495449259"},
       {"name": "Genshin Impact", "id": "genshin-impact", "segment": "1072311121"},
       {"name": "The Legend of Zelda: Skyward Sword HD", "id": "tloz-sshd", "segment": "1089427413"}
@@ -953,7 +953,7 @@
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0},
       {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village", "start": 0},
       {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0},
-      {"name": "Не оформлено (я в отпуске)", "id": "todo", "segment": "1103759348"}
+      {"name": "Не оформлено (я в отпуске)", "id": "todo", "segment": "1105750453"}
     ]
   },
   "expos": {
