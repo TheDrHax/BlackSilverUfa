@@ -6,7 +6,7 @@
       {"id": "single", "segment": "1099599998", "name": "Z Mutants / Summer of '58 / From Day To Day (демо)", "start": 0},
       {"id": "grounded", "segment": "1100650264", "name": "Grounded #7 (3D)", "start": 0},
       {"id": "sea-of-thieves", "segment": "1101797325", "name": "Sea of Thieves #13 (A Pirate's Life)", "start": 0},
-      {"id": "todo", "segment": "1102702263", "name": "Не оформлено (я в отпуске) #1102702263", "start": 0},
+      {"id": "first", "segment": "1102702263", "name": "Microsoft Flight Simulator / The Ascent / I'm on Observation Duty - Часть 2 #2 / I'm on Observation Duty - Часть 3", "start": 0},
       {"id": "todo", "segment": "1103759348", "name": "Не оформлено (я в отпуске) #1103759348", "start": 0},
       {"id": "todo", "segment": "1105750453", "name": "Не оформлено (я в отпуске) #1105750453", "start": 0},
       {"id": "todo", "segment": "1106771829", "name": "Не оформлено (я в отпуске) #1106771829", "start": 0},
@@ -601,11 +601,11 @@
       {"id": "first", "segment": "1086385946,1086545283", "name": "Farmer's Life: Prologue", "start": 0},
       {"id": "first", "segment": "1092418023", "name": "Death's Door", "start": 0},
       {"id": "first", "segment": "1092418023", "name": "Underwater", "start": 4905},
-      {"id": "first", "segment": "1092418023", "name": "I'm on Observation Duty", "start": 6233},
       {"id": "first", "segment": "1092418023", "name": "Raid: Shadow Legends", "start": 17118},
       {"id": "first", "segment": "1095567001,1095811167", "name": "Noosphere", "start": 0},
-      {"id": "first", "segment": "1095567001,1095811167", "name": "I'm on Observation Duty 2", "start": 10223},
-      {"id": "first", "segment": "1095567001,1095811167", "name": "Ghost Hunters Corp", "start": 18448}
+      {"id": "first", "segment": "1095567001,1095811167", "name": "Ghost Hunters Corp", "start": 18448},
+      {"id": "first", "segment": "1102702263", "name": "Microsoft Flight Simulator", "start": 0},
+      {"id": "first", "segment": "1102702263", "name": "The Ascent", "start": 12617}
     ]
   },
   "ongoing": {
@@ -652,7 +652,8 @@
       {"name": "Everspace 2", "id": "everspace-2", "segment": "767249770"},
       {"name": "Noita", "id": "noita", "segment": "772063368"},
       {"name": "SuchArt: Genius Artist Simulator", "id": "suchart", "segment": "912392953"},
-      {"name": "Phantom Abyss", "id": "phantom-abyss", "segment": "1030127769"}
+      {"name": "Phantom Abyss", "id": "phantom-abyss", "segment": "1030127769"},
+      {"name": "I'm on Observation Duty", "id": "observation-duty", "segment": "1092418023"}
     ]
   },
   "abandoned": {
@@ -952,7 +953,7 @@
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0},
       {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village", "start": 0},
       {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0},
-      {"name": "Не оформлено (я в отпуске)", "id": "todo", "segment": "1102702263"}
+      {"name": "Не оформлено (я в отпуске)", "id": "todo", "segment": "1103759348"}
     ]
   },
   "expos": {
