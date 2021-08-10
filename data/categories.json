@@ -10,9 +10,9 @@
       {"id": "fallout-76", "segment": "1103759348", "name": "Fallout 76 #2 (с Дашей и Джеком)", "start": 0},
       {"id": "first", "segment": "1105750453", "name": "Star Wars - Redemption / Farmer's Life #1 / Horror Tales: The Wine #1", "start": 0},
       {"id": "first", "segment": "1106771829", "name": "HighFleet / Horror Tales: The Wine #2 / Deca", "start": 0},
-      {"id": "todo", "segment": "1108872519", "name": "Не оформлено (я в отпуске) #1108872519", "start": 0},
-      {"id": "todo", "segment": "1109866143", "name": "Не оформлено (я в отпуске) #1109866143", "start": 0},
-      {"id": "todo", "segment": "1111966540", "name": "Не оформлено (я в отпуске) #1111966540", "start": 0}
+      {"id": "first", "segment": "1108872519", "name": "LiBER / Сетапы зрителей #7 / Back 4 Blood #1", "start": 0},
+      {"id": "single", "segment": "1109866143", "name": "Trenches / GeoGuessr #10 / Back 4 Blood #2", "start": 0},
+      {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You / GeoGuessr #11 / Camping Simulator / The Greatest Penguin Heist of All Time / Haunt Chaser / Tricky Towers #31", "start": 0}
     ]
   },
   "finished": {
@@ -272,7 +272,8 @@
       {"id": "single", "segment": "1099599998", "name": "Z Mutants", "start": 0},
       {"id": "single", "segment": "1099599998", "name": "Summer of '58", "start": 13274},
       {"id": "single", "segment": "1099599998", "name": "From Day To Day (демо)", "start": 20150},
-      {"name": "Horror Tales: The Wine", "id": "ht-wine", "segment": "1105750453"}
+      {"name": "Horror Tales: The Wine", "id": "ht-wine", "segment": "1105750453"},
+      {"id": "single", "segment": "1109866143", "name": "Trenches", "start": 0}
     ]
   },
   "first": {
@@ -607,7 +608,9 @@
       {"id": "first", "segment": "1102702263", "name": "The Ascent", "start": 12617},
       {"id": "first", "segment": "1105750453", "name": "Star Wars - Redemption", "start": 0},
       {"id": "first", "segment": "1106771829", "name": "HighFleet", "start": 0},
-      {"id": "first", "segment": "1106771829", "name": "Deca", "start": 13360}
+      {"id": "first", "segment": "1106771829", "name": "Deca", "start": 13360},
+      {"id": "first", "segment": "1108872519", "name": "LiBER", "start": 0},
+      {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You", "start": 0}
     ]
   },
   "ongoing": {
@@ -923,7 +926,11 @@
       {"id": "co-op", "segment": "1031432095", "name": "Just Die Already", "start": 0},
       {"id": "co-op", "segment": "1031432095", "name": "A House of Thieves", "start": 4321},
       {"id": "co-op", "segment": "1059978031", "name": "The Red Solstice 2: Survivors", "start": 0},
-      {"id": "co-op", "segment": "1065051420", "name": "Dungeons & Dragons: Dark Alliance", "start": 7630}
+      {"id": "co-op", "segment": "1065051420", "name": "Dungeons & Dragons: Dark Alliance", "start": 7630},
+      {"name": "Back 4 Blood", "id": "b4b", "segment": "1108872519"},
+      {"id": "co-op", "segment": "1111966540", "name": "Camping Simulator", "start": 9894},
+      {"id": "co-op", "segment": "1111966540", "name": "The Greatest Penguin Heist of All Time", "start": 13724},
+      {"id": "co-op", "segment": "1111966540", "name": "Haunt Chaser", "start": 17479}
     ]
   },
   "other": {
@@ -956,8 +963,7 @@
       {"id": "events", "segment": "975061581", "name": "Игровые коллекции зрителей", "start": 9662},
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0},
       {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village", "start": 0},
-      {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0},
-      {"name": "Не оформлено (я в отпуске)", "id": "todo", "segment": "1108872519"}
+      {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0}
     ]
   },
   "expos": {
