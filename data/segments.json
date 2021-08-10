@@ -7608,16 +7608,12 @@
     "abs_start": "0:00", "abs_end": "1:05:51", "duration": "0:00",
     "name": "",
     "date": "2021-06-10",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1052015039.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1052015039.torrent",
     "games": []
   },
   "1052084349": {
     "abs_start": "0:00", "abs_end": "49:33", "duration": "0:00",
     "name": "",
     "date": "2021-06-10",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1052084349.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1052084349.torrent",
     "games": []
   },
   "1051795746,1052015039,1052084349": {
@@ -7631,7 +7627,6 @@
     "youtube": "Pr0IyZpc9Tg", "official": false, "abs_start": "0:00", "abs_end": "6:50:21", "duration": "6:50:21",
     "name": "Ratchet & Clank: Rift Apart #1",
     "date": "2021-06-11",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1052761973.torrent",
     "games": ["rc-rift-apart"]
   },
   "1053861574": {
@@ -8038,5 +8033,13 @@
     "date": "2021-08-08",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1111966540.torrent",
     "games": ["first", "geoguessr", "co-op", "tricky-towers"]
+  },
+  "1113958095": {
+    "abs_start": "0:00", "abs_end": "9:10:49", "duration": "0:00",
+    "name": "Не оформлено (я в отпуске) #1113958095",
+    "date": "2021-08-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1113958095.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1113958095.torrent",
+    "games": ["todo"]
   }
 }
