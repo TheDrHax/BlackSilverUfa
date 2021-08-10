@@ -8,8 +8,8 @@
       {"id": "sea-of-thieves", "segment": "1101797325", "name": "Sea of Thieves #13 (A Pirate's Life)", "start": 0},
       {"id": "first", "segment": "1102702263", "name": "Microsoft Flight Simulator / The Ascent / I'm on Observation Duty - Часть 2 #2 / I'm on Observation Duty - Часть 3", "start": 0},
       {"id": "fallout-76", "segment": "1103759348", "name": "Fallout 76 #2 (с Дашей и Джеком)", "start": 0},
-      {"id": "first", "segment": "1105750453", "name": "Star Wars - Redemption / Farmer's Life #1 / Horror Tales: The Wine", "start": 0},
-      {"id": "todo", "segment": "1106771829", "name": "Не оформлено (я в отпуске) #1106771829", "start": 0},
+      {"id": "first", "segment": "1105750453", "name": "Star Wars - Redemption / Farmer's Life #1 / Horror Tales: The Wine #1", "start": 0},
+      {"id": "first", "segment": "1106771829", "name": "HighFleet / Horror Tales: The Wine #2 / Deca", "start": 0},
       {"id": "todo", "segment": "1108872519", "name": "Не оформлено (я в отпуске) #1108872519", "start": 0},
       {"id": "todo", "segment": "1109866143", "name": "Не оформлено (я в отпуске) #1109866143", "start": 0},
       {"id": "todo", "segment": "1111966540", "name": "Не оформлено (я в отпуске) #1111966540", "start": 0}
@@ -271,7 +271,8 @@
       {"id": "single", "segment": "1091562344", "name": "Fears to Fathom: Home Alone", "start": 6414},
       {"id": "single", "segment": "1099599998", "name": "Z Mutants", "start": 0},
       {"id": "single", "segment": "1099599998", "name": "Summer of '58", "start": 13274},
-      {"id": "single", "segment": "1099599998", "name": "From Day To Day (демо)", "start": 20150}
+      {"id": "single", "segment": "1099599998", "name": "From Day To Day (демо)", "start": 20150},
+      {"name": "Horror Tales: The Wine", "id": "ht-wine", "segment": "1105750453"}
     ]
   },
   "first": {
@@ -605,7 +606,8 @@
       {"id": "first", "segment": "1102702263", "name": "Microsoft Flight Simulator", "start": 0},
       {"id": "first", "segment": "1102702263", "name": "The Ascent", "start": 12617},
       {"id": "first", "segment": "1105750453", "name": "Star Wars - Redemption", "start": 0},
-      {"id": "first", "segment": "1105750453", "name": "Horror Tales: The Wine", "start": 13138}
+      {"id": "first", "segment": "1106771829", "name": "HighFleet", "start": 0},
+      {"id": "first", "segment": "1106771829", "name": "Deca", "start": 13360}
     ]
   },
   "ongoing": {
@@ -955,7 +957,7 @@
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0},
       {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village", "start": 0},
       {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0},
-      {"name": "Не оформлено (я в отпуске)", "id": "todo", "segment": "1106771829"}
+      {"name": "Не оформлено (я в отпуске)", "id": "todo", "segment": "1108872519"}
     ]
   },
   "expos": {
