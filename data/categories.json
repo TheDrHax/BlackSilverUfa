@@ -12,7 +12,7 @@
       {"id": "first", "segment": "1108872519", "name": "LiBER / Сетапы зрителей #7 / Back 4 Blood #1", "start": 0},
       {"id": "single", "segment": "1109866143", "name": "Trenches / GeoGuessr #10 / Back 4 Blood #2", "start": 0},
       {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You / GeoGuessr #11 / Camping Simulator / The Greatest Penguin Heist of All Time / Haunt Chaser / Tricky Towers #31", "start": 0},
-      {"id": "todo", "segment": "1113958095", "name": "Не оформлено (я в отпуске) #1113958095", "start": 0}
+      {"id": "first", "segment": "1113958095", "name": "ColdSide / Не оформлено (я в отпуске) #1113958095 / Almost My Floor / SCP Terror Hunt", "start": 0}
     ]
   },
   "finished": {
@@ -610,7 +610,10 @@
       {"id": "first", "segment": "1106771829", "name": "HighFleet", "start": 0},
       {"id": "first", "segment": "1106771829", "name": "Deca", "start": 13360},
       {"id": "first", "segment": "1108872519", "name": "LiBER", "start": 0},
-      {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You", "start": 0}
+      {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You", "start": 0},
+      {"id": "first", "segment": "1113958095", "name": "ColdSide", "start": 0},
+      {"id": "first", "segment": "1113958095", "name": "Almost My Floor", "start": 9826},
+      {"id": "first", "segment": "1113958095", "name": "SCP Terror Hunt", "start": 16668}
     ]
   },
   "ongoing": {
