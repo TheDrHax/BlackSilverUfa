@@ -12,7 +12,7 @@
       {"id": "first", "segment": "1108872519", "name": "LiBER / Сетапы зрителей #7 / Back 4 Blood #1", "start": 0},
       {"id": "single", "segment": "1109866143", "name": "Trenches / GeoGuessr #10 / Back 4 Blood #2", "start": 0},
       {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You / GeoGuessr #11 / Camping Simulator / The Greatest Penguin Heist of All Time / Haunt Chaser / Tricky Towers #31", "start": 0},
-      {"id": "first", "segment": "1113958095", "name": "ColdSide / Не оформлено (я в отпуске) #1113958095 / Almost My Floor / SCP Terror Hunt", "start": 0}
+      {"id": "first", "segment": "1113958095", "name": "ColdSide / Almost My Floor / SCP Terror Hunt", "start": 0}
     ]
   },
   "finished": {
@@ -966,8 +966,7 @@
       {"id": "events", "segment": "975061581", "name": "Игровые коллекции зрителей", "start": 9662},
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0},
       {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village", "start": 0},
-      {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0},
-      {"name": "Не оформлено (я в отпуске)", "id": "todo", "segment": "1113958095"}
+      {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0}
     ]
   },
   "expos": {
