@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1102702263", "name": "Microsoft Flight Simulator / The Ascent / I'm on Observation Duty - Часть 2 #2 / I'm on Observation Duty - Часть 3", "start": 0},
       {"id": "fallout-76", "segment": "1103759348", "name": "Fallout 76 #2 (с Дашей и Джеком)", "start": 0},
       {"id": "first", "segment": "1105750453", "name": "Star Wars - Redemption / Farmer's Life #1 / Horror Tales: The Wine #1", "start": 0},
       {"id": "first", "segment": "1106771829", "name": "HighFleet / Horror Tales: The Wine #2 / Deca", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You / GeoGuessr #11 / Camping Simulator / The Greatest Penguin Heist of All Time / Haunt Chaser / Tricky Towers #31", "start": 0},
       {"id": "first", "segment": "1113958095", "name": "ColdSide / Almost My Floor #1 / SCP Terror Hunt #1", "start": 0},
       {"id": "first", "segment": "1114974794", "name": "Glitchpunk / Almost My Floor #2 / SCP Terror Hunt #2", "start": 0},
-      {"id": "events", "segment": "1115988176", "name": "Розыгрыш Final Fantasy / SCP Terror Hunt #3 / Back 4 Blood #3 (Артём, Дима)", "start": 0}
+      {"id": "events", "segment": "1115988176", "name": "Розыгрыш Final Fantasy / SCP Terror Hunt #3 / Back 4 Blood #3 (Артём, Дима)", "start": 0},
+      {"id": "first", "segment": "1117002114", "name": "VoidTrain / Phasmophobia #6 (с Куплиновым и Дангаром)", "start": 0}
     ]
   },
   "finished": {
@@ -613,7 +613,8 @@
       {"id": "first", "segment": "1108872519", "name": "LiBER", "start": 0},
       {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You", "start": 0},
       {"id": "first", "segment": "1113958095", "name": "ColdSide", "start": 0},
-      {"id": "first", "segment": "1114974794", "name": "Glitchpunk", "start": 0}
+      {"id": "first", "segment": "1114974794", "name": "Glitchpunk", "start": 0},
+      {"id": "first", "segment": "1117002114", "name": "VoidTrain", "start": 0}
     ]
   },
   "ongoing": {
