@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "fallout-76", "segment": "1103759348", "name": "Fallout 76 #2 (с Дашей и Джеком)", "start": 0},
       {"id": "first", "segment": "1105750453", "name": "Star Wars - Redemption / Farmer's Life #1 / Horror Tales: The Wine #1", "start": 0},
       {"id": "first", "segment": "1106771829", "name": "HighFleet / Horror Tales: The Wine #2 / Deca", "start": 0},
       {"id": "first", "segment": "1108872519", "name": "LiBER / Сетапы зрителей #7 / Back 4 Blood #1 (Артём, Даша, Таня)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1113958095", "name": "ColdSide / Almost My Floor #1 / SCP Terror Hunt #1", "start": 0},
       {"id": "first", "segment": "1114974794", "name": "Glitchpunk / Almost My Floor #2 / SCP Terror Hunt #2", "start": 0},
       {"id": "events", "segment": "1115988176", "name": "Розыгрыш Final Fantasy / SCP Terror Hunt #3 / Back 4 Blood #3 (Артём, Дима)", "start": 0},
-      {"id": "first", "segment": "1117002114", "name": "VoidTrain / Phasmophobia #6 (с Куплиновым и Дангаром)", "start": 0}
+      {"id": "first", "segment": "1117002114", "name": "VoidTrain / Phasmophobia #6 (с Куплиновым и Дангаром)", "start": 0},
+      {"id": "bigfoot", "segment": "1119090442", "name": "Bigfoot #3 / Chivalry 2 #6", "start": 0}
     ]
   },
   "finished": {
@@ -621,7 +621,6 @@
     "name": "Активные",
     "games": [
       {"name": "Fallout 76", "id": "fallout-76", "segment": "335751293"},
-      {"name": "Chernobylite", "id": "chernobylite", "segment": "495362547,495449259"},
       {"name": "Genshin Impact", "id": "genshin-impact", "segment": "1072311121"},
       {"name": "Farmer's Life", "id": "farmers-life", "segment": "1086385946,1086545283"},
       {"name": "The Legend of Zelda: Skyward Sword HD", "id": "tloz-sshd", "segment": "1089427413"}
@@ -714,6 +713,7 @@
       {"name": "Astral Chain", "id": "astral-chain", "segment": "479485735"},
       {"name": "The Legend of Zelda: Link's Awakening", "id": "tloz-la", "segment": "483918141"},
       {"name": "The Surge 2", "id": "surge-2", "segment": "485417805.1"},
+      {"name": "Chernobylite", "id": "chernobylite", "segment": "495362547,495449259"},
       {"name": "The Outer Worlds", "id": "outer-worlds", "segment": "498426882"},
       {"name": "Luigi's Mansion 3", "id": "luigis-mansion-3", "segment": "502082379"},
       {"name": "Nioh 2", "id": "nioh-2", "segment": "502940448"},
