@@ -7,9 +7,9 @@ import Matomo from '../../matomo';
 import { filterByText, tokenize } from '../../utils/search';
 // Hooks
 import { useComplexState } from '../../hooks/use-complex-state';
+import { useTitle } from '../../hooks/use-title';
 // Namespace
 import { searchPage as t } from '../../constants/texts';
-import config from '../../../../config/config.json';
 // Components
 import { Layout } from '../../components';
 import ControlPanel from './control-panel';
@@ -92,11 +92,6 @@ const SearchPage = () => {
   const [sorting, updateSorting] = useComplexState(INIT_SORTING);
   const [results, updateResults] = useComplexState(INIT_RESULTS);
 
-  const loadData = () => Data.then(({ segments, categories, index }) => {
-    setData({ index, segments, categories: convertCategories(categories.data) });
-    setLoading(false);
-  });
-
   const submitForm = (event) => {
     event?.preventDefault();
 
@@ -105,10 +100,14 @@ const SearchPage = () => {
     if (event) reportSearchEvent(mode, filters.text, results.length);
   };
 
+  useTitle(t.title);
+
   useEffect(() => {
-    document.title = `${t.title} | ${config.title}`;
     Matomo.trackPageView();
-    loadData();
+    Data.then(({ segments, categories, index }) => {
+      setData({ index, segments, categories: convertCategories(categories.data) });
+      setLoading(false);
+    });
   }, []);
 
   useEffect(() => {
