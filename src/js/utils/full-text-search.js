@@ -1,3 +1,4 @@
+// TODO: remove when all usages will be replaced with search/tokenize @zaprvalcer
 export function tokenize(string) {
   return string.trim().split(' ').map((word) => {
     const match = word.toLowerCase().match(/[a-zа-я0-9]+/g);
@@ -5,6 +6,7 @@ export function tokenize(string) {
   });
 }
 
+// TODO: remove when all usages will be replaced with search/filterByQuery @zaprvalcer
 export default function fts(query, items, lambda) {
   query = tokenize(query);
   let maxRank = 0;

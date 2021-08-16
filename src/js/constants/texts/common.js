@@ -1,4 +1,4 @@
-export default {
+export const common = {
   notFoundTitle: 'Страница не найдена',
   returnToMain: 'Вернуться на главную',
   footer: {

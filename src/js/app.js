@@ -9,10 +9,10 @@ import {
 import { ReactRouterGlobalHistory } from 'react-router-global-history';
 import { Button } from 'react-bootstrap';
 // Namespace
-import t from './constants/texts';
+import { common as t } from './constants/texts';
 import PATHS from './constants/urls';
 // Components
-import HomePage from './components/interactive-search';
+import { SearchPage } from './pages';
 import GamePage from './components/game';
 import PlayerPage from './components/segment-player';
 import { RedirectLinks, RedirectR } from './components/redirects';
@@ -29,13 +29,9 @@ const App = () => (
       <Route
         exact
         path={PATHS.HOME}
-        render={({ location }) => {
-          if (location.hash.startsWith('#/')) {
-            return <Redirect to={location.hash.substring(1)} />;
-          } else {
-            return <HomePage />;
-          }
-        }}
+        render={({ location }) => (location.hash.startsWith('#/')
+          ? <Redirect to={location.hash.substring(1)} />
+          : <SearchPage />)}
       />
       <Route path="*">
         <BasePage flex>

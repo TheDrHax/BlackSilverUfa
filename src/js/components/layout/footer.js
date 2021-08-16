@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import FooterLinksGroup from './footer-links-group';
 // Namespace
-import t from '../../constants/texts';
+import { common as t } from '../../constants/texts';
 // Utils
 import { interpolate } from '../../utils/text';
 

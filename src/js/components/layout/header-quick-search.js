@@ -5,7 +5,7 @@ import { AsyncTypeahead } from 'react-bootstrap-typeahead';
 import { Form } from 'react-bootstrap';
 // Namespace
 import PropTypes from 'prop-types';
-import t from '../../constants/texts';
+import { common as t } from '../../constants/texts';
 // Utils
 import Matomo from '../../matomo';
 import fts from '../../utils/full-text-search';
