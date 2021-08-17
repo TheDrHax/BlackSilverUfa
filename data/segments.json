@@ -7658,7 +7658,6 @@
     "youtube": "jpY7X2Ed0zs", "official": false, "abs_start": "0:00", "abs_end": "2:31:00", "duration": "2:31:00",
     "name": "Розыгрыш Resident Evil Village / Chivalry 2 #4 (часть 1)",
     "date": "2021-06-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1054943681.torrent",
     "games": ["events", "chivalry-2"]
   },
   "1055052153": {
@@ -8059,5 +8058,13 @@
     "date": "2021-08-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1119090442.torrent",
     "games": ["bigfoot", "chivalry-2"]
+  },
+  "1120971330": {
+    "abs_start": "0:00", "abs_end": "6:08:00", "duration": "0:00",
+    "name": "Humankind / Road 96",
+    "date": "2021-08-17",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1120971330.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1120971330.torrent",
+    "games": ["first"]
   }
 }
