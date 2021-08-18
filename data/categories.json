@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1106771829", "name": "HighFleet / Horror Tales: The Wine #2 / Deca", "start": 0},
       {"id": "first", "segment": "1108872519", "name": "LiBER / Сетапы зрителей #7 / Back 4 Blood #1 (Артём, Даша, Таня)", "start": 0},
       {"id": "single", "segment": "1109866143", "name": "Trenches / GeoGuessr #10 / Back 4 Blood #2 (Артём, Даша, Таня)", "start": 0},
       {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You / GeoGuessr #11 / Camping Simulator / The Greatest Penguin Heist of All Time / Haunt Chaser / Tricky Towers #31", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "events", "segment": "1115988176", "name": "Розыгрыш Final Fantasy / SCP Terror Hunt #3 / Back 4 Blood #3 (Артём, Дима)", "start": 0},
       {"id": "first", "segment": "1117002114", "name": "VoidTrain / Phasmophobia #6 (с Куплиновым и Дангаром)", "start": 0},
       {"id": "bigfoot", "segment": "1119090442", "name": "Bigfoot #3 / Chivalry 2 #6", "start": 0},
-      {"id": "first", "segment": "1120971330", "name": "Humankind / Road 96", "start": 0}
+      {"id": "first", "segment": "1120971330", "name": "Humankind / Road 96 #1", "start": 0},
+      {"id": "other", "segment": "1122010713", "name": "15 лет Republic of Gamers / Road 96 #2", "start": 0}
     ]
   },
   "finished": {
@@ -274,7 +274,8 @@
       {"id": "single", "segment": "1099599998", "name": "From Day To Day (демо)", "start": 20150},
       {"name": "Horror Tales: The Wine", "id": "ht-wine", "segment": "1105750453"},
       {"id": "single", "segment": "1109866143", "name": "Trenches", "start": 0},
-      {"name": "Almost My Floor", "id": "amfloor", "segment": "1113958095"}
+      {"name": "Almost My Floor", "id": "amfloor", "segment": "1113958095"},
+      {"name": "Road 96", "id": "road-96", "segment": "1120971330"}
     ]
   },
   "first": {
@@ -615,8 +616,7 @@
       {"id": "first", "segment": "1113958095", "name": "ColdSide", "start": 0},
       {"id": "first", "segment": "1114974794", "name": "Glitchpunk", "start": 0},
       {"id": "first", "segment": "1117002114", "name": "VoidTrain", "start": 0},
-      {"id": "first", "segment": "1120971330", "name": "Humankind", "start": 0},
-      {"id": "first", "segment": "1120971330", "name": "Road 96", "start": 12489}
+      {"id": "first", "segment": "1120971330", "name": "Humankind", "start": 0}
     ]
   },
   "ongoing": {
@@ -971,7 +971,8 @@
       {"id": "events", "segment": "1025736815", "name": "Розыгрыш ROG Gladius III", "start": 0},
       {"id": "events", "segment": "1054943681", "name": "Розыгрыш Resident Evil Village", "start": 0},
       {"id": "events", "segment": "1081385499,1081403044", "name": "Розыгрыш Dying Light", "start": 0},
-      {"id": "events", "segment": "1115988176", "name": "Розыгрыш Final Fantasy", "start": 0}
+      {"id": "events", "segment": "1115988176", "name": "Розыгрыш Final Fantasy", "start": 0},
+      {"id": "other", "segment": "1122010713", "name": "15 лет Republic of Gamers", "start": 0}
     ]
   },
   "expos": {
