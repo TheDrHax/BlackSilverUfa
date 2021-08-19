@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1108872519", "name": "LiBER / Сетапы зрителей #7 / Back 4 Blood #1 (Артём, Даша, Таня)", "start": 0},
       {"id": "single", "segment": "1109866143", "name": "Trenches / GeoGuessr #10 / Back 4 Blood #2 (Артём, Даша, Таня)", "start": 0},
       {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You / GeoGuessr #11 / Camping Simulator / The Greatest Penguin Heist of All Time / Haunt Chaser / Tricky Towers #31", "start": 0},
       {"id": "first", "segment": "1113958095", "name": "ColdSide / Almost My Floor #1 / SCP Terror Hunt #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1117002114", "name": "VoidTrain / Phasmophobia #6 (с Куплиновым и Дангаром)", "start": 0},
       {"id": "bigfoot", "segment": "1119090442", "name": "Bigfoot #3 / Chivalry 2 #6", "start": 0},
       {"id": "first", "segment": "1120971330", "name": "Humankind / Road 96 #1", "start": 0},
-      {"id": "other", "segment": "1122010713", "name": "15 лет Republic of Gamers / Road 96 #2", "start": 0}
+      {"id": "other", "segment": "1122010713", "name": "15 лет Republic of Gamers / Road 96 #2", "start": 0},
+      {"id": "scp-terror-hunt", "segment": "1123005766", "name": "SCP Terror Hunt #4 / Twelve Minutes", "start": 0}
     ]
   },
   "finished": {
@@ -275,7 +275,8 @@
       {"name": "Horror Tales: The Wine", "id": "ht-wine", "segment": "1105750453"},
       {"id": "single", "segment": "1109866143", "name": "Trenches", "start": 0},
       {"name": "Almost My Floor", "id": "amfloor", "segment": "1113958095"},
-      {"name": "Road 96", "id": "road-96", "segment": "1120971330"}
+      {"name": "Road 96", "id": "road-96", "segment": "1120971330"},
+      {"id": "single", "segment": "1123005766", "name": "Twelve Minutes", "start": 10717}
     ]
   },
   "first": {
