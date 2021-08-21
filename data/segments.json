@@ -7676,7 +7676,6 @@
     "youtube": "pbBjB4JGjwo", "official": false, "abs_start": "0:00", "abs_end": "1:55:58", "duration": "1:55:58",
     "name": "Sable (демо) / неПрофессиональный E3 2021 - Nintendo Direct",
     "date": "2021-06-15",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1056977056.torrent",
     "games": ["first", "e3_2021"]
   },
   "1059978031": {
@@ -7932,11 +7931,11 @@
   },
   "1095567001,1095811167": {
     "youtube": "piRhL5DGUnw", "official": false, "abs_start": "0:00", "abs_end": "6:26:40", "duration": "6:26:40",
-    "name": "Noosphere / I'm on Observation Duty - Часть 2 #1 / Ghost Hunters Corp / GeoGuessr #9",
+    "name": "Noosphere / I'm on Observation Duty - Часть 2 #1 / Ghost Hunters Corp #1 / GeoGuessr #9",
     "date": "2021-07-23",
     "offsets": [0, 19538],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1095567001,1095811167.torrent",
-    "games": ["first", "observation-duty", "geoguessr"]
+    "games": ["first", "observation-duty", "ghcorp", "geoguessr"]
   },
   "1096585533": {
     "youtube": "w9UQFuMiblg", "abs_start": "0:00", "abs_end": "6:55:20", "duration": "6:55:20",
@@ -8077,5 +8076,13 @@
     "date": "2021-08-19",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1123005766.torrent",
     "games": ["scp-terror-hunt", "single"]
+  },
+  "1125116646": {
+    "abs_start": "0:00", "abs_end": "3:54:10", "duration": "0:00",
+    "name": "ROG Zephyrus G14 Alan Walker / Phasmophobia #7 (с Куплиновым и Дангаром) / Ghost Hunters Corp #2",
+    "date": "2021-08-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1125116646.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1125116646.torrent",
+    "games": ["unboxing", "phasmophobia", "ghcorp"]
   }
 }
