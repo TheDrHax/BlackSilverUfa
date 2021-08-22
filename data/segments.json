@@ -3595,9 +3595,9 @@
   },
   "389704750": {
     "youtube": "FlaZjFimwhg", "official": false, "abs_start": "0:00", "abs_end": "5:15:00", "duration": "5:15:00",
-    "name": "Wounded #1 / Half Dead 2 #1 / Pogostuck: Rage With Your Friends #1 / Tricky Towers #13",
+    "name": "Wounded #1 / Half Dead - Часть 2 #1 / Pogostuck: Rage With Your Friends #1 / Tricky Towers #13",
     "date": "2019-03-03",
-    "games": ["wounded", "half-dead-2", "pogostuck", "tricky-towers"]
+    "games": ["wounded", "half-dead", "pogostuck", "tricky-towers"]
   },
   "390719635": {
     "youtube": "cwu6noR3YaU", "abs_start": "0:10", "abs_end": "2:51:09", "duration": "2:50:59",
@@ -4287,9 +4287,9 @@
   },
   "452195101": {
     "youtube": "5SvE0YBGot8", "abs_start": "0:00", "abs_end": "4:41:33", "duration": "4:41:33",
-    "name": "Human: Fall Flat #6 / Worms W.M.D #7 / Half Dead 2 #2 / Крокодил #7 / Эскейп-румы - Escape First 2 / Golf It! #18",
+    "name": "Human: Fall Flat #6 / Worms W.M.D #7 / Half Dead - Часть 2 #2 / Крокодил #7 / Эскейп-румы - Escape First 2 / Golf It! #18",
     "date": "2019-07-13",
-    "games": ["human-fall-flat", "worms-wmd", "half-dead-2", "crocodile", "escape-rooms", "golf-it"]
+    "games": ["human-fall-flat", "worms-wmd", "half-dead", "crocodile", "escape-rooms", "golf-it"]
   },
   "452633607": {
     "youtube": "6NbakTZGEZA", "abs_start": "0:00", "abs_end": "5:41:15", "duration": "5:41:15",
@@ -5945,11 +5945,11 @@
   },
   "681457263,682267155,683282462": {
     "youtube": "LBrFuF__368", "abs_start": "0:00", "abs_end": "27:11:04", "duration": "26:17:24",
-    "name": "Ghost of Tsushima",
+    "name": "Ghost of Tsushima - Прохождение",
     "date": "2020-07-16",
     "offsets": [0, 17793, 48416],
     "cuts": [[93362, 96582]],
-    "games": ["single"]
+    "games": ["tsushima"]
   },
   "684388398": {
     "youtube": "thAzX-Tb9bc", "official": false, "abs_start": "0:00", "abs_end": "4:29:22", "duration": "4:29:22",
@@ -6448,9 +6448,9 @@
   },
   "795935885": {
     "youtube": "GofIUIqsvPc", "abs_start": "0:00", "abs_end": "8:40:31", "duration": "8:40:31",
-    "name": "Assassin's Creed: Valhalla #2 / Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine / Escape From Kyoto House / Tricky Towers #26",
+    "name": "Assassin's Creed: Valhalla #2 / Cake Bash / Bake 'n Switch / Never Breakup / Labyrinthine #1 / Escape From Kyoto House / Tricky Towers #26",
     "date": "2020-11-08",
-    "games": ["ac-valhalla", "co-op", "tricky-towers"]
+    "games": ["ac-valhalla", "co-op", "labyrinthine", "tricky-towers"]
   },
   "796958566": {
     "youtube": "iAhHsKTjKcI", "abs_start": "0:00", "abs_end": "10:00:15", "duration": "10:00:15",
@@ -7682,14 +7682,12 @@
     "youtube": "f_QmR48kHUA", "official": false, "abs_start": "0:00", "abs_end": "6:37:25", "duration": "6:37:25",
     "name": "The Red Solstice 2: Survivors / Industria (демо) / Greak: Memories of Azur (демо) / Chasing Static (демо) / Song of Iron (демо) / Death Trash (демо) / Undying Symphony (демо) / Bandit Simulator (демо) / Super Bomberman R Online",
     "date": "2021-06-18",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1059978031.torrent",
     "games": ["co-op", "single", "first"]
   },
   "1061050549": {
     "youtube": "so-xSwlGgLQ", "official": false, "abs_start": "0:00", "abs_end": "6:18:55", "duration": "6:18:55",
     "name": "They Are Here (демо) / Last Village (демо) / Rocket Stop Incident (демо) / Dagon (демо) / Interference (демо) / Tormented Souls / Ebola 2 Survival (демо) / Horrors of Space (демо) / Rabbit Hole (демо)",
     "date": "2021-06-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1061050549.torrent",
     "games": ["single", "first"]
   },
   "1062093790": {
@@ -8083,5 +8081,13 @@
     "date": "2021-08-21",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1125116646.torrent",
     "games": ["unboxing", "phasmophobia", "ghcorp"]
+  },
+  "1125993129": {
+    "abs_start": "0:00", "abs_end": "8:50:59", "duration": "0:00",
+    "name": "Ghost of Tsushima - Director's Cut / Half Dead - Часть 3 / Chased by Darkness / Labyrinthine #2",
+    "date": "2021-08-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1125993129.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1125993129.torrent",
+    "games": ["tsushima", "half-dead", "co-op", "labyrinthine"]
   }
 }

@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1111966540", "name": "NEO: The World Ends with You / GeoGuessr #11 / Camping Simulator / The Greatest Penguin Heist of All Time / Haunt Chaser / Tricky Towers #31", "start": 0},
       {"id": "first", "segment": "1113958095", "name": "ColdSide / Almost My Floor #1 / SCP Terror Hunt #1", "start": 0},
       {"id": "first", "segment": "1114974794", "name": "Glitchpunk / Almost My Floor #2 / SCP Terror Hunt #2", "start": 0},
       {"id": "events", "segment": "1115988176", "name": "Розыгрыш Final Fantasy / SCP Terror Hunt #3 / Back 4 Blood #3 (Артём, Дима)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1120971330", "name": "Humankind / Road 96 #1", "start": 0},
       {"id": "other", "segment": "1122010713", "name": "15 лет Republic of Gamers / Road 96 #2", "start": 0},
       {"id": "scp-terror-hunt", "segment": "1123005766", "name": "SCP Terror Hunt #4 / Twelve Minutes", "start": 0},
-      {"id": "unboxing", "segment": "1125116646", "name": "ROG Zephyrus G14 Alan Walker / Phasmophobia #7 (с Куплиновым и Дангаром) / Ghost Hunters Corp #2", "start": 0}
+      {"id": "unboxing", "segment": "1125116646", "name": "ROG Zephyrus G14 Alan Walker / Phasmophobia #7 (с Куплиновым и Дангаром) / Ghost Hunters Corp #2", "start": 0},
+      {"id": "tsushima", "segment": "1125993129", "name": "Ghost of Tsushima - Director's Cut / Half Dead - Часть 3 / Chased by Darkness / Labyrinthine #2", "start": 0}
     ]
   },
   "finished": {
@@ -186,7 +186,7 @@
       {"name": "Resident Evil 7 (Madhouse)", "id": "re7", "segment": "663012938"},
       {"id": "single", "segment": "670671274", "name": "Winx Club", "start": 0},
       {"id": "single", "segment": "677524120", "name": "Devolverland Expo", "start": 0},
-      {"id": "single", "segment": "681457263,682267155,683282462", "name": "Ghost of Tsushima", "start": 0},
+      {"name": "Ghost of Tsushima", "id": "tsushima", "segment": "681457263,682267155,683282462"},
       {"name": "Carrion", "id": "carrion", "segment": "688270341"},
       {"name": "Maid of Sker", "id": "maid-of-sker", "segment": "693186645"},
       {"id": "single", "segment": "695229266", "name": "House on the Hill", "start": 7618},
@@ -841,7 +841,7 @@
       {"name": "Tom Clancy's The Division 2", "id": "division-2", "segment": "376580800"},
       {"id": "co-op", "segment": "378392606", "name": "Project Winter", "start": 0},
       {"name": "Anthem", "id": "anthem", "segment": "382162351"},
-      {"name": "Half Dead 2", "id": "half-dead-2", "segment": "389704750"},
+      {"name": "Half Dead", "id": "half-dead", "segment": "389704750"},
       {"name": "Pogostuck: Rage With Your Friends", "id": "pogostuck", "segment": "389704750"},
       {"id": "co-op", "segment": "394859046", "name": "Diablo", "start": 0},
       {"id": "co-op", "segment": "402450066.1", "name": "Generation Zero", "start": 0},
@@ -910,8 +910,8 @@
       {"id": "co-op", "segment": "795935885", "name": "Cake Bash", "start": 16593},
       {"id": "co-op", "segment": "795935885", "name": "Bake 'n Switch", "start": 19593},
       {"id": "co-op", "segment": "795935885", "name": "Never Breakup", "start": 21697},
-      {"id": "co-op", "segment": "795935885", "name": "Labyrinthine", "start": 22051},
       {"id": "co-op", "segment": "795935885", "name": "Escape From Kyoto House", "start": 23051},
+      {"name": "Labyrinthine", "id": "labyrinthine", "segment": "795935885"},
       {"id": "co-op", "segment": "827759529", "name": "In Silence", "start": 8249},
       {"name": "Gartic", "id": "gartic", "segment": "827759529"},
       {"name": "Scribble It!", "id": "scribble-it", "segment": "827759529"},
@@ -938,7 +938,8 @@
       {"name": "Back 4 Blood", "id": "b4b", "segment": "1108872519"},
       {"id": "co-op", "segment": "1111966540", "name": "Camping Simulator", "start": 9894},
       {"id": "co-op", "segment": "1111966540", "name": "The Greatest Penguin Heist of All Time", "start": 13724},
-      {"id": "co-op", "segment": "1111966540", "name": "Haunt Chaser", "start": 17479}
+      {"id": "co-op", "segment": "1111966540", "name": "Haunt Chaser", "start": 17479},
+      {"id": "co-op", "segment": "1125993129", "name": "Chased by Darkness", "start": 17602}
     ]
   },
   "other": {
