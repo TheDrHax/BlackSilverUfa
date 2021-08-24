@@ -7694,7 +7694,6 @@
     "youtube": "Z92K2EttmSc", "official": false, "abs_start": "0:00", "abs_end": "3:32:27", "duration": "3:32:27",
     "name": "Barbie in The 12 Dancing Princesses",
     "date": "2021-06-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1062093790.torrent",
     "games": ["single"]
   },
   "1065051420": {
@@ -8088,5 +8087,13 @@
     "date": "2021-08-22",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1125993129.torrent",
     "games": ["tsushima", "half-dead", "co-op", "labyrinthine"]
+  },
+  "1127979772": {
+    "abs_start": "0:00", "abs_end": "6:42:51", "duration": "0:00",
+    "name": "Aliens: Fireteam Elite / Gamescom 2021 - Xbox",
+    "date": "2021-08-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1127979772.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1127979772.torrent",
+    "games": ["co-op", "expos"]
   }
 }
