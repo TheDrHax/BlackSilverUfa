@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1114974794", "name": "Glitchpunk / Almost My Floor #2 / SCP Terror Hunt #2", "start": 0},
       {"id": "events", "segment": "1115988176", "name": "Розыгрыш Final Fantasy / SCP Terror Hunt #3 / Back 4 Blood #3 (Артём, Дима)", "start": 0},
       {"id": "first", "segment": "1117002114", "name": "VoidTrain / Phasmophobia #6 (с Куплиновым и Дангаром)", "start": 0},
       {"id": "bigfoot", "segment": "1119090442", "name": "Bigfoot #3 / Chivalry 2 #6", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "scp-terror-hunt", "segment": "1123005766", "name": "SCP Terror Hunt #4 / Twelve Minutes", "start": 0},
       {"id": "unboxing", "segment": "1125116646", "name": "ROG Zephyrus G14 Alan Walker / Phasmophobia #7 (с Куплиновым и Дангаром) / Ghost Hunters Corp #2", "start": 0},
       {"id": "tsushima", "segment": "1125993129", "name": "Ghost of Tsushima - Director's Cut / Half Dead - Часть 3 / Chased by Darkness / Labyrinthine #2", "start": 0},
-      {"id": "co-op", "segment": "1127979772", "name": "Aliens: Fireteam Elite / Gamescom 2021 - Xbox", "start": 0}
+      {"id": "co-op", "segment": "1127979772", "name": "Aliens: Fireteam Elite / Gamescom 2021 - Xbox Stream", "start": 0},
+      {"id": "first", "segment": "1128973572,1129122818", "name": "Bum Simulator / King's Bounty 2 / Gamescom 2021 - Opening Night Live", "start": 0}
     ]
   },
   "finished": {
@@ -616,7 +616,9 @@
       {"id": "first", "segment": "1113958095", "name": "ColdSide", "start": 0},
       {"id": "first", "segment": "1114974794", "name": "Glitchpunk", "start": 0},
       {"id": "first", "segment": "1117002114", "name": "VoidTrain", "start": 0},
-      {"id": "first", "segment": "1120971330", "name": "Humankind", "start": 0}
+      {"id": "first", "segment": "1120971330", "name": "Humankind", "start": 0},
+      {"id": "first", "segment": "1128973572,1129122818", "name": "Bum Simulator", "start": 0},
+      {"id": "first", "segment": "1128973572,1129122818", "name": "King's Bounty 2", "start": 8788}
     ]
   },
   "ongoing": {
@@ -1000,7 +1002,7 @@
       {"name": "Dying 2 Know", "id": "dying-2-know", "segment": "1036865162"},
       {"name": "неПрофессиональный E3 2021", "id": "e3_2021", "segment": "1051795746,1052015039,1052084349"},
       {"id": "expos", "segment": "1081385499,1081403044", "name": "WitcherCon", "start": 14495},
-      {"id": "expos", "segment": "1127979772", "name": "Gamescom 2021 - Xbox", "start": 14509}
+      {"name": "Gamescom 2021", "id": "gamescom-21", "segment": "1127979772"}
     ]
   },
   "unboxing": {

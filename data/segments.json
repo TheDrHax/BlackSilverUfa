@@ -7700,14 +7700,12 @@
     "youtube": "rjNJd2SSz9g", "official": false, "abs_start": "0:00", "abs_end": "6:18:27", "duration": "6:18:27",
     "name": "Sony BloggerCam ZV-1 / Phantom Abyss #3 / Dungeons & Dragons: Dark Alliance / Tricky Towers #30",
     "date": "2021-06-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1065051420.torrent",
     "games": ["unboxing", "phantom-abyss", "co-op", "tricky-towers"]
   },
   "1066067703": {
     "youtube": "6p55GvH4HKM", "official": false, "abs_start": "0:00", "abs_end": "5:32:43", "duration": "5:32:43",
     "name": "ROG Phone 5 / Scarlet Nexus #1 / Stranger of Paradise: Final Fantasy Origin (демо) / Guilty Gear: Strive",
     "date": "2021-06-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1066067703.torrent",
     "games": ["unboxing", "scarlet-nexus", "first"]
   },
   "1067131113": {
@@ -8090,9 +8088,34 @@
   },
   "1127979772": {
     "youtube": "We62CZ0BZvA", "abs_start": "0:00", "abs_end": "6:42:28", "duration": "6:42:28",
-    "name": "Aliens: Fireteam Elite / Gamescom 2021 - Xbox",
+    "name": "Aliens: Fireteam Elite / Gamescom 2021 - Xbox Stream",
     "date": "2021-08-24",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1127979772.torrent",
-    "games": ["co-op", "expos"]
+    "games": ["co-op", "gamescom-21"]
+  },
+  "1128973572": {
+    "abs_start": "0:00", "abs_end": "3:42:25", "duration": "0:00",
+    "name": "",
+    "date": "2021-08-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1128973572.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1128973572.torrent",
+    "games": []
+  },
+  "1129122818": {
+    "abs_start": "0:00", "abs_end": "3:34:00", "duration": "0:00",
+    "name": "",
+    "date": "2021-08-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1129122818.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1129122818.torrent",
+    "games": []
+  },
+  "1128973572,1129122818": {
+    "abs_start": "0:00", "abs_end": "7:16:25", "duration": "0:00",
+    "name": "Bum Simulator / King's Bounty 2 / Gamescom 2021 - Opening Night Live",
+    "date": "2021-08-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1128973572,1129122818.mp4",
+    "offsets": [0, 13206],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1128973572,1129122818.torrent",
+    "games": ["first", "gamescom-21"]
   }
 }
