@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "events", "segment": "1115988176", "name": "Розыгрыш Final Fantasy / SCP Terror Hunt #3 / Back 4 Blood #3 (Артём, Дима)", "start": 0},
       {"id": "first", "segment": "1117002114", "name": "VoidTrain / Phasmophobia #6 (с Куплиновым и Дангаром)", "start": 0},
       {"id": "bigfoot", "segment": "1119090442", "name": "Bigfoot #3 / Chivalry 2 #6", "start": 0},
       {"id": "first", "segment": "1120971330", "name": "Humankind / Road 96 #1", "start": 0},
@@ -11,8 +10,9 @@
       {"id": "scp-terror-hunt", "segment": "1123005766", "name": "SCP Terror Hunt #4 / Twelve Minutes", "start": 0},
       {"id": "unboxing", "segment": "1125116646", "name": "ROG Zephyrus G14 Alan Walker / Phasmophobia #7 (с Куплиновым и Дангаром) / Ghost Hunters Corp #2", "start": 0},
       {"id": "tsushima", "segment": "1125993129", "name": "Ghost of Tsushima - Director's Cut / Half Dead - Часть 3 / Chased by Darkness / Labyrinthine #2", "start": 0},
-      {"id": "co-op", "segment": "1127979772", "name": "Aliens: Fireteam Elite / Gamescom 2021 - Xbox Stream", "start": 0},
-      {"id": "first", "segment": "1128973572,1129122818", "name": "Bum Simulator / King's Bounty 2 / Gamescom 2021 - Opening Night Live", "start": 0}
+      {"id": "aliens-fe", "segment": "1127979772", "name": "Aliens: Fireteam Elite #1 / Gamescom 2021 - Xbox Stream", "start": 0},
+      {"id": "first", "segment": "1128973572,1129122818", "name": "Bum Simulator / King's Bounty 2 / Gamescom 2021 - Opening Night Live", "start": 0},
+      {"id": "first", "segment": "1129996087", "name": "Riders Republic / Aliens: Fireteam Elite #2 / Gamescom 2021 - Awesome Indies / Gamescom 2021 - Future Games Show", "start": 0}
     ]
   },
   "finished": {
@@ -618,7 +618,8 @@
       {"id": "first", "segment": "1117002114", "name": "VoidTrain", "start": 0},
       {"id": "first", "segment": "1120971330", "name": "Humankind", "start": 0},
       {"id": "first", "segment": "1128973572,1129122818", "name": "Bum Simulator", "start": 0},
-      {"id": "first", "segment": "1128973572,1129122818", "name": "King's Bounty 2", "start": 8788}
+      {"id": "first", "segment": "1128973572,1129122818", "name": "King's Bounty 2", "start": 8788},
+      {"id": "first", "segment": "1129996087", "name": "Riders Republic", "start": 0}
     ]
   },
   "ongoing": {
@@ -942,8 +943,7 @@
       {"id": "co-op", "segment": "1111966540", "name": "The Greatest Penguin Heist of All Time", "start": 13724},
       {"id": "co-op", "segment": "1111966540", "name": "Haunt Chaser", "start": 17479},
       {"id": "co-op", "segment": "1125993129", "name": "Chased by Darkness", "start": 17602},
-      {"id": "co-op", "segment": "1127979772", "name": "Aliens: Fireteam Elite", "start": 0},
-      {"id": "co-op", "segment": "1127979772", "name": "Aliens: Fireteam Elite", "start": 18886}
+      {"name": "Aliens: Fireteam Elite", "id": "aliens-fe", "segment": "1127979772"}
     ]
   },
   "other": {

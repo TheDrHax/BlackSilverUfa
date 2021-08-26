@@ -7712,14 +7712,12 @@
     "youtube": "InjThcw8hgM", "official": false, "abs_start": "0:00", "abs_end": "6:39:19", "duration": "6:39:19",
     "name": "Sea of Thieves #12 (A Pirate's Life)",
     "date": "2021-06-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1067131113.torrent",
     "games": ["sea-of-thieves"]
   },
   "1070208965": {
     "youtube": "gSU1oUwFbe4", "official": false, "abs_start": "0:00", "abs_end": "6:53:36", "duration": "6:53:36",
     "name": "Open Country / Witch Hunt #3 (заново) / Untitled Goose Game - Кооп",
     "date": "2021-06-28",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1070208965.torrent",
     "games": ["first", "witch-hunt", "goose"]
   },
   "1072311121": {
@@ -8088,10 +8086,10 @@
   },
   "1127979772": {
     "youtube": "We62CZ0BZvA", "abs_start": "0:00", "abs_end": "6:42:28", "duration": "6:42:28",
-    "name": "Aliens: Fireteam Elite / Gamescom 2021 - Xbox Stream",
+    "name": "Aliens: Fireteam Elite #1 / Gamescom 2021 - Xbox Stream",
     "date": "2021-08-24",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1127979772.torrent",
-    "games": ["co-op", "gamescom-21"]
+    "games": ["aliens-fe", "gamescom-21"]
   },
   "1128973572": {
     "abs_start": "0:00", "abs_end": "3:42:25", "duration": "0:00",
@@ -8117,5 +8115,13 @@
     "offsets": [0, 13206],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1128973572,1129122818.torrent",
     "games": ["first", "gamescom-21"]
+  },
+  "1129996087": {
+    "abs_start": "0:00", "abs_end": "8:29:00", "duration": "0:00",
+    "name": "Riders Republic / Aliens: Fireteam Elite #2 / Gamescom 2021 - Awesome Indies / Gamescom 2021 - Future Games Show",
+    "date": "2021-08-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1129996087.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1129996087.torrent",
+    "games": ["first", "aliens-fe", "gamescom-21"]
   }
 }
