@@ -12,4 +12,4 @@ tdh-tcd==2.4.7
 cached-property==1.5.1
 nodeenv==1.4.0
 natsort==7.1.1
-youtube-dl # dynamic
+yt-dlp # dynamic
