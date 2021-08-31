@@ -286,6 +286,7 @@
       {"id": "first", "segment": "001508100", "name": "Bloodborne", "start": 3737},
       {"id": "first", "segment": "001508120", "name": "Nightmare House 2", "start": 0},
       {"id": "first", "segment": "001508120", "name": "Bioshock Infinite", "start": 4309},
+      {"id": "first", "segment": "001607210", "name": "Deus Ex: Human Revolution - Director's Cut", "start": 0},
       {"id": "first", "segment": "001610280", "name": "Titanfall 2", "start": 0},
       {"id": "first", "segment": "001611160", "name": "Assassin's Creed II - The Ezio Collection", "start": 0},
       {"id": "first", "segment": "001612170", "name": "Dungeon Nightmares II: The Memory (с Дашей)", "start": 0},
@@ -626,7 +627,6 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Fallout 76", "id": "fallout-76", "segment": "335751293"},
       {"name": "Farmer's Life", "id": "farmers-life", "segment": "1086385946,1086545283"}
     ]
   },
@@ -707,6 +707,7 @@
       {"name": "Super Seducer 2", "id": "super-seducer-2", "segment": "311651965"},
       {"name": "Visage", "id": "visage", "segment": "317879826"},
       {"name": "Red Dead Redemption 2", "id": "rdr2", "segment": "327553236"},
+      {"name": "Fallout 76", "id": "fallout-76", "segment": "335751293"},
       {"name": "Just Cause 4", "id": "just-cause-4", "segment": "343098113"},
       {"name": "Lucius III", "id": "lucius-3", "segment": "349397154.1"},
       {"name": "Star Wars: Knights of the Old Republic II - The Sith Lords", "id": "sw-kotor2", "segment": "352687063"},
