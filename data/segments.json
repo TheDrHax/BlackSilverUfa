@@ -7490,9 +7490,9 @@
   },
   "1033590091": {
     "youtube": "_uv6WWu5Rx0", "official": false, "abs_start": "0:00", "abs_end": "5:59:29", "duration": "5:59:29",
-    "name": "Pathfinder: Wrath of the Righteous (демо) / Biomutant #1",
+    "name": "Pathfinder: Wrath of the Righteous - Демо / Biomutant #1",
     "date": "2021-05-24",
-    "games": ["first", "biomutant"]
+    "games": ["pathfinder", "biomutant"]
   },
   "1034612378": {
     "youtube": "1dyQStbb5ZY", "official": false, "abs_start": "0:00", "abs_end": "7:46:51", "duration": "7:46:51",
@@ -7742,8 +7742,6 @@
     "abs_start": "0:00", "abs_end": "28:16", "duration": "0:00",
     "name": "",
     "date": "2021-07-09",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1081385499.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1081385499.torrent",
     "games": []
   },
   "1081403044": {
@@ -7759,7 +7757,6 @@
     "name": "Розыгрыш Dying Light / Black Skylands / WitcherCon",
     "date": "2021-07-09",
     "offsets": [0, 1658],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1081385499,1081403044.torrent",
     "games": ["events", "first", "expos"]
   },
   "1086385946": {
@@ -8146,5 +8143,13 @@
     "date": "2021-08-31",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1134934289.torrent",
     "games": ["hades", "events", "expos", "co-op"]
+  },
+  "1139746620": {
+    "abs_start": "0:00", "abs_end": "6:07:42", "duration": "0:00",
+    "name": "The Dark Pictures: House of Ashes (демо) / Pathfinder: Wrath of the Righteous #1 / Lake",
+    "date": "2021-09-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1139746620.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1139746620.torrent",
+    "games": ["first", "pathfinder"]
   }
 }
