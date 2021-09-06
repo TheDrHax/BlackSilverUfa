@@ -3607,9 +3607,9 @@
   },
   "390719635": {
     "youtube": "cwu6noR3YaU", "abs_start": "0:10", "abs_end": "2:51:09", "duration": "2:50:59",
-    "name": "SCP: Blackout (демо) / SCP-022 / Wounded #2 / Pogostuck: Rage With Your Friends #2 (с чатом)",
+    "name": "SCP: Blackout #1 / SCP-022 / Wounded #2 / Pogostuck: Rage With Your Friends #2 (с чатом)",
     "date": "2019-03-05",
-    "games": ["first", "single", "wounded", "pogostuck"]
+    "games": ["scp-blackout", "single", "wounded", "pogostuck"]
   },
   "390719635.1": {
     "youtube": "5qwalNtKM5w", "abs_start": "2:51:38", "abs_end": "5:05:01", "duration": "2:13:23",
@@ -6025,9 +6025,9 @@
   },
   "697191590": {
     "youtube": "EFLx2YQ4RLQ", "abs_start": "0:00", "abs_end": "6:03:03", "duration": "6:03:03",
-    "name": "What Happened / There Are Ghosts in These Stalls / The Baby in Yellow / Lapso: NIMBO / Redundancy / I Have a Fear / Forgotten Tunnels - Episode 2 / Missing Children / Re:Turn (демо) / Othercide",
+    "name": "What Happened / There Are Ghosts in These Stalls / The Baby in Yellow #1 / Lapso: NIMBO / Redundancy / I Have a Fear / Forgotten Tunnels - Episode 2 / Missing Children / Re:Turn (демо) / Othercide",
     "date": "2020-08-01",
-    "games": ["first", "single", "forgotten-tunnels"]
+    "games": ["first", "single", "baby-in-yellow", "forgotten-tunnels"]
   },
   "698150167": {
     "youtube": "00ntVmR3uCw", "abs_start": "0:00", "abs_end": "6:02:15", "duration": "6:02:15",
@@ -7748,8 +7748,6 @@
     "abs_start": "0:00", "abs_end": "6:33:51", "duration": "0:00",
     "name": "",
     "date": "2021-07-09",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1081403044.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1081403044.torrent",
     "games": []
   },
   "1081385499,1081403044": {
@@ -8150,5 +8148,13 @@
     "date": "2021-09-05",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1139746620.torrent",
     "games": ["first", "pathfinder"]
+  },
+  "1140665211": {
+    "abs_start": "0:00", "abs_end": "6:09:44", "duration": "0:00",
+    "name": "Burger & Frights / The Baby in Yellow #2 / Granny 3 / SCP: Blackout #2 / SCP Terror Hunt #5 / SnowRunner #20",
+    "date": "2021-09-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1140665211.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1140665211.torrent",
+    "games": ["single", "baby-in-yellow", "first", "scp-blackout", "scp-terror-hunt", "snowrunner"]
   }
 }
