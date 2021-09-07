@@ -6598,7 +6598,7 @@
   },
   "824147065": {
     "youtube": "3s3x1Gp8vvQ", "abs_start": "0:00", "abs_end": "7:22:01", "duration": "7:22:01",
-    "name": "Morbid: The Seven Acolytes / Haven #1 / The Life and Suffering of SirПервый вз Brante / Immortals Fenyx Rising #2",
+    "name": "Morbid: The Seven Acolytes / Haven #1 / The Life and Suffering of Sir Brante / Immortals Fenyx Rising #2",
     "date": "2020-12-03",
     "games": ["first", "haven", "immortals-fr"]
   },
@@ -7761,8 +7761,6 @@
     "abs_start": "0:00", "abs_end": "3:52:09", "duration": "0:00",
     "name": "",
     "date": "2021-07-14",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1086385946.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1086385946.torrent",
     "games": []
   },
   "1086545283": {
@@ -8155,5 +8153,13 @@
     "date": "2021-09-06",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1140665211.torrent",
     "games": ["single", "baby-in-yellow", "first", "scp-blackout", "scp-terror-hunt", "snowrunner"]
+  },
+  "1141635163": {
+    "abs_start": "0:00", "abs_end": "6:09:48", "duration": "0:00",
+    "name": "Outlast / SCP Terror Hunt #6",
+    "date": "2021-09-07",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1141635163.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1141635163.torrent",
+    "games": ["first", "scp-terror-hunt"]
   }
 }

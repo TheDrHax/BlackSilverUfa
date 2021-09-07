@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "unboxing", "segment": "1125116646", "name": "ROG Zephyrus G14 Alan Walker / Phasmophobia #7 (с Куплиновым и Дангаром) / Ghost Hunters Corp #2", "start": 0},
       {"id": "tsushima", "segment": "1125993129", "name": "Ghost of Tsushima - Director's Cut / Half Dead - Часть 3 / Chased by Darkness / Labyrinthine #2", "start": 0},
       {"id": "aliens-fe", "segment": "1127979772", "name": "Aliens: Fireteam Elite #1 / Gamescom 2021 - Xbox Stream", "start": 0},
       {"id": "first", "segment": "1128973572,1129122818", "name": "Bum Simulator / King's Bounty 2 / Gamescom 2021 - Opening Night Live", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "geoguessr", "segment": "1132102187", "name": "GeoGuessr #12 / Phasmophobia #9 (с Куплиновым и Дангаром)", "start": 0},
       {"id": "hades", "segment": "1134934289", "name": "Hades #3 (PS5) / Розыгрыш Hades / Dead Space Remake Dev Stream / KeyWe", "start": 0},
       {"id": "first", "segment": "1139746620", "name": "The Dark Pictures: House of Ashes (демо) / Pathfinder: Wrath of the Righteous #1 / Lake", "start": 0},
-      {"id": "single", "segment": "1140665211", "name": "Burger & Frights / The Baby in Yellow #2 / Granny 3 / SCP: Blackout #2 / SCP Terror Hunt #5 / SnowRunner #20", "start": 0}
+      {"id": "single", "segment": "1140665211", "name": "Burger & Frights / The Baby in Yellow #2 / Granny 3 / SCP: Blackout #2 / SCP Terror Hunt #5 / SnowRunner #20", "start": 0},
+      {"id": "first", "segment": "1141635163", "name": "Outlast / SCP Terror Hunt #6", "start": 0}
     ]
   },
   "finished": {
@@ -534,7 +534,7 @@
       {"id": "first", "segment": "823035178", "name": "Chronos: Before the Ashes", "start": 7297},
       {"id": "first", "segment": "823035178", "name": "Twin Mirror", "start": 17876},
       {"id": "first", "segment": "824147065", "name": "Morbid: The Seven Acolytes", "start": 0},
-      {"id": "first", "segment": "824147065", "name": "The Life and Suffering of SirПервый вз Brante", "start": 10668},
+      {"id": "first", "segment": "824147065", "name": "The Life and Suffering of Sir Brante", "start": 10668},
       {"id": "first", "segment": "828815728", "name": "El Hijo: A Wild West Game", "start": 0},
       {"id": "first", "segment": "828815728", "name": "Worms Rumble", "start": 7449},
       {"id": "first", "segment": "849365667", "name": "Gothic", "start": 0},
@@ -623,7 +623,8 @@
       {"id": "first", "segment": "1130997492", "name": "ANNO: Mutationem (демо)", "start": 9756},
       {"id": "first", "segment": "1139746620", "name": "The Dark Pictures: House of Ashes (демо)", "start": 0},
       {"id": "first", "segment": "1139746620", "name": "Lake", "start": 15268},
-      {"id": "first", "segment": "1140665211", "name": "Granny 3", "start": 6642}
+      {"id": "first", "segment": "1140665211", "name": "Granny 3", "start": 6642},
+      {"id": "first", "segment": "1141635163", "name": "Outlast", "start": 0}
     ]
   },
   "ongoing": {
