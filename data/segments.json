@@ -7776,7 +7776,6 @@
     "name": "Farmer's Life - Prologue / Reminiscence / SuchArt: Genius Artist Simulator #2",
     "date": "2021-07-14",
     "offsets": [0, 13862],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1086385946,1086545283.torrent",
     "games": ["farmers-life", "single", "suchart"]
   },
   "1087387683": {
@@ -8156,9 +8155,17 @@
   },
   "1141635163": {
     "youtube": "fsdERaq524M", "abs_start": "0:00", "abs_end": "6:10:30", "duration": "6:10:30",
-    "name": "Outlast / SCP Terror Hunt #6",
+    "name": "Outlast #1 / SCP Terror Hunt #6",
     "date": "2021-09-07",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1141635163.torrent",
-    "games": ["first", "scp-terror-hunt"]
+    "games": ["outlast", "scp-terror-hunt"]
+  },
+  "1142576899": {
+    "abs_start": "0:00", "abs_end": "3:55:19", "duration": "0:00",
+    "name": "Розыгрыш ROG Zephyrus G14 Alan Walker / Outlast #2",
+    "date": "2021-09-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1142576899.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1142576899.torrent",
+    "games": ["events", "outlast"]
   }
 }
