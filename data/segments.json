@@ -7767,8 +7767,6 @@
     "abs_start": "0:00", "abs_end": "3:02:35", "duration": "0:00",
     "name": "",
     "date": "2021-07-14",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1086545283.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1086545283.torrent",
     "games": []
   },
   "1086385946,1086545283": {
@@ -7782,8 +7780,6 @@
     "abs_start": "0:00", "abs_end": "53:27", "duration": "0:00",
     "name": "",
     "date": "2021-07-15",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1087387683.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1087387683.torrent",
     "games": []
   },
   "1087417437": {
@@ -7799,7 +7795,6 @@
     "name": "Chernobylite - Релиз / Escape From Tarkov #8",
     "date": "2021-07-15",
     "offsets": [0, 3157],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1087387683,1087417437.torrent",
     "games": ["chernobylite", "tarkov"]
   },
   "1088456849": {
@@ -8167,5 +8162,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1142576899.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1142576899.torrent",
     "games": ["events", "outlast"]
+  },
+  "1143525237": {
+    "abs_start": "0:00", "abs_end": "8:03:16", "duration": "0:00",
+    "name": "Tales of Arise / Life is Strange: True Colors / PlayStation Showcase 2021",
+    "date": "2021-09-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1143525237.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1143525237.torrent",
+    "games": ["first", "expos"]
   }
 }
