@@ -8133,10 +8133,10 @@
   },
   "1130997492": {
     "youtube": "0ZLRjMqPZ-s", "abs_start": "0:00", "abs_end": "6:25:42", "duration": "6:25:42",
-    "name": "Riders Republic #2 / Return to Nangrim (демо) / ANNO: Mutationem (демо) / Call of Duty: Vanguard / Phasmophobia #8",
+    "name": "Riders Republic #2 / Return to Nangrim (демо) / ANNO: Mutationem (демо) / Call of Duty: Vanguard #1 (с Артёмом) / Phasmophobia #8",
     "date": "2021-08-27",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1130997492.torrent",
-    "games": ["riders-republic", "first", "co-op", "phasmophobia"]
+    "games": ["riders-republic", "first", "cod-vanguard", "phasmophobia"]
   },
   "1132102187": {
     "youtube": "rLRCDf0i-Gw", "abs_start": "0:00", "abs_end": "3:56:50", "duration": "3:56:50",
@@ -8186,5 +8186,13 @@
     "date": "2021-09-09",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1143525237.torrent",
     "games": ["first", "expos"]
+  },
+  "1145536174": {
+    "abs_start": "0:00", "abs_end": "3:14:18", "duration": "0:00",
+    "name": "Call of Duty: Vanguard #2 (с WLG и Bale)",
+    "date": "2021-09-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1145536174.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1145536174.torrent",
+    "games": ["cod-vanguard"]
   }
 }
