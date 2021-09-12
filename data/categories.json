@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "riders-republic", "segment": "1129996087", "name": "Riders Republic #1 / Aliens: Fireteam Elite #2 / Gamescom 2021 - Awesome Indies / Gamescom 2021 - Future Games Show", "start": 0},
       {"id": "riders-republic", "segment": "1130997492", "name": "Riders Republic #2 / Return to Nangrim (демо) / ANNO: Mutationem (демо) / Call of Duty: Vanguard #1 (с Артёмом) / Phasmophobia #8", "start": 0},
       {"id": "geoguessr", "segment": "1132102187", "name": "GeoGuessr #12 / Phasmophobia #9 (с Куплиновым и Дангаром)", "start": 0},
       {"id": "hades", "segment": "1134934289", "name": "Hades #3 (PS5) / Розыгрыш Hades / Dead Space Remake Dev Stream / KeyWe", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "outlast", "segment": "1141635163", "name": "Outlast #1 / SCP Terror Hunt #6", "start": 0},
       {"id": "events", "segment": "1142576899", "name": "Розыгрыш ROG Zephyrus G14 Alan Walker / Outlast #2", "start": 0},
       {"id": "first", "segment": "1143525237", "name": "Tales of Arise / Life is Strange: True Colors / PlayStation Showcase 2021", "start": 0},
-      {"id": "cod-vanguard", "segment": "1145536174", "name": "Call of Duty: Vanguard #2 (с WLG и Bale)", "start": 0}
+      {"id": "cod-vanguard", "segment": "1145536174", "name": "Call of Duty: Vanguard #2 (с WLG и Bale)", "start": 0},
+      {"id": "webbed", "segment": "1146553591", "name": "Webbed #1 / Outlast - Whistleblower / SCP Terror Hunt #7", "start": 0}
     ]
   },
   "finished": {
@@ -204,7 +204,6 @@
       {"id": "single", "segment": "749640613", "name": "Contraband Police (демо)", "start": 0},
       {"name": "Amnesia: The Dark Descent", "id": "amnesia", "segment": "761311327"},
       {"id": "single", "segment": "767249770", "name": "Xuan-Yuan Sword VII (демо)", "start": 0},
-      {"id": "single", "segment": "767249770", "name": "Webbed (демо)", "start": 5751},
       {"id": "single", "segment": "775167526,776153173", "name": "Amnesia: Rebirth", "start": 0},
       {"id": "single", "segment": "779201810", "name": "Harry Potter and the Sorcerer's Stone", "start": 0},
       {"id": "single", "segment": "785416056", "name": "Кужлёвка (демо)", "start": 0},
@@ -274,6 +273,7 @@
       {"id": "single", "segment": "1099599998", "name": "From Day To Day (демо)", "start": 20150},
       {"name": "Horror Tales: The Wine", "id": "ht-wine", "segment": "1105750453"},
       {"id": "single", "segment": "1109866143", "name": "Trenches", "start": 0},
+      {"name": "SCP Terror Hunt", "id": "scp-terror-hunt", "segment": "1113958095"},
       {"name": "Almost My Floor", "id": "amfloor", "segment": "1113958095"},
       {"name": "Road 96", "id": "road-96", "segment": "1120971330"},
       {"id": "single", "segment": "1123005766", "name": "Twelve Minutes", "start": 10717},
@@ -632,6 +632,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Webbed", "id": "webbed", "segment": "767249770"},
       {"name": "Pathfinder: Wrath of the Righteous", "id": "pathfinder", "segment": "1033590091"}
     ]
   },
@@ -675,7 +676,6 @@
       {"name": "Phantom Abyss", "id": "phantom-abyss", "segment": "1030127769"},
       {"name": "I'm on Observation Duty", "id": "observation-duty", "segment": "1092418023"},
       {"name": "Ghost Hunters Corp", "id": "ghcorp", "segment": "1095567001,1095811167"},
-      {"name": "SCP Terror Hunt", "id": "scp-terror-hunt", "segment": "1113958095"},
       {"name": "Riders Republic", "id": "riders-republic", "segment": "1129996087"}
     ]
   },
