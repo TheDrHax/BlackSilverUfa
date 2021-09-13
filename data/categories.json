@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "riders-republic", "segment": "1130997492", "name": "Riders Republic #2 / Return to Nangrim (демо) / ANNO: Mutationem (демо) / Call of Duty: Vanguard #1 (с Артёмом) / Phasmophobia #8", "start": 0},
       {"id": "geoguessr", "segment": "1132102187", "name": "GeoGuessr #12 / Phasmophobia #9 (с Куплиновым и Дангаром)", "start": 0},
       {"id": "hades", "segment": "1134934289", "name": "Hades #3 (PS5) / Розыгрыш Hades / Dead Space Remake Dev Stream / KeyWe", "start": 0},
       {"id": "first", "segment": "1139746620", "name": "The Dark Pictures: House of Ashes (демо) / Pathfinder: Wrath of the Righteous #1 / Lake", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "events", "segment": "1142576899", "name": "Розыгрыш ROG Zephyrus G14 Alan Walker / Outlast #2", "start": 0},
       {"id": "first", "segment": "1143525237", "name": "Tales of Arise / Life is Strange: True Colors / PlayStation Showcase 2021", "start": 0},
       {"id": "cod-vanguard", "segment": "1145536174", "name": "Call of Duty: Vanguard #2 (с WLG и Bale)", "start": 0},
-      {"id": "webbed", "segment": "1146553591", "name": "Webbed #1 / Outlast - Whistleblower / SCP Terror Hunt #7", "start": 0}
+      {"id": "webbed", "segment": "1146553591", "name": "Webbed #1 / Outlast - Whistleblower / SCP Terror Hunt #7", "start": 0},
+      {"id": "first", "segment": "1147476304", "name": "Deathloop", "start": 0}
     ]
   },
   "finished": {
@@ -626,7 +626,8 @@
       {"id": "first", "segment": "1139746620", "name": "Lake", "start": 15268},
       {"id": "first", "segment": "1140665211", "name": "Granny 3", "start": 6642},
       {"id": "first", "segment": "1143525237", "name": "Tales of Arise", "start": 0},
-      {"id": "first", "segment": "1143525237", "name": "Life is Strange: True Colors", "start": 10722}
+      {"id": "first", "segment": "1143525237", "name": "Life is Strange: True Colors", "start": 10722},
+      {"id": "first", "segment": "1147476304", "name": "Deathloop", "start": 0}
     ]
   },
   "ongoing": {

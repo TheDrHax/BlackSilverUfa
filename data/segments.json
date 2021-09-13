@@ -8198,5 +8198,13 @@
     "date": "2021-09-12",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1146553591.torrent",
     "games": ["webbed", "outlast", "scp-terror-hunt"]
+  },
+  "1147476304": {
+    "abs_start": "0:00", "abs_end": "8:04:30", "duration": "0:00",
+    "name": "Deathloop",
+    "date": "2021-09-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1147476304.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1147476304.torrent",
+    "games": ["first"]
   }
 }
