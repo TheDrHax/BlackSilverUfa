@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "hades", "segment": "1134934289", "name": "Hades #3 (PS5) / Розыгрыш Hades / Dead Space Remake Dev Stream / KeyWe", "start": 0},
       {"id": "first", "segment": "1139746620", "name": "The Dark Pictures: House of Ashes (демо) / Pathfinder: Wrath of the Righteous #1 / Lake", "start": 0},
       {"id": "single", "segment": "1140665211", "name": "Burger & Frights / The Baby in Yellow #2 / Granny 3 / SCP: Blackout #2 / SCP Terror Hunt #5 / SnowRunner #20", "start": 0},
       {"id": "outlast", "segment": "1141635163", "name": "Outlast #1 / SCP Terror Hunt #6", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "cod-vanguard", "segment": "1145536174", "name": "Call of Duty: Vanguard #2 (с WLG и Bale)", "start": 0},
       {"id": "webbed", "segment": "1146553591", "name": "Webbed #1 / Outlast - Whistleblower / SCP Terror Hunt #7", "start": 0},
       {"id": "deathloop", "segment": "1147476304", "name": "Deathloop #1", "start": 0},
-      {"id": "deathloop", "segment": "1148404879", "name": "Deathloop #2", "start": 0}
+      {"id": "deathloop", "segment": "1148404879", "name": "Deathloop #2", "start": 0},
+      {"id": "deathloop", "segment": "1149326407", "name": "Deathloop #3", "start": 0}
     ]
   },
   "finished": {
@@ -278,7 +278,8 @@
       {"name": "Road 96", "id": "road-96", "segment": "1120971330"},
       {"id": "single", "segment": "1123005766", "name": "Twelve Minutes", "start": 10717},
       {"id": "single", "segment": "1140665211", "name": "Burger & Frights", "start": 0},
-      {"name": "Outlast", "id": "outlast", "segment": "1141635163"}
+      {"name": "Outlast", "id": "outlast", "segment": "1141635163"},
+      {"name": "Deathloop", "id": "deathloop", "segment": "1147476304"}
     ]
   },
   "first": {
@@ -633,8 +634,7 @@
     "name": "Активные",
     "games": [
       {"name": "Webbed", "id": "webbed", "segment": "767249770"},
-      {"name": "Pathfinder: Wrath of the Righteous", "id": "pathfinder", "segment": "1033590091"},
-      {"name": "Deathloop", "id": "deathloop", "segment": "1147476304"}
+      {"name": "Pathfinder: Wrath of the Righteous", "id": "pathfinder", "segment": "1033590091"}
     ]
   },
   "infinite": {

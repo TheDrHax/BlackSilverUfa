@@ -7823,8 +7823,6 @@
     "abs_start": "0:00", "abs_end": "15:47", "duration": "0:00",
     "name": "",
     "date": "2021-07-16",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1088621069.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1088621069.torrent",
     "games": []
   },
   "1088456849,1088621069": {
@@ -7838,7 +7836,6 @@
     "youtube": "3yMAEwwqmY8", "abs_start": "0:00", "abs_end": "8:09:34", "duration": "8:09:34",
     "name": "The Legend of Zelda: Skyward Sword HD #1",
     "date": "2021-07-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1089427413.torrent",
     "games": ["tloz-sshd"]
   },
   "1090437240": {
@@ -8208,6 +8205,14 @@
     "name": "Deathloop #2",
     "date": "2021-09-14",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1148404879.torrent",
+    "games": ["deathloop"]
+  },
+  "1149326407": {
+    "abs_start": "0:00", "abs_end": "4:12:33", "duration": "0:00",
+    "name": "Deathloop #3",
+    "date": "2021-09-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1149326407.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1149326407.torrent",
     "games": ["deathloop"]
   }
 }
