@@ -7817,8 +7817,6 @@
     "abs_start": "0:00", "abs_end": "3:55:04", "duration": "0:00",
     "name": "",
     "date": "2021-07-16",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1088456849.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1088456849.torrent",
     "games": []
   },
   "1088621069": {
@@ -7834,7 +7832,6 @@
     "name": "GeoGuessr #8 / Friday the 13th #4",
     "date": "2021-07-16",
     "offsets": [0, 14064],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1088456849,1088621069.torrent",
     "games": ["geoguessr", "friday-13th"]
   },
   "1089427413": {
@@ -8201,9 +8198,17 @@
   },
   "1147476304": {
     "youtube": "rgAXWuw89eo", "abs_start": "0:00", "abs_end": "8:04:35", "duration": "8:04:35",
-    "name": "Deathloop",
+    "name": "Deathloop #1",
     "date": "2021-09-13",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1147476304.torrent",
-    "games": ["first"]
+    "games": ["deathloop"]
+  },
+  "1148404879": {
+    "abs_start": "0:00", "abs_end": "8:23:53", "duration": "0:00",
+    "name": "Deathloop #2",
+    "date": "2021-09-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1148404879.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1148404879.torrent",
+    "games": ["deathloop"]
   }
 }
