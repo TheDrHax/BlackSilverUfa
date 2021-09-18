@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1139746620", "name": "The Dark Pictures: House of Ashes (демо) / Pathfinder: Wrath of the Righteous #1 / Lake", "start": 0},
       {"id": "single", "segment": "1140665211", "name": "Burger & Frights / The Baby in Yellow #2 / Granny 3 / SCP: Blackout #2 / SCP Terror Hunt #5 / SnowRunner #20", "start": 0},
       {"id": "outlast", "segment": "1141635163", "name": "Outlast #1 / SCP Terror Hunt #6", "start": 0},
       {"id": "events", "segment": "1142576899", "name": "Розыгрыш ROG Zephyrus G14 Alan Walker / Outlast #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "webbed", "segment": "1146553591", "name": "Webbed #1 / Outlast - Whistleblower / SCP Terror Hunt #7", "start": 0},
       {"id": "deathloop", "segment": "1147476304", "name": "Deathloop #1", "start": 0},
       {"id": "deathloop", "segment": "1148404879", "name": "Deathloop #2", "start": 0},
-      {"id": "deathloop", "segment": "1149326407", "name": "Deathloop #3", "start": 0}
+      {"id": "deathloop", "segment": "1149326407", "name": "Deathloop #3", "start": 0},
+      {"id": "valheim", "segment": "1152244966", "name": "Valheim (с Дашей и Джеком) #10 (Hearth & Home)", "start": 0}
     ]
   },
   "finished": {
