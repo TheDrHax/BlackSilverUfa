@@ -7842,14 +7842,12 @@
     "youtube": "pxdxNDIw35s", "official": false, "abs_start": "0:00", "abs_end": "5:45:41", "duration": "5:45:41",
     "name": "Genshin Impact #2 (заново, PC)",
     "date": "2021-07-18",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1090437240.torrent",
     "games": ["genshin-impact"]
   },
   "1091562344": {
     "youtube": "379wKc6pB44", "official": false, "abs_start": "0:00", "abs_end": "2:44:27", "duration": "2:44:27",
     "name": "Game For Anna / Fears to Fathom: Home Alone",
     "date": "2021-07-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1091562344.torrent",
     "games": ["single"]
   },
   "1092418023": {
@@ -8174,10 +8172,10 @@
   },
   "1143525237": {
     "youtube": "E1grG3nfoDI", "abs_start": "0:00", "abs_end": "8:03:05", "duration": "8:03:05",
-    "name": "Tales of Arise / Life is Strange: True Colors / PlayStation Showcase 2021",
+    "name": "Tales of Arise / Life is Strange: True Colors #1 / PlayStation Showcase 2021",
     "date": "2021-09-09",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1143525237.torrent",
-    "games": ["first", "expos"]
+    "games": ["first", "life-is-strange-3", "expos"]
   },
   "1145536174": {
     "youtube": "OhblOpX0qRg", "abs_start": "0:00", "abs_end": "3:14:14", "duration": "3:14:14",
@@ -8221,5 +8219,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1152244966.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1152244966.torrent",
     "games": ["valheim"]
+  },
+  "1153177731": {
+    "abs_start": "0:00", "abs_end": "7:03:05", "duration": "0:00",
+    "name": "Life is Strange: True Colors #2",
+    "date": "2021-09-19",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1153177731.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1153177731.torrent",
+    "games": ["life-is-strange-3"]
   }
 }
