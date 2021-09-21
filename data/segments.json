@@ -7860,8 +7860,6 @@
     "abs_start": "0:00", "abs_end": "34:41", "duration": "0:00",
     "name": "",
     "date": "2021-07-21",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1093482724.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1093482724.torrent",
     "games": []
   },
   "1093514203": {
@@ -8231,5 +8229,13 @@
     "date": "2021-09-20",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1154121803.torrent",
     "games": ["single", "first"]
+  },
+  "1155016315": {
+    "abs_start": "0:00", "abs_end": "6:07:45", "duration": "0:00",
+    "name": "Kena: Bridge of Spirits / Potion Craft",
+    "date": "2021-09-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1155016315.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1155016315.torrent",
+    "games": ["first"]
   }
 }

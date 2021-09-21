@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "events", "segment": "1142576899", "name": "Розыгрыш ROG Zephyrus G14 Alan Walker / Outlast #2", "start": 0},
       {"id": "first", "segment": "1143525237", "name": "Tales of Arise / Life is Strange: True Colors #1 / PlayStation Showcase 2021", "start": 0},
       {"id": "cod-vanguard", "segment": "1145536174", "name": "Call of Duty: Vanguard #2 (с WLG и Bale)", "start": 0},
       {"id": "webbed", "segment": "1146553591", "name": "Webbed #1 / Outlast - Whistleblower / SCP Terror Hunt #7", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "deathloop", "segment": "1149326407", "name": "Deathloop #3", "start": 0},
       {"id": "valheim", "segment": "1152244966", "name": "Valheim (с Дашей и Джеком) #10 (Hearth & Home)", "start": 0},
       {"id": "life-is-strange-3", "segment": "1153177731", "name": "Life is Strange: True Colors #2", "start": 0},
-      {"id": "single", "segment": "1154121803", "name": "Bright Lights of Svetlov / Peace, Death! 2 / I Am Fish / Despot's Game", "start": 0}
+      {"id": "single", "segment": "1154121803", "name": "Bright Lights of Svetlov / Peace, Death! 2 / I Am Fish / Despot's Game", "start": 0},
+      {"id": "first", "segment": "1155016315", "name": "Kena: Bridge of Spirits / Potion Craft", "start": 0}
     ]
   },
   "finished": {
@@ -631,7 +631,9 @@
       {"id": "first", "segment": "1143525237", "name": "Tales of Arise", "start": 0},
       {"id": "first", "segment": "1154121803", "name": "Peace, Death! 2", "start": 8519},
       {"id": "first", "segment": "1154121803", "name": "I Am Fish", "start": 10476},
-      {"id": "first", "segment": "1154121803", "name": "Despot's Game", "start": 14417}
+      {"id": "first", "segment": "1154121803", "name": "Despot's Game", "start": 14417},
+      {"id": "first", "segment": "1155016315", "name": "Kena: Bridge of Spirits", "start": 0},
+      {"id": "first", "segment": "1155016315", "name": "Potion Craft", "start": 14340}
     ]
   },
   "ongoing": {
