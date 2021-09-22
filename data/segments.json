@@ -7866,8 +7866,6 @@
     "abs_start": "0:00", "abs_end": "7:22", "duration": "0:00",
     "name": "",
     "date": "2021-07-21",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1093514203.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1093514203.torrent",
     "games": []
   },
   "1093482724,1093514203": {
@@ -7875,23 +7873,18 @@
     "name": "The Legend of Zelda: Skyward Sword HD #2",
     "date": "2021-07-21",
     "offsets": [0, 2020],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1093482724,1093514203.torrent",
     "games": ["tloz-sshd"]
   },
   "1093719957": {
     "abs_start": "0:00", "abs_end": "11:16", "duration": "0:00",
     "name": "",
     "date": "2021-07-21",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1093719957.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1093719957.torrent",
     "games": []
   },
   "1093732841": {
     "abs_start": "0:00", "abs_end": "50:14", "duration": "0:00",
     "name": "",
     "date": "2021-07-21",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1093732841.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1093732841.torrent",
     "games": []
   },
   "1093719957,1093732841": {
@@ -7899,15 +7892,12 @@
     "name": "Demon's Souls Remake - Тестовый стрим (NG+)",
     "date": "2021-07-21",
     "offsets": [0, 659],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1093719957,1093732841.torrent",
     "games": ["demons-souls-remake"]
   },
   "1095567001": {
     "abs_start": "0:00", "abs_end": "5:26:14", "duration": "0:00",
     "name": "",
     "date": "2021-07-23",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1095567001.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1095567001.torrent",
     "games": []
   },
   "1095811167": {
@@ -8232,10 +8222,18 @@
   },
   "1155016315": {
     "abs_start": "0:00", "abs_end": "6:07:45", "duration": "0:00",
-    "name": "Kena: Bridge of Spirits / Potion Craft",
+    "name": "Kena: Bridge of Spirits #1 / Potion Craft",
     "date": "2021-09-21",
     "direct": "https://bsufiles.thedrhax.pw/streams/1155016315.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1155016315.torrent",
-    "games": ["first"]
+    "games": ["kena-bos", "first"]
+  },
+  "1155904215": {
+    "abs_start": "0:00", "abs_end": "7:21:53", "duration": "0:00",
+    "name": "Kena: Bridge of Spirits #2 / Fortnite (с Дашей и Джеком)",
+    "date": "2021-09-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1155904215.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1155904215.torrent",
+    "games": ["kena-bos", "co-op"]
   }
 }
