@@ -7905,8 +7905,6 @@
     "abs_start": "0:00", "abs_end": "1:01:17", "duration": "0:00",
     "name": "",
     "date": "2021-07-23",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1095811167.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1095811167.torrent",
     "games": []
   },
   "1095567001,1095811167": {
@@ -7920,7 +7918,6 @@
     "youtube": "w9UQFuMiblg", "abs_start": "0:00", "abs_end": "6:55:20", "duration": "6:55:20",
     "name": "Grounded #5 (3D)",
     "date": "2021-07-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1096585533.torrent",
     "games": ["grounded"]
   },
   "1098539430": {
@@ -8233,5 +8230,13 @@
     "date": "2021-09-22",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1155904215.torrent",
     "games": ["kena-bos", "co-op"]
+  },
+  "1156860249": {
+    "abs_start": "0:00", "abs_end": "7:02:01", "duration": "0:00",
+    "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком)",
+    "date": "2021-09-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1156860249.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1156860249.torrent",
+    "games": ["first", "valheim", "co-op"]
   }
 }
