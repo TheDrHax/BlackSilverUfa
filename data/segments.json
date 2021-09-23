@@ -5141,9 +5141,10 @@
     "games": ["dark-messiah"]
   },
   "545136550": {
-    "youtube": "R6qnd6Ur-98", "official": false, "abs_start": "0:00", "abs_end": "5:43:58", "duration": "5:43:58",
+    "abs_start": "0:00", "abs_end": "5:44:23", "duration": "0:00",
     "name": "Spore #4 / The Sims 4 #2",
     "date": "2020-02-01",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/545136550.mp4",
     "games": ["spore", "sims-4"]
   },
   "545709814": {
@@ -7913,7 +7914,6 @@
     "name": "Noosphere / I'm on Observation Duty - Часть 2 #1 / Ghost Hunters Corp #1 / GeoGuessr #9",
     "date": "2021-07-23",
     "offsets": [0, 19538],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1095567001,1095811167.torrent",
     "games": ["first", "observation-duty", "ghcorp", "geoguessr"]
   },
   "1096585533": {
