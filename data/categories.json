@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "webbed", "segment": "1146553591", "name": "Webbed #1 / Outlast - Whistleblower / SCP Terror Hunt #7", "start": 0},
       {"id": "deathloop", "segment": "1147476304", "name": "Deathloop #1", "start": 0},
       {"id": "deathloop", "segment": "1148404879", "name": "Deathloop #2", "start": 0},
       {"id": "deathloop", "segment": "1149326407", "name": "Deathloop #3", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "single", "segment": "1154121803", "name": "Bright Lights of Svetlov / Peace, Death! 2 / I Am Fish / Despot's Game", "start": 0},
       {"id": "kena-bos", "segment": "1155016315", "name": "Kena: Bridge of Spirits #1 / Potion Craft", "start": 0},
       {"id": "kena-bos", "segment": "1155904215", "name": "Kena: Bridge of Spirits #2 / Fortnite (с Дашей и Джеком)", "start": 0},
-      {"id": "first", "segment": "1156860249", "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком)", "start": 0}
+      {"id": "first", "segment": "1156860249", "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком)", "start": 0},
+      {"id": "death-stranding", "segment": "1161558202,1161662373", "name": "Death Stranding #5 (Director's Cut) / UnMetal #1", "start": 0}
     ]
   },
   "finished": {
@@ -195,7 +195,6 @@
       {"id": "single", "segment": "697191590", "name": "Redundancy", "start": 7645},
       {"id": "single", "segment": "697191590", "name": "Re:Turn (демо)", "start": 15370},
       {"name": "The Baby in Yellow", "id": "baby-in-yellow", "segment": "697191590"},
-      {"id": "single", "segment": "700057034", "name": "UnMetal (демо)", "start": 0},
       {"name": "Fast & Furious: Crossroads", "id": "fnf-crossroads", "segment": "719986899"},
       {"name": "Mafia: Definitive Edition", "id": "mafia-de", "segment": "721969297.1"},
       {"name": "The Dark Pictures: Little Hope", "id": "little-hope", "segment": "725080998"},
@@ -639,6 +638,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "UnMetal", "id": "unmetal", "segment": "700057034"},
       {"name": "Webbed", "id": "webbed", "segment": "767249770"},
       {"name": "Pathfinder: Wrath of the Righteous", "id": "pathfinder", "segment": "1033590091"},
       {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"}
