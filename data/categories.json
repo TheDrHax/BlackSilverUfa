@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "deathloop", "segment": "1147476304", "name": "Deathloop #1", "start": 0},
       {"id": "deathloop", "segment": "1148404879", "name": "Deathloop #2", "start": 0},
       {"id": "deathloop", "segment": "1149326407", "name": "Deathloop #3", "start": 0},
       {"id": "valheim", "segment": "1152244966", "name": "Valheim (с Дашей и Джеком) #10 (Hearth & Home)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "kena-bos", "segment": "1155016315", "name": "Kena: Bridge of Spirits #1 / Potion Craft", "start": 0},
       {"id": "kena-bos", "segment": "1155904215", "name": "Kena: Bridge of Spirits #2 / Fortnite (с Дашей и Джеком)", "start": 0},
       {"id": "first", "segment": "1156860249", "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком)", "start": 0},
-      {"id": "death-stranding", "segment": "1161558202,1161662373", "name": "Death Stranding #5 (Director's Cut) / UnMetal #1", "start": 0}
+      {"id": "death-stranding", "segment": "1161558202,1161662373", "name": "Death Stranding #5 (Director's Cut) / UnMetal #1", "start": 0},
+      {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption (демо) / UnMetal #2", "start": 0}
     ]
   },
   "finished": {
@@ -632,7 +632,10 @@
       {"id": "first", "segment": "1154121803", "name": "I Am Fish", "start": 10476},
       {"id": "first", "segment": "1154121803", "name": "Despot's Game", "start": 14417},
       {"id": "first", "segment": "1155016315", "name": "Potion Craft", "start": 14340},
-      {"id": "first", "segment": "1156860249", "name": "Tails of Iron", "start": 0}
+      {"id": "first", "segment": "1156860249", "name": "Tails of Iron", "start": 0},
+      {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо)", "start": 0},
+      {"id": "first", "segment": "1162515299", "name": "Dagon (демо)", "start": 10791},
+      {"id": "first", "segment": "1162515299", "name": "Inscryption (демо)", "start": 13323}
     ]
   },
   "ongoing": {
