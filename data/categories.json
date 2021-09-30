@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "deathloop", "segment": "1148404879", "name": "Deathloop #2", "start": 0},
       {"id": "deathloop", "segment": "1149326407", "name": "Deathloop #3", "start": 0},
       {"id": "valheim", "segment": "1152244966", "name": "Valheim (с Дашей и Джеком) #10 (Hearth & Home)", "start": 0},
       {"id": "life-is-strange-3", "segment": "1153177731", "name": "Life is Strange: True Colors #2", "start": 0},
       {"id": "single", "segment": "1154121803", "name": "Bright Lights of Svetlov / Peace, Death! 2 / I Am Fish / Despot's Game", "start": 0},
       {"id": "kena-bos", "segment": "1155016315", "name": "Kena: Bridge of Spirits #1 / Potion Craft", "start": 0},
       {"id": "kena-bos", "segment": "1155904215", "name": "Kena: Bridge of Spirits #2 / Fortnite (с Дашей и Джеком)", "start": 0},
-      {"id": "first", "segment": "1156860249", "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком)", "start": 0},
+      {"id": "first", "segment": "1156860249", "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком) #1", "start": 0},
       {"id": "death-stranding", "segment": "1161558202,1161662373", "name": "Death Stranding #5 (Director's Cut) / UnMetal #1", "start": 0},
-      {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption (демо) / UnMetal #2", "start": 0}
+      {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption (демо) / UnMetal #2", "start": 0},
+      {"id": "wwz-aftermath", "segment": "1163417606", "name": "World War Z: Aftermath (с Дашей и Джеком) #2 / Dying 2 Know #3 / Dying Light #2", "start": 0}
     ]
   },
   "finished": {
@@ -602,8 +602,6 @@
       {"id": "first", "segment": "1072311121", "name": "Call of Duty: Mobile", "start": 0},
       {"id": "first", "segment": "1072311121", "name": "Клуб Романтики", "start": 7893},
       {"id": "first", "segment": "1072311121", "name": "Sky: Children of the Light", "start": 9565},
-      {"id": "first", "segment": "1073309664", "name": "Dying Light", "start": 0},
-      {"id": "first", "segment": "1073309664", "name": "Dying Light", "start": 27413},
       {"id": "first", "segment": "1081385499,1081403044", "name": "Black Skylands", "start": 6522},
       {"id": "first", "segment": "1092418023", "name": "Death's Door", "start": 0},
       {"id": "first", "segment": "1092418023", "name": "Underwater", "start": 4905},
@@ -644,6 +642,7 @@
       {"name": "UnMetal", "id": "unmetal", "segment": "700057034"},
       {"name": "Webbed", "id": "webbed", "segment": "767249770"},
       {"name": "Pathfinder: Wrath of the Righteous", "id": "pathfinder", "segment": "1033590091"},
+      {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
       {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"}
     ]
   },
@@ -968,7 +967,7 @@
       {"name": "Call of Duty: Vanguard", "id": "cod-vanguard", "segment": "1130997492"},
       {"id": "co-op", "segment": "1134934289", "name": "KeyWe", "start": 16937},
       {"id": "co-op", "segment": "1155904215", "name": "Fortnite (с Дашей и Джеком)", "start": 18198},
-      {"id": "co-op", "segment": "1156860249", "name": "World War Z: Aftermath (с Дашей и Джеком)", "start": 11061}
+      {"name": "World War Z: Aftermath (с Дашей и Джеком)", "id": "wwz-aftermath", "segment": "1156860249"}
     ]
   },
   "other": {

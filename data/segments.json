@@ -7752,9 +7752,9 @@
   },
   "1073309664": {
     "youtube": "wFqobUvb3lQ", "official": false, "abs_start": "0:00", "abs_end": "9:23:18", "duration": "9:23:18",
-    "name": "Dying Light / Dying 2 Know #2",
+    "name": "Dying Light #1 / Dying 2 Know #2",
     "date": "2021-07-01",
-    "games": ["first", "dying-2-know"]
+    "games": ["dying-light", "dying-2-know"]
   },
   "1081385499": {
     "abs_start": "0:00", "abs_end": "28:16", "duration": "0:00",
@@ -7941,7 +7941,6 @@
     "youtube": "85y0_yhYJAc", "abs_start": "0:00", "abs_end": "4:15:29", "duration": "4:15:29",
     "name": "Sea of Thieves #13 (A Pirate's Life)",
     "date": "2021-07-29",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1101797325.torrent",
     "games": ["sea-of-thieves"]
   },
   "1102702263": {
@@ -8229,10 +8228,10 @@
   },
   "1156860249": {
     "youtube": "Ulea2txwQ1c", "abs_start": "0:00", "abs_end": "7:01:53", "duration": "7:01:53",
-    "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком)",
+    "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком) #1",
     "date": "2021-09-23",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1156860249.torrent",
-    "games": ["first", "valheim", "co-op"]
+    "games": ["first", "valheim", "wwz-aftermath"]
   },
   "1161558202": {
     "abs_start": "0:00", "abs_end": "2:49:23", "duration": "0:00",
@@ -8264,5 +8263,13 @@
     "date": "2021-09-29",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1162515299.torrent",
     "games": ["first", "unmetal"]
+  },
+  "1163417606": {
+    "abs_start": "0:00", "abs_end": "7:27:14", "duration": "0:00",
+    "name": "World War Z: Aftermath (с Дашей и Джеком) #2 / Dying 2 Know #3 / Dying Light #2",
+    "date": "2021-09-30",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1163417606.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1163417606.torrent",
+    "games": ["wwz-aftermath", "dying-2-know", "dying-light"]
   }
 }
