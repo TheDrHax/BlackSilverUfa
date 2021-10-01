@@ -7177,9 +7177,9 @@
   },
   "958844668": {
     "youtube": "er5dLLEL0rU", "abs_start": "0:00", "abs_end": "7:02:47", "duration": "7:02:47",
-    "name": "The Eternal Cylinder / Wanted Raccoon / SnowRunner #16",
+    "name": "The Eternal Cylinder - Ранний доступ / Wanted Raccoon / SnowRunner #16",
     "date": "2021-03-22",
-    "games": ["first", "snowrunner"]
+    "games": ["eternal-cylinder", "first", "snowrunner"]
   },
   "961225183": {
     "youtube": "dd2nTLH_EGs", "official": false, "abs_start": "0:00", "abs_end": "5:51:17", "duration": "5:51:17",
@@ -7947,7 +7947,6 @@
     "youtube": "wMWtRxrtgg8", "official": false, "abs_start": "0:00", "abs_end": "6:50:21", "duration": "6:50:21",
     "name": "Microsoft Flight Simulator / The Ascent / I'm on Observation Duty - Часть 2 #2 / I'm on Observation Duty - Часть 3",
     "date": "2021-07-30",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1102702263.torrent",
     "games": ["first", "observation-duty"]
   },
   "1103759348": {
@@ -8270,5 +8269,13 @@
     "date": "2021-09-30",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1163417606.torrent",
     "games": ["wwz-aftermath", "dying-2-know", "dying-light"]
+  },
+  "1164327068": {
+    "abs_start": "0:00", "abs_end": "6:16:08", "duration": "0:00",
+    "name": "Industria / The Eternal Cylinder - Релиз",
+    "date": "2021-10-01",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1164327068.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1164327068.torrent",
+    "games": ["single", "eternal-cylinder"]
   }
 }

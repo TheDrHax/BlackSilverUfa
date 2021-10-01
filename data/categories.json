@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "deathloop", "segment": "1149326407", "name": "Deathloop #3", "start": 0},
       {"id": "valheim", "segment": "1152244966", "name": "Valheim (с Дашей и Джеком) #10 (Hearth & Home)", "start": 0},
       {"id": "life-is-strange-3", "segment": "1153177731", "name": "Life is Strange: True Colors #2", "start": 0},
       {"id": "single", "segment": "1154121803", "name": "Bright Lights of Svetlov / Peace, Death! 2 / I Am Fish / Despot's Game", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1156860249", "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком) #1", "start": 0},
       {"id": "death-stranding", "segment": "1161558202,1161662373", "name": "Death Stranding #5 (Director's Cut) / UnMetal #1", "start": 0},
       {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption (демо) / UnMetal #2", "start": 0},
-      {"id": "wwz-aftermath", "segment": "1163417606", "name": "World War Z: Aftermath (с Дашей и Джеком) #2 / Dying 2 Know #3 / Dying Light #2", "start": 0}
+      {"id": "wwz-aftermath", "segment": "1163417606", "name": "World War Z: Aftermath (с Дашей и Джеком) #2 / Dying 2 Know #3 / Dying Light #2", "start": 0},
+      {"id": "single", "segment": "1164327068", "name": "Industria / The Eternal Cylinder - Релиз", "start": 0}
     ]
   },
   "finished": {
@@ -280,7 +280,8 @@
       {"name": "Outlast", "id": "outlast", "segment": "1141635163"},
       {"name": "Life is Strange: True Colors", "id": "life-is-strange-3", "segment": "1143525237"},
       {"name": "Deathloop", "id": "deathloop", "segment": "1147476304"},
-      {"id": "single", "segment": "1154121803", "name": "Bright Lights of Svetlov", "start": 0}
+      {"id": "single", "segment": "1154121803", "name": "Bright Lights of Svetlov", "start": 0},
+      {"id": "single", "segment": "1164327068", "name": "Industria", "start": 0}
     ]
   },
   "first": {
@@ -565,7 +566,6 @@
       {"id": "first", "segment": "950210383", "name": "Lust from Beyond", "start": 0},
       {"id": "first", "segment": "950210383", "name": "Dead Rising", "start": 11197},
       {"id": "first", "segment": "953865835", "name": "ALTF4", "start": 0},
-      {"id": "first", "segment": "958844668", "name": "The Eternal Cylinder", "start": 0},
       {"id": "first", "segment": "958844668", "name": "Wanted Raccoon", "start": 14994},
       {"id": "first", "segment": "967584774", "name": "Spacebase Startopia", "start": 0},
       {"id": "first", "segment": "971240375", "name": "Super Seducer 3", "start": 0},
@@ -641,6 +641,7 @@
     "games": [
       {"name": "UnMetal", "id": "unmetal", "segment": "700057034"},
       {"name": "Webbed", "id": "webbed", "segment": "767249770"},
+      {"name": "The Eternal Cylinder", "id": "eternal-cylinder", "segment": "958844668"},
       {"name": "Pathfinder: Wrath of the Righteous", "id": "pathfinder", "segment": "1033590091"},
       {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
       {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"}
