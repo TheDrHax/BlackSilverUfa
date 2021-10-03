@@ -7953,7 +7953,6 @@
     "youtube": "Tz7YAKXkea8", "abs_start": "0:00", "abs_end": "4:51:48", "duration": "4:51:48",
     "name": "Fallout 76 #2 (с Дашей и Джеком)",
     "date": "2021-07-31",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1103759348.torrent",
     "games": ["fallout-76"]
   },
   "1105750453": {
@@ -8276,5 +8275,13 @@
     "date": "2021-10-01",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1164327068.torrent",
     "games": ["single", "eternal-cylinder"]
+  },
+  "1166311485": {
+    "abs_start": "0:00", "abs_end": "4:17:22", "duration": "0:00",
+    "name": "Matanga 2 / UnMetal #3",
+    "date": "2021-10-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1166311485.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1166311485.torrent",
+    "games": ["single", "unmetal"]
   }
 }
