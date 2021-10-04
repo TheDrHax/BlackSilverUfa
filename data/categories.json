@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "life-is-strange-3", "segment": "1153177731", "name": "Life is Strange: True Colors #2", "start": 0},
       {"id": "single", "segment": "1154121803", "name": "Bright Lights of Svetlov / Peace, Death! 2 / I Am Fish / Despot's Game", "start": 0},
       {"id": "kena-bos", "segment": "1155016315", "name": "Kena: Bridge of Spirits #1 / Potion Craft", "start": 0},
       {"id": "kena-bos", "segment": "1155904215", "name": "Kena: Bridge of Spirits #2 / Fortnite (с Дашей и Джеком)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption (демо) / UnMetal #2", "start": 0},
       {"id": "wwz-aftermath", "segment": "1163417606", "name": "World War Z: Aftermath (с Дашей и Джеком) #2 / Dying 2 Know #3 / Dying Light #2", "start": 0},
       {"id": "single", "segment": "1164327068", "name": "Industria / The Eternal Cylinder - Релиз", "start": 0},
-      {"id": "single", "segment": "1166311485", "name": "Matanga 2 / UnMetal #3", "start": 0}
+      {"id": "single", "segment": "1166311485", "name": "Matanga 2 / UnMetal #3", "start": 0},
+      {"id": "first", "segment": "1167157790", "name": "Alan Wake Remastered / Far Cry 6", "start": 0}
     ]
   },
   "finished": {
@@ -634,7 +634,9 @@
       {"id": "first", "segment": "1156860249", "name": "Tails of Iron", "start": 0},
       {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо)", "start": 0},
       {"id": "first", "segment": "1162515299", "name": "Dagon (демо)", "start": 10791},
-      {"id": "first", "segment": "1162515299", "name": "Inscryption (демо)", "start": 13323}
+      {"id": "first", "segment": "1162515299", "name": "Inscryption (демо)", "start": 13323},
+      {"id": "first", "segment": "1167157790", "name": "Alan Wake Remastered", "start": 0},
+      {"id": "first", "segment": "1167157790", "name": "Far Cry 6", "start": 13241}
     ]
   },
   "ongoing": {

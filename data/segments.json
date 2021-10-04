@@ -7959,7 +7959,6 @@
     "youtube": "X_G9qQg1HxI", "abs_start": "0:00", "abs_end": "7:02:59", "duration": "7:02:59",
     "name": "Star Wars - Redemption / Farmer's Life #1 / Horror Tales: The Wine #1",
     "date": "2021-08-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1105750453.torrent",
     "games": ["first", "farmers-life", "ht-wine"]
   },
   "1106771829": {
@@ -8283,5 +8282,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1166311485.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1166311485.torrent",
     "games": ["single", "unmetal"]
+  },
+  "1167157790": {
+    "abs_start": "0:00", "abs_end": "7:38:03", "duration": "0:00",
+    "name": "Alan Wake Remastered / Far Cry 6",
+    "date": "2021-10-04",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1167157790.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1167157790.torrent",
+    "games": ["first"]
   }
 }
