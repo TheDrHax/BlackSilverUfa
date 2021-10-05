@@ -7965,7 +7965,6 @@
     "youtube": "C3WSsbwhba0", "abs_start": "0:00", "abs_end": "6:53:43", "duration": "6:53:43",
     "name": "HighFleet / Horror Tales: The Wine #2 / Deca",
     "date": "2021-08-03",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1106771829.torrent",
     "games": ["first", "ht-wine"]
   },
   "1108872519": {
@@ -8284,9 +8283,17 @@
   },
   "1167157790": {
     "youtube": "yZWGYBhY7Kc", "abs_start": "0:00", "abs_end": "7:37:48", "duration": "7:37:48",
-    "name": "Alan Wake Remastered / Far Cry 6",
+    "name": "Alan Wake Remastered #1 / Far Cry 6",
     "date": "2021-10-04",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1167157790.torrent",
-    "games": ["first"]
+    "games": ["alan-wake", "first"]
+  },
+  "1168006082": {
+    "abs_start": "0:00", "abs_end": "7:29:40", "duration": "0:00",
+    "name": "Alan Wake Remastered #2",
+    "date": "2021-10-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1168006082.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1168006082.torrent",
+    "games": ["alan-wake"]
   }
 }
