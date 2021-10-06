@@ -125,9 +125,6 @@ def cut_subtitles(cuts: Timecodes, fi: str, fo: str = None):
         raise FileNotFoundError(fi)
 
     def rebase_msg(event):
-        if event.disabled:
-            return None
-
         time = event.start
 
         # Drop all cut messages
@@ -172,8 +169,7 @@ def concatenate_subtitles(stream_list: List[Stream], offsets: Timecodes, fo: str
     r.close()
 
     for event in events():
-        if not event.disabled:
-            w.write(event)
+        w.write(event)
 
     w.close()
 
