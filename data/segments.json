@@ -7971,14 +7971,12 @@
     "youtube": "xqLNOG_wez0", "abs_start": "0:00", "abs_end": "8:08:25", "duration": "8:08:25",
     "name": "LiBER / Сетапы зрителей #7 / Back 4 Blood #1 (Артём, Даша, Таня)",
     "date": "2021-08-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1108872519.torrent",
     "games": ["first", "setups", "b4b"]
   },
   "1109866143": {
     "youtube": "i1XHET0r508", "abs_start": "0:00", "abs_end": "6:28:18", "duration": "6:28:18",
     "name": "Trenches / GeoGuessr #10 / Back 4 Blood #2 (Артём, Даша, Таня)",
     "date": "2021-08-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1109866143.torrent",
     "games": ["single", "geoguessr", "b4b"]
   },
   "1111966540": {
@@ -8295,5 +8293,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1168006082.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1168006082.torrent",
     "games": ["alan-wake"]
+  },
+  "1168913564": {
+    "abs_start": "0:00", "abs_end": "7:54:14", "duration": "0:00",
+    "name": "Alan Wake Remastered #3 / Battlefield 2042 (Артём, Даша, Таня)",
+    "date": "2021-10-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1168913564.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1168913564.torrent",
+    "games": ["alan-wake", "co-op"]
   }
 }

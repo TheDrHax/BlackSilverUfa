@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "kena-bos", "segment": "1155016315", "name": "Kena: Bridge of Spirits #1 / Potion Craft", "start": 0},
       {"id": "kena-bos", "segment": "1155904215", "name": "Kena: Bridge of Spirits #2 / Fortnite (с Дашей и Джеком)", "start": 0},
       {"id": "first", "segment": "1156860249", "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком) #1", "start": 0},
       {"id": "death-stranding", "segment": "1161558202,1161662373", "name": "Death Stranding #5 (Director's Cut) / UnMetal #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "single", "segment": "1164327068", "name": "Industria / The Eternal Cylinder - Релиз", "start": 0},
       {"id": "single", "segment": "1166311485", "name": "Matanga 2 / UnMetal #3", "start": 0},
       {"id": "alan-wake", "segment": "1167157790", "name": "Alan Wake Remastered #1 / Far Cry 6", "start": 0},
-      {"id": "alan-wake", "segment": "1168006082", "name": "Alan Wake Remastered #2", "start": 0}
+      {"id": "alan-wake", "segment": "1168006082", "name": "Alan Wake Remastered #2", "start": 0},
+      {"id": "alan-wake", "segment": "1168913564", "name": "Alan Wake Remastered #3 / Battlefield 2042 (Артём, Даша, Таня)", "start": 0}
     ]
   },
   "finished": {
@@ -644,7 +644,6 @@
       {"name": "UnMetal", "id": "unmetal", "segment": "700057034"},
       {"name": "Webbed", "id": "webbed", "segment": "767249770"},
       {"name": "The Eternal Cylinder", "id": "eternal-cylinder", "segment": "958844668"},
-      {"name": "Pathfinder: Wrath of the Righteous", "id": "pathfinder", "segment": "1033590091"},
       {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
       {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"},
       {"name": "Alan Wake Remastered", "id": "alan-wake", "segment": "1167157790"}
@@ -779,6 +778,7 @@
       {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"},
       {"name": "Until We Die", "id": "until-we-die", "segment": "1021117640"},
       {"name": "Mass Effect 2: Legendary Edition", "id": "me2", "segment": "1023398734"},
+      {"name": "Pathfinder: Wrath of the Righteous", "id": "pathfinder", "segment": "1033590091"},
       {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"},
       {"name": "Scarlet Nexus", "id": "scarlet-nexus", "segment": "1036865162"},
       {"name": "Genshin Impact", "id": "genshin-impact", "segment": "1072311121"},
@@ -971,7 +971,8 @@
       {"name": "Call of Duty: Vanguard", "id": "cod-vanguard", "segment": "1130997492"},
       {"id": "co-op", "segment": "1134934289", "name": "KeyWe", "start": 16937},
       {"id": "co-op", "segment": "1155904215", "name": "Fortnite (с Дашей и Джеком)", "start": 18198},
-      {"name": "World War Z: Aftermath (с Дашей и Джеком)", "id": "wwz-aftermath", "segment": "1156860249"}
+      {"name": "World War Z: Aftermath (с Дашей и Джеком)", "id": "wwz-aftermath", "segment": "1156860249"},
+      {"id": "co-op", "segment": "1168913564", "name": "Battlefield 2042 (Артём, Даша, Таня)", "start": 14453}
     ]
   },
   "other": {
