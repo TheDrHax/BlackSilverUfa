@@ -3,16 +3,16 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "kena-bos", "segment": "1155904215", "name": "Kena: Bridge of Spirits #2 / Fortnite (с Дашей и Джеком)", "start": 0},
       {"id": "first", "segment": "1156860249", "name": "Tails of Iron / Valheim (с Дашей и Джеком) #11 / World War Z: Aftermath (с Дашей и Джеком) #1", "start": 0},
       {"id": "death-stranding", "segment": "1161558202,1161662373", "name": "Death Stranding #5 (Director's Cut) / UnMetal #1", "start": 0},
       {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption (демо) / UnMetal #2", "start": 0},
       {"id": "wwz-aftermath", "segment": "1163417606", "name": "World War Z: Aftermath (с Дашей и Джеком) #2 / Dying 2 Know #3 / Dying Light #2", "start": 0},
       {"id": "single", "segment": "1164327068", "name": "Industria / The Eternal Cylinder - Релиз", "start": 0},
       {"id": "single", "segment": "1166311485", "name": "Matanga 2 / UnMetal #3", "start": 0},
-      {"id": "alan-wake", "segment": "1167157790", "name": "Alan Wake Remastered #1 / Far Cry 6", "start": 0},
+      {"id": "alan-wake", "segment": "1167157790", "name": "Alan Wake Remastered #1 / Far Cry 6 #1", "start": 0},
       {"id": "alan-wake", "segment": "1168006082", "name": "Alan Wake Remastered #2", "start": 0},
-      {"id": "alan-wake", "segment": "1168913564", "name": "Alan Wake Remastered #3 / Battlefield 2042 (Артём, Даша, Таня)", "start": 0}
+      {"id": "alan-wake", "segment": "1168913564", "name": "Alan Wake Remastered #3 / Battlefield 2042 (бета)", "start": 0},
+      {"id": "far-cry-6", "segment": "1169865722", "name": "Far Cry 6 #2", "start": 0}
     ]
   },
   "finished": {
@@ -634,8 +634,7 @@
       {"id": "first", "segment": "1156860249", "name": "Tails of Iron", "start": 0},
       {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо)", "start": 0},
       {"id": "first", "segment": "1162515299", "name": "Dagon (демо)", "start": 10791},
-      {"id": "first", "segment": "1162515299", "name": "Inscryption (демо)", "start": 13323},
-      {"id": "first", "segment": "1167157790", "name": "Far Cry 6", "start": 13219}
+      {"id": "first", "segment": "1162515299", "name": "Inscryption (демо)", "start": 13323}
     ]
   },
   "ongoing": {
@@ -646,6 +645,7 @@
       {"name": "The Eternal Cylinder", "id": "eternal-cylinder", "segment": "958844668"},
       {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
       {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"},
+      {"name": "Far Cry 6", "id": "far-cry-6", "segment": "1167157790"},
       {"name": "Alan Wake Remastered", "id": "alan-wake", "segment": "1167157790"}
     ]
   },
@@ -972,7 +972,7 @@
       {"id": "co-op", "segment": "1134934289", "name": "KeyWe", "start": 16937},
       {"id": "co-op", "segment": "1155904215", "name": "Fortnite (с Дашей и Джеком)", "start": 18198},
       {"name": "World War Z: Aftermath (с Дашей и Джеком)", "id": "wwz-aftermath", "segment": "1156860249"},
-      {"id": "co-op", "segment": "1168913564", "name": "Battlefield 2042 (Артём, Даша, Таня)", "start": 14453}
+      {"id": "co-op", "segment": "1168913564", "name": "Battlefield 2042 (бета)", "start": 14453}
     ]
   },
   "other": {

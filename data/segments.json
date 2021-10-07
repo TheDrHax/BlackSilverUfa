@@ -8281,10 +8281,10 @@
   },
   "1167157790": {
     "youtube": "yZWGYBhY7Kc", "abs_start": "0:00", "abs_end": "7:37:48", "duration": "7:37:48",
-    "name": "Alan Wake Remastered #1 / Far Cry 6",
+    "name": "Alan Wake Remastered #1 / Far Cry 6 #1",
     "date": "2021-10-04",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1167157790.torrent",
-    "games": ["alan-wake", "first"]
+    "games": ["alan-wake", "far-cry-6"]
   },
   "1168006082": {
     "youtube": "sSXZNcd6Xkk", "abs_start": "0:00", "abs_end": "7:29:44", "duration": "7:29:44",
@@ -8295,10 +8295,18 @@
   },
   "1168913564": {
     "youtube": "veiAHEMnkyE", "abs_start": "0:00", "abs_end": "7:52:35", "duration": "7:52:24",
-    "name": "Alan Wake Remastered #3 / Battlefield 2042 (Артём, Даша, Таня)",
+    "name": "Alan Wake Remastered #3 / Battlefield 2042 (бета)",
     "date": "2021-10-06",
     "cuts": [[21220, 21231]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1168913564.torrent",
     "games": ["alan-wake", "co-op"]
+  },
+  "1169865722": {
+    "abs_start": "0:00", "abs_end": "7:34:24", "duration": "0:00",
+    "name": "Far Cry 6 #2",
+    "date": "2021-10-07",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1169865722.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1169865722.torrent",
+    "games": ["far-cry-6"]
   }
 }
