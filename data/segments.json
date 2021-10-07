@@ -8294,9 +8294,10 @@
     "games": ["alan-wake"]
   },
   "1168913564": {
-    "youtube": "veiAHEMnkyE", "abs_start": "0:00", "abs_end": "7:52:24", "duration": "7:52:24",
+    "youtube": "veiAHEMnkyE", "abs_start": "0:00", "abs_end": "7:52:35", "duration": "7:52:24",
     "name": "Alan Wake Remastered #3 / Battlefield 2042 (Артём, Даша, Таня)",
     "date": "2021-10-06",
+    "cuts": [[21220, 21231]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1168913564.torrent",
     "games": ["alan-wake", "co-op"]
   }
