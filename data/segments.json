@@ -7983,14 +7983,12 @@
     "youtube": "JnZc71z5IKk", "abs_start": "0:00", "abs_end": "6:35:53", "duration": "6:35:53",
     "name": "NEO: The World Ends with You / GeoGuessr #11 / Camping Simulator / The Greatest Penguin Heist of All Time / Haunt Chaser / Tricky Towers #31",
     "date": "2021-08-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1111966540.torrent",
     "games": ["first", "geoguessr", "co-op", "tricky-towers"]
   },
   "1113958095": {
     "youtube": "s8Ic4GaSAeg", "abs_start": "0:00", "abs_end": "9:10:41", "duration": "9:10:41",
     "name": "ColdSide / Almost My Floor #1 / SCP Terror Hunt #1",
     "date": "2021-08-10",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1113958095.torrent",
     "games": ["first", "amfloor", "scp-terror-hunt"]
   },
   "1114974794": {
@@ -8307,5 +8305,13 @@
     "date": "2021-10-07",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1169865722.torrent",
     "games": ["far-cry-6"]
+  },
+  "1170802962": {
+    "abs_start": "0:00", "abs_end": "9:11:44", "duration": "0:00",
+    "name": "Metroid Dread / Back 4 Blood #4 (Артём, Даша, Таня)",
+    "date": "2021-10-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1170802962.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1170802962.torrent",
+    "games": ["first", "b4b"]
   }
 }
