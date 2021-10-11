@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "death-stranding", "segment": "1161558202,1161662373", "name": "Death Stranding #5 (Director's Cut) / UnMetal #1", "start": 0},
       {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption (демо) / UnMetal #2", "start": 0},
       {"id": "wwz-aftermath", "segment": "1163417606", "name": "World War Z: Aftermath (с Дашей и Джеком) #2 / Dying 2 Know #3 / Dying Light #2", "start": 0},
       {"id": "single", "segment": "1164327068", "name": "Industria / The Eternal Cylinder - Релиз", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "alan-wake", "segment": "1168006082", "name": "Alan Wake Remastered #2", "start": 0},
       {"id": "alan-wake", "segment": "1168913564", "name": "Alan Wake Remastered #3 / Battlefield 2042 (бета)", "start": 0},
       {"id": "far-cry-6", "segment": "1169865722", "name": "Far Cry 6 #2", "start": 0},
-      {"id": "first", "segment": "1170802962", "name": "Metroid Dread / Back 4 Blood #4 (Артём, Даша, Таня)", "start": 0}
+      {"id": "first", "segment": "1170802962", "name": "Metroid Dread / Back 4 Blood #4 (Артём, Даша, Таня)", "start": 0},
+      {"id": "outlast-2", "segment": "1173702188", "name": "Outlast 2 #1", "start": 0}
     ]
   },
   "finished": {
@@ -452,7 +452,6 @@
       {"id": "first", "segment": "491017258", "name": "Home Sweet Home: Episode II", "start": 11075},
       {"id": "first", "segment": "499849877", "name": "Cooking Simulator", "start": 0},
       {"id": "first", "segment": "499849877", "name": "House Flipper", "start": 9461},
-      {"id": "first", "segment": "502487271", "name": "Outlast 2", "start": 12851},
       {"id": "first", "segment": "504248004", "name": "Need for Speed Heat", "start": 0},
       {"id": "first", "segment": "504248004", "name": "Red Dead Redemption 2 (PC)", "start": 7564},
       {"id": "first", "segment": "504672487", "name": "Planet Zoo", "start": 13824},
@@ -641,6 +640,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Outlast 2", "id": "outlast-2", "segment": "502487271"},
       {"name": "UnMetal", "id": "unmetal", "segment": "700057034"},
       {"name": "Webbed", "id": "webbed", "segment": "767249770"},
       {"name": "The Eternal Cylinder", "id": "eternal-cylinder", "segment": "958844668"},

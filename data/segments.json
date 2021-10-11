@@ -4762,9 +4762,9 @@
   },
   "502487271": {
     "youtube": "zDDRb0wzB-s", "abs_start": "0:00", "abs_end": "5:00:29", "duration": "5:00:29",
-    "name": "Mafia II #1 / Outlast 2",
+    "name": "Mafia II #1 / Outlast 2 - Первый взгляд",
     "date": "2019-11-01",
-    "games": ["mafia-2", "first"]
+    "games": ["mafia-2", "outlast-2"]
   },
   "502940448": {
     "youtube": "iScIVVQgd9E", "abs_start": "0:00", "abs_end": "5:13:53", "duration": "5:13:53",
@@ -8312,5 +8312,13 @@
     "date": "2021-10-08",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1170802962.torrent",
     "games": ["first", "b4b"]
+  },
+  "1173702188": {
+    "abs_start": "0:00", "abs_end": "6:35:44", "duration": "0:00",
+    "name": "Outlast 2 #1",
+    "date": "2021-10-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1173702188.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1173702188.torrent",
+    "games": ["outlast-2"]
   }
 }
