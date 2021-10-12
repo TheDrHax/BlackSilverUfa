@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption (демо) / UnMetal #2", "start": 0},
       {"id": "wwz-aftermath", "segment": "1163417606", "name": "World War Z: Aftermath (с Дашей и Джеком) #2 / Dying 2 Know #3 / Dying Light #2", "start": 0},
       {"id": "single", "segment": "1164327068", "name": "Industria / The Eternal Cylinder - Релиз", "start": 0},
       {"id": "single", "segment": "1166311485", "name": "Matanga 2 / UnMetal #3", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "alan-wake", "segment": "1168913564", "name": "Alan Wake Remastered #3 / Battlefield 2042 (бета)", "start": 0},
       {"id": "far-cry-6", "segment": "1169865722", "name": "Far Cry 6 #2", "start": 0},
       {"id": "first", "segment": "1170802962", "name": "Metroid Dread / Back 4 Blood #4 (Артём, Даша, Таня)", "start": 0},
-      {"id": "outlast-2", "segment": "1173702188", "name": "Outlast 2 #1", "start": 0}
+      {"id": "outlast-2", "segment": "1173702188", "name": "Outlast 2 #1", "start": 0},
+      {"id": "outlast-2", "segment": "1174614634", "name": "Outlast 2 #2", "start": 0}
     ]
   },
   "finished": {
@@ -140,6 +140,7 @@
       {"name": "Fran Bow", "id": "fran-bow", "segment": "489658551"},
       {"id": "single", "segment": "491017258", "name": "Project Nightmares Case 36: Henrietta Kedward", "start": 0},
       {"name": "Mafia: City of Lost Heaven", "id": "mafia", "segment": "495816363"},
+      {"name": "Outlast 2", "id": "outlast-2", "segment": "502487271"},
       {"name": "Mafia II", "id": "mafia-2", "segment": "502487271"},
       {"name": "Death Stranding", "id": "death-stranding", "segment": "505477026"},
       {"id": "single", "segment": "508178551", "name": "Superliminal", "start": 1969},
@@ -640,7 +641,6 @@
   "ongoing": {
     "name": "Активные",
     "games": [
-      {"name": "Outlast 2", "id": "outlast-2", "segment": "502487271"},
       {"name": "UnMetal", "id": "unmetal", "segment": "700057034"},
       {"name": "Webbed", "id": "webbed", "segment": "767249770"},
       {"name": "The Eternal Cylinder", "id": "eternal-cylinder", "segment": "958844668"},

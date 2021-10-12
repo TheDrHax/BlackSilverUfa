@@ -7995,14 +7995,12 @@
     "youtube": "9f4_8j4uLrk", "abs_start": "0:00", "abs_end": "6:09:17", "duration": "6:09:17",
     "name": "Glitchpunk / Almost My Floor #2 / SCP Terror Hunt #2",
     "date": "2021-08-11",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1114974794.torrent",
     "games": ["first", "amfloor", "scp-terror-hunt"]
   },
   "1115988176": {
     "youtube": "ZJ30yKWCjLc", "abs_start": "0:00", "abs_end": "8:13:03", "duration": "8:13:03",
     "name": "Розыгрыш Final Fantasy / SCP Terror Hunt #3 / Back 4 Blood #3 (Артём, Дима)",
     "date": "2021-08-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1115988176.torrent",
     "games": ["events", "scp-terror-hunt", "b4b"]
   },
   "1117002114": {
@@ -8318,6 +8316,14 @@
     "name": "Outlast 2 #1",
     "date": "2021-10-11",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1173702188.torrent",
+    "games": ["outlast-2"]
+  },
+  "1174614634": {
+    "abs_start": "0:00", "abs_end": "4:52:26", "duration": "0:00",
+    "name": "Outlast 2 #2",
+    "date": "2021-10-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1174614634.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1174614634.torrent",
     "games": ["outlast-2"]
   }
 }
