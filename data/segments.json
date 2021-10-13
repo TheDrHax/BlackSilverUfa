@@ -7969,13 +7969,13 @@
   },
   "1108872519": {
     "youtube": "xqLNOG_wez0", "abs_start": "0:00", "abs_end": "8:08:25", "duration": "8:08:25",
-    "name": "LiBER / Сетапы зрителей #7 / Back 4 Blood #1 (Артём, Даша, Таня)",
+    "name": "LiBER / Сетапы зрителей #7 / Back 4 Blood #1",
     "date": "2021-08-05",
     "games": ["first", "setups", "b4b"]
   },
   "1109866143": {
     "youtube": "i1XHET0r508", "abs_start": "0:00", "abs_end": "6:28:18", "duration": "6:28:18",
-    "name": "Trenches / GeoGuessr #10 / Back 4 Blood #2 (Артём, Даша, Таня)",
+    "name": "Trenches / GeoGuessr #10 / Back 4 Blood #2",
     "date": "2021-08-06",
     "games": ["single", "geoguessr", "b4b"]
   },
@@ -8007,7 +8007,6 @@
     "youtube": "bSPE0CKXhc4", "abs_start": "0:00", "abs_end": "6:04:16", "duration": "6:04:16",
     "name": "VoidTrain / Phasmophobia #6 (с Куплиновым и Дангаром)",
     "date": "2021-08-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1117002114.torrent",
     "games": ["first", "phasmophobia"]
   },
   "1119090442": {
@@ -8306,10 +8305,10 @@
   },
   "1170802962": {
     "youtube": "VWpToL3yIjY", "abs_start": "0:00", "abs_end": "9:11:59", "duration": "9:11:59",
-    "name": "Metroid Dread / Back 4 Blood #4 (Артём, Даша, Таня)",
+    "name": "Metroid Dread #1 / Back 4 Blood #4",
     "date": "2021-10-08",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1170802962.torrent",
-    "games": ["first", "b4b"]
+    "games": ["metroid-dread", "b4b"]
   },
   "1173702188": {
     "youtube": "glvrKKsdE8Y", "abs_start": "0:00", "abs_end": "6:35:42", "duration": "6:35:42",
@@ -8324,5 +8323,13 @@
     "date": "2021-10-12",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1174614634.torrent",
     "games": ["outlast-2"]
+  },
+  "1175536520": {
+    "abs_start": "0:00", "abs_end": "5:34:56", "duration": "0:00",
+    "name": "Metroid Dread #2 / Devour #3 / Back 4 Blood #5",
+    "date": "2021-10-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1175536520.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1175536520.torrent",
+    "games": ["metroid-dread", "devour", "b4b"]
   }
 }
