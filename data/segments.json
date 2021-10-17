@@ -8019,7 +8019,6 @@
     "youtube": "N7fS2Konq8M", "abs_start": "0:00", "abs_end": "6:07:12", "duration": "6:07:12",
     "name": "Humankind / Road 96 #1",
     "date": "2021-08-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1120971330.torrent",
     "games": ["first", "road-96"]
   },
   "1122010713": {
@@ -8336,5 +8335,13 @@
     "date": "2021-10-14",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1176446293.torrent",
     "games": ["metroid-dread", "b4b"]
+  },
+  "1179333352": {
+    "abs_start": "0:00", "abs_end": "5:08:47", "duration": "0:00",
+    "name": "World War Z: Aftermath (с Дашей и Джеком) #3",
+    "date": "2021-10-17",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1179333352.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1179333352.torrent",
+    "games": ["wwz-aftermath"]
   }
 }

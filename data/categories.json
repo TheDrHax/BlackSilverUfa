@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "single", "segment": "1166311485", "name": "Matanga 2 / UnMetal #3", "start": 0},
       {"id": "alan-wake", "segment": "1167157790", "name": "Alan Wake Remastered #1 / Far Cry 6 #1", "start": 0},
       {"id": "alan-wake", "segment": "1168006082", "name": "Alan Wake Remastered #2", "start": 0},
       {"id": "alan-wake", "segment": "1168913564", "name": "Alan Wake Remastered #3 / Battlefield 2042 (бета)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "outlast-2", "segment": "1173702188", "name": "Outlast 2 #1", "start": 0},
       {"id": "outlast-2", "segment": "1174614634", "name": "Outlast 2 #2", "start": 0},
       {"id": "metroid-dread", "segment": "1175536520", "name": "Metroid Dread #2 / Devour #3 / Back 4 Blood #5", "start": 0},
-      {"id": "metroid-dread", "segment": "1176446293", "name": "Metroid Dread #3 / Back 4 Blood #6", "start": 0}
+      {"id": "metroid-dread", "segment": "1176446293", "name": "Metroid Dread #3 / Back 4 Blood #6", "start": 0},
+      {"id": "wwz-aftermath", "segment": "1179333352", "name": "World War Z: Aftermath (с Дашей и Джеком) #3", "start": 0}
     ]
   },
   "finished": {
