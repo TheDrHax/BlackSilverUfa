@@ -4978,9 +4978,9 @@
   },
   "524865260": {
     "youtube": "Do6LKdxoE-k", "abs_start": "-0:05", "abs_end": "6:03:17", "duration": "6:03:22",
-    "name": "Trepang2 (демо) / Suite 776 / The Alien Cube (демо) / The Paperman / Alien: Isolation (Extreme + новый ИИ) #1",
+    "name": "Trepang2 (демо) / Suite 776 / The Alien Cube - Демо / The Paperman / Alien: Isolation (Extreme + новый ИИ) #1",
     "date": "2019-12-22",
-    "games": ["first", "single", "alien-isolation-ai"]
+    "games": ["first", "single", "alien-cube", "alien-isolation-ai"]
   },
   "525744926": {
     "youtube": "zx1dANJ3KnM", "abs_start": "0:00", "abs_end": "7:44:27", "duration": "7:44:27",
@@ -8025,7 +8025,6 @@
     "youtube": "RHLK-_v7RlE", "abs_start": "0:00", "abs_end": "6:15:31", "duration": "6:15:31",
     "name": "15 лет Republic of Gamers / Road 96 #2",
     "date": "2021-08-18",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1122010713.torrent",
     "games": ["other", "road-96"]
   },
   "1123005766": {
@@ -8342,5 +8341,13 @@
     "date": "2021-10-17",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1179333352.torrent",
     "games": ["wwz-aftermath"]
+  },
+  "1180156009": {
+    "abs_start": "0:00", "abs_end": "5:33:44", "duration": "0:00",
+    "name": "The Alien Cube - Прохождение",
+    "date": "2021-10-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1180156009.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1180156009.torrent",
+    "games": ["alien-cube"]
   }
 }

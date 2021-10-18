@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "alan-wake", "segment": "1167157790", "name": "Alan Wake Remastered #1 / Far Cry 6 #1", "start": 0},
       {"id": "alan-wake", "segment": "1168006082", "name": "Alan Wake Remastered #2", "start": 0},
       {"id": "alan-wake", "segment": "1168913564", "name": "Alan Wake Remastered #3 / Battlefield 2042 (бета)", "start": 0},
       {"id": "far-cry-6", "segment": "1169865722", "name": "Far Cry 6 #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "outlast-2", "segment": "1174614634", "name": "Outlast 2 #2", "start": 0},
       {"id": "metroid-dread", "segment": "1175536520", "name": "Metroid Dread #2 / Devour #3 / Back 4 Blood #5", "start": 0},
       {"id": "metroid-dread", "segment": "1176446293", "name": "Metroid Dread #3 / Back 4 Blood #6", "start": 0},
-      {"id": "wwz-aftermath", "segment": "1179333352", "name": "World War Z: Aftermath (с Дашей и Джеком) #3", "start": 0}
+      {"id": "wwz-aftermath", "segment": "1179333352", "name": "World War Z: Aftermath (с Дашей и Джеком) #3", "start": 0},
+      {"id": "alien-cube", "segment": "1180156009", "name": "The Alien Cube - Прохождение", "start": 0}
     ]
   },
   "finished": {
@@ -154,7 +154,7 @@
       {"name": "Metal Gear Solid", "id": "mgs", "segment": "521336731"},
       {"name": "Metal Gear Solid 2: Sons of Liberty", "id": "mgs-2", "segment": "521837299"},
       {"id": "single", "segment": "524865260", "name": "Suite 776", "start": 2600},
-      {"id": "single", "segment": "524865260", "name": "The Alien Cube (демо)", "start": 7577},
+      {"name": "The Alien Cube", "id": "alien-cube", "segment": "524865260"},
       {"name": "Alien: Isolation (Extreme + новый ИИ)", "id": "alien-isolation-ai", "segment": "524865260"},
       {"name": "Metal Gear Solid 4: Guns of the Patriots", "id": "mgs-4", "segment": "526101430"},
       {"name": "Halo: Reach", "id": "halo-reach", "segment": "526521156"},
@@ -283,7 +283,8 @@
       {"name": "Deathloop", "id": "deathloop", "segment": "1147476304"},
       {"id": "single", "segment": "1154121803", "name": "Bright Lights of Svetlov", "start": 0},
       {"id": "single", "segment": "1164327068", "name": "Industria", "start": 0},
-      {"id": "single", "segment": "1166311485", "name": "Matanga 2", "start": 0}
+      {"id": "single", "segment": "1166311485", "name": "Matanga 2", "start": 0},
+      {"name": "Alan Wake Remastered", "id": "alan-wake", "segment": "1167157790"}
     ]
   },
   "first": {
@@ -645,7 +646,6 @@
       {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
       {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"},
       {"name": "Far Cry 6", "id": "far-cry-6", "segment": "1167157790"},
-      {"name": "Alan Wake Remastered", "id": "alan-wake", "segment": "1167157790"},
       {"name": "Metroid Dread", "id": "metroid-dread", "segment": "1170802962"}
     ]
   },
