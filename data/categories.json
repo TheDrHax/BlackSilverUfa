@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "alan-wake", "segment": "1168006082", "name": "Alan Wake Remastered #2", "start": 0},
       {"id": "alan-wake", "segment": "1168913564", "name": "Alan Wake Remastered #3 / Battlefield 2042 (бета)", "start": 0},
       {"id": "far-cry-6", "segment": "1169865722", "name": "Far Cry 6 #2", "start": 0},
       {"id": "metroid-dread", "segment": "1170802962", "name": "Metroid Dread #1 / Back 4 Blood #4", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "metroid-dread", "segment": "1175536520", "name": "Metroid Dread #2 / Devour #3 / Back 4 Blood #5", "start": 0},
       {"id": "metroid-dread", "segment": "1176446293", "name": "Metroid Dread #3 / Back 4 Blood #6", "start": 0},
       {"id": "wwz-aftermath", "segment": "1179333352", "name": "World War Z: Aftermath (с Дашей и Джеком) #3", "start": 0},
-      {"id": "alien-cube", "segment": "1180156009", "name": "The Alien Cube - Прохождение", "start": 0}
+      {"id": "alien-cube", "segment": "1180156009", "name": "The Alien Cube - Прохождение", "start": 0},
+      {"id": "single", "segment": "1181039582", "name": "Poppy Playtime / Project Nightmares Case 36: Henrietta Kedward #1 (релиз) / Chasing Static - Прохождение", "start": 0}
     ]
   },
   "finished": {
@@ -138,7 +138,7 @@
       {"id": "single", "segment": "481343199", "name": "Amnesia: The Silver Dream", "start": 0},
       {"id": "single", "segment": "488372344", "name": "Little Misfortune", "start": 0},
       {"name": "Fran Bow", "id": "fran-bow", "segment": "489658551"},
-      {"id": "single", "segment": "491017258", "name": "Project Nightmares Case 36: Henrietta Kedward", "start": 0},
+      {"name": "Project Nightmares Case 36: Henrietta Kedward", "id": "project-nightmares-36", "segment": "491017258"},
       {"name": "Mafia: City of Lost Heaven", "id": "mafia", "segment": "495816363"},
       {"name": "Outlast 2", "id": "outlast-2", "segment": "502487271"},
       {"name": "Mafia II", "id": "mafia-2", "segment": "502487271"},
@@ -254,9 +254,9 @@
       {"name": "Ratchet & Clank: Rift Apart", "id": "rc-rift-apart", "segment": "1052761973"},
       {"id": "single", "segment": "1059978031", "name": "Industria (демо)", "start": 9031},
       {"id": "single", "segment": "1059978031", "name": "Greak: Memories of Azur (демо)", "start": 11213},
-      {"id": "single", "segment": "1059978031", "name": "Chasing Static (демо)", "start": 14069},
       {"id": "single", "segment": "1059978031", "name": "Song of Iron (демо)", "start": 15579},
       {"id": "single", "segment": "1059978031", "name": "Undying Symphony (демо)", "start": 19486},
+      {"name": "Chasing Static", "id": "chasing-static", "segment": "1059978031"},
       {"id": "single", "segment": "1061050549", "name": "They Are Here (демо)", "start": 0},
       {"id": "single", "segment": "1061050549", "name": "Last Village (демо)", "start": 2959},
       {"id": "single", "segment": "1061050549", "name": "Rocket Stop Incident (демо)", "start": 3877},
@@ -284,7 +284,8 @@
       {"id": "single", "segment": "1154121803", "name": "Bright Lights of Svetlov", "start": 0},
       {"id": "single", "segment": "1164327068", "name": "Industria", "start": 0},
       {"id": "single", "segment": "1166311485", "name": "Matanga 2", "start": 0},
-      {"name": "Alan Wake Remastered", "id": "alan-wake", "segment": "1167157790"}
+      {"name": "Alan Wake Remastered", "id": "alan-wake", "segment": "1167157790"},
+      {"id": "single", "segment": "1181039582", "name": "Poppy Playtime", "start": 0}
     ]
   },
   "first": {

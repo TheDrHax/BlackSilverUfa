@@ -4641,9 +4641,9 @@
   },
   "491017258": {
     "youtube": "qM0BbQcgTzM", "abs_start": "0:00", "abs_end": "5:03:09", "duration": "5:03:09",
-    "name": "Project Nightmares Case 36: Henrietta Kedward / Home Sweet Home: Episode II / SCP Containment Breach - Ultimate Edition #2 (релиз)",
+    "name": "Project Nightmares Case 36: Henrietta Kedward - Прохождение (ранний доступ) / Home Sweet Home: Episode II / SCP Containment Breach - Ultimate Edition #2 (релиз)",
     "date": "2019-10-06",
-    "games": ["single", "first", "scp-cb-ultimate"]
+    "games": ["project-nightmares-36", "first", "scp-cb-ultimate"]
   },
   "492261356": {
     "youtube": "bDnCV6484-M", "abs_start": "15:37", "abs_end": "5:01:37", "duration": "4:46:00",
@@ -7704,9 +7704,9 @@
   },
   "1059978031": {
     "youtube": "f_QmR48kHUA", "official": false, "abs_start": "0:00", "abs_end": "6:37:25", "duration": "6:37:25",
-    "name": "The Red Solstice 2: Survivors / Industria (демо) / Greak: Memories of Azur (демо) / Chasing Static (демо) / Song of Iron (демо) / Death Trash (демо) / Undying Symphony (демо) / Bandit Simulator (демо) / Super Bomberman R Online",
+    "name": "The Red Solstice 2: Survivors / Industria (демо) / Greak: Memories of Azur (демо) / Chasing Static - Демо / Song of Iron (демо) / Death Trash (демо) / Undying Symphony (демо) / Bandit Simulator (демо) / Super Bomberman R Online",
     "date": "2021-06-18",
-    "games": ["co-op", "single", "first"]
+    "games": ["co-op", "single", "chasing-static", "first"]
   },
   "1061050549": {
     "youtube": "so-xSwlGgLQ", "official": false, "abs_start": "0:00", "abs_end": "6:18:55", "duration": "6:18:55",
@@ -8031,7 +8031,6 @@
     "youtube": "9liAywwxI7Y", "abs_start": "0:00", "abs_end": "7:32:55", "duration": "7:32:55",
     "name": "SCP Terror Hunt #4 / Twelve Minutes",
     "date": "2021-08-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1123005766.torrent",
     "games": ["scp-terror-hunt", "single"]
   },
   "1125116646": {
@@ -8348,5 +8347,13 @@
     "date": "2021-10-18",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1180156009.torrent",
     "games": ["alien-cube"]
+  },
+  "1181039582": {
+    "abs_start": "0:00", "abs_end": "6:04:24", "duration": "0:00",
+    "name": "Poppy Playtime / Project Nightmares Case 36: Henrietta Kedward #1 (релиз) / Chasing Static - Прохождение",
+    "date": "2021-10-19",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1181039582.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1181039582.torrent",
+    "games": ["single", "project-nightmares-36", "chasing-static"]
   }
 }
