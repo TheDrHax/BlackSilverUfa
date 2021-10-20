@@ -8037,7 +8037,6 @@
     "youtube": "N3TwIN2_dBg", "abs_start": "0:00", "abs_end": "3:53:40", "duration": "3:53:40",
     "name": "ROG Zephyrus G14 Alan Walker / Phasmophobia #7 (с Куплиновым и Дангаром) / Ghost Hunters Corp #2",
     "date": "2021-08-21",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1125116646.torrent",
     "games": ["unboxing", "phasmophobia", "ghcorp"]
   },
   "1125993129": {
@@ -8244,10 +8243,10 @@
   },
   "1162515299": {
     "youtube": "knROpftWh_Q", "abs_start": "0:00", "abs_end": "6:32:06", "duration": "6:32:06",
-    "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption (демо) / UnMetal #2",
+    "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption - Демо / UnMetal #2",
     "date": "2021-09-29",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1162515299.torrent",
-    "games": ["first", "unmetal"]
+    "games": ["first", "inscryption", "unmetal"]
   },
   "1163417606": {
     "youtube": "-Cle9LpAJkk", "abs_start": "0:00", "abs_end": "7:27:09", "duration": "7:27:09",
@@ -8355,5 +8354,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1181039582.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1181039582.torrent",
     "games": ["single", "chasing-static", "project-nightmares-36"]
+  },
+  "1181935075": {
+    "abs_start": "0:00", "abs_end": "6:24:40", "duration": "0:00",
+    "name": "Inscryption - Релиз / Fallout 76 #3 (с Артёмом) / Occult",
+    "date": "2021-10-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1181935075.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1181935075.torrent",
+    "games": ["inscryption", "fallout-76", "co-op"]
   }
 }

@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "alan-wake", "segment": "1168913564", "name": "Alan Wake Remastered #3 / Battlefield 2042 (бета)", "start": 0},
       {"id": "far-cry-6", "segment": "1169865722", "name": "Far Cry 6 #2", "start": 0},
       {"id": "metroid-dread", "segment": "1170802962", "name": "Metroid Dread #1 / Back 4 Blood #4", "start": 0},
       {"id": "outlast-2", "segment": "1173702188", "name": "Outlast 2 #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "metroid-dread", "segment": "1176446293", "name": "Metroid Dread #3 / Back 4 Blood #6", "start": 0},
       {"id": "wwz-aftermath", "segment": "1179333352", "name": "World War Z: Aftermath (с Дашей и Джеком) #3", "start": 0},
       {"id": "alien-cube", "segment": "1180156009", "name": "The Alien Cube - Прохождение", "start": 0},
-      {"id": "single", "segment": "1181039582", "name": "Poppy Playtime / Chasing Static - Прохождение / Project Nightmares Case 36: Henrietta Kedward #1 (релиз)", "start": 0}
+      {"id": "single", "segment": "1181039582", "name": "Poppy Playtime / Chasing Static - Прохождение / Project Nightmares Case 36: Henrietta Kedward #1 (релиз)", "start": 0},
+      {"id": "inscryption", "segment": "1181935075", "name": "Inscryption - Релиз / Fallout 76 #3 (с Артёмом) / Occult", "start": 0}
     ]
   },
   "finished": {
@@ -635,17 +635,18 @@
       {"id": "first", "segment": "1155016315", "name": "Potion Craft", "start": 14340},
       {"id": "first", "segment": "1156860249", "name": "Tails of Iron", "start": 0},
       {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо)", "start": 0},
-      {"id": "first", "segment": "1162515299", "name": "Dagon (демо)", "start": 10791},
-      {"id": "first", "segment": "1162515299", "name": "Inscryption (демо)", "start": 13323}
+      {"id": "first", "segment": "1162515299", "name": "Dagon (демо)", "start": 10791}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Fallout 76", "id": "fallout-76", "segment": "335751293"},
       {"name": "UnMetal", "id": "unmetal", "segment": "700057034"},
       {"name": "The Eternal Cylinder", "id": "eternal-cylinder", "segment": "958844668"},
       {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
       {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"},
+      {"name": "Inscryption", "id": "inscryption", "segment": "1162515299"},
       {"name": "Far Cry 6", "id": "far-cry-6", "segment": "1167157790"},
       {"name": "Metroid Dread", "id": "metroid-dread", "segment": "1170802962"}
     ]
@@ -727,7 +728,6 @@
       {"name": "Super Seducer 2", "id": "super-seducer-2", "segment": "311651965"},
       {"name": "Visage", "id": "visage", "segment": "317879826"},
       {"name": "Red Dead Redemption 2", "id": "rdr2", "segment": "327553236"},
-      {"name": "Fallout 76", "id": "fallout-76", "segment": "335751293"},
       {"name": "Just Cause 4", "id": "just-cause-4", "segment": "343098113"},
       {"name": "Lucius III", "id": "lucius-3", "segment": "349397154.1"},
       {"name": "Star Wars: Knights of the Old Republic II - The Sith Lords", "id": "sw-kotor2", "segment": "352687063"},
@@ -974,7 +974,8 @@
       {"id": "co-op", "segment": "1134934289", "name": "KeyWe", "start": 16937},
       {"id": "co-op", "segment": "1155904215", "name": "Fortnite (с Дашей и Джеком)", "start": 18198},
       {"name": "World War Z: Aftermath (с Дашей и Джеком)", "id": "wwz-aftermath", "segment": "1156860249"},
-      {"id": "co-op", "segment": "1168913564", "name": "Battlefield 2042 (бета)", "start": 14453}
+      {"id": "co-op", "segment": "1168913564", "name": "Battlefield 2042 (бета)", "start": 14453},
+      {"id": "co-op", "segment": "1181935075", "name": "Occult", "start": 14838}
     ]
   },
   "other": {
