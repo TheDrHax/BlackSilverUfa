@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "far-cry-6", "segment": "1169865722", "name": "Far Cry 6 #2", "start": 0},
       {"id": "metroid-dread", "segment": "1170802962", "name": "Metroid Dread #1 / Back 4 Blood #4", "start": 0},
       {"id": "outlast-2", "segment": "1173702188", "name": "Outlast 2 #1", "start": 0},
       {"id": "outlast-2", "segment": "1174614634", "name": "Outlast 2 #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "wwz-aftermath", "segment": "1179333352", "name": "World War Z: Aftermath (с Дашей и Джеком) #3", "start": 0},
       {"id": "alien-cube", "segment": "1180156009", "name": "The Alien Cube - Прохождение", "start": 0},
       {"id": "single", "segment": "1181039582", "name": "Poppy Playtime / Chasing Static - Прохождение / Project Nightmares Case 36: Henrietta Kedward #1 (релиз)", "start": 0},
-      {"id": "inscryption", "segment": "1181935075", "name": "Inscryption - Релиз / Fallout 76 #3 (с Артёмом) / Occult", "start": 0}
+      {"id": "inscryption", "segment": "1181935075", "name": "Inscryption - Релиз / Fallout 76 #3 (с Артёмом) / Occult", "start": 0},
+      {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0}
     ]
   },
   "finished": {
@@ -1012,7 +1012,8 @@
       {"id": "events", "segment": "1115988176", "name": "Розыгрыш Final Fantasy", "start": 0},
       {"id": "other", "segment": "1122010713", "name": "15 лет Republic of Gamers", "start": 0},
       {"id": "events", "segment": "1134934289", "name": "Розыгрыш Hades", "start": 6676},
-      {"id": "events", "segment": "1142576899", "name": "Розыгрыш ROG Zephyrus G14 Alan Walker", "start": 0}
+      {"id": "events", "segment": "1142576899", "name": "Розыгрыш ROG Zephyrus G14 Alan Walker", "start": 0},
+      {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0}
     ]
   },
   "expos": {
