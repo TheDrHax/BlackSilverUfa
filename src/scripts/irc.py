@@ -1,4 +1,10 @@
-"""Usage: irc <source> <start> <duration> <vod>
+"""Usage:
+  irc <source> <start> <duration> <vod>
+  irc --current
+
+Options:
+  --current   Download chat for stream that is currently online. Uses custom
+              API endpoint.
 
 This script converts IRC logs to chat subtitles.
 
@@ -78,10 +84,24 @@ def parser(source: str, start: datetime, duration: datetime):
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
-    source = args['<source>']
-    start = datetime.fromisoformat(args['<start>'])
-    duration = timedelta(seconds=int(Timecode(args['<duration>'])))
-    vod = args['<vod>']
+    if args['--current']:
+        stream = requests.get('https://red.thedrhax.pw/blackufa/twitch').json()
+
+        date = stream['date'].split('T')[0]
+
+        source = f'https://bsufiles.thedrhax.pw/logs/{date}.log'
+        start = datetime.fromisoformat(stream['date'].rstrip('Z'))
+        vod = stream['vod']
+
+        if stream['active']:
+            duration = datetime.now() - start
+        else:
+            duration = timedelta(hours=10)
+    else:
+        source = args['<source>']
+        start = datetime.fromisoformat(args['<start>'])
+        duration = timedelta(seconds=int(Timecode(args['<duration>'])))
+        vod = args['<vod>']
 
     writer = SubtitlesWriter(streams[vod].subtitles_path)
 

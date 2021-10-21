@@ -411,10 +411,10 @@ def cmd_cuts(segment, segment_kwargs, directory=None):
 
 
 def ytdl_best_source(video_id, quality='best'):
-    p = run(['youtube-dl', '-gf', quality, '--', video_id], stdout=PIPE)
+    p = run(['yt-dlp', '-gf', quality, '--', video_id], stdout=PIPE)
 
     if p.returncode != 0:
-        raise RuntimeError(f'youtube-dl exited with non-zero code {p.returncode}')
+        raise RuntimeError(f'yt-dlp exited with non-zero code {p.returncode}')
 
     return p.stdout.decode('utf-8').strip()
 
