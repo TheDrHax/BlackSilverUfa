@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "metroid-dread", "segment": "1170802962", "name": "Metroid Dread #1 / Back 4 Blood #4", "start": 0},
       {"id": "outlast-2", "segment": "1173702188", "name": "Outlast 2 #1", "start": 0},
       {"id": "outlast-2", "segment": "1174614634", "name": "Outlast 2 #2", "start": 0},
       {"id": "metroid-dread", "segment": "1175536520", "name": "Metroid Dread #2 / Devour #3 / Back 4 Blood #5", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "alien-cube", "segment": "1180156009", "name": "The Alien Cube - Прохождение", "start": 0},
       {"id": "single", "segment": "1181039582", "name": "Poppy Playtime / Chasing Static - Прохождение / Project Nightmares Case 36: Henrietta Kedward #1 (релиз)", "start": 0},
       {"id": "inscryption", "segment": "1181935075", "name": "Inscryption - Релиз / Fallout 76 #3 (с Артёмом) / Occult", "start": 0},
-      {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0}
+      {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0},
+      {"id": "house-of-ashes", "segment": "1183729753", "name": "The Dark Pictures: House of Ashes - Прохождение", "start": 0}
     ]
   },
   "finished": {
@@ -277,6 +277,7 @@
       {"name": "Almost My Floor", "id": "amfloor", "segment": "1113958095"},
       {"name": "Road 96", "id": "road-96", "segment": "1120971330"},
       {"id": "single", "segment": "1123005766", "name": "Twelve Minutes", "start": 10717},
+      {"name": "The Dark Pictures: House of Ashes", "id": "house-of-ashes", "segment": "1139746620"},
       {"id": "single", "segment": "1140665211", "name": "Burger & Frights", "start": 0},
       {"name": "Outlast", "id": "outlast", "segment": "1141635163"},
       {"name": "Life is Strange: True Colors", "id": "life-is-strange-3", "segment": "1143525237"},
@@ -625,7 +626,6 @@
       {"id": "first", "segment": "1128973572,1129122818", "name": "King's Bounty 2", "start": 8788},
       {"id": "first", "segment": "1130997492", "name": "Return to Nangrim (демо)", "start": 4300},
       {"id": "first", "segment": "1130997492", "name": "ANNO: Mutationem (демо)", "start": 9756},
-      {"id": "first", "segment": "1139746620", "name": "The Dark Pictures: House of Ashes (демо)", "start": 0},
       {"id": "first", "segment": "1139746620", "name": "Lake", "start": 15268},
       {"id": "first", "segment": "1140665211", "name": "Granny 3", "start": 6642},
       {"id": "first", "segment": "1143525237", "name": "Tales of Arise", "start": 0},
@@ -645,7 +645,6 @@
       {"name": "UnMetal", "id": "unmetal", "segment": "700057034"},
       {"name": "The Eternal Cylinder", "id": "eternal-cylinder", "segment": "958844668"},
       {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
-      {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"},
       {"name": "Inscryption", "id": "inscryption", "segment": "1162515299"},
       {"name": "Far Cry 6", "id": "far-cry-6", "segment": "1167157790"},
       {"name": "Metroid Dread", "id": "metroid-dread", "segment": "1170802962"}
@@ -785,7 +784,8 @@
       {"name": "Scarlet Nexus", "id": "scarlet-nexus", "segment": "1036865162"},
       {"name": "Genshin Impact", "id": "genshin-impact", "segment": "1072311121"},
       {"name": "Farmer's Life", "id": "farmers-life", "segment": "1086385946,1086545283"},
-      {"name": "The Legend of Zelda: Skyward Sword HD", "id": "tloz-sshd", "segment": "1089427413"}
+      {"name": "The Legend of Zelda: Skyward Sword HD", "id": "tloz-sshd", "segment": "1089427413"},
+      {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"}
     ]
   },
   "co-op": {

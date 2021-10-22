@@ -6442,7 +6442,7 @@
   },
   "787564730": {
     "youtube": "Rcw9UkyblkQ", "abs_start": "0:00", "abs_end": "6:47:00", "duration": "6:47:00",
-    "name": "Хэллоуин #2020 / The Dark Pictures: Little Hope #1",
+    "name": "Хэллоуин #2020 / The Dark Pictures: Little Hope - Прохождение",
     "date": "2020-10-31",
     "games": ["halloween", "little-hope"]
   },
@@ -8043,7 +8043,6 @@
     "youtube": "5eXT4wrYVGo", "abs_start": "0:00", "abs_end": "8:50:49", "duration": "8:50:49",
     "name": "Ghost of Tsushima - Director's Cut / Half Dead - Часть 3 / Chased by Darkness / Labyrinthine #2",
     "date": "2021-08-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1125993129.torrent",
     "games": ["tsushima", "half-dead", "co-op", "labyrinthine"]
   },
   "1127979772": {
@@ -8107,10 +8106,10 @@
   },
   "1139746620": {
     "youtube": "3MevAB7Ho8Y", "abs_start": "0:00", "abs_end": "6:07:19", "duration": "6:07:19",
-    "name": "The Dark Pictures: House of Ashes (демо) / Pathfinder: Wrath of the Righteous #1 / Lake",
+    "name": "The Dark Pictures: House of Ashes - Демо / Pathfinder: Wrath of the Righteous #1 / Lake",
     "date": "2021-09-05",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1139746620.torrent",
-    "games": ["first", "pathfinder"]
+    "games": ["house-of-ashes", "pathfinder", "first"]
   },
   "1140665211": {
     "youtube": "bp8oW-ohQFw", "abs_start": "0:00", "abs_end": "6:09:38", "duration": "6:09:38",
@@ -8368,5 +8367,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1182938896.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1182938896.torrent",
     "games": ["other"]
+  },
+  "1183729753": {
+    "abs_start": "0:00", "abs_end": "7:30:29", "duration": "0:00",
+    "name": "The Dark Pictures: House of Ashes - Прохождение",
+    "date": "2021-10-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1183729753.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1183729753.torrent",
+    "games": ["house-of-ashes"]
   }
 }
