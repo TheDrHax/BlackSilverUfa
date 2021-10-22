@@ -379,7 +379,7 @@ export default class SegmentPlayer extends React.Component {
               $merge: {
                 x: x / width,
                 y: y / height,
-              }
+              },
             },
           });
         }}
@@ -405,7 +405,7 @@ export default class SegmentPlayer extends React.Component {
   renderPlayerControls() {
     const {
       toggleFullscreen,
-      segment: { segment, abs_start: absStart },
+      segment: { segment, abs_start: absStart, youtube, official, direct, torrent },
       game: { id: game },
       currentTime,
     } = this.state;
@@ -414,7 +414,51 @@ export default class SegmentPlayer extends React.Component {
       <Row className="no-gutters">
         <Col>
           <div className="player-controls border-top border-bottom">
+            <div className="label mr-2">Смотреть на:</div>
+
+            {!segment.startsWith('00') && (
+              <Button variant="dark" size="sm" className="mr-2" href={`https://twitch.tv/videos/${segment}`} target="blank">
+                <i className="fab fa-twitch" />
+                <span>Twitch</span>
+              </Button>
+            )}
+
+            {youtube ? (
+              <Button
+                href={`https://youtu.be/${youtube}`}
+                target="blank"
+                variant="dark"
+                size="sm"
+                className="mr-2"
+              >
+                <i className="fab fa-youtube" />
+                <span>Youtube ({official === false ? 'неофициальный' : 'официальный'} канал)</span>
+              </Button>
+            ) : (
+              <Button
+                href={direct}
+                variant="dark"
+                size="sm"
+                className="mr-2"
+              >
+                <i className="fas fa-link" />
+                <span>Прямая ссылка</span>
+              </Button>
+            )}
+
             <div className="flex-grow-1" />
+
+            {torrent && (
+              <Button
+                href={torrent}
+                variant="dark"
+                size="sm"
+                className="mr-2"
+              >
+                <i className="fas fa-download" />
+                <span>Скачать торрент</span>
+              </Button>
+            )}
 
             <OverlayTrigger
               trigger="click"
@@ -693,54 +737,6 @@ export default class SegmentPlayer extends React.Component {
               {' '}
               ({Sugar.Date.relative(segment.date)})
             </ListGroup.Item>
-
-            {!segment.segment.startsWith('00') ? (
-              <ListGroup.Item>
-                Источник стрима:
-                {' '}
-                <a href={`https://twitch.tv/videos/${segment.segment}`} target="blank">
-                  <i className="fab fa-twitch" />
-                  <span>Twitch</span>
-                </a>
-                {' '}
-                (ID: <code>{segment.segment}</code>)
-              </ListGroup.Item>
-            ) : (
-              <ListGroup.Item>
-                ID стрима: <code>{segment.segment}</code>
-              </ListGroup.Item>
-            )}
-
-            <ListGroup.Item>
-              Источник записи:
-              {' '}
-              {segment.youtube ? (
-                <>
-                  <a href={`https://youtu.be/${segment.youtube}`} target="blank">
-                    <i className="fab fa-youtube" />
-                    <span>YouTube</span>
-                  </a>
-                  {' '}
-                  ({segment.official === false ? 'неофициальный' : 'официальный'} канал)
-                </>
-              ) : (
-                <a href={segment.direct}>
-                  <i className="fas fa-link" />
-                  <span>Прямая ссылка</span>
-                </a>
-              )}
-            </ListGroup.Item>
-
-            {segment.torrent && (
-              <ListGroup.Item>
-                Торрент:
-                {' '}
-                <a href={segment.torrent}>
-                  <i className="fas fa-download" />
-                  <span>Скачать</span>
-                </a>
-              </ListGroup.Item>
-            )}
           </ListGroup>
         </Col>
       </Row>

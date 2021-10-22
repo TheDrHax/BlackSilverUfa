@@ -660,6 +660,11 @@ i.fab + span, i.fas + span, i.far + span {
   padding: 0.3rem;
   background-color: #{$color-bg-light};
 
+  .label {
+    color: #fff;
+    align-self: center;
+  }
+
   & button {
     @media(max-width: 575px) {
       i + span {
