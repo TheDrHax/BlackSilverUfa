@@ -414,7 +414,7 @@ export default class SegmentPlayer extends React.Component {
       <Row className="no-gutters">
         <Col>
           <div className="player-controls border-top border-bottom">
-            <div className="label mr-2">Смотреть на:</div>
+            <div className="label mr-2 d-none d-xxl-block">Смотреть на:</div>
 
             {!segment.startsWith('00') && (
               <Button variant="dark" size="sm" className="mr-2" href={`https://twitch.tv/videos/${segment}`} target="blank">
@@ -456,7 +456,7 @@ export default class SegmentPlayer extends React.Component {
                 className="mr-2"
               >
                 <i className="fas fa-link" />
-                <span>Прямая ссылка</span>
+                <span>Скачать</span>
               </Button>
             )}
 
@@ -470,7 +470,7 @@ export default class SegmentPlayer extends React.Component {
                 className="mr-2"
               >
                 <i className="fas fa-download" />
-                <span>Скачать торрент</span>
+                <span>Торрент</span>
               </Button>
             )}
 
