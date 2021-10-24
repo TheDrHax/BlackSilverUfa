@@ -8049,7 +8049,6 @@
     "youtube": "We62CZ0BZvA", "abs_start": "0:00", "abs_end": "6:42:28", "duration": "6:42:28",
     "name": "Aliens: Fireteam Elite #1 / Gamescom 2021 - Xbox Stream",
     "date": "2021-08-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1127979772.torrent",
     "games": ["aliens-fe", "gamescom-21"]
   },
   "1128973572": {
@@ -8372,6 +8371,14 @@
     "name": "The Dark Pictures: House of Ashes - Прохождение",
     "date": "2021-10-22",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1183729753.torrent",
+    "games": ["house-of-ashes"]
+  },
+  "1185672025": {
+    "abs_start": "0:00", "abs_end": "4:30:21", "duration": "0:00",
+    "name": "The Dark Pictures: House of Ashes - Злое прохождение",
+    "date": "2021-10-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1185672025.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1185672025.torrent",
     "games": ["house-of-ashes"]
   }
 }
