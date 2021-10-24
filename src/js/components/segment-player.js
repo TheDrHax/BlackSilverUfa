@@ -432,7 +432,21 @@ export default class SegmentPlayer extends React.Component {
                 className="mr-2"
               >
                 <i className="fab fa-youtube" />
-                <span>Youtube ({official === false ? 'неофициальный' : 'официальный'} канал)</span>
+                <span>Youtube</span>
+                <OverlayTrigger
+                  placement="top"
+                  overlay={(
+                    <Tooltip>
+                      {official === false ? 'Неофициальный канал' : 'Официальный канал'}
+                    </Tooltip>
+                  )}
+                >
+                  {official === false ? (
+                    <i className="fas fa-exclamation-circle text-warning" />
+                  ) : (
+                    <i className="fas fa-check-circle text-success" />
+                  )}
+                </OverlayTrigger>
               </Button>
             ) : (
               <Button
