@@ -650,8 +650,14 @@ h3>.badge {
   }
 }
 
-i.fab + span, i.fas + span, i.far + span {
+i.fab + span, i.fas + span, i.far + span, span + i.fas {
   padding-left: 0.25rem;
+}
+
+.d-xxl-block {
+  @media(min-width: 1400px) {
+    display: block !important;
+  }
 }
 
 .player-controls {
@@ -660,8 +666,13 @@ i.fab + span, i.fas + span, i.far + span {
   padding: 0.3rem;
   background-color: #{$color-bg-light};
 
+  & .label {
+    color: #fff;
+    align-self: center;
+  }
+
   & button {
-    @media(max-width: 575px) {
+    @media(max-width: 991px) {
       i + span {
         display: none;
       }
