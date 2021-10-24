@@ -660,7 +660,7 @@ i.fab + span, i.fas + span, i.far + span {
   padding: 0.3rem;
   background-color: #{$color-bg-light};
 
-  .label {
+  & .label {
     color: #fff;
     align-self: center;
   }
