@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "metroid-dread", "segment": "1175536520", "name": "Metroid Dread #2 / Devour #3 / Back 4 Blood #5", "start": 0},
       {"id": "metroid-dread", "segment": "1176446293", "name": "Metroid Dread #3 / Back 4 Blood #6", "start": 0},
       {"id": "wwz-aftermath", "segment": "1179333352", "name": "World War Z: Aftermath (с Дашей и Джеком) #3", "start": 0},
       {"id": "alien-cube", "segment": "1180156009", "name": "The Alien Cube - Прохождение", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0},
       {"id": "house-of-ashes", "segment": "1183729753", "name": "The Dark Pictures: House of Ashes - Прохождение", "start": 0},
       {"id": "house-of-ashes", "segment": "1185672025", "name": "The Dark Pictures: House of Ashes - Злое прохождение", "start": 0},
-      {"id": "first", "segment": "1186535358", "name": "Marvel's Guardians of the Galaxy", "start": 0}
+      {"id": "marvel-gotg", "segment": "1186535358", "name": "Marvel's Guardians of the Galaxy #1", "start": 0},
+      {"id": "marvel-gotg", "segment": "1187388604", "name": "Marvel's Guardians of the Galaxy #2", "start": 0}
     ]
   },
   "finished": {
@@ -635,8 +635,7 @@
       {"id": "first", "segment": "1155016315", "name": "Potion Craft", "start": 14340},
       {"id": "first", "segment": "1156860249", "name": "Tails of Iron", "start": 0},
       {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо)", "start": 0},
-      {"id": "first", "segment": "1162515299", "name": "Dagon (демо)", "start": 10791},
-      {"id": "first", "segment": "1186535358", "name": "Marvel's Guardians of the Galaxy", "start": 0}
+      {"id": "first", "segment": "1162515299", "name": "Dagon (демо)", "start": 10791}
     ]
   },
   "ongoing": {
@@ -648,7 +647,8 @@
       {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
       {"name": "Inscryption", "id": "inscryption", "segment": "1162515299"},
       {"name": "Far Cry 6", "id": "far-cry-6", "segment": "1167157790"},
-      {"name": "Metroid Dread", "id": "metroid-dread", "segment": "1170802962"}
+      {"name": "Metroid Dread", "id": "metroid-dread", "segment": "1170802962"},
+      {"name": "Marvel's Guardians of the Galaxy", "id": "marvel-gotg", "segment": "1186535358"}
     ]
   },
   "infinite": {

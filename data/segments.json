@@ -8070,7 +8070,6 @@
     "name": "Bum Simulator / King's Bounty 2 / Gamescom 2021 - Opening Night Live",
     "date": "2021-08-25",
     "offsets": [0, 13206],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1128973572,1129122818.torrent",
     "games": ["first", "gamescom-21"]
   },
   "1129996087": {
@@ -8380,9 +8379,17 @@
   },
   "1186535358": {
     "youtube": "RQmbOu--tm8", "abs_start": "0:00", "abs_end": "7:15:56", "duration": "7:15:56",
-    "name": "Marvel's Guardians of the Galaxy",
+    "name": "Marvel's Guardians of the Galaxy #1",
     "date": "2021-10-25",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1186535358.torrent",
-    "games": ["first"]
+    "games": ["marvel-gotg"]
+  },
+  "1187388604": {
+    "abs_start": "0:00", "abs_end": "8:09:02", "duration": "0:00",
+    "name": "Marvel's Guardians of the Galaxy #2",
+    "date": "2021-10-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1187388604.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1187388604.torrent",
+    "games": ["marvel-gotg"]
   }
 }
