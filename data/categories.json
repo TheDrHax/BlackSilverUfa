@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "metroid-dread", "segment": "1176446293", "name": "Metroid Dread #3 / Back 4 Blood #6", "start": 0},
       {"id": "wwz-aftermath", "segment": "1179333352", "name": "World War Z: Aftermath (с Дашей и Джеком) #3", "start": 0},
       {"id": "alien-cube", "segment": "1180156009", "name": "The Alien Cube - Прохождение", "start": 0},
       {"id": "single", "segment": "1181039582", "name": "Poppy Playtime / Chasing Static - Прохождение / Project Nightmares Case 36: Henrietta Kedward #1 (релиз)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "house-of-ashes", "segment": "1183729753", "name": "The Dark Pictures: House of Ashes - Прохождение", "start": 0},
       {"id": "house-of-ashes", "segment": "1185672025", "name": "The Dark Pictures: House of Ashes - Злое прохождение", "start": 0},
       {"id": "marvel-gotg", "segment": "1186535358", "name": "Marvel's Guardians of the Galaxy #1", "start": 0},
-      {"id": "marvel-gotg", "segment": "1187388604", "name": "Marvel's Guardians of the Galaxy #2", "start": 0}
+      {"id": "marvel-gotg", "segment": "1187388604", "name": "Marvel's Guardians of the Galaxy #2", "start": 0},
+      {"id": "marvel-gotg", "segment": "1188297728", "name": "Marvel's Guardians of the Galaxy #3", "start": 0}
     ]
   },
   "finished": {

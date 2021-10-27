@@ -8061,8 +8061,6 @@
     "abs_start": "0:00", "abs_end": "3:34:00", "duration": "0:00",
     "name": "",
     "date": "2021-08-25",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1129122818.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1129122818.torrent",
     "games": []
   },
   "1128973572,1129122818": {
@@ -8076,7 +8074,6 @@
     "youtube": "Q27ejfPKAlE", "abs_start": "0:00", "abs_end": "8:28:49", "duration": "8:28:49",
     "name": "Riders Republic #1 / Aliens: Fireteam Elite #2 / Gamescom 2021 - Awesome Indies / Gamescom 2021 - Future Games Show",
     "date": "2021-08-26",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1129996087.torrent",
     "games": ["riders-republic", "aliens-fe", "gamescom-21"]
   },
   "1130997492": {
@@ -8389,6 +8386,14 @@
     "name": "Marvel's Guardians of the Galaxy #2",
     "date": "2021-10-26",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1187388604.torrent",
+    "games": ["marvel-gotg"]
+  },
+  "1188297728": {
+    "abs_start": "0:00", "abs_end": "4:16:09", "duration": "0:00",
+    "name": "Marvel's Guardians of the Galaxy #3",
+    "date": "2021-10-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1188297728.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1188297728.torrent",
     "games": ["marvel-gotg"]
   }
 }
