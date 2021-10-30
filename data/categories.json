@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "alien-cube", "segment": "1180156009", "name": "The Alien Cube - Прохождение", "start": 0},
       {"id": "single", "segment": "1181039582", "name": "Poppy Playtime / Chasing Static - Прохождение / Project Nightmares Case 36: Henrietta Kedward #1 (релиз)", "start": 0},
       {"id": "inscryption", "segment": "1181935075", "name": "Inscryption - Релиз / Fallout 76 #3 (с Артёмом) / Occult", "start": 0},
       {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "marvel-gotg", "segment": "1186535358", "name": "Marvel's Guardians of the Galaxy #1", "start": 0},
       {"id": "marvel-gotg", "segment": "1187388604", "name": "Marvel's Guardians of the Galaxy #2", "start": 0},
       {"id": "marvel-gotg", "segment": "1188297728", "name": "Marvel's Guardians of the Galaxy #3", "start": 0},
-      {"id": "first", "segment": "1190164000", "name": "Prognostic / Horror Story: Hallowseed / Last Days of Lazarus (демо)", "start": 0}
+      {"id": "first", "segment": "1190164000", "name": "Prognostic / Horror Story: Hallowseed / Last Days of Lazarus (демо)", "start": 0},
+      {"id": "unboxing", "segment": "1191176581", "name": "ROG Zephyrus S17 / Gartic Phone #4 / Pico Park / Fling to the Finish", "start": 0}
     ]
   },
   "finished": {
@@ -979,7 +979,9 @@
       {"id": "co-op", "segment": "1155904215", "name": "Fortnite (с Дашей и Джеком)", "start": 18198},
       {"name": "World War Z: Aftermath (с Дашей и Джеком)", "id": "wwz-aftermath", "segment": "1156860249"},
       {"id": "co-op", "segment": "1168913564", "name": "Battlefield 2042 (бета)", "start": 14453},
-      {"id": "co-op", "segment": "1181935075", "name": "Occult", "start": 14838}
+      {"id": "co-op", "segment": "1181935075", "name": "Occult", "start": 14838},
+      {"id": "co-op", "segment": "1191176581", "name": "Pico Park", "start": 8391},
+      {"id": "co-op", "segment": "1191176581", "name": "Fling to the Finish", "start": 15305}
     ]
   },
   "other": {
@@ -1070,7 +1072,8 @@
       {"id": "unboxing", "segment": "1017725694", "name": "ROG Gladius III", "start": 0},
       {"id": "unboxing", "segment": "1065051420", "name": "Sony BloggerCam ZV-1", "start": 0},
       {"id": "unboxing", "segment": "1066067703", "name": "ROG Phone 5", "start": 0},
-      {"id": "unboxing", "segment": "1125116646", "name": "ROG Zephyrus G14 Alan Walker", "start": 0}
+      {"id": "unboxing", "segment": "1125116646", "name": "ROG Zephyrus G14 Alan Walker", "start": 0},
+      {"id": "unboxing", "segment": "1191176581", "name": "ROG Zephyrus S17", "start": 0}
     ]
   }
 }
