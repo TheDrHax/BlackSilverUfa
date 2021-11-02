@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "inscryption", "segment": "1181935075", "name": "Inscryption - Релиз / Fallout 76 #3 (с Артёмом) / Occult", "start": 0},
       {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0},
       {"id": "house-of-ashes", "segment": "1183729753", "name": "The Dark Pictures: House of Ashes - Прохождение", "start": 0},
       {"id": "house-of-ashes", "segment": "1185672025", "name": "The Dark Pictures: House of Ashes - Злое прохождение", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "marvel-gotg", "segment": "1188297728", "name": "Marvel's Guardians of the Galaxy #3", "start": 0},
       {"id": "first", "segment": "1190164000", "name": "Prognostic / Horror Story: Hallowseed / Last Days of Lazarus (демо)", "start": 0},
       {"id": "unboxing", "segment": "1191176581", "name": "ROG Zephyrus S17 / Gartic Phone #4 / Pico Park / Fling to the Finish", "start": 0},
-      {"id": "halloween", "segment": "1192158679", "name": "Хэллоуин #2021 / At Dead Of Night #1 (с Дашей)", "start": 0}
+      {"id": "halloween", "segment": "1192158679", "name": "Хэллоуин #2021 / At Dead Of Night #1 (с Дашей)", "start": 0},
+      {"id": "events", "segment": "1193856809", "name": "Розыгрыш ROG Spatha Black USB / The Mortuary Assistant (демо) / Devil Inside Us: Root of Evil (демо) / The Radio Station / Project Nightmares Case 36: Henrietta Kedward #2", "start": 0}
     ]
   },
   "finished": {
@@ -638,14 +638,16 @@
       {"id": "first", "segment": "1162515299", "name": "Outbreak Island (демо)", "start": 0},
       {"id": "first", "segment": "1162515299", "name": "Dagon (демо)", "start": 10791},
       {"id": "first", "segment": "1190164000", "name": "Prognostic", "start": 0},
-      {"id": "first", "segment": "1190164000", "name": "Horror Story: Hallowseed", "start": 11166}
+      {"id": "first", "segment": "1190164000", "name": "Horror Story: Hallowseed", "start": 11166},
+      {"id": "first", "segment": "1193856809", "name": "The Mortuary Assistant (демо)", "start": 2406},
+      {"id": "first", "segment": "1193856809", "name": "Devil Inside Us: Root of Evil (демо)", "start": 6724},
+      {"id": "first", "segment": "1193856809", "name": "The Radio Station", "start": 8292}
     ]
   },
   "ongoing": {
     "name": "Активные",
     "games": [
       {"name": "Fallout 76", "id": "fallout-76", "segment": "335751293"},
-      {"name": "UnMetal", "id": "unmetal", "segment": "700057034"},
       {"name": "Inscryption", "id": "inscryption", "segment": "1162515299"},
       {"name": "Far Cry 6", "id": "far-cry-6", "segment": "1167157790"},
       {"name": "Metroid Dread", "id": "metroid-dread", "segment": "1170802962"},
@@ -760,6 +762,7 @@
       {"name": "Destroy All Humans!", "id": "destroy-all-humans", "segment": "675494632"},
       {"name": "Far Cry 3", "id": "far-cry-3", "segment": "678368491"},
       {"name": "Hellpoint", "id": "hellpoint", "segment": "695209589"},
+      {"name": "UnMetal", "id": "unmetal", "segment": "700057034"},
       {"name": "World of Warcraft", "id": "wow", "segment": "728015486"},
       {"name": "Crash Bandicoot 4: It's About Time", "id": "crash-bandicoot-4", "segment": "759389769"},
       {"name": "Webbed", "id": "webbed", "segment": "767249770"},
@@ -1019,7 +1022,8 @@
       {"id": "other", "segment": "1122010713", "name": "15 лет Republic of Gamers", "start": 0},
       {"id": "events", "segment": "1134934289", "name": "Розыгрыш Hades", "start": 6676},
       {"id": "events", "segment": "1142576899", "name": "Розыгрыш ROG Zephyrus G14 Alan Walker", "start": 0},
-      {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0}
+      {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0},
+      {"id": "events", "segment": "1193856809", "name": "Розыгрыш ROG Spatha Black USB", "start": 0}
     ]
   },
   "expos": {

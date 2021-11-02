@@ -8086,14 +8086,12 @@
     "youtube": "rLRCDf0i-Gw", "abs_start": "0:00", "abs_end": "3:56:50", "duration": "3:56:50",
     "name": "GeoGuessr #12 / Phasmophobia #9 (с Куплиновым и Дангаром)",
     "date": "2021-08-28",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1132102187.torrent",
     "games": ["geoguessr", "phasmophobia"]
   },
   "1134934289": {
     "youtube": "XdewuKkcPEM", "abs_start": "0:00", "abs_end": "6:29:45", "duration": "6:29:45",
     "name": "Hades #3 (PS5) / Розыгрыш Hades / Dead Space Remake Dev Stream / KeyWe",
     "date": "2021-08-31",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1134934289.torrent",
     "games": ["hades", "events", "expos", "co-op"]
   },
   "1139746620": {
@@ -8415,5 +8413,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1192158679.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1192158679.torrent",
     "games": ["halloween", "at-dead-of-night"]
+  },
+  "1193856809": {
+    "abs_start": "0:00", "abs_end": "6:08:07", "duration": "0:00",
+    "name": "Розыгрыш ROG Spatha Black USB / The Mortuary Assistant (демо) / Devil Inside Us: Root of Evil (демо) / The Radio Station / Project Nightmares Case 36: Henrietta Kedward #2",
+    "date": "2021-11-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1193856809.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1193856809.torrent",
+    "games": ["events", "first", "project-nightmares-36"]
   }
 }
