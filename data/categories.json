@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0},
       {"id": "house-of-ashes", "segment": "1183729753", "name": "The Dark Pictures: House of Ashes - Прохождение", "start": 0},
       {"id": "house-of-ashes", "segment": "1185672025", "name": "The Dark Pictures: House of Ashes - Злое прохождение", "start": 0},
       {"id": "marvel-gotg", "segment": "1186535358", "name": "Marvel's Guardians of the Galaxy #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1190164000", "name": "Prognostic / Horror Story: Hallowseed / Last Days of Lazarus (демо)", "start": 0},
       {"id": "unboxing", "segment": "1191176581", "name": "ROG Zephyrus S17 / Gartic Phone #4 / Pico Park / Fling to the Finish", "start": 0},
       {"id": "halloween", "segment": "1192158679", "name": "Хэллоуин #2021 / At Dead Of Night #1 (с Дашей)", "start": 0},
-      {"id": "events", "segment": "1193856809", "name": "Розыгрыш ROG Spatha Black USB / The Mortuary Assistant (демо) / Devil Inside Us: Root of Evil (демо) / The Radio Station / Project Nightmares Case 36: Henrietta Kedward #2", "start": 0}
+      {"id": "events", "segment": "1193856809", "name": "Розыгрыш ROG Spatha Black USB / The Mortuary Assistant (демо) / Devil Inside Us: Root of Evil (демо) / The Radio Station / Project Nightmares Case 36: Henrietta Kedward #2", "start": 0},
+      {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0}
     ]
   },
   "finished": {
@@ -984,7 +984,8 @@
       {"id": "co-op", "segment": "1168913564", "name": "Battlefield 2042 (бета)", "start": 14453},
       {"id": "co-op", "segment": "1181935075", "name": "Occult", "start": 14838},
       {"id": "co-op", "segment": "1191176581", "name": "Pico Park", "start": 8391},
-      {"id": "co-op", "segment": "1191176581", "name": "Fling to the Finish", "start": 15305}
+      {"id": "co-op", "segment": "1191176581", "name": "Fling to the Finish", "start": 15305},
+      {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0}
     ]
   },
   "other": {
