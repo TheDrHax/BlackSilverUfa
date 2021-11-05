@@ -8104,7 +8104,6 @@
     "youtube": "bp8oW-ohQFw", "abs_start": "0:00", "abs_end": "6:09:38", "duration": "6:09:38",
     "name": "Burger & Frights / The Baby in Yellow #2 / Granny 3 / SCP: Blackout #2 / SCP Terror Hunt #5 / SnowRunner #20",
     "date": "2021-09-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1140665211.torrent",
     "games": ["single", "baby-in-yellow", "first", "scp-blackout", "scp-terror-hunt", "snowrunner"]
   },
   "1141635163": {
@@ -8434,5 +8433,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1195666882.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1195666882.torrent",
     "games": ["first", "darkwood", "co-op"]
+  },
+  "1196615295": {
+    "abs_start": "0:00", "abs_end": "6:29:42", "duration": "0:00",
+    "name": "Call of Duty: Vanguard (сюжет)",
+    "date": "2021-11-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1196615295.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1196615295.torrent",
+    "games": ["single"]
   }
 }

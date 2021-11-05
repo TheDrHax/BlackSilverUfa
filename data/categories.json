@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "house-of-ashes", "segment": "1185672025", "name": "The Dark Pictures: House of Ashes - Злое прохождение", "start": 0},
       {"id": "marvel-gotg", "segment": "1186535358", "name": "Marvel's Guardians of the Galaxy #1", "start": 0},
       {"id": "marvel-gotg", "segment": "1187388604", "name": "Marvel's Guardians of the Galaxy #2", "start": 0},
       {"id": "marvel-gotg", "segment": "1188297728", "name": "Marvel's Guardians of the Galaxy #3", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "halloween", "segment": "1192158679", "name": "Хэллоуин #2021 / At Dead Of Night #1 (с Дашей)", "start": 0},
       {"id": "events", "segment": "1193856809", "name": "Розыгрыш ROG Spatha Black USB / The Mortuary Assistant (демо) / Devil Inside Us: Root of Evil (демо) / The Radio Station / Project Nightmares Case 36: Henrietta Kedward #2", "start": 0},
       {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0},
-      {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5 / Darkwood #1 (заново) / Arena of Valor", "start": 0}
+      {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5 / Darkwood #1 (заново) / Arena of Valor", "start": 0},
+      {"id": "single", "segment": "1196615295", "name": "Call of Duty: Vanguard (сюжет)", "start": 0}
     ]
   },
   "finished": {
@@ -287,7 +287,8 @@
       {"id": "single", "segment": "1166311485", "name": "Matanga 2", "start": 0},
       {"name": "Alan Wake Remastered", "id": "alan-wake", "segment": "1167157790"},
       {"id": "single", "segment": "1181039582", "name": "Poppy Playtime", "start": 0},
-      {"id": "single", "segment": "1190164000", "name": "Last Days of Lazarus (демо)", "start": 15909}
+      {"id": "single", "segment": "1190164000", "name": "Last Days of Lazarus (демо)", "start": 15909},
+      {"id": "single", "segment": "1196615295", "name": "Call of Duty: Vanguard (сюжет)", "start": 0}
     ]
   },
   "first": {
