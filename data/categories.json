@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "marvel-gotg", "segment": "1186535358", "name": "Marvel's Guardians of the Galaxy #1", "start": 0},
       {"id": "marvel-gotg", "segment": "1187388604", "name": "Marvel's Guardians of the Galaxy #2", "start": 0},
       {"id": "marvel-gotg", "segment": "1188297728", "name": "Marvel's Guardians of the Galaxy #3", "start": 0},
       {"id": "first", "segment": "1190164000", "name": "Prognostic / Horror Story: Hallowseed / Last Days of Lazarus (демо)", "start": 0},
@@ -11,8 +10,9 @@
       {"id": "halloween", "segment": "1192158679", "name": "Хэллоуин #2021 / At Dead Of Night #1 (с Дашей)", "start": 0},
       {"id": "events", "segment": "1193856809", "name": "Розыгрыш ROG Spatha Black USB / The Mortuary Assistant (демо) / Devil Inside Us: Root of Evil (демо) / The Radio Station / Project Nightmares Case 36: Henrietta Kedward #2", "start": 0},
       {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0},
-      {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5 / Darkwood #1 (заново) / Arena of Valor", "start": 0},
-      {"id": "single", "segment": "1196615295", "name": "Call of Duty: Vanguard (сюжет)", "start": 0}
+      {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5 / Darkwood #1 (заново) / Arena of Valor #1", "start": 0},
+      {"id": "single", "segment": "1196615295", "name": "Call of Duty: Vanguard (сюжет)", "start": 0},
+      {"id": "project-nightmares-36", "segment": "1198691880", "name": "Project Nightmares Case 36: Henrietta Kedward #3 / Visage #5 (заново) / Arena of Valor #2", "start": 0}
     ]
   },
   "finished": {
@@ -649,6 +649,7 @@
   "ongoing": {
     "name": "Активные",
     "games": [
+      {"name": "Visage", "id": "visage", "segment": "317879826"},
       {"name": "Fallout 76", "id": "fallout-76", "segment": "335751293"},
       {"name": "Inscryption", "id": "inscryption", "segment": "1162515299"},
       {"name": "Metroid Dread", "id": "metroid-dread", "segment": "1170802962"},
@@ -730,7 +731,6 @@
       {"name": "CASE 2: Animatronics Survival", "id": "case-2", "segment": "291791543.1"},
       {"name": "We Happy Few", "id": "we-happy-few", "segment": "295925948"},
       {"name": "Super Seducer 2", "id": "super-seducer-2", "segment": "311651965"},
-      {"name": "Visage", "id": "visage", "segment": "317879826"},
       {"name": "Red Dead Redemption 2", "id": "rdr2", "segment": "327553236"},
       {"name": "Just Cause 4", "id": "just-cause-4", "segment": "343098113"},
       {"name": "Lucius III", "id": "lucius-3", "segment": "349397154.1"},
@@ -988,7 +988,7 @@
       {"id": "co-op", "segment": "1191176581", "name": "Pico Park", "start": 8391},
       {"id": "co-op", "segment": "1191176581", "name": "Fling to the Finish", "start": 15305},
       {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0},
-      {"id": "co-op", "segment": "1195666882", "name": "Arena of Valor", "start": 17968}
+      {"name": "Arena of Valor", "id": "arena-of-valor", "segment": "1195666882"}
     ]
   },
   "other": {
