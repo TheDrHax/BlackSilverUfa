@@ -651,7 +651,6 @@
     "games": [
       {"name": "Fallout 76", "id": "fallout-76", "segment": "335751293"},
       {"name": "Inscryption", "id": "inscryption", "segment": "1162515299"},
-      {"name": "Far Cry 6", "id": "far-cry-6", "segment": "1167157790"},
       {"name": "Metroid Dread", "id": "metroid-dread", "segment": "1170802962"},
       {"name": "Marvel's Guardians of the Galaxy", "id": "marvel-gotg", "segment": "1186535358"}
     ]
@@ -794,7 +793,8 @@
       {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
       {"name": "Farmer's Life", "id": "farmers-life", "segment": "1086385946,1086545283"},
       {"name": "The Legend of Zelda: Skyward Sword HD", "id": "tloz-sshd", "segment": "1089427413"},
-      {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"}
+      {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"},
+      {"name": "Far Cry 6", "id": "far-cry-6", "segment": "1167157790"}
     ]
   },
   "co-op": {
