@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "marvel-gotg", "segment": "1187388604", "name": "Marvel's Guardians of the Galaxy #2", "start": 0},
       {"id": "marvel-gotg", "segment": "1188297728", "name": "Marvel's Guardians of the Galaxy #3", "start": 0},
       {"id": "first", "segment": "1190164000", "name": "Prognostic / Horror Story: Hallowseed / Last Days of Lazarus (демо)", "start": 0},
       {"id": "unboxing", "segment": "1191176581", "name": "ROG Zephyrus S17 / Gartic Phone #4 / Pico Park / Fling to the Finish", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0},
       {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5 / Darkwood #1 (заново) / Arena of Valor #1", "start": 0},
       {"id": "single", "segment": "1196615295", "name": "Call of Duty: Vanguard (сюжет)", "start": 0},
-      {"id": "project-nightmares-36", "segment": "1198691880", "name": "Project Nightmares Case 36: Henrietta Kedward #3 / Visage #5 (заново) / Arena of Valor #2", "start": 0}
+      {"id": "project-nightmares-36", "segment": "1198691880", "name": "Project Nightmares Case 36: Henrietta Kedward #3 / Visage #5 (заново) / Arena of Valor #2", "start": 0},
+      {"id": "first", "segment": "1199578310", "name": "DarKnot / Phasmophobia #10 (с Куплиновым и Дангаром)", "start": 0}
     ]
   },
   "finished": {
@@ -643,7 +643,8 @@
       {"id": "first", "segment": "1193856809", "name": "The Mortuary Assistant (демо)", "start": 2406},
       {"id": "first", "segment": "1193856809", "name": "Devil Inside Us: Root of Evil (демо)", "start": 6724},
       {"id": "first", "segment": "1193856809", "name": "The Radio Station", "start": 8292},
-      {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5", "start": 0}
+      {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5", "start": 0},
+      {"id": "first", "segment": "1199578310", "name": "DarKnot", "start": 0}
     ]
   },
   "ongoing": {
