@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "marvel-gotg", "segment": "1188297728", "name": "Marvel's Guardians of the Galaxy #3", "start": 0},
       {"id": "first", "segment": "1190164000", "name": "Prognostic / Horror Story: Hallowseed / Last Days of Lazarus (демо)", "start": 0},
       {"id": "unboxing", "segment": "1191176581", "name": "ROG Zephyrus S17 / Gartic Phone #4 / Pico Park / Fling to the Finish", "start": 0},
       {"id": "halloween", "segment": "1192158679", "name": "Хэллоуин #2021 / At Dead Of Night #1 (с Дашей)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5 / Darkwood #1 (заново) / Arena of Valor #1", "start": 0},
       {"id": "single", "segment": "1196615295", "name": "Call of Duty: Vanguard (сюжет)", "start": 0},
       {"id": "project-nightmares-36", "segment": "1198691880", "name": "Project Nightmares Case 36: Henrietta Kedward #3 / Visage #5 (заново) / Arena of Valor #2", "start": 0},
-      {"id": "first", "segment": "1199578310", "name": "DarKnot / Phasmophobia #10 (с Куплиновым и Дангаром)", "start": 0}
+      {"id": "first", "segment": "1199578310", "name": "DarKnot / Phasmophobia #10 (с Куплиновым и Дангаром)", "start": 0},
+      {"id": "visage", "segment": "1200472047", "name": "Visage #6 / Arena of Valor #3", "start": 0}
     ]
   },
   "finished": {
