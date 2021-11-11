@@ -8128,7 +8128,6 @@
     "youtube": "OhblOpX0qRg", "abs_start": "0:00", "abs_end": "3:14:14", "duration": "3:14:14",
     "name": "Call of Duty: Vanguard #2 (с WLG и Bale)",
     "date": "2021-09-11",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1145536174.torrent",
     "games": ["cod-vanguard"]
   },
   "1146553591": {
@@ -8459,10 +8458,18 @@
   },
   "1201428986": {
     "abs_start": "0:00", "abs_end": "4:39:49", "duration": "0:00",
-    "name": "Warframe",
+    "name": "Warframe #1",
     "date": "2021-11-10",
     "direct": "https://bsufiles.thedrhax.pw/streams/1201428986.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1201428986.torrent",
-    "games": ["co-op"]
+    "games": ["warframe"]
+  },
+  "1202281245": {
+    "abs_start": "0:00", "abs_end": "41:51", "duration": "0:00",
+    "name": "Warframe #2 (соло)",
+    "date": "2021-11-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1202281245.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1202281245.torrent",
+    "games": ["warframe"]
   }
 }

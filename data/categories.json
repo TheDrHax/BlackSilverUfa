@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "unboxing", "segment": "1191176581", "name": "ROG Zephyrus S17 / Gartic Phone #4 / Pico Park / Fling to the Finish", "start": 0},
       {"id": "halloween", "segment": "1192158679", "name": "Хэллоуин #2021 / At Dead Of Night #1 (с Дашей)", "start": 0},
       {"id": "events", "segment": "1193856809", "name": "Розыгрыш ROG Spatha Black USB / The Mortuary Assistant (демо) / Devil Inside Us: Root of Evil (демо) / The Radio Station / Project Nightmares Case 36: Henrietta Kedward #2", "start": 0},
       {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "project-nightmares-36", "segment": "1198691880", "name": "Project Nightmares Case 36: Henrietta Kedward #3 / Visage #5 (заново) / Arena of Valor #2", "start": 0},
       {"id": "first", "segment": "1199578310", "name": "DarKnot / Phasmophobia #10 (с Куплиновым и Дангаром)", "start": 0},
       {"id": "visage", "segment": "1200472047", "name": "Visage #6 / Arena of Valor #3", "start": 0},
-      {"id": "co-op", "segment": "1201428986", "name": "Warframe", "start": 0}
+      {"id": "warframe", "segment": "1201428986", "name": "Warframe #1", "start": 0},
+      {"id": "warframe", "segment": "1202281245", "name": "Warframe #2 (соло)", "start": 0}
     ]
   },
   "finished": {
@@ -990,7 +990,7 @@
       {"id": "co-op", "segment": "1191176581", "name": "Fling to the Finish", "start": 15305},
       {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0},
       {"name": "Arena of Valor", "id": "arena-of-valor", "segment": "1195666882"},
-      {"id": "co-op", "segment": "1201428986", "name": "Warframe", "start": 0}
+      {"name": "Warframe", "id": "warframe", "segment": "1201428986"}
     ]
   },
   "other": {
