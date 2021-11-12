@@ -8134,14 +8134,12 @@
     "youtube": "ZbJtL7-enGw", "abs_start": "0:00", "abs_end": "6:07:55", "duration": "6:07:55",
     "name": "Webbed #1 / Outlast - Whistleblower / SCP Terror Hunt #7",
     "date": "2021-09-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1146553591.torrent",
     "games": ["webbed", "outlast", "scp-terror-hunt"]
   },
   "1147476304": {
     "youtube": "rgAXWuw89eo", "abs_start": "0:00", "abs_end": "8:04:35", "duration": "8:04:35",
     "name": "Deathloop #1",
     "date": "2021-09-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1147476304.torrent",
     "games": ["deathloop"]
   },
   "1148404879": {
@@ -8471,5 +8469,30 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1202281245.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1202281245.torrent",
     "games": ["warframe"]
+  },
+  "1203211087": {
+    "abs_start": "0:00", "abs_end": "1:03:31", "duration": "0:00",
+    "name": "",
+    "date": "2021-11-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1203211087.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1203211087.torrent",
+    "games": []
+  },
+  "1203238012": {
+    "abs_start": "0:00", "abs_end": "2:57:36", "duration": "0:00",
+    "name": "",
+    "date": "2021-11-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1203238012.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1203238012.torrent",
+    "games": []
+  },
+  "1203211087,1203238012": {
+    "abs_start": "0:00", "abs_end": "4:01:07", "duration": "0:00",
+    "name": "Elden Ring (network test)",
+    "date": "2021-11-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1203211087,1203238012.mp4",
+    "offsets": [0, 3507],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1203211087,1203238012.torrent",
+    "games": ["first"]
   }
 }
