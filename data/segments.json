@@ -8488,11 +8488,19 @@
   },
   "1203211087,1203238012": {
     "abs_start": "0:00", "abs_end": "4:01:07", "duration": "0:00",
-    "name": "Elden Ring (network test)",
+    "name": "Elden Ring (network test) / Battlefield 2042 #1 (соло)",
     "date": "2021-11-12",
     "direct": "https://bsufiles.thedrhax.pw/streams/1203211087,1203238012.mp4",
     "offsets": [0, 3507],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1203211087,1203238012.torrent",
-    "games": ["first"]
+    "games": ["first", "bf-2042"]
+  },
+  "1203334086": {
+    "abs_start": "0:00", "abs_end": "3:39:06", "duration": "0:00",
+    "name": "Battlefield 2042 #2",
+    "date": "2021-11-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1203334086.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1203334086.torrent",
+    "games": ["bf-2042"]
   }
 }

@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "events", "segment": "1193856809", "name": "Розыгрыш ROG Spatha Black USB / The Mortuary Assistant (демо) / Devil Inside Us: Root of Evil (демо) / The Radio Station / Project Nightmares Case 36: Henrietta Kedward #2", "start": 0},
       {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0},
       {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5 / Darkwood #1 (заново) / Arena of Valor #1", "start": 0},
       {"id": "single", "segment": "1196615295", "name": "Call of Duty: Vanguard (сюжет)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "visage", "segment": "1200472047", "name": "Visage #6 / Arena of Valor #3", "start": 0},
       {"id": "warframe", "segment": "1201428986", "name": "Warframe #1", "start": 0},
       {"id": "warframe", "segment": "1202281245", "name": "Warframe #2 (соло)", "start": 0},
-      {"id": "first", "segment": "1203211087,1203238012", "name": "Elden Ring (network test)", "start": 0}
+      {"id": "first", "segment": "1203211087,1203238012", "name": "Elden Ring (network test) / Battlefield 2042 #1 (соло)", "start": 0},
+      {"id": "bf-2042", "segment": "1203334086", "name": "Battlefield 2042 #2", "start": 0}
     ]
   },
   "finished": {
@@ -698,7 +698,8 @@
       {"name": "Phantom Abyss", "id": "phantom-abyss", "segment": "1030127769"},
       {"name": "I'm on Observation Duty", "id": "observation-duty", "segment": "1092418023"},
       {"name": "Ghost Hunters Corp", "id": "ghcorp", "segment": "1095567001,1095811167"},
-      {"name": "Riders Republic", "id": "riders-republic", "segment": "1129996087"}
+      {"name": "Riders Republic", "id": "riders-republic", "segment": "1129996087"},
+      {"name": "Battlefield 2042", "id": "bf-2042", "segment": "1203211087,1203238012"}
     ]
   },
   "abandoned": {
