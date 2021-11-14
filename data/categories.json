@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5 / Darkwood #1 (заново) / Arena of Valor #1", "start": 0},
       {"id": "single", "segment": "1196615295", "name": "Call of Duty: Vanguard (сюжет)", "start": 0},
       {"id": "project-nightmares-36", "segment": "1198691880", "name": "Project Nightmares Case 36: Henrietta Kedward #3 / Visage #5 (заново) / Arena of Valor #2", "start": 0},
       {"id": "first", "segment": "1199578310", "name": "DarKnot / Phasmophobia #10 (с Куплиновым и Дангаром)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "warframe", "segment": "1202281245", "name": "Warframe #2 (соло)", "start": 0},
       {"id": "elden-ring", "segment": "1203211087,1203238012", "name": "Elden Ring #1 (network test) / Battlefield 2042 #1 (соло)", "start": 0},
       {"id": "bf-2042", "segment": "1203334086", "name": "Battlefield 2042 #2", "start": 0},
-      {"id": "elden-ring", "segment": "1205227732", "name": "Elden Ring #2", "start": 0}
+      {"id": "elden-ring", "segment": "1205227732", "name": "Elden Ring #2", "start": 0},
+      {"id": "bf-2042", "segment": "1205368606,1205563618", "name": "Battlefield 2042 #3", "start": 0}
     ]
   },
   "finished": {
@@ -698,7 +698,7 @@
       {"name": "I'm on Observation Duty", "id": "observation-duty", "segment": "1092418023"},
       {"name": "Ghost Hunters Corp", "id": "ghcorp", "segment": "1095567001,1095811167"},
       {"name": "Riders Republic", "id": "riders-republic", "segment": "1129996087"},
-      {"name": "Battlefield 2042", "id": "bf-2042", "segment": "1203211087,1203238012"}
+      {"name": "Battlefield 2042", "id": "bf-2042", "segment": "1168913564"}
     ]
   },
   "abandoned": {
@@ -986,7 +986,6 @@
       {"id": "co-op", "segment": "1134934289", "name": "KeyWe", "start": 16937},
       {"id": "co-op", "segment": "1155904215", "name": "Fortnite (с Дашей и Джеком)", "start": 18198},
       {"name": "World War Z: Aftermath (с Дашей и Джеком)", "id": "wwz-aftermath", "segment": "1156860249"},
-      {"id": "co-op", "segment": "1168913564", "name": "Battlefield 2042 (бета)", "start": 14453},
       {"id": "co-op", "segment": "1181935075", "name": "Occult", "start": 14838},
       {"id": "co-op", "segment": "1191176581", "name": "Pico Park", "start": 8391},
       {"id": "co-op", "segment": "1191176581", "name": "Fling to the Finish", "start": 15305},

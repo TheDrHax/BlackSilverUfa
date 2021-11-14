@@ -8153,7 +8153,6 @@
     "youtube": "nGwP6Sz-qxk", "abs_start": "0:00", "abs_end": "4:12:40", "duration": "4:12:40",
     "name": "Deathloop #3",
     "date": "2021-09-15",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1149326407.torrent",
     "games": ["deathloop"]
   },
   "1152244966": {
@@ -8266,11 +8265,11 @@
   },
   "1168913564": {
     "youtube": "veiAHEMnkyE", "abs_start": "0:00", "abs_end": "7:52:35", "duration": "7:52:24",
-    "name": "Alan Wake Remastered #3 / Battlefield 2042 (бета)",
+    "name": "Alan Wake Remastered #3 / Battlefield 2042 - Бета",
     "date": "2021-10-06",
     "cuts": [[21220, 21231]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1168913564.torrent",
-    "games": ["alan-wake", "co-op"]
+    "games": ["alan-wake", "bf-2042"]
   },
   "1169865722": {
     "youtube": "VDP56Y_Z8-I", "abs_start": "0:00", "abs_end": "7:34:10", "duration": "7:34:10",
@@ -8506,5 +8505,30 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1205227732.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1205227732.torrent",
     "games": ["elden-ring"]
+  },
+  "1205368606": {
+    "abs_start": "0:00", "abs_end": "3:59:19", "duration": "0:00",
+    "name": "",
+    "date": "2021-11-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1205368606.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1205368606.torrent",
+    "games": []
+  },
+  "1205563618": {
+    "abs_start": "0:00", "abs_end": "1:01:05", "duration": "0:00",
+    "name": "",
+    "date": "2021-11-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1205563618.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1205563618.torrent",
+    "games": []
+  },
+  "1205368606,1205563618": {
+    "abs_start": "0:00", "abs_end": "5:00:24", "duration": "0:00",
+    "name": "Battlefield 2042 #3",
+    "date": "2021-11-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1205368606,1205563618.mp4",
+    "offsets": [0, 14375],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1205368606,1205563618.torrent",
+    "games": ["bf-2042"]
   }
 }
