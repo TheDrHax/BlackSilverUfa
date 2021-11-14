@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0},
       {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5 / Darkwood #1 (заново) / Arena of Valor #1", "start": 0},
       {"id": "single", "segment": "1196615295", "name": "Call of Duty: Vanguard (сюжет)", "start": 0},
       {"id": "project-nightmares-36", "segment": "1198691880", "name": "Project Nightmares Case 36: Henrietta Kedward #3 / Visage #5 (заново) / Arena of Valor #2", "start": 0},
@@ -11,8 +10,9 @@
       {"id": "visage", "segment": "1200472047", "name": "Visage #6 / Arena of Valor #3", "start": 0},
       {"id": "warframe", "segment": "1201428986", "name": "Warframe #1", "start": 0},
       {"id": "warframe", "segment": "1202281245", "name": "Warframe #2 (соло)", "start": 0},
-      {"id": "first", "segment": "1203211087,1203238012", "name": "Elden Ring (network test) / Battlefield 2042 #1 (соло)", "start": 0},
-      {"id": "bf-2042", "segment": "1203334086", "name": "Battlefield 2042 #2", "start": 0}
+      {"id": "elden-ring", "segment": "1203211087,1203238012", "name": "Elden Ring #1 (network test) / Battlefield 2042 #1 (соло)", "start": 0},
+      {"id": "bf-2042", "segment": "1203334086", "name": "Battlefield 2042 #2", "start": 0},
+      {"id": "elden-ring", "segment": "1205227732", "name": "Elden Ring #2", "start": 0}
     ]
   },
   "finished": {
@@ -644,8 +644,7 @@
       {"id": "first", "segment": "1193856809", "name": "Devil Inside Us: Root of Evil (демо)", "start": 6724},
       {"id": "first", "segment": "1193856809", "name": "The Radio Station", "start": 8292},
       {"id": "first", "segment": "1195666882", "name": "Forza Horizon 5", "start": 0},
-      {"id": "first", "segment": "1199578310", "name": "DarKnot", "start": 0},
-      {"id": "first", "segment": "1203211087,1203238012", "name": "Elden Ring (network test)", "start": 0}
+      {"id": "first", "segment": "1199578310", "name": "DarKnot", "start": 0}
     ]
   },
   "ongoing": {
@@ -654,8 +653,8 @@
       {"name": "Visage", "id": "visage", "segment": "317879826"},
       {"name": "Fallout 76", "id": "fallout-76", "segment": "335751293"},
       {"name": "Inscryption", "id": "inscryption", "segment": "1162515299"},
-      {"name": "Metroid Dread", "id": "metroid-dread", "segment": "1170802962"},
-      {"name": "Marvel's Guardians of the Galaxy", "id": "marvel-gotg", "segment": "1186535358"}
+      {"name": "Marvel's Guardians of the Galaxy", "id": "marvel-gotg", "segment": "1186535358"},
+      {"name": "Elden Ring", "id": "elden-ring", "segment": "1203211087,1203238012"}
     ]
   },
   "infinite": {
@@ -797,7 +796,8 @@
       {"name": "Farmer's Life", "id": "farmers-life", "segment": "1086385946,1086545283"},
       {"name": "The Legend of Zelda: Skyward Sword HD", "id": "tloz-sshd", "segment": "1089427413"},
       {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"},
-      {"name": "Far Cry 6", "id": "far-cry-6", "segment": "1167157790"}
+      {"name": "Far Cry 6", "id": "far-cry-6", "segment": "1167157790"},
+      {"name": "Metroid Dread", "id": "metroid-dread", "segment": "1170802962"}
     ]
   },
   "co-op": {
