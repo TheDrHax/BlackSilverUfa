@@ -8165,14 +8165,12 @@
     "youtube": "v9BSe3vm1vw", "abs_start": "0:00", "abs_end": "7:03:03", "duration": "7:03:03",
     "name": "Life is Strange: True Colors #2",
     "date": "2021-09-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1153177731.torrent",
     "games": ["life-is-strange-3"]
   },
   "1154121803": {
     "youtube": "5aAKGRYmgFk", "abs_start": "0:00", "abs_end": "6:03:29", "duration": "6:03:29",
     "name": "Bright Lights of Svetlov / Peace, Death! 2 / I Am Fish / Despot's Game",
     "date": "2021-09-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1154121803.torrent",
     "games": ["single", "first"]
   },
   "1155016315": {
@@ -8534,7 +8532,7 @@
     "name": "Grand Theft Auto III - Definitive Edition / Grand Theft Auto: Vice City - Definitive Edition / Grand Theft Auto: San Andreas - Definitive Edition",
     "date": "2021-11-15",
     "direct": "https://bsufiles.thedrhax.pw/streams/1206191026.mp4",
-    "cuts": [[8154, 8163]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1206191026.torrent",
     "games": ["first", "gta-vice-city", "gta-san-andreas"]
   }
 }
