@@ -22,7 +22,7 @@ import requests
 from docopt import docopt
 
 from ..data.config import tcd_config
-from ..data.streams import streams
+from ..data.streams import streams, Stream
 from ..data.timecodes import Timecode
 from ..utils.ass import SubtitlesEvent, SubtitlesWriter
 
@@ -102,6 +102,11 @@ def main(argv=None):
         start = datetime.fromisoformat(args['<start>'])
         duration = timedelta(seconds=int(Timecode(args['<duration>'])))
         vod = args['<vod>']
+
+    if vod not in streams:
+        print(f'Adding stream {vod}')
+        streams[vod] = Stream(key=vod, data=[{}])
+        streams.save()
 
     writer = SubtitlesWriter(streams[vod].subtitles_path)
 

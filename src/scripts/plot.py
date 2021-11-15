@@ -11,7 +11,7 @@ from ..utils.ass import SubtitlesReader
 from .converter import unpack_line_breaks, unpack_emotes
 
 
-STEP=30
+STEP = 10
 
 
 def main(argv=None):
