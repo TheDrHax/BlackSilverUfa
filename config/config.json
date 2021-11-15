@@ -48,6 +48,11 @@
         "name": "chats-2021",
         "pull": "https://github.com/BlackSilverUfa/chats-2021.git",
         "push": "git@github.com:BlackSilverUfa/chats-2021.git"
+      },
+      {
+        "name": "chats-2022",
+        "pull": "https://github.com/BlackSilverUfa/chats-2022.git",
+        "push": "git@github.com:BlackSilverUfa/chats-2022.git"
       }
     ],
     "mounts": {
@@ -90,6 +95,11 @@
         "remote": "chats-2021",
         "branch": "master",
         "prefix": "https://blackufa.thedrhax.pw/chats/2021"
+      },
+      "$PREFIX/chats/2022": {
+        "remote": "chats-2022",
+        "branch": "master",
+        "prefix": "https://blackufa.thedrhax.pw/chats/2022"
       }
     }
   },
