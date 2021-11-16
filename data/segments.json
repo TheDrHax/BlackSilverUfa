@@ -8533,5 +8533,13 @@
     "date": "2021-11-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1206191026.torrent",
     "games": ["first", "gta-vice-city", "gta-san-andreas"]
+  },
+  "1207047094": {
+    "abs_start": "0:00", "abs_end": "3:02:14", "duration": "0:00",
+    "name": "Babylon's Fall (бета)",
+    "date": "2021-11-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1207047094.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1207047094.torrent",
+    "games": ["first"]
   }
 }
