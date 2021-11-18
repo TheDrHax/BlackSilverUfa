@@ -8177,14 +8177,12 @@
     "youtube": "8jyAFff337o", "abs_start": "0:00", "abs_end": "6:07:34", "duration": "6:07:34",
     "name": "Kena: Bridge of Spirits #1 / Potion Craft",
     "date": "2021-09-21",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1155016315.torrent",
     "games": ["kena-bos", "first"]
   },
   "1155904215": {
     "youtube": "Jr0CAZPgOpc", "abs_start": "0:00", "abs_end": "7:21:31", "duration": "7:21:31",
     "name": "Kena: Bridge of Spirits #2 / Fortnite (с Дашей и Джеком)",
     "date": "2021-09-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1155904215.torrent",
     "games": ["kena-bos", "co-op"]
   },
   "1156860249": {
@@ -8548,5 +8546,30 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1207997756.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1207997756.torrent",
     "games": ["first", "gta-vice-city", "gta-san-andreas", "warframe"]
+  },
+  "1208881098": {
+    "abs_start": "0:00", "abs_end": "3:33:17", "duration": "0:00",
+    "name": "",
+    "date": "2021-11-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1208881098.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1208881098.torrent",
+    "games": []
+  },
+  "1208977751": {
+    "abs_start": "0:00", "abs_end": "3:28:12", "duration": "0:00",
+    "name": "",
+    "date": "2021-11-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1208977751.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1208977751.torrent",
+    "games": []
+  },
+  "1208881098,1208977751": {
+    "abs_start": "0:00", "abs_end": "7:01:29", "duration": "0:00",
+    "name": "Visage #7",
+    "date": "2021-11-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1208881098,1208977751.mp4",
+    "offsets": [0, 12735],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1208881098,1208977751.torrent",
+    "games": ["visage"]
   }
 }
