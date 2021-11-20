@@ -126,7 +126,7 @@
  
 <div class="stream-header d-flex" data-id="1" style="flex-wrap: wrap;">
   <div class="">
-        <h2><a onclick="window.location.hash = '#263472196.1'; return false;" href="/r/?263472196.1">2</a></h2>
+        <h2><a onclick="window.location.hash = '#263472196'; return false;" href="/r/?263472196">2</a></h2>
   </div>
   <div class="badge-row">
     <span class="badge badge-light">
@@ -142,29 +142,83 @@
         <i class="fas fa-comments"></i> 22406
       </a>
     </span>
-    <span class="badge badge-success">
-      <a href="https://www.youtube.com/watch?v=0m1MZSyWvqU" target="_blank">
-        <i class="fab fa-youtube"></i> 0m1MZSyWvqU
+    <span class="badge badge-danger">
+      <a href="https://bsufiles.thedrhax.pw/streams/permanent/263472196.mp4">
+        <i class="fas fa-download"></i> скачать
       </a>
     </span>
   </div>
 </div>
 
 <ul>
+  <li>Примечание: <a href="https://youtu.be/0m1MZSyWvqU">Официальная запись</a> сильно обрезана</li>
   <li>Связанные игры:</li>
   <ul>
     <li><a href="/links/ds2-scholar.html">Dark Souls 2: Scholar of the First Sin</a> — <a href="/links/ds2-scholar.html#263472196">3</a></li>
   </ul>
+  <div class="timecodes" data-id="1">
+    <li>Таймкоды:</li>
+  <ul>
+    <li><a data-value="186">3:06</a> — +уши</li>
+    <li><a data-value="220">3:40</a> — Стримлер</li>
+      <li>Far: Lone Sails:</li>
+  <ul>
+    <li><a data-value="1045">17:25</a> — Меню</li>
+    <li><a data-value="1077">17:57</a> — Игра</li>
+  </ul>
+
+      <li>Dark Souls 2: Scholar of the First Sin:</li>
+  <ul>
+    <li><a data-value="6611">1:50:11</a> — Меню</li>
+    <li><a data-value="6620">1:50:20</a> — Игра</li>
+    <li><a data-value="6787">1:53:07</a> — Призыв первого зрителя</li>
+      <li>Боссы:</li>
+  <ul>
+    <li><a data-value="7592">2:06:32</a> — Демон песни</li>
+    <li><a data-value="13328">3:42:08</a> — Скверная Королева Элана</li>
+    <li>
+      <a data-value="13622">3:47:02</a>,
+      <a data-value="13854">3:50:54</a>
+      — Син, Дремлющий Дракон
+    </li>
+    <li><a data-value="15556">4:19:16</a> — Скорбящая разорительница гробниц / Древний солдат Варг / Старший исследователь Церех</li>
+    <li><a data-value="18094">5:01:34</a> — Дымный рыцарь</li>
+    <li><a data-value="19097">5:18:17</a> — Демон из плавильни</li>
+    <li><a data-value="20160">5:36:00</a> — Вельстадт, королевский защитник</li>
+    <li>
+      <a data-value="20578">5:42:58</a>,
+      <a data-value="20755">5:45:55</a>
+      — Смотритель трона / Защитник трона
+    </li>
+  </ul>
+
+    <li><a data-value="15061">4:11:01</a> — "Надо радоваться, не надо напрягаться!"</li>
+  </ul>
+
+      <li>Проблемы с правообладателями:</li>
+  <ul>
+    <li><a data-value="16374">4:32:54</a> - <a data-value="16746">4:39:06</a> — Life Will Change - Lollia and Sleeping Forest (Twitch вырезал звук)</li>
+  </ul>
+
+  </ul>
+
+  </div>
 </ul>
 
 <div class="video-row d-flex justify-content-center">
-  <p class="stream" data-id="1" data-hash="263472196.1" data-offset="1050" data-subtitles="https://blackufa.thedrhax.pw/chats/2018/v263472196.ass" data-name="2" data-youtube="0m1MZSyWvqU" />
+  <p class="stream" data-id="1" data-hash="263472196" data-subtitles="https://blackufa.thedrhax.pw/chats/2018/v263472196.ass" data-name="2" data-direct="https://bsufiles.thedrhax.pw/streams/permanent/263472196.mp4" />
 </div>
 
 
 
 <div class="highlighter-rouge">
-  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/2018/v263472196.ass --sub-delay=-1050 ytdl://0m1MZSyWvqU
+  <pre class="highlight"><code>mpv --sub-file=https://blackufa.thedrhax.pw/chats/2018/v263472196.ass https://bsufiles.thedrhax.pw/streams/permanent/263472196.mp4
+</code></pre>
+</div>
+
+
+<div class="highlighter-rouge">
+  <pre class="highlight"><code>streamlink -p mpv -a "--sub-file=https://blackufa.thedrhax.pw/chats/2018/v263472196.ass" --player-passthrough hls twitch.tv/videos/263472196 best
 </code></pre>
 </div>
 
