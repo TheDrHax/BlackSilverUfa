@@ -118,7 +118,7 @@ class Worktree:
             shutil.rmtree(self.path)
 
         repo.git.worktree('prune')
-        repo.branches.remove(repo.branches[self.local_branch])
+        repo.git.branch('-D', self.local_branch)
         self.remote.prune()
 
 
