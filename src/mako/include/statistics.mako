@@ -1,6 +1,6 @@
 <%!
     import os
-    from src.utils import numword, last_line, dir_size
+    from src.utils import numword, last_line
     from src.data.streams import StreamType
     from src.data.timecodes import Timecode
     from src.config import config
@@ -31,10 +31,6 @@
     subs_dirs = list(key.replace('$PREFIX/', '')
                      for key in config['repos']['mounts'].keys()
                      if key.startswith('$PREFIX/chats'))
-    subs_size_mb = sum([dir_size(_(i))
-                        for i in subs_dirs
-                        if 'generated' not in i])
-    subs_size_mb = int(subs_size_mb / 1024**2)
 
     official, unofficial, missing = 0, 0, 0
     for segment in streams.segments:
@@ -52,8 +48,8 @@
     all_segments = official + unofficial + missing
 %>\
 <p>В данный момент в архиве находятся <b>${numword(streams_total, 'стрим')}</b>, \
-разбитые на <b>${numword(all_segments, 'сегмент')}</b>, и <b>${subs_size_mb} МБ</b> субтитров к ним. \
-Продолжительность всех сохранённых стримов примерно равна <b>${duration_streams}</b>, а всех записей — <b>${duration_segments}</b>. \
+разбитые на <b>${numword(all_segments, 'сегмент')}</b>. Продолжительность всех сохранённых стримов примерно равна \
+<b>${duration_streams}</b>, а всех записей — <b>${duration_segments}</b>. \
 За это время было написано <b>${numword(messages, 'сообщение')}</b>, то есть в среднем по \
 <b>${numword(messages // chats_total, 'сообщение')}</b> за стрим. \
 % if missing > 0:

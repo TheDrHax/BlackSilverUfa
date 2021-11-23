@@ -1,3 +1,5 @@
+import requests
+
 from typing import List
 from math import floor
 
@@ -142,8 +144,17 @@ class SubtitlesReader:
             yield line.strip()
 
     def __init__(self, fi: str):
-        self.file = open(fi, 'r')
-        self._iter = self.__iter_file(self.file)
+        if fi.startswith('http'):
+            self.file = requests.get(fi, allow_redirects=True, stream=True)
+
+            if self.file.status_code != 200:
+                raise FileNotFoundError
+
+            self._iter = (line.decode('utf-8')
+                          for line in self.file.iter_lines())
+        else:
+            self.file = open(fi, 'r')
+            self._iter = self.__iter_file(self.file)
 
         self.header = []
         self.style = None

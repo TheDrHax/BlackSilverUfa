@@ -19,4 +19,5 @@ if DEBUG:
         if not path.startswith('$PREFIX/chats'):
             continue
 
-        mount['prefix'] = convert_path(config['prefix'])
+        if os.path.exists(convert_path(path)):
+            mount['prefix'] = path.replace('$PREFIX', config['prefix'])

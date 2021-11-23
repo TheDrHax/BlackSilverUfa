@@ -1,14 +1,16 @@
 """Usage:
-  repo [pages | data] status
-  repo [pages | data] fetch
-  repo [pages | data] push
-  repo [pages | data] pull [--force]
-  repo [pages | data] checkout [--force]
-  repo [pages | data] prune [--force]
+  repo [pages | data] (status | fetch | push)
+  repo [pages | data] (pull | checkout | prune) [--force] [<path>]
   repo [pages | data] commit <msg>
 
 Options:
   --force     Ignore uncommitted changes in protected worktrees.
+
+Status colors:
+  ⚫️    Optional
+  🔴    Not mounted
+  🟢    Mounted
+  🟡    Uncommitted changes
 """
 
 import os
@@ -120,7 +122,7 @@ class Worktree:
         self.remote.prune()
 
 
-def get_worktrees(selector: Union[str, None] = None) -> List[Worktree]:
+def get_worktrees() -> List[Worktree]:
     remotes: Dict[str, Remote] = dict()
 
     origin: str = repo.remote().name
@@ -136,9 +138,6 @@ def get_worktrees(selector: Union[str, None] = None) -> List[Worktree]:
     worktrees: List[Worktree] = list()
 
     for path, options in config['repos']['mounts'].items():
-        if selector and not path.startswith(selector):
-            continue
-
         options = options.copy()
         options['path'] = path
         options['remote'] = remotes[options['remote']]
@@ -152,14 +151,20 @@ def main(argv=None):
 
     repo.git.worktree('prune')
 
-    if args['pages']:
-        selector = '$PREFIX'
-    elif args['data']:
-        selector = 'data'
-    else:
-        selector = None
+    worktrees = get_worktrees()
 
-    worktrees = get_worktrees(selector)
+    if args['pages']:
+        prefix = convert_path('$PREFIX')
+        worktrees = filter(lambda wt: wt.path.startswith(prefix), worktrees)
+    elif args['data']:
+        worktrees = filter(lambda wt: wt.path == 'data', worktrees)
+
+    if args['<path>']:
+        worktrees = filter(lambda wt: wt.path.startswith(args['<path>']), worktrees)
+    elif args['pull'] or args['fetch'] or args['checkout']:
+        worktrees = filter(lambda wt: wt.is_mounted or not wt.optional, worktrees)
+
+    worktrees = list(worktrees)
 
     if args['status']:
         for wt in worktrees:
@@ -172,6 +177,8 @@ def main(argv=None):
                     status = '🟡'
                 else:
                     status = '🟢'
+            elif wt.optional:
+                status = '⚫️'
 
             print(f'{status} {wt.path} ({wt.local_branch})')
 

@@ -69,21 +69,6 @@ def count_lines(fp):
         return sum(1 for line in f)
 
 
-def dir_size(path):
-    if not os.path.isdir(path):
-        return os.path.getsize(path)
-
-    total = 0
-
-    for f in os.listdir(path):
-        if os.path.isfile(f'{path}/{f}'):
-            total += os.path.getsize(f'{path}/{f}')
-        else:
-            total += dir_size(f'{path}/{f}')
-
-    return total
-
-
 def numword(num, word):
     p = morph.parse(word)[0]
     return f'{num} {p.make_agree_with_number(num).word}'
