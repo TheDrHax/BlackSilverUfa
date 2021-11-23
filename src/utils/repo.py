@@ -227,7 +227,8 @@ def main(argv=None):
 
     if args['push']:
         for wt in worktrees:
-            wt.push()
+            if wt.is_mounted:
+                wt.push()
 
 
 if __name__ == '__main__':
