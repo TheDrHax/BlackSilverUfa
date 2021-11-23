@@ -53,6 +53,10 @@ if __name__ == '__main__':
 
     # Download missing stream subtitles
     for key, stream in streams.items():
-        if stream.type is StreamType.DEFAULT:
-            if not os.path.isfile(stream.subtitles_path):
-                download(stream)
+        if stream.type is not StreamType.DEFAULT:
+            continue
+
+        if stream.messages > 0:
+            continue
+
+        download(stream)
