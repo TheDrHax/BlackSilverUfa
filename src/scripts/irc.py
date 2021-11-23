@@ -15,13 +15,11 @@ vod         Twitch VOD ID
 """
 
 
-import os
 from datetime import datetime, timedelta
 
 import requests
 from docopt import docopt
 
-from ..data.config import tcd_config
 from ..data.streams import streams, Stream
 from ..data.timecodes import Timecode
 from ..utils.ass import SubtitlesEvent, SubtitlesWriter

@@ -4,9 +4,8 @@ import requests
 
 from . import _
 from ..data.fallback import FallbackSource
-from ..data import config, streams
-from ..data.streams import StreamType
-from ..data.config import tcd_config
+from ..data.streams import streams, StreamType
+from ..config import config, tcd_config
 from ..scripts.converter import convert_file
 
 

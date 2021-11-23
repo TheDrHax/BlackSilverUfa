@@ -8,8 +8,6 @@ export PREFIX="./_site"
 
 export GIT_REMOTE="origin"
 export MASTER_BRANCH_REMOTE="master"
-export PAGES_BRANCH_LOCAL="gh-pages"
-export PAGES_BRANCH_REMOTE="gh-pages"
 
 # Specified version must have builds for musl libc at
 # https://unofficial-builds.nodejs.org/download/release/
@@ -62,80 +60,6 @@ node_setup() { # [force | silent]
     md5sum "package.json" "package-lock.json" > "$MD5_FILE"
 }
 
-get_worktrees() { # selector | returns: prefix, remote, branch, local_branch
-    jq -r ".repos.mounts | keys | \"\(.[])\"" config/config.json | while read mount; do
-        remote=$(jq -r ".repos.mounts[\"$mount\"].remote" config/config.json)
-        branch=$(jq -r ".repos.mounts[\"$mount\"].branch" config/config.json)
-        mount=$(echo "$mount" | envsubst)
-        local_branch=$([ "$remote" = "origin" ] && echo "$branch" || echo "$remote")
-        echo "$mount" "$remote" "$branch" "$local_branch"
-    done | grep -E "$1"
-}
-
-is_worktree() { # prefix
-    [ -d "$1" ] && git worktree list | grep -q "$(realpath $1)"
-}
-
-new_worktree() { # prefix ref branch [force]
-    if [ "_$4" = '_force' ] || [ ! -e "$1" ]; then
-        rm -rf "$1"
-    fi
-
-    git worktree prune
-    mkdir -p "$1"
-
-    if ! is_worktree "$1"; then
-        git worktree add "$1" "$2" || exit 1
-    fi
-
-    (
-        cd "$1"
-        git reset -q --hard "$2"
-        git clean -q -d -f
-        git checkout -q -B "$3"
-        git branch -q --set-upstream-to="$2" "$3"
-    )
-}
-
-fetch_worktrees() { # selector
-    echo "Fetching updates for $1"
-
-    get_worktrees "$1" | while read _ remote _ _; do
-        [ "$remote" = "origin" ] && continue
-
-        jq -r ".repos.remotes[] | select(.name == \"$remote\") | \"\(.pull) \(.push)\"" config/config.json | {
-            read pull push
-
-            git remote add "$remote" "$pull" 2>/dev/null
-            git remote set-url "$remote" "$pull"
-            git remote set-url --push "$remote" "$push"
-        }
-    done
-
-    get_worktrees "$1" | awk '{print $2 " " $3}' | xargs -n2 -P8 git fetch -q
-}
-
-checkout_worktrees() { # selector
-    get_worktrees "$1" | while read prefix remote branch local_branch; do
-        echo "Updating $prefix"
-        new_worktree "$prefix" "$remote/$branch" "$local_branch" "$3"
-    done 
-}
-
-commit_worktrees() { # selector
-    get_worktrees "$1" | while read prefix remote branch local_branch; do (
-        cd "$prefix"
-        git add .
-        git commit -m "Jenkins: Обновление статичных файлов" || true
-    ) done
-}
-
-push_worktrees() { # selector
-    get_worktrees "$1" | \
-        awk '{print $2 " " $4}' | \
-        xargs -n2 -P8 git -c push.default=upstream push
-}
-
 if [ ! -d "$VENV" ] && [ "_$1" != "_venv" ]; then
     echo "Setting up Python virtual environment: $VENV"
     venv_setup requirements.txt
@@ -145,6 +69,10 @@ if [ ! -d "$NODEENV" ] && [ "_$1" != "_venv" ]; then
     echo "Setting up Node.js virtual environment: $VENV"
     node_setup
 fi
+
+repo() {
+    $PYTHON -m src.scripts.repo "$@"
+}
 
 case $1 in
     venv)
@@ -158,39 +86,9 @@ case $1 in
             remove) rm -rf "$VENV" "$NODEENV" "node_modules" ;;
             *) echo "Usage: $0 $1 update|remove" ;;
         esac ;;
-    pages)
-        selector="^$PREFIX"
-
-        case $2 in
-            fetch) fetch_worktrees "$selector" ;;
-            checkout) checkout_worktrees "$selector" ;;
-            pull)
-                ./bsu $1 fetch
-                ./bsu $1 checkout ;;
-            commit)
-                if [ -e "$PREFIX/.DEBUG" ]; then
-                    echo "Error: The site was generated with debug mode enabled."
-                    echo "Please rebuild it with './bsu build' before committing."
-                    exit 1
-                fi
-
-                commit_worktrees "$selector" ;;
-            push) push_worktrees "$selector" ;;
-            *) echo "Usage: $0 $1 fetch|checkout|commit|pull|push" ;;
-        esac ;;
-    data)
-        selector="^data "
-
-        case $2 in
-            fetch) fetch_worktrees "$selector" ;;
-            checkout) checkout_worktrees "$selector" ;;
-            pull)
-                ./bsu $1 fetch
-                ./bsu $1 checkout ;;
-            commit) commit_worktrees "$selector" ;;
-            push) push_worktrees "$selector" ;;
-            *) echo "Usage: $0 $1 fetch|checkout|commit|pull|push" ;;
-        esac ;;
+    repo) shift; repo "$@" ;;
+    pages) repo "$@" ;;
+    data) repo "$@" ;;
     pull)
         if [ "$(git status --porcelain=v1 | wc -l)" -eq 0 ]; then
             echo "Updating ./"
@@ -199,14 +97,7 @@ case $1 in
             echo "Not updating ./ due to uncommitted changes"
         fi
 
-        if [ ! -e data ] || [ "$(cd data; git status --porcelain=v1 | wc -l)" -eq 0 ]; then
-            ./bsu data pull
-        else
-            echo "Not updating ./data due to uncommitted changes"
-            echo "Use './bsu data pull' to override"
-        fi
-
-        ./bsu pages pull ;;
+        repo pull ;;
     build) shift; $PYTHON -m src.utils.generate $@ ;;
     serve) shift; $PYTHON -m src.utils.serve $@ ;;
     debug) shift; DEBUG=1 $PYTHON -m src.utils.serve $@ ;;
@@ -220,7 +111,7 @@ case $1 in
         venv_setup cli-requirements.txt silent
         $PYTHON -m src.utils.cli "$@" ;;
     repl) $PYTHON -i -m src.utils.repl ;;
-    script) shift; $PYTHON -m src.scripts.$@ ;;
+    script) shift; module=$1; shift; $PYTHON -m src.scripts.$module "$@" ;;
     python) shift; $PYTHON $@ ;;
     pip) shift; $PYTHON -m pip $@ ;;
     npm) shift; npm $@ ;;

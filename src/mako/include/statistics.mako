@@ -3,7 +3,7 @@
     from src.utils import numword, last_line, dir_size
     from src.data.streams import StreamType
     from src.data.timecodes import Timecode
-    from src.data.config import config
+    from src.config import config
 %>
 
 <%def name="statistics()">\

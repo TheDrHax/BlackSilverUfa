@@ -11,7 +11,7 @@ from subprocess import run, PIPE
 from sortedcontainers import SortedList, SortedKeyList
 
 from .cache import cached
-from .config import config, tcd_config
+from ..config import config, tcd_config
 from .fallback import fallback
 from .blacklist import Blacklist, BlacklistTimeline
 from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice

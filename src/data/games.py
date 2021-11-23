@@ -3,7 +3,7 @@ from typing import Dict, List
 from cached_property import cached_property
 
 from .streams import streams, SegmentReference
-from .config import config
+from ..config import config
 from .blacklist import Blacklist, blacklist
 from ..utils import load_json, join, json_escape, indent
 

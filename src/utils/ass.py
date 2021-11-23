@@ -1,9 +1,7 @@
-import re
-
 from typing import List
 from math import floor
 
-from ..data.config import tcd_config
+from ..config import tcd_config
 
 
 class EmptyLineError(Exception):

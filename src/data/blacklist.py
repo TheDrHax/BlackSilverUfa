@@ -1,7 +1,7 @@
 import re
 from typing import List, Dict
 
-from .config import config
+from ..config import config
 from .timecodes import Timecode
 from ..utils import join, json_escape
 from ..utils.ass import SubtitlesEvent

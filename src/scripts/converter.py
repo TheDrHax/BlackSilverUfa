@@ -21,7 +21,7 @@ from docopt import docopt
 
 from ..data.streams import streams, Stream, StreamType
 from ..data.cache import cache
-from ..data.config import tcd_config
+from ..config import tcd_config
 from ..data.timecodes import Timecodes
 from ..data.blacklist import Blacklist
 from ..utils.ass import (EmptyLineError, SubtitlesReader,

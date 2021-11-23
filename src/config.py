@@ -1,5 +1,5 @@
 import os
-from ..utils import load_json
+from .utils import load_json
 
 
 tcd_config = load_json('config/tcd.json')
