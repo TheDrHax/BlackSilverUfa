@@ -5,7 +5,7 @@ from urllib.parse import quote
 from bs4 import BeautifulSoup as BS
 from cached_property import cached_property
 
-from .config import config
+from ..config import config
 
 
 req = Session()

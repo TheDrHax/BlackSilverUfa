@@ -1,4 +1,4 @@
-node('python3 && git && jq && (tzdata || !alpine)') {
+node('python3 && git && (tzdata || !alpine)') {
     String cred_git = 'GitHub'
     String cred_github = 'GitHub-Token'
 
@@ -18,8 +18,7 @@ node('python3 && git && jq && (tzdata || !alpine)') {
         sh './bsu venv update'
 
         sshagent (credentials: [cred_git]) {
-            sh './bsu data pull'
-            sh './bsu pages pull'
+            sh './bsu repo pull --force'
         }
     }
 
@@ -32,7 +31,7 @@ node('python3 && git && jq && (tzdata || !alpine)') {
     }
 
     stage('Deploy') {
-        sh './bsu pages commit'
+        sh './bsu pages commit "Jenkins: Обновление статичных файлов"'
 
         sshagent (credentials: [cred_git]) {
             sh './bsu pages push'
@@ -45,5 +44,10 @@ node('python3 && git && jq && (tzdata || !alpine)') {
             repo: github_repo,
             sha: input_branch
         )
+    }
+
+    stage('Clean') {
+        sh './bsu repo prune --optional'
+        sh 'git gc --prune=now'
     }
 }

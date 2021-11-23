@@ -6,7 +6,6 @@
 
 * `python3-venv` (Ubuntu) или `python3` (Alpine)
 * `git` (для работы с gh-pages и получения даты добавления стрима)
-* `jq` — для парсинга `config.json` в скрипте `bsu`
 * `gettext` — для парсинга `config.json` в скрипте `bsu`
 * `tzdata` — для установки правильного часового пояса
 * `libc6` (Ubuntu) или `libstdc++` (Alpine) — для Node.js
@@ -45,7 +44,7 @@
 ./bsu react
 
 # Закоммитить новую версию статики в локальную ветку gh-pages
-./bsu pages commit
+./bsu pages commit "<msg>"
 
 # Отправить изменения на GitHub
 ./bsu pages push

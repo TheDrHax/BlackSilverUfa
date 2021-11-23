@@ -35,7 +35,7 @@ def timed(label):
 def load_database():
     global config, streams, games, categories, DEBUG
     from ..data import config, streams, games, categories
-    from ..data.config import DEBUG
+    from ..config import DEBUG
 
 
 @timed('Fallbacks activated in {}ms')

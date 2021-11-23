@@ -1,5 +1,10 @@
 import os
-from ..utils import load_json
+from .utils import load_json
+
+
+def convert_path(path: str) -> str:
+    parts = path.replace('$PREFIX', os.environ['PREFIX']).split('/')
+    return os.path.join(*parts)
 
 
 tcd_config = load_json('config/tcd.json')
@@ -14,4 +19,5 @@ if DEBUG:
         if not path.startswith('$PREFIX/chats'):
             continue
 
-        mount['prefix'] = path.replace('$PREFIX', '')
+        if os.path.exists(convert_path(path)):
+            mount['prefix'] = path.replace('$PREFIX', config['prefix'])

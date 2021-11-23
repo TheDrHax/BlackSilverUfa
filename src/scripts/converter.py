@@ -21,7 +21,7 @@ from docopt import docopt
 
 from ..data.streams import streams, Stream, StreamType
 from ..data.cache import cache
-from ..data.config import tcd_config
+from ..config import tcd_config
 from ..data.timecodes import Timecodes
 from ..data.blacklist import Blacklist
 from ..utils.ass import (EmptyLineError, SubtitlesReader,
@@ -142,16 +142,17 @@ def cut_subtitles(cuts: Timecodes, fi: str, fo: str = None):
     convert(fi, fo, func=rebase_msg)
 
 
-def concatenate_subtitles(stream_list: List[Stream], offsets: Timecodes, fo: str):
-    for stream in stream_list:
-        if not os.path.exists(stream[0].subtitles_path):
-            raise FileNotFoundError(stream[0].subtitles_path)
+def find_subtitles(stream: Stream) -> str:
+    if os.path.exists(stream.subtitles_path):
+        return stream.subtitles_path
+    else:
+        return stream.subtitles
 
+
+def concatenate_subtitles(stream_list: List[Stream], offsets: Timecodes, fo: str):
     def events() -> Iterator[SubtitlesEvent]:
         for i, stream in enumerate(stream_list):
-            segment = stream[0]
-
-            r = SubtitlesReader(segment.stream.subtitles_path)
+            r = SubtitlesReader(find_subtitles(stream))
             offset = -offsets[i].value
 
             for event in r.events():
@@ -162,7 +163,7 @@ def concatenate_subtitles(stream_list: List[Stream], offsets: Timecodes, fo: str
             r.close()
 
     # Get metadata from the first file
-    r = SubtitlesReader(stream_list[0][0].subtitles_path)
+    r = SubtitlesReader(find_subtitles(stream_list[0]))
 
     w = SubtitlesWriter(fo, r.header, r.style, r.event_format)
 
@@ -200,7 +201,7 @@ def generate_subtitles(segment):
         if segment.stream.type is StreamType.JOINED:
             concatenate_subtitles(segment.stream.streams, segment.offsets, fo)
         else:
-            fi = segment.stream.subtitles_path
+            fi = find_subtitles(segment.stream)
             shutil.copyfile(fi, fo, follow_symlinks=True)
 
         if len(segment.cuts) > 0:
@@ -229,12 +230,14 @@ def main(argv=None):
     if args['--all']:
         tasks = [(s.subtitles_path, s.blacklist, s.subtitles_style)
                  for s in streams.values()
-                 if s.type is StreamType.DEFAULT]
+                 if s.type is StreamType.DEFAULT and os.path.exists(s.subtitles_path)]
     elif args['--stream']:
         s = streams[args['<id>']]
         if args['<file>']:
             tasks = [(args['<file>'], s.blacklist, s.subtitles_style)]
         else:
+            if not os.path.exists(s.subtitles_path):
+                raise FileNotFoundError
             tasks = [(s.subtitles_path, s.blacklist, s.subtitles_style)]
 
     p = Pool(4)

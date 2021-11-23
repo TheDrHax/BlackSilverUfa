@@ -1,4 +1,4 @@
-from .config import config
+from ..config import config
 from ..utils import load_json
 
 

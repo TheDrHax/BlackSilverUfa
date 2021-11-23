@@ -53,18 +53,3 @@ def count_lines(fp):
 
     with open(fp, 'r') as f:
         return sum(1 for line in f)
-
-
-def dir_size(path):
-    if not os.path.isdir(path):
-        return os.path.getsize(path)
-
-    total = 0
-
-    for f in os.listdir(path):
-        if os.path.isfile(f'{path}/{f}'):
-            total += os.path.getsize(f'{path}/{f}')
-        else:
-            total += dir_size(f'{path}/{f}')
-
-    return total
