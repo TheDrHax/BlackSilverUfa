@@ -53,9 +53,9 @@ class Remote:
         return repo.remotes[self.name]
 
     def prune(self):
-        if self.name in repo.remotes:
+        if self.name in repo.remotes and self.name != repo.remote().name:
             print(f'Removing remote {self.name}')
-            repo.remotes.remove(self.get())
+            git.Remote.remove(repo, self.name)
 
 
 @attr.s(auto_attribs=True, kw_only=True)
