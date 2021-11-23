@@ -821,6 +821,12 @@
     "date": "2017-06-06",
     "games": ["telltale-gotg", "talking-dead-frontier"]
   },
+  "001706170": {
+    "youtube": "wu2NKLUVH0k", "abs_start": "0:00", "abs_end": "4:43:54", "duration": "4:43:54",
+    "name": "Deadly Premonition: Director's Cut #1",
+    "date": "2017-06-17",
+    "games": ["deadly-premonition"]
+  },
   "001707060": {
     "youtube": "92AnIckY8EU", "abs_start": "0:00", "abs_end": "4:06:36", "duration": "4:06:36",
     "name": "The Hunter: Call of the Wild #1",
@@ -8195,8 +8201,6 @@
     "abs_start": "0:00", "abs_end": "4:43:01", "duration": "0:00",
     "name": "",
     "date": "2021-09-28",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1161662373.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1161662373.torrent",
     "games": []
   },
   "1161558202,1161662373": {
@@ -8210,7 +8214,6 @@
     "youtube": "knROpftWh_Q", "abs_start": "0:00", "abs_end": "6:32:06", "duration": "6:32:06",
     "name": "Outbreak Island (демо) / Dagon (демо) / Inscryption - Демо / UnMetal #2",
     "date": "2021-09-29",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1162515299.torrent",
     "games": ["first-2021", "inscryption", "unmetal"]
   },
   "1163417606": {
@@ -8590,5 +8593,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1212756532.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1212756532.torrent",
     "games": ["darkwood", "co-op"]
+  },
+  "1213619188": {
+    "abs_start": "0:00", "abs_end": "6:00:28", "duration": "0:00",
+    "name": "Deadly Premonition: Director's Cut #2 (заново)",
+    "date": "2021-11-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1213619188.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1213619188.torrent",
+    "games": ["deadly-premonition"]
   }
 }
