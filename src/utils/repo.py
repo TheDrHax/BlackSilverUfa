@@ -20,15 +20,10 @@ import shutil
 from docopt import docopt
 from typing import Dict, List, Union
 
-from ..config import config
+from ..config import config, convert_path
 
 
 repo: git.Repo = git.Repo()
-
-
-def convert_path(path: str) -> str:
-    parts = path.replace('$PREFIX', os.environ['PREFIX']).split('/')
-    return os.path.join(*parts)
 
 
 @attr.s(auto_attribs=True, kw_only=True)
