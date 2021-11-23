@@ -1,6 +1,7 @@
 """Usage:
   repo [pages | data] (status | fetch | push)
-  repo [pages | data] (pull | checkout | prune) [--force] [<path>]
+  repo [pages | data] (pull | checkout) [--force] [<path>]
+  repo [pages | data] prune [--force] [--optional | <path>]
   repo [pages | data] commit <msg>
 
 Options:
@@ -163,6 +164,8 @@ def main(argv=None):
         worktrees = filter(lambda wt: wt.path.startswith(args['<path>']), worktrees)
     elif args['pull'] or args['fetch'] or args['checkout']:
         worktrees = filter(lambda wt: wt.is_mounted or not wt.optional, worktrees)
+    elif args['--optional']:
+        worktrees = filter(lambda wf: wf.optional, worktrees)
 
     worktrees = list(worktrees)
 

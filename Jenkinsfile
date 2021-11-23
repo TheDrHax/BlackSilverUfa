@@ -45,4 +45,9 @@ node('python3 && git && (tzdata || !alpine)') {
             sha: input_branch
         )
     }
+
+    stage('Clean') {
+        sh './bsu repo prune --optional'
+        sh 'git gc --prune=now'
+    }
 }
