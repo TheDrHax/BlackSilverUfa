@@ -1,11 +1,13 @@
 """Usage:
-  repo [pages | data] (status | fetch | push)
+  repo [pages | data] status
   repo [pages | data] (pull | checkout) [--force] [<path>]
+  repo [pages | data] push [<path>]
   repo [pages | data] prune [--force] [--optional | <path>]
   repo [pages | data] commit <msg>
 
 Options:
-  --force     Ignore uncommitted changes in protected worktrees.
+  --force       Ignore uncommitted changes in protected worktrees.
+  --optional    Select all optional repositories.
 
 Status colors:
   ⚫️    Optional
@@ -162,12 +164,18 @@ def main(argv=None):
 
     if args['<path>']:
         worktrees = filter(lambda wt: wt.path.startswith(args['<path>']), worktrees)
-    elif args['pull'] or args['fetch'] or args['checkout']:
+    elif args['pull'] or args['checkout']:
         worktrees = filter(lambda wt: wt.is_mounted or not wt.optional, worktrees)
+    elif args['commit'] or args['push']:
+        worktrees = filter(lambda wt: wt.is_mounted, worktrees)
     elif args['--optional']:
         worktrees = filter(lambda wf: wf.optional, worktrees)
 
     worktrees = list(worktrees)
+
+    if len(worktrees) == 0:
+        print('Found no matching mounts, doing nothing')
+        sys.exit(0)
 
     if args['status']:
         for wt in worktrees:
@@ -185,10 +193,6 @@ def main(argv=None):
 
             print(f'{status} {wt.path} ({wt.local_branch})')
 
-    if args['pull'] or args['fetch']:
-        for wt in worktrees:
-            wt.fetch()
-
     if args['pull'] or args['checkout'] or args['prune']:
         for wt in worktrees:
             if wt.is_mounted and wt.protected and not args['--force']:
@@ -198,9 +202,13 @@ def main(argv=None):
                     print(f'{wt.path} has uncommitted changes')
                     continue
 
-            if args['prune']:
+            if args['prune'] and wt.is_mounted:
                 wt.prune()
-            else:
+
+            if args['pull']:
+                wt.fetch()
+
+            if args['pull'] or args['checkout'] and wt.is_mounted:
                 wt.update()
 
     if args['commit']:
@@ -208,15 +216,13 @@ def main(argv=None):
             from ..data import check_data_version
             check_data_version()
 
-        if args['pages'] and os.path.exists(convert_path('$PREFIX/.DEBUG')):
-            print('Error: The site was generated with debug mode enabled.')
-            print('Please rebuild it with "./bsu build" before committing.')
-            sys.exit(1)
+        if not args['data'] or args['pages']:
+            if os.path.exists(convert_path('$PREFIX/.DEBUG')):
+                print('Error: The site was generated with debug mode enabled.')
+                print('Please rebuild with "./bsu build" before committing.')
+                sys.exit(1)
 
         for wt in worktrees:
-            if not wt.is_mounted:
-                continue
-
             r = wt.repo()
 
             if r.is_dirty() or r.untracked_files:
@@ -227,8 +233,7 @@ def main(argv=None):
 
     if args['push']:
         for wt in worktrees:
-            if wt.is_mounted:
-                wt.push()
+            wt.push()
 
 
 if __name__ == '__main__':
