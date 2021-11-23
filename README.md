@@ -44,7 +44,7 @@
 ./bsu react
 
 # Закоммитить новую версию статики в локальную ветку gh-pages
-./bsu pages commit
+./bsu pages commit "<msg>"
 
 # Отправить изменения на GitHub
 ./bsu pages push

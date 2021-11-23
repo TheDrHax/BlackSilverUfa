@@ -18,8 +18,7 @@ node('python3 && git && (tzdata || !alpine)') {
         sh './bsu venv update'
 
         sshagent (credentials: [cred_git]) {
-            sh './bsu data pull --overwrite-protected'
-            sh './bsu pages pull'
+            sh './bsu repo pull --force'
         }
     }
 

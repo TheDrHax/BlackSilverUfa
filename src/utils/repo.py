@@ -1,14 +1,14 @@
 """Usage:
-  repo [options] [pages | data] status
-  repo [options] [pages | data] fetch
-  repo [options] [pages | data] push
-  repo [options] [pages | data] pull
-  repo [options] [pages | data] checkout
-  repo [options] [pages | data] prune
-  repo [options] [pages | data] commit <msg>
+  repo [pages | data] status
+  repo [pages | data] fetch
+  repo [pages | data] push
+  repo [pages | data] pull [--force]
+  repo [pages | data] checkout [--force]
+  repo [pages | data] prune [--force]
+  repo [pages | data] commit <msg>
 
 Options:
-  --overwrite-protected     Ignore uncommitted changes in protected worktrees.
+  --force     Ignore uncommitted changes in protected worktrees.
 """
 
 import os
@@ -184,20 +184,19 @@ def main(argv=None):
         for wt in worktrees:
             wt.fetch()
 
-    if args['pull'] or args['checkout']:
+    if args['pull'] or args['checkout'] or args['prune']:
         for wt in worktrees:
-            if wt.is_mounted and wt.protected and not args['--overwrite-protected']:
+            if wt.is_mounted and wt.protected and not args['--force']:
                 r = wt.repo()
 
-                if (r.is_dirty() or r.untracked_files):
-                    print(f'Not updating {wt.path} due to uncommitted changes')
+                if r.is_dirty() or r.untracked_files:
+                    print(f'{wt.path} has uncommitted changes')
                     continue
 
-            wt.update()
-
-    if args['prune']:
-        for wt in worktrees:
-            wt.prune()
+            if args['prune']:
+                wt.prune()
+            else:
+                wt.update()
 
     if args['commit']:
         if not args['pages'] or args['data']:
