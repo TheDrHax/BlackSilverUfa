@@ -18,7 +18,7 @@ node('python3 && git && (tzdata || !alpine)') {
         sh './bsu venv update'
 
         sshagent (credentials: [cred_git]) {
-            sh './bsu data pull'
+            sh './bsu data pull --overwrite-protected'
             sh './bsu pages pull'
         }
     }
@@ -32,7 +32,7 @@ node('python3 && git && (tzdata || !alpine)') {
     }
 
     stage('Deploy') {
-        sh './bsu pages commit'
+        sh './bsu pages commit "Jenkins: Обновление статичных файлов"'
 
         sshagent (credentials: [cred_git]) {
             sh './bsu pages push'

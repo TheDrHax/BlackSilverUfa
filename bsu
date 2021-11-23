@@ -71,7 +71,7 @@ if [ ! -d "$NODEENV" ] && [ "_$1" != "_venv" ]; then
 fi
 
 repo() {
-    $PYTHON -m src.scripts.repo "$@"
+    $PYTHON -m src.utils.repo "$@"
 }
 
 case $1 in

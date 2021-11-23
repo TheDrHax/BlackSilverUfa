@@ -1,11 +1,14 @@
 """Usage:
-  repo [pages | data] status
-  repo [pages | data] fetch
-  repo [pages | data] push
-  repo [pages | data] pull
-  repo [pages | data] checkout
-  repo [pages | data] prune
-  repo [pages | data] commit <msg>
+  repo [options] [pages | data] status
+  repo [options] [pages | data] fetch
+  repo [options] [pages | data] push
+  repo [options] [pages | data] pull
+  repo [options] [pages | data] checkout
+  repo [options] [pages | data] prune
+  repo [options] [pages | data] commit <msg>
+
+Options:
+  --overwrite-protected     Ignore uncommitted changes in protected worktrees.
 """
 
 import os
@@ -178,7 +181,7 @@ def main(argv=None):
 
     if args['pull'] or args['checkout']:
         for wt in worktrees:
-            if wt.is_mounted and wt.protected:
+            if wt.is_mounted and wt.protected and not args['--overwrite-protected']:
                 r = wt.repo()
 
                 if (r.is_dirty or r.untracked_files):
