@@ -103,7 +103,7 @@ class Worktree:
 
         r = self.repo()
 
-        r.git.reset('--hard')
+        r.git.reset('--hard', self.ref)
         r.git.clean('-d', '-f')
         r.git.checkout('-B', self.local_branch)
         r.git.branch('--set-upstream-to', self.ref, self.local_branch)
