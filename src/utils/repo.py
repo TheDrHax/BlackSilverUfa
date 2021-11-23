@@ -189,7 +189,7 @@ def main(argv=None):
             if wt.is_mounted and wt.protected and not args['--overwrite-protected']:
                 r = wt.repo()
 
-                if (r.is_dirty or r.untracked_files):
+                if (r.is_dirty() or r.untracked_files):
                     print(f'Not updating {wt.path} due to uncommitted changes')
                     continue
 
@@ -212,7 +212,7 @@ def main(argv=None):
         for wt in worktrees:
             r = wt.repo()
 
-            if r.is_dirty:
+            if r.is_dirty() or r.untracked_files:
                 r.git.add('.')
                 r.index.commit(args['<msg>'])
             else:
