@@ -4,7 +4,7 @@ export PYTHON="python3"
 export VENV="_python"
 export NODEENV="_node"
 export PATH="$PWD/$VENV/bin:$PWD/$NODEENV/bin:$PATH"
-export PREFIX="./_site"
+export PREFIX="_site"
 
 export GIT_REMOTE="origin"
 export MASTER_BRANCH_REMOTE="master"
