@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "warframe", "segment": "1202281245", "name": "Warframe #2 (соло)", "start": 0},
       {"id": "elden-ring", "segment": "1203211087,1203238012", "name": "Elden Ring #1 (network test) / Battlefield 2042 #1 (соло)", "start": 0},
       {"id": "bf-2042", "segment": "1203334086", "name": "Battlefield 2042 #2", "start": 0},
       {"id": "elden-ring", "segment": "1205227732", "name": "Elden Ring #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "first-2021", "segment": "1207047094", "name": "Babylon's Fall (бета)", "start": 0},
       {"id": "first-2021", "segment": "1207997756", "name": "Hextech Mayhem / Ruined King / Grand Theft Auto: Vice City - Definitive Edition #2 / Grand Theft Auto: San Andreas - Definitive Edition #2 / Warframe #3", "start": 0},
       {"id": "visage", "segment": "1208881098,1208977751", "name": "Visage #7", "start": 0},
-      {"id": "first-2021", "segment": "1209845995,1210082023", "name": "The Last Stand: Aftermath / Darkwood #2", "start": 0}
+      {"id": "first-2021", "segment": "1209845995,1210082023", "name": "The Last Stand: Aftermath / Darkwood #2", "start": 0},
+      {"id": "darkwood", "segment": "1212756532", "name": "Darkwood #3 / Farming Simulator 22", "start": 0}
     ]
   },
   "finished": {
@@ -996,7 +996,8 @@
       {"id": "co-op", "segment": "1191176581", "name": "Fling to the Finish", "start": 15305},
       {"id": "co-op", "segment": "1194875760", "name": "Apex Legends", "start": 0},
       {"name": "Arena of Valor", "id": "arena-of-valor", "segment": "1195666882"},
-      {"name": "Warframe", "id": "warframe", "segment": "1201428986"}
+      {"name": "Warframe", "id": "warframe", "segment": "1201428986"},
+      {"id": "co-op", "segment": "1212756532", "name": "Farming Simulator 22", "start": 14277}
     ]
   },
   "other": {
