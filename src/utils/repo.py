@@ -108,6 +108,11 @@ class Worktree:
         r.git.checkout('-B', self.local_branch)
         r.git.branch('--set-upstream-to', self.ref, self.local_branch)
 
+    def push(self):
+        self.remote.update()
+        r = self.repo()
+        r.git.push(self.remote.name, f'HEAD:{self.branch}')
+
     def prune(self):
         if self.is_mounted:
             print(f'Unmounting {self.path}')
@@ -215,8 +220,7 @@ def main(argv=None):
 
     if args['push']:
         for wt in worktrees:
-            r = wt.remote.get()
-            r.push()
+            wt.push()
 
 
 if __name__ == '__main__':
