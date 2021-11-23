@@ -214,6 +214,9 @@ def main(argv=None):
             sys.exit(1)
 
         for wt in worktrees:
+            if not wt.is_mounted:
+                continue
+
             r = wt.repo()
 
             if r.is_dirty() or r.untracked_files:
