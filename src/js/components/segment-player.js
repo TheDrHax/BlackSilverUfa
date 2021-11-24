@@ -18,7 +18,6 @@ import { Rnd } from 'react-rnd';
 import { Data } from '../data';
 import SavedPosition from '../utils/saved-position';
 import Persist from '../utils/persist';
-import BasePage from './base-page';
 import Chat from './player/chat';
 import Player from './player/player';
 import Timecodes from './player/timecodes';
@@ -26,11 +25,11 @@ import Scroll from './player/scroll';
 import Playlist from './player/playlist';
 import Reparentable from './utils/reparentable';
 import config from '../../../config/config.json';
-import BigSpinner from './big-spinner';
 import Matomo from '../matomo';
 import Sugar from '../utils/sugar';
 import updateState from '../utils/update-state';
 import { ShareOverlay } from './player/share-overlay';
+import { Layout } from '.';
 
 export default class SegmentPlayer extends React.Component {
   createChatContainer() {
@@ -834,7 +833,7 @@ export default class SegmentPlayer extends React.Component {
     const { loaded } = this.state;
 
     if (!loaded) {
-      return <BigSpinner />;
+      return <Layout fluid flex withFooter={false} isLoading />;
     }
 
     const {
@@ -847,7 +846,7 @@ export default class SegmentPlayer extends React.Component {
     } = this;
 
     return (
-      <BasePage fluid flex noFooter>
+      <Layout fluid flex withFooter={false}>
         {subtitles && ReactDOM.createPortal(this.renderChat(), chatContainer)}
 
         <Row className="flex-grow-1 no-gutters">
@@ -861,7 +860,7 @@ export default class SegmentPlayer extends React.Component {
 
           {this.renderRightSidebar()}
         </Row>
-      </BasePage>
+      </Layout>
     );
   }
 }

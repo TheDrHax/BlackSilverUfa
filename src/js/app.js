@@ -15,7 +15,7 @@ import PATHS from './constants/urls';
 import { SearchPage, GamePage } from './pages';
 import PlayerPage from './components/segment-player';
 import { RedirectLinks, RedirectR } from './components/redirects';
-import BasePage from './components/base-page';
+import { Layout } from './components';
 
 const App = () => (
   <Router>
@@ -33,7 +33,7 @@ const App = () => (
           : <SearchPage />)}
       />
       <Route path="*">
-        <BasePage flex>
+        <Layout flex>
           <div className="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
             <h3 className="text-white">
               {t.notFoundTitle}
@@ -42,7 +42,7 @@ const App = () => (
               {t.returnToMain}
             </Button>
           </div>
-        </BasePage>
+        </Layout>
       </Route>
     </Switch>
   </Router>
