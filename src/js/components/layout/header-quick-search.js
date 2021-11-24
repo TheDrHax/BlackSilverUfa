@@ -13,11 +13,11 @@ import fts from '../../utils/full-text-search';
 export const MIN_CHARS = 2;
 export const MAX_CHARS = 20;
 
-export const hasStreamId = (query) => /^\d+$/.test(query);
+export const hasStreamId = (query) => /^\d{9,}$/.test(query);
 
 export const getByStreamId = (query, store) => store.chain()
   .find({ streams: { $contains: query } })
-  .where((segment) => segment.games.length)
+  .where((segment) => segment.games.length > 0)
   .data();
 
 export const getByTextMatch = (query, store) => {
