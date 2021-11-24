@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "bf-2042", "segment": "1203334086", "name": "Battlefield 2042 #2", "start": 0},
       {"id": "elden-ring", "segment": "1205227732", "name": "Elden Ring #2", "start": 0},
       {"id": "bf-2042", "segment": "1205368606,1205563618", "name": "Battlefield 2042 #3", "start": 0},
       {"id": "first-2021", "segment": "1206191026", "name": "Grand Theft Auto III - Definitive Edition / Grand Theft Auto: Vice City - Definitive Edition #1 / Grand Theft Auto: San Andreas - Definitive Edition #1", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "visage", "segment": "1208881098,1208977751", "name": "Visage #7", "start": 0},
       {"id": "first-2021", "segment": "1209845995,1210082023", "name": "The Last Stand: Aftermath / Darkwood #2", "start": 0},
       {"id": "darkwood", "segment": "1212756532", "name": "Darkwood #3 / Farming Simulator 22", "start": 0},
-      {"id": "deadly-premonition", "segment": "1213619188", "name": "Deadly Premonition: Director's Cut #2 (заново)", "start": 0}
+      {"id": "deadly-premonition", "segment": "1213619188", "name": "Deadly Premonition: Director's Cut #2 (заново)", "start": 0},
+      {"id": "first-2021", "segment": "1214560792", "name": "Shadow of the Damned / Warframe #4", "start": 0}
     ]
   },
   "finished": {
@@ -651,7 +651,8 @@
       {"id": "first-2021", "segment": "1207047094", "name": "Babylon's Fall (бета)", "start": 0},
       {"id": "first-2021", "segment": "1207997756", "name": "Hextech Mayhem", "start": 0},
       {"id": "first-2021", "segment": "1207997756", "name": "Ruined King", "start": 3316},
-      {"id": "first-2021", "segment": "1209845995,1210082023", "name": "The Last Stand: Aftermath", "start": 0}
+      {"id": "first-2021", "segment": "1209845995,1210082023", "name": "The Last Stand: Aftermath", "start": 0},
+      {"id": "first-2021", "segment": "1214560792", "name": "Shadow of the Damned", "start": 0}
     ]
   },
   "ongoing": {
