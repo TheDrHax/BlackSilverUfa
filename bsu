@@ -83,7 +83,8 @@ case $1 in
                 if [ -e "$VENV/cli-requirements.txt.md5" ]; then
                     venv_setup cli-requirements.txt $3
                 fi
-                node_setup ;;
+                node_setup
+                npx browserslist@latest --update-db ;;
             remove) rm -rf "$VENV" "$NODEENV" "node_modules" ;;
             *) echo "Usage: $0 $1 update|remove" ;;
         esac ;;
@@ -115,7 +116,6 @@ case $1 in
     script) shift; module=$1; shift; $PYTHON -m src.scripts.$module "$@" ;;
     python) shift; $PYTHON $@ ;;
     pip) shift; $PYTHON -m pip $@ ;;
-    npm) shift; npm $@ ;;
-    node) shift; node $@ ;;
-    *) echo "Usage: $0 venv|pages|pull|build|serve|react|download-chats|sh|bash|repl|script|python|pip|node|npm" ;;
+    npm|npx|node) "$@" ;;
+    *) echo "Usage: $0 venv|pages|pull|build|serve|react|download-chats|sh|bash|repl|script|python|pip|npm" ;;
 esac
