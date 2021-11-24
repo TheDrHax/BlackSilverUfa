@@ -10,8 +10,8 @@ import { common as t } from '../../constants/texts';
 import Matomo from '../../matomo';
 import fts from '../../utils/full-text-search';
 
-export const MIN_CHARS = 2;
-export const MAX_CHARS = 20;
+export const MIN_QUERY = 2;
+export const MAX_RESULTS = 20;
 
 export const hasStreamId = (query) => /^\d{9,}$/.test(query);
 
@@ -58,9 +58,6 @@ const HeaderQuickSearch = ({ indexStore, segmentsStore }) => {
 
   const handleSubmit = (e) => e.preventDefault();
   const handleSearch = (query) => {
-    // todo: there was some this.clear() call for this. need to research @zaprvalcer
-    if (query.length < MIN_CHARS) return;
-
     const matches = hasStreamId(query)
       ? getByStreamId(query, segmentsStore)
       : getByTextMatch(query, indexStore);
@@ -84,8 +81,8 @@ const HeaderQuickSearch = ({ indexStore, segmentsStore }) => {
         delay={0}
         filterBy={() => true} /* todo: research parameters, maybe we could use them @zaprvalcer */
         isLoading={false}
-        minLength={MIN_CHARS}
-        maxResults={MAX_CHARS}
+        minLength={MIN_QUERY}
+        maxResults={MAX_RESULTS}
         onSearch={handleSearch}
         onChange={handleSelect}
         options={suggestions.options}
