@@ -8549,9 +8549,17 @@
   },
   "1214560792": {
     "youtube": "CZdDiStz-1E", "abs_start": "0:00", "abs_end": "6:38:05", "duration": "6:38:05",
-    "name": "Shadow of the Damned / Warframe #4",
+    "name": "Shadow of the Damned #1 / Warframe #4",
     "date": "2021-11-24",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1214560792.torrent",
-    "games": ["first-2021", "warframe"]
+    "games": ["sotd", "warframe"]
+  },
+  "1217200258": {
+    "abs_start": "0:00", "abs_end": "9:47:31", "duration": "0:00",
+    "name": "Shadow of the Damned #2",
+    "date": "2021-11-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1217200258.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1217200258.torrent",
+    "games": ["sotd"]
   }
 }
