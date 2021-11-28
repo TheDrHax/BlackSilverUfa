@@ -241,7 +241,12 @@ export default class SegmentPlayer extends React.Component {
         playlistAccordion: game.id,
         params,
         savedPositionAdapter: new SavedPosition(segment),
-        timecodes: timecodes[segment.segment],
+      });
+
+      timecodes.then((data) => {
+        this.setState({
+          timecodes: data[segment.segment],
+        });
       });
     });
   }

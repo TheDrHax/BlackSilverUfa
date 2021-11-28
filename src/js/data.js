@@ -6,8 +6,7 @@ function reload() {
     fetch('/data/segments.json').then((res) => res.json()),
     fetch('/data/categories.json').then((res) => res.json()),
     fetch('/data/games.json').then((res) => res.json()),
-    fetch('/data/timecodes.json').then((res) => res.json()),
-  ]).then(([rawSegments, rawCategories, rawGames, timecodes]) => {
+  ]).then(([rawSegments, rawCategories, rawGames]) => {
     const db = new Loki('BSU');
     const segments = db.addCollection('segments');
     const categories = db.addCollection('categories');
@@ -90,7 +89,13 @@ function reload() {
       });
     });
 
-    return { segments, categories, index, games, timecodes };
+    return {
+      segments,
+      categories,
+      index,
+      games,
+      timecodes: fetch('/data/timecodes.json').then((data) => data.json()),
+    };
   });
 }
 
