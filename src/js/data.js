@@ -40,6 +40,10 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
     game.streams.forEach((ref) => {
       ref.url = `/play/${game.id}/${ref.segment}`;
       ref.game = game;
+
+      if (ref.start) {
+        ref.url += `?at=${ref.start}`;
+      }
     });
 
     games.insert(game);
