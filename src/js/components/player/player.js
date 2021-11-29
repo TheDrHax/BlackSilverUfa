@@ -152,7 +152,7 @@ export default class Player extends React.Component {
       onReady(this.plyr);
 
       if (autostart) {
-        this.plyr.play().catch(() => null);
+        this.plyr.play()?.catch(() => null);
       }
     }
   }
