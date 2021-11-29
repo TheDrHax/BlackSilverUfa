@@ -1,22 +1,18 @@
-"""Usage: build [--no-webpack]"""
-
+"""Usage: build [--download-chats]"""
 
 import os
-import sys
 import json
 import shutil
 from time import time
-from subprocess import call
-
 from docopt import docopt
+
 from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
 
 from . import _
-
-
-DEBUG = False
-config = streams = games = categories = None
+from ..utils.chats import download_missing as download_chats
+from ..data import config, streams, games, categories
+from ..config import DEBUG
 
 
 def timed(label):
@@ -25,17 +21,10 @@ def timed(label):
             t = time()
             res = func(*args, **kwargs)
             t = time() - t
-            print(label.format(int(t * 1000)), file=sys.stderr)
+            print(label.format(int(t * 1000)))
             return res
         return wrapper
     return decorator
-
-
-@timed('Database loaded in {}ms')
-def load_database():
-    global config, streams, games, categories, DEBUG
-    from ..data import config, streams, games, categories
-    from ..config import DEBUG
 
 
 @timed('Fallbacks activated in {}ms')
@@ -106,23 +95,14 @@ def build_mako():
         out.write(t.render(**env))
 
 
-@timed('Webpack completed in {}ms')
-def build_webpack():
-    # Recreate required directories
-    if os.path.isdir(_('dist')):
-        shutil.rmtree(_('dist'))
-    os.mkdir(_('dist'))
-
-    # Webpack
-    call(['webpack', '--config', 'src/js/webpack.config.js'])
-
-
 @timed('Build completed in {}ms')
 def generate(argv=None):
     args = docopt(__doc__, argv=argv)
 
-    load_database()
     enable_fallbacks()
+
+    if args['--download-chats']:
+        timed('Downloaded missing chats in {}ms')(download_chats)()
 
     # Create debug marker
     if DEBUG:
@@ -143,8 +123,6 @@ def generate(argv=None):
         os.unlink(_('CNAME'))
 
     build_data()
-    if not args['--no-webpack']:
-        build_webpack()
     build_mako()
 
 

@@ -101,12 +101,12 @@ case $1 in
         fi
 
         repo pull ;;
-    build) shift; $PYTHON -m src.utils.generate $@ ;;
-    serve) shift; $PYTHON -m src.utils.serve $@ ;;
-    debug) shift; DEBUG=1 $PYTHON -m src.utils.serve $@ ;;
-    react)
-        DEBUG=1 ./bsu build --no-webpack
-        HMR=1 webpack serve --host 0.0.0.0 --config src/js/webpack.config.js ;;
+    generate) shift; $PYTHON -m src.utils.generate "$@" ;;
+    build)
+        ./bsu generate
+        ./bsu webpack ;;
+    serve) shift; $PYTHON -m src.utils.serve "$@" ;;
+    debug) shift; HMR=1 DEBUG=1 $PYTHON -m src.utils.serve "$@" ;;
     download-chats) $PYTHON -m src.utils.chats ;;
     sh|bash) "$@" ;;
     cli)
@@ -117,6 +117,6 @@ case $1 in
     script) shift; module=$1; shift; $PYTHON -m src.scripts.$module "$@" ;;
     python) shift; $PYTHON $@ ;;
     pip) shift; $PYTHON -m pip $@ ;;
-    npm|npx|node) "$@" ;;
+    npm|npx|node|webpack) "$@" ;;
     *) echo "Usage: $0 venv|pages|pull|build|serve|react|download-chats|sh|bash|repl|script|python|pip|npm" ;;
 esac

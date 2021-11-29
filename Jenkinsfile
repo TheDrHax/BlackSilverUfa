@@ -12,8 +12,10 @@ node('python3 && git && (tzdata || !alpine)') {
     stage('Prepare') {
         git branch: input_branch, credentialsId: cred_git, url: repo_url
 
-        sh 'git config --local user.email "the.dr.hax@gmail.com"'
-        sh 'git config --local user.name "Jenkins"'
+        sh '''
+            git config --local user.email "the.dr.hax@gmail.com"
+            git config --local user.name "Jenkins"
+        '''
 
         sh './bsu venv update'
 
@@ -22,12 +24,12 @@ node('python3 && git && (tzdata || !alpine)') {
         }
     }
 
-    stage('Download Chats') {
-        sh './bsu download-chats'
-    }
-
     stage('Build') {
-        sh './bsu build'
+        parallel 'Data': {
+            sh './bsu generate --download-chats'
+        }, 'Frontend': {
+            sh './bsu webpack'
+        }
     }
 
     stage('Deploy') {

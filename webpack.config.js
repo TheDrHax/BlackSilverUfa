@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -23,10 +24,13 @@ module.exports = [
       publicPath: '/dist/',
     },
     devServer: {
-      contentBase: path.join(process.env.PWD, '_site'),
+      static: {
+        directory: path.join(process.env.PWD, '_site'),
+        watch: false,
+      },
       compress: true,
+      hot: DEBUG,
       port: 8000,
-      hot: true,
       historyApiFallback: {
         rewrites: [
           { from: /^\/.*/, to: '/index.html' },
@@ -86,6 +90,10 @@ module.exports = [
       new MiniCssExtractPlugin({
         filename: 'bundle.css',
       }),
+      HMR && new webpack.NormalModuleReplacementPlugin(
+        /src\/js\/data\.prod\.js/,
+        './data.dev.js',
+      ),
       HMR && new ReactRefreshWebpackPlugin(),
     ].filter(Boolean),
   },
