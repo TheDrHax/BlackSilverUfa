@@ -56,7 +56,7 @@ node_setup() { # [force | silent]
         return 0
     fi
 
-    npm install || exit 1
+    npm install --unsafe-perms || exit 1
     [ -e "$PWD/node_modules/.cache" ] && rm -rf "$PWD/node_modules/.cache"
 
     md5sum "package.json" "package-lock.json" > "$MD5_FILE"
