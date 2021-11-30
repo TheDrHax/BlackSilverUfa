@@ -8290,9 +8290,10 @@
     "games": ["metroid-dread", "b4b"]
   },
   "1179333352": {
-    "youtube": "3qEQcrZOFnI", "abs_start": "0:00", "abs_end": "5:07:56", "duration": "5:07:56",
+    "youtube": "3qEQcrZOFnI", "abs_start": "0:00", "abs_end": "5:08:34", "duration": "5:07:56",
     "name": "World War Z: Aftermath (с Дашей и Джеком) #3",
     "date": "2021-10-17",
+    "cuts": [[582, 620]],
     "games": ["wwz-aftermath"]
   },
   "1180156009": {
@@ -8308,9 +8309,10 @@
     "games": ["single", "chasing-static", "project-nightmares-36"]
   },
   "1181935075": {
-    "youtube": "bRpZm-P6V2g", "abs_start": "0:00", "abs_end": "6:24:35", "duration": "6:24:35",
+    "youtube": "bRpZm-P6V2g", "abs_start": "0:00", "abs_end": "6:25:08", "duration": "6:24:35",
     "name": "Inscryption - Релиз / Fallout 76 #3 (с Артёмом) / Occult",
     "date": "2021-10-20",
+    "cuts": [[18486, 18519]],
     "games": ["inscryption", "fallout-76", "co-op"]
   },
   "1182938896": {
@@ -8368,15 +8370,17 @@
     "games": ["halloween", "at-dead-of-night"]
   },
   "1193856809": {
-    "youtube": "Lr002vxO1Hc", "abs_start": "0:00", "abs_end": "6:07:29", "duration": "6:07:29",
+    "youtube": "Lr002vxO1Hc", "abs_start": "0:00", "abs_end": "6:08:02", "duration": "6:07:29",
     "name": "Розыгрыш ROG Spatha Black USB / The Mortuary Assistant (демо) / Devil Inside Us: Root of Evil (демо) / The Radio Station / Project Nightmares Case 36: Henrietta Kedward #2",
     "date": "2021-11-02",
+    "cuts": [[9891, 9924]],
     "games": ["events", "first-2021", "project-nightmares-36"]
   },
   "1194875760": {
-    "youtube": "UF-VUaV11Oc", "abs_start": "0:00", "abs_end": "3:53:47", "duration": "3:53:47",
+    "youtube": "UF-VUaV11Oc", "abs_start": "0:00", "abs_end": "3:54:59", "duration": "3:53:47",
     "name": "Apex Legends",
     "date": "2021-11-03",
+    "cuts": [[9452, 9495], [10876, 10905]],
     "games": ["co-op"]
   },
   "1195666882": {
@@ -8404,15 +8408,17 @@
     "games": ["first-2021", "phasmophobia"]
   },
   "1200472047": {
-    "youtube": "dsqj65AmNio", "abs_start": "0:00", "abs_end": "6:11:37", "duration": "6:11:37",
+    "youtube": "dsqj65AmNio", "abs_start": "0:00", "abs_end": "6:12:07", "duration": "6:11:37",
     "name": "Visage #6 / Arena of Valor #3",
     "date": "2021-11-09",
+    "cuts": [[4263, 4293]],
     "games": ["visage", "arena-of-valor"]
   },
   "1201428986": {
-    "youtube": "z2eYKxCJ6Fs", "abs_start": "0:00", "abs_end": "4:40:07", "duration": "4:40:07",
+    "youtube": "z2eYKxCJ6Fs", "abs_start": "0:00", "abs_end": "4:41:12", "duration": "4:40:07",
     "name": "Warframe #1",
     "date": "2021-11-10",
+    "cuts": [[7062, 7095], [15460, 15492]],
     "games": ["warframe"]
   },
   "1202281245": {
@@ -8449,13 +8455,14 @@
     "games": ["bf-2042"]
   },
   "1205227732": {
-    "youtube": "Px_D1WuY1j0", "abs_start": "0:00", "abs_end": "4:01:59", "duration": "4:01:59",
+    "youtube": "Px_D1WuY1j0", "abs_start": "0:00", "abs_end": "4:02:36", "duration": "4:01:59",
     "name": "Elden Ring #2",
     "date": "2021-11-14",
+    "cuts": [[12551, 12588]],
     "games": ["elden-ring"]
   },
   "1205368606": {
-    "abs_start": "0:00", "abs_end": "3:59:19", "duration": "0:00",
+    "abs_start": "0:00", "abs_end": "3:59:52", "duration": "0:00",
     "name": "",
     "date": "2021-11-14",
     "direct": "https://bsufiles.thedrhax.pw/streams/1205368606.mp4",
@@ -8476,9 +8483,10 @@
     "games": ["bf-2042"]
   },
   "1206191026": {
-    "youtube": "AX0-z7KVbSE", "abs_start": "0:00", "abs_end": "5:57:57", "duration": "5:57:57",
+    "youtube": "AX0-z7KVbSE", "abs_start": "0:00", "abs_end": "5:58:32", "duration": "5:57:57",
     "name": "Grand Theft Auto III - Definitive Edition / Grand Theft Auto: Vice City - Definitive Edition #1 / Grand Theft Auto: San Andreas - Definitive Edition #1",
     "date": "2021-11-15",
+    "cuts": [[14958, 14993]],
     "games": ["first-2021", "gta-vice-city", "gta-san-andreas"]
   },
   "1207047094": {
@@ -8536,9 +8544,10 @@
     "games": ["first-2021", "darkwood"]
   },
   "1212756532": {
-    "youtube": "_D7O_UTbIsw", "abs_start": "0:00", "abs_end": "6:26:58", "duration": "6:26:58",
+    "youtube": "_D7O_UTbIsw", "abs_start": "0:00", "abs_end": "6:27:21", "duration": "6:26:58",
     "name": "Darkwood #3 / Farming Simulator 22",
     "date": "2021-11-22",
+    "cuts": [[18031, 18054]],
     "games": ["darkwood", "co-op"]
   },
   "1213619188": {
@@ -8548,9 +8557,10 @@
     "games": ["deadly-premonition"]
   },
   "1214560792": {
-    "youtube": "CZdDiStz-1E", "abs_start": "0:00", "abs_end": "6:38:05", "duration": "6:38:05",
+    "youtube": "CZdDiStz-1E", "abs_start": "0:00", "abs_end": "6:38:52", "duration": "6:38:05",
     "name": "Shadow of the Damned #1 / Warframe #4",
     "date": "2021-11-24",
+    "cuts": [[10410, 10457]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1214560792.torrent",
     "games": ["sotd", "warframe"]
   },
@@ -8562,7 +8572,7 @@
     "games": ["sotd"]
   },
   "1218281049": {
-    "abs_start": "0:00", "abs_end": "3:09:48", "duration": "0:00",
+    "abs_start": "0:00", "abs_end": "3:10:49", "duration": "0:00",
     "name": "",
     "date": "2021-11-28",
     "direct": "https://bsufiles.thedrhax.pw/streams/1218281049.mp4",
@@ -8570,7 +8580,7 @@
     "games": []
   },
   "1218409784": {
-    "abs_start": "0:00", "abs_end": "2:41:51", "duration": "0:00",
+    "abs_start": "0:00", "abs_end": "2:42:59", "duration": "0:00",
     "name": "",
     "date": "2021-11-28",
     "direct": "https://bsufiles.thedrhax.pw/streams/1218409784.mp4",
@@ -8578,7 +8588,7 @@
     "games": []
   },
   "1218281049,1218409784": {
-    "abs_start": "0:00", "abs_end": "5:51:39", "duration": "0:00",
+    "abs_start": "0:00", "abs_end": "5:53:48", "duration": "0:00",
     "name": "Post Trauma (демо) / Implements of Hell / The Horrors: Lost Tape (демо) / The Gallagher Case / Athanasia / Samhainophobia",
     "date": "2021-11-28",
     "direct": "https://bsufiles.thedrhax.pw/streams/1218281049,1218409784.mp4",
