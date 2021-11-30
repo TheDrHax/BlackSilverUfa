@@ -116,6 +116,15 @@ class Timecode(object):
         else:
             return False
 
+    def __contains__(self, other):
+        if not isinstance(other, Timecode):
+            other = Timecode(other)
+
+        if not self.duration:
+            return self == other
+
+        return self.value <= other <= self.value + self.duration
+
     def __ge__(self, other):
         return int(self) >= int(other)
 
@@ -195,6 +204,19 @@ class Timecodes(Timecode, SortedKeyList):
                     return True
             return False
 
+    def transform(self, func=lambda t: t) -> 'Timecodes':
+        tc = Timecodes(name=self.name)
+        for t in self:
+            if isinstance(t, Timecodes):
+                tc.add(t.transform(func))
+            elif t.duration:
+                t_new = func(Timecode(t.value, name=t.name))
+                t_new.duration = int(func(t + t.duration) - t_new)
+                tc.add(t_new)
+            else:
+                tc.add(func(t))
+        return tc
+
     def to_list(self):
         return [str(tc) for tc in self]
 
@@ -252,7 +274,7 @@ class TimecodesSlice(Timecodes):
             return False
 
         for cut in self.segment.cuts:
-            if cut.value <= t <= cut.value + cut.duration:
+            if t in cut:
                 return False
 
         return True

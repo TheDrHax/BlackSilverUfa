@@ -6,7 +6,7 @@
   cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --direct <url>) [--directory <path>]
   cli [options] game add <game> <category> <name>
   cli [options] ref add <game> <stream> [<segment>] --name <name> [--start <t>]
-  cli [options] copyright mute <stream> <input> <output>
+  cli [options] timecodes shift <stream> [--] <range> <offset>
 
 Commands:
   stream
@@ -26,11 +26,6 @@ Commands:
 
   ref
     add         Create a new link between game and segment.
-
-  copyright
-    mute        Uses ffmpeg to mute all copyrighted segments in the <input>
-                video. Time ranges must be listed in <stream>'s timecodes
-                under the top-level key 'Проблемы с правообладателями'.
 
 Options:
   --dry-run           Do not change anything, just print the result.
@@ -583,38 +578,19 @@ def main(argv=None):
 
         print(ref)
 
-    if args['copyright'] and args['mute']:
-        tc = timecodes[args['<stream>']]
-        tc_ranges = Timecodes(tc['Проблемы с правообладателями'])
+    if args['timecodes']:
+        if args['shift']:
+            t_range = Timecode(args['<range>'])
+            t_offset = Timecode(args['<offset>'])
 
-        def tc_to_ff(t):  # Convert timecodes to ffmpeg's time ranges
-            result = []
+            def transform(t: Timecode) -> Timecode:
+                if t in t_range:
+                    return t + t_offset
+                return t
 
-            if isinstance(t, Timecodes):
-                for t1 in t:
-                    result += tc_to_ff(t1)
-            elif t.duration:
-                result.append(f'between(t,{t.value},{t.value+t.duration})')
-            else:
-                print(f'Ignoring timecode {t} (no duration)', file=sys.stderr)
-
-            return result
-
-        filters = [f"volume=enable='{f_range}':volume=0"
-                   for f_range in tc_to_ff(tc_ranges)]
-
-        cmd = ['ffmpeg', '-i', args['<input>'],
-               '-c:v', 'copy', '-strict', '-2',
-               '-af', ",".join(filters),
-               args['<output>']]
-
-        if args['--dry-run']:
-            print(' '.join([f'"{arg}"' if "'" in arg else arg
-                            for arg in cmd]))
-            return
-
-        p = run(cmd)
-        sys.exit(p.returncode)
+        tc = Timecodes(timecodes[args['<stream>']])
+        timecodes[args['<stream>']] = tc.transform(transform).to_dict()
+        timecodes.save()
 
 
 if __name__ == '__main__':
