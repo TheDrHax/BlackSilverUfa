@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { zip } from 'lodash';
 // Components
 import { Col, Row } from 'react-bootstrap';
 import { Layout } from '../../components';
@@ -9,29 +10,27 @@ import { useTitle } from '../../hooks/use-title';
 import { Data } from '../../data';
 import Matomo from '../../matomo';
 
-const parseUrl = ({ url, params }) => ({ url, gameId: params.game });
-const getGameSegments = (streams, segments) => streams.map((stream) => {
-  const title = stream.name;
-  const { segment, thumbnail } = segments.by('segment', stream.segment);
-
-  return ({ title, segment, thumbnail });
-});
+const getSegmentsByRefs = (segmentRefs, segments) => (
+  segmentRefs.map((segmentRef) => (
+    segments.by('segment', segmentRef.segment)
+  ))
+);
 
 const GamePage = ({ match }) => {
-  const [game, setGame] = useState({ name: '', segments: [] });
+  const [game, setGame] = useState({ name: '', segments: [], segmentRefs: [] });
   const [isLoading, setLoading] = useState(true);
 
-  const { url, gameId } = parseUrl(match);
+  const { game: gameId } = match.params;
 
   useTitle(game.name);
 
   useEffect(() => {
     Matomo.trackPageView();
     Data.then((data) => {
-      const { name, streams } = data.games.by('id', gameId);
-      const segments = getGameSegments(streams, data.segments);
+      const { name, streams: segmentRefs } = data.games.by('id', gameId);
+      const segments = getSegmentsByRefs(segmentRefs, data.segments);
 
-      setGame({ name, segments });
+      setGame({ name, segments, segmentRefs });
       setLoading(false);
     });
   }, [gameId]);
@@ -44,7 +43,9 @@ const GamePage = ({ match }) => {
         </Col>
       </Row>
       <Row className="d-flex">
-        {game.segments.map((stream) => (<StreamCard key={stream.segment} url={url} {...stream} />))}
+        {zip(game.segments, game.segmentRefs).map(([segment, segmentRef]) => (
+          <StreamCard key={segment.segment} segment={segment} segmentRef={segmentRef} />
+        ))}
       </Row>
     </Layout>
   );
