@@ -516,8 +516,12 @@ class SegmentReference:
             if key in ['name', 'start'] and len(self.subrefs) > 1 and not compiled:
                 continue
 
-            if key in ['start', 'end'] and value == 0:
-                continue
+            if key in ['start', 'end']:
+                if value == 0:
+                    continue
+
+                if compiled:
+                    value -= self.offset(value) - self.offset()
 
             if key == 'subrefs' and len(value) == 1:
                 continue
