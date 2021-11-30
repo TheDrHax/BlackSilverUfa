@@ -364,7 +364,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
     if video_offset == 0 and fail_if_cut:
         if len(segment.cuts) > 0:
-            segment_kwargs['cuts'] = segment.cuts
+            segment_kwargs['cuts'] = segment._cuts
 
         if segment.stream.type == StreamType.JOINED:
             segment_kwargs['offsets'] = segment.offsets

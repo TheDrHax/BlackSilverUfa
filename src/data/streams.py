@@ -39,7 +39,7 @@ class Segment:
     _offset: Timecode = attr.ib(0, converter=Timecode)
     offsets: Timecodes = attr.ib([], converter=Timecodes)  # for joined streams
     _duration: Timecode = attr.ib(0, converter=Timecode)
-    cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
+    _cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
 
     stream: 'Stream' = attr.ib()  # depends on _offset
 
@@ -50,12 +50,11 @@ class Segment:
     def joined_timecodes(self) -> Timecodes:
         res = Timecodes()
 
-        for i, stream in enumerate(self.stream.streams):
-            for t in stream.timecodes + self.offsets[i]:
-                res.add(t)
+        for i, (stream, offset) in enumerate(zip(self.stream.streams, self.offsets)):
+            [res.add(t) for t in stream[0].timecodes + offset]
 
-            if i > 0 and self.offsets[i] > 0 and self.offsets[i] not in res:
-                res.add(Timecode(self.offsets[i], name=f'{i+1}-й стрим'))
+            if i > 0 and offset > 0 and offset not in res:
+                res.add(Timecode(offset, name=f'{i+1}-й стрим'))
 
         return res
 
@@ -69,6 +68,23 @@ class Segment:
             timecodes = self.stream.timecodes
 
         self.timecodes = TimecodesSlice(parent=timecodes, segment=self)
+
+    @property
+    def cuts(self) -> Timecodes:
+        if self.stream.type is not StreamType.JOINED:
+            return self._cuts
+
+        cuts = Timecodes(self._cuts)
+
+        for stream, offset in zip(self.stream.streams, self.offsets):
+            offset += sum(t.duration for t in cuts if t < offset)
+            cuts.update(stream[0].cuts + offset)
+
+        return cuts
+
+    @cuts.setter
+    def cuts(self, value: Timecodes):
+        self._cuts = value
 
     def offset(self, t=0):
         cuts = sum([cut.duration for cut in self.cuts if cut <= t])
@@ -258,7 +274,7 @@ class Segment:
     @join()
     def to_json(self, compiled=False):
         if not compiled:
-            keys = ['youtube', 'offset', 'cuts', 'official',
+            keys = ['youtube', '_offset', '_cuts', 'official',
                     'start', 'end', '_duration', 'force_start']
             multiline_keys = ['direct', 'offsets', 'note', 'torrent']
         else:
@@ -290,16 +306,13 @@ class Segment:
         for key in keys:
             value = get_attr(key)
 
-            if key == 'offset':
-                value = self.offset()
-
             if value is None:
                 continue
 
             if key in fields and fields[key].default == value:
                 continue
 
-            if key == 'cuts':
+            if key == '_cuts':
                 if len(value) == 0:
                     continue
 
@@ -336,7 +349,7 @@ class Segment:
                         value = value.to_list()
                 else:
                     continue
-            
+
             if key == 'cuts':
                 if len(value) == 0:
                     continue
@@ -694,7 +707,7 @@ class SubReference:
             yield f',\n    "blacklist": {indent(self._blacklist.to_json(), 4)[4:]}'
 
         yield '\n  }' if multiline else ' }'
-    
+
     def __repr__(self):
         return f'SubReference({self.name}, {self.start})'
 
