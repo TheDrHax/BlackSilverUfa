@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first-2021", "segment": "1206191026", "name": "Grand Theft Auto III - Definitive Edition / Grand Theft Auto: Vice City - Definitive Edition #1 / Grand Theft Auto: San Andreas - Definitive Edition #1", "start": 0},
       {"id": "first-2021", "segment": "1207047094", "name": "Babylon's Fall (бета)", "start": 0},
       {"id": "first-2021", "segment": "1207997756", "name": "Hextech Mayhem / Ruined King / Grand Theft Auto: Vice City - Definitive Edition #2 / Grand Theft Auto: San Andreas - Definitive Edition #2 / Warframe #3", "start": 0},
       {"id": "visage", "segment": "1208881098,1208977751", "name": "Visage #7", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "deadly-premonition", "segment": "1213619188", "name": "Deadly Premonition: Director's Cut #2 (заново)", "start": 0},
       {"id": "sotd", "segment": "1214560792", "name": "Shadow of the Damned #1 / Warframe #4", "start": 0},
       {"id": "sotd", "segment": "1217200258", "name": "Shadow of the Damned #2", "start": 0},
-      {"id": "first-2021", "segment": "1218281049,1218409784", "name": "Post Trauma (демо) / Implements of Hell / The Horrors: Lost Tape (демо) / The Gallagher Case / Athanasia / Samhainophobia", "start": 0}
+      {"id": "first-2021", "segment": "1218281049,1218409784", "name": "Post Trauma (демо) / Implements of Hell / The Horrors: Lost Tape (демо) / The Gallagher Case / Athanasia / Samhainophobia", "start": 0},
+      {"id": "warframe", "segment": "1220903782", "name": "Warframe #5", "start": 0}
     ]
   },
   "finished": {
