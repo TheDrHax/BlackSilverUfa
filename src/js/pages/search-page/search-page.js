@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
+import { useQueryParam, StringParam, NumberParam, DateParam, BooleanParam } from 'use-query-params';
 import { Row, Col, Alert } from 'react-bootstrap';
 // Utils
 import flow from 'lodash/flow';
-import { Data } from '../../data';
 import Matomo from '../../matomo';
 import { filterByText, tokenize } from '../../utils/search';
 // Hooks
 import { useComplexState } from '../../hooks/use-complex-state';
+import { useComplexQueryState, withSquashedDefault } from '../../hooks/use-complex-query-state';
 import { useTitle } from '../../hooks/use-title';
 // Namespace
 import { searchPage as t } from '../../constants/texts';
@@ -14,13 +15,8 @@ import { searchPage as t } from '../../constants/texts';
 import { Layout } from '../../components';
 import ControlPanel from './control-panel';
 import SearchResults from './search-results';
-
-const convertCategories = (data) => Object.values(data)
-  .filter(({ search }) => search !== false)
-  .reduce((result, current) => {
-    result[current.id] = current.name;
-    return result;
-  }, { any: t.categoryAny });
+import { DEFAULT_SCALE } from './constants';
+import { useDataStore } from '../../hooks/use-data-store';
 
 const getDateParams = (startDate, endDate) => (endDate
   ? { $between: [startDate, endDate] }
@@ -46,9 +42,9 @@ const getSortFlow = (chain, sortBy, isDesc) => {
   return chain.compoundsort(sortParams);
 };
 
-const executeSearch = ({ mode, data, text, category, startDate, endDate, sortBy, isDesc }) => flow([
+const executeSearch = ({ mode, data, q: text, category, from, to, sortBy, isDesc }) => flow([
   mode === 'segments'
-    ? getSegmentsFlow(data.segments, startDate, endDate)
+    ? getSegmentsFlow(data.segments, from, to)
     : getGamesFlow(data.index, category),
   (chain) => getSortFlow(chain, sortBy, isDesc),
   (chain) => (tokenize(text).length ? filterByText(text, chain.data()) : chain.data()),
@@ -63,20 +59,16 @@ const reportSearchEvent = (mode, text, count) => {
   });
 };
 
-const INIT_DATA = {
-  index: null,
-  segments: null,
-  categories: null,
+const SCHEMA_FILTERS = {
+  q: withSquashedDefault(StringParam, ''),
+  category: withSquashedDefault(StringParam, 'any'),
+  scale: withSquashedDefault(StringParam, DEFAULT_SCALE),
+  from: DateParam,
+  to: DateParam,
 };
-const INIT_FILTERS = {
-  text: '',
-  category: 'any',
-  startDate: null,
-  endDate: null,
-};
-const INIT_SORTING = {
-  sortBy: 'date',
-  isDesc: true,
+const SCHEMA_SORTING = {
+  sortBy: withSquashedDefault(StringParam, 'date'),
+  isDesc: withSquashedDefault(BooleanParam, true),
 };
 const INIT_RESULTS = {
   mode: null,
@@ -85,39 +77,33 @@ const INIT_RESULTS = {
 };
 
 const SearchPage = () => {
-  const [isLoading, setLoading] = useState(true);
-  const [mode, setMode] = useState('segments');
-  const [data, setData] = useComplexState(INIT_DATA);
-  const [filters, updateFilters] = useComplexState(INIT_FILTERS);
-  const [sorting, updateSorting] = useComplexState(INIT_SORTING);
+  const { isReady, data } = useDataStore();
+  const [mode, setMode] = useQueryParam('mode', withSquashedDefault(StringParam, 'segments'));
+  const [page, setPage] = useQueryParam('page', withSquashedDefault(NumberParam, 1));
+  const [filters, updateFilters] = useComplexQueryState(SCHEMA_FILTERS);
+  const [sorting, updateSorting] = useComplexQueryState(SCHEMA_SORTING);
   const [results, updateResults] = useComplexState(INIT_RESULTS);
 
   const submitForm = (event) => {
     event?.preventDefault();
-
-    const searchResults = executeSearch({ mode, data, ...filters, ...sorting });
-    updateResults({ mode, items: searchResults, page: 0 });
-    if (event) reportSearchEvent(mode, filters.text, results.length);
+    const items = executeSearch({ mode, data, ...filters, ...sorting });
+    updateResults({ mode, items, page: 0 });
+    if (event) reportSearchEvent(mode, filters.text, items.length);
   };
 
   useTitle(t.title);
 
   useEffect(() => {
     Matomo.trackPageView();
-    Data.then(({ segments, categories, index }) => {
-      setData({ index, segments, categories: convertCategories(categories.data) });
-      setLoading(false);
-    });
   }, []);
 
   useEffect(() => {
-    if (!data.segments) return;
+    if (!isReady) return;
     submitForm();
   }, [data, mode, filters, sorting]);
 
   return (
-    <Layout isLoading={isLoading}>
-
+    <Layout isLoading={!isReady}>
       <Row className="pt-3">
         <Col>
           <Alert variant="dark">{t.notification}</Alert>
@@ -137,9 +123,9 @@ const SearchPage = () => {
       <SearchResults
         mode={results.mode}
         items={results.items}
-        page={results.page}
+        page={page - 1}
         segments={data.segments}
-        onPageChange={(input) => updateResults({ page: input })}
+        onPageChange={(input) => setPage(input + 1)}
       />
       )}
     </Layout>

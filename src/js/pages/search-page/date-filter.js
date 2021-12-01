@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 // Components
 import { InputGroup, Col, Button } from 'react-bootstrap';
@@ -7,7 +7,7 @@ import DateRangePicker from './date-range-picker';
 import DatePicker from './date-picker';
 // Namespace
 import { searchPage as t } from '../../constants/texts';
-import { SCALES } from './constants';
+import { DEFAULT_SCALE, SCALES } from './constants';
 // Utils
 import Sugar from '../../utils/sugar';
 import { getStreamsLabel } from './utils';
@@ -50,20 +50,11 @@ const getDayClassName = ({ date, segments }) => {
   return (count ? 'bg-lightgreen' : 'bg-lightcoral');
 };
 
-const DEFAULT_SCALE = 'year';
-
-const DateFilter = ({ startDate, endDate, segments, onChange, ...rest }) => {
-  const [scale, setScale] = useState(DEFAULT_SCALE);
-  const [date, setDate] = useState();
-
+const DateFilter = ({ value: { from, to, scale }, segments, onChange, ...rest }) => {
   const minDate = new Date(segments.min('date'));
   const maxDate = new Date(segments.max('date'));
 
   const datePickerConfig = { scale, minDate, maxDate };
-  const resetDates = () => {
-    setDate(null);
-    onChange({ startDate: null, endDate: null });
-  };
 
   return (
     <InputGroup as={Col} {...rest}>
@@ -74,8 +65,7 @@ const DateFilter = ({ startDate, endDate, segments, onChange, ...rest }) => {
           options={SCALES}
           labels={t.scales}
           onChange={(input) => {
-            resetDates();
-            setScale(input);
+            onChange({ from: undefined, to: undefined, scale: input });
           }}
         />
       </InputGroup.Prepend>
@@ -83,36 +73,33 @@ const DateFilter = ({ startDate, endDate, segments, onChange, ...rest }) => {
         scale === 'month'
           ? (
             <DateRangePicker
-              startDate={startDate}
-              endDate={endDate}
+              from={from}
+              to={to}
               {...datePickerConfig}
               tileClassName={(input) => getDayClassName({ ...input, segments })}
               onChange={(input) => {
-                setDate(null);
                 onChange(input);
               }}
             />
           )
           : (
             <DatePicker
-              value={date}
+              value={from}
               {...datePickerConfig}
               tileContent={(input) => getIntervalSummary({ ...input, segments, maxDate })}
               onChange={(input) => {
                 const [start, end] = getRange(input, scale);
-                setDate(input);
-                onChange({ startDate: start, endDate: end });
+                onChange({ from: start, to: end });
               }}
             />
           )
       }
-      {startDate && (
+      {from && (
         <InputGroup.Append>
           <Button
             variant="danger"
             onClick={() => {
-              resetDates();
-              setScale(DEFAULT_SCALE);
+              onChange({ from: undefined, to: undefined, scale: DEFAULT_SCALE });
             }}
           >x
           </Button>
@@ -123,15 +110,13 @@ const DateFilter = ({ startDate, endDate, segments, onChange, ...rest }) => {
 };
 
 DateFilter.propTypes = {
-  startDate: PropTypes.instanceOf(Date),
-  endDate: PropTypes.instanceOf(Date),
+  value: PropTypes.shape({
+    scale: PropTypes.oneOf(SCALES),
+    from: PropTypes.instanceOf(Date),
+    to: PropTypes.instanceOf(Date),
+  }).isRequired,
   segments: PropTypes.object.isRequired,
   onChange: PropTypes.func.isRequired,
-};
-
-DateFilter.defaultProps = {
-  startDate: null,
-  endDate: null,
 };
 
 export default DateFilter;

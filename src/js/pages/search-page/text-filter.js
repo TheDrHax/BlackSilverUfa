@@ -7,8 +7,8 @@ import { searchPage as t } from '../../constants/texts';
 
 const ENTER_KEYS = ['NumpadEnter', 'Enter'];
 
-const TextFilter = ({ onSubmit }) => {
-  const [value, setValue] = useState('');
+const TextFilter = ({ initValue, onSubmit }) => {
+  const [value, setValue] = useState(initValue);
 
   const handleKeyPress = (event) => {
     if (!ENTER_KEYS.includes(event.code)) return;
@@ -34,7 +34,12 @@ const TextFilter = ({ onSubmit }) => {
 };
 
 TextFilter.propTypes = {
+  initValue: PropTypes.string,
   onSubmit: PropTypes.func.isRequired,
+};
+
+TextFilter.defaultProps = {
+  initValue: '',
 };
 
 export default TextFilter;

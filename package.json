@@ -62,6 +62,7 @@
     "lokijs": "^1.5.11",
     "plyr": "^3.6.9",
     "prop-types": "^15.7.2",
+    "query-string": "^7.0.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.6.4",
     "react-bootstrap-typeahead": "^5.1.4",
@@ -74,6 +75,7 @@
     "react-router-dom": "^5.2.0",
     "react-router-global-history": "^1.1.0",
     "shallowequal": "^1.1.0",
-    "sugar": "^2.0.6"
+    "sugar": "^2.0.6",
+    "use-query-params": "^1.2.3"
   }
 }

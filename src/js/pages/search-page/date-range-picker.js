@@ -3,35 +3,35 @@ import PropTypes from 'prop-types';
 // Components
 import DatePicker from './date-picker';
 
-const DateRangePicker = ({ startDate, endDate, minDate, onChange, ...rest }) => (
+const DateRangePicker = ({ from, to, minDate, onChange, ...rest }) => (
   <>
     <DatePicker
-      key="startDate"
-      value={startDate}
+      key="from"
+      value={from}
       minDate={minDate}
-      onChange={(input) => onChange({ startDate: input, endDate })}
+      onChange={(input) => onChange({ from: input, to })}
       {...rest}
     />
     <DatePicker
-      key="endDate"
-      value={endDate}
-      minDate={startDate || minDate}
-      onChange={(input) => onChange({ startDate, endDate: input })}
+      key="to"
+      value={to}
+      minDate={from || minDate}
+      onChange={(input) => onChange({ from, to: input })}
       {...rest}
     />
   </>
 );
 
 DateRangePicker.propTypes = {
-  startDate: PropTypes.instanceOf(Date),
-  endDate: PropTypes.instanceOf(Date),
+  from: PropTypes.instanceOf(Date),
+  to: PropTypes.instanceOf(Date),
   minDate: PropTypes.instanceOf(Date),
   onChange: PropTypes.func.isRequired,
 };
 
 DateRangePicker.defaultProps = {
-  startDate: null,
-  endDate: null,
+  from: undefined,
+  to: undefined,
   minDate: null,
 };
 

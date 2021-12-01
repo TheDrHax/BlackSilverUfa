@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
 // Components
 import { Card, Col, Form, InputGroup, Row } from 'react-bootstrap';
@@ -8,7 +8,7 @@ import DateFilter from './date-filter';
 import TextFilter from './text-filter';
 // Namespace
 import { searchPage as t } from '../../constants/texts';
-import { MODES } from './constants';
+import { MODES, SCALES } from './constants';
 
 const SORT_OPTIONS = {
   segments: ['date'],
@@ -27,6 +27,13 @@ const STYLE_CONFIG = {
   lg: 4,
 };
 
+const convertCategories = (categories) => Object.values(categories)
+  .filter(({ search }) => search !== false)
+  .reduce((result, current) => {
+    result[current.id] = current.name;
+    return result;
+  }, { any: t.categoryAny });
+
 const ControlPanel = ({ mode,
   filters,
   sorting,
@@ -37,6 +44,16 @@ const ControlPanel = ({ mode,
   onSortingChange,
 }) => {
   const direction = sorting.isDesc ? 'desc' : 'asc';
+
+  const filteredCategories = useMemo(() => (
+    convertCategories(categories.data)
+  ), [categories]);
+
+  const dateState = {
+    scale: filters.scale,
+    from: filters.from,
+    to: filters.to,
+  };
 
   return (
     <Row className="interactive-search-form">
@@ -56,15 +73,17 @@ const ControlPanel = ({ mode,
                   }}
                 />
               </InputGroup.Prepend>
-              <TextFilter onSubmit={(input) => onFiltersChange({ text: input })} />
+              <TextFilter
+                initValue={filters.q}
+                onSubmit={(input) => onFiltersChange({ q: input })}
+              />
             </InputGroup>
             <Form.Row>
               {mode === 'segments'
                 ? (
                   <DateFilter
                     {...STYLE_CONFIG}
-                    startDate={filters.startDate}
-                    endDate={filters.endDate}
+                    value={dateState}
                     segments={segments}
                     onChange={onFiltersChange}
                   />
@@ -74,8 +93,8 @@ const ControlPanel = ({ mode,
                     {...STYLE_CONFIG}
                     value={filters.category}
                     label={t.category}
-                    labels={categories}
-                    options={Object.keys(categories)}
+                    labels={filteredCategories}
+                    options={Object.keys(filteredCategories)}
                     onChange={(category) => onFiltersChange({ category })}
                   />
                 )}
@@ -99,8 +118,18 @@ const ControlPanel = ({ mode,
 
 ControlPanel.propTypes = {
   mode: PropTypes.string.isRequired,
-  filters: PropTypes.object.isRequired,
-  sorting: PropTypes.object.isRequired,
+  filters: PropTypes.shape({
+    q: PropTypes.string,
+    category: PropTypes.string,
+    scale: PropTypes.oneOf(SCALES),
+    from: PropTypes.instanceOf(Date),
+    to: PropTypes.instanceOf(Date),
+  }).isRequired,
+  sorting: PropTypes.shape({
+    sortBy: PropTypes.string,
+    isDesc: PropTypes.bool,
+  }).isRequired,
+
   segments: PropTypes.object,
   categories: PropTypes.object,
 
