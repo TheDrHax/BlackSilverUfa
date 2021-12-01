@@ -3,12 +3,14 @@ import { useQueryParam, StringParam, NumberParam, DateParam, BooleanParam } from
 import { Row, Col, Alert } from 'react-bootstrap';
 // Utils
 import flow from 'lodash/flow';
+import animateScrollTo from 'animated-scroll-to';
 import Matomo from '../../matomo';
 import { filterByText, tokenize } from '../../utils/search';
 // Hooks
 import { useComplexState } from '../../hooks/use-complex-state';
 import { useComplexQueryState, withSquashedDefault } from '../../hooks/use-complex-query-state';
 import { useTitle } from '../../hooks/use-title';
+import { useDataStore } from '../../hooks/use-data-store';
 // Namespace
 import { searchPage as t } from '../../constants/texts';
 // Components
@@ -16,7 +18,6 @@ import { Layout } from '../../components';
 import ControlPanel from './control-panel';
 import SearchResults from './search-results';
 import { DEFAULT_SCALE } from './constants';
-import { useDataStore } from '../../hooks/use-data-store';
 
 const getDateParams = (startDate, endDate) => (endDate
   ? { $between: [startDate, endDate] }
@@ -96,6 +97,13 @@ const SearchPage = () => {
   useEffect(() => {
     Matomo.trackPageView();
   }, []);
+
+  useEffect(() => {
+    animateScrollTo(0, {
+      cancelOnUserAction: false,
+      elementToScroll: document.getElementById('react-main-root'),
+    });
+  }, [page]);
 
   useEffect(() => {
     if (!isReady) return;

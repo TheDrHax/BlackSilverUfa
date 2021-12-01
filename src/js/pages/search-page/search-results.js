@@ -1,11 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 // Components
 import { Link } from 'react-router-dom';
 import { Col, ListGroup, Media, Row } from 'react-bootstrap';
 import Pagination from '@vlsergey/react-bootstrap-pagination';
 // Utils
-import animateScrollTo from 'animated-scroll-to';
 import Sugar from '../../utils/sugar';
 import { getStreamsLabel } from './utils';
 // Namespace
@@ -41,10 +40,6 @@ const SearchResults = ({ mode, items, page, segments, onPageChange }) => {
   const pages = Math.ceil(items.length / PAGE_LIMIT);
   const pageStart = page * PAGE_LIMIT;
   const pageEnd = pageStart + PAGE_LIMIT;
-
-  useEffect(() => {
-    animateScrollTo(0);
-  }, [page]);
 
   return (
     <>
