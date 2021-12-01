@@ -10,7 +10,7 @@ import config from '../../../../config/config.json';
 import { useDataStore } from '../../hooks/use-data-store';
 
 const Header = () => {
-  const { isReady, index, segments } = useDataStore();
+  const { isReady, data: { index, segments } } = useDataStore();
   return (
     <>
       <div className="navbar-space">{/* floating navbar workaround */}</div>

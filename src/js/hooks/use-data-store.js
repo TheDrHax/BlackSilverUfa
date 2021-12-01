@@ -4,18 +4,18 @@ import { Data } from '../data';
 export const useDataStore = () => {
   const [connections, setConnections] = useState({
     isReady: false,
-    results: {},
+    data: {},
   });
 
   useEffect(() => {
-    Data.then((results) => {
+    Data.then((data) => {
       setConnections({
-        results,
+        data,
         isReady: true,
       });
     });
   }, []);
 
-  const { isReady, results } = connections;
-  return { isReady, ...results };
+  const { isReady, data } = connections;
+  return { isReady, data };
 };
