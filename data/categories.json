@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first-2021", "segment": "1207047094", "name": "Babylon's Fall (бета)", "start": 0},
       {"id": "first-2021", "segment": "1207997756", "name": "Hextech Mayhem / Ruined King / Grand Theft Auto: Vice City - Definitive Edition #2 / Grand Theft Auto: San Andreas - Definitive Edition #2 / Warframe #3", "start": 0},
       {"id": "visage", "segment": "1208881098,1208977751", "name": "Visage #7", "start": 0},
       {"id": "first-2021", "segment": "1209845995,1210082023", "name": "The Last Stand: Aftermath / Darkwood #2", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "sotd", "segment": "1214560792", "name": "Shadow of the Damned #1 / Warframe #4", "start": 0},
       {"id": "sotd", "segment": "1217200258", "name": "Shadow of the Damned #2", "start": 0},
       {"id": "first-2021", "segment": "1218281049,1218409784", "name": "Post Trauma (демо) / Implements of Hell / The Horrors: Lost Tape (демо) / The Gallagher Case / Athanasia / Samhainophobia", "start": 0},
-      {"id": "warframe", "segment": "1220903782", "name": "Warframe #5", "start": 0}
+      {"id": "warframe", "segment": "1220903782", "name": "Warframe #5", "start": 0},
+      {"id": "dying-light", "segment": "1221836695,1222013740", "name": "Dying Light #3 / Dying 2 Know #4", "start": 0}
     ]
   },
   "finished": {
@@ -665,6 +665,7 @@
     "name": "Активные",
     "games": [
       {"name": "Deadly Premonition: Director's Cut", "id": "deadly-premonition", "segment": "001706170"},
+      {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
       {"name": "Elden Ring", "id": "elden-ring", "segment": "1203211087,1203238012"}
     ]
   },
@@ -804,7 +805,6 @@
       {"name": "Biomutant", "id": "biomutant", "segment": "1033590091"},
       {"name": "Scarlet Nexus", "id": "scarlet-nexus", "segment": "1036865162"},
       {"name": "Genshin Impact", "id": "genshin-impact", "segment": "1072311121"},
-      {"name": "Dying Light", "id": "dying-light", "segment": "1073309664"},
       {"name": "Farmer's Life", "id": "farmers-life", "segment": "1086385946,1086545283"},
       {"name": "The Legend of Zelda: Skyward Sword HD", "id": "tloz-sshd", "segment": "1089427413"},
       {"name": "Kena: Bridge of Spirits", "id": "kena-bos", "segment": "1155016315"},

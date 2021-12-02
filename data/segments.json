@@ -8603,5 +8603,30 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1220903782.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1220903782.torrent",
     "games": ["warframe"]
+  },
+  "1221836695": {
+    "abs_start": "0:00", "abs_end": "4:57:05", "duration": "0:00",
+    "name": "",
+    "date": "2021-12-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1221836695.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1221836695.torrent",
+    "games": []
+  },
+  "1222013740": {
+    "abs_start": "0:00", "abs_end": "3:29:47", "duration": "0:00",
+    "name": "",
+    "date": "2021-12-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1222013740.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1222013740.torrent",
+    "games": []
+  },
+  "1221836695,1222013740": {
+    "abs_start": "0:00", "abs_end": "8:26:52", "duration": "0:00",
+    "name": "Dying Light #3 / Dying 2 Know #4",
+    "date": "2021-12-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1221836695,1222013740.mp4",
+    "offsets": [0, 17733],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1221836695,1222013740.torrent",
+    "games": ["dying-light", "dying-2-know"]
   }
 }
