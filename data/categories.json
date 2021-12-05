@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first-2021", "segment": "1209845995,1210082023", "name": "The Last Stand: Aftermath / Darkwood #2", "start": 0},
       {"id": "darkwood", "segment": "1212756532", "name": "Darkwood #3 / Farming Simulator 22", "start": 0},
       {"id": "deadly-premonition", "segment": "1213619188", "name": "Deadly Premonition: Director's Cut #2 (заново)", "start": 0},
       {"id": "sotd", "segment": "1214560792", "name": "Shadow of the Damned #1 / Warframe #4", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "warframe", "segment": "1220903782", "name": "Warframe #5", "start": 0},
       {"id": "dying-light", "segment": "1221836695,1222013740", "name": "Dying Light #3 / Dying 2 Know #4", "start": 0},
       {"id": "fall-guys", "segment": "1222726196", "name": "Fall Guys #14 (с чатом) / Chorus / Invitationem / Propnight", "start": 0},
-      {"id": "first-2021", "segment": "1223700316", "name": "Icarus / Forewarned (с Куплиновым и Дангаром)", "start": 0}
+      {"id": "first-2021", "segment": "1223700316", "name": "Icarus / Forewarned (с Куплиновым и Дангаром)", "start": 0},
+      {"id": "first-2021", "segment": "1224807350", "name": "Stray Souls (демо) / Sinfeld Remastered (демо) / Happy's Humble Burger Farm / Decrypt", "start": 0}
     ]
   },
   "finished": {
@@ -293,7 +293,8 @@
       {"id": "single", "segment": "1196615295", "name": "Call of Duty: Vanguard (сюжет)", "start": 0},
       {"name": "Shadow of the Damned", "id": "sotd", "segment": "1214560792"},
       {"id": "single", "segment": "1218281049,1218409784", "name": "Samhainophobia", "start": 19536},
-      {"id": "single", "segment": "1222726196", "name": "Invitationem", "start": 14008}
+      {"id": "single", "segment": "1222726196", "name": "Invitationem", "start": 14008},
+      {"id": "single", "segment": "1224807350", "name": "Decrypt", "start": 16911}
     ]
   },
   "first": {
@@ -662,7 +663,10 @@
       {"id": "first-2021", "segment": "1218281049,1218409784", "name": "Athanasia", "start": 17841},
       {"id": "first-2021", "segment": "1222726196", "name": "Chorus", "start": 7498},
       {"id": "first-2021", "segment": "1222726196", "name": "Propnight", "start": 16203},
-      {"id": "first-2021", "segment": "1223700316", "name": "Icarus", "start": 0}
+      {"id": "first-2021", "segment": "1223700316", "name": "Icarus", "start": 0},
+      {"id": "first-2021", "segment": "1224807350", "name": "Stray Souls (демо)", "start": 0},
+      {"id": "first-2021", "segment": "1224807350", "name": "Sinfeld Remastered (демо)", "start": 9279},
+      {"id": "first-2021", "segment": "1224807350", "name": "Happy's Humble Burger Farm", "start": 10545}
     ]
   },
   "ongoing": {
