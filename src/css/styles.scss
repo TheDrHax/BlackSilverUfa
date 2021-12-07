@@ -749,10 +749,6 @@ i.fab + span, i.fas + span, i.far + span, span + i.fas {
 
 .plyr--youtube {
   &:not(:fullscreen) {
-    & .plyr__video-wrapper {
-      padding-bottom: 56.25% !important; // force 16:9
-    }
-  
     & .plyr__controls, .plyr__control[data-plyr="play"] {
       display: none;
     }
