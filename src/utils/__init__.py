@@ -1,5 +1,6 @@
 import os
 import json
+from typing import Any, Callable, Generator
 
 
 prefix = './_site' if 'PREFIX' not in os.environ else os.environ['PREFIX']
@@ -21,8 +22,8 @@ def json_escape(x):
         return json.dumps(str(x), ensure_ascii=False)
 
 
-def join(separator=''):
-    def decorator(func):
+def join(separator: str = ''):
+    def decorator(func: Callable[..., Generator[str, None, None]]) -> Callable[[Any], str]:
         def wrapped(*args, **kwargs):
             return separator.join(list(func(*args, **kwargs)))
         return wrapped
@@ -30,8 +31,8 @@ def join(separator=''):
 
 
 @join('\n')
-def indent(x, level):
-    return [f'{" " * level}{line}' for line in x.split('\n')]
+def indent(x: str, level: int):
+    return (f'{" " * level}{line}' for line in x.split('\n'))
 
 
 # https://stackoverflow.com/a/18603065

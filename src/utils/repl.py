@@ -1,10 +1,32 @@
+from datetime import datetime
 import requests
 from time import sleep
 from tcd.twitch import Channel
-from ..data.timecodes import Timecode, TimecodeHelper
+from ..data.timecodes import T
 
 
 STATE = 'https://red.thedrhax.pw/blackufa/twitch'
+
+
+class TimecodeHelper:
+    offset = 8  # Constant for low latency streamlink + MPV without cache
+
+    @staticmethod
+    def time():
+        """Get current time as Timecode."""
+        return T + str(datetime.time(datetime.now())).split('.')[0]
+
+    def __init__(self, start):
+        self.start = T + start
+
+    def __call__(self):
+        t = self.time() - self.start - T(self.offset)
+        if t < 0:
+            t += '24:00:00'
+        return t
+
+    get = __call__
+
 
 c = Channel('blackufa')
 t = TimecodeHelper('0:00:00')

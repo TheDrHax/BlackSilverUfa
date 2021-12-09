@@ -4,7 +4,7 @@ from enum import Enum
 from cached_property import cached_property
 from git import Repo
 from natsort import natsorted
-from typing import List, Tuple, Dict, Any
+from typing import List, Tuple, Dict, Any, Union
 from hashlib import md5
 from datetime import datetime
 from subprocess import run, PIPE
@@ -14,7 +14,7 @@ from .cache import cached
 from ..config import config, tcd_config
 from .fallback import fallback
 from .blacklist import Blacklist, BlacklistTimeline
-from .timecodes import timecodes, Timecode, Timecodes, TimecodesSlice
+from .timecodes import timecodes, Timecode, Timecodes
 from ..utils import _, load_json, last_line, count_lines, join, json_escape, indent
 from ..utils.ass import SubtitlesStyle
 
@@ -45,18 +45,35 @@ class Segment:
 
     references: SortedList = attr.ib(init=False)
     fallbacks: dict = attr.ib(init=False)
-    timecodes: TimecodesSlice = attr.ib(init=False)
+    timecodes: Timecodes = attr.ib(init=False)
 
     def joined_timecodes(self) -> Timecodes:
         res = Timecodes()
 
         for i, (stream, offset) in enumerate(zip(self.stream.streams, self.offsets)):
-            [res.add(t) for t in stream[0].timecodes + offset]
+            ts = stream[0].timecodes + offset
+            ts = ts.filter(lambda t: t > 0)
+
+            [res.add(t) for t in ts]
 
             if i > 0 and offset > 0 and offset not in res:
                 res.add(Timecode(offset, name=f'{i+1}-й стрим'))
 
         return res
+
+    def transform_timecodes(self, t: Timecode) -> Union[Timecode, None]:
+        # filters
+        if any([
+            t < self.abs_start,
+            self.force_start and t < self.start,
+            self.abs_end != 0 and t >= self.abs_end,
+            *[t in cut for cut in self._cuts]
+        ]):
+            return None
+
+        t -= self.offset(t)
+
+        return t
 
     def __attrs_post_init__(self):
         self.references = SortedList(key=lambda x: x.start)
@@ -67,7 +84,7 @@ class Segment:
         else:
             timecodes = self.stream.timecodes
 
-        self.timecodes = TimecodesSlice(parent=timecodes, segment=self)
+        self.timecodes = timecodes.transform(self.transform_timecodes)
 
     @property
     def cuts(self) -> Timecodes:
@@ -86,8 +103,8 @@ class Segment:
     def cuts(self, value: Timecodes):
         self._cuts = value
 
-    def offset(self, t=0):
-        cuts = sum([cut.duration for cut in self.cuts if cut <= t])
+    def offset(self, t: Timecode = Timecode(0)) -> Timecode:
+        cuts = sum([cut.duration for cut in self._cuts if cut <= t])
         return self._offset + cuts
 
     def __setattr__(self, name, value):
@@ -181,6 +198,7 @@ class Segment:
             data += self.cuts.to_list()
 
         if len(data) > 0:
+            data.append('v2')
             return data
 
     @property
@@ -207,7 +225,7 @@ class Segment:
 
         if out.returncode == 0:
             t = out.stdout.decode('utf-8').strip()
-            return Timecode(t).value
+            return int(Timecode(t))
         else:
             raise Exception(f'`{" ".join(cmd)}` exited with '
                             f'non-zero code {out.returncode}')
@@ -234,7 +252,7 @@ class Segment:
     def abs_end(self):
         if self.end != 0:
             return self.end
-        elif self.duration.value > 0:
+        elif self.duration > 0:
             end = self.abs_start + self.duration
             end += sum(cut.duration for cut in self.cuts)
             return end
@@ -334,7 +352,7 @@ class Segment:
             if key == 'offsets':
                 if self.stream.type is StreamType.JOINED:
                     if compiled:
-                        value = [t.value for t in value]
+                        value = [int(t) for t in value]
                     else:
                         value = value.to_list()
                 else:
@@ -347,7 +365,7 @@ class Segment:
                 if len(value) == 0:
                     continue
 
-                value = [[t.value, t.value + t.duration] for t in value]
+                value = [[int(t.start), int(t.end)] for t in value]
 
             if key == 'games':
                 value = list(game.id for game in self.games)
@@ -395,7 +413,7 @@ class SegmentReference:
 
         if len(self._subrefs) > 0:
             if len(self._blacklist) > 0:
-                raise ValueError(f'`blacklist` can not be used with `subrefs`')
+                raise ValueError('`blacklist` can not be used with `subrefs`')
 
             for data in self._subrefs:
                 if isinstance(data, dict):
@@ -824,7 +842,7 @@ class Stream:
         self.segments.remove(index)
 
     @join()
-    def to_json(self) -> str:
+    def to_json(self):
         if len(self) > 1:
             yield '[\n'
 
@@ -855,7 +873,7 @@ class Segments:
                 yield segment
 
     @join()
-    def to_json(self, compiled=False) -> str:
+    def to_json(self, compiled=False):
         yield '{\n'
 
         first = True
@@ -939,7 +957,7 @@ class Streams(dict):
         return Segments(self)
 
     @join()
-    def to_json(self) -> str:
+    def to_json(self):
         yield '{\n'
 
         def sort_key(item):

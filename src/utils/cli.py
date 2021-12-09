@@ -79,11 +79,15 @@ from ..data.streams import (StreamType, SubReference, streams, Stream,
                             Segment, SegmentReference)
 from ..data.games import games, Game
 from ..data.categories import categories
-from ..data.timecodes import timecodes, Timecode, Timecodes
+from ..data.timecodes import T, timecodes, Timecode, Timecodes
 from ..data.fallback import fallback
 
 
 flat = itertools.chain.from_iterable
+
+
+MATCH_OFFSET = 300
+MATCH_CHUNK = 300
 
 
 def refs_coverage(stream, segment):
@@ -268,18 +272,38 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
                 continue
 
             time_range = Timecode(c_refs[0].abs_start)
-            time_range.duration = int(c_refs[-1].abs_end - c_refs[0].abs_start)
-            yield s, time_range
+            time_range.end = c_refs[-1].abs_end
+
+            scan_range = Timecode(time_range)
+
+            # Expand scan range to cover all possible offsets
+            overscan = tmp_segment.duration - time_range.duration
+
+            if overscan > 0:
+                scan_range.start -= overscan
+                scan_range.end += overscan
+
+            # Cut the end of the scan range that can't be matched anyway
+            scan_range.end -= tmp_segment.duration - MATCH_OFFSET - MATCH_CHUNK
+
+            # Keep range in stream bounds
+            if scan_range.start < 0:
+                scan_range.start = T + 0
+
+            if scan_range.end < 0:
+                scan_range.end = T + MATCH_OFFSET + MATCH_CHUNK
+
+            yield s, time_range, scan_range
 
 
 def ytdl_video(video_id):
     try:
-        print(f'Retrieving video from YouTube...', file=sys.stderr)
+        print('Retrieving video from YouTube...', file=sys.stderr)
         youtube_source = ytdl_best_source(video_id)
         video = Clip(youtube_source, ar=1000)
         video.slice(0, 1)
-    except:
-        print(f'Falling back to bestaudio...', file=sys.stderr)
+    except Exception:
+        print('Falling back to bestaudio...', file=sys.stderr)
         youtube_source = ytdl_best_source(video_id, 'bestaudio')
         video = Clip(youtube_source, ar=1000)
         video.slice(0, 1)
@@ -299,6 +323,9 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
         video = ytdl_video(segment_kwargs['youtube'])
     elif 'direct' in segment_kwargs:
         video = Clip(segment_kwargs['direct'], ar=1000)
+    else:
+        print('Error: Video source is not supported')
+        sys.exit(2)
 
     segment_kwargs['duration'] = video.duration
 
@@ -310,29 +337,33 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
         print('Error: No candidates found', file=sys.stderr)
         sys.exit(2)
 
-    print(f'Preparing template...', file=sys.stderr)
-    template = video.slice(300, 300)[0]
+    print('Possible candidates:')
+    for segment, t_range, s_range in candidates:
+        print(f'  {segment.twitch} - {t_range} - {s_range}')
+
+    print('Preparing template...', file=sys.stderr)
+    template = video.slice(MATCH_OFFSET, MATCH_CHUNK)[0]
 
     original = None
     matching_segment = None
     video_offset = None
 
-    for segment, t_range in candidates:
+    for segment, _, s_range in candidates:
         path = original_video(segment, directory)
-        print(f'Checking segment {segment.hash} {t_range} (path: {path})',
+        print(f'Checking segment {segment.hash} {s_range} (path: {path})',
               file=sys.stderr)
 
         original = Clip(path, ar=1000)
-        start = t_range.value
-        end = t_range.value + max(t_range.duration - video.duration, 0) + 600
 
         try:
-            offset, score = find_offset(template, original, start=start,
-                                        end=end, min_score=50)
+            offset, score = find_offset(template, original,
+                                        start=int(s_range.start),
+                                        end=int(s_range.end),
+                                        min_score=50)
         except Exception:
             continue
 
-        offset -= 300
+        offset -= MATCH_OFFSET
 
         if score > 0:
             matching_segment = segment
@@ -347,37 +378,40 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
     segment_kwargs['offset'] = video_offset
 
-    if segment.stream.type == StreamType.JOINED and not fail_if_cut:
+    if matching_segment.stream.type == StreamType.JOINED and not fail_if_cut:
         print('Matching stream is joined, forcing --fail-if-cut')
         fail_if_cut = True
 
     if fail_if_cut:
         print('Checking for cuts...')
-        diff = check_cuts(original, video, offset=video_offset.value)
+        diff = check_cuts(original, video, offset=int(video_offset))
         if diff > 1:
             print(f'Error: The video is {int(diff)} seconds shorter '
-                   'than the original.', file=sys.stderr)
+                  'than the original.', file=sys.stderr)
             sys.exit(3)
 
-    if segment.note:
-        segment_kwargs['note'] = segment.note
+    if matching_segment.note:
+        segment_kwargs['note'] = matching_segment.note
 
     if video_offset == 0 and fail_if_cut:
-        if len(segment.cuts) > 0:
-            segment_kwargs['cuts'] = segment._cuts
+        if len(matching_segment.cuts) > 0:
+            segment_kwargs['cuts'] = matching_segment._cuts
 
-        if segment.stream.type == StreamType.JOINED:
-            segment_kwargs['offsets'] = segment.offsets
+        if matching_segment.stream.type == StreamType.JOINED:
+            segment_kwargs['offsets'] = matching_segment.offsets
 
-        if segment.offset(0) != 0:
-            segment_kwargs['offset'] = segment.offset(0)
+        if matching_segment.offset(0) != 0:
+            segment_kwargs['offset'] = matching_segment.offset(0)
 
     segment = cmd_add(matching_segment.stream, segment_kwargs)
     return matching_segment.stream, segment
 
 
 def check_cuts(original_video, input_video, offset=0):
-    template = input_video.slice(input_video.duration - 600, 300)[0]
+    template = input_video.slice(
+        input_video.duration - MATCH_OFFSET - MATCH_CHUNK,
+        MATCH_CHUNK
+    )[0]
 
     new_offset, _ = find_offset(
         template, original_video,
@@ -386,7 +420,7 @@ def check_cuts(original_video, input_video, offset=0):
         reverse=True,
         min_score=10)
 
-    return new_offset - (input_video.duration - 600) - offset
+    return new_offset - (input_video.duration - MATCH_OFFSET - MATCH_CHUNK) - offset
 
 
 def cmd_cuts(segment, segment_kwargs, directory=None):
@@ -396,7 +430,7 @@ def cmd_cuts(segment, segment_kwargs, directory=None):
         video = Clip(segment_kwargs['direct'], ar=1000)
 
     original = Clip(original_video(segment, directory), ar=1000)
-    diff = check_cuts(original, video, offset=Timecode(segment.offset).value)
+    diff = check_cuts(original, video, offset=int(segment.offset))
 
     if diff <= 1:
         print('The video is the same as the original')
