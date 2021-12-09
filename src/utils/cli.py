@@ -349,8 +349,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
         try:
             offset, score = find_offset(template, original,
-                                        start=s_range.start.value,
-                                        end=s_range.end.value,
+                                        start=int(s_range.start),
+                                        end=int(s_range.end),
                                         min_score=50)
         except Exception:
             continue
@@ -376,7 +376,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
     if fail_if_cut:
         print('Checking for cuts...')
-        diff = check_cuts(original, video, offset=video_offset.value)
+        diff = check_cuts(original, video, offset=int(video_offset))
         if diff > 1:
             print(f'Error: The video is {int(diff)} seconds shorter '
                   'than the original.', file=sys.stderr)
@@ -422,7 +422,7 @@ def cmd_cuts(segment, segment_kwargs, directory=None):
         video = Clip(segment_kwargs['direct'], ar=1000)
 
     original = Clip(original_video(segment, directory), ar=1000)
-    diff = check_cuts(original, video, offset=Timecode(segment.offset).value)
+    diff = check_cuts(original, video, offset=int(segment.offset))
 
     if diff <= 1:
         print('The video is the same as the original')

@@ -90,7 +90,7 @@ class Category:
 
                     for subref in game.subrefs:
                         data['name'] = subref.name
-                        data['start'] = subref.start.value
+                        data['start'] = int(subref.start)
 
                         if not first:
                             yield ',\n'

@@ -10,7 +10,6 @@ Options:
 
 import os
 import re
-import shutil
 from typing import List, Iterator
 from multiprocessing import Pool
 
@@ -93,7 +92,7 @@ def convert(ifn: str, ofn: str = None,
             style: SubtitlesStyle = None,
             func=lambda msg: msg):
 
-    if ofn is None:
+    if ofn is None or ofn == ifn:
         ofn = f'{ifn}.tmp'
         replace = True
     else:
@@ -121,21 +120,18 @@ def convert(ifn: str, ofn: str = None,
 
 
 def cut_subtitles(cuts: Timecodes, fi: str, fo: str = None):
-    if not os.path.exists(fi):
-        raise FileNotFoundError(fi)
-
     def rebase_msg(event):
         time = event.start
 
         # Drop all cut messages
         for cut in cuts:
-            if cut.value <= time <= cut.value + cut.duration:
+            if cut.start <= time <= cut.end:
                 raise EmptyLineError()
 
         # Rebase messages after cuts
-        delta = sum([cut.duration for cut in cuts if cut.value <= time])
-        event.start -= delta
-        event.end -= delta
+        delta = sum([cut.duration for cut in cuts if cut <= time])
+        event.start -= int(delta)
+        event.end -= int(delta)
 
         return event
 
@@ -153,7 +149,7 @@ def concatenate_subtitles(stream_list: List[Stream], offsets: Timecodes, fo: str
     def events() -> Iterator[SubtitlesEvent]:
         for i, stream in enumerate(stream_list):
             r = SubtitlesReader(find_subtitles(stream))
-            offset = -offsets[i].value
+            offset = -int(offsets[i])
 
             for event in r.events():
                 event.start -= offset
@@ -200,12 +196,12 @@ def generate_subtitles(segment):
     try:
         if segment.stream.type is StreamType.JOINED:
             concatenate_subtitles(segment.stream.streams, segment.offsets, fo)
+            fi = fo
         else:
             fi = find_subtitles(segment.stream)
-            shutil.copyfile(fi, fo, follow_symlinks=True)
 
         if len(segment.cuts) > 0:
-            cut_subtitles(segment.cuts, fo)
+            cut_subtitles(segment.cuts, fi, fo)
     except FileNotFoundError as ex:
         print(f'Skipping segment {segment.hash}: {ex.filename} does not exist')
         if os.path.exists(fo):
@@ -214,6 +210,9 @@ def generate_subtitles(segment):
     except Exception:
         if os.path.exists(fo):
             os.unlink(fo)
+        if os.path.exists(fo + '.tmp'):
+            os.unlink(fo + '.tmp')
+        raise
 
     cache.set(cache_key, cache_hash)
 

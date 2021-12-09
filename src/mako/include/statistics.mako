@@ -2,13 +2,13 @@
     import os
     from src.utils import numword, last_line
     from src.data.streams import StreamType
-    from src.data.timecodes import Timecode
+    from src.data.timecodes import T
     from src.config import config
 %>
 
 <%def name="statistics()">\
 <%
-    duration_streams, duration_segments = Timecode(0), Timecode(0)
+    duration_streams, duration_segments = T, T
     streams_total = 0
     chats_total = 0
     messages = 0

@@ -3,7 +3,7 @@
   from babel.dates import format_date
   from src.utils import md5file
   from src.data.streams import StreamType
-  from src.data.timecodes import Timecode, Timecodes
+  from src.data.timecodes import T, Timecodes
 %>
 <%inherit file="include/base.mako" />
 <%namespace file="include/elements.mako" name="el" />
@@ -14,13 +14,8 @@
 
 <%block name="content">
 <%def name="timecode_link(t)">\
-% if t.duration:
-<%
-    duration = t.duration
-    t = Timecode(t)
-    t.duration = None
-%>\
-${timecode_link(t)} - ${timecode_link(t + duration)}\
+% if t.duration != 0:
+${timecode_link(t.start)} - ${timecode_link(t.end)}\
 % else:
 <a data-value="${int(t)}">${str(t)}</a>\
 % endif

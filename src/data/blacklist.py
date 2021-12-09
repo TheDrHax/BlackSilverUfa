@@ -1,5 +1,5 @@
 import re
-from typing import List, Dict
+from typing import List
 
 from ..config import config
 from .timecodes import Timecode
@@ -29,7 +29,7 @@ class Blacklist:
     @join()
     def to_json(self):
         yield '{\n'
-        
+
         users = False
 
         if len(self._users) > 0:
@@ -47,7 +47,7 @@ class Blacklist:
                 yield f'    {json_escape(user)}'
 
             yield '\n  ]'
-            
+
         if len(self._messages) > 0:
             if users:
                 yield ',\n'
@@ -76,7 +76,7 @@ class BlacklistTimeline:
         self.blacklists = dict()
 
     def add(self, blacklist: Blacklist, start: Timecode, end: Timecode):
-        self.blacklists[(start.value, end.value)] = blacklist
+        self.blacklists[(int(start), int(end))] = blacklist
 
     def __contains__(self, msg: SubtitlesEvent):
         for (start, end), bl in self.blacklists.items():
