@@ -8648,11 +8648,18 @@
     "games": ["first-2021", "hhbf", "single"]
   },
   "1227570391": {
+    "youtube": "ojCvYaT6SI0", "abs_start": "0:00", "abs_end": "5:00:29", "duration": "5:00:29",
+    "name": "MONSTRUM 2 - Релиз / Happy's Humble Burger Farm #2",
+    "date": "2021-12-08",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1227570391.torrent",
+    "games": ["monstrum-2", "hhbf"]
+  },
+  "1227570391.1": {
     "abs_start": "0:00", "abs_end": "7:54:42", "duration": "0:00",
-    "name": "MONSTRUM 2 - Релиз / Happy's Humble Burger Farm #2 / Halo Infinite #1",
+    "name": "Halo Infinite #1",
     "date": "2021-12-08",
     "direct": "https://bsufiles.thedrhax.pw/streams/1227570391.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1227570391.torrent",
-    "games": ["monstrum-2", "hhbf", "halo-infinite"]
+    "games": ["halo-infinite"]
   }
 }
