@@ -76,6 +76,28 @@ class Timecode(object):
             self.value = timecode.value
             self.duration = timecode.duration
 
+    @property
+    def start(self) -> 'Timecode':
+        return self
+
+    @start.setter
+    def start(self, value: 'Timecode'):
+        if self.duration:
+            self.duration -= value.value - self.value
+
+        self.value = value.value
+
+    @property
+    def end(self) -> 'Timecode':
+        if self.duration:
+            return self + self.duration
+        else:
+            return self
+
+    @end.setter
+    def end(self, value: 'Timecode'):
+        self.duration = value.value - self.value
+
     def __str__(self):
         result = self._sec_to_text(self.value)
 
