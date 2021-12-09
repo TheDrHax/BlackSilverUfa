@@ -79,7 +79,7 @@ from ..data.streams import (StreamType, SubReference, streams, Stream,
                             Segment, SegmentReference)
 from ..data.games import games, Game
 from ..data.categories import categories
-from ..data.timecodes import timecodes, Timecode, Timecodes
+from ..data.timecodes import T, timecodes, Timecode, Timecodes
 from ..data.fallback import fallback
 
 
@@ -278,12 +278,20 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
 
             # Expand scan range to cover all possible offsets
             overscan = tmp_segment.duration - time_range.duration
+
             if overscan > 0:
-                scan_range.start = max(Timecode(), scan_range.start - overscan)
-                scan_range.end = min(scan_range.end + overscan, tmp_stream.duration)
+                scan_range.start -= overscan
+                scan_range.end += overscan
 
             # Cut the end of the scan range that can't be matched anyway
             scan_range.end -= tmp_segment.duration - MATCH_OFFSET - MATCH_CHUNK
+
+            # Keep range in stream bounds
+            if scan_range.start < 0:
+                scan_range.start = T + 0
+
+            if scan_range.end < 0:
+                scan_range.end = T + MATCH_OFFSET + MATCH_CHUNK
 
             yield s, time_range, scan_range
 
