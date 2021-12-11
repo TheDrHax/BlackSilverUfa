@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first-2021", "segment": "1218281049,1218409784", "name": "Post Trauma (демо) / Implements of Hell / The Horrors: Lost Tape (демо) / The Gallagher Case / Athanasia / Samhainophobia", "start": 0},
       {"id": "warframe", "segment": "1220903782", "name": "Warframe #5", "start": 0},
       {"id": "dying-light", "segment": "1221836695,1222013740", "name": "Dying Light #3 / Dying 2 Know #4", "start": 0},
       {"id": "fall-guys", "segment": "1222726196", "name": "Fall Guys #14 (с чатом) / Chorus / Invitationem / Propnight", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "monstrum-2", "segment": "1227570391", "name": "MONSTRUM 2 - Релиз / Happy's Humble Burger Farm #2", "start": 0},
       {"id": "halo-infinite", "segment": "1227570391.1", "name": "Halo Infinite #1", "start": 0},
       {"id": "halo-infinite", "segment": "1228484099", "name": "Halo Infinite #2", "start": 0},
-      {"id": "halo-infinite", "segment": "1229405550", "name": "Halo Infinite #3 / The Matrix Awakens / The Game Awards #2021 (обзор)", "start": 0}
+      {"id": "halo-infinite", "segment": "1229405550", "name": "Halo Infinite #3 / The Matrix Awakens / The Game Awards #2021 (обзор)", "start": 0},
+      {"id": "terminator-resistance", "segment": "1230440174", "name": "Terminator: Resistance - Annihilation Line / Heavenly Bodies", "start": 0}
     ]
   },
   "finished": {
@@ -1016,7 +1016,8 @@
       {"name": "Arena of Valor", "id": "arena-of-valor", "segment": "1195666882"},
       {"name": "Warframe", "id": "warframe", "segment": "1201428986"},
       {"id": "co-op", "segment": "1212756532", "name": "Farming Simulator 22", "start": 14277},
-      {"id": "co-op", "segment": "1223700316", "name": "Forewarned (с Куплиновым и Дангаром)", "start": 11850}
+      {"id": "co-op", "segment": "1223700316", "name": "Forewarned (с Куплиновым и Дангаром)", "start": 11850},
+      {"id": "co-op", "segment": "1230440174", "name": "Heavenly Bodies", "start": 14774}
     ]
   },
   "other": {

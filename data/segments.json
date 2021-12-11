@@ -8662,10 +8662,9 @@
     "games": ["halo-infinite"]
   },
   "1228484099": {
-    "abs_start": "0:00", "abs_end": "8:30:26", "duration": "0:00",
+    "youtube": "xmoCCdNwdR4", "abs_start": "0:00", "abs_end": "8:30:12", "duration": "8:30:12",
     "name": "Halo Infinite #2",
     "date": "2021-12-09",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1228484099.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1228484099.torrent",
     "games": ["halo-infinite"]
   },
@@ -8675,5 +8674,13 @@
     "date": "2021-12-10",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1229405550.torrent",
     "games": ["halo-infinite", "first-2021", "tga"]
+  },
+  "1230440174": {
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
+    "name": "Terminator: Resistance - Annihilation Line / Heavenly Bodies",
+    "date": "2021-12-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1230440174.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1230440174.torrent",
+    "games": ["terminator-resistance", "co-op"]
   }
 }
