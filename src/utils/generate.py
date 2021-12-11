@@ -118,7 +118,10 @@ def build_webpack():
     os.mkdir(_('dist'))
 
     # Webpack
-    call(['npx', 'webpack', '--config', 'src/js/webpack.config.js'])
+    r_code = call(['npx', 'webpack', '--config', 'src/js/webpack.config.js'])
+
+    if r_code != 0:
+        raise Exception(f'Webpack exited with non-zero code: {r_code}')
 
 
 @timed('Build completed in {}ms')
