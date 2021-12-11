@@ -37,7 +37,8 @@ podTemplate(cloud: 'k3s', inheritFrom: 'blackufa') {
                 sh './bsu pages commit "Jenkins: Обновление статичных файлов"'
 
                 sshagent (credentials: [cred_git]) {
-                    sh './bsu pages push'
+                    // Don't push chats until release
+                    sh './bsu pages push _site'
                 }
 
                 githubNotify(
