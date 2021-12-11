@@ -9,8 +9,6 @@ export PREFIX="_site"
 export GIT_REMOTE="origin"
 export MASTER_BRANCH_REMOTE="master"
 
-# Specified version must have builds for musl libc at
-# https://unofficial-builds.nodejs.org/download/release/
 NODE_VERSION="14.2.0"
 
 venv_setup() { # filename [force | silent]
@@ -22,6 +20,7 @@ venv_setup() { # filename [force | silent]
 
     if [ ! -d "$VENV" ]; then
         $PYTHON -m venv "$VENV" || exit 1
+        $PYTHON -m pip install wheel
     fi
 
     if [ -e "$MD5_FILE" ] && md5sum -c "$MD5_FILE" > /dev/null 2>&1; then
