@@ -570,9 +570,10 @@
     "games": ["mafia-3"]
   },
   "001610100": {
-    "youtube": "NJ2jqAMmjj0", "official": false, "abs_start": "0:00", "abs_end": "3:22:36", "duration": "3:22:36",
+    "abs_start": "0:00", "abs_end": "0:00", "duration": "0:00",
     "name": "Mafia III #2",
     "date": "2016-10-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001610100.mp4",
     "games": ["mafia-3"]
   },
   "001610190": {
@@ -8677,10 +8678,18 @@
   },
   "1230440174": {
     "abs_start": "0:00", "abs_end": "5:59:16", "duration": "0:00",
-    "name": "Terminator: Resistance - Annihilation Line / Heavenly Bodies",
+    "name": "Terminator: Resistance - Annihilation Line #1 / Heavenly Bodies",
     "date": "2021-12-11",
     "direct": "https://bsufiles.thedrhax.pw/streams/1230440174.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1230440174.torrent",
     "games": ["terminator-resistance", "co-op"]
+  },
+  "1231359432": {
+    "abs_start": "0:00", "abs_end": "9:01:06", "duration": "0:00",
+    "name": "Halo Infinite #4 / Terminator: Resistance - Annihilation Line #2",
+    "date": "2021-12-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1231359432.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1231359432.torrent",
+    "games": ["halo-infinite", "terminator-resistance"]
   }
 }
