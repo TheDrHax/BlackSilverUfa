@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export PYTHON="python3"
+export PYTHON="${PYTHON:-python3}"
 export VENV="_python"
 export NODEENV="_node"
 export PATH="$PWD/$VENV/bin:$PWD/$NODEENV/bin:$PATH"
