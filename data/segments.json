@@ -8696,5 +8696,13 @@
     "date": "2021-12-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1234081084.torrent",
     "games": ["phasmophobia", "first-2021"]
+  },
+  "1234979811": {
+    "abs_start": "0:00", "abs_end": "7:04:19", "duration": "0:00",
+    "name": "Warframe #6 (соло, The New War)",
+    "date": "2021-12-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1234979811.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1234979811.torrent",
+    "games": ["warframe"]
   }
 }
