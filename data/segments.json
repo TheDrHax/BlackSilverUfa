@@ -8692,10 +8692,10 @@
   },
   "1234081084": {
     "youtube": "0Cj1NV2VTxI", "abs_start": "0:00", "abs_end": "6:15:56", "duration": "6:15:56",
-    "name": "Phasmophobia #11 (с Куплиновым и Дангаром) / Sifu (демо)",
+    "name": "Phasmophobia #11 (с Куплиновым и Дангаром) / Sifu #1 (демо)",
     "date": "2021-12-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1234081084.torrent",
-    "games": ["phasmophobia", "first-2021"]
+    "games": ["phasmophobia", "sifu"]
   },
   "1234979811": {
     "abs_start": "0:00", "abs_end": "7:04:19", "duration": "0:00",
@@ -8704,5 +8704,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1234979811.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1234979811.torrent",
     "games": ["warframe"]
+  },
+  "1235847606": {
+    "abs_start": "0:00", "abs_end": "6:49:55", "duration": "0:00",
+    "name": "Sifu #2 (демо) / Final Fantasy VII Remake - PC / GTFO #4",
+    "date": "2021-12-17",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1235847606.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1235847606.torrent",
+    "games": ["sifu", "ff-vii-remake", "gtfo"]
   }
 }

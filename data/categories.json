@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first-2021", "segment": "1223700316", "name": "Icarus / Forewarned (с Куплиновым и Дангаром)", "start": 0},
       {"id": "first-2021", "segment": "1224807350", "name": "Stray Souls (демо) / Sinfeld Remastered (демо) / Happy's Humble Burger Farm #1 / Decrypt", "start": 0},
       {"id": "monstrum-2", "segment": "1227570391", "name": "MONSTRUM 2 - Релиз / Happy's Humble Burger Farm #2", "start": 0},
       {"id": "halo-infinite", "segment": "1227570391.1", "name": "Halo Infinite #1", "start": 0},
@@ -11,8 +10,9 @@
       {"id": "halo-infinite", "segment": "1229405550", "name": "Halo Infinite #3 / The Matrix Awakens / The Game Awards #2021 (обзор)", "start": 0},
       {"id": "terminator-resistance", "segment": "1230440174", "name": "Terminator: Resistance - Annihilation Line #1 / Heavenly Bodies", "start": 0},
       {"id": "halo-infinite", "segment": "1231359432", "name": "Halo Infinite #4 / Terminator: Resistance - Annihilation Line #2", "start": 0},
-      {"id": "phasmophobia", "segment": "1234081084", "name": "Phasmophobia #11 (с Куплиновым и Дангаром) / Sifu (демо)", "start": 0},
-      {"id": "warframe", "segment": "1234979811", "name": "Warframe #6 (соло, The New War)", "start": 0}
+      {"id": "phasmophobia", "segment": "1234081084", "name": "Phasmophobia #11 (с Куплиновым и Дангаром) / Sifu #1 (демо)", "start": 0},
+      {"id": "warframe", "segment": "1234979811", "name": "Warframe #6 (соло, The New War)", "start": 0},
+      {"id": "sifu", "segment": "1235847606", "name": "Sifu #2 (демо) / Final Fantasy VII Remake - PC / GTFO #4", "start": 0}
     ]
   },
   "finished": {
@@ -666,8 +666,7 @@
       {"id": "first-2021", "segment": "1223700316", "name": "Icarus", "start": 0},
       {"id": "first-2021", "segment": "1224807350", "name": "Stray Souls (демо)", "start": 0},
       {"id": "first-2021", "segment": "1224807350", "name": "Sinfeld Remastered (демо)", "start": 9279},
-      {"id": "first-2021", "segment": "1229405550", "name": "The Matrix Awakens", "start": 11443},
-      {"id": "first-2021", "segment": "1234081084", "name": "Sifu (демо)", "start": 20527}
+      {"id": "first-2021", "segment": "1229405550", "name": "The Matrix Awakens", "start": 11443}
     ]
   },
   "ongoing": {
@@ -720,7 +719,8 @@
       {"name": "I'm on Observation Duty", "id": "observation-duty", "segment": "1092418023"},
       {"name": "Ghost Hunters Corp", "id": "ghcorp", "segment": "1095567001,1095811167"},
       {"name": "Riders Republic", "id": "riders-republic", "segment": "1129996087"},
-      {"name": "Battlefield 2042", "id": "bf-2042", "segment": "1168913564"}
+      {"name": "Battlefield 2042", "id": "bf-2042", "segment": "1168913564"},
+      {"name": "Sifu", "id": "sifu", "segment": "1234081084"}
     ]
   },
   "abandoned": {
