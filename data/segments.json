@@ -8713,11 +8713,11 @@
   },
   "1238591362": {
     "abs_start": "0:00", "abs_end": "7:13:13", "duration": "0:00",
-    "name": "Xbox Elite WC Series 2 / Five Nights At Freddy's: Security Breach #1 / Hellcoming / GTFO #5",
+    "name": "Xbox Elite WC Series 2 / Five Nights At Freddy's: Security Breach #1 / Hellcoming #1 / GTFO #5",
     "date": "2021-12-20",
     "direct": "https://bsufiles.thedrhax.pw/streams/1238591362.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1238591362.torrent",
-    "games": ["unboxing", "fnaf-sb", "co-op", "gtfo"]
+    "games": ["unboxing", "fnaf-sb", "hellcoming", "gtfo"]
   },
   "1239503220": {
     "abs_start": "0:00", "abs_end": "6:06:10", "duration": "0:00",
@@ -8726,5 +8726,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1239503220.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1239503220.torrent",
     "games": ["ds-remastered", "single", "fnaf-sb"]
+  },
+  "1240425069": {
+    "abs_start": "0:00", "abs_end": "8:35:21", "duration": "0:00",
+    "name": "Five Nights At Freddy's: Security Breach #3 / Hellcoming #2 / GTFO #6",
+    "date": "2021-12-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1240425069.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1240425069.torrent",
+    "games": ["fnaf-sb", "hellcoming", "gtfo"]
   }
 }

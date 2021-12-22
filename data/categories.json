@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "halo-infinite", "segment": "1227570391.1", "name": "Halo Infinite #1", "start": 0},
       {"id": "halo-infinite", "segment": "1228484099", "name": "Halo Infinite #2", "start": 0},
       {"id": "halo-infinite", "segment": "1229405550", "name": "Halo Infinite #3 / The Matrix Awakens / The Game Awards #2021 (обзор)", "start": 0},
       {"id": "terminator-resistance", "segment": "1230440174", "name": "Terminator: Resistance - Annihilation Line #1 / Heavenly Bodies", "start": 0},
@@ -11,8 +10,9 @@
       {"id": "phasmophobia", "segment": "1234081084", "name": "Phasmophobia #11 (с Куплиновым и Дангаром) / Sifu #1 (демо)", "start": 0},
       {"id": "warframe", "segment": "1234979811", "name": "Warframe #6 (соло, The New War)", "start": 0},
       {"id": "sifu", "segment": "1235847606", "name": "Sifu #2 (демо) / Final Fantasy VII Remake - PC / GTFO #4 (релиз)", "start": 0},
-      {"id": "unboxing", "segment": "1238591362", "name": "Xbox Elite WC Series 2 / Five Nights At Freddy's: Security Breach #1 / Hellcoming / GTFO #5", "start": 0},
-      {"id": "ds-remastered", "segment": "1239503220", "name": "Dark Souls: Remastered #1 (заново) / Fobia - St. Dinfna Hotel (демо) / Five Nights At Freddy's: Security Breach #2", "start": 0}
+      {"id": "unboxing", "segment": "1238591362", "name": "Xbox Elite WC Series 2 / Five Nights At Freddy's: Security Breach #1 / Hellcoming #1 / GTFO #5", "start": 0},
+      {"id": "ds-remastered", "segment": "1239503220", "name": "Dark Souls: Remastered #1 (заново) / Fobia - St. Dinfna Hotel (демо) / Five Nights At Freddy's: Security Breach #2", "start": 0},
+      {"id": "fnaf-sb", "segment": "1240425069", "name": "Five Nights At Freddy's: Security Breach #3 / Hellcoming #2 / GTFO #6", "start": 0}
     ]
   },
   "finished": {
@@ -1021,7 +1021,7 @@
       {"id": "co-op", "segment": "1212756532", "name": "Farming Simulator 22", "start": 14277},
       {"id": "co-op", "segment": "1223700316", "name": "Forewarned (с Куплиновым и Дангаром)", "start": 11850},
       {"id": "co-op", "segment": "1230440174", "name": "Heavenly Bodies", "start": 14774},
-      {"id": "co-op", "segment": "1238591362", "name": "Hellcoming", "start": 7840}
+      {"name": "Hellcoming", "id": "hellcoming", "segment": "1238591362"}
     ]
   },
   "other": {
