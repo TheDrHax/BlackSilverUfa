@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "terminator-resistance", "segment": "1230440174", "name": "Terminator: Resistance - Annihilation Line #1 / Heavenly Bodies", "start": 0},
       {"id": "halo-infinite", "segment": "1231359432", "name": "Halo Infinite #4 / Terminator: Resistance - Annihilation Line #2", "start": 0},
       {"id": "phasmophobia", "segment": "1234081084", "name": "Phasmophobia #11 (с Куплиновым и Дангаром) / Sifu #1 (демо)", "start": 0},
       {"id": "warframe", "segment": "1234979811", "name": "Warframe #6 (соло, The New War)", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "ds-remastered", "segment": "1239503220", "name": "Dark Souls: Remastered #1 (заново) / Fobia - St. Dinfna Hotel (демо) / Five Nights At Freddy's: Security Breach #2", "start": 0},
       {"id": "fnaf-sb", "segment": "1240425069", "name": "Five Nights At Freddy's: Security Breach #3 / Hellcoming #2 / GTFO #6", "start": 0},
       {"id": "first-2021", "segment": "1241348243", "name": "Planet Crafter: Prologue / CorpseOcean / Hardspace: Shipbreaker #2 / Age of Darkness: Final Stand", "start": 0},
-      {"id": "ds-remastered", "segment": "1242283203", "name": "Dark Souls: Remastered #2", "start": 0}
+      {"id": "ds-remastered", "segment": "1242283203", "name": "Dark Souls: Remastered #2", "start": 0},
+      {"id": "bf-2042", "segment": "1243042365", "name": "Battlefield 2042 #4", "start": 0}
     ]
   },
   "finished": {
