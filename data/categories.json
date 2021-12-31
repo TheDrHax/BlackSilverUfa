@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "sifu", "segment": "1235847606", "name": "Sifu #2 (демо) / Final Fantasy VII Remake - PC / GTFO #4 (релиз)", "start": 0},
       {"id": "unboxing", "segment": "1238591362", "name": "Xbox Elite WC Series 2 / Five Nights At Freddy's: Security Breach #1 / Hellcoming #1 / GTFO #5", "start": 0},
       {"id": "ds-remastered", "segment": "1239503220", "name": "Dark Souls: Remastered #1 (заново) / Fobia - St. Dinfna Hotel (демо) / Five Nights At Freddy's: Security Breach #2", "start": 0},
       {"id": "fnaf-sb", "segment": "1240425069", "name": "Five Nights At Freddy's: Security Breach #3 / Hellcoming #2 / GTFO #6", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "bf-2042", "segment": "1243042365", "name": "Battlefield 2042 #4 (WLG и Juice)", "start": 0},
       {"id": "single", "segment": "1243862269", "name": "9 Childs St (демо) / Antler / Blight Island (демо) / Cold Shot / Hello / Lake Facade / Wayward Harbor / Silent Mementos", "start": 0},
       {"id": "fnaf-sb", "segment": "1244748634", "name": "Five Nights At Freddy's: Security Breach #4 / Project Zomboid", "start": 0},
-      {"id": "fnaf-sb", "segment": "1245734451", "name": "Five Nights At Freddy's: Security Breach #5 / Happy's Humble Burger Farm #3", "start": 0}
+      {"id": "fnaf-sb", "segment": "1245734451", "name": "Five Nights At Freddy's: Security Breach #5 / Happy's Humble Burger Farm #3", "start": 0},
+      {"id": "other", "segment": "1248804713", "name": "Новый год 2022 (подарки, нарезки) / Tornuktu / Exsanguinate (демо) / Desolatium / Goya's Nightmare / Swamm", "start": 0}
     ]
   },
   "finished": {
@@ -305,7 +305,8 @@
       {"id": "single", "segment": "1243862269", "name": "Hello", "start": 12037},
       {"id": "single", "segment": "1243862269", "name": "Lake Facade", "start": 13258},
       {"id": "single", "segment": "1243862269", "name": "Wayward Harbor", "start": 15196},
-      {"id": "single", "segment": "1243862269", "name": "Silent Mementos", "start": 16829}
+      {"id": "single", "segment": "1243862269", "name": "Silent Mementos", "start": 16829},
+      {"id": "single", "segment": "1248804713", "name": "Tornuktu", "start": 9501}
     ]
   },
   "first": {
@@ -677,7 +678,11 @@
       {"id": "first-2021", "segment": "1224807350", "name": "Sinfeld Remastered (демо)", "start": 9279},
       {"id": "first-2021", "segment": "1229405550", "name": "The Matrix Awakens", "start": 11443},
       {"id": "first-2021", "segment": "1241348243", "name": "Planet Crafter: Prologue", "start": 0},
-      {"id": "first-2021", "segment": "1241348243", "name": "Age of Darkness: Final Stand", "start": 14331}
+      {"id": "first-2021", "segment": "1241348243", "name": "Age of Darkness: Final Stand", "start": 14331},
+      {"id": "first-2021", "segment": "1248804713", "name": "Exsanguinate (демо)", "start": 10369},
+      {"id": "first-2021", "segment": "1248804713", "name": "Desolatium", "start": 12405},
+      {"id": "first-2021", "segment": "1248804713", "name": "Goya's Nightmare", "start": 13571},
+      {"id": "first-2021", "segment": "1248804713", "name": "Swamm", "start": 13880}
     ]
   },
   "ongoing": {
@@ -1072,7 +1077,8 @@
       {"id": "events", "segment": "1134934289", "name": "Розыгрыш Hades", "start": 6676},
       {"id": "events", "segment": "1142576899", "name": "Розыгрыш ROG Zephyrus G14 Alan Walker", "start": 0},
       {"id": "other", "segment": "1182938896", "name": "Трейлеры", "start": 0},
-      {"id": "events", "segment": "1193856809", "name": "Розыгрыш ROG Spatha Black USB", "start": 0}
+      {"id": "events", "segment": "1193856809", "name": "Розыгрыш ROG Spatha Black USB", "start": 0},
+      {"id": "other", "segment": "1248804713", "name": "Новый год 2022 (подарки, нарезки)", "start": 0}
     ]
   },
   "expos": {

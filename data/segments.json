@@ -8431,14 +8431,12 @@
     "abs_start": "0:00", "abs_end": "1:03:31", "duration": "0:00",
     "name": "",
     "date": "2021-11-12",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1203211087.mp4",
     "games": []
   },
   "1203238012": {
     "abs_start": "0:00", "abs_end": "2:57:36", "duration": "0:00",
     "name": "",
     "date": "2021-11-12",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1203238012.mp4",
     "games": []
   },
   "1203211087,1203238012": {
@@ -8774,5 +8772,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1245734451.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1245734451.torrent",
     "games": ["fnaf-sb", "hhbf"]
+  },
+  "1248804713": {
+    "abs_start": "0:00", "abs_end": "4:05:24", "duration": "0:00",
+    "name": "Новый год 2022 (подарки, нарезки) / Tornuktu / Exsanguinate (демо) / Desolatium / Goya's Nightmare / Swamm",
+    "date": "2021-12-31",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1248804713.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1248804713.torrent",
+    "games": ["other", "single", "first-2021"]
   }
 }
