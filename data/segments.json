@@ -8780,5 +8780,30 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1248804713.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1248804713.torrent",
     "games": ["other", "single", "first-2021"]
+  },
+  "1253678202": {
+    "abs_start": "0:00", "abs_end": "29:52", "duration": "0:00",
+    "name": "",
+    "date": "2022-01-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1253678202.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1253678202.torrent",
+    "games": []
+  },
+  "1253695802": {
+    "abs_start": "0:00", "abs_end": "5:44:24", "duration": "0:00",
+    "name": "",
+    "date": "2022-01-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1253695802.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1253695802.torrent",
+    "games": []
+  },
+  "1253678202,1253695802": {
+    "abs_start": "0:00", "abs_end": "6:14:16", "duration": "0:00",
+    "name": "Зайчик (Tiny Bunny) - Эпизод 3 / Первый взгляд 2022 - Шорох (Scratches: Director's Cut)",
+    "date": "2022-01-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1253678202,1253695802.mp4",
+    "offsets": [0, 1762],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1253678202,1253695802.torrent",
+    "games": ["tiny-bunny", "first-2022"]
   }
 }
