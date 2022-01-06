@@ -8463,7 +8463,7 @@
     "abs_start": "0:00", "abs_end": "3:59:52", "duration": "0:00",
     "name": "",
     "date": "2021-11-14",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1205368606.mp4",
+    "cuts": [[11150, 11183]],
     "games": []
   },
   "1205563618": {
@@ -8474,10 +8474,11 @@
     "games": []
   },
   "1205368606,1205563618": {
-    "youtube": "_LU4gPiID_s", "official": false, "abs_start": "0:00", "abs_end": "5:00:46", "duration": "5:00:46",
+    "youtube": "_LU4gPiID_s", "official": false, "abs_start": "0:00", "abs_end": "5:01:19", "duration": "5:00:46",
     "name": "Battlefield 2042 #3",
     "date": "2021-11-14",
     "offsets": [0, 14375],
+    "cuts": [[11150, 11183]],
     "games": ["bf-2042"]
   },
   "1206191026": {
@@ -8766,10 +8767,9 @@
     "games": ["fnaf-sb", "co-op"]
   },
   "1245734451": {
-    "abs_start": "0:00", "abs_end": "6:20:34", "duration": "0:00",
+    "youtube": "_HEvBsnwhfE", "abs_start": "0:00", "abs_end": "6:20:15", "duration": "6:20:15",
     "name": "Five Nights At Freddy's: Security Breach #5 / Happy's Humble Burger Farm #3",
     "date": "2021-12-28",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1245734451.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1245734451.torrent",
     "games": ["fnaf-sb", "hhbf"]
   },
