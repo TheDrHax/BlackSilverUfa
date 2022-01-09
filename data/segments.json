@@ -8503,14 +8503,12 @@
     "abs_start": "0:00", "abs_end": "3:33:17", "duration": "0:00",
     "name": "",
     "date": "2021-11-18",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1208881098.mp4",
     "games": []
   },
   "1208977751": {
     "abs_start": "0:00", "abs_end": "3:28:12", "duration": "0:00",
     "name": "",
     "date": "2021-11-18",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1208977751.mp4",
     "games": []
   },
   "1208881098,1208977751": {
@@ -8835,5 +8833,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1255768824.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1255768824.torrent",
     "games": ["tarkov"]
+  },
+  "1256959016": {
+    "abs_start": "0:00", "abs_end": "6:20:52", "duration": "0:00",
+    "name": "Shrek 2 / Шорох (Scratches: Director's Cut) #3",
+    "date": "2022-01-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1256959016.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1256959016.torrent",
+    "games": ["single", "scratches"]
   }
 }

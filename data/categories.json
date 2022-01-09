@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "first-2021", "segment": "1241348243", "name": "Planet Crafter: Prologue / CorpseOcean / Hardspace: Shipbreaker #2 / Age of Darkness: Final Stand", "start": 0},
       {"id": "ds-remastered", "segment": "1242283203", "name": "Dark Souls: Remastered #2", "start": 0},
       {"id": "bf-2042", "segment": "1243042365", "name": "Battlefield 2042 #4 (WLG и Juice)", "start": 0},
       {"id": "single", "segment": "1243862269", "name": "9 Childs St (демо) / Antler / Blight Island (демо) / Cold Shot / Hello / Lake Facade / Wayward Harbor / Silent Mementos", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "other", "segment": "1248804713", "name": "Новый год 2022 (подарки, нарезки) / Tornuktu / Exsanguinate (демо) / Desolatium / Goya's Nightmare / Swamm", "start": 0},
       {"id": "tiny-bunny", "segment": "1253678202,1253695802", "name": "Зайчик (Tiny Bunny) - Эпизод 3 / Шорох (Scratches: Director's Cut) #1", "start": 0},
       {"id": "hhbf", "segment": "1254688558,1254720798", "name": "Happy's Humble Burger Farm #4 / Metro 2033 Redux #1 (заново) / Шорох (Scratches: Director's Cut) #2", "start": 0},
-      {"id": "tarkov", "segment": "1255768824", "name": "Escape From Tarkov #9", "start": 0}
+      {"id": "tarkov", "segment": "1255768824", "name": "Escape From Tarkov #9", "start": 0},
+      {"id": "single", "segment": "1256959016", "name": "Shrek 2 / Шорох (Scratches: Director's Cut) #3", "start": 0}
     ]
   },
   "finished": {
@@ -307,7 +307,9 @@
       {"id": "single", "segment": "1243862269", "name": "Lake Facade", "start": 13258},
       {"id": "single", "segment": "1243862269", "name": "Wayward Harbor", "start": 15196},
       {"id": "single", "segment": "1243862269", "name": "Silent Mementos", "start": 16829},
-      {"id": "single", "segment": "1248804713", "name": "Tornuktu", "start": 9501}
+      {"id": "single", "segment": "1248804713", "name": "Tornuktu", "start": 9501},
+      {"name": "Шорох (Scratches: Director's Cut)", "id": "scratches", "segment": "1253678202,1253695802"},
+      {"id": "single", "segment": "1256959016", "name": "Shrek 2", "start": 0}
     ]
   },
   "first": {
@@ -692,8 +694,7 @@
       {"name": "Dark Souls: Remastered", "id": "ds-remastered", "segment": "260173384"},
       {"name": "Hardspace: Shipbreaker", "id": "hardspace-shipbreaker", "segment": "653411860"},
       {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"},
-      {"name": "Five Nights At Freddy's: Security Breach", "id": "fnaf-sb", "segment": "1238591362"},
-      {"name": "Шорох (Scratches: Director's Cut)", "id": "scratches", "segment": "1253678202,1253695802"}
+      {"name": "Five Nights At Freddy's: Security Breach", "id": "fnaf-sb", "segment": "1238591362"}
     ]
   },
   "infinite": {
