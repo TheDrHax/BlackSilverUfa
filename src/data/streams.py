@@ -501,7 +501,7 @@ class SegmentReference:
     @join()
     def to_json(self, compiled: bool = False):
         if compiled:
-            keys = ['name', 'hash', 'start', 'end', 'force_start']
+            keys = ['name', 'hash', 'start', 'end', 'force_start', 'subrefs']
             multiline_keys = []
         else:
             keys = ['name', 'twitch', 'segment', 'start', 'end',
@@ -565,7 +565,7 @@ class SegmentReference:
 
             if key == 'subrefs':
                 yield f'"{key}": [\n  '
-                yield ',\n  '.join(s.to_json() for s in self.subrefs)
+                yield ',\n  '.join(s.to_json(compiled) for s in self.subrefs)
                 yield '\n]'
                 continue
 
@@ -656,7 +656,7 @@ class SubReference:
         return self.parent.game.blacklist + self._blacklist
 
     @join()
-    def to_json(self):
+    def to_json(self, compiled=False):
         multiline = len(self._blacklist) > 0
 
         yield '{\n    ' if multiline else '{ '
@@ -664,9 +664,12 @@ class SubReference:
         yield f'"name": {json_escape(self.name)}'
 
         if self.start != 0:
-            yield f', "start": {json_escape(self.start)}'
+            if compiled:
+                yield f', "start": {int(self.start)}'
+            else:
+                yield f', "start": {json_escape(self.start)}'
 
-        if len(self._blacklist) > 0:
+        if len(self._blacklist) > 0 and not compiled:
             yield f',\n    "blacklist": {indent(self._blacklist.to_json(), 4)[4:]}'
 
         yield '\n  }' if multiline else ' }'
