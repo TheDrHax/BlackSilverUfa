@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "bf-2042", "segment": "1243042365", "name": "Battlefield 2042 #4 (WLG и Juice)", "start": 0},
       {"id": "single", "segment": "1243862269", "name": "9 Childs St (демо) / Antler / Blight Island (демо) / Cold Shot / Hello / Lake Facade / Wayward Harbor / Silent Mementos", "start": 0},
       {"id": "fnaf-sb", "segment": "1244748634", "name": "Five Nights At Freddy's: Security Breach #4 / Project Zomboid", "start": 0},
       {"id": "fnaf-sb", "segment": "1245734451", "name": "Five Nights At Freddy's: Security Breach #5 / Happy's Humble Burger Farm #3", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "hhbf", "segment": "1254688558,1254720798", "name": "Happy's Humble Burger Farm #4 / Metro 2033 Redux #1 (заново) / Шорох (Scratches: Director's Cut) #2", "start": 0},
       {"id": "tarkov", "segment": "1255768824", "name": "Escape From Tarkov #9", "start": 0},
       {"id": "single", "segment": "1256959016", "name": "Shrek 2 / Шорох (Scratches: Director's Cut) #3", "start": 0},
-      {"id": "fears-to-fathom", "segment": "1258121391", "name": "Fears to Fathom - Episode 2 - Norwood Hitchhike / Doghouse 1/2 / Blood Field (демо) / Insomnis / Broken Veil (демо) / Blink: The Last Night / I'm on Observation Duty - Часть 4", "start": 0}
+      {"id": "fears-to-fathom", "segment": "1258121391", "name": "Fears to Fathom - Episode 2 - Norwood Hitchhike / Doghouse 1/2 / Blood Field (демо) / Insomnis / Broken Veil (демо) / Blink: The Last Night / I'm on Observation Duty - Часть 4", "start": 0},
+      {"id": "liber", "segment": "1261173013", "name": "LiBER - Релиз / Monster Hunter Rise", "start": 0}
     ]
   },
   "finished": {
@@ -638,7 +638,6 @@
       {"id": "first-2021", "segment": "1105750453", "name": "Star Wars - Redemption", "start": 0},
       {"id": "first-2021", "segment": "1106771829", "name": "HighFleet", "start": 0},
       {"id": "first-2021", "segment": "1106771829", "name": "Deca", "start": 13360},
-      {"id": "first-2021", "segment": "1108872519", "name": "LiBER", "start": 0},
       {"id": "first-2021", "segment": "1111966540", "name": "NEO: The World Ends with You", "start": 0},
       {"id": "first-2021", "segment": "1113958095", "name": "ColdSide", "start": 0},
       {"id": "first-2021", "segment": "1114974794", "name": "Glitchpunk", "start": 0},
@@ -699,6 +698,7 @@
       {"name": "Dark Souls: Remastered", "id": "ds-remastered", "segment": "260173384"},
       {"name": "Hardspace: Shipbreaker", "id": "hardspace-shipbreaker", "segment": "653411860"},
       {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"},
+      {"name": "LiBER", "id": "liber", "segment": "1108872519"},
       {"name": "Five Nights At Freddy's: Security Breach", "id": "fnaf-sb", "segment": "1238591362"}
     ]
   },
@@ -1045,7 +1045,8 @@
       {"id": "co-op", "segment": "1223700316", "name": "Forewarned (с Куплиновым и Дангаром)", "start": 11850},
       {"id": "co-op", "segment": "1230440174", "name": "Heavenly Bodies", "start": 14774},
       {"name": "Hellcoming", "id": "hellcoming", "segment": "1238591362"},
-      {"id": "co-op", "segment": "1244748634", "name": "Project Zomboid", "start": 6968}
+      {"id": "co-op", "segment": "1244748634", "name": "Project Zomboid", "start": 6968},
+      {"id": "co-op", "segment": "1261173013", "name": "Monster Hunter Rise", "start": 10627}
     ]
   },
   "other": {

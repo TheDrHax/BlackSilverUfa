@@ -7970,9 +7970,9 @@
   },
   "1108872519": {
     "youtube": "xqLNOG_wez0", "abs_start": "0:00", "abs_end": "8:08:25", "duration": "8:08:25",
-    "name": "LiBER / Сетапы зрителей #7 / Back 4 Blood #1",
+    "name": "LiBER - Ранний доступ / Сетапы зрителей #7 / Back 4 Blood #1",
     "date": "2021-08-05",
-    "games": ["first-2021", "setups", "b4b"]
+    "games": ["liber", "setups", "b4b"]
   },
   "1109866143": {
     "youtube": "i1XHET0r508", "abs_start": "0:00", "abs_end": "6:28:18", "duration": "6:28:18",
@@ -8528,7 +8528,6 @@
     "abs_start": "0:00", "abs_end": "31:06", "duration": "0:00",
     "name": "",
     "date": "2021-11-19",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1210082023.mp4",
     "games": []
   },
   "1209845995,1210082023": {
@@ -8844,5 +8843,13 @@
     "date": "2022-01-09",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1258121391.torrent",
     "games": ["fears-to-fathom", "single", "first-2022", "observation-duty"]
+  },
+  "1261173013": {
+    "abs_start": "0:00", "abs_end": "6:39:26", "duration": "0:00",
+    "name": "LiBER - Релиз / Monster Hunter Rise",
+    "date": "2022-01-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1261173013.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1261173013.torrent",
+    "games": ["liber", "co-op"]
   }
 }
