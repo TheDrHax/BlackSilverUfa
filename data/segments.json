@@ -8555,7 +8555,6 @@
     "name": "Shadow of the Damned #1 / Warframe #4",
     "date": "2021-11-24",
     "cuts": [[10410, 10457]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1214560792.torrent",
     "games": ["sotd", "warframe"]
   },
   "1217200258": {
@@ -8839,7 +8838,7 @@
   },
   "1258121391": {
     "youtube": "wQI-9HishOk", "abs_start": "0:00", "abs_end": "6:10:50", "duration": "6:10:50",
-    "name": "Fears to Fathom - Episode 2 - Norwood Hitchhike / Doghouse 1/2 / Blood Field (демо) / Insomnis / Broken Veil (демо) / Blink: The Last Night / I'm on Observation Duty - Часть 4",
+    "name": "Fears to Fathom - Episode 2 - Norwood Hitchhike / Doghouse 1/2 / Blood Field (демо) / Insomnis / Broken Veil (демо) / Blink: The Last Night / I'm on Observation Duty - Часть 4 #1",
     "date": "2022-01-09",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1258121391.torrent",
     "games": ["fears-to-fathom", "single", "first-2022", "observation-duty"]
@@ -8851,5 +8850,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1261173013.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1261173013.torrent",
     "games": ["liber", "co-op"]
+  },
+  "1262176650": {
+    "abs_start": "0:00", "abs_end": "8:01:31", "duration": "0:00",
+    "name": "Metro 2033 Redux #2 / I'm on Observation Duty - Часть 4 #2 / Dying 2 Know #5",
+    "date": "2022-01-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1262176650.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1262176650.torrent",
+    "games": ["metro-2033", "observation-duty", "dying-2-know"]
   }
 }

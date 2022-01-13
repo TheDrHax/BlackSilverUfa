@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "single", "segment": "1243862269", "name": "9 Childs St (демо) / Antler / Blight Island (демо) / Cold Shot / Hello / Lake Facade / Wayward Harbor / Silent Mementos", "start": 0},
       {"id": "fnaf-sb", "segment": "1244748634", "name": "Five Nights At Freddy's: Security Breach #4 / Project Zomboid", "start": 0},
       {"id": "fnaf-sb", "segment": "1245734451", "name": "Five Nights At Freddy's: Security Breach #5 / Happy's Humble Burger Farm #3", "start": 0},
       {"id": "other", "segment": "1248804713", "name": "Новый год 2022 (подарки, нарезки) / Tornuktu / Exsanguinate (демо) / Desolatium / Goya's Nightmare / Swamm", "start": 0},
@@ -11,8 +10,9 @@
       {"id": "hhbf", "segment": "1254688558,1254720798", "name": "Happy's Humble Burger Farm #4 / Metro 2033 Redux #1 (заново) / Шорох (Scratches: Director's Cut) #2", "start": 0},
       {"id": "tarkov", "segment": "1255768824", "name": "Escape From Tarkov #9", "start": 0},
       {"id": "single", "segment": "1256959016", "name": "Shrek 2 / Шорох (Scratches: Director's Cut) #3", "start": 0},
-      {"id": "fears-to-fathom", "segment": "1258121391", "name": "Fears to Fathom - Episode 2 - Norwood Hitchhike / Doghouse 1/2 / Blood Field (демо) / Insomnis / Broken Veil (демо) / Blink: The Last Night / I'm on Observation Duty - Часть 4", "start": 0},
-      {"id": "liber", "segment": "1261173013", "name": "LiBER - Релиз / Monster Hunter Rise", "start": 0}
+      {"id": "fears-to-fathom", "segment": "1258121391", "name": "Fears to Fathom - Episode 2 - Norwood Hitchhike / Doghouse 1/2 / Blood Field (демо) / Insomnis / Broken Veil (демо) / Blink: The Last Night / I'm on Observation Duty - Часть 4 #1", "start": 0},
+      {"id": "liber", "segment": "1261173013", "name": "LiBER - Релиз / Monster Hunter Rise", "start": 0},
+      {"id": "metro-2033", "segment": "1262176650", "name": "Metro 2033 Redux #2 / I'm on Observation Duty - Часть 4 #2 / Dying 2 Know #5", "start": 0}
     ]
   },
   "finished": {
