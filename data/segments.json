@@ -8561,7 +8561,6 @@
     "youtube": "fPENS6h259E", "abs_start": "0:00", "abs_end": "9:47:33", "duration": "9:47:33",
     "name": "Shadow of the Damned #2",
     "date": "2021-11-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1217200258.torrent",
     "games": ["sotd"]
   },
   "1218281049": {
@@ -8858,5 +8857,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1262176650.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1262176650.torrent",
     "games": ["metro-2033", "observation-duty", "dying-2-know"]
+  },
+  "1263236800": {
+    "abs_start": "0:00", "abs_end": "6:03:03", "duration": "0:00",
+    "name": "Metro 2033 Redux #3 / God of War #1 (заново, PC)",
+    "date": "2022-01-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1263236800.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1263236800.torrent",
+    "games": ["metro-2033", "god-of-war"]
   }
 }
