@@ -8584,7 +8584,6 @@
     "name": "Post Trauma (демо) / Implements of Hell / The Horrors: Lost Tape (демо) / The Gallagher Case / Athanasia / Samhainophobia",
     "date": "2021-11-28",
     "offsets": [0, 11347],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1218281049,1218409784.torrent",
     "games": ["first-2021", "single"]
   },
   "1220903782": {
@@ -8865,5 +8864,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1263236800.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1263236800.torrent",
     "games": ["metro-2033", "god-of-war"]
+  },
+  "1264372459": {
+    "abs_start": "0:00", "abs_end": "6:08:02", "duration": "0:00",
+    "name": "Metro: Last Light Redux",
+    "date": "2022-01-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1264372459.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1264372459.torrent",
+    "games": ["first-2022"]
   }
 }
