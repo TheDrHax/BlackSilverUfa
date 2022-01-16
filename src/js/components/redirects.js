@@ -27,10 +27,20 @@ function RedirectLinks() {
 }
 
 function RedirectR() {
-  let { location: { search } } = useHistory();
-  search = search.substr(1);
+  const { location: { search, pathname } } = useHistory();
+  let query;
 
-  let [hash, params] = search.replaceAll(/%3F/g, '?').split('?');
+  if (pathname.split('/').filter((p) => p).length === 1) {
+    query = search.substring(1);
+  } else {
+    query = pathname.split('/').slice(2).join('/') + search;
+  }
+
+  if (query.length === 0) {
+    return <Redirect to="/" />;
+  }
+
+  let [hash, params] = query.replaceAll(/%3F/g, '?').split('?');
   const parts = hash.split('/');
 
   let game;
