@@ -8567,23 +8567,22 @@
     "abs_start": "0:00", "abs_end": "3:10:49", "duration": "0:00",
     "name": "",
     "date": "2021-11-28",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1218281049.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1218281049.torrent",
+    "cuts": [[5753, 5788], [6833, 6859]],
     "games": []
   },
   "1218409784": {
     "abs_start": "0:00", "abs_end": "2:42:59", "duration": "0:00",
     "name": "",
     "date": "2021-11-28",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1218409784.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1218409784.torrent",
+    "cuts": [[1219, 1251], [7270, 7306]],
     "games": []
   },
   "1218281049,1218409784": {
-    "youtube": "D6DV2GslIj8", "abs_start": "0:00", "abs_end": "5:50:46", "duration": "5:50:46",
+    "youtube": "D6DV2GslIj8", "abs_start": "0:00", "abs_end": "5:52:55", "duration": "5:50:46",
     "name": "Post Trauma (демо) / Implements of Hell / The Horrors: Lost Tape (демо) / The Gallagher Case / Athanasia / Samhainophobia",
     "date": "2021-11-28",
     "offsets": [0, 11347],
+    "cuts": [[5753, 5788], [6833, 6859], [12627, 12659], [18678, 18714]],
     "games": ["first-2021", "single"]
   },
   "1220903782": {
@@ -8872,5 +8871,13 @@
     "direct": "https://bsufiles.thedrhax.pw/streams/1264372459.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1264372459.torrent",
     "games": ["first-2022"]
+  },
+  "1265545024": {
+    "abs_start": "0:00", "abs_end": "6:05:00", "duration": "0:00",
+    "name": "How Fish Is Made / Witching Hour (демо) / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles: Dead of Winter",
+    "date": "2022-01-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1265545024.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1265545024.torrent",
+    "games": ["single", "first-2022"]
   }
 }

@@ -3,7 +3,6 @@
     "name": "Недавние стримы",
     "search": false,
     "games": [
-      {"id": "other", "segment": "1248804713", "name": "Новый год 2022 (подарки, нарезки) / Tornuktu / Exsanguinate (демо) / Desolatium / Goya's Nightmare / Swamm", "start": 0},
       {"id": "tiny-bunny", "segment": "1253678202,1253695802", "name": "Зайчик (Tiny Bunny) - Эпизод 3 / Шорох (Scratches: Director's Cut) #1", "start": 0},
       {"id": "hhbf", "segment": "1254688558,1254720798", "name": "Happy's Humble Burger Farm #4 / Metro 2033 Redux #1 (заново) / Шорох (Scratches: Director's Cut) #2", "start": 0},
       {"id": "tarkov", "segment": "1255768824", "name": "Escape From Tarkov #9", "start": 0},
@@ -12,7 +11,8 @@
       {"id": "liber", "segment": "1261173013", "name": "LiBER - Релиз / Monster Hunter Rise", "start": 0},
       {"id": "metro-2033", "segment": "1262176650", "name": "Metro 2033 Redux #2 / I'm on Observation Duty - Часть 4 #2 / Dying 2 Know #5", "start": 0},
       {"id": "metro-2033", "segment": "1263236800", "name": "Metro 2033 Redux #3 / God of War #1 (заново, PC)", "start": 0},
-      {"id": "first-2022", "segment": "1264372459", "name": "Metro: Last Light Redux", "start": 0}
+      {"id": "first-2022", "segment": "1264372459", "name": "Metro: Last Light Redux", "start": 0},
+      {"id": "single", "segment": "1265545024", "name": "How Fish Is Made / Witching Hour (демо) / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles: Dead of Winter", "start": 0}
     ]
   },
   "finished": {
@@ -312,7 +312,14 @@
       {"name": "Шорох (Scratches: Director's Cut)", "id": "scratches", "segment": "1253678202,1253695802"},
       {"id": "single", "segment": "1256959016", "name": "Shrek 2", "start": 0},
       {"id": "single", "segment": "1258121391", "name": "Doghouse 1/2", "start": 6675},
-      {"id": "single", "segment": "1258121391", "name": "Insomnis", "start": 8686}
+      {"id": "single", "segment": "1258121391", "name": "Insomnis", "start": 8686},
+      {"id": "single", "segment": "1265545024", "name": "How Fish Is Made", "start": 0},
+      {"id": "single", "segment": "1265545024", "name": "Halloween", "start": 9811},
+      {"id": "single", "segment": "1265545024", "name": "Slit Mouthed", "start": 10688},
+      {"id": "single", "segment": "1265545024", "name": "Beetlebum: Resident Weevil", "start": 14892},
+      {"id": "single", "segment": "1265545024", "name": "SCP-847", "start": 15687},
+      {"id": "single", "segment": "1265545024", "name": "Everything Is For Humanity (демо)", "start": 16638},
+      {"id": "single", "segment": "1265545024", "name": "Copperport Casefiles: Dead of Winter", "start": 18189}
     ]
   },
   "first": {
@@ -690,7 +697,8 @@
       {"id": "first-2022", "segment": "1258121391", "name": "Blood Field (демо)", "start": 7730},
       {"id": "first-2022", "segment": "1258121391", "name": "Broken Veil (демо)", "start": 14283},
       {"id": "first-2022", "segment": "1258121391", "name": "Blink: The Last Night", "start": 15997},
-      {"id": "first-2022", "segment": "1264372459", "name": "Metro: Last Light Redux", "start": 0}
+      {"id": "first-2022", "segment": "1264372459", "name": "Metro: Last Light Redux", "start": 0},
+      {"id": "first-2022", "segment": "1265545024", "name": "Witching Hour (демо)", "start": 5124}
     ]
   },
   "ongoing": {
