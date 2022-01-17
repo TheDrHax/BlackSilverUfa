@@ -12,6 +12,7 @@ import {
   Tabs,
   Tooltip,
 } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 import { Rnd } from 'react-rnd';
@@ -840,6 +841,8 @@ export default class SegmentPlayer extends React.Component {
       state: {
         segment: {
           subtitles,
+          thumbnail,
+          date,
         },
         segmentRef: {
           name: refName,
@@ -854,6 +857,16 @@ export default class SegmentPlayer extends React.Component {
 
     return (
       <Layout fluid flex withFooter={false} title={title}>
+        <Helmet>
+          <meta
+            property="og:description"
+            content={`Запись стрима от ${Sugar.Date.medium(date)}`}
+          />
+          {thumbnail.startsWith('http') && (
+            <meta property="og:image" content={thumbnail} />
+          )}
+        </Helmet>
+
         {subtitles && ReactDOM.createPortal(this.renderChat(), chatContainer)}
 
         <Row className="flex-grow-1 no-gutters">
