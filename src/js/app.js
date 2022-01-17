@@ -9,6 +9,7 @@ import {
 import { QueryParamProvider } from 'use-query-params';
 import { ReactRouterGlobalHistory } from 'react-router-global-history';
 import { Button } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 // Namespace
 import { common as t } from './constants/texts';
 import PATHS from './constants/urls';
@@ -20,6 +21,9 @@ import { Layout } from './components';
 
 const App = () => (
   <Router>
+    <Helmet>
+      <meta charSet="utf-8" />
+    </Helmet>
     <ReactRouterGlobalHistory />
     <QueryParamProvider ReactRouterRoute={Route}>
       <Switch>
@@ -35,7 +39,7 @@ const App = () => (
             : <SearchPage />)}
         />
         <Route path="*">
-          <Layout flex>
+          <Layout flex title={t.notFoundTitle}>
             <div className="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
               <h3 className="text-white">
                 {t.notFoundTitle}

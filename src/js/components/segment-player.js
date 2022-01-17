@@ -24,8 +24,6 @@ import Timecodes from './player/timecodes';
 import Scroll from './player/scroll';
 import Playlist from './player/playlist';
 import Reparentable from './utils/reparentable';
-import config from '../../../config/config.json';
-import Matomo from '../matomo';
 import Sugar from '../utils/sugar';
 import updateState from '../utils/update-state';
 import { ShareOverlay } from './player/share-overlay';
@@ -227,10 +225,6 @@ export default class SegmentPlayer extends React.Component {
       if (playlists.length === 0) {
         playlists = null;
       }
-
-      document.title = `${segmentRef.name} | ${game.name} | ${config.title}`;
-
-      Matomo.trackPageView();
 
       this.setState({
         loaded: true,
@@ -847,11 +841,19 @@ export default class SegmentPlayer extends React.Component {
         segment: {
           subtitles,
         },
+        segmentRef: {
+          name: refName,
+        },
+        game: {
+          name: gameName,
+        },
       },
     } = this;
 
+    const title = `${refName} | ${gameName}`;
+
     return (
-      <Layout fluid flex withFooter={false}>
+      <Layout fluid flex withFooter={false} title={title}>
         {subtitles && ReactDOM.createPortal(this.renderChat(), chatContainer)}
 
         <Row className="flex-grow-1 no-gutters">

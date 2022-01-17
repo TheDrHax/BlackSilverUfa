@@ -4,11 +4,8 @@ import { zip } from 'lodash';
 import { Col, Row } from 'react-bootstrap';
 import { Layout } from '../../components';
 import StreamCard from './stream-card';
-// Hooks
-import { useTitle } from '../../hooks/use-title';
 // Utils
 import { Data } from '../../data';
-import Matomo from '../../matomo';
 
 const getSegmentsByRefs = (segmentRefs, segments) => (
   segmentRefs.map((segmentRef) => (
@@ -22,10 +19,7 @@ const GamePage = ({ match }) => {
 
   const { game: gameId } = match.params;
 
-  useTitle(game.name);
-
   useEffect(() => {
-    Matomo.trackPageView();
     Data.then((data) => {
       const { name, streams: segmentRefs } = data.games.by('id', gameId);
       const segments = getSegmentsByRefs(segmentRefs, data.segments);
@@ -36,7 +30,7 @@ const GamePage = ({ match }) => {
   }, [gameId]);
 
   return (
-    <Layout isLoading={isLoading}>
+    <Layout isLoading={isLoading} title={game.name}>
       <Row>
         <Col>
           <h1 className="text-white pt-2">{game.name}</h1>

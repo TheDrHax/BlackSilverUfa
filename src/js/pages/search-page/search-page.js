@@ -9,7 +9,6 @@ import { filterByText, tokenize } from '../../utils/search';
 // Hooks
 import { useComplexState } from '../../hooks/use-complex-state';
 import { useComplexQueryState, withSquashedDefault } from '../../hooks/use-complex-query-state';
-import { useTitle } from '../../hooks/use-title';
 import { useDataStore } from '../../hooks/use-data-store';
 // Namespace
 import { searchPage as t } from '../../constants/texts';
@@ -92,12 +91,6 @@ const SearchPage = () => {
     if (event) reportSearchEvent(mode, filters.text, items.length);
   };
 
-  useTitle(t.title);
-
-  useEffect(() => {
-    Matomo.trackPageView();
-  }, []);
-
   useEffect(() => {
     animateScrollTo(0, {
       cancelOnUserAction: false,
@@ -111,7 +104,7 @@ const SearchPage = () => {
   }, [data, mode, filters, sorting]);
 
   return (
-    <Layout isLoading={!isReady}>
+    <Layout isLoading={!isReady} title={t.title}>
       <Row className="pt-3">
         <Col>
           <Alert variant="dark">{t.notification}</Alert>

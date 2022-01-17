@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 // Components
 import { Container, Spinner as SpinnerComponent } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 import Header from './header';
 import Footer from './footer';
+import config from '../../../../config/config.json';
+import Matomo from '../../matomo';
 
 const Layout = ({
   className,
@@ -11,11 +14,27 @@ const Layout = ({
   children,
   flex,
   isLoading,
+  title,
   ...rest
 }) => {
   const withFlex = flex || isLoading;
+
+  useEffect(() => {
+    if (title) {
+      Matomo.trackPageView();
+    }
+  }, [title]);
+
+  const fullTitle = title ? `${title} | ${config.title}` : config.title;
+
   return (
     <>
+      {!isLoading && (
+        <Helmet>
+          <title>{fullTitle}</title>
+          <meta property="og:title" content={fullTitle} />
+        </Helmet>
+      )}
       <Header />
       <Container className={`main-content ${withFlex ? 'd-flex' : ''} ${className}`} {...rest}>
         {isLoading ? (
@@ -34,6 +53,7 @@ Layout.propTypes = {
   isLoading: PropTypes.bool,
   className: PropTypes.string,
   withFooter: PropTypes.bool,
+  title: PropTypes.string,
 };
 
 Layout.defaultProps = {
@@ -41,6 +61,7 @@ Layout.defaultProps = {
   isLoading: false,
   withFooter: true,
   className: '',
+  title: null,
 };
 
 export default Layout;
