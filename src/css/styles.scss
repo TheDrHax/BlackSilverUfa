@@ -474,6 +474,12 @@ h3>.badge {
 	white-space: nowrap;
 }
 
+.form-control-sm.btn {
+  // override .btn with .form-control-sm
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
 /*
  * Segment Player
  */

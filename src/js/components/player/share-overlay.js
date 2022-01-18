@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { sum, reverse, range, padStart } from 'lodash';
 import { Button, Col, Form, InputGroup, Popover } from 'react-bootstrap';
 
@@ -25,9 +26,16 @@ const ShareOverlay = React.forwardRef((props, ref) => {
 
   const inputRef = React.useRef();
   const time = Math.floor(currentTime);
-  const [includeTime, setIncludeTime] = React.useState(true);
+  const [includeTime, setIncludeTime] = React.useState(currentTime > 0);
+  const [includeGame, setIncludeGame] = React.useState(false);
 
-  let baseUrl = `https://drhx.ru/b/${game}/${segment}`;
+  let baseUrl = 'https://drhx.ru/b';
+
+  if (includeGame) {
+    baseUrl += `/${game}`;
+  }
+
+  baseUrl += `/${segment}`;
 
   if (includeTime) {
     baseUrl += `?at=${time + offset}`;
@@ -40,11 +48,12 @@ const ShareOverlay = React.forwardRef((props, ref) => {
         <Form.Row>
           <Col>
             <InputGroup>
-              <Form.Control ref={inputRef} readOnly value={baseUrl} />
+              <Form.Control ref={inputRef} readOnly value={baseUrl} size="sm" />
               <InputGroup.Append>
                 <Form.Control
                   as={Button}
                   variant="dark"
+                  size="sm"
                   onClick={() => {
                     const input = inputRef.current;
 
@@ -81,9 +90,27 @@ const ShareOverlay = React.forwardRef((props, ref) => {
             />
           </Col>
         </Form.Row>
+
+        <Form.Row className="mt-2">
+          <Col>
+            <Form.Check
+              type="checkbox"
+              label="Включить игру в ссылку"
+              checked={includeGame}
+              onChange={({ target: { checked } }) => setIncludeGame(checked)}
+            />
+          </Col>
+        </Form.Row>
       </Popover.Content>
     </Popover>
   );
 });
+
+ShareOverlay.propTypes = {
+  game: PropTypes.string.isRequired,
+  segment: PropTypes.string.isRequired,
+  offset: PropTypes.number.isRequired,
+  currentTime: PropTypes.number.isRequired,
+};
 
 export { ShareOverlay };
