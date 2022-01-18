@@ -384,7 +384,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
   function convertLocationToBeta() {
     let l = window.location;
-    return 'https://blackufa-beta.thedrhax.pw' + l.pathname + l.search + l.hash;
+    return 'https://bsu.drhx.ru' + l.pathname + l.search + l.hash;
   }
 
   let tryBeta = document.getElementById("try-beta");
