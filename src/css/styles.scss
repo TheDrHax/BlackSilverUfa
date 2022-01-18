@@ -30,6 +30,9 @@ $pagination-disabled-border-color: #{$border-color};
 $pagination-hover-bg: #{$color-bg-dark};
 $pagination-hover-border-color: #{$border-color};
 
+$modal-content-color: $text-color;
+$modal-content-bg: #{$color-bg-dark};
+
 @import "~bootstrap";
 @import "~react-custom-scroll/dist/customScroll";
 @import "~plyr";
@@ -180,6 +183,12 @@ h3>.badge {
   vertical-align: middle;
   font-size: 0.8rem;
   margin-top: -0.4em;
+}
+
+.modal {
+  & button.close {
+    color: $text-color;
+  }
 }
 
 /*

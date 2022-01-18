@@ -142,6 +142,7 @@ const DonatePage = () => (
         <p>Имя (для проверки): Дмитрий Степанович К.</p>
       </CardModal>
       <CardModal name="Ю.Money" imgSrc="/static/images/yoomoney.png">
+        <p>Номер счёта: <code>410014087156910</code></p>
         <iframe
           title="yoomoney"
           src="https://yoomoney.ru/quickpay/shop-widget?writer=seller&targets=%D0%90%D1%80%D1%85%D0%B8%D0%B2%20%D1%81%D1%82%D1%80%D0%B8%D0%BC%D0%BE%D0%B2%20BlackUFA&targets-hint=&default-sum=&button-text=12&payment-type-choice=on&mobile-payment-type-choice=on&hint=&successURL=https%3A%2F%2Fdrhx.ru%2Fb&quickpay=shop&account=410014087156910&"
