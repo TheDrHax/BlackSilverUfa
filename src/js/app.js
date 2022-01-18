@@ -18,6 +18,7 @@ import { SearchPage, GamePage } from './pages';
 import PlayerPage from './components/segment-player';
 import { RedirectLinks, RedirectR } from './components/redirects';
 import { Layout } from './components';
+import DonatePage from './pages/donate-page';
 
 const App = () => (
   <Router>
@@ -31,6 +32,7 @@ const App = () => (
         <Route path={PATHS.GAME} component={GamePage} />
         <Route path={PATHS.LINK} component={RedirectLinks} />
         <Route path={PATHS.REDIRECT} component={RedirectR} />
+        <Route path={PATHS.DONATE} component={DonatePage} />
         <Route
           exact
           path={PATHS.HOME}

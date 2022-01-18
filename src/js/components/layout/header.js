@@ -1,6 +1,6 @@
 import React from 'react';
 // Components
-import { Badge, Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import HeaderQuickSearch from './header-quick-search';
 // Namespace
@@ -14,15 +14,17 @@ const Header = () => {
   return (
     <>
       <div className="navbar-space">{/* floating navbar workaround */}</div>
-      <Navbar variant="dark" expand="sm" fixed="top">
+      <Navbar variant="dark" expand="md" fixed="top" collapseOnSelect>
         <Container>
           <Navbar.Brand as={Link} to={PATHS.HOME} className="d-flex align-items-center">
             {config.title}
-            <Badge variant="warning" className="ml-2">beta</Badge>
           </Navbar.Brand>
           <Navbar.Toggle />
 
           <Navbar.Collapse id="navbar-collapse">
+            <Nav.Link as={Link} to={PATHS.DONATE} className="text-white mr-auto">
+              Поддержать проект
+            </Nav.Link>
             <Nav className="mr-auto" />
             {isReady && <HeaderQuickSearch indexStore={index} segmentsStore={segments} />}
           </Navbar.Collapse>
@@ -31,4 +33,5 @@ const Header = () => {
     </>
   );
 };
+
 export default Header;

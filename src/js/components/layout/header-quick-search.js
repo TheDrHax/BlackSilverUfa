@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import getHistory from 'react-router-global-history';
 import { AsyncTypeahead } from 'react-bootstrap-typeahead';
 // Components
-import { Form } from 'react-bootstrap';
+import { Form, Nav } from 'react-bootstrap';
 // Namespace
 import PropTypes from 'prop-types';
 import { common as t } from '../../constants/texts';
@@ -67,7 +67,8 @@ const HeaderQuickSearch = ({ indexStore, segmentsStore }) => {
   };
 
   return (
-    <Form
+    <Nav
+      as={Form}
       inline
       autoComplete="false"
       onSubmit={handleSubmit}
@@ -95,7 +96,7 @@ const HeaderQuickSearch = ({ indexStore, segmentsStore }) => {
           <span>{option.name}</span>
         )}
       />
-    </Form>
+    </Nav>
   );
 };
 

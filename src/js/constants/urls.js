@@ -4,4 +4,5 @@ export default {
   PLAYER: '/play/:game/:segment',
   GAME: '/play/:game',
   LINK: '/links/:game.html',
+  DONATE: '/donate',
 };
