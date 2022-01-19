@@ -263,6 +263,11 @@ export default class Player extends React.Component {
       if (!plyr.muted) {
         plyr.muted = false;
       }
+
+      // Workaround for volume desync
+      if (plyr.embed) {
+        plyr.volume = plyr.embed.getVolume() / 100;
+      }
     });
 
     plyr.on('enterfullscreen', this.onFullScreenEnter);
