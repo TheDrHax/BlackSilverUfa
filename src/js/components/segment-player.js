@@ -27,6 +27,7 @@ import Playlist from './player/playlist';
 import Reparentable from './utils/reparentable';
 import Sugar from '../utils/sugar';
 import updateState from '../utils/update-state';
+import { resolveSegment } from '../utils/data-utils';
 import { ShareOverlay } from './player/share-overlay';
 import { Layout } from '.';
 
@@ -79,7 +80,6 @@ export default class SegmentPlayer extends React.Component {
       at: +search.get('at'),
       t: +search.get('t'),
     };
-    let redirect = false;
     let {
       match: {
         params: {
@@ -89,82 +89,15 @@ export default class SegmentPlayer extends React.Component {
       },
     } = this.props;
 
-    // Handle missing segments
-    if (!segments.by('segment', segmentId)) {
-      let found = false;
+    const [segment, at] = resolveSegment(segments, segmentId, params.at);
+    params.at = at;
 
-      if (segmentId.indexOf(',') !== -1) {
-        const joinedParts = segmentId.split(',');
-
-        for (let i = 0; i < joinedParts.length; i += 1) {
-          const part = joinedParts[i];
-
-          if (segments.by('segment', part)) {
-            segmentId = part;
-            redirect = true;
-            found = true;
-            break;
-          }
-        }
-      } else if (segmentId.indexOf('.') !== -1) {
-        const mainSegment = segmentId.substr(0, segmentId.indexOf('.'));
-
-        if (segments.by('segment', mainSegment)) {
-          segmentId = mainSegment;
-          redirect = true;
-          found = true;
-        }
-      }
-
-      if (!found) {
-        return null;
-      }
+    if (!segment) {
+      return null;
     }
 
-    // Handle segments without refs
-    if (segments.by('segment', segmentId).games.length === 0) {
-      let found = false;
-
-      // Redirect to joined streams
-      const candidates = segments.chain()
-        .find({ segment: { $contains: ',' } })
-        .where((s) => s.segment.split(',').indexOf(segmentId) !== -1)
-        .data()
-        .map((s) => s.segment);
-
-      if (candidates.length > 0) {
-        const oldSegmentId = segmentId;
-        [segmentId] = candidates;
-        redirect = true;
-        found = true;
-
-        // Rebase timestamp
-        if (params.at) {
-          const segment = segments.by('segment', segmentId);
-          const index = segmentId.split(',').indexOf(oldSegmentId);
-
-          const t = params.at;
-          let offset = segment.offsets[index];
-
-          if (segment.cuts) {
-            segment.cuts
-              .filter(([start, end]) => end <= t + offset)
-              .forEach(([start, end]) => {
-                offset -= end - start;
-              });
-          }
-
-          params.at = t + offset;
-          redirect = true;
-        }
-      }
-
-      if (!found) {
-        return null;
-      }
-    }
-
-    const segment = segments.by('segment', segmentId);
+    let redirect = segment.segment !== segmentId;
+    segmentId = segment.segment;
 
     // Handle missing or unknown game
     if (!games.by('id', gameId) || segment.games.indexOf(gameId) === -1) {
@@ -178,7 +111,7 @@ export default class SegmentPlayer extends React.Component {
     let newUrl = null;
 
     if (redirect) {
-      newUrl = `/play/${gameId}/${segmentId}`;
+      newUrl = `/play/${gameId}/${segment.segment}`;
       if (params.at) {
         newUrl += `?at=${params.at}`;
       } else if (params.t) {
