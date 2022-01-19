@@ -337,10 +337,18 @@ export default class SegmentPlayer extends React.Component {
   renderPlayerControls() {
     const {
       toggleFullscreen,
-      segment: { segment, abs_start: absStart, youtube, official, direct, torrent },
-      game: { id: game },
+      segment,
+      game,
       currentTime,
     } = this.state;
+
+    const {
+      segment: segmentId,
+      youtube,
+      official,
+      direct,
+      torrent,
+    } = segment;
 
     return (
       <Row className="no-gutters">
@@ -348,8 +356,8 @@ export default class SegmentPlayer extends React.Component {
           <div className="player-controls border-top border-bottom">
             <div className="label mr-2 d-none d-xxl-block">Смотреть на:</div>
 
-            {!segment.startsWith('00') && (
-              <Button variant="dark" size="sm" className="mr-2" href={`https://twitch.tv/videos/${segment}`} target="blank">
+            {!segmentId.startsWith('00') && (
+              <Button variant="dark" size="sm" className="mr-2" href={`https://twitch.tv/videos/${segmentId}`} target="blank">
                 <i className="fab fa-twitch" />
                 <span>Twitch</span>
               </Button>
@@ -414,7 +422,6 @@ export default class SegmentPlayer extends React.Component {
                 <ShareOverlay
                   game={game}
                   segment={segment}
-                  offset={absStart}
                   currentTime={currentTime}
                 />
               )}

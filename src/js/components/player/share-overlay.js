@@ -1,33 +1,41 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { sum, reverse, range, padStart } from 'lodash';
-import { Button, Col, Form, InputGroup, Popover } from 'react-bootstrap';
-
-function ptime(t) {
-  return sum(reverse(t.split(':')).map((x, i) => x * 60 ** i));
-}
-
-function ftime(t) {
-  return range(2, -1, -1).map((i) => {
-    const res = Math.floor(t / 60 ** i);
-    t %= 60 ** i;
-    return padStart(res, 2, '0');
-  }).join(':');
-}
+import { Button, Col, Form, InputGroup, Popover, Spinner } from 'react-bootstrap';
+import { getBaseSegment, getStreamTime } from '../../utils/data-utils';
+import { Data } from '../../data';
+import { ftime } from '../../utils/time-utils';
 
 const ShareOverlay = React.forwardRef((props, ref) => {
   const {
     game,
     segment,
-    offset,
     currentTime,
     ...otherProps
   } = props;
 
-  const inputRef = React.useRef();
+  const inputRef = useRef();
   const time = Math.floor(currentTime);
-  const [includeTime, setIncludeTime] = React.useState(currentTime > 0);
-  const [includeGame, setIncludeGame] = React.useState(false);
+  const absTime = getStreamTime(time, segment);
+  const [segments, setSegments] = useState(null);
+  const [includeTime, setIncludeTime] = useState(time > 0);
+  const [includeGame, setIncludeGame] = useState(false);
+
+  useEffect(() => {
+    Data.then(({ segments: s }) => setSegments(s));
+  }, []);
+
+  if (!segments) {
+    return (
+      <Popover ref={ref} {...otherProps} className="share-popover">
+        <Popover.Title as="h3">Создать короткую ссылку</Popover.Title>
+        <Popover.Content className="d-flex justify-content-center">
+          <Spinner animation="border" />
+        </Popover.Content>
+      </Popover>
+    );
+  }
+
+  const [base, baseTime] = getBaseSegment(segments, segment, absTime);
 
   let baseUrl = 'https://drhx.ru/b';
 
@@ -35,10 +43,14 @@ const ShareOverlay = React.forwardRef((props, ref) => {
     baseUrl += `/${game}`;
   }
 
-  baseUrl += `/${segment}`;
+  if (!includeTime && segment.segment.indexOf('.') !== -1) {
+    baseUrl += `/${segment.segment}`;
+  } else {
+    baseUrl += `/${base.segment}`;
+  }
 
   if (includeTime) {
-    baseUrl += `?at=${time + offset}`;
+    baseUrl += `?at=${baseTime}`;
   }
 
   return (
@@ -108,8 +120,7 @@ const ShareOverlay = React.forwardRef((props, ref) => {
 
 ShareOverlay.propTypes = {
   game: PropTypes.string.isRequired,
-  segment: PropTypes.string.isRequired,
-  offset: PropTypes.number.isRequired,
+  segment: PropTypes.object.isRequired,
   currentTime: PropTypes.number.isRequired,
 };
 

@@ -1,5 +1,18 @@
 import { zip, last } from 'lodash';
 
+const getStreamTime = (t, segment) => {
+  let offset = segment.abs_start;
+
+  if (segment.cuts) {
+    offset += segment.cuts
+      .filter(([start, end]) => end <= t + offset)
+      .map(([start, end]) => start - end)
+      .reduce((a, b) => a + b, 0);
+  }
+
+  return t + offset;
+};
+
 const getBaseSegment = (segments, segment, at) => {
   at = at || 0;
 
@@ -10,7 +23,7 @@ const getBaseSegment = (segments, segment, at) => {
 
     [stream, offset] = last(
       zip(segment.streams, segment.offsets)
-        .filter(([s, o]) => o < at),
+        .filter(([s, o]) => o <= at),
     );
 
     at -= offset;
@@ -28,8 +41,6 @@ const getSiblingSegments = (segments, segment, at) => {
 };
 
 const resolveSegment = (segments, segmentId, at) => {
-  at = at || 0;
-
   let segment = segments.by('segment', segmentId);
 
   // Handle missing segments
@@ -62,19 +73,11 @@ const resolveSegment = (segments, segmentId, at) => {
 
     if (!segment) return [null];
 
-    let offset = segment.offsets[segment.streams.indexOf(segmentId)];
-    if (segment.cuts) {
-      offset += segment.cuts
-        .filter(([start, end]) => end <= at + offset)
-        .map(([start, end]) => start - end)
-        .reduce((a, b) => a + b, 0);
-    }
-
-    at += offset;
+    at = getStreamTime(at, segment);
   }
 
   // Handle timestamp out of bounds
-  if (at < segment.abs_start || at >= segment.abs_end) {
+  if (at && (at < segment.abs_start || at >= segment.abs_end)) {
     let candidates = getSiblingSegments(segments, segment, at)
       .filter((s) => s.abs_end > at)
       .filter((s) => s.games.length > 0)
@@ -93,4 +96,4 @@ const resolveSegment = (segments, segmentId, at) => {
   return [segment, at];
 };
 
-export { getBaseSegment, resolveSegment };
+export { getStreamTime, getBaseSegment, resolveSegment };
