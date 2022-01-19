@@ -8589,7 +8589,6 @@
     "youtube": "goIu1DVBAIc", "abs_start": "0:00", "abs_end": "8:00:59", "duration": "8:00:59",
     "name": "Warframe #5",
     "date": "2021-12-01",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1220903782.torrent",
     "games": ["warframe"]
   },
   "1221836695": {
@@ -8875,5 +8874,13 @@
     "date": "2022-01-16",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1265545024.torrent",
     "games": ["single", "first-2022"]
+  },
+  "1268793469": {
+    "abs_start": "0:00", "abs_end": "5:14:09", "duration": "0:00",
+    "name": "Star Citizen",
+    "date": "2022-01-19",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1268793469.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1268793469.torrent",
+    "games": ["first-2022"]
   }
 }
