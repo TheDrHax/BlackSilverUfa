@@ -1,9 +1,54 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { Button, Col, Form, InputGroup, Popover, Spinner } from 'react-bootstrap';
+import { Button, Col, Form, InputGroup, Pagination, Popover, Spinner } from 'react-bootstrap';
 import { getBaseSegment } from '../../utils/data-utils';
 import { Data } from '../../data';
 import { ftime } from '../../utils/time-utils';
+
+const getShortLink = (game, segment, at) => (
+  // eslint-disable-next-line prefer-template
+  'https://drhx.ru/'
+  + (game ? `${game}/` : '')
+  + segment.segment
+  + (at ? `?at=${at}` : '')
+);
+
+const getMpvCommand = (segment, t) => (
+  // eslint-disable-next-line prefer-template
+  [
+    'mpv',
+    (segment.subtitles ? `--sub-file=${new URL(segment.subtitles, window.location.href)}` : ''),
+    (segment.abs_start !== 0 ? `--sub-delay=${-segment.abs_start}` : ''),
+    (t ? `--start=${t}` : ''),
+    (segment.end ? `--end=${segment.end}` : ''),
+    (segment.youtube ? `ytdl://${segment.youtube}` : segment.direct),
+  ].filter((x) => x).join(' ')
+);
+
+const Mode = {
+  link: 'Ссылка',
+  mpv: 'Команда MPV',
+};
+
+const ModeSelector = ({ mode, onChange }) => (
+  <Pagination size="sm" className="d-flex mb-0">
+    {Object.entries(Mode).map(([key, value]) => (
+      <Pagination.Item
+        key={key}
+        active={mode === key}
+        onClick={() => onChange(key)}
+        className="flex-1-0-0"
+      >
+        {value}
+      </Pagination.Item>
+    ))}
+  </Pagination>
+);
+
+ModeSelector.propTypes = {
+  mode: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired,
+};
 
 const ShareOverlay = React.forwardRef((props, ref) => {
   const {
@@ -15,6 +60,7 @@ const ShareOverlay = React.forwardRef((props, ref) => {
 
   const inputRef = useRef();
   const time = Math.floor(currentTime);
+  const [mode, setMode] = useState('link');
   const [segments, setSegments] = useState(null);
   const [includeTime, setIncludeTime] = useState(time > 0);
   const [includeGame, setIncludeGame] = useState(false);
@@ -36,20 +82,23 @@ const ShareOverlay = React.forwardRef((props, ref) => {
 
   const [base, absTime] = getBaseSegment(segments, segment, time);
 
-  let baseUrl = 'https://drhx.ru/b';
+  let value;
 
-  if (includeGame) {
-    baseUrl += `/${game}`;
-  }
+  switch (mode) {
+    case 'link':
+      value = getShortLink(
+        includeGame && game,
+        (!includeTime && segment.segment.indexOf('.') !== -1) ? segment : base,
+        includeTime && absTime,
+      );
+      break;
 
-  if (!includeTime && segment.segment.indexOf('.') !== -1) {
-    baseUrl += `/${segment.segment}`;
-  } else {
-    baseUrl += `/${base.segment}`;
-  }
+    case 'mpv':
+      value = getMpvCommand(segment, includeTime && time);
+      break;
 
-  if (includeTime) {
-    baseUrl += `?at=${absTime}`;
+    default:
+      value = '';
   }
 
   return (
@@ -59,7 +108,12 @@ const ShareOverlay = React.forwardRef((props, ref) => {
         <Form.Row>
           <Col>
             <InputGroup>
-              <Form.Control ref={inputRef} readOnly value={baseUrl} size="sm" />
+              <Form.Control
+                ref={inputRef}
+                readOnly
+                value={value}
+                size="sm"
+              />
               <InputGroup.Append>
                 <Form.Control
                   as={Button}
@@ -111,6 +165,10 @@ const ShareOverlay = React.forwardRef((props, ref) => {
               onChange={({ target: { checked } }) => setIncludeGame(checked)}
             />
           </Col>
+        </Form.Row>
+
+        <Form.Row className="mt-2">
+          <Col><ModeSelector mode={mode} onChange={setMode} /></Col>
         </Form.Row>
       </Popover.Content>
     </Popover>

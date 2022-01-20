@@ -79,6 +79,14 @@ $modal-content-bg: #{$color-bg-dark};
   z-index: 1000 !important;
 }
 
+.pagination {
+  & .page-link {
+    color: $text-color;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .navbar {
   padding: #{$navbar-padding-vertical} 1rem;
   background-color: #{$color-bg};
