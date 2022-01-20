@@ -1,14 +1,13 @@
-// TODO: remove when all usages will be replaced with search/tokenize @zaprvalcer
-export function tokenize(string) {
-  return string.trim().split(' ').map((word) => {
+export function tokenize(text = '') {
+  return text.trim().split(' ').map((word) => {
     const match = word.toLowerCase().match(/[a-zа-я0-9]+/g);
     return match ? match.join('') : '';
   });
 }
 
-// TODO: remove when all usages will be replaced with search/filterByQuery @zaprvalcer
-export default function fts(query, items, lambda) {
+export default function fts(query, items, lambda = (x) => x) {
   query = tokenize(query);
+
   let maxRank = 0;
 
   return items

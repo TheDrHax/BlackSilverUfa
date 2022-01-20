@@ -5,7 +5,7 @@ import { Row, Col, Alert } from 'react-bootstrap';
 import flow from 'lodash/flow';
 import animateScrollTo from 'animated-scroll-to';
 import Matomo from '../../matomo';
-import { filterByText, tokenize } from '../../utils/search';
+import fts, { tokenize } from '../../utils/full-text-search';
 // Hooks
 import { useComplexState } from '../../hooks/use-complex-state';
 import { useComplexQueryState, withSquashedDefault } from '../../hooks/use-complex-query-state';
@@ -47,7 +47,7 @@ const executeSearch = ({ mode, data, q: text, category, from, to, sortBy, isDesc
     ? getSegmentsFlow(data.segments, from, to)
     : getGamesFlow(data.index, category),
   (chain) => getSortFlow(chain, sortBy, isDesc),
-  (chain) => (tokenize(text).length ? filterByText(text, chain.data()) : chain.data()),
+  (chain) => (tokenize(text).length ? fts(text, chain.data(), (s) => s.name) : chain.data()),
 ])();
 
 const reportSearchEvent = (mode, text, count) => {
