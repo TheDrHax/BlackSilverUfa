@@ -120,5 +120,6 @@ export {
   getRelTime,
   getAbsTime,
   getBaseSegment,
+  getSiblingSegments,
   resolveSegment,
 };

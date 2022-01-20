@@ -9,16 +9,10 @@ import { common as t } from '../../constants/texts';
 // Utils
 import Matomo from '../../matomo';
 import fts from '../../utils/full-text-search';
+import { getSiblingSegments, resolveSegment } from '../../utils/data-utils';
 
 export const MIN_QUERY = 2;
 export const MAX_RESULTS = 20;
-
-export const hasStreamId = (query) => /^\d{9,}$/.test(query);
-
-export const getByStreamId = (query, store) => store.chain()
-  .find({ streams: { $contains: query } })
-  .where((segment) => segment.games.length > 0)
-  .data();
 
 export const getByTextMatch = (query, store) => {
   const data = store.chain()
@@ -58,9 +52,19 @@ const HeaderQuickSearch = ({ indexStore, segmentsStore }) => {
 
   const handleSubmit = (e) => e.preventDefault();
   const handleSearch = (query) => {
-    const matches = hasStreamId(query)
-      ? getByStreamId(query, segmentsStore)
-      : getByTextMatch(query, indexStore);
+    const [segment] = resolveSegment(segmentsStore, query.trim());
+
+    let matches = [segment];
+
+    if (segment) {
+      if (query.match(/^[0-9]+$/)) { // stream ID
+        matches = getSiblingSegments(segmentsStore, segment);
+      } else {
+        matches = [segment];
+      }
+    } else {
+      matches = getByTextMatch(query, indexStore);
+    }
 
     const options = matches.map(({ name, url }) => ({ name, url }));
     setSuggestions({ query, options });
@@ -103,7 +107,6 @@ const HeaderQuickSearch = ({ indexStore, segmentsStore }) => {
 HeaderQuickSearch.propTypes = {
   indexStore: PropTypes.object.isRequired,
   segmentsStore: PropTypes.object.isRequired,
-
 };
 
 export default HeaderQuickSearch;
