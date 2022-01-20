@@ -6,6 +6,8 @@ const data = [
   { id: 2, name: 'Ghost of Tsushima - Прохождение' },
   { id: 3, name: 'Pummel Party #10 (7D) / Human: Fall Flat #9' },
   { id: 4, name: 'Первый взгляд 2020' },
+  { id: 5, name: 'Half-Life 3' },
+  { id: 6, name: 'Shenmue III' },
 ];
 
 test('lowercase', () => {
@@ -49,4 +51,9 @@ test('empty text', () => {
 
   expect(fts(null, data, (x) => x.name))
     .toMatchObject([]);
+});
+
+test('filter number-only matches', () => {
+  expect(fts('shenmue 3', data, (x) => x.name))
+    .toMatchObject([{ id: 6 }]);
 });
