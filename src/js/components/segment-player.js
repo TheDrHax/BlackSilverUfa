@@ -76,10 +76,8 @@ export default class SegmentPlayer extends React.Component {
   resolveUrl({ segments, games }) {
     const { location: { search: reqSearch } } = this.props;
     const search = new URLSearchParams(reqSearch);
-    const params = {
-      at: +search.get('at'),
-      t: +search.get('t'),
-    };
+    const paramAt = +search.get('at');
+
     let {
       match: {
         params: {
@@ -89,14 +87,15 @@ export default class SegmentPlayer extends React.Component {
       },
     } = this.props;
 
-    const [segment, at] = resolveSegment(segments, segmentId, params.at);
-    params.at = at;
+    const [segment, at, t] = resolveSegment(segments, segmentId, paramAt);
+    const autostart = t;
 
     if (!segment) {
       return null;
     }
 
     let redirect = segment.segment !== segmentId;
+
     segmentId = segment.segment;
 
     // Handle missing or unknown game
@@ -108,23 +107,17 @@ export default class SegmentPlayer extends React.Component {
     const game = games.by('id', gameId);
     const segmentRef = find(game.streams, (ref) => ref.segment === segmentId);
 
-    let newUrl = null;
-
-    if (redirect) {
-      newUrl = `/play/${gameId}/${segment.segment}`;
-      if (params.at) {
-        newUrl += `?at=${params.at}`;
-      } else if (params.t) {
-        newUrl += `?t=${params.t}`;
-      }
+    let newUrl = `/play/${gameId}/${segment.segment}`;
+    if (at) {
+      newUrl += `?at=${at}`;
     }
 
     return {
       segment,
       game,
       segmentRef,
-      params,
-      redirect: newUrl,
+      autostart,
+      redirect: redirect && newUrl,
     };
   }
 
@@ -146,7 +139,7 @@ export default class SegmentPlayer extends React.Component {
         game,
         segment,
         segmentRef,
-        params,
+        autostart,
       } = request;
 
       const relatedGames = segment.games.map((gameId) => games.by('id', gameId));
@@ -167,7 +160,7 @@ export default class SegmentPlayer extends React.Component {
         segmentRef,
         playlists,
         playlistAccordion: game.id,
-        params,
+        autostart,
         savedPositionAdapter: new SavedPosition(segment),
       });
 
@@ -230,21 +223,10 @@ export default class SegmentPlayer extends React.Component {
       },
       segment: {
         youtube, direct,
-        abs_start: offset,
       },
-      params: {
-        t, at,
-      },
+      autostart,
       savedPositionAdapter,
     } = this.state;
-
-    let autostart = null;
-
-    if (at) {
-      autostart = at - offset;
-    } else if (t) {
-      autostart = t;
-    }
 
     const playerProps = {
       youtube,

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { Button, Col, Form, InputGroup, Popover, Spinner } from 'react-bootstrap';
-import { getBaseSegment, getStreamTime } from '../../utils/data-utils';
+import { getBaseSegment } from '../../utils/data-utils';
 import { Data } from '../../data';
 import { ftime } from '../../utils/time-utils';
 
@@ -15,7 +15,6 @@ const ShareOverlay = React.forwardRef((props, ref) => {
 
   const inputRef = useRef();
   const time = Math.floor(currentTime);
-  const absTime = getStreamTime(time, segment);
   const [segments, setSegments] = useState(null);
   const [includeTime, setIncludeTime] = useState(time > 0);
   const [includeGame, setIncludeGame] = useState(false);
@@ -35,7 +34,7 @@ const ShareOverlay = React.forwardRef((props, ref) => {
     );
   }
 
-  const [base, baseTime] = getBaseSegment(segments, segment, absTime);
+  const [base, absTime] = getBaseSegment(segments, segment, time);
 
   let baseUrl = 'https://drhx.ru/b';
 
@@ -50,7 +49,7 @@ const ShareOverlay = React.forwardRef((props, ref) => {
   }
 
   if (includeTime) {
-    baseUrl += `?at=${baseTime}`;
+    baseUrl += `?at=${absTime}`;
   }
 
   return (

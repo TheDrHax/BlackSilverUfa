@@ -1,20 +1,32 @@
 import { zip, last } from 'lodash';
 
-const getStreamTime = (t, segment) => {
+const getOffset = (segment, at) => {
+  at = at || 0;
+
   let offset = segment.abs_start;
 
-  if (segment.cuts) {
-    offset += segment.cuts
-      .filter(([start, end]) => end <= t + offset)
-      .map(([start, end]) => start - end)
-      .reduce((a, b) => a + b, 0);
-  }
+  offset += (segment.cuts || [])
+    .filter(([start, end]) => end > offset && end <= at)
+    .map(([start, end]) => end - Math.max(offset, start))
+    .reduce((a, b) => a + b, 0);
 
-  return t + offset;
+  return offset;
 };
 
-const getBaseSegment = (segments, segment, at) => {
-  at = at || 0;
+const getRelTime = (at, segment) => at - getOffset(segment, at);
+
+const getAbsTime = (t, segment) => (
+  t + ((segment.cuts || [])
+    .filter(([start, end]) => end <= t)
+    .reduce((offset, [start, end]) => (
+      (t > offset + end)
+        ? offset + (end - start)
+        : offset
+    ), segment.abs_start))
+);
+
+const getBaseSegment = (segments, segment, t) => {
+  let at = getAbsTime(t || 0, segment);
 
   let stream;
 
@@ -32,7 +44,7 @@ const getBaseSegment = (segments, segment, at) => {
   }
 
   segment = segments.by('segment', stream);
-  return [segment, at];
+  return [segment, at, getRelTime(at, segment)];
 };
 
 const getSiblingSegments = (segments, segment, at) => {
@@ -50,15 +62,19 @@ const resolveSegment = (segments, segmentId, at) => {
     } else if (segmentId.indexOf(',') !== -1) { // previously joined
       // We don't know offsets anymore, so redirect to the beginning
       // of the first stream
-      [segmentId] = segmentId.split(',');
+      [segmentId] = segmentId.split(',').filter((id) => segments.by('segment', id));
       at = 0;
     }
 
-    segment = segments.by('segment', segmentId);
-  }
+    if (!segmentId) {
+      return [null];
+    }
 
-  if (!segment) {
-    return [null];
+    segment = segments.by('segment', segmentId);
+
+    if (!segment) {
+      return [null];
+    }
   }
 
   // Handle segments without refs
@@ -66,6 +82,7 @@ const resolveSegment = (segments, segmentId, at) => {
     [segment, at] = getBaseSegment(segments, segment, at);
     segmentId = segment.segment;
 
+    // Find joined stream (the only possible reason of empty refs for now)
     [segment] = segments.chain()
       .find({ streams: { $contains: segmentId } })
       .where((s) => s.streams.length > 1)
@@ -73,27 +90,35 @@ const resolveSegment = (segments, segmentId, at) => {
 
     if (!segment) return [null];
 
-    at = getStreamTime(at, segment);
+    const offset = segment.offsets[segment.streams.indexOf(segmentId)];
+    at = (at || 0) + offset;
   }
 
   // Handle timestamp out of bounds
-  if (at && (at < segment.abs_start || at >= segment.abs_end)) {
-    let candidates = getSiblingSegments(segments, segment, at)
+  if (at != null && (at < segment.abs_start || at >= segment.abs_end)) {
+    const candidates = getSiblingSegments(segments, segment, at)
       .filter((s) => s.abs_end > at)
       .filter((s) => s.games.length > 0)
       .sort((a, b) => a.abs_start - b.abs_start);
 
     if (candidates.length > 0) {
-      at = Math.max(at, candidates[0].abs_start);
-      candidates = candidates.filter((s) => s.abs_start <= at);
-
-      if (candidates.length > 0) {
-        [segment] = candidates;
+      if (candidates[0].abs_start > at) {
+        at = candidates[0].abs_start;
       }
+
+      [segment] = candidates;
     }
   }
 
-  return [segment, at];
+  const t = at != null ? getRelTime(at, segment) : undefined;
+
+  return [segment, at, t];
 };
 
-export { getStreamTime, getBaseSegment, resolveSegment };
+export {
+  getOffset,
+  getRelTime,
+  getAbsTime,
+  getBaseSegment,
+  resolveSegment,
+};
