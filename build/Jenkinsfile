@@ -30,6 +30,8 @@ podTemplate(cloud: 'k3s', inheritFrom: 'blackufa') {
                     sh './bsu generate --download-chats'
                 }, 'Frontend': {
                     sh './bsu webpack'
+                }, 'Test': {
+                    sh './bsu npm test'
                 }
             }
 
