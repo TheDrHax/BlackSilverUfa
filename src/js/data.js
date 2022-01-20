@@ -1,4 +1,4 @@
-import * as Loki from 'lokijs';
+import Loki from 'lokijs';
 import { uniq } from 'lodash';
 import loadData from './data.prod';
 

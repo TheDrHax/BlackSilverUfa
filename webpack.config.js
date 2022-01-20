@@ -81,7 +81,6 @@ module.exports = [
                   HMR && 'react-refresh/babel',
                   '@babel/plugin-proposal-class-properties',
                 ].filter(Boolean),
-                presets: ['@babel/preset-env', '@babel/preset-react'],
               },
             },
           ],
