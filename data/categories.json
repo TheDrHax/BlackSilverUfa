@@ -4,16 +4,16 @@
     "level": 2,
     "search": false,
     "games": [
-      {"id": "hhbf", "segment": "1254688558,1254720798", "name": "Happy's Humble Burger Farm #4 / Metro 2033 Redux #1 (заново) / Шорох (Scratches: Director's Cut) #2", "start": 0},
       {"id": "tarkov", "segment": "1255768824", "name": "Escape From Tarkov #9", "start": 0},
       {"id": "single", "segment": "1256959016", "name": "Shrek 2 / Шорох (Scratches: Director's Cut) #3", "start": 0},
       {"id": "fears-to-fathom", "segment": "1258121391", "name": "Fears to Fathom - Episode 2 - Norwood Hitchhike / Doghouse 1/2 / Blood Field (демо) / Insomnis / Broken Veil (демо) / Blink: The Last Night / I'm on Observation Duty - Часть 4 #1", "start": 0},
       {"id": "liber", "segment": "1261173013", "name": "LiBER - Релиз / Monster Hunter Rise", "start": 0},
       {"id": "metro-2033", "segment": "1262176650", "name": "Metro 2033 Redux #2 / I'm on Observation Duty - Часть 4 #2 / Dying 2 Know #5", "start": 0},
       {"id": "metro-2033", "segment": "1263236800", "name": "Metro 2033 Redux #3 / God of War #1 (заново, PC)", "start": 0},
-      {"id": "first-2022", "segment": "1264372459", "name": "Metro: Last Light Redux", "start": 0},
+      {"id": "metro-ll", "segment": "1264372459", "name": "Metro: Last Light Redux #1", "start": 0},
       {"id": "single", "segment": "1265545024", "name": "How Fish Is Made / Witching Hour (демо) / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles: Dead of Winter", "start": 0},
-      {"id": "first-2022", "segment": "1268793469", "name": "Star Citizen", "start": 0}
+      {"id": "first-2022", "segment": "1268793469", "name": "Star Citizen", "start": 0},
+      {"id": "metro-ll", "segment": "1269805961", "name": "Metro: Last Light Redux #2 / Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "start": 0}
     ]
   },
   "finished": {
@@ -700,7 +700,6 @@
       {"id": "first-2022", "segment": "1258121391", "name": "Blood Field (демо)", "start": 7730},
       {"id": "first-2022", "segment": "1258121391", "name": "Broken Veil (демо)", "start": 14283},
       {"id": "first-2022", "segment": "1258121391", "name": "Blink: The Last Night", "start": 15997},
-      {"id": "first-2022", "segment": "1264372459", "name": "Metro: Last Light Redux", "start": 0},
       {"id": "first-2022", "segment": "1265545024", "name": "Witching Hour (демо)", "start": 5124},
       {"id": "first-2022", "segment": "1268793469", "name": "Star Citizen", "start": 0}
     ]
@@ -713,7 +712,8 @@
       {"name": "Hardspace: Shipbreaker", "id": "hardspace-shipbreaker", "segment": "653411860"},
       {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"},
       {"name": "LiBER", "id": "liber", "segment": "1108872519"},
-      {"name": "Five Nights At Freddy's: Security Breach", "id": "fnaf-sb", "segment": "1238591362"}
+      {"name": "Five Nights At Freddy's: Security Breach", "id": "fnaf-sb", "segment": "1238591362"},
+      {"name": "Metro: Last Light Redux", "id": "metro-ll", "segment": "1264372459"}
     ]
   },
   "infinite": {
@@ -1063,7 +1063,8 @@
       {"id": "co-op", "segment": "1230440174", "name": "Heavenly Bodies", "start": 14774},
       {"name": "Hellcoming", "id": "hellcoming", "segment": "1238591362"},
       {"id": "co-op", "segment": "1244748634", "name": "Project Zomboid", "start": 6968},
-      {"id": "co-op", "segment": "1261173013", "name": "Monster Hunter Rise", "start": 10627}
+      {"id": "co-op", "segment": "1261173013", "name": "Monster Hunter Rise", "start": 10627},
+      {"id": "co-op", "segment": "1269805961", "name": "Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "start": 17827}
     ]
   },
   "other": {

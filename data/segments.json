@@ -9955,7 +9955,6 @@
     "name": "Dying Light #3 / Dying 2 Know #4",
     "date": "2021-12-02",
     "offsets": [0, 17733],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1221836695,1222013740.torrent",
     "games": ["dying-light", "dying-2-know"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1221836695,1222013740+0.ass"
   },
@@ -10240,11 +10239,11 @@
   },
   "1264372459": {
     "youtube": "he7XPFQudf4", "abs_start": 0, "abs_end": 22064, "duration": 22059,
-    "name": "Metro: Last Light Redux",
+    "name": "Metro: Last Light Redux #1",
     "date": "2022-01-15",
     "cuts": [[4169, 4174]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1264372459.torrent",
-    "games": ["first-2022"],
+    "games": ["metro-ll"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1264372459+0.ass"
   },
   "1265545024": {
@@ -10262,5 +10261,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1268793469.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1268793469.ass"
+  },
+  "1269805961": {
+    "abs_start": 0, "abs_end": 26589, "duration": 0,
+    "name": "Metro: Last Light Redux #2 / Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)",
+    "date": "2022-01-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1269805961.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1269805961.torrent",
+    "games": ["metro-ll", "co-op"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1269805961.ass"
   }
 }
