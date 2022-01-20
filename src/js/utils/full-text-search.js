@@ -1,8 +1,8 @@
-export function tokenize(text = '') {
-  return text.trim().split(' ').map((word) => {
+export function tokenize(text) {
+  return (text || '').trim().split(' ').map((word) => {
     const match = word.toLowerCase().match(/[a-zа-я0-9]+/g);
     return match ? match.join('') : '';
-  });
+  }).filter((w) => w);
 }
 
 export default function fts(query, items, lambda = (x) => x) {
@@ -16,7 +16,7 @@ export default function fts(query, items, lambda = (x) => x) {
 
       const rank = query.map((queryWord) => (
         words.filter((word) => word.startsWith(queryWord)).length > 0
-      )).reduce((a, b) => a + b);
+      )).reduce((a, b) => a + b, 0);
 
       if (rank > maxRank) {
         maxRank = rank;
