@@ -35,6 +35,11 @@ const Header = () => {
             <Navbar.Collapse id="navbar-collapse">
               <Nav.Link as={Link} to={PATHS.DONATE} className="text-white mr-auto">
                 Поддержать проект
+                <img
+                  src="/static/images/BSULoot.gif"
+                  alt=""
+                  style={{ margin: '-6px 0 -3px 0.25rem' }}
+                />
               </Nav.Link>
               <Nav className="mr-auto" />
               {isReady && <HeaderQuickSearch indexStore={index} segmentsStore={segments} />}
