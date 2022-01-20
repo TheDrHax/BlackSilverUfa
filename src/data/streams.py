@@ -286,7 +286,7 @@ class Segment:
             keys = ['youtube', 'official',
                     'abs_start', 'abs_end', 'duration']
             multiline_keys = ['name', 'date', 'direct', 'offsets', 'cuts',
-                              'torrent', 'games', 'subtitles']
+                              'torrent', 'games', 'subtitles', 'note']
 
         def get_attr(key):
             if key in self.fallbacks and not compiled:

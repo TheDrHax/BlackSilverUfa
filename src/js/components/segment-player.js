@@ -672,6 +672,12 @@ export default class SegmentPlayer extends React.Component {
               {' '}
               ({Sugar.Date.relative(segment.date)})
             </ListGroup.Item>
+
+            {(segment.note && (
+              <ListGroup.Item
+                dangerouslySetInnerHTML={{ __html: segment.note }}
+              />
+            ))}
           </ListGroup>
         </Col>
       </Row>
