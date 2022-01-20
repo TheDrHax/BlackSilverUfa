@@ -28,8 +28,14 @@
     ]
   },
   "jest": {
-    "moduleFileExtensions": ["js", "jsx"],
-    "moduleDirectories": ["node_modules", "src/js"],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src/js"
+    ],
     "setupFilesAfterEnv": [
       "core-js/stable",
       "regenerator-runtime/runtime"
