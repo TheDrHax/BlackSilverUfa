@@ -17,7 +17,7 @@ STEP = 10
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
-    r = SubtitlesReader(streams[args['<stream>']].subtitles_path)
+    r = SubtitlesReader(streams[args['<stream>']][0].subtitles_path)
     matcher = re.compile(f'({"|".join(args["<keyword>"])})')
     data = []
 
