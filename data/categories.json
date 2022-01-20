@@ -1,6 +1,7 @@
 {
   "recent": {
     "name": "Недавние стримы",
+    "level": 2,
     "search": false,
     "games": [
       {"id": "hhbf", "segment": "1254688558,1254720798", "name": "Happy's Humble Burger Farm #4 / Metro 2033 Redux #1 (заново) / Шорох (Scratches: Director's Cut) #2", "start": 0},
@@ -17,6 +18,7 @@
   },
   "finished": {
     "name": "Завершённые прохождения",
+    "level": 2,
     "games": [
       {"name": "Metro 2033 Redux", "id": "metro-2033", "segment": "001508100"},
       {"name": "Zombi", "id": "zombi", "segment": "001508180"},
@@ -324,6 +326,7 @@
   },
   "first": {
     "name": "Первый взгляд",
+    "level": 3,
     "games": [
       {"id": "first", "segment": "001508100", "name": "Bloodborne", "start": 3737},
       {"id": "first", "segment": "001508120", "name": "Nightmare House 2", "start": 0},
@@ -704,6 +707,7 @@
   },
   "ongoing": {
     "name": "Активные",
+    "level": 2,
     "games": [
       {"name": "Dark Souls: Remastered", "id": "ds-remastered", "segment": "260173384"},
       {"name": "Hardspace: Shipbreaker", "id": "hardspace-shipbreaker", "segment": "653411860"},
@@ -714,6 +718,7 @@
   },
   "infinite": {
     "name": "Сессионные / Несюжетные",
+    "level": 3,
     "games": [
       {"name": "Steep", "id": "steep", "segment": "001611190"},
       {"name": "MONSTRUM", "id": "monstrum", "segment": "001701280"},
@@ -760,6 +765,7 @@
   },
   "abandoned": {
     "name": "Заброшенные",
+    "level": 3,
     "games": [
       {"name": "Dead Space 2 (с Дашей)", "id": "dead-space-2-dw", "segment": "001603260"},
       {"name": "Nioh", "id": "nioh", "segment": "001605050"},
@@ -861,6 +867,7 @@
   },
   "co-op": {
     "name": "Несюжетные коопы",
+    "level": 2,
     "games": [
       {"name": "The Hunter: Call of the Wild", "id": "the-hunter", "segment": "001707060"},
       {"id": "co-op", "segment": "180663832", "name": "Ben and Ed: Blood Party", "start": 5744},
@@ -1061,6 +1068,7 @@
   },
   "other": {
     "name": "Особые стримы",
+    "level": 2,
     "games": [
       {"name": "Первые стримы", "id": "testing", "segment": "001508100"},
       {"name": "Хэллоуин", "id": "halloween", "segment": "001610310"},
@@ -1101,6 +1109,7 @@
   },
   "expos": {
     "name": "Конференции",
+    "level": 3,
     "games": [
       {"name": "неПрофессиональный E3 2017", "id": "e3_2017", "segment": "150938572"},
       {"name": "неПрофессиональный E3 2018", "id": "e3_2018", "segment": "271255246.1"},
@@ -1127,6 +1136,7 @@
   },
   "unboxing": {
     "name": "Анбоксинги",
+    "level": 3,
     "games": [
       {"id": "unboxing", "segment": "001612290", "name": "Посылки (29.12.16)", "start": 0},
       {"id": "unboxing", "segment": "219463387", "name": "Сборка кресла", "start": 0},
