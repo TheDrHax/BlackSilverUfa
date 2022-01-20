@@ -149,6 +149,10 @@ def get_worktrees() -> List[Worktree]:
     return worktrees
 
 
+def compare_paths(path1: str, path2: str) -> bool:
+    return os.path.normpath(path1) == os.path.normpath(path2)
+
+
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
@@ -163,7 +167,7 @@ def main(argv=None):
         worktrees = filter(lambda wt: wt.path == 'data', worktrees)
 
     if args['<path>']:
-        worktrees = filter(lambda wt: wt.path.startswith(args['<path>']), worktrees)
+        worktrees = filter(lambda wt: compare_paths(wt.path, args['<path>']), worktrees)
     elif args['pull'] or args['checkout']:
         worktrees = filter(lambda wt: wt.is_mounted or not wt.optional, worktrees)
     elif args['commit'] or args['push']:

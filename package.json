@@ -4,7 +4,9 @@
   "description": "Архив стримов BlackUFA",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --host 0.0.0.0 --config src/js/webpack.config.js",
+    "test": "jest",
+    "postinstall": "patch-package --patch-dir src/js/patches"
   },
   "repository": {
     "type": "git",
@@ -15,46 +17,86 @@
   "bugs": {
     "url": "https://github.com/TheDrHax/BlackSilverUfa/issues"
   },
-  "homepage": "https://blackufa.thedrhax.pw",
+  "homepage": "https://bsu.drhx.ru",
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "jest": {
+    "moduleFileExtensions": ["js", "jsx"],
+    "moduleDirectories": ["node_modules", "src/js"],
+    "setupFilesAfterEnv": [
+      "core-js/stable",
+      "regenerator-runtime/runtime"
+    ],
+    "moduleNameMapper": {
+      "data\\.\\prod$": "<rootDir>/src/js/data.dev.js"
+    }
+  },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/polyfill": "^7.8.3",
-    "@babel/preset-env": "^7.9.6",
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
+    "autoprefixer": "^10.2.5",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.4.6",
     "babel-loader": "^8.1.0",
-    "cache-loader": "^4.1.0",
-    "copy-webpack-plugin": "^5.1.1",
-    "css-loader": "^3.5.3",
-    "mini-css-extract-plugin": "^0.9.0",
+    "core-js": "^3.9.1",
+    "css-loader": "^5.1.3",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^27.4.7",
+    "mini-css-extract-plugin": "^1.6.2",
     "node-sass": "^5.0.0",
+    "patch-package": "^6.4.7",
+    "postcss": "^8.2.8",
+    "postcss-loader": "^5.2.0",
     "react-refresh": "^0.9.0",
-    "sass-loader": "^10.1.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.2"
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.43.5",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
-    "@datapunt/matomo-tracker-js": "^0.1.4",
+    "@datapunt/matomo-tracker-js": "^0.4.0",
     "@vlsergey/react-bootstrap-pagination": "^1.0.1",
-    "animated-scroll-to": "^2.0.10",
-    "autocompleter": "^6.0.3",
-    "bootstrap": "^4.5.0",
-    "bootstrap.native": "^2.0.27",
-    "darkmode-js": "^1.5.6",
-    "debounce": "^1.2.0",
-    "headroom.js": "^0.11.0",
+    "animated-scroll-to": "^2.2.0",
+    "bootstrap": "^4.6.1",
+    "fetchline": "^1.0.1",
     "immutability-helper": "^3.1.1",
-    "libass-wasm": "^2.0.2",
     "lodash": "^4.17.21",
     "lokijs": "^1.5.11",
-    "plyr": "^3.6.3",
+    "plyr": "^3.6.9",
+    "prop-types": "^15.7.2",
+    "query-string": "^7.0.1",
     "react": "^17.0.1",
-    "react-bootstrap": "^1.5.0",
+    "react-bootstrap": "^1.6.4",
+    "react-bootstrap-typeahead": "^5.1.4",
+    "react-click-away-listener": "^2.0.5",
+    "react-custom-scroll": "^4.3.0",
     "react-date-picker": "^8.0.7",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-measure": "^2.5.2",
+    "react-responsive": "^8.2.0",
+    "react-rnd": "^10.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-router-global-history": "^1.1.0",
+    "shallowequal": "^1.1.0",
     "sugar": "^2.0.6",
-    "vanilla-lazyload": "^13.0.1"
+    "use-query-params": "^1.2.3"
   }
 }

@@ -1,22 +1,18 @@
-"""Usage: build [--no-webpack]"""
-
+"""Usage: build [--download-chats]"""
 
 import os
-import sys
 import json
 import shutil
 from time import time
-from subprocess import call
-
 from docopt import docopt
+
 from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
 
 from . import _
-
-
-DEBUG = False
-config = streams = games = categories = None
+from ..utils.chats import download_missing as download_chats
+from ..data import config, streams, games, categories
+from ..config import DEBUG
 
 
 def timed(label):
@@ -25,17 +21,10 @@ def timed(label):
             t = time()
             res = func(*args, **kwargs)
             t = time() - t
-            print(label.format(int(t * 1000)), file=sys.stderr)
+            print(label.format(int(t * 1000)))
             return res
         return wrapper
     return decorator
-
-
-@timed('Database loaded in {}ms')
-def load_database():
-    global config, streams, games, categories, DEBUG
-    from ..data import config, streams, games, categories
-    from ..config import DEBUG
 
 
 @timed('Fallbacks activated in {}ms')
@@ -70,6 +59,9 @@ def build_data():
     # Generate preprocessed categories.json
     categories.save(_('data/categories.json'), compiled=True)
 
+    # Generate preprocessed games.json
+    games.save(_('data/games.json'), compiled=True)
+
 
 @timed('Mako templates built in {}ms')
 def build_mako():
@@ -87,49 +79,30 @@ def build_mako():
     # Recreate required directories
     if not os.path.isdir(_('')):
         os.mkdir(_(''))
+
+    # Legacy cleanup
     for dp in ['links', 'r']:
         if os.path.isdir(_(dp)):
             shutil.rmtree(_(dp))
-        os.mkdir(_(dp))
 
-    # Generate index.html, all.html, missing.html
-    for i in ['index', 'search', 'missing']:
-        with open(_(i + '.html'), 'w') as out:
-            t = lookup.get_template(f'/{i}.mako')
-            out.write(t.render(**env))
+    for fp in ['search.html', 'missing.html']:
+        if os.path.exists(_(fp)):
+            os.unlink(_(fp))
 
-    # Generate redirects
-    with open(_('r/index.html'), 'w') as out:
-        t = lookup.get_template(f'/redirect.mako')
+    # Generate index.html
+    with open(_('index.html'), 'w') as out:
+        t = lookup.get_template(f'/index.mako')
         out.write(t.render(**env))
-
-    # Generate links/*.html
-    t = lookup.get_template('/links.mako')
-    for game in games:
-        with open(_(game.filename), 'w') as out:
-            out.write(t.render(game=game, **env).strip())
-
-
-@timed('Webpack completed in {}ms')
-def build_webpack():
-    # Recreate required directories
-    if os.path.isdir(_('dist')):
-        shutil.rmtree(_('dist'))
-    os.mkdir(_('dist'))
-
-    # Webpack
-    r_code = call(['npx', 'webpack', '--config', 'src/js/webpack.config.js'])
-
-    if r_code != 0:
-        raise Exception(f'Webpack exited with non-zero code: {r_code}')
 
 
 @timed('Build completed in {}ms')
 def generate(argv=None):
     args = docopt(__doc__, argv=argv)
 
-    load_database()
     enable_fallbacks()
+
+    if args['--download-chats']:
+        timed('Downloaded missing chats in {}ms')(download_chats)()
 
     # Create debug marker
     if DEBUG:
@@ -142,9 +115,14 @@ def generate(argv=None):
         shutil.rmtree(_('static'))
     shutil.copytree('static', _('static'))
 
+    # Create CNAME
+    if config['domain']:
+        with open(_('CNAME'), 'w') as fo:
+            fo.write(config['domain'])
+    elif os.path.exists(_('CNAME')):
+        os.unlink(_('CNAME'))
+
     build_data()
-    if not args['--no-webpack']:
-        build_webpack()
     build_mako()
 
 

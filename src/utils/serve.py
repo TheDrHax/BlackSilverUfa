@@ -1,31 +1,47 @@
 import os
 import sys
-from subprocess import call
-from livereload import Server
+import asyncio
+from subprocess import call, Popen
+from watchgod import awatch
 
-from . import _
 
-
-python = os.environ.get('PYTHON') or 'python3'
+PYTHON = os.environ.get('PYTHON') or 'python3'
+WATCH_LIST = [
+    'data',
+    'config',
+    'src/data',
+    'src/mako',
+    'src/scripts',
+    'src/utils',
+    'src/config.py'
+]
 
 
 def generate():
-    return call([python, '-m', 'src.utils.generate', *sys.argv[1:]])
+    call([PYTHON, '-m', 'src.utils.generate'])
 
 
-def serve(host='0.0.0.0', port=8000, root=_('')):
-    server = Server()
+async def watch(path: str):
+    async for changes in awatch(path):
+        generate()
 
-    server.setHeader('Access-Control-Allow-Origin', '*')
-    server.setHeader('Access-Control-Allow-Methods', '*')
 
-    server.watch('data', generate)
-    server.watch('static', generate)
-    server.watch('src', generate)
+async def livereload():
+    await asyncio.gather(*[watch(path) for path in WATCH_LIST])
 
+
+def main():
     generate()
-    server.serve(host=host, port=port, root=root)
+
+    webpack = Popen(['webpack', 'serve', '--host', '0.0.0.0'])
+
+    try:
+        asyncio.get_event_loop().run_until_complete(livereload())
+    except KeyboardInterrupt or SystemExit:
+        webpack.terminate()
+        webpack.wait()
+        sys.exit(0)
 
 
 if __name__ == '__main__':
-    serve()
+    main()

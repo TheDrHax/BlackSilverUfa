@@ -1,70 +1,102 @@
-import * as loki from 'lokijs';
+import Loki from 'lokijs';
+import { uniq } from 'lodash';
+import loadData from './data.prod';
 
-function reload() {
-  return Promise.all([
-    fetch('/data/segments.json').then((res) => res.json()),
-    fetch('/data/categories.json').then((res) => res.json())
-  ]).then(([segments_raw, categories_raw]) => {
-    const db = new loki('BSU');
-    const segments = db.addCollection('segments');
-    const categories = db.addCollection('categories');
-    const games = db.addCollection('games');
+function build([rawSegments, rawCategories, rawGames, timecodes]) {
+  const db = new Loki('BSU');
 
-    Object.keys(segments_raw)
-      .sort((a, b) => String(a).localeCompare(b))
-      .map((k) => [k, segments_raw[k]])
-      .map(([key, segment]) => {
-        segment.date = new Date(segment.date + 'T00:00:00');
-        segment.segment = key;
-        segments.insert(segment);
-      });
-    
-    Object.entries(categories_raw).map(([cat_key, category]) => {
-      let games_raw = category.games;
-      delete category['games'];
+  const segments = db.addCollection('segments');
+  const categories = db.addCollection('categories');
+  const index = db.addCollection('index');
+  const games = db.addCollection('games');
 
-      category.id = cat_key;
-      categories.insert(category);
+  Object.keys(rawSegments)
+    .sort((a, b) => String(a).localeCompare(b))
+    .map((k) => [k, rawSegments[k]])
+    .forEach(([key, segment]) => {
+      segment.date = new Date(`${segment.date}T00:00:00`);
+      segment.segment = key;
 
-      games_raw.map((game) => {
-        game.category = category;
+      if (segment.youtube) {
+        segment.thumbnail = `https://img.youtube.com/vi/${segment.youtube}/mqdefault.jpg`;
+      } else {
+        segment.thumbnail = '/static/images/no-preview.png';
+      }
 
-        if (game.start === undefined) { // game
-          game.segments = segments
-            .chain()
-            .find({ games: { $contains: game.id } })
-            .simplesort('date')
-            .data();
+      if (key.indexOf('.') !== -1) {
+        segment.streams = [key.split('.')[0]];
+      } else if (key.indexOf(',') !== -1) {
+        segment.streams = key.split(',');
+      } else {
+        segment.streams = [key];
+      }
 
-          game.url = `/links/${game.id}.html`;
-        } else { // segment
-          game.segments = [segments.by('segment', game.segment)];
-          game.url = `/links/${game.id}.html#${game.segment}`;
+      segment.url = `/play/${segment.games[0]}/${key}`;
 
-          if (game.start > 0) {
-            game.url += `?at=${game.start}`;
-          }
-        }
-
-        game.streams = game.segments.map((segment) => {
-          let dot = segment.segment.indexOf('.');
-          if (dot !== -1) {
-            return segment.segment.substring(0, dot);
-          } else {
-            return segment.segment;
-          }
-        }).filter((v, i, s) => i == s.indexOf(v)).length;
-
-        game.date = game.segments[0].date;
-
-        games.insert(game);
-      });
+      segments.insert(segment);
     });
 
-    return { segments, categories, games };
+  rawGames.forEach((game) => {
+    game.streams.forEach((ref) => {
+      ref.url = `/play/${game.id}/${ref.segment}`;
+      ref.game = game;
+
+      if (ref.start) {
+        ref.url += `?at=${ref.start}`;
+      }
+    });
+
+    games.insert(game);
   });
+
+  Object.entries(rawCategories).forEach(([key, category]) => {
+    const catGames = category.games;
+    delete category.games;
+
+    category.id = key;
+    categories.insert(category);
+
+    catGames.forEach((game) => {
+      game.category = category;
+
+      if (game.start === undefined) { // game
+        game.segments = segments
+          .chain()
+          .find({ games: { $contains: game.id } })
+          .simplesort('date')
+          .data();
+
+        game.url = `/play/${game.id}`;
+      } else { // segment
+        game.segments = [segments.by('segment', game.segment)];
+        game.url = `/play/${game.id}/${game.segment}`;
+
+        if (game.start > 0) {
+          game.url += `?at=${game.start}`;
+        }
+      }
+
+      game.streams = uniq(game.segments.map((segment) => {
+        const dot = segment.segment.indexOf('.');
+        if (dot !== -1) {
+          return segment.segment.substring(0, dot);
+        }
+        return segment.segment;
+      })).length;
+
+      game.date = game.segments[0].date;
+
+      index.insert(game);
+    });
+  });
+
+  return { segments, categories, index, games, timecodes };
 }
 
-var Data = reload();
+async function reload() {
+  return loadData().then(build);
+}
+
+const Data = reload();
 
 export { Data, reload };

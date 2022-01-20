@@ -45,7 +45,7 @@ def download(stream):
     convert_file(dest, stream.blacklist, stream.subtitles_style)
 
 
-if __name__ == '__main__':
+def download_missing():
     # Create destination directory
     for dp in [_(''), _('chats')]:
         if not os.path.isdir(dp):
@@ -60,3 +60,7 @@ if __name__ == '__main__':
             continue
 
         download(stream)
+
+
+if __name__ == '__main__':
+    download_missing()

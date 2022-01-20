@@ -1,14 +1,13 @@
 # Архив стримов BlackUFA [![Build Status](https://jenkins.thedrhax.pw/job/BlackSilverUfa/badge/icon)](https://jenkins.thedrhax.pw/job/BlackSilverUfa/)
 
-Перейдите на [GitHub Pages](https://blackufa.thedrhax.pw) для доступа ко всем функциям ![](https://static-cdn.jtvnw.net/emoticons/v1/81274/1.0)
+Перейдите на [GitHub Pages](https://bsu.drhx.ru) для доступа ко всем функциям ![](https://static-cdn.jtvnw.net/emoticons/v1/81274/1.0)
 
 ### Зависимости
 
 * `python3-venv` (Ubuntu) или `python3` (Alpine)
 * `git` (для работы с gh-pages и получения даты добавления стрима)
-* `gettext` — для парсинга `config.json` в скрипте `bsu`
 * `tzdata` — для установки правильного часового пояса
-* `libc6` (Ubuntu) или `libstdc++` (Alpine) — для Node.js
+* `libc6` (Ubuntu) или `build-base` (Alpine) — для Node.js
 
 ### Сборка и тестирование
 
@@ -40,8 +39,6 @@
 # или поднять сервер и собрать сайт в режиме отладки
 # (заменяет абсолютные ссылки на относительные, меняет режим webpack)
 ./bsu debug
-# или поднять сервер и быстро показывать изменения компонентов React
-./bsu react
 
 # Закоммитить новую версию статики в локальную ветку gh-pages
 ./bsu pages commit "<msg>"

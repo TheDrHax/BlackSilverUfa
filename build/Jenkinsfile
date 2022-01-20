@@ -26,8 +26,13 @@ podTemplate(cloud: 'k3s', inheritFrom: 'blackufa') {
             }
 
             stage('Build') {
-                sh './bsu download-chats'
-                sh './bsu build'
+                parallel 'Data': {
+                    sh './bsu generate --download-chats'
+                }, 'Frontend': {
+                    sh './bsu webpack'
+                }, 'Test': {
+                    sh './bsu npm test'
+                }
             }
 
             stage('Deploy') {
