@@ -3,8 +3,12 @@ export const pluralize = (num, words = ['', '', '']) => {
     num = Math.abs(num);
   }
 
+  if (num >= 100) {
+    num %= 100;
+  }
+
   if (num >= 20) {
-    num %= 20;
+    num %= 10;
   }
 
   if (num === 1) {
