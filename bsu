@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 export PYTHON="${PYTHON:-python3}"
 export VENV="_python"
@@ -66,10 +66,12 @@ if [ ! -d "$VENV" ] && [ "_$1" != "_venv" ]; then
     venv_setup requirements.txt
 fi
 
-if [ ! -d "$NODEENV" ] && [ "_$1" != "_venv" ]; then
-    echo "Setting up Node.js virtual environment: $VENV"
-    node_setup
-fi
+require_node() {
+    if [ ! -d "$NODEENV" ]; then
+        echo "Setting up Node.js virtual environment: $VENV"
+        node_setup
+    fi
+}
 
 repo() {
     $PYTHON -m src.utils.repo "$@"
@@ -80,17 +82,22 @@ case $1 in
         case $2 in
             update)
                 venv_setup requirements.txt $3
+
                 if [ -e "$VENV/cli-requirements.txt.md5" ]; then
                     venv_setup cli-requirements.txt $3
                 fi
-                node_setup
-                browserslist --update-db ;;
+
+                if [ -d "$NODEENV" ] || [ "_$3" = "_full" ]; then
+                    node_setup
+                    browserslist --update-db
+                fi ;;
             remove) rm -rf "$VENV" "$NODEENV" "node_modules" ;;
             *) echo "Usage: $0 $1 update|remove" ;;
         esac ;;
-    repo) shift; repo "$@" ;;
-    pages) repo "$@" ;;
-    data) repo "$@" ;;
+
+    repo) shift ;&
+    pages|data) repo "$@" ;;
+
     pull)
         if [ "$(git status --porcelain=v1 | wc -l)" -eq 0 ]; then
             echo "Updating ./"
@@ -100,12 +107,21 @@ case $1 in
         fi
 
         repo pull ;;
-    generate) shift; $PYTHON -m src.utils.generate "$@" ;;
+
     build)
-        ./bsu generate
-        ./bsu webpack ;;
-    serve) shift; $PYTHON -m src.utils.serve "$@" ;;
-    debug) shift; HMR=1 DEBUG=1 $PYTHON -m src.utils.serve "$@" ;;
+        require_node
+        ./bsu webpack ;&
+    generate)
+        shift
+        $PYTHON -m src.utils.generate "$@" ;;
+
+    debug)
+        export HMR=1 DEBUG=1 ;&
+    serve)
+        require_node
+        shift
+        $PYTHON -m src.utils.serve "$@" ;;
+
     download-chats) $PYTHON -m src.utils.chats ;;
     sh|bash) "$@" ;;
     cli)
