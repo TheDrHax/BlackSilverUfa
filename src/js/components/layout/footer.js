@@ -5,7 +5,7 @@ import FooterLinksGroup from './footer-links-group';
 // Namespace
 import { common as t } from '../../constants/texts';
 // Utils
-import { interpolate } from '../../utils/text';
+import { renderTemplate } from '../../pages/search-page/utils';
 
 export const USEFUL_LINKS = [
   {
@@ -73,7 +73,7 @@ const Footer = () => {
       </Container>
       <div className="footer-copyright py-3 text-center small">
         <i className="far fa-copyright" />
-        {interpolate(t.footer.signature, { now })}
+        {renderTemplate(t.footer.signature, { now })}
         {' '}
         <a href="https://www.youtube.com/watch?v=Bxj09aAOFaI&lc=UgwQmdNhl4TMNn9-Gg94AaABAg.8ZY93MRq32E8ZY9W3KGSJS">
           {t.footer.commentLink}
