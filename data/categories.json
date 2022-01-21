@@ -4,7 +4,6 @@
     "level": 2,
     "search": false,
     "games": [
-      {"id": "tarkov", "segment": "1255768824", "name": "Escape From Tarkov #9", "start": 0},
       {"id": "single", "segment": "1256959016", "name": "Shrek 2 / Шорох (Scratches: Director's Cut) #3", "start": 0},
       {"id": "fears-to-fathom", "segment": "1258121391", "name": "Fears to Fathom - Episode 2 - Norwood Hitchhike / Doghouse 1/2 / Blood Field (демо) / Insomnis / Broken Veil (демо) / Blink: The Last Night / I'm on Observation Duty - Часть 4 #1", "start": 0},
       {"id": "liber", "segment": "1261173013", "name": "LiBER - Релиз / Monster Hunter Rise", "start": 0},
@@ -13,7 +12,8 @@
       {"id": "metro-ll", "segment": "1264372459", "name": "Metro: Last Light Redux #1", "start": 0},
       {"id": "single", "segment": "1265545024", "name": "How Fish Is Made / Witching Hour (демо) / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles: Dead of Winter", "start": 0},
       {"id": "first-2022", "segment": "1268793469", "name": "Star Citizen", "start": 0},
-      {"id": "metro-ll", "segment": "1269805961", "name": "Metro: Last Light Redux #2 / Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "start": 0}
+      {"id": "metro-ll", "segment": "1269805961", "name": "Metro: Last Light Redux #2 / Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "start": 0},
+      {"id": "zomboid", "segment": "1270926177", "name": "Project Zomboid #2 (16 стримеров)", "start": 0}
     ]
   },
   "finished": {
@@ -1062,7 +1062,7 @@
       {"id": "co-op", "segment": "1223700316", "name": "Forewarned (с Куплиновым и Дангаром)", "start": 11850},
       {"id": "co-op", "segment": "1230440174", "name": "Heavenly Bodies", "start": 14774},
       {"name": "Hellcoming", "id": "hellcoming", "segment": "1238591362"},
-      {"id": "co-op", "segment": "1244748634", "name": "Project Zomboid", "start": 6968},
+      {"name": "Project Zomboid", "id": "zomboid", "segment": "1244748634"},
       {"id": "co-op", "segment": "1261173013", "name": "Monster Hunter Rise", "start": 10627},
       {"id": "co-op", "segment": "1269805961", "name": "Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "start": 17827}
     ]

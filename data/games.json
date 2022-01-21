@@ -394,9 +394,17 @@
       { "name": "Farming Simulator 22", "segment": "1212756532", "start": 14277 },
       { "name": "Forewarned (с Куплиновым и Дангаром)", "segment": "1223700316", "start": 11850 },
       { "name": "Heavenly Bodies", "segment": "1230440174", "start": 14769 },
-      { "name": "Project Zomboid", "segment": "1244748634", "start": 6968 },
       { "name": "Monster Hunter Rise", "segment": "1261173013", "start": 10627 },
       { "name": "Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "segment": "1269805961", "start": 17827 }
+    ]
+  },
+  {
+    "name": "Project Zomboid",
+    "category": "co-op",
+    "id": "zomboid",
+    "streams": [
+      { "name": "1 (с Артёмом)", "segment": "1244748634", "start": 6968 },
+      { "name": "2 (16 стримеров)", "segment": "1270926177" }
     ]
   },
   {

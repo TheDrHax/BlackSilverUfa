@@ -9936,8 +9936,6 @@
     "abs_start": 0, "abs_end": 17825, "duration": 0,
     "name": "",
     "date": "2021-12-02",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1221836695.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1221836695.torrent",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1221836695.ass"
   },
@@ -9945,8 +9943,6 @@
     "abs_start": 0, "abs_end": 12587, "duration": 0,
     "name": "",
     "date": "2021-12-02",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1222013740.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1222013740.torrent",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1222013740.ass"
   },
@@ -10113,10 +10109,10 @@
   },
   "1244748634": {
     "youtube": "R8Hv2HFmML4", "abs_start": 0, "abs_end": 21851, "duration": 21851,
-    "name": "Five Nights At Freddy's: Security Breach #4 / Project Zomboid",
+    "name": "Five Nights At Freddy's: Security Breach #4 / Project Zomboid #1 (с Артёмом)",
     "date": "2021-12-27",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1244748634.torrent",
-    "games": ["fnaf-sb", "co-op"],
+    "games": ["fnaf-sb", "zomboid"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1244748634.ass"
   },
   "1245734451": {
@@ -10269,5 +10265,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1269805961.torrent",
     "games": ["metro-ll", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1269805961.ass"
+  },
+  "1270926177": {
+    "abs_start": 0, "abs_end": 21615, "duration": 0,
+    "name": "Project Zomboid #2 (16 стримеров)",
+    "date": "2022-01-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1270926177.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1270926177.torrent",
+    "games": ["zomboid"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1270926177.ass"
   }
 }
