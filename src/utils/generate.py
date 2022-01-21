@@ -91,7 +91,17 @@ def build_mako():
 
     # Generate index.html
     with open(_('index.html'), 'w') as out:
-        t = lookup.get_template(f'/index.mako')
+        t = lookup.get_template('/index.mako')
+        out.write(t.render(**env))
+
+    # Generate robots.txt
+    with open(_('robots.txt'), 'w') as out:
+        t = lookup.get_template('/robots.mako')
+        out.write(t.render(**env))
+
+    # Generate sitemap.xml
+    with open(_('sitemap.xml'), 'w') as out:
+        t = lookup.get_template('/sitemap.mako')
         out.write(t.render(**env))
 
 

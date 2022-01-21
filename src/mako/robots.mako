@@ -1,0 +1,1 @@
+Sitemap: ${config['prefix']}/sitemap.xml
