@@ -11,7 +11,7 @@ import config from '../../../../config/config.json';
 import { useDataStore } from '../../hooks/use-data-store';
 
 const Header = () => {
-  const { isReady, data: { index, segments } } = useDataStore();
+  const [{ index, segments }, isReady] = useDataStore();
   const [expanded, setExpanded] = useState(false);
 
   return (

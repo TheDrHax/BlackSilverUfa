@@ -4,36 +4,26 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Col, ListGroup, Media, Row } from 'react-bootstrap';
 import Pagination from '@vlsergey/react-bootstrap-pagination';
-// Utils
-import Sugar from '../../utils/sugar';
-import { getStreamsLabel } from './utils';
 // Namespace
 import { MODES } from './constants';
-import { searchPage as t } from '../../constants/texts';
-
-const getLastDate = (segments) => Sugar.Date.short(segments[segments.length - 1].date);
-const getGameDescription = ({ segments, streams }) => {
-  const totalCount = getStreamsLabel(streams);
-  const startDate = Sugar.Date.short(segments[0].date);
-
-  return streams > 1
-    ? `${totalCount} ${t.from} ${startDate} ${t.to} ${getLastDate(segments)}`
-    : `${totalCount} ${startDate}`;
-};
+import { getSegmentDescription, getGameDescription } from '../../utils/data-utils';
 
 const PAGE_LIMIT = 10;
 
 const THUMBNAIL_GENERATORS = {
   segments: (item) => item.thumbnail,
-  games: (item, segments) => segments.by('segment', item.segment)?.thumbnail,
+  games: (item) => item.segments[0].thumbnail,
 };
 
 const DESCRIPTION_GENERATORS = {
-  segments: ({ date }) => Sugar.Date.short(date),
-  games: getGameDescription,
+  segments: getSegmentDescription,
+  games: (game) => (game.original.type !== 'list'
+    ? getGameDescription(game.original)
+    : getSegmentDescription(game.segments[0])
+  ),
 };
 
-const SearchResults = ({ mode, items, page, segments, onPageChange }) => {
+const SearchResults = ({ mode, items, page, onPageChange }) => {
   const getThumbnail = THUMBNAIL_GENERATORS[mode];
   const getDescription = DESCRIPTION_GENERATORS[mode];
 
@@ -47,7 +37,7 @@ const SearchResults = ({ mode, items, page, segments, onPageChange }) => {
         {items.slice(pageStart, pageEnd).map((item) => (
           <ListGroup.Item key={item.name}>
             <Media>
-              <img width={128} className="mr-3" src={getThumbnail(item, segments)} alt="thumbnail" />
+              <img width={128} className="mr-3" src={getThumbnail(item)} alt="thumbnail" />
 
               <Media.Body>
                 <Row>
@@ -86,7 +76,6 @@ const SearchResults = ({ mode, items, page, segments, onPageChange }) => {
 
 SearchResults.propTypes = {
   items: PropTypes.array,
-  segments: PropTypes.object.isRequired,
   mode: PropTypes.oneOf(MODES).isRequired,
   page: PropTypes.number.isRequired,
   onPageChange: PropTypes.func.isRequired,
@@ -97,3 +86,4 @@ SearchResults.defaultProps = {
 };
 
 export default SearchResults;
+export { getGameDescription };

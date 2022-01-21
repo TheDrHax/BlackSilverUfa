@@ -40,6 +40,7 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
     game.streams.forEach((ref) => {
       ref.url = `/play/${game.id}/${ref.segment}`;
       ref.game = game;
+      ref.original = segments.by('segment', ref.segment);
 
       if (ref.start) {
         ref.url += `?at=${ref.start}`;
@@ -58,6 +59,7 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
 
     catGames.forEach((game) => {
       game.category = category;
+      game.original = games.by('id', game.id);
 
       if (game.start === undefined) { // game
         game.segments = segments

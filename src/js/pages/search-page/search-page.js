@@ -77,7 +77,7 @@ const INIT_RESULTS = {
 };
 
 const SearchPage = () => {
-  const { isReady, data } = useDataStore();
+  const [data, isReady] = useDataStore();
   const [mode, setMode] = useQueryParam('mode', withSquashedDefault(StringParam, 'segments'));
   const [page, setPage] = useQueryParam('page', withSquashedDefault(NumberParam, 1));
   const [filters, updateFilters] = useComplexQueryState(SCHEMA_FILTERS);
@@ -125,7 +125,6 @@ const SearchPage = () => {
         mode={results.mode}
         items={results.items}
         page={page - 1}
-        segments={data.segments}
         onPageChange={(input) => setPage(input + 1)}
       />
       )}

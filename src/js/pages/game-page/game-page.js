@@ -1,45 +1,41 @@
-import React, { useEffect, useState } from 'react';
-import { zip } from 'lodash';
+import React from 'react';
 // Components
 import { Col, Row } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 import { Layout } from '../../components';
 import StreamCard from './stream-card';
 // Utils
-import { Data } from '../../data';
-
-const getSegmentsByRefs = (segmentRefs, segments) => (
-  segmentRefs.map((segmentRef) => (
-    segments.by('segment', segmentRef.segment)
-  ))
-);
+import { getGameDescription } from '../../utils/data-utils';
+// Hooks
+import { useDataStore } from '../../hooks/use-data-store';
 
 const GamePage = ({ match }) => {
-  const [game, setGame] = useState({ name: '', segments: [], segmentRefs: [] });
-  const [isLoading, setLoading] = useState(true);
-
+  const [{ games }, isReady] = useDataStore();
   const { game: gameId } = match.params;
 
-  useEffect(() => {
-    Data.then((data) => {
-      const { name, streams: segmentRefs } = data.games.by('id', gameId);
-      const segments = getSegmentsByRefs(segmentRefs, data.segments);
+  if (!isReady) {
+    return <Layout isLoading />;
+  }
 
-      setGame({ name, segments, segmentRefs });
-      setLoading(false);
-    });
-  }, [gameId]);
+  const game = games.by('id', gameId);
+  const thumbnail = new URL(game.streams[0].original.thumbnail, window.location.href);
 
   return (
-    <Layout isLoading={isLoading} title={game.name}>
+    <Layout title={game.name}>
+      <Helmet>
+        <meta
+          property="og:description"
+          content={getGameDescription(game)}
+        />
+        <meta property="og:image" content={thumbnail} />
+      </Helmet>
       <Row>
         <Col>
           <h1 className="text-white pt-2">{game.name}</h1>
         </Col>
       </Row>
       <Row className="d-flex">
-        {zip(game.segments, game.segmentRefs).map(([segment, segmentRef]) => (
-          <StreamCard key={segment.segment} segment={segment} segmentRef={segmentRef} />
-        ))}
+        {game.streams.map((ref) => <StreamCard key={ref.segment} segmentRef={ref} />)}
       </Row>
     </Layout>
   );

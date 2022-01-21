@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const StreamCard = ({ segment, segmentRef }) => (
+const StreamCard = ({ segmentRef }) => (
   <Col className="col-card" xs={6} md={4} lg={3} xl={2}>
     <Card>
       <Link to={segmentRef.url}>
-        <Card.Img variant="top" src={segment.thumbnail} />
+        <Card.Img variant="top" src={segmentRef.original.thumbnail} />
         <Card.ImgOverlay className="overlay-transparent-bottom bg-dark text-white">
           <Card.Text>{segmentRef.name}</Card.Text>
         </Card.ImgOverlay>
@@ -17,7 +17,6 @@ const StreamCard = ({ segment, segmentRef }) => (
 );
 
 StreamCard.propTypes = {
-  segment: PropTypes.object.isRequired,
   segmentRef: PropTypes.object.isRequired,
 };
 

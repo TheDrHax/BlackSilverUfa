@@ -1,16 +1,35 @@
-// Namespace
-import { searchPage as t } from '../../constants/texts';
+export const pluralize = (num, words = ['', '', '']) => {
+  if (num < 0) {
+    num = Math.abs(num);
+  }
 
-const getKey = (count) => {
-  const key = count >= 20 ? count % 10 : count;
+  if (num >= 20) {
+    num %= 20;
+  }
 
-  if (key === 1) return 0;
-  return (key > 1 && key < 5) ? 1 : 2;
+  if (num === 1) {
+    return words[0];
+  } else if (num > 1 && num < 5) {
+    return words[1];
+  } else {
+    return words[2];
+  }
 };
 
-export const getStreamsLabel = (count) => {
-  const { base, endings } = t.streams;
-  const key = getKey(count);
+export const renderTemplate = (str, vars) => {
+  (str.match(/\{.*?\}/g) || []).forEach((key) => {
+    key = key.substring(1, key.length - 1);
+    let value;
 
-  return `${count} ${base}${endings[key]}`;
+    if (key.indexOf('#') !== -1) {
+      const [valKey, args] = key.split('#');
+      value = pluralize(vars[valKey], args.split(','));
+    } else {
+      value = vars[key];
+    }
+
+    str = str.replace(`{${key}}`, value);
+  });
+
+  return str;
 };

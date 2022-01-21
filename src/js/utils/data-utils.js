@@ -1,6 +1,8 @@
-import { zip, last } from 'lodash';
+import { zip, last, uniq } from 'lodash';
+import { renderTemplate } from '../pages/search-page/utils';
+import Sugar from './sugar';
 
-const getOffset = (segment, at) => {
+export const getOffset = (segment, at) => {
   at = at || 0;
 
   let offset = segment.abs_start;
@@ -13,9 +15,9 @@ const getOffset = (segment, at) => {
   return offset;
 };
 
-const getRelTime = (at, segment) => at - getOffset(segment, at);
+export const getRelTime = (at, segment) => at - getOffset(segment, at);
 
-const getAbsTime = (t, segment) => (
+export const getAbsTime = (t, segment) => (
   t + ((segment.cuts || [])
     .filter(([start, end]) => end <= t)
     .reduce((offset, [start, end]) => (
@@ -25,7 +27,7 @@ const getAbsTime = (t, segment) => (
     ), segment.abs_start))
 );
 
-const getBaseSegment = (segments, segment, t) => {
+export const getBaseSegment = (segments, segment, t) => {
   let at = getAbsTime(t || 0, segment);
 
   let stream;
@@ -47,12 +49,12 @@ const getBaseSegment = (segments, segment, t) => {
   return [segment, at, getRelTime(at, segment)];
 };
 
-const getSiblingSegments = (segments, segment, at) => {
+export const getSiblingSegments = (segments, segment, at) => {
   const [base] = getBaseSegment(segments, segment, at);
   return segments.find({ streams: { $contains: base.segment } });
 };
 
-const resolveSegment = (segments, segmentId, at) => {
+export const resolveSegment = (segments, segmentId, at) => {
   let segment = segments.by('segment', segmentId);
 
   // Handle missing segments
@@ -115,11 +117,25 @@ const resolveSegment = (segments, segmentId, at) => {
   return [segment, at, t];
 };
 
-export {
-  getOffset,
-  getRelTime,
-  getAbsTime,
-  getBaseSegment,
-  getSiblingSegments,
-  resolveSegment,
+export const getSegmentDescription = ({ date }) => Sugar.Date.short(date);
+
+export const getGameDescription = ({ streams: refs }) => {
+  if (refs.length === 0) {
+    return '0 стримов';
+  }
+
+  const count = renderTemplate(
+    '{n} стрим{n#,а,ов}',
+    { n: uniq(refs.map(({ segment }) => segment.split('.')[0])).length },
+  );
+
+  const refDate = ({ original: { date } }) => Sugar.Date.short(date);
+  const startDate = refDate(refs[0]);
+  const endDate = refDate(last(refs));
+
+  if (startDate !== endDate) {
+    return `${count} с ${startDate} по ${endDate}`;
+  } else {
+    return `${count} ${startDate}`;
+  }
 };

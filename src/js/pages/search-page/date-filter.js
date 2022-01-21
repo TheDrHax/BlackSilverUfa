@@ -10,7 +10,7 @@ import { searchPage as t } from '../../constants/texts';
 import { DEFAULT_SCALE, SCALES } from './constants';
 // Utils
 import Sugar from '../../utils/sugar';
-import { getStreamsLabel } from './utils';
+import { renderTemplate } from './utils';
 
 const getRange = (date, scale) => {
   if (!date) {
@@ -42,7 +42,7 @@ const getIntervalSummary = ({ date, view, segments, maxDate }) => {
 
   const range = getRange(date, view);
   const count = segments.count({ date: { $between: range } });
-  return (<div>{getStreamsLabel(count)}</div>);
+  return (<div>{renderTemplate('{n} стрим{n#,а,ов}', { n: count })}</div>);
 };
 
 const getDayClassName = ({ date, segments }) => {
