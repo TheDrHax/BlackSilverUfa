@@ -7,7 +7,7 @@ import { ftime } from '../../utils/time-utils';
 
 const getShortLink = (game, segment, at) => (
   // eslint-disable-next-line prefer-template
-  'https://drhx.ru/'
+  'https://drhx.ru/b/'
   + (game ? `${game}/` : '')
   + segment.segment
   + (at ? `?at=${at}` : '')
