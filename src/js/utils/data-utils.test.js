@@ -1,6 +1,13 @@
 /* eslint-disable no-undef */
 import { Data } from '../data';
-import { getOffset, getAbsTime, getRelTime, getBaseSegment, resolveSegment } from './data-utils';
+import {
+  getOffset,
+  getAbsTime,
+  getRelTime,
+  getBaseSegment,
+  resolveSegment,
+  resolveGame,
+} from './data-utils';
 
 describe('offset', () => {
   test('simple', () => {
@@ -157,5 +164,30 @@ describe('resolve segment', () => {
   test('time out of bounds (right)', () => Data.then(({ segments }) => {
     expect(resolveSegment(segments, '290597816', 13000))
       .toMatchObject([{ segment: '290597816.1' }, 13000, 13000 - 12382]);
+  }));
+});
+
+describe('resolve game', () => {
+  test('one game, primary segment', () => Data.then(({ games, segments }) => {
+    expect(resolveGame(games, segments.by('segment', '001508180'), 0))
+      .toMatchObject([{ id: 'zombi' }, { name: '1' }]);
+  }));
+
+  test('one game, secondary segment', () => Data.then(({ games, segments }) => {
+    expect(resolveGame(games, segments.by('segment', '288630615.1'), 6237))
+      .toMatchObject([{ id: 'no-mans-sky' }, { name: '1 (с Джеком)' }]);
+  }));
+
+  test('multiple games', () => Data.then(({ games, segments }) => {
+    expect(resolveGame(games, segments.by('segment', '287810258'), 0))
+      .toMatchObject([{ id: 'charity' }, { name: '2' }]);
+
+    expect(resolveGame(games, segments.by('segment', '287810258'), 12000))
+      .toMatchObject([{ id: 'immortal-redneck' }, { name: '3' }]);
+  }));
+
+  test('subref match', () => Data.then(({ games, segments }) => {
+    expect(resolveGame(games, segments.by('segment', '275418948'), 11000))
+      .toMatchObject([{ id: 'first-2018' }, { name: 'Sinner / Trigger' }]);
   }));
 });

@@ -44,6 +44,8 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
 
       if (ref.start) {
         ref.url += `?at=${ref.start}`;
+      } else {
+        ref.start = ref.original.abs_start;
       }
     });
 

@@ -1,4 +1,4 @@
-import { zip, last, uniq } from 'lodash';
+import { zip, last, uniq, find } from 'lodash';
 import { renderTemplate } from '../pages/search-page/utils';
 import Sugar from './sugar';
 
@@ -116,6 +116,17 @@ export const resolveSegment = (segments, segmentId, at) => {
 
   return [segment, at, t];
 };
+
+export const resolveGame = (games, segment, at = 0) => (
+  segment.games
+    .map((id) => {
+      const game = games.by('id', id);
+      const ref = find(game.streams, ({ segment: s }) => s === segment.segment);
+      return [game, ref];
+    })
+    .filter(([game, ref]) => ref.start <= at)
+    .sort(([gameA, refA], [gameB, refB]) => refB.start - refA.start)[0] || []
+);
 
 export const getSegmentDescription = ({ date }) => Sugar.Date.short(date);
 

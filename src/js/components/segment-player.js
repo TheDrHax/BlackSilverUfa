@@ -27,7 +27,7 @@ import Playlist from './player/playlist';
 import Reparentable from './utils/reparentable';
 import Sugar from '../utils/sugar';
 import updateState from '../utils/update-state';
-import { resolveSegment } from '../utils/data-utils';
+import { resolveGame, resolveSegment } from '../utils/data-utils';
 import { ShareOverlay } from './player/share-overlay';
 import { Layout } from '.';
 
@@ -98,14 +98,16 @@ export default class SegmentPlayer extends React.Component {
 
     segmentId = segment.segment;
 
-    // Handle missing or unknown game
-    if (!games.by('id', gameId) || segment.games.indexOf(gameId) === -1) {
-      [gameId] = segments.by('segment', segmentId).games;
-      redirect = true;
-    }
+    let game = games.by('id', gameId);
+    let segmentRef;
 
-    const game = games.by('id', gameId);
-    const segmentRef = find(game.streams, (ref) => ref.segment === segmentId);
+    // Handle missing or unknown game
+    if (!game || segment.games.indexOf(gameId) === -1) {
+      [game, segmentRef] = resolveGame(games, segment, at);
+      redirect = true;
+    } else {
+      segmentRef = find(game.streams, (ref) => ref.segment === segmentId);
+    }
 
     let newUrl = `/play/${gameId}/${segment.segment}`;
     if (at) {
