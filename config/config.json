@@ -99,7 +99,8 @@
       "$PREFIX/chats/2021": {
         "remote": "chats-2021",
         "branch": "master",
-        "prefix": "https://bsu.drhx.ru/chats/2021"
+        "prefix": "https://bsu.drhx.ru/chats/2021",
+        "optional": true
       },
       "$PREFIX/chats/2022": {
         "remote": "chats-2022",
