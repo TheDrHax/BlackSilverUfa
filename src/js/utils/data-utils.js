@@ -1,5 +1,5 @@
 import { zip, last, uniq, find } from 'lodash';
-import { renderTemplate } from '../pages/search-page/utils';
+import { renderTemplate } from './text-utils';
 import Sugar from './sugar';
 
 export const getOffset = (segment, at) => {
@@ -19,7 +19,6 @@ export const getRelTime = (at, segment) => at - getOffset(segment, at);
 
 export const getAbsTime = (t, segment) => (
   t + ((segment.cuts || [])
-    .filter(([start, end]) => end <= t)
     .reduce((offset, [start, end]) => (
       (t > offset + end)
         ? offset + (end - start)

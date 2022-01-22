@@ -5,7 +5,7 @@ import FooterLinksGroup from './footer-links-group';
 // Namespace
 import { common as t } from '../../constants/texts';
 // Utils
-import { renderTemplate } from '../../pages/search-page/utils';
+import { renderTemplate } from '../../utils/text-utils';
 
 export const USEFUL_LINKS = [
   {

@@ -7,6 +7,7 @@ import {
   getBaseSegment,
   resolveSegment,
   resolveGame,
+  getGameDescription,
 } from './data-utils';
 
 describe('offset', () => {
@@ -62,6 +63,11 @@ describe('base segment', () => {
   test('primary with cuts', () => Data.then(({ segments }) => {
     expect(getBaseSegment(segments, segments.by('segment', '827759529'), 20847))
       .toMatchObject([{ segment: '827759529' }, 20941, 20847]);
+  }));
+
+  test('primary with cuts (unaffected)', () => Data.then(({ segments }) => {
+    expect(getBaseSegment(segments, segments.by('segment', '827759529'), 16000))
+      .toMatchObject([{ segment: '827759529' }, 16000, 16000]);
   }));
 
   test('secondary', () => Data.then(({ segments }) => {
@@ -194,5 +200,31 @@ describe('resolve game', () => {
   test('subref match', () => Data.then(({ games, segments }) => {
     expect(resolveGame(games, segments.by('segment', '275418948'), 11000))
       .toMatchObject([{ id: 'first-2018' }, { name: 'Sinner / Trigger' }]);
+  }));
+});
+
+describe('game description', () => {
+  test('without refs', () => {
+    expect(getGameDescription({ streams: [] }))
+      .toEqual('0 стримов');
+  });
+
+  test('1 ref', () => {
+    expect(getGameDescription({
+      streams: [{
+        segment: '123',
+        original: { date: new Date('2021-01-01') },
+      }],
+    })).toEqual('1 стрим 01.01.2021');
+  });
+
+  test('streams = refs', () => Data.then(({ games }) => {
+    expect(getGameDescription(games.by('id', 'observation')))
+      .toEqual('2 стрима с 21.05.2019 по 23.05.2019');
+  }));
+
+  test('streams < refs', () => Data.then(({ games }) => {
+    expect(getGameDescription(games.by('id', 'spider-man')))
+      .toEqual('4 стрима с 06.09.2018 по 24.10.2018');
   }));
 });

@@ -10,7 +10,7 @@ import { searchPage as t } from '../../constants/texts';
 import { DEFAULT_SCALE, SCALES } from './constants';
 // Utils
 import Sugar from '../../utils/sugar';
-import { renderTemplate } from './utils';
+import { renderTemplate } from '../../utils/text-utils';
 
 const getRange = (date, scale) => {
   if (!date) {
