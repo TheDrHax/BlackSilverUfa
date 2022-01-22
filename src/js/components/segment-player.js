@@ -76,7 +76,7 @@ export default class SegmentPlayer extends React.Component {
   resolveUrl({ segments, games }) {
     const { location: { search: reqSearch } } = this.props;
     const search = new URLSearchParams(reqSearch);
-    const paramAt = +search.get('at');
+    const paramAt = search.has('at') ? +search.get('at') : null;
 
     let {
       match: {
