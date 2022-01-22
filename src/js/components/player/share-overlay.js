@@ -5,16 +5,14 @@ import { getBaseSegment } from '../../utils/data-utils';
 import { Data } from '../../data';
 import { ftime } from '../../utils/time-utils';
 
-const getShortLink = (game, segment, at) => (
+const getShortLink = (segment, at) => (
   // eslint-disable-next-line prefer-template
   'https://drhx.ru/b/'
-  + (game ? `${game}/` : '')
   + segment.segment
   + (at ? `?at=${at}` : '')
 );
 
 const getMpvCommand = (segment, t) => (
-  // eslint-disable-next-line prefer-template
   [
     'mpv',
     (segment.subtitles ? `--sub-file=${new URL(segment.subtitles, window.location.href)}` : ''),
@@ -52,7 +50,6 @@ ModeSelector.propTypes = {
 
 const ShareOverlay = React.forwardRef((props, ref) => {
   const {
-    game,
     segment,
     currentTime,
     ...otherProps
@@ -63,7 +60,6 @@ const ShareOverlay = React.forwardRef((props, ref) => {
   const [mode, setMode] = useState('link');
   const [segments, setSegments] = useState(null);
   const [includeTime, setIncludeTime] = useState(time > 0);
-  const [includeGame, setIncludeGame] = useState(false);
 
   useEffect(() => {
     Data.then(({ segments: s }) => setSegments(s));
@@ -87,7 +83,6 @@ const ShareOverlay = React.forwardRef((props, ref) => {
   switch (mode) {
     case 'link':
       value = getShortLink(
-        includeGame && game,
         (!includeTime && segment.segment.indexOf('.') !== -1) ? segment : base,
         includeTime && absTime,
       );
@@ -157,17 +152,6 @@ const ShareOverlay = React.forwardRef((props, ref) => {
         </Form.Row>
 
         <Form.Row className="mt-2">
-          <Col>
-            <Form.Check
-              type="checkbox"
-              label="Включить игру в ссылку"
-              checked={includeGame}
-              onChange={({ target: { checked } }) => setIncludeGame(checked)}
-            />
-          </Col>
-        </Form.Row>
-
-        <Form.Row className="mt-2">
           <Col><ModeSelector mode={mode} onChange={setMode} /></Col>
         </Form.Row>
       </Popover.Content>
@@ -176,7 +160,6 @@ const ShareOverlay = React.forwardRef((props, ref) => {
 });
 
 ShareOverlay.propTypes = {
-  game: PropTypes.string.isRequired,
   segment: PropTypes.object.isRequired,
   currentTime: PropTypes.number.isRequired,
 };

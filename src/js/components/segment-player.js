@@ -323,7 +323,6 @@ export default class SegmentPlayer extends React.Component {
     const {
       toggleFullscreen,
       segment,
-      game,
       currentTime,
     } = this.state;
 
@@ -405,7 +404,6 @@ export default class SegmentPlayer extends React.Component {
               placement="top"
               overlay={(
                 <ShareOverlay
-                  game={game}
                   segment={segment}
                   currentTime={currentTime}
                 />
