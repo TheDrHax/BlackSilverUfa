@@ -9958,7 +9958,6 @@
     "youtube": "LOj_M7yUKdo", "abs_start": 0, "abs_end": 22164, "duration": 22164,
     "name": "Fall Guys #14 (с чатом) / Chorus / Invitationem / Propnight",
     "date": "2021-12-03",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1222726196.torrent",
     "games": ["fall-guys", "first-2021", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1222726196.ass"
   },
@@ -9966,7 +9965,6 @@
     "youtube": "VYj5uDTCXHM", "abs_start": 0, "abs_end": 21157, "duration": 21157,
     "name": "Icarus / Forewarned (с Куплиновым и Дангаром)",
     "date": "2021-12-04",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1223700316.torrent",
     "games": ["first-2021", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1223700316.ass"
   },
@@ -10273,5 +10271,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1270926177.torrent",
     "games": ["zomboid"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1270926177.ass"
+  },
+  "1272051017": {
+    "abs_start": 0, "abs_end": 29250, "duration": 0,
+    "name": "Metro: Last Light Redux #3 (финал и все DLC)",
+    "date": "2022-01-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1272051017.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1272051017.torrent",
+    "games": ["metro-ll"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1272051017.ass"
   }
 }

@@ -4,7 +4,6 @@
     "level": 2,
     "search": false,
     "games": [
-      {"id": "single", "segment": "1256959016", "name": "Shrek 2 / Шорох (Scratches: Director's Cut) #3", "start": 0},
       {"id": "fears-to-fathom", "segment": "1258121391", "name": "Fears to Fathom - Episode 2 - Norwood Hitchhike / Doghouse 1/2 / Blood Field (демо) / Insomnis / Broken Veil (демо) / Blink: The Last Night / I'm on Observation Duty - Часть 4 #1", "start": 0},
       {"id": "liber", "segment": "1261173013", "name": "LiBER - Релиз / Monster Hunter Rise", "start": 0},
       {"id": "metro-2033", "segment": "1262176650", "name": "Metro 2033 Redux #2 / I'm on Observation Duty - Часть 4 #2 / Dying 2 Know #5", "start": 0},
@@ -13,7 +12,8 @@
       {"id": "single", "segment": "1265545024", "name": "How Fish Is Made / Witching Hour (демо) / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles: Dead of Winter", "start": 0},
       {"id": "first-2022", "segment": "1268793469", "name": "Star Citizen", "start": 0},
       {"id": "metro-ll", "segment": "1269805961", "name": "Metro: Last Light Redux #2 / Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "start": 0},
-      {"id": "zomboid", "segment": "1270926177", "name": "Project Zomboid #2 (16 стримеров)", "start": 0}
+      {"id": "zomboid", "segment": "1270926177", "name": "Project Zomboid #2 (16 стримеров)", "start": 0},
+      {"id": "metro-ll", "segment": "1272051017", "name": "Metro: Last Light Redux #3 (финал и все DLC)", "start": 0}
     ]
   },
   "finished": {
@@ -315,6 +315,7 @@
       {"id": "single", "segment": "1256959016", "name": "Shrek 2", "start": 0},
       {"id": "single", "segment": "1258121391", "name": "Doghouse 1/2", "start": 6675},
       {"id": "single", "segment": "1258121391", "name": "Insomnis", "start": 8686},
+      {"name": "Metro: Last Light Redux", "id": "metro-ll", "segment": "1264372459"},
       {"id": "single", "segment": "1265545024", "name": "How Fish Is Made", "start": 0},
       {"id": "single", "segment": "1265545024", "name": "Halloween", "start": 9811},
       {"id": "single", "segment": "1265545024", "name": "Slit Mouthed", "start": 10688},
@@ -709,11 +710,9 @@
     "level": 2,
     "games": [
       {"name": "Dark Souls: Remastered", "id": "ds-remastered", "segment": "260173384"},
-      {"name": "Hardspace: Shipbreaker", "id": "hardspace-shipbreaker", "segment": "653411860"},
       {"name": "Зайчик (Tiny Bunny)", "id": "tiny-bunny", "segment": "990810001"},
       {"name": "LiBER", "id": "liber", "segment": "1108872519"},
-      {"name": "Five Nights At Freddy's: Security Breach", "id": "fnaf-sb", "segment": "1238591362"},
-      {"name": "Metro: Last Light Redux", "id": "metro-ll", "segment": "1264372459"}
+      {"name": "Five Nights At Freddy's: Security Breach", "id": "fnaf-sb", "segment": "1238591362"}
     ]
   },
   "infinite": {
@@ -824,6 +823,7 @@
       {"name": "Mafia II: Definitive Edition", "id": "mafia-2-definitive", "segment": "625606171"},
       {"name": "Beyond Blue", "id": "beyond-blue", "segment": "647778850"},
       {"name": "In Sound Mind", "id": "in-sound-mind", "segment": "650534841"},
+      {"name": "Hardspace: Shipbreaker", "id": "hardspace-shipbreaker", "segment": "653411860"},
       {"name": "Haven", "id": "haven", "segment": "653411860"},
       {"name": "Mortal Shell", "id": "mortal-shell", "segment": "669777336"},
       {"name": "Destroy All Humans!", "id": "destroy-all-humans", "segment": "675494632"},
