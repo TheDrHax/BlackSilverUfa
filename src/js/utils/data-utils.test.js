@@ -169,13 +169,18 @@ describe('resolve segment', () => {
 
 describe('resolve game', () => {
   test('one game, primary segment', () => Data.then(({ games, segments }) => {
-    expect(resolveGame(games, segments.by('segment', '001508180'), 0))
+    expect(resolveGame(games, segments.by('segment', '001508180'), null))
       .toMatchObject([{ id: 'zombi' }, { name: '1' }]);
   }));
 
   test('one game, secondary segment', () => Data.then(({ games, segments }) => {
     expect(resolveGame(games, segments.by('segment', '288630615.1'), 6237))
       .toMatchObject([{ id: 'no-mans-sky' }, { name: '1 (с Джеком)' }]);
+  }));
+
+  test('secondary segment, first ref with start', () => Data.then(({ games, segments }) => {
+    expect(resolveGame(games, segments.by('segment', '343098113.1'), null))
+      .toMatchObject([{ id: 'co-op' }, { name: 'Superfighters Deluxe' }]);
   }));
 
   test('multiple games', () => Data.then(({ games, segments }) => {

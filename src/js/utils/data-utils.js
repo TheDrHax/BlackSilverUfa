@@ -117,16 +117,27 @@ export const resolveSegment = (segments, segmentId, at) => {
   return [segment, at, t];
 };
 
-export const resolveGame = (games, segment, at = 0) => (
-  segment.games
+export const findRefBySegment = (game, segment) => (
+  find(game.streams, ({ segment: s }) => s === segment.segment)
+);
+
+export const resolveGame = (games, segment, at) => {
+  let res = segment.games
     .map((id) => {
       const game = games.by('id', id);
-      const ref = find(game.streams, ({ segment: s }) => s === segment.segment);
+      const ref = findRefBySegment(game, segment);
       return [game, ref];
     })
-    .filter(([game, ref]) => ref.start <= at)
-    .sort(([gameA, refA], [gameB, refB]) => refB.start - refA.start)[0] || []
-);
+    .filter(([game, ref]) => ref.start <= (at || segment.abs_start))
+    .sort(([gameA, refA], [gameB, refB]) => refB.start - refA.start)[0];
+
+  if (!res) { // for segments where first ref has `start` parameter
+    const game = games.by('id', segment.games[0]);
+    res = [game, findRefBySegment(game, segment)];
+  }
+
+  return res;
+};
 
 export const getSegmentDescription = ({ date }) => Sugar.Date.short(date);
 
