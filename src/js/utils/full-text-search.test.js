@@ -8,6 +8,10 @@ const data = [
   { id: 4, name: 'Первый взгляд 2020' },
   { id: 5, name: 'Half-Life 3' },
   { id: 6, name: 'Shenmue III' },
+  { id: 7, name: 'Shining Hotel: Lost in Nowhere' },
+  { id: 8, name: 'Lost In Vivo' },
+  { id: 9, name: 'Hollow Hollow Hollow Hollow Hollow' },
+  { id: 10, name: 'Hollow Knight' },
 ];
 
 test('lowercase', () => {
@@ -56,4 +60,14 @@ test('empty text', () => {
 test('filter number-only matches', () => {
   expect(fts('shenmue 3', data, (x) => x.name))
     .toMatchObject([{ id: 6 }]);
+});
+
+test('match by the beginning of the word', () => {
+  expect(fts('lost in vivo', data, (x) => x.name))
+    .toMatchObject([{ id: 8 }]);
+});
+
+test('deduplicate matching tokens', () => {
+  expect(fts('hollow knight', data, (x) => x.name))
+    .toMatchObject([{ id: 10 }]);
 });
