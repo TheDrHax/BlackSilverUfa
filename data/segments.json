@@ -2530,7 +2530,7 @@
   },
   "275418948": {
     "youtube": "oRndFFdk-wc", "abs_start": 0, "abs_end": 20164, "duration": 20164,
-    "name": "Prey #4 (Mooncrash DLC) / Sinner / Trigger / Shininng Hotel: Lost in Nowhere / Midnight Awake / Pamali: Indonesian Folklore Horror - Демо",
+    "name": "Prey #4 (Mooncrash DLC) / Sinner / Trigger / Shining Hotel: Lost in Nowhere / Midnight Awake / Pamali: Indonesian Folklore Horror - Демо",
     "date": "2018-06-20",
     "games": ["prey", "first-2018", "single", "pamali"],
     "subtitles": "https://bsu.drhx.ru/chats/2018/v275418948.ass"
@@ -9972,7 +9972,6 @@
     "youtube": "jjeCA78ms8o", "abs_start": 0, "abs_end": 23269, "duration": 23269,
     "name": "Stray Souls (демо) / Sinfeld Remastered (демо) / Happy's Humble Burger Farm #1 / Decrypt",
     "date": "2021-12-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1224807350.torrent",
     "games": ["first-2021", "hhbf", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1224807350.ass"
   },
@@ -10242,10 +10241,10 @@
   },
   "1265545024": {
     "youtube": "pJfb_rGMacE", "abs_start": 0, "abs_end": 21882, "duration": 21882,
-    "name": "How Fish Is Made / Witching Hour (демо) / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles: Dead of Winter",
+    "name": "How Fish Is Made / Witching Hour (демо) / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles - Dead of Winter",
     "date": "2022-01-16",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1265545024.torrent",
-    "games": ["single", "first-2022"],
+    "games": ["single", "first-2022", "copperport"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1265545024.ass"
   },
   "1268793469": {
@@ -10280,5 +10279,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1272051017.torrent",
     "games": ["metro-ll"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1272051017+0.ass"
+  },
+  "1273302913": {
+    "abs_start": 0, "abs_end": 23297, "duration": 0,
+    "name": "Root of Guilt / Concluse 2 / Alternative Game: On Duty (фан-игра) / Experiment: Groceries / Dark Dreams (демо) / Within Yourself / Toy Hub Support / HorrorDriven: A story for the road (демо) / Before Dawn / Copperport Casefiles - Under the Stairs",
+    "date": "2022-01-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1273302913.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1273302913.torrent",
+    "games": ["single", "first-2022", "copperport"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1273302913.ass"
   }
 }

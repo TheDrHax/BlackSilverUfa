@@ -1817,8 +1817,8 @@
       ] },
       { "name": "Spooky's Jump Scare Mansion (с 500-й комнаты)", "segment": "251742995", "start": 9440 },
       { "name": "Lust for Darkness", "segment": "273929911", "start": 10344 },
-      { "name": "Shininng Hotel: Lost in Nowhere / Midnight Awake", "segment": "275418948", "start": 11714, "subrefs": [
-        { "name": "Shininng Hotel: Lost in Nowhere", "start": 11714 },
+      { "name": "Shining Hotel: Lost in Nowhere / Midnight Awake", "segment": "275418948", "start": 11714, "subrefs": [
+        { "name": "Shining Hotel: Lost in Nowhere", "start": 11714 },
         { "name": "Midnight Awake", "start": 13042 }
       ] },
       { "name": "The Awesome Adventures of Captain Spirit", "segment": "278566845" },
@@ -1957,15 +1957,31 @@
         { "name": "Doghouse 1/2", "start": 6675 },
         { "name": "Insomnis", "start": 8686 }
       ] },
-      { "name": "How Fish Is Made / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles: Dead of Winter", "segment": "1265545024", "subrefs": [
+      { "name": "How Fish Is Made / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо)", "segment": "1265545024", "subrefs": [
         { "name": "How Fish Is Made" },
         { "name": "Halloween", "start": 9811 },
         { "name": "Slit Mouthed", "start": 10688 },
         { "name": "Beetlebum: Resident Weevil", "start": 14892 },
         { "name": "SCP-847", "start": 15687 },
-        { "name": "Everything Is For Humanity (демо)", "start": 16638 },
-        { "name": "Copperport Casefiles: Dead of Winter", "start": 18189 }
+        { "name": "Everything Is For Humanity (демо)", "start": 16638 }
+      ] },
+      { "name": "Root of Guilt / Alternative Game: On Duty (фан-игра) / Dark Dreams (демо) / Within Yourself / Toy Hub Support / Before Dawn", "segment": "1273302913", "subrefs": [
+        { "name": "Root of Guilt" },
+        { "name": "Alternative Game: On Duty (фан-игра)", "start": 8052 },
+        { "name": "Dark Dreams (демо)", "start": 12943 },
+        { "name": "Within Yourself", "start": 13670 },
+        { "name": "Toy Hub Support", "start": 14394 },
+        { "name": "Before Dawn", "start": 19180 }
       ] }
+    ]
+  },
+  {
+    "name": "Copperport Casefiles",
+    "category": "finished",
+    "id": "copperport",
+    "streams": [
+      { "name": "Dead of Winter", "segment": "1265545024", "start": 18189 },
+      { "name": "Under the Stairs", "segment": "1273302913", "start": 20802 }
     ]
   },
   {
@@ -3085,7 +3101,12 @@
         { "name": "Blink: The Last Night", "start": 15997 }
       ] },
       { "name": "Witching Hour (демо)", "segment": "1265545024", "start": 5124 },
-      { "name": "Star Citizen", "segment": "1268793469" }
+      { "name": "Star Citizen", "segment": "1268793469" },
+      { "name": "Concluse 2 / Experiment: Groceries / HorrorDriven: A story for the road (демо)", "segment": "1273302913", "start": 4366, "subrefs": [
+        { "name": "Concluse 2", "start": 4366 },
+        { "name": "Experiment: Groceries", "start": 11438 },
+        { "name": "HorrorDriven: A story for the road (демо)", "start": 16159 }
+      ] }
     ]
   },
   {
