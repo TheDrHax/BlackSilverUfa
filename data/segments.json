@@ -10273,12 +10273,12 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1270926177.ass"
   },
   "1272051017": {
-    "abs_start": 0, "abs_end": 29250, "duration": 0,
+    "youtube": "MCl0GYaUbHU", "abs_start": 0, "abs_end": 29239, "duration": 29210,
     "name": "Metro: Last Light Redux #3 (финал и все DLC)",
     "date": "2022-01-22",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1272051017.mp4",
+    "cuts": [[3534, 3563]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1272051017.torrent",
     "games": ["metro-ll"],
-    "subtitles": "https://bsu.drhx.ru/chats/2022/v1272051017.ass"
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1272051017+0.ass"
   }
 }
