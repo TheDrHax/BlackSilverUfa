@@ -246,7 +246,10 @@ export default class SegmentPlayer extends React.Component {
             plyr.currentTime = ts;
             plyr.play();
           },
-          toggleFullscreen: () => plyr.fullscreen.toggle(),
+          toggleFullscreen: (forceFallback = false) => {
+            plyr.fullscreen.forceFallback = forceFallback;
+            plyr.fullscreen.toggle();
+          },
         });
       },
       onFullScreen: (fullscreen) => this.setState({ fullscreen }),
@@ -347,7 +350,7 @@ export default class SegmentPlayer extends React.Component {
               </Button>
             )}
 
-            {youtube ? (
+            {youtube && (
               <Button
                 href={`https://youtu.be/${youtube}`}
                 target="blank"
@@ -372,19 +375,7 @@ export default class SegmentPlayer extends React.Component {
                   )}
                 </OverlayTrigger>
               </Button>
-            ) : (
-              <Button
-                href={direct}
-                variant="dark"
-                size="sm"
-                className="mr-2"
-              >
-                <i className="fas fa-link" />
-                <span>Скачать</span>
-              </Button>
             )}
-
-            <div className="flex-grow-1" />
 
             {torrent && (
               <Button
@@ -394,9 +385,11 @@ export default class SegmentPlayer extends React.Component {
                 className="mr-2"
               >
                 <i className="fas fa-download" />
-                <span>Торрент</span>
+                <span className="d-none d-xl-inline">Торрент</span>
               </Button>
             )}
+
+            <div className="flex-grow-1" />
 
             <OverlayTrigger
               trigger="click"
@@ -411,7 +404,21 @@ export default class SegmentPlayer extends React.Component {
             >
               <Button variant="dark" size="sm" className="mr-2">
                 <i className="fas fa-share-square" />
-                <span>Поделиться</span>
+                <span className="d-none d-xxl-inline">Поделиться</span>
+              </Button>
+            </OverlayTrigger>
+
+            <OverlayTrigger
+              placement="top"
+              overlay={(props) => (
+                <Tooltip {...props}>
+                  Оставить в окне только плеер, но не переходить в полноэкранный режим
+                </Tooltip>
+              )}
+            >
+              <Button variant="dark" size="sm" onClick={() => toggleFullscreen(true)} className="mr-2">
+                <i className="fas fa-expand-arrows-alt" />
+                <span className="d-none d-lg-inline">На всё окно</span>
               </Button>
             </OverlayTrigger>
 
@@ -423,9 +430,9 @@ export default class SegmentPlayer extends React.Component {
                 </Tooltip>
               )}
             >
-              <Button variant="dark" size="sm" onClick={toggleFullscreen}>
+              <Button variant="dark" size="sm" onClick={() => toggleFullscreen(false)}>
                 <i className="fas fa-expand" />
-                <span>На весь экран</span>
+                <span className="d-none d-lg-inline">На весь экран</span>
               </Button>
             </OverlayTrigger>
           </div>

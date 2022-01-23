@@ -706,14 +706,6 @@ i.fab + span, i.fas + span, i.far + span, span + i.fas {
     color: #fff;
     align-self: center;
   }
-
-  & button {
-    @media(max-width: 991px) {
-      i + span {
-        display: none;
-      }
-    }
-  }
 }
 
 .plyr__control__custom {
@@ -737,7 +729,7 @@ i.fab + span, i.fas + span, i.far + span, span + i.fas {
 .plyr-row {
   background-color: #000;
   
-  > .plyr {
+  > .plyr:not(:fullscreen):not(.plyr--fullscreen-fallback) {
     max-width: calc((#{$contentHeight} - 50px) / 9 * 16);
     margin: auto;
   }
@@ -784,7 +776,7 @@ i.fab + span, i.fas + span, i.far + span, span + i.fas {
 }
 
 .plyr--youtube {
-  &:not(:fullscreen) {
+  &:not(:fullscreen):not(.plyr--fullscreen-fallback) {
     & .plyr__controls, .plyr__control[data-plyr="play"] {
       display: none;
     }
