@@ -59,24 +59,27 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
     category.id = key;
     categories.insert(category);
 
-    catGames.forEach((game) => {
-      game.category = category;
-      game.original = games.by('id', game.id);
+    catGames.forEach(([name, [gameId, segmentId, at]]) => {
+      const game = {};
 
-      if (game.start === undefined) { // game
+      game.name = name;
+      game.category = category;
+      game.original = games.by('id', gameId);
+
+      if (at === undefined) { // game
         game.segments = segments
           .chain()
-          .find({ games: { $contains: game.id } })
+          .find({ games: { $contains: gameId } })
           .simplesort('date')
           .data();
 
-        game.url = `/play/${game.id}`;
+        game.url = `/play/${gameId}`;
       } else { // segment
-        game.segments = [segments.by('segment', game.segment)];
-        game.url = `/play/${game.id}/${game.segment}`;
+        game.segments = [segments.by('segment', segmentId)];
+        game.url = `/play/${gameId}/${segmentId}`;
 
-        if (game.start > 0) {
-          game.url += `?at=${game.start}`;
+        if (at > 0) {
+          game.url += `?at=${at}`;
         }
       }
 
