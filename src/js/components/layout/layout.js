@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 // Components
 import { Container, Spinner as SpinnerComponent } from 'react-bootstrap';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import Header from './header';
 import Footer from './footer';
 import config from '../../../../config/config.json';

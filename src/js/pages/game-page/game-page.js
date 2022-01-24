@@ -1,7 +1,7 @@
 import React from 'react';
 // Components
 import { Col, Row } from 'react-bootstrap';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { Layout } from '../../components';
 import StreamCard from './stream-card';
 // Utils
