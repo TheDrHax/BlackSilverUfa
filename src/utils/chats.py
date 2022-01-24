@@ -5,6 +5,7 @@ import requests
 from . import _
 from ..data.fallback import FallbackSource
 from ..data.streams import streams, StreamType
+from ..data.cache import cache
 from ..config import config, tcd_config
 from ..scripts.converter import convert_file
 
@@ -43,6 +44,9 @@ def download(stream):
             raise ex
 
     convert_file(dest, stream.blacklist, stream.subtitles_style)
+
+    cache.remove(f'messages-{stream.twitch}')
+    print(f'Downloaded {stream.messages} messages')
 
 
 def download_missing():
