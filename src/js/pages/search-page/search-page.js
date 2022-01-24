@@ -25,7 +25,6 @@ const getDateParams = (startDate, endDate) => (endDate
 const getGamesFlow = (index, category) => flow([
   () => index.chain(),
   (chain) => (category === 'any' ? chain : chain.find({ 'category.id': category })),
-  (chain) => chain.where((item) => item.category.search !== false),
 ]);
 
 const getSegmentsFlow = (segments, startDate, endDate) => flow([

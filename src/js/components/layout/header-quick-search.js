@@ -15,10 +15,7 @@ export const MIN_QUERY = 2;
 export const MAX_RESULTS = 20;
 
 export const getByTextMatch = (query, store) => {
-  const data = store.chain()
-    .where((item) => item.category.search !== false)
-    .simplesort('date', { desc: true })
-    .data();
+  const data = store.chain().simplesort('date', { desc: true }).data();
 
   // TODO: dig into it and refactor fts @zaprvalcer
   return fts(

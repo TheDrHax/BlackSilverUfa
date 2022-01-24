@@ -1,9 +1,10 @@
+from typing import Union
 import attr
 from datetime import datetime, timedelta
 from sortedcontainers import SortedList
 
 from .games import games, Game
-from .streams import streams, SegmentReference
+from .streams import SegmentReference
 from ..utils import load_json, join, json_escape, indent
 
 
@@ -15,7 +16,7 @@ class Category:
     name: str = attr.ib()
     code: str = attr.ib()
     level: int = attr.ib()
-    description: str = None
+    description: Union[None, str] = None
     search: bool = True
     split_by_year: bool = True
 
@@ -46,7 +47,7 @@ class Category:
             keys = ['name', 'description', 'code',
                     'level', 'search', 'split_by_year']
         else:
-            keys = ['name', 'level', 'search']
+            keys = ['name', 'level']
 
         fields = attr.fields_dict(type(self))
 
@@ -115,18 +116,7 @@ class Categories(dict):
         uncategorized = games.copy()
 
         for category in categories:
-            if category['code'] == 'recent':
-                c = Category.from_dict(category)
-                segments_with_refs = [segment
-                                      for segment in streams.segments
-                                      if len(segment.references) > 0]
-                last_segments = list(segments_with_refs)[-10:]
-
-                for segment in last_segments:
-                    c.games.add(segment.reference())
-            else:
-                c = Category.from_dict(category, games=uncategorized)
-
+            c = Category.from_dict(category, games=uncategorized)
             self[c.code] = c
 
         month_ago = datetime.now() - timedelta(days=30)
@@ -143,7 +133,7 @@ class Categories(dict):
             raise(AttributeError('Invalid category in ' + ', '.join(names)))
 
     @join()
-    def to_json(self, compiled=False) -> str:
+    def to_json(self, compiled=False):
         if not compiled:
             yield '['
 
