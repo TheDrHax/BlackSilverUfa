@@ -93,7 +93,7 @@ const SearchPage = () => {
   useEffect(() => {
     animateScrollTo(0, {
       cancelOnUserAction: false,
-      elementToScroll: document.getElementById('react-main-root'),
+      elementToScroll: document.getElementById('app'),
     });
   }, [page]);
 

@@ -8,12 +8,7 @@ const DEBUG = HMR || process.env.DEBUG === '1';
 
 module.exports = [
   {
-    entry: [
-      'core-js/stable',
-      'regenerator-runtime/runtime',
-      './src/js/index.js',
-      './src/css/styles.scss',
-    ],
+    entry: './src/js/index.js',
     stats: 'minimal',
     mode: DEBUG ? 'development' : 'production',
     devtool: DEBUG ? 'eval-cheap-module-source-map' : false,
