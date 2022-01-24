@@ -572,7 +572,6 @@
 ["Gothic", ["first-2020", "849365667", 0]],
 ["Gone Golfing", ["first-2020", "850367913", 12150]],
 ["Ebola 2", ["first-2020", "853883043", 7958]],
-["Hidden Deep (демо)", ["first-2021", "860924750", 0]],
 ["Medal of Honor: Above and Beyond", ["first-2021", "864545602", 0]],
 ["Yaga", ["first-2021", "870760177", 0]],
 ["Olija", ["first-2021", "896656796", 0]],
@@ -694,13 +693,15 @@
 ["Star Citizen", ["first-2022", "1268793469", 0]],
 ["Concluse 2", ["first-2022", "1273302913", 4366]],
 ["Experiment: Groceries", ["first-2022", "1273302913", 11438]],
-["HorrorDriven: A story for the road (демо)", ["first-2022", "1273302913", 16159]]
+["HorrorDriven: A story for the road (демо)", ["first-2022", "1273302913", 16159]],
+["Metro Exodus: Enhanced Edition", ["first-2022", "1274362855", 0]]
   ]
 },
 "ongoing": {
   "name": "Активные",
   "level": 2,
   "games": [
+["Hidden Deep", ["hidden-deep", "860924750"]],
 ["Зайчик (Tiny Bunny)", ["tiny-bunny", "990810001"]],
 ["LiBER", ["liber", "1108872519"]],
 ["Five Nights At Freddy's: Security Breach", ["fnaf-sb", "1238591362"]]

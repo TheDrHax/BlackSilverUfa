@@ -2902,12 +2902,20 @@
     ]
   },
   {
+    "name": "Hidden Deep",
+    "category": "ongoing",
+    "id": "hidden-deep",
+    "streams": [
+      { "name": "Демо", "segment": "860924750" },
+      { "name": "1 (с WLG)", "segment": "1274362855", "start": 14447 }
+    ]
+  },
+  {
     "name": "Первый взгляд 2021",
     "category": "first",
     "type": "list",
     "id": "first-2021",
     "streams": [
-      { "name": "Hidden Deep (демо)", "segment": "860924750" },
       { "name": "Medal of Honor: Above and Beyond", "segment": "864545602" },
       { "name": "Yaga", "segment": "870760177" },
       { "name": "Olija / Tohu", "segment": "896656796", "subrefs": [
@@ -3106,7 +3114,8 @@
         { "name": "Concluse 2", "start": 4366 },
         { "name": "Experiment: Groceries", "start": 11438 },
         { "name": "HorrorDriven: A story for the road (демо)", "start": 16159 }
-      ] }
+      ] },
+      { "name": "Metro Exodus: Enhanced Edition", "segment": "1274362855" }
     ]
   },
   {

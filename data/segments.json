@@ -7807,9 +7807,9 @@
   },
   "860924750": {
     "youtube": "XYADBOzG62o", "abs_start": 0, "abs_end": 30597, "duration": 30597,
-    "name": "Hidden Deep (демо) / Remothered: Broken Porcelain",
+    "name": "Hidden Deep - Демо / Remothered: Broken Porcelain",
     "date": "2021-01-04",
-    "games": ["first-2021", "single"],
+    "games": ["hidden-deep", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v860924750.ass"
   },
   "862110712": {
@@ -9979,7 +9979,6 @@
     "youtube": "ojCvYaT6SI0", "abs_start": 0, "abs_end": 18029, "duration": 18029,
     "name": "MONSTRUM 2 - Релиз / Happy's Humble Burger Farm #2",
     "date": "2021-12-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1227570391.torrent",
     "games": ["monstrum-2", "hhbf"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1227570391.ass"
   },
@@ -9987,7 +9986,6 @@
     "youtube": "NhoT2qf_rNk", "abs_start": 18028, "abs_end": 28485, "duration": 10457,
     "name": "Halo Infinite #1",
     "date": "2021-12-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1227570391.torrent",
     "games": ["halo-infinite"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1227570391.ass"
   },
@@ -10287,5 +10285,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1273302913.torrent",
     "games": ["single", "first-2022", "copperport"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1273302913.ass"
+  },
+  "1274362855": {
+    "abs_start": 0, "abs_end": 24797, "duration": 0,
+    "name": "Metro Exodus: Enhanced Edition / Hidden Deep #1 (с WLG)",
+    "date": "2022-01-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1274362855.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1274362855.torrent",
+    "games": ["first-2022", "hidden-deep"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1274362855.ass"
   }
 }
