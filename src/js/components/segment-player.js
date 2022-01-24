@@ -333,7 +333,6 @@ export default class SegmentPlayer extends React.Component {
       segment: segmentId,
       youtube,
       official,
-      direct,
       torrent,
     } = segment;
 
@@ -404,7 +403,7 @@ export default class SegmentPlayer extends React.Component {
             >
               <Button variant="dark" size="sm" className="mr-2">
                 <i className="fas fa-share-square" />
-                <span className="d-none d-xxl-inline">Поделиться</span>
+                <span className="d-none d-xl-inline">Поделиться</span>
               </Button>
             </OverlayTrigger>
 
