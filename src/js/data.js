@@ -63,6 +63,8 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
       const game = {};
 
       game.name = name;
+      game.segment = segmentId;
+      game.start = at;
       game.category = category;
       game.original = games.by('id', gameId);
 
