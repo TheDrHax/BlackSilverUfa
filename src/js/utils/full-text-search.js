@@ -1,10 +1,16 @@
 import { uniq } from 'lodash';
 
 export function tokenize(text) {
-  return (text || '').trim().split(' ').map((word) => {
-    const match = word.toLowerCase().match(/[a-zа-я0-9]+/g);
-    return match ? match.join('') : '';
-  }).filter((w) => w);
+  return (text || '')
+    .toLowerCase()
+    .trim()
+    .replace(/ё/g, 'е')
+    .split(' ')
+    .map((word) => {
+      const match = word.match(/[a-zа-я0-9]+/g);
+      return match ? match.join('') : '';
+    })
+    .filter((w) => w);
 }
 
 export default function fts(query, items, lambda = (x) => x) {
