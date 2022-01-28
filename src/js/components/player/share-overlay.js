@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { Button, Col, Form, InputGroup, Pagination, Popover, Spinner } from 'react-bootstrap';
+import { Button, Col, Form, InputGroup, Pagination, Popover, Row, Spinner } from 'react-bootstrap';
 import { getBaseSegment } from '../../utils/data-utils';
 import { Data } from '../../data';
 import { ftime } from '../../utils/time-utils';
@@ -68,10 +68,10 @@ const ShareOverlay = React.forwardRef((props, ref) => {
   if (!segments) {
     return (
       <Popover ref={ref} {...otherProps} className="share-popover">
-        <Popover.Title as="h3">Создать короткую ссылку</Popover.Title>
-        <Popover.Content className="d-flex justify-content-center">
+        <Popover.Header as="h3">Создать короткую ссылку</Popover.Header>
+        <Popover.Body className="d-flex justify-content-center">
           <Spinner animation="border" />
-        </Popover.Content>
+        </Popover.Body>
       </Popover>
     );
   }
@@ -98,9 +98,9 @@ const ShareOverlay = React.forwardRef((props, ref) => {
 
   return (
     <Popover ref={ref} {...otherProps} className="share-popover">
-      <Popover.Title as="h3">Создать короткую ссылку</Popover.Title>
-      <Popover.Content>
-        <Form.Row>
+      <Popover.Header as="h3">Создать короткую ссылку</Popover.Header>
+      <Popover.Body>
+        <Row>
           <Col>
             <InputGroup>
               <Form.Control
@@ -109,32 +109,29 @@ const ShareOverlay = React.forwardRef((props, ref) => {
                 value={value}
                 size="sm"
               />
-              <InputGroup.Append>
-                <Form.Control
-                  as={Button}
-                  variant="dark"
-                  size="sm"
-                  onClick={() => {
-                    const input = inputRef.current;
+              <Button
+                variant="dark"
+                size="sm"
+                onClick={() => {
+                  const input = inputRef.current;
 
-                    if (input) {
-                      input.select();
-                      input.setSelectionRange(0, 200);
-                      document.execCommand('copy');
-                    }
-                  }}
-                >
-                  <i className="fas fa-copy" />
-                </Form.Control>
-              </InputGroup.Append>
+                  if (input) {
+                    input.select();
+                    input.setSelectionRange(0, 200);
+                    document.execCommand('copy');
+                  }
+                }}
+              >
+                <i className="fas fa-copy" />
+              </Button>
             </InputGroup>
           </Col>
-        </Form.Row>
+        </Row>
 
-        <Form.Row className="mt-2">
+        <Row className="mt-2">
           <Col className="d-flex align-content-center">
             <Form.Check
-              className="mr-2"
+              className="me-auto"
               type="checkbox"
               label="Начать с таймкода: "
               checked={includeTime}
@@ -149,12 +146,12 @@ const ShareOverlay = React.forwardRef((props, ref) => {
               htmlSize={4}
             />
           </Col>
-        </Form.Row>
+        </Row>
 
-        <Form.Row className="mt-2">
+        <Row className="mt-2">
           <Col><ModeSelector mode={mode} onChange={setMode} /></Col>
-        </Form.Row>
-      </Popover.Content>
+        </Row>
+      </Popover.Body>
     </Popover>
   );
 });

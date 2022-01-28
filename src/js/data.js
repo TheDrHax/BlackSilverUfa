@@ -102,10 +102,8 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
   return { segments, categories, index, games, timecodes };
 }
 
-async function reload() {
+export async function reload() {
   return loadData().then(build);
 }
 
-const Data = reload();
-
-export { Data, reload };
+export const Data = reload();

@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const sass = require('sass');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -60,7 +61,7 @@ module.exports = [
             {
               loader: 'sass-loader',
               options: {
-                implementation: require('sass'),
+                implementation: sass,
               },
             },
           ],

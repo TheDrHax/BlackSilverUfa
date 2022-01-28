@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // Components
-import { InputGroup, Col, Button } from 'react-bootstrap';
+import { InputGroup, Button } from 'react-bootstrap';
 import Dropdown from './dropdown';
 import DateRangePicker from './date-range-picker';
 import DatePicker from './date-picker';
@@ -57,18 +57,16 @@ const DateFilter = ({ value: { from, to, scale }, segments, onChange, ...rest })
   const datePickerConfig = { scale, minDate, maxDate };
 
   return (
-    <InputGroup as={Col} {...rest}>
-      <InputGroup.Prepend>
-        <Dropdown
-          value={scale}
-          variant="dark"
-          options={SCALES}
-          labels={t.scales}
-          onChange={(input) => {
-            onChange({ from: undefined, to: undefined, scale: input });
-          }}
-        />
-      </InputGroup.Prepend>
+    <InputGroup {...rest}>
+      <Dropdown
+        value={scale}
+        variant="dark"
+        options={SCALES}
+        labels={t.scales}
+        onChange={(input) => {
+          onChange({ from: undefined, to: undefined, scale: input });
+        }}
+      />
       {
         scale === 'month'
           ? (
@@ -95,15 +93,13 @@ const DateFilter = ({ value: { from, to, scale }, segments, onChange, ...rest })
           )
       }
       {from && (
-        <InputGroup.Append>
-          <Button
-            variant="danger"
-            onClick={() => {
-              onChange({ from: undefined, to: undefined, scale: DEFAULT_SCALE });
-            }}
-          >x
-          </Button>
-        </InputGroup.Append>
+        <Button
+          variant="danger"
+          onClick={() => {
+            onChange({ from: undefined, to: undefined, scale: DEFAULT_SCALE });
+          }}
+        >x
+        </Button>
       )}
     </InputGroup>
   );

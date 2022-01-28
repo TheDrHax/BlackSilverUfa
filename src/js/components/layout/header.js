@@ -33,7 +33,7 @@ const Header = () => {
             <Navbar.Toggle />
 
             <Navbar.Collapse id="navbar-collapse">
-              <Nav.Link as={Link} to={PATHS.DONATE} className="text-white mr-auto">
+              <Nav.Link as={Link} to={PATHS.DONATE} className="text-white me-auto">
                 Поддержать проект
                 <img
                   src="/static/images/BSULoot.gif"
@@ -41,7 +41,7 @@ const Header = () => {
                   style={{ margin: '-6px 0 -3px 0.25rem' }}
                 />
               </Nav.Link>
-              <Nav className="mr-auto" />
+              <Nav className="me-auto" />
               {isReady && <HeaderQuickSearch indexStore={index} segmentsStore={segments} />}
             </Navbar.Collapse>
           </Container>

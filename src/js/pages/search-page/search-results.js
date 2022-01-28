@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // Components
 import { Link } from 'react-router-dom';
-import { Col, ListGroup, Media, Row } from 'react-bootstrap';
+import { Col, ListGroup, Row } from 'react-bootstrap';
 import Pagination from '@vlsergey/react-bootstrap-pagination';
 // Namespace
 import { MODES } from './constants';
@@ -33,25 +33,19 @@ const SearchResults = ({ mode, items, page, onPageChange }) => {
 
   return (
     <>
-      <ListGroup variant="flush">
+      <ListGroup variant="flush" className="py-3">
         {items.slice(pageStart, pageEnd).map((item) => (
           <ListGroup.Item key={item.name}>
-            <Media>
-              <img width={128} className="mr-3" src={getThumbnail(item)} alt="thumbnail" />
+            <Row>
+              <Col xs={4} lg={3} xl={2}>
+                <img className="me-3" width="100%" src={getThumbnail(item)} alt="thumbnail" />
+              </Col>
 
-              <Media.Body>
-                <Row>
-                  <Col>
-                    <Link to={item.url}>{item.name}</Link>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col>
-                    {getDescription(item)}
-                  </Col>
-                </Row>
-              </Media.Body>
-            </Media>
+              <Col>
+                <div><Link to={item.url} className="stretched-link">{item.name}</Link></div>
+                <div>{getDescription(item)}</div>
+              </Col>
+            </Row>
           </ListGroup.Item>
         ))}
       </ListGroup>

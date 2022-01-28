@@ -1,16 +1,14 @@
 import React from 'react';
 import PropTypes, { string } from 'prop-types';
 // Components
-import { Button, Col, Form, InputGroup } from 'react-bootstrap';
+import { Button, Form, InputGroup } from 'react-bootstrap';
 
 const Select = ({ value, label, options, labels, onChange, iconClassName, onIconClick, ...rest }) => (
-  <InputGroup as={Col} {...rest}>
-    <InputGroup.Prepend>
-      <InputGroup.Text>{label}:</InputGroup.Text>
-    </InputGroup.Prepend>
+  <InputGroup {...rest}>
+    <InputGroup.Text>{label}:</InputGroup.Text>
     <Form.Control
       as="select"
-      custom
+      // custom
       value={value}
       onChange={({ target }) => onChange(target.value)}
     >
@@ -19,14 +17,12 @@ const Select = ({ value, label, options, labels, onChange, iconClassName, onIcon
       ))}
     </Form.Control>
     {!!iconClassName && (
-    <InputGroup.Append>
       <Button
         variant="dark"
         onClick={onIconClick}
       >
         <i className={`fas ${iconClassName}`} />
       </Button>
-    </InputGroup.Append>
     )}
   </InputGroup>
 );

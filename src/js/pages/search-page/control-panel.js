@@ -58,10 +58,10 @@ const ControlPanel = ({ mode,
   return (
     <Row className="interactive-search-form">
       <Col>
-        <Card className="w-100 h-0 pl-3 pr-3 pt-3 pb-2">
+        <Card className="w-100 h-0 ps-3 pe-3 pt-3 pb-2">
           <Form>
-            <InputGroup>
-              <InputGroup.Prepend>
+            <Row>
+              <InputGroup>
                 <Dropdown
                   value={mode}
                   options={MODES}
@@ -72,43 +72,46 @@ const ControlPanel = ({ mode,
                     onSortingChange({ sortBy: 'date' });
                   }}
                 />
-              </InputGroup.Prepend>
-              <TextFilter
-                initValue={filters.q}
-                onSubmit={(input) => onFiltersChange({ q: input })}
-              />
-            </InputGroup>
-            <Form.Row>
+                <TextFilter
+                  initValue={filters.q}
+                  onSubmit={(input) => onFiltersChange({ q: input })}
+                />
+              </InputGroup>
+            </Row>
+            <Row>
               {mode === 'segments'
                 ? (
-                  <DateFilter
-                    {...STYLE_CONFIG}
-                    value={dateState}
-                    segments={segments}
-                    onChange={onFiltersChange}
-                  />
+                  <Col {...STYLE_CONFIG}>
+                    <DateFilter
+                      value={dateState}
+                      segments={segments}
+                      onChange={onFiltersChange}
+                    />
+                  </Col>
                 )
                 : (
-                  <Select
-                    {...STYLE_CONFIG}
-                    value={filters.category}
-                    label={t.category}
-                    labels={filteredCategories}
-                    options={Object.keys(filteredCategories)}
-                    onChange={(category) => onFiltersChange({ category })}
-                  />
+                  <Col {...STYLE_CONFIG}>
+                    <Select
+                      value={filters.category}
+                      label={t.category}
+                      labels={filteredCategories}
+                      options={Object.keys(filteredCategories)}
+                      onChange={(category) => onFiltersChange({ category })}
+                    />
+                  </Col>
                 )}
-              <Select
-                {...STYLE_CONFIG}
-                value={sorting.sortBy}
-                label={t.sorting}
-                labels={t.sortModes}
-                options={SORT_OPTIONS[mode]}
-                iconClassName={SORT_ICONS[direction]}
-                onIconClick={() => onSortingChange({ isDesc: !sorting.isDesc })}
-                onChange={(input) => onSortingChange({ sortBy: input })}
-              />
-            </Form.Row>
+              <Col {...STYLE_CONFIG}>
+                <Select
+                  value={sorting.sortBy}
+                  label={t.sorting}
+                  labels={t.sortModes}
+                  options={SORT_OPTIONS[mode]}
+                  iconClassName={SORT_ICONS[direction]}
+                  onIconClick={() => onSortingChange({ isDesc: !sorting.isDesc })}
+                  onChange={(input) => onSortingChange({ sortBy: input })}
+                />
+              </Col>
+            </Row>
           </Form>
         </Card>
       </Col>

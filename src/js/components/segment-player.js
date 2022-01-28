@@ -1,8 +1,6 @@
-import { find } from 'lodash';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
-  Accordion,
   Button,
   Col,
   ListGroup,
@@ -23,7 +21,7 @@ import Chat from './player/chat';
 import Player from './player/player';
 import Timecodes from './player/timecodes';
 import Scroll from './player/scroll';
-import Playlist from './player/playlist';
+import { Playlist } from './player/playlist';
 import Reparentable from './utils/reparentable';
 import Sugar from '../utils/sugar';
 import updateState from '../utils/update-state';
@@ -50,7 +48,7 @@ export default class SegmentPlayer extends React.Component {
       fullscreen: false,
       segment: null,
       segmentRef: null,
-      playlists: null,
+      relatedGames: null,
       timecodes: null,
       currentTime: 0,
       setTime: null,
@@ -68,7 +66,6 @@ export default class SegmentPlayer extends React.Component {
 
     this.toggleSidebar = this.toggleSidebar.bind(this);
     this.renderPlayerOverlay = this.renderPlayerOverlay.bind(this);
-    this.onPlaylistAccordionSelect = this.onPlaylistAccordionSelect.bind(this);
 
     this.chatContainer = this.createChatContainer();
   }
@@ -145,15 +142,10 @@ export default class SegmentPlayer extends React.Component {
         autostart,
       } = request;
 
-      const relatedGames = segment.games.map((gameId) => games.by('id', gameId));
+      let relatedGames = segment.games.map((gameId) => games.by('id', gameId));
 
-      let playlists = relatedGames.map((relatedGame) => relatedGame.streams.map((ref) => ({
-        ref,
-        segment: segments.by('segment', ref.segment),
-      })));
-
-      if (playlists.length === 0) {
-        playlists = null;
+      if (relatedGames.length === 0) {
+        relatedGames = null;
       }
 
       this.setState({
@@ -161,8 +153,7 @@ export default class SegmentPlayer extends React.Component {
         segment,
         game,
         segmentRef,
-        playlists,
-        playlistAccordion: game.id,
+        relatedGames,
         autostart,
         savedPositionAdapter: new SavedPosition(segment),
       });
@@ -337,13 +328,13 @@ export default class SegmentPlayer extends React.Component {
     } = segment;
 
     return (
-      <Row className="no-gutters">
+      <Row className="g-0">
         <Col>
           <div className="player-controls border-top border-bottom">
-            <div className="label mr-2 d-none d-xxl-block">Смотреть на:</div>
+            <div className="label me-2 d-none d-xxl-block">Смотреть на:</div>
 
             {!segmentId.startsWith('00') && (
-              <Button variant="dark" size="sm" className="mr-2" href={`https://twitch.tv/videos/${segmentId}`} target="blank">
+              <Button variant="dark" size="sm" className="me-2" href={`https://twitch.tv/videos/${segmentId}`} target="blank">
                 <i className="fab fa-twitch" />
                 <span>Twitch</span>
               </Button>
@@ -355,7 +346,7 @@ export default class SegmentPlayer extends React.Component {
                 target="blank"
                 variant="dark"
                 size="sm"
-                className="mr-2"
+                className="me-2"
               >
                 <i className="fab fa-youtube" />
                 <span>Youtube</span>
@@ -381,7 +372,7 @@ export default class SegmentPlayer extends React.Component {
                 href={torrent}
                 variant="dark"
                 size="sm"
-                className="mr-2"
+                className="me-2"
               >
                 <i className="fas fa-download" />
                 <span className="d-none d-xl-inline">Торрент</span>
@@ -401,7 +392,7 @@ export default class SegmentPlayer extends React.Component {
                 />
               )}
             >
-              <Button variant="dark" size="sm" className="mr-2">
+              <Button variant="dark" size="sm" className="me-2">
                 <i className="fas fa-share-square" />
                 <span className="d-none d-xl-inline">Поделиться</span>
               </Button>
@@ -415,7 +406,7 @@ export default class SegmentPlayer extends React.Component {
                 </Tooltip>
               )}
             >
-              <Button variant="dark" size="sm" onClick={() => toggleFullscreen(true)} className="mr-2">
+              <Button variant="dark" size="sm" onClick={() => toggleFullscreen(true)} className="me-2">
                 <i className="fas fa-expand-arrows-alt" />
                 <span className="d-none d-lg-inline">На всё окно</span>
               </Button>
@@ -501,48 +492,26 @@ export default class SegmentPlayer extends React.Component {
     );
   }
 
-  onPlaylistAccordionSelect(eventKey) {
-    this.setState({ playlistAccordion: eventKey });
-  }
-
   renderPlaylist({ autoExpand = false, fullHeight = false } = {}) {
     const {
-      segmentRef,
-      playlists,
-      playlistAccordion,
+      segment,
+      game,
+      relatedGames,
     } = this.state;
 
-    if (!playlists) return null;
-
-    const playlistComp = (
-      playlists && playlists.map((playlist) => {
-        const { ref: { game: { id } } } = playlist[0];
-
-        return (
-          <Playlist
-            key={id}
-            id={id}
-            items={playlist}
-            activeItem={find(playlist, ({ ref }) => ref.segment === segmentRef.segment)}
-            fullHeight={fullHeight}
-            opened={playlistAccordion === id}
-          />
-        );
-      })
-    );
+    if (!relatedGames) return null;
 
     return (
       <>
         <div className="sidebar-header">
           Плейлист
         </div>
-        <Accordion
-          onSelect={this.onPlaylistAccordionSelect}
-          activeKey={autoExpand ? playlistAccordion : undefined}
-          className={fullHeight ? 'h-100 d-flex flex-column' : undefined}
-        >
-          {playlistComp}
-        </Accordion>
+        <Playlist
+          games={relatedGames}
+          game={game}
+          segment={segment}
+          {...{ autoExpand, fullHeight }}
+        />
       </>
     );
   }
@@ -551,14 +520,14 @@ export default class SegmentPlayer extends React.Component {
     const {
       sidebarCollapsed,
       timecodes,
-      playlists,
+      relatedGames,
       segment: {
         subtitles,
       },
     } = this.state;
 
     const leftSidebarClasses = [
-      'col-sidebar border-right',
+      'col-sidebar border-end',
       sidebarCollapsed ? 'collapsed' : '',
     ].join(' ');
 
@@ -568,7 +537,7 @@ export default class SegmentPlayer extends React.Component {
 
     return (
       <>
-        {(timecodes || playlists) && (
+        {(timecodes || relatedGames) && (
           <MediaQuery minDeviceWidth={1200}>
             <Col className={leftSidebarClasses} tabIndex="0">
               <div className="sidebar-row-overlay flex-row-reverse">
@@ -585,11 +554,11 @@ export default class SegmentPlayer extends React.Component {
                 </Button>
               </div>
 
-              {playlists && this.renderPlaylist()}
+              {relatedGames && this.renderPlaylist()}
               {timecodes && this.renderTimecodes()}
 
               <div className="collapsed-content">
-                {playlists && (
+                {relatedGames && (
                   <div className="sidebar-header">Плейлист</div>
                 )}
                 {timecodes && (
@@ -603,14 +572,14 @@ export default class SegmentPlayer extends React.Component {
           </MediaQuery>
         )}
 
-        {(timecodes || playlists) && (
+        {(timecodes || relatedGames) && (
           <MediaQuery minDeviceWidth={768} maxDeviceWidth={1199}>
-            <Col className="col-sidebar border-right collapsed" tabIndex="0">
-              {playlists && this.renderPlaylist()}
+            <Col className="col-sidebar border-end collapsed" tabIndex="0">
+              {relatedGames && this.renderPlaylist()}
               {timecodes && this.renderTimecodes()}
 
               <div className="collapsed-content">
-                {playlists && (
+                {relatedGames && (
                   <div className="sidebar-header">Плейлист</div>
                 )}
                 {timecodes && (
@@ -630,7 +599,7 @@ export default class SegmentPlayer extends React.Component {
       chatContainer,
       state: {
         fullscreen,
-        playlists,
+        relatedGames,
         timecodes,
         segment: {
           subtitles,
@@ -638,17 +607,17 @@ export default class SegmentPlayer extends React.Component {
       },
     } = this;
 
-    if (!subtitles && !playlists && !timecodes) {
+    if (!subtitles && !relatedGames && !timecodes) {
       return null;
     }
 
     return (
       <MediaQuery minDeviceWidth={768}>
-        <Col className="col-sidebar-wide border-left">
+        <Col className="col-sidebar-wide border-start">
           {(subtitles && !fullscreen) && (
             <Reparentable el={chatContainer} className="flex-1-1-0" />
           )}
-          {(!subtitles && playlists) && this.renderPlaylist()}
+          {(!subtitles && relatedGames) && this.renderPlaylist()}
           {(!subtitles && timecodes) && this.renderTimecodes()}
         </Col>
       </MediaQuery>
@@ -696,7 +665,7 @@ export default class SegmentPlayer extends React.Component {
       chatContainer,
       state: {
         fullscreen,
-        playlists,
+        relatedGames,
         timecodes,
         segment: {
           subtitles,
@@ -713,7 +682,7 @@ export default class SegmentPlayer extends React.Component {
         <MediaQuery maxDeviceWidth={767}>
           <MediaQuery maxDeviceWidth={575}>
             {(subtitlesInTab) => (
-              <Row className="flex-grow-1 flex-shrink-1 no-gutters">
+              <Row className="flex-grow-1 flex-shrink-1 g-0">
                 <Col className="sidebar-content">
                   <Tabs mountOnEnter>
                     <Tab eventKey="description" title="Описание">
@@ -730,8 +699,8 @@ export default class SegmentPlayer extends React.Component {
                       </Tab>
                     )}
 
-                    {playlists && (
-                      <Tab eventKey="playlist" title="Плейлист">
+                    {relatedGames && (
+                      <Tab eventKey="playlist" title="Плейлист" unmountOnExit>
                         {this.renderPlaylist({
                           autoExpand: true,
                           fullHeight: true,
@@ -750,7 +719,7 @@ export default class SegmentPlayer extends React.Component {
                 </Col>
 
                 {subtitles && !subtitlesInTab && (
-                  <Col className="sidebar-content border-left">
+                  <Col className="sidebar-content border-start">
                     {!fullscreen && (
                       <Reparentable el={chatContainer} className="flex-1-1-0" />
                     )}
@@ -804,7 +773,7 @@ export default class SegmentPlayer extends React.Component {
 
         {subtitles && ReactDOM.createPortal(this.renderChat(), chatContainer)}
 
-        <Row className="flex-grow-1 no-gutters">
+        <Row className="flex-grow-1 g-0">
           {this.renderLeftSidebar()}
 
           <Col className="d-flex flex-column">

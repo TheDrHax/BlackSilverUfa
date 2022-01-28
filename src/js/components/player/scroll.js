@@ -2,10 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import CustomScroll from 'react-custom-scroll';
 import Measure from 'react-measure';
+import animateScrollTo from 'animated-scroll-to';
 
 export default class Scroll extends React.Component {
   static propTypes = {
     scrollToSelector: PropTypes.string,
+    smooth: PropTypes.bool,
     flex: PropTypes.string,
     heightRelativeToParent: PropTypes.string,
     keepAtBottom: PropTypes.bool,
@@ -14,6 +16,7 @@ export default class Scroll extends React.Component {
 
   static defaultProps = {
     scrollToSelector: null,
+    smooth: false,
     flex: null,
     heightRelativeToParent: null,
     keepAtBottom: false,
@@ -39,6 +42,7 @@ export default class Scroll extends React.Component {
   }
 
   scrollToSelector(selector) {
+    const { smooth } = this.props;
     const scroll = this.scrollRef.current;
     const container = scroll.innerContainerRef.current;
     const node = container.querySelector(selector);
@@ -47,8 +51,11 @@ export default class Scroll extends React.Component {
       // We need to wait for child components to render
       // This is probably a bad solution
       setTimeout(() => {
-        scroll.updateScrollPosition(node.offsetTop - container.offsetTop);
-      }, 10);
+        animateScrollTo(node, {
+          elementToScroll: container,
+          maxDuration: smooth ? 1000 : 0,
+        });
+      }, 100);
     }
   }
 
@@ -63,10 +70,13 @@ export default class Scroll extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    const { scrollToSelector } = this.props;
+    const { scrollToSelector, children } = this.props;
 
-    if (scrollToSelector && prevProps.scrollToSelector !== scrollToSelector) {
-      this.scrollToSelector(scrollToSelector);
+    if (scrollToSelector) {
+      if (prevProps.scrollToSelector !== scrollToSelector
+          || prevProps.children !== children) {
+        this.scrollToSelector(scrollToSelector);
+      }
     }
   }
 

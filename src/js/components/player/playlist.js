@@ -1,146 +1,120 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Accordion, Badge, Button, ListGroup } from 'react-bootstrap';
+import { Badge, Button, Collapse, InputGroup, ListGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Scroll from './scroll';
+import { Resizable } from 're-resizable';
 import Sugar from '../../utils/sugar';
+import { Game, Segment } from '../../data-types';
+import Scroll from './scroll';
 
-export default class Playlist extends React.Component {
-  static propTypes = {
-    id: PropTypes.string,
-    items: PropTypes.array.isRequired,
-    activeItem: PropTypes.object.isRequired,
-    fullHeight: PropTypes.bool,
-    opened: PropTypes.bool,
-  }
+const BUTTON_STYLE = { variant: 'dark', size: 'sm' };
 
-  static defaultProps = {
-    id: 'streams',
-    fullHeight: false,
-    opened: false,
-  }
-
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      collapsed: !props.opened,
-    };
-  }
-
-  componentDidUpdate(prevProps) {
-    const { opened: prevOpened } = prevProps;
-    const { opened } = this.props;
-
-    if (prevOpened !== opened) {
-      setTimeout(() => {
-        this.setState({ collapsed: !opened });
-      }, 10);
-    }
-  }
-
-  renderNowPlaying() {
-    const { items, activeItem, id } = this.props;
-
-    const activeIndex = items.indexOf(activeItem);
-    const prevItem = activeIndex !== -1 && items[activeIndex - 1];
-    const nextItem = activeIndex !== -1 && items[activeIndex + 1];
-
-    return (
-      <div className="playlist-now">
-        {prevItem ? (
-          <Button as={Link} to={prevItem.ref.url} variant="dark" size="sm">
-            <i className="fas fa-arrow-left" />
-          </Button>
-        ) : (
-          <Button variant="dark" size="sm" disabled>
-            <i className="fas fa-arrow-left" />
-          </Button>
-        )}
-        <Accordion.Toggle
-          as={Button}
-          variant="dark"
-          size="sm"
-          className="border-left border-right now-playing"
-          eventKey={id}
+const SegmentRefList = ({ game, currentSegment }) => (
+  <Scroll heightRelativeToParent="100%" scrollToSelector=".active">
+    <ListGroup className="playlist-streams separator-v">
+      {game.streams.map((segmentRef) => (
+        <ListGroup.Item
+          key={segmentRef.segment}
+          as={Link}
+          to={segmentRef.url}
+          action
+          active={segmentRef.original === currentSegment}
+          className="playlist-streams-item"
         >
-          {activeItem.ref.game.name}
-        </Accordion.Toggle>
-        {nextItem ? (
-          <Button as={Link} to={nextItem.ref.url} variant="dark" size="sm">
-            <i className="fas fa-arrow-right" />
-          </Button>
-        ) : (
-          <Button variant="dark" size="sm" disabled>
-            <i className="fas fa-arrow-right" />
-          </Button>
-        )}
-      </div>
-    );
-  }
+          <span className="flex-grow-1">{segmentRef.name}</span>
+          <span>
+            <Badge pill bg="dark">
+              {Sugar.Date.format(segmentRef.original.date, '{dd}.{MM}')}
+              <br />
+              {segmentRef.original.date.getFullYear()}
+            </Badge>
+          </span>
+        </ListGroup.Item>
+      ))}
+    </ListGroup>
+  </Scroll>
+);
 
-  renderList() {
-    const { items, activeItem: { ref: segmentRef } } = this.props;
+SegmentRefList.propTypes = {
+  game: Game.isRequired,
+  currentSegment: Segment.isRequired,
+};
 
-    return (
-      <ListGroup className="playlist">
-        {items.map(({ ref, segment }) => (
-          <ListGroup.Item
-            key={ref.segment}
-            as={Link}
-            to={ref.url}
-            action
-            active={ref === segmentRef}
-            className="d-flex flex-row align-items-center"
-          >
-            <span className="flex-grow-1">{ref.name}</span>
-            <span>
-              <Badge pill variant="dark">
-                {Sugar.Date.format(segment.date, '{dd}.{MM}.{yy}')}
-              </Badge>
-            </span>
-          </ListGroup.Item>
-        ))}
-      </ListGroup>
-    );
-  }
+const CollapseWrapper = ({ open, children }) => (
+  <Collapse in={open}>
+    <div>
+      <Resizable defaultSize={{ height: '30vh' }} enable={{ bottom: true }}>
+        {children}
+      </Resizable>
+    </div>
+  </Collapse>
+);
 
-  renderScrollableList() {
-    const { items, fullHeight } = this.props;
-    const { collapsed } = this.state;
+CollapseWrapper.propTypes = {
+  open: PropTypes.bool.isRequired,
+};
 
-    if (!fullHeight && items.length <= 4) {
-      return this.renderList();
-    }
+export const Playlist = ({ games, game, segment, autoExpand, fullHeight }) => {
+  const [currentGame, setGame] = useState(game);
+  const [open, setOpen] = useState(autoExpand);
 
-    const component = (
-      <Scroll
-        heightRelativeToParent="100%"
-        scrollToSelector={collapsed ? undefined : '.active'}
-      >
-        {this.renderList()}
-      </Scroll>
-    );
+  const activeIndex = games.indexOf(currentGame);
+  const prevItem = activeIndex !== 0 && games[activeIndex - 1];
+  const nextItem = activeIndex !== games.length - 1 && games[activeIndex + 1];
 
-    if (fullHeight) return component;
+  return (
+    <>
+      <InputGroup className="d-flex flex-row playlist-header separator-h">
+        <Button
+          onClick={() => setGame(prevItem)}
+          disabled={!prevItem}
+          {...BUTTON_STYLE}
+        >
+          <i className="fas fa-arrow-left" />
+        </Button>
+        <Button
+          onClick={() => setOpen(!open)}
+          className="flex-1-0-0"
+          disabled={fullHeight}
+          {...BUTTON_STYLE}
+        >
+          {currentGame.name}
+        </Button>
+        <Button
+          onClick={() => setGame(nextItem)}
+          disabled={!nextItem}
+          {...BUTTON_STYLE}
+        >
+          <i className="fas fa-arrow-right" />
+        </Button>
+      </InputGroup>
 
-    return (
-      <div style={{ height: '125px' }}>
-        {component}
-      </div>
-    );
-  }
+      {fullHeight ? (
+        <SegmentRefList
+          game={currentGame}
+          currentSegment={segment}
+        />
+      ) : (
+        <CollapseWrapper open={open}>
+          <SegmentRefList
+            game={currentGame}
+            currentSegment={segment}
+          />
+        </CollapseWrapper>
+      )}
+    </>
+  );
+};
 
-  render() {
-    const { id } = this.props;
+Playlist.propTypes = {
+  games: PropTypes.arrayOf(Game).isRequired,
+  game: Game.isRequired,
+  segment: Segment.isRequired,
+  autoExpand: PropTypes.bool,
+  fullHeight: PropTypes.bool,
+};
 
-    return (
-      <>
-        {this.renderNowPlaying()}
-        <Accordion.Collapse eventKey={id} className="flex-1-1-0">
-          {this.renderScrollableList()}
-        </Accordion.Collapse>
-      </>
-    );
-  }
-}
+Playlist.defaultProps = {
+  autoExpand: false,
+  fullHeight: false,
+};

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 // Components
-import { Button, Form, InputGroup } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 // Namespace
 import { searchPage as t } from '../../constants/texts';
 
@@ -26,9 +26,7 @@ const TextFilter = ({ initValue, onSubmit }) => {
         onChange={({ target }) => setValue(target.value)}
         onKeyPress={handleKeyPress}
       />
-      <InputGroup.Append>
-        <Button variant="primary" onClick={() => onSubmit(value)}>{t.search}</Button>
-      </InputGroup.Append>
+      <Button variant="primary" onClick={() => onSubmit(value)}>{t.search}</Button>
     </>
   );
 };

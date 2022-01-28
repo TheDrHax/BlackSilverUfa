@@ -136,7 +136,7 @@ const DonatePage = () => (
         Неплохо, да? 👀
       </p>
     </Row>
-    <Row className="text-white mt-4 ml-2 mr-2 d-flex justify-content-center">
+    <Row className="text-white mt-4 ms-2 me-2 d-flex justify-content-center">
       <CardModal name="Сбер" imgSrc="/static/images/sber.png">
         <p>Номер карты: <code>4274320057156229</code></p>
         <p>Имя (для проверки): Дмитрий Степанович К.</p>

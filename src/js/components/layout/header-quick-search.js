@@ -70,7 +70,6 @@ const HeaderQuickSearch = ({ indexStore, segmentsStore }) => {
   return (
     <Nav
       as={Form}
-      inline
       autoComplete="false"
       onSubmit={handleSubmit}
     >
