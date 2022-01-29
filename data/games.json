@@ -3280,6 +3280,10 @@
       { "name": "3", "segment": "1221836695,1222013740", "subrefs": [
         { "name": "3" },
         { "name": "3", "start": 26954 }
+      ] },
+      { "name": "4 / The Following #1", "segment": "1279881006", "subrefs": [
+        { "name": "4" },
+        { "name": "The Following #1", "start": 16428 }
       ] }
     ]
   },
