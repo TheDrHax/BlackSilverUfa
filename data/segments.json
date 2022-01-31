@@ -10008,7 +10008,6 @@
     "name": "Terminator: Resistance - Annihilation Line #1 / Heavenly Bodies",
     "date": "2021-12-11",
     "cuts": [[33, 38]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1230440174.torrent",
     "games": ["terminator-resistance", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1230440174+0.ass"
   },
@@ -10307,5 +10306,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1281171085.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1281171085.ass"
+  },
+  "1282188188": {
+    "abs_start": 0, "abs_end": 28969, "duration": 0,
+    "name": "Dying Light - The Following #2",
+    "date": "2022-01-31",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1282188188.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1282188188.torrent",
+    "games": ["dying-light"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1282188188.ass"
   }
 }

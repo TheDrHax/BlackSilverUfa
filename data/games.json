@@ -3274,7 +3274,7 @@
   },
   {
     "name": "Dying Light",
-    "category": "ongoing",
+    "category": "finished",
     "id": "dying-light",
     "streams": [
       { "name": "1", "segment": "1073309664", "subrefs": [
@@ -3289,7 +3289,8 @@
       { "name": "4 / The Following #1", "segment": "1279881006", "subrefs": [
         { "name": "4" },
         { "name": "The Following #1", "start": 16428 }
-      ] }
+      ] },
+      { "name": "The Following #2", "segment": "1282188188" }
     ]
   },
   {
