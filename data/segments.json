@@ -10015,7 +10015,6 @@
     "youtube": "BJcbe05GmOY", "abs_start": 0, "abs_end": 32453, "duration": 32453,
     "name": "Halo Infinite #4 / Terminator: Resistance - Annihilation Line #2",
     "date": "2021-12-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1231359432.torrent",
     "games": ["halo-infinite", "terminator-resistance"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1231359432.ass"
   },
@@ -10315,5 +10314,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1282188188.torrent",
     "games": ["dying-light"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1282188188.ass"
+  },
+  "1283289423": {
+    "abs_start": 0, "abs_end": 17423, "duration": 0,
+    "name": "Bloodborne PSX / Serious Sam: Siberian Mayhem",
+    "date": "2022-02-01",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1283289423.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1283289423.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1283289423.ass"
   }
 }

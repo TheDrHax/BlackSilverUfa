@@ -3120,7 +3120,11 @@
         { "name": "Experiment: Groceries", "start": 11438 },
         { "name": "HorrorDriven: A story for the road (демо)", "start": 16159 }
       ] },
-      { "name": "Metro Exodus: Enhanced Edition", "segment": "1274362855" }
+      { "name": "Metro Exodus: Enhanced Edition", "segment": "1274362855" },
+      { "name": "Bloodborne PSX / Serious Sam: Siberian Mayhem", "segment": "1283289423", "subrefs": [
+        { "name": "Bloodborne PSX" },
+        { "name": "Serious Sam: Siberian Mayhem", "start": 6098 }
+      ] }
     ]
   },
   {
