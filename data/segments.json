@@ -10041,7 +10041,6 @@
     "youtube": "oiGHVBBgR0Q", "abs_start": 0, "abs_end": 24599, "duration": 24599,
     "name": "Sifu #2 (демо) / Final Fantasy VII Remake - PC / GTFO #4 (релиз)",
     "date": "2021-12-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1235847606.torrent",
     "games": ["sifu", "ff-vii-remake", "gtfo"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1235847606.ass"
   },
@@ -10326,5 +10325,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1283289423.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1283289423.ass"
+  },
+  "1285368105": {
+    "abs_start": 0, "abs_end": 35485, "duration": 0,
+    "name": "Dying Light 2: Stay Human #1",
+    "date": "2022-02-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1285368105.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1285368105.torrent",
+    "games": ["dying-light-2"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1285368105.ass"
   }
 }
