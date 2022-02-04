@@ -332,10 +332,12 @@
     "games": ["heavy-rain"]
   },
   "001602291": {
-    "youtube": "e9VLRn_gFzM", "official": false, "abs_start": 0, "abs_end": 5794, "duration": 5794,
+    "abs_start": 0, "abs_end": 0, "duration": 0,
     "name": "Heavy Rain #1 (часть 2)",
     "date": "2016-02-29",
-    "games": ["heavy-rain"]
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001602291.mp4",
+    "games": ["heavy-rain"],
+    "note": "На YouTube установлено возрастное ограничение."
   },
   "001602292": {
     "youtube": "QnDDhQYhHyc", "official": false, "abs_start": 0, "abs_end": 5467, "duration": 5467,
@@ -717,9 +719,10 @@
     "games": ["nier-automata", "first-2016", "ff-xv"]
   },
   "001612290": {
-    "youtube": "CjeiayoIxag", "official": false, "abs_start": 0, "abs_end": 7365, "duration": 7365,
+    "abs_start": 0, "abs_end": 0, "duration": 0,
     "name": "Посылки (29.12.16)",
     "date": "2016-12-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001612290.mp4",
     "games": ["unboxing"]
   },
   "001701050": {
@@ -2216,12 +2219,12 @@
     "subtitles": "https://bsu.drhx.ru/chats/2018/v260173384.ass"
   },
   "260957900": {
-    "youtube": "5h6Dqu1gGV0", "official": false, "abs_start": 0, "abs_end": 14174, "duration": 14174,
+    "abs_start": 0, "abs_end": 14239, "duration": 0,
     "name": "Dark Souls 2: Scholar of the First Sin #1",
     "date": "2018-05-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/260957900.mp4",
     "games": ["ds2-scholar"],
-    "subtitles": "https://bsu.drhx.ru/chats/2018/v260957900.ass",
-    "note": "Официальная запись <a href=\"https://youtu.be/sI6Gf1iL3zI\">заблокирована</a>. Просмотр заблокирован в Японии."
+    "subtitles": "https://bsu.drhx.ru/chats/2018/v260957900.ass"
   },
   "262352362": {
     "youtube": "B_TKtcBTHRI", "official": false, "abs_start": 0, "abs_end": 19026, "duration": 19026,
@@ -7190,9 +7193,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v746844135.ass"
   },
   "747742325": {
-    "youtube": "SMLIMejupXc", "official": false, "abs_start": 0, "abs_end": 21488, "duration": 21488,
+    "abs_start": 0, "abs_end": 21516, "duration": 0,
     "name": "BPM: Bullets Per Minute / Hades #1 / Fall Guys #8 (соло) / Vampire: The Masquerade - Bloodlines #6",
     "date": "2020-09-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/747742325.mp4",
     "games": ["first-2020", "hades", "fall-guys", "vampire-masquerade"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v747742325.ass"
   },
@@ -7436,9 +7440,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v787564730.ass"
   },
   "791632745": {
-    "youtube": "UuxlFRE3bfA", "abs_start": 0, "abs_end": 28804, "duration": 28804,
+    "abs_start": 0, "abs_end": 28835, "duration": 0,
     "name": "Metal Gear Solid V: Ground Zeroes / Metal Gear Solid V: Phantom Pain (злое прохождение) #1",
     "date": "2020-11-04",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/791632745.mp4",
     "games": ["single", "mgs-v-2020"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v791632745.ass"
   },
