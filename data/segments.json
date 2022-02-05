@@ -10053,7 +10053,6 @@
     "youtube": "1p-dYWfcmnA", "abs_start": 0, "abs_end": 21944, "duration": 21944,
     "name": "Dark Souls: Remastered #1 (заново) / Fobia - St. Dinfna Hotel (демо) / Five Nights At Freddy's: Security Breach #2",
     "date": "2021-12-21",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1239503220.torrent",
     "games": ["ds-remastered", "single", "fnaf-sb"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1239503220.ass"
   },
@@ -10336,5 +10335,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1286499697.torrent",
     "games": ["dying-light-2"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1286499697.ass"
+  },
+  "1287739565": {
+    "abs_start": 0, "abs_end": 32058, "duration": 0,
+    "name": "Dying Light 2: Stay Human #3",
+    "date": "2022-02-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1287739565.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1287739565.torrent",
+    "games": ["dying-light-2"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1287739565.ass"
   }
 }
