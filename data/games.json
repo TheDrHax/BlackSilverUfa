@@ -3124,7 +3124,8 @@
       { "name": "Bloodborne PSX / Serious Sam: Siberian Mayhem", "segment": "1283289423", "subrefs": [
         { "name": "Bloodborne PSX" },
         { "name": "Serious Sam: Siberian Mayhem", "start": 6098 }
-      ] }
+      ] },
+      { "name": "OlliOlli World", "segment": "1290138739" }
     ]
   },
   {
@@ -3161,11 +3162,12 @@
   },
   {
     "name": "Sifu",
-    "category": "infinite",
+    "category": "ongoing",
     "id": "sifu",
     "streams": [
       { "name": "1 (демо)", "segment": "1234081084", "start": 20527 },
-      { "name": "2 (демо)", "segment": "1235847606" }
+      { "name": "2", "segment": "1235847606" },
+      { "name": "3 (релиз)", "segment": "1290138739", "start": 8144 }
     ]
   },
   {
