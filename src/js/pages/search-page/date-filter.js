@@ -45,11 +45,6 @@ const getIntervalSummary = ({ date, view, segments, maxDate }) => {
   return (<div>{renderTemplate('{n} стрим{n#,а,ов}', { n: count })}</div>);
 };
 
-const getDayClassName = ({ date, segments }) => {
-  const count = segments.count({ date: { $dteq: date } });
-  return (count ? 'bg-lightgreen' : 'bg-lightcoral');
-};
-
 const DateFilter = ({ value: { from, to, scale }, segments, onChange, ...rest }) => {
   const minDate = new Date(segments.min('date'));
   const maxDate = new Date(segments.max('date'));
@@ -74,7 +69,7 @@ const DateFilter = ({ value: { from, to, scale }, segments, onChange, ...rest })
               from={from}
               to={to}
               {...datePickerConfig}
-              tileClassName={(input) => getDayClassName({ ...input, segments })}
+              tileDisabled={({ date }) => segments.count({ date: { $dteq: date } }) === 0}
               onChange={(input) => {
                 onChange(input);
               }}
