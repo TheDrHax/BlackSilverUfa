@@ -1,4 +1,5 @@
 from datetime import datetime
+import clipboard
 import requests
 from time import sleep
 from tcd.twitch import Channel
@@ -23,6 +24,7 @@ class TimecodeHelper:
         t = self.time() - self.start - T(self.offset)
         if t < 0:
             t += '24:00:00'
+        clipboard.copy(str(t))
         return t
 
     get = __call__
