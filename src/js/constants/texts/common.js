@@ -7,6 +7,7 @@ export const common = {
     networksTitle: 'Социальные сети',
     repositoryLabel: 'Репозиторий GitHub',
     channelLabel: 'Канал BlackUFA_Monitor',
+    oldSiteLabel: 'Старый сайт архива',
     denialLabel: 'Отказ от участия в статистике сайта',
     vkgroupLabel: 'Группа ВКонтакте',
     vkLabel: 'Страница ВКонтакте',

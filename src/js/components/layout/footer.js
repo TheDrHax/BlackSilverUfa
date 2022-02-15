@@ -19,6 +19,10 @@ export const USEFUL_LINKS = [
     iconClass: 'fa-telegram',
   },
   {
+    label: t.footer.oldSiteLabel,
+    link: 'https://old.bsu.drhx.ru',
+  },
+  {
     label: t.footer.denialLabel,
     link: 'https://matomo.thedrhax.pw/index.php?module=CoreAdminHome&action=optOut&language=ru',
   },
@@ -58,6 +62,11 @@ export const NETWORK_LINKS = [
     link: 'https://twitter.com/Sempai_Black',
     iconClass: 'fa-twitter',
   },
+  {
+    label: 'Discord',
+    link: 'https://discord.com/invite/bsuanddw',
+    iconClass: 'fa-discord',
+  },
 ];
 
 const Footer = () => {
@@ -72,14 +81,14 @@ const Footer = () => {
         </Row>
       </Container>
       <div className="footer-copyright py-3 text-center small">
-        <i className="far fa-copyright" />
+        <i className="far fa-copyright" />{' '}
         {renderTemplate(t.footer.signature, { now })}
         {' '}
         <a href="https://www.youtube.com/watch?v=Bxj09aAOFaI&lc=UgwQmdNhl4TMNn9-Gg94AaABAg.8ZY93MRq32E8ZY9W3KGSJS">
           {t.footer.commentLink}
         </a>
         {' '}
-        <a href="/static/images/answer.jpg">{t.footer.screenshotLink}</a>
+        (<a href="/static/images/answer.jpg">{t.footer.screenshotLink}</a>)
         .
       </div>
     </footer>
