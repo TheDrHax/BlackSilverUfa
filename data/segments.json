@@ -10072,7 +10072,6 @@
     "youtube": "bp-4X4S8rjs", "abs_start": 0, "abs_end": 13939, "duration": 13939,
     "name": "Dark Souls: Remastered #2",
     "date": "2021-12-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1242283203.torrent",
     "games": ["ds-remastered"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1242283203.ass"
   },
@@ -10373,5 +10372,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1294441814.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1294441814.ass"
+  },
+  "1299859703": {
+    "abs_start": 0, "abs_end": 13485, "duration": 0,
+    "name": "Blood West / Kingdom of the Dead",
+    "date": "2022-02-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1299859703.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1299859703.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1299859703.ass"
   }
 }

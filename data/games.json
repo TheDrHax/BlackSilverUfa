@@ -3126,7 +3126,11 @@
         { "name": "Bloodborne PSX" },
         { "name": "Serious Sam: Siberian Mayhem", "start": 6098 }
       ] },
-      { "name": "OlliOlli World", "segment": "1290138739" }
+      { "name": "OlliOlli World", "segment": "1290138739" },
+      { "name": "Blood West / Kingdom of the Dead", "segment": "1299859703", "subrefs": [
+        { "name": "Blood West" },
+        { "name": "Kingdom of the Dead", "start": 10383 }
+      ] }
     ]
   },
   {
