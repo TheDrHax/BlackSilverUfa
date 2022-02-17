@@ -3130,6 +3130,10 @@
       { "name": "Blood West / Kingdom of the Dead", "segment": "1299859703", "subrefs": [
         { "name": "Blood West" },
         { "name": "Kingdom of the Dead", "start": 10383 }
+      ] },
+      { "name": "Horizon Zero Dawn / Horizon Forbidden West", "segment": "1300779617", "subrefs": [
+        { "name": "Horizon Zero Dawn" },
+        { "name": "Horizon Forbidden West", "start": 3539 }
       ] }
     ]
   },
