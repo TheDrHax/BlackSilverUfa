@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import * as Loki from 'lokijs';
 import { last } from 'lodash';
 import { Button, ListGroup, ListGroupItem, OverlayTrigger, Spinner, Tooltip } from 'react-bootstrap';
-import fetchline from 'fetchline';
 import Timecodes from './timecodes';
 import Scroll from './scroll';
 import Persist from '../../utils/persist';
@@ -43,12 +42,15 @@ export default class Chat extends React.Component {
     this.db = new Loki(last(subtitles.split('/')));
     this.data = this.db.addCollection('subtitles');
 
-    const iterator = fetchline(subtitles);
+    const lines = await fetch(subtitles)
+      .then((res) => res.text())
+      .then((res) => res.split('\n'));
+
     const lineBreak = /\\N/g;
 
     let firstLine = true;
 
-    for await (let line of iterator) {
+    for (let line of lines) {
       if (firstLine) {
         if (!line.startsWith('[Script Info]')) {
           throw new Error('Файл повреждён или недоступен');
