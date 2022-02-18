@@ -10093,7 +10093,6 @@
     "youtube": "R8Hv2HFmML4", "abs_start": 0, "abs_end": 21851, "duration": 21851,
     "name": "Five Nights At Freddy's: Security Breach #4 / Project Zomboid #1 (с Артёмом)",
     "date": "2021-12-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1244748634.torrent",
     "games": ["fnaf-sb", "zomboid"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1244748634.ass"
   },
@@ -10101,7 +10100,6 @@
     "youtube": "_HEvBsnwhfE", "abs_start": 0, "abs_end": 22815, "duration": 22815,
     "name": "Five Nights At Freddy's: Security Breach #5 / Happy's Humble Burger Farm #3",
     "date": "2021-12-28",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1245734451.torrent",
     "games": ["fnaf-sb", "hhbf"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1245734451.ass"
   },
@@ -10379,10 +10377,19 @@
   },
   "1300779617": {
     "youtube": "ukKL8fLkWRc", "abs_start": 0, "abs_end": 32770, "duration": 32770,
-    "name": "Horizon Zero Dawn / Horizon Forbidden West",
+    "name": "Horizon Zero Dawn / Horizon Forbidden West #1",
     "date": "2022-02-17",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1300779617.torrent",
-    "games": ["first-2022"],
+    "games": ["first-2022", "horizon-fw"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1300779617.ass"
+  },
+  "1301849396": {
+    "abs_start": 0, "abs_end": 37054, "duration": 0,
+    "name": "Horizon Forbidden West #2",
+    "date": "2022-02-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1301849396.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1301849396.torrent",
+    "games": ["horizon-fw"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1301849396.ass"
   }
 }
