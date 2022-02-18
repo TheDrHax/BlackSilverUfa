@@ -12,6 +12,7 @@ export default class Scroll extends React.Component {
     heightRelativeToParent: PropTypes.string,
     keepAtBottom: PropTypes.bool,
     bottomSelector: PropTypes.string,
+    contentKey: PropTypes.any,
   }
 
   static defaultProps = {
@@ -21,6 +22,7 @@ export default class Scroll extends React.Component {
     heightRelativeToParent: null,
     keepAtBottom: false,
     bottomSelector: '* + :last-child',
+    contentKey: null,
   }
 
   constructor(props) {
@@ -70,11 +72,11 @@ export default class Scroll extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    const { scrollToSelector, children } = this.props;
+    const { scrollToSelector, contentKey } = this.props;
 
     if (scrollToSelector) {
       if (prevProps.scrollToSelector !== scrollToSelector
-          || prevProps.children !== children) {
+          || prevProps.contentKey !== contentKey) {
         this.scrollToSelector(scrollToSelector);
       }
     }

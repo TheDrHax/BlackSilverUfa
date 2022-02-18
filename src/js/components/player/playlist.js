@@ -9,8 +9,8 @@ import Scroll from './scroll';
 
 const BUTTON_STYLE = { variant: 'dark', size: 'sm' };
 
-const SegmentRefList = ({ game, currentSegment }) => (
-  <Scroll heightRelativeToParent="100%" scrollToSelector=".active">
+const SegmentRefList = ({ game, currentSegment, contentKey }) => (
+  <Scroll heightRelativeToParent="100%" scrollToSelector=".active" contentKey={contentKey}>
     <ListGroup className="playlist-streams separator-v">
       {game.streams.map((segmentRef) => (
         <ListGroup.Item
@@ -38,6 +38,11 @@ const SegmentRefList = ({ game, currentSegment }) => (
 SegmentRefList.propTypes = {
   game: Game.isRequired,
   currentSegment: Segment.isRequired,
+  contentKey: PropTypes.any,
+};
+
+SegmentRefList.defaultProps = {
+  contentKey: null,
 };
 
 const CollapseWrapper = ({ open, children }) => (
@@ -99,6 +104,7 @@ export const Playlist = ({ games, game, segment, autoExpand, fullHeight }) => {
           <SegmentRefList
             game={currentGame}
             currentSegment={segment}
+            contentKey={currentGame.id + open}
           />
         </CollapseWrapper>
       )}
