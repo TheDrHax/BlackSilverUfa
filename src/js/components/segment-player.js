@@ -5,6 +5,7 @@ import {
   Col,
   ListGroup,
   OverlayTrigger,
+  Ratio,
   Row,
   Tab,
   Tabs,
@@ -254,7 +255,9 @@ export default class SegmentPlayer extends React.Component {
     return (
       <Row>
         <Col>
-          <Player {...playerProps} />
+          <Ratio aspectRatio="16x9">
+            <Player {...playerProps} />
+          </Ratio>
         </Col>
       </Row>
     );

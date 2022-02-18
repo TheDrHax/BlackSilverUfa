@@ -799,7 +799,7 @@ i.fab + span, i.fas + span, i.far + span, span + i.fas {
   background-color: #000;
   
   > .plyr:not(:fullscreen):not(.plyr--fullscreen-fallback) {
-    max-width: calc((#{$contentHeight} - 50px) / 9 * 16);
+    height: 100%;
     margin: auto;
   }
 }
