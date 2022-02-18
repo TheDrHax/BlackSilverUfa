@@ -1,5 +1,6 @@
 export default {
   HOME: '/',
+  SEARCH: '/search',
   REDIRECT: '/r',
   PLAYER: '/play/:game/:segment',
   GAME: '/play/:game',

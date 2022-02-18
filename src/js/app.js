@@ -15,11 +15,10 @@ import { flowRight } from 'lodash';
 import { common as t } from './constants/texts';
 import PATHS from './constants/urls';
 // Components
-import { SearchPage, GamePage } from './pages';
+import { SearchPage, GamePage, MainPage, DonatePage } from './pages';
 import PlayerPage from './components/segment-player';
 import { RedirectLinks, RedirectR } from './components/redirects';
 import { Layout } from './components';
-import DonatePage from './pages/donate-page';
 
 const Providers = flowRight([
   (c) => <StrictMode>{c}</StrictMode>,
@@ -37,6 +36,7 @@ const App = () => (
     </Helmet>
     <Switch>
       <Route path={PATHS.PLAYER} component={PlayerPage} />
+      <Route path={PATHS.SEARCH} component={SearchPage} />
       <Route path={PATHS.GAME} component={GamePage} />
       <Route path={PATHS.LINK} component={RedirectLinks} />
       <Route path={PATHS.REDIRECT} component={RedirectR} />
@@ -44,9 +44,19 @@ const App = () => (
       <Route
         exact
         path={PATHS.HOME}
-        render={({ location }) => (location.hash.startsWith('#/')
-          ? <Redirect to={location.hash.substring(1)} />
-          : <SearchPage />)}
+        render={({ location }) => {
+          if (location.hash.startsWith('#/')) {
+            return <Redirect to={location.hash.substring(1)} />;
+          }
+
+          const search = new URLSearchParams(location.search);
+
+          if (search.get('q')) {
+            return <Redirect to={PATHS.SEARCH + location.search} />;
+          }
+
+          return <MainPage />;
+        }}
       />
       <Route path="*">
         <Layout flex title={t.notFoundTitle}>

@@ -45,7 +45,7 @@ CardModal.propTypes = {
   imgSrc: PropTypes.string.isRequired,
 };
 
-const DonatePage = () => (
+export const DonatePage = () => (
   <Layout isLoading={false} title="Поддержать проект">
     <Row>
       <Col>
@@ -173,5 +173,3 @@ const DonatePage = () => (
     </Row>
   </Layout>
 );
-
-export default DonatePage;

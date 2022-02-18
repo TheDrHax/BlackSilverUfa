@@ -10,9 +10,10 @@ from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
 
 from . import _
-from ..utils.chats import download_missing as download_chats
 from ..data import config, streams, games, categories
 from ..config import DEBUG
+from .stats import get_stats
+from .chats import download_missing as download_chats
 
 
 def timed(label):
@@ -49,6 +50,9 @@ def build_data():
 
         # Generate subtitles
         generate_subtitles(segment)
+
+    with open(_('data/stats.json'), 'w') as fo:
+        json.dump(get_stats(), fo, ensure_ascii=False, indent=2)
 
     with open(_('data/timecodes.json'), 'w') as fo:
         json.dump(tc_dict, fo, ensure_ascii=False, indent=2)

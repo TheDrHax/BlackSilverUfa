@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const StreamCard = ({ segmentRef }) => (
   <Col className="col-card" xs={6} md={4} lg={3} xl={2}>
-    <Card>
+    <Card className="card-game">
       <Link to={segmentRef.url}>
         <Card.Img variant="top" src={segmentRef.original.thumbnail} />
         <Card.ImgOverlay className="overlay-transparent-bottom bg-dark text-white">
