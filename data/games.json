@@ -3136,11 +3136,12 @@
   },
   {
     "name": "Horizon Forbidden West",
-    "category": "ongoing",
+    "category": "finished",
     "id": "horizon-fw",
     "streams": [
       { "name": "1", "segment": "1300779617", "start": 3539 },
-      { "name": "2", "segment": "1301849396" }
+      { "name": "2", "segment": "1301849396" },
+      { "name": "3", "segment": "1303041033" }
     ]
   },
   {
