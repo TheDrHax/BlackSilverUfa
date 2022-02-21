@@ -39,8 +39,8 @@ const DangerSpan = ({ children }) => (
   <span dangerouslySetInnerHTML={{ __html: children }} />
 );
 
-export const Timecodes = ({ className, data, ...rest }) => (
-  <ListGroup className={['timecodes-list', className].join(' ')}>
+export const Timecodes = React.forwardRef(({ className, data, ...rest }, ref) => (
+  <ListGroup ref={ref} className={['timecodes-list', className].join(' ')}>
     {Object.entries(data).map(([key, value]) => {
       if (typeof value === 'string') { // regular timecode
         if (key.indexOf('~') === -1) { // simple time
@@ -101,7 +101,7 @@ export const Timecodes = ({ className, data, ...rest }) => (
       }
     })}
   </ListGroup>
-);
+));
 
 Timecodes.propTypes = {
   className: PropTypes.string,
