@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useQueryParam, StringParam, NumberParam, DateParam, BooleanParam } from 'use-query-params';
-import { Row, Col, Alert } from 'react-bootstrap';
+import { Row, Col, Form } from 'react-bootstrap';
 // Utils
 import flow from 'lodash/flow';
 import animateScrollTo from 'animated-scroll-to';
@@ -17,6 +17,8 @@ import { Layout } from '../../components';
 import ControlPanel from './control-panel';
 import SearchResults from './search-results';
 import { DEFAULT_SCALE } from './constants';
+import { useResponsiveValue } from '../../hooks/use-breakpoints';
+import TextFilter from './text-filter';
 
 const getDateParams = (startDate, endDate) => (endDate
   ? { $between: [startDate, endDate] }
@@ -68,6 +70,7 @@ const SCHEMA_FILTERS = {
 const SCHEMA_SORTING = {
   sortBy: withSquashedDefault(StringParam, 'date'),
   isDesc: withSquashedDefault(BooleanParam, true),
+  limit: withSquashedDefault(NumberParam, 10),
 };
 const INIT_RESULTS = {
   mode: null,
@@ -82,6 +85,7 @@ const SearchPage = () => {
   const [filters, updateFilters] = useComplexQueryState(SCHEMA_FILTERS);
   const [sorting, updateSorting] = useComplexQueryState(SCHEMA_SORTING);
   const [results, updateResults] = useComplexState(INIT_RESULTS);
+  const collapsed = useResponsiveValue([true, true, true, false]);
 
   const submitForm = (event) => {
     event?.preventDefault();
@@ -102,31 +106,50 @@ const SearchPage = () => {
     submitForm();
   }, [data, mode, filters, sorting]);
 
+  const leftSidebarClasses = [
+    'search-control',
+    collapsed ? 'collapsed' : 'border-start',
+  ].filter(Boolean).join(' ');
+
   return (
-    <Layout isLoading={!isReady} title={t.title}>
-      <Row className="pt-3">
-        <Col>
-          <Alert variant="dark">{t.notification}</Alert>
+    <Layout isLoading={!isReady} title={t.title} fluid="lg">
+      <Row className="search">
+        <Col className={leftSidebarClasses}>
+          <ControlPanel
+            mode={mode}
+            filters={filters}
+            sorting={sorting}
+            segments={data.segments}
+            categories={data.categories}
+            onModeChange={setMode}
+            onFiltersChange={updateFilters}
+            onSortingChange={updateSorting}
+          />
+        </Col>
+        <Col className="mt-3">
+          <Row>
+            <Col className="px-4">
+              <TextFilter
+                initValue={filters.q}
+                onSubmit={(q) => updateFilters({ q })}
+              />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              {!!results.mode && (
+                <SearchResults
+                  mode={results.mode}
+                  items={results.items}
+                  limit={sorting.limit}
+                  page={page - 1}
+                  onPageChange={(input) => setPage(input + 1)}
+                />
+              )}
+            </Col>
+          </Row>
         </Col>
       </Row>
-      <ControlPanel
-        mode={mode}
-        filters={filters}
-        sorting={sorting}
-        segments={data.segments}
-        categories={data.categories}
-        onModeChange={setMode}
-        onFiltersChange={updateFilters}
-        onSortingChange={updateSorting}
-      />
-      {!!results.mode && (
-      <SearchResults
-        mode={results.mode}
-        items={results.items}
-        page={page - 1}
-        onPageChange={(input) => setPage(input + 1)}
-      />
-      )}
     </Layout>
   );
 };

@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // Components
-import { InputGroup, Button } from 'react-bootstrap';
-import Dropdown from './dropdown';
+import { InputGroup, Button, Dropdown } from 'react-bootstrap';
 import DateRangePicker from './date-range-picker';
 import DatePicker from './date-picker';
 // Namespace
@@ -53,15 +52,22 @@ const DateFilter = ({ value: { from, to, scale }, segments, onChange, ...rest })
 
   return (
     <InputGroup {...rest}>
-      <Dropdown
-        value={scale}
-        variant="dark"
-        options={SCALES}
-        labels={t.scales}
-        onChange={(input) => {
-          onChange({ from: undefined, to: undefined, scale: input });
-        }}
-      />
+      <Dropdown>
+        <Dropdown.Toggle variant="dark">
+          {t.scales[scale]}
+        </Dropdown.Toggle>
+        <Dropdown.Menu>
+          {SCALES.map((current) => (
+            <Dropdown.Item
+              key={current}
+              active={scale === current}
+              onClick={() => onChange({ from: undefined, to: undefined, scale: current })}
+            >
+              {t.scales[current]}
+            </Dropdown.Item>
+          ))}
+        </Dropdown.Menu>
+      </Dropdown>
       {
         scale === 'month'
           ? (

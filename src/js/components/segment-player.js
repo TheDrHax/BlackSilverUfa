@@ -530,7 +530,7 @@ export default class SegmentPlayer extends React.Component {
     } = this.state;
 
     const leftSidebarClasses = [
-      'col-sidebar border-end',
+      'col-sidebar-narrow border-end',
       sidebarCollapsed ? 'collapsed' : '',
     ].join(' ');
 
@@ -543,22 +543,24 @@ export default class SegmentPlayer extends React.Component {
         {(timecodes || relatedGames) && (
           <MediaQuery minDeviceWidth={1200}>
             <Col className={leftSidebarClasses} tabIndex="0">
-              <div className="sidebar-row-overlay flex-row-reverse">
-                <Button
-                  variant="link"
-                  size="sm"
-                  onClick={this.toggleSidebar}
-                >
-                  {sidebarCollapsed ? (
-                    <i className="fas fa-caret-square-right" />
-                  ) : (
-                    <i className="fas fa-caret-square-left" />
-                  )}
-                </Button>
-              </div>
+              <div className="content">
+                <div className="sidebar-row-overlay flex-row-reverse">
+                  <Button
+                    variant="link"
+                    size="sm"
+                    onClick={this.toggleSidebar}
+                  >
+                    {sidebarCollapsed ? (
+                      <i className="fas fa-caret-square-right" />
+                    ) : (
+                      <i className="fas fa-caret-square-left" />
+                    )}
+                  </Button>
+                </div>
 
-              {relatedGames && this.renderPlaylist()}
-              {timecodes && this.renderTimecodes()}
+                {relatedGames && this.renderPlaylist()}
+                {timecodes && this.renderTimecodes()}
+              </div>
 
               <div className="collapsed-content">
                 {relatedGames && (
@@ -569,17 +571,16 @@ export default class SegmentPlayer extends React.Component {
                 )}
               </div>
             </Col>
-            {sidebarCollapsed && (
-              <div className="sidebar-placeholder" />
-            )}
           </MediaQuery>
         )}
 
         {(timecodes || relatedGames) && (
           <MediaQuery minDeviceWidth={768} maxDeviceWidth={1199}>
-            <Col className="col-sidebar border-end collapsed" tabIndex="0">
-              {relatedGames && this.renderPlaylist()}
-              {timecodes && this.renderTimecodes()}
+            <Col className="col-sidebar-narrow collapsed" tabIndex="0">
+              <div className="content border-end">
+                {relatedGames && this.renderPlaylist()}
+                {timecodes && this.renderTimecodes()}
+              </div>
 
               <div className="collapsed-content">
                 {relatedGames && (
@@ -590,7 +591,6 @@ export default class SegmentPlayer extends React.Component {
                 )}
               </div>
             </Col>
-            <div className="sidebar-placeholder" />
           </MediaQuery>
         )}
       </>

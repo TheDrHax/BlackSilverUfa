@@ -1,6 +1,5 @@
 export const searchPage = {
   title: 'Поиск',
-  notification: 'Поиск ещё находится на стадии разработки. Я планирую добавить больше \nфильтров, сортировку результатов и доработать оформление :)',
   sorting: 'Сортировка',
   category: 'Категория',
   categoryAny: 'Любая',
@@ -9,8 +8,8 @@ export const searchPage = {
   from: 'с',
   to: 'по',
   sortModes: {
-    date: 'дата',
-    stream_count: 'стримы',
+    date: 'по дате',
+    stream_count: 'по количеству стримов',
   },
   modes: {
     segments: 'Стримы',

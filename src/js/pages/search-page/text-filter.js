@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 // Components
-import { Button, Form } from 'react-bootstrap';
+import { Button, Form, InputGroup } from 'react-bootstrap';
 // Namespace
 import { searchPage as t } from '../../constants/texts';
 
@@ -11,14 +11,20 @@ const TextFilter = ({ initValue, onSubmit }) => {
   const [value, setValue] = useState(initValue);
 
   const handleKeyPress = (event) => {
-    if (!ENTER_KEYS.includes(event.code)) return;
+    if (!ENTER_KEYS.includes(event.key)) return;
 
     event.preventDefault();
     onSubmit(value);
   };
 
+  useEffect(() => {
+    if (initValue !== value) {
+      setValue(initValue);
+    }
+  }, [initValue]);
+
   return (
-    <>
+    <InputGroup>
       <Form.Control
         type="text"
         value={value}
@@ -26,8 +32,19 @@ const TextFilter = ({ initValue, onSubmit }) => {
         onChange={({ target }) => setValue(target.value)}
         onKeyPress={handleKeyPress}
       />
+      {value.length > 0 && (
+        <Button
+          variant="danger"
+          onClick={() => {
+            setValue('');
+            onSubmit('');
+          }}
+        >
+          <i className="fas fa-times" />
+        </Button>
+      )}
       <Button variant="primary" onClick={() => onSubmit(value)}>{t.search}</Button>
-    </>
+    </InputGroup>
   );
 };
 

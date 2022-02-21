@@ -57,6 +57,10 @@ $modal-content-bg: $color-bg-dark;
 @import "~react-custom-scroll/dist/customScroll";
 @import "~plyr";
 
+.navbar {
+  min-height: $navbar-height;
+}
+
 .flex-1-0-0 {
   flex: 1 0 0;
 }
@@ -75,6 +79,10 @@ $modal-content-bg: $color-bg-dark;
 
 .fs-8 {
   font-size: 0.8rem !important;
+}
+
+.stretched-link::after {
+  z-index: 0;
 }
 
 a {
@@ -175,7 +183,7 @@ a {
   height: $navbar-height;
 }
 
-$contentHeight: calc(100vh - #{$navbar-height});
+$contentHeight: calc(100vh - $navbar-height);
 
 html, body, #app {
   height: 100vh;
@@ -307,7 +315,7 @@ h3>.badge {
  */
 
 .react-date-picker__calendar {
-  z-index: 2 !important;
+  z-index: 1000 !important;
 }
 
 .react-date-picker__calendar-button {
@@ -345,16 +353,6 @@ h3>.badge {
 
 .bg-lightcoral {
   background-color: lightcoral;
-}
-
-/*
- * Interactive search
- */
-
-.interactive-search-form {
-  .input-group {
-    margin-bottom: $spacer * .5; // .mt-2
-  }
 }
 
 /*
@@ -595,6 +593,13 @@ h3>.badge {
   display: flex;
   flex-direction: column;
 
+  & > .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+  }
+
   & .list-group {
     border-radius: 0;
   }
@@ -688,54 +693,54 @@ h3>.badge {
   flex-direction: column;
 }
 
-.col-sidebar {
+@mixin col-sidebar($width: 240px) {
   @extend .sidebar-content;
 
-  height: #{$contentHeight};
+  flex: 0 0 $width;
+  height: $contentHeight;
   position: sticky;
-  top: #{$navbar-height};
-  z-index: 1;
-  flex: 0 0 240px;
+  top: $navbar-height;
+  z-index: 50;
 
   & > .collapsed-content {
     display: none;
   }
 
   &.collapsed {
-    position: absolute;
-    left: 0;
-    width: 240px;
-    top: #{$navbar-height};
-    transition: margin-left 0.35s ease;
+    max-width: calc(2rem + 1px);
+    border-right: 1px solid $border-color;
 
-    &:not(:focus-within):not(:hover) {
-      margin-left: calc(2rem - 240px);
-      padding-left: calc(240px - 2rem);
+    & > .collapsed-content {
+      width: $contentHeight;
+      height: 100%;
 
-      & > *:not(.collapsed-content) {
-        display: none !important;
+      display: flex;
+      flex-direction: row;
+
+      transform-origin: top left;
+      transform: rotate(90deg) translateY(-2rem);
+
+      & > .sidebar-header {
+        width: unset;
+        flex-grow: 1;
+        transform: rotate(180deg);
+        border: none;
       }
+    }
 
-      & > .collapsed-content {
-        display: flex;
-        flex-direction: row;
-        width: calc(100vh - #{$navbar-height});
-        transform: translateY(-100%) rotate(90deg);
-        transform-origin: bottom left;
+    & > .content {
+      position: absolute;
+      width: $width;
+      height: 100%;
+      top: 0;
+      left: -$width;
+      transition: left 0.35s ease;
+      z-index: 50;
+    }
 
-        & > .sidebar-header {
-          width: unset;
-          flex-grow: 1;
-
-          transform: rotate(180deg);
-
-          border-top: none;
-          border-bottom: #{$border-color} 1px solid;
-
-          &:first-child:not(:last-child) {
-            border-left: #{$border-color} 1px solid;
-          }
-        }
+    &:focus-within, &:hover {
+      & > .content {
+        left: 0;
       }
     }
   }
@@ -745,8 +750,12 @@ h3>.badge {
   width: 2rem;
 }
 
+.col-sidebar-narrow {
+  @include col-sidebar();
+}
+
 .col-sidebar-wide {
-  @extend .col-sidebar;
+  @include col-sidebar();
 
   background-color: #{$color-bg};
 
@@ -876,5 +885,37 @@ i.fab + span, i.fas + span, i.far + span, span + i.fas {
 
   & a {
     color: #{$text-color};
+  }
+}
+
+/*
+ * Interactive search
+ */
+
+@media (max-width: '991px') { // keep gutters with container-fluid
+  .search {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.search-control {
+  @include col-sidebar(300px);
+
+  background-color: $color-bg-light;
+  padding-left: 0;
+  padding-right: 0;
+
+  & .content {
+    padding-top: 1rem;
+  }
+
+  & .content > * {
+    &:not(.sidebar-header) {
+      padding-left: calc(var(--bs-gutter-x) * 0.5);
+      padding-right: calc(var(--bs-gutter-x) * 0.5);
+    }
+
+    margin-bottom: 1rem;
   }
 }

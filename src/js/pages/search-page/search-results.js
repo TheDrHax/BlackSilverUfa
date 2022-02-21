@@ -8,8 +8,6 @@ import Pagination from '@vlsergey/react-bootstrap-pagination';
 import { MODES } from './constants';
 import { getSegmentDescription, getGameDescription } from '../../utils/data-utils';
 
-const PAGE_LIMIT = 10;
-
 const THUMBNAIL_GENERATORS = {
   segments: (item) => item.thumbnail,
   games: (item) => item.segments[0].thumbnail,
@@ -23,13 +21,13 @@ const DESCRIPTION_GENERATORS = {
   ),
 };
 
-const SearchResults = ({ mode, items, page, onPageChange }) => {
+const SearchResults = ({ mode, items, limit, page, onPageChange }) => {
   const getThumbnail = THUMBNAIL_GENERATORS[mode];
   const getDescription = DESCRIPTION_GENERATORS[mode];
 
-  const pages = Math.ceil(items.length / PAGE_LIMIT);
-  const pageStart = page * PAGE_LIMIT;
-  const pageEnd = pageStart + PAGE_LIMIT;
+  const pages = Math.ceil(items.length / limit);
+  const pageStart = page * limit;
+  const pageEnd = pageStart + limit;
 
   return (
     <>
@@ -37,12 +35,12 @@ const SearchResults = ({ mode, items, page, onPageChange }) => {
         {items.slice(pageStart, pageEnd).map((item) => (
           <ListGroup.Item key={item.name}>
             <Row>
-              <Col xs={4} lg={3} xl={2}>
+              <Col style={{ flex: '0 0 240px' }}>
                 <img className="me-3" width="100%" src={getThumbnail(item)} alt="thumbnail" />
               </Col>
 
               <Col>
-                <div><Link to={item.url} className="stretched-link">{item.name}</Link></div>
+                <div><Link to={item.url}>{item.name}</Link></div>
                 <div>{getDescription(item)}</div>
               </Col>
             </Row>
@@ -70,12 +68,14 @@ const SearchResults = ({ mode, items, page, onPageChange }) => {
 
 SearchResults.propTypes = {
   items: PropTypes.array,
+  limit: PropTypes.number,
   mode: PropTypes.oneOf(MODES).isRequired,
   page: PropTypes.number.isRequired,
   onPageChange: PropTypes.func.isRequired,
 };
 
 SearchResults.defaultProps = {
+  limit: 10,
   items: [],
 };
 

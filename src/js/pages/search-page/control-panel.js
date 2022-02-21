@@ -1,11 +1,8 @@
 import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
 // Components
-import { Card, Col, Form, InputGroup, Row } from 'react-bootstrap';
-import Select from './select';
-import Dropdown from './dropdown';
+import { Button, ButtonGroup, Form, InputGroup } from 'react-bootstrap';
 import DateFilter from './date-filter';
-import TextFilter from './text-filter';
 // Namespace
 import { searchPage as t } from '../../constants/texts';
 import { MODES, SCALES } from './constants';
@@ -18,13 +15,6 @@ const SORT_OPTIONS = {
 const SORT_ICONS = {
   desc: 'fa-sort-amount-down',
   asc: 'fa-sort-amount-up',
-};
-
-const STYLE_CONFIG = {
-  xs: 12,
-  sm: 8,
-  md: 6,
-  lg: 4,
 };
 
 const convertCategories = (categories) => Object.values(categories)
@@ -56,66 +46,93 @@ const ControlPanel = ({ mode,
   };
 
   return (
-    <Row className="interactive-search-form">
-      <Col>
-        <Card className="w-100 h-0 ps-3 pe-3 pt-3 pb-2">
-          <Form>
-            <Row>
-              <InputGroup>
-                <Dropdown
-                  value={mode}
-                  options={MODES}
-                  variant="success"
-                  labels={t.modes}
-                  onChange={(input) => {
-                    onModeChange(input);
-                    onSortingChange({ sortBy: 'date' });
-                  }}
-                />
-                <TextFilter
-                  initValue={filters.q}
-                  onSubmit={(input) => onFiltersChange({ q: input })}
-                />
-              </InputGroup>
-            </Row>
-            <Row>
-              {mode === 'segments'
-                ? (
-                  <Col {...STYLE_CONFIG}>
-                    <DateFilter
-                      value={dateState}
-                      segments={segments}
-                      onChange={onFiltersChange}
-                    />
-                  </Col>
-                )
-                : (
-                  <Col {...STYLE_CONFIG}>
-                    <Select
-                      value={filters.category}
-                      label={t.category}
-                      labels={filteredCategories}
-                      options={Object.keys(filteredCategories)}
-                      onChange={(category) => onFiltersChange({ category })}
-                    />
-                  </Col>
-                )}
-              <Col {...STYLE_CONFIG}>
-                <Select
-                  value={sorting.sortBy}
-                  label={t.sorting}
-                  labels={t.sortModes}
-                  options={SORT_OPTIONS[mode]}
-                  iconClassName={SORT_ICONS[direction]}
-                  onIconClick={() => onSortingChange({ isDesc: !sorting.isDesc })}
-                  onChange={(input) => onSortingChange({ sortBy: input })}
-                />
-              </Col>
-            </Row>
-          </Form>
-        </Card>
-      </Col>
-    </Row>
+    <>
+      <div className="content border-end">
+        <Form.Group className="d-flex align-items-baseline">
+          <Form.Label>Искать:</Form.Label>
+          <ButtonGroup className="ms-2 flex-1-0-0">
+            {MODES.map((key) => (
+              <Button
+                key={key}
+                size="sm"
+                variant={mode === key ? 'primary' : 'dark'}
+                onClick={() => {
+                  onModeChange(key);
+                  onSortingChange({ sortBy: 'date' });
+                }}
+              >
+                {t.modes[key]}
+              </Button>
+            ))}
+          </ButtonGroup>
+        </Form.Group>
+
+        <div className="sidebar-header">Фильтры</div>
+
+        {mode === 'segments' && (
+          <DateFilter
+            value={dateState}
+            segments={segments}
+            onChange={onFiltersChange}
+          />
+        )}
+
+        {mode === 'games' && (
+          <InputGroup>
+            <InputGroup.Text>Категория</InputGroup.Text>
+            <Form.Select
+              value={filters.category}
+              onChange={({ target }) => onFiltersChange({ category: target.value })}
+            >
+              {Object.entries(filteredCategories).map(([key, value]) => (
+                <option key={key} value={key}>{value}</option>
+              ))}
+            </Form.Select>
+          </InputGroup>
+        )}
+
+        <div className="sidebar-header">Результаты</div>
+
+        <InputGroup>
+          <InputGroup.Text>Сортировка</InputGroup.Text>
+          <Form.Select
+            value={sorting.sortBy}
+            onChange={({ target }) => onSortingChange({ sortBy: target.value })}
+          >
+            {SORT_OPTIONS[mode].map((key) => (
+              <option key={key} value={key}>{t.sortModes[key]}</option>
+            ))}
+          </Form.Select>
+          <Button
+            variant="dark"
+            onClick={() => onSortingChange({ isDesc: !sorting.isDesc })}
+          >
+            <i className={`fas ${SORT_ICONS[direction]}`} />
+          </Button>
+        </InputGroup>
+
+        <Form.Group className="d-flex align-items-baseline">
+          <Form.Label>Количество:</Form.Label>
+          <ButtonGroup className="ms-2 flex-1-0-0">
+            {[10, 25, 50].map((x) => (
+              <Button
+                key={x}
+                size="sm"
+                variant={x === sorting.limit ? 'primary' : 'dark'}
+                onClick={() => onSortingChange({ limit: x })}
+              >
+                {x}
+              </Button>
+            ))}
+          </ButtonGroup>
+        </Form.Group>
+      </div>
+
+      <div className="collapsed-content">
+        <div className="sidebar-header">Фильтры</div>
+        <div className="sidebar-header">Результаты</div>
+      </div>
+    </>
   );
 };
 
@@ -131,6 +148,7 @@ ControlPanel.propTypes = {
   sorting: PropTypes.shape({
     sortBy: PropTypes.string,
     isDesc: PropTypes.bool,
+    limit: PropTypes.number,
   }).isRequired,
 
   segments: PropTypes.object,
