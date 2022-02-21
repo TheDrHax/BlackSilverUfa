@@ -18,6 +18,7 @@ module.exports = [
       filename: 'bundle.js',
       path: path.join(process.env.PWD, '_site', 'dist'),
       publicPath: '/dist/',
+      clean: true,
     },
     devServer: {
       static: {

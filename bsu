@@ -110,7 +110,6 @@ case $1 in
 
     build)
         require_node
-        [ -e $PREFIX/dist ] && rm -rf $PREFIX/dist/*
         ./bsu webpack ;&
     generate)
         shift
