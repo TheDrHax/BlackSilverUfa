@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Row, ProgressBar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { renderTemplate } from '../../utils/text-utils';
 import { ftime } from '../../utils/time-utils';
+import PATHS from '../../constants/urls';
 
 const render = (t, n) => (
   <b>{n} {renderTemplate(t, { n })}</b>
@@ -23,8 +25,6 @@ export const StatsBlock = () => {
   const videoCoverage = Math.round(100 * (data.durations.segments / data.durations.streams));
   const avgMsgCount = Math.floor(data.counts.messages / data.counts.streams.with_chats);
 
-  // TODO: Добавить в поиск фильтр по источнику записи
-  // Чтобы можно было сделать "нет записи" и "Неофициальные записи" ссылками
   return (
     <Row>
       <p>
@@ -37,7 +37,9 @@ export const StatsBlock = () => {
 
         {data.counts.segments.missing > 0 && (
           <>
-            У {render('сегмент{n#а,ов,ов}', data.counts.segments.missing)} в данный момент нет записи.
+            У {render('сегмент{n#а,ов,ов}', data.counts.segments.missing)} в данный момент
+            {' '}
+            <Link to={`${PATHS.SEARCH}?source=direct`}>нет постоянной записи</Link>.
           </>
         )}
       </p>
