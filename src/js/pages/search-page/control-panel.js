@@ -159,7 +159,7 @@ ControlPanel.propTypes = {
     scale: PropTypes.oneOf(SCALES),
     from: PropTypes.instanceOf(Date),
     to: PropTypes.instanceOf(Date),
-    source: PropTypes.oneOf(SOURCES),
+    source: PropTypes.oneOf(['any', ...SOURCES]),
   }).isRequired,
   sorting: PropTypes.shape({
     sortBy: PropTypes.string,

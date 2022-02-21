@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useQueryParam, StringParam, NumberParam, DateParam, BooleanParam } from 'use-query-params';
 import { Row, Col } from 'react-bootstrap';
 // Utils
-import flow from 'lodash/flow';
 import animateScrollTo from 'animated-scroll-to';
 import Matomo from '../../matomo';
 import fts, { tokenize } from '../../utils/full-text-search';
@@ -20,46 +19,68 @@ import { DEFAULT_SCALE } from './constants';
 import { useResponsiveValue } from '../../hooks/use-breakpoints';
 import TextFilter from './text-filter';
 
-const getDateParams = (startDate, endDate) => (endDate
-  ? { $between: [startDate, endDate] }
-  : { $dteq: startDate });
+const getDateParams = ({ from, to }) => (
+  to
+    ? { $between: [from, to] }
+    : { $dteq: from }
+);
 
-const getGamesFlow = (index, category) => flow([
-  () => index.chain(),
-  (chain) => (category === 'any' ? chain : chain.find({ 'category.id': category })),
-]);
-
-const getSegmentsFlow = (segments, startDate, endDate, source) => flow([
-  () => segments.chain(),
-  (chain) => (startDate ? chain.find({ date: getDateParams(startDate, endDate) }) : chain),
-  (chain) => (source === 'any' ? chain : chain.find({ [source]: { $exists: true } })),
-  (chain) => chain.find({ games: { $size: { $gt: 0 } } }),
-]);
-
-const getSortFlow = (chain, sortBy, isDesc) => {
-  const sortParams = sortBy === 'date'
+const getSortParams = ({ sortBy, isDesc }) => (
+  sortBy === 'date'
     ? [['date', isDesc], ['segment', isDesc]]
-    : [['streams', isDesc], ['date', isDesc], ['segment', isDesc]];
+    : [['streams', isDesc], ['date', isDesc], ['segment', isDesc]]
+);
 
-  return chain.compoundsort(sortParams);
-};
+const executeSearch = ({ data: { segments, index }, mode, filters, sorting }) => {
+  let chain;
+  const query = {};
 
-const executeSearch = ({ mode, data, q: text, category, from, to, sortBy, isDesc, source }) => flow([
-  mode === 'segments'
-    ? getSegmentsFlow(data.segments, from, to, source)
-    : getGamesFlow(data.index, category),
-  (chain) => getSortFlow(chain, sortBy, isDesc),
-  (chain) => chain.data(),
-  (chain) => (tokenize(text).length ? fts(text, chain, (s) => s.name) : chain),
-])();
+  switch (mode) {
+    case 'segments':
+      chain = segments.chain();
 
-const reportSearchEvent = (mode, text, count) => {
-  if (!tokenize(text).length) return;
-  Matomo.trackSiteSearch({
-    keyword: text,
-    category: mode,
-    count,
-  });
+      // Show only segments with refs
+      query.games = { $size: { $gt: 0 } };
+
+      // Date filter
+      if (filters.from) {
+        query.date = getDateParams(filters);
+      }
+
+      // Source filter
+      if (filters.source !== 'any') {
+        query[filters.source] = { $exists: true };
+      }
+
+      break;
+
+    case 'games':
+      chain = index.chain();
+
+      // Category filter
+      if (filters.category !== 'any') {
+        query['category.id'] = filters.category;
+      }
+
+      break;
+
+    default:
+      return [];
+  }
+
+  // Find and sort
+  chain = chain
+    .find(query)
+    .compoundsort(getSortParams(sorting));
+
+  let data = chain.data();
+
+  // Filter by text
+  if (tokenize(filters.q).length > 0) {
+    data = fts(filters.q, data, (s) => s.name);
+  }
+
+  return data;
 };
 
 const SCHEMA_FILTERS = {
@@ -91,10 +112,19 @@ const SearchPage = () => {
 
   const submitForm = (event) => {
     event?.preventDefault();
-    const items = executeSearch({ mode, data, ...filters, ...sorting });
+
+    const items = executeSearch({ mode, data, filters, sorting });
     setPage(1);
     updateResults({ mode, items });
-    if (event) reportSearchEvent(mode, filters.text, items.length);
+
+    if (event) {
+      if (!tokenize(filters.q).length) return;
+      Matomo.trackSiteSearch({
+        keyword: filters.q,
+        category: mode,
+        count: items.length,
+      });
+    }
   };
 
   useEffect(() => {
