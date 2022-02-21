@@ -75,7 +75,6 @@ const SCHEMA_SORTING = {
 const INIT_RESULTS = {
   mode: null,
   items: [],
-  page: 0,
 };
 
 const SearchPage = () => {
@@ -90,7 +89,8 @@ const SearchPage = () => {
   const submitForm = (event) => {
     event?.preventDefault();
     const items = executeSearch({ mode, data, ...filters, ...sorting });
-    updateResults({ mode, items, page: 0 });
+    setPage(1);
+    updateResults({ mode, items });
     if (event) reportSearchEvent(mode, filters.text, items.length);
   };
 
