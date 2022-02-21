@@ -20,6 +20,10 @@ export const searchPage = {
     year: 'Месяц',
     decade: 'Год',
   },
+  sources: {
+    youtube: 'YouTube',
+    direct: 'Сервер архива',
+  },
   streams: {
     base: 'стрим',
     endings: ['', 'а', 'ов'],

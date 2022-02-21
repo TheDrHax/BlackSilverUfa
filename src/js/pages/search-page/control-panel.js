@@ -5,7 +5,7 @@ import { Button, ButtonGroup, Form, InputGroup } from 'react-bootstrap';
 import DateFilter from './date-filter';
 // Namespace
 import { searchPage as t } from '../../constants/texts';
-import { MODES, SCALES } from './constants';
+import { MODES, SCALES, SOURCES } from './constants';
 
 const SORT_OPTIONS = {
   segments: ['date'],
@@ -77,6 +77,21 @@ const ControlPanel = ({ mode,
           />
         )}
 
+        {mode === 'segments' && (
+          <InputGroup>
+            <InputGroup.Text>Источник</InputGroup.Text>
+            <Form.Select
+              value={filters.source}
+              onChange={({ target }) => onFiltersChange({ source: target.value })}
+            >
+              <option value="any">Любой</option>
+              {Object.entries(t.sources).map(([key, value]) => (
+                <option key={key} value={key}>{value}</option>
+              ))}
+            </Form.Select>
+          </InputGroup>
+        )}
+
         {mode === 'games' && (
           <InputGroup>
             <InputGroup.Text>Категория</InputGroup.Text>
@@ -144,6 +159,7 @@ ControlPanel.propTypes = {
     scale: PropTypes.oneOf(SCALES),
     from: PropTypes.instanceOf(Date),
     to: PropTypes.instanceOf(Date),
+    source: PropTypes.oneOf(SOURCES),
   }).isRequired,
   sorting: PropTypes.shape({
     sortBy: PropTypes.string,

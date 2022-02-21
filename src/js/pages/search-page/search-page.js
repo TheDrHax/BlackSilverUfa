@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useQueryParam, StringParam, NumberParam, DateParam, BooleanParam } from 'use-query-params';
-import { Row, Col, Form } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 // Utils
 import flow from 'lodash/flow';
 import animateScrollTo from 'animated-scroll-to';
@@ -29,9 +29,10 @@ const getGamesFlow = (index, category) => flow([
   (chain) => (category === 'any' ? chain : chain.find({ 'category.id': category })),
 ]);
 
-const getSegmentsFlow = (segments, startDate, endDate) => flow([
+const getSegmentsFlow = (segments, startDate, endDate, source) => flow([
   () => segments.chain(),
   (chain) => (startDate ? chain.find({ date: getDateParams(startDate, endDate) }) : chain),
+  (chain) => (source === 'any' ? chain : chain.find({ [source]: { $exists: true } })),
   (chain) => chain.find({ games: { $size: { $gt: 0 } } }),
 ]);
 
@@ -43,12 +44,13 @@ const getSortFlow = (chain, sortBy, isDesc) => {
   return chain.compoundsort(sortParams);
 };
 
-const executeSearch = ({ mode, data, q: text, category, from, to, sortBy, isDesc }) => flow([
+const executeSearch = ({ mode, data, q: text, category, from, to, sortBy, isDesc, source }) => flow([
   mode === 'segments'
-    ? getSegmentsFlow(data.segments, from, to)
+    ? getSegmentsFlow(data.segments, from, to, source)
     : getGamesFlow(data.index, category),
   (chain) => getSortFlow(chain, sortBy, isDesc),
-  (chain) => (tokenize(text).length ? fts(text, chain.data(), (s) => s.name) : chain.data()),
+  (chain) => chain.data(),
+  (chain) => (tokenize(text).length ? fts(text, chain, (s) => s.name) : chain),
 ])();
 
 const reportSearchEvent = (mode, text, count) => {
@@ -66,6 +68,7 @@ const SCHEMA_FILTERS = {
   scale: withSquashedDefault(StringParam, DEFAULT_SCALE),
   from: DateParam,
   to: DateParam,
+  source: withSquashedDefault(StringParam, 'any'),
 };
 const SCHEMA_SORTING = {
   sortBy: withSquashedDefault(StringParam, 'date'),
