@@ -28,7 +28,7 @@ export default class Chat extends React.Component {
     const { subtitles } = this.props;
 
     this.db = new Loki(last(subtitles.split('/')));
-    this.data = this.db.addCollection('subtitles');
+    this.data = this.db.addCollection('subtitles', { indices: ['time'] });
 
     const lines = await fetch(subtitles)
       .then((res) => res.text())
