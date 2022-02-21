@@ -1,4 +1,7 @@
-import { sum, reverse, range, padStart } from 'lodash';
+import sum from 'lodash/sum';
+import reverse from 'lodash/reverse';
+import range from 'lodash/range';
+import padStart from 'lodash/padStart';
 
 export const ptime = (t) => (
   sum(reverse(t.split(':')).map((x, i) => x * 60 ** i))

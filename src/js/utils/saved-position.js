@@ -1,4 +1,5 @@
-import { last, zip } from 'lodash';
+import last from 'lodash/last';
+import zip from 'lodash/zip';
 
 const resume = JSON.parse(localStorage.getItem('resume_playback')) || {};
 

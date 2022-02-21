@@ -1,4 +1,4 @@
-import { merge } from 'lodash';
+import merge from 'lodash/merge';
 import shallowequal from 'shallowequal';
 
 export default class Persist {

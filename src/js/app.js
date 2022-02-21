@@ -1,4 +1,4 @@
-import React, { StrictMode } from 'react';
+import React, { StrictMode, Suspense } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,20 +10,22 @@ import { QueryParamProvider } from 'use-query-params';
 import { ReactRouterGlobalHistory } from 'react-router-global-history';
 import { Button } from 'react-bootstrap';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { flowRight } from 'lodash';
+import flowRight from 'lodash/flowRight';
 // Namespace
 import { common as t } from './constants/texts';
 import PATHS from './constants/urls';
 // Components
 import { SearchPage, GamePage, MainPage, DonatePage } from './pages';
-import PlayerPage from './components/segment-player';
 import { RedirectLinks, RedirectR } from './components/redirects';
 import { Layout } from './components';
+
+const PlayerPage = React.lazy(() => import('./components/segment-player'));
 
 const Providers = flowRight([
   (c) => <StrictMode>{c}</StrictMode>,
   (c) => <HelmetProvider>{c}</HelmetProvider>,
   (c) => <Router>{c}</Router>,
+  (c) => <Suspense fallback={<div>Loading...</div>}>{c}</Suspense>,
   (c) => <QueryParamProvider ReactRouterRoute={Route}>{c}</QueryParamProvider>,
   ({ children }) => children,
 ]);

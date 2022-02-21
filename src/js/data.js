@@ -1,5 +1,5 @@
 import Loki from 'lokijs';
-import { uniq } from 'lodash';
+import uniq from 'lodash/uniq';
 import loadData from './data.prod';
 
 function build([rawSegments, rawCategories, rawGames, timecodes]) {

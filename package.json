@@ -19,7 +19,7 @@
   },
   "homepage": "https://bsu.drhx.ru",
   "browserslist": [
-    "last 2 versions"
+    "> 0.25%, not dead"
   ],
   "babel": {
     "presets": [
@@ -37,7 +37,6 @@
       "src/js"
     ],
     "setupFilesAfterEnv": [
-      "core-js/stable",
       "regenerator-runtime/runtime"
     ],
     "moduleNameMapper": {
@@ -46,7 +45,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
-    "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -79,7 +77,6 @@
     "@datapunt/matomo-tracker-js": "^0.4.0",
     "@vlsergey/react-bootstrap-pagination": "^1.0.1",
     "animated-scroll-to": "^2.2.0",
-    "core-js": "^3.9.1",
     "immutability-helper": "^3.1.1",
     "lodash": "^4.17.21",
     "lokijs": "^1.5.11",
@@ -102,7 +99,7 @@
     "react-router-global-history": "^1.1.0",
     "regenerator-runtime": "^0.13.7",
     "shallowequal": "^1.1.0",
-    "sugar": "^2.0.6",
+    "sugar-date": "^2.0.6",
     "use-query-params": "^1.2.3"
   }
 }

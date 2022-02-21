@@ -1,6 +1,7 @@
 import { useCallback } from 'react';
 import { withDefault, useQueryParams } from 'use-query-params';
-import { flow, isEqual } from 'lodash';
+import flow from 'lodash/flow';
+import isEqual from 'lodash/isEqual';
 
 /**
  * Uses default value when query param is nullable and hides it from the search.

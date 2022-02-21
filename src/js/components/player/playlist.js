@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Badge, Button, Collapse, InputGroup, ListGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Resizable } from 're-resizable';
-import Sugar from '../../utils/sugar';
+import SugarDate from '../../utils/sugar';
 import { Game, Segment } from '../../data-types';
 import Scroll from './scroll';
 
@@ -24,7 +24,7 @@ const SegmentRefList = ({ game, currentSegment, contentKey }) => (
           <span className="flex-grow-1">{segmentRef.name}</span>
           <span>
             <Badge pill bg="dark">
-              {Sugar.Date.format(segmentRef.original.date, '{dd}.{MM}')}
+              {SugarDate.format(segmentRef.original.date, '{dd}.{MM}')}
               <br />
               {segmentRef.original.date.getFullYear()}
             </Badge>

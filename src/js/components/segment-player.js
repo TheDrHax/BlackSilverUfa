@@ -24,7 +24,7 @@ import Timecodes from './player/timecodes';
 import Scroll from './player/scroll';
 import { Playlist } from './player/playlist';
 import Reparentable from './utils/reparentable';
-import Sugar from '../utils/sugar';
+import SugarDate from '../utils/sugar';
 import updateState from '../utils/update-state';
 import { findRefBySegment, resolveGame, resolveSegment } from '../utils/data-utils';
 import { ShareOverlay } from './player/share-overlay';
@@ -647,9 +647,9 @@ export default class SegmentPlayer extends React.Component {
             <ListGroup.Item>
               Дата стрима:
               {' '}
-              {Sugar.Date.medium(segment.date)}
+              {SugarDate.medium(segment.date)}
               {' '}
-              ({Sugar.Date.relative(segment.date)})
+              ({SugarDate.relative(segment.date)})
             </ListGroup.Item>
 
             {(segment.note && (
@@ -767,7 +767,7 @@ export default class SegmentPlayer extends React.Component {
         <Helmet>
           <meta
             property="og:description"
-            content={`Запись стрима от ${Sugar.Date.medium(date)}`}
+            content={`Запись стрима от ${SugarDate.medium(date)}`}
           />
           {thumbnail.startsWith('http') && (
             <meta property="og:image" content={thumbnail} />

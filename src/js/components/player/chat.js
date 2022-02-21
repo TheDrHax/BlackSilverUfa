@@ -1,25 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import * as Loki from 'lokijs';
-import { last } from 'lodash';
+import last from 'lodash/last';
 import { Button, ListGroup, ListGroupItem, OverlayTrigger, Spinner, Tooltip } from 'react-bootstrap';
-import Timecodes from './timecodes';
+import { ptime } from '../../utils/time-utils';
 import Scroll from './scroll';
 import Persist from '../../utils/persist';
 
 export default class Chat extends React.Component {
-  static propTypes = {
-    subtitles: PropTypes.string.isRequired,
-    currentTime: PropTypes.number.isRequired,
-    offset: PropTypes.number,
-    simple: PropTypes.bool,
-  }
-
-  static defaultProps = {
-    offset: 0,
-    simple: false,
-  }
-
   constructor(props) {
     super(props);
 
@@ -70,7 +58,7 @@ export default class Chat extends React.Component {
 
         const [userStr, ...msgParts] = parts.slice(3).join(' ').split(': ');
         const text = msgParts.join(': ').replace(lineBreak, '');
-        const time = Timecodes.parseTime(parts[1]);
+        const time = ptime(parts[1]);
 
         let user = userStr;
         let color = 'inherit';
@@ -260,3 +248,15 @@ export default class Chat extends React.Component {
     );
   }
 }
+
+Chat.propTypes = {
+  subtitles: PropTypes.string.isRequired,
+  currentTime: PropTypes.number.isRequired,
+  offset: PropTypes.number,
+  simple: PropTypes.bool,
+};
+
+Chat.defaultProps = {
+  offset: 0,
+  simple: false,
+};

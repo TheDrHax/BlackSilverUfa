@@ -5,26 +5,6 @@ import Measure from 'react-measure';
 import animateScrollTo from 'animated-scroll-to';
 
 export default class Scroll extends React.Component {
-  static propTypes = {
-    scrollToSelector: PropTypes.string,
-    smooth: PropTypes.bool,
-    flex: PropTypes.string,
-    heightRelativeToParent: PropTypes.string,
-    keepAtBottom: PropTypes.bool,
-    bottomSelector: PropTypes.string,
-    contentKey: PropTypes.any,
-  }
-
-  static defaultProps = {
-    scrollToSelector: null,
-    smooth: false,
-    flex: null,
-    heightRelativeToParent: null,
-    keepAtBottom: false,
-    bottomSelector: '* + :last-child',
-    contentKey: null,
-  }
-
   constructor(props) {
     super(props);
 
@@ -156,3 +136,23 @@ export default class Scroll extends React.Component {
     );
   }
 }
+
+Scroll.propTypes = {
+  scrollToSelector: PropTypes.string,
+  smooth: PropTypes.bool,
+  flex: PropTypes.string,
+  heightRelativeToParent: PropTypes.string,
+  keepAtBottom: PropTypes.bool,
+  bottomSelector: PropTypes.string,
+  contentKey: PropTypes.any,
+};
+
+Scroll.defaultProps = {
+  scrollToSelector: null,
+  smooth: false,
+  flex: null,
+  heightRelativeToParent: null,
+  keepAtBottom: false,
+  bottomSelector: '* + :last-child',
+  contentKey: null,
+};

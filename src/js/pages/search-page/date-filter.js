@@ -8,7 +8,7 @@ import DatePicker from './date-picker';
 import { searchPage as t } from '../../constants/texts';
 import { DEFAULT_SCALE, SCALES } from './constants';
 // Utils
-import Sugar from '../../utils/sugar';
+import SugarDate from '../../utils/sugar';
 import { renderTemplate } from '../../utils/text-utils';
 
 const getRange = (date, scale) => {
@@ -19,19 +19,19 @@ const getRange = (date, scale) => {
   const startDate = new Date(date);
 
   if (scale === 'year') {
-    Sugar.Date.reset(startDate, 'month');
+    SugarDate.reset(startDate, 'month');
   } else if (scale === 'decade') {
-    Sugar.Date.reset(startDate, 'year');
+    SugarDate.reset(startDate, 'year');
   }
 
   const endDate = new Date(startDate);
   if (scale === 'year') {
-    Sugar.Date.advance(endDate, { months: 1 });
+    SugarDate.advance(endDate, { months: 1 });
   } else if (scale === 'decade') {
-    Sugar.Date.advance(endDate, { years: 1 });
+    SugarDate.advance(endDate, { years: 1 });
   }
 
-  Sugar.Date.rewind(endDate, { days: 1 });
+  SugarDate.rewind(endDate, { days: 1 });
 
   return [startDate, endDate];
 };

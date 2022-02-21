@@ -1,20 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Collapse, ListGroup, ListGroupItem } from 'react-bootstrap';
-import { reverse } from 'lodash';
+import { ptime } from '../../utils/time-utils';
 import updateState from '../../utils/update-state';
 
 class TimecodeLink extends React.Component {
-  static propTypes = {
-    text: PropTypes.string.isRequired,
-    visited: PropTypes.bool,
-    onClick: PropTypes.func.isRequired,
-  }
-
-  static defaultProps = {
-    visited: false,
-  }
-
   constructor(props) {
     super(props);
 
@@ -43,29 +33,20 @@ class TimecodeLink extends React.Component {
   }
 }
 
+TimecodeLink.propTypes = {
+  text: PropTypes.string.isRequired,
+  visited: PropTypes.bool,
+  onClick: PropTypes.func.isRequired,
+};
+
+TimecodeLink.defaultProps = {
+  visited: false,
+};
+
 export default class Timecodes extends React.Component {
-  static propTypes = {
-    className: PropTypes.string,
-    currentTime: PropTypes.number,
-    setTime: PropTypes.func,
-    data: PropTypes.object.isRequired,
-  }
-
-  static defaultProps = {
-    className: '',
-    currentTime: 0,
-    setTime: () => null,
-  }
-
-  static parseTime(time) { // 1:00:00 → 3600
-    return reverse(time.split(':'))
-      .map((value, index) => value * (60 ** index))
-      .reduce((accumulator, value) => accumulator + value);
-  }
-
   link(time) {
     const { currentTime, setTime } = this.props;
-    const value = Timecodes.parseTime(time);
+    const value = ptime(time);
 
     return (
       <TimecodeLink
@@ -158,16 +139,20 @@ export default class Timecodes extends React.Component {
   }
 }
 
+Timecodes.propTypes = {
+  className: PropTypes.string,
+  currentTime: PropTypes.number,
+  setTime: PropTypes.func,
+  data: PropTypes.object.isRequired,
+};
+
+Timecodes.defaultProps = {
+  className: '',
+  currentTime: 0,
+  setTime: () => null,
+};
+
 class NestedTimecodes extends React.Component {
-  static propTypes = {
-    name: PropTypes.string.isRequired,
-    level: PropTypes.number,
-  }
-
-  static defaultProps = {
-    level: 0,
-  }
-
   constructor(props) {
     super(props);
 
@@ -205,3 +190,12 @@ class NestedTimecodes extends React.Component {
     );
   }
 }
+
+NestedTimecodes.propTypes = {
+  name: PropTypes.string.isRequired,
+  level: PropTypes.number,
+};
+
+NestedTimecodes.defaultProps = {
+  level: 0,
+};

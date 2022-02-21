@@ -67,19 +67,16 @@ module.exports = [
           ],
         },
         {
-          test: /\.js$/,
-          include: /src/,
-          use: [
-            {
-              loader: 'babel-loader',
-              options: {
-                plugins: [
-                  HMR && 'react-refresh/babel',
-                  '@babel/plugin-proposal-class-properties',
-                ].filter(Boolean),
-              },
+          test: /\.m?jsx?$/,
+          exclude: /(node_modules|bower_components)/,
+          use: {
+            loader: 'babel-loader',
+            options: {
+              plugins: [
+                HMR && 'react-refresh/babel',
+              ].filter(Boolean),
             },
-          ],
+          },
         },
       ],
     },

@@ -5,10 +5,6 @@ import PropTypes from 'prop-types';
  * Source: https://github.com/facebook/react/issues/13044#issuecomment-428815909
  */
 export default class Reparentable extends React.PureComponent {
-  static propTypes = {
-    el: PropTypes.object.isRequired,
-  }
-
   constructor(props) {
     super(props);
     this.ref = React.createRef();
@@ -28,3 +24,7 @@ export default class Reparentable extends React.PureComponent {
     return <div ref={this.ref} {...otherProps} />;
   }
 }
+
+Reparentable.propTypes = {
+  el: PropTypes.object.isRequired,
+};

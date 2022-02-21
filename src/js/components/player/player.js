@@ -4,38 +4,9 @@ import PropTypes from 'prop-types';
 import Plyr from 'plyr';
 import Measure from 'react-measure';
 import Persist from '../../utils/persist';
+import 'plyr/src/sass/plyr.scss';
 
 export default class Player extends React.Component {
-  static propTypes = {
-    youtube: PropTypes.string,
-    direct: PropTypes.string,
-    start: PropTypes.number,
-    autostart: PropTypes.number,
-    end: PropTypes.number,
-    forceStart: PropTypes.bool,
-    savedPositionAdapter: PropTypes.object,
-    onReady: PropTypes.func,
-    onDestroy: PropTypes.func,
-    onTimeChange: PropTypes.func,
-    onFullScreen: PropTypes.func,
-    renderOverlay: PropTypes.func,
-  }
-
-  static defaultProps = {
-    youtube: null,
-    direct: null,
-    start: 0,
-    autostart: null,
-    end: null,
-    forceStart: false,
-    savedPositionAdapter: null,
-    onReady: () => null,
-    onDestroy: () => null,
-    onTimeChange: () => null,
-    onFullScreen: () => null,
-    renderOverlay: () => null,
-  }
-
   constructor(props) {
     super(props);
 
@@ -331,3 +302,33 @@ export default class Player extends React.Component {
     );
   }
 }
+
+Player.propTypes = {
+  youtube: PropTypes.string,
+  direct: PropTypes.string,
+  start: PropTypes.number,
+  autostart: PropTypes.number,
+  end: PropTypes.number,
+  forceStart: PropTypes.bool,
+  savedPositionAdapter: PropTypes.object,
+  onReady: PropTypes.func,
+  onDestroy: PropTypes.func,
+  onTimeChange: PropTypes.func,
+  onFullScreen: PropTypes.func,
+  renderOverlay: PropTypes.func,
+};
+
+Player.defaultProps = {
+  youtube: null,
+  direct: null,
+  start: 0,
+  autostart: null,
+  end: null,
+  forceStart: false,
+  savedPositionAdapter: null,
+  onReady: () => null,
+  onDestroy: () => null,
+  onTimeChange: () => null,
+  onFullScreen: () => null,
+  renderOverlay: () => null,
+};

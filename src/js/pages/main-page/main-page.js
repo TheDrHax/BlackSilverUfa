@@ -1,5 +1,6 @@
 import React from 'react';
-import { reverse, truncate } from 'lodash';
+import reverse from 'lodash/reverse';
+import truncate from 'lodash/truncate';
 import { Button, Card, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Layout } from '../../components';

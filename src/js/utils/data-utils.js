@@ -1,6 +1,9 @@
-import { zip, last, uniq, find } from 'lodash';
+import zip from 'lodash/zip';
+import last from 'lodash/last';
+import uniq from 'lodash/uniq';
+import find from 'lodash/find';
 import { renderTemplate } from './text-utils';
-import Sugar from './sugar';
+import SugarDate from './sugar';
 
 export const getOffset = (segment, at) => {
   at = at || 0;
@@ -138,7 +141,7 @@ export const resolveGame = (games, segment, at) => {
   return res;
 };
 
-export const getSegmentDescription = ({ date }) => Sugar.Date.short(date);
+export const getSegmentDescription = ({ date }) => SugarDate.short(date);
 
 export const getGameDescription = ({ streams: refs }) => {
   if (refs.length === 0) {
@@ -150,7 +153,7 @@ export const getGameDescription = ({ streams: refs }) => {
     { n: uniq(refs.map(({ segment }) => segment.split('.')[0])).length },
   );
 
-  const refDate = ({ original: { date } }) => Sugar.Date.short(date);
+  const refDate = ({ original: { date } }) => SugarDate.short(date);
   const startDate = refDate(refs[0]);
   const endDate = refDate(last(refs));
 
