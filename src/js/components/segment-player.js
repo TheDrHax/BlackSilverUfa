@@ -20,7 +20,7 @@ import SavedPosition from '../utils/saved-position';
 import Persist from '../utils/persist';
 import Chat from './player/chat';
 import Player from './player/player';
-import Timecodes from './player/timecodes';
+import { Timecodes } from './player/timecodes';
 import Scroll from './player/scroll';
 import { Playlist } from './player/playlist';
 import Reparentable from './utils/reparentable';

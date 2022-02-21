@@ -1,78 +1,54 @@
-import React from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Collapse, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { ptime } from '../../utils/time-utils';
-import updateState from '../../utils/update-state';
 
-class TimecodeLink extends React.Component {
-  constructor(props) {
-    super(props);
+const TimecodeLink = ({ value, currentTime, setTime }) => {
+  const valueInt = useMemo(() => ptime(value), [value]);
+  const visited = currentTime >= valueInt;
 
-    this.onClick = this.onClick.bind(this);
-  }
+  const handleClick = useCallback((e) => {
+    e.preventDefault();
+    setTime(valueInt);
+  }, [setTime, valueInt]);
 
-  onClick(event) {
-    event.preventDefault();
-
-    const { onClick } = this.props;
-    onClick();
-  }
-
-  render() {
-    const { visited, text } = this.props;
-
-    return (
-      <a
-        href="#"
-        className={visited ? 'visited' : ''}
-        onClick={this.onClick}
-      >
-        {text}
-      </a>
-    );
-  }
-}
+  return (
+    // eslint-disable-next-line jsx-a11y/anchor-is-valid
+    <a
+      href="#"
+      className={visited ? 'visited' : ''}
+      onClick={handleClick}
+    >
+      {value}
+    </a>
+  );
+};
 
 TimecodeLink.propTypes = {
-  text: PropTypes.string.isRequired,
-  visited: PropTypes.bool,
-  onClick: PropTypes.func.isRequired,
+  value: PropTypes.string.isRequired,
+  currentTime: PropTypes.number,
+  setTime: PropTypes.func,
 };
 
 TimecodeLink.defaultProps = {
-  visited: false,
+  currentTime: 0,
+  setTime: () => null,
 };
 
-export default class Timecodes extends React.Component {
-  link(time) {
-    const { currentTime, setTime } = this.props;
-    const value = ptime(time);
+const DangerSpan = ({ children }) => (
+  <span dangerouslySetInnerHTML={{ __html: children }} />
+);
 
-    return (
-      <TimecodeLink
-        key={value}
-        visited={currentTime >= value}
-        onClick={() => setTime(value)}
-        text={time}
-      />
-    );
-  }
-
-  static name(value) {
-    return <span dangerouslySetInnerHTML={{ __html: value }} />;
-  }
-
-  parse() {
-    const { data } = this.props;
-
-    return Object.entries(data).map(([key, value]) => {
+export const Timecodes = ({ className, data, ...rest }) => (
+  <ListGroup className={['timecodes-list', className].join(' ')}>
+    {Object.entries(data).map(([key, value]) => {
       if (typeof value === 'string') { // regular timecode
         if (key.indexOf('~') === -1) { // simple time
           return (
             <ListGroup.Item key={key}>
-              {this.link(key)}
+              {<TimecodeLink value={key} {...rest} />}
               {' — '}
-              {Timecodes.name(value)}
+              <DangerSpan>{value}</DangerSpan>
             </ListGroup.Item>
           );
         } else { // time range
@@ -80,11 +56,11 @@ export default class Timecodes extends React.Component {
 
           return (
             <ListGroup.Item key={key}>
-              {this.link(start)}
+              {<TimecodeLink value={start} {...rest} />}
               {' - '}
-              {this.link(end)}
+              {<TimecodeLink value={end} {...rest} />}
               {' — '}
-              {Timecodes.name(value)}
+              <DangerSpan>{value}</DangerSpan>
             </ListGroup.Item>
           );
         }
@@ -92,14 +68,14 @@ export default class Timecodes extends React.Component {
         const links = value
           .map((t) => {
             if (t.indexOf('~') === -1) { // simple time
-              return this.link(t);
+              return <TimecodeLink key={t} value={t} {...rest} />;
             } else { // time range
               const [start, end] = t.split('~');
               return (
                 <span key={t}>
-                  {this.link(start)}
+                  {<TimecodeLink value={start} {...rest} />}
                   {' - '}
-                  {this.link(end)}
+                  {<TimecodeLink value={end} {...rest} />}
                 </span>
               );
             }
@@ -110,34 +86,22 @@ export default class Timecodes extends React.Component {
           <ListGroup.Item key={value.join()}>
             {links}
             {' — '}
-            {Timecodes.name(key)}
+            <DangerSpan>{key}</DangerSpan>
           </ListGroup.Item>
         );
       } else { // nested timecode
         return (
           <NestedTimecodes
             key={key}
-            {...{
-              ...this.props,
-              name: key,
-              data: value,
-            }}
+            name={key}
+            data={value}
+            {...rest}
           />
         );
       }
-    });
-  }
-
-  render() {
-    const { className } = this.props;
-
-    return (
-      <ListGroup className={['timecodes-list', className].join(' ')}>
-        {this.parse()}
-      </ListGroup>
-    );
-  }
-}
+    })}
+  </ListGroup>
+);
 
 Timecodes.propTypes = {
   className: PropTypes.string,
@@ -152,44 +116,31 @@ Timecodes.defaultProps = {
   setTime: () => null,
 };
 
-class NestedTimecodes extends React.Component {
-  constructor(props) {
-    super(props);
+const NestedTimecodes = ({ name, level, ...rest }) => {
+  const [open, setOpen] = useState(true);
+  const toggleState = useCallback(() => setOpen(!open), [open]);
+  const glyphClass = `glyph fas fa-chevron-${open ? 'down' : 'right'}`;
 
-    this.state = {
-      open: true,
-    };
-  }
-
-  render() {
-    const { name, level } = this.props;
-    const { open } = this.state;
-
-    const glyphClass = `glyph fas fa-chevron-${open ? 'down' : 'right'}`;
-
-    return (
-      <>
-        <ListGroupItem
-          className="d-flex"
-          action
-          onClick={() => updateState(this, { $toggle: ['open'] })}
-        >
-          <i className={glyphClass} />
-          <b>{name}</b>
-        </ListGroupItem>
-        <Collapse in={open}>
-          <Timecodes
-            {...{
-              ...this.props,
-              className: `timecodes-nested-${level}`,
-              level: level + 1,
-            }}
-          />
-        </Collapse>
-      </>
-    );
-  }
-}
+  return (
+    <>
+      <ListGroupItem
+        className="d-flex"
+        action
+        onClick={toggleState}
+      >
+        <i className={glyphClass} />
+        <b>{name}</b>
+      </ListGroupItem>
+      <Collapse in={open}>
+        <Timecodes
+          className={`timecodes-nested-${level}`}
+          level={level + 1}
+          {...rest}
+        />
+      </Collapse>
+    </>
+  );
+};
 
 NestedTimecodes.propTypes = {
   name: PropTypes.string.isRequired,
