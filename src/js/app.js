@@ -25,7 +25,7 @@ const Providers = flowRight([
   (c) => <StrictMode>{c}</StrictMode>,
   (c) => <HelmetProvider>{c}</HelmetProvider>,
   (c) => <Router>{c}</Router>,
-  (c) => <Suspense fallback={<div>Loading...</div>}>{c}</Suspense>,
+  (c) => <Suspense fallback={<Layout isLoading />}>{c}</Suspense>,
   (c) => <QueryParamProvider ReactRouterRoute={Route}>{c}</QueryParamProvider>,
   ({ children }) => children,
 ]);
