@@ -7,6 +7,23 @@ import { ptime } from '../../utils/time-utils';
 import Scroll from './scroll';
 import Persist from '../../utils/persist';
 
+const getEmoteUrl = (source, id) => {
+  if (source === 'twitch') {
+    return `//static-cdn.jtvnw.net/emoticons/v2/${id}/static/dark/1.0`;
+  } else if (source === 'betterttv') {
+    return `//cdn.betterttv.net/emote/${id}/1x`;
+  } else if (source === 'frankerfacez') {
+    return `//cdn.frankerfacez.com/emote/${id}/1`;
+  } else {
+    return '';
+  }
+};
+
+const EMOTE_PRIORITIES = { // lowest priority first
+  source: ['frankerfacez', 'betterttv', 'twitch'],
+  scope: ['global', 'channel'],
+};
+
 export default class Chat extends React.Component {
   constructor(props) {
     super(props);
@@ -18,10 +35,35 @@ export default class Chat extends React.Component {
       ...Persist.load('Chat', {
         showHidden: false,
       }),
+      emotes: null,
     };
 
     this.toggleShowHidden = this.toggleShowHidden.bind(this);
     this.tryLoadData = this.tryLoadData.bind(this);
+  }
+
+  async loadEmotes() {
+    const emotes = await fetch('/data/emotes.json').then((res) => res.json());
+    const result = {};
+
+    EMOTE_PRIORITIES.source.forEach((source) => (
+      EMOTE_PRIORITIES.scope.forEach((scope) => {
+        if (emotes[source] && emotes[source][scope]) {
+          Object.entries(emotes[source][scope]).forEach(([name, id]) => {
+            result[name] = getEmoteUrl(source, id);
+          });
+        }
+      })
+    ));
+
+    const pattern = new RegExp(`^(${Object.keys(result).join('|')})$`);
+
+    this.setState({
+      emotes: {
+        data: result,
+        pattern,
+      },
+    });
   }
 
   async loadData() {
@@ -97,6 +139,11 @@ export default class Chat extends React.Component {
         error: e.message,
       });
     }
+
+    try {
+      await this.loadEmotes();
+    // eslint-disable-next-line no-empty
+    } catch (e) {}
   }
 
   destroyData() {
@@ -154,6 +201,25 @@ export default class Chat extends React.Component {
     this.setState({ showHidden: !showHidden });
   }
 
+  renderMessageText(text) {
+    const { emotes } = this.state;
+
+    if (!emotes) return text;
+
+    const { pattern, data } = emotes;
+
+    return text.split(/\s+/).map((word, i) => {
+      if (word.match(pattern)) {
+        word = (
+          // eslint-disable-next-line react/no-array-index-key
+          <img key={i} className="emote" src={data[word]} alt={word} />
+        );
+      }
+
+      return [i > 0 && ' ', word];
+    });
+  }
+
   renderMessages() {
     return (
       <ListGroup className="chat-messages-list">
@@ -166,7 +232,7 @@ export default class Chat extends React.Component {
               {msg.user}
             </span>
             {': '}
-            {msg.text}
+            {this.renderMessageText(msg.text)}
           </ListGroupItem>
         ))}
       </ListGroup>

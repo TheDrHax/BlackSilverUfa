@@ -523,10 +523,15 @@ h3>.badge {
     & span.username {
       font-weight: 700;
     }
+
+    & .emote {
+      height: 28px;
+    }
   }
 
   & .list-group-item:last-child {
     border-bottom: inherit;
+    margin-bottom: 1px;
   }
 }
 

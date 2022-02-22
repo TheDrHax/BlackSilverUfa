@@ -51,6 +51,8 @@ def build_data():
         # Generate subtitles
         generate_subtitles(segment)
 
+    shutil.copy('data/emotes.json', _('data/emotes.json'))
+
     with open(_('data/stats.json'), 'w') as fo:
         json.dump(get_stats(), fo, ensure_ascii=False, indent=2)
 
