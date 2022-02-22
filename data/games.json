@@ -2917,6 +2917,15 @@
     ]
   },
   {
+    "name": "Expedition Zero",
+    "category": "infinite",
+    "id": "expedition-zero",
+    "streams": [
+      { "name": "Демо #1", "segment": "901835689" },
+      { "name": "Демо #2", "segment": "1306396434", "start": 8058 }
+    ]
+  },
+  {
     "name": "Первый взгляд 2021",
     "category": "first",
     "type": "list",
@@ -2929,10 +2938,7 @@
         { "name": "Tohu", "start": 16065 }
       ] },
       { "name": "Destruction AllStars", "segment": "899289707" },
-      { "name": "Expedition Zero (демо) / Lamentum (демо)", "segment": "901835689", "subrefs": [
-        { "name": "Expedition Zero (демо)" },
-        { "name": "Lamentum (демо)", "start": 6775 }
-      ] },
+      { "name": "Lamentum (демо)", "segment": "901835689", "start": 6775 },
       { "name": "Potentia (демо) / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)", "segment": "905895866", "start": 6713, "subrefs": [
         { "name": "Potentia (демо)", "start": 6713 },
         { "name": "Minute of Islands (демо)", "start": 17465 },
@@ -3131,7 +3137,14 @@
         { "name": "Blood West" },
         { "name": "Kingdom of the Dead", "start": 10383 }
       ] },
-      { "name": "Horizon Zero Dawn", "segment": "1300779617" }
+      { "name": "Horizon Zero Dawn", "segment": "1300779617" },
+      { "name": "Autopsy Simulator (демо) / FAR: Changing Tides (демо) / Scathe (демо) / Daymare: 1994 Sandcastle (демо) / Total War: Warhammer III", "segment": "1306396434", "subrefs": [
+        { "name": "Autopsy Simulator (демо)" },
+        { "name": "FAR: Changing Tides (демо)", "start": 4545 },
+        { "name": "Scathe (демо)", "start": 6678 },
+        { "name": "Daymare: 1994 Sandcastle (демо)", "start": 12540 },
+        { "name": "Total War: Warhammer III", "start": 14527 }
+      ] }
     ]
   },
   {

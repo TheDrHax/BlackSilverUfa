@@ -7985,9 +7985,9 @@
   },
   "901835689": {
     "youtube": "bI6BwtRq0t8", "abs_start": 0, "abs_end": 21797, "duration": 21797,
-    "name": "Expedition Zero (демо) / Lamentum (демо) / NUTS",
+    "name": "Expedition Zero - Демо #1 / Lamentum (демо) / NUTS",
     "date": "2021-02-05",
-    "games": ["first-2021", "single"],
+    "games": ["expedition-zero", "first-2021", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v901835689.ass"
   },
   "903270544": {
@@ -10114,8 +10114,6 @@
     "abs_start": 0, "abs_end": 1792, "duration": 0,
     "name": "",
     "date": "2022-01-05",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1253678202.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1253678202.torrent",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1253678202.ass"
   },
@@ -10123,8 +10121,6 @@
     "abs_start": 0, "abs_end": 20664, "duration": 0,
     "name": "",
     "date": "2022-01-05",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1253695802.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1253695802.torrent",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1253695802.ass"
   },
@@ -10397,5 +10393,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1303041033.torrent",
     "games": ["horizon-fw"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1303041033.ass"
+  },
+  "1306396434": {
+    "abs_start": 0, "abs_end": 22378, "duration": 0,
+    "name": "Autopsy Simulator (демо) / FAR: Changing Tides (демо) / Scathe (демо) / Expedition Zero - Демо #2 / Daymare: 1994 Sandcastle (демо) / Total War: Warhammer III",
+    "date": "2022-02-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1306396434.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1306396434.torrent",
+    "games": ["first-2022", "expedition-zero"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1306396434.ass"
   }
 }
