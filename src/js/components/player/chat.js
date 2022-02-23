@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as Loki from 'lokijs';
 import last from 'lodash/last';
+import repeat from 'lodash/repeat';
 import { Button, ListGroup, ListGroupItem, OverlayTrigger, Spinner, Tooltip } from 'react-bootstrap';
 import { Img } from 'react-image';
 import { ptime } from '../../utils/time-utils';
@@ -25,6 +26,8 @@ const EMOTE_PRIORITIES = { // lowest priority first
   scope: ['global', 'channel'],
 };
 
+const PACKED_WORDS = /([^ ]+) x⁣([0-9]+)/g;
+
 export default class Chat extends React.Component {
   constructor(props) {
     super(props);
@@ -36,6 +39,7 @@ export default class Chat extends React.Component {
       ...Persist.load('Chat', {
         showHidden: false,
         showEmotes: true,
+        unpackMessages: true,
       }),
       emotes: null,
     };
@@ -162,6 +166,7 @@ export default class Chat extends React.Component {
     Persist.save('Chat', this.state, nextState, [
       'showHidden',
       'showEmotes',
+      'unpackMessages',
     ]);
 
     return true;
@@ -199,7 +204,11 @@ export default class Chat extends React.Component {
   }
 
   renderMessageText(text) {
-    const { showEmotes, emotes } = this.state;
+    const { showEmotes, emotes, unpackMessages } = this.state;
+
+    if (unpackMessages) {
+      text = text.replace(PACKED_WORDS, (a, b, c) => repeat(`${b} `, c).trimEnd());
+    }
 
     if (!showEmotes || !emotes) return text;
 
@@ -251,7 +260,7 @@ export default class Chat extends React.Component {
   }
 
   render() {
-    const { loaded, error, showHidden, showEmotes } = this.state;
+    const { loaded, error, showHidden, showEmotes, unpackMessages } = this.state;
     const { simple } = this.props;
 
     if (error) {
@@ -331,6 +340,26 @@ export default class Chat extends React.Component {
             >
               <i className="fas fa-smile" />
               <div className={`led ${showEmotes ? 'bg-success' : 'bg-danger'}`} />
+            </Button>
+          </OverlayTrigger>
+
+          <OverlayTrigger
+            placement="top"
+            overlay={(props) => (
+              <Tooltip {...props}>
+                Распаковывать сообщения вида &quot;Kappa x3&quot; в
+                &quot;Kappa Kappa Kappa&quot; ({unpackMessages ? 'включено' : 'выключено'})
+              </Tooltip>
+            )}
+          >
+            <Button
+              className="ms-1"
+              variant="dark"
+              size="sm"
+              onClick={() => this.setState({ unpackMessages: !unpackMessages })}
+            >
+              <i className="fas fa-file-archive" />
+              <div className={`led ${unpackMessages ? 'bg-success' : 'bg-danger'}`} />
             </Button>
           </OverlayTrigger>
         </div>
