@@ -308,11 +308,8 @@ export default class Chat extends React.Component {
               size="sm"
               onClick={() => this.setState({ showHidden: !showHidden })}
             >
-              {showHidden ? (
-                <i className="fas fa-robot text-success" />
-              ) : (
-                <i className="fas fa-robot text-danger" />
-              )}
+              <i className="fas fa-robot" />
+              <div className={`led ${showHidden ? 'bg-success' : 'bg-danger'}`} />
             </Button>
           </OverlayTrigger>
 
@@ -331,11 +328,8 @@ export default class Chat extends React.Component {
               size="sm"
               onClick={() => this.setState({ showEmotes: !showEmotes })}
             >
-              {showEmotes ? (
-                <i className="fas fa-smile text-success" />
-              ) : (
-                <i className="fas fa-smile text-danger" />
-              )}
+              <i className="fas fa-smile" />
+              <div className={`led ${showEmotes ? 'bg-success' : 'bg-danger'}`} />
             </Button>
           </OverlayTrigger>
         </div>
