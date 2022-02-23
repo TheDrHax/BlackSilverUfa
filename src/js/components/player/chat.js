@@ -35,11 +35,11 @@ export default class Chat extends React.Component {
       maxItems: 100,
       ...Persist.load('Chat', {
         showHidden: false,
+        showEmotes: true,
       }),
       emotes: null,
     };
 
-    this.toggleShowHidden = this.toggleShowHidden.bind(this);
     this.tryLoadData = this.tryLoadData.bind(this);
   }
 
@@ -197,15 +197,10 @@ export default class Chat extends React.Component {
     return this.data.chain().find(query).offset(-maxItems).data();
   }
 
-  toggleShowHidden() {
-    const { showHidden } = this.state;
-    this.setState({ showHidden: !showHidden });
-  }
-
   renderMessageText(text) {
-    const { emotes } = this.state;
+    const { showEmotes, emotes } = this.state;
 
-    if (!emotes) return text;
+    if (!showEmotes || !emotes) return text;
 
     const { pattern, data } = emotes;
 
@@ -255,7 +250,7 @@ export default class Chat extends React.Component {
   }
 
   render() {
-    const { loaded, error, showHidden } = this.state;
+    const { loaded, error, showHidden, showEmotes } = this.state;
     const { simple } = this.props;
 
     if (error) {
@@ -303,16 +298,43 @@ export default class Chat extends React.Component {
             placement="top"
             overlay={(props) => (
               <Tooltip {...props}>
-                {showHidden ? 'Скрывать ' : 'Показывать '}
-                ботов, команды и голоса на играх с интеграцией чата
+                Показывать ответы ботов, команды и голоса на играх с интеграцией
+                чата ({showHidden ? 'включено' : 'выключено'})
               </Tooltip>
             )}
           >
-            <Button variant="dark" size="sm" onClick={this.toggleShowHidden}>
+            <Button
+              variant="dark"
+              size="sm"
+              onClick={() => this.setState({ showHidden: !showHidden })}
+            >
               {showHidden ? (
-                <i className="far fa-eye" />
+                <i className="fas fa-robot text-success" />
               ) : (
-                <i className="far fa-eye-slash" />
+                <i className="fas fa-robot text-danger" />
+              )}
+            </Button>
+          </OverlayTrigger>
+
+          <OverlayTrigger
+            placement="top"
+            overlay={(props) => (
+              <Tooltip {...props}>
+                Показывать смайлики Twitch, BetterTTV и
+                FrankerFaceZ ({showEmotes ? 'включено' : 'выключено'})
+              </Tooltip>
+            )}
+          >
+            <Button
+              className="ms-1"
+              variant="dark"
+              size="sm"
+              onClick={() => this.setState({ showEmotes: !showEmotes })}
+            >
+              {showEmotes ? (
+                <i className="fas fa-smile text-success" />
+              ) : (
+                <i className="fas fa-smile text-danger" />
               )}
             </Button>
           </OverlayTrigger>
