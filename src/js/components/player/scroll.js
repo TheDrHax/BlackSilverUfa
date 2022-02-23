@@ -52,12 +52,15 @@ export default class Scroll extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    const { scrollToSelector, contentKey } = this.props;
+    const { scrollToSelector, keepAtBottom, contentKey } = this.props;
 
-    if (scrollToSelector) {
-      if (prevProps.scrollToSelector !== scrollToSelector
-          || prevProps.contentKey !== contentKey) {
+    if (prevProps.contentKey !== contentKey) {
+      if (scrollToSelector && !prevProps.scrollToSelector) {
         this.scrollToSelector(scrollToSelector);
+      }
+
+      if (keepAtBottom) {
+        this.keepAtBottom();
       }
     }
   }
@@ -125,7 +128,10 @@ export default class Scroll extends React.Component {
               >
                 <Measure onResize={this.onSizeChange}>
                   {({ measureRef }) => (
-                    <div ref={measureRef}>{children}</div>
+                    <div ref={measureRef}>
+                      {children}
+                      <div className="bottom" />
+                    </div>
                   )}
                 </Measure>
               </CustomScroll>
@@ -153,6 +159,6 @@ Scroll.defaultProps = {
   flex: null,
   heightRelativeToParent: null,
   keepAtBottom: false,
-  bottomSelector: '* + :last-child',
+  bottomSelector: '.bottom',
   contentKey: null,
 };
