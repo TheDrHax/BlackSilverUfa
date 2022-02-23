@@ -525,7 +525,14 @@ h3>.badge {
     }
 
     & .emote {
-      height: 28px;
+      height: 24px;
+    }
+
+    & .emote-placeholder {
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      vertical-align: middle;
     }
   }
 

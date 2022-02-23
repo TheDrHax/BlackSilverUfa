@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import * as Loki from 'lokijs';
 import last from 'lodash/last';
 import { Button, ListGroup, ListGroupItem, OverlayTrigger, Spinner, Tooltip } from 'react-bootstrap';
+import { Img } from 'react-image';
 import { ptime } from '../../utils/time-utils';
 import Scroll from './scroll';
 import Persist from '../../utils/persist';
@@ -211,8 +212,14 @@ export default class Chat extends React.Component {
     return text.split(/\s+/).map((word, i) => {
       if (word.match(pattern)) {
         word = (
-          // eslint-disable-next-line react/no-array-index-key
-          <img key={i} className="emote" src={data[word]} alt={word} />
+          <Img
+            // eslint-disable-next-line react/no-array-index-key
+            key={i}
+            src={data[word]}
+            className="emote"
+            loader={<span className="emote-placeholder" />}
+            unloader={word}
+          />
         );
       }
 
