@@ -1978,7 +1978,8 @@
         { "name": "Skinwalker", "start": 9018 },
         { "name": "Paranoiac", "start": 11979 }
       ] },
-      { "name": "Know by Heart (Помни...)", "segment": "1294441814" }
+      { "name": "Know by Heart (Помни...)", "segment": "1294441814" },
+      { "name": "Little Orpheus - Episode 1", "segment": "1307474557", "start": 3599 }
     ]
   },
   {
@@ -3144,6 +3145,13 @@
         { "name": "Scathe (демо)", "start": 6678 },
         { "name": "Daymare: 1994 Sandcastle (демо)", "start": 12540 },
         { "name": "Total War: Warhammer III", "start": 14527 }
+      ] },
+      { "name": "Daymare: 1994 Sandcastle (демо) / The Bridge Curse: Road to Salvation (демо) / My Friendly Neighborhood (демо) / SCP: Pandemic (демо) / IXION (демо)", "segment": "1307474557", "subrefs": [
+        { "name": "Daymare: 1994 Sandcastle (демо)" },
+        { "name": "The Bridge Curse: Road to Salvation (демо)", "start": 5644 },
+        { "name": "My Friendly Neighborhood (демо)", "start": 8439 },
+        { "name": "SCP: Pandemic (демо)", "start": 11879 },
+        { "name": "IXION (демо)", "start": 15483 }
       ] }
     ]
   },

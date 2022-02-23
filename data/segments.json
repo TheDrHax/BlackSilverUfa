@@ -10155,7 +10155,6 @@
     "name": "Happy's Humble Burger Farm #4 / Metro 2033 Redux #1 (заново) / Шорох (Scratches: Director's Cut) #2",
     "date": "2022-01-06",
     "offsets": [0, 3720],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1254688558,1254720798.torrent",
     "games": ["hhbf", "metro-2033", "scratches"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1254688558,1254720798+0.ass"
   },
@@ -10402,5 +10401,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1306396434.torrent",
     "games": ["first-2022", "expedition-zero"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1306396434.ass"
+  },
+  "1307474557": {
+    "abs_start": 0, "abs_end": 17334, "duration": 0,
+    "name": "Daymare: 1994 Sandcastle (демо) / Little Orpheus - Episode 1 / The Bridge Curse: Road to Salvation (демо) / My Friendly Neighborhood (демо) / SCP: Pandemic (демо) / IXION (демо)",
+    "date": "2022-02-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1307474557.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1307474557.torrent",
+    "games": ["first-2022", "single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1307474557.ass"
   }
 }
