@@ -161,6 +161,7 @@ export default class Chat extends React.Component {
   shouldComponentUpdate(prevProps, nextState) {
     Persist.save('Chat', this.state, nextState, [
       'showHidden',
+      'showEmotes',
     ]);
 
     return true;
