@@ -10395,20 +10395,20 @@
   },
   "1306396434": {
     "abs_start": 0, "abs_end": 22378, "duration": 0,
-    "name": "Autopsy Simulator (демо) / FAR: Changing Tides (демо) / Scathe (демо) / Expedition Zero - Демо #2 / Daymare: 1994 Sandcastle (демо) / Total War: Warhammer III",
+    "name": "Autopsy Simulator (демо) / FAR: Changing Tides (демо) / Scathe (демо) / Expedition Zero - Демо #2 / Daymare: 1994 Sandcastle #1 (демо) / Total War: Warhammer III",
     "date": "2022-02-22",
     "direct": "https://bsufiles.thedrhax.pw/streams/1306396434.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1306396434.torrent",
-    "games": ["first-2022", "expedition-zero"],
+    "games": ["first-2022", "expedition-zero", "daymare-1994-sc"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1306396434.ass"
   },
   "1307474557": {
     "abs_start": 0, "abs_end": 17334, "duration": 0,
-    "name": "Daymare: 1994 Sandcastle (демо) / Little Orpheus - Episode 1 / The Bridge Curse: Road to Salvation (демо) / My Friendly Neighborhood (демо) / SCP: Pandemic (демо) / IXION (демо)",
+    "name": "Daymare: 1994 Sandcastle #2 / Little Orpheus - Episode 1 / The Bridge Curse: Road to Salvation (демо) / My Friendly Neighborhood (демо) / SCP: Pandemic (демо) / IXION (демо)",
     "date": "2022-02-23",
     "direct": "https://bsufiles.thedrhax.pw/streams/1307474557.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1307474557.torrent",
-    "games": ["first-2022", "single"],
+    "games": ["daymare-1994-sc", "single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1307474557.ass"
   }
 }

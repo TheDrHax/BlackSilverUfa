@@ -3139,20 +3139,27 @@
         { "name": "Kingdom of the Dead", "start": 10383 }
       ] },
       { "name": "Horizon Zero Dawn", "segment": "1300779617" },
-      { "name": "Autopsy Simulator (демо) / FAR: Changing Tides (демо) / Scathe (демо) / Daymare: 1994 Sandcastle (демо) / Total War: Warhammer III", "segment": "1306396434", "subrefs": [
+      { "name": "Autopsy Simulator (демо) / FAR: Changing Tides (демо) / Scathe (демо) / Total War: Warhammer III", "segment": "1306396434", "subrefs": [
         { "name": "Autopsy Simulator (демо)" },
         { "name": "FAR: Changing Tides (демо)", "start": 4545 },
         { "name": "Scathe (демо)", "start": 6678 },
-        { "name": "Daymare: 1994 Sandcastle (демо)", "start": 12540 },
         { "name": "Total War: Warhammer III", "start": 14527 }
       ] },
-      { "name": "Daymare: 1994 Sandcastle (демо) / The Bridge Curse: Road to Salvation (демо) / My Friendly Neighborhood (демо) / SCP: Pandemic (демо) / IXION (демо)", "segment": "1307474557", "subrefs": [
-        { "name": "Daymare: 1994 Sandcastle (демо)" },
+      { "name": "The Bridge Curse: Road to Salvation (демо) / My Friendly Neighborhood (демо) / SCP: Pandemic (демо) / IXION (демо)", "segment": "1307474557", "start": 5644, "subrefs": [
         { "name": "The Bridge Curse: Road to Salvation (демо)", "start": 5644 },
         { "name": "My Friendly Neighborhood (демо)", "start": 8439 },
         { "name": "SCP: Pandemic (демо)", "start": 11879 },
         { "name": "IXION (демо)", "start": 15483 }
       ] }
+    ]
+  },
+  {
+    "name": "Daymare: 1994 Sandcastle",
+    "category": "infinite",
+    "id": "daymare-1994-sc",
+    "streams": [
+      { "name": "1 (демо)", "segment": "1306396434", "start": 12540 },
+      { "name": "2", "segment": "1307474557" }
     ]
   },
   {
