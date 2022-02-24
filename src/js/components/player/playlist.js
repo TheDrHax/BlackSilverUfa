@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Resizable } from 're-resizable';
 import SugarDate from '../../utils/sugar';
 import { Game, Segment } from '../../data-types';
-import Scroll from './scroll';
+import Scroll from '../scroll';
 
 const BUTTON_STYLE = { variant: 'dark', size: 'sm' };
 
