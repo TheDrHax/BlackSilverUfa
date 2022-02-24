@@ -10,6 +10,7 @@ from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
 
 from . import _
+from .emotes import update_emotes
 from ..data import config, streams, games, categories
 from ..config import DEBUG
 from .stats import get_stats
@@ -50,8 +51,6 @@ def build_data():
 
         # Generate subtitles
         generate_subtitles(segment)
-
-    shutil.copy('data/emotes.json', _('data/emotes.json'))
 
     with open(_('data/stats.json'), 'w') as fo:
         json.dump(get_stats(), fo, ensure_ascii=False, indent=2)
@@ -139,6 +138,7 @@ def generate(argv=None):
         os.unlink(_('CNAME'))
 
     build_data()
+    timed('Emotes updated in {}ms')(update_emotes)()
     build_mako()
 
 

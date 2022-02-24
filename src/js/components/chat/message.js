@@ -2,7 +2,6 @@ import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
 import repeat from 'lodash/repeat';
 import { ListGroupItem } from 'react-bootstrap';
-import { Img } from 'react-image';
 import { TypeMessage } from './types';
 
 const PACKED_WORDS = /([^ ]+) x⁣([0-9]+)/g;
@@ -25,13 +24,12 @@ export const ChatMessage = ({ message, emotes, unpackMessages, showHidden, showE
       res = res.split(/\s+/).map((word, i) => {
         if (word.match(emotes.pattern)) {
           word = (
-            <Img
+            <img
               // eslint-disable-next-line react/no-array-index-key
               key={i}
-              src={emotes.data[word]}
+              src={emotes.data[word].src}
+              alt={word}
               className="emote"
-              loader={<span className="emote-placeholder" />}
-              unloader={word}
             />
           );
         }
@@ -61,7 +59,10 @@ ChatMessage.propTypes = {
   message: TypeMessage.isRequired,
   emotes: PropTypes.shape({
     pattern: PropTypes.object,
-    data: PropTypes.objectOf(PropTypes.string),
+    data: PropTypes.objectOf(PropTypes.shape({
+      id: PropTypes.string,
+      src: PropTypes.string,
+    })),
   }),
   unpackMessages: PropTypes.bool.isRequired,
   showHidden: PropTypes.bool.isRequired,

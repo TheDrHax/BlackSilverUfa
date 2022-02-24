@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Button, ListGroup, Spinner } from 'react-bootstrap';
 import { ChatMessage } from './message';
-import { loadEmotes } from './emotes-loader';
 import { loadSubtitles } from './subtitles-loader';
 import Scroll from '../scroll';
 import Persist from '../../utils/persist';
@@ -36,8 +35,12 @@ export const Chat = ({ subtitles, currentTime, offset, simple }) => {
   }, [subtitles, error]);
 
   useEffect(() => {
-    loadEmotes()
-      .then((res) => setEmotes(res))
+    fetch('/data/emotes.json')
+      .then((res) => res.json())
+      .then((res) => {
+        const pattern = new RegExp(`^(${Object.keys(res).join('|')})$`);
+        setEmotes({ data: res, pattern });
+      })
       .catch(() => setEmotes(null));
   }, []);
 
