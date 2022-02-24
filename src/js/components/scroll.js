@@ -55,7 +55,7 @@ export default class Scroll extends React.Component {
     const { scrollToSelector, keepAtBottom, contentKey } = this.props;
 
     if (prevProps.contentKey !== contentKey) {
-      if (scrollToSelector && !prevProps.scrollToSelector) {
+      if (scrollToSelector) {
         this.scrollToSelector(scrollToSelector);
       }
 

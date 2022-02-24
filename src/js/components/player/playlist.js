@@ -98,6 +98,7 @@ export const Playlist = ({ games, game, segment, autoExpand, fullHeight }) => {
         <SegmentRefList
           game={currentGame}
           currentSegment={segment}
+          contentKey={currentGame.id}
         />
       ) : (
         <CollapseWrapper open={open}>
