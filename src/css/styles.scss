@@ -876,15 +876,15 @@ i.fab + span, i.fas + span, i.far + span, span + i.fas {
   }
 }
 
+.plyr:fullscreen iframe, .plyr--fullscreen-fallback iframe {
+  pointer-events: none;
+}
+
 .plyr--youtube {
   &:not(:fullscreen):not(.plyr--fullscreen-fallback) {
     & .plyr__controls, .plyr__control[data-plyr="play"] {
       display: none;
     }
-  }
-
-  &:fullscreen iframe {
-    pointer-events: none;
   }
 
   & .plyr__poster {
