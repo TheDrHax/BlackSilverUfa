@@ -93,11 +93,13 @@ export const Chat = ({ subtitles, currentTime, offset, simple }) => {
         </ListGroup>
       </Scroll>
 
-      <ChatSettings
-        onChange={updateSettings}
-        emotes={emotes}
-        {...settings}
-      />
+      {!simple && (
+        <ChatSettings
+          onChange={updateSettings}
+          emotes={emotes}
+          {...settings}
+        />
+      )}
     </>
   );
 };
