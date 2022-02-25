@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { Button, OverlayTrigger, Spinner, Tooltip } from 'react-bootstrap';
+import { TypeEmotes } from './types';
 
-export const ChatSettings = ({ showHidden, showEmotes, unpackMessages, onChange }) => (
+export const ChatSettings = ({ showHidden, emotes, showEmotes, unpackMessages, onChange }) => (
   <div className="sidebar-row border-top d-flex">
     <OverlayTrigger
       placement="top"
@@ -38,7 +39,11 @@ export const ChatSettings = ({ showHidden, showEmotes, unpackMessages, onChange 
         size="sm"
         onClick={() => onChange({ showEmotes: !showEmotes })}
       >
-        <i className="fas fa-smile" />
+        {showEmotes && !emotes ? (
+          <Spinner animation="border" size="sm" />
+        ) : (
+          <i className="fas fa-smile" />
+        )}
         <div className={`led ${showEmotes ? 'bg-success' : 'bg-danger'}`} />
       </Button>
     </OverlayTrigger>
@@ -67,7 +72,12 @@ export const ChatSettings = ({ showHidden, showEmotes, unpackMessages, onChange 
 
 ChatSettings.propTypes = {
   showHidden: PropTypes.bool.isRequired,
+  emotes: TypeEmotes,
   showEmotes: PropTypes.bool.isRequired,
   unpackMessages: PropTypes.bool.isRequired,
   onChange: PropTypes.func.isRequired,
+};
+
+ChatSettings.defaultProps = {
+  emotes: null,
 };

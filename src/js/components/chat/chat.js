@@ -35,6 +35,8 @@ export const Chat = ({ subtitles, currentTime, offset, simple }) => {
   }, [subtitles, error]);
 
   useEffect(() => {
+    if (emotes || !settings.showEmotes) return;
+
     fetch('/data/emotes.json')
       .then((res) => res.json())
       .then((res) => {
@@ -42,7 +44,7 @@ export const Chat = ({ subtitles, currentTime, offset, simple }) => {
         setEmotes({ data: res, pattern });
       })
       .catch(() => setEmotes(null));
-  }, []);
+  }, [settings.showEmotes]);
 
   if (error) {
     return !simple && (
@@ -93,6 +95,7 @@ export const Chat = ({ subtitles, currentTime, offset, simple }) => {
 
       <ChatSettings
         onChange={updateSettings}
+        emotes={emotes}
         {...settings}
       />
     </>

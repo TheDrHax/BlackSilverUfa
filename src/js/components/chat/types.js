@@ -8,3 +8,11 @@ export const TypeMessage = PropTypes.shape({
   color: PropTypes.string,
   hidden: PropTypes.bool,
 });
+
+export const TypeEmotes = PropTypes.shape({
+  pattern: PropTypes.object,
+  data: PropTypes.objectOf(PropTypes.shape({
+    id: PropTypes.string,
+    src: PropTypes.string,
+  })),
+});

@@ -606,6 +606,10 @@ h3>.badge {
   border-radius: 100%;
 }
 
+.btn .spinner-border {
+  vertical-align: middle;
+}
+
 .sidebar-content {
   background-color: #{$color-bg-light};
   color: #{$text-color};

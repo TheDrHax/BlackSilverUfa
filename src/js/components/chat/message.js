@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
 import repeat from 'lodash/repeat';
 import { ListGroupItem } from 'react-bootstrap';
-import { TypeMessage } from './types';
+import { TypeMessage, TypeEmotes } from './types';
 
 const PACKED_WORDS = /([^ ]+) x⁣([0-9]+)/g;
 
@@ -57,13 +57,7 @@ export const ChatMessage = ({ message, emotes, unpackMessages, showHidden, showE
 
 ChatMessage.propTypes = {
   message: TypeMessage.isRequired,
-  emotes: PropTypes.shape({
-    pattern: PropTypes.object,
-    data: PropTypes.objectOf(PropTypes.shape({
-      id: PropTypes.string,
-      src: PropTypes.string,
-    })),
-  }),
+  emotes: TypeEmotes,
   unpackMessages: PropTypes.bool.isRequired,
   showHidden: PropTypes.bool.isRequired,
   showEmotes: PropTypes.bool.isRequired,
