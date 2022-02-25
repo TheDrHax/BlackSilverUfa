@@ -10136,8 +10136,6 @@
     "abs_start": 0, "abs_end": 3724, "duration": 0,
     "name": "",
     "date": "2022-01-06",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1254688558.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1254688558.torrent",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1254688558.ass"
   },
@@ -10145,8 +10143,6 @@
     "abs_start": 0, "abs_end": 25789, "duration": 0,
     "name": "",
     "date": "2022-01-06",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1254720798.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1254720798.torrent",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1254720798.ass"
   },
@@ -10409,5 +10405,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1307474557.torrent",
     "games": ["daymare-1994-sc", "single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1307474557.ass"
+  },
+  "1407442799": {
+    "abs_start": 0, "abs_end": 31517, "duration": 0,
+    "name": "Elden Ring #1 (релиз)",
+    "date": "2022-02-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1407442799.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1407442799.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1407442799.ass"
   }
 }
