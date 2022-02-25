@@ -876,6 +876,10 @@ i.fab + span, i.fas + span, i.far + span, span + i.fas {
   }
 }
 
+.tooltip {
+  top: 0;
+}
+
 .plyr:fullscreen iframe, .plyr--fullscreen-fallback iframe {
   pointer-events: none;
 }
