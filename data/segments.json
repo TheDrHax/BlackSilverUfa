@@ -10158,7 +10158,6 @@
     "youtube": "xXJ23lZhTQM", "abs_start": 0, "abs_end": 22755, "duration": 22755,
     "name": "Escape From Tarkov #9",
     "date": "2022-01-07",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1255768824.torrent",
     "games": ["tarkov"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1255768824.ass"
   },
@@ -10412,5 +10411,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1407442799.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1407442799.ass"
+  },
+  "1408604628": {
+    "abs_start": 0, "abs_end": 30196, "duration": 0,
+    "name": "Elden Ring #2",
+    "date": "2022-02-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1408604628.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1408604628.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1408604628.ass"
   }
 }
