@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button, OverlayTrigger, Spinner, Tooltip } from 'react-bootstrap';
+import { faFileArchive, faRobot, faSmile } from '@fortawesome/free-solid-svg-icons';
 import { TypeEmotes } from './types';
+import { FAIcon } from '../../utils/fontawesome';
 
 export const ChatSettings = ({ showHidden, emotes, showEmotes, unpackMessages, onChange }) => (
   <div className="sidebar-row border-top d-flex">
@@ -19,7 +21,7 @@ export const ChatSettings = ({ showHidden, emotes, showEmotes, unpackMessages, o
         size="sm"
         onClick={() => onChange({ showHidden: !showHidden })}
       >
-        <i className="fas fa-robot" />
+        <FAIcon icon={faRobot} />
         <div className={`led ${showHidden ? 'bg-success' : 'bg-danger'}`} />
       </Button>
     </OverlayTrigger>
@@ -42,7 +44,7 @@ export const ChatSettings = ({ showHidden, emotes, showEmotes, unpackMessages, o
         {showEmotes && !emotes ? (
           <Spinner animation="border" size="sm" />
         ) : (
-          <i className="fas fa-smile" />
+          <FAIcon icon={faSmile} />
         )}
         <div className={`led ${showEmotes ? 'bg-success' : 'bg-danger'}`} />
       </Button>
@@ -63,7 +65,7 @@ export const ChatSettings = ({ showHidden, emotes, showEmotes, unpackMessages, o
         size="sm"
         onClick={() => onChange({ unpackMessages: !unpackMessages })}
       >
-        <i className="fas fa-file-archive" />
+        <FAIcon icon={faFileArchive} />
         <div className={`led ${unpackMessages ? 'bg-success' : 'bg-danger'}`} />
       </Button>
     </OverlayTrigger>

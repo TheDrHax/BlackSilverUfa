@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { Button, Col, Form, InputGroup, Pagination, Popover, Row, Spinner } from 'react-bootstrap';
+import { faCopy } from '@fortawesome/free-solid-svg-icons';
 import { getBaseSegment } from '../../utils/data-utils';
 import { Data } from '../../data';
 import { ftime } from '../../utils/time-utils';
+import { FAIcon } from '../../utils/fontawesome';
 
 const getShortLink = (segment, at) => (
   // eslint-disable-next-line prefer-template
@@ -122,7 +124,7 @@ const ShareOverlay = React.forwardRef((props, ref) => {
                   }
                 }}
               >
-                <i className="fas fa-copy" />
+                <FAIcon icon={faCopy} />
               </Button>
             </InputGroup>
           </Col>

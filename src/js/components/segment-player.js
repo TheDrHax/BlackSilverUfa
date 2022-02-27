@@ -15,6 +15,8 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 import { Rnd } from 'react-rnd';
+import { faCaretSquareLeft, faCaretSquareRight, faCheckCircle, faDownload, faExclamationCircle, faExpand, faMaximize, faShareSquare } from '@fortawesome/free-solid-svg-icons';
+import { faTwitch, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { Data } from '../data';
 import SavedPosition from '../utils/saved-position';
 import Persist from '../utils/persist';
@@ -29,6 +31,7 @@ import updateState from '../utils/update-state';
 import { findRefBySegment, resolveGame, resolveSegment } from '../utils/data-utils';
 import { ShareOverlay } from './player/share-overlay';
 import { Layout } from '.';
+import { FAIcon } from '../utils/fontawesome';
 
 export default class SegmentPlayer extends React.Component {
   createChatContainer() {
@@ -338,7 +341,7 @@ export default class SegmentPlayer extends React.Component {
 
             {!segmentId.startsWith('00') && (
               <Button variant="dark" size="sm" className="me-2" href={`https://twitch.tv/videos/${segmentId}`} target="blank">
-                <i className="fab fa-twitch" />
+                <FAIcon icon={faTwitch} />
                 <span>Twitch</span>
               </Button>
             )}
@@ -351,7 +354,7 @@ export default class SegmentPlayer extends React.Component {
                 size="sm"
                 className="me-2"
               >
-                <i className="fab fa-youtube" />
+                <FAIcon icon={faYoutube} />
                 <span>Youtube</span>
                 <OverlayTrigger
                   placement="top"
@@ -361,11 +364,10 @@ export default class SegmentPlayer extends React.Component {
                     </Tooltip>
                   )}
                 >
-                  {official === false ? (
-                    <i className="fas fa-exclamation-circle text-warning" />
-                  ) : (
-                    <i className="fas fa-check-circle text-success" />
-                  )}
+                  <FAIcon
+                    icon={official === false ? faExclamationCircle : faCheckCircle}
+                    className={official === false ? 'text-warning' : 'text-success'}
+                  />
                 </OverlayTrigger>
               </Button>
             )}
@@ -377,7 +379,7 @@ export default class SegmentPlayer extends React.Component {
                 size="sm"
                 className="me-2"
               >
-                <i className="fas fa-download" />
+                <FAIcon icon={faDownload} />
                 <span className="d-none d-xl-inline">Торрент</span>
               </Button>
             )}
@@ -396,7 +398,7 @@ export default class SegmentPlayer extends React.Component {
               )}
             >
               <Button variant="dark" size="sm" className="me-2">
-                <i className="fas fa-share-square" />
+                <FAIcon icon={faShareSquare} />
                 <span className="d-none d-xl-inline">Поделиться</span>
               </Button>
             </OverlayTrigger>
@@ -410,7 +412,7 @@ export default class SegmentPlayer extends React.Component {
               )}
             >
               <Button variant="dark" size="sm" onClick={() => toggleFullscreen(true)} className="me-2">
-                <i className="fas fa-expand-arrows-alt" />
+                <FAIcon icon={faMaximize} />
                 <span className="d-none d-lg-inline">На всё окно</span>
               </Button>
             </OverlayTrigger>
@@ -424,7 +426,7 @@ export default class SegmentPlayer extends React.Component {
               )}
             >
               <Button variant="dark" size="sm" onClick={() => toggleFullscreen(false)}>
-                <i className="fas fa-expand" />
+                <FAIcon icon={faExpand} />
                 <span className="d-none d-lg-inline">На весь экран</span>
               </Button>
             </OverlayTrigger>
@@ -550,11 +552,7 @@ export default class SegmentPlayer extends React.Component {
                     size="sm"
                     onClick={this.toggleSidebar}
                   >
-                    {sidebarCollapsed ? (
-                      <i className="fas fa-caret-square-right" />
-                    ) : (
-                      <i className="fas fa-caret-square-left" />
-                    )}
+                    <FAIcon icon={sidebarCollapsed ? faCaretSquareRight : faCaretSquareLeft} />
                   </Button>
                 </div>
 

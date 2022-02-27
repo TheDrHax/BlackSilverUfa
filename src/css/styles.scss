@@ -383,7 +383,7 @@ h3>.badge {
   & .list-group-item {
     padding: 0.25rem;
 
-    & > .glyph {
+    & > svg {
       align-self: center;
       padding-right: 0.25rem;
     }
@@ -787,8 +787,10 @@ h3>.badge {
   }
 }
 
-i.fab + span, i.fas + span, i.far + span, span + i.fas {
-  padding-left: 0.25rem;
+.btn {
+  svg + span, span + svg {
+    padding-left: 0.25rem;
+  }
 }
 
 .d-xxl-block {

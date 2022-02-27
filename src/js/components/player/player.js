@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import Plyr from 'plyr';
 import Measure from 'react-measure';
+import { faComments } from '@fortawesome/free-solid-svg-icons';
 import Persist from '../../utils/persist';
 import 'plyr/src/sass/plyr.scss';
+import { FAIcon } from '../../utils/fontawesome';
 
 export default class Player extends React.Component {
   constructor(props) {
@@ -63,7 +65,7 @@ export default class Player extends React.Component {
 
   addControlButton({
     before = 'button[data-plyr="fullscreen"]',
-    iconClass = 'fas fa-comments',
+    icon = faComments,
     value = true,
     onToggle = (state) => state,
   }) {
@@ -76,9 +78,9 @@ export default class Player extends React.Component {
       'plyr__control__custom',
     ].forEach((i) => button.classList.add(i));
 
-    const icon = document.createElement('i');
-    iconClass.split(' ').forEach((i) => icon.classList.add(i));
-    button.appendChild(icon);
+    const node = document.createElement('span');
+    button.appendChild(node);
+    ReactDOM.render(<FAIcon icon={icon} />, node); // this works? nice
 
     if (value) {
       button.pressed = true;
@@ -113,7 +115,7 @@ export default class Player extends React.Component {
 
       this.addControlButton({
         before: '.plyr__menu',
-        iconClass: 'fas fa-comments',
+        icon: faComments,
         value: chatOverlay,
         onToggle: (value) => {
           this.setState({ chatOverlay: value });

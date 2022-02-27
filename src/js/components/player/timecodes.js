@@ -1,7 +1,9 @@
 import React, { useCallback, useMemo, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Collapse, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { ptime } from '../../utils/time-utils';
+import { FAIcon } from '../../utils/fontawesome';
 
 const TimecodeLink = ({ value, currentTime, setTime }) => {
   const valueInt = useMemo(() => ptime(value), [value]);
@@ -119,7 +121,6 @@ Timecodes.defaultProps = {
 const NestedTimecodes = ({ name, level, ...rest }) => {
   const [open, setOpen] = useState(true);
   const toggleState = useCallback(() => setOpen(!open), [open]);
-  const glyphClass = `glyph fas fa-chevron-${open ? 'down' : 'right'}`;
 
   return (
     <>
@@ -128,7 +129,7 @@ const NestedTimecodes = ({ name, level, ...rest }) => {
         action
         onClick={toggleState}
       >
-        <i className={glyphClass} />
+        <FAIcon icon={open ? faChevronDown : faChevronRight} />
         <b>{name}</b>
       </ListGroupItem>
       <Collapse in={open}>

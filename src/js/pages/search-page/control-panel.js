@@ -1,11 +1,11 @@
 import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
-// Components
 import { Button, ButtonGroup, Form, InputGroup } from 'react-bootstrap';
+import { faSortAmountAsc, faSortAmountDesc } from '@fortawesome/free-solid-svg-icons';
 import DateFilter from './date-filter';
-// Namespace
 import { searchPage as t } from '../../constants/texts';
 import { MODES, SCALES, SOURCES } from './constants';
+import { FAIcon } from '../../utils/fontawesome';
 
 const SORT_OPTIONS = {
   segments: ['date'],
@@ -13,8 +13,8 @@ const SORT_OPTIONS = {
 };
 
 const SORT_ICONS = {
-  desc: 'fa-sort-amount-down',
-  asc: 'fa-sort-amount-up',
+  desc: faSortAmountDesc,
+  asc: faSortAmountAsc,
 };
 
 const convertCategories = (categories) => Object.values(categories)
@@ -122,7 +122,7 @@ const ControlPanel = ({ mode,
             variant="dark"
             onClick={() => onSortingChange({ isDesc: !sorting.isDesc })}
           >
-            <i className={`fas ${SORT_ICONS[direction]}`} />
+            <FAIcon icon={SORT_ICONS[direction]} />
           </Button>
         </InputGroup>
 

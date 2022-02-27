@@ -1,22 +1,22 @@
 import React from 'react';
-// Components
 import { Container, Row } from 'react-bootstrap';
+import { faDiscord, faGithub, faTelegram, faTwitch, faTwitter, faVk, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import FooterLinksGroup from './footer-links-group';
-// Namespace
 import { common as t } from '../../constants/texts';
-// Utils
 import { renderTemplate } from '../../utils/text-utils';
+import { FAIcon } from '../../utils/fontawesome';
 
 export const USEFUL_LINKS = [
   {
     label: t.footer.repositoryLabel,
     link: 'https://github.com/TheDrHax/BlackSilverUfa/',
-    iconClass: 'fa-github',
+    icon: faGithub,
   },
   {
     label: t.footer.channelLabel,
     link: 'https://t.me/BlackUFA_Monitor',
-    iconClass: 'fa-telegram',
+    icon: faTelegram,
   },
   {
     label: t.footer.oldSiteLabel,
@@ -32,17 +32,17 @@ export const CHANNEL_LINKS = [
   {
     label: 'BlackSilverUFA',
     link: 'https://www.youtube.com/user/BlackSilverUFA',
-    iconClass: 'fa-youtube',
+    icon: faYoutube,
   },
   {
     label: 'BlackSilverChannel',
     link: 'https://www.youtube.com/user/BlackSilverChannel',
-    iconClass: 'fa-youtube',
+    icon: faYoutube,
   },
   {
     label: 'BlackUFA',
     link: 'https://www.twitch.tv/blackufa/',
-    iconClass: 'fa-twitch',
+    icon: faTwitch,
   },
 ];
 
@@ -50,22 +50,22 @@ export const NETWORK_LINKS = [
   {
     label: t.footer.vkgroupLabel,
     link: 'https://vk.com/b_silver',
-    iconClass: 'fa-vk',
+    icon: faVk,
   },
   {
     label: t.footer.vkLabel,
     link: 'https://vk.com/blacksilverufa',
-    iconClass: 'fa-vk',
+    icon: faVk,
   },
   {
     label: 'Twitter',
     link: 'https://twitter.com/Sempai_Black',
-    iconClass: 'fa-twitter',
+    icon: faTwitter,
   },
   {
     label: 'Discord',
     link: 'https://discord.com/invite/bsuanddw',
-    iconClass: 'fa-discord',
+    icon: faDiscord,
   },
 ];
 
@@ -81,7 +81,7 @@ const Footer = () => {
         </Row>
       </Container>
       <div className="footer-copyright py-3 text-center small">
-        <i className="far fa-copyright" />{' '}
+        <FAIcon icon={faCopyright} />{' '}
         {renderTemplate(t.footer.signature, { now })}
         {' '}
         <a href="https://www.youtube.com/watch?v=Bxj09aAOFaI&lc=UgwQmdNhl4TMNn9-Gg94AaABAg.8ZY93MRq32E8ZY9W3KGSJS">

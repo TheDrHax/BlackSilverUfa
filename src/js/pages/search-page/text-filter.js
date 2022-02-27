@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-// Components
 import { Button, Form, InputGroup } from 'react-bootstrap';
-// Namespace
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { searchPage as t } from '../../constants/texts';
+import { FAIcon } from '../../utils/fontawesome';
 
 const ENTER_KEYS = ['NumpadEnter', 'Enter'];
 
@@ -40,7 +40,7 @@ const TextFilter = ({ initValue, onSubmit }) => {
             onSubmit('');
           }}
         >
-          <i className="fas fa-times" />
+          <FAIcon icon={faTimes} />
         </Button>
       )}
       <Button variant="primary" onClick={() => onSubmit(value)}>{t.search}</Button>

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // Components
 import { Col } from 'react-bootstrap';
+import { FAIcon } from '../../utils/fontawesome';
 
 const FooterLinksGroup = ({ title, links, ...rest }) => (
   <Col {...rest}>
@@ -10,11 +11,11 @@ const FooterLinksGroup = ({ title, links, ...rest }) => (
       {links.map(({
         label,
         link,
-        iconClass,
+        icon,
       }) => (
         <li key={link}>
           <a href={link}>
-            {iconClass && <i className={`fab ${iconClass}`} />}
+            {icon && <FAIcon icon={icon} />}
             {' '}
             {label}
           </a>

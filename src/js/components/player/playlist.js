@@ -3,9 +3,11 @@ import PropTypes from 'prop-types';
 import { Badge, Button, Collapse, InputGroup, ListGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Resizable } from 're-resizable';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import SugarDate from '../../utils/sugar';
 import { Game, Segment } from '../../data-types';
 import Scroll from '../scroll';
+import { FAIcon } from '../../utils/fontawesome';
 
 const BUTTON_STYLE = { variant: 'dark', size: 'sm' };
 
@@ -75,7 +77,7 @@ export const Playlist = ({ games, game, segment, autoExpand, fullHeight }) => {
           disabled={!prevItem}
           {...BUTTON_STYLE}
         >
-          <i className="fas fa-arrow-left" />
+          <FAIcon icon={faArrowLeft} />
         </Button>
         <Button
           onClick={() => setOpen(!open)}
@@ -90,7 +92,7 @@ export const Playlist = ({ games, game, segment, autoExpand, fullHeight }) => {
           disabled={!nextItem}
           {...BUTTON_STYLE}
         >
-          <i className="fas fa-arrow-right" />
+          <FAIcon icon={faArrowRight} />
         </Button>
       </InputGroup>
 
