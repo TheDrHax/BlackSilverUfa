@@ -16,7 +16,7 @@ const selectRecentSegments = ({ segments }, count = 10) => reverse(
     .data(),
 );
 
-export function MainPage() {
+export default function MainPage() {
   const [data, isReady] = useDataStore();
   const maxNameLength = useResponsiveValue([80, 120]);
   const cards = useResponsiveValue([6, 6, 9, 12, 15]);
