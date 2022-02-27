@@ -10165,7 +10165,6 @@
     "youtube": "fKs9pHsS7Io", "abs_start": 0, "abs_end": 22849, "duration": 22849,
     "name": "Shrek 2 / Шорох (Scratches: Director's Cut) #3",
     "date": "2022-01-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1256959016.torrent",
     "games": ["single", "scratches"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1256959016.ass"
   },
@@ -10419,5 +10418,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1408604628.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1408604628.ass"
+  },
+  "1409713021": {
+    "abs_start": 0, "abs_end": 29165, "duration": 0,
+    "name": "Elden Ring #3",
+    "date": "2022-02-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1409713021.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1409713021.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1409713021.ass"
   }
 }
