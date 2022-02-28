@@ -10172,7 +10172,6 @@
     "youtube": "wQI-9HishOk", "abs_start": 0, "abs_end": 22250, "duration": 22250,
     "name": "Fears to Fathom - Episode 2 - Norwood Hitchhike / Doghouse 1/2 / Blood Field (демо) / Insomnis / Broken Veil (демо) / Blink: The Last Night / I'm on Observation Duty - Часть 4 #1",
     "date": "2022-01-09",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1258121391.torrent",
     "games": ["fears-to-fathom", "single", "first-2022", "observation-duty"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1258121391.ass"
   },
@@ -10425,5 +10424,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1409713021.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1409713021.ass"
+  },
+  "1410791009": {
+    "abs_start": 0, "abs_end": 25028, "duration": 0,
+    "name": "Elden Ring #4",
+    "date": "2022-02-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1410791009.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1410791009.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1410791009.ass"
   }
 }
