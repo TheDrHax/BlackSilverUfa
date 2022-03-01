@@ -31,7 +31,7 @@ export const loadSubtitles = async (url) => {
     if (line.startsWith('Dialogue: ')) {
       const parts = line.substring(10).split(', ');
 
-      const [userStr, ...msgParts] = parts.slice(3).join(' ').split(': ');
+      const [userStr, ...msgParts] = parts.slice(3).join(', ').split(': ');
       const text = msgParts.join(': ').replace(LINE_BREAK, '');
       const time = ptime(parts[1]);
 
