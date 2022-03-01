@@ -10179,7 +10179,6 @@
     "youtube": "o2vCidyWf5Y", "abs_start": 0, "abs_end": 23949, "duration": 23949,
     "name": "LiBER - Релиз / Monster Hunter Rise",
     "date": "2022-01-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1261173013.torrent",
     "games": ["liber", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1261173013.ass"
   },
@@ -10432,5 +10431,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1410791009.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1410791009.ass"
+  },
+  "1411976783": {
+    "abs_start": 0, "abs_end": 24370, "duration": 0,
+    "name": "Elden Ring #5",
+    "date": "2022-03-01",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1411976783.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1411976783.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1411976783.ass"
   }
 }
