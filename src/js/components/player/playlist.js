@@ -6,13 +6,13 @@ import { Resizable } from 're-resizable';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import SugarDate from '../../utils/sugar';
 import { Game, Segment } from '../../data-types';
-import Scroll from '../scroll';
+import { Scroll } from '../scroll';
 import { FAIcon } from '../../utils/fontawesome';
 
 const BUTTON_STYLE = { variant: 'dark', size: 'sm' };
 
 const SegmentRefList = ({ game, currentSegment, contentKey }) => (
-  <Scroll heightRelativeToParent="100%" scrollToSelector=".active" contentKey={contentKey}>
+  <Scroll className="h-100" scrollTo=".active" scrollDelay={100} contentKey={contentKey}>
     <ListGroup className="playlist-streams separator-v">
       {game.streams.map((segmentRef) => (
         <ListGroup.Item

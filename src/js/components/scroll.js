@@ -1,164 +1,100 @@
-import React from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import CustomScroll from 'react-custom-scroll';
 import Measure from 'react-measure';
-import animateScrollTo from 'animated-scroll-to';
 
-export default class Scroll extends React.Component {
-  constructor(props) {
-    super(props);
+export const Scroll = ({
+  children,
+  className,
+  keepAtBottom,
+  scrollTo,
+  scrollDelay,
+  contentKey,
+}) => {
+  const scrollRef = useRef();
+  const [manualScroll, setManualScroll] = useState(!keepAtBottom);
+  const [outerHeight, setOuterHeight] = useState(0);
 
-    this.scrollRef = React.createRef();
-    this.onSizeChange = this.onSizeChange.bind(this);
-
-    this.outerHeight = 0;
-    this.prevOuterHeight = 0;
-    this.outerWidth = 0;
-    this.prevOuterWidth = 0;
-  }
-
-  onSizeChange() {
-    if (this.scrollRef.current) {
-      this.scrollRef.current.forceUpdate();
-    }
-  }
-
-  scrollToSelector(selector) {
-    const { smooth } = this.props;
-    const scroll = this.scrollRef.current;
-    const container = scroll.innerContainerRef.current;
-    const node = container.querySelector(selector);
+  const scrollToSelector = (selector) => {
+    const { current: scroll } = scrollRef;
+    const node = scroll?.innerContainerRef.current?.querySelector(selector);
 
     if (node) {
-      // We need to wait for child components to render
-      // This is probably a bad solution
-      setTimeout(() => {
-        animateScrollTo(node, {
-          elementToScroll: container,
-          maxDuration: smooth ? 1000 : 0,
-        });
-      }, 100);
-    }
-  }
-
-  componentDidMount() {
-    const { scrollToSelector, keepAtBottom } = this.props;
-
-    if (scrollToSelector) {
-      this.scrollToSelector(scrollToSelector);
-    } else if (keepAtBottom) {
-      this.keepAtBottom();
-    }
-  }
-
-  componentDidUpdate(prevProps) {
-    const { scrollToSelector, keepAtBottom, contentKey } = this.props;
-
-    if (prevProps.contentKey !== contentKey) {
-      if (scrollToSelector) {
-        this.scrollToSelector(scrollToSelector);
-      }
-
-      if (keepAtBottom) {
-        this.keepAtBottom();
+      if (scrollDelay) {
+        setTimeout(() => (
+          scroll.updateScrollPosition(node.offsetTop)
+        ), scrollDelay);
+      } else {
+        scroll.updateScrollPosition(node.offsetTop);
       }
     }
-  }
+  };
 
-  keepAtBottom() {
-    const {
-      scrollRef: {
-        current: ref,
-      },
-      props: {
-        keepAtBottom,
-        bottomSelector,
-      },
-    } = this;
+  const onResize = useCallback(() => {
+    scrollRef.current?.forceUpdate();
+  });
 
-    if (keepAtBottom && ref) {
-      this.scrollToSelector(bottomSelector);
+  const onOuterResize = useCallback(({ entry }) => {
+    setOuterHeight(entry?.height || 0);
+    onResize();
+  });
+
+  const onScroll = useCallback(({ target: { scrollTop, scrollTopMax } }) => {
+    setManualScroll(scrollTop < scrollTopMax * 0.9);
+  });
+
+  useEffect(() => {
+    if (keepAtBottom && !manualScroll) {
+      scrollToSelector('.bottom');
     }
-  }
+  }, [keepAtBottom, manualScroll, outerHeight, contentKey]);
 
-  render() {
-    const {
-      children,
-      scrollToSelector,
-      flex,
-      heightRelativeToParent,
-      ...otherProps
-    } = this.props;
-
-    const containerStyle = {};
-
-    if (flex) {
-      containerStyle.flex = flex;
-    } else if (heightRelativeToParent) {
-      containerStyle.height = heightRelativeToParent;
+  useEffect(() => {
+    if (scrollTo) {
+      scrollToSelector(scrollTo);
     }
+  }, [scrollTo, contentKey]);
 
-    return (
-      <Measure onResize={this.onSizeChange}>
-        {({
-          contentRect: {
-            entry: {
-              width: outerWidth,
-              height: outerHeight,
-            },
-          },
-          measureRef: outerMeasureRef,
-        }) => {
-          this.prevOuterHeight = this.outerHeight;
-          this.outerHeight = outerHeight;
-          this.prevOuterWidth = this.outerWidth;
-          this.outerWidth = outerWidth;
-
-          if (this.prevOuterHeight !== this.outerHeight
-              || this.prevOuterWidth !== this.outerWidth) {
-            this.keepAtBottom();
-          }
-
-          return (
-            <div ref={outerMeasureRef} style={containerStyle} className="scroll-outer">
-              <CustomScroll
-                ref={this.scrollRef}
-                flex="1 1 0"
-                {...otherProps}
-              >
-                <Measure onResize={this.onSizeChange}>
-                  {({ measureRef }) => (
-                    <div ref={measureRef}>
-                      {children}
-                      <div className="bottom" />
-                    </div>
-                  )}
-                </Measure>
-              </CustomScroll>
-            </div>
-          );
-        }}
-      </Measure>
-    );
-  }
-}
+  return (
+    <Measure onResize={onOuterResize}>
+      {({ measureRef: outerMeasureRef }) => (
+        <div
+          ref={outerMeasureRef}
+          className={className}
+          style={{ display: 'flex', flexDirection: 'column' }}
+        >
+          <CustomScroll
+            ref={scrollRef}
+            onScroll={onScroll}
+            flex="1 1 0"
+          >
+            <Measure onResize={onResize}>
+              {({ measureRef }) => (
+                <div ref={measureRef}>
+                  {children}
+                  <div className="bottom" />
+                </div>
+              )}
+            </Measure>
+          </CustomScroll>
+        </div>
+      )}
+    </Measure>
+  );
+};
 
 Scroll.propTypes = {
-  scrollToSelector: PropTypes.string,
-  smooth: PropTypes.bool,
-  flex: PropTypes.string,
-  heightRelativeToParent: PropTypes.string,
+  className: PropTypes.string,
   keepAtBottom: PropTypes.bool,
-  bottomSelector: PropTypes.string,
+  scrollTo: PropTypes.string,
+  scrollDelay: PropTypes.number,
   contentKey: PropTypes.any,
 };
 
 Scroll.defaultProps = {
-  scrollToSelector: null,
-  smooth: false,
-  flex: null,
-  heightRelativeToParent: null,
+  className: null,
   keepAtBottom: false,
-  bottomSelector: '.bottom',
+  scrollTo: null,
+  scrollDelay: 0,
   contentKey: null,
 };

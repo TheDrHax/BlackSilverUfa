@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Button, ListGroup, Spinner } from 'react-bootstrap';
 import { ChatMessage } from './message';
 import { loadSubtitles } from './subtitles-loader';
-import Scroll from '../scroll';
+import { Scroll } from '../scroll';
 import Persist from '../../utils/persist';
 import { ChatSettings } from './settings';
 import { useComplexState } from '../../hooks/use-complex-state';
@@ -77,10 +77,11 @@ export const Chat = ({ subtitles, currentTime, offset, simple }) => {
   }
 
   const messages = data.chain().find(query).offset(-50).data();
+  const key = messages[messages.length - 1]?.time;
 
   return (
     <>
-      <Scroll flex="1 0 0" keepAtBottom>
+      <Scroll className="flex-1-0-0" keepAtBottom contentKey={key}>
         <ListGroup className="chat-messages-list">
           {messages.map((msg) => (
             <ChatMessage

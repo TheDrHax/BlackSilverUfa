@@ -23,7 +23,7 @@ import Persist from '../utils/persist';
 import { Chat } from './chat';
 import Player from './player/player';
 import { Timecodes } from './player/timecodes';
-import Scroll from './scroll';
+import { Scroll } from './scroll';
 import { Playlist } from './player/playlist';
 import Reparentable from './utils/reparentable';
 import SugarDate from '../utils/sugar';
@@ -486,7 +486,7 @@ export default class SegmentPlayer extends React.Component {
         <div className="sidebar-header">
           Таймкоды
         </div>
-        <Scroll flex="1 1 0">
+        <Scroll className="flex-1-1-0">
           <Timecodes
             data={timecodes}
             setTime={setTime}
@@ -688,7 +688,7 @@ export default class SegmentPlayer extends React.Component {
                   <Tabs mountOnEnter>
                     <Tab eventKey="description" title="Описание">
                       {!subtitlesInTab ? (
-                        <Scroll flex="1 1 0">
+                        <Scroll className="flex-1-1-0">
                           {this.renderDescription()}
                         </Scroll>
                       ) : this.renderDescription()}
