@@ -4,15 +4,18 @@ import { Collapse, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { ptime } from '../../utils/time-utils';
 import { FAIcon } from '../../utils/fontawesome';
+import { usePlyrTime } from '../../hooks/use-plyr-time';
 
-const TimecodeLink = ({ value, currentTime, setTime }) => {
+const TimecodeLink = ({ value, plyr }) => {
   const valueInt = useMemo(() => ptime(value), [value]);
-  const visited = currentTime >= valueInt;
+  const visited = usePlyrTime(plyr, (t) => t >= valueInt) >= valueInt;
 
   const handleClick = useCallback((e) => {
     e.preventDefault();
-    setTime(valueInt);
-  }, [setTime, valueInt]);
+    if (!plyr) return;
+    plyr.currentTime = valueInt;
+    plyr.play();
+  }, [plyr, valueInt]);
 
   return (
     // eslint-disable-next-line jsx-a11y/anchor-is-valid
@@ -28,13 +31,11 @@ const TimecodeLink = ({ value, currentTime, setTime }) => {
 
 TimecodeLink.propTypes = {
   value: PropTypes.string.isRequired,
-  currentTime: PropTypes.number,
-  setTime: PropTypes.func,
+  plyr: PropTypes.object,
 };
 
 TimecodeLink.defaultProps = {
-  currentTime: 0,
-  setTime: () => null,
+  plyr: null,
 };
 
 const DangerSpan = ({ children }) => (
@@ -107,15 +108,13 @@ export const Timecodes = React.forwardRef(({ className, data, ...rest }, ref) =>
 
 Timecodes.propTypes = {
   className: PropTypes.string,
-  currentTime: PropTypes.number,
-  setTime: PropTypes.func,
+  plyr: PropTypes.object,
   data: PropTypes.object.isRequired,
 };
 
 Timecodes.defaultProps = {
   className: '',
-  currentTime: 0,
-  setTime: () => null,
+  plyr: null,
 };
 
 const NestedTimecodes = ({ name, level, ...rest }) => {

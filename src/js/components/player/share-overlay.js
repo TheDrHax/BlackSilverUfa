@@ -6,6 +6,8 @@ import { getBaseSegment } from '../../utils/data-utils';
 import { Data } from '../../data';
 import { ftime } from '../../utils/time-utils';
 import { FAIcon } from '../../utils/fontawesome';
+import { Segment } from '../../data-types';
+import { usePlyrTime } from '../../hooks/use-plyr-time';
 
 const getShortLink = (segment, at) => (
   // eslint-disable-next-line prefer-template
@@ -50,15 +52,9 @@ ModeSelector.propTypes = {
   onChange: PropTypes.func.isRequired,
 };
 
-const ShareOverlay = React.forwardRef((props, ref) => {
-  const {
-    segment,
-    currentTime,
-    ...otherProps
-  } = props;
-
+const ShareOverlay = React.forwardRef(({ segment, plyr, ...otherProps }, ref) => {
   const inputRef = useRef();
-  const time = Math.floor(currentTime);
+  const time = Math.floor(usePlyrTime(plyr, (t) => Math.round(t)));
   const [mode, setMode] = useState('link');
   const [segments, setSegments] = useState(null);
   const [includeTime, setIncludeTime] = useState(time > 0);
@@ -159,8 +155,12 @@ const ShareOverlay = React.forwardRef((props, ref) => {
 });
 
 ShareOverlay.propTypes = {
-  segment: PropTypes.object.isRequired,
-  currentTime: PropTypes.number.isRequired,
+  segment: Segment.isRequired,
+  plyr: PropTypes.object,
+};
+
+ShareOverlay.defaultProps = {
+  plyr: null,
 };
 
 export { ShareOverlay };

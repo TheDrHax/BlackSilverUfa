@@ -132,7 +132,6 @@ export default class Player extends React.Component {
 
   onTimeUpdate() {
     const {
-      onTimeChange,
       forceStart,
       start,
       autostart,
@@ -144,7 +143,6 @@ export default class Player extends React.Component {
       plyr,
       firstReady = true,
       firstTimeUpdate = true,
-      lastCallback = -0.25,
       lastSave = 0,
     } = this;
 
@@ -171,11 +169,6 @@ export default class Player extends React.Component {
     if (end && time >= end) {
       plyr.currentTime = end;
       plyr.pause();
-    }
-
-    if (Math.abs(time - lastCallback) >= 0.25) {
-      this.lastCallback = time;
-      onTimeChange(time);
     }
 
     if (Math.abs(time - lastSave) >= 5) {
@@ -315,7 +308,6 @@ Player.propTypes = {
   savedPositionAdapter: PropTypes.object,
   onReady: PropTypes.func,
   onDestroy: PropTypes.func,
-  onTimeChange: PropTypes.func,
   onFullScreen: PropTypes.func,
   renderOverlay: PropTypes.func,
 };
@@ -330,7 +322,6 @@ Player.defaultProps = {
   savedPositionAdapter: null,
   onReady: () => null,
   onDestroy: () => null,
-  onTimeChange: () => null,
   onFullScreen: () => null,
   renderOverlay: () => null,
 };

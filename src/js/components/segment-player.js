@@ -54,9 +54,6 @@ export default class SegmentPlayer extends React.Component {
       segmentRef: null,
       relatedGames: null,
       timecodes: null,
-      currentTime: 0,
-      setTime: null,
-      playlistAccordion: null,
       ...Persist.load('SegmentPlayer', {
         chatOverlay: {
           width: null,
@@ -234,13 +231,9 @@ export default class SegmentPlayer extends React.Component {
       end,
       forceStart,
       savedPositionAdapter,
-      onTimeChange: (time) => this.setState({ currentTime: time }),
       onReady: (plyr) => {
         this.setState({
-          setTime: (ts) => {
-            plyr.currentTime = ts;
-            plyr.play();
-          },
+          plyr,
           toggleFullscreen: (forceFallback = false) => {
             plyr.fullscreen.forceFallback = forceFallback;
             plyr.fullscreen.toggle();
@@ -248,10 +241,7 @@ export default class SegmentPlayer extends React.Component {
         });
       },
       onFullScreen: (fullscreen) => this.setState({ fullscreen }),
-      onDestroy: () => this.setState({
-        setTime: null,
-        currentTime: 0,
-      }),
+      onDestroy: () => this.setState({ plyr: null }),
       renderOverlay: this.renderPlayerOverlay,
     };
 
@@ -323,7 +313,7 @@ export default class SegmentPlayer extends React.Component {
     const {
       toggleFullscreen,
       segment,
-      currentTime,
+      plyr,
     } = this.state;
 
     const {
@@ -393,7 +383,7 @@ export default class SegmentPlayer extends React.Component {
               overlay={(
                 <ShareOverlay
                   segment={segment}
-                  currentTime={currentTime}
+                  plyr={plyr}
                 />
               )}
             >
@@ -439,7 +429,7 @@ export default class SegmentPlayer extends React.Component {
   renderChat() {
     const {
       fullscreen,
-      currentTime,
+      plyr,
       segment: {
         subtitles,
         abs_start: absStart,
@@ -467,7 +457,7 @@ export default class SegmentPlayer extends React.Component {
       <>
         {!fullscreen && header}
         <Chat
-          currentTime={currentTime}
+          plyr={plyr}
           offset={-absStart}
           subtitles={subtitles}
           simple={fullscreen}
@@ -477,9 +467,7 @@ export default class SegmentPlayer extends React.Component {
   }
 
   renderTimecodes() {
-    const {
-      timecodes, setTime, currentTime,
-    } = this.state;
+    const { timecodes, plyr } = this.state;
 
     return (
       <>
@@ -489,8 +477,7 @@ export default class SegmentPlayer extends React.Component {
         <Scroll className="flex-1-1-0">
           <Timecodes
             data={timecodes}
-            setTime={setTime}
-            currentTime={currentTime}
+            plyr={plyr}
           />
         </Scroll>
       </>
