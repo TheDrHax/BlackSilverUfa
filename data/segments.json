@@ -10186,7 +10186,6 @@
     "youtube": "nKRyLKqc2ts", "abs_start": 0, "abs_end": 28900, "duration": 28900,
     "name": "Metro 2033 Redux #2 / I'm on Observation Duty - Часть 4 #2 / Dying 2 Know #5",
     "date": "2022-01-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1262176650.torrent",
     "games": ["metro-2033", "observation-duty", "dying-2-know"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1262176650.ass"
   },
@@ -10439,5 +10438,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1411976783.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1411976783.ass"
+  },
+  "1412978137": {
+    "abs_start": 0, "abs_end": 24223, "duration": 0,
+    "name": "Elden Ring #6",
+    "date": "2022-03-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1412978137.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1412978137.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1412978137.ass"
   }
 }
