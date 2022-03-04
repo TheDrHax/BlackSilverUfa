@@ -10193,7 +10193,6 @@
     "youtube": "GJNwrgLD5S8", "abs_start": 0, "abs_end": 21724, "duration": 21724,
     "name": "Metro 2033 Redux #3 / God of War #1 (заново, PC)",
     "date": "2022-01-14",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1263236800.torrent",
     "games": ["metro-2033", "god-of-war"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1263236800.ass"
   },
@@ -10446,5 +10445,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1412978137.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1412978137.ass"
+  },
+  "1415016033": {
+    "abs_start": 0, "abs_end": 10984, "duration": 0,
+    "name": "Gran Turismo 7",
+    "date": "2022-03-04",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1415016033.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1415016033.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1415016033.ass"
   }
 }
