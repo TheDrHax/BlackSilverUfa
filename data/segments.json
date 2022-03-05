@@ -10201,7 +10201,6 @@
     "name": "Metro: Last Light Redux #1",
     "date": "2022-01-15",
     "cuts": [[4169, 4174]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1264372459.torrent",
     "games": ["metro-ll"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1264372459+0.ass"
   },
@@ -10453,5 +10452,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1415016033.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1415016033.ass"
+  },
+  "1416009554": {
+    "abs_start": 0, "abs_end": 30977, "duration": 0,
+    "name": "Elden Ring #7",
+    "date": "2022-03-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1416009554.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1416009554.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1416009554.ass"
   }
 }
