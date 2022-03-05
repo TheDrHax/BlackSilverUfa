@@ -9,7 +9,7 @@ s = Session()
 
 def get_url(source, id):
     if source == 'twitch':
-        return f'https://static-cdn.jtvnw.net/emoticons/v2/{id}/static/dark/1.0'
+        return f'https://static-cdn.jtvnw.net/emoticons/v2/{id}/default/dark/1.0'
     elif source == 'betterttv':
         return f'https://cdn.betterttv.net/emote/{id}/1x'
     elif source == 'frankerfacez':
