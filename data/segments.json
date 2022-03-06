@@ -10208,7 +10208,6 @@
     "youtube": "pJfb_rGMacE", "abs_start": 0, "abs_end": 21882, "duration": 21882,
     "name": "How Fish Is Made / Witching Hour (демо) / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles - Dead of Winter",
     "date": "2022-01-16",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1265545024.torrent",
     "games": ["single", "first-2022", "copperport"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1265545024.ass"
   },
@@ -10216,7 +10215,6 @@
     "youtube": "zo1t89N-HUk", "abs_start": 0, "abs_end": 18841, "duration": 18841,
     "name": "Star Citizen",
     "date": "2022-01-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1268793469.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1268793469.ass"
   },
@@ -10461,5 +10459,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1416009554.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1416009554.ass"
+  },
+  "1417120213": {
+    "abs_start": 0, "abs_end": 31493, "duration": 0,
+    "name": "Elden Ring #8",
+    "date": "2022-03-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1417120213.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1417120213.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1417120213.ass"
   }
 }
