@@ -10222,7 +10222,6 @@
     "youtube": "3yPTaUWv79E", "abs_start": 15, "abs_end": 26572, "duration": 26557,
     "name": "Metro: Last Light Redux #2 / Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)",
     "date": "2022-01-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1269805961.torrent",
     "games": ["metro-ll", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1269805961.ass"
   },
@@ -10468,5 +10467,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1417120213.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1417120213.ass"
+  },
+  "1418193084": {
+    "abs_start": 0, "abs_end": 29365, "duration": 0,
+    "name": "Elden Ring #9",
+    "date": "2022-03-07",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1418193084.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1418193084.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1418193084.ass"
   }
 }
