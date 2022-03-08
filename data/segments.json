@@ -10229,7 +10229,6 @@
     "youtube": "kI-VF8BGsL8", "abs_start": 0, "abs_end": 21609, "duration": 21609,
     "name": "Project Zomboid #2 (16 стримеров)",
     "date": "2022-01-21",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1270926177.torrent",
     "games": ["zomboid"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1270926177.ass"
   },
@@ -10474,5 +10473,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1418193084.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1418193084.ass"
+  },
+  "1419175051": {
+    "abs_start": 0, "abs_end": 28130, "duration": 0,
+    "name": "Elden Ring #10",
+    "date": "2022-03-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1419175051.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1419175051.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1419175051.ass"
   }
 }
