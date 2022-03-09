@@ -87,7 +87,7 @@ case $1 in
                     venv_setup cli-requirements.txt $3
                 fi
 
-                if [ -d "$NODEENV" ] || [ "_$3" = "_full" ]; then
+                if [ ! -d "$NODEENV" ] || [ "_$3" = "_full" ]; then
                     node_setup
                     browserslist --update-db
                 fi ;;
