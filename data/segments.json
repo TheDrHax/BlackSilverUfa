@@ -10464,13 +10464,13 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1417120213.ass"
   },
   "1418193084": {
-    "abs_start": 0, "abs_end": 29365, "duration": 0,
+    "youtube": "yy8akjErXhw", "abs_start": 0, "abs_end": 29354, "duration": 29323,
     "name": "Elden Ring #9",
     "date": "2022-03-07",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1418193084.mp4",
+    "cuts": [[29087, 29118]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1418193084.torrent",
     "games": ["elden-ring"],
-    "subtitles": "https://bsu.drhx.ru/chats/2022/v1418193084.ass"
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1418193084+0.ass"
   },
   "1419175051": {
     "abs_start": 0, "abs_end": 28130, "duration": 0,
