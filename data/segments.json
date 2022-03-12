@@ -10251,7 +10251,6 @@
     "youtube": "PH0cXp8J7w4", "abs_start": 0, "abs_end": 24782, "duration": 24782,
     "name": "Metro Exodus: Enhanced Edition / Hidden Deep #1 (с WLG)",
     "date": "2022-01-24",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1274362855.torrent",
     "games": ["first-2022", "hidden-deep"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1274362855.ass"
   },
@@ -10259,7 +10258,6 @@
     "youtube": "q-nBwoBYk3U", "abs_start": 0, "abs_end": 27478, "duration": 27478,
     "name": "Dying Light #4 / Dying Light - The Following #1",
     "date": "2022-01-29",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1279881006.torrent",
     "games": ["dying-light"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1279881006.ass"
   },
@@ -10496,5 +10494,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1421157654.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1421157654+0.ass"
+  },
+  "1423204299": {
+    "abs_start": 0, "abs_end": 30839, "duration": 0,
+    "name": "Elden Ring #13",
+    "date": "2022-03-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1423204299.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1423204299.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1423204299.ass"
   }
 }
