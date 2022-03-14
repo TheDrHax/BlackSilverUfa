@@ -461,9 +461,10 @@
     "games": ["ds3"]
   },
   "001605240": {
-    "youtube": "CSBSZLlY4FA", "official": false, "abs_start": 0, "abs_end": 19894, "duration": 19894,
+    "abs_start": 0, "abs_end": 0, "duration": 0,
     "name": "Dark Souls 3 #5",
     "date": "2016-05-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001605240.mp4",
     "games": ["ds3"],
     "note": "Запись предоставил Олег Степанов (<a href=\"https://vk.com/video87862793_456239316\">1</a>, <a href=\"https://vk.com/video87862793_456239317\">2</a>, <a href=\"https://vk.com/video87862793_456239314\">3</a>, <a href=\"https://vk.com/video87862793_456239315\">4</a>)."
   },
@@ -5265,9 +5266,10 @@
     "note": "Официальная запись (iZn5VK-JITc) <a href=\"https://twitter.com/Sempai_Black/status/1184134627931447298\">заблокирована</a>."
   },
   "487490676": {
-    "youtube": "CnDKs0dSAZI", "abs_start": 0, "abs_end": 19203, "duration": 19203,
+    "abs_start": 0, "abs_end": 19231, "duration": 0,
     "name": "Lost Ark Online / Farming Simulator 19 #1",
     "date": "2019-09-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/487490676.mp4",
     "games": ["first-2019", "farming-simulator-19"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v487490676.ass"
   },
