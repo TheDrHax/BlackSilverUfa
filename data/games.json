@@ -3238,7 +3238,7 @@
   },
   {
     "name": "Elden Ring",
-    "category": "ongoing",
+    "category": "finished",
     "id": "elden-ring",
     "streams": [
       { "name": "1 (network test)", "segment": "1203211087,1203238012" },
@@ -3256,7 +3256,8 @@
       { "name": "11", "segment": "1420160951" },
       { "name": "12", "segment": "1421157654" },
       { "name": "13", "segment": "1423204299" },
-      { "name": "14", "segment": "1424290625" }
+      { "name": "14", "segment": "1424290625" },
+      { "name": "15", "segment": "1425309572" }
     ]
   },
   {

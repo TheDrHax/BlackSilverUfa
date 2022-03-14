@@ -278,6 +278,7 @@
 ["Marvel's Guardians of the Galaxy", ["marvel-gotg", "1186535358"]],
 ["Last Days of Lazarus (демо)", ["single", "1190164000", 15909]],
 ["Call of Duty: Vanguard (сюжет)", ["single", "1196615295", 0]],
+["Elden Ring", ["elden-ring", "1203211087,1203238012"]],
 ["Shadow of the Damned", ["sotd", "1214560792"]],
 ["Samhainophobia", ["single", "1218281049,1218409784", 19536]],
 ["Invitationem", ["single", "1222726196", 14008]],
@@ -723,7 +724,7 @@
   "name": "Активные",
   "level": 2,
   "games": [
-["Elden Ring", ["elden-ring", "1203211087,1203238012"]]
+
   ]
 },
 "infinite": {
