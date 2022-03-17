@@ -10504,13 +10504,13 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1423204299.ass"
   },
   "1424290625": {
-    "abs_start": 0, "abs_end": 33525, "duration": 0,
+    "youtube": "gcU0VvR4PVI", "abs_start": 0, "abs_end": 33519, "duration": 33488,
     "name": "Elden Ring #14",
     "date": "2022-03-13",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1424290625.mp4",
+    "cuts": [[29020, 29051]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1424290625.torrent",
     "games": ["elden-ring"],
-    "subtitles": "https://bsu.drhx.ru/chats/2022/v1424290625.ass"
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1424290625+0.ass"
   },
   "1425309572": {
     "abs_start": 0, "abs_end": 21277, "duration": 0,
