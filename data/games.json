@@ -3139,9 +3139,8 @@
         { "name": "Kingdom of the Dead", "start": 10383 }
       ] },
       { "name": "Horizon Zero Dawn", "segment": "1300779617" },
-      { "name": "Autopsy Simulator (демо) / FAR: Changing Tides (демо) / Scathe (демо) / Total War: Warhammer III", "segment": "1306396434", "subrefs": [
+      { "name": "Autopsy Simulator (демо) / Scathe (демо) / Total War: Warhammer III", "segment": "1306396434", "subrefs": [
         { "name": "Autopsy Simulator (демо)" },
-        { "name": "FAR: Changing Tides (демо)", "start": 4545 },
         { "name": "Scathe (демо)", "start": 6678 },
         { "name": "Total War: Warhammer III", "start": 14527 }
       ] },
@@ -5677,6 +5676,15 @@
     "streams": [
       { "name": "1", "segment": "262696959" },
       { "name": "2", "segment": "263472196" }
+    ]
+  },
+  {
+    "name": "FAR: Changing Tides",
+    "category": "finished",
+    "id": "far-changing-tides",
+    "streams": [
+      { "name": "Демо", "segment": "1306396434", "start": 4545 },
+      { "name": "Прохождение", "segment": "1430250580" }
     ]
   },
   {
