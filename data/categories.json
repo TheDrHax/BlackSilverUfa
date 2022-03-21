@@ -631,7 +631,6 @@
 ["Super Bomberman R Online", ["first-2021", "1059978031", 20975]],
 ["Horrors of Space (демо)", ["first-2021", "1061050549", 19113]],
 ["Rabbit Hole (демо)", ["first-2021", "1061050549", 19914]],
-["Stranger of Paradise: Final Fantasy Origin (демо)", ["first-2021", "1066067703", 13148]],
 ["Guilty Gear: Strive", ["first-2021", "1066067703", 18386]],
 ["Open Country", ["first-2021", "1070208965", 0]],
 ["Call of Duty: Mobile", ["first-2021", "1072311121", 0]],
@@ -724,7 +723,7 @@
   "name": "Активные",
   "level": 2,
   "games": [
-
+["Stranger of Paradise: Final Fantasy Origin", ["sop-ffo", "1066067703"]]
   ]
 },
 "infinite": {

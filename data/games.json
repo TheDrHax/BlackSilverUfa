@@ -3001,10 +3001,7 @@
         { "name": "Horrors of Space (демо)", "start": 19113 },
         { "name": "Rabbit Hole (демо)", "start": 19914 }
       ] },
-      { "name": "Stranger of Paradise: Final Fantasy Origin (демо) / Guilty Gear: Strive", "segment": "1066067703", "start": 13148, "subrefs": [
-        { "name": "Stranger of Paradise: Final Fantasy Origin (демо)", "start": 13148 },
-        { "name": "Guilty Gear: Strive", "start": 18386 }
-      ] },
+      { "name": "Guilty Gear: Strive", "segment": "1066067703", "start": 18386 },
       { "name": "Open Country", "segment": "1070208965" },
       { "name": "Call of Duty: Mobile / Клуб Романтики / Sky: Children of the Light", "segment": "1072311121", "subrefs": [
         { "name": "Call of Duty: Mobile" },
@@ -3099,6 +3096,15 @@
         { "name": "Goya's Nightmare", "start": 13571 },
         { "name": "Swamm", "start": 13880 }
       ] }
+    ]
+  },
+  {
+    "name": "Stranger of Paradise: Final Fantasy Origin",
+    "category": "ongoing",
+    "id": "sop-ffo",
+    "streams": [
+      { "name": "Демо", "segment": "1066067703", "start": 13148 },
+      { "name": "Релиз", "segment": "1432334680" }
     ]
   },
   {

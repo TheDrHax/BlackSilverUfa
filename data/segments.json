@@ -8930,9 +8930,9 @@
   },
   "1066067703": {
     "youtube": "6p55GvH4HKM", "official": false, "abs_start": 0, "abs_end": 19963, "duration": 19963,
-    "name": "ROG Phone 5 / Scarlet Nexus #1 / Stranger of Paradise: Final Fantasy Origin (демо) / Guilty Gear: Strive",
+    "name": "ROG Phone 5 / Scarlet Nexus #1 / Stranger of Paradise: Final Fantasy Origin - Демо / Guilty Gear: Strive",
     "date": "2021-06-24",
-    "games": ["unboxing", "scarlet-nexus", "first-2021"],
+    "games": ["unboxing", "scarlet-nexus", "sop-ffo", "first-2021"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1066067703.ass"
   },
   "1067131113": {
@@ -10532,5 +10532,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1431310944.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1431310944.ass"
+  },
+  "1432334680": {
+    "abs_start": 0, "abs_end": 14697, "duration": 0,
+    "name": "Stranger of Paradise: Final Fantasy Origin - Релиз",
+    "date": "2022-03-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1432334680.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1432334680.torrent",
+    "games": ["sop-ffo"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1432334680.ass"
   }
 }
