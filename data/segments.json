@@ -10292,7 +10292,6 @@
     "youtube": "vjj8q21hw54", "abs_start": 0, "abs_end": 31341, "duration": 31341,
     "name": "Dying Light 2: Stay Human #2",
     "date": "2022-02-04",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1286499697.torrent",
     "games": ["dying-light-2"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1286499697.ass"
   },
@@ -10541,5 +10540,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1432334680.torrent",
     "games": ["sop-ffo"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1432334680.ass"
+  },
+  "1433236088": {
+    "abs_start": 0, "abs_end": 29090, "duration": 0,
+    "name": "GhostWire: Tokyo #1",
+    "date": "2022-03-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1433236088.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1433236088.torrent",
+    "games": ["ghostwire"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1433236088.ass"
   }
 }
