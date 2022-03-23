@@ -8,6 +8,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/dist/bundle.css">
     <%block name="head" />
+    <script src="/static/scripts/rollbar.js"></script>
   </head>
   <body>
     <%block name="content" />
