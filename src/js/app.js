@@ -15,14 +15,12 @@ import flowRight from 'lodash/flowRight';
 import { common as t } from './constants/texts';
 import PATHS from './constants/urls';
 // Components
+import { MainPage, GamePage, DonatePage } from './pages';
 import { RedirectLinks, RedirectR } from './components/redirects';
 import { Layout } from './components';
 
 const PlayerPage = React.lazy(() => import('./components/segment-player'));
 const SearchPage = React.lazy(() => import('./pages/search-page'));
-const GamePage = React.lazy(() => import('./pages/game-page'));
-const MainPage = React.lazy(() => import('./pages/main-page'));
-const DonatePage = React.lazy(() => import('./pages/donate-page'));
 
 const Providers = flowRight([
   (c) => <StrictMode>{c}</StrictMode>,
