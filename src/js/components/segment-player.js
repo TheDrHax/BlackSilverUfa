@@ -54,6 +54,8 @@ export default class SegmentPlayer extends React.Component {
       segmentRef: null,
       relatedGames: null,
       timecodes: null,
+      plyr: null,
+      toggleFullscreen: () => null,
       ...Persist.load('SegmentPlayer', {
         chatOverlay: {
           width: null,
@@ -241,7 +243,10 @@ export default class SegmentPlayer extends React.Component {
         });
       },
       onFullScreen: (fullscreen) => this.setState({ fullscreen }),
-      onDestroy: () => this.setState({ plyr: null }),
+      onDestroy: () => this.setState({
+        plyr: null,
+        toggleFullscreen: () => null,
+      }),
       renderOverlay: this.renderPlayerOverlay,
     };
 
