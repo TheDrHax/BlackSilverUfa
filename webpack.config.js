@@ -12,7 +12,7 @@ module.exports = [
     entry: './src/js/index.js',
     stats: 'minimal',
     mode: DEBUG ? 'development' : 'production',
-    devtool: DEBUG ? 'eval-cheap-module-source-map' : false,
+    devtool: DEBUG ? 'eval-cheap-module-source-map' : 'source-map',
     target: 'web',
     output: {
       filename: 'bundle.js',
