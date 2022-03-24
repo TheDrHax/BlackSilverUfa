@@ -38,10 +38,10 @@ venv_setup() { # filename [force | silent]
     md5sum "$1" > "$MD5_FILE"
 }
 
-node_setup() { # [force | silent]
+node_setup() { # [full | silent]
     MD5_FILE="$NODEENV/package.json.md5"
 
-    if [ "_$2" = '_force' ] && [ -e "$MD5_FILE" ]; then
+    if [ "_$2" = '_full' ] && [ -e "$MD5_FILE" ]; then
         rm "$MD5_FILE"
     fi
 
@@ -87,12 +87,11 @@ case $1 in
                     venv_setup cli-requirements.txt $3
                 fi
 
-                if [ ! -d "$NODEENV" ] || [ "_$3" = "_full" ]; then
-                    node_setup
-                    browserslist --update-db
-                fi ;;
+                node_setup
+                browserslist --update-db
+                ;;
             remove) rm -rf "$VENV" "$NODEENV" "node_modules" ;;
-            *) echo "Usage: $0 $1 update|remove" ;;
+            *) echo "Usage: $0 $1 update|remove [full]" ;;
         esac ;;
 
     repo) shift ;&
