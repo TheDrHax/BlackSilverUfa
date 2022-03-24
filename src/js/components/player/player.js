@@ -221,7 +221,7 @@ export default class Player extends React.Component {
 
     // Fix instant pause by Plyr
     plyr.on('statechange', (event) => {
-      if (event.detail.code === 1) plyr.play();
+      if (event.detail.code === 1) plyr.play()?.catch(() => null);
     });
 
     plyr.on('playing', () => {

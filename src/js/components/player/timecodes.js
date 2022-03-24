@@ -14,7 +14,7 @@ const TimecodeLink = ({ value, plyr }) => {
     e.preventDefault();
     if (!plyr) return;
     plyr.currentTime = valueInt;
-    plyr.play();
+    plyr.play()?.catch(() => null);
   }, [plyr, valueInt]);
 
   return (
