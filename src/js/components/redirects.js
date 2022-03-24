@@ -40,7 +40,11 @@ function RedirectR() {
     return <Redirect to="/" />;
   }
 
-  let [hash, params] = query.replaceAll(/%3F/g, '?').split('?');
+  let [hash, params] = query
+    .replaceAll(/%3F/g, '?')
+    .replaceAll(/%2F/g, '/')
+    .split('?');
+
   const parts = hash.split('/');
 
   let game;
