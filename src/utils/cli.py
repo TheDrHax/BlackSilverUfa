@@ -439,7 +439,7 @@ def cmd_cuts(segment, segment_kwargs, directory=None):
         sys.exit(1)
 
 
-def ytdl_best_source(video_id, quality='best'):
+def ytdl_best_source(video_id, quality='b'):
     p = run(['yt-dlp', '-gf', quality, '--', video_id], stdout=PIPE)
 
     if p.returncode != 0:
