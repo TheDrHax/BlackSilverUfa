@@ -274,7 +274,7 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
             time_range = Timecode(c_refs[0].abs_start)
             time_range.end = c_refs[-1].abs_end
 
-            scan_range = Timecode(time_range)
+            scan_range = Timecode(time_range) - s.offset()
 
             # Expand scan range to cover all possible offsets
             overscan = tmp_segment.duration - time_range.duration
