@@ -43,6 +43,7 @@ function RedirectR() {
   let [hash, params] = query
     .replaceAll(/%3F/g, '?')
     .replaceAll(/%2F/g, '/')
+    .replaceAll(/%2C/g, ',')
     .split('?');
 
   const parts = hash.split('/');
