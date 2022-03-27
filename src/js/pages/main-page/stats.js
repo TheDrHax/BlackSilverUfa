@@ -15,7 +15,8 @@ export const StatsBlock = () => {
   useEffect(() => {
     fetch('/data/stats.json')
       .then((res) => res.json())
-      .then((res) => setData(res));
+      .then((res) => setData(res))
+      .catch(() => {});
   }, []);
 
   if (!data) {
