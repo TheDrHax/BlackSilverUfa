@@ -10313,7 +10313,6 @@
     "youtube": "rPVmn2mZUUM", "abs_start": 0, "abs_end": 14541, "duration": 14541,
     "name": "OlliOlli World / Sifu #3 (релиз)",
     "date": "2022-02-07",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1290138739.torrent",
     "games": ["first-2022", "sifu"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1290138739.ass"
   },
@@ -10559,5 +10558,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1435162657.torrent",
     "games": ["ghostwire"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1435162657.ass"
+  },
+  "1444100764": {
+    "abs_start": 0, "abs_end": 22007, "duration": 0,
+    "name": "Ikai / Weird West",
+    "date": "2022-04-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1444100764.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1444100764.torrent",
+    "games": ["single", "first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1444100764.ass"
   }
 }
