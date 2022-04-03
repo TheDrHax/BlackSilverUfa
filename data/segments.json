@@ -10320,7 +10320,6 @@
     "youtube": "unhO5tpkpRg", "abs_start": 0, "abs_end": 14641, "duration": 14641,
     "name": "Sifu #4",
     "date": "2022-02-10",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1293422934.torrent",
     "games": ["sifu"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1293422934.ass"
   },
@@ -10566,5 +10565,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1444100764.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1444100764.ass"
+  },
+  "1445142982": {
+    "abs_start": 0, "abs_end": 22225, "duration": 0,
+    "name": "Remnants of R'lyeh (демо) / Grief / Mirage of Home / Nightmare of Decay (демо) / Uncle Panko's Terrible Little Farm / Toiletrooms / Out of Sight (демо) / Cleaning Redville / HandCop / The Heilwald Loophole",
+    "date": "2022-04-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1445142982.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1445142982.torrent",
+    "games": ["first-2022", "single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1445142982.ass"
   }
 }

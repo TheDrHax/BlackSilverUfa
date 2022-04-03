@@ -1980,7 +1980,14 @@
       ] },
       { "name": "Know by Heart (Помни...)", "segment": "1294441814" },
       { "name": "Little Orpheus - Episode 1", "segment": "1307474557", "start": 3599 },
-      { "name": "Ikai", "segment": "1444100764" }
+      { "name": "Ikai", "segment": "1444100764" },
+      { "name": "Grief / Mirage of Home / Uncle Panko's Terrible Little Farm / Toiletrooms / Cleaning Redville", "segment": "1445142982", "start": 4485, "subrefs": [
+        { "name": "Grief", "start": 4485 },
+        { "name": "Mirage of Home", "start": 5155 },
+        { "name": "Uncle Panko's Terrible Little Farm", "start": 10715 },
+        { "name": "Toiletrooms", "start": 12883 },
+        { "name": "Cleaning Redville", "start": 15689 }
+      ] }
     ]
   },
   {
@@ -3168,7 +3175,14 @@
         { "name": "IXION (демо)", "start": 15483 }
       ] },
       { "name": "Gran Turismo 7", "segment": "1415016033" },
-      { "name": "Weird West", "segment": "1444100764", "start": 16810 }
+      { "name": "Weird West", "segment": "1444100764", "start": 16810 },
+      { "name": "Remnants of R'lyeh (демо) / Nightmare of Decay (демо) / Out of Sight (демо) / HandCop / The Heilwald Loophole", "segment": "1445142982", "subrefs": [
+        { "name": "Remnants of R'lyeh (демо)" },
+        { "name": "Nightmare of Decay (демо)", "start": 7784 },
+        { "name": "Out of Sight (демо)", "start": 13930 },
+        { "name": "HandCop", "start": 17898 },
+        { "name": "The Heilwald Loophole", "start": 18681 }
+      ] }
     ]
   },
   {
