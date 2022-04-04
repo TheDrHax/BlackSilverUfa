@@ -10327,7 +10327,6 @@
     "youtube": "vJEkPogov4U", "abs_start": 0, "abs_end": 28032, "duration": 28032,
     "name": "Know by Heart (Помни...)",
     "date": "2022-02-11",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1294441814.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1294441814.ass"
   },
@@ -10574,5 +10573,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1445142982.torrent",
     "games": ["first-2022", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1445142982.ass"
+  },
+  "1446082122": {
+    "abs_start": 0, "abs_end": 22075, "duration": 0,
+    "name": "F.E.A.R.",
+    "date": "2022-04-04",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1446082122.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1446082122.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1446082122.ass"
   }
 }
