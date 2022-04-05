@@ -3182,8 +3182,16 @@
         { "name": "Out of Sight (демо)", "start": 13930 },
         { "name": "HandCop", "start": 17898 },
         { "name": "The Heilwald Loophole", "start": 18681 }
-      ] },
-      { "name": "F.E.A.R.", "segment": "1446082122" }
+      ] }
+    ]
+  },
+  {
+    "name": "F.E.A.R.",
+    "category": "finished",
+    "id": "fear",
+    "streams": [
+      { "name": "1", "segment": "1446082122" },
+      { "name": "2", "segment": "1447006792" }
     ]
   },
   {

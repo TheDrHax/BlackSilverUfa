@@ -10334,7 +10334,6 @@
     "youtube": "74Cl6DLkaS4", "abs_start": 0, "abs_end": 13483, "duration": 13483,
     "name": "Blood West / Kingdom of the Dead",
     "date": "2022-02-16",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1299859703.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1299859703.ass"
   },
@@ -10576,11 +10575,20 @@
   },
   "1446082122": {
     "abs_start": 0, "abs_end": 22075, "duration": 0,
-    "name": "F.E.A.R.",
+    "name": "F.E.A.R. #1",
     "date": "2022-04-04",
     "direct": "https://bsufiles.thedrhax.pw/streams/1446082122.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1446082122.torrent",
-    "games": ["first-2022"],
+    "games": ["fear"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1446082122.ass"
+  },
+  "1447006792": {
+    "abs_start": 0, "abs_end": 17461, "duration": 0,
+    "name": "F.E.A.R. #2",
+    "date": "2022-04-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1447006792.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1447006792.torrent",
+    "games": ["fear"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1447006792.ass"
   }
 }
