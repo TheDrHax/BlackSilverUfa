@@ -497,8 +497,9 @@
     "category": "co-op",
     "id": "dread-hunger",
     "streams": [
-      { "name": "1", "segment": "1024777649" },
-      { "name": "2", "segment": "1043310851", "start": 17558 }
+      { "name": "1 (6D)", "segment": "1024777649" },
+      { "name": "2 (6D)", "segment": "1043310851", "start": 17558 },
+      { "name": "3", "segment": "1447954975", "start": 4091 }
     ]
   },
   {
@@ -2430,7 +2431,8 @@
       { "name": "ROG Phone 5", "segment": "1066067703" },
       { "name": "ROG Zephyrus G14 Alan Walker", "segment": "1125116646" },
       { "name": "ROG Zephyrus S17", "segment": "1191176581" },
-      { "name": "Xbox Elite WC Series 2", "segment": "1238591362" }
+      { "name": "Xbox Elite WC Series 2", "segment": "1238591362" },
+      { "name": "ROG Flow Z13", "segment": "1447954975" }
     ]
   },
   {
