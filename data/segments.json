@@ -10348,7 +10348,6 @@
     "youtube": "Tj93M9dMp-M", "abs_start": 0, "abs_end": 37037, "duration": 37037,
     "name": "Horizon Forbidden West #2",
     "date": "2022-02-18",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1301849396.torrent",
     "games": ["horizon-fw"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1301849396.ass"
   },
@@ -10594,5 +10593,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1447954975.torrent",
     "games": ["unboxing", "dread-hunger"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1447954975.ass"
+  },
+  "1448890604": {
+    "abs_start": 0, "abs_end": 17362, "duration": 0,
+    "name": "F.E.A.R. 2: Project Origin #1",
+    "date": "2022-04-07",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1448890604.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1448890604.torrent",
+    "games": ["fear-2"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1448890604.ass"
   }
 }
