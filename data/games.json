@@ -3199,10 +3199,11 @@
   },
   {
     "name": "F.E.A.R. 2: Project Origin",
-    "category": "ongoing",
+    "category": "finished",
     "id": "fear-2",
     "streams": [
-      { "name": "1", "segment": "1448890604" }
+      { "name": "1", "segment": "1448890604" },
+      { "name": "2", "segment": "1450784424" }
     ]
   },
   {
