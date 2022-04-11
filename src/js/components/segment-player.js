@@ -32,6 +32,7 @@ import { findRefBySegment, resolveGame, resolveSegment } from '../utils/data-uti
 import { ShareOverlay } from './player/share-overlay';
 import { Layout } from '.';
 import { FAIcon } from '../utils/fontawesome';
+import { NoPrerender } from '../utils/prerender';
 
 export default class SegmentPlayer extends React.Component {
   createChatContainer() {
@@ -254,7 +255,9 @@ export default class SegmentPlayer extends React.Component {
       <Row>
         <Col>
           <Ratio aspectRatio="16x9">
-            <Player {...playerProps} />
+            <NoPrerender>
+              <Player {...playerProps} />
+            </NoPrerender>
           </Ratio>
         </Col>
       </Row>
@@ -459,7 +462,7 @@ export default class SegmentPlayer extends React.Component {
     }
 
     return (
-      <>
+      <NoPrerender>
         {!fullscreen && header}
         <Chat
           plyr={plyr}
@@ -467,7 +470,7 @@ export default class SegmentPlayer extends React.Component {
           subtitles={subtitles}
           simple={fullscreen}
         />
-      </>
+      </NoPrerender>
     );
   }
 
