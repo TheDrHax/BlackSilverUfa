@@ -10362,7 +10362,6 @@
     "youtube": "1iRoV0C7dbs", "abs_start": 0, "abs_end": 22355, "duration": 22355,
     "name": "Autopsy Simulator (демо) / FAR: Changing Tides - Демо / Scathe (демо) / Expedition Zero - Демо #2 / Daymare: 1994 Sandcastle #1 (демо) / Total War: Warhammer III",
     "date": "2022-02-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1306396434.torrent",
     "games": ["first-2022", "far-changing-tides", "expedition-zero", "daymare-1994-sc"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1306396434.ass"
   },
@@ -10628,5 +10627,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1451875048.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1451875048.ass"
+  },
+  "1455635915": {
+    "abs_start": 0, "abs_end": 25597, "duration": 0,
+    "name": "Silent Hill: Shattered Memories",
+    "date": "2022-04-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1455635915.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1455635915.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1455635915.ass"
   }
 }
