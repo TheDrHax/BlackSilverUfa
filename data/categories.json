@@ -336,7 +336,8 @@
 ["In The Other Room", ["single", "1451875048", 12899]],
 ["Unknown Game", ["single", "1451875048", 15764]],
 ["The Shopping List", ["single", "1451875048", 16496]],
-["2000 Navidson Ln", ["single", "1451875048", 20493]]
+["2000 Navidson Ln", ["single", "1451875048", 20493]],
+["Silent Hill: Shattered Memories", ["sh-sm", "1455635915"]]
   ]
 },
 "first": {
@@ -739,8 +740,7 @@
 ["HandCop", ["first-2022", "1445142982", 17898]],
 ["The Heilwald Loophole", ["first-2022", "1445142982", 18681]],
 ["Note of the Day (демо)", ["first-2022", "1451875048", 13369]],
-["Light: Black Cat & Amnesia Girl (демо)", ["first-2022", "1451875048", 14292]],
-["Silent Hill: Shattered Memories", ["first-2022", "1455635915", 0]]
+["Light: Black Cat & Amnesia Girl (демо)", ["first-2022", "1451875048", 14292]]
   ]
 },
 "ongoing": {
@@ -1105,7 +1105,7 @@
 ["Project Zomboid", ["zomboid", "1244748634"]],
 ["Monster Hunter Rise", ["co-op", "1261173013", 10627]],
 ["Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", ["co-op", "1269805961", 17827]],
-["Midnight Ghost Hunt (8D)", ["co-op", "1449847186", 0]]
+["Midnight Ghost Hunt", ["midnight-gh", "1449847186"]]
   ]
 },
 "other": {

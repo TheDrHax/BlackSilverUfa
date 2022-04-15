@@ -395,8 +395,16 @@
       { "name": "Forewarned (с Куплиновым и Дангаром)", "segment": "1223700316", "start": 11850 },
       { "name": "Heavenly Bodies", "segment": "1230440174", "start": 14769 },
       { "name": "Monster Hunter Rise", "segment": "1261173013", "start": 10627 },
-      { "name": "Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "segment": "1269805961", "start": 17827 },
-      { "name": "Midnight Ghost Hunt (8D)", "segment": "1449847186" }
+      { "name": "Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "segment": "1269805961", "start": 17827 }
+    ]
+  },
+  {
+    "name": "Midnight Ghost Hunt",
+    "category": "co-op",
+    "id": "midnight-gh",
+    "streams": [
+      { "name": "1 (8D)", "segment": "1449847186" },
+      { "name": "2 (8D)", "segment": "1456687038" }
     ]
   },
   {
@@ -3197,8 +3205,16 @@
       { "name": "Note of the Day (демо) / Light: Black Cat & Amnesia Girl (демо)", "segment": "1451875048", "start": 13369, "subrefs": [
         { "name": "Note of the Day (демо)", "start": 13369 },
         { "name": "Light: Black Cat & Amnesia Girl (демо)", "start": 14292 }
-      ] },
-      { "name": "Silent Hill: Shattered Memories", "segment": "1455635915" }
+      ] }
+    ]
+  },
+  {
+    "name": "Silent Hill: Shattered Memories",
+    "category": "finished",
+    "id": "sh-sm",
+    "streams": [
+      { "name": "1", "segment": "1455635915" },
+      { "name": "2", "segment": "1456687038", "start": 11563 }
     ]
   },
   {

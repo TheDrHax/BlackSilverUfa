@@ -10369,7 +10369,6 @@
     "youtube": "zL1PUTMZk9I", "abs_start": 0, "abs_end": 17314, "duration": 17314,
     "name": "Daymare: 1994 Sandcastle #2 / Little Orpheus - Episode 1 / The Bridge Curse: Road to Salvation (демо) / My Friendly Neighborhood (демо) / SCP: Pandemic (демо) / IXION (демо)",
     "date": "2022-02-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1307474557.torrent",
     "games": ["daymare-1994-sc", "single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1307474557.ass"
   },
@@ -10602,10 +10601,10 @@
   },
   "1449847186": {
     "youtube": "vN4Ji9SPsP8", "abs_start": 0, "abs_end": 18343, "duration": 18343,
-    "name": "Midnight Ghost Hunt (8D)",
+    "name": "Midnight Ghost Hunt #1 (8D)",
     "date": "2022-04-08",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1449847186.torrent",
-    "games": ["co-op"],
+    "games": ["midnight-gh"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1449847186.ass"
   },
   "1450784424": {
@@ -10626,10 +10625,19 @@
   },
   "1455635915": {
     "youtube": "3kHNuZQT5a4", "abs_start": 0, "abs_end": 25578, "duration": 25578,
-    "name": "Silent Hill: Shattered Memories",
+    "name": "Silent Hill: Shattered Memories #1",
     "date": "2022-04-14",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1455635915.torrent",
-    "games": ["first-2022"],
+    "games": ["sh-sm"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1455635915.ass"
+  },
+  "1456687038": {
+    "abs_start": 0, "abs_end": 19190, "duration": 0,
+    "name": "Midnight Ghost Hunt #2 (8D) / Silent Hill: Shattered Memories #2",
+    "date": "2022-04-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1456687038.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1456687038.torrent",
+    "games": ["midnight-gh", "sh-sm"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1456687038.ass"
   }
 }
