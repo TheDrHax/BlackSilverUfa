@@ -4,7 +4,7 @@
 FROM python:3.9-slim
 
 RUN apt update \
- && apt -y install build-essential git openssh-client curl dnsutils \
+ && apt -y install build-essential git openssh-client curl \
  && apt clean
 
 RUN useradd -m user

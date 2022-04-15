@@ -42,13 +42,6 @@ podTemplate(cloud: 'k3s', inheritFrom: 'blackufa') {
                     sh './bsu pages push'
                 }
 
-                sh '''
-                    nslookup -type=a blackufa.blackufa.svc.cluster.local \
-                        | awk '/^Address/{print $2}' \
-                        | tail -n+2 \
-                        | xargs -I SRV curl http://SRV:8000/reload
-                '''
-
                 githubNotify(
                     status: "SUCCESS",
                     credentialsId: cred_github,
