@@ -87,8 +87,11 @@ case $1 in
                     venv_setup cli-requirements.txt $3
                 fi
 
-                node_setup
-                browserslist --update-db
+                if [ -d "$NODEENV" ]; then
+                    node_setup
+                    browserslist --update-db
+                fi
+
                 ;;
             remove) rm -rf "$VENV" "$NODEENV" "node_modules" ;;
             *) echo "Usage: $0 $1 update|remove [full]" ;;
@@ -131,6 +134,9 @@ case $1 in
     script) shift; module=$1; shift; $PYTHON -m src.scripts.$module "$@" ;;
     python) shift; $PYTHON $@ ;;
     pip) shift; $PYTHON -m pip $@ ;;
-    npm|npx|node|webpack) "$@" ;;
+    npm|npx|node|webpack)
+        require_node
+        "$@"
+        ;;
     *) echo "Usage: $0 venv|pages|pull|build|serve|react|download-chats|sh|bash|repl|script|python|pip|npm" ;;
 esac
