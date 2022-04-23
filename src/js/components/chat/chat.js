@@ -94,6 +94,7 @@ export const Chat = ({ subtitles, plyr, offset, simple }) => {
       time: { $lte: currentTime - offset },
     })
     .offset(-50)
+    .simplesort('$loki')
     .data();
 
   const lastMsg = last(messages);
@@ -102,6 +103,7 @@ export const Chat = ({ subtitles, plyr, offset, simple }) => {
 
   const nextMsg = data.chain().find({
     ...query,
+    $loki: { $gt: lastMsg?.$loki || 0 },
     time: { $gt: lastMsg?.time || 0 },
   }).limit(1).data()[0];
 
