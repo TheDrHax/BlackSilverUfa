@@ -10383,7 +10383,6 @@
     "youtube": "PSC6kFPB-Yc", "abs_start": 0, "abs_end": 30168, "duration": 30168,
     "name": "Elden Ring #2",
     "date": "2022-02-26",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1408604628.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1408604628.ass"
   },
@@ -10653,5 +10652,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1458654778.torrent",
     "games": ["first-2022", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1458654778.ass"
+  },
+  "1465565528": {
+    "abs_start": 0, "abs_end": 25183, "duration": 0,
+    "name": "Forgive Me Father / Golden Light / Remorse: The List / Phasmophobia #12 (с Куплиновым и Дангаром) / No-Snake Hotel / Lot No. 242 / The Ouija Board / An Uninvited Guest (демо) / Fear the Spotlight (демо)",
+    "date": "2022-04-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1465565528.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1465565528.torrent",
+    "games": ["first-2022", "phasmophobia", "single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1465565528.ass"
   }
 }
