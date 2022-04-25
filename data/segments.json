@@ -10390,7 +10390,6 @@
     "youtube": "bNhphNpuYow", "abs_start": 0, "abs_end": 29151, "duration": 29151,
     "name": "Elden Ring #3",
     "date": "2022-02-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1409713021.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1409713021.ass"
   },
@@ -10655,11 +10654,20 @@
   },
   "1465565528": {
     "abs_start": 0, "abs_end": 25183, "duration": 0,
-    "name": "Forgive Me Father / Golden Light / Remorse: The List / Phasmophobia #12 (с Куплиновым и Дангаром) / No-Snake Hotel / Lot No. 242 / The Ouija Board / An Uninvited Guest (демо) / Fear the Spotlight (демо)",
+    "name": "Forgive Me Father / Golden Light / Remorse: The List #1 / Phasmophobia #12 (с Куплиновым и Дангаром) / No-Snake Hotel / Lot No. 242 / The Ouija Board / An Uninvited Guest (демо) / Fear the Spotlight (демо)",
     "date": "2022-04-24",
     "direct": "https://bsufiles.thedrhax.pw/streams/1465565528.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1465565528.torrent",
-    "games": ["first-2022", "phasmophobia", "single"],
+    "games": ["first-2022", "remorse-tl", "phasmophobia", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1465565528.ass"
+  },
+  "1466510615": {
+    "abs_start": 0, "abs_end": 21534, "duration": 0,
+    "name": "Remorse: The List #2 / Varmalis (демо) / Core / Just Stopping By",
+    "date": "2022-04-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1466510615.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1466510615.torrent",
+    "games": ["remorse-tl", "first-2022", "single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1466510615.ass"
   }
 }

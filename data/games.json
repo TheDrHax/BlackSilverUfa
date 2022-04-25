@@ -2019,6 +2019,10 @@
       { "name": "Lot No. 242 / The Ouija Board", "segment": "1465565528", "start": 20456, "subrefs": [
         { "name": "Lot No. 242", "start": 20456 },
         { "name": "The Ouija Board", "start": 20905 }
+      ] },
+      { "name": "Core / Just Stopping By", "segment": "1466510615", "start": 19396, "subrefs": [
+        { "name": "Core", "start": 19396 },
+        { "name": "Just Stopping By", "start": 20509 }
       ] }
     ]
   },
@@ -3225,14 +3229,23 @@
         { "name": "The Backrooms: Survival" },
         { "name": "SCP: Nukalypse", "start": 6079 }
       ] },
-      { "name": "Forgive Me Father / Golden Light / Remorse: The List / No-Snake Hotel / An Uninvited Guest (демо) / Fear the Spotlight (демо)", "segment": "1465565528", "subrefs": [
+      { "name": "Forgive Me Father / Golden Light / No-Snake Hotel / An Uninvited Guest (демо) / Fear the Spotlight (демо)", "segment": "1465565528", "subrefs": [
         { "name": "Forgive Me Father" },
         { "name": "Golden Light", "start": 3334 },
-        { "name": "Remorse: The List", "start": 6330 },
         { "name": "No-Snake Hotel", "start": 19915 },
         { "name": "An Uninvited Guest (демо)", "start": 22721 },
         { "name": "Fear the Spotlight (демо)", "start": 23781 }
-      ] }
+      ] },
+      { "name": "Varmalis (демо)", "segment": "1466510615", "start": 18058 }
+    ]
+  },
+  {
+    "name": "Remorse: The List",
+    "category": "finished",
+    "id": "remorse-tl",
+    "streams": [
+      { "name": "1", "segment": "1465565528", "start": 6330 },
+      { "name": "2", "segment": "1466510615" }
     ]
   },
   {
