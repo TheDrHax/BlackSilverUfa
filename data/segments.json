@@ -5788,12 +5788,12 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v530784764.ass"
   },
   "531327327": {
-    "youtube": "HbZaYnkfzjw", "abs_start": 0, "abs_end": 20966, "duration": 20776,
+    "abs_start": 0, "abs_end": 20978, "duration": 0,
     "name": "Spore #3 (заново) / The Sims 4 #1",
     "date": "2020-01-05",
-    "cuts": [[6476, 6666]],
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/531327327.mp4",
     "games": ["spore", "sims-4"],
-    "subtitles": "https://bsu.drhx.ru/chats/generated/v531327327+0.ass"
+    "subtitles": "https://bsu.drhx.ru/chats/2020/v531327327.ass"
   },
   "532342982": {
     "youtube": "P9H7zaD1juw", "abs_start": 0, "abs_end": 13967, "duration": 13967,
@@ -6046,9 +6046,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v556030369.ass"
   },
   "556596083": {
-    "youtube": "na9adsWSpNI", "abs_start": 0, "abs_end": 22495, "duration": 22495,
+    "abs_start": 0, "abs_end": 22489, "duration": 0,
     "name": "Dreams #2 / I Will Eat You / Hand Simulator: Survival #1 / Pummel Party #7 (6D) / Golf It! #20",
     "date": "2020-02-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/556596083.mp4",
     "games": ["dreams", "co-op", "hand-simulator-survival", "pummel-party", "golf-it"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v556596083.ass"
   },
