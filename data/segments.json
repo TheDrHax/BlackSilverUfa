@@ -10398,7 +10398,6 @@
     "youtube": "dg_57q67pf0", "abs_start": 0, "abs_end": 25019, "duration": 25019,
     "name": "Elden Ring #4",
     "date": "2022-02-28",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1410791009.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1410791009.ass"
   },
@@ -10406,7 +10405,6 @@
     "youtube": "uvswFbm_AUU", "abs_start": 0, "abs_end": 24373, "duration": 24373,
     "name": "Elden Ring #5",
     "date": "2022-03-01",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1411976783.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1411976783.ass"
   },
@@ -10676,5 +10674,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1467409068.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1467409068.ass"
+  },
+  "1469243371": {
+    "abs_start": 0, "abs_end": 22657, "duration": 0,
+    "name": "The Stanley Parable: Ultra Deluxe",
+    "date": "2022-04-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1469243371.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1469243371.torrent",
+    "games": ["single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1469243371.ass"
   }
 }
