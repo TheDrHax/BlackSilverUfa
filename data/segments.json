@@ -147,7 +147,7 @@
     "games": ["mgs-v"]
   },
   "001510060": {
-    "youtube": "HgQxHDTDlDM", "abs_start": 0, "abs_end": 12464, "duration": 12464,
+    "youtube": "aoCrj6WNjHs", "official": false, "abs_start": 0, "abs_end": 12464, "duration": 12464,
     "name": "Metal Gear Solid V: Phantom Pain #14",
     "date": "2015-10-06",
     "games": ["mgs-v"]
@@ -246,9 +246,10 @@
     "note": "Запись предоставил Олег Степанов (<a href=\"https://vk.com/video87862793_171741574\">1</a>, <a href=\"https://vk.com/video87862793_171739561\">2</a>, <a href=\"https://vk.com/video87862793_171739672\">3</a>)"
   },
   "001512110": {
-    "youtube": "5fFy5j4sxi8", "official": false, "abs_start": 0, "abs_end": 10424, "duration": 10424,
+    "abs_start": 0, "abs_end": 0, "duration": 0,
     "name": "Outlast (с Дашей) #2",
     "date": "2015-12-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/permanent/001512110.mp4",
     "games": ["outlast-dw"],
     "note": "Запись предоставил Олег Степанов (<a href=\"https://vk.com/video87862793_171744427\">1</a>, <a href=\"https://vk.com/video87862793_171746504\">2</a>)"
   },
