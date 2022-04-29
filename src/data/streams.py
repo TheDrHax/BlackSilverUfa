@@ -730,7 +730,11 @@ class Stream:
 
     @property
     @cached('duration-twitch-{0[0].twitch}')
-    def _duration(self) -> int:
+    def _duration(self) -> Union[int, None]:
+        if self.type is StreamType.NO_CHAT:
+            res = max(int(s.abs_end) for s in self)
+            return res if res > 0 else None
+
         line = last_line(self.subtitles_path)
         if line is not None:
             return int(Timecode(line.split(' ')[2].split('.')[0]))
@@ -739,8 +743,6 @@ class Stream:
     def duration(self) -> Timecode:
         if self.type is StreamType.JOINED:
             return Timecode(sum(int(s.duration) for s in self.streams))
-        elif self.type is StreamType.NO_CHAT:
-            return Timecode(max(int(s.abs_end) for s in self))
         else:
             return Timecode(self._duration)
 
