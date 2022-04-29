@@ -10413,7 +10413,6 @@
     "youtube": "DPubP7uOFJg", "abs_start": 0, "abs_end": 24207, "duration": 24207,
     "name": "Elden Ring #6",
     "date": "2022-03-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1412978137.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1412978137.ass"
   },
@@ -10683,5 +10682,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1469243371.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1469243371.ass"
+  },
+  "1470152667": {
+    "abs_start": 0, "abs_end": 13507, "duration": 0,
+    "name": "RATUZ",
+    "date": "2022-04-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1470152667.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1470152667.torrent",
+    "games": ["single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1470152667.ass"
   }
 }
