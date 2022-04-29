@@ -89,7 +89,6 @@ case $1 in
 
                 if [ -d "$NODEENV" ]; then
                     node_setup
-                    browserslist --update-db
                 fi
 
                 ;;
