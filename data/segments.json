@@ -6913,9 +6913,9 @@
   },
   "690295728": {
     "youtube": "5bxMm_E-jGo", "abs_start": 0, "abs_end": 21023, "duration": 21023,
-    "name": "Hello Neighbor 2 (альфа 1) / Fall Guys #1 (бета) / Tricky Towers #25 / Golf It! #22",
+    "name": "Hello Neighbor 2 - Альфа / Fall Guys #1 (бета) / Tricky Towers #25 / Golf It! #22",
     "date": "2020-07-25",
-    "games": ["first-2020", "fall-guys", "tricky-towers", "golf-it"],
+    "games": ["hello-neighbor-2", "fall-guys", "tricky-towers", "golf-it"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v690295728.ass"
   },
   "693186645": {
@@ -10428,7 +10428,6 @@
     "youtube": "1HJT4yxRIOk", "abs_start": 0, "abs_end": 30970, "duration": 30970,
     "name": "Elden Ring #7",
     "date": "2022-03-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1416009554.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1416009554.ass"
   },
@@ -10690,5 +10689,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1470152667.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1470152667.ass"
+  },
+  "1471119730": {
+    "abs_start": 0, "abs_end": 17655, "duration": 0,
+    "name": "Hello Neighbor 2 - Бета / Phasmophobia #13 (с Куплиновым и Дангаром)",
+    "date": "2022-04-30",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1471119730.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1471119730.torrent",
+    "games": ["hello-neighbor-2", "phasmophobia"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1471119730.ass"
   }
 }

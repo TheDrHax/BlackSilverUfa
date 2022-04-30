@@ -633,7 +633,8 @@
       { "name": "9 (с Куплиновым и Дангаром)", "segment": "1132102187", "start": 3937 },
       { "name": "10 (с Куплиновым и Дангаром)", "segment": "1199578310", "start": 9244 },
       { "name": "11 (с Куплиновым и Дангаром)", "segment": "1234081084" },
-      { "name": "12 (с Куплиновым и Дангаром)", "segment": "1465565528", "start": 13215 }
+      { "name": "12 (с Куплиновым и Дангаром)", "segment": "1465565528", "start": 13215 },
+      { "name": "13 (с Куплиновым и Дангаром)", "segment": "1471119730", "start": 9692 }
     ]
   },
   {
@@ -2878,7 +2879,6 @@
       { "name": "Fury Unleashed", "segment": "669777336", "start": 12725 },
       { "name": "Trackmania", "segment": "677524120", "start": 6014 },
       { "name": "Rocket Arena", "segment": "680344977", "start": 6895 },
-      { "name": "Hello Neighbor 2 (альфа 1)", "segment": "690295728" },
       { "name": "What Happened / I Have a Fear / Missing Children / Othercide", "segment": "697191590", "subrefs": [
         { "name": "What Happened" },
         { "name": "I Have a Fear", "start": 8396 },
@@ -2946,6 +2946,15 @@
       { "name": "Gothic", "segment": "849365667" },
       { "name": "Gone Golfing", "segment": "850367913", "start": 12150 },
       { "name": "Ebola 2", "segment": "853883043", "start": 7958 }
+    ]
+  },
+  {
+    "name": "Hello Neighbor 2",
+    "category": "infinite",
+    "id": "hello-neighbor-2",
+    "streams": [
+      { "name": "Альфа", "segment": "690295728" },
+      { "name": "Бета", "segment": "1471119730" }
     ]
   },
   {
