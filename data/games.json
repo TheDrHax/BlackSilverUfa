@@ -2027,7 +2027,12 @@
       ] },
       { "name": "Tape: Unveil the Memories", "segment": "1467409068" },
       { "name": "The Stanley Parable: Ultra Deluxe", "segment": "1469243371" },
-      { "name": "RATUZ", "segment": "1470152667" }
+      { "name": "RATUZ", "segment": "1470152667" },
+      { "name": "The Clown's Fun / Our Lady of Sorrow / The Abyss Has Walls", "segment": "1472093056", "subrefs": [
+        { "name": "The Clown's Fun" },
+        { "name": "Our Lady of Sorrow", "start": 13320 },
+        { "name": "The Abyss Has Walls", "start": 14631 }
+      ] }
     ]
   },
   {
@@ -3225,12 +3230,11 @@
       ] },
       { "name": "Gran Turismo 7", "segment": "1415016033" },
       { "name": "Weird West", "segment": "1444100764", "start": 16810 },
-      { "name": "Remnants of R'lyeh (демо) / Nightmare of Decay (демо) / Out of Sight (демо) / HandCop / The Heilwald Loophole", "segment": "1445142982", "subrefs": [
+      { "name": "Remnants of R'lyeh (демо) / Nightmare of Decay (демо) / Out of Sight (демо) / HandCop", "segment": "1445142982", "subrefs": [
         { "name": "Remnants of R'lyeh (демо)" },
         { "name": "Nightmare of Decay (демо)", "start": 7784 },
         { "name": "Out of Sight (демо)", "start": 13930 },
-        { "name": "HandCop", "start": 17898 },
-        { "name": "The Heilwald Loophole", "start": 18681 }
+        { "name": "HandCop", "start": 17898 }
       ] },
       { "name": "Note of the Day (демо) / Light: Black Cat & Amnesia Girl (демо)", "segment": "1451875048", "start": 13369, "subrefs": [
         { "name": "Note of the Day (демо)", "start": 13369 },
@@ -3248,7 +3252,27 @@
         { "name": "An Uninvited Guest (демо)", "start": 22721 },
         { "name": "Fear the Spotlight (демо)", "start": 23781 }
       ] },
-      { "name": "Varmalis (демо)", "segment": "1466510615", "start": 18058 }
+      { "name": "Varmalis (демо)", "segment": "1466510615", "start": 18058 },
+      { "name": "Under / New Testament (демо) / Arachnophobia / Ouija Rumours / Shadowbringer / Lilith's Curse 1984 (демо) / Puppetmaker / Film Morbid", "segment": "1472093056", "start": 2788, "subrefs": [
+        { "name": "Under", "start": 2788 },
+        { "name": "New Testament (демо)", "start": 3789 },
+        { "name": "Arachnophobia", "start": 5430 },
+        { "name": "Ouija Rumours", "start": 5746 },
+        { "name": "Shadowbringer", "start": 9065 },
+        { "name": "Lilith's Curse 1984 (демо)", "start": 9971 },
+        { "name": "Puppetmaker", "start": 11453 },
+        { "name": "Arachnophobia", "start": 16416 },
+        { "name": "Film Morbid", "start": 17272 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Heilwald Loophole",
+    "category": "ongoing",
+    "id": "heilwald",
+    "streams": [
+      { "name": "1", "segment": "1445142982", "start": 18681 },
+      { "name": "2", "segment": "1472093056", "start": 17574 }
     ]
   },
   {
