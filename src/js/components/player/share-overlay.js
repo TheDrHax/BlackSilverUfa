@@ -11,7 +11,7 @@ import { usePlyrTime } from '../../hooks/use-plyr-time';
 
 const getShortLink = (segment, at) => (
   // eslint-disable-next-line prefer-template
-  'https://drhx.ru/b/'
+  'https://bsu.drhx.ru/r/'
   + segment.segment
   + (at ? `?at=${at}` : '')
 );
