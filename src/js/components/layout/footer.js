@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import { faDiscord, faGithub, faTelegram, faTwitch, faTwitter, faVk, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faDiscord, faGithub, faTelegram, faTwitch, faVk, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import FooterLinksGroup from './footer-links-group';
 import { common as t } from '../../constants/texts';
@@ -58,9 +58,9 @@ export const NETWORK_LINKS = [
     icon: faVk,
   },
   {
-    label: 'Twitter',
-    link: 'https://twitter.com/Sempai_Black',
-    icon: faTwitter,
+    label: 'Канал Telegram',
+    link: 'https://t.me/BlackUFA_Official',
+    icon: faTelegram,
   },
   {
     label: 'Discord',
