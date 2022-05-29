@@ -3263,6 +3263,10 @@
         { "name": "Puppetmaker", "start": 11453 },
         { "name": "Arachnophobia", "start": 16416 },
         { "name": "Film Morbid", "start": 17272 }
+      ] },
+      { "name": "Sniper Elite 5 / V Rising", "segment": "1312161316", "subrefs": [
+        { "name": "Sniper Elite 5" },
+        { "name": "V Rising", "start": 19637 }
       ] }
     ]
   },
