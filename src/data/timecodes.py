@@ -171,10 +171,12 @@ T = Timecode()
 
 
 class Timecodes(SortedKeyList):
+    NESTED_TYPE = Dict[str, Union[str, Dict[str, 'NESTED_TYPE'], List[str]]]
+
     INPUT_TYPE = Union[
         'Timecodes',
         List[Timecode.INPUT_TYPE],
-        Dict[str, Union[str, Dict, List]]
+        NESTED_TYPE
     ]
 
     STORE_TYPE = Union[Timecode, 'Timecodes']
@@ -278,7 +280,7 @@ class Timecodes(SortedKeyList):
     def to_list(self):
         return [str(tc) for tc in self]
 
-    def to_dict(self):
+    def to_dict(self) -> NESTED_TYPE:
         result = {}
 
         for t in self:
@@ -296,7 +298,7 @@ class Timecodes(SortedKeyList):
 TIMECODES_JSON = 'data/timecodes.json'
 
 
-class TimecodesDatabase(Dict[str, Timecodes]):
+class TimecodesDatabase(Dict[str, Timecodes.NESTED_TYPE]):
     def __init__(self, filename: str = TIMECODES_JSON):
         self.filename = filename
         self.update(load_json(filename))
