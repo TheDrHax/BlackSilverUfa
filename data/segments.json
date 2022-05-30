@@ -10372,6 +10372,14 @@
     "games": ["daymare-1994-sc", "single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1307474557.ass"
   },
+  "1312161316": {
+    "youtube": "t0uGPdBdHAE", "abs_start": 0, "abs_end": 22115, "duration": 22115,
+    "name": "Sniper Elite 5 / V Rising",
+    "date": "2022-05-29",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1312161316.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1312161316.ass"
+  },
   "1407442799": {
     "youtube": "LzUT1X10Ihk", "abs_start": 0, "abs_end": 31508, "duration": 31508,
     "name": "Elden Ring #1 (релиз)",
@@ -10702,14 +10710,5 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1472093056.torrent",
     "games": ["single", "first-2022", "heilwald"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1472093056.ass"
-  },
-  "1312161316": {
-    "abs_start": 0, "abs_end": 22124, "duration": 0,
-    "name": "Sniper Elite 5 / V Rising",
-    "date": "2022-05-29",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1312161316.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1312161316.torrent",
-    "games": ["first-2022"],
-    "subtitles": "https://bsu.drhx.ru/chats/2022/v1312161316.ass"
   }
 }
