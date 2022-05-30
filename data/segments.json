@@ -1540,7 +1540,7 @@
     "subtitles": "https://bsu.drhx.ru/chats/2017/v210024030.ass"
   },
   "210846597": {
-    "youtube": "sR_zEhQt7_g", "abs_start": 0, "abs_end": 19093, "duration": 19093,
+    "youtube": "HOfGuxb_b18", "official": false, "abs_start": 0, "abs_end": 19093, "duration": 19093,
     "name": "The Legend of Zelda: Breath of the Wild - DLC 2 #3 / Super Mario Odyssey #4",
     "date": "2017-12-19",
     "games": ["tloz_botw", "super-mario-odyssey"],
@@ -5810,9 +5810,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v532787117.ass"
   },
   "533269694": {
-    "youtube": "-CwrMy8pXVM", "official": false, "abs_start": 0, "abs_end": 21589, "duration": 21589,
+    "abs_start": 0, "abs_end": 21598, "duration": 0,
     "name": "Grand Theft Auto: San Andreas #1",
     "date": "2020-01-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/533269694.mp4",
     "games": ["gta-san-andreas"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v533269694.ass"
   },
@@ -5931,9 +5932,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/generated/v546672311+0.ass"
   },
   "547176657": {
-    "youtube": "FvHmJ9gAC7w", "official": false, "abs_start": 0, "abs_end": 22094, "duration": 22094,
+    "abs_start": 0, "abs_end": 22123, "duration": 0,
     "name": "Grand Theft Auto: San Andreas #7 / Destiny 2 #1 (с Triplewipe)",
     "date": "2020-02-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/547176657.mp4",
     "games": ["gta-san-andreas", "destiny-2"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v547176657.ass"
   },
@@ -10440,7 +10442,6 @@
     "youtube": "E68Ai1orDL4", "abs_start": 0, "abs_end": 31491, "duration": 31491,
     "name": "Elden Ring #8",
     "date": "2022-03-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1417120213.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1417120213.ass"
   },
