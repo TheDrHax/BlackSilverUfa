@@ -274,7 +274,6 @@
 ["Industria", ["single", "1164327068", 0]],
 ["Matanga 2", ["single", "1166311485", 0]],
 ["Alan Wake Remastered", ["alan-wake", "1167157790"]],
-["Poppy Playtime", ["single", "1181039582", 0]],
 ["Marvel's Guardians of the Galaxy", ["marvel-gotg", "1186535358"]],
 ["Last Days of Lazarus (демо)", ["single", "1190164000", 15909]],
 ["Call of Duty: Vanguard (сюжет)", ["single", "1196615295", 0]],
@@ -776,14 +775,15 @@
 ["Arachnophobia", ["first-2022", "1472093056", 16416]],
 ["Film Morbid", ["first-2022", "1472093056", 17272]],
 ["Sniper Elite 5", ["first-2022", "1312161316", 0]],
-["V Rising", ["first-2022", "1312161316", 19637]]
+["V Rising", ["first-2022", "1312161316", 19637]],
+["Destroy All Humans! 2: Reprobed", ["first-2022", "1314842666", 0]]
   ]
 },
 "ongoing": {
   "name": "Активные",
   "level": 2,
   "games": [
-
+["Poppy Playtime", ["poppy-playtime", "1181039582"]]
   ]
 },
 "infinite": {
@@ -1185,9 +1185,7 @@
 ["Розыгрыш ROG Zephyrus G14 Alan Walker", ["events", "1142576899", 0]],
 ["Трейлеры", ["other", "1182938896", 0]],
 ["Розыгрыш ROG Spatha Black USB", ["events", "1193856809", 0]],
-["Новый год 2022 (подарки, нарезки)", ["other", "1248804713", 0]],
-["Poppy Playtime", ["todo", "1314842666", 0]],
-["Destroy All Humans! 2: Reprobed", ["todo", "1314842666", 13166]]
+["Новый год 2022 (подарки, нарезки)", ["other", "1248804713", 0]]
   ]
 },
 "expos": {

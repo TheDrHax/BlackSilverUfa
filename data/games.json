@@ -1945,7 +1945,6 @@
       { "name": "Bright Lights of Svetlov", "segment": "1154121803" },
       { "name": "Industria", "segment": "1164327068" },
       { "name": "Matanga 2", "segment": "1166311485" },
-      { "name": "Poppy Playtime", "segment": "1181039582" },
       { "name": "Last Days of Lazarus (демо)", "segment": "1190164000", "start": 15909 },
       { "name": "Call of Duty: Vanguard (сюжет)", "segment": "1196615295" },
       { "name": "Samhainophobia", "segment": "1218281049,1218409784", "start": 19536 },
@@ -2033,6 +2032,15 @@
         { "name": "Our Lady of Sorrow", "start": 13320 },
         { "name": "The Abyss Has Walls", "start": 14631 }
       ] }
+    ]
+  },
+  {
+    "name": "Poppy Playtime",
+    "category": "ongoing",
+    "id": "poppy-playtime",
+    "streams": [
+      { "name": "Глава 1", "segment": "1181039582" },
+      { "name": "Глава 2", "segment": "1314842666" }
     ]
   },
   {
@@ -3267,7 +3275,8 @@
       { "name": "Sniper Elite 5 / V Rising", "segment": "1312161316", "subrefs": [
         { "name": "Sniper Elite 5" },
         { "name": "V Rising", "start": 19637 }
-      ] }
+      ] },
+      { "name": "Destroy All Humans! 2: Reprobed", "segment": "1314842666" }
     ]
   },
   {
@@ -6083,18 +6092,6 @@
       { "name": "2", "segment": "309135471" },
       { "name": "3 (часть 1)", "segment": "309553210" },
       { "name": "3 (часть 2)", "segment": "309591231" }
-    ]
-  },
-  {
-    "name": "Не размечено",
-    "category": "other",
-    "type": "list",
-    "id": "todo",
-    "streams": [
-      { "name": "Poppy Playtime / Destroy All Humans! 2: Reprobed", "segment": "1314842666", "subrefs": [
-        { "name": "Poppy Playtime" },
-        { "name": "Destroy All Humans! 2: Reprobed", "start": 13166 }
-      ] }
     ]
   }
 ]
