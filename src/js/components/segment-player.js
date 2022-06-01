@@ -27,6 +27,7 @@ import { Scroll } from './scroll';
 import { Playlist } from './player/playlist';
 import Reparentable from './utils/reparentable';
 import SugarDate from '../utils/sugar';
+import ErrorPage from '../pages/error-page';
 import updateState from '../utils/update-state';
 import { findRefBySegment, resolveGame, resolveSegment } from '../utils/data-utils';
 import { ShareOverlay } from './player/share-overlay';
@@ -50,6 +51,7 @@ export default class SegmentPlayer extends React.Component {
 
     this.state = {
       loaded: false,
+      error: false,
       fullscreen: false,
       segment: null,
       segmentRef: null,
@@ -131,7 +133,7 @@ export default class SegmentPlayer extends React.Component {
       const request = this.resolveUrl({ segments, games });
 
       if (!request) {
-        history.replace('/404');
+        this.setState({ error: true });
         return;
       }
 
@@ -154,6 +156,7 @@ export default class SegmentPlayer extends React.Component {
 
       this.setState({
         loaded: true,
+        error: false,
         segment,
         game,
         segmentRef,
@@ -705,7 +708,8 @@ export default class SegmentPlayer extends React.Component {
                     )}
 
                     {subtitles && subtitlesInTab && (
-                      <Tab eventKey="chat" title="Чат">
+                
+          <Tab eventKey="chat" title="Чат">
                         {!fullscreen && (
                           <Reparentable el={chatContainer} className="flex-1-1-0" />
                         )}
@@ -730,7 +734,11 @@ export default class SegmentPlayer extends React.Component {
   }
 
   render() {
-    const { loaded } = this.state;
+    const { loaded, error } = this.state;
+
+    if (error) {
+      return <ErrorPage />;
+    }
 
     if (!loaded) {
       return <Layout fluid flex withFooter={false} isLoading />;

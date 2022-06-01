@@ -3,19 +3,16 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   Redirect,
 } from 'react-router-dom';
 import { QueryParamProvider } from 'use-query-params';
 import { ReactRouterGlobalHistory } from 'react-router-global-history';
-import { Button } from 'react-bootstrap';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import flowRight from 'lodash/flowRight';
 // Namespace
-import { common as t } from './constants/texts';
 import PATHS from './constants/urls';
 // Components
-import { MainPage, GamePage, DonatePage } from './pages';
+import { MainPage, GamePage, DonatePage, ErrorPage } from './pages';
 import { RedirectLinks, RedirectR } from './components/redirects';
 import { Layout } from './components';
 
@@ -61,18 +58,7 @@ const App = () => (
           return <MainPage />;
         }}
       />
-      <Route path="*">
-        <Layout flex title={t.notFoundTitle}>
-          <div className="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
-            <h3 className="text-white">
-              {t.notFoundTitle}
-            </h3>
-            <Button variant="primary" as={Link} to={PATHS.HOME} className="mt-4">
-              {t.returnToMain}
-            </Button>
-          </div>
-        </Layout>
-      </Route>
+      <Route path="*" component={ErrorPage} />
     </Switch>
   </Providers>
 );

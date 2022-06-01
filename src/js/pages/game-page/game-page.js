@@ -2,9 +2,9 @@ import React from 'react';
 // Components
 import { Col, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
-import { Redirect } from 'react-router-dom';
 import { Layout } from '../../components';
 import StreamCard from './stream-card';
+import ErrorPage from '../error-page';
 // Utils
 import { getGameDescription } from '../../utils/data-utils';
 // Hooks
@@ -21,7 +21,7 @@ const GamePage = ({ match }) => {
   const game = games.by('id', gameId);
 
   if (!game) {
-    return <Redirect to="/404" />;
+    return <ErrorPage />;
   }
 
   const thumbnail = new URL(game.streams[0].original.thumbnail, window.location.href);
