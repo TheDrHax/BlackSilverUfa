@@ -2031,7 +2031,8 @@
         { "name": "The Clown's Fun" },
         { "name": "Our Lady of Sorrow", "start": 13320 },
         { "name": "The Abyss Has Walls", "start": 14631 }
-      ] }
+      ] },
+      { "name": "Exorcist", "segment": "1494292107", "start": 12527 }
     ]
   },
   {
@@ -3280,6 +3281,15 @@
       { "name": "Police Shootout / Diablo Immortal", "segment": "1315723249", "subrefs": [
         { "name": "Police Shootout" },
         { "name": "Diablo Immortal", "start": 13929 }
+      ] },
+      { "name": "The Backrooms 1998 / Signalis (демо) / Mue (демо) / Ripout (демо) / Antarctica (демо) / All Songs From The King (демо) / Escape The Ayuwoki", "segment": "1494292107", "subrefs": [
+        { "name": "The Backrooms 1998" },
+        { "name": "Signalis (демо)", "start": 9453 },
+        { "name": "Mue (демо)", "start": 11181 },
+        { "name": "Ripout (демо)", "start": 15790 },
+        { "name": "Antarctica (демо)", "start": 17149 },
+        { "name": "All Songs From The King (демо)", "start": 19201 },
+        { "name": "Escape The Ayuwoki", "start": 20683 }
       ] }
     ]
   },
