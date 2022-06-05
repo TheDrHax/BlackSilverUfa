@@ -1305,7 +1305,7 @@
     "category": "co-op",
     "id": "friday-13th",
     "streams": [
-      { "name": "1", "segment": "187586726", "start": 3144 },
+      { "name": "1", "segment": "187586726", "start": 2581 },
       { "name": "2", "segment": "234373553" },
       { "name": "3", "segment": "284156303", "start": 7905 },
       { "name": "4", "segment": "1088456849,1088621069", "start": 7222 }
@@ -1326,7 +1326,10 @@
     "category": "co-op",
     "id": "deceit",
     "streams": [
-      { "name": "1", "segment": "187586726" },
+      { "name": "1", "segment": "187586726", "subrefs": [
+        { "name": "1" },
+        { "name": "1", "start": 8022 }
+      ] },
       { "name": "2", "segment": "200702885", "start": 14570 },
       { "name": "3", "segment": "202631693", "start": 15840 },
       { "name": "4", "segment": "250258247", "start": 16335 },
