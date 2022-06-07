@@ -10734,10 +10734,19 @@
   },
   "1495305113": {
     "youtube": "ZOiOJGBsoqU", "abs_start": 0, "abs_end": 15801, "duration": 15801,
-    "name": "Madagascar",
+    "name": "Madagascar #1",
     "date": "2022-06-05",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1495305113.torrent",
-    "games": ["first-2022"],
+    "games": ["madagascar"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1495305113.ass"
+  },
+  "1497100879": {
+    "abs_start": 0, "abs_end": 9003, "duration": 0,
+    "name": "Madagascar #2",
+    "date": "2022-06-07",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1497100879.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1497100879.torrent",
+    "games": ["madagascar"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1497100879.ass"
   }
 }

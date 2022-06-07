@@ -3293,8 +3293,16 @@
         { "name": "Antarctica (демо)", "start": 17149 },
         { "name": "All Songs From The King (демо)", "start": 19201 },
         { "name": "Escape The Ayuwoki", "start": 20683 }
-      ] },
-      { "name": "Madagascar", "segment": "1495305113" }
+      ] }
+    ]
+  },
+  {
+    "name": "Madagascar",
+    "category": "finished",
+    "id": "madagascar",
+    "streams": [
+      { "name": "1", "segment": "1495305113" },
+      { "name": "2", "segment": "1497100879" }
     ]
   },
   {
