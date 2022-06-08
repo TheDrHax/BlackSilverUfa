@@ -2374,7 +2374,7 @@
   },
   "268497396": {
     "youtube": "qtiSoPbuteM", "official": false, "abs_start": 0, "abs_end": 23126, "duration": 23126,
-    "name": "Worms W.M.D #2 / Raft #1 / Murderous Pursuits / The Forest",
+    "name": "Worms W.M.D #2 / Raft #1 (4D) / Murderous Pursuits / The Forest",
     "date": "2018-06-02",
     "games": ["worms-wmd", "raft", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2018/v268497396.ass"
@@ -3312,7 +3312,7 @@
   },
   "331512980": {
     "youtube": "u3D9-vnsNZM", "official": false, "abs_start": 0, "abs_end": 16710, "duration": 16710,
-    "name": "Своя Игра #3 / Raft #2 / Golf It! #9",
+    "name": "Своя Игра #3 / Raft #2 (4D) / Golf It! #9",
     "date": "2018-11-04",
     "games": ["sigame", "raft", "golf-it"],
     "subtitles": "https://bsu.drhx.ru/chats/2018/v331512980.ass",
@@ -10747,5 +10747,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1497100879.torrent",
     "games": ["madagascar"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1497100879.ass"
+  },
+  "1498044961": {
+    "abs_start": 0, "abs_end": 21366, "duration": 0,
+    "name": "Raft #3 (Даша, Джек)",
+    "date": "2022-06-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1498044961.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1498044961.torrent",
+    "games": ["raft"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1498044961.ass"
   }
 }
