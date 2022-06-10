@@ -10487,7 +10487,6 @@
     "name": "Elden Ring #12",
     "date": "2022-03-10",
     "cuts": [[24426, 24456]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1421157654.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1421157654+0.ass"
   },
@@ -10495,7 +10494,6 @@
     "youtube": "uNwa6_c33Nc", "abs_start": 0, "abs_end": 30833, "duration": 30833,
     "name": "Elden Ring #13",
     "date": "2022-03-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1423204299.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1423204299.ass"
   },
@@ -10761,7 +10759,17 @@
     "name": "Raft #4 (Даша, Джек)",
     "date": "2022-06-09",
     "direct": "https://bsufiles.thedrhax.pw/streams/1498814310.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1498814310.torrent",
     "games": ["raft"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1498814310.ass"
+  },
+  "1499698307": {
+    "abs_start": 0, "abs_end": 35197, "duration": 0,
+    "name": "The Quarry",
+    "date": "2022-06-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1499698307.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1499698307.torrent",
+    "games": ["single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1499698307.ass"
   }
 }
