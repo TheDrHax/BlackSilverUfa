@@ -1126,14 +1126,22 @@
     ]
   },
   {
-    "name": "Raft",
+    "name": "Raft (4D)",
     "category": "co-op",
     "id": "raft",
     "streams": [
       { "name": "1 (4D)", "segment": "268497396", "start": 3848 },
-      { "name": "2 (4D)", "segment": "331512980", "start": 9714 },
-      { "name": "3 (Даша, Джек)", "segment": "1498044961" },
-      { "name": "4 (Даша, Джек)", "segment": "1498814310" }
+      { "name": "2 (4D)", "segment": "331512980", "start": 9714 }
+    ]
+  },
+  {
+    "name": "Raft (с Дашей и Джеком)",
+    "category": "finished",
+    "id": "raft-story",
+    "streams": [
+      { "name": "1", "segment": "1498044961" },
+      { "name": "2", "segment": "1498814310" },
+      { "name": "3", "segment": "1500644334" }
     ]
   },
   {
