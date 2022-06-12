@@ -10723,10 +10723,10 @@
   },
   "1494292107": {
     "youtube": "a_UUKe7ncQQ", "abs_start": 0, "abs_end": 21653, "duration": 21653,
-    "name": "The Backrooms 1998 / Signalis (демо) / Mue (демо) / Exorcist / Ripout (демо) / Antarctica (демо) / All Songs From The King (демо) / Escape The Ayuwoki",
+    "name": "Summer Game Fest 2022 - Sony State of Play (обзор) / The Backrooms 1998 / Signalis (демо) / Mue (демо) / Exorcist / Ripout (демо) / Antarctica (демо) / All Songs From The King (демо) / Escape The Ayuwoki",
     "date": "2022-06-04",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1494292107.torrent",
-    "games": ["first-2022", "single"],
+    "games": ["sgf-22", "first-2022", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1494292107.ass"
   },
   "1495305113": {
@@ -10777,5 +10777,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1500644334.torrent",
     "games": ["raft-story"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1500644334.ass"
+  },
+  "1501665729": {
+    "abs_start": 0, "abs_end": 25911, "duration": 0,
+    "name": "Summer Game Fest 2022 - Обзор / Phasmophobia #14 (с Куплиновым и Дангаром) / Summer Game Fest 2022 - Xbox & Bethesda Showcase",
+    "date": "2022-06-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1501665729.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1501665729.torrent",
+    "games": ["sgf-22", "phasmophobia"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1501665729.ass"
   }
 }
