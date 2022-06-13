@@ -10509,7 +10509,6 @@
     "youtube": "GMRb3krMpRg", "abs_start": 0, "abs_end": 21255, "duration": 21255,
     "name": "Elden Ring #15",
     "date": "2022-03-14",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1425309572.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1425309572.ass"
   },
@@ -10784,5 +10783,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1501665729.torrent",
     "games": ["sgf-22", "phasmophobia"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1501665729.ass"
+  },
+  "1502569152": {
+    "abs_start": 0, "abs_end": 21669, "duration": 0,
+    "name": "Summer Game Fest 2022 - PC Gaming Show (обзор) / SCP: Secret Files (демо) / Cult of the Lamb (демо) / Anger Foot / The Fridge Is Red (демо) / Sker Ritual (демо) / The Last Worker (демо) / Midnight Fight Express (демо)",
+    "date": "2022-06-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1502569152.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1502569152.torrent",
+    "games": ["sgf-22", "first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1502569152.ass"
   }
 }

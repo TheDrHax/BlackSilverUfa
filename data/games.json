@@ -1633,7 +1633,8 @@
       { "name": "Обзор / Xbox & Bethesda Showcase", "segment": "1501665729", "subrefs": [
         { "name": "Обзор" },
         { "name": "Xbox & Bethesda Showcase", "start": 20020 }
-      ] }
+      ] },
+      { "name": "PC Gaming Show (обзор)", "segment": "1502569152" }
     ]
   },
   {
@@ -3317,6 +3318,15 @@
         { "name": "Antarctica (демо)", "start": 17149 },
         { "name": "All Songs From The King (демо)", "start": 19201 },
         { "name": "Escape The Ayuwoki", "start": 20683 }
+      ] },
+      { "name": "SCP: Secret Files (демо) / Cult of the Lamb (демо) / Anger Foot / The Fridge Is Red (демо) / Sker Ritual (демо) / The Last Worker (демо) / Midnight Fight Express (демо)", "segment": "1502569152", "start": 6392, "subrefs": [
+        { "name": "SCP: Secret Files (демо)", "start": 6392 },
+        { "name": "Cult of the Lamb (демо)", "start": 10742 },
+        { "name": "Anger Foot", "start": 13101 },
+        { "name": "The Fridge Is Red (демо)", "start": 14441 },
+        { "name": "Sker Ritual (демо)", "start": 17368 },
+        { "name": "The Last Worker (демо)", "start": 18104 },
+        { "name": "Midnight Fight Express (демо)", "start": 19572 }
       ] }
     ]
   },
