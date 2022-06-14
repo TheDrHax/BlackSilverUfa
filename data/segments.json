@@ -10516,7 +10516,6 @@
     "youtube": "0JSf2ePHi6c", "abs_start": 0, "abs_end": 21192, "duration": 21192,
     "name": "FAR: Changing Tides - Прохождение",
     "date": "2022-03-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1430250580.torrent",
     "games": ["far-changing-tides"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1430250580.ass"
   },
@@ -10791,5 +10790,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1502569152.torrent",
     "games": ["sgf-22", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1502569152.ass"
+  },
+  "1503541091": {
+    "abs_start": 0, "abs_end": 11857, "duration": 0,
+    "name": "Summer Game Fest 2022 - Capcom (обзор) / Resident Evil 2 Remake #1 (хардкор) / Summer Game Fest 2022 - Xbox Games Showcase Extended",
+    "date": "2022-06-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1503541091.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1503541091.torrent",
+    "games": ["sgf-22", "re2-remake"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1503541091.ass"
   }
 }

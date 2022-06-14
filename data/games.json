@@ -1634,7 +1634,11 @@
         { "name": "Обзор" },
         { "name": "Xbox & Bethesda Showcase", "start": 20020 }
       ] },
-      { "name": "PC Gaming Show (обзор)", "segment": "1502569152" }
+      { "name": "PC Gaming Show (обзор)", "segment": "1502569152" },
+      { "name": "Capcom (обзор) / Xbox Games Showcase Extended", "segment": "1503541091", "subrefs": [
+        { "name": "Capcom (обзор)" },
+        { "name": "Xbox Games Showcase Extended", "start": 7465 }
+      ] }
     ]
   },
   {
@@ -5501,7 +5505,11 @@
       { "name": "4 (Клэр \"A\" от первого лица)", "segment": "376053722" },
       { "name": "5 (DLC - Выжившие призраки)", "segment": "383771606" },
       { "name": "6 (Every enemy is Mr. X)", "segment": "527412040" },
-      { "name": "7 (заново)", "segment": "975061581" }
+      { "name": "7 (заново)", "segment": "975061581" },
+      { "name": "1 (хардкор)", "segment": "1503541091", "start": 1475, "subrefs": [
+        { "name": "1 (хардкор)", "start": 1475 },
+        { "name": "1 (хардкор)", "start": 9925 }
+      ] }
     ],
     "cover": 1
   },
