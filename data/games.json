@@ -2063,8 +2063,16 @@
         { "name": "Our Lady of Sorrow", "start": 13320 },
         { "name": "The Abyss Has Walls", "start": 14631 }
       ] },
-      { "name": "Exorcist", "segment": "1494292107", "start": 12527 },
-      { "name": "The Quarry", "segment": "1499698307" }
+      { "name": "Exorcist", "segment": "1494292107", "start": 12527 }
+    ]
+  },
+  {
+    "name": "The Quarry",
+    "category": "finished",
+    "id": "quarry",
+    "streams": [
+      { "name": "Прохождение", "segment": "1499698307" },
+      { "name": "Злое прохождение", "segment": "1504425367" }
     ]
   },
   {

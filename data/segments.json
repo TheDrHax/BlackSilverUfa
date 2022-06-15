@@ -10523,7 +10523,6 @@
     "youtube": "3Xx6wsbKkD8", "abs_start": 0, "abs_end": 22115, "duration": 22115,
     "name": "Elden Ring #16 (aftergame)",
     "date": "2022-03-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1431310944.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1431310944.ass"
   },
@@ -10761,10 +10760,10 @@
   },
   "1499698307": {
     "youtube": "HKh6aW8GcHI", "abs_start": 0, "abs_end": 35182, "duration": 35182,
-    "name": "The Quarry",
+    "name": "The Quarry - Прохождение",
     "date": "2022-06-10",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1499698307.torrent",
-    "games": ["single"],
+    "games": ["quarry"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1499698307.ass"
   },
   "1500644334": {
@@ -10798,5 +10797,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1503541091.torrent",
     "games": ["sgf-22", "re2-remake"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1503541091.ass"
+  },
+  "1504425367": {
+    "abs_start": 0, "abs_end": 22428, "duration": 0,
+    "name": "The Quarry - Злое прохождение",
+    "date": "2022-06-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1504425367.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1504425367.torrent",
+    "games": ["quarry"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1504425367.ass"
   }
 }
