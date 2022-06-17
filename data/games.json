@@ -508,7 +508,8 @@
     "streams": [
       { "name": "1 (6D)", "segment": "1024777649" },
       { "name": "2 (6D)", "segment": "1043310851", "start": 17558 },
-      { "name": "3 (8D)", "segment": "1447954975", "start": 4091 }
+      { "name": "3 (8D)", "segment": "1447954975", "start": 4091 },
+      { "name": "4 (8D)", "segment": "1506232070", "start": 4663 }
     ]
   },
   {
@@ -1638,7 +1639,8 @@
       { "name": "Capcom (обзор) / Xbox Games Showcase Extended", "segment": "1503541091", "subrefs": [
         { "name": "Capcom (обзор)" },
         { "name": "Xbox Games Showcase Extended", "start": 7465 }
-      ] }
+      ] },
+      { "name": "Capcom Showcase (обзор)", "segment": "1506232070" }
     ]
   },
   {
