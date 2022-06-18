@@ -501,7 +501,7 @@ class SegmentReference:
     @join()
     def to_json(self, compiled: bool = False):
         if compiled:
-            keys = ['name', 'hash', 'start', 'end', 'force_start', 'subrefs']
+            keys = ['hash', 'end', 'force_start', 'subrefs']
             multiline_keys = []
         else:
             keys = ['name', 'twitch', 'segment', 'start', 'end',
@@ -531,7 +531,7 @@ class SegmentReference:
             if value is None or inherited(key) and not compiled:
                 continue
 
-            if key in ['name', 'start'] and len(self.subrefs) > 1 and not compiled:
+            if key in ['name', 'start'] and len(self.subrefs) > 1:
                 continue
 
             if key in ['start', 'end']:
@@ -541,7 +541,7 @@ class SegmentReference:
                 if compiled:
                     value -= self.offset(value) - self.offset()
 
-            if key == 'subrefs' and len(value) == 1:
+            if key == 'subrefs' and len(value) == 1 and not compiled:
                 continue
 
             if key == 'segment':

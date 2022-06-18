@@ -130,8 +130,8 @@ export const resolveGame = (games, segment, at) => {
       const ref = findRefBySegment(game, segment);
       return [game, ref];
     })
-    .filter(([game, ref]) => ref.start <= (at || segment.abs_start))
-    .sort(([gameA, refA], [gameB, refB]) => refB.start - refA.start)[0];
+    .filter(([game, ref]) => ref.subrefs[0].start <= (at || segment.abs_start))
+    .sort(([gameA, refA], [gameB, refB]) => refB.subrefs[0].start - refA.subrefs[0].start)[0];
 
   if (!res) { // for segments where first ref has `start` parameter
     const game = games.by('id', segment.games[0]);
