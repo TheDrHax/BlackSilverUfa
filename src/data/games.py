@@ -1,3 +1,4 @@
+from typing import Union
 import attr
 from cached_property import cached_property
 
@@ -14,7 +15,7 @@ class Game:
     name: str = attr.ib()
     category: str = attr.ib()
     id: str = attr.ib()
-    type: str = None
+    type: Union[str, None] = None
     cover: int = 0
     streams: list = attr.ib(factory=list)
     _blacklist: Blacklist = attr.ib({}, converter=lambda x: Blacklist(**x))
@@ -44,7 +45,7 @@ class Game:
         return self.streams[self.cover].stream.date
 
     @join()
-    def to_json(self, compiled: bool = False) -> str:
+    def to_json(self, compiled: bool = False):
         if compiled:
             keys = ['name', 'category', 'type', 'id', 'streams', 'cover']
         else:
@@ -108,7 +109,7 @@ class Games(list):
             self.append(game)
 
     @join()
-    def to_json(self, compiled: bool = False) -> str:
+    def to_json(self, compiled: bool = False):
         yield '[\n'
 
         first = True
@@ -125,7 +126,7 @@ class Games(list):
     def __str__(self):
         return self.to_json()
 
-    def save(self, filename: str = None, compiled: bool = False):
+    def save(self, filename: Union[str, None] = None, compiled: bool = False):
         if filename is None:
             filename = self.filename
 

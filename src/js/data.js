@@ -36,8 +36,47 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
       segments.insert(segment);
     });
 
+  Object.entries(rawCategories).forEach(([key, category]) => {
+    category.id = key;
+    categories.insert(category);
+  });
+
   rawGames.forEach((game) => {
+    games.insert(game);
+
+    const indexEntry = {
+      category: categories.by('id', game.category),
+      original: game,
+    };
+
+    if (game.type !== 'list') {
+      const gameSegments = segments
+        .chain()
+        .find({ games: { $contains: game.id } })
+        .simplesort('date')
+        .data();
+
+      const gameStreams = uniq(gameSegments.map((segment) => {
+        const dot = segment.segment.indexOf('.');
+        if (dot !== -1) {
+          return segment.segment.substring(0, dot);
+        }
+        return segment.segment;
+      })).length;
+
+      index.insert({
+        ...indexEntry,
+        name: game.name,
+        segment: game.streams[0].segment,
+        segments: gameSegments,
+        url: `/play/${game.id}`,
+        streams: gameStreams,
+        date: gameSegments[0].date,
+      });
+    }
+
     game.streams.forEach((ref) => {
+      ref.name = uniq(ref.subrefs.map(({ name }) => name)).join(' / ');
       ref.url = `/play/${game.id}/${ref.segment}`;
       ref.game = game;
       ref.original = segments.by('segment', ref.segment);
@@ -47,55 +86,29 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
       } else {
         ref.start = ref.original.abs_start;
       }
-    });
 
-    games.insert(game);
-  });
+      if (game.type === 'list') {
+        const origSegment = segments.by('segment', ref.segment);
 
-  Object.entries(rawCategories).forEach(([key, category]) => {
-    const catGames = category.games;
-    delete category.games;
+        ref.subrefs.forEach((subref) => {
+          let url = `/play/${game.id}/${ref.segment}`;
 
-    category.id = key;
-    categories.insert(category);
+          if (subref.start > 0) {
+            url += `?at=${subref.start}`;
+          }
 
-    catGames.forEach(([name, [gameId, segmentId, at]]) => {
-      const game = {};
-
-      game.name = name;
-      game.segment = segmentId;
-      game.start = at;
-      game.category = category;
-      game.original = games.by('id', gameId);
-
-      if (at === undefined) { // game
-        game.segments = segments
-          .chain()
-          .find({ games: { $contains: gameId } })
-          .simplesort('date')
-          .data();
-
-        game.url = `/play/${gameId}`;
-      } else { // segment
-        game.segments = [segments.by('segment', segmentId)];
-        game.url = `/play/${gameId}/${segmentId}`;
-
-        if (at > 0) {
-          game.url += `?at=${at}`;
-        }
+          index.insert({
+            ...indexEntry,
+            name: subref.name,
+            segment: ref.segment,
+            start: subref.start,
+            segments: [origSegment],
+            url,
+            streams: 1,
+            date: origSegment.date,
+          });
+        });
       }
-
-      game.streams = uniq(game.segments.map((segment) => {
-        const dot = segment.segment.indexOf('.');
-        if (dot !== -1) {
-          return segment.segment.substring(0, dot);
-        }
-        return segment.segment;
-      })).length;
-
-      game.date = game.segments[0].date;
-
-      index.insert(game);
     });
   });
 

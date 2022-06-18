@@ -30,9 +30,8 @@ def join(separator: str = ''):
     return decorator
 
 
-@join('\n')
 def indent(x: str, level: int):
-    return (f'{" " * level}{line}' for line in x.split('\n'))
+    return '\n'.join([f'{" " * level}{line}' for line in x.split('\n')])
 
 
 # https://stackoverflow.com/a/18603065

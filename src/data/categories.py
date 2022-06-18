@@ -3,9 +3,8 @@ import attr
 from datetime import datetime, timedelta
 from sortedcontainers import SortedList
 
-from .games import games, Game
-from .streams import SegmentReference
-from ..utils import load_json, join, json_escape, indent
+from .games import games
+from ..utils import load_json, join, json_escape
 
 
 CATEGORIES_JSON = 'data/categories.json'
@@ -66,35 +65,6 @@ class Category:
                 first = False
 
             yield f'  "{key}": {json_escape(value)}'
-
-        if compiled:
-            yield ',\n  "games": [\n'
-
-            first = True
-            for game in self.games:
-                if isinstance(game, Game):
-                    data = [game.name,
-                            [game.id, game.streams[game.cover].hash]]
-
-                    if not first:
-                        yield ',\n'
-                    else:
-                        first = False
-
-                    yield f'{json_escape(data)}'
-                elif isinstance(game, SegmentReference):
-                    for subref in game.subrefs:
-                        data = [subref.name,
-                                [game.game.id, game.hash, int(subref.start)]]
-
-                        if not first:
-                            yield ',\n'
-                        else:
-                            first = False
-
-                        yield f'{json_escape(data)}'
-
-            yield '\n  ]'
 
         yield '\n}'
 
