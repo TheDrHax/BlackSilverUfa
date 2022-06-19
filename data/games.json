@@ -3341,6 +3341,14 @@
         { "name": "Sker Ritual (демо)", "start": 17368 },
         { "name": "The Last Worker (демо)", "start": 18104 },
         { "name": "Midnight Fight Express (демо)", "start": 19572 }
+      ] },
+      { "name": "My Demon Wife (демо) / Loveland (демо) / Eternal Evil / Andy's Apple Farm (демо) / Despair: Blood Curse (демо) / Oxide: Room 104", "segment": "1508120809", "subrefs": [
+        { "name": "My Demon Wife (демо)" },
+        { "name": "Loveland (демо)", "start": 3708 },
+        { "name": "Eternal Evil", "start": 8400 },
+        { "name": "Andy's Apple Farm (демо)", "start": 12315 },
+        { "name": "Despair: Blood Curse (демо)", "start": 14301 },
+        { "name": "Oxide: Room 104", "start": 17910 }
       ] }
     ]
   },
