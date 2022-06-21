@@ -1141,10 +1141,10 @@
     "category": "finished",
     "id": "raft-story",
     "streams": [
-      { "name": "1", "segment": "1498044961" },
-      { "name": "2", "segment": "1498814310" },
-      { "name": "3", "segment": "1500644334" },
-      { "name": "4", "segment": "1509822874" }
+      { "name": "1", "segment": "1498044961", "start": 679 },
+      { "name": "2", "segment": "1498814310", "start": 596 },
+      { "name": "3", "segment": "1500644334", "start": 729 },
+      { "name": "4", "segment": "1509822874", "start": 1186 }
     ]
   },
   {
