@@ -33,7 +33,7 @@ const SearchResults = ({ mode, items, limit, page, onPageChange }) => {
     <>
       <ListGroup variant="flush" className="py-3">
         {items.slice(pageStart, pageEnd).map((item) => (
-          <ListGroup.Item key={item.name}>
+          <ListGroup.Item key={item}>
             <Row>
               <Col style={{ flex: '0 0 240px' }}>
                 <img className="me-3" width="100%" src={getThumbnail(item)} alt="thumbnail" />
