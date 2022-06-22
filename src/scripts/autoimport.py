@@ -3,6 +3,7 @@
 import sys
 import requests
 
+from itertools import chain
 from datetime import datetime
 from docopt import docopt
 
@@ -84,6 +85,26 @@ def create_timecodes(vod: str, timeline: Timecodes) -> None:
     print(timecodes[vod])
 
 
+def next_name(game: Game, name: str) -> str:
+    i = 1
+
+    for subref in chain(*[ref.subrefs for ref in game.streams]):
+        new_name = f'{name} #{i}'
+
+        if subref.name == name:
+            print(f'Renaming subref of {subref.parent.hash} "{subref.name}" '
+                  f'→ "{new_name}"')
+            subref.name = new_name
+            i += 1
+        elif subref.name == new_name:
+            i += 1
+
+    if i == 1:
+        return name
+
+    return f'{name} #{i}'
+
+
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
     vod = args['<vod>']
@@ -101,7 +122,8 @@ def main(argv=None):
 
     ref = SegmentReference(game=game,
                            parent=stream[0],
-                           subrefs=[{'name': t.name, 'start': t.start}
+                           subrefs=[{'name': next_name(game, t.name),
+                                     'start': t.start}
                                     for t in timeline])
 
     game.streams.append(ref)
