@@ -21,12 +21,18 @@ export const Segment = PropTypes.shape({
   duration: PropTypes.number,
 });
 
-export const SegmentRef = PropTypes.shape({
-  name: PropTypes.string,
+export const SubRef = PropTypes.shape({
+  name: PropTypes.string.isRequired,
   start: PropTypes.number,
+});
+
+export const SegmentRef = PropTypes.shape({
+  name: PropTypes.string, // combined names of subrefs
+  start: PropTypes.number, // from first subref
   segment: PropTypes.string,
   original: Segment,
   url: PropTypes.string,
+  subrefs: PropTypes.arrayOf(SubRef),
 });
 
 export const Game = PropTypes.shape({

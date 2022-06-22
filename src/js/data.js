@@ -76,38 +76,43 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
     }
 
     game.streams.forEach((ref) => {
-      ref.name = uniq(ref.subrefs.map(({ name }) => name)).join(' / ');
-      ref.url = `/play/${game.id}/${ref.segment}`;
-      ref.game = game;
-      ref.original = segments.by('segment', ref.segment);
+      ref.name = ref.subrefs
+        .filter((s) => !s.hidden)
+        .map(({ name }) => name)
+        .join(' / ');
 
+      ref.original = segments.by('segment', ref.segment);
+      ref.start = ref.subrefs[0].start || ref.original.abs_start;
+      ref.game = game;
+
+      ref.url = `/play/${game.id}/${ref.segment}`;
       if (ref.start) {
         ref.url += `?at=${ref.start}`;
-      } else {
-        ref.start = ref.original.abs_start;
       }
 
       if (game.type === 'list') {
         const origSegment = segments.by('segment', ref.segment);
 
-        ref.subrefs.forEach((subref) => {
-          let url = `/play/${game.id}/${ref.segment}`;
+        ref.subrefs
+          .filter((s) => !s.hidden)
+          .forEach((subref) => {
+            let url = `/play/${game.id}/${ref.segment}`;
 
-          if (subref.start > 0) {
-            url += `?at=${subref.start}`;
-          }
+            if (subref.start > 0) {
+              url += `?at=${subref.start}`;
+            }
 
-          index.insert({
-            ...indexEntry,
-            name: subref.name,
-            segment: ref.segment,
-            start: subref.start,
-            segments: [origSegment],
-            url,
-            streams: 1,
-            date: origSegment.date,
+            index.insert({
+              ...indexEntry,
+              name: subref.name,
+              segment: ref.segment,
+              start: subref.start,
+              segments: [origSegment],
+              url,
+              streams: 1,
+              date: origSegment.date,
+            });
           });
-        });
       }
     });
   });
