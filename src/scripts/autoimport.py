@@ -97,7 +97,7 @@ def main(argv=None):
 
     stream = create_stream(vod)
     create_timecodes(vod, timeline)
-    game = create_game(name='Не размечено', id='todo', type='list')
+    game = create_game(name='Не размечено', id='todo')
 
     ref = SegmentReference(game=game,
                            parent=stream[0],
