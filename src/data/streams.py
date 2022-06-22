@@ -609,6 +609,10 @@ class SubReference:
 
     def __setattr__(self, name, value):
         if name == 'parent':
+            if self.name in [s.name for s in value.subrefs]:
+                print(f'WARN: Duplicate subrefs "{self.name}" in '
+                      f'"{value.game.id}"')
+
             if hasattr(self, 'parent') and self.parent:
                 self.parent.subrefs.remove(self)
 
@@ -668,6 +672,9 @@ class SubReference:
                 yield f', "start": {int(self.start)}'
             else:
                 yield f', "start": {json_escape(self.start)}'
+
+        if self.hidden:
+            yield ', "hidden": true'
 
         if len(self._blacklist) > 0 and not compiled:
             yield f',\n    "blacklist": {indent(self._blacklist.to_json(), 4)[4:]}'
