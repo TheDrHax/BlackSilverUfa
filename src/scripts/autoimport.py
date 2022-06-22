@@ -6,7 +6,7 @@ import requests
 from datetime import datetime
 from docopt import docopt
 
-from ..data.streams import SegmentReference, Stream, SubReference, streams
+from ..data.streams import SegmentReference, Stream, streams
 from ..data.games import Game, games
 from ..data.timecodes import T, Timecode, Timecodes, timecodes
 
@@ -47,40 +47,25 @@ def get_timeline(game_history) -> Timecodes:
     return result
 
 
-def main(argv=None):
-    args = docopt(__doc__, argv=argv)
-    vod = args['<vod>']
+def create_stream(key: str) -> Stream:
+    print(f'Adding stream: {key}')
+    stream = Stream(key=key, data=[{}])
+    streams[key] = stream
+    return stream
 
-    if vod in streams:
-        print(f'Stream "{vod}" already exists')
-        sys.exit(1)
 
-    info = requests.get(f'https://red.thedrhax.pw/blackufa/twitch/{vod}').json()
-    timeline = get_timeline(info['game_history'])
-
-    print(f'Adding stream: {vod}')
-    stream = Stream(key=vod, data=[{}])
-    streams[vod] = stream
-
+def create_game(name, id, category='other', type=None) -> Game:
     try:
-        game = next(x for x in games if x.id == 'todo')
+        return next(x for x in games if x.id == id)
     except StopIteration:
-        print('Adding game "Не размечено (todo)"')
-        game = Game(name='Не размечено', id='todo',
-                    category='other', type='list')
+        print(f'Adding game "{name}" ({id})')
+
+        game = Game(name=name, id=id, category=category, type=type)
         games.append(game)
+        return game
 
-    ref = SegmentReference(game=game, parent=stream[0],
-                           name=timeline[0].name)
 
-    for t in timeline[1:]:
-        SubReference(name=t.name, start=t.start, parent=ref)
-
-    game.streams.append(ref)
-
-    print('Adding segment reference:')
-    print(ref.to_json())
-
+def create_timecodes(vod: str, timeline: Timecodes) -> None:
     ts = Timecodes()
     for x in timeline:
         t = Timecodes(name=x.name)
@@ -97,6 +82,32 @@ def main(argv=None):
 
     print('Adding timecodes:')
     print(timecodes[vod])
+
+
+def main(argv=None):
+    args = docopt(__doc__, argv=argv)
+    vod = args['<vod>']
+
+    if vod in streams:
+        print(f'Stream "{vod}" already exists')
+        sys.exit(1)
+
+    info = requests.get(f'https://red.thedrhax.pw/blackufa/twitch/{vod}').json()
+    timeline = get_timeline(info['game_history'])
+
+    stream = create_stream(vod)
+    create_timecodes(vod, timeline)
+    game = create_game(name='Не размечено', id='todo', type='list')
+
+    ref = SegmentReference(game=game,
+                           parent=stream[0],
+                           subrefs=[{'name': t.name, 'start': t.start}
+                                    for t in timeline])
+
+    game.streams.append(ref)
+
+    print('Adding segment reference:')
+    print(ref.to_json())
 
     if not args['--dry-run']:
         print('Saving changes')
