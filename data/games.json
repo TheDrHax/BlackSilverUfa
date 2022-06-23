@@ -3714,6 +3714,9 @@
       { "segment": "1510865681", "subrefs": [
         { "name": "Somnium", "start": 12433 },
         { "name": "Twelve Floors Below.", "start": 18731 }
+      ] },
+      { "segment": "1511822666", "subrefs": [
+        { "name": "Escape PS1 Hagrid", "start": 618 }
       ] }
     ]
   },
@@ -3872,6 +3875,9 @@
       ] },
       { "segment": "1140665211", "subrefs": [
         { "name": "2", "start": 5541 }
+      ] },
+      { "segment": "1511822666", "subrefs": [
+        { "name": "3", "start": 13376 }
       ] }
     ]
   },
@@ -5722,7 +5728,6 @@
       ] },
       { "segment": "1445142982", "subrefs": [
         { "name": "Remnants of R'lyeh (демо)" },
-        { "name": "Nightmare of Decay (демо)", "start": 7784 },
         { "name": "Out of Sight (демо)", "start": 13930 },
         { "name": "HandCop", "start": 17898 }
       ] },
@@ -5795,6 +5800,19 @@
       ] },
       { "segment": "1510865681", "subrefs": [
         { "name": "Maleficium (демо)", "start": 13777 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nightmare of Decay",
+    "category": "finished",
+    "id": "nightmare-of-decay",
+    "streams": [
+      { "segment": "1445142982", "subrefs": [
+        { "name": "Демо", "start": 7784 }
+      ] },
+      { "segment": "1511822666", "subrefs": [
+        { "name": "Прохождение", "start": 2034 }
       ] }
     ]
   },
