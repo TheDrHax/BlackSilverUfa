@@ -10558,7 +10558,6 @@
     "youtube": "PGjMwHIcShM", "abs_start": 0, "abs_end": 22003, "duration": 22003,
     "name": "Ikai / Weird West",
     "date": "2022-04-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1444100764.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1444100764.ass"
   },
@@ -10566,7 +10565,6 @@
     "youtube": "FgekyOZTsBA", "abs_start": 0, "abs_end": 22221, "duration": 22221,
     "name": "Remnants of R'lyeh (демо) / Grief / Mirage of Home / Nightmare of Decay - Демо / Uncle Panko's Terrible Little Farm / Toiletrooms / Out of Sight (демо) / Cleaning Redville / HandCop / The Heilwald Loophole #1",
     "date": "2022-04-03",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1445142982.torrent",
     "games": ["first-2022", "single", "nightmare-of-decay", "heilwald"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1445142982.ass"
   },
@@ -10841,5 +10839,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1511822666.torrent",
     "games": ["single", "nightmare-of-decay", "baby-in-yellow"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1511822666.ass"
+  },
+  "1515525236": {
+    "abs_start": 0, "abs_end": 23883, "duration": 0,
+    "name": "Deliver Us The Moon",
+    "date": "2022-06-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1515525236.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1515525236.torrent",
+    "games": ["single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1515525236.ass"
   }
 }
