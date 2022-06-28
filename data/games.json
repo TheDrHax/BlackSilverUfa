@@ -5767,8 +5767,7 @@
         { "name": "Film Morbid", "start": 17272 }
       ] },
       { "segment": "1312161316", "subrefs": [
-        { "name": "Sniper Elite 5" },
-        { "name": "V Rising", "start": 19637 }
+        { "name": "Sniper Elite 5", "start": 7138 }
       ] },
       { "segment": "1314842666", "subrefs": [
         { "name": "Destroy All Humans! 2: Reprobed", "start": 13196 }
@@ -5803,6 +5802,19 @@
       ] },
       { "segment": "1510865681", "subrefs": [
         { "name": "Maleficium (демо)", "start": 13777 }
+      ] }
+    ]
+  },
+  {
+    "name": "V Rising",
+    "category": "ongoing",
+    "id": "v-rising",
+    "streams": [
+      { "segment": "1312161316", "subrefs": [
+        { "name": "1", "start": 19637 }
+      ] },
+      { "segment": "1516411053", "subrefs": [
+        { "name": "2 (с Дашей и Джеком)", "start": 941 }
       ] }
     ]
   },

@@ -10374,10 +10374,10 @@
   },
   "1312161316": {
     "youtube": "t0uGPdBdHAE", "abs_start": 0, "abs_end": 22115, "duration": 22115,
-    "name": "Sniper Elite 5 / V Rising",
+    "name": "Sniper Elite 5 / V Rising #1",
     "date": "2022-05-29",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1312161316.torrent",
-    "games": ["first-2022"],
+    "games": ["first-2022", "v-rising"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1312161316.ass"
   },
   "1314842666": {
@@ -10572,7 +10572,6 @@
     "youtube": "1nvY3QXSC6M", "abs_start": 0, "abs_end": 22084, "duration": 22084,
     "name": "F.E.A.R. #1",
     "date": "2022-04-04",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1446082122.torrent",
     "games": ["fear"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1446082122.ass"
   },
@@ -10848,5 +10847,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1515525236.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1515525236.ass"
+  },
+  "1516411053": {
+    "abs_start": 0, "abs_end": 23643, "duration": 0,
+    "name": "V Rising #2 (с Дашей и Джеком)",
+    "date": "2022-06-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1516411053.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1516411053.torrent",
+    "games": ["v-rising"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1516411053.ass"
   }
 }
