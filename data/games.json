@@ -3604,9 +3604,6 @@
       { "segment": "1224807350", "subrefs": [
         { "name": "Decrypt", "start": 16911 }
       ] },
-      { "segment": "1239503220", "subrefs": [
-        { "name": "Fobia - St. Dinfna Hotel (демо)", "start": 11042 }
-      ] },
       { "segment": "1241348243", "subrefs": [
         { "name": "CorpseOcean", "start": 9194 }
       ] },
@@ -3720,6 +3717,19 @@
       ] },
       { "segment": "1515525236", "subrefs": [
         { "name": "Deliver Us The Moon", "start": 1603 }
+      ] }
+    ]
+  },
+  {
+    "name": "Fobia - St. Dinfna Hotel",
+    "category": "ongoing",
+    "id": "fobia",
+    "streams": [
+      { "segment": "1239503220", "subrefs": [
+        { "name": "Демо", "start": 11042 }
+      ] },
+      { "segment": "1517449364", "subrefs": [
+        { "name": "1", "start": 2517 }
       ] }
     ]
   },

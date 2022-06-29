@@ -10048,9 +10048,9 @@
   },
   "1239503220": {
     "youtube": "1p-dYWfcmnA", "abs_start": 0, "abs_end": 21944, "duration": 21944,
-    "name": "Dark Souls: Remastered #1 (заново) / Fobia - St. Dinfna Hotel (демо) / Five Nights At Freddy's: Security Breach #2",
+    "name": "Dark Souls: Remastered #1 (заново) / Fobia - St. Dinfna Hotel - Демо / Five Nights At Freddy's: Security Breach #2",
     "date": "2021-12-21",
-    "games": ["ds-remastered", "single", "fnaf-sb"],
+    "games": ["ds-remastered", "fobia", "fnaf-sb"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1239503220.ass"
   },
   "1240425069": {
@@ -10578,7 +10578,6 @@
     "youtube": "4Tnjr4SKI-M", "abs_start": 0, "abs_end": 17452, "duration": 17452,
     "name": "F.E.A.R. #2",
     "date": "2022-04-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1447006792.torrent",
     "games": ["fear"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1447006792.ass"
   },
@@ -10853,5 +10852,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1516411053.torrent",
     "games": ["v-rising"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1516411053.ass"
+  },
+  "1517449364": {
+    "abs_start": 0, "abs_end": 18142, "duration": 0,
+    "name": "Fobia - St. Dinfna Hotel #1",
+    "date": "2022-06-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1517449364.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1517449364.torrent",
+    "games": ["fobia"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1517449364.ass"
   }
 }
