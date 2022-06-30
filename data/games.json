@@ -4487,6 +4487,9 @@
     "type": "list",
     "id": "unboxing",
     "streams": [
+      { "segment": "001705180", "subrefs": [
+        { "name": "Сборка тумбочки", "start": 351 }
+      ] },
       { "segment": "001612290", "subrefs": [
         { "name": "Посылки (29.12.16)" }
       ] },
