@@ -287,6 +287,8 @@ export default class SegmentPlayer extends React.Component {
           x: ol.x !== null ? ol.x * width : 0,
           y: ol.y !== null ? ol.y * height : 0.65 * height,
         }}
+        minWidth="100px"
+        minHeight="100px"
         size={{
           width: ol.width ? `${ol.width * 100}%` : '35%',
           height: ol.height ? `${ol.height * 100}%` : '35%',
