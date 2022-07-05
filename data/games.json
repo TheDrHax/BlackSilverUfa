@@ -10646,7 +10646,7 @@
     "id": "todo",
     "streams": [
       { "segment": "1520246163", "subrefs": [
-        { "name": "Cuphead", "start": 1712 }
+        { "name": "Cuphead #1", "start": 1712 }
       ] },
       { "segment": "1521217271", "subrefs": [
         { "name": "Sail-by Salute", "start": 969 },
@@ -10665,6 +10665,10 @@
         { "name": "Xena: Warrior Princess", "start": 1867 },
         { "name": "Spider-Man 2: Enter Electro", "start": 9986 },
         { "name": "Barbie: Explorer", "start": 18675 }
+      ] },
+      { "segment": "1522945141", "subrefs": [
+        { "name": "Cuphead #2", "start": 455 },
+        { "name": "Cuphead: The Delicious Last Course", "start": 20531 }
       ] }
     ]
   }

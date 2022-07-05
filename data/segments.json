@@ -10613,7 +10613,6 @@
     "youtube": "mtvbAiJlOuQ", "abs_start": 0, "abs_end": 24306, "duration": 24306,
     "name": "F.E.A.R. 2: Project Origin #2",
     "date": "2022-04-09",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1450784424.torrent",
     "games": ["fear-2"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1450784424.ass"
   },
@@ -10867,7 +10866,7 @@
   },
   "1520246163": {
     "youtube": "ipSw7ljKYTg", "abs_start": 0, "abs_end": 24368, "duration": 24368,
-    "name": "Не размечено - Cuphead",
+    "name": "Не размечено - Cuphead #1",
     "date": "2022-07-02",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1520246163.torrent",
     "games": ["todo"],
@@ -10888,5 +10887,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1522102243.torrent",
     "games": ["todo"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1522102243.ass"
+  },
+  "1522945141": {
+    "abs_start": 0, "abs_end": 23035, "duration": 0,
+    "name": "Не размечено - Cuphead #2 / Не размечено - Cuphead: The Delicious Last Course",
+    "date": "2022-07-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1522945141.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1522945141.torrent",
+    "games": ["todo"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1522945141.ass"
   }
 }
