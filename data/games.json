@@ -10643,6 +10643,7 @@
   {
     "name": "Не размечено",
     "category": "other",
+    "type": "list",
     "id": "todo",
     "streams": [
       { "segment": "1520246163", "subrefs": [
