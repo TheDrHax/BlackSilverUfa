@@ -4712,6 +4712,9 @@
     "type": "list",
     "id": "first-2016",
     "streams": [
+      { "segment": "001603300", "subrefs": [
+        { "name": "Freelancer" }
+      ] },
       { "segment": "001607210", "subrefs": [
         { "name": "Deus Ex: Human Revolution - Director's Cut" }
       ] },
