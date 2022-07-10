@@ -10675,10 +10675,14 @@
         { "name": "Cuphead: The Delicious Last Course", "start": 20531 }
       ] },
       { "segment": "1525875843", "subrefs": [
-        { "name": "Madison", "start": 3564 }
+        { "name": "Madison #1", "start": 3564 }
       ] },
       { "segment": "1526818509", "subrefs": [
-        { "name": "Nancy Drew: Danger by Design (Нэнси Дрю. Платье для первой леди)", "start": 1108 }
+        { "name": "Nancy Drew: Danger by Design (Нэнси Дрю. Платье для первой леди) #1", "start": 1108 }
+      ] },
+      { "segment": "1527725425", "subrefs": [
+        { "name": "Madison #2", "start": 897 },
+        { "name": "Nancy Drew: Danger by Design (Нэнси Дрю. Платье для первой леди) #2", "start": 6561 }
       ] }
     ]
   }

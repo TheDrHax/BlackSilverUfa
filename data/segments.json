@@ -10902,7 +10902,7 @@
   },
   "1525875843": {
     "youtube": "1gwmDWQclbg", "abs_start": 0, "abs_end": 22072, "duration": 22072,
-    "name": "Madison",
+    "name": "Madison #1",
     "date": "2022-07-08",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1525875843.torrent",
     "games": ["todo"],
@@ -10910,10 +10910,19 @@
   },
   "1526818509": {
     "youtube": "vUxez-VSLFs", "abs_start": 0, "abs_end": 21990, "duration": 21990,
-    "name": "Nancy Drew: Danger by Design (Нэнси Дрю. Платье для первой леди)",
+    "name": "Nancy Drew: Danger by Design (Нэнси Дрю. Платье для первой леди) #1",
     "date": "2022-07-09",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1526818509.torrent",
     "games": ["todo"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1526818509.ass"
+  },
+  "1527725425": {
+    "abs_start": 0, "abs_end": 16390, "duration": 0,
+    "name": "Madison #2 / Nancy Drew: Danger by Design (Нэнси Дрю. Платье для первой леди) #2",
+    "date": "2022-07-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1527725425.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1527725425.torrent",
+    "games": ["todo"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1527725425.ass"
   }
 }
