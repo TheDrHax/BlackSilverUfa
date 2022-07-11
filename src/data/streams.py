@@ -37,7 +37,7 @@ class Segment:
     start: Timecode = attr.ib(0, converter=Timecode)
     end: Timecode = attr.ib(0, converter=Timecode)
     _offset: Timecode = attr.ib(0, converter=Timecode)
-    offsets: Timecodes = attr.ib([], converter=Timecodes)  # for joined streams
+    offsets: Timecodes = attr.ib(factory=list, converter=Timecodes)  # for joined streams
     _duration: Timecode = attr.ib(0, converter=Timecode)
     _cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
 
@@ -951,8 +951,8 @@ class Streams(dict):
                         if not segment.playable:
                             segment.fallbacks['direct'] = segment.direct
                             segment.direct = fallback.url(filename)
-                            segment.fallbacks['cuts'] = segment.cuts
-                            segment.cuts = Timecodes()
+                            # segment.fallbacks['cuts'] = segment.cuts
+                            # segment.cuts = Timecodes()
                             segment.fallbacks['offset'] = segment.offset()
                             segment.offset = Timecode(0)
 
