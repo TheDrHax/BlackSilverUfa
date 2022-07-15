@@ -358,30 +358,33 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
         offset -= MATCH_OFFSET
 
-        if score > 0:
-            matching_segment = segment
-            video_offset = Timecode(round(offset))
-            print(f'Match found: segment {segment.hash}, offset {video_offset}',
-                  file=sys.stderr)
-            break
+        if score == 0:
+            continue
+
+        video_offset = Timecode(round(offset))
+        print(f'Match found: segment {segment.hash}, offset {video_offset}',
+                file=sys.stderr)
+
+        if segment.stream.type == StreamType.JOINED and not fail_if_cut:
+            print('Matching stream is joined, forcing --fail-if-cut')
+            fail_if_cut = True
+
+        if fail_if_cut:
+            print('Checking for cuts...')
+            diff = check_cuts(original, video, offset=int(video_offset))
+            if diff > 1:
+                print(f'Error: The video is {int(diff)} seconds shorter '
+                      'than the original.', file=sys.stderr)
+                continue
+
+        matching_segment = segment
+        break
 
     if matching_segment is None:
         print('Error: Video does not match any streams', file=sys.stderr)
         sys.exit(2)
 
     segment_kwargs['offset'] = video_offset
-
-    if matching_segment.stream.type == StreamType.JOINED and not fail_if_cut:
-        print('Matching stream is joined, forcing --fail-if-cut')
-        fail_if_cut = True
-
-    if fail_if_cut:
-        print('Checking for cuts...')
-        diff = check_cuts(original, video, offset=int(video_offset))
-        if diff > 1:
-            print(f'Error: The video is {int(diff)} seconds shorter '
-                  'than the original.', file=sys.stderr)
-            sys.exit(3)
 
     if matching_segment.note:
         segment_kwargs['note'] = matching_segment.note
