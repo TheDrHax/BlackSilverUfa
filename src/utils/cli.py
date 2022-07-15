@@ -248,6 +248,11 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
                               for subref in ref.subrefs],
                              key=lambda x: x.abs_start)
 
+        tmp_subref = None
+        if subrefs[0].abs_start != 0:
+            tmp_subref = SubReference(name='Начало', parent=s.references[0])
+            subrefs.add(tmp_subref)
+
         for subref in subrefs:
             tmp_segment.offset = subref.abs_start
 
@@ -287,6 +292,9 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
                 scan_range.end = T + MATCH_OFFSET + MATCH_CHUNK
 
             yield s, time_range, scan_range
+        
+        if tmp_subref:
+            tmp_subref.parent.subrefs.remove(tmp_subref)
 
 
 def ytdl_video(video_id):
