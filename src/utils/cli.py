@@ -404,19 +404,24 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
 
 def check_cuts(original_video, input_video, offset=0):
+    duration = min(input_video.duration, original_video.duration)
+
     template = input_video.slice(
-        input_video.duration - MATCH_OFFSET - MATCH_CHUNK,
+        duration - MATCH_OFFSET - MATCH_CHUNK,
         MATCH_CHUNK
     )[0]
 
-    new_offset, _ = find_offset(
-        template, original_video,
-        start=offset,
-        end=offset + int(input_video.duration),
-        reverse=True,
-        min_score=10)
+    try:
+        new_offset, _ = find_offset(
+            template, original_video,
+            start=offset,
+            end=offset + int(duration),
+            reverse=True,
+            min_score=10)
+    except Exception:
+        return -255
 
-    return new_offset - (input_video.duration - MATCH_OFFSET - MATCH_CHUNK) - offset
+    return new_offset - (duration - MATCH_OFFSET - MATCH_CHUNK) - offset
 
 
 def cmd_cuts(segment, segment_kwargs, directory=None):
