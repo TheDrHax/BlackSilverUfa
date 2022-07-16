@@ -10668,7 +10668,6 @@
     "youtube": "nJTTWcbUNe0", "abs_start": 0, "abs_end": 21508, "duration": 21508,
     "name": "Remorse: The List #2 / Varmalis (демо) / Core / Just Stopping By",
     "date": "2022-04-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1466510615.torrent",
     "games": ["remorse-tl", "first-2022", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1466510615.ass"
   },
@@ -10952,5 +10951,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1531483751.torrent",
     "games": ["todo"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1531483751.ass"
+  },
+  "1533471620": {
+    "abs_start": 0, "abs_end": 17846, "duration": 0,
+    "name": "DEVOUR / Occult / Tricky Towers",
+    "date": "2022-07-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1533471620.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1533471620.torrent",
+    "games": ["todo"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1533471620.ass"
   }
 }
