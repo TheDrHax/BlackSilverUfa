@@ -11,8 +11,9 @@ import PATHS from '../../constants/urls';
 
 const selectRecentSegments = ({ segments }, count = 10) => reverse(
   segments.chain()
+    .find({ games: { $size: { $gt: 0 } } })
     .compoundsort(['date', 'segment'])
-    .offset(segments.count() - count)
+    .offset(-count)
     .data(),
 );
 
