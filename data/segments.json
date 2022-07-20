@@ -10389,7 +10389,6 @@
     "youtube": "t0uGPdBdHAE", "abs_start": 0, "abs_end": 22115, "duration": 22115,
     "name": "Sniper Elite 5 / V Rising #1",
     "date": "2022-05-29",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1312161316.torrent",
     "games": ["first-2022", "v-rising"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1312161316.ass"
   },
@@ -10991,5 +10990,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1536251230,1536294843.torrent",
     "games": ["todo"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1536251230,1536294843+0.ass"
+  },
+  "1537269313": {
+    "abs_start": 0, "abs_end": 27379, "duration": 0,
+    "name": "As Dusk Falls",
+    "date": "2022-07-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1537269313.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1537269313.torrent",
+    "games": ["todo"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1537269313.ass"
   }
 }
