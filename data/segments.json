@@ -10964,9 +10964,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1534414628.ass"
   },
   "1536251230": {
-    "youtube": "b0d58JjBfT0", "abs_start": 0, "abs_end": 30880, "duration": 30880,
+    "abs_start": 0, "abs_end": 5365, "duration": 0,
     "name": "",
     "date": "2022-07-19",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1536251230.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1536251230.torrent",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1536251230.ass"
@@ -10981,10 +10982,9 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1536294843.ass"
   },
   "1536251230,1536294843": {
-    "abs_start": 0, "abs_end": 30909, "duration": 0,
+    "youtube": "b0d58JjBfT0", "abs_start": 0, "abs_end": 30880, "duration": 30880,
     "name": "Stray",
     "date": "2022-07-19",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1536251230,1536294843.mp4",
     "offsets": [0, 5343],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1536251230,1536294843.torrent",
     "games": ["todo"],
