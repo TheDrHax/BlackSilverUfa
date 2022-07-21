@@ -240,18 +240,22 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
                   '(both videos are unofficial)', file=sys.stderr)
             continue
 
-        tmp_stream = Stream(data=[], key=s.stream.twitch)
-        tmp_segment = Segment(stream=tmp_stream, **segment_kwargs)
-
         subrefs = SortedList([subref
                               for ref in s.references
                               for subref in ref.subrefs],
                              key=lambda x: x.abs_start)
 
+        if len(subrefs) == 0:
+            print(f'Skipping segment {s.hash} (no subrefs)', file=sys.stderr)
+            continue
+
         tmp_subref = None
         if subrefs[0].abs_start != 0:
             tmp_subref = SubReference(name='Начало', parent=s.references[0])
             subrefs.add(tmp_subref)
+
+        tmp_stream = Stream(data=[], key=s.stream.twitch)
+        tmp_segment = Segment(stream=tmp_stream, **segment_kwargs)
 
         for subref in subrefs:
             tmp_segment.offset = subref.abs_start
