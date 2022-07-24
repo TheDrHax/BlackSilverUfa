@@ -7008,17 +7008,11 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v720973722.ass"
   },
   "721969297": {
-    "youtube": "ivvpyAj8KYo", "official": false, "abs_start": 0, "abs_end": 7193, "duration": 7193,
-    "name": "Mafia: City of Lost Heaven #1 (заново)",
+    "abs_start": 0, "abs_end": 22433, "duration": 0,
+    "name": "Mafia: City of Lost Heaven #1 (заново) / Mafia: Definitive Edition - Демо",
     "date": "2020-08-26",
-    "games": ["mafia"],
-    "subtitles": "https://bsu.drhx.ru/chats/2020/v721969297.ass"
-  },
-  "721969297.1": {
-    "abs_start": 7193, "abs_end": 22433, "duration": 0,
-    "name": "Mafia: Definitive Edition - Демо",
-    "date": "2020-08-26",
-    "games": ["mafia-de"],
+    "direct": "https://bsufiles.thedrhax.pw/streams/721969297.mp4",
+    "games": ["mafia", "mafia-de"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v721969297.ass"
   },
   "723011325": {
@@ -7912,11 +7906,12 @@
     "subtitles": "https://bsu.drhx.ru/chats/2021/v880899353.ass"
   },
   "882168228": {
-    "youtube": "1c08ji3g-aw", "abs_start": 0, "abs_end": 17347, "duration": 17347,
+    "youtube": "PlDAd8lT398", "official": false, "abs_start": 0, "abs_end": 17347, "duration": 17347,
     "name": "Hitman 3 #2",
     "date": "2021-01-21",
     "games": ["hitman-3"],
-    "subtitles": "https://bsu.drhx.ru/chats/2021/v882168228.ass"
+    "subtitles": "https://bsu.drhx.ru/chats/2021/v882168228.ass",
+    "note": "У <a href=\"https://youtu.be/1c08ji3g-aw\">официальной записи</a> почему-то запрещено встраивание."
   },
   "883419848": {
     "youtube": "dn9uQy2eePE", "official": false, "abs_start": 0, "abs_end": 24484, "duration": 24484,
