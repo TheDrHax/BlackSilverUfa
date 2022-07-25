@@ -10697,7 +10697,6 @@
     "youtube": "5THZtDba5Tk", "abs_start": 0, "abs_end": 19306, "duration": 19306,
     "name": "The Clown's Fun / Under / New Testament (демо) / Arachnophobia / Ouija Rumours / Shadowbringer / Lilith's Curse 1984 (демо) / Puppetmaker / Our Lady of Sorrow / The Abyss Has Walls / Film Morbid / The Heilwald Loophole #2",
     "date": "2022-05-01",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1472093056.torrent",
     "games": ["single", "first-2022", "heilwald"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1472093056.ass"
   },
@@ -10928,7 +10927,7 @@
   },
   "1530567140": {
     "youtube": "pL9CVRfeSEw", "abs_start": 0, "abs_end": 17884, "duration": 17884,
-    "name": "Fall Guys / I'm on Observation Duty 5",
+    "name": "Fall Guys #1 / I'm on Observation Duty 5",
     "date": "2022-07-13",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1530567140.torrent",
     "games": ["todo"],
@@ -10992,5 +10991,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1537269313.torrent",
     "games": ["todo"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1537269313.ass"
+  },
+  "1542254440": {
+    "abs_start": 0, "abs_end": 18405, "duration": 0,
+    "name": "Granny: Chapter Two / Peepo Island / Fall Guys #2",
+    "date": "2022-07-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1542254440.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1542254440.torrent",
+    "games": ["todo"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1542254440.ass"
   }
 }

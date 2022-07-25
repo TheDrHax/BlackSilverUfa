@@ -10692,7 +10692,7 @@
         { "name": "Cuphead #3", "start": 3148 }
       ] },
       { "segment": "1530567140", "subrefs": [
-        { "name": "Fall Guys", "start": 2918 },
+        { "name": "Fall Guys #1", "start": 2918 },
         { "name": "I'm on Observation Duty 5", "start": 12726 }
       ] },
       { "segment": "1531483751", "subrefs": [
@@ -10712,6 +10712,11 @@
       ] },
       { "segment": "1537269313", "subrefs": [
         { "name": "As Dusk Falls" }
+      ] },
+      { "segment": "1542254440", "subrefs": [
+        { "name": "Granny: Chapter Two", "start": 2052 },
+        { "name": "Peepo Island", "start": 5359 },
+        { "name": "Fall Guys #2", "start": 13358 }
       ] }
     ]
   }
