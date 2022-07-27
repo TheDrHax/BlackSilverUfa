@@ -10713,6 +10713,9 @@
       { "segment": "1537269313", "subrefs": [
         { "name": "As Dusk Falls" }
       ] },
+      { "segment": "1541455295", "subrefs": [
+        { "name": "Трейлеры", "start": 2576 }
+      ] },
       { "segment": "1542254440", "subrefs": [
         { "name": "Granny: Chapter Two", "start": 2052 },
         { "name": "Peepo Island", "start": 5359 },
@@ -10721,10 +10724,7 @@
       { "segment": "1543244527", "subrefs": [
         { "name": "Road Rash" },
         { "name": "Contra: Hard Corps", "start": 8115 },
-        { "name": "Road Rash", "start": 14513 }
-      ] },
-      { "segment": "1541455295", "subrefs": [
-        { "name": "Трейлеры", "start": 2576 }
+        { "name": "Road Rash (продолжение)", "start": 14513, "hidden": true }
       ] }
     ]
   }
