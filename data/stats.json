@@ -7,13 +7,13 @@
     "segments": {
       "total": 1503,
       "official": 1099,
-      "unofficial": 400,
-      "missing": 4
+      "unofficial": 401,
+      "missing": 3
     },
     "messages": 20144745
   },
   "durations": {
     "streams": 26648422,
-    "segments": 25788896
+    "segments": 25811286
   }
 }
