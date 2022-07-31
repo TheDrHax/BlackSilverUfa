@@ -10708,7 +10708,6 @@
     "youtube": "ZOiOJGBsoqU", "abs_start": 0, "abs_end": 15801, "duration": 15801,
     "name": "Madagascar #1",
     "date": "2022-06-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1495305113.torrent",
     "games": ["madagascar"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1495305113.ass"
   },
@@ -10716,7 +10715,6 @@
     "youtube": "4n0MYUPNG1U", "abs_start": 0, "abs_end": 9004, "duration": 9004,
     "name": "Madagascar #2",
     "date": "2022-06-07",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1497100879.torrent",
     "games": ["madagascar"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1497100879.ass"
   },
@@ -11035,5 +11033,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1547156682.torrent",
     "games": ["todo"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1547156682.ass"
+  },
+  "1548174786": {
+    "abs_start": 0, "abs_end": 21861, "duration": 0,
+    "name": "The Pale / Auver / Control Room Alpha / Cain / Life Beyond / Trash Horror Collection / Enter & Survey / Our Lady of the Drowned Lake / Satan's Baby Doll / Good Boy / Stroll Prototype / Hausmeister / One Last Breath / Iron Lung",
+    "date": "2022-07-31",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1548174786.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1548174786.torrent",
+    "games": ["todo"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1548174786.ass"
   }
 }
