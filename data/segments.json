@@ -7905,9 +7905,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2021/v880899353.ass"
   },
   "882168228": {
-    "youtube": "PlDAd8lT398", "official": false, "abs_start": 0, "abs_end": 17347, "duration": 17347,
+    "abs_start": 0, "abs_end": 17352, "duration": 0,
     "name": "Hitman 3 #2",
     "date": "2021-01-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/882168228.mp4",
     "games": ["hitman-3"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v882168228.ass",
     "note": "У <a href=\"https://youtu.be/1c08ji3g-aw\">официальной записи</a> почему-то запрещено встраивание."
@@ -10722,7 +10723,6 @@
     "youtube": "WRVgdYVny8E", "abs_start": 0, "abs_end": 21379, "duration": 21379,
     "name": "Raft (с Дашей и Джеком) #1",
     "date": "2022-06-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1498044961.torrent",
     "games": ["raft-story"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1498044961.ass"
   },
