@@ -10739,7 +10739,6 @@
     "youtube": "HKh6aW8GcHI", "abs_start": 0, "abs_end": 35182, "duration": 35182,
     "name": "The Quarry - Прохождение",
     "date": "2022-06-10",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1499698307.torrent",
     "games": ["quarry"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1499698307.ass"
   },
@@ -11042,5 +11041,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1548174786.torrent",
     "games": ["todo"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1548174786.ass"
+  },
+  "1550107736": {
+    "abs_start": 0, "abs_end": 18265, "duration": 0,
+    "name": "The Mortuary Assistant",
+    "date": "2022-08-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1550107736.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1550107736.torrent",
+    "games": ["todo"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1550107736.ass"
   }
 }
