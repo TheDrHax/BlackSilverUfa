@@ -10989,7 +10989,7 @@
   },
   "1541455295": {
     "youtube": "82Zn8ZZR-BY", "abs_start": 0, "abs_end": 6028, "duration": 6028,
-    "name": "Трейлеры",
+    "name": "Трейлеры #1",
     "date": "2022-07-25",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1541455295.torrent",
     "games": ["todo"],
@@ -11045,10 +11045,19 @@
   },
   "1550107736": {
     "youtube": "AtUO5OoXAZs", "abs_start": 0, "abs_end": 18237, "duration": 18237,
-    "name": "The Mortuary Assistant",
+    "name": "The Mortuary Assistant #1",
     "date": "2022-08-02",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1550107736.torrent",
     "games": ["todo"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1550107736.ass"
+  },
+  "1551976425": {
+    "abs_start": 0, "abs_end": 21891, "duration": 0,
+    "name": "Peepo Island #5 / The Mortuary Assistant #2 / Трейлеры #2 / Outbreak: Shades of Horror",
+    "date": "2022-08-04",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1551976425.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1551976425.torrent",
+    "games": ["todo"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1551976425.ass"
   }
 }
