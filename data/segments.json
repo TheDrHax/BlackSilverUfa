@@ -10753,7 +10753,6 @@
     "youtube": "vIPYSp3Y5wc", "abs_start": 0, "abs_end": 25893, "duration": 25893,
     "name": "Summer Game Fest 2022 - Обзор / Phasmophobia #14 (с Куплиновым и Дангаром) / Summer Game Fest 2022 - Xbox & Bethesda Showcase",
     "date": "2022-06-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1501665729.torrent",
     "games": ["sgf-22", "phasmophobia"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1501665729.ass"
   },
@@ -11072,5 +11071,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1554911752.torrent",
     "games": ["todo"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1554911752.ass"
+  },
+  "1555820842": {
+    "abs_start": 0, "abs_end": 26046, "duration": 0,
+    "name": "Serious Duke 3D / We Were Here Forever",
+    "date": "2022-08-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1555820842.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1555820842.torrent",
+    "games": ["todo"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1555820842.ass"
   }
 }
