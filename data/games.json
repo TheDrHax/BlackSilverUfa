@@ -5850,6 +5850,11 @@
       { "segment": "1521217271", "subrefs": [
         { "name": "Cold House", "start": 8318 },
         { "name": "Lost Life: Origins", "start": 16388 }
+      ] },
+      { "segment": "1522102243", "subrefs": [
+        { "name": "Xena: Warrior Princess", "start": 1915 },
+        { "name": "Spider-Man 2: Enter Electro", "start": 10223 },
+        { "name": "Barbie: Explorer", "start": 18715 }
       ] }
     ]
   },
@@ -10681,11 +10686,6 @@
     "type": "list",
     "id": "todo",
     "streams": [
-      { "segment": "1522102243", "subrefs": [
-        { "name": "Xena: Warrior Princess", "start": 1867 },
-        { "name": "Spider-Man 2: Enter Electro", "start": 9986 },
-        { "name": "Barbie: Explorer", "start": 18675 }
-      ] },
       { "segment": "1525875843", "subrefs": [
         { "name": "Madison #1", "start": 3564 }
       ] },
