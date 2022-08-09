@@ -591,9 +591,10 @@
     "note": "Запись предоставил Олег Степанов (<a href=\"https://vk.com/video87862793_456239639\">1</a>, <a href=\"https://vk.com/video87862793_456239640\">2</a>)."
   },
   "001610100": {
-    "youtube": "aMzB3OqCJg4", "official": false, "abs_start": 0, "abs_end": 12157, "duration": 12157,
+    "abs_start": 0, "abs_end": 0, "duration": 0,
     "name": "Mafia III #2",
     "date": "2016-10-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/001610100.mp4",
     "games": ["mafia-3"],
     "note": "Запись предоставил <a href=\"https://vk.com/87862793_456239644\">Олег Степанов</a>."
   },
@@ -2564,9 +2565,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2018/v276648637.ass"
   },
   "277001302": {
-    "youtube": "IP3xa6iBtV4", "official": false, "abs_start": 0, "abs_end": 18548, "duration": 18548,
+    "abs_start": 0, "abs_end": 18586, "duration": 0,
     "name": "Dark Souls: Remastered #2 (со зрителями)",
     "date": "2018-06-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/277001302.mp4",
     "games": ["ds-remastered"],
     "subtitles": "https://bsu.drhx.ru/chats/2018/v277001302.ass",
     "note": "Официальная запись <a href=\"https://vk.com/b_silver?w=wall-28387068_3245650\">заблокирована</a>."
@@ -9169,9 +9171,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1098539430.ass"
   },
   "1099599998": {
-    "youtube": "FRvhM1JKmKo", "official": false, "abs_start": 0, "abs_end": 21714, "duration": 21714,
+    "abs_start": 0, "abs_end": 21701, "duration": 0,
     "name": "Z Mutants / Summer of '58 / From Day To Day (демо)",
     "date": "2021-07-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1099599998.mp4",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1099599998.ass"
   },
@@ -10759,7 +10762,6 @@
     "youtube": "8G5QlkS5iPg", "abs_start": 0, "abs_end": 21671, "duration": 21671,
     "name": "Summer Game Fest 2022 - PC Gaming Show (обзор) / SCP: Secret Files (демо) / Cult of the Lamb (демо) / Anger Foot / The Fridge Is Red (демо) / Sker Ritual (демо) / The Last Worker (демо) / Midnight Fight Express (демо)",
     "date": "2022-06-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1502569152.torrent",
     "games": ["sgf-22", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1502569152.ass"
   },
