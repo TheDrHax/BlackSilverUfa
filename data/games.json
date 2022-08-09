@@ -4763,9 +4763,6 @@
       { "segment": "178108639", "subrefs": [
         { "name": "Home Sweet Home" }
       ] },
-      { "segment": "178361269", "subrefs": [
-        { "name": "Cuphead" }
-      ] },
       { "segment": "180397849", "subrefs": [
         { "name": "Road Redemption" },
         { "name": "Battle Chasers", "start": 4576 }
@@ -4779,6 +4776,26 @@
       ] },
       { "segment": "212678883", "subrefs": [
         { "name": "Stifled" }
+      ] }
+    ]
+  },
+  {
+    "name": "Cuphead",
+    "category": "finished",
+    "id": "cuphead",
+    "streams": [
+      { "segment": "178361269", "subrefs": [
+        { "name": "Первый взгляд" }
+      ] },
+      { "segment": "1520246163", "subrefs": [
+        { "name": "1", "start": 795 }
+      ] },
+      { "segment": "1522945141", "subrefs": [
+        { "name": "2", "start": 494 },
+        { "name": "The Delicious Last Course #1", "start": 20783 }
+      ] },
+      { "segment": "1529607663", "subrefs": [
+        { "name": "The Delicious Last Course #2", "start": 3199 }
       ] }
     ]
   },
@@ -10649,9 +10666,6 @@
     "type": "list",
     "id": "todo",
     "streams": [
-      { "segment": "1520246163", "subrefs": [
-        { "name": "Cuphead #1", "start": 1712 }
-      ] },
       { "segment": "1521217271", "subrefs": [
         { "name": "Sail-by Salute", "start": 969 },
         { "name": "The Floor is Breathing", "start": 4265 },
@@ -10670,10 +10684,6 @@
         { "name": "Spider-Man 2: Enter Electro", "start": 9986 },
         { "name": "Barbie: Explorer", "start": 18675 }
       ] },
-      { "segment": "1522945141", "subrefs": [
-        { "name": "Cuphead #2", "start": 455 },
-        { "name": "Cuphead: The Delicious Last Course", "start": 20531 }
-      ] },
       { "segment": "1525875843", "subrefs": [
         { "name": "Madison #1", "start": 3564 }
       ] },
@@ -10687,9 +10697,6 @@
       { "segment": "1528664321", "subrefs": [
         { "name": "Fighting Force", "start": 2043 },
         { "name": "Broken Sword: Shadow of the Templars - The Director's Cut", "start": 10776 }
-      ] },
-      { "segment": "1529607663", "subrefs": [
-        { "name": "Cuphead #3", "start": 3148 }
       ] },
       { "segment": "1530567140", "subrefs": [
         { "name": "Fall Guys #1", "start": 2918 },
