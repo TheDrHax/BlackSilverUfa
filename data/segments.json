@@ -591,10 +591,9 @@
     "note": "Запись предоставил Олег Степанов (<a href=\"https://vk.com/video87862793_456239639\">1</a>, <a href=\"https://vk.com/video87862793_456239640\">2</a>)."
   },
   "001610100": {
-    "abs_start": 0, "abs_end": 0, "duration": 0,
+    "youtube": "aMzB3OqCJg4", "official": false, "abs_start": 0, "abs_end": 12157, "duration": 12157,
     "name": "Mafia III #2",
     "date": "2016-10-10",
-    "direct": "https://bsufiles.thedrhax.pw/streams/001610100.mp4",
     "games": ["mafia-3"],
     "note": "Запись предоставил <a href=\"https://vk.com/87862793_456239644\">Олег Степанов</a>."
   },
@@ -5793,6 +5792,7 @@
     "abs_start": 0, "abs_end": 15643, "duration": 0,
     "name": "Посылки (31.12.19)",
     "date": "2019-12-31",
+    "direct": "https://bsufiles.thedrhax.pw/streams/528855659.mp4",
     "games": ["unboxing"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v528855659.ass"
   },
