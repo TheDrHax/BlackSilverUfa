@@ -10769,7 +10769,6 @@
     "youtube": "HyMdlr5onM8", "abs_start": 0, "abs_end": 11851, "duration": 11851,
     "name": "Summer Game Fest 2022 - Capcom (обзор) / Resident Evil 2 Remake #1 (хардкор) / Summer Game Fest 2022 - Xbox Games Showcase Extended",
     "date": "2022-06-14",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1503541091.torrent",
     "games": ["sgf-22", "re2-remake"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1503541091.ass"
   },
@@ -11080,5 +11079,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1555820842.torrent",
     "games": ["todo"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1555820842.ass"
+  },
+  "1557831331": {
+    "abs_start": 0, "abs_end": 9497, "duration": 0,
+    "name": "SCP: Fractured Minds (демо) / Peepo Island #6",
+    "date": "2022-08-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1557831331.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1557831331.torrent",
+    "games": ["first-2022", "peepo-island"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1557831331.ass"
   }
 }
