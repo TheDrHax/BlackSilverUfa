@@ -3728,6 +3728,10 @@
         { "name": "Perfect Vermin", "start": 15119 },
         { "name": "The Crypt Terror", "start": 18805 },
         { "name": "Penitence", "start": 19318 }
+      ] },
+      { "segment": "1558782985", "subrefs": [
+        { "name": "Iron Lung", "start": 1713 },
+        { "name": "From The Darkness", "start": 5239 }
       ] }
     ]
   },
@@ -5830,7 +5834,6 @@
       ] },
       { "segment": "1502569152", "subrefs": [
         { "name": "SCP: Secret Files (демо)", "start": 6392 },
-        { "name": "Cult of the Lamb (демо)", "start": 10742 },
         { "name": "Anger Foot", "start": 13101 },
         { "name": "The Fridge Is Red (демо)", "start": 14441 },
         { "name": "Sker Ritual (демо)", "start": 17368 },
@@ -5858,6 +5861,19 @@
       ] },
       { "segment": "1557831331", "subrefs": [
         { "name": "SCP: Fractured Minds (демо)", "start": 2640 }
+      ] }
+    ]
+  },
+  {
+    "name": "Cult of the Lamb",
+    "category": "ongoing",
+    "id": "cult-ot-lamb",
+    "streams": [
+      { "segment": "1502569152", "subrefs": [
+        { "name": "Демо", "start": 10742 }
+      ] },
+      { "segment": "1558782985", "subrefs": [
+        { "name": "1", "start": 11644 }
       ] }
     ]
   },
@@ -6591,6 +6607,9 @@
       ] },
       { "segment": "1262176650", "subrefs": [
         { "name": "Часть 4 #2", "start": 22522 }
+      ] },
+      { "segment": "1558782985", "subrefs": [
+        { "name": "Часть 5 #2", "start": 10299 }
       ] }
     ]
   },
