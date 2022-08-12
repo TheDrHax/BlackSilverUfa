@@ -10783,7 +10783,6 @@
     "youtube": "swPrFFqPC6Y", "official": false, "abs_start": 0, "abs_end": 19949, "duration": 19949,
     "name": "Summer Game Fest 2022 - Square Enix (обзор) / Dread Hunger #4 (8D)",
     "date": "2022-06-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1506232070.torrent",
     "games": ["sgf-22", "dread-hunger"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1506232070.ass"
   },
@@ -10861,10 +10860,10 @@
   },
   "1522102243": {
     "youtube": "S-O7UGkVtKI", "abs_start": 0, "abs_end": 22705, "duration": 22705,
-    "name": "Xena: Warrior Princess / Spider-Man 2: Enter Electro / Barbie: Explorer",
+    "name": "Xena: Warrior Princess / Spider-Man 2: Enter Electro / Barbie: Explorer #1",
     "date": "2022-07-04",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1522102243.torrent",
-    "games": ["first-2022"],
+    "games": ["first-2022", "barbie-explorer"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1522102243.ass"
   },
   "1522945141": {
@@ -11089,10 +11088,19 @@
   },
   "1558782985": {
     "youtube": "sz0Xb8425rE", "abs_start": 0, "abs_end": 22053, "duration": 22053,
-    "name": "Iron Lung / From The Darkness / I'm on Observation Duty - Часть 5 #2 / Cult of the Lamb #1",
+    "name": "Iron Lung #2 / From The Darkness / I'm on Observation Duty - Часть 5 #2 / Cult of the Lamb #1",
     "date": "2022-08-11",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1558782985.torrent",
-    "games": ["single", "observation-duty", "cult-ot-lamb"],
+    "games": ["iron-lung", "single", "observation-duty", "cult-ot-lamb"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1558782985.ass"
+  },
+  "1559742064": {
+    "abs_start": 0, "abs_end": 19395, "duration": 0,
+    "name": "Barbie: Explorer #2 / Twisted Metal: Small Brawl / Hercules / Chessmaster II",
+    "date": "2022-08-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1559742064.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1559742064.torrent",
+    "games": ["barbie-explorer", "first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1559742064.ass"
   }
 }

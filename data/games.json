@@ -3730,8 +3730,17 @@
         { "name": "Penitence", "start": 19318 }
       ] },
       { "segment": "1558782985", "subrefs": [
-        { "name": "Iron Lung", "start": 1713 },
         { "name": "From The Darkness", "start": 5239 }
+      ] }
+    ]
+  },
+  {
+    "name": "Iron Lung",
+    "category": "finished",
+    "id": "iron-lung",
+    "streams": [
+      { "segment": "1558782985", "subrefs": [
+        { "name": "2", "start": 1713 }
       ] }
     ]
   },
@@ -5856,11 +5865,28 @@
       ] },
       { "segment": "1522102243", "subrefs": [
         { "name": "Xena: Warrior Princess", "start": 1915 },
-        { "name": "Spider-Man 2: Enter Electro", "start": 10223 },
-        { "name": "Barbie: Explorer", "start": 18715 }
+        { "name": "Spider-Man 2: Enter Electro", "start": 10223 }
       ] },
       { "segment": "1557831331", "subrefs": [
         { "name": "SCP: Fractured Minds (демо)", "start": 2640 }
+      ] },
+      { "segment": "1559742064", "subrefs": [
+        { "name": "Twisted Metal: Small Brawl", "start": 6655 },
+        { "name": "Hercules", "start": 11357 },
+        { "name": "Chessmaster II", "start": 15950 }
+      ] }
+    ]
+  },
+  {
+    "name": "Barbie: Explorer",
+    "category": "ongoing",
+    "id": "barbie-explorer",
+    "streams": [
+      { "segment": "1522102243", "subrefs": [
+        { "name": "1", "start": 18715 }
+      ] },
+      { "segment": "1559742064", "subrefs": [
+        { "name": "2", "start": 2074 }
       ] }
     ]
   },
