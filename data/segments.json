@@ -583,10 +583,9 @@
     "games": ["fallout-2"]
   },
   "001610070": {
-    "abs_start": 0, "abs_end": 0, "duration": 0,
+    "youtube": "1UP4FwTOt_I", "official": false, "abs_start": 0, "abs_end": 21384, "duration": 21384,
     "name": "Mafia III #1",
     "date": "2016-10-07",
-    "direct": "https://bsufiles.thedrhax.pw/streams/001610070.mp4",
     "games": ["mafia-3"],
     "note": "Запись предоставил Олег Степанов (<a href=\"https://vk.com/video87862793_456239639\">1</a>, <a href=\"https://vk.com/video87862793_456239640\">2</a>)."
   },
@@ -5382,6 +5381,7 @@
     "abs_start": 0, "abs_end": 15561, "duration": 0,
     "name": "",
     "date": "2019-10-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/495362547.mp4",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v495362547.ass"
   },
@@ -5389,16 +5389,17 @@
     "abs_start": 0, "abs_end": 3742, "duration": 0,
     "name": "",
     "date": "2019-10-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/495449259.mp4",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v495449259.ass"
   },
   "495362547,495449259": {
-    "youtube": "Ht7nHaxd3j4", "abs_start": 0, "abs_end": 17088, "duration": 17088,
+    "abs_start": 0, "abs_end": 19303, "duration": 0,
     "name": "Chernobylite - Альфа",
     "date": "2019-10-16",
-    "offsets": [-1839, 13698],
+    "direct": "https://bsufiles.thedrhax.pw/streams/495362547,495449259.mp4",
     "games": ["chernobylite"],
-    "subtitles": "https://bsu.drhx.ru/chats/generated/v495362547,495449259+0.ass"
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v495362547,495449259.ass"
   },
   "495816363": {
     "youtube": "4XYQNkwZxu8", "abs_start": 0, "abs_end": 18473, "duration": 18473,
@@ -10789,7 +10790,6 @@
     "youtube": "fxxwHxKhyhQ", "abs_start": 0, "abs_end": 21960, "duration": 21960,
     "name": "My Demon Wife (демо) / Loveland (демо) / Eternal Evil / Andy's Apple Farm (демо) / Despair: Blood Curse (демо) / Oxide: Room 104 - Демо",
     "date": "2022-06-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1508120809.torrent",
     "games": ["first-2022", "oxide-104"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1508120809.ass"
   },

@@ -6673,7 +6673,7 @@
     "category": "ongoing",
     "id": "chernobylite",
     "streams": [
-      { "segment": "495362547,495449259", "force_start": true, "subrefs": [
+      { "segment": "495362547,495449259", "subrefs": [
         { "name": "Альфа" }
       ] },
       { "segment": "1087387683,1087417437", "subrefs": [
