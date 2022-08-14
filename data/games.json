@@ -10772,21 +10772,37 @@
     ]
   },
   {
+    "name": "MADiSON",
+    "category": "finished",
+    "id": "madison",
+    "streams": [
+      { "segment": "1525875843", "subrefs": [
+        { "name": "1", "start": 3594 }
+      ] },
+      { "segment": "1527725425", "subrefs": [
+        { "name": "2", "start": 864 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nancy Drew: Danger by Design (Нэнси Дрю. Платье для первой леди)",
+    "category": "finished",
+    "id": "nancy-drew-dbd",
+    "streams": [
+      { "segment": "1526818509", "subrefs": [
+        { "name": "1", "start": 710 }
+      ] },
+      { "segment": "1527725425", "subrefs": [
+        { "name": "2", "start": 6603 }
+      ] }
+    ]
+  },
+  {
     "name": "Не размечено",
     "category": "other",
     "type": "list",
     "id": "todo",
     "streams": [
-      { "segment": "1525875843", "subrefs": [
-        { "name": "Madison #1", "start": 3564 }
-      ] },
-      { "segment": "1526818509", "subrefs": [
-        { "name": "Nancy Drew: Danger by Design (Нэнси Дрю. Платье для первой леди) #1", "start": 1108 }
-      ] },
-      { "segment": "1527725425", "subrefs": [
-        { "name": "Madison #2", "start": 897 },
-        { "name": "Nancy Drew: Danger by Design (Нэнси Дрю. Платье для первой леди) #2", "start": 6561 }
-      ] },
       { "segment": "1528664321", "subrefs": [
         { "name": "Fighting Force", "start": 2043 },
         { "name": "Broken Sword: Shadow of the Templars - The Director's Cut", "start": 10776 }
