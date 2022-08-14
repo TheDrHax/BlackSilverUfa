@@ -10649,9 +10649,9 @@
   },
   "1458654778": {
     "youtube": "LFZTRMdro6w", "abs_start": 0, "abs_end": 17307, "duration": 17307,
-    "name": "The Backrooms: Survival / P.Ackman (демо) / Booper Bowling / SCP: Nukalypse / The Nightmare Inside / Father: The Truth / Office Elevator / Zemblanity",
+    "name": "The Backrooms: Survival / P.Ackman (демо) / Booper Bowling / SCP: Nukalypse #1 / The Nightmare Inside / Father: The Truth / Office Elevator / Zemblanity / SCP: Nukalypse #2",
     "date": "2022-04-17",
-    "games": ["first-2022", "single"],
+    "games": ["first-2022", "single", "scp-nukalypse", "scp-nukalypse"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1458654778.ass"
   },
   "1465565528": {
@@ -11110,5 +11110,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1560730593.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1560730593.ass"
+  },
+  "1561677559": {
+    "abs_start": 0, "abs_end": 17332, "duration": 0,
+    "name": "The Nameless (демо) / ROMUT / Another Princess is in Our Castle (демо) / Dinner With Strangers (демо) / Dread X Collection: The Hunt / Home / Luggage / Soles' Quay / The Polaroid Killer / There is a Man in the Attic / The Hole in the Car",
+    "date": "2022-08-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1561677559.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1561677559.torrent",
+    "games": ["single", "first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1561677559.ass"
   }
 }

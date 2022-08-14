@@ -3734,6 +3734,16 @@
       ] },
       { "segment": "1536251230,1536294843", "subrefs": [
         { "name": "Stray", "start": 414 }
+      ] },
+      { "segment": "1561677559", "subrefs": [
+        { "name": "The Nameless (демо)", "start": 1820 },
+        { "name": "ROMUT", "start": 3162 },
+        { "name": "Another Princess is in Our Castle (демо)", "start": 3968 },
+        { "name": "Home", "start": 11481 },
+        { "name": "Luggage", "start": 13855 },
+        { "name": "Soles' Quay", "start": 14630 },
+        { "name": "There is a Man in the Attic", "start": 15919 },
+        { "name": "The Hole in the Car", "start": 16522 }
       ] }
     ]
   },
@@ -5802,8 +5812,7 @@
         { "name": "Calling", "start": 9607 }
       ] },
       { "segment": "1458654778", "subrefs": [
-        { "name": "The Backrooms: Survival" },
-        { "name": "SCP: Nukalypse", "start": 6079 }
+        { "name": "The Backrooms: Survival", "start": 1386 }
       ] },
       { "segment": "1465565528", "subrefs": [
         { "name": "Forgive Me Father" },
@@ -5880,6 +5889,24 @@
       ] },
       { "segment": "1560730593", "subrefs": [
         { "name": "The Hobbit", "start": 3144 }
+      ] },
+      { "segment": "1561677559", "subrefs": [
+        { "name": "Dinner With Strangers (демо)", "start": 5354 },
+        { "name": "Dread X Collection: The Hunt", "start": 6336 },
+        { "name": "The Polaroid Killer", "start": 15550 }
+      ] }
+    ]
+  },
+  {
+    "name": "SCP: Nukalypse",
+    "category": "infinite",
+    "id": "scp-nukalypse",
+    "streams": [
+      { "segment": "1458654778", "subrefs": [
+        { "name": "1", "start": 6079 }
+      ] },
+      { "segment": "1458654778", "subrefs": [
+        { "name": "2", "start": 13032 }
       ] }
     ]
   },
