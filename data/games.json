@@ -672,9 +672,6 @@
       { "segment": "1212756532", "subrefs": [
         { "name": "Farming Simulator 22", "start": 14277 }
       ] },
-      { "segment": "1223700316", "subrefs": [
-        { "name": "Forewarned (с Куплиновым и Дангаром)", "start": 11850 }
-      ] },
       { "segment": "1230440174", "subrefs": [
         { "name": "Heavenly Bodies", "start": 14774 }
       ] },
@@ -683,6 +680,19 @@
       ] },
       { "segment": "1269805961", "subrefs": [
         { "name": "Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "start": 17827 }
+      ] }
+    ]
+  },
+  {
+    "name": "Forewarned (с Куплиновым и Дангаром)",
+    "category": "co-op",
+    "id": "forewarned",
+    "streams": [
+      { "segment": "1223700316", "subrefs": [
+        { "name": "1", "start": 11850 }
+      ] },
+      { "segment": "1534414628", "subrefs": [
+        { "name": "2 (прервано)", "start": 6990 }
       ] }
     ]
   },
@@ -1195,6 +1205,9 @@
       ] },
       { "segment": "1222726196", "subrefs": [
         { "name": "14 (с чатом)" }
+      ] },
+      { "segment": "1530567140", "subrefs": [
+        { "name": "15 (с чатом)", "start": 2753 }
       ] }
     ]
   },
@@ -5879,6 +5892,16 @@
         { "name": "Xena: Warrior Princess", "start": 1915 },
         { "name": "Spider-Man 2: Enter Electro", "start": 10223 }
       ] },
+      { "segment": "1528664321", "subrefs": [
+        { "name": "Fighting Force", "start": 2046 },
+        { "name": "Broken Sword: Shadow of the Templars", "start": 10809 }
+      ] },
+      { "segment": "1531483751", "subrefs": [
+        { "name": "Bayonetta", "start": 713 }
+      ] },
+      { "segment": "1534414628", "subrefs": [
+        { "name": "Russian Subway Dogs", "start": 4691 }
+      ] },
       { "segment": "1557831331", "subrefs": [
         { "name": "SCP: Fractured Minds (демо)", "start": 2640 }
       ] },
@@ -6666,6 +6689,9 @@
       ] },
       { "segment": "1262176650", "subrefs": [
         { "name": "Часть 4 #2", "start": 22522 }
+      ] },
+      { "segment": "1530567140", "subrefs": [
+        { "name": "Часть 5 #1", "start": 12610 }
       ] },
       { "segment": "1558782985", "subrefs": [
         { "name": "Часть 5 #2", "start": 10299 }
@@ -10803,25 +10829,10 @@
     "type": "list",
     "id": "todo",
     "streams": [
-      { "segment": "1528664321", "subrefs": [
-        { "name": "Fighting Force", "start": 2043 },
-        { "name": "Broken Sword: Shadow of the Templars - The Director's Cut", "start": 10776 }
-      ] },
-      { "segment": "1530567140", "subrefs": [
-        { "name": "Fall Guys #1", "start": 2918 },
-        { "name": "I'm on Observation Duty 5", "start": 12726 }
-      ] },
-      { "segment": "1531483751", "subrefs": [
-        { "name": "Bayonetta" }
-      ] },
       { "segment": "1533471620", "subrefs": [
         { "name": "DEVOUR", "start": 744 },
         { "name": "Occult", "start": 10557 },
         { "name": "Tricky Towers", "start": 16050 }
-      ] },
-      { "segment": "1534414628", "subrefs": [
-        { "name": "Russian Subway Dogs", "start": 4672 },
-        { "name": "Forewarned (прервано)", "start": 6359 }
       ] },
       { "segment": "1537269313", "subrefs": [
         { "name": "As Dusk Falls" }
