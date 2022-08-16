@@ -5381,7 +5381,6 @@
     "abs_start": 0, "abs_end": 15561, "duration": 0,
     "name": "",
     "date": "2019-10-16",
-    "direct": "https://bsufiles.thedrhax.pw/streams/495362547.mp4",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v495362547.ass"
   },
@@ -5389,7 +5388,6 @@
     "abs_start": 0, "abs_end": 3742, "duration": 0,
     "name": "",
     "date": "2019-10-16",
-    "direct": "https://bsufiles.thedrhax.pw/streams/495449259.mp4",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v495449259.ass"
   },
@@ -7851,10 +7849,10 @@
   },
   "869571796": {
     "youtube": "U_4ZSolIjuE", "abs_start": 0, "abs_end": 24291, "duration": 24278,
-    "name": "Noch (демо) / Dom Rusalok",
+    "name": "Noch - Демо / Dom Rusalok",
     "date": "2021-01-11",
     "cuts": [[22307, 22320]],
-    "games": ["single"],
+    "games": ["noch", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v869571796+0.ass"
   },
   "870760177": {
@@ -9989,7 +9987,7 @@
   },
   "1227570391": {
     "youtube": "ojCvYaT6SI0", "abs_start": 0, "abs_end": 18029, "duration": 18029,
-    "name": "MONSTRUM 2 - Релиз / Happy's Humble Burger Farm #2",
+    "name": "MONSTRUM 2 #1 / Happy's Humble Burger Farm #2",
     "date": "2021-12-08",
     "games": ["monstrum-2", "hhbf"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1227570391.ass"
@@ -10804,7 +10802,6 @@
     "youtube": "BJZN4rKgQhs", "abs_start": 0, "abs_end": 21123, "duration": 21123,
     "name": "Oxide: Room 104 - Прохождение / Somnium / Maleficium (демо) / The Backrooms 1998 #2 / Twelve Floors Below.",
     "date": "2022-06-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1510865681.torrent",
     "games": ["oxide-104", "single", "first-2022", "backrooms-98"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1510865681.ass"
   },
@@ -11117,5 +11114,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1561677559.torrent",
     "games": ["single", "first-2022", "scp-nukalypse"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1561677559.ass"
+  },
+  "1563545448": {
+    "abs_start": 0, "abs_end": 21092, "duration": 0,
+    "name": "Self-Delusion / Noch - Релиз / Escape the Backrooms / MONSTRUM 2 #2",
+    "date": "2022-08-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1563545448.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1563545448.torrent",
+    "games": ["first-2022", "noch", "monstrum-2"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1563545448.ass"
   }
 }
