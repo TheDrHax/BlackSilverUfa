@@ -10809,7 +10809,6 @@
     "youtube": "yk3r9jPoho4", "abs_start": 0, "abs_end": 16875, "duration": 16875,
     "name": "Escape PS1 Hagrid / Nightmare of Decay - Прохождение / The Baby in Yellow #3",
     "date": "2022-06-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1511822666.torrent",
     "games": ["single", "nightmare-of-decay", "baby-in-yellow"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1511822666.ass"
   },
@@ -11125,5 +11124,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1563545448.torrent",
     "games": ["first-2022", "noch", "monstrum-2"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1563545448.ass"
+  },
+  "1564505950": {
+    "abs_start": 0, "abs_end": 18522, "duration": 0,
+    "name": "Way of the Hunter",
+    "date": "2022-08-17",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1564505950.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1564505950.torrent",
+    "games": ["co-op"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1564505950.ass"
   }
 }
