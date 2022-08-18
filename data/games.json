@@ -659,9 +659,6 @@
       { "segment": "1155904215", "subrefs": [
         { "name": "Fortnite (с Дашей и Джеком)", "start": 18198 }
       ] },
-      { "segment": "1181935075", "subrefs": [
-        { "name": "Occult", "start": 14838 }
-      ] },
       { "segment": "1191176581", "subrefs": [
         { "name": "Pico Park", "start": 8391 },
         { "name": "Fling to the Finish", "start": 15305 }
@@ -683,6 +680,19 @@
       ] },
       { "segment": "1564505950", "subrefs": [
         { "name": "Way of the Hunter", "start": 267 }
+      ] }
+    ]
+  },
+  {
+    "name": "Occult",
+    "category": "co-op",
+    "id": "occult",
+    "streams": [
+      { "segment": "1181935075", "subrefs": [
+        { "name": "1", "start": 14838 }
+      ] },
+      { "segment": "1533471620", "subrefs": [
+        { "name": "2", "start": 11022 }
       ] }
     ]
   },
@@ -955,6 +965,9 @@
       ] },
       { "segment": "1175536520", "subrefs": [
         { "name": "3", "start": 7411 }
+      ] },
+      { "segment": "1533471620", "subrefs": [
+        { "name": "4", "start": 532 }
       ] }
     ]
   },
@@ -2227,6 +2240,9 @@
       ] },
       { "segment": "1111966540", "subrefs": [
         { "name": "31", "start": 21145 }
+      ] },
+      { "segment": "1533471620", "subrefs": [
+        { "name": "32", "start": 16115 }
       ] }
     ]
   },
@@ -3744,6 +3760,11 @@
         { "name": "The Crypt Terror", "start": 18805 },
         { "name": "Penitence", "start": 19318 }
       ] },
+      { "segment": "1537269313", "subrefs": [
+        {
+          "name": "As Dusk Falls", "start": 721
+        }
+      ] },
       { "segment": "1558782985", "subrefs": [
         { "name": "From The Darkness", "start": 5239 }
       ] },
@@ -4401,26 +4422,36 @@
       { "segment": "438447673", "subrefs": [
         { "name": "RTX-стрим" }
       ] },
-      { "segment": "687309207", "subrefs": [
-        { "name": "Трейлеры и нарезки" }
-      ] },
       { "segment": "784351602", "subrefs": [
         { "name": "Клаустрофобия - The Dark Pictures: Little Hope", "start": 13760 }
       ] },
       { "segment": "793751031", "subrefs": [
         { "name": "Тест Xbox Series X" }
       ] },
-      { "segment": "895436223", "subrefs": [
-        { "name": "Трейлеры и арты" }
-      ] },
       { "segment": "1122010713", "subrefs": [
         { "name": "15 лет Republic of Gamers" }
       ] },
-      { "segment": "1182938896", "subrefs": [
-        { "name": "Трейлеры" }
-      ] },
       { "segment": "1248804713", "subrefs": [
         { "name": "Новый год 2022 (подарки, нарезки)" }
+      ] }
+    ]
+  },
+  {
+    "name": "Трейлеры",
+    "category": "other",
+    "id": "trailers",
+    "streams": [
+      { "segment": "687309207", "subrefs": [
+        { "name": "1" }
+      ] },
+      { "segment": "895436223", "subrefs": [
+        { "name": "2" }
+      ] },
+      { "segment": "1182938896", "subrefs": [
+        { "name": "3" }
+      ] },
+      { "segment": "1541455295", "subrefs": [
+        { "name": "4", "start": 2576 }
       ] }
     ]
   },
@@ -10851,17 +10882,6 @@
     "type": "list",
     "id": "todo",
     "streams": [
-      { "segment": "1533471620", "subrefs": [
-        { "name": "DEVOUR", "start": 744 },
-        { "name": "Occult", "start": 10557 },
-        { "name": "Tricky Towers", "start": 16050 }
-      ] },
-      { "segment": "1537269313", "subrefs": [
-        { "name": "As Dusk Falls" }
-      ] },
-      { "segment": "1541455295", "subrefs": [
-        { "name": "Трейлеры #1", "start": 2576 }
-      ] },
       { "segment": "1542254440", "subrefs": [
         { "name": "Granny: Chapter Two", "start": 2052 },
         { "name": "Peepo Island #1", "start": 5359 },
