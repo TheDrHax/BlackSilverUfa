@@ -1224,6 +1224,9 @@
       ] },
       { "segment": "1530567140", "subrefs": [
         { "name": "15 (с чатом)", "start": 2753 }
+      ] },
+      { "segment": "1542254440", "subrefs": [
+        { "name": "16 (с чатом)", "start": 13422 }
       ] }
     ]
   },
@@ -5238,14 +5241,26 @@
     ]
   },
   {
+    "name": "Granny: Chapter Two",
+    "category": "ongoing",
+    "id": "granny-2",
+    "streams": [
+      { "segment": "530784764", "subrefs": [
+        { "name": "1", "start": 14531 }
+      ] },
+      { "segment": "1542254440", "subrefs": [
+        { "name": "2", "start": 2082 }
+      ] }
+    ]
+  },
+  {
     "name": "Первый взгляд 2020",
     "category": "first",
     "type": "list",
     "id": "first-2020",
     "streams": [
       { "segment": "530784764", "subrefs": [
-        { "name": "Zombie Claus", "start": 14391 },
-        { "name": "Granny: Chapter Two", "start": 14531 }
+        { "name": "Zombie Claus", "start": 14391 }
       ] },
       { "segment": "543591605", "subrefs": [
         { "name": "Warcraft III: Reforged" }
@@ -5938,6 +5953,11 @@
       { "segment": "1534414628", "subrefs": [
         { "name": "Russian Subway Dogs", "start": 4691 }
       ] },
+      { "segment": "1543244527", "subrefs": [
+        { "name": "Road Rash", "start": 1853 },
+        { "name": "Contra: Hard Corps", "start": 8263 },
+        { "name": "Road Rash (продолжение)", "start": 14653, "hidden": true }
+      ] },
       { "segment": "1557831331", "subrefs": [
         { "name": "SCP: Fractured Minds (демо)", "start": 2640 }
       ] },
@@ -6004,6 +6024,9 @@
     "category": "ongoing",
     "id": "peepo-island",
     "streams": [
+      { "segment": "1542254440", "subrefs": [
+        { "name": "1", "start": 5323 }
+      ] },
       { "segment": "1557831331", "subrefs": [
         { "name": "6", "start": 7149 }
       ] }
@@ -10882,16 +10905,6 @@
     "type": "list",
     "id": "todo",
     "streams": [
-      { "segment": "1542254440", "subrefs": [
-        { "name": "Granny: Chapter Two", "start": 2052 },
-        { "name": "Peepo Island #1", "start": 5359 },
-        { "name": "Fall Guys #2", "start": 13358 }
-      ] },
-      { "segment": "1543244527", "subrefs": [
-        { "name": "Road Rash" },
-        { "name": "Contra: Hard Corps", "start": 8115 },
-        { "name": "Road Rash (продолжение)", "start": 14513, "hidden": true }
-      ] },
       { "segment": "1544246712", "subrefs": [
         { "name": "DarKnot", "start": 1557 },
         { "name": "Aeterna Noctis", "start": 6396 },
