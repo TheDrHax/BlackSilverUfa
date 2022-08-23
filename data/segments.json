@@ -9330,10 +9330,10 @@
   },
   "1128973572,1129122818": {
     "youtube": "8vK2pgmHz7Q", "abs_start": 0, "abs_end": 25937, "duration": 25937,
-    "name": "Bum Simulator / King's Bounty 2 / Gamescom 2021 - Opening Night Live",
+    "name": "Bum Simulator / King's Bounty 2 / Gamescom 2021 - Opening Night Live / Gamescom #2021",
     "date": "2021-08-25",
     "offsets": [0, 13206],
-    "games": ["first-2021", "gamescom-21"],
+    "games": ["first-2021", "gamescom-21", "gamescom"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1128973572,1129122818+0.ass"
   },
   "1129996087": {
@@ -10813,7 +10813,6 @@
     "youtube": "2B9sgkG7CXM", "abs_start": 0, "abs_end": 23870, "duration": 23870,
     "name": "Deliver Us The Moon",
     "date": "2022-06-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1515525236.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1515525236.ass"
   },
@@ -11130,5 +11129,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1564505950.torrent",
     "games": ["co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1564505950.ass"
+  },
+  "1570142913": {
+    "abs_start": 0, "abs_end": 36620, "duration": 0,
+    "name": "Saints Row (2022) / Gamescom #2022",
+    "date": "2022-08-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1570142913.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1570142913.torrent",
+    "games": ["first-2022", "gamescom"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1570142913.ass"
   }
 }
