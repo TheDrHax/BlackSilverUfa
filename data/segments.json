@@ -10820,7 +10820,6 @@
     "youtube": "j8W4FWqogrY", "abs_start": 0, "abs_end": 23621, "duration": 23621,
     "name": "V Rising #2 (с Дашей и Джеком)",
     "date": "2022-06-28",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1516411053.torrent",
     "games": ["v-rising"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1516411053.ass"
   },
@@ -11135,5 +11134,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1570142913.torrent",
     "games": ["first-2022", "gamescom"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1570142913.ass"
+  },
+  "1572044648": {
+    "abs_start": 0, "abs_end": 22356, "duration": 0,
+    "name": "EXP: War Trauma / Outbreak Island: Pendulum / Soulstice (демо) / Mirror Forge (демо) / Super Catboy",
+    "date": "2022-08-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1572044648.mp4",
+    "cuts": [[17799, 17829]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1572044648.torrent",
+    "games": ["single", "first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1572044648+0.ass"
   }
 }
