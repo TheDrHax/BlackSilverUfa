@@ -11143,5 +11143,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1572044648.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1572044648+0.ass"
+  },
+  "1573052503": {
+    "abs_start": 0, "abs_end": 22603, "duration": 0,
+    "name": "Pepsiman / Ballerburg / Dune 2000 / Driver",
+    "date": "2022-08-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1573052503.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1573052503.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1573052503.ass"
   }
 }
