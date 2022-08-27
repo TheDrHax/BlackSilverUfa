@@ -5975,9 +5975,6 @@
         { "name": "Hercules", "start": 11357 },
         { "name": "Chessmaster II", "start": 15950 }
       ] },
-      { "segment": "1560730593", "subrefs": [
-        { "name": "The Hobbit", "start": 3144 }
-      ] },
       { "segment": "1561677559", "subrefs": [
         { "name": "Dinner With Strangers (демо)", "start": 5354 },
         { "name": "Dread X Collection: The Hunt", "start": 6336 },
@@ -6001,6 +5998,19 @@
         { "name": "Ballerburg", "start": 8482 },
         { "name": "Dune 2000", "start": 13034 },
         { "name": "Driver", "start": 18382 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Hobbit",
+    "category": "ongoing",
+    "id": "hobbit",
+    "streams": [
+      { "segment": "1560730593", "subrefs": [
+        { "name": "1", "start": 3144 }
+      ] },
+      { "segment": "1573991268", "subrefs": [
+        { "name": "2", "start": 1775 }
       ] }
     ]
   },

@@ -10827,7 +10827,6 @@
     "youtube": "5F9gpWQyUhY", "abs_start": 0, "abs_end": 18144, "duration": 18144,
     "name": "Fobia - St. Dinfna Hotel #1",
     "date": "2022-06-29",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1517449364.torrent",
     "games": ["fobia"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1517449364.ass"
   },
@@ -10835,7 +10834,6 @@
     "youtube": "ipSw7ljKYTg", "abs_start": 0, "abs_end": 24368, "duration": 24368,
     "name": "Cuphead #1",
     "date": "2022-07-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1520246163.torrent",
     "games": ["cuphead"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1520246163.ass"
   },
@@ -11097,10 +11095,10 @@
   },
   "1560730593": {
     "youtube": "uoOQYh1KIds", "abs_start": 0, "abs_end": 21591, "duration": 21591,
-    "name": "The Hobbit",
+    "name": "The Hobbit #1",
     "date": "2022-08-13",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1560730593.torrent",
-    "games": ["first-2022"],
+    "games": ["hobbit"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1560730593.ass"
   },
   "1561677559": {
@@ -11151,5 +11149,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1573052503.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1573052503.ass"
+  },
+  "1573991268": {
+    "abs_start": 0, "abs_end": 22916, "duration": 0,
+    "name": "The Hobbit #2",
+    "date": "2022-08-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1573991268.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1573991268.torrent",
+    "games": ["hobbit"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1573991268.ass"
   }
 }
