@@ -5741,7 +5741,6 @@
         { "name": "Horror Story: Hallowseed", "start": 11166 }
       ] },
       { "segment": "1193856809", "subrefs": [
-        { "name": "The Mortuary Assistant (демо)", "start": 2406 },
         { "name": "Devil Inside Us: Root of Evil (демо)", "start": 6724 },
         { "name": "The Radio Station", "start": 8292 }
       ] },
@@ -5974,6 +5973,9 @@
         { "name": "Contra: Hard Corps", "start": 8263 },
         { "name": "Road Rash (продолжение)", "start": 14653, "hidden": true }
       ] },
+      { "segment": "1551976425", "subrefs": [
+        { "name": "Outbreak: Shades of Horror (тизер)", "start": 21288 }
+      ] },
       { "segment": "1557831331", "subrefs": [
         { "name": "SCP: Fractured Minds (демо)", "start": 2640 }
       ] },
@@ -6072,6 +6074,9 @@
     "streams": [
       { "segment": "1542254440", "subrefs": [
         { "name": "1", "start": 5323 }
+      ] },
+      { "segment": "1551976425", "subrefs": [
+        { "name": "5", "start": 955 }
       ] },
       { "segment": "1557831331", "subrefs": [
         { "name": "6", "start": 7149 }
@@ -10946,6 +10951,22 @@
     ]
   },
   {
+    "name": "The Mortuary Assistant",
+    "category": "finished",
+    "id": "mortuary-assistant",
+    "streams": [
+      { "segment": "1193856809", "subrefs": [
+        { "name": "Демо", "start": 2406 }
+      ] },
+      { "segment": "1550107736", "subrefs": [
+        { "name": "1", "start": 1019 }
+      ] },
+      { "segment": "1551976425", "subrefs": [
+        { "name": "2", "start": 3102 }
+      ] }
+    ]
+  },
+  {
     "name": "Не размечено",
     "category": "other",
     "type": "list",
@@ -10984,15 +11005,6 @@
         { "name": "Hausmeister", "start": 15659 },
         { "name": "One Last Breath", "start": 16484 },
         { "name": "Iron Lung", "start": 18161 }
-      ] },
-      { "segment": "1550107736", "subrefs": [
-        { "name": "The Mortuary Assistant #1", "start": 1022 }
-      ] },
-      { "segment": "1551976425", "subrefs": [
-        { "name": "Peepo Island #5", "start": 902 },
-        { "name": "The Mortuary Assistant #2", "start": 3074 },
-        { "name": "Трейлеры #2", "start": 20721 },
-        { "name": "Outbreak: Shades of Horror", "start": 21267 }
       ] },
       { "segment": "1552996641", "subrefs": [
         { "name": "Mortal Kombat", "start": 2740 },
