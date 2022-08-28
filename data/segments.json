@@ -10841,7 +10841,6 @@
     "youtube": "JTPJOFqxuVc", "abs_start": 0, "abs_end": 21375, "duration": 21375,
     "name": "Sail-by Salute / The Floor is Breathing / Toilet Chronicles (демо) / Last Bus Home / Cold House / Loathful / The Other Side / Perfect Vermin / Lost Life: Origins / The Crypt Terror / Penitence",
     "date": "2022-07-03",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1521217271.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1521217271.ass"
   },
@@ -10849,7 +10848,6 @@
     "youtube": "S-O7UGkVtKI", "abs_start": 0, "abs_end": 22705, "duration": 22705,
     "name": "Xena: Warrior Princess / Spider-Man 2: Enter Electro / Barbie: Explorer #1",
     "date": "2022-07-04",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1522102243.torrent",
     "games": ["first-2022", "barbie-explorer"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1522102243.ass"
   },
@@ -11157,5 +11155,33 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1573991268.torrent",
     "games": ["hobbit"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1573991268.ass"
+  },
+  "1575034539": {
+    "abs_start": 0, "abs_end": 10623, "duration": 0,
+    "name": "",
+    "date": "2022-08-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1575034539.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1575034539.torrent",
+    "games": [],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1575034539.ass"
+  },
+  "1575155040": {
+    "abs_start": 0, "abs_end": 11197, "duration": 0,
+    "name": "",
+    "date": "2022-08-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1575155040.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1575155040.torrent",
+    "games": [],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1575155040.ass"
+  },
+  "1575034539,1575155040": {
+    "abs_start": 0, "abs_end": 21820, "duration": 0,
+    "name": "Vilomah (демо) / Sinner 97 / Dead Beacon (демо) / The Door You Can Never Open (демо) / Solitude Underwater / Unreasoning Fear / Traumada / Starless",
+    "date": "2022-08-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1575034539,1575155040.mp4",
+    "offsets": [0, 10523],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1575034539,1575155040.torrent",
+    "games": ["single", "first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1575034539,1575155040+0.ass"
   }
 }
