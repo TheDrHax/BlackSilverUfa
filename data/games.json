@@ -7668,8 +7668,8 @@
       { "segment": "721969297", "subrefs": [
         { "name": "Демо", "start": 7328 }
       ] },
-      { "segment": "750578050.1", "subrefs": [
-        { "name": "1" }
+      { "segment": "750578050", "subrefs": [
+        { "name": "1", "start": 7233 }
       ] },
       { "segment": "751534901", "subrefs": [
         { "name": "2" }
@@ -8979,7 +8979,7 @@
         { "name": "1 (заново)", "start": 345 }
       ] },
       { "segment": "750578050", "subrefs": [
-        { "name": "2" }
+        { "name": "2", "start": 722 }
       ] }
     ]
   },
