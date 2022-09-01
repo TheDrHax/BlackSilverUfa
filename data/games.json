@@ -3800,6 +3800,9 @@
         { "name": "Open Door (демо)", "start": 8263 },
         { "name": "Solitude Underwater", "start": 9408 },
         { "name": "Traumada", "start": 12338 }
+      ] },
+      { "segment": "1578740848", "subrefs": [
+        { "name": "Security Booth: Director's Cut", "start": 2343 }
       ] }
     ]
   },
@@ -6013,6 +6016,9 @@
         { "name": "Sinner 97", "start": 2506 },
         { "name": "Unreasoning Fear", "start": 10494 },
         { "name": "Starless", "start": 18568 }
+      ] },
+      { "segment": "1578740848", "subrefs": [
+        { "name": "The Bridge Curse: Road To Salvation", "start": 13218 }
       ] }
     ]
   },
