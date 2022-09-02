@@ -10848,7 +10848,6 @@
     "youtube": "CxNBfQVRC-s", "abs_start": 0, "abs_end": 23039, "duration": 23039,
     "name": "Cuphead #2 / Cuphead - The Delicious Last Course #1",
     "date": "2022-07-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1522945141.torrent",
     "games": ["cuphead"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1522945141.ass"
   },
@@ -11185,5 +11184,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1578740848.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1578740848.ass"
+  },
+  "1579576285": {
+    "abs_start": 0, "abs_end": 31245, "duration": 0,
+    "name": "The Last of Us: Part I",
+    "date": "2022-09-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1579576285.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1579576285.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1579576285.ass"
   }
 }
