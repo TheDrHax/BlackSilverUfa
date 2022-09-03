@@ -798,9 +798,10 @@
     "games": ["nioh"]
   },
   "001702100": {
-    "youtube": "ZOa22-DzyUw", "official": false, "abs_start": 0, "abs_end": 19310, "duration": 19310,
+    "abs_start": 0, "abs_end": 0, "duration": 0,
     "name": "Nioh #3",
     "date": "2017-02-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/001702100.mp4",
     "games": ["nioh"]
   },
   "001702230": {
@@ -1462,9 +1463,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2017/v202381358.ass"
   },
   "202631693": {
-    "youtube": "BL6BrZRmRts", "abs_start": 0, "abs_end": 21496, "duration": 21496,
+    "abs_start": 0, "abs_end": 21558, "duration": 0,
     "name": "Human: Fall Flat #1 / Deceit #3",
     "date": "2017-11-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/202631693.mp4",
     "games": ["human-fall-flat", "deceit"],
     "subtitles": "https://bsu.drhx.ru/chats/2017/v202631693.ass"
   },
@@ -10856,7 +10858,6 @@
     "name": "MADiSON #1",
     "date": "2022-07-08",
     "cuts": [[7581, 7611]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1525875843.torrent",
     "games": ["madison"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1525875843+0.ass"
   },
@@ -10864,7 +10865,6 @@
     "youtube": "vUxez-VSLFs", "abs_start": 0, "abs_end": 21990, "duration": 21990,
     "name": "Nancy Drew: Danger by Design (Нэнси Дрю. Платье для первой леди) #1",
     "date": "2022-07-09",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1526818509.torrent",
     "games": ["nancy-drew-dbd"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1526818509.ass"
   },
@@ -11187,10 +11187,20 @@
   },
   "1579576285": {
     "youtube": "Iak_0yOzItE", "abs_start": 0, "abs_end": 31227, "duration": 31227,
-    "name": "The Last of Us: Part I",
+    "name": "The Last of Us: Part I #1",
     "date": "2022-09-02",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1579576285.torrent",
-    "games": ["first-2022"],
+    "games": ["tlou"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1579576285.ass"
+  },
+  "1580576439": {
+    "abs_start": 0, "abs_end": 29751, "duration": 0,
+    "name": "The Last of Us: Part I #2",
+    "date": "2022-09-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1580576439.mp4",
+    "cuts": [[17744, 17776]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1580576439.torrent",
+    "games": ["tlou"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1580576439+0.ass"
   }
 }
