@@ -6024,7 +6024,7 @@
   },
   {
     "name": "The Last of Us: Part I",
-    "category": "ongoing",
+    "category": "finished",
     "id": "tlou",
     "streams": [
       { "segment": "1579576285", "subrefs": [
@@ -6032,6 +6032,10 @@
       ] },
       { "segment": "1580576439", "subrefs": [
         { "name": "2", "start": 502 }
+      ] },
+      { "segment": "1581571795", "subrefs": [
+        { "name": "3", "start": 736 },
+        { "name": "DLC: Left Behind", "start": 8441 }
       ] }
     ]
   },
