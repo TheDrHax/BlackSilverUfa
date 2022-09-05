@@ -6734,10 +6734,10 @@
   },
   "654380816,655265437,655528246,656257835": {
     "youtube": "ZBHv3E0ZDHo", "abs_start": 0, "abs_end": 101069, "duration": 101069,
-    "name": "The Last of Us: Part II",
+    "name": "The Last of Us: Part II - Прохождение",
     "date": "2020-06-18",
     "offsets": [0, 27133, 51200, 62012],
-    "games": ["single"],
+    "games": ["tlou2"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v654380816,655265437,655528246,656257835+0.ass"
   },
   "658127870": {
@@ -10880,7 +10880,6 @@
     "name": "Fighting Force / Broken Sword: Shadow of the Templars",
     "date": "2022-07-11",
     "cuts": [[9484, 9515]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1528664321.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1528664321+0.ass"
   },
@@ -10888,7 +10887,6 @@
     "youtube": "lqKxJqcx7uI", "abs_start": 0, "abs_end": 19149, "duration": 19149,
     "name": "Cuphead - The Delicious Last Course #2",
     "date": "2022-07-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1529607663.torrent",
     "games": ["cuphead"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1529607663.ass"
   },
@@ -11208,5 +11206,13 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1581571795.torrent",
     "games": ["tlou"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1581571795.ass"
+  },
+  "39791375576": {
+    "abs_start": 0, "abs_end": 31068, "duration": 0,
+    "name": "The Last of Us: Part II #1 (заново)",
+    "date": "2022-09-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/39791375576.mp4",
+    "games": ["tlou2"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v39791375576.ass"
   }
 }

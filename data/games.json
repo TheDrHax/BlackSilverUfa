@@ -3495,9 +3495,6 @@
       { "segment": "649632498", "subrefs": [
         { "name": "Secret Agent Barbie" }
       ] },
-      { "segment": "654380816,655265437,655528246,656257835", "subrefs": [
-        { "name": "The Last of Us: Part II" }
-      ] },
       { "segment": "670671274", "subrefs": [
         { "name": "Winx Club" }
       ] },
@@ -6036,6 +6033,19 @@
       { "segment": "1581571795", "subrefs": [
         { "name": "3", "start": 736 },
         { "name": "DLC: Left Behind", "start": 8441 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Last of Us: Part II",
+    "category": "finished",
+    "id": "tlou2",
+    "streams": [
+      { "segment": "654380816,655265437,655528246,656257835", "subrefs": [
+        { "name": "Прохождение" }
+      ] },
+      { "segment": "39791375576", "subrefs": [
+        { "name": "1 (заново)", "start": 1175 }
       ] }
     ]
   },
