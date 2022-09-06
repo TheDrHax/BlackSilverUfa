@@ -5337,7 +5337,6 @@
         { "name": "The Disappearance of the Mitchels", "start": 18953 }
       ] },
       { "segment": "653411860", "subrefs": [
-        { "name": "Gloomwood", "start": 9238 },
         { "name": "Among Trees", "start": 14399 },
         { "name": "Hello Guest", "start": 18772 }
       ] },
@@ -5463,6 +5462,19 @@
       ] },
       { "segment": "853883043", "subrefs": [
         { "name": "Ebola 2", "start": 7958 }
+      ] }
+    ]
+  },
+  {
+    "name": "Gloomwood",
+    "category": "ongoing",
+    "id": "gloomwood",
+    "streams": [
+      { "segment": "653411860", "subrefs": [
+        { "name": "Демо", "start": 9238 }
+      ] },
+      { "segment": "1583467635", "subrefs": [
+        { "name": "1", "start": 1966 }
       ] }
     ]
   },

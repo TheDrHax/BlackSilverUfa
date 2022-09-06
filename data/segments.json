@@ -6699,9 +6699,9 @@
   },
   "653411860": {
     "youtube": "k13C51HA-RE", "abs_start": 0, "abs_end": 22299, "duration": 22299,
-    "name": "Haven - Демо / Hardspace: Shipbreaker #1 / Gloomwood / Among Trees / Hello Guest",
+    "name": "Haven - Демо / Hardspace: Shipbreaker #1 / Gloomwood - Демо / Among Trees / Hello Guest",
     "date": "2020-06-17",
-    "games": ["haven", "hardspace-shipbreaker", "first-2020"],
+    "games": ["haven", "hardspace-shipbreaker", "gloomwood", "first-2020"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v653411860.ass"
   },
   "654380816": {
@@ -10894,7 +10894,6 @@
     "youtube": "pL9CVRfeSEw", "abs_start": 0, "abs_end": 17884, "duration": 17884,
     "name": "Fall Guys #15 (с чатом) / I'm on Observation Duty - Часть 5 #1",
     "date": "2022-07-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1530567140.torrent",
     "games": ["fall-guys", "observation-duty"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1530567140.ass"
   },
@@ -10903,7 +10902,6 @@
     "name": "Bayonetta",
     "date": "2022-07-14",
     "cuts": [[14728, 14759]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1531483751.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1531483751+0.ass"
   },
@@ -11214,5 +11212,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1582452440.torrent",
     "games": ["tlou2"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1582452440.ass"
+  },
+  "1583467635": {
+    "abs_start": 0, "abs_end": 20417, "duration": 0,
+    "name": "Gloomwood #1",
+    "date": "2022-09-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1583467635.mp4",
+    "cuts": [[10349, 10379]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1583467635.torrent",
+    "games": ["gloomwood"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1583467635+0.ass"
   }
 }
