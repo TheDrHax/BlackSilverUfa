@@ -6086,7 +6086,7 @@
   },
   {
     "name": "The Hobbit",
-    "category": "ongoing",
+    "category": "finished",
     "id": "hobbit",
     "streams": [
       { "segment": "1560730593", "subrefs": [
@@ -6094,6 +6094,9 @@
       ] },
       { "segment": "1573991268", "subrefs": [
         { "name": "2", "start": 1775 }
+      ] },
+      { "segment": "1585224225", "subrefs": [
+        { "name": "3", "start": 1681 }
       ] }
     ]
   },
@@ -10422,6 +10425,31 @@
       ] },
       { "segment": "422486024", "subrefs": [
         { "name": "5" }
+      ] }
+    ]
+  },
+  {
+    "name": "Вечер Ретро Игр (ВРИ)",
+    "category": "infinite",
+    "id": "retro",
+    "streams": [
+      { "segment": "1522102243", "subrefs": [
+        { "name": "1" }
+      ] },
+      { "segment": "1528664321", "subrefs": [
+        { "name": "2" }
+      ] },
+      { "segment": "1543244527", "subrefs": [
+        { "name": "3" }
+      ] },
+      { "segment": "1552996641", "subrefs": [
+        { "name": "4" }
+      ] },
+      { "segment": "1559742064", "subrefs": [
+        { "name": "5" }
+      ] },
+      { "segment": "1573052503", "subrefs": [
+        { "name": "6" }
       ] }
     ]
   },

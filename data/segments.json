@@ -10841,9 +10841,9 @@
   },
   "1522102243": {
     "youtube": "S-O7UGkVtKI", "abs_start": 0, "abs_end": 22705, "duration": 22705,
-    "name": "Xena: Warrior Princess / Spider-Man 2: Enter Electro / Barbie: Explorer #1",
+    "name": "Вечер Ретро Игр (ВРИ) #1 / Xena: Warrior Princess / Spider-Man 2: Enter Electro / Barbie: Explorer #1",
     "date": "2022-07-04",
-    "games": ["first-2022", "barbie-explorer"],
+    "games": ["retro", "first-2022", "barbie-explorer"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1522102243.ass"
   },
   "1522945141": {
@@ -10877,10 +10877,10 @@
   },
   "1528664321": {
     "youtube": "_SQ7Fbk7-iQ", "abs_start": 0, "abs_end": 18293, "duration": 18262,
-    "name": "Fighting Force / Broken Sword: Shadow of the Templars",
+    "name": "Вечер Ретро Игр (ВРИ) #2 / Fighting Force / Broken Sword: Shadow of the Templars",
     "date": "2022-07-11",
     "cuts": [[9484, 9515]],
-    "games": ["first-2022"],
+    "games": ["retro", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1528664321+0.ass"
   },
   "1529607663": {
@@ -10974,10 +10974,10 @@
   },
   "1543244527": {
     "youtube": "NPLyiKWbSfQ", "abs_start": 0, "abs_end": 20425, "duration": 20425,
-    "name": "Road Rash / Contra: Hard Corps",
+    "name": "Вечер Ретро Игр (ВРИ) #3 / Road Rash / Contra: Hard Corps",
     "date": "2022-07-26",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1543244527.torrent",
-    "games": ["first-2022"],
+    "games": ["retro", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1543244527.ass"
   },
   "1544246712": {
@@ -11034,10 +11034,10 @@
   },
   "1552996641": {
     "youtube": "bG7CXJ7zDzQ", "abs_start": 0, "abs_end": 16150, "duration": 16150,
-    "name": "Mortal Kombat / Michael Jackson's Moonwalker / Goofy's Hysterical History Tour",
+    "name": "Вечер Ретро Игр (ВРИ) #4 / Mortal Kombat / Michael Jackson's Moonwalker / Goofy's Hysterical History Tour",
     "date": "2022-08-05",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1552996641.torrent",
-    "games": ["first-2022"],
+    "games": ["retro", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1552996641.ass"
   },
   "1554911752": {
@@ -11074,10 +11074,10 @@
   },
   "1559742064": {
     "youtube": "NqrXqyUqx9s", "abs_start": 0, "abs_end": 19390, "duration": 19390,
-    "name": "Barbie: Explorer #2 / Twisted Metal: Small Brawl / Hercules / Chessmaster II",
+    "name": "Вечер Ретро Игр (ВРИ) #5 / Barbie: Explorer #2 / Twisted Metal: Small Brawl / Hercules / Chessmaster II",
     "date": "2022-08-12",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1559742064.torrent",
-    "games": ["barbie-explorer", "first-2022"],
+    "games": ["retro", "barbie-explorer", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1559742064.ass"
   },
   "1560730593": {
@@ -11131,10 +11131,10 @@
   },
   "1573052503": {
     "youtube": "qFS4leOWwxM", "abs_start": 0, "abs_end": 22584, "duration": 22584,
-    "name": "Pepsiman / Ballerburg / Dune 2000 / Driver",
+    "name": "Вечер Ретро Игр (ВРИ) #6 / Pepsiman / Ballerburg / Dune 2000 / Driver",
     "date": "2022-08-26",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1573052503.torrent",
-    "games": ["first-2022"],
+    "games": ["retro", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1573052503.ass"
   },
   "1573991268": {
@@ -11221,5 +11221,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1583467635.torrent",
     "games": ["gloomwood"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1583467635+0.ass"
+  },
+  "1585224225": {
+    "abs_start": 0, "abs_end": 19400, "duration": 0,
+    "name": "The Hobbit #3",
+    "date": "2022-09-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1585224225.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1585224225.torrent",
+    "games": ["hobbit"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1585224225.ass"
   }
 }
