@@ -10909,7 +10909,6 @@
     "youtube": "vKGh9VR8rT0", "abs_start": 0, "abs_end": 17843, "duration": 17843,
     "name": "Devour #4 / Occult #2 / Tricky Towers #32",
     "date": "2022-07-16",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1533471620.torrent",
     "games": ["devour", "occult", "tricky-towers"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1533471620.ass"
   },
@@ -10917,7 +10916,6 @@
     "youtube": "NHEI9Ge0pF4", "abs_start": 0, "abs_end": 9874, "duration": 9874,
     "name": "Russian Subway Dogs / Forewarned (с Куплиновым и Дангаром) #2 (прервано)",
     "date": "2022-07-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1534414628.torrent",
     "games": ["first-2022", "forewarned"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1534414628.ass"
   },
@@ -11229,5 +11227,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1585224225.torrent",
     "games": ["hobbit"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1585224225.ass"
+  },
+  "1586147183": {
+    "abs_start": 0, "abs_end": 20730, "duration": 0,
+    "name": "Вечер Ретро Игр (ВРИ) #7 / NHL 2001 / Monster Bass / Revelations: Persona / Carmageddon II",
+    "date": "2022-09-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1586147183.mp4",
+    "cuts": [[10519, 10550]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1586147183.torrent",
+    "games": ["retro", "first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1586147183+0.ass"
   }
 }
