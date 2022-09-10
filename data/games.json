@@ -680,6 +680,9 @@
       ] },
       { "segment": "1564505950", "subrefs": [
         { "name": "Way of the Hunter", "start": 267 }
+      ] },
+      { "segment": "1587098639", "subrefs": [
+        { "name": "The Long Drive", "start": 4752 }
       ] }
     ]
   },
@@ -968,6 +971,9 @@
       ] },
       { "segment": "1533471620", "subrefs": [
         { "name": "4", "start": 532 }
+      ] },
+      { "segment": "1587098639", "subrefs": [
+        { "name": "5", "start": 12209 }
       ] }
     ]
   },
@@ -2249,6 +2255,9 @@
       ] },
       { "segment": "1533471620", "subrefs": [
         { "name": "32", "start": 16115 }
+      ] },
+      { "segment": "1587098639", "subrefs": [
+        { "name": "33", "start": 17434 }
       ] }
     ]
   },
