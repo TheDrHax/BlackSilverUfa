@@ -678,6 +678,9 @@
       { "segment": "1269805961", "subrefs": [
         { "name": "Tom Clancy's Rainbow Six Extraction (с WLG и TanyaLOA)", "start": 17827 }
       ] },
+      { "segment": "1555820842", "subrefs": [
+        { "name": "We Were Here Forever", "start": 9409 }
+      ] },
       { "segment": "1564505950", "subrefs": [
         { "name": "Way of the Hunter", "start": 267 }
       ] },
@@ -5905,7 +5908,6 @@
       ] },
       { "segment": "1306396434", "subrefs": [
         { "name": "Autopsy Simulator (демо)" },
-        { "name": "Scathe (демо)", "start": 6678 },
         { "name": "Total War: Warhammer III", "start": 14527 }
       ] },
       { "segment": "1307474557", "subrefs": [
@@ -6028,6 +6030,13 @@
         { "name": "Michael Jackson's Moonwalker", "start": 7487 },
         { "name": "Goofy's Hysterical History Tour", "start": 11998 }
       ] },
+      { "segment": "1547156682", "subrefs": [
+        { "name": "Survival: Fountain of Youth", "start": 5903 },
+        { "name": "Purple War", "start": 13895 }
+      ] },
+      { "segment": "1555820842", "subrefs": [
+        { "name": "Serious Duke 3D", "start": 589 }
+      ] },
       { "segment": "1557831331", "subrefs": [
         { "name": "SCP: Fractured Minds (демо)", "start": 2640 }
       ] },
@@ -6077,6 +6086,19 @@
       { "segment": "1588071501", "subrefs": [
         { "name": "The Complex: Found Footage", "start": 3233 },
         { "name": "Deadly Night", "start": 14278 }
+      ] }
+    ]
+  },
+  {
+    "name": "Scathe",
+    "category": "infinite",
+    "id": "scathe",
+    "streams": [
+      { "segment": "1306396434", "subrefs": [
+        { "name": "Демо", "start": 6678 }
+      ] },
+      { "segment": "1547156682", "subrefs": [
+        { "name": "Релиз", "start": 2339 }
       ] }
     ]
   },
@@ -6178,6 +6200,9 @@
       ] },
       { "segment": "1546161309", "subrefs": [
         { "name": "3", "start": 984 }
+      ] },
+      { "segment": "1547156682", "subrefs": [
+        { "name": "4", "start": 21163 }
       ] },
       { "segment": "1551976425", "subrefs": [
         { "name": "5", "start": 955 }
@@ -6592,6 +6617,16 @@
       ] },
       { "segment": "1174614634", "subrefs": [
         { "name": "2" }
+      ] }
+    ]
+  },
+  {
+    "name": "Ghost Watchers",
+    "category": "infinite",
+    "id": "ghost-watchers",
+    "streams": [
+      { "segment": "1547156682", "subrefs": [
+        { "name": "1", "start": 10919 }
       ] }
     ]
   },
@@ -11104,13 +11139,6 @@
     "type": "list",
     "id": "todo",
     "streams": [
-      { "segment": "1547156682", "subrefs": [
-        { "name": "Scathe", "start": 2329 },
-        { "name": "Survival: Fountain of Youth", "start": 5884 },
-        { "name": "Ghost Watchers #1", "start": 11128 },
-        { "name": "Purple War", "start": 13820 },
-        { "name": "Peepo Island #4", "start": 21345 }
-      ] },
       { "segment": "1548174786", "subrefs": [
         { "name": "The Pale", "start": 1400 },
         { "name": "Auver", "start": 4162 },
@@ -11136,10 +11164,6 @@
         { "name": "Signal", "start": 17821 },
         { "name": "The Island Mystery", "start": 19567 },
         { "name": "Endless days", "start": 20002 }
-      ] },
-      { "segment": "1555820842", "subrefs": [
-        { "name": "Serious Duke 3D", "start": 522 },
-        { "name": "We Were Here Forever", "start": 9231 }
       ] }
     ]
   }
