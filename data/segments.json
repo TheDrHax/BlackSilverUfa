@@ -10923,8 +10923,6 @@
     "abs_start": 0, "abs_end": 5365, "duration": 0,
     "name": "",
     "date": "2022-07-19",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1536251230.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1536251230.torrent",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1536251230.ass"
   },
@@ -11245,5 +11243,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1587098639.torrent",
     "games": ["co-op", "devour", "tricky-towers"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1587098639.ass"
+  },
+  "1588071501": {
+    "abs_start": 0, "abs_end": 18645, "duration": 0,
+    "name": "The Complex: Found Footage / Lempo (демо) / Mega / The Horrors Recrudesce (демо) / Bias (демо) / Deadly Night / Don't Look",
+    "date": "2022-09-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1588071501.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1588071501.torrent",
+    "games": ["first-2022", "single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1588071501.ass"
   }
 }

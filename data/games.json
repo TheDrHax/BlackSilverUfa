@@ -3812,6 +3812,13 @@
       ] },
       { "segment": "1578740848", "subrefs": [
         { "name": "Security Booth: Director's Cut", "start": 2343 }
+      ] },
+      { "segment": "1588071501", "subrefs": [
+        { "name": "Lempo (демо)", "start": 4812 },
+        { "name": "Mega", "start": 9087 },
+        { "name": "The Horrors Recrudesce (демо)", "start": 10806 },
+        { "name": "Bias (демо)", "start": 13396 },
+        { "name": "Don't Look", "start": 17377 }
       ] }
     ]
   },
@@ -6066,6 +6073,10 @@
         { "name": "Monster Bass", "start": 6565 },
         { "name": "Revelations: Persona", "start": 11444 },
         { "name": "Carmageddon II", "start": 16280 }
+      ] },
+      { "segment": "1588071501", "subrefs": [
+        { "name": "The Complex: Found Footage", "start": 3233 },
+        { "name": "Deadly Night", "start": 14278 }
       ] }
     ]
   },
