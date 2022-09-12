@@ -257,10 +257,6 @@ class Segment:
             end += sum(cut.duration for cut in self.cuts)
             return end
         elif self.segment == len(self.stream) - 1:
-            # Stream.abs_end is not available is stream is recovered
-            if self.stream.type is StreamType.NO_CHAT:
-                return self.abs_start
-
             return self.stream.abs_end
         else:
             return self.stream[self.segment + 1].abs_start
