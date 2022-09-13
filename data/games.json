@@ -3753,7 +3753,6 @@
         { "name": "RATUZ" }
       ] },
       { "segment": "1472093056", "subrefs": [
-        { "name": "The Clown's Fun" },
         { "name": "Our Lady of Sorrow", "start": 13320 },
         { "name": "The Abyss Has Walls", "start": 14631 }
       ] },
@@ -3785,6 +3784,22 @@
         {
           "name": "As Dusk Falls", "start": 721
         }
+      ] },
+      { "segment": "1548174786", "subrefs": [
+        { "name": "The Pale (демо)", "start": 1413 },
+        { "name": "Auver", "start": 4206 },
+        { "name": "Control Room Alpha", "start": 5239 },
+        { "name": "Cain", "start": 5665 },
+        { "name": "Life Beyond", "start": 7470 },
+        { "name": "Satan's Baby Doll", "start": 13256 },
+        { "name": "Hausmeister", "start": 15662 },
+        { "name": "One Last Breath (демо)", "start": 16514 }
+      ] },
+      { "segment": "1554911752", "subrefs": [
+        { "name": "Chimpy Chippa's: The Game", "start": 12879 },
+        { "name": "Asleep (демо)", "start": 14023 },
+        { "name": "The Apartment", "start": 16341 },
+        { "name": "Signal (демо)", "start": 17846 }
       ] },
       { "segment": "1558782985", "subrefs": [
         { "name": "From The Darkness", "start": 5239 }
@@ -3826,10 +3841,30 @@
     ]
   },
   {
+    "name": "Trash Horror Collection",
+    "category": "ongoing",
+    "id": "trash-horror",
+    "streams": [
+      { "segment": "1472093056", "subrefs": [
+        { "name": "The Clown's Fun", "start": 878 }
+      ] },
+      { "segment": "1548174786", "subrefs": [
+        { "name": "After Midnight", "start": 8667 }
+      ] },
+      { "segment": "1554911752", "subrefs": [
+        { "name": "The Island Mystery", "start": 19548 },
+        { "name": "Endless Days", "start": 20029 }
+      ] }
+    ]
+  },
+  {
     "name": "Iron Lung",
     "category": "finished",
     "id": "iron-lung",
     "streams": [
+      { "segment": "1548174786", "subrefs": [
+        { "name": "1", "start": 18199 }
+      ] },
       { "segment": "1558782985", "subrefs": [
         { "name": "2", "start": 1713 }
       ] }
@@ -6034,6 +6069,15 @@
         { "name": "Survival: Fountain of Youth", "start": 5903 },
         { "name": "Purple War", "start": 13895 }
       ] },
+      { "segment": "1548174786", "subrefs": [
+        { "name": "Enter & Survey", "start": 11592 },
+        { "name": "Our Lady of the Drowned Lake", "start": 12030 },
+        { "name": "Good Boy", "start": 13885 },
+        { "name": "Stroll Prototype", "start": 15297 }
+      ] },
+      { "segment": "1554911752", "subrefs": [
+        { "name": "Divine Frequency", "start": 602 }
+      ] },
       { "segment": "1555820842", "subrefs": [
         { "name": "Serious Duke 3D", "start": 589 }
       ] },
@@ -6627,6 +6671,9 @@
     "streams": [
       { "segment": "1547156682", "subrefs": [
         { "name": "1", "start": 10919 }
+      ] },
+      { "segment": "1554911752", "subrefs": [
+        { "name": "2 (с Куплиновым и Дангаром)", "start": 4248 }
       ] }
     ]
   },
@@ -11130,40 +11177,6 @@
       ] },
       { "segment": "1551976425", "subrefs": [
         { "name": "2", "start": 3102 }
-      ] }
-    ]
-  },
-  {
-    "name": "Не размечено",
-    "category": "other",
-    "type": "list",
-    "id": "todo",
-    "streams": [
-      { "segment": "1548174786", "subrefs": [
-        { "name": "The Pale", "start": 1400 },
-        { "name": "Auver", "start": 4162 },
-        { "name": "Control Room Alpha", "start": 5215 },
-        { "name": "Cain", "start": 5620 },
-        { "name": "Life Beyond", "start": 7428 },
-        { "name": "Trash Horror Collection", "start": 8643 },
-        { "name": "Enter & Survey", "start": 11584 },
-        { "name": "Our Lady of the Drowned Lake", "start": 12078 },
-        { "name": "Satan's Baby Doll", "start": 13285 },
-        { "name": "Good Boy", "start": 13895 },
-        { "name": "Stroll Prototype", "start": 15277 },
-        { "name": "Hausmeister", "start": 15659 },
-        { "name": "One Last Breath", "start": 16484 },
-        { "name": "Iron Lung", "start": 18161 }
-      ] },
-      { "segment": "1554911752", "subrefs": [
-        { "name": "Divine Frequency", "start": 724 },
-        { "name": "Ghost Watchers #2", "start": 3688 },
-        { "name": "Chimpy Chippa's the game", "start": 12889 },
-        { "name": "Asleep", "start": 14002 },
-        { "name": "The Apartment", "start": 16309 },
-        { "name": "Signal", "start": 17821 },
-        { "name": "The Island Mystery", "start": 19567 },
-        { "name": "Endless days", "start": 20002 }
       ] }
     ]
   }
