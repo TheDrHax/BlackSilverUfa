@@ -166,7 +166,7 @@
     "note": "Запись предоставил <a href=\"https://vk.com/video87862793_171644977\">Олег Степанов</a>."
   },
   "001510151": {
-    "youtube": "eycYKKQd-EQ", "abs_start": 0, "abs_end": 13871, "duration": 13871,
+    "youtube": "LR7wbWobR5U", "official": false, "abs_start": 0, "abs_end": 13872, "duration": 13872,
     "name": "Metal Gear Solid V: Phantom Pain #16 (часть 2)",
     "date": "2015-10-15",
     "games": ["mgs-v"]
@@ -1378,9 +1378,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2017/v181664458.ass"
   },
   "182448131": {
-    "youtube": "IqTeWjugKOE", "abs_start": 0, "abs_end": 15379, "duration": 15379,
+    "abs_start": 0, "abs_end": 15444, "duration": 0,
     "name": "Hand Simulator #2 / Gang Beasts #1 / Duck Game / Move or Die",
     "date": "2017-10-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/182448131.mp4",
     "games": ["hand-simulator", "gang-beasts", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2017/v182448131.ass"
   },
@@ -10946,7 +10947,6 @@
     "youtube": "wfXNVAgiR44", "abs_start": 0, "abs_end": 27366, "duration": 27366,
     "name": "As Dusk Falls",
     "date": "2022-07-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1537269313.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1537269313.ass"
   },
