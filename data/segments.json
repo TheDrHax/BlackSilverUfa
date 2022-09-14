@@ -847,9 +847,10 @@
     "note": "Запись предоставил <a href=\"https://vk.com/87862793_456240367\">Олег Степанов</a>. Стрим проводился на канале <a href=\"https://twitch.tv/dariya_willis\">Dariya_Willis</a>."
   },
   "001706060": {
-    "youtube": "JWY1e9gH02A", "abs_start": 0, "abs_end": 14466, "duration": 14466,
+    "abs_start": 0, "abs_end": 14466, "duration": 0,
     "name": "Guardians of the Galaxy: The Telltale Series - Episode 2 / The Walking Dead: A New Frontier - Episode 5",
     "date": "2017-06-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/001706060.mp4",
     "games": ["telltale-gotg", "talking-dead-frontier"]
   },
   "001706170": {
@@ -2232,9 +2233,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2018/v260173384.ass"
   },
   "260957900": {
-    "youtube": "5h6Dqu1gGV0", "official": false, "abs_start": 0, "abs_end": 14174, "duration": 14174,
+    "abs_start": 0, "abs_end": 14239, "duration": 0,
     "name": "Dark Souls 2: Scholar of the First Sin #1",
     "date": "2018-05-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/260957900.mp4",
     "games": ["ds2-scholar"],
     "subtitles": "https://bsu.drhx.ru/chats/2018/v260957900.ass"
   },
@@ -5059,9 +5061,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v468461070.ass"
   },
   "468908083": {
-    "youtube": "BM1ufnmttAk", "abs_start": 0, "abs_end": 20051, "duration": 20051,
+    "abs_start": 0, "abs_end": 20077, "duration": 0,
     "name": "Party Panic #2 / Hot Shot Burn / Mount Your Friends 3D #2 / Havocado #2 / Tricky Towers #17",
     "date": "2019-08-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/468908083.mp4",
     "games": ["party-panic", "co-op", "mount-your-friends-3d", "havocado", "tricky-towers"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v468908083.ass"
   },
@@ -5853,9 +5856,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v534316789.ass"
   },
   "535374681": {
-    "youtube": "qJNOZKgVPq8", "official": false, "abs_start": 0, "abs_end": 20519, "duration": 20519,
+    "abs_start": 0, "abs_end": 20530, "duration": 0,
     "name": "Grand Theft Auto: San Andreas #4",
     "date": "2020-01-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/535374681.mp4",
     "games": ["gta-san-andreas"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v535374681.ass"
   },
@@ -5890,9 +5894,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v538458255.ass"
   },
   "542106142": {
-    "youtube": "GoYy_OIYiy8", "official": false, "abs_start": 0, "abs_end": 21031, "duration": 21031,
+    "abs_start": 0, "abs_end": 21069, "duration": 0,
     "name": "Grand Theft Auto: San Andreas #6",
     "date": "2020-01-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/542106142.mp4",
     "games": ["gta-san-andreas"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v542106142.ass"
   },
@@ -10953,7 +10958,6 @@
     "youtube": "82Zn8ZZR-BY", "abs_start": 0, "abs_end": 6028, "duration": 6028,
     "name": "Трейлеры #4",
     "date": "2022-07-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1541455295.torrent",
     "games": ["trailers"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1541455295.ass"
   },
@@ -10961,7 +10965,6 @@
     "youtube": "CeLrx5B-s-Q", "abs_start": 0, "abs_end": 18380, "duration": 18380,
     "name": "Granny: Chapter Two #2 / Peepo Island #1 / Fall Guys #16 (с чатом)",
     "date": "2022-07-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1542254440.torrent",
     "games": ["granny-2", "peepo-island", "fall-guys"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1542254440.ass"
   },

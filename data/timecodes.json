@@ -1249,6 +1249,13 @@
       "15:36": "В предыдущих сериях",
       "18:20": "Игра"
     },
+    "Проблемы с правообладателями": {
+      "Electric Light Orchestra - Livin' Thing": [
+        "13:58~14:56",
+        "1:51:54~1:52:32",
+        "2:00:29~2:01:25"
+      ]
+    },
     "The Walking Dead: A New Frontier": {
       "2:03:16": "Меню",
       "2:06:51": "Сломано",
@@ -13179,6 +13186,12 @@
       "1:00:52",
       "3:32:05"
     ],
+    "Проблемы с правообладателями": {
+      "1:14:09~1:14:22": "Whitney Houston - I Will Always Love You",
+      "1:51:41~1:55:19": "Take On Me - A-Ha",
+      "2:25:29~2:29:25": "What is love - Haddaway",
+      "3:26:42~3:28:59": "Limp Bizkit - My Way"
+    },
     "Боссы": {
       "1:32:52": "Последний гигант",
       "1:42:26": "Преследователь",
@@ -13190,11 +13203,6 @@
         "3:23:22"
       ],
       "3:45:44": "Забытая Грешница"
-    },
-    "Проблемы с правообладателями": {
-      "1:51:41~1:55:19": "Take On Me - A-Ha",
-      "2:25:29~2:29:25": "What is love - Haddaway",
-      "3:26:42~3:28:59": "Limp Bizkit - My Way"
     },
     "3:05:04": "Димоооон"
   },
@@ -18190,6 +18198,9 @@
       "2:59:50": "Поиски коопа",
       "3:12:19": "Кооп найден"
     },
+    "Проблемы с правообладателями": {
+      "3:22:34~3:25:54": "Ray Parker Jr. - Ghostbusters"
+    },
     "Havocado": {
       "3:33:50": "Меню",
       "3:34:32": "Лобби",
@@ -20768,6 +20779,7 @@
     "25:00": "Игра",
     "Проблемы с правообладателями": {
       "36:40~37:48": "Toto - Hold the Line",
+      "1:11:33~1:12:55": "Eddie Money - Two Tickets To Paradise",
       "2:50:04~2:53:14": "Ozzy Osbourne - Hellraiser (много небольших фрагментов)",
       "3:49:42~3:49:57": "Frankie Knuckles - It's a Cold World",
       "5:07:40~5:08:04": "Public Enemy - Rebel Without A Pause",
@@ -20938,6 +20950,7 @@
       "3:47:16~3:48:42": "Lynyrd Skynyrd - Free Bird",
       "3:50:57~3:51:34": "Booker T. Jones - Green Onions",
       "4:07:23~4:09:29": "Hank Williams - Hey Good Lookin' (Live At The Grand Ole Opry/1951)",
+      "4:36:10~4:39:42": "Eddie Money - Two Tickets To Paradise",
       "4:46:21~4:47:32": "Wreckx-N-Effect - New Jack Swing (7\" Version)"
     },
     "1:22:03": "Меню",
@@ -25689,7 +25702,10 @@
       "6:35:10": "Отличное начало"
     },
     "Проблемы с правообладателями": {
-      "2:19:30~2:21:26": "Django Reinhardt - Darktown Strutter's Ball",
+      "Django Reinhardt - Darktown Strutter's Ball": [
+        "2:19:30~2:21:26",
+        "5:59:43~6:01:32"
+      ],
       "2:24:38~2:25:31": "Django Reinhardt - Belleville",
       "4:08:47~4:10:00": "Django Reinhardt, The Quintet of the Hot Club of France - A Tisket a Tasket"
     }
