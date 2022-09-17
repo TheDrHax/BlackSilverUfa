@@ -563,9 +563,10 @@
     "games": ["fallout-2"]
   },
   "001609280": {
-    "youtube": "dOPwOdeBboQ", "official": false, "abs_start": 0, "abs_end": 10169, "duration": 10169,
+    "abs_start": 0, "abs_end": 10169, "duration": 0,
     "name": "Hitman #5 - Colorado",
     "date": "2016-09-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/001609280.mp4",
     "games": ["hitman"],
     "note": "Запись предоставил Олег Степанов (<a href=\"https://vk.com/video87862793_456239622\">1</a>, <a href=\"https://vk.com/video87862793_456239623\">2</a>). Видео обрывается по неизвестной причине."
   },
@@ -847,7 +848,7 @@
     "note": "Запись предоставил <a href=\"https://vk.com/87862793_456240367\">Олег Степанов</a>. Стрим проводился на канале <a href=\"https://twitch.tv/dariya_willis\">Dariya_Willis</a>."
   },
   "001706060": {
-    "youtube": "JWY1e9gH02A", "official": false, "abs_start": 0, "abs_end": 14466, "duration": 14466,
+    "youtube": "JWY1e9gH02A", "abs_start": 0, "abs_end": 14466, "duration": 14466,
     "name": "Guardians of the Galaxy: The Telltale Series - Episode 2 / The Walking Dead: A New Frontier - Episode 5",
     "date": "2017-06-06",
     "games": ["telltale-gotg", "talking-dead-frontier"]
@@ -4223,7 +4224,7 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v396376161.ass"
   },
   "397419854": {
-    "youtube": "ghj_GCKJmA4", "abs_start": 0, "abs_end": 18396, "duration": 18396,
+    "abs_start": 0, "abs_end": 18420, "duration": 0,
     "name": "S.T.A.L.K.E.R.: Lost Alpha #2 / Hollow Knight #4",
     "date": "2019-03-18",
     "games": ["stalker-la", "hollow-knight"],
@@ -8671,9 +8672,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1031332081.ass"
   },
   "1031432095": {
-    "youtube": "wjs1VKuX0Ns", "official": false, "abs_start": 0, "abs_end": 8687, "duration": 8687,
+    "abs_start": 0, "abs_end": 8715, "duration": 0,
     "name": "Just Die Already / A House of Thieves",
     "date": "2021-05-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1031432095.mp4",
     "games": ["co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1031432095.ass"
   },
@@ -11248,10 +11250,9 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1588071501.ass"
   },
   "1592425669": {
-    "abs_start": 0, "abs_end": 22220, "duration": 0,
+    "youtube": "MCy_YlmlsX8", "abs_start": 0, "abs_end": 22202, "duration": 22073,
     "name": "My Time at Sandrock / Wo Long: Fallen Dynasty (демо)",
     "date": "2022-09-16",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1592425669.mp4",
     "cuts": [[1011, 1045], [5605, 5634], [5999, 6065]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1592425669.torrent",
     "games": ["first-2022"],
