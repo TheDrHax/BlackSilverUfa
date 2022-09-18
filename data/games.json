@@ -3837,6 +3837,9 @@
         { "name": "The Horrors Recrudesce (демо)", "start": 10806 },
         { "name": "Bias (демо)", "start": 13396 },
         { "name": "Don't Look", "start": 17377 }
+      ] },
+      { "segment": "1594431864", "subrefs": [
+        { "name": "Bloodwash", "start": 12626 }
       ] }
     ]
   },
@@ -6127,12 +6130,27 @@
         { "name": "Carmageddon II", "start": 16280 }
       ] },
       { "segment": "1588071501", "subrefs": [
-        { "name": "The Complex: Found Footage", "start": 3233 },
-        { "name": "Deadly Night", "start": 14278 }
+        { "name": "The Complex: Found Footage", "start": 3233 }
       ] },
       { "segment": "1592425669", "subrefs": [
         { "name": "My Time at Sandrock", "start": 11266 },
         { "name": "Wo Long: Fallen Dynasty (демо)", "start": 15388 }
+      ] },
+      { "segment": "1594431864", "subrefs": [
+        { "name": "Curley Laboratory", "start": 18772 }
+      ] }
+    ]
+  },
+  {
+    "name": "Deadly Night",
+    "category": "finished",
+    "id": "deadly-night",
+    "streams": [
+      { "segment": "1588071501", "subrefs": [
+        { "name": "1", "start": 14278 }
+      ] },
+      { "segment": "1594431864", "subrefs": [
+        { "name": "2", "start": 1384 }
       ] }
     ]
   },

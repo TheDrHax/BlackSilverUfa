@@ -10989,7 +10989,6 @@
     "youtube": "_CBvVG_y3Go", "abs_start": 0, "abs_end": 21436, "duration": 21436,
     "name": "Peepo Island #3 / Phasmophobia #15 (с Куплиновым и Дангаром)",
     "date": "2022-07-29",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1546161309.torrent",
     "games": ["peepo-island", "phasmophobia"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1546161309.ass"
   },
@@ -11245,10 +11244,10 @@
   },
   "1588071501": {
     "youtube": "6kaWdRktmtM", "abs_start": 0, "abs_end": 18616, "duration": 18616,
-    "name": "The Complex: Found Footage / Lempo (демо) / Mega / The Horrors Recrudesce (демо) / Bias (демо) / Deadly Night / Don't Look",
+    "name": "The Complex: Found Footage / Lempo (демо) / Mega / The Horrors Recrudesce (демо) / Bias (демо) / Deadly Night #1 / Don't Look",
     "date": "2022-09-11",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1588071501.torrent",
-    "games": ["first-2022", "single"],
+    "games": ["first-2022", "single", "deadly-night"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1588071501.ass"
   },
   "1592425669": {
@@ -11268,5 +11267,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1593427175.torrent",
     "games": ["scp-sf"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1593427175.ass"
+  },
+  "1594431864": {
+    "abs_start": 0, "abs_end": 20601, "duration": 0,
+    "name": "Deadly Night #2 / Bloodwash / Curley Laboratory",
+    "date": "2022-09-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1594431864.mp4",
+    "cuts": [[10339, 10369]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1594431864.torrent",
+    "games": ["deadly-night", "single", "first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1594431864+0.ass"
   }
 }
