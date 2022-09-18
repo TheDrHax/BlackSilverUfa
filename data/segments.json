@@ -467,9 +467,10 @@
     "games": ["ds3"]
   },
   "001605240": {
-    "youtube": "-_9vZHF-plc", "official": false, "abs_start": 0, "abs_end": 19894, "duration": 19894,
+    "abs_start": 0, "abs_end": 19894, "duration": 0,
     "name": "Dark Souls 3 #5",
     "date": "2016-05-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/001605240.mp4",
     "games": ["ds3"]
   },
   "001605270": {
@@ -3118,8 +3119,7 @@
     "name": "Dragon Quest XI: Echoes of an Elusive Age / Call of Duty: Black Ops 4 #1 (бета)",
     "date": "2018-09-14",
     "games": ["first-2018", "cod-bo-4"],
-    "subtitles": "https://bsu.drhx.ru/chats/2018/v309949699.ass",
-    "note": "Официальной записи <a href=\"https://twitter.com/Sempai_Black/status/1040868783244627970\">не будет</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2018/v309949699.ass"
   },
   "311651965": {
     "youtube": "jYH-YKyDelc", "abs_start": 0, "abs_end": 17204, "duration": 17204,
@@ -3329,8 +3329,7 @@
     "name": "Своя Игра #3 / Raft (4D) #2 (4D) / Golf It! #9",
     "date": "2018-11-04",
     "games": ["sigame", "raft", "golf-it"],
-    "subtitles": "https://bsu.drhx.ru/chats/2018/v331512980.ass",
-    "note": "Официальной записи <a href=\"https://twitter.com/Sempai_Black/status/1059374052631035904\">не будет</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2018/v331512980.ass"
   },
   "331965944": {
     "youtube": "9IGkvnhsS7k", "abs_start": 0, "abs_end": 16455, "duration": 16455,
@@ -3365,8 +3364,7 @@
     "name": "Hitman 2 #2",
     "date": "2018-11-10",
     "games": ["hitman-2"],
-    "subtitles": "https://bsu.drhx.ru/chats/2018/v334043313.ass",
-    "note": "Официальной записи <a href=\"https://twitter.com/Sempai_Black/status/1062431920687120396\">не будет</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2018/v334043313.ass"
   },
   "335348537": {
     "youtube": "TRTiTeJZhd0", "official": false, "abs_start": 0, "abs_end": 18501, "duration": 18501,
@@ -4858,8 +4856,7 @@
     "name": "Своя Игра #14 / Dead by Daylight #3 / Эскейп-румы - Curious Cases / Golf It! #17",
     "date": "2019-06-29",
     "games": ["sigame", "dead-by-daylight", "escape-rooms", "golf-it"],
-    "subtitles": "https://bsu.drhx.ru/chats/2019/v445866715.ass",
-    "note": "Официальная запись <a href=\"https://twitter.com/Sempai_Black/status/1145994206663589888\">заблокирована</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v445866715.ass"
   },
   "447694923": {
     "youtube": "iAa4VBV3o6E", "abs_start": 0, "abs_end": 10290, "duration": 10290,
@@ -4965,8 +4962,7 @@
     "date": "2019-07-17",
     "direct": "https://bsufiles.thedrhax.pw/streams/454019548.mp4",
     "games": ["first-2019"],
-    "subtitles": "https://bsu.drhx.ru/chats/2019/v454019548.ass",
-    "note": "Официальная запись <a href=\"https://twitter.com/Sempai_Black/status/1151801529978032130\">заблокирована</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v454019548.ass"
   },
   "454019548.1": {
     "youtube": "pf2zjtt0yog", "abs_start": 10541, "abs_end": 17317, "duration": 6776,
@@ -5268,16 +5264,14 @@
     "name": "The Surge 2 #1",
     "date": "2019-09-23",
     "games": ["surge-2"],
-    "subtitles": "https://bsu.drhx.ru/chats/2019/v485417805.ass",
-    "note": "Официальная запись (T5jsMHGRJNw) <a href=\"https://twitter.com/Sempai_Black/status/1184134627931447298\">заблокирована</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v485417805.ass"
   },
   "485786489": {
     "youtube": "-cBM69p_PrA", "official": false, "abs_start": 0, "abs_end": 17295, "duration": 17295,
     "name": "The Surge 2 #2",
     "date": "2019-09-24",
     "games": ["surge-2"],
-    "subtitles": "https://bsu.drhx.ru/chats/2019/v485786489.ass",
-    "note": "Официальная запись (iZn5VK-JITc) <a href=\"https://twitter.com/Sempai_Black/status/1184134627931447298\">заблокирована</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v485786489.ass"
   },
   "487490676": {
     "youtube": "dh9AyaB4U2A", "official": false, "abs_start": 0, "abs_end": 19201, "duration": 19201,
@@ -5327,16 +5321,14 @@
     "name": "Stygian: Reign of the Old Ones / Police Stories #2 / Tom Clancy's Ghost Recon Breakpoint #2",
     "date": "2019-10-04",
     "games": ["first-2019", "police-stories", "ghost-recon-breakpoint"],
-    "subtitles": "https://bsu.drhx.ru/chats/2019/v490059507.ass",
-    "note": "Официальные записи (H9mGkU2QAgY, mBFQUwmPadc, kDsI_rrM3I4) <a href=\"https://twitter.com/Sempai_Black/status/1184134627931447298\">заблокированы</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v490059507.ass"
   },
   "490488498": {
     "youtube": "qmrikTQhibI", "official": false, "abs_start": 0, "abs_end": 19601, "duration": 19601,
     "name": "The Surge 2 #3 / Ghostbusters",
     "date": "2019-10-05",
     "games": ["surge-2", "first-2019"],
-    "subtitles": "https://bsu.drhx.ru/chats/2019/v490488498.ass",
-    "note": "Официальные записи (aRshUBlAEzA, ziYUbGz_bJQ) <a href=\"https://twitter.com/Sempai_Black/status/1184134627931447298\">заблокированы</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v490488498.ass"
   },
   "491017258": {
     "youtube": "qM0BbQcgTzM", "abs_start": 0, "abs_end": 18189, "duration": 18189,
@@ -5632,16 +5624,14 @@
     "date": "2019-12-04",
     "direct": "https://bsufiles.thedrhax.pw/streams/516941489.mp4",
     "games": ["gta-vice-city"],
-    "subtitles": "https://bsu.drhx.ru/chats/2019/v516941489.ass",
-    "note": "Официальная запись <a href=\"https://twitter.com/Sempai_Black/status/1204020703827300353\">заблокирована</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v516941489.ass"
   },
   "517802976": {
     "youtube": "EXLIJurCOXc", "official": false, "abs_start": 0, "abs_end": 21501, "duration": 21501,
     "name": "Grand Theft Auto: Vice City #2",
     "date": "2019-12-06",
     "games": ["gta-vice-city"],
-    "subtitles": "https://bsu.drhx.ru/chats/2019/v517802976.ass",
-    "note": "Официальная запись <a href=\"https://twitter.com/Sempai_Black/status/1204020703827300353\">заблокирована</a>."
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v517802976.ass"
   },
   "518306588": {
     "youtube": "AK1CYqvyHIc", "abs_start": 0, "abs_end": 15507, "duration": 15507,
