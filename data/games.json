@@ -3840,6 +3840,9 @@
       ] },
       { "segment": "1594431864", "subrefs": [
         { "name": "Bloodwash", "start": 12626 }
+      ] },
+      { "segment": "1595342822", "subrefs": [
+        { "name": "Night At the Gates of Hell", "start": 6625 }
       ] }
     ]
   },
@@ -6138,6 +6141,10 @@
       ] },
       { "segment": "1594431864", "subrefs": [
         { "name": "Curley Laboratory", "start": 18772 }
+      ] },
+      { "segment": "1595342822", "subrefs": [
+        { "name": "Whateverland", "start": 1518 },
+        { "name": "S.P.A.T.", "start": 5265 }
       ] }
     ]
   },

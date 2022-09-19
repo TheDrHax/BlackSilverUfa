@@ -10985,7 +10985,6 @@
     "name": "Scathe - Релиз / Survival: Fountain of Youth / Ghost Watchers #1 / Purple War / Peepo Island #4",
     "date": "2022-07-30",
     "cuts": [[9344, 9374]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1547156682.torrent",
     "games": ["scathe", "first-2022", "ghost-watchers", "peepo-island"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1547156682+0.ass"
   },
@@ -11264,5 +11263,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1594431864.torrent",
     "games": ["deadly-night", "single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1594431864+0.ass"
+  },
+  "1595342822": {
+    "abs_start": 0, "abs_end": 21609, "duration": 0,
+    "name": "Whateverland / S.P.A.T. / Night At the Gates of Hell",
+    "date": "2022-09-19",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1595342822.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1595342822.torrent",
+    "games": ["first-2022", "single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1595342822.ass"
   }
 }
