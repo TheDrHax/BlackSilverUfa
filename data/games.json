@@ -3848,7 +3848,7 @@
   },
   {
     "name": "Trash Horror Collection",
-    "category": "ongoing",
+    "category": "finished",
     "id": "trash-horror",
     "streams": [
       { "segment": "1472093056", "subrefs": [
@@ -3860,6 +3860,26 @@
       { "segment": "1554911752", "subrefs": [
         { "name": "The Island Mystery", "start": 19548 },
         { "name": "Endless Days", "start": 20029 }
+      ] },
+      { "segment": "1596223040", "subrefs": [
+        { "name": "MOLD", "start": 2297 },
+        { "name": "Poop Killer", "start": 4449 },
+        { "name": "Poop Killer 2", "start": 5920 },
+        { "name": "Poop Killer 3", "start": 7162 },
+        { "name": "The Elevator", "start": 8238 },
+        { "name": "Night Revenge", "start": 9475 },
+        { "name": "Thursday the 12th", "start": 10763 }
+      ] }
+    ]
+  },
+  {
+    "name": "Trash Horror Collection 2",
+    "category": "ongoing",
+    "id": "trash-horror-2",
+    "streams": [
+      { "segment": "1596223040", "subrefs": [
+        { "name": "R.I.P", "start": 11785 },
+        { "name": "The House of Rats", "start": 13670 }
       ] }
     ]
   },
