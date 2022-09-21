@@ -635,8 +635,8 @@ def main(argv=None):
                     return t + t_offset
                 return t
 
-        tc = Timecodes(timecodes[args['<stream>']])
-        timecodes[args['<stream>']] = tc.transform(transform).to_dict()
+        tc = timecodes.get(args['<stream>']) or Timecodes()
+        timecodes[args['<stream>']] = tc.transform(transform)
         timecodes.save()
 
 

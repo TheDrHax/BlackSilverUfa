@@ -47,30 +47,36 @@ class Timecode:
         return ('-' if negative else '') + ':'.join(result)
 
     @classmethod
+    def _parse_str(cls, value: str) -> Tuple[int, int]:
+        parts = value.split('~')
+
+        if len(parts) == 1:
+            start = cls._ptime(parts[0])
+            return start, start
+        else:
+            start, end = [cls._ptime(i) for i in parts]
+            return start, end
+
+    PARSERS = {
+        'Timecode': lambda x: (x._start, x._end),
+        'int': lambda x: (x, x),
+        'float': lambda x: [int(x)] * 2,
+        'str': lambda x: Timecode._parse_str(x),
+        'NoneType': lambda x: (0, 0)
+    }
+
+    @classmethod
     def _parse(cls, value: INPUT_TYPE) -> Tuple[int, int]:
-        if value is None:
-            return 0, 0
-        if isinstance(value, Timecode):
-            return int(value.start), int(value.end)
-        elif isinstance(value, int):
-            return value, value
-        elif isinstance(value, float):
-            return int(value), int(value)
-        elif isinstance(value, str):
-            parts = value.split('~')
-
-            if len(parts) == 1:
-                start = cls._ptime(parts[0])
-                return start, start
-            else:
-                start, end = [cls._ptime(i) for i in parts]
-                return start, end
-
-        raise TypeError(f'Unsupported type: {type(value)}')
+        return cls.PARSERS[value.__class__.__name__](value)
 
     def __init__(self, start: INPUT_TYPE = None, end: INPUT_TYPE = None,
-                 name: str = None):
+                 name: Union[str, None] = None):
         self.name = name
+
+        if not start:
+            self._start, self._end = 0, 0
+            return
+
         self._start, self._end = self._parse(start)
 
         if end:
@@ -86,11 +92,11 @@ class Timecode:
 
     @start.setter
     def start(self, value: 'Timecode'):
-        self._start = int(value.start)
+        self._start = value._start
 
     @end.setter
     def end(self, value: 'Timecode'):
-        self._end = int(value.start)
+        self._end = value._start
 
     @property
     def duration(self) -> 'Timecode':
@@ -98,7 +104,7 @@ class Timecode:
 
     @duration.setter
     def duration(self, value: 'Timecode'):
-        self._end = self._start + int(value)
+        self._end = self._start + value._start
 
     def __int__(self) -> int:
         return self._start
@@ -298,10 +304,14 @@ class Timecodes(SortedKeyList):
 TIMECODES_JSON = 'data/timecodes.json'
 
 
-class TimecodesDatabase(Dict[str, Timecodes.NESTED_TYPE]):
+class TimecodesDatabase(Dict[str, Timecodes]):
     def __init__(self, filename: str = TIMECODES_JSON):
         self.filename = filename
-        self.update(load_json(filename))
+
+        data: Dict[str, Timecodes.INPUT_TYPE] = load_json(filename)
+
+        for key, value in data.items():
+            self[key] = Timecodes(value)
 
     @join()
     def to_json(self):
@@ -315,7 +325,7 @@ class TimecodesDatabase(Dict[str, Timecodes.NESTED_TYPE]):
                 first = False
 
             yield f'  "{key}": '
-            yield indent(json.dumps(value, indent=2, ensure_ascii=False), 2)[2:]
+            yield indent(json.dumps(value.to_dict(), indent=2, ensure_ascii=False), 2)[2:]
 
         yield '\n}'
 

@@ -79,7 +79,7 @@ def create_timecodes(vod: str, timeline: Timecodes) -> None:
 
         ts.add(t)
 
-    timecodes[vod] = ts.filter(lambda t: t > 0).to_dict()
+    timecodes[vod] = ts.filter(lambda t: t > 0)
 
     print('Adding timecodes:')
     print(timecodes[vod])

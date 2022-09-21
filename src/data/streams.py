@@ -4,7 +4,7 @@ from enum import Enum
 from cached_property import cached_property
 from git import Repo
 from natsort import natsorted
-from typing import List, Tuple, Dict, Any, Union
+from typing import Callable, List, Tuple, Dict, Any, Union
 from hashlib import md5
 from datetime import datetime
 from subprocess import run, PIPE
@@ -61,19 +61,25 @@ class Segment:
 
         return res
 
-    def transform_timecodes(self, t: Timecode) -> Union[Timecode, None]:
-        # filters
-        if any([
-            t < self.abs_start,
-            self.force_start and t < self.start,
-            self.abs_end != 0 and t >= self.abs_end,
-            *[t in cut for cut in self._cuts]
-        ]):
-            return None
+    def timecode_transformer(self) -> Callable[[Timecode], Union[Timecode, None]]:
+        abs_start = self.abs_start
+        abs_end = self.abs_end
 
-        t -= self.offset(t)
+        def func(t: Timecode) -> Union[Timecode, None]:
+            # filters
+            if any([
+                t < abs_start,
+                self.force_start and t < self.start,
+                abs_end != 0 and t >= abs_end,
+                *[t in cut for cut in self._cuts]
+            ]):
+                return None
 
-        return t
+            t -= self.offset(t)
+
+            return t
+
+        return func
 
     def __attrs_post_init__(self):
         self.references = SortedList(key=lambda x: x.start)
@@ -84,7 +90,7 @@ class Segment:
         else:
             timecodes = self.stream.timecodes
 
-        self.timecodes = timecodes.transform(self.transform_timecodes)
+        self.timecodes = timecodes.transform(self.timecode_transformer())
 
     @property
     def cuts(self) -> Timecodes:
@@ -722,7 +728,7 @@ class Stream:
 
         self.games = []
         self.segments = SortedKeyList(key=self._segment_key)
-        self.timecodes = Timecodes(timecodes.get(self.twitch) or {})
+        self.timecodes = Timecodes(timecodes.get(self.twitch) or Timecodes())
 
         for segment in self._data:
             Segment(stream=self, **segment)
