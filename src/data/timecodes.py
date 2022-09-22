@@ -1,9 +1,5 @@
-import json
-
 from typing import Callable, Dict, List, Tuple, Union
 from sortedcontainers import SortedKeyList
-from natsort import natsorted
-from ..utils import join, indent, load_json
 
 
 class Timecode:
@@ -299,48 +295,3 @@ class Timecodes(SortedKeyList):
                 result[str(t)] = t.name
 
         return result
-
-
-TIMECODES_JSON = 'data/timecodes.json'
-
-
-class TimecodesDatabase(Dict[str, Timecodes]):
-    def __init__(self, filename: str = TIMECODES_JSON):
-        self.filename = filename
-
-        data: Dict[str, Timecodes.INPUT_TYPE] = load_json(filename)
-
-        for key, value in data.items():
-            self[key] = Timecodes(value)
-
-    @join()
-    def to_json(self):
-        yield '{\n'
-
-        first = True
-        for key, value in natsorted(self.items(), key=lambda x: x[0]):
-            if not first:
-                yield ',\n'
-            else:
-                first = False
-
-            yield f'  "{key}": '
-            yield indent(json.dumps(value.to_dict(), indent=2, ensure_ascii=False), 2)[2:]
-
-        yield '\n}'
-
-    def __str__(self):
-        return self.to_json()
-
-    def save(self, filename: str = None):
-        if filename is None:
-            filename = self.filename
-
-        data = self.to_json()
-
-        with open(filename, 'w') as fo:
-            fo.write(data)
-            fo.write('\n')
-
-
-timecodes = TimecodesDatabase()

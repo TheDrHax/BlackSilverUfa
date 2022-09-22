@@ -75,11 +75,11 @@ from subprocess import run, PIPE
 from sortedcontainers import SortedList
 from twitch_utils.offset import Clip, find_offset
 
-from ..data.streams import (StreamType, SubReference, streams, Stream,
+from ..data.streams import (StreamType, SubReference, Stream,
                             Segment, SegmentReference)
-from ..data.games import games, Game
-from ..data.categories import categories
-from ..data.timecodes import T, timecodes, Timecode, Timecodes
+from ..data.games import Game
+from ..data.timecodes import T, Timecode, Timecodes
+from ..data.loader.default import streams, games, categories, timecodes
 from ..data.fallback import fallback
 
 
@@ -296,7 +296,7 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
                 scan_range.end = T + MATCH_OFFSET + MATCH_CHUNK
 
             yield s, time_range, scan_range
-        
+
         if tmp_subref:
             tmp_subref.parent.subrefs.remove(tmp_subref)
 
@@ -375,7 +375,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
         video_offset = Timecode(round(offset))
         print(f'Match found: segment {segment.hash}, offset {video_offset}',
-                file=sys.stderr)
+              file=sys.stderr)
 
         if segment.stream.type == StreamType.JOINED and not fail_if_cut:
             print('Matching stream is joined, forcing --fail-if-cut')

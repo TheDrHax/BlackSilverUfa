@@ -217,7 +217,7 @@ def main(argv=None):
 
     if args['commit']:
         if not args['pages'] or args['data']:
-            from ..data import check_data_version
+            from ..data.loader.version import check_data_version
             check_data_version()
 
         if not args['data'] or args['pages']:

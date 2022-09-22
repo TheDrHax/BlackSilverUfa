@@ -7,9 +7,10 @@ from itertools import chain
 from datetime import datetime
 from docopt import docopt
 
-from ..data.streams import SegmentReference, Stream, streams
-from ..data.games import Game, games
-from ..data.timecodes import T, Timecode, Timecodes, timecodes
+from ..data.streams import SegmentReference, Stream
+from ..data.games import Game
+from ..data.timecodes import T, Timecode, Timecodes
+from ..data.loader.default import streams, games, timecodes
 
 
 SKIP_LIST = [

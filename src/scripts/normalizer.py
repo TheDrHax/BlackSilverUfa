@@ -1,4 +1,4 @@
-from ..data import streams, games, categories, timecodes
+from ..data.loader.default import streams, games, categories, timecodes
 
 
 if __name__ == '__main__':

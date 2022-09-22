@@ -3,7 +3,6 @@ import json
 from enum import Enum
 from cached_property import cached_property
 from git import Repo
-from natsort import natsorted
 from typing import Callable, List, Tuple, Dict, Any, Union
 from hashlib import md5
 from datetime import datetime
@@ -12,17 +11,13 @@ from sortedcontainers import SortedList, SortedKeyList
 
 from .cache import cached
 from ..config import config, tcd_config
-from .fallback import fallback
 from .blacklist import Blacklist, BlacklistTimeline
-from .timecodes import timecodes, Timecode, Timecodes
-from ..utils import _, load_json, last_line, count_lines, join, json_escape, indent
+from .timecodes import Timecode, Timecodes
+from ..utils import _, last_line, count_lines, join, json_escape, indent
 from ..utils.ass import SubtitlesStyle
 
 
 repo = Repo('data/')
-
-STREAMS_JSON = 'data/streams.json'
-STREAMS_META_JSON = 'data/streams-meta.json'
 
 
 @attr.s(auto_attribs=True, kw_only=True, repr=False, cmp=False)
@@ -705,7 +700,7 @@ class Stream:
     type: StreamType = attr.ib(init=False)
     games: List[Tuple['Game', SegmentReference]] = attr.ib(init=False)
     segments: List[Segment] = attr.ib(init=False)
-    timecodes: Timecodes = attr.ib(init=False)
+    timecodes: Timecodes = attr.ib({}, converter=Timecodes)
 
     @staticmethod
     def _segment_key(s) -> int:
@@ -728,7 +723,6 @@ class Stream:
 
         self.games = []
         self.segments = SortedKeyList(key=self._segment_key)
-        self.timecodes = Timecodes(timecodes.get(self.twitch) or Timecodes())
 
         for segment in self._data:
             Segment(stream=self, **segment)
@@ -875,134 +869,3 @@ class Stream:
 
     def __str__(self) -> str:
         return self.to_json()
-
-
-@attr.s(auto_attribs=True)
-class Segments:
-    streams: 'Streams' = attr.ib()
-
-    def __iter__(self):
-        for stream in streams.values():
-            for segment in stream:
-                yield segment
-
-    @join()
-    def to_json(self, compiled=False):
-        yield '{\n'
-
-        first = True
-        for s in self:
-            if not first:
-                yield ',\n'
-            else:
-                first = False
-
-            yield f'  "{s.hash}": {indent(s.to_json(compiled), 2)[2:]}'
-
-        yield '\n}'
-
-    def save(self, filename: str, compiled=False):
-        data = self.to_json(compiled)
-
-        with open(filename, 'w') as fo:
-            fo.write(data)
-            fo.write('\n')
-
-
-class Streams(dict):
-    def __init__(self, streams_json: str = STREAMS_JSON,
-                 meta_json: str = STREAMS_META_JSON):
-        self.filename = streams_json
-
-        streams = load_json(streams_json)
-        metadata = load_json(meta_json)
-
-        meta = metadata.get('default') or {}
-
-        for twitch_id, stream in streams.items():
-            meta = dict(meta)
-
-            if twitch_id in metadata:
-                meta.update(metadata[twitch_id])
-
-            if isinstance(stream, dict):
-                stream = [stream]
-
-            if not isinstance(stream, list):
-                raise TypeError(type(stream))
-
-            if ',' in twitch_id:
-                targets = list([self[key] for key in twitch_id.split(',')])
-            else:
-                targets = []
-
-            self[twitch_id] = Stream(data=stream, key=twitch_id,
-                                     streams=targets, meta=meta)
-
-    def enable_fallbacks(self):
-        items = list(self.items())
-
-        if not fallback.index:
-            items = items[-fallback.capacity:]
-
-        for key, stream in items:
-            if fallback.streams and False in [s.playable for s in stream]:
-                filename = f'{stream.twitch}.mp4'
-                if filename in fallback:
-                    for segment in stream:
-                        if not segment.playable:
-                            segment.fallbacks['direct'] = segment.direct
-                            segment.direct = fallback.url(filename)
-                            # segment.fallbacks['cuts'] = segment.cuts
-                            # segment.cuts = Timecodes()
-                            segment.fallbacks['offset'] = segment.offset()
-                            segment.offset = Timecode(0)
-
-            if fallback.torrents and None in [s.torrent for s in stream]:
-                filename = f'{stream.twitch}.torrent'
-                if filename in fallback:
-                    for segment in stream:
-                        if segment.torrent is None:
-                            segment.fallbacks['torrent'] = segment.torrent
-                            segment.torrent = fallback.url(filename)
-
-    @property
-    def segments(self):
-        return Segments(self)
-
-    @join()
-    def to_json(self):
-        yield '{\n'
-
-        def sort_key(item):
-            key = item[0]
-            if ',' in key:  # place joined streams after the last part
-                return key.split(',')[-1] + '_'
-            return key
-
-        first = True
-        for key, stream in natsorted(streams.items(), key=sort_key):
-            if not first:
-                yield ',\n'
-            else:
-                first = False
-
-            yield f'  "{key}": {indent(stream.to_json(), 2)[2:]}'
-
-        yield '\n}'
-
-    def __str__(self):
-        return self.to_json()
-
-    def save(self, filename: str = None):
-        if filename is None:
-            filename = self.filename
-
-        data = self.to_json()
-
-        with open(filename, 'w') as fo:
-            fo.write(data)
-            fo.write('\n')
-
-
-streams = Streams()

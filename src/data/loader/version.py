@@ -1,5 +1,6 @@
-from ..config import config
-from ..utils import load_json
+from typing import Union
+from ...config import config
+from ...utils import load_json
 
 
 def check_data_version():
@@ -13,12 +14,3 @@ def check_data_version():
     if act['minor'] < req['minor']:
         raise ValueError('data version mismatch '
                          f'(minor {act["minor"]} < {req["minor"]})')
-
-
-check_data_version()
-
-
-from .categories import categories
-from .games import games
-from .streams import streams
-from .timecodes import timecodes

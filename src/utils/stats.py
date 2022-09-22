@@ -1,5 +1,6 @@
 from ..data.timecodes import T
-from ..data.streams import StreamType, streams
+from ..data.streams import StreamType
+from ..data.loader.default import streams
 
 
 def get_stats():

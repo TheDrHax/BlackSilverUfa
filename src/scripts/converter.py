@@ -18,7 +18,8 @@ from tcd.twitch import Message
 from tcd.subtitles import SubtitlesASS
 from docopt import docopt
 
-from ..data.streams import streams, Stream, StreamType
+from ..data.streams import Stream, StreamType
+from ..data.loader.default import streams
 from ..data.cache import cache
 from ..config import tcd_config
 from ..data.timecodes import Timecodes

@@ -11,10 +11,10 @@ from sortedcontainers import SortedDict
 
 from . import _
 from .emotes import update_emotes
-from ..config import DEBUG
+from ..config import DEBUG, config
 
 t = time()
-from ..data import config, streams, games, categories
+from ..data.loader.default import streams, games, categories
 print(f'Data loaded in {int((time() - t) * 1000)}ms')
 
 from .chats import download_missing as download_chats

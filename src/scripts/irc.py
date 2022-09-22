@@ -20,7 +20,8 @@ from datetime import datetime, timedelta
 import requests
 from docopt import docopt
 
-from ..data.streams import streams, Stream
+from ..data.streams import Stream
+from ..data.loader.default import streams
 from ..data.timecodes import Timecode
 from ..utils.ass import SubtitlesEvent, SubtitlesWriter
 
