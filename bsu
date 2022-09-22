@@ -122,6 +122,9 @@ case $1 in
         require_node
         shift
         $PYTHON -m src.utils.serve "$@" ;;
+    api)
+        export FLASK_APP=src.utils.apiserver FLASK_DEBUG=1
+        flask run ;;
 
     download-chats) $PYTHON -m src.utils.chats ;;
     sh|bash) "$@" ;;

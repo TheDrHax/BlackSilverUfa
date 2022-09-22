@@ -2,7 +2,6 @@ import attr
 import json
 from enum import Enum
 from cached_property import cached_property
-from git import Repo
 from typing import Callable, List, Tuple, Dict, Any, Union
 from hashlib import md5
 from datetime import datetime
@@ -17,7 +16,15 @@ from ..utils import _, last_line, count_lines, join, json_escape, indent
 from ..utils.ass import SubtitlesStyle
 
 
-repo = Repo('data/')
+try:
+    from git import Repo
+
+    try:
+        repo = Repo('data/')
+    except Exception:
+        repo = None
+except ImportError:
+    repo = None
 
 
 @attr.s(auto_attribs=True, kw_only=True, repr=False, cmp=False)
@@ -760,6 +767,9 @@ class Stream:
     @property
     @cached('date-{0[0].twitch}')
     def _unix_time(self) -> str:
+        if not repo:
+            raise ValueError
+
         args = ['--pretty=oneline', '--reverse', '-S', self.twitch]
         rev = repo.git.log(args).split(' ')[0]
         return repo.commit(rev).authored_date
@@ -771,7 +781,11 @@ class Stream:
         elif self.type is StreamType.NO_CHAT:
             return datetime.strptime(self.twitch[2:8], '%y%m%d')
         else:
-            return datetime.fromtimestamp(self._unix_time)
+            try:
+                return datetime.fromtimestamp(self._unix_time)
+            except ValueError:
+                return datetime.now()
+
 
     @property
     def subtitles_prefix(self) -> str:
