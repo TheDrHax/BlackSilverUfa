@@ -707,7 +707,7 @@ class Stream:
     type: StreamType = attr.ib(init=False)
     games: List[Tuple['Game', SegmentReference]] = attr.ib(init=False)
     segments: List[Segment] = attr.ib(init=False)
-    timecodes: Timecodes = attr.ib({}, converter=Timecodes)
+    timecodes: Timecodes = attr.ib(factory=dict, converter=Timecodes)
 
     @staticmethod
     def _segment_key(s) -> int:
