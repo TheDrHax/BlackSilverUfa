@@ -1,7 +1,7 @@
 """Usage:
   cli [options] stream add <stream>
-  cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id> | --direct <url>] [--offset <t>]
-  cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--end <t>] [--duration <t>]
+  cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id> | --direct <url>] [--offset <t>] [--cuts <list>] [--offsets <list>]
+  cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--cuts <list>] [--offsets <list>] [--end <t>] [--duration <t>]
   cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>] [--fail-if-cut]
   cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --direct <url>) [--directory <path>]
   cli [options] game add <game> <category> <name>
@@ -41,6 +41,8 @@ Segment options:
   --duration <t>      Set video duration for more precise segment splitting.
   --end <t>           Forced absolute timecode of segment's ending.
   --unofficial        Mark new segment as unofficial.
+  --cuts <list>       List of ranges that were cut from the video.
+  --offsets <list>    List of offsets for a joined stream.
   --commit            Create a new commit in current branch. All changes in
                       data/{games,streams}.json will be committed.
                       WARNING: Repository index will not be cleared!
@@ -500,6 +502,8 @@ def main(argv=None):
         options = (('youtube', str, 'youtube'),
                    ('direct', str, 'direct'),
                    ('offset', Timecode, 'offset'),
+                   ('cuts', lambda x: Timecodes(x.split(',')), 'cuts'),
+                   ('offsets', lambda x: Timecodes(x.split(',')), 'offsets'),
                    ('end', Timecode, 'end'),
                    ('duration', Timecode, 'duration'),
                    ('unofficial', lambda x: False if x else None, 'official'))
