@@ -4849,9 +4849,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v445389664.ass"
   },
   "445866715": {
-    "youtube": "mGpSWefTnT4", "official": false, "abs_start": 0, "abs_end": 17908, "duration": 17908,
+    "abs_start": 0, "abs_end": 17905, "duration": 0,
     "name": "Своя Игра #14 / Dead by Daylight #3 / Эскейп-румы - Curious Cases / Golf It! #17",
     "date": "2019-06-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/445866715.mp4",
     "games": ["sigame", "dead-by-daylight", "escape-rooms", "golf-it"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v445866715.ass"
   },
@@ -9320,7 +9321,7 @@
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1128973572,1129122818+0.ass"
   },
   "1129996087": {
-    "youtube": "Q27ejfPKAlE", "abs_start": 0, "abs_end": 30529, "duration": 30529,
+    "youtube": "Uh15k0C3hPo", "official": false, "abs_start": 0, "abs_end": 30529, "duration": 30529,
     "name": "Riders Republic #1 / Aliens: Fireteam Elite #2 / Gamescom 2021 - Awesome Indies / Gamescom 2021 - Future Games Show",
     "date": "2021-08-26",
     "games": ["riders-republic", "aliens-fe", "gamescom-21"],
