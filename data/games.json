@@ -6165,9 +6165,19 @@
       { "segment": "1595342822", "subrefs": [
         { "name": "Whateverland", "start": 1518 },
         { "name": "S.P.A.T.", "start": 5265 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Yakuza 0",
+    "category": "ongoing",
+    "id": "yakuza-0",
+    "streams": [
       { "segment": "1598875892", "subrefs": [
-        { "name": "Yakuza 0", "start": 474 }
+        { "name": "1", "start": 474 }
+      ] },
+      { "segment": "1602639686", "subrefs": [
+        { "name": "2", "start": 454 }
       ] }
     ]
   },
