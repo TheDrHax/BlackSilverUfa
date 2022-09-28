@@ -10738,9 +10738,9 @@
   },
   "1502569152": {
     "youtube": "8G5QlkS5iPg", "abs_start": 0, "abs_end": 21671, "duration": 21671,
-    "name": "Summer Game Fest 2022 - PC Gaming Show (обзор) / SCP: Secret Files - Демо / Cult of the Lamb - Демо / Anger Foot / The Fridge Is Red (демо) / Sker Ritual (демо) / The Last Worker (демо) / Midnight Fight Express (демо)",
+    "name": "Summer Game Fest 2022 - PC Gaming Show (обзор) / SCP: Secret Files - Демо / Cult of the Lamb - Демо / Anger Foot / The Fridge Is Red - Демо / Sker Ritual (демо) / The Last Worker (демо) / Midnight Fight Express (демо)",
     "date": "2022-06-13",
-    "games": ["sgf-22", "scp-sf", "cult-ot-lamb", "first-2022"],
+    "games": ["sgf-22", "scp-sf", "cult-ot-lamb", "first-2022", "red-bridge"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1502569152.ass"
   },
   "1503541091": {
@@ -10984,7 +10984,6 @@
     "youtube": "u4fVjhYxqWU", "abs_start": 0, "abs_end": 21855, "duration": 21855,
     "name": "The Pale (демо) / Auver / Control Room Alpha / Cain / Life Beyond / Trash Horror Collection - After Midnight / Enter & Survey / Our Lady of the Drowned Lake / Satan's Baby Doll / Good Boy / Stroll Prototype / Hausmeister / One Last Breath (демо) / Iron Lung #1",
     "date": "2022-07-31",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1548174786.torrent",
     "games": ["single", "trash-horror", "first-2022", "iron-lung"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1548174786.ass"
   },
@@ -11287,5 +11286,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1602639686.torrent",
     "games": ["yakuza-0"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1602639686+0.ass"
+  },
+  "1603602197": {
+    "abs_start": 0, "abs_end": 18495, "duration": 0,
+    "name": "The Fridge Is Red - Прохождение / Trash Horror Collection 2 - Poop Killer 4",
+    "date": "2022-09-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1603602197.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1603602197.torrent",
+    "games": ["red-bridge", "trash-horror-2"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1603602197.ass"
   }
 }

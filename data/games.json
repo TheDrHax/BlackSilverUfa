@@ -3880,6 +3880,9 @@
       { "segment": "1596223040", "subrefs": [
         { "name": "We Are Not Alone", "start": 11785 },
         { "name": "The House of Rats", "start": 13670 }
+      ] },
+      { "segment": "1603602197", "subrefs": [
+        { "name": "Poop Killer 4", "start": 16874 }
       ] }
     ]
   },
@@ -6039,7 +6042,6 @@
       ] },
       { "segment": "1502569152", "subrefs": [
         { "name": "Anger Foot", "start": 13101 },
-        { "name": "The Fridge Is Red (демо)", "start": 14441 },
         { "name": "Sker Ritual (демо)", "start": 17368 },
         { "name": "The Last Worker (демо)", "start": 18104 },
         { "name": "Midnight Fight Express (демо)", "start": 19572 }
@@ -6165,6 +6167,19 @@
       { "segment": "1595342822", "subrefs": [
         { "name": "Whateverland", "start": 1518 },
         { "name": "S.P.A.T.", "start": 5265 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Fridge Is Red",
+    "category": "finished",
+    "id": "red-bridge",
+    "streams": [
+      { "segment": "1502569152", "subrefs": [
+        { "name": "Демо", "start": 14441 }
+      ] },
+      { "segment": "1603602197", "subrefs": [
+        { "name": "Прохождение", "start": 1983 }
       ] }
     ]
   },
