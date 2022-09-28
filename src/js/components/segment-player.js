@@ -219,7 +219,7 @@ export default class SegmentPlayer extends React.Component {
   renderPlayer() {
     const {
       segmentRef: {
-        start, end,
+        end,
         force_start: forceStart,
       },
       segment: {
@@ -232,7 +232,7 @@ export default class SegmentPlayer extends React.Component {
     const playerProps = {
       youtube,
       direct,
-      start,
+      start: autostart,
       autostart,
       end,
       forceStart,
