@@ -5440,9 +5440,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v498846687.ass"
   },
   "499849877": {
-    "youtube": "zrBHeaCWCfg", "official": false, "abs_start": 0, "abs_end": 14081, "duration": 14081,
+    "abs_start": 0, "abs_end": 14064, "duration": 0,
     "name": "Благотворительные стримы #5 / Cooking Simulator / House Flipper",
     "date": "2019-10-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/499849877.mp4",
     "games": ["charity", "first-2019"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v499849877.ass"
   },
@@ -11027,7 +11028,6 @@
     "youtube": "gJ_J2O3moXg", "abs_start": 0, "abs_end": 26039, "duration": 26039,
     "name": "Serious Duke 3D / We Were Here Forever",
     "date": "2022-08-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1555820842.torrent",
     "games": ["first-2022", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1555820842.ass"
   },
@@ -11035,7 +11035,6 @@
     "youtube": "c35IRNWUc9g", "abs_start": 0, "abs_end": 9501, "duration": 9501,
     "name": "SCP: Fractured Minds (демо) / Peepo Island #6",
     "date": "2022-08-10",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1557831331.torrent",
     "games": ["first-2022", "peepo-island"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1557831331.ass"
   },
@@ -11305,5 +11304,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1604386613.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1604386613.ass"
+  },
+  "1605248642": {
+    "abs_start": 0, "abs_end": 29427, "duration": 0,
+    "name": "Yakuza 0 #3",
+    "date": "2022-09-30",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1605248642.mp4",
+    "cuts": [[20017, 20047]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1605248642.torrent",
+    "games": ["yakuza-0"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1605248642+0.ass"
   }
 }
