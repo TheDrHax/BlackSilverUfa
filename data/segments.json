@@ -11036,7 +11036,6 @@
     "youtube": "sz0Xb8425rE", "abs_start": 0, "abs_end": 22053, "duration": 22053,
     "name": "Iron Lung #2 / From The Darkness / I'm on Observation Duty - Часть 5 #2 / Cult of the Lamb #1",
     "date": "2022-08-11",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1558782985.torrent",
     "games": ["iron-lung", "single", "observation-duty", "cult-ot-lamb"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1558782985.ass"
   },
@@ -11306,5 +11305,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1605248642.torrent",
     "games": ["yakuza-0"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1605248642+0.ass"
+  },
+  "1607244038": {
+    "abs_start": 0, "abs_end": 26542, "duration": 0,
+    "name": "Scorn (пролог) / Go Home Annie: An SCP Game (демо) / Convenient / Lazaret (демо) / Late Night Mop / The Death: Than Trung",
+    "date": "2022-10-02",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1607244038.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1607244038.torrent",
+    "games": ["single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1607244038.ass"
   }
 }
