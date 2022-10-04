@@ -11321,5 +11321,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1608110648.torrent",
     "games": ["first-2022", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1608110648+0.ass"
+  },
+  "1608964216": {
+    "abs_start": 0, "abs_end": 16077, "duration": 0,
+    "name": "Yakuza 0 #4",
+    "date": "2022-10-04",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1608964216.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1608964216.torrent",
+    "games": ["yakuza-0"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1608964216.ass"
   }
 }
