@@ -6188,6 +6188,11 @@
         { "name": "Dark Light", "start": 938 },
         { "name": "Electrician Simulator", "start": 7740 },
         { "name": "Priest Simulator", "start": 13223 }
+      ] },
+      { "segment": "1614024019", "subrefs": [
+        { "name": "Final Fantasy VII", "start": 3826 },
+        { "name": "Castlevania: Symphony of the Night", "start": 10697 },
+        { "name": "The Adventures of Lomax", "start": 15853 }
       ] }
     ]
   },
@@ -10677,6 +10682,9 @@
       ] },
       { "segment": "1586147183", "subrefs": [
         { "name": "7" }
+      ] },
+      { "segment": "1614024019", "subrefs": [
+        { "name": "8" }
       ] }
     ]
   },
