@@ -485,9 +485,10 @@
     "games": ["hitman"]
   },
   "001607030": {
-    "youtube": "gU8s-7orIqU", "official": false, "abs_start": 0, "abs_end": 14406, "duration": 14406,
+    "abs_start": 0, "abs_end": 14406, "duration": 0,
     "name": "Dark Souls 3 #7",
     "date": "2016-07-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/001607030.mp4",
     "games": ["ds3"]
   },
   "001607100": {
@@ -7106,9 +7107,10 @@
     "note": "Стрим падал 3 раза. 2 части склеены в одну запись. 1 часть длиной 50 секунд отброшена."
   },
   "729970116": {
-    "youtube": "8DKpxtGWNHM", "official": false, "abs_start": 0, "abs_end": 26030, "duration": 26030,
+    "abs_start": 0, "abs_end": 26092, "duration": 0,
     "name": "Marvel's Avengers #3 / Tony Hawk's Pro Skater 1+2",
     "date": "2020-09-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/729970116.mp4",
     "games": ["marvel-avengers", "first-2020"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v729970116.ass"
   },
@@ -11049,7 +11051,6 @@
     "youtube": "uoOQYh1KIds", "abs_start": 0, "abs_end": 21591, "duration": 21591,
     "name": "The Hobbit #1",
     "date": "2022-08-13",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1560730593.torrent",
     "games": ["hobbit"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1560730593.ass"
   },
