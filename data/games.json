@@ -686,6 +686,23 @@
       ] },
       { "segment": "1587098639", "subrefs": [
         { "name": "The Long Drive", "start": 4752 }
+      ] },
+      { "segment": "1618459269", "subrefs": [
+        { "name": "Tales of Terror", "start": 13316 },
+        { "name": "Escape Memoirs: Mini Stories", "start": 21583 }
+      ] }
+    ]
+  },
+  {
+    "name": "Horrors of Space",
+    "category": "co-op",
+    "id": "horrors-of-space",
+    "streams": [
+      { "segment": "1061050549", "subrefs": [
+        { "name": "Демо", "start": 19113 }
+      ] },
+      { "segment": "1618459269", "subrefs": [
+        { "name": "1", "start": 14471 }
       ] }
     ]
   },
@@ -1135,6 +1152,9 @@
       ] },
       { "segment": "781406533", "subrefs": [
         { "name": "2", "start": 21479 }
+      ] },
+      { "segment": "1618459269", "subrefs": [
+        { "name": "3", "start": 18045 }
       ] }
     ]
   },
@@ -1595,7 +1615,10 @@
         { "name": "Часть 2 #2", "start": 11238 }
       ] },
       { "segment": "1125993129", "subrefs": [
-        { "name": "Часть 3", "start": 15237 }
+        { "name": "Часть 3 #1", "start": 15237 }
+      ] },
+      { "segment": "1618459269", "subrefs": [
+        { "name": "Часть 3 #2", "start": 17047 }
       ] }
     ]
   },
@@ -3855,6 +3878,9 @@
       { "segment": "1608110648", "subrefs": [
         { "name": "Apocalyptic Vibes (демо)", "start": 3976 },
         { "name": "The Bathhouse", "start": 14459 }
+      ] },
+      { "segment": "1618459269", "subrefs": [
+        { "name": "Unusual Findings (демо)", "start": 10805 }
       ] }
     ]
   },
@@ -5764,7 +5790,6 @@
         { "name": "Super Bomberman R Online", "start": 20975 }
       ] },
       { "segment": "1061050549", "subrefs": [
-        { "name": "Horrors of Space (демо)", "start": 19113 },
         { "name": "Rabbit Hole (демо)", "start": 19914 }
       ] },
       { "segment": "1066067703", "subrefs": [
@@ -6193,6 +6218,11 @@
         { "name": "Final Fantasy VII", "start": 3826 },
         { "name": "Castlevania: Symphony of the Night", "start": 10697 },
         { "name": "The Adventures of Lomax", "start": 15853 }
+      ] },
+      { "segment": "1618459269", "subrefs": [
+        { "name": "Chasm: The Rift (демо)", "start": 1063 },
+        { "name": "Dredge (демо)", "start": 3090 },
+        { "name": "Scars Above (демо)", "start": 5921 }
       ] }
     ]
   },

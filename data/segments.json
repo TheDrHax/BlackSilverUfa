@@ -8898,9 +8898,9 @@
   },
   "1061050549": {
     "youtube": "so-xSwlGgLQ", "official": false, "abs_start": 0, "abs_end": 22735, "duration": 22735,
-    "name": "They Are Here (демо) / Last Village (демо) / Rocket Stop Incident (демо) / Dagon (демо) / Interference (демо) / Tormented Souls / Ebola 2 Survival (демо) / Horrors of Space (демо) / Rabbit Hole (демо)",
+    "name": "They Are Here (демо) / Last Village (демо) / Rocket Stop Incident (демо) / Dagon (демо) / Interference (демо) / Tormented Souls / Ebola 2 Survival (демо) / Horrors of Space - Демо / Rabbit Hole (демо)",
     "date": "2021-06-19",
-    "games": ["single", "first-2021"],
+    "games": ["single", "horrors-of-space", "first-2021"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1061050549.ass"
   },
   "1062093790": {
@@ -9284,7 +9284,7 @@
   },
   "1125993129": {
     "youtube": "5eXT4wrYVGo", "abs_start": 0, "abs_end": 31849, "duration": 31849,
-    "name": "Ghost of Tsushima - Director's Cut / Half Dead - Часть 3 / Chased by Darkness / Labyrinthine #2",
+    "name": "Ghost of Tsushima - Director's Cut / Half Dead - Часть 3 #1 / Chased by Darkness / Labyrinthine #2",
     "date": "2021-08-22",
     "games": ["tsushima", "half-dead", "co-op", "labyrinthine"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1125993129.ass"
@@ -11337,5 +11337,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1614024019.torrent",
     "games": ["retro", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1614024019.ass"
+  },
+  "1618459269": {
+    "abs_start": 0, "abs_end": 27040, "duration": 0,
+    "name": "Chasm: The Rift (демо) / Dredge (демо) / Scars Above (демо) / Unusual Findings (демо) / Tales of Terror / Horrors of Space #1 / Half Dead - Часть 3 #2 / Sign of Silence #3 / Escape Memoirs: Mini Stories",
+    "date": "2022-10-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1618459269.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1618459269.torrent",
+    "games": ["first-2022", "single", "co-op", "horrors-of-space", "half-dead", "sign-of-silence"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1618459269.ass"
   }
 }
