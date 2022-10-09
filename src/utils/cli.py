@@ -525,6 +525,9 @@ def main(argv=None):
 
             commit_msg = f'Изменение сегмента {segment.hash}'
 
+        if args['add'] or args['match']:
+            streams.enable_fallbacks()
+
         if args['add']:
             segment = cmd_add(stream, segment_kwargs)
 
