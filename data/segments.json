@@ -4709,9 +4709,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
   },
   "436769739.3": {
-    "youtube": "Y1e8veap9_0", "abs_start": 24585, "abs_end": 26712, "duration": 2127,
+    "abs_start": 0, "abs_end": 26750, "duration": 0,
     "name": "неПрофессиональный E3 2019 - Devolver Digital",
     "date": "2019-06-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/436769739.mp4",
     "games": ["e3_2019"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
   },
@@ -11058,7 +11059,6 @@
     "youtube": "c-iFtnSKLwQ", "abs_start": 0, "abs_end": 17320, "duration": 17320,
     "name": "The Nameless (демо) / ROMUT / Another Princess is in Our Castle (демо) / Dinner With Strangers (демо) / Dread X Collection: The Hunt / Home / SCP: Nukalypse #2 / Luggage / Soles' Quay / The Polaroid Killer / There is a Man in the Attic / The Hole in the Car",
     "date": "2022-08-14",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1561677559.torrent",
     "games": ["single", "first-2022", "scp-nukalypse"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1561677559.ass"
   },
