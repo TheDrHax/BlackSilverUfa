@@ -1834,10 +1834,10 @@
         { "name": "3" }
       ] },
       { "segment": "436769739", "subrefs": [
-        { "name": "4 (часть 1)" }
+        { "name": "4 (часть 1)", "start": 415 }
       ] },
-      { "segment": "436769739.1", "subrefs": [
-        { "name": "4 (часть 2)" }
+      { "segment": "436769739.2", "subrefs": [
+        { "name": "4 (часть 2)", "start": 9297 }
       ] },
       { "segment": "437135971", "subrefs": [
         { "name": "5 (часть 1)" }
@@ -1950,7 +1950,7 @@
       { "segment": "374556455", "subrefs": [
         { "name": "4", "start": 10055 }
       ] },
-      { "segment": "436769739.1", "subrefs": [
+      { "segment": "436769739.2", "subrefs": [
         { "name": "5", "start": 16961 }
       ] },
       { "segment": "437135971.2", "subrefs": [
@@ -2095,7 +2095,7 @@
       { "segment": "423369283", "subrefs": [
         { "name": "12", "start": 8005 }
       ] },
-      { "segment": "436769739.1", "subrefs": [
+      { "segment": "436769739.2", "subrefs": [
         { "name": "13", "start": 13642 }
       ] },
       { "segment": "445866715", "subrefs": [
@@ -2878,11 +2878,11 @@
       { "segment": "436769739", "subrefs": [
         { "name": "Microsoft", "start": 3399 }
       ] },
-      { "segment": "436769739.2", "subrefs": [
-        { "name": "Bethesda" }
-      ] },
       { "segment": "436769739.3", "subrefs": [
-        { "name": "Devolver Digital" }
+        { "name": "Bethesda", "start": 19536 }
+      ] },
+      { "segment": "436769739.1", "subrefs": [
+        { "name": "Devolver Digital", "start": 24627 }
       ] },
       { "segment": "437135971", "subrefs": [
         { "name": "PC Gaming Show", "start": 3210 }

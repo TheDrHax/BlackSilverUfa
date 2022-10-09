@@ -332,7 +332,7 @@
     "games": ["heavy-rain"]
   },
   "001602291": {
-    "abs_start": 0, "abs_end": 5794, "duration": 0,
+    "abs_start": 0, "abs_end": 5794, "duration": 5794,
     "name": "Heavy Rain #1 (часть 2)",
     "date": "2016-02-29",
     "direct": "https://bsufiles.thedrhax.pw/streams/001602291.mp4",
@@ -485,7 +485,7 @@
     "games": ["hitman"]
   },
   "001607030": {
-    "abs_start": 0, "abs_end": 14406, "duration": 0,
+    "abs_start": 0, "abs_end": 14405, "duration": 14405,
     "name": "Dark Souls 3 #7",
     "date": "2016-07-03",
     "direct": "https://bsufiles.thedrhax.pw/streams/001607030.mp4",
@@ -4695,24 +4695,24 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
   },
   "436769739.1": {
+    "abs_start": 0, "abs_end": 26711, "duration": 26711,
+    "name": "неПрофессиональный E3 2019 - Devolver Digital",
+    "date": "2019-06-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/436769739.mp4",
+    "games": ["e3_2019"],
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
+  },
+  "436769739.2": {
     "youtube": "0T-W0GETxHc", "abs_start": 9197, "abs_end": 19303, "duration": 10106,
     "name": "PlayerUnknown's Battlegrounds #4 (часть 2) / Своя Игра #13 / Крокодил #5",
     "date": "2019-06-10",
     "games": ["pubg", "sigame", "crocodile"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
   },
-  "436769739.2": {
+  "436769739.3": {
     "youtube": "_YgUJu85-Vk", "abs_start": 19536, "abs_end": 24586, "duration": 5050,
     "name": "неПрофессиональный E3 2019 - Bethesda",
     "date": "2019-06-10",
-    "games": ["e3_2019"],
-    "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
-  },
-  "436769739.3": {
-    "abs_start": 0, "abs_end": 26750, "duration": 0,
-    "name": "неПрофессиональный E3 2019 - Devolver Digital",
-    "date": "2019-06-10",
-    "direct": "https://bsufiles.thedrhax.pw/streams/436769739.mp4",
     "games": ["e3_2019"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
   },
@@ -7108,7 +7108,7 @@
     "note": "Стрим падал 3 раза. 2 части склеены в одну запись. 1 часть длиной 50 секунд отброшена."
   },
   "729970116": {
-    "abs_start": 0, "abs_end": 26092, "duration": 0,
+    "abs_start": 0, "abs_end": 26030, "duration": 26030,
     "name": "Marvel's Avengers #3 / Tony Hawk's Pro Skater 1+2",
     "date": "2020-09-03",
     "direct": "https://bsufiles.thedrhax.pw/streams/729970116.mp4",
@@ -10990,7 +10990,7 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1548174786.ass"
   },
   "1550107736": {
-    "abs_start": 0, "abs_end": 18265, "duration": 0,
+    "abs_start": 0, "abs_end": 18232, "duration": 18232,
     "name": "The Mortuary Assistant #1",
     "date": "2022-08-02",
     "direct": "https://bsufiles.thedrhax.pw/streams/1550107736.mp4",
@@ -11112,7 +11112,7 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1573991268.ass"
   },
   "1575034539": {
-    "abs_start": 0, "abs_end": 10623, "duration": 0,
+    "abs_start": 0, "abs_end": 10520, "duration": 10520,
     "name": "",
     "date": "2022-08-28",
     "direct": "https://bsufiles.thedrhax.pw/streams/1575034539.mp4",
@@ -11121,7 +11121,7 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1575034539.ass"
   },
   "1575155040": {
-    "abs_start": 0, "abs_end": 11197, "duration": 0,
+    "abs_start": 0, "abs_end": 11190, "duration": 11190,
     "name": "",
     "date": "2022-08-28",
     "direct": "https://bsufiles.thedrhax.pw/streams/1575155040.mp4",
