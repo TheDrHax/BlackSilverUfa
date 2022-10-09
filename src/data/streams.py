@@ -1,5 +1,6 @@
 import attr
 import json
+import sys
 from enum import Enum
 from cached_property import cached_property
 from typing import Callable, List, Tuple, Dict, Any, Union
@@ -238,12 +239,33 @@ class Segment:
             raise Exception(f'`{" ".join(cmd)}` exited with '
                             f'non-zero code {out.returncode}')
 
+    @staticmethod
+    def _duration_direct(url: str) -> int:
+        cmd = ['ffprobe',
+               '-v', 'error',
+               '-select_streams', 'v:0',
+               '-show_entries', 'stream=duration',
+               '-of', 'json',
+               url]
+        out = run(cmd, stdout=PIPE)
+
+        if out.returncode == 0:
+            stdout = out.stdout.decode('utf-8')
+            t = json.loads(stdout)['streams'][0]['duration'].split('.')[0]
+            return int(Timecode(t))
+        else:
+            print(out.stderr.decode('utf-8'), file=sys.stderr)
+            raise Exception(f'`{" ".join(cmd)}` exited with '
+                            f'non-zero code {out.returncode}')
+
     @property
     def duration(self):
         if self._duration != 0:
             return self._duration
         elif self.youtube:
             return Timecode(self._duration_youtube(self.youtube))
+        elif self.direct:
+            return Timecode(self._duration_direct(self.direct))
         else:
             return Timecode(0)
 
