@@ -1,10 +1,10 @@
 # docker run --privileged --rm tonistiigi/binfmt --install all
-# docker buildx build --push --platform linux/arm64/v8,linux/amd64 -t thedrhax/buildenv-blackufa .
+# docker buildx build --push --platform linux/arm64/v8,linux/amd64 -t thedrhax/buildenv-blackufa -f build/Dockerfile .
 
 FROM python:3.9-slim
 
 RUN apt update \
- && apt -y install build-essential git openssh-client curl \
+ && apt -y install build-essential git openssh-client curl ffmpeg \
  && apt clean
 
 RUN useradd -m user
