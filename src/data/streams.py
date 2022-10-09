@@ -1,6 +1,7 @@
 import attr
 import json
 import sys
+import requests
 from enum import Enum
 from cached_property import cached_property
 from typing import Callable, List, Tuple, Dict, Any, Union
@@ -240,6 +241,9 @@ class Segment:
                             f'non-zero code {out.returncode}')
 
     @staticmethod
+    @cached('duration-direct-{0[0]}', store=None)
+    @cached('duration-direct-{0[0]}',
+            lambda url: requests.head(url).headers['content-length'])
     def _duration_direct(url: str) -> int:
         cmd = ['ffprobe',
                '-v', 'error',
