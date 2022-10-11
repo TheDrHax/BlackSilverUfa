@@ -60,8 +60,8 @@ HASH_SUFFIX = '--hash'
 
 
 def cached(key_format: str,
-                 hash_func: Union[Callable[..., str], None] = None,
-                 store: Union[Cache, None] = cache):
+           hash_func: Union[Callable[..., str], None] = None,
+           store: Union[Cache, None] = cache):
 
     if store is None:
         store = Cache()

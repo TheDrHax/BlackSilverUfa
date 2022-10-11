@@ -710,8 +710,7 @@ export default class SegmentPlayer extends React.Component {
                     )}
 
                     {subtitles && subtitlesInTab && (
-                
-          <Tab eventKey="chat" title="Чат">
+                      <Tab eventKey="chat" title="Чат">
                         {!fullscreen && (
                           <Reparentable el={chatContainer} className="flex-1-1-0" />
                         )}

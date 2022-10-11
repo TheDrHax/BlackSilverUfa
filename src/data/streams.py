@@ -258,7 +258,6 @@ class Segment:
             t = json.loads(stdout)['streams'][0]['duration'].split('.')[0]
             return int(Timecode(t))
         else:
-            print(out.stderr.decode('utf-8'), file=sys.stderr)
             raise Exception(f'`{" ".join(cmd)}` exited with '
                             f'non-zero code {out.returncode}')
 
