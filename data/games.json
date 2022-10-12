@@ -3879,9 +3879,6 @@
         { "name": "Apocalyptic Vibes (демо)", "start": 3976 },
         { "name": "The Bathhouse", "start": 14459 }
       ] },
-      { "segment": "1618459269", "subrefs": [
-        { "name": "Unusual Findings (демо)", "start": 10805 }
-      ] },
       { "segment": "1619465701", "subrefs": [
         { "name": "Kona II: Brume (демо)", "start": 1408 },
         { "name": "The Classrooms (демо)", "start": 5232 },
@@ -3890,6 +3887,22 @@
         { "name": "Broken Through", "start": 12673 },
         { "name": "Anthology of Fear (демо)", "start": 18198 },
         { "name": "On One's Own", "start": 20371 }
+      ] },
+      { "segment": "1622143449", "subrefs": [
+        { "name": "Forever Skies (демо)", "start": 10646 }
+      ] }
+    ]
+  },
+  {
+    "name": "Unusual Findings",
+    "category": "ongoing",
+    "id": "unusual-findings",
+    "streams": [
+      { "segment": "1618459269", "subrefs": [
+        { "name": "Демо", "start": 10805 }
+      ] },
+      { "segment": "1622143449", "subrefs": [
+        { "name": "1", "start": 14701 }
       ] }
     ]
   },

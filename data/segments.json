@@ -11072,7 +11072,6 @@
     "youtube": "9-J3hJeP7co", "abs_start": 0, "abs_end": 18529, "duration": 18529,
     "name": "Way of the Hunter",
     "date": "2022-08-17",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1564505950.torrent",
     "games": ["co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1564505950.ass"
   },
@@ -11338,10 +11337,10 @@
   },
   "1618459269": {
     "youtube": "Uu7yEaUNDTE", "abs_start": 0, "abs_end": 27034, "duration": 27034,
-    "name": "Chasm: The Rift (демо) / Dredge (демо) / Scars Above (демо) / Unusual Findings (демо) / Tales of Terror / Horrors of Space #1 / Half Dead - Часть 3 #2 / Sign of Silence #3 / Escape Memoirs: Mini Stories",
+    "name": "Chasm: The Rift (демо) / Dredge (демо) / Scars Above (демо) / Unusual Findings - Демо / Tales of Terror / Horrors of Space #1 / Half Dead - Часть 3 #2 / Sign of Silence #3 / Escape Memoirs: Mini Stories",
     "date": "2022-10-08",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1618459269.torrent",
-    "games": ["first-2022", "single", "co-op", "horrors-of-space", "half-dead", "sign-of-silence"],
+    "games": ["first-2022", "unusual-findings", "co-op", "horrors-of-space", "half-dead", "sign-of-silence"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1618459269.ass"
   },
   "1619465701": {
@@ -11352,5 +11351,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1619465701.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1619465701+0.ass"
+  },
+  "1622143449": {
+    "abs_start": 0, "abs_end": 19441, "duration": 19441,
+    "name": "Forever Skies (демо) / Unusual Findings #1",
+    "date": "2022-10-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1622143449.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1622143449.torrent",
+    "games": ["single", "unusual-findings"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1622143449.ass"
   }
 }
