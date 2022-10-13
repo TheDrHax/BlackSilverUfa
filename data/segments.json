@@ -11079,7 +11079,6 @@
     "youtube": "LAFon2jGXXk", "abs_start": 0, "abs_end": 36605, "duration": 36605,
     "name": "Saints Row (2022) / Gamescom #2022",
     "date": "2022-08-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1570142913.torrent",
     "games": ["first-2022", "gamescom"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1570142913.ass"
   },
@@ -11359,5 +11358,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1622143449.torrent",
     "games": ["single", "unusual-findings"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1622143449.ass"
+  },
+  "1623036890": {
+    "abs_start": 0, "abs_end": 15997, "duration": 15997,
+    "name": "Overwatch 2",
+    "date": "2022-10-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1623036890.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1623036890.torrent",
+    "games": ["co-op"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1623036890.ass"
   }
 }
