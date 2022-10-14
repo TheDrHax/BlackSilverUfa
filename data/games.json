@@ -3871,7 +3871,6 @@
         { "name": "Night At the Gates of Hell", "start": 6625 }
       ] },
       { "segment": "1607244038", "subrefs": [
-        { "name": "Scorn (пролог)", "start": 1570 },
         { "name": "Go Home Annie: An SCP Game (демо)", "start": 6453 },
         { "name": "Convenient", "start": 9725 },
         { "name": "Lazaret (демо)", "start": 12289 },
@@ -3893,6 +3892,19 @@
       ] },
       { "segment": "1622143449", "subrefs": [
         { "name": "Forever Skies (демо)", "start": 10646 }
+      ] }
+    ]
+  },
+  {
+    "name": "Scorn",
+    "category": "finished",
+    "id": "scorn",
+    "streams": [
+      { "segment": "1607244038", "subrefs": [
+        { "name": "Пролог", "start": 1570 }
+      ] },
+      { "segment": "1623827060", "subrefs": [
+        { "name": "Прохождение", "start": 456 }
       ] }
     ]
   },

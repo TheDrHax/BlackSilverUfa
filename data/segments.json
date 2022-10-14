@@ -11303,10 +11303,10 @@
   },
   "1607244038": {
     "youtube": "fl-l8EVRTRM", "abs_start": 0, "abs_end": 26520, "duration": 26520,
-    "name": "Scorn (пролог) / Go Home Annie: An SCP Game (демо) / Convenient / Lazaret (демо) / Late Night Mop / The Death: Than Trung",
+    "name": "Scorn - Пролог / Go Home Annie: An SCP Game (демо) / Convenient / Lazaret (демо) / Late Night Mop / The Death: Than Trung",
     "date": "2022-10-02",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1607244038.torrent",
-    "games": ["single"],
+    "games": ["scorn", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1607244038.ass"
   },
   "1608110648": {
@@ -11367,5 +11367,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1623036890.torrent",
     "games": ["co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1623036890.ass"
+  },
+  "1623827060": {
+    "abs_start": 0, "abs_end": 20528, "duration": 20528,
+    "name": "Scorn - Прохождение",
+    "date": "2022-10-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1623827060.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1623827060.torrent",
+    "games": ["scorn"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1623827060.ass"
   }
 }
