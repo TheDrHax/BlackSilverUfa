@@ -693,6 +693,10 @@
       ] },
       { "segment": "1623036890", "subrefs": [
         { "name": "Overwatch 2", "start": 3251 }
+      ] },
+      { "segment": "1624846104", "subrefs": [
+        { "name": "Warhammer 40,000: Darktide (бета)", "start": 8443 },
+        { "name": "Ghostbusters: Spirits Unleashed", "start": 16061 }
       ] }
     ]
   },
@@ -6264,6 +6268,9 @@
       { "segment": "1619465701", "subrefs": [
         { "name": "The Polaris Incident", "start": 9499 },
         { "name": "The Chaput's Baby", "start": 16588 }
+      ] },
+      { "segment": "1624846104", "subrefs": [
+        { "name": "Cultic", "start": 2062 }
       ] }
     ]
   },

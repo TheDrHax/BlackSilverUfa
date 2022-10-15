@@ -11087,7 +11087,6 @@
     "name": "EXP: War Trauma / Outbreak Island: Pendulum / Soulstice (демо) / Mirror Forge (демо) / Super Catboy",
     "date": "2022-08-25",
     "cuts": [[17799, 17829]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1572044648.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1572044648+0.ass"
   },
@@ -11374,5 +11373,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1623827060.torrent",
     "games": ["scorn"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1623827060.ass"
+  },
+  "1624846104": {
+    "abs_start": 0, "abs_end": 22397, "duration": 22397,
+    "name": "Cultic / Warhammer 40,000: Darktide (бета) / Ghostbusters: Spirits Unleashed",
+    "date": "2022-10-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1624846104.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1624846104.torrent",
+    "games": ["first-2022", "co-op"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1624846104.ass"
   }
 }
