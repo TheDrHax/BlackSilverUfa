@@ -11094,7 +11094,6 @@
     "youtube": "qFS4leOWwxM", "abs_start": 0, "abs_end": 22584, "duration": 22584,
     "name": "Вечер Ретро Игр (ВРИ) #6 / Pepsiman / Ballerburg / Dune 2000 / Driver",
     "date": "2022-08-26",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1573052503.torrent",
     "games": ["retro", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1573052503.ass"
   },
@@ -11381,5 +11380,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1624846104.torrent",
     "games": ["first-2022", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1624846104.ass"
+  },
+  "1625850313": {
+    "abs_start": 0, "abs_end": 21371, "duration": 21371,
+    "name": "Nancy Drew: Shadow at the Water's Edge (Нэнси Дрю: Тень у воды)",
+    "date": "2022-10-16",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1625850313.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1625850313.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1625850313.ass"
   }
 }
