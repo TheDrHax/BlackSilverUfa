@@ -10976,10 +10976,10 @@
   },
   "1547156682": {
     "youtube": "cWeYJhpUmS0", "abs_start": 0, "abs_end": 25153, "duration": 25123,
-    "name": "Scathe - Релиз / Survival: Fountain of Youth / Ghost Watchers #1 / Purple War / Peepo Island #4",
+    "name": "Scathe - Релиз / Survival: Fountain of Youth / Ghost Watchers #1 / Purple War #1 / Peepo Island #4",
     "date": "2022-07-30",
     "cuts": [[9344, 9374]],
-    "games": ["scathe", "first-2022", "ghost-watchers", "peepo-island"],
+    "games": ["scathe", "first-2022", "ghost-watchers", "purple-war", "peepo-island"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1547156682+0.ass"
   },
   "1548174786": {
@@ -11106,20 +11106,16 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1573991268.ass"
   },
   "1575034539": {
-    "abs_start": 0, "abs_end": 10520, "duration": 10520,
+    "abs_start": 0, "abs_end": 10623, "duration": 0,
     "name": "",
     "date": "2022-08-28",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1575034539.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1575034539.torrent",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1575034539.ass"
   },
   "1575155040": {
-    "abs_start": 0, "abs_end": 11190, "duration": 11190,
+    "abs_start": 0, "abs_end": 11197, "duration": 0,
     "name": "",
     "date": "2022-08-28",
-    "direct": "https://bsufiles.thedrhax.pw/streams/1575155040.mp4",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1575155040.torrent",
     "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1575155040.ass"
   },
@@ -11389,5 +11385,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1625850313.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1625850313.ass"
+  },
+  "1627495658": {
+    "abs_start": 0, "abs_end": 33008, "duration": 32978,
+    "name": "A Plague Tale: Requiem / Purple War #2",
+    "date": "2022-10-18",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1627495658.mp4",
+    "cuts": [[48, 78]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1627495658.torrent",
+    "games": ["single", "purple-war"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1627495658+0.ass"
   }
 }

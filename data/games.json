@@ -3896,6 +3896,9 @@
       ] },
       { "segment": "1622143449", "subrefs": [
         { "name": "Forever Skies (демо)", "start": 10646 }
+      ] },
+      { "segment": "1627495658", "subrefs": [
+        { "name": "A Plague Tale: Requiem", "start": 794 }
       ] }
     ]
   },
@@ -6171,8 +6174,7 @@
         { "name": "Goofy's Hysterical History Tour", "start": 11998 }
       ] },
       { "segment": "1547156682", "subrefs": [
-        { "name": "Survival: Fountain of Youth", "start": 5903 },
-        { "name": "Purple War", "start": 13895 }
+        { "name": "Survival: Fountain of Youth", "start": 5903 }
       ] },
       { "segment": "1548174786", "subrefs": [
         { "name": "Enter & Survey", "start": 11592 },
@@ -6274,6 +6276,19 @@
       ] },
       { "segment": "1625850313", "subrefs": [
         { "name": "Nancy Drew: Shadow at the Water's Edge (Нэнси Дрю: Тень у воды)", "start": 469 }
+      ] }
+    ]
+  },
+  {
+    "name": "Purple War",
+    "category": "infinite",
+    "id": "purple-war",
+    "streams": [
+      { "segment": "1547156682", "subrefs": [
+        { "name": "1", "start": 13895 }
+      ] },
+      { "segment": "1627495658", "subrefs": [
+        { "name": "2", "start": 29101 }
       ] }
     ]
   },
