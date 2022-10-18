@@ -9627,16 +9627,18 @@
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1185672025.ass"
   },
   "1186535358": {
-    "youtube": "buhBOPfDs38", "official": false, "abs_start": 0, "abs_end": 26157, "duration": 26157,
+    "abs_start": 0, "abs_end": 26156, "duration": 26156,
     "name": "Marvel's Guardians of the Galaxy #1",
     "date": "2021-10-25",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1186535358.mp4",
     "games": ["marvel-gotg"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1186535358.ass"
   },
   "1187388604": {
-    "youtube": "Mrv-jg-nDY0", "official": false, "abs_start": 0, "abs_end": 29328, "duration": 29328,
+    "abs_start": 0, "abs_end": 29326, "duration": 29326,
     "name": "Marvel's Guardians of the Galaxy #2",
     "date": "2021-10-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1187388604.mp4",
     "games": ["marvel-gotg"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1187388604.ass"
   },
@@ -11131,7 +11133,6 @@
     "youtube": "8VTlHD1tfXA", "abs_start": 0, "abs_end": 21804, "duration": 21804,
     "name": "Security Booth: Director's Cut / The Bridge Curse: Road To Salvation",
     "date": "2022-09-01",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1578740848.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1578740848.ass"
   },
