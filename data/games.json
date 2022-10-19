@@ -3896,9 +3896,19 @@
       ] },
       { "segment": "1622143449", "subrefs": [
         { "name": "Forever Skies (демо)", "start": 10646 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "A Plague Tale: Requiem",
+    "category": "finished",
+    "id": "plague-tale-req",
+    "streams": [
       { "segment": "1627495658", "subrefs": [
-        { "name": "A Plague Tale: Requiem", "start": 794 }
+        { "name": "1", "start": 794 }
+      ] },
+      { "segment": "1628359023", "subrefs": [
+        { "name": "2", "start": 537 }
       ] }
     ]
   },

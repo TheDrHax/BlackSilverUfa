@@ -11383,11 +11383,20 @@
   },
   "1627495658": {
     "youtube": "1J38tnv4oio", "abs_start": 0, "abs_end": 33012, "duration": 32982,
-    "name": "A Plague Tale: Requiem / Purple War #2",
+    "name": "A Plague Tale: Requiem #1 / Purple War #2",
     "date": "2022-10-18",
     "cuts": [[48, 78]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1627495658.torrent",
-    "games": ["single", "purple-war"],
+    "games": ["plague-tale-req", "purple-war"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1627495658+0.ass"
+  },
+  "1628359023": {
+    "abs_start": 0, "abs_end": 38474, "duration": 38474,
+    "name": "A Plague Tale: Requiem #2",
+    "date": "2022-10-19",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1628359023.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1628359023.torrent",
+    "games": ["plague-tale-req"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1628359023.ass"
   }
 }
