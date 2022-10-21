@@ -11136,7 +11136,6 @@
     "youtube": "Iak_0yOzItE", "abs_start": 0, "abs_end": 31227, "duration": 31227,
     "name": "The Last of Us: Part I #1",
     "date": "2022-09-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1579576285.torrent",
     "games": ["tlou"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1579576285.ass"
   },
@@ -11397,5 +11396,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1628359023.torrent",
     "games": ["plague-tale-req"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1628359023.ass"
+  },
+  "1630171647": {
+    "abs_start": 0, "abs_end": 33111, "duration": 33111,
+    "name": "Call of Duty: Modern Warfare II / Resident Evil Village - Замок (демо от 3-го лица)",
+    "date": "2022-10-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1630171647.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1630171647.torrent",
+    "games": ["single", "re8"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1630171647.ass"
   }
 }
