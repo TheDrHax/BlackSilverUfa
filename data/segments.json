@@ -3667,9 +3667,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v358216034.ass"
   },
   "358681563": {
-    "youtube": "Vst4aWBUyGA", "abs_start": 0, "abs_end": 22019, "duration": 22019,
+    "abs_start": 0, "abs_end": 22017, "duration": 22017,
     "name": "Subnautica #5",
     "date": "2019-01-04",
+    "direct": "https://bsufiles.thedrhax.pw/streams/358681563.mp4",
     "games": ["subnautica"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v358681563.ass"
   },
@@ -5623,9 +5624,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v516941489.ass"
   },
   "517802976": {
-    "youtube": "BBwdYelbq6w", "official": false, "abs_start": 0, "abs_end": 21501, "duration": 21501,
+    "abs_start": 0, "abs_end": 21499, "duration": 21499,
     "name": "Grand Theft Auto: Vice City #2",
     "date": "2019-12-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/517802976.mp4",
     "games": ["gta-vice-city"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v517802976.ass"
   },
@@ -6546,9 +6548,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v626564087.ass"
   },
   "628517071": {
-    "youtube": "Vf-lQOvAryc", "abs_start": 0, "abs_end": 22421, "duration": 22421,
+    "abs_start": 0, "abs_end": 22420, "duration": 22420,
     "name": "Maneater #1 / Saints Row: The Third / Streets of Rage 4 #2 / SnowRunner #8",
     "date": "2020-05-22",
+    "direct": "https://bsufiles.thedrhax.pw/streams/628517071.mp4",
     "games": ["maneater", "first-2020", "streets-of-rage-4", "snowrunner"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v628517071.ass"
   },
@@ -7852,9 +7855,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2021/v871972944.ass"
   },
   "873197357": {
-    "youtube": "AinWqdkN7Mc", "official": false, "abs_start": 0, "abs_end": 22476, "duration": 22476,
+    "abs_start": 0, "abs_end": 22474, "duration": 22474,
     "name": "Subnautica: Below Zero #7",
     "date": "2021-01-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/873197357.mp4",
     "games": ["subnautica-bz"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v873197357.ass",
     "note": "В <a href=\"https://youtu.be/_2OBzUeBAZw\">официальной записи</a> Twitch удалил 12 минут звуковой дорожки."
@@ -9639,9 +9643,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1187388604.ass"
   },
   "1188297728": {
-    "youtube": "k9NfsOVExJk", "official": false, "abs_start": 0, "abs_end": 15366, "duration": 15366,
+    "abs_start": 0, "abs_end": 15364, "duration": 15364,
     "name": "Marvel's Guardians of the Galaxy #3",
     "date": "2021-10-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1188297728.mp4",
     "games": ["marvel-gotg"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1188297728.ass"
   },
@@ -11144,7 +11149,6 @@
     "name": "The Last of Us: Part I #2",
     "date": "2022-09-03",
     "cuts": [[17744, 17776]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1580576439.torrent",
     "games": ["tlou"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1580576439+0.ass"
   },
