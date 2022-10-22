@@ -4695,23 +4695,22 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
   },
   "436769739.1": {
-    "abs_start": 0, "abs_end": 26711, "duration": 26711,
-    "name": "неПрофессиональный E3 2019 - Devolver Digital",
-    "date": "2019-06-10",
-    "direct": "https://bsufiles.thedrhax.pw/streams/436769739.mp4",
-    "games": ["e3_2019"],
-    "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
-  },
-  "436769739.2": {
     "youtube": "0T-W0GETxHc", "abs_start": 9197, "abs_end": 19303, "duration": 10106,
     "name": "PlayerUnknown's Battlegrounds #4 (часть 2) / Своя Игра #13 / Крокодил #5",
     "date": "2019-06-10",
     "games": ["pubg", "sigame", "crocodile"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
   },
-  "436769739.3": {
+  "436769739.2": {
     "youtube": "_YgUJu85-Vk", "abs_start": 19536, "abs_end": 24586, "duration": 5050,
     "name": "неПрофессиональный E3 2019 - Bethesda",
+    "date": "2019-06-10",
+    "games": ["e3_2019"],
+    "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
+  },
+  "436769739.3": {
+    "youtube": "aF-OP-3LqRw", "official": false, "abs_start": 24585, "abs_end": 26712, "duration": 2127,
+    "name": "неПрофессиональный E3 2019 - Devolver Digital",
     "date": "2019-06-10",
     "games": ["e3_2019"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v436769739.ass"
