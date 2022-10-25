@@ -1,6 +1,47 @@
 import Loki from 'lokijs';
 import uniq from 'lodash/uniq';
+import MiniSearch from 'minisearch';
+import { tokenize } from './utils/text-utils';
 import loadData from './data.prod';
+
+function createIndex(collection, fields) {
+  const index = new MiniSearch({
+    fields,
+    searchOptions: {
+      prefix: true,
+      fuzzy: 0,
+      combineWith: 'AND',
+    },
+    tokenize,
+  });
+
+  const chainOrig = collection.chain;
+  collection.chain = function () {
+    const chain = chainOrig.call(collection);
+    chain.search = (query) => chain.find({
+      $loki: {
+        $in: index
+          .search(query)
+          .filter(({ terms }) => terms.filter((t) => Number.isNaN(+t)).length > 0)
+          .map(({ id }) => id),
+      },
+    });
+    return chain;
+  };
+
+  collection.search = (query) => collection.chain.search(query).data();
+
+  collection.reindex = () => {
+    index.removeAll();
+    index.addAll(
+      collection
+        .find()
+        .map((item) => ({ ...item, id: item.$loki })),
+    );
+  };
+
+  collection.reindex();
+}
 
 function build([rawSegments, rawCategories, rawGames, timecodes]) {
   const db = new Loki('BSU');
@@ -116,6 +157,9 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
       }
     });
   });
+
+  createIndex(index, ['name']);
+  createIndex(segments, ['name']);
 
   return { segments, categories, index, games, timecodes };
 }

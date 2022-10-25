@@ -37,3 +37,14 @@ export const renderTemplate = (str, vars) => {
 
   return str;
 };
+
+export const tokenize = (text) => (text || '')
+  .toLowerCase()
+  .trim()
+  .replace(/ё/g, 'е')
+  .split(' ')
+  .map((word) => {
+    const match = word.match(/[a-zа-я0-9]+/g);
+    return match ? match.join('') : '';
+  })
+  .filter((w) => w);

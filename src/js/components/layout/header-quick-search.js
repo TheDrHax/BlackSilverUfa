@@ -8,22 +8,18 @@ import PropTypes from 'prop-types';
 import { common as t } from '../../constants/texts';
 // Utils
 import Matomo from '../../matomo';
-import fts from '../../utils/full-text-search';
 import { getSiblingSegments, resolveSegment } from '../../utils/data-utils';
 
 export const MIN_QUERY = 2;
 export const MAX_RESULTS = 20;
 
-export const getByTextMatch = (query, store) => {
-  const data = store.chain().simplesort('date', { desc: true }).data();
-
-  // TODO: dig into it and refactor fts @zaprvalcer
-  return fts(
-    query,
-    data,
-    (item) => item.name,
-  );
-};
+export const getByTextMatch = (query, store) => (
+  store
+    .chain()
+    .search(query)
+    .simplesort('date', { desc: true })
+    .data()
+);
 
 const HeaderQuickSearch = ({ indexStore, segmentsStore }) => {
   const [suggestions, setSuggestions] = useState({

@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 // Utils
 import animateScrollTo from 'animated-scroll-to';
 import Matomo from '../../matomo';
-import fts, { tokenize } from '../../utils/full-text-search';
+import { tokenize } from '../../utils/text-utils';
 // Hooks
 import { useComplexState } from '../../hooks/use-complex-state';
 import { useComplexQueryState, withSquashedDefault } from '../../hooks/use-complex-query-state';
@@ -73,14 +73,12 @@ const executeSearch = ({ data: { segments, index }, mode, filters, sorting }) =>
     .find(query)
     .compoundsort(getSortParams(sorting));
 
-  let data = chain.data();
-
   // Filter by text
   if (tokenize(filters.q).length > 0) {
-    data = fts(filters.q, data, (s) => s.name);
+    chain = chain.search(filters.q);
   }
 
-  return data;
+  return chain.data();
 };
 
 const SCHEMA_FILTERS = {
