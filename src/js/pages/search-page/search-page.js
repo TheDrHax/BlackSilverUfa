@@ -68,15 +68,15 @@ const executeSearch = ({ data: { segments, index }, mode, filters, sorting }) =>
       return [];
   }
 
-  // Find and sort
-  chain = chain
-    .find(query)
-    .compoundsort(getSortParams(sorting));
+  chain = chain.find(query);
 
   // Filter by text
   if (tokenize(filters.q).length > 0) {
     chain = chain.search(filters.q);
   }
+
+  // Sort
+  chain = chain.compoundsort(getSortParams(sorting));
 
   return chain.data();
 };
