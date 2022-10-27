@@ -11152,7 +11152,6 @@
     "youtube": "WsUGfIVEJ-g", "abs_start": 0, "abs_end": 18654, "duration": 18654,
     "name": "The Last of Us: Part I #3 / The Last of Us: Part I - DLC: Left Behind",
     "date": "2022-09-04",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1581571795.torrent",
     "games": ["tlou"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1581571795.ass"
   },
@@ -11420,5 +11419,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1634888055.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1634888055.ass"
+  },
+  "1635763389": {
+    "abs_start": 0, "abs_end": 19497, "duration": 19497,
+    "name": "Luto (демо) / Bughouse / Lunacy: Saint Rhodes (демо) / Skinned Alive / Night Delivery / The Lies We Tell Ourselves (демо)",
+    "date": "2022-10-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1635763389.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1635763389.torrent",
+    "games": ["single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1635763389.ass"
   }
 }
