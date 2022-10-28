@@ -5440,9 +5440,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v498846687.ass"
   },
   "499849877": {
-    "youtube": "68BvYwQzb5A", "official": false, "abs_start": 0, "abs_end": 14080, "duration": 14080,
+    "abs_start": 0, "abs_end": 14079, "duration": 14079,
     "name": "Благотворительные стримы #5 / Cooking Simulator / House Flipper",
     "date": "2019-10-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/499849877.mp4",
     "games": ["charity", "first-2019"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v499849877.ass"
   },
@@ -5531,9 +5532,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v506857937.ass"
   },
   "508178551": {
-    "youtube": "pWllHf0z1vE", "abs_start": 0, "abs_end": 17035, "duration": 17035,
+    "abs_start": 0, "abs_end": 17034, "duration": 17034,
     "name": "Розыгрыш Asus ROG Strix SCAR II / Superliminal / Untitled Goose Game - Первый взгляд",
     "date": "2019-11-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/508178551.mp4",
     "games": ["events", "single", "goose"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v508178551.ass"
   },
@@ -5840,9 +5842,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v534316789.ass"
   },
   "535374681": {
-    "youtube": "zX6_n66fFSA", "official": false, "abs_start": 0, "abs_end": 20519, "duration": 20519,
+    "abs_start": 0, "abs_end": 20518, "duration": 20518,
     "name": "Grand Theft Auto: San Andreas #4",
     "date": "2020-01-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/535374681.mp4",
     "games": ["gta-san-andreas"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v535374681.ass"
   },
@@ -11158,7 +11161,6 @@
     "youtube": "WGHp3z0eRWI", "abs_start": 0, "abs_end": 30520, "duration": 30520,
     "name": "The Last of Us: Part II #1 (заново)",
     "date": "2022-09-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1582452440.torrent",
     "games": ["tlou2"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1582452440.ass"
   },
