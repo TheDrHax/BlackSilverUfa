@@ -11169,7 +11169,6 @@
     "name": "Gloomwood - Ранний доступ",
     "date": "2022-09-06",
     "cuts": [[10349, 10379]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1583467635.torrent",
     "games": ["gloomwood"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1583467635+0.ass"
   },
@@ -11374,10 +11373,10 @@
   },
   "1625850313": {
     "youtube": "Q4f2BtMtNW8", "abs_start": 0, "abs_end": 21375, "duration": 21375,
-    "name": "Nancy Drew: Shadow at the Water's Edge (Нэнси Дрю: Тень у воды)",
+    "name": "Nancy Drew: Shadow at the Water's Edge (Нэнси Дрю: Тень у воды) #1",
     "date": "2022-10-16",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1625850313.torrent",
-    "games": ["first-2022"],
+    "games": ["nancy-drew-satwe"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1625850313.ass"
   },
   "1627495658": {
@@ -11436,5 +11435,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1636658103.torrent",
     "games": ["re8"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1636658103.ass"
+  },
+  "1637667923": {
+    "abs_start": 0, "abs_end": 14670, "duration": 14670,
+    "name": "Nancy Drew: Shadow at the Water's Edge (Нэнси Дрю: Тень у воды) #2",
+    "date": "2022-10-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1637667923.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1637667923.torrent",
+    "games": ["nancy-drew-satwe"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1637667923.ass"
   }
 }

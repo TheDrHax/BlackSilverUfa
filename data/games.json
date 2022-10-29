@@ -6311,9 +6311,6 @@
       { "segment": "1624846104", "subrefs": [
         { "name": "Cultic", "start": 2062 }
       ] },
-      { "segment": "1625850313", "subrefs": [
-        { "name": "Nancy Drew: Shadow at the Water's Edge (Нэнси Дрю: Тень у воды)", "start": 469 }
-      ] },
       { "segment": "1633962812", "subrefs": [
         { "name": "Resident Evil Remake Remake", "start": 2430 },
         { "name": "Off Shore (демо)", "start": 5980 }
@@ -6322,6 +6319,19 @@
         { "name": "Endoparasitic", "start": 8371 },
         { "name": "The Trench", "start": 12558 },
         { "name": "Stay Out of the House", "start": 15276 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nancy Drew: Shadow at the Water's Edge (Нэнси Дрю: Тень у воды)",
+    "category": "ongoing",
+    "id": "nancy-drew-satwe",
+    "streams": [
+      { "segment": "1625850313", "subrefs": [
+        { "name": "1", "start": 469 }
+      ] },
+      { "segment": "1637667923", "subrefs": [
+        { "name": "2", "start": 1211 }
       ] }
     ]
   },
