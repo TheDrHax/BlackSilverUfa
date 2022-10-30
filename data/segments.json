@@ -11174,7 +11174,6 @@
     "youtube": "LUm5rA1b2D8", "abs_start": 0, "abs_end": 19394, "duration": 19394,
     "name": "The Hobbit #3",
     "date": "2022-09-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1585224225.torrent",
     "games": ["hobbit"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1585224225.ass"
   },
@@ -11183,7 +11182,6 @@
     "name": "Вечер Ретро Игр (ВРИ) #7 / NHL 2001 / Monster Bass / Revelations: Persona / Carmageddon II",
     "date": "2022-09-09",
     "cuts": [[10519, 10550]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1586147183.torrent",
     "games": ["retro", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1586147183+0.ass"
   },
@@ -11442,5 +11440,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1637667923.torrent",
     "games": ["nancy-drew-satwe"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1637667923.ass"
+  },
+  "1638619619": {
+    "abs_start": 0, "abs_end": 25856, "duration": 25856,
+    "name": "Alien: Isolation (мод AlienS IsolatioN)",
+    "date": "2022-10-30",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1638619619.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1638619619.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1638619619.ass"
   }
 }
