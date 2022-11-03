@@ -10321,9 +10321,9 @@
   },
   "1299859703": {
     "youtube": "74Cl6DLkaS4", "abs_start": 0, "abs_end": 13483, "duration": 13483,
-    "name": "Blood West / Kingdom of the Dead",
+    "name": "Blood West - Демо / Kingdom of the Dead",
     "date": "2022-02-16",
-    "games": ["first-2022"],
+    "games": ["blood-west", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1299859703.ass"
   },
   "1300779617": {
@@ -11447,13 +11447,33 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1638619619.ass"
   },
   "1642266888": {
-    "abs_start": 0, "abs_end": 11056, "duration": 10909,
-    "name": "Bramble: The Mountain (демо) / Trash Horror Collection 2 - Poop Killer: Origins / Forlorn: The Mysteries of Highshadowland / Trash Horror Collection 2 - Legend Hunters",
+    "abs_start": 0, "abs_end": 11067, "duration": 10909,
+    "name": "",
     "date": "2022-11-03",
     "direct": "https://bsufiles.thedrhax.pw/streams/1642266888.mp4",
-    "cuts": [[681, 709], [817, 840], [7654, 7750]],
+    "cuts": [[681, 709], [817, 840], [7654, 7761]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1642266888.torrent",
-    "games": ["single", "trash-horror-2", "first-2022"],
+    "games": [],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1642266888+0.ass"
+  },
+  "1642407202": {
+    "abs_start": 0, "abs_end": 8300, "duration": 8300,
+    "name": "",
+    "date": "2022-11-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1642407202.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1642407202.torrent",
+    "games": [],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1642407202.ass"
+  },
+  "1642266888,1642407202": {
+    "abs_start": 0, "abs_end": 19360, "duration": 19202,
+    "name": "Bramble: The Mountain (демо) / Trash Horror Collection 2 - Poop Killer: Origins / Forlorn: The Mysteries of Highshadowland / Trash Horror Collection 2 - Legend Hunters / Blood West #1",
+    "date": "2022-11-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1642266888,1642407202.mp4",
+    "offsets": [0, 10902],
+    "cuts": [[681, 709], [817, 840], [7654, 7761]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1642266888,1642407202.torrent",
+    "games": ["single", "trash-horror-2", "first-2022", "blood-west"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1642266888,1642407202+0.ass"
   }
 }

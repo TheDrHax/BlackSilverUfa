@@ -3918,8 +3918,8 @@
         { "name": "Night Delivery", "start": 12098 },
         { "name": "The Lies We Tell Ourselves (демо)", "start": 16319 }
       ] },
-      { "segment": "1642266888", "subrefs": [
-        { "name": "Bramble: The Mountain (демо)", "start": 3234 }
+      { "segment": "1642266888,1642407202", "subrefs": [
+        { "name": "Bramble: The Mountain (демо)", "start": 3183 }
       ] }
     ]
   },
@@ -4000,7 +4000,7 @@
       { "segment": "1603602197", "subrefs": [
         { "name": "Poop Killer 4", "start": 16874 }
       ] },
-      { "segment": "1642266888", "subrefs": [
+      { "segment": "1642266888,1642407202", "subrefs": [
         { "name": "Poop Killer: Origins", "start": 5301 },
         { "name": "Legend Hunters", "start": 9288 }
       ] }
@@ -6057,6 +6057,19 @@
     ]
   },
   {
+    "name": "Blood West",
+    "category": "ongoing",
+    "id": "blood-west",
+    "streams": [
+      { "segment": "1299859703", "subrefs": [
+        { "name": "Демо" }
+      ] },
+      { "segment": "1642266888,1642407202", "subrefs": [
+        { "name": "1", "start": 11101 }
+      ] }
+    ]
+  },
+  {
     "name": "Первый взгляд 2022",
     "category": "first",
     "type": "list",
@@ -6089,7 +6102,6 @@
         { "name": "OlliOlli World" }
       ] },
       { "segment": "1299859703", "subrefs": [
-        { "name": "Blood West" },
         { "name": "Kingdom of the Dead", "start": 10383 }
       ] },
       { "segment": "1300779617", "subrefs": [
@@ -6330,7 +6342,7 @@
       { "segment": "1638619619", "subrefs": [
         { "name": "Alien: Isolation (мод AlienS IsolatioN)", "start": 1099 }
       ] },
-      { "segment": "1642266888", "subrefs": [
+      { "segment": "1642266888,1642407202", "subrefs": [
         { "name": "Forlorn: The Mysteries of Highshadowland", "start": 6907 }
       ] }
     ]
