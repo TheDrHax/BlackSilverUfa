@@ -3917,6 +3917,9 @@
         { "name": "Skinned Alive", "start": 9647 },
         { "name": "Night Delivery", "start": 12098 },
         { "name": "The Lies We Tell Ourselves (демо)", "start": 16319 }
+      ] },
+      { "segment": "1642266888", "subrefs": [
+        { "name": "Bramble: The Mountain (демо)", "start": 3234 }
       ] }
     ]
   },
@@ -3996,6 +3999,10 @@
       ] },
       { "segment": "1603602197", "subrefs": [
         { "name": "Poop Killer 4", "start": 16874 }
+      ] },
+      { "segment": "1642266888", "subrefs": [
+        { "name": "Poop Killer: Origins", "start": 5301 },
+        { "name": "Legend Hunters", "start": 9288 }
       ] }
     ]
   },
@@ -6322,6 +6329,9 @@
       ] },
       { "segment": "1638619619", "subrefs": [
         { "name": "Alien: Isolation (мод AlienS IsolatioN)", "start": 1099 }
+      ] },
+      { "segment": "1642266888", "subrefs": [
+        { "name": "Forlorn: The Mysteries of Highshadowland", "start": 6907 }
       ] }
     ]
   },
