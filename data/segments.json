@@ -11187,7 +11187,6 @@
     "youtube": "sa4oa_tolxc", "abs_start": 0, "abs_end": 19493, "duration": 19493,
     "name": "The Long Drive / Devour #5 / Tricky Towers #33",
     "date": "2022-09-10",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1587098639.torrent",
     "games": ["co-op", "devour", "tricky-towers"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1587098639.ass"
   },
@@ -11474,5 +11473,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1642266888,1642407202.torrent",
     "games": ["single", "trash-horror-2", "first-2022", "blood-west"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1642266888,1642407202+0.ass"
+  },
+  "1643172831": {
+    "abs_start": 0, "abs_end": 28166, "duration": 28166,
+    "name": "The Chant",
+    "date": "2022-11-04",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1643172831.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1643172831.torrent",
+    "games": ["single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1643172831.ass"
   }
 }
