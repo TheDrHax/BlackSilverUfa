@@ -1,6 +1,5 @@
 import attr
 import json
-import sys
 import requests
 from enum import Enum
 from cached_property import cached_property
@@ -43,6 +42,7 @@ class Segment:
     _offset: Timecode = attr.ib(0, converter=Timecode)
     offsets: Timecodes = attr.ib(factory=list, converter=Timecodes)  # for joined streams
     _duration: Timecode = attr.ib(0, converter=Timecode)
+    source_cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
     _cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
 
     stream: 'Stream' = attr.ib()  # depends on _offset
@@ -105,13 +105,17 @@ class Segment:
 
         for stream, offset in zip(self.stream.streams, self.offsets):
             offset += sum(t.duration for t in cuts if t < offset)
-            cuts.update(stream[0].cuts + offset)
+            cuts.update(stream[0].source_cuts + offset)
 
         return cuts
 
     @cuts.setter
     def cuts(self, value: Timecodes):
         self._cuts = value
+
+    @property
+    def all_cuts(self) -> Timecodes:
+        return Timecodes(list(self.source_cuts) + list(self.cuts))
 
     def offset(self, t: Timecode = Timecode(0)) -> Timecode:
         cuts = sum([cut.duration for cut in self._cuts if cut <= t])
@@ -204,8 +208,7 @@ class Segment:
         if self.stream.type is StreamType.JOINED:
             data += self.offsets.to_list()
 
-        if len(self.cuts) > 0:
-            data += self.cuts.to_list()
+        data += self.all_cuts.to_list()
 
         if len(data) > 0:
             data.append('v2')
@@ -287,7 +290,7 @@ class Segment:
             return self.end
         elif self.duration > 0:
             end = self.abs_start + self.duration
-            end += sum(cut.duration for cut in self.cuts)
+            end += sum(cut.duration for cut in self.all_cuts)
             return end
         elif self.segment == len(self.stream) - 1:
             return self.stream.abs_end
@@ -308,13 +311,13 @@ class Segment:
     @join()
     def to_json(self, compiled=False):
         if not compiled:
-            keys = ['youtube', '_offset', '_cuts', 'official',
+            keys = ['youtube', '_offset', 'source_cuts', '_cuts', 'official',
                     'start', 'end', '_duration', 'force_start']
             multiline_keys = ['direct', 'offsets', 'note', 'torrent']
         else:
             keys = ['youtube', 'official',
                     'abs_start', 'abs_end', 'duration']
-            multiline_keys = ['name', 'date', 'direct', 'offsets', 'cuts',
+            multiline_keys = ['name', 'date', 'direct', 'offsets', 'all_cuts',
                               'torrent', 'games', 'subtitles', 'note']
 
         def get_attr(key):
@@ -323,12 +326,9 @@ class Segment:
             else:
                 value = getattr(self, key)
 
-            if isinstance(value, Timecodes) and len(value) == 0:
-                return None
-
             return value
 
-        multiline = True in [get_attr(key) is not None
+        multiline = True in [get_attr(key) not in [None, []]
                              for key in multiline_keys]
 
         yield '{'
@@ -346,7 +346,7 @@ class Segment:
             if key in fields and fields[key].default == value:
                 continue
 
-            if key == '_cuts':
+            if key in ['_cuts', 'source_cuts']:
                 if len(value) == 0:
                     continue
 
@@ -390,10 +390,11 @@ class Segment:
             if key == 'subtitles' and self.stream.type is StreamType.NO_CHAT:
                 continue
 
-            if key == 'cuts':
+            if key == 'all_cuts':
                 if len(value) == 0:
                     continue
 
+                key = 'cuts'
                 value = [[int(t.start), int(t.end)] for t in value]
 
             if key == 'games':

@@ -404,9 +404,6 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
         segment_kwargs['note'] = matching_segment.note
 
     if video_offset == 0 and fail_if_cut:
-        if len(matching_segment.cuts) > 0:
-            segment_kwargs['cuts'] = matching_segment._cuts
-
         if matching_segment.stream.type == StreamType.JOINED:
             segment_kwargs['offsets'] = matching_segment.offsets
 

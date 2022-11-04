@@ -3,7 +3,7 @@ from natsort import natsorted
 from typing import Union
 
 from ..fallback import fallback
-from ..timecodes import Timecode
+from ..timecodes import Timecode, Timecodes
 from ...utils import load_json, join, indent
 from ..streams import Stream
 from .timecodes import TimecodesDatabase
@@ -97,8 +97,8 @@ class Streams(dict):
                         if not segment.playable:
                             segment.fallbacks['direct'] = segment.direct
                             segment.direct = fallback.url(filename)
-                            # segment.fallbacks['cuts'] = segment.cuts
-                            # segment.cuts = Timecodes()
+                            segment.fallbacks['cuts'] = segment.cuts
+                            segment.cuts = Timecodes()
                             segment.fallbacks['offset'] = segment.offset()
                             segment.offset = Timecode(0)
 

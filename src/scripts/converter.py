@@ -201,8 +201,8 @@ def generate_subtitles(segment):
         else:
             fi = find_subtitles(segment.stream)
 
-        if len(segment.cuts) > 0:
-            cut_subtitles(segment.cuts, fi, fo)
+        if len(segment.all_cuts) > 0:
+            cut_subtitles(segment.all_cuts, fi, fo)
     except FileNotFoundError as ex:
         print(f'Skipping segment {segment.hash}: {ex.filename} does not exist')
         if os.path.exists(fo):
