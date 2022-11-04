@@ -670,7 +670,7 @@
         { "name": "Farming Simulator 22", "start": 14277 }
       ] },
       { "segment": "1230440174", "subrefs": [
-        { "name": "Heavenly Bodies", "start": 14774 }
+        { "name": "Heavenly Bodies", "start": 14769 }
       ] },
       { "segment": "1261173013", "subrefs": [
         { "name": "Monster Hunter Rise", "start": 10627 }
@@ -815,7 +815,7 @@
         { "name": "2", "start": 14281 }
       ] },
       { "segment": "1200472047", "subrefs": [
-        { "name": "3", "start": 14136 }
+        { "name": "3", "start": 14106 }
       ] }
     ]
   },
@@ -3869,7 +3869,7 @@
         { "name": "Don't Look", "start": 17377 }
       ] },
       { "segment": "1594431864", "subrefs": [
-        { "name": "Bloodwash", "start": 12626 }
+        { "name": "Bloodwash", "start": 12596 }
       ] },
       { "segment": "1595342822", "subrefs": [
         { "name": "Night At the Gates of Hell", "start": 6625 }
@@ -3891,8 +3891,8 @@
         { "name": "Quo (демо)", "start": 6673 },
         { "name": "The Polaris Incident", "start": 9499 },
         { "name": "Broken Through", "start": 12673 },
-        { "name": "Anthology of Fear (демо)", "start": 18198 },
-        { "name": "On One's Own", "start": 20371 }
+        { "name": "Anthology of Fear (демо)", "start": 18167 },
+        { "name": "On One's Own", "start": 20340 }
       ] },
       { "segment": "1622143449", "subrefs": [
         { "name": "Forever Skies (демо)", "start": 10646 }
@@ -3929,7 +3929,7 @@
     "id": "plague-tale-req",
     "streams": [
       { "segment": "1627495658", "subrefs": [
-        { "name": "1", "start": 794 }
+        { "name": "1", "start": 764 }
       ] },
       { "segment": "1628359023", "subrefs": [
         { "name": "2", "start": 537 }
@@ -4112,7 +4112,7 @@
         { "name": "1 (релиз)", "start": 17685 }
       ] },
       { "segment": "1193856809", "subrefs": [
-        { "name": "2", "start": 13074 }
+        { "name": "2", "start": 13041 }
       ] },
       { "segment": "1198691880", "subrefs": [
         { "name": "3" }
@@ -6203,7 +6203,7 @@
       ] },
       { "segment": "1528664321", "subrefs": [
         { "name": "Fighting Force", "start": 2046 },
-        { "name": "Broken Sword: Shadow of the Templars", "start": 10809 }
+        { "name": "Broken Sword: Shadow of the Templars", "start": 10778 }
       ] },
       { "segment": "1531483751", "subrefs": [
         { "name": "Bayonetta", "start": 713 }
@@ -6217,9 +6217,9 @@
         { "name": "Road Rash (продолжение)", "start": 14653, "hidden": true }
       ] },
       { "segment": "1544246712", "subrefs": [
-        { "name": "Aeterna Noctis", "start": 6412 },
-        { "name": "Nighthunt", "start": 10310 },
-        { "name": "Loopmancer", "start": 15222 }
+        { "name": "Aeterna Noctis", "start": 6382 },
+        { "name": "Nighthunt", "start": 10280 },
+        { "name": "Loopmancer", "start": 15192 }
       ] },
       { "segment": "1551976425", "subrefs": [
         { "name": "Outbreak: Shades of Horror (тизер)", "start": 21288 }
@@ -6267,8 +6267,8 @@
       { "segment": "1572044648", "subrefs": [
         { "name": "Outbreak Island: Pendulum", "start": 10153 },
         { "name": "Soulstice (демо)", "start": 15148 },
-        { "name": "Mirror Forge (демо)", "start": 18149 },
-        { "name": "Super Catboy", "start": 21175 }
+        { "name": "Mirror Forge (демо)", "start": 18119 },
+        { "name": "Super Catboy", "start": 21145 }
       ] },
       { "segment": "1573052503", "subrefs": [
         { "name": "Pepsiman", "start": 3355 },
@@ -6287,18 +6287,18 @@
       { "segment": "1586147183", "subrefs": [
         { "name": "NHL 2001", "start": 2100 },
         { "name": "Monster Bass", "start": 6565 },
-        { "name": "Revelations: Persona", "start": 11444 },
-        { "name": "Carmageddon II", "start": 16280 }
+        { "name": "Revelations: Persona", "start": 11413 },
+        { "name": "Carmageddon II", "start": 16249 }
       ] },
       { "segment": "1588071501", "subrefs": [
         { "name": "The Complex: Found Footage", "start": 3233 }
       ] },
       { "segment": "1592425669", "subrefs": [
-        { "name": "My Time at Sandrock", "start": 11266 },
-        { "name": "Wo Long: Fallen Dynasty (демо)", "start": 15388 }
+        { "name": "My Time at Sandrock", "start": 11137 },
+        { "name": "Wo Long: Fallen Dynasty (демо)", "start": 15259 }
       ] },
       { "segment": "1594431864", "subrefs": [
-        { "name": "Curley Laboratory", "start": 18772 }
+        { "name": "Curley Laboratory", "start": 18742 }
       ] },
       { "segment": "1595342822", "subrefs": [
         { "name": "Whateverland", "start": 1518 },
@@ -6325,7 +6325,7 @@
       ] },
       { "segment": "1619465701", "subrefs": [
         { "name": "The Polaris Incident", "start": 9499 },
-        { "name": "The Chaput's Baby", "start": 16588 }
+        { "name": "The Chaput's Baby", "start": 16557 }
       ] },
       { "segment": "1624846104", "subrefs": [
         { "name": "Cultic", "start": 2062 }
@@ -6366,10 +6366,10 @@
     "id": "purple-war",
     "streams": [
       { "segment": "1547156682", "subrefs": [
-        { "name": "1", "start": 13895 }
+        { "name": "1", "start": 13865 }
       ] },
       { "segment": "1627495658", "subrefs": [
-        { "name": "2", "start": 29101 }
+        { "name": "2", "start": 29071 }
       ] }
     ]
   },
@@ -6538,13 +6538,13 @@
         { "name": "1", "start": 5323 }
       ] },
       { "segment": "1544246712", "subrefs": [
-        { "name": "2", "start": 18278 }
+        { "name": "2", "start": 18248 }
       ] },
       { "segment": "1546161309", "subrefs": [
         { "name": "3", "start": 984 }
       ] },
       { "segment": "1547156682", "subrefs": [
-        { "name": "4", "start": 21163 }
+        { "name": "4", "start": 21133 }
       ] },
       { "segment": "1551976425", "subrefs": [
         { "name": "5", "start": 955 }
@@ -6968,7 +6968,7 @@
     "id": "ghost-watchers",
     "streams": [
       { "segment": "1547156682", "subrefs": [
-        { "name": "1", "start": 10919 }
+        { "name": "1", "start": 10889 }
       ] },
       { "segment": "1554911752", "subrefs": [
         { "name": "2 (с Куплиновым и Дангаром)", "start": 4248 }
@@ -9303,7 +9303,7 @@
         { "name": "10" }
       ] },
       { "segment": "1206191026", "subrefs": [
-        { "name": "Definitive Edition #1", "start": 16226 }
+        { "name": "Definitive Edition #1", "start": 16191 }
       ] },
       { "segment": "1207997756", "subrefs": [
         { "name": "Definitive Edition #2", "start": 7625 }
