@@ -6352,7 +6352,7 @@
   },
   {
     "name": "Nancy Drew: Shadow at the Water's Edge (Нэнси Дрю: Тень у воды)",
-    "category": "ongoing",
+    "category": "finished",
     "id": "nancy-drew-satwe",
     "streams": [
       { "segment": "1625850313", "subrefs": [
@@ -6360,6 +6360,9 @@
       ] },
       { "segment": "1637667923", "subrefs": [
         { "name": "2", "start": 1211 }
+      ] },
+      { "segment": "1644149200", "subrefs": [
+        { "name": "3", "start": 1271 }
       ] }
     ]
   },
