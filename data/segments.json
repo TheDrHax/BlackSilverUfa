@@ -11202,7 +11202,6 @@
     "name": "My Time at Sandrock / Wo Long: Fallen Dynasty (демо)",
     "date": "2022-09-16",
     "cuts": [[1011, 1045], [5605, 5634], [5999, 6065]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1592425669.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1592425669+0.ass"
   },
@@ -11438,10 +11437,10 @@
   },
   "1638619619": {
     "youtube": "9pN9lVPpVWk", "abs_start": 0, "abs_end": 25860, "duration": 25860,
-    "name": "Alien: Isolation (мод AlienS IsolatioN)",
+    "name": "Alien: Isolation (мод AlienS IsolatioN) #1",
     "date": "2022-10-30",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1638619619.torrent",
-    "games": ["first-2022"],
+    "games": ["aliens-isolation"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1638619619.ass"
   },
   "1642266888": {
@@ -11490,5 +11489,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1644149200.torrent",
     "games": ["nancy-drew-satwe"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1644149200.ass"
+  },
+  "1645086849": {
+    "abs_start": 0, "abs_end": 23396, "duration": 23396,
+    "name": "Alien: Isolation (мод AlienS IsolatioN) #2",
+    "date": "2022-11-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1645086849.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1645086849.torrent",
+    "games": ["aliens-isolation"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1645086849.ass"
   }
 }

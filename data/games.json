@@ -6342,11 +6342,21 @@
         { "name": "The Trench", "start": 12558 },
         { "name": "Stay Out of the House", "start": 15276 }
       ] },
-      { "segment": "1638619619", "subrefs": [
-        { "name": "Alien: Isolation (мод AlienS IsolatioN)", "start": 1099 }
-      ] },
       { "segment": "1642266888,1642407202", "subrefs": [
         { "name": "Forlorn: The Mysteries of Highshadowland", "start": 6907 }
+      ] }
+    ]
+  },
+  {
+    "name": "Alien: Isolation (мод AlienS IsolatioN)",
+    "category": "ongoing",
+    "id": "aliens-isolation",
+    "streams": [
+      { "segment": "1638619619", "subrefs": [
+        { "name": "1", "start": 1099 }
+      ] },
+      { "segment": "1645086849", "subrefs": [
+        { "name": "2", "start": 570 }
       ] }
     ]
   },
