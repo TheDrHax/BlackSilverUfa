@@ -11497,11 +11497,13 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1645086849.ass"
   },
   "1647687213": {
-    "youtube": "n2xHwYiymNw", "abs_start": 0, "abs_end": 38122, "duration": 38122,
+    "abs_start": 0, "abs_end": 38177, "duration": 38120,
     "name": "God of War Ragnarok #1",
     "date": "2022-11-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1647687213.mp4",
+    "cuts": [[25325, 25382]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1647687213.torrent",
     "games": ["gow-ragnarok"],
-    "subtitles": "https://bsu.drhx.ru/chats/2022/v1647687213.ass"
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1647687213+0.ass"
   }
 }
