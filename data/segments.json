@@ -11238,7 +11238,6 @@
     "youtube": "ALEujDzY9OA", "abs_start": 0, "abs_end": 27551, "duration": 27551,
     "name": "Yakuza 0 #1",
     "date": "2022-09-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1598875892.torrent",
     "games": ["yakuza-0"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1598875892.ass"
   },
@@ -11247,7 +11246,6 @@
     "name": "Yakuza 0 #2",
     "date": "2022-09-27",
     "cuts": [[17737, 17768]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1602639686.torrent",
     "games": ["yakuza-0"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1602639686+0.ass"
   },
@@ -11522,5 +11520,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1649523175.torrent",
     "games": ["gow-ragnarok"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1649523175.ass"
+  },
+  "1650543457": {
+    "abs_start": 0, "abs_end": 29560, "duration": 29560,
+    "name": "God of War Ragnarok #4",
+    "date": "2022-11-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1650543457.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1650543457.torrent",
+    "games": ["gow-ragnarok"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1650543457.ass"
   }
 }
