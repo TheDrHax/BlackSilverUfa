@@ -11336,7 +11336,7 @@
   },
   {
     "name": "God of War Ragnarok",
-    "category": "ongoing",
+    "category": "finished",
     "id": "gow-ragnarok",
     "streams": [
       { "segment": "1647687213", "subrefs": [
@@ -11356,6 +11356,9 @@
       ] },
       { "segment": "1652434783", "subrefs": [
         { "name": "6", "start": 382 }
+      ] },
+      { "segment": "1653285370", "subrefs": [
+        { "name": "7", "start": 401 }
       ] }
     ]
   },

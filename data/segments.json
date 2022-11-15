@@ -11276,7 +11276,6 @@
     "youtube": "fl-l8EVRTRM", "abs_start": 0, "abs_end": 26520, "duration": 26520,
     "name": "Scorn - Пролог / Go Home Annie: An SCP Game (демо) / Convenient / Lazaret (демо) / Late Night Mop / The Death: Than Trung",
     "date": "2022-10-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1607244038.torrent",
     "games": ["scorn", "single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1607244038.ass"
   },
@@ -11535,5 +11534,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1652434783.torrent",
     "games": ["gow-ragnarok"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1652434783.ass"
+  },
+  "1653285370": {
+    "abs_start": 0, "abs_end": 28241, "duration": 28241,
+    "name": "God of War Ragnarok #7",
+    "date": "2022-11-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1653285370.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1653285370.torrent",
+    "games": ["gow-ragnarok"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1653285370.ass"
   }
 }
