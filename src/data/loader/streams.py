@@ -74,6 +74,11 @@ class Streams(dict):
             if not isinstance(stream, list):
                 raise TypeError(type(stream))
 
+            if 'source_cuts' in stream[0]:
+                cuts = stream[0].pop('source_cuts')
+            else:
+                cuts = []
+
             if ',' in twitch_id:
                 targets = list([self[key] for key in twitch_id.split(',')])
             else:
@@ -81,7 +86,8 @@ class Streams(dict):
 
             self[twitch_id] = Stream(data=stream, key=twitch_id,
                                      streams=targets, meta=meta,
-                                     timecodes=timecodes.get(twitch_id))
+                                     timecodes=timecodes.get(twitch_id),
+                                     cuts=cuts)
 
     def enable_fallbacks(self):
         items = list(self.items())

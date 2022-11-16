@@ -42,7 +42,6 @@ class Segment:
     _offset: Timecode = attr.ib(0, converter=Timecode)
     offsets: Timecodes = attr.ib(factory=list, converter=Timecodes)  # for joined streams
     _duration: Timecode = attr.ib(0, converter=Timecode)
-    source_cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
     _cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
 
     stream: 'Stream' = attr.ib()  # depends on _offset
@@ -105,7 +104,7 @@ class Segment:
 
         for stream, offset in zip(self.stream.streams, self.offsets):
             offset += sum(t.duration for t in cuts if t < offset)
-            cuts.update(stream[0].source_cuts + offset)
+            cuts.update(stream.cuts + offset)
 
         return cuts
 
@@ -115,7 +114,7 @@ class Segment:
 
     @property
     def all_cuts(self) -> Timecodes:
-        return Timecodes(list(self.source_cuts) + list(self.cuts))
+        return Timecodes(list(self.stream.cuts) + list(self.cuts))
 
     def offset(self, t: Timecode = Timecode(0)) -> Timecode:
         cuts = sum([cut.duration for cut in self._cuts if cut <= t])
@@ -338,7 +337,13 @@ class Segment:
 
         first = True
         for key in keys:
-            value = get_attr(key)
+            if key == 'source_cuts':
+                if self.segment != 0:
+                    continue
+
+                value = self.stream.cuts
+            else:
+                value = get_attr(key)
 
             if value is None:
                 continue
@@ -346,7 +351,7 @@ class Segment:
             if key in fields and fields[key].default == value:
                 continue
 
-            if key in ['_cuts', 'source_cuts']:
+            if isinstance(value, Timecodes):
                 if len(value) == 0:
                     continue
 
@@ -734,6 +739,7 @@ class Stream:
     games: List[Tuple['Game', SegmentReference]] = attr.ib(init=False)
     segments: List[Segment] = attr.ib(init=False)
     timecodes: Timecodes = attr.ib(factory=dict, converter=Timecodes)
+    cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
 
     @staticmethod
     def _segment_key(s) -> int:
