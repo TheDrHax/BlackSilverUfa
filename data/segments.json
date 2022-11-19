@@ -3674,10 +3674,9 @@
     "subtitles": "https://bsu.drhx.ru/chats/2019/v358681563.ass"
   },
   "359212700": {
-    "abs_start": 0, "abs_end": 25781, "duration": 25781,
+    "abs_start": 0, "abs_end": 25790, "duration": 0,
     "name": "Subnautica #6",
     "date": "2019-01-05",
-    "direct": "https://bsufiles.thedrhax.pw/streams/359212700.mp4",
     "games": ["subnautica"],
     "subtitles": "https://bsu.drhx.ru/chats/2019/v359212700.ass"
   },
@@ -11346,10 +11345,10 @@
   },
   "1624846104": {
     "youtube": "mfkLPL-KafM", "abs_start": 0, "abs_end": 22401, "duration": 22401,
-    "name": "Cultic / Warhammer 40,000: Darktide (бета) / Ghostbusters: Spirits Unleashed",
+    "name": "Cultic / Warhammer 40,000: Darktide - Бета 1 (кооп) / Ghostbusters: Spirits Unleashed",
     "date": "2022-10-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1624846104.torrent",
-    "games": ["first-2022", "co-op"],
+    "games": ["first-2022", "darktide", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1624846104.ass"
   },
   "1625850313": {
@@ -11551,5 +11550,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1656106367.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1656106367.ass"
+  },
+  "1657037267": {
+    "abs_start": 0, "abs_end": 39135, "duration": 39135,
+    "name": "Warhammer 40,000: Darktide - Бета 2 (соло) / The Dark Pictures: The Devil in Me",
+    "date": "2022-11-19",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1657037267.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1657037267.torrent",
+    "games": ["darktide", "single"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1657037267.ass"
   }
 }

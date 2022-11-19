@@ -695,8 +695,20 @@
         { "name": "Overwatch 2", "start": 3251 }
       ] },
       { "segment": "1624846104", "subrefs": [
-        { "name": "Warhammer 40,000: Darktide (бета)", "start": 8443 },
         { "name": "Ghostbusters: Spirits Unleashed", "start": 16061 }
+      ] }
+    ]
+  },
+  {
+    "name": "Warhammer 40,000: Darktide",
+    "category": "infinite",
+    "id": "darktide",
+    "streams": [
+      { "segment": "1624846104", "subrefs": [
+        { "name": "Бета 1 (кооп)", "start": 8443 }
+      ] },
+      { "segment": "1657037267", "subrefs": [
+        { "name": "Бета 2 (соло)", "start": 1060 }
       ] }
     ]
   },
@@ -3926,6 +3938,9 @@
       ] },
       { "segment": "1656106367", "subrefs": [
         { "name": "Somerville", "start": 6152 }
+      ] },
+      { "segment": "1657037267", "subrefs": [
+        { "name": "The Dark Pictures: The Devil in Me", "start": 10268 }
       ] }
     ]
   },
