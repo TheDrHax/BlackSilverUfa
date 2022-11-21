@@ -11551,12 +11551,20 @@
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1656106367.ass"
   },
   "1657037267": {
+    "youtube": "Kj7RKQB_jgI", "abs_start": 0, "abs_end": 9902, "duration": 9902,
+    "name": "Warhammer 40,000: Darktide - Бета 2 (соло)",
+    "date": "2022-11-19",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1657037267.torrent",
+    "games": ["darktide"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1657037267.ass"
+  },
+  "1657037267.1": {
     "abs_start": 0, "abs_end": 39135, "duration": 39135,
-    "name": "Warhammer 40,000: Darktide - Бета 2 (соло) / The Dark Pictures: The Devil in Me",
+    "name": "The Dark Pictures: The Devil in Me",
     "date": "2022-11-19",
     "direct": "https://bsufiles.thedrhax.pw/streams/1657037267.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1657037267.torrent",
-    "games": ["darktide", "single"],
+    "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1657037267.ass"
   },
   "1658062393": {
