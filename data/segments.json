@@ -11307,7 +11307,6 @@
     "youtube": "Uu7yEaUNDTE", "abs_start": 0, "abs_end": 27034, "duration": 27034,
     "name": "Chasm: The Rift (демо) / Dredge (демо) / Scars Above (демо) / Unusual Findings - Демо / Tales of Terror / Horrors of Space #1 / Half Dead - Часть 3 #2 / Sign of Silence #3 / Escape Memoirs: Mini Stories",
     "date": "2022-10-08",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1618459269.torrent",
     "games": ["first-2022", "unusual-findings", "co-op", "horrors-of-space", "half-dead", "sign-of-silence"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1618459269.ass"
   },
@@ -11583,5 +11582,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1659790980.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1659790980.ass"
+  },
+  "1660650293": {
+    "abs_start": 0, "abs_end": 16532, "duration": 16532,
+    "name": "Alien: Isolation (мод AlienS IsolatioN) #4",
+    "date": "2022-11-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1660650293.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1660650293.torrent",
+    "games": ["aliens-isolation"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1660650293.ass"
   }
 }

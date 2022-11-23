@@ -6371,7 +6371,7 @@
   },
   {
     "name": "Alien: Isolation (мод AlienS IsolatioN)",
-    "category": "ongoing",
+    "category": "finished",
     "id": "aliens-isolation",
     "streams": [
       { "segment": "1638619619", "subrefs": [
@@ -6382,6 +6382,9 @@
       ] },
       { "segment": "1658062393", "subrefs": [
         { "name": "3", "start": 1788 }
+      ] },
+      { "segment": "1660650293", "subrefs": [
+        { "name": "4", "start": 1808 }
       ] }
     ]
   },
