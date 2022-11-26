@@ -29,7 +29,8 @@ const getMpvCommand = (segment, t) => (
 
 const Mode = {
   link: 'Ссылка',
-  mpv: 'Команда MPV',
+  chat: 'Чат',
+  mpv: 'MPV',
 };
 
 const ModeSelector = ({ mode, onChange }) => (
@@ -88,6 +89,10 @@ const ShareOverlay = React.forwardRef(({ segment, plyr, ...otherProps }, ref) =>
 
     case 'mpv':
       value = getMpvCommand(segment, includeTime && time);
+      break;
+
+    case 'chat':
+      value = `!запись ${base.segment}${includeTime ? (` ${absTime}`) : ''}`;
       break;
 
     default:
