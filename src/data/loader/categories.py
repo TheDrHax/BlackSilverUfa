@@ -25,13 +25,14 @@ class Categories(dict):
             c = Category.from_dict(category, games=uncategorized)
             self[c.code] = c
 
-        month_ago = datetime.now() - timedelta(days=30)
+        month_ago = datetime.now() - timedelta(days=90)
 
         if 'ongoing' in self and 'abandoned' in self:
             for game in self['ongoing'].games.copy():
                 if game.streams[-1].date < month_ago:
                     self['ongoing'].games.remove(game)
                     self['abandoned'].games.add(game)
+                    game.category = 'abandoned'
 
         if len(uncategorized) > 0:
             names = [f'{game.name} ({game.category})'
