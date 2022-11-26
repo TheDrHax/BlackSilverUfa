@@ -17,6 +17,14 @@ class Games(list):
         data = load_json(filename)
 
         ids = set()
+        names = set()
+
+        def track_name(name):
+            if name in names:
+                print(f'WARN: Duplicate subref names: "{name}"')
+            else:
+                names.add(name)
+
         for game_raw in data:
             refs_raw = game_raw['streams']
             del game_raw['streams']
@@ -29,6 +37,8 @@ class Games(list):
 
             game = Game(**game_raw)
 
+            track_name(game.name)
+
             for ref in refs_raw:
                 parent = streams[ref['twitch']][ref.get('segment') or 0]
 
@@ -39,6 +49,9 @@ class Games(list):
                 ref = SegmentReference(parent=parent, game=game, **ref)
                 ref.stream.games.append((game, ref))
                 game.streams.append(ref)
+
+                if game.type == 'list':
+                    [track_name(subref.name) for subref in ref.subrefs]
 
             self.append(game)
 
