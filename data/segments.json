@@ -11309,7 +11309,6 @@
     "name": "Kona II: Brume (демо) / The Classrooms (демо) / Quo (демо) / The Polaris Incident - Первый взгляд / The Polaris Incident - Прохождение / Broken Through / The Chaput's Baby / Anthology of Fear (демо) / On One's Own",
     "date": "2022-10-09",
     "cuts": [[13924, 13955]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1619465701.torrent",
     "games": ["single", "polaris-incident", "polaris-incident", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1619465701+0.ass"
   },
@@ -11601,5 +11600,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1663155573.torrent",
     "games": ["single", "first-2022", "trash-horror-2"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1663155573.ass"
+  },
+  "1664055210": {
+    "abs_start": 0, "abs_end": 21948, "duration": 21948,
+    "name": "Nancy Drew: Curse of Blackmoor Manor",
+    "date": "2022-11-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1664055210.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1664055210.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1664055210.ass"
   }
 }

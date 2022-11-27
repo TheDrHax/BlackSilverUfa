@@ -6425,6 +6425,9 @@
         { "name": "Night Signal", "start": 12999 },
         { "name": "Something Nefarious Below", "start": 15811 },
         { "name": "Heartworm", "start": 16471 }
+      ] },
+      { "segment": "1664055210", "subrefs": [
+        { "name": "Nancy Drew: Curse of Blackmoor Manor", "start": 1369 }
       ] }
     ]
   },
