@@ -376,9 +376,10 @@
     "games": ["first-2016"]
   },
   "001604050": {
-    "youtube": "850MY5iRbog", "abs_start": 0, "abs_end": 15100, "duration": 15100,
+    "abs_start": 0, "abs_end": 15099, "duration": 15099,
     "name": "Quantum Break #1",
     "date": "2016-04-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/001604050.mp4",
     "games": ["quantum-break"]
   },
   "001604051": {
@@ -8631,9 +8632,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1027931171.ass"
   },
   "1028999291": {
-    "youtube": "eHotbN5SRQs", "official": false, "abs_start": 0, "abs_end": 15715, "duration": 15715,
+    "abs_start": 0, "abs_end": 15712, "duration": 15712,
     "name": "Subnautica: Below Zero #9",
     "date": "2021-05-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1028999291.mp4",
     "games": ["subnautica-bz"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1028999291.ass"
   },
