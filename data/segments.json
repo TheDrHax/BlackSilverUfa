@@ -11316,7 +11316,6 @@
     "youtube": "KPgSLnxiL0E", "abs_start": 0, "abs_end": 19444, "duration": 19444,
     "name": "Forever Skies (демо) / Unusual Findings #1",
     "date": "2022-10-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1622143449.torrent",
     "games": ["single", "unusual-findings"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1622143449.ass"
   },
@@ -11586,10 +11585,10 @@
   },
   "1662262853": {
     "youtube": "3uf_3xSHOpw", "abs_start": 0, "abs_end": 22493, "duration": 22493,
-    "name": "Apsulov: End of Gods",
+    "name": "Apsulov: End of Gods #1",
     "date": "2022-11-25",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1662262853.torrent",
-    "games": ["first-2022"],
+    "games": ["apsulov"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1662262853.ass"
   },
   "1663155573": {
@@ -11607,5 +11606,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1664055210.torrent",
     "games": ["first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1664055210.ass"
+  },
+  "1664862476": {
+    "abs_start": 0, "abs_end": 7366, "duration": 7366,
+    "name": "Apsulov: End of Gods #2",
+    "date": "2022-11-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1664862476.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1664862476.torrent",
+    "games": ["apsulov"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1664862476.ass"
   }
 }

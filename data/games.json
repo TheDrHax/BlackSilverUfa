@@ -6418,9 +6418,6 @@
         { "name": "Evil West", "start": 1240 },
         { "name": "Goat Simulator 3", "start": 8776 }
       ] },
-      { "segment": "1662262853", "subrefs": [
-        { "name": "Apsulov: End of Gods", "start": 2606 }
-      ] },
       { "segment": "1663155573", "subrefs": [
         { "name": "Night Signal", "start": 12999 },
         { "name": "Something Nefarious Below", "start": 15811 },
@@ -6428,6 +6425,19 @@
       ] },
       { "segment": "1664055210", "subrefs": [
         { "name": "Nancy Drew: Curse of Blackmoor Manor", "start": 1369 }
+      ] }
+    ]
+  },
+  {
+    "name": "Apsulov: End of Gods",
+    "category": "finished",
+    "id": "apsulov",
+    "streams": [
+      { "segment": "1662262853", "subrefs": [
+        { "name": "1", "start": 2606 }
+      ] },
+      { "segment": "1664862476", "subrefs": [
+        { "name": "2", "start": 940 }
       ] }
     ]
   },
