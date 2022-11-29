@@ -11615,5 +11615,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1664862476.torrent",
     "games": ["apsulov"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1664862476.ass"
+  },
+  "1665724993": {
+    "abs_start": 0, "abs_end": 10524, "duration": 10524,
+    "name": "Need for Speed Unbound",
+    "date": "2022-11-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1665724993.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1665724993.torrent",
+    "games": ["first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1665724993.ass"
   }
 }
