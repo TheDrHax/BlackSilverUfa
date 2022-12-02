@@ -52,9 +52,9 @@ def parser(source: str, start: datetime, duration: datetime):
         if parts[1] != 'privmsg':
             continue
 
-        # For some reason IRC log is behind chat by 11 seconds
+        # For some reason IRC log is behind chat
         # This needs to be confirmed for more streams
-        ts = datetime.fromisoformat(parts[0]) - timedelta(seconds=11)
+        ts = datetime.fromisoformat(parts[0]) - timedelta(seconds=7.85)
 
         if ts < start:
             continue
