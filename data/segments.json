@@ -11632,10 +11632,19 @@
   },
   "1668107750": {
     "youtube": "0SecE0lPCVM", "abs_start": 0, "abs_end": 33494, "duration": 33494,
-    "name": "The Callisto Procotol",
+    "name": "The Callisto Procotol #1",
     "date": "2022-12-02",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1668107750.torrent",
-    "games": ["first-2022"],
+    "games": ["callisto-protocol"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1668107750.ass"
+  },
+  "1669015522": {
+    "abs_start": 0, "abs_end": 23841, "duration": 23841,
+    "name": "The Callisto Procotol #2",
+    "date": "2022-12-03",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1669015522.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1669015522.torrent",
+    "games": ["callisto-protocol"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1669015522.ass"
   }
 }
