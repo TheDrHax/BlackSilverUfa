@@ -2256,9 +2256,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2018/v262696959.ass"
   },
   "263472196": {
-    "youtube": "8nApocBMM08", "official": false, "abs_start": 0, "abs_end": 21079, "duration": 21079,
+    "abs_start": 0, "abs_end": 21078, "duration": 21078,
     "name": "FAR: Lone Sails #2 / Dark Souls 2: Scholar of the First Sin #3",
     "date": "2018-05-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/263472196.mp4",
     "games": ["far-lone-sails", "ds2-scholar"],
     "subtitles": "https://bsu.drhx.ru/chats/2018/v263472196.ass",
     "note": "<a href=\"https://youtu.be/0m1MZSyWvqU\">Официальная запись</a> сильно обрезана"
@@ -6025,9 +6026,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v553926728.ass"
   },
   "554432443": {
-    "youtube": "-pEoOsG0mqM", "official": false, "abs_start": 0, "abs_end": 21815, "duration": 21815,
+    "abs_start": 0, "abs_end": 21814, "duration": 21814,
     "name": "Grand Theft Auto: San Andreas #9",
     "date": "2020-02-19",
+    "direct": "https://bsufiles.thedrhax.pw/streams/554432443.mp4",
     "games": ["gta-san-andreas"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v554432443.ass"
   },
@@ -7427,9 +7429,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v791632745.ass"
   },
   "792632708": {
-    "youtube": "pRwNwzUefnQ", "abs_start": 0, "abs_end": 26031, "duration": 26031,
+    "abs_start": 0, "abs_end": 26030, "duration": 26030,
     "name": "Asus ROG Chariot Core / Xbox Series X / Metal Gear Solid V: Phantom Pain (злое прохождение) #2",
     "date": "2020-11-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/792632708.mp4",
     "games": ["unboxing", "mgs-v-2020"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v792632708.ass"
   },
@@ -9635,9 +9638,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1187388604.ass"
   },
   "1188297728": {
-    "youtube": "k9NfsOVExJk", "official": false, "abs_start": 0, "abs_end": 15366, "duration": 15366,
+    "abs_start": 0, "abs_end": 15364, "duration": 15364,
     "name": "Marvel's Guardians of the Galaxy #3",
     "date": "2021-10-27",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1188297728.mp4",
     "games": ["marvel-gotg"],
     "subtitles": "https://bsu.drhx.ru/chats/2021/v1188297728.ass"
   },
@@ -11337,7 +11341,6 @@
     "youtube": "mfkLPL-KafM", "abs_start": 0, "abs_end": 22401, "duration": 22401,
     "name": "Cultic / Warhammer 40,000: Darktide - Бета 1 (кооп) / Ghostbusters: Spirits Unleashed",
     "date": "2022-10-15",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1624846104.torrent",
     "games": ["first-2022", "darktide", "co-op"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1624846104.ass"
   },
@@ -11345,7 +11348,6 @@
     "youtube": "Q4f2BtMtNW8", "abs_start": 0, "abs_end": 21375, "duration": 21375,
     "name": "Nancy Drew: Shadow at the Water's Edge (Нэнси Дрю: Тень у воды) #1",
     "date": "2022-10-16",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1625850313.torrent",
     "games": ["nancy-drew-satwe"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1625850313.ass"
   },
@@ -11354,7 +11356,6 @@
     "name": "A Plague Tale: Requiem #1 / Purple War #2",
     "date": "2022-10-18",
     "cuts": [[48, 78]],
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1627495658.torrent",
     "games": ["plague-tale-req", "purple-war"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1627495658+0.ass"
   },
