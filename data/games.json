@@ -5719,7 +5719,7 @@
   },
   {
     "name": "Gloomwood",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "gloomwood",
     "streams": [
       { "segment": "653411860", "subrefs": [
@@ -6540,6 +6540,9 @@
       ] },
       { "segment": "1608964216", "subrefs": [
         { "name": "4", "start": 426 }
+      ] },
+      { "segment": "1670961161", "subrefs": [
+        { "name": "5", "start": 1402 }
       ] }
     ]
   },

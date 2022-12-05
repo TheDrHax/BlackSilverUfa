@@ -11361,7 +11361,6 @@
     "youtube": "smfYgDuCvRs", "abs_start": 0, "abs_end": 38478, "duration": 38478,
     "name": "A Plague Tale: Requiem #2",
     "date": "2022-10-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1628359023.torrent",
     "games": ["plague-tale-req"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1628359023.ass"
   },
@@ -11643,5 +11642,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1669015522.torrent",
     "games": ["callisto-protocol"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1669015522.ass"
+  },
+  "1670961161": {
+    "abs_start": 0, "abs_end": 22877, "duration": 22877,
+    "name": "Yakuza 0 #5",
+    "date": "2022-12-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1670961161.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1670961161.torrent",
+    "games": ["yakuza-0"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1670961161.ass"
   }
 }
