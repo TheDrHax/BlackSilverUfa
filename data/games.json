@@ -5732,7 +5732,7 @@
   },
   {
     "name": "Hello Neighbor 2",
-    "category": "infinite",
+    "category": "ongoing",
     "id": "hello-neighbor-2",
     "streams": [
       { "segment": "690295728", "subrefs": [
@@ -5740,6 +5740,9 @@
       ] },
       { "segment": "1471119730", "subrefs": [
         { "name": "Бета" }
+      ] },
+      { "segment": "1672653498", "subrefs": [
+        { "name": "1 (релиз)", "start": 5539 }
       ] }
     ]
   },
