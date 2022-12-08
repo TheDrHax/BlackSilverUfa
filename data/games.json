@@ -5732,7 +5732,7 @@
   },
   {
     "name": "Hello Neighbor 2",
-    "category": "ongoing",
+    "category": "finished",
     "id": "hello-neighbor-2",
     "streams": [
       { "segment": "690295728", "subrefs": [
@@ -5743,6 +5743,9 @@
       ] },
       { "segment": "1672653498", "subrefs": [
         { "name": "1 (релиз)", "start": 5539 }
+      ] },
+      { "segment": "1673532308", "subrefs": [
+        { "name": "2", "start": 1799 }
       ] }
     ]
   },
@@ -6150,6 +6153,19 @@
     ]
   },
   {
+    "name": "IXION",
+    "category": "ongoing",
+    "id": "ixion",
+    "streams": [
+      { "segment": "1307474557", "subrefs": [
+        { "name": "Демо", "start": 15483 }
+      ] },
+      { "segment": "1673532308", "subrefs": [
+        { "name": "Релиз", "start": 13016 }
+      ] }
+    ]
+  },
+  {
     "name": "Первый взгляд 2022",
     "category": "first",
     "type": "list",
@@ -6194,8 +6210,7 @@
       { "segment": "1307474557", "subrefs": [
         { "name": "The Bridge Curse: Road to Salvation (демо)", "start": 5644 },
         { "name": "My Friendly Neighborhood (демо)", "start": 8439 },
-        { "name": "SCP: Pandemic (демо)", "start": 11879 },
-        { "name": "IXION (демо)", "start": 15483 }
+        { "name": "SCP: Pandemic (демо)", "start": 11879 }
       ] },
       { "segment": "1415016033", "subrefs": [
         { "name": "Gran Turismo 7" }

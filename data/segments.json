@@ -10355,9 +10355,9 @@
   },
   "1307474557": {
     "youtube": "zL1PUTMZk9I", "abs_start": 0, "abs_end": 17314, "duration": 17314,
-    "name": "Daymare: 1994 Sandcastle #2 / Little Orpheus - Episode 1 / The Bridge Curse: Road to Salvation (демо) / My Friendly Neighborhood (демо) / SCP: Pandemic (демо) / IXION (демо)",
+    "name": "Daymare: 1994 Sandcastle #2 / Little Orpheus - Episode 1 / The Bridge Curse: Road to Salvation (демо) / My Friendly Neighborhood (демо) / SCP: Pandemic (демо) / IXION - Демо",
     "date": "2022-02-23",
-    "games": ["daymare-1994-sc", "single", "first-2022"],
+    "games": ["daymare-1994-sc", "single", "first-2022", "ixion"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1307474557.ass"
   },
   "1312161316": {
@@ -11383,7 +11383,6 @@
     "youtube": "Z_AmuSRHkh4", "abs_start": 0, "abs_end": 20656, "duration": 20656,
     "name": "Suffer The Night (демо) / Please Don't Litter / Endoparasitic / Death Relives (демо) / The Trench / Stay Out of the House",
     "date": "2022-10-26",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1634888055.torrent",
     "games": ["single", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1634888055.ass"
   },
@@ -11667,5 +11666,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1672653498.torrent",
     "games": ["hello-neighbor-2"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1672653498.ass"
+  },
+  "1673532308": {
+    "abs_start": 0, "abs_end": 21871, "duration": 21871,
+    "name": "Hello Neighbor 2 #2 / IXION - Релиз",
+    "date": "2022-12-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1673532308.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1673532308.torrent",
+    "games": ["hello-neighbor-2", "ixion"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1673532308.ass"
   }
 }
