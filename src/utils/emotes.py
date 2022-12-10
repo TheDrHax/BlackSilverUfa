@@ -1,6 +1,7 @@
 import base64
 import json
 from requests import Session
+from subprocess import Popen, PIPE
 from . import _, load_json
 
 
@@ -16,6 +17,24 @@ def get_url(source, id):
         return f'https://cdn.frankerfacez.com/emote/{id}/1'
 
 
+def convert_to_webp(content):
+    command = 'ffmpeg -hide_banner -i - -preset icon -lossless 1 -loop 0 -f webp -'
+    p = Popen(command.split(' '), stdin=PIPE, stdout=PIPE, stderr=PIPE)
+
+    assert p.stdin
+    p.stdin.write(content)
+    p.stdin.close()
+    p.wait()
+
+    if p.returncode != 0:
+        if p.stderr:
+            print(p.stderr.read().decode())
+        raise Exception(f'ffmpeg exited with non-zero code {p.returncode}')
+
+    assert p.stdout
+    return p.stdout.read()
+
+
 def inline_image(url):
     res = s.get(url)
 
@@ -23,8 +42,17 @@ def inline_image(url):
         raise Exception(f'Unable to download emote: {url} '
                         f'(code: {res.status_code})')
 
-    content = base64.b64encode(res.content).decode()
+    content = res.content
     ctype = res.headers.get('content-type') or 'image/png'
+
+    if ctype != 'image/webp':
+        try:
+            content = convert_to_webp(content)
+            ctype = 'image/webp'
+        except Exception as ex:
+            print(ex)
+
+    content = base64.b64encode(content).decode()
     return f'data:{ctype};filename=image;base64,{content}'
 
 
