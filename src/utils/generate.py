@@ -10,7 +10,7 @@ from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
 
 from . import _
-from .emotes import update_emotes
+from ..scripts.emotes import update_emotes
 from ..config import DEBUG, config
 
 t = time()

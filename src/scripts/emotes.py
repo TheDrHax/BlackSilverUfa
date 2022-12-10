@@ -1,8 +1,14 @@
+"""Usage:
+    emotes update
+    emotes (pack | unpack) [<path>]
+"""
+
 import base64
 import json
+from docopt import docopt
 from requests import Session
 from subprocess import Popen, PIPE
-from . import _, load_json
+from ..utils import _, load_json
 
 
 s = Session()
@@ -86,3 +92,57 @@ def update_emotes():
 
     with open(_('data/emotes.json'), 'w') as fo:
         json.dump(emotes, fo, ensure_ascii=False, indent=2)
+
+
+def unpack(dest = './emotes'):
+    import os
+
+    if not os.path.exists(dest):
+        os.mkdir(dest)
+
+    [os.unlink(os.path.join(dest, f)) for f in os.listdir(dest)]
+
+    emotes = load_json(_('data/emotes.json')) or {}
+
+    for name, emote in emotes.items():
+        ext = emote['src'].split('/')[1].split(';')[0]
+        filename = f'{name}.{ext}'
+
+        with open(os.path.join(dest, filename), 'wb') as fo:
+            fo.write(base64.b64decode(emote['src'].split('base64,')[1].encode()))
+
+
+def pack(src = './emotes'):
+    import os
+    emotes = load_json(_('data/emotes.json')) or {}
+
+    for filename in os.listdir(src):
+        name, ext = filename.split('.')
+
+        if name not in emotes:
+            print(f'Skipping {filename} - emote does not exist')
+            continue
+
+        with open(os.path.join(src, filename), 'rb') as fi:
+            content = base64.b64encode(fi.read()).decode()
+
+        content = f'data:image/{ext};filename=image;base64,{content}'
+        emotes[name]['src'] = content
+
+    with open(_('data/emotes.json'), 'w') as fo:
+        json.dump(emotes, fo, ensure_ascii=False, indent=2)
+
+
+def main(argv=None):
+    args = docopt(__doc__, argv=argv)
+
+    if args['pack']:
+        pack(args['<path>'] or './emotes')
+    elif args['unpack']:
+        unpack(args['<path>'] or './emotes')
+    elif args['update']:
+        update_emotes()
+
+
+if __name__ == '__main__':
+    main()
