@@ -10,7 +10,7 @@ STATE = 'https://red.thedrhax.pw/blackufa/twitch'
 
 
 class TimecodeHelper:
-    offset = 8  # Constant for low latency streamlink + MPV without cache
+    offset = 5  # Constant for low latency streamlink + MPV without cache
 
     @staticmethod
     def time():
