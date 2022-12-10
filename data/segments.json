@@ -141,9 +141,10 @@
     "games": ["mgs-v"]
   },
   "001510050": {
-    "youtube": "jmK_ckHASnM", "official": false, "abs_start": 0, "abs_end": 16448, "duration": 16448,
+    "abs_start": 0, "abs_end": 16447, "duration": 16447,
     "name": "Metal Gear Solid V: Phantom Pain #13",
     "date": "2015-10-05",
+    "direct": "https://bsufiles.thedrhax.pw/streams/001510050.mp4",
     "games": ["mgs-v"]
   },
   "001510060": {
@@ -2229,9 +2230,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2018/v260173384.ass"
   },
   "260957900": {
-    "youtube": "P6_Yye8aNrY", "official": false, "abs_start": 0, "abs_end": 14174, "duration": 14174,
+    "abs_start": 0, "abs_end": 14173, "duration": 14173,
     "name": "Dark Souls 2: Scholar of the First Sin #1",
     "date": "2018-05-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/260957900.mp4",
     "games": ["ds2-scholar"],
     "subtitles": "https://bsu.drhx.ru/chats/2018/v260957900.ass"
   },
@@ -5810,9 +5812,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v532787117.ass"
   },
   "533269694": {
-    "youtube": "mXMdAD6HnLY", "official": false, "abs_start": 0, "abs_end": 21587, "duration": 21587,
+    "abs_start": 0, "abs_end": 21587, "duration": 21587,
     "name": "Grand Theft Auto: San Andreas #1",
     "date": "2020-01-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/533269694.mp4",
     "games": ["gta-san-andreas"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v533269694.ass"
   },
@@ -5874,9 +5877,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/2020/v538458255.ass"
   },
   "542106142": {
-    "youtube": "GoYy_OIYiy8", "official": false, "abs_start": 0, "abs_end": 21031, "duration": 21031,
+    "abs_start": 0, "abs_end": 21030, "duration": 21030,
     "name": "Grand Theft Auto: San Andreas #6",
     "date": "2020-01-26",
+    "direct": "https://bsufiles.thedrhax.pw/streams/542106142.mp4",
     "games": ["gta-san-andreas"],
     "subtitles": "https://bsu.drhx.ru/chats/2020/v542106142.ass"
   },
@@ -9791,9 +9795,10 @@
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1205368606,1205563618+0.ass"
   },
   "1206191026": {
-    "youtube": "AJBtaawXqPc", "official": false, "abs_start": 0, "abs_end": 21512, "duration": 21477,
+    "abs_start": 0, "abs_end": 21511, "duration": 21476,
     "name": "Grand Theft Auto III - Definitive Edition / Grand Theft Auto: Vice City - Definitive Edition #1 / Grand Theft Auto: San Andreas - Definitive Edition #1",
     "date": "2021-11-15",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1206191026.mp4",
     "cuts": [[14958, 14993]],
     "games": ["first-2021", "gta-vice-city", "gta-san-andreas"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1206191026+0.ass"
@@ -11366,7 +11371,6 @@
     "youtube": "jJJ6hgn1Iow", "abs_start": 0, "abs_end": 33113, "duration": 33113,
     "name": "Call of Duty: Modern Warfare II / Resident Evil Village - Замок (демо от 3-го лица)",
     "date": "2022-10-21",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1630171647.torrent",
     "games": ["single", "re8"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1630171647.ass"
   },
