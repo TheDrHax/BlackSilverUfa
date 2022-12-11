@@ -8,6 +8,7 @@ import { StatsBlock } from './stats';
 import { useDataStore } from '../../hooks/use-data-store';
 import { useResponsiveValue } from '../../hooks/use-breakpoints';
 import PATHS from '../../constants/urls';
+import { Image } from '../../components/utils/image';
 
 const selectRecentSegments = ({ segments }, count = 10) => reverse(
   segments.chain()
@@ -59,7 +60,7 @@ export default function MainPage() {
               <Col key={segment.segment} className="p-1 col-card" xs={6} md={4} lg={3} xl={2}>
                 <Card className="card-game">
                   <Link to={segment.url}>
-                    <Card.Img variant="top" src={segment.thumbnail} />
+                    <Card.Img as={Image} variant="top" src={segment.thumbnail} />
                     <Card.ImgOverlay className="overlay-transparent-bottom bg-dark text-white">
                       <Card.Text>{truncate(segment.name, { length: maxNameLength })}</Card.Text>
                     </Card.ImgOverlay>

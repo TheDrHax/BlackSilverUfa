@@ -61,7 +61,7 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
       if (segment.youtube) {
         segment.thumbnail = `https://img.youtube.com/vi/${segment.youtube}/mqdefault.jpg`;
       } else {
-        segment.thumbnail = '/static/images/no-preview.png';
+        segment.thumbnail = `https://bsufiles.thedrhax.pw/streams/${segment.segment}-sm.jpg`;
       }
 
       if (key.indexOf('.') !== -1) {

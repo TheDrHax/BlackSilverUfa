@@ -7,6 +7,7 @@ import Pagination from '@vlsergey/react-bootstrap-pagination';
 // Namespace
 import { MODES } from './constants';
 import { getSegmentDescription, getGameDescription } from '../../utils/data-utils';
+import { Image } from '../../components/utils/image';
 
 const THUMBNAIL_GENERATORS = {
   segments: (item) => item.thumbnail,
@@ -36,7 +37,7 @@ const SearchResults = ({ mode, items, limit, page, onPageChange }) => {
           <ListGroup.Item key={item}>
             <Row>
               <Col style={{ flex: '0 0 240px' }}>
-                <img className="me-3" width="100%" src={getThumbnail(item)} alt="thumbnail" />
+                <Image className="me-3" width="100%" src={getThumbnail(item)} alt="thumbnail" />
               </Col>
 
               <Col>
