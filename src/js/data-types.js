@@ -14,6 +14,7 @@ export const Segment = PropTypes.shape({
   direct: PropTypes.string,
   torrent: PropTypes.string,
   thumbnail: PropTypes.string,
+  poster: PropTypes.string,
   url: PropTypes.string,
 
   abs_start: PropTypes.number,

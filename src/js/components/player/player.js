@@ -201,6 +201,9 @@ export default class Player extends React.Component {
     plyr.source = this.plyrSource();
     plyr.touch = false; // Force click and hover events on PCs with touchscreen
 
+    const { poster } = this.props;
+    plyr.poster = poster;
+
     // YouTube ready
     plyr.on('ready', (e) => {
       const { direct } = this.props;
@@ -265,10 +268,13 @@ export default class Player extends React.Component {
   componentDidUpdate(prev) {
     const { plyr, props: next } = this;
 
-    if (prev.youtube !== next.youtube || prev.direct !== next.direct) {
+    if (prev.youtube !== next.youtube
+        || prev.direct !== next.direct
+        || prev.poster !== next.poster) {
       this.firstReady = true;
       this.firstTimeUpdate = true;
       plyr.source = this.plyrSource();
+      plyr.poster = next.poster;
     }
   }
 
@@ -301,6 +307,7 @@ export default class Player extends React.Component {
 Player.propTypes = {
   youtube: PropTypes.string,
   direct: PropTypes.string,
+  poster: PropTypes.string,
   start: PropTypes.number,
   autostart: PropTypes.number,
   end: PropTypes.number,
@@ -315,6 +322,7 @@ Player.propTypes = {
 Player.defaultProps = {
   youtube: null,
   direct: null,
+  poster: null,
   start: 0,
   autostart: null,
   end: null,

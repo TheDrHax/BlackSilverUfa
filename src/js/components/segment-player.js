@@ -223,7 +223,7 @@ export default class SegmentPlayer extends React.Component {
         force_start: forceStart,
       },
       segment: {
-        youtube, direct,
+        youtube, direct, poster,
       },
       autostart,
       savedPositionAdapter,
@@ -232,6 +232,7 @@ export default class SegmentPlayer extends React.Component {
     const playerProps = {
       youtube,
       direct,
+      poster,
       start: autostart,
       autostart,
       end,
