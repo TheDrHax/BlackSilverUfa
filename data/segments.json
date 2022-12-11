@@ -11390,7 +11390,6 @@
     "youtube": "N1jNVlcFp2s", "abs_start": 0, "abs_end": 19500, "duration": 19500,
     "name": "Luto (демо) / Bughouse / Lunacy: Saint Rhodes (демо) / Skinned Alive / Night Delivery / The Lies We Tell Ourselves (демо)",
     "date": "2022-10-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1635763389.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1635763389.ass"
   },
@@ -11691,5 +11690,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1675304239.torrent",
     "games": ["single"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1675304239+0.ass"
+  },
+  "1676189043": {
+    "abs_start": 0, "abs_end": 15725, "duration": 15695,
+    "name": "Portal RTX / Phasmophobia #16 (с Куплиновым и Дангаром)",
+    "date": "2022-12-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1676189043.mp4",
+    "cuts": [[4294, 4324]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1676189043.torrent",
+    "games": ["first-2022", "phasmophobia"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1676189043+0.ass"
   }
 }
