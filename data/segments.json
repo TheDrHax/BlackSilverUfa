@@ -11397,7 +11397,6 @@
     "youtube": "CSo_N7itsyc", "abs_start": 0, "abs_end": 20735, "duration": 20735,
     "name": "Resident Evil Village - DLC: Shadows of Rose",
     "date": "2022-10-28",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1636658103.torrent",
     "games": ["re8"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1636658103.ass"
   },
@@ -11691,11 +11690,21 @@
   },
   "1676189043": {
     "youtube": "hJsiwQaWPHg", "abs_start": 0, "abs_end": 15730, "duration": 15700,
-    "name": "Portal RTX / Phasmophobia #16 (с Куплиновым и Дангаром)",
+    "name": "Portal RTX #1 / Phasmophobia #16 (с Куплиновым и Дангаром)",
     "date": "2022-12-11",
     "cuts": [[4294, 4324]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1676189043.torrent",
-    "games": ["first-2022", "phasmophobia"],
+    "games": ["portal", "phasmophobia"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1676189043+0.ass"
+  },
+  "1677050957": {
+    "abs_start": 0, "abs_end": 24988, "duration": 24930,
+    "name": "Portal RTX #2 / Portal 2",
+    "date": "2022-12-12",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1677050957.mp4",
+    "cuts": [[11315, 11344], [13180, 13209]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1677050957.torrent",
+    "games": ["portal", "first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1677050957+0.ass"
   }
 }
