@@ -36,9 +36,11 @@ export default class Player extends React.Component {
       // Disable quality selection (doesn't work on YouTube)
       settings: ['captions', /* 'quality', */ 'speed', 'loop'],
       invertTime: false,
+      seekTime: 5, // same as YouTube
       youtube: {
         controls: 1,
         fs: false,
+        disablekb: 0,
       },
       keyboard: { global: true },
     };
