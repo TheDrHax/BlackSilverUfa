@@ -218,6 +218,12 @@ export default class SegmentPlayer extends React.Component {
 
   renderPlayer() {
     const {
+      history,
+    } = this.props;
+
+    const {
+      game,
+      segmentRef,
       segmentRef: {
         end,
         force_start: forceStart,
@@ -238,6 +244,12 @@ export default class SegmentPlayer extends React.Component {
       end,
       forceStart,
       savedPositionAdapter,
+      onVideoEnded: () => {
+        const nextIndex = game.streams.indexOf(segmentRef) + 1;
+        if (nextIndex < game.streams.length) {
+          history.push(game.streams[nextIndex].url);
+        }
+      },
       onReady: (plyr) => {
         this.setState({
           plyr,

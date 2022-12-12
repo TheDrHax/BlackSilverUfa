@@ -24,6 +24,7 @@ export default class Player extends React.Component {
 
     this.onReady = this.onReady.bind(this);
     this.onTimeUpdate = this.onTimeUpdate.bind(this);
+    this.onVideoEnded = this.onVideoEnded.bind(this);
     this.onFullScreenEnter = this.onFullScreenEnter.bind(this);
     this.onFullScreenExit = this.onFullScreenExit.bind(this);
 
@@ -179,6 +180,11 @@ export default class Player extends React.Component {
     }
   }
 
+  onVideoEnded() {
+    const { onVideoEnded } = this.props;
+    onVideoEnded();
+  }
+
   onFullScreenEnter() {
     const { onFullScreen } = this.props;
     onFullScreen(true);
@@ -241,6 +247,7 @@ export default class Player extends React.Component {
       }
     });
 
+    plyr.on('ended', this.onVideoEnded);
     plyr.on('enterfullscreen', this.onFullScreenEnter);
     plyr.on('exitfullscreen', this.onFullScreenExit);
   }
@@ -318,6 +325,7 @@ Player.propTypes = {
   onReady: PropTypes.func,
   onDestroy: PropTypes.func,
   onFullScreen: PropTypes.func,
+  onVideoEnded: PropTypes.func,
   renderOverlay: PropTypes.func,
 };
 
@@ -333,5 +341,6 @@ Player.defaultProps = {
   onReady: () => null,
   onDestroy: () => null,
   onFullScreen: () => null,
+  onVideoEnded: () => null,
   renderOverlay: () => null,
 };
