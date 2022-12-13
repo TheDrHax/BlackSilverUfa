@@ -6464,9 +6464,6 @@
       ] },
       { "segment": "1674396025", "subrefs": [
         { "name": "Forspoken (демо)", "start": 9871 }
-      ] },
-      { "segment": "1677050957", "subrefs": [
-        { "name": "Portal 2", "start": 5565 }
       ] }
     ]
   },
@@ -6480,6 +6477,19 @@
       ] },
       { "segment": "1677050957", "subrefs": [
         { "name": "2", "start": 649 }
+      ] }
+    ]
+  },
+  {
+    "name": "Portal 2",
+    "category": "finished",
+    "id": "portal-2",
+    "streams": [
+      { "segment": "1677050957", "subrefs": [
+        { "name": "1", "start": 5565 }
+      ] },
+      { "segment": "1677975869", "subrefs": [
+        { "name": "2", "start": 700 }
       ] }
     ]
   },

@@ -11696,12 +11696,21 @@
   },
   "1677050957": {
     "abs_start": 0, "abs_end": 24988, "duration": 24930,
-    "name": "Portal RTX #2 / Portal 2",
+    "name": "Portal RTX #2 / Portal 2 #1",
     "date": "2022-12-12",
     "direct": "https://bsufiles.thedrhax.pw/streams/1677050957.mp4",
     "cuts": [[11315, 11344], [13180, 13209]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1677050957.torrent",
-    "games": ["portal", "first-2022"],
+    "games": ["portal", "portal-2"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1677050957+0.ass"
+  },
+  "1677975869": {
+    "abs_start": 0, "abs_end": 10267, "duration": 10267,
+    "name": "Portal 2 #2",
+    "date": "2022-12-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1677975869.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1677975869.torrent",
+    "games": ["portal-2"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1677975869.ass"
   }
 }
