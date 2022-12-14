@@ -6065,6 +6065,7 @@
         "1:48:16~1:50:44",
         "6:12:31~6:14:24"
       ],
+      "4:09:19~4:09:30": "Wham! - Wake Me Up Before You Go-Go",
       "4:42:45~4:43:12": "a-ha - Take on Me",
       "6:21:03~6:24:28": "Не указано"
     },
@@ -6081,6 +6082,7 @@
     "13:04": "Игра",
     "16:40": "Гав",
     "Проблемы с правообладателями": {
+      "2:19:30~2:22:13": "Wham! - Wake Me Up Before You Go-Go",
       "2:22:36~2:24:39": "A Flock Of Seagulls - I Ran (So Far Away)",
       "2:52:59~2:53:37": "a-ha - Take on Me",
       "6:26:19~6:26:54": "Autograph - Turn up the Radio",
@@ -6097,6 +6099,10 @@
     "10:53": "Меню",
     "11:56": "Игра",
     "Проблемы с правообладателями": {
+      "Wham! - Wake Me Up Before You Go-Go": [
+        "41:15~43:15",
+        "3:03:07~3:06:47"
+      ],
       "3:07:02~3:08:42": "A Flock Of Seagulls - I Ran (So Far Away)",
       "3:30:45~3:34:14": "Не указано",
       "3:48:03~3:51:41": "Europe - The Final Countdown"
@@ -14915,12 +14921,13 @@
   },
   "268900992": {
     "14:10": "Immortal Redneck",
+    "Проблемы с правообладателями": {
+      "1:42:16~1:44:32": "Не указано",
+      "3:50:54~3:57:06": "Type O Negative - Black No. 1 (Little Miss Scare -All)"
+    },
     "2:24:57": "Clone Drone in the Danger Zone",
     "3:00:48": "Choice Chamber",
-    "3:46:44": "Immortal Redneck",
-    "Проблемы с правообладателями": {
-      "3:50:54~3:57:06": "Type O Negative - Black No. 1 (Little Miss Scare -All)"
-    }
+    "3:46:44": "Immortal Redneck"
   },
   "270816212": {
     "20:55": "Exiles",
