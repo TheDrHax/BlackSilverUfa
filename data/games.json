@@ -429,6 +429,19 @@
     ]
   },
   {
+    "name": "Farming Simulator 22",
+    "category": "co-op",
+    "id": "farming-simulator-22",
+    "streams": [
+      { "segment": "1212756532", "subrefs": [
+        { "name": "1", "start": 14277 }
+      ] },
+      { "segment": "1679659879", "subrefs": [
+        { "name": "2 (соло)", "start": 3664 }
+      ] }
+    ]
+  },
+  {
     "name": "Несюжетные коопы",
     "category": "co-op",
     "type": "list",
@@ -662,9 +675,6 @@
       ] },
       { "segment": "1194875760", "subrefs": [
         { "name": "Apex Legends" }
-      ] },
-      { "segment": "1212756532", "subrefs": [
-        { "name": "Farming Simulator 22", "start": 14277 }
       ] },
       { "segment": "1230440174", "subrefs": [
         { "name": "Heavenly Bodies", "start": 14769 }
@@ -1949,6 +1959,9 @@
       ] },
       { "segment": "1024777649", "subrefs": [
         { "name": "14 (6D)", "start": 11067 }
+      ] },
+      { "segment": "1679659879", "subrefs": [
+        { "name": "15 (4D)", "start": 16738 }
       ] }
     ]
   },
@@ -2303,6 +2316,9 @@
       ] },
       { "segment": "1587098639", "subrefs": [
         { "name": "33", "start": 17434 }
+      ] },
+      { "segment": "1679659879", "subrefs": [
+        { "name": "34", "start": 19913 }
       ] }
     ]
   },
