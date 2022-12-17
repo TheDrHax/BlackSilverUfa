@@ -6469,9 +6469,6 @@
         { "name": "Something Nefarious Below", "start": 15811 },
         { "name": "Heartworm", "start": 16471 }
       ] },
-      { "segment": "1664055210", "subrefs": [
-        { "name": "Nancy Drew: Curse of Blackmoor Manor", "start": 1369 }
-      ] },
       { "segment": "1665724993", "subrefs": [
         { "name": "Need for Speed Unbound", "start": 1214 }
       ] },
@@ -6486,6 +6483,19 @@
       ] },
       { "segment": "1680525211", "subrefs": [
         { "name": "Crisis Core: Final Fantasy VII - Reunion", "start": 827 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nancy Drew: Curse of Blackmoor Manor",
+    "category": "finished",
+    "id": "nancy-drew-cobm",
+    "streams": [
+      { "segment": "1664055210", "subrefs": [
+        { "name": "1", "start": 1369 }
+      ] },
+      { "segment": "1681441434", "subrefs": [
+        { "name": "2", "start": 1217 }
       ] }
     ]
   },
