@@ -194,7 +194,10 @@ class SubtitlesReader:
 
     def events(self):
         for line in self._iter:
-            yield SubtitlesEvent(line, self.event_format)
+            try:
+                yield SubtitlesEvent(line, self.event_format)
+            except EmptyLineError:
+                print(f'Skipping line: {line}')
 
 
 SUBTITLES_HEADER = '''[Script Info]
