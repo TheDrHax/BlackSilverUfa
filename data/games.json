@@ -3970,6 +3970,11 @@
       ] },
       { "segment": "1675304239", "subrefs": [
         { "name": "Choo-Choo Charles", "start": 2450 }
+      ] },
+      { "segment": "1682351697", "subrefs": [
+        { "name": "Verwandlung", "start": 1812 },
+        { "name": "Those Who Crawl", "start": 6175 },
+        { "name": "Psychosis: Teaser", "start": 16397 }
       ] }
     ]
   },
@@ -6483,6 +6488,16 @@
       ] },
       { "segment": "1680525211", "subrefs": [
         { "name": "Crisis Core: Final Fantasy VII - Reunion", "start": 827 }
+      ] },
+      { "segment": "1682351697", "subrefs": [
+        { "name": "Stay Still (демо)", "start": 2667 },
+        { "name": "1 Bit Survivor", "start": 4013 },
+        {
+          "name": "Deathwatch", "start": 8508
+        },
+        { "name": "The Madvent Calendar 3: Necrosis", "start": 13503 },
+        { "name": "Scary Pictures: Yacez - Seven Deadly Sins", "start": 15149 },
+        { "name": "Hell is Others", "start": 20430 }
       ] }
     ]
   },
