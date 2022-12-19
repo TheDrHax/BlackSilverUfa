@@ -6486,9 +6486,6 @@
       { "segment": "1678795130", "subrefs": [
         { "name": "The Witcher 3: Wild Hunt", "start": 1237 }
       ] },
-      { "segment": "1680525211", "subrefs": [
-        { "name": "Crisis Core: Final Fantasy VII - Reunion", "start": 827 }
-      ] },
       { "segment": "1682351697", "subrefs": [
         { "name": "Stay Still (демо)", "start": 2667 },
         { "name": "1 Bit Survivor", "start": 4013 },
@@ -6498,6 +6495,19 @@
         { "name": "The Madvent Calendar 3: Necrosis", "start": 13503 },
         { "name": "Scary Pictures: Yacez - Seven Deadly Sins", "start": 15149 },
         { "name": "Hell is Others", "start": 20430 }
+      ] }
+    ]
+  },
+  {
+    "name": "Crisis Core: Final Fantasy VII - Reunion",
+    "category": "finished",
+    "id": "cc-ff-7",
+    "streams": [
+      { "segment": "1680525211", "subrefs": [
+        { "name": "1", "start": 827 }
+      ] },
+      { "segment": "1683157129", "subrefs": [
+        { "name": "2", "start": 605 }
       ] }
     ]
   },
