@@ -6489,12 +6489,27 @@
       { "segment": "1682351697", "subrefs": [
         { "name": "Stay Still (демо)", "start": 2667 },
         { "name": "1 Bit Survivor", "start": 4013 },
-        {
-          "name": "Deathwatch", "start": 8508
-        },
         { "name": "The Madvent Calendar 3: Necrosis", "start": 13503 },
         { "name": "Scary Pictures: Yacez - Seven Deadly Sins", "start": 15149 },
         { "name": "Hell is Others", "start": 20430 }
+      ] },
+      { "segment": "1686763712", "subrefs": [
+        { "name": "Duke Nukem Forever (2001)", "start": 1783 },
+        { "name": "Mirror Forge", "start": 2459 },
+        { "name": "Sleep Paralysis: The Uncanny Valley", "start": 18439 }
+      ] }
+    ]
+  },
+  {
+    "name": "Deathwatch",
+    "category": "finished",
+    "id": "deathwatch",
+    "streams": [
+      { "segment": "1682351697", "subrefs": [
+        { "name": "1", "start": 8508 }
+      ] },
+      { "segment": "1686763712", "subrefs": [
+        { "name": "2", "start": 13860 }
       ] }
     ]
   },

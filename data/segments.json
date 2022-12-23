@@ -11444,7 +11444,6 @@
     "youtube": "GUDA3ukdDxo", "abs_start": 0, "abs_end": 20977, "duration": 20977,
     "name": "Nancy Drew: Shadow at the Water's Edge (Нэнси Дрю: Тень у воды) #3",
     "date": "2022-11-05",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1644149200.torrent",
     "games": ["nancy-drew-satwe"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1644149200.ass"
   },
@@ -11736,10 +11735,10 @@
   },
   "1682351697": {
     "youtube": "eLkQ-hr_hJ4", "abs_start": 0, "abs_end": 22837, "duration": 22837,
-    "name": "Verwandlung / Stay Still (демо) / 1 Bit Survivor / Those Who Crawl / Deathwatch / The Madvent Calendar 3: Necrosis / Scary Pictures: Yacez - Seven Deadly Sins / Psychosis: Teaser / Hell is Others",
+    "name": "Verwandlung / Stay Still (демо) / 1 Bit Survivor / Those Who Crawl / Deathwatch #1 / The Madvent Calendar 3: Necrosis / Scary Pictures: Yacez - Seven Deadly Sins / Psychosis: Teaser / Hell is Others",
     "date": "2022-12-18",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1682351697.torrent",
-    "games": ["single", "first-2022"],
+    "games": ["single", "first-2022", "deathwatch"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1682351697.ass"
   },
   "1683157129": {
@@ -11750,5 +11749,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1683157129.torrent",
     "games": ["cc-ff-7"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1683157129+0.ass"
+  },
+  "1686763712": {
+    "abs_start": 0, "abs_end": 21875, "duration": 21875,
+    "name": "Duke Nukem Forever (2001) / Mirror Forge / Deathwatch #2 / Sleep Paralysis: The Uncanny Valley",
+    "date": "2022-12-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1686763712.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1686763712.torrent",
+    "games": ["first-2022", "deathwatch"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1686763712.ass"
   }
 }
