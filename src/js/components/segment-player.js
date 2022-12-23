@@ -256,6 +256,7 @@ export default class SegmentPlayer extends React.Component {
           toggleFullscreen: (forceFallback = false) => {
             plyr.fullscreen.forceFallback = forceFallback;
             plyr.fullscreen.toggle();
+            plyr.elements.container.focus();
           },
         });
       },
