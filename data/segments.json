@@ -11451,7 +11451,6 @@
     "youtube": "_CtwDMmbyio", "abs_start": 0, "abs_end": 23400, "duration": 23400,
     "name": "Alien: Isolation (мод AlienS IsolatioN) #2",
     "date": "2022-11-06",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1645086849.torrent",
     "games": ["aliens-isolation"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1645086849.ass"
   },
@@ -11752,11 +11751,20 @@
   },
   "1686763712": {
     "abs_start": 0, "abs_end": 21875, "duration": 21875,
-    "name": "Duke Nukem Forever (2001) / Mirror Forge / Deathwatch #2 / Sleep Paralysis: The Uncanny Valley",
+    "name": "Duke Nukem Forever (2001) / Mirror Forge #1 / Deathwatch #2 / Sleep Paralysis: The Uncanny Valley #1",
     "date": "2022-12-23",
     "direct": "https://bsufiles.thedrhax.pw/streams/1686763712.mp4",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1686763712.torrent",
-    "games": ["first-2022", "deathwatch"],
+    "games": ["first-2022", "mirror-forge", "deathwatch", "sleep-paralysis"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1686763712.ass"
+  },
+  "1687663796": {
+    "abs_start": 0, "abs_end": 20000, "duration": 20000,
+    "name": "Sleep Paralysis: The Uncanny Valley #2 / FAITH / Deathwatch #3 / Mirror Forge #2",
+    "date": "2022-12-24",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1687663796.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1687663796.torrent",
+    "games": ["sleep-paralysis", "single", "deathwatch", "mirror-forge"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1687663796.ass"
   }
 }

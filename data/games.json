@@ -3975,6 +3975,9 @@
         { "name": "Verwandlung", "start": 1812 },
         { "name": "Those Who Crawl", "start": 6175 },
         { "name": "Psychosis: Teaser", "start": 16397 }
+      ] },
+      { "segment": "1687663796", "subrefs": [
+        { "name": "FAITH", "start": 12127 }
       ] }
     ]
   },
@@ -6494,15 +6497,39 @@
         { "name": "Hell is Others", "start": 20430 }
       ] },
       { "segment": "1686763712", "subrefs": [
-        { "name": "Duke Nukem Forever (2001)", "start": 1783 },
-        { "name": "Mirror Forge", "start": 2459 },
-        { "name": "Sleep Paralysis: The Uncanny Valley", "start": 18439 }
+        { "name": "Duke Nukem Forever (2001)", "start": 1783 }
+      ] }
+    ]
+  },
+  {
+    "name": "Mirror Forge",
+    "category": "ongoing",
+    "id": "mirror-forge",
+    "streams": [
+      { "segment": "1686763712", "subrefs": [
+        { "name": "1", "start": 2459 }
+      ] },
+      { "segment": "1687663796", "subrefs": [
+        { "name": "2", "start": 18481 }
+      ] }
+    ]
+  },
+  {
+    "name": "Sleep Paralysis: The Uncanny Valley",
+    "category": "ongoing",
+    "id": "sleep-paralysis",
+    "streams": [
+      { "segment": "1686763712", "subrefs": [
+        { "name": "1", "start": 18439 }
+      ] },
+      { "segment": "1687663796", "subrefs": [
+        { "name": "2", "start": 2330 }
       ] }
     ]
   },
   {
     "name": "Deathwatch",
-    "category": "finished",
+    "category": "infinite",
     "id": "deathwatch",
     "streams": [
       { "segment": "1682351697", "subrefs": [
@@ -6510,6 +6537,9 @@
       ] },
       { "segment": "1686763712", "subrefs": [
         { "name": "2", "start": 13860 }
+      ] },
+      { "segment": "1687663796", "subrefs": [
+        { "name": "3", "start": 16988 }
       ] }
     ]
   },
