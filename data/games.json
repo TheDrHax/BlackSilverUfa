@@ -695,14 +695,26 @@
         { "name": "The Long Drive", "start": 4752 }
       ] },
       { "segment": "1618459269", "subrefs": [
-        { "name": "Tales of Terror", "start": 13316 },
-        { "name": "Escape Memoirs: Mini Stories", "start": 21583 }
+        { "name": "Tales of Terror", "start": 13316 }
       ] },
       { "segment": "1623036890", "subrefs": [
         { "name": "Overwatch 2", "start": 3251 }
       ] },
       { "segment": "1624846104", "subrefs": [
         { "name": "Ghostbusters: Spirits Unleashed", "start": 16061 }
+      ] }
+    ]
+  },
+  {
+    "name": "Escape Memoirs: Mini Stories",
+    "category": "co-op",
+    "id": "escape-memoirs",
+    "streams": [
+      { "segment": "1618459269", "subrefs": [
+        { "name": "1", "start": 21583 }
+      ] },
+      { "segment": "1688348940,1688400760", "subrefs": [
+        { "name": "2", "start": 25650 }
       ] }
     ]
   },
@@ -1962,6 +1974,9 @@
       ] },
       { "segment": "1679659879", "subrefs": [
         { "name": "15 (4D)", "start": 16738 }
+      ] },
+      { "segment": "1688348940,1688400760", "subrefs": [
+        { "name": "16 (4D)", "start": 17940 }
       ] }
     ]
   },
@@ -6498,6 +6513,9 @@
       ] },
       { "segment": "1686763712", "subrefs": [
         { "name": "Duke Nukem Forever (2001)", "start": 1783 }
+      ] },
+      { "segment": "1688348940,1688400760", "subrefs": [
+        { "name": "Half-Life: Blue Shift Remake", "start": 826 }
       ] }
     ]
   },
