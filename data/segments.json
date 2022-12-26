@@ -11786,9 +11786,9 @@
     "youtube": "oAT1c3fUmzU", "abs_start": 0, "abs_end": 31003, "duration": 31003,
     "name": "Half-Life: Blue Shift Remake / Pummel Party #16 (4D) / Escape Memoirs: Mini Stories #2",
     "date": "2022-12-25",
-    "offsets": [],
+    "offsets": [0, 7276],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1688348940,1688400760.torrent",
     "games": ["first-2022", "pummel-party", "escape-memoirs"],
-    "subtitles": "https://bsu.drhx.ru/chats/2022/v1688348940,1688400760.ass"
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1688348940,1688400760+0.ass"
   }
 }
