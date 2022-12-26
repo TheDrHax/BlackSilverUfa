@@ -3992,7 +3992,7 @@
         { "name": "Psychosis: Teaser", "start": 16397 }
       ] },
       { "segment": "1687663796", "subrefs": [
-        { "name": "FAITH", "start": 12127 }
+        { "name": "FAITH: Chapter One", "start": 12127 }
       ] }
     ]
   },
@@ -5072,8 +5072,20 @@
         { "name": "Bloodborne", "start": 3737 }
       ] },
       { "segment": "001508120", "subrefs": [
-        { "name": "Nightmare House 2" },
         { "name": "Bioshock Infinite", "start": 4309 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nightmare House 2",
+    "category": "finished",
+    "id": "nightmare-house-2",
+    "streams": [
+      { "segment": "001508120", "subrefs": [
+        { "name": "Первый взгляд", "start": 669 }
+      ] },
+      { "segment": "1689107812", "subrefs": [
+        { "name": "Прохождение", "start": 14141 }
       ] }
     ]
   },
@@ -6513,9 +6525,19 @@
       ] },
       { "segment": "1686763712", "subrefs": [
         { "name": "Duke Nukem Forever (2001)", "start": 1783 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Half-Life: Blue Shift Remake",
+    "category": "finished",
+    "id": "hl-bs-r",
+    "streams": [
       { "segment": "1688348940,1688400760", "subrefs": [
-        { "name": "Half-Life: Blue Shift Remake", "start": 826 }
+        { "name": "1", "start": 826 }
+      ] },
+      { "segment": "1689107812", "subrefs": [
+        { "name": "2", "start": 1590 }
       ] }
     ]
   },
