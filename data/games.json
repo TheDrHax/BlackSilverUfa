@@ -3990,9 +3990,19 @@
         { "name": "Verwandlung", "start": 1812 },
         { "name": "Those Who Crawl", "start": 6175 },
         { "name": "Psychosis: Teaser", "start": 16397 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "FAITH",
+    "category": "ongoing",
+    "id": "faith",
+    "streams": [
       { "segment": "1687663796", "subrefs": [
-        { "name": "FAITH: Chapter One", "start": 12127 }
+        { "name": "Chapter I", "start": 12127 }
+      ] },
+      { "segment": "1690022559", "subrefs": [
+        { "name": "Chapter II", "start": 15123 }
       ] }
     ]
   },
@@ -6525,6 +6535,11 @@
       ] },
       { "segment": "1686763712", "subrefs": [
         { "name": "Duke Nukem Forever (2001)", "start": 1783 }
+      ] },
+      { "segment": "1690022559", "subrefs": [
+        { "name": "Симулятор Прыгания по Гаражам", "start": 1872 },
+        { "name": "Creature Lab (демо)", "start": 3597 },
+        { "name": "Who Knocks", "start": 6425 }
       ] }
     ]
   },
