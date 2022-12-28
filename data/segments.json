@@ -11481,7 +11481,6 @@
     "youtube": "QLsmvlycpyw", "abs_start": 0, "abs_end": 29564, "duration": 29564,
     "name": "God of War Ragnarok #4",
     "date": "2022-11-12",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1650543457.torrent",
     "games": ["gow-ragnarok"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1650543457.ass"
   },
@@ -11804,5 +11803,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1690022559.torrent",
     "games": ["first-2022", "faith"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1690022559.ass"
+  },
+  "1690952607": {
+    "abs_start": 0, "abs_end": 21129, "duration": 21098,
+    "name": "The Thing: Station Survival / The Thing / The Thing (by PanzerCat) / The Thing - P.T. (by Stefano Cagnani)",
+    "date": "2022-12-28",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1690952607.mp4",
+    "cuts": [[3621, 3652]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1690952607.torrent",
+    "games": ["single", "first-2022"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1690952607+0.ass"
   }
 }

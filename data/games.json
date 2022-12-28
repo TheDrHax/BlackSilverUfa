@@ -3990,6 +3990,10 @@
         { "name": "Verwandlung", "start": 1812 },
         { "name": "Those Who Crawl", "start": 6175 },
         { "name": "Psychosis: Teaser", "start": 16397 }
+      ] },
+      { "segment": "1690952607", "subrefs": [
+        { "name": "The Thing: Station Survival", "start": 1131 },
+        { "name": "The Thing - P.T. (by Stefano Cagnani)", "start": 20305 }
       ] }
     ]
   },
@@ -6540,6 +6544,10 @@
         { "name": "Симулятор Прыгания по Гаражам", "start": 1872 },
         { "name": "Creature Lab (демо)", "start": 3597 },
         { "name": "Who Knocks", "start": 6425 }
+      ] },
+      { "segment": "1690952607", "subrefs": [
+        { "name": "The Thing", "start": 2298 },
+        { "name": "The Thing (by PanzerCat)", "start": 14049 }
       ] }
     ]
   },
