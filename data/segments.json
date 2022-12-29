@@ -11497,7 +11497,6 @@
     "youtube": "_qutlrfH7SI", "abs_start": 0, "abs_end": 31781, "duration": 31781,
     "name": "God of War Ragnarok #6",
     "date": "2022-11-14",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1652434783.torrent",
     "games": ["gow-ragnarok"],
     "subtitles": "https://bsu.drhx.ru/chats/2022/v1652434783.ass"
   },
@@ -11807,12 +11806,22 @@
   },
   "1690952607": {
     "abs_start": 0, "abs_end": 21129, "duration": 21098,
-    "name": "The Thing: Station Survival / The Thing / The Thing (by PanzerCat) / The Thing - P.T. (by Stefano Cagnani)",
+    "name": "The Thing: Station Survival / The Thing #1 / The Thing (by PanzerCat) / The Thing - P.T. (by Stefano Cagnani)",
     "date": "2022-12-28",
     "direct": "https://bsufiles.thedrhax.pw/streams/1690952607.mp4",
     "cuts": [[3621, 3652]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1690952607.torrent",
-    "games": ["single", "first-2022"],
+    "games": ["single", "the-thing", "first-2022"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1690952607+0.ass"
+  },
+  "1691914672": {
+    "abs_start": 0, "abs_end": 29129, "duration": 29110,
+    "name": "The Thing #2 / Pummel Party #17 (6D)",
+    "date": "2022-12-29",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1691914672.mp4",
+    "cuts": [[18775, 18794]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1691914672.torrent",
+    "games": ["the-thing", "pummel-party"],
+    "subtitles": "https://bsu.drhx.ru/chats/generated/v1691914672+0.ass"
   }
 }

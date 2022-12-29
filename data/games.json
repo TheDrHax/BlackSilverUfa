@@ -1977,6 +1977,9 @@
       ] },
       { "segment": "1688348940,1688400760", "subrefs": [
         { "name": "16 (4D)", "start": 17940 }
+      ] },
+      { "segment": "1691914672", "subrefs": [
+        { "name": "17 (6D)", "start": 19560 }
       ] }
     ]
   },
@@ -6546,8 +6549,20 @@
         { "name": "Who Knocks", "start": 6425 }
       ] },
       { "segment": "1690952607", "subrefs": [
-        { "name": "The Thing", "start": 2298 },
         { "name": "The Thing (by PanzerCat)", "start": 14049 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Thing",
+    "category": "ongoing",
+    "id": "the-thing",
+    "streams": [
+      { "segment": "1690952607", "subrefs": [
+        { "name": "1", "start": 2298 }
+      ] },
+      { "segment": "1691914672", "subrefs": [
+        { "name": "2", "start": 2070 }
       ] }
     ]
   },
