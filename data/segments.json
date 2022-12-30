@@ -11819,5 +11819,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1691914672.torrent",
     "games": ["the-thing", "pummel-party"],
     "subtitles": "https://bsu.drhx.ru/chats/generated/v1691914672+0.ass"
+  },
+  "1692856301": {
+    "abs_start": 0, "abs_end": 20189, "duration": 20189,
+    "name": "The Thing #3 / FAITH - Chapter III",
+    "date": "2022-12-30",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1692856301.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1692856301.torrent",
+    "games": ["the-thing", "faith"],
+    "subtitles": "https://bsu.drhx.ru/chats/2022/v1692856301.ass"
   }
 }

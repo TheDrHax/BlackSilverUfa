@@ -4010,6 +4010,9 @@
       ] },
       { "segment": "1690022559", "subrefs": [
         { "name": "Chapter II", "start": 15123 }
+      ] },
+      { "segment": "1692856301", "subrefs": [
+        { "name": "Chapter III", "start": 8793 }
       ] }
     ]
   },
@@ -6555,7 +6558,7 @@
   },
   {
     "name": "The Thing",
-    "category": "ongoing",
+    "category": "finished",
     "id": "the-thing",
     "streams": [
       { "segment": "1690952607", "subrefs": [
@@ -6563,6 +6566,9 @@
       ] },
       { "segment": "1691914672", "subrefs": [
         { "name": "2", "start": 2070 }
+      ] },
+      { "segment": "1692856301", "subrefs": [
+        { "name": "3", "start": 1780 }
       ] }
     ]
   },
