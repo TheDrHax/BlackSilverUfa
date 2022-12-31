@@ -3997,6 +3997,9 @@
       { "segment": "1690952607", "subrefs": [
         { "name": "The Thing: Station Survival", "start": 1131 },
         { "name": "The Thing - P.T. (by Stefano Cagnani)", "start": 20305 }
+      ] },
+      { "segment": "1693798502", "subrefs": [
+        { "name": "Crimson Snow", "start": 5953 }
       ] }
     ]
   },
@@ -6937,6 +6940,9 @@
       ] },
       { "segment": "1557831331", "subrefs": [
         { "name": "6", "start": 7149 }
+      ] },
+      { "segment": "1693798502", "subrefs": [
+        { "name": "7", "start": 14103 }
       ] }
     ]
   },
