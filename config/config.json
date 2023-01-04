@@ -75,48 +75,48 @@
       "$PREFIX/chats/generated": {
         "remote": "chats-generated",
         "branch": "master",
-        "prefix": "https://bsu.drhx.ru/chats/generated"
+        "prefix": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master"
       },
       "$PREFIX/chats/2017": {
         "remote": "chats-2017",
         "branch": "master",
-        "prefix": "https://bsu.drhx.ru/chats/2017",
+        "prefix": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2017@master",
         "optional": true
       },
       "$PREFIX/chats/2018": {
         "remote": "chats-2018",
         "branch": "master",
-        "prefix": "https://bsu.drhx.ru/chats/2018",
+        "prefix": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master",
         "optional": true
       },
       "$PREFIX/chats/2019": {
         "remote": "chats-2019",
         "branch": "master",
-        "prefix": "https://bsu.drhx.ru/chats/2019",
+        "prefix": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master",
         "optional": true
       },
       "$PREFIX/chats/2020": {
         "remote": "chats-2020",
         "branch": "master",
-        "prefix": "https://bsu.drhx.ru/chats/2020",
+        "prefix": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master",
         "optional": true
       },
       "$PREFIX/chats/2021": {
         "remote": "chats-2021",
         "branch": "master",
-        "prefix": "https://bsu.drhx.ru/chats/2021",
+        "prefix": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master",
         "optional": true
       },
       "$PREFIX/chats/2022": {
         "remote": "chats-2022",
         "branch": "master",
-        "prefix": "https://bsu.drhx.ru/chats/2022",
+        "prefix": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master",
         "optional": true
       },
       "$PREFIX/chats/2023": {
         "remote": "chats-2023",
         "branch": "master",
-        "prefix": "https://bsu.drhx.ru/chats/2023"
+        "prefix": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master"
       }
     }
   },
