@@ -8,7 +8,7 @@ node_selector:
 volumes:
 - name: cache
   host:
-    path: /data/drone/blackufa
+    path: /data/drone/workspaces/blackufa
 
 clone:
   disable: true
