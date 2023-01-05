@@ -1,4 +1,4 @@
-# Архив стримов BlackUFA [![Build Status](https://jenkins.thedrhax.pw/job/BlackSilverUfa/badge/icon)](https://jenkins.thedrhax.pw/job/BlackSilverUfa/)
+# Архив стримов BlackUFA [![Build Status](https://ci.drhx.ru/api/badges/TheDrHax/BlackSilverUfa/status.svg)](https://ci.drhx.ru/TheDrHax/BlackSilverUfa)
 
 Перейдите на [GitHub Pages](https://bsu.drhx.ru) для доступа ко всем функциям ![](https://static-cdn.jtvnw.net/emoticons/v1/81274/1.0)
 

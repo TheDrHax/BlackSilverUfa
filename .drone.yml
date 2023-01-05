@@ -1,0 +1,68 @@
+kind: pipeline
+type: kubernetes
+name: default
+
+node_selector:
+  drone/blackufa: true
+
+volumes:
+- name: cache
+  host:
+    path: /data/drone/blackufa
+
+clone:
+  disable: true
+
+trigger:
+  branch:
+  - master
+
+steps:
+- name: chown-cache
+  image: alpine
+  pull: if-not-exists
+  volumes:
+  - name: cache
+    path: /drone/cached
+  commands:
+  - chown -R 1000:1000 /drone/cached
+
+- name: build
+  image: thedrhax/buildenv-blackufa
+  volumes:
+  - name: cache
+    path: /drone/cached
+  environment:
+    SSH_KEY:
+      from_secret: ssh_key
+  commands:
+  - |
+    mkdir ~/.ssh
+    echo "$SSH_KEY" > ~/.ssh/id_rsa
+    chmod 600 ~/.ssh/id_rsa
+
+  - cd /drone/cached
+
+  - |
+    if [ ! -d .git ]; then
+      git clone $DRONE_GIT_SSH_URL .
+      git config --local user.email "the.dr.hax@gmail.com"
+      git config --local user.name "Drone"
+    else
+      git fetch
+    fi
+
+    git checkout $DRONE_COMMIT
+
+  - ./bsu venv update
+  - ./bsu repo pull --force
+
+  - ./bsu generate --download-chats
+  - ./bsu webpack
+  # - ./bsu npm test
+
+  - './bsu pages commit "Drone: Обновление статичных файлов"'
+  - ./bsu pages push
+
+  - ./bsu repo prune --optional
+  - git gc --prune=now
