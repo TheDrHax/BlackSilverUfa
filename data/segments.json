@@ -11502,7 +11502,6 @@
     "youtube": "hj4sQ0QsIWo", "abs_start": 0, "abs_end": 28243, "duration": 28243,
     "name": "God of War Ragnarok #7",
     "date": "2022-11-15",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1653285370.torrent",
     "games": ["gow-ragnarok"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1653285370.ass"
   },
@@ -11836,5 +11835,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1693798502.torrent",
     "games": ["single", "peepo-island"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1693798502+0.ass"
+  },
+  "1699296271": {
+    "abs_start": 0, "abs_end": 22770, "duration": 22739,
+    "name": "Return to Castle Wolfenstein",
+    "date": "2023-01-06",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1699296271.mp4",
+    "cuts": [[3495, 3526]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1699296271.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1699296271+0.ass"
   }
 }

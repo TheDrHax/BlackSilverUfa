@@ -6560,6 +6560,17 @@
     ]
   },
   {
+    "name": "Первый взгляд 2023",
+    "category": "first",
+    "type": "list",
+    "id": "first-2023",
+    "streams": [
+      { "segment": "1699296271", "subrefs": [
+        { "name": "Return to Castle Wolfenstein", "start": 3766 }
+      ] }
+    ]
+  },
+  {
     "name": "The Thing",
     "category": "finished",
     "id": "the-thing",
