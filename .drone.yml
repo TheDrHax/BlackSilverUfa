@@ -25,7 +25,7 @@ steps:
   - name: cache
     path: /drone/cached
   commands:
-  - chown -R 1000:1000 /drone/cached
+  - chown 1000:1000 /drone/cached
 
 - name: build
   image: thedrhax/buildenv-blackufa
@@ -35,6 +35,7 @@ steps:
   environment:
     SSH_KEY:
       from_secret: ssh_key
+    PYTHONUNBUFFERED: 1
   commands:
   - |
     mkdir ~/.ssh
