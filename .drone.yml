@@ -2,6 +2,9 @@ kind: pipeline
 type: kubernetes
 name: default
 
+concurrency:
+  limit: 1
+
 node_selector:
   drone/blackufa: true
 
