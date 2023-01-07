@@ -6565,8 +6565,19 @@
     "type": "list",
     "id": "first-2023",
     "streams": [
+      
+    ]
+  },
+  {
+    "name": "Return to Castle Wolfenstein (RealRTCW)",
+    "category": "finished",
+    "id": "rrtcw",
+    "streams": [
       { "segment": "1699296271", "subrefs": [
-        { "name": "Return to Castle Wolfenstein", "start": 3766 }
+        { "name": "1", "start": 3766 }
+      ] },
+      { "segment": "1700264823", "subrefs": [
+        { "name": "2", "start": 3379 }
       ] }
     ]
   },
