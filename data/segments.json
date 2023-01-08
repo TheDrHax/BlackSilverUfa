@@ -11516,7 +11516,6 @@
     "youtube": "Kj7RKQB_jgI", "abs_start": 0, "abs_end": 9902, "duration": 9902,
     "name": "Warhammer 40,000: Darktide - Бета 2 (соло)",
     "date": "2022-11-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1657037267.torrent",
     "games": ["darktide"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1657037267.ass"
   },
@@ -11524,7 +11523,6 @@
     "youtube": "TYDJXMvqT6g", "abs_start": 9904, "abs_end": 39137, "duration": 29233,
     "name": "The Dark Pictures: The Devil in Me",
     "date": "2022-11-19",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1657037267.torrent",
     "games": ["single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1657037267.ass"
   },
@@ -11851,5 +11849,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1700264823.torrent",
     "games": ["rrtcw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1700264823.ass"
+  },
+  "1701325068": {
+    "abs_start": 0, "abs_end": 21661, "duration": 21661,
+    "name": "September 7th / The 9th Charnel (демо) / Smile / Input6 / Park Lane / Elevated Dread / The Interpid Explorer / There is Something in the Pipes / The Maker of Masks",
+    "date": "2023-01-08",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1701325068.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1701325068.torrent",
+    "games": ["single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1701325068.ass"
   }
 }
