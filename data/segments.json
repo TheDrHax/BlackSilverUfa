@@ -11857,5 +11857,15 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1701325068.torrent",
     "games": ["single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1701325068.ass"
+  },
+  "1702266111": {
+    "abs_start": 0, "abs_end": 22323, "duration": 22291,
+    "name": "Wolfenstein",
+    "date": "2023-01-09",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1702266111.mp4",
+    "cuts": [[3381, 3413]],
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1702266111.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1702266111+0.ass"
   }
 }
