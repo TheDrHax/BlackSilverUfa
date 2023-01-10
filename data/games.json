@@ -4058,7 +4058,7 @@
   },
   {
     "name": "Unusual Findings",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "unusual-findings",
     "streams": [
       { "segment": "1618459269", "subrefs": [
@@ -4206,7 +4206,10 @@
         { "name": "Episode 1 - Home Alone", "start": 6414 }
       ] },
       { "segment": "1258121391", "subrefs": [
-        { "name": "Episode 2 - Norwood Hitchhike" }
+        { "name": "Episode 2 - Norwood Hitchhike", "start": 1964 }
+      ] },
+      { "segment": "1703188749", "subrefs": [
+        { "name": "Episode 3 - Carson House", "start": 4038 }
       ] }
     ]
   },
@@ -6576,8 +6579,19 @@
     "type": "list",
     "id": "first-2023",
     "streams": [
+      
+    ]
+  },
+  {
+    "name": "Wolfenstein",
+    "category": "ongoing",
+    "id": "wolfenstein",
+    "streams": [
       { "segment": "1702266111", "subrefs": [
-        { "name": "Wolfenstein", "start": 1869 }
+        { "name": "1", "start": 1869 }
+      ] },
+      { "segment": "1703188749", "subrefs": [
+        { "name": "2", "start": 14316 }
       ] }
     ]
   },

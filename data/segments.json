@@ -11530,7 +11530,6 @@
     "youtube": "ptfAE_6v5vQ", "abs_start": 0, "abs_end": 21930, "duration": 21930,
     "name": "Alien: Isolation (мод AlienS IsolatioN) #3",
     "date": "2022-11-20",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1658062393.torrent",
     "games": ["aliens-isolation"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1658062393.ass"
   },
@@ -11860,11 +11859,20 @@
   },
   "1702266111": {
     "youtube": "6kdE4EhnX34", "abs_start": 0, "abs_end": 22327, "duration": 22295,
-    "name": "Wolfenstein",
+    "name": "Wolfenstein #1",
     "date": "2023-01-09",
     "cuts": [[3381, 3413]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1702266111.torrent",
-    "games": ["first-2023"],
+    "games": ["wolfenstein"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1702266111+0.ass"
+  },
+  "1703188749": {
+    "abs_start": 0, "abs_end": 20936, "duration": 20936,
+    "name": "Fears to Fathom - Episode 3 - Carson House / Wolfenstein #2",
+    "date": "2023-01-10",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1703188749.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1703188749.torrent",
+    "games": ["fears-to-fathom", "wolfenstein"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1703188749.ass"
   }
 }
