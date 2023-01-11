@@ -6584,7 +6584,7 @@
   },
   {
     "name": "Wolfenstein",
-    "category": "ongoing",
+    "category": "finished",
     "id": "wolfenstein",
     "streams": [
       { "segment": "1702266111", "subrefs": [
@@ -6592,6 +6592,9 @@
       ] },
       { "segment": "1703188749", "subrefs": [
         { "name": "2", "start": 14316 }
+      ] },
+      { "segment": "1704133402", "subrefs": [
+        { "name": "3", "start": 789 }
       ] }
     ]
   },

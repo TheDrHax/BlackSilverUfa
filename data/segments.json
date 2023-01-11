@@ -5907,7 +5907,7 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v544589716.ass"
   },
   "545136550": {
-    "youtube": "R6qnd6Ur-98", "official": false, "abs_start": 0, "abs_end": 20638, "duration": 20638,
+    "youtube": "Sbqw9FY5rgI", "official": false, "abs_start": 0, "abs_end": 20638, "duration": 20638,
     "name": "Spore #4 / The Sims 4 #2",
     "date": "2020-02-01",
     "games": ["spore", "sims-4"],
@@ -11537,7 +11537,6 @@
     "youtube": "xNo2UZCk1VY", "abs_start": 0, "abs_end": 16368, "duration": 16368,
     "name": "Evil West / Goat Simulator 3",
     "date": "2022-11-22",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1659790980.torrent",
     "games": ["first-2022"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1659790980.ass"
   },
@@ -11873,5 +11872,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1703188749.torrent",
     "games": ["fears-to-fathom", "wolfenstein"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1703188749.ass"
+  },
+  "1704133402": {
+    "abs_start": 0, "abs_end": 18118, "duration": 18118,
+    "name": "Wolfenstein #3",
+    "date": "2023-01-11",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1704133402.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1704133402.torrent",
+    "games": ["wolfenstein"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1704133402.ass"
   }
 }
