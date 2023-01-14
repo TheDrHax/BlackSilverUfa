@@ -1,4 +1,4 @@
-"""Usage: plot <stream> <keyword>..."""
+"""Usage: plot <stream>"""
 
 import re
 
@@ -11,15 +11,70 @@ from ..utils.ass import SubtitlesReader
 from .converter import unpack_line_breaks, unpack_emotes
 
 
-STEP = 10
+STEP = 30
+
+
+def pattern(emotes):
+    return re.compile(f'({"|".join(emotes)})')
+
+
+EMOTES = {
+    'laugh': pattern([
+        'OMEGALUL',
+        'KEKW',
+        'KEKYou',
+        'KEKL',
+        'KEKWLikeThis',
+        'LUL',
+        'LuL',
+        'bufaLough',
+        'bufaLUL',
+        'OMEGAROLL',
+        'KEKLEO'
+    ]),
+    'scare': pattern([
+        'WutFace',
+        'BSURage',
+        'bufaUF',
+        'bufaW',
+        'bufaU',
+        'monkaX',
+        'monkaGunshake',
+        'monkaChrist',
+        'monkaS',
+        'monkaW',
+        'peepoSHAKE',
+        'monkaBehind',
+        'monkaEyes',
+        'Wut',
+        'WutFaceW'
+    ]),
+    'dance': pattern([
+        'BBoomer',
+        'blobDance',
+        'BSUDance',
+        'BSUFlex',
+        'BSUJam',
+        'ChickenRave',
+        'duckDance',
+        'Libido',
+        'Jammies',
+        'peepoJAMMER',
+        'peepoDJ',
+        'peepoSnow',
+        'pirateD',
+        'TaBeRu',
+        'VIBE'
+    ]),
+}
 
 
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
     r = SubtitlesReader(streams[args['<stream>']][0].subtitles_path)
-    matcher = re.compile(f'({"|".join(args["<keyword>"])})')
-    data = []
+
+    data = dict((k, []) for k in EMOTES)
 
     for event in r.events():
         text = unpack_line_breaks(event.text)
@@ -27,18 +82,22 @@ def main(argv=None):
 
         start = int(event.start // STEP)
 
-        for i in range(start - len(data) + 1):
-            data.append(0)
+        for category, pattern in EMOTES.items():
+            for _ in range(start - len(data[category]) + 1):
+                data[category].append(0)
 
-        data[start] += len(matcher.findall(text))
+            data[category][start] += len(pattern.findall(text))
 
     r.close()
 
-    x = [str(Timecode(x * STEP)) for x in range(len(data))]
-    # y = data
+    x = [str(Timecode((x - 1) * STEP))
+         for x in range(len(list(data.values())[0]))]
 
     fig = go.Figure()
-    fig.add_trace(go.Scatter(x=x, y=data))
+
+    for category in EMOTES:
+        fig.add_trace(go.Scatter(name=category, x=x, y=data[category]))
+
     fig.show()
 
 
