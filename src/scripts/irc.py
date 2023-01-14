@@ -1,10 +1,11 @@
 """Usage:
-  irc <source> <start> <duration> <vod>
-  irc --current
+  irc <source> <start> <duration> <vod> [--plot]
+  irc --current [--plot]
 
 Options:
   --current   Download chat for stream that is currently online. Uses custom
               API endpoint.
+  --plot      Plot the frequency of emotes during the stream.
 
 This script converts IRC logs to chat subtitles.
 
@@ -24,6 +25,7 @@ from ..data.streams import Stream
 from ..data.loader.default import streams
 from ..data.timecodes import Timecode
 from ..utils.ass import SubtitlesEvent, SubtitlesWriter
+from .plot import main as plot
 
 
 def irc_params(params):
@@ -113,6 +115,9 @@ def main(argv=None):
         writer.write(msg)
 
     writer.close()
+
+    if args['--plot']:
+        plot([vod])
 
 
 if __name__ == '__main__':
