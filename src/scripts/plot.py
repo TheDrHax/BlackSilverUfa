@@ -90,7 +90,7 @@ def main(argv=None):
 
     r.close()
 
-    x = [str(Timecode((x - 1) * STEP))
+    x = [str(Timecode(x * STEP))
          for x in range(len(list(data.values())[0]))]
 
     fig = go.Figure()
