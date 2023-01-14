@@ -11544,7 +11544,6 @@
     "youtube": "6VK-K1cGDMU", "abs_start": 0, "abs_end": 16536, "duration": 16536,
     "name": "Alien: Isolation (мод AlienS IsolatioN) #4",
     "date": "2022-11-23",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1660650293.torrent",
     "games": ["aliens-isolation"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1660650293.ass"
   },
@@ -11552,7 +11551,6 @@
     "youtube": "3uf_3xSHOpw", "abs_start": 0, "abs_end": 22493, "duration": 22493,
     "name": "Apsulov: End of Gods #1",
     "date": "2022-11-25",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1662262853.torrent",
     "games": ["apsulov"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1662262853.ass"
   },
@@ -11880,5 +11878,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1704133402.torrent",
     "games": ["wolfenstein"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1704133402.ass"
+  },
+  "1707073235": {
+    "abs_start": 0, "abs_end": 23157, "duration": 23157,
+    "name": "Sanri / You Will Die Here Tonight (демо) / Driving Home / Deep Fear (by Nicolas Olivares) / Garten of Banban / Dead Man's Fault / Where's Mom? / Within",
+    "date": "2023-01-14",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1707073235.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1707073235.torrent",
+    "games": ["first-2023", "single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1707073235.ass"
   }
 }
