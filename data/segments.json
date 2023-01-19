@@ -2228,9 +2228,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v260173384.ass"
   },
   "260957900": {
-    "youtube": "iELyHG4xwzg", "official": false, "abs_start": 0, "abs_end": 14174, "duration": 14174,
+    "abs_start": 0, "abs_end": 14173, "duration": 14173,
     "name": "Dark Souls 2: Scholar of the First Sin #1",
     "date": "2018-05-13",
+    "direct": "https://bsufiles.thedrhax.pw/streams/260957900.mp4",
     "games": ["ds2-scholar"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v260957900.ass"
   },
@@ -11565,7 +11566,6 @@
     "youtube": "SDLw_0KdGSI", "abs_start": 0, "abs_end": 21951, "duration": 21951,
     "name": "Nancy Drew: Curse of Blackmoor Manor #1",
     "date": "2022-11-27",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1664055210.torrent",
     "games": ["nancy-drew-cobm"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1664055210.ass"
   },
