@@ -11579,7 +11579,6 @@
     "youtube": "eOjnmIq8qt0", "abs_start": 0, "abs_end": 10528, "duration": 10528,
     "name": "Need for Speed Unbound",
     "date": "2022-11-29",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1665724993.torrent",
     "games": ["first-2022"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1665724993.ass"
   },
@@ -11587,7 +11586,6 @@
     "youtube": "YxcP3BoJis0", "abs_start": 0, "abs_end": 20775, "duration": 20775,
     "name": "Do Not Open / Psych",
     "date": "2022-12-01",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1667371234.torrent",
     "games": ["first-2022", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1667371234.ass"
   },
@@ -11904,12 +11902,21 @@
   },
   "1711981237": {
     "abs_start": 0, "abs_end": 21258, "duration": 21229,
-    "name": "Alone in the Dark",
+    "name": "Alone in the Dark: Inferno #1",
     "date": "2023-01-19",
     "direct": "https://bsufiles.thedrhax.pw/streams/1711981237.mp4",
     "cuts": [[12945, 12974]],
     "torrent": "https://bsufiles.thedrhax.pw/streams/1711981237.torrent",
-    "games": ["first-2023"],
+    "games": ["aitd"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1711981237+0.ass"
+  },
+  "1712949815": {
+    "abs_start": 0, "abs_end": 23964, "duration": 23964,
+    "name": "Alone in the Dark: Inferno #2",
+    "date": "2023-01-20",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1712949815.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1712949815.torrent",
+    "games": ["aitd"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1712949815.ass"
   }
 }

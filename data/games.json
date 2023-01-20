@@ -6593,9 +6593,19 @@
       ] },
       { "segment": "1708111286", "subrefs": [
         { "name": "Barnyard (Рога и копыта)", "start": 1490 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Alone in the Dark: Inferno",
+    "category": "ongoing",
+    "id": "aitd",
+    "streams": [
       { "segment": "1711981237", "subrefs": [
-        { "name": "Alone in the Dark", "start": 2132 }
+        { "name": "1", "start": 2132 }
+      ] },
+      { "segment": "1712949815", "subrefs": [
+        { "name": "2", "start": 1041 }
       ] }
     ]
   },
