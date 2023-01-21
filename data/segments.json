@@ -11594,7 +11594,6 @@
     "youtube": "0SecE0lPCVM", "abs_start": 0, "abs_end": 33494, "duration": 33494,
     "name": "The Callisto Protocol #1",
     "date": "2022-12-02",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1668107750.torrent",
     "games": ["callisto-protocol"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1668107750.ass"
   },
@@ -11885,10 +11884,10 @@
   },
   "1708111286": {
     "youtube": "jEEeHqJsvVU", "abs_start": 0, "abs_end": 21295, "duration": 21295,
-    "name": "Barnyard (Рога и копыта)",
+    "name": "Barnyard (Рога и копыта) #1",
     "date": "2023-01-15",
     "torrent": "https://bsufiles.thedrhax.pw/streams/1708111286.torrent",
-    "games": ["first-2023"],
+    "games": ["barnyard"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1708111286.ass"
   },
   "1709052941": {
@@ -11919,5 +11918,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1712949815.torrent",
     "games": ["aitd"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1712949815.ass"
+  },
+  "1713959344": {
+    "abs_start": 0, "abs_end": 26165, "duration": 26165,
+    "name": "Barnyard (Рога и копыта) #2",
+    "date": "2023-01-21",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1713959344.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1713959344.torrent",
+    "games": ["barnyard"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1713959344.ass"
   }
 }

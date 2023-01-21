@@ -6590,9 +6590,19 @@
     "streams": [
       { "segment": "1707073235", "subrefs": [
         { "name": "Sanri", "start": 4984 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Barnyard (Рога и копыта)",
+    "category": "ongoing",
+    "id": "barnyard",
+    "streams": [
       { "segment": "1708111286", "subrefs": [
-        { "name": "Barnyard (Рога и копыта)", "start": 1490 }
+        { "name": "1", "start": 1490 }
+      ] },
+      { "segment": "1713959344", "subrefs": [
+        { "name": "2", "start": 1638 }
       ] }
     ]
   },
