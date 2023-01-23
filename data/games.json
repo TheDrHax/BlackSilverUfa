@@ -6617,7 +6617,7 @@
   },
   {
     "name": "Alone in the Dark: Inferno",
-    "category": "ongoing",
+    "category": "finished",
     "id": "aitd",
     "streams": [
       { "segment": "1711981237", "subrefs": [
@@ -6625,6 +6625,9 @@
       ] },
       { "segment": "1712949815", "subrefs": [
         { "name": "2", "start": 1041 }
+      ] },
+      { "segment": "1716026704", "subrefs": [
+        { "name": "3", "start": 1560 }
       ] }
     ]
   },

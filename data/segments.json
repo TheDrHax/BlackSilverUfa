@@ -11600,7 +11600,6 @@
     "youtube": "6kKIE0hoTVY", "abs_start": 0, "abs_end": 23845, "duration": 23845,
     "name": "The Callisto Protocol #2",
     "date": "2022-12-03",
-    "torrent": "https://bsufiles.thedrhax.pw/streams/1669015522.torrent",
     "games": ["callisto-protocol"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1669015522.ass"
   },
@@ -11931,5 +11930,14 @@
     "torrent": "https://bsufiles.thedrhax.pw/streams/1715060185.torrent",
     "games": ["first-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1715060185+0.ass"
+  },
+  "1716026704": {
+    "abs_start": 0, "abs_end": 16192, "duration": 16192,
+    "name": "Alone in the Dark: Inferno #3",
+    "date": "2023-01-23",
+    "direct": "https://bsufiles.thedrhax.pw/streams/1716026704.mp4",
+    "torrent": "https://bsufiles.thedrhax.pw/streams/1716026704.torrent",
+    "games": ["aitd"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1716026704.ass"
   }
 }
