@@ -6562,9 +6562,6 @@
       { "segment": "1667371234", "subrefs": [
         { "name": "Do Not Open", "start": 3122 }
       ] },
-      { "segment": "1674396025", "subrefs": [
-        { "name": "Forspoken (демо)", "start": 9871 }
-      ] },
       { "segment": "1678795130", "subrefs": [
         { "name": "The Witcher 3: Wild Hunt", "start": 1237 }
       ] },
@@ -6585,6 +6582,19 @@
       ] },
       { "segment": "1690952607", "subrefs": [
         { "name": "The Thing (by PanzerCat)", "start": 14049 }
+      ] }
+    ]
+  },
+  {
+    "name": "Forspoken",
+    "category": "ongoing",
+    "id": "forspoken",
+    "streams": [
+      { "segment": "1674396025", "subrefs": [
+        { "name": "Демо", "start": 9871 }
+      ] },
+      { "segment": "1716951120", "subrefs": [
+        { "name": "Релиз", "start": 583 }
       ] }
     ]
   },
