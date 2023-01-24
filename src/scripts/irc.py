@@ -86,11 +86,11 @@ def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
     if args['--current']:
-        stream = requests.get('https://red.thedrhax.pw/blackufa/twitch').json()
+        stream = requests.get('https://red.drhx.ru/blackufa/twitch').json()
 
         date = stream['date'].split('T')[0]
 
-        source = f'https://bsufiles.thedrhax.pw/logs/{date}.log'
+        source = f'https://bsufiles.drhx.ru/logs/{date}.log'
         start = datetime.fromisoformat(stream['date'].rstrip('Z'))
         vod = stream['vod']
 

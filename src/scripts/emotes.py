@@ -64,7 +64,7 @@ def inline_image(url):
 
 def update_emotes():
     try:
-        data = s.get('https://red.thedrhax.pw/blackufa/emotes').json()
+        data = s.get('https://red.drhx.ru/blackufa/emotes').json()
     except Exception:
         print('Unable to get emote data')
         return

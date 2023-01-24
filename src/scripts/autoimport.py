@@ -114,7 +114,7 @@ def main(argv=None):
         print(f'Stream "{vod}" already exists')
         sys.exit(1)
 
-    info = requests.get(f'https://red.thedrhax.pw/blackufa/twitch/{vod}').json()
+    info = requests.get(f'https://red.drhx.ru/blackufa/twitch/{vod}').json()
     timeline = get_timeline(info['game_history'])
 
     stream = create_stream(vod)

@@ -6,7 +6,7 @@ from tcd.twitch import Channel
 from ..data.timecodes import T
 
 
-STATE = 'https://red.thedrhax.pw/blackufa/twitch'
+STATE = 'https://red.drhx.ru/blackufa/twitch'
 
 
 class TimecodeHelper:

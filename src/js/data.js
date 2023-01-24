@@ -61,8 +61,8 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
       if (segment.youtube) {
         segment.thumbnail = `https://img.youtube.com/vi/${segment.youtube}/mqdefault.jpg`;
       } else {
-        segment.thumbnail = `https://bsufiles.thedrhax.pw/streams/${segment.segment}-sm.jpg`;
-        segment.poster = `https://bsufiles.thedrhax.pw/streams/${segment.segment}.jpg`;
+        segment.thumbnail = `https://bsufiles.drhx.ru/streams/${segment.segment}-sm.jpg`;
+        segment.poster = `https://bsufiles.drhx.ru/streams/${segment.segment}.jpg`;
       }
 
       if (key.indexOf('.') !== -1) {
