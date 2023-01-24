@@ -66,6 +66,21 @@ EMOTES = {
         'TaBeRu',
         'VIBE'
     ]),
+    'cry': pattern([
+        'BibleThump',
+        'CatCrying',
+        'bufaThump',
+        'bufaSad' 
+    ]),
+    'будь': re.compile('будь здоров', re.I),
+    'cat': pattern([
+        'Тося',
+        'BLELELE',
+        'bufaLove',
+        'bufaLewd',
+        'CatEyes'
+    ]),
+    'F': re.compile('(^|\\s)(f|NotLikeThis)(\\s|$)', re.I)
 }
 
 
