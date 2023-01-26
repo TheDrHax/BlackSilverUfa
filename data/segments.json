@@ -3123,9 +3123,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v311651965.ass"
   },
   "312042770": {
-    "youtube": "RvOGmKfbEsY", "official": false, "abs_start": -5, "abs_end": 18966, "duration": 18971,
+    "abs_start": 0, "abs_end": 18970, "duration": 18970,
     "name": "S.T.A.L.K.E.R.: Left 2 Die",
     "date": "2018-09-19",
+    "direct": "https://bsufiles.drhx.ru/streams/312042770.mp4",
     "games": ["first-2018"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v312042770.ass"
   },
@@ -5611,9 +5612,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v516508179.ass"
   },
   "516941489": {
-    "youtube": "g5W_A2MySUA", "official": false, "abs_start": 0, "abs_end": 21897, "duration": 21897,
+    "abs_start": 0, "abs_end": 21896, "duration": 21896,
     "name": "Grand Theft Auto: Vice City #1",
     "date": "2019-12-04",
+    "direct": "https://bsufiles.drhx.ru/streams/516941489.mp4",
     "games": ["gta-vice-city"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v516941489.ass"
   },
@@ -9789,9 +9791,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1205368606,1205563618+0.ass"
   },
   "1206191026": {
-    "youtube": "AJBtaawXqPc", "official": false, "abs_start": 0, "abs_end": 21512, "duration": 21477,
+    "abs_start": 0, "abs_end": 21511, "duration": 21476,
     "name": "Grand Theft Auto III - Definitive Edition / Grand Theft Auto: Vice City - Definitive Edition #1 / Grand Theft Auto: San Andreas - Definitive Edition #1",
     "date": "2021-11-15",
+    "direct": "https://bsufiles.drhx.ru/streams/1206191026.mp4",
     "cuts": [[14958, 14993]],
     "games": ["first-2021", "gta-vice-city", "gta-san-andreas"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1206191026+0.ass"
@@ -11614,7 +11617,6 @@
     "youtube": "ihPnoVfeQA4", "abs_start": 0, "abs_end": 18799, "duration": 18799,
     "name": "Yakuza 0 #6",
     "date": "2022-12-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/1671788984.torrent",
     "games": ["yakuza-0"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1671788984.ass"
   },
