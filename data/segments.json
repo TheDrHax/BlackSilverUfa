@@ -11623,7 +11623,6 @@
     "youtube": "5XbZ4jUg65Q", "abs_start": 0, "abs_end": 22756, "duration": 22756,
     "name": "Hello Neighbor 2 #1 (релиз)",
     "date": "2022-12-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/1672653498.torrent",
     "games": ["hello-neighbor-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1672653498.ass"
   },
@@ -11947,5 +11946,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1716951120.torrent",
     "games": ["forspoken"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1716951120.ass"
+  },
+  "1718922216": {
+    "abs_start": 0, "abs_end": 22575, "duration": 22575,
+    "name": "Hi-Fi Rush",
+    "date": "2023-01-26",
+    "direct": "https://bsufiles.drhx.ru/streams/1718922216.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1718922216.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1718922216.ass"
   }
 }
