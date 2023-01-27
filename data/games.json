@@ -9605,6 +9605,19 @@
       ] },
       { "segment": "542613780", "subrefs": [
         { "name": "3" }
+      ] },
+      { "segment": "1719885871", "subrefs": [
+        { "name": "Перед Remake", "start": 818 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dead Space Remake",
+    "category": "ongoing",
+    "id": "dead-space-remake",
+    "streams": [
+      { "segment": "1719885871", "subrefs": [
+        { "name": "1", "start": 11051 }
       ] }
     ]
   },

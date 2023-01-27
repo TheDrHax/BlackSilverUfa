@@ -11629,7 +11629,6 @@
     "youtube": "at-36azaVjM", "abs_start": 0, "abs_end": 21872, "duration": 21872,
     "name": "Hello Neighbor 2 #2 / IXION - Релиз",
     "date": "2022-12-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/1673532308.torrent",
     "games": ["hello-neighbor-2", "ixion"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1673532308.ass"
   },
@@ -11954,5 +11953,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1718922216.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1718922216.ass"
+  },
+  "1719885871": {
+    "abs_start": 0, "abs_end": 24369, "duration": 24369,
+    "name": "Dead Space - Перед Remake / Dead Space Remake #1",
+    "date": "2023-01-27",
+    "direct": "https://bsufiles.drhx.ru/streams/1719885871.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1719885871.torrent",
+    "games": ["dead-space", "dead-space-remake"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1719885871.ass"
   }
 }
