@@ -112,7 +112,9 @@ const SearchPage = () => {
     event?.preventDefault();
 
     const items = executeSearch({ mode, data, filters, sorting });
-    setPage(1);
+    if (page !== 1) {
+      setPage(1);
+    }
     updateResults({ mode, items });
 
     if (event) {
