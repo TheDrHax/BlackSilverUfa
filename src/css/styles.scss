@@ -238,6 +238,22 @@ html, body, #app {
   min-width: 20%; // 5 cards in a row with col-xl-2
 }
 
+.card .show-more {
+  background-color: #{$color-bg-light};
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #{$text-color};
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+
+  &:hover {
+    text-decoration: none;
+    background-color: lighten($color-bg-light, 10%);
+  }
+}
+
 footer.page-footer a {
   color: #fff;
 }

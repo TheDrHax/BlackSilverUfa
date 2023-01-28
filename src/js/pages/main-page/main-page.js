@@ -1,7 +1,7 @@
 import React from 'react';
 import reverse from 'lodash/reverse';
 import truncate from 'lodash/truncate';
-import { Button, Card, Col, Row } from 'react-bootstrap';
+import { Button, Card, Col, Ratio, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Layout } from '../../components';
 import { StatsBlock } from './stats';
@@ -21,7 +21,7 @@ const selectRecentSegments = ({ segments }, count = 10) => reverse(
 export default function MainPage() {
   const [data, isReady] = useDataStore();
   const maxNameLength = useResponsiveValue([80, 120]);
-  const cards = useResponsiveValue([6, 6, 9, 12, 15]);
+  const cards = useResponsiveValue([8, 8, 12, 16, 20]);
 
   return (
     <Layout title="Главная страница" className="text-white pt-3">
@@ -56,7 +56,7 @@ export default function MainPage() {
           </div>
 
           <Row className="g-0 d-flex pb-4">
-            {selectRecentSegments(data, cards).map((segment) => (
+            {selectRecentSegments(data, cards - 1).map((segment) => (
               <Col key={segment.segment} className="p-1 col-card" xs={6} md={4} lg={3} xl={2}>
                 <Card className="card-game">
                   <Link to={segment.url}>
@@ -68,6 +68,16 @@ export default function MainPage() {
                 </Card>
               </Col>
             ))}
+
+            <Col className="p-1 col-card" xs={6} md={4} lg={3} xl={2}>
+              <Card>
+                <Ratio aspectRatio="16x9">
+                  <Link to={PATHS.SEARCH} className="show-more">
+                    <h2>Показать ещё</h2>
+                  </Link>
+                </Ratio>
+              </Card>
+            </Col>
           </Row>
         </>
       )}
