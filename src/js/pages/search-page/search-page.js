@@ -26,9 +26,15 @@ const getDateParams = ({ from, to }) => (
 );
 
 const getSortParams = ({ sortBy, isDesc }) => (
-  sortBy === 'date'
-    ? [['date', isDesc], ['segment', isDesc]]
-    : [['streams', isDesc], ['date', isDesc], ['segment', isDesc]]
+  [
+    ...(
+      sortBy === 'stream_count' ? [['streams', isDesc]] :
+      sortBy === 'name' ? [['name', isDesc]] :
+      []
+    ),
+    ['date', isDesc],
+    ['segment', isDesc],
+  ]
 );
 
 const executeSearch = ({ data: { segments, index }, mode, filters, sorting }) => {

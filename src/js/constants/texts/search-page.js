@@ -9,6 +9,7 @@ export const searchPage = {
   to: 'по',
   sortModes: {
     date: 'по дате',
+    name: 'по названию',
     stream_count: 'по количеству стримов',
   },
   modes: {

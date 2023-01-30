@@ -9,7 +9,7 @@ import { FAIcon } from '../../utils/fontawesome';
 
 const SORT_OPTIONS = {
   segments: ['date'],
-  games: ['date', 'stream_count'],
+  games: ['date', 'name', 'stream_count'],
 };
 
 const SORT_ICONS = {
