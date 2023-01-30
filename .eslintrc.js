@@ -30,6 +30,7 @@ module.exports = {
     'object-curly-newline': [0],
     'class-methods-use-this': [0],
     'no-restricted-syntax': [0],
+    'no-nested-ternary': [0],
     'react/jsx-one-expression-per-line': [0],
     'react/prefer-stateless-function': [1],
     'no-else-return': [0],
