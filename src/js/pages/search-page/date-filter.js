@@ -18,29 +18,35 @@ const getRange = (date, scale) => {
 
   const startDate = new Date(date);
 
-  if (scale === 'year') {
-    SugarDate.reset(startDate, 'month');
-  } else if (scale === 'decade') {
-    SugarDate.reset(startDate, 'year');
+  switch (scale) {
+    case 'month': SugarDate.reset(startDate, 'day'); break;
+    case 'year': SugarDate.reset(startDate, 'month'); break;
+    case 'decade': SugarDate.reset(startDate, 'year'); break;
+    default: throw Error(`Unexpected scale: ${scale}`);
   }
 
   const endDate = new Date(startDate);
-  if (scale === 'year') {
-    SugarDate.advance(endDate, { months: 1 });
-  } else if (scale === 'decade') {
-    SugarDate.advance(endDate, { years: 1 });
+
+  switch (scale) {
+    case 'month': SugarDate.advance(endDate, { days: 1 }); break;
+    case 'year': SugarDate.advance(endDate, { months: 1 }); break;
+    case 'decade': SugarDate.advance(endDate, { years: 1 }); break;
+    default: throw Error(`Unexpected scale: ${scale}`);
   }
 
-  SugarDate.rewind(endDate, { days: 1 });
+  SugarDate.rewind(endDate, { seconds: 1 });
 
   return [startDate, endDate];
 };
 
+const getRangeCount = ({ segments, date, view }) => segments.count({
+  date: { $between: getRange(date, view) },
+});
+
 const getIntervalSummary = ({ date, view, segments, maxDate }) => {
   if (date > maxDate) return null;
-
-  const range = getRange(date, view);
-  const count = segments.count({ date: { $between: range } });
+  if (view === 'month') return null;
+  const count = getRangeCount({ segments, date, view });
   return (<div>{renderTemplate('{n} стрим{n#,а,ов}', { n: count })}</div>);
 };
 
@@ -48,7 +54,9 @@ const DateFilter = ({ value: { from, to, scale }, segments, onChange, ...rest })
   const minDate = new Date(segments.min('date'));
   const maxDate = new Date(segments.max('date'));
 
-  const datePickerConfig = { scale, minDate, maxDate };
+  const tileContent = (input) => getIntervalSummary({ ...input, segments, maxDate });
+  const tileDisabled = ({ date, view }) => getRangeCount({ segments, date, view }) === 0;
+  const datePickerConfig = { scale, minDate, maxDate, tileContent, tileDisabled };
 
   return (
     <InputGroup {...rest}>
@@ -75,7 +83,6 @@ const DateFilter = ({ value: { from, to, scale }, segments, onChange, ...rest })
               from={from}
               to={to}
               {...datePickerConfig}
-              tileDisabled={({ date }) => segments.count({ date: { $dteq: date } }) === 0}
               onChange={(input) => {
                 onChange(input);
               }}
@@ -85,7 +92,6 @@ const DateFilter = ({ value: { from, to, scale }, segments, onChange, ...rest })
             <DatePicker
               value={from}
               {...datePickerConfig}
-              tileContent={(input) => getIntervalSummary({ ...input, segments, maxDate })}
               onChange={(input) => {
                 const [start, end] = getRange(input, scale);
                 onChange({ from: start, to: end });
