@@ -13,8 +13,8 @@ const SORT_OPTIONS = {
 };
 
 const SORT_ICONS = {
-  desc: faSortAmountDesc,
-  asc: faSortAmountAsc,
+  desc: faSortAmountAsc,
+  asc: faSortAmountDesc,
 };
 
 const convertCategories = (categories) => Object.values(categories)
