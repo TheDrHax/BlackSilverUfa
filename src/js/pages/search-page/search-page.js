@@ -92,7 +92,7 @@ const SCHEMA_FILTERS = {
 const SCHEMA_SORTING = {
   sortBy: withSquashedDefault(StringParam, 'date'),
   isDesc: withSquashedDefault(BooleanParam, true),
-  limit: withSquashedDefault(NumberParam, 10),
+  limit: withSquashedDefault(NumberParam, 25),
 };
 const INIT_RESULTS = {
   mode: null,

@@ -129,7 +129,7 @@ const ControlPanel = ({ mode,
         <Form.Group className="d-flex align-items-baseline">
           <Form.Label>Количество:</Form.Label>
           <ButtonGroup className="ms-2 flex-1-0-0">
-            {[10, 25, 50].map((x) => (
+            {[10, 25, 50, 100].map((x) => (
               <Button
                 key={x}
                 size="sm"
