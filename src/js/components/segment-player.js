@@ -34,6 +34,7 @@ import { ShareOverlay } from './player/share-overlay';
 import { Layout } from '.';
 import { FAIcon } from '../utils/fontawesome';
 import { NoPrerender } from '../utils/prerender';
+import PATHS from '../constants/urls';
 
 export default class SegmentPlayer extends React.Component {
   createChatContainer() {
@@ -763,6 +764,7 @@ export default class SegmentPlayer extends React.Component {
       chatContainer,
       state: {
         segment: {
+          segment: segmentId,
           subtitles,
           thumbnail,
           date,
@@ -771,15 +773,19 @@ export default class SegmentPlayer extends React.Component {
           name: refName,
         },
         game: {
+          id: gameId,
           name: gameName,
         },
       },
     } = this;
 
     const title = `${refName} | ${gameName}`;
+    const canonicalPath = PATHS.PLAYER
+      .replace(':game', gameId)
+      .replace(':segment', segmentId);
 
     return (
-      <Layout fluid flex withFooter={false} title={title}>
+      <Layout fluid flex withFooter={false} {...{ title, canonicalPath }}>
         <Helmet>
           <meta
             property="og:description"

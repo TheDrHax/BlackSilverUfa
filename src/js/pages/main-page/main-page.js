@@ -24,7 +24,7 @@ export default function MainPage() {
   const cards = useResponsiveValue([8, 8, 12, 16, 20]);
 
   return (
-    <Layout title="Главная страница" className="text-white pt-3">
+    <Layout title="Главная страница" className="text-white pt-3" canonicalPath="/">
       <Row>
         <p>
           Добро пожаловать на сайт архива стримов Twitch-канала{' '}

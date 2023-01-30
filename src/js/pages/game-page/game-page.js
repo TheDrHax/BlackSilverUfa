@@ -9,6 +9,7 @@ import ErrorPage from '../error-page';
 import { getGameDescription } from '../../utils/data-utils';
 // Hooks
 import { useDataStore } from '../../hooks/use-data-store';
+import PATHS from '../../constants/urls';
 
 const GamePage = ({ match }) => {
   const [{ games }, isReady] = useDataStore();
@@ -27,7 +28,7 @@ const GamePage = ({ match }) => {
   const thumbnail = new URL(game.streams[0].original.thumbnail, window.location.href);
 
   return (
-    <Layout title={game.name}>
+    <Layout title={game.name} canonicalPath={PATHS.GAME.replace(':game', gameId)}>
       <Helmet>
         <meta
           property="og:description"

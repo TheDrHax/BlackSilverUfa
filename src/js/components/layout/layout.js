@@ -15,6 +15,7 @@ const Layout = ({
   flex,
   isLoading,
   title,
+  canonicalPath,
   ...rest
 }) => {
   const withFlex = flex || isLoading;
@@ -33,6 +34,9 @@ const Layout = ({
         <Helmet>
           <title>{fullTitle}</title>
           <meta property="og:title" content={fullTitle} />
+          {canonicalPath && (
+            <link rel="canonical" href={`${config.prefix}${canonicalPath}`} />
+          )}
         </Helmet>
       )}
       <Header />
@@ -54,6 +58,7 @@ Layout.propTypes = {
   className: PropTypes.string,
   withFooter: PropTypes.bool,
   title: PropTypes.string,
+  canonicalPath: PropTypes.string,
 };
 
 Layout.defaultProps = {
@@ -62,6 +67,7 @@ Layout.defaultProps = {
   withFooter: true,
   className: '',
   title: null,
+  canonicalPath: null,
 };
 
 export default Layout;
