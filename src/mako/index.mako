@@ -1,7 +1,7 @@
 <%inherit file="include/base.mako" />
 
 <%block name="head">
-<title>Главная страница | ${config['title']}</title>
+<title>${config['title']}</title>
 </%block>
 
 <%block name="content">
