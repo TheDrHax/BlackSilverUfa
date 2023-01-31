@@ -57,7 +57,23 @@ class Segment:
             ts = stream[0].timecodes + offset
             ts = ts.filter(lambda t: t > 0)
 
-            [res.add(t) for t in ts]
+            for t in ts:
+                if not isinstance(t, Timecodes) or t not in res:
+                    res.add(t)
+                    continue
+
+                t1, _ = res.find(t, depth=0)
+
+                if not isinstance(t1, Timecodes):
+                    res.add(t)
+                    continue
+
+                if len(set(t.name for t in res).intersection(t.name for t in t1)) == 0:
+                    t1.update(t)
+                else:
+                    if t.name:  # always true
+                        t.name += ' (продолжение)'
+                    res.add(t)
 
             if i > 0 and offset > 0 and offset not in res:
                 res.add(Timecode(offset, name=f'{i+1}-й стрим'))
@@ -434,7 +450,7 @@ class SegmentReference:
     _blacklist: Blacklist = attr.ib({}, converter=lambda x: Blacklist(**x))
     silent: bool = False
     _subrefs: list = attr.ib(factory=list)
-    subrefs: SortedKeyList = attr.ib(init=False)
+    subrefs: List['SubReference'] = attr.ib(init=False)
     _parent: Segment = attr.ib()
     parent: Segment = attr.ib(init=False)
 

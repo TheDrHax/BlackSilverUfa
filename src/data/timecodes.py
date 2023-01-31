@@ -1,3 +1,4 @@
+import re
 from typing import Callable, Dict, List, Tuple, Union
 from sortedcontainers import SortedKeyList
 
@@ -182,8 +183,9 @@ class Timecodes(SortedKeyList):
     ]
 
     STORE_TYPE = Union[Timecode, 'Timecodes']
+    SEARCH_TYPE = Union[STORE_TYPE, str, re.Pattern]
 
-    def __init__(self, data: INPUT_TYPE = None, name: str = None):
+    def __init__(self, data: INPUT_TYPE = [], name: Union[str, None] = None):
         super().__init__(key=lambda t: int(t))
         self.name = name
 
@@ -205,15 +207,15 @@ class Timecodes(SortedKeyList):
     def __new__(cls, *args, **kwargs) -> 'Timecodes':
         return object.__new__(cls)
 
-    def add(self, t: STORE_TYPE):
-        if isinstance(t, Timecodes) and t in self:
-            t1 = [t2
-                  for t2 in self
-                  if t2.name == t.name and isinstance(t2, Timecodes)][0]
-            t1.update(t)
-            return
+    def add(self, value: STORE_TYPE):
+        if isinstance(value, Timecodes) and all(self.find(value, depth=0)):
+            raise ValueError(f'Duplicate keys: "{value.name}"')
 
-        return super().add(t)
+        return super().add(value)
+
+    # Stub for type checker
+    def __iter__(self):
+        return super().__iter__()
 
     def transform(self, func: Callable[[Timecode],
                                        Union[Timecode, None]]) -> 'Timecodes':
@@ -255,19 +257,42 @@ class Timecodes(SortedKeyList):
     def __int__(self) -> int:
         return 0 if len(self) == 0 else int(self[0])
 
-    def __contains__(self, value: STORE_TYPE) -> bool:
-        if isinstance(value, Timecodes):
-            for t in self:
-                if isinstance(t, Timecodes) and t.name == value.name:
-                    return True
-        else:
-            for t in self:
-                if isinstance(t, Timecodes) and value in t:
-                    return True
-                elif t == value:
-                    return True
+    def find(self, value: SEARCH_TYPE, depth: int = -1) -> Union[Tuple[STORE_TYPE, Tuple[int, ...]], Tuple[None, None]]:
+        for i, t in enumerate(self):
+            if isinstance(value, re.Pattern):
+                if value.match(t.name):
+                    return t, (i,)
+            elif isinstance(value, str):
+                if t.name == value:
+                    return t, (i,)
+            elif isinstance(value, Timecode):
+                if t == value:
+                    return t, (i,)
 
-        return False
+            if isinstance(t, Timecodes):
+                if isinstance(value, Timecodes) and t.name == value.name:
+                    return t, (i,)
+
+                if depth == 0:
+                    continue
+
+                try:
+                    t, path = t.find(value, depth=depth)
+                    if path:
+                        return t, (i, *path)
+                except ValueError:
+                    pass
+
+        return None, None
+
+    def index(self, value: SEARCH_TYPE) -> int:
+        _, path = self.find(value, depth=0)
+        if not path:
+            raise ValueError
+        return path[0]
+
+    def __contains__(self, value: SEARCH_TYPE) -> bool:
+        return all(self.find(value))
 
     def __add__(self, offset: Timecode.INPUT_TYPE) -> 'Timecodes':
         return self.transform(lambda t: t + offset)
