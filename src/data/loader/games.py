@@ -1,4 +1,4 @@
-from typing import Union
+from typing import List, Union
 
 from ...utils import load_json, join, indent
 from ..games import Game
@@ -6,7 +6,7 @@ from ..streams import SegmentReference
 from .streams import Streams
 
 
-class Games(list):
+class Games(List[Game]):
     def __init__(self, streams: Union[Streams, None] = None,
                  filename: Union[str, None] = None):
         self.filename = filename

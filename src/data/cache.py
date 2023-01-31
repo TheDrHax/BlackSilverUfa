@@ -5,7 +5,7 @@ from functools import wraps
 from ..utils import _
 
 
-class Cache(object):
+class Cache:
     def __init__(self):
         self.data = {}
 

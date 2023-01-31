@@ -1,6 +1,6 @@
 import attr
 from natsort import natsorted
-from typing import Union
+from typing import Dict, Union
 
 from ..fallback import fallback
 from ..timecodes import Timecode, Timecodes
@@ -41,7 +41,7 @@ class Segments:
             fo.write('\n')
 
 
-class Streams(dict):
+class Streams(Dict[str, Stream]):
     def __init__(self, timecodes: Union[TimecodesDatabase, None] = None,
                  streams_json: Union[str, None] = None,
                  meta_json: Union[str, None] = None):

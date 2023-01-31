@@ -1,4 +1,3 @@
-from typing import Union
 from ...config import config
 from ...utils import load_json
 

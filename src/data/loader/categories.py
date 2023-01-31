@@ -1,12 +1,12 @@
 from datetime import datetime, timedelta
-from typing import Union
+from typing import Dict, Union
 
 from ...utils import load_json, join
 from ..categories import Category
 from .games import Games
 
 
-class Categories(dict):
+class Categories(Dict[str, Category]):
     def __init__(self, games: Union[Games, None] = None,
                  filename: Union[str, None] = None):
         self.filename = filename
