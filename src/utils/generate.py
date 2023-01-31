@@ -126,8 +126,15 @@ def generate(argv=None):
     # Create debug marker
     if DEBUG:
         open(_('.DEBUG'), 'a').close()
+        
+        with open(_('.config.json'), 'w') as fo:
+            json.dump(config, fo)
+
     elif os.path.exists(_('.DEBUG')):
         os.unlink(_('.DEBUG'))
+
+        if os.path.exists(_('.config.json')):
+            os.unlink(_('.config.json'))
 
     # Copy static files
     if os.path.isdir(_('static')):

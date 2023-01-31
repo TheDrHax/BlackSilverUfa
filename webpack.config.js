@@ -92,6 +92,15 @@ module.exports = [
         /src\/js\/data\.prod\.js/,
         './data.dev.js',
       ),
+      HMR && new webpack.NormalModuleReplacementPlugin(
+        /config\/config\.json/,
+        (res) => {
+          res.request = res.request.replace(
+            'config/config.json',
+            '_site/.config.json',
+          );
+        },
+      ),
       HMR && new ReactRefreshWebpackPlugin(),
     ].filter(Boolean),
   },
