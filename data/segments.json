@@ -11669,7 +11669,6 @@
     "youtube": "dR8aWy90Pjs", "abs_start": 0, "abs_end": 10270, "duration": 10270,
     "name": "Portal 2 #2",
     "date": "2022-12-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/1677975869.torrent",
     "games": ["portal-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1677975869.ass"
   },
@@ -11974,5 +11973,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1721949320.torrent",
     "games": ["dead-space-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1721949320.ass"
+  },
+  "1723929865": {
+    "abs_start": 0, "abs_end": 10001, "duration": 10001,
+    "name": "SpongeBob SquarePants: The Cosmic Shake / Dead Space Remake - Костюм 6-го уровня",
+    "date": "2023-01-31",
+    "direct": "https://bsufiles.drhx.ru/streams/1723929865.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1723929865.torrent",
+    "games": ["first-2023", "dead-space-remake"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1723929865.ass"
   }
 }
