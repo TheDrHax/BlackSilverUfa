@@ -133,6 +133,8 @@ def generate(argv=None):
     if os.path.isdir(_('static')):
         shutil.rmtree(_('static'))
     shutil.copytree('static', _('static'))
+    shutil.move(os.path.join(_('static'), 'favicon.ico'), _('favicon.ico'))
+    shutil.move(os.path.join(_('static'), 'favicon.png'), _('favicon.png'))
 
     # Create CNAME
     if config['domain']:
