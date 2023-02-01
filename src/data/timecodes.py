@@ -184,6 +184,7 @@ class Timecodes(SortedKeyList):
 
     STORE_TYPE = Union[Timecode, 'Timecodes']
     SEARCH_TYPE = Union[STORE_TYPE, str, re.Pattern]
+    SEARCH_RESULT_TYPE = Union[Tuple[STORE_TYPE, Tuple[int, ...]], Tuple[None, None]]
 
     def __init__(self, data: INPUT_TYPE = [], name: Union[str, None] = None):
         super().__init__(key=lambda t: int(t))
@@ -257,8 +258,22 @@ class Timecodes(SortedKeyList):
     def __int__(self) -> int:
         return 0 if len(self) == 0 else int(self[0])
 
-    def find(self, value: SEARCH_TYPE, depth: int = -1) -> Union[Tuple[STORE_TYPE, Tuple[int, ...]], Tuple[None, None]]:
+    @property
+    def start(self) -> Timecode:
+        return self[0].start if len(self) > 0 else Timecode()
+    
+    @property
+    def end(self) -> Timecode:
+        return self[-1].end if len(self) > 0 else Timecode()
+
+    def find(self,
+             value: SEARCH_TYPE,
+             depth: int = -1,
+             skip: Union[Timecode, None] = None) -> SEARCH_RESULT_TYPE:
         for i, t in enumerate(self):
+            if skip and t.start <= skip and not isinstance(value, Timecodes):
+                continue
+
             if isinstance(value, re.Pattern) and t.name:
                 if value.match(t.name):
                     return t, (i,)
@@ -271,19 +286,31 @@ class Timecodes(SortedKeyList):
 
             if isinstance(t, Timecodes):
                 if isinstance(value, Timecodes) and t.name == value.name:
+                    if skip and t.start <= skip:
+                        continue
+
                     return t, (i,)
 
                 if depth == 0:
                     continue
 
                 try:
-                    t, path = t.find(value, depth=depth)
-                    if path:
-                        return t, (i, *path)
+                    res, path = t.find(value, depth=depth, skip=skip)
+                    if res and path:
+                        return res, (i, *path)
                 except ValueError:
                     pass
 
         return None, None
+
+    def find_all(self, value: SEARCH_TYPE, depth: int = -1) -> List[SEARCH_RESULT_TYPE]:
+        res = [self.find(value, depth=depth)]
+
+        while res[-1] != (None, None):
+            res.append(self.find(value, depth=depth, skip=res[-1][0].start))
+
+        del res[-1]
+        return res
 
     def index(self, value: SEARCH_TYPE) -> int:
         _, path = self.find(value, depth=0)
