@@ -259,10 +259,10 @@ class Timecodes(SortedKeyList):
 
     def find(self, value: SEARCH_TYPE, depth: int = -1) -> Union[Tuple[STORE_TYPE, Tuple[int, ...]], Tuple[None, None]]:
         for i, t in enumerate(self):
-            if isinstance(value, re.Pattern):
+            if isinstance(value, re.Pattern) and t.name:
                 if value.match(t.name):
                     return t, (i,)
-            elif isinstance(value, str):
+            elif isinstance(value, str) and t.name:
                 if t.name == value:
                     return t, (i,)
             elif isinstance(value, Timecode):
