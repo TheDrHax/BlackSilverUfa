@@ -4026,6 +4026,10 @@
         { "name": "Bram The Toymaker", "start": 8922 },
         { "name": "Agora", "start": 13298 },
         { "name": "Lake Haven: Chrysalis", "start": 15909 }
+      ] },
+      { "segment": "1725890606", "subrefs": [
+        { "name": "Heart Attack", "start": 6119 },
+        { "name": "The Director's Disorder: Pilot Episode", "start": 11430 }
       ] }
     ]
   },
@@ -6253,7 +6257,7 @@
   },
   {
     "name": "Blood West",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "blood-west",
     "streams": [
       { "segment": "1299859703", "subrefs": [
@@ -6615,6 +6619,11 @@
       ] },
       { "segment": "1723929865", "subrefs": [
         { "name": "SpongeBob SquarePants: The Cosmic Shake", "start": 1965 }
+      ] },
+      { "segment": "1725890606", "subrefs": [
+        { "name": "Robotization: The Last Human (демо)", "start": 7946 },
+        { "name": "Arrogation: Unlight of Day", "start": 15473 },
+        { "name": "NOX: Chapter I", "start": 18975 }
       ] }
     ]
   },
