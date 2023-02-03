@@ -11673,7 +11673,6 @@
     "youtube": "nEgriRaE2W4", "abs_start": 0, "abs_end": 21860, "duration": 21860,
     "name": "The Witcher 3: Wild Hunt",
     "date": "2022-12-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/1678795130.torrent",
     "games": ["first-2022"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1678795130.ass"
   },
@@ -11986,5 +11985,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1725890606.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1725890606.ass"
+  },
+  "1726837212": {
+    "abs_start": 0, "abs_end": 22273, "duration": 22243,
+    "name": "Deliver Us Mars",
+    "date": "2023-02-03",
+    "direct": "https://bsufiles.drhx.ru/streams/1726837212.mp4",
+    "cuts": [[16449, 16479]],
+    "torrent": "https://bsufiles.drhx.ru/streams/1726837212.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1726837212+0.ass"
   }
 }
