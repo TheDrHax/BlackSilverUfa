@@ -6624,15 +6624,25 @@
         { "name": "Robotization: The Last Human (демо)", "start": 7946 },
         { "name": "Arrogation: Unlight of Day", "start": 15473 },
         { "name": "NOX: Chapter I", "start": 18975 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Deliver Us Mars",
+    "category": "finished",
+    "id": "deliver-us-mars",
+    "streams": [
       { "segment": "1726837212", "subrefs": [
-        { "name": "Deliver Us Mars", "start": 2488 }
+        { "name": "1", "start": 2488 }
+      ] },
+      { "segment": "1727935216", "subrefs": [
+        { "name": "2", "start": 11457 }
       ] }
     ]
   },
   {
     "name": "Barnyard (Рога и копыта)",
-    "category": "ongoing",
+    "category": "finished",
     "id": "barnyard",
     "streams": [
       { "segment": "1708111286", "subrefs": [
@@ -6640,6 +6650,9 @@
       ] },
       { "segment": "1713959344", "subrefs": [
         { "name": "2", "start": 1638 }
+      ] },
+      { "segment": "1727935216", "subrefs": [
+        { "name": "3", "start": 1916 }
       ] }
     ]
   },
