@@ -4091,6 +4091,7 @@
   {
     "name": "Trash Horror Collection",
     "category": "finished",
+    "type": "list",
     "id": "trash-horror",
     "streams": [
       { "segment": "1472093056", "subrefs": [
@@ -4117,6 +4118,7 @@
   {
     "name": "Trash Horror Collection 2",
     "category": "ongoing",
+    "type": "list",
     "id": "trash-horror-2",
     "streams": [
       { "segment": "1596223040", "subrefs": [
