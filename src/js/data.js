@@ -91,31 +91,29 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
       original: game,
     };
 
-    if (game.type !== 'list') {
-      const gameSegments = segments
-        .chain()
-        .find({ games: { $contains: game.id } })
-        .simplesort('date')
-        .data();
+    const gameSegments = segments
+      .chain()
+      .find({ games: { $contains: game.id } })
+      .simplesort('date')
+      .data();
 
-      const gameStreams = uniq(gameSegments.map((segment) => {
-        const dot = segment.segment.indexOf('.');
-        if (dot !== -1) {
-          return segment.segment.substring(0, dot);
-        }
-        return segment.segment;
-      })).length;
+    const gameStreams = uniq(gameSegments.map((segment) => {
+      const dot = segment.segment.indexOf('.');
+      if (dot !== -1) {
+        return segment.segment.substring(0, dot);
+      }
+      return segment.segment;
+    })).length;
 
-      index.insert({
-        ...indexEntry,
-        name: game.name,
-        segment: game.streams[0].segment,
-        segments: gameSegments,
-        url: `/play/${game.id}`,
-        streams: gameStreams,
-        date: gameSegments[0].date,
-      });
-    }
+    index.insert({
+      ...indexEntry,
+      name: game.name,
+      segment: game.streams[0].segment,
+      segments: gameSegments,
+      url: `/play/${game.id}`,
+      streams: gameStreams,
+      date: gameSegments[0].date,
+    });
 
     game.streams.forEach((ref) => {
       ref.name = ref.subrefs

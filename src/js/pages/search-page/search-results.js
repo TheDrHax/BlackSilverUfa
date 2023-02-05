@@ -16,9 +16,9 @@ const THUMBNAIL_GENERATORS = {
 
 const DESCRIPTION_GENERATORS = {
   segments: getSegmentDescription,
-  games: (game) => (game.original.type !== 'list'
-    ? getGameDescription(game.original)
-    : getSegmentDescription(game.segments[0])
+  games: (game) => (game.segments.length === 1
+    ? getSegmentDescription(game.segments[0])
+    : getGameDescription(game.original)
   ),
 };
 
