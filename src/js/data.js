@@ -10,22 +10,58 @@ function createIndex(collection, fields) {
     searchOptions: {
       prefix: true,
       fuzzy: 0,
-      combineWith: 'AND',
     },
     tokenize,
   });
 
+  // .search doesn't expose matching terms
+  index.search = function (query, searchOptions = {}) {
+    const rawRes = this.executeQuery(query, searchOptions);
+    const results = [];
+
+    for (const [id, res] of rawRes) {
+      const result = {
+        // eslint-disable-next-line no-underscore-dangle
+        id: this._documentIds.get(id),
+
+        ...res,
+
+        score: res.score * res.terms.length,
+
+        // eslint-disable-next-line no-underscore-dangle
+        ...this._storedFields.get(id),
+      };
+
+      if (searchOptions.filter == null || searchOptions.filter(result)) {
+        results.push(result);
+      }
+    }
+
+    results.sort(({ score: a }, { score: b }) => b - a);
+    return results;
+  };
+
   const chainOrig = collection.chain;
   collection.chain = function () {
     const chain = chainOrig.call(collection);
-    chain.search = (query) => chain.find({
-      $loki: {
-        $in: index
-          .search(query)
-          .filter(({ terms }) => terms.filter((t) => Number.isNaN(+t)).length > 0)
-          .map(({ id }) => id),
-      },
-    });
+
+    chain.search = (query) => {
+      const results = index.search(query);
+
+      const maxTerms = results.reduce((acc, cur) => {
+        const terms = cur.terms.length;
+        return terms > acc ? terms : acc;
+      }, 0);
+
+      const ids = results
+        // Prefer matches with the most matching terms
+        .filter(({ terms }) => terms.length === maxTerms)
+        // Skip only numerical matches
+        .filter(({ terms }) => terms.filter((t) => Number.isNaN(+t)).length > 0)
+        .map(({ id }) => id);
+      return chain.find({ $loki: { $in: ids } });
+    };
+
     return chain;
   };
 
