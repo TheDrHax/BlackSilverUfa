@@ -11688,7 +11688,6 @@
     "name": "Crisis Core: Final Fantasy VII - Reunion #1",
     "date": "2022-12-16",
     "cuts": [[3531, 3562]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1680525211.torrent",
     "games": ["cc-ff-7"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1680525211+0.ass"
   },
@@ -12001,5 +12000,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1727935216.torrent",
     "games": ["barnyard", "deliver-us-mars"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1727935216.ass"
+  },
+  "1728992336": {
+    "abs_start": 0, "abs_end": 21290, "duration": 21290,
+    "name": "Chilla's Art Complete Pack - The Karaoke / Interior Worlds (демо) / Holstin (демо) / Poop Killer 6 / In The Mountains / Project Code: Dark (демо) / Cannibal Abduction / Dias Felices",
+    "date": "2023-02-05",
+    "direct": "https://bsufiles.drhx.ru/streams/1728992336.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1728992336.torrent",
+    "games": ["single", "first-2023", "trash-horror-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1728992336.ass"
   }
 }
