@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from typing import Dict, Union
 
+from ..games import Game
 from ...utils import load_json, join
 from ..categories import Category
 from .games import Games
@@ -29,7 +30,12 @@ class Categories(Dict[str, Category]):
 
         if 'ongoing' in self and 'abandoned' in self:
             for game in self['ongoing'].games.copy():
-                if game.streams[-1].date < month_ago:
+                if isinstance(game, Game):
+                    date = game.streams[-1].date
+                else:
+                    date = game.date
+
+                if date < month_ago:
                     self['ongoing'].games.remove(game)
                     self['abandoned'].games.add(game)
                     game.category = 'abandoned'
