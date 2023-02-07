@@ -11702,7 +11702,6 @@
     "youtube": "eLkQ-hr_hJ4", "abs_start": 0, "abs_end": 22837, "duration": 22837,
     "name": "Verwandlung / Stay Still (демо) / 1 Bit Survivor / Those Who Crawl / Deathwatch #1 / The Madvent Calendar 3: Necrosis / Scary Pictures: Yacez - Seven Deadly Sins / Psychosis: Teaser / Hell is Others",
     "date": "2022-12-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/1682351697.torrent",
     "games": ["single", "first-2022", "deathwatch"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1682351697.ass"
   },
@@ -11711,7 +11710,6 @@
     "name": "Crisis Core: Final Fantasy VII - Reunion #2",
     "date": "2022-12-19",
     "cuts": [[44, 64]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1683157129.torrent",
     "games": ["cc-ff-7"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1683157129+0.ass"
   },
@@ -12010,12 +12008,21 @@
   },
   "1729899835": {
     "abs_start": 0, "abs_end": 30196, "duration": 30166,
-    "name": "Hogwarts Legacy",
+    "name": "Hogwarts Legacy #1",
     "date": "2023-02-06",
     "direct": "https://bsufiles.drhx.ru/streams/1729899835.mp4",
     "cuts": [[21131, 21161]],
     "torrent": "https://bsufiles.drhx.ru/streams/1729899835.torrent",
-    "games": ["first-2023"],
+    "games": ["hogwarts"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1729899835+0.ass"
+  },
+  "1730836289": {
+    "abs_start": 0, "abs_end": 32806, "duration": 32806,
+    "name": "Hogwarts Legacy #2",
+    "date": "2023-02-07",
+    "direct": "https://bsufiles.drhx.ru/streams/1730836289.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1730836289.torrent",
+    "games": ["hogwarts"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1730836289.ass"
   }
 }

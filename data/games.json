@@ -6640,9 +6640,19 @@
       { "segment": "1728992336", "subrefs": [
         { "name": "Holstin (демо)", "start": 8529 },
         { "name": "In The Mountains", "start": 12010 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Hogwarts Legacy",
+    "category": "ongoing",
+    "id": "hogwarts",
+    "streams": [
       { "segment": "1729899835", "subrefs": [
-        { "name": "Hogwarts Legacy", "start": 1204 }
+        { "name": "1", "start": 1204 }
+      ] },
+      { "segment": "1730836289", "subrefs": [
+        { "name": "2", "start": 435 }
       ] }
     ]
   },
