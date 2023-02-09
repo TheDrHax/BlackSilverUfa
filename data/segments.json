@@ -11724,16 +11724,13 @@
     "youtube": "GQNlNY_pSKA", "abs_start": 0, "abs_end": 20004, "duration": 20004,
     "name": "Sleep Paralysis: The Uncanny Valley #2 / FAITH - Chapter I / Deathwatch #3 / Mirror Forge #2",
     "date": "2022-12-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/1687663796.torrent",
     "games": ["sleep-paralysis", "faith", "deathwatch", "mirror-forge"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1687663796.ass"
   },
   "1688348940": {
-    "abs_start": 0, "abs_end": 7275, "duration": 7275,
+    "abs_start": 0, "abs_end": 7346, "duration": 0,
     "name": "",
     "date": "2022-12-25",
-    "direct": "https://bsufiles.drhx.ru/streams/1688348940.mp4",
-    "torrent": "https://bsufiles.drhx.ru/streams/1688348940.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1688348940.ass"
   },
@@ -12029,5 +12026,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1731887577.torrent",
     "games": ["hogwarts"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1731887577.ass"
+  },
+  "1732877770": {
+    "abs_start": 0, "abs_end": 31527, "duration": 31490,
+    "name": "Hogwarts Legacy #4",
+    "date": "2023-02-09",
+    "direct": "https://bsufiles.drhx.ru/streams/1732877770.mp4",
+    "cuts": [[23080, 23117]],
+    "torrent": "https://bsufiles.drhx.ru/streams/1732877770.torrent",
+    "games": ["hogwarts"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1732877770+0.ass"
   }
 }
