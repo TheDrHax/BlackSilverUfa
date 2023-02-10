@@ -11735,11 +11735,9 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1688348940.ass"
   },
   "1688400760": {
-    "abs_start": 0, "abs_end": 23723, "duration": 23723,
+    "abs_start": 0, "abs_end": 23742, "duration": 0,
     "name": "",
     "date": "2022-12-25",
-    "direct": "https://bsufiles.drhx.ru/streams/1688400760.mp4",
-    "torrent": "https://bsufiles.drhx.ru/streams/1688400760.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1688400760.ass"
   },
@@ -12036,5 +12034,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1732877770.torrent",
     "games": ["hogwarts"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1732877770+0.ass"
+  },
+  "1733865086": {
+    "abs_start": 0, "abs_end": 7769, "duration": 7769,
+    "name": "Hogwarts Legacy #5",
+    "date": "2023-02-10",
+    "direct": "https://bsufiles.drhx.ru/streams/1733865086.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1733865086.torrent",
+    "games": ["hogwarts"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1733865086.ass"
   }
 }
