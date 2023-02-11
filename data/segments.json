@@ -11746,7 +11746,6 @@
     "name": "Half-Life: Blue Shift Remake #1 / Pummel Party #16 (4D) / Escape Memoirs: Mini Stories #2",
     "date": "2022-12-25",
     "offsets": [0, 7276],
-    "torrent": "https://bsufiles.drhx.ru/streams/1688348940,1688400760.torrent",
     "games": ["hl-bs-r", "pummel-party", "escape-memoirs"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1688348940,1688400760+0.ass"
   },
@@ -12043,5 +12042,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1733865086.torrent",
     "games": ["hogwarts"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1733865086.ass"
+  },
+  "1734914714": {
+    "abs_start": 0, "abs_end": 31920, "duration": 31920,
+    "name": "Hogwarts Legacy #6",
+    "date": "2023-02-11",
+    "direct": "https://bsufiles.drhx.ru/streams/1734914714.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1734914714.torrent",
+    "games": ["hogwarts"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1734914714.ass"
   }
 }
