@@ -6640,6 +6640,10 @@
       { "segment": "1728992336", "subrefs": [
         { "name": "Holstin (демо)", "start": 8529 },
         { "name": "In The Mountains", "start": 12010 }
+      ] },
+      { "segment": "1738806096,1739001121", "subrefs": [
+        { "name": "Wanted: Dead", "start": 3801 },
+        { "name": "Wild Hearts", "start": 13501 }
       ] }
     ]
   },

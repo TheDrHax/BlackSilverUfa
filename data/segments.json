@@ -11762,7 +11762,6 @@
     "youtube": "W1uP8zuIHwc", "abs_start": 0, "abs_end": 21917, "duration": 21917,
     "name": "Симулятор Прыгания по Гаражам / Creature Lab (демо) / Who Knocks / FAITH - Chapter II",
     "date": "2022-12-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/1690022559.torrent",
     "games": ["first-2022", "faith"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1690022559.ass"
   },
@@ -11771,7 +11770,6 @@
     "name": "The Thing: Station Survival / The Thing #1 / The Thing (by PanzerCat) / The Thing - P.T. (by Stefano Cagnani)",
     "date": "2022-12-28",
     "cuts": [[3621, 3652]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1690952607.torrent",
     "games": ["single", "the-thing", "first-2022"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1690952607+0.ass"
   },
@@ -12057,5 +12055,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1736000179.torrent",
     "games": ["hogwarts"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1736000179.ass"
+  },
+  "1738806096": {
+    "abs_start": 0, "abs_end": 17706, "duration": 17690,
+    "name": "",
+    "date": "2023-02-15",
+    "direct": "https://bsufiles.drhx.ru/streams/1738806096.mp4",
+    "cuts": [[17546, 17560], [17616, 17618]],
+    "torrent": "https://bsufiles.drhx.ru/streams/1738806096.torrent",
+    "games": [],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1738806096+0.ass"
+  },
+  "1739001121": {
+    "abs_start": 0, "abs_end": 4172, "duration": 4154,
+    "name": "",
+    "date": "2023-02-15",
+    "direct": "https://bsufiles.drhx.ru/streams/1739001121.mp4",
+    "cuts": [[2567, 2585]],
+    "torrent": "https://bsufiles.drhx.ru/streams/1739001121.torrent",
+    "games": [],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1739001121+0.ass"
+  },
+  "1738806096,1739001121": {
+    "abs_start": 0, "abs_end": 21884, "duration": 21850,
+    "name": "Wanted: Dead / Wild Hearts",
+    "date": "2023-02-15",
+    "direct": "https://bsufiles.drhx.ru/streams/1738806096,1739001121.mp4",
+    "offsets": [0, 17695],
+    "cuts": [[17546, 17560], [17616, 17618], [20278, 20296]],
+    "torrent": "https://bsufiles.drhx.ru/streams/1738806096,1739001121.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1738806096,1739001121+0.ass"
   }
 }
