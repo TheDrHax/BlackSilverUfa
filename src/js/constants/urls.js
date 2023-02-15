@@ -6,4 +6,5 @@ export default {
   GAME: '/play/:game',
   LINK: '/links/:game.html',
   DONATE: '/donate',
+  NOT_FOUND: '/404',
 };
