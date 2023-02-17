@@ -11785,7 +11785,6 @@
     "youtube": "heC3gDEQjn8", "abs_start": 0, "abs_end": 20191, "duration": 20191,
     "name": "The Thing #3 / FAITH - Chapter III",
     "date": "2022-12-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/1692856301.torrent",
     "games": ["the-thing", "faith"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1692856301.ass"
   },
@@ -12094,5 +12093,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1739787468.torrent",
     "games": ["first-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1739787468+0.ass"
+  },
+  "1740746666": {
+    "abs_start": 0, "abs_end": 22631, "duration": 22631,
+    "name": "Like a Dragon: Ishin! (демо) / Yakuza 0 #8",
+    "date": "2023-02-17",
+    "direct": "https://bsufiles.drhx.ru/streams/1740746666.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1740746666.torrent",
+    "games": ["single", "yakuza-0"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1740746666.ass"
   }
 }
