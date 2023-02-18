@@ -11793,7 +11793,6 @@
     "name": "Crimson Snow / Peepo Island #7",
     "date": "2022-12-31",
     "cuts": [[3638, 3669]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1693798502.torrent",
     "games": ["single", "peepo-island"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1693798502+0.ass"
   },
@@ -12101,5 +12100,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1740746666.torrent",
     "games": ["single", "yakuza-0"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1740746666.ass"
+  },
+  "1741779316": {
+    "abs_start": 0, "abs_end": 22202, "duration": 22202,
+    "name": "9 Childs Street / Leak (демо) / Missing Hiker / White Day 2: The Flower That Tells Lies / Paranormal VHS (демо) / Echoes of the Living (демо)",
+    "date": "2023-02-18",
+    "direct": "https://bsufiles.drhx.ru/streams/1741779316.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1741779316.torrent",
+    "games": ["single", "first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1741779316.ass"
   }
 }

@@ -4043,6 +4043,11 @@
       ] },
       { "segment": "1740746666", "subrefs": [
         { "name": "Like a Dragon: Ishin! (демо)", "start": 2093 }
+      ] },
+      { "segment": "1741779316", "subrefs": [
+        { "name": "9 Childs Street", "start": 3572 },
+        { "name": "Leak (демо)", "start": 7863 },
+        { "name": "Missing Hiker", "start": 11401 }
       ] }
     ]
   },
@@ -6657,6 +6662,11 @@
         { "name": "DUCK: Dangerous Ultimate Cartridge Kidnapper", "start": 6745 },
         { "name": "Shadows of Doubt (демо)", "start": 13767 },
         { "name": "I Am Future (демо)", "start": 19852 }
+      ] },
+      { "segment": "1741779316", "subrefs": [
+        { "name": "White Day 2: The Flower That Tells Lies", "start": 13068 },
+        { "name": "Paranormal VHS (демо)", "start": 17420 },
+        { "name": "Echoes of the Living (демо)", "start": 18278 }
       ] }
     ]
   },
