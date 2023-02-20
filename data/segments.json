@@ -11800,7 +11800,6 @@
     "name": "Return to Castle Wolfenstein (RealRTCW) #1",
     "date": "2023-01-06",
     "cuts": [[3495, 3526]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1699296271.torrent",
     "games": ["rrtcw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1699296271+0.ass"
   },
@@ -12106,5 +12105,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1741779316.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1741779316.ass"
+  },
+  "1743703656": {
+    "abs_start": 0, "abs_end": 31847, "duration": 31847,
+    "name": "Atomic Heart",
+    "date": "2023-02-20",
+    "direct": "https://bsufiles.drhx.ru/streams/1743703656.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1743703656.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1743703656.ass"
   }
 }
