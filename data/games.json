@@ -7077,8 +7077,17 @@
     "category": "finished",
     "id": "tlou2",
     "streams": [
-      { "segment": "654380816,655265437,655528246,656257835", "subrefs": [
-        { "name": "Прохождение" }
+      { "segment": "654380816", "subrefs": [
+        { "name": "1", "start": 202 }
+      ] },
+      { "segment": "655265437", "subrefs": [
+        { "name": "2 (часть 1)", "start": 184 }
+      ] },
+      { "segment": "655528246", "subrefs": [
+        { "name": "2 (часть 2)", "start": 35 }
+      ] },
+      { "segment": "656257835", "subrefs": [
+        { "name": "3", "start": 170 }
       ] },
       { "segment": "1582452440", "subrefs": [
         { "name": "1 (заново)", "start": 1175 }

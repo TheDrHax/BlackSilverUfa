@@ -6688,40 +6688,32 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v653411860.ass"
   },
   "654380816": {
-    "abs_start": 0, "abs_end": 27131, "duration": 0,
-    "name": "",
+    "youtube": "0xbMsFhQ71s", "official": false, "abs_start": 0, "abs_end": 27133, "duration": 27133,
+    "name": "The Last of Us: Part II #1",
     "date": "2020-06-18",
-    "games": [],
+    "games": ["tlou2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v654380816.ass"
   },
   "655265437": {
-    "abs_start": 0, "abs_end": 24121, "duration": 0,
-    "name": "",
+    "youtube": "rsGC0GI9ZU4", "official": false, "abs_start": 0, "abs_end": 24067, "duration": 24067,
+    "name": "The Last of Us: Part II #2 (часть 1)",
     "date": "2020-06-19",
-    "games": [],
+    "games": ["tlou2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v655265437.ass"
   },
   "655528246": {
-    "abs_start": 0, "abs_end": 10802, "duration": 0,
-    "name": "",
+    "youtube": "MLh93Y6CoCw", "official": false, "abs_start": 0, "abs_end": 10812, "duration": 10812,
+    "name": "The Last of Us: Part II #2 (часть 2)",
     "date": "2020-06-20",
-    "games": [],
+    "games": ["tlou2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v655528246.ass"
   },
   "656257835": {
-    "abs_start": 0, "abs_end": 39069, "duration": 0,
-    "name": "",
+    "youtube": "jnzpKbZHaPA", "official": false, "abs_start": 0, "abs_end": 39057, "duration": 39057,
+    "name": "The Last of Us: Part II #3",
     "date": "2020-06-20",
-    "games": [],
-    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v656257835.ass"
-  },
-  "654380816,655265437,655528246,656257835": {
-    "youtube": "ZBHv3E0ZDHo", "abs_start": 0, "abs_end": 101069, "duration": 101069,
-    "name": "The Last of Us: Part II - Прохождение",
-    "date": "2020-06-18",
-    "offsets": [0, 27133, 51200, 62012],
     "games": ["tlou2"],
-    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v654380816,655265437,655528246,656257835+0.ass"
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v656257835.ass"
   },
   "658127870": {
     "youtube": "Rb25ko56u-s", "abs_start": 0, "abs_end": 20883, "duration": 20883,
