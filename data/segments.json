@@ -467,9 +467,10 @@
     "games": ["ds3"]
   },
   "001605240": {
-    "youtube": "-_9vZHF-plc", "official": false, "abs_start": 0, "abs_end": 19894, "duration": 19894,
+    "abs_start": 0, "abs_end": 19893, "duration": 19893,
     "name": "Dark Souls 3 #5",
     "date": "2016-05-24",
+    "direct": "https://bsufiles.drhx.ru/streams/001605240.mp4",
     "games": ["ds3"]
   },
   "001605270": {
@@ -2235,9 +2236,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v260957900.ass"
   },
   "262352362": {
-    "youtube": "B_TKtcBTHRI", "official": false, "abs_start": 0, "abs_end": 19026, "duration": 19026,
+    "abs_start": 0, "abs_end": 19025, "duration": 19025,
     "name": "Dark Souls 2: Scholar of the First Sin #2",
     "date": "2018-05-17",
+    "direct": "https://bsufiles.drhx.ru/streams/262352362.mp4",
     "games": ["ds2-scholar"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v262352362.ass"
   },
@@ -5266,9 +5268,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v485786489.ass"
   },
   "487490676": {
-    "youtube": "dh9AyaB4U2A", "official": false, "abs_start": 0, "abs_end": 19201, "duration": 19201,
+    "abs_start": 0, "abs_end": 19200, "duration": 19200,
     "name": "Lost Ark Online / Farming Simulator 19 #1",
     "date": "2019-09-28",
+    "direct": "https://bsufiles.drhx.ru/streams/487490676.mp4",
     "games": ["first-2019", "farming-simulator-19"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v487490676.ass"
   },
@@ -11799,7 +11802,6 @@
     "youtube": "9V9BemAHuns", "abs_start": 0, "abs_end": 23306, "duration": 23306,
     "name": "Return to Castle Wolfenstein (RealRTCW) #2",
     "date": "2023-01-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/1700264823.torrent",
     "games": ["rrtcw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1700264823.ass"
   },
