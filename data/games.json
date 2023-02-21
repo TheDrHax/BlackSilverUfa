@@ -6667,9 +6667,19 @@
         { "name": "White Day 2: The Flower That Tells Lies", "start": 13068 },
         { "name": "Paranormal VHS (демо)", "start": 17420 },
         { "name": "Echoes of the Living (демо)", "start": 18278 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Atomic Heart",
+    "category": "ongoing",
+    "id": "atomic-heart",
+    "streams": [
       { "segment": "1743703656", "subrefs": [
-        { "name": "Atomic Heart", "start": 2330 }
+        { "name": "1", "start": 2330 }
+      ] },
+      { "segment": "1744660246", "subrefs": [
+        { "name": "2", "start": 739 }
       ] }
     ]
   },
