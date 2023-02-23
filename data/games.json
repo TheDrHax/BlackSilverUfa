@@ -6672,7 +6672,7 @@
   },
   {
     "name": "Atomic Heart",
-    "category": "ongoing",
+    "category": "finished",
     "id": "atomic-heart",
     "streams": [
       { "segment": "1743703656", "subrefs": [
@@ -6683,6 +6683,9 @@
       ] },
       { "segment": "1745636782", "subrefs": [
         { "name": "3", "start": 529 }
+      ] },
+      { "segment": "1746607463,1746871491", "subrefs": [
+        { "name": "4", "start": 2223 }
       ] }
     ]
   },
