@@ -11853,7 +11853,6 @@
     "name": "Yakuza 0 #7",
     "date": "2023-01-16",
     "cuts": [[16551, 16583]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1709052941.torrent",
     "games": ["yakuza-0"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1709052941+0.ass"
   },
@@ -12145,5 +12144,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1746607463,1746871491.torrent",
     "games": ["atomic-heart"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1746607463,1746871491+0.ass"
+  },
+  "1748670859": {
+    "abs_start": 0, "abs_end": 10959, "duration": 10959,
+    "name": "Outstand: Episode 1 / TRONIT: Evade Red / Parasomnia / The Building 71 Incident / 28 Pixels Later",
+    "date": "2023-02-25",
+    "direct": "https://bsufiles.drhx.ru/streams/1748670859.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1748670859.torrent",
+    "games": ["first-2023", "single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1748670859.ass"
   }
 }
