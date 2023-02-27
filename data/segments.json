@@ -11861,7 +11861,6 @@
     "name": "Alone in the Dark: Inferno #1",
     "date": "2023-01-19",
     "cuts": [[12945, 12974]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1711981237.torrent",
     "games": ["aitd"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1711981237+0.ass"
   },
@@ -11869,7 +11868,6 @@
     "youtube": "pz4BzF83RMc", "abs_start": 0, "abs_end": 23966, "duration": 23966,
     "name": "Alone in the Dark: Inferno #2",
     "date": "2023-01-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/1712949815.torrent",
     "games": ["aitd"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1712949815.ass"
   },
@@ -12153,5 +12151,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1748670859.torrent",
     "games": ["first-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1748670859.ass"
+  },
+  "1750602082": {
+    "abs_start": 0, "abs_end": 32739, "duration": 32739,
+    "name": "Sons of the Forest (с Дашей и Джеком)",
+    "date": "2023-02-27",
+    "direct": "https://bsufiles.drhx.ru/streams/1750602082.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1750602082.torrent",
+    "games": ["co-op"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1750602082.ass"
   }
 }
