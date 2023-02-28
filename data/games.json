@@ -702,9 +702,19 @@
       ] },
       { "segment": "1624846104", "subrefs": [
         { "name": "Ghostbusters: Spirits Unleashed", "start": 16061 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Sons of the Forest (с Дашей и Джеком)",
+    "category": "co-op",
+    "id": "sons-forest",
+    "streams": [
       { "segment": "1750602082", "subrefs": [
-        { "name": "Sons of the Forest (с Дашей и Джеком)", "start": 1326 }
+        { "name": "1", "start": 1326 }
+      ] },
+      { "segment": "1751502984", "subrefs": [
+        { "name": "2", "start": 207 }
       ] }
     ]
   },

@@ -11875,7 +11875,6 @@
     "youtube": "EWnRUtHAiIA", "abs_start": 0, "abs_end": 26169, "duration": 26169,
     "name": "Barnyard (Рога и копыта) #2",
     "date": "2023-01-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/1713959344.torrent",
     "games": ["barnyard"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1713959344.ass"
   },
@@ -12154,11 +12153,20 @@
   },
   "1750602082": {
     "abs_start": 0, "abs_end": 32739, "duration": 32739,
-    "name": "Sons of the Forest (с Дашей и Джеком)",
+    "name": "Sons of the Forest (с Дашей и Джеком) #1",
     "date": "2023-02-27",
     "direct": "https://bsufiles.drhx.ru/streams/1750602082.mp4",
     "torrent": "https://bsufiles.drhx.ru/streams/1750602082.torrent",
-    "games": ["co-op"],
+    "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1750602082.ass"
+  },
+  "1751502984": {
+    "abs_start": 0, "abs_end": 34178, "duration": 34178,
+    "name": "Sons of the Forest (с Дашей и Джеком) #2",
+    "date": "2023-02-28",
+    "direct": "https://bsufiles.drhx.ru/streams/1751502984.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1751502984.torrent",
+    "games": ["sons-forest"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1751502984.ass"
   }
 }
