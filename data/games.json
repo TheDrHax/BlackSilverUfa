@@ -707,7 +707,7 @@
   },
   {
     "name": "Sons of the Forest (с Дашей и Джеком)",
-    "category": "co-op",
+    "category": "finished",
     "id": "sons-forest",
     "streams": [
       { "segment": "1750602082", "subrefs": [
@@ -715,6 +715,9 @@
       ] },
       { "segment": "1751502984", "subrefs": [
         { "name": "2", "start": 207 }
+      ] },
+      { "segment": "1752454738", "subrefs": [
+        { "name": "3", "start": 1053 }
       ] }
     ]
   },
