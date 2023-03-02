@@ -836,15 +836,6 @@ h3>.badge {
   }
 }
 
-@media(max-width: 399px) {
-  .plyr iframe {
-    width: 125%;
-    height: 125%;
-    transform: scale(0.8, 0.8);
-    transform-origin: top left;
-  }
-}
-
 .plyr-row {
   background-color: #000;
   
