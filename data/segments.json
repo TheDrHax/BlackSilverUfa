@@ -2376,9 +2376,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v268055630.ass"
   },
   "268114023": {
-    "youtube": "36mVlOKf7cA", "official": false, "abs_start": 0, "abs_end": 18163, "duration": 18163,
+    "abs_start": 0, "abs_end": 18162, "duration": 18162,
     "name": "Dark Souls: Remastered #1 (заново, со зрителями)",
     "date": "2018-06-01",
+    "direct": "https://bsufiles.drhx.ru/streams/268114023.mp4",
     "games": ["ds-remastered"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v268114023.ass"
   },
@@ -2559,12 +2560,12 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v276648637.ass"
   },
   "277001302": {
-    "youtube": "IP3xa6iBtV4", "official": false, "abs_start": 0, "abs_end": 18548, "duration": 18548,
+    "abs_start": 0, "abs_end": 18547, "duration": 18547,
     "name": "Dark Souls: Remastered #2 (со зрителями)",
     "date": "2018-06-24",
+    "direct": "https://bsufiles.drhx.ru/streams/277001302.mp4",
     "games": ["ds-remastered"],
-    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v277001302.ass",
-    "note": "Официальная запись <a href=\"https://vk.com/b_silver?w=wall-28387068_3245650\">заблокирована</a>."
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v277001302.ass"
   },
   "277440900": {
     "youtube": "WI-mcZ3EJeI", "abs_start": -4, "abs_end": 6470, "duration": 6474,
@@ -5401,9 +5402,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v496247270.ass"
   },
   "496714817": {
-    "youtube": "p_whu_mJocs", "official": false, "abs_start": 0, "abs_end": 15729, "duration": 15729,
+    "abs_start": 0, "abs_end": 15728, "duration": 15728,
     "name": "Farming Simulator 19 #2",
     "date": "2019-10-19",
+    "direct": "https://bsufiles.drhx.ru/streams/496714817.mp4",
     "games": ["farming-simulator-19"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v496714817.ass"
   },
@@ -5907,9 +5909,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v544589716.ass"
   },
   "545136550": {
-    "youtube": "zPPB2lKx7sE", "official": false, "abs_start": 0, "abs_end": 20638, "duration": 20638,
+    "abs_start": 0, "abs_end": 20637, "duration": 20637,
     "name": "Spore #4 / The Sims 4 #2",
     "date": "2020-02-01",
+    "direct": "https://bsufiles.drhx.ru/streams/545136550.mp4",
     "games": ["spore", "sims-4"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v545136550.ass"
   },
@@ -11880,14 +11883,14 @@
     "name": "Jawbreaker (демо) / No Strings Attached / Bram The Toymaker / Agora / Lake Haven: Chrysalis",
     "date": "2023-01-22",
     "cuts": [[12819, 12850]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1715060185.torrent",
     "games": ["first-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1715060185+0.ass"
   },
   "1716026704": {
-    "youtube": "HNQWIRKTrvs", "abs_start": 0, "abs_end": 16195, "duration": 16195,
+    "abs_start": 0, "abs_end": 16192, "duration": 16192,
     "name": "Alone in the Dark: Inferno #3",
     "date": "2023-01-23",
+    "direct": "https://bsufiles.drhx.ru/streams/1716026704.mp4",
     "torrent": "https://bsufiles.drhx.ru/streams/1716026704.torrent",
     "games": ["aitd"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1716026704.ass"
@@ -11896,7 +11899,6 @@
     "youtube": "dEuE0sU9HXo", "abs_start": 0, "abs_end": 19493, "duration": 19493,
     "name": "Forspoken - Релиз",
     "date": "2023-01-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/1716951120.torrent",
     "games": ["forspoken"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1716951120.ass"
   },
