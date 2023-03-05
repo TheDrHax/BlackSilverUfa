@@ -449,7 +449,7 @@
     "games": ["ds3"]
   },
   "001605120": {
-    "youtube": "YY5W9QZwTms", "official": false, "abs_start": 0, "abs_end": 15006, "duration": 15006,
+    "youtube": "TIfasrnVTtU", "official": false, "abs_start": 0, "abs_end": 15006, "duration": 15006,
     "name": "Dark Souls 3 #3",
     "date": "2016-05-12",
     "games": ["ds3"]
@@ -467,15 +467,17 @@
     "games": ["ds3"]
   },
   "001605240": {
-    "youtube": "-_9vZHF-plc", "official": false, "abs_start": 0, "abs_end": 19894, "duration": 19894,
+    "abs_start": 0, "abs_end": 19893, "duration": 19893,
     "name": "Dark Souls 3 #5",
     "date": "2016-05-24",
+    "direct": "https://bsufiles.drhx.ru/streams/001605240.mp4",
     "games": ["ds3"]
   },
   "001605270": {
-    "youtube": "PcBR7_DPG3A", "official": false, "abs_start": 0, "abs_end": 15465, "duration": 15465,
+    "abs_start": 0, "abs_end": 15464, "duration": 15464,
     "name": "Dark Souls 3 #6",
     "date": "2016-05-27",
+    "direct": "https://bsufiles.drhx.ru/streams/001605270.mp4",
     "games": ["ds3"]
   },
   "001605310": {
@@ -539,9 +541,10 @@
     "games": ["tes-morrowind"]
   },
   "001608240": {
-    "youtube": "TCp0oJB3erg", "abs_start": 0, "abs_end": 20397, "duration": 20397,
+    "abs_start": 0, "abs_end": 20396, "duration": 20396,
     "name": "Nioh - Бета 1 #1",
     "date": "2016-08-24",
+    "direct": "https://bsufiles.drhx.ru/streams/001608240.mp4",
     "games": ["nioh"]
   },
   "001608250": {
@@ -583,13 +586,14 @@
     "games": ["fallout-2"]
   },
   "001610070": {
-    "youtube": "tGeDEEARrMU", "official": false, "abs_start": 0, "abs_end": 21384, "duration": 21384,
+    "abs_start": 0, "abs_end": 21383, "duration": 21383,
     "name": "Mafia III #1",
     "date": "2016-10-07",
+    "direct": "https://bsufiles.drhx.ru/streams/001610070.mp4",
     "games": ["mafia-3"]
   },
   "001610100": {
-    "youtube": "aMzB3OqCJg4", "official": false, "abs_start": 0, "abs_end": 12157, "duration": 12157,
+    "abs_start": 0, "abs_end": 12157, "duration": 0,
     "name": "Mafia III #2",
     "date": "2016-10-10",
     "games": ["mafia-3"]
@@ -2294,9 +2298,10 @@
     "note": "Просмотр заблокирован в Японии."
   },
   "264290927": {
-    "youtube": "gGqgvMS4Iu8", "official": false, "abs_start": 0, "abs_end": 2541, "duration": 2541,
+    "abs_start": 0, "abs_end": 2539, "duration": 2539,
     "name": "Dark Souls 2: Scholar of the First Sin #4 (часть 4)",
     "date": "2018-05-22",
+    "direct": "https://bsufiles.drhx.ru/streams/264290927.mp4",
     "games": ["ds2-scholar"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v264290927.ass"
   },
@@ -2687,9 +2692,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v283350700.ass"
   },
   "284156303": {
-    "youtube": "MUpw9ehsZjg", "abs_start": -4, "abs_end": 18614, "duration": 18618,
+    "abs_start": -4, "abs_end": 18613, "duration": 18617,
     "name": "Depth #2 / Friday the 13th #3 / Drunk-Fu: Wasted Masters / Tricky Towers #2 / Golf It! #5",
     "date": "2018-07-13",
+    "direct": "https://bsufiles.drhx.ru/streams/284156303.mp4",
     "games": ["depth", "friday-13th", "co-op", "tricky-towers", "golf-it"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v284156303.ass"
   },
@@ -3692,9 +3698,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v361716902.ass"
   },
   "362192911": {
-    "youtube": "lGf2q-aH-Nc", "abs_start": 0, "abs_end": 18024, "duration": 18024,
+    "abs_start": 0, "abs_end": 18023, "duration": 18023,
     "name": "Resident Evil 2 #1 / Resident Evil 2 Remake - 1-Shot Demo",
     "date": "2019-01-11",
+    "direct": "https://bsufiles.drhx.ru/streams/362192911.mp4",
     "games": ["re2", "re2-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v362192911.ass"
   },
@@ -5418,9 +5425,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v497190114.ass"
   },
   "497590135": {
-    "youtube": "L2Ett7tGTIw", "official": false, "abs_start": 0, "abs_end": 21198, "duration": 21198,
+    "abs_start": 0, "abs_end": 21198, "duration": 21198,
     "name": "Mafia: City of Lost Heaven #3",
     "date": "2019-10-21",
+    "direct": "https://bsufiles.drhx.ru/streams/497590135.mp4",
     "games": ["mafia"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v497590135.ass"
   },
@@ -5497,9 +5505,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v504248004.ass"
   },
   "504672487": {
-    "youtube": "Ag8LclImehU", "abs_start": 0, "abs_end": 18533, "duration": 18533,
+    "abs_start": 0, "abs_end": 18533, "duration": 18533,
     "name": "Mafia II #5 / Planet Zoo",
     "date": "2019-11-06",
+    "direct": "https://bsufiles.drhx.ru/streams/504672487.mp4",
     "games": ["mafia-2", "first-2019"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v504672487.ass"
   },
@@ -7001,9 +7010,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v720973722.ass"
   },
   "721969297": {
-    "youtube": "Xug4C8e05T4", "official": false, "abs_start": 0, "abs_end": 22390, "duration": 22390,
+    "abs_start": 0, "abs_end": 22390, "duration": 22390,
     "name": "Mafia: City of Lost Heaven #1 (заново) / Mafia: Definitive Edition - Демо",
     "date": "2020-08-26",
+    "direct": "https://bsufiles.drhx.ru/streams/721969297.mp4",
     "games": ["mafia", "mafia-de"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v721969297.ass"
   },
@@ -11080,9 +11090,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1564505950.ass"
   },
   "1570142913": {
-    "youtube": "JIkK2jt6rr0", "official": false, "abs_start": 0, "abs_end": 36605, "duration": 36605,
+    "abs_start": 0, "abs_end": 36605, "duration": 36605,
     "name": "Saints Row (2022) / Gamescom #2022",
     "date": "2022-08-23",
+    "direct": "https://bsufiles.drhx.ru/streams/1570142913.mp4",
     "games": ["first-2022", "gamescom"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1570142913.ass"
   },
@@ -11987,7 +11998,6 @@
     "name": "Hogwarts Legacy #1",
     "date": "2023-02-06",
     "cuts": [[21131, 21161]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1729899835.torrent",
     "games": ["hogwarts"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1729899835+0.ass"
   },
@@ -11995,7 +12005,6 @@
     "youtube": "fWAzcVTL4X0", "abs_start": 0, "abs_end": 32809, "duration": 32809,
     "name": "Hogwarts Legacy #2",
     "date": "2023-02-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/1730836289.torrent",
     "games": ["hogwarts"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1730836289.ass"
   },
