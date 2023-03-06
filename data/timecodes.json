@@ -22731,7 +22731,14 @@
         "1:13:14~1:13:32",
         "5:18:31~5:19:31"
       ],
-      "1:46:19~1:49:07": "Whodini - Magic's Wand",
+      "Whodini - Magic's Wand": [
+        "1:46:19~1:49:07",
+        "1:50:17~1:50:31"
+      ],
+      "Electric Light Orchestra - Four Little Diamonds": [
+        "1:51:09~1:51:58",
+        "5:11:01~5:12:23"
+      ],
       "Tito Puente & His Orchestra - Mambo Gozon": [
         "2:15:51~2:16:49",
         "4:32:41~4:33:41"
@@ -22745,8 +22752,7 @@
       "3:56:29~3:57:50": "Daryl Hall & John Oates - Out of Touch",
       "4:12:41~4:15:56": "Michael Jackson - Billie Jean",
       "4:25:07~4:26:41": "Luther Vandross - Never Too Much",
-      "5:07:00~5:07:10": "Herbie Hancock - Rockit",
-      "5:11:01~5:12:23": "Electric Light Orchestra - Four Little Diamonds"
+      "5:07:00~5:07:10": "Herbie Hancock - Rockit"
     },
     "26:04": "Игра",
     "1:10:54": "-уши",
@@ -22772,7 +22778,10 @@
     "33:12": "Меню",
     "33:44": "Игра",
     "Проблемы с правообладателями": {
-      "43:58~48:08": "The Pointer Sisters - Automatic",
+      "The Pointer Sisters - Automatic": [
+        "43:58~48:08",
+        "4:48:15~4:49:30"
+      ],
       "51:17~52:29": "Tito Puente & His Orchestra - Mambo Gozon",
       "1:03:15~1:04:51": "David Lee Roth - Yankee Rose",
       "1:17:56~1:18:11": "Nena - 99 Luftballons",
