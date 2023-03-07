@@ -10,7 +10,11 @@
       "unofficial": 413,
       "missing": 31
     },
-    "messages": 23089334
+    "messages": 23089334,
+    "content_id": {
+      "streams": 145,
+      "claims": 506
+    }
   },
   "durations": {
     "streams": 30116843,
