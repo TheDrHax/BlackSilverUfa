@@ -3620,9 +3620,6 @@
         { "name": "Redundancy", "start": 7645 },
         { "name": "Re:Turn (демо)", "start": 15370 }
       ] },
-      { "segment": "749640613", "subrefs": [
-        { "name": "Contraband Police (демо)" }
-      ] },
       { "segment": "767249770", "subrefs": [
         { "name": "Xuan-Yuan Sword VII (демо)" }
       ] },
@@ -4069,6 +4066,19 @@
         { "name": "TRONIT: Evade Red", "start": 5520 },
         { "name": "Parasomnia", "start": 6993 },
         { "name": "The Building 71 Incident", "start": 8855 }
+      ] }
+    ]
+  },
+  {
+    "name": "Contraband Police",
+    "category": "ongoing",
+    "id": "contraband-police",
+    "streams": [
+      { "segment": "749640613", "subrefs": [
+        { "name": "Демо", "start": 1164 }
+      ] },
+      { "segment": "1758170289", "subrefs": [
+        { "name": "Релиз", "start": 10672 }
       ] }
     ]
   },
