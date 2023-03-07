@@ -35,6 +35,9 @@ export const StatsBlock = () => {
         записей - <b>{ftime(data.durations.segments)}</b> (покрытие: <b>{videoCoverage}%</b>).
         За это время было написано {render('сообщен{n#ие,ия,ий}', data.counts.messages)} в чате,
         то есть в среднем по {render('сообщен{n#ию,ия,ий}', avgMsgCount)} за стрим.{' '}
+        На <b>{render('сегмент{n#,а,ов}', data.counts.content_id.streams)}</b> суммарно поступило{' '}
+        <b>{render('заяв{n#ка,ки,ок}', data.counts.content_id.claims)}</b> Content ID, приводящих к{' '}
+        блокировке во всём мире или только в России.{' '}
 
         {data.counts.segments.missing > 0 && (
           <>

@@ -1,4 +1,4 @@
-from ..data.timecodes import T
+from ..data.timecodes import T, Timecodes
 from ..data.streams import StreamType
 from ..data.loader.default import streams
 
@@ -9,6 +9,8 @@ def get_stats():
     streams_total = 0
     chats_total = 0
     messages = 0
+    claims = 0
+    streams_claimed = 0
 
     for stream in streams.values():
         if stream.type is StreamType.JOINED:
@@ -20,6 +22,16 @@ def get_stats():
         streams_total += 1
         duration_streams += stream.duration
         messages += stream.messages
+
+        claim, _ = stream.timecodes.find('Проблемы с правообладателями', depth=0)
+        if isinstance(claim, Timecodes):
+            streams_claimed += 1
+
+            for t in claim:
+                if isinstance(t, Timecodes):
+                    claims += len(t)
+                else:
+                    claims += 1
 
         for segment in stream:
             duration_segments += segment.duration
@@ -49,7 +61,11 @@ def get_stats():
                 'unofficial': unofficial,
                 'missing': missing
             },
-            'messages': messages
+            'messages': messages,
+            'content_id': {
+                'streams': streams_claimed,
+                'claims': claims
+            }
         },
         'durations': {
             'streams': int(duration_streams),
