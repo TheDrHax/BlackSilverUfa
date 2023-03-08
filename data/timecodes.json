@@ -6134,8 +6134,11 @@
     "12:02": "Меню",
     "Проблемы с правообладателями": {
       "12:38~12:48": "Europe - The Final Countdown",
-      "2:06:03~2:07:22": "Blue Oyster Cult - (Don't Fear) The Reaper",
-      "2:09:30~2:11:02": "Blue Oyster Cult - (Don't Fear) The Reaper",
+      "Blue Oyster Cult - (Don't Fear) The Reaper": [
+        "2:06:03~2:07:22",
+        "2:09:30~2:11:02",
+        "2:16:51~2:17:09"
+      ],
       "Wham! - Wake Me Up Before You Go-Go": [
         "2:11:11~2:11:27",
         "2:19:30~2:22:13",
@@ -19784,7 +19787,7 @@
         "1:23:36~1:25:20",
         "1:27:06~1:28:01"
       ],
-      "1:25:50~1:27:08": "Journey - Separate Ways",
+      "1:25:20~1:27:08": "Journey - Separate Ways (Worlds Apart)",
       "1:42:22~1:46:07": "Pearl Jam - Do the Evolution",
       "1:52:51~1:56:49": "Boney M. - Rasputin"
     },
@@ -22482,7 +22485,11 @@
     "20:43": "Меню",
     "21:25": "Игра",
     "Проблемы с правообладателями": {
-      "37:04~38:30": "Frankie Laine - Jezebel",
+      "21:39~22:03": "Eddie Cochran - C'mon Everybody (Remastered 2003)",
+      "Frankie Laine - Jezebel": [
+        "37:04~38:30",
+        "38:16~39:19"
+      ],
       "Roy Hamilton - Don't Let Go": [
         "1:08:25~1:09:23",
         "2:33:47~2:34:34",
@@ -28948,11 +28955,14 @@
       "2:21:28~2:24:23": "Duke Ellington - Prelude To A Kiss",
       "2:24:38~2:25:31": "Django Reinhardt - Belleville",
       "2:58:08~2:58:57": "Jeanette MacDonald;Robert Russell Bennett - Beyond the Blue Horizon",
+      "Cab Calloway - Manhattan Jam": [
+        "2:58:57~2:59:23",
+        "6:47:02~6:47:34"
+      ],
       "3:01:55~3:04:14": "Duke Ellington & His Orchestra - Hot and Bothered",
       "3:05:22~3:08:11": "Duke Ellington - I Let A Song Go Out Of My Heart",
       "3:08:16~3:09:11": "Harry James - Back Beat Boogie",
-      "4:08:47~4:10:00": "Django Reinhardt, The Quintet of the Hot Club of France - A Tisket a Tasket",
-      "6:47:02~6:47:34": "Cab Calloway - Manhattan Jam"
+      "4:08:47~4:10:00": "Django Reinhardt, The Quintet of the Hot Club of France - A Tisket a Tasket"
     },
     "Mafia: Definitive Edition": {
       "2:00:33": "Меню",
