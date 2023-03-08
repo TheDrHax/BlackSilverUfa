@@ -680,6 +680,7 @@
     "4:00": "+уши",
     "Проблемы с правообладателями": {
       "4:01~8:31": "Aerosmith - Fly Away From Here",
+      "32:24~34:03": "Darude - Sandstorm",
       "1:10:29~1:12:07": "Gipsy Kings - Bamboleo",
       "2:26:18~2:27:58": "George Michael - Careless Whisper",
       "2:42:21~2:44:00": "Perry Como - Papa Loves Mambo"
@@ -12020,8 +12021,14 @@
     "Проблемы с правообладателями": {
       "1:31:04~1:34:43": "A Tribe Called Quest - I Left My Wallet in El Segundo",
       "1:34:45~1:35:24": "A Tribe Called Quest - I Left My Wallet in El Segundo",
-      "1:42:19~1:42:52": "Trippie Redd - BANG!",
-      "2:32:44~2:33:05": "IDLES, slowthai - Model Village",
+      "Trippie Redd - BANG!": [
+        "1:42:19~1:42:52",
+        "6:31:29~6:32:01"
+      ],
+      "IDLES, slowthai - Model Village": [
+        "2:29:48~2:30:00",
+        "2:32:44~2:33:05"
+      ],
       "The Pharcyde - Runnin'": [
         "2:36:00~2:36:17",
         "5:58:52~5:59:22"
@@ -12029,13 +12036,22 @@
       "4:01:10~4:01:52": "DMX - Party Up",
       "4:04:41~4:05:17": "TLC - Ain't 2 Proud 2 Beg",
       "5:44:11~5:44:48": "White Reaper - Raw",
-      "5:47:28~5:47:48": "Eric B. & Rakim - Microphone Fiend",
+      "Eric B. & Rakim - Microphone Fiend": [
+        "5:47:28~5:47:48",
+        "6:23:51~6:24:05"
+      ],
       "5:57:10~5:57:21": "M.O.P. - Ante Up",
       "6:24:08~6:24:28": "Starcrawler - Bet My Brains",
       "8:23:04~8:24:25": "Danzig - Mother",
-      "8:41:49~8:42:19": "Paul Paljett - Mumbo Jumbo",
+      "Paul Paljett - Mumbo Jumbo": [
+        "8:41:49~8:42:19",
+        "8:42:53~8:43:04"
+      ],
       "9:23:26~9:23:49": "The Dickies - Killer Klowns",
-      "9:56:53~9:57:53": "Kool & The Gang - Hollywood Swinging"
+      "Kool & The Gang - Hollywood Swinging": [
+        "9:56:53~9:57:53",
+        "9:58:03~9:59:02"
+      ]
     },
     "7:53:18": "Арты",
     "Gamescom 2022": {
@@ -22179,21 +22195,24 @@
     "2:00": "Стримлер",
     "8:23": "Меню",
     "8:45": "Игра",
-    "1:19:09": "Лучший кадр",
     "Проблемы с правообладателями": {
+      "Duke Ellington - The Mooche": [
+        "1:00:12~1:02:02",
+        "2:07:41~2:10:00",
+        "2:16:43~2:21:03",
+        "2:22:25~2:22:38",
+        "2:36:06~2:40:31",
+        "2:49:32~2:50:33"
+      ],
       "Django Reinhardt - Django Castle": [
         "1:24:51~1:27:38",
         "3:05:01~3:08:06",
         "3:25:18~3:28:20",
         "3:30:37~3:31:45",
         "3:35:17~3:35:57"
-      ],
-      "Duke Ellington - The Mooche": [
-        "2:07:41~2:10:00",
-        "2:16:43~2:21:03",
-        "2:39:30~2:40:31"
       ]
     },
+    "1:19:09": "Лучший кадр",
     "2:31:28": "Чем могу помочь?",
     "2:50:13": "Скукожило",
     "4:13:29": "This is fine",
@@ -22346,7 +22365,8 @@
         "1:37:53~1:40:00",
         "1:50:56~1:51:33"
       ],
-      "1:38:11~1:40:00": "Kay Kyser - Praise the Lord and Pass the Ammunition"
+      "1:38:11~1:40:00": "Kay Kyser - Praise the Lord and Pass the Ammunition",
+      "2:25:32~2:28:00": "Bix Beiderbecke & The Wolverines - Riverboat Shuffle"
     },
     "Outlast 2": {
       "3:34:11": "Меню",
@@ -23045,20 +23065,24 @@
       "2:56:01": "Мороженое убивает"
     },
     "Проблемы с правообладателями": {
+      "1:38~1:59": "The Pointer Sisters - Automatic",
       "3:30~3:42": "Mr. Mister - Broken Wings",
+      "4:28~5:18": "Michael Jackson - Wanna Be Startin' Somethin'",
       "Nena - 99 Luftballons": [
         "8:37~10:02",
         "1:45:37~1:47:01"
       ],
-      "29:51~30:56": "Whodini - Magic's Wand",
       "45:49~48:11": "Joe Jackson - Steppin' Out",
+      "55:12~56:02": "Evelyn \"Champagne\" King - Shame",
       "1:03:59~1:05:31": "Luther Vandross - Never Too Much",
+      "1:24:55~1:25:16": "Daryl Hall & John Oates - Out of Touch",
       "1:42:00~1:45:31": "Oliver Cheatham - Get Down Saturday Night",
       "1:54:43~1:55:29": "Quiet Riot - Cum On Feel the Noize",
       "2:21:09~2:21:46": "Ozzy Osbourne - Bark at the Moon",
       "2:29:21~2:30:02": "Michael Jackson - Billie Jean",
       "2:49:20~2:50:45": "Tito Puente & His Orchestra - Mambo Gozon",
-      "3:14:04~3:16:19": "Michael Jackson - Wanna Be Startin' Somethin'"
+      "3:14:04~3:16:19": "Michael Jackson - Wanna Be Startin' Somethin'",
+      "3:25:55~3:27:00": "Whodini - Magic's Wand"
     },
     "3:38:41": "Бонус"
   },
@@ -23942,6 +23966,11 @@
       "2:24:05~2:27:04": "The Stone Roses - Fools Gold (Remastered Edit)",
       "2:50:04~2:53:14": "Ozzy Osbourne - Hellraiser (много небольших фрагментов)",
       "3:16:31~3:17:52": "Alice In Chains - Them Bones",
+      "Compton's Most Wanted - Hood Took Me Under": [
+        "3:22:48~3:24:07",
+        "3:29:14~3:29:40",
+        "3:37:13~3:37:53"
+      ],
       "3:49:42~3:49:57": "Frankie Knuckles - It's a Cold World",
       "5:07:40~5:08:04": "Public Enemy - Rebel Without A Pause",
       "The Nightwriters - Let the Music (Use You)": [
@@ -28120,13 +28149,17 @@
       ]
     },
     "Проблемы с правообладателями": {
-      "33:06~35:57": "Duke Ellington - The Mooche",
+      "Duke Ellington - The Mooche": [
+        "33:06~35:57",
+        "1:47:00~1:47:27"
+      ],
       "Django Reinhardt - Django Castle": [
         "46:42~47:43",
         "1:09:41~1:11:51",
         "1:58:17~1:59:39"
       ],
       "2:45:28~2:48:00": "Django Reinhardt - Tiger Rag",
+      "5:25:31~5:26:11": "Duke Ellington - Prelude To A Kiss",
       "5:26:12~5:26:48": "Cab Calloway and his Orchestra - St. James Infirmary-7247-DNC"
     },
     "Mafia: Definitive Edition (демо)": {
