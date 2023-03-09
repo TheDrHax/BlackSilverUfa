@@ -12178,5 +12178,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1759103392.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1759103392.ass"
+  },
+  "1760013812": {
+    "abs_start": 0, "abs_end": 22416, "duration": 22416,
+    "name": "Clash: Artifacts of Chaos",
+    "date": "2023-03-09",
+    "direct": "https://bsufiles.drhx.ru/streams/1760013812.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1760013812.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1760013812.ass"
   }
 }
