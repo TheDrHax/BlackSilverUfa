@@ -4060,7 +4060,7 @@
   },
   "383771606": {
     "youtube": "bfz66zyAQsk", "abs_start": 0, "abs_end": 15082, "duration": 15082,
-    "name": "Devotion / Resident Evil 2 Remake #5 (DLC - Выжившие призраки)",
+    "name": "Devotion / Resident Evil 2 Remake - DLC - Выжившие призраки",
     "date": "2019-02-20",
     "games": ["single", "re2-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v383771606.ass"
@@ -5748,7 +5748,7 @@
   },
   "527412040": {
     "youtube": "P8Tn4c5U-aM", "abs_start": 0, "abs_end": 21119, "duration": 21119,
-    "name": "Resident Evil 2 Remake #6 (Every enemy is Mr. X) / Alien: Isolation (Extreme + новый ИИ) #3",
+    "name": "Resident Evil 2 Remake - Every enemy is Mr. X / Alien: Isolation (Extreme + новый ИИ) #3",
     "date": "2019-12-28",
     "games": ["re2-remake", "alien-isolation-ai"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v527412040.ass"
@@ -8351,7 +8351,7 @@
   },
   "975061581": {
     "youtube": "1E3Pz7gkop8", "official": false, "abs_start": 0, "abs_end": 22909, "duration": 22909,
-    "name": "Resident Evil 2 Remake #7 (заново) / Игровые коллекции зрителей / Knockout City #1 (с WeLoveGames и Бейлом)",
+    "name": "Resident Evil 2 Remake - Заново / Игровые коллекции зрителей / Knockout City #1 (с WeLoveGames и Бейлом)",
     "date": "2021-04-04",
     "games": ["re2-remake", "events", "knockout-city"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master/v975061581.ass"
@@ -10733,7 +10733,7 @@
   },
   "1503541091": {
     "youtube": "HyMdlr5onM8", "abs_start": 0, "abs_end": 11851, "duration": 11851,
-    "name": "Summer Game Fest 2022 - Capcom (обзор) / Resident Evil 2 Remake #1 (хардкор) / Summer Game Fest 2022 - Xbox Games Showcase Extended",
+    "name": "Summer Game Fest 2022 - Capcom (обзор) / Resident Evil 2 Remake - Хардкор / Summer Game Fest 2022 - Xbox Games Showcase Extended",
     "date": "2022-06-14",
     "games": ["sgf-22", "re2-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1503541091.ass"
@@ -12182,5 +12182,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1760013812.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1760013812.ass"
+  },
+  "1760910239": {
+    "abs_start": 0, "abs_end": 25953, "duration": 25953,
+    "name": "Resident Evil 4 Remake - Chainsaw Demo / Resident Evil 2 Remake - Survival Horror + Wandering Enemies",
+    "date": "2023-03-10",
+    "direct": "https://bsufiles.drhx.ru/streams/1760910239.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1760910239.torrent",
+    "games": ["single", "re2-remake"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1760910239.ass"
   }
 }

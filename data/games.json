@@ -4072,6 +4072,9 @@
         { "name": "Овощи", "start": 4295 },
         { "name": "Парень, который мне нравится?", "start": 5616 },
         { "name": "Jurassic Heart", "start": 6952 }
+      ] },
+      { "segment": "1760910239", "subrefs": [
+        { "name": "Resident Evil 4 Remake - Chainsaw Demo", "start": 2019 }
       ] }
     ]
   },
@@ -10946,17 +10949,20 @@
         { "name": "4 (Клэр \"A\" от первого лица)" }
       ] },
       { "segment": "383771606", "subrefs": [
-        { "name": "5 (DLC - Выжившие призраки)" }
+        { "name": "DLC - Выжившие призраки" }
       ] },
       { "segment": "527412040", "subrefs": [
-        { "name": "6 (Every enemy is Mr. X)" }
+        { "name": "Every enemy is Mr. X" }
       ] },
       { "segment": "975061581", "subrefs": [
-        { "name": "7 (заново)" }
+        { "name": "Заново" }
       ] },
       { "segment": "1503541091", "subrefs": [
-        { "name": "1 (хардкор)", "start": 1475 },
-        { "name": "1 (хардкор, часть 2)", "start": 9925, "hidden": true }
+        { "name": "Хардкор", "start": 1475 },
+        { "name": "Хардкор (часть 2)", "start": 9925, "hidden": true }
+      ] },
+      { "segment": "1760910239", "subrefs": [
+        { "name": "Survival Horror + Wandering Enemies", "start": 8503 }
       ] }
     ],
     "cover": 1
