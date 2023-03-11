@@ -1468,8 +1468,8 @@
       { "segment": "350791309", "subrefs": [
         { "name": "The Nightmare", "start": 8398 }
       ] },
-      { "segment": "524415764.1", "subrefs": [
-        { "name": "Chapter 1: After Dark" }
+      { "segment": "524415764", "subrefs": [
+        { "name": "Chapter 1: After Dark", "start": 9029 }
       ] }
     ]
   },
@@ -1513,7 +1513,7 @@
       { "segment": "500334713", "subrefs": [
         { "name": "2" }
       ] },
-      { "segment": "524415764.1", "subrefs": [
+      { "segment": "524415764", "subrefs": [
         { "name": "3", "start": 13897 }
       ] },
       { "segment": "855161482", "subrefs": [
@@ -1961,7 +1961,7 @@
       { "segment": "500334713", "subrefs": [
         { "name": "5 (6D)", "start": 5792 }
       ] },
-      { "segment": "524415764.1", "subrefs": [
+      { "segment": "524415764", "subrefs": [
         { "name": "6 (6D)", "start": 17021 }
       ] },
       { "segment": "556596083", "subrefs": [
@@ -9883,7 +9883,7 @@
         { "name": "2 (заново)", "start": 10238 }
       ] },
       { "segment": "524415764", "subrefs": [
-        { "name": "3" }
+        { "name": "3", "start": 1062 }
       ] }
     ]
   },
