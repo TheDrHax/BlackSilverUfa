@@ -12190,5 +12190,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1760910239.torrent",
     "games": ["single", "re2-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1760910239.ass"
+  },
+  "1762002968": {
+    "abs_start": 0, "abs_end": 21768, "duration": 21768,
+    "name": "Alice: Madness Returns",
+    "date": "2023-03-11",
+    "direct": "https://bsufiles.drhx.ru/streams/1762002968.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1762002968.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1762002968.ass"
   }
 }
