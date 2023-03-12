@@ -4075,6 +4075,12 @@
       ] },
       { "segment": "1760910239", "subrefs": [
         { "name": "Resident Evil 4 Remake - Chainsaw Demo", "start": 2019 }
+      ] },
+      { "segment": "1763033004", "subrefs": [
+        { "name": "Moth House", "start": 1533 },
+        { "name": "Spectral Filter", "start": 4225 },
+        { "name": "VHS Slaughter", "start": 8437 },
+        { "name": "Jungle Dungeon", "start": 13143 }
       ] }
     ]
   },
@@ -6721,6 +6727,9 @@
       ] },
       { "segment": "1762002968", "subrefs": [
         { "name": "Alice: Madness Returns", "start": 1611 }
+      ] },
+      { "segment": "1763033004", "subrefs": [
+        { "name": "Anemoiapolis", "start": 11766 }
       ] }
     ]
   },
