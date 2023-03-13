@@ -4073,14 +4073,24 @@
         { "name": "Парень, который мне нравится?", "start": 5616 },
         { "name": "Jurassic Heart", "start": 6952 }
       ] },
-      { "segment": "1760910239", "subrefs": [
-        { "name": "Resident Evil 4 Remake - Chainsaw Demo", "start": 2019 }
-      ] },
       { "segment": "1763033004", "subrefs": [
         { "name": "Moth House", "start": 1533 },
         { "name": "Spectral Filter", "start": 4225 },
         { "name": "VHS Slaughter", "start": 8437 },
         { "name": "Jungle Dungeon", "start": 13143 }
+      ] }
+    ]
+  },
+  {
+    "name": "Resident Evil 4 Remake",
+    "category": "ongoing",
+    "id": "re4-remake",
+    "streams": [
+      { "segment": "1760910239", "subrefs": [
+        { "name": "Chainsaw Demo #1", "start": 2019 }
+      ] },
+      { "segment": "1763934802", "subrefs": [
+        { "name": "Chainsaw Demo #2", "start": 1078 }
       ] }
     ]
   },
@@ -10974,7 +10984,10 @@
         { "name": "Хардкор (часть 2)", "start": 9925, "hidden": true }
       ] },
       { "segment": "1760910239", "subrefs": [
-        { "name": "Survival Horror + Wandering Enemies", "start": 8503 }
+        { "name": "Survival Horror #1", "start": 8503 }
+      ] },
+      { "segment": "1763934802", "subrefs": [
+        { "name": "Survival Horror #2", "start": 2513 }
       ] }
     ],
     "cover": 1

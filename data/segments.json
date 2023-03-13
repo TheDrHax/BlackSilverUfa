@@ -12179,10 +12179,10 @@
   },
   "1760910239": {
     "youtube": "H86hcC9w9Kc", "abs_start": 0, "abs_end": 25956, "duration": 25956,
-    "name": "Resident Evil 4 Remake - Chainsaw Demo / Resident Evil 2 Remake - Survival Horror + Wandering Enemies",
+    "name": "Resident Evil 4 Remake - Chainsaw Demo #1 / Resident Evil 2 Remake - Survival Horror #1",
     "date": "2023-03-10",
     "torrent": "https://bsufiles.drhx.ru/streams/1760910239.torrent",
-    "games": ["single", "re2-remake"],
+    "games": ["re4-remake", "re2-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1760910239.ass"
   },
   "1762002968": {
@@ -12202,5 +12202,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1763033004.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1763033004.ass"
+  },
+  "1763934802": {
+    "abs_start": 0, "abs_end": 28671, "duration": 28671,
+    "name": "Resident Evil 4 Remake - Chainsaw Demo #2 / Resident Evil 2 Remake - Survival Horror #2",
+    "date": "2023-03-13",
+    "direct": "https://bsufiles.drhx.ru/streams/1763934802.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1763934802.torrent",
+    "games": ["re4-remake", "re2-remake"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1763934802.ass"
   }
 }
