@@ -10982,15 +10982,25 @@
       { "segment": "1503541091", "subrefs": [
         { "name": "Хардкор", "start": 1475 },
         { "name": "Хардкор (часть 2)", "start": 9925, "hidden": true }
-      ] },
-      { "segment": "1760910239", "subrefs": [
-        { "name": "Survival Horror #1", "start": 8503 }
-      ] },
-      { "segment": "1763934802", "subrefs": [
-        { "name": "Survival Horror #2", "start": 2513 }
       ] }
     ],
     "cover": 1
+  },
+  {
+    "name": "Resident Evil 2 Remake - Survival Horror",
+    "category": "finished",
+    "id": "re2r-survival",
+    "streams": [
+      { "segment": "1760910239", "subrefs": [
+        { "name": "1 (Леон \"А\")", "start": 8503 }
+      ] },
+      { "segment": "1763934802", "subrefs": [
+        { "name": "2", "start": 2513 }
+      ] },
+      { "segment": "1764847023", "subrefs": [
+        { "name": "3 (Клэр \"B\")", "start": 622 }
+      ] }
+    ]
   },
   {
     "name": "Subnautica",
