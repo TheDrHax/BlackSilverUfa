@@ -6740,6 +6740,11 @@
       ] },
       { "segment": "1763033004", "subrefs": [
         { "name": "Anemoiapolis", "start": 11766 }
+      ] },
+      { "segment": "1767632642", "subrefs": [
+        { "name": "Diablo II: Resurrected", "start": 1819 },
+        { "name": "Diablo III", "start": 5823 },
+        { "name": "Diablo IV", "start": 10991 }
       ] }
     ]
   },
