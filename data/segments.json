@@ -12193,10 +12193,10 @@
   },
   "1762002968": {
     "youtube": "wNJrg3PF0W0", "abs_start": 0, "abs_end": 21772, "duration": 21772,
-    "name": "Alice: Madness Returns",
+    "name": "Alice: Madness Returns #1",
     "date": "2023-03-11",
     "torrent": "https://bsufiles.drhx.ru/streams/1762002968.torrent",
-    "games": ["first-2023"],
+    "games": ["alice-mr"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1762002968.ass"
   },
   "1763033004": {
@@ -12238,5 +12238,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1767632642.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1767632642.ass"
+  },
+  "1768648500": {
+    "abs_start": 0, "abs_end": 21898, "duration": 21898,
+    "name": "Alice: Madness Returns #2",
+    "date": "2023-03-18",
+    "direct": "https://bsufiles.drhx.ru/streams/1768648500.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1768648500.torrent",
+    "games": ["alice-mr"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1768648500.ass"
   }
 }

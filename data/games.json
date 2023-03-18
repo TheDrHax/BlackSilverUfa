@@ -6735,9 +6735,6 @@
       { "segment": "1760013812", "subrefs": [
         { "name": "Clash: Artifacts of Chaos", "start": 3293 }
       ] },
-      { "segment": "1762002968", "subrefs": [
-        { "name": "Alice: Madness Returns", "start": 1611 }
-      ] },
       { "segment": "1763033004", "subrefs": [
         { "name": "Anemoiapolis", "start": 11766 }
       ] },
@@ -6745,6 +6742,19 @@
         { "name": "Diablo II: Resurrected", "start": 1819 },
         { "name": "Diablo III", "start": 5823 },
         { "name": "Diablo IV", "start": 10991 }
+      ] }
+    ]
+  },
+  {
+    "name": "Alice: Madness Returns",
+    "category": "ongoing",
+    "id": "alice-mr",
+    "streams": [
+      { "segment": "1762002968", "subrefs": [
+        { "name": "1", "start": 1611 }
+      ] },
+      { "segment": "1768648500", "subrefs": [
+        { "name": "2", "start": 1981 }
       ] }
     ]
   },
