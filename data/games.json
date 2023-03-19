@@ -3951,7 +3951,6 @@
         { "name": "The Classrooms (демо)", "start": 5232 },
         { "name": "Quo (демо)", "start": 6673 },
         { "name": "Broken Through", "start": 12673 },
-        { "name": "Anthology of Fear (демо)", "start": 18167 },
         { "name": "On One's Own", "start": 20340 }
       ] },
       { "segment": "1622143449", "subrefs": [
@@ -4078,6 +4077,23 @@
         { "name": "Spectral Filter", "start": 4225 },
         { "name": "VHS Slaughter", "start": 8437 },
         { "name": "Jungle Dungeon", "start": 13143 }
+      ] },
+      { "segment": "1769643693", "subrefs": [
+        { "name": "Silent Nights", "start": 2598 },
+        { "name": "File Destined", "start": 15016 }
+      ] }
+    ]
+  },
+  {
+    "name": "Anthology of Fear",
+    "category": "finished",
+    "id": "anthology-of-fear",
+    "streams": [
+      { "segment": "1619465701", "subrefs": [
+        { "name": "Демо", "start": 18167 }
+      ] },
+      { "segment": "1769643693", "subrefs": [
+        { "name": "Релиз", "start": 7230 }
       ] }
     ]
   },
