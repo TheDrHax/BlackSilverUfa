@@ -1010,6 +1010,10 @@
       ] },
       { "segment": "1119090442", "subrefs": [
         { "name": "6", "start": 15517 }
+      ] },
+      { "segment": "1771503128", "subrefs": [
+        { "name": "7", "start": 2248 },
+        { "name": "7 (продолжение)", "start": 13849, "hidden": true }
       ] }
     ]
   },
