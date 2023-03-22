@@ -1014,6 +1014,9 @@
       { "segment": "1771503128", "subrefs": [
         { "name": "7", "start": 2248 },
         { "name": "7 (продолжение)", "start": 13849, "hidden": true }
+      ] },
+      { "segment": "1772504839", "subrefs": [
+        { "name": "8", "start": 476 }
       ] }
     ]
   },
@@ -4485,6 +4488,9 @@
       ] },
       { "segment": "1636658103", "subrefs": [
         { "name": "DLC: Shadows of Rose", "start": 553 }
+      ] },
+      { "segment": "1772343378", "subrefs": [
+        { "name": "1 (заново, Жуткая деревня)", "start": 1263 }
       ] }
     ]
   },
