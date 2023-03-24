@@ -4120,6 +4120,9 @@
       ] },
       { "segment": "1773155387", "subrefs": [
         { "name": "1", "start": 7474 }
+      ] },
+      { "segment": "1774067090", "subrefs": [
+        { "name": "2", "start": 616 }
       ] }
     ]
   },
@@ -6942,7 +6945,7 @@
   },
   {
     "name": "Mirror Forge",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "mirror-forge",
     "streams": [
       { "segment": "1686763712", "subrefs": [
@@ -6955,7 +6958,7 @@
   },
   {
     "name": "Sleep Paralysis: The Uncanny Valley",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "sleep-paralysis",
     "streams": [
       { "segment": "1686763712", "subrefs": [
