@@ -12003,17 +12003,14 @@
     "youtube": "FedYeP64Qmw", "abs_start": 0, "abs_end": 22210, "duration": 22210,
     "name": "Hogwarts Legacy #7",
     "date": "2023-02-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/1736000179.torrent",
     "games": ["hogwarts"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1736000179.ass"
   },
   "1738806096": {
-    "abs_start": 0, "abs_end": 17706, "duration": 17690,
+    "abs_start": 0, "abs_end": 17731, "duration": 0,
     "name": "",
     "date": "2023-02-15",
-    "direct": "https://bsufiles.drhx.ru/streams/1738806096.mp4",
     "cuts": [[17546, 17560], [17616, 17618]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1738806096.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1738806096+0.ass"
   },
@@ -12287,5 +12284,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1774067090.torrent",
     "games": ["re4-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1774067090.ass"
+  },
+  "1775088934": {
+    "abs_start": 0, "abs_end": 29952, "duration": 29852,
+    "name": "Resident Evil 4 Remake #3",
+    "date": "2023-03-25",
+    "direct": "https://bsufiles.drhx.ru/streams/1775088934.mp4",
+    "cuts": [[0, 72], [8021, 8049]],
+    "games": ["re4-remake"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1775088934+0.ass"
   }
 }

@@ -4109,7 +4109,7 @@
   },
   {
     "name": "Resident Evil 4 Remake",
-    "category": "ongoing",
+    "category": "finished",
     "id": "re4-remake",
     "streams": [
       { "segment": "1760910239", "subrefs": [
@@ -4123,6 +4123,9 @@
       ] },
       { "segment": "1774067090", "subrefs": [
         { "name": "2", "start": 616 }
+      ] },
+      { "segment": "1775088934", "subrefs": [
+        { "name": "3", "start": 1154 }
       ] }
     ]
   },
