@@ -12015,12 +12015,10 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1738806096+0.ass"
   },
   "1739001121": {
-    "abs_start": 0, "abs_end": 4172, "duration": 4154,
+    "abs_start": 0, "abs_end": 4172, "duration": 0,
     "name": "",
     "date": "2023-02-15",
-    "direct": "https://bsufiles.drhx.ru/streams/1739001121.mp4",
     "cuts": [[2567, 2585]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1739001121.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1739001121+0.ass"
   },
@@ -12030,7 +12028,6 @@
     "date": "2023-02-15",
     "offsets": [0, 17695],
     "cuts": [[17546, 17560], [17616, 17618], [20278, 20296]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1738806096,1739001121.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1738806096,1739001121+0.ass"
   },
@@ -12251,7 +12248,7 @@
   },
   "1772343378": {
     "youtube": "YxXsJN_f_8I", "abs_start": 0, "abs_end": 15911, "duration": 15911,
-    "name": "Resident Evil Village #1 (заново, Жуткая деревня)",
+    "name": "Resident Evil Village #1 (заново, Деревня теней)",
     "date": "2023-03-22",
     "torrent": "https://bsufiles.drhx.ru/streams/1772343378.torrent",
     "games": ["re8"],
@@ -12288,5 +12285,14 @@
     "cuts": [[0, 72], [8021, 8049]],
     "games": ["re4-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1775088934+0.ass"
+  },
+  "1777132427": {
+    "abs_start": 0, "abs_end": 22611, "duration": 22611,
+    "name": "Resident Evil Village #2 (Деревня теней) / Demonologist (демо)",
+    "date": "2023-03-27",
+    "direct": "https://bsufiles.drhx.ru/streams/1777132427.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1777132427.torrent",
+    "games": ["re8", "first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1777132427.ass"
   }
 }

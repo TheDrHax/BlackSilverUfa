@@ -4502,7 +4502,10 @@
         { "name": "DLC: Shadows of Rose", "start": 553 }
       ] },
       { "segment": "1772343378", "subrefs": [
-        { "name": "1 (заново, Жуткая деревня)", "start": 1263 }
+        { "name": "1 (заново, Деревня теней)", "start": 1263 }
+      ] },
+      { "segment": "1777132427", "subrefs": [
+        { "name": "2 (Деревня теней)", "start": 5586 }
       ] }
     ]
   },
@@ -6780,6 +6783,9 @@
         { "name": "Diablo II: Resurrected", "start": 1819 },
         { "name": "Diablo III", "start": 5823 },
         { "name": "Diablo IV", "start": 10991 }
+      ] },
+      { "segment": "1777132427", "subrefs": [
+        { "name": "Demonologist (демо)", "start": 5586 }
       ] }
     ]
   },
