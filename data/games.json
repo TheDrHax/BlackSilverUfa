@@ -702,9 +702,20 @@
       ] },
       { "segment": "1624846104", "subrefs": [
         { "name": "Ghostbusters: Spirits Unleashed", "start": 16061 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Crime Boss: Rockay City",
+    "category": "co-op",
+    "id": "crime-boss-4d",
+    "streams": [
       { "segment": "1778016938", "subrefs": [
-        { "name": "Crime Boss: Rockay City", "start": 15444 }
+        { "name": "1 (4D)", "start": 15444 }
+      ] },
+      { "segment": "1778887686", "subrefs": [
+        { "name": "Соло", "start": 776 },
+        { "name": "2 (4D)", "start": 13257 }
       ] }
     ]
   },
@@ -1058,6 +1069,9 @@
       ] },
       { "segment": "1587098639", "subrefs": [
         { "name": "5", "start": 12209 }
+      ] },
+      { "segment": "1778887686", "subrefs": [
+        { "name": "6", "start": 20411 }
       ] }
     ]
   },
@@ -6797,6 +6811,9 @@
       { "segment": "1778016938", "subrefs": [
         { "name": "Polaris Outpost (демо)", "start": 6995 },
         { "name": "Dredge", "start": 8170 }
+      ] },
+      { "segment": "1778887686", "subrefs": [
+        { "name": "Apocalyptic Vibes", "start": 12052 }
       ] }
     ]
   },
