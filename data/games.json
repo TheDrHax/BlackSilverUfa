@@ -4165,7 +4165,7 @@
   },
   {
     "name": "FAITH",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "faith",
     "streams": [
       { "segment": "1687663796", "subrefs": [
@@ -6671,7 +6671,6 @@
       ] },
       { "segment": "1618459269", "subrefs": [
         { "name": "Chasm: The Rift (демо)", "start": 1063 },
-        { "name": "Dredge (демо)", "start": 3090 },
         { "name": "Scars Above (демо)", "start": 5921 }
       ] },
       { "segment": "1619465701", "subrefs": [
@@ -6809,11 +6808,23 @@
         { "name": "Demonologist (демо)", "start": 5586 }
       ] },
       { "segment": "1778016938", "subrefs": [
-        { "name": "Polaris Outpost (демо)", "start": 6995 },
-        { "name": "Dredge", "start": 8170 }
+        { "name": "Polaris Outpost (демо)", "start": 6995 }
       ] },
       { "segment": "1778887686", "subrefs": [
         { "name": "Apocalyptic Vibes", "start": 12052 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dredge",
+    "category": "ongoing",
+    "id": "dredge",
+    "streams": [
+      { "segment": "1618459269", "subrefs": [
+        { "name": "Демо", "start": 3090 }
+      ] },
+      { "segment": "1778016938", "subrefs": [
+        { "name": "Релиз", "start": 8170 }
       ] }
     ]
   },
