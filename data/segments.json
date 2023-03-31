@@ -12050,7 +12050,6 @@
     "youtube": "joN4unl_HaE", "abs_start": 0, "abs_end": 22204, "duration": 22204,
     "name": "9 Childs Street / Leak (демо) / Missing Hiker / White Day 2: The Flower That Tells Lies / Paranormal VHS (демо) / Echoes of the Living (демо)",
     "date": "2023-02-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/1741779316.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1741779316.ass"
   },
@@ -12307,5 +12306,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1778887686.torrent",
     "games": ["crime-boss-4d", "first-2023", "devour"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1778887686.ass"
+  },
+  "1780702580": {
+    "abs_start": 0, "abs_end": 21999, "duration": 21999,
+    "name": "Alice: Madness Returns #3",
+    "date": "2023-03-31",
+    "direct": "https://bsufiles.drhx.ru/streams/1780702580.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1780702580.torrent",
+    "games": ["alice-mr"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1780702580.ass"
   }
 }
