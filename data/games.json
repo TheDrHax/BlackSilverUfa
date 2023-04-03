@@ -6816,9 +6816,6 @@
         { "name": "Diablo III", "start": 5823 },
         { "name": "Diablo IV", "start": 10991 }
       ] },
-      { "segment": "1777132427", "subrefs": [
-        { "name": "Demonologist (демо)", "start": 5586 }
-      ] },
       { "segment": "1778016938", "subrefs": [
         { "name": "Polaris Outpost (демо)", "start": 6995 }
       ] },
@@ -6827,6 +6824,19 @@
       ] },
       { "segment": "1782635771", "subrefs": [
         { "name": "Reclusive", "start": 1569 }
+      ] }
+    ]
+  },
+  {
+    "name": "Demonologist",
+    "category": "co-op",
+    "id": "demonologist",
+    "streams": [
+      { "segment": "1777132427", "subrefs": [
+        { "name": "Демо", "start": 5586 }
+      ] },
+      { "segment": "1783494144", "subrefs": [
+        { "name": "1 (с Дашей и Джеком)", "start": 11633 }
       ] }
     ]
   },
@@ -6845,7 +6855,7 @@
   },
   {
     "name": "Alice: Madness Returns",
-    "category": "ongoing",
+    "category": "finished",
     "id": "alice-mr",
     "streams": [
       { "segment": "1762002968", "subrefs": [
@@ -6856,6 +6866,9 @@
       ] },
       { "segment": "1780702580", "subrefs": [
         { "name": "3", "start": 1110 }
+      ] },
+      { "segment": "1783494144", "subrefs": [
+        { "name": "4", "start": 1363 }
       ] }
     ]
   },

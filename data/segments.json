@@ -12072,7 +12072,6 @@
     "youtube": "A5i88KOLVZk", "abs_start": 0, "abs_end": 29475, "duration": 29475,
     "name": "Atomic Heart #3",
     "date": "2023-02-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/1745636782.torrent",
     "games": ["atomic-heart"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1745636782.ass"
   },
@@ -12283,10 +12282,10 @@
   },
   "1777132427": {
     "youtube": "kg1-PwSM9g8", "abs_start": 0, "abs_end": 22615, "duration": 22615,
-    "name": "Resident Evil Village #2 (Жуткая деревня) / Demonologist (демо)",
+    "name": "Resident Evil Village #2 (Жуткая деревня) / Demonologist - Демо",
     "date": "2023-03-27",
     "torrent": "https://bsufiles.drhx.ru/streams/1777132427.torrent",
-    "games": ["re8", "first-2023"],
+    "games": ["re8", "demonologist"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1777132427.ass"
   },
   "1778016938": {
@@ -12331,5 +12330,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1782635771.torrent",
     "games": ["first-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1782635771.ass"
+  },
+  "1783494144": {
+    "abs_start": 0, "abs_end": 29422, "duration": 29422,
+    "name": "Alice: Madness Returns #4 / Demonologist #1 (с Дашей и Джеком)",
+    "date": "2023-04-03",
+    "direct": "https://bsufiles.drhx.ru/streams/1783494144.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1783494144.torrent",
+    "games": ["alice-mr", "demonologist"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1783494144.ass"
   }
 }
