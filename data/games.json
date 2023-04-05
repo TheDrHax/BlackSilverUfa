@@ -1031,6 +1031,9 @@
       ] },
       { "segment": "1772504839", "subrefs": [
         { "name": "8", "start": 476 }
+      ] },
+      { "segment": "1785306187", "subrefs": [
+        { "name": "9", "start": 14880 }
       ] }
     ]
   },
@@ -3659,9 +3662,6 @@
       { "segment": "779201810", "subrefs": [
         { "name": "Harry Potter and the Sorcerer's Stone" }
       ] },
-      { "segment": "785416056", "subrefs": [
-        { "name": "Кужлёвка (демо)" }
-      ] },
       { "segment": "785524800", "subrefs": [
         { "name": "Paranormal Entities" }
       ] },
@@ -4124,6 +4124,19 @@
         { "name": "see no FEAR", "start": 12436 },
         { "name": "Manacle", "start": 13153 },
         { "name": "Cry of the Mermaid", "start": 16956 }
+      ] }
+    ]
+  },
+  {
+    "name": "Кужлёвка",
+    "category": "ongoing",
+    "id": "kujlevka",
+    "streams": [
+      { "segment": "785416056", "subrefs": [
+        { "name": "Демо", "start": 2507 }
+      ] },
+      { "segment": "1785306187", "subrefs": [
+        { "name": "1", "start": 4040 }
       ] }
     ]
   },

@@ -7377,9 +7377,9 @@
   },
   "785416056": {
     "youtube": "uAIkoyH9RMo", "abs_start": 0, "abs_end": 9791, "duration": 9791,
-    "name": "Кужлёвка (демо) / Ghostrunner #1 / Transient",
+    "name": "Кужлёвка - Демо / Ghostrunner #1 / Transient",
     "date": "2020-10-29",
-    "games": ["single", "ghostrunner", "first-2020"],
+    "games": ["kujlevka", "ghostrunner", "first-2020"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v785416056.ass"
   },
   "785524800": {
@@ -12335,5 +12335,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1783494144.torrent",
     "games": ["alice-mr", "demonologist"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1783494144.ass"
+  },
+  "1785306187": {
+    "abs_start": 0, "abs_end": 23444, "duration": 23444,
+    "name": "Кужлёвка #1 / Chivalry 2 #9",
+    "date": "2023-04-05",
+    "direct": "https://bsufiles.drhx.ru/streams/1785306187.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1785306187.torrent",
+    "games": ["kujlevka", "chivalry-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1785306187.ass"
   }
 }
