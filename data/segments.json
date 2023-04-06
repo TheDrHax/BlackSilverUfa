@@ -4662,9 +4662,9 @@
   },
   "435683759": {
     "youtube": "lasTzyCgapE", "official": false, "abs_start": 0, "abs_end": 20721, "duration": 20721,
-    "name": "Barotrauma / Эскейп-румы - Tales of Escape #2 / Overwatch #2",
+    "name": "Barotrauma - Ранний доступ / Эскейп-румы - Tales of Escape #2 / Overwatch #2",
     "date": "2019-06-07",
-    "games": ["co-op", "escape-rooms", "overwatch"],
+    "games": ["barotrauma", "escape-rooms", "overwatch"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v435683759.ass",
     "note": "<a href=\"https://youtu.be/mm462LoelaY\">Официальная запись</a> не может быть использована на этом сайте (встраивание запрещено)."
   },
@@ -12076,11 +12076,9 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1745636782.ass"
   },
   "1746607463": {
-    "abs_start": 0, "abs_end": 26310, "duration": 26310,
+    "abs_start": 0, "abs_end": 26349, "duration": 0,
     "name": "",
     "date": "2023-02-23",
-    "direct": "https://bsufiles.drhx.ru/streams/1746607463.mp4",
-    "torrent": "https://bsufiles.drhx.ru/streams/1746607463.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1746607463.ass"
   },
@@ -12290,7 +12288,7 @@
   },
   "1778016938": {
     "youtube": "4EsaSITBGXY", "abs_start": 0, "abs_end": 26237, "duration": 26237,
-    "name": "UNFOLLOW / Polaris Outpost (демо) / Dredge - Релиз / Crime Boss: Rockay City #1 (4D)",
+    "name": "UNFOLLOW / Polaris Outpost (демо) / Dredge #1 / Crime Boss: Rockay City #1 (4D)",
     "date": "2023-03-28",
     "torrent": "https://bsufiles.drhx.ru/streams/1778016938.torrent",
     "games": ["single", "first-2023", "dredge", "crime-boss-4d"],
@@ -12344,5 +12342,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1785306187.torrent",
     "games": ["kujlevka", "chivalry-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1785306187.ass"
+  },
+  "1786204138": {
+    "abs_start": 0, "abs_end": 27073, "duration": 27073,
+    "name": "Кужлёвка #2 / Eggcelerate! to the Tropics / Wall World / Dredge #2 / Barotrauma #1",
+    "date": "2023-04-06",
+    "direct": "https://bsufiles.drhx.ru/streams/1786204138.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1786204138.torrent",
+    "games": ["kujlevka", "first-2023", "dredge", "barotrauma"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1786204138.ass"
   }
 }

@@ -548,9 +548,6 @@
         { "name": "We Were Here" },
         { "name": "We Were Here Too", "start": 12597 }
       ] },
-      { "segment": "435683759", "subrefs": [
-        { "name": "Barotrauma" }
-      ] },
       { "segment": "449465888", "subrefs": [
         { "name": "DayZ на PS4 с Джеком" }
       ] },
@@ -702,6 +699,19 @@
       ] },
       { "segment": "1624846104", "subrefs": [
         { "name": "Ghostbusters: Spirits Unleashed", "start": 16061 }
+      ] }
+    ]
+  },
+  {
+    "name": "Barotrauma",
+    "category": "co-op",
+    "id": "barotrauma",
+    "streams": [
+      { "segment": "435683759", "subrefs": [
+        { "name": "Ранний доступ", "start": 3549 }
+      ] },
+      { "segment": "1786204138", "subrefs": [
+        { "name": "1", "start": 12807 }
       ] }
     ]
   },
@@ -4129,7 +4139,7 @@
   },
   {
     "name": "Кужлёвка",
-    "category": "ongoing",
+    "category": "finished",
     "id": "kujlevka",
     "streams": [
       { "segment": "785416056", "subrefs": [
@@ -4137,6 +4147,9 @@
       ] },
       { "segment": "1785306187", "subrefs": [
         { "name": "1", "start": 4040 }
+      ] },
+      { "segment": "1786204138", "subrefs": [
+        { "name": "2", "start": 1587 }
       ] }
     ]
   },
@@ -6837,6 +6850,10 @@
       ] },
       { "segment": "1782635771", "subrefs": [
         { "name": "Reclusive", "start": 1569 }
+      ] },
+      { "segment": "1786204138", "subrefs": [
+        { "name": "Eggcelerate! to the Tropics", "start": 5875 },
+        { "name": "Wall World", "start": 8348 }
       ] }
     ]
   },
@@ -6862,7 +6879,10 @@
         { "name": "Демо", "start": 3090 }
       ] },
       { "segment": "1778016938", "subrefs": [
-        { "name": "Релиз", "start": 8170 }
+        { "name": "1", "start": 8170 }
+      ] },
+      { "segment": "1786204138", "subrefs": [
+        { "name": "2", "start": 11028 }
       ] }
     ]
   },
