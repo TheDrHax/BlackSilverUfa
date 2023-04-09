@@ -12108,7 +12108,6 @@
     "youtube": "o7XqFZ0cedA", "abs_start": 0, "abs_end": 32741, "duration": 32741,
     "name": "Sons of the Forest (с Дашей и Джеком) #1",
     "date": "2023-02-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/1750602082.torrent",
     "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1750602082.ass"
   },
@@ -12361,5 +12360,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1788074071.torrent",
     "games": ["everspace-2", "demonologist"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1788074071.ass"
+  },
+  "1789025191": {
+    "abs_start": 0, "abs_end": 20842, "duration": 20842,
+    "name": "Rootman: Bodycam Horror Footage (демо) / The Voidness (демо) / Timberlodge Inn / Disappearance / Bio Evil 4 / Confabulation / My Strange Attic / The Lacerator (демо) / Materna (демо) / Lucid Dreams",
+    "date": "2023-04-09",
+    "direct": "https://bsufiles.drhx.ru/streams/1789025191.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1789025191.torrent",
+    "games": ["single", "first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1789025191.ass"
   }
 }
