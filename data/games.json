@@ -4005,7 +4005,6 @@
         { "name": "Silence Channel 2 (демо)", "start": 18975 }
       ] },
       { "segment": "1634888055", "subrefs": [
-        { "name": "Suffer The Night (демо)", "start": 812 },
         { "name": "Please Don't Litter", "start": 6994 },
         { "name": "Death Relives (демо)", "start": 10723 }
       ] },
@@ -4386,6 +4385,9 @@
       ] },
       { "segment": "1435162657", "subrefs": [
         { "name": "3" }
+      ] },
+      { "segment": "1797061764", "subrefs": [
+        { "name": "Spider's Thread", "start": 658 }
       ] }
     ]
   },
@@ -6871,9 +6873,22 @@
       { "segment": "1789025191", "subrefs": [
         { "name": "The Voidness (демо)", "start": 2721 },
         { "name": "Confabulation", "start": 10839 }
+      ] }
+    ]
+  },
+  {
+    "name": "Suffer the Night",
+    "category": "finished",
+    "id": "suffer-the-night",
+    "streams": [
+      { "segment": "1634888055", "subrefs": [
+        { "name": "Демо", "start": 812 }
       ] },
       { "segment": "1796157455", "subrefs": [
-        { "name": "Suffer the Night", "start": 7234 }
+        { "name": "1", "start": 7234 }
+      ] },
+      { "segment": "1797061764", "subrefs": [
+        { "name": "2", "start": 12647 }
       ] }
     ]
   },
