@@ -12362,10 +12362,10 @@
   },
   "1789025191": {
     "youtube": "WI6dqe6gBwc", "abs_start": 0, "abs_end": 20845, "duration": 20845,
-    "name": "Rootman: Bodycam Horror Footage (демо) / The Voidness (демо) / Timberlodge Inn / Disappearance / Bio Evil 4 / Confabulation / My Strange Attic / The Lacerator (демо) / Materna (демо) / Lucid Dreams",
+    "name": "Rootman: Bodycam Horror Footage (демо) / The Voidness (демо) / Timberlodge Inn / Disappearance / Bio Evil 4 / Confabulation #1 / My Strange Attic / The Lacerator (демо) / Materna (демо) / Lucid Dreams",
     "date": "2023-04-09",
     "torrent": "https://bsufiles.drhx.ru/streams/1789025191.torrent",
-    "games": ["single", "first-2023"],
+    "games": ["single", "first-2023", "confabulation"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1789025191.ass"
   },
   "1796157455": {
@@ -12384,5 +12384,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1797061764.torrent",
     "games": ["ghostwire", "suffer-the-night"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1797061764+0.ass"
+  },
+  "1797918117": {
+    "abs_start": 0, "abs_end": 16305, "duration": 16305,
+    "name": "Confabulation #2 / Horror Tale / The Closing Shift",
+    "date": "2023-04-19",
+    "direct": "https://bsufiles.drhx.ru/streams/1797918117.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1797918117.torrent",
+    "games": ["confabulation", "first-2023", "single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1797918117.ass"
   }
 }

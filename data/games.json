@@ -4146,6 +4146,9 @@
         { "name": "The Lacerator (демо)", "start": 17464 },
         { "name": "Materna (демо)", "start": 19373 },
         { "name": "Lucid Dreams", "start": 19893 }
+      ] },
+      { "segment": "1797918117", "subrefs": [
+        { "name": "The Closing Shift", "start": 6969 }
       ] }
     ]
   },
@@ -6871,8 +6874,23 @@
         { "name": "Wall World", "start": 8348 }
       ] },
       { "segment": "1789025191", "subrefs": [
-        { "name": "The Voidness (демо)", "start": 2721 },
-        { "name": "Confabulation", "start": 10839 }
+        { "name": "The Voidness (демо)", "start": 2721 }
+      ] },
+      { "segment": "1797918117", "subrefs": [
+        { "name": "Horror Tale", "start": 6092 }
+      ] }
+    ]
+  },
+  {
+    "name": "Confabulation",
+    "category": "infinite",
+    "id": "confabulation",
+    "streams": [
+      { "segment": "1789025191", "subrefs": [
+        { "name": "1", "start": 10839 }
+      ] },
+      { "segment": "1797918117", "subrefs": [
+        { "name": "2", "start": 696 }
       ] }
     ]
   },
