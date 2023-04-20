@@ -12123,7 +12123,6 @@
     "name": "Sons of the Forest (с Дашей и Джеком) #3",
     "date": "2023-03-01",
     "cuts": [[26179, 26210]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1752454738.torrent",
     "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1752454738+0.ass"
   },
@@ -12132,7 +12131,6 @@
     "name": "Contraband Police - Релиз",
     "date": "2023-03-07",
     "cuts": [[19191, 19222]],
-    "torrent": "https://bsufiles.drhx.ru/streams/1758170289.torrent",
     "games": ["contraband-police"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1758170289+0.ass"
   },
@@ -12393,5 +12391,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1797918117.torrent",
     "games": ["confabulation", "first-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1797918117.ass"
+  },
+  "1798664242": {
+    "abs_start": 0, "abs_end": 32795, "duration": 32795,
+    "name": "Dead Island / Dead Island 2",
+    "date": "2023-04-20",
+    "direct": "https://bsufiles.drhx.ru/streams/1798664242.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1798664242.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1798664242.ass"
   }
 }
