@@ -12138,7 +12138,6 @@
     "youtube": "1liQAEOA1h8", "abs_start": 0, "abs_end": 14408, "duration": 14408,
     "name": "Подводный роман / Овощи / Парень, который мне нравится? / Jurassic Heart / I Love You, Colonel Sanders! / Hatoful Boyfriend",
     "date": "2023-03-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/1759103392.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1759103392.ass"
   },
@@ -12146,7 +12145,6 @@
     "youtube": "q83ofG3Q53Y", "abs_start": 0, "abs_end": 22419, "duration": 22419,
     "name": "Clash: Artifacts of Chaos",
     "date": "2023-03-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/1760013812.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1760013812.ass"
   },
@@ -12394,11 +12392,20 @@
   },
   "1798664242": {
     "abs_start": 0, "abs_end": 32795, "duration": 32795,
-    "name": "Dead Island / Dead Island 2",
+    "name": "Dead Island / Dead Island 2 #1",
     "date": "2023-04-20",
     "direct": "https://bsufiles.drhx.ru/streams/1798664242.mp4",
     "torrent": "https://bsufiles.drhx.ru/streams/1798664242.torrent",
-    "games": ["first-2023"],
+    "games": ["first-2023", "dead-island-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1798664242.ass"
+  },
+  "1799517574": {
+    "abs_start": 0, "abs_end": 33256, "duration": 33256,
+    "name": "Dead Island 2 #2",
+    "date": "2023-04-21",
+    "direct": "https://bsufiles.drhx.ru/streams/1799517574.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1799517574.torrent",
+    "games": ["dead-island-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1799517574.ass"
   }
 }

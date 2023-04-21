@@ -6880,8 +6880,20 @@
         { "name": "Horror Tale", "start": 6092 }
       ] },
       { "segment": "1798664242", "subrefs": [
-        { "name": "Dead Island", "start": 2034 },
-        { "name": "Dead Island 2", "start": 7311 }
+        { "name": "Dead Island", "start": 2034 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dead Island 2",
+    "category": "ongoing",
+    "id": "dead-island-2",
+    "streams": [
+      { "segment": "1798664242", "subrefs": [
+        { "name": "1", "start": 7311 }
+      ] },
+      { "segment": "1799517574", "subrefs": [
+        { "name": "2", "start": 540 }
       ] }
     ]
   },
