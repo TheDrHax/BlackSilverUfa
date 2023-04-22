@@ -12152,7 +12152,6 @@
     "youtube": "H86hcC9w9Kc", "abs_start": 0, "abs_end": 25956, "duration": 25956,
     "name": "Resident Evil 4 Remake - Chainsaw Demo #1 / Resident Evil 2 Remake - Survival Horror #1 (Леон \"А\")",
     "date": "2023-03-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/1760910239.torrent",
     "games": ["re4-remake", "re2r-survival"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1760910239.ass"
   },
@@ -12404,5 +12403,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1799517574.torrent",
     "games": ["dead-island-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1799517574.ass"
+  },
+  "1800438364": {
+    "abs_start": 0, "abs_end": 28084, "duration": 28043,
+    "name": "Dead Island 2 #3",
+    "date": "2023-04-22",
+    "direct": "https://bsufiles.drhx.ru/streams/1800438364.mp4",
+    "cuts": [[15437, 15478]],
+    "torrent": "https://bsufiles.drhx.ru/streams/1800438364.torrent",
+    "games": ["dead-island-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1800438364+0.ass"
   }
 }

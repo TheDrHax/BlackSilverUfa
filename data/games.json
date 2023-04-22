@@ -6886,7 +6886,7 @@
   },
   {
     "name": "Dead Island 2",
-    "category": "ongoing",
+    "category": "finished",
     "id": "dead-island-2",
     "streams": [
       { "segment": "1798664242", "subrefs": [
@@ -6894,6 +6894,9 @@
       ] },
       { "segment": "1799517574", "subrefs": [
         { "name": "2", "start": 540 }
+      ] },
+      { "segment": "1800438364", "subrefs": [
+        { "name": "3", "start": 462 }
       ] }
     ]
   },
