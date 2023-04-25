@@ -4149,6 +4149,13 @@
       ] },
       { "segment": "1797918117", "subrefs": [
         { "name": "The Closing Shift", "start": 6969 }
+      ] },
+      { "segment": "1803169573", "subrefs": [
+        { "name": "The Microwave Paradox", "start": 4163 },
+        { "name": "Subject", "start": 5078 },
+        { "name": "Evil is Back", "start": 7677 },
+        { "name": "The Wish Machine (Машина желаний)", "start": 11897 },
+        { "name": "Lost Alone: Ultimate - The Day Before (демо)", "start": 15975 }
       ] }
     ]
   },
@@ -6881,6 +6888,10 @@
       ] },
       { "segment": "1798664242", "subrefs": [
         { "name": "Dead Island", "start": 2034 }
+      ] },
+      { "segment": "1803169573", "subrefs": [
+        { "name": "Dead Space Demake", "start": 14626 },
+        { "name": "Future Racer 2000", "start": 17527 }
       ] }
     ]
   },
