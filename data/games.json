@@ -4152,10 +4152,17 @@
       ] },
       { "segment": "1803169573", "subrefs": [
         { "name": "The Microwave Paradox", "start": 4163 },
-        { "name": "Subject", "start": 5078 },
+        { "name": "[Subject]", "start": 5078 },
         { "name": "Evil is Back", "start": 7677 },
         { "name": "The Wish Machine (Машина желаний)", "start": 11897 },
         { "name": "Lost Alone: Ultimate - The Day Before (демо)", "start": 15975 }
+      ] },
+      { "segment": "1804032922", "subrefs": [
+        { "name": "The Gap", "start": 2008 },
+        { "name": "Future Racer 2000", "start": 4667 },
+        { "name": "Family Curse", "start": 7948 },
+        { "name": "The Arrowhead Incident", "start": 12666 },
+        { "name": "911: Cannibal", "start": 14236 }
       ] }
     ]
   },
