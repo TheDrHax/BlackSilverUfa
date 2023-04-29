@@ -12436,10 +12436,19 @@
   },
   "1805668013": {
     "youtube": "IhP-ItOALOE", "abs_start": 0, "abs_end": 32179, "duration": 32179,
-    "name": "Star Wars Jedi: Survivor",
+    "name": "Star Wars Jedi: Survivor #1",
     "date": "2023-04-28",
     "torrent": "https://bsufiles.drhx.ru/streams/1805668013.torrent",
-    "games": ["first-2023"],
+    "games": ["swj-survivor"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1805668013.ass"
+  },
+  "1806660511": {
+    "abs_start": 0, "abs_end": 22981, "duration": 22981,
+    "name": "Star Wars Jedi: Survivor #2",
+    "date": "2023-04-29",
+    "direct": "https://bsufiles.drhx.ru/streams/1806660511.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1806660511.torrent",
+    "games": ["swj-survivor"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1806660511.ass"
   }
 }

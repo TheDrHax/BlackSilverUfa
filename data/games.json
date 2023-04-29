@@ -6916,9 +6916,19 @@
       ] },
       { "segment": "1803169573", "subrefs": [
         { "name": "Dead Space Demake", "start": 14626 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Star Wars Jedi: Survivor",
+    "category": "ongoing",
+    "id": "swj-survivor",
+    "streams": [
       { "segment": "1805668013", "subrefs": [
-        { "name": "Star Wars Jedi: Survivor", "start": 104 }
+        { "name": "1", "start": 104 }
+      ] },
+      { "segment": "1806660511", "subrefs": [
+        { "name": "2", "start": 1402 }
       ] }
     ]
   },
