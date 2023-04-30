@@ -6921,7 +6921,7 @@
   },
   {
     "name": "Star Wars Jedi: Survivor",
-    "category": "ongoing",
+    "category": "finished",
     "id": "swj-survivor",
     "streams": [
       { "segment": "1805668013", "subrefs": [
@@ -6929,6 +6929,9 @@
       ] },
       { "segment": "1806660511", "subrefs": [
         { "name": "2", "start": 1402 }
+      ] },
+      { "segment": "1807590761", "subrefs": [
+        { "name": "3", "start": 686 }
       ] }
     ]
   },
