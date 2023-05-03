@@ -702,9 +702,19 @@
       ] },
       { "segment": "1804882802", "subrefs": [
         { "name": "Inout", "start": 7486 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Redfall",
+    "category": "ongoing",
+    "id": "redfall",
+    "streams": [
       { "segment": "1809409736", "subrefs": [
-        { "name": "Redfall (с Куплиновым и Дангаром)", "start": 14821 }
+        { "name": "1 (с Куплиновым и Дангаром)", "start": 14821 }
+      ] },
+      { "segment": "1810272609", "subrefs": [
+        { "name": "2 (соло)", "start": 199 }
       ] }
     ]
   },
@@ -4174,6 +4184,9 @@
         { "name": "Family Curse", "start": 7948 },
         { "name": "The Arrowhead Incident", "start": 12666 },
         { "name": "911: Cannibal", "start": 14236 }
+      ] },
+      { "segment": "1810311520", "subrefs": [
+        { "name": "Bramble: The Mountain King", "start": 1290 }
       ] }
     ]
   },

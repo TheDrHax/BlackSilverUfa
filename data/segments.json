@@ -12459,10 +12459,28 @@
   },
   "1809409736": {
     "youtube": "BcrP0PHvL74", "abs_start": 0, "abs_end": 23607, "duration": 23607,
-    "name": "The Last Case of Benedict Fox / Redfall (с Куплиновым и Дангаром)",
+    "name": "The Last Case of Benedict Fox / Redfall #1 (с Куплиновым и Дангаром)",
     "date": "2023-05-02",
     "torrent": "https://bsufiles.drhx.ru/streams/1809409736.torrent",
-    "games": ["first-2023", "co-op"],
+    "games": ["first-2023", "redfall"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1809409736.ass"
+  },
+  "1810272609": {
+    "abs_start": 0, "abs_end": 5041, "duration": 5041,
+    "name": "Redfall #2 (соло)",
+    "date": "2023-05-03",
+    "direct": "https://bsufiles.drhx.ru/streams/1810272609.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1810272609.torrent",
+    "games": ["redfall"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1810272609.ass"
+  },
+  "1810311520": {
+    "abs_start": 0, "abs_end": 18590, "duration": 18590,
+    "name": "Bramble: The Mountain King",
+    "date": "2023-05-03",
+    "direct": "https://bsufiles.drhx.ru/streams/1810311520.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1810311520.torrent",
+    "games": ["single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1810311520.ass"
   }
 }
