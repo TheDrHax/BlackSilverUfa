@@ -1,11 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button, OverlayTrigger, Spinner, Tooltip } from 'react-bootstrap';
-import { faFileArchive, faRobot, faSmile } from '@fortawesome/free-solid-svg-icons';
+import { faDownload, faFileArchive, faRobot, faSmile } from '@fortawesome/free-solid-svg-icons';
 import { TypeEmotes } from './types';
 import { FAIcon } from '../../utils/fontawesome';
 
-export const ChatSettings = ({ showHidden, emotes, showEmotes, unpackMessages, onChange }) => (
+export const ChatSettings = ({
+  showHidden,
+  emotes,
+  showEmotes,
+  unpackMessages,
+  subtitles,
+  onChange,
+}) => (
   <div className="sidebar-row border-top d-flex">
     <OverlayTrigger
       placement="top"
@@ -69,6 +76,26 @@ export const ChatSettings = ({ showHidden, emotes, showEmotes, unpackMessages, o
         <div className={`led ${unpackMessages ? 'bg-success' : 'bg-danger'}`} />
       </Button>
     </OverlayTrigger>
+
+    <div className="flex-grow-1" />
+
+    <OverlayTrigger
+      placement="top"
+      overlay={(props) => (
+        <Tooltip {...props}>
+          Скачать чат в виде субтитров
+        </Tooltip>
+      )}
+    >
+      <Button
+        href={subtitles}
+        className="ms-1"
+        variant="dark"
+        size="sm"
+      >
+        <FAIcon icon={faDownload} />
+      </Button>
+    </OverlayTrigger>
   </div>
 );
 
@@ -77,6 +104,7 @@ ChatSettings.propTypes = {
   emotes: TypeEmotes,
   showEmotes: PropTypes.bool.isRequired,
   unpackMessages: PropTypes.bool.isRequired,
+  subtitles: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
 };
 

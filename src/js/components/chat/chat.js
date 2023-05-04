@@ -128,6 +128,7 @@ export const Chat = ({ subtitles, plyr, offset, simple }) => {
         <ChatSettings
           onChange={updateSettings}
           emotes={emotes}
+          subtitles={subtitles}
           {...settings}
         />
       )}
