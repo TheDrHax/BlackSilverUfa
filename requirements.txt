@@ -5,7 +5,7 @@ GitPython==3.1.0
 mako==1.0.9
 requests==2.21.0
 sortedcontainers==2.1.0
-tdh-tcd==2.5.0
+tdh-tcd==2.5.1
 cached-property==1.5.1
 nodeenv==1.4.0
 natsort==7.1.1
