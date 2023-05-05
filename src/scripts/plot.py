@@ -74,11 +74,17 @@ EMOTES = {
     ]),
     'будь': re.compile('будь здоров', re.I),
     'cat': pattern([
-        'Тося',
+        '[Тт]ося',
         'BLELELE',
         'bufaLove',
         'bufaLewd',
-        'CatEyes'
+        'CatEyes',
+        'PETTHECAT'
+    ]),
+    'dog': pattern([
+        '[Ээ]+ван',
+        'BegWan',
+        'PETTHEEVAN'
     ]),
     'F': re.compile('(^|\\s)(f|NotLikeThis)(\\s|$)', re.I)
 }
