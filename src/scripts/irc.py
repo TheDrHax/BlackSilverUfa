@@ -97,7 +97,8 @@ def main(argv=None):
         if stream['active']:
             duration = datetime.now() - start
         else:
-            duration = timedelta(hours=10)
+            end = datetime.fromisoformat(stream['date_end'].rstrip('Z'))
+            duration = end - start
     else:
         source = args['<source>']
         start = datetime.fromisoformat(args['<start>'])
