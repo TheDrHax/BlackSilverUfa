@@ -4191,6 +4191,13 @@
       { "segment": "1811995960", "subrefs": [
         { "name": "The Invincible (демо)", "start": 5213 },
         { "name": "I Know This Place..? - Chapter 1", "start": 7563 }
+      ] },
+      { "segment": "1812854556", "subrefs": [
+        { "name": "On the Other Side (демо)", "start": 4955 },
+        { "name": "Cave Crawler", "start": 7858 },
+        { "name": "Amanda the Adventurer", "start": 9852 },
+        { "name": "The Pier House - Episode 1", "start": 18308 },
+        { "name": "The Witch of Sherdorne Forest", "start": 19035 }
       ] }
     ]
   },
@@ -6943,6 +6950,9 @@
       { "segment": "1811995960", "subrefs": [
         { "name": "Frozen Shelter", "start": 9939 },
         { "name": "Rewind or Die", "start": 12326 }
+      ] },
+      { "segment": "1812854556", "subrefs": [
+        { "name": "Dawn of Hell", "start": 2528 }
       ] }
     ]
   },

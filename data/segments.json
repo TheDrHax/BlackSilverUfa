@@ -10967,7 +10967,6 @@
     "youtube": "uBrd76US5dA", "official": false, "abs_start": 0, "abs_end": 18237, "duration": 18237,
     "name": "The Mortuary Assistant #1",
     "date": "2022-08-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/1550107736.torrent",
     "games": ["mortuary-assistant"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1550107736.ass"
   },
@@ -12482,5 +12481,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1811995960.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1811995960.ass"
+  },
+  "1812854556": {
+    "abs_start": 0, "abs_end": 20394, "duration": 20394,
+    "name": "Dawn of Hell / On the Other Side (демо) / Cave Crawler / Amanda the Adventurer / The Pier House - Episode 1 / The Witch of Sherdorne Forest",
+    "date": "2023-05-06",
+    "direct": "https://bsufiles.drhx.ru/streams/1812854556.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1812854556.torrent",
+    "games": ["first-2023", "single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1812854556.ass"
   }
 }
