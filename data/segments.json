@@ -12201,7 +12201,6 @@
     "youtube": "Nk-KGDoVw1w", "abs_start": 0, "abs_end": 20251, "duration": 20251,
     "name": "Silent Nights / Anthology of Fear - Релиз / File Destined",
     "date": "2023-03-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/1769643693.torrent",
     "games": ["single", "anthology-of-fear"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1769643693.ass"
   },
@@ -12418,7 +12417,7 @@
   },
   "1804882802": {
     "youtube": "B8YPpOZ2b28", "abs_start": 0, "abs_end": 22072, "duration": 22072,
-    "name": "Survival: Fountain of Youth - Релиз / Inout / Occult #3 / DEVOUR #7",
+    "name": "Survival: Fountain of Youth #1 (релиз) / Inout / Occult #3 / DEVOUR #7",
     "date": "2023-04-27",
     "torrent": "https://bsufiles.drhx.ru/streams/1804882802.torrent",
     "games": ["survival-foy", "co-op", "occult", "devour"],
@@ -12450,10 +12449,10 @@
   },
   "1809409736": {
     "youtube": "BcrP0PHvL74", "abs_start": 0, "abs_end": 23607, "duration": 23607,
-    "name": "The Last Case of Benedict Fox / Redfall #1 (с Куплиновым и Дангаром)",
+    "name": "The Last Case of Benedict Fox #1 / Redfall #1 (с Куплиновым и Дангаром)",
     "date": "2023-05-02",
     "torrent": "https://bsufiles.drhx.ru/streams/1809409736.torrent",
-    "games": ["first-2023", "redfall"],
+    "games": ["benedict-fox", "redfall"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1809409736.ass"
   },
   "1810272609": {
@@ -12496,5 +12495,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1813790886.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1813790886.ass"
+  },
+  "1814566379": {
+    "abs_start": 0, "abs_end": 21736, "duration": 21736,
+    "name": "The Last Case of Benedict Fox #2 / Survival: Fountain of Youth #2",
+    "date": "2023-05-08",
+    "direct": "https://bsufiles.drhx.ru/streams/1814566379.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1814566379.torrent",
+    "games": ["benedict-fox", "survival-foy"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1814566379.ass"
   }
 }

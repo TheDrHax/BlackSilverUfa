@@ -6944,9 +6944,6 @@
       { "segment": "1803169573", "subrefs": [
         { "name": "Dead Space Demake", "start": 14626 }
       ] },
-      { "segment": "1809409736", "subrefs": [
-        { "name": "The Last Case of Benedict Fox", "start": 2222 }
-      ] },
       { "segment": "1811995960", "subrefs": [
         { "name": "Frozen Shelter", "start": 9939 },
         { "name": "Rewind or Die", "start": 12326 }
@@ -6956,6 +6953,19 @@
       ] },
       { "segment": "1813790886", "subrefs": [
         { "name": "Nancy Drew: The White Wolf of Icicle Creek (Нэнси Дрю. Белый волк Ледяного ущелья)", "start": 850 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Last Case of Benedict Fox",
+    "category": "ongoing",
+    "id": "benedict-fox",
+    "streams": [
+      { "segment": "1809409736", "subrefs": [
+        { "name": "1", "start": 2222 }
+      ] },
+      { "segment": "1814566379", "subrefs": [
+        { "name": "2", "start": 631 }
       ] }
     ]
   },
@@ -6984,7 +6994,10 @@
         { "name": "Ранний доступ", "start": 5903 }
       ] },
       { "segment": "1804882802", "subrefs": [
-        { "name": "Релиз", "start": 614 }
+        { "name": "1 (релиз)", "start": 614 }
+      ] },
+      { "segment": "1814566379", "subrefs": [
+        { "name": "2", "start": 12062 }
       ] }
     ]
   },
