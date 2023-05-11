@@ -4856,70 +4856,73 @@
     "id": "tloz_botw",
     "streams": [
       { "segment": "126330909", "subrefs": [
-        { "name": "1" }
+        { "name": "1", "start": 835 }
       ] },
       { "segment": "126599870", "subrefs": [
-        { "name": "2" }
+        { "name": "2", "start": 867 }
       ] },
       { "segment": "127934409", "subrefs": [
-        { "name": "3" }
+        { "name": "3", "start": 648 }
       ] },
       { "segment": "128632418", "subrefs": [
-        { "name": "4" }
+        { "name": "4", "start": 201 }
       ] },
       { "segment": "129517728", "subrefs": [
-        { "name": "5" }
+        { "name": "5", "start": 933 }
       ] },
       { "segment": "130208266", "subrefs": [
-        { "name": "6" }
+        { "name": "6", "start": 774 }
       ] },
       { "segment": "130640455", "subrefs": [
-        { "name": "7" }
+        { "name": "7", "start": 653 }
       ] },
       { "segment": "132460500", "subrefs": [
-        { "name": "8" }
+        { "name": "8", "start": 651 }
       ] },
       { "segment": "132722938", "subrefs": [
-        { "name": "9" }
+        { "name": "9", "start": 572 }
       ] },
       { "segment": "134698840", "subrefs": [
-        { "name": "10" }
+        { "name": "10", "start": 635 }
       ] },
       { "segment": "135336477", "subrefs": [
-        { "name": "11" }
+        { "name": "11", "start": 732 }
       ] },
       { "segment": "136443704", "subrefs": [
-        { "name": "12" }
+        { "name": "12", "start": 643 }
       ] },
       { "segment": "138884824", "subrefs": [
-        { "name": "13" }
+        { "name": "13 (финал)", "start": 776 }
       ] },
       { "segment": "156558088", "subrefs": [
-        { "name": "DLC 1 #1" }
+        { "name": "14 - DLC 1 #1", "start": 697 }
       ] },
       { "segment": "158301208", "subrefs": [
-        { "name": "DLC 1 #2" }
+        { "name": "15 - DLC 1 #2", "start": 730 }
       ] },
       { "segment": "158812902", "subrefs": [
-        { "name": "DLC 1 #3" }
+        { "name": "16 - DLC 1 #3 (финал)", "start": 893 }
       ] },
       { "segment": "208349646", "subrefs": [
-        { "name": "DLC 2 #1", "start": 11312 }
+        { "name": "17 - DLC 2 #1", "start": 11312 }
       ] },
       { "segment": "209473798", "subrefs": [
-        { "name": "DLC 2 #2", "start": 1795 }
+        { "name": "18 - DLC 2 #2", "start": 1795 }
       ] },
       { "segment": "210846597", "subrefs": [
-        { "name": "DLC 2 #3" }
+        { "name": "19 - DLC 2 #3", "start": 1416 }
       ] },
       { "segment": "216912425", "subrefs": [
-        { "name": "DLC 2 #4", "start": 6188 }
+        { "name": "20 - DLC 2 #4 (финал)", "start": 6188 }
       ] },
       { "segment": "437956853", "subrefs": [
-        { "name": "21" }
+        { "name": "21", "start": 1176 }
       ] },
       { "segment": "630549212", "subrefs": [
-        { "name": "Тест Cemu" }
+        { "name": "Тест Cemu", "start": 1974 }
+      ] },
+      { "segment": "1817065976", "subrefs": [
+        { "name": "22 - перед TotK", "start": 1143 }
       ] }
     ]
   },

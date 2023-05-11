@@ -997,7 +997,7 @@
   },
   "138884824": {
     "youtube": "g44IUL6knpU", "abs_start": -4, "abs_end": 21598, "duration": 21602,
-    "name": "The Legend of Zelda: Breath of the Wild #13",
+    "name": "The Legend of Zelda: Breath of the Wild #13 (финал)",
     "date": "2017-04-29",
     "games": ["tloz_botw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2017@master/v138884824.ass"
@@ -1130,21 +1130,21 @@
   },
   "156558088": {
     "youtube": "SPbHXjRJHyc", "abs_start": -6, "abs_end": 14017, "duration": 14023,
-    "name": "The Legend of Zelda: Breath of the Wild - DLC 1 #1",
+    "name": "The Legend of Zelda: Breath of the Wild #14 - DLC 1 #1",
     "date": "2017-07-05",
     "games": ["tloz_botw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2017@master/v156558088.ass"
   },
   "158301208": {
     "youtube": "CkxzFYX2QDE", "abs_start": -6, "abs_end": 18535, "duration": 18541,
-    "name": "The Legend of Zelda: Breath of the Wild - DLC 1 #2",
+    "name": "The Legend of Zelda: Breath of the Wild #15 - DLC 1 #2",
     "date": "2017-07-12",
     "games": ["tloz_botw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2017@master/v158301208.ass"
   },
   "158812902": {
     "youtube": "nLo-y_ig9Mg", "abs_start": -6, "abs_end": 18778, "duration": 18784,
-    "name": "The Legend of Zelda: Breath of the Wild - DLC 1 #3",
+    "name": "The Legend of Zelda: Breath of the Wild #16 - DLC 1 #3 (финал)",
     "date": "2017-07-16",
     "games": ["tloz_botw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2017@master/v158812902.ass"
@@ -1529,14 +1529,14 @@
   },
   "208349646": {
     "youtube": "gUtKWEEyzPE", "abs_start": 0, "abs_end": 24012, "duration": 24012,
-    "name": "Monster Hunter World #0 (бета) / The Legend of Zelda: Breath of the Wild - DLC 2 #1",
+    "name": "Monster Hunter World #0 (бета) / The Legend of Zelda: Breath of the Wild #17 - DLC 2 #1",
     "date": "2017-12-10",
     "games": ["monster-hunter-world", "tloz_botw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2017@master/v208349646.ass"
   },
   "209473798": {
     "youtube": "I24o7dmQyso", "abs_start": 0, "abs_end": 16479, "duration": 16479,
-    "name": "Розыгрыш Seagate Game Drive 2 TB / The Legend of Zelda: Breath of the Wild - DLC 2 #2",
+    "name": "Розыгрыш Seagate Game Drive 2 TB / The Legend of Zelda: Breath of the Wild #18 - DLC 2 #2",
     "date": "2017-12-14",
     "games": ["events", "tloz_botw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2017@master/v209473798.ass"
@@ -1550,7 +1550,7 @@
   },
   "210846597": {
     "youtube": "sR_zEhQt7_g", "abs_start": 0, "abs_end": 19093, "duration": 19093,
-    "name": "The Legend of Zelda: Breath of the Wild - DLC 2 #3 / Super Mario Odyssey #4",
+    "name": "The Legend of Zelda: Breath of the Wild #19 - DLC 2 #3 / Super Mario Odyssey #4",
     "date": "2017-12-19",
     "games": ["tloz_botw", "super-mario-odyssey"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2017@master/v210846597.ass"
@@ -1621,7 +1621,7 @@
   },
   "216912425": {
     "youtube": "jyhO-Szikqc", "abs_start": 0, "abs_end": 20139, "duration": 20139,
-    "name": "NieR Automata #5 / The Legend of Zelda: Breath of the Wild - DLC 2 #4",
+    "name": "NieR Automata #5 / The Legend of Zelda: Breath of the Wild #20 - DLC 2 #4 (финал)",
     "date": "2018-01-09",
     "games": ["nier-automata", "tloz_botw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v216912425.ass"
@@ -12208,7 +12208,6 @@
     "youtube": "hIaKzL2bL_w", "abs_start": 0, "abs_end": 19534, "duration": 19534,
     "name": "Chivalry 2 #7",
     "date": "2023-03-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/1771503128.torrent",
     "games": ["chivalry-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1771503128.ass"
   },
@@ -12503,5 +12502,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1814566379.torrent",
     "games": ["benedict-fox", "survival-foy"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1814566379.ass"
+  },
+  "1817065976": {
+    "abs_start": 0, "abs_end": 24847, "duration": 24847,
+    "name": "The Legend of Zelda: Breath of the Wild #22 - перед TotK",
+    "date": "2023-05-11",
+    "direct": "https://bsufiles.drhx.ru/streams/1817065976.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1817065976.torrent",
+    "games": ["tloz_botw"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1817065976.ass"
   }
 }
