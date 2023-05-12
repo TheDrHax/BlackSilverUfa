@@ -12215,7 +12215,6 @@
     "youtube": "YxXsJN_f_8I", "abs_start": 0, "abs_end": 15911, "duration": 15911,
     "name": "Resident Evil Village #1 (заново, Жуткая деревня)",
     "date": "2023-03-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/1772343378.torrent",
     "games": ["re8"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1772343378.ass"
   },
@@ -12223,7 +12222,6 @@
     "youtube": "9JhHLy3EZro", "abs_start": 0, "abs_end": 8898, "duration": 8898,
     "name": "Chivalry 2 #8",
     "date": "2023-03-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/1772504839.torrent",
     "games": ["chivalry-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1772504839.ass"
   },
@@ -12510,5 +12508,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1817065976.torrent",
     "games": ["tloz_botw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1817065976.ass"
+  },
+  "1817831979": {
+    "abs_start": 0, "abs_end": 36333, "duration": 36333,
+    "name": "The Legend of Zelda: Tears of the Kingdom #1",
+    "date": "2023-05-12",
+    "direct": "https://bsufiles.drhx.ru/streams/1817831979.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1817831979.torrent",
+    "games": ["tloz_totk"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1817831979.ass"
   }
 }
