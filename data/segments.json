@@ -12229,7 +12229,6 @@
     "youtube": "IUREHKFmmjM", "abs_start": 0, "abs_end": 36887, "duration": 36887,
     "name": "Resident Evil 4 - Перед Remake / Resident Evil 4 Remake #1",
     "date": "2023-03-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/1773155387.torrent",
     "games": ["re4", "re4-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1773155387.ass"
   },
@@ -12516,5 +12515,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1817831979.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1817831979.ass"
+  },
+  "1818750640": {
+    "abs_start": 0, "abs_end": 33659, "duration": 33612,
+    "name": "The Legend of Zelda: Tears of the Kingdom #2",
+    "date": "2023-05-13",
+    "direct": "https://bsufiles.drhx.ru/streams/1818750640.mp4",
+    "cuts": [[32049, 32096]],
+    "torrent": "https://bsufiles.drhx.ru/streams/1818750640.torrent",
+    "games": ["tloz_totk"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1818750640+0.ass"
   }
 }
