@@ -7,17 +7,17 @@
     "segments": {
       "total": 1709,
       "official": 1259,
-      "unofficial": 447,
-      "missing": 3
+      "unofficial": 444,
+      "missing": 6
     },
     "messages": 24033101,
     "content_id": {
       "streams": 164,
-      "claims": 601
+      "claims": 604
     }
   },
   "durations": {
     "streams": 31370836,
-    "segments": 30502994
+    "segments": 30502993
   }
 }
