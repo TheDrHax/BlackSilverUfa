@@ -12252,7 +12252,6 @@
     "youtube": "kg1-PwSM9g8", "abs_start": 0, "abs_end": 22615, "duration": 22615,
     "name": "Resident Evil Village #2 (Жуткая деревня) / Demonologist - Демо",
     "date": "2023-03-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/1777132427.torrent",
     "games": ["re8", "demonologist"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1777132427.ass"
   },
@@ -12531,5 +12530,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1819655760.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1819655760.ass"
+  },
+  "1823827495": {
+    "abs_start": 0, "abs_end": 11658, "duration": 11658,
+    "name": "Layers of Fear (демо)",
+    "date": "2023-05-19",
+    "direct": "https://bsufiles.drhx.ru/streams/1823827495.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1823827495.torrent",
+    "games": ["single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1823827495.ass"
   }
 }
