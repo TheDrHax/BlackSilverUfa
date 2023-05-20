@@ -6972,9 +6972,19 @@
       ] },
       { "segment": "1812854556", "subrefs": [
         { "name": "Dawn of Hell", "start": 2528 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Nancy Drew: The White Wolf of Icicle Creek (Нэнси Дрю. Белый волк Ледяного ущелья)",
+    "category": "ongoing",
+    "id": "nancy-drew-wwoic",
+    "streams": [
       { "segment": "1813790886", "subrefs": [
-        { "name": "Nancy Drew: The White Wolf of Icicle Creek (Нэнси Дрю. Белый волк Ледяного ущелья)", "start": 850 }
+        { "name": "1", "start": 850 }
+      ] },
+      { "segment": "1824716509", "subrefs": [
+        { "name": "2", "start": 1403 }
       ] }
     ]
   },

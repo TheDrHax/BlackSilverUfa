@@ -12483,10 +12483,10 @@
   },
   "1813790886": {
     "youtube": "cG7GrgNo6CI", "abs_start": 0, "abs_end": 18877, "duration": 18877,
-    "name": "Nancy Drew: The White Wolf of Icicle Creek (Нэнси Дрю. Белый волк Ледяного ущелья)",
+    "name": "Nancy Drew: The White Wolf of Icicle Creek (Нэнси Дрю. Белый волк Ледяного ущелья) #1",
     "date": "2023-05-07",
     "torrent": "https://bsufiles.drhx.ru/streams/1813790886.torrent",
-    "games": ["first-2023"],
+    "games": ["nancy-drew-wwoic"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1813790886.ass"
   },
   "1814566379": {
@@ -12537,5 +12537,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1823827495.torrent",
     "games": ["single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1823827495.ass"
+  },
+  "1824716509": {
+    "abs_start": 0, "abs_end": 18084, "duration": 18084,
+    "name": "Nancy Drew: The White Wolf of Icicle Creek (Нэнси Дрю. Белый волк Ледяного ущелья) #2",
+    "date": "2023-05-20",
+    "direct": "https://bsufiles.drhx.ru/streams/1824716509.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1824716509.torrent",
+    "games": ["nancy-drew-wwoic"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1824716509.ass"
   }
 }
