@@ -12258,7 +12258,6 @@
     "youtube": "4EsaSITBGXY", "abs_start": 0, "abs_end": 26237, "duration": 26237,
     "name": "UNFOLLOW / Polaris Outpost (демо) / Dredge #1 / Crime Boss: Rockay City #1 (4D)",
     "date": "2023-03-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/1778016938.torrent",
     "games": ["single", "first-2023", "dredge", "crime-boss-4d"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1778016938.ass"
   },
@@ -12553,5 +12552,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1825542254.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1825542254.ass"
+  },
+  "1826440973": {
+    "abs_start": 0, "abs_end": 9673, "duration": 9673,
+    "name": "The Outlast Trials / Deppart Prototype / Daymare: 1994 Sandcastle",
+    "date": "2023-05-22",
+    "direct": "https://bsufiles.drhx.ru/streams/1826440973.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1826440973.torrent",
+    "games": ["first-2023", "single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1826440973.ass"
   }
 }
