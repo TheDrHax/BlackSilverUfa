@@ -6980,8 +6980,7 @@
         { "name": "Dawn of Hell", "start": 2528 }
       ] },
       { "segment": "1826440973", "subrefs": [
-        { "name": "The Outlast Trials", "start": 279 },
-        { "name": "Daymare: 1994 Sandcastle", "start": 5837 }
+        { "name": "The Outlast Trials", "start": 279 }
       ] }
     ]
   },
@@ -7804,7 +7803,10 @@
         { "name": "1 (демо)", "start": 12540 }
       ] },
       { "segment": "1307474557", "subrefs": [
-        { "name": "2" }
+        { "name": "2", "start": 2671 }
+      ] },
+      { "segment": "1826440973", "subrefs": [
+        { "name": "3", "start": 5837 }
       ] }
     ]
   },
