@@ -1,0 +1,40 @@
+import Loki from 'lokijs';
+
+const Persist = new Promise((resolve, reject) => {
+  let tmp = null;
+
+  tmp = new Loki('BSU-persist', {
+    autoload: true,
+    autoloadCallback: (err) => {
+      if (!err) {
+        resolve(tmp);
+      } else {
+        reject(err);
+      }
+    },
+    autosave: true,
+    autosaveInterval: 5000,
+  });
+}).then((db) => {
+  const resume = db.getCollection('resume_playback') || db.addCollection('resume_playback', {
+    unique: ['id'],
+  });
+
+  const oldResume = JSON.parse(localStorage.getItem('resume_playback'));
+  if (oldResume) {
+    console.log('Migrating resume_playback');
+
+    resume.clear();
+    resume.insert(Object.entries(oldResume).map(([k, v]) => ({
+      id: k,
+      ts: v,
+      full: false,
+    })));
+
+    delete localStorage.removeItem('resume_playback');
+  }
+
+  return db;
+});
+
+export default Persist;

@@ -158,7 +158,7 @@ export default class Player extends React.Component {
         if (autostart) {
           plyr.currentTime = autostart;
         } else if (spa && spa.exists()) {
-          plyr.currentTime = spa.get();
+          plyr.currentTime = Math.min(spa.get(), plyr.duration - 30);
         } else if (time < start) {
           plyr.currentTime = start;
         }
@@ -181,7 +181,18 @@ export default class Player extends React.Component {
   }
 
   onVideoEnded() {
-    const { onVideoEnded } = this.props;
+    const {
+      onVideoEnded,
+      savedPositionAdapter: spa,
+    } = this.props;
+
+    const { plyr } = this;
+    const time = plyr.currentTime;
+
+    if (spa) {
+      spa.set(time, { end: true });
+    }
+
     onVideoEnded();
   }
 

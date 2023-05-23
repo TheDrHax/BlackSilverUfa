@@ -1,48 +1,53 @@
 import last from 'lodash/last';
 import zip from 'lodash/zip';
 
-const resume = JSON.parse(localStorage.getItem('resume_playback')) || {};
+function upsert(db, keys, obj) {
+  const filter = Object.assign({}, ...keys.map((k) => ({ [k]: obj[k] })));
+  const x = db.findOne(filter);
+
+  if (!x) {
+    db.insert(obj);
+  } else {
+    db.update({ ...x, ...obj });
+  }
+}
 
 export default class SavedPosition {
-  constructor(segment) {
+  constructor(persist, segment) {
+    this.db = persist.getCollection('resume_playback');
     this.streams = segment.streams;
     this.offsets = segment.offsets || [segment.abs_start];
   }
 
-  set(t) {
-    let match = null;
+  find(t) {
+    const [match] = zip(this.streams, this.offsets)
+      .filter(([s, o]) => t >= o);
+    return match;
+  }
+
+  set(t, { end } = { end: false }) {
     t = Math.round(t);
 
-    zip(this.streams, this.offsets).forEach(([stream, offset]) => {
-      if (t >= offset) {
-        match = { stream, offset };
-      }
+    const match = this.find(t);
+    if (!match) return;
 
-      delete resume[stream];
+    const [stream, offset] = match;
+    upsert(this.db, ['id'], {
+      id: stream,
+      ts: t - offset,
+      full: end,
     });
-
-    if (match) {
-      const { stream, offset } = match;
-      resume[stream] = t - offset;
-      localStorage.setItem('resume_playback', JSON.stringify(resume));
-    }
   }
 
   get() {
     return last(
       this.streams
-        .map((id, i) => +resume[id] + this.offsets[i])
+        .map((id, i) => this.db.findOne({ id })?.ts + this.offsets[i])
         .filter((x) => !Number.isNaN(x)),
     );
   }
 
   exists() {
-    for (let i = 0; i < this.streams.length; i += 1) {
-      if (resume[this.streams[i]]) {
-        return true;
-      }
-    }
-
-    return false;
+    return !!this.db.findOne({ id: { $in: this.streams } });
   }
 }

@@ -129,7 +129,7 @@ export default class SegmentPlayer extends React.Component {
   }
 
   loadData() {
-    Data.then(({ segments, timecodes, games }) => {
+    Data.then(({ segments, timecodes, games, persist }) => {
       const { history } = this.props;
       const request = this.resolveUrl({ segments, games });
 
@@ -163,7 +163,7 @@ export default class SegmentPlayer extends React.Component {
         segmentRef,
         relatedGames,
         autostart,
-        savedPositionAdapter: new SavedPosition(segment),
+        savedPositionAdapter: new SavedPosition(persist, segment),
       });
 
       timecodes.then((data) => {

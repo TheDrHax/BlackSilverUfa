@@ -79,7 +79,7 @@ function createIndex(collection, fields) {
   collection.reindex();
 }
 
-function build([rawSegments, rawCategories, rawGames, timecodes]) {
+function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
   const db = new Loki('BSU');
 
   const segments = db.addCollection('segments');
@@ -196,7 +196,7 @@ function build([rawSegments, rawCategories, rawGames, timecodes]) {
   createIndex(index, ['name']);
   createIndex(segments, ['name']);
 
-  return { segments, categories, index, games, timecodes };
+  return { segments, categories, index, games, persist, timecodes };
 }
 
 export async function reload() {
