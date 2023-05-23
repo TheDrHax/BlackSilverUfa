@@ -56,7 +56,7 @@ def parser(source: str, start: datetime, duration: datetime):
 
         # For some reason IRC log is behind chat
         # This needs to be confirmed for more streams
-        ts = datetime.fromisoformat(parts[0]) - timedelta(seconds=7.85)
+        ts = datetime.fromisoformat(parts[0]) - timedelta(seconds=5)
 
         if ts < start:
             continue
