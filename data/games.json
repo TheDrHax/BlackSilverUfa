@@ -6979,8 +6979,23 @@
       { "segment": "1812854556", "subrefs": [
         { "name": "Dawn of Hell", "start": 2528 }
       ] },
+      { "segment": "1827232465,1827360298,1827371582,1827392675", "subrefs": [
+        { "name": "Amnesia: The Bunker (демо)", "start": 2019 },
+        { "name": "Horror Exp+", "start": 7963 },
+        { "name": "Haunted Horror Stories: Gone With The Wind", "start": 15939 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Outlast Trials",
+    "category": "co-op",
+    "id": "outlast-trials",
+    "streams": [
       { "segment": "1826440973", "subrefs": [
-        { "name": "The Outlast Trials", "start": 279 }
+        { "name": "1 (соло)", "start": 279 }
+      ] },
+      { "segment": "1827232465,1827360298,1827371582,1827392675", "subrefs": [
+        { "name": "2 (с Куплиновым и Дангаром)", "start": 9494 }
       ] }
     ]
   },
