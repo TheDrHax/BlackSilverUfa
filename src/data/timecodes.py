@@ -242,14 +242,6 @@ class Timecodes(SortedKeyList):
 
                 res.add(Timecode(start, end, t.name))
 
-        # Collapse single nested dict
-        if len(res) == 1:
-            tmp = res[0]
-
-            if isinstance(tmp, Timecodes) and not tmp.is_list:
-                del res[0]
-                [res.add(t1) for t1 in tmp]
-
         return res
 
     def filter(self, func: Callable[[Timecode], bool]) -> 'Timecodes':
