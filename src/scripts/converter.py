@@ -149,7 +149,10 @@ def find_subtitles(stream: Stream) -> str:
 def concatenate_subtitles(stream_list: List[Stream], offsets: Timecodes, fo: str):
     def events() -> Iterator[SubtitlesEvent]:
         for i, stream in enumerate(stream_list):
-            r = SubtitlesReader(find_subtitles(stream))
+            if stream[0].generated_subtitles_hash:
+                r = SubtitlesReader(stream[0].generated_subtitles_path)
+            else:
+                r = SubtitlesReader(find_subtitles(stream))
             offset = -int(offsets[i])
 
             for event in r.events():
@@ -201,8 +204,8 @@ def generate_subtitles(segment):
         else:
             fi = find_subtitles(segment.stream)
 
-        if len(segment.all_cuts) > 0:
-            cut_subtitles(segment.all_cuts, fi, fo)
+            if len(segment.all_cuts) > 0:
+                cut_subtitles(segment.all_cuts, fi, fo)
     except FileNotFoundError as ex:
         print(f'Skipping segment {segment.hash}: {ex.filename} does not exist')
         if os.path.exists(fo):
