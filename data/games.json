@@ -2757,9 +2757,19 @@
       ] },
       { "segment": "1134934289", "subrefs": [
         { "name": "Dead Space Remake Dev Stream", "start": 14246 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "PlayStation Showcase",
+    "category": "expos",
+    "id": "ps-showcase",
+    "streams": [
       { "segment": "1143525237", "subrefs": [
-        { "name": "PlayStation Showcase 2021", "start": 24906 }
+        { "name": "2021", "start": 24906 }
+      ] },
+      { "segment": "1828339885", "subrefs": [
+        { "name": "2023", "start": 1485 }
       ] }
     ]
   },
