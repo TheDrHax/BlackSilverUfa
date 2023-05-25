@@ -20,6 +20,10 @@ const Persist = new Promise((resolve, reject) => {
     unique: ['id'],
   });
 
+  if (typeof localStorage === 'undefined') {
+    return db;
+  }
+
   const oldResume = JSON.parse(localStorage.getItem('resume_playback'));
   if (oldResume) {
     console.log('Migrating resume_playback');
