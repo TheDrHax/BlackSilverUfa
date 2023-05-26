@@ -70,6 +70,11 @@ describe('base segment', () => {
       .toMatchObject([{ segment: '827759529' }, 16000, 16000]);
   }));
 
+  test('primary with cuts and source cuts', () => Data.then(({ segments }) => {
+    expect(getBaseSegment(segments, segments.by('segment', '1594431864'), 17013))
+      .toMatchObject([{ segment: '1594431864' }, 17013 + 515 /* + 30 */, 17013]);
+  }));
+
   test('secondary', () => Data.then(({ segments }) => {
     expect(getBaseSegment(segments, segments.by('segment', '306956427.1'), 0))
       .toMatchObject([{ segment: '306956427' }, 9273, 9273 - 507]);

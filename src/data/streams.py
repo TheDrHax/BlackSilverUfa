@@ -42,7 +42,7 @@ class Segment:
     _offset: Timecode = attr.ib(0, converter=Timecode)
     offsets: Timecodes = attr.ib(factory=list, converter=Timecodes)  # for joined streams
     _duration: Timecode = attr.ib(0, converter=Timecode)
-    _cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
+    cuts: Timecodes = attr.ib(factory=list, converter=Timecodes)
 
     stream: 'Stream' = attr.ib()  # depends on _offset
 
@@ -90,7 +90,7 @@ class Segment:
                 t < abs_start,
                 self.force_start and t < self.start,
                 abs_end != 0 and t >= abs_end,
-                *[t in cut for cut in self._cuts]
+                *[t in cut for cut in self.cuts]
             ]):
                 return None
 
@@ -112,28 +112,20 @@ class Segment:
         self.timecodes = timecodes.transform(self.timecode_transformer())
 
     @property
-    def cuts(self) -> Timecodes:
-        if self.stream.type is not StreamType.JOINED:
-            return self._cuts
-
-        cuts = Timecodes(self._cuts)
-
-        for stream, offset in zip(self.stream.streams, self.offsets):
-            offset += sum(t.duration for t in cuts if t < offset)
-            cuts.update(stream.cuts + offset)
-
-        return cuts
-
-    @cuts.setter
-    def cuts(self, value: Timecodes):
-        self._cuts = value
-
-    @property
     def all_cuts(self) -> Timecodes:
+        if self.stream.type is StreamType.JOINED:
+            cuts = Timecodes(self.cuts)
+
+            for stream, offset in zip(self.stream.streams, self.offsets):
+                offset += sum(t.duration for t in cuts if t < offset)
+                cuts.update(stream.cuts + offset)
+
+            return cuts
+
         return Timecodes(list(self.stream.cuts) + list(self.cuts))
 
     def offset(self, t: Timecode = Timecode(0)) -> Timecode:
-        cuts = sum([cut.duration for cut in self._cuts if cut <= t])
+        cuts = sum([cut.duration for cut in self.cuts if cut <= t])
         return self._offset + cuts
 
     def __setattr__(self, name, value):
@@ -305,7 +297,7 @@ class Segment:
             return self.end
         elif self.duration > 0:
             end = self.abs_start + self.duration
-            end += sum(cut.duration for cut in self.all_cuts)
+            end += sum(cut.duration for cut in self.cuts)
             return end
         elif self.segment == len(self.stream) - 1:
             return self.stream.abs_end
@@ -326,13 +318,13 @@ class Segment:
     @join()
     def to_json(self, compiled=False):
         if not compiled:
-            keys = ['youtube', '_offset', 'source_cuts', '_cuts', 'official',
+            keys = ['youtube', '_offset', 'source_cuts', 'cuts', 'official',
                     'start', 'end', '_duration', 'force_start']
             multiline_keys = ['direct', 'offsets', 'note', 'torrent']
         else:
             keys = ['youtube', 'official',
                     'abs_start', 'abs_end', 'duration']
-            multiline_keys = ['name', 'date', 'direct', 'offsets', 'all_cuts',
+            multiline_keys = ['name', 'date', 'direct', 'offsets', 'cuts',
                               'torrent', 'games', 'subtitles', 'note']
 
         def get_attr(key):
@@ -411,11 +403,10 @@ class Segment:
             if key == 'subtitles' and self.stream.type is StreamType.NO_CHAT:
                 continue
 
-            if key == 'all_cuts':
+            if key == 'cuts' and compiled:
                 if len(value) == 0:
                     continue
 
-                key = 'cuts'
                 value = [[int(t.start), int(t.end)] for t in value]
 
             if key == 'games':
