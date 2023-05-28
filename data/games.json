@@ -7035,7 +7035,7 @@
   },
   {
     "name": "Nancy Drew: The White Wolf of Icicle Creek (Нэнси Дрю. Белый волк Ледяного ущелья)",
-    "category": "ongoing",
+    "category": "finished",
     "id": "nancy-drew-wwoic",
     "streams": [
       { "segment": "1813790886", "subrefs": [
@@ -7043,6 +7043,9 @@
       ] },
       { "segment": "1824716509", "subrefs": [
         { "name": "2", "start": 1403 }
+      ] },
+      { "segment": "1831475865", "subrefs": [
+        { "name": "3", "start": 1207 }
       ] }
     ]
   },

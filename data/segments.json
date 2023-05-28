@@ -12590,5 +12590,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1830612078.torrent",
     "games": ["single", "first-2023", "outlast-trials"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1830612078.ass"
+  },
+  "1831475865": {
+    "abs_start": 0, "abs_end": 11578, "duration": 11578,
+    "name": "Nancy Drew: The White Wolf of Icicle Creek (Нэнси Дрю. Белый волк Ледяного ущелья) #3",
+    "date": "2023-05-28",
+    "direct": "https://bsufiles.drhx.ru/streams/1831475865.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1831475865.torrent",
+    "games": ["nancy-drew-wwoic"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1831475865.ass"
   }
 }
