@@ -6230,6 +6230,19 @@
     ]
   },
   {
+    "name": "System Shock",
+    "category": "ongoing",
+    "id": "system-shock",
+    "streams": [
+      { "segment": "928993182", "subrefs": [
+        { "name": "Демо", "start": 2808 }
+      ] },
+      { "segment": "1833150878", "subrefs": [
+        { "name": "Релиз", "start": 7979 }
+      ] }
+    ]
+  },
+  {
     "name": "Первый взгляд 2021",
     "category": "first",
     "type": "list",
@@ -6260,9 +6273,6 @@
       ] },
       { "segment": "916293705", "subrefs": [
         { "name": "What Lives Below (демо)" }
-      ] },
-      { "segment": "928993182", "subrefs": [
-        { "name": "System Shock (демо)" }
       ] },
       { "segment": "932891083", "subrefs": [
         { "name": "HellSign" }
@@ -7017,6 +7027,9 @@
         { "name": "The Wailer", "start": 4364 },
         { "name": "BloodWaters (Кровавые воды)", "start": 5862 },
         { "name": "Movie Night", "start": 15052 }
+      ] },
+      { "segment": "1833150878", "subrefs": [
+        { "name": "Shame Legacy", "start": 1727 }
       ] }
     ]
   },

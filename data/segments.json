@@ -8120,9 +8120,9 @@
   },
   "928993182": {
     "youtube": "TUgjIYuIzq0", "abs_start": 0, "abs_end": 21765, "duration": 21765,
-    "name": "System Shock (демо) / Outriders #1 (демо) / Breathedge #2",
+    "name": "System Shock - Демо / Outriders #1 (демо) / Breathedge #2",
     "date": "2021-02-26",
-    "games": ["first-2021", "outriders", "breathedge"],
+    "games": ["system-shock", "outriders", "breathedge"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master/v928993182.ass"
   },
   "929556422": {
@@ -12249,7 +12249,6 @@
     "youtube": "ZyG46ukI8NM", "abs_start": 0, "abs_end": 23500, "duration": 23500,
     "name": "Road 96: Mile 0",
     "date": "2023-04-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/1787128234.torrent",
     "games": ["single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1787128234.ass"
   },
@@ -12605,5 +12604,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1832232698.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1832232698+0.ass"
+  },
+  "1833150878": {
+    "abs_start": 0, "abs_end": 20933, "duration": 20933,
+    "name": "Shame Legacy / System Shock - Релиз",
+    "date": "2023-05-30",
+    "direct": "https://bsufiles.drhx.ru/streams/1833150878.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1833150878.torrent",
+    "games": ["first-2023", "system-shock"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1833150878.ass"
   }
 }
