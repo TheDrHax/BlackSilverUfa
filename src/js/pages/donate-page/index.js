@@ -4,20 +4,26 @@ import PropTypes from 'prop-types';
 import { Row, Col, Card, Modal, Button } from 'react-bootstrap';
 import { Layout } from '../../components';
 import SimpleTooltip from './simple-tooltip';
+import { renderTemplate } from '../../utils/text-utils';
 
-const CardModal = ({ name, imgSrc, children }) => {
+const CardModal = ({ name, imgSrc, href, children }) => {
   const [show, setShow] = useState(false);
 
-  const handleOpen = (e) => {
-    if (e) e.preventDefault();
-    setShow(true);
-  };
+  let handleOpen = null;
+
+  if (children) {
+    handleOpen = (e) => {
+      if (e) e.preventDefault();
+      setShow(true);
+    };
+  }
+
   const handleClose = () => setShow(false);
 
   return (
     <>
-      <Col xs={6} sm={6} md={4} lg={3} className="pb-4">
-        <Card as="a" href="#" onClick={handleOpen} className="text-white pt-2">
+      <Col xs={6} sm={6} md={6} lg={4} xl={3} className="pb-4">
+        <Card as="a" href={href} onClick={handleOpen} className="text-white pt-2">
           <Card.Img variant="top" src={imgSrc} style={{ padding: '0 20% 0' }} />
           <Card.Body className="d-flex justify-content-center">
             <Card.Text>{name}</Card.Text>
@@ -43,7 +49,19 @@ const CardModal = ({ name, imgSrc, children }) => {
 CardModal.propTypes = {
   name: PropTypes.string.isRequired,
   imgSrc: PropTypes.string.isRequired,
+  href: PropTypes.string,
 };
+
+CardModal.defaultProps = {
+  href: '#',
+};
+
+const siteAge = () => renderTemplate(
+  'последни{n#й,е,е} {n} {n#год,года,лет}',
+  {
+    n: new Date().getFullYear() - 2017,
+  },
+);
 
 const DonatePage = () => (
   <Layout isLoading={false} title="Поддержать проект">
@@ -57,15 +75,16 @@ const DonatePage = () => (
       <p>Привет! Надеюсь, что мой архив был вам полезен!</p>
 
       <p>
-        Я тут попробовал подсчитать, сколько времени потратил на этот проект, но
-        не смог прикинуть даже сколько я потратил только на сайт, а ведь это уже
-        давно уже не центральная часть системы 🤔. Иногда даже страшно становится,
-        сколько лет я над ним работаю. И я хотел бы тратить на него ещё больше
-        времени, но вот ресурсов уже начинает не хватать.
+        За {siteAge()} я потратил огромное количество времени и сил на создание и поддержку
+        этого сайта. Помимо самого сайта пришлось создать много дополнительных инструментов
+        и скриптов. Вокруг этого проекта выстроилась целая большая система, которая практически
+        всё делает сама. Но некоторые вещи автоматикой не заменить, поэтому я до сих пор
+        вручную делаю все таймкоды, вношу новые стримы в базу и исправляю сломанные записи.
       </p>
 
       <p>
-        Так вот, ниже перечислены способы, которыми вы можете поддержать разработку.
+        Я предпочитаю не добавлять рекламу в свои проекты, поэтому ниже перечислены способы,
+        которыми вы можете поддержать разработку.
         А взамен с меня: этот сайт, таймкоды на YouTube, записи чата
         {', '}
 
@@ -132,11 +151,14 @@ const DonatePage = () => (
             Скачивает логи чата конкретного стрима и сохраняет их в виде субтитров.
           </SimpleTooltip>
         </a>.
-
-        Неплохо, да? 👀
       </p>
     </Row>
     <Row className="text-white mt-4 ms-2 me-2 d-flex justify-content-center">
+      <CardModal
+        name="Boosty"
+        imgSrc="/static/images/boosty.png"
+        href="https://boosty.to/thedrhax"
+      />
       <CardModal name="Система быстрых платежей" imgSrc="/static/images/sbp.png">
         <p>Номер телефона: <code>+79773102862</code></p>
         <p>Банк: <code>ЮМани</code></p>
