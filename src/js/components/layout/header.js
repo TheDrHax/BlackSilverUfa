@@ -36,11 +36,6 @@ const Header = () => {
               <Nav.Link as={Link} to={PATHS.SEARCH} className="text-white">Поиск</Nav.Link>
               <Nav.Link as={Link} to={PATHS.DONATE} className="text-white me-auto text-nowrap">
                 Поддержать проект
-                <img
-                  src="/static/images/BSULoot.gif"
-                  alt=""
-                  style={{ margin: '-6px 0 -3px 0.25rem' }}
-                />
               </Nav.Link>
               <Nav className="ms-2 me-auto" />
               {isReady && <HeaderQuickSearch indexStore={index} segmentsStore={segments} />}
