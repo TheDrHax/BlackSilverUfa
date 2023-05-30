@@ -86,7 +86,20 @@ EMOTES = {
         'BegWan',
         'PETTHEEVAN'
     ]),
-    'F': re.compile('(^|\\s)(f|NotLikeThis)(\\s|$)', re.I)
+    'F': re.compile('(^|\\s)(f|NotLikeThis)(\\s|$)', re.I),
+    'story': pattern([
+        'CoolStoryBob',
+        'bufaCoolStory',
+        'PixelBob'
+    ]),
+    'pog': pattern([
+        'Pog',
+        'bufaBobchan',
+        'bufaPogU',
+        'bufaPog',
+        'VisLaud',
+        'PogChamp'
+    ])
 }
 
 
