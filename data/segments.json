@@ -7612,9 +7612,9 @@
   },
   "828815728": {
     "youtube": "07BluFMJ0eo", "abs_start": 0, "abs_end": 23819, "duration": 23819,
-    "name": "El Hijo: A Wild West Game / Worms Rumble / Stasis: Bone Totem (демо) / DARQ: Complete Edition",
+    "name": "El Hijo: A Wild West Game / Worms Rumble / Stasis: Bone Totem - Демо / DARQ: Complete Edition",
     "date": "2020-12-07",
-    "games": ["first-2020", "single"],
+    "games": ["first-2020", "stasis-bt", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v828815728.ass"
   },
   "830961978": {
@@ -12255,7 +12255,6 @@
     "youtube": "C8PH6fbZFCo", "abs_start": 0, "abs_end": 16023, "duration": 16023,
     "name": "Everspace 2 - Релиз / Demonologist #2 (с Куплиновым и Дангаром)",
     "date": "2023-04-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/1788074071.torrent",
     "games": ["everspace-2", "demonologist"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1788074071.ass"
   },
@@ -12263,7 +12262,6 @@
     "youtube": "WI6dqe6gBwc", "abs_start": 0, "abs_end": 20845, "duration": 20845,
     "name": "Rootman: Bodycam Horror Footage (демо) / The Voidness (демо) / Timberlodge Inn / Disappearance / Bio Evil 4 / Confabulation #1 / My Strange Attic / The Lacerator (демо) / Materna (демо) / Lucid Dreams",
     "date": "2023-04-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/1789025191.torrent",
     "games": ["single", "first-2023", "confabulation"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1789025191.ass"
   },
@@ -12611,5 +12609,33 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1833150878.torrent",
     "games": ["first-2023", "system-shock"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1833150878.ass"
+  },
+  "1833989886": {
+    "abs_start": 0, "abs_end": 12304, "duration": 12304,
+    "name": "",
+    "date": "2023-05-31",
+    "direct": "https://bsufiles.drhx.ru/streams/1833989886.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1833989886.torrent",
+    "games": [],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1833989886.ass"
+  },
+  "1834110105": {
+    "abs_start": 0, "abs_end": 7633, "duration": 7633,
+    "name": "",
+    "date": "2023-05-31",
+    "direct": "https://bsufiles.drhx.ru/streams/1834110105.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1834110105.torrent",
+    "games": [],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1834110105.ass"
+  },
+  "1833989886,1834110105": {
+    "abs_start": 0, "abs_end": 19942, "duration": 19942,
+    "name": "Зайчик (Tiny Bunny) - Эпизод 4 / MyHouse.wad / Stasis: Bone Totem - Релиз",
+    "date": "2023-05-31",
+    "direct": "https://bsufiles.drhx.ru/streams/1833989886,1834110105.mp4",
+    "offsets": [0, 12307],
+    "torrent": "https://bsufiles.drhx.ru/streams/1833989886,1834110105.torrent",
+    "games": ["tiny-bunny", "single", "stasis-bt"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1833989886,1834110105+0.ass"
   }
 }

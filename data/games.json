@@ -3714,7 +3714,6 @@
         { "name": "Boogerman: A Pick and Flick Adventure" }
       ] },
       { "segment": "828815728", "subrefs": [
-        { "name": "Stasis: Bone Totem (демо)", "start": 11262 },
         { "name": "DARQ: Complete Edition", "start": 17032 }
       ] },
       { "segment": "838158299", "subrefs": [
@@ -4220,6 +4219,9 @@
         { "name": "Presences: Dark Awakening (демо)", "start": 2700 },
         { "name": "Water Wheel", "start": 15790 },
         { "name": "My Eyes Deceive", "start": 17248 }
+      ] },
+      { "segment": "1833989886,1834110105", "subrefs": [
+        { "name": "MyHouse.wad", "start": 6723 }
       ] }
     ]
   },
@@ -4249,6 +4251,19 @@
       ] },
       { "segment": "1786204138", "subrefs": [
         { "name": "2", "start": 1587 }
+      ] }
+    ]
+  },
+  {
+    "name": "Stasis: Bone Totem",
+    "category": "ongoing",
+    "id": "stasis-bt",
+    "streams": [
+      { "segment": "828815728", "subrefs": [
+        { "name": "Демо", "start": 11262 }
+      ] },
+      { "segment": "1833989886,1834110105", "subrefs": [
+        { "name": "Релиз", "start": 14839 }
       ] }
     ]
   },
@@ -4676,13 +4691,16 @@
     "id": "tiny-bunny",
     "streams": [
       { "segment": "990810001", "subrefs": [
-        { "name": "Эпизод 1" }
+        { "name": "Эпизод 1", "start": 888 }
       ] },
       { "segment": "995413784", "subrefs": [
-        { "name": "Эпизод 2" }
+        { "name": "Эпизод 2", "start": 3708 }
       ] },
       { "segment": "1253678202,1253695802", "subrefs": [
-        { "name": "Эпизод 3" }
+        { "name": "Эпизод 3", "start": 4680 }
+      ] },
+      { "segment": "1833989886,1834110105", "subrefs": [
+        { "name": "Эпизод 4", "start": 1444 }
       ] }
     ]
   },
