@@ -12269,7 +12269,6 @@
     "youtube": "nDGyE7dHJXs", "abs_start": 0, "abs_end": 22883, "duration": 22883,
     "name": "Suffer the Night #1",
     "date": "2023-04-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/1796157455.torrent",
     "games": ["suffer-the-night"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1796157455.ass"
   },
@@ -12277,7 +12276,6 @@
     "youtube": "VPF6ZfyZolM", "abs_start": 0, "abs_end": 16969, "duration": 16969,
     "name": "GhostWire: Tokyo - Spider's Thread / Suffer the Night #2",
     "date": "2023-04-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/1797061764.torrent",
     "games": ["ghostwire", "suffer-the-night"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1797061764+0.ass"
   },
@@ -12636,5 +12634,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1833989886,1834110105.torrent",
     "games": ["tiny-bunny", "single", "stasis-bt"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1833989886,1834110105+0.ass"
+  },
+  "1834756368": {
+    "abs_start": 0, "abs_end": 32524, "duration": 32524,
+    "name": "The Legend of Zelda: Tears of the Kingdom #7",
+    "date": "2023-06-01",
+    "direct": "https://bsufiles.drhx.ru/streams/1834756368.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1834756368.torrent",
+    "games": ["tloz_totk"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1834756368+0.ass"
   }
 }
