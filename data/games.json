@@ -6939,6 +6939,19 @@
     ]
   },
   {
+    "name": "Diablo IV",
+    "category": "co-op",
+    "id": "diablo-4",
+    "streams": [
+      { "segment": "1767632642", "subrefs": [
+        { "name": "Открытый тест (2D)", "start": 10991 }
+      ] },
+      { "segment": "1835656508", "subrefs": [
+        { "name": "1 (4D)", "start": 7875 }
+      ] }
+    ]
+  },
+  {
     "name": "Первый взгляд 2023",
     "category": "first",
     "type": "list",
@@ -6997,8 +7010,7 @@
       ] },
       { "segment": "1767632642", "subrefs": [
         { "name": "Diablo II: Resurrected", "start": 1819 },
-        { "name": "Diablo III", "start": 5823 },
-        { "name": "Diablo IV", "start": 10991 }
+        { "name": "Diablo III", "start": 5823 }
       ] },
       { "segment": "1778016938", "subrefs": [
         { "name": "Polaris Outpost (демо)", "start": 6995 }
@@ -7051,6 +7063,9 @@
       ] },
       { "segment": "1833150878", "subrefs": [
         { "name": "Shame Legacy", "start": 1727 }
+      ] },
+      { "segment": "1835656508", "subrefs": [
+        { "name": "Killer Frequency", "start": 1443 }
       ] }
     ]
   },
