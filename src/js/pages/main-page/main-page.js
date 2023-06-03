@@ -8,7 +8,7 @@ import { StatsBlock } from './stats';
 import { useDataStore } from '../../hooks/use-data-store';
 import { useResponsiveValue } from '../../hooks/use-breakpoints';
 import PATHS from '../../constants/urls';
-import { Image } from '../../components/utils/image';
+import StreamCard from '../game-page/stream-card';
 
 const selectRecentSegments = ({ segments }, count = 10) => reverse(
   segments.chain()
@@ -56,17 +56,15 @@ export default function MainPage() {
           </div>
 
           <Row className="g-0 d-flex pb-4">
-            {selectRecentSegments(data, cards - 1).map((segment) => (
-              <Col key={segment.segment} className="p-1 col-card" xs={6} md={4} lg={3} xl={2}>
-                <Card className="card-game">
-                  <Link to={segment.url}>
-                    <Card.Img as={Image} variant="top" src={segment.thumbnail} />
-                    <Card.ImgOverlay className="overlay-transparent-bottom bg-dark text-white">
-                      <Card.Text>{truncate(segment.name, { length: maxNameLength })}</Card.Text>
-                    </Card.ImgOverlay>
-                  </Link>
-                </Card>
-              </Col>
+            {selectRecentSegments(data, cards - 1).map((segment) => ({
+              name: truncate(segment.name, { length: maxNameLength }),
+              start: 0,
+              segment: segment.segment,
+              original: segment,
+              url: segment.url,
+              subrefs: [],
+            })).map((segmentRef) => (
+              <StreamCard segmentRef={segmentRef} />
             ))}
 
             <Col className="p-1 col-card" xs={6} md={4} lg={3} xl={2}>

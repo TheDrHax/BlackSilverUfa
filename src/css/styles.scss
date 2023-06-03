@@ -231,6 +231,20 @@ html, body, #app {
     left: auto;
     bottom: auto;
   }
+
+  & .watch-progress {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+
+    & > div {
+      height: 100%;
+      background-color: red;
+    }
+  }
 }
 
 .col-card {
