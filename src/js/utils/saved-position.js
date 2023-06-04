@@ -22,7 +22,7 @@ export default class SavedPosition {
   set(t, { end } = { end: false }) {
     t = Math.round(t);
 
-    const [match] = getBaseSegment(this.segment, t);
+    const match = getBaseSegment(this.segment, t);
     if (!match) return;
 
     const [stream, offset] = match;
