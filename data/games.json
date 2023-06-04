@@ -4184,7 +4184,6 @@
       { "segment": "1803169573", "subrefs": [
         { "name": "The Microwave Paradox", "start": 4163 },
         { "name": "[Subject]", "start": 5078 },
-        { "name": "Evil is Back", "start": 7677 },
         { "name": "The Wish Machine (Машина желаний)", "start": 11897 },
         { "name": "Lost Alone: Ultimate - The Day Before (демо)", "start": 15975 }
       ] },
@@ -4410,7 +4409,7 @@
         { "name": "Poop Killer 4", "start": 16874 }
       ] },
       { "segment": "1642266888,1642407202", "subrefs": [
-        { "name": "Poop Killer: Origins", "start": 5301 },
+        { "name": "Poop Killer Origins", "start": 5301 },
         { "name": "Legend Hunters", "start": 9288 }
       ] },
       { "segment": "1663155573", "subrefs": [
@@ -4418,6 +4417,9 @@
       ] },
       { "segment": "1728992336", "subrefs": [
         { "name": "Poop Killer 6", "start": 10202 }
+      ] },
+      { "segment": "1803169573", "subrefs": [
+        { "name": "Evil is Back", "start": 7677 }
       ] },
       { "segment": "1837484119", "subrefs": [
         { "name": "Poop Killer 7", "start": 10623 }
