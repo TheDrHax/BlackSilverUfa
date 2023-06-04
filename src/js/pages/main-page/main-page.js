@@ -64,7 +64,7 @@ export default function MainPage() {
               url: segment.url,
               subrefs: [],
             })).map((segmentRef) => (
-              <StreamCard segmentRef={segmentRef} />
+              <StreamCard key={segmentRef.segment} segmentRef={segmentRef} />
             ))}
 
             <Col className="p-1 col-card" xs={6} md={4} lg={3} xl={2}>
