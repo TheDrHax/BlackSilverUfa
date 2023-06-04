@@ -4222,6 +4222,14 @@
       ] },
       { "segment": "1833989886,1834110105", "subrefs": [
         { "name": "MyHouse.wad", "start": 6723 }
+      ] },
+      { "segment": "1837484119", "subrefs": [
+        { "name": "CANINE", "start": 2863 },
+        { "name": "Sinking Iron", "start": 5768 },
+        { "name": "Last Night", "start": 7523 },
+        { "name": "Eerie Enigma", "start": 8797 },
+        { "name": "Poop Killer 7", "start": 10623 },
+        { "name": "The Nefarious", "start": 12865 }
       ] }
     ]
   },
@@ -7066,6 +7074,10 @@
       ] },
       { "segment": "1835656508", "subrefs": [
         { "name": "Killer Frequency", "start": 1443 }
+      ] },
+      { "segment": "1837484119", "subrefs": [
+        { "name": "The Tartarus Key", "start": 15505 },
+        { "name": "There is Something in the Anderghast Mine", "start": 17066 }
       ] }
     ]
   },
