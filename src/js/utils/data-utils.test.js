@@ -56,48 +56,48 @@ describe('offset', () => {
 
 describe('base segment', () => {
   test('primary', () => Data.then(({ segments }) => {
-    expect(getBaseSegment(segments, segments.by('segment', '524415764'), 0))
-      .toMatchObject([{ segment: '524415764' }, 0, 0]);
+    expect(getBaseSegment(segments.by('segment', '524415764'), 0))
+      .toMatchObject(['524415764', 0, 0]);
   }));
 
   test('primary with cuts', () => Data.then(({ segments }) => {
-    expect(getBaseSegment(segments, segments.by('segment', '827759529'), 20847))
-      .toMatchObject([{ segment: '827759529' }, 20941, 20847]);
+    expect(getBaseSegment(segments.by('segment', '827759529'), 20847))
+      .toMatchObject(['827759529', 20941, 20847]);
   }));
 
   test('primary with cuts (unaffected)', () => Data.then(({ segments }) => {
-    expect(getBaseSegment(segments, segments.by('segment', '827759529'), 16000))
-      .toMatchObject([{ segment: '827759529' }, 16000, 16000]);
+    expect(getBaseSegment(segments.by('segment', '827759529'), 16000))
+      .toMatchObject(['827759529', 16000, 16000]);
   }));
 
   test('primary with cuts and source cuts', () => Data.then(({ segments }) => {
-    expect(getBaseSegment(segments, segments.by('segment', '1594431864'), 17013))
-      .toMatchObject([{ segment: '1594431864' }, 17013 + 515 /* + 30 */, 17013]);
+    expect(getBaseSegment(segments.by('segment', '1594431864'), 17013))
+      .toMatchObject(['1594431864', 17013 + 515 /* + 30 */, 17013]);
   }));
 
   test('secondary', () => Data.then(({ segments }) => {
-    expect(getBaseSegment(segments, segments.by('segment', '306956427.1'), 0))
-      .toMatchObject([{ segment: '306956427' }, 9273, 9273 - 507]);
+    expect(getBaseSegment(segments.by('segment', '306956427.1'), 0))
+      .toMatchObject(['306956427', 9273, 0]);
   }));
 
   test('joined', () => Data.then(({ segments }) => {
-    expect(getBaseSegment(segments, segments.by('segment', '728972501,729152253'), 0))
-      .toMatchObject([{ segment: '728972501' }, 0, 0]);
+    expect(getBaseSegment(segments.by('segment', '728972501,729152253'), 0))
+      .toMatchObject(['728972501', 0, 0]);
   }));
 
   test('joined with offset', () => Data.then(({ segments }) => {
-    expect(getBaseSegment(segments, segments.by('segment', '775167526,776153173'), 0))
-      .toMatchObject([{ segment: '775167526' }, 18074, 18074]);
+    expect(getBaseSegment(segments.by('segment', '775167526,776153173'), 0))
+      .toMatchObject(['775167526', 18074, 18074]);
   }));
 
   test('joined with offset and time', () => Data.then(({ segments }) => {
-    expect(getBaseSegment(segments, segments.by('segment', '775167526,776153173'), 3600))
-      .toMatchObject([{ segment: '775167526' }, 3600 + 18074, 3600 + 18074]);
+    expect(getBaseSegment(segments.by('segment', '775167526,776153173'), 3600))
+      .toMatchObject(['775167526', 3600 + 18074, 3600 + 18074]);
   }));
 
   test('joined with offset and time 2', () => Data.then(({ segments }) => {
-    expect(getBaseSegment(segments, segments.by('segment', '775167526,776153173'), 18000))
-      .toMatchObject([{ segment: '776153173' }, 18000 - 15550, 18000 - 15550]);
+    expect(getBaseSegment(segments.by('segment', '775167526,776153173'), 18000))
+      .toMatchObject(['776153173', 18000 - 15550, 18000 - 15550]);
   }));
 });
 

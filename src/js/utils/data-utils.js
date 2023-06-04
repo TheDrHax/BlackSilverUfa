@@ -29,7 +29,7 @@ export const getAbsTime = (t, segment) => (
     ), segment.abs_start))
 );
 
-export const getBaseSegment = (segments, segment, t) => {
+export const getBaseSegment = (segment, t) => {
   let at = getAbsTime(t || 0, segment);
 
   let stream;
@@ -47,13 +47,12 @@ export const getBaseSegment = (segments, segment, t) => {
     [stream] = segment.streams;
   }
 
-  segment = segments.by('segment', stream);
-  return [segment, at, getRelTime(at, segment)];
+  return [stream, at, getRelTime(at, segment)];
 };
 
 export const getSiblingSegments = (segments, segment, at) => {
-  const [base] = getBaseSegment(segments, segment, at);
-  return segments.find({ streams: { $contains: base.segment } });
+  const [baseId] = getBaseSegment(segment, at);
+  return segments.find({ streams: { $contains: baseId } });
 };
 
 export const resolveSegment = (segments, segmentId, at) => {
@@ -83,8 +82,7 @@ export const resolveSegment = (segments, segmentId, at) => {
 
   // Handle segments without refs
   if (segment.games.length === 0) {
-    [segment, at] = getBaseSegment(segments, segment, at);
-    segmentId = segment.segment;
+    [segmentId, at] = getBaseSegment(segment, at);
 
     // Find joined stream (the only possible reason of empty refs for now)
     [segment] = segments.chain()

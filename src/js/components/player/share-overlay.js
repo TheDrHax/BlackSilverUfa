@@ -75,7 +75,8 @@ const ShareOverlay = React.forwardRef(({ segment, plyr, ...otherProps }, ref) =>
     );
   }
 
-  const [base, absTime] = getBaseSegment(segments, segment, time);
+  const [baseId, absTime] = getBaseSegment(segment, time);
+  const base = segments.by('segment', baseId);
 
   let value;
 
