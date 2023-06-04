@@ -20,6 +20,9 @@ export const Segment = PropTypes.shape({
   abs_start: PropTypes.number,
   abs_end: PropTypes.number,
   duration: PropTypes.number,
+
+  watched: PropTypes.number,
+  setWatched: PropTypes.func,
 });
 
 export const SubRef = PropTypes.shape({

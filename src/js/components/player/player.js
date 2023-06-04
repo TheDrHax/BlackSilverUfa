@@ -155,10 +155,12 @@ export default class Player extends React.Component {
       this.firstTimeUpdate = false;
 
       if (time < 1) {
-        if (autostart) {
+        const saved = spa?.get() || 0;
+
+        if (autostart && autostart > saved) {
           plyr.currentTime = autostart;
-        } else if (spa && spa.exists()) {
-          plyr.currentTime = Math.min(spa.get(), plyr.duration - 30);
+        } else if (saved > 0) {
+          plyr.currentTime = Math.min(saved, plyr.duration - 30);
         } else if (time < start) {
           plyr.currentTime = start;
         }
@@ -332,7 +334,10 @@ Player.propTypes = {
   autostart: PropTypes.number,
   end: PropTypes.number,
   forceStart: PropTypes.bool,
-  savedPositionAdapter: PropTypes.object,
+  savedPositionAdapter: PropTypes.shape({
+    get: PropTypes.func,
+    set: PropTypes.func,
+  }),
   onReady: PropTypes.func,
   onDestroy: PropTypes.func,
   onFullScreen: PropTypes.func,

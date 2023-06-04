@@ -1,9 +1,11 @@
 import Loki from 'lokijs';
 import uniq from 'lodash/uniq';
 import MiniSearch from 'minisearch';
+import zip from 'lodash/zip';
 import { tokenize } from './utils/text-utils';
 import loadData from './data.prod';
 import config from '../../config/config.json';
+import { upsert, getBaseSegment } from './utils/data-utils';
 
 const fallbackPrefix = config.fallback.prefix;
 
@@ -85,10 +87,13 @@ function createIndex(collection, fields) {
 function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
   const db = new Loki('BSU');
 
-  const segments = db.addCollection('segments');
+  const segments = db.addCollection('segments', {
+    indices: ['segment'],
+  });
   const categories = db.addCollection('categories');
   const index = db.addCollection('index');
   const games = db.addCollection('games');
+  const resume = persist?.getCollection('resume_playback');
 
   Object.keys(rawSegments)
     .sort((a, b) => String(a).localeCompare(b))
@@ -113,6 +118,39 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
       }
 
       segment.url = `/play/${segment.games[0]}/${key}`;
+
+      segment.watched = 0;
+
+      if (resume) {
+        const offsets = Object.fromEntries(zip(
+          segment.streams,
+          segment.offsets || [segment.abs_start],
+        ));
+
+        const parts = resume
+          .find({ id: { $in: segment.streams } })
+          .sort(({ id1 }, { id2 }) => offsets[id2] - offsets[id1]);
+
+        if (parts.length > 0) {
+          segment.watched = offsets[parts[0].id] + parts[0].ts;
+        }
+
+        segment.setWatched = (ts, { end } = { end: false }) => {
+          ts = Math.round(ts);
+          segment.watched = ts;
+
+          const [stream, at] = getBaseSegment(segment, ts);
+          upsert(resume, ['id'], {
+            id: stream,
+            ts: at,
+            full: end,
+          });
+        };
+      } else {
+        segment.setWatched = (ts) => {
+          segment.watched = Math.round(ts);
+        };
+      }
 
       segments.insert(segment);
     });

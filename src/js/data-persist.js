@@ -16,9 +16,8 @@ const Persist = new Promise((resolve, reject) => {
     autosaveInterval: 5000,
   });
 }).then((db) => {
-  const resume = db.getCollection('resume_playback') || db.addCollection('resume_playback', {
-    unique: ['id'],
-  });
+  const resume = db.getCollection('resume_playback') || db.addCollection('resume_playback');
+  resume.ensureIndex('id');
 
   if (typeof localStorage === 'undefined') {
     return db;

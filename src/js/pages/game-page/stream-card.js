@@ -3,25 +3,16 @@ import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Image } from '../../components/utils/image';
 import { Segment, SegmentRef } from '../../data-types';
-import { useDataStore } from '../../hooks/use-data-store';
-import SavedPosition from '../../utils/saved-position';
 
 const WatchedProgress = ({ segment }) => {
-  const [{ persist }, loaded] = useDataStore();
-
   const progress = useMemo(() => {
-    if (!loaded) return 0;
+    if (segment.duration <= 0) return 0;
 
-    const spa = new SavedPosition(persist, segment);
-    if (!spa.exists() || segment.abs_end === 0) return 0;
-
-    let x = spa.get() - segment.abs_start;
-    x *= 100;
-    x /= segment.abs_end - segment.abs_start;
+    let x = (segment.watched * 100) / segment.duration;
     x = Math.min(100, Math.ceil(x));
 
     return x;
-  }, [loaded, segment.segment]);
+  }, [segment.segment, segment.watched]);
 
   if (progress === 0) return <></>;
 

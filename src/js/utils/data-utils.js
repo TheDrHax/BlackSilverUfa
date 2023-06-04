@@ -5,6 +5,20 @@ import find from 'lodash/find';
 import { renderTemplate } from './text-utils';
 import SugarDate from './sugar';
 
+export const upsert = (db, keys, obj) => {
+  const filter = Object.assign({}, ...keys.map((k) => ({ [k]: obj[k] })));
+  let x = db.findOne(filter);
+
+  if (!x) {
+    db.insert(obj);
+    return obj;
+  } else {
+    x = { ...x, ...obj };
+    db.update(x);
+    return x;
+  }
+};
+
 export const getOffset = (segment, at) => {
   at = at || 0;
 

@@ -18,7 +18,6 @@ import { Rnd } from 'react-rnd';
 import { faCaretSquareLeft, faCaretSquareRight, faCheckCircle, faDownload, faExclamationCircle, faExpand, faMaximize, faShareSquare } from '@fortawesome/free-solid-svg-icons';
 import { faTwitch, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { Data } from '../data';
-import SavedPosition from '../utils/saved-position';
 import Persist from '../utils/persist';
 import { Chat } from './chat';
 import Player from './player/player';
@@ -163,7 +162,6 @@ export default class SegmentPlayer extends React.Component {
         segmentRef,
         relatedGames,
         autostart,
-        savedPositionAdapter: new SavedPosition(persist, segment),
       });
 
       timecodes.then((data) => {
@@ -224,6 +222,7 @@ export default class SegmentPlayer extends React.Component {
 
     const {
       game,
+      segment,
       segmentRef,
       segmentRef: {
         end,
@@ -233,18 +232,23 @@ export default class SegmentPlayer extends React.Component {
         youtube, direct, poster,
       },
       autostart,
-      savedPositionAdapter,
     } = this.state;
 
     const playerProps = {
       youtube,
       direct,
       poster,
+
+      // TODO: Why two same options?
       start: autostart,
       autostart,
+
       end,
       forceStart,
-      savedPositionAdapter,
+      savedPositionAdapter: {
+        get: () => segment.watched,
+        set: segment.setWatched,
+      },
       onVideoEnded: () => {
         const nextIndex = game.streams.indexOf(segmentRef) + 1;
         if (nextIndex < game.streams.length) {
