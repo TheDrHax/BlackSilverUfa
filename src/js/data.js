@@ -3,6 +3,9 @@ import uniq from 'lodash/uniq';
 import MiniSearch from 'minisearch';
 import { tokenize } from './utils/text-utils';
 import loadData from './data.prod';
+import config from '../../config/config.json';
+
+const fallbackPrefix = config.fallback.prefix;
 
 function createIndex(collection, fields) {
   const index = new MiniSearch({
@@ -97,8 +100,8 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
       if (segment.youtube) {
         segment.thumbnail = `https://img.youtube.com/vi/${segment.youtube}/mqdefault.jpg`;
       } else {
-        segment.thumbnail = `https://bsufiles.drhx.ru/streams/${segment.segment}-sm.jpg`;
-        segment.poster = `https://bsufiles.drhx.ru/streams/${segment.segment}.jpg`;
+        segment.thumbnail = `${fallbackPrefix}/${segment.segment}-sm.jpg`;
+        segment.poster = `${fallbackPrefix}/${segment.segment}.jpg`;
       }
 
       if (key.indexOf('.') !== -1) {

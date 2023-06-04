@@ -8,10 +8,12 @@ import { ftime } from '../../utils/time-utils';
 import { FAIcon } from '../../utils/fontawesome';
 import { Segment } from '../../data-types';
 import { usePlyrTime } from '../../hooks/use-plyr-time';
+import config from '../../../../config/config.json';
 
 const getShortLink = (segment, at) => (
   // eslint-disable-next-line prefer-template
-  'https://bsu.drhx.ru/r/'
+  (config.prefix || window.location.origin)
+  + '/r/'
   + segment.segment
   + (at ? `?at=${at}` : '')
 );
