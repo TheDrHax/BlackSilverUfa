@@ -66,8 +66,8 @@ const SearchResults = ({ mode, items, limit, page, onPageChange }) => {
       <ListGroup variant="flush" className="py-3">
         {items.slice(pageStart, pageEnd).map((item) => (
           mode === 'segments'
-            ? <SegmentItem item={item} />
-            : <GameItem item={item} />
+            ? <SegmentItem item={item} key={item.segment} />
+            : <GameItem item={item} key={item.name} />
         ))}
       </ListGroup>
 
