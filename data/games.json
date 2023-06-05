@@ -4310,7 +4310,7 @@
   },
   {
     "name": "Contraband Police",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "contraband-police",
     "streams": [
       { "segment": "749640613", "subrefs": [
@@ -7049,7 +7049,6 @@
         { "name": "Dawn of Hell", "start": 2528 }
       ] },
       { "segment": "1827232465,1827360298,1827371582,1827392675", "subrefs": [
-        { "name": "Amnesia: The Bunker (демо)", "start": 2019 },
         { "name": "Horror Exp+", "start": 7963 }
       ] },
       { "segment": "1827232465,1827360298,1827371582,1827392675", "subrefs": [
@@ -7074,6 +7073,19 @@
       { "segment": "1837484119", "subrefs": [
         { "name": "The Tartarus Key", "start": 15505 },
         { "name": "There is Something in the Anderghast Mine", "start": 17066 }
+      ] }
+    ]
+  },
+  {
+    "name": "Amnesia: The Bunker",
+    "category": "ongoing",
+    "id": "amnesia-bunker",
+    "streams": [
+      { "segment": "1827232465,1827360298,1827371582,1827392675", "subrefs": [
+        { "name": "Демо", "start": 2019 }
+      ] },
+      { "segment": "1838317678", "subrefs": [
+        { "name": "1", "start": 3680 }
       ] }
     ]
   },

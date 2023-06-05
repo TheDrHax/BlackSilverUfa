@@ -12515,11 +12515,11 @@
   },
   "1827232465,1827360298,1827371582,1827392675": {
     "youtube": "Ouk7FqZ-T30", "abs_start": 0, "abs_end": 15862, "duration": 15862,
-    "name": "Amnesia: The Bunker (демо) / Horror Exp+ / The Outlast Trials #2 (с Куплиновым и Дангаром) / Haunted Horror Stories: Gone With The Wind",
+    "name": "Amnesia: The Bunker - Демо / Horror Exp+ / The Outlast Trials #2 (с Куплиновым и Дангаром) / Haunted Horror Stories: Gone With The Wind",
     "date": "2023-05-23",
     "offsets": [0, 13145, 14144, 15375],
     "torrent": "https://bsufiles.drhx.ru/streams/1827232465,1827360298,1827371582,1827392675.torrent",
-    "games": ["first-2023", "outlast-trials", "first-2023"],
+    "games": ["amnesia-bunker", "first-2023", "outlast-trials", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1827232465,1827360298,1827371582,1827392675+0.ass"
   },
   "1828030256": {
@@ -12656,5 +12656,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1837484119.torrent",
     "games": ["single", "616-games", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1837484119+0.ass"
+  },
+  "1838317678": {
+    "abs_start": 0, "abs_end": 27201, "duration": 27201,
+    "name": "Amnesia: The Bunker #1",
+    "date": "2023-06-05",
+    "direct": "https://bsufiles.drhx.ru/streams/1838317678.mp4",
+    "torrent": "https://bsufiles.drhx.ru/streams/1838317678.torrent",
+    "games": ["amnesia-bunker"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1838317678.ass"
   }
 }
