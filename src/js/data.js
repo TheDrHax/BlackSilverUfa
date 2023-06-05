@@ -109,30 +109,28 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
         segment.poster = `${fallbackPrefix}/${segment.segment}.jpg`;
       }
 
-      if (key.indexOf('.') !== -1) {
-        segment.streams = [key.split('.')[0]];
-      } else if (key.indexOf(',') !== -1) {
+      if (key.indexOf(',') !== -1) {
         segment.streams = key.split(',');
       } else {
-        segment.streams = [key];
+        segment.streams = [key.split('.')[0]];
       }
 
       segment.url = `/play/${segment.games[0]}/${key}`;
 
+      segment.offsets = Object.fromEntries(zip(
+        segment.streams,
+        segment.offsets || [segment.abs_start],
+      ));
+
       segment.watched = 0;
 
       if (resume) {
-        const offsets = Object.fromEntries(zip(
-          segment.streams,
-          segment.offsets || [segment.abs_start],
-        ));
-
         const parts = resume
           .find({ id: { $in: segment.streams } })
-          .sort(({ id1 }, { id2 }) => offsets[id2] - offsets[id1]);
+          .sort(({ id1 }, { id2 }) => segment.offsets[id2] - segment.offsets[id1]);
 
         if (parts.length > 0) {
-          segment.watched = offsets[parts[0].id] + parts[0].ts;
+          segment.watched = segment.offsets[parts[0].id] + parts[0].ts;
         }
 
         segment.setWatched = (ts, { end } = { end: false }) => {

@@ -8,6 +8,7 @@ export const Segment = PropTypes.shape({
   date: PropTypes.objectOf(Date),
   games: PropTypes.arrayOf(PropTypes.string),
   streams: PropTypes.arrayOf(PropTypes.string),
+  offsets: PropTypes.objectOf(PropTypes.number),
   official: PropTypes.bool,
 
   youtube: PropTypes.string,

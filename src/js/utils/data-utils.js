@@ -1,4 +1,3 @@
-import zip from 'lodash/zip';
 import last from 'lodash/last';
 import uniq from 'lodash/uniq';
 import find from 'lodash/find';
@@ -52,7 +51,8 @@ export const getBaseSegment = (segment, t) => {
     let offset;
 
     [stream, offset] = last(
-      zip(segment.streams, segment.offsets)
+      segment.streams
+        .map((s) => [s, segment.offsets[s]])
         .filter(([s, o]) => o <= at),
     );
 
@@ -106,7 +106,7 @@ export const resolveSegment = (segments, segmentId, at) => {
 
     if (!segment) return [null];
 
-    const offset = segment.offsets[segment.streams.indexOf(segmentId)];
+    const offset = segment.offsets[segmentId];
     at = (at || 0) + offset;
   }
 
