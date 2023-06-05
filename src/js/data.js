@@ -95,6 +95,20 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
   const games = db.addCollection('games');
   const resume = persist?.getCollection('resume_playback');
 
+  function setWatched(ts, { end } = { end: true }) {
+    ts = Math.round(ts);
+    this.watched = ts;
+
+    if (!resume) return;
+
+    const [stream, at] = getBaseSegment(this, ts);
+    upsert(resume, ['id'], {
+      id: stream,
+      ts: at,
+      full: end,
+    });
+  }
+
   Object.keys(rawSegments)
     .sort((a, b) => String(a).localeCompare(b))
     .map((k) => [k, rawSegments[k]])
@@ -132,23 +146,9 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
         if (parts.length > 0) {
           segment.watched = segment.offsets[parts[0].id] + parts[0].ts;
         }
-
-        segment.setWatched = (ts, { end } = { end: false }) => {
-          ts = Math.round(ts);
-          segment.watched = ts;
-
-          const [stream, at] = getBaseSegment(segment, ts);
-          upsert(resume, ['id'], {
-            id: stream,
-            ts: at,
-            full: end,
-          });
-        };
-      } else {
-        segment.setWatched = (ts) => {
-          segment.watched = Math.round(ts);
-        };
       }
+
+      segment.setWatched = setWatched.bind(segment);
 
       segments.insert(segment);
     });
