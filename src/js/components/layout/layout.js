@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 // Components
-import { Container, Spinner as SpinnerComponent } from 'react-bootstrap';
+import { Container, Spinner as SpinnerComponent, ToastContainer } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
 import Header from './header';
 import Footer from './footer';
 import config from '../../../../config/config.json';
 import Matomo from '../../matomo';
+import DonateToast from '../../pages/donate-page/donate-toast';
 
 const Layout = ({
   className,
@@ -46,6 +47,9 @@ const Layout = ({
             <SpinnerComponent variant="primary" animation="border" size="xl" />
           </div>
         ) : children}
+        <ToastContainer position="bottom-start" className="position-fixed p-3">
+          <DonateToast />
+        </ToastContainer>
       </Container>
       {withFooter && <Footer />}
     </>

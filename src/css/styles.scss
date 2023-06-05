@@ -41,6 +41,13 @@ $popover-header-color: $text-color;
 $popover-body-color: $text-color;
 $popover-border-color: lighten($color-bg-light, 5%);
 
+$toast-background-color: $color-bg-light;
+$toast-color: $text-color;
+$toast-border-color: lighten($color-bg-light, 20%);
+$toast-header-color: $text-color;
+$toast-header-background-color: darken($popover-bg, 5%);
+$toast-header-border-color: lighten($color-bg-light, 5%);
+
 $border-color: hsla(0, 0%, 100%, 0.1);
 
 $pagination-bg: $color-bg-light;
@@ -55,6 +62,14 @@ $modal-content-bg: $color-bg-dark;
 
 @import "~bootstrap/scss/bootstrap";
 @import "~react-custom-scroll/dist/customScroll";
+
+.toast-container {
+  z-index: 100;
+
+  & .toast-header .btn-close {
+    margin-left: auto;
+  }
+}
 
 .navbar {
   min-height: $navbar-height;
