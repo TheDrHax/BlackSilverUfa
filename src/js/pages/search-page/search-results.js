@@ -8,24 +8,55 @@ import Pagination from '@vlsergey/react-bootstrap-pagination';
 import { MODES } from './constants';
 import { getSegmentDescription, getGameDescription } from '../../utils/data-utils';
 import { Image } from '../../components/utils/image';
+import { Segment, IndexEntry } from '../../data-types';
+import { WatchedProgress } from '../game-page/stream-card';
 
-const THUMBNAIL_GENERATORS = {
-  segments: (item) => item.thumbnail,
-  games: (item) => item.segments[0].thumbnail,
+const GameItem = ({ item }) => (
+  <ListGroup.Item key={item}>
+    <Row>
+      <Col style={{ flex: '0 0 240px' }}>
+        <Image className="me-3" width="100%" src={item.segments[0].thumbnail} alt="thumbnail" />
+      </Col>
+
+      <Col>
+        <div><Link to={item.url}>{item.name}</Link></div>
+        <div>
+          {item.segments.length === 1
+            ? getSegmentDescription(item.segments[0])
+            : getGameDescription(item.original)}
+        </div>
+      </Col>
+    </Row>
+  </ListGroup.Item>
+);
+
+GameItem.propTypes = {
+  item: IndexEntry.isRequired,
 };
 
-const DESCRIPTION_GENERATORS = {
-  segments: getSegmentDescription,
-  games: (game) => (game.segments.length === 1
-    ? getSegmentDescription(game.segments[0])
-    : getGameDescription(game.original)
-  ),
+const SegmentItem = ({ item }) => (
+  <ListGroup.Item key={item}>
+    <Row>
+      <Col style={{ flex: '0 0 240px' }}>
+        <div style={{ position: 'relative' }}>
+          <Image className="me-3" width="100%" src={item.thumbnail} alt="thumbnail" />
+          <WatchedProgress segment={item} />
+        </div>
+      </Col>
+
+      <Col>
+        <div><Link to={item.url}>{item.name}</Link></div>
+        <div>{getSegmentDescription(item)}</div>
+      </Col>
+    </Row>
+  </ListGroup.Item>
+);
+
+SegmentItem.propTypes = {
+  item: Segment.isRequired,
 };
 
 const SearchResults = ({ mode, items, limit, page, onPageChange }) => {
-  const getThumbnail = THUMBNAIL_GENERATORS[mode];
-  const getDescription = DESCRIPTION_GENERATORS[mode];
-
   const pages = Math.ceil(items.length / limit);
   const pageStart = page * limit;
   const pageEnd = pageStart + limit;
@@ -34,18 +65,9 @@ const SearchResults = ({ mode, items, limit, page, onPageChange }) => {
     <>
       <ListGroup variant="flush" className="py-3">
         {items.slice(pageStart, pageEnd).map((item) => (
-          <ListGroup.Item key={item}>
-            <Row>
-              <Col style={{ flex: '0 0 240px' }}>
-                <Image className="me-3" width="100%" src={getThumbnail(item)} alt="thumbnail" />
-              </Col>
-
-              <Col>
-                <div><Link to={item.url}>{item.name}</Link></div>
-                <div>{getDescription(item)}</div>
-              </Col>
-            </Row>
-          </ListGroup.Item>
+          mode === 'segments'
+            ? <SegmentItem item={item} />
+            : <GameItem item={item} />
         ))}
       </ListGroup>
 
@@ -81,4 +103,3 @@ SearchResults.defaultProps = {
 };
 
 export default SearchResults;
-export { getGameDescription };

@@ -6,6 +6,7 @@ import DateFilter from './date-filter';
 import { searchPage as t } from '../../constants/texts';
 import { MODES, SCALES, SOURCES } from './constants';
 import { FAIcon } from '../../utils/fontawesome';
+import FormCheckTriState from '../../components/utils/form-check-tri-state';
 
 const SORT_OPTIONS = {
   segments: ['date'],
@@ -68,6 +69,16 @@ const ControlPanel = ({ mode,
         </Form.Group>
 
         <div className="sidebar-header">Фильтры</div>
+
+        {mode === 'segments' && (
+          <InputGroup>
+            <FormCheckTriState
+              label="Просмотренные"
+              value={filters.watched}
+              onChange={(value) => onFiltersChange({ watched: value })}
+            />
+          </InputGroup>
+        )}
 
         {mode === 'segments' && (
           <DateFilter
@@ -156,6 +167,7 @@ ControlPanel.propTypes = {
   filters: PropTypes.shape({
     q: PropTypes.string,
     category: PropTypes.string,
+    watched: PropTypes.bool,
     scale: PropTypes.oneOf(SCALES),
     from: PropTypes.instanceOf(Date),
     to: PropTypes.instanceOf(Date),

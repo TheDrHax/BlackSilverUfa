@@ -58,6 +58,11 @@ const executeSearch = ({ data: { segments, index }, mode, filters, sorting }) =>
         query[filters.source] = { $exists: true };
       }
 
+      // Watched filter
+      if (filters.watched != null) {
+        query.watched = { [filters.watched ? '$gt' : '$eq']: 0 };
+      }
+
       break;
 
     case 'games':
@@ -90,6 +95,7 @@ const executeSearch = ({ data: { segments, index }, mode, filters, sorting }) =>
 const SCHEMA_FILTERS = {
   q: withSquashedDefault(StringParam, ''),
   category: withSquashedDefault(StringParam, 'any'),
+  watched: withSquashedDefault(BooleanParam, null),
   scale: withSquashedDefault(StringParam, DEFAULT_SCALE),
   from: DateParam,
   to: DateParam,

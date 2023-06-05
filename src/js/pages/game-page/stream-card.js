@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Image } from '../../components/utils/image';
 import { Segment, SegmentRef } from '../../data-types';
 
-const WatchedProgress = ({ segment }) => {
+export const WatchedProgress = ({ segment }) => {
   const progress = useMemo(() => {
     if (segment.duration <= 0) return 0;
 
