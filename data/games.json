@@ -4995,6 +4995,9 @@
       ] },
       { "segment": "1834756368", "subrefs": [
         { "name": "7", "start": 493 }
+      ] },
+      { "segment": "1839110969", "subrefs": [
+        { "name": "8", "start": 756 }
       ] }
     ]
   },
@@ -7078,7 +7081,7 @@
   },
   {
     "name": "Amnesia: The Bunker",
-    "category": "ongoing",
+    "category": "finished",
     "id": "amnesia-bunker",
     "streams": [
       { "segment": "1827232465,1827360298,1827371582,1827392675", "subrefs": [
@@ -7086,6 +7089,9 @@
       ] },
       { "segment": "1838317678", "subrefs": [
         { "name": "1", "start": 3680 }
+      ] },
+      { "segment": "1839110969", "subrefs": [
+        { "name": "2", "start": 18195 }
       ] }
     ]
   },
