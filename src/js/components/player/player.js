@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import Plyr from 'plyr';
+import Hls from 'hls.js';
 import Measure from 'react-measure';
 import { faComments } from '@fortawesome/free-solid-svg-icons';
 import Persist from '../../utils/persist';
@@ -30,6 +31,8 @@ export default class Player extends React.Component {
 
     this.firstTimeUpdate = true;
     this.firstReady = true;
+
+    this.hls = null;
   }
 
   plyrOptions() {
@@ -47,15 +50,36 @@ export default class Player extends React.Component {
     };
   }
 
-  plyrSource() {
+  updatePlyrSource() {
     const { youtube, direct } = this.props;
+    const { media: video } = this.plyr;
     const source = { type: 'video' };
+
+    if (this.hls) {
+      this.hls?.destroy();
+      delete this.hls;
+    }
 
     if (youtube) {
       source.sources = [{
         provider: 'youtube',
         src: youtube,
       }];
+    } else if (direct?.endsWith('m3u8')) {
+      if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = direct;
+      } else if (Hls.isSupported()) {
+        const hls = new Hls({
+          // For videos starting without a keyframe (first keyframe is
+          // located typically at 2.015)
+          maxBufferHole: 5,
+        });
+        hls.loadSource(direct);
+        hls.attachMedia(video);
+        this.hls = hls;
+      }
+
+      return;
     } else {
       source.sources = [{
         type: 'video/mp4',
@@ -63,7 +87,7 @@ export default class Player extends React.Component {
       }];
     }
 
-    return source;
+    this.plyr.source = source;
   }
 
   addControlButton({
@@ -219,7 +243,7 @@ export default class Player extends React.Component {
 
     plyr.elements.container.appendChild(this.overlay);
 
-    plyr.source = this.plyrSource();
+    this.updatePlyrSource();
     plyr.touch = false; // Force click and hover events on PCs with touchscreen
 
     const { poster } = this.props;
@@ -269,7 +293,8 @@ export default class Player extends React.Component {
     const { onDestroy } = this.props;
     onDestroy();
 
-    this.plyr.destroy();
+    this.hls?.destroy();
+    this.plyr?.destroy();
 
     const ref = this.ref.current;
     ref.removeChild(ref.querySelector('video'));
@@ -295,7 +320,7 @@ export default class Player extends React.Component {
         || prev.poster !== next.poster) {
       this.firstReady = true;
       this.firstTimeUpdate = true;
-      plyr.source = this.plyrSource();
+      this.updatePlyrSource();
       plyr.poster = next.poster;
     }
   }
