@@ -255,17 +255,12 @@ class Segment:
     @cached('duration-direct-{0[0]}',
             lambda url: requests.head(url).headers['content-length'])
     def _duration_direct(url: str) -> int:
-        cmd = ['ffprobe',
-               '-v', 'error',
-               '-select_streams', 'v:0',
-               '-show_entries', 'stream=duration',
-               '-of', 'json',
-               url]
+        cmd = ['ffprobe', '-v', 'error', '-show_format', '-of', 'json', url]
         out = run(cmd, stdout=PIPE)
 
         if out.returncode == 0:
             stdout = out.stdout.decode('utf-8')
-            t = json.loads(stdout)['streams'][0]['duration'].split('.')[0]
+            t = json.loads(stdout)['format']['duration'].split('.')[0]
             return int(Timecode(t))
         else:
             raise Exception(f'`{" ".join(cmd)}` exited with '
