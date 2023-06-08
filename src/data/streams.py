@@ -30,10 +30,11 @@ except ImportError:
 
 @attr.s(auto_attribs=True, kw_only=True, repr=False, cmp=False)
 class Segment:
-    note: str = None
-    youtube: str = None
-    direct: str = None
-    torrent: str = None
+    note: Union[str, None] = None
+    youtube: Union[str, None] = None
+    direct: Union[str, None] = None
+    hls: Union[str, None] = None
+    torrent: Union[str, None] = None
     official: bool = True
     force_start: bool = False
 
@@ -190,7 +191,7 @@ class Segment:
     @property
     def playable(self):
         return True in [getattr(self, key) is not None
-                        for key in ['youtube', 'direct']]
+                        for key in ['youtube', 'direct', 'hls']]
 
     @property
     def generated_subtitles(self):
@@ -315,12 +316,12 @@ class Segment:
         if not compiled:
             keys = ['youtube', '_offset', 'source_cuts', 'cuts', 'official',
                     'start', 'end', '_duration', 'force_start']
-            multiline_keys = ['direct', 'offsets', 'note', 'torrent']
+            multiline_keys = ['direct', 'hls', 'offsets', 'note', 'torrent']
         else:
             keys = ['youtube', 'official',
                     'abs_start', 'abs_end', 'duration']
-            multiline_keys = ['name', 'date', 'direct', 'offsets', 'cuts',
-                              'torrent', 'games', 'subtitles', 'note']
+            multiline_keys = ['name', 'date', 'direct', 'hls', 'offsets',
+                              'cuts', 'torrent', 'games', 'subtitles', 'note']
 
         def get_attr(key):
             if key in self.fallbacks and not compiled:

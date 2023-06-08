@@ -1,5 +1,6 @@
 import re
 import attr
+from typing import Union
 from requests import Session
 from urllib.parse import quote
 from bs4 import BeautifulSoup as BS
@@ -21,6 +22,7 @@ class FallbackSource:
     chats: bool = True
     redirects: bool = False
     torrents: bool = False
+    hls_proxy_suffix: Union[str, None] = None
 
     def __attrs_post_init__(self):
         self._check_cache = dict()

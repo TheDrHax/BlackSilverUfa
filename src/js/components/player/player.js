@@ -51,7 +51,7 @@ export default class Player extends React.Component {
   }
 
   updatePlyrSource() {
-    const { youtube, direct } = this.props;
+    const { youtube, direct, hls } = this.props;
     const { media: video } = this.plyr;
     const source = { type: 'video' };
 
@@ -65,19 +65,15 @@ export default class Player extends React.Component {
         provider: 'youtube',
         src: youtube,
       }];
-    } else if (direct?.endsWith('m3u8')) {
-      if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = direct;
-      } else if (Hls.isSupported()) {
-        const hls = new Hls({
-          // For videos starting without a keyframe (first keyframe is
-          // located typically at 2.015)
-          maxBufferHole: 5,
-        });
-        hls.loadSource(direct);
-        hls.attachMedia(video);
-        this.hls = hls;
-      }
+    } else if (hls && Hls.isSupported()) {
+      const hlsClient = new Hls({
+        // For videos starting without a keyframe (first keyframe is
+        // located typically at 2.015)
+        maxBufferHole: 5,
+      });
+      hlsClient.loadSource(hls);
+      hlsClient.attachMedia(video);
+      this.hls = hlsClient;
 
       return;
     } else {
@@ -178,7 +174,7 @@ export default class Player extends React.Component {
     if (!firstReady && firstTimeUpdate) {
       this.firstTimeUpdate = false;
 
-      if (time < 1) {
+      if (time < 1 || this.hls) { // HLS may jump up to 5 seconds
         const saved = spa?.get() || 0;
 
         if (autostart && autostart > saved) {
@@ -354,6 +350,7 @@ export default class Player extends React.Component {
 Player.propTypes = {
   youtube: PropTypes.string,
   direct: PropTypes.string,
+  hls: PropTypes.string,
   poster: PropTypes.string,
   start: PropTypes.number,
   autostart: PropTypes.number,
@@ -373,6 +370,7 @@ Player.propTypes = {
 Player.defaultProps = {
   youtube: null,
   direct: null,
+  hls: null,
   poster: null,
   start: 0,
   autostart: null,

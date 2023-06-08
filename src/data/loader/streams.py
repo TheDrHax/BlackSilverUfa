@@ -95,6 +95,8 @@ class Streams(Dict[str, Stream]):
         if not fallback.index:
             items = items[-fallback.capacity:]
 
+        hls_suffix = fallback.hls_proxy_suffix
+
         for key, stream in items:
             if fallback.streams and False in [s.playable for s in stream]:
                 filename = f'{stream.twitch}.mp4'
@@ -103,6 +105,8 @@ class Streams(Dict[str, Stream]):
                         if not segment.playable:
                             segment.fallbacks['direct'] = segment.direct
                             segment.direct = fallback.url(filename)
+                            if hls_suffix:
+                                segment.hls = f'{segment.direct}{hls_suffix}'
                             segment.fallbacks['cuts'] = segment.cuts
                             segment.cuts = Timecodes()
                             segment.fallbacks['offset'] = segment.offset()

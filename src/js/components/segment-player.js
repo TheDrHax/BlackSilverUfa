@@ -128,7 +128,7 @@ export default class SegmentPlayer extends React.Component {
   }
 
   loadData() {
-    Data.then(({ segments, timecodes, games, persist }) => {
+    Data.then(({ segments, timecodes, games }) => {
       const { history } = this.props;
       const request = this.resolveUrl({ segments, games });
 
@@ -229,7 +229,7 @@ export default class SegmentPlayer extends React.Component {
         force_start: forceStart,
       },
       segment: {
-        youtube, direct, poster,
+        youtube, direct, hls, poster,
       },
       autostart,
     } = this.state;
@@ -238,6 +238,7 @@ export default class SegmentPlayer extends React.Component {
       youtube,
       direct,
       poster,
+      hls,
 
       // TODO: Why two same options?
       start: autostart,
