@@ -106,6 +106,7 @@ class Streams(Dict[str, Stream]):
                             segment.fallbacks['direct'] = segment.direct
                             segment.direct = fallback.url(filename)
                             if hls_suffix:
+                                segment.fallbacks['hls'] = segment.hls
                                 segment.hls = f'{segment.direct}{hls_suffix}'
                             segment.fallbacks['cuts'] = segment.cuts
                             segment.cuts = Timecodes()
