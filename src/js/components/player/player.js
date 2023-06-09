@@ -255,8 +255,8 @@ export default class Player extends React.Component {
 
     // Direct ready
     plyr.on('loadedmetadata', (e) => {
-      const { direct } = this.props;
-      if (direct) {
+      const { direct, hls } = this.props;
+      if (direct || hls) {
         this.onReady(e);
       }
     });
