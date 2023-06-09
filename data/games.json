@@ -2757,6 +2757,11 @@
       ] },
       { "segment": "1134934289", "subrefs": [
         { "name": "Dead Space Remake Dev Stream", "start": 14246 }
+      ] },
+      { "segment": "1841766037", "subrefs": [
+        { "name": "Summer Game Fest 2023 (обзор)", "start": 1151 },
+        { "name": "Devolver Direct 2023", "start": 5037 },
+        { "name": "Summer Game Fest 2023 (обзор, продолжение)", "start": 6459, "hidden": true }
       ] }
     ]
   },
@@ -4228,6 +4233,9 @@
         { "name": "Last Night", "start": 7523 },
         { "name": "Eerie Enigma", "start": 8797 },
         { "name": "The Nefarious", "start": 12865 }
+      ] },
+      { "segment": "1841766037", "subrefs": [
+        { "name": "Greyhill Incident", "start": 8136 }
       ] }
     ]
   },
