@@ -5920,9 +5920,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v546672311+0.ass"
   },
   "547176657": {
-    "youtube": "01iB1puXaMo", "official": false, "abs_start": 0, "abs_end": 22094, "duration": 22094,
+    "abs_start": 0, "abs_end": 22093, "duration": 22093,
     "name": "Grand Theft Auto: San Andreas #7 / Destiny 2 #1 (с Triplewipe)",
     "date": "2020-02-05",
+    "direct": "https://bsufiles.drhx.ru/streams/547176657.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/547176657.mp4/master.m3u8",
     "games": ["gta-san-andreas", "destiny-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v547176657.ass"
   },
@@ -7176,11 +7178,9 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v749640613.ass"
   },
   "750578050": {
-    "abs_start": 0, "abs_end": 24718, "duration": 24718,
+    "abs_start": 0, "abs_end": 24730, "duration": 0,
     "name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1",
     "date": "2020-09-24",
-    "direct": "https://bsufiles.drhx.ru/streams/750578050.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/750578050.mp4/master.m3u8",
     "games": ["mafia", "mafia-de"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v750578050.ass"
   },
