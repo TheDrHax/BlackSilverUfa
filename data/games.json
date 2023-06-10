@@ -2757,11 +2757,22 @@
       ] },
       { "segment": "1134934289", "subrefs": [
         { "name": "Dead Space Remake Dev Stream", "start": 14246 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Summer Game Fest 2023",
+    "category": "expos",
+    "id": "sgf-23",
+    "streams": [
       { "segment": "1841766037", "subrefs": [
-        { "name": "Summer Game Fest 2023 (обзор)", "start": 1151 },
-        { "name": "Devolver Direct 2023", "start": 5037 },
-        { "name": "Summer Game Fest 2023 (обзор, продолжение)", "start": 6459, "hidden": true }
+        { "name": "Открытие (обзор)", "start": 1151 },
+        { "name": "Devolver Direct (соло)", "start": 5037 },
+        { "name": "Открытие (обзор, продолжение)", "start": 6459, "hidden": true }
+      ] },
+      { "segment": "1842665393", "subrefs": [
+        { "name": "Wholesome Direct", "start": 11167 },
+        { "name": "Future Games Show", "start": 14640 }
       ] }
     ]
   },
@@ -7084,6 +7095,9 @@
       { "segment": "1837484119", "subrefs": [
         { "name": "The Tartarus Key", "start": 15505 },
         { "name": "There is Something in the Anderghast Mine", "start": 17066 }
+      ] },
+      { "segment": "1842665393", "subrefs": [
+        { "name": "Lies of P (демо)", "start": 1556 }
       ] }
     ]
   },

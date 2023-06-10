@@ -12312,7 +12312,6 @@
     "youtube": "yPNlbemK-k4", "abs_start": 0, "abs_end": 19871, "duration": 19871,
     "name": "The Microwave Paradox / [Subject] / Evil is Back / The Wish Machine (Машина желаний) / Dead Space Demake / Lost Alone: Ultimate - The Day Before (демо) / Future Racer 2000 #1",
     "date": "2023-04-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/1803169573.torrent",
     "games": ["single", "616-games", "first-2023", "fr-2000"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1803169573+0.ass"
   },
@@ -12683,12 +12682,22 @@
   },
   "1841766037": {
     "abs_start": 0, "abs_end": 21974, "duration": 21974,
-    "name": "Summer Game Fest 2023 (обзор) / Devolver Direct 2023 / Greyhill Incident",
+    "name": "Summer Game Fest 2023 - Открытие (обзор) / Summer Game Fest 2023 - Devolver Direct (соло) / Greyhill Incident",
     "date": "2023-06-09",
     "direct": "https://bsufiles.drhx.ru/streams/1841766037.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/1841766037.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/1841766037.torrent",
-    "games": ["expos", "single"],
+    "games": ["sgf-23", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1841766037.ass"
+  },
+  "1842665393": {
+    "abs_start": 0, "abs_end": 20900, "duration": 20900,
+    "name": "Lies of P (демо) / Summer Game Fest 2023 - Wholesome Direct / Summer Game Fest 2023 - Future Games Show",
+    "date": "2023-06-10",
+    "direct": "https://bsufiles.drhx.ru/streams/1842665393.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1842665393.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1842665393.torrent",
+    "games": ["first-2023", "sgf-23"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1842665393+0.ass"
   }
 }
