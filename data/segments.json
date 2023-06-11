@@ -587,7 +587,7 @@
     "games": ["mafia-3"]
   },
   "001610100": {
-    "abs_start": 0, "abs_end": 12157, "duration": 0,
+    "youtube": "aMzB3OqCJg4", "official": false, "abs_start": 0, "abs_end": 12157, "duration": 12157,
     "name": "Mafia III #2",
     "date": "2016-10-10",
     "games": ["mafia-3"]
@@ -5468,7 +5468,7 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v502487271.ass"
   },
   "502940448": {
-    "abs_start": 0, "abs_end": 18868, "duration": 0,
+    "youtube": "CKJFAXtqNYw", "official": false, "abs_start": 0, "abs_end": 18833, "duration": 18833,
     "name": "BlizzCon 2019 (обзор) / Nioh 2 - Бета / Mafia II #2",
     "date": "2019-11-02",
     "games": ["expos", "nioh-2", "mafia-2"],
@@ -5797,9 +5797,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v532787117.ass"
   },
   "533269694": {
-    "youtube": "MYwizAqcdtw", "official": false, "abs_start": 0, "abs_end": 21587, "duration": 21587,
+    "abs_start": 0, "abs_end": 21587, "duration": 21587,
     "name": "Grand Theft Auto: San Andreas #1",
     "date": "2020-01-09",
+    "direct": "https://bsufiles.drhx.ru/streams/533269694.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/533269694.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v533269694.ass"
   },
@@ -7174,9 +7176,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v749640613.ass"
   },
   "750578050": {
-    "abs_start": 0, "abs_end": 24730, "duration": 0,
+    "abs_start": 0, "abs_end": 24719, "duration": 24719,
     "name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1",
     "date": "2020-09-24",
+    "direct": "https://bsufiles.drhx.ru/streams/750578050.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/750578050.mp4/master.m3u8",
     "games": ["mafia", "mafia-de"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v750578050.ass"
   },
@@ -12317,7 +12321,6 @@
     "youtube": "aoeu9stx0MQ", "abs_start": 0, "abs_end": 20461, "duration": 20461,
     "name": "The Gap / Future Racer 2000 #2 / Family Curse / The Arrowhead Incident / 911: Cannibal",
     "date": "2023-04-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/1804032922.torrent",
     "games": ["single", "fr-2000"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1804032922.ass"
   },
