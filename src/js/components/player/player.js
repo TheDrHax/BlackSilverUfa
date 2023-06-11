@@ -157,7 +157,6 @@ export default class Player extends React.Component {
     const {
       forceStart,
       start,
-      autostart,
       end,
       savedPositionAdapter: spa,
     } = this.props;
@@ -174,16 +173,12 @@ export default class Player extends React.Component {
     if (!firstReady && firstTimeUpdate) {
       this.firstTimeUpdate = false;
 
-      if (time < 1 || this.hls) { // HLS may jump up to 5 seconds
-        const saved = spa?.get() || 0;
+      const saved = spa?.get() || 0;
 
-        if (autostart && autostart > saved) {
-          plyr.currentTime = autostart;
-        } else if (saved > 0) {
-          plyr.currentTime = Math.min(saved, plyr.duration - 30);
-        } else if (time < start) {
-          plyr.currentTime = start;
-        }
+      if (start > 0) {
+        plyr.currentTime = start;
+      } else if (saved > 0) {
+        plyr.currentTime = Math.min(saved, plyr.duration - 30);
       }
     }
 
@@ -353,7 +348,7 @@ Player.propTypes = {
   hls: PropTypes.string,
   poster: PropTypes.string,
   start: PropTypes.number,
-  autostart: PropTypes.number,
+  autostart: PropTypes.bool,
   end: PropTypes.number,
   forceStart: PropTypes.bool,
   savedPositionAdapter: PropTypes.shape({
@@ -373,7 +368,7 @@ Player.defaultProps = {
   hls: null,
   poster: null,
   start: 0,
-  autostart: null,
+  autostart: false,
   end: null,
   forceStart: false,
   savedPositionAdapter: null,

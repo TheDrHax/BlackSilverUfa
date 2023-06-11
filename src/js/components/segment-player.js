@@ -77,7 +77,8 @@ export default class SegmentPlayer extends React.Component {
   }
 
   resolveUrl({ segments, games }) {
-    const { location: { search: reqSearch } } = this.props;
+    const { location } = this.props;
+    const { search: reqSearch, state: reqState } = location;
     const search = new URLSearchParams(reqSearch);
     const paramAt = search.has('at') ? +search.get('at') : null;
 
@@ -91,7 +92,6 @@ export default class SegmentPlayer extends React.Component {
     } = this.props;
 
     const [segment, at, t] = resolveSegment(segments, segmentId, paramAt);
-    const autostart = t;
 
     if (!segment) {
       return null;
@@ -113,17 +113,18 @@ export default class SegmentPlayer extends React.Component {
       segmentRef = findRefBySegment(game, segment);
     }
 
-    let newUrl = `/play/${gameId}/${segment.segment}`;
-    if (at) {
-      newUrl += `?at=${at}`;
-    }
+    const newLocation = {
+      ...location,
+      pathname: `/play/${gameId}/${segment.segment}`,
+    };
 
     return {
       segment,
       game,
       segmentRef,
-      autostart,
-      redirect: redirect && newUrl,
+      start: t,
+      autostart: reqState?.autostart,
+      redirect: redirect && newLocation,
     };
   }
 
@@ -145,6 +146,7 @@ export default class SegmentPlayer extends React.Component {
         game,
         segment,
         segmentRef,
+        start,
         autostart,
       } = request;
 
@@ -161,6 +163,7 @@ export default class SegmentPlayer extends React.Component {
         game,
         segmentRef,
         relatedGames,
+        start,
         autostart,
       });
 
@@ -231,6 +234,7 @@ export default class SegmentPlayer extends React.Component {
       segment: {
         youtube, direct, hls, poster,
       },
+      start,
       autostart,
     } = this.state;
 
@@ -239,11 +243,8 @@ export default class SegmentPlayer extends React.Component {
       direct,
       poster,
       hls,
-
-      // TODO: Why two same options?
-      start: autostart,
+      start,
       autostart,
-
       end,
       forceStart,
       savedPositionAdapter: {

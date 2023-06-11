@@ -23,7 +23,15 @@ function RedirectLinks() {
     }
   }
 
-  return <Redirect to={`/play/${game}${segment}${search}`} />;
+  return (
+    <Redirect
+      to={{
+        pathname: `/play/${game}${segment}${search}`,
+        search,
+        state: { autostart: true },
+      }}
+    />
+  );
 }
 
 function RedirectR() {
@@ -74,7 +82,15 @@ function RedirectR() {
 
   params = params ? `?${params}` : '';
 
-  return <Redirect to={`/play/unknown/${segment}${params}`} />;
+  return (
+    <Redirect
+      to={{
+        pathname: `/play/unknown/${segment}`,
+        search: params,
+        state: { autostart: true },
+      }}
+    />
+  );
 }
 
 export { RedirectLinks, RedirectR };
