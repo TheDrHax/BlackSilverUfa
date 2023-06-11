@@ -12328,7 +12328,6 @@
     "youtube": "B8YPpOZ2b28", "abs_start": 0, "abs_end": 22072, "duration": 22072,
     "name": "Survival: Fountain of Youth #1 (релиз) / Inout / Occult #3 / DEVOUR #7",
     "date": "2023-04-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/1804882802.torrent",
     "games": ["survival-foy", "co-op", "occult", "devour"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1804882802.ass"
   },
@@ -12696,5 +12695,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1842665393.torrent",
     "games": ["first-2023", "sgf-23"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1842665393+0.ass"
+  },
+  "1843524831": {
+    "abs_start": 0, "abs_end": 22359, "duration": 22359,
+    "name": "The Book Walker: Thief of Tales (демо) / En Garde! (демо) / Sludge Life 2 (демо) / World's Worst Handyman (демо) / Wizard With a Gun (демо) / Summer Game Fest 2023 - Xbox Games Showcase / Summer Game Fest 2023 - Starfield Direct",
+    "date": "2023-06-11",
+    "direct": "https://bsufiles.drhx.ru/streams/1843524831.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1843524831.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1843524831.torrent",
+    "games": ["single", "first-2023", "sgf-23"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1843524831.ass"
   }
 }

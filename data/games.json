@@ -2773,6 +2773,10 @@
       { "segment": "1842665393", "subrefs": [
         { "name": "Wholesome Direct", "start": 11167 },
         { "name": "Future Games Show", "start": 14640 }
+      ] },
+      { "segment": "1843524831", "subrefs": [
+        { "name": "Xbox Games Showcase", "start": 14796 },
+        { "name": "Starfield Direct", "start": 18693 }
       ] }
     ]
   },
@@ -4247,6 +4251,11 @@
       ] },
       { "segment": "1841766037", "subrefs": [
         { "name": "Greyhill Incident", "start": 8136 }
+      ] },
+      { "segment": "1843524831", "subrefs": [
+        { "name": "The Book Walker: Thief of Tales (демо)", "start": 1787 },
+        { "name": "En Garde! (демо)", "start": 7362 },
+        { "name": "Sludge Life 2 (демо)", "start": 10287 }
       ] }
     ]
   },
@@ -7098,6 +7107,10 @@
       ] },
       { "segment": "1842665393", "subrefs": [
         { "name": "Lies of P (демо)", "start": 1556 }
+      ] },
+      { "segment": "1843524831", "subrefs": [
+        { "name": "World's Worst Handyman (демо)", "start": 11814 },
+        { "name": "Wizard With a Gun (демо)", "start": 12903 }
       ] }
     ]
   },
