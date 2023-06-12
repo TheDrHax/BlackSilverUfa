@@ -12335,7 +12335,6 @@
     "youtube": "IhP-ItOALOE", "abs_start": 0, "abs_end": 32179, "duration": 32179,
     "name": "Star Wars Jedi: Survivor #1",
     "date": "2023-04-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/1805668013.torrent",
     "games": ["swj-survivor"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1805668013.ass"
   },
@@ -12682,28 +12681,38 @@
   },
   "1841766037": {
     "youtube": "uvprUW1rEYw", "abs_start": 0, "abs_end": 21974, "duration": 21974,
-    "name": "Summer Game Fest 2023 - Открытие (обзор) / Summer Game Fest 2023 - Devolver Direct (соло) / Greyhill Incident",
+    "name": "неПрофессиональный \"E3\" 2023 - Summer Game Fest (обзор) / неПрофессиональный \"E3\" 2023 - Devolver Direct (соло) / Greyhill Incident",
     "date": "2023-06-09",
     "torrent": "https://bsufiles.drhx.ru/streams/1841766037.torrent",
-    "games": ["sgf-23", "single"],
+    "games": ["e3-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1841766037.ass"
   },
   "1842665393": {
     "youtube": "7lgkt5JPSh8", "abs_start": 0, "abs_end": 20900, "duration": 20900,
-    "name": "Lies of P (демо) / Summer Game Fest 2023 - Wholesome Direct / Summer Game Fest 2023 - Future Games Show",
+    "name": "Lies of P (демо) / неПрофессиональный \"E3\" 2023 - Wholesome Direct / неПрофессиональный \"E3\" 2023 - Future Games Show",
     "date": "2023-06-10",
     "torrent": "https://bsufiles.drhx.ru/streams/1842665393.torrent",
-    "games": ["first-2023", "sgf-23"],
+    "games": ["first-2023", "e3-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1842665393+0.ass"
   },
   "1843524831": {
     "abs_start": 0, "abs_end": 22359, "duration": 22359,
-    "name": "The Book Walker: Thief of Tales (демо) / En Garde! (демо) / Sludge Life 2 (демо) / World's Worst Handyman (демо) / Wizard With a Gun (демо) / Summer Game Fest 2023 - Xbox Games Showcase / Summer Game Fest 2023 - Starfield Direct",
+    "name": "The Book Walker: Thief of Tales (демо) / En Garde! (демо) / Sludge Life 2 (демо) / World's Worst Handyman (демо) / Wizard With a Gun (демо) / неПрофессиональный \"E3\" 2023 - Xbox Games Showcase / неПрофессиональный \"E3\" 2023 - Starfield Direct",
     "date": "2023-06-11",
     "direct": "https://bsufiles.drhx.ru/streams/1843524831.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/1843524831.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/1843524831.torrent",
-    "games": ["single", "first-2023", "sgf-23"],
+    "games": ["single", "first-2023", "e3-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1843524831.ass"
+  },
+  "1844321743": {
+    "abs_start": 0, "abs_end": 23965, "duration": 23965,
+    "name": "Final Fantasy XVI (демо) / неПрофессиональный \"E3\" 2023 - PC Gaming Show (обзор) / неПрофессиональный \"E3\" 2023 - Ubisoft Forward",
+    "date": "2023-06-12",
+    "direct": "https://bsufiles.drhx.ru/streams/1844321743.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1844321743.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1844321743.torrent",
+    "games": ["first-2023", "e3-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1844321743.ass"
   }
 }

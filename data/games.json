@@ -2761,14 +2761,14 @@
     ]
   },
   {
-    "name": "Summer Game Fest 2023",
+    "name": "неПрофессиональный \"E3\" 2023",
     "category": "expos",
-    "id": "sgf-23",
+    "id": "e3-2023",
     "streams": [
       { "segment": "1841766037", "subrefs": [
-        { "name": "Открытие (обзор)", "start": 1151 },
+        { "name": "Summer Game Fest (обзор)", "start": 1151 },
         { "name": "Devolver Direct (соло)", "start": 5037 },
-        { "name": "Открытие (обзор, продолжение)", "start": 6459, "hidden": true }
+        { "name": "Summer Game Fest (обзор, продолжение)", "start": 6459, "hidden": true }
       ] },
       { "segment": "1842665393", "subrefs": [
         { "name": "Wholesome Direct", "start": 11167 },
@@ -2777,6 +2777,10 @@
       { "segment": "1843524831", "subrefs": [
         { "name": "Xbox Games Showcase", "start": 14796 },
         { "name": "Starfield Direct", "start": 18693 }
+      ] },
+      { "segment": "1844321743", "subrefs": [
+        { "name": "PC Gaming Show (обзор)", "start": 15982 },
+        { "name": "Ubisoft Forward", "start": 18212 }
       ] }
     ]
   },
@@ -7111,6 +7115,9 @@
       { "segment": "1843524831", "subrefs": [
         { "name": "World's Worst Handyman (демо)", "start": 11814 },
         { "name": "Wizard With a Gun (демо)", "start": 12903 }
+      ] },
+      { "segment": "1844321743", "subrefs": [
+        { "name": "Final Fantasy XVI (демо)", "start": 1441 }
       ] }
     ]
   },
