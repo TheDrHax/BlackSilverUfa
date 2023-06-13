@@ -5030,6 +5030,9 @@
       ] },
       { "segment": "1839110969", "subrefs": [
         { "name": "8", "start": 756 }
+      ] },
+      { "segment": "1845108311", "subrefs": [
+        { "name": "9", "start": 874 }
       ] }
     ]
   },
@@ -12200,25 +12203,23 @@
     "id": "jurassic-world-evolution",
     "streams": [
       { "segment": "272392172", "subrefs": [
-        { "name": "1", "start": 4637 }
-      ] },
-      { "segment": "272392172", "subrefs": [
-        { "name": "2", "start": 10668 }
+        { "name": "1", "start": 4637 },
+        { "name": "1 (продолжение)", "start": 10668, "hidden": true }
       ] },
       { "segment": "273929911", "subrefs": [
-        { "name": "3" }
+        { "name": "2" }
       ] },
       { "segment": "274295872", "subrefs": [
-        { "name": "4" }
+        { "name": "3" }
       ] },
       { "segment": "280402233.1", "subrefs": [
-        { "name": "5" }
+        { "name": "4" }
       ] },
       { "segment": "280767310", "subrefs": [
-        { "name": "6" }
+        { "name": "5" }
       ] }
     ],
-    "cover": 4
+    "cover": 3
   },
   {
     "name": "Moonlighter",

@@ -348,7 +348,7 @@
     "name": "Alien: Isolation (с Дашей) #5",
     "date": "2016-01-30",
     "games": ["alien-isolation-dw"],
-    "chapters": [[105, "Стримлер"], [643, "Игра"], [15305, "Проблемы с правооблададелями"], [18523, "Арты"]]
+    "chapters": [[105, "Стримлер"], [643, "Игра"], [18523, "Арты"]]
   },
   "001602060": {
     "youtube": "0TlImd47Ckc", "abs_start": 0, "abs_end": 16761, "duration": 16761,
@@ -2861,9 +2861,9 @@
   },
   "272392172": {
     "youtube": "Jmo6L-1tHy8", "official": false, "abs_start": 0, "abs_end": 20819, "duration": 20819,
-    "name": "Prey #2 (Mooncrash DLC) / Jurassic World Evolution #1 / неПрофессиональный E3 2018 - Nintendo / Jurassic World Evolution #2",
+    "name": "Prey #2 (Mooncrash DLC) / Jurassic World Evolution #1 / неПрофессиональный E3 2018 - Nintendo",
     "date": "2018-06-12",
-    "games": ["prey", "jurassic-world-evolution", "e3_2018", "jurassic-world-evolution"],
+    "games": ["prey", "jurassic-world-evolution", "e3_2018"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v272392172.ass",
     "chapters": [[4637, "Jurassic World Evolution"], [7475, "Nintendo"], [10668, "Jurassic World Evolution"]]
   },
@@ -2877,7 +2877,7 @@
   },
   "273929911": {
     "youtube": "VGhLpBQAQ9I", "abs_start": 0, "abs_end": 18737, "duration": 18737,
-    "name": "Jurassic World Evolution #3 / Lust for Darkness",
+    "name": "Jurassic World Evolution #2 / Lust for Darkness",
     "date": "2018-06-16",
     "games": ["jurassic-world-evolution", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v273929911.ass",
@@ -2885,7 +2885,7 @@
   },
   "274295872": {
     "youtube": "iAYfQL3khQA", "abs_start": 0, "abs_end": 12511, "duration": 12511,
-    "name": "Благотворительные стримы #1 / Immortal Redneck #2 / Jurassic World Evolution #4 / The Road Trip #2",
+    "name": "Благотворительные стримы #1 / Immortal Redneck #2 / Jurassic World Evolution #3 / The Road Trip #2",
     "date": "2018-06-17",
     "games": ["charity", "immortal-redneck", "jurassic-world-evolution", "road-trip"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v274295872.ass",
@@ -2997,7 +2997,7 @@
   },
   "280402233.1": {
     "youtube": "h9Wcxy8JMXg", "abs_start": 5929, "abs_end": 22543, "duration": 16614,
-    "name": "Jurassic World Evolution #5",
+    "name": "Jurassic World Evolution #4",
     "date": "2018-07-03",
     "games": ["jurassic-world-evolution"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v280402233.ass",
@@ -3005,7 +3005,7 @@
   },
   "280767310": {
     "youtube": "kA4ekxRnh_g", "abs_start": -4, "abs_end": 6670, "duration": 6674,
-    "name": "Jurassic World Evolution #6",
+    "name": "Jurassic World Evolution #5",
     "date": "2018-07-04",
     "games": ["jurassic-world-evolution"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v280767310.ass",
@@ -13648,7 +13648,7 @@
     "date": "2023-02-11",
     "games": ["hogwarts"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1734914714.ass",
-    "chapters": [[400, "Стримлер"], [644, "Трейлер"], [1746, "Игра"]]
+    "chapters": [[400, "Стримлер"], [644, "Трейлеры"], [1746, "Игра"]]
   },
   "1736000179": {
     "youtube": "FedYeP64Qmw", "abs_start": 0, "abs_end": 22210, "duration": 22210,
@@ -14112,7 +14112,6 @@
     "youtube": "k1bP6FpaBP8", "abs_start": 0, "abs_end": 22982, "duration": 22982,
     "name": "Star Wars Jedi: Survivor #2",
     "date": "2023-04-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/1806660511.torrent",
     "games": ["swj-survivor"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1806660511.ass",
     "chapters": [[447, "Стримлер"], [1402, "Игра"]]
@@ -14524,5 +14523,16 @@
     "games": ["first-2023", "e3-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1844321743.ass",
     "chapters": [[306, "Стримлер"], [1441, "Final Fantasy XVI (демо)"], [15982, "PC Gaming Show (обзор)"], [18212, "Ubisoft Forward"]]
+  },
+  "1845108311": {
+    "abs_start": 0, "abs_end": 29469, "duration": 29469,
+    "name": "The Legend of Zelda: Tears of the Kingdom #9",
+    "date": "2023-06-13",
+    "direct": "https://bsufiles.drhx.ru/streams/1845108311.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1845108311.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1845108311.torrent",
+    "games": ["tloz_totk"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1845108311+0.ass",
+    "chapters": [[396, "Стримлер"], [874, "Игра"]]
   }
 }
