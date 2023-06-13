@@ -1,3 +1,4 @@
+import re
 import attr
 import json
 import requests
@@ -12,7 +13,7 @@ from sortedcontainers import SortedList, SortedKeyList
 from .cache import cached
 from ..config import config, tcd_config
 from .blacklist import Blacklist, BlacklistTimeline
-from .timecodes import Timecode, Timecodes
+from .timecodes import T, Timecode, Timecodes
 from ..utils import _, last_line, count_lines, join, json_escape, indent
 from ..utils.ass import SubtitlesStyle
 
@@ -165,9 +166,74 @@ class Segment:
     def all_subrefs(self) -> List['SubReference']:
         return sorted([sr
                        for r in self.references
-                       for sr in r.subrefs
-                       if not sr.hidden],
+                       for sr in r.subrefs],
                       key=lambda sr: sr.start)
+
+    @property
+    def chapters(self) -> Timecodes:
+        res = Timecodes()
+        rules = config['chapters']
+
+        for (rule, *options) in rules:
+            if 'exclude' in options:
+                continue
+
+            results = self.timecodes.find_all(re.compile(rule), depth=0)
+
+            for t, _ in results:
+                if not t or isinstance(t, Timecodes):
+                    continue
+
+                t = Timecode(t, name=t.name)
+
+                for option in options:
+                    if option == 'end':
+                        t.start = t.end
+                    elif option.startswith('after: '):
+                        found, _ = res.find(option[7:])
+
+                        if not found or found > t:
+                            t = None
+                            break
+                    elif option.startswith('name: '):
+                        t.name = option[6:]
+
+                if t and t.name:
+                    if 'first' in options and t.name in res:
+                        prev, _ = res.find(t.name)
+                        if prev > t:
+                            prev.start = t.start
+                            prev.duration = T + 0
+                        break
+
+                    t.duration = T + 0
+                    res.add(t)
+
+        blacklist = re.compile('|'.join(
+            rule[0] for rule in rules if 'exclude' in rule
+        ))
+
+        for t in self.timecodes:
+            if not isinstance(t, Timecodes): continue
+            if t.is_list: continue
+            if not t.name or blacklist.match(t.name): continue
+
+            name = t.name
+            while not isinstance(t, Timecode):
+                t = t[0]
+
+            res.add(Timecode(t, name=name))
+
+        for subref in self.all_subrefs:
+            if subref.start != 0 and subref.start not in res:
+                if subref.parent.game.type == 'list':
+                    name = subref.name
+                else:
+                    name = subref.parent.game.name
+
+                res.add(Timecode(subref.start, name=name))
+
+        return res
 
     @property
     def games(self) -> List['Game']:
@@ -177,7 +243,7 @@ class Segment:
     def name(self) -> str:
         names = []
         for sr in self.all_subrefs:
-            if sr.full_name not in names:
+            if sr.full_name not in names and not sr.hidden:
                 names.append(sr.full_name)
         return ' / '.join(names)
 
@@ -321,7 +387,8 @@ class Segment:
             keys = ['youtube', 'official',
                     'abs_start', 'abs_end', 'duration']
             multiline_keys = ['name', 'date', 'direct', 'hls', 'offsets',
-                              'cuts', 'torrent', 'games', 'subtitles', 'note']
+                              'cuts', 'torrent', 'games', 'subtitles', 'note',
+                              'chapters']
 
         def get_attr(key):
             if key in self.fallbacks and not compiled:
@@ -407,6 +474,9 @@ class Segment:
 
             if key == 'games':
                 value = list(game.id for game in self.games)
+
+            if key == 'chapters':
+                value = [[int(t.start), t.name] for t in self.chapters]
 
             if value is None:
                 continue
