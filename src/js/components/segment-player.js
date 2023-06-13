@@ -357,13 +357,13 @@ export default class SegmentPlayer extends React.Component {
       torrent,
     } = segment;
 
+    const oldStream = SugarDate.monthsAgo(segment.date) >= 2;
+
     return (
       <Row className="g-0">
         <Col>
           <div className="player-controls border-top border-bottom">
-            <div className="label me-2 d-none d-xxl-block">Смотреть на:</div>
-
-            {!segmentId.startsWith('00') && (
+            {oldStream || (
               <Button variant="dark" size="sm" className="me-2" href={`https://twitch.tv/videos/${segmentId}`} target="blank">
                 <FAIcon icon={faTwitch} />
                 <span>Twitch</span>
