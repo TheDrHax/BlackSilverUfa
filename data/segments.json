@@ -7935,7 +7935,7 @@
     "date": "2020-07-30",
     "games": ["hellpoint", "single", "grounded"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v695229266.ass",
-    "chapters": [[0, "Hellpoint"], [7526, "House on the Hill"], [7618, "House on the Hill"], [15901, "Grounded"]]
+    "chapters": [[0, "Hellpoint"], [7618, "House on the Hill"], [15901, "Grounded"]]
   },
   "696198252": {
     "youtube": "aewuWcW-bI4", "abs_start": 0, "abs_end": 22781, "duration": 22781,
@@ -14120,7 +14120,6 @@
     "youtube": "Z8SGK-l6y5I", "abs_start": 0, "abs_end": 35399, "duration": 35399,
     "name": "Star Wars Jedi: Survivor #3",
     "date": "2023-04-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/1807590761.torrent",
     "games": ["swj-survivor"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1807590761.ass",
     "chapters": [[274, "Стримлер"], [686, "Игра"]]
@@ -14226,10 +14225,10 @@
   },
   "1823827495": {
     "youtube": "fUUidegZOTA", "abs_start": 0, "abs_end": 11662, "duration": 11662,
-    "name": "Layers of Fear (демо)",
+    "name": "Layers of Fear (2023) - Демо",
     "date": "2023-05-19",
     "torrent": "https://bsufiles.drhx.ru/streams/1823827495.torrent",
-    "games": ["single"],
+    "games": ["lof-23"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1823827495.ass",
     "chapters": [[342, "Стримлер"], [2421, "Трейлеры"], [7910, "Layers of Fear (демо)"]]
   },
@@ -14532,5 +14531,16 @@
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1845108311+0.ass",
     "chapters": [[396, "Стримлер"], [874, "Игра"]]
+  },
+  "1846924247": {
+    "abs_start": 0, "abs_end": 19235, "duration": 19235,
+    "name": "Layers of Fear (2023) #1",
+    "date": "2023-06-15",
+    "direct": "https://bsufiles.drhx.ru/streams/1846924247.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1846924247.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1846924247.torrent",
+    "games": ["lof-23"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1846924247.ass",
+    "chapters": [[604, "Стримлер"], [3182, "Трейлеры"], [6055, "Layers of Fear"]]
   }
 }

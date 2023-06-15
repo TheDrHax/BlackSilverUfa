@@ -4231,9 +4231,6 @@
         { "name": "The Pier House - Episode 1", "start": 18308 },
         { "name": "The Witch of Sherdorne Forest", "start": 19035 }
       ] },
-      { "segment": "1823827495", "subrefs": [
-        { "name": "Layers of Fear (демо)", "start": 7910 }
-      ] },
       { "segment": "1826440973", "subrefs": [
         { "name": "Deppart Prototype", "start": 4288 }
       ] },
@@ -4260,6 +4257,19 @@
         { "name": "The Book Walker: Thief of Tales (демо)", "start": 1787 },
         { "name": "En Garde! (демо)", "start": 7362 },
         { "name": "Sludge Life 2 (демо)", "start": 10287 }
+      ] }
+    ]
+  },
+  {
+    "name": "Layers of Fear (2023)",
+    "category": "ongoing",
+    "id": "lof-23",
+    "streams": [
+      { "segment": "1823827495", "subrefs": [
+        { "name": "Демо", "start": 7910 }
+      ] },
+      { "segment": "1846924247", "subrefs": [
+        { "name": "1", "start": 6055 }
       ] }
     ]
   },
