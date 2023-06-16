@@ -14128,7 +14128,6 @@
     "youtube": "BcrP0PHvL74", "abs_start": 0, "abs_end": 23607, "duration": 23607,
     "name": "The Last Case of Benedict Fox #1 / Redfall #1 (с Куплиновым и Дангаром)",
     "date": "2023-05-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/1809409736.torrent",
     "games": ["benedict-fox", "redfall"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1809409736.ass",
     "chapters": [[448, "Стримлер"], [1553, "Трейлеры"], [2222, "The Last Case of Benedict Fox"], [14821, "Redfall"]]
@@ -14542,5 +14541,39 @@
     "games": ["lof-23"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1846924247.ass",
     "chapters": [[604, "Стримлер"], [3182, "Трейлеры"], [6055, "Layers of Fear"]]
+  },
+  "1847650355": {
+    "abs_start": 0, "abs_end": 3734, "duration": 3734,
+    "name": "",
+    "date": "2023-06-16",
+    "direct": "https://bsufiles.drhx.ru/streams/1847650355.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1847650355.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1847650355.torrent",
+    "games": [],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1847650355.ass",
+    "chapters": [[395, "Стримлер"], [571, "Игра"]]
+  },
+  "1847673917": {
+    "abs_start": 0, "abs_end": 14673, "duration": 14673,
+    "name": "",
+    "date": "2023-06-16",
+    "direct": "https://bsufiles.drhx.ru/streams/1847673917.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1847673917.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1847673917.torrent",
+    "games": [],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1847673917.ass",
+    "chapters": [[19, "Стримлер"], [88, "Игра"]]
+  },
+  "1847650355,1847673917": {
+    "abs_start": 0, "abs_end": 18317, "duration": 18317,
+    "name": "Layers of Fear (2023) #2",
+    "date": "2023-06-16",
+    "direct": "https://bsufiles.drhx.ru/streams/1847650355,1847673917.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1847650355,1847673917.mp4/master.m3u8",
+    "offsets": [0, 3644],
+    "torrent": "https://bsufiles.drhx.ru/streams/1847650355,1847673917.torrent",
+    "games": ["lof-23"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1847650355,1847673917+0.ass",
+    "chapters": [[395, "Стримлер"], [571, "Игра"], [3644, "2-й стрим"]]
   }
 }

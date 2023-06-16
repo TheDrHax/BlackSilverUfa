@@ -4262,7 +4262,7 @@
   },
   {
     "name": "Layers of Fear (2023)",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "lof-23",
     "streams": [
       { "segment": "1823827495", "subrefs": [
@@ -4270,6 +4270,9 @@
       ] },
       { "segment": "1846924247", "subrefs": [
         { "name": "1", "start": 6055 }
+      ] },
+      { "segment": "1847650355,1847673917", "subrefs": [
+        { "name": "2", "start": 571 }
       ] }
     ]
   },
