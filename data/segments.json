@@ -12363,7 +12363,6 @@
     "youtube": "MQmtEu47DYA", "abs_start": 0, "abs_end": 5045, "duration": 5045,
     "name": "Redfall #2 (соло)",
     "date": "2023-05-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/1810272609.torrent",
     "games": ["redfall"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1810272609.ass"
   },
@@ -12371,7 +12370,6 @@
     "youtube": "-301xSayk9I", "abs_start": 0, "abs_end": 18592, "duration": 18592,
     "name": "Bramble: The Mountain King",
     "date": "2023-05-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/1810311520.torrent",
     "games": ["single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1810311520.ass"
   },
@@ -12379,7 +12377,6 @@
     "youtube": "O_FT-QXR5fw", "abs_start": 0, "abs_end": 16327, "duration": 16327,
     "name": "The Invincible (демо) / I Know This Place..? - Chapter 1 / Frozen Shelter / Rewind or Die",
     "date": "2023-05-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/1811995960.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1811995960.ass"
   },
@@ -12766,5 +12763,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1847820448.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1847820448.ass"
+  },
+  "1848514917": {
+    "abs_start": 0, "abs_end": 27161, "duration": 27161,
+    "name": "The Legend of Zelda: Tears of the Kingdom #11",
+    "date": "2023-06-17",
+    "direct": "https://bsufiles.drhx.ru/streams/1848514917.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1848514917.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1848514917.torrent",
+    "games": ["tloz_totk"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1848514917.ass"
   }
 }
