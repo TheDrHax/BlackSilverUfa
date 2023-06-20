@@ -12391,7 +12391,6 @@
     "youtube": "cG7GrgNo6CI", "abs_start": 0, "abs_end": 18877, "duration": 18877,
     "name": "Nancy Drew: The White Wolf of Icicle Creek (Нэнси Дрю. Белый волк Ледяного ущелья) #1",
     "date": "2023-05-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/1813790886.torrent",
     "games": ["nancy-drew-wwoic"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1813790886.ass"
   },
@@ -12772,5 +12771,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1849426857.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1849426857.ass"
+  },
+  "1851046365": {
+    "abs_start": 0, "abs_end": 14095, "duration": 14095,
+    "name": "Aliens: Dark Descent",
+    "date": "2023-06-20",
+    "direct": "https://bsufiles.drhx.ru/streams/1851046365.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1851046365.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1851046365.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1851046365.ass"
   }
 }
