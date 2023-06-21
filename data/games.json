@@ -7143,9 +7143,6 @@
         { "name": "World's Worst Handyman (демо)", "start": 11814 },
         { "name": "Wizard With a Gun (демо)", "start": 12903 }
       ] },
-      { "segment": "1844321743", "subrefs": [
-        { "name": "Final Fantasy XVI (демо)", "start": 1441 }
-      ] },
       { "segment": "1849426857", "subrefs": [
         { "name": "Unholy", "start": 7487 },
         { "name": "The Event (демо)", "start": 15474 },
@@ -7153,6 +7150,19 @@
       ] },
       { "segment": "1851046365", "subrefs": [
         { "name": "Aliens: Dark Descent", "start": 1799 }
+      ] }
+    ]
+  },
+  {
+    "name": "Final Fantasy XVI",
+    "category": "ongoing",
+    "id": "ff-xvi",
+    "streams": [
+      { "segment": "1844321743", "subrefs": [
+        { "name": "Демо", "start": 1441 }
+      ] },
+      { "segment": "1851883489", "subrefs": [
+        { "name": "1", "start": 342 }
       ] }
     ]
   },
