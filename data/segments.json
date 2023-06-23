@@ -12412,7 +12412,6 @@
     "youtube": "SUYnbjdP4KU", "abs_start": 0, "abs_end": 36336, "duration": 36336,
     "name": "The Legend of Zelda: Tears of the Kingdom #1",
     "date": "2023-05-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/1817831979.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1817831979.ass"
   },
@@ -12793,5 +12792,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1852712395.torrent",
     "games": ["ff-xvi"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1852712395+0.ass"
+  },
+  "1853577518": {
+    "abs_start": 0, "abs_end": 30473, "duration": 30473,
+    "name": "Final Fantasy XVI #3",
+    "date": "2023-06-23",
+    "direct": "https://bsufiles.drhx.ru/streams/1853577518.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1853577518.mp4/master.m3u8",
+    "games": ["ff-xvi"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1853577518.ass"
   }
 }
