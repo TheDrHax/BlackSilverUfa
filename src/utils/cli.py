@@ -1,7 +1,8 @@
 """Usage:
   cli [options] stream add <stream>
-  cli [options] segment (get | set | update) <stream> [<segment>] [--youtube <id> | --direct <url>] [--offset <t>] [--cuts <list>] [--offsets <list>]
-  cli [options] segment add <stream> (--youtube <id> | --direct <url>) [--offset <t>] [--cuts <list>] [--offsets <list>] [--end <t>] [--duration <t>]
+  cli [options] stream join <streams>... --offsets <offsets> [segment_options]
+  cli [options] segment (get | set | update) <stream> [<segment>] [segment_options]
+  cli [options] segment add <stream> (--youtube <id> | --direct <url>) [segment_options]
   cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>] [--fail-if-cut]
   cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --direct <url>) [--directory <path>]
   cli [options] game add <game> <category> <name>
@@ -11,6 +12,7 @@
 Commands:
   stream
     add         Create a new empty stream in streams.json.
+    join        Join two or more streams and move all covered refs.
 
   segment
     get         Output matching segment in JSON format.
@@ -138,6 +140,10 @@ def refs_coverage(stream: Stream, segment: Segment):
     return covered, partial, uncovered
 
 
+class NoSubrefsCoveredError(Exception):
+    pass
+
+
 def cmd_add(stream, segment_kwargs):
     tmp_stream = Stream(data=[], key=stream.twitch)
     segment = Segment(stream=tmp_stream, **segment_kwargs)
@@ -154,7 +160,7 @@ def cmd_add(stream, segment_kwargs):
                   file=sys.stderr)
 
     if len(covered) == 0 and len(partial) == 0:
-        raise Exception('Video does not cover any subrefs')
+        raise NoSubrefsCoveredError
 
     # add segment to stream
     segment.stream = stream
@@ -465,8 +471,66 @@ def ytdl_best_source(video_id, quality='b'):
     return p.stdout.decode('utf-8').strip()
 
 
+def parse_segment(args):
+    options = (('youtube', str, 'youtube'),
+               ('direct', str, 'direct'),
+               ('offset', Timecode, 'offset'),
+               ('cuts', lambda x: Timecodes(x.split(',')), 'cuts'),
+               ('offsets', lambda x: Timecodes(x.split(',')), 'offsets'),
+               ('end', Timecode, 'end'),
+               ('duration', Timecode, 'duration'),
+               ('unofficial', lambda x: False if x else None, 'official'))
+
+    segment_kwargs = dict()
+
+    for option, type, key in options:
+        if args.get(f'--{option}') is not None:
+            value = type(args[f'--{option}'])
+            if value is not None:
+                segment_kwargs[key] = type(args[f'--{option}'])
+
+    return segment_kwargs
+
+
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
+
+    if args['stream'] and args['join']:
+        stream_id = ','.join(args['<streams>'])
+        assert stream_id not in streams
+
+        segment_kwargs = parse_segment(args)
+        targets = [streams[x] for x in args['<streams>']]
+        offsets = segment_kwargs['offsets']
+        assert len(targets) == len(offsets)
+
+        stream = Stream(key=stream_id, data=[], streams=targets)
+        segment = Segment(stream=stream, offsets=offsets)
+        streams[stream_id] = stream
+
+        for i, (s, o) in enumerate(zip(targets, offsets)):
+            abs_end = offsets[i + 1] if i != len(offsets) - 1 else None
+
+            try:
+                tmp_segment = cmd_add(s, dict(end=abs_end))
+            except NoSubrefsCoveredError:
+                continue
+
+            for ref in tmp_segment.references.copy():
+                ref.parent = segment
+
+                for subref in ref.subrefs:
+                    subref.start += o
+
+            if len(s) > 1:
+                s.remove(tmp_segment)
+            else:
+                tmp_segment.end = None
+
+        if not args['--dry-run']:
+            streams[stream_id] = stream
+            streams.save()
+            games.save()
 
     if args['stream'] and args['add']:
         stream_id = args['<stream>']
@@ -500,23 +564,7 @@ def main(argv=None):
             print(segment)
             return
 
-        # Parse segment options
-        options = (('youtube', str, 'youtube'),
-                   ('direct', str, 'direct'),
-                   ('offset', Timecode, 'offset'),
-                   ('cuts', lambda x: Timecodes(x.split(',')), 'cuts'),
-                   ('offsets', lambda x: Timecodes(x.split(',')), 'offsets'),
-                   ('end', Timecode, 'end'),
-                   ('duration', Timecode, 'duration'),
-                   ('unofficial', lambda x: False if x else None, 'official'))
-        segment_kwargs = dict()
-
-        for option, type, key in options:
-            if args.get(f'--{option}') is not None:
-                value = type(args[f'--{option}'])
-                if value is not None:
-                    segment_kwargs[key] = type(args[f'--{option}'])
-
+        segment_kwargs = parse_segment(args)
         commit_msg = None
 
         # Update existing segment's options
