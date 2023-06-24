@@ -1,6 +1,6 @@
-"""Usage: autoimport [--dry-run] <vod>"""
+"""Usage: autoimport [--dry-run] [<vod>]"""
 
-import sys
+import json
 import requests
 
 from itertools import chain
@@ -83,7 +83,7 @@ def create_timecodes(vod: str, timeline: Timecodes) -> None:
     timecodes[vod] = ts.filter(lambda t: t > 0)
 
     print('Adding timecodes:')
-    print(timecodes[vod])
+    print(json.dumps(timecodes[vod].to_dict(), ensure_ascii=False, indent=2))
 
 
 def next_name(game: Game, name: str) -> str:
@@ -110,22 +110,25 @@ def main(argv=None):
     args = docopt(__doc__, argv=argv)
     vod = args['<vod>']
 
-    if vod in streams:
-        print(f'Stream "{vod}" already exists')
-        sys.exit(1)
+    assert vod not in streams or args['--dry-run']
 
-    info = requests.get(f'https://red.drhx.ru/blackufa/twitch/{vod}').json()
+    if not vod:
+        info = requests.get('https://red.drhx.ru/blackufa/twitch').json()
+        vod = info['vod']
+        assert vod is not None
+    else:
+        info = requests.get(f'https://red.drhx.ru/blackufa/twitch/{vod}').json()
+
     timeline = get_timeline(info['game_history'])
 
     stream = create_stream(vod)
     create_timecodes(vod, timeline)
     game = create_game(name='Не размечено', id='todo')
 
-    ref = SegmentReference(game=game,
-                           parent=stream[0],
-                           subrefs=[{'name': next_name(game, t.name),
-                                     'start': t.start}
-                                    for t in timeline])
+    subrefs = [{'name': next_name(game, t.name), 'start': t.start}
+               for t in timeline]
+
+    ref = SegmentReference(game=game, parent=stream[0], subrefs=subrefs)
 
     game.streams.append(ref)
 
