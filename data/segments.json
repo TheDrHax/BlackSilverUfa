@@ -12430,7 +12430,6 @@
     "youtube": "7R0Dg8sBf8Y", "abs_start": 0, "abs_end": 31129, "duration": 31129,
     "name": "The Legend of Zelda: Tears of the Kingdom #3",
     "date": "2023-05-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/1819655760.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1819655760.ass"
   },
@@ -12803,5 +12802,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1853577518.torrent",
     "games": ["ff-xvi"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1853577518.ass"
+  },
+  "1854535719": {
+    "abs_start": 0, "abs_end": 18300, "duration": 18300,
+    "name": "Viewfinder (демо) / Trepang2 / Daydream: Forgotten Sorrow / Only Up! / Little Kitty, Big City (демо)",
+    "date": "2023-06-24",
+    "direct": "https://bsufiles.drhx.ru/streams/1854535719.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1854535719.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1854535719.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1854535719.ass"
   }
 }
