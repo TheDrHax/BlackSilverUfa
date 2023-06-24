@@ -75,6 +75,7 @@ from git import Repo
 from docopt import docopt
 from subprocess import run, PIPE
 from sortedcontainers import SortedList
+from typing import List
 from twitch_utils.offset import Clip, find_offset
 
 from ..data.streams import (StreamType, SubReference, Stream,
@@ -92,10 +93,13 @@ MATCH_OFFSET = 300
 MATCH_CHUNK = 300
 
 
-def refs_coverage(stream, segment):
+def refs_coverage(stream: Stream, segment: Segment):
+    refs = [ref
+            for seg in stream
+            for ref in seg.references]
+
     subrefs = SortedList([subref
-                          for seg in stream
-                          for ref in seg.references
+                          for ref in refs
                           for subref in ref.subrefs],
                          key=lambda x: x.abs_start)
 
@@ -115,20 +119,21 @@ def refs_coverage(stream, segment):
 
         subref._coverage = coverage
 
-    covered, partial, uncovered = [], [], []
+    covered: List[SegmentReference] = []
+    partial: List[SegmentReference] = []
+    uncovered: List[SegmentReference]= []
 
-    for segment in stream:
-        for ref in segment.references:
-            cov = sum(1 for subref in ref.subrefs if subref._coverage >= 50)
-            total = len(ref.subrefs)
-            ref._coverage = cov, total
+    for ref in refs:
+        cov = sum(1 for subref in ref.subrefs if subref._coverage >= 50)
+        total = len(ref.subrefs)
+        ref._coverage = cov, total
 
-            if cov == 0:
-                uncovered.append(ref)
-            elif cov == total:
-                covered.append(ref)
-            else:
-                partial.append(ref)
+        if cov == 0:
+            uncovered.append(ref)
+        elif cov == total:
+            covered.append(ref)
+        else:
+            partial.append(ref)
 
     return covered, partial, uncovered
 
