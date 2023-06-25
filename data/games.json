@@ -3782,7 +3782,6 @@
         { "name": "Scene Investigators (демо)" }
       ] },
       { "segment": "1059978031", "subrefs": [
-        { "name": "Industria (демо)", "start": 9031 },
         { "name": "Greak: Memories of Azur (демо)", "start": 11213 },
         { "name": "Song of Iron (демо)", "start": 15579 },
         { "name": "Undying Symphony (демо)", "start": 19486 }
@@ -3820,9 +3819,6 @@
       ] },
       { "segment": "1154121803", "subrefs": [
         { "name": "Bright Lights of Svetlov" }
-      ] },
-      { "segment": "1164327068", "subrefs": [
-        { "name": "Industria" }
       ] },
       { "segment": "1166311485", "subrefs": [
         { "name": "Matanga 2" }
@@ -4038,7 +4034,6 @@
         { "name": "The Death: Than Trung", "start": 16371 }
       ] },
       { "segment": "1608110648", "subrefs": [
-        { "name": "Apocalyptic Vibes (демо)", "start": 3976 },
         { "name": "The Bathhouse", "start": 14459 }
       ] },
       { "segment": "1619465701", "subrefs": [
@@ -6016,8 +6011,59 @@
         { "name": "Gothic - Playable Teaser" }
       ] },
       { "segment": "524865260", "subrefs": [
-        { "name": "Trepang2 (демо)" },
         { "name": "The Paperman", "start": 10150 }
+      ] }
+    ]
+  },
+  {
+    "name": "Apocalyptic Vibes",
+    "category": "ongoing",
+    "id": "apocalyptic-vibes",
+    "streams": [
+      { "segment": "1608110648", "subrefs": [
+        { "name": "Демо", "start": 3976 }
+      ] },
+      { "segment": "1778887686", "subrefs": [
+        { "name": "Релиз", "start": 12052 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Bridge Curse: Road to Salvation",
+    "category": "abandoned",
+    "id": "bridge-curse",
+    "streams": [
+      { "segment": "1307474557", "subrefs": [
+        { "name": "Демо", "start": 5644 }
+      ] },
+      { "segment": "1578740848", "subrefs": [
+        { "name": "Релиз", "start": 13218 }
+      ] }
+    ]
+  },
+  {
+    "name": "Industria",
+    "category": "finished",
+    "id": "industria",
+    "streams": [
+      { "segment": "1059978031", "subrefs": [
+        { "name": "Демо", "start": 9031 }
+      ] },
+      { "segment": "1164327068", "subrefs": [
+        { "name": "Релиз", "start": 1755 }
+      ] }
+    ]
+  },
+  {
+    "name": "Trepang2",
+    "category": "ongoing",
+    "id": "trepang2",
+    "streams": [
+      { "segment": "524865260", "subrefs": [
+        { "name": "Демо", "start": 1263 }
+      ] },
+      { "segment": "1854535719", "subrefs": [
+        { "name": "Релиз", "start": 2747 }
       ] }
     ]
   },
@@ -6730,7 +6776,6 @@
         { "name": "Total War: Warhammer III", "start": 14527 }
       ] },
       { "segment": "1307474557", "subrefs": [
-        { "name": "The Bridge Curse: Road to Salvation (демо)", "start": 5644 },
         { "name": "My Friendly Neighborhood (демо)", "start": 8439 },
         { "name": "SCP: Pandemic (демо)", "start": 11879 }
       ] },
@@ -6881,7 +6926,6 @@
       { "segment": "1572044648", "subrefs": [
         { "name": "Outbreak Island: Pendulum", "start": 10153 },
         { "name": "Soulstice (демо)", "start": 15148 },
-        { "name": "Mirror Forge (демо)", "start": 18119 },
         { "name": "Super Catboy", "start": 21145 }
       ] },
       { "segment": "1573052503", "subrefs": [
@@ -6893,9 +6937,6 @@
       { "segment": "1575034539,1575155040", "subrefs": [
         { "name": "Sinner 97", "start": 2506 },
         { "name": "Unreasoning Fear", "start": 10494 }
-      ] },
-      { "segment": "1578740848", "subrefs": [
-        { "name": "The Bridge Curse: Road To Salvation", "start": 13218 }
       ] },
       { "segment": "1586147183", "subrefs": [
         { "name": "NHL 2001", "start": 2100 },
@@ -7081,9 +7122,6 @@
       { "segment": "1778016938", "subrefs": [
         { "name": "Polaris Outpost (демо)", "start": 6995 }
       ] },
-      { "segment": "1778887686", "subrefs": [
-        { "name": "Apocalyptic Vibes", "start": 12052 }
-      ] },
       { "segment": "1782635771", "subrefs": [
         { "name": "Reclusive", "start": 1569 }
       ] },
@@ -7153,7 +7191,6 @@
       ] },
       { "segment": "1854535719", "subrefs": [
         { "name": "Viewfinder (демо)", "start": 914 },
-        { "name": "Trepang2", "start": 2747 },
         { "name": "Daydream: Forgotten Sorrow", "start": 6704 },
         { "name": "Only Up!", "start": 10070 },
         { "name": "Little Kitty, Big City (демо)", "start": 14083 }
@@ -7523,6 +7560,9 @@
     "category": "abandoned",
     "id": "mirror-forge",
     "streams": [
+      { "segment": "1572044648", "subrefs": [
+        { "name": "Демо", "start": 18119 }
+      ] },
       { "segment": "1686763712", "subrefs": [
         { "name": "1", "start": 2459 }
       ] },
