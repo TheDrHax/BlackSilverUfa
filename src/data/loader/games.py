@@ -6,6 +6,10 @@ from ..streams import SegmentReference
 from .streams import Streams
 
 
+def normalize_game_name(name: str) -> str:
+    return name.lower().split(' (демо')[0]
+
+
 class Games(List[Game]):
     def __init__(self, streams: Union[Streams, None] = None,
                  filename: Union[str, None] = None):
@@ -20,10 +24,12 @@ class Games(List[Game]):
         names = set()
 
         def track_name(name):
-            if name in names:
+            nname = normalize_game_name(name)
+
+            if nname in names:
                 print(f'WARN: Duplicate subref names: "{name}"')
             else:
-                names.add(name)
+                names.add(nname)
 
         for game_raw in data:
             refs_raw = game_raw['streams']
