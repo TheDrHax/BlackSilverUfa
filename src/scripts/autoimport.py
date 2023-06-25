@@ -125,15 +125,37 @@ def main(argv=None):
     create_timecodes(vod, timeline)
     game = create_game(name='Не размечено', id='todo')
 
-    subrefs = [{'name': next_name(game, t.name), 'start': t.start}
-               for t in timeline]
+    def normalize_game(name):
+        return name.lower().split(' (')[0]
 
-    ref = SegmentReference(game=game, parent=stream[0], subrefs=subrefs)
+    all_games = dict((normalize_game(game.name), game)
+                     for game in games
+                     if game.type != 'list')
 
-    game.streams.append(ref)
+    subrefs = []
 
-    print('Adding segment reference:')
-    print(ref.to_json())
+    for t in timeline:
+        existing_game = all_games.get(normalize_game(t.name))
+
+        if existing_game:
+            ref = SegmentReference(game=existing_game,
+                                   parent=stream[0],
+                                   name='?', # TODO
+                                   start=t.start)
+
+            existing_game.streams.append(ref)
+            print(f'Adding segment reference into "{existing_game.id}":')
+            print(ref.to_json())
+            continue
+
+        subrefs.append(dict(name=next_name(game, t.name),
+                            start=t.start))
+
+    if len(subrefs) > 0:
+        ref = SegmentReference(game=game, parent=stream[0], subrefs=subrefs)
+        game.streams.append(ref)
+        print(f'Adding segment reference into "{game.id}":')
+        print(ref.to_json())
 
     if not args['--dry-run']:
         print('Saving changes')
