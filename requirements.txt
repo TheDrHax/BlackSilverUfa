@@ -11,4 +11,5 @@ nodeenv==1.4.0
 natsort==7.1.1
 watchgod==0.7
 Flask===2.2.2
+parse===1.19.1
 yt-dlp # dynamic
