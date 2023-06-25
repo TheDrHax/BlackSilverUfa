@@ -3787,7 +3787,6 @@
         { "name": "Undying Symphony (демо)", "start": 19486 }
       ] },
       { "segment": "1061050549", "subrefs": [
-        { "name": "They Are Here (демо)", "start": 1547 },
         { "name": "Last Village (демо)", "start": 2959 },
         { "name": "Rocket Stop Incident (демо)", "start": 3877 },
         { "name": "Interference (демо)", "start": 7669 },
@@ -4257,6 +4256,26 @@
         { "name": "Night Security", "start": 1333 },
         { "name": "Lazarus", "start": 12111 },
         { "name": "Incident at Grove Lake", "start": 13897 }
+      ] },
+      { "segment": "1855403959", "subrefs": [
+        { "name": "Dyer Expedition (демо)", "start": 8360 },
+        { "name": "Sniper Killer (демо)", "start": 9786 },
+        { "name": "The Diner", "start": 13121 },
+        { "name": "The Muller-Powell Principle (демо)", "start": 13754 },
+        { "name": "Unknown Memoirs: The Rental", "start": 16781 }
+      ] }
+    ]
+  },
+  {
+    "name": "They Are Here: Alien Abduction Horror",
+    "category": "ongoing",
+    "id": "they-are-here",
+    "streams": [
+      { "segment": "1061050549", "subrefs": [
+        { "name": "Демо 1", "start": 1547 }
+      ] },
+      { "segment": "1855403959", "subrefs": [
+        { "name": "Демо 2", "start": 1807 }
       ] }
     ]
   },
@@ -6611,7 +6630,6 @@
         { "name": "Icarus" }
       ] },
       { "segment": "1224807350", "subrefs": [
-        { "name": "Stray Souls (демо)" },
         { "name": "Sinfeld Remastered (демо)", "start": 9279 }
       ] },
       { "segment": "1229405550", "subrefs": [
@@ -6626,6 +6644,19 @@
         { "name": "Desolatium", "start": 12405 },
         { "name": "Goya's Nightmare", "start": 13571 },
         { "name": "Swamm", "start": 13880 }
+      ] }
+    ]
+  },
+  {
+    "name": "Stray Souls",
+    "category": "ongoing",
+    "id": "stray-souls",
+    "streams": [
+      { "segment": "1224807350", "subrefs": [
+        { "name": "Демо 1", "start": 7236 }
+      ] },
+      { "segment": "1855403959", "subrefs": [
+        { "name": "Демо 2", "start": 5385 }
       ] }
     ]
   },
@@ -7194,6 +7225,11 @@
         { "name": "Daydream: Forgotten Sorrow", "start": 6704 },
         { "name": "Only Up!", "start": 10070 },
         { "name": "Little Kitty, Big City (демо)", "start": 14083 }
+      ] },
+      { "segment": "1855403959", "subrefs": [
+        { "name": "Ebola Village (демо)", "start": 3879 },
+        { "name": "SCP: Observer", "start": 6838 },
+        { "name": "Horror Stories: Harvest Hunt", "start": 18314 }
       ] }
     ]
   },

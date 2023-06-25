@@ -8880,9 +8880,9 @@
   },
   "1061050549": {
     "youtube": "so-xSwlGgLQ", "official": false, "abs_start": 0, "abs_end": 22735, "duration": 22735,
-    "name": "They Are Here (демо) / Last Village (демо) / Rocket Stop Incident (демо) / Dagon (демо) #1 / Interference (демо) / Tormented Souls / Ebola 2 Survival (демо) / Horrors of Space - Демо / Rabbit Hole (демо)",
+    "name": "They Are Here: Alien Abduction Horror - Демо 1 / Last Village (демо) / Rocket Stop Incident (демо) / Dagon (демо) #1 / Interference (демо) / Tormented Souls / Ebola 2 Survival (демо) / Horrors of Space - Демо / Rabbit Hole (демо)",
     "date": "2021-06-19",
-    "games": ["single", "dagon", "horrors-of-space", "first-2021"],
+    "games": ["they-are-here", "single", "dagon", "horrors-of-space", "first-2021"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master/v1061050549.ass"
   },
   "1062093790": {
@@ -9924,9 +9924,9 @@
   },
   "1224807350": {
     "youtube": "jjeCA78ms8o", "abs_start": 0, "abs_end": 23269, "duration": 23269,
-    "name": "Stray Souls (демо) / Sinfeld Remastered (демо) / Happy's Humble Burger Farm #1 / Decrypt",
+    "name": "Stray Souls - Демо 1 / Sinfeld Remastered (демо) / Happy's Humble Burger Farm #1 / Decrypt",
     "date": "2021-12-05",
-    "games": ["first-2021", "hhbf", "single"],
+    "games": ["stray-souls", "first-2021", "hhbf", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master/v1224807350.ass"
   },
   "1227570391": {
@@ -12808,5 +12808,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1854535719.torrent",
     "games": ["first-2023", "trepang2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1854535719.ass"
+  },
+  "1855403959": {
+    "abs_start": 0, "abs_end": 19728, "duration": 19728,
+    "name": "They Are Here: Alien Abduction Horror - Демо 2 / Ebola Village (демо) / Stray Souls - Демо 2 / SCP: Observer / Dyer Expedition (демо) / Sniper Killer (демо) / The Diner / The Muller-Powell Principle (демо) / Unknown Memoirs: The Rental / Horror Stories: Harvest Hunt",
+    "date": "2023-06-25",
+    "direct": "https://bsufiles.drhx.ru/streams/1855403959.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1855403959.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1855403959.torrent",
+    "games": ["they-are-here", "first-2023", "stray-souls", "single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1855403959.ass"
   }
 }
