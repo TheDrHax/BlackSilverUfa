@@ -1,5 +1,6 @@
 """Usage: autoimport [--dry-run] [<vod>]"""
 
+import os
 import json
 import requests
 
@@ -7,6 +8,8 @@ from itertools import chain
 from datetime import datetime
 from docopt import docopt
 
+from .source_cuts import get_source_cuts
+from ..data.fallback import fallback
 from ..data.streams import SegmentReference, Stream
 from ..data.games import Game
 from ..data.timecodes import T, Timecode, Timecodes
@@ -122,6 +125,19 @@ def main(argv=None):
     timeline = get_timeline(info['game_history'])
 
     stream = create_stream(vod)
+
+    try:
+        source_cuts = get_source_cuts(
+            os.path.join(fallback.directory, f'{vod}.mp4'),
+            os.path.join(fallback.directory, f'{vod}.log')
+        )
+
+        if len(source_cuts) > 0:
+            print(f'Adding source_cuts: {source_cuts.to_list()}')
+            stream.cuts = source_cuts
+    except Exception as ex:
+        print(f'Unable to find source_cuts: {ex}')
+
     create_timecodes(vod, timeline)
     game = create_game(name='Не размечено', id='todo')
 
