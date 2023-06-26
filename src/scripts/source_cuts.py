@@ -1,14 +1,11 @@
 """Usage: source_cuts <video> <log>"""
 
-import os
 import sys
-import json
 
 from math import floor
 from parse import compile
 from docopt import docopt
 from typing import List, Tuple, Union
-from itertools import pairwise
 from subprocess import Popen, PIPE
 
 from ..data.timecodes import Timecodes, T
@@ -92,7 +89,10 @@ def parse_log_timings(log_path: str) -> List[Tuple[float, float, float]]:
     timeline = sorted(timeline, key=lambda x: x)
     start = timeline[0][1]
 
-    for ((ts1, offset1), (ts2, offset2)) in pairwise(timeline):
+    for i in range(len(timeline) - 1):
+        ts1, offset1 = timeline[i]
+        ts2, offset2 = timeline[i+1]
+
         diff = (ts2 - ts1) - (offset2 - offset1)
 
         if diff > 4:  # two segments
