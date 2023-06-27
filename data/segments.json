@@ -12449,7 +12449,6 @@
     "youtube": "LHP5jtKnHds", "abs_start": 0, "abs_end": 29962, "duration": 29962,
     "name": "The Legend of Zelda: Tears of the Kingdom #4",
     "date": "2023-05-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/1825542254.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1825542254.ass"
   },
@@ -12822,5 +12821,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1856178461.torrent",
     "games": ["ff-xvi"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1856178461.ass"
+  },
+  "1857082108": {
+    "abs_start": 0, "abs_end": 21139, "duration": 21139,
+    "name": "Не размечено - The Callisto Protocol - DLC Final Transmission",
+    "date": "2023-06-27",
+    "direct": "https://bsufiles.drhx.ru/streams/1857082108.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1857082108.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1857082108.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1857082108.ass"
   }
 }
