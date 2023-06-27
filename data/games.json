@@ -7701,6 +7701,9 @@
       ] },
       { "segment": "1669015522", "subrefs": [
         { "name": "2", "start": 567 }
+      ] },
+      { "segment": "1857082108", "subrefs": [
+        { "name": "DLC: Final Transmission", "start": 971 }
       ] }
     ]
   },
@@ -12970,16 +12973,6 @@
       ] },
       { "segment": "1551976425", "subrefs": [
         { "name": "2", "start": 3102 }
-      ] }
-    ]
-  },
-  {
-    "name": "Не размечено",
-    "category": "other",
-    "id": "todo",
-    "streams": [
-      { "segment": "1857082108", "subrefs": [
-        { "name": "The Callisto Protocol - DLC Final Transmission", "start": 971 }
       ] }
     ]
   }

@@ -12824,12 +12824,12 @@
   },
   "1857082108": {
     "abs_start": 0, "abs_end": 21139, "duration": 21139,
-    "name": "Не размечено - The Callisto Protocol - DLC Final Transmission",
+    "name": "The Callisto Protocol - DLC: Final Transmission",
     "date": "2023-06-27",
     "direct": "https://bsufiles.drhx.ru/streams/1857082108.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/1857082108.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/1857082108.torrent",
-    "games": ["todo"],
+    "games": ["callisto-protocol"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1857082108.ass"
   }
 }
