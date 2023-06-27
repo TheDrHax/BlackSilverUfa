@@ -139,14 +139,13 @@ def main(argv=None):
         print(f'Unable to find source_cuts: {ex}')
 
     create_timecodes(vod, timeline)
-    game = create_game(name='Не размечено', id='todo')
 
     def normalize_game(name: str) -> str:
         return name.lower().split(' (')[0]
 
-    all_games = dict((normalize_game(game.name), game)
-                     for game in games
-                     if game.type != 'list')
+    all_games = dict((normalize_game(g.name), g)
+                     for g in games
+                     if g.type != 'list')
 
     subrefs = []
 
@@ -170,10 +169,14 @@ def main(argv=None):
             print(ref.to_json())
             continue
 
-        subrefs.append(dict(name=next_name(game, t.name),
-                            start=t.start))
+        subrefs.append(dict(name=t.name, start=t.start))
 
     if len(subrefs) > 0:
+        game = create_game(name='Не размечено', id='todo')
+
+        for subref in subrefs:
+            subref['name'] = next_name(game, subref['name'])
+
         ref = SegmentReference(game=game, parent=stream[0], subrefs=subrefs)
         game.streams.append(ref)
         print(f'Adding segment reference into "{game.id}":')
