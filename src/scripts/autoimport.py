@@ -141,7 +141,7 @@ def main(argv=None):
     create_timecodes(vod, timeline)
     game = create_game(name='Не размечено', id='todo')
 
-    def normalize_game(name):
+    def normalize_game(name: str) -> str:
         return name.lower().split(' (')[0]
 
     all_games = dict((normalize_game(game.name), game)
@@ -154,9 +154,15 @@ def main(argv=None):
         existing_game = all_games.get(normalize_game(t.name))
 
         if existing_game:
+            prev_ref_name = normalize_game(existing_game.streams[-1].name)
+            if prev_ref_name.isnumeric():
+                name = str(int(prev_ref_name) + 1)
+            else:
+                name = '?'
+
             ref = SegmentReference(game=existing_game,
                                    parent=stream[0],
-                                   name='?', # TODO
+                                   name=name,
                                    start=t.start)
 
             existing_game.streams.append(ref)
