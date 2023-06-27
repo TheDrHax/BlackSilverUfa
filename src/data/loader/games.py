@@ -67,6 +67,9 @@ class Games(List[Game]):
 
         first = True
         for game in self:
+            if compiled and len(game.streams) == 0:
+                continue
+
             if not first:
                 yield ',\n'
             else:
