@@ -1,4 +1,4 @@
-"""Usage: source_cuts <video> <log>"""
+"""Usage: source_cuts <log> <video>..."""
 
 import sys
 
@@ -7,6 +7,9 @@ from parse import compile
 from docopt import docopt
 from typing import List, Tuple, Union
 from subprocess import Popen, PIPE
+from twitch_utils.clip import Clip
+from twitch_utils.concat import Timeline
+from tempfile import NamedTemporaryFile
 
 from ..data.timecodes import Timecodes, T
 
@@ -16,7 +19,7 @@ PARSE_TIMINGS = compile('Clip {} started at {ts:g} with offset {offset:g}{}')
 
 
 def detect_disconnect_protection(
-        video: str,
+        videos: List[str],
         start: Union[float, None] = None,
         end: Union[float, None] = None) -> List[Tuple[float, float]]:
     ffcmd = ['ffprobe',
@@ -28,7 +31,18 @@ def detect_disconnect_protection(
     if None not in [start, end]:
         ffcmd += ['-read_intervals', f'{start}%{end}']
 
-    ffcmd += [video]
+    if len(videos) > 1:
+        if False in [f.endswith('.ts') for f in videos]:
+            raise Exception('ERROR: When multiple clips are provided, they '
+                            'all must be in MPEG-TS format.')
+        
+        timeline = Timeline([Clip(f) for f in videos])
+        concat_map = NamedTemporaryFile(delete=True, suffix='.txt')
+        print(concat_map.name)
+        timeline.render(concat_map.name, 'txt', force=True)
+        ffcmd += ['-safe', '0', '-f', 'concat', concat_map.name]
+    else:
+        ffcmd += videos
 
     ffproc = Popen(ffcmd, stdout=PIPE, stderr=sys.stderr)
 
@@ -101,11 +115,11 @@ def parse_log_timings(log_path: str) -> List[Tuple[float, float, float]]:
     return lost
 
 
-def get_source_cuts(video: str, log: str) -> Timecodes:
+def get_source_cuts(videos: List[str], log: str) -> Timecodes:
     ranges = Timecodes()
 
     for start, end, diff in parse_log_timings(log):
-        dp = detect_disconnect_protection(video, start, end)
+        dp = detect_disconnect_protection(videos, start, end)
 
         if len(dp) == 0:
             raise Exception(f'Cut must be in {T+int(start)}~{T+int(end)}, but '
@@ -121,7 +135,6 @@ def get_source_cuts(video: str, log: str) -> Timecodes:
 
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
-
     ts = get_source_cuts(args['<video>'], args['<log>'])
     print(','.join(f'{t.start}~{t.end}' for t in ts))
 

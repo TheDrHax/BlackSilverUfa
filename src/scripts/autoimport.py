@@ -128,7 +128,7 @@ def main(argv=None):
 
     try:
         source_cuts = get_source_cuts(
-            os.path.join(fallback.directory, f'{vod}.mp4'),
+            [os.path.join(fallback.directory, f'{vod}.mp4')],
             os.path.join(fallback.directory, f'{vod}.log')
         )
 
