@@ -12456,17 +12456,13 @@
     "youtube": "ZD_8bg-sxJY", "abs_start": 0, "abs_end": 9677, "duration": 9677,
     "name": "The Outlast Trials #1 (соло) / Deppart Prototype / Daymare: 1994 Sandcastle #3",
     "date": "2023-05-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/1826440973.torrent",
     "games": ["outlast-trials", "single", "daymare-1994-sc"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1826440973.ass"
   },
   "1827232465": {
-    "abs_start": 0, "abs_end": 13143, "duration": 13143,
+    "abs_start": 0, "abs_end": 13178, "duration": 0,
     "name": "",
     "date": "2023-05-23",
-    "direct": "https://bsufiles.drhx.ru/streams/1827232465.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1827232465.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1827232465.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1827232465.ass"
   },
@@ -12829,5 +12825,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1857082108.torrent",
     "games": ["callisto-protocol"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1857082108.ass"
+  },
+  "1857876199": {
+    "abs_start": 0, "abs_end": 31398, "duration": 31398,
+    "name": "Final Fantasy XVI #5",
+    "date": "2023-06-28",
+    "direct": "https://bsufiles.drhx.ru/streams/1857876199.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1857876199.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1857876199.torrent",
+    "games": ["ff-xvi"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1857876199+0.ass"
   }
 }
