@@ -7235,7 +7235,7 @@
   },
   {
     "name": "Final Fantasy XVI",
-    "category": "ongoing",
+    "category": "finished",
     "id": "ff-xvi",
     "streams": [
       { "segment": "1844321743", "subrefs": [
@@ -7255,6 +7255,9 @@
       ] },
       { "segment": "1857876199", "subrefs": [
         { "name": "5", "start": 553 }
+      ] },
+      { "segment": "1858764516", "subrefs": [
+        { "name": "6", "start": 281 }
       ] }
     ]
   },

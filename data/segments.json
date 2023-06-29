@@ -12467,32 +12467,23 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1827232465.ass"
   },
   "1827360298": {
-    "abs_start": 0, "abs_end": 994, "duration": 994,
+    "abs_start": 0, "abs_end": 1007, "duration": 0,
     "name": "",
     "date": "2023-05-23",
-    "direct": "https://bsufiles.drhx.ru/streams/1827360298.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1827360298.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1827360298.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1827360298.ass"
   },
   "1827371582": {
-    "abs_start": 0, "abs_end": 1229, "duration": 1229,
+    "abs_start": 0, "abs_end": 1237, "duration": 0,
     "name": "",
     "date": "2023-05-23",
-    "direct": "https://bsufiles.drhx.ru/streams/1827371582.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1827371582.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1827371582.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1827371582.ass"
   },
   "1827392675": {
-    "abs_start": 0, "abs_end": 483, "duration": 483,
+    "abs_start": 0, "abs_end": 513, "duration": 0,
     "name": "",
     "date": "2023-05-23",
-    "direct": "https://bsufiles.drhx.ru/streams/1827392675.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1827392675.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1827392675.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1827392675.ass"
   },
@@ -12501,7 +12492,6 @@
     "name": "Amnesia: The Bunker - Демо / Horror Exp+ / The Outlast Trials #2 (с Куплиновым и Дангаром) / Haunted Horror Stories: Gone With The Wind",
     "date": "2023-05-23",
     "offsets": [0, 13145, 14144, 15375],
-    "torrent": "https://bsufiles.drhx.ru/streams/1827232465,1827360298,1827371582,1827392675.torrent",
     "games": ["amnesia-bunker", "first-2023", "outlast-trials", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1827232465,1827360298,1827371582,1827392675+0.ass"
   },
@@ -12835,5 +12825,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1857876199.torrent",
     "games": ["ff-xvi"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1857876199+0.ass"
+  },
+  "1858764516": {
+    "abs_start": 0, "abs_end": 22366, "duration": 22366,
+    "name": "Final Fantasy XVI #6",
+    "date": "2023-06-29",
+    "direct": "https://bsufiles.drhx.ru/streams/1858764516.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1858764516.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1858764516.torrent",
+    "games": ["ff-xvi"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1858764516.ass"
   }
 }
