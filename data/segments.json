@@ -587,9 +587,11 @@
     "games": ["mafia-3"]
   },
   "001610100": {
-    "youtube": "aMzB3OqCJg4", "official": false, "abs_start": 0, "abs_end": 12157, "duration": 12157,
+    "abs_start": 0, "abs_end": 12156, "duration": 12156,
     "name": "Mafia III #2",
     "date": "2016-10-10",
+    "direct": "https://bsufiles.drhx.ru/streams/001610100.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001610100.mp4/master.m3u8",
     "games": ["mafia-3"]
   },
   "001610190": {
@@ -5475,9 +5477,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v502940448.ass"
   },
   "503413959": {
-    "youtube": "elAc4C4lg2A", "official": false, "abs_start": 0, "abs_end": 18857, "duration": 18857,
+    "abs_start": 0, "abs_end": 18856, "duration": 18856,
     "name": "Mafia II #3",
     "date": "2019-11-03",
+    "direct": "https://bsufiles.drhx.ru/streams/503413959.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/503413959.mp4/master.m3u8",
     "games": ["mafia-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v503413959.ass"
   },
@@ -12519,7 +12523,6 @@
     "name": "The Legend of Zelda: Tears of the Kingdom #5",
     "date": "2023-05-24",
     "offsets": [0, 14340, 21439],
-    "torrent": "https://bsufiles.drhx.ru/streams/1828030256,1828157473,1828245817.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1828030256,1828157473,1828245817+0.ass"
   },
