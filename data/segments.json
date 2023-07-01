@@ -12817,5 +12817,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1858764516.torrent",
     "games": ["ff-xvi"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1858764516.ass"
+  },
+  "1860536794": {
+    "abs_start": 0, "abs_end": 19056, "duration": 19056,
+    "name": "Не размечено - Disney's Tarzan / Не размечено - Chessmaster II / Не размечено - Looney Tunes: Sheep Raider",
+    "date": "2023-07-01",
+    "direct": "https://bsufiles.drhx.ru/streams/1860536794.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1860536794.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1860536794.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1860536794.ass"
   }
 }
