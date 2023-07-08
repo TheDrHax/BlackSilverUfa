@@ -7417,7 +7417,7 @@
   },
   {
     "name": "Dredge",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "dredge",
     "streams": [
       { "segment": "1618459269", "subrefs": [
@@ -9994,6 +9994,9 @@
       ] },
       { "segment": "1140665211", "subrefs": [
         { "name": "20", "start": 14835 }
+      ] },
+      { "segment": "1866511537", "subrefs": [
+        { "name": "21", "start": 7486 }
       ] }
     ]
   },
@@ -12995,6 +12998,9 @@
       { "segment": "1861382266", "subrefs": [
         { "name": "Bratz: Rock Angelz", "start": 962 },
         { "name": "Bratz: Girlz Really Rock", "start": 8038 }
+      ] },
+      { "segment": "1866511537", "subrefs": [
+        { "name": "Super Bunny Man", "start": 4640 }
       ] }
     ]
   }

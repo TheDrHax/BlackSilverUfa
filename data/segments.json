@@ -12833,5 +12833,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1861382266.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1861382266.ass"
+  },
+  "1866511537": {
+    "abs_start": 0, "abs_end": 26667, "duration": 26667,
+    "name": "Не размечено - Super Bunny Man / SnowRunner #21",
+    "date": "2023-07-08",
+    "direct": "https://bsufiles.drhx.ru/streams/1866511537.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1866511537.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1866511537.torrent",
+    "games": ["todo", "snowrunner"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1866511537.ass"
   }
 }
