@@ -176,9 +176,26 @@ class Segment:
     @property
     def name(self) -> str:
         names = []
+        prev_game = None
+
         for sr in self.all_subrefs:
-            if sr.full_name not in names:
-                names.append(sr.full_name)
+            name = sr.full_name
+
+            if name not in names:
+                if ' - ' in name:
+                    game, light_name = name.split(' - ', 1)
+
+                    if prev_game == game:
+                        names[-1] += f' | {light_name}'
+                        prev_game = game
+                        continue
+
+                    prev_game = game
+                else:
+                    prev_game = None
+
+                names.append(name)
+
         return ' / '.join(names)
 
     def reference(self):
