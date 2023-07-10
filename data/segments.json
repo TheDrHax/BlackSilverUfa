@@ -12524,7 +12524,6 @@
     "youtube": "DoVWKZ-GEbM", "abs_start": 0, "abs_end": 6468, "duration": 6468,
     "name": "PlayStation Showcase #2023",
     "date": "2023-05-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/1828339885.torrent",
     "games": ["ps-showcase"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1828339885.ass"
   },
@@ -12532,7 +12531,6 @@
     "youtube": "LmtlJNg5ip4", "abs_start": 0, "abs_end": 18287, "duration": 18287,
     "name": "The Lord of the Rings: Gollum / Warhammer 40,000: Boltgun / Planet of Lana",
     "date": "2023-05-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/1828848663.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1828848663.ass"
   },
@@ -12851,5 +12849,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1867374437.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1867374437.ass"
+  },
+  "1868119767": {
+    "abs_start": 0, "abs_end": 28913, "duration": 28913,
+    "name": "The Legend of Zelda: Tears of the Kingdom #12",
+    "date": "2023-07-10",
+    "direct": "https://bsufiles.drhx.ru/streams/1868119767.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1868119767.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1868119767.torrent",
+    "games": ["tloz_totk"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1868119767.ass"
   }
 }
