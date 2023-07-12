@@ -12545,7 +12545,6 @@
     "youtube": "Rzn7IhjHhaA", "abs_start": 0, "abs_end": 11581, "duration": 11581,
     "name": "Nancy Drew: The White Wolf of Icicle Creek (Нэнси Дрю. Белый волк Ледяного ущелья) #3",
     "date": "2023-05-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/1831475865.torrent",
     "games": ["nancy-drew-wwoic"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1831475865.ass"
   },
@@ -12553,7 +12552,6 @@
     "youtube": "vL3fOuZX4hA", "abs_start": 0, "abs_end": 33572, "duration": 33572,
     "name": "The Legend of Zelda: Tears of the Kingdom #6",
     "date": "2023-05-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/1832232698.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1832232698+0.ass"
   },
@@ -12864,5 +12862,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1869063797.torrent",
     "games": ["snowrunner", "tricky-towers", "heave-ho"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1869063797.ass"
+  },
+  "1869925818": {
+    "abs_start": 0, "abs_end": 19885, "duration": 19885,
+    "name": "Не размечено - Amnesia: Rebirth",
+    "date": "2023-07-12",
+    "direct": "https://bsufiles.drhx.ru/streams/1869925818.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1869925818.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1869925818.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1869925818.ass"
   }
 }
