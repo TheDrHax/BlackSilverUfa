@@ -12559,7 +12559,6 @@
     "youtube": "SWPqHHH6P2c", "abs_start": 0, "abs_end": 20935, "duration": 20935,
     "name": "Shame Legacy / System Shock - Релиз",
     "date": "2023-05-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/1833150878.torrent",
     "games": ["first-2023", "system-shock"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1833150878.ass"
   },
@@ -12876,5 +12875,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1870792843.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1870792843.ass"
+  },
+  "1871657339": {
+    "abs_start": 0, "abs_end": 19550, "duration": 19550,
+    "name": "Не размечено - Voidtrain",
+    "date": "2023-07-14",
+    "direct": "https://bsufiles.drhx.ru/streams/1871657339.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1871657339.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1871657339.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1871657339.ass"
   }
 }
