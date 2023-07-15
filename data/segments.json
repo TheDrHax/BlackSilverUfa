@@ -12883,5 +12883,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1871657339.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1871657339.ass"
+  },
+  "1872459569": {
+    "abs_start": 0, "abs_end": 7920, "duration": 7920,
+    "name": "Не размечено - Jagged Alliance 3",
+    "date": "2023-07-15",
+    "direct": "https://bsufiles.drhx.ru/streams/1872459569.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1872459569.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1872459569.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1872459569.ass"
   }
 }
