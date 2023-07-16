@@ -12563,22 +12563,16 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1833150878.ass"
   },
   "1833989886": {
-    "abs_start": 0, "abs_end": 12304, "duration": 12304,
+    "abs_start": 0, "abs_end": 12319, "duration": 0,
     "name": "",
     "date": "2023-05-31",
-    "direct": "https://bsufiles.drhx.ru/streams/1833989886.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1833989886.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1833989886.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1833989886.ass"
   },
   "1834110105": {
-    "abs_start": 0, "abs_end": 7633, "duration": 7633,
+    "abs_start": 0, "abs_end": 7642, "duration": 0,
     "name": "",
     "date": "2023-05-31",
-    "direct": "https://bsufiles.drhx.ru/streams/1834110105.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1834110105.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1834110105.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1834110105.ass"
   },
@@ -12891,5 +12885,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1872459569.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1872459569.ass"
+  },
+  "1873395096": {
+    "abs_start": 0, "abs_end": 21599, "duration": 21599,
+    "name": "Не размечено - Abandoned Souls | Schwarzwald | Backrooms: Realm of Shadows | The Tunnel | Fear Underground | Endless Suburbia | ABEL | Blood Field | Paranormal Observation | Vorax",
+    "date": "2023-07-16",
+    "direct": "https://bsufiles.drhx.ru/streams/1873395096.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1873395096.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1873395096.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1873395096.ass"
   }
 }

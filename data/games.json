@@ -13042,6 +13042,18 @@
       ] },
       { "segment": "1872459569", "subrefs": [
         { "name": "Jagged Alliance 3" }
+      ] },
+      { "segment": "1873395096", "subrefs": [
+        { "name": "Abandoned Souls", "start": 2346 },
+        { "name": "Schwarzwald", "start": 6991 },
+        { "name": "Backrooms: Realm of Shadows", "start": 8615 },
+        { "name": "The Tunnel", "start": 9821 },
+        { "name": "Fear Underground", "start": 10223 },
+        { "name": "Endless Suburbia", "start": 10925 },
+        { "name": "ABEL", "start": 14140 },
+        { "name": "Blood Field", "start": 15749 },
+        { "name": "Paranormal Observation", "start": 17239 },
+        { "name": "Vorax", "start": 19322 }
       ] }
     ]
   }
