@@ -12994,6 +12994,9 @@
       ] },
       { "segment": "1551976425", "subrefs": [
         { "name": "2", "start": 3102 }
+      ] },
+      { "segment": "1876874955", "subrefs": [
+        { "name": "3", "start": 17591 }
       ] }
     ]
   },
@@ -13054,6 +13057,10 @@
         { "name": "Blood Field", "start": 15749 },
         { "name": "Paranormal Observation", "start": 17239 },
         { "name": "Vorax", "start": 19322 }
+      ] },
+      { "segment": "1876874955", "subrefs": [
+        { "name": "Please, Forgive Me", "start": 2376 },
+        { "name": "Unholy", "start": 8782 }
       ] }
     ]
   }

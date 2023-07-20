@@ -12581,7 +12581,6 @@
     "name": "Зайчик (Tiny Bunny) - Эпизод 4 / MyHouse.wad / Stasis: Bone Totem - Релиз",
     "date": "2023-05-31",
     "offsets": [0, 12307],
-    "torrent": "https://bsufiles.drhx.ru/streams/1833989886,1834110105.torrent",
     "games": ["tiny-bunny", "single", "stasis-bt"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1833989886,1834110105+0.ass"
   },
@@ -12589,7 +12588,6 @@
     "youtube": "d6rc6LING2w", "abs_start": 0, "abs_end": 32527, "duration": 32527,
     "name": "The Legend of Zelda: Tears of the Kingdom #7",
     "date": "2023-06-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/1834756368.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1834756368+0.ass"
   },
@@ -12893,5 +12891,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1873395096.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1873395096.ass"
+  },
+  "1876874955": {
+    "abs_start": 0, "abs_end": 22394, "duration": 22394,
+    "name": "Не размечено - Please, Forgive Me | Unholy / The Mortuary Assistant #3",
+    "date": "2023-07-20",
+    "direct": "https://bsufiles.drhx.ru/streams/1876874955.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1876874955.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1876874955.torrent",
+    "games": ["todo", "mortuary-assistant"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1876874955.ass"
   }
 }
