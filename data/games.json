@@ -13063,7 +13063,10 @@
         { "name": "Unholy", "start": 8782 }
       ] },
       { "segment": "1877734451", "subrefs": [
-        { "name": "Exoprimal", "start": 1693 }
+        { "name": "Exoprimal #1", "start": 1693 }
+      ] },
+      { "segment": "1877816047", "subrefs": [
+        { "name": "Exoprimal #2" }
       ] }
     ]
   }

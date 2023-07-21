@@ -12904,12 +12904,22 @@
   },
   "1877734451": {
     "abs_start": 0, "abs_end": 8989, "duration": 8989,
-    "name": "Не размечено - Exoprimal",
+    "name": "Не размечено - Exoprimal #1",
     "date": "2023-07-21",
     "direct": "https://bsufiles.drhx.ru/streams/1877734451.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/1877734451.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/1877734451.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1877734451.ass"
+  },
+  "1877816047": {
+    "abs_start": 0, "abs_end": 4470, "duration": 4470,
+    "name": "Не размечено - Exoprimal #2",
+    "date": "2023-07-21",
+    "direct": "https://bsufiles.drhx.ru/streams/1877816047.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1877816047.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1877816047.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1877816047.ass"
   }
 }
