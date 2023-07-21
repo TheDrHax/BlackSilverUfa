@@ -12921,5 +12921,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1877816047.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1877816047.ass"
+  },
+  "1877882907": {
+    "abs_start": 0, "abs_end": 5532, "duration": 5532,
+    "name": "Не размечено - Tekken 8",
+    "date": "2023-07-21",
+    "direct": "https://bsufiles.drhx.ru/streams/1877882907.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1877882907.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1877882907.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1877882907.ass"
   }
 }
