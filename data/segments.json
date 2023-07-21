@@ -12901,5 +12901,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1876874955.torrent",
     "games": ["todo", "mortuary-assistant"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1876874955.ass"
+  },
+  "1877734451": {
+    "abs_start": 0, "abs_end": 8989, "duration": 8989,
+    "name": "Не размечено - Exoprimal",
+    "date": "2023-07-21",
+    "direct": "https://bsufiles.drhx.ru/streams/1877734451.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1877734451.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1877734451.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1877734451.ass"
   }
 }
