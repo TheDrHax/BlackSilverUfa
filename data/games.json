@@ -13062,14 +13062,9 @@
         { "name": "Please, Forgive Me", "start": 2376 },
         { "name": "Unholy", "start": 8782 }
       ] },
-      { "segment": "1877734451", "subrefs": [
-        { "name": "Exoprimal #1", "start": 1693 }
-      ] },
-      { "segment": "1877816047", "subrefs": [
-        { "name": "Exoprimal #2" }
-      ] },
-      { "segment": "1877882907", "subrefs": [
-        { "name": "Tekken 8" }
+      { "segment": "1877734451,1877816047,1877882907", "subrefs": [
+        { "name": "Exoprimal", "start": 1693 },
+        { "name": "Tekken 8", "start": 13455 }
       ] }
     ]
   }
