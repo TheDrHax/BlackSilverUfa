@@ -6,6 +6,7 @@ import { tokenize } from './utils/text-utils';
 import loadData from './data.prod';
 import config from '../../config/config.json';
 import { upsert, getBaseSegment } from './utils/data-utils';
+import { ptime } from './utils/time-utils';
 
 const fallbackPrefix = config.fallback.prefix;
 
@@ -133,7 +134,7 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
 
       segment.offsets = Object.fromEntries(zip(
         segment.streams,
-        segment.offsets || [segment.abs_start],
+        segment.offsets?.map((o) => ptime(o.split('+')[0])) || [segment.abs_start],
       ));
 
       segment.watched = 0;

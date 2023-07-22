@@ -401,10 +401,7 @@ class Segment:
 
             if key == 'offsets':
                 if self.stream.type is StreamType.JOINED:
-                    if compiled:
-                        value = [int(t) for t in value]
-                    else:
-                        value = value.to_list(delta=True)
+                    value = value.to_list(delta=True)
                 else:
                     continue
 
