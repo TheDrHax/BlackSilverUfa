@@ -1,6 +1,6 @@
 """Usage:
   cli [options] stream add <stream>
-  cli [options] stream join <streams>... --offsets <offsets> [segment_options]
+  cli [options] stream join <streams> <offsets>
   cli [options] segment (get | set | update) <stream> [<segment>] [segment_options]
   cli [options] segment add <stream> (--youtube <id> | --direct <url>) [segment_options]
   cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>] [--fail-if-cut]
@@ -496,12 +496,11 @@ def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
     if args['stream'] and args['join']:
-        stream_id = ','.join(args['<streams>'])
+        stream_id = args['<streams>']
         assert stream_id not in streams
 
-        segment_kwargs = parse_segment(args)
-        targets = [streams[x] for x in args['<streams>']]
-        offsets = segment_kwargs['offsets']
+        targets = [streams[x] for x in stream_id.split(',')]
+        offsets = Timecodes(args['<offsets>'].split(','))
         assert len(targets) == len(offsets)
 
         stream = Stream(key=stream_id, data=[], streams=targets)
