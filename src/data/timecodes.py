@@ -45,14 +45,15 @@ class Timecode:
 
     @classmethod
     def _parse_str(cls, value: str) -> Tuple[int, int]:
-        parts = value.split('~')
-
-        if len(parts) == 1:
-            start = cls._ptime(parts[0])
-            return start, start
+        if '~' in value:
+            start, end = [cls._ptime(i) for i in value.split('~')]
+        elif '+' in value:
+            start, end = [cls._ptime(i) for i in value.split('+')]
+            end = start + end
         else:
-            start, end = [cls._ptime(i) for i in parts]
-            return start, end
+            start = end = cls._ptime(value)
+
+        return start, end
 
     PARSERS = {
         'Timecode': lambda x: (x._start, x._end),
@@ -106,11 +107,17 @@ class Timecode:
     def __int__(self) -> int:
         return self._start
 
-    def __str__(self) -> str:
+    def to_str(self, delta=False) -> str:
         if self._start != self._end:
-            return self._ftime(self._start) + '~' + self._ftime(self._end)
+            if not delta:
+                return self._ftime(self._start) + '~' + self._ftime(self._end)
+
+            return self._ftime(self._start) + '+' + str(self._end - self._start)
         else:
             return self._ftime(self._start)
+
+    def __str__(self) -> str:
+        return self.to_str(delta=False)
 
     def __repr__(self) -> str:
         return f'T({self})'
@@ -323,18 +330,18 @@ class Timecodes(SortedKeyList):
     def is_list(self):
         return not any(t.name or isinstance(t, Timecodes) for t in self)
 
-    def to_list(self):
-        return [str(tc) for tc in self]
+    def to_list(self, delta=False):
+        return [tc.to_str(delta) for tc in self]
 
-    def to_dict(self) -> NESTED_TYPE:
+    def to_dict(self, delta=False) -> NESTED_TYPE:
         result = {}
 
         for t in self:
             if isinstance(t, Timecodes):
                 if t.is_list:
-                    result[t.name] = t.to_list()
+                    result[t.name] = t.to_list(delta)
                 else:
-                    result[t.name] = t.to_dict()
+                    result[t.name] = t.to_dict(delta)
             else:
                 result[str(t)] = t.name
 

@@ -77,7 +77,7 @@ class Segment:
                     res.add(t)
 
             if i > 0 and offset > 0 and offset not in res:
-                res.add(Timecode(offset, name=f'{i+1}-й стрим'))
+                res.add(Timecode(offset.end, name=f'{i+1}-й стрим'))
 
         return res
 
@@ -404,7 +404,7 @@ class Segment:
                     if compiled:
                         value = [int(t) for t in value]
                     else:
-                        value = value.to_list()
+                        value = value.to_list(delta=True)
                 else:
                     continue
 
