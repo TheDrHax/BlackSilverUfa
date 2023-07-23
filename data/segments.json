@@ -12609,7 +12609,6 @@
     "youtube": "NGtEKt2rqQY", "abs_start": 0, "abs_end": 27205, "duration": 27205,
     "name": "Amnesia: The Bunker #1",
     "date": "2023-06-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/1838317678.torrent",
     "games": ["amnesia-bunker"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1838317678.ass"
   },
@@ -12939,12 +12938,22 @@
   },
   "1878676339": {
     "abs_start": 0, "abs_end": 23483, "duration": 23483,
-    "name": "Не размечено - Remnant II",
+    "name": "Не размечено - Remnant II #1",
     "date": "2023-07-22",
     "direct": "https://bsufiles.drhx.ru/streams/1878676339.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/1878676339.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/1878676339.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1878676339+0.ass"
+  },
+  "1879541964": {
+    "abs_start": 0, "abs_end": 23338, "duration": 23338,
+    "name": "Не размечено - Remnant II #2",
+    "date": "2023-07-23",
+    "direct": "https://bsufiles.drhx.ru/streams/1879541964.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1879541964.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1879541964.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1879541964.ass"
   }
 }
