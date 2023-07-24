@@ -6,6 +6,7 @@ import FooterLinksGroup from './footer-links-group';
 import { common as t } from '../../constants/texts';
 import { renderTemplate } from '../../utils/text-utils';
 import { FAIcon } from '../../utils/fontawesome';
+import config from '../../../../config/config.json';
 
 export const USEFUL_LINKS = [
   {
@@ -24,7 +25,7 @@ export const USEFUL_LINKS = [
   },
   {
     label: t.footer.denialLabel,
-    link: 'https://matomo.thedrhax.pw/index.php?module=CoreAdminHome&action=optOut&language=ru',
+    link: `${config.matomo.urlBase}/index.php?module=CoreAdminHome&action=optOut&language=ru`,
   },
 ];
 

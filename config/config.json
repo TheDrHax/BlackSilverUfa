@@ -6,6 +6,10 @@
     "user": "TheDrHax",
     "repo": "BlackSilverUfa"
   },
+  "matomo": {
+    "urlBase": "https://matomo.drhx.ru/",
+    "siteId": 6
+  },
   "versions": {
     "data": {
       "major": 3,
