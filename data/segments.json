@@ -12616,7 +12616,6 @@
     "youtube": "8loiBU4M3SA", "abs_start": 0, "abs_end": 27098, "duration": 27098,
     "name": "The Legend of Zelda: Tears of the Kingdom #8 / Amnesia: The Bunker #2",
     "date": "2023-06-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/1839110969.torrent",
     "games": ["tloz_totk", "amnesia-bunker"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1839110969.ass"
   },
@@ -12954,12 +12953,22 @@
   },
   "1880378307": {
     "abs_start": 0, "abs_end": 20742, "duration": 20742,
-    "name": "Не размечено - The Complex: Expedition | Chester: Into the Light | Lunacy: Saint Rhodes",
+    "name": "Не размечено - The Complex: Expedition | Chester: Into the Light | Lunacy: Saint Rhodes #1",
     "date": "2023-07-24",
     "direct": "https://bsufiles.drhx.ru/streams/1880378307.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/1880378307.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/1880378307.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1880378307.ass"
+  },
+  "1881238247": {
+    "abs_start": 0, "abs_end": 21454, "duration": 21454,
+    "name": "Не размечено - The Backrooms - Dreams | My Friendly Neighborhood | Granny Remake / The Mortuary Assistant #4 / Не размечено - Lunacy: Saint Rhodes #2",
+    "date": "2023-07-25",
+    "direct": "https://bsufiles.drhx.ru/streams/1881238247.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1881238247.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1881238247.torrent",
+    "games": ["todo", "mortuary-assistant"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1881238247.ass"
   }
 }
