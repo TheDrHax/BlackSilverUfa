@@ -12623,7 +12623,6 @@
     "youtube": "uvprUW1rEYw", "abs_start": 0, "abs_end": 21974, "duration": 21974,
     "name": "неПрофессиональный \"E3\" 2023 - Summer Game Fest (обзор) | Devolver Direct (соло) / Greyhill Incident",
     "date": "2023-06-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/1841766037.torrent",
     "games": ["e3-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1841766037.ass"
   },
@@ -12970,5 +12969,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1881238247.torrent",
     "games": ["todo", "mortuary-assistant"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1881238247.ass"
+  },
+  "1882127125": {
+    "abs_start": 0, "abs_end": 22099, "duration": 22099,
+    "name": "Не размечено - Remnant II #3",
+    "date": "2023-07-26",
+    "direct": "https://bsufiles.drhx.ru/streams/1882127125.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1882127125.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1882127125.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1882127125.ass"
   }
 }
