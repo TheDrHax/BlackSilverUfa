@@ -12630,7 +12630,6 @@
     "youtube": "7lgkt5JPSh8", "abs_start": 0, "abs_end": 20900, "duration": 20900,
     "name": "Lies of P (демо) / неПрофессиональный \"E3\" 2023 - Wholesome Direct | Future Games Show",
     "date": "2023-06-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/1842665393.torrent",
     "games": ["first-2023", "e3-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1842665393+0.ass"
   },
@@ -12979,5 +12978,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1882127125.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1882127125.ass"
+  },
+  "1882948971": {
+    "abs_start": 0, "abs_end": 24941, "duration": 24941,
+    "name": "The Legend of Zelda: Tears of the Kingdom #13",
+    "date": "2023-07-27",
+    "direct": "https://bsufiles.drhx.ru/streams/1882948971.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1882948971.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1882948971.torrent",
+    "games": ["tloz_totk"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1882948971.ass"
   }
 }
