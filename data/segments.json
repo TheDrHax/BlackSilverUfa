@@ -12988,5 +12988,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1882948971.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1882948971.ass"
+  },
+  "1883946844": {
+    "abs_start": 0, "abs_end": 6049, "duration": 6049,
+    "name": "The Mortuary Assistant #5",
+    "date": "2023-07-28",
+    "direct": "https://bsufiles.drhx.ru/streams/1883946844.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1883946844.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1883946844.torrent",
+    "games": ["mortuary-assistant"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1883946844.ass"
   }
 }
