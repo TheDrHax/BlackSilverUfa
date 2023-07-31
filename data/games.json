@@ -13006,6 +13006,9 @@
       ] },
       { "segment": "1883946844", "subrefs": [
         { "name": "5", "start": 4097 }
+      ] },
+      { "segment": "1886428924", "subrefs": [
+        { "name": "6", "start": 9300 }
       ] }
     ]
   },
@@ -13094,6 +13097,10 @@
       ] },
       { "segment": "1882127125", "subrefs": [
         { "name": "Remnant II #3", "start": 3861 }
+      ] },
+      { "segment": "1886428924", "subrefs": [
+        { "name": "The Ghost Train", "start": 2827 },
+        { "name": "Lunacy: Saint Rhodes #3", "start": 15082 }
       ] }
     ]
   }

@@ -12646,7 +12646,6 @@
     "youtube": "KDiOOuSm_P4", "abs_start": 0, "abs_end": 23966, "duration": 23966,
     "name": "Final Fantasy XVI - Демо / неПрофессиональный \"E3\" 2023 - PC Gaming Show (обзор) | Ubisoft Forward",
     "date": "2023-06-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/1844321743.torrent",
     "games": ["ff-xvi", "e3-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1844321743.ass"
   },
@@ -12991,5 +12990,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1883946844.torrent",
     "games": ["mortuary-assistant"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1883946844.ass"
+  },
+  "1886428924": {
+    "abs_start": 0, "abs_end": 18351, "duration": 18351,
+    "name": "Не размечено - The Ghost Train / The Mortuary Assistant #6 / Не размечено - Lunacy: Saint Rhodes #3",
+    "date": "2023-07-31",
+    "direct": "https://bsufiles.drhx.ru/streams/1886428924.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1886428924.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1886428924.torrent",
+    "games": ["todo", "mortuary-assistant"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1886428924.ass"
   }
 }
