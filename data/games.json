@@ -707,7 +707,7 @@
   },
   {
     "name": "Redfall",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "redfall",
     "streams": [
       { "segment": "1809409736", "subrefs": [
@@ -13101,6 +13101,9 @@
       { "segment": "1886428924", "subrefs": [
         { "name": "The Ghost Train", "start": 2827 },
         { "name": "Lunacy: Saint Rhodes #3", "start": 15082 }
+      ] },
+      { "segment": "1887286714", "subrefs": [
+        { "name": "Remnant II #4", "start": 3639 }
       ] }
     ]
   }

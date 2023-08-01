@@ -12641,22 +12641,16 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1844321743.ass"
   },
   "1845108311": {
-    "abs_start": 0, "abs_end": 29469, "duration": 29469,
+    "abs_start": 0, "abs_end": 29544, "duration": 0,
     "name": "The Legend of Zelda: Tears of the Kingdom #9",
     "date": "2023-06-13",
-    "direct": "https://bsufiles.drhx.ru/streams/1845108311.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1845108311.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1845108311.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1845108311+0.ass"
   },
   "1846924247": {
-    "abs_start": 0, "abs_end": 19235, "duration": 19235,
+    "abs_start": 0, "abs_end": 19252, "duration": 0,
     "name": "Layers of Fear (2023) #1",
     "date": "2023-06-15",
-    "direct": "https://bsufiles.drhx.ru/streams/1846924247.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1846924247.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1846924247.torrent",
     "games": ["lof-23"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1846924247.ass"
   },
@@ -13061,5 +13055,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1886428924.torrent",
     "games": ["todo", "mortuary-assistant"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1886428924.ass"
+  },
+  "1887286714": {
+    "abs_start": 0, "abs_end": 22554, "duration": 22554,
+    "name": "Не размечено - Remnant II #4",
+    "date": "2023-08-01",
+    "direct": "https://bsufiles.drhx.ru/streams/1887286714.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1887286714.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1887286714.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1887286714.ass"
   }
 }
