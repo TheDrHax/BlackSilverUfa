@@ -13109,7 +13109,11 @@
         { "name": "Remnant II #4", "start": 3639 }
       ] },
       { "segment": "1888133609", "subrefs": [
-        { "name": "Atomic Heart: Annihilation Instinct", "start": 15715 }
+        { "name": "Atomic Heart: Annihilation Instinct #1", "start": 15715 }
+      ] },
+      { "segment": "1888974774", "subrefs": [
+        { "name": "Atomic Heart: Annihilation Instinct #2" },
+        { "name": "Baldur's Gate 3", "start": 20049 }
       ] }
     ]
   }
