@@ -5372,7 +5372,7 @@
         { "name": "Посылки (30.12.18)" }
       ] },
       { "segment": "366354053", "subrefs": [
-        { "name": "Asus ROG Phone" }
+        { "name": "Asus ROG Phone", "start": 392 }
       ] },
       { "segment": "420241791.1", "subrefs": [
         { "name": "Asus ROG Zephyrus", "start": 5103 },
@@ -5441,7 +5441,7 @@
       { "segment": "220513992", "subrefs": [
         { "name": "2", "start": 3986 }
       ] },
-      { "segment": "366354053.1", "subrefs": [
+      { "segment": "366354053", "subrefs": [
         { "name": "3", "start": 8784 }
       ] },
       { "segment": "367994742", "subrefs": [
@@ -5469,7 +5469,7 @@
       { "segment": "290213414", "subrefs": [
         { "name": "3" }
       ] },
-      { "segment": "366354053.1", "subrefs": [
+      { "segment": "366354053", "subrefs": [
         { "name": "4", "start": 4204 }
       ] },
       { "segment": "372293257", "subrefs": [
