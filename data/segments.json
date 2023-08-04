@@ -12673,7 +12673,6 @@
     "name": "Layers of Fear (2023) #2",
     "date": "2023-06-16",
     "offsets": ["0:00", "1:00:44+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/1847650355,1847673917.torrent",
     "games": ["lof-23"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1847650355,1847673917+0.ass"
   },
@@ -13005,5 +13004,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1888974774.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1888974774.ass"
+  },
+  "1889874082": {
+    "abs_start": 0, "abs_end": 16388, "duration": 16388,
+    "name": "Не размечено - Welcome to Kowloon / The Mortuary Assistant #7",
+    "date": "2023-08-04",
+    "direct": "https://bsufiles.drhx.ru/streams/1889874082.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1889874082.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1889874082.torrent",
+    "games": ["todo", "mortuary-assistant"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1889874082.ass"
   }
 }

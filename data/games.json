@@ -13012,6 +13012,9 @@
       ] },
       { "segment": "1886428924", "subrefs": [
         { "name": "6", "start": 9300 }
+      ] },
+      { "segment": "1889874082", "subrefs": [
+        { "name": "7", "start": 7575 }
       ] }
     ]
   },
@@ -13114,6 +13117,9 @@
       { "segment": "1888974774", "subrefs": [
         { "name": "Atomic Heart: Annihilation Instinct #2" },
         { "name": "Baldur's Gate 3", "start": 20049 }
+      ] },
+      { "segment": "1889874082", "subrefs": [
+        { "name": "Welcome to Kowloon", "start": 2940 }
       ] }
     ]
   }
