@@ -13014,5 +13014,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1889874082.torrent",
     "games": ["todo", "mortuary-assistant"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1889874082.ass"
+  },
+  "1890707460": {
+    "abs_start": 0, "abs_end": 8018, "duration": 8018,
+    "name": "The Legend of Zelda: Tears of the Kingdom #14",
+    "date": "2023-08-05",
+    "direct": "https://bsufiles.drhx.ru/streams/1890707460.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1890707460.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1890707460.torrent",
+    "games": ["tloz_totk"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1890707460+0.ass"
   }
 }
