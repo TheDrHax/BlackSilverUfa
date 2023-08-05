@@ -12680,7 +12680,6 @@
     "youtube": "E5X6uhmwk4c", "official": false, "abs_start": 0, "abs_end": 9280, "duration": 9280,
     "name": "The Legend of Zelda: Tears of the Kingdom #10",
     "date": "2023-06-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/1847820448.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1847820448.ass"
   },
@@ -12688,7 +12687,6 @@
     "youtube": "m-Z4eWWMN7Y", "official": false, "abs_start": 0, "abs_end": 27162, "duration": 27162,
     "name": "The Legend of Zelda: Tears of the Kingdom #11",
     "date": "2023-06-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/1848514917.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1848514917.ass"
   },
@@ -13024,5 +13022,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1890707460.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1890707460+0.ass"
+  },
+  "1890774077": {
+    "abs_start": 0, "abs_end": 14947, "duration": 14947,
+    "name": "The Legend of Zelda: Tears of the Kingdom #15",
+    "date": "2023-08-05",
+    "direct": "https://bsufiles.drhx.ru/streams/1890774077.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1890774077.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1890774077.torrent",
+    "games": ["tloz_totk"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1890774077.ass"
   }
 }
