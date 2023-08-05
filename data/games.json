@@ -408,7 +408,7 @@
         { "name": "1 (часть 1)" }
       ] },
       { "segment": "647860070", "subrefs": [
-        { "name": "1 (часть 2)", "start": 61 }
+        { "name": "1 (часть 2)" }
       ] }
     ]
   },
@@ -3074,8 +3074,8 @@
     "category": "expos",
     "id": "e3_2020",
     "streams": [
-      { "segment": "647860070", "subrefs": [
-        { "name": "Sony", "start": 11558 }
+      { "segment": "647860070.1", "subrefs": [
+        { "name": "Sony" }
       ] },
       { "segment": "649632498", "subrefs": [
         { "name": "PC Gaming Show", "start": 18034 }
@@ -4080,7 +4080,7 @@
       { "segment": "1656106367", "subrefs": [
         { "name": "Somerville", "start": 6152 }
       ] },
-      { "segment": "1657037267", "subrefs": [
+      { "segment": "1657037267.1", "subrefs": [
         { "name": "The Dark Pictures: The Devil in Me", "start": 10268 }
       ] },
       { "segment": "1663155573", "subrefs": [
@@ -5375,7 +5375,7 @@
         { "name": "Посылки (30.12.18)" }
       ] },
       { "segment": "366354053", "subrefs": [
-        { "name": "Asus ROG Phone", "start": 392 }
+        { "name": "Asus ROG Phone" }
       ] },
       { "segment": "420241791.1", "subrefs": [
         { "name": "Asus ROG Zephyrus", "start": 5103 },
@@ -5444,7 +5444,7 @@
       { "segment": "220513992", "subrefs": [
         { "name": "2", "start": 3986 }
       ] },
-      { "segment": "366354053", "subrefs": [
+      { "segment": "366354053.1", "subrefs": [
         { "name": "3", "start": 8784 }
       ] },
       { "segment": "367994742", "subrefs": [
@@ -5472,7 +5472,7 @@
       { "segment": "290213414", "subrefs": [
         { "name": "3" }
       ] },
-      { "segment": "366354053", "subrefs": [
+      { "segment": "366354053.1", "subrefs": [
         { "name": "4", "start": 4204 }
       ] },
       { "segment": "372293257", "subrefs": [
@@ -9454,8 +9454,8 @@
     "category": "finished",
     "id": "cod-bo-cw",
     "streams": [
-      { "segment": "801377729", "subrefs": [
-        { "name": "1", "start": 771 }
+      { "segment": "801377729.1", "subrefs": [
+        { "name": "1" }
       ] },
       { "segment": "804979766", "subrefs": [
         { "name": "2" }
