@@ -5084,11 +5084,8 @@
       { "segment": "1882948971", "subrefs": [
         { "name": "13", "start": 427 }
       ] },
-      { "segment": "1890707460", "subrefs": [
+      { "segment": "1890707460,1890774077", "subrefs": [
         { "name": "14" }
-      ] },
-      { "segment": "1890774077", "subrefs": [
-        { "name": "15" }
       ] }
     ]
   },
