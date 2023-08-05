@@ -1,7 +1,7 @@
 import React from 'react';
 import reverse from 'lodash/reverse';
 import truncate from 'lodash/truncate';
-import { Button, Card, Col, Ratio, Row, Alert } from 'react-bootstrap';
+import { Button, Card, Col, Ratio, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Layout } from '../../components';
 import { StatsBlock } from './stats';
@@ -42,13 +42,6 @@ export default function MainPage() {
           раздаются через торренты. Доступность всех записей на YouTube ежедневно проверяется, а
           заблокированные видео обычно перезаливаются в тот же день.
         </p>
-
-        <Alert variant="danger">
-          Канал &quot;Записи стримов Блэка&quot; был взломан 1 августа и в данный момент недоступен.
-          На этом канале хранилось больше 1000 стримов, так что в данный момент они недоступны и
-          здесь. Эти записи не утеряны, но на их восстановление потребуется некоторое время.
-          Я работаю над этим :)
-        </Alert>
       </Row>
 
       <StatsBlock />
