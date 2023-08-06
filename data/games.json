@@ -7326,7 +7326,7 @@
   },
   {
     "name": "The Last Case of Benedict Fox",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "benedict-fox",
     "streams": [
       { "segment": "1809409736", "subrefs": [
@@ -7355,7 +7355,7 @@
   },
   {
     "name": "Survival: Fountain of Youth",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "survival-foy",
     "streams": [
       { "segment": "1547156682", "subrefs": [
@@ -13123,6 +13123,17 @@
       ] },
       { "segment": "1889874082", "subrefs": [
         { "name": "Welcome to Kowloon", "start": 2940 }
+      ] },
+      { "segment": "1891624092", "subrefs": [
+        { "name": "Where Is Sarah?", "start": 2324 },
+        { "name": "Episode 666", "start": 5248 },
+        { "name": "Step into the dark", "start": 6652 },
+        { "name": "Unsorted Horror", "start": 8144 },
+        { "name": "Haunted PS1 Demo Disc", "start": 10738 },
+        { "name": "The Lunar Effect", "start": 12730 },
+        { "name": "The Duck Psychology", "start": 14878 },
+        { "name": "Concrete Tremor", "start": 15588 },
+        { "name": "Tartarus Engine", "start": 17673 }
       ] }
     ]
   }
