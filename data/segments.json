@@ -12733,7 +12733,6 @@
     "youtube": "Xv4TtHNboJQ", "abs_start": 0, "abs_end": 30473, "duration": 30473,
     "name": "Final Fantasy XVI #3",
     "date": "2023-06-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/1853577518.torrent",
     "games": ["ff-xvi"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1853577518.ass"
   },
@@ -13070,5 +13069,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1895024644.torrent",
     "games": ["todo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1895024644.ass"
+  },
+  "1895922463": {
+    "abs_start": 0, "abs_end": 21805, "duration": 21805,
+    "name": "Не размечено - Pacify / Labyrinthine #3 / Не размечено - Holy Purge | Surrounded | Cartoon Rage",
+    "date": "2023-08-11",
+    "direct": "https://bsufiles.drhx.ru/streams/1895922463.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1895922463.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1895922463.torrent",
+    "games": ["todo", "labyrinthine"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1895922463.ass"
   }
 }
