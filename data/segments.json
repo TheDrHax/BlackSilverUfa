@@ -4947,9 +4947,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v452633607.ass"
   },
   "454019548": {
-    "youtube": "YN30SaQxsMs", "official": false, "abs_start": 0, "abs_end": 10542, "duration": 10542,
+    "abs_start": 0, "abs_end": 10542, "duration": 10542,
     "name": "Thief Simulator",
     "date": "2019-07-17",
+    "direct": "https://bsufiles.drhx.ru/streams/454019548.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/454019548.mp4/master.m3u8",
     "games": ["first-2019"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v454019548.ass"
   },
