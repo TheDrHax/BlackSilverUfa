@@ -12724,7 +12724,6 @@
     "youtube": "w-ZDM7ZbwxY", "abs_start": 0, "abs_end": 31053, "duration": 31053,
     "name": "Final Fantasy XVI #2",
     "date": "2023-06-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/1852712395.torrent",
     "games": ["ff-xvi"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1852712395+0.ass"
   },
@@ -13059,5 +13058,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1894178506.torrent",
     "games": ["trailers", "todo", "mortuary-assistant"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1894178506.ass"
+  },
+  "1895024644": {
+    "abs_start": 0, "abs_end": 29310, "duration": 29310,
+    "name": "Не размечено - Street Fighter 6 | Remnant II #5",
+    "date": "2022-08-10",
+    "direct": "https://bsufiles.drhx.ru/streams/1895024644.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1895024644.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1895024644.torrent",
+    "games": ["todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1895024644.ass"
   }
 }
