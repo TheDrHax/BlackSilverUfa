@@ -702,6 +702,9 @@
       ] },
       { "segment": "1804882802", "subrefs": [
         { "name": "Inout", "start": 7486 }
+      ] },
+      { "segment": "1866511537", "subrefs": [
+        { "name": "Super Bunny Man", "start": 4645 }
       ] }
     ]
   },
@@ -4272,6 +4275,10 @@
         { "name": "The Diner", "start": 13121 },
         { "name": "The Muller-Powell Principle (демо)", "start": 13754 },
         { "name": "Unknown Memoirs: The Rental", "start": 16781 }
+      ] },
+      { "segment": "1861382266", "subrefs": [
+        { "name": "Bratz: Rock Angelz", "start": 1003 },
+        { "name": "Bratz: Girlz Really Rock", "start": 8087 }
       ] }
     ]
   },
@@ -6960,8 +6967,7 @@
       ] },
       { "segment": "1559742064", "subrefs": [
         { "name": "Twisted Metal: Small Brawl", "start": 6655 },
-        { "name": "Hercules", "start": 11357 },
-        { "name": "Chessmaster II", "start": 15950 }
+        { "name": "Hercules", "start": 11357 }
       ] },
       { "segment": "1561677559", "subrefs": [
         { "name": "Dinner With Strangers (демо)", "start": 5354 },
@@ -7081,6 +7087,19 @@
       ] },
       { "segment": "1690952607", "subrefs": [
         { "name": "The Thing (by PanzerCat)", "start": 14049 }
+      ] }
+    ]
+  },
+  {
+    "name": "Chessmaster II",
+    "category": "ongoing",
+    "id": "chessmaster-2",
+    "streams": [
+      { "segment": "1559742064", "subrefs": [
+        { "name": "1", "start": 15950 }
+      ] },
+      { "segment": "1860536794", "subrefs": [
+        { "name": "2", "start": 8694 }
       ] }
     ]
   },
@@ -7251,6 +7270,10 @@
         { "name": "Ebola Village (демо)", "start": 3879 },
         { "name": "SCP: Observer", "start": 6838 },
         { "name": "Horror Stories: Harvest Hunt", "start": 18314 }
+      ] },
+      { "segment": "1860536794", "subrefs": [
+        { "name": "Disney's Tarzan", "start": 3881 },
+        { "name": "Looney Tunes: Sheep Raider", "start": 13556 }
       ] }
     ]
   },
@@ -10020,7 +10043,7 @@
         { "name": "20", "start": 14835 }
       ] },
       { "segment": "1866511537", "subrefs": [
-        { "name": "21", "start": 7486 }
+        { "name": "21", "start": 7601 }
       ] },
       { "segment": "1869063797", "subrefs": [
         { "name": "22", "start": 4200 }
@@ -12367,6 +12390,9 @@
       ] },
       { "segment": "1614024019", "subrefs": [
         { "name": "8" }
+      ] },
+      { "segment": "1860536794", "subrefs": [
+        { "name": "9" }
       ] }
     ]
   },
@@ -13035,18 +13061,6 @@
     "category": "other",
     "id": "todo",
     "streams": [
-      { "segment": "1860536794", "subrefs": [
-        { "name": "Disney's Tarzan", "start": 3808 },
-        { "name": "Chessmaster II", "start": 8602 },
-        { "name": "Looney Tunes: Sheep Raider", "start": 13453 }
-      ] },
-      { "segment": "1861382266", "subrefs": [
-        { "name": "Bratz: Rock Angelz", "start": 962 },
-        { "name": "Bratz: Girlz Really Rock", "start": 8038 }
-      ] },
-      { "segment": "1866511537", "subrefs": [
-        { "name": "Super Bunny Man", "start": 4640 }
-      ] },
       { "segment": "1867374437", "subrefs": [
         { "name": "Страшно и точка", "start": 1624 },
         { "name": "Ouija", "start": 3482 },
