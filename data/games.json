@@ -4287,6 +4287,14 @@
         { "name": "Chosen Who", "start": 15288 },
         { "name": "Call of the Fire", "start": 18123 },
         { "name": "Mannequin", "start": 18402 }
+      ] },
+      { "segment": "1896806146", "subrefs": [
+        { "name": "On The Bus", "start": 4591 },
+        { "name": "Nocturia", "start": 5437 },
+        { "name": "Last Signal", "start": 10622 },
+        { "name": "Ergophobia", "start": 11314 },
+        { "name": "Depth of Contamination", "start": 15574 },
+        { "name": "Slender: Return to Rosswood Park", "start": 16900 }
       ] }
     ]
   },
@@ -7287,6 +7295,9 @@
         { "name": "Страшно и точка", "start": 1659 },
         { "name": "Cryptid", "start": 16007 },
         { "name": "Wendigo", "start": 19054 }
+      ] },
+      { "segment": "1896806146", "subrefs": [
+        { "name": "POMBERO: The Lord of the Night", "start": 12674 }
       ] }
     ]
   },
