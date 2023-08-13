@@ -6831,7 +6831,6 @@
     "id": "first-2022",
     "streams": [
       { "segment": "1258121391", "subrefs": [
-        { "name": "Blood Field (демо)", "start": 7730 },
         { "name": "Broken Veil (демо)", "start": 14283 },
         { "name": "Blink: The Last Night", "start": 15997 }
       ] },
@@ -7319,12 +7318,24 @@
         { "name": "Abandoned Souls", "start": 2393 },
         { "name": "Schwarzwald (демо)", "start": 6957 },
         { "name": "Backrooms: Realm of Shadows", "start": 8663 },
-        { "name": "Blood Field", "start": 15626 },
         { "name": "Paranormal Observation", "start": 17266 },
         { "name": "Vorax", "start": 19359 }
       ] },
       { "segment": "1896806146", "subrefs": [
         { "name": "POMBERO: The Lord of the Night", "start": 12674 }
+      ] }
+    ]
+  },
+  {
+    "name": "Blood Field",
+    "category": "ongoing",
+    "id": "blood-field",
+    "streams": [
+      { "segment": "1258121391", "subrefs": [
+        { "name": "Демо", "start": 7730 }
+      ] },
+      { "segment": "1873395096", "subrefs": [
+        { "name": "Релиз", "start": 15626 }
       ] }
     ]
   },
