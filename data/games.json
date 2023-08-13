@@ -9275,10 +9275,13 @@
     "id": "song-of-horror",
     "streams": [
       { "segment": "878410974", "subrefs": [
-        { "name": "1" }
+        { "name": "1", "start": 2848 }
       ] },
       { "segment": "915004866", "subrefs": [
-        { "name": "2" }
+        { "name": "2", "start": 5701 }
+      ] },
+      { "segment": "1897670218", "subrefs": [
+        { "name": "1 (заново)", "start": 1630 }
       ] }
     ]
   },
