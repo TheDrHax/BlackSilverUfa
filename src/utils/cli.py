@@ -613,6 +613,11 @@ def main(argv=None):
 
             if commit_msg and args['--commit']:
                 repo = Repo('data/')
+
+                if not repo.is_dirty():
+                    print('Nothing to commit')
+                    sys.exit(2)
+
                 repo.index.add(['streams.json', 'games.json'])
                 repo.index.commit(commit_msg)
 
