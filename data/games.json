@@ -4307,6 +4307,9 @@
         { "name": "Endless Suburbia", "start": 10936 },
         { "name": "ABEL", "start": 14167 }
       ] },
+      { "segment": "1876874955", "subrefs": [
+        { "name": "Please, Forgive Me", "start": 2356 }
+      ] },
       { "segment": "1896806146", "subrefs": [
         { "name": "On The Bus", "start": 4591 },
         { "name": "Nocturia The Game", "start": 5437 },
@@ -7284,7 +7287,6 @@
         { "name": "Wizard With a Gun (демо)", "start": 12903 }
       ] },
       { "segment": "1849426857", "subrefs": [
-        { "name": "Unholy", "start": 7487 },
         { "name": "The Event (демо)", "start": 15474 },
         { "name": "Scholar's Mate: First Move", "start": 17948 }
       ] },
@@ -7323,6 +7325,23 @@
       ] },
       { "segment": "1896806146", "subrefs": [
         { "name": "POMBERO: The Lord of the Night", "start": 12674 }
+      ] },
+      { "segment": "1877734451,1877816047,1877882907", "subrefs": [
+        { "name": "Exoprimal", "start": 1715 },
+        { "name": "Tekken 8 (Closed Network Test)", "start": 13662 }
+      ] }
+    ]
+  },
+  {
+    "name": "Unholy",
+    "category": "ongoing",
+    "id": "unholy",
+    "streams": [
+      { "segment": "1849426857", "subrefs": [
+        { "name": "Демо", "start": 7487 }
+      ] },
+      { "segment": "1876874955", "subrefs": [
+        { "name": "Релиз", "start": 8884 }
       ] }
     ]
   },
@@ -13102,7 +13121,7 @@
         { "name": "2", "start": 3102 }
       ] },
       { "segment": "1876874955", "subrefs": [
-        { "name": "3", "start": 17591 }
+        { "name": "3", "start": 17672 }
       ] },
       { "segment": "1881238247", "subrefs": [
         { "name": "4", "start": 10349 }
@@ -13135,24 +13154,32 @@
     ]
   },
   {
+    "name": "Remnant II",
+    "category": "ongoing",
+    "id": "remnant-2",
+    "streams": [
+      { "segment": "1878676339", "subrefs": [
+        { "name": "1", "start": 3853 }
+      ] },
+      { "segment": "1879541964", "subrefs": [
+        { "name": "2", "start": 1819 }
+      ] },
+      { "segment": "1882127125", "subrefs": [
+        { "name": "3", "start": 3861 }
+      ] },
+      { "segment": "1887286714", "subrefs": [
+        { "name": "4", "start": 3639 }
+      ] },
+      { "segment": "1895024644", "subrefs": [
+        { "name": "5", "start": 5921 }
+      ] }
+    ]
+  },
+  {
     "name": "Не размечено",
     "category": "other",
     "id": "todo",
     "streams": [
-      { "segment": "1876874955", "subrefs": [
-        { "name": "Please, Forgive Me", "start": 2376 },
-        { "name": "Unholy", "start": 8782 }
-      ] },
-      { "segment": "1877734451,1877816047,1877882907", "subrefs": [
-        { "name": "Exoprimal", "start": 1693 },
-        { "name": "Tekken 8", "start": 13455 }
-      ] },
-      { "segment": "1878676339", "subrefs": [
-        { "name": "Remnant II #1", "start": 3915 }
-      ] },
-      { "segment": "1879541964", "subrefs": [
-        { "name": "Remnant II #2", "start": 1819 }
-      ] },
       { "segment": "1880378307", "subrefs": [
         { "name": "The Complex: Expedition", "start": 2911 },
         { "name": "Chester: Into the Light", "start": 8774 },
@@ -13164,15 +13191,9 @@
         { "name": "Granny Remake", "start": 9111 },
         { "name": "Lunacy: Saint Rhodes #2", "start": 14577 }
       ] },
-      { "segment": "1882127125", "subrefs": [
-        { "name": "Remnant II #3", "start": 3861 }
-      ] },
       { "segment": "1886428924", "subrefs": [
         { "name": "The Ghost Train", "start": 2827 },
         { "name": "Lunacy: Saint Rhodes #3", "start": 15082 }
-      ] },
-      { "segment": "1887286714", "subrefs": [
-        { "name": "Remnant II #4", "start": 3639 }
       ] },
       { "segment": "1888133609", "subrefs": [
         { "name": "Atomic Heart: Annihilation Instinct #1", "start": 15715 }
@@ -13199,8 +13220,7 @@
         { "name": "Terminal 81", "start": 5388 }
       ] },
       { "segment": "1895024644", "subrefs": [
-        { "name": "Street Fighter 6", "start": 753 },
-        { "name": "Remnant II #5", "start": 5921 }
+        { "name": "Street Fighter 6", "start": 753 }
       ] },
       { "segment": "1895922463", "subrefs": [
         { "name": "Pacify", "start": 4569 },
