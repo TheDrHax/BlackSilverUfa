@@ -7875,11 +7875,14 @@
     "note": "У <a href=\"https://youtu.be/1c08ji3g-aw\">официальной записи</a> почему-то запрещено встраивание."
   },
   "883419848": {
-    "youtube": "dn9uQy2eePE", "official": false, "abs_start": 0, "abs_end": 24484, "duration": 24484,
+    "abs_start": 0, "abs_end": 24483, "duration": 24483,
     "name": "Resident Evil Village - Maiden (демо) / Resident Evil 7 (Madhouse) #5",
     "date": "2021-01-22",
+    "direct": "https://bsufiles.drhx.ru/streams/883419848.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/883419848.mp4/master.m3u8",
     "games": ["re8", "re7"],
-    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master/v883419848.ass"
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master/v883419848.ass",
+    "note": "На <a href=\"https://youtu.be/dn9uQy2eePE\">предыдущую запись</a> YouTube установил возрастное ограничение."
   },
   "886277729": {
     "youtube": "ew9dM_1QDcQ", "abs_start": 0, "abs_end": 19901, "duration": 19901,
