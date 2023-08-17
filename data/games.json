@@ -4319,6 +4319,12 @@
         { "name": "Ergophobia", "start": 11314 },
         { "name": "Depth of Contamination", "start": 15574 },
         { "name": "Slender: Return to Rosswood Park", "start": 16900 }
+      ] },
+      { "segment": "1886428924", "subrefs": [
+        { "name": "The Ghost Train", "start": 2940 }
+      ] },
+      { "segment": "1889874082", "subrefs": [
+        { "name": "Welcome to Kowloon", "start": 3070 }
       ] }
     ]
   },
@@ -5135,7 +5141,7 @@
         { "name": "13", "start": 423 }
       ] },
       { "segment": "1890707460,1890774077", "subrefs": [
-        { "name": "14" }
+        { "name": "14", "start": 387 }
       ] }
     ]
   },
@@ -6168,6 +6174,19 @@
     ]
   },
   {
+    "name": "Baldur's Gate 3",
+    "category": "ongoing",
+    "id": "bg3",
+    "streams": [
+      { "segment": "763202430", "subrefs": [
+        { "name": "Ранний доступ (с Артёмом)", "start": 810 }
+      ] },
+      { "segment": "1888974774", "subrefs": [
+        { "name": "Релиз", "start": 20098 }
+      ] }
+    ]
+  },
+  {
     "name": "Первый взгляд 2020",
     "category": "first",
     "type": "list",
@@ -6297,9 +6316,6 @@
       ] },
       { "segment": "758360932", "subrefs": [
         { "name": "Star Wars: Squadrons" }
-      ] },
-      { "segment": "763202430", "subrefs": [
-        { "name": "Baldur's Gate 3" }
       ] },
       { "segment": "767249770", "subrefs": [
         { "name": "Partisans 1941 (демо)", "start": 9012 },
@@ -7614,7 +7630,11 @@
         { "name": "4", "start": 2223 }
       ] },
       { "segment": "1888133609", "subrefs": [
-        { "name": "5", "start": 1696 }
+        { "name": "Перед DLC", "start": 1726 },
+        { "name": "Annihilation Instinct #1", "start": 15454 }
+      ] },
+      { "segment": "1888974774", "subrefs": [
+        { "name": "Annihilation Instinct #2", "start": 1366 }
       ] }
     ]
   },
@@ -13151,10 +13171,10 @@
         { "name": "5", "start": 3307 }
       ] },
       { "segment": "1886428924", "subrefs": [
-        { "name": "6", "start": 9300 }
+        { "name": "6", "start": 9352 }
       ] },
       { "segment": "1889874082", "subrefs": [
-        { "name": "7", "start": 7575 }
+        { "name": "7", "start": 7596 }
       ] },
       { "segment": "1894178506", "subrefs": [
         { "name": "8", "start": 14036 }
@@ -13189,7 +13209,7 @@
         { "name": "3", "start": 3918 }
       ] },
       { "segment": "1887286714", "subrefs": [
-        { "name": "4", "start": 3639 }
+        { "name": "4", "start": 3700 }
       ] },
       { "segment": "1895024644", "subrefs": [
         { "name": "5", "start": 5921 }
@@ -13198,7 +13218,7 @@
   },
   {
     "name": "Lunacy: Saint Rhodes",
-    "category": "ongoing",
+    "category": "finished",
     "id": "lunacy-sr",
     "streams": [
       { "segment": "1635763389", "subrefs": [
@@ -13211,7 +13231,7 @@
         { "name": "2", "start": 14625 }
       ] },
       { "segment": "1886428924", "subrefs": [
-        { "name": "3", "start": 15082 }
+        { "name": "3", "start": 15134 }
       ] }
     ]
   },
@@ -13220,19 +13240,6 @@
     "category": "other",
     "id": "todo",
     "streams": [
-      { "segment": "1886428924", "subrefs": [
-        { "name": "The Ghost Train", "start": 2827 }
-      ] },
-      { "segment": "1888133609", "subrefs": [
-        { "name": "Atomic Heart: Annihilation Instinct #1", "start": 15715 }
-      ] },
-      { "segment": "1888974774", "subrefs": [
-        { "name": "Atomic Heart: Annihilation Instinct #2" },
-        { "name": "Baldur's Gate 3", "start": 20049 }
-      ] },
-      { "segment": "1889874082", "subrefs": [
-        { "name": "Welcome to Kowloon", "start": 2940 }
-      ] },
       { "segment": "1891624092", "subrefs": [
         { "name": "Where Is Sarah?", "start": 2324 },
         { "name": "Episode 666", "start": 5248 },
