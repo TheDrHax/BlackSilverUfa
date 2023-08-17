@@ -12748,7 +12748,6 @@
     "youtube": "s0_2ozHHB0U", "abs_start": 0, "abs_end": 19729, "duration": 19729,
     "name": "They Are Here: Alien Abduction Horror - Демо 2 / Ebola Village (демо) / Stray Souls - Демо 2 / SCP: Observer / Dyer Expedition (демо) / Sniper Killer (демо) / The Diner / The Muller-Powell Principle (демо) / Unknown Memoirs: The Rental / Horror Stories: Harvest Hunt",
     "date": "2023-06-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/1855403959.torrent",
     "games": ["they-are-here", "first-2023", "stray-souls", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1855403959.ass"
   },
@@ -12756,7 +12755,6 @@
     "youtube": "bmc6E7LdS4U", "abs_start": 0, "abs_end": 28233, "duration": 28233,
     "name": "Final Fantasy XVI #4",
     "date": "2023-06-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/1856178461.torrent",
     "games": ["ff-xvi"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1856178461.ass"
   },
@@ -13091,5 +13089,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1897670218.torrent",
     "games": ["song-of-horror"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1897670218.ass"
+  },
+  "1901048765": {
+    "abs_start": 0, "abs_end": 28405, "duration": 28405,
+    "name": "The Legend of Zelda: Tears of the Kingdom #15",
+    "date": "2023-08-17",
+    "direct": "https://bsufiles.drhx.ru/streams/1901048765.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1901048765.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1901048765.torrent",
+    "games": ["tloz_totk"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1901048765+0.ass"
   }
 }
