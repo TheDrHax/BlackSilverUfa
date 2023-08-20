@@ -13060,7 +13060,6 @@
     "youtube": "EIcFBZ1QFJY", "abs_start": 0, "abs_end": 29311, "duration": 29311,
     "name": "Не размечено - Street Fighter 6 / Remnant II #5",
     "date": "2023-08-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/1895024644.torrent",
     "games": ["todo", "remnant-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1895024644.ass"
   },
@@ -13114,22 +13113,32 @@
   },
   "1903801654": {
     "abs_start": 0, "abs_end": 3347, "duration": 3347,
-    "name": "Polar Night (демо)",
+    "name": "",
     "date": "2023-08-20",
     "direct": "https://bsufiles.drhx.ru/streams/1903801654.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/1903801654.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/1903801654.torrent",
-    "games": ["first-2023"],
+    "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1903801654.ass"
   },
   "1903834688": {
     "abs_start": 0, "abs_end": 17321, "duration": 17321,
-    "name": "Night Freak / The King of the Shades / Mom's Tent / Sweet Dreams / Liminal Symptom (демо) / Terror At Oakheart (демо) / The Night Shift / Darker Skies: Remastered for PC / Echoes From The Abyss",
+    "name": "",
     "date": "2023-08-20",
     "direct": "https://bsufiles.drhx.ru/streams/1903834688.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/1903834688.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/1903834688.torrent",
-    "games": ["single", "first-2023"],
+    "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1903834688.ass"
+  },
+  "1903801654,1903834688": {
+    "abs_start": 0, "abs_end": 20665, "duration": 20665,
+    "name": "Polar Night (демо) / Night Freak / The King of the Shades / Mom's Tent / Sweet Dreams / Liminal Symptom (демо) / Terror At Oakheart (демо) / The Night Shift / Darker Skies: Remastered for PC / Echoes From The Abyss",
+    "date": "2023-08-20",
+    "direct": "https://bsufiles.drhx.ru/streams/1903801654,1903834688.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1903801654,1903834688.mp4/master.m3u8",
+    "offsets": ["0:00", "55:44"],
+    "games": ["first-2023", "single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1903801654,1903834688+0.ass"
   }
 }
