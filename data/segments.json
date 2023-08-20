@@ -13112,5 +13112,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1902891024.torrent",
     "games": ["outlast-trials", "song-of-horror"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1902891024.ass"
+  },
+  "1903801654": {
+    "abs_start": 0, "abs_end": 3347, "duration": 3347,
+    "name": "Polar Night (демо) / Не размечено - Games + Demos",
+    "date": "2023-08-20",
+    "direct": "https://bsufiles.drhx.ru/streams/1903801654.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1903801654.mp4/master.m3u8",
+    "games": ["first-2023", "todo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1903801654.ass"
   }
 }
