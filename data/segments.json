@@ -12769,7 +12769,6 @@
     "youtube": "ziKwZz5djxU", "abs_start": 0, "abs_end": 31399, "duration": 31399,
     "name": "Final Fantasy XVI #5",
     "date": "2023-06-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/1857876199.torrent",
     "games": ["ff-xvi"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1857876199+0.ass"
   },
@@ -13122,5 +13121,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1903801654.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1903801654.ass"
+  },
+  "1903834688": {
+    "abs_start": 0, "abs_end": 17321, "duration": 17321,
+    "name": "Night Freak / The King of the Shades / Mom's Tent / Sweet Dreams / Liminal Symptom (демо) / Terror At Oakheart (демо) / The Night Shift / Darker Skies: Remastered for PC / Echoes From The Abyss",
+    "date": "2023-08-20",
+    "direct": "https://bsufiles.drhx.ru/streams/1903834688.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1903834688.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1903834688.torrent",
+    "games": ["single", "first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1903834688.ass"
   }
 }

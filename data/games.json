@@ -4325,6 +4325,14 @@
       ] },
       { "segment": "1889874082", "subrefs": [
         { "name": "Welcome to Kowloon", "start": 3070 }
+      ] },
+      { "segment": "1903834688", "subrefs": [
+        { "name": "Night Freak", "start": 596 },
+        { "name": "Mom's Tent", "start": 6569 },
+        { "name": "Sweet Dreams", "start": 7679 },
+        { "name": "Liminal Symptom (демо)", "start": 8405 },
+        { "name": "Terror At Oakheart (демо)", "start": 9856 },
+        { "name": "Echoes From The Abyss", "start": 13727 }
       ] }
     ]
   },
@@ -7359,6 +7367,11 @@
       ] },
       { "segment": "1903801654", "subrefs": [
         { "name": "Polar Night (демо)", "start": 2039 }
+      ] },
+      { "segment": "1903834688", "subrefs": [
+        { "name": "The King of the Shades", "start": 5473 },
+        { "name": "The Night Shift", "start": 11257 },
+        { "name": "Darker Skies: Remastered for PC", "start": 12035 }
       ] }
     ]
   },
