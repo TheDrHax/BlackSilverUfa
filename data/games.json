@@ -705,6 +705,9 @@
       ] },
       { "segment": "1866511537", "subrefs": [
         { "name": "Super Bunny Man", "start": 4645 }
+      ] },
+      { "segment": "1904659436", "subrefs": [
+        { "name": "Hello Engineer", "start": 6622 }
       ] }
     ]
   },
@@ -13222,7 +13225,7 @@
   },
   {
     "name": "Remnant II",
-    "category": "ongoing",
+    "category": "finished",
     "id": "remnant-2",
     "streams": [
       { "segment": "1878676339", "subrefs": [
@@ -13239,6 +13242,9 @@
       ] },
       { "segment": "1895024644", "subrefs": [
         { "name": "5", "start": 5921 }
+      ] },
+      { "segment": "1904659436", "subrefs": [
+        { "name": "6", "start": 3957 }
       ] }
     ]
   },

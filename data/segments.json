@@ -12776,7 +12776,6 @@
     "youtube": "2GCxC6d_HQI", "abs_start": 0, "abs_end": 22367, "duration": 22367,
     "name": "Final Fantasy XVI #6",
     "date": "2023-06-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/1858764516.torrent",
     "games": ["ff-xvi"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1858764516.ass"
   },
@@ -13138,5 +13137,15 @@
     "offsets": ["0:00", "55:44"],
     "games": ["first-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1903801654,1903834688+0.ass"
+  },
+  "1904659436": {
+    "abs_start": 0, "abs_end": 23552, "duration": 23552,
+    "name": "Remnant II #6 / Hello Engineer",
+    "date": "2023-08-21",
+    "direct": "https://bsufiles.drhx.ru/streams/1904659436.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1904659436.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1904659436.torrent",
+    "games": ["remnant-2", "co-op"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1904659436.ass"
   }
 }
