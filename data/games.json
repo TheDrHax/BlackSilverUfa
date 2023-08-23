@@ -2766,6 +2766,10 @@
       ] },
       { "segment": "1134934289", "subrefs": [
         { "name": "Dead Space Remake Dev Stream", "start": 14246 }
+      ] },
+      { "segment": "1906345080", "subrefs": [
+        { "name": "Opening Night Live (обзор)", "start": 20464 },
+        { "name": "Future Games Show", "start": 22037 }
       ] }
     ]
   },
@@ -4336,6 +4340,9 @@
         { "name": "Liminal Symptom (демо)", "start": 11749 },
         { "name": "Terror At Oakheart (демо)", "start": 13200 },
         { "name": "Echoes From The Abyss", "start": 17071 }
+      ] },
+      { "segment": "1906345080", "subrefs": [
+        { "name": "Fort Solis", "start": 910 }
       ] }
     ]
   },

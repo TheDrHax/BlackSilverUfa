@@ -12808,7 +12808,6 @@
     "youtube": "ooberWPArJc", "abs_start": 0, "abs_end": 19057, "duration": 19057,
     "name": "Вечер Ретро Игр (ВРИ) #9 / Disney's Tarzan / Chessmaster II #2 / Looney Tunes: Sheep Raider",
     "date": "2023-07-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/1860536794.torrent",
     "games": ["retro", "first-2023", "chessmaster-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1860536794.ass"
   },
@@ -13171,5 +13170,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1904659436.torrent",
     "games": ["remnant-2", "co-op"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1904659436.ass"
+  },
+  "1906345080": {
+    "abs_start": 0, "abs_end": 22917, "duration": 22917,
+    "name": "Fort Solis / Opening Night Live (обзор) / Future Games Show",
+    "date": "2023-08-23",
+    "direct": "https://bsufiles.drhx.ru/streams/1906345080.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1906345080.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1906345080.torrent",
+    "games": ["single", "expos"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1906345080+0.ass"
   }
 }
