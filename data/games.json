@@ -537,9 +537,6 @@
       { "segment": "402450066.1", "subrefs": [
         { "name": "Generation Zero" }
       ] },
-      { "segment": "410400457", "subrefs": [
-        { "name": "Pacify", "start": 5595 }
-      ] },
       { "segment": "410963500", "subrefs": [
         { "name": "Peekaboo", "start": 4767 },
         { "name": "Shotgun Farmers", "start": 14189 }
@@ -707,13 +704,25 @@
         { "name": "Super Bunny Man", "start": 4645 }
       ] },
       { "segment": "1895922463", "subrefs": [
-        { "name": "Pacify", "start": 4600 },
         { "name": "Holy Purge", "start": 9058 },
         { "name": "Surrounded", "start": 13805 },
         { "name": "Cartoon Rage", "start": 15119 }
       ] },
       { "segment": "1904659436", "subrefs": [
         { "name": "Hello Engineer", "start": 6622 }
+      ] }
+    ]
+  },
+  {
+    "name": "Pacify",
+    "category": "co-op",
+    "id": "pacify",
+    "streams": [
+      { "segment": "410400457", "subrefs": [
+        { "name": "1", "start": 5595 }
+      ] },
+      { "segment": "1895922463", "subrefs": [
+        { "name": "2", "start": 4600 }
       ] }
     ]
   },
@@ -2772,10 +2781,20 @@
       ] },
       { "segment": "1134934289", "subrefs": [
         { "name": "Dead Space Remake Dev Stream", "start": 14246 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Gamescom 2023",
+    "category": "expos",
+    "id": "gamescom-23",
+    "streams": [
       { "segment": "1906345080", "subrefs": [
         { "name": "Opening Night Live (обзор)", "start": 20464 },
         { "name": "Future Games Show", "start": 22037 }
+      ] },
+      { "segment": "1907179905", "subrefs": [
+        { "name": "Future Games Show (обзор)", "start": 649 }
       ] }
     ]
   },
@@ -7401,6 +7420,9 @@
         { "name": "The King of the Shades", "start": 8817 },
         { "name": "The Night Shift", "start": 14601 },
         { "name": "Darker Skies: Remastered for PC", "start": 15379 }
+      ] },
+      { "segment": "1907179905", "subrefs": [
+        { "name": "Armored Core VI: Fires of Rubicon", "start": 3662 }
       ] }
     ]
   },
