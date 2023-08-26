@@ -5608,9 +5608,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v516508179.ass"
   },
   "516941489": {
-    "abs_start": 0, "abs_end": 21958, "duration": 0,
+    "abs_start": 0, "abs_end": 21899, "duration": 21899,
     "name": "Grand Theft Auto: Vice City #1",
     "date": "2019-12-04",
+    "direct": "https://bsufiles.drhx.ru/streams/516941489.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/516941489.mp4/master.m3u8",
     "games": ["gta-vice-city"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v516941489.ass"
   },
@@ -7174,9 +7176,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v749640613.ass"
   },
   "750578050": {
-    "abs_start": 0, "abs_end": 24730, "duration": 0,
+    "abs_start": 0, "abs_end": 24719, "duration": 24719,
     "name": "Mafia: City of Lost Heaven #2 / Mafia: Definitive Edition #1",
     "date": "2020-09-24",
+    "direct": "https://bsufiles.drhx.ru/streams/750578050.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/750578050.mp4/master.m3u8",
     "games": ["mafia", "mafia-de"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v750578050.ass"
   },
@@ -7877,9 +7881,11 @@
     "note": "У <a href=\"https://youtu.be/1c08ji3g-aw\">официальной записи</a> почему-то запрещено встраивание."
   },
   "883419848": {
-    "abs_start": 0, "abs_end": 24495, "duration": 0,
+    "abs_start": 0, "abs_end": 24483, "duration": 24483,
     "name": "Resident Evil Village - Maiden (демо) / Resident Evil 7 (Madhouse) #5",
     "date": "2021-01-22",
+    "direct": "https://bsufiles.drhx.ru/streams/883419848.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/883419848.mp4/master.m3u8",
     "games": ["re8", "re7"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master/v883419848.ass",
     "note": "На <a href=\"https://youtu.be/dn9uQy2eePE\">предыдущую запись</a> YouTube установил возрастное ограничение."
@@ -12080,9 +12086,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1752454738+0.ass"
   },
   "1758170289": {
-    "youtube": "TfrSPgZTCKw", "abs_start": 0, "abs_end": 21834, "duration": 21834,
+    "abs_start": 0, "abs_end": 21833, "duration": 21833,
     "name": "Contraband Police - Релиз",
     "date": "2023-03-07",
+    "direct": "https://bsufiles.drhx.ru/streams/1758170289.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1758170289.mp4/master.m3u8",
     "games": ["contraband-police"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1758170289+0.ass"
   },
@@ -13175,6 +13183,7 @@
     "youtube": "ZWQ0lfZ4sBc", "abs_start": 0, "abs_end": 30896, "duration": 30896,
     "name": "Gamescom 2023 - Future Games Show (обзор) / Armored Core VI: Fires of Rubicon",
     "date": "2023-08-24",
+    "torrent": "https://bsufiles.drhx.ru/streams/1907179905.torrent",
     "games": ["gamescom-23", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1907179905+0.ass"
   }
