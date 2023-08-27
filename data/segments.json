@@ -13181,10 +13181,20 @@
   },
   "1907179905": {
     "youtube": "ZWQ0lfZ4sBc", "abs_start": 0, "abs_end": 30896, "duration": 30896,
-    "name": "Gamescom 2023 - Future Games Show (обзор) / Armored Core VI: Fires of Rubicon",
+    "name": "Gamescom 2023 - Future Games Show (обзор) / Armored Core VI: Fires of Rubicon #1",
     "date": "2023-08-24",
     "torrent": "https://bsufiles.drhx.ru/streams/1907179905.torrent",
-    "games": ["gamescom-23", "first-2023"],
+    "games": ["gamescom-23", "ac6-for"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1907179905+0.ass"
+  },
+  "1909871377": {
+    "abs_start": 0, "abs_end": 24374, "duration": 24374,
+    "name": "Armored Core VI: Fires of Rubicon #2 (без комментариев)",
+    "date": "2023-08-27",
+    "direct": "https://bsufiles.drhx.ru/streams/1909871377.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1909871377.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1909871377.torrent",
+    "games": ["ac6-for"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1909871377.ass"
   }
 }
