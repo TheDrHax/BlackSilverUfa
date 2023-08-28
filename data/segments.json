@@ -465,9 +465,11 @@
     "games": ["ds3"]
   },
   "001605240": {
-    "youtube": "iTIk_i3GHYs", "official": false, "abs_start": 0, "abs_end": 19894, "duration": 19894,
+    "abs_start": 0, "abs_end": 19893, "duration": 19893,
     "name": "Dark Souls 3 #5",
     "date": "2016-05-24",
+    "direct": "https://bsufiles.drhx.ru/streams/001605240.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001605240.mp4/master.m3u8",
     "games": ["ds3"]
   },
   "001605270": {
@@ -4842,9 +4844,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v445389664.ass"
   },
   "445866715": {
-    "youtube": "7KDb1h8Z2iA", "official": false, "abs_start": 0, "abs_end": 17908, "duration": 17908,
+    "abs_start": 0, "abs_end": 17907, "duration": 17907,
     "name": "Своя Игра #14 / Dead by Daylight #3 / Эскейп-румы - Curious Cases / Golf It! #17",
     "date": "2019-06-29",
+    "direct": "https://bsufiles.drhx.ru/streams/445866715.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/445866715.mp4/master.m3u8",
     "games": ["sigame", "dead-by-daylight", "escape-rooms", "golf-it"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v445866715.ass"
   },
@@ -5701,9 +5705,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v523968481.ass"
   },
   "524415764": {
-    "youtube": "g568M41jCtQ", "official": false, "abs_start": 0, "abs_end": 25045, "duration": 25045,
+    "abs_start": 0, "abs_end": 25045, "duration": 25045,
     "name": "Jump King #3 / Last Year - Chapter 1: After Dark / Secret Neighbor #3 / Pummel Party #6 (6D)",
     "date": "2019-12-21",
+    "direct": "https://bsufiles.drhx.ru/streams/524415764.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/524415764.mp4/master.m3u8",
     "games": ["jump-king", "last-year", "secret-neighbor", "pummel-party"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v524415764.ass"
   },
