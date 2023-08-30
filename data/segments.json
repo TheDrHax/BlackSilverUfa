@@ -5858,16 +5858,20 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v537340056.ass"
   },
   "538458255": {
-    "youtube": "M9_D7ZAwDsQ", "official": false, "abs_start": 0, "abs_end": 20528, "duration": 20528,
+    "abs_start": 0, "abs_end": 20528, "duration": 20528,
     "name": "Grand Theft Auto: San Andreas #5 / Grand Theft Auto Online: Crazy LS #6",
     "date": "2020-01-19",
+    "direct": "https://bsufiles.drhx.ru/streams/538458255.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/538458255.mp4/master.m3u8",
     "games": ["gta-san-andreas", "crazy-ls"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v538458255.ass"
   },
   "542106142": {
-    "youtube": "CIPziTuzFKk", "official": false, "abs_start": 0, "abs_end": 21031, "duration": 21031,
+    "abs_start": 0, "abs_end": 21030, "duration": 21030,
     "name": "Grand Theft Auto: San Andreas #6",
     "date": "2020-01-26",
+    "direct": "https://bsufiles.drhx.ru/streams/542106142.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/542106142.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v542106142.ass"
   },
@@ -12333,7 +12337,7 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1799517574.ass"
   },
   "1800438364": {
-    "youtube": "sE7tTmjtgQc", "abs_start": 0, "abs_end": 28046, "duration": 28046,
+    "youtube": "2IqPRl7SkSk", "official": false, "abs_start": 0, "abs_end": 28047, "duration": 28047,
     "name": "Dead Island 2 #3",
     "date": "2023-04-22",
     "games": ["dead-island-2"],
@@ -12867,7 +12871,6 @@
     "youtube": "m2eOgMC1G_Y", "abs_start": 0, "abs_end": 19551, "duration": 19551,
     "name": "Voidtrain (ранний доступ) - С Дашей и Джеком",
     "date": "2023-07-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/1871657339.torrent",
     "games": ["voidtrain"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1871657339.ass"
   },
