@@ -12878,7 +12878,6 @@
     "youtube": "DvJYEROcvFY", "abs_start": 0, "abs_end": 7920, "duration": 7920,
     "name": "Jagged Alliance 3",
     "date": "2023-07-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/1872459569.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1872459569.ass"
   },
@@ -12886,7 +12885,6 @@
     "youtube": "gvvN4lNRSz0", "abs_start": 0, "abs_end": 21600, "duration": 21600,
     "name": "Abandoned Souls / Schwarzwald (демо) / Backrooms: Realm of Shadows / The Tunnel / Fear Underground (демо) / Endless Suburbia / ABEL / Blood Field - Релиз / Paranormal Observation / Vorax",
     "date": "2023-07-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/1873395096.torrent",
     "games": ["first-2023", "single", "blood-field"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1873395096.ass"
   },
@@ -13193,5 +13191,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1909871377.torrent",
     "games": ["ac6-for"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1909871377.ass"
+  },
+  "1913348809": {
+    "abs_start": 0, "abs_end": 20640, "duration": 20640,
+    "name": "Parasocial / Decimate Drive (демо)",
+    "date": "2023-08-31",
+    "direct": "https://bsufiles.drhx.ru/streams/1913348809.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1913348809.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1913348809.torrent",
+    "games": ["single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1913348809+0.ass"
   }
 }
