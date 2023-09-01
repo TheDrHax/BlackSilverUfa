@@ -12892,7 +12892,6 @@
     "youtube": "VNEjLpx5kns", "abs_start": 0, "abs_end": 22394, "duration": 22394,
     "name": "Please, Forgive Me / Unholy - Релиз / The Mortuary Assistant #3",
     "date": "2023-07-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/1876874955.torrent",
     "games": ["single", "unholy", "mortuary-assistant"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1876874955.ass"
   },
@@ -12931,7 +12930,6 @@
     "name": "Exoprimal / Tekken 8 (Closed Network Test)",
     "date": "2023-07-21",
     "offsets": ["0:00", "2:29:47+2", "3:44:15+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/1877734451,1877816047,1877882907.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1877734451,1877816047,1877882907+0.ass"
   },
@@ -13201,5 +13199,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1913348809.torrent",
     "games": ["single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1913348809+0.ass"
+  },
+  "1914021087": {
+    "abs_start": 0, "abs_end": 43406, "duration": 43406,
+    "name": "Starfield #1",
+    "date": "2023-09-01",
+    "direct": "https://bsufiles.drhx.ru/streams/1914021087.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1914021087.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1914021087.torrent",
+    "games": ["starfield"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1914021087.ass"
   }
 }
