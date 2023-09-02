@@ -12896,32 +12896,23 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1876874955.ass"
   },
   "1877734451": {
-    "abs_start": 0, "abs_end": 8989, "duration": 8989,
+    "abs_start": 0, "abs_end": 9003, "duration": 0,
     "name": "",
     "date": "2023-07-21",
-    "direct": "https://bsufiles.drhx.ru/streams/1877734451.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1877734451.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1877734451.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1877734451.ass"
   },
   "1877816047": {
-    "abs_start": 0, "abs_end": 4470, "duration": 4470,
+    "abs_start": 0, "abs_end": 4476, "duration": 0,
     "name": "",
     "date": "2023-07-21",
-    "direct": "https://bsufiles.drhx.ru/streams/1877816047.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1877816047.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1877816047.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1877816047.ass"
   },
   "1877882907": {
-    "abs_start": 0, "abs_end": 5532, "duration": 5532,
+    "abs_start": 0, "abs_end": 5544, "duration": 0,
     "name": "",
     "date": "2023-07-21",
-    "direct": "https://bsufiles.drhx.ru/streams/1877882907.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1877882907.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1877882907.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1877882907.ass"
   },
@@ -13209,5 +13200,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1914021087.torrent",
     "games": ["starfield"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1914021087.ass"
+  },
+  "1915040387": {
+    "abs_start": 0, "abs_end": 30581, "duration": 30581,
+    "name": "Starfield #2",
+    "date": "2023-09-02",
+    "direct": "https://bsufiles.drhx.ru/streams/1915040387.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1915040387.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1915040387.torrent",
+    "games": ["starfield"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1915040387+0.ass"
   }
 }
