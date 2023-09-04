@@ -12939,7 +12939,6 @@
     "youtube": "u_t1IMArebI", "abs_start": 0, "abs_end": 20743, "duration": 20743,
     "name": "The Complex: Expedition / Chester: Into the Light / Lunacy: Saint Rhodes #1",
     "date": "2023-07-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/1880378307.torrent",
     "games": ["single", "first-2023", "lunacy-sr"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1880378307.ass"
   },
@@ -13209,5 +13208,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1915925736.torrent",
     "games": ["starfield"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1915925736.ass"
+  },
+  "1916820362": {
+    "abs_start": 0, "abs_end": 26653, "duration": 26653,
+    "name": "Starfield #4",
+    "date": "2023-09-04",
+    "direct": "https://bsufiles.drhx.ru/streams/1916820362.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1916820362.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1916820362.torrent",
+    "games": ["starfield"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1916820362.ass"
   }
 }
