@@ -6999,9 +6999,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v725080998.ass"
   },
   "726104659": {
-    "youtube": "23Yr_qJnhAM", "official": false, "abs_start": 0, "abs_end": 21929, "duration": 21929,
+    "abs_start": 0, "abs_end": 21928, "duration": 21928,
     "name": "Windbound / Fall Guys #3 (соло) / Wasteland 3 #1 (соло) / Mr. Prepper / The Last Campfire #1",
     "date": "2020-08-30",
+    "direct": "https://bsufiles.drhx.ru/streams/726104659.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/726104659.mp4/master.m3u8",
     "games": ["first-2020", "fall-guys", "wasteland-3", "last-campfire"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v726104659.ass"
   },
@@ -12946,7 +12948,6 @@
     "youtube": "lWZu2MSo3G0", "abs_start": 0, "abs_end": 21455, "duration": 21455,
     "name": "The Backrooms (Dreams) / My Friendly Neighborhood - Релиз / Granny Remake / The Mortuary Assistant #4 / Lunacy: Saint Rhodes #2",
     "date": "2023-07-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/1881238247.torrent",
     "games": ["first-2023", "my-fn", "mortuary-assistant", "lunacy-sr"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1881238247.ass"
   },
