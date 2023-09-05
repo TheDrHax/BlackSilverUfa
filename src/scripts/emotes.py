@@ -21,6 +21,8 @@ def get_url(source, id):
         return f'https://cdn.betterttv.net/emote/{id}/1x'
     elif source == 'frankerfacez':
         return f'https://cdn.frankerfacez.com/emote/{id}/1'
+    elif source == '7tv':
+        return f'https://cdn.7tv.app/emote/{id}/1x.webp'
 
 
 def convert_to_webp(content):
