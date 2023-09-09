@@ -6457,9 +6457,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v612822436.ass"
   },
   "613793616": {
-    "youtube": "xPg5Ui-qJ30", "abs_start": 0, "abs_end": 21161, "duration": 21161,
+    "abs_start": 0, "abs_end": 21161, "duration": 21161,
     "name": "SnowRunner #5 / Xbox Inside 2020",
     "date": "2020-05-07",
+    "direct": "https://bsufiles.drhx.ru/streams/613793616.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/613793616.mp4/master.m3u8",
     "games": ["snowrunner", "expos"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v613793616.ass"
   },
@@ -12955,7 +12957,6 @@
     "youtube": "nDzsZYAd05k", "abs_start": 0, "abs_end": 22100, "duration": 22100,
     "name": "Remnant II #3",
     "date": "2023-07-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/1882127125.torrent",
     "games": ["remnant-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1882127125.ass"
   },
