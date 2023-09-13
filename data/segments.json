@@ -12964,7 +12964,6 @@
     "youtube": "4Zd3NwC9gpo", "official": false, "abs_start": 0, "abs_end": 24942, "duration": 24942,
     "name": "The Legend of Zelda: Tears of the Kingdom #13",
     "date": "2023-07-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/1882948971.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1882948971.ass",
     "note": "<a href=\"https://youtu.be/l-z7LW1wmoQ\">Официальная запись</a> сломана (недоступно качество выше 360p)"
@@ -13224,5 +13223,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1917728202.torrent",
     "games": ["single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1917728202.ass"
+  },
+  "1924362967": {
+    "abs_start": 0, "abs_end": 21790, "duration": 21790,
+    "name": "Ad Infinitum",
+    "date": "2023-09-13",
+    "direct": "https://bsufiles.drhx.ru/streams/1924362967.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1924362967.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1924362967.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1924362967.ass"
   }
 }
