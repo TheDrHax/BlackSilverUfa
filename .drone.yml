@@ -18,7 +18,7 @@ steps:
   pull: if-not-exists
   commands:
   - |
-    getent hosts blackufa.blackufa.svc.cluster.local \
+    getent ahostsv4 blackufa.blackufa.svc.cluster.local \
       | cut -d\  -f 1 \
-      | xargs -I '{}' curl -v http://{}:8000/reload \
-      || true
+      | sort -u \
+      | xargs -I '{}' curl -v http://{}:8000/reload
