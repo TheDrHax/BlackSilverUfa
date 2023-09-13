@@ -68,11 +68,5 @@ steps:
   - './bsu pages commit "Drone: Обновление статичных файлов"'
   - ./bsu pages push
 
-  - |
-    getent hosts blackufa.blackufa.svc.cluster.local \
-      | cut -d\  -f 1 \
-      | xargs -I '{}' curl -v http://{}:8000/reload \
-      || true
-
   - ./bsu repo prune --optional
   - git gc --prune=now
