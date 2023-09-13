@@ -1,0 +1,24 @@
+kind: pipeline
+type: kubernetes
+name: default
+
+concurrency:
+  limit: 1
+
+clone:
+  disable: true
+
+trigger:
+  branch:
+  - gh-pages
+
+steps:
+- name: deploy
+  image: alpine/curl
+  pull: if-not-exists
+  commands:
+  - |
+    getent hosts blackufa.blackufa.svc.cluster.local \
+      | cut -d\  -f 1 \
+      | xargs -I '{}' curl -v http://{}:8000/reload \
+      || true
