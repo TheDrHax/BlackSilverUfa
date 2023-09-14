@@ -7075,7 +7075,6 @@
         { "name": "Outbreak: Shades of Horror (тизер)", "start": 21288 }
       ] },
       { "segment": "1552996641", "subrefs": [
-        { "name": "Mortal Kombat", "start": 2771 },
         { "name": "Michael Jackson's Moonwalker", "start": 7487 },
         { "name": "Goofy's Hysterical History Tour", "start": 11998 }
       ] },
@@ -7216,6 +7215,19 @@
       ] },
       { "segment": "1690952607", "subrefs": [
         { "name": "The Thing (by PanzerCat)", "start": 14049 }
+      ] }
+    ]
+  },
+  {
+    "name": "Mortal Kombat",
+    "category": "ongoing",
+    "id": "mk",
+    "streams": [
+      { "segment": "1552996641", "subrefs": [
+        { "name": "1", "start": 2771 }
+      ] },
+      { "segment": "1925193288", "subrefs": [
+        { "name": "2", "start": 3074 }
       ] }
     ]
   },
@@ -7450,6 +7462,15 @@
       ] },
       { "segment": "1924362967", "subrefs": [
         { "name": "Ad Infinitum", "start": 4569 }
+      ] },
+      { "segment": "1925193288", "subrefs": [
+        { "name": "Mortal Kombat 2", "start": 4876 },
+        { "name": "Mortal Kombat 3", "start": 7593 },
+        { "name": "Mortal Kombat Trilogy", "start": 8019 },
+        { "name": "Mortal Kombat 4", "start": 10458 },
+        { "name": "Mortal Kombat Mythologies: Sub-Zero", "start": 11795 },
+        { "name": "Mortal Kombat: Special Forces", "start": 13280 },
+        { "name": "Mortal Kombat 1", "start": 15338 }
       ] }
     ]
   },
