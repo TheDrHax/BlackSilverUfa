@@ -7386,9 +7386,6 @@
         { "name": "The Tartarus Key", "start": 15505 },
         { "name": "There is Something in the Anderghast Mine", "start": 17066 }
       ] },
-      { "segment": "1842665393", "subrefs": [
-        { "name": "Lies of P (демо)", "start": 1556 }
-      ] },
       { "segment": "1843524831", "subrefs": [
         { "name": "World's Worst Handyman (демо)", "start": 11814 },
         { "name": "Wizard With a Gun (демо)", "start": 12903 }
@@ -7469,8 +7466,36 @@
         { "name": "Mortal Kombat Trilogy", "start": 8019 },
         { "name": "Mortal Kombat 4", "start": 10458 },
         { "name": "Mortal Kombat Mythologies: Sub-Zero", "start": 11795 },
-        { "name": "Mortal Kombat: Special Forces", "start": 13280 },
-        { "name": "Mortal Kombat 1", "start": 15338 }
+        { "name": "Mortal Kombat: Special Forces", "start": 13280 }
+      ] },
+      { "segment": "1925972150", "subrefs": [
+        { "name": "Ghostrunner 2", "start": 15487 }
+      ] }
+    ]
+  },
+  {
+    "name": "Lies of P",
+    "category": "ongoing",
+    "id": "lies-of-p",
+    "streams": [
+      { "segment": "1842665393", "subrefs": [
+        { "name": "Демо", "start": 1556 }
+      ] },
+      { "segment": "1925972150", "subrefs": [
+        { "name": "1", "start": 17857 }
+      ] }
+    ]
+  },
+  {
+    "name": "Mortal Kombat 1",
+    "category": "finished",
+    "id": "mk-1",
+    "streams": [
+      { "segment": "1925193288", "subrefs": [
+        { "name": "1", "start": 15338 }
+      ] },
+      { "segment": "1925972150", "subrefs": [
+        { "name": "2", "start": 614 }
       ] }
     ]
   },

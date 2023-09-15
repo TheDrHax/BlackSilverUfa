@@ -12663,9 +12663,9 @@
   },
   "1842665393": {
     "youtube": "7lgkt5JPSh8", "abs_start": 0, "abs_end": 20900, "duration": 20900,
-    "name": "Lies of P (демо) / неПрофессиональный \"E3\" 2023 - Wholesome Direct | Future Games Show",
+    "name": "Lies of P - Демо / неПрофессиональный \"E3\" 2023 - Wholesome Direct | Future Games Show",
     "date": "2023-06-10",
-    "games": ["first-2023", "e3-2023"],
+    "games": ["lies-of-p", "e3-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1842665393+0.ass"
   },
   "1843524831": {
@@ -12979,7 +12979,6 @@
     "youtube": "2B-NCI8B9lQ", "abs_start": 0, "abs_end": 18352, "duration": 18352,
     "name": "The Ghost Train / The Mortuary Assistant #6 / Lunacy: Saint Rhodes #3",
     "date": "2023-07-31",
-    "torrent": "https://bsufiles.drhx.ru/streams/1886428924.torrent",
     "games": ["single", "mortuary-assistant", "lunacy-sr"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1886428924.ass"
   },
@@ -12987,7 +12986,6 @@
     "youtube": "cCr8Xkf0nzM", "abs_start": 0, "abs_end": 22554, "duration": 22554,
     "name": "Remnant II #4",
     "date": "2023-08-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/1887286714.torrent",
     "games": ["remnant-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1887286714.ass"
   },
@@ -13233,10 +13231,20 @@
   },
   "1925193288": {
     "youtube": "rA9L0WCUcj4", "abs_start": 0, "abs_end": 21466, "duration": 21466,
-    "name": "Mortal Kombat #2 / Mortal Kombat 2 / Mortal Kombat 3 / Mortal Kombat Trilogy / Mortal Kombat 4 / Mortal Kombat Mythologies: Sub-Zero / Mortal Kombat: Special Forces / Mortal Kombat 1",
+    "name": "Mortal Kombat #2 / Mortal Kombat 2 / Mortal Kombat 3 / Mortal Kombat Trilogy / Mortal Kombat 4 / Mortal Kombat Mythologies: Sub-Zero / Mortal Kombat: Special Forces / Mortal Kombat 1 #1",
     "date": "2023-09-14",
     "torrent": "https://bsufiles.drhx.ru/streams/1925193288.torrent",
-    "games": ["mk", "first-2023"],
+    "games": ["mk", "first-2023", "mk-1"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1925193288.ass"
+  },
+  "1925972150": {
+    "abs_start": 0, "abs_end": 30313, "duration": 30313,
+    "name": "Mortal Kombat 1 #2 / Ghostrunner 2 / Lies of P #1",
+    "date": "2023-09-15",
+    "direct": "https://bsufiles.drhx.ru/streams/1925972150.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1925972150.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1925972150.torrent",
+    "games": ["mk-1", "first-2023", "lies-of-p"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1925972150.ass"
   }
 }
