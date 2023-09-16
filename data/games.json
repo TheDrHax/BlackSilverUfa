@@ -7457,9 +7457,6 @@
         { "name": "The Night Shift", "start": 14601 },
         { "name": "Darker Skies: Remastered for PC", "start": 15379 }
       ] },
-      { "segment": "1924362967", "subrefs": [
-        { "name": "Ad Infinitum", "start": 4569 }
-      ] },
       { "segment": "1925193288", "subrefs": [
         { "name": "Mortal Kombat 2", "start": 4876 },
         { "name": "Mortal Kombat 3", "start": 7593 },
@@ -7470,6 +7467,19 @@
       ] },
       { "segment": "1925972150", "subrefs": [
         { "name": "Ghostrunner 2", "start": 15487 }
+      ] }
+    ]
+  },
+  {
+    "name": "Ad Infinitum",
+    "category": "finished",
+    "id": "ad-infinitum",
+    "streams": [
+      { "segment": "1924362967", "subrefs": [
+        { "name": "1", "start": 4569 }
+      ] },
+      { "segment": "1926880821", "subrefs": [
+        { "name": "2", "start": 874 }
       ] }
     ]
   },
@@ -9501,7 +9511,7 @@
   },
   {
     "name": "Song of Horror",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "song-of-horror",
     "streams": [
       { "segment": "878410974", "subrefs": [
@@ -9518,6 +9528,9 @@
       ] },
       { "segment": "1902891024", "subrefs": [
         { "name": "3", "start": 9518 }
+      ] },
+      { "segment": "1926880821", "subrefs": [
+        { "name": "4", "start": 12677 }
       ] }
     ]
   },

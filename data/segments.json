@@ -581,7 +581,7 @@
     "games": ["fallout-2"]
   },
   "001610070": {
-    "youtube": "F8gO0_BcgoU", "official": false, "abs_start": 0, "abs_end": 21384, "duration": 21384,
+    "abs_start": 0, "abs_end": 21384, "duration": 0,
     "name": "Mafia III #1",
     "date": "2016-10-07",
     "games": ["mafia-3"]
@@ -12993,7 +12993,6 @@
     "youtube": "n_EqxprVEfY", "abs_start": 0, "abs_end": 22373, "duration": 22373,
     "name": "Atomic Heart - Перед DLC | Annihilation Instinct #1",
     "date": "2023-08-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/1888133609.torrent",
     "games": ["atomic-heart"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1888133609.ass"
   },
@@ -13223,10 +13222,10 @@
   },
   "1924362967": {
     "youtube": "1Cpk9FE-5po", "abs_start": 0, "abs_end": 21791, "duration": 21791,
-    "name": "Ad Infinitum",
+    "name": "Ad Infinitum #1",
     "date": "2023-09-13",
     "torrent": "https://bsufiles.drhx.ru/streams/1924362967.torrent",
-    "games": ["first-2023"],
+    "games": ["ad-infinitum"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1924362967.ass"
   },
   "1925193288": {
@@ -13246,5 +13245,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1925972150.torrent",
     "games": ["mk-1", "first-2023", "lies-of-p"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1925972150.ass"
+  },
+  "1926880821": {
+    "abs_start": 0, "abs_end": 18705, "duration": 18705,
+    "name": "Ad Infinitum #2 / Song of Horror #4",
+    "date": "2023-09-16",
+    "direct": "https://bsufiles.drhx.ru/streams/1926880821.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1926880821.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1926880821.torrent",
+    "games": ["ad-infinitum", "song-of-horror"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1926880821.ass"
   }
 }
