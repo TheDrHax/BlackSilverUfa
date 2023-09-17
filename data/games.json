@@ -4384,6 +4384,11 @@
       { "segment": "1917728202", "subrefs": [
         { "name": "The Convenience Store", "start": 3112 },
         { "name": "Seven Nights Ghost", "start": 9704 }
+      ] },
+      { "segment": "1927857923", "subrefs": [
+        { "name": "Greener Grass Awaits", "start": 5127 },
+        { "name": "Tenebris Somnia (демо)", "start": 13320 },
+        { "name": "Terror in the Kitchen", "start": 14761 }
       ] }
     ]
   },
@@ -7467,6 +7472,10 @@
       ] },
       { "segment": "1925972150", "subrefs": [
         { "name": "Ghostrunner 2", "start": 15487 }
+      ] },
+      { "segment": "1927857923", "subrefs": [
+        { "name": "Silent Scream", "start": 2273 },
+        { "name": "The Great Fear", "start": 12771 }
       ] }
     ]
   },

@@ -13000,7 +13000,6 @@
     "youtube": "r0WkQPXsaFs", "abs_start": 0, "abs_end": 26810, "duration": 26810,
     "name": "Atomic Heart - Annihilation Instinct #2 / Baldur's Gate 3 - Релиз",
     "date": "2023-08-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/1888974774.torrent",
     "games": ["atomic-heart", "bg3"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1888974774.ass"
   },
@@ -13251,5 +13250,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1926880821.torrent",
     "games": ["ad-infinitum", "song-of-horror"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1926880821.ass"
+  },
+  "1927857923": {
+    "abs_start": 0, "abs_end": 18694, "duration": 18694,
+    "name": "Silent Scream / Greener Grass Awaits / The Great Fear / Tenebris Somnia (демо) / Terror in the Kitchen",
+    "date": "2023-09-17",
+    "direct": "https://bsufiles.drhx.ru/streams/1927857923.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1927857923.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1927857923.torrent",
+    "games": ["first-2023", "single"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1927857923.ass"
   }
 }
