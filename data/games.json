@@ -4061,7 +4061,6 @@
         { "name": "Security Booth: Director's Cut", "start": 2343 }
       ] },
       { "segment": "1588071501", "subrefs": [
-        { "name": "Lempo (демо)", "start": 4812 },
         { "name": "Mega", "start": 9087 },
         { "name": "The Horrors Recrudesce (демо)", "start": 10806 },
         { "name": "Bias (демо)", "start": 13396 },
@@ -4389,6 +4388,10 @@
         { "name": "Greener Grass Awaits", "start": 5127 },
         { "name": "Tenebris Somnia (демо)", "start": 13320 },
         { "name": "Terror in the Kitchen", "start": 14761 }
+      ] },
+      { "segment": "1928706610", "subrefs": [
+        { "name": "Apartament 1406", "start": 1185 },
+        { "name": "Squirrel Stapler", "start": 13467 }
       ] }
     ]
   },
@@ -7476,6 +7479,19 @@
       { "segment": "1927857923", "subrefs": [
         { "name": "Silent Scream", "start": 2273 },
         { "name": "The Great Fear", "start": 12771 }
+      ] }
+    ]
+  },
+  {
+    "name": "Lempo",
+    "category": "ongoing",
+    "id": "lempo",
+    "streams": [
+      { "segment": "1588071501", "subrefs": [
+        { "name": "Демо", "start": 4812 }
+      ] },
+      { "segment": "1928706610", "subrefs": [
+        { "name": "1", "start": 5224 }
       ] }
     ]
   },

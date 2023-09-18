@@ -11161,9 +11161,9 @@
   },
   "1588071501": {
     "youtube": "6kaWdRktmtM", "abs_start": 0, "abs_end": 18616, "duration": 18616,
-    "name": "The Complex: Found Footage / Lempo (демо) / Mega / The Horrors Recrudesce (демо) / Bias (демо) / Deadly Night #1 / Don't Look",
+    "name": "The Complex: Found Footage / Lempo - Демо / Mega / The Horrors Recrudesce (демо) / Bias (демо) / Deadly Night #1 / Don't Look",
     "date": "2022-09-11",
-    "games": ["first-2022", "single", "deadly-night"],
+    "games": ["first-2022", "lempo", "single", "deadly-night"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1588071501.ass"
   },
   "1592425669": {
@@ -13258,5 +13258,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1927857923.torrent",
     "games": ["first-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1927857923.ass"
+  },
+  "1928706610": {
+    "abs_start": 0, "abs_end": 18870, "duration": 18870,
+    "name": "Apartament 1406 / Lempo #1 / Squirrel Stapler",
+    "date": "2023-09-18",
+    "direct": "https://bsufiles.drhx.ru/streams/1928706610.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1928706610.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1928706610.torrent",
+    "games": ["single", "lempo"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1928706610.ass"
   }
 }
