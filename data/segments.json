@@ -13011,22 +13011,16 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1889874082.ass"
   },
   "1890707460": {
-    "abs_start": 0, "abs_end": 8018, "duration": 8018,
+    "abs_start": 0, "abs_end": 8022, "duration": 0,
     "name": "",
     "date": "2023-08-05",
-    "direct": "https://bsufiles.drhx.ru/streams/1890707460.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1890707460.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1890707460.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1890707460+0.ass"
   },
   "1890774077": {
-    "abs_start": 0, "abs_end": 14947, "duration": 14947,
+    "abs_start": 0, "abs_end": 14962, "duration": 0,
     "name": "",
     "date": "2023-08-05",
-    "direct": "https://bsufiles.drhx.ru/streams/1890774077.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1890774077.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/1890774077.torrent",
     "games": [],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1890774077.ass"
   },
@@ -13272,5 +13266,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1929503291.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1929503291.ass"
+  },
+  "1931184512": {
+    "abs_start": 0, "abs_end": 35049, "duration": 35049,
+    "name": "Resident Evil 4 Remake - Separate Ways",
+    "date": "2023-09-21",
+    "direct": "https://bsufiles.drhx.ru/streams/1931184512.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1931184512.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1931184512.torrent",
+    "games": ["re4-remake"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1931184512.ass"
   }
 }
