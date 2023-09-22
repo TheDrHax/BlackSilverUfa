@@ -7276,7 +7276,7 @@
   },
   "767249770": {
     "youtube": "f00l6tmLWSY", "official": false, "abs_start": 0, "abs_end": 22863, "duration": 22863,
-    "name": "Xuan-Yuan Sword VII (демо) / Webbed - Демо / Everspace 2 - Демо / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (со зрителями)",
+    "name": "Xuan-Yuan Sword VII (демо) / Webbed - Демо / Everspace 2 - Демо / Partisans 1941 (демо) / F.I.S.T.: Forged In Shadow Torch (демо) / Party Animals #1 (ранний доступ)",
     "date": "2020-10-11",
     "games": ["single", "webbed", "everspace-2", "first-2020", "party-animals"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v767249770.ass"
@@ -13036,7 +13036,6 @@
     "youtube": "q3QmE2MvgRs", "abs_start": 0, "abs_end": 19114, "duration": 19114,
     "name": "Where Is Sarah? / Episode 666 / Step Into The Dark / Carbon Steel / The Lunar Effect (демо) / The Duck Psychology (демо) / Concrete Tremor / Tartarus Engine",
     "date": "2023-08-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/1891624092.torrent",
     "games": ["first-2023", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1891624092.ass"
   },
@@ -13274,5 +13273,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1931184512.torrent",
     "games": ["re4-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1931184512.ass"
+  },
+  "1932106766": {
+    "abs_start": 0, "abs_end": 20454, "duration": 20454,
+    "name": "Witchfire / Party Animals #3 (релиз)",
+    "date": "2023-09-22",
+    "direct": "https://bsufiles.drhx.ru/streams/1932106766.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1932106766.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1932106766.torrent",
+    "games": ["first-2023", "party-animals"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1932106766.ass"
   }
 }

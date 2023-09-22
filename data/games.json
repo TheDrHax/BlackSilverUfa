@@ -6241,7 +6241,7 @@
   },
   {
     "name": "Trepang2",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "trepang2",
     "streams": [
       { "segment": "524865260", "subrefs": [
@@ -7485,6 +7485,9 @@
       { "segment": "1927857923", "subrefs": [
         { "name": "Silent Scream", "start": 2273 },
         { "name": "The Great Fear", "start": 12771 }
+      ] },
+      { "segment": "1932106766", "subrefs": [
+        { "name": "Witchfire", "start": 4388 }
       ] }
     ]
   },
@@ -9938,10 +9941,13 @@
     "id": "party-animals",
     "streams": [
       { "segment": "767249770", "subrefs": [
-        { "name": "1 (со зрителями)", "start": 13217 }
+        { "name": "1 (ранний доступ)", "start": 13217 }
       ] },
       { "segment": "768182935", "subrefs": [
         { "name": "2", "start": 13748 }
+      ] },
+      { "segment": "1932106766", "subrefs": [
+        { "name": "3 (релиз)", "start": 12184 }
       ] }
     ]
   },
