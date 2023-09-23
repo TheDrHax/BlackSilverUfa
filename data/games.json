@@ -4416,7 +4416,7 @@
   },
   {
     "name": "They Are Here: Alien Abduction Horror",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "they-are-here",
     "streams": [
       { "segment": "1061050549", "subrefs": [
@@ -6822,7 +6822,7 @@
   },
   {
     "name": "Stray Souls",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "stray-souls",
     "streams": [
       { "segment": "1224807350", "subrefs": [
@@ -9565,6 +9565,9 @@
       ] },
       { "segment": "1926880821", "subrefs": [
         { "name": "4", "start": 12677 }
+      ] },
+      { "segment": "1933030113", "subrefs": [
+        { "name": "5", "start": 1341 }
       ] }
     ]
   },
@@ -9948,6 +9951,9 @@
       ] },
       { "segment": "1932106766", "subrefs": [
         { "name": "3 (релиз)", "start": 12184 }
+      ] },
+      { "segment": "1933030113", "subrefs": [
+        { "name": "4", "start": 18680 }
       ] }
     ]
   },
