@@ -10171,9 +10171,9 @@
   },
   "1265545024": {
     "youtube": "pJfb_rGMacE", "abs_start": 0, "abs_end": 21882, "duration": 21882,
-    "name": "How Fish Is Made / Witching Hour (демо) / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles - Dead of Winter",
+    "name": "How Fish Is Made - Прохождение / Witching Hour (демо) / Halloween / Slit Mouthed / Beetlebum: Resident Weevil / SCP-847 / Everything Is For Humanity (демо) / Copperport Casefiles - Dead of Winter",
     "date": "2022-01-16",
-    "games": ["single", "first-2022", "copperport"],
+    "games": ["hfim", "first-2022", "single", "copperport"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1265545024.ass"
   },
   "1268793469": {
@@ -11922,9 +11922,9 @@
   },
   "1728992336": {
     "youtube": "ZdLty-coTys", "abs_start": 0, "abs_end": 21293, "duration": 21293,
-    "name": "Chilla's Art Complete Pack - The Karaoke / Interior Worlds (демо) / Holstin (демо) / Poop Killer 6 / In The Mountains / Project Code: Dark (демо) / Cannibal Abduction / Dias Felices",
+    "name": "Chilla's Art Complete Pack - The Karaoke / Interior Worlds (демо) / Holstin - Демо 1 / Poop Killer 6 / In The Mountains / Project Code: Dark (демо) / Cannibal Abduction / Dias Felices",
     "date": "2023-02-05",
-    "games": ["single", "first-2023", "616-games"],
+    "games": ["single", "holstin", "616-games", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1728992336.ass"
   },
   "1729899835": {
@@ -13057,7 +13057,6 @@
     "youtube": "SJY-aws7viQ", "abs_start": 0, "abs_end": 21805, "duration": 21805,
     "name": "Pacify #2 / Holy Purge / Labyrinthine #3 / Surrounded / Cartoon Rage",
     "date": "2023-08-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/1895922463.torrent",
     "games": ["pacify", "co-op", "labyrinthine"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1895922463.ass"
   },
@@ -13288,5 +13287,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1933030113.torrent",
     "games": ["song-of-horror", "party-animals"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1933030113.ass"
+  },
+  "1933948782": {
+    "abs_start": 0, "abs_end": 18499, "duration": 18499,
+    "name": "Lakefront Restaurant / Stalls of Dread / Endless Blue / Time: A Backrooms Game / Dark Stories: The Workshop / Holstin - Демо 2 / How Fish Is Made - The Last One and Then Another / Pyramid Curse / Martha's Dolls (демо) / Twin Peaks: Into the Night (демо)",
+    "date": "2023-09-24",
+    "direct": "https://bsufiles.drhx.ru/streams/1933948782.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1933948782.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1933948782.torrent",
+    "games": ["first-2023", "single", "holstin", "hfim"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1933948782.ass"
   }
 }
