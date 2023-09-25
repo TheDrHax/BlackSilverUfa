@@ -13064,7 +13064,6 @@
     "youtube": "RDBFca4oaL8", "abs_start": 0, "abs_end": 22256, "duration": 22256,
     "name": "On The Bus / Nocturia The Game / Last Signal / Ergophobia / POMBERO: The Lord of the Night / Depth of Contamination / Slender: Return to Rosswood Park",
     "date": "2023-08-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/1896806146.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1896806146.ass"
   },
@@ -13297,5 +13296,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1933948782.torrent",
     "games": ["first-2023", "single", "holstin", "hfim"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1933948782.ass"
+  },
+  "1934826676": {
+    "abs_start": 0, "abs_end": 15612, "duration": 15612,
+    "name": "Cyberpunk 2077 #6",
+    "date": "2023-09-25",
+    "direct": "https://bsufiles.drhx.ru/streams/1934826676.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1934826676.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1934826676.torrent",
+    "games": ["cyberpunk-2077"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1934826676.ass"
   }
 }

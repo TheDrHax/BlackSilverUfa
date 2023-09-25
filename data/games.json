@@ -4987,22 +4987,25 @@
     "id": "cyberpunk-2077",
     "streams": [
       { "segment": "830961978", "subrefs": [
-        { "name": "1" }
+        { "name": "1", "start": 3716 }
       ] },
       { "segment": "832197729", "subrefs": [
-        { "name": "2 (часть 1)" }
+        { "name": "2 (часть 1)", "start": 434 }
       ] },
       { "segment": "832197729.1", "subrefs": [
         { "name": "2 (часть 2)" }
       ] },
       { "segment": "833444670", "subrefs": [
-        { "name": "3" }
+        { "name": "3", "start": 414 }
       ] },
       { "segment": "834647659", "subrefs": [
-        { "name": "4" }
+        { "name": "4", "start": 468 }
       ] },
       { "segment": "835893888", "subrefs": [
-        { "name": "5 (финал)" }
+        { "name": "5 (финал)", "start": 444 }
+      ] },
+      { "segment": "1934826676", "subrefs": [
+        { "name": "6", "start": 404 }
       ] }
     ]
   },
