@@ -13071,7 +13071,6 @@
     "youtube": "yleVi1sDxEo", "abs_start": 0, "abs_end": 19141, "duration": 19141,
     "name": "Song of Horror #1 (заново)",
     "date": "2023-08-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/1897670218.torrent",
     "games": ["song-of-horror"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1897670218.ass"
   },
@@ -13079,7 +13078,6 @@
     "youtube": "pC90x0M9a4s", "abs_start": 0, "abs_end": 28406, "duration": 28406,
     "name": "The Legend of Zelda: Tears of the Kingdom #15",
     "date": "2023-08-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/1901048765.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1901048765+0.ass"
   },
@@ -13302,5 +13300,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1934826676.torrent",
     "games": ["cyberpunk-2077"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1934826676.ass"
+  },
+  "1935502535": {
+    "abs_start": 0, "abs_end": 33488, "duration": 33488,
+    "name": "Cyberpunk 2077 #7 (Phantom Liberty)",
+    "date": "2023-09-26",
+    "direct": "https://bsufiles.drhx.ru/streams/1935502535.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1935502535.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1935502535.torrent",
+    "games": ["cyberpunk-2077"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1935502535.ass"
   }
 }
