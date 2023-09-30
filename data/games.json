@@ -7275,7 +7275,7 @@
   },
   {
     "name": "Chessmaster II",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "chessmaster-2",
     "streams": [
       { "segment": "1559742064", "subrefs": [
@@ -9613,6 +9613,9 @@
       ] },
       { "segment": "1933030113", "subrefs": [
         { "name": "5", "start": 1341 }
+      ] },
+      { "segment": "1939009123", "subrefs": [
+        { "name": "6", "start": 2608 }
       ] }
     ]
   },
