@@ -7739,9 +7739,9 @@
   },
   "849365667": {
     "youtube": "U4Jut037ZQ0", "official": false, "abs_start": 0, "abs_end": 23157, "duration": 23157,
-    "name": "Gothic",
+    "name": "Gothic - Первый взгляд",
     "date": "2020-12-25",
-    "games": ["first-2020"],
+    "games": ["gothic"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v849365667.ass"
   },
   "850367913": {
@@ -13324,5 +13324,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1939916692.torrent",
     "games": ["single", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1939916692.ass"
+  },
+  "1941566102": {
+    "abs_start": 0, "abs_end": 15568, "duration": 15568,
+    "name": "Song of Horror #7 / Gothic - на Nintendo Switch",
+    "date": "2023-10-03",
+    "direct": "https://bsufiles.drhx.ru/streams/1941566102.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1941566102.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1941566102.torrent",
+    "games": ["song-of-horror", "gothic"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1941566102.ass"
   }
 }

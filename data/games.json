@@ -6497,14 +6497,24 @@
         { "name": "El Hijo: A Wild West Game" },
         { "name": "Worms Rumble", "start": 7449 }
       ] },
-      { "segment": "849365667", "subrefs": [
-        { "name": "Gothic" }
-      ] },
       { "segment": "850367913", "subrefs": [
         { "name": "Gone Golfing", "start": 12150 }
       ] },
       { "segment": "853883043", "subrefs": [
         { "name": "Ebola 2", "start": 7958 }
+      ] }
+    ]
+  },
+  {
+    "name": "Gothic",
+    "category": "ongoing",
+    "id": "gothic",
+    "streams": [
+      { "segment": "849365667", "subrefs": [
+        { "name": "Первый взгляд", "start": 6725 }
+      ] },
+      { "segment": "1941566102", "subrefs": [
+        { "name": "на Nintendo Switch", "start": 6500 }
       ] }
     ]
   },
@@ -9629,6 +9639,9 @@
       ] },
       { "segment": "1939009123", "subrefs": [
         { "name": "6", "start": 2608 }
+      ] },
+      { "segment": "1941566102", "subrefs": [
+        { "name": "7", "start": 1890 }
       ] }
     ]
   },
