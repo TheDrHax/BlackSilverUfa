@@ -13121,7 +13121,6 @@
     "youtube": "DeXKbbLF26E", "abs_start": 0, "abs_end": 23553, "duration": 23553,
     "name": "Remnant II #6 / Hello Engineer",
     "date": "2023-08-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/1904659436.torrent",
     "games": ["remnant-2", "co-op"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1904659436.ass"
   },
@@ -13334,5 +13333,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1941566102.torrent",
     "games": ["song-of-horror", "gothic"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1941566102.ass"
+  },
+  "1942318458": {
+    "abs_start": 0, "abs_end": 26151, "duration": 26151,
+    "name": "Assassin's Creed Mirage",
+    "date": "2023-10-04",
+    "direct": "https://bsufiles.drhx.ru/streams/1942318458.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1942318458.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1942318458.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1942318458.ass"
   }
 }
