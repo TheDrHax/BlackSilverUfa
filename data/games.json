@@ -4408,6 +4408,16 @@
         { "name": "The Smiling Man", "start": 13129 },
         { "name": "Night People", "start": 17088 },
         { "name": "The Wailing of the Forest", "start": 18005 }
+      ] },
+      { "segment": "1944892729", "subrefs": [
+        { "name": "Out of Gas", "start": 2243 },
+        { "name": "CHANGO", "start": 2956 },
+        { "name": "The Windows Are Gone", "start": 3813 },
+        { "name": "A Craft of Mine", "start": 8944 },
+        { "name": "Tear Factory", "start": 13158 },
+        { "name": "Where's My Drink...?", "start": 14859 },
+        { "name": "Rusty Barrel", "start": 17256 },
+        { "name": "Mr. Lupin", "start": 18119 }
       ] }
     ]
   },
@@ -7562,6 +7572,9 @@
       ] },
       { "segment": "1942318458", "subrefs": [
         { "name": "Assassin's Creed Mirage", "start": 1153 }
+      ] },
+      { "segment": "1944892729", "subrefs": [
+        { "name": "Dreamcore (демо)", "start": 10709 }
       ] }
     ]
   },
