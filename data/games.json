@@ -1282,6 +1282,9 @@
       ] },
       { "segment": "1781609483", "subrefs": [
         { "name": "17 (с Куплиновым и Дангаром)", "start": 13441 }
+      ] },
+      { "segment": "1945778448", "subrefs": [
+        { "name": "18 (с Куплиновым и Дангаром)", "start": 2595 }
       ] }
     ]
   },
@@ -4418,6 +4421,10 @@
         { "name": "Where's My Drink...?", "start": 14859 },
         { "name": "Rusty Barrel", "start": 17256 },
         { "name": "Mr. Lupin", "start": 18119 }
+      ] },
+      { "segment": "1945778448", "subrefs": [
+        { "name": "Steel Roamer", "start": 968 },
+        { "name": "Entity Room", "start": 13984 }
       ] }
     ]
   },
@@ -7575,6 +7582,9 @@
       ] },
       { "segment": "1944892729", "subrefs": [
         { "name": "Dreamcore (демо)", "start": 10709 }
+      ] },
+      { "segment": "1945778448", "subrefs": [
+        { "name": "SCP-479: Shadows of the Mind", "start": 12670 }
       ] }
     ]
   },
