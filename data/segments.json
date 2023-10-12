@@ -13144,7 +13144,6 @@
     "youtube": "ZId6UaJewtE", "official": false, "abs_start": 0, "abs_end": 24374, "duration": 24374,
     "name": "Armored Core VI: Fires of Rubicon #2 (без комментариев)",
     "date": "2023-08-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/1909871377.torrent",
     "games": ["ac6-for"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1909871377.ass"
   },
@@ -13367,5 +13366,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1945778448.torrent",
     "games": ["single", "phasmophobia", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1945778448.ass"
+  },
+  "1949027899": {
+    "abs_start": 0, "abs_end": 21507, "duration": 21507,
+    "name": "April '86 (демо) / ONE WAY HOME (демо) / Pine Harbor (демо) / The Bridge Curse 2: The Extrication (демо) / Hollow Cocoon (демо) / Chiyo (демо) / Nevermind This (демо) / Paranormal Records (демо)",
+    "date": "2023-10-12",
+    "direct": "https://bsufiles.drhx.ru/streams/1949027899.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1949027899.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1949027899.torrent",
+    "games": ["single", "first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1949027899.ass"
   }
 }

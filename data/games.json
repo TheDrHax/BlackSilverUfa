@@ -4425,6 +4425,15 @@
       { "segment": "1945778448", "subrefs": [
         { "name": "Steel Roamer", "start": 968 },
         { "name": "Entity Room", "start": 13984 }
+      ] },
+      { "segment": "1949027899", "subrefs": [
+        { "name": "April '86 (демо)", "start": 2419 },
+        { "name": "ONE WAY HOME (демо)", "start": 4375 },
+        { "name": "Pine Harbor (демо)", "start": 6662 },
+        { "name": "The Bridge Curse 2: The Extrication (демо)", "start": 9181 },
+        { "name": "Hollow Cocoon (демо)", "start": 14242 },
+        { "name": "Nevermind This (демо)", "start": 18005 },
+        { "name": "Paranormal Records (демо)", "start": 19725 }
       ] }
     ]
   },
@@ -7585,6 +7594,9 @@
       ] },
       { "segment": "1945778448", "subrefs": [
         { "name": "SCP-479: Shadows of the Mind", "start": 12670 }
+      ] },
+      { "segment": "1949027899", "subrefs": [
+        { "name": "Chiyo (демо)", "start": 16717 }
       ] }
     ]
   },
@@ -13507,7 +13519,7 @@
   },
   {
     "name": "Voidtrain (ранний доступ)",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "voidtrain",
     "streams": [
       { "segment": "1117002114", "subrefs": [
