@@ -13158,7 +13158,6 @@
     "youtube": "mT5-zKX1Um0", "abs_start": 64, "abs_end": 43218, "duration": 43154,
     "name": "Starfield #1",
     "date": "2023-09-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/1914021087.torrent",
     "games": ["starfield"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1914021087.ass"
   },
@@ -13376,10 +13375,20 @@
   },
   "1949835858": {
     "youtube": "u1UovrHlPJY", "abs_start": 0, "abs_end": 14402, "duration": 14402,
-    "name": "Crime Scene Cleaner (демо) / Party Animals #5 (с Куплиновым и Дангаром) / Dark Fracture (демо)",
+    "name": "Crime Scene Cleaner (демо) #1 / Party Animals #5 (с Куплиновым и Дангаром) / Dark Fracture (демо)",
     "date": "2023-10-13",
     "torrent": "https://bsufiles.drhx.ru/streams/1949835858.torrent",
-    "games": ["first-2023", "party-animals", "single"],
+    "games": ["csc", "party-animals", "single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1949835858.ass"
+  },
+  "1950762078": {
+    "abs_start": 0, "abs_end": 17768, "duration": 17768,
+    "name": "ELDRIMAR (демо) / Gennady (демо) / The Talos Principle II (демо) / Жил-Ячейка (демо) / The Thaumaturge (демо) / Forgive Me Father 2 (демо) / Enshrouded (демо) / The Enjenir (демо) / Crime Scene Cleaner (демо) #2",
+    "date": "2023-10-14",
+    "direct": "https://bsufiles.drhx.ru/streams/1950762078.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1950762078.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1950762078.torrent",
+    "games": ["single", "first-2023", "csc"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1950762078.ass"
   }
 }
