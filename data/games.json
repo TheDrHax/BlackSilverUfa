@@ -4442,6 +4442,14 @@
         { "name": "ELDRIMAR (демо)", "start": 2520 },
         { "name": "Жил-Ячейка (демо)", "start": 8222 },
         { "name": "Forgive Me Father 2 (демо)", "start": 11785 }
+      ] },
+      { "segment": "1951658427", "subrefs": [
+        { "name": "Outlive (демо)", "start": 4077 },
+        { "name": "Lonely Valley Case (демо)", "start": 12848 },
+        { "name": "Maul in a Dream", "start": 13521 },
+        { "name": "Haunted Memories: The Return (демо)", "start": 15411 },
+        { "name": "Hell of Verdun (демо)", "start": 17751 },
+        { "name": "The Black Within (демо)", "start": 18690 }
       ] }
     ]
   },
@@ -4701,6 +4709,9 @@
       ] },
       { "segment": "1837484119", "subrefs": [
         { "name": "Poop Killer 7", "start": 10623 }
+      ] },
+      { "segment": "1951658427", "subrefs": [
+        { "name": "Deer", "start": 9942 }
       ] }
     ]
   },
@@ -7612,6 +7623,13 @@
         { "name": "The Thaumaturge (демо)", "start": 9440 },
         { "name": "Enshrouded (демо)", "start": 13001 },
         { "name": "The Enjenir (демо)", "start": 14934 }
+      ] },
+      { "segment": "1951658427", "subrefs": [
+        { "name": "Screams from the Past (демо)", "start": 2417 },
+        { "name": "Ocean Pressure", "start": 5900 },
+        { "name": "Hope is Gone (демо)", "start": 6874 },
+        { "name": "Hinge (демо)", "start": 11979 },
+        { "name": "Empty Shell (демо)", "start": 16415 }
       ] }
     ]
   },
