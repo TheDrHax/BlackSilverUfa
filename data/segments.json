@@ -13403,5 +13403,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1951658427.torrent",
     "games": ["first-2023", "single", "616-games"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1951658427.ass"
+  },
+  "1952515492": {
+    "abs_start": 0, "abs_end": 13053, "duration": 13053,
+    "name": "RoboCop: Rogue City (демо)",
+    "date": "2023-10-16",
+    "direct": "https://bsufiles.drhx.ru/streams/1952515492.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1952515492.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1952515492.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1952515492.ass"
   }
 }
