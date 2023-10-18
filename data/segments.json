@@ -13121,9 +13121,9 @@
   },
   "1904659436": {
     "youtube": "DeXKbbLF26E", "abs_start": 0, "abs_end": 23553, "duration": 23553,
-    "name": "Remnant II #6 / Hello Engineer",
+    "name": "Remnant II #6 / Hello Engineer #1",
     "date": "2023-08-21",
-    "games": ["remnant-2", "co-op"],
+    "games": ["remnant-2", "hello-engineer"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1904659436.ass"
   },
   "1906345080": {
@@ -13165,7 +13165,6 @@
     "youtube": "-1uI7p5qmxo", "abs_start": 0, "abs_end": 30581, "duration": 30581,
     "name": "Starfield #2",
     "date": "2023-09-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/1915040387.torrent",
     "games": ["starfield"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1915040387+0.ass"
   },
@@ -13405,7 +13404,17 @@
     "name": "RoboCop: Rogue City (демо)",
     "date": "2023-10-16",
     "torrent": "https://bsufiles.drhx.ru/streams/1952515492.torrent",
-    "games": ["first-2023"],
+    "games": ["single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1952515492.ass"
+  },
+  "1954044542": {
+    "abs_start": 0, "abs_end": 23312, "duration": 23312,
+    "name": "Tatari: The Arrival (демо) / CHORDOSIS: Episode 1 / Cannibals / Hello Engineer #2",
+    "date": "2023-10-18",
+    "direct": "https://bsufiles.drhx.ru/streams/1954044542.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1954044542.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1954044542.torrent",
+    "games": ["single", "first-2023", "hello-engineer"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1954044542.ass"
   }
 }
