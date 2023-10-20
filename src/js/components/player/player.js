@@ -275,6 +275,11 @@ export default class Player extends React.Component {
       }
     });
 
+    // Workaround for exiting fullscreen after pressing Space
+    plyr.on('enterfullscreen', () => {
+      this.plyr.elements.buttons.play[1].focus();
+    });
+
     plyr.on('ended', this.onVideoEnded);
     plyr.on('enterfullscreen', this.onFullScreenEnter);
     plyr.on('exitfullscreen', this.onFullScreenExit);
