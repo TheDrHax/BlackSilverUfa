@@ -7650,9 +7650,19 @@
       ] },
       { "segment": "1954044542", "subrefs": [
         { "name": "Cannibals", "start": 9909 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Marvel's Spider-Man 2",
+    "category": "ongoing",
+    "id": "spider-man-2",
+    "streams": [
       { "segment": "1954787771", "subrefs": [
-        { "name": "Marvel's Spider-Man 2", "start": 1872 }
+        { "name": "1", "start": 1872 }
+      ] },
+      { "segment": "1955568956", "subrefs": [
+        { "name": "2", "start": 561 }
       ] }
     ]
   },

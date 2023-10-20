@@ -13438,7 +13438,6 @@
     "youtube": "3RZG7do3SIM", "abs_start": 0, "abs_end": 19479, "duration": 19479,
     "name": "The Convenience Store / Seven Nights Ghost",
     "date": "2023-09-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/1917728202.torrent",
     "games": ["single"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1917728202.ass"
   },
@@ -13446,7 +13445,6 @@
     "youtube": "1Cpk9FE-5po", "abs_start": 0, "abs_end": 21791, "duration": 21791,
     "name": "Ad Infinitum #1",
     "date": "2023-09-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/1924362967.torrent",
     "games": ["ad-infinitum"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1924362967.ass"
   },
@@ -13663,10 +13661,20 @@
   },
   "1954787771": {
     "youtube": "IR2kb7SMDmc", "abs_start": 0, "abs_end": 30236, "duration": 30236,
-    "name": "Marvel's Spider-Man 2",
+    "name": "Marvel's Spider-Man 2 #1",
     "date": "2023-10-19",
     "torrent": "https://bsufiles.drhx.ru/streams/1954787771.torrent",
-    "games": ["first-2023"],
+    "games": ["spider-man-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1954787771.ass"
+  },
+  "1955568956": {
+    "abs_start": 0, "abs_end": 34722, "duration": 34722,
+    "name": "Marvel's Spider-Man 2 #2",
+    "date": "2023-10-20",
+    "direct": "https://bsufiles.drhx.ru/streams/1955568956.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1955568956.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1955568956.torrent",
+    "games": ["spider-man-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1955568956.ass"
   }
 }
