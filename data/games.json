@@ -7655,7 +7655,7 @@
   },
   {
     "name": "Marvel's Spider-Man 2",
-    "category": "ongoing",
+    "category": "finished",
     "id": "spider-man-2",
     "streams": [
       { "segment": "1954787771", "subrefs": [
@@ -7663,6 +7663,9 @@
       ] },
       { "segment": "1955568956", "subrefs": [
         { "name": "2", "start": 561 }
+      ] },
+      { "segment": "1956490392", "subrefs": [
+        { "name": "3", "start": 681 }
       ] }
     ]
   },
