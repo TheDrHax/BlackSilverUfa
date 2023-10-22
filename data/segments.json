@@ -734,9 +734,9 @@
   },
   "001701051": {
     "youtube": "8pTUf5W9-Wk", "official": false, "abs_start": 0, "abs_end": 10735, "duration": 10735,
-    "name": "Shadows 2 #2 / Captured / Wick / Locked Fears / Slender: The Arrival",
+    "name": "Shadows 2 #2 / Captured / Wick / Locked Fears / Slender: The Arrival #1",
     "date": "2017-01-05",
-    "games": ["shadows-2", "first-2017"]
+    "games": ["shadows-2", "first-2017", "slender"]
   },
   "001701070": {
     "youtube": "uAM6WeyD1-0", "official": false, "abs_start": 0, "abs_end": 21598, "duration": 21598,
@@ -13678,5 +13678,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1956490392.torrent",
     "games": ["spider-man-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1956490392.ass"
+  },
+  "1957481459": {
+    "abs_start": 0, "abs_end": 19046, "duration": 19046,
+    "name": "Fears to Fathom - Episode 4 - Ironbark Lookout / TELEFORUM / Slender: The Arrival #2 (10th Anniversary)",
+    "date": "2023-10-22",
+    "direct": "https://bsufiles.drhx.ru/streams/1957481459.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1957481459.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1957481459.torrent",
+    "games": ["fears-to-fathom", "single", "slender"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1957481459.ass"
   }
 }

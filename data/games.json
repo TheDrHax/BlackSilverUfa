@@ -4467,6 +4467,9 @@
       { "segment": "1954044542", "subrefs": [
         { "name": "Tatari: The Arrival (демо)", "start": 2151 },
         { "name": "CHORDOSIS: Episode 1", "start": 5038 }
+      ] },
+      { "segment": "1957481459", "subrefs": [
+        { "name": "TELEFORUM", "start": 13838 }
       ] }
     ]
   },
@@ -4829,6 +4832,9 @@
       ] },
       { "segment": "1703188749", "subrefs": [
         { "name": "Episode 3 - Carson House", "start": 4038 }
+      ] },
+      { "segment": "1957481459", "subrefs": [
+        { "name": "Episode 4 - Ironbark Lookout", "start": 2115 }
       ] }
     ]
   },
@@ -5879,8 +5885,7 @@
       { "segment": "001701051", "subrefs": [
         { "name": "Captured", "start": 1203 },
         { "name": "Wick", "start": 2595 },
-        { "name": "Locked Fears", "start": 3689 },
-        { "name": "Slender: The Arrival", "start": 4744 }
+        { "name": "Locked Fears", "start": 3689 }
       ] },
       { "segment": "001701070", "subrefs": [
         { "name": "My Summer Car" },
@@ -5913,6 +5918,19 @@
       ] },
       { "segment": "212678883", "subrefs": [
         { "name": "Stifled" }
+      ] }
+    ]
+  },
+  {
+    "name": "Slender: The Arrival",
+    "category": "ongoing",
+    "id": "slender",
+    "streams": [
+      { "segment": "001701051", "subrefs": [
+        { "name": "1", "start": 4744 }
+      ] },
+      { "segment": "1957481459", "subrefs": [
+        { "name": "2 (10th Anniversary)", "start": 16338 }
       ] }
     ]
   },
