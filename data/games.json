@@ -4470,6 +4470,9 @@
       ] },
       { "segment": "1957481459", "subrefs": [
         { "name": "TELEFORUM", "start": 13838 }
+      ] },
+      { "segment": "1959105799", "subrefs": [
+        { "name": "Лихо одноглазое (One-Eyed Likho) (демо)", "start": 2471 }
       ] }
     ]
   },
@@ -5927,10 +5930,13 @@
     "id": "slender",
     "streams": [
       { "segment": "001701051", "subrefs": [
-        { "name": "1", "start": 4744 }
+        { "name": "Первый взгляд", "start": 4744 }
       ] },
       { "segment": "1957481459", "subrefs": [
-        { "name": "2 (10th Anniversary)", "start": 16338 }
+        { "name": "1 (10th Anniversary)", "start": 16338 }
+      ] },
+      { "segment": "1959105799", "subrefs": [
+        { "name": "2", "start": 4161 }
       ] }
     ]
   },
@@ -7668,6 +7674,9 @@
       ] },
       { "segment": "1954044542", "subrefs": [
         { "name": "Cannibals", "start": 9909 }
+      ] },
+      { "segment": "1959105799", "subrefs": [
+        { "name": "Voices of the Void (демо)", "start": 14199 }
       ] }
     ]
   },

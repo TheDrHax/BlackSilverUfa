@@ -734,7 +734,7 @@
   },
   "001701051": {
     "youtube": "8pTUf5W9-Wk", "official": false, "abs_start": 0, "abs_end": 10735, "duration": 10735,
-    "name": "Shadows 2 #2 / Captured / Wick / Locked Fears / Slender: The Arrival #1",
+    "name": "Shadows 2 #2 / Captured / Wick / Locked Fears / Slender: The Arrival - Первый взгляд",
     "date": "2017-01-05",
     "games": ["shadows-2", "first-2017", "slender"]
   },
@@ -13094,7 +13094,6 @@
     "youtube": "wkwA9IVq-28", "abs_start": 0, "abs_end": 17913, "duration": 17913,
     "name": "SnowRunner #22",
     "date": "2023-07-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/1869063797.torrent",
     "games": ["snowrunner"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1869063797.ass"
   },
@@ -13681,10 +13680,20 @@
   },
   "1957481459": {
     "youtube": "b-R-DIaLGPM", "abs_start": 0, "abs_end": 19047, "duration": 19047,
-    "name": "Fears to Fathom - Episode 4 - Ironbark Lookout / TELEFORUM / Slender: The Arrival #2 (10th Anniversary)",
+    "name": "Fears to Fathom - Episode 4 - Ironbark Lookout / TELEFORUM / Slender: The Arrival #1 (10th Anniversary)",
     "date": "2023-10-22",
     "torrent": "https://bsufiles.drhx.ru/streams/1957481459.torrent",
     "games": ["fears-to-fathom", "single", "slender"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1957481459.ass"
+  },
+  "1959105799": {
+    "abs_start": 0, "abs_end": 22268, "duration": 22268,
+    "name": "Лихо одноглазое (One-Eyed Likho) (демо) / Slender: The Arrival #2 / Voices of the Void (демо)",
+    "date": "2023-10-24",
+    "direct": "https://bsufiles.drhx.ru/streams/1959105799.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1959105799.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1959105799.torrent",
+    "games": ["single", "slender", "first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1959105799.ass"
   }
 }
