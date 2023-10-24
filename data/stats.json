@@ -6,9 +6,9 @@
     },
     "segments": {
       "total": 1824,
-      "official": 1095,
+      "official": 1096,
       "unofficial": 716,
-      "missing": 13
+      "missing": 12
     },
     "messages": 25894967,
     "content_id": {
@@ -18,6 +18,6 @@
   },
   "durations": {
     "streams": 33926649,
-    "segments": 32967331
+    "segments": 32967332
   }
 }
