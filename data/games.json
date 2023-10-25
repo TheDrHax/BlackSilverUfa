@@ -7608,9 +7608,6 @@
       { "segment": "1896806146", "subrefs": [
         { "name": "POMBERO: The Lord of the Night", "start": 12674 }
       ] },
-      { "segment": "1894178506", "subrefs": [
-        { "name": "Terminal 81", "start": 5345 }
-      ] },
       { "segment": "1895024644", "subrefs": [
         { "name": "Street Fighter 6", "start": 748 }
       ] },
@@ -7675,8 +7672,34 @@
       { "segment": "1954044542", "subrefs": [
         { "name": "Cannibals", "start": 9909 }
       ] },
+      { "segment": "1959921584", "subrefs": [
+        { "name": "World of Horror", "start": 9513 }
+      ] }
+    ]
+  },
+  {
+    "name": "Voices of the Void (демо)",
+    "category": "ongoing",
+    "id": "votv",
+    "streams": [
       { "segment": "1959105799", "subrefs": [
-        { "name": "Voices of the Void (демо)", "start": 14199 }
+        { "name": "1", "start": 14199 }
+      ] },
+      { "segment": "1959921584", "subrefs": [
+        { "name": "2", "start": 11090 }
+      ] }
+    ]
+  },
+  {
+    "name": "Terminal 81",
+    "category": "finished",
+    "id": "terminal-81",
+    "streams": [
+      { "segment": "1894178506", "subrefs": [
+        { "name": "1", "start": 5345 }
+      ] },
+      { "segment": "1959921584", "subrefs": [
+        { "name": "2", "start": 2422 }
       ] }
     ]
   },
