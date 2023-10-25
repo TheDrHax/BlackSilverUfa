@@ -1,6 +1,6 @@
 """Usage:
   irc <source> <start> <duration> <vod> [--plot]
-  irc --current [--plot]
+  irc (--current | <vod>) [--plot]
 
 Options:
   --current   Download chat for stream that is currently online. Uses custom
@@ -85,14 +85,18 @@ def parser(source: str, start: datetime, duration: datetime):
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
-    if args['--current']:
-        stream = requests.get('https://red.drhx.ru/blackufa/twitch').json()
+    if args['--current'] or args['<vod>'] and not args['<source>']:
+        if args['--current']:
+            stream = requests.get('https://red.drhx.ru/blackufa/twitch').json()
+            vod = stream['vod']
+        else:
+            vod = args['<vod>']
+            stream = requests.get(f'https://red.drhx.ru/blackufa/twitch/{vod}').json()
 
         date = stream['date'].split('T')[0]
 
         source = f'https://bsufiles.drhx.ru/logs/{date}.log'
         start = datetime.fromisoformat(stream['date'].rstrip('Z'))
-        vod = stream['vod']
 
         if stream['active']:
             duration = datetime.now() - start
