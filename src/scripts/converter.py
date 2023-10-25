@@ -175,7 +175,7 @@ def concatenate_subtitles(stream_list: List[Stream], offsets: Timecodes, fo: str
     w.close()
 
 
-def generate_subtitles(segment):
+def generate_subtitles(segment, force: bool = False):
     cache_key = f'generated-subtitles-{segment.hash}'
     cache_hash = segment.generated_subtitles_hash
 
@@ -187,7 +187,9 @@ def generate_subtitles(segment):
 
         return
 
-    if cache_key in cache and cache.get(cache_key) == cache_hash:
+    if all([cache_key in cache,
+            cache.get(cache_key) == cache_hash,
+            not force]):
         return
 
     print(f'Generating subtitles for segment {segment.hash}')

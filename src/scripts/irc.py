@@ -25,6 +25,7 @@ from ..data.streams import Stream
 from ..data.loader.default import streams
 from ..data.timecodes import Timecode
 from ..utils.ass import SubtitlesEvent, SubtitlesWriter
+from .converter import generate_subtitles
 from .plot import main as plot
 
 
@@ -120,6 +121,9 @@ def main(argv=None):
         writer.write(msg)
 
     writer.close()
+
+    if len(streams[vod].cuts) > 0:
+        generate_subtitles(streams[vod][0], True)
 
     if args['--plot']:
         plot([vod])
