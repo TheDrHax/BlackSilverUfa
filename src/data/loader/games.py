@@ -1,4 +1,5 @@
-from typing import List, Union
+from typing import Dict, List, Union
+from itertools import groupby
 
 from ...utils import load_json, join, indent
 from ..games import Game
@@ -11,55 +12,65 @@ def normalize_game_name(name: str) -> str:
 
 
 class Games(List[Game]):
+    def track_name(self, name):
+        nname = normalize_game_name(name)
+
+        if nname in self.names:
+            print(f'WARN: Duplicate subref names: "{name}"')
+        else:
+            self.names.add(nname)
+
+    def _parse_game(self, streams: Streams, game_raw, refs_raw):
+        game_id = game_raw['id']
+        if game_id in self.ids:
+            raise ValueError(f'ID already taken: {game_id}')
+        else:
+            self.ids.add(game_id)
+
+        game = Game(**game_raw)
+
+        self.track_name(game.name)
+
+        for ref in refs_raw:
+            parent = streams[ref.pop('twitch')][ref.pop('segment', 0)]
+
+            ref = SegmentReference(parent=parent, game=game, **ref)
+            ref.stream.games.append((game, ref))
+            game.streams.append(ref)
+
+            if game.type == 'list':
+                [self.track_name(subref.name) for subref in ref.subrefs]
+
+        self.append(game)
+
     def __init__(self, streams: Union[Streams, None] = None,
                  filename: Union[str, None] = None):
         self.filename = filename
+        self.names = set()
+        self.ids = set()
 
         if not streams or not filename:
             return
 
-        data = load_json(filename)
+        data: List[Dict] = load_json(filename)
 
-        ids = set()
-        names = set()
-
-        def track_name(name):
-            nname = normalize_game_name(name)
-
-            if nname in names:
-                print(f'WARN: Duplicate subref names: "{name}"')
-            else:
-                names.add(nname)
+        def ref_by_year(ref: Dict) -> int:
+            return streams[ref['twitch']].date.year
 
         for game_raw in data:
-            refs_raw = game_raw['streams']
-            del game_raw['streams']
+            split = game_raw.pop('split', None)
+            refs_raw = game_raw.pop('streams')
 
-            game_id = game_raw['id']
-            if game_id in ids:
-                raise ValueError(f'ID already taken: {game_id}')
+            if split == 'year':
+                game_id = game_raw['id']
+                game_name = game_raw['name']
+
+                for year, refs in groupby(refs_raw, ref_by_year):
+                    game_raw['id'] = f'{game_id}-{year}'
+                    game_raw['name'] = f'{game_name} {year}'
+                    self._parse_game(streams, game_raw, list(refs))
             else:
-                ids.add(game_id)
-
-            game = Game(**game_raw)
-
-            track_name(game.name)
-
-            for ref in refs_raw:
-                parent = streams[ref['twitch']][ref.get('segment') or 0]
-
-                del ref['twitch']
-                if 'segment' in ref:
-                    del ref['segment']
-
-                ref = SegmentReference(parent=parent, game=game, **ref)
-                ref.stream.games.append((game, ref))
-                game.streams.append(ref)
-
-                if game.type == 'list':
-                    [track_name(subref.name) for subref in ref.subrefs]
-
-            self.append(game)
+                self._parse_game(streams, game_raw, refs_raw)
 
     @join()
     def to_json(self, compiled: bool = False):
