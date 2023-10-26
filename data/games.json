@@ -7553,7 +7553,7 @@
   },
   {
     "name": "Stray Souls",
-    "category": "abandoned",
+    "category": "finished",
     "id": "stray-souls",
     "streams": [
       { "segment": "1224807350", "subrefs": [
@@ -7561,6 +7561,9 @@
       ] },
       { "segment": "1855403959", "subrefs": [
         { "name": "Демо 2", "start": 5385 }
+      ] },
+      { "segment": "1960706534", "subrefs": [
+        { "name": "Прохождение", "start": 2443 }
       ] }
     ]
   },

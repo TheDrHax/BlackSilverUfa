@@ -13163,7 +13163,6 @@
     "youtube": "wtSvutpKCIo", "official": false, "abs_start": 0, "abs_end": 23484, "duration": 23484,
     "name": "Remnant II #1",
     "date": "2023-07-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/1878676339.torrent",
     "games": ["remnant-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1878676339+0.ass"
   },
@@ -13324,11 +13323,14 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1901985410.ass"
   },
   "1902891024": {
-    "youtube": "SjbFN3qkLGI", "abs_start": 0, "abs_end": 18216, "duration": 18216,
+    "abs_start": 0, "abs_end": 18216, "duration": 18216,
     "name": "The Outlast Trials #4 (с Куплиновым и Дангаром) / Song of Horror #3",
     "date": "2023-08-19",
+    "direct": "https://bsufiles.drhx.ru/streams/1902891024.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1902891024.mp4/master.m3u8",
     "games": ["outlast-trials", "song-of-horror"],
-    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1902891024.ass"
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1902891024.ass",
+    "note": "На <a href=\"https://youtu.be/SjbFN3qkLGI\">официальной записи</a> установлено возрастное ограничение."
   },
   "1903801654": {
     "abs_start": 0, "abs_end": 3369, "duration": 0,
@@ -13688,5 +13690,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1959921584.torrent",
     "games": ["terminal-81", "first-2023", "votv"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1959921584+0.ass"
+  },
+  "1960706534": {
+    "abs_start": 0, "abs_end": 21079, "duration": 21079,
+    "name": "Stray Souls - Прохождение",
+    "date": "2023-10-26",
+    "direct": "https://bsufiles.drhx.ru/streams/1960706534.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1960706534.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1960706534.torrent",
+    "games": ["stray-souls"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1960706534.ass"
   }
 }
