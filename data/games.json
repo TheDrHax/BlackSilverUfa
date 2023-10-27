@@ -9108,6 +9108,16 @@
     ]
   },
   {
+    "name": "Alan Wake II",
+    "category": "ongoing",
+    "id": "alan-wake-2",
+    "streams": [
+      { "segment": "1961463026", "subrefs": [
+        { "name": "1", "start": 569 }
+      ] }
+    ]
+  },
+  {
     "name": "The Eternal Cylinder",
     "category": "abandoned",
     "id": "eternal-cylinder",

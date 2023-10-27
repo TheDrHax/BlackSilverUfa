@@ -13694,5 +13694,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1960706534.torrent",
     "games": ["stray-souls"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1960706534.ass"
+  },
+  "1961463026": {
+    "abs_start": 0, "abs_end": 34621, "duration": 34621,
+    "name": "Alan Wake II #1",
+    "date": "2023-10-27",
+    "direct": "https://bsufiles.drhx.ru/streams/1961463026.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1961463026.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1961463026.torrent",
+    "games": ["alan-wake-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1961463026.ass"
   }
 }
