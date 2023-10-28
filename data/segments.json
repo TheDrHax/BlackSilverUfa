@@ -13451,7 +13451,6 @@
     "youtube": "MO-_PRIQ0Pc", "abs_start": 0, "abs_end": 18705, "duration": 18705,
     "name": "Ad Infinitum #2 / Song of Horror #4",
     "date": "2023-09-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/1926880821.torrent",
     "games": ["ad-infinitum", "song-of-horror"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1926880821.ass"
   },
@@ -13702,5 +13701,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1961463026.torrent",
     "games": ["alan-wake-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1961463026.ass"
+  },
+  "1962326035": {
+    "abs_start": 0, "abs_end": 34388, "duration": 34388,
+    "name": "Alan Wake II #2",
+    "date": "2023-10-28",
+    "direct": "https://bsufiles.drhx.ru/streams/1962326035.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1962326035.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1962326035.torrent",
+    "games": ["alan-wake-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1962326035.ass"
   }
 }
