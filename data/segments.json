@@ -13458,7 +13458,6 @@
     "youtube": "8RAl8fQUCd4", "abs_start": 0, "abs_end": 18694, "duration": 18694,
     "name": "Silent Scream / Greener Grass Awaits / The Great Fear / Tenebris Somnia (демо) / Terror in the Kitchen",
     "date": "2023-09-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/1927857923.torrent",
     "games": ["first-2023", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1927857923.ass"
   },
@@ -13466,7 +13465,6 @@
     "youtube": "k8WmIx9u-tA", "abs_start": 0, "abs_end": 18870, "duration": 18870,
     "name": "Apartament 1406 / Lempo #1 / Squirrel Stapler",
     "date": "2023-09-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/1928706610.torrent",
     "games": ["single-2023", "lempo"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1928706610.ass"
   },
@@ -13709,5 +13707,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1962326035.torrent",
     "games": ["alan-wake-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1962326035.ass"
+  },
+  "1963183568": {
+    "abs_start": 0, "abs_end": 33730, "duration": 33730,
+    "name": "Alan Wake II #3",
+    "date": "2023-10-29",
+    "direct": "https://bsufiles.drhx.ru/streams/1963183568.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1963183568.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1963183568.torrent",
+    "games": ["alan-wake-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1963183568.ass"
   }
 }
