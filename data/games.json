@@ -9109,7 +9109,7 @@
   },
   {
     "name": "Alan Wake II",
-    "category": "ongoing",
+    "category": "finished",
     "id": "alan-wake-2",
     "streams": [
       { "segment": "1961463026", "subrefs": [
@@ -9120,6 +9120,9 @@
       ] },
       { "segment": "1963183568", "subrefs": [
         { "name": "3", "start": 625 }
+      ] },
+      { "segment": "1964026834", "subrefs": [
+        { "name": "4", "start": 795 }
       ] }
     ]
   },
