@@ -22,12 +22,12 @@ export const ChatMessage = ({ message, emotes, unpackMessages, showHidden, showE
 
     if (showEmotes && emotes) {
       res = res.split(/\s+/).map((word, i) => {
-        if (word.match(emotes.pattern)) {
+        if (emotes[word]) {
           word = (
             <img
               // eslint-disable-next-line react/no-array-index-key
               key={i}
-              src={emotes.data[word].src}
+              src={emotes[word].src}
               alt={word}
               className="emote"
             />

@@ -9,10 +9,7 @@ export const TypeMessage = PropTypes.shape({
   hidden: PropTypes.bool,
 });
 
-export const TypeEmotes = PropTypes.shape({
-  pattern: PropTypes.object,
-  data: PropTypes.objectOf(PropTypes.shape({
-    id: PropTypes.string,
-    src: PropTypes.string,
-  })),
-});
+export const TypeEmotes = PropTypes.objectOf(PropTypes.shape({
+  id: PropTypes.string,
+  src: PropTypes.string,
+}));

@@ -52,8 +52,7 @@ export const Chat = ({ subtitles, plyr, offset, simple }) => {
     fetch('/data/emotes.json')
       .then((res) => res.json())
       .then((res) => {
-        const pattern = new RegExp(`^(${Object.keys(res).join('|')})$`);
-        setEmotes({ data: res, pattern });
+        setEmotes(res);
       })
       .catch(() => setEmotes(null));
   }, [settings.showEmotes]);
