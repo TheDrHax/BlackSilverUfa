@@ -20,13 +20,14 @@ class Games(List[Game]):
         else:
             self.names.add(nname)
 
-    def _parse_game(self, streams: Streams, game_raw, refs_raw):
+    def _parse_game(self, streams: Streams, game_raw):
         game_id = game_raw['id']
         if game_id in self.ids:
             raise ValueError(f'ID already taken: {game_id}')
         else:
             self.ids.add(game_id)
 
+        refs_raw = game_raw.pop('streams')
         game = Game(**game_raw)
 
         self.track_name(game.name)
@@ -61,23 +62,8 @@ class Games(List[Game]):
 
         data: List[Dict] = load_json(filename)
 
-        def ref_by_year(ref: Dict) -> int:
-            return streams[ref['twitch']].date.year
-
         for game_raw in data:
-            split = game_raw.pop('split', None)
-            refs_raw = game_raw.pop('streams')
-
-            if split == 'year':
-                game_id = game_raw['id']
-                game_name = game_raw['name']
-
-                for year, refs in groupby(refs_raw, ref_by_year):
-                    game_raw['id'] = f'{game_id}-{year}'
-                    game_raw['name'] = f'{game_name} {year}'
-                    self._parse_game(streams, game_raw, list(refs))
-            else:
-                self._parse_game(streams, game_raw, refs_raw)
+            self._parse_game(streams, game_raw)
 
     @join()
     def to_json(self, compiled: bool = False):
