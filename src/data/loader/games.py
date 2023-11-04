@@ -31,8 +31,15 @@ class Games(List[Game]):
 
         self.track_name(game.name)
 
+        segments = set()
+
         for ref in refs_raw:
             parent = streams[ref.pop('twitch')][ref.pop('segment', 0)]
+
+            if parent in segments:
+                raise ValueError(f'Duplicate refs {parent.hash} in {game_id}')
+
+            segments.add(parent)
 
             ref = SegmentReference(parent=parent, game=game, **ref)
             ref.stream.games.append((game, ref))
