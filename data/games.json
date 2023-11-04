@@ -4146,6 +4146,7 @@
         { "name": "Kona II: Brume (демо)", "start": 1408 },
         { "name": "The Classrooms (демо)", "start": 5232 },
         { "name": "Quo (демо)", "start": 6673 },
+        { "name": "The Polaris Incident", "start": 9499 },
         { "name": "Broken Through", "start": 12673 },
         { "name": "On One's Own", "start": 20340 }
       ] },
@@ -7564,19 +7565,6 @@
       ] },
       { "segment": "1960706534", "subrefs": [
         { "name": "Прохождение", "start": 2443 }
-      ] }
-    ]
-  },
-  {
-    "name": "The Polaris Incident",
-    "category": "finished",
-    "id": "polaris-incident",
-    "streams": [
-      { "segment": "1619465701", "subrefs": [
-        { "name": "Первый взгляд", "start": 9499 }
-      ] },
-      { "segment": "1619465701", "subrefs": [
-        { "name": "Прохождение", "start": 9499 }
       ] }
     ]
   },
