@@ -1295,6 +1295,9 @@
       ] },
       { "segment": "1945778448", "subrefs": [
         { "name": "18 (с Куплиновым и Дангаром)", "start": 2595 }
+      ] },
+      { "segment": "1969356180", "subrefs": [
+        { "name": "19 (с Куплиновым и Дангаром)", "start": 3037 }
       ] }
     ]
   },
@@ -4139,9 +4142,6 @@
         { "name": "Late Night Mop", "start": 15360 },
         { "name": "The Death: Than Trung", "start": 16371 }
       ] },
-      { "segment": "1608110648", "subrefs": [
-        { "name": "The Bathhouse", "start": 14459 }
-      ] },
       { "segment": "1619465701", "subrefs": [
         { "name": "Kona II: Brume (демо)", "start": 1408 },
         { "name": "The Classrooms (демо)", "start": 5232 },
@@ -4169,7 +4169,6 @@
         { "name": "Luto (демо)", "start": 1281 },
         { "name": "Bughouse", "start": 5111 },
         { "name": "Skinned Alive", "start": 9647 },
-        { "name": "Night Delivery", "start": 12098 },
         { "name": "The Lies We Tell Ourselves (демо)", "start": 16319 }
       ] },
       { "segment": "1642266888,1642407202", "subrefs": [
@@ -4247,7 +4246,6 @@
         { "name": "The Director's Disorder: Pilot Episode", "start": 11430 }
       ] },
       { "segment": "1728992336", "subrefs": [
-        { "name": "Chilla's Art Complete Pack - The Karaoke", "start": 2267 },
         { "name": "Interior Worlds (демо)", "start": 7210 },
         { "name": "Project Code: Dark (демо)", "start": 12763 },
         { "name": "Cannibal Abduction", "start": 13907 },
@@ -4311,9 +4309,6 @@
         { "name": "Materna (демо)", "start": 19373 },
         { "name": "Lucid Dreams", "start": 19893 }
       ] },
-      { "segment": "1797918117", "subrefs": [
-        { "name": "The Closing Shift", "start": 6969 }
-      ] },
       { "segment": "1803169573", "subrefs": [
         { "name": "The Microwave Paradox", "start": 4163 },
         { "name": "[Subject]", "start": 5078 },
@@ -4368,7 +4363,6 @@
         { "name": "Sludge Life 2 (демо)", "start": 10287 }
       ] },
       { "segment": "1849426857", "subrefs": [
-        { "name": "Night Security", "start": 1333 },
         { "name": "Lazarus", "start": 12111 },
         { "name": "Incident at Grove Lake", "start": 13897 }
       ] },
@@ -4420,9 +4414,6 @@
         { "name": "Depth of Contamination", "start": 15574 },
         { "name": "Slender: Return to Rosswood Park", "start": 16900 }
       ] },
-      { "segment": "1886428924", "subrefs": [
-        { "name": "The Ghost Train", "start": 2940 }
-      ] },
       { "segment": "1889874082", "subrefs": [
         { "name": "Welcome to Kowloon", "start": 3070 }
       ] },
@@ -4446,11 +4437,9 @@
         { "name": "Fort Solis", "start": 910 }
       ] },
       { "segment": "1913348809", "subrefs": [
-        { "name": "Parasocial", "start": 7744 },
         { "name": "Decimate Drive (демо)", "start": 17840 }
       ] },
       { "segment": "1917728202", "subrefs": [
-        { "name": "The Convenience Store", "start": 3112 },
         { "name": "Seven Nights Ghost", "start": 9704 }
       ] },
       { "segment": "1927857923", "subrefs": [
@@ -4530,6 +4519,56 @@
       ] },
       { "segment": "1959105799", "subrefs": [
         { "name": "Лихо одноглазое (One-Eyed Likho) (демо)", "start": 2471 }
+      ] }
+    ]
+  },
+  {
+    "name": "Chilla's Art",
+    "category": "finished",
+    "type": "list",
+    "id": "chillas-art",
+    "streams": [
+      { "segment": "267726322", "subrefs": [
+        { "name": "Welcome Back Daddy", "start": 8579 }
+      ] },
+      { "segment": "404063748", "subrefs": [
+        { "name": "Blame him (демо)", "start": 3615 }
+      ] },
+      { "segment": "603199458", "subrefs": [
+        { "name": "Onryo", "start": 3196 }
+      ] },
+      { "segment": "697191590", "subrefs": [
+        { "name": "Missing Children", "start": 11200 }
+      ] },
+      { "segment": "1193856809", "subrefs": [
+        { "name": "The Radio Station", "start": 8292 }
+      ] },
+      { "segment": "1608110648", "subrefs": [
+        { "name": "The Bathhouse", "start": 14459 }
+      ] },
+      { "segment": "1635763389", "subrefs": [
+        { "name": "Night Delivery", "start": 12098 }
+      ] },
+      { "segment": "1728992336", "subrefs": [
+        { "name": "The Karaoke", "start": 2267 }
+      ] },
+      { "segment": "1797918117", "subrefs": [
+        { "name": "The Closing Shift", "start": 6969 }
+      ] },
+      { "segment": "1849426857", "subrefs": [
+        { "name": "Night Security", "start": 1333 }
+      ] },
+      { "segment": "1886428924", "subrefs": [
+        { "name": "The Ghost Train", "start": 2940 }
+      ] },
+      { "segment": "1913348809", "subrefs": [
+        { "name": "Parasocial", "start": 7744 }
+      ] },
+      { "segment": "1917728202", "subrefs": [
+        { "name": "The Convenience Store", "start": 3112 }
+      ] },
+      { "segment": "1969356180", "subrefs": [
+        { "name": "The Kidnap", "start": 11406 }
       ] }
     ]
   },
@@ -6015,9 +6054,8 @@
         { "name": "State of Decay 2" }
       ] },
       { "segment": "267726322", "subrefs": [
-        { "name": "Beware (демо)" },
+        { "name": "Beware (демо)", "start": 965 },
         { "name": "Graveyard Keeper", "start": 6201 },
-        { "name": "Welcome Back Daddy", "start": 8579 },
         { "name": "Smoke and Sacrifice", "start": 13403 }
       ] },
       { "segment": "268900992", "subrefs": [
@@ -6181,8 +6219,7 @@
         { "name": "ШХД: Зима", "start": 10726 }
       ] },
       { "segment": "404063748", "subrefs": [
-        { "name": "SCP-3008" },
-        { "name": "Blame him (демо)", "start": 3615 },
+        { "name": "SCP-3008", "start": 1242 },
         { "name": "Demense: Chapter 1", "start": 6279 }
       ] },
       { "segment": "412393845", "subrefs": [
@@ -6315,7 +6352,6 @@
         { "name": "Animal Crossing: New Horizons" }
       ] },
       { "segment": "603199458", "subrefs": [
-        { "name": "Onryo" },
         { "name": "Cloudpunk", "start": 4797 },
         { "name": "Help Will Come Tomorrow", "start": 8541 },
         { "name": "The Walking Evil", "start": 10912 }
@@ -6370,9 +6406,8 @@
         { "name": "Rocket Arena", "start": 6895 }
       ] },
       { "segment": "697191590", "subrefs": [
-        { "name": "What Happened" },
+        { "name": "What Happened", "start": 1940 },
         { "name": "I Have a Fear", "start": 8396 },
-        { "name": "Missing Children", "start": 11200 },
         { "name": "Othercide", "start": 19019 }
       ] },
       { "segment": "719986899", "subrefs": [
@@ -6675,8 +6710,7 @@
         { "name": "Horror Story: Hallowseed", "start": 11166 }
       ] },
       { "segment": "1193856809", "subrefs": [
-        { "name": "Devil Inside Us: Root of Evil (демо)", "start": 6724 },
-        { "name": "The Radio Station", "start": 8292 }
+        { "name": "Devil Inside Us: Root of Evil (демо)", "start": 6724 }
       ] },
       { "segment": "1195666882", "subrefs": [
         { "name": "Forza Horizon 5" }
