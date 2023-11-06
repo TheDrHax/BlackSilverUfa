@@ -12623,9 +12623,9 @@
   },
   "1811995960": {
     "youtube": "O_FT-QXR5fw", "abs_start": 0, "abs_end": 16327, "duration": 16327,
-    "name": "The Invincible (демо) / I Know This Place..? - Chapter 1 / Frozen Shelter / Rewind or Die",
+    "name": "The Invincible - Демо / I Know This Place..? - Chapter 1 / Frozen Shelter / Rewind or Die",
     "date": "2023-05-05",
-    "games": ["single-2023", "first-2023"],
+    "games": ["invincible", "single-2023", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1811995960.ass"
   },
   "1812854556": {
@@ -13487,7 +13487,6 @@
     "youtube": "izaWE7z2E7Y", "abs_start": 0, "abs_end": 20455, "duration": 20455,
     "name": "Witchfire / Party Animals #3 (релиз)",
     "date": "2023-09-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/1932106766.torrent",
     "games": ["first-2023", "party-animals"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1932106766.ass"
   },
@@ -13730,5 +13729,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1969356180.torrent",
     "games": ["phasmophobia", "chillas-art"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1969356180.ass"
+  },
+  "1970199475": {
+    "abs_start": 0, "abs_end": 22174, "duration": 22174,
+    "name": "Don't Scream (демо) / The Stalked (демо) / Crowded. Followed. / Suspicious Person Information / The Invincible - The Invincible",
+    "date": "2023-11-06",
+    "direct": "https://bsufiles.drhx.ru/streams/1970199475.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1970199475.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1970199475.torrent",
+    "games": ["single-2023", "invincible"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1970199475.ass"
   }
 }
