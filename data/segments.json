@@ -13488,7 +13488,6 @@
     "youtube": "ecpqKUE0DpU", "abs_start": 0, "abs_end": 21366, "duration": 21366,
     "name": "Song of Horror #5 / Party Animals #4",
     "date": "2023-09-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/1933030113.torrent",
     "games": ["song-of-horror", "party-animals"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1933030113.ass"
   },
@@ -13726,12 +13725,22 @@
   },
   "1970199475": {
     "abs_start": 0, "abs_end": 22174, "duration": 22174,
-    "name": "Don't Scream (демо) / The Stalked (демо) / Crowded. Followed. / Suspicious Person Information / The Invincible - The Invincible",
+    "name": "Don't Scream #1 / The Stalked (демо) / Crowded. Followed. / Suspicious Person Information / The Invincible #1",
     "date": "2023-11-06",
     "direct": "https://bsufiles.drhx.ru/streams/1970199475.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/1970199475.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/1970199475.torrent",
-    "games": ["single-2023", "invincible"],
+    "games": ["dont-scream", "single-2023", "invincible"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1970199475.ass"
+  },
+  "1971007084": {
+    "abs_start": 0, "abs_end": 21993, "duration": 21993,
+    "name": "Don't Scream #2 / Hello, I came to kill you / I'm on Observation Duty - Часть 6 / The Invincible #2",
+    "date": "2023-11-07",
+    "direct": "https://bsufiles.drhx.ru/streams/1971007084.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1971007084.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1971007084.torrent",
+    "games": ["dont-scream", "616-games", "observation-duty", "invincible"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1971007084+0.ass"
   }
 }

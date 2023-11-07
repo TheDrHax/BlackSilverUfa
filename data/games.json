@@ -4517,10 +4517,22 @@
         { "name": "Лихо одноглазое (One-Eyed Likho) (демо)", "start": 2471 }
       ] },
       { "segment": "1970199475", "subrefs": [
-        { "name": "Don't Scream (демо)", "start": 2321 },
         { "name": "The Stalked (демо)", "start": 7401 },
         { "name": "Crowded. Followed.", "start": 9189 },
         { "name": "Suspicious Person Information", "start": 10096 }
+      ] }
+    ]
+  },
+  {
+    "name": "Don't Scream",
+    "category": "infinite",
+    "id": "dont-scream",
+    "streams": [
+      { "segment": "1970199475", "subrefs": [
+        { "name": "1", "start": 2321 }
+      ] },
+      { "segment": "1971007084", "subrefs": [
+        { "name": "2", "start": 2395 }
       ] }
     ]
   },
@@ -4831,6 +4843,9 @@
       ] },
       { "segment": "1951658427", "subrefs": [
         { "name": "Deer", "start": 9942 }
+      ] },
+      { "segment": "1971007084", "subrefs": [
+        { "name": "Hello, I came to kill you", "start": 4199 }
       ] }
     ]
   },
@@ -7307,7 +7322,10 @@
         { "name": "Демо", "start": 5213 }
       ] },
       { "segment": "1970199475", "subrefs": [
-        { "name": "The Invincible", "start": 11132 }
+        { "name": "1", "start": 11132 }
+      ] },
+      { "segment": "1971007084", "subrefs": [
+        { "name": "2", "start": 10967 }
       ] }
     ]
   },
@@ -9448,6 +9466,9 @@
       ] },
       { "segment": "1558782985", "subrefs": [
         { "name": "Часть 5 #2", "start": 10299 }
+      ] },
+      { "segment": "1971007084", "subrefs": [
+        { "name": "Часть 6", "start": 6478 }
       ] }
     ]
   },
