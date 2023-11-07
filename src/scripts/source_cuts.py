@@ -38,13 +38,12 @@ def detect_disconnect_protection(
         
         timeline = Timeline([Clip(f) for f in videos])
         concat_map = NamedTemporaryFile(delete=True, suffix='.txt')
-        print(concat_map.name)
         timeline.render(concat_map.name, 'txt', force=True)
         ffcmd += ['-safe', '0', '-f', 'concat', concat_map.name]
     else:
         ffcmd += videos
 
-    ffproc = Popen(ffcmd, stdout=PIPE, stderr=sys.stderr)
+    ffproc = Popen(ffcmd, stdout=PIPE, stderr=PIPE)
 
     ranges = []
     ts = None
@@ -119,6 +118,7 @@ def get_source_cuts(videos: List[str], log: str) -> Timecodes:
     ranges = Timecodes()
 
     for start, end, diff in parse_log_timings(log):
+        start = end - 300
         dp = detect_disconnect_protection(videos, start, end)
 
         if len(dp) == 0:
