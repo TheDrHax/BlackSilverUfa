@@ -3355,9 +3355,6 @@
     "category": "finished",
     "id": "outlast-dw",
     "streams": [
-      { "segment": "001512070", "subrefs": [
-        { "name": "Первый взгляд (вне стримов)" }
-      ] },
       { "segment": "001512080", "subrefs": [
         { "name": "1" }
       ] },
