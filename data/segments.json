@@ -13495,7 +13495,6 @@
     "youtube": "uzPkbACFPz4", "abs_start": 0, "abs_end": 18499, "duration": 18499,
     "name": "Lakefront Restaurant / Stalls of Dread / Endless Blue / Time: A Backrooms Game / Dark Stories: The Workshop / Holstin - Демо 2 / How Fish Is Made - The Last One and Then Another / Pyramid Curse / Martha's Dolls (демо) / Twin Peaks: Into the Night (демо)",
     "date": "2023-09-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/1933948782.torrent",
     "games": ["first-2023", "single-2023", "holstin", "hfim"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1933948782.ass"
   },
@@ -13733,10 +13732,20 @@
   },
   "1971007084": {
     "youtube": "yDDrHUyd35E", "abs_start": 0, "abs_end": 21994, "duration": 21994,
-    "name": "Don't Scream #2 / Hello, I came to kill you / I'm on Observation Duty - Часть 6 / The Invincible #2",
+    "name": "Don't Scream #2 / Hello, I came to kill you / I'm on Observation Duty - Часть 6 #1 / The Invincible #2",
     "date": "2023-11-07",
     "torrent": "https://bsufiles.drhx.ru/streams/1971007084.torrent",
     "games": ["dont-scream", "616-games", "observation-duty", "invincible"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1971007084+0.ass"
+  },
+  "1971837037": {
+    "abs_start": 0, "abs_end": 24629, "duration": 24629,
+    "name": "Drive Up / Faith 64 / Buried / Office Paradox / I'm on Observation Duty - Часть 6 #2 / The Invincible #3",
+    "date": "2023-11-08",
+    "direct": "https://bsufiles.drhx.ru/streams/1971837037.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1971837037.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1971837037.torrent",
+    "games": ["first-2023", "single-2023", "observation-duty", "invincible"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1971837037.ass"
   }
 }
