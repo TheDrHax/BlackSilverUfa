@@ -13502,7 +13502,6 @@
     "youtube": "0PDGU3Ibw1s", "abs_start": 0, "abs_end": 15613, "duration": 15613,
     "name": "Cyberpunk 2077 #6",
     "date": "2023-09-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/1934826676.torrent",
     "games": ["cyberpunk-2077"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1934826676.ass"
   },
@@ -13747,5 +13746,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1971837037.torrent",
     "games": ["first-2023", "single-2023", "observation-duty", "invincible"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1971837037.ass"
+  },
+  "1972692139": {
+    "abs_start": 0, "abs_end": 18072, "duration": 18072,
+    "name": "Stay Still 2 (демо) / Cat Fred Evil Pet / Employee of the Month / I'm on Observation Duty - Часть 6 #3 / The Invincible #4",
+    "date": "2023-11-09",
+    "direct": "https://bsufiles.drhx.ru/streams/1972692139.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1972692139.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1972692139.torrent",
+    "games": ["single-2023", "first-2023", "observation-duty", "invincible"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1972692139.ass"
   }
 }
