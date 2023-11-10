@@ -5415,7 +5415,7 @@
   },
   {
     "name": "The Legend of Zelda: Tears of the Kingdom",
-    "category": "ongoing",
+    "category": "finished",
     "id": "tloz_totk",
     "streams": [
       { "segment": "1817831979", "subrefs": [
@@ -5468,6 +5468,9 @@
       ] },
       { "segment": "1943941713", "subrefs": [
         { "name": "17", "start": 321 }
+      ] },
+      { "segment": "1973510528", "subrefs": [
+        { "name": "18", "start": 544 }
       ] }
     ]
   },
