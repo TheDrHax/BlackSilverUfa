@@ -707,6 +707,9 @@
         { "name": "Holy Purge", "start": 9058 },
         { "name": "Surrounded", "start": 13805 },
         { "name": "Cartoon Rage", "start": 15119 }
+      ] },
+      { "segment": "1974525272", "subrefs": [
+        { "name": "Lethal Company (с Куплиновым и Дангаром)", "start": 4203 }
       ] }
     ]
   },
@@ -9499,6 +9502,9 @@
       ] },
       { "segment": "1972692139", "subrefs": [
         { "name": "Часть 6 #3", "start": 6566 }
+      ] },
+      { "segment": "1974525272", "subrefs": [
+        { "name": "Часть 6 #4", "start": 11467 }
       ] }
     ]
   },

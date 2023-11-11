@@ -13759,5 +13759,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1973510528.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1973510528+0.ass"
+  },
+  "1974525272": {
+    "abs_start": 0, "abs_end": 18744, "duration": 18744,
+    "name": "Lethal Company (с Куплиновым и Дангаром) / I'm on Observation Duty - Часть 6 #4",
+    "date": "2023-11-11",
+    "direct": "https://bsufiles.drhx.ru/streams/1974525272.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1974525272.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1974525272.torrent",
+    "games": ["co-op", "observation-duty"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1974525272.ass"
   }
 }
