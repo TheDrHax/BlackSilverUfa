@@ -13516,7 +13516,6 @@
     "youtube": "uv5BhP_ZkGc", "abs_start": 0, "abs_end": 35703, "duration": 35703,
     "name": "Cyberpunk 2077 #8",
     "date": "2023-09-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/1937183107.torrent",
     "games": ["cyberpunk-2077"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1937183107.ass"
   },
@@ -13767,5 +13766,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1974525272.torrent",
     "games": ["co-op", "observation-duty"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1974525272.ass"
+  },
+  "1975480188": {
+    "abs_start": 0, "abs_end": 20068, "duration": 20068,
+    "name": "Nancy Drew: Warnings at Waverly Academy (Нэнси Дрю. Записки чёрной кошки)",
+    "date": "2023-11-12",
+    "direct": "https://bsufiles.drhx.ru/streams/1975480188.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1975480188.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1975480188.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1975480188.ass"
   }
 }
