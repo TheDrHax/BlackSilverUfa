@@ -13523,7 +13523,6 @@
     "youtube": "ocsytyycSTk", "abs_start": 0, "abs_end": 21152, "duration": 21152,
     "name": "Song of Horror #6",
     "date": "2023-09-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/1939009123.torrent",
     "games": ["song-of-horror"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1939009123.ass"
   },
@@ -13593,10 +13592,10 @@
   },
   "1950762078": {
     "youtube": "s9G9w7_mU90", "abs_start": 0, "abs_end": 17769, "duration": 17769,
-    "name": "ELDRIMAR (демо) / Gennady (демо) / The Talos Principle II (демо) / Жил-Ячейка (демо) / The Thaumaturge (демо) / Forgive Me Father 2 (демо) / Enshrouded (демо) / The Enjenir (демо) / Crime Scene Cleaner (демо) #2",
+    "name": "ELDRIMAR (демо) / Gennady (демо) / The Talos Principle II (демо) / Жил-Ячейка (Living Cell) - Демо / The Thaumaturge (демо) / Forgive Me Father 2 (демо) / Enshrouded (демо) / The Enjenir (демо) / Crime Scene Cleaner (демо) #2",
     "date": "2023-10-14",
     "torrent": "https://bsufiles.drhx.ru/streams/1950762078.torrent",
-    "games": ["single-2023", "first-2023", "csc"],
+    "games": ["single-2023", "first-2023", "living-cell", "csc"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1950762078.ass"
   },
   "1951658427": {
@@ -13776,5 +13775,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1975480188.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1975480188.ass"
+  },
+  "1976316443": {
+    "abs_start": 0, "abs_end": 26328, "duration": 26328,
+    "name": "Polygon of Reality (демо) / Жил-Ячейка (Living Cell) - Прохождение / BoneField: Bodycam Horror (демо) / Pacify #3 / Demonic Episode / Silent Rain / Gehinnom / Escape Simulator",
+    "date": "2023-11-13",
+    "direct": "https://bsufiles.drhx.ru/streams/1976316443.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1976316443.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1976316443.torrent",
+    "games": ["first-2023", "living-cell", "pacify", "co-op"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1976316443+0.ass"
   }
 }
