@@ -13530,7 +13530,6 @@
     "youtube": "9I--4u2khCc", "abs_start": 0, "abs_end": 19829, "duration": 19829,
     "name": "Teke-teke / While We Wait Here (демо) / Something In The Well / Mimic / Masked Devourer / The Smiling Man / REVEIL (демо) / Night People / The Wailing of the Forest",
     "date": "2023-10-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/1939916692.torrent",
     "games": ["single-2023", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1939916692.ass"
   },
@@ -13781,5 +13780,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1976316443.torrent",
     "games": ["first-2023", "living-cell", "pacify", "co-op"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1976316443+0.ass"
+  },
+  "1977184678": {
+    "abs_start": 0, "abs_end": 22082, "duration": 22082,
+    "name": "Exilium / Lunacid / Hellstuck: Rage With Your Friends / Party Animals #6 (4D)",
+    "date": "2023-11-14",
+    "direct": "https://bsufiles.drhx.ru/streams/1977184678.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1977184678.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1977184678.torrent",
+    "games": ["first-2023", "co-op", "party-animals"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1977184678.ass"
   }
 }
