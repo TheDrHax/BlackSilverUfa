@@ -4542,6 +4542,11 @@
       ] },
       { "segment": "1972692139", "subrefs": [
         { "name": "Stay Still 2 (демо)", "start": 1526 }
+      ] },
+      { "segment": "1978045200", "subrefs": [
+        { "name": "Terminal Error (демо)", "start": 2355 },
+        { "name": "Excuse Me Sir (демо)", "start": 4926 },
+        { "name": "Flaw Detection", "start": 11094 }
       ] }
     ]
   },
@@ -7366,6 +7371,9 @@
       { "segment": "1977184678", "subrefs": [
         { "name": "Exilium", "start": 2419 },
         { "name": "Lunacid", "start": 3809 }
+      ] },
+      { "segment": "1978045200", "subrefs": [
+        { "name": "Flaw Detection - Tape Two", "start": 11707 }
       ] }
     ]
   },
@@ -9540,6 +9548,10 @@
       ] },
       { "segment": "1974525272", "subrefs": [
         { "name": "Часть 6 #4", "start": 11467 }
+      ] },
+      { "segment": "1978045200", "subrefs": [
+        { "name": "Часть 6 #5", "start": 6990 },
+        { "name": "Часть 6 #5 (продолжение)", "start": 12726, "hidden": true }
       ] }
     ]
   },

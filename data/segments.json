@@ -13537,7 +13537,6 @@
     "youtube": "EuxLndE7a7o", "abs_start": 0, "abs_end": 15568, "duration": 15568,
     "name": "Song of Horror #7 / Gothic - на Nintendo Switch",
     "date": "2023-10-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/1941566102.torrent",
     "games": ["song-of-horror", "gothic"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1941566102.ass"
   },
@@ -13788,5 +13787,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1977184678.torrent",
     "games": ["first-2023", "co-op", "party-animals"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1977184678.ass"
+  },
+  "1978045200": {
+    "abs_start": 0, "abs_end": 16958, "duration": 16958,
+    "name": "Terminal Error (демо) / Excuse Me Sir (демо) / I'm on Observation Duty - Часть 6 #5 / Flaw Detection / Flaw Detection - Tape Two",
+    "date": "2023-11-15",
+    "direct": "https://bsufiles.drhx.ru/streams/1978045200.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1978045200.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1978045200.torrent",
+    "games": ["single-2023", "observation-duty", "first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1978045200.ass"
   }
 }
