@@ -13544,7 +13544,6 @@
     "youtube": "fvJlckNiPDs", "abs_start": 0, "abs_end": 26151, "duration": 26151,
     "name": "Assassin's Creed Mirage",
     "date": "2023-10-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/1942318458.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1942318458.ass"
   },
@@ -13797,5 +13796,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1978045200.torrent",
     "games": ["single-2023", "observation-duty", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1978045200.ass"
+  },
+  "1981641620": {
+    "abs_start": 0, "abs_end": 21809, "duration": 21809,
+    "name": "SCAREBNB (демо) / Incoherence / Perished Truth (демо) / Insomnia Experiment / Cleany's Window Service / Point Click Killer / Simulacrum: Chapter One / My Work Is Not Yet Done / Nightmare Side: The Game",
+    "date": "2023-11-19",
+    "direct": "https://bsufiles.drhx.ru/streams/1981641620.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1981641620.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1981641620.torrent",
+    "games": ["single-2023", "first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1981641620+0.ass"
   }
 }

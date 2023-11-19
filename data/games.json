@@ -4547,6 +4547,14 @@
         { "name": "Terminal Error (демо)", "start": 2355 },
         { "name": "Excuse Me Sir (демо)", "start": 4926 },
         { "name": "Flaw Detection", "start": 11094 }
+      ] },
+      { "segment": "1981641620", "subrefs": [
+        { "name": "SCAREBNB (демо)", "start": 3643 },
+        { "name": "Incoherence", "start": 5174 },
+        { "name": "Perished Truth (демо)", "start": 7203 },
+        { "name": "Insomnia Experiment", "start": 9977 },
+        { "name": "Cleany's Window Service", "start": 11321 },
+        { "name": "Point Click Killer", "start": 13311 }
       ] }
     ]
   },
@@ -7374,6 +7382,11 @@
       ] },
       { "segment": "1978045200", "subrefs": [
         { "name": "Flaw Detection - Tape Two", "start": 11707 }
+      ] },
+      { "segment": "1981641620", "subrefs": [
+        { "name": "Simulacrum: Chapter One", "start": 14092 },
+        { "name": "My Work Is Not Yet Done", "start": 17265 },
+        { "name": "Nightmare Side: The Game", "start": 17881 }
       ] }
     ]
   },
