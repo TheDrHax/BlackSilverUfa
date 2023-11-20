@@ -7369,9 +7369,6 @@
         { "name": "Cat Fred Evil Pet", "start": 3302 },
         { "name": "Employee of the Month", "start": 5306 }
       ] },
-      { "segment": "1975480188", "subrefs": [
-        { "name": "Nancy Drew: Warnings at Waverly Academy (Нэнси Дрю. Записки чёрной кошки)", "start": 1688 }
-      ] },
       { "segment": "1976316443", "subrefs": [
         { "name": "Polygon of Reality (демо)", "start": 1788 },
         { "name": "BoneField: Bodycam Horror (демо)", "start": 9806 }
@@ -7387,6 +7384,19 @@
         { "name": "Simulacrum: Chapter One", "start": 14092 },
         { "name": "My Work Is Not Yet Done", "start": 17265 },
         { "name": "Nightmare Side: The Game", "start": 17881 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nancy Drew: Warnings at Waverly Academy (Нэнси Дрю. Записки чёрной кошки)",
+    "category": "finished",
+    "id": "nancy-drew-wawa",
+    "streams": [
+      { "segment": "1975480188", "subrefs": [
+        { "name": "1", "start": 1688 }
+      ] },
+      { "segment": "1982520100", "subrefs": [
+        { "name": "2", "start": 1967 }
       ] }
     ]
   },

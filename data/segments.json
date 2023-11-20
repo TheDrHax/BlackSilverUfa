@@ -13765,10 +13765,10 @@
   },
   "1975480188": {
     "youtube": "w52TwkvHtmo", "abs_start": 0, "abs_end": 20069, "duration": 20069,
-    "name": "Nancy Drew: Warnings at Waverly Academy (Нэнси Дрю. Записки чёрной кошки)",
+    "name": "Nancy Drew: Warnings at Waverly Academy (Нэнси Дрю. Записки чёрной кошки) #1",
     "date": "2023-11-12",
     "torrent": "https://bsufiles.drhx.ru/streams/1975480188.torrent",
-    "games": ["first-2023"],
+    "games": ["nancy-drew-wawa"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1975480188.ass"
   },
   "1976316443": {
@@ -13802,5 +13802,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1981641620.torrent",
     "games": ["single-2023", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1981641620+0.ass"
+  },
+  "1982520100": {
+    "abs_start": 0, "abs_end": 16987, "duration": 16987,
+    "name": "Nancy Drew: Warnings at Waverly Academy (Нэнси Дрю. Записки чёрной кошки) #2",
+    "date": "2023-11-20",
+    "direct": "https://bsufiles.drhx.ru/streams/1982520100.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1982520100.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1982520100.torrent",
+    "games": ["nancy-drew-wawa"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1982520100.ass"
   }
 }
