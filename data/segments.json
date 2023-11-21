@@ -9167,7 +9167,7 @@
   },
   "1092418023": {
     "youtube": "RUBjZe223dg", "official": false, "abs_start": 0, "abs_end": 25151, "duration": 25151,
-    "name": "Death's Door / Underwater / I'm on Observation Duty - Часть 1 / Сетапы зрителей #6 / Raid: Shadow Legends",
+    "name": "Death's Door / Underwater / I'm on Observation Duty - Часть 1 #1 / Сетапы зрителей #6 / Raid: Shadow Legends",
     "date": "2021-07-20",
     "games": ["first-2021", "observation-duty", "setups"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master/v1092418023.ass"
@@ -13551,7 +13551,6 @@
     "youtube": "wH7JkLYyDC4", "abs_start": 0, "abs_end": 25593, "duration": 25593,
     "name": "The Legend of Zelda: Tears of the Kingdom #17",
     "date": "2023-10-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/1943941713.torrent",
     "games": ["tloz_totk"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1943941713.ass"
   },
@@ -13810,5 +13809,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1982520100.torrent",
     "games": ["nancy-drew-wawa"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1982520100.ass"
+  },
+  "1983368585": {
+    "abs_start": 0, "abs_end": 21902, "duration": 21902,
+    "name": "Abtos Covert (демо) / Alternate Watch / I'm on Observation Duty - Часть 1 #2 | Часть 2 #3 / Voices of the Void (демо) #3",
+    "date": "2023-11-21",
+    "direct": "https://bsufiles.drhx.ru/streams/1983368585.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1983368585.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1983368585.torrent",
+    "games": ["single-2023", "first-2023", "observation-duty", "votv"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1983368585.ass"
   }
 }
