@@ -717,8 +717,23 @@
         { "name": "Gehinnom", "start": 17565 },
         { "name": "Escape Simulator", "start": 22039 }
       ] },
+      { "segment": "1984225169", "subrefs": [
+        { "name": "Entities", "start": 8508 },
+        { "name": "SCP: 5K", "start": 12162 },
+        { "name": "Paranormal Cleanup", "start": 16702 }
+      ] }
+    ]
+  },
+  {
+    "name": "Hellstuck: Rage With Your Friends",
+    "category": "co-op",
+    "id": "hellstuck",
+    "streams": [
       { "segment": "1977184678", "subrefs": [
-        { "name": "Hellstuck: Rage With Your Friends", "start": 10136 }
+        { "name": "1", "start": 10136 }
+      ] },
+      { "segment": "1984225169", "subrefs": [
+        { "name": "2", "start": 15481 }
       ] }
     ]
   },
@@ -9555,7 +9570,7 @@
       ] },
       { "segment": "1102702263", "subrefs": [
         { "name": "Часть 2 #2", "start": 18643 },
-        { "name": "Часть 3", "start": 19609 }
+        { "name": "Часть 3 #1", "start": 19609 }
       ] },
       { "segment": "1258121391", "subrefs": [
         { "name": "Часть 4 #1", "start": 18873 }
@@ -9588,6 +9603,10 @@
       { "segment": "1983368585", "subrefs": [
         { "name": "Часть 1 #2", "start": 8135 },
         { "name": "Часть 2 #3", "start": 15483 }
+      ] },
+      { "segment": "1984225169", "subrefs": [
+        { "name": "Часть 2 #4", "start": 2403 },
+        { "name": "Часть 3 #2", "start": 2893 }
       ] }
     ]
   },
@@ -10458,6 +10477,9 @@
       ] },
       { "segment": "1977184678", "subrefs": [
         { "name": "6 (4D)", "start": 15607 }
+      ] },
+      { "segment": "1984225169", "subrefs": [
+        { "name": "7 (4D)", "start": 18607 }
       ] }
     ]
   },

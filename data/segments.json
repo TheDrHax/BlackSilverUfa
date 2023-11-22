@@ -9275,7 +9275,7 @@
   },
   "1102702263": {
     "youtube": "Wisp91h6klQ", "official": false, "abs_start": 0, "abs_end": 24621, "duration": 24621,
-    "name": "Microsoft Flight Simulator / The Ascent / I'm on Observation Duty - Часть 2 #2 | Часть 3",
+    "name": "Microsoft Flight Simulator / The Ascent / I'm on Observation Duty - Часть 2 #2 | Часть 3 #1",
     "date": "2021-07-30",
     "games": ["first-2021", "observation-duty"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master/v1102702263.ass"
@@ -13558,7 +13558,6 @@
     "youtube": "IWjPiwTfA90", "abs_start": 0, "abs_end": 19409, "duration": 19409,
     "name": "Out of Gas / CHANGO / The Windows Are Gone / A Craft of Mine / Dreamcore (демо) / Tear Factory / Where's My Drink...? / Rusty Barrel / Mr. Lupin",
     "date": "2023-10-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/1944892729.torrent",
     "games": ["single-2023", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1944892729.ass"
   },
@@ -13780,10 +13779,10 @@
   },
   "1977184678": {
     "youtube": "oUsbgIPOIgw", "abs_start": 0, "abs_end": 22083, "duration": 22083,
-    "name": "Exilium / Lunacid / Hellstuck: Rage With Your Friends / Party Animals #6 (4D)",
+    "name": "Exilium / Lunacid / Hellstuck: Rage With Your Friends #1 / Party Animals #6 (4D)",
     "date": "2023-11-14",
     "torrent": "https://bsufiles.drhx.ru/streams/1977184678.torrent",
-    "games": ["first-2023", "co-op", "party-animals"],
+    "games": ["first-2023", "hellstuck", "party-animals"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1977184678.ass"
   },
   "1978045200": {
@@ -13819,5 +13818,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1983368585.torrent",
     "games": ["single-2023", "first-2023", "observation-duty", "votv"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1983368585.ass"
+  },
+  "1984225169": {
+    "abs_start": 0, "abs_end": 21286, "duration": 21286,
+    "name": "I'm on Observation Duty - Часть 2 #4 | Часть 3 #2 / Entities / SCP: 5K / Hellstuck: Rage With Your Friends #2 / Paranormal Cleanup / Party Animals #7 (4D)",
+    "date": "2023-11-22",
+    "direct": "https://bsufiles.drhx.ru/streams/1984225169.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1984225169.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1984225169.torrent",
+    "games": ["observation-duty", "co-op", "hellstuck", "party-animals"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1984225169+0.ass"
   }
 }
