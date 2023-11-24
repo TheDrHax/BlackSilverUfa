@@ -13565,7 +13565,6 @@
     "youtube": "NdnENFLdHzc", "abs_start": 0, "abs_end": 15197, "duration": 15197,
     "name": "Steel Roamer / Phasmophobia #18 (с Куплиновым и Дангаром) / SCP-479: Shadows of the Mind / Entity Room",
     "date": "2023-10-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/1945778448.torrent",
     "games": ["single-2023", "phasmophobia", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1945778448.ass"
   },
@@ -13573,7 +13572,6 @@
     "youtube": "3fg9C1RGrQA", "abs_start": 0, "abs_end": 21507, "duration": 21507,
     "name": "April '86 (демо) / ONE WAY HOME (демо) / Pine Harbor (демо) / The Bridge Curse 2: The Extrication (демо) / Hollow Cocoon (демо) / Chiyo (демо) / Nevermind This (демо) / Paranormal Records (демо)",
     "date": "2023-10-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/1949027899.torrent",
     "games": ["single-2023", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1949027899.ass"
   },
@@ -13828,5 +13826,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1984225169.torrent",
     "games": ["observation-duty", "co-op", "hellstuck", "party-animals"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1984225169+0.ass"
+  },
+  "1985909107": {
+    "abs_start": 0, "abs_end": 24228, "duration": 24228,
+    "name": "Slay the Princess",
+    "date": "2023-11-24",
+    "direct": "https://bsufiles.drhx.ru/streams/1985909107.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1985909107.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1985909107.torrent",
+    "games": ["single-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1985909107.ass"
   }
 }
