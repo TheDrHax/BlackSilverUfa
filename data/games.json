@@ -708,9 +708,6 @@
         { "name": "Surrounded", "start": 13805 },
         { "name": "Cartoon Rage", "start": 15119 }
       ] },
-      { "segment": "1974525272", "subrefs": [
-        { "name": "Lethal Company (с Куплиновым и Дангаром)", "start": 4203 }
-      ] },
       { "segment": "1976316443", "subrefs": [
         { "name": "Demonic Episode", "start": 13118 },
         { "name": "Silent Rain", "start": 15003 },
@@ -721,6 +718,19 @@
         { "name": "Entities", "start": 8508 },
         { "name": "SCP: 5K", "start": 12162 },
         { "name": "Paranormal Cleanup", "start": 16702 }
+      ] }
+    ]
+  },
+  {
+    "name": "Lethal Company",
+    "category": "co-op",
+    "id": "lethal-company",
+    "streams": [
+      { "segment": "1974525272", "subrefs": [
+        { "name": "1 (с Димами)", "start": 4203 }
+      ] },
+      { "segment": "1986776678", "subrefs": [
+        { "name": "2 (4D)", "start": 13776 }
       ] }
     ]
   },
@@ -8016,7 +8026,7 @@
   },
   {
     "name": "Armored Core VI: Fires of Rubicon",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "ac6-for",
     "streams": [
       { "segment": "1907179905", "subrefs": [
@@ -8632,7 +8642,7 @@
   },
   {
     "name": "Yakuza 0",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "yakuza-0",
     "streams": [
       { "segment": "1598875892", "subrefs": [
@@ -8658,6 +8668,9 @@
       ] },
       { "segment": "1740746666", "subrefs": [
         { "name": "8", "start": 3330 }
+      ] },
+      { "segment": "1986776678", "subrefs": [
+        { "name": "9", "start": 668 }
       ] }
     ]
   },

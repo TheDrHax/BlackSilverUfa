@@ -13579,7 +13579,6 @@
     "youtube": "u1UovrHlPJY", "abs_start": 0, "abs_end": 14402, "duration": 14402,
     "name": "Crime Scene Cleaner (демо) #1 / Party Animals #5 (с Куплиновым и Дангаром) / Dark Fracture (демо)",
     "date": "2023-10-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/1949835858.torrent",
     "games": ["csc", "party-animals", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1949835858.ass"
   },
@@ -13753,10 +13752,10 @@
   },
   "1974525272": {
     "youtube": "O9z-o4S0amU", "abs_start": 0, "abs_end": 18745, "duration": 18745,
-    "name": "Lethal Company (с Куплиновым и Дангаром) / I'm on Observation Duty - Часть 6 #4",
+    "name": "Lethal Company #1 (с Димами) / I'm on Observation Duty - Часть 6 #4",
     "date": "2023-11-11",
     "torrent": "https://bsufiles.drhx.ru/streams/1974525272.torrent",
-    "games": ["co-op", "observation-duty"],
+    "games": ["lethal-company", "observation-duty"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1974525272.ass"
   },
   "1975480188": {
@@ -13836,5 +13835,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1985909107.torrent",
     "games": ["single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1985909107.ass"
+  },
+  "1986776678": {
+    "abs_start": 0, "abs_end": 27326, "duration": 27326,
+    "name": "Yakuza 0 #9 / Lethal Company #2 (4D)",
+    "date": "2023-11-25",
+    "direct": "https://bsufiles.drhx.ru/streams/1986776678.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1986776678.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1986776678.torrent",
+    "games": ["yakuza-0", "lethal-company"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1986776678.ass"
   }
 }
