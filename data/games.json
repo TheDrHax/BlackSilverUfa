@@ -731,6 +731,9 @@
       ] },
       { "segment": "1986776678", "subrefs": [
         { "name": "2 (4D)", "start": 13776 }
+      ] },
+      { "segment": "1987710775", "subrefs": [
+        { "name": "3 (4D)", "start": 13005 }
       ] }
     ]
   },
@@ -8671,6 +8674,9 @@
       ] },
       { "segment": "1986776678", "subrefs": [
         { "name": "9", "start": 668 }
+      ] },
+      { "segment": "1987710775", "subrefs": [
+        { "name": "10", "start": 1371 }
       ] }
     ]
   },

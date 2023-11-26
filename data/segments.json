@@ -13586,7 +13586,6 @@
     "youtube": "s9G9w7_mU90", "abs_start": 0, "abs_end": 17769, "duration": 17769,
     "name": "ELDRIMAR (демо) / Gennady (демо) / The Talos Principle II (демо) / Жил-Ячейка (Living Cell) - Демо / The Thaumaturge (демо) / Forgive Me Father 2 (демо) / Enshrouded (демо) / The Enjenir (демо) / Crime Scene Cleaner (демо) #2",
     "date": "2023-10-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/1950762078.torrent",
     "games": ["single-2023", "first-2023", "living-cell", "csc"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1950762078.ass"
   },
@@ -13594,7 +13593,6 @@
     "youtube": "FckCO0yyD4U", "abs_start": 0, "abs_end": 20435, "duration": 20435,
     "name": "Screams from the Past (демо) / Outlive (демо) / Ocean Pressure / Hope is Gone (демо) / Deer / Hinge (демо) / Lonely Valley Case (демо) / Maul in a Dream / Haunted Memories: The Return (демо) / Empty Shell (демо) / Hell of Verdun (демо) / The Black Within (демо)",
     "date": "2023-10-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/1951658427.torrent",
     "games": ["first-2023", "single-2023", "616-games"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1951658427.ass"
   },
@@ -13837,5 +13835,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1986776678.torrent",
     "games": ["yakuza-0", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1986776678.ass"
+  },
+  "1987710775": {
+    "abs_start": 0, "abs_end": 26689, "duration": 26689,
+    "name": "Yakuza 0 #10 / Lethal Company #3 (4D)",
+    "date": "2023-11-26",
+    "direct": "https://bsufiles.drhx.ru/streams/1987710775.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1987710775.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1987710775.torrent",
+    "games": ["yakuza-0", "lethal-company"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1987710775+0.ass"
   }
 }
