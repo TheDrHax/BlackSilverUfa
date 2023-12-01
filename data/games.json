@@ -2955,6 +2955,9 @@
       ] },
       { "segment": "1674396025", "subrefs": [
         { "name": "2022 (обзор)", "start": 1567 }
+      ] },
+      { "segment": "1992044853", "subrefs": [
+        { "name": "2023 (обзор)", "start": 3126 }
       ] }
     ]
   },
@@ -7436,6 +7439,9 @@
       { "segment": "1990296421", "subrefs": [
         { "name": "Moonbase Lambda (демо)", "start": 2768 },
         { "name": "Vaudeville", "start": 4179 }
+      ] },
+      { "segment": "1992044853", "subrefs": [
+        { "name": "Kona", "start": 7619 }
       ] }
     ]
   },

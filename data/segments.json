@@ -13614,7 +13614,6 @@
     "youtube": "IR2kb7SMDmc", "abs_start": 0, "abs_end": 30236, "duration": 30236,
     "name": "Marvel's Spider-Man 2 #1",
     "date": "2023-10-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/1954787771.torrent",
     "games": ["spider-man-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1954787771.ass"
   },
@@ -13857,5 +13856,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1990296421.torrent",
     "games": ["first-2023", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1990296421.ass"
+  },
+  "1992044853": {
+    "abs_start": 0, "abs_end": 23440, "duration": 23440,
+    "name": "The Game Awards #2023 (обзор) / Kona",
+    "date": "2023-12-01",
+    "direct": "https://bsufiles.drhx.ru/streams/1992044853.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1992044853.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1992044853.torrent",
+    "games": ["tga", "first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1992044853.ass"
   }
 }
