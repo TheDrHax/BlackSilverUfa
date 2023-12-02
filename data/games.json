@@ -4189,7 +4189,6 @@
         { "name": "The Death: Than Trung", "start": 16371 }
       ] },
       { "segment": "1619465701", "subrefs": [
-        { "name": "Kona II: Brume (демо)", "start": 1408 },
         { "name": "The Classrooms (демо)", "start": 5232 },
         { "name": "Quo (демо)", "start": 6673 },
         { "name": "The Polaris Incident", "start": 9499 },
@@ -7439,9 +7438,32 @@
       { "segment": "1990296421", "subrefs": [
         { "name": "Moonbase Lambda (демо)", "start": 2768 },
         { "name": "Vaudeville", "start": 4179 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Kona",
+    "category": "finished",
+    "id": "kona",
+    "streams": [
       { "segment": "1992044853", "subrefs": [
-        { "name": "Kona", "start": 7619 }
+        { "name": "1", "start": 7619 }
+      ] },
+      { "segment": "1992956397", "subrefs": [
+        { "name": "2", "start": 1316 }
+      ] }
+    ]
+  },
+  {
+    "name": "Kona II: Brume",
+    "category": "ongoing",
+    "id": "kona-2",
+    "streams": [
+      { "segment": "1619465701", "subrefs": [
+        { "name": "Демо", "start": 1408 }
+      ] },
+      { "segment": "1992956397", "subrefs": [
+        { "name": "1", "start": 5457 }
       ] }
     ]
   },
