@@ -718,6 +718,9 @@
         { "name": "Entities", "start": 8508 },
         { "name": "SCP: 5K", "start": 12162 },
         { "name": "Paranormal Cleanup", "start": 16702 }
+      ] },
+      { "segment": "1994074198", "subrefs": [
+        { "name": "Xtract (с Димами)", "start": 2907 }
       ] }
     ]
   },
@@ -4692,7 +4695,7 @@
   },
   {
     "name": "Starfield",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "starfield",
     "streams": [
       { "segment": "1914021087", "subrefs": [
