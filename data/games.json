@@ -4601,6 +4601,12 @@
       { "segment": "1989452096", "subrefs": [
         { "name": "Dark Descent (демо)", "start": 3866 },
         { "name": "Loggerhead (демо)", "start": 8001 }
+      ] },
+      { "segment": "1994975780", "subrefs": [
+        { "name": "The Exit 8", "start": 2553 },
+        { "name": "Graveyard Shift", "start": 8229 },
+        { "name": "Buried Alive: Breathless Rescue", "start": 13347 },
+        { "name": "Fatal Midnight", "start": 17885 }
       ] }
     ]
   },
@@ -7441,6 +7447,9 @@
       { "segment": "1990296421", "subrefs": [
         { "name": "Moonbase Lambda (демо)", "start": 2768 },
         { "name": "Vaudeville", "start": 4179 }
+      ] },
+      { "segment": "1994975780", "subrefs": [
+        { "name": "Madhouse Madness", "start": 6126 }
       ] }
     ]
   },
