@@ -13628,7 +13628,6 @@
     "youtube": "tQSPPNXFoJs", "abs_start": 0, "abs_end": 19750, "duration": 19750,
     "name": "Marvel's Spider-Man 2 #3",
     "date": "2023-10-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/1956490392.torrent",
     "games": ["spider-man-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1956490392.ass"
   },
@@ -13887,5 +13886,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1994975780.torrent",
     "games": ["single-2023", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1994975780.ass"
+  },
+  "1995822970": {
+    "abs_start": 0, "abs_end": 21252, "duration": 21252,
+    "name": "They Are Back! / Evil Water (демо) / Let's Find Larry! / The Wanted Man's House / Chitin / Fortress / This House Is Not A Home / I'm on Observation Duty - Часть 4 #4",
+    "date": "2023-12-05",
+    "direct": "https://bsufiles.drhx.ru/streams/1995822970.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1995822970.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1995822970.torrent",
+    "games": ["single-2023", "first-2023", "observation-duty"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1995822970.ass"
   }
 }

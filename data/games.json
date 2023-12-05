@@ -4607,6 +4607,14 @@
         { "name": "Graveyard Shift", "start": 8229 },
         { "name": "Buried Alive: Breathless Rescue", "start": 13347 },
         { "name": "Fatal Midnight", "start": 17885 }
+      ] },
+      { "segment": "1995822970", "subrefs": [
+        { "name": "They Are Back!", "start": 4833 },
+        { "name": "Evil Water (демо)", "start": 7165 },
+        { "name": "Let's Find Larry!", "start": 11325 },
+        { "name": "The Wanted Man's House", "start": 13715 },
+        { "name": "Chitin", "start": 16511 },
+        { "name": "Fortress", "start": 17394 }
       ] }
     ]
   },
@@ -7450,6 +7458,9 @@
       ] },
       { "segment": "1994975780", "subrefs": [
         { "name": "Madhouse Madness", "start": 6126 }
+      ] },
+      { "segment": "1995822970", "subrefs": [
+        { "name": "This House Is Not A Home", "start": 18698 }
       ] }
     ]
   },
@@ -9687,6 +9698,9 @@
       ] },
       { "segment": "1989452096", "subrefs": [
         { "name": "Часть 4 #3", "start": 10260 }
+      ] },
+      { "segment": "1995822970", "subrefs": [
+        { "name": "Часть 4 #4", "start": 19007 }
       ] }
     ]
   },
