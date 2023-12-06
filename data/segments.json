@@ -13637,7 +13637,6 @@
     "youtube": "b-R-DIaLGPM", "abs_start": 0, "abs_end": 19047, "duration": 19047,
     "name": "Fears to Fathom - Episode 4 - Ironbark Lookout / TELEFORUM / Slender: The Arrival #1 (10th Anniversary)",
     "date": "2023-10-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/1957481459.torrent",
     "games": ["fears-to-fathom", "single-2023", "slender"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1957481459.ass"
   },
@@ -13898,5 +13897,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1995822970.torrent",
     "games": ["single-2023", "first-2023", "observation-duty"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1995822970.ass"
+  },
+  "1996657327": {
+    "abs_start": 0, "abs_end": 19783, "duration": 19783,
+    "name": "Kona II: Brume #2",
+    "date": "2023-12-06",
+    "direct": "https://bsufiles.drhx.ru/streams/1996657327.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1996657327.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1996657327.torrent",
+    "games": ["kona-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1996657327.ass"
   }
 }

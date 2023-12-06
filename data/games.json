@@ -7479,7 +7479,7 @@
   },
   {
     "name": "Kona II: Brume",
-    "category": "ongoing",
+    "category": "finished",
     "id": "kona-2",
     "streams": [
       { "segment": "1619465701", "subrefs": [
@@ -7487,6 +7487,9 @@
       ] },
       { "segment": "1992956397", "subrefs": [
         { "name": "1", "start": 5457 }
+      ] },
+      { "segment": "1996657327", "subrefs": [
+        { "name": "2", "start": 1634 }
       ] }
     ]
   },
