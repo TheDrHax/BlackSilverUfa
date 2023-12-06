@@ -5452,9 +5452,11 @@
     "note": "<a href=\"https://youtu.be/4XYQNkwZxu8\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "496247270": {
-    "youtube": "Q4E0QtlVaGM", "abs_start": 0, "abs_end": 17640, "duration": 17640,
+    "abs_start": 0, "abs_end": 17640, "duration": 17640,
     "name": "Mafia: City of Lost Heaven #2",
     "date": "2019-10-18",
+    "direct": "https://bsufiles.drhx.ru/streams/496247270.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/496247270.mp4/master.m3u8",
     "games": ["mafia"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v496247270.ass"
   },
@@ -13888,7 +13890,7 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1994975780.ass"
   },
   "1995822970": {
-    "abs_start": 0, "abs_end": 21252, "duration": 21252,
+    "abs_start": 0, "abs_end": 60, "duration": 60,
     "name": "They Are Back! / Evil Water (демо) / Let's Find Larry! / The Wanted Man's House / Chitin / Fortress / This House Is Not A Home / I'm on Observation Duty - Часть 4 #4",
     "date": "2023-12-05",
     "direct": "https://bsufiles.drhx.ru/streams/1995822970.mp4",
