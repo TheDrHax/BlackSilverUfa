@@ -13903,5 +13903,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1996657327.torrent",
     "games": ["kona-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1996657327.ass"
+  },
+  "1997524923": {
+    "abs_start": 0, "abs_end": 25382, "duration": 25382,
+    "name": "Avatar: Frontiers of Pandora",
+    "date": "2023-12-07",
+    "direct": "https://bsufiles.drhx.ru/streams/1997524923.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1997524923.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1997524923.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1997524923.ass"
   }
 }
