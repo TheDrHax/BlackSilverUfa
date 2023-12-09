@@ -13642,7 +13642,6 @@
     "youtube": "7mRGvsbVIAs", "abs_start": 0, "abs_end": 22269, "duration": 22269,
     "name": "Лихо одноглазое (One-Eyed Likho) (демо) / Slender: The Arrival #2 / Voices of the Void (демо) #1",
     "date": "2023-10-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/1959105799.torrent",
     "games": ["single-2023", "slender", "votv"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1959105799.ass"
   },
@@ -13856,10 +13855,10 @@
   },
   "1992044853": {
     "youtube": "o8DGOTEELis", "abs_start": 0, "abs_end": 23441, "duration": 23441,
-    "name": "The Game Awards #2023 (обзор) / Kona #1",
+    "name": "Kona #1",
     "date": "2023-12-01",
     "torrent": "https://bsufiles.drhx.ru/streams/1992044853.torrent",
-    "games": ["tga", "kona"],
+    "games": ["kona"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1992044853.ass"
   },
   "1992956397": {
@@ -13911,5 +13910,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1997524923.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1997524923.ass"
+  },
+  "1999409596": {
+    "abs_start": 0, "abs_end": 19717, "duration": 19717,
+    "name": "Party Animals #9 / The Game Awards #2023 (обзор) / Skull Island: Rise of Kong",
+    "date": "2023-12-09",
+    "direct": "https://bsufiles.drhx.ru/streams/1999409596.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1999409596.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/1999409596.torrent",
+    "games": ["party-animals", "tga", "first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1999409596.ass"
   }
 }
