@@ -6531,9 +6531,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v611858028.ass"
   },
   "612822436": {
-    "youtube": "7HlE9DirUm4", "abs_start": 0, "abs_end": 22335, "duration": 22335,
+    "abs_start": 0, "abs_end": 22334, "duration": 22334,
     "name": "Moving Out / Heave Ho #4 / Green Hell #3",
     "date": "2020-05-06",
+    "direct": "https://bsufiles.drhx.ru/streams/612822436.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/612822436.mp4/master.m3u8",
     "games": ["co-op", "heave-ho", "green-hell"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v612822436.ass"
   },
@@ -7239,9 +7241,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v738885129.ass"
   },
   "740853378": {
-    "youtube": "0uXjZYTO2ks", "official": false, "abs_start": 0, "abs_end": 11341, "duration": 11341,
+    "abs_start": 0, "abs_end": 11340, "duration": 11340,
     "name": "Marbles On Stream / Сетапы зрителей #2",
     "date": "2020-09-14",
+    "direct": "https://bsufiles.drhx.ru/streams/740853378.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/740853378.mp4/master.m3u8",
     "games": ["first-2020", "setups"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v740853378.ass"
   },
@@ -13649,7 +13653,6 @@
     "youtube": "e2aO5npzAqo", "abs_start": 0, "abs_end": 18536, "duration": 18536,
     "name": "Terminal 81 #2 / World of Horror / Voices of the Void (демо) #2",
     "date": "2023-10-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/1959921584.torrent",
     "games": ["terminal-81", "first-2023", "votv"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1959921584+0.ass"
   },
