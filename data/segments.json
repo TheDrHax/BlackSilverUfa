@@ -13667,7 +13667,6 @@
     "youtube": "ykr_DEhURC4", "abs_start": 0, "abs_end": 34621, "duration": 34621,
     "name": "Alan Wake II #1",
     "date": "2023-10-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/1961463026.torrent",
     "games": ["alan-wake-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1961463026.ass"
   },
@@ -13928,5 +13927,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2000344386.torrent",
     "games": ["lethal-company", "first-2023", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2000344386.ass"
+  },
+  "2001246384": {
+    "abs_start": 0, "abs_end": 23694, "duration": 23694,
+    "name": "Shhh! / Lethal Company #6 (4D)",
+    "date": "2023-12-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2001246384.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2001246384.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2001246384.torrent",
+    "games": ["616-games", "lethal-company"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2001246384.ass"
   }
 }
