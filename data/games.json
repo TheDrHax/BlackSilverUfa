@@ -4540,7 +4540,6 @@
         { "name": "ONE WAY HOME (демо)", "start": 4375 },
         { "name": "Pine Harbor (демо)", "start": 6662 },
         { "name": "The Bridge Curse 2: The Extrication (демо)", "start": 9181 },
-        { "name": "Hollow Cocoon (демо)", "start": 14242 },
         { "name": "Nevermind This (демо)", "start": 18005 },
         { "name": "Paranormal Records (демо)", "start": 19725 }
       ] },
@@ -4627,6 +4626,9 @@
         { "name": "Abandoned: Short Message", "start": 14401 },
         { "name": "silkbulb test", "start": 15645 },
         { "name": "Whispering Woods (демо)", "start": 16386 }
+      ] },
+      { "segment": "2002100435", "subrefs": [
+        { "name": "Cursed Enigma: Priest and Prayers", "start": 2455 }
       ] }
     ]
   },
@@ -7468,8 +7470,7 @@
         { "name": "Who's Lila?", "start": 6842 }
       ] },
       { "segment": "1990296421", "subrefs": [
-        { "name": "Moonbase Lambda (демо)", "start": 2768 },
-        { "name": "Vaudeville", "start": 4179 }
+        { "name": "Moonbase Lambda (демо)", "start": 2768 }
       ] },
       { "segment": "1994975780", "subrefs": [
         { "name": "Madhouse Madness", "start": 6126 }
@@ -7485,6 +7486,32 @@
       ] },
       { "segment": "2000344386", "subrefs": [
         { "name": "Nafanya the Poltergeist", "start": 11993 }
+      ] }
+    ]
+  },
+  {
+    "name": "Vaudeville",
+    "category": "ongoing",
+    "id": "vaudeville",
+    "streams": [
+      { "segment": "1990296421", "subrefs": [
+        { "name": "1", "start": 4179 }
+      ] },
+      { "segment": "2002100435", "subrefs": [
+        { "name": "2", "start": 5373 }
+      ] }
+    ]
+  },
+  {
+    "name": "Hollow Coccoon",
+    "category": "ongoing",
+    "id": "hollow-coccoon",
+    "streams": [
+      { "segment": "1949027899", "subrefs": [
+        { "name": "Демо", "start": 14242 }
+      ] },
+      { "segment": "2002100435", "subrefs": [
+        { "name": "Релиз", "start": 7224 }
       ] }
     ]
   },

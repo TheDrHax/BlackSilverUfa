@@ -13574,9 +13574,9 @@
   },
   "1949027899": {
     "youtube": "3fg9C1RGrQA", "abs_start": 0, "abs_end": 21507, "duration": 21507,
-    "name": "April '86 (демо) / ONE WAY HOME (демо) / Pine Harbor (демо) / The Bridge Curse 2: The Extrication (демо) / Hollow Cocoon (демо) / Chiyo (демо) / Nevermind This (демо) / Paranormal Records (демо)",
+    "name": "April '86 (демо) / ONE WAY HOME (демо) / Pine Harbor (демо) / The Bridge Curse 2: The Extrication (демо) / Hollow Coccoon - Демо / Chiyo (демо) / Nevermind This (демо) / Paranormal Records (демо)",
     "date": "2023-10-12",
-    "games": ["single-2023", "first-2023"],
+    "games": ["single-2023", "hollow-coccoon", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1949027899.ass"
   },
   "1949835858": {
@@ -13674,7 +13674,6 @@
     "youtube": "OHAPHmvrEqU", "abs_start": 0, "abs_end": 34389, "duration": 34389,
     "name": "Alan Wake II #2",
     "date": "2023-10-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/1962326035.torrent",
     "games": ["alan-wake-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1962326035.ass"
   },
@@ -13848,10 +13847,10 @@
   },
   "1990296421": {
     "youtube": "uCoDimh-uAQ", "abs_start": 0, "abs_end": 22679, "duration": 22679,
-    "name": "Moonbase Lambda (демо) / Vaudeville / Lethal Company #4 (4D)",
+    "name": "Moonbase Lambda (демо) / Vaudeville #1 / Lethal Company #4 (4D)",
     "date": "2023-11-29",
     "torrent": "https://bsufiles.drhx.ru/streams/1990296421.torrent",
-    "games": ["first-2023", "lethal-company"],
+    "games": ["first-2023", "vaudeville", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1990296421.ass"
   },
   "1992044853": {
@@ -13937,5 +13936,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2001246384.torrent",
     "games": ["616-games", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2001246384.ass"
+  },
+  "2002100435": {
+    "abs_start": 0, "abs_end": 23126, "duration": 23126,
+    "name": "Cursed Enigma: Priest and Prayers / Vaudeville #2 / Hollow Coccoon - Релиз",
+    "date": "2023-12-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2002100435.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2002100435.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2002100435.torrent",
+    "games": ["single-2023", "vaudeville", "hollow-coccoon"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2002100435+0.ass"
   }
 }
