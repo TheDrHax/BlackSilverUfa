@@ -13937,10 +13937,20 @@
   },
   "2002100435": {
     "youtube": "FG7tsMF2Fl0", "abs_start": 0, "abs_end": 23127, "duration": 23127,
-    "name": "Cursed Enigma: Priest and Prayers / Vaudeville #2 / Hollow Coccoon - Релиз",
+    "name": "Cursed Enigma: Priest and Prayers / Vaudeville #2 / Hollow Coccoon #1",
     "date": "2023-12-12",
     "torrent": "https://bsufiles.drhx.ru/streams/2002100435.torrent",
     "games": ["single-2023", "vaudeville", "hollow-coccoon"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2002100435+0.ass"
+  },
+  "2002964506": {
+    "abs_start": 0, "abs_end": 21520, "duration": 21520,
+    "name": "Chaperone / Ding Dong Dead / Abiotic Factor (демо) / Hollow Coccoon #2",
+    "date": "2023-12-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2002964506.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2002964506.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2002964506.torrent",
+    "games": ["first-2023", "single-2023", "co-op", "hollow-coccoon"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2002964506.ass"
   }
 }
