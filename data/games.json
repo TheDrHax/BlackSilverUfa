@@ -724,6 +724,9 @@
       ] },
       { "segment": "2002964506", "subrefs": [
         { "name": "Abiotic Factor (демо)", "start": 11408 }
+      ] },
+      { "segment": "2003812256", "subrefs": [
+        { "name": "Ready or Not", "start": 9603 }
       ] }
     ]
   },
@@ -7968,6 +7971,9 @@
       ] },
       { "segment": "1642266888,1642407202", "subrefs": [
         { "name": "1", "start": 11101 }
+      ] },
+      { "segment": "2003812256", "subrefs": [
+        { "name": "2", "start": 970 }
       ] }
     ]
   },
@@ -8135,7 +8141,7 @@
   },
   {
     "name": "Lies of P",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "lies-of-p",
     "streams": [
       { "segment": "1842665393", "subrefs": [

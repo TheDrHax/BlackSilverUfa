@@ -13681,7 +13681,6 @@
     "youtube": "yxaa7q-LxcE", "abs_start": 0, "abs_end": 33730, "duration": 33730,
     "name": "Alan Wake II #3",
     "date": "2023-10-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/1963183568.torrent",
     "games": ["alan-wake-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1963183568.ass"
   },
@@ -13952,5 +13951,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2002964506.torrent",
     "games": ["first-2023", "single-2023", "co-op", "hollow-coccoon"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2002964506.ass"
+  },
+  "2003812256": {
+    "abs_start": 0, "abs_end": 27497, "duration": 27497,
+    "name": "Blood West #2 / Ready or Not",
+    "date": "2023-12-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2003812256.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2003812256.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2003812256.torrent",
+    "games": ["blood-west", "co-op"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2003812256.ass"
   }
 }
