@@ -13966,5 +13966,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2005613219.torrent",
     "games": ["chillas-art", "first-2023", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2005613219.ass"
+  },
+  "2006538127": {
+    "abs_start": 0, "abs_end": 14798, "duration": 14798,
+    "name": "Ice Age 2: The Meltdown (Ледниковый Период 2)",
+    "date": "2023-12-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2006538127.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2006538127.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2006538127.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2006538127.ass"
   }
 }
