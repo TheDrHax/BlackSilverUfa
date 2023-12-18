@@ -13703,7 +13703,6 @@
     "youtube": "YIwip8oXxbU", "abs_start": 0, "abs_end": 22175, "duration": 22175,
     "name": "Don't Scream #1 / The Stalked (демо) / Crowded. Followed. / Suspicious Person Information / The Invincible #1",
     "date": "2023-11-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/1970199475.torrent",
     "games": ["dont-scream", "single-2023", "invincible"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1970199475.ass"
   },
@@ -13951,20 +13950,20 @@
   },
   "2003812256": {
     "youtube": "8zQ11B8rZMk", "abs_start": 0, "abs_end": 27497, "duration": 27497,
-    "name": "Blood West #2 / Ready or Not",
+    "name": "Blood West #2 / Ready or Not #1",
     "date": "2023-12-14",
     "torrent": "https://bsufiles.drhx.ru/streams/2003812256.torrent",
-    "games": ["blood-west", "co-op"],
+    "games": ["blood-west", "ready-or-not"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2003812256.ass"
   },
   "2005613219": {
     "abs_start": 0, "abs_end": 21668, "duration": 21668,
-    "name": "Jisatsu / I Love You Freddy / The Dire",
+    "name": "Jisatsu / I Love You Freddy #1 / The Dire",
     "date": "2023-12-16",
     "direct": "https://bsufiles.drhx.ru/streams/2005613219.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2005613219.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2005613219.torrent",
-    "games": ["chillas-art", "first-2023", "single-2023"],
+    "games": ["chillas-art", "love-you-freddy", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2005613219.ass"
   },
   "2006538127": {
@@ -13974,5 +13973,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2006538127.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2006538127.ass"
+  },
+  "2007394703": {
+    "abs_start": 0, "abs_end": 21992, "duration": 21992,
+    "name": "Poop Killer 8 / I Love You Freddy #2 / Ready or Not #2",
+    "date": "2023-12-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2007394703.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2007394703.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2007394703.torrent",
+    "games": ["616-games", "love-you-freddy", "ready-or-not"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2007394703.ass"
   }
 }

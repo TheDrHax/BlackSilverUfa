@@ -724,9 +724,19 @@
       ] },
       { "segment": "2002964506", "subrefs": [
         { "name": "Abiotic Factor (демо)", "start": 11408 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Ready or Not",
+    "category": "co-op",
+    "id": "ready-or-not",
+    "streams": [
       { "segment": "2003812256", "subrefs": [
-        { "name": "Ready or Not", "start": 9603 }
+        { "name": "1", "start": 9603 }
+      ] },
+      { "segment": "2007394703", "subrefs": [
+        { "name": "2", "start": 8284 }
       ] }
     ]
   },
@@ -4986,6 +4996,9 @@
       ] },
       { "segment": "2001246384", "subrefs": [
         { "name": "Shhh!", "start": 3616 }
+      ] },
+      { "segment": "2007394703", "subrefs": [
+        { "name": "Poop Killer 8", "start": 2587 }
       ] }
     ]
   },
@@ -7505,11 +7518,21 @@
       { "segment": "2002964506", "subrefs": [
         { "name": "Chaperone", "start": 2650 }
       ] },
-      { "segment": "2005613219", "subrefs": [
-        { "name": "I Love You Freddy", "start": 12005 }
-      ] },
       { "segment": "2006538127", "subrefs": [
         { "name": "Ice Age 2: The Meltdown (Ледниковый Период 2)", "start": 1874 }
+      ] }
+    ]
+  },
+  {
+    "name": "I Love You Freddy",
+    "category": "finished",
+    "id": "love-you-freddy",
+    "streams": [
+      { "segment": "2005613219", "subrefs": [
+        { "name": "1", "start": 12005 }
+      ] },
+      { "segment": "2007394703", "subrefs": [
+        { "name": "2", "start": 5712 }
       ] }
     ]
   },
