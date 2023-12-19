@@ -13602,9 +13602,9 @@
   },
   "1952515492": {
     "youtube": "XJ8tPe3hZFE", "abs_start": 0, "abs_end": 13053, "duration": 13053,
-    "name": "RoboCop: Rogue City (демо)",
+    "name": "RoboCop: Rogue City #1 (демо)",
     "date": "2023-10-16",
-    "games": ["single-2023"],
+    "games": ["robocop"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1952515492.ass"
   },
   "1954044542": {
@@ -13710,7 +13710,6 @@
     "youtube": "yDDrHUyd35E", "abs_start": 0, "abs_end": 21994, "duration": 21994,
     "name": "Don't Scream #2 / Hello, I came to kill you / I'm on Observation Duty - Часть 6 #1 / The Invincible #2",
     "date": "2023-11-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/1971007084.torrent",
     "games": ["dont-scream", "616-games", "observation-duty", "invincible"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1971007084+0.ass"
   },
@@ -13726,7 +13725,6 @@
     "youtube": "YMJ9vivbr10", "abs_start": 0, "abs_end": 18073, "duration": 18073,
     "name": "Stay Still 2 (демо) / Cat Fred Evil Pet / Employee of the Month / I'm on Observation Duty - Часть 6 #3 / The Invincible #4",
     "date": "2023-11-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/1972692139.torrent",
     "games": ["single-2023", "first-2023", "observation-duty", "invincible"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1972692139.ass"
   },
@@ -13942,10 +13940,10 @@
   },
   "2002964506": {
     "youtube": "6cqWc6wDvCk", "abs_start": 0, "abs_end": 21521, "duration": 21521,
-    "name": "Chaperone / Ding Dong Dead / Abiotic Factor (демо) / Hollow Coccoon #2",
+    "name": "Chaperone / Ding Dong Dead / Abiotic Factor #1 (демо, со зрителями) / Hollow Coccoon #2",
     "date": "2023-12-13",
     "torrent": "https://bsufiles.drhx.ru/streams/2002964506.torrent",
-    "games": ["first-2023", "single-2023", "co-op", "hollow-coccoon"],
+    "games": ["first-2023", "single-2023", "abiotic-factor", "hollow-coccoon"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2002964506.ass"
   },
   "2003812256": {
@@ -13979,5 +13977,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2007394703.torrent",
     "games": ["616-games", "love-you-freddy", "ready-or-not"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2007394703.ass"
+  },
+  "2008212794": {
+    "abs_start": 0, "abs_end": 26754, "duration": 26754,
+    "name": "RoboCop: Rogue City #2 / Sanguivore: Twenty Below / Abiotic Factor #2 (4D) / Ready or Not #3",
+    "date": "2023-12-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2008212794.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2008212794.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2008212794.torrent",
+    "games": ["robocop", "co-op", "abiotic-factor", "ready-or-not"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2008212794.ass"
   }
 }
