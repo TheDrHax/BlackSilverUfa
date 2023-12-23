@@ -4667,6 +4667,9 @@
       ] },
       { "segment": "2005613219", "subrefs": [
         { "name": "The Dire", "start": 16431 }
+      ] },
+      { "segment": "2011805602", "subrefs": [
+        { "name": "Revenge Of The Colon", "start": 12405 }
       ] }
     ]
   },
@@ -5028,6 +5031,9 @@
       ] },
       { "segment": "2007394703", "subrefs": [
         { "name": "Poop Killer 8", "start": 2587 }
+      ] },
+      { "segment": "2011805602", "subrefs": [
+        { "name": "The Lights Went Out", "start": 1692 }
       ] }
     ]
   },
@@ -8111,7 +8117,7 @@
   },
   {
     "name": "Holstin",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "holstin",
     "streams": [
       { "segment": "1728992336", "subrefs": [
@@ -8337,13 +8343,16 @@
         { "name": "1 (соло)", "start": 279 }
       ] },
       { "segment": "1827232465,1827360298,1827371582,1827392675", "subrefs": [
-        { "name": "2 (с Куплиновым и Дангаром)", "start": 9494 }
+        { "name": "2 (с Димами)", "start": 9494 }
       ] },
       { "segment": "1830612078", "subrefs": [
-        { "name": "3 (с Куплиновым и Дангаром)", "start": 9364 }
+        { "name": "3 (с Димами)", "start": 9364 }
       ] },
       { "segment": "1902891024", "subrefs": [
-        { "name": "4 (с Куплиновым и Дангаром)", "start": 2812 }
+        { "name": "4 (с Димами)", "start": 2812 }
+      ] },
+      { "segment": "2011805602", "subrefs": [
+        { "name": "5 (с тремя Димами)", "start": 4428 }
       ] }
     ]
   },

@@ -12737,7 +12737,7 @@
   },
   "1827232465,1827360298,1827371582,1827392675": {
     "youtube": "Ouk7FqZ-T30", "abs_start": 0, "abs_end": 15862, "duration": 15862,
-    "name": "Amnesia: The Bunker - Демо / Horror Exp+ / The Outlast Trials #2 (с Куплиновым и Дангаром) / Haunted Horror Stories: Gone With The Wind",
+    "name": "Amnesia: The Bunker - Демо / Horror Exp+ / The Outlast Trials #2 (с Димами) / Haunted Horror Stories: Gone With The Wind",
     "date": "2023-05-23",
     "offsets": ["0:00", "3:39:05", "3:55:44", "4:16:15"],
     "games": ["amnesia-bunker", "first-2023", "outlast-trials"],
@@ -12789,7 +12789,7 @@
   },
   "1830612078": {
     "youtube": "XQ7x_RnotUM", "abs_start": 0, "abs_end": 20282, "duration": 20282,
-    "name": "Alone in the Dark: Prologue / Presences: Dark Awakening (демо) / The Wailer / BloodWaters (Кровавые воды) / The Outlast Trials #3 (с Куплиновым и Дангаром) / Movie Night / Water Wheel / My Eyes Deceive",
+    "name": "Alone in the Dark: Prologue / Presences: Dark Awakening (демо) / The Wailer / BloodWaters (Кровавые воды) / The Outlast Trials #3 (с Димами) / Movie Night / Water Wheel / My Eyes Deceive",
     "date": "2023-05-27",
     "games": ["single-2023", "first-2023", "outlast-trials"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1830612078.ass"
@@ -13321,7 +13321,7 @@
   },
   "1902891024": {
     "abs_start": 0, "abs_end": 18216, "duration": 18216,
-    "name": "The Outlast Trials #4 (с Куплиновым и Дангаром) / Song of Horror #3",
+    "name": "The Outlast Trials #4 (с Димами) / Song of Horror #3",
     "date": "2023-08-19",
     "direct": "https://bsufiles.drhx.ru/streams/1902891024.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/1902891024.mp4/master.m3u8",
@@ -13739,7 +13739,6 @@
     "youtube": "O9z-o4S0amU", "abs_start": 0, "abs_end": 18745, "duration": 18745,
     "name": "Lethal Company #1 (с Димами) / I'm on Observation Duty - Часть 6 #4",
     "date": "2023-11-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/1974525272.torrent",
     "games": ["lethal-company", "observation-duty"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1974525272.ass"
   },
@@ -13992,5 +13991,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2009126367.torrent",
     "games": ["first-2023", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2009126367.ass"
+  },
+  "2011805602": {
+    "abs_start": 0, "abs_end": 23150, "duration": 23150,
+    "name": "The Lights Went Out / The Outlast Trials #5 (с тремя Димами) / Revenge Of The Colon",
+    "date": "2023-12-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2011805602.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2011805602.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2011805602.torrent",
+    "games": ["616-games", "outlast-trials", "single-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2011805602.ass"
   }
 }
