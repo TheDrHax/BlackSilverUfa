@@ -13581,7 +13581,7 @@
   },
   "1949835858": {
     "youtube": "u1UovrHlPJY", "abs_start": 0, "abs_end": 14402, "duration": 14402,
-    "name": "Crime Scene Cleaner (демо) #1 / Party Animals #5 (с Куплиновым и Дангаром) / Dark Fracture (демо)",
+    "name": "Crime Scene Cleaner (демо) #1 / Party Animals #5 (с Димами) / Dark Fracture (демо)",
     "date": "2023-10-13",
     "games": ["csc", "party-animals", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1949835858.ass"
@@ -13746,7 +13746,6 @@
     "youtube": "w52TwkvHtmo", "abs_start": 0, "abs_end": 20069, "duration": 20069,
     "name": "Nancy Drew: Warnings at Waverly Academy (Нэнси Дрю. Записки чёрной кошки) #1",
     "date": "2023-11-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/1975480188.torrent",
     "games": ["nancy-drew-wawa"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1975480188.ass"
   },
@@ -13964,10 +13963,10 @@
   },
   "2006538127": {
     "youtube": "rWxZ1z8HFMQ", "abs_start": 0, "abs_end": 14799, "duration": 14799,
-    "name": "Ice Age 2: The Meltdown (Ледниковый Период 2)",
+    "name": "Ice Age 2: The Meltdown (Ледниковый период 2: Глобальное потепление) #1",
     "date": "2023-12-17",
     "torrent": "https://bsufiles.drhx.ru/streams/2006538127.torrent",
-    "games": ["first-2023"],
+    "games": ["ice-age-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2006538127.ass"
   },
   "2007394703": {
@@ -14003,5 +14002,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2011805602.torrent",
     "games": ["616-games", "outlast-trials", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2011805602.ass"
+  },
+  "2012687193": {
+    "abs_start": 0, "abs_end": 19890, "duration": 19890,
+    "name": "Party Animals #10 (с тремя Димами) / Ice Age 2: The Meltdown (Ледниковый период 2: Глобальное потепление) #2",
+    "date": "2023-12-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2012687193.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2012687193.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2012687193.torrent",
+    "games": ["party-animals", "ice-age-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2012687193+0.ass"
   }
 }

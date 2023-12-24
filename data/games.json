@@ -7553,11 +7553,21 @@
       { "segment": "2002964506", "subrefs": [
         { "name": "Chaperone", "start": 2650 }
       ] },
-      { "segment": "2006538127", "subrefs": [
-        { "name": "Ice Age 2: The Meltdown (Ледниковый Период 2)", "start": 1874 }
-      ] },
       { "segment": "2009126367", "subrefs": [
         { "name": "Biohazard 2 (by PerroAutonomo)", "start": 3678 }
+      ] }
+    ]
+  },
+  {
+    "name": "Ice Age 2: The Meltdown (Ледниковый период 2: Глобальное потепление)",
+    "category": "finished",
+    "id": "ice-age-2",
+    "streams": [
+      { "segment": "2006538127", "subrefs": [
+        { "name": "1", "start": 1874 }
+      ] },
+      { "segment": "2012687193", "subrefs": [
+        { "name": "2", "start": 10956 }
       ] }
     ]
   },
@@ -10715,7 +10725,7 @@
         { "name": "4", "start": 18680 }
       ] },
       { "segment": "1949835858", "subrefs": [
-        { "name": "5 (с Куплиновым и Дангаром)", "start": 3771 }
+        { "name": "5 (с Димами)", "start": 3771 }
       ] },
       { "segment": "1977184678", "subrefs": [
         { "name": "6 (4D)", "start": 15607 }
@@ -10728,6 +10738,9 @@
       ] },
       { "segment": "1999409596", "subrefs": [
         { "name": "9" }
+      ] },
+      { "segment": "2012687193", "subrefs": [
+        { "name": "10 (с тремя Димами)", "start": 3002 }
       ] }
     ]
   },
