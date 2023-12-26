@@ -11511,9 +11511,9 @@
   },
   "1633962812": {
     "youtube": "SrTRY5PhDR0", "abs_start": 0, "abs_end": 22135, "duration": 22135,
-    "name": "Resident Evil Remake Remake / The Shadow over Route 80 / Off Shore (демо) / Father's Day / Silence Channel 2 (демо)",
+    "name": "Resident Evil Remake Remake / The Shadow over Route 80 / Off Shore (демо) / Father's Day / Silence Channel 2 - Демо",
     "date": "2022-10-25",
-    "games": ["first-2022", "single-2022"],
+    "games": ["first-2022", "single-2022", "silence-channel-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1633962812.ass"
   },
   "1634888055": {
@@ -13753,7 +13753,6 @@
     "youtube": "qkJZdGPSofM", "abs_start": 0, "abs_end": 26329, "duration": 26329,
     "name": "Polygon of Reality (демо) / Жил-Ячейка (Living Cell) - Прохождение / BoneField: Bodycam Horror (демо) / Pacify #3 / Demonic Episode / Silent Rain / Gehinnom / Escape Simulator",
     "date": "2023-11-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/1976316443.torrent",
     "games": ["first-2023", "living-cell", "pacify", "co-op"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1976316443+0.ass"
   },
@@ -13904,11 +13903,9 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1997524923.ass"
   },
   "1999409596": {
-    "abs_start": 0, "abs_end": 19717, "duration": 19717,
+    "youtube": "3sfa04A6qU0", "abs_start": 0, "abs_end": 19718, "duration": 19718,
     "name": "Party Animals #9 / The Game Awards #2023 (обзор) / Skull Island: Rise of Kong",
     "date": "2023-12-09",
-    "direct": "https://bsufiles.drhx.ru/streams/1999409596.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1999409596.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/1999409596.torrent",
     "games": ["party-animals", "tga", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1999409596.ass"
@@ -14008,5 +14005,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2012687193.torrent",
     "games": ["party-animals", "ice-age-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2012687193+0.ass"
+  },
+  "2014172398": {
+    "abs_start": 0, "abs_end": 18524, "duration": 18524,
+    "name": "Silence Channel 2 - Релиз / Dino Trauma (демо) / The Backrooms: Unbounded / Dead Faces: Prologue (демо) / DMV: Become Viechle / Christmas Nightmare",
+    "date": "2023-12-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2014172398.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2014172398.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2014172398.torrent",
+    "games": ["silence-channel-2", "first-2023", "single-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2014172398.ass"
   }
 }
