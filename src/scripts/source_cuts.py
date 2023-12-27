@@ -36,7 +36,14 @@ def detect_disconnect_protection(
             raise Exception('ERROR: When multiple clips are provided, they '
                             'all must be in MPEG-TS format.')
         
-        timeline = Timeline([Clip(f) for f in videos])
+        clips = []
+        for f in videos:
+            try:
+                clips.append(Clip(f))
+            except Exception:
+                pass
+
+        timeline = Timeline(clips)
         concat_map = NamedTemporaryFile(delete=True, suffix='.txt')
         timeline.render(concat_map.name, 'txt', force=True)
         ffcmd += ['-safe', '0', '-f', 'concat', concat_map.name]
