@@ -13760,7 +13760,6 @@
     "youtube": "oUsbgIPOIgw", "abs_start": 0, "abs_end": 22083, "duration": 22083,
     "name": "Exilium / Lunacid / Hellstuck: Rage With Your Friends #1 / Party Animals #6 (4D)",
     "date": "2023-11-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/1977184678.torrent",
     "games": ["first-2023", "hellstuck", "party-animals"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1977184678.ass"
   },
@@ -14013,5 +14012,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2014172398.torrent",
     "games": ["silence-channel-2", "first-2023", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2014172398.ass"
+  },
+  "2015063082": {
+    "abs_start": 0, "abs_end": 22048, "duration": 22048,
+    "name": "Ai korosu yori, Ai korosaretai (Пусть лучше меня убьёт любовь, чем я убью её)",
+    "date": "2023-12-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2015063082.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2015063082.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2015063082.torrent",
+    "games": ["first-2023"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2015063082+0.ass"
   }
 }
