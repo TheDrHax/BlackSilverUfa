@@ -13767,7 +13767,6 @@
     "youtube": "4FPBT2vzEDc", "abs_start": 0, "abs_end": 16959, "duration": 16959,
     "name": "Terminal Error (демо) / Excuse Me Sir (демо) / I'm on Observation Duty - Часть 6 #5 / Flaw Detection / Flaw Detection - Tape Two",
     "date": "2023-11-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/1978045200.torrent",
     "games": ["single-2023", "observation-duty", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1978045200.ass"
   },
@@ -14015,12 +14014,22 @@
   },
   "2015063082": {
     "abs_start": 0, "abs_end": 22048, "duration": 22048,
-    "name": "Ai korosu yori, Ai korosaretai (Пусть лучше меня убьёт любовь, чем я убью её)",
+    "name": "Ai korosu yori, Ai korosaretai (Пусть лучше меня убьёт любовь, чем я убью её) #1",
     "date": "2023-12-27",
     "direct": "https://bsufiles.drhx.ru/streams/2015063082.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2015063082.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2015063082.torrent",
-    "games": ["first-2023"],
+    "games": ["ai-korosu-yori"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2015063082+0.ass"
+  },
+  "2016002631": {
+    "abs_start": 0, "abs_end": 22070, "duration": 22070,
+    "name": "Ai korosu yori, Ai korosaretai (Пусть лучше меня убьёт любовь, чем я убью её) #2 / SnowRunner #23",
+    "date": "2023-12-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2016002631.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2016002631.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2016002631.torrent",
+    "games": ["ai-korosu-yori", "snowrunner"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2016002631.ass"
   }
 }

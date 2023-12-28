@@ -7576,9 +7576,19 @@
         { "name": "Dino Trauma (демо)", "start": 6723 },
         { "name": "The Backrooms: Unbounded", "start": 9393 },
         { "name": "Dead Faces: Prologue (демо)", "start": 11589 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Ai korosu yori, Ai korosaretai (Пусть лучше меня убьёт любовь, чем я убью её)",
+    "category": "finished",
+    "id": "ai-korosu-yori",
+    "streams": [
       { "segment": "2015063082", "subrefs": [
-        { "name": "Ai korosu yori, Ai korosaretai (Пусть лучше меня убьёт любовь, чем я убью её)", "start": 1590 }
+        { "name": "1", "start": 1590 }
+      ] },
+      { "segment": "2016002631", "subrefs": [
+        { "name": "2", "start": 3716 }
       ] }
     ]
   },
@@ -11204,6 +11214,9 @@
       ] },
       { "segment": "1869063797", "subrefs": [
         { "name": "22", "start": 4439 }
+      ] },
+      { "segment": "2016002631", "subrefs": [
+        { "name": "23", "start": 11239 }
       ] }
     ]
   },
