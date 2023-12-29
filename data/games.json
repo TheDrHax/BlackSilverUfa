@@ -651,7 +651,6 @@
       ] },
       { "segment": "1111966540", "subrefs": [
         { "name": "Camping Simulator", "start": 9894 },
-        { "name": "The Greatest Penguin Heist of All Time", "start": 13724 },
         { "name": "Haunt Chaser", "start": 17479 }
       ] },
       { "segment": "1125993129", "subrefs": [
@@ -724,6 +723,24 @@
       ] },
       { "segment": "2008212794", "subrefs": [
         { "name": "Sanguivore: Twenty Below", "start": 13233 }
+      ] },
+      { "segment": "2016955242", "subrefs": [
+        { "name": "Harvest Havoc", "start": 9698 },
+        { "name": "Minigame Madness", "start": 11391 },
+        { "name": "Kallax", "start": 13017 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Greatest Penguin Heist of All Time",
+    "category": "co-op",
+    "id": "penguin-heist",
+    "streams": [
+      { "segment": "1111966540", "subrefs": [
+        { "name": "1", "start": 13724 }
+      ] },
+      { "segment": "2016955242", "subrefs": [
+        { "name": "2", "start": 14806 }
       ] }
     ]
   },
@@ -1291,6 +1308,9 @@
       ] },
       { "segment": "1191176581", "subrefs": [
         { "name": "4", "start": 5265 }
+      ] },
+      { "segment": "2016955242", "subrefs": [
+        { "name": "5", "start": 19554 }
       ] }
     ]
   },
@@ -1310,6 +1330,9 @@
       ] },
       { "segment": "886277729", "subrefs": [
         { "name": "4", "start": 16512 }
+      ] },
+      { "segment": "2016955242", "subrefs": [
+        { "name": "5", "start": 17171 }
       ] }
     ]
   },
@@ -4686,6 +4709,10 @@
       { "segment": "2014172398", "subrefs": [
         { "name": "DMV: Become Viechle", "start": 13548 },
         { "name": "Christmas Nightmare", "start": 14046 }
+      ] },
+      { "segment": "2016955242", "subrefs": [
+        { "name": "Star Wars Deathroopers (демо)", "start": 3144 },
+        { "name": "Buckshot Roulette", "start": 4127 }
       ] }
     ]
   },
@@ -7576,6 +7603,9 @@
         { "name": "Dino Trauma (демо)", "start": 6723 },
         { "name": "The Backrooms: Unbounded", "start": 9393 },
         { "name": "Dead Faces: Prologue (демо)", "start": 11589 }
+      ] },
+      { "segment": "2016955242", "subrefs": [
+        { "name": "Inky's Sleep (демо)", "start": 5760 }
       ] }
     ]
   },
