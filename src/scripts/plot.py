@@ -64,7 +64,8 @@ EMOTES = {
         'peepoSnow',
         'pirateD',
         'TaBeRu',
-        'VIBE'
+        'VIBE',
+        'kiryuJAM'
     ]),
     'cry': pattern([
         'BibleThump',
