@@ -4713,6 +4713,12 @@
       { "segment": "2016955242", "subrefs": [
         { "name": "Star Wars Deathroopers (демо)", "start": 3144 },
         { "name": "Buckshot Roulette", "start": 4127 }
+      ] },
+      { "segment": "2017906776", "subrefs": [
+        { "name": "Santy Is Home", "start": 2927 },
+        { "name": "Krampus of Kirkwall", "start": 4386 },
+        { "name": "How to Build a Snowman", "start": 6082 },
+        { "name": "Slay Bells", "start": 7643 }
       ] }
     ]
   },
@@ -5273,6 +5279,9 @@
       ] },
       { "segment": "1511822666", "subrefs": [
         { "name": "3", "start": 13376 }
+      ] },
+      { "segment": "2017906776", "subrefs": [
+        { "name": "Christmas Chapter #1", "start": 9459 }
       ] }
     ]
   },

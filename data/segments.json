@@ -13781,7 +13781,6 @@
     "youtube": "7i19pcwqhN8", "abs_start": 0, "abs_end": 16988, "duration": 16988,
     "name": "Nancy Drew: Warnings at Waverly Academy (Нэнси Дрю. Записки чёрной кошки) #2",
     "date": "2023-11-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/1982520100.torrent",
     "games": ["nancy-drew-wawa"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1982520100.ass"
   },
@@ -14034,5 +14033,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2016955242.torrent",
     "games": ["single-2023", "first-2023", "co-op", "penguin-heist", "gartic", "gartic-phone"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2016955242.ass"
+  },
+  "2017906776": {
+    "abs_start": 0, "abs_end": 15159, "duration": 15159,
+    "name": "Santy Is Home / Krampus of Kirkwall / How to Build a Snowman / Slay Bells / The Baby in Yellow - Christmas Chapter #1",
+    "date": "2023-12-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2017906776.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2017906776.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2017906776.torrent",
+    "games": ["single-2023", "baby-in-yellow"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2017906776+0.ass"
   }
 }
