@@ -13788,7 +13788,6 @@
     "youtube": "9dxIt-3_O4s", "abs_start": 0, "abs_end": 21902, "duration": 21902,
     "name": "Abtos Covert (демо) / Alternate Watch / I'm on Observation Duty - Часть 1 #2 | Часть 2 #3 / Voices of the Void (демо) #3",
     "date": "2023-11-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/1983368585.torrent",
     "games": ["single-2023", "first-2023", "observation-duty", "votv"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1983368585.ass"
   },
@@ -14043,5 +14042,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2017906776.torrent",
     "games": ["single-2023", "baby-in-yellow"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2017906776+0.ass"
+  },
+  "2018850210": {
+    "abs_start": 0, "abs_end": 17190, "duration": 17190,
+    "name": "Новый год 2024 (клипы)",
+    "date": "2023-12-31",
+    "direct": "https://bsufiles.drhx.ru/streams/2018850210.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2018850210.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2018850210.torrent",
+    "games": ["other"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2018850210.ass"
   }
 }
