@@ -12,7 +12,7 @@ export default function DonateToast() {
   const data = Persist.load('donate-toast', {
     closed: false,
     at: 0,
-    version: VERSION,
+    version: 1,
   });
   const [closed, setClosed] = useState(data.closed);
 
@@ -31,7 +31,7 @@ export default function DonateToast() {
     setClosed(true);
   };
 
-  const show = watched >= 0 && (!closed || data.version !== VERSION);
+  const show = watched >= 10 && (!closed || data.version !== VERSION);
 
   return (
     <Toast onClose={close} show={show} animation={false}>
