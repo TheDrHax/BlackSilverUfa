@@ -7622,6 +7622,18 @@
     ]
   },
   {
+    "name": "Прохождения за один стрим 2024",
+    "category": "finished",
+    "id": "single-2024",
+    "streams": [
+      { "segment": "2026423132", "subrefs": [
+        { "name": "Amygdala: Prelude (демо)", "start": 5271 },
+        { "name": "Drive Me to Hell", "start": 10687 },
+        { "name": "Supernatural (демо)", "start": 13219 }
+      ] }
+    ]
+  },
+  {
     "name": "Ai korosu yori, Ai korosaretai (Пусть лучше меня убьёт любовь, чем я убью её)",
     "category": "finished",
     "id": "ai-korosu-yori",
