@@ -7624,6 +7624,7 @@
   {
     "name": "Прохождения за один стрим 2024",
     "category": "finished",
+    "type": "list",
     "id": "single-2024",
     "streams": [
       { "segment": "2026423132", "subrefs": [
