@@ -159,10 +159,10 @@ const DonatePage = () => (
         imgSrc="/static/images/boosty.png"
         href="https://boosty.to/thedrhax"
       />
-      <CardModal name="Система быстрых платежей" imgSrc="/static/images/sbp.png">
+      {/* <CardModal name="Система быстрых платежей" imgSrc="/static/images/sbp.png">
         <p>Номер телефона: <code>+79773102862</code></p>
         <p>Банк: <code>ЮМани</code></p>
-      </CardModal>
+      </CardModal> */}
       <CardModal name="Сбер" imgSrc="/static/images/sber.png">
         <p>Номер карты: <code>4276380128807448</code></p>
         <p>Имя (для проверки): Дмитрий Степанович К.</p>
