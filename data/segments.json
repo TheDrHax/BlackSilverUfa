@@ -3441,9 +3441,9 @@
   },
   "338345713.1": {
     "youtube": "f961yE5dsko", "official": false, "abs_start": 8205, "abs_end": 25858, "duration": 17653,
-    "name": "Metal Gear Solid 3: Snake Eater",
+    "name": "Metal Gear Solid 3: Snake Eater - Первый взгляд",
     "date": "2018-11-20",
-    "games": ["first-2018"],
+    "games": ["mgs-3"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v338345713.ass",
     "note": "<a href=\"https://youtu.be/i51dgX_GZWw\">Официальная запись</a> сломана (недоступно качество выше 360p) <!-- offset=2:16:45 -->"
   },
@@ -13809,7 +13809,6 @@
     "youtube": "WvDcRmGstj0", "abs_start": 0, "abs_end": 27326, "duration": 27326,
     "name": "Yakuza 0 #9 / Lethal Company #2 (4D)",
     "date": "2023-11-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/1986776678.torrent",
     "games": ["yakuza-0", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1986776678.ass"
   },
@@ -14064,5 +14063,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2027362039.torrent",
     "games": ["single-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2027362039.ass"
+  },
+  "2028265580": {
+    "abs_start": 0, "abs_end": 24916, "duration": 24916,
+    "name": "Metal Gear Solid 3: Snake Eater #1",
+    "date": "2024-01-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2028265580.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2028265580.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2028265580.torrent",
+    "games": ["mgs-3"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2028265580.ass"
   }
 }

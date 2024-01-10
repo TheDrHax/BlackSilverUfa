@@ -6414,9 +6414,6 @@
       { "segment": "337051811", "subrefs": [
         { "name": "Pokemon: Let's Go, Pikachu!" }
       ] },
-      { "segment": "338345713.1", "subrefs": [
-        { "name": "Metal Gear Solid 3: Snake Eater" }
-      ] },
       { "segment": "340934900", "subrefs": [
         { "name": "Darksiders 3" }
       ] },
@@ -11960,6 +11957,19 @@
       ] },
       { "segment": "525744926", "subrefs": [
         { "name": "3" }
+      ] }
+    ]
+  },
+  {
+    "name": "Metal Gear Solid 3: Snake Eater",
+    "category": "ongoing",
+    "id": "mgs-3",
+    "streams": [
+      { "segment": "338345713.1", "subrefs": [
+        { "name": "Первый взгляд", "start": 8232 }
+      ] },
+      { "segment": "2028265580", "subrefs": [
+        { "name": "1", "start": 1246 }
       ] }
     ]
   },
