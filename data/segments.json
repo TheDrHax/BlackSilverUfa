@@ -13823,7 +13823,6 @@
     "youtube": "Hu9b1BFedFg", "abs_start": 0, "abs_end": 21286, "duration": 21286,
     "name": "Dark Descent (демо) / Who Are You!? / Who's Lila? / Loggerhead (демо) / I'm on Observation Duty - Часть 4 #3 / Party Animals #8",
     "date": "2023-11-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/1989452096.torrent",
     "games": ["single-2023", "first-2023", "observation-duty", "party-animals"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1989452096.ass"
   },
@@ -14078,5 +14077,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2029188094.torrent",
     "games": ["mgs-3"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2029188094.ass"
+  },
+  "2030125956": {
+    "abs_start": 0, "abs_end": 16682, "duration": 16682,
+    "name": "Metal Gear Solid 3: Snake Eater #3",
+    "date": "2024-01-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2030125956.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2030125956.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2030125956.torrent",
+    "games": ["mgs-3"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2030125956.ass"
   }
 }
