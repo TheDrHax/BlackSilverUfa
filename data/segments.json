@@ -13830,7 +13830,6 @@
     "youtube": "uCoDimh-uAQ", "abs_start": 0, "abs_end": 22679, "duration": 22679,
     "name": "Moonbase Lambda (демо) / Vaudeville #1 / Lethal Company #4 (4D)",
     "date": "2023-11-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/1990296421.torrent",
     "games": ["first-2023", "vaudeville", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1990296421.ass"
   },
@@ -14083,5 +14082,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2030125956.torrent",
     "games": ["mgs-3"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2030125956.ass"
+  },
+  "2032273403": {
+    "abs_start": 0, "abs_end": 23517, "duration": 23517,
+    "name": "Robocop vs Predator / Lethal Company #8 (4D)",
+    "date": "2024-01-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2032273403.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2032273403.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2032273403.torrent",
+    "games": ["first-2024", "lethal-company"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2032273403.ass"
   }
 }

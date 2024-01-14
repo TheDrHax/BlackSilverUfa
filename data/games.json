@@ -798,6 +798,9 @@
       ] },
       { "segment": "2009126367", "subrefs": [
         { "name": "7 (4D)", "start": 8484 }
+      ] },
+      { "segment": "2032273403", "subrefs": [
+        { "name": "8 (4D)", "start": 8414 }
       ] }
     ]
   },
@@ -7615,6 +7618,17 @@
       ] },
       { "segment": "2016955242", "subrefs": [
         { "name": "Inky's Sleep (демо)", "start": 5760 }
+      ] }
+    ]
+  },
+  {
+    "name": "Первый взгляд 2024",
+    "category": "first",
+    "type": "list",
+    "id": "first-2024",
+    "streams": [
+      { "segment": "2032273403", "subrefs": [
+        { "name": "Robocop vs Predator", "start": 5573 }
       ] }
     ]
   },
