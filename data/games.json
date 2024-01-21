@@ -5082,13 +5082,16 @@
         { "name": "Hello, I came to kill you", "start": 4199 }
       ] },
       { "segment": "2001246384", "subrefs": [
-        { "name": "Shhh!", "start": 3616 }
+        { "name": "Shhh! - Morgan's House", "start": 3616 }
       ] },
       { "segment": "2007394703", "subrefs": [
         { "name": "Poop Killer 8", "start": 2587 }
       ] },
       { "segment": "2011805602", "subrefs": [
         { "name": "The Lights Went Out", "start": 1692 }
+      ] },
+      { "segment": "2039280243", "subrefs": [
+        { "name": "Shhh! - Witch Forest", "start": 8023 }
       ] }
     ]
   },
@@ -7635,6 +7638,11 @@
       ] },
       { "segment": "2033253291", "subrefs": [
         { "name": "Serenity: At the Heart of Altai", "start": 2875 }
+      ] },
+      { "segment": "2039280243", "subrefs": [
+        { "name": "Rotten Flesh", "start": 4327 },
+        { "name": "The Descent", "start": 10339 },
+        { "name": "Void Crawler (демо)", "start": 13796 }
       ] }
     ]
   },

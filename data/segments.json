@@ -13846,7 +13846,6 @@
     "youtube": "A4bK2GoJrm0", "abs_start": 0, "abs_end": 23771, "duration": 23771,
     "name": "Kona #2 / Kona II: Brume #1",
     "date": "2023-12-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/1992956397.torrent",
     "games": ["kona", "kona-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1992956397.ass"
   },
@@ -13910,7 +13909,7 @@
   },
   "2001246384": {
     "youtube": "2Pow0OwpVGA", "abs_start": 0, "abs_end": 23695, "duration": 23695,
-    "name": "Shhh! / Lethal Company #6 (4D)",
+    "name": "Shhh! - Morgan's House / Lethal Company #6 (4D)",
     "date": "2023-12-11",
     "torrent": "https://bsufiles.drhx.ru/streams/2001246384.torrent",
     "games": ["616-games", "lethal-company"],
@@ -14099,5 +14098,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2033253291.torrent",
     "games": ["first-2024", "ready-or-not"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2033253291.ass"
+  },
+  "2039280243": {
+    "abs_start": 0, "abs_end": 15960, "duration": 15960,
+    "name": "Rotten Flesh / Shhh! - Witch Forest / The Descent / Void Crawler (демо)",
+    "date": "2024-01-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2039280243.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2039280243.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2039280243.torrent",
+    "games": ["first-2024", "616-games"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2039280243.ass"
   }
 }
