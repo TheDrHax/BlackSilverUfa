@@ -13853,7 +13853,6 @@
     "youtube": "Y2t8qphABtU", "abs_start": 0, "abs_end": 11093, "duration": 11093,
     "name": "Xtract (с Димами)",
     "date": "2023-12-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/1994074198.torrent",
     "games": ["co-op"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1994074198.ass"
   },
@@ -14108,5 +14107,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2039280243.torrent",
     "games": ["first-2024", "616-games"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2039280243.ass"
+  },
+  "2040254115": {
+    "abs_start": 0, "abs_end": 16051, "duration": 16051,
+    "name": "Holidays in Khrushchevsk / Martha's Dolls / False Dream",
+    "date": "2024-01-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2040254115.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2040254115.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2040254115.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2040254115.ass"
   }
 }
