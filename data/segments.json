@@ -12739,10 +12739,10 @@
   },
   "1827232465,1827360298,1827371582,1827392675": {
     "youtube": "Ouk7FqZ-T30", "abs_start": 0, "abs_end": 15862, "duration": 15862,
-    "name": "Amnesia: The Bunker - Демо / Horror Exp+ / The Outlast Trials #2 (с Димами) / Haunted Horror Stories: Gone With The Wind",
+    "name": "Amnesia: The Bunker - Демо / Horror Exp+ / The Outlast Trials #2 (с Димами) / Haunted Horror Stories: Gone With the Wind - Первый взгляд",
     "date": "2023-05-23",
     "offsets": ["0:00", "3:39:05", "3:55:44", "4:16:15"],
-    "games": ["amnesia-bunker", "first-2023", "outlast-trials"],
+    "games": ["amnesia-bunker", "first-2023", "outlast-trials", "hhs-gwtw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1827232465,1827360298,1827371582,1827392675+0.ass"
   },
   "1828030256": {
@@ -13499,9 +13499,9 @@
   },
   "1933948782": {
     "youtube": "uzPkbACFPz4", "abs_start": 0, "abs_end": 18499, "duration": 18499,
-    "name": "Lakefront Restaurant / Stalls of Dread / Endless Blue / Time: A Backrooms Game / Dark Stories: The Workshop / Holstin - Демо 2 / How Fish Is Made - The Last One and Then Another / Pyramid Curse / Martha's Dolls (демо) / Twin Peaks: Into the Night (демо)",
+    "name": "Lakefront Restaurant / Stalls of Dread / Endless Blue / Time: A Backrooms Game / Dark Stories: The Workshop / Holstin - Демо 2 / How Fish Is Made - The Last One and Then Another / Pyramid Curse / Martha's Dolls - Демо / Twin Peaks: Into the Night (демо)",
     "date": "2023-09-24",
-    "games": ["first-2023", "single-2023", "holstin", "hfim"],
+    "games": ["first-2023", "single-2023", "holstin", "hfim", "marthas-dolls"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1933948782.ass"
   },
   "1934826676": {
@@ -13860,7 +13860,6 @@
     "youtube": "rSXcY96-d5I", "abs_start": 0, "abs_end": 19421, "duration": 19421,
     "name": "The Exit 8 / Madhouse Madness / Graveyard Shift / Buried Alive: Breathless Rescue / Fatal Midnight",
     "date": "2023-12-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/1994975780.torrent",
     "games": ["single-2023", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1994975780.ass"
   },
@@ -14110,12 +14109,22 @@
   },
   "2040254115": {
     "abs_start": 0, "abs_end": 16051, "duration": 16051,
-    "name": "Holidays in Khrushchevsk / Martha's Dolls / False Dream",
+    "name": "Holidays in Khrushchevsk / Martha's Dolls - Релиз / False Dream #1",
     "date": "2024-01-22",
     "direct": "https://bsufiles.drhx.ru/streams/2040254115.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2040254115.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2040254115.torrent",
-    "games": ["single-2024", "first-2024"],
+    "games": ["single-2024", "marthas-dolls", "false-dream"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2040254115.ass"
+  },
+  "2041199784": {
+    "abs_start": 0, "abs_end": 15699, "duration": 15699,
+    "name": "Midnight Custody / Callout / Forest Ranger Services / Leave Me Alone! / Haunted Horror Stories: Gone With the Wind - Прохождение / False Dream #2",
+    "date": "2024-01-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2041199784.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2041199784.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2041199784.torrent",
+    "games": ["single-2024", "hhs-gwtw", "false-dream"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2041199784.ass"
   }
 }
