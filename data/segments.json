@@ -13719,7 +13719,6 @@
     "youtube": "1smijBr1jzw", "abs_start": 0, "abs_end": 24629, "duration": 24629,
     "name": "Drive Up / Faith 64 / Buried / Office Paradox / I'm on Observation Duty - Часть 6 #2 / The Invincible #3",
     "date": "2023-11-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/1971837037.torrent",
     "games": ["first-2023", "single-2023", "observation-duty", "invincible"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1971837037.ass"
   },
@@ -13877,7 +13876,6 @@
     "youtube": "XXVnHLxapbI", "abs_start": 0, "abs_end": 19783, "duration": 19783,
     "name": "Kona II: Brume #2",
     "date": "2023-12-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/1996657327.torrent",
     "games": ["kona-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1996657327.ass"
   },
@@ -14120,5 +14118,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2041199784.torrent",
     "games": ["single-2024", "hhs-gwtw", "false-dream"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2041199784.ass"
+  },
+  "2042125818": {
+    "abs_start": 0, "abs_end": 25028, "duration": 25028,
+    "name": "Yakuza 0 #11",
+    "date": "2024-01-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2042125818.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2042125818.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2042125818.torrent",
+    "games": ["yakuza-0"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2042125818.ass"
   }
 }

@@ -9032,7 +9032,7 @@
   },
   {
     "name": "Yakuza 0",
-    "category": "ongoing",
+    "category": "finished",
     "id": "yakuza-0",
     "streams": [
       { "segment": "1598875892", "subrefs": [
@@ -9064,6 +9064,9 @@
       ] },
       { "segment": "1987710775", "subrefs": [
         { "name": "10", "start": 1371 }
+      ] },
+      { "segment": "2042125818", "subrefs": [
+        { "name": "11", "start": 723 }
       ] }
     ]
   },
