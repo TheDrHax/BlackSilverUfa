@@ -7477,8 +7477,7 @@
         { "name": "Vorax", "start": 19359 }
       ] },
       { "segment": "1877734451,1877816047,1877882907", "subrefs": [
-        { "name": "Exoprimal", "start": 1715 },
-        { "name": "Tekken 8 (Closed Network Test)", "start": 13662 }
+        { "name": "Exoprimal", "start": 1715 }
       ] },
       { "segment": "1880378307", "subrefs": [
         { "name": "Chester: Into the Light", "start": 8847 }
@@ -7718,6 +7717,19 @@
       ] },
       { "segment": "2016002631", "subrefs": [
         { "name": "2", "start": 3716 }
+      ] }
+    ]
+  },
+  {
+    "name": "Tekken 8",
+    "category": "ongoing",
+    "id": "tekken-8",
+    "streams": [
+      { "segment": "1877734451,1877816047,1877882907", "subrefs": [
+        { "name": "Closed Network Test", "start": 13662 }
+      ] },
+      { "segment": "2044117184", "subrefs": [
+        { "name": "Релиз", "start": 1665 }
       ] }
     ]
   },
@@ -11349,6 +11361,9 @@
       ] },
       { "segment": "2016002631", "subrefs": [
         { "name": "23", "start": 11239 }
+      ] },
+      { "segment": "2044117184", "subrefs": [
+        { "name": "24", "start": 9550 }
       ] }
     ]
   },

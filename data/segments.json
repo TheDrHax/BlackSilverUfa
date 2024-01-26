@@ -13152,10 +13152,10 @@
   },
   "1877734451,1877816047,1877882907": {
     "youtube": "Fle24eoaJrU", "abs_start": 0, "abs_end": 18988, "duration": 18988,
-    "name": "Exoprimal / Tekken 8 (Closed Network Test)",
+    "name": "Exoprimal / Tekken 8 - Closed Network Test",
     "date": "2023-07-21",
     "offsets": ["0:00", "2:29:47+2", "3:44:15+2"],
-    "games": ["first-2023"],
+    "games": ["first-2023", "tekken-8"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1877734451,1877816047,1877882907+0.ass"
   },
   "1878676339": {
@@ -14126,5 +14126,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2042125818.torrent",
     "games": ["yakuza-0"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2042125818.ass"
+  },
+  "2044117184": {
+    "abs_start": 0, "abs_end": 17121, "duration": 17121,
+    "name": "Tekken 8 - Релиз / SnowRunner #24",
+    "date": "2024-01-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2044117184.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2044117184.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2044117184.torrent",
+    "games": ["tekken-8", "snowrunner"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2044117184.ass"
   }
 }
