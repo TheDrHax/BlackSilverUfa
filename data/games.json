@@ -7544,7 +7544,6 @@
         { "name": "Gennady (демо)", "start": 5680 },
         { "name": "The Talos Principle II (демо)", "start": 5992 },
         { "name": "The Thaumaturge (демо)", "start": 9440 },
-        { "name": "Enshrouded (демо)", "start": 13001 },
         { "name": "The Enjenir (демо)", "start": 14934 }
       ] },
       { "segment": "1951658427", "subrefs": [
@@ -7621,6 +7620,19 @@
       ] },
       { "segment": "2016955242", "subrefs": [
         { "name": "Inky's Sleep (демо)", "start": 5760 }
+      ] }
+    ]
+  },
+  {
+    "name": "Enshrouded",
+    "category": "co-op",
+    "id": "enshrouded",
+    "streams": [
+      { "segment": "1950762078", "subrefs": [
+        { "name": "Демо (соло)", "start": 13001 }
+      ] },
+      { "segment": "2045072225", "subrefs": [
+        { "name": "Релиз", "start": 1623 }
       ] }
     ]
   },

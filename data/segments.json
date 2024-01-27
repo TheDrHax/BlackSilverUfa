@@ -13590,9 +13590,9 @@
   },
   "1950762078": {
     "youtube": "s9G9w7_mU90", "abs_start": 0, "abs_end": 17769, "duration": 17769,
-    "name": "ELDRIMAR (демо) / Gennady (демо) / The Talos Principle II (демо) / Жил-Ячейка (Living Cell) - Демо / The Thaumaturge (демо) / Forgive Me Father 2 (демо) / Enshrouded (демо) / The Enjenir (демо) / Crime Scene Cleaner (демо) #2",
+    "name": "ELDRIMAR (демо) / Gennady (демо) / The Talos Principle II (демо) / Жил-Ячейка (Living Cell) - Демо / The Thaumaturge (демо) / Forgive Me Father 2 (демо) / Enshrouded - Демо (соло) / The Enjenir (демо) / Crime Scene Cleaner (демо) #2",
     "date": "2023-10-14",
-    "games": ["single-2023", "first-2023", "living-cell", "csc"],
+    "games": ["single-2023", "first-2023", "living-cell", "enshrouded", "csc"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1950762078.ass"
   },
   "1951658427": {
@@ -13690,7 +13690,6 @@
     "youtube": "GHx7eakPaLE", "abs_start": 0, "abs_end": 29453, "duration": 29453,
     "name": "Alan Wake II #4",
     "date": "2023-10-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/1964026834.torrent",
     "games": ["alan-wake-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1964026834.ass"
   },
@@ -14136,5 +14135,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2044117184.torrent",
     "games": ["tekken-8", "snowrunner"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2044117184.ass"
+  },
+  "2045072225": {
+    "abs_start": 0, "abs_end": 26716, "duration": 26716,
+    "name": "Enshrouded - Релиз",
+    "date": "2024-01-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2045072225.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2045072225.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2045072225.torrent",
+    "games": ["enshrouded"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2045072225.ass"
   }
 }
