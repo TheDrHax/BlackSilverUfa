@@ -13882,7 +13882,6 @@
     "youtube": "REDiro7Gj-I", "abs_start": 0, "abs_end": 25383, "duration": 25383,
     "name": "Avatar: Frontiers of Pandora",
     "date": "2023-12-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/1997524923.torrent",
     "games": ["first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1997524923.ass"
   },
@@ -14141,5 +14140,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2045072225.torrent",
     "games": ["enshrouded"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2045072225.ass"
+  },
+  "2046157845": {
+    "abs_start": 0, "abs_end": 21626, "duration": 21626,
+    "name": "I'm counting to 6... / LASERS / Minigame Game / Gartic Phone #6 / Gartic #6",
+    "date": "2024-01-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2046157845.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2046157845.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2046157845.torrent",
+    "games": ["single-2024", "co-op", "gartic-phone", "gartic"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2046157845.ass"
   }
 }

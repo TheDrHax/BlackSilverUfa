@@ -728,6 +728,10 @@
         { "name": "Harvest Havoc", "start": 9698 },
         { "name": "Minigame Madness", "start": 11391 },
         { "name": "Kallax", "start": 13017 }
+      ] },
+      { "segment": "2046157845", "subrefs": [
+        { "name": "LASERS", "start": 9129 },
+        { "name": "Minigame Game", "start": 14589 }
       ] }
     ]
   },
@@ -1317,6 +1321,9 @@
       ] },
       { "segment": "2016955242", "subrefs": [
         { "name": "5", "start": 19554 }
+      ] },
+      { "segment": "2046157845", "subrefs": [
+        { "name": "6", "start": 15731 }
       ] }
     ]
   },
@@ -1339,6 +1346,9 @@
       ] },
       { "segment": "2016955242", "subrefs": [
         { "name": "5", "start": 17171 }
+      ] },
+      { "segment": "2046157845", "subrefs": [
+        { "name": "6", "start": 19508 }
       ] }
     ]
   },
@@ -7677,6 +7687,9 @@
         { "name": "Callout", "start": 4649 },
         { "name": "Forest Ranger Services", "start": 5421 },
         { "name": "Leave Me Alone!", "start": 7006 }
+      ] },
+      { "segment": "2046157845", "subrefs": [
+        { "name": "I'm counting to 6...", "start": 2213 }
       ] }
     ]
   },
