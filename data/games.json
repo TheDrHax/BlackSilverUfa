@@ -10477,6 +10477,16 @@
     ]
   },
   {
+    "name": "Like a Dragon: Infinite Wealth",
+    "category": "ongoing",
+    "id": "like-dragon-iw",
+    "streams": [
+      { "segment": "2047046153", "subrefs": [
+        { "name": "1", "start": 936 }
+      ] }
+    ]
+  },
+  {
     "name": "Breathedge",
     "category": "abandoned",
     "id": "breathedge",

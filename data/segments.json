@@ -13897,7 +13897,6 @@
     "youtube": "ML_03zTjiEk", "abs_start": 0, "abs_end": 18085, "duration": 18085,
     "name": "Lethal Company #5 (с Димами) / Nafanya the Poltergeist / Dormant (демо) / Abandoned: Short Message / silkbulb test / Whispering Woods (демо)",
     "date": "2023-12-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2000344386.torrent",
     "games": ["lethal-company", "first-2023", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2000344386.ass"
   },
@@ -13905,7 +13904,6 @@
     "youtube": "2Pow0OwpVGA", "abs_start": 0, "abs_end": 23695, "duration": 23695,
     "name": "Shhh! - Morgan's House / Lethal Company #6 (4D)",
     "date": "2023-12-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2001246384.torrent",
     "games": ["616-games", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2001246384.ass"
   },
@@ -14148,5 +14146,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2046157845.torrent",
     "games": ["single-2024", "co-op", "gartic-phone", "gartic"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2046157845.ass"
+  },
+  "2047046153": {
+    "abs_start": 0, "abs_end": 26350, "duration": 26350,
+    "name": "Like a Dragon: Infinite Wealth #1",
+    "date": "2024-01-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2047046153.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2047046153.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2047046153.torrent",
+    "games": ["like-dragon-iw"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2047046153.ass"
   }
 }
