@@ -14162,5 +14162,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2048089662.torrent",
     "games": ["tekken-8"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2048089662.ass"
+  },
+  "2049365981": {
+    "abs_start": 0, "abs_end": 4969, "duration": 4969,
+    "name": "State of Play - Январь 2024",
+    "date": "2024-02-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2049365981.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2049365981.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2049365981.torrent",
+    "games": ["sony-sop"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2049365981.ass"
   }
 }
