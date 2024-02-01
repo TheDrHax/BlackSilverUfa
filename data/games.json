@@ -5156,6 +5156,9 @@
       ] },
       { "segment": "1314842666", "subrefs": [
         { "name": "Глава 2" }
+      ] },
+      { "segment": "2049927382", "subrefs": [
+        { "name": "1 (заново)", "start": 14724 }
       ] }
     ]
   },
@@ -7693,6 +7696,9 @@
       ] },
       { "segment": "2046157845", "subrefs": [
         { "name": "I'm counting to 6...", "start": 2213 }
+      ] },
+      { "segment": "2049927382", "subrefs": [
+        { "name": "Silent Hill: The Short Message", "start": 4204 }
       ] }
     ]
   },
