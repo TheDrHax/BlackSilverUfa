@@ -13918,7 +13918,6 @@
     "youtube": "6cqWc6wDvCk", "abs_start": 0, "abs_end": 21521, "duration": 21521,
     "name": "Chaperone / Ding Dong Dead / Abiotic Factor #1 (демо, со зрителями) / Hollow Coccoon #2",
     "date": "2023-12-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2002964506.torrent",
     "games": ["first-2023", "single-2023", "abiotic-factor", "hollow-coccoon"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2002964506.ass"
   },
@@ -14177,5 +14176,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2049927382.torrent",
     "games": ["single-2024", "poppy-playtime"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2049927382.ass"
+  },
+  "2050830271": {
+    "abs_start": 0, "abs_end": 22008, "duration": 22008,
+    "name": "Persona 3 Reload",
+    "date": "2024-02-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2050830271.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2050830271.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2050830271.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2050830271.ass"
   }
 }
