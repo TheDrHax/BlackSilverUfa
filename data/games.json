@@ -7674,6 +7674,9 @@
       ] },
       { "segment": "2050830271", "subrefs": [
         { "name": "Persona 3 Reload", "start": 875 }
+      ] },
+      { "segment": "2052963702", "subrefs": [
+        { "name": "Harold Halibut", "start": 17547 }
       ] }
     ]
   },
@@ -7705,6 +7708,19 @@
       ] },
       { "segment": "2049927382", "subrefs": [
         { "name": "Silent Hill: The Short Message", "start": 4204 }
+      ] },
+      { "segment": "2052963702", "subrefs": [
+        { "name": "Anji Implication", "start": 2135 },
+        { "name": "Project 13", "start": 3062 },
+        { "name": "Lamp Post", "start": 5268 },
+        { "name": "SCP: Contamination (демо)", "start": 6342 },
+        { "name": "The Backrooms: Lost Tape", "start": 7700 },
+        { "name": "Nip For Speed", "start": 12195 },
+        { "name": "5 Nights at Grek's Hotel", "start": 12580 },
+        { "name": "5 Nights at Shrek's Hotel", "start": 13908 },
+        { "name": "Subdread", "start": 16193 },
+        { "name": "Jack In The Box", "start": 16951 },
+        { "name": "Mouthwashing (демо)", "start": 17958 }
       ] }
     ]
   },

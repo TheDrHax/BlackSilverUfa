@@ -13932,7 +13932,6 @@
     "youtube": "eRl74SYSrao", "abs_start": 0, "abs_end": 21669, "duration": 21669,
     "name": "Jisatsu / I Love You Freddy #1 / The Dire",
     "date": "2023-12-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2005613219.torrent",
     "games": ["chillas-art", "love-you-freddy", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2005613219.ass"
   },
@@ -14191,5 +14190,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2051914598.torrent",
     "games": ["poppy-playtime"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2051914598.ass"
+  },
+  "2052963702": {
+    "abs_start": 0, "abs_end": 20480, "duration": 20480,
+    "name": "Anji Implication / Project 13 / Lamp Post / SCP: Contamination (демо) / The Backrooms: Lost Tape / Nip For Speed / 5 Nights at Grek's Hotel / 5 Nights at Shrek's Hotel / Subdread / Jack In The Box / Harold Halibut / Mouthwashing (демо)",
+    "date": "2024-02-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2052963702.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2052963702.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2052963702.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2052963702.ass"
   }
 }
