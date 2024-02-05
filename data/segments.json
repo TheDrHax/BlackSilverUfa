@@ -13939,7 +13939,6 @@
     "youtube": "rWxZ1z8HFMQ", "abs_start": 0, "abs_end": 14799, "duration": 14799,
     "name": "Ice Age 2: The Meltdown (Ледниковый период 2: Глобальное потепление) #1",
     "date": "2023-12-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2006538127.torrent",
     "games": ["ice-age-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2006538127.ass"
   },
@@ -14198,5 +14197,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2052963702.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2052963702.ass"
+  },
+  "2053929102": {
+    "abs_start": 0, "abs_end": 19147, "duration": 19147,
+    "name": "Poppy Playtime #3 / Community / MULLET MAD JACK (демо)",
+    "date": "2024-02-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2053929102.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2053929102.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2053929102.torrent",
+    "games": ["poppy-playtime", "616-games", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2053929102.ass"
   }
 }

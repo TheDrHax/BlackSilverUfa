@@ -5104,6 +5104,9 @@
       ] },
       { "segment": "2039280243", "subrefs": [
         { "name": "Shhh! - Witch Forest", "start": 8023 }
+      ] },
+      { "segment": "2053929102", "subrefs": [
+        { "name": "Community", "start": 13744 }
       ] }
     ]
   },
@@ -5148,7 +5151,7 @@
   },
   {
     "name": "Poppy Playtime",
-    "category": "abandoned",
+    "category": "finished",
     "id": "poppy-playtime",
     "streams": [
       { "segment": "1181039582", "subrefs": [
@@ -5162,6 +5165,9 @@
       ] },
       { "segment": "2051914598", "subrefs": [
         { "name": "2", "start": 2365 }
+      ] },
+      { "segment": "2053929102", "subrefs": [
+        { "name": "3", "start": 2051 }
       ] }
     ]
   },
@@ -7677,6 +7683,9 @@
       ] },
       { "segment": "2052963702", "subrefs": [
         { "name": "Harold Halibut", "start": 17547 }
+      ] },
+      { "segment": "2053929102", "subrefs": [
+        { "name": "MULLET MAD JACK (демо)", "start": 17603 }
       ] }
     ]
   },
