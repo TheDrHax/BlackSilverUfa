@@ -1218,9 +1218,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2017@master/v164165380.ass"
   },
   "164633577": {
-    "youtube": "0XeyDh7T0Jw", "abs_start": 0, "abs_end": 15013, "duration": 15013,
+    "abs_start": 0, "abs_end": 15013, "duration": 15013,
     "name": "Resident Evil 4 #1",
     "date": "2017-08-06",
+    "direct": "https://bsufiles.drhx.ru/streams/164633577.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/164633577.mp4/master.m3u8",
     "games": ["re4"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2017@master/v164633577.ass"
   },
@@ -1899,9 +1901,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v233711282.ass"
   },
   "234037742": {
-    "youtube": "7osmQxT12SE", "official": false, "abs_start": 19, "abs_end": 8596, "duration": 8577,
+    "abs_start": 0, "abs_end": 8576, "duration": 8576,
     "name": "Deep Rock Galactic #1",
     "date": "2018-03-01",
+    "direct": "https://bsufiles.drhx.ru/streams/234037742.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/234037742.mp4/master.m3u8",
     "games": ["deep-rock-galactic"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v234037742.ass",
     "note": "Официальная запись <a href=\"https://vk.com/wall-28387068_3201905\">заблокирована</a>."
@@ -5868,11 +5872,9 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v532787117.ass"
   },
   "533269694": {
-    "abs_start": 0, "abs_end": 21587, "duration": 21587,
+    "youtube": "6wVtH0IbfT0", "official": false, "abs_start": 0, "abs_end": 21587, "duration": 21587,
     "name": "Grand Theft Auto: San Andreas #1",
     "date": "2020-01-09",
-    "direct": "https://bsufiles.drhx.ru/streams/533269694.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/533269694.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v533269694.ass"
   },
@@ -13946,7 +13948,6 @@
     "youtube": "Xs06D2VU72E", "abs_start": 0, "abs_end": 21993, "duration": 21993,
     "name": "Poop Killer 8 / I Love You Freddy #2 / Ready or Not #2",
     "date": "2023-12-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2007394703.torrent",
     "games": ["616-games", "love-you-freddy", "ready-or-not"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2007394703.ass"
   },
@@ -13954,7 +13955,6 @@
     "youtube": "8HtpVJ8_6AA", "abs_start": 0, "abs_end": 26755, "duration": 26755,
     "name": "RoboCop: Rogue City #2 / Sanguivore: Twenty Below / Abiotic Factor #2 (4D) / Ready or Not #3",
     "date": "2023-12-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2008212794.torrent",
     "games": ["robocop", "co-op", "abiotic-factor", "ready-or-not"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2008212794.ass"
   },
@@ -14207,5 +14207,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2053929102.torrent",
     "games": ["poppy-playtime", "616-games", "first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2053929102.ass"
+  },
+  "2054830363": {
+    "abs_start": 0, "abs_end": 24869, "duration": 24869,
+    "name": "Pacific Drive (демо) / Lightyear Frontier (демо) / CYGNI: All Guns Blazing (демо) / Star Trucker (демо) / Atomic Heart - Trapped in Limbo",
+    "date": "2024-02-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2054830363.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2054830363.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2054830363.torrent",
+    "games": ["first-2024", "atomic-heart"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2054830363.ass"
   }
 }
