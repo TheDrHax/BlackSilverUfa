@@ -7692,6 +7692,9 @@
         { "name": "Lightyear Frontier (демо)", "start": 8927 },
         { "name": "CYGNI: All Guns Blazing (демо)", "start": 12077 },
         { "name": "Star Trucker (демо)", "start": 15104 }
+      ] },
+      { "segment": "2055762940", "subrefs": [
+        { "name": "Final Fantasy VII Rebirth", "start": 12388 }
       ] }
     ]
   },
@@ -8797,7 +8800,10 @@
         { "name": "Annihilation Instinct #2", "start": 1366 }
       ] },
       { "segment": "2054830363", "subrefs": [
-        { "name": "Trapped in Limbo", "start": 18272 }
+        { "name": "Trapped in Limbo #1", "start": 18272 }
+      ] },
+      { "segment": "2055762940", "subrefs": [
+        { "name": "Trapped in Limbo #2", "start": 12388 }
       ] }
     ]
   },
