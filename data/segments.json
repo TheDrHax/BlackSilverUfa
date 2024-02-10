@@ -13969,7 +13969,6 @@
     "youtube": "T_Ewa4g_Sl8", "abs_start": 0, "abs_end": 23151, "duration": 23151,
     "name": "The Lights Went Out / The Outlast Trials #5 (с тремя Димами) / Revenge Of The Colon",
     "date": "2023-12-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2011805602.torrent",
     "games": ["616-games", "outlast-trials", "single-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2011805602.ass"
   },
@@ -14215,10 +14214,20 @@
   },
   "2055762940": {
     "youtube": "aDeXuwtXx_I", "abs_start": 0, "abs_end": 21950, "duration": 21950,
-    "name": "Atomic Heart - Trapped in Limbo #2 / Final Fantasy VII Rebirth",
+    "name": "Atomic Heart - Trapped in Limbo #2 / Final Fantasy VII Rebirth (демо)",
     "date": "2024-02-07",
     "torrent": "https://bsufiles.drhx.ru/streams/2055762940.torrent",
-    "games": ["atomic-heart", "first-2024"],
+    "games": ["atomic-heart", "single-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2055762940.ass"
+  },
+  "2058685006": {
+    "abs_start": 0, "abs_end": 27838, "duration": 27838,
+    "name": "Islands of Insight (демо) / Outcast: A New Beginning (демо) / Cryptmaster (демо) / Helldivers 2",
+    "date": "2024-02-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2058685006.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2058685006.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2058685006.torrent",
+    "games": ["first-2024", "co-op"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2058685006.ass"
   }
 }

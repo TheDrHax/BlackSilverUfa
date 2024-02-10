@@ -732,6 +732,9 @@
       { "segment": "2046157845", "subrefs": [
         { "name": "LASERS", "start": 9129 },
         { "name": "Minigame Game", "start": 14589 }
+      ] },
+      { "segment": "2058685006", "subrefs": [
+        { "name": "Helldivers 2", "start": 10617 }
       ] }
     ]
   },
@@ -7693,8 +7696,10 @@
         { "name": "CYGNI: All Guns Blazing (демо)", "start": 12077 },
         { "name": "Star Trucker (демо)", "start": 15104 }
       ] },
-      { "segment": "2055762940", "subrefs": [
-        { "name": "Final Fantasy VII Rebirth", "start": 12388 }
+      { "segment": "2058685006", "subrefs": [
+        { "name": "Islands of Insight (демо)", "start": 4283 },
+        { "name": "Outcast: A New Beginning (демо)", "start": 5874 },
+        { "name": "Cryptmaster (демо)", "start": 8281 }
       ] }
     ]
   },
@@ -7739,6 +7744,9 @@
         { "name": "Subdread", "start": 16193 },
         { "name": "Jack In The Box", "start": 16951 },
         { "name": "Mouthwashing (демо)", "start": 17958 }
+      ] },
+      { "segment": "2055762940", "subrefs": [
+        { "name": "Final Fantasy VII Rebirth (демо)", "start": 12388 }
       ] }
     ]
   },
