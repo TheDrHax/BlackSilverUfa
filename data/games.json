@@ -732,9 +732,19 @@
       { "segment": "2046157845", "subrefs": [
         { "name": "LASERS", "start": 9129 },
         { "name": "Minigame Game", "start": 14589 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Helldivers 2",
+    "category": "co-op",
+    "id": "helldivers-2",
+    "streams": [
       { "segment": "2058685006", "subrefs": [
-        { "name": "Helldivers 2", "start": 10617 }
+        { "name": "1", "start": 10617 }
+      ] },
+      { "segment": "2059745251", "subrefs": [
+        { "name": "2", "start": 5945 }
       ] }
     ]
   },
@@ -780,6 +790,9 @@
       ] },
       { "segment": "2033253291", "subrefs": [
         { "name": "4", "start": 7968 }
+      ] },
+      { "segment": "2059745251", "subrefs": [
+        { "name": "5", "start": 18480 }
       ] }
     ]
   },
@@ -7700,6 +7713,11 @@
         { "name": "Islands of Insight (демо)", "start": 4283 },
         { "name": "Outcast: A New Beginning (демо)", "start": 5874 },
         { "name": "Cryptmaster (демо)", "start": 8281 }
+      ] },
+      { "segment": "2059745251", "subrefs": [
+        { "name": "Level Unknown: Backrooms (демо)", "start": 2482 },
+        { "name": "Backrooms (демо)", "start": 4051 },
+        { "name": "Homeworld 3 (демо)", "start": 4422 }
       ] }
     ]
   },
