@@ -7718,6 +7718,9 @@
         { "name": "Level Unknown: Backrooms (демо)", "start": 2482 },
         { "name": "Backrooms (демо)", "start": 4051 },
         { "name": "Homeworld 3 (демо)", "start": 4422 }
+      ] },
+      { "segment": "2060617824", "subrefs": [
+        { "name": "God of War (2005)", "start": 2412 }
       ] }
     ]
   },
@@ -14257,7 +14260,7 @@
     ]
   },
   {
-    "name": "God of War",
+    "name": "God of War (2018)",
     "category": "finished",
     "id": "god-of-war",
     "streams": [
