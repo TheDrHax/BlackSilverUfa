@@ -13997,7 +13997,6 @@
     "youtube": "80eoJ5DdSpQ", "abs_start": 0, "abs_end": 22071, "duration": 22071,
     "name": "Ai korosu yori, Ai korosaretai (Пусть лучше меня убьёт любовь, чем я убью её) #2 / SnowRunner #23",
     "date": "2023-12-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2016002631.torrent",
     "games": ["ai-korosu-yori", "snowrunner"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2016002631.ass"
   },
@@ -14240,5 +14239,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2060617824.torrent",
     "games": ["first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2060617824.ass"
+  },
+  "2061535064": {
+    "abs_start": 0, "abs_end": 22114, "duration": 22114,
+    "name": "Banishers: Ghosts of New Eden",
+    "date": "2024-02-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2061535064.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2061535064.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2061535064.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2061535064.ass"
   }
 }
