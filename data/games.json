@@ -5891,6 +5891,9 @@
       ] },
       { "segment": "2018850210", "subrefs": [
         { "name": "Новый год 2024 (клипы)" }
+      ] },
+      { "segment": "2068467078", "subrefs": [
+        { "name": "Тестовый стрим (20.02.24)" }
       ] }
     ]
   },
@@ -8428,7 +8431,7 @@
   },
   {
     "name": "Voices of the Void (демо)",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "votv",
     "streams": [
       { "segment": "1959105799", "subrefs": [
