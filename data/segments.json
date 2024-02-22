@@ -13865,7 +13865,6 @@
     "youtube": "R8Bjbd5PASM", "official": false, "abs_start": 0, "abs_end": 21252, "duration": 21252,
     "name": "They Are Back! / Evil Water (демо) / Let's Find Larry! / The Wanted Man's House / Chitin / Fortress / This House Is Not A Home / I'm on Observation Duty - Часть 4 #4",
     "date": "2023-12-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/1995822970.torrent",
     "games": ["single-2023", "first-2023", "observation-duty"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1995822970.ass"
   },
@@ -13887,7 +13886,6 @@
     "youtube": "3sfa04A6qU0", "abs_start": 0, "abs_end": 19718, "duration": 19718,
     "name": "Party Animals #9 / The Game Awards #2023 (обзор) / Skull Island: Rise of Kong",
     "date": "2023-12-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/1999409596.torrent",
     "games": ["party-animals", "tga", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1999409596.ass"
   },
@@ -14267,5 +14265,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2069337431.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2069337431.ass"
+  },
+  "2070293042": {
+    "abs_start": 0, "abs_end": 22050, "duration": 22050,
+    "name": "Pools (демо) / IFU / Quod: Episode 1 / Lazaret",
+    "date": "2024-02-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2070293042.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2070293042.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2070293042.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2070293042.ass"
   }
 }
