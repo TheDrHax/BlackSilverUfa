@@ -11408,9 +11408,9 @@
   },
   "1607244038": {
     "youtube": "fl-l8EVRTRM", "abs_start": 0, "abs_end": 26520, "duration": 26520,
-    "name": "Scorn - Пролог / Go Home Annie: An SCP Game (демо) / Convenient / Lazaret (демо) / Late Night Mop / The Death: Than Trung",
+    "name": "Scorn - Пролог / Go Home Annie: An SCP Game (демо) / Convenient / Lazaret - Демо / Late Night Mop / The Death: Than Trung",
     "date": "2022-10-02",
-    "games": ["scorn", "single-2022"],
+    "games": ["scorn", "single-2022", "lazaret"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2022@master/v1607244038.ass"
   },
   "1608110648": {
@@ -12272,14 +12272,14 @@
   },
   "1750602082": {
     "youtube": "o7XqFZ0cedA", "abs_start": 0, "abs_end": 32741, "duration": 32741,
-    "name": "Sons of the Forest (с Дашей и Джеком) #1",
+    "name": "Sons of the Forest #1 (с Дашей и Джеком)",
     "date": "2023-02-27",
     "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1750602082.ass"
   },
   "1751502984": {
     "youtube": "7eGP-tCL03U", "official": false, "abs_start": 0, "abs_end": 34182, "duration": 34182,
-    "name": "Sons of the Forest (с Дашей и Джеком) #2",
+    "name": "Sons of the Forest #2",
     "date": "2023-02-28",
     "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1751502984.ass",
@@ -12287,7 +12287,7 @@
   },
   "1752454738": {
     "youtube": "GnrK5OMIAV0", "official": false, "abs_start": 0, "abs_end": 28026, "duration": 28026,
-    "name": "Sons of the Forest (с Дашей и Джеком) #3",
+    "name": "Sons of the Forest #3",
     "date": "2023-03-01",
     "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1752454738+0.ass",
@@ -13998,7 +13998,6 @@
     "youtube": "3EqpJt1yrBY", "abs_start": 0, "abs_end": 22625, "duration": 22625,
     "name": "Star Wars Deathroopers (демо) / Buckshot Roulette / Inky's Sleep (демо) / Harvest Havoc / Minigame Madness / Kallax / The Greatest Penguin Heist of All Time #2 / Gartic #5 / Gartic Phone #5",
     "date": "2023-12-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2016955242.torrent",
     "games": ["single-2023", "first-2023", "co-op", "penguin-heist", "gartic", "gartic-phone"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2016955242.ass"
   },
@@ -14196,10 +14195,10 @@
   },
   "2054830363": {
     "youtube": "GHxexhIU7a4", "abs_start": 0, "abs_end": 24870, "duration": 24870,
-    "name": "Pacific Drive (демо) / Lightyear Frontier (демо) / CYGNI: All Guns Blazing (демо) / Star Trucker (демо) / Atomic Heart - Trapped in Limbo #1",
+    "name": "Pacific Drive - Демо / Lightyear Frontier (демо) / CYGNI: All Guns Blazing (демо) / Star Trucker (демо) / Atomic Heart - Trapped in Limbo #1",
     "date": "2024-02-06",
     "torrent": "https://bsufiles.drhx.ru/streams/2054830363.torrent",
-    "games": ["first-2024", "atomic-heart"],
+    "games": ["pacific-drive", "first-2024", "atomic-heart"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2054830363.ass"
   },
   "2055762940": {
@@ -14268,10 +14267,20 @@
   },
   "2070293042": {
     "youtube": "PV5c1jpMU8Y", "abs_start": 0, "abs_end": 22050, "duration": 22050,
-    "name": "Pools (демо) / IFU / Quod: Episode 1 / Lazaret",
+    "name": "Pools (демо) / IFU / Quod: Episode 1 / Lazaret #1",
     "date": "2024-02-22",
     "torrent": "https://bsufiles.drhx.ru/streams/2070293042.torrent",
-    "games": ["single-2024", "first-2024"],
+    "games": ["single-2024", "first-2024", "lazaret"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2070293042.ass"
+  },
+  "2071202910": {
+    "abs_start": 0, "abs_end": 31968, "duration": 31968,
+    "name": "Lazaret #2 / Pacific Drive - Релиз / Sons of the Forest #1 (4D)",
+    "date": "2024-02-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2071202910.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2071202910.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2071202910.torrent",
+    "games": ["lazaret", "pacific-drive", "sons-forest"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2071202910.ass"
   }
 }

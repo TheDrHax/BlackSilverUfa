@@ -910,18 +910,21 @@
     ]
   },
   {
-    "name": "Sons of the Forest (с Дашей и Джеком)",
+    "name": "Sons of the Forest",
     "category": "finished",
     "id": "sons-forest",
     "streams": [
       { "segment": "1750602082", "subrefs": [
-        { "name": "1", "start": 1326 }
+        { "name": "1 (с Дашей и Джеком)", "start": 1326 }
       ] },
       { "segment": "1751502984", "subrefs": [
         { "name": "2", "start": 207 }
       ] },
       { "segment": "1752454738", "subrefs": [
         { "name": "3", "start": 1053 }
+      ] },
+      { "segment": "2071202910", "subrefs": [
+        { "name": "1 (4D)", "start": 15401 }
       ] }
     ]
   },
@@ -4286,7 +4289,6 @@
       { "segment": "1607244038", "subrefs": [
         { "name": "Go Home Annie: An SCP Game (демо)", "start": 6453 },
         { "name": "Convenient", "start": 9725 },
-        { "name": "Lazaret (демо)", "start": 12289 },
         { "name": "Late Night Mop", "start": 15360 },
         { "name": "The Death: Than Trung", "start": 16371 }
       ] },
@@ -7707,7 +7709,6 @@
         { "name": "MULLET MAD JACK (демо)", "start": 17603 }
       ] },
       { "segment": "2054830363", "subrefs": [
-        { "name": "Pacific Drive (демо)", "start": 1881 },
         { "name": "Lightyear Frontier (демо)", "start": 8927 },
         { "name": "CYGNI: All Guns Blazing (демо)", "start": 12077 },
         { "name": "Star Trucker (демо)", "start": 15104 }
@@ -7736,8 +7737,36 @@
         { "name": "Escape Floor Zero", "start": 10532 }
       ] },
       { "segment": "2070293042", "subrefs": [
-        { "name": "IFU", "start": 4469 },
-        { "name": "Lazaret", "start": 14212 }
+        { "name": "IFU", "start": 4469 }
+      ] }
+    ]
+  },
+  {
+    "name": "Lazaret",
+    "category": "finished",
+    "id": "lazaret",
+    "streams": [
+      { "segment": "1607244038", "subrefs": [
+        { "name": "Демо", "start": 12289 }
+      ] },
+      { "segment": "2070293042", "subrefs": [
+        { "name": "1", "start": 14212 }
+      ] },
+      { "segment": "2071202910", "subrefs": [
+        { "name": "2", "start": 1359 }
+      ] }
+    ]
+  },
+  {
+    "name": "Pacific Drive",
+    "category": "ongoing",
+    "id": "pacific-drive",
+    "streams": [
+      { "segment": "2054830363", "subrefs": [
+        { "name": "Демо", "start": 1881 }
+      ] },
+      { "segment": "2071202910", "subrefs": [
+        { "name": "Релиз", "start": 9156 }
       ] }
     ]
   },
