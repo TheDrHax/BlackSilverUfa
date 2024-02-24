@@ -14005,7 +14005,6 @@
     "youtube": "UsYRlBL8sxs", "abs_start": 0, "abs_end": 15159, "duration": 15159,
     "name": "Santy Is Home / Krampus of Kirkwall / How to Build a Snowman / Slay Bells / The Baby in Yellow - Christmas Chapter #1",
     "date": "2023-12-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2017906776.torrent",
     "games": ["single-2023", "baby-in-yellow"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2017906776+0.ass"
   },
@@ -14013,7 +14012,6 @@
     "youtube": "Fs3vz8Jk4ww", "abs_start": 0, "abs_end": 17191, "duration": 17191,
     "name": "Новый год 2024 (клипы)",
     "date": "2023-12-31",
-    "torrent": "https://bsufiles.drhx.ru/streams/2018850210.torrent",
     "games": ["other"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v2018850210.ass"
   },
@@ -14282,5 +14280,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2071202910.torrent",
     "games": ["lazaret", "pacific-drive", "sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2071202910.ass"
+  },
+  "2072210740": {
+    "abs_start": 0, "abs_end": 31329, "duration": 31329,
+    "name": "Sons of the Forest #2",
+    "date": "2024-02-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2072210740.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2072210740.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2072210740.torrent",
+    "games": ["sons-forest"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2072210740+0.ass"
   }
 }
