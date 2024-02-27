@@ -14047,7 +14047,6 @@
     "youtube": "0vw5yCOEtVc", "abs_start": 0, "abs_end": 16683, "duration": 16683,
     "name": "Metal Gear Solid 3: Snake Eater #3",
     "date": "2024-01-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2030125956.torrent",
     "games": ["mgs-3"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2030125956.ass"
   },
@@ -14055,7 +14054,6 @@
     "youtube": "m8s41y8LcQY", "abs_start": 0, "abs_end": 23517, "duration": 23517,
     "name": "Robocop vs Predator / Lethal Company #8 (4D)",
     "date": "2024-01-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2032273403.torrent",
     "games": ["first-2024", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2032273403.ass"
   },
@@ -14311,5 +14309,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2073244711,2073549184.torrent",
     "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2073244711,2073549184+0.ass"
+  },
+  "2075109744": {
+    "abs_start": 0, "abs_end": 30406, "duration": 30406,
+    "name": "Sons of the Forest #4",
+    "date": "2024-02-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2075109744.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2075109744.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2075109744.torrent",
+    "games": ["sons-forest"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2075109744.ass"
   }
 }
