@@ -14061,7 +14061,6 @@
     "youtube": "gsCGlli_ZNA", "abs_start": 0, "abs_end": 21524, "duration": 21524,
     "name": "Serenity: At the Heart of Altai / Ready or Not #4",
     "date": "2024-01-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2033253291.torrent",
     "games": ["first-2024", "ready-or-not"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2033253291.ass"
   },
@@ -14317,5 +14316,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2075109744.torrent",
     "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2075109744.ass"
+  },
+  "2076061096": {
+    "abs_start": 0, "abs_end": 23468, "duration": 23468,
+    "name": "Sons of the Forest #5",
+    "date": "2024-02-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2076061096.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2076061096.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2076061096.torrent",
+    "games": ["sons-forest"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2076061096+0.ass"
   }
 }
