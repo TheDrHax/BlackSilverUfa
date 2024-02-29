@@ -7824,9 +7824,6 @@
         { "name": "Jack In The Box", "start": 16951 },
         { "name": "Mouthwashing (демо)", "start": 17958 }
       ] },
-      { "segment": "2055762940", "subrefs": [
-        { "name": "Final Fantasy VII Rebirth (демо)", "start": 12388 }
-      ] },
       { "segment": "2069337431", "subrefs": [
         { "name": "Backrooms: The Project (демо)", "start": 4195 },
         { "name": "Within the Unknown", "start": 8470 },
@@ -7835,6 +7832,19 @@
       { "segment": "2070293042", "subrefs": [
         { "name": "Pools (демо)", "start": 2910 },
         { "name": "Quod: Episode 1", "start": 7510 }
+      ] }
+    ]
+  },
+  {
+    "name": "Final Fantasy VII Rebirth",
+    "category": "ongoing",
+    "id": "ff-vii-rebirth",
+    "streams": [
+      { "segment": "2055762940", "subrefs": [
+        { "name": "Демо", "start": 12388 }
+      ] },
+      { "segment": "2076970270", "subrefs": [
+        { "name": "1", "start": 625 }
       ] }
     ]
   },
