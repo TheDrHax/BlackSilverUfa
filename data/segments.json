@@ -14082,7 +14082,6 @@
     "youtube": "JT30jpQEAc8", "abs_start": 0, "abs_end": 15700, "duration": 15700,
     "name": "Midnight Custody / Callout / Forest Ranger Services / Leave Me Alone! / Haunted Horror Stories: Gone With the Wind - Прохождение / False Dream #2",
     "date": "2024-01-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2041199784.torrent",
     "games": ["single-2024", "hhs-gwtw", "false-dream"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2041199784.ass"
   },
@@ -14340,5 +14339,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2077908803.torrent",
     "games": ["ff-vii-rebirth"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2077908803.ass"
+  },
+  "2080031749": {
+    "abs_start": 0, "abs_end": 19943, "duration": 19943,
+    "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье)",
+    "date": "2024-03-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2080031749.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2080031749.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2080031749.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2080031749.ass"
   }
 }
