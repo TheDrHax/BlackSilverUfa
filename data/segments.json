@@ -14089,7 +14089,6 @@
     "youtube": "hJYEogAQ2Wg", "abs_start": 0, "abs_end": 25028, "duration": 25028,
     "name": "Yakuza 0 #11",
     "date": "2024-01-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2042125818.torrent",
     "games": ["yakuza-0"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2042125818.ass"
   },
@@ -14347,5 +14346,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2080031749.torrent",
     "games": ["first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2080031749.ass"
+  },
+  "2080976588": {
+    "abs_start": 0, "abs_end": 20670, "duration": 20670,
+    "name": "Death Motel / Meat / When The Devil Takes Hold (демо) / Crawl / Kitty Kart 64 / A Night on the Farm",
+    "date": "2024-03-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2080976588.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2080976588.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2080976588.torrent",
+    "games": ["single-2024", "616-games"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2080976588.ass"
   }
 }
