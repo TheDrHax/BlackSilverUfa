@@ -7756,6 +7756,12 @@
       ] },
       { "segment": "2080031749", "subrefs": [
         { "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье)", "start": 3379 }
+      ] },
+      { "segment": "2081886159", "subrefs": [
+        { "name": "Fossilfuel 2", "start": 1846 },
+        { "name": "Expeditions: A MudRunner Game", "start": 7165 },
+        { "name": "Quiet Farm", "start": 11531 },
+        { "name": "The Zhukov Line", "start": 18339 }
       ] }
     ]
   },
@@ -7845,6 +7851,9 @@
         { "name": "Crawl", "start": 11749 },
         { "name": "Kitty Kart 64", "start": 13360 },
         { "name": "A Night on the Farm", "start": 14797 }
+      ] },
+      { "segment": "2081886159", "subrefs": [
+        { "name": "My Dear Neighbor, Edition 404 (демо)", "start": 16287 }
       ] }
     ]
   },
