@@ -6877,9 +6877,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v669777336.ass"
   },
   "670671274": {
-    "youtube": "tk6wCquZtvk", "official": false, "abs_start": 0, "abs_end": 26229, "duration": 26229,
+    "abs_start": 0, "abs_end": 26229, "duration": 26229,
     "name": "Winx Club",
     "date": "2020-07-05",
+    "direct": "https://bsufiles.drhx.ru/streams/670671274.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/670671274.mp4/master.m3u8",
     "games": ["single-2020"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v670671274.ass"
   },
@@ -14103,7 +14105,6 @@
     "youtube": "6cfvAA2aJls", "abs_start": 0, "abs_end": 26717, "duration": 26717,
     "name": "Enshrouded - Релиз",
     "date": "2024-01-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2045072225.torrent",
     "games": ["enshrouded"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2045072225.ass"
   },
