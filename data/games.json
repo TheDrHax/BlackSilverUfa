@@ -7762,6 +7762,10 @@
         { "name": "Expeditions: A MudRunner Game", "start": 7165 },
         { "name": "Quiet Farm", "start": 11531 },
         { "name": "The Zhukov Line", "start": 18339 }
+      ] },
+      { "segment": "2083745262", "subrefs": [
+        { "name": "A Difficult Game About Climbing", "start": 14741 },
+        { "name": "Samosbor", "start": 50013 }
       ] }
     ]
   },
@@ -7854,6 +7858,10 @@
       ] },
       { "segment": "2081886159", "subrefs": [
         { "name": "My Dear Neighbor, Edition 404 (демо)", "start": 16287 }
+      ] },
+      { "segment": "2083745262", "subrefs": [
+        { "name": "YOKO", "start": 4935 },
+        { "name": "Backrooms Rec. (демо)", "start": 11168 }
       ] }
     ]
   },

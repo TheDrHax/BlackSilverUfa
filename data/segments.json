@@ -14112,7 +14112,6 @@
     "youtube": "5z5HNwmAuZY", "abs_start": 0, "abs_end": 21627, "duration": 21627,
     "name": "I'm counting to 6... / LASERS / Minigame Game / Gartic Phone #6 / Gartic #6",
     "date": "2024-01-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2046157845.torrent",
     "games": ["single-2024", "co-op", "gartic-phone", "gartic"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2046157845.ass"
   },
@@ -14364,5 +14363,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2081886159.torrent",
     "games": ["first-2024", "single-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2081886159+0.ass"
+  },
+  "2083745262": {
+    "abs_start": 0, "abs_end": 20718, "duration": 20718,
+    "name": "YOKO / Backrooms Rec. (демо) / A Difficult Game About Climbing / Samosbor",
+    "date": "2024-03-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2083745262.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2083745262.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2083745262.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2083745262+0.ass"
   }
 }
