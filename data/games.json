@@ -7754,9 +7754,6 @@
       { "segment": "2070293042", "subrefs": [
         { "name": "IFU", "start": 4469 }
       ] },
-      { "segment": "2080031749", "subrefs": [
-        { "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье)", "start": 3379 }
-      ] },
       { "segment": "2081886159", "subrefs": [
         { "name": "Fossilfuel 2", "start": 1846 },
         { "name": "Expeditions: A MudRunner Game", "start": 7165 },
@@ -7764,8 +7761,36 @@
         { "name": "The Zhukov Line", "start": 18339 }
       ] },
       { "segment": "2083745262", "subrefs": [
-        { "name": "A Difficult Game About Climbing", "start": 14741 },
         { "name": "Samosbor", "start": 50013 }
+      ] },
+      { "segment": "2085706176", "subrefs": [
+        { "name": "Snow Plowing Simulator", "start": 12342 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье)",
+    "category": "finished",
+    "id": "nancy-drew-lttbmc",
+    "streams": [
+      { "segment": "2080031749", "subrefs": [
+        { "name": "1", "start": 3379 }
+      ] },
+      { "segment": "2085706176", "subrefs": [
+        { "name": "2", "start": 2354 }
+      ] }
+    ]
+  },
+  {
+    "name": "A Difficult Game About Climbing",
+    "category": "ongoing",
+    "id": "climbing-game",
+    "streams": [
+      { "segment": "2083745262", "subrefs": [
+        { "name": "1", "start": 14741 }
+      ] },
+      { "segment": "2085706176", "subrefs": [
+        { "name": "2", "start": 13451 }
       ] }
     ]
   },

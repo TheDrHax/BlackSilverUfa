@@ -14340,10 +14340,10 @@
   },
   "2080031749": {
     "youtube": "yBPcXdm6YvQ", "abs_start": 0, "abs_end": 19944, "duration": 19944,
-    "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье)",
+    "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье) #1",
     "date": "2024-03-03",
     "torrent": "https://bsufiles.drhx.ru/streams/2080031749.torrent",
-    "games": ["first-2024"],
+    "games": ["nancy-drew-lttbmc"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2080031749.ass"
   },
   "2080976588": {
@@ -14366,12 +14366,22 @@
   },
   "2083745262": {
     "abs_start": 0, "abs_end": 20718, "duration": 20718,
-    "name": "YOKO / Backrooms Rec. (демо) / A Difficult Game About Climbing / Samosbor",
+    "name": "YOKO / Backrooms Rec. (демо) / A Difficult Game About Climbing #1 / Samosbor",
     "date": "2024-03-07",
     "direct": "https://bsufiles.drhx.ru/streams/2083745262.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2083745262.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2083745262.torrent",
-    "games": ["single-2024", "first-2024"],
+    "games": ["single-2024", "climbing-game", "first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2083745262+0.ass"
+  },
+  "2085706176": {
+    "abs_start": 0, "abs_end": 17094, "duration": 17094,
+    "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье) #2 / Snow Plowing Simulator / A Difficult Game About Climbing #2",
+    "date": "2024-03-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2085706176.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2085706176.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2085706176.torrent",
+    "games": ["nancy-drew-lttbmc", "first-2024", "climbing-game"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2085706176.ass"
   }
 }
