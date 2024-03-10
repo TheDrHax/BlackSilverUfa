@@ -7760,7 +7760,7 @@
         { "name": "Quiet Farm", "start": 11531 },
         { "name": "The Zhukov Line", "start": 18339 }
       ] },
-      { "segment": "2083745262", "subrefs": [
+      { "segment": "2083745262.1", "subrefs": [
         { "name": "Samosbor", "start": 50013 }
       ] },
       { "segment": "2085706176", "subrefs": [
@@ -7786,7 +7786,7 @@
     "category": "ongoing",
     "id": "climbing-game",
     "streams": [
-      { "segment": "2083745262", "subrefs": [
+      { "segment": "2083745262.1", "subrefs": [
         { "name": "1", "start": 14741 }
       ] },
       { "segment": "2085706176", "subrefs": [
