@@ -14119,7 +14119,6 @@
     "youtube": "ukW2xvbjQLk", "abs_start": 0, "abs_end": 26350, "duration": 26350,
     "name": "Like a Dragon: Infinite Wealth #1",
     "date": "2024-01-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2047046153.torrent",
     "games": ["like-dragon-iw"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2047046153.ass"
   },
@@ -14363,23 +14362,12 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2081886159+0.ass"
   },
   "2083745262": {
-    "youtube": "Q3RXTnMP2lA", "abs_start": 0, "abs_end": 20778, "duration": 20718,
-    "name": "YOKO / Backrooms Rec. (демо)",
+    "youtube": "Q3RXTnMP2lA", "abs_start": 0, "abs_end": 20718, "duration": 20718,
+    "name": "YOKO / Backrooms Rec. (демо) / Samosbor / A Difficult Game About Climbing #1",
     "date": "2024-03-07",
-    "cuts": [[2818, 2878]],
     "torrent": "https://bsufiles.drhx.ru/streams/2083745262.torrent",
-    "games": ["single-2024"],
+    "games": ["single-2024", "first-2024", "climbing-game"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2083745262+0.ass"
-  },
-  "2083745262.1": {
-    "abs_start": 0, "abs_end": 20718, "duration": 20718,
-    "name": "A Difficult Game About Climbing #1 / Samosbor",
-    "date": "2024-03-07",
-    "direct": "https://bsufiles.drhx.ru/streams/2083745262.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2083745262.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2083745262.torrent",
-    "games": ["climbing-game", "first-2024"],
-    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2083745262+1.ass"
   },
   "2085706176": {
     "youtube": "SsY8W4o2CO8", "abs_start": 0, "abs_end": 17094, "duration": 17094,
@@ -14388,5 +14376,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2085706176.torrent",
     "games": ["nancy-drew-lttbmc", "first-2024", "climbing-game"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2085706176.ass"
+  },
+  "2086750139": {
+    "abs_start": 0, "abs_end": 20425, "duration": 20425,
+    "name": "Elevator Zero / Trust the Watchers / Midnight Monitor: Aldercourt / Perfect Spot / Barbotine / Hospital 666 / The Last Monday / The Earl Street Massacre / Irritated Mind: Fear of Warehouse (демо)",
+    "date": "2024-03-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2086750139.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2086750139.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2086750139.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2086750139.ass"
   }
 }

@@ -7760,11 +7760,15 @@
         { "name": "Quiet Farm", "start": 11531 },
         { "name": "The Zhukov Line", "start": 18339 }
       ] },
-      { "segment": "2083745262.1", "subrefs": [
-        { "name": "Samosbor", "start": 50013 }
+      { "segment": "2083745262", "subrefs": [
+        { "name": "Samosbor", "start": 14013 }
       ] },
       { "segment": "2085706176", "subrefs": [
         { "name": "Snow Plowing Simulator", "start": 12342 }
+      ] },
+      { "segment": "2086750139", "subrefs": [
+        { "name": "Hospital 666", "start": 13094 },
+        { "name": "Irritated Mind: Fear of Warehouse (демо)", "start": 18455 }
       ] }
     ]
   },
@@ -7786,7 +7790,7 @@
     "category": "ongoing",
     "id": "climbing-game",
     "streams": [
-      { "segment": "2083745262.1", "subrefs": [
+      { "segment": "2083745262", "subrefs": [
         { "name": "1", "start": 14741 }
       ] },
       { "segment": "2085706176", "subrefs": [
@@ -7887,6 +7891,15 @@
       { "segment": "2083745262", "subrefs": [
         { "name": "YOKO", "start": 4935 },
         { "name": "Backrooms Rec. (демо)", "start": 11168 }
+      ] },
+      { "segment": "2086750139", "subrefs": [
+        { "name": "Elevator Zero", "start": 4466 },
+        { "name": "Trust the Watchers", "start": 7587 },
+        { "name": "Midnight Monitor: Aldercourt", "start": 8224 },
+        { "name": "Perfect Spot", "start": 10976 },
+        { "name": "Barbotine", "start": 11679 },
+        { "name": "The Last Monday", "start": 13801 },
+        { "name": "The Earl Street Massacre", "start": 17502 }
       ] }
     ]
   },
