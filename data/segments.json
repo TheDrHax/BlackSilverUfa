@@ -7801,7 +7801,7 @@
   },
   "843955454": {
     "youtube": "aaOU6gqLE20", "abs_start": 0, "abs_end": 21737, "duration": 21737,
-    "name": "Demon's Souls Remake #1 (заново, с миньонами (кооп не найден)) / Dino Crisis #1",
+    "name": "Demon's Souls Remake #1 (заново 2, с миньонами (кооп не найден)) / Dino Crisis #1",
     "date": "2020-12-20",
     "games": ["demons-souls-remake", "dino-crisis"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v843955454.ass"
@@ -14126,7 +14126,6 @@
     "youtube": "IgVXJkjEwoQ", "abs_start": 0, "abs_end": 10804, "duration": 10804,
     "name": "Tekken 8 #2",
     "date": "2024-01-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2048089662.torrent",
     "games": ["tekken-8"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2048089662.ass"
   },
@@ -14134,7 +14133,6 @@
     "youtube": "yXbi3N2IBMc", "abs_start": 0, "abs_end": 4970, "duration": 4970,
     "name": "State of Play - Январь 2024",
     "date": "2024-02-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2049365981.torrent",
     "games": ["sony-sop"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2049365981.ass"
   },
@@ -14142,7 +14140,6 @@
     "youtube": "YCUoaUTI84o", "abs_start": 0, "abs_end": 21833, "duration": 21833,
     "name": "Silent Hill: The Short Message / Poppy Playtime #1 (заново)",
     "date": "2024-02-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2049927382.torrent",
     "games": ["single-2024", "poppy-playtime"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2049927382.ass"
   },
@@ -14150,7 +14147,6 @@
     "youtube": "A7r7hw7UpQU", "abs_start": 0, "abs_end": 22008, "duration": 22008,
     "name": "Persona 3 Reload",
     "date": "2024-02-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2050830271.torrent",
     "games": ["first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2050830271.ass"
   },
@@ -14384,5 +14380,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2086750139.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2086750139.ass"
+  },
+  "2087633256": {
+    "abs_start": 0, "abs_end": 28550, "duration": 28550,
+    "name": "Demon's Souls Remake #1 (заново 3)",
+    "date": "2024-03-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2087633256.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2087633256.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2087633256.torrent",
+    "games": ["demons-souls-remake"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2087633256+0.ass"
   }
 }
