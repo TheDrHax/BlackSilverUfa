@@ -14390,5 +14390,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2087633256.torrent",
     "games": ["demons-souls-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2087633256+0.ass"
+  },
+  "2088572261": {
+    "abs_start": 0, "abs_end": 21605, "duration": 21605,
+    "name": "Demon's Souls Remake #2",
+    "date": "2024-03-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2088572261.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2088572261.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2088572261.torrent",
+    "games": ["demons-souls-remake"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2088572261.ass"
   }
 }

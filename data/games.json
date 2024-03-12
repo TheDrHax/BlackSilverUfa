@@ -8015,7 +8015,7 @@
   },
   {
     "name": "Vaudeville",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "vaudeville",
     "streams": [
       { "segment": "1990296421", "subrefs": [
@@ -11035,6 +11035,9 @@
       ] },
       { "segment": "2087633256", "subrefs": [
         { "name": "1 (заново 3)", "start": 887 }
+      ] },
+      { "segment": "2088572261", "subrefs": [
+        { "name": "2", "start": 860 }
       ] }
     ]
   },
