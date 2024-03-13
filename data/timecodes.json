@@ -694,6 +694,7 @@
       "4:01~8:31": "Aerosmith - Fly Away From Here",
       "32:24~34:03": "Darude - Sandstorm",
       "34:15~35:54": "Red - Die For You",
+      "39:56~41:23": "Sigur Rós - Við spilum endalaust",
       "1:10:29~1:12:07": "Gipsy Kings - Bamboleo",
       "2:05:50~2:07:23": "Не указано",
       "2:26:18~2:27:58": "George Michael - Careless Whisper",
@@ -6176,6 +6177,7 @@
       ],
       "2:22:36~2:24:39": "A Flock Of Seagulls - I Ran (So Far Away)",
       "2:52:59~2:53:37": "a-ha - Take on Me",
+      "6:03:39~6:04:35": "Hot Chocolate - Every 1's a Winner",
       "6:26:19~6:26:54": "Autograph - Turn up the Radio",
       "7:24:44~7:26:47": "Не указано"
     },
@@ -9372,6 +9374,9 @@
       "2:27:50~2:40:45": "\"Экзамен Зе-Кашо\"",
       "3:40:40~3:46:57": "\"Экзамен Катоса-Ауг\"",
       "3:54:40~3:57:50": "\"Дар Зуна-Кай\""
+    },
+    "Проблемы с правообладателями": {
+      "2:49:19~2:50:32": "Howard Shore - The Bridge of Khazad Dum"
     },
     "3:00:19~3:02:07": "Перерыв",
     "3:00:29": "Маленький вопросик",
@@ -22481,7 +22486,9 @@
     "0:08": "Getting Over It",
     "Проблемы с правообладателями": {
       "15:41~17:21": "James Horner - A Life So Changed",
-      "17:22~20:13": "James Horner - Rose"
+      "17:22~20:13": "James Horner - Rose",
+      "39:45~40:11": "Howard Shore - The Shadow Of The Past",
+      "1:16:44~58:40": "Howard Shore - The Ring Goes South"
     }
   },
   "233355849": {
@@ -22497,9 +22504,7 @@
     "Проблемы с правообладателями": {
       "0:00~2:11": "Agnes Obel - The Curse"
     },
-    "13:44": "Deep Rock Galactic",
-    "2:23:33": "Warhammer: Vermintide 2",
-    "4:38:56": "Hunt: Showdown (поиски коопа, безуспешные)"
+    "13:44": "Deep Rock Galactic"
   },
   "234037742.1": {
     "0:37": "Warhammer: Vermintide 2",
@@ -23280,11 +23285,19 @@
       "1:38:30~1:45:57": "Daryl Hall & John Oates - Out of Touch",
       "2:37:50~2:39:57": "Roger Whittaker - New World in the Morning",
       "2:50:34~2:55:50": "Музыка удалена средствами YouTube",
-      "3:33:29~3:36:43": "Good Charlotte - Break Apart Her Heart"
+      "3:33:29~3:36:43": "Good Charlotte - Break Apart Her Heart",
+      "4:00:57~4:05:15": "Junkie XL - Cities In Dust"
     }
   },
   "277440900": {
     "14:39": "Игра"
+  },
+  "278566845": {
+    "Проблемы с правообладателями": {
+      "1:46:29~1:49:29": "Bat For Lashes - Moon And Moon"
+    },
+    "2:31:45": "Wreckfest",
+    "3:55:39": "Persona 5"
   },
   "278566845.1": {
     "12:37": "Wreckfest",
@@ -27107,6 +27120,9 @@
       "2:35:56": "Genesis Noir",
       "2:37:36": "El Hijo",
       "2:39:26": "Baldur's Gate 3"
+    },
+    "Проблемы с правообладателями": {
+      "1:54:12~1:54:38": "Panic! At The Disco - High Hopes"
     }
   },
   "437135971.1": {
@@ -29651,9 +29667,11 @@
       "23:36": "Paunch",
       "2:58:57": "Гемини"
     },
-    "33:12": "Меню",
-    "33:44": "Игра",
     "Проблемы с правообладателями": {
+      "Dua Lipa - Don't Start Now": [
+        "16:49~17:23",
+        "17:57~18:40"
+      ],
       "The Pointer Sisters - Automatic": [
         "43:58~48:08",
         "4:48:15~4:49:30"
@@ -29677,6 +29695,8 @@
       ],
       "5:48:21~5:49:57": "Michael Jackson - Wanna Be Startin' Somethin'"
     },
+    "33:12": "Меню",
+    "33:44": "Игра",
     "58:20": "Повар 4-го разряда",
     "2:19:02": "( ͡° ͜ʖ ͡°)",
     "3:42:54": "Спецназ",
@@ -30086,6 +30106,7 @@
     },
     "Проблемы с правообладателями": {
       "1:22:59~1:26:51": "BABYMETAL - PA PA YA!!",
+      "1:38:56~1:42:36": "Gorillaz - Feel Good Inc.",
       "1:47:07~1:51:10": "Ray Parker Jr. - Ghostbusters",
       "1:51:22~1:54:46": "\"Weird Al\" Yankovic - Eat It",
       "1:55:59~1:59:38": "\"Weird Al\" Yankovic - Fat",
@@ -30543,11 +30564,13 @@
     },
     "Проблемы с правообладателями": {
       "1:12:17~1:16:27": "System Of A Down - Radio/Video",
+      "1:23:43~1:27:10": "Tones And I - Dance Monkey",
       "1:47:57~1:51:06": "Bob Dylan - The Times They Are A-Changin'",
       "a-ha - Take On Me": [
         "2:04:22~2:04:39",
         "3:30:16~3:33:47"
       ],
+      "2:16:04~2:19:22": "Meg Myers - Done",
       "3:48:02~3:51:16": "Yoko Takahashi - FLY ME TO THE MOON 2020",
       "4:59:21~5:02:51": "Не указано"
     },
@@ -31023,6 +31046,7 @@
       "2:02:27~2:06:41": "Whitney Houston - I Will Always Love You",
       "2:06:56~2:10:36": "CeeLo Green - Fuck You",
       "3:16:35~3:21:08": "Ice Nine Kills - IT Is The End",
+      "3:47:21~3:49:59": "Panic! At The Disco - Emperor's New Clothes",
       "3:50:23~3:54:54": "Hiroyuki Sawano - No Differences",
       "4:35:35~4:41:08": "Не указано"
     },
@@ -32782,7 +32806,7 @@
       "1:02:04": "The Last of Us: Part II"
     },
     "Проблемы с правообладателями": {
-      "30:14~30:47": "Tom Morello, Knife Party - Battle Sirens"
+      "30:14~31:54": "Tom Morello, Knife Party - Battle Sirens"
     },
     "1:00:00": "Вход в Discord",
     "Moving Out": {
@@ -34574,6 +34598,16 @@
     "Golf It!": {
       "5:28:43": "Меню",
       "5:28:46": "Игра"
+    },
+    "Проблемы с правообладателями": {
+      "Howard Shore - A Journey in the Dark": [
+        "5:31:08~5:31:54",
+        "5:32:49~5:34:45"
+      ],
+      "Howard Shore - The Bridge of Khazad Dum": [
+        "5:36:45~5:37:28",
+        "5:42:50~5:45:20"
+      ]
     }
   },
   "693186645": {
@@ -35439,6 +35473,9 @@
     },
     "49:31~53:37": "<a href=\"https://vocaroo.com/1z2mgDJJIC0w\">Песня об Артуре и чате</a>",
     "54:08": "Большая ссора",
+    "Проблемы с правообладателями": {
+      "54:43~55:36": "Pendulum - The Tempest"
+    },
     "There Is No Light (демо)": {
       "58:41": "Меню",
       "59:19": "Обучение",
@@ -35984,6 +36021,10 @@
         "3:35:01",
         "3:40:41"
       ]
+    },
+    "Проблемы с правообладателями": {
+      "2:55:19~2:58:37": "Howard Shore - The Treason of Isengard",
+      "3:00:32~3:00:49": "Howard Shore - The Black Rider"
     }
   },
   "761311327": {
@@ -36344,6 +36385,7 @@
       "2:34:10": "Игра"
     },
     "Проблемы с правообладателями": {
+      "2:52:07~2:53:03": "Tones And I - Dance Monkey",
       "3:41:46~3:44:55": "Frankie Laine - Jezebel"
     },
     "Noita": {
@@ -39231,6 +39273,12 @@
     "Minecraft": {
       "1:27:04": "Игра",
       "3:07:16": "Деда накрыло"
+    },
+    "Проблемы с правообладателями": {
+      "Howard Shore - A Journey in the Dark": [
+        "5:11:22~5:13:28",
+        "5:25:22~5:27:34"
+      ]
     }
   },
   "905895866": {
