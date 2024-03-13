@@ -10148,7 +10148,7 @@
   },
   "1239503220": {
     "youtube": "1p-dYWfcmnA", "abs_start": 0, "abs_end": 21944, "duration": 21944,
-    "name": "Dark Souls: Remastered #1 (заново) / Fobia - St. Dinfna Hotel - Демо / Five Nights At Freddy's: Security Breach #2",
+    "name": "Dark Souls: Remastered #1 (заново 2) / Fobia - St. Dinfna Hotel - Демо / Five Nights At Freddy's: Security Breach #2",
     "date": "2021-12-21",
     "games": ["ds-remastered", "fobia", "fnaf-sb"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2021@master/v1239503220.ass"
@@ -14154,7 +14154,6 @@
     "youtube": "l58uRB5FaKM", "abs_start": 0, "abs_end": 21471, "duration": 21471,
     "name": "Poppy Playtime #2",
     "date": "2024-02-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2051914598.torrent",
     "games": ["poppy-playtime"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2051914598.ass"
   },
@@ -14396,5 +14395,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2088572261.torrent",
     "games": ["demons-souls-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2088572261.ass"
+  },
+  "2089475024": {
+    "abs_start": 0, "abs_end": 28613, "duration": 28613,
+    "name": "Dark Souls: Remastered #1 (заново 3)",
+    "date": "2024-03-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2089475024.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2089475024.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2089475024.torrent",
+    "games": ["ds-remastered"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2089475024.ass"
   }
 }

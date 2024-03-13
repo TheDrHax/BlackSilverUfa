@@ -14078,29 +14078,32 @@
   },
   {
     "name": "Dark Souls: Remastered",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "ds-remastered",
     "streams": [
       { "segment": "260173384", "subrefs": [
         { "name": "Network test", "start": 3772 }
       ] },
       { "segment": "263867941", "subrefs": [
-        { "name": "1" }
+        { "name": "1", "start": 981 }
       ] },
       { "segment": "264598516", "subrefs": [
-        { "name": "2" }
+        { "name": "2", "start": 984 }
       ] },
       { "segment": "268114023", "subrefs": [
-        { "name": "1 (заново, со зрителями)" }
+        { "name": "1 (заново, со зрителями)", "start": 888 }
       ] },
       { "segment": "277001302", "subrefs": [
-        { "name": "2 (со зрителями)" }
+        { "name": "2 (со зрителями)", "start": 1280 }
       ] },
       { "segment": "1239503220", "subrefs": [
-        { "name": "1 (заново)" }
+        { "name": "1 (заново 2)", "start": 2243 }
       ] },
       { "segment": "1242283203", "subrefs": [
-        { "name": "2" }
+        { "name": "2", "start": 1554 }
+      ] },
+      { "segment": "2089475024", "subrefs": [
+        { "name": "1 (заново 3)", "start": 598 }
       ] }
     ]
   },
