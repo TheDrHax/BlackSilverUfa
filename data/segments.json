@@ -14183,7 +14183,6 @@
     "youtube": "GHxexhIU7a4", "abs_start": 0, "abs_end": 24870, "duration": 24870,
     "name": "Pacific Drive - Демо / Lightyear Frontier (демо) / CYGNI: All Guns Blazing (демо) / Star Trucker (демо) / Atomic Heart - Trapped in Limbo #1",
     "date": "2024-02-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2054830363.torrent",
     "games": ["pacific-drive", "first-2024", "atomic-heart"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2054830363.ass"
   },
@@ -14388,7 +14387,7 @@
   },
   "2087633256": {
     "youtube": "qtu7bP7SKsc", "abs_start": 0, "abs_end": 28551, "duration": 28551,
-    "name": "Demon's Souls Remake #1 (заново 3)",
+    "name": "Demon's Souls Remake #1 (за мага)",
     "date": "2024-03-11",
     "torrent": "https://bsufiles.drhx.ru/streams/2087633256.torrent",
     "games": ["demons-souls-remake"],
@@ -14396,7 +14395,7 @@
   },
   "2088572261": {
     "youtube": "5MCIr3ndjNM", "abs_start": 0, "abs_end": 21606, "duration": 21606,
-    "name": "Demon's Souls Remake #2",
+    "name": "Demon's Souls Remake #2 (за мага)",
     "date": "2024-03-12",
     "torrent": "https://bsufiles.drhx.ru/streams/2088572261.torrent",
     "games": ["demons-souls-remake"],
@@ -14404,10 +14403,20 @@
   },
   "2089475024": {
     "youtube": "C4V1NO1bQck", "abs_start": 0, "abs_end": 28613, "duration": 28613,
-    "name": "Dark Souls: Remastered #1 (заново 3)",
+    "name": "Dark Souls: Remastered #1 (за мага)",
     "date": "2024-03-13",
     "torrent": "https://bsufiles.drhx.ru/streams/2089475024.torrent",
     "games": ["ds-remastered"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2089475024.ass"
+  },
+  "2090400397": {
+    "abs_start": 0, "abs_end": 26157, "duration": 26157,
+    "name": "Dark Souls: Remastered #2 (за мага)",
+    "date": "2024-03-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2090400397.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2090400397.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2090400397.torrent",
+    "games": ["ds-remastered"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2090400397+0.ass"
   }
 }
