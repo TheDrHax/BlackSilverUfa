@@ -14406,5 +14406,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2093411719.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2093411719+0.ass"
+  },
+  "2094294191": {
+    "abs_start": 0, "abs_end": 30887, "duration": 30887,
+    "name": "Dark Souls: Remastered #3 (за мага)",
+    "date": "2024-03-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2094294191.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2094294191.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2094294191.torrent",
+    "games": ["ds-remastered"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2094294191.ass"
   }
 }

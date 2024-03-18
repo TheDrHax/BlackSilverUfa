@@ -4772,7 +4772,7 @@
   },
   {
     "name": "RoboCop: Rogue City",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "robocop",
     "streams": [
       { "segment": "1952515492", "subrefs": [
@@ -14119,6 +14119,9 @@
       ] },
       { "segment": "2090400397", "subrefs": [
         { "name": "2 (за мага)", "start": 849 }
+      ] },
+      { "segment": "2094294191", "subrefs": [
+        { "name": "3 (за мага)", "start": 1472 }
       ] }
     ]
   },
