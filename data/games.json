@@ -4511,7 +4511,6 @@
         { "name": "Deppart Prototype", "start": 4288 }
       ] },
       { "segment": "1830612078", "subrefs": [
-        { "name": "Alone in the Dark: Prologue", "start": 1369 },
         { "name": "Presences: Dark Awakening (демо)", "start": 2700 },
         { "name": "Water Wheel", "start": 15790 },
         { "name": "My Eyes Deceive", "start": 17248 }
@@ -4767,6 +4766,20 @@
         { "name": "Krampus of Kirkwall", "start": 4386 },
         { "name": "How to Build a Snowman", "start": 6082 },
         { "name": "Slay Bells", "start": 7643 }
+      ] }
+    ]
+  },
+  {
+    "name": "Alone in the Dark",
+    "category": "ongoing",
+    "id": "aitd-24",
+    "streams": [
+      { "segment": "1830612078", "subrefs": [
+        { "name": "Prologue", "start": 1369 }
+      ] },
+      { "segment": "2095255750", "subrefs": [
+        { "name": "Prologue", "start": 2861 },
+        { "name": "1", "start": 3534 }
       ] }
     ]
   },
