@@ -4771,7 +4771,7 @@
   },
   {
     "name": "Alone in the Dark",
-    "category": "ongoing",
+    "category": "finished",
     "id": "aitd-24",
     "streams": [
       { "segment": "1830612078", "subrefs": [
@@ -4783,6 +4783,9 @@
       ] },
       { "segment": "2096134765", "subrefs": [
         { "name": "2", "start": 827 }
+      ] },
+      { "segment": "2097967869", "subrefs": [
+        { "name": "3", "start": 1100 }
       ] }
     ]
   },
@@ -7788,9 +7791,19 @@
       ] },
       { "segment": "2093411719", "subrefs": [
         { "name": "Exanimum: The Silent Call", "start": 19084 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Dragon's Dogma II",
+    "category": "ongoing",
+    "id": "dd-2",
+    "streams": [
       { "segment": "2097054127", "subrefs": [
-        { "name": "Dragon's Dogma II", "start": 518 }
+        { "name": "1", "start": 518 }
+      ] },
+      { "segment": "2097967869", "subrefs": [
+        { "name": "2", "start": 10810 }
       ] }
     ]
   },
