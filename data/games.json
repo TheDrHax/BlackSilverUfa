@@ -4601,7 +4601,6 @@
         { "name": "Mom's Tent", "start": 9913 },
         { "name": "Sweet Dreams", "start": 11023 },
         { "name": "Liminal Symptom (демо)", "start": 11749 },
-        { "name": "Terror At Oakheart (демо)", "start": 13200 },
         { "name": "Echoes From The Abyss", "start": 17071 }
       ] },
       { "segment": "1906345080", "subrefs": [
@@ -7966,8 +7965,20 @@
         { "name": "Eclipsium (демо)", "start": 15661 }
       ] },
       { "segment": "2104774881", "subrefs": [
-        { "name": "Midnight Scenes: A Safe Place", "start": 2625 },
-        { "name": "Terror at Oakheart", "start": 11447 }
+        { "name": "Midnight Scenes: A Safe Place", "start": 2625 }
+      ] }
+    ]
+  },
+  {
+    "name": "Terror at Oakheart",
+    "category": "finished",
+    "id": "terror-at-oakheart",
+    "streams": [
+      { "segment": "1903801654,1903834688", "subrefs": [
+        { "name": "Демо", "start": 13200 }
+      ] },
+      { "segment": "2104774881", "subrefs": [
+        { "name": "Прохождение", "start": 11447 }
       ] }
     ]
   },
@@ -14235,6 +14246,9 @@
       ] },
       { "segment": "264290927", "subrefs": [
         { "name": "4 (часть 4)" }
+      ] },
+      { "segment": "2105757365", "subrefs": [
+        { "name": "1 (за мага)", "start": 865 }
       ] }
     ],
     "cover": 1

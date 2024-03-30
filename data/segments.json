@@ -13343,10 +13343,10 @@
   },
   "1903801654,1903834688": {
     "youtube": "Z8bTdUy_OnU", "abs_start": 0, "abs_end": 20666, "duration": 20666,
-    "name": "Polar Night (демо) / Night Freak / The King of the Shades / Mom's Tent / Sweet Dreams / Liminal Symptom (демо) / Terror At Oakheart (демо) / The Night Shift / Darker Skies: Remastered for PC / Echoes From The Abyss",
+    "name": "Polar Night (демо) / Night Freak / The King of the Shades / Mom's Tent / Sweet Dreams / Liminal Symptom (демо) / Terror at Oakheart - Демо / The Night Shift / Darker Skies: Remastered for PC / Echoes From The Abyss",
     "date": "2023-08-20",
     "offsets": ["0:00", "55:44"],
-    "games": ["first-2023", "single-2023"],
+    "games": ["first-2023", "single-2023", "terror-at-oakheart"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1903801654,1903834688+0.ass"
   },
   "1904659436": {
@@ -14459,10 +14459,20 @@
   },
   "2104774881": {
     "youtube": "zXP_IJigO1A", "abs_start": 0, "abs_end": 21192, "duration": 21192,
-    "name": "Midnight Scenes: A Safe Place / Terror at Oakheart",
+    "name": "Midnight Scenes: A Safe Place / Terror at Oakheart - Прохождение",
     "date": "2024-03-29",
     "torrent": "https://bsufiles.drhx.ru/streams/2104774881.torrent",
-    "games": ["single-2024"],
+    "games": ["single-2024", "terror-at-oakheart"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2104774881.ass"
+  },
+  "2105757365": {
+    "abs_start": 0, "abs_end": 24918, "duration": 24918,
+    "name": "Dark Souls 2: Scholar of the First Sin #1 (за мага)",
+    "date": "2024-03-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2105757365.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2105757365.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2105757365.torrent",
+    "games": ["ds2-scholar"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2105757365.ass"
   }
 }
