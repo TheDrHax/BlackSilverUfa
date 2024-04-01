@@ -14181,14 +14181,14 @@
   },
   "2058685006": {
     "youtube": "fzA-aNJuQTw", "abs_start": 0, "abs_end": 27838, "duration": 27838,
-    "name": "Islands of Insight (демо) / Outcast: A New Beginning (демо) / Cryptmaster (демо) / Helldivers 2 #1",
+    "name": "Islands of Insight (демо) / Outcast: A New Beginning (демо) / Cryptmaster (демо) / Helldivers 2 #1 (4D)",
     "date": "2024-02-10",
     "games": ["first-2024", "helldivers-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2058685006.ass"
   },
   "2059745251": {
     "youtube": "m_Bnug9zKII", "abs_start": 0, "abs_end": 22441, "duration": 22441,
-    "name": "Level Unknown: Backrooms (демо) / Backrooms (демо) / Homeworld 3 (демо) / Helldivers 2 #2 / Ready or Not #5",
+    "name": "Level Unknown: Backrooms (демо) / Backrooms (демо) / Homeworld 3 (демо) / Helldivers 2 #2 (4D) / Ready or Not #5",
     "date": "2024-02-11",
     "games": ["first-2024", "helldivers-2", "ready-or-not"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2059745251.ass"
@@ -14232,7 +14232,6 @@
     "youtube": "PV5c1jpMU8Y", "abs_start": 0, "abs_end": 22050, "duration": 22050,
     "name": "Pools (демо) / IFU / Quod: Episode 1 / Lazaret #1",
     "date": "2024-02-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2070293042.torrent",
     "games": ["single-2024", "first-2024", "lazaret"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2070293042.ass"
   },
@@ -14472,5 +14471,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2105757365.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2105757365.ass"
+  },
+  "2107695454": {
+    "abs_start": 0, "abs_end": 18430, "duration": 18430,
+    "name": "Stellar Blade (демо) / Helldivers 2 #3 (с Димами)",
+    "date": "2024-04-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2107695454.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2107695454.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2107695454.torrent",
+    "games": ["single-2024", "helldivers-2"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2107695454.ass"
   }
 }
