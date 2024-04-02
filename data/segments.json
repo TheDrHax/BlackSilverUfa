@@ -14239,7 +14239,6 @@
     "youtube": "c870hHL4zB8", "abs_start": 0, "abs_end": 31968, "duration": 31968,
     "name": "Lazaret #2 / Pacific Drive - Релиз / Sons of the Forest #1 (4D)",
     "date": "2024-02-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2071202910.torrent",
     "games": ["lazaret", "pacific-drive", "sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2071202910.ass"
   },
@@ -14479,5 +14478,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2107695454.torrent",
     "games": ["single-2024", "helldivers-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2107695454.ass"
+  },
+  "2108567014": {
+    "abs_start": 0, "abs_end": 22671, "duration": 22671,
+    "name": "Dark Souls 2: Scholar of the First Sin #2 (за мага)",
+    "date": "2024-04-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2108567014.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2108567014.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2108567014.torrent",
+    "games": ["ds2-scholar"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2108567014.ass"
   }
 }
