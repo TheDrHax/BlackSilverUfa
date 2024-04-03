@@ -14246,7 +14246,6 @@
     "youtube": "rWl4NYMXa3Q", "abs_start": 0, "abs_end": 31330, "duration": 31330,
     "name": "Sons of the Forest #2",
     "date": "2024-02-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2072210740.torrent",
     "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2072210740+0.ass"
   },
@@ -14486,5 +14485,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2108567014.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2108567014.ass"
+  },
+  "2109539858": {
+    "abs_start": 0, "abs_end": 27624, "duration": 27624,
+    "name": "Surveillance Work / Content Warning / Lethal Company #9 (4D)",
+    "date": "2024-04-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2109539858.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2109539858.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2109539858.torrent",
+    "games": ["first-2024", "co-op", "lethal-company"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2109539858.ass"
   }
 }
