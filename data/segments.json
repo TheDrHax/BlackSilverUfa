@@ -14502,5 +14502,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2110445487.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2110445487.ass"
+  },
+  "2113378651": {
+    "abs_start": 0, "abs_end": 17811, "duration": 17811,
+    "name": "No Players Online (демо) / Anomaly Exit / MOUTHHOLE / Unspoken",
+    "date": "2024-04-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2113378651.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2113378651.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2113378651.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2113378651.ass"
   }
 }

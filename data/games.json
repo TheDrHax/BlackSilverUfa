@@ -7811,6 +7811,9 @@
       ] },
       { "segment": "2109539858", "subrefs": [
         { "name": "Surveillance Work", "start": 2299 }
+      ] },
+      { "segment": "2113378651", "subrefs": [
+        { "name": "MOUTHHOLE", "start": 13404 }
       ] }
     ]
   },
@@ -7982,6 +7985,11 @@
       { "segment": "2107695454", "subrefs": [
         { "name": "Stellar Blade (демо)", "start": 2234 },
         { "name": "Stellar Blade (продолжение)", "start": 15330, "hidden": true }
+      ] },
+      { "segment": "2113378651", "subrefs": [
+        { "name": "No Players Online (демо)", "start": 2873 },
+        { "name": "Anomaly Exit", "start": 10737 },
+        { "name": "Unspoken", "start": 14473 }
       ] }
     ]
   },
