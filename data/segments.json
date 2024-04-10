@@ -13700,9 +13700,9 @@
   },
   "1970199475": {
     "youtube": "YIwip8oXxbU", "abs_start": 0, "abs_end": 22175, "duration": 22175,
-    "name": "Don't Scream #1 / The Stalked (демо) / Crowded. Followed. / Suspicious Person Information / The Invincible #1",
+    "name": "Don't Scream #1 / The Stalked - Демо / Crowded. Followed. / Suspicious Person Information / The Invincible #1",
     "date": "2023-11-06",
-    "games": ["dont-scream", "single-2023", "invincible"],
+    "games": ["dont-scream", "stalked", "single-2023", "invincible"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1970199475.ass"
   },
   "1971007084": {
@@ -14277,7 +14277,6 @@
     "youtube": "dSE21Li4LLg", "abs_start": 0, "abs_end": 30407, "duration": 30407,
     "name": "Sons of the Forest #4",
     "date": "2024-02-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2075109744.torrent",
     "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2075109744.ass"
   },
@@ -14483,10 +14482,10 @@
   },
   "2109539858": {
     "youtube": "i5s2NIMeNNo", "abs_start": 0, "abs_end": 27625, "duration": 27625,
-    "name": "Surveillance Work / Content Warning / Lethal Company #9 (4D)",
+    "name": "Surveillance Work #1 / Content Warning / Lethal Company #9 (4D)",
     "date": "2024-04-03",
     "torrent": "https://bsufiles.drhx.ru/streams/2109539858.torrent",
-    "games": ["first-2024", "co-op", "lethal-company"],
+    "games": ["surveillance-work", "co-op", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2109539858.ass"
   },
   "2110445487": {
@@ -14524,5 +14523,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2115089900.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2115089900.ass"
+  },
+  "2116005347": {
+    "abs_start": 0, "abs_end": 19403, "duration": 19403,
+    "name": "Buckshot Roulette #2 / Fear the Moon: Chapter 1 / The Penjikent Creature / The Stalked - Прохождение / Mouthhole #3 / Surveillance Work #2",
+    "date": "2024-04-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2116005347.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2116005347.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2116005347.torrent",
+    "games": ["buckshot-roulette", "single-2024", "stalked", "mouthhole", "surveillance-work"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2116005347.ass"
   }
 }
