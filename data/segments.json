@@ -14284,7 +14284,6 @@
     "youtube": "kB42rahirRc", "abs_start": 0, "abs_end": 23469, "duration": 23469,
     "name": "Sons of the Forest #5",
     "date": "2024-02-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2076061096.torrent",
     "games": ["sons-forest"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2076061096+0.ass"
   },
@@ -14527,5 +14526,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2116005347.torrent",
     "games": ["buckshot-roulette", "single-2024", "stalked", "mouthhole", "surveillance-work"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2116005347.ass"
+  },
+  "2116816158": {
+    "abs_start": 0, "abs_end": 21736, "duration": 21736,
+    "name": "Dark Souls 2: Scholar of the First Sin #5 (за мага)",
+    "date": "2024-04-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2116816158.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2116816158.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2116816158.torrent",
+    "games": ["ds2-scholar"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2116816158.ass"
   }
 }

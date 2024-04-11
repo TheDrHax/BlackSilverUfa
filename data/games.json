@@ -12492,7 +12492,7 @@
   },
   {
     "name": "Metal Gear Solid 3: Snake Eater",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "mgs-3",
     "streams": [
       { "segment": "338345713.1", "subrefs": [
@@ -14341,6 +14341,9 @@
       ] },
       { "segment": "2115089900", "subrefs": [
         { "name": "4 (за мага)", "start": 1640 }
+      ] },
+      { "segment": "2116816158", "subrefs": [
+        { "name": "5 (за мага)", "start": 1306 }
       ] }
     ],
     "cover": 1
