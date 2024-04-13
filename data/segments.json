@@ -14291,7 +14291,6 @@
     "youtube": "yMRviMakA5E", "abs_start": 0, "abs_end": 28312, "duration": 28312,
     "name": "Final Fantasy VII Rebirth #1",
     "date": "2024-02-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2076970270.torrent",
     "games": ["ff-vii-rebirth"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2076970270.ass"
   },
@@ -14536,5 +14535,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2116816158.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2116816158.ass"
+  },
+  "2118671984": {
+    "abs_start": 0, "abs_end": 16435, "duration": 16435,
+    "name": "Вечер Ретро Игр (ВРИ) #10 / Resident Evil 3: Nemesis / Bloody Roar 2",
+    "date": "2024-04-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2118671984.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2118671984.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2118671984.torrent",
+    "games": ["retro", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2118671984.ass"
   }
 }
