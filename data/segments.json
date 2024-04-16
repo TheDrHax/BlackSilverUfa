@@ -14298,7 +14298,6 @@
     "youtube": "Ck_61L7vqdk", "official": false, "abs_start": 0, "abs_end": 18786, "duration": 18786,
     "name": "Final Fantasy VII Rebirth #2",
     "date": "2024-03-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2077908803.torrent",
     "games": ["ff-vii-rebirth"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2077908803.ass"
   },
@@ -14549,5 +14548,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2119599582.torrent",
     "games": ["first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2119599582.ass"
+  },
+  "2121268856": {
+    "abs_start": 0, "abs_end": 20515, "duration": 20515,
+    "name": "Planet Crafter (демо) / Contra: Operation Galuga (демо) / Iron Meat (демо) / The Game of Sisyphus",
+    "date": "2024-04-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2121268856.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2121268856.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2121268856.torrent",
+    "games": ["first-2024", "single-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2121268856.ass"
   }
 }

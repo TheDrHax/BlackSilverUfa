@@ -7829,6 +7829,10 @@
       ] },
       { "segment": "2119599582", "subrefs": [
         { "name": "The Pink Panther: Passport to Peril (Розовая Пантера: Право на риск)", "start": 2541 }
+      ] },
+      { "segment": "2121268856", "subrefs": [
+        { "name": "Planet Crafter (демо)", "start": 2178 },
+        { "name": "The Game of Sisyphus", "start": 12516 }
       ] }
     ]
   },
@@ -8043,6 +8047,10 @@
       { "segment": "2116005347", "subrefs": [
         { "name": "Fear the Moon: Chapter 1", "start": 7061 },
         { "name": "The Penjikent Creature", "start": 9476 }
+      ] },
+      { "segment": "2121268856", "subrefs": [
+        { "name": "Contra: Operation Galuga (демо)", "start": 8841 },
+        { "name": "Iron Meat (демо)", "start": 11302 }
       ] }
     ]
   },
