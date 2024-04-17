@@ -14305,7 +14305,6 @@
     "youtube": "yBPcXdm6YvQ", "abs_start": 0, "abs_end": 19944, "duration": 19944,
     "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье) #1",
     "date": "2024-03-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2080031749.torrent",
     "games": ["nancy-drew-lttbmc"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2080031749.ass"
   },
@@ -14556,5 +14555,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2121268856.torrent",
     "games": ["first-2024", "single-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2121268856.ass"
+  },
+  "2122093631": {
+    "abs_start": 0, "abs_end": 23557, "duration": 23557,
+    "name": "Dark Souls 2: Scholar of the First Sin #6 (за мага)",
+    "date": "2024-04-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2122093631.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2122093631.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2122093631.torrent",
+    "games": ["ds2-scholar"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2122093631.ass"
   }
 }
