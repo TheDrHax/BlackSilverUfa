@@ -7833,6 +7833,11 @@
       { "segment": "2121268856", "subrefs": [
         { "name": "Planet Crafter (демо)", "start": 2178 },
         { "name": "The Game of Sisyphus", "start": 12516 }
+      ] },
+      { "segment": "2123000940,2123160474", "subrefs": [
+        { "name": "Rauniot", "start": 4314 },
+        { "name": "Among Ashes (демо)", "start": 10517 },
+        { "name": "No Rest for the Wicked", "start": 15514 }
       ] }
     ]
   },
@@ -8051,6 +8056,9 @@
       { "segment": "2121268856", "subrefs": [
         { "name": "Contra: Operation Galuga (демо)", "start": 8841 },
         { "name": "Iron Meat (демо)", "start": 11302 }
+      ] },
+      { "segment": "2123000940,2123160474", "subrefs": [
+        { "name": "Europa (демо)", "start": 7969 }
       ] }
     ]
   },

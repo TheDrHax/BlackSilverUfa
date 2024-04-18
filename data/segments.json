@@ -14312,7 +14312,6 @@
     "youtube": "fC9576QFh_I", "abs_start": 0, "abs_end": 20671, "duration": 20671,
     "name": "Death Motel / Meat / When The Devil Takes Hold (демо) / Crawl / Kitty Kart 64 / A Night on the Farm",
     "date": "2024-03-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2080976588.torrent",
     "games": ["single-2024", "616-games"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2080976588.ass"
   },
@@ -14320,7 +14319,6 @@
     "youtube": "eFRPcsoFoew", "abs_start": 0, "abs_end": 19689, "duration": 19689,
     "name": "Fossilfuel 2 / Expeditions: A MudRunner Game / Quiet Farm / My Dear Neighbor, Edition 404 (демо) / The Zhukov Line",
     "date": "2024-03-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2081886159.torrent",
     "games": ["first-2024", "single-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2081886159+0.ass"
   },
@@ -14563,5 +14561,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2122093631.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2122093631.ass"
+  },
+  "2123000940": {
+    "abs_start": 0, "abs_end": 15087, "duration": 15087,
+    "name": "",
+    "date": "2024-04-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2123000940.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2123000940.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2123000940.torrent",
+    "games": [],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2123000940.ass"
+  },
+  "2123160474": {
+    "abs_start": 0, "abs_end": 7283, "duration": 7283,
+    "name": "",
+    "date": "2024-04-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2123160474.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2123160474.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2123160474.torrent",
+    "games": [],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2123160474.ass"
+  },
+  "2123000940,2123160474": {
+    "abs_start": 0, "abs_end": 22369, "duration": 22369,
+    "name": "Rauniot / Europa (демо) / Among Ashes (демо) / No Rest for the Wicked",
+    "date": "2024-04-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2123000940,2123160474.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2123000940,2123160474.mp4/master.m3u8",
+    "offsets": ["0:00", "4:11:26+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2123000940,2123160474.torrent",
+    "games": ["first-2024", "single-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2123000940,2123160474+0.ass"
   }
 }
