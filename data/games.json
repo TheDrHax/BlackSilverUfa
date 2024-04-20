@@ -7824,11 +7824,7 @@
         { "name": "Revere", "start": 10370 }
       ] },
       { "segment": "2118671984", "subrefs": [
-        { "name": "Resident Evil 3: Nemesis", "start": 5585 },
         { "name": "Bloody Roar 2", "start": 12325 }
-      ] },
-      { "segment": "2119599582", "subrefs": [
-        { "name": "The Pink Panther: Passport to Peril (Розовая Пантера: Право на риск)", "start": 2541 }
       ] },
       { "segment": "2121268856", "subrefs": [
         { "name": "Planet Crafter (демо)", "start": 2178 },
@@ -7838,6 +7834,32 @@
         { "name": "Rauniot", "start": 4314 },
         { "name": "Among Ashes (демо)", "start": 10517 },
         { "name": "No Rest for the Wicked", "start": 15514 }
+      ] }
+    ]
+  },
+  {
+    "name": "Resident Evil 3: Nemesis",
+    "category": "ongoing",
+    "id": "re3-nemesis",
+    "streams": [
+      { "segment": "2118671984", "subrefs": [
+        { "name": "1", "start": 5585 }
+      ] },
+      { "segment": "2124805276", "subrefs": [
+        { "name": "2", "start": 11423 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Pink Panther: Passport to Peril (Розовая Пантера: Право на риск)",
+    "category": "finished",
+    "id": "tpp-ptp",
+    "streams": [
+      { "segment": "2119599582", "subrefs": [
+        { "name": "1", "start": 2541 }
+      ] },
+      { "segment": "2124805276", "subrefs": [
+        { "name": "2", "start": 2850 }
       ] }
     ]
   },

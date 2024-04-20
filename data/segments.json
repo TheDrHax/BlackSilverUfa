@@ -14326,7 +14326,6 @@
     "youtube": "Q3RXTnMP2lA", "abs_start": 0, "abs_end": 20718, "duration": 20718,
     "name": "YOKO / Backrooms Rec. (демо) / Samosbor / A Difficult Game About Climbing #1",
     "date": "2024-03-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2083745262.torrent",
     "games": ["single-2024", "first-2024", "climbing-game"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2083745262+0.ass"
   },
@@ -14532,18 +14531,18 @@
   },
   "2118671984": {
     "youtube": "nU9BpjfuVn8", "abs_start": 0, "abs_end": 16436, "duration": 16436,
-    "name": "Вечер Ретро Игр (ВРИ) #10 / Resident Evil 3: Nemesis / Bloody Roar 2",
+    "name": "Вечер Ретро Игр (ВРИ) #10 / Resident Evil 3: Nemesis #1 / Bloody Roar 2",
     "date": "2024-04-13",
     "torrent": "https://bsufiles.drhx.ru/streams/2118671984.torrent",
-    "games": ["retro", "first-2024"],
+    "games": ["retro", "re3-nemesis", "first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2118671984.ass"
   },
   "2119599582": {
     "youtube": "Vaspz1SYqd0", "abs_start": 0, "abs_end": 16523, "duration": 16523,
-    "name": "The Pink Panther: Passport to Peril (Розовая Пантера: Право на риск)",
+    "name": "The Pink Panther: Passport to Peril (Розовая Пантера: Право на риск) #1",
     "date": "2024-04-14",
     "torrent": "https://bsufiles.drhx.ru/streams/2119599582.torrent",
-    "games": ["first-2024"],
+    "games": ["tpp-ptp"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2119599582.ass"
   },
   "2121268856": {
@@ -14590,5 +14589,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2123000940,2123160474.torrent",
     "games": ["first-2024", "single-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2123000940,2123160474+0.ass"
+  },
+  "2124805276": {
+    "abs_start": 0, "abs_end": 17855, "duration": 17855,
+    "name": "The Pink Panther: Passport to Peril (Розовая Пантера: Право на риск) #2 / Resident Evil 3: Nemesis #2",
+    "date": "2024-04-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2124805276.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2124805276.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2124805276.torrent",
+    "games": ["tpp-ptp", "re3-nemesis"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2124805276.ass"
   }
 }
