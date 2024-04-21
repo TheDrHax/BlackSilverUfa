@@ -14333,7 +14333,6 @@
     "youtube": "SsY8W4o2CO8", "abs_start": 0, "abs_end": 17094, "duration": 17094,
     "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье) #2 / Snow Plowing Simulator / A Difficult Game About Climbing #2",
     "date": "2024-03-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2085706176.torrent",
     "games": ["nancy-drew-lttbmc", "first-2024", "climbing-game"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2085706176.ass"
   },
@@ -14597,5 +14596,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2124805276.torrent",
     "games": ["tpp-ptp", "re3-nemesis"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2124805276.ass"
+  },
+  "2125739785": {
+    "abs_start": 0, "abs_end": 15057, "duration": 15057,
+    "name": "Unfollow (демо) / Night Bus / Trash Night / Call to Summon / Replay / Sector A7",
+    "date": "2024-04-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2125739785.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2125739785.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2125739785.torrent",
+    "games": ["single-2024", "616-games", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2125739785.ass"
   }
 }
