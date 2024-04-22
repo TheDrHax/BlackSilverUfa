@@ -12434,9 +12434,9 @@
   },
   "1778016938": {
     "youtube": "9CC4Vc5DhX4", "official": false, "abs_start": 0, "abs_end": 26237, "duration": 26237,
-    "name": "UNFOLLOW / Polaris Outpost (демо) / Dredge #1 / Crime Boss: Rockay City #1 (4D)",
+    "name": "Unfollow - Демо 1 / Polaris Outpost (демо) / Dredge #1 / Crime Boss: Rockay City #1 (4D)",
     "date": "2023-03-28",
-    "games": ["single-2023", "first-2023", "dredge", "crime-boss-4d"],
+    "games": ["unfollow", "first-2023", "dredge", "crime-boss-4d"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1778016938.ass",
     "note": "<a href=\"https://youtu.be/4EsaSITBGXY\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -14349,7 +14349,6 @@
     "youtube": "qtu7bP7SKsc", "abs_start": 0, "abs_end": 28551, "duration": 28551,
     "name": "Demon's Souls Remake #1 (за мага)",
     "date": "2024-03-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2087633256.torrent",
     "games": ["demons-souls-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2087633256+0.ass"
   },
@@ -14600,12 +14599,22 @@
   },
   "2125739785": {
     "abs_start": 0, "abs_end": 15057, "duration": 15057,
-    "name": "Unfollow (демо) / Night Bus / Trash Night / Call to Summon / Replay / Sector A7",
+    "name": "Unfollow - Демо 2 / Night Bus / Trash Night / Call to Summon / Replay / Sector A7",
     "date": "2024-04-21",
     "direct": "https://bsufiles.drhx.ru/streams/2125739785.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2125739785.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2125739785.torrent",
-    "games": ["single-2024", "616-games", "first-2024"],
+    "games": ["unfollow", "single-2024", "616-games", "first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2125739785.ass"
+  },
+  "2126590741": {
+    "abs_start": 0, "abs_end": 18234, "duration": 18234,
+    "name": "Nightmare Collection: Telephone Call / Fancyland / Darwake: Awakening from the Nightmare (демо) / Carcass / Night Grove / Yo Bro, Whats That In Your Mirror Bro? / Dishwashing Simulator",
+    "date": "2024-04-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2126590741.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2126590741.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2126590741.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2126590741.ass"
   }
 }
