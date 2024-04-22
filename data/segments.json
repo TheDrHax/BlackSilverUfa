@@ -2262,9 +2262,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v262696959.ass"
   },
   "263472196": {
-    "youtube": "PQwDl3iZPBA", "official": false, "abs_start": 0, "abs_end": 21079, "duration": 21079,
+    "abs_start": 0, "abs_end": 14652, "duration": 14652,
     "name": "FAR: Lone Sails #2 / Dark Souls 2: Scholar of the First Sin #3",
     "date": "2018-05-20",
+    "direct": "https://bsufiles.drhx.ru/streams/263472196.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/263472196.mp4/master.m3u8",
     "games": ["far-lone-sails", "ds2-scholar"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v263472196.ass"
   },
@@ -14340,7 +14342,6 @@
     "youtube": "hjkq4hhToYw", "abs_start": 0, "abs_end": 20426, "duration": 20426,
     "name": "Elevator Zero / Trust the Watchers / Midnight Monitor: Aldercourt / Perfect Spot / Barbotine / Hospital 666 / The Last Monday / The Earl Street Massacre / Irritated Mind: Fear of Warehouse (демо)",
     "date": "2024-03-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2086750139.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2086750139.ass"
   },
