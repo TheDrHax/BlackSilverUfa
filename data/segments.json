@@ -14607,10 +14607,20 @@
   },
   "2126590741": {
     "youtube": "l4D_Gt4Q_J4", "abs_start": 0, "abs_end": 18235, "duration": 18235,
-    "name": "Nightmare Collection: Telephone Call / Fancyland / Darwake: Awakening from the Nightmare (демо) / Carcass / Night Grove / Yo Bro, Whats That In Your Mirror Bro? / Dishwashing Simulator",
+    "name": "Nightmare Collection: Telephone Call / Fancyland / Darwake: Awakening from the Nightmare (демо) / Carcass / Night Grove / Yo Bro, Whats That In Your Mirror Bro? / Dishwashing Simulator #1",
     "date": "2024-04-22",
     "torrent": "https://bsufiles.drhx.ru/streams/2126590741.torrent",
-    "games": ["single-2024", "first-2024"],
+    "games": ["single-2024", "first-2024", "dishwashing"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2126590741.ass"
+  },
+  "2127410165": {
+    "abs_start": 0, "abs_end": 16775, "duration": 16775,
+    "name": "Hades II (ранний доступ) / Dishwashing Simulator #2",
+    "date": "2024-04-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2127410165.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2127410165.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2127410165.torrent",
+    "games": ["single-2024", "dishwashing"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2127410165.ass"
   }
 }

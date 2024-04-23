@@ -7838,8 +7838,20 @@
         { "name": "Sector A7", "start": 13973 }
       ] },
       { "segment": "2126590741", "subrefs": [
-        { "name": "Fancyland", "start": 5347 },
-        { "name": "Dishwashing Simulator", "start": 16470 }
+        { "name": "Fancyland", "start": 5347 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dishwashing Simulator",
+    "category": "ongoing",
+    "id": "dishwashing",
+    "streams": [
+      { "segment": "2126590741", "subrefs": [
+        { "name": "1", "start": 16470 }
+      ] },
+      { "segment": "2127410165", "subrefs": [
+        { "name": "2", "start": 5419 }
       ] }
     ]
   },
@@ -8099,6 +8111,9 @@
         { "name": "Carcass", "start": 9017 },
         { "name": "Night Grove", "start": 12319 },
         { "name": "Yo Bro, Whats That In Your Mirror Bro?", "start": 16034 }
+      ] },
+      { "segment": "2127410165", "subrefs": [
+        { "name": "Hades II (ранний доступ)", "start": 1722 }
       ] }
     ]
   },
