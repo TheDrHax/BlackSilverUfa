@@ -5682,9 +5682,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v516941489.ass"
   },
   "517802976": {
-    "youtube": "VQaQO9NjX60", "official": false, "abs_start": 0, "abs_end": 21500, "duration": 21500,
+    "abs_start": 0, "abs_end": 21499, "duration": 21499,
     "name": "Grand Theft Auto: Vice City #2",
     "date": "2019-12-06",
+    "direct": "https://bsufiles.drhx.ru/streams/517802976.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/517802976.mp4/master.m3u8",
     "games": ["gta-vice-city"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v517802976.ass"
   },
@@ -14356,7 +14358,6 @@
     "youtube": "5MCIr3ndjNM", "abs_start": 0, "abs_end": 21606, "duration": 21606,
     "name": "Demon's Souls Remake #2 (за мага)",
     "date": "2024-03-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2088572261.torrent",
     "games": ["demons-souls-remake"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2088572261.ass"
   },
