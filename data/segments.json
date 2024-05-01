@@ -240,9 +240,11 @@
     "note": "Запись предоставил Олег Степанов (<a href=\"https://vk.com/video87862793_171741574\">1</a>, <a href=\"https://vk.com/video87862793_171739561\">2</a>, <a href=\"https://vk.com/video87862793_171739672\">3</a>)"
   },
   "001512110": {
-    "youtube": "5fFy5j4sxi8", "official": false, "abs_start": 0, "abs_end": 10424, "duration": 10424,
+    "abs_start": 0, "abs_end": 10423, "duration": 10423,
     "name": "Outlast (с Дашей) #2",
     "date": "2015-12-11",
+    "direct": "https://bsufiles.drhx.ru/streams/001512110.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001512110.mp4/master.m3u8",
     "games": ["outlast-dw"],
     "note": "Запись предоставил Олег Степанов (<a href=\"https://vk.com/video87862793_171744427\">1</a>, <a href=\"https://vk.com/video87862793_171746504\">2</a>)"
   },
@@ -5675,9 +5677,11 @@
     "note": "<a href=\"https://youtu.be/w8nJdnXrSJU\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "516941489": {
-    "youtube": "Al3rhwnCHGI", "official": false, "abs_start": 0, "abs_end": 21899, "duration": 21899,
+    "abs_start": 0, "abs_end": 21899, "duration": 21899,
     "name": "Grand Theft Auto: Vice City #1",
     "date": "2019-12-04",
+    "direct": "https://bsufiles.drhx.ru/streams/516941489.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/516941489.mp4/master.m3u8",
     "games": ["gta-vice-city"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2019@master/v516941489.ass"
   },
