@@ -2264,7 +2264,7 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2018@master/v262696959.ass"
   },
   "263472196": {
-    "abs_start": 0, "abs_end": 14652, "duration": 14652,
+    "abs_start": 0, "abs_end": 21078, "duration": 21078,
     "name": "FAR: Lone Sails #2 / Dark Souls 2: Scholar of the First Sin #3",
     "date": "2018-05-20",
     "direct": "https://bsufiles.drhx.ru/streams/263472196.mp4",
@@ -6001,9 +6001,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v546672311+0.ass"
   },
   "547176657": {
-    "youtube": "zZjQyNfpn6w", "official": false, "abs_start": 0, "abs_end": 22094, "duration": 22094,
+    "abs_start": 0, "abs_end": 22093, "duration": 22093,
     "name": "Grand Theft Auto: San Andreas #7 / Destiny 2 #1 (с Triplewipe)",
     "date": "2020-02-05",
+    "direct": "https://bsufiles.drhx.ru/streams/547176657.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/547176657.mp4/master.m3u8",
     "games": ["gta-san-andreas", "destiny-2"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v547176657.ass"
   },
@@ -6098,9 +6100,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v553926728.ass"
   },
   "554432443": {
-    "youtube": "g4jLYPi6Jxs", "official": false, "abs_start": 0, "abs_end": 21815, "duration": 21815,
+    "abs_start": 0, "abs_end": 21814, "duration": 21814,
     "name": "Grand Theft Auto: San Andreas #9",
     "date": "2020-02-19",
+    "direct": "https://bsufiles.drhx.ru/streams/554432443.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/554432443.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v554432443.ass"
   },
@@ -7564,9 +7568,11 @@
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v799135139.ass"
   },
   "800233089": {
-    "youtube": "YdkjKeBIfnE", "official": false, "abs_start": 0, "abs_end": 27247, "duration": 27247,
+    "abs_start": 0, "abs_end": 27246, "duration": 27246,
     "name": "Call of Duty: Warzone #13 / Marvel's Spider-Man: Miles Morales",
     "date": "2020-11-12",
+    "direct": "https://bsufiles.drhx.ru/streams/800233089.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/800233089.mp4/master.m3u8",
     "games": ["cod-warzone", "first-2020"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2020@master/v800233089.ass"
   },
@@ -14369,7 +14375,6 @@
     "youtube": "C4V1NO1bQck", "abs_start": 0, "abs_end": 28613, "duration": 28613,
     "name": "Dark Souls: Remastered #1 (за мага)",
     "date": "2024-03-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2089475024.torrent",
     "games": ["ds-remastered"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2089475024.ass"
   },
@@ -14377,7 +14382,6 @@
     "youtube": "3TxuplfhcwM", "abs_start": 0, "abs_end": 26158, "duration": 26158,
     "name": "Dark Souls: Remastered #2 (за мага)",
     "date": "2024-03-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2090400397.torrent",
     "games": ["ds-remastered"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v2090400397+0.ass"
   },
