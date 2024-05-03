@@ -8026,7 +8026,6 @@
         { "name": "Prayers of the Abyss (демо)", "start": 13785 }
       ] },
       { "segment": "2070293042", "subrefs": [
-        { "name": "Pools (демо)", "start": 2910 },
         { "name": "Quod: Episode 1", "start": 7510 }
       ] },
       { "segment": "2080976588", "subrefs": [
@@ -8114,6 +8113,22 @@
       ] },
       { "segment": "2127410165", "subrefs": [
         { "name": "Hades II (ранний доступ)", "start": 1722 }
+      ] },
+      { "segment": "2136144666", "subrefs": [
+        { "name": "Zero Protocol (демо)", "start": 3049 }
+      ] }
+    ]
+  },
+  {
+    "name": "POOLS",
+    "category": "finished",
+    "id": "pools",
+    "streams": [
+      { "segment": "2070293042", "subrefs": [
+        { "name": "Демо", "start": 2910 }
+      ] },
+      { "segment": "2136144666", "subrefs": [
+        { "name": "Прохождение", "start": 6828 }
       ] }
     ]
   },

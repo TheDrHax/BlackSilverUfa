@@ -14246,9 +14246,9 @@
   },
   "2070293042": {
     "youtube": "PV5c1jpMU8Y", "abs_start": 0, "abs_end": 22050, "duration": 22050,
-    "name": "Pools (демо) / IFU / Quod: Episode 1 / Lazaret #1",
+    "name": "POOLS - Демо / IFU / Quod: Episode 1 / Lazaret #1",
     "date": "2024-02-22",
-    "games": ["single-2024", "first-2024", "lazaret"],
+    "games": ["pools", "first-2024", "single-2024", "lazaret"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2070293042.ass"
   },
   "2071202910": {
@@ -14629,5 +14629,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2127410165.torrent",
     "games": ["single-2024", "dishwashing"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2127410165.ass"
+  },
+  "2136144666": {
+    "abs_start": 0, "abs_end": 15076, "duration": 15076,
+    "name": "Zero Protocol (демо) / POOLS - Прохождение",
+    "date": "2024-05-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2136144666.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2136144666.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2136144666.torrent",
+    "games": ["single-2024", "pools"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2136144666.ass"
   }
 }
