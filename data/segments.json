@@ -11441,9 +11441,9 @@
   },
   "1619465701": {
     "youtube": "Hn2loNKBAFQ", "abs_start": 0, "abs_end": 22445, "duration": 22445,
-    "name": "Kona II: Brume - Демо / The Classrooms (демо) / Quo (демо) / The Polaris Incident / Broken Through / The Chaput's Baby / Anthology of Fear - Демо / On One's Own",
+    "name": "Kona II: Brume - Демо / The Classrooms - Демо / Quo (демо) / The Polaris Incident / Broken Through / The Chaput's Baby / Anthology of Fear - Демо / On One's Own",
     "date": "2022-10-09",
-    "games": ["kona-2", "single-2022", "first-2022", "anthology-of-fear"],
+    "games": ["kona-2", "classrooms", "single-2022", "first-2022", "anthology-of-fear"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-generated@master/v1619465701+0.ass"
   },
   "1622143449": {
@@ -14633,5 +14633,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2136987621.torrent",
     "games": ["dishwashing", "abiotic-factor", "first-2024", "co-op", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2136987621.ass"
+  },
+  "2137947745": {
+    "abs_start": 0, "abs_end": 18790, "duration": 18790,
+    "name": "Confusion / Eyeless Jack / Hazing: Hazing Nightshift / Please Stop Crying / Mimic Search / The Classrooms - Ранний доступ / Laundry Night / Late Night Shift / The VHS Paradise / Moves Away / Poltergeist Watcher",
+    "date": "2024-05-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2137947745.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2137947745.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2137947745.torrent",
+    "games": ["single-2024", "classrooms", "first-2024"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2137947745.ass"
   }
 }

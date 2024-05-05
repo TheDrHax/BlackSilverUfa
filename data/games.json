@@ -4323,7 +4323,6 @@
         { "name": "The Death: Than Trung", "start": 16371 }
       ] },
       { "segment": "1619465701", "subrefs": [
-        { "name": "The Classrooms (демо)", "start": 5232 },
         { "name": "Quo (демо)", "start": 6673 },
         { "name": "The Polaris Incident", "start": 9499 },
         { "name": "Broken Through", "start": 12673 },
@@ -4384,6 +4383,19 @@
       ] },
       { "segment": "1693798502", "subrefs": [
         { "name": "Crimson Snow", "start": 5953 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Classrooms",
+    "category": "ongoing",
+    "id": "classrooms",
+    "streams": [
+      { "segment": "1619465701", "subrefs": [
+        { "name": "Демо", "start": 5232 }
+      ] },
+      { "segment": "2137947745", "subrefs": [
+        { "name": "Ранний доступ", "start": 10639 }
       ] }
     ]
   },
@@ -7851,6 +7863,9 @@
       ] },
       { "segment": "2136987621", "subrefs": [
         { "name": "Phantom Fury", "start": 5987 }
+      ] },
+      { "segment": "2137947745", "subrefs": [
+        { "name": "Poltergeist Watcher", "start": 17598 }
       ] }
     ]
   },
@@ -8131,6 +8146,17 @@
       ] },
       { "segment": "2136144666", "subrefs": [
         { "name": "Zero Protocol (демо)", "start": 3049 }
+      ] },
+      { "segment": "2137947745", "subrefs": [
+        { "name": "Confusion", "start": 2366 },
+        { "name": "Eyeless Jack", "start": 6067 },
+        { "name": "Hazing: Hazing Nightshift", "start": 7267 },
+        { "name": "Please Stop Crying", "start": 8514 },
+        { "name": "Mimic Search", "start": 9272 },
+        { "name": "Laundry Night", "start": 13629 },
+        { "name": "Late Night Shift", "start": 14339 },
+        { "name": "The VHS Paradise", "start": 15300 },
+        { "name": "Moves Away", "start": 16542 }
       ] }
     ]
   },
