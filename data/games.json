@@ -4388,14 +4388,17 @@
   },
   {
     "name": "The Classrooms",
-    "category": "ongoing",
+    "category": "finished",
     "id": "classrooms",
     "streams": [
       { "segment": "1619465701", "subrefs": [
         { "name": "Демо", "start": 5232 }
       ] },
       { "segment": "2137947745", "subrefs": [
-        { "name": "Ранний доступ", "start": 10639 }
+        { "name": "1 (ранний доступ)", "start": 10639 }
+      ] },
+      { "segment": "2138806382", "subrefs": [
+        { "name": "2", "start": 2916 }
       ] }
     ]
   },
@@ -7864,8 +7867,22 @@
       { "segment": "2136987621", "subrefs": [
         { "name": "Phantom Fury", "start": 5987 }
       ] },
+      { "segment": "2138806382", "subrefs": [
+        { "name": "Candyland: Sweet Survival", "start": 12261 },
+        { "name": "Haisonmeguri", "start": 13425 }
+      ] }
+    ]
+  },
+  {
+    "name": "Poltergeist Watcher",
+    "category": "ongoing",
+    "id": "polter-watcher",
+    "streams": [
       { "segment": "2137947745", "subrefs": [
-        { "name": "Poltergeist Watcher", "start": 17598 }
+        { "name": "1", "start": 17598 }
+      ] },
+      { "segment": "2138806382", "subrefs": [
+        { "name": "2", "start": 14608 }
       ] }
     ]
   },

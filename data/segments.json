@@ -14634,10 +14634,20 @@
   },
   "2137947745": {
     "youtube": "k2d04TFYFCI", "abs_start": 0, "abs_end": 18791, "duration": 18791,
-    "name": "Confusion / Eyeless Jack / Hazing: Hazing Nightshift / Please Stop Crying / Mimic Search / The Classrooms - Ранний доступ / Laundry Night / Late Night Shift / The VHS Paradise / Moves Away / Poltergeist Watcher",
+    "name": "Confusion / Eyeless Jack / Hazing: Hazing Nightshift / Please Stop Crying / Mimic Search / The Classrooms #1 (ранний доступ) / Laundry Night / Late Night Shift / The VHS Paradise / Moves Away / Poltergeist Watcher #1",
     "date": "2024-05-05",
     "torrent": "https://bsufiles.drhx.ru/streams/2137947745.torrent",
-    "games": ["single-2024", "classrooms", "first-2024"],
+    "games": ["single-2024", "classrooms", "polter-watcher"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2137947745.ass"
+  },
+  "2138806382": {
+    "abs_start": 0, "abs_end": 18616, "duration": 18616,
+    "name": "The Classrooms #2 / Candyland: Sweet Survival / Haisonmeguri / Poltergeist Watcher #2",
+    "date": "2024-05-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2138806382.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2138806382.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2138806382.torrent",
+    "games": ["classrooms", "first-2024", "polter-watcher"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2138806382.ass"
   }
 }
