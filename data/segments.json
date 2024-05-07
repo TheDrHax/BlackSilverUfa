@@ -13576,9 +13576,9 @@
   },
   "1949027899": {
     "youtube": "3fg9C1RGrQA", "abs_start": 0, "abs_end": 21507, "duration": 21507,
-    "name": "April '86 (демо) / ONE WAY HOME (демо) / Pine Harbor (демо) / The Bridge Curse 2: The Extrication (демо) / Hollow Coccoon - Демо / Chiyo (демо) / Nevermind This (демо) / Paranormal Records (демо)",
+    "name": "April '86 (демо) / ONE WAY HOME (демо) / Pine Harbor - Демо / The Bridge Curse 2: The Extrication (демо) / Hollow Coccoon - Демо / Chiyo (демо) / Nevermind This (демо) / Paranormal Records (демо)",
     "date": "2023-10-12",
-    "games": ["single-2023", "hollow-coccoon", "first-2023"],
+    "games": ["single-2023", "pine-harbor", "hollow-coccoon", "first-2023"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2023@master/v1949027899.ass"
   },
   "1949835858": {
@@ -14469,10 +14469,10 @@
   },
   "2109539858": {
     "youtube": "i5s2NIMeNNo", "abs_start": 0, "abs_end": 27625, "duration": 27625,
-    "name": "Surveillance Work #1 / Content Warning / Lethal Company #9",
+    "name": "Surveillance Work #1 / Content Warning #1 / Lethal Company #9",
     "date": "2024-04-03",
     "torrent": "https://bsufiles.drhx.ru/streams/2109539858.torrent",
-    "games": ["surveillance-work", "co-op", "lethal-company"],
+    "games": ["surveillance-work", "content-warn", "lethal-company"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2109539858.ass"
   },
   "2110445487": {
@@ -14647,5 +14647,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2138806382.torrent",
     "games": ["classrooms", "first-2024", "polter-watcher"],
     "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2138806382.ass"
+  },
+  "2139593833": {
+    "abs_start": 0, "abs_end": 20796, "duration": 20796,
+    "name": "Pine Harbor - Релиз / Content Warning #2 / Lethal Company #11",
+    "date": "2024-05-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2139593833.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2139593833.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2139593833.torrent",
+    "games": ["pine-harbor", "content-warn", "lethal-company"],
+    "subtitles": "https://cdn.jsdelivr.net/gh/BlackSilverUfa/chats-2024@master/v2139593833.ass"
   }
 }
