@@ -4985,7 +4985,7 @@
   },
   {
     "name": "They Are Here: Alien Abduction Horror",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "they-are-here",
     "streams": [
       { "segment": "1061050549", "subrefs": [
@@ -4993,6 +4993,9 @@
       ] },
       { "segment": "1855403959", "subrefs": [
         { "name": "Демо 2", "start": 1807 }
+      ] },
+      { "segment": "2140448165", "subrefs": [
+        { "name": "Демо 3", "start": 2187 }
       ] }
     ]
   },
@@ -7895,6 +7898,9 @@
       { "segment": "2138806382", "subrefs": [
         { "name": "Candyland: Sweet Survival", "start": 12261 },
         { "name": "Haisonmeguri", "start": 13425 }
+      ] },
+      { "segment": "2140448165", "subrefs": [
+        { "name": "Surveillance", "start": 14660 }
       ] }
     ]
   },
@@ -8199,6 +8205,12 @@
         { "name": "Late Night Shift", "start": 14339 },
         { "name": "The VHS Paradise", "start": 15300 },
         { "name": "Moves Away", "start": 16542 }
+      ] },
+      { "segment": "2140448165", "subrefs": [
+        { "name": "The Cursed Tape", "start": 4276 },
+        { "name": "Is This Game Trying to Kill Me?: Preface", "start": 6874 },
+        { "name": "Void Whispers", "start": 9695 },
+        { "name": "Cursed Enigma: The Midnight Apartment", "start": 12395 }
       ] }
     ]
   },
