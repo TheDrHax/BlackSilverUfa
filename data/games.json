@@ -4696,7 +4696,6 @@
       { "segment": "1949027899", "subrefs": [
         { "name": "April '86 (демо)", "start": 2419 },
         { "name": "ONE WAY HOME (демо)", "start": 4375 },
-        { "name": "The Bridge Curse 2: The Extrication (демо)", "start": 9181 },
         { "name": "Nevermind This (демо)", "start": 18005 },
         { "name": "Paranormal Records (демо)", "start": 19725 }
       ] },
@@ -8588,6 +8587,19 @@
       ] },
       { "segment": "1578740848", "subrefs": [
         { "name": "Релиз", "start": 13218 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Bridge Curse 2: The Extrication",
+    "category": "ongoing",
+    "id": "bridge-curse-2",
+    "streams": [
+      { "segment": "1949027899", "subrefs": [
+        { "name": "Демо", "start": 9181 }
+      ] },
+      { "segment": "2142133135", "subrefs": [
+        { "name": "1", "start": 3291 }
       ] }
     ]
   },
