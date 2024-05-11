@@ -8210,6 +8210,9 @@
         { "name": "Is This Game Trying to Kill Me?: Preface", "start": 6874 },
         { "name": "Void Whispers", "start": 9695 },
         { "name": "Cursed Enigma: The Midnight Apartment", "start": 12395 }
+      ] },
+      { "segment": "2143015001", "subrefs": [
+        { "name": "SCP: Descent", "start": 12866 }
       ] }
     ]
   },
@@ -8592,7 +8595,7 @@
   },
   {
     "name": "The Bridge Curse 2: The Extrication",
-    "category": "ongoing",
+    "category": "finished",
     "id": "bridge-curse-2",
     "streams": [
       { "segment": "1949027899", "subrefs": [
@@ -8600,6 +8603,9 @@
       ] },
       { "segment": "2142133135", "subrefs": [
         { "name": "1", "start": 3291 }
+      ] },
+      { "segment": "2143015001", "subrefs": [
+        { "name": "2", "start": 2454 }
       ] }
     ]
   },

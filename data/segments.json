@@ -14391,7 +14391,6 @@
     "youtube": "WuMTO6TI65w", "abs_start": 0, "abs_end": 7826, "duration": 7826,
     "name": "Alone in the Dark - Prologue / Alone in the Dark #1",
     "date": "2024-03-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2095255750.torrent",
     "games": ["aitd-24"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2095255750.ass"
   },
@@ -14399,7 +14398,6 @@
     "youtube": "7LpWr4Ox-DQ", "abs_start": 0, "abs_end": 27807, "duration": 27807,
     "name": "Alone in the Dark #2",
     "date": "2024-03-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2096134765.torrent",
     "games": ["aitd-24"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2096134765.ass"
   },
@@ -14671,5 +14669,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2142133135.torrent",
     "games": ["bridge-curse-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2142133135.ass"
+  },
+  "2143015001": {
+    "abs_start": 0, "abs_end": 21597, "duration": 21597,
+    "name": "The Bridge Curse 2: The Extrication #2 / SCP: Descent",
+    "date": "2024-05-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2143015001.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2143015001.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2143015001.torrent",
+    "games": ["bridge-curse-2", "single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2143015001.ass"
   }
 }
