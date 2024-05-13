@@ -221,9 +221,11 @@
     "games": ["beyond-two-souls"]
   },
   "001511290": {
-    "youtube": "pzRTwBf0vUQ", "official": false, "abs_start": 0, "abs_end": 14993, "duration": 14993,
+    "abs_start": 0, "abs_end": 14993, "duration": 14993,
     "name": "Beyond: Two Souls (злое прохождение) #2",
     "date": "2015-11-29",
+    "direct": "https://bsufiles.drhx.ru/streams/001511290.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001511290.mp4/master.m3u8",
     "games": ["beyond-two-souls"]
   },
   "001512010": {
@@ -332,11 +334,9 @@
     "games": ["heavy-rain"]
   },
   "001602292": {
-    "abs_start": 0, "abs_end": 5467, "duration": 5467,
+    "youtube": "Geawnhkvjcg", "official": false, "abs_start": 0, "abs_end": 5468, "duration": 5468,
     "name": "Heavy Rain #1 (часть 3)",
     "date": "2016-02-29",
-    "direct": "https://bsufiles.drhx.ru/streams/001602292.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/001602292.mp4/master.m3u8",
     "games": ["heavy-rain"]
   },
   "001603010": {
