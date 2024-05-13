@@ -7900,6 +7900,9 @@
       ] },
       { "segment": "2140448165", "subrefs": [
         { "name": "Surveillance", "start": 14660 }
+      ] },
+      { "segment": "2144665696", "subrefs": [
+        { "name": "Little Kitty, Big City", "start": 11590 }
       ] }
     ]
   },
@@ -8166,7 +8169,6 @@
         { "name": "That Which Gave Chase", "start": 7987 }
       ] },
       { "segment": "2116005347", "subrefs": [
-        { "name": "Fear the Moon: Chapter 1", "start": 7061 },
         { "name": "The Penjikent Creature", "start": 9476 }
       ] },
       { "segment": "2121268856", "subrefs": [
@@ -8223,6 +8225,19 @@
         { "name": "Goofy Night Stalker: Home Alone", "start": 11545 },
         { "name": "Little Jimmy's Gift", "start": 12827 },
         { "name": "Old Times", "start": 13398 }
+      ] }
+    ]
+  },
+  {
+    "name": "Fear the Moon",
+    "category": "finished",
+    "id": "fear-the-moon",
+    "streams": [
+      { "segment": "2116005347", "subrefs": [
+        { "name": "Chapter 1", "start": 7061 }
+      ] },
+      { "segment": "2144665696", "subrefs": [
+        { "name": "Прохождение", "start": 2777 }
       ] }
     ]
   },

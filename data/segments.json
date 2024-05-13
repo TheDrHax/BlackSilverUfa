@@ -14405,7 +14405,6 @@
     "youtube": "kvFm2z7d3JE", "abs_start": 0, "abs_end": 25040, "duration": 25040,
     "name": "Dragon's Dogma II #1",
     "date": "2024-03-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2097054127.torrent",
     "games": ["dd-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2097054127.ass"
   },
@@ -14507,10 +14506,10 @@
   },
   "2116005347": {
     "youtube": "o1PhDb9ZbmY", "abs_start": 0, "abs_end": 19404, "duration": 19404,
-    "name": "Buckshot Roulette #2 / Fear the Moon: Chapter 1 / The Penjikent Creature / The Stalked - Прохождение / Mouthhole #3 / Surveillance Work #2",
+    "name": "Buckshot Roulette #2 / Fear the Moon - Chapter 1 / The Penjikent Creature / The Stalked - Прохождение / Mouthhole #3 / Surveillance Work #2",
     "date": "2024-04-10",
     "torrent": "https://bsufiles.drhx.ru/streams/2116005347.torrent",
-    "games": ["buckshot-roulette", "single-2024", "stalked", "mouthhole", "surveillance-work"],
+    "games": ["buckshot-roulette", "fear-the-moon", "single-2024", "stalked", "mouthhole", "surveillance-work"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2116005347.ass"
   },
   "2116816158": {
@@ -14685,5 +14684,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2143886218.torrent",
     "games": ["single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2143886218.ass"
+  },
+  "2144665696": {
+    "abs_start": 0, "abs_end": 18660, "duration": 18660,
+    "name": "Fear the Moon - Прохождение / Little Kitty, Big City",
+    "date": "2024-05-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2144665696.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2144665696.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2144665696.torrent",
+    "games": ["fear-the-moon", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2144665696.ass"
   }
 }
