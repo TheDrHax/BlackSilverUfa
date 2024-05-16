@@ -14412,7 +14412,6 @@
     "youtube": "ENNrxUFF0oE", "abs_start": 0, "abs_end": 18144, "duration": 18144,
     "name": "Alone in the Dark #3 / Dragon's Dogma II #2",
     "date": "2024-03-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2097967869.torrent",
     "games": ["aitd-24", "dd-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2097967869.ass"
   },
@@ -14692,5 +14691,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2144665696.torrent",
     "games": ["fear-the-moon", "lkbc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2144665696.ass"
+  },
+  "2147132532": {
+    "abs_start": 0, "abs_end": 18190, "duration": 18190,
+    "name": "The Stairway 7 / Le Dernier Don / April 24th / Live Meat / Rose and Cross (демо) / The Lancaster Leak: O'Brien State Park",
+    "date": "2024-05-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2147132532.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2147132532.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2147132532.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2147132532.ass"
   }
 }
