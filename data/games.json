@@ -7604,8 +7604,7 @@
       { "segment": "1854535719", "subrefs": [
         { "name": "Viewfinder (демо)", "start": 914 },
         { "name": "Daydream: Forgotten Sorrow", "start": 6704 },
-        { "name": "Only Up!", "start": 10070 },
-        { "name": "Little Kitty, Big City (демо)", "start": 14083 }
+        { "name": "Only Up!", "start": 10070 }
       ] },
       { "segment": "1855403959", "subrefs": [
         { "name": "Ebola Village (демо)", "start": 3879 },
@@ -7900,9 +7899,19 @@
       ] },
       { "segment": "2140448165", "subrefs": [
         { "name": "Surveillance", "start": 14660 }
+      ] }
+    ]
+  },
+  {
+    "name": "Little Kitty, Big City",
+    "category": "ongoing",
+    "id": "lkbc",
+    "streams": [
+      { "segment": "1854535719", "subrefs": [
+        { "name": "Демо", "start": 14083 }
       ] },
       { "segment": "2144665696", "subrefs": [
-        { "name": "Little Kitty, Big City", "start": 11590 }
+        { "name": "Релиз", "start": 11590 }
       ] }
     ]
   },
