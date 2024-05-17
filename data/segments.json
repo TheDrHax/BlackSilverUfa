@@ -14419,7 +14419,6 @@
     "youtube": "sI7oBOqvllA", "abs_start": 0, "abs_end": 18966, "duration": 18966,
     "name": "Shinkansen 0 / There's Something In The Ice / Project 13: Taxidermy Trails",
     "date": "2024-03-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2102886465.torrent",
     "games": ["chillas-art", "single-2024", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2102886465.ass"
   },
@@ -14701,5 +14700,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2147132532.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2147132532.ass"
+  },
+  "2147955328": {
+    "abs_start": 0, "abs_end": 19094, "duration": 19094,
+    "name": "Навь (демо) / 24H Stories: The Rule 7 / Super Buckyball Tournament (с Димами)",
+    "date": "2024-05-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2147955328.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2147955328.mp4/master.m3u8",
+    "games": ["single-2024", "first-2024", "co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2147955328.ass"
   }
 }
