@@ -14694,12 +14694,12 @@
   },
   "2147132532": {
     "abs_start": 0, "abs_end": 18190, "duration": 18190,
-    "name": "The Stairway 7 / Le Dernier Don / April 24th / Live Meat / Rose and Cross (демо) / The Lancaster Leak: O'Brien State Park",
+    "name": "The Stairway 7 / Le Dernier Don / April 24th / Live Meat / Rose and Cross - Демо / The Lancaster Leak: O'Brien State Park",
     "date": "2024-05-16",
     "direct": "https://bsufiles.drhx.ru/streams/2147132532.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2147132532.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2147132532.torrent",
-    "games": ["single-2024", "first-2024"],
+    "games": ["single-2024", "first-2024", "rose-and-cross"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2147132532.ass"
   },
   "2147955328": {
@@ -14731,5 +14731,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2149736276.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2149736276.ass"
+  },
+  "2150566668": {
+    "abs_start": 0, "abs_end": 14866, "duration": 14866,
+    "name": "Whispers in the Void / The Tower on the Borderland / Rose and Cross - Прохождение / Indigo Park",
+    "date": "2024-05-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2150566668.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2150566668.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2150566668.torrent",
+    "games": ["first-2024", "rose-and-cross", "single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2150566668.ass"
   }
 }

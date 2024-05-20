@@ -7911,6 +7911,10 @@
       ] },
       { "segment": "2149736276", "subrefs": [
         { "name": "Descending The Woods", "start": 8506 }
+      ] },
+      { "segment": "2150566668", "subrefs": [
+        { "name": "Whispers in the Void", "start": 3228 },
+        { "name": "The Tower on the Borderland", "start": 5159 }
       ] }
     ]
   },
@@ -8252,7 +8256,6 @@
         { "name": "Le Dernier Don", "start": 7729 },
         { "name": "April 24th", "start": 9718 },
         { "name": "The Stairway 7 (продолжение)", "start": 12729, "hidden": true },
-        { "name": "Rose and Cross (демо)", "start": 16190 },
         { "name": "The Lancaster Leak: O'Brien State Park", "start": 16826 }
       ] },
       { "segment": "2147955328", "subrefs": [
@@ -8264,6 +8267,22 @@
         { "name": "Sonic.EXE", "start": 12619 },
         { "name": "Midnight Lane", "start": 14108 },
         { "name": "Teeth of Glass", "start": 16696 }
+      ] },
+      { "segment": "2150566668", "subrefs": [
+        { "name": "Indigo Park", "start": 10893 }
+      ] }
+    ]
+  },
+  {
+    "name": "Rose and Cross",
+    "category": "finished",
+    "id": "rose-and-cross",
+    "streams": [
+      { "segment": "2147132532", "subrefs": [
+        { "name": "Демо", "start": 16190 }
+      ] },
+      { "segment": "2150566668", "subrefs": [
+        { "name": "Прохождение", "start": 8498 }
       ] }
     ]
   },
