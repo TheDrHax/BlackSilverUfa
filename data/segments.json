@@ -6514,9 +6514,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v608001507.ass"
   },
   "610027262": {
-    "youtube": "T7R1n_QCQng", "official": false, "abs_start": 0, "abs_end": 21898, "duration": 21898,
+    "abs_start": 0, "abs_end": 21898, "duration": 21898,
     "name": "SnowRunner #4",
     "date": "2020-05-03",
+    "direct": "https://bsufiles.drhx.ru/streams/610027262.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/610027262.mp4/master.m3u8",
     "games": ["snowrunner"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v610027262.ass"
   },
@@ -9743,9 +9745,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1185672025.ass"
   },
   "1186535358": {
-    "youtube": "AkXq-1XVPpo", "official": false, "abs_start": 0, "abs_end": 26157, "duration": 26157,
+    "abs_start": 0, "abs_end": 15365, "duration": 15365,
     "name": "Marvel's Guardians of the Galaxy #1",
     "date": "2021-10-25",
+    "direct": "https://bsufiles.drhx.ru/streams/1186535358.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1186535358.mp4/master.m3u8",
     "games": ["marvel-gotg"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1186535358.ass"
   },
