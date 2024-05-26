@@ -12132,17 +12132,21 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1728992336.ass"
   },
   "1729899835": {
-    "youtube": "f1Han53uevA", "official": false, "abs_start": 0, "abs_end": 30171, "duration": 30171,
+    "abs_start": 0, "abs_end": 30170, "duration": 30170,
     "name": "Hogwarts Legacy #1",
     "date": "2023-02-06",
+    "direct": "https://bsufiles.drhx.ru/streams/1729899835.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1729899835.mp4/master.m3u8",
     "games": ["hogwarts"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v1729899835+0.ass",
     "note": "<a href=\"https://youtu.be/D51vro2KMd4\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "1730836289": {
-    "youtube": "AESrRmYDqp0", "official": false, "abs_start": 0, "abs_end": 32810, "duration": 32810,
+    "abs_start": 0, "abs_end": 32809, "duration": 32809,
     "name": "Hogwarts Legacy #2",
     "date": "2023-02-07",
+    "direct": "https://bsufiles.drhx.ru/streams/1730836289.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1730836289.mp4/master.m3u8",
     "games": ["hogwarts"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1730836289.ass",
     "note": "<a href=\"https://youtu.be/fWAzcVTL4X0\">Официальная запись</a> сломана (недоступно качество выше 360p)"
@@ -12155,9 +12159,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1731887577.ass"
   },
   "1732877770": {
-    "youtube": "__uvuVGfYNY", "official": false, "abs_start": 0, "abs_end": 31494, "duration": 31494,
+    "abs_start": 0, "abs_end": 31493, "duration": 31493,
     "name": "Hogwarts Legacy #4",
     "date": "2023-02-09",
+    "direct": "https://bsufiles.drhx.ru/streams/1732877770.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1732877770.mp4/master.m3u8",
     "games": ["hogwarts"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v1732877770+0.ass",
     "note": "<a href=\"https://youtu.be/Df4NepV59fs\">Официальная запись</a> сломана (недоступно качество выше 360p)"
@@ -14462,7 +14468,6 @@
     "youtube": "bApy5ys4E3A", "abs_start": 0, "abs_end": 22671, "duration": 22671,
     "name": "Dark Souls 2: Scholar of the First Sin #2 (за мага)",
     "date": "2024-04-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2108567014.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2108567014.ass"
   },
@@ -14470,7 +14475,6 @@
     "youtube": "i5s2NIMeNNo", "abs_start": 0, "abs_end": 27625, "duration": 27625,
     "name": "Surveillance Work #1 / Content Warning #1 / Lethal Company #9",
     "date": "2024-04-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2109539858.torrent",
     "games": ["surveillance-work", "content-warn", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2109539858.ass"
   },
