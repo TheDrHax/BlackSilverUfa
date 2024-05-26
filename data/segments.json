@@ -14482,7 +14482,6 @@
     "youtube": "Ksm3UF1FGGw", "abs_start": 0, "abs_end": 22121, "duration": 22121,
     "name": "Dark Souls 2: Scholar of the First Sin #3 (за мага)",
     "date": "2024-04-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2110445487.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2110445487.ass"
   },
@@ -14738,5 +14737,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2150566668.torrent",
     "games": ["first-2024", "rose-and-cross", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2150566668.ass"
+  },
+  "2155743330": {
+    "abs_start": 0, "abs_end": 21301, "duration": 21301,
+    "name": "Silent Hill: Fan Remake Demo / Dr. Finklestein's Marvelous Room (демо) / We Are Not Alone / The Lost Fear / Astral Maze: Escape the Horror / Bloody Hallowfest",
+    "date": "2024-05-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2155743330.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2155743330.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2155743330.torrent",
+    "games": ["first-2024", "single-2024", "616-games"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2155743330+0.ass"
   }
 }
