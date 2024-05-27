@@ -7922,6 +7922,9 @@
       { "segment": "2155743330", "subrefs": [
         { "name": "Silent Hill: Fan Remake Demo", "start": 5869 },
         { "name": "Astral Maze: Escape the Horror", "start": 16151 }
+      ] },
+      { "segment": "2156572508", "subrefs": [
+        { "name": "Haunted Bloodlines", "start": 13274 }
       ] }
     ]
   },
@@ -8282,6 +8285,10 @@
         { "name": "Dr. Finklestein's Marvelous Room (демо)", "start": 7868 },
         { "name": "The Lost Fear", "start": 14785 },
         { "name": "Bloody Hallowfest", "start": 16840 }
+      ] },
+      { "segment": "2156572508", "subrefs": [
+        { "name": "Witch's Doll", "start": 2980 },
+        { "name": "Stairway", "start": 10543 }
       ] }
     ]
   },

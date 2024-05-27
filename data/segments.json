@@ -14498,7 +14498,6 @@
     "youtube": "QnhDePPUQQo", "abs_start": 0, "abs_end": 18554, "duration": 18554,
     "name": "Silent Breath / The Children of The Woods (демо) / That Which Gave Chase / Mouthhole #2 / Buckshot Roulette #1 (заново)",
     "date": "2024-04-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2114268211.torrent",
     "games": ["single-2024", "mouthhole", "buckshot-roulette"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2114268211.ass"
   },
@@ -14506,7 +14505,6 @@
     "youtube": "XNl4vO4PNtk", "abs_start": 0, "abs_end": 22587, "duration": 22587,
     "name": "Dark Souls 2: Scholar of the First Sin #4 (за мага)",
     "date": "2024-04-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2115089900.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2115089900.ass"
   },
@@ -14746,5 +14744,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2155743330.torrent",
     "games": ["first-2024", "single-2024", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2155743330+0.ass"
+  },
+  "2156572508": {
+    "abs_start": 0, "abs_end": 18377, "duration": 18377,
+    "name": "Witch's Doll / Stairway / Haunted Bloodlines",
+    "date": "2024-05-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2156572508.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2156572508.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2156572508.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2156572508+0.ass"
   }
 }
