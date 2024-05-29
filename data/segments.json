@@ -14510,7 +14510,6 @@
     "youtube": "o1PhDb9ZbmY", "abs_start": 0, "abs_end": 19404, "duration": 19404,
     "name": "Buckshot Roulette #2 / Fear the Moon - Chapter 1 / The Penjikent Creature / The Stalked - Прохождение / Mouthhole #3 / Surveillance Work #2",
     "date": "2024-04-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2116005347.torrent",
     "games": ["buckshot-roulette", "fear-the-moon", "single-2024", "stalked", "mouthhole", "surveillance-work"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2116005347.ass"
   },
@@ -14760,5 +14759,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2157418915.torrent",
     "games": ["single-2024", "first-2024", "chillas-art"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2157418915.ass"
+  },
+  "2158261633": {
+    "abs_start": 0, "abs_end": 18495, "duration": 18495,
+    "name": "PlayerUnknown's Battlegrounds #7 / Tricky Towers #35",
+    "date": "2024-05-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2158261633.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2158261633.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2158261633.torrent",
+    "games": ["pubg", "tricky-towers"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2158261633+0.ass"
   }
 }
