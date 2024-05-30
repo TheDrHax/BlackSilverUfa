@@ -14517,7 +14517,6 @@
     "youtube": "x2xO6CF-HEo", "abs_start": 0, "abs_end": 21736, "duration": 21736,
     "name": "Dark Souls 2: Scholar of the First Sin #5 (за мага)",
     "date": "2024-04-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2116816158.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2116816158.ass"
   },
@@ -14765,5 +14764,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2158261633.torrent",
     "games": ["pubg", "tricky-towers"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2158261633+0.ass"
+  },
+  "2159059575": {
+    "abs_start": 0, "abs_end": 25684, "duration": 25684,
+    "name": "Mirthwood / Crow Country / GTFO #7 (4D)",
+    "date": "2024-05-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2159059575.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2159059575.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2159059575.torrent",
+    "games": ["first-2024", "gtfo"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2159059575.ass"
   }
 }
