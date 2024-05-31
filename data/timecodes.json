@@ -14652,6 +14652,7 @@
         "3:55:36~3:56:27",
         "3:57:44~3:58:05",
         "3:58:50~3:59:03",
+        "3:59:34~3:59:46",
         "4:01:07~4:01:32"
       ]
     },
@@ -15154,7 +15155,10 @@
   },
   "1729899835": {
     "Проблемы с правообладателями": {
-      "3:13~5:50": "Nicholas Hooper - Dumbledore's Army"
+      "Nicholas Hooper - Dumbledore's Army": [
+        "3:13~5:50",
+        "9:21~11:53"
+      ]
     },
     "3:36~9:11": "Стримлер",
     "6:22": "Интро",
@@ -15178,7 +15182,10 @@
   "1731887577": {
     "0:36": "Интро",
     "Проблемы с правообладателями": {
-      "1:50~4:17": "Nicholas Hooper - Another Story",
+      "Nicholas Hooper - Another Story": [
+        "1:50~4:17",
+        "8:23:48~8:24:50"
+      ],
       "4:20~6:52": "Nicholas Hooper - Dumbledore's Army"
     },
     "3:03~3:26": "Стримлер",
@@ -15189,7 +15196,10 @@
   "1732877770": {
     "2:10": "Интро",
     "Проблемы с правообладателями": {
-      "3:26~5:52": "Nicholas Hooper - Another Story",
+      "Nicholas Hooper - Another Story": [
+        "3:26~5:52",
+        "8:42:58~8:44:53"
+      ],
       "5:55~8:28": "Nicholas Hooper - Dumbledore's Army"
     },
     "4:27": "Стримлер",
@@ -34004,7 +34014,11 @@
     "1:07:07": "Меню",
     "1:10:13": "Игра",
     "Проблемы с правообладателями": {
+      "1:19:45~1:22:40": "Creedence Clearwater Revival - Run Through The Jungle",
+      "1:22:44~1:24:53": "Creedence Clearwater Revival - Fortunate Son",
+      "1:25:04~1:27:21": "Creedence Clearwater Revival - Green River",
       "1:33:38~1:35:42": "Не указано",
+      "1:38:36~1:41:01": "Creedence Clearwater Revival - Up Around The Bend",
       "1:48:46~1:51:40": "Jefferson Airplane - Somebody to Love",
       "1:52:44~1:54:17": "Jefferson Airplane - White Rabbit",
       "1:54:18~1:56:40": "Led Zeppelin - Immigrant Song",
