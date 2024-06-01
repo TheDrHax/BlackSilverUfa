@@ -11230,9 +11230,9 @@
   },
   "1573052503": {
     "youtube": "qFS4leOWwxM", "abs_start": 0, "abs_end": 22584, "duration": 22584,
-    "name": "Вечер Ретро Игр (ВРИ) #6 / Pepsiman / Ballerburg / Dune 2000 / Driver",
+    "name": "Вечер Ретро Игр (ВРИ) #6 / Pepsiman / Ballerburg / Dune 2000 #1 / Driver",
     "date": "2022-08-26",
-    "games": ["retro", "first-2022"],
+    "games": ["retro", "first-2022", "dune-2000"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1573052503.ass"
   },
   "1573991268": {
@@ -14522,7 +14522,6 @@
     "youtube": "nU9BpjfuVn8", "abs_start": 0, "abs_end": 16436, "duration": 16436,
     "name": "Вечер Ретро Игр (ВРИ) #10 / Resident Evil 3: Nemesis #1 / Bloody Roar 2",
     "date": "2024-04-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2118671984.torrent",
     "games": ["retro", "re3-nemesis", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2118671984.ass"
   },
@@ -14770,5 +14769,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2159059575.torrent",
     "games": ["first-2024", "gtfo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2159059575.ass"
+  },
+  "2160830982": {
+    "abs_start": 0, "abs_end": 18159, "duration": 18159,
+    "name": "Вечер Ретро Игр (ВРИ) #11 / Silent Hill #3 (заново, ВРИ) / Alien Resurrection / Dune 2000 #2",
+    "date": "2024-06-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2160830982.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2160830982.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2160830982.torrent",
+    "games": ["retro", "sh", "first-2024", "dune-2000"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2160830982.ass"
   }
 }
