@@ -12972,9 +12972,9 @@
   },
   "1849426857": {
     "youtube": "iXdMFYEMTos", "abs_start": 0, "abs_end": 19716, "duration": 19716,
-    "name": "Night Security / Unholy - Демо / Lazarus / Incident at Grove Lake / The Event (демо) / Scholar's Mate: First Move",
+    "name": "Night Security / Unholy - Демо / Lazarus / Incident at Grove Lake / The Event (демо) / Scholar's Mate - First Move",
     "date": "2023-06-18",
-    "games": ["chillas-art", "unholy", "single-2023", "first-2023"],
+    "games": ["chillas-art", "unholy", "single-2023", "first-2023", "scholars-mate"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1849426857.ass"
   },
   "1851046365": {
@@ -14529,7 +14529,6 @@
     "youtube": "Vaspz1SYqd0", "abs_start": 0, "abs_end": 16523, "duration": 16523,
     "name": "The Pink Panther: Passport to Peril (Розовая Пантера: Право на риск) #1",
     "date": "2024-04-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2119599582.torrent",
     "games": ["tpp-ptp"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2119599582.ass"
   },
@@ -14777,5 +14776,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2160830982.torrent",
     "games": ["retro", "sh", "first-2024", "dune-2000"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2160830982.ass"
+  },
+  "2161695467": {
+    "abs_start": 0, "abs_end": 18693, "duration": 18693,
+    "name": "Scholar's Mate #1 / Baisu / Platform 8 / Nightmare Kart / Mourning Tide / Flathead",
+    "date": "2024-06-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2161695467.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2161695467.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2161695467.torrent",
+    "games": ["scholars-mate", "single-2024", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2161695467+0.ass"
   }
 }

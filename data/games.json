@@ -7625,8 +7625,7 @@
         { "name": "Wizard With a Gun (демо)", "start": 12903 }
       ] },
       { "segment": "1849426857", "subrefs": [
-        { "name": "The Event (демо)", "start": 15474 },
-        { "name": "Scholar's Mate: First Move", "start": 17948 }
+        { "name": "The Event (демо)", "start": 15474 }
       ] },
       { "segment": "1851046365", "subrefs": [
         { "name": "Aliens: Dark Descent", "start": 1799 }
@@ -7808,6 +7807,19 @@
     ]
   },
   {
+    "name": "Scholar's Mate",
+    "category": "ongoing",
+    "id": "scholars-mate",
+    "streams": [
+      { "segment": "1849426857", "subrefs": [
+        { "name": "First Move", "start": 17948 }
+      ] },
+      { "segment": "2161695467", "subrefs": [
+        { "name": "1", "start": 2987 }
+      ] }
+    ]
+  },
+  {
     "name": "Enshrouded",
     "category": "co-op",
     "id": "enshrouded",
@@ -7959,6 +7971,10 @@
       ] },
       { "segment": "2160830982", "subrefs": [
         { "name": "Alien Resurrection", "start": 8261 }
+      ] },
+      { "segment": "2161695467", "subrefs": [
+        { "name": "Nightmare Kart", "start": 12561 },
+        { "name": "Flathead", "start": 16799 }
       ] }
     ]
   },
@@ -8327,6 +8343,11 @@
       { "segment": "2157418915", "subrefs": [
         { "name": "Faint Call", "start": 3522 },
         { "name": "The Rainman", "start": 12703 }
+      ] },
+      { "segment": "2161695467", "subrefs": [
+        { "name": "Baisu", "start": 3601 },
+        { "name": "Platform 8", "start": 9911 },
+        { "name": "Mourning Tide", "start": 15124 }
       ] }
     ]
   },
