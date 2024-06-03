@@ -733,11 +733,24 @@
         { "name": "LASERS", "start": 9129 },
         { "name": "Minigame Game", "start": 14589 }
       ] },
-      { "segment": "2136987621", "subrefs": [
-        { "name": "Sketchy's Contract", "start": 11611 }
-      ] },
       { "segment": "2147955328", "subrefs": [
         { "name": "Super Buckyball Tournament (с Димами)", "start": 11095 }
+      ] },
+      { "segment": "2162458886", "subrefs": [
+        { "name": "Panicore", "start": 12258 }
+      ] }
+    ]
+  },
+  {
+    "name": "Sketchy's Contract",
+    "category": "co-op",
+    "id": "sketchys-contract",
+    "streams": [
+      { "segment": "2136987621", "subrefs": [
+        { "name": "1", "start": 11611 }
+      ] },
+      { "segment": "2162458886", "subrefs": [
+        { "name": "2", "start": 14173 }
       ] }
     ]
   },
@@ -858,6 +871,9 @@
       ] },
       { "segment": "2139593833", "subrefs": [
         { "name": "11", "start": 12463 }
+      ] },
+      { "segment": "2162458886", "subrefs": [
+        { "name": "12", "start": 17477 }
       ] }
     ]
   },
@@ -7972,9 +7988,35 @@
       { "segment": "2160830982", "subrefs": [
         { "name": "Alien Resurrection", "start": 8261 }
       ] },
+      { "segment": "2162458886", "subrefs": [
+        { "name": "The Rogue Prince of Persia", "start": 803 },
+        { "name": "Soulmask", "start": 5090 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nightmare Kart",
+    "category": "ongoing",
+    "id": "nightmare-kart",
+    "streams": [
       { "segment": "2161695467", "subrefs": [
-        { "name": "Nightmare Kart", "start": 12561 },
-        { "name": "Flathead", "start": 16799 }
+        { "name": "1", "start": 12561 }
+      ] },
+      { "segment": "2162458886", "subrefs": [
+        { "name": "2", "start": 10266 }
+      ] }
+    ]
+  },
+  {
+    "name": "Flathead",
+    "category": "finished",
+    "id": "flathead",
+    "streams": [
+      { "segment": "2161695467", "subrefs": [
+        { "name": "1", "start": 16799 }
+      ] },
+      { "segment": "2162458886", "subrefs": [
+        { "name": "2", "start": 8934 }
       ] }
     ]
   },
@@ -8346,8 +8388,23 @@
       ] },
       { "segment": "2161695467", "subrefs": [
         { "name": "Baisu", "start": 3601 },
-        { "name": "Platform 8", "start": 9911 },
         { "name": "Mourning Tide", "start": 15124 }
+      ] },
+      { "segment": "2162458886", "subrefs": [
+        { "name": "Doki Doki AI Interrogation", "start": 3027 }
+      ] }
+    ]
+  },
+  {
+    "name": "Platform 8",
+    "category": "finished",
+    "id": "platform-8",
+    "streams": [
+      { "segment": "2161695467", "subrefs": [
+        { "name": "1", "start": 9911 }
+      ] },
+      { "segment": "2162458886", "subrefs": [
+        { "name": "2", "start": 7275 }
       ] }
     ]
   },

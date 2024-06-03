@@ -14530,7 +14530,6 @@
     "youtube": "uJpg_5j7efc", "abs_start": 0, "abs_end": 20516, "duration": 20516,
     "name": "Planet Crafter (демо) / Contra: Operation Galuga (демо) / Iron Meat (демо) / The Game of Sisyphus",
     "date": "2024-04-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2121268856.torrent",
     "games": ["first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2121268856.ass"
   },
@@ -14613,10 +14612,10 @@
   },
   "2136987621": {
     "youtube": "8ZsUPvkyE_E", "abs_start": 0, "abs_end": 26375, "duration": 26375,
-    "name": "Dishwashing Simulator #3 / Abiotic Factor #3 / Phantom Fury / Sketchy's Contract / Lethal Company #10",
+    "name": "Dishwashing Simulator #3 / Abiotic Factor #3 / Phantom Fury / Sketchy's Contract #1 / Lethal Company #10",
     "date": "2024-05-04",
     "torrent": "https://bsufiles.drhx.ru/streams/2136987621.torrent",
-    "games": ["dishwashing", "abiotic-factor", "first-2024", "co-op", "lethal-company"],
+    "games": ["dishwashing", "abiotic-factor", "first-2024", "sketchys-contract", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2136987621.ass"
   },
   "2137947745": {
@@ -14773,10 +14772,20 @@
   },
   "2161695467": {
     "youtube": "sin4zsd7un8", "abs_start": 0, "abs_end": 18694, "duration": 18694,
-    "name": "Scholar's Mate #1 / Baisu / Platform 8 / Nightmare Kart / Mourning Tide / Flathead",
+    "name": "Scholar's Mate #1 / Baisu / Platform 8 #1 / Nightmare Kart #1 / Mourning Tide / Flathead #1",
     "date": "2024-06-02",
     "torrent": "https://bsufiles.drhx.ru/streams/2161695467.torrent",
-    "games": ["scholars-mate", "single-2024", "first-2024"],
+    "games": ["scholars-mate", "single-2024", "platform-8", "nightmare-kart", "flathead"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2161695467+0.ass"
+  },
+  "2162458886": {
+    "abs_start": 0, "abs_end": 26674, "duration": 26674,
+    "name": "The Rogue Prince of Persia / Doki Doki AI Interrogation / Soulmask / Platform 8 #2 / Flathead #2 / Nightmare Kart #2 / Panicore / Sketchy's Contract #2 / Lethal Company #12",
+    "date": "2024-06-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2162458886.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2162458886.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2162458886.torrent",
+    "games": ["first-2024", "single-2024", "platform-8", "flathead", "nightmare-kart", "co-op", "sketchys-contract", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2162458886.ass"
   }
 }
