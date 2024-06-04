@@ -6094,9 +6094,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v553926728.ass"
   },
   "554432443": {
-    "youtube": "uGgAzbWFzb0", "official": false, "abs_start": 0, "abs_end": 21815, "duration": 21815,
+    "abs_start": 0, "abs_end": 21814, "duration": 21814,
     "name": "Grand Theft Auto: San Andreas #9",
     "date": "2020-02-19",
+    "direct": "https://bsufiles.drhx.ru/streams/554432443.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/554432443.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v554432443.ass"
   },
@@ -6542,9 +6544,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v612822436.ass"
   },
   "613793616": {
-    "youtube": "5C7S1X_761k", "official": false, "abs_start": 0, "abs_end": 21162, "duration": 21162,
+    "abs_start": 0, "abs_end": 21161, "duration": 21161,
     "name": "SnowRunner #5 / Xbox Inside 2020",
     "date": "2020-05-07",
+    "direct": "https://bsufiles.drhx.ru/streams/613793616.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/613793616.mp4/master.m3u8",
     "games": ["snowrunner", "expos"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v613793616.ass"
   },
@@ -7569,17 +7573,19 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v800233089.ass"
   },
   "801377729": {
-    "youtube": "plgno45snwg", "official": false, "abs_start": 0, "abs_end": 25492, "duration": 25492,
-    "name": "Call of Duty: Black Ops Cold War #3",
-    "date": "2020-11-13",
-    "games": ["cod-bocw"],
-    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v801377729.ass"
-  },
-  "801377729.1": {
     "youtube": "DTRtUFC-uvg", "abs_start": 0, "abs_end": 10206, "duration": 10206,
     "name": "Call of Duty: Black Ops Cold War (сюжет) #1",
     "date": "2020-11-13",
     "games": ["cod-bo-cw"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v801377729.ass"
+  },
+  "801377729.1": {
+    "abs_start": 0, "abs_end": 25492, "duration": 25492,
+    "name": "Call of Duty: Black Ops Cold War #3",
+    "date": "2020-11-13",
+    "direct": "https://bsufiles.drhx.ru/streams/801377729.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/801377729.mp4/master.m3u8",
+    "games": ["cod-bocw"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v801377729.ass"
   },
   "802744738": {
@@ -14537,7 +14543,6 @@
     "youtube": "LXEh9YX2mAg", "abs_start": 0, "abs_end": 23557, "duration": 23557,
     "name": "Dark Souls 2: Scholar of the First Sin #6 (за мага)",
     "date": "2024-04-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2122093631.torrent",
     "games": ["ds2-scholar"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2122093631.ass"
   },

@@ -1551,7 +1551,7 @@
       { "segment": "771021424", "subrefs": [
         { "name": "2", "start": 12379 }
       ] },
-      { "segment": "801377729", "subrefs": [
+      { "segment": "801377729.1", "subrefs": [
         { "name": "3", "start": 10472 }
       ] },
       { "segment": "802744738", "subrefs": [
@@ -11652,7 +11652,7 @@
     "category": "finished",
     "id": "cod-bo-cw",
     "streams": [
-      { "segment": "801377729.1", "subrefs": [
+      { "segment": "801377729", "subrefs": [
         { "name": "1" }
       ] },
       { "segment": "804979766", "subrefs": [
