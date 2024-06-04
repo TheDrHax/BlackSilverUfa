@@ -14547,12 +14547,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2122093631.ass"
   },
   "2123000940": {
-    "abs_start": 0, "abs_end": 15087, "duration": 15087,
+    "abs_start": 0, "abs_end": 15109, "duration": 0,
     "name": "",
     "date": "2024-04-18",
-    "direct": "https://bsufiles.drhx.ru/streams/2123000940.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2123000940.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2123000940.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2123000940.ass"
   },
@@ -14792,5 +14789,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2162458886.torrent",
     "games": ["first-2024", "single-2024", "platform-8", "flathead", "nightmare-kart", "co-op", "sketchys-contract", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2162458886.ass"
+  },
+  "2163288328": {
+    "abs_start": 0, "abs_end": 21294, "duration": 21294,
+    "name": "Like a Dragon: Infinite Wealth #3",
+    "date": "2024-06-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2163288328.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2163288328.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2163288328.torrent",
+    "games": ["like-dragon-iw"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2163288328.ass"
   }
 }
