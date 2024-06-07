@@ -10474,9 +10474,9 @@
   },
   "1306396434": {
     "youtube": "1iRoV0C7dbs", "abs_start": 0, "abs_end": 22355, "duration": 22355,
-    "name": "Autopsy Simulator (демо) / FAR: Changing Tides - Демо / Scathe - Демо / Expedition Zero - Демо #2 / Daymare: 1994 Sandcastle #1 (демо) / Total War: Warhammer III",
+    "name": "Autopsy Simulator - Демо / FAR: Changing Tides - Демо / Scathe - Демо / Expedition Zero - Демо #2 / Daymare: 1994 Sandcastle #1 (демо) / Total War: Warhammer III",
     "date": "2022-02-22",
-    "games": ["first-2022", "far-changing-tides", "scathe", "expedition-zero", "daymare-1994-sc"],
+    "games": ["autopsy-sim", "far-changing-tides", "scathe", "expedition-zero", "daymare-1994-sc", "first-2022"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1306396434.ass"
   },
   "1307474557": {
@@ -14791,5 +14791,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2163288328.torrent",
     "games": ["like-dragon-iw"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2163288328.ass"
+  },
+  "2165854609": {
+    "abs_start": 0, "abs_end": 20198, "duration": 20198,
+    "name": "неПрофессиональный \"E3\" 2024 - Guerilla Collective (обзор) / Autopsy Simulator #1",
+    "date": "2024-06-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2165854609.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2165854609.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2165854609.torrent",
+    "games": ["e3_2024", "autopsy-sim"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2165854609+0.ass"
   }
 }

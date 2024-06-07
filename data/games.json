@@ -3427,6 +3427,16 @@
     ]
   },
   {
+    "name": "неПрофессиональный \"E3\" 2024",
+    "category": "expos",
+    "id": "e3_2024",
+    "streams": [
+      { "segment": "2165854609", "subrefs": [
+        { "name": "Guerilla Collective (обзор)", "start": 3162 }
+      ] }
+    ]
+  },
+  {
     "name": "неПрофессиональный E3 2017",
     "category": "expos",
     "id": "e3_2017",
@@ -7255,7 +7265,6 @@
         { "name": "Horizon Zero Dawn" }
       ] },
       { "segment": "1306396434", "subrefs": [
-        { "name": "Autopsy Simulator (демо)" },
         { "name": "Total War: Warhammer III", "start": 14527 }
       ] },
       { "segment": "1307474557", "subrefs": [
@@ -7508,6 +7517,19 @@
       ] },
       { "segment": "1690952607", "subrefs": [
         { "name": "The Thing (by PanzerCat)", "start": 14049 }
+      ] }
+    ]
+  },
+  {
+    "name": "Autopsy Simulator",
+    "category": "ongoing",
+    "id": "autopsy-sim",
+    "streams": [
+      { "segment": "1306396434", "subrefs": [
+        { "name": "Демо", "start": 1552 }
+      ] },
+      { "segment": "2165854609", "subrefs": [
+        { "name": "1", "start": 6989 }
       ] }
     ]
   },
@@ -8145,7 +8167,7 @@
   },
   {
     "name": "A Difficult Game About Climbing",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "climbing-game",
     "streams": [
       { "segment": "2083745262", "subrefs": [
