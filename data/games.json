@@ -3436,6 +3436,9 @@
       ] },
       { "segment": "2166179110", "subrefs": [
         { "name": "Summer Game Fest", "start": 1810 }
+      ] },
+      { "segment": "2166707321", "subrefs": [
+        { "name": "Devolver Direct", "start": 777 }
       ] }
     ]
   },
@@ -10600,6 +10603,9 @@
       ] },
       { "segment": "1964026834", "subrefs": [
         { "name": "4", "start": 795 }
+      ] },
+      { "segment": "2166707321", "subrefs": [
+        { "name": "Night Springs", "start": 5020 }
       ] }
     ]
   },
