@@ -8024,9 +8024,6 @@
       { "segment": "2162458886", "subrefs": [
         { "name": "The Rogue Prince of Persia", "start": 803 },
         { "name": "Soulmask", "start": 5090 }
-      ] },
-      { "segment": "2168445264", "subrefs": [
-        { "name": "Lucky Tower Ultimate (демо)", "start": 16056 }
       ] }
     ]
   },
@@ -8428,6 +8425,9 @@
       ] },
       { "segment": "2162458886", "subrefs": [
         { "name": "Doki Doki AI Interrogation", "start": 3027 }
+      ] },
+      { "segment": "2168445264", "subrefs": [
+        { "name": "Lucky Tower Ultimate (демо)", "start": 16056 }
       ] }
     ]
   },
