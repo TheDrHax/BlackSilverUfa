@@ -3439,6 +3439,11 @@
       ] },
       { "segment": "2166707321", "subrefs": [
         { "name": "Devolver Direct", "start": 777 }
+      ] },
+      { "segment": "2168445264", "subrefs": [
+        { "name": "Xbox Games Showcase (обзор)", "start": 833 },
+        { "name": "PC Gaming Show (обзор)", "start": 8002 },
+        { "name": "Future Games Show (обзор)", "start": 14690 }
       ] }
     ]
   },
@@ -8019,6 +8024,9 @@
       { "segment": "2162458886", "subrefs": [
         { "name": "The Rogue Prince of Persia", "start": 803 },
         { "name": "Soulmask", "start": 5090 }
+      ] },
+      { "segment": "2168445264", "subrefs": [
+        { "name": "Lucky Tower Ultimate (демо)", "start": 16056 }
       ] }
     ]
   },

@@ -14550,12 +14550,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2123000940.ass"
   },
   "2123160474": {
-    "abs_start": 0, "abs_end": 7283, "duration": 7283,
+    "abs_start": 0, "abs_end": 7297, "duration": 0,
     "name": "",
     "date": "2024-04-18",
-    "direct": "https://bsufiles.drhx.ru/streams/2123160474.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2123160474.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2123160474.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2123160474.ass"
   },
@@ -14815,5 +14812,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2166707321.torrent",
     "games": ["e3_2024", "alan-wake-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2166707321.ass"
+  },
+  "2168445264": {
+    "abs_start": 0, "abs_end": 21801, "duration": 21801,
+    "name": "неПрофессиональный \"E3\" 2024 - Xbox Games Showcase (обзор) | PC Gaming Show (обзор) | Future Games Show (обзор) / Lucky Tower Ultimate (демо)",
+    "date": "2024-06-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2168445264.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2168445264.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2168445264.torrent",
+    "games": ["e3_2024", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2168445264.ass"
   }
 }
