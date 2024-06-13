@@ -1813,6 +1813,9 @@
       ] },
       { "segment": "2159059575", "subrefs": [
         { "name": "7 (4D)", "start": 11841 }
+      ] },
+      { "segment": "2170904450", "subrefs": [
+        { "name": "8 (4D)", "start": 11655 }
       ] }
     ],
     "cover": 1
@@ -8035,6 +8038,10 @@
       ] },
       { "segment": "2170124389", "subrefs": [
         { "name": "Nancy Drew: Ghost Dogs of Moon Lake (Нэнси Дрю. Псы-призраки Лунного озера)", "start": 1288 }
+      ] },
+      { "segment": "2170904450", "subrefs": [
+        { "name": "Enotria: The Last Song", "start": 1194 },
+        { "name": "Flintlock: The Siege of Dawn", "start": 8230 }
       ] }
     ]
   },

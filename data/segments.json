@@ -14584,7 +14584,6 @@
     "youtube": "l4D_Gt4Q_J4", "abs_start": 0, "abs_end": 18235, "duration": 18235,
     "name": "Nightmare Collection: Telephone Call / Fancyland / Darwake: Awakening from the Nightmare (демо) / Carcass / Night Grove / Yo Bro, Whats That In Your Mirror Bro? / Dishwashing Simulator #1",
     "date": "2024-04-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2126590741.torrent",
     "games": ["single-2024", "first-2024", "dishwashing"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2126590741.ass"
   },
@@ -14592,7 +14591,6 @@
     "youtube": "SUOGqddCrRU", "abs_start": 0, "abs_end": 16776, "duration": 16776,
     "name": "Hades II (ранний доступ) / Dishwashing Simulator #2",
     "date": "2024-04-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2127410165.torrent",
     "games": ["single-2024", "dishwashing"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2127410165.ass"
   },
@@ -14835,5 +14833,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2170124389.torrent",
     "games": ["first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2170124389.ass"
+  },
+  "2170904450": {
+    "abs_start": 0, "abs_end": 28301, "duration": 28301,
+    "name": "Enotria: The Last Song / Flintlock: The Siege of Dawn / GTFO #8 (4D)",
+    "date": "2024-06-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2170904450.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2170904450.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2170904450.torrent",
+    "games": ["first-2024", "gtfo"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2170904450.ass"
   }
 }
