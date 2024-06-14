@@ -7539,7 +7539,7 @@
   },
   {
     "name": "Autopsy Simulator",
-    "category": "ongoing",
+    "category": "finished",
     "id": "autopsy-sim",
     "streams": [
       { "segment": "1306396434", "subrefs": [
@@ -7547,6 +7547,9 @@
       ] },
       { "segment": "2165854609", "subrefs": [
         { "name": "1", "start": 6989 }
+      ] },
+      { "segment": "2171772619", "subrefs": [
+        { "name": "2", "start": 610 }
       ] }
     ]
   },

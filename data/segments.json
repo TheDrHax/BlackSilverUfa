@@ -14831,5 +14831,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2170904450.torrent",
     "games": ["first-2024", "gtfo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2170904450.ass"
+  },
+  "2171772619": {
+    "abs_start": 0, "abs_end": 13289, "duration": 13289,
+    "name": "Autopsy Simulator #2",
+    "date": "2024-06-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2171772619.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2171772619.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2171772619.torrent",
+    "games": ["autopsy-sim"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2171772619.ass"
   }
 }
