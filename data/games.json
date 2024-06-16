@@ -7808,8 +7808,7 @@
         { "name": "Employee of the Month", "start": 5306 }
       ] },
       { "segment": "1976316443", "subrefs": [
-        { "name": "Polygon of Reality (демо)", "start": 1788 },
-        { "name": "BoneField: Bodycam Horror (демо)", "start": 9806 }
+        { "name": "Polygon of Reality (демо)", "start": 1788 }
       ] },
       { "segment": "1977184678", "subrefs": [
         { "name": "Exilium", "start": 2419 },
@@ -8036,8 +8035,7 @@
       ] },
       { "segment": "2169221839", "subrefs": [
         { "name": "The Alters (демо)", "start": 8186 },
-        { "name": "FUMES (демо)", "start": 16446 },
-        { "name": "Tormenture (демо)", "start": 24747 }
+        { "name": "FUMES (демо)", "start": 16446 }
       ] },
       { "segment": "2170124389", "subrefs": [
         { "name": "Nancy Drew: Ghost Dogs of Moon Lake (Нэнси Дрю. Псы-призраки Лунного озера)", "start": 1288 }
@@ -8050,6 +8048,24 @@
         { "name": "Fallen Aces", "start": 2599 },
         { "name": "Hollywood Animal", "start": 5617 },
         { "name": "Caravan SandWitch (демо)", "start": 11466 }
+      ] },
+      { "segment": "2173541595", "subrefs": [
+        { "name": "I.O. Setter (демо)", "start": 5384 },
+        { "name": "Abaddon (демо)", "start": 13528 },
+        { "name": "Paranormal Investigators", "start": 14460 }
+      ] }
+    ]
+  },
+  {
+    "name": "BoneField: Bodycam Horror (демо)",
+    "category": "ongoing",
+    "id": "bonefield",
+    "streams": [
+      { "segment": "1976316443", "subrefs": [
+        { "name": "1", "start": 9806 }
+      ] },
+      { "segment": "2173541595", "subrefs": [
+        { "name": "2", "start": 12189 }
       ] }
     ]
   },
@@ -8456,6 +8472,26 @@
         { "name": "Phantom Line (демо)", "start": 5187 },
         { "name": "Steel Seed (демо)", "start": 17514 },
         { "name": "Reason Unfound (демо)", "start": 23003 }
+      ] },
+      { "segment": "2173541595", "subrefs": [
+        { "name": "[Nightmare Files] Clap Clap", "start": 2863 },
+        { "name": "Bite Night", "start": 7589 },
+        { "name": "The Crawler", "start": 10376 },
+        { "name": "Don't Let Her In", "start": 11411 },
+        { "name": "Mbembe Radio", "start": 15069 }
+      ] }
+    ]
+  },
+  {
+    "name": "Tormenture (демо)",
+    "category": "finished",
+    "id": "tormenture",
+    "streams": [
+      { "segment": "2169221839", "subrefs": [
+        { "name": "1", "start": 24747 }
+      ] },
+      { "segment": "2173541595", "subrefs": [
+        { "name": "2", "start": 16710 }
       ] }
     ]
   },
@@ -14779,7 +14815,7 @@
   },
   {
     "name": "Dark Souls: Remastered",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "ds-remastered",
     "streams": [
       { "segment": "260173384", "subrefs": [
