@@ -6002,9 +6002,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v547176657.ass"
   },
   "548170121": {
-    "youtube": "uUJJLFl55m8", "official": false, "abs_start": 0, "abs_end": 25061, "duration": 25061,
+    "abs_start": 0, "abs_end": 25061, "duration": 25061,
     "name": "Grand Theft Auto: San Andreas #8 / Gears of War 4 #3",
     "date": "2020-02-07",
+    "direct": "https://bsufiles.drhx.ru/streams/548170121.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/548170121.mp4/master.m3u8",
     "games": ["gta-san-andreas", "gears-of-war-4"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v548170121.ass",
     "note": "<a href=\"https://youtu.be/4U4FcuihhrE\">Официальная запись</a> сломана (недоступно качество выше 360p)"
@@ -14595,7 +14597,6 @@
     "youtube": "8ZsUPvkyE_E", "abs_start": 0, "abs_end": 26375, "duration": 26375,
     "name": "Dishwashing Simulator #3 / Abiotic Factor #3 / Phantom Fury / Sketchy's Contract #1 / Lethal Company #10",
     "date": "2024-05-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2136987621.torrent",
     "games": ["dishwashing", "abiotic-factor", "first-2024", "sketchys-contract", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2136987621.ass"
   },
