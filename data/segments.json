@@ -14604,7 +14604,6 @@
     "youtube": "k2d04TFYFCI", "abs_start": 0, "abs_end": 18791, "duration": 18791,
     "name": "Confusion / Eyeless Jack / Hazing: Hazing Nightshift / Please Stop Crying / Mimic Search / The Classrooms #1 (ранний доступ) / Laundry Night / Late Night Shift / The VHS Paradise / Moves Away / Poltergeist Watcher #1",
     "date": "2024-05-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2137947745.torrent",
     "games": ["single-2024", "classrooms", "polter-watcher"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2137947745.ass"
   },
@@ -14863,5 +14862,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2175081669.torrent",
     "games": ["single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2175081669.ass"
+  },
+  "2178583785": {
+    "abs_start": 0, "abs_end": 31265, "duration": 31265,
+    "name": "Elden Ring #17 (Shadow of Erdtree #1)",
+    "date": "2024-06-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2178583785.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2178583785.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2178583785.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2178583785.ass"
   }
 }

@@ -8194,7 +8194,7 @@
   },
   {
     "name": "Dragon's Dogma II",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "dd-2",
     "streams": [
       { "segment": "2097054127", "subrefs": [
@@ -10553,6 +10553,9 @@
       ] },
       { "segment": "1431310944", "subrefs": [
         { "name": "16 (aftergame)" }
+      ] },
+      { "segment": "2178583785", "subrefs": [
+        { "name": "17 (Shadow of Erdtree #1)", "start": 909 }
       ] }
     ]
   },
