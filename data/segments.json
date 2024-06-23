@@ -14611,7 +14611,6 @@
     "youtube": "iLPyHNyJ5sY", "abs_start": 0, "abs_end": 18616, "duration": 18616,
     "name": "The Classrooms #2 / Candyland: Sweet Survival / Haisonmeguri / Poltergeist Watcher #2",
     "date": "2024-05-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2138806382.torrent",
     "games": ["classrooms", "first-2024", "polter-watcher"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2138806382.ass"
   },
@@ -14870,5 +14869,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2178583785.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2178583785.ass"
+  },
+  "2179513114": {
+    "abs_start": 0, "abs_end": 28883, "duration": 28883,
+    "name": "Elden Ring #18 (Shadow of Erdtree #2)",
+    "date": "2024-06-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2179513114.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2179513114.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2179513114.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2179513114.ass"
   }
 }
