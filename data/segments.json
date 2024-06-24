@@ -14618,7 +14618,6 @@
     "youtube": "_Fdd0DiW8mQ", "abs_start": 0, "abs_end": 20796, "duration": 20796,
     "name": "Pine Harbor - Релиз / Content Warning #2 / Lethal Company #11",
     "date": "2024-05-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2139593833.torrent",
     "games": ["pine-harbor", "content-warn", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2139593833.ass"
   },
@@ -14626,7 +14625,6 @@
     "youtube": "Y8E9bR-ZE5U", "abs_start": 0, "abs_end": 18363, "duration": 18363,
     "name": "They Are Here: Alien Abduction Horror - Демо 3 / The Cursed Tape / Is This Game Trying to Kill Me?: Preface / Void Whispers / Cursed Enigma: The Midnight Apartment / Surveillance",
     "date": "2024-05-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2140448165.torrent",
     "games": ["they-are-here", "single-2024", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2140448165.ass"
   },
@@ -14877,5 +14875,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2179513114.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2179513114.ass"
+  },
+  "2180359283": {
+    "abs_start": 0, "abs_end": 34383, "duration": 34383,
+    "name": "Elden Ring #19 (Shadow of Erdtree #3)",
+    "date": "2024-06-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2180359283.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2180359283.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2180359283.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2180359283.ass"
   }
 }
