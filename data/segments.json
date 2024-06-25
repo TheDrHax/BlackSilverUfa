@@ -14632,7 +14632,6 @@
     "youtube": "snVl_BHdyD8", "abs_start": 0, "abs_end": 18865, "duration": 18865,
     "name": "The Bridge Curse 2: The Extrication #1",
     "date": "2024-05-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2142133135.torrent",
     "games": ["bridge-curse-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2142133135.ass"
   },
@@ -14640,7 +14639,6 @@
     "youtube": "eBE4NQDu0zg", "abs_start": 0, "abs_end": 21597, "duration": 21597,
     "name": "The Bridge Curse 2: The Extrication #2 / SCP: Descent",
     "date": "2024-05-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2143015001.torrent",
     "games": ["bridge-curse-2", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2143015001.ass"
   },
@@ -14885,5 +14883,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2180359283.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2180359283.ass"
+  },
+  "2181214426": {
+    "abs_start": 0, "abs_end": 31769, "duration": 31769,
+    "name": "Elden Ring #20 (Shadow of Erdtree #4)",
+    "date": "2024-06-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2181214426.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2181214426.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2181214426.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2181214426.ass"
   }
 }
