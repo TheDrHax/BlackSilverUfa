@@ -14643,7 +14643,6 @@
     "youtube": "XDtNheUwB0g", "abs_start": 0, "abs_end": 16062, "duration": 16062,
     "name": "Necrophosis (демо) / Bora (by lumdumbora) / Ritual / Take Out the Trash / A Missing Salesman / Goofy Night Stalker: Home Alone / Little Jimmy's Gift / Old Times",
     "date": "2024-05-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2143886218.torrent",
     "games": ["single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2143886218.ass"
   },
@@ -14886,5 +14885,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2181214426.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2181214426.ass"
+  },
+  "2182067794": {
+    "abs_start": 0, "abs_end": 33307, "duration": 33307,
+    "name": "Elden Ring #21 (Shadow of Erdtree #5)",
+    "date": "2024-06-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2182067794.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2182067794.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2182067794.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2182067794.ass"
   }
 }
