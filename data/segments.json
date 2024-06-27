@@ -14650,7 +14650,6 @@
     "youtube": "cERftvvAHnE", "abs_start": 0, "abs_end": 18661, "duration": 18661,
     "name": "Fear the Moon - Прохождение / Little Kitty, Big City - Релиз",
     "date": "2024-05-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2144665696.torrent",
     "games": ["fear-the-moon", "lkbc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2144665696.ass"
   },
@@ -14658,7 +14657,6 @@
     "youtube": "ojAwIO2FWqg", "abs_start": 0, "abs_end": 18191, "duration": 18191,
     "name": "The Stairway 7 / Le Dernier Don / April 24th / Live Meat / Rose and Cross - Демо / The Lancaster Leak: O'Brien State Park",
     "date": "2024-05-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2147132532.torrent",
     "games": ["single-2024", "first-2024", "rose-and-cross"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2147132532.ass"
   },
@@ -14893,5 +14891,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2182067794.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2182067794.ass"
+  },
+  "2182941480": {
+    "abs_start": 0, "abs_end": 33160, "duration": 33160,
+    "name": "Elden Ring #22 (Shadow of Erdtree #6)",
+    "date": "2024-06-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2182941480.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2182941480.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2182941480.torrent",
+    "games": ["elden-ring"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2182941480.ass"
   }
 }
