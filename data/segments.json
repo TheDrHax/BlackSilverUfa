@@ -5539,16 +5539,18 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v502940448.ass"
   },
   "503413959": {
-    "youtube": "y_i2qnRp0HU", "official": false, "abs_start": 0, "abs_end": 18857, "duration": 18857,
+    "abs_start": 0, "abs_end": 18905, "duration": 0,
     "name": "Mafia II #3",
     "date": "2019-11-03",
     "games": ["mafia-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v503413959.ass"
   },
   "504248004": {
-    "youtube": "oVtpzVXs2Qw", "abs_start": 0, "abs_end": 18777, "duration": 18777,
+    "abs_start": 0, "abs_end": 18777, "duration": 18777,
     "name": "Need for Speed Heat / Red Dead Redemption 2 (PC) / Mafia II #4",
     "date": "2019-11-05",
+    "direct": "https://bsufiles.drhx.ru/streams/504248004.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/504248004.mp4/master.m3u8",
     "games": ["first-2019", "mafia-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v504248004.ass"
   },
