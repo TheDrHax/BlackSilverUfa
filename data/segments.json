@@ -5539,9 +5539,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v502940448.ass"
   },
   "503413959": {
-    "abs_start": 0, "abs_end": 18905, "duration": 0,
+    "abs_start": 0, "abs_end": 18857, "duration": 18857,
     "name": "Mafia II #3",
     "date": "2019-11-03",
+    "direct": "https://bsufiles.drhx.ru/streams/503413959.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/503413959.mp4/master.m3u8",
     "games": ["mafia-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v503413959.ass"
   },
@@ -14680,7 +14682,6 @@
     "youtube": "oSc6KK7j-5M", "abs_start": 0, "abs_end": 19402, "duration": 19402,
     "name": "Unknown Tapes (демо) / Descending The Woods / Overtime Heroes Exit 8 / Sonic.EXE / Midnight Lane / Teeth of Glass",
     "date": "2024-05-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2149736276.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2149736276.ass"
   },
