@@ -14689,7 +14689,6 @@
     "youtube": "n5do6sbtYLQ", "abs_start": 0, "abs_end": 14866, "duration": 14866,
     "name": "Whispers in the Void / The Tower on the Borderland / Rose and Cross - Прохождение / Indigo Park",
     "date": "2024-05-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2150566668.torrent",
     "games": ["first-2024", "rose-and-cross", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2150566668.ass"
   },
@@ -14908,5 +14907,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2183779952.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2183779952.ass"
+  },
+  "2188101827": {
+    "abs_start": 0, "abs_end": 18755, "duration": 18755,
+    "name": "White Day 2: The Flower That Tells Lies",
+    "date": "2024-07-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2188101827.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2188101827.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2188101827.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2188101827.ass"
   }
 }
