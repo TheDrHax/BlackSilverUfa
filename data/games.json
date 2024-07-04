@@ -6388,14 +6388,24 @@
     ]
   },
   {
+    "name": "Bloodborne",
+    "category": "ongoing",
+    "id": "bloodborne",
+    "streams": [
+      { "segment": "001508100", "subrefs": [
+        { "name": "Первый взгляд", "start": 3737 }
+      ] },
+      { "segment": "2188923473", "subrefs": [
+        { "name": "1", "start": 850 }
+      ] }
+    ]
+  },
+  {
     "name": "Первый взгляд 2015",
     "category": "first",
     "type": "list",
     "id": "first-2015",
     "streams": [
-      { "segment": "001508100", "subrefs": [
-        { "name": "Bloodborne", "start": 3737 }
-      ] },
       { "segment": "001508120", "subrefs": [
         { "name": "Bioshock Infinite", "start": 4309 }
       ] }
@@ -7604,7 +7614,6 @@
         { "name": "I Am Future (демо)", "start": 19852 }
       ] },
       { "segment": "1741779316", "subrefs": [
-        { "name": "White Day 2: The Flower That Tells Lies", "start": 13068 },
         { "name": "Paranormal VHS (демо)", "start": 17420 },
         { "name": "Echoes of the Living (демо)", "start": 18278 }
       ] },
@@ -8053,9 +8062,19 @@
         { "name": "I.O. Setter (демо)", "start": 5384 },
         { "name": "Abaddon (демо)", "start": 13528 },
         { "name": "Paranormal Investigators", "start": 14460 }
+      ] }
+    ]
+  },
+  {
+    "name": "White Day 2: The Flower That Tells Lies",
+    "category": "ongoing",
+    "id": "white-day-2",
+    "streams": [
+      { "segment": "1741779316", "subrefs": [
+        { "name": "Первый взгляд", "start": 13068 }
       ] },
       { "segment": "2188101827", "subrefs": [
-        { "name": "White Day 2: The Flower That Tells Lies", "start": 4760 }
+        { "name": "1", "start": 4760 }
       ] }
     ]
   },

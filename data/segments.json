@@ -1,9 +1,9 @@
 {
   "001508100": {
     "youtube": "GyJD5JyYWig", "official": false, "abs_start": 0, "abs_end": 6194, "duration": 6194,
-    "name": "Первые стримы #1 / Metro 2033 Redux #1 / Bloodborne",
+    "name": "Первые стримы #1 / Metro 2033 Redux #1 / Bloodborne - Первый взгляд",
     "date": "2015-08-10",
-    "games": ["testing", "metro-2033", "first-2015"],
+    "games": ["testing", "metro-2033", "bloodborne"],
     "note": "Запись предоставил <a href=\"https://vk.com/video87862793_171542985\">Олег Степанов</a>."
   },
   "001508120": {
@@ -12218,9 +12218,9 @@
   },
   "1741779316": {
     "youtube": "joN4unl_HaE", "abs_start": 0, "abs_end": 22204, "duration": 22204,
-    "name": "9 Childs Street / Leak (демо) / Missing Hiker / White Day 2: The Flower That Tells Lies / Paranormal VHS (демо) / Echoes of the Living (демо)",
+    "name": "9 Childs Street / Leak (демо) / Missing Hiker / White Day 2: The Flower That Tells Lies - Первый взгляд / Paranormal VHS (демо) / Echoes of the Living (демо)",
     "date": "2023-02-18",
-    "games": ["single-2023", "first-2023"],
+    "games": ["single-2023", "white-day-2", "first-2023"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1741779316.ass"
   },
   "1743703656": {
@@ -14696,7 +14696,6 @@
     "youtube": "HpMr_C8vt_U", "abs_start": 0, "abs_end": 21302, "duration": 21302,
     "name": "Silent Hill: Fan Remake Demo / Dr. Finklestein's Marvelous Room (демо) / We Are Not Alone - Contact / The Lost Fear / Astral Maze: Escape the Horror / Bloody Hallowfest",
     "date": "2024-05-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2155743330.torrent",
     "games": ["first-2024", "single-2024", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2155743330+0.ass"
   },
@@ -14910,10 +14909,20 @@
   },
   "2188101827": {
     "youtube": "Mz_i6-grZzI", "abs_start": 0, "abs_end": 18756, "duration": 18756,
-    "name": "White Day 2: The Flower That Tells Lies",
+    "name": "White Day 2: The Flower That Tells Lies #1",
     "date": "2024-07-03",
     "torrent": "https://bsufiles.drhx.ru/streams/2188101827.torrent",
-    "games": ["first-2024"],
+    "games": ["white-day-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2188101827.ass"
+  },
+  "2188923473": {
+    "abs_start": 0, "abs_end": 27693, "duration": 27693,
+    "name": "Bloodborne #1",
+    "date": "2024-07-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2188923473.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2188923473.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2188923473.torrent",
+    "games": ["bloodborne"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2188923473.ass"
   }
 }
