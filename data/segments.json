@@ -123,9 +123,11 @@
     "games": ["mgs-v"]
   },
   "001509220": {
-    "youtube": "0VwCp16l1nY", "abs_start": 0, "abs_end": 11392, "duration": 11392,
+    "abs_start": 0, "abs_end": 11392, "duration": 11392,
     "name": "Metal Gear Solid V: Phantom Pain #10",
     "date": "2015-09-22",
+    "direct": "https://bsufiles.drhx.ru/streams/001509220.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001509220.mp4/master.m3u8",
     "games": ["mgs-v"]
   },
   "001509230": {
@@ -135,15 +137,19 @@
     "games": ["mgs-v"]
   },
   "001510010": {
-    "youtube": "3NDFgfrZMYc", "abs_start": 0, "abs_end": 6021, "duration": 6021,
+    "abs_start": 0, "abs_end": 6021, "duration": 6021,
     "name": "Metal Gear Solid V: Phantom Pain #12",
     "date": "2015-10-01",
+    "direct": "https://bsufiles.drhx.ru/streams/001510010.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001510010.mp4/master.m3u8",
     "games": ["mgs-v"]
   },
   "001510050": {
-    "youtube": "jmK_ckHASnM", "official": false, "abs_start": 0, "abs_end": 16448, "duration": 16448,
+    "abs_start": 0, "abs_end": 16447, "duration": 16447,
     "name": "Metal Gear Solid V: Phantom Pain #13",
     "date": "2015-10-05",
+    "direct": "https://bsufiles.drhx.ru/streams/001510050.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001510050.mp4/master.m3u8",
     "games": ["mgs-v"]
   },
   "001510060": {
@@ -7504,9 +7510,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v787564730.ass"
   },
   "791632745": {
-    "youtube": "XcYlU1YMlwI", "official": false, "abs_start": 0, "abs_end": 28803, "duration": 28803,
+    "abs_start": 0, "abs_end": 28803, "duration": 28803,
     "name": "Metal Gear Solid V: Ground Zeroes / Metal Gear Solid V: Phantom Pain (злое прохождение) #1",
     "date": "2020-11-04",
+    "direct": "https://bsufiles.drhx.ru/streams/791632745.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/791632745.mp4/master.m3u8",
     "games": ["single-2020", "mgs-v-2020"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v791632745.ass"
   },
@@ -14703,7 +14711,6 @@
     "youtube": "UPnEiRxLMiM", "abs_start": 0, "abs_end": 18377, "duration": 18377,
     "name": "Witch's Doll / Stairway / Haunted Bloodlines",
     "date": "2024-05-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2156572508.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2156572508+0.ass"
   },
@@ -14711,7 +14718,6 @@
     "youtube": "JQmSkP8009E", "abs_start": 0, "abs_end": 17730, "duration": 17730,
     "name": "Faint Call / Project13: Nightwatch / Okaeri / The Rainman",
     "date": "2024-05-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2157418915.torrent",
     "games": ["single-2024", "first-2024", "chillas-art"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2157418915.ass"
   },
