@@ -145,11 +145,9 @@
     "games": ["mgs-v"]
   },
   "001510050": {
-    "abs_start": 0, "abs_end": 16447, "duration": 16447,
+    "abs_start": 0, "abs_end": 16447, "duration": 0,
     "name": "Metal Gear Solid V: Phantom Pain #13",
     "date": "2015-10-05",
-    "direct": "https://bsufiles.drhx.ru/streams/001510050.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/001510050.mp4/master.m3u8",
     "games": ["mgs-v"]
   },
   "001510060": {
@@ -14725,7 +14723,6 @@
     "youtube": "Zqwbxq8jySw", "abs_start": 0, "abs_end": 18496, "duration": 18496,
     "name": "PlayerUnknown's Battlegrounds #7 / Tricky Towers #35",
     "date": "2024-05-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2158261633.torrent",
     "games": ["pubg", "tricky-towers"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2158261633+0.ass"
   },
@@ -14928,5 +14925,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2188923473.torrent",
     "games": ["bloodborne"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2188923473.ass"
+  },
+  "2189730910": {
+    "abs_start": 0, "abs_end": 22215, "duration": 22215,
+    "name": "Bloodborne #2",
+    "date": "2024-07-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2189730910.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2189730910.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2189730910.torrent",
+    "games": ["bloodborne"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2189730910.ass"
   }
 }
