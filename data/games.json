@@ -738,6 +738,11 @@
       ] },
       { "segment": "2162458886", "subrefs": [
         { "name": "Panicore", "start": 12258 }
+      ] },
+      { "segment": "2190605372", "subrefs": [
+        { "name": "Dungeonborne", "start": 1448 },
+        { "name": "Chained Together", "start": 9602 },
+        { "name": "Murky Divers", "start": 17585 }
       ] }
     ]
   },
@@ -874,6 +879,9 @@
       ] },
       { "segment": "2162458886", "subrefs": [
         { "name": "12", "start": 17477 }
+      ] },
+      { "segment": "2190605372", "subrefs": [
+        { "name": "13", "start": 21209 }
       ] }
     ]
   },
