@@ -14737,7 +14737,6 @@
     "youtube": "AO7YyOebL0w", "abs_start": 0, "abs_end": 18159, "duration": 18159,
     "name": "Вечер Ретро Игр (ВРИ) #11 / Silent Hill #3 (заново, ВРИ) / Alien Resurrection / Dune 2000 #2",
     "date": "2024-06-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2160830982.torrent",
     "games": ["retro", "sh", "first-2024", "dune-2000"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2160830982.ass"
   },
@@ -14940,5 +14939,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2190605372.torrent",
     "games": ["co-op", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2190605372.ass"
+  },
+  "2191494883": {
+    "abs_start": 0, "abs_end": 19329, "duration": 19329,
+    "name": "Grouls / Egg Fried Rice / Dad / Someone's Outside / I See You Now / The Other One / Cassiculus / It's just a prank",
+    "date": "2024-07-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2191494883.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2191494883.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2191494883.torrent",
+    "games": ["first-2024", "single-2024", "616-games"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2191494883.ass"
   }
 }
