@@ -14744,7 +14744,6 @@
     "youtube": "sin4zsd7un8", "abs_start": 0, "abs_end": 18694, "duration": 18694,
     "name": "Scholar's Mate #1 / Baisu / Platform 8 #1 / Nightmare Kart #1 / Mourning Tide / Flathead #1",
     "date": "2024-06-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2161695467.torrent",
     "games": ["scholars-mate", "single-2024", "platform-8", "nightmare-kart", "flathead"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2161695467+0.ass"
   },
@@ -14752,7 +14751,6 @@
     "youtube": "6pKxS7akckQ", "abs_start": 0, "abs_end": 26674, "duration": 26674,
     "name": "The Rogue Prince of Persia / Doki Doki AI Interrogation / Soulmask / Platform 8 #2 / Flathead #2 / Nightmare Kart #2 / Panicore / Sketchy's Contract #2 / Lethal Company #12",
     "date": "2024-06-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2162458886.torrent",
     "games": ["first-2024", "single-2024", "platform-8", "flathead", "nightmare-kart", "co-op", "sketchys-contract", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2162458886.ass"
   },
@@ -14949,5 +14947,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2191494883.torrent",
     "games": ["first-2024", "single-2024", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2191494883.ass"
+  },
+  "2192277031": {
+    "abs_start": 0, "abs_end": 24592, "duration": 24592,
+    "name": "Bloodborne #3",
+    "date": "2024-07-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2192277031.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2192277031.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2192277031.torrent",
+    "games": ["bloodborne"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2192277031.ass"
   }
 }
