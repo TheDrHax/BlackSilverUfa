@@ -6400,7 +6400,7 @@
   },
   {
     "name": "Bloodborne",
-    "category": "ongoing",
+    "category": "finished",
     "id": "bloodborne",
     "streams": [
       { "segment": "001508100", "subrefs": [
@@ -6414,6 +6414,9 @@
       ] },
       { "segment": "2192277031", "subrefs": [
         { "name": "3", "start": 559 }
+      ] },
+      { "segment": "2193102588", "subrefs": [
+        { "name": "4", "start": 604 }
       ] }
     ]
   },
@@ -8209,7 +8212,7 @@
   },
   {
     "name": "Surveillance Work",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "surveillance-work",
     "streams": [
       { "segment": "2109539858", "subrefs": [
@@ -8222,7 +8225,7 @@
   },
   {
     "name": "Mouthhole",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "mouthhole",
     "streams": [
       { "segment": "2113378651", "subrefs": [

@@ -14758,7 +14758,6 @@
     "youtube": "Zlw3BPgT8zs", "abs_start": 0, "abs_end": 21268, "duration": 21268,
     "name": "Like a Dragon: Infinite Wealth #3",
     "date": "2024-06-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2163288328.torrent",
     "games": ["like-dragon-iw"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2163288328.ass"
   },
@@ -14953,5 +14952,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2192277031.torrent",
     "games": ["bloodborne"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2192277031.ass"
+  },
+  "2193102588": {
+    "abs_start": 0, "abs_end": 30694, "duration": 30694,
+    "name": "Bloodborne #4",
+    "date": "2024-07-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2193102588.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2193102588.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2193102588.torrent",
+    "games": ["bloodborne"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2193102588.ass"
   }
 }
