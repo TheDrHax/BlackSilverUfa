@@ -741,8 +741,24 @@
       ] },
       { "segment": "2190605372", "subrefs": [
         { "name": "Dungeonborne", "start": 1448 },
-        { "name": "Chained Together", "start": 9602 },
         { "name": "Murky Divers", "start": 17585 }
+      ] },
+      { "segment": "2193968354", "subrefs": [
+        { "name": "Dark and Darker", "start": 2476 },
+        { "name": "Pilgrim", "start": 10025 }
+      ] }
+    ]
+  },
+  {
+    "name": "Chained Together",
+    "category": "co-op",
+    "id": "chained-together",
+    "streams": [
+      { "segment": "2190605372", "subrefs": [
+        { "name": "1", "start": 9602 }
+      ] },
+      { "segment": "2193968354", "subrefs": [
+        { "name": "2", "start": 17907 }
       ] }
     ]
   },
@@ -7378,7 +7394,6 @@
         { "name": "Escape The Ayuwoki", "start": 20683 }
       ] },
       { "segment": "1502569152", "subrefs": [
-        { "name": "Anger Foot", "start": 13101 },
         { "name": "Sker Ritual (демо)", "start": 17368 },
         { "name": "The Last Worker (демо)", "start": 18104 },
         { "name": "Midnight Fight Express (демо)", "start": 19572 }
@@ -7564,6 +7579,19 @@
       ] },
       { "segment": "1690952607", "subrefs": [
         { "name": "The Thing (by PanzerCat)", "start": 14049 }
+      ] }
+    ]
+  },
+  {
+    "name": "Anger Foot",
+    "category": "ongoing",
+    "id": "anger-foot",
+    "streams": [
+      { "segment": "1502569152", "subrefs": [
+        { "name": "Демо", "start": 13101 }
+      ] },
+      { "segment": "2193968354", "subrefs": [
+        { "name": "Релиз", "start": 684 }
       ] }
     ]
   },

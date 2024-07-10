@@ -10881,9 +10881,9 @@
   },
   "1502569152": {
     "youtube": "8G5QlkS5iPg", "abs_start": 0, "abs_end": 21671, "duration": 21671,
-    "name": "Summer Game Fest 2022 - PC Gaming Show (обзор) / SCP: Secret Files - Демо / Cult of the Lamb - Демо / Anger Foot / The Fridge Is Red - Демо / Sker Ritual (демо) / The Last Worker (демо) / Midnight Fight Express (демо)",
+    "name": "Summer Game Fest 2022 - PC Gaming Show (обзор) / SCP: Secret Files - Демо / Cult of the Lamb - Демо / Anger Foot - Демо / The Fridge Is Red - Демо / Sker Ritual (демо) / The Last Worker (демо) / Midnight Fight Express (демо)",
     "date": "2022-06-13",
-    "games": ["sgf-22", "scp-sf", "cult-ot-lamb", "first-2022", "red-bridge"],
+    "games": ["sgf-22", "scp-sf", "cult-ot-lamb", "anger-foot", "red-bridge", "first-2022"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1502569152.ass"
   },
   "1503541091": {
@@ -14765,7 +14765,6 @@
     "youtube": "yKEzB5awY9g", "abs_start": 0, "abs_end": 20199, "duration": 20199,
     "name": "неПрофессиональный \"E3\" 2024 - Guerilla Collective (обзор) / Autopsy Simulator #1",
     "date": "2024-06-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2165854609.torrent",
     "games": ["e3_2024", "autopsy-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2165854609+0.ass"
   },
@@ -14931,10 +14930,10 @@
   },
   "2190605372": {
     "youtube": "0BKWU7iAmM0", "abs_start": 0, "abs_end": 30582, "duration": 30582,
-    "name": "Dungeonborne / Chained Together / Murky Divers / Lethal Company #13",
+    "name": "Dungeonborne / Chained Together #1 / Murky Divers / Lethal Company #13",
     "date": "2024-07-06",
     "torrent": "https://bsufiles.drhx.ru/streams/2190605372.torrent",
-    "games": ["co-op", "lethal-company"],
+    "games": ["co-op", "chained-together", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2190605372.ass"
   },
   "2191494883": {
@@ -14960,5 +14959,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2193102588.torrent",
     "games": ["bloodborne"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2193102588.ass"
+  },
+  "2193968354": {
+    "abs_start": 0, "abs_end": 26483, "duration": 26483,
+    "name": "Anger Foot - Релиз / Dark and Darker / Pilgrim / Chained Together #2",
+    "date": "2024-07-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2193968354.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2193968354.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2193968354.torrent",
+    "games": ["anger-foot", "co-op", "chained-together"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2193968354.ass"
   }
 }
