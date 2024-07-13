@@ -14772,7 +14772,6 @@
     "youtube": "0n07XEK4ltw", "abs_start": 0, "abs_end": 9375, "duration": 9375,
     "name": "неПрофессиональный \"E3\" 2024 - Summer Game Fest",
     "date": "2024-06-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2166179110.torrent",
     "games": ["e3_2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2166179110.ass"
   },
@@ -14967,5 +14966,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2193968354.torrent",
     "games": ["anger-foot", "co-op", "chained-together"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2193968354.ass"
+  },
+  "2196566763": {
+    "abs_start": 0, "abs_end": 17347, "duration": 17347,
+    "name": "The Renovator: Origins",
+    "date": "2024-07-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2196566763.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2196566763.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2196566763.torrent",
+    "games": ["single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2196566763+0.ass"
   }
 }
