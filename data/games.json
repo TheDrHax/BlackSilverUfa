@@ -4585,7 +4585,6 @@
         { "name": "The Touch", "start": 3065 },
         { "name": "Alpen Ghoul: Prologue", "start": 3714 },
         { "name": "The Portraits", "start": 9101 },
-        { "name": "The Renovator: Origins", "start": 10369 },
         { "name": "see no FEAR", "start": 12436 },
         { "name": "Manacle", "start": 13153 },
         { "name": "Cry of the Mermaid", "start": 16956 }
@@ -5322,6 +5321,9 @@
       ] },
       { "segment": "2191494883", "subrefs": [
         { "name": "Dad", "start": 7942 }
+      ] },
+      { "segment": "2197410316", "subrefs": [
+        { "name": "Halloween Revenge", "start": 5753 }
       ] }
     ]
   },
@@ -8115,6 +8117,11 @@
         { "name": "Grouls", "start": 2772 },
         { "name": "Someone's Outside", "start": 12044 },
         { "name": "I See You Now", "start": 12303 }
+      ] },
+      { "segment": "2197410316", "subrefs": [
+        { "name": "Full Fathom (демо)", "start": 2535 },
+        { "name": "Tremors", "start": 13314 },
+        { "name": "Shadow Fang", "start": 15189 }
       ] }
     ]
   },
@@ -8564,8 +8571,25 @@
         { "name": "Cassiculus", "start": 14288 },
         { "name": "It's just a prank", "start": 16801 }
       ] },
+      { "segment": "2197410316", "subrefs": [
+        { "name": "Finding Her", "start": 8993 },
+        { "name": "Наследники", "start": 9762 },
+        { "name": "Something Bad is on the Moon", "start": 12418 },
+        { "name": "Nightfall Whiskers", "start": 15918 },
+        { "name": "Holbrook Hotel", "start": 16921 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Renovator: Origins",
+    "category": "finished",
+    "id": "renovator",
+    "streams": [
+      { "segment": "1782635771", "subrefs": [
+        { "name": "Демо", "start": 10369 }
+      ] },
       { "segment": "2196566763", "subrefs": [
-        { "name": "The Renovator: Origins", "start": 3104 }
+        { "name": "Релиз", "start": 3104 }
       ] }
     ]
   },
