@@ -14024,9 +14024,9 @@
   },
   "2026423132": {
     "youtube": "U5S--mS_CEg", "abs_start": 0, "abs_end": 15782, "duration": 15782,
-    "name": "Amygdala: Prelude (демо) / Drive Me to Hell / Supernatural (демо)",
+    "name": "Amygdala: Prelude (демо) / Drive Me to Hell / Supernatural #1",
     "date": "2024-01-08",
-    "games": ["single-2024"],
+    "games": ["single-2024", "supernatural"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2026423132.ass"
   },
   "2027362039": {
@@ -14980,10 +14980,20 @@
   },
   "2198179845": {
     "youtube": "txytmmfLQqQ", "abs_start": 0, "abs_end": 23919, "duration": 23919,
-    "name": "Full Fathom (демо) #2 / Fork Road / Alessia's Dollhouse / Agujero / Phantoms / CRUELTY / Supernatural",
+    "name": "Full Fathom (демо) #2 / Fork Road / Alessia's Dollhouse / Agujero / Phantoms / CRUELTY / Supernatural #2",
     "date": "2024-07-15",
     "torrent": "https://bsufiles.drhx.ru/streams/2198179845.torrent",
-    "games": ["full-fathom", "single-2024", "first-2024"],
+    "games": ["full-fathom", "single-2024", "first-2024", "supernatural"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2198179845+0.ass"
+  },
+  "2199958279": {
+    "abs_start": 0, "abs_end": 18333, "duration": 18333,
+    "name": "Nobody Wants to Die",
+    "date": "2024-07-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2199958279.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2199958279.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2199958279.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2199958279.ass"
   }
 }

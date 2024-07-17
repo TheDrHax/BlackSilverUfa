@@ -8127,6 +8127,9 @@
         { "name": "Agujero", "start": 10895 },
         { "name": "Phantoms", "start": 12051 },
         { "name": "CRUELTY", "start": 12863 }
+      ] },
+      { "segment": "2199958279", "subrefs": [
+        { "name": "Nobody Wants to Die", "start": 928 }
       ] }
     ]
   },
@@ -8368,8 +8371,7 @@
     "streams": [
       { "segment": "2026423132", "subrefs": [
         { "name": "Amygdala: Prelude (демо)", "start": 5271 },
-        { "name": "Drive Me to Hell", "start": 10687 },
-        { "name": "Supernatural (демо)", "start": 13219 }
+        { "name": "Drive Me to Hell", "start": 10687 }
       ] },
       { "segment": "2027362039", "subrefs": [
         { "name": "Supernormal", "start": 4197 }
@@ -8597,8 +8599,20 @@
         { "name": "Holbrook Hotel", "start": 16921 }
       ] },
       { "segment": "2198179845", "subrefs": [
-        { "name": "Fork Road", "start": 5686 },
-        { "name": "Supernatural", "start": 14768 }
+        { "name": "Fork Road", "start": 5686 }
+      ] }
+    ]
+  },
+  {
+    "name": "Supernatural",
+    "category": "finished",
+    "id": "supernatural",
+    "streams": [
+      { "segment": "2026423132", "subrefs": [
+        { "name": "1", "start": 13219 }
+      ] },
+      { "segment": "2198179845", "subrefs": [
+        { "name": "2", "start": 14768 }
       ] }
     ]
   },
