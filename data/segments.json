@@ -14796,17 +14796,15 @@
   },
   "2170124389": {
     "youtube": "yBy8HwUrKHo", "abs_start": 0, "abs_end": 16965, "duration": 16965,
-    "name": "Nancy Drew: Ghost Dogs of Moon Lake (Нэнси Дрю. Псы-призраки Лунного озера)",
+    "name": "Nancy Drew: Ghost Dogs of Moon Lake (Нэнси Дрю. Псы-призраки Лунного озера) #1",
     "date": "2024-06-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2170124389.torrent",
-    "games": ["first-2024"],
+    "games": ["nancy-drew-gdoml"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2170124389.ass"
   },
   "2170904450": {
     "youtube": "X24X4q_9p_g", "abs_start": 0, "abs_end": 28301, "duration": 28301,
     "name": "Enotria: The Last Song / Flintlock: The Siege of Dawn / GTFO #8 (4D)",
     "date": "2024-06-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2170904450.torrent",
     "games": ["first-2024", "gtfo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2170904450.ass"
   },
@@ -14988,10 +14986,20 @@
   },
   "2199958279": {
     "youtube": "Og4UPb4gqak", "abs_start": 0, "abs_end": 18334, "duration": 18334,
-    "name": "Nobody Wants to Die",
+    "name": "Nobody Wants to Die #1",
     "date": "2024-07-17",
     "torrent": "https://bsufiles.drhx.ru/streams/2199958279.torrent",
-    "games": ["first-2024"],
+    "games": ["nwtd"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2199958279.ass"
+  },
+  "2200768206": {
+    "abs_start": 0, "abs_end": 24772, "duration": 24772,
+    "name": "Nobody Wants to Die #2 / Nancy Drew: Ghost Dogs of Moon Lake (Нэнси Дрю. Псы-призраки Лунного озера) #2",
+    "date": "2024-07-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2200768206.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2200768206.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2200768206.torrent",
+    "games": ["nwtd", "nancy-drew-gdoml"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2200768206.ass"
   }
 }

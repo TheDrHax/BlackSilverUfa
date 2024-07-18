@@ -8096,9 +8096,6 @@
         { "name": "The Alters (демо)", "start": 8186 },
         { "name": "FUMES (демо)", "start": 16446 }
       ] },
-      { "segment": "2170124389", "subrefs": [
-        { "name": "Nancy Drew: Ghost Dogs of Moon Lake (Нэнси Дрю. Псы-призраки Лунного озера)", "start": 1288 }
-      ] },
       { "segment": "2170904450", "subrefs": [
         { "name": "Enotria: The Last Song", "start": 1194 },
         { "name": "Flintlock: The Siege of Dawn", "start": 8230 }
@@ -8127,9 +8124,32 @@
         { "name": "Agujero", "start": 10895 },
         { "name": "Phantoms", "start": 12051 },
         { "name": "CRUELTY", "start": 12863 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nancy Drew: Ghost Dogs of Moon Lake (Нэнси Дрю. Псы-призраки Лунного озера)",
+    "category": "finished",
+    "id": "nancy-drew-gdoml",
+    "streams": [
+      { "segment": "2170124389", "subrefs": [
+        { "name": "1", "start": 1288 }
       ] },
+      { "segment": "2200768206", "subrefs": [
+        { "name": "2", "start": 12133 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nobody Wants to Die",
+    "category": "finished",
+    "id": "nwtd",
+    "streams": [
       { "segment": "2199958279", "subrefs": [
-        { "name": "Nobody Wants to Die", "start": 928 }
+        { "name": "1", "start": 928 }
+      ] },
+      { "segment": "2200768206", "subrefs": [
+        { "name": "2", "start": 885 }
       ] }
     ]
   },
