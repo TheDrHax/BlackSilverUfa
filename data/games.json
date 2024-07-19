@@ -759,6 +759,9 @@
       ] },
       { "segment": "2193968354", "subrefs": [
         { "name": "2", "start": 17907 }
+      ] },
+      { "segment": "2201687360", "subrefs": [
+        { "name": "3", "start": 16808 }
       ] }
     ]
   },
@@ -1840,6 +1843,9 @@
       ] },
       { "segment": "2170904450", "subrefs": [
         { "name": "8 (4D)", "start": 11655 }
+      ] },
+      { "segment": "2201687360", "subrefs": [
+        { "name": "9 (4D)", "start": 4498 }
       ] }
     ],
     "cover": 1
@@ -8262,7 +8268,7 @@
   },
   {
     "name": "Resident Evil 3: Nemesis",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "re3-nemesis",
     "streams": [
       { "segment": "2118671984", "subrefs": [
