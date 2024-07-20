@@ -14812,7 +14812,6 @@
     "youtube": "1YJuv_f0cJs", "abs_start": 0, "abs_end": 13290, "duration": 13290,
     "name": "Autopsy Simulator #2",
     "date": "2024-06-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2171772619.torrent",
     "games": ["autopsy-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2171772619.ass"
   },
@@ -15007,5 +15006,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2201687360.torrent",
     "games": ["gtfo", "chained-together"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2201687360+0.ass"
+  },
+  "2202570561": {
+    "abs_start": 0, "abs_end": 10285, "duration": 10285,
+    "name": "Kunitsu-Gami: Path of the Goddess",
+    "date": "2024-07-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2202570561.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2202570561.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2202570561.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2202570561.ass"
   }
 }
