@@ -14819,7 +14819,6 @@
     "youtube": "bf0jcS6FA9Y", "abs_start": 0, "abs_end": 22432, "duration": 22432,
     "name": "Fallen Aces / Hollywood Animal / Caravan SandWitch (демо) / Lucky Tower Ultimate (демо) #3 / The Outlast Trials #5 (с тремя Димами)",
     "date": "2024-06-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2172620884.torrent",
     "games": ["first-2024", "lucky-tower", "outlast-trials"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2172620884.ass"
   },
@@ -15014,5 +15013,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2202570561.torrent",
     "games": ["first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2202570561.ass"
+  },
+  "2204264411": {
+    "abs_start": 0, "abs_end": 24457, "duration": 24457,
+    "name": "Deformed / Backrooms: Escape Together / Dark Hours: Prologue / Project Unknown / Bureau of Contacts / Chained Together #4",
+    "date": "2024-07-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2204264411.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2204264411.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2204264411.torrent",
+    "games": ["co-op", "chained-together"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2204264411+0.ass"
   }
 }
