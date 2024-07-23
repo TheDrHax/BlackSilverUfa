@@ -14826,7 +14826,6 @@
     "youtube": "EHFIW7xKSeU", "abs_start": 0, "abs_end": 18912, "duration": 18912,
     "name": "[Nightmare Files] Clap Clap / I.O. Setter (демо) / Bite Night / The Crawler / Don't Let Her In / BoneField: Bodycam Horror (демо) #2 / Abaddon (демо) / Paranormal Investigators / Mbembe Radio / Tormenture (демо) #2",
     "date": "2024-06-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2173541595.torrent",
     "games": ["single-2024", "first-2024", "bonefield", "tormenture"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2173541595.ass"
   },
@@ -15016,10 +15015,20 @@
   },
   "2204264411": {
     "youtube": "CVQAWFfCcLk", "abs_start": 0, "abs_end": 24458, "duration": 24458,
-    "name": "Deformed / Backrooms: Escape Together / Dark Hours: Prologue / Project Unknown / Bureau of Contacts / Chained Together #4",
+    "name": "Deformed #1 / Backrooms: Escape Together / Dark Hours: Prologue / Project Unknown / Bureau of Contacts / Chained Together #4",
     "date": "2024-07-22",
     "torrent": "https://bsufiles.drhx.ru/streams/2204264411.torrent",
-    "games": ["co-op", "chained-together"],
+    "games": ["deformed", "co-op", "chained-together"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2204264411+0.ass"
+  },
+  "2205157138": {
+    "abs_start": 0, "abs_end": 17246, "duration": 17246,
+    "name": "Deformed #2 / InfestStation / GTFO #10 (4D) / Chained Together #5",
+    "date": "2024-07-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2205157138.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2205157138.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2205157138.torrent",
+    "games": ["deformed", "co-op", "gtfo", "chained-together"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2205157138.ass"
   }
 }
