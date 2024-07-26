@@ -4500,9 +4500,10 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v420241791.ass"
   },
   "420241791.2": {
-    "youtube": "xnp8LCPaAdI", "official": false, "abs_start": 6066, "abs_end": 22405, "duration": 16339,
+    "abs_start": 6066, "abs_end": 22404, "duration": 16338,
     "name": "The Painscreek Killings",
     "date": "2019-05-04",
+    "direct": "https://bsufiles.drhx.ru/streams/420241791.2.mp4",
     "games": ["first-2019"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v420241791.ass",
     "note": "<a href=\"https://youtu.be/UCfKLKv3x1A\">Официальная запись</a> сломана (недоступно качество выше 360p) <!-- offset=1:41:06 -->"
@@ -6517,9 +6518,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v608001507.ass"
   },
   "610027262": {
-    "youtube": "tyteE5TDw2w", "official": false, "abs_start": 0, "abs_end": 21898, "duration": 21898,
+    "abs_start": 0, "abs_end": 21898, "duration": 21898,
     "name": "SnowRunner #4",
     "date": "2020-05-03",
+    "direct": "https://bsufiles.drhx.ru/streams/610027262.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/610027262.mp4/master.m3u8",
     "games": ["snowrunner"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v610027262.ass"
   },
@@ -9647,9 +9650,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1168006082.ass"
   },
   "1168913564": {
-    "youtube": "veiAHEMnkyE", "abs_start": 0, "abs_end": 28344, "duration": 28344,
+    "abs_start": 0, "abs_end": 28343, "duration": 28343,
     "name": "Alan Wake Remastered #3 / Battlefield 2042 - Бета",
     "date": "2021-10-06",
+    "direct": "https://bsufiles.drhx.ru/streams/1168913564.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1168913564.mp4/master.m3u8",
     "games": ["alan-wake", "bf-2042"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v1168913564+0.ass"
   },
@@ -14833,7 +14838,6 @@
     "youtube": "ibrNCy7FOug", "abs_start": 0, "abs_end": 23556, "duration": 23556,
     "name": "Still Wakes the Deep",
     "date": "2024-06-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2175081669.torrent",
     "games": ["single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2175081669.ass"
   },
@@ -14841,7 +14845,6 @@
     "youtube": "IFS3SohXlBY", "abs_start": 0, "abs_end": 31266, "duration": 31266,
     "name": "Elden Ring #17 (Shadow of Erdtree #1)",
     "date": "2024-06-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2178583785.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2178583785.ass"
   },
