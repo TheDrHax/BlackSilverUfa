@@ -8167,6 +8167,9 @@
       ] },
       { "segment": "2202570561", "subrefs": [
         { "name": "Kunitsu-Gami: Path of the Goddess", "start": 1009 }
+      ] },
+      { "segment": "2212959007", "subrefs": [
+        { "name": "Paranormal Place", "start": 15533 }
       ] }
     ]
   },
@@ -8663,6 +8666,11 @@
       ] },
       { "segment": "2198179845", "subrefs": [
         { "name": "Fork Road", "start": 5686 }
+      ] },
+      { "segment": "2212959007", "subrefs": [
+        { "name": "Chuxie", "start": 3503 },
+        { "name": "10:59", "start": 9592 },
+        { "name": "Shift 87", "start": 13456 }
       ] }
     ]
   },

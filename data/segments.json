@@ -14856,7 +14856,6 @@
     "youtube": "xZkO79TtTRo", "abs_start": 0, "abs_end": 28884, "duration": 28884,
     "name": "Elden Ring #18 (Shadow of Erdtree #2)",
     "date": "2024-06-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2179513114.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2179513114.ass"
   },
@@ -15035,5 +15034,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2205157138.torrent",
     "games": ["deformed", "co-op", "gtfo", "chained-together", "tricky-towers"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2205157138.ass"
+  },
+  "2212959007": {
+    "abs_start": 0, "abs_end": 18272, "duration": 18272,
+    "name": "Chuxie / 10:59 / Shift 87 / Paranormal Place",
+    "date": "2024-08-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2212959007.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2212959007.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2212959007.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2212959007.ass"
   }
 }
