@@ -5684,9 +5684,11 @@
     "note": "<a href=\"https://youtu.be/w8nJdnXrSJU\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "516941489": {
-    "youtube": "ftJr-Ji-xTI", "official": false, "abs_start": 0, "abs_end": 21899, "duration": 21899,
+    "abs_start": 0, "abs_end": 21899, "duration": 21899,
     "name": "Grand Theft Auto: Vice City #1",
     "date": "2019-12-04",
+    "direct": "https://bsufiles.drhx.ru/streams/516941489.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/516941489.mp4/master.m3u8",
     "games": ["gta-vice-city"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v516941489.ass"
   },
