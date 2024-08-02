@@ -8170,6 +8170,10 @@
       ] },
       { "segment": "2212959007", "subrefs": [
         { "name": "Paranormal Place", "start": 15533 }
+      ] },
+      { "segment": "2213762112", "subrefs": [
+        { "name": "CONSCRIPT", "start": 790 },
+        { "name": "Thank Goodness You're Here", "start": 7581 }
       ] }
     ]
   },
@@ -15706,6 +15710,9 @@
       ] },
       { "segment": "1904659436", "subrefs": [
         { "name": "6", "start": 3957 }
+      ] },
+      { "segment": "2213762112", "subrefs": [
+        { "name": "DLC: Awakened King", "start": 10947 }
       ] }
     ]
   },
