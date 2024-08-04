@@ -5364,6 +5364,9 @@
       ] },
       { "segment": "2197410316", "subrefs": [
         { "name": "Halloween Revenge", "start": 5753 }
+      ] },
+      { "segment": "2215556640", "subrefs": [
+        { "name": "Fart Killer", "start": 11460 }
       ] }
     ]
   },
@@ -8174,6 +8177,9 @@
       { "segment": "2213762112", "subrefs": [
         { "name": "CONSCRIPT", "start": 790 },
         { "name": "Thank Goodness You're Here", "start": 7581 }
+      ] },
+      { "segment": "2215556640", "subrefs": [
+        { "name": "[Rec] Paroxysm", "start": 15930 }
       ] }
     ]
   },
@@ -8678,6 +8684,12 @@
       ] },
       { "segment": "2214697978", "subrefs": [
         { "name": "Сэттээх", "start": 2751 }
+      ] },
+      { "segment": "2215556640", "subrefs": [
+        { "name": "The Midnight Bus", "start": 2146 },
+        { "name": "The Tunnels of Saint Mercy Road", "start": 3651 },
+        { "name": "Befriended Curse", "start": 7402 },
+        { "name": "[Rec] Paroxysm", "start": 15930 }
       ] }
     ]
   },

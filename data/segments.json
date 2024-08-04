@@ -14870,7 +14870,6 @@
     "youtube": "4Md1ccsyN60", "abs_start": 0, "abs_end": 31769, "duration": 31769,
     "name": "Elden Ring #20 (Shadow of Erdtree #4)",
     "date": "2024-06-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2181214426.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2181214426.ass"
   },
@@ -15057,5 +15056,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2214697978.torrent",
     "games": ["single-2024", "mortuary-assistant"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2214697978+0.ass"
+  },
+  "2215556640": {
+    "abs_start": 0, "abs_end": 19063, "duration": 19063,
+    "name": "The Midnight Bus / The Tunnels of Saint Mercy Road / Befriended Curse / Fart Killer / [Rec] Paroxysm",
+    "date": "2024-08-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2215556640.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2215556640.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2215556640.torrent",
+    "games": ["single-2024", "616-games", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2215556640.ass"
   }
 }
