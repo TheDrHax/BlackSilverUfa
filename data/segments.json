@@ -14877,7 +14877,6 @@
     "youtube": "obWNJA-O6GI", "abs_start": 0, "abs_end": 33308, "duration": 33308,
     "name": "Elden Ring #21 (Shadow of Erdtree #5)",
     "date": "2024-06-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2182067794.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2182067794.ass"
   },
@@ -15043,7 +15042,7 @@
   },
   "2213762112": {
     "youtube": "9q0GNjOW0QI", "abs_start": 0, "abs_end": 29448, "duration": 29448,
-    "name": "CONSCRIPT / Thank Goodness You're Here / Remnant II - DLC: Awakened King",
+    "name": "CONSCRIPT / Thank Goodness You're Here / Remnant II - DLC: Awakened King #1",
     "date": "2024-08-02",
     "torrent": "https://bsufiles.drhx.ru/streams/2213762112.torrent",
     "games": ["first-2024", "remnant-2"],
@@ -15064,7 +15063,17 @@
     "direct": "https://bsufiles.drhx.ru/streams/2215556640.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2215556640.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2215556640.torrent",
-    "games": ["single-2024", "616-games", "first-2024"],
+    "games": ["single-2024", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2215556640.ass"
+  },
+  "2217218158": {
+    "abs_start": 0, "abs_end": 23123, "duration": 23123,
+    "name": "My Last Appointment / Remnant II - DLC: Awakened King #2",
+    "date": "2024-08-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2217218158.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2217218158.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2217218158.torrent",
+    "games": ["single-2024", "remnant-2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2217218158+0.ass"
   }
 }

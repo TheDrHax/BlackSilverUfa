@@ -4926,7 +4926,7 @@
   },
   {
     "name": "Pine Harbor",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "pine-harbor",
     "streams": [
       { "segment": "1949027899", "subrefs": [
@@ -5105,7 +5105,7 @@
   },
   {
     "name": "They Are Here: Alien Abduction Horror",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "they-are-here",
     "streams": [
       { "segment": "1061050549", "subrefs": [
@@ -8177,9 +8177,6 @@
       { "segment": "2213762112", "subrefs": [
         { "name": "CONSCRIPT", "start": 790 },
         { "name": "Thank Goodness You're Here", "start": 7581 }
-      ] },
-      { "segment": "2215556640", "subrefs": [
-        { "name": "[Rec] Paroxysm", "start": 15930 }
       ] }
     ]
   },
@@ -8289,7 +8286,7 @@
   },
   {
     "name": "Poltergeist Watcher",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "polter-watcher",
     "streams": [
       { "segment": "2137947745", "subrefs": [
@@ -8690,6 +8687,9 @@
         { "name": "The Tunnels of Saint Mercy Road", "start": 3651 },
         { "name": "Befriended Curse", "start": 7402 },
         { "name": "[Rec] Paroxysm", "start": 15930 }
+      ] },
+      { "segment": "2217218158", "subrefs": [
+        { "name": "My Last Appointment", "start": 1301 }
       ] }
     ]
   },
@@ -15730,7 +15730,10 @@
         { "name": "6", "start": 3957 }
       ] },
       { "segment": "2213762112", "subrefs": [
-        { "name": "DLC: Awakened King", "start": 10947 }
+        { "name": "DLC: Awakened King #1", "start": 10947 }
+      ] },
+      { "segment": "2217218158", "subrefs": [
+        { "name": "DLC: Awakened King #2", "start": 7274 }
       ] }
     ]
   },
