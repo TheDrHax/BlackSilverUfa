@@ -14884,7 +14884,6 @@
     "youtube": "wa3zpbAoquo", "abs_start": 0, "abs_end": 33160, "duration": 33160,
     "name": "Elden Ring #22 (Shadow of Erdtree #6)",
     "date": "2024-06-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2182941480.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2182941480.ass"
   },
@@ -15085,5 +15084,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2218048777.torrent",
     "games": ["evil_within"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2218048777.ass"
+  },
+  "2218965206": {
+    "abs_start": 0, "abs_end": 18098, "duration": 18098,
+    "name": "Homeless / Insomnia / The Mortuary Assistant #10",
+    "date": "2024-08-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2218965206.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2218965206.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2218965206.torrent",
+    "games": ["single-2024", "first-2024", "mortuary-assistant"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2218965206+0.ass"
   }
 }
