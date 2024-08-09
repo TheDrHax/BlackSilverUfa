@@ -14891,7 +14891,6 @@
     "youtube": "INiVQh72hzI", "abs_start": 0, "abs_end": 40390, "duration": 40390,
     "name": "Elden Ring #23 (Shadow of Erdtree #7)",
     "date": "2024-06-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2183779952.torrent",
     "games": ["elden-ring"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2183779952.ass"
   },
@@ -15041,10 +15040,10 @@
   },
   "2213762112": {
     "youtube": "9q0GNjOW0QI", "abs_start": 0, "abs_end": 29448, "duration": 29448,
-    "name": "CONSCRIPT / Thank Goodness You're Here / Remnant II - DLC: Awakened King #1",
+    "name": "CONSCRIPT / Thank Goodness You're Here #1 / Remnant II - DLC: Awakened King #1",
     "date": "2024-08-02",
     "torrent": "https://bsufiles.drhx.ru/streams/2213762112.torrent",
-    "games": ["first-2024", "remnant-2"],
+    "games": ["first-2024", "tgyh", "remnant-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2213762112+0.ass"
   },
   "2214697978": {
@@ -15094,5 +15093,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2218965206.torrent",
     "games": ["single-2024", "first-2024", "mortuary-assistant"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2218965206+0.ass"
+  },
+  "2219800754": {
+    "abs_start": 0, "abs_end": 21251, "duration": 21251,
+    "name": "Thank Goodness You're Here #2 / Shark Siege / Клеть / Lethal Company #14",
+    "date": "2024-08-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2219800754.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2219800754.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2219800754.torrent",
+    "games": ["tgyh", "co-op", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2219800754+0.ass"
   }
 }
