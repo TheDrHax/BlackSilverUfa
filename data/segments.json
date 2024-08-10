@@ -15093,5 +15093,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2219800754.torrent",
     "games": ["tgyh", "co-op", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2219800754+0.ass"
+  },
+  "2220679258": {
+    "abs_start": 0, "abs_end": 20698, "duration": 20698,
+    "name": "Five Nights at Freddy's: Into the Pit",
+    "date": "2024-08-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2220679258.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2220679258.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2220679258.torrent",
+    "games": ["single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2220679258+0.ass"
   }
 }
