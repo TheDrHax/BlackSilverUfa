@@ -8172,8 +8172,7 @@
         { "name": "I See You Now", "start": 12303 }
       ] },
       { "segment": "2197410316", "subrefs": [
-        { "name": "Tremors", "start": 13314 },
-        { "name": "Shadow Fang", "start": 15189 }
+        { "name": "Tremors", "start": 13314 }
       ] },
       { "segment": "2198179845", "subrefs": [
         { "name": "Alessia's Dollhouse", "start": 8905 },
@@ -8198,8 +8197,20 @@
       ] },
       { "segment": "2222362452,2222444727", "subrefs": [
         { "name": "The Walls Still Stand", "start": 2394 },
-        { "name": "Shadow Fang", "start": 10174 },
         { "name": "Krypta FM", "start": 15773 }
+      ] }
+    ]
+  },
+  {
+    "name": "Shadow Fang",
+    "category": "ongoing",
+    "id": "shadow-fang",
+    "streams": [
+      { "segment": "2197410316", "subrefs": [
+        { "name": "1", "start": 15189 }
+      ] },
+      { "segment": "2222362452,2222444727", "subrefs": [
+        { "name": "2", "start": 10174 }
       ] }
     ]
   },
