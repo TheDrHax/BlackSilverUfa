@@ -8195,6 +8195,11 @@
       ] },
       { "segment": "2221505591", "subrefs": [
         { "name": "VLADiK BRUTAL", "start": 2024 }
+      ] },
+      { "segment": "2222362452,2222444727", "subrefs": [
+        { "name": "The Walls Still Stand", "start": 2394 },
+        { "name": "Shadow Fang", "start": 10174 },
+        { "name": "Krypta FM", "start": 15773 }
       ] }
     ]
   },
@@ -8304,7 +8309,7 @@
   },
   {
     "name": "Little Kitty, Big City",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "lkbc",
     "streams": [
       { "segment": "1854535719", "subrefs": [
@@ -8727,6 +8732,14 @@
       ] },
       { "segment": "2220679258", "subrefs": [
         { "name": "Five Nights at Freddy's: Into the Pit", "start": 3422 }
+      ] },
+      { "segment": "2222362452,2222444727", "subrefs": [
+        { "name": "Snowsquall Grip", "start": 3340 },
+        { "name": "Room 202", "start": 6780 },
+        { "name": "SAVE Teaser: Before the Dawn", "start": 7447 },
+        { "name": "Coagulation Station", "start": 11070 },
+        { "name": "Inside Under and Out", "start": 13045 },
+        { "name": "The Keeper", "start": 14455 }
       ] }
     ]
   },

@@ -5544,11 +5544,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v502940448.ass"
   },
   "503413959": {
-    "abs_start": 0, "abs_end": 18857, "duration": 18857,
+    "abs_start": 0, "abs_end": 18905, "duration": 0,
     "name": "Mafia II #3",
     "date": "2019-11-03",
-    "direct": "https://bsufiles.drhx.ru/streams/503413959.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/503413959.mp4/master.m3u8",
     "games": ["mafia-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v503413959.ass"
   },
@@ -14898,7 +14896,6 @@
     "youtube": "Mz_i6-grZzI", "abs_start": 0, "abs_end": 18756, "duration": 18756,
     "name": "White Day 2: The Flower That Tells Lies #1",
     "date": "2024-07-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2188101827.torrent",
     "games": ["white-day-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2188101827.ass"
   },
@@ -14906,7 +14903,6 @@
     "youtube": "5vqTDcLkEjQ", "abs_start": 0, "abs_end": 27693, "duration": 27693,
     "name": "Bloodborne #1",
     "date": "2024-07-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2188923473.torrent",
     "games": ["bloodborne"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2188923473.ass"
   },
@@ -15111,5 +15107,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2221505591.torrent",
     "games": ["first-2024", "phasmophobia"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2221505591+0.ass"
+  },
+  "2222362452": {
+    "abs_start": 0, "abs_end": 9138, "duration": 9138,
+    "name": "",
+    "date": "2024-08-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2222362452.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2222362452.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2222362452.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2222362452.ass"
+  },
+  "2222444727": {
+    "abs_start": 0, "abs_end": 8676, "duration": 8676,
+    "name": "",
+    "date": "2024-08-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2222444727.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2222444727.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2222444727.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2222444727.ass"
+  },
+  "2222362452,2222444727": {
+    "abs_start": 0, "abs_end": 17812, "duration": 17812,
+    "name": "The Walls Still Stand / Snowsquall Grip / Room 202 / SAVE Teaser: Before the Dawn / Shadow Fang / Coagulation Station / Inside Under and Out / The Keeper / Krypta FM",
+    "date": "2024-08-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2222362452,2222444727.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2222362452,2222444727.mp4/master.m3u8",
+    "offsets": ["0:00", "2:32:17+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2222362452,2222444727.torrent",
+    "games": ["first-2024", "single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2222362452,2222444727+0.ass"
   }
 }
