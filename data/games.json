@@ -5081,6 +5081,9 @@
       ] },
       { "segment": "2157418915", "subrefs": [
         { "name": "Okaeri", "start": 10532 }
+      ] },
+      { "segment": "2224031390", "subrefs": [
+        { "name": "The Bathhouse: Restored Edition", "start": 6404 }
       ] }
     ]
   },
@@ -8198,6 +8201,9 @@
       { "segment": "2222362452,2222444727", "subrefs": [
         { "name": "The Walls Still Stand", "start": 2394 },
         { "name": "Krypta FM", "start": 15773 }
+      ] },
+      { "segment": "2224031390", "subrefs": [
+        { "name": "Dark and Deep", "start": 3485 }
       ] }
     ]
   },
