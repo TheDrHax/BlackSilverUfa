@@ -14919,7 +14919,6 @@
     "youtube": "0BKWU7iAmM0", "abs_start": 0, "abs_end": 30582, "duration": 30582,
     "name": "Dungeonborne / Chained Together #1 / Murky Divers / Lethal Company #13",
     "date": "2024-07-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2190605372.torrent",
     "games": ["co-op", "chained-together", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2190605372.ass"
   },
@@ -15143,5 +15142,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2224031390.torrent",
     "games": ["first-2024", "chillas-art"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2224031390.ass"
+  },
+  "2226616537": {
+    "abs_start": 0, "abs_end": 17518, "duration": 17518,
+    "name": "Elevator Warp / Crime Scene Cleaner / Seeing Things / Intravenous 2 / Gears 2",
+    "date": "2024-08-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2226616537.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2226616537.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2226616537.torrent",
+    "games": ["single-2024", "first-2024", "616-games"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2226616537.ass"
   }
 }
