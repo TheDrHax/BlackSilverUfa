@@ -13603,14 +13603,14 @@
   },
   "1949835858": {
     "youtube": "u1UovrHlPJY", "abs_start": 0, "abs_end": 14402, "duration": 14402,
-    "name": "Crime Scene Cleaner (демо) #1 / Party Animals #5 (с Димами) / Dark Fracture (демо)",
+    "name": "Crime Scene Cleaner #1 (демо) / Party Animals #5 (с Димами) / Dark Fracture (демо)",
     "date": "2023-10-13",
     "games": ["csc", "party-animals", "single-2023"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1949835858.ass"
   },
   "1950762078": {
     "youtube": "s9G9w7_mU90", "abs_start": 0, "abs_end": 17769, "duration": 17769,
-    "name": "ELDRIMAR (демо) / Gennady (демо) / The Talos Principle II (демо) / Жил-Ячейка (Living Cell) - Демо / The Thaumaturge (демо) / Forgive Me Father 2 (демо) / Enshrouded - Демо (соло) / The Enjenir (демо) / Crime Scene Cleaner (демо) #2",
+    "name": "ELDRIMAR (демо) / Gennady (демо) / The Talos Principle II (демо) / Жил-Ячейка (Living Cell) - Демо / The Thaumaturge (демо) / Forgive Me Father 2 (демо) / Enshrouded - Демо (соло) / The Enjenir (демо) / Crime Scene Cleaner #2",
     "date": "2023-10-14",
     "games": ["single-2023", "first-2023", "living-cell", "enshrouded", "csc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1950762078.ass"
@@ -14930,7 +14930,6 @@
     "youtube": "tFy5nlTRccc", "abs_start": 0, "abs_end": 19330, "duration": 19330,
     "name": "Grouls / Egg Fried Rice / Dad / Someone's Outside / I See You Now / The Other One / Cassiculus / It's just a prank",
     "date": "2024-07-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2191494883.torrent",
     "games": ["first-2024", "single-2024", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2191494883.ass"
   },
@@ -15149,12 +15148,22 @@
   },
   "2226616537": {
     "abs_start": 0, "abs_end": 17518, "duration": 17518,
-    "name": "Elevator Warp / Crime Scene Cleaner / Seeing Things / Intravenous 2 / Gears 2",
+    "name": "Elevator Warp / Crime Scene Cleaner #3 (релиз) / Seeing Things / Intravenous 2 / Gears 2 #1",
     "date": "2024-08-17",
     "direct": "https://bsufiles.drhx.ru/streams/2226616537.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2226616537.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2226616537.torrent",
-    "games": ["single-2024", "first-2024", "616-games"],
+    "games": ["single-2024", "csc", "first-2024", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2226616537.ass"
+  },
+  "2227459008": {
+    "abs_start": 0, "abs_end": 21507, "duration": 21507,
+    "name": "Crime Scene Cleaner #4 / Stalcraft: X (с Димами) / Phantom Ten / Rodland of Pipes / Gears 2 #2 / Gears",
+    "date": "2024-08-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2227459008.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2227459008.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2227459008.torrent",
+    "games": ["csc", "co-op", "single-2024", "first-2024", "616-games"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2227459008+0.ass"
   }
 }
