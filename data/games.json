@@ -5393,6 +5393,9 @@
       { "segment": "2227459008", "subrefs": [
         { "name": "Gears 2 #2", "start": 19107 },
         { "name": "Gears", "start": 19586 }
+      ] },
+      { "segment": "2228324519", "subrefs": [
+        { "name": "Gears 2 #3", "start": 13182 }
       ] }
     ]
   },
@@ -8220,6 +8223,9 @@
       ] },
       { "segment": "2227459008", "subrefs": [
         { "name": "Rodland of Pipes", "start": 18054 }
+      ] },
+      { "segment": "2228324519", "subrefs": [
+        { "name": "No, I'm Not Human", "start": 13182 }
       ] }
     ]
   },
@@ -8780,6 +8786,11 @@
       ] },
       { "segment": "2227459008", "subrefs": [
         { "name": "Phantom Ten", "start": 15575 }
+      ] },
+      { "segment": "2228324519", "subrefs": [
+        { "name": "Thank Goodness You're Here!", "start": 3765 },
+        { "name": "Kiosk", "start": 9579 },
+        { "name": "VHS: Violent Horror Stories", "start": 12207 }
       ] }
     ]
   },

@@ -14937,7 +14937,6 @@
     "youtube": "XZcqcV9u9mM", "abs_start": 0, "abs_end": 24593, "duration": 24593,
     "name": "Bloodborne #3",
     "date": "2024-07-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2192277031.torrent",
     "games": ["bloodborne"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2192277031.ass"
   },
@@ -15165,5 +15164,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2227459008.torrent",
     "games": ["csc", "co-op", "single-2024", "first-2024", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2227459008+0.ass"
+  },
+  "2228324519": {
+    "abs_start": 0, "abs_end": 17996, "duration": 17996,
+    "name": "Thank Goodness You're Here! / Kiosk / VHS: Violent Horror Stories / Gears 2 #3 / No, I'm Not Human",
+    "date": "2024-08-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2228324519.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2228324519.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2228324519.torrent",
+    "games": ["single-2024", "616-games", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2228324519+0.ass"
   }
 }
