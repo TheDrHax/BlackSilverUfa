@@ -135,19 +135,15 @@
     "games": ["mgs-v"]
   },
   "001510010": {
-    "abs_start": 0, "abs_end": 6021, "duration": 6021,
+    "youtube": "-FMwQIM3i-s", "official": false, "abs_start": 0, "abs_end": 6021, "duration": 6021,
     "name": "Metal Gear Solid V: Phantom Pain #12",
     "date": "2015-10-01",
-    "direct": "https://bsufiles.drhx.ru/streams/001510010.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/001510010.mp4/master.m3u8",
     "games": ["mgs-v"]
   },
   "001510050": {
-    "abs_start": 0, "abs_end": 16447, "duration": 16447,
+    "youtube": "MIOTgB_1u-s", "official": false, "abs_start": 0, "abs_end": 16448, "duration": 16448,
     "name": "Metal Gear Solid V: Phantom Pain #13",
     "date": "2015-10-05",
-    "direct": "https://bsufiles.drhx.ru/streams/001510050.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/001510050.mp4/master.m3u8",
     "games": ["mgs-v"]
   },
   "001510060": {
@@ -5546,7 +5542,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v502940448.ass"
   },
   "503413959": {
-    "abs_start": 0, "abs_end": 18905, "duration": 0,
+    "youtube": "y_i2qnRp0HU", "official": false, "abs_start": 0, "abs_end": 18857, "duration": 18857,
     "name": "Mafia II #3",
     "date": "2019-11-03",
     "games": ["mafia-2"],
@@ -5693,11 +5689,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v516941489.ass"
   },
   "517802976": {
-    "abs_start": 0, "abs_end": 21499, "duration": 21499,
+    "youtube": "Ry8PU3SdDcQ", "official": false, "abs_start": 0, "abs_end": 21500, "duration": 21500,
     "name": "Grand Theft Auto: Vice City #2",
     "date": "2019-12-06",
-    "direct": "https://bsufiles.drhx.ru/streams/517802976.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/517802976.mp4/master.m3u8",
     "games": ["gta-vice-city"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v517802976.ass"
   },
@@ -6524,11 +6518,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v608001507.ass"
   },
   "610027262": {
-    "abs_start": 0, "abs_end": 21898, "duration": 21898,
+    "youtube": "Z-nYCltjhT4", "official": false, "abs_start": 0, "abs_end": 21899, "duration": 21899,
     "name": "SnowRunner #4",
     "date": "2020-05-03",
-    "direct": "https://bsufiles.drhx.ru/streams/610027262.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/610027262.mp4/master.m3u8",
     "games": ["snowrunner"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v610027262.ass"
   },
@@ -7515,11 +7507,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v787564730.ass"
   },
   "791632745": {
-    "abs_start": 0, "abs_end": 28803, "duration": 28803,
+    "youtube": "zXzQ0ztM9cU", "official": false, "abs_start": 0, "abs_end": 28803, "duration": 28803,
     "name": "Metal Gear Solid V: Ground Zeroes / Metal Gear Solid V: Phantom Pain (злое прохождение) #1",
     "date": "2020-11-04",
-    "direct": "https://bsufiles.drhx.ru/streams/791632745.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/791632745.mp4/master.m3u8",
     "games": ["single-2020", "mgs-v-2020"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v791632745.ass"
   },
@@ -9766,9 +9756,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1186535358.ass"
   },
   "1187388604": {
-    "youtube": "7c8knw-tvZ4", "official": false, "abs_start": 0, "abs_end": 29328, "duration": 29328,
+    "abs_start": 0, "abs_end": 26156, "duration": 26156,
     "name": "Marvel's Guardians of the Galaxy #2",
     "date": "2021-10-26",
+    "direct": "https://bsufiles.drhx.ru/streams/1187388604.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1187388604.mp4/master.m3u8",
     "games": ["marvel-gotg"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1187388604.ass"
   },
