@@ -15158,12 +15158,12 @@
   },
   "2228324519": {
     "abs_start": 0, "abs_end": 17996, "duration": 17996,
-    "name": "Thank Goodness You're Here! / Kiosk / VHS: Violent Horror Stories / Gears 2 #3 / No, I'm Not Human",
+    "name": "Thank Goodness You're Here! / Kiosk / I Ate Old Man's Liver / No, I'm Not Human #1 / Gears 2 #3",
     "date": "2024-08-19",
     "direct": "https://bsufiles.drhx.ru/streams/2228324519.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2228324519.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2228324519.torrent",
-    "games": ["single-2024", "616-games", "first-2024"],
+    "games": ["single-2024", "vhs", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2228324519+0.ass"
   },
   "2229109359": {
@@ -15175,5 +15175,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2229109359.torrent",
     "games": ["first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2229109359.ass"
+  },
+  "2231748428": {
+    "abs_start": 0, "abs_end": 21021, "duration": 21021,
+    "name": "Lucky Tower Ultimate (демо) #4 / Crime Scene Cleaner #5 / No, I'm Not Human #2",
+    "date": "2024-08-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2231748428.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2231748428.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2231748428.torrent",
+    "games": ["lucky-tower", "csc", "vhs"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2231748428.ass"
   }
 }

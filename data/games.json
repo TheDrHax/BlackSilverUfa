@@ -8224,9 +8224,6 @@
       { "segment": "2227459008", "subrefs": [
         { "name": "Rodland of Pipes", "start": 18054 }
       ] },
-      { "segment": "2228324519", "subrefs": [
-        { "name": "No, I'm Not Human", "start": 13182 }
-      ] },
       { "segment": "2229109359", "subrefs": [
         { "name": "Black Myth: Wukong", "start": 704 }
       ] }
@@ -8792,8 +8789,22 @@
       ] },
       { "segment": "2228324519", "subrefs": [
         { "name": "Thank Goodness You're Here!", "start": 3765 },
-        { "name": "Kiosk", "start": 9579 },
-        { "name": "VHS: Violent Horror Stories", "start": 12207 }
+        { "name": "Kiosk", "start": 9579 }
+      ] }
+    ]
+  },
+  {
+    "name": "VHS: Violent Horror Stories",
+    "category": "ongoing",
+    "type": "list",
+    "id": "vhs",
+    "streams": [
+      { "segment": "2228324519", "subrefs": [
+        { "name": "I Ate Old Man's Liver", "start": 12207 },
+        { "name": "No, I'm Not Human #1", "start": 13182 }
+      ] },
+      { "segment": "2231748428", "subrefs": [
+        { "name": "No, I'm Not Human #2", "start": 18233 }
       ] }
     ]
   },
@@ -8849,6 +8860,9 @@
       ] },
       { "segment": "2172620884", "subrefs": [
         { "name": "3", "start": 13544 }
+      ] },
+      { "segment": "2231748428", "subrefs": [
+        { "name": "4", "start": 2215 }
       ] }
     ]
   },
@@ -9685,6 +9699,9 @@
       ] },
       { "segment": "2227459008", "subrefs": [
         { "name": "4", "start": 2013 }
+      ] },
+      { "segment": "2231748428", "subrefs": [
+        { "name": "5", "start": 7729 }
       ] }
     ]
   },
