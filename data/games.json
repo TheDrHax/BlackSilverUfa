@@ -8229,6 +8229,11 @@
       ] },
       { "segment": "2229109359", "subrefs": [
         { "name": "Black Myth: Wukong", "start": 704 }
+      ] },
+      { "segment": "2233576575", "subrefs": [
+        { "name": "The Gravedigger", "start": 2992 },
+        { "name": "Echoes of The Backrooms", "start": 6682 },
+        { "name": "Naribikimura", "start": 12903 }
       ] }
     ]
   },
@@ -8793,6 +8798,11 @@
       { "segment": "2228324519", "subrefs": [
         { "name": "Thank Goodness You're Here!", "start": 3765 },
         { "name": "Kiosk", "start": 9579 }
+      ] },
+      { "segment": "2233576575", "subrefs": [
+        { "name": "Golly Soda Pop", "start": 7522 },
+        { "name": "Macabre no Zantou: Remnants of the Macabre", "start": 11339 },
+        { "name": "When the Devil Takes Hold", "start": 14301 }
       ] }
     ]
   },
