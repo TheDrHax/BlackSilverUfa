@@ -839,6 +839,9 @@
       ] },
       { "segment": "2107695454", "subrefs": [
         { "name": "3 (с Димами)", "start": 7136 }
+      ] },
+      { "segment": "2234409670", "subrefs": [
+        { "name": "4 (4D)", "start": 7857 }
       ] }
     ]
   },
@@ -8570,7 +8573,6 @@
       ] },
       { "segment": "2080976588", "subrefs": [
         { "name": "Death Motel", "start": 2377 },
-        { "name": "When The Devil Takes Hold (демо)", "start": 9778 },
         { "name": "Crawl", "start": 11749 },
         { "name": "Kitty Kart 64", "start": 13360 },
         { "name": "A Night on the Farm", "start": 14797 }
@@ -8801,8 +8803,20 @@
       ] },
       { "segment": "2233576575", "subrefs": [
         { "name": "Golly Soda Pop", "start": 7522 },
-        { "name": "Macabre no Zantou: Remnants of the Macabre", "start": 11339 },
-        { "name": "When the Devil Takes Hold", "start": 14301 }
+        { "name": "Macabre no Zantou: Remnants of the Macabre", "start": 11339 }
+      ] }
+    ]
+  },
+  {
+    "name": "When the Devil Takes Hold",
+    "category": "finished",
+    "id": "wtdth",
+    "streams": [
+      { "segment": "2080976588", "subrefs": [
+        { "name": "Демо", "start": 9778 }
+      ] },
+      { "segment": "2233576575", "subrefs": [
+        { "name": "Прохождение", "start": 14301 }
       ] }
     ]
   },
@@ -9718,6 +9732,9 @@
       ] },
       { "segment": "2232659937", "subrefs": [
         { "name": "6", "start": 872 }
+      ] },
+      { "segment": "2234409670", "subrefs": [
+        { "name": "7", "start": 1349 }
       ] }
     ]
   },
