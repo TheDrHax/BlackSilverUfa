@@ -14957,7 +14957,6 @@
     "youtube": "6f1nGgDwYkE", "abs_start": 0, "abs_end": 18345, "duration": 18345,
     "name": "Full Fathom (демо) #1 / Halloween Revenge / Finding Her / Наследники / Something Bad is on the Moon / Tremors / Shadow Fang #1 / Nightfall Whiskers / Holbrook Hotel",
     "date": "2024-07-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2197410316.torrent",
     "games": ["full-fathom", "616-games", "single-2024", "first-2024", "shadow-fang"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2197410316.ass"
   },
@@ -15201,5 +15200,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2234409670.torrent",
     "games": ["csc", "helldivers-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2234409670+0.ass"
+  },
+  "2235210317": {
+    "abs_start": 0, "abs_end": 22465, "duration": 22465,
+    "name": "Star Wars Outlaws",
+    "date": "2024-08-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2235210317.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2235210317.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2235210317.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2235210317.ass"
   }
 }
