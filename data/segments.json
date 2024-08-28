@@ -14964,7 +14964,6 @@
     "youtube": "-96CkBaE9MA", "abs_start": 0, "abs_end": 23920, "duration": 23920,
     "name": "Full Fathom (демо) #2 / Fork Road / Alessia's Dollhouse / Agujero / Phantoms / CRUELTY / Supernatural #2",
     "date": "2024-07-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2198179845.torrent",
     "games": ["full-fathom", "single-2024", "first-2024", "supernatural"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2198179845+0.ass"
   },
@@ -15210,5 +15209,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2235210317.torrent",
     "games": ["first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2235210317.ass"
+  },
+  "2236123674": {
+    "abs_start": 0, "abs_end": 20205, "duration": 20205,
+    "name": "Crime Scene Cleaner #8 / 206 (демо) / Beyond Hanwell (демо) / No, I'm Not Human #3",
+    "date": "2024-08-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2236123674.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2236123674.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2236123674.torrent",
+    "games": ["csc", "single-2024", "first-2024", "vhs"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2236123674+0.ass"
   }
 }
