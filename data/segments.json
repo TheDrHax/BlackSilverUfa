@@ -14978,7 +14978,6 @@
     "youtube": "0wAUEL_Ih00", "abs_start": 0, "abs_end": 24772, "duration": 24772,
     "name": "Nobody Wants to Die #2 / Nancy Drew: Ghost Dogs of Moon Lake (Нэнси Дрю. Псы-призраки Лунного озера) #2",
     "date": "2024-07-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2200768206.torrent",
     "games": ["nwtd", "nancy-drew-gdoml"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2200768206.ass"
   },
@@ -15229,5 +15228,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2236986219.torrent",
     "games": ["csc", "first-2024", "single-2024", "vhs"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2236986219+0.ass"
+  },
+  "2238825958": {
+    "abs_start": 0, "abs_end": 23137, "duration": 23137,
+    "name": "Lucky Tower Ultimate (демо) #5 / Lethal Company #16",
+    "date": "2024-08-31",
+    "direct": "https://bsufiles.drhx.ru/streams/2238825958.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2238825958.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2238825958.torrent",
+    "games": ["lucky-tower", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2238825958+0.ass"
   }
 }

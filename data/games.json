@@ -945,6 +945,9 @@
       ] },
       { "segment": "2232659937", "subrefs": [
         { "name": "15", "start": 6850 }
+      ] },
+      { "segment": "2238825958", "subrefs": [
+        { "name": "16", "start": 5580 }
       ] }
     ]
   },
@@ -7693,7 +7696,7 @@
   },
   {
     "name": "Dune 2000",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "dune-2000",
     "streams": [
       { "segment": "1573052503", "subrefs": [
@@ -8002,7 +8005,7 @@
   },
   {
     "name": "Scholar's Mate",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "scholars-mate",
     "streams": [
       { "segment": "1849426857", "subrefs": [
@@ -8914,6 +8917,9 @@
       ] },
       { "segment": "2231748428", "subrefs": [
         { "name": "4", "start": 2215 }
+      ] },
+      { "segment": "2238825958", "subrefs": [
+        { "name": "5", "start": 3364 }
       ] }
     ]
   },
