@@ -14985,7 +14985,6 @@
     "youtube": "WDarcWntYvA", "abs_start": 0, "abs_end": 22018, "duration": 22018,
     "name": "GTFO #9 (4D) / Chained Together #3",
     "date": "2024-07-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2201687360.torrent",
     "games": ["gtfo", "chained-together"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2201687360+0.ass"
   },
@@ -15226,5 +15225,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2238825958.torrent",
     "games": ["lucky-tower", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2238825958+0.ass"
+  },
+  "2239749556": {
+    "abs_start": 0, "abs_end": 14764, "duration": 14764,
+    "name": "Disney Princess: Enchanted Journey",
+    "date": "2024-09-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2239749556.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2239749556.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2239749556.torrent",
+    "games": ["single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2239749556.ass"
   }
 }
