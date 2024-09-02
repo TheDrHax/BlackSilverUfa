@@ -14992,7 +14992,6 @@
     "youtube": "_iG4KHPsLT0", "abs_start": 0, "abs_end": 10286, "duration": 10286,
     "name": "Kunitsu-Gami: Path of the Goddess",
     "date": "2024-07-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2202570561.torrent",
     "games": ["first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2202570561.ass"
   },
@@ -15235,5 +15234,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2239749556.torrent",
     "games": ["single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2239749556.ass"
+  },
+  "2240618772": {
+    "abs_start": 0, "abs_end": 21326, "duration": 21326,
+    "name": "Satellite Odyssey: Prologue / Descending (by leth) / The Ten Bells / We Harvest Shadows (демо)",
+    "date": "2024-09-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2240618772.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2240618772.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2240618772.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2240618772+0.ass"
   }
 }

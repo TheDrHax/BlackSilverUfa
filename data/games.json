@@ -8250,6 +8250,9 @@
       { "segment": "2236986219", "subrefs": [
         { "name": "Roswell Ranch", "start": 7573 },
         { "name": "Whispering Lane", "start": 16910 }
+      ] },
+      { "segment": "2240618772", "subrefs": [
+        { "name": "The Ten Bells", "start": 11558 }
       ] }
     ]
   },
@@ -8346,7 +8349,7 @@
   },
   {
     "name": "Nightmare Kart",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "nightmare-kart",
     "streams": [
       { "segment": "2161695467", "subrefs": [
@@ -8827,6 +8830,11 @@
       ] },
       { "segment": "2239749556", "subrefs": [
         { "name": "Disney Princess: Enchanted Journey", "start": 1450 }
+      ] },
+      { "segment": "2240618772", "subrefs": [
+        { "name": "Satellite Odyssey: Prologue", "start": 2625 },
+        { "name": "Descending (by leth)", "start": 7744 },
+        { "name": "We Harvest Shadows (демо)", "start": 14891 }
       ] }
     ]
   },
@@ -11895,7 +11903,7 @@
   },
   {
     "name": "Like a Dragon: Infinite Wealth",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "like-dragon-iw",
     "streams": [
       { "segment": "2047046153", "subrefs": [
