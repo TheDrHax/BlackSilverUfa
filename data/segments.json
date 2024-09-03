@@ -14999,7 +14999,6 @@
     "youtube": "CVQAWFfCcLk", "abs_start": 0, "abs_end": 24458, "duration": 24458,
     "name": "Deformed #1 / Backrooms: Escape Together / Dark Hours: Prologue / Project Unknown / Bureau of Contacts / Chained Together #4",
     "date": "2024-07-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2204264411.torrent",
     "games": ["deformed", "co-op", "chained-together"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2204264411+0.ass"
   },
@@ -15237,12 +15236,22 @@
   },
   "2240618772": {
     "abs_start": 0, "abs_end": 21326, "duration": 21326,
-    "name": "Satellite Odyssey: Prologue / Descending (by leth) / The Ten Bells / We Harvest Shadows (демо)",
+    "name": "Satellite Odyssey: Prologue / Descending (by leth) / The Ten Bells #1 / We Harvest Shadows (демо)",
     "date": "2024-09-02",
     "direct": "https://bsufiles.drhx.ru/streams/2240618772.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2240618772.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2240618772.torrent",
-    "games": ["single-2024", "first-2024"],
+    "games": ["single-2024", "ten-bells"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2240618772+0.ass"
+  },
+  "2241467494": {
+    "abs_start": 0, "abs_end": 19446, "duration": 19446,
+    "name": "Crime Scene Cleaner #10 / The Ten Bells #2 / Krypta FM",
+    "date": "2024-09-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2241467494.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2241467494.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2241467494.torrent",
+    "games": ["csc", "ten-bells", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2241467494+0.ass"
   }
 }
