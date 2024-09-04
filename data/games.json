@@ -8221,8 +8221,7 @@
         { "name": "VLADiK BRUTAL", "start": 2024 }
       ] },
       { "segment": "2222362452,2222444727", "subrefs": [
-        { "name": "The Walls Still Stand", "start": 2394 },
-        { "name": "Krypta FM", "start": 15773 }
+        { "name": "The Walls Still Stand", "start": 2394 }
       ] },
       { "segment": "2224031390", "subrefs": [
         { "name": "Dark and Deep", "start": 3485 }
@@ -8251,8 +8250,22 @@
         { "name": "Roswell Ranch", "start": 7573 },
         { "name": "Whispering Lane", "start": 16910 }
       ] },
+      { "segment": "2242337852", "subrefs": [
+        { "name": "Warhammer 40,000: Space Marine", "start": 1348 },
+        { "name": "Warhammer 40,000: Space Marine II (кооп)", "start": 11184 }
+      ] }
+    ]
+  },
+  {
+    "name": "Krypta FM",
+    "category": "ongoing",
+    "id": "krypta-fm",
+    "streams": [
+      { "segment": "2222362452,2222444727", "subrefs": [
+        { "name": "1", "start": 15773 }
+      ] },
       { "segment": "2241467494", "subrefs": [
-        { "name": "Krypta FM", "start": 13087 }
+        { "name": "2", "start": 13087 }
       ] }
     ]
   },

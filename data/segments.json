@@ -15006,7 +15006,6 @@
     "youtube": "YA-y3lTsYGk", "abs_start": 0, "abs_end": 17246, "duration": 17246,
     "name": "Deformed #2 / InfestStation / GTFO #10 (4D) / Chained Together #5 / Tricky Towers #36",
     "date": "2024-07-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2205157138.torrent",
     "games": ["deformed", "co-op", "gtfo", "chained-together", "tricky-towers"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2205157138.ass"
   },
@@ -15112,11 +15111,11 @@
   },
   "2222362452,2222444727": {
     "youtube": "u129WKnmnqY", "abs_start": 0, "abs_end": 17813, "duration": 17813,
-    "name": "The Walls Still Stand / Snowsquall Grip / Room 202 / SAVE Teaser: Before the Dawn / Shadow Fang #2 / Coagulation Station / Inside Under and Out / The Keeper / Krypta FM",
+    "name": "The Walls Still Stand / Snowsquall Grip / Room 202 / SAVE Teaser: Before the Dawn / Shadow Fang #2 / Coagulation Station / Inside Under and Out / The Keeper / Krypta FM #1",
     "date": "2024-08-12",
     "offsets": ["0:00", "2:32:17+2"],
     "torrent": "https://bsufiles.drhx.ru/streams/2222362452,2222444727.torrent",
-    "games": ["first-2024", "single-2024", "shadow-fang"],
+    "games": ["first-2024", "single-2024", "shadow-fang", "krypta-fm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2222362452,2222444727+0.ass"
   },
   "2224031390": {
@@ -15246,12 +15245,22 @@
   },
   "2241467494": {
     "abs_start": 0, "abs_end": 19446, "duration": 19446,
-    "name": "Crime Scene Cleaner #10 / The Ten Bells #2 / Krypta FM",
+    "name": "Crime Scene Cleaner #10 / The Ten Bells #2 / Krypta FM #2",
     "date": "2024-09-03",
     "direct": "https://bsufiles.drhx.ru/streams/2241467494.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2241467494.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2241467494.torrent",
-    "games": ["csc", "ten-bells", "first-2024"],
+    "games": ["csc", "ten-bells", "krypta-fm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2241467494+0.ass"
+  },
+  "2242337852": {
+    "abs_start": 0, "abs_end": 23688, "duration": 23688,
+    "name": "Warhammer 40,000: Space Marine / Warhammer 40,000: Space Marine II (кооп)",
+    "date": "2024-09-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2242337852.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2242337852.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2242337852.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2242337852+0.ass"
   }
 }
