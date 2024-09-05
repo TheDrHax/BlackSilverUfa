@@ -8251,8 +8251,20 @@
         { "name": "Whispering Lane", "start": 16910 }
       ] },
       { "segment": "2242337852", "subrefs": [
-        { "name": "Warhammer 40,000: Space Marine", "start": 1348 },
-        { "name": "Warhammer 40,000: Space Marine II (кооп)", "start": 11184 }
+        { "name": "Warhammer 40,000: Space Marine", "start": 1348 }
+      ] }
+    ]
+  },
+  {
+    "name": "Warhammer 40,000: Space Marine II (кооп)",
+    "category": "ongoing",
+    "id": "wh40k-sm2",
+    "streams": [
+      { "segment": "2242337852", "subrefs": [
+        { "name": "1", "start": 11184 }
+      ] },
+      { "segment": "2243137535", "subrefs": [
+        { "name": "2", "start": 5130 }
       ] }
     ]
   },
@@ -9811,6 +9823,9 @@
       ] },
       { "segment": "2241467494", "subrefs": [
         { "name": "10", "start": 1866 }
+      ] },
+      { "segment": "2243137535", "subrefs": [
+        { "name": "11", "start": 911 }
       ] }
     ]
   },

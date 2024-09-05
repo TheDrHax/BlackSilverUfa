@@ -15013,7 +15013,6 @@
     "youtube": "Pt1jPBJwYTg", "abs_start": 0, "abs_end": 18272, "duration": 18272,
     "name": "Chuxie / 10:59 / Shift 87 / Paranormal Place",
     "date": "2024-08-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2212959007.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2212959007.ass"
   },
@@ -15255,12 +15254,22 @@
   },
   "2242337852": {
     "abs_start": 0, "abs_end": 23688, "duration": 23688,
-    "name": "Warhammer 40,000: Space Marine / Warhammer 40,000: Space Marine II (кооп)",
+    "name": "Warhammer 40,000: Space Marine / Warhammer 40,000: Space Marine II (кооп) #1",
     "date": "2024-09-04",
     "direct": "https://bsufiles.drhx.ru/streams/2242337852.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2242337852.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2242337852.torrent",
-    "games": ["first-2024"],
+    "games": ["first-2024", "wh40k-sm2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2242337852+0.ass"
+  },
+  "2243137535": {
+    "abs_start": 0, "abs_end": 23417, "duration": 23417,
+    "name": "Crime Scene Cleaner #11 / Warhammer 40,000: Space Marine II (кооп) #2",
+    "date": "2024-09-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2243137535.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2243137535.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2243137535.torrent",
+    "games": ["csc", "wh40k-sm2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2243137535+0.ass"
   }
 }
