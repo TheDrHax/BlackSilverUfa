@@ -14941,9 +14941,9 @@
   },
   "2193968354": {
     "youtube": "3RAg24nN4gU", "abs_start": 0, "abs_end": 26484, "duration": 26484,
-    "name": "Anger Foot - Релиз / Dark and Darker / Pilgrim / Chained Together #2",
+    "name": "Anger Foot - Релиз / Dark and Darker / Pilgrim #1 / Chained Together #2",
     "date": "2024-07-10",
-    "games": ["anger-foot", "co-op", "chained-together"],
+    "games": ["anger-foot", "co-op", "pilgrim", "chained-together"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2193968354.ass"
   },
   "2196566763": {
@@ -15020,7 +15020,6 @@
     "youtube": "9q0GNjOW0QI", "abs_start": 0, "abs_end": 29448, "duration": 29448,
     "name": "CONSCRIPT / Thank Goodness You're Here #1 / Remnant II - DLC: Awakened King #1",
     "date": "2024-08-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2213762112.torrent",
     "games": ["first-2024", "tgyh", "remnant-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2213762112+0.ass"
   },
@@ -15263,5 +15262,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2243137535.torrent",
     "games": ["csc", "wh40k-sm2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2243137535+0.ass"
+  },
+  "2244890208": {
+    "abs_start": 0, "abs_end": 25057, "duration": 25057,
+    "name": "Crime Scene Cleaner #12 / Pilgrim #2 / Lethal Company #17",
+    "date": "2024-09-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2244890208.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2244890208.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2244890208.torrent",
+    "games": ["csc", "pilgrim", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2244890208+0.ass"
   }
 }

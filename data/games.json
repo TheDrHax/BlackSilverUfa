@@ -744,8 +744,7 @@
         { "name": "Murky Divers", "start": 17585 }
       ] },
       { "segment": "2193968354", "subrefs": [
-        { "name": "Dark and Darker", "start": 2476 },
-        { "name": "Pilgrim", "start": 10025 }
+        { "name": "Dark and Darker", "start": 2476 }
       ] },
       { "segment": "2204264411", "subrefs": [
         { "name": "Backrooms: Escape Together", "start": 6279 },
@@ -762,6 +761,19 @@
       ] },
       { "segment": "2227459008", "subrefs": [
         { "name": "Stalcraft: X (с Димами)", "start": 7648 }
+      ] }
+    ]
+  },
+  {
+    "name": "Pilgrim",
+    "category": "ongoing",
+    "id": "pilgrim",
+    "streams": [
+      { "segment": "2193968354", "subrefs": [
+        { "name": "1", "start": 10025 }
+      ] },
+      { "segment": "2244890208", "subrefs": [
+        { "name": "2", "start": 7130 }
       ] }
     ]
   },
@@ -948,6 +960,9 @@
       ] },
       { "segment": "2238825958", "subrefs": [
         { "name": "16", "start": 5580 }
+      ] },
+      { "segment": "2244890208", "subrefs": [
+        { "name": "17", "start": 9326 }
       ] }
     ]
   },
@@ -9826,6 +9841,9 @@
       ] },
       { "segment": "2243137535", "subrefs": [
         { "name": "11", "start": 911 }
+      ] },
+      { "segment": "2244890208", "subrefs": [
+        { "name": "12", "start": 1481 }
       ] }
     ]
   },
