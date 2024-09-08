@@ -11675,19 +11675,11 @@
   },
   "1657037267": {
     "youtube": "gxT_K0oGoQY", "official": false, "abs_start": 0, "abs_end": 39137, "duration": 39137,
-    "name": "Warhammer 40,000: Darktide - Бета 2 (соло)",
+    "name": "Warhammer 40,000: Darktide - Бета 2 (соло) / The Dark Pictures: The Devil in Me",
     "date": "2022-11-19",
-    "games": ["darktide"],
+    "games": ["darktide", "single-2022"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1657037267.ass",
-    "note": "<a href=\"https://youtu.be/Kj7RKQB_jgI\">Официальная запись</a> сломана (недоступно качество выше 360p)"
-  },
-  "1657037267.1": {
-    "youtube": "gxT_K0oGoQY", "official": false, "abs_start": 9904, "abs_end": 49041, "duration": 39137,
-    "name": "The Dark Pictures: The Devil in Me",
-    "date": "2022-11-19",
-    "games": ["single-2022"],
-    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1657037267.ass",
-    "note": "<a href=\"https://youtu.be/TYDJXMvqT6g\">Официальная запись</a> сломана (недоступно качество выше 360p) <!-- offset=2:45:04 -->"
+    "note": "Официальные записи <a href=\"https://youtu.be/Kj7RKQB_jgI\">1</a> и <a href=\"https://youtu.be/TYDJXMvqT6g\">2</a> сломаны (недоступно качество выше 360p)"
   },
   "1658062393": {
     "youtube": "ptfAE_6v5vQ", "abs_start": 0, "abs_end": 21930, "duration": 21930,
