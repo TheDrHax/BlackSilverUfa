@@ -15019,7 +15019,6 @@
     "youtube": "-SPrqSYJfns", "abs_start": 0, "abs_end": 19031, "duration": 19031,
     "name": "Сэттээх / The Mortuary Assistant #9",
     "date": "2024-08-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2214697978.torrent",
     "games": ["single-2024", "mortuary-assistant"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2214697978+0.ass"
   },
@@ -15264,5 +15263,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2244890208.torrent",
     "games": ["csc", "pilgrim", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2244890208+0.ass"
+  },
+  "2245831758": {
+    "abs_start": 0, "abs_end": 18496, "duration": 18496,
+    "name": "The Classrooms #3 / Bleeding Roots / Creepy Camping / In My Head / Floor 9: Beginning / Urayama",
+    "date": "2024-09-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2245831758.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2245831758.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2245831758.torrent",
+    "games": ["classrooms", "single-2024", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2245831758.ass"
   }
 }
