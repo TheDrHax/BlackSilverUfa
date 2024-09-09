@@ -8075,8 +8075,7 @@
       ] },
       { "segment": "2054830363", "subrefs": [
         { "name": "Lightyear Frontier (демо)", "start": 8927 },
-        { "name": "CYGNI: All Guns Blazing (демо)", "start": 12077 },
-        { "name": "Star Trucker (демо)", "start": 15104 }
+        { "name": "CYGNI: All Guns Blazing (демо)", "start": 12077 }
       ] },
       { "segment": "2058685006", "subrefs": [
         { "name": "Islands of Insight (демо)", "start": 4283 },
@@ -8276,8 +8275,20 @@
         { "name": "In My Head", "start": 12644 }
       ] },
       { "segment": "2246630814", "subrefs": [
-        { "name": "Star Trucker", "start": 7607 },
         { "name": "Edge of Sanity", "start": 10961 }
+      ] }
+    ]
+  },
+  {
+    "name": "Star Trucker",
+    "category": "ongoing",
+    "id": "star-trucker",
+    "streams": [
+      { "segment": "2054830363", "subrefs": [
+        { "name": "Демо", "start": 15104 }
+      ] },
+      { "segment": "2246630814", "subrefs": [
+        { "name": "Релиз", "start": 7607 }
       ] }
     ]
   },

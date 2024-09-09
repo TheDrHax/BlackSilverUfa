@@ -14175,9 +14175,9 @@
   },
   "2054830363": {
     "youtube": "GHxexhIU7a4", "abs_start": 0, "abs_end": 24870, "duration": 24870,
-    "name": "Pacific Drive - Демо / Lightyear Frontier (демо) / CYGNI: All Guns Blazing (демо) / Star Trucker (демо) / Atomic Heart - Trapped in Limbo #1",
+    "name": "Pacific Drive - Демо / Lightyear Frontier (демо) / CYGNI: All Guns Blazing (демо) / Star Trucker - Демо / Atomic Heart - Trapped in Limbo #1",
     "date": "2024-02-06",
-    "games": ["pacific-drive", "first-2024", "atomic-heart"],
+    "games": ["pacific-drive", "first-2024", "star-trucker", "atomic-heart"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2054830363.ass"
   },
   "2055762940": {
@@ -15269,12 +15269,12 @@
   },
   "2246630814": {
     "abs_start": 0, "abs_end": 19788, "duration": 19788,
-    "name": "Crime Scene Cleaner #13 / Star Trucker / Edge of Sanity / Bad Omens: 8th Apartment",
+    "name": "Crime Scene Cleaner #13 / Star Trucker - Релиз / Edge of Sanity / Bad Omens: 8th Apartment",
     "date": "2024-09-09",
     "direct": "https://bsufiles.drhx.ru/streams/2246630814.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2246630814.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2246630814.torrent",
-    "games": ["csc", "first-2024", "single-2024"],
+    "games": ["csc", "star-trucker", "first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2246630814+0.ass"
   }
 }
