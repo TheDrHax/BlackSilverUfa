@@ -8274,6 +8274,10 @@
       { "segment": "2245831758", "subrefs": [
         { "name": "Creepy Camping", "start": 9524 },
         { "name": "In My Head", "start": 12644 }
+      ] },
+      { "segment": "2246630814", "subrefs": [
+        { "name": "Star Trucker", "start": 7607 },
+        { "name": "Edge of Sanity", "start": 10961 }
       ] }
     ]
   },
@@ -8900,6 +8904,9 @@
         { "name": "Bleeding Roots", "start": 8012 },
         { "name": "Floor 9: Beginning", "start": 15658 },
         { "name": "Urayama", "start": 16043 }
+      ] },
+      { "segment": "2246630814", "subrefs": [
+        { "name": "Bad Omens: 8th Apartment", "start": 17192 }
       ] }
     ]
   },
@@ -9856,6 +9863,9 @@
       ] },
       { "segment": "2244890208", "subrefs": [
         { "name": "12", "start": 1481 }
+      ] },
+      { "segment": "2246630814", "subrefs": [
+        { "name": "13", "start": 1436 }
       ] }
     ]
   },
