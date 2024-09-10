@@ -15033,7 +15033,6 @@
     "youtube": "OGWZuGOC_1g", "abs_start": 0, "abs_end": 23123, "duration": 23123,
     "name": "My Last Appointment / Remnant II - DLC: Awakened King #2",
     "date": "2024-08-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2217218158.torrent",
     "games": ["single-2024", "remnant-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2217218158+0.ass"
   },
@@ -15269,12 +15268,32 @@
   },
   "2246630814": {
     "abs_start": 0, "abs_end": 19788, "duration": 19788,
-    "name": "Crime Scene Cleaner #13 / Star Trucker - Релиз / Edge of Sanity / Bad Omens: 8th Apartment",
+    "name": "Crime Scene Cleaner #13 / Star Trucker #1 (релиз) / Edge of Sanity / Bad Omens: 8th Apartment",
     "date": "2024-09-09",
     "direct": "https://bsufiles.drhx.ru/streams/2246630814.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2246630814.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2246630814.torrent",
     "games": ["csc", "star-trucker", "first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2246630814+0.ass"
+  },
+  "2247418986": {
+    "abs_start": 0, "abs_end": 2536, "duration": 2536,
+    "name": "Star Trucker #2",
+    "date": "2024-09-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2247418986.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2247418986.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2247418986.torrent",
+    "games": ["star-trucker"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2247418986.ass"
+  },
+  "2247438660": {
+    "abs_start": 0, "abs_end": 23829, "duration": 23829,
+    "name": "Coagulation Station / The Gravedigger / Expeditions: A MudRunner Game",
+    "date": "2024-09-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2247438660.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2247438660.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2247438660.torrent",
+    "games": ["single-2024", "first-2024", "co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2247438660+0.ass"
   }
 }
