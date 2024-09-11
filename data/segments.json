@@ -14323,9 +14323,9 @@
   },
   "2081886159": {
     "youtube": "eFRPcsoFoew", "abs_start": 0, "abs_end": 19689, "duration": 19689,
-    "name": "Fossilfuel 2 / Expeditions: A MudRunner Game / Quiet Farm / My Dear Neighbor, Edition 404 (демо) / The Zhukov Line",
+    "name": "Fossilfuel 2 / Expeditions: A MudRunner Game - Первый взгляд / Quiet Farm / My Dear Neighbor, Edition 404 (демо) / The Zhukov Line",
     "date": "2024-03-05",
-    "games": ["first-2024", "single-2024"],
+    "games": ["first-2024", "expeditions", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2081886159+0.ass"
   },
   "2083745262": {
@@ -15098,11 +15098,11 @@
   },
   "2222362452,2222444727": {
     "youtube": "u129WKnmnqY", "abs_start": 0, "abs_end": 17813, "duration": 17813,
-    "name": "The Walls Still Stand / Snowsquall Grip / Room 202 / SAVE Teaser: Before the Dawn / Shadow Fang #2 / Coagulation Station / Inside Under and Out / The Keeper / Krypta FM #1",
+    "name": "The Walls Still Stand / Snowsquall Grip / Room 202 / SAVE Teaser: Before the Dawn / Shadow Fang #2 / Coagulation Station #1 / Inside Under and Out / The Keeper / Krypta FM #1",
     "date": "2024-08-12",
     "offsets": ["0:00", "2:32:17+2"],
     "torrent": "https://bsufiles.drhx.ru/streams/2222362452,2222444727.torrent",
-    "games": ["first-2024", "single-2024", "shadow-fang", "krypta-fm"],
+    "games": ["first-2024", "single-2024", "shadow-fang", "coagulation", "krypta-fm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2222362452,2222444727+0.ass"
   },
   "2224031390": {
@@ -15164,10 +15164,10 @@
   },
   "2233576575": {
     "youtube": "y9KluumCH7w", "abs_start": 0, "abs_end": 19390, "duration": 19390,
-    "name": "The Gravedigger / Echoes of The Backrooms / Golly Soda Pop / Macabre no Zantou: Remnants of the Macabre / Naribikimura / When the Devil Takes Hold - Прохождение",
+    "name": "The Gravedigger #1 / Echoes of The Backrooms / Golly Soda Pop / Macabre no Zantou: Remnants of the Macabre / Naribikimura / When the Devil Takes Hold - Прохождение",
     "date": "2024-08-25",
     "torrent": "https://bsufiles.drhx.ru/streams/2233576575.torrent",
-    "games": ["first-2024", "single-2024", "wtdth"],
+    "games": ["gravedigger", "first-2024", "single-2024", "wtdth"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2233576575.ass"
   },
   "2234409670": {
@@ -15288,12 +15288,12 @@
   },
   "2247438660": {
     "abs_start": 0, "abs_end": 23829, "duration": 23829,
-    "name": "Coagulation Station / The Gravedigger / Expeditions: A MudRunner Game",
+    "name": "Coagulation Station #2 / The Gravedigger #2 / Expeditions: A MudRunner Game - Кооп",
     "date": "2024-09-10",
     "direct": "https://bsufiles.drhx.ru/streams/2247438660.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2247438660.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2247438660.torrent",
-    "games": ["single-2024", "first-2024", "co-op"],
+    "games": ["coagulation", "gravedigger", "expeditions"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2247438660+0.ass"
   }
 }
