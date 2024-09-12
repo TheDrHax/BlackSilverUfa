@@ -5548,6 +5548,9 @@
       ] },
       { "segment": "1957481459", "subrefs": [
         { "name": "Episode 4 - Ironbark Lookout", "start": 2115 }
+      ] },
+      { "segment": "2249129409", "subrefs": [
+        { "name": "Episode 5 - Woodbury Getaway", "start": 3984 }
       ] }
     ]
   },
@@ -8944,6 +8947,9 @@
       ] },
       { "segment": "2246630814", "subrefs": [
         { "name": "Bad Omens: 8th Apartment", "start": 17192 }
+      ] },
+      { "segment": "2249129409", "subrefs": [
+        { "name": "THRESHOLD (демо)", "start": 1877 }
       ] }
     ]
   },
@@ -9035,12 +9041,12 @@
     ]
   },
   {
-    "name": "Lucky Tower Ultimate (демо)",
+    "name": "Lucky Tower Ultimate",
     "category": "ongoing",
     "id": "lucky-tower",
     "streams": [
       { "segment": "2168445264", "subrefs": [
-        { "name": "1", "start": 16056 }
+        { "name": "1 (демо)", "start": 16056 }
       ] },
       { "segment": "2169221839", "subrefs": [
         { "name": "2", "start": 20000 }
@@ -9053,6 +9059,9 @@
       ] },
       { "segment": "2238825958", "subrefs": [
         { "name": "5", "start": 3364 }
+      ] },
+      { "segment": "2249129409", "subrefs": [
+        { "name": "6 (релиз)", "start": 16576 }
       ] }
     ]
   },

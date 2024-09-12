@@ -14779,14 +14779,14 @@
   },
   "2168445264": {
     "youtube": "tPA2mI_GjFY", "abs_start": 0, "abs_end": 21801, "duration": 21801,
-    "name": "неПрофессиональный \"E3\" 2024 - Xbox Games Showcase (обзор) | PC Gaming Show (обзор) | Future Games Show (обзор) / Lucky Tower Ultimate (демо) #1",
+    "name": "неПрофессиональный \"E3\" 2024 - Xbox Games Showcase (обзор) | PC Gaming Show (обзор) | Future Games Show (обзор) / Lucky Tower Ultimate #1 (демо)",
     "date": "2024-06-10",
     "games": ["e3_2024", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2168445264.ass"
   },
   "2169221839": {
     "youtube": "NbjTYd4OTzQ", "abs_start": 0, "abs_end": 25562, "duration": 25562,
-    "name": "неПрофессиональный \"E3\" 2024 - Ubisoft Forward (обзор) / Phantom Line (демо) / The Alters (демо) / FUMES (демо) / Steel Seed (демо) / Lucky Tower Ultimate (демо) #2 / Reason Unfound (демо) / Tormenture (демо) #1",
+    "name": "неПрофессиональный \"E3\" 2024 - Ubisoft Forward (обзор) / Phantom Line (демо) / The Alters (демо) / FUMES (демо) / Steel Seed (демо) / Lucky Tower Ultimate #2 / Reason Unfound (демо) / Tormenture (демо) #1",
     "date": "2024-06-11",
     "games": ["e3_2024", "single-2024", "first-2024", "lucky-tower", "tormenture"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2169221839.ass"
@@ -14814,7 +14814,7 @@
   },
   "2172620884": {
     "youtube": "bf0jcS6FA9Y", "abs_start": 0, "abs_end": 22432, "duration": 22432,
-    "name": "Fallen Aces / Hollywood Animal / Caravan SandWitch (демо) / Lucky Tower Ultimate (демо) #3 / The Outlast Trials #5 (с тремя Димами)",
+    "name": "Fallen Aces / Hollywood Animal / Caravan SandWitch (демо) / Lucky Tower Ultimate #3 / The Outlast Trials #5 (с тремя Димами)",
     "date": "2024-06-15",
     "games": ["first-2024", "lucky-tower", "outlast-trials"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2172620884.ass"
@@ -15040,7 +15040,6 @@
     "youtube": "aNC5mvpiqR0", "abs_start": 0, "abs_end": 23690, "duration": 23690,
     "name": "The Evil Within #1 (Акуму)",
     "date": "2024-08-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2218048777.torrent",
     "games": ["evil_within"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2218048777.ass"
   },
@@ -15147,7 +15146,7 @@
   },
   "2231748428": {
     "youtube": "f9Y3j_Ew6ks", "abs_start": 0, "abs_end": 21022, "duration": 21022,
-    "name": "Lucky Tower Ultimate (демо) #4 / Crime Scene Cleaner #5 / No, I'm Not Human #2",
+    "name": "Lucky Tower Ultimate #4 / Crime Scene Cleaner #5 / No, I'm Not Human #2",
     "date": "2024-08-23",
     "torrent": "https://bsufiles.drhx.ru/streams/2231748428.torrent",
     "games": ["lucky-tower", "csc", "vhs"],
@@ -15204,7 +15203,7 @@
   },
   "2238825958": {
     "youtube": "eN7R9hQzp1U", "abs_start": 0, "abs_end": 23138, "duration": 23138,
-    "name": "Lucky Tower Ultimate (демо) #5 / Lethal Company #16",
+    "name": "Lucky Tower Ultimate #5 / Lethal Company #16",
     "date": "2024-08-31",
     "torrent": "https://bsufiles.drhx.ru/streams/2238825958.torrent",
     "games": ["lucky-tower", "lethal-company"],
@@ -15295,5 +15294,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2247438660.torrent",
     "games": ["coagulation", "gravedigger", "expeditions"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2247438660+0.ass"
+  },
+  "2249129409": {
+    "abs_start": 0, "abs_end": 19867, "duration": 19867,
+    "name": "THRESHOLD (демо) / Fears to Fathom - Episode 5 - Woodbury Getaway / Lucky Tower Ultimate #6 (релиз)",
+    "date": "2024-09-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2249129409.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2249129409.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2249129409.torrent",
+    "games": ["single-2024", "fears-to-fathom", "lucky-tower"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2249129409+0.ass"
   }
 }
