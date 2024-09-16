@@ -15061,7 +15061,6 @@
     "youtube": "o8eAzn_1PLg", "abs_start": 0, "abs_end": 20699, "duration": 20699,
     "name": "Five Nights at Freddy's: Into the Pit",
     "date": "2024-08-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2220679258.torrent",
     "games": ["single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2220679258+0.ass"
   },
@@ -15312,5 +15311,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2250799817.torrent",
     "games": ["lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2250799817.ass"
+  },
+  "2252500218": {
+    "abs_start": 0, "abs_end": 24757, "duration": 24757,
+    "name": "Lucky Tower Ultimate #9 / Lethal Company #18",
+    "date": "2024-09-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2252500218.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2252500218.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2252500218.torrent",
+    "games": ["lucky-tower", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2252500218+0.ass"
   }
 }
