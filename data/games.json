@@ -8213,7 +8213,6 @@
         { "name": "FUMES (демо)", "start": 16446 }
       ] },
       { "segment": "2170904450", "subrefs": [
-        { "name": "Enotria: The Last Song", "start": 1194 },
         { "name": "Flintlock: The Siege of Dawn", "start": 8230 }
       ] },
       { "segment": "2172620884", "subrefs": [
@@ -8293,6 +8292,22 @@
       ] },
       { "segment": "2246630814", "subrefs": [
         { "name": "Edge of Sanity", "start": 10961 }
+      ] },
+      { "segment": "2253290479", "subrefs": [
+        { "name": "Frostpunk 2", "start": 23282 }
+      ] }
+    ]
+  },
+  {
+    "name": "Enotria: The Last Song",
+    "category": "ongoing",
+    "id": "enotria",
+    "streams": [
+      { "segment": "2170904450", "subrefs": [
+        { "name": "Демо", "start": 1194 }
+      ] },
+      { "segment": "2253290479", "subrefs": [
+        { "name": "Релиз", "start": 1214 }
       ] }
     ]
   },
@@ -8327,7 +8342,7 @@
   },
   {
     "name": "Warhammer 40,000: Space Marine II (кооп)",
-    "category": "ongoing",
+    "category": "finished",
     "id": "wh40k-sm2",
     "streams": [
       { "segment": "2242337852", "subrefs": [
@@ -8338,6 +8353,9 @@
       ] },
       { "segment": "2249923453", "subrefs": [
         { "name": "3", "start": 3067 }
+      ] },
+      { "segment": "2253290479", "subrefs": [
+        { "name": "4", "start": 11420 }
       ] }
     ]
   },
@@ -9077,6 +9095,9 @@
       ] },
       { "segment": "2252500218", "subrefs": [
         { "name": "9", "start": 1749 }
+      ] },
+      { "segment": "2253290479", "subrefs": [
+        { "name": "10", "start": 8155 }
       ] }
     ]
   },

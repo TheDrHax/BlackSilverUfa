@@ -14802,9 +14802,9 @@
   },
   "2170904450": {
     "youtube": "X24X4q_9p_g", "abs_start": 0, "abs_end": 28301, "duration": 28301,
-    "name": "Enotria: The Last Song / Flintlock: The Siege of Dawn / GTFO #8 (4D)",
+    "name": "Enotria: The Last Song - Демо / Flintlock: The Siege of Dawn / GTFO #8 (4D)",
     "date": "2024-06-13",
-    "games": ["first-2024", "gtfo"],
+    "games": ["enotria", "first-2024", "gtfo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2170904450.ass"
   },
   "2171772619": {
@@ -15070,17 +15070,13 @@
     "youtube": "-flDzNABoRA", "abs_start": 0, "abs_end": 16515, "duration": 16515,
     "name": "VLADiK BRUTAL / Phasmophobia #20 (с Куплиновым и Дангаром)",
     "date": "2024-08-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2221505591.torrent",
     "games": ["first-2024", "phasmophobia"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2221505591+0.ass"
   },
   "2222362452": {
-    "abs_start": 0, "abs_end": 9138, "duration": 9138,
+    "abs_start": 0, "abs_end": 9164, "duration": 0,
     "name": "",
     "date": "2024-08-12",
-    "direct": "https://bsufiles.drhx.ru/streams/2222362452.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2222362452.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2222362452.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2222362452.ass"
   },
@@ -15323,5 +15319,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2252500218.torrent",
     "games": ["lucky-tower", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2252500218+0.ass"
+  },
+  "2253290479": {
+    "abs_start": 0, "abs_end": 28718, "duration": 28718,
+    "name": "Enotria: The Last Song - Релиз / Lucky Tower Ultimate #10 / Warhammer 40,000: Space Marine II (кооп) #4 / Frostpunk 2",
+    "date": "2024-09-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2253290479.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2253290479.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2253290479.torrent",
+    "games": ["enotria", "lucky-tower", "wh40k-sm2", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2253290479.ass"
   }
 }
