@@ -2918,9 +2918,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293012700.ass"
   },
   "293415850": {
-    "youtube": "vE38irVbcAI", "official": false, "abs_start": 0, "abs_end": 20784, "duration": 20784,
+    "abs_start": 0, "abs_end": 20783, "duration": 20783,
     "name": "Dead Forest / PUSS! / Chasm / Airships: Conquer the Skies / CASE 2: Animatronics Survival #2 / Escape From Tarkov #5",
     "date": "2018-08-05",
+    "direct": "https://bsufiles.drhx.ru/streams/293415850.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/293415850.mp4/master.m3u8",
     "games": ["single-2018", "first-2018", "case-2", "tarkov"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293415850.ass",
     "note": "<a href=\"https://youtu.be/L_FnrodRmyo\">Официальная запись</a> сломана (недоступно качество выше 360p)"
