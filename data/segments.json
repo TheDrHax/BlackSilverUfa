@@ -15081,12 +15081,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2222362452.ass"
   },
   "2222444727": {
-    "abs_start": 0, "abs_end": 8676, "duration": 8676,
+    "abs_start": 0, "abs_end": 8683, "duration": 0,
     "name": "",
     "date": "2024-08-12",
-    "direct": "https://bsufiles.drhx.ru/streams/2222444727.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2222444727.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2222444727.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2222444727.ass"
   },
@@ -15095,7 +15092,6 @@
     "name": "The Walls Still Stand / Snowsquall Grip / Room 202 / SAVE Teaser: Before the Dawn / Shadow Fang #2 / Coagulation Station #1 / Inside Under and Out / The Keeper / Krypta FM #1",
     "date": "2024-08-12",
     "offsets": ["0:00", "2:32:17+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2222362452,2222444727.torrent",
     "games": ["first-2024", "single-2024", "shadow-fang", "coagulation", "krypta-fm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2222362452,2222444727+0.ass"
   },
@@ -15329,5 +15325,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2253290479.torrent",
     "games": ["enotria", "lucky-tower", "wh40k-sm2", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2253290479.ass"
+  },
+  "2254121538": {
+    "abs_start": 0, "abs_end": 25642, "duration": 25642,
+    "name": "Dead Rising Deluxe Remaster",
+    "date": "2024-09-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2254121538.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2254121538.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2254121538.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2254121538+0.ass"
   }
 }
