@@ -15099,7 +15099,6 @@
     "youtube": "hz6zj-0WAMY", "abs_start": 0, "abs_end": 21733, "duration": 21733,
     "name": "Dark and Deep / The Bathhouse: Restored Edition",
     "date": "2024-08-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2224031390.torrent",
     "games": ["first-2024", "chillas-art"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2224031390.ass"
   },
@@ -15324,10 +15323,20 @@
   },
   "2254121538": {
     "youtube": "adZJs3Ckrvc", "abs_start": 0, "abs_end": 25643, "duration": 25643,
-    "name": "Dead Rising Deluxe Remaster",
+    "name": "Dead Rising Deluxe Remaster #1",
     "date": "2024-09-18",
     "torrent": "https://bsufiles.drhx.ru/streams/2254121538.torrent",
-    "games": ["first-2024"],
+    "games": ["dead-rising-dr"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2254121538+0.ass"
+  },
+  "2254937807": {
+    "abs_start": 0, "abs_end": 18106, "duration": 18106,
+    "name": "Dead Rising Deluxe Remaster #2",
+    "date": "2024-09-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2254937807.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2254937807.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2254937807.torrent",
+    "games": ["dead-rising-dr"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2254937807+0.ass"
   }
 }

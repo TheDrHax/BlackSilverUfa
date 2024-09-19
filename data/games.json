@@ -8295,9 +8295,19 @@
       ] },
       { "segment": "2253290479", "subrefs": [
         { "name": "Frostpunk 2", "start": 23282 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Dead Rising Deluxe Remaster",
+    "category": "finished",
+    "id": "dead-rising-dr",
+    "streams": [
       { "segment": "2254121538", "subrefs": [
-        { "name": "Dead Rising Deluxe Remaster", "start": 1735 }
+        { "name": "1", "start": 1735 }
+      ] },
+      { "segment": "2254937807", "subrefs": [
+        { "name": "2", "start": 740 }
       ] }
     ]
   },
