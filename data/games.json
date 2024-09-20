@@ -8413,7 +8413,7 @@
   },
   {
     "name": "Thank Goodness You're Here",
-    "category": "ongoing",
+    "category": "finished",
     "id": "tgyh",
     "streams": [
       { "segment": "2213762112", "subrefs": [
@@ -8421,6 +8421,9 @@
       ] },
       { "segment": "2219800754", "subrefs": [
         { "name": "2", "start": 1835 }
+      ] },
+      { "segment": "2228324519", "subrefs": [
+        { "name": "3", "start": 3765 }
       ] }
     ]
   },
@@ -8955,7 +8958,6 @@
         { "name": "Phantom Ten", "start": 15575 }
       ] },
       { "segment": "2228324519", "subrefs": [
-        { "name": "Thank Goodness You're Here!", "start": 3765 },
         { "name": "Kiosk", "start": 9579 }
       ] },
       { "segment": "2233576575", "subrefs": [
