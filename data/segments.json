@@ -15113,7 +15113,6 @@
     "youtube": "2zvDo6jtT7I", "abs_start": 0, "abs_end": 21508, "duration": 21508,
     "name": "Crime Scene Cleaner #4 / Stalcraft: X (с Димами) / Phantom Ten / Rodland of Pipes / Gears 2 #2 / Gears",
     "date": "2024-08-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2227459008.torrent",
     "games": ["csc", "co-op", "single-2024", "first-2024", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2227459008+0.ass"
   },
@@ -15121,7 +15120,6 @@
     "youtube": "_CFkihJCS1M", "abs_start": 0, "abs_end": 17996, "duration": 17996,
     "name": "Thank Goodness You're Here #3 / Kiosk / I Ate Old Man's Liver / No, I'm Not Human #1 / Gears 2 #3",
     "date": "2024-08-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2228324519.torrent",
     "games": ["tgyh", "single-2024", "vhs", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2228324519+0.ass"
   },
@@ -15337,5 +15335,46 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2254937807.torrent",
     "games": ["dead-rising-dr"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2254937807+0.ass"
+  },
+  "2258324506": {
+    "abs_start": 0, "abs_end": 4447, "duration": 4447,
+    "name": "Lucky Tower Ultimate #11",
+    "date": "2024-09-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2258324506.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2258324506.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2258324506.torrent",
+    "games": ["lucky-tower"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2258324506.ass"
+  },
+  "2258364525": {
+    "abs_start": 0, "abs_end": 9878, "duration": 9878,
+    "name": "",
+    "date": "2024-09-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2258364525.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2258364525.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2258364525.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2258364525.ass"
+  },
+  "2258462533": {
+    "abs_start": 0, "abs_end": 8160, "duration": 8160,
+    "name": "",
+    "date": "2024-09-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2258462533.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2258462533.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2258462533.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2258462533.ass"
+  },
+  "2258364525,2258462533": {
+    "abs_start": 0, "abs_end": 17948, "duration": 17948,
+    "name": "Baby Blues Nightmares: Toddler Horror Game / Water Delivery / 1873",
+    "date": "2024-09-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2258364525,2258462533.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2258364525,2258462533.mp4/master.m3u8",
+    "offsets": ["0:00", "2:43:08+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2258364525,2258462533.torrent",
+    "games": ["first-2024", "single-2024", "616-games"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2258364525,2258462533+0.ass"
   }
 }
