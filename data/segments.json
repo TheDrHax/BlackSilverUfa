@@ -15127,7 +15127,6 @@
     "youtube": "u3mw2L8Yod4", "abs_start": 0, "abs_end": 17170, "duration": 17170,
     "name": "Black Myth: Wukong",
     "date": "2024-08-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2229109359.torrent",
     "games": ["first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2229109359.ass"
   },
@@ -15135,7 +15134,6 @@
     "youtube": "f9Y3j_Ew6ks", "abs_start": 0, "abs_end": 21022, "duration": 21022,
     "name": "Lucky Tower Ultimate #4 / Crime Scene Cleaner #5 / No, I'm Not Human #2",
     "date": "2024-08-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2231748428.torrent",
     "games": ["lucky-tower", "csc", "vhs"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2231748428.ass"
   },
@@ -15372,5 +15370,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2258364525,2258462533.torrent",
     "games": ["first-2024", "single-2024", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2258364525,2258462533+0.ass"
+  },
+  "2259131911": {
+    "abs_start": 0, "abs_end": 5973, "duration": 5973,
+    "name": "",
+    "date": "2024-09-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2259131911.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2259131911.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2259131911.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2259131911.ass"
+  },
+  "2259184395": {
+    "abs_start": 0, "abs_end": 16903, "duration": 16903,
+    "name": "",
+    "date": "2024-09-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2259184395.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2259184395.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2259184395.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2259184395.ass"
+  },
+  "2259131911,2259184395": {
+    "abs_start": 0, "abs_end": 22783, "duration": 22783,
+    "name": "Lucky Tower Ultimate #12 / Funeralopolis: Last Days / Bring me... / Scotophobia (демо) / Ignited Entry",
+    "date": "2024-09-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2259131911,2259184395.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2259131911,2259184395.mp4/master.m3u8",
+    "offsets": ["0:00", "1:38:00+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2259131911,2259184395.torrent",
+    "games": ["lucky-tower", "single-2024", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2259131911,2259184395+0.ass"
   }
 }
