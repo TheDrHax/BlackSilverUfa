@@ -8305,6 +8305,9 @@
       { "segment": "2259131911,2259184395", "subrefs": [
         { "name": "Bring me...", "start": 11233 },
         { "name": "Scotophobia (демо)", "start": 15190 }
+      ] },
+      { "segment": "2259920440,2259955568,2260022618", "subrefs": [
+        { "name": "The Forever Winter", "start": 2832 }
       ] }
     ]
   },
@@ -9004,8 +9007,23 @@
         { "name": "Water Delivery", "start": 7137 }
       ] },
       { "segment": "2259131911,2259184395", "subrefs": [
-        { "name": "Funeralopolis: Last Days", "start": 4802 },
         { "name": "Ignited Entry", "start": 16832 }
+      ] },
+      { "segment": "2259920440,2259955568,2260022618", "subrefs": [
+        { "name": "Arctic Eggs", "start": 8620 }
+      ] }
+    ]
+  },
+  {
+    "name": "Funeralopolis: Last Days",
+    "category": "finished",
+    "id": "funeralopolis",
+    "streams": [
+      { "segment": "2259131911,2259184395", "subrefs": [
+        { "name": "1", "start": 4802 }
+      ] },
+      { "segment": "2259920440,2259955568,2260022618", "subrefs": [
+        { "name": "2", "start": 6609 }
       ] }
     ]
   },

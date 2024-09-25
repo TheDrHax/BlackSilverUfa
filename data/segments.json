@@ -15150,7 +15150,6 @@
     "youtube": "y9KluumCH7w", "abs_start": 0, "abs_end": 19390, "duration": 19390,
     "name": "The Gravedigger #1 / Echoes of The Backrooms / Golly Soda Pop / Macabre no Zantou: Remnants of the Macabre / Naribikimura / When the Devil Takes Hold - Прохождение",
     "date": "2024-08-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2233576575.torrent",
     "games": ["gravedigger", "first-2024", "single-2024", "wtdth"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2233576575.ass"
   },
@@ -15158,7 +15157,6 @@
     "youtube": "Mkt7rZJ1r4E", "abs_start": 0, "abs_end": 26360, "duration": 26360,
     "name": "Crime Scene Cleaner #7 / Helldivers 2 #4 (4D)",
     "date": "2024-08-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2234409670.torrent",
     "games": ["csc", "helldivers-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2234409670+0.ass"
   },
@@ -15391,13 +15389,54 @@
   },
   "2259131911,2259184395": {
     "abs_start": 0, "abs_end": 22783, "duration": 22783,
-    "name": "Lucky Tower Ultimate #12 / Funeralopolis: Last Days / Bring me... / Scotophobia (демо) / Ignited Entry",
+    "name": "Lucky Tower Ultimate #12 / Funeralopolis: Last Days #1 / Bring me... / Scotophobia (демо) / Ignited Entry",
     "date": "2024-09-24",
     "direct": "https://bsufiles.drhx.ru/streams/2259131911,2259184395.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2259131911,2259184395.mp4/master.m3u8",
     "offsets": ["0:00", "1:38:00+2"],
     "torrent": "https://bsufiles.drhx.ru/streams/2259131911,2259184395.torrent",
-    "games": ["lucky-tower", "single-2024", "first-2024"],
+    "games": ["lucky-tower", "funeralopolis", "first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2259131911,2259184395+0.ass"
+  },
+  "2259920440": {
+    "abs_start": 0, "abs_end": 4293, "duration": 4293,
+    "name": "",
+    "date": "2024-09-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2259920440.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2259920440.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2259920440.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2259920440.ass"
+  },
+  "2259955568": {
+    "abs_start": 0, "abs_end": 3272, "duration": 3272,
+    "name": "",
+    "date": "2024-09-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2259955568.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2259955568.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2259955568.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2259955568.ass"
+  },
+  "2260022618": {
+    "abs_start": 0, "abs_end": 13514, "duration": 13514,
+    "name": "",
+    "date": "2024-09-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2260022618.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2260022618.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2260022618.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2260022618.ass"
+  },
+  "2259920440,2259955568,2260022618": {
+    "abs_start": 0, "abs_end": 20936, "duration": 20936,
+    "name": "The Forever Winter / Funeralopolis: Last Days #2 / Arctic Eggs",
+    "date": "2024-09-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2259920440,2259955568,2260022618.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2259920440,2259955568,2260022618.mp4/master.m3u8",
+    "offsets": ["0:00", "1:09:12+2", "2:03:42+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2259920440,2259955568,2260022618.torrent",
+    "games": ["first-2024", "funeralopolis", "single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2259920440,2259955568,2260022618+0.ass"
   }
 }
