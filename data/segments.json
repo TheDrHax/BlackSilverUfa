@@ -15164,7 +15164,6 @@
     "youtube": "elzNDyhiAx4", "abs_start": 0, "abs_end": 22466, "duration": 22466,
     "name": "Star Wars Outlaws",
     "date": "2024-08-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2235210317.torrent",
     "games": ["first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2235210317.ass"
   },
@@ -15438,5 +15437,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2259920440,2259955568,2260022618.torrent",
     "games": ["first-2024", "funeralopolis", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2259920440,2259955568,2260022618+0.ass"
+  },
+  "2260729879": {
+    "abs_start": 0, "abs_end": 25211, "duration": 25211,
+    "name": "Cyberpunk 2077 #9",
+    "date": "2024-09-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2260729879.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2260729879.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2260729879.torrent",
+    "games": ["cyberpunk-2077"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2260729879.ass"
   }
 }
