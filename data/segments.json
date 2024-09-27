@@ -15141,7 +15141,6 @@
     "youtube": "mSpGugSWa6g", "official": false, "abs_start": 0, "abs_end": 22129, "duration": 22129,
     "name": "Crime Scene Cleaner #6 / Lethal Company #15",
     "date": "2024-08-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2232659937.torrent",
     "games": ["csc", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2232659937.ass",
     "note": "У <a href=\"https://youtu.be/ZbITQ8hp654\">официальной записи</a> установлено возрастное ограничение."
@@ -15439,5 +15438,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2260729879.torrent",
     "games": ["cyberpunk-2077"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2260729879.ass"
+  },
+  "2261557285": {
+    "abs_start": 0, "abs_end": 20105, "duration": 20105,
+    "name": "Metaphor: ReFantazio (демо) / The Legend of Zelda: Echoes of Wisdom",
+    "date": "2024-09-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2261557285.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2261557285.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2261557285.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2261557285.ass"
   }
 }
