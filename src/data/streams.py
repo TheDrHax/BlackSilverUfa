@@ -482,6 +482,7 @@ class SegmentReference:
 
         delattr(self, '_name')
         delattr(self, '_start')
+        delattr(self, '_blacklist')
 
         self.parent = self._parent
         delattr(self, '_parent')
@@ -535,6 +536,14 @@ class SegmentReference:
         self.subrefs[0].start = value
 
     @property
+    def blacklist(self) -> Blacklist:
+        return self.subrefs[0]._blacklist
+
+    @blacklist.setter
+    def blacklist(self, value):
+        self.subrefs[0]._blacklist = value
+
+    @property
     def abs_start(self):
         if self.start != 0:
             return self.start
@@ -545,6 +554,19 @@ class SegmentReference:
     def abs_end(self):
         return self.subrefs[-1].abs_end
 
+    def unjoin(self) -> Tuple['Stream', 'Timecode']:
+        """Returns original Stream object and current offset."""
+        if self.parent.stream.type is not StreamType.JOINED:
+            return self.parent.stream, Timecode(0)
+
+        start = self.start + self.parent.offsets[0]
+        offset = list(filter(lambda t: t <= start, self.parent.offsets))[-1]
+
+        index = self.parent.offsets.index(offset)
+        stream = self.parent.stream.streams[index]
+
+        return stream, offset - self.parent.offsets[0]
+
     @join()
     def to_json(self, compiled: bool = False):
         if compiled:
@@ -553,10 +575,10 @@ class SegmentReference:
         else:
             keys = ['name', 'twitch', 'segment', 'start', 'end',
                     'force_start', 'subrefs']
-            multiline_keys = ['note', '_blacklist']
+            multiline_keys = ['note', 'blacklist']
 
         def inherited(key):
-            if key in ['name', 'twitch', 'hash', 'segment', '_blacklist']:
+            if key in ['name', 'twitch', 'hash', 'segment', 'blacklist']:
                 return False
 
             if hasattr(self.parent, key):
@@ -570,6 +592,13 @@ class SegmentReference:
 
         yield '{'
         yield '\n  ' if multiline else ' '
+
+        joined = self.parent.stream.type is StreamType.JOINED
+        stream, offset = self.unjoin()
+
+        if not compiled and joined:
+            for s in self.subrefs:
+                s.start -= offset
 
         first = True
         for key in keys:
@@ -610,6 +639,9 @@ class SegmentReference:
             if compiled and isinstance(value, Timecode):
                 value = int(value)
 
+            if not compiled and joined and key == 'twitch':
+                value = stream.twitch
+
             if key == 'subrefs':
                 yield f'"{key}": [\n  '
                 yield ',\n  '.join(s.to_json(compiled) for s in self.subrefs)
@@ -621,7 +653,7 @@ class SegmentReference:
         for key in multiline_keys:
             value = getattr(self, key)
 
-            if key == '_blacklist' and len(self.subrefs) > 1:
+            if key == 'blacklist' and len(self.subrefs) > 1:
                 continue
 
             if value and not inherited(key):
@@ -630,13 +662,18 @@ class SegmentReference:
                 else:
                     first = False
 
-                if key == '_blacklist':
+                if key == 'blacklist':
+                    value = self.subrefs[0]._blacklist
                     yield f'"blacklist": {indent(value.to_json(), 2)[2:]}'
                 else:
                     yield f'"{key}": {json_escape(value)}'
 
         yield '\n' if multiline else ' '
         yield '}'
+
+        if not compiled and joined:
+            for s in self.subrefs:
+                s.start += offset
 
     def __str__(self):
         return self.to_json()
@@ -745,6 +782,7 @@ class Stream:
 
     meta: Dict[str, Any] = attr.ib(factory=dict)
     streams: List['Stream'] = attr.ib(factory=list)  # for joined streams
+    joined: Union['Stream', None] = attr.ib(None)  # when part of joined
 
     twitch: str = attr.ib(init=False)
     type: StreamType = attr.ib(init=False)
@@ -774,6 +812,9 @@ class Stream:
 
         self.games = []
         self.segments = SortedKeyList(key=self._segment_key)
+
+        for stream in self.streams:
+            stream.joined = self
 
         for segment in self._data:
             Segment(stream=self, **segment)

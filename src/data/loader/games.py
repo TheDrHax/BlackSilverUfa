@@ -3,7 +3,8 @@ from itertools import groupby
 
 from ...utils import load_json, join, indent
 from ..games import Game
-from ..streams import SegmentReference
+from ..streams import Segment, SegmentReference, SubReference
+from ..timecodes import Timecode
 from .streams import Streams
 
 
@@ -37,12 +38,39 @@ class Games(List[Game]):
         for ref in refs_raw:
             parent = streams[ref.pop('twitch')][ref.pop('segment', 0)]
 
+            if 'subrefs' not in ref:
+                subrefs = [{'name': ref.pop('name'),
+                            'start': ref.pop('start', 0),
+                            'blacklist': ref.pop('blacklist', {})}]
+            else:
+                subrefs = ref.pop('subrefs')
+
+            if parent.stream.joined:
+                start = Timecode(subrefs[0].get('start', 0))
+
+                orig = parent.stream
+                new_parent = parent.stream.joined[0]
+                base_offset = new_parent.offsets[0]
+
+                offset = new_parent.offsets[new_parent.stream.streams.index(orig)]
+                offset -= base_offset
+
+                if not parent.playable or start >= -base_offset:
+                    parent = new_parent
+
+                    for subref in subrefs:
+                        subref['start'] = str(Timecode(subref.get('start', 0) + offset))
+
             if parent in segments:
                 raise ValueError(f'Duplicate refs {parent.hash} in {game_id}')
 
             segments.add(parent)
 
-            ref = SegmentReference(parent=parent, game=game, **ref)
+            if len(subrefs) > 1:
+                ref = SegmentReference(parent=parent, game=game, subrefs=subrefs, **ref)
+            else:
+                ref = SegmentReference(parent=parent, game=game, **ref, **subrefs[0])
+
             ref.stream.games.append((game, ref))
             game.streams.append(ref)
 
