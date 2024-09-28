@@ -129,9 +129,9 @@ def get_source_cuts(videos: List[str], log: str) -> Timecodes:
         dp = detect_disconnect_protection(videos, start, end)
 
         if len(dp) == 0:
-            raise Exception(f'Cut must be in {T+int(start)}~{T+int(end)}, but '
-                            'disconnect protection screen can not be found. '
-                            f'Lost {diff}s')
+            print(f'WARN: Cut must be in {T+int(start)}~{T+int(end)}, but '
+                   'disconnect protection screen can not be found. '
+                  f'Lost {diff}s')
 
         for s, e in dp:
             t = T + floor(s)
