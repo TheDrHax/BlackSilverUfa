@@ -15170,7 +15170,6 @@
     "youtube": "nia7XMSlAPc", "abs_start": 0, "abs_end": 20205, "duration": 20205,
     "name": "Crime Scene Cleaner #8 / 209 (демо) / Beyond Hanwell (демо) / No, I'm Not Human #3",
     "date": "2024-08-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2236123674.torrent",
     "games": ["csc", "single-2024", "first-2024", "vhs"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2236123674+0.ass"
   },
@@ -15178,7 +15177,6 @@
     "youtube": "oSzv6lBX1a0", "abs_start": 0, "abs_end": 21114, "duration": 21114,
     "name": "Crime Scene Cleaner #9 / Roswell Ranch / Selene's Unbearable Night / The Veiled Ones / Sensation / All Along the Toon Tower / Whispering Lane",
     "date": "2024-08-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2236986219.torrent",
     "games": ["csc", "first-2024", "single-2024", "vhs"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2236986219+0.ass"
   },
@@ -15448,5 +15446,46 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2261557285.torrent",
     "games": ["first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2261557285.ass"
+  },
+  "2262411114": {
+    "abs_start": 0, "abs_end": 2924, "duration": 2924,
+    "name": "",
+    "date": "2024-09-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2262411114.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2262411114.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2262411114.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2262411114.ass"
+  },
+  "2262432253": {
+    "abs_start": 0, "abs_end": 7323, "duration": 7323,
+    "name": "",
+    "date": "2024-09-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2262432253.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2262432253.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2262432253.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2262432253+0.ass"
+  },
+  "2262500580": {
+    "abs_start": 0, "abs_end": 16534, "duration": 16534,
+    "name": "",
+    "date": "2024-09-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2262500580.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2262500580.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2262500580.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2262500580.ass"
+  },
+  "2262411114,2262432253,2262500580": {
+    "abs_start": 0, "abs_end": 26781, "duration": 26781,
+    "name": "Cyberpunk 2077 #10",
+    "date": "2024-09-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2262411114,2262432253,2262500580.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2262411114,2262432253,2262500580.mp4/master.m3u8",
+    "offsets": ["0:00", "48:44", "2:50:48"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2262411114,2262432253,2262500580.torrent",
+    "games": ["cyberpunk-2077"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2262411114,2262432253,2262500580+0.ass"
   }
 }
