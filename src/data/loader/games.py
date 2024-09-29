@@ -54,6 +54,7 @@ class Games(List[Game]):
 
                 offset = new_parent.offsets[new_parent.stream.streams.index(orig)]
                 offset -= base_offset
+                offset = offset.start
 
                 if not parent.playable or start >= -base_offset:
                     parent = new_parent
