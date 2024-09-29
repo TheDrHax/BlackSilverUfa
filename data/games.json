@@ -8744,8 +8744,7 @@
         { "name": "5 Nights at Grek's Hotel", "start": 12580 },
         { "name": "5 Nights at Shrek's Hotel", "start": 13908 },
         { "name": "Subdread", "start": 16193 },
-        { "name": "Jack In The Box", "start": 16951 },
-        { "name": "Mouthwashing (демо)", "start": 17958 }
+        { "name": "Jack In The Box", "start": 16951 }
       ] },
       { "segment": "2069337431", "subrefs": [
         { "name": "Backrooms: The Project (демо)", "start": 4195 },
@@ -9021,6 +9020,19 @@
       ] },
       { "segment": "2259920440,2259955568,2260022618", "subrefs": [
         { "name": "Arctic Eggs", "start": 8620 }
+      ] }
+    ]
+  },
+  {
+    "name": "Mouthwashing",
+    "category": "finished",
+    "id": "mouthwashing",
+    "streams": [
+      { "segment": "2052963702", "subrefs": [
+        { "name": "Демо", "start": 17958 }
+      ] },
+      { "segment": "2263360429", "subrefs": [
+        { "name": "Прохождение", "start": 4092 }
       ] }
     ]
   },

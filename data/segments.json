@@ -14169,9 +14169,9 @@
   },
   "2052963702": {
     "youtube": "MfDZJdrBU3E", "abs_start": 0, "abs_end": 20480, "duration": 20480,
-    "name": "Anji Implication / Project 13 / Lamp Post / SCP: Contamination (демо) / The Backrooms: Lost Tape / Nip For Speed / 5 Nights at Grek's Hotel / 5 Nights at Shrek's Hotel / Subdread / Jack In The Box / Harold Halibut / Mouthwashing (демо)",
+    "name": "Anji Implication / Project 13 / Lamp Post / SCP: Contamination (демо) / The Backrooms: Lost Tape / Nip For Speed / 5 Nights at Grek's Hotel / 5 Nights at Shrek's Hotel / Subdread / Jack In The Box / Harold Halibut / Mouthwashing - Демо",
     "date": "2024-02-04",
-    "games": ["single-2024", "first-2024"],
+    "games": ["single-2024", "first-2024", "mouthwashing"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2052963702.ass"
   },
   "2053929102": {
@@ -15199,7 +15199,6 @@
     "youtube": "nKWDXjvQyrQ", "abs_start": 0, "abs_end": 14765, "duration": 14765,
     "name": "Disney Princess: Enchanted Journey",
     "date": "2024-09-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2239749556.torrent",
     "games": ["single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2239749556.ass"
   },
@@ -15490,5 +15489,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2262411114,2262432253,2262500580.torrent",
     "games": ["cyberpunk-2077"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2262411114,2262432253,2262500580+0.ass"
+  },
+  "2263360429": {
+    "abs_start": 0, "abs_end": 16147, "duration": 16147,
+    "name": "Mouthwashing - Прохождение",
+    "date": "2024-09-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2263360429.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2263360429.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2263360429.torrent",
+    "games": ["mouthwashing"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2263360429+0.ass"
   }
 }
