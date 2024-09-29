@@ -2744,9 +2744,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286171438.ass"
   },
   "286989766": {
-    "youtube": "Rultk81cezI", "abs_start": -4, "abs_end": 11536, "duration": 11540,
+    "abs_start": 0, "abs_end": 11539, "duration": 11539,
     "name": "S.T.A.L.K.E.R.: Clear Sky + Mystery #2",
     "date": "2018-07-20",
+    "direct": "https://bsufiles.drhx.ru/streams/286989766.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/286989766.mp4/master.m3u8",
     "games": ["stalker-cs"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286989766.ass"
   },
@@ -5007,9 +5009,11 @@
     "note": "<a href=\"https://youtu.be/6NbakTZGEZA\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "454019548": {
-    "youtube": "YN30SaQxsMs", "official": false, "abs_start": 0, "abs_end": 10542, "duration": 10542,
+    "abs_start": 0, "abs_end": 10542, "duration": 10542,
     "name": "Thief Simulator",
     "date": "2019-07-17",
+    "direct": "https://bsufiles.drhx.ru/streams/454019548.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/454019548.mp4/master.m3u8",
     "games": ["first-2019"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v454019548.ass"
   },
@@ -6922,9 +6926,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v678368491.ass"
   },
   "679308738": {
-    "youtube": "guLSkf5B0Dg", "official": false, "abs_start": 0, "abs_end": 24756, "duration": 24756,
+    "abs_start": 0, "abs_end": 24756, "duration": 24756,
     "name": "Far Cry 3 #2 / Death Stranding - PC (заново)",
     "date": "2020-07-14",
+    "direct": "https://bsufiles.drhx.ru/streams/679308738.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/679308738.mp4/master.m3u8",
     "games": ["far-cry-3", "death-stranding"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v679308738.ass"
   },
@@ -14310,9 +14316,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2077908803.ass"
   },
   "2080031749": {
-    "youtube": "gHa7EP4Mdjk", "official": false, "abs_start": 0, "abs_end": 19944, "duration": 19944,
+    "abs_start": 0, "abs_end": 19943, "duration": 19943,
     "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье) #1",
     "date": "2024-03-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2080031749.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2080031749.mp4/master.m3u8",
     "games": ["nancy-drew-lttbmc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2080031749.ass"
   },
@@ -15184,7 +15192,6 @@
     "youtube": "eN7R9hQzp1U", "abs_start": 0, "abs_end": 23138, "duration": 23138,
     "name": "Lucky Tower Ultimate #5 / Lethal Company #16",
     "date": "2024-08-31",
-    "torrent": "https://bsufiles.drhx.ru/streams/2238825958.torrent",
     "games": ["lucky-tower", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2238825958+0.ass"
   },
