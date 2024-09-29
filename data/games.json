@@ -8817,8 +8817,7 @@
         { "name": "The Penjikent Creature", "start": 9476 }
       ] },
       { "segment": "2121268856", "subrefs": [
-        { "name": "Contra: Operation Galuga (демо)", "start": 8841 },
-        { "name": "Iron Meat (демо)", "start": 11302 }
+        { "name": "Contra: Operation Galuga (демо)", "start": 8841 }
       ] },
       { "segment": "2123000940,2123160474", "subrefs": [
         { "name": "Europa (демо)", "start": 7969 }
@@ -9020,6 +9019,19 @@
       ] },
       { "segment": "2259920440,2259955568,2260022618", "subrefs": [
         { "name": "Arctic Eggs", "start": 8620 }
+      ] }
+    ]
+  },
+  {
+    "name": "Iron Meat",
+    "category": "ongoing",
+    "id": "iron-meat",
+    "streams": [
+      { "segment": "2121268856", "subrefs": [
+        { "name": "Демо", "start": 11302 }
+      ] },
+      { "segment": "2263725920", "subrefs": [
+        { "name": "1 (тестовый стрим)", "start": 539 }
       ] }
     ]
   },

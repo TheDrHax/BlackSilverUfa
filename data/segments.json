@@ -14536,9 +14536,9 @@
   },
   "2121268856": {
     "youtube": "uJpg_5j7efc", "abs_start": 0, "abs_end": 20516, "duration": 20516,
-    "name": "Planet Crafter (демо) / Contra: Operation Galuga (демо) / Iron Meat (демо) / The Game of Sisyphus",
+    "name": "Planet Crafter (демо) / Contra: Operation Galuga (демо) / Iron Meat - Демо / The Game of Sisyphus",
     "date": "2024-04-16",
-    "games": ["first-2024", "single-2024"],
+    "games": ["first-2024", "single-2024", "iron-meat"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2121268856.ass"
   },
   "2122093631": {
@@ -15499,5 +15499,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2263360429.torrent",
     "games": ["mouthwashing"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2263360429+0.ass"
+  },
+  "2263725920": {
+    "abs_start": 0, "abs_end": 4663, "duration": 4663,
+    "name": "Iron Meat #1 (тестовый стрим)",
+    "date": "2024-09-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2263725920.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2263725920.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2263725920.torrent",
+    "games": ["iron-meat"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2263725920.ass"
   }
 }
