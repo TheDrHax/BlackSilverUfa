@@ -15206,7 +15206,6 @@
     "youtube": "-F6PxYQ1tzc", "abs_start": 0, "abs_end": 21326, "duration": 21326,
     "name": "Satellite Odyssey: Prologue / Descending (by leth) / The Ten Bells #1 / We Harvest Shadows (демо)",
     "date": "2024-09-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2240618772.torrent",
     "games": ["single-2024", "ten-bells"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2240618772+0.ass"
   },
@@ -15214,7 +15213,6 @@
     "youtube": "J-RMp4kD2gQ", "abs_start": 0, "abs_end": 19447, "duration": 19447,
     "name": "Crime Scene Cleaner #10 / The Ten Bells #2 / Krypta FM #2",
     "date": "2024-09-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2241467494.torrent",
     "games": ["csc", "ten-bells", "krypta-fm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2241467494+0.ass"
   },
@@ -15509,5 +15507,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2263725920.torrent",
     "games": ["iron-meat"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2263725920.ass"
+  },
+  "2264093759": {
+    "abs_start": 0, "abs_end": 24473, "duration": 24473,
+    "name": "Lucky Tower Ultimate #13 / Zoochosis",
+    "date": "2024-09-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2264093759.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2264093759.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2264093759.torrent",
+    "games": ["lucky-tower", "single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2264093759.ass"
   }
 }

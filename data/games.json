@@ -9019,6 +9019,9 @@
       ] },
       { "segment": "2259920440,2259955568,2260022618", "subrefs": [
         { "name": "Arctic Eggs", "start": 8620 }
+      ] },
+      { "segment": "2264093759", "subrefs": [
+        { "name": "Zoochosis", "start": 8117 }
       ] }
     ]
   },
@@ -9188,6 +9191,9 @@
       ] },
       { "segment": "2259131911,2259184395", "subrefs": [
         { "name": "12", "start": 252 }
+      ] },
+      { "segment": "2264093759", "subrefs": [
+        { "name": "13", "start": 1615 }
       ] }
     ]
   },
