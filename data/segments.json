@@ -15220,7 +15220,6 @@
     "youtube": "y_518xDAmDQ", "abs_start": 0, "abs_end": 23688, "duration": 23688,
     "name": "Warhammer 40,000: Space Marine / Warhammer 40,000: Space Marine II (кооп) #1",
     "date": "2024-09-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2242337852.torrent",
     "games": ["first-2024", "wh40k-sm2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2242337852+0.ass"
   },
@@ -15510,12 +15509,22 @@
   },
   "2264093759": {
     "abs_start": 0, "abs_end": 24473, "duration": 24473,
-    "name": "Lucky Tower Ultimate #13 / Zoochosis",
+    "name": "Lucky Tower Ultimate #13 / Zoochosis #1",
     "date": "2024-09-30",
     "direct": "https://bsufiles.drhx.ru/streams/2264093759.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2264093759.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2264093759.torrent",
-    "games": ["lucky-tower", "single-2024"],
+    "games": ["lucky-tower", "zoochosis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2264093759.ass"
+  },
+  "2264864573": {
+    "abs_start": 0, "abs_end": 19913, "duration": 19913,
+    "name": "Zoochosis #2 / Lucky Tower Ultimate #14",
+    "date": "2024-10-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2264864573.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2264864573.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2264864573.torrent",
+    "games": ["zoochosis", "lucky-tower"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2264864573+0.ass"
   }
 }

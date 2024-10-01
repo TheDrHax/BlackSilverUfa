@@ -9019,9 +9019,19 @@
       ] },
       { "segment": "2259920440,2259955568,2260022618", "subrefs": [
         { "name": "Arctic Eggs", "start": 8620 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Zoochosis",
+    "category": "finished",
+    "id": "zoochosis",
+    "streams": [
       { "segment": "2264093759", "subrefs": [
-        { "name": "Zoochosis", "start": 8117 }
+        { "name": "1", "start": 8117 }
+      ] },
+      { "segment": "2264864573", "subrefs": [
+        { "name": "2", "start": 2684 }
       ] }
     ]
   },
@@ -9194,6 +9204,9 @@
       ] },
       { "segment": "2264093759", "subrefs": [
         { "name": "13", "start": 1615 }
+      ] },
+      { "segment": "2264864573", "subrefs": [
+        { "name": "14", "start": 17286 }
       ] }
     ]
   },
