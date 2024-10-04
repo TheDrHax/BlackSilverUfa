@@ -15227,7 +15227,6 @@
     "youtube": "0jT40vs9d0g", "abs_start": 0, "abs_end": 23418, "duration": 23418,
     "name": "Crime Scene Cleaner #11 / Warhammer 40,000: Space Marine II (кооп) #2",
     "date": "2024-09-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2243137535.torrent",
     "games": ["csc", "wh40k-sm2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2243137535+0.ass"
   },
@@ -15518,5 +15517,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2264864573.torrent",
     "games": ["zoochosis", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2264864573+0.ass"
+  },
+  "2267341112": {
+    "abs_start": 0, "abs_end": 9034, "duration": 9034,
+    "name": "",
+    "date": "2024-10-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2267341112.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2267341112.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2267341112.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2267341112.ass"
+  },
+  "2267425466": {
+    "abs_start": 0, "abs_end": 9638, "duration": 9638,
+    "name": "",
+    "date": "2024-10-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2267425466.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2267425466.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2267425466.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2267425466.ass"
+  },
+  "2267341112,2267425466": {
+    "abs_start": 0, "abs_end": 18673, "duration": 18673,
+    "name": "Project Mist / The Axis Unseen / Lurks Within Walls (демо) / Incantation (демо) / Shadows of the Werewolf (демо) / Vanished Soul (демо)",
+    "date": "2024-10-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2267341112,2267425466.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2267341112,2267425466.mp4/master.m3u8",
+    "offsets": ["0:00", "2:30:35"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2267341112,2267425466.torrent",
+    "games": ["first-2024", "single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2267341112,2267425466+0.ass"
   }
 }

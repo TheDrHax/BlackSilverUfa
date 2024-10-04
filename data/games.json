@@ -8318,6 +8318,10 @@
       { "segment": "2261557285", "subrefs": [
         { "name": "Metaphor: ReFantazio (демо)", "start": 2415 },
         { "name": "The Legend of Zelda: Echoes of Wisdom", "start": 8626 }
+      ] },
+      { "segment": "2267341112,2267425466", "subrefs": [
+        { "name": "Project Mist", "start": 4177 },
+        { "name": "The Axis Unseen", "start": 5847 }
       ] }
     ]
   },
@@ -9019,6 +9023,12 @@
       ] },
       { "segment": "2259920440,2259955568,2260022618", "subrefs": [
         { "name": "Arctic Eggs", "start": 8620 }
+      ] },
+      { "segment": "2267341112,2267425466", "subrefs": [
+        { "name": "Lurks Within Walls (демо)", "start": 7454 },
+        { "name": "Incantation (демо)", "start": 9114 },
+        { "name": "Shadows of the Werewolf (демо)", "start": 13228 },
+        { "name": "Vanished Soul (демо)", "start": 14911 }
       ] }
     ]
   },
