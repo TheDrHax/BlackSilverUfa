@@ -15234,7 +15234,6 @@
     "youtube": "Q1qFJx40MXQ", "abs_start": 0, "abs_end": 25057, "duration": 25057,
     "name": "Crime Scene Cleaner #12 / Pilgrim #2 / Lethal Company #17",
     "date": "2024-09-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2244890208.torrent",
     "games": ["csc", "pilgrim", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2244890208+0.ass"
   },
@@ -15548,5 +15547,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2267341112,2267425466.torrent",
     "games": ["first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2267341112,2267425466+0.ass"
+  },
+  "2268136048": {
+    "abs_start": 0, "abs_end": 28044, "duration": 28044,
+    "name": "Silent Hill 2 Remake",
+    "date": "2024-10-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2268136048.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2268136048.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2268136048.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2268136048.ass"
   }
 }
