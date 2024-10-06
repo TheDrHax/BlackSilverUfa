@@ -15241,7 +15241,6 @@
     "youtube": "i3xux61XAj8", "abs_start": 0, "abs_end": 18497, "duration": 18497,
     "name": "The Classrooms #3 / Bleeding Roots / Creepy Camping / In My Head / Floor 9: Beginning / Urayama",
     "date": "2024-09-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2245831758.torrent",
     "games": ["classrooms", "single-2024", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2245831758.ass"
   },
@@ -15249,7 +15248,6 @@
     "youtube": "9eDN0Gewbbo", "abs_start": 0, "abs_end": 19788, "duration": 19788,
     "name": "Crime Scene Cleaner #13 / Star Trucker #1 (релиз) / Edge of Sanity / Bad Omens: 8th Apartment",
     "date": "2024-09-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2246630814.torrent",
     "games": ["csc", "star-trucker", "first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2246630814+0.ass"
   },
@@ -15550,12 +15548,22 @@
   },
   "2268136048": {
     "abs_start": 0, "abs_end": 28044, "duration": 28044,
-    "name": "Silent Hill 2 Remake",
+    "name": "Silent Hill 2 Remake #1",
     "date": "2024-10-05",
     "direct": "https://bsufiles.drhx.ru/streams/2268136048.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2268136048.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2268136048.torrent",
-    "games": ["first-2024"],
+    "games": ["sh2r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2268136048.ass"
+  },
+  "2268993712": {
+    "abs_start": 0, "abs_end": 28243, "duration": 28243,
+    "name": "Silent Hill 2 Remake #2",
+    "date": "2024-10-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2268993712.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2268993712.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2268993712.torrent",
+    "games": ["sh2r"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2268993712.ass"
   }
 }
