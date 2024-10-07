@@ -15255,7 +15255,6 @@
     "youtube": "VUS7w8K7Weg", "official": false, "abs_start": 0, "abs_end": 2536, "duration": 2536,
     "name": "Star Trucker #2",
     "date": "2024-09-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2247418986.torrent",
     "games": ["star-trucker"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2247418986.ass"
   },
@@ -15263,7 +15262,6 @@
     "youtube": "eaarn6fowSI", "abs_start": 0, "abs_end": 23830, "duration": 23830,
     "name": "Coagulation Station #2 / The Gravedigger #2 / Expeditions: A MudRunner Game - Кооп",
     "date": "2024-09-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2247438660.torrent",
     "games": ["coagulation", "gravedigger", "expeditions"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2247438660+0.ass"
   },
@@ -15565,5 +15563,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2268993712.torrent",
     "games": ["sh2r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2268993712.ass"
+  },
+  "2269824334": {
+    "abs_start": 0, "abs_end": 33835, "duration": 33835,
+    "name": "Silent Hill 2 Remake #3",
+    "date": "2024-10-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2269824334.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2269824334.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2269824334.torrent",
+    "games": ["sh2r"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2269824334.ass"
   }
 }

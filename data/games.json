@@ -8327,7 +8327,7 @@
   },
   {
     "name": "Silent Hill 2 Remake",
-    "category": "ongoing",
+    "category": "finished",
     "id": "sh2r",
     "streams": [
       { "segment": "2268136048", "subrefs": [
@@ -8335,6 +8335,9 @@
       ] },
       { "segment": "2268993712", "subrefs": [
         { "name": "2", "start": 676 }
+      ] },
+      { "segment": "2269824334", "subrefs": [
+        { "name": "3", "start": 799 }
       ] }
     ]
   },
