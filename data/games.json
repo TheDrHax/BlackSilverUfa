@@ -8322,6 +8322,10 @@
       { "segment": "2267341112,2267425466", "subrefs": [
         { "name": "Project Mist", "start": 4177 },
         { "name": "The Axis Unseen", "start": 5847 }
+      ] },
+      { "segment": "2270698327", "subrefs": [
+        { "name": "Dino Crisis: Rebirth", "start": 2898 },
+        { "name": "Prophecy (демо)", "start": 8128 }
       ] }
     ]
   },
@@ -9045,6 +9049,12 @@
         { "name": "Incantation (демо)", "start": 9114 },
         { "name": "Shadows of the Werewolf (демо)", "start": 13228 },
         { "name": "Vanished Soul (демо)", "start": 14911 }
+      ] },
+      { "segment": "2270698327", "subrefs": [
+        { "name": "Crowded. Followed. (демо)", "start": 5738 },
+        { "name": "Don't Drop The Cake: Prologue", "start": 6629 },
+        { "name": "Silent Still", "start": 10939 },
+        { "name": "Grunn", "start": 15119 }
       ] }
     ]
   },
