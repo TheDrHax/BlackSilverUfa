@@ -15273,7 +15273,6 @@
     "youtube": "cQPb72_RUY4", "abs_start": 0, "abs_end": 19541, "duration": 19541,
     "name": "Lucky Tower Ultimate #7 / Warhammer 40,000: Space Marine II (кооп) #3",
     "date": "2024-09-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2249923453.torrent",
     "games": ["lucky-tower", "wh40k-sm2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2249923453+0.ass"
   },
@@ -15281,7 +15280,6 @@
     "youtube": "hXbykQnP7jQ", "abs_start": 0, "abs_end": 14040, "duration": 14040,
     "name": "Lucky Tower Ultimate #8",
     "date": "2024-09-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2250799817.torrent",
     "games": ["lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2250799817.ass"
   },
@@ -15579,5 +15577,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2270698327.torrent",
     "games": ["first-2024", "crowded-followed", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2270698327.ass"
+  },
+  "2271492534": {
+    "abs_start": 0, "abs_end": 28462, "duration": 28462,
+    "name": "Dead Space Remake #1 (русская озвучка)",
+    "date": "2024-10-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2271492534.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2271492534.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2271492534.torrent",
+    "games": ["dead-space-remake"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2271492534.ass"
   }
 }
