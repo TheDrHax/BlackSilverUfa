@@ -2744,11 +2744,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286171438.ass"
   },
   "286989766": {
-    "abs_start": 0, "abs_end": 11539, "duration": 11539,
+    "youtube": "Rultk81cezI", "abs_start": -4, "abs_end": 11536, "duration": 11540,
     "name": "S.T.A.L.K.E.R.: Clear Sky + Mystery #2",
     "date": "2018-07-20",
-    "direct": "https://bsufiles.drhx.ru/streams/286989766.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/286989766.mp4/master.m3u8",
     "games": ["stalker-cs"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286989766.ass"
   },
@@ -2920,14 +2918,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293012700.ass"
   },
   "293415850": {
-    "abs_start": 0, "abs_end": 20783, "duration": 20783,
+    "youtube": "vE38irVbcAI", "official": false, "abs_start": 0, "abs_end": 20784, "duration": 20784,
     "name": "Dead Forest / PUSS! / Chasm / Airships: Conquer the Skies / CASE 2: Animatronics Survival #2 / Escape From Tarkov #5",
     "date": "2018-08-05",
-    "direct": "https://bsufiles.drhx.ru/streams/293415850.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/293415850.mp4/master.m3u8",
     "games": ["single-2018", "first-2018", "case-2", "tarkov"],
-    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293415850.ass",
-    "note": "<a href=\"https://youtu.be/L_FnrodRmyo\">Официальная запись</a> сломана (недоступно качество выше 360p)"
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293415850.ass"
   },
   "294220536": {
     "youtube": "6tgFRrNLbYo", "official": false, "abs_start": 0, "abs_end": 19555, "duration": 19555,
@@ -9764,11 +9759,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1186535358.ass"
   },
   "1187388604": {
-    "abs_start": 0, "abs_end": 29327, "duration": 29327,
+    "youtube": "e5x4wjgjvME", "official": false, "abs_start": 0, "abs_end": 29328, "duration": 29328,
     "name": "Marvel's Guardians of the Galaxy #2",
     "date": "2021-10-26",
-    "direct": "https://bsufiles.drhx.ru/streams/1187388604.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/1187388604.mp4/master.m3u8",
     "games": ["marvel-gotg"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1187388604.ass"
   },
@@ -13714,9 +13707,9 @@
   },
   "1970199475": {
     "youtube": "YIwip8oXxbU", "abs_start": 0, "abs_end": 22175, "duration": 22175,
-    "name": "Don't Scream #1 / The Stalked - Демо / Crowded. Followed. / Suspicious Person Information / The Invincible #1",
+    "name": "Don't Scream #1 / The Stalked - Демо / Crowded. Followed. - Демо 1 / Suspicious Person Information / The Invincible #1",
     "date": "2023-11-06",
-    "games": ["dont-scream", "stalked", "single-2023", "invincible"],
+    "games": ["dont-scream", "stalked", "crowded-followed", "single-2023", "invincible"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1970199475.ass"
   },
   "1971007084": {
@@ -14316,11 +14309,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2077908803.ass"
   },
   "2080031749": {
-    "abs_start": 0, "abs_end": 19943, "duration": 19943,
+    "youtube": "5Xi0GMPpIwM", "official": false, "abs_start": 0, "abs_end": 19944, "duration": 19944,
     "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье) #1",
     "date": "2024-03-03",
-    "direct": "https://bsufiles.drhx.ru/streams/2080031749.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2080031749.mp4/master.m3u8",
     "games": ["nancy-drew-lttbmc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2080031749.ass"
   },
@@ -15575,12 +15566,12 @@
   },
   "2270698327": {
     "abs_start": 0, "abs_end": 17883, "duration": 17883,
-    "name": "Dino Crisis: Rebirth / Crowded. Followed. (демо) / Don't Drop The Cake: Prologue / Prophecy (демо) / Silent Still / Grunn",
+    "name": "Dino Crisis: Rebirth / Crowded. Followed. - Демо 2 / Don't Drop The Cake: Prologue / Prophecy (демо) / Silent Still / Grunn",
     "date": "2024-10-08",
     "direct": "https://bsufiles.drhx.ru/streams/2270698327.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2270698327.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2270698327.torrent",
-    "games": ["first-2024", "single-2024"],
+    "games": ["first-2024", "crowded-followed", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2270698327.ass"
   }
 }
