@@ -15294,7 +15294,6 @@
     "youtube": "5KoV5RXtAkM", "abs_start": 0, "abs_end": 28718, "duration": 28718,
     "name": "Enotria: The Last Song - Релиз / Lucky Tower Ultimate #10 / Warhammer 40,000: Space Marine II (кооп) #4 / Frostpunk 2",
     "date": "2024-09-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2253290479.torrent",
     "games": ["enotria", "lucky-tower", "wh40k-sm2", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2253290479.ass"
   },
@@ -15582,5 +15581,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2272328793.torrent",
     "games": ["dead-space-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2272328793.ass"
+  },
+  "2273163644": {
+    "abs_start": 0, "abs_end": 22679, "duration": 22679,
+    "name": "The Callisto Protocol #1 (с русской озвучкой)",
+    "date": "2024-10-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2273163644.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2273163644.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2273163644.torrent",
+    "games": ["callisto-protocol"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2273163644.ass"
   }
 }
