@@ -15301,7 +15301,6 @@
     "youtube": "adZJs3Ckrvc", "abs_start": 0, "abs_end": 25643, "duration": 25643,
     "name": "Dead Rising Deluxe Remaster #1",
     "date": "2024-09-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2254121538.torrent",
     "games": ["dead-rising-dr"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2254121538+0.ass"
   },
@@ -15591,5 +15590,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2273163644.torrent",
     "games": ["callisto-protocol"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2273163644.ass"
+  },
+  "2274972530": {
+    "abs_start": 0, "abs_end": 17756, "duration": 17756,
+    "name": "Hail to the Rainbow (демо) / Below, Rusted Gods (демо) / ФУ: Зеленые Глаза (демо) / Butcher's Creek (демо) / Creepy Shift: Roadside Diner (демо) / Fear the Timeloop (демо)",
+    "date": "2024-10-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2274972530.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2274972530.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2274972530.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2274972530.ass"
   }
 }

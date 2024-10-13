@@ -8325,6 +8325,9 @@
       { "segment": "2270698327", "subrefs": [
         { "name": "Dino Crisis: Rebirth", "start": 2898 },
         { "name": "Prophecy (демо)", "start": 8128 }
+      ] },
+      { "segment": "2274972530", "subrefs": [
+        { "name": "Butcher's Creek (демо)", "start": 13464 }
       ] }
     ]
   },
@@ -9053,6 +9056,13 @@
         { "name": "Don't Drop The Cake: Prologue", "start": 6629 },
         { "name": "Silent Still", "start": 10939 },
         { "name": "Grunn", "start": 15119 }
+      ] },
+      { "segment": "2274972530", "subrefs": [
+        { "name": "Hail to the Rainbow (демо)", "start": 3238 },
+        { "name": "Below, Rusted Gods (демо)", "start": 8026 },
+        { "name": "ФУ: Зеленые Глаза (демо)", "start": 10456 },
+        { "name": "Creepy Shift: Roadside Diner (демо)", "start": 14601 },
+        { "name": "Fear the Timeloop (демо)", "start": 15886 }
       ] }
     ]
   },
