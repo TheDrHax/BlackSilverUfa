@@ -8330,7 +8330,15 @@
         { "name": "Butcher's Creek (демо)", "start": 13464 }
       ] },
       { "segment": "2275791324", "subrefs": [
-        { "name": "Captured", "start": 4533 }
+        { "name": "CAPTURED", "start": 4533 }
+      ] },
+      { "segment": "2276579699", "subrefs": [
+        { "name": "Secret Agent Wizard Boy and the International Crime Syndicate (демо)", "start": 1560 },
+        { "name": "The Precinct (демо)", "start": 4483 },
+        { "name": "Zaru", "start": 10038 },
+        { "name": "Hi! These Are Your Eyeballs", "start": 11301 },
+        { "name": "Targeosity", "start": 13851 },
+        { "name": "Waffle Cone Willie", "start": 21378 }
       ] }
     ]
   },
@@ -9072,6 +9080,12 @@
         { "name": "The Ferry", "start": 8662 },
         { "name": "Devious Path", "start": 11007 },
         { "name": "Bad Parenting 1: Mr. Red Face", "start": 15489 }
+      ] },
+      { "segment": "2276579699", "subrefs": [
+        { "name": "Liminalcore (демо)", "start": 5879 },
+        { "name": "BrokenLore: LOW (демо)", "start": 7861 },
+        { "name": "BrokenLore: Don't Watch (демо)", "start": 9208 },
+        { "name": "Voyager-19", "start": 17493 }
       ] }
     ]
   },

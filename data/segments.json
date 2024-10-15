@@ -15315,27 +15315,20 @@
     "youtube": "iH13P8_2Byg", "abs_start": 0, "abs_end": 4448, "duration": 4448,
     "name": "Lucky Tower Ultimate #11",
     "date": "2024-09-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2258324506.torrent",
     "games": ["lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2258324506.ass"
   },
   "2258364525": {
-    "abs_start": 0, "abs_end": 9878, "duration": 9878,
+    "abs_start": 0, "abs_end": 9871, "duration": 0,
     "name": "",
     "date": "2024-09-23",
-    "direct": "https://bsufiles.drhx.ru/streams/2258364525.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2258364525.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2258364525.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2258364525.ass"
   },
   "2258462533": {
-    "abs_start": 0, "abs_end": 8160, "duration": 8160,
+    "abs_start": 0, "abs_end": 8192, "duration": 0,
     "name": "",
     "date": "2024-09-23",
-    "direct": "https://bsufiles.drhx.ru/streams/2258462533.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2258462533.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2258462533.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2258462533.ass"
   },
@@ -15598,10 +15591,20 @@
   },
   "2275791324": {
     "youtube": "j5gNBPqi7Zw", "abs_start": 0, "abs_end": 17666, "duration": 17666,
-    "name": "P.T. by 7780s / Captured / The Ferry / Devious Path / Bad Parenting 1: Mr. Red Face",
+    "name": "P.T. by 7780s / CAPTURED / The Ferry / Devious Path / Bad Parenting 1: Mr. Red Face",
     "date": "2024-10-14",
     "torrent": "https://bsufiles.drhx.ru/streams/2275791324.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2275791324.ass"
+  },
+  "2276579699": {
+    "abs_start": 0, "abs_end": 23791, "duration": 23791,
+    "name": "Secret Agent Wizard Boy and the International Crime Syndicate (демо) / The Precinct (демо) / Liminalcore (демо) / BrokenLore: LOW (демо) / BrokenLore: Don't Watch (демо) / Zaru / Hi! These Are Your Eyeballs / Targeosity / Voyager-19 / Waffle Cone Willie",
+    "date": "2024-10-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2276579699.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2276579699.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2276579699.torrent",
+    "games": ["first-2024", "single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2276579699.ass"
   }
 }
