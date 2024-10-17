@@ -15337,7 +15337,6 @@
     "name": "Baby Blues Nightmares: Toddler Horror Game / Water Delivery / 1873",
     "date": "2024-09-23",
     "offsets": ["0:00", "2:43:08+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2258364525,2258462533.torrent",
     "games": ["first-2024", "single-2024", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2258364525,2258462533+0.ass"
   },
@@ -15606,5 +15605,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2276579699.torrent",
     "games": ["first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2276579699.ass"
+  },
+  "2278223950": {
+    "abs_start": 0, "abs_end": 26436, "duration": 26436,
+    "name": "A Quiet Place: The Road Ahead",
+    "date": "2024-10-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2278223950.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2278223950.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2278223950.torrent",
+    "games": ["single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2278223950.ass"
   }
 }
