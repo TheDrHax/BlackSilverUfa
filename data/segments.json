@@ -15341,22 +15341,16 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2258364525,2258462533+0.ass"
   },
   "2259131911": {
-    "abs_start": 0, "abs_end": 5973, "duration": 5973,
+    "abs_start": 0, "abs_end": 5990, "duration": 0,
     "name": "",
     "date": "2024-09-24",
-    "direct": "https://bsufiles.drhx.ru/streams/2259131911.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2259131911.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2259131911.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2259131911.ass"
   },
   "2259184395": {
-    "abs_start": 0, "abs_end": 16903, "duration": 16903,
+    "abs_start": 0, "abs_end": 16925, "duration": 0,
     "name": "",
     "date": "2024-09-24",
-    "direct": "https://bsufiles.drhx.ru/streams/2259184395.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2259184395.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2259184395.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2259184395.ass"
   },
@@ -15606,10 +15600,20 @@
   },
   "2278223950": {
     "youtube": "0bdUvSWztB4", "abs_start": 0, "abs_end": 26437, "duration": 26437,
-    "name": "A Quiet Place: The Road Ahead",
+    "name": "A Quiet Place: The Road Ahead #1",
     "date": "2024-10-17",
     "torrent": "https://bsufiles.drhx.ru/streams/2278223950.torrent",
-    "games": ["first-2024"],
+    "games": ["quiet-place"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2278223950.ass"
+  },
+  "2279005882": {
+    "abs_start": 0, "abs_end": 21171, "duration": 21171,
+    "name": "A Quiet Place: The Road Ahead #2",
+    "date": "2024-10-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2279005882.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2279005882.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2279005882.torrent",
+    "games": ["quiet-place"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2279005882.ass"
   }
 }
