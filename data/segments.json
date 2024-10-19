@@ -15257,7 +15257,7 @@
   },
   "2247438660": {
     "youtube": "eaarn6fowSI", "abs_start": 0, "abs_end": 23830, "duration": 23830,
-    "name": "Coagulation Station #2 / The Gravedigger #2 / Expeditions: A MudRunner Game - Кооп",
+    "name": "Coagulation Station #2 / The Gravedigger #2 / Expeditions: A MudRunner Game #1",
     "date": "2024-09-10",
     "games": ["coagulation", "gravedigger", "expeditions"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2247438660+0.ass"
@@ -15359,37 +15359,27 @@
     "name": "Lucky Tower Ultimate #12 / Funeralopolis: Last Days #1 / Bring me... / Scotophobia (демо) / Ignited Entry",
     "date": "2024-09-24",
     "offsets": ["0:00", "1:38:00+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2259131911,2259184395.torrent",
     "games": ["lucky-tower", "funeralopolis", "first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2259131911,2259184395+0.ass"
   },
   "2259920440": {
-    "abs_start": 0, "abs_end": 4293, "duration": 4293,
+    "abs_start": 0, "abs_end": 4300, "duration": 0,
     "name": "",
     "date": "2024-09-25",
-    "direct": "https://bsufiles.drhx.ru/streams/2259920440.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2259920440.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2259920440.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2259920440.ass"
   },
   "2259955568": {
-    "abs_start": 0, "abs_end": 3272, "duration": 3272,
+    "abs_start": 0, "abs_end": 3278, "duration": 0,
     "name": "",
     "date": "2024-09-25",
-    "direct": "https://bsufiles.drhx.ru/streams/2259955568.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2259955568.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2259955568.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2259955568.ass"
   },
   "2260022618": {
-    "abs_start": 0, "abs_end": 13514, "duration": 13514,
+    "abs_start": 0, "abs_end": 13529, "duration": 0,
     "name": "",
     "date": "2024-09-25",
-    "direct": "https://bsufiles.drhx.ru/streams/2260022618.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2260022618.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2260022618.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2260022618.ass"
   },
@@ -15615,5 +15605,45 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2279005882.torrent",
     "games": ["quiet-place"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2279005882.ass"
+  },
+  "2279931089": {
+    "abs_start": 0, "abs_end": 1155, "duration": 1155,
+    "name": "",
+    "date": "2024-10-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2279931089.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2279931089.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2279931089.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2279931089.ass"
+  },
+  "2279943471": {
+    "abs_start": 0, "abs_end": 413, "duration": 413,
+    "name": "",
+    "date": "2024-10-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2279943471.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2279943471.mp4/master.m3u8",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2279943471.ass"
+  },
+  "2279948458": {
+    "abs_start": 0, "abs_end": 18335, "duration": 18335,
+    "name": "",
+    "date": "2024-10-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2279948458.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2279948458.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2279948458.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2279948458.ass"
+  },
+  "2279931089,2279943471,2279948458": {
+    "abs_start": 0, "abs_end": 19903, "duration": 19903,
+    "name": "Unknown 9: Awakening / Expeditions: A MudRunner Game #2",
+    "date": "2024-10-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2279931089,2279943471,2279948458.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2279931089,2279943471,2279948458.mp4/master.m3u8",
+    "offsets": ["0:00", "19:15+2", "26:08+-1"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2279931089,2279943471,2279948458.torrent",
+    "games": ["first-2024", "expeditions"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2279931089,2279943471,2279948458+0.ass"
   }
 }
