@@ -8345,6 +8345,10 @@
       ] },
       { "segment": "2279931089,2279943471,2279948458", "subrefs": [
         { "name": "Unknown 9: Awakening", "start": 6110 }
+      ] },
+      { "segment": "2280809196", "subrefs": [
+        { "name": "The Bookman", "start": 11990 },
+        { "name": "Mannequin Machine", "start": 15462 }
       ] }
     ]
   },
@@ -9105,6 +9109,13 @@
         { "name": "BrokenLore: LOW (демо)", "start": 7861 },
         { "name": "BrokenLore: Don't Watch (демо)", "start": 9208 },
         { "name": "Voyager-19", "start": 17493 }
+      ] },
+      { "segment": "2280809196", "subrefs": [
+        { "name": "KARMA: The Dark World", "start": 3218 },
+        { "name": "Paraedolon", "start": 7238 },
+        { "name": "Dollmare (демо)", "start": 8097 },
+        { "name": "Creature Packets", "start": 10437 },
+        { "name": "True Nightmare: Roadside Сafe (демо)", "start": 13267 }
       ] }
     ]
   },
