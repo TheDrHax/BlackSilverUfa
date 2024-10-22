@@ -716,9 +716,11 @@
     "games": ["nier-automata", "first-2016", "ff-xv"]
   },
   "001612290": {
-    "youtube": "sJ4evtf3PVk", "official": false, "abs_start": 0, "abs_end": 7366, "duration": 7366,
+    "abs_start": 0, "abs_end": 7365, "duration": 7365,
     "name": "Посылки (29.12.16)",
     "date": "2016-12-29",
+    "direct": "https://bsufiles.drhx.ru/streams/001612290.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001612290.mp4/master.m3u8",
     "games": ["unboxing"]
   },
   "001701050": {
@@ -5856,9 +5858,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v530784764.ass"
   },
   "531327327": {
-    "youtube": "XJwNGpxN4Eo", "official": false, "abs_start": 0, "abs_end": 20969, "duration": 20969,
+    "abs_start": 0, "abs_end": 20969, "duration": 20969,
     "name": "Spore #3 (заново) / The Sims 4 #1",
     "date": "2020-01-05",
+    "direct": "https://bsufiles.drhx.ru/streams/531327327.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/531327327.mp4/master.m3u8",
     "games": ["spore", "sims-4"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v531327327.ass"
   },
@@ -7104,9 +7108,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v723011325.ass"
   },
   "725080998": {
-    "youtube": "J_uazlzyEW4", "official": false, "abs_start": 0, "abs_end": 22692, "duration": 22692,
+    "abs_start": 0, "abs_end": 22691, "duration": 22691,
     "name": "The Dark Pictures: Little Hope - Демо / Observer: System Redux (демо) / Struggling #1 (соло) / Surgeon Simulator 2 / Fall Guys #2",
     "date": "2020-08-29",
+    "direct": "https://bsufiles.drhx.ru/streams/725080998.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/725080998.mp4/master.m3u8",
     "games": ["little-hope", "first-2020", "struggling", "co-op", "fall-guys"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v725080998.ass"
   },
@@ -15395,7 +15401,6 @@
     "youtube": "RFsYrOBWWgY", "abs_start": 0, "abs_end": 25212, "duration": 25212,
     "name": "Cyberpunk 2077 #9",
     "date": "2024-09-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2260729879.torrent",
     "games": ["cyberpunk-2077"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2260729879.ass"
   },
