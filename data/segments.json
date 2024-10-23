@@ -13022,9 +13022,9 @@
   },
   "1855403959": {
     "youtube": "r-r-78rTM_M", "official": false, "abs_start": 0, "abs_end": 19729, "duration": 19729,
-    "name": "They Are Here: Alien Abduction Horror - Демо 2 / Ebola Village (демо) / Stray Souls - Демо 2 / SCP: Observer / Dyer Expedition (демо) / Sniper Killer (демо) / The Diner / The Muller-Powell Principle (демо) / Unknown Memoirs: The Rental / Horror Stories: Harvest Hunt",
+    "name": "They Are Here: Alien Abduction Horror - Демо 2 / Ebola Village (демо) / Stray Souls - Демо 2 / SCP: Observer / Dyer Expedition (демо) / Sniper Killer - Демо / The Diner / The Muller-Powell Principle (демо) / Unknown Memoirs: The Rental / Horror Stories: Harvest Hunt",
     "date": "2023-06-25",
-    "games": ["they-are-here", "first-2023", "stray-souls", "single-2023"],
+    "games": ["they-are-here", "first-2023", "stray-souls", "single-2023", "sniper-killer"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1855403959.ass",
     "note": "<a href=\"https://youtu.be/s0_2ozHHB0U\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -15412,22 +15412,16 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2261557285.ass"
   },
   "2262411114": {
-    "abs_start": 0, "abs_end": 2924, "duration": 2924,
+    "abs_start": 0, "abs_end": 2955, "duration": 0,
     "name": "",
     "date": "2024-09-28",
-    "direct": "https://bsufiles.drhx.ru/streams/2262411114.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2262411114.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2262411114.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2262411114.ass"
   },
   "2262432253": {
-    "abs_start": 0, "abs_end": 7323, "duration": 7323,
+    "abs_start": 0, "abs_end": 7376, "duration": 0,
     "name": "",
     "date": "2024-09-28",
-    "direct": "https://bsufiles.drhx.ru/streams/2262432253.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2262432253.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2262432253.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2262432253+0.ass"
   },
@@ -15647,10 +15641,10 @@
   },
   "2280809196": {
     "youtube": "G5MoWHMQSwk", "abs_start": 0, "abs_end": 19159, "duration": 19159,
-    "name": "KARMA: The Dark World / Paraedolon / Dollmare (демо) / Creature Packets / The Bookman / True Nightmare: Roadside Сafe (демо) / Mannequin Machine",
+    "name": "KARMA: The Dark World / Paraedolon / Dollmare (демо) / Creature Packets / The Bookman / True Nightmare: Roadside Сafe (демо) / Mannequin Machine #1",
     "date": "2024-10-20",
     "torrent": "https://bsufiles.drhx.ru/streams/2280809196.torrent",
-    "games": ["single-2024", "first-2024"],
+    "games": ["single-2024", "first-2024", "mannequin-machine"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2280809196.ass"
   },
   "2282393138": {
@@ -15662,5 +15656,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2282393138.torrent",
     "games": ["alan-wake-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2282393138.ass"
+  },
+  "2283169019": {
+    "abs_start": 0, "abs_end": 21677, "duration": 21677,
+    "name": "Mannequin Machine #2 / Sniper Killer - Релиз",
+    "date": "2024-10-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2283169019.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2283169019.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2283169019.torrent",
+    "games": ["mannequin-machine", "sniper-killer"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2283169019.ass"
   }
 }

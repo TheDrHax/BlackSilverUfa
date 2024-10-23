@@ -4761,7 +4761,6 @@
       ] },
       { "segment": "1855403959", "subrefs": [
         { "name": "Dyer Expedition (демо)", "start": 8360 },
-        { "name": "Sniper Killer (демо)", "start": 9786 },
         { "name": "The Diner", "start": 13121 },
         { "name": "The Muller-Powell Principle (демо)", "start": 13754 },
         { "name": "Unknown Memoirs: The Rental", "start": 16781 }
@@ -4982,6 +4981,19 @@
         { "name": "Krampus of Kirkwall", "start": 4386 },
         { "name": "How to Build a Snowman", "start": 6082 },
         { "name": "Slay Bells", "start": 7643 }
+      ] }
+    ]
+  },
+  {
+    "name": "Sniper Killer",
+    "category": "finished",
+    "id": "sniper-killer",
+    "streams": [
+      { "segment": "1855403959", "subrefs": [
+        { "name": "Демо", "start": 9786 }
+      ] },
+      { "segment": "2283169019", "subrefs": [
+        { "name": "Релиз", "start": 9159 }
       ] }
     ]
   },
@@ -8347,8 +8359,20 @@
         { "name": "Unknown 9: Awakening", "start": 6110 }
       ] },
       { "segment": "2280809196", "subrefs": [
-        { "name": "The Bookman", "start": 11990 },
-        { "name": "Mannequin Machine", "start": 15462 }
+        { "name": "The Bookman", "start": 11990 }
+      ] }
+    ]
+  },
+  {
+    "name": "Mannequin Machine",
+    "category": "finished",
+    "id": "mannequin-machine",
+    "streams": [
+      { "segment": "2280809196", "subrefs": [
+        { "name": "1", "start": 15462 }
+      ] },
+      { "segment": "2283169019", "subrefs": [
+        { "name": "2", "start": 2358 }
       ] }
     ]
   },
