@@ -13553,9 +13553,9 @@
   },
   "1939916692": {
     "youtube": "9I--4u2khCc", "abs_start": 0, "abs_end": 19829, "duration": 19829,
-    "name": "Teke-teke / While We Wait Here (демо) / Something In The Well / Mimic / Masked Devourer / The Smiling Man / REVEIL (демо) / Night People / The Wailing of the Forest",
+    "name": "Teke-teke / While We Wait Here - Демо / Something In The Well / Mimic / Masked Devourer / The Smiling Man / REVEIL (демо) / Night People / The Wailing of the Forest",
     "date": "2023-10-01",
-    "games": ["single-2023", "first-2023"],
+    "games": ["single-2023", "wwwh", "first-2023"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1939916692.ass"
   },
   "1941566102": {
@@ -15272,9 +15272,9 @@
   },
   "2249129409": {
     "youtube": "zN0FaHAB4o0", "abs_start": 0, "abs_end": 19868, "duration": 19868,
-    "name": "THRESHOLD (демо) / Fears to Fathom - Episode 5 - Woodbury Getaway / Lucky Tower Ultimate #6 (релиз)",
+    "name": "THRESHOLD - Демо / Fears to Fathom - Episode 5 - Woodbury Getaway / Lucky Tower Ultimate #6 (релиз)",
     "date": "2024-09-12",
-    "games": ["single-2024", "fears-to-fathom", "lucky-tower"],
+    "games": ["threshold", "fears-to-fathom", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2249129409+0.ass"
   },
   "2249923453": {
@@ -15428,12 +15428,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2262432253+0.ass"
   },
   "2262500580": {
-    "abs_start": 0, "abs_end": 16534, "duration": 16534,
+    "abs_start": 0, "abs_end": 16547, "duration": 0,
     "name": "",
     "date": "2024-09-28",
-    "direct": "https://bsufiles.drhx.ru/streams/2262500580.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2262500580.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2262500580.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2262500580.ass"
   },
@@ -15442,7 +15439,6 @@
     "name": "Cyberpunk 2077 #10",
     "date": "2024-09-28",
     "offsets": ["0:00", "48:44", "2:50:48"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2262411114,2262432253,2262500580.torrent",
     "games": ["cyberpunk-2077"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2262411114,2262432253,2262500580+0.ass"
   },
@@ -15668,5 +15664,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2283169019.torrent",
     "games": ["mannequin-machine", "sniper-killer"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2283169019.ass"
+  },
+  "2283954295": {
+    "abs_start": 0, "abs_end": 26965, "duration": 26965,
+    "name": "THRESHOLD - Прохождение / While We Wait Here - Релиз / DEVOUR #8 / Subterranauts / Nuclear Nightmare",
+    "date": "2024-10-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2283954295.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2283954295.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2283954295.torrent",
+    "games": ["threshold", "wwwh", "devour", "co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2283954295+0.ass"
   }
 }

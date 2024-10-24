@@ -761,6 +761,10 @@
       ] },
       { "segment": "2227459008", "subrefs": [
         { "name": "Stalcraft: X (с Димами)", "start": 7648 }
+      ] },
+      { "segment": "2283954295", "subrefs": [
+        { "name": "Subterranauts", "start": 19797 },
+        { "name": "Nuclear Nightmare", "start": 23383 }
       ] }
     ]
   },
@@ -1447,6 +1451,9 @@
       ] },
       { "segment": "1804882802", "subrefs": [
         { "name": "7", "start": 15896 }
+      ] },
+      { "segment": "2283954295", "subrefs": [
+        { "name": "8", "start": 11850 }
       ] }
     ]
   },
@@ -4850,7 +4857,6 @@
       ] },
       { "segment": "1939916692", "subrefs": [
         { "name": "Teke-teke", "start": 2428 },
-        { "name": "While We Wait Here (демо)", "start": 4471 },
         { "name": "Something In The Well", "start": 6130 },
         { "name": "Mimic", "start": 7354 },
         { "name": "Masked Devourer", "start": 8329 },
@@ -9092,9 +9098,6 @@
       { "segment": "2246630814", "subrefs": [
         { "name": "Bad Omens: 8th Apartment", "start": 17192 }
       ] },
-      { "segment": "2249129409", "subrefs": [
-        { "name": "THRESHOLD (демо)", "start": 1877 }
-      ] },
       { "segment": "2258364525,2258462533", "subrefs": [
         { "name": "Water Delivery", "start": 7137 }
       ] },
@@ -9140,6 +9143,32 @@
         { "name": "Dollmare (демо)", "start": 8097 },
         { "name": "Creature Packets", "start": 10437 },
         { "name": "True Nightmare: Roadside Сafe (демо)", "start": 13267 }
+      ] }
+    ]
+  },
+  {
+    "name": "THRESHOLD",
+    "category": "finished",
+    "id": "threshold",
+    "streams": [
+      { "segment": "2249129409", "subrefs": [
+        { "name": "Демо", "start": 1877 }
+      ] },
+      { "segment": "2283954295", "subrefs": [
+        { "name": "Прохождение", "start": 2095 }
+      ] }
+    ]
+  },
+  {
+    "name": "While We Wait Here",
+    "category": "ongoing",
+    "id": "wwwh",
+    "streams": [
+      { "segment": "1939916692", "subrefs": [
+        { "name": "Демо", "start": 4471 }
+      ] },
+      { "segment": "2283954295", "subrefs": [
+        { "name": "Релиз", "start": 6186 }
       ] }
     ]
   },
