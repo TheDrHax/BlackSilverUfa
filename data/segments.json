@@ -15446,7 +15446,6 @@
     "youtube": "hUUVdbILVSw", "abs_start": 0, "abs_end": 16148, "duration": 16148,
     "name": "Mouthwashing - Прохождение",
     "date": "2024-09-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2263360429.torrent",
     "games": ["mouthwashing"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2263360429+0.ass"
   },
@@ -15639,10 +15638,10 @@
   },
   "2280809196": {
     "youtube": "G5MoWHMQSwk", "abs_start": 0, "abs_end": 19159, "duration": 19159,
-    "name": "KARMA: The Dark World / Paraedolon / Dollmare (демо) / Creature Packets / The Bookman / True Nightmare: Roadside Сafe (демо) / Mannequin Machine #1",
+    "name": "KARMA: The Dark World / Paraedolon / Dollmare - Демо / Creature Packets / The Bookman / True Nightmare: Roadside Сafe (демо) / Mannequin Machine #1",
     "date": "2024-10-20",
     "torrent": "https://bsufiles.drhx.ru/streams/2280809196.torrent",
-    "games": ["single-2024", "first-2024", "mannequin-machine"],
+    "games": ["single-2024", "dollmare", "first-2024", "mannequin-machine"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2280809196.ass"
   },
   "2282393138": {
@@ -15674,5 +15673,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2283954295.torrent",
     "games": ["threshold", "wwwh", "devour", "co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2283954295+0.ass"
+  },
+  "2284843090": {
+    "abs_start": 0, "abs_end": 25853, "duration": 25853,
+    "name": "Dollmare - Релиз / Lethal Company #19",
+    "date": "2024-10-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2284843090.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2284843090.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2284843090.torrent",
+    "games": ["dollmare", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2284843090+0.ass"
   }
 }

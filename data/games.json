@@ -986,6 +986,9 @@
       ] },
       { "segment": "2252500218", "subrefs": [
         { "name": "18", "start": 9135 }
+      ] },
+      { "segment": "2284843090", "subrefs": [
+        { "name": "19", "start": 8264 }
       ] }
     ]
   },
@@ -9140,9 +9143,21 @@
       { "segment": "2280809196", "subrefs": [
         { "name": "KARMA: The Dark World", "start": 3218 },
         { "name": "Paraedolon", "start": 7238 },
-        { "name": "Dollmare (демо)", "start": 8097 },
         { "name": "Creature Packets", "start": 10437 },
         { "name": "True Nightmare: Roadside Сafe (демо)", "start": 13267 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dollmare",
+    "category": "ongoing",
+    "id": "dollmare",
+    "streams": [
+      { "segment": "2280809196", "subrefs": [
+        { "name": "Демо", "start": 8097 }
+      ] },
+      { "segment": "2284843090", "subrefs": [
+        { "name": "Релиз", "start": 843 }
       ] }
     ]
   },
