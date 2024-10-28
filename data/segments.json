@@ -1569,7 +1569,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2017/master/v212431882.ass"
   },
   "212678883": {
-    "youtube": "sz8y749Jn_8", "abs_start": 0, "abs_end": 14657, "duration": 14657,
+    "youtube": "vuNtD1T3v-s", "official": false, "abs_start": 0, "abs_end": 14657, "duration": 14657,
     "name": "Stifled / Uncanny Valley #2",
     "date": "2017-12-26",
     "games": ["first-2017", "uncanny-valley"],
@@ -5456,9 +5456,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v495362547,495449259+0.ass"
   },
   "495816363": {
-    "youtube": "xkhMqFbYtnI", "official": false, "abs_start": 0, "abs_end": 18473, "duration": 18473,
+    "abs_start": 0, "abs_end": 18473, "duration": 18473,
     "name": "Mafia: City of Lost Heaven #1",
     "date": "2019-10-17",
+    "direct": "https://bsufiles.drhx.ru/streams/495816363.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/495816363.mp4/master.m3u8",
     "games": ["mafia"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v495816363.ass",
     "note": "<a href=\"https://youtu.be/4XYQNkwZxu8\">Официальная запись</a> сломана (недоступно качество выше 360p)"
@@ -5485,9 +5487,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v497190114.ass"
   },
   "497590135": {
-    "youtube": "YKEDcG9CUY0", "official": false, "abs_start": 0, "abs_end": 21198, "duration": 21198,
+    "abs_start": 0, "abs_end": 21198, "duration": 21198,
     "name": "Mafia: City of Lost Heaven #3",
     "date": "2019-10-21",
+    "direct": "https://bsufiles.drhx.ru/streams/497590135.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/497590135.mp4/master.m3u8",
     "games": ["mafia"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v497590135.ass"
   },
@@ -15453,7 +15457,6 @@
     "youtube": "-l0Sgf1yals", "abs_start": 0, "abs_end": 4663, "duration": 4663,
     "name": "Iron Meat #1 (тестовый стрим)",
     "date": "2024-09-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2263725920.torrent",
     "games": ["iron-meat"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2263725920.ass"
   },
@@ -15461,7 +15464,6 @@
     "youtube": "yfSXGMUvgS4", "abs_start": 0, "abs_end": 24474, "duration": 24474,
     "name": "Lucky Tower Ultimate #13 / Zoochosis #1",
     "date": "2024-09-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2264093759.torrent",
     "games": ["lucky-tower", "zoochosis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2264093759.ass"
   },
