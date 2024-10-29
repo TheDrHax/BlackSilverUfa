@@ -15471,7 +15471,6 @@
     "youtube": "MdcWRNyMVio", "abs_start": 0, "abs_end": 19913, "duration": 19913,
     "name": "Zoochosis #2 / Lucky Tower Ultimate #14",
     "date": "2024-10-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2264864573.torrent",
     "games": ["zoochosis", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2264864573+0.ass"
   },
@@ -15664,7 +15663,7 @@
   },
   "2283954295": {
     "youtube": "Djs7VBrZiNg", "abs_start": 0, "abs_end": 26966, "duration": 26966,
-    "name": "THRESHOLD - Прохождение / While We Wait Here - Релиз / DEVOUR #8 / Subterranauts / Nuclear Nightmare",
+    "name": "THRESHOLD - Прохождение / While We Wait Here #1 / DEVOUR #8 / Subterranauts / Nuclear Nightmare",
     "date": "2024-10-24",
     "torrent": "https://bsufiles.drhx.ru/streams/2283954295.torrent",
     "games": ["threshold", "wwwh", "devour", "co-op"],
@@ -15672,10 +15671,20 @@
   },
   "2284843090": {
     "youtube": "McELFsEKMkQ", "abs_start": 0, "abs_end": 25854, "duration": 25854,
-    "name": "Dollmare - Релиз / Lethal Company #19",
+    "name": "Dollmare #1 / Lethal Company #19",
     "date": "2024-10-25",
     "torrent": "https://bsufiles.drhx.ru/streams/2284843090.torrent",
     "games": ["dollmare", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2284843090+0.ass"
+  },
+  "2288283392": {
+    "abs_start": 0, "abs_end": 29129, "duration": 29129,
+    "name": "Dollmare #2 / Finding Frankie / While We Wait Here #2 / The Hungry Fly",
+    "date": "2024-10-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2288283392.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2288283392.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2288283392.torrent",
+    "games": ["dollmare", "first-2024", "wwwh", "single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2288283392.ass"
   }
 }

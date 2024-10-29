@@ -8369,6 +8369,9 @@
       ] },
       { "segment": "2280809196", "subrefs": [
         { "name": "The Bookman", "start": 11990 }
+      ] },
+      { "segment": "2288283392", "subrefs": [
+        { "name": "Finding Frankie", "start": 9150 }
       ] }
     ]
   },
@@ -9145,19 +9148,25 @@
         { "name": "Paraedolon", "start": 7238 },
         { "name": "Creature Packets", "start": 10437 },
         { "name": "True Nightmare: Roadside Сafe (демо)", "start": 13267 }
+      ] },
+      { "segment": "2288283392", "subrefs": [
+        { "name": "The Hungry Fly", "start": 23576 }
       ] }
     ]
   },
   {
     "name": "Dollmare",
-    "category": "ongoing",
+    "category": "finished",
     "id": "dollmare",
     "streams": [
       { "segment": "2280809196", "subrefs": [
         { "name": "Демо", "start": 8097 }
       ] },
       { "segment": "2284843090", "subrefs": [
-        { "name": "Релиз", "start": 843 }
+        { "name": "1", "start": 843 }
+      ] },
+      { "segment": "2288283392", "subrefs": [
+        { "name": "2", "start": 2584 }
       ] }
     ]
   },
@@ -9176,14 +9185,17 @@
   },
   {
     "name": "While We Wait Here",
-    "category": "ongoing",
+    "category": "finished",
     "id": "wwwh",
     "streams": [
       { "segment": "1939916692", "subrefs": [
         { "name": "Демо", "start": 4471 }
       ] },
       { "segment": "2283954295", "subrefs": [
-        { "name": "Релиз", "start": 6186 }
+        { "name": "1", "start": 6186 }
+      ] },
+      { "segment": "2288283392", "subrefs": [
+        { "name": "2", "start": 9150 }
       ] }
     ]
   },
