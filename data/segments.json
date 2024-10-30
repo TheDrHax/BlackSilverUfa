@@ -15475,22 +15475,16 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2264864573+0.ass"
   },
   "2267341112": {
-    "abs_start": 0, "abs_end": 9034, "duration": 9034,
+    "abs_start": 0, "abs_end": 9036, "duration": 0,
     "name": "",
     "date": "2024-10-04",
-    "direct": "https://bsufiles.drhx.ru/streams/2267341112.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2267341112.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2267341112.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2267341112.ass"
   },
   "2267425466": {
-    "abs_start": 0, "abs_end": 9638, "duration": 9638,
+    "abs_start": 0, "abs_end": 9667, "duration": 0,
     "name": "",
     "date": "2024-10-04",
-    "direct": "https://bsufiles.drhx.ru/streams/2267425466.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2267425466.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2267425466.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2267425466.ass"
   },
@@ -15499,7 +15493,6 @@
     "name": "Project Mist / The Axis Unseen / Lurks Within Walls (демо) / Incantation (демо) / Shadows of the Werewolf (демо) / Vanished Soul (демо)",
     "date": "2024-10-04",
     "offsets": ["0:00", "2:30:35"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2267341112,2267425466.torrent",
     "games": ["first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2267341112,2267425466+0.ass"
   },
@@ -15561,10 +15554,10 @@
   },
   "2274972530": {
     "youtube": "lVILsyKo6UQ", "abs_start": 0, "abs_end": 17757, "duration": 17757,
-    "name": "Hail to the Rainbow (демо) / Below, Rusted Gods (демо) / ФУ: Зеленые Глаза (демо) / Butcher's Creek (демо) / Creepy Shift: Roadside Diner (демо) / Fear the Timeloop (демо)",
+    "name": "Hail to the Rainbow (демо) / Below, Rusted Gods (демо) / ФУ: Зеленые Глаза (демо) / Butcher's Creek (демо) / Creepy Shift: Roadside Diner - Демо / Fear the Timeloop (демо)",
     "date": "2024-10-13",
     "torrent": "https://bsufiles.drhx.ru/streams/2274972530.torrent",
-    "games": ["single-2024", "first-2024"],
+    "games": ["single-2024", "first-2024", "creepy-shift-rd"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2274972530.ass"
   },
   "2275791324": {
@@ -15577,10 +15570,10 @@
   },
   "2276579699": {
     "youtube": "fm1lr4eLNwk", "abs_start": 0, "abs_end": 23792, "duration": 23792,
-    "name": "Secret Agent Wizard Boy and the International Crime Syndicate (демо) / The Precinct (демо) / Liminalcore (демо) / BrokenLore: LOW (демо) / BrokenLore: Don't Watch (демо) / Zaru / Hi! These Are Your Eyeballs / Targeosity / Voyager-19 / Waffle Cone Willie (демо)",
+    "name": "Secret Agent Wizard Boy and the International Crime Syndicate (демо) / The Precinct (демо) / Liminalcore - Chapter 1 / BrokenLore: LOW (демо) / BrokenLore: Don't Watch (демо) / Zaru / Hi! These Are Your Eyeballs / Targeosity / Voyager-19 / Waffle Cone Willie (демо)",
     "date": "2024-10-15",
     "torrent": "https://bsufiles.drhx.ru/streams/2276579699.torrent",
-    "games": ["first-2024", "single-2024"],
+    "games": ["first-2024", "liminalcore", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2276579699.ass"
   },
   "2278223950": {
@@ -15686,5 +15679,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2288283392.torrent",
     "games": ["dollmare", "first-2024", "wwwh", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2288283392.ass"
+  },
+  "2289109470": {
+    "abs_start": 0, "abs_end": 24168, "duration": 24168,
+    "name": "Liminalcore - Chapter 2 / Puppet House / Creepy Shift: Roadside Diner - Релиз / I'm on Observation Duty - Часть 7",
+    "date": "2024-10-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2289109470.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2289109470.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2289109470.torrent",
+    "games": ["liminalcore", "single-2024", "creepy-shift-rd", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2289109470+0.ass"
   }
 }

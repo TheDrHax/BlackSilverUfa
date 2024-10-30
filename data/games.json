@@ -9128,7 +9128,6 @@
         { "name": "Hail to the Rainbow (демо)", "start": 3238 },
         { "name": "Below, Rusted Gods (демо)", "start": 8026 },
         { "name": "ФУ: Зеленые Глаза (демо)", "start": 10456 },
-        { "name": "Creepy Shift: Roadside Diner (демо)", "start": 14601 },
         { "name": "Fear the Timeloop (демо)", "start": 15886 }
       ] },
       { "segment": "2275791324", "subrefs": [
@@ -9138,7 +9137,6 @@
         { "name": "Bad Parenting 1: Mr. Red Face", "start": 15489 }
       ] },
       { "segment": "2276579699", "subrefs": [
-        { "name": "Liminalcore (демо)", "start": 5879 },
         { "name": "BrokenLore: LOW (демо)", "start": 7861 },
         { "name": "BrokenLore: Don't Watch (демо)", "start": 9208 },
         { "name": "Voyager-19", "start": 17493 }
@@ -9151,6 +9149,35 @@
       ] },
       { "segment": "2288283392", "subrefs": [
         { "name": "The Hungry Fly", "start": 23576 }
+      ] },
+      { "segment": "2289109470", "subrefs": [
+        { "name": "Puppet House", "start": 4652 }
+      ] }
+    ]
+  },
+  {
+    "name": "Creepy Shift: Roadside Diner",
+    "category": "finished",
+    "id": "creepy-shift-rd",
+    "streams": [
+      { "segment": "2274972530", "subrefs": [
+        { "name": "Демо", "start": 14601 }
+      ] },
+      { "segment": "2289109470", "subrefs": [
+        { "name": "Релиз", "start": 14155 }
+      ] }
+    ]
+  },
+  {
+    "name": "Liminalcore",
+    "category": "ongoing",
+    "id": "liminalcore",
+    "streams": [
+      { "segment": "2276579699", "subrefs": [
+        { "name": "Chapter 1", "start": 5879 }
+      ] },
+      { "segment": "2289109470", "subrefs": [
+        { "name": "Chapter 2", "start": 1015 }
       ] }
     ]
   },
@@ -11968,6 +11995,9 @@
       ] },
       { "segment": "1995822970", "subrefs": [
         { "name": "Часть 4 #4", "start": 19007 }
+      ] },
+      { "segment": "2289109470", "subrefs": [
+        { "name": "Часть 7", "start": 17963 }
       ] }
     ]
   },
