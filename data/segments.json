@@ -15500,7 +15500,6 @@
     "youtube": "zgGuopWT7eU", "abs_start": 0, "abs_end": 27696, "duration": 27696,
     "name": "Silent Hill 2 Remake #1",
     "date": "2024-10-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2268136048.torrent",
     "games": ["sh2r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2268136048.ass"
   },
@@ -15699,5 +15698,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2290026673.torrent",
     "games": ["halloween", "mortuary-assistant"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2290026673.ass"
+  },
+  "2290757467": {
+    "abs_start": 0, "abs_end": 19387, "duration": 19387,
+    "name": "Dragon Age: The Veilguard",
+    "date": "2024-11-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2290757467.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2290757467.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2290757467.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2290757467.ass"
   }
 }
