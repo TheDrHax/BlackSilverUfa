@@ -9156,7 +9156,7 @@
       { "segment": "2288283392", "subrefs": [
         { "name": "The Hungry Fly", "start": 23576 }
       ] },
-      { "segment": "2289109470", "subrefs": [
+      { "segment": "2289109470.1", "subrefs": [
         { "name": "Puppet House", "start": 4652 }
       ] }
     ]
@@ -9169,7 +9169,7 @@
       { "segment": "2274972530", "subrefs": [
         { "name": "Демо", "start": 14601 }
       ] },
-      { "segment": "2289109470", "subrefs": [
+      { "segment": "2289109470.1", "subrefs": [
         { "name": "Релиз", "start": 14155 }
       ] }
     ]
@@ -12002,7 +12002,7 @@
       { "segment": "1995822970", "subrefs": [
         { "name": "Часть 4 #4", "start": 19007 }
       ] },
-      { "segment": "2289109470", "subrefs": [
+      { "segment": "2289109470.1", "subrefs": [
         { "name": "Часть 7", "start": 17963 }
       ] }
     ]
