@@ -8378,6 +8378,10 @@
       ] },
       { "segment": "2290757467", "subrefs": [
         { "name": "Dragon Age: The Veilguard" }
+      ] },
+      { "segment": "2291735052", "subrefs": [
+        { "name": "Massacre At The Mirage", "start": 10424 },
+        { "name": "Ells Tales: Egg", "start": 14950 }
       ] }
     ]
   },
@@ -9158,6 +9162,13 @@
       ] },
       { "segment": "2289109470", "subrefs": [
         { "name": "Puppet House", "start": 4652 }
+      ] },
+      { "segment": "2291735052", "subrefs": [
+        { "name": "Chorus of Carcosa (демо)", "start": 2994 },
+        { "name": "Level Headed", "start": 4833 },
+        { "name": "Invasion of The Halloween Fiends", "start": 5967 },
+        { "name": "Blind Exposure", "start": 9823 },
+        { "name": "Night Reception", "start": 16264 }
       ] }
     ]
   },
