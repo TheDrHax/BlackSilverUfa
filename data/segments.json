@@ -1569,9 +1569,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2017/master/v212431882.ass"
   },
   "212678883": {
-    "youtube": "vuNtD1T3v-s", "official": false, "abs_start": 0, "abs_end": 14657, "duration": 14657,
+    "abs_start": 0, "abs_end": 14656, "duration": 14656,
     "name": "Stifled / Uncanny Valley #2",
     "date": "2017-12-26",
+    "direct": "https://bsufiles.drhx.ru/streams/212678883.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/212678883.mp4/master.m3u8",
     "games": ["first-2017", "uncanny-valley"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2017/master/v212678883.ass"
   },
