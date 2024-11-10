@@ -15516,7 +15516,6 @@
     "youtube": "rrFotmQFPlk", "abs_start": 0, "abs_end": 33835, "duration": 33835,
     "name": "Silent Hill 2 Remake #3",
     "date": "2024-10-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2269824334.torrent",
     "games": ["sh2r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2269824334.ass"
   },
@@ -15719,5 +15718,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2292627138.torrent",
     "games": ["single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2292627138.ass"
+  },
+  "2298341279": {
+    "abs_start": 0, "abs_end": 19725, "duration": 19725,
+    "name": "Deep Inside / The Broken Vow / That Time I Got Trapped / Scarlet Lake (демо) / White Knuckle / The Inn-Sanity",
+    "date": "2024-11-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2298341279.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2298341279.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2298341279.torrent",
+    "games": ["single-2024", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2298341279.ass"
   }
 }

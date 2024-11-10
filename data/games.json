@@ -8382,6 +8382,11 @@
       { "segment": "2291735052", "subrefs": [
         { "name": "Massacre At The Mirage", "start": 10424 },
         { "name": "Ells Tales: Egg", "start": 14950 }
+      ] },
+      { "segment": "2298341279", "subrefs": [
+        { "name": "That Time I Got Trapped", "start": 8699 },
+        { "name": "White Knuckle", "start": 11777 },
+        { "name": "The Inn-Sanity", "start": 12951 }
       ] }
     ]
   },
@@ -8529,7 +8534,7 @@
   },
   {
     "name": "Shadow Fang",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "shadow-fang",
     "streams": [
       { "segment": "2197410316", "subrefs": [
@@ -9172,6 +9177,11 @@
       ] },
       { "segment": "2292627138", "subrefs": [
         { "name": "Tangled (Рапунцель: Запутанная история)", "start": 3264 }
+      ] },
+      { "segment": "2298341279", "subrefs": [
+        { "name": "Deep Inside", "start": 3266 },
+        { "name": "The Broken Vow", "start": 7178 },
+        { "name": "Scarlet Lake (демо)", "start": 9301 }
       ] }
     ]
   },
