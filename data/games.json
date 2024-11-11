@@ -8380,13 +8380,41 @@
         { "name": "Dragon Age: The Veilguard" }
       ] },
       { "segment": "2291735052", "subrefs": [
-        { "name": "Massacre At The Mirage", "start": 10424 },
         { "name": "Ells Tales: Egg", "start": 14950 }
       ] },
       { "segment": "2298341279", "subrefs": [
         { "name": "That Time I Got Trapped", "start": 8699 },
-        { "name": "White Knuckle", "start": 11777 },
-        { "name": "The Inn-Sanity", "start": 12951 }
+        { "name": "White Knuckle", "start": 11777 }
+      ] },
+      { "segment": "2299110802", "subrefs": [
+        { "name": "Slitterhead", "start": 669 },
+        { "name": "Manny's Murderous Movie Theatre", "start": 20564 }
+      ] }
+    ]
+  },
+  {
+    "name": "Massacre At The Mirage",
+    "category": "finished",
+    "id": "massacre-mirage",
+    "streams": [
+      { "segment": "2291735052", "subrefs": [
+        { "name": "1", "start": 10424 }
+      ] },
+      { "segment": "2299110802", "subrefs": [
+        { "name": "2", "start": 15437 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Inn-Sanity",
+    "category": "finished",
+    "id": "inn-sanity",
+    "streams": [
+      { "segment": "2298341279", "subrefs": [
+        { "name": "1", "start": 12951 }
+      ] },
+      { "segment": "2299110802", "subrefs": [
+        { "name": "2", "start": 7055 }
       ] }
     ]
   },
