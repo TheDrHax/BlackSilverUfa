@@ -8389,6 +8389,10 @@
       { "segment": "2299110802", "subrefs": [
         { "name": "Slitterhead", "start": 669 },
         { "name": "Manny's Murderous Movie Theatre", "start": 20564 }
+      ] },
+      { "segment": "2299935115", "subrefs": [
+        { "name": "My Hotel", "start": 4714 },
+        { "name": "Hollowbody", "start": 11416 }
       ] }
     ]
   },
@@ -9210,6 +9214,9 @@
         { "name": "Deep Inside", "start": 3266 },
         { "name": "The Broken Vow", "start": 7178 },
         { "name": "Scarlet Lake (демо)", "start": 9301 }
+      ] },
+      { "segment": "2299935115", "subrefs": [
+        { "name": "Project Borealis: Prologue", "start": 3038 }
       ] }
     ]
   },
@@ -12055,7 +12062,10 @@
         { "name": "Часть 4 #4", "start": 19007 }
       ] },
       { "segment": "2289109470", "subrefs": [
-        { "name": "Часть 7", "start": 17963 }
+        { "name": "Часть 7 #1", "start": 17963 }
+      ] },
+      { "segment": "2299935115", "subrefs": [
+        { "name": "Часть 7 #2", "start": 16041 }
       ] }
     ]
   },

@@ -15530,7 +15530,6 @@
     "youtube": "63_2YcaMUGI", "abs_start": 0, "abs_end": 28463, "duration": 28463,
     "name": "Dead Space Remake #1 (русская озвучка)",
     "date": "2024-10-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2271492534.torrent",
     "games": ["dead-space-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2271492534.ass"
   },
@@ -15678,7 +15677,7 @@
   },
   "2289109470": {
     "youtube": "8SYBPFIZqgE", "abs_start": 0, "abs_end": 24168, "duration": 24168,
-    "name": "Liminalcore - Chapter 2 / Puppet House / Creepy Shift: Roadside Diner - Релиз / I'm on Observation Duty - Часть 7",
+    "name": "Liminalcore - Chapter 2 / Puppet House / Creepy Shift: Roadside Diner - Релиз / I'm on Observation Duty - Часть 7 #1",
     "date": "2024-10-30",
     "torrent": "https://bsufiles.drhx.ru/streams/2289109470.torrent",
     "games": ["liminalcore", "single-2024", "creepy-shift-rd", "observation-duty"],
@@ -15733,5 +15732,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2299110802.torrent",
     "games": ["first-2024", "inn-sanity", "massacre-mirage"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2299110802.ass"
+  },
+  "2299935115": {
+    "abs_start": 0, "abs_end": 19492, "duration": 19492,
+    "name": "Project Borealis: Prologue / My Hotel / Hollowbody / I'm on Observation Duty - Часть 7 #2",
+    "date": "2024-11-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2299935115.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2299935115.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2299935115.torrent",
+    "games": ["single-2024", "first-2024", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2299935115.ass"
   }
 }
