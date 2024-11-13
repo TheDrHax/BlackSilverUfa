@@ -14646,9 +14646,9 @@
   },
   "2140448165": {
     "youtube": "Y8E9bR-ZE5U", "abs_start": 0, "abs_end": 18363, "duration": 18363,
-    "name": "They Are Here: Alien Abduction Horror - Демо 3 / The Cursed Tape / Is This Game Trying to Kill Me?: Preface / Void Whispers / Cursed Enigma: The Midnight Apartment / Surveillance",
+    "name": "They Are Here: Alien Abduction Horror - Демо 3 / The Cursed Tape / Is This Game Trying to Kill Me? - Preface / Void Whispers / Cursed Enigma: The Midnight Apartment / Surveillance",
     "date": "2024-05-08",
-    "games": ["they-are-here", "single-2024", "first-2024"],
+    "games": ["they-are-here", "single-2024", "itgttkm", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2140448165.ass"
   },
   "2142133135": {
@@ -15537,7 +15537,6 @@
     "youtube": "DEkccZ29vPM", "abs_start": 0, "abs_end": 27849, "duration": 27849,
     "name": "Dead Space Remake #2",
     "date": "2024-10-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2272328793.torrent",
     "games": ["dead-space-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2272328793.ass"
   },
@@ -15567,10 +15566,10 @@
   },
   "2276579699": {
     "youtube": "fm1lr4eLNwk", "abs_start": 0, "abs_end": 23792, "duration": 23792,
-    "name": "Secret Agent Wizard Boy and the International Crime Syndicate (демо) / The Precinct (демо) / Liminalcore - Chapter 1 / BrokenLore: LOW (демо) / BrokenLore: Don't Watch (демо) / Zaru / Hi! These Are Your Eyeballs / Targeosity / Voyager-19 / Waffle Cone Willie (демо)",
+    "name": "Secret Agent Wizard Boy and the International Crime Syndicate (демо) / The Precinct (демо) / Liminalcore - Chapter 1 / BrokenLore: LOW (демо) / BrokenLore: Don't Watch (демо) / Zaru / Hi! These Are Your Eyeballs #1 / Targeosity / Voyager-19 / Waffle Cone Willie (демо)",
     "date": "2024-10-15",
     "torrent": "https://bsufiles.drhx.ru/streams/2276579699.torrent",
-    "games": ["first-2024", "liminalcore", "single-2024"],
+    "games": ["first-2024", "liminalcore", "single-2024", "htaye"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2276579699.ass"
   },
   "2278223950": {
@@ -15703,10 +15702,10 @@
   },
   "2291735052": {
     "youtube": "E2r1nstM1R8", "abs_start": 0, "abs_end": 18457, "duration": 18457,
-    "name": "Chorus of Carcosa (демо) / Level Headed / Invasion of The Halloween Fiends / Blind Exposure / Massacre At The Mirage #1 / Ells Tales: Egg / Night Reception",
+    "name": "Chorus of Carcosa (демо) / Level Headed / Invasion of The Halloween Fiends / Blind Exposure / Massacre At The Mirage #1 / Ells Tales: Egg #1 / Night Reception",
     "date": "2024-11-02",
     "torrent": "https://bsufiles.drhx.ru/streams/2291735052.torrent",
-    "games": ["single-2024", "massacre-mirage", "first-2024"],
+    "games": ["single-2024", "massacre-mirage", "ells-tales-egg"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2291735052+0.ass"
   },
   "2292627138": {
@@ -15742,5 +15741,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2299935115.torrent",
     "games": ["single-2024", "first-2024", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2299935115.ass"
+  },
+  "2300733935": {
+    "abs_start": 0, "abs_end": 19815, "duration": 19815,
+    "name": "Is This Game Trying to Kill Me? #1 / Don't Scream #3 / Hi! These Are Your Eyeballs #2 / Chakana / Ells Tales: Egg #2 / I'm on Observation Duty - Часть 7 #3",
+    "date": "2024-11-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2300733935.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2300733935.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2300733935.torrent",
+    "games": ["itgttkm", "dont-scream", "htaye", "single-2024", "ells-tales-egg", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2300733935.ass"
   }
 }

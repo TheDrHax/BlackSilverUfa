@@ -5091,6 +5091,9 @@
       ] },
       { "segment": "1971007084", "subrefs": [
         { "name": "2", "start": 2395 }
+      ] },
+      { "segment": "2300733935", "subrefs": [
+        { "name": "3", "start": 6993 }
       ] }
     ]
   },
@@ -8363,7 +8366,6 @@
         { "name": "Secret Agent Wizard Boy and the International Crime Syndicate (демо)", "start": 1560 },
         { "name": "The Precinct (демо)", "start": 4483 },
         { "name": "Zaru", "start": 10038 },
-        { "name": "Hi! These Are Your Eyeballs", "start": 11301 },
         { "name": "Targeosity", "start": 13851 },
         { "name": "Waffle Cone Willie (демо)", "start": 21378 }
       ] },
@@ -8379,9 +8381,6 @@
       { "segment": "2290757467", "subrefs": [
         { "name": "Dragon Age: The Veilguard" }
       ] },
-      { "segment": "2291735052", "subrefs": [
-        { "name": "Ells Tales: Egg", "start": 14950 }
-      ] },
       { "segment": "2298341279", "subrefs": [
         { "name": "That Time I Got Trapped", "start": 8699 },
         { "name": "White Knuckle", "start": 11777 }
@@ -8393,6 +8392,32 @@
       { "segment": "2299935115", "subrefs": [
         { "name": "My Hotel", "start": 4714 },
         { "name": "Hollowbody", "start": 11416 }
+      ] }
+    ]
+  },
+  {
+    "name": "Ells Tales: Egg",
+    "category": "finished",
+    "id": "ells-tales-egg",
+    "streams": [
+      { "segment": "2291735052", "subrefs": [
+        { "name": "1", "start": 14950 }
+      ] },
+      { "segment": "2300733935", "subrefs": [
+        { "name": "2", "start": 13795 }
+      ] }
+    ]
+  },
+  {
+    "name": "Hi! These Are Your Eyeballs",
+    "category": "ongoing",
+    "id": "htaye",
+    "streams": [
+      { "segment": "2276579699", "subrefs": [
+        { "name": "1", "start": 11301 }
+      ] },
+      { "segment": "2300733935", "subrefs": [
+        { "name": "2", "start": 9026 }
       ] }
     ]
   },
@@ -8996,7 +9021,6 @@
       ] },
       { "segment": "2140448165", "subrefs": [
         { "name": "The Cursed Tape", "start": 4276 },
-        { "name": "Is This Game Trying to Kill Me?: Preface", "start": 6874 },
         { "name": "Void Whispers", "start": 9695 },
         { "name": "Cursed Enigma: The Midnight Apartment", "start": 12395 }
       ] },
@@ -9217,6 +9241,22 @@
       ] },
       { "segment": "2299935115", "subrefs": [
         { "name": "Project Borealis: Prologue", "start": 3038 }
+      ] },
+      { "segment": "2300733935", "subrefs": [
+        { "name": "Chakana", "start": 11187 }
+      ] }
+    ]
+  },
+  {
+    "name": "Is This Game Trying to Kill Me?",
+    "category": "ongoing",
+    "id": "itgttkm",
+    "streams": [
+      { "segment": "2140448165", "subrefs": [
+        { "name": "Preface", "start": 6874 }
+      ] },
+      { "segment": "2300733935", "subrefs": [
+        { "name": "1", "start": 2138 }
       ] }
     ]
   },
@@ -12066,6 +12106,9 @@
       ] },
       { "segment": "2299935115", "subrefs": [
         { "name": "Часть 7 #2", "start": 16041 }
+      ] },
+      { "segment": "2300733935", "subrefs": [
+        { "name": "Часть 7 #3", "start": 15942 }
       ] }
     ]
   },
