@@ -8392,6 +8392,10 @@
       { "segment": "2299935115", "subrefs": [
         { "name": "My Hotel", "start": 4714 },
         { "name": "Hollowbody", "start": 11416 }
+      ] },
+      { "segment": "2301535990", "subrefs": [
+        { "name": "Sofie: The Echoes", "start": 9623 },
+        { "name": "Connection: The Nightmare Within", "start": 10455 }
       ] }
     ]
   },
@@ -9244,6 +9248,9 @@
       ] },
       { "segment": "2300733935", "subrefs": [
         { "name": "Chakana", "start": 11187 }
+      ] },
+      { "segment": "2301535990", "subrefs": [
+        { "name": "In The Facade We Trust (демо)", "start": 3466 }
       ] }
     ]
   },
@@ -9257,6 +9264,9 @@
       ] },
       { "segment": "2300733935", "subrefs": [
         { "name": "1", "start": 2138 }
+      ] },
+      { "segment": "2301535990", "subrefs": [
+        { "name": "2", "start": 5196 }
       ] }
     ]
   },
@@ -9476,10 +9486,13 @@
     "id": "tormenture",
     "streams": [
       { "segment": "2169221839", "subrefs": [
-        { "name": "1", "start": 24747 }
+        { "name": "1 (демо)", "start": 24747 }
       ] },
       { "segment": "2173541595", "subrefs": [
         { "name": "2", "start": 16710 }
+      ] },
+      { "segment": "2301535990", "subrefs": [
+        { "name": "1 (релиз)", "start": 11880 }
       ] }
     ]
   },
@@ -12109,6 +12122,9 @@
       ] },
       { "segment": "2300733935", "subrefs": [
         { "name": "Часть 7 #3", "start": 15942 }
+      ] },
+      { "segment": "2301535990", "subrefs": [
+        { "name": "Часть 7 #4", "start": 14206 }
       ] }
     ]
   },

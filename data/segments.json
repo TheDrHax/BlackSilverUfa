@@ -14807,7 +14807,7 @@
   },
   "2169221839": {
     "youtube": "NbjTYd4OTzQ", "abs_start": 0, "abs_end": 25562, "duration": 25562,
-    "name": "неПрофессиональный \"E3\" 2024 - Ubisoft Forward (обзор) / Phantom Line (демо) / The Alters (демо) / FUMES (демо) / Steel Seed (демо) / Lucky Tower Ultimate #2 / Reason Unfound (демо) / Tormenture (демо) #1",
+    "name": "неПрофессиональный \"E3\" 2024 - Ubisoft Forward (обзор) / Phantom Line (демо) / The Alters (демо) / FUMES (демо) / Steel Seed (демо) / Lucky Tower Ultimate #2 / Reason Unfound (демо) / Tormenture (демо) #1 (демо)",
     "date": "2024-06-11",
     "games": ["e3_2024", "single-2024", "first-2024", "lucky-tower", "tormenture"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2169221839.ass"
@@ -15751,5 +15751,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2300733935.torrent",
     "games": ["itgttkm", "dont-scream", "htaye", "single-2024", "ells-tales-egg", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2300733935.ass"
+  },
+  "2301535990": {
+    "abs_start": 0, "abs_end": 16319, "duration": 16319,
+    "name": "In The Facade We Trust (демо) / Is This Game Trying to Kill Me? #2 / Sofie: The Echoes / Connection: The Nightmare Within / Tormenture (демо) #1 (релиз) / I'm on Observation Duty - Часть 7 #4",
+    "date": "2024-11-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2301535990.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2301535990.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2301535990.torrent",
+    "games": ["single-2024", "itgttkm", "first-2024", "tormenture", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2301535990.ass"
   }
 }
