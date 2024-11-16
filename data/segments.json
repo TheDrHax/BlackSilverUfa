@@ -15544,7 +15544,6 @@
     "youtube": "Ae49i0ks8xo", "abs_start": 0, "abs_end": 22680, "duration": 22680,
     "name": "The Callisto Protocol #1 (с русской озвучкой)",
     "date": "2024-10-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2273163644.torrent",
     "games": ["callisto-protocol"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2273163644.ass"
   },
@@ -15755,5 +15754,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2301535990.torrent",
     "games": ["single-2024", "itgttkm", "first-2024", "tormenture", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2301535990.ass"
+  },
+  "2303193751": {
+    "abs_start": 0, "abs_end": 21119, "duration": 21119,
+    "name": "Newspaper Day / Догони меня, Виталик! (Take Me, Vitaly) / I'm on Observation Duty - Часть 7 #5",
+    "date": "2024-11-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2303193751.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2303193751.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2303193751.torrent",
+    "games": ["single-2024", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2303193751.ass"
   }
 }
