@@ -15551,7 +15551,6 @@
     "youtube": "lVILsyKo6UQ", "abs_start": 0, "abs_end": 17757, "duration": 17757,
     "name": "Hail to the Rainbow (демо) / Below, Rusted Gods (демо) / ФУ: Зеленые Глаза (демо) / Butcher's Creek (демо) / Creepy Shift: Roadside Diner - Демо / Fear the Timeloop (демо)",
     "date": "2024-10-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2274972530.torrent",
     "games": ["single-2024", "first-2024", "creepy-shift-rd"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2274972530.ass"
   },
@@ -15764,5 +15763,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2303193751.torrent",
     "games": ["single-2024", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2303193751.ass"
+  },
+  "2304883064": {
+    "abs_start": 0, "abs_end": 25002, "duration": 25002,
+    "name": "The Evil Within #2 (Акуму)",
+    "date": "2024-11-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2304883064.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2304883064.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2304883064.torrent",
+    "games": ["evil_within"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2304883064.ass"
   }
 }
