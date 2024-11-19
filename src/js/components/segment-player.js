@@ -116,6 +116,7 @@ export default class SegmentPlayer extends React.Component {
     const newLocation = {
       ...location,
       pathname: `/play/${gameId}/${segment.segment}`,
+      search: `?at=${at}`
     };
 
     return {
