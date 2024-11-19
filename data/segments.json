@@ -15558,7 +15558,6 @@
     "youtube": "j5gNBPqi7Zw", "abs_start": 0, "abs_end": 17666, "duration": 17666,
     "name": "P.T. by 7780s / CAPTURED / The Ferry / Devious Path / Bad Parenting 1: Mr. Red Face",
     "date": "2024-10-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2275791324.torrent",
     "games": ["single-2024", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2275791324.ass"
   },
@@ -15566,7 +15565,6 @@
     "youtube": "fm1lr4eLNwk", "abs_start": 0, "abs_end": 23792, "duration": 23792,
     "name": "Secret Agent Wizard Boy and the International Crime Syndicate (демо) / The Precinct (демо) / Liminalcore - Chapter 1 / BrokenLore: LOW (демо) / BrokenLore: Don't Watch (демо) / Zaru / Hi! These Are Your Eyeballs #1 / Targeosity / Voyager-19 / Waffle Cone Willie (демо)",
     "date": "2024-10-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2276579699.torrent",
     "games": ["first-2024", "liminalcore", "single-2024", "htaye"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2276579699.ass"
   },
@@ -15773,5 +15771,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2304883064.torrent",
     "games": ["evil_within"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2304883064.ass"
+  },
+  "2305659223": {
+    "abs_start": 0, "abs_end": 24839, "duration": 24839,
+    "name": "The Evil Within #3 (Акуму)",
+    "date": "2024-11-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2305659223.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2305659223.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2305659223.torrent",
+    "games": ["evil_within"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2305659223.ass"
   }
 }
