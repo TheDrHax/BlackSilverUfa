@@ -15572,7 +15572,6 @@
     "youtube": "0bdUvSWztB4", "abs_start": 0, "abs_end": 26437, "duration": 26437,
     "name": "A Quiet Place: The Road Ahead #1",
     "date": "2024-10-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2278223950.torrent",
     "games": ["quiet-place"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2278223950.ass"
   },
@@ -15781,5 +15780,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2305659223.torrent",
     "games": ["evil_within"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2305659223.ass"
+  },
+  "2306476674": {
+    "abs_start": 0, "abs_end": 2499, "duration": 2499,
+    "name": "",
+    "date": "2024-11-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2306476674.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2306476674.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2306476674.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2306476674+0.ass"
+  },
+  "2306491956": {
+    "abs_start": 0, "abs_end": 17359, "duration": 17359,
+    "name": "",
+    "date": "2024-11-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2306491956.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2306491956.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2306491956.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2306491956.ass"
+  },
+  "2306476674,2306491956": {
+    "abs_start": 0, "abs_end": 19859, "duration": 19859,
+    "name": "The Evil Within #4 (Акуму)",
+    "date": "2024-11-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2306476674,2306491956.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2306476674,2306491956.mp4/master.m3u8",
+    "offsets": ["0:00", "41:40"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2306476674,2306491956.torrent",
+    "games": ["evil_within"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2306476674,2306491956+0.ass"
   }
 }
