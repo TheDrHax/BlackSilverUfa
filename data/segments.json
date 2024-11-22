@@ -479,9 +479,11 @@
     "games": ["hitman"]
   },
   "001607030": {
-    "youtube": "gU8s-7orIqU", "official": false, "abs_start": 0, "abs_end": 14406, "duration": 14406,
+    "abs_start": 0, "abs_end": 14405, "duration": 14405,
     "name": "Dark Souls 3 #7",
     "date": "2016-07-03",
+    "direct": "https://bsufiles.drhx.ru/streams/001607030.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001607030.mp4/master.m3u8",
     "games": ["ds3"]
   },
   "001607100": {
@@ -4591,9 +4593,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v426022824.ass"
   },
   "426474797": {
-    "youtube": "VRmQE4rW13I", "abs_start": 0, "abs_end": 20208, "duration": 20208,
+    "abs_start": 0, "abs_end": 20207, "duration": 20207,
     "name": "Bigfoot #2 / Mordhau #1 (часть 1)",
     "date": "2019-05-18",
+    "direct": "https://bsufiles.drhx.ru/streams/426474797.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/426474797.mp4/master.m3u8",
     "games": ["bigfoot", "mordhau"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v426474797.ass"
   },
@@ -15579,7 +15583,6 @@
     "youtube": "JA86SRO_T3k", "abs_start": 0, "abs_end": 21172, "duration": 21172,
     "name": "A Quiet Place: The Road Ahead #2",
     "date": "2024-10-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2279005882.torrent",
     "games": ["quiet-place"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2279005882.ass"
   },
