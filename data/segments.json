@@ -15589,31 +15589,23 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2279005882.ass"
   },
   "2279931089": {
-    "abs_start": 0, "abs_end": 1155, "duration": 1155,
+    "abs_start": 0, "abs_end": 1167, "duration": 0,
     "name": "",
     "date": "2024-10-19",
-    "direct": "https://bsufiles.drhx.ru/streams/2279931089.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2279931089.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2279931089.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2279931089.ass"
   },
   "2279943471": {
-    "abs_start": 0, "abs_end": 413, "duration": 413,
+    "abs_start": 0, "abs_end": 441, "duration": 0,
     "name": "",
     "date": "2024-10-19",
-    "direct": "https://bsufiles.drhx.ru/streams/2279943471.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2279943471.mp4/master.m3u8",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2279943471.ass"
   },
   "2279948458": {
-    "abs_start": 0, "abs_end": 18335, "duration": 18335,
+    "abs_start": 0, "abs_end": 18346, "duration": 0,
     "name": "",
     "date": "2024-10-19",
-    "direct": "https://bsufiles.drhx.ru/streams/2279948458.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2279948458.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2279948458.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2279948458.ass"
   },
@@ -15808,5 +15800,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2306476674,2306491956.torrent",
     "games": ["evil_within"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2306476674,2306491956+0.ass"
+  },
+  "2311507423": {
+    "abs_start": 0, "abs_end": 18302, "duration": 18302,
+    "name": "Ratshaker / Tales Beyond The Tomb: Pineville Night Stalker",
+    "date": "2024-11-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2311507423.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2311507423.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2311507423.torrent",
+    "games": ["first-2024", "616-games"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2311507423.ass"
   }
 }

@@ -5477,6 +5477,9 @@
       ] },
       { "segment": "2258364525,2258462533", "subrefs": [
         { "name": "1873", "start": 13013 }
+      ] },
+      { "segment": "2311507423", "subrefs": [
+        { "name": "Tales Beyond The Tomb: Pineville Night Stalker", "start": 6407 }
       ] }
     ]
   },
@@ -8405,6 +8408,10 @@
       { "segment": "2301535990", "subrefs": [
         { "name": "Sofie: The Echoes", "start": 9623 },
         { "name": "Connection: The Nightmare Within", "start": 10455 }
+      ] },
+      { "segment": "2311507423", "subrefs": [
+        { "name": "Ratshaker", "start": 4754 },
+        { "name": "Ratshaker", "start": 17562, "hidden": true }
       ] }
     ]
   },
