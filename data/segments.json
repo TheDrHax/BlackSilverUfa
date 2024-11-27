@@ -5577,9 +5577,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v504248004.ass"
   },
   "504672487": {
-    "youtube": "X5HIucuYvPc", "official": false, "abs_start": 0, "abs_end": 18533, "duration": 18533,
+    "abs_start": 0, "abs_end": 18533, "duration": 18533,
     "name": "Mafia II #5 / Planet Zoo",
     "date": "2019-11-06",
+    "direct": "https://bsufiles.drhx.ru/streams/504672487.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/504672487.mp4/master.m3u8",
     "games": ["mafia-2", "first-2019"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v504672487.ass"
   },
