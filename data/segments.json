@@ -15623,7 +15623,6 @@
     "youtube": "G5MoWHMQSwk", "abs_start": 0, "abs_end": 19159, "duration": 19159,
     "name": "KARMA: The Dark World / Paraedolon / Dollmare - Демо / Creature Packets / The Bookman / True Nightmare: Roadside Сafe (демо) / Mannequin Machine #1",
     "date": "2024-10-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2280809196.torrent",
     "games": ["single-2024", "dollmare", "first-2024", "mannequin-machine"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2280809196.ass"
   },
@@ -15804,10 +15803,10 @@
   },
   "2311507423": {
     "youtube": "SSGO-s1UyMg", "abs_start": 0, "abs_end": 18303, "duration": 18303,
-    "name": "Ratshaker / Tales Beyond The Tomb: Pineville Night Stalker",
+    "name": "Ratshaker #1 / Tales Beyond The Tomb: Pineville Night Stalker",
     "date": "2024-11-26",
     "torrent": "https://bsufiles.drhx.ru/streams/2311507423.torrent",
-    "games": ["first-2024", "616-games"],
+    "games": ["ratshaker", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2311507423.ass"
   },
   "2312259666": {
@@ -15817,5 +15816,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2312259666.torrent",
     "games": ["evil_within"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2312259666.ass"
+  },
+  "2313112515": {
+    "abs_start": 0, "abs_end": 18188, "duration": 18188,
+    "name": "Ratshaker #2 / Fullbright Presents: Toilet Spiders / Evil Holiday / Machine / UNHEIM / I'm on Observation Duty - Часть 7 #6",
+    "date": "2024-11-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2313112515.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2313112515.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2313112515.torrent",
+    "games": ["ratshaker", "single-2024", "first-2024", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2313112515.ass"
   }
 }

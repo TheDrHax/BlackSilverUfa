@@ -8412,9 +8412,25 @@
         { "name": "Sofie: The Echoes", "start": 9623 },
         { "name": "Connection: The Nightmare Within", "start": 10455 }
       ] },
+      { "segment": "2313112515", "subrefs": [
+        { "name": "Machine", "start": 13589 },
+        {
+          "name": "UNHEIM", "start": 13943
+        }
+      ] }
+    ]
+  },
+  {
+    "name": "Ratshaker",
+    "category": "finished",
+    "id": "ratshaker",
+    "streams": [
       { "segment": "2311507423", "subrefs": [
-        { "name": "Ratshaker", "start": 4754 },
-        { "name": "Ratshaker (продолжение)", "start": 17562, "hidden": true }
+        { "name": "1", "start": 4754 },
+        { "name": "1 (продолжение)", "start": 17562, "hidden": true }
+      ] },
+      { "segment": "2313112515", "subrefs": [
+        { "name": "2", "start": 3456 }
       ] }
     ]
   },
@@ -9274,6 +9290,10 @@
       { "segment": "2303193751", "subrefs": [
         { "name": "Newspaper Day", "start": 4056 },
         { "name": "Догони меня, Виталик! (Take Me, Vitaly)", "start": 7319 }
+      ] },
+      { "segment": "2313112515", "subrefs": [
+        { "name": "Fullbright Presents: Toilet Spiders", "start": 6225 },
+        { "name": "Evil Holiday", "start": 9981 }
       ] }
     ]
   },
@@ -12151,6 +12171,9 @@
       ] },
       { "segment": "2303193751", "subrefs": [
         { "name": "Часть 7 #5", "start": 16528 }
+      ] },
+      { "segment": "2313112515", "subrefs": [
+        { "name": "Часть 7 #6", "start": 15843 }
       ] }
     ]
   },
