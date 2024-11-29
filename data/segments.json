@@ -15630,7 +15630,6 @@
     "youtube": "xY8vlbpD7gg", "abs_start": 0, "abs_end": 18053, "duration": 18053,
     "name": "Alan Wake II - The Lake House",
     "date": "2024-10-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2282393138.torrent",
     "games": ["alan-wake-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2282393138.ass"
   },
@@ -15826,5 +15825,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2313112515.torrent",
     "games": ["ratshaker", "single-2024", "first-2024", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2313112515.ass"
+  },
+  "2313844075": {
+    "abs_start": 0, "abs_end": 18951, "duration": 18951,
+    "name": "Is This Game Trying to Kill Me? #3 / This House Eats People / QR Dead / I'm on Observation Duty - Часть 7 #7",
+    "date": "2024-11-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2313844075.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2313844075.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2313844075.torrent",
+    "games": ["itgttkm", "single-2024", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2313844075.ass"
   }
 }

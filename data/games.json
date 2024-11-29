@@ -9294,6 +9294,10 @@
       { "segment": "2313112515", "subrefs": [
         { "name": "Fullbright Presents: Toilet Spiders", "start": 6225 },
         { "name": "Evil Holiday", "start": 9981 }
+      ] },
+      { "segment": "2313844075", "subrefs": [
+        { "name": "This House Eats People", "start": 6072 },
+        { "name": "QR Dead", "start": 7373 }
       ] }
     ]
   },
@@ -9310,6 +9314,9 @@
       ] },
       { "segment": "2301535990", "subrefs": [
         { "name": "2", "start": 5196 }
+      ] },
+      { "segment": "2313844075", "subrefs": [
+        { "name": "3", "start": 3009 }
       ] }
     ]
   },
@@ -12174,6 +12181,9 @@
       ] },
       { "segment": "2313112515", "subrefs": [
         { "name": "Часть 7 #6", "start": 15843 }
+      ] },
+      { "segment": "2313844075", "subrefs": [
+        { "name": "Часть 7 #7", "start": 16522 }
       ] }
     ]
   },
