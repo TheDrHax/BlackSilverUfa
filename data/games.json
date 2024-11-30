@@ -8417,6 +8417,11 @@
         {
           "name": "UNHEIM", "start": 13943
         }
+      ] },
+      { "segment": "2314688699", "subrefs": [
+        { "name": "Crash Bandicoot", "start": 4729 },
+        { "name": "Vampire Hunter D", "start": 9368 },
+        { "name": "X-Files, The", "start": 13936 }
       ] }
     ]
   },
@@ -15913,6 +15918,9 @@
       ] },
       { "segment": "2160830982", "subrefs": [
         { "name": "11" }
+      ] },
+      { "segment": "2314688699", "subrefs": [
+        { "name": "12" }
       ] }
     ]
   },

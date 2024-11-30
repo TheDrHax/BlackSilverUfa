@@ -15637,7 +15637,6 @@
     "youtube": "oFY4Yqf1_30", "abs_start": 0, "abs_end": 21677, "duration": 21677,
     "name": "Mannequin Machine #2 / Sniper Killer - Релиз",
     "date": "2024-10-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2283169019.torrent",
     "games": ["mannequin-machine", "sniper-killer"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2283169019.ass"
   },
@@ -15835,5 +15834,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2313844075.torrent",
     "games": ["itgttkm", "single-2024", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2313844075.ass"
+  },
+  "2314688699": {
+    "abs_start": 0, "abs_end": 17724, "duration": 17724,
+    "name": "Вечер Ретро Игр (ВРИ) #12 / Crash Bandicoot / Vampire Hunter D / X-Files, The",
+    "date": "2024-11-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2314688699.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2314688699.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2314688699.torrent",
+    "games": ["retro", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2314688699.ass"
   }
 }
