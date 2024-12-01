@@ -4893,9 +4893,9 @@
   },
   "444937025": {
     "youtube": "NCtV6VWw6lo", "abs_start": 0, "abs_end": 5343, "duration": 5343,
-    "name": "Black Mesa: Xen #0 (бета)",
+    "name": "Black Mesa - Xen (бета)",
     "date": "2019-06-27",
-    "games": ["black-mesa-xen"],
+    "games": ["black-mesa"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v444937025.ass"
   },
   "444937025.1": {
@@ -5725,9 +5725,9 @@
   },
   "518751002": {
     "youtube": "ojKJR0vB5ac", "official": false, "abs_start": 0, "abs_end": 22576, "duration": 22576,
-    "name": "Black Mesa: Xen #1",
+    "name": "Black Mesa - Xen #1",
     "date": "2019-12-08",
-    "games": ["black-mesa-xen"],
+    "games": ["black-mesa"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v518751002.ass",
     "note": "<a href=\"https://youtu.be/gJO6G7Uc0IY\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -5740,9 +5740,9 @@
   },
   "520025510": {
     "youtube": "VWO7aKQg1hY", "abs_start": 0, "abs_end": 10552, "duration": 10552,
-    "name": "Black Mesa: Xen #2",
+    "name": "Black Mesa - Xen #2",
     "date": "2019-12-11",
-    "games": ["black-mesa-xen"],
+    "games": ["black-mesa"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v520025510.ass"
   },
   "520025510.1": {
@@ -15644,7 +15644,6 @@
     "youtube": "Djs7VBrZiNg", "abs_start": 0, "abs_end": 26966, "duration": 26966,
     "name": "THRESHOLD - Прохождение / While We Wait Here #1 / DEVOUR #8 / Subterranauts / Nuclear Nightmare",
     "date": "2024-10-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2283954295.torrent",
     "games": ["threshold", "wwwh", "devour", "co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2283954295+0.ass"
   },
@@ -15844,5 +15843,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2314688699.torrent",
     "games": ["retro", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2314688699.ass"
+  },
+  "2315594499": {
+    "abs_start": 0, "abs_end": 27214, "duration": 27214,
+    "name": "Black Mesa - Blue Shift (глава 5) / Void Crew / No More Room in Hell 2 / Lethal Company #20",
+    "date": "2024-12-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2315594499.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2315594499.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2315594499.torrent",
+    "games": ["black-mesa", "co-op", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2315594499.ass"
   }
 }
