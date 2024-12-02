@@ -765,10 +765,32 @@
       { "segment": "2283954295", "subrefs": [
         { "name": "Subterranauts", "start": 19797 },
         { "name": "Nuclear Nightmare", "start": 23383 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Void Crew",
+    "category": "co-op",
+    "id": "void-crew",
+    "streams": [
       { "segment": "2315594499", "subrefs": [
-        { "name": "Void Crew", "start": 12519 },
-        { "name": "No More Room in Hell 2", "start": 20614 }
+        { "name": "1", "start": 12519 }
+      ] },
+      { "segment": "2316412703", "subrefs": [
+        { "name": "2", "start": 13012 }
+      ] }
+    ]
+  },
+  {
+    "name": "No More Room in Hell 2 (ранний доступ)",
+    "category": "co-op",
+    "id": "nmrih2",
+    "streams": [
+      { "segment": "2315594499", "subrefs": [
+        { "name": "1", "start": 20614 }
+      ] },
+      { "segment": "2316412703", "subrefs": [
+        { "name": "2", "start": 3208 }
       ] }
     ]
   },
@@ -996,6 +1018,9 @@
       ] },
       { "segment": "2315594499", "subrefs": [
         { "name": "20", "start": 22753 }
+      ] },
+      { "segment": "2316412703", "subrefs": [
+        { "name": "21", "start": 23710 }
       ] }
     ]
   },
@@ -5906,13 +5931,16 @@
     "id": "black-mesa",
     "streams": [
       { "segment": "444937025", "subrefs": [
-        { "name": "Xen (бета)" }
+        { "name": "Xen (бета)", "start": 797 }
+      ] },
+      { "segment": "447694923.1", "subrefs": [
+        { "name": "Начало", "start": 11398 }
       ] },
       { "segment": "518751002", "subrefs": [
-        { "name": "Xen #1" }
+        { "name": "Xen #1", "start": 2013 }
       ] },
       { "segment": "520025510", "subrefs": [
-        { "name": "Xen #2" }
+        { "name": "Xen #2", "start": 771 }
       ] },
       { "segment": "2315594499", "subrefs": [
         { "name": "Blue Shift (глава 5)", "start": 1467 }
@@ -6975,9 +7003,6 @@
       ] },
       { "segment": "447694923", "subrefs": [
         { "name": "Daymare: 1998 (демо)" }
-      ] },
-      { "segment": "447694923.1", "subrefs": [
-        { "name": "Black Mesa" }
       ] },
       { "segment": "454019548", "subrefs": [
         { "name": "Thief Simulator" }
@@ -8619,7 +8644,7 @@
   },
   {
     "name": "Krypta FM",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "krypta-fm",
     "streams": [
       { "segment": "2222362452,2222444727", "subrefs": [
@@ -12199,6 +12224,9 @@
       ] },
       { "segment": "2313844075", "subrefs": [
         { "name": "Часть 7 #7", "start": 16522 }
+      ] },
+      { "segment": "2316412703", "subrefs": [
+        { "name": "часть 7 #8", "start": 9398 }
       ] }
     ]
   },

@@ -4929,9 +4929,9 @@
   },
   "447694923.1": {
     "youtube": "weHIVcz_ib4", "abs_start": 11353, "abs_end": 18143, "duration": 6790,
-    "name": "Black Mesa",
+    "name": "Black Mesa - Начало",
     "date": "2019-07-03",
-    "games": ["first-2019"],
+    "games": ["black-mesa"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v447694923.ass"
   },
   "448154135": {
@@ -15651,7 +15651,6 @@
     "youtube": "McELFsEKMkQ", "abs_start": 0, "abs_end": 25854, "duration": 25854,
     "name": "Dollmare #1 / Lethal Company #19",
     "date": "2024-10-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2284843090.torrent",
     "games": ["dollmare", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2284843090+0.ass"
   },
@@ -15846,12 +15845,22 @@
   },
   "2315594499": {
     "abs_start": 0, "abs_end": 27214, "duration": 27214,
-    "name": "Black Mesa - Blue Shift (глава 5) / Void Crew / No More Room in Hell 2 / Lethal Company #20",
+    "name": "Black Mesa - Blue Shift (глава 5) / Void Crew #1 / No More Room in Hell 2 (ранний доступ) #1 / Lethal Company #20",
     "date": "2024-12-01",
     "direct": "https://bsufiles.drhx.ru/streams/2315594499.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2315594499.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2315594499.torrent",
-    "games": ["black-mesa", "co-op", "lethal-company"],
+    "games": ["black-mesa", "void-crew", "nmrih2", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2315594499.ass"
+  },
+  "2316412703": {
+    "abs_start": 0, "abs_end": 29171, "duration": 29171,
+    "name": "No More Room in Hell 2 (ранний доступ) #2 / I'm on Observation Duty - часть 7 #8 / Void Crew #2 / Lethal Company #21",
+    "date": "2024-12-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2316412703.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2316412703.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2316412703.torrent",
+    "games": ["nmrih2", "observation-duty", "void-crew", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2316412703.ass"
   }
 }
