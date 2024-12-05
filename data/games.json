@@ -8457,6 +8457,22 @@
         { "name": "Crash Bandicoot", "start": 4729 },
         { "name": "Vampire Hunter D", "start": 9368 },
         { "name": "X-Files, The", "start": 13936 }
+      ] },
+      { "segment": "2318829596", "subrefs": [
+        { "name": "Madness Inside", "start": 12280 }
+      ] }
+    ]
+  },
+  {
+    "name": "Unknown Tapes",
+    "category": "ongoing",
+    "id": "unknown-tapes",
+    "streams": [
+      { "segment": "2149736276", "subrefs": [
+        { "name": "Демо", "start": 3873 }
+      ] },
+      { "segment": "2318829596", "subrefs": [
+        { "name": "Релиз", "start": 8486 }
       ] }
     ]
   },
@@ -9127,7 +9143,6 @@
         { "name": "Навь (демо)", "start": 3686 }
       ] },
       { "segment": "2149736276", "subrefs": [
-        { "name": "Unknown Tapes (демо)", "start": 3873 },
         { "name": "Overtime Heroes Exit 8", "start": 9745 },
         { "name": "Sonic.EXE", "start": 12619 },
         { "name": "Midnight Lane", "start": 14108 },
@@ -9174,8 +9189,7 @@
       { "segment": "2191494883", "subrefs": [
         { "name": "Egg Fried Rice", "start": 4012 },
         { "name": "The Other One", "start": 13139 },
-        { "name": "Cassiculus", "start": 14288 },
-        { "name": "It's just a prank", "start": 16801 }
+        { "name": "Cassiculus", "start": 14288 }
       ] },
       { "segment": "2197410316", "subrefs": [
         { "name": "Finding Her", "start": 8993 },
@@ -9338,6 +9352,23 @@
       { "segment": "2313844075", "subrefs": [
         { "name": "This House Eats People", "start": 6072 },
         { "name": "QR Dead", "start": 7373 }
+      ] },
+      { "segment": "2318829596", "subrefs": [
+        { "name": "Forest Ranger Services: The Pilot", "start": 14960 }
+      ] }
+    ]
+  },
+  {
+    "name": "Bober Bros",
+    "category": "infinite",
+    "type": "list",
+    "id": "bober",
+    "streams": [
+      { "segment": "2191494883", "subrefs": [
+        { "name": "Bober Bros: It's Just A Prank", "start": 16801 }
+      ] },
+      { "segment": "2318829596", "subrefs": [
+        { "name": "Bober Bros: The Hole", "start": 4452 }
       ] }
     ]
   },

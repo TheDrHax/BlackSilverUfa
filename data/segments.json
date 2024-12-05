@@ -14710,9 +14710,9 @@
   },
   "2149736276": {
     "youtube": "oSc6KK7j-5M", "abs_start": 0, "abs_end": 19402, "duration": 19402,
-    "name": "Unknown Tapes (демо) / Descending The Woods / Overtime Heroes Exit 8 / Sonic.EXE / Midnight Lane / Teeth of Glass",
+    "name": "Unknown Tapes - Демо / Descending The Woods / Overtime Heroes Exit 8 / Sonic.EXE / Midnight Lane / Teeth of Glass",
     "date": "2024-05-19",
-    "games": ["single-2024", "first-2024"],
+    "games": ["unknown-tapes", "first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2149736276.ass"
   },
   "2150566668": {
@@ -14941,9 +14941,9 @@
   },
   "2191494883": {
     "youtube": "tFy5nlTRccc", "abs_start": 0, "abs_end": 19330, "duration": 19330,
-    "name": "Grouls / Egg Fried Rice / Dad / Someone's Outside / I See You Now / The Other One / Cassiculus / It's just a prank",
+    "name": "Grouls / Egg Fried Rice / Dad / Someone's Outside / I See You Now / The Other One / Cassiculus / Bober Bros: It's Just A Prank",
     "date": "2024-07-07",
-    "games": ["first-2024", "single-2024", "616-games"],
+    "games": ["first-2024", "single-2024", "616-games", "bober"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2191494883.ass"
   },
   "2192277031": {
@@ -15658,7 +15658,6 @@
     "youtube": "nNX_PpQhtMM", "abs_start": 0, "abs_end": 29129, "duration": 29129,
     "name": "Dollmare #2 / Finding Frankie / While We Wait Here #2 / The Hungry Fly",
     "date": "2024-10-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2288283392.torrent",
     "games": ["dollmare", "first-2024", "wwwh", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2288283392.ass"
   },
@@ -15852,5 +15851,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2316412703.torrent",
     "games": ["nmrih2", "observation-duty", "void-crew", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2316412703.ass"
+  },
+  "2318829596": {
+    "abs_start": 0, "abs_end": 18402, "duration": 18402,
+    "name": "Bober Bros: The Hole / Unknown Tapes - Релиз / Madness Inside / Forest Ranger Services: The Pilot",
+    "date": "2024-12-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2318829596.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2318829596.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2318829596.torrent",
+    "games": ["bober", "unknown-tapes", "first-2024", "single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2318829596.ass"
   }
 }
