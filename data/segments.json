@@ -15665,7 +15665,6 @@
     "youtube": "8SYBPFIZqgE", "abs_start": 0, "abs_end": 24168, "duration": 24168,
     "name": "Liminalcore - Chapter 2 / Puppet House / Creepy Shift: Roadside Diner - Релиз / I'm on Observation Duty - Часть 7 #1",
     "date": "2024-10-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2289109470.torrent",
     "games": ["liminalcore", "single-2024", "creepy-shift-rd", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2289109470+0.ass"
   },
@@ -15861,5 +15860,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2318829596.torrent",
     "games": ["bober", "unknown-tapes", "first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2318829596.ass"
+  },
+  "2319595408": {
+    "abs_start": 0, "abs_end": 30200, "duration": 30200,
+    "name": "Indiana Jones and the Great Circle",
+    "date": "2024-12-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2319595408.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2319595408.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2319595408.torrent",
+    "games": ["first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2319595408.ass"
   }
 }
