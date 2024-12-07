@@ -8460,9 +8460,19 @@
       ] },
       { "segment": "2318829596", "subrefs": [
         { "name": "Madness Inside", "start": 12280 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Indiana Jones and the Great Circle",
+    "category": "ongoing",
+    "id": "indiana-jones-tgc",
+    "streams": [
       { "segment": "2319595408", "subrefs": [
-        { "name": "Indiana Jones and the Great Circle", "start": 1456 }
+        { "name": "1", "start": 1456 }
+      ] },
+      { "segment": "2320517980", "subrefs": [
+        { "name": "2", "start": 772 }
       ] }
     ]
   },

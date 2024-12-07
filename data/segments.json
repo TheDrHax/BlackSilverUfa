@@ -15669,12 +15669,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2289109470+0.ass"
   },
   "2290026673": {
-    "abs_start": 0, "abs_end": 14865, "duration": 14865,
+    "abs_start": 0, "abs_end": 14869, "duration": 0,
     "name": "Хэллоуин #2024 / The Mortuary Assistant - С Дашей",
     "date": "2024-10-31",
-    "direct": "https://bsufiles.drhx.ru/streams/2290026673.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2290026673.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2290026673.torrent",
     "games": ["halloween", "mortuary-assistant"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2290026673.ass"
   },
@@ -15682,7 +15679,6 @@
     "youtube": "pSra5lPLEBM", "abs_start": 0, "abs_end": 19388, "duration": 19388,
     "name": "Dragon Age: The Veilguard",
     "date": "2024-11-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2290757467.torrent",
     "games": ["first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2290757467.ass"
   },
@@ -15861,10 +15857,20 @@
   },
   "2319595408": {
     "youtube": "f5z0AIy7gjA", "abs_start": 0, "abs_end": 30200, "duration": 30200,
-    "name": "Indiana Jones and the Great Circle",
+    "name": "Indiana Jones and the Great Circle #1",
     "date": "2024-12-06",
     "torrent": "https://bsufiles.drhx.ru/streams/2319595408.torrent",
-    "games": ["first-2024"],
+    "games": ["indiana-jones-tgc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2319595408.ass"
+  },
+  "2320517980": {
+    "abs_start": 0, "abs_end": 28979, "duration": 28979,
+    "name": "Indiana Jones and the Great Circle #2",
+    "date": "2024-12-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2320517980.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2320517980.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2320517980.torrent",
+    "games": ["indiana-jones-tgc"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2320517980+0.ass"
   }
 }
