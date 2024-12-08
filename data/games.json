@@ -8473,6 +8473,9 @@
       ] },
       { "segment": "2320517980", "subrefs": [
         { "name": "2", "start": 772 }
+      ] },
+      { "segment": "2321452790", "subrefs": [
+        { "name": "3", "start": 970 }
       ] }
     ]
   },
@@ -10498,7 +10501,7 @@
   },
   {
     "name": "Crime Scene Cleaner",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "csc",
     "streams": [
       { "segment": "1949835858", "subrefs": [

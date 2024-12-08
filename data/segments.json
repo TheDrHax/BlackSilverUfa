@@ -15686,7 +15686,6 @@
     "youtube": "E2r1nstM1R8", "abs_start": 0, "abs_end": 18457, "duration": 18457,
     "name": "Chorus of Carcosa (демо) / Level Headed / Invasion of The Halloween Fiends / Blind Exposure / Massacre At The Mirage #1 / Ells Tales: Egg #1 / Night Reception",
     "date": "2024-11-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2291735052.torrent",
     "games": ["single-2024", "massacre-mirage", "ells-tales-egg"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2291735052+0.ass"
   },
@@ -15872,5 +15871,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2320517980.torrent",
     "games": ["indiana-jones-tgc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2320517980+0.ass"
+  },
+  "2321452790": {
+    "abs_start": 0, "abs_end": 29316, "duration": 29316,
+    "name": "Indiana Jones and the Great Circle #3",
+    "date": "2024-12-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2321452790.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2321452790.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2321452790.torrent",
+    "games": ["indiana-jones-tgc"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2321452790.ass"
   }
 }
