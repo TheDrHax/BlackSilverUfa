@@ -8465,7 +8465,7 @@
   },
   {
     "name": "Indiana Jones and the Great Circle",
-    "category": "ongoing",
+    "category": "finished",
     "id": "indiana-jones-tgc",
     "streams": [
       { "segment": "2319595408", "subrefs": [
@@ -8476,6 +8476,9 @@
       ] },
       { "segment": "2321452790", "subrefs": [
         { "name": "3", "start": 970 }
+      ] },
+      { "segment": "2322305322", "subrefs": [
+        { "name": "4", "start": 664 }
       ] }
     ]
   },
