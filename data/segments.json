@@ -11448,9 +11448,9 @@
   },
   "1607244038": {
     "youtube": "fl-l8EVRTRM", "abs_start": 0, "abs_end": 26520, "duration": 26520,
-    "name": "Scorn - Пролог / Go Home Annie: An SCP Game (демо) / Convenient / Lazaret - Демо / Late Night Mop / The Death: Than Trung",
+    "name": "Scorn - Пролог / Go Home Annie: An SCP Game - Демо / Convenient / Lazaret - Демо / Late Night Mop / The Death: Than Trung",
     "date": "2022-10-02",
-    "games": ["scorn", "single-2022", "lazaret"],
+    "games": ["scorn", "go-home-annie", "single-2022", "lazaret"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1607244038.ass"
   },
   "1608110648": {
@@ -15699,7 +15699,6 @@
     "youtube": "jcySZJF1hTk", "abs_start": 0, "abs_end": 19725, "duration": 19725,
     "name": "Deep Inside / The Broken Vow / That Time I Got Trapped / Scarlet Lake (демо) / White Knuckle / The Inn-Sanity #1",
     "date": "2024-11-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2298341279.torrent",
     "games": ["single-2024", "first-2024", "inn-sanity"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2298341279.ass"
   },
@@ -15885,5 +15884,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2322305322.torrent",
     "games": ["indiana-jones-tgc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2322305322.ass"
+  },
+  "2323151072": {
+    "abs_start": 0, "abs_end": 20123, "duration": 20123,
+    "name": "The Game Awards #2024 (обзор) / Go Home Annie: An SCP Game - Релиз",
+    "date": "2024-12-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2323151072.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2323151072.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2323151072.torrent",
+    "games": ["tga", "go-home-annie"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2323151072.ass"
   }
 }

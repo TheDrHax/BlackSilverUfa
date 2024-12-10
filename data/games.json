@@ -3296,6 +3296,9 @@
       ] },
       { "segment": "1999409596", "subrefs": [
         { "name": "2023 (обзор)", "start": 2503 }
+      ] },
+      { "segment": "2323151072", "subrefs": [
+        { "name": "2024 (обзор)", "start": 2436 }
       ] }
     ]
   },
@@ -4562,7 +4565,6 @@
         { "name": "Night At the Gates of Hell", "start": 6625 }
       ] },
       { "segment": "1607244038", "subrefs": [
-        { "name": "Go Home Annie: An SCP Game (демо)", "start": 6453 },
         { "name": "Convenient", "start": 9725 },
         { "name": "Late Night Mop", "start": 15360 },
         { "name": "The Death: Than Trung", "start": 16371 }
@@ -4628,6 +4630,19 @@
       ] },
       { "segment": "1693798502", "subrefs": [
         { "name": "Crimson Snow", "start": 5953 }
+      ] }
+    ]
+  },
+  {
+    "name": "Go Home Annie: An SCP Game",
+    "category": "ongoing",
+    "id": "go-home-annie",
+    "streams": [
+      { "segment": "1607244038", "subrefs": [
+        { "name": "Демо", "start": 6453 }
+      ] },
+      { "segment": "2323151072", "subrefs": [
+        { "name": "Релиз", "start": 8307 }
       ] }
     ]
   },
