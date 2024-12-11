@@ -13098,9 +13098,9 @@
   },
   "1867374437": {
     "youtube": "mUlm1pjRK5w", "official": false, "abs_start": 0, "abs_end": 20925, "duration": 20925,
-    "name": "Страшно и точка / Ouija / The Hole / The Pizza / The Apartment Next Door / Survival & Horror: Mortanis Prisoners (демо) / The Horror Within / Decadence / Miside (демо) / Other Side / Chosen Who / Cryptid / Call of the Fire / Mannequin / Wendigo",
+    "name": "Страшно и точка / Ouija / The Hole / The Pizza / The Apartment Next Door / Survival & Horror: Mortanis Prisoners (демо) / The Horror Within / Decadence / MiSide - Демо / Other Side / Chosen Who / Cryptid / Call of the Fire / Mannequin / Wendigo",
     "date": "2023-07-09",
-    "games": ["first-2023", "single-2023"],
+    "games": ["first-2023", "single-2023", "miside"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1867374437.ass",
     "note": "<a href=\"https://youtu.be/Cm7VyuTInAc\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -15706,7 +15706,6 @@
     "youtube": "QuOYmdazjVQ", "abs_start": 0, "abs_end": 21956, "duration": 21956,
     "name": "Slitterhead / The Inn-Sanity #2 / Massacre At The Mirage #2 / Manny's Murderous Movie Theatre",
     "date": "2024-11-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2299110802.torrent",
     "games": ["first-2024", "inn-sanity", "massacre-mirage"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2299110802.ass"
   },
@@ -15714,7 +15713,6 @@
     "youtube": "s9-JPBS9ovg", "abs_start": 0, "abs_end": 19492, "duration": 19492,
     "name": "Project Borealis: Prologue / My Hotel / Hollowbody / I'm on Observation Duty - Часть 7 #2",
     "date": "2024-11-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2299935115.torrent",
     "games": ["single-2024", "first-2024", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2299935115.ass"
   },
@@ -15887,12 +15885,22 @@
   },
   "2323151072": {
     "abs_start": 0, "abs_end": 20123, "duration": 20123,
-    "name": "The Game Awards #2024 (обзор) / Go Home Annie: An SCP Game - Релиз",
+    "name": "The Game Awards #2024 (обзор) / Go Home Annie: An SCP Game #1",
     "date": "2024-12-10",
     "direct": "https://bsufiles.drhx.ru/streams/2323151072.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2323151072.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2323151072.torrent",
     "games": ["tga", "go-home-annie"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2323151072.ass"
+  },
+  "2323950442": {
+    "abs_start": 0, "abs_end": 28071, "duration": 28071,
+    "name": "Go Home Annie: An SCP Game #2 / MiSide - Прохождение",
+    "date": "2024-12-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2323950442.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2323950442.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2323950442.torrent",
+    "games": ["go-home-annie", "miside"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2323950442.ass"
   }
 }

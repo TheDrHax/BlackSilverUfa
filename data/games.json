@@ -4635,14 +4635,17 @@
   },
   {
     "name": "Go Home Annie: An SCP Game",
-    "category": "ongoing",
+    "category": "finished",
     "id": "go-home-annie",
     "streams": [
       { "segment": "1607244038", "subrefs": [
         { "name": "Демо", "start": 6453 }
       ] },
       { "segment": "2323151072", "subrefs": [
-        { "name": "Релиз", "start": 8307 }
+        { "name": "1", "start": 8307 }
+      ] },
+      { "segment": "2323950442", "subrefs": [
+        { "name": "2", "start": 4625 }
       ] }
     ]
   },
@@ -4846,7 +4849,6 @@
         { "name": "Survival & Horror: Mortanis Prisoners (демо)", "start": 6884 },
         { "name": "The Horror Within", "start": 8402 },
         { "name": "Decadence", "start": 9304 },
-        { "name": "Miside (демо)", "start": 11296 },
         { "name": "Other Side", "start": 14867 },
         { "name": "Chosen Who", "start": 15288 },
         { "name": "Call of the Fire", "start": 18123 },
@@ -5049,6 +5051,19 @@
         { "name": "Krampus of Kirkwall", "start": 4386 },
         { "name": "How to Build a Snowman", "start": 6082 },
         { "name": "Slay Bells", "start": 7643 }
+      ] }
+    ]
+  },
+  {
+    "name": "MiSide",
+    "category": "finished",
+    "id": "miside",
+    "streams": [
+      { "segment": "1867374437", "subrefs": [
+        { "name": "Демо", "start": 11296 }
+      ] },
+      { "segment": "2323950442", "subrefs": [
+        { "name": "Прохождение", "start": 10152 }
       ] }
     ]
   },
