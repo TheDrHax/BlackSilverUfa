@@ -15720,7 +15720,6 @@
     "youtube": "c3qFLwkcwUw", "abs_start": 0, "abs_end": 19815, "duration": 19815,
     "name": "Is This Game Trying to Kill Me? #1 / Don't Scream #3 / Hi! These Are Your Eyeballs #2 / Chakana / Ells Tales: Egg #2 / I'm on Observation Duty - Часть 7 #3",
     "date": "2024-11-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2300733935.torrent",
     "games": ["itgttkm", "dont-scream", "htaye", "single-2024", "ells-tales-egg", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2300733935.ass"
   },
@@ -15835,7 +15834,7 @@
   },
   "2316412703": {
     "youtube": "mnS-1_UpYQ4", "abs_start": 0, "abs_end": 29172, "duration": 29172,
-    "name": "No More Room in Hell 2 (ранний доступ) #2 / I'm on Observation Duty - часть 7 #8 / Void Crew #2 / Lethal Company #21",
+    "name": "No More Room in Hell 2 (ранний доступ) #2 / I'm on Observation Duty - Часть 7 #8 / Void Crew #2 / Lethal Company #21",
     "date": "2024-12-02",
     "torrent": "https://bsufiles.drhx.ru/streams/2316412703.torrent",
     "games": ["nmrih2", "observation-duty", "void-crew", "lethal-company"],
@@ -15885,22 +15884,32 @@
   },
   "2323151072": {
     "abs_start": 0, "abs_end": 20123, "duration": 20123,
-    "name": "The Game Awards #2024 (обзор) / Go Home Annie: An SCP Game #1",
+    "name": "Go Home Annie: An SCP Game #1",
     "date": "2024-12-10",
     "direct": "https://bsufiles.drhx.ru/streams/2323151072.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2323151072.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2323151072.torrent",
-    "games": ["tga", "go-home-annie"],
+    "games": ["go-home-annie"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2323151072.ass"
   },
   "2323950442": {
     "abs_start": 0, "abs_end": 28071, "duration": 28071,
-    "name": "Go Home Annie: An SCP Game #2 / MiSide - Прохождение",
+    "name": "Go Home Annie: An SCP Game #2 / MiSide #1",
     "date": "2024-12-11",
     "direct": "https://bsufiles.drhx.ru/streams/2323950442.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2323950442.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2323950442.torrent",
     "games": ["go-home-annie", "miside"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2323950442.ass"
+  },
+  "2324789015": {
+    "abs_start": 0, "abs_end": 27406, "duration": 27406,
+    "name": "MiSide #2 / I'm on Observation Duty - Часть 7 #9 / Fast Food Simulator / Zort / Make Way",
+    "date": "2024-12-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2324789015.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2324789015.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2324789015.torrent",
+    "games": ["miside", "observation-duty", "co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2324789015.ass"
   }
 }

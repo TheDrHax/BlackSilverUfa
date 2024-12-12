@@ -765,6 +765,11 @@
       { "segment": "2283954295", "subrefs": [
         { "name": "Subterranauts", "start": 19797 },
         { "name": "Nuclear Nightmare", "start": 23383 }
+      ] },
+      { "segment": "2324789015", "subrefs": [
+        { "name": "Fast Food Simulator", "start": 12264 },
+        { "name": "Zort", "start": 18053 },
+        { "name": "Make Way", "start": 24778 }
       ] }
     ]
   },
@@ -3296,9 +3301,6 @@
       ] },
       { "segment": "1999409596", "subrefs": [
         { "name": "2023 (обзор)", "start": 2503 }
-      ] },
-      { "segment": "2323151072", "subrefs": [
-        { "name": "2024 (обзор)", "start": 2436 }
       ] }
     ]
   },
@@ -5063,7 +5065,10 @@
         { "name": "Демо", "start": 11296 }
       ] },
       { "segment": "2323950442", "subrefs": [
-        { "name": "Прохождение", "start": 10152 }
+        { "name": "1", "start": 10152 }
+      ] },
+      { "segment": "2324789015", "subrefs": [
+        { "name": "2", "start": 6744 }
       ] }
     ]
   },
@@ -12306,7 +12311,10 @@
         { "name": "Часть 7 #7", "start": 16522 }
       ] },
       { "segment": "2316412703", "subrefs": [
-        { "name": "часть 7 #8", "start": 9398 }
+        { "name": "Часть 7 #8", "start": 9398 }
+      ] },
+      { "segment": "2324789015", "subrefs": [
+        { "name": "Часть 7 #9", "start": 9163 }
       ] }
     ]
   },
