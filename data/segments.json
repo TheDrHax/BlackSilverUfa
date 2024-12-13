@@ -15727,7 +15727,6 @@
     "youtube": "nq3ZpLslmlU", "abs_start": 0, "abs_end": 16319, "duration": 16319,
     "name": "In The Facade We Trust (демо) / Is This Game Trying to Kill Me? #2 / Sofie: The Echoes / Connection: The Nightmare Within / Tormenture #1 (релиз) / I'm on Observation Duty - Часть 7 #4",
     "date": "2024-11-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2301535990.torrent",
     "games": ["single-2024", "itgttkm", "first-2024", "tormenture", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2301535990.ass"
   },
@@ -15911,5 +15910,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2324789015.torrent",
     "games": ["miside", "observation-duty", "co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2324789015.ass"
+  },
+  "2325599811": {
+    "abs_start": 0, "abs_end": 21740, "duration": 21740,
+    "name": "The Game Awards #2024 (обзор) / The Thing - Remastered / Legacy of Kain: Soul Reaver Remastered",
+    "date": "2024-12-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2325599811.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2325599811.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2325599811.torrent",
+    "games": ["tga", "the-thing", "first-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2325599811.ass"
   }
 }
