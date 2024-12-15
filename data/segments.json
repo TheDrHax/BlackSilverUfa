@@ -9788,9 +9788,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1186535358.ass"
   },
   "1187388604": {
-    "youtube": "e5x4wjgjvME", "official": false, "abs_start": 0, "abs_end": 29328, "duration": 29328,
+    "abs_start": 0, "abs_end": 26156, "duration": 26156,
     "name": "Marvel's Guardians of the Galaxy #2",
     "date": "2021-10-26",
+    "direct": "https://bsufiles.drhx.ru/streams/1187388604.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1187388604.mp4/master.m3u8",
     "games": ["marvel-gotg"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1187388604.ass"
   },
@@ -15734,7 +15736,6 @@
     "youtube": "j-bQZFXx8Dg", "abs_start": 0, "abs_end": 21120, "duration": 21120,
     "name": "Newspaper Day / Догони меня, Виталик! (Take Me, Vitaly) / I'm on Observation Duty - Часть 7 #5",
     "date": "2024-11-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2303193751.torrent",
     "games": ["single-2024", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2303193751.ass"
   },
