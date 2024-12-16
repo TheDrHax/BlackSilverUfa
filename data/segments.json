@@ -9788,7 +9788,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1186535358.ass"
   },
   "1187388604": {
-    "abs_start": 0, "abs_end": 26156, "duration": 26156,
+    "abs_start": 0, "abs_end": 29327, "duration": 29327,
     "name": "Marvel's Guardians of the Galaxy #2",
     "date": "2021-10-26",
     "direct": "https://bsufiles.drhx.ru/streams/1187388604.mp4",
@@ -15743,7 +15743,6 @@
     "youtube": "wYJros2ktos", "abs_start": 0, "abs_end": 25002, "duration": 25002,
     "name": "The Evil Within #2 (Акуму)",
     "date": "2024-11-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2304883064.torrent",
     "games": ["evil_within"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2304883064.ass"
   },
@@ -15921,5 +15920,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2325599811.torrent",
     "games": ["tga", "the-thing", "first-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2325599811.ass"
+  },
+  "2328201934": {
+    "abs_start": 0, "abs_end": 19541, "duration": 19541,
+    "name": "The Cabin Factory / Scauage / Paragnosia / Blood Cleaner / Satanic (демо)",
+    "date": "2024-12-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2328201934.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2328201934.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2328201934.torrent",
+    "games": ["single-2024"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2328201934.ass"
   }
 }
