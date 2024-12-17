@@ -770,6 +770,9 @@
         { "name": "Fast Food Simulator", "start": 12264 },
         { "name": "Zort", "start": 18053 },
         { "name": "Make Way", "start": 24778 }
+      ] },
+      { "segment": "2329008888", "subrefs": [
+        { "name": "Clueless Crew", "start": 8189 }
       ] }
     ]
   },
@@ -1026,6 +1029,9 @@
       ] },
       { "segment": "2316412703", "subrefs": [
         { "name": "21", "start": 23710 }
+      ] },
+      { "segment": "2329008888", "subrefs": [
+        { "name": "22", "start": 10066 }
       ] }
     ]
   },
@@ -8501,6 +8507,9 @@
       ] },
       { "segment": "2325599811", "subrefs": [
         { "name": "Legacy of Kain: Soul Reaver Remastered", "start": 16355 }
+      ] },
+      { "segment": "2329008888", "subrefs": [
+        { "name": "The Spirit of the Samurai", "start": 3618 }
       ] }
     ]
   },
@@ -8659,7 +8668,7 @@
   },
   {
     "name": "Enotria: The Last Song",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "enotria",
     "streams": [
       { "segment": "2170904450", "subrefs": [
