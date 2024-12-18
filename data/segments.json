@@ -15754,22 +15754,16 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2305659223.ass"
   },
   "2306476674": {
-    "abs_start": 0, "abs_end": 2499, "duration": 2499,
+    "abs_start": 0, "abs_end": 2502, "duration": 0,
     "name": "",
     "date": "2024-11-20",
-    "direct": "https://bsufiles.drhx.ru/streams/2306476674.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2306476674.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2306476674.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2306476674+0.ass"
   },
   "2306491956": {
-    "abs_start": 0, "abs_end": 17359, "duration": 17359,
+    "abs_start": 0, "abs_end": 17366, "duration": 0,
     "name": "",
     "date": "2024-11-20",
-    "direct": "https://bsufiles.drhx.ru/streams/2306491956.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2306491956.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2306491956.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2306491956.ass"
   },
@@ -15939,5 +15933,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2329008888.torrent",
     "games": ["first-2024", "co-op", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2329008888.ass"
+  },
+  "2329787702": {
+    "abs_start": 0, "abs_end": 22307, "duration": 22307,
+    "name": "The Evil Within #6 (Акуму)",
+    "date": "2024-12-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2329787702.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2329787702.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2329787702.torrent",
+    "games": ["evil_within"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2329787702.ass"
   }
 }
