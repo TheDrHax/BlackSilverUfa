@@ -773,6 +773,9 @@
       ] },
       { "segment": "2329008888", "subrefs": [
         { "name": "Clueless Crew", "start": 8189 }
+      ] },
+      { "segment": "2330665979", "subrefs": [
+        { "name": "Carry The Glass", "start": 7582 }
       ] }
     ]
   },
@@ -9434,6 +9437,9 @@
         { "name": "Paragnosia", "start": 12709 },
         { "name": "Blood Cleaner", "start": 15546 },
         { "name": "Satanic (демо)", "start": 17077 }
+      ] },
+      { "segment": "2330665979", "subrefs": [
+        { "name": "Gift Collector", "start": 3776 }
       ] }
     ]
   },
