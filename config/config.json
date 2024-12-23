@@ -67,6 +67,11 @@
         "name": "chats-2024",
         "pull": "https://github.com/BlackSilverUfa/chats-2024.git",
         "push": "git@github.com:BlackSilverUfa/chats-2024.git"
+      },
+      {
+        "name": "chats-2025",
+        "pull": "https://github.com/BlackSilverUfa/chats-2025.git",
+        "push": "git@github.com:BlackSilverUfa/chats-2025.git"
       }
     ],
     "mounts": {
@@ -125,12 +130,18 @@
       "$PREFIX/chats/2023": {
         "remote": "chats-2023",
         "branch": "master",
-        "prefix": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master"
+        "prefix": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master",
+        "optional": true
       },
       "$PREFIX/chats/2024": {
         "remote": "chats-2024",
         "branch": "master",
         "prefix": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master"
+      },
+      "$PREFIX/chats/2025": {
+        "remote": "chats-2025",
+        "branch": "master",
+        "prefix": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master"
       }
     }
   },
