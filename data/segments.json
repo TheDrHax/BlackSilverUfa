@@ -15818,9 +15818,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2321452790.ass"
   },
   "2322305322": {
-    "youtube": "_-gdXfVrc-U", "abs_start": 0, "abs_end": 22098, "duration": 22098,
+    "abs_start": 0, "abs_end": 22098, "duration": 22098,
     "name": "Indiana Jones and the Great Circle #4",
     "date": "2024-12-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2322305322.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2322305322.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2322305322.torrent",
     "games": ["indiana-jones-tgc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2322305322.ass"
@@ -15836,11 +15838,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2323151072.ass"
   },
   "2323950442": {
-    "abs_start": 0, "abs_end": 28071, "duration": 28071,
+    "youtube": "jMOKjlyAw2M", "abs_start": 0, "abs_end": 28072, "duration": 28072,
     "name": "Go Home Annie: An SCP Game #2 / MiSide #1",
     "date": "2024-12-11",
-    "direct": "https://bsufiles.drhx.ru/streams/2323950442.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2323950442.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2323950442.torrent",
     "games": ["go-home-annie", "miside"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2323950442.ass"
