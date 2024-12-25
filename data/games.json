@@ -8519,9 +8519,19 @@
       ] },
       { "segment": "2329008888", "subrefs": [
         { "name": "The Spirit of the Samurai", "start": 3618 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Nancy Drew: The Phantom of Venice (Нэнси Дрю. Призрак Венеции)",
+    "category": "finished",
+    "id": "nancy-drew-pov",
+    "streams": [
       { "segment": "2334886719", "subrefs": [
-        { "name": "Nancy Drew: The Phantom of Venice (Нэнси Дрю. Призрак Венеции)", "start": 1309 }
+        { "name": "1", "start": 1309 }
+      ] },
+      { "segment": "2335583863", "subrefs": [
+        { "name": "2", "start": 947 }
       ] }
     ]
   },
