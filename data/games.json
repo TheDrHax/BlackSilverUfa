@@ -9459,6 +9459,12 @@
       ] },
       { "segment": "2334057711", "subrefs": [
         { "name": "Christmas Mutilator", "start": 11976 }
+      ] },
+      { "segment": "2336320590", "subrefs": [
+        { "name": "Lonely Christmas", "start": 3430 },
+        { "name": "Dark Gift", "start": 7656 },
+        { "name": "Reindeer Games", "start": 11667 },
+        { "name": "Night at the Office", "start": 17115 }
       ] }
     ]
   },
@@ -12371,6 +12377,9 @@
       ] },
       { "segment": "2334057711", "subrefs": [
         { "name": "Часть 7 #10", "start": 17309 }
+      ] },
+      { "segment": "2336320590", "subrefs": [
+        { "name": "Часть 7 #11", "start": 15189 }
       ] }
     ]
   },
