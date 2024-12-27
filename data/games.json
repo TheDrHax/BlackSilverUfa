@@ -699,9 +699,6 @@
       { "segment": "1804882802", "subrefs": [
         { "name": "Inout", "start": 7486 }
       ] },
-      { "segment": "1866511537", "subrefs": [
-        { "name": "Super Bunny Man", "start": 4645 }
-      ] },
       { "segment": "1895922463", "subrefs": [
         { "name": "Holy Purge", "start": 9058 },
         { "name": "Surrounded", "start": 13805 },
@@ -773,9 +770,32 @@
       ] },
       { "segment": "2329008888", "subrefs": [
         { "name": "Clueless Crew", "start": 8189 }
+      ] }
+    ]
+  },
+  {
+    "name": "Super Bunny Man",
+    "category": "co-op",
+    "id": "super-bunny-man",
+    "streams": [
+      { "segment": "1866511537", "subrefs": [
+        { "name": "1", "start": 4645 }
       ] },
+      { "segment": "2337138336", "subrefs": [
+        { "name": "2", "start": 19925 }
+      ] }
+    ]
+  },
+  {
+    "name": "Carry The Glass",
+    "category": "finished",
+    "id": "carry-the-glass",
+    "streams": [
       { "segment": "2330665979", "subrefs": [
-        { "name": "Carry The Glass", "start": 7582 }
+        { "name": "1", "start": 7582 }
+      ] },
+      { "segment": "2337138336", "subrefs": [
+        { "name": "2", "start": 8166 }
       ] }
     ]
   },
@@ -8519,6 +8539,9 @@
       ] },
       { "segment": "2329008888", "subrefs": [
         { "name": "The Spirit of the Samurai", "start": 3618 }
+      ] },
+      { "segment": "2337138336", "subrefs": [
+        { "name": "Liminal Shift", "start": 2030 }
       ] }
     ]
   },
