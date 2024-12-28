@@ -15928,5 +15928,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2337138336.torrent",
     "games": ["first-2024", "carry-the-glass", "super-bunny-man"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2337138336.ass"
+  },
+  "2338009081": {
+    "abs_start": 0, "abs_end": 25987, "duration": 25987,
+    "name": "The Liminal Dimension / PICO PARK 2 / Pummel Party #18 (6D) / Golf It! #26 / Gartic Phone #7",
+    "date": "2024-12-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2338009081.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2338009081.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2338009081.torrent",
+    "games": ["single-2024", "co-op", "pummel-party", "golf-it", "gartic-phone"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2338009081.ass"
   }
 }
