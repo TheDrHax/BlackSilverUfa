@@ -8554,6 +8554,10 @@
       ] },
       { "segment": "2337138336", "subrefs": [
         { "name": "Liminal Shift", "start": 2030 }
+      ] },
+      { "segment": "2339752178", "subrefs": [
+        { "name": "Schoolboy Runaway", "start": 3839 },
+        { "name": "A Christmas Story", "start": 13101 }
       ] }
     ]
   },
@@ -9503,6 +9507,13 @@
       ] },
       { "segment": "2338009081", "subrefs": [
         { "name": "The Liminal Dimension", "start": 4757 }
+      ] },
+      { "segment": "2339752178", "subrefs": [
+        { "name": "Блочный дом 9", "start": 7592 },
+        { "name": "Don't Stay Awake", "start": 13928 },
+        { "name": "Gut Loaded", "start": 14800 },
+        { "name": "Demono: Home Alone", "start": 15740 },
+        { "name": "Krampen", "start": 16301 }
       ] }
     ]
   },
