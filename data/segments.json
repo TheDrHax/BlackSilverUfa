@@ -15954,5 +15954,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2339752178.torrent",
     "games": ["first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2339752178.ass"
+  },
+  "2340621815": {
+    "abs_start": 0, "abs_end": 10587, "duration": 10587,
+    "name": "Новый год 2025 (клипы)",
+    "date": "2024-12-31",
+    "direct": "https://bsufiles.drhx.ru/streams/2340621815.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2340621815.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2340621815.torrent",
+    "games": ["other"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2340621815.ass"
   }
 }
