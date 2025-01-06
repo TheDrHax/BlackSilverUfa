@@ -9652,7 +9652,7 @@
   },
   {
     "name": "Crowded. Followed.",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "crowded-followed",
     "streams": [
       { "segment": "1970199475", "subrefs": [
@@ -16421,6 +16421,9 @@
       ] },
       { "segment": "2338857466", "subrefs": [
         { "name": "1 (заново)", "start": 2577 }
+      ] },
+      { "segment": "2345830539", "subrefs": [
+        { "name": "2", "start": 2717 }
       ] }
     ]
   },
