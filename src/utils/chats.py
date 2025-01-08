@@ -38,6 +38,9 @@ def download(stream):
         tcd_config['ssa_style_default'] = stream.subtitles_style.compile()
         tcd.settings.update(tcd_config)
 
+        from tcd.twitch import client
+        client.headers['Client-ID'] = tcd_config['client_id']
+
         try:
             tcd.download(key)
         except Exception as ex:
