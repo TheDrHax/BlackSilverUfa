@@ -8572,6 +8572,9 @@
     "streams": [
       { "segment": "2344984796", "subrefs": [
         { "name": "Limoria", "start": 3872 }
+      ] },
+      { "segment": "2347617783", "subrefs": [
+        { "name": "Banebush (Тварюк)", "start": 13706 }
       ] }
     ]
   },
@@ -8587,6 +8590,10 @@
         { "name": "Dead Mall", "start": 12560 },
         { "name": "DeathOmen (демо)", "start": 13377 },
         { "name": "Cursed Baby", "start": 17226 }
+      ] },
+      { "segment": "2347617783", "subrefs": [
+        { "name": "Writer: Chapter 1", "start": 3156 },
+        { "name": "Hell Dive", "start": 6502 }
       ] }
     ]
   },
@@ -16200,6 +16207,9 @@
     "streams": [
       { "segment": "2344984796", "subrefs": [
         { "name": "1" }
+      ] },
+      { "segment": "2347617783", "subrefs": [
+        { "name": "2" }
       ] }
     ]
   },
