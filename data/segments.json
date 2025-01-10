@@ -266,9 +266,11 @@
     "games": ["dishonored"]
   },
   "001601070": {
-    "youtube": "m-sv_4uZus8", "abs_start": 0, "abs_end": 20291, "duration": 20291,
+    "abs_start": 0, "abs_end": 20290, "duration": 20290,
     "name": "Alien: Isolation (с Дашей) #1",
     "date": "2016-01-07",
+    "direct": "https://bsufiles.drhx.ru/streams/001601070.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001601070.mp4/master.m3u8",
     "games": ["alien-isolation-dw"]
   },
   "001601120": {
@@ -2241,9 +2243,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v260957900.ass"
   },
   "262352362": {
-    "youtube": "9l2yN7oxd14", "official": false, "abs_start": 0, "abs_end": 19026, "duration": 19026,
+    "abs_start": 0, "abs_end": 19025, "duration": 19025,
     "name": "Dark Souls 2: Scholar of the First Sin #2",
     "date": "2018-05-17",
+    "direct": "https://bsufiles.drhx.ru/streams/262352362.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/262352362.mp4/master.m3u8",
     "games": ["ds2-scholar"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v262352362.ass"
   },
@@ -2741,9 +2745,10 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286171438.ass"
   },
   "286989766": {
-    "youtube": "Rultk81cezI", "abs_start": -4, "abs_end": 11536, "duration": 11540,
+    "abs_start": -4, "abs_end": 11535, "duration": 11539,
     "name": "S.T.A.L.K.E.R.: Clear Sky + Mystery #2",
     "date": "2018-07-20",
+    "direct": "https://bsufiles.drhx.ru/streams/286989766.mp4",
     "games": ["stalker-cs"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286989766.ass"
   },
@@ -2915,9 +2920,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293012700.ass"
   },
   "293415850": {
-    "youtube": "vE38irVbcAI", "official": false, "abs_start": 0, "abs_end": 20784, "duration": 20784,
+    "abs_start": 0, "abs_end": 20783, "duration": 20783,
     "name": "Dead Forest / PUSS! / Chasm / Airships: Conquer the Skies / CASE 2: Animatronics Survival #2 / Escape From Tarkov #5",
     "date": "2018-08-05",
+    "direct": "https://bsufiles.drhx.ru/streams/293415850.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/293415850.mp4/master.m3u8",
     "games": ["single-2018", "first-2018", "case-2", "tarkov"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293415850.ass"
   },
@@ -9483,9 +9490,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1142576899.ass"
   },
   "1143525237": {
-    "youtube": "xHG1M4d2WDs", "official": false, "abs_start": 0, "abs_end": 28985, "duration": 28985,
+    "abs_start": 0, "abs_end": 28984, "duration": 28984,
     "name": "Tales of Arise / Life is Strange: True Colors #1 / PlayStation Showcase #2021",
     "date": "2021-09-09",
+    "direct": "https://bsufiles.drhx.ru/streams/1143525237.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1143525237.mp4/master.m3u8",
     "games": ["first-2021", "life-is-strange-3", "ps-showcase"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1143525237.ass",
     "note": "<a href=\"https://youtu.be/E1grG3nfoDI\">Официальная запись</a> сломана (недоступно качество выше 360p)"
