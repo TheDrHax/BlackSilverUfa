@@ -16003,5 +16003,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2348485792.torrent",
     "games": ["first-2025", "banebush", "among-ashes"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2348485792.ass"
+  },
+  "2349362268": {
+    "abs_start": 0, "abs_end": 5807, "duration": 5807,
+    "name": "",
+    "date": "2025-01-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2349362268.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2349362268.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2349362268.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2349362268.ass"
+  },
+  "2349415065": {
+    "abs_start": 0, "abs_end": 12064, "duration": 12064,
+    "name": "",
+    "date": "2025-01-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2349415065.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2349415065.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2349415065.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2349415065.ass"
+  },
+  "2349362268,2349415065": {
+    "abs_start": 0, "abs_end": 17774, "duration": 17774,
+    "name": "Cursed Digicam / Amenti / Among Ashes #2",
+    "date": "2025-01-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2349362268,2349415065.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2349362268,2349415065.mp4/master.m3u8",
+    "offsets": ["0:00", "1:35:10+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2349362268,2349415065.torrent",
+    "games": ["chillas-art", "first-2025", "among-ashes"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2349362268,2349415065+0.ass"
   }
 }

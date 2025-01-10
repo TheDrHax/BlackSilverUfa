@@ -5282,6 +5282,10 @@
       ] },
       { "segment": "2224031390", "subrefs": [
         { "name": "The Bathhouse: Restored Edition", "start": 6404 }
+      ] },
+      { "segment": "2349362268,2349415065", "subrefs": [
+        { "name": "Cursed Digicam", "start": 2192 },
+        { "name": "Cursed Digicam (продолжение)", "start": 5924, "hidden": true }
       ] }
     ]
   },
@@ -8574,6 +8578,9 @@
       ] },
       { "segment": "2348485792", "subrefs": [
         { "name": "Slender: Reborn", "start": 3063 }
+      ] },
+      { "segment": "2349362268,2349415065", "subrefs": [
+        { "name": "Amenti", "start": 5924 }
       ] }
     ]
   },
@@ -8600,6 +8607,9 @@
       ] },
       { "segment": "2348485792", "subrefs": [
         { "name": "1", "start": 8605 }
+      ] },
+      { "segment": "2349362268,2349415065", "subrefs": [
+        { "name": "2", "start": 10843 }
       ] }
     ]
   },
