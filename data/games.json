@@ -737,8 +737,7 @@
         { "name": "Panicore", "start": 12258 }
       ] },
       { "segment": "2190605372", "subrefs": [
-        { "name": "Dungeonborne", "start": 1448 },
-        { "name": "Murky Divers", "start": 17585 }
+        { "name": "Dungeonborne", "start": 1448 }
       ] },
       { "segment": "2193968354", "subrefs": [
         { "name": "Dark and Darker", "start": 2476 }
@@ -753,8 +752,7 @@
         { "name": "InfestStation", "start": 3204 }
       ] },
       { "segment": "2219800754", "subrefs": [
-        { "name": "Shark Siege", "start": 5413 },
-        { "name": "Клеть", "start": 8004 }
+        { "name": "Shark Siege", "start": 5413 }
       ] },
       { "segment": "2227459008", "subrefs": [
         { "name": "Stalcraft: X (с Димами)", "start": 7648 }
@@ -773,6 +771,35 @@
       ] },
       { "segment": "2338009081", "subrefs": [
         { "name": "PICO PARK 2", "start": 8364 }
+      ] },
+      { "segment": "2350342790", "subrefs": [
+        { "name": "Forsaken Frontiers", "start": 13915 }
+      ] }
+    ]
+  },
+  {
+    "name": "Клеть (KLETKA)",
+    "category": "co-op",
+    "id": "kletka",
+    "streams": [
+      { "segment": "2219800754", "subrefs": [
+        { "name": "1 (демо)", "start": 8004 }
+      ] },
+      { "segment": "2350342790", "subrefs": [
+        { "name": "2", "start": 16828 }
+      ] }
+    ]
+  },
+  {
+    "name": "Murky Divers",
+    "category": "co-op",
+    "id": "murky-divers",
+    "streams": [
+      { "segment": "2190605372", "subrefs": [
+        { "name": "1", "start": 17585 }
+      ] },
+      { "segment": "2350342790", "subrefs": [
+        { "name": "2", "start": 8610 }
       ] }
     ]
   },
@@ -8581,6 +8608,9 @@
       ] },
       { "segment": "2349362268,2349415065", "subrefs": [
         { "name": "Amenti", "start": 5924 }
+      ] },
+      { "segment": "2350342790", "subrefs": [
+        { "name": "Mutation", "start": 2766 }
       ] }
     ]
   },
@@ -9543,8 +9573,7 @@
         { "name": "In The Facade We Trust (демо)", "start": 3466 }
       ] },
       { "segment": "2303193751", "subrefs": [
-        { "name": "Newspaper Day", "start": 4056 },
-        { "name": "Догони меня, Виталик! (Take Me, Vitaly)", "start": 7319 }
+        { "name": "Newspaper Day", "start": 4056 }
       ] },
       { "segment": "2313112515", "subrefs": [
         { "name": "Fullbright Presents: Toilet Spiders", "start": 6225 },
@@ -9585,6 +9614,19 @@
         { "name": "Gut Loaded", "start": 14800 },
         { "name": "Demono: Home Alone", "start": 15740 },
         { "name": "Krampen", "start": 16301 }
+      ] }
+    ]
+  },
+  {
+    "name": "Догони меня, Виталик! (Take Me, Vitaly)",
+    "category": "finished",
+    "id": "take-me-vitaly",
+    "streams": [
+      { "segment": "2303193751", "subrefs": [
+        { "name": "1", "start": 7319 }
+      ] },
+      { "segment": "2350342790", "subrefs": [
+        { "name": "2", "start": 3637 }
       ] }
     ]
   },
@@ -9893,6 +9935,9 @@
       ] },
       { "segment": "2264864573", "subrefs": [
         { "name": "14", "start": 17286 }
+      ] },
+      { "segment": "2350342790", "subrefs": [
+        { "name": "15", "start": 4571 }
       ] }
     ]
   },

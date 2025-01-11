@@ -14898,9 +14898,9 @@
   },
   "2190605372": {
     "youtube": "0BKWU7iAmM0", "abs_start": 0, "abs_end": 30582, "duration": 30582,
-    "name": "Dungeonborne / Chained Together #1 / Murky Divers / Lethal Company #13",
+    "name": "Dungeonborne / Chained Together #1 / Murky Divers #1 / Lethal Company #13",
     "date": "2024-07-06",
-    "games": ["co-op", "chained-together", "lethal-company"],
+    "games": ["co-op", "chained-together", "murky-divers", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2190605372.ass"
   },
   "2191494883": {
@@ -15045,9 +15045,9 @@
   },
   "2219800754": {
     "youtube": "GEfhQCMuvcI", "abs_start": 0, "abs_end": 21251, "duration": 21251,
-    "name": "Thank Goodness You're Here #2 / Shark Siege / Клеть / Lethal Company #14",
+    "name": "Thank Goodness You're Here #2 / Shark Siege / Клеть (KLETKA) #1 (демо) / Lethal Company #14",
     "date": "2024-08-09",
-    "games": ["tgyh", "co-op", "lethal-company"],
+    "games": ["tgyh", "co-op", "kletka", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2219800754+0.ass"
   },
   "2220679258": {
@@ -15697,9 +15697,9 @@
   },
   "2303193751": {
     "youtube": "j-bQZFXx8Dg", "abs_start": 0, "abs_end": 21120, "duration": 21120,
-    "name": "Newspaper Day / Догони меня, Виталик! (Take Me, Vitaly) / I'm on Observation Duty - Часть 7 #5",
+    "name": "Newspaper Day / Догони меня, Виталик! (Take Me, Vitaly) #1 / I'm on Observation Duty - Часть 7 #5",
     "date": "2024-11-16",
-    "games": ["single-2024", "observation-duty"],
+    "games": ["single-2024", "take-me-vitaly", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2303193751.ass"
   },
   "2304883064": {
@@ -16032,5 +16032,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2349362268,2349415065.torrent",
     "games": ["chillas-art", "first-2025", "among-ashes"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2349362268,2349415065+0.ass"
+  },
+  "2350342790": {
+    "abs_start": 0, "abs_end": 23946, "duration": 23946,
+    "name": "Mutation / Догони меня, Виталик! (Take Me, Vitaly) #2 / Lucky Tower Ultimate #15 / Murky Divers #2 / Forsaken Frontiers / Клеть (KLETKA) #2",
+    "date": "2025-01-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2350342790.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2350342790.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2350342790.torrent",
+    "games": ["first-2025", "take-me-vitaly", "lucky-tower", "murky-divers", "co-op", "kletka"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2350342790.ass"
   }
 }
