@@ -16054,5 +16054,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2352154839.torrent",
     "games": ["ds3"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2352154839.ass"
+  },
+  "2353895709": {
+    "abs_start": 0, "abs_end": 22591, "duration": 22591,
+    "name": "Dark Souls 3 #4",
+    "date": "2025-01-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2353895709.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2353895709.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2353895709.torrent",
+    "games": ["ds3"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2353895709.ass"
   }
 }
