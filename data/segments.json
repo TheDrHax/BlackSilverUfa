@@ -16024,11 +16024,11 @@
   },
   "2349362268,2349415065": {
     "youtube": "D2Eqws9pQxM", "abs_start": 0, "abs_end": 17775, "duration": 17775,
-    "name": "Cursed Digicam / Amenti / Among Ashes #2",
+    "name": "Cursed Digicam / Amenti #1 / Among Ashes #2",
     "date": "2025-01-10",
     "offsets": ["0:00", "1:35:10+2"],
     "torrent": "https://bsufiles.drhx.ru/streams/2349362268,2349415065.torrent",
-    "games": ["chillas-art", "first-2025", "among-ashes"],
+    "games": ["chillas-art", "amenti", "among-ashes"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2349362268,2349415065+0.ass"
   },
   "2350342790": {
@@ -16062,5 +16062,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2353895709.torrent",
     "games": ["ds3"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2353895709.ass"
+  },
+  "2354817492": {
+    "abs_start": 0, "abs_end": 19072, "duration": 19072,
+    "name": "Amenti #2 / Trapped: Family Vacation / Odyssey to the Frozen Legion (демо)",
+    "date": "2025-01-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2354817492.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2354817492.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2354817492.torrent",
+    "games": ["amenti", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2354817492.ass"
   }
 }
