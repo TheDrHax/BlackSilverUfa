@@ -8612,12 +8612,39 @@
       { "segment": "2351321587", "subrefs": [
         { "name": "Mystic Rest Stop", "start": 2728 },
         { "name": "Klaws", "start": 12717 },
-        { "name": "Locomotive 115", "start": 13782 },
-        { "name": "Undead Realm: Ego", "start": 15839 }
+        { "name": "Locomotive 115", "start": 13782 }
       ] },
       { "segment": "2355689752", "subrefs": [
-        { "name": "Emergency Cleanup Co.", "start": 2686 },
         { "name": "Tyrant's Realm", "start": 5568 }
+      ] },
+      { "segment": "2356647169", "subrefs": [
+        { "name": "The First Berserker: Khazan", "start": 7853 }
+      ] }
+    ]
+  },
+  {
+    "name": "Undead Realm: Ego",
+    "category": "ongoing",
+    "id": "undead-realm-ego",
+    "streams": [
+      { "segment": "2351321587", "subrefs": [
+        { "name": "1", "start": 15839 }
+      ] },
+      { "segment": "2356647169", "subrefs": [
+        { "name": "2", "start": 15337 }
+      ] }
+    ]
+  },
+  {
+    "name": "Emergency Cleanup Co.",
+    "category": "ongoing",
+    "id": "emergency-cleanup",
+    "streams": [
+      { "segment": "2355689752", "subrefs": [
+        { "name": "1", "start": 2686 }
+      ] },
+      { "segment": "2356647169", "subrefs": [
+        { "name": "2", "start": 3514 }
       ] }
     ]
   },

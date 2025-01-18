@@ -16041,10 +16041,10 @@
   },
   "2351321587": {
     "youtube": "8GybRXo9wdw", "abs_start": 0, "abs_end": 19957, "duration": 19957,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #2 / Mystic Rest Stop / Laser Tag Massacre / Klaws / Locomotive 115 / Undead Realm: Ego",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #2 / Mystic Rest Stop / Laser Tag Massacre / Klaws / Locomotive 115 / Undead Realm: Ego #1",
     "date": "2025-01-12",
     "torrent": "https://bsufiles.drhx.ru/streams/2351321587.torrent",
-    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "games": ["horrors-2025", "first-2025", "single-2025", "undead-realm-ego"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2351321587.ass"
   },
   "2352154839": {
@@ -16073,10 +16073,20 @@
   },
   "2355689752": {
     "youtube": "QS9Zs43X-tk", "abs_start": 0, "abs_end": 16817, "duration": 16817,
-    "name": "Emergency Cleanup Co. / Tyrant's Realm / The Paddy Field / Make Good Choices",
+    "name": "Emergency Cleanup Co. #1 / Tyrant's Realm / The Paddy Field / Make Good Choices",
     "date": "2025-01-17",
     "torrent": "https://bsufiles.drhx.ru/streams/2355689752.torrent",
-    "games": ["first-2025", "single-2025"],
+    "games": ["emergency-cleanup", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2355689752+0.ass"
+  },
+  "2356647169": {
+    "abs_start": 0, "abs_end": 19306, "duration": 19306,
+    "name": "Emergency Cleanup Co. #2 / The First Berserker: Khazan / Undead Realm: Ego #2",
+    "date": "2025-01-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2356647169.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2356647169.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2356647169.torrent",
+    "games": ["emergency-cleanup", "first-2025", "undead-realm-ego"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2356647169.ass"
   }
 }
