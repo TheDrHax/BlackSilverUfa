@@ -8619,6 +8619,10 @@
       ] },
       { "segment": "2356647169", "subrefs": [
         { "name": "The First Berserker: Khazan", "start": 7853 }
+      ] },
+      { "segment": "2357631932", "subrefs": [
+        { "name": "Haunting of Joni Evers", "start": 6093 },
+        { "name": "These Darker Tides", "start": 16523 }
       ] }
     ]
   },
@@ -8717,6 +8721,12 @@
       { "segment": "2355689752", "subrefs": [
         { "name": "The Paddy Field", "start": 8685 },
         { "name": "Make Good Choices", "start": 13882 }
+      ] },
+      { "segment": "2357631932", "subrefs": [
+        { "name": "From The Past", "start": 2399 },
+        { "name": "Daemonologie", "start": 8561 },
+        { "name": "For Sale", "start": 11276 },
+        { "name": "The Whitaker's Library", "start": 15172 }
       ] }
     ]
   },
@@ -16348,6 +16358,9 @@
       ] },
       { "segment": "2351321587", "subrefs": [
         { "name": "2" }
+      ] },
+      { "segment": "2357631932", "subrefs": [
+        { "name": "3" }
       ] }
     ]
   },
