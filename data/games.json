@@ -8623,9 +8623,19 @@
       { "segment": "2357631932", "subrefs": [
         { "name": "Haunting of Joni Evers", "start": 6093 },
         { "name": "These Darker Tides", "start": 16523 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Resistance: Fall of Man",
+    "category": "ongoing",
+    "id": "resistance-fom",
+    "streams": [
       { "segment": "2358563275", "subrefs": [
-        { "name": "Resistance: Fall of Man", "start": 929 }
+        { "name": "1", "start": 929 }
+      ] },
+      { "segment": "2359431993", "subrefs": [
+        { "name": "2", "start": 1659 }
       ] }
     ]
   },
