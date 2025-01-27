@@ -5631,6 +5631,9 @@
       ] },
       { "segment": "2334057711", "subrefs": [
         { "name": "Tales Beyond The Tomb: The Farm's Secret", "start": 5702 }
+      ] },
+      { "segment": "2365019673", "subrefs": [
+        { "name": "Tales Beyond The Tomb: The Last Vigil", "start": 6970 }
       ] }
     ]
   },
@@ -8623,6 +8626,9 @@
       { "segment": "2357631932", "subrefs": [
         { "name": "Haunting of Joni Evers", "start": 6093 },
         { "name": "These Darker Tides", "start": 16523 }
+      ] },
+      { "segment": "2365019673", "subrefs": [
+        { "name": "SCP: Fragmented Minds", "start": 14743 }
       ] }
     ]
   },
