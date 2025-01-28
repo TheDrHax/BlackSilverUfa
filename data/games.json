@@ -8159,9 +8159,6 @@
       { "segment": "1942318458", "subrefs": [
         { "name": "Assassin's Creed Mirage", "start": 1153 }
       ] },
-      { "segment": "1944892729", "subrefs": [
-        { "name": "Dreamcore (демо)", "start": 10709 }
-      ] },
       { "segment": "1945778448", "subrefs": [
         { "name": "SCP-479: Shadows of the Mind", "start": 12670 }
       ] },
@@ -8629,6 +8626,23 @@
       ] },
       { "segment": "2365019673", "subrefs": [
         { "name": "SCP: Fragmented Minds", "start": 14743 }
+      ] },
+      { "segment": "2365888651", "subrefs": [
+        { "name": "Order 13", "start": 8861 },
+        { "name": "Laundry Room Dilemma", "start": 16897 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dreamcore",
+    "category": "ongoing",
+    "id": "dreamcore",
+    "streams": [
+      { "segment": "1944892729", "subrefs": [
+        { "name": "Демо", "start": 10709 }
+      ] },
+      { "segment": "2365888651", "subrefs": [
+        { "name": "Релиз", "start": 1913 }
       ] }
     ]
   },
@@ -8746,6 +8760,12 @@
         { "name": "Daemonologie", "start": 8561 },
         { "name": "For Sale", "start": 11276 },
         { "name": "The Whitaker's Library", "start": 15172 }
+      ] },
+      { "segment": "2365888651", "subrefs": [
+        { "name": "Evil Lurks Below (демо)", "start": 8198 },
+        { "name": "The Motel", "start": 10720 },
+        { "name": "Struggling", "start": 14163 },
+        { "name": "Blob", "start": 16051 }
       ] }
     ]
   },
@@ -9765,7 +9785,7 @@
   },
   {
     "name": "Liminalcore",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "liminalcore",
     "streams": [
       { "segment": "2276579699", "subrefs": [
@@ -16380,6 +16400,9 @@
       ] },
       { "segment": "2357631932", "subrefs": [
         { "name": "3" }
+      ] },
+      { "segment": "2365888651", "subrefs": [
+        { "name": "4" }
       ] }
     ]
   },

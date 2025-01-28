@@ -13559,9 +13559,9 @@
   },
   "1944892729": {
     "youtube": "IWjPiwTfA90", "abs_start": 0, "abs_end": 19409, "duration": 19409,
-    "name": "Out of Gas / CHANGO / The Windows Are Gone / A Craft of Mine / Dreamcore (демо) / Tear Factory / Where's My Drink...? / Rusty Barrel / Mr. Lupin",
+    "name": "Out of Gas / CHANGO / The Windows Are Gone / A Craft of Mine / Dreamcore - Демо / Tear Factory / Where's My Drink...? / Rusty Barrel / Mr. Lupin",
     "date": "2023-10-07",
-    "games": ["single-2023", "first-2023"],
+    "games": ["single-2023", "dreamcore"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1944892729.ass"
   },
   "1945778448": {
@@ -16120,5 +16120,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2365019673.torrent",
     "games": ["616-games", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2365019673.ass"
+  },
+  "2365888651": {
+    "abs_start": 0, "abs_end": 20470, "duration": 20470,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #4 / Dreamcore - Релиз / Evil Lurks Below (демо) / Order 13 / The Motel / Struggling / Blob / Laundry Room Dilemma",
+    "date": "2025-01-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2365888651.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2365888651.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2365888651.torrent",
+    "games": ["horrors-2025", "dreamcore", "single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2365888651.ass"
   }
 }
