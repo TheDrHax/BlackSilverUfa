@@ -16128,5 +16128,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2365888651.torrent",
     "games": ["horrors-2025", "dreamcore", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2365888651.ass"
+  },
+  "2366764453": {
+    "abs_start": 0, "abs_end": 27064, "duration": 27064,
+    "name": "Atomic Heart - Enchantment Under the Sea",
+    "date": "2025-01-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2366764453.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2366764453.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2366764453.torrent",
+    "games": ["atomic-heart"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2366764453.ass"
   }
 }
