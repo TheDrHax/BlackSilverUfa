@@ -120,6 +120,15 @@ class Streams(Dict[str, Stream]):
                         if segment.torrent is None:
                             segment.fallbacks['torrent'] = segment.torrent
                             segment.torrent = fallback.url(filename)
+        
+        for stream, vk in fallback.vk.items():
+            if stream not in self:
+                continue
+
+            for segment in self[stream]:
+                if not segment.vk:
+                    segment.fallbacks['vk'] = segment.vk
+                    segment.vk = vk
 
     @property
     def segments(self):

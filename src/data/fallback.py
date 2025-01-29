@@ -23,6 +23,7 @@ class FallbackSource:
     redirects: bool = False
     torrents: bool = False
     hls_proxy_suffix: Union[str, None] = None
+    vk_map: Union[str, None] = None
 
     def __attrs_post_init__(self):
         self._check_cache = dict()
@@ -40,6 +41,17 @@ class FallbackSource:
 
         result = list([link.attrs['href'].split('/')[-1] for link in links])
         return result if len(result) > 0 else None
+
+    @cached_property
+    def vk(self):
+        if not self.vk_map:
+            return {}
+
+        try:
+            res = req.get(self.vk_map, allow_redirects=self.redirects)
+            return res.json()
+        except Exception:
+            return {}
 
     def _check(self, filename):
         if filename in self._check_cache:

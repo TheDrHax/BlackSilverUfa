@@ -154,7 +154,8 @@
     "streams": true,
     "chats": true,
     "redirects": true,
-    "torrents": true
+    "torrents": true,
+    "vk_map": "https://red.drhx.ru/blackufa/vk/segments"
   },
   "blacklist": {
     "users": [
