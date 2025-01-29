@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 import { Rnd } from 'react-rnd';
 import { faCaretSquareLeft, faCaretSquareRight, faCheckCircle, faDownload, faExclamationCircle, faExpand, faMaximize, faShareSquare } from '@fortawesome/free-solid-svg-icons';
-import { faTwitch, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faTwitch, faYoutube, faVk } from '@fortawesome/free-brands-svg-icons';
 import { Data } from '../data';
 import Persist from '../utils/persist';
 import { Chat } from './chat';
@@ -354,6 +354,7 @@ export default class SegmentPlayer extends React.Component {
     const {
       segment: segmentId,
       youtube,
+      vk,
       official,
       torrent,
     } = segment;
@@ -380,7 +381,7 @@ export default class SegmentPlayer extends React.Component {
                 className="me-2"
               >
                 <FAIcon icon={faYoutube} />
-                <span>Youtube</span>
+                <span>YouTube</span>
                 <OverlayTrigger
                   placement="top"
                   overlay={(
@@ -394,6 +395,19 @@ export default class SegmentPlayer extends React.Component {
                     className={official === false ? 'text-warning' : 'text-success'}
                   />
                 </OverlayTrigger>
+              </Button>
+            )}
+
+            {vk && (
+              <Button
+                href={`https://vk.com/video${vk}`}
+                target="blank"
+                variant="dark"
+                size="sm"
+                className="me-2"
+              >
+                <FAIcon icon={faVk} />
+                <span>ВК</span>
               </Button>
             )}
 

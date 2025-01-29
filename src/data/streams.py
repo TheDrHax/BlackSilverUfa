@@ -33,6 +33,7 @@ class Segment:
     note: Union[str, None] = None
     youtube: Union[str, None] = None
     direct: Union[str, None] = None
+    vk: Union[str, None] = None
     hls: Union[str, None] = None
     torrent: Union[str, None] = None
     official: bool = True
@@ -326,11 +327,11 @@ class Segment:
     @join()
     def to_json(self, compiled=False):
         if not compiled:
-            keys = ['youtube', '_offset', 'source_cuts', 'cuts', 'official',
+            keys = ['youtube', 'vk', '_offset', 'source_cuts', 'cuts', 'official',
                     'start', 'end', '_duration', 'force_start']
             multiline_keys = ['direct', 'hls', 'offsets', 'note', 'torrent']
         else:
-            keys = ['youtube', 'official',
+            keys = ['youtube', 'vk', 'official',
                     'abs_start', 'abs_end', 'duration']
             multiline_keys = ['name', 'date', 'direct', 'hls', 'offsets',
                               'cuts', 'torrent', 'games', 'subtitles', 'note']

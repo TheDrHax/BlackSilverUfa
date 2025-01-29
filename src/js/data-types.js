@@ -13,6 +13,7 @@ export const Segment = PropTypes.shape({
 
   youtube: PropTypes.string,
   direct: PropTypes.string,
+  vk: PropTypes.string,
   hls: PropTypes.string,
   torrent: PropTypes.string,
   thumbnail: PropTypes.string,
