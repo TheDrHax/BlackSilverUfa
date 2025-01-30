@@ -23,6 +23,7 @@ export const searchPage = {
   },
   sources: {
     youtube: 'YouTube',
+    vk: 'VK',
     direct: 'Сервер архива',
   },
   streams: {

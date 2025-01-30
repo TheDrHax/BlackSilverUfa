@@ -407,7 +407,7 @@ export default class SegmentPlayer extends React.Component {
                 className="me-2"
               >
                 <FAIcon icon={faVk} />
-                <span>ВК</span>
+                <span>VK</span>
               </Button>
             )}
 
