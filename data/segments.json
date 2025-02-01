@@ -16121,7 +16121,7 @@
   },
   "2365888651": {
     "youtube": "NtUOakjEd1A", "vk": "-28387068_456250610", "abs_start": 0, "abs_end": 20471, "duration": 20471,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #4 / Dreamcore - Релиз / Evil Lurks Below (демо) / Order 13 / The Motel / Struggling (by Aaron Young) / Blob / Laundry Room Dilemma",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #4 / Dreamcore #1 / Evil Lurks Below (демо) / Order 13 / The Motel / Struggling (by Aaron Young) / Blob / Laundry Room Dilemma",
     "date": "2025-01-28",
     "torrent": "https://bsufiles.drhx.ru/streams/2365888651.torrent",
     "games": ["horrors-2025", "dreamcore", "single-2025", "first-2025"],
@@ -16137,10 +16137,20 @@
   },
   "2368538039": {
     "youtube": "Lk0wk25nmL0", "vk": "-28387068_456250613", "abs_start": 0, "abs_end": 20180, "duration": 20180,
-    "name": "Poppy Playtime - Глава 4",
+    "name": "Poppy Playtime - Глава 4 #1",
     "date": "2025-01-31",
     "torrent": "https://bsufiles.drhx.ru/streams/2368538039.torrent",
     "games": ["poppy-playtime"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2368538039.ass"
+  },
+  "2369442712": {
+    "abs_start": 0, "abs_end": 26624, "duration": 26624,
+    "name": "Poppy Playtime - Глава 4 #2 / Dreamcore #2 / Cruel / Lucky Tower Ultimate #16 / The Headliners / Hired 2 Die / Lethal Company #23",
+    "date": "2025-02-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2369442712.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2369442712.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2369442712.torrent",
+    "games": ["poppy-playtime", "dreamcore", "first-2025", "lucky-tower", "co-op", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2369442712.ass"
   }
 }
