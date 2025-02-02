@@ -8646,6 +8646,10 @@
       ] },
       { "segment": "2369442712", "subrefs": [
         { "name": "Cruel", "start": 10371 }
+      ] },
+      { "segment": "2370447160", "subrefs": [
+        { "name": "Back Rooms: The Old Watcher", "start": 11197 },
+        { "name": "Satan's Dungeon", "start": 15310 }
       ] }
     ]
   },
@@ -8785,6 +8789,11 @@
         { "name": "The Motel", "start": 10720 },
         { "name": "Struggling (by Aaron Young)", "start": 14163 },
         { "name": "Blob", "start": 16051 }
+      ] },
+      { "segment": "2370447160", "subrefs": [
+        { "name": "Kiosk (Киоск)", "start": 2251 },
+        { "name": "Greed Stays Home", "start": 11409 },
+        { "name": "Mr. Meat", "start": 16114 }
       ] }
     ]
   },
@@ -16428,6 +16437,9 @@
       ] },
       { "segment": "2365888651", "subrefs": [
         { "name": "4" }
+      ] },
+      { "segment": "2370447160", "subrefs": [
+        { "name": "5" }
       ] }
     ]
   },
