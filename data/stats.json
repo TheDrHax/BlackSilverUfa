@@ -6,18 +6,18 @@
     },
     "segments": {
       "total": 2147,
-      "official": 1396,
+      "official": 1395,
       "unofficial": 736,
-      "missing": 15
+      "missing": 16
     },
     "messages": 31656988,
     "content_id": {
-      "streams": 240,
-      "claims": 907
+      "streams": 242,
+      "claims": 909
     }
   },
   "durations": {
     "streams": 40903873,
-    "segments": 39663247
+    "segments": 39663246
   }
 }
