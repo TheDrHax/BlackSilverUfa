@@ -8650,6 +8650,9 @@
       { "segment": "2370447160", "subrefs": [
         { "name": "Back Rooms: The Old Watcher", "start": 11197 },
         { "name": "Satan's Dungeon", "start": 15310 }
+      ] },
+      { "segment": "2375686253", "subrefs": [
+        { "name": "Static Dread", "start": 11094 }
       ] }
     ]
   },
@@ -8794,6 +8797,9 @@
         { "name": "Kiosk (Киоск)", "start": 2251 },
         { "name": "Greed Stays Home", "start": 11409 },
         { "name": "Mr. Meat", "start": 16114 }
+      ] },
+      { "segment": "2375686253", "subrefs": [
+        { "name": "Dream Cage", "start": 4367 }
       ] }
     ]
   },
