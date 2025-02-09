@@ -16192,5 +16192,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2375686253.torrent",
     "games": ["single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2375686253.ass"
+  },
+  "2376629644": {
+    "abs_start": 0, "abs_end": 16949, "duration": 16949,
+    "name": "The Pink Panther: Hocus Pokus Pink (Розовая Пантера: Фокус-Покус)",
+    "date": "2025-02-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2376629644.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2376629644.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2376629644.torrent",
+    "games": ["single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2376629644.ass"
   }
 }
