@@ -16200,5 +16200,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2376629644.torrent",
     "games": ["single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2376629644.ass"
+  },
+  "2377462530": {
+    "abs_start": 0, "abs_end": 19188, "duration": 19188,
+    "name": "Alien: Isolation (мод AlienS IsolatioN) #1 (заново, ещё сложнее)",
+    "date": "2025-02-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2377462530.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2377462530.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2377462530.torrent",
+    "games": ["aliens-isolation"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2377462530.ass"
   }
 }
