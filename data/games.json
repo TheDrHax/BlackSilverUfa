@@ -8880,7 +8880,7 @@
   },
   {
     "name": "Hi! These Are Your Eyeballs",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "htaye",
     "streams": [
       { "segment": "2276579699", "subrefs": [
@@ -11598,6 +11598,9 @@
       ] },
       { "segment": "2377462530", "subrefs": [
         { "name": "1 (заново, ещё сложнее)", "start": 1968 }
+      ] },
+      { "segment": "2378309516", "subrefs": [
+        { "name": "2", "start": 2078 }
       ] }
     ]
   },
