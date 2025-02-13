@@ -16216,5 +16216,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2378309516.torrent",
     "games": ["aliens-isolation"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2378309516.ass"
+  },
+  "2380042056": {
+    "abs_start": 0, "abs_end": 18292, "duration": 18292,
+    "name": "State of Play - Февраль 2025 (обзор) / Twisted Tower (демо) / Sancticide (демо) / Slender Threads",
+    "date": "2025-02-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2380042056.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2380042056.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2380042056.torrent",
+    "games": ["sony-sop", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2380042056.ass"
   }
 }

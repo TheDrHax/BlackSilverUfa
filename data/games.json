@@ -3417,6 +3417,9 @@
       ] },
       { "segment": "2049365981", "subrefs": [
         { "name": "Январь 2024", "start": 1523 }
+      ] },
+      { "segment": "2380042056", "subrefs": [
+        { "name": "Февраль 2025 (обзор)", "start": 2903 }
       ] }
     ]
   },
@@ -8653,6 +8656,11 @@
       ] },
       { "segment": "2375686253", "subrefs": [
         { "name": "Static Dread", "start": 11094 }
+      ] },
+      { "segment": "2380042056", "subrefs": [
+        { "name": "Twisted Tower (демо)", "start": 9045 },
+        { "name": "Sancticide (демо)", "start": 11463 },
+        { "name": "Slender Threads", "start": 14986 }
       ] }
     ]
   },
