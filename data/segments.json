@@ -8102,9 +8102,9 @@
   },
   "905895866": {
     "youtube": "iwZuEXPMa5c", "official": false, "abs_start": 0, "abs_end": 21897, "duration": 21897,
-    "name": "Forgotten Tunnels - Episode 3 / Potentia (демо) / Graven - Демо / Narita Boy (демо) / Evil Inside - Демо / Minute of Islands (демо) / Escape (демо) / Slender Threads (демо) / Tasomachi (демо)",
+    "name": "Forgotten Tunnels - Episode 3 / Potentia (демо) / Graven - Демо / Narita Boy (демо) / Evil Inside - Демо / Minute of Islands (демо) / Escape (демо) / Slender Threads - Демо / Tasomachi (демо)",
     "date": "2021-02-08",
-    "games": ["forgotten-tunnels", "first-2021", "graven", "single-2021", "evil-inside"],
+    "games": ["forgotten-tunnels", "first-2021", "graven", "single-2021", "evil-inside", "slender-threads"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v905895866.ass"
   },
   "907145168": {
@@ -16219,10 +16219,20 @@
   },
   "2380042056": {
     "youtube": "hRH7zyqWeOc", "vk": "-28387068_456250628", "abs_start": 0, "abs_end": 18293, "duration": 18293,
-    "name": "State of Play - Февраль 2025 (обзор) / Twisted Tower (демо) / Sancticide (демо) / Slender Threads",
+    "name": "State of Play - Февраль 2025 (обзор) / Twisted Tower (демо) / Sancticide (демо) / Slender Threads - Релиз",
     "date": "2025-02-13",
     "torrent": "https://bsufiles.drhx.ru/streams/2380042056.torrent",
-    "games": ["sony-sop", "first-2025"],
+    "games": ["sony-sop", "first-2025", "slender-threads"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2380042056.ass"
+  },
+  "2380835608": {
+    "abs_start": 0, "abs_end": 23575, "duration": 23575,
+    "name": "Elden Ring #24 (Nightreign, network test) / PowerWash Simulator / Avowed",
+    "date": "2025-02-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2380835608.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2380835608.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2380835608.torrent",
+    "games": ["elden-ring", "co-op", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2380835608.ass"
   }
 }

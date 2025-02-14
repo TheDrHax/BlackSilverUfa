@@ -778,6 +778,9 @@
       { "segment": "2369442712", "subrefs": [
         { "name": "The Headliners", "start": 13557 },
         { "name": "Hired 2 Die", "start": 19151 }
+      ] },
+      { "segment": "2380835608", "subrefs": [
+        { "name": "PowerWash Simulator", "start": 4369 }
       ] }
     ]
   },
@@ -7388,6 +7391,19 @@
     ]
   },
   {
+    "name": "Slender Threads",
+    "category": "ongoing",
+    "id": "slender-threads",
+    "streams": [
+      { "segment": "905895866", "subrefs": [
+        { "name": "Демо", "start": 20460 }
+      ] },
+      { "segment": "2380042056", "subrefs": [
+        { "name": "Релиз", "start": 14986 }
+      ] }
+    ]
+  },
+  {
     "name": "Первый взгляд 2021",
     "category": "first",
     "type": "list",
@@ -7413,7 +7429,6 @@
         { "name": "Potentia (демо)", "start": 6713 },
         { "name": "Minute of Islands (демо)", "start": 17465 },
         { "name": "Escape (демо)", "start": 20143 },
-        { "name": "Slender Threads (демо)", "start": 20460 },
         { "name": "Tasomachi (демо)", "start": 20938 }
       ] },
       { "segment": "916293705", "subrefs": [
@@ -8659,8 +8674,10 @@
       ] },
       { "segment": "2380042056", "subrefs": [
         { "name": "Twisted Tower (демо)", "start": 9045 },
-        { "name": "Sancticide (демо)", "start": 11463 },
-        { "name": "Slender Threads", "start": 14986 }
+        { "name": "Sancticide (демо)", "start": 11463 }
+      ] },
+      { "segment": "2380835608", "subrefs": [
+        { "name": "Avowed", "start": 18079 }
       ] }
     ]
   },
@@ -12204,6 +12221,9 @@
       ] },
       { "segment": "2183779952", "subrefs": [
         { "name": "23 (Shadow of Erdtree #7)", "start": 634 }
+      ] },
+      { "segment": "2380835608", "subrefs": [
+        { "name": "24 (Nightreign, network test)", "start": 1846 }
       ] }
     ]
   },
