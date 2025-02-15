@@ -16227,10 +16227,20 @@
   },
   "2380835608": {
     "youtube": "Zxa4Q57R2PM", "vk": "-28387068_456250629", "abs_start": 0, "abs_end": 23575, "duration": 23575,
-    "name": "Elden Ring #24 (Nightreign, network test) / PowerWash Simulator / Avowed",
+    "name": "Elden Ring #24 (Nightreign, network test #1) / PowerWash Simulator / Avowed",
     "date": "2025-02-14",
     "torrent": "https://bsufiles.drhx.ru/streams/2380835608.torrent",
     "games": ["elden-ring", "co-op", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2380835608.ass"
+  },
+  "2381722688": {
+    "abs_start": 0, "abs_end": 31383, "duration": 31383,
+    "name": "Elden Ring #25 (Nightreign, network test #2) / Lucky Tower Ultimate #17 / Treasure Hunters / Emissary Zero / Pit of Goblin / Biped 2 (демо)",
+    "date": "2025-02-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2381722688.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2381722688.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2381722688.torrent",
+    "games": ["elden-ring", "lucky-tower", "co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2381722688.ass"
   }
 }

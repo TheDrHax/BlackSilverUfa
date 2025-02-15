@@ -781,6 +781,12 @@
       ] },
       { "segment": "2380835608", "subrefs": [
         { "name": "PowerWash Simulator", "start": 4369 }
+      ] },
+      { "segment": "2381722688", "subrefs": [
+        { "name": "Treasure Hunters", "start": 15083 },
+        { "name": "Emissary Zero", "start": 18390 },
+        { "name": "Pit of Goblin", "start": 21720 },
+        { "name": "Biped 2 (демо)", "start": 24533 }
       ] }
     ]
   },
@@ -10110,6 +10116,9 @@
       ] },
       { "segment": "2369442712", "subrefs": [
         { "name": "16", "start": 11010 }
+      ] },
+      { "segment": "2381722688", "subrefs": [
+        { "name": "17", "start": 11959 }
       ] }
     ]
   },
@@ -12223,7 +12232,10 @@
         { "name": "23 (Shadow of Erdtree #7)", "start": 634 }
       ] },
       { "segment": "2380835608", "subrefs": [
-        { "name": "24 (Nightreign, network test)", "start": 1846 }
+        { "name": "24 (Nightreign, network test #1)", "start": 1846 }
+      ] },
+      { "segment": "2381722688", "subrefs": [
+        { "name": "25 (Nightreign, network test #2)", "start": 787 }
       ] }
     ]
   },
