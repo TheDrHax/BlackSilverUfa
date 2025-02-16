@@ -16240,5 +16240,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2381722688.torrent",
     "games": ["elden-ring", "lucky-tower", "co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2381722688.ass"
+  },
+  "2382739461": {
+    "abs_start": 0, "abs_end": 18923, "duration": 18923,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #6 / Expedition to the Backrooms / Bad Cheese (демо) / Who am I? / Paranormal Night Shift / Whale Flesh / Benny Bash (демо)",
+    "date": "2025-02-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2382739461.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2382739461.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2382739461.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2382739461.ass"
   }
 }
