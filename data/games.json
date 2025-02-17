@@ -8688,6 +8688,9 @@
       { "segment": "2382739461", "subrefs": [
         { "name": "Expedition to the Backrooms", "start": 3270 },
         { "name": "Paranormal Night Shift", "start": 11062 }
+      ] },
+      { "segment": "2383640509", "subrefs": [
+        { "name": "Panelka", "start": 14325 }
       ] }
     ]
   },
@@ -8844,6 +8847,10 @@
         { "name": "Who am I?", "start": 7403 },
         { "name": "Whale Flesh", "start": 14231 },
         { "name": "Benny Bash (демо)", "start": 16687 }
+      ] },
+      { "segment": "2383640509", "subrefs": [
+        { "name": "A Game About Digging A Hole", "start": 1529 },
+        { "name": "Like a Dragon: Pirate Yakuza in Hawaii (демо)", "start": 9588 }
       ] }
     ]
   },
