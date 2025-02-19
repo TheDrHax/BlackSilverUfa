@@ -1638,6 +1638,9 @@
       ] },
       { "segment": "2338009081", "subrefs": [
         { "name": "7", "start": 23120 }
+      ] },
+      { "segment": "2385381606", "subrefs": [
+        { "name": "8", "start": 23029 }
       ] }
     ]
   },
@@ -2738,6 +2741,9 @@
       ] },
       { "segment": "560235613", "subrefs": [
         { "name": "16", "start": 7768 }
+      ] },
+      { "segment": "2385381606", "subrefs": [
+        { "name": "17", "start": 11814 }
       ] }
     ]
   },
@@ -8686,11 +8692,26 @@
         { "name": "Avowed", "start": 18079 }
       ] },
       { "segment": "2382739461", "subrefs": [
-        { "name": "Expedition to the Backrooms", "start": 3270 },
-        { "name": "Paranormal Night Shift", "start": 11062 }
+        { "name": "Expedition to the Backrooms", "start": 3270 }
       ] },
       { "segment": "2383640509", "subrefs": [
         { "name": "Panelka", "start": 14325 }
+      ] },
+      { "segment": "2385381606", "subrefs": [
+        { "name": "Jump King Quest", "start": 4577 }
+      ] }
+    ]
+  },
+  {
+    "name": "Paranormal Night Shift",
+    "category": "ongoing",
+    "id": "par-night-shift",
+    "streams": [
+      { "segment": "2382739461", "subrefs": [
+        { "name": "1", "start": 11062 }
+      ] },
+      { "segment": "2385381606", "subrefs": [
+        { "name": "2", "start": 9249 }
       ] }
     ]
   },
@@ -8851,6 +8872,9 @@
       { "segment": "2383640509", "subrefs": [
         { "name": "A Game About Digging A Hole", "start": 1529 },
         { "name": "Like a Dragon: Pirate Yakuza in Hawaii (демо)", "start": 9588 }
+      ] },
+      { "segment": "2385381606", "subrefs": [
+        { "name": "Acts of Blood (демо)", "start": 2432 }
       ] }
     ]
   },
