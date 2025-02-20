@@ -5483,9 +5483,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v497190114.ass"
   },
   "497590135": {
-    "youtube": "YKEDcG9CUY0", "official": false, "abs_start": 0, "abs_end": 21198, "duration": 21198,
+    "abs_start": 0, "abs_end": 21198, "duration": 21198,
     "name": "Mafia: City of Lost Heaven #3",
     "date": "2019-10-21",
+    "direct": "https://bsufiles.drhx.ru/streams/497590135.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/497590135.mp4/master.m3u8",
     "games": ["mafia"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v497590135.ass"
   },
@@ -8566,9 +8568,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v989503848.ass"
   },
   "990810001": {
-    "youtube": "G97hojMszI0", "official": false, "abs_start": 0, "abs_end": 20603, "duration": 20603,
+    "abs_start": 0, "abs_end": 20602, "duration": 20602,
     "name": "Зайчик (Tiny Bunny) - Эпизод 1 / Enlisted #2",
     "date": "2021-04-17",
+    "direct": "https://bsufiles.drhx.ru/streams/990810001.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/990810001.mp4/master.m3u8",
     "games": ["tiny-bunny", "enlisted"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v990810001.ass"
   },
@@ -8580,9 +8584,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v992035730.ass"
   },
   "995413784": {
-    "youtube": "JmOSv7LJXPo", "official": false, "abs_start": 0, "abs_end": 26402, "duration": 26402,
+    "abs_start": 0, "abs_end": 26402, "duration": 26402,
     "name": "Зайчик (Tiny Bunny) - Эпизод 2 / Enlisted #3",
     "date": "2021-04-21",
+    "direct": "https://bsufiles.drhx.ru/streams/995413784.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/995413784.mp4/master.m3u8",
     "games": ["tiny-bunny", "enlisted"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v995413784.ass"
   },
@@ -10230,9 +10236,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1253695802.ass"
   },
   "1253678202,1253695802": {
-    "youtube": "aMWCts8TxPE", "abs_start": 0, "abs_end": 22421, "duration": 22421,
+    "abs_start": 0, "abs_end": 22420, "duration": 22420,
     "name": "Зайчик (Tiny Bunny) - Эпизод 3 / Шорох (Scratches: Director's Cut) #1",
     "date": "2022-01-05",
+    "direct": "https://bsufiles.drhx.ru/streams/1253678202,1253695802.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1253678202,1253695802.mp4/master.m3u8",
     "offsets": ["0:00", "29:22"],
     "games": ["tiny-bunny", "scratches"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v1253678202,1253695802+0.ass"
@@ -12832,9 +12840,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1834110105.ass"
   },
   "1833989886,1834110105": {
-    "youtube": "k4pxypAzhdk", "abs_start": 0, "abs_end": 19944, "duration": 19944,
+    "abs_start": 0, "abs_end": 19944, "duration": 19944,
     "name": "Зайчик (Tiny Bunny) - Эпизод 4 / MyHouse.wad / Stasis: Bone Totem - Релиз",
     "date": "2023-05-31",
+    "direct": "https://bsufiles.drhx.ru/streams/1833989886,1834110105.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1833989886,1834110105.mp4/master.m3u8",
     "offsets": ["0:00", "3:25:07"],
     "games": ["tiny-bunny", "single-2023", "stasis-bt"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v1833989886,1834110105+0.ass"
