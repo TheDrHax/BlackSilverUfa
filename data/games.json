@@ -8699,6 +8699,10 @@
       ] },
       { "segment": "2385381606", "subrefs": [
         { "name": "Jump King Quest", "start": 4577 }
+      ] },
+      { "segment": "2386237387", "subrefs": [
+        { "name": "Breathedge 2 (демо)", "start": 1530 },
+        { "name": "M.I.N.S.K. (демо)", "start": 12354 }
       ] }
     ]
   },
@@ -10160,6 +10164,9 @@
       ] },
       { "segment": "2381722688", "subrefs": [
         { "name": "17", "start": 11959 }
+      ] },
+      { "segment": "2386237387", "subrefs": [
+        { "name": "18", "start": 13739 }
       ] }
     ]
   },
