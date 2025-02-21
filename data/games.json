@@ -8703,6 +8703,12 @@
       { "segment": "2386237387", "subrefs": [
         { "name": "Breathedge 2 (демо)", "start": 1530 },
         { "name": "M.I.N.S.K. (демо)", "start": 12354 }
+      ] },
+      { "segment": "2387156230", "subrefs": [
+        { "name": "Soulframe (демо)", "start": 4792 },
+        { "name": "Killing Floor III (демо)", "start": 7552 },
+        { "name": "Deepest Trench", "start": 10548 },
+        { "name": "Beholder: Conductor (демо)", "start": 15541 }
       ] }
     ]
   },
@@ -8879,6 +8885,10 @@
       ] },
       { "segment": "2385381606", "subrefs": [
         { "name": "Acts of Blood (демо)", "start": 2432 }
+      ] },
+      { "segment": "2387156230", "subrefs": [
+        { "name": "Dune: Awakening (демо)", "start": 2752 },
+        { "name": "Radiolight (демо)", "start": 11944 }
       ] }
     ]
   },
