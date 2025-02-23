@@ -8709,6 +8709,10 @@
         { "name": "Killing Floor III (демо)", "start": 7552 },
         { "name": "Deepest Trench", "start": 10548 },
         { "name": "Beholder: Conductor (демо)", "start": 15541 }
+      ] },
+      { "segment": "2389049577", "subrefs": [
+        { "name": "Suffocate", "start": 3402 },
+        { "name": "The Unholy Priest", "start": 15604 }
       ] }
     ]
   },
@@ -8889,6 +8893,11 @@
       { "segment": "2387156230", "subrefs": [
         { "name": "Dune: Awakening (демо)", "start": 2752 },
         { "name": "Radiolight (демо)", "start": 11944 }
+      ] },
+      { "segment": "2389049577", "subrefs": [
+        { "name": "Backrooms Level X (демо)", "start": 1522 },
+        { "name": "Baptiste (демо)", "start": 2064 },
+        { "name": "Unforgotten: Ordinance", "start": 11521 }
       ] }
     ]
   },
@@ -9639,7 +9648,6 @@
       ] },
       { "segment": "2173541595", "subrefs": [
         { "name": "[Nightmare Files] Clap Clap", "start": 2863 },
-        { "name": "Bite Night", "start": 7589 },
         { "name": "The Crawler", "start": 10376 },
         { "name": "Don't Let Her In", "start": 11411 },
         { "name": "Mbembe Radio", "start": 15069 }
@@ -9781,7 +9789,6 @@
       { "segment": "2291735052", "subrefs": [
         { "name": "Chorus of Carcosa (демо)", "start": 2994 },
         { "name": "Level Headed", "start": 4833 },
-        { "name": "Invasion of The Halloween Fiends", "start": 5967 },
         { "name": "Blind Exposure", "start": 9823 },
         { "name": "Night Reception", "start": 16264 }
       ] },
@@ -9844,6 +9851,23 @@
         { "name": "Gut Loaded", "start": 14800 },
         { "name": "Demono: Home Alone", "start": 15740 },
         { "name": "Krampen", "start": 16301 }
+      ] }
+    ]
+  },
+  {
+    "name": "MyGrandfather Games",
+    "category": "finished",
+    "type": "list",
+    "id": "mgf-games",
+    "streams": [
+      { "segment": "2173541595", "subrefs": [
+        { "name": "Bite Night", "start": 7589 }
+      ] },
+      { "segment": "2291735052", "subrefs": [
+        { "name": "Invasion of The Halloween Fiends", "start": 5967 }
+      ] },
+      { "segment": "2389049577", "subrefs": [
+        { "name": "Hell of a Birthday", "start": 7216 }
       ] }
     ]
   },
@@ -16556,6 +16580,9 @@
       ] },
       { "segment": "2382739461", "subrefs": [
         { "name": "6" }
+      ] },
+      { "segment": "2389049577", "subrefs": [
+        { "name": "7" }
       ] }
     ]
   },
