@@ -7207,9 +7207,6 @@
       { "segment": "510472726", "subrefs": [
         { "name": "Shenmue III", "start": 11995 }
       ] },
-      { "segment": "521336731", "subrefs": [
-        { "name": "Gothic - Playable Teaser" }
-      ] },
       { "segment": "524865260", "subrefs": [
         { "name": "The Paperman", "start": 10150 }
       ] }
@@ -8713,6 +8710,25 @@
       { "segment": "2389049577", "subrefs": [
         { "name": "Suffocate", "start": 3402 },
         { "name": "The Unholy Priest", "start": 15604 }
+      ] },
+      { "segment": "2389893992", "subrefs": [
+        { "name": "Chernobylite 2: Exclusion Zone (демо)", "start": 2744 },
+        { "name": "Farm Renovator (демо)", "start": 7576 },
+        { "name": "Idea Fix (демо)", "start": 11027 },
+        { "name": "Solarpunk", "start": 18484 }
+      ] }
+    ]
+  },
+  {
+    "name": "Gothic 1 Remake",
+    "category": "ongoing",
+    "id": "gothic-1-remake",
+    "streams": [
+      { "segment": "521336731", "subrefs": [
+        { "name": "Playable Teaser", "start": 458 }
+      ] },
+      { "segment": "2389893992", "subrefs": [
+        { "name": "Демо", "start": 14593 }
       ] }
     ]
   },
@@ -8898,6 +8914,9 @@
         { "name": "Backrooms Level X (демо)", "start": 1522 },
         { "name": "Baptiste (демо)", "start": 2064 },
         { "name": "Unforgotten: Ordinance", "start": 11521 }
+      ] },
+      { "segment": "2389893992", "subrefs": [
+        { "name": "Stygian: Outer Gods (демо)", "start": 9252 }
       ] }
     ]
   },
