@@ -8716,6 +8716,12 @@
         { "name": "Farm Renovator (демо)", "start": 7576 },
         { "name": "Idea Fix (демо)", "start": 11027 },
         { "name": "Solarpunk", "start": 18484 }
+      ] },
+      { "segment": "2390754958", "subrefs": [
+        { "name": "Total Chaos (демо)", "start": 1790 },
+        { "name": "The 18th Attic (демо)", "start": 9758 },
+        { "name": "The Northern Path (Северный путь) (демо)", "start": 10775 },
+        { "name": "We Took That Trip (демо)", "start": 14106 }
       ] }
     ]
   },
@@ -8917,6 +8923,11 @@
       ] },
       { "segment": "2389893992", "subrefs": [
         { "name": "Stygian: Outer Gods (демо)", "start": 9252 }
+      ] },
+      { "segment": "2390754958", "subrefs": [
+        { "name": "RoadCraft (демо)", "start": 6062 },
+        { "name": "Salvage Protocol (демо)", "start": 12817 },
+        { "name": "Neverlooted Dungeon (демо)", "start": 15324 }
       ] }
     ]
   },

@@ -16308,5 +16308,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2389893992.torrent",
     "games": ["first-2025", "single-2025", "gothic-1-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2389893992.ass"
+  },
+  "2390754958": {
+    "abs_start": 0, "abs_end": 20192, "duration": 20192,
+    "name": "Total Chaos (демо) / RoadCraft (демо) / The 18th Attic (демо) / The Northern Path (Северный путь) (демо) / Salvage Protocol (демо) / We Took That Trip (демо) / Neverlooted Dungeon (демо)",
+    "date": "2025-02-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2390754958.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2390754958.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2390754958.torrent",
+    "games": ["first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2390754958.ass"
   }
 }
