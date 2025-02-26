@@ -3370,9 +3370,9 @@
   },
   "332769459": {
     "youtube": "UYIkl01VAx4", "official": false, "abs_start": 0, "abs_end": 23714, "duration": 23714,
-    "name": "Total Chaos / Overkill's Walking Dead #2",
+    "name": "Total Chaos - Оригинальный мод для Doom 2 / Overkill's Walking Dead #2",
     "date": "2018-11-07",
-    "games": ["first-2018", "overkill-wd"],
+    "games": ["total-chaos", "overkill-wd"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v332769459.ass",
     "note": "<a href=\"https://youtu.be/YHhPfXiV1nA\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -16309,10 +16309,20 @@
   },
   "2390754958": {
     "youtube": "ZDWTQPQz-XM", "vk": "-28387068_456250645", "abs_start": 0, "abs_end": 20192, "duration": 20192,
-    "name": "Total Chaos (демо) / RoadCraft (демо) / The 18th Attic (демо) / The Northern Path (Северный путь) (демо) / Salvage Protocol (демо) / We Took That Trip (демо) / Neverlooted Dungeon (демо)",
+    "name": "Total Chaos - Демо / RoadCraft (демо) / The 18th Attic (демо) / The Northern Path (Северный путь) (демо) / Salvage Protocol (демо) / We Took That Trip (демо) / Neverlooted Dungeon (демо)",
     "date": "2025-02-25",
     "torrent": "https://bsufiles.drhx.ru/streams/2390754958.torrent",
-    "games": ["first-2025", "single-2025"],
+    "games": ["total-chaos", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2390754958.ass"
+  },
+  "2391565194": {
+    "abs_start": 0, "abs_end": 22723, "duration": 22723,
+    "name": "Arctic Awakening (демо) / Ruffy and the Riverside (демо) / Kryva Kora (демо) / Truck Mechanic: Dangerous Paths (демо) / The Bench (демо) / Do No Harm (демо) / Anoxia Station (демо)",
+    "date": "2025-02-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2391565194.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2391565194.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2391565194.torrent",
+    "games": ["single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2391565194.ass"
   }
 }

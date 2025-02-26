@@ -7042,9 +7042,6 @@
       { "segment": "326381815", "subrefs": [
         { "name": "Thronebreaker: The Witcher Tales" }
       ] },
-      { "segment": "332769459", "subrefs": [
-        { "name": "Total Chaos" }
-      ] },
       { "segment": "337051811", "subrefs": [
         { "name": "Pokemon: Let's Go, Pikachu!" }
       ] },
@@ -8718,10 +8715,29 @@
         { "name": "Solarpunk", "start": 18484 }
       ] },
       { "segment": "2390754958", "subrefs": [
-        { "name": "Total Chaos (демо)", "start": 1790 },
         { "name": "The 18th Attic (демо)", "start": 9758 },
         { "name": "The Northern Path (Северный путь) (демо)", "start": 10775 },
         { "name": "We Took That Trip (демо)", "start": 14106 }
+      ] },
+      { "segment": "2391565194", "subrefs": [
+        { "name": "Ruffy and the Riverside (демо)", "start": 5954 },
+        { "name": "Kryva Kora (демо)", "start": 8011 },
+        { "name": "Truck Mechanic: Dangerous Paths (демо)", "start": 10594 },
+        { "name": "Do No Harm (демо)", "start": 16734 },
+        { "name": "Anoxia Station (демо)", "start": 19920 }
+      ] }
+    ]
+  },
+  {
+    "name": "Total Chaos",
+    "category": "ongoing",
+    "id": "total-chaos",
+    "streams": [
+      { "segment": "332769459", "subrefs": [
+        { "name": "Оригинальный мод для Doom 2", "start": 1525 }
+      ] },
+      { "segment": "2390754958", "subrefs": [
+        { "name": "Демо", "start": 1790 }
       ] }
     ]
   },
@@ -8928,6 +8944,10 @@
         { "name": "RoadCraft (демо)", "start": 6062 },
         { "name": "Salvage Protocol (демо)", "start": 12817 },
         { "name": "Neverlooted Dungeon (демо)", "start": 15324 }
+      ] },
+      { "segment": "2391565194", "subrefs": [
+        { "name": "Arctic Awakening (демо)", "start": 2138 },
+        { "name": "The Bench (демо)", "start": 13103 }
       ] }
     ]
   },
