@@ -346,3 +346,9 @@ class Timecodes(SortedKeyList):
                 result[str(t)] = t.name
 
         return result
+
+    def __str__(self):
+        return '[' + ', '.join(str(t) for t in self) + ']'
+    
+    def __repr__(self):
+        return self.__str__()
