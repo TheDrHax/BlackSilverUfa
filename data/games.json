@@ -8603,7 +8603,6 @@
         { "name": "Connection: The Nightmare Within", "start": 10455 }
       ] },
       { "segment": "2313112515", "subrefs": [
-        { "name": "Machine", "start": 13589 },
         {
           "name": "UNHEIM", "start": 13943
         }
@@ -8711,7 +8710,6 @@
       { "segment": "2389893992", "subrefs": [
         { "name": "Chernobylite 2: Exclusion Zone (демо)", "start": 2744 },
         { "name": "Farm Renovator (демо)", "start": 7576 },
-        { "name": "Idea Fix (демо)", "start": 11027 },
         { "name": "Solarpunk", "start": 18484 }
       ] },
       { "segment": "2390754958", "subrefs": [
@@ -16128,6 +16126,19 @@
       ] },
       { "segment": "351262416", "subrefs": [
         { "name": "3", "start": 12886 }
+      ] }
+    ]
+  },
+  {
+    "name": "Idea Fix",
+    "category": "ongoing",
+    "id": "idea-fix",
+    "streams": [
+      { "segment": "2313112515", "subrefs": [
+        { "name": "1 (демо)", "start": 13589 }
+      ] },
+      { "segment": "2389893992", "subrefs": [
+        { "name": "2 (демо)", "start": 11027 }
       ] }
     ]
   },
