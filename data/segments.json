@@ -5947,9 +5947,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v538458255.ass"
   },
   "542106142": {
-    "youtube": "CIPziTuzFKk", "official": false, "abs_start": 0, "abs_end": 21031, "duration": 21031,
+    "abs_start": 0, "abs_end": 21031, "duration": 21031,
     "name": "Grand Theft Auto: San Andreas #6",
     "date": "2020-01-26",
+    "direct": "https://bsufiles.drhx.ru/streams/542106142.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/542106142.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v542106142.ass"
   },
@@ -6103,9 +6105,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v553926728.ass"
   },
   "554432443": {
-    "youtube": "g4jLYPi6Jxs", "official": false, "abs_start": 0, "abs_end": 21815, "duration": 21815,
+    "abs_start": 0, "abs_end": 21814, "duration": 21814,
     "name": "Grand Theft Auto: San Andreas #9",
     "date": "2020-02-19",
+    "direct": "https://bsufiles.drhx.ru/streams/554432443.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/554432443.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v554432443.ass"
   },
