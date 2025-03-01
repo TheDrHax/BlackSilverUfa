@@ -49,7 +49,10 @@ export const Game = PropTypes.shape({
   streams: PropTypes.arrayOf(SegmentRef),
 });
 
-SegmentRef.game = Game; // Hmm...
+// Hmm...
+Segment.subrefs = PropTypes.arrayOf(SubRef);
+SegmentRef.game = Game;
+SubRef.parent = SegmentRef;
 
 export const Category = PropTypes.shape({
   id: PropTypes.string,

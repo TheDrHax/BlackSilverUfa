@@ -11,8 +11,10 @@ import {
   Tabs,
   Tooltip,
 } from 'react-bootstrap';
+import last from 'lodash/last';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import getHistory from 'react-router-global-history';
 import MediaQuery from 'react-responsive';
 import { Rnd } from 'react-rnd';
 import { faCaretSquareLeft, faCaretSquareRight, faCheckCircle, faDownload, faExclamationCircle, faExpand, faMaximize, faShareSquare } from '@fortawesome/free-solid-svg-icons';
@@ -55,6 +57,7 @@ export default class SegmentPlayer extends React.Component {
       fullscreen: false,
       segment: null,
       segmentRef: null,
+      subRef: null,
       relatedGames: null,
       timecodes: null,
       plyr: null,
@@ -72,6 +75,7 @@ export default class SegmentPlayer extends React.Component {
 
     this.toggleSidebar = this.toggleSidebar.bind(this);
     this.renderPlayerOverlay = this.renderPlayerOverlay.bind(this);
+    this.onTimeUpdate = this.onTimeUpdate.bind(this);
 
     this.chatContainer = this.createChatContainer();
   }
@@ -116,7 +120,7 @@ export default class SegmentPlayer extends React.Component {
     const newLocation = {
       ...location,
       pathname: `/play/${gameId}/${segment.segment}`,
-      search: `?at=${at}`
+      search: `?at=${at}`,
     };
 
     return {
@@ -131,7 +135,6 @@ export default class SegmentPlayer extends React.Component {
 
   loadData() {
     Data.then(({ segments, timecodes, games }) => {
-      const { history } = this.props;
       const request = this.resolveUrl({ segments, games });
 
       if (!request) {
@@ -140,7 +143,7 @@ export default class SegmentPlayer extends React.Component {
       }
 
       if (request.redirect) {
-        history.replace(request.redirect);
+        getHistory().replace(request.redirect);
       }
 
       const {
@@ -219,6 +222,32 @@ export default class SegmentPlayer extends React.Component {
     this.setState({ sidebarCollapsed: !sidebarCollapsed });
   }
 
+  onTimeUpdate() {
+    const {
+      plyr,
+      segment: {
+        subrefs,
+      },
+      subRef,
+    } = this.state;
+
+    const t = plyr.currentTime;
+
+    const subref = last(subrefs.filter(({ start: s }) => s < t));
+
+    if (subref !== subRef) {
+      if (subref) {
+        this.setState({
+          game: subref.parent.game,
+          segmentRef: subref.parent,
+          subRef: subref,
+        });
+      } else {
+        this.setState({ subRef: null });
+      }
+    }
+  }
+
   renderPlayer() {
     const {
       history,
@@ -267,6 +296,8 @@ export default class SegmentPlayer extends React.Component {
             plyr.elements.container.focus();
           },
         });
+
+        plyr.on('timeupdate', this.onTimeUpdate);
       },
       onFullScreen: (fullscreen) => this.setState({ fullscreen }),
       onDestroy: () => this.setState({
@@ -666,15 +697,16 @@ export default class SegmentPlayer extends React.Component {
       game,
       segment,
       segmentRef,
+      subRef,
     } = this.state;
 
     return (
       <Row className="stream-description">
         <Col>
           <h3>
-            <Link to={`/play/${game.id}`}>{game.name}</Link>
+            <Link to={game.url}>{game.name}</Link>
             <span> — </span>
-            <span className="flex-grow-1">{segmentRef.name}</span>
+            <span className="flex-grow-1">{subRef?.name || segmentRef.name}</span>
           </h3>
 
           <ListGroup variant="flush" size="sm">
@@ -790,9 +822,8 @@ export default class SegmentPlayer extends React.Component {
           thumbnail,
           date,
         },
-        segmentRef: {
-          name: refName,
-        },
+        segmentRef,
+        subRef,
         game: {
           id: gameId,
           name: gameName,
@@ -800,7 +831,7 @@ export default class SegmentPlayer extends React.Component {
       },
     } = this;
 
-    const title = `${refName} | ${gameName}`;
+    const title = `${subRef?.name || segmentRef.name} | ${gameName}`;
     const canonicalPath = PATHS.PLAYER
       .replace(':game', gameId)
       .replace(':segment', segmentId);

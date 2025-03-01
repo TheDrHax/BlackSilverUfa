@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Badge, Button, Collapse, InputGroup, ListGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -68,6 +68,10 @@ export const Playlist = ({ games, game, segment, autoExpand, fullHeight }) => {
   const activeIndex = games.indexOf(currentGame);
   const prevItem = activeIndex !== 0 && games[activeIndex - 1];
   const nextItem = activeIndex !== games.length - 1 && games[activeIndex + 1];
+
+  useEffect(() => {
+    setGame(game);
+  }, [game]);
 
   return (
     <>

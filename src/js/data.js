@@ -5,7 +5,7 @@ import zip from 'lodash/zip';
 import { tokenize } from './utils/text-utils';
 import loadData from './data.prod';
 import config from '../../config/config.json';
-import { upsert, getBaseSegment } from './utils/data-utils';
+import { upsert, insertSortedBy, getBaseSegment } from './utils/data-utils';
 import { ptime } from './utils/time-utils';
 
 const fallbackPrefix = config.fallback.prefix;
@@ -116,6 +116,7 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
     .forEach(([key, segment]) => {
       segment.date = new Date(`${segment.date}T00:00:00`);
       segment.segment = key;
+      segment.subrefs = [];
 
       if (segment.youtube) {
         segment.thumbnail = `https://img.youtube.com/vi/${segment.youtube}/mqdefault.jpg`;
@@ -200,6 +201,11 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
       ref.original = segments.by('segment', ref.segment);
       ref.start = ref.subrefs[0].start || ref.original.abs_start;
       ref.game = game;
+
+      ref.subrefs.forEach((subref) => {
+        subref.parent = ref;
+        insertSortedBy(ref.original.subrefs, subref, 'start');
+      });
 
       ref.url = `/play/${game.id}/${ref.segment}`;
       if (ref.start) {

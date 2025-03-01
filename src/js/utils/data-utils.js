@@ -1,6 +1,7 @@
 import last from 'lodash/last';
 import uniq from 'lodash/uniq';
 import find from 'lodash/find';
+import sortedIndexBy from 'lodash/sortedIndexBy';
 import { renderTemplate } from './text-utils';
 import SugarDate from './sugar';
 
@@ -17,6 +18,8 @@ export const upsert = (db, keys, obj) => {
     return x;
   }
 };
+
+export const insertSortedBy = (a, v, i) => a.splice(sortedIndexBy(a, v, i), 0, v);
 
 export const getOffset = (segment, at) => {
   at = at || 0;
