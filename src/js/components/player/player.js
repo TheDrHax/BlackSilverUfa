@@ -45,6 +45,7 @@ export default class Player extends React.Component {
         controls: 1,
         fs: false,
         disablekb: 0,
+        cc_load_policy: 0,
       },
       keyboard: { global: true },
     };
