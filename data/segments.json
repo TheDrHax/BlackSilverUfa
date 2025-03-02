@@ -10693,9 +10693,9 @@
   },
   "1445142982": {
     "youtube": "FgekyOZTsBA", "abs_start": 0, "abs_end": 22221, "duration": 22221,
-    "name": "Remnants of R'lyeh (демо) / Grief / Mirage of Home / Nightmare of Decay - Демо / Uncle Panko's Terrible Little Farm / Toiletrooms / Out of Sight (демо) / Cleaning Redville / HandCop / The Heilwald Loophole #1",
+    "name": "Remnants of R'lyeh (демо) / Grief / Mirage of Home / Nightmare of Decay - Демо / Uncle Panko's Terrible Little Farm / Toiletrooms / Out of Sight - Демо 1 / Cleaning Redville / HandCop / The Heilwald Loophole #1",
     "date": "2022-04-03",
-    "games": ["first-2022", "single-2022", "nightmare-of-decay", "heilwald"],
+    "games": ["first-2022", "single-2022", "nightmare-of-decay", "out-of-sight", "heilwald"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1445142982.ass"
   },
   "1446082122": {
@@ -16334,5 +16334,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2394243217.torrent",
     "games": ["aliens-isolation"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2394243217.ass"
+  },
+  "2395173756": {
+    "abs_start": 0, "abs_end": 20454, "duration": 20454,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #8 / Through the Backrooms / Out of Sight - Демо 2 / The Well: Episode 1 / The Derailed (демо) / Flesh Made Fear (демо) / Anomaly Living / The Bakerville Case (демо) / From the Other Side / The Moth Inside Me",
+    "date": "2025-03-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2395173756.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2395173756.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2395173756.torrent",
+    "games": ["horrors-2025", "first-2025", "out-of-sight", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2395173756.ass"
   }
 }

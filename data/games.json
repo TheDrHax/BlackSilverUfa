@@ -7708,7 +7708,6 @@
       ] },
       { "segment": "1445142982", "subrefs": [
         { "name": "Remnants of R'lyeh (демо)" },
-        { "name": "Out of Sight (демо)", "start": 13930 },
         { "name": "HandCop", "start": 17898 }
       ] },
       { "segment": "1451875048", "subrefs": [
@@ -7946,6 +7945,19 @@
       ] },
       { "segment": "1690952607", "subrefs": [
         { "name": "The Thing (by PanzerCat)", "start": 14049 }
+      ] }
+    ]
+  },
+  {
+    "name": "Out of Sight",
+    "category": "ongoing",
+    "id": "out-of-sight",
+    "streams": [
+      { "segment": "1445142982", "subrefs": [
+        { "name": "Демо 1", "start": 13930 }
+      ] },
+      { "segment": "2395173756", "subrefs": [
+        { "name": "Демо 2", "start": 3575 }
       ] }
     ]
   },
@@ -8723,6 +8735,13 @@
         { "name": "Truck Mechanic: Dangerous Paths (демо)", "start": 10594 },
         { "name": "Do No Harm (демо)", "start": 16734 },
         { "name": "Anoxia Station (демо)", "start": 19920 }
+      ] },
+      { "segment": "2395173756", "subrefs": [
+        { "name": "Through the Backrooms", "start": 1894 },
+        { "name": "Flesh Made Fear (демо)", "start": 8708 },
+        { "name": "Anomaly Living", "start": 12048 },
+        { "name": "The Bakerville Case (демо)", "start": 13086 },
+        { "name": "From the Other Side", "start": 14352 }
       ] }
     ]
   },
@@ -8946,6 +8965,11 @@
       { "segment": "2391565194", "subrefs": [
         { "name": "Arctic Awakening (демо)", "start": 2138 },
         { "name": "The Bench (демо)", "start": 13103 }
+      ] },
+      { "segment": "2395173756", "subrefs": [
+        { "name": "The Well: Episode 1", "start": 4964 },
+        { "name": "The Derailed (демо)", "start": 6940 },
+        { "name": "The Moth Inside Me", "start": 16816 }
       ] }
     ]
   },
@@ -16647,6 +16671,9 @@
       ] },
       { "segment": "2389049577", "subrefs": [
         { "name": "7" }
+      ] },
+      { "segment": "2395173756", "subrefs": [
+        { "name": "8" }
       ] }
     ]
   },
