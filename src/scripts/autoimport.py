@@ -7,6 +7,9 @@ import requests
 from itertools import chain
 from datetime import datetime
 from docopt import docopt
+from typing import Union
+from twitch_utils.clip import Clip
+from twitch_utils.offset import find_offset
 
 from .source_cuts import get_source_cuts
 from ..data.fallback import fallback
@@ -70,8 +73,18 @@ def create_game(name, id, category='other', type=None) -> Game:
         return game
 
 
+def find_intro(vod: str) -> Union[Timecode, None]:
+    clip_vod = Clip(os.path.join(fallback.directory, f'{vod}.mp4'), ar=1000)
+    clip_intro = Clip(os.path.join('sounds', 'intro.wav'), ar=1000)
+    offset, score = find_offset(clip_intro, clip_vod, end=600, min_score=10)
+
+    if score > 0:
+        return Timecode(round(offset), name='Интро')
+
+
 def create_timecodes(vod: str, timeline: Timecodes) -> None:
     ts = Timecodes()
+
     for x in timeline:
         t = Timecodes(name=x.name)
         t.add(Timecode(x, name='Начало'))
@@ -83,10 +96,15 @@ def create_timecodes(vod: str, timeline: Timecodes) -> None:
 
         ts.add(t)
 
-    timecodes[vod] = ts.filter(lambda t: t > 0)
+    t_intro = find_intro(vod)
+    if t_intro:
+        ts.add(t_intro)
+
+    ts = ts.filter(lambda t: t > 0)
 
     print('Adding timecodes:')
-    print(json.dumps(timecodes[vod].to_dict(), ensure_ascii=False, indent=2))
+    print(json.dumps(ts.to_dict(), ensure_ascii=False, indent=2))
+    timecodes[vod] = ts
 
 
 def next_name(game: Game, name: str) -> str:
