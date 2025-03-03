@@ -1,4 +1,4 @@
-"""Usage: autoimport [--dry-run] [<vod>]"""
+"""Usage: autoimport [--dry-run] [--no-refs] [<vod>]"""
 
 import os
 import json
@@ -140,47 +140,48 @@ def main(argv=None):
 
     create_timecodes(vod, timeline)
 
-    def normalize_game(name: str) -> str:
-        return name.lower().split(' (')[0]
+    if not args['--no-refs']:
+        def normalize_game(name: str) -> str:
+            return name.lower().split(' (')[0]
 
-    all_games = dict((normalize_game(g.name), g)
-                     for g in games
-                     if g.type != 'list')
+        all_games = dict((normalize_game(g.name), g)
+                         for g in games
+                         if g.type != 'list')
 
-    subrefs = []
+        subrefs = []
 
-    for t in timeline:
-        existing_game = all_games.get(normalize_game(t.name))
+        for t in timeline:
+            existing_game = all_games.get(normalize_game(t.name))
 
-        if existing_game:
-            prev_ref_name = normalize_game(existing_game.streams[-1].name)
-            if prev_ref_name.isnumeric():
-                name = str(int(prev_ref_name) + 1)
-            else:
-                name = '?'
+            if existing_game:
+                prev_ref_name = normalize_game(existing_game.streams[-1].name)
+                if prev_ref_name.isnumeric():
+                    name = str(int(prev_ref_name) + 1)
+                else:
+                    name = '?'
 
-            ref = SegmentReference(game=existing_game,
-                                   parent=stream[0],
-                                   name=name,
-                                   start=t.start)
+                ref = SegmentReference(game=existing_game,
+                                       parent=stream[0],
+                                       name=name,
+                                       start=t.start)
 
-            existing_game.streams.append(ref)
-            print(f'Adding segment reference into "{existing_game.id}":')
+                existing_game.streams.append(ref)
+                print(f'Adding segment reference into "{existing_game.id}":')
+                print(ref.to_json())
+                continue
+
+            subrefs.append(dict(name=t.name, start=t.start))
+
+        if len(subrefs) > 0:
+            game = create_game(name='Не размечено', id='todo')
+
+            for subref in subrefs:
+                subref['name'] = next_name(game, subref['name'])
+
+            ref = SegmentReference(game=game, parent=stream[0], subrefs=subrefs)
+            game.streams.append(ref)
+            print(f'Adding segment reference into "{game.id}":')
             print(ref.to_json())
-            continue
-
-        subrefs.append(dict(name=t.name, start=t.start))
-
-    if len(subrefs) > 0:
-        game = create_game(name='Не размечено', id='todo')
-
-        for subref in subrefs:
-            subref['name'] = next_name(game, subref['name'])
-
-        ref = SegmentReference(game=game, parent=stream[0], subrefs=subrefs)
-        game.streams.append(ref)
-        print(f'Adding segment reference into "{game.id}":')
-        print(ref.to_json())
 
     if not args['--dry-run']:
         print('Saving changes')
