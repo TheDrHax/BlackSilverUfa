@@ -16345,10 +16345,20 @@
   },
   "2396035230": {
     "youtube": "PIA8xr5FHvU", "vk": "-28387068_456250650", "abs_start": 0, "abs_end": 17572, "duration": 17572,
-    "name": "Emergency Cleanup Co. #3 / Nedra (демо) / Stone Simulator / Wheel World (демо) / Despelote",
+    "name": "Emergency Cleanup Co. #3 / Nedra (демо) / Stone Simulator #1 / Wheel World (демо) / Despelote",
     "date": "2025-03-03",
     "torrent": "https://bsufiles.drhx.ru/streams/2396035230.torrent",
-    "games": ["emergency-cleanup", "first-2025"],
+    "games": ["emergency-cleanup", "first-2025", "stone-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2396035230.ass"
+  },
+  "2396868866": {
+    "abs_start": 0, "abs_end": 18681, "duration": 18681,
+    "name": "Emergency Cleanup Co. #4 / [REC] Desolation / Cold Abyss: Director's Cut (демо) / Stone Simulator #2",
+    "date": "2025-03-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2396868866.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2396868866.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2396868866.torrent",
+    "games": ["emergency-cleanup", "single-2025", "stone-sim"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2396868866.ass"
   }
 }
