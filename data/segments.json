@@ -16372,5 +16372,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2397713947.torrent",
     "games": ["order-13", "emergency-cleanup", "stone-sim", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2397713947.ass"
+  },
+  "2399353737": {
+    "abs_start": 0, "abs_end": 25683, "duration": 25683,
+    "name": "Split Fiction (с Дашей)",
+    "date": "2025-03-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2399353737.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2399353737.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2399353737.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2399353737+0.ass"
   }
 }
