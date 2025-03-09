@@ -2745,10 +2745,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286171438.ass"
   },
   "286989766": {
-    "abs_start": -4, "abs_end": 11535, "duration": 11539,
+    "youtube": "Rultk81cezI", "abs_start": -4, "abs_end": 11536, "duration": 11540,
     "name": "S.T.A.L.K.E.R.: Clear Sky + Mystery #2",
     "date": "2018-07-20",
-    "direct": "https://bsufiles.drhx.ru/streams/286989766.mp4",
     "games": ["stalker-cs"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286989766.ass"
   },
@@ -2920,11 +2919,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293012700.ass"
   },
   "293415850": {
-    "abs_start": 0, "abs_end": 20783, "duration": 20783,
+    "youtube": "vE38irVbcAI", "official": false, "abs_start": 0, "abs_end": 20784, "duration": 20784,
     "name": "Dead Forest / PUSS! / Chasm / Airships: Conquer the Skies / CASE 2: Animatronics Survival #2 / Escape From Tarkov #5",
     "date": "2018-08-05",
-    "direct": "https://bsufiles.drhx.ru/streams/293415850.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/293415850.mp4/master.m3u8",
     "games": ["single-2018", "first-2018", "case-2", "tarkov"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293415850.ass"
   },
@@ -5483,11 +5480,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v497190114.ass"
   },
   "497590135": {
-    "abs_start": 0, "abs_end": 21198, "duration": 21198,
+    "youtube": "YKEDcG9CUY0", "official": false, "abs_start": 0, "abs_end": 21198, "duration": 21198,
     "name": "Mafia: City of Lost Heaven #3",
     "date": "2019-10-21",
-    "direct": "https://bsufiles.drhx.ru/streams/497590135.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/497590135.mp4/master.m3u8",
     "games": ["mafia"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v497590135.ass"
   },
@@ -6015,9 +6010,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v546672311+0.ass"
   },
   "547176657": {
-    "youtube": "MwiBCv9R_fo", "official": false, "abs_start": 0, "abs_end": 22094, "duration": 22094,
+    "abs_start": 0, "abs_end": 22093, "duration": 22093,
     "name": "Grand Theft Auto: San Andreas #7 / Destiny 2 #1 (с Triplewipe)",
     "date": "2020-02-05",
+    "direct": "https://bsufiles.drhx.ru/streams/547176657.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/547176657.mp4/master.m3u8",
     "games": ["gta-san-andreas", "destiny-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v547176657.ass"
   },
