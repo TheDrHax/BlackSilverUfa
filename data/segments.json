@@ -16385,5 +16385,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2400318367.torrent",
     "games": ["single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2400318367.ass"
+  },
+  "2402231265": {
+    "abs_start": 0, "abs_end": 2678, "duration": 2678,
+    "name": "Cyberpunk 2077 #11 (тест нового ПК)",
+    "date": "2025-03-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2402231265.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2402231265.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2402231265.torrent",
+    "games": ["cyberpunk-2077"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2402231265.ass"
   }
 }
