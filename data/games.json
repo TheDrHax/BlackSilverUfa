@@ -8583,7 +8583,6 @@
         { "name": "CAPTURED", "start": 4533 }
       ] },
       { "segment": "2276579699", "subrefs": [
-        { "name": "Secret Agent Wizard Boy and the International Crime Syndicate (демо)", "start": 1560 },
         { "name": "The Precinct (демо)", "start": 4483 },
         { "name": "Zaru", "start": 10038 },
         { "name": "Targeosity", "start": 13851 },
@@ -8642,6 +8641,19 @@
       { "segment": "2339752178", "subrefs": [
         { "name": "Schoolboy Runaway", "start": 3839 },
         { "name": "A Christmas Story", "start": 13101 }
+      ] }
+    ]
+  },
+  {
+    "name": "Secret Agent Wizard Boy and the International Crime Syndicate",
+    "category": "ongoing",
+    "id": "sawbatics",
+    "streams": [
+      { "segment": "2276579699", "subrefs": [
+        { "name": "Демо 1", "start": 1560 }
+      ] },
+      { "segment": "2402902685", "subrefs": [
+        { "name": "Демо 2", "start": 9375 }
       ] }
     ]
   },

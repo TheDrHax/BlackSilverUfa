@@ -15554,9 +15554,9 @@
   },
   "2276579699": {
     "youtube": "fm1lr4eLNwk", "vk": "-28387068_456250464", "abs_start": 0, "abs_end": 23792, "duration": 23792,
-    "name": "Secret Agent Wizard Boy and the International Crime Syndicate (демо) / The Precinct (демо) / Liminalcore - Chapter 1 / BrokenLore: LOW (демо) / BrokenLore: Don't Watch (демо) / Zaru / Hi! These Are Your Eyeballs #1 / Targeosity / Voyager-19 / Waffle Cone Willie (демо)",
+    "name": "Secret Agent Wizard Boy and the International Crime Syndicate - Демо 1 / The Precinct (демо) / Liminalcore - Chapter 1 / BrokenLore: LOW (демо) / BrokenLore: Don't Watch (демо) / Zaru / Hi! These Are Your Eyeballs #1 / Targeosity / Voyager-19 / Waffle Cone Willie (демо)",
     "date": "2024-10-15",
-    "games": ["first-2024", "liminalcore", "single-2024", "htaye"],
+    "games": ["sawbatics", "first-2024", "liminalcore", "single-2024", "htaye"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2276579699.ass"
   },
   "2278223950": {
@@ -16395,5 +16395,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2402231265.torrent",
     "games": ["cyberpunk-2077"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2402231265.ass"
+  },
+  "2402902685": {
+    "abs_start": 0, "abs_end": 21611, "duration": 21611,
+    "name": "Secret Agent Wizard Boy and the International Crime Syndicate - Демо 2",
+    "date": "2025-03-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2402902685.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2402902685.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2402902685.torrent",
+    "games": ["sawbatics"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2402902685.ass"
   }
 }
