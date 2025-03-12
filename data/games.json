@@ -8777,9 +8777,19 @@
       ] },
       { "segment": "2397713947", "subrefs": [
         { "name": "Labyrinth of the Demon King (демо)", "start": 13598 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Split Fiction (с Дашей)",
+    "category": "ongoing",
+    "id": "split-fiction",
+    "streams": [
       { "segment": "2399353737", "subrefs": [
-        { "name": "Split Fiction (с Дашей)", "start": 1017 }
+        { "name": "1", "start": 1017 }
+      ] },
+      { "segment": "2403688381", "subrefs": [
+        { "name": "2", "start": 956 }
       ] }
     ]
   },

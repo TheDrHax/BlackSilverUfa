@@ -16372,10 +16372,10 @@
   },
   "2399353737": {
     "youtube": "PXIX3lUJoFg", "vk": "-28387068_456250655", "abs_start": 0, "abs_end": 25683, "duration": 25683,
-    "name": "Split Fiction (с Дашей)",
+    "name": "Split Fiction (с Дашей) #1",
     "date": "2025-03-07",
     "torrent": "https://bsufiles.drhx.ru/streams/2399353737.torrent",
-    "games": ["first-2025"],
+    "games": ["split-fiction"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2399353737+0.ass"
   },
   "2400318367": {
@@ -16405,5 +16405,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2402902685.torrent",
     "games": ["sawbatics"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2402902685.ass"
+  },
+  "2403688381": {
+    "abs_start": 0, "abs_end": 21595, "duration": 21595,
+    "name": "Split Fiction (с Дашей) #2",
+    "date": "2025-03-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2403688381.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2403688381.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2403688381.torrent",
+    "games": ["split-fiction"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2403688381.ass"
   }
 }
