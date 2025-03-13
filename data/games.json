@@ -5659,6 +5659,9 @@
       ] },
       { "segment": "2365019673", "subrefs": [
         { "name": "Tales Beyond The Tomb: The Last Vigil", "start": 6970 }
+      ] },
+      { "segment": "2404564177", "subrefs": [
+        { "name": "Poop Killer - Flush or Die!", "start": 8235 }
       ] }
     ]
   },
@@ -8777,6 +8780,10 @@
       ] },
       { "segment": "2397713947", "subrefs": [
         { "name": "Labyrinth of the Demon King (демо)", "start": 13598 }
+      ] },
+      { "segment": "2404564177", "subrefs": [
+        { "name": "Flashing Dark", "start": 3672 },
+        { "name": "AM (демо)", "start": 15586 }
       ] }
     ]
   },
@@ -9053,6 +9060,10 @@
       ] },
       { "segment": "2400318367", "subrefs": [
         { "name": "Five Hearts Under One Roof", "start": 2069 }
+      ] },
+      { "segment": "2404564177", "subrefs": [
+        { "name": "Salt (Соль)", "start": 14315 },
+        { "name": "Late Night Shift by Morvyne", "start": 17536 }
       ] }
     ]
   },
@@ -9735,7 +9746,7 @@
         { "name": "Please Stop Crying", "start": 8514 },
         { "name": "Mimic Search", "start": 9272 },
         { "name": "Laundry Night", "start": 13629 },
-        { "name": "Late Night Shift", "start": 14339 },
+        { "name": "Late Night Shift by YapGamedev", "start": 14339 },
         { "name": "The VHS Paradise", "start": 15300 },
         { "name": "Moves Away", "start": 16542 }
       ] },
@@ -16757,6 +16768,9 @@
       ] },
       { "segment": "2395173756", "subrefs": [
         { "name": "8" }
+      ] },
+      { "segment": "2404564177", "subrefs": [
+        { "name": "9" }
       ] }
     ]
   },
