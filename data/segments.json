@@ -16414,10 +16414,20 @@
   },
   "2404564177": {
     "youtube": "O7dbx7JzYL8", "vk": "-28387068_456250664", "abs_start": 0, "abs_end": 19867, "duration": 19867,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #9 / Flashing Dark / Poop Killer - Flush or Die! / Salt (Соль) / AM (демо) / Late Night Shift by Morvyne",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #9 / Flashing Dark #1 / Poop Killer - Flush or Die! / Salt (Соль) / AM (демо) / Late Night Shift by Morvyne",
     "date": "2025-03-13",
     "torrent": "https://bsufiles.drhx.ru/streams/2404564177.torrent",
-    "games": ["horrors-2025", "first-2025", "616-games", "single-2025"],
+    "games": ["horrors-2025", "flashing-dark", "616-games", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2404564177.ass"
+  },
+  "2405375731": {
+    "abs_start": 0, "abs_end": 20508, "duration": 20508,
+    "name": "Emergency Cleanup Co. #6 / Flashing Dark #2 / No.8 High School / That's Not My Neighbor",
+    "date": "2025-03-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2405375731.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2405375731.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2405375731.torrent",
+    "games": ["emergency-cleanup", "flashing-dark", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2405375731.ass"
   }
 }

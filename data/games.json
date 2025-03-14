@@ -8782,8 +8782,20 @@
         { "name": "Labyrinth of the Demon King (демо)", "start": 13598 }
       ] },
       { "segment": "2404564177", "subrefs": [
-        { "name": "Flashing Dark", "start": 3672 },
         { "name": "AM (демо)", "start": 15586 }
+      ] }
+    ]
+  },
+  {
+    "name": "Flashing Dark",
+    "category": "finished",
+    "id": "flashing-dark",
+    "streams": [
+      { "segment": "2404564177", "subrefs": [
+        { "name": "1", "start": 3672 }
+      ] },
+      { "segment": "2405375731", "subrefs": [
+        { "name": "2", "start": 8187 }
       ] }
     ]
   },
@@ -8916,6 +8928,9 @@
       ] },
       { "segment": "2397713947", "subrefs": [
         { "name": "5", "start": 1542 }
+      ] },
+      { "segment": "2405375731", "subrefs": [
+        { "name": "6", "start": 916 }
       ] }
     ]
   },
@@ -9064,6 +9079,10 @@
       { "segment": "2404564177", "subrefs": [
         { "name": "Salt (Соль)", "start": 14315 },
         { "name": "Late Night Shift by Morvyne", "start": 17536 }
+      ] },
+      { "segment": "2405375731", "subrefs": [
+        { "name": "No.8 High School", "start": 11637 },
+        { "name": "That's Not My Neighbor", "start": 13778 }
       ] }
     ]
   },
