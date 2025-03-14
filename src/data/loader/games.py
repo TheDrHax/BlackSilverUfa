@@ -1,9 +1,8 @@
 from typing import Dict, List, Union
-from itertools import groupby
 
 from ...utils import load_json, join, indent
 from ..games import Game
-from ..streams import SegmentReference
+from ..streams import SegmentReference, SubReference
 from .streams import Streams
 
 
@@ -12,13 +11,13 @@ def normalize_game_name(name: str) -> str:
 
 
 class Games(List[Game]):
-    def track_name(self, name):
-        nname = normalize_game_name(name)
+    def track_game(self, game: Union[Game,SubReference]):
+        nname = normalize_game_name(game.name)
 
         if nname in self.names:
-            print(f'WARN: Duplicate subref names: "{name}"')
+            print(f'WARN: Duplicate subref names: "{game.name}"')
         else:
-            self.names.add(nname)
+            self.names[nname] = game
 
     def _parse_game(self, streams: Streams, game_raw):
         game_id = game_raw['id']
@@ -30,7 +29,7 @@ class Games(List[Game]):
         refs_raw = game_raw.pop('streams')
         game = Game(**game_raw)
 
-        self.track_name(game.name)
+        self.track_game(game)
 
         segments = set()
 
@@ -47,14 +46,14 @@ class Games(List[Game]):
             game.streams.append(ref)
 
             if game.type == 'list':
-                [self.track_name(subref.name) for subref in ref.subrefs]
+                [self.track_game(subref) for subref in ref.subrefs]
 
         self.append(game)
 
     def __init__(self, streams: Union[Streams, None] = None,
                  filename: Union[str, None] = None):
         self.filename = filename
-        self.names = set()
+        self.names = dict()
         self.ids = set()
 
         if not streams or not filename:

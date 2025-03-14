@@ -3,11 +3,11 @@
 import re
 
 from docopt import docopt
-from typing import Dict
+from typing import Dict, Union
 
 from ..data.timecodes import Timecode, Timecodes
 from ..data.games import Game
-from ..data.streams import Segment, SegmentReference
+from ..data.streams import Segment, SegmentReference, SubReference
 from ..data.loader.default import timecodes, games, streams
 from ..data.loader.games import normalize_game_name
 
@@ -16,6 +16,10 @@ GROUPS = {
     '':         'first-2025',
     'пройдено': 'single-2025'
 }
+
+SKIP = [
+    'трейлеры'
+]
 
 
 def get_chapters(tc: Timecodes) -> Timecodes:
@@ -28,8 +32,11 @@ def get_chapters(tc: Timecodes) -> Timecodes:
     return res
 
 
-def game_by_id(id: str) -> Game:
-    return [game for game in games if game.id == id][0]
+def game_by_id(id: str) -> Union[Game, None]:
+    try:
+        return [game for game in games if game.id == id][0]
+    except IndexError:
+        return None
 
 
 def sort_chapters(chapters: Timecodes) -> Dict[str, Timecodes]:
@@ -46,20 +53,53 @@ def sort_chapters(chapters: Timecodes) -> Dict[str, Timecodes]:
             group = ''
             name = c.name
 
-        if group in GROUPS:
+        nname = normalize_game_name(name)
+        g = game_by_id(group)
+
+        if nname in SKIP:
+            print(f'Skipping "{name}" (blacklisted)')
+            continue
+
+        if g:
+            game = group
+        elif nname in games.names:
+            g = games.names[nname]
+
+            if isinstance(g, Game):
+                game = g.id
+            elif isinstance(g, SubReference):
+                game = input(f'Enter new game ID for "{name}": ')
+
+                if not game:
+                    continue
+
+                if group == 'пройдено':
+                    cat = 'finished'
+                else:
+                    cat = 'ongoing'
+
+                new_game = Game(name=name, id=game, category=cat, streams=[])
+                games.append(new_game)
+
+                ref = g.parent
+
+                if len(ref.subrefs) == 1:
+                    old_game = [game for game in games if ref in game.streams][0]
+                    new_game.streams.append(old_game.streams.pop(old_game.streams.index(ref)))
+                else:
+                    ref.subrefs.pop(ref.subrefs.index(g))
+                    new_ref = SegmentReference(game=new_game, parent=ref.parent,
+                                               name=g.name, start=g.start)
+                    new_game.streams.append(new_ref)
+        elif group in GROUPS:
             game = GROUPS[group]
         else:
             print(f'Ignoring {name} (unknown group)')
             continue
 
-        nname = normalize_game_name(name)
-        if nname in games.names:
-            print(f'Ignoring {name} (already exists)')
-            continue
-
         if game not in res:
             res[game] = Timecodes()
-        
+
         res[game].add(Timecode(start=c.start, name=name))
 
     return res
@@ -68,6 +108,10 @@ def sort_chapters(chapters: Timecodes) -> Dict[str, Timecodes]:
 def create_refs(segment: Segment, ref_map: Dict[str, Timecodes]):
     for game_id, refs_list in ref_map.items():
         game = game_by_id(game_id)
+
+        if not game:
+            continue
+
         subrefs = [dict(name=t.name, start=t.start) for t in refs_list]
 
         ref = SegmentReference(game=game, parent=segment, subrefs=subrefs)
