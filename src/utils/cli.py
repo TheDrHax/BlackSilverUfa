@@ -318,12 +318,12 @@ def ytdl_video(video_id):
     try:
         print('Retrieving video from YouTube...', file=sys.stderr)
         youtube_source = ytdl_best_source(video_id)
-        video = Clip(youtube_source, ar=1000)
+        video = Clip(youtube_source)
         video.slice(0, 1)
     except Exception:
         print('Falling back to bestaudio...', file=sys.stderr)
         youtube_source = ytdl_best_source(video_id, 'bestaudio')
-        video = Clip(youtube_source, ar=1000)
+        video = Clip(youtube_source)
         video.slice(0, 1)
     return video
 
@@ -340,7 +340,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
 
         video = ytdl_video(segment_kwargs['youtube'])
     elif 'direct' in segment_kwargs:
-        video = Clip(segment_kwargs['direct'], ar=1000)
+        video = Clip(segment_kwargs['direct'])
     else:
         print('Error: Video source is not supported')
         sys.exit(2)
@@ -371,10 +371,11 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
         print(f'Checking segment {segment.hash} {s_range} (path: {path})',
               file=sys.stderr)
 
-        original = Clip(path, ar=1000)
+        original = Clip(path)
 
         try:
             offset, score = find_offset(template, original,
+                                        ar=1000,
                                         start=int(s_range.start),
                                         end=int(s_range.end),
                                         min_score=50)
@@ -436,6 +437,7 @@ def check_cuts(original_video, input_video, offset=0):
     try:
         new_offset, _ = find_offset(
             template, original_video,
+            ar=1000,
             start=offset,
             end=offset + int(duration),
             reverse=True,
@@ -450,9 +452,9 @@ def cmd_cuts(segment, segment_kwargs, directory=None):
     if 'youtube' in segment_kwargs:
         video = ytdl_video(segment_kwargs['youtube'])
     elif 'direct' in segment_kwargs:
-        video = Clip(segment_kwargs['direct'], ar=1000)
+        video = Clip(segment_kwargs['direct'])
 
-    original = Clip(original_video(segment, directory), ar=1000)
+    original = Clip(original_video(segment, directory))
     diff = check_cuts(original, video, offset=int(segment.offset))
 
     if diff <= 1:

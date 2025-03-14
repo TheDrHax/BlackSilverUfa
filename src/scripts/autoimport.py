@@ -74,12 +74,12 @@ def create_game(name, id, category='other', type=None) -> Game:
 
 
 def find_intro(vod: str) -> Union[Timecode, None]:
-    clip_vod = Clip(os.path.join(fallback.directory, f'{vod}.mp4'), ar=1000)
-    clip_intro = Clip(os.path.join('sounds', 'intro.wav'), ar=1000)
-    offset, score = find_offset(clip_intro, clip_vod, end=600, min_score=10)
+    clip_vod = Clip(os.path.join(fallback.directory, f'{vod}.mp4'))
+    clip_intro = Clip(os.path.join('sounds', 'intro.wav'))
+    offset, score = find_offset(clip_intro, clip_vod, end=600, min_score=10, ar=500)
 
     if score > 0:
-        return Timecode(round(offset), name='Интро')
+        return Timecode(round(offset - 2), name='Интро')
 
 
 def create_timecodes(vod: str, timeline: Timecodes) -> None:
@@ -87,7 +87,7 @@ def create_timecodes(vod: str, timeline: Timecodes) -> None:
 
     for x in timeline:
         t = Timecodes(name=x.name)
-        t.add(Timecode(x, name='Начало'))
+        t.add(Timecode(x, name='Меню'))
 
         i = 2
         while t in ts:
@@ -96,9 +96,12 @@ def create_timecodes(vod: str, timeline: Timecodes) -> None:
 
         ts.add(t)
 
-    t_intro = find_intro(vod)
-    if t_intro:
-        ts.add(t_intro)
+    try:
+        t_intro = find_intro(vod)
+        if t_intro:
+            ts.add(t_intro)
+    except Exception as ex:
+        print(f'Unable to find intro: {ex}')
 
     ts = ts.filter(lambda t: t > 0)
 

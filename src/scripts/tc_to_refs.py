@@ -125,7 +125,11 @@ def main(argv=None):
     stream = streams[stream_id]
     segment = stream[0]
 
-    tc = timecodes[stream_id]
+    if stream_id in timecodes:
+        tc = timecodes[stream_id]
+    else:
+        tc = streams[stream_id][0].timecodes
+
     chapters = get_chapters(tc)
     ref_map = sort_chapters(chapters)
 

@@ -30,7 +30,8 @@ EMOTES = {
         'bufaLough',
         'bufaLUL',
         'OMEGAROLL',
-        'KEKLEO'
+        'KEKLEO',
+        'ICANT'
     ]),
     'scare': pattern([
         'WutFace',
