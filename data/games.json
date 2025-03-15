@@ -7676,9 +7676,6 @@
       { "segment": "1265545024", "subrefs": [
         { "name": "Witching Hour (демо)", "start": 5124 }
       ] },
-      { "segment": "1268793469", "subrefs": [
-        { "name": "Star Citizen" }
-      ] },
       { "segment": "1273302913", "subrefs": [
         { "name": "Concluse 2", "start": 4366 },
         { "name": "Experiment: Groceries", "start": 11438 },
@@ -8931,6 +8928,9 @@
       ] },
       { "segment": "2405375731", "subrefs": [
         { "name": "6", "start": 916 }
+      ] },
+      { "segment": "2406277677", "subrefs": [
+        { "name": "7", "start": 1431 }
       ] }
     ]
   },
@@ -17580,6 +17580,19 @@
       ] },
       { "segment": "1886428924", "subrefs": [
         { "name": "3", "start": 15134 }
+      ] }
+    ]
+  },
+  {
+    "name": "Star Citizen",
+    "category": "ongoing",
+    "id": "star-citizen",
+    "streams": [
+      { "segment": "1268793469", "subrefs": [
+        { "name": "1", "start": 1827 }
+      ] },
+      { "segment": "2406277677", "subrefs": [
+        { "name": "2", "start": 3695 }
       ] }
     ]
   }

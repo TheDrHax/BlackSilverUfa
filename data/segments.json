@@ -10335,9 +10335,9 @@
   },
   "1268793469": {
     "youtube": "zo1t89N-HUk", "abs_start": 0, "abs_end": 18841, "duration": 18841,
-    "name": "Star Citizen",
+    "name": "Star Citizen #1",
     "date": "2022-01-19",
-    "games": ["first-2022"],
+    "games": ["star-citizen"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1268793469.ass"
   },
   "1269805961": {
@@ -16427,5 +16427,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2405375731.torrent",
     "games": ["emergency-cleanup", "flashing-dark", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2405375731.ass"
+  },
+  "2406277677": {
+    "abs_start": 0, "abs_end": 25262, "duration": 25262,
+    "name": "Emergency Cleanup Co. #7 / Star Citizen #2",
+    "date": "2025-03-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2406277677.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2406277677.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2406277677.torrent",
+    "games": ["emergency-cleanup", "star-citizen"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2406277677.ass"
   }
 }
