@@ -15761,7 +15761,6 @@
     "youtube": "SSGO-s1UyMg", "vk": "-28387068_456250530", "abs_start": 0, "abs_end": 18303, "duration": 18303,
     "name": "Ratshaker #1 / Tales Beyond The Tomb: Pineville Night Stalker",
     "date": "2024-11-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2311507423.torrent",
     "games": ["ratshaker", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2311507423.ass"
   },
@@ -16435,5 +16434,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2406277677.torrent",
     "games": ["emergency-cleanup", "star-citizen"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2406277677.ass"
+  },
+  "2407222715": {
+    "abs_start": 0, "abs_end": 17930, "duration": 17930,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #10 / Backrooms Exploration (демо) / Project Hailstorm / Lobotrypo (демо) / The Boba Teashop (демо) / Centum / Gyoza / Hollowglass / Banned Tapes (демо) / Level 13 / ORDER 13 - Релиз",
+    "date": "2025-03-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2407222715.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2407222715.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2407222715.torrent",
+    "games": ["horrors-2025", "single-2025", "first-2025", "order-13"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2407222715.ass"
   }
 }
