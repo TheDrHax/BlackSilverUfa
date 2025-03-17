@@ -8806,7 +8806,7 @@
   },
   {
     "name": "Split Fiction (с Дашей)",
-    "category": "ongoing",
+    "category": "finished",
     "id": "split-fiction",
     "streams": [
       { "segment": "2399353737", "subrefs": [
@@ -8814,6 +8814,9 @@
       ] },
       { "segment": "2403688381", "subrefs": [
         { "name": "2", "start": 956 }
+      ] },
+      { "segment": "2408023676", "subrefs": [
+        { "name": "3", "start": 1473 }
       ] }
     ]
   },
