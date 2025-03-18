@@ -6050,6 +6050,9 @@
       ] },
       { "segment": "2402231265", "subrefs": [
         { "name": "11 (тест нового ПК)", "start": 405 }
+      ] },
+      { "segment": "2408851513", "subrefs": [
+        { "name": "12", "start": 17756 }
       ] }
     ]
   },
@@ -7197,8 +7200,7 @@
         { "name": "Home Sweet Home: Episode II", "start": 11075 }
       ] },
       { "segment": "499849877", "subrefs": [
-        { "name": "Cooking Simulator" },
-        { "name": "House Flipper", "start": 9461 }
+        { "name": "Cooking Simulator", "start": 1275 }
       ] },
       { "segment": "504248004", "subrefs": [
         { "name": "Need for Speed Heat" },
@@ -8788,6 +8790,9 @@
         { "name": "Centum", "start": 8269 },
         { "name": "Hollowglass", "start": 11064 },
         { "name": "Level 13", "start": 13251 }
+      ] },
+      { "segment": "2408851513", "subrefs": [
+        { "name": "The Call of Karen", "start": 1391 }
       ] }
     ]
   },
@@ -9102,6 +9107,9 @@
         { "name": "The Boba Teashop (демо)", "start": 7181 },
         { "name": "Gyoza", "start": 10170 },
         { "name": "Banned Tapes (демо)", "start": 12426 }
+      ] },
+      { "segment": "2408851513", "subrefs": [
+        { "name": "Half-Life 2 RTX (демо)", "start": 8029 }
       ] }
     ]
   },
@@ -17615,6 +17623,19 @@
       ] },
       { "segment": "2406277677", "subrefs": [
         { "name": "2", "start": 3695 }
+      ] }
+    ]
+  },
+  {
+    "name": "House Flipper",
+    "category": "ongoing",
+    "id": "house-flipper",
+    "streams": [
+      { "segment": "499849877", "subrefs": [
+        { "name": "1", "start": 9461 }
+      ] },
+      { "segment": "2408851513", "subrefs": [
+        { "name": "2", "start": 1894 }
       ] }
     ]
   }

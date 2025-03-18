@@ -5506,9 +5506,9 @@
   },
   "499849877": {
     "youtube": "gQec_qLEeCg", "official": false, "abs_start": 0, "abs_end": 14080, "duration": 14080,
-    "name": "Благотворительные стримы #5 / Cooking Simulator / House Flipper",
+    "name": "Благотворительные стримы #5 / Cooking Simulator / House Flipper #1",
     "date": "2019-10-26",
-    "games": ["charity", "first-2019"],
+    "games": ["charity", "first-2019", "house-flipper"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v499849877.ass"
   },
   "500334713": {
@@ -15779,7 +15779,6 @@
     "youtube": "JA9Z7RyNCMg", "vk": "-28387068_456250532", "abs_start": 0, "abs_end": 18189, "duration": 18189,
     "name": "Ratshaker #2 / Fullbright Presents: Toilet Spiders / Evil Holiday / Idea Fix #1 (демо) / UNHEIM / I'm on Observation Duty - Часть 7 #6",
     "date": "2024-11-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2313112515.torrent",
     "games": ["ratshaker", "single-2024", "idea-fix", "first-2024", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2313112515.ass"
   },
@@ -16453,5 +16452,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2408023676.torrent",
     "games": ["split-fiction"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2408023676.ass"
+  },
+  "2408851513": {
+    "abs_start": 0, "abs_end": 25347, "duration": 25347,
+    "name": "The Call of Karen / House Flipper #2 / Half-Life 2 RTX (демо) / Cyberpunk 2077 #12",
+    "date": "2025-03-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2408851513.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2408851513.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2408851513.torrent",
+    "games": ["first-2025", "house-flipper", "single-2025", "cyberpunk-2077"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2408851513.ass"
   }
 }
