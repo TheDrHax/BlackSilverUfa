@@ -15671,9 +15671,9 @@
   },
   "2291735052": {
     "youtube": "E2r1nstM1R8", "vk": "-28387068_456250517", "abs_start": 0, "abs_end": 18457, "duration": 18457,
-    "name": "Chorus of Carcosa (демо) / Level Headed / Invasion of The Halloween Fiends / Blind Exposure / Massacre At The Mirage #1 / Ells Tales: Egg #1 / Night Reception",
+    "name": "Chorus of Carcosa - Демо 1 / Level Headed / Invasion of The Halloween Fiends / Blind Exposure / Massacre At The Mirage #1 / Ells Tales: Egg #1 / Night Reception",
     "date": "2024-11-02",
-    "games": ["single-2024", "mgf-games", "massacre-mirage", "ells-tales-egg"],
+    "games": ["chorus-of-carcosa", "single-2024", "mgf-games", "massacre-mirage", "ells-tales-egg"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2291735052+0.ass"
   },
   "2292627138": {
@@ -15800,7 +15800,6 @@
     "youtube": "Ct_Hxd_xigQ", "abs_start": 0, "abs_end": 27215, "duration": 27215,
     "name": "Black Mesa - Blue Shift (глава 5) / Void Crew #1 / No More Room in Hell 2 (ранний доступ) #1 / Lethal Company #20",
     "date": "2024-12-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2315594499.torrent",
     "games": ["black-mesa", "void-crew", "nmrih2", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2315594499.ass"
   },
@@ -16466,5 +16465,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2409685874.torrent",
     "games": ["first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2409685874.ass"
+  },
+  "2413239862": {
+    "abs_start": 0, "abs_end": 21547, "duration": 21547,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #11 / The Backrooms: Forsaken / SCP: November 2010 / Midnight Taco / Abyss Under Lock / Look Outside / Chorus of Carcosa - Демо 2",
+    "date": "2025-03-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2413239862.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2413239862.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2413239862.torrent",
+    "games": ["horrors-2025", "single-2025", "first-2025", "chorus-of-carcosa"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2413239862.ass"
   }
 }

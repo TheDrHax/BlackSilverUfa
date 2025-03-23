@@ -8796,6 +8796,9 @@
       ] },
       { "segment": "2409685874", "subrefs": [
         { "name": "Assassin's Creed Shadows", "start": 395 }
+      ] },
+      { "segment": "2413239862", "subrefs": [
+        { "name": "Look Outside", "start": 15756 }
       ] }
     ]
   },
@@ -9113,6 +9116,12 @@
       ] },
       { "segment": "2408851513", "subrefs": [
         { "name": "Half-Life 2 RTX (демо)", "start": 8029 }
+      ] },
+      { "segment": "2413239862", "subrefs": [
+        { "name": "The Backrooms: Forsaken", "start": 4781 },
+        { "name": "SCP: November 2010", "start": 11859 },
+        { "name": "Midnight Taco", "start": 13607 },
+        { "name": "Abyss Under Lock", "start": 14607 }
       ] }
     ]
   },
@@ -10002,7 +10011,6 @@
         { "name": "Puppet House", "start": 4652 }
       ] },
       { "segment": "2291735052", "subrefs": [
-        { "name": "Chorus of Carcosa (демо)", "start": 2994 },
         { "name": "Level Headed", "start": 4833 },
         { "name": "Blind Exposure", "start": 9823 },
         { "name": "Night Reception", "start": 16264 }
@@ -16823,6 +16831,9 @@
       ] },
       { "segment": "2407222715", "subrefs": [
         { "name": "10" }
+      ] },
+      { "segment": "2413239862", "subrefs": [
+        { "name": "11" }
       ] }
     ]
   },
@@ -17639,6 +17650,19 @@
       ] },
       { "segment": "2408851513", "subrefs": [
         { "name": "2", "start": 1894 }
+      ] }
+    ]
+  },
+  {
+    "name": "Chorus of Carcosa",
+    "category": "ongoing",
+    "id": "chorus-of-carcosa",
+    "streams": [
+      { "segment": "2291735052", "subrefs": [
+        { "name": "Демо 1", "start": 2994 }
+      ] },
+      { "segment": "2413239862", "subrefs": [
+        { "name": "Демо 2", "start": 17850 }
       ] }
     ]
   }
