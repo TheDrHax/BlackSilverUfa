@@ -15807,7 +15807,6 @@
     "youtube": "mnS-1_UpYQ4", "vk": "-28387068_456250536", "abs_start": 0, "abs_end": 29172, "duration": 29172,
     "name": "No More Room in Hell 2 (ранний доступ) #2 / I'm on Observation Duty - Часть 7 #8 / Void Crew #2 / Lethal Company #21",
     "date": "2024-12-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2316412703.torrent",
     "games": ["nmrih2", "observation-duty", "void-crew", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2316412703.ass"
   },
@@ -16473,5 +16472,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2413239862.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025", "chorus-of-carcosa"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2413239862.ass"
+  },
+  "2414091659": {
+    "abs_start": 0, "abs_end": 20092, "duration": 20092,
+    "name": "inZOI (демо) / Atomfall",
+    "date": "2025-03-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2414091659.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2414091659.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2414091659.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2414091659.ass"
   }
 }
