@@ -11441,9 +11441,9 @@
   },
   "1608110648": {
     "youtube": "meMjRuDzijQ", "official": false, "abs_start": 0, "abs_end": 23134, "duration": 23134,
-    "name": "Dark Light / Apocalyptic Vibes - Демо / Electrician Simulator / Priest Simulator / The Bathhouse",
+    "name": "Dark Light / Apocalyptic Vibes - Демо / Electrician Simulator #1 / Priest Simulator / The Bathhouse",
     "date": "2022-10-03",
-    "games": ["first-2022", "apocalyptic-vibes", "chillas-art"],
+    "games": ["first-2022", "apocalyptic-vibes", "electirian-sim", "chillas-art"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v1608110648+0.ass",
     "note": "<a href=\"https://youtu.be/rw8-SAr4KBw\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -16475,12 +16475,22 @@
   },
   "2414091659": {
     "vk": "-28387068_456250681", "abs_start": 0, "abs_end": 20092, "duration": 20092,
-    "name": "inZOI (демо) / Atomfall",
+    "name": "inZOI #1 / Atomfall",
     "date": "2025-03-24",
     "direct": "https://bsufiles.drhx.ru/streams/2414091659.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2414091659.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2414091659.torrent",
-    "games": ["first-2025"],
+    "games": ["inzoi", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2414091659.ass"
+  },
+  "2414922417": {
+    "abs_start": 0, "abs_end": 19724, "duration": 19724,
+    "name": "Electrician Simulator #2 / inZOI #2 / Only Way is Down",
+    "date": "2025-03-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2414922417.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2414922417.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2414922417.torrent",
+    "games": ["electirian-sim", "inzoi", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2414922417.ass"
   }
 }

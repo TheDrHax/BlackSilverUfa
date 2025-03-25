@@ -7885,7 +7885,6 @@
       ] },
       { "segment": "1608110648", "subrefs": [
         { "name": "Dark Light", "start": 938 },
-        { "name": "Electrician Simulator", "start": 7740 },
         { "name": "Priest Simulator", "start": 13223 }
       ] },
       { "segment": "1614024019", "subrefs": [
@@ -8801,8 +8800,10 @@
         { "name": "Look Outside", "start": 15756 }
       ] },
       { "segment": "2414091659", "subrefs": [
-        { "name": "inZOI (демо)", "start": 1328 },
         { "name": "Atomfall", "start": 6048 }
+      ] },
+      { "segment": "2414922417", "subrefs": [
+        { "name": "Only Way is Down", "start": 16069 }
       ] }
     ]
   },
@@ -17667,6 +17668,32 @@
       ] },
       { "segment": "2413239862", "subrefs": [
         { "name": "Демо 2", "start": 17850 }
+      ] }
+    ]
+  },
+  {
+    "name": "Electrician Simulator",
+    "category": "ongoing",
+    "id": "electirian-sim",
+    "streams": [
+      { "segment": "1608110648", "subrefs": [
+        { "name": "1", "start": 7740 }
+      ] },
+      { "segment": "2414922417", "subrefs": [
+        { "name": "2", "start": 2498 }
+      ] }
+    ]
+  },
+  {
+    "name": "inZOI",
+    "category": "ongoing",
+    "id": "inzoi",
+    "streams": [
+      { "segment": "2414091659", "subrefs": [
+        { "name": "1", "start": 1328 }
+      ] },
+      { "segment": "2414922417", "subrefs": [
+        { "name": "2", "start": 7699 }
       ] }
     ]
   }
