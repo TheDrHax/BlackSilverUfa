@@ -15814,7 +15814,6 @@
     "youtube": "YwVFfAXEKyM", "vk": "-28387068_456250538", "abs_start": 0, "abs_end": 18403, "duration": 18403,
     "name": "Bober Bros: The Hole / Unknown Tapes - Релиз / Madness Inside / Forest Ranger Services: The Pilot",
     "date": "2024-12-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2318829596.torrent",
     "games": ["bober", "unknown-tapes", "first-2024", "single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2318829596.ass"
   },
@@ -16492,5 +16491,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2414922417.torrent",
     "games": ["electirian-sim", "inzoi", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2414922417.ass"
+  },
+  "2415788561": {
+    "abs_start": 0, "abs_end": 18079, "duration": 18079,
+    "name": "Electrician Simulator #3 / PIONER / Shadow of the Road (демо)",
+    "date": "2025-03-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2415788561.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2415788561.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2415788561.torrent",
+    "games": ["electirian-sim", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2415788561.ass"
   }
 }
