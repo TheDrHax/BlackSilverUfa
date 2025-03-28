@@ -8808,6 +8808,10 @@
       { "segment": "2415788561", "subrefs": [
         { "name": "PIONER", "start": 4974 },
         { "name": "Shadow of the Road (демо)", "start": 15603 }
+      ] },
+      { "segment": "2417484051", "subrefs": [
+        { "name": "DOOMED Detective Game", "start": 19332 },
+        { "name": "Wreckfest 2", "start": 19743 }
       ] }
     ]
   },
@@ -9131,6 +9135,10 @@
         { "name": "SCP: November 2010", "start": 11859 },
         { "name": "Midnight Taco", "start": 13607 },
         { "name": "Abyss Under Lock", "start": 14607 }
+      ] },
+      { "segment": "2417484051", "subrefs": [
+        { "name": "Car Repair (демо)", "start": 1906 },
+        { "name": "Drive Beyond Horizons", "start": 6185 }
       ] }
     ]
   },

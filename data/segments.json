@@ -15821,7 +15821,6 @@
     "youtube": "f5z0AIy7gjA", "vk": "-28387068_456250539", "abs_start": 0, "abs_end": 30200, "duration": 30200,
     "name": "Indiana Jones and the Great Circle #1",
     "date": "2024-12-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2319595408.torrent",
     "games": ["indiana-jones-tgc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2319595408.ass"
   },
@@ -16493,5 +16492,14 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2415788561.torrent",
     "games": ["electirian-sim", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2415788561.ass"
+  },
+  "2417484051": {
+    "abs_start": 0, "abs_end": 22710, "duration": 22710,
+    "name": "Car Repair (демо) / Drive Beyond Horizons / DOOMED Detective Game / Wreckfest 2",
+    "date": "2025-03-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2417484051.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2417484051.mp4/master.m3u8",
+    "games": ["single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2417484051.ass"
   }
 }
