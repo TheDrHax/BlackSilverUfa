@@ -787,6 +787,9 @@
         { "name": "Emissary Zero", "start": 18390 },
         { "name": "Pit of Goblin", "start": 21720 },
         { "name": "Biped 2 (демо)", "start": 24533 }
+      ] },
+      { "segment": "2418438204", "subrefs": [
+        { "name": "R.E.P.O.", "start": 8295 }
       ] }
     ]
   },
@@ -17696,6 +17699,9 @@
       ] },
       { "segment": "2415788561", "subrefs": [
         { "name": "3", "start": 1148 }
+      ] },
+      { "segment": "2418438204", "subrefs": [
+        { "name": "4", "start": 2074 }
       ] }
     ]
   },

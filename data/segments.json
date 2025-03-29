@@ -15828,7 +15828,6 @@
     "youtube": "SSgsjTo_FGE", "vk": "-28387068_456250540", "abs_start": 0, "abs_end": 28980, "duration": 28980,
     "name": "Indiana Jones and the Great Circle #2",
     "date": "2024-12-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2320517980.torrent",
     "games": ["indiana-jones-tgc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2320517980+0.ass"
   },
@@ -16501,5 +16500,15 @@
     "hls": "https://bsufiles.drhx.ru/streams/2417484051.mp4/master.m3u8",
     "games": ["single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2417484051.ass"
+  },
+  "2418438204": {
+    "abs_start": 0, "abs_end": 22696, "duration": 22696,
+    "name": "Electrician Simulator #4 / R.E.P.O.",
+    "date": "2025-03-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2418438204.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2418438204.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2418438204.torrent",
+    "games": ["electirian-sim", "co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2418438204.ass"
   }
 }
