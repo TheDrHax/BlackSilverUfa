@@ -13596,9 +13596,9 @@
   },
   "1949027899": {
     "youtube": "3fg9C1RGrQA", "abs_start": 0, "abs_end": 21507, "duration": 21507,
-    "name": "April '86 (демо) / ONE WAY HOME (демо) / Pine Harbor - Демо / The Bridge Curse 2: The Extrication - Демо / Hollow Coccoon - Демо / Chiyo (демо) / Nevermind This (демо) / Paranormal Records (демо)",
+    "name": "April '86 (демо) / One Way Home (демо) - Демо 1 / Pine Harbor - Демо / The Bridge Curse 2: The Extrication - Демо / Hollow Coccoon - Демо / Chiyo (демо) / Nevermind This (демо) / Paranormal Records (демо)",
     "date": "2023-10-12",
-    "games": ["single-2023", "pine-harbor", "bridge-curse-2", "hollow-coccoon", "first-2023"],
+    "games": ["single-2023", "one-way-home", "pine-harbor", "bridge-curse-2", "hollow-coccoon", "first-2023"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1949027899.ass"
   },
   "1949835858": {
@@ -15835,7 +15835,6 @@
     "youtube": "9RalA_4lxy4", "vk": "-28387068_456250541", "abs_start": 0, "abs_end": 29316, "duration": 29316,
     "name": "Indiana Jones and the Great Circle #3",
     "date": "2024-12-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2321452790.torrent",
     "games": ["indiana-jones-tgc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2321452790.ass"
   },
@@ -16506,5 +16505,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2418438204.torrent",
     "games": ["electirian-sim", "co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2418438204.ass"
+  },
+  "2419376159": {
+    "abs_start": 0, "abs_end": 12249, "duration": 12249,
+    "name": "",
+    "date": "2025-03-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2419376159.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2419376159.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2419376159.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2419376159.ass"
+  },
+  "2419517419": {
+    "abs_start": 0, "abs_end": 6733, "duration": 6733,
+    "name": "",
+    "date": "2025-03-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2419517419.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2419517419.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2419517419.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2419517419.ass"
+  },
+  "2419376159,2419517419": {
+    "abs_start": 0, "abs_end": 18981, "duration": 18981,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #12 / Backrooms: New Gate / HR: Human Remains (демо) / Trucker Horror / The Stalked 2 / One Way Home (демо) - Демо 2 / Overtime Anomaly / The Curse of Beatriz",
+    "date": "2025-03-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2419376159,2419517419.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2419376159,2419517419.mp4/master.m3u8",
+    "offsets": ["0:00", "3:24:07+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2419376159,2419517419.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025", "one-way-home"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2419376159,2419517419+0.ass"
   }
 }
