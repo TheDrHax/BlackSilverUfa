@@ -15842,7 +15842,6 @@
     "youtube": "_-gdXfVrc-U", "vk": "-28387068_456250543", "abs_start": 0, "abs_end": 22098, "duration": 22098,
     "name": "Indiana Jones and the Great Circle #4",
     "date": "2024-12-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2322305322.torrent",
     "games": ["indiana-jones-tgc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2322305322.ass"
   },
@@ -16536,5 +16535,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2419376159,2419517419.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "one-way-home"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2419376159,2419517419+0.ass"
+  },
+  "2420220429": {
+    "abs_start": 0, "abs_end": 18442, "duration": 18442,
+    "name": "House Flipper 2 (с Дашей)",
+    "date": "2025-03-31",
+    "direct": "https://bsufiles.drhx.ru/streams/2420220429.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2420220429.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2420220429.torrent",
+    "games": ["co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2420220429.ass"
   }
 }
