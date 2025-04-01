@@ -15849,7 +15849,6 @@
     "youtube": "aNL3vRBewoI", "vk": "-28387068_456250544", "abs_start": 0, "abs_end": 20123, "duration": 20123,
     "name": "Go Home Annie: An SCP Game #1",
     "date": "2024-12-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2323151072.torrent",
     "games": ["go-home-annie"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2323151072.ass"
   },
@@ -16541,5 +16540,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2420220429.torrent",
     "games": ["co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2420220429.ass"
+  },
+  "2421079975": {
+    "abs_start": 0, "abs_end": 15946, "duration": 15946,
+    "name": "Vaudeville #3 / iDigging / Party Animals #11 (с Димами)",
+    "date": "2025-04-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2421079975.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2421079975.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2421079975.torrent",
+    "games": ["vaudeville", "single-2025", "party-animals"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2421079975.ass"
   }
 }
