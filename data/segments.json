@@ -15863,7 +15863,6 @@
     "youtube": "V6SmzHGpF4o", "vk": "-28387068_456250546", "abs_start": 0, "abs_end": 27406, "duration": 27406,
     "name": "MiSide #2 / I'm on Observation Duty - Часть 7 #9 / Fast Food Simulator / Zort / Make Way",
     "date": "2024-12-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2324789015.torrent",
     "games": ["miside", "observation-duty", "co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2324789015.ass"
   },
@@ -16576,5 +16575,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2421947533,2422099767.torrent",
     "games": ["horrors-2025", "expos", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2421947533,2422099767+0.ass"
+  },
+  "2422801689": {
+    "abs_start": 0, "abs_end": 11010, "duration": 11010,
+    "name": "Alien: Isolation (мод AlienS IsolatioN) #4",
+    "date": "2025-04-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2422801689.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2422801689.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2422801689.torrent",
+    "games": ["aliens-isolation"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2422801689.ass"
   }
 }
