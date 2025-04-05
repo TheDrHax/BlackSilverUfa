@@ -8828,6 +8828,10 @@
       { "segment": "2421947533,2422099767", "subrefs": [
         { "name": "Silverpine Creek", "start": 6235 },
         { "name": "Sinfeld: Evil Resident", "start": 11387 }
+      ] },
+      { "segment": "2424644952", "subrefs": [
+        { "name": "VIDeoPHOBIA", "start": 12663 },
+        { "name": "OVERDOSE", "start": 15009 }
       ] }
     ]
   },
@@ -9172,6 +9176,14 @@
         { "name": "My Dear Sheep", "start": 14670 },
         { "name": "Reverend", "start": 15099 },
         { "name": "Veins of Darkness", "start": 15972 }
+      ] },
+      { "segment": "2424644952", "subrefs": [
+        { "name": "Hellcam", "start": 3562 },
+        { "name": "MosGhost", "start": 4282 },
+        { "name": "Uncanny Tales: Cold Road", "start": 7007 },
+        { "name": "Forbidden Eye", "start": 11132 },
+        { "name": "Needle Sleep", "start": 11922 },
+        { "name": "Where the Walls Breathe", "start": 16247 }
       ] }
     ]
   },
@@ -11998,7 +12010,7 @@
         { "name": "3", "start": 2859 }
       ] },
       { "segment": "2422801689", "subrefs": [
-        { "name": "4" }
+        { "name": "4", "start": 1171 }
       ] }
     ]
   },
@@ -16899,6 +16911,9 @@
       ] },
       { "segment": "2421947533,2422099767", "subrefs": [
         { "name": "13" }
+      ] },
+      { "segment": "2424644952", "subrefs": [
+        { "name": "14" }
       ] }
     ]
   },
