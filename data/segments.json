@@ -2747,7 +2747,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286171438.ass"
   },
   "286989766": {
-    "youtube": "Rultk81cezI", "abs_start": -4, "abs_end": 11536, "duration": 11540,
+    "youtube": "Ak64Y8UHzr4", "official": false, "abs_start": -4, "abs_end": 11535, "duration": 11539,
     "name": "S.T.A.L.K.E.R.: Clear Sky + Mystery #2",
     "date": "2018-07-20",
     "games": ["stalker-cs"],
@@ -2921,9 +2921,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293012700.ass"
   },
   "293415850": {
-    "youtube": "vE38irVbcAI", "official": false, "abs_start": 0, "abs_end": 20784, "duration": 20784,
+    "abs_start": 0, "abs_end": 20783, "duration": 20783,
     "name": "Dead Forest / PUSS! / Chasm / Airships: Conquer the Skies / CASE 2: Animatronics Survival #2 / Escape From Tarkov #5",
     "date": "2018-08-05",
+    "direct": "https://bsufiles.drhx.ru/streams/293415850.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/293415850.mp4/master.m3u8",
     "games": ["single-2018", "first-2018", "case-2", "tarkov"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v293415850.ass"
   },
@@ -4847,9 +4849,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v442647463+0.ass"
   },
   "443118072": {
-    "youtube": "dH2BbOVhOi4", "abs_start": 0, "abs_end": 16548, "duration": 16548,
+    "abs_start": 0, "abs_end": 16548, "duration": 16548,
     "name": "Minecraft (кооп) #1",
     "date": "2019-06-23",
+    "direct": "https://bsufiles.drhx.ru/streams/443118072.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/443118072.mp4/master.m3u8",
     "games": ["minecraft-coop"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v443118072.ass"
   },
