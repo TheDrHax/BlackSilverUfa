@@ -15881,7 +15881,6 @@
     "youtube": "YzTe1HcFpXE", "vk": "-28387068_456250550", "abs_start": 0, "abs_end": 19542, "duration": 19542,
     "name": "The Cabin Factory / Scauage / Paragnosia / Blood Cleaner / Satanic (демо)",
     "date": "2024-12-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2328201934.torrent",
     "games": ["single-2024"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2328201934.ass"
   },
@@ -16598,5 +16597,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2424644952.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2424644952.ass"
+  },
+  "2425592645": {
+    "abs_start": 0, "abs_end": 18067, "duration": 18067,
+    "name": "Pink Panther: Pinkadelic Pursuit (Розовая Пантера: Розовая погоня) / Ace Ventura",
+    "date": "2025-04-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2425592645.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2425592645.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2425592645.torrent",
+    "games": ["single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2425592645.ass"
   }
 }
