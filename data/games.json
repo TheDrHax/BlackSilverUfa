@@ -8835,6 +8835,9 @@
       ] },
       { "segment": "2425592645", "subrefs": [
         { "name": "Ace Ventura", "start": 13154 }
+      ] },
+      { "segment": "2428159105", "subrefs": [
+        { "name": "Half Sword (демо)", "start": 9082 }
       ] }
     ]
   },
@@ -9190,6 +9193,9 @@
       ] },
       { "segment": "2425592645", "subrefs": [
         { "name": "Pink Panther: Pinkadelic Pursuit (Розовая Пантера: Розовая погоня)", "start": 1392 }
+      ] },
+      { "segment": "2428159105", "subrefs": [
+        { "name": "METAL EDEN (демо)", "start": 4463 }
       ] }
     ]
   },
@@ -17768,6 +17774,9 @@
       ] },
       { "segment": "2418438204", "subrefs": [
         { "name": "4", "start": 2074 }
+      ] },
+      { "segment": "2428159105", "subrefs": [
+        { "name": "5", "start": 1139 }
       ] }
     ]
   },
