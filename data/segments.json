@@ -15895,7 +15895,6 @@
     "youtube": "EMnATK6nFHY", "vk": "-28387068_456250553", "abs_start": 0, "abs_end": 22308, "duration": 22308,
     "name": "The Evil Within #6 (Акуму)",
     "date": "2024-12-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2329787702.torrent",
     "games": ["evil_within"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2329787702.ass"
   },
@@ -16242,10 +16241,10 @@
   },
   "2381722688": {
     "youtube": "c2OFx639sEM", "vk": "-28387068_456250630", "abs_start": 0, "abs_end": 31383, "duration": 31383,
-    "name": "Elden Ring #25 (Nightreign, network test #2) / Lucky Tower Ultimate #17 / Treasure Hunters / Emissary Zero / Pit of Goblin / Biped 2 (демо)",
+    "name": "Elden Ring #25 (Nightreign, network test #2) / Lucky Tower Ultimate #17 / Treasure Hunters / Emissary Zero #1 / Pit of Goblin / Biped 2 (демо)",
     "date": "2025-02-15",
     "torrent": "https://bsufiles.drhx.ru/streams/2381722688.torrent",
-    "games": ["elden-ring", "lucky-tower", "co-op"],
+    "games": ["elden-ring", "lucky-tower", "co-op", "emissary-0"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2381722688.ass"
   },
   "2382739461": {
@@ -16609,10 +16608,19 @@
   },
   "2428159105": {
     "youtube": "Q_4kDWCEwWM", "vk": "-28387068_456250705", "abs_start": 0, "abs_end": 21363, "duration": 21363,
-    "name": "Electrician Simulator #5 / METAL EDEN (демо) / Half Sword (демо)",
+    "name": "Electrician Simulator #5 / METAL EDEN (демо) / Half Sword (демо) #1",
     "date": "2025-04-09",
     "torrent": "https://bsufiles.drhx.ru/streams/2428159105.torrent",
-    "games": ["electirian-sim", "single-2025", "first-2025"],
+    "games": ["electirian-sim", "single-2025", "half-sword"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2428159105.ass"
+  },
+  "2429013341": {
+    "abs_start": 0, "abs_end": 24844, "duration": 24844,
+    "name": "Sunset Motel (демо) / Half Sword (демо) #2 / Pushing It! Together: Sisyphus Co-Op / Emissary Zero #2",
+    "date": "2025-04-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2429013341.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2429013341.mp4/master.m3u8",
+    "games": ["first-2025", "half-sword", "co-op", "emissary-0"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2429013341.ass"
   }
 }
