@@ -8840,6 +8840,9 @@
       ] },
       { "segment": "2429013341", "subrefs": [
         { "name": "Sunset Motel (демо)", "start": 840 }
+      ] },
+      { "segment": "2429872307", "subrefs": [
+        { "name": "Blue Prince", "start": 5724 }
       ] }
     ]
   },
@@ -17818,6 +17821,10 @@
       ] },
       { "segment": "2429013341", "subrefs": [
         { "name": "2", "start": 3610 }
+      ] },
+      { "segment": "2429872307", "subrefs": [
+        { "name": "3", "start": 700 },
+        { "name": "3 (продолжение)", "start": 16098, "hidden": true }
       ] }
     ]
   },
