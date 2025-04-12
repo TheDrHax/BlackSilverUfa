@@ -787,9 +787,6 @@
         { "name": "Pit of Goblin", "start": 21720 },
         { "name": "Biped 2 (демо)", "start": 24533 }
       ] },
-      { "segment": "2418438204", "subrefs": [
-        { "name": "R.E.P.O.", "start": 8295 }
-      ] },
       { "segment": "2420220429", "subrefs": [
         { "name": "House Flipper 2 (с Дашей)", "start": 879 }
       ] },
@@ -17825,6 +17822,9 @@
       { "segment": "2429872307", "subrefs": [
         { "name": "3", "start": 700 },
         { "name": "3 (продолжение)", "start": 16098, "hidden": true }
+      ] },
+      { "segment": "2430812705", "subrefs": [
+        { "name": "4", "start": 907 }
       ] }
     ]
   },
@@ -17838,6 +17838,19 @@
       ] },
       { "segment": "2429013341", "subrefs": [
         { "name": "2", "start": 15102 }
+      ] }
+    ]
+  },
+  {
+    "name": "R.E.P.O.",
+    "category": "co-op",
+    "id": "repo",
+    "streams": [
+      { "segment": "2418438204", "subrefs": [
+        { "name": "R.E.P.O.", "start": 8295 }
+      ] },
+      { "segment": "2430812705", "subrefs": [
+        { "name": "R.E.P.O.", "start": 6937 }
       ] }
     ]
   }

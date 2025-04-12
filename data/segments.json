@@ -15909,7 +15909,6 @@
     "youtube": "cWr8ovsm0mc", "vk": "-28387068_456250556", "abs_start": 0, "abs_end": 18781, "duration": 18781,
     "name": "Tales Beyond The Tomb: The Farm's Secret / Christmas Mutilator / I'm on Observation Duty - Часть 7 #10",
     "date": "2024-12-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2334057711.torrent",
     "games": ["616-games", "single-2024", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2334057711.ass"
   },
@@ -16495,10 +16494,10 @@
   },
   "2418438204": {
     "youtube": "96aVjEjGO2o", "vk": "-28387068_456250687", "abs_start": 0, "abs_end": 22697, "duration": 22697,
-    "name": "Electrician Simulator #4 / R.E.P.O.",
+    "name": "Electrician Simulator #4 / R.E.P.O. - R.E.P.O.",
     "date": "2025-03-29",
     "torrent": "https://bsufiles.drhx.ru/streams/2418438204.torrent",
-    "games": ["electirian-sim", "co-op"],
+    "games": ["electirian-sim", "repo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2418438204.ass"
   },
   "2419376159": {
@@ -16621,5 +16620,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2429872307.torrent",
     "games": ["half-sword", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2429872307.ass"
+  },
+  "2430812705": {
+    "abs_start": 0, "abs_end": 23518, "duration": 23518,
+    "name": "Half Sword (демо) #4 / R.E.P.O. - R.E.P.O.",
+    "date": "2025-04-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2430812705.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2430812705.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2430812705.torrent",
+    "games": ["half-sword", "repo"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2430812705.ass"
   }
 }
