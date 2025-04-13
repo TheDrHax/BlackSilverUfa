@@ -15916,7 +15916,6 @@
     "youtube": "UEZKtYmMJXo", "vk": "-28387068_456250558", "abs_start": 0, "abs_end": 19764, "duration": 19764,
     "name": "Nancy Drew: The Phantom of Venice (Нэнси Дрю. Призрак Венеции) #1",
     "date": "2024-12-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2334886719.torrent",
     "games": ["nancy-drew-pov"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2334886719.ass"
   },
@@ -16423,10 +16422,10 @@
   },
   "2407222715": {
     "youtube": "PiazK-3bpIs", "vk": "-28387068_456250670", "abs_start": 0, "abs_end": 17931, "duration": 17931,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #10 / Backrooms Exploration (демо) / Project Hailstorm / Lobotrypo (демо) / The Boba Teashop (демо) / Centum / Gyoza / Hollowglass / Banned Tapes (демо) / Level 13 / ORDER 13 - Релиз",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #10 / Backrooms Exploration - Демо / Project Hailstorm / Lobotrypo (демо) / The Boba Teashop (демо) / Centum / Gyoza / Hollowglass / Banned Tapes (демо) / Level 13 / ORDER 13 - Релиз",
     "date": "2025-03-16",
     "torrent": "https://bsufiles.drhx.ru/streams/2407222715.torrent",
-    "games": ["horrors-2025", "single-2025", "first-2025", "order-13"],
+    "games": ["horrors-2025", "backrooms-expl", "single-2025", "first-2025", "order-13"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2407222715.ass"
   },
   "2408023676": {
@@ -16628,5 +16627,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2430812705.torrent",
     "games": ["half-sword", "repo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2430812705.ass"
+  },
+  "2431763545": {
+    "abs_start": 0, "abs_end": 20311, "duration": 20311,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #15 / Backrooms Exploration - Прохождение / Burial / Blood Bark / Shock (демо) / CloverPit (демо) / Project SEVER (демо)",
+    "date": "2025-04-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2431763545.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2431763545.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2431763545.torrent",
+    "games": ["horrors-2025", "backrooms-expl", "single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2431763545.ass"
   }
 }
