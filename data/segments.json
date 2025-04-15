@@ -16644,5 +16644,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2433416193.torrent",
     "games": ["blue-prince", "first-2025", "half-sword"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2433416193.ass"
+  },
+  "2433841442": {
+    "abs_start": 0, "abs_end": 4507, "duration": 4507,
+    "name": "Half Sword (демо) #6 (ночной стрим)",
+    "date": "2025-04-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2433841442.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2433841442.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2433841442.torrent",
+    "games": ["half-sword"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2433841442.ass"
   }
 }
