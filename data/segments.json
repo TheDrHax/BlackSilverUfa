@@ -15923,7 +15923,6 @@
     "youtube": "-jkAmUu5e5M", "vk": "-28387068_456250560", "abs_start": 0, "abs_end": 20158, "duration": 20158,
     "name": "Nancy Drew: The Phantom of Venice (Нэнси Дрю. Призрак Венеции) #2",
     "date": "2024-12-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2335583863.torrent",
     "games": ["nancy-drew-pov"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2335583863.ass"
   },
@@ -16614,10 +16613,10 @@
   },
   "2429872307": {
     "youtube": "BQqo9J_BTU4", "vk": "-28387068_456250709", "abs_start": 0, "abs_end": 21092, "duration": 21092,
-    "name": "Half Sword (демо) #3 / Blue Prince",
+    "name": "Half Sword (демо) #3 / Blue Prince #1",
     "date": "2025-04-11",
     "torrent": "https://bsufiles.drhx.ru/streams/2429872307.torrent",
-    "games": ["half-sword", "first-2025"],
+    "games": ["half-sword", "blue-prince"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2429872307.ass"
   },
   "2430812705": {
@@ -16635,5 +16634,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2431763545.torrent",
     "games": ["horrors-2025", "backrooms-expl", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2431763545.ass"
+  },
+  "2433416193": {
+    "abs_start": 0, "abs_end": 24837, "duration": 24837,
+    "name": "Blue Prince #2 / Into the Dead: Our Darkest Days / Half Sword (демо) #5",
+    "date": "2025-04-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2433416193.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2433416193.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2433416193.torrent",
+    "games": ["blue-prince", "first-2025", "half-sword"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2433416193.ass"
   }
 }

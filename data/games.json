@@ -8838,12 +8838,12 @@
       { "segment": "2429013341", "subrefs": [
         { "name": "Sunset Motel (демо)", "start": 840 }
       ] },
-      { "segment": "2429872307", "subrefs": [
-        { "name": "Blue Prince", "start": 5724 }
-      ] },
       { "segment": "2431763545", "subrefs": [
         { "name": "CloverPit (демо)", "start": 12709 },
         { "name": "Project SEVER (демо)", "start": 14212 }
+      ] },
+      { "segment": "2433416193", "subrefs": [
+        { "name": "Into the Dead: Our Darkest Days", "start": 14565 }
       ] }
     ]
   },
@@ -17836,6 +17836,9 @@
       ] },
       { "segment": "2430812705", "subrefs": [
         { "name": "4", "start": 907 }
+      ] },
+      { "segment": "2433416193", "subrefs": [
+        { "name": "5", "start": 19443 }
       ] }
     ]
   },
@@ -17875,6 +17878,19 @@
       ] },
       { "segment": "2431763545", "subrefs": [
         { "name": "Прохождение", "start": 1430 }
+      ] }
+    ]
+  },
+  {
+    "name": "Blue Prince",
+    "category": "ongoing",
+    "id": "blue-prince",
+    "streams": [
+      { "segment": "2429872307", "subrefs": [
+        { "name": "1", "start": 5724 }
+      ] },
+      { "segment": "2433416193", "subrefs": [
+        { "name": "2", "start": 708 }
       ] }
     ]
   }
