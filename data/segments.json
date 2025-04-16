@@ -15939,7 +15939,6 @@
     "youtube": "BaJw6qPJd7U", "vk": "-28387068_456250564", "abs_start": 0, "abs_end": 23043, "duration": 23043,
     "name": "Liminal Shift / Carry The Glass #2 / Super Bunny Man #2",
     "date": "2024-12-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2337138336.torrent",
     "games": ["first-2024", "carry-the-glass", "super-bunny-man"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2337138336.ass"
   },
@@ -16655,5 +16654,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2433841442.torrent",
     "games": ["half-sword"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2433841442.ass"
+  },
+  "2434299325": {
+    "abs_start": 0, "abs_end": 24002, "duration": 24002,
+    "name": "Blue Prince #3 / Half Sword (демо) #7",
+    "date": "2025-04-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2434299325.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2434299325.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2434299325.torrent",
+    "games": ["blue-prince", "half-sword"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2434299325+0.ass"
   }
 }
