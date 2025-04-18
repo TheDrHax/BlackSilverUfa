@@ -8609,8 +8609,7 @@
         { "name": "Dragon Age: The Veilguard" }
       ] },
       { "segment": "2298341279", "subrefs": [
-        { "name": "That Time I Got Trapped", "start": 8699 },
-        { "name": "White Knuckle", "start": 11777 }
+        { "name": "That Time I Got Trapped", "start": 8699 }
       ] },
       { "segment": "2299110802", "subrefs": [
         { "name": "Slitterhead", "start": 669 },
@@ -8844,6 +8843,10 @@
       ] },
       { "segment": "2433416193", "subrefs": [
         { "name": "Into the Dead: Our Darkest Days", "start": 14565 }
+      ] },
+      { "segment": "2436090384", "subrefs": [
+        { "name": "Haunted House Renovator (демо)", "start": 3072 },
+        { "name": "Mandragora: Whispers of the Witch Tree", "start": 6795 }
       ] }
     ]
   },
@@ -8962,7 +8965,7 @@
   },
   {
     "name": "Undead Realm: Ego",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "undead-realm-ego",
     "streams": [
       { "segment": "2351321587", "subrefs": [
@@ -17845,6 +17848,9 @@
       ] },
       { "segment": "2434299325", "subrefs": [
         { "name": "7", "start": 14583 }
+      ] },
+      { "segment": "2436090384", "subrefs": [
+        { "name": "8", "start": 19566 }
       ] }
     ]
   },
@@ -17900,6 +17906,22 @@
       ] },
       { "segment": "2434299325", "subrefs": [
         { "name": "3", "start": 765 }
+      ] },
+      { "segment": "2436090384", "subrefs": [
+        { "name": "4", "start": 11696 }
+      ] }
+    ]
+  },
+  {
+    "name": "White Knuckle",
+    "category": "ongoing",
+    "id": "white-knuckle",
+    "streams": [
+      { "segment": "2298341279", "subrefs": [
+        { "name": "Демо", "start": 11777 }
+      ] },
+      { "segment": "2436090384", "subrefs": [
+        { "name": "Релиз", "start": 3600 }
       ] }
     ]
   }
