@@ -787,9 +787,6 @@
         { "name": "Pit of Goblin", "start": 21720 },
         { "name": "Biped 2 (демо)", "start": 24533 }
       ] },
-      { "segment": "2420220429", "subrefs": [
-        { "name": "House Flipper 2 (с Дашей)", "start": 879 }
-      ] },
       { "segment": "2429013341", "subrefs": [
         { "name": "Pushing It! Together: Sisyphus Co-Op", "start": 8507 }
       ] }
@@ -17922,6 +17919,19 @@
       ] },
       { "segment": "2436090384", "subrefs": [
         { "name": "Релиз", "start": 3600 }
+      ] }
+    ]
+  },
+  {
+    "name": "House Flipper 2 (с Дашей)",
+    "category": "co-op",
+    "id": "house-flipper-2",
+    "streams": [
+      { "segment": "2420220429", "subrefs": [
+        { "name": "1", "start": 879 }
+      ] },
+      { "segment": "2437029851", "subrefs": [
+        { "name": "2", "start": 934 }
       ] }
     ]
   }

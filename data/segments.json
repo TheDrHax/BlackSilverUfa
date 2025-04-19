@@ -15953,7 +15953,6 @@
     "youtube": "8athH4CE1qQ", "vk": "-28387068_456250570", "abs_start": 0, "abs_end": 22227, "duration": 22227,
     "name": "Dark Souls 3 #1 (заново)",
     "date": "2024-12-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2338857466.torrent",
     "games": ["ds3"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2338857466.ass"
   },
@@ -16528,10 +16527,10 @@
   },
   "2420220429": {
     "youtube": "Z65EvPLCc30", "vk": "-28387068_456250691", "abs_start": 0, "abs_end": 18442, "duration": 18442,
-    "name": "House Flipper 2 (с Дашей)",
+    "name": "House Flipper 2 (с Дашей) #1",
     "date": "2025-03-31",
     "torrent": "https://bsufiles.drhx.ru/streams/2420220429.torrent",
-    "games": ["co-op"],
+    "games": ["house-flipper-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2420220429.ass"
   },
   "2421079975": {
@@ -16671,5 +16670,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2436090384.torrent",
     "games": ["first-2025", "white-knuckle", "blue-prince", "half-sword"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2436090384.ass"
+  },
+  "2437029851": {
+    "abs_start": 0, "abs_end": 25870, "duration": 25870,
+    "name": "House Flipper 2 (с Дашей) #2",
+    "date": "2025-04-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2437029851.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2437029851.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2437029851.torrent",
+    "games": ["house-flipper-2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2437029851.ass"
   }
 }
