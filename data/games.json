@@ -8844,6 +8844,9 @@
       { "segment": "2436090384", "subrefs": [
         { "name": "Haunted House Renovator (демо)", "start": 3072 },
         { "name": "Mandragora: Whispers of the Witch Tree", "start": 6795 }
+      ] },
+      { "segment": "2437947286", "subrefs": [
+        { "name": "Discussion Over Dinner", "start": 15692 }
       ] }
     ]
   },
@@ -9206,6 +9209,11 @@
         { "name": "Burial", "start": 4963 },
         { "name": "Blood Bark", "start": 8820 },
         { "name": "Shock (демо)", "start": 11275 }
+      ] },
+      { "segment": "2437947286", "subrefs": [
+        { "name": "Creepy Shift: House For Sale", "start": 5362 },
+        { "name": "Cosmic Fear (демо)", "start": 12600 },
+        { "name": "Sanity Loops (демо)", "start": 17093 }
       ] }
     ]
   },
@@ -10560,6 +10568,9 @@
       ] },
       { "segment": "2136144666", "subrefs": [
         { "name": "Прохождение", "start": 6828 }
+      ] },
+      { "segment": "2437947286", "subrefs": [
+        { "name": "Chapter 0", "start": 1636 }
       ] }
     ]
   },
@@ -16939,6 +16950,9 @@
       ] },
       { "segment": "2431763545", "subrefs": [
         { "name": "15" }
+      ] },
+      { "segment": "2437947286", "subrefs": [
+        { "name": "16" }
       ] }
     ]
   },
