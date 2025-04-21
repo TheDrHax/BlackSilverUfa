@@ -15969,7 +15969,6 @@
     "youtube": "73w9vt5Zf1o", "vk": "-28387068_456250573", "abs_start": 0, "abs_end": 10587, "duration": 10587,
     "name": "Новый год 2025 (клипы)",
     "date": "2024-12-31",
-    "torrent": "https://bsufiles.drhx.ru/streams/2340621815.torrent",
     "games": ["other"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2340621815.ass"
   },
@@ -15977,7 +15976,6 @@
     "youtube": "yBcnQsZVzD0", "vk": "-28387068_456250581", "abs_start": 0, "abs_end": 18681, "duration": 18681,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #1 / Limoria / Welcome Home / Deliverance Protocol / Dead Mall / DeathOmen (демо) / Cursed Baby",
     "date": "2025-01-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2344984796.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2344984796.ass"
   },
@@ -16420,10 +16418,10 @@
   },
   "2407222715": {
     "youtube": "PiazK-3bpIs", "vk": "-28387068_456250670", "abs_start": 0, "abs_end": 17931, "duration": 17931,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #10 / Backrooms Exploration - Демо / Project Hailstorm / Lobotrypo (демо) / The Boba Teashop (демо) / Centum / Gyoza / Hollowglass / Banned Tapes (демо) / Level 13 / ORDER 13 - Релиз",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #10 / Backrooms Exploration - Демо / Project Hailstorm / Lobotrypo (демо) / The Boba Teashop - Демо / Centum / Gyoza / Hollowglass / Banned Tapes (демо) / Level 13 / ORDER 13 - Релиз",
     "date": "2025-03-16",
     "torrent": "https://bsufiles.drhx.ru/streams/2407222715.torrent",
-    "games": ["horrors-2025", "backrooms-expl", "single-2025", "first-2025", "order-13"],
+    "games": ["horrors-2025", "backrooms-expl", "single-2025", "boba-teashop", "first-2025", "order-13"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2407222715.ass"
   },
   "2408023676": {
@@ -16681,5 +16679,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2437947286.torrent",
     "games": ["horrors-2025", "pools", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2437947286.ass"
+  },
+  "2438710443": {
+    "abs_start": 0, "abs_end": 25806, "duration": 25806,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #17 / Blue Prince #5 / The Boba Teashop - Прохождение / Red Finger / Don't Feed It / Moth / Improbability Control Bureau / Below Benni's / Somnifuge",
+    "date": "2025-04-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2438710443.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2438710443.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2438710443.torrent",
+    "games": ["horrors-2025", "blue-prince", "boba-teashop", "single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2438710443.ass"
   }
 }

@@ -8847,6 +8847,12 @@
       ] },
       { "segment": "2437947286", "subrefs": [
         { "name": "Discussion Over Dinner", "start": 15692 }
+      ] },
+      { "segment": "2438710443", "subrefs": [
+        { "name": "Moth", "start": 19399 },
+        { "name": "Improbability Control Bureau", "start": 22400 },
+        { "name": "Below Benni's", "start": 23039 },
+        { "name": "Somnifuge", "start": 23422 }
       ] }
     ]
   },
@@ -8952,7 +8958,7 @@
   },
   {
     "name": "Resistance: Fall of Man",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "resistance-fom",
     "streams": [
       { "segment": "2358563275", "subrefs": [
@@ -9157,7 +9163,6 @@
       { "segment": "2407222715", "subrefs": [
         { "name": "Project Hailstorm", "start": 3535 },
         { "name": "Lobotrypo (демо)", "start": 5098 },
-        { "name": "The Boba Teashop (демо)", "start": 7181 },
         { "name": "Gyoza", "start": 10170 },
         { "name": "Banned Tapes (демо)", "start": 12426 }
       ] },
@@ -9214,6 +9219,10 @@
         { "name": "Creepy Shift: House For Sale", "start": 5362 },
         { "name": "Cosmic Fear (демо)", "start": 12600 },
         { "name": "Sanity Loops (демо)", "start": 17093 }
+      ] },
+      { "segment": "2438710443", "subrefs": [
+        { "name": "Red Finger", "start": 17311 },
+        { "name": "Don't Feed It", "start": 18638 }
       ] }
     ]
   },
@@ -16953,6 +16962,9 @@
       ] },
       { "segment": "2437947286", "subrefs": [
         { "name": "16" }
+      ] },
+      { "segment": "2438710443", "subrefs": [
+        { "name": "17" }
       ] }
     ]
   },
@@ -17920,6 +17932,9 @@
       ] },
       { "segment": "2436090384", "subrefs": [
         { "name": "4", "start": 11696 }
+      ] },
+      { "segment": "2438710443", "subrefs": [
+        { "name": "5", "start": 725 }
       ] }
     ]
   },
@@ -17946,6 +17961,19 @@
       ] },
       { "segment": "2437029851", "subrefs": [
         { "name": "2", "start": 934 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Boba Teashop",
+    "category": "finished",
+    "id": "boba-teashop",
+    "streams": [
+      { "segment": "2407222715", "subrefs": [
+        { "name": "Демо", "start": 7181 }
+      ] },
+      { "segment": "2438710443", "subrefs": [
+        { "name": "Прохождение", "start": 12520 }
       ] }
     ]
   }
