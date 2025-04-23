@@ -16681,5 +16681,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2438710443.torrent",
     "games": ["horrors-2025", "blue-prince", "boba-teashop", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2438710443.ass"
+  },
+  "2440378669": {
+    "abs_start": 0, "abs_end": 34090, "duration": 34090,
+    "name": "The Elder Scrolls IV: Oblivion Remastered",
+    "date": "2025-04-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2440378669.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2440378669.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2440378669.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2440378669.ass"
   }
 }
