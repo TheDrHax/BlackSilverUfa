@@ -16681,10 +16681,20 @@
   },
   "2440378669": {
     "youtube": "vz7GQq4_svY", "vk": "-28387068_456250733", "abs_start": 0, "abs_end": 34091, "duration": 34091,
-    "name": "The Elder Scrolls IV: Oblivion Remastered",
+    "name": "The Elder Scrolls IV: Oblivion Remastered #1",
     "date": "2025-04-23",
     "torrent": "https://bsufiles.drhx.ru/streams/2440378669.torrent",
-    "games": ["first-2025"],
+    "games": ["tes4r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2440378669.ass"
+  },
+  "2441246464": {
+    "abs_start": 0, "abs_end": 33100, "duration": 33100,
+    "name": "Clair Obscur: Expedition 33 / The Elder Scrolls IV: Oblivion Remastered #2",
+    "date": "2025-04-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2441246464.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2441246464.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2441246464.torrent",
+    "games": ["first-2025", "tes4r"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2441246464.ass"
   }
 }

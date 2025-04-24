@@ -8854,8 +8854,8 @@
         { "name": "Below Benni's", "start": 23039 },
         { "name": "Somnifuge", "start": 23422 }
       ] },
-      { "segment": "2440378669", "subrefs": [
-        { "name": "The Elder Scrolls IV: Oblivion Remastered", "start": 414 }
+      { "segment": "2441246464", "subrefs": [
+        { "name": "Clair Obscur: Expedition 33", "start": 655 }
       ] }
     ]
   },
@@ -17977,6 +17977,19 @@
       ] },
       { "segment": "2438710443", "subrefs": [
         { "name": "Прохождение", "start": 12520 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Elder Scrolls IV: Oblivion Remastered",
+    "category": "ongoing",
+    "id": "tes4r",
+    "streams": [
+      { "segment": "2440378669", "subrefs": [
+        { "name": "1", "start": 414 }
+      ] },
+      { "segment": "2441246464", "subrefs": [
+        { "name": "2", "start": 9701 }
       ] }
     ]
   }
