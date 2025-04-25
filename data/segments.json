@@ -15982,7 +15982,6 @@
     "youtube": "xlYfoN9Ek5E", "vk": "-28387068_456250583", "abs_start": 0, "abs_end": 18862, "duration": 18862,
     "name": "Writer: Chapter 1 / Hell Dive / Banebush (Тварюк) #1",
     "date": "2025-01-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2347617783.torrent",
     "games": ["single-2025", "banebush"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2347617783.ass"
   },
@@ -15990,7 +15989,6 @@
     "youtube": "kg8WpKaE4SE", "vk": "-28387068_456250585", "abs_start": 0, "abs_end": 19202, "duration": 19202,
     "name": "Slender: Reborn / Banebush (Тварюк) #2 / Among Ashes #1",
     "date": "2025-01-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2348485792.torrent",
     "games": ["first-2025", "banebush", "among-ashes"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2348485792.ass"
   },
@@ -16694,5 +16692,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2441246464.torrent",
     "games": ["first-2025", "tes4r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2441246464.ass"
+  },
+  "2442097456": {
+    "abs_start": 0, "abs_end": 32125, "duration": 32125,
+    "name": "The Elder Scrolls IV: Oblivion Remastered #3",
+    "date": "2025-04-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2442097456.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2442097456.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2442097456.torrent",
+    "games": ["tes4r"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2442097456.ass"
   }
 }
