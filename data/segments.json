@@ -15993,12 +15993,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2348485792.ass"
   },
   "2349362268": {
-    "abs_start": 0, "abs_end": 5807, "duration": 5807,
+    "abs_start": 0, "abs_end": 5818, "duration": 0,
     "name": "",
     "date": "2025-01-10",
-    "direct": "https://bsufiles.drhx.ru/streams/2349362268.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2349362268.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2349362268.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2349362268.ass"
   },
@@ -16702,5 +16699,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2442097456.torrent",
     "games": ["tes4r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2442097456.ass"
+  },
+  "2443150012": {
+    "abs_start": 0, "abs_end": 17717, "duration": 17717,
+    "name": "Darkwater / Backrooms Cleanup Crew / R.E.P.O. #3",
+    "date": "2025-04-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2443150012.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2443150012.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2443150012.torrent",
+    "games": ["co-op", "repo"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2443150012.ass"
   }
 }
