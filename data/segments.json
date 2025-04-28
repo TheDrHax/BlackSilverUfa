@@ -16018,7 +16018,6 @@
     "youtube": "eAwRfDSBgZ4", "vk": "-28387068_456250589", "abs_start": 0, "abs_end": 23946, "duration": 23946,
     "name": "Mutation / Догони меня, Виталик! (Take Me, Vitaly) #2 / Lucky Tower Ultimate #15 / Murky Divers #2 / Forsaken Frontiers / Клеть (KLETKA) #2",
     "date": "2025-01-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2350342790.torrent",
     "games": ["first-2025", "take-me-vitaly", "lucky-tower", "murky-divers", "co-op", "kletka"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2350342790.ass"
   },
@@ -16711,5 +16710,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2444003656.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "brokenlore-dw", "post-trauma"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2444003656.ass"
+  },
+  "2444808287": {
+    "abs_start": 0, "abs_end": 30410, "duration": 30410,
+    "name": "The Elder Scrolls IV: Oblivion Remastered #4",
+    "date": "2025-04-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2444808287.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2444808287.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2444808287.torrent",
+    "games": ["tes4r"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2444808287.ass"
   }
 }
