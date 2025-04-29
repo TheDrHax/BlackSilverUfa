@@ -17998,7 +17998,7 @@
   },
   {
     "name": "The Elder Scrolls IV: Oblivion Remastered",
-    "category": "ongoing",
+    "category": "finished",
     "id": "tes4r",
     "streams": [
       { "segment": "2440378669", "subrefs": [
@@ -18012,6 +18012,9 @@
       ] },
       { "segment": "2444808287", "subrefs": [
         { "name": "4", "start": 643 }
+      ] },
+      { "segment": "2445639339", "subrefs": [
+        { "name": "5", "start": 549 }
       ] }
     ]
   },
