@@ -8863,6 +8863,11 @@
       { "segment": "2444003656", "subrefs": [
         { "name": "Seclusion", "start": 2327 },
         { "name": "Backrooms: Exit from Supermarket Horror (демо)", "start": 4064 }
+      ] },
+      { "segment": "2449126768", "subrefs": [
+        { "name": "ARC Raiders", "start": 2280 },
+        { "name": "Cop Bastard (демо)", "start": 15974 },
+        { "name": "ARC Raiders (продолжение)", "start": 18793, "hidden": true }
       ] }
     ]
   },

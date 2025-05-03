@@ -16032,7 +16032,6 @@
     "youtube": "96oEzYDtAtc", "vk": "-28387068_456250594", "abs_start": 0, "abs_end": 23126, "duration": 23126,
     "name": "Dark Souls 3 #3",
     "date": "2025-01-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2352154839.torrent",
     "games": ["ds3"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2352154839.ass"
   },
@@ -16040,7 +16039,6 @@
     "youtube": "1k0P4Plrs1Q", "vk": "-28387068_456250595", "abs_start": 0, "abs_end": 22591, "duration": 22591,
     "name": "Dark Souls 3 #4",
     "date": "2025-01-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2353895709.torrent",
     "games": ["ds3"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2353895709.ass"
   },
@@ -16723,5 +16721,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2445639339.torrent",
     "games": ["tes4r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2445639339.ass"
+  },
+  "2449126768": {
+    "abs_start": 0, "abs_end": 24347, "duration": 24347,
+    "name": "ARC Raiders / Cop Bastard (демо)",
+    "date": "2025-05-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2449126768.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2449126768.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2449126768.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2449126768.ass"
   }
 }
