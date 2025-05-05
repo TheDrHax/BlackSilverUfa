@@ -8872,6 +8872,11 @@
         { "name": "Sunken Veins", "start": 9042 },
         { "name": "Besmirch", "start": 12408 },
         { "name": "Forest 6174", "start": 14018 }
+      ] },
+      { "segment": "2450891536", "subrefs": [
+        { "name": "KIBORG", "start": 7540 },
+        { "name": "Quarantine Zone", "start": 16544 },
+        { "name": "Captain Blood (Приключение Капитана Блада)", "start": 22866 }
       ] }
     ]
   },
@@ -9995,7 +10000,6 @@
       ] },
       { "segment": "2169221839", "subrefs": [
         { "name": "Phantom Line (демо)", "start": 5187 },
-        { "name": "Steel Seed (демо)", "start": 17514 },
         { "name": "Reason Unfound (демо)", "start": 23003 }
       ] },
       { "segment": "2173541595", "subrefs": [
@@ -18083,6 +18087,19 @@
       ] },
       { "segment": "2450093054", "subrefs": [
         { "name": "Прохождение", "start": 16202 }
+      ] }
+    ]
+  },
+  {
+    "name": "Steel Seed",
+    "category": "ongoing",
+    "id": "steel-seed",
+    "streams": [
+      { "segment": "2169221839", "subrefs": [
+        { "name": "Демо", "start": 17514 }
+      ] },
+      { "segment": "2450891536", "subrefs": [
+        { "name": "Релиз", "start": 1315 }
       ] }
     ]
   }

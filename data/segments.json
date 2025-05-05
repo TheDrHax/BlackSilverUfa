@@ -14802,9 +14802,9 @@
   },
   "2169221839": {
     "youtube": "NbjTYd4OTzQ", "abs_start": 0, "abs_end": 25562, "duration": 25562,
-    "name": "неПрофессиональный \"E3\" 2024 - Ubisoft Forward (обзор) / Phantom Line (демо) / The Alters (демо) / FUMES (демо) / Steel Seed (демо) / Lucky Tower Ultimate #2 / Reason Unfound (демо) / Tormenture #1 (демо)",
+    "name": "неПрофессиональный \"E3\" 2024 - Ubisoft Forward (обзор) / Phantom Line (демо) / The Alters (демо) / FUMES (демо) / Steel Seed - Демо / Lucky Tower Ultimate #2 / Reason Unfound (демо) / Tormenture #1 (демо)",
     "date": "2024-06-11",
-    "games": ["e3_2024", "single-2024", "first-2024", "lucky-tower", "tormenture"],
+    "games": ["e3_2024", "single-2024", "first-2024", "steel-seed", "lucky-tower", "tormenture"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2169221839.ass"
   },
   "2170124389": {
@@ -16737,5 +16737,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2450093054.torrent",
     "games": ["horrors-2025", "single-2025", "robotization", "first-2025", "evil-lurks-below"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2450093054.ass"
+  },
+  "2450891536": {
+    "abs_start": 0, "abs_end": 28333, "duration": 28333,
+    "name": "Steel Seed - Релиз / KIBORG / Quarantine Zone / Captain Blood (Приключение Капитана Блада)",
+    "date": "2025-05-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2450891536.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2450891536.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2450891536.torrent",
+    "games": ["steel-seed", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2450891536.ass"
   }
 }
