@@ -16060,7 +16060,6 @@
     "youtube": "yIzRUheV6hc", "vk": "-28387068_456250601", "abs_start": 0, "abs_end": 19307, "duration": 19307,
     "name": "Emergency Cleanup Co. #2 / The First Berserker: Khazan / Undead Realm: Ego #2",
     "date": "2025-01-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2356647169.torrent",
     "games": ["emergency-cleanup", "first-2025", "undead-realm-ego"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2356647169.ass"
   },
@@ -16068,7 +16067,6 @@
     "youtube": "h8zI1YePlOI", "vk": "-28387068_456250602", "abs_start": 0, "abs_end": 18866, "duration": 18866,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #3 / From The Past / Haunting of Joni Evers / Daemonologie / For Sale / The Whitaker's Library / These Darker Tides",
     "date": "2025-01-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2357631932.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2357631932.ass"
   },
@@ -16202,10 +16200,10 @@
   },
   "2380835608": {
     "youtube": "Zxa4Q57R2PM", "vk": "-28387068_456250629", "abs_start": 0, "abs_end": 23575, "duration": 23575,
-    "name": "Elden Ring #24 (Nightreign, network test #1) / PowerWash Simulator / Avowed",
+    "name": "Elden Ring #24 (Nightreign, network test #1) / PowerWash Simulator #1 / Avowed",
     "date": "2025-02-14",
     "torrent": "https://bsufiles.drhx.ru/streams/2380835608.torrent",
-    "games": ["elden-ring", "co-op", "first-2025"],
+    "games": ["elden-ring", "powerwash-sim", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2380835608.ass"
   },
   "2381722688": {
@@ -16745,5 +16743,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2450891536.torrent",
     "games": ["steel-seed", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2450891536.ass"
+  },
+  "2451705218": {
+    "abs_start": 0, "abs_end": 30710, "duration": 30710,
+    "name": "Trench Tales (демо) / Blue Prince #6 / Puppet Team / PowerWash Simulator #2",
+    "date": "2025-05-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2451705218.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2451705218.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2451705218.torrent",
+    "games": ["first-2025", "blue-prince", "co-op", "powerwash-sim"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2451705218.ass"
   }
 }

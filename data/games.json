@@ -779,9 +779,6 @@
         { "name": "The Headliners", "start": 13557 },
         { "name": "Hired 2 Die", "start": 19151 }
       ] },
-      { "segment": "2380835608", "subrefs": [
-        { "name": "PowerWash Simulator", "start": 4369 }
-      ] },
       { "segment": "2381722688", "subrefs": [
         { "name": "Treasure Hunters", "start": 15083 },
         { "name": "Pit of Goblin", "start": 21720 },
@@ -793,6 +790,9 @@
       { "segment": "2443150012", "subrefs": [
         { "name": "Darkwater", "start": 4099 },
         { "name": "Backrooms Cleanup Crew", "start": 10287 }
+      ] },
+      { "segment": "2451705218", "subrefs": [
+        { "name": "Puppet Team", "start": 13470 }
       ] }
     ]
   },
@@ -8877,6 +8877,9 @@
         { "name": "KIBORG", "start": 7540 },
         { "name": "Quarantine Zone", "start": 16544 },
         { "name": "Captain Blood (Приключение Капитана Блада)", "start": 22866 }
+      ] },
+      { "segment": "2451705218", "subrefs": [
+        { "name": "Trench Tales (демо)", "start": 1869 }
       ] }
     ]
   },
@@ -17974,6 +17977,9 @@
       ] },
       { "segment": "2438710443", "subrefs": [
         { "name": "5", "start": 725 }
+      ] },
+      { "segment": "2451705218", "subrefs": [
+        { "name": "6", "start": 3578 }
       ] }
     ]
   },
@@ -18100,6 +18106,19 @@
       ] },
       { "segment": "2450891536", "subrefs": [
         { "name": "Релиз", "start": 1315 }
+      ] }
+    ]
+  },
+  {
+    "name": "PowerWash Simulator",
+    "category": "co-op",
+    "id": "powerwash-sim",
+    "streams": [
+      { "segment": "2380835608", "subrefs": [
+        { "name": "1", "start": 4369 }
+      ] },
+      { "segment": "2451705218", "subrefs": [
+        { "name": "2", "start": 23187 }
       ] }
     ]
   }
