@@ -16074,7 +16074,6 @@
     "youtube": "iUchpmcb2gc", "vk": "-28387068_456250603", "abs_start": 0, "abs_end": 18775, "duration": 18775,
     "name": "Resistance: Fall of Man #1",
     "date": "2025-01-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2358563275.torrent",
     "games": ["resistance-fom"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2358563275.ass"
   },
@@ -16082,7 +16081,6 @@
     "youtube": "u1_CtCPWu1Q", "official": false, "abs_start": 0, "abs_end": 13290, "duration": 13290,
     "name": "Resistance: Fall of Man #2",
     "date": "2025-01-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2359431993.torrent",
     "games": ["resistance-fom"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2359431993.ass"
   },
@@ -16751,5 +16749,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2451705218.torrent",
     "games": ["first-2025", "blue-prince", "co-op", "powerwash-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2451705218.ass"
+  },
+  "2452604064": {
+    "abs_start": 0, "abs_end": 10057, "duration": 10057,
+    "name": "",
+    "date": "2025-05-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2452604064.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2452604064.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2452604064.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2452604064.ass"
+  },
+  "2452700284": {
+    "abs_start": 0, "abs_end": 8935, "duration": 8935,
+    "name": "",
+    "date": "2025-05-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2452700284.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2452700284.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2452700284.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2452700284.ass"
+  },
+  "2452604064,2452700284": {
+    "abs_start": 0, "abs_end": 18991, "duration": 18991,
+    "name": "Blue Prince #7 / Run Away From Me. Alexandra (демо) / BECROWNED (демо) / Creepy Support (демо)",
+    "date": "2025-05-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2452604064,2452700284.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2452604064,2452700284.mp4/master.m3u8",
+    "offsets": ["0:00", "2:47:36+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2452604064,2452700284.torrent",
+    "games": ["blue-prince", "single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2452604064,2452700284+0.ass"
   }
 }

@@ -8880,6 +8880,10 @@
       ] },
       { "segment": "2451705218", "subrefs": [
         { "name": "Trench Tales (демо)", "start": 1869 }
+      ] },
+      { "segment": "2452604064,2452700284", "subrefs": [
+        { "name": "BECROWNED (демо)", "start": 13200 },
+        { "name": "Creepy Support (демо)", "start": 16871 }
       ] }
     ]
   },
@@ -9258,6 +9262,9 @@
         { "name": "World Alone: Dreampools", "start": 1596 },
         { "name": "Nip For Speed 2: Search For Pussy", "start": 4692 },
         { "name": "Reflection", "start": 6423 }
+      ] },
+      { "segment": "2452604064,2452700284", "subrefs": [
+        { "name": "Run Away From Me. Alexandra (демо)", "start": 11892 }
       ] }
     ]
   },
@@ -17392,7 +17399,7 @@
   },
   {
     "name": "Kingdom Come: Deliverance II",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "kingdom-com-deliverance-ii",
     "streams": [
       { "segment": "2372189405", "subrefs": [
@@ -17960,7 +17967,7 @@
   },
   {
     "name": "Blue Prince",
-    "category": "ongoing",
+    "category": "finished",
     "id": "blue-prince",
     "streams": [
       { "segment": "2429872307", "subrefs": [
@@ -17980,6 +17987,9 @@
       ] },
       { "segment": "2451705218", "subrefs": [
         { "name": "6", "start": 3578 }
+      ] },
+      { "segment": "2452604064,2452700284", "subrefs": [
+        { "name": "7", "start": 1833 }
       ] }
     ]
   },
