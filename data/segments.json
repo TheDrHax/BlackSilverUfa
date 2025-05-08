@@ -16088,7 +16088,6 @@
     "youtube": "eTwF4b3uxi0", "vk": "-28387068_456250608", "abs_start": 0, "abs_end": 20226, "duration": 20226,
     "name": "Tales Beyond The Tomb: The Last Vigil / SCP: Fragmented Minds",
     "date": "2025-01-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2365019673.torrent",
     "games": ["616-games", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2365019673.ass"
   },
@@ -16778,5 +16777,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2452604064,2452700284.torrent",
     "games": ["blue-prince", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2452604064,2452700284+0.ass"
+  },
+  "2453443091": {
+    "abs_start": 0, "abs_end": 18518, "duration": 18518,
+    "name": "The Midnight Walk",
+    "date": "2025-05-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2453443091.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2453443091.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2453443091.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2453443091.ass"
   }
 }
