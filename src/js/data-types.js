@@ -47,6 +47,7 @@ export const Game = PropTypes.shape({
   name: PropTypes.string,
   category: PropTypes.string,
   streams: PropTypes.arrayOf(SegmentRef),
+  url: PropTypes.string,
 });
 
 // Hmm...

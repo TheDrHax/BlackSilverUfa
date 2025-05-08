@@ -193,6 +193,8 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
     });
 
     game.streams.forEach((ref) => {
+      game.url = `/play/${game.id}`;
+
       ref.name = ref.subrefs
         .filter((s) => !s.hidden)
         .map(({ name }) => name)
@@ -207,7 +209,7 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
         insertSortedBy(ref.original.subrefs, subref, 'start');
       });
 
-      ref.url = `/play/${game.id}/${ref.segment}`;
+      ref.url = `${game.url}/${ref.segment}`;
       if (ref.start) {
         ref.url += `?at=${ref.start}`;
       }
@@ -218,7 +220,7 @@ function build([rawSegments, rawCategories, rawGames, persist, timecodes]) {
         ref.subrefs
           .filter((s) => !s.hidden)
           .forEach((subref) => {
-            let url = `/play/${game.id}/${ref.segment}`;
+            let url = `${game.url}/${ref.segment}`;
 
             if (subref.start > 0) {
               url += `?at=${subref.start}`;
