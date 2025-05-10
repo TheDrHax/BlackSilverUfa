@@ -16095,7 +16095,6 @@
     "youtube": "NtUOakjEd1A", "vk": "-28387068_456250610", "abs_start": 0, "abs_end": 20471, "duration": 20471,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #4 / Dreamcore #1 / Evil Lurks Below - Демо / ORDER 13 - Демо 1 / The Motel / Struggling (by Aaron Young) / Blob / Laundry Room Dilemma",
     "date": "2025-01-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2365888651.torrent",
     "games": ["horrors-2025", "dreamcore", "evil-lurks-below", "order-13", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2365888651.ass"
   },
@@ -16245,10 +16244,10 @@
   },
   "2387156230": {
     "youtube": "BSMH8nvtOpg", "vk": "-28387068_456250640", "abs_start": 0, "abs_end": 18400, "duration": 18400,
-    "name": "Dune: Awakening (демо) / Soulframe (демо) / Killing Floor III (демо) / Deepest Trench / Radiolight (демо) / Beholder: Conductor (демо)",
+    "name": "Dune: Awakening - Демо / Soulframe (демо) / Killing Floor III (демо) / Deepest Trench / Radiolight (демо) / Beholder: Conductor (демо)",
     "date": "2025-02-21",
     "torrent": "https://bsufiles.drhx.ru/streams/2387156230.torrent",
-    "games": ["single-2025", "first-2025"],
+    "games": ["dune-awakening", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2387156230.ass"
   },
   "2389049577": {
@@ -16780,10 +16779,20 @@
   },
   "2453443091": {
     "youtube": "hN12pzA_T1s", "vk": "-28387068_456250758", "abs_start": 0, "abs_end": 18518, "duration": 18518,
-    "name": "The Midnight Walk",
+    "name": "The Midnight Walk #1",
     "date": "2025-05-08",
     "torrent": "https://bsufiles.drhx.ru/streams/2453443091.torrent",
-    "games": ["first-2025"],
+    "games": ["midnight-walk"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2453443091.ass"
+  },
+  "2455121344": {
+    "abs_start": 0, "abs_end": 21782, "duration": 21782,
+    "name": "The Midnight Walk #2 / Dune: Awakening - Релиз",
+    "date": "2025-05-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2455121344.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2455121344.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2455121344.torrent",
+    "games": ["midnight-walk", "dune-awakening"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2455121344.ass"
   }
 }

@@ -8884,9 +8884,6 @@
       { "segment": "2452604064,2452700284", "subrefs": [
         { "name": "BECROWNED (демо)", "start": 13200 },
         { "name": "Creepy Support (демо)", "start": 16871 }
-      ] },
-      { "segment": "2453443091", "subrefs": [
-        { "name": "The Midnight Walk", "start": 3576 }
       ] }
     ]
   },
@@ -9150,7 +9147,6 @@
         { "name": "Acts of Blood (демо)", "start": 2432 }
       ] },
       { "segment": "2387156230", "subrefs": [
-        { "name": "Dune: Awakening (демо)", "start": 2752 },
         { "name": "Radiolight (демо)", "start": 11944 }
       ] },
       { "segment": "2389049577", "subrefs": [
@@ -18132,6 +18128,32 @@
       ] },
       { "segment": "2451705218", "subrefs": [
         { "name": "2", "start": 23187 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Midnight Walk",
+    "category": "finished",
+    "id": "midnight-walk",
+    "streams": [
+      { "segment": "2453443091", "subrefs": [
+        { "name": "1", "start": 3576 }
+      ] },
+      { "segment": "2455121344", "subrefs": [
+        { "name": "2", "start": 584 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dune: Awakening",
+    "category": "ongoing",
+    "id": "dune-awakening",
+    "streams": [
+      { "segment": "2387156230", "subrefs": [
+        { "name": "Демо", "start": 2752 }
+      ] },
+      { "segment": "2455121344", "subrefs": [
+        { "name": "Релиз", "start": 12381 }
       ] }
     ]
   }
