@@ -16102,7 +16102,6 @@
     "youtube": "FzgpGYiEAiY", "vk": "-28387068_456250612", "abs_start": 0, "abs_end": 27063, "duration": 27063,
     "name": "Atomic Heart - Enchantment Under the Sea",
     "date": "2025-01-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2366764453.torrent",
     "games": ["atomic-heart"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2366764453.ass"
   },
@@ -16792,5 +16791,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2455121344.torrent",
     "games": ["midnight-walk", "dune-awakening"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2455121344.ass"
+  },
+  "2456047504": {
+    "abs_start": 0, "abs_end": 19935, "duration": 19935,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #20 / Roaming Backrooms / Cat Named Mojave (демо) / The Wellmonts Case (демо) / Babka / Midnight Snack / Creepy Waves FM: Train Depart / Creepy Waves FM: Bugs Fixer / Stolen Blood",
+    "date": "2025-05-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2456047504.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2456047504.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2456047504.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2456047504.ass"
   }
 }
