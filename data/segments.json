@@ -16109,7 +16109,6 @@
     "youtube": "Lk0wk25nmL0", "vk": "-28387068_456250613", "abs_start": 0, "abs_end": 20180, "duration": 20180,
     "name": "Poppy Playtime - Глава 4 #1",
     "date": "2025-01-31",
-    "torrent": "https://bsufiles.drhx.ru/streams/2368538039.torrent",
     "games": ["poppy-playtime"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2368538039.ass"
   },
@@ -16117,7 +16116,6 @@
     "youtube": "du4rFxkQN3g", "vk": "-28387068_456250614", "abs_start": 0, "abs_end": 26625, "duration": 26625,
     "name": "Poppy Playtime - Глава 4 #2 / Dreamcore #2 / Cruel / Lucky Tower Ultimate #16 / The Headliners / Hired 2 Die / Lethal Company #23",
     "date": "2025-02-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2369442712.torrent",
     "games": ["poppy-playtime", "dreamcore", "first-2025", "lucky-tower", "co-op", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2369442712.ass"
   },
@@ -16125,7 +16123,6 @@
     "youtube": "ItPCKV88B4Y", "vk": "-28387068_456250616", "abs_start": 0, "abs_end": 17984, "duration": 17984,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #5 / Kiosk (Киоск) / Back Rooms: The Old Watcher / Greed Stays Home / Satan's Dungeon / Mr. Meat",
     "date": "2025-02-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2370447160.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2370447160.ass"
   },
@@ -16133,7 +16130,6 @@
     "youtube": "K20NMUFSxWA", "vk": "-28387068_456250618", "abs_start": 0, "abs_end": 30279, "duration": 30279,
     "name": "Kingdom Come: Deliverance - Перед 2-й частью / Kingdom Come: Deliverance II #1",
     "date": "2025-02-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2372189405.torrent",
     "games": ["kingdom-come-deliverance", "kingdom-com-deliverance-ii"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2372189405.ass"
   },
@@ -16141,7 +16137,6 @@
     "youtube": "NlQdkzK0YLc", "vk": "-28387068_456250620", "abs_start": 0, "abs_end": 36095, "duration": 36095,
     "name": "Kingdom Come: Deliverance II #2",
     "date": "2025-02-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2372981862.torrent",
     "games": ["kingdom-com-deliverance-ii"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2372981862.ass"
   },
@@ -16797,5 +16792,35 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2456047504.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2456047504.ass"
+  },
+  "2457563766": {
+    "abs_start": 0, "abs_end": 7049, "duration": 7049,
+    "name": "",
+    "date": "2025-05-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2457563766.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2457563766.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2457563766.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2457563766.ass"
+  },
+  "2457609080": {
+    "abs_start": 0, "abs_end": 27746, "duration": 27746,
+    "name": "",
+    "date": "2025-05-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2457609080.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2457609080.mp4/master.m3u8",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2457609080.ass"
+  },
+  "2457563766,2457609080": {
+    "abs_start": 0, "abs_end": 34430, "duration": 34430,
+    "name": "DOOM: The Dark Ages",
+    "date": "2025-05-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2457563766,2457609080.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2457563766,2457609080.mp4/master.m3u8",
+    "offsets": ["0:00", "1:51:24+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2457563766,2457609080.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2457563766,2457609080+0.ass"
   }
 }
