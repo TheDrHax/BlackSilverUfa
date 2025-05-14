@@ -7414,7 +7414,7 @@
   },
   {
     "name": "Slender Threads",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "slender-threads",
     "streams": [
       { "segment": "905895866", "subrefs": [
@@ -8888,9 +8888,19 @@
       { "segment": "2456047504", "subrefs": [
         { "name": "Roaming Backrooms", "start": 1747 },
         { "name": "Babka", "start": 6996 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "DOOM: The Dark Ages",
+    "category": "finished",
+    "id": "doom-dark-ages",
+    "streams": [
       { "segment": "2457563766,2457609080", "subrefs": [
-        { "name": "DOOM: The Dark Ages", "start": 485 }
+        { "name": "1", "start": 485 }
+      ] },
+      { "segment": "2458409032", "subrefs": [
+        { "name": "2", "start": 711 }
       ] }
     ]
   },
