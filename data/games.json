@@ -8140,7 +8140,6 @@
         { "name": "Only Up!", "start": 10070 }
       ] },
       { "segment": "1855403959", "subrefs": [
-        { "name": "Ebola Village (демо)", "start": 3879 },
         { "name": "SCP: Observer", "start": 6838 },
         { "name": "Horror Stories: Harvest Hunt", "start": 18314 }
       ] },
@@ -8590,7 +8589,6 @@
         { "name": "CAPTURED", "start": 4533 }
       ] },
       { "segment": "2276579699", "subrefs": [
-        { "name": "The Precinct (демо)", "start": 4483 },
         { "name": "Zaru", "start": 10038 },
         { "name": "Targeosity", "start": 13851 },
         { "name": "Waffle Cone Willie (демо)", "start": 21378 }
@@ -18182,6 +18180,32 @@
       ] },
       { "segment": "2455121344", "subrefs": [
         { "name": "Релиз", "start": 12381 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Precinct",
+    "category": "ongoing",
+    "id": "precinct",
+    "streams": [
+      { "segment": "2276579699", "subrefs": [
+        { "name": "Демо", "start": 4483 }
+      ] },
+      { "segment": "2459354500", "subrefs": [
+        { "name": "Релиз", "start": 2595 }
+      ] }
+    ]
+  },
+  {
+    "name": "Ebola Village",
+    "category": "ongoing",
+    "id": "ebola-village",
+    "streams": [
+      { "segment": "1855403959", "subrefs": [
+        { "name": "Демо", "start": 3879 }
+      ] },
+      { "segment": "2459354500", "subrefs": [
+        { "name": "1", "start": 9448 }
       ] }
     ]
   }

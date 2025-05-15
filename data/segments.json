@@ -13025,9 +13025,9 @@
   },
   "1855403959": {
     "youtube": "r-r-78rTM_M", "official": false, "abs_start": 0, "abs_end": 19729, "duration": 19729,
-    "name": "They Are Here: Alien Abduction Horror - Демо 2 / Ebola Village (демо) / Stray Souls - Демо 2 / SCP: Observer / Dyer Expedition (демо) / Sniper Killer - Демо / The Diner / The Muller-Powell Principle (демо) / Unknown Memoirs: The Rental / Horror Stories: Harvest Hunt",
+    "name": "They Are Here: Alien Abduction Horror - Демо 2 / Ebola Village - Демо / Stray Souls - Демо 2 / SCP: Observer / Dyer Expedition (демо) / Sniper Killer - Демо / The Diner / The Muller-Powell Principle (демо) / Unknown Memoirs: The Rental / Horror Stories: Harvest Hunt",
     "date": "2023-06-25",
-    "games": ["they-are-here", "first-2023", "stray-souls", "single-2023", "sniper-killer"],
+    "games": ["they-are-here", "ebola-village", "stray-souls", "first-2023", "single-2023", "sniper-killer"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1855403959.ass",
     "note": "<a href=\"https://youtu.be/s0_2ozHHB0U\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -15558,9 +15558,9 @@
   },
   "2276579699": {
     "youtube": "fm1lr4eLNwk", "vk": "-28387068_456250464", "abs_start": 0, "abs_end": 23792, "duration": 23792,
-    "name": "Secret Agent Wizard Boy and the International Crime Syndicate - Демо 1 / The Precinct (демо) / Liminalcore - Chapter 1 / BrokenLore: LOW (демо) / BrokenLore: Don't Watch - Демо / Zaru / Hi! These Are Your Eyeballs #1 / Targeosity / Voyager-19 / Waffle Cone Willie (демо)",
+    "name": "Secret Agent Wizard Boy and the International Crime Syndicate - Демо 1 / The Precinct - Демо / Liminalcore - Chapter 1 / BrokenLore: LOW (демо) / BrokenLore: Don't Watch - Демо / Zaru / Hi! These Are Your Eyeballs #1 / Targeosity / Voyager-19 / Waffle Cone Willie (демо)",
     "date": "2024-10-15",
-    "games": ["sawbatics", "first-2024", "liminalcore", "single-2024", "brokenlore-dw", "htaye"],
+    "games": ["sawbatics", "precinct", "liminalcore", "single-2024", "brokenlore-dw", "first-2024", "htaye"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2276579699.ass"
   },
   "2278223950": {
@@ -16829,5 +16829,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2458409032.torrent",
     "games": ["doom-dark-ages"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2458409032.ass"
+  },
+  "2459354500": {
+    "abs_start": 0, "abs_end": 18830, "duration": 18830,
+    "name": "The Precinct - Релиз / Ebola Village #1",
+    "date": "2025-05-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2459354500.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2459354500.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2459354500.torrent",
+    "games": ["precinct", "ebola-village"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2459354500.ass"
   }
 }
