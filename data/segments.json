@@ -16159,7 +16159,6 @@
     "youtube": "o0Vfy5bKDD0", "vk": "-28387068_456250624", "abs_start": 0, "abs_end": 16949, "duration": 16949,
     "name": "The Pink Panther: Hocus Pokus Pink (Розовая Пантера: Фокус-Покус)",
     "date": "2025-02-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2376629644.torrent",
     "games": ["single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2376629644.ass"
   },
@@ -16167,7 +16166,6 @@
     "youtube": "5Ci0o3Tkzx8", "vk": "-28387068_456250626", "abs_start": 0, "abs_end": 19189, "duration": 19189,
     "name": "Alien: Isolation (мод AlienS IsolatioN) #1 (заново, ещё сложнее)",
     "date": "2025-02-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2377462530.torrent",
     "games": ["aliens-isolation"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2377462530.ass"
   },
@@ -16851,5 +16849,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2461999486.torrent",
     "games": ["first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2461999486.ass"
+  },
+  "2463632718": {
+    "abs_start": 0, "abs_end": 9571, "duration": 9571,
+    "name": "",
+    "date": "2025-05-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2463632718.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2463632718.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2463632718.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2463632718.ass"
+  },
+  "2463716908": {
+    "abs_start": 0, "abs_end": 14464, "duration": 14464,
+    "name": "",
+    "date": "2025-05-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2463716908.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2463716908.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2463716908.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2463716908.ass"
+  },
+  "2463632718,2463716908": {
+    "abs_start": 0, "abs_end": 23936, "duration": 23936,
+    "name": "Ebola Village #2 / Antioma (демо) / Once Upon A Mind: A Little Too Friendly",
+    "date": "2025-05-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2463632718,2463716908.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2463632718,2463716908.mp4/master.m3u8",
+    "offsets": ["0:00", "2:37:52+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2463632718,2463716908.torrent",
+    "games": ["ebola-village", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2463632718,2463716908+0.ass"
   }
 }
