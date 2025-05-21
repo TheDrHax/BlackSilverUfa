@@ -16173,7 +16173,6 @@
     "youtube": "QsqMUoN6m2s", "vk": "-28387068_456250627", "abs_start": 0, "abs_end": 18005, "duration": 18005,
     "name": "Alien: Isolation (мод AlienS IsolatioN) #2",
     "date": "2025-02-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2378309516.torrent",
     "games": ["aliens-isolation"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2378309516.ass"
   },
@@ -16181,7 +16180,6 @@
     "youtube": "hRH7zyqWeOc", "vk": "-28387068_456250628", "abs_start": 0, "abs_end": 18293, "duration": 18293,
     "name": "State of Play - Февраль 2025 (обзор) / Twisted Tower (демо) / Sancticide (демо) / Slender Threads - Релиз",
     "date": "2025-02-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2380042056.torrent",
     "games": ["sony-sop", "first-2025", "slender-threads"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2380042056.ass"
   },
@@ -16259,10 +16257,10 @@
   },
   "2390754958": {
     "youtube": "ZDWTQPQz-XM", "vk": "-28387068_456250645", "abs_start": 0, "abs_end": 20192, "duration": 20192,
-    "name": "Total Chaos - Демо / RoadCraft (демо) / The 18th Attic (демо) / The Northern Path (Северный путь) (демо) / Salvage Protocol (демо) / We Took That Trip (демо) / Neverlooted Dungeon (демо)",
+    "name": "Total Chaos - Демо / RoadCraft - Демо / The 18th Attic (демо) / The Northern Path (Северный путь) (демо) / Salvage Protocol (демо) / We Took That Trip (демо) / Neverlooted Dungeon (демо)",
     "date": "2025-02-25",
     "torrent": "https://bsufiles.drhx.ru/streams/2390754958.torrent",
-    "games": ["total-chaos", "single-2025", "first-2025"],
+    "games": ["total-chaos", "roadcraft", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2390754958.ass"
   },
   "2391565194": {
@@ -16878,5 +16876,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2463632718,2463716908.torrent",
     "games": ["ebola-village", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2463632718,2463716908+0.ass"
+  },
+  "2464472748": {
+    "abs_start": 0, "abs_end": 8766, "duration": 8766,
+    "name": "",
+    "date": "2025-05-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2464472748.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2464472748.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2464472748.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2464472748+0.ass"
+  },
+  "2464555922": {
+    "abs_start": 0, "abs_end": 16202, "duration": 16202,
+    "name": "",
+    "date": "2025-05-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2464555922.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2464555922.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2464555922.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2464555922.ass"
+  },
+  "2464472748,2464555922": {
+    "abs_start": 0, "abs_end": 24870, "duration": 24870,
+    "name": "Cash Cleaner Simulator / RoadCraft #1",
+    "date": "2025-05-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2464472748,2464555922.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2464472748,2464555922.mp4/master.m3u8",
+    "offsets": ["0:00", "2:24:28+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2464472748,2464555922.torrent",
+    "games": ["first-2025", "roadcraft"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2464472748,2464555922+0.ass"
   }
 }

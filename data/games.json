@@ -8896,6 +8896,9 @@
       ] },
       { "segment": "2461999486", "subrefs": [
         { "name": "One Hand Clapping", "start": 1511 }
+      ] },
+      { "segment": "2464472748,2464555922", "subrefs": [
+        { "name": "Cash Cleaner Simulator", "start": 1637 }
       ] }
     ]
   },
@@ -9183,7 +9186,6 @@
         { "name": "Stygian: Outer Gods (демо)", "start": 9252 }
       ] },
       { "segment": "2390754958", "subrefs": [
-        { "name": "RoadCraft (демо)", "start": 6062 },
         { "name": "Salvage Protocol (демо)", "start": 12817 },
         { "name": "Neverlooted Dungeon (демо)", "start": 15324 }
       ] },
@@ -18230,6 +18232,19 @@
       { "segment": "2463632718,2463716908", "subrefs": [
         { "name": "2", "start": 3444 },
         { "name": "2 (продолжение)", "start": 9687, "hidden": true }
+      ] }
+    ]
+  },
+  {
+    "name": "RoadCraft",
+    "category": "co-op",
+    "id": "roadcraft",
+    "streams": [
+      { "segment": "2390754958", "subrefs": [
+        { "name": "Демо", "start": 6062 }
+      ] },
+      { "segment": "2464472748,2464555922", "subrefs": [
+        { "name": "1", "start": 7909 }
       ] }
     ]
   }
