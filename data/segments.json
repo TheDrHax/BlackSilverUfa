@@ -16187,7 +16187,6 @@
     "youtube": "Zxa4Q57R2PM", "vk": "-28387068_456250629", "abs_start": 0, "abs_end": 23575, "duration": 23575,
     "name": "Elden Ring #24 (Nightreign, network test #1) / PowerWash Simulator #1 / Avowed",
     "date": "2025-02-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2380835608.torrent",
     "games": ["elden-ring", "powerwash-sim", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2380835608.ass"
   },
@@ -16195,7 +16194,6 @@
     "youtube": "c2OFx639sEM", "vk": "-28387068_456250630", "abs_start": 0, "abs_end": 31383, "duration": 31383,
     "name": "Elden Ring #25 (Nightreign, network test #2) / Lucky Tower Ultimate #17 / Treasure Hunters / Emissary Zero #1 / Pit of Goblin / Biped 2 (демо)",
     "date": "2025-02-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2381722688.torrent",
     "games": ["elden-ring", "lucky-tower", "co-op", "emissary-0"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2381722688.ass"
   },
@@ -16907,5 +16905,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2464472748,2464555922.torrent",
     "games": ["first-2025", "roadcraft"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2464472748,2464555922+0.ass"
+  },
+  "2465344778": {
+    "abs_start": 0, "abs_end": 19121, "duration": 19121,
+    "name": "Bus Flipper Simulator (демо) / Tainted Grail: The Fall of Avalon (демо)",
+    "date": "2025-05-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2465344778.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2465344778.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2465344778.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2465344778.ass"
   }
 }
