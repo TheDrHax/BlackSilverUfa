@@ -6811,9 +6811,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v655528246.ass"
   },
   "656257835": {
-    "youtube": "jnzpKbZHaPA", "official": false, "abs_start": 0, "abs_end": 39057, "duration": 39057,
+    "abs_start": 0, "abs_end": 39057, "duration": 39057,
     "name": "The Last of Us: Part II #3",
     "date": "2020-06-20",
+    "direct": "https://bsufiles.drhx.ru/streams/656257835.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/656257835.mp4/master.m3u8",
     "games": ["tlou2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v656257835.ass"
   },
