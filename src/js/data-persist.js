@@ -5,13 +5,7 @@ const Persist = new Promise((resolve, reject) => {
 
   tmp = new Loki('BSU-persist', {
     autoload: true,
-    autoloadCallback: (err) => {
-      if (!err) {
-        resolve(tmp);
-      } else {
-        reject(err);
-      }
-    },
+    autoloadCallback: () => resolve(tmp),
     autosave: true,
     autosaveInterval: 5000,
   });
