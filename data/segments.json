@@ -16203,7 +16203,6 @@
     "youtube": "w3qHi3pbqB4", "vk": "-28387068_456250632", "abs_start": 0, "abs_end": 18924, "duration": 18924,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #6 / Expedition to the Backrooms / Bad Cheese (демо) / Who am I? / Paranormal Night Shift #1 / Whale Flesh / Benny Bash (демо)",
     "date": "2025-02-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2382739461.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "par-night-shift"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2382739461.ass"
   },
@@ -16842,10 +16841,10 @@
   },
   "2461999486": {
     "youtube": "PVsi-6kmBV4", "vk": "-28387068_456250770", "abs_start": 0, "abs_end": 17157, "duration": 17157,
-    "name": "One Hand Clapping",
+    "name": "One Hand Clapping #1",
     "date": "2025-05-18",
     "torrent": "https://bsufiles.drhx.ru/streams/2461999486.torrent",
-    "games": ["first-2025"],
+    "games": ["one-hand-clapping"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2461999486.ass"
   },
   "2463632718": {
@@ -16913,5 +16912,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2465344778.torrent",
     "games": ["first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2465344778.ass"
+  },
+  "2467093723": {
+    "abs_start": 0, "abs_end": 16553, "duration": 16553,
+    "name": "One Hand Clapping #2",
+    "date": "2025-05-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2467093723.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2467093723.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2467093723.torrent",
+    "games": ["one-hand-clapping"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2467093723.ass"
   }
 }

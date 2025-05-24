@@ -8894,9 +8894,6 @@
         { "name": "Letters of Bernard Thorne", "start": 10466 },
         { "name": "Vlad Circus: Curse of Asmodeus (демо)", "start": 15045 }
       ] },
-      { "segment": "2461999486", "subrefs": [
-        { "name": "One Hand Clapping", "start": 1511 }
-      ] },
       { "segment": "2464472748,2464555922", "subrefs": [
         { "name": "Cash Cleaner Simulator", "start": 1637 }
       ] },
@@ -18249,6 +18246,19 @@
       ] },
       { "segment": "2464472748,2464555922", "subrefs": [
         { "name": "1", "start": 7909 }
+      ] }
+    ]
+  },
+  {
+    "name": "One Hand Clapping",
+    "category": "finished",
+    "id": "one-hand-clapping",
+    "streams": [
+      { "segment": "2461999486", "subrefs": [
+        { "name": "1", "start": 1511 }
+      ] },
+      { "segment": "2467093723", "subrefs": [
+        { "name": "2", "start": 1327 }
       ] }
     ]
   }
