@@ -16210,7 +16210,6 @@
     "youtube": "LKj_ZUQ0FtA", "vk": "-28387068_456250634", "abs_start": 0, "abs_end": 19961, "duration": 19961,
     "name": "A Game About Digging A Hole / Like a Dragon: Pirate Yakuza in Hawaii (демо) / Panelka",
     "date": "2025-02-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2383640509.torrent",
     "games": ["single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2383640509.ass"
   },
@@ -16920,5 +16919,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2467093723.torrent",
     "games": ["one-hand-clapping"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2467093723.ass"
+  },
+  "2467989555": {
+    "abs_start": 0, "abs_end": 18832, "duration": 18832,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #22 / Hotel 188 / Pieces of Me / Blood Mall / The Last Visit: 98th / Terrors to Unveil: Intrusion / Jawbone Hollow",
+    "date": "2025-05-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2467989555.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2467989555.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2467989555.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2467989555.ass"
   }
 }
