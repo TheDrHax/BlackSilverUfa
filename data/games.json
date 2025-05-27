@@ -8967,7 +8967,7 @@
   },
   {
     "name": "Total Chaos",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "total-chaos",
     "streams": [
       { "segment": "332769459", "subrefs": [
@@ -18190,6 +18190,9 @@
       ] },
       { "segment": "2451705218", "subrefs": [
         { "name": "2", "start": 23187 }
+      ] },
+      { "segment": "2469707621", "subrefs": [
+        { "name": "3", "start": 17838 }
       ] }
     ]
   },
@@ -18259,6 +18262,9 @@
       ] },
       { "segment": "2464472748,2464555922", "subrefs": [
         { "name": "1", "start": 7909 }
+      ] },
+      { "segment": "2469707621", "subrefs": [
+        { "name": "2", "start": 5962 }
       ] }
     ]
   },
