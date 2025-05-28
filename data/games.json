@@ -8904,6 +8904,12 @@
       { "segment": "2467989555", "subrefs": [
         { "name": "Hotel 188", "start": 1160 },
         { "name": "Jawbone Hollow", "start": 17630 }
+      ] },
+      { "segment": "2470596250", "subrefs": [
+        { "name": "Pestilence (демо)", "start": 5366 },
+        { "name": "Below Nowhere", "start": 9575 },
+        { "name": "Hello Neigbour 3 (демо)", "start": 13742 },
+        { "name": "Midnight Special", "start": 17053 }
       ] }
     ]
   },
@@ -9317,6 +9323,13 @@
         { "name": "Blood Mall", "start": 10291 },
         { "name": "The Last Visit: 98th", "start": 11851 },
         { "name": "Terrors to Unveil: Intrusion", "start": 15446 }
+      ] },
+      { "segment": "2470596250", "subrefs": [
+        { "name": "Tape 101 (демо)", "start": 1565 },
+        { "name": "Last Guest", "start": 3351 },
+        { "name": "Dead Tapes: Fading Father", "start": 6991 },
+        { "name": "The Oily Depths (демо)", "start": 12164 },
+        { "name": "PHASE ZERO (демо)", "start": 14155 }
       ] }
     ]
   },
@@ -17072,6 +17085,9 @@
       ] },
       { "segment": "2467989555", "subrefs": [
         { "name": "22" }
+      ] },
+      { "segment": "2470596250", "subrefs": [
+        { "name": "23" }
       ] }
     ]
   },
