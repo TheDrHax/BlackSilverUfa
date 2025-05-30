@@ -16187,16 +16187,16 @@
   },
   "2380835608": {
     "youtube": "Zxa4Q57R2PM", "vk": "-28387068_456250629", "abs_start": 0, "abs_end": 23575, "duration": 23575,
-    "name": "Elden Ring #24 (Nightreign, network test #1) / PowerWash Simulator #1 / Avowed",
+    "name": "Elden Ring: Nightreign - Network test #1 / PowerWash Simulator #1 / Avowed",
     "date": "2025-02-14",
-    "games": ["elden-ring", "powerwash-sim", "first-2025"],
+    "games": ["elden-ring-nightreign", "powerwash-sim", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2380835608.ass"
   },
   "2381722688": {
     "youtube": "c2OFx639sEM", "vk": "-28387068_456250630", "abs_start": 0, "abs_end": 31383, "duration": 31383,
-    "name": "Elden Ring #25 (Nightreign, network test #2) / Lucky Tower Ultimate #17 / Treasure Hunters / Emissary Zero #1 / Pit of Goblin / Biped 2 (демо)",
+    "name": "Elden Ring: Nightreign - Network test #2 / Lucky Tower Ultimate #17 / Treasure Hunters / Emissary Zero #1 / Pit of Goblin / Biped 2 (демо)",
     "date": "2025-02-15",
-    "games": ["elden-ring", "lucky-tower", "co-op", "emissary-0"],
+    "games": ["elden-ring-nightreign", "lucky-tower", "co-op", "emissary-0"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2381722688.ass"
   },
   "2382739461": {
@@ -16231,7 +16231,6 @@
     "youtube": "BSMH8nvtOpg", "vk": "-28387068_456250640", "abs_start": 0, "abs_end": 18400, "duration": 18400,
     "name": "Dune: Awakening - Демо / Soulframe (демо) / Killing Floor III (демо) / Deepest Trench / Radiolight (демо) / Beholder: Conductor (демо)",
     "date": "2025-02-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2387156230.torrent",
     "games": ["dune-awakening", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2387156230.ass"
   },
@@ -16239,7 +16238,6 @@
     "youtube": "9Rp5voV6lt4", "vk": "-28387068_456250641", "abs_start": 0, "abs_end": 18127, "duration": 18127,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #7 / Backrooms Level X (демо) / Baptiste (демо) / Suffocate / Hell of a Birthday / Unforgotten: Ordinance / The Unholy Priest",
     "date": "2025-02-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2389049577.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025", "mgf-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2389049577.ass"
   },
@@ -16941,5 +16939,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2470596250.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2470596250.ass"
+  },
+  "2472314909": {
+    "abs_start": 0, "abs_end": 31560, "duration": 31560,
+    "name": "Elden Ring: Nightreign - Релиз / Warhammer 40,000: Space Marine II (кооп) #5",
+    "date": "2025-05-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2472314909.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2472314909.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2472314909.torrent",
+    "games": ["elden-ring-nightreign", "wh40k-sm2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2472314909.ass"
   }
 }

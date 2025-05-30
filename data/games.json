@@ -9557,6 +9557,9 @@
       ] },
       { "segment": "2253290479", "subrefs": [
         { "name": "4", "start": 11420 }
+      ] },
+      { "segment": "2472314909", "subrefs": [
+        { "name": "5", "start": 15420 }
       ] }
     ]
   },
@@ -12753,12 +12756,22 @@
       ] },
       { "segment": "2183779952", "subrefs": [
         { "name": "23 (Shadow of Erdtree #7)", "start": 634 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Elden Ring: Nightreign",
+    "category": "co-op",
+    "id": "elden-ring-nightreign",
+    "streams": [
       { "segment": "2380835608", "subrefs": [
-        { "name": "24 (Nightreign, network test #1)", "start": 1846 }
+        { "name": "Network test #1", "start": 1846 }
       ] },
       { "segment": "2381722688", "subrefs": [
-        { "name": "25 (Nightreign, network test #2)", "start": 787 }
+        { "name": "Network test #2", "start": 787 }
+      ] },
+      { "segment": "2472314909", "subrefs": [
+        { "name": "Релиз", "start": 996 }
       ] }
     ]
   },
