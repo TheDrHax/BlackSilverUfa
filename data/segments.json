@@ -16245,7 +16245,6 @@
     "youtube": "2Yl8LQxm-ro", "vk": "-28387068_456250644", "abs_start": 0, "abs_end": 22676, "duration": 22676,
     "name": "Chernobylite 2: Exclusion Zone (демо) / Farm Renovator (демо) / Stygian: Outer Gods (демо) / Idea Fix #2 (демо) / Gothic 1 Remake - Демо / Solarpunk",
     "date": "2025-02-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2389893992.torrent",
     "games": ["first-2025", "single-2025", "idea-fix", "gothic-1-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2389893992.ass"
   },
@@ -16947,5 +16946,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2472314909.torrent",
     "games": ["elden-ring-nightreign", "wh40k-sm2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2472314909.ass"
+  },
+  "2473333907": {
+    "abs_start": 0, "abs_end": 18520, "duration": 18520,
+    "name": "SCP Containment Breach - Ultimate Edition #7",
+    "date": "2025-05-31",
+    "direct": "https://bsufiles.drhx.ru/streams/2473333907.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2473333907.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2473333907.torrent",
+    "games": ["scp-cb-ultimate"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2473333907.ass"
   }
 }
