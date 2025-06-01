@@ -16252,7 +16252,6 @@
     "youtube": "ZDWTQPQz-XM", "vk": "-28387068_456250645", "abs_start": 0, "abs_end": 20192, "duration": 20192,
     "name": "Total Chaos - Демо / RoadCraft - Демо / The 18th Attic (демо) / The Northern Path (Северный путь) (демо) / Salvage Protocol (демо) / We Took That Trip (демо) / Neverlooted Dungeon (демо)",
     "date": "2025-02-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2390754958.torrent",
     "games": ["total-chaos", "roadcraft", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2390754958.ass"
   },
@@ -16949,10 +16948,20 @@
   },
   "2473333907": {
     "youtube": "iBkJP8yD0oM", "vk": "-28387068_456250786", "abs_start": 0, "abs_end": 18520, "duration": 18520,
-    "name": "SCP Containment Breach - Ultimate Edition #7",
+    "name": "SCP Containment Breach - Ultimate Edition #7 (Reborn)",
     "date": "2025-05-31",
     "torrent": "https://bsufiles.drhx.ru/streams/2473333907.torrent",
     "games": ["scp-cb-ultimate"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2473333907.ass"
+  },
+  "2474256633": {
+    "abs_start": 0, "abs_end": 18554, "duration": 18554,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #24 / LIMINALPHOBIA (демо) / Uncanny Tales: 1992 (демо) / Thunderhead / Nightmares Awake (демо) / SCP: Control Error / The Gretlow Tapes (демо) / Remorses / White Room Protocol (демо) / Nightmare Visions",
+    "date": "2025-06-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2474256633.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2474256633.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2474256633.torrent",
+    "games": ["horrors-2025", "single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2474256633.ass"
   }
 }

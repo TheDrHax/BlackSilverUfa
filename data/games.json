@@ -8910,6 +8910,11 @@
         { "name": "Below Nowhere", "start": 9575 },
         { "name": "Hello Neigbour 3 (демо)", "start": 13742 },
         { "name": "Midnight Special", "start": 17053 }
+      ] },
+      { "segment": "2474256633", "subrefs": [
+        { "name": "Remorses", "start": 12592 },
+        { "name": "White Room Protocol (демо)", "start": 16353 },
+        { "name": "Nightmare Visions", "start": 17420 }
       ] }
     ]
   },
@@ -9330,6 +9335,14 @@
         { "name": "Dead Tapes: Fading Father", "start": 6991 },
         { "name": "The Oily Depths (демо)", "start": 12164 },
         { "name": "PHASE ZERO (демо)", "start": 14155 }
+      ] },
+      { "segment": "2474256633", "subrefs": [
+        { "name": "LIMINALPHOBIA (демо)", "start": 1080 },
+        { "name": "Uncanny Tales: 1992 (демо)", "start": 2873 },
+        { "name": "Thunderhead", "start": 4127 },
+        { "name": "Nightmares Awake (демо)", "start": 5377 },
+        { "name": "SCP: Control Error", "start": 7678 },
+        { "name": "The Gretlow Tapes (демо)", "start": 10582 }
       ] }
     ]
   },
@@ -15644,7 +15657,7 @@
         { "name": "6", "start": 20390 }
       ] },
       { "segment": "2473333907", "subrefs": [
-        { "name": "7", "start": 2613 }
+        { "name": "7 (Reborn)", "start": 2613 }
       ] }
     ]
   },
@@ -17104,6 +17117,9 @@
       ] },
       { "segment": "2470596250", "subrefs": [
         { "name": "23" }
+      ] },
+      { "segment": "2474256633", "subrefs": [
+        { "name": "24" }
       ] }
     ]
   },
