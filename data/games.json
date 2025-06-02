@@ -15531,22 +15531,25 @@
     "id": "death-stranding",
     "streams": [
       { "segment": "505477026", "subrefs": [
-        { "name": "1" }
+        { "name": "1", "start": 773 }
       ] },
       { "segment": "505944491", "subrefs": [
-        { "name": "2" }
+        { "name": "2", "start": 386 }
       ] },
       { "segment": "506424196", "subrefs": [
-        { "name": "3" }
+        { "name": "3", "start": 504 }
       ] },
       { "segment": "506857937", "subrefs": [
-        { "name": "4" }
+        { "name": "4", "start": 331 }
       ] },
       { "segment": "679308738", "subrefs": [
         { "name": "PC (заново)", "start": 8014 }
       ] },
       { "segment": "1161558202,1161662373", "subrefs": [
-        { "name": "5 (Director's Cut)" }
+        { "name": "5 (Director's Cut)", "start": 1397 }
+      ] },
+      { "segment": "2475029877", "subrefs": [
+        { "name": "1 (заново, Director's Cut)", "start": 1439 }
       ] }
     ]
   },
