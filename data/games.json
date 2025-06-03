@@ -793,6 +793,9 @@
       ] },
       { "segment": "2451705218", "subrefs": [
         { "name": "Puppet Team", "start": 13470 }
+      ] },
+      { "segment": "2475897673", "subrefs": [
+        { "name": "Backseat Drivers", "start": 11434 }
       ] }
     ]
   },
@@ -8915,6 +8918,9 @@
         { "name": "Remorses", "start": 12592 },
         { "name": "White Room Protocol (демо)", "start": 16353 },
         { "name": "Nightmare Visions", "start": 17420 }
+      ] },
+      { "segment": "2475897673", "subrefs": [
+        { "name": "Hell is Us (демо)", "start": 919 }
       ] }
     ]
   },
@@ -18244,6 +18250,9 @@
       ] },
       { "segment": "2469707621", "subrefs": [
         { "name": "3", "start": 17838 }
+      ] },
+      { "segment": "2475897673", "subrefs": [
+        { "name": "4", "start": 24178 }
       ] }
     ]
   },
@@ -18316,6 +18325,9 @@
       ] },
       { "segment": "2469707621", "subrefs": [
         { "name": "2", "start": 5962 }
+      ] },
+      { "segment": "2475897673", "subrefs": [
+        { "name": "3", "start": 15835 }
       ] }
     ]
   },
