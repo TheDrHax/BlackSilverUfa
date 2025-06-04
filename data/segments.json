@@ -16982,5 +16982,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2476761763.torrent",
     "games": ["death-stranding"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2476761763+0.ass"
+  },
+  "2477119604": {
+    "abs_start": 0, "abs_end": 598, "duration": 598,
+    "name": "",
+    "date": "2025-06-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2477119604.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2477119604.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2477119604.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2477119604.ass"
+  },
+  "2477127804": {
+    "abs_start": 0, "abs_end": 8965, "duration": 8965,
+    "name": "",
+    "date": "2025-06-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2477127804.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2477127804.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2477127804.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2477127804.ass"
+  },
+  "2477119604,2477127804": {
+    "abs_start": 0, "abs_end": 9562, "duration": 9562,
+    "name": "Aspis (Аспис) / State of Play - Июнь 2025",
+    "date": "2025-06-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2477119604,2477127804.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2477119604,2477127804.mp4/master.m3u8",
+    "offsets": ["0:00", "9:56+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2477119604,2477127804.torrent",
+    "games": ["first-2025", "sony-sop"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2477119604,2477127804+0.ass"
   }
 }
