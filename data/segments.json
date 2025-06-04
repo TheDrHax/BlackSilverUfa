@@ -16280,7 +16280,6 @@
     "youtube": "PIA8xr5FHvU", "vk": "-28387068_456250650", "abs_start": 0, "abs_end": 17572, "duration": 17572,
     "name": "Emergency Cleanup Co. #3 / Nedra (демо) / Stone Simulator #1 / Wheel World (демо) / Despelote",
     "date": "2025-03-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2396035230.torrent",
     "games": ["emergency-cleanup", "first-2025", "stone-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2396035230.ass"
   },
@@ -16288,7 +16287,6 @@
     "youtube": "2dbiJ00KTUM", "vk": "-28387068_456250651", "abs_start": 0, "abs_end": 18680, "duration": 18680,
     "name": "Emergency Cleanup Co. #4 / [REC] Desolation / Cold Abyss: Director's Cut (демо) / Stone Simulator #2",
     "date": "2025-03-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2396868866.torrent",
     "games": ["emergency-cleanup", "single-2025", "stone-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2396868866.ass"
   },
@@ -16974,5 +16972,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2475897673.torrent",
     "games": ["first-2025", "co-op", "roadcraft", "powerwash-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2475897673.ass"
+  },
+  "2476761763": {
+    "abs_start": 0, "abs_end": 28007, "duration": 28007,
+    "name": "Death Stranding #2 (Director's Cut)",
+    "date": "2025-06-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2476761763.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2476761763.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2476761763.torrent",
+    "games": ["death-stranding"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2476761763+0.ass"
   }
 }
