@@ -16301,7 +16301,6 @@
     "youtube": "PXIX3lUJoFg", "vk": "-28387068_456250655", "abs_start": 0, "abs_end": 25683, "duration": 25683,
     "name": "Split Fiction (с Дашей) #1",
     "date": "2025-03-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2399353737.torrent",
     "games": ["split-fiction"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2399353737+0.ass"
   },
@@ -17016,5 +17015,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2477649477.torrent",
     "games": ["death-stranding"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2477649477.ass"
+  },
+  "2478592997": {
+    "abs_start": 0, "abs_end": 15076, "duration": 15076,
+    "name": "Nintendo Switch 2 / Cyberpunk 2077 - Switch 2 / Mario Kart World / Nintendo Switch 2 Welcome Tour / Fast Fusion / The Legend of Zelda: Breath of the Wild - Switch 2 / The Legend of Zelda: Tears of the Kingdom - Switch 2",
+    "date": "2025-06-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2478592997.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2478592997.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2478592997.torrent",
+    "games": ["other", "cyberpunk-2077", "first-2025", "tloz_botw", "tloz_totk"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2478592997.ass"
   }
 }

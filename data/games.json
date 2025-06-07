@@ -6067,6 +6067,9 @@
       ] },
       { "segment": "2408851513", "subrefs": [
         { "name": "12", "start": 17756 }
+      ] },
+      { "segment": "2478592997", "subrefs": [
+        { "name": "Switch 2", "start": 3957 }
       ] }
     ]
   },
@@ -6271,6 +6274,9 @@
       ] },
       { "segment": "1817065976", "subrefs": [
         { "name": "22 - перед TotK", "start": 1143 }
+      ] },
+      { "segment": "2478592997", "subrefs": [
+        { "name": "Switch 2", "start": 10019 }
       ] }
     ]
   },
@@ -6332,6 +6338,9 @@
       ] },
       { "segment": "1973510528", "subrefs": [
         { "name": "18", "start": 544 }
+      ] },
+      { "segment": "2478592997", "subrefs": [
+        { "name": "Switch 2", "start": 10843 }
       ] }
     ]
   },
@@ -6480,6 +6489,9 @@
       ] },
       { "segment": "2340621815", "subrefs": [
         { "name": "Новый год 2025 (клипы)" }
+      ] },
+      { "segment": "2478592997", "subrefs": [
+        { "name": "Nintendo Switch 2", "start": 3558 }
       ] }
     ]
   },
@@ -8927,6 +8939,11 @@
       ] },
       { "segment": "2477119604,2477127804", "subrefs": [
         { "name": "Aspis (Аспис) (демо)", "start": 917 }
+      ] },
+      { "segment": "2478592997", "subrefs": [
+        { "name": "Mario Kart World", "start": 7510 },
+        { "name": "Nintendo Switch 2 Welcome Tour", "start": 8805 },
+        { "name": "Fast Fusion", "start": 9531 }
       ] }
     ]
   },
