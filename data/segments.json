@@ -17025,5 +17025,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2478592997.torrent",
     "games": ["other", "cyberpunk-2077", "first-2025", "tloz_botw", "tloz_totk"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2478592997.ass"
+  },
+  "2478883069": {
+    "abs_start": 0, "abs_end": 11939, "duration": 11939,
+    "name": "неПрофессиональный \"E3\" 2025 - Summer Game Fest",
+    "date": "2025-06-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2478883069.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2478883069.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2478883069.torrent",
+    "games": ["e3-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2478883069.ass"
   }
 }

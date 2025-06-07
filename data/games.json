@@ -3330,6 +3330,16 @@
     ]
   },
   {
+    "name": "неПрофессиональный \"E3\" 2025",
+    "category": "expos",
+    "id": "e3-2025",
+    "streams": [
+      { "segment": "2478883069", "subrefs": [
+        { "name": "Summer Game Fest", "start": 4241 }
+      ] }
+    ]
+  },
+  {
     "name": "PlayStation Showcase",
     "category": "expos",
     "id": "ps-showcase",
