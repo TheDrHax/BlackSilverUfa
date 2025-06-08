@@ -16308,7 +16308,6 @@
     "youtube": "d-yWT8gttBo", "vk": "-28387068_456250658", "abs_start": 0, "abs_end": 19217, "duration": 19217,
     "name": "Five Hearts Under One Roof",
     "date": "2025-03-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2400318367.torrent",
     "games": ["single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2400318367.ass"
   },
@@ -16316,7 +16315,6 @@
     "youtube": "ZFH38liap8k", "vk": "-28387068_456250660", "official": false, "abs_start": 0, "abs_end": 2679, "duration": 2679,
     "name": "Cyberpunk 2077 #11 (тест нового ПК)",
     "date": "2025-03-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2402231265.torrent",
     "games": ["cyberpunk-2077"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2402231265.ass"
   },
@@ -16324,7 +16322,6 @@
     "youtube": "NxYSlujGfSw", "vk": "-28387068_456250661", "abs_start": 0, "abs_end": 21611, "duration": 21611,
     "name": "Secret Agent Wizard Boy and the International Crime Syndicate - Демо 2",
     "date": "2025-03-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2402902685.torrent",
     "games": ["sawbatics"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2402902685.ass"
   },
@@ -17034,10 +17031,41 @@
   },
   "2479512551": {
     "youtube": "rV5VCKEkb9U", "vk": "-28387068_456250799", "abs_start": 0, "abs_end": 13034, "duration": 13034,
-    "name": "неПрофессиональный \"E3\" 2025 - Трейлеры",
+    "name": "неПрофессиональный \"E3\" 2025 - Summer Games Fest (обзор) | Devolver Direct (обзор) | НашЫ игры",
     "date": "2025-06-07",
     "torrent": "https://bsufiles.drhx.ru/streams/2479512551.torrent",
     "games": ["e3-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2479512551.ass"
+  },
+  "2480467576": {
+    "abs_start": 0, "abs_end": 10696, "duration": 10696,
+    "name": "",
+    "date": "2025-06-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2480467576.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2480467576.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2480467576.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2480467576.ass"
+  },
+  "2480584019": {
+    "abs_start": 0, "abs_end": 8913, "duration": 8913,
+    "name": "",
+    "date": "2025-06-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2480584019.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2480584019.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2480584019.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2480584019.ass"
+  },
+  "2480467576,2480584019": {
+    "abs_start": 0, "abs_end": 19608, "duration": 19608,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #25 / неПрофессиональный \"E3\" 2025 - Future Games Show (обзор) / The Backrooms: Found Footage / Matreshka (демо) / Who's at the Door? / Sharks and Minnows / PIGFACE (демо) / Krysolov / неПрофессиональный \"E3\" 2025 - Xbox Games Showcase",
+    "date": "2025-06-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2480467576,2480584019.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2480467576,2480584019.mp4/master.m3u8",
+    "offsets": ["0:00", "2:58:14+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2480467576,2480584019.torrent",
+    "games": ["horrors-2025", "e3-2025", "single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2480467576,2480584019+0.ass"
   }
 }

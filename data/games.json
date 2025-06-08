@@ -3338,7 +3338,13 @@
         { "name": "Summer Game Fest", "start": 4241 }
       ] },
       { "segment": "2479512551", "subrefs": [
-        { "name": "Трейлеры" }
+        { "name": "Summer Games Fest (обзор)", "start": 1658 },
+        { "name": "Devolver Direct (обзор)", "start": 7324 },
+        { "name": "НашЫ игры", "start": 8415 }
+      ] },
+      { "segment": "2480467576,2480584019", "subrefs": [
+        { "name": "Future Games Show (обзор)", "start": 1304 },
+        { "name": "Xbox Games Showcase", "start": 14657 }
       ] }
     ]
   },
@@ -8957,6 +8963,9 @@
         { "name": "Mario Kart World", "start": 7510 },
         { "name": "Nintendo Switch 2 Welcome Tour", "start": 8805 },
         { "name": "Fast Fusion", "start": 9531 }
+      ] },
+      { "segment": "2480467576,2480584019", "subrefs": [
+        { "name": "PIGFACE (демо)", "start": 11650 }
       ] }
     ]
   },
@@ -9385,6 +9394,13 @@
         { "name": "Nightmares Awake (демо)", "start": 5377 },
         { "name": "SCP: Control Error", "start": 7678 },
         { "name": "The Gretlow Tapes (демо)", "start": 10582 }
+      ] },
+      { "segment": "2480467576,2480584019", "subrefs": [
+        { "name": "The Backrooms: Found Footage", "start": 2835 },
+        { "name": "Matreshka (демо)", "start": 4073 },
+        { "name": "Who's at the Door?", "start": 5476 },
+        { "name": "Sharks and Minnows", "start": 7368 },
+        { "name": "Krysolov", "start": 13206 }
       ] }
     ]
   },
@@ -17171,6 +17187,9 @@
       ] },
       { "segment": "2474256633", "subrefs": [
         { "name": "24" }
+      ] },
+      { "segment": "2480467576,2480584019", "subrefs": [
+        { "name": "25" }
       ] }
     ]
   },
