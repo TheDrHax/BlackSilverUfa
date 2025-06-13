@@ -2749,9 +2749,10 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286171438.ass"
   },
   "286989766": {
-    "youtube": "Ak64Y8UHzr4", "official": false, "abs_start": -4, "abs_end": 11535, "duration": 11539,
+    "abs_start": -4, "abs_end": 11535, "duration": 11539,
     "name": "S.T.A.L.K.E.R.: Clear Sky + Mystery #2",
     "date": "2018-07-20",
+    "direct": "https://bsufiles.drhx.ru/streams/286989766.mp4",
     "games": ["stalker-cs"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286989766.ass"
   },
@@ -5547,9 +5548,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v502487271.ass"
   },
   "502940448": {
-    "youtube": "CKJFAXtqNYw", "official": false, "abs_start": 0, "abs_end": 18833, "duration": 18833,
+    "abs_start": 0, "abs_end": 18833, "duration": 18833,
     "name": "BlizzCon 2019 (обзор) / Nioh 2 - Бета / Mafia II #2",
     "date": "2019-11-02",
+    "direct": "https://bsufiles.drhx.ru/streams/502940448.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/502940448.mp4/master.m3u8",
     "games": ["expos", "nioh-2", "mafia-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v502940448.ass"
   },
@@ -6627,9 +6630,11 @@
     "note": "<a href=\"https://youtu.be/cheJszNoZaM\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "625606171": {
-    "youtube": "wnGF5pZiTA8", "official": false, "abs_start": 0, "abs_end": 21808, "duration": 21808,
+    "abs_start": 0, "abs_end": 21807, "duration": 21807,
     "name": "Minecraft #4 / Mafia II: Definitive Edition #1",
     "date": "2020-05-19",
+    "direct": "https://bsufiles.drhx.ru/streams/625606171.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/625606171.mp4/master.m3u8",
     "games": ["minecraft", "mafia-2-definitive"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v625606171.ass"
   },
