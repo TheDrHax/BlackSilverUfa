@@ -14806,9 +14806,9 @@
   },
   "2169221839": {
     "youtube": "NbjTYd4OTzQ", "abs_start": 0, "abs_end": 25562, "duration": 25562,
-    "name": "неПрофессиональный \"E3\" 2024 - Ubisoft Forward (обзор) / Phantom Line (демо) / The Alters (демо) / FUMES (демо) / Steel Seed - Демо / Lucky Tower Ultimate #2 / Reason Unfound (демо) / Tormenture #1 (демо)",
+    "name": "неПрофессиональный \"E3\" 2024 - Ubisoft Forward (обзор) / Phantom Line (демо) / The Alters - Демо / FUMES (демо) / Steel Seed - Демо / Lucky Tower Ultimate #2 / Reason Unfound (демо) / Tormenture #1 (демо)",
     "date": "2024-06-11",
-    "games": ["e3_2024", "single-2024", "first-2024", "steel-seed", "lucky-tower", "tormenture"],
+    "games": ["e3_2024", "single-2024", "alters", "first-2024", "steel-seed", "lucky-tower", "tormenture"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2169221839.ass"
   },
   "2170124389": {
@@ -16345,7 +16345,6 @@
     "youtube": "2aVzkeqYaQs", "vk": "-28387068_456250666", "abs_start": 0, "abs_end": 20509, "duration": 20509,
     "name": "Emergency Cleanup Co. #6 / Flashing Dark #2 / No.8 High School / That's Not My Neighbor",
     "date": "2025-03-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2405375731.torrent",
     "games": ["emergency-cleanup", "flashing-dark", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2405375731.ass"
   },
@@ -16353,7 +16352,6 @@
     "youtube": "OhyGVIZmrqY", "vk": "-28387068_456250668", "abs_start": 0, "abs_end": 25262, "duration": 25262,
     "name": "Emergency Cleanup Co. #7 / Star Citizen #2",
     "date": "2025-03-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2406277677.torrent",
     "games": ["emergency-cleanup", "star-citizen"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2406277677.ass"
   },
@@ -17075,5 +17073,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2483947367.torrent",
     "games": ["first-2025", "nimnah"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2483947367.ass"
+  },
+  "2484807936": {
+    "abs_start": 0, "abs_end": 21667, "duration": 21667,
+    "name": "The Alters #1 / Five Nights at Freddy's: Secret of the Mimic",
+    "date": "2025-06-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2484807936.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2484807936.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2484807936.torrent",
+    "games": ["alters", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2484807936.ass"
   }
 }

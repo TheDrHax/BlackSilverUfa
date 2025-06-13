@@ -8510,7 +8510,6 @@
         { "name": "Soulmask", "start": 5090 }
       ] },
       { "segment": "2169221839", "subrefs": [
-        { "name": "The Alters (демо)", "start": 8186 },
         { "name": "FUMES (демо)", "start": 16446 }
       ] },
       { "segment": "2170904450", "subrefs": [
@@ -8970,6 +8969,9 @@
       { "segment": "2483947367", "subrefs": [
         { "name": "MindsEye", "start": 1876 },
         { "name": "Baby Steps (демо)", "start": 11638 }
+      ] },
+      { "segment": "2484807936", "subrefs": [
+        { "name": "Five Nights at Freddy's: Secret of the Mimic", "start": 20361 }
       ] }
     ]
   },
@@ -18418,6 +18420,19 @@
       ] },
       { "segment": "2467093723", "subrefs": [
         { "name": "2", "start": 1327 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Alters",
+    "category": "ongoing",
+    "id": "alters",
+    "streams": [
+      { "segment": "2169221839", "subrefs": [
+        { "name": "Демо", "start": 8186 }
+      ] },
+      { "segment": "2484807936", "subrefs": [
+        { "name": "1", "start": 1863 }
       ] }
     ]
   }
