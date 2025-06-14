@@ -265,6 +265,10 @@ class Timecodes(SortedKeyList):
     def end(self) -> Timecode:
         return self[-1].end if len(self) > 0 else Timecode()
 
+    @property
+    def duration(self) -> Timecode:
+        return sum(t.duration for t in self)
+
     def find(self,
              value: SEARCH_TYPE,
              depth: int = -1,

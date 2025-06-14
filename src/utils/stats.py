@@ -11,6 +11,8 @@ def get_stats():
     messages = 0
     claims = 0
     streams_claimed = 0
+    streams_claimed_duration = 0
+    claims_duration = 0
 
     for stream in streams.values():
         if stream.type is StreamType.JOINED:
@@ -26,6 +28,8 @@ def get_stats():
         claim, _ = stream.timecodes.find('Проблемы с правообладателями', depth=0)
         if isinstance(claim, Timecodes):
             streams_claimed += 1
+            streams_claimed_duration += stream.duration
+            claims_duration += claim.duration
 
             for t in claim:
                 if isinstance(t, Timecodes):
@@ -61,14 +65,16 @@ def get_stats():
                 'unofficial': unofficial,
                 'missing': missing
             },
-            'messages': messages,
-            'content_id': {
-                'streams': streams_claimed,
-                'claims': claims
-            }
+            'messages': messages
         },
         'durations': {
             'streams': int(duration_streams),
             'segments': int(duration_segments)
+        },
+        'content_id': {
+            'streams': streams_claimed,
+            'count': claims,
+            'total': int(claims_duration),
+            'percentage': round(int(claims_duration) / int(streams_claimed_duration) * 10000) / 100
         }
     }

@@ -35,9 +35,11 @@ export const StatsBlock = () => {
         записей - <b>{ftime(data.durations.segments)}</b> (покрытие: <b>{videoCoverage}%</b>).
         За это время было написано {render('сообщен{n#ие,ия,ий}', data.counts.messages)} в чате,
         то есть в среднем по {render('сообщен{n#ию,ия,ий}', avgMsgCount)} за стрим.{' '}
-        На <b>{render('сегмент{n#,а,ов}', data.counts.content_id.streams)}</b> суммарно поступило{' '}
-        <b>{render('заяв{n#ка,ки,ок}', data.counts.content_id.claims)}</b> Content ID, приводящих к{' '}
-        блокировке во всём мире или только в России.{' '}
+        На <b>{render('сегмент{n#,а,ов}', data.content_id.streams)}</b> суммарно поступило{' '}
+        <b>{render('заяв{n#ка,ки,ок}', data.content_id.count)}</b> Content ID, приводящих к{' '}
+        блокировке во всём мире или только в России. Общая продолжительность заявок равна{' '}
+        <b>{ftime(data.content_id.total)}</b>, что составляет лишь <b>{data.content_id.percentage}%</b>{' '}
+        от заблокированного контента.{' '}
 
         {data.counts.segments.missing > 0 && (
           <>
