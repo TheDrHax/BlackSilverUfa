@@ -10,14 +10,16 @@
       "unofficial": 739,
       "missing": 26
     },
-    "messages": 33400668,
-    "content_id": {
-      "streams": 256,
-      "claims": 963
-    }
+    "messages": 33400668
   },
   "durations": {
     "streams": 43092647,
     "segments": 41840181
+  },
+  "content_id": {
+    "streams": 256,
+    "count": 963,
+    "total": 128507,
+    "percentage": 2.54
   }
 }
