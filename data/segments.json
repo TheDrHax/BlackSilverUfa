@@ -16349,7 +16349,6 @@
     "youtube": "PiazK-3bpIs", "vk": "-28387068_456250670", "abs_start": 0, "abs_end": 17931, "duration": 17931,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #10 / Backrooms Exploration - Демо / Project Hailstorm / Lobotrypo (демо) / The Boba Teashop - Демо / Centum / Gyoza / Hollowglass / Banned Tapes (демо) / Level 13 / ORDER 13 - Релиз",
     "date": "2025-03-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2407222715.torrent",
     "games": ["horrors-2025", "backrooms-expl", "single-2025", "boba-teashop", "first-2025", "order-13"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2407222715.ass"
   },
@@ -16357,7 +16356,6 @@
     "youtube": "vRGqMZzfXgc", "vk": "-28387068_456250673", "abs_start": 0, "abs_end": 19530, "duration": 19530,
     "name": "Split Fiction (с Дашей) #3",
     "date": "2025-03-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2408023676.torrent",
     "games": ["split-fiction"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2408023676.ass"
   },
@@ -17066,10 +17064,20 @@
   },
   "2484807936": {
     "youtube": "Z-CqQOO8mFI", "vk": "-28387068_456250804", "abs_start": 0, "abs_end": 21667, "duration": 21667,
-    "name": "The Alters #1 / Five Nights at Freddy's: Secret of the Mimic",
+    "name": "The Alters #1 / Five Nights at Freddy's: Secret of the Mimic - Первый взгляд",
     "date": "2025-06-13",
     "torrent": "https://bsufiles.drhx.ru/streams/2484807936.torrent",
-    "games": ["alters", "first-2025"],
+    "games": ["alters", "fnaf-sotm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2484807936.ass"
+  },
+  "2485778585": {
+    "abs_start": 0, "abs_end": 18355, "duration": 18355,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #26 / Liminal City (демо) / Cameraman: The Pilot Episode (демо) / Clown is Hungry (демо) / Fecal Freighter / Dr. Viscera / Fire in the Dark (демо) / Emotionless: The Last Ticket / Five Nights at Freddy's: Secret of the Mimic #1",
+    "date": "2025-06-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2485778585.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2485778585.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2485778585.torrent",
+    "games": ["horrors-2025", "single-2025", "first-2025", "fnaf-sotm"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2485778585.ass"
   }
 }

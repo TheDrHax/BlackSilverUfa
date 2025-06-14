@@ -8970,8 +8970,10 @@
         { "name": "MindsEye", "start": 1876 },
         { "name": "Baby Steps (демо)", "start": 11638 }
       ] },
-      { "segment": "2484807936", "subrefs": [
-        { "name": "Five Nights at Freddy's: Secret of the Mimic", "start": 20361 }
+      { "segment": "2485778585", "subrefs": [
+        { "name": "Fecal Freighter", "start": 6556 },
+        { "name": "Dr. Viscera", "start": 7499 },
+        { "name": "Emotionless: The Last Ticket", "start": 11312 }
       ] }
     ]
   },
@@ -9407,6 +9409,12 @@
         { "name": "Who's at the Door?", "start": 5476 },
         { "name": "Sharks and Minnows", "start": 7368 },
         { "name": "Krysolov", "start": 13206 }
+      ] },
+      { "segment": "2485778585", "subrefs": [
+        { "name": "Liminal City (демо)", "start": 2202 },
+        { "name": "Cameraman: The Pilot Episode (демо)", "start": 4568 },
+        { "name": "Clown is Hungry (демо)", "start": 5542 },
+        { "name": "Fire in the Dark (демо)", "start": 8907 }
       ] }
     ]
   },
@@ -17208,6 +17216,9 @@
       ] },
       { "segment": "2480467576,2480584019", "subrefs": [
         { "name": "25" }
+      ] },
+      { "segment": "2485778585", "subrefs": [
+        { "name": "26" }
       ] }
     ]
   },
@@ -18433,6 +18444,19 @@
       ] },
       { "segment": "2484807936", "subrefs": [
         { "name": "1", "start": 1863 }
+      ] }
+    ]
+  },
+  {
+    "name": "Five Nights at Freddy's: Secret of the Mimic",
+    "category": "ongoing",
+    "id": "fnaf-sotm",
+    "streams": [
+      { "segment": "2484807936", "subrefs": [
+        { "name": "Первый взгляд", "start": 20361 }
+      ] },
+      { "segment": "2485778585", "subrefs": [
+        { "name": "1", "start": 13612 }
       ] }
     ]
   }
