@@ -16363,7 +16363,6 @@
     "youtube": "QKptvKmbbZk", "vk": "-28387068_456250675", "abs_start": 0, "abs_end": 25348, "duration": 25348,
     "name": "The Call of Karen / House Flipper #2 / Half-Life 2 RTX (демо) / Cyberpunk 2077 #12",
     "date": "2025-03-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2408851513.torrent",
     "games": ["first-2025", "house-flipper", "single-2025", "cyberpunk-2077"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2408851513.ass"
   },
@@ -17077,5 +17076,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2485778585.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025", "fnaf-sotm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2485778585.ass"
+  },
+  "2486684400": {
+    "abs_start": 0, "abs_end": 21269, "duration": 21269,
+    "name": "Ratatan (демо) / Lethal Company #24",
+    "date": "2025-06-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2486684400.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2486684400.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2486684400.torrent",
+    "games": ["first-2025", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2486684400.ass"
   }
 }
