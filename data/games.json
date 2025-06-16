@@ -8980,6 +8980,9 @@
       ] },
       { "segment": "2486684400", "subrefs": [
         { "name": "Ratatan (демо)", "start": 2256 }
+      ] },
+      { "segment": "2487532854", "subrefs": [
+        { "name": "Doomer Simulator", "start": 1943 }
       ] }
     ]
   },
@@ -9421,6 +9424,9 @@
         { "name": "Cameraman: The Pilot Episode (демо)", "start": 4568 },
         { "name": "Clown is Hungry (демо)", "start": 5542 },
         { "name": "Fire in the Dark (демо)", "start": 8907 }
+      ] },
+      { "segment": "2487532854", "subrefs": [
+        { "name": "Blasfemia", "start": 6770 }
       ] }
     ]
   },
