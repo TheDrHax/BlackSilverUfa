@@ -2742,7 +2742,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v286171438.ass"
   },
   "286989766": {
-    "youtube": "zwePbGaKoP4", "abs_start": -4, "abs_end": 11535, "duration": 11539,
+    "youtube": "zwePbGaKoP4", "official": false, "abs_start": -4, "abs_end": 11535, "duration": 11539,
     "name": "S.T.A.L.K.E.R.: Clear Sky + Mystery #2",
     "date": "2018-07-20",
     "games": ["stalker-cs"],
@@ -5881,9 +5881,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v533269694.ass"
   },
   "533755753": {
-    "youtube": "AN7xJO44nxM", "abs_start": 0, "abs_end": 22274, "duration": 22274,
+    "abs_start": 0, "abs_end": 22274, "duration": 22274,
     "name": "Grand Theft Auto: San Andreas #2 / Grand Theft Auto Online: Crazy LS #5",
     "date": "2020-01-10",
+    "direct": "https://bsufiles.drhx.ru/streams/533755753.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/533755753.mp4/master.m3u8",
     "games": ["gta-san-andreas", "crazy-ls"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v533755753.ass"
   },
@@ -5936,16 +5938,20 @@
     "note": "<a href=\"https://youtu.be/iGIMaIchmJ8\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "538458255": {
-    "youtube": "M9_D7ZAwDsQ", "official": false, "abs_start": 0, "abs_end": 20528, "duration": 20528,
+    "abs_start": 0, "abs_end": 20528, "duration": 20528,
     "name": "Grand Theft Auto: San Andreas #5 / Grand Theft Auto Online: Crazy LS #6",
     "date": "2020-01-19",
+    "direct": "https://bsufiles.drhx.ru/streams/538458255.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/538458255.mp4/master.m3u8",
     "games": ["gta-san-andreas", "crazy-ls"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v538458255.ass"
   },
   "542106142": {
-    "youtube": "CIPziTuzFKk", "official": false, "abs_start": 0, "abs_end": 21031, "duration": 21031,
+    "abs_start": 0, "abs_end": 21030, "duration": 21030,
     "name": "Grand Theft Auto: San Andreas #6",
     "date": "2020-01-26",
+    "direct": "https://bsufiles.drhx.ru/streams/542106142.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/542106142.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v542106142.ass"
   },
