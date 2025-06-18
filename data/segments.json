@@ -14832,9 +14832,9 @@
   },
   "2175081669": {
     "youtube": "ibrNCy7FOug", "abs_start": 0, "abs_end": 23556, "duration": 23556,
-    "name": "Still Wakes the Deep",
+    "name": "Still Wakes the Deep - Прохождение",
     "date": "2024-06-18",
-    "games": ["single-2024"],
+    "games": ["still-wakes"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2175081669.ass"
   },
   "2178583785": {
@@ -17084,5 +17084,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2487532854.torrent",
     "games": ["first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2487532854.ass"
+  },
+  "2489222718": {
+    "abs_start": 0, "abs_end": 23031, "duration": 23031,
+    "name": "Still Wakes the Deep - Siren's Rest / Five Nights at Freddy's: Secret of the Mimic #2 / Lucky Tower Ultimate #19",
+    "date": "2025-06-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2489222718.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2489222718.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2489222718.torrent",
+    "games": ["still-wakes", "fnaf-sotm", "lucky-tower"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2489222718.ass"
   }
 }

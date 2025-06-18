@@ -10183,9 +10183,6 @@
         { "name": "Don't Let Her In", "start": 11411 },
         { "name": "Mbembe Radio", "start": 15069 }
       ] },
-      { "segment": "2175081669", "subrefs": [
-        { "name": "Still Wakes the Deep", "start": 853 }
-      ] },
       { "segment": "2191494883", "subrefs": [
         { "name": "Egg Fried Rice", "start": 4012 },
         { "name": "The Other One", "start": 13139 },
@@ -10742,6 +10739,9 @@
       ] },
       { "segment": "2386237387", "subrefs": [
         { "name": "18", "start": 13739 }
+      ] },
+      { "segment": "2489222718", "subrefs": [
+        { "name": "19", "start": 18925 }
       ] }
     ]
   },
@@ -18469,6 +18469,22 @@
       ] },
       { "segment": "2485778585", "subrefs": [
         { "name": "1", "start": 13612 }
+      ] },
+      { "segment": "2489222718", "subrefs": [
+        { "name": "2", "start": 12759 }
+      ] }
+    ]
+  },
+  {
+    "name": "Still Wakes the Deep",
+    "category": "finished",
+    "id": "still-wakes",
+    "streams": [
+      { "segment": "2175081669", "subrefs": [
+        { "name": "Прохождение", "start": 853 }
+      ] },
+      { "segment": "2489222718", "subrefs": [
+        { "name": "Siren's Rest", "start": 1526 }
       ] }
     ]
   }
