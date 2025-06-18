@@ -6618,11 +6618,9 @@
     "note": "<a href=\"https://youtu.be/cheJszNoZaM\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "625606171": {
-    "abs_start": 0, "abs_end": 21807, "duration": 21807,
+    "youtube": "r6b68f6MF1c", "official": false, "abs_start": 0, "abs_end": 21808, "duration": 21808,
     "name": "Minecraft #4 / Mafia II: Definitive Edition #1",
     "date": "2020-05-19",
-    "direct": "https://bsufiles.drhx.ru/streams/625606171.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/625606171.mp4/master.m3u8",
     "games": ["minecraft", "mafia-2-definitive"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v625606171.ass"
   },
