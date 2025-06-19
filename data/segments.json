@@ -14455,9 +14455,9 @@
   },
   "2107695454": {
     "youtube": "fRAY6m4iJpc", "abs_start": 0, "abs_end": 18430, "duration": 18430,
-    "name": "Stellar Blade (демо) / Helldivers 2 #3 (с Димами)",
+    "name": "Stellar Blade - Демо / Helldivers 2 #3 (с Димами)",
     "date": "2024-04-01",
-    "games": ["single-2024", "helldivers-2"],
+    "games": ["stellar-blade", "helldivers-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2107695454.ass"
   },
   "2108567014": {
@@ -17094,5 +17094,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2489222718.torrent",
     "games": ["still-wakes", "fnaf-sotm", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2489222718.ass"
+  },
+  "2490150024": {
+    "abs_start": 0, "abs_end": 22271, "duration": 22271,
+    "name": "Stellar Blade - ПК / Batman: Arkham Knight",
+    "date": "2025-06-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2490150024.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2490150024.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2490150024.torrent",
+    "games": ["stellar-blade", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2490150024.ass"
   }
 }

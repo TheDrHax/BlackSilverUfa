@@ -8983,6 +8983,9 @@
       ] },
       { "segment": "2487532854", "subrefs": [
         { "name": "Doomer Simulator", "start": 1943 }
+      ] },
+      { "segment": "2490150024", "subrefs": [
+        { "name": "Batman: Arkham Knight", "start": 13231 }
       ] }
     ]
   },
@@ -10063,10 +10066,6 @@
       ] },
       { "segment": "2104774881", "subrefs": [
         { "name": "Midnight Scenes: A Safe Place", "start": 2625 }
-      ] },
-      { "segment": "2107695454", "subrefs": [
-        { "name": "Stellar Blade (демо)", "start": 2234 },
-        { "name": "Stellar Blade (продолжение)", "start": 15330, "hidden": true }
       ] },
       { "segment": "2113378651", "subrefs": [
         { "name": "No Players Online (демо)", "start": 2873 },
@@ -18485,6 +18484,20 @@
       ] },
       { "segment": "2489222718", "subrefs": [
         { "name": "Siren's Rest", "start": 1526 }
+      ] }
+    ]
+  },
+  {
+    "name": "Stellar Blade",
+    "category": "ongoing",
+    "id": "stellar-blade",
+    "streams": [
+      { "segment": "2107695454", "subrefs": [
+        { "name": "Демо", "start": 2234 },
+        { "name": "Демо (продолжение)", "start": 15330, "hidden": true }
+      ] },
+      { "segment": "2490150024", "subrefs": [
+        { "name": "ПК", "start": 2051 }
       ] }
     ]
   }
