@@ -17098,5 +17098,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2490150024.torrent",
     "games": ["stellar-blade", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2490150024.ass"
+  },
+  "2492884790": {
+    "abs_start": 0, "abs_end": 19445, "duration": 19445,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #27 / The Rotting Man (демо) / Tales Beyond the Tomb: White Silence / Road of Fear / Silent Still 2",
+    "date": "2025-06-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2492884790.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2492884790.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2492884790.torrent",
+    "games": ["horrors-2025", "first-2025", "616-games", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2492884790.ass"
   }
 }

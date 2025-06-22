@@ -5698,6 +5698,9 @@
       ] },
       { "segment": "2404564177", "subrefs": [
         { "name": "Poop Killer - Flush or Die!", "start": 8235 }
+      ] },
+      { "segment": "2492884790", "subrefs": [
+        { "name": "Tales Beyond the Tomb: White Silence", "start": 2546 }
       ] }
     ]
   },
@@ -8986,6 +8989,9 @@
       ] },
       { "segment": "2490150024", "subrefs": [
         { "name": "Batman: Arkham Knight", "start": 13231 }
+      ] },
+      { "segment": "2492884790", "subrefs": [
+        { "name": "The Rotting Man (демо)", "start": 1503 }
       ] }
     ]
   },
@@ -9430,6 +9436,10 @@
       ] },
       { "segment": "2487532854", "subrefs": [
         { "name": "Blasfemia", "start": 6770 }
+      ] },
+      { "segment": "2492884790", "subrefs": [
+        { "name": "Road of Fear", "start": 13853 },
+        { "name": "Silent Still 2", "start": 17153 }
       ] }
     ]
   },
@@ -17230,6 +17240,9 @@
       ] },
       { "segment": "2485778585", "subrefs": [
         { "name": "26" }
+      ] },
+      { "segment": "2492884790", "subrefs": [
+        { "name": "27" }
       ] }
     ]
   },
