@@ -15665,6 +15665,16 @@
     ]
   },
   {
+    "name": "Death Stranding 2: On the Beach",
+    "category": "ongoing",
+    "id": "death-stranding-2",
+    "streams": [
+      { "segment": "2493691036", "subrefs": [
+        { "name": "1", "start": 1800 }
+      ] }
+    ]
+  },
+  {
     "name": "Mafia II",
     "category": "finished",
     "id": "mafia-2",
@@ -18099,7 +18109,7 @@
   },
   {
     "name": "inZOI",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "inzoi",
     "streams": [
       { "segment": "2414091659", "subrefs": [
