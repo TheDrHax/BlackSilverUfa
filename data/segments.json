@@ -5543,9 +5543,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v502940448.ass"
   },
   "503413959": {
-    "youtube": "y_i2qnRp0HU", "official": false, "abs_start": 0, "abs_end": 18857, "duration": 18857,
+    "abs_start": 0, "abs_end": 18855, "duration": 18855,
     "name": "Mafia II #3",
     "date": "2019-11-03",
+    "direct": "https://bsufiles.drhx.ru/streams/503413959.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/503413959.mp4/master.m3u8",
     "games": ["mafia-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v503413959.ass"
   },
