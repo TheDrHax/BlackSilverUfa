@@ -16358,7 +16358,6 @@
     "youtube": "kUrzfVaVXAM", "vk": "-28387068_456250676", "abs_start": 0, "abs_end": 25770, "duration": 25770,
     "name": "Assassin's Creed Shadows",
     "date": "2025-03-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2409685874.torrent",
     "games": ["first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2409685874.ass"
   },
@@ -17110,5 +17109,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2493691036.torrent",
     "games": ["death-stranding-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2493691036.ass"
+  },
+  "2494521207": {
+    "abs_start": 0, "abs_end": 31831, "duration": 31831,
+    "name": "Death Stranding 2: On the Beach #2",
+    "date": "2025-06-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2494521207.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2494521207.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2494521207.torrent",
+    "games": ["death-stranding-2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2494521207.ass"
   }
 }
