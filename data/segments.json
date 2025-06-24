@@ -5932,11 +5932,9 @@
     "note": "<a href=\"https://youtu.be/iGIMaIchmJ8\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "538458255": {
-    "abs_start": 0, "abs_end": 20528, "duration": 20528,
+    "youtube": "MZdgdD-tEfs", "official": false, "abs_start": 0, "abs_end": 20528, "duration": 20528,
     "name": "Grand Theft Auto: San Andreas #5 / Grand Theft Auto Online: Crazy LS #6",
     "date": "2020-01-19",
-    "direct": "https://bsufiles.drhx.ru/streams/538458255.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/538458255.mp4/master.m3u8",
     "games": ["gta-san-andreas", "crazy-ls"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v538458255.ass"
   },
