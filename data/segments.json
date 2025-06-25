@@ -16365,7 +16365,6 @@
     "youtube": "1QVIbnUU8Pg", "vk": "-28387068_456250680", "abs_start": 0, "abs_end": 21548, "duration": 21548,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #11 / The Backrooms: Forsaken / SCP: November 2010 / Midnight Taco / Abyss Under Lock / Look Outside / Chorus of Carcosa - Демо 2",
     "date": "2025-03-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2413239862.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025", "chorus-of-carcosa"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2413239862.ass"
   },
@@ -16373,7 +16372,6 @@
     "youtube": "5Ct1OZKcf8Q", "vk": "-28387068_456250681", "abs_start": 0, "abs_end": 20093, "duration": 20093,
     "name": "inZOI #1 / Atomfall",
     "date": "2025-03-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2414091659.torrent",
     "games": ["inzoi", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2414091659.ass"
   },
@@ -17117,5 +17115,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2494521207.torrent",
     "games": ["death-stranding-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2494521207.ass"
+  },
+  "2495419331": {
+    "abs_start": 0, "abs_end": 7914, "duration": 7914,
+    "name": "",
+    "date": "2025-06-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2495419331.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2495419331.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2495419331.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2495419331.ass"
+  },
+  "2495479237": {
+    "abs_start": 0, "abs_end": 22535, "duration": 22535,
+    "name": "",
+    "date": "2025-06-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2495479237.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2495479237.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2495479237.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2495479237.ass"
+  },
+  "2495419331,2495479237": {
+    "abs_start": 0, "abs_end": 30338, "duration": 30338,
+    "name": "Death Stranding 2: On the Beach #3",
+    "date": "2025-06-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2495419331,2495479237.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2495419331,2495479237.mp4/master.m3u8",
+    "offsets": ["0:00", "2:10:20"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2495419331,2495479237.torrent",
+    "games": ["death-stranding-2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2495419331,2495479237+0.ass"
   }
 }
