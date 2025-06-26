@@ -7,19 +7,19 @@
     "segments": {
       "total": 2258,
       "official": 1491,
-      "unofficial": 748,
-      "missing": 19
+      "unofficial": 746,
+      "missing": 21
     },
     "messages": 33562922
   },
   "durations": {
     "streams": 43302295,
-    "segments": 42049831
+    "segments": 42049832
   },
   "content_id": {
     "streams": 258,
-    "count": 989,
-    "total": 131092,
-    "percentage": 2.57
+    "count": 997,
+    "total": 132043,
+    "percentage": 2.59
   }
 }

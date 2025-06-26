@@ -5539,7 +5539,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v502940448.ass"
   },
   "503413959": {
-    "abs_start": 0, "abs_end": 18855, "duration": 18855,
+    "abs_start": 0, "abs_end": 18857, "duration": 18857,
     "name": "Mafia II #3",
     "date": "2019-11-03",
     "direct": "https://bsufiles.drhx.ru/streams/503413959.mp4",
@@ -5557,9 +5557,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v504248004.ass"
   },
   "504672487": {
-    "youtube": "jV6mQ_2PZwo", "official": false, "abs_start": 0, "abs_end": 18533, "duration": 18533,
+    "abs_start": 0, "abs_end": 18533, "duration": 18533,
     "name": "Mafia II #5 / Planet Zoo",
     "date": "2019-11-06",
+    "direct": "https://bsufiles.drhx.ru/streams/504672487.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/504672487.mp4/master.m3u8",
     "games": ["mafia-2", "first-2019"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v504672487.ass"
   },
@@ -6001,9 +6003,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v546672311+0.ass"
   },
   "547176657": {
-    "youtube": "MwiBCv9R_fo", "official": false, "abs_start": 0, "abs_end": 22094, "duration": 22094,
+    "abs_start": 0, "abs_end": 22093, "duration": 22093,
     "name": "Grand Theft Auto: San Andreas #7 / Destiny 2 #1 (с Triplewipe)",
     "date": "2020-02-05",
+    "direct": "https://bsufiles.drhx.ru/streams/547176657.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/547176657.mp4/master.m3u8",
     "games": ["gta-san-andreas", "destiny-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v547176657.ass"
   },
@@ -16379,7 +16383,6 @@
     "youtube": "y3iB5ZIvpbI", "vk": "-28387068_456250682", "abs_start": 0, "abs_end": 19725, "duration": 19725,
     "name": "Electrician Simulator #2 / inZOI #2 / Only Way is Down",
     "date": "2025-03-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2414922417.torrent",
     "games": ["electirian-sim", "inzoi", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2414922417.ass"
   },
