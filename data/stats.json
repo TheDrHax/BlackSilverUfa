@@ -1,25 +1,25 @@
 {
   "counts": {
     "streams": {
-      "total": 2204,
-      "with_chats": 2058
+      "total": 2205,
+      "with_chats": 2059
     },
     "segments": {
-      "total": 2259,
+      "total": 2260,
       "official": 1491,
       "unofficial": 746,
-      "missing": 22
+      "missing": 23
     },
-    "messages": 33583141
+    "messages": 33599842
   },
   "durations": {
-    "streams": 43331535,
-    "segments": 42079161
+    "streams": 43362737,
+    "segments": 42110360
   },
   "content_id": {
-    "streams": 258,
-    "count": 997,
-    "total": 132043,
-    "percentage": 2.59
+    "streams": 259,
+    "count": 999,
+    "total": 132268,
+    "percentage": 2.58
   }
 }
