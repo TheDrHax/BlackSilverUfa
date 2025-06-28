@@ -16404,7 +16404,6 @@
     "youtube": "96aVjEjGO2o", "vk": "-28387068_456250687", "abs_start": 0, "abs_end": 22697, "duration": 22697,
     "name": "Electrician Simulator #4 / R.E.P.O. #1",
     "date": "2025-03-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2418438204.torrent",
     "games": ["electirian-sim", "repo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2418438204.ass"
   },
@@ -17164,5 +17163,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2497212842.torrent",
     "games": ["death-stranding-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2497212842.ass"
+  },
+  "2498121541": {
+    "abs_start": 0, "abs_end": 31687, "duration": 31687,
+    "name": "Death Stranding 2: On the Beach #6",
+    "date": "2025-06-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2498121541.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2498121541.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2498121541.torrent",
+    "games": ["death-stranding-2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2498121541.ass"
   }
 }

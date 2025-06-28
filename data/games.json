@@ -15666,7 +15666,7 @@
   },
   {
     "name": "Death Stranding 2: On the Beach",
-    "category": "ongoing",
+    "category": "finished",
     "id": "death-stranding-2",
     "streams": [
       { "segment": "2493691036", "subrefs": [
@@ -15683,6 +15683,9 @@
       ] },
       { "segment": "2497212842", "subrefs": [
         { "name": "5", "start": 553 }
+      ] },
+      { "segment": "2498121541", "subrefs": [
+        { "name": "6", "start": 324 }
       ] }
     ]
   },
