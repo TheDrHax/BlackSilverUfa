@@ -16408,22 +16408,16 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2418438204.ass"
   },
   "2419376159": {
-    "abs_start": 0, "abs_end": 12249, "duration": 12249,
+    "abs_start": 0, "abs_end": 12264, "duration": 0,
     "name": "",
     "date": "2025-03-30",
-    "direct": "https://bsufiles.drhx.ru/streams/2419376159.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2419376159.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2419376159.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2419376159.ass"
   },
   "2419517419": {
-    "abs_start": 0, "abs_end": 6733, "duration": 6733,
+    "abs_start": 0, "abs_end": 6760, "duration": 0,
     "name": "",
     "date": "2025-03-30",
-    "direct": "https://bsufiles.drhx.ru/streams/2419517419.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2419517419.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2419517419.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2419517419.ass"
   },
@@ -17179,5 +17173,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2500703382.torrent",
     "games": ["cyberpunk-2077", "death-stranding-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2500703382.ass"
+  },
+  "2505174390": {
+    "abs_start": 0, "abs_end": 18928, "duration": 18928,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #28 / Rohner's Backrooms / LIMSCAPE / Don't Mess With Bober / Loan Shark (демо) / Arachnoid / Place (демо) / Bunker 73",
+    "date": "2025-07-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2505174390.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2505174390.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2505174390.torrent",
+    "games": ["horrors-2025", "single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2505174390.ass"
   }
 }
