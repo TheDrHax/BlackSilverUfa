@@ -4803,6 +4803,9 @@
       ] },
       { "segment": "2245831758", "subrefs": [
         { "name": "3", "start": 2309 }
+      ] },
+      { "segment": "2506017612", "subrefs": [
+        { "name": "4", "start": 11060 }
       ] }
     ]
   },
@@ -8999,6 +9002,10 @@
       { "segment": "2505174390", "subrefs": [
         { "name": "LIMSCAPE", "start": 3099 },
         { "name": "Arachnoid", "start": 8569 }
+      ] },
+      { "segment": "2506017612", "subrefs": [
+        { "name": "Car Dealer Simulator", "start": 1299 },
+        { "name": "System Shock 2: 25th Anniversary Remaster", "start": 5834 }
       ] }
     ]
   },
