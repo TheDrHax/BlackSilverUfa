@@ -107,7 +107,7 @@ case $1 in
             echo "Not updating ./ due to uncommitted changes"
         fi
 
-        repo pull ;;
+        repo "$@" ;;
 
     build)
         require_node
