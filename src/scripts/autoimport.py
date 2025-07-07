@@ -194,7 +194,7 @@ def main(argv=None):
             subrefs.append(dict(name=t.name, start=t.start))
 
         if len(subrefs) > 0:
-            game = create_game(name='Не размечено', id='todo')
+            game = create_game(name='Не оформлено', id='todo')
 
             for subref in subrefs:
                 subref['name'] = next_name(game, subref['name'])
