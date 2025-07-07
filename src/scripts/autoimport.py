@@ -79,7 +79,7 @@ def find_intro(vod: str) -> Union[Timecode, None]:
     offset, score = find_offset(clip_intro, clip_vod, end=600, min_score=10, ar=500)
 
     if score > 0:
-        return Timecode(round(offset), name='Интро')
+        return Timecode(round(offset - 2), name='Интро')
 
 
 def create_timecodes(vod: str, timeline: Timecodes) -> None:
