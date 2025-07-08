@@ -18129,7 +18129,7 @@
   },
   {
     "name": "Electrician Simulator",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "electirian-sim",
     "streams": [
       { "segment": "1608110648", "subrefs": [
@@ -18419,6 +18419,9 @@
       ] },
       { "segment": "2475897673", "subrefs": [
         { "name": "4", "start": 24178 }
+      ] },
+      { "segment": "2506869345", "subrefs": [
+        { "name": "5", "start": 18174 }
       ] }
     ]
   },
@@ -18494,6 +18497,9 @@
       ] },
       { "segment": "2475897673", "subrefs": [
         { "name": "3", "start": 15835 }
+      ] },
+      { "segment": "2506869345", "subrefs": [
+        { "name": "4", "start": 7414 }
       ] }
     ]
   },
@@ -18563,6 +18569,16 @@
       ] },
       { "segment": "2490150024", "subrefs": [
         { "name": "ПК", "start": 2051 }
+      ] }
+    ]
+  },
+  {
+    "name": "Не оформлено",
+    "category": "other",
+    "id": "todo",
+    "streams": [
+      { "segment": "2506869345", "subrefs": [
+        { "name": "Saloon Simulator", "start": 2138 }
       ] }
     ]
   }
