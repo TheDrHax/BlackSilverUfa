@@ -16440,7 +16440,6 @@
     "youtube": "UNh4hElj5jw", "vk": "-28387068_456250694", "abs_start": 0, "abs_end": 15946, "duration": 15946,
     "name": "Vaudeville #3 / iDigging / Party Animals #11 (с Димами)",
     "date": "2025-04-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2421079975.torrent",
     "games": ["vaudeville", "single-2025", "party-animals"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2421079975.ass"
   },
@@ -17198,5 +17197,15 @@
     "games": ["todo", "roadcraft", "powerwash-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2506869345.ass",
     "note": "Cut must be in 2:57:18~3:02:18"
+  },
+  "2507784545": {
+    "abs_start": 0, "abs_end": 18434, "duration": 18434,
+    "name": "Не оформлено - The Backrooms: Expedition | The Puppy | Bark | Sunset Beach | The Echo Paradox | Paranormal Torment | Last Laugh",
+    "date": "2025-07-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2507784545.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2507784545.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2507784545.torrent",
+    "games": ["todo"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2507784545.ass"
   }
 }
