@@ -16444,12 +16444,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2421079975.ass"
   },
   "2421947533": {
-    "abs_start": 0, "abs_end": 14380, "duration": 14380,
+    "abs_start": 0, "abs_end": 14385, "duration": 0,
     "name": "",
     "date": "2025-04-02",
-    "direct": "https://bsufiles.drhx.ru/streams/2421947533.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2421947533.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2421947533.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2421947533.ass"
   },
@@ -17200,10 +17197,20 @@
   },
   "2507784545": {
     "youtube": "2hWUh8yiCXQ", "vk": "-28387068_456250828", "abs_start": 0, "abs_end": 18435, "duration": 18435,
-    "name": "Не оформлено - The Backrooms: Expedition | The Puppy | Bark | Sunset Beach | The Echo Paradox | Paranormal Torment | Last Laugh",
+    "name": "Не оформлено - The Backrooms: Expedition | The Puppy | Bark | Sunset Beach | The Echo Paradox #1 | Paranormal Torment | Last Laugh",
     "date": "2025-07-09",
     "torrent": "https://bsufiles.drhx.ru/streams/2507784545.torrent",
     "games": ["todo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2507784545.ass"
+  },
+  "2508662587": {
+    "abs_start": 0, "abs_end": 18040, "duration": 18040,
+    "name": "Не оформлено - The Echo Paradox #2 / The Classrooms #5 / Не оформлено - BrokenLore: LOW",
+    "date": "2025-07-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2508662587.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2508662587.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2508662587.torrent",
+    "games": ["todo", "classrooms"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2508662587.ass"
   }
 }

@@ -4806,6 +4806,9 @@
       ] },
       { "segment": "2506017612", "subrefs": [
         { "name": "4", "start": 11060 }
+      ] },
+      { "segment": "2508662587", "subrefs": [
+        { "name": "5", "start": 6359 }
       ] }
     ]
   },
@@ -18585,9 +18588,13 @@
         { "name": "The Puppy", "start": 3113 },
         { "name": "Bark", "start": 4263 },
         { "name": "Sunset Beach", "start": 6615 },
-        { "name": "The Echo Paradox", "start": 7275 },
+        { "name": "The Echo Paradox #1", "start": 7275 },
         { "name": "Paranormal Torment", "start": 12560 },
         { "name": "Last Laugh", "start": 15195 }
+      ] },
+      { "segment": "2508662587", "subrefs": [
+        { "name": "The Echo Paradox #2", "start": 2253 },
+        { "name": "BrokenLore: LOW", "start": 12839 }
       ] }
     ]
   }
