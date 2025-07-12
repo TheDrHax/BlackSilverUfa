@@ -16451,12 +16451,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2421947533.ass"
   },
   "2422099767": {
-    "abs_start": 0, "abs_end": 5759, "duration": 5759,
+    "abs_start": 0, "abs_end": 5788, "duration": 0,
     "name": "",
     "date": "2025-04-02",
-    "direct": "https://bsufiles.drhx.ru/streams/2422099767.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2422099767.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2422099767.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2422099767.ass"
   },
@@ -16465,7 +16462,6 @@
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #13 / Nintendo Direct: Nintendo Switch 2 / The Station / The Dog / Silverpine Creek / Fused 240 / Sinfeld: Evil Resident / My Dear Sheep / Reverend / Veins of Darkness",
     "date": "2025-04-02",
     "offsets": ["0:00", "3:59:40+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2421947533,2422099767.torrent",
     "games": ["horrors-2025", "expos", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2421947533,2422099767+0.ass"
   },
@@ -17210,5 +17206,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2508662587.torrent",
     "games": ["todo", "classrooms"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2508662587.ass"
+  },
+  "2510385552": {
+    "abs_start": 0, "abs_end": 24484, "duration": 24484,
+    "name": "RoboCop: Rogue City #3 / Не оформлено - PEAK",
+    "date": "2025-07-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2510385552.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2510385552.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2510385552.torrent",
+    "games": ["robocop", "todo"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2510385552.ass"
   }
 }

@@ -5285,6 +5285,9 @@
       ] },
       { "segment": "2008212794", "subrefs": [
         { "name": "2", "start": 1126 }
+      ] },
+      { "segment": "2510385552", "subrefs": [
+        { "name": "3", "start": 2882 }
       ] }
     ]
   },
@@ -18595,6 +18598,9 @@
       { "segment": "2508662587", "subrefs": [
         { "name": "The Echo Paradox #2", "start": 2253 },
         { "name": "BrokenLore: LOW", "start": 12839 }
+      ] },
+      { "segment": "2510385552", "subrefs": [
+        { "name": "PEAK", "start": 12504 }
       ] }
     ]
   }
