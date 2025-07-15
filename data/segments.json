@@ -16469,7 +16469,6 @@
     "youtube": "2t8v7AJRDh0", "vk": "-28387068_456250697", "abs_start": 0, "abs_end": 11010, "duration": 11010,
     "name": "Alien: Isolation (мод AlienS IsolatioN) #4",
     "date": "2025-04-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2422801689.torrent",
     "games": ["aliens-isolation"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2422801689.ass"
   },
@@ -16477,7 +16476,6 @@
     "youtube": "dZKR5TlZkwA", "vk": "-28387068_456250700", "abs_start": 0, "abs_end": 20185, "duration": 20185,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #14 / Hellcam / MosGhost / Uncanny Tales: Cold Road / Forbidden Eye / Needle Sleep / VIDeoPHOBIA / OVERDOSE / Where the Walls Breathe",
     "date": "2025-04-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2424644952.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2424644952.ass"
   },
@@ -17209,7 +17207,7 @@
   },
   "2510385552": {
     "abs_start": 0, "abs_end": 24484, "duration": 24484,
-    "name": "RoboCop: Rogue City #3 / Не оформлено - PEAK",
+    "name": "RoboCop: Rogue City #3 / Не оформлено - PEAK #1",
     "date": "2025-07-12",
     "direct": "https://bsufiles.drhx.ru/streams/2510385552.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2510385552.mp4/master.m3u8",
@@ -17234,5 +17232,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2513036056.torrent",
     "games": ["robocop"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2513036056.ass"
+  },
+  "2513085560": {
+    "abs_start": 0, "abs_end": 20771, "duration": 20771,
+    "name": "RoboCop: Rogue City #5 / Lucky Tower Ultimate #20 / Не оформлено - PEAK #2",
+    "date": "2025-07-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2513085560.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2513085560.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2513085560.torrent",
+    "games": ["robocop", "lucky-tower", "todo"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2513085560.ass"
   }
 }

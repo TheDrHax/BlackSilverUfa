@@ -5291,6 +5291,9 @@
       ] },
       { "segment": "2513036056", "subrefs": [
         { "name": "4", "start": 1331 }
+      ] },
+      { "segment": "2513085560", "subrefs": [
+        { "name": "5" }
       ] }
     ]
   },
@@ -10781,6 +10784,9 @@
       ] },
       { "segment": "2489222718", "subrefs": [
         { "name": "19", "start": 18925 }
+      ] },
+      { "segment": "2513085560", "subrefs": [
+        { "name": "20", "start": 489 }
       ] }
     ]
   },
@@ -18603,7 +18609,7 @@
         { "name": "BrokenLore: LOW", "start": 12839 }
       ] },
       { "segment": "2510385552", "subrefs": [
-        { "name": "PEAK", "start": 12504 }
+        { "name": "PEAK #1", "start": 12504 }
       ] },
       { "segment": "2511344577", "subrefs": [
         { "name": "Paradise Nowhere", "start": 1130 },
@@ -18611,6 +18617,9 @@
         { "name": "Dread Flats", "start": 4260 },
         { "name": "Gordy", "start": 11418 },
         { "name": "Shift at Midnight", "start": 16704 }
+      ] },
+      { "segment": "2513085560", "subrefs": [
+        { "name": "PEAK #2", "start": 3201 }
       ] }
     ]
   }
