@@ -10787,6 +10787,9 @@
       ] },
       { "segment": "2513085560", "subrefs": [
         { "name": "20", "start": 489 }
+      ] },
+      { "segment": "2513947018", "subrefs": [
+        { "name": "21", "start": 16240 }
       ] }
     ]
   },
@@ -18620,6 +18623,12 @@
       ] },
       { "segment": "2513085560", "subrefs": [
         { "name": "PEAK #2", "start": 3201 }
+      ] },
+      { "segment": "2513947018", "subrefs": [
+        { "name": "Eriksholm: The Stolen Dream", "start": 1328 },
+        { "name": "Neverwinter Nights 2: Enhanced Edition", "start": 8624 },
+        { "name": "Special Events", "start": 11067 },
+        { "name": "Neverwinter Nights 2: Enhanced Edition", "start": 11408 }
       ] }
     ]
   }
