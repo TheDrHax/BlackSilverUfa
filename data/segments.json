@@ -16483,7 +16483,6 @@
     "youtube": "thtBTbC-KSo", "vk": "-28387068_456250701", "abs_start": 0, "abs_end": 18068, "duration": 18068,
     "name": "Pink Panther: Pinkadelic Pursuit (Розовая Пантера: Розовая погоня) / Ace Ventura",
     "date": "2025-04-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2425592645.torrent",
     "games": ["single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2425592645.ass"
   },
@@ -17250,5 +17249,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2513947018.torrent",
     "games": ["todo", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2513947018.ass"
+  },
+  "2514830802": {
+    "abs_start": 0, "abs_end": 10337, "duration": 10337,
+    "name": "Star Citizen #3",
+    "date": "2025-07-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2514830802.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2514830802.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2514830802.torrent",
+    "games": ["star-citizen"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2514830802.ass"
   }
 }
