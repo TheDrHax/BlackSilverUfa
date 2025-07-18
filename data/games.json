@@ -9018,6 +9018,9 @@
       { "segment": "2506017612", "subrefs": [
         { "name": "Car Dealer Simulator", "start": 1299 },
         { "name": "System Shock 2: 25th Anniversary Remaster", "start": 5834 }
+      ] },
+      { "segment": "2515697927", "subrefs": [
+        { "name": "Donkey Kong Bananza", "start": 1337 }
       ] }
     ]
   },
@@ -18469,6 +18472,9 @@
       ] },
       { "segment": "2455121344", "subrefs": [
         { "name": "Релиз", "start": 12381 }
+      ] },
+      { "segment": "2515697927", "subrefs": [
+        { "name": "Кооп", "start": 12035 }
       ] }
     ]
   },
