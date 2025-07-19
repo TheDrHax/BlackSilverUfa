@@ -5287,7 +5287,7 @@
         { "name": "2", "start": 1126 }
       ] },
       { "segment": "2510385552", "subrefs": [
-        { "name": "3", "start": 2882 }
+        { "name": "3", "start": 2732 }
       ] },
       { "segment": "2513036056", "subrefs": [
         { "name": "4", "start": 1331 }
@@ -18615,6 +18615,9 @@
     "category": "co-op",
     "id": "peak",
     "streams": [
+      { "segment": "2510385552", "subrefs": [
+        { "name": "1", "start": 12601 }
+      ] },
       { "segment": "2516607797", "subrefs": [
         { "name": "3", "start": 12064 }
       ] }
@@ -18628,9 +18631,6 @@
       { "segment": "2508662587", "subrefs": [
         { "name": "The Echo Paradox #2", "start": 2253 },
         { "name": "BrokenLore: LOW", "start": 12839 }
-      ] },
-      { "segment": "2510385552", "subrefs": [
-        { "name": "PEAK #1", "start": 12504 }
       ] },
       { "segment": "2511344577", "subrefs": [
         { "name": "Paradise Nowhere", "start": 1130 },
