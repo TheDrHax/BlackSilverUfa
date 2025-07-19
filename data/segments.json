@@ -17248,12 +17248,22 @@
   },
   "2515697927": {
     "vk": "-28387068_456250838", "abs_start": 0, "abs_end": 33034, "duration": 33034,
-    "name": "Donkey Kong Bananza / Dune: Awakening - Кооп",
+    "name": "Donkey Kong Bananza #1 / Dune: Awakening - Кооп",
     "date": "2025-07-18",
     "direct": "https://bsufiles.drhx.ru/streams/2515697927.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2515697927.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2515697927.torrent",
-    "games": ["first-2025", "dune-awakening"],
+    "games": ["donkey-kong-bananza", "dune-awakening"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2515697927.ass"
+  },
+  "2516607797": {
+    "abs_start": 0, "abs_end": 25602, "duration": 25602,
+    "name": "Donkey Kong Bananza #2 / Peak #3",
+    "date": "2025-07-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2516607797.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2516607797.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2516607797.torrent",
+    "games": ["donkey-kong-bananza", "peak"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2516607797.ass"
   }
 }

@@ -9027,9 +9027,6 @@
         { "name": "Bark", "start": 4300 },
         { "name": "The Echo Paradox", "start": 7295 },
         { "name": "Paranormal Torment", "start": 12419 }
-      ] },
-      { "segment": "2515697927", "subrefs": [
-        { "name": "Donkey Kong Bananza", "start": 1337 }
       ] }
     ]
   },
@@ -18614,6 +18611,16 @@
     ]
   },
   {
+    "name": "Peak",
+    "category": "co-op",
+    "id": "peak",
+    "streams": [
+      { "segment": "2516607797", "subrefs": [
+        { "name": "3", "start": 12064 }
+      ] }
+    ]
+  },
+  {
     "name": "Не оформлено",
     "category": "other",
     "id": "todo",
@@ -18640,6 +18647,19 @@
         { "name": "Neverwinter Nights 2: Enhanced Edition", "start": 8624 },
         { "name": "Special Events", "start": 11067 },
         { "name": "Neverwinter Nights 2: Enhanced Edition", "start": 11408 }
+      ] }
+    ]
+  },
+  {
+    "name": "Donkey Kong Bananza",
+    "category": "ongoing",
+    "id": "donkey-kong-bananza",
+    "streams": [
+      { "segment": "2515697927", "subrefs": [
+        { "name": "1", "start": 1337 }
+      ] },
+      { "segment": "2516607797", "subrefs": [
+        { "name": "2", "start": 943 }
       ] }
     ]
   }
