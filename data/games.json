@@ -4808,7 +4808,7 @@
         { "name": "4", "start": 11060 }
       ] },
       { "segment": "2508662587", "subrefs": [
-        { "name": "5", "start": 6359 }
+        { "name": "5", "start": 6375 }
       ] }
     ]
   },
@@ -9025,7 +9025,6 @@
       { "segment": "2507784545", "subrefs": [
         { "name": "The Puppy", "start": 3134 },
         { "name": "Bark", "start": 4300 },
-        { "name": "The Echo Paradox", "start": 7295 },
         { "name": "Paranormal Torment", "start": 12419 }
       ] }
     ]
@@ -10354,7 +10353,6 @@
         { "name": "Bad Parenting 1: Mr. Red Face", "start": 15489 }
       ] },
       { "segment": "2276579699", "subrefs": [
-        { "name": "BrokenLore: LOW (демо)", "start": 7861 },
         { "name": "Voyager-19", "start": 17493 }
       ] },
       { "segment": "2280809196", "subrefs": [
@@ -18628,10 +18626,6 @@
     "category": "other",
     "id": "todo",
     "streams": [
-      { "segment": "2508662587", "subrefs": [
-        { "name": "The Echo Paradox #2", "start": 2253 },
-        { "name": "BrokenLore: LOW", "start": 12839 }
-      ] },
       { "segment": "2511344577", "subrefs": [
         { "name": "Paradise Nowhere", "start": 1130 },
         { "name": "The Green Light", "start": 2715 },
@@ -18660,6 +18654,32 @@
       ] },
       { "segment": "2516607797", "subrefs": [
         { "name": "2", "start": 943 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Echo Paradox",
+    "category": "finished",
+    "id": "echo-paradox",
+    "streams": [
+      { "segment": "2507784545", "subrefs": [
+        { "name": "1", "start": 7295 }
+      ] },
+      { "segment": "2508662587", "subrefs": [
+        { "name": "2", "start": 2269 }
+      ] }
+    ]
+  },
+  {
+    "name": "BrokenLore: LOW",
+    "category": "finished",
+    "id": "brokenlore-low",
+    "streams": [
+      { "segment": "2276579699", "subrefs": [
+        { "name": "Демо", "start": 7861 }
+      ] },
+      { "segment": "2508662587", "subrefs": [
+        { "name": "Прохождение", "start": 12821 }
       ] }
     ]
   }
