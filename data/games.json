@@ -7933,9 +7933,6 @@
         { "name": "Revelations: Persona", "start": 11413 },
         { "name": "Carmageddon II", "start": 16249 }
       ] },
-      { "segment": "1588071501", "subrefs": [
-        { "name": "The Complex: Found Footage", "start": 3233 }
-      ] },
       { "segment": "1592425669", "subrefs": [
         { "name": "My Time at Sandrock", "start": 11137 },
         { "name": "Wo Long: Fallen Dynasty (демо)", "start": 15259 }
@@ -9026,6 +9023,10 @@
         { "name": "The Puppy", "start": 3134 },
         { "name": "Bark", "start": 4300 },
         { "name": "Paranormal Torment", "start": 12419 }
+      ] },
+      { "segment": "2517564061", "subrefs": [
+        { "name": "Nightmare Shift", "start": 9294 },
+        { "name": "Office After Hours", "start": 16238 }
       ] }
     ]
   },
@@ -17325,6 +17326,15 @@
       ] },
       { "segment": "2505174390", "subrefs": [
         { "name": "28" }
+      ] },
+      { "segment": "2507784545", "subrefs": [
+        { "name": "29" }
+      ] },
+      { "segment": "2511344577", "subrefs": [
+        { "name": "30" }
+      ] },
+      { "segment": "2517564061", "subrefs": [
+        { "name": "31" }
       ] }
     ]
   },
@@ -18680,6 +18690,19 @@
       ] },
       { "segment": "2508662587", "subrefs": [
         { "name": "Прохождение", "start": 12821 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Complex: Found Footage",
+    "category": "finished",
+    "id": "the-complex-ff",
+    "streams": [
+      { "segment": "1588071501", "subrefs": [
+        { "name": "1", "start": 3233 }
+      ] },
+      { "segment": "2517564061", "subrefs": [
+        { "name": "2", "start": 1642 }
       ] }
     ]
   }

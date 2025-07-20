@@ -11339,9 +11339,9 @@
   },
   "1588071501": {
     "youtube": "6kaWdRktmtM", "abs_start": 0, "abs_end": 18616, "duration": 18616,
-    "name": "The Complex: Found Footage / Lempo - Демо / Mega / The Horrors Recrudesce (демо) / Bias (демо) / Deadly Night #1 / Don't Look",
+    "name": "The Complex: Found Footage #1 / Lempo - Демо / Mega / The Horrors Recrudesce (демо) / Bias (демо) / Deadly Night #1 / Don't Look",
     "date": "2022-09-11",
-    "games": ["first-2022", "lempo", "single-2022", "deadly-night"],
+    "games": ["the-complex-ff", "lempo", "single-2022", "deadly-night"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1588071501.ass"
   },
   "1592425669": {
@@ -17184,10 +17184,10 @@
   },
   "2507784545": {
     "youtube": "2hWUh8yiCXQ", "vk": "-28387068_456250828", "abs_start": 0, "abs_end": 18435, "duration": 18435,
-    "name": "The Backrooms: Expedition / The Puppy / Bark / Sunset Beach / The Echo Paradox #1 / Paranormal Torment / Last Laugh",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #29 / The Backrooms: Expedition / The Puppy / Bark / Sunset Beach / The Echo Paradox #1 / Paranormal Torment / Last Laugh",
     "date": "2025-07-09",
     "torrent": "https://bsufiles.drhx.ru/streams/2507784545.torrent",
-    "games": ["single-2025", "first-2025", "echo-paradox"],
+    "games": ["horrors-2025", "single-2025", "first-2025", "echo-paradox"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2507784545.ass"
   },
   "2508662587": {
@@ -17208,10 +17208,10 @@
   },
   "2511344577": {
     "youtube": "XA1DQFvcWHM", "vk": "-28387068_456250832", "abs_start": 0, "abs_end": 19295, "duration": 19295,
-    "name": "Не оформлено - Paradise Nowhere | The Green Light | Dread Flats | Gordy | Shift at Midnight",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #30 / Не оформлено - Paradise Nowhere | The Green Light | Dread Flats | Gordy | Shift at Midnight",
     "date": "2025-07-13",
     "torrent": "https://bsufiles.drhx.ru/streams/2511344577.torrent",
-    "games": ["todo"],
+    "games": ["horrors-2025", "todo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2511344577.ass"
   },
   "2513036056": {
@@ -17263,5 +17263,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2516607797.torrent",
     "games": ["donkey-kong-bananza", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2516607797.ass"
+  },
+  "2517564061": {
+    "abs_start": 0, "abs_end": 18953, "duration": 18953,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #31 / The Complex: Found Footage #2 / Nightmare Shift / Office After Hours",
+    "date": "2025-07-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2517564061.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2517564061.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2517564061.torrent",
+    "games": ["horrors-2025", "the-complex-ff", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2517564061.ass"
   }
 }
