@@ -9043,9 +9043,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1066067703.ass"
   },
   "1067131113": {
-    "youtube": "InjThcw8hgM", "official": false, "abs_start": 0, "abs_end": 23959, "duration": 23959,
+    "abs_start": 0, "abs_end": 23959, "duration": 23959,
     "name": "Sea of Thieves #12 (A Pirate's Life)",
     "date": "2021-06-25",
+    "direct": "https://bsufiles.drhx.ru/streams/1067131113.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1067131113.mp4/master.m3u8",
     "games": ["sea-of-thieves"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1067131113.ass"
   },
@@ -16504,7 +16506,6 @@
     "youtube": "BQqo9J_BTU4", "vk": "-28387068_456250709", "abs_start": 0, "abs_end": 21092, "duration": 21092,
     "name": "Half Sword (демо) #3 / Blue Prince #1",
     "date": "2025-04-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2429872307.torrent",
     "games": ["half-sword", "blue-prince"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2429872307.ass"
   },
