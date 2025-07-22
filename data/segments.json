@@ -11542,9 +11542,9 @@
   },
   "1635763389": {
     "youtube": "crOBshscwDU", "official": false, "abs_start": 0, "abs_end": 19501, "duration": 19501,
-    "name": "Luto (демо) / Bughouse / Lunacy: Saint Rhodes - Демо / Skinned Alive / Night Delivery / The Lies We Tell Ourselves (демо)",
+    "name": "Luto - Демо / Bughouse / Lunacy: Saint Rhodes - Демо / Skinned Alive / Night Delivery / The Lies We Tell Ourselves (демо)",
     "date": "2022-10-27",
-    "games": ["single-2022", "lunacy-sr", "chillas-art"],
+    "games": ["luto", "single-2022", "lunacy-sr", "chillas-art"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1635763389.ass",
     "note": "<a href=\"https://youtu.be/N1jNVlcFp2s\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -15596,9 +15596,9 @@
   },
   "2280809196": {
     "youtube": "G5MoWHMQSwk", "vk": "-28387068_456250483", "abs_start": 0, "abs_end": 19159, "duration": 19159,
-    "name": "KARMA: The Dark World / Paraedolon / Dollmare - Демо / Creature Packets / The Bookman / True Nightmare: Roadside Сafe (демо) / Mannequin Machine #1",
+    "name": "KARMA: The Dark World / Paraedolon / Dollmare - Демо / Creature Packets / The Bookman / True Nightmare: Roadside Сafe - Демо / Mannequin Machine #1",
     "date": "2024-10-20",
-    "games": ["single-2024", "dollmare", "first-2024", "mannequin-machine"],
+    "games": ["single-2024", "dollmare", "first-2024", "true-nightmare-rc", "mannequin-machine"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2280809196.ass"
   },
   "2282393138": {
@@ -17272,5 +17272,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2517564061.torrent",
     "games": ["horrors-2025", "the-complex-ff", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2517564061.ass"
+  },
+  "2519328152": {
+    "abs_start": 0, "abs_end": 19460, "duration": 19460,
+    "name": "Luto #1 / True Nightmare: Roadside Сafe - Прохождение",
+    "date": "2025-07-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2519328152.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2519328152.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2519328152.torrent",
+    "games": ["luto", "true-nightmare-rc"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2519328152.ass"
   }
 }

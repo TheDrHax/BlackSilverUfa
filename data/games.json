@@ -4728,7 +4728,6 @@
         { "name": "Death Relives (демо)", "start": 10723 }
       ] },
       { "segment": "1635763389", "subrefs": [
-        { "name": "Luto (демо)", "start": 1281 },
         { "name": "Bughouse", "start": 5111 },
         { "name": "Skinned Alive", "start": 9647 },
         { "name": "The Lies We Tell Ourselves (демо)", "start": 16319 }
@@ -10359,8 +10358,7 @@
       { "segment": "2280809196", "subrefs": [
         { "name": "KARMA: The Dark World", "start": 3218 },
         { "name": "Paraedolon", "start": 7238 },
-        { "name": "Creature Packets", "start": 10437 },
-        { "name": "True Nightmare: Roadside Сafe (демо)", "start": 13267 }
+        { "name": "Creature Packets", "start": 10437 }
       ] },
       { "segment": "2288283392", "subrefs": [
         { "name": "The Hungry Fly", "start": 23576 }
@@ -18703,6 +18701,32 @@
       ] },
       { "segment": "2517564061", "subrefs": [
         { "name": "2", "start": 1642 }
+      ] }
+    ]
+  },
+  {
+    "name": "Luto",
+    "category": "ongoing",
+    "id": "luto",
+    "streams": [
+      { "segment": "1635763389", "subrefs": [
+        { "name": "Демо", "start": 1281 }
+      ] },
+      { "segment": "2519328152", "subrefs": [
+        { "name": "1", "start": 2386 }
+      ] }
+    ]
+  },
+  {
+    "name": "True Nightmare: Roadside Сafe",
+    "category": "finished",
+    "id": "true-nightmare-rc",
+    "streams": [
+      { "segment": "2280809196", "subrefs": [
+        { "name": "Демо", "start": 13267 }
+      ] },
+      { "segment": "2519328152", "subrefs": [
+        { "name": "Прохождение", "start": 13387 }
       ] }
     ]
   }
