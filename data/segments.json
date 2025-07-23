@@ -17011,11 +17011,11 @@
   },
   "2480467576,2480584019": {
     "youtube": "GN0qjsl1Mlc", "vk": "-28387068_456250801", "abs_start": 0, "abs_end": 19608, "duration": 19608,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #25 / неПрофессиональный \"E3\" 2025 - Future Games Show (обзор) / The Backrooms: Found Footage / Matreshka (демо) / Who's at the Door? / Sharks and Minnows / PIGFACE (демо) / Krysolov / неПрофессиональный \"E3\" 2025 - Xbox Games Showcase",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #25 / неПрофессиональный \"E3\" 2025 - Future Games Show (обзор) / The Backrooms: Found Footage / Matreshka (демо) / Who's at the Door? #1 / Sharks and Minnows / PIGFACE (демо) / Krysolov / неПрофессиональный \"E3\" 2025 - Xbox Games Showcase",
     "date": "2025-06-08",
     "offsets": ["0:00", "2:58:14+2"],
     "torrent": "https://bsufiles.drhx.ru/streams/2480467576,2480584019.torrent",
-    "games": ["horrors-2025", "e3-2025", "single-2025", "first-2025"],
+    "games": ["horrors-2025", "e3-2025", "single-2025", "whos-at-the-door", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2480467576,2480584019+0.ass"
   },
   "2483947367": {
@@ -17265,10 +17265,10 @@
   },
   "2517564061": {
     "youtube": "wEoqHxL8vA4", "vk": "-28387068_456250840", "abs_start": 0, "abs_end": 18953, "duration": 18953,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #31 / The Complex: Found Footage #2 / Nightmare Shift / Office After Hours",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #31 / The Complex: Found Footage #2 / Nightmare Shift / Office After Hours #1",
     "date": "2025-07-20",
     "torrent": "https://bsufiles.drhx.ru/streams/2517564061.torrent",
-    "games": ["horrors-2025", "the-complex-ff", "first-2025"],
+    "games": ["horrors-2025", "the-complex-ff", "first-2025", "office-after-hours"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2517564061.ass"
   },
   "2519328152": {
@@ -17278,5 +17278,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2519328152.torrent",
     "games": ["luto", "true-nightmare-rc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2519328152.ass"
+  },
+  "2520182695": {
+    "abs_start": 0, "abs_end": 20120, "duration": 20120,
+    "name": "Luto #2 / Who's at the Door? #2 / Office After Hours #2",
+    "date": "2025-07-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2520182695.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2520182695.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2520182695.torrent",
+    "games": ["luto", "whos-at-the-door", "office-after-hours"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2520182695.ass"
   }
 }

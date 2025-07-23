@@ -9024,8 +9024,7 @@
         { "name": "Paranormal Torment", "start": 12419 }
       ] },
       { "segment": "2517564061", "subrefs": [
-        { "name": "Nightmare Shift", "start": 9294 },
-        { "name": "Office After Hours", "start": 16238 }
+        { "name": "Nightmare Shift", "start": 9294 }
       ] },
       { "segment": "2511344577", "subrefs": [
         { "name": "Paradise Nowhere (демо)", "start": 1123 },
@@ -9462,7 +9461,6 @@
       { "segment": "2480467576,2480584019", "subrefs": [
         { "name": "The Backrooms: Found Footage", "start": 2835 },
         { "name": "Matreshka (демо)", "start": 4073 },
-        { "name": "Who's at the Door?", "start": 5476 },
         { "name": "Sharks and Minnows", "start": 7368 },
         { "name": "Krysolov", "start": 13206 }
       ] },
@@ -18716,6 +18714,9 @@
       ] },
       { "segment": "2519328152", "subrefs": [
         { "name": "1", "start": 2386 }
+      ] },
+      { "segment": "2520182695", "subrefs": [
+        { "name": "2", "start": 1656 }
       ] }
     ]
   },
@@ -18729,6 +18730,32 @@
       ] },
       { "segment": "2519328152", "subrefs": [
         { "name": "Прохождение", "start": 13387 }
+      ] }
+    ]
+  },
+  {
+    "name": "Who's at the Door?",
+    "category": "finished",
+    "id": "whos-at-the-door",
+    "streams": [
+      { "segment": "2480467576,2480584019", "subrefs": [
+        { "name": "1", "start": 5476 }
+      ] },
+      { "segment": "2520182695", "subrefs": [
+        { "name": "2", "start": 11865 }
+      ] }
+    ]
+  },
+  {
+    "name": "Office After Hours",
+    "category": "finished",
+    "id": "office-after-hours",
+    "streams": [
+      { "segment": "2517564061", "subrefs": [
+        { "name": "1", "start": 16238 }
+      ] },
+      { "segment": "2520182695", "subrefs": [
+        { "name": "2", "start": 17006 }
       ] }
     ]
   }
