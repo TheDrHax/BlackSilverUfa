@@ -16513,7 +16513,6 @@
     "youtube": "NXdra7gbnWM", "vk": "-28387068_456250711", "abs_start": 0, "abs_end": 23518, "duration": 23518,
     "name": "Half Sword (демо) #4 / R.E.P.O. #2",
     "date": "2025-04-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2430812705.torrent",
     "games": ["half-sword", "repo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2430812705.ass"
   },
@@ -17280,11 +17279,21 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2519328152.ass"
   },
   "2520182695": {
-    "youtube": "wxakPEqqBnY", "abs_start": 0, "abs_end": 20120, "duration": 20120,
+    "youtube": "wxakPEqqBnY", "vk": "-28387068_456250844", "abs_start": 0, "abs_end": 20120, "duration": 20120,
     "name": "Luto #2 / Who's at the Door? #2 / Office After Hours #2",
     "date": "2025-07-23",
     "torrent": "https://bsufiles.drhx.ru/streams/2520182695.torrent",
     "games": ["luto", "whos-at-the-door", "office-after-hours"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2520182695.ass"
+  },
+  "2521049196": {
+    "abs_start": 0, "abs_end": 23173, "duration": 23173,
+    "name": "WUCHANG: Fallen Feathers",
+    "date": "2025-07-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2521049196.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2521049196.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2521049196.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2521049196.ass"
   }
 }
