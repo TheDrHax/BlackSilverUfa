@@ -16215,9 +16215,9 @@
   },
   "2387156230": {
     "youtube": "BSMH8nvtOpg", "vk": "-28387068_456250640", "abs_start": 0, "abs_end": 18400, "duration": 18400,
-    "name": "Dune: Awakening - Демо / Soulframe (демо) / Killing Floor III (демо) / Deepest Trench / Radiolight (демо) / Beholder: Conductor (демо)",
+    "name": "Dune: Awakening - Демо / Soulframe (демо) / Killing Floor III - Демо / Deepest Trench / Radiolight (демо) / Beholder: Conductor (демо)",
     "date": "2025-02-21",
-    "games": ["dune-awakening", "first-2025", "single-2025"],
+    "games": ["dune-awakening", "first-2025", "killing-floor-3", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2387156230.ass"
   },
   "2389049577": {
@@ -16520,7 +16520,6 @@
     "youtube": "u5x0k6jNmTE", "vk": "-28387068_456250713", "abs_start": 0, "abs_end": 20311, "duration": 20311,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #15 / Backrooms Exploration - Прохождение / Burial / Blood Bark / Shock (демо) / CloverPit (демо) / Project SEVER (демо)",
     "date": "2025-04-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2431763545.torrent",
     "games": ["horrors-2025", "backrooms-expl", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2431763545.ass"
   },
@@ -16528,7 +16527,6 @@
     "youtube": "VaXxIAvaLy4", "vk": "-28387068_456250716", "official": false, "abs_start": 0, "abs_end": 24837, "duration": 24837,
     "name": "Blue Prince #2 / Into the Dead: Our Darkest Days / Half Sword (демо) #5",
     "date": "2025-04-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2433416193.torrent",
     "games": ["blue-prince", "first-2025", "half-sword"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2433416193.ass"
   },
@@ -17293,5 +17291,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2521049196.torrent",
     "games": ["first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2521049196.ass"
+  },
+  "2522856060": {
+    "abs_start": 0, "abs_end": 24999, "duration": 24999,
+    "name": "Crime Scene Cleaner #14 / Killing Floor III #1 / The Outlast Trials #6 (4D)",
+    "date": "2025-07-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2522856060.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2522856060.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2522856060.torrent",
+    "games": ["csc", "killing-floor-3", "outlast-trials"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2522856060.ass"
   }
 }
