@@ -4724,8 +4724,7 @@
         { "name": "Father's Day", "start": 7627 }
       ] },
       { "segment": "1634888055", "subrefs": [
-        { "name": "Please Don't Litter", "start": 6994 },
-        { "name": "Death Relives (демо)", "start": 10723 }
+        { "name": "Please Don't Litter", "start": 6994 }
       ] },
       { "segment": "1635763389", "subrefs": [
         { "name": "Bughouse", "start": 5111 },
@@ -9031,6 +9030,10 @@
       ] },
       { "segment": "2521049196", "subrefs": [
         { "name": "WUCHANG: Fallen Feathers", "start": 1247 }
+      ] },
+      { "segment": "2523773918", "subrefs": [
+        { "name": "Walking In", "start": 1287 },
+        { "name": "S.p.l.i.t", "start": 5668 }
       ] }
     ]
   },
@@ -9495,6 +9498,12 @@
         { "name": "Dread Flats", "start": 4303 },
         { "name": "Gordy", "start": 11412 },
         { "name": "Shift at Midnight (демо)", "start": 16721 }
+      ] },
+      { "segment": "2523773918", "subrefs": [
+        { "name": "Analog: Skin off", "start": 3299 },
+        { "name": "The Miller Farm", "start": 8823 },
+        { "name": "Bleak Haven (демо)", "start": 11911 },
+        { "name": "Eight Feet Tall", "start": 17277 }
       ] }
     ]
   },
@@ -17348,6 +17357,9 @@
       ] },
       { "segment": "2517564061", "subrefs": [
         { "name": "31" }
+      ] },
+      { "segment": "2523773918", "subrefs": [
+        { "name": "32" }
       ] }
     ]
   },
@@ -18777,6 +18789,19 @@
       ] },
       { "segment": "2522856060", "subrefs": [
         { "name": "1", "start": 8300 }
+      ] }
+    ]
+  },
+  {
+    "name": "Death Relives",
+    "category": "ongoing",
+    "id": "death-relives",
+    "streams": [
+      { "segment": "1634888055", "subrefs": [
+        { "name": "Демо", "start": 10723 }
+      ] },
+      { "segment": "2523773918", "subrefs": [
+        { "name": "Релиз", "start": 15287 }
       ] }
     ]
   }

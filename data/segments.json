@@ -11534,9 +11534,9 @@
   },
   "1634888055": {
     "youtube": "6x4EKG1gI6M", "official": false, "abs_start": 0, "abs_end": 20656, "duration": 20656,
-    "name": "Suffer the Night - Демо / Please Don't Litter / Endoparasitic / Death Relives (демо) / The Trench / Stay Out of the House",
+    "name": "Suffer the Night - Демо / Please Don't Litter / Endoparasitic / Death Relives - Демо / The Trench / Stay Out of the House",
     "date": "2022-10-26",
-    "games": ["suffer-the-night", "single-2022", "first-2022"],
+    "games": ["suffer-the-night", "single-2022", "first-2022", "death-relives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1634888055.ass",
     "note": "<a href=\"https://youtu.be/Z_AmuSRHkh4\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -17299,5 +17299,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2522856060.torrent",
     "games": ["csc", "killing-floor-3", "outlast-trials"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2522856060.ass"
+  },
+  "2523773918": {
+    "abs_start": 0, "abs_end": 19476, "duration": 19476,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #32 / Walking In / Analog: Skin off / S.p.l.i.t / The Miller Farm / Bleak Haven (демо) / Death Relives - Релиз / Eight Feet Tall",
+    "date": "2025-07-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2523773918.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2523773918.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2523773918.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025", "death-relives"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2523773918.ass"
   }
 }
