@@ -13654,9 +13654,9 @@
   },
   "1959105799": {
     "youtube": "7mRGvsbVIAs", "abs_start": 0, "abs_end": 22269, "duration": 22269,
-    "name": "Лихо одноглазое (One-Eyed Likho) (демо) / Slender: The Arrival #2 / Voices of the Void (демо) #1",
+    "name": "Лихо одноглазое (One-Eyed Likho) - Демо / Slender: The Arrival #2 / Voices of the Void (демо) #1",
     "date": "2023-10-24",
-    "games": ["single-2023", "slender", "votv"],
+    "games": ["one-eyed-likho", "slender", "votv"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1959105799.ass"
   },
   "1959921584": {
@@ -16534,7 +16534,6 @@
     "youtube": "NEsfAzkKdHs", "vk": "-28387068_456250717", "official": false, "abs_start": 0, "abs_end": 4507, "duration": 4507,
     "name": "Half Sword (демо) #6 (ночной стрим)",
     "date": "2025-04-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2433841442.torrent",
     "games": ["half-sword"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2433841442.ass"
   },
@@ -17309,5 +17308,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2523773918.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "death-relives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2523773918.ass"
+  },
+  "2524621393": {
+    "abs_start": 0, "abs_end": 25404, "duration": 25404,
+    "name": "Crime Scene Cleaner #15 / Лихо одноглазое (One-Eyed Likho) - Релиз",
+    "date": "2025-07-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2524621393.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2524621393.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2524621393.torrent",
+    "games": ["csc", "one-eyed-likho"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2524621393.ass"
   }
 }

@@ -5111,9 +5111,6 @@
       { "segment": "1957481459", "subrefs": [
         { "name": "TELEFORUM", "start": 13838 }
       ] },
-      { "segment": "1959105799", "subrefs": [
-        { "name": "Лихо одноглазое (One-Eyed Likho) (демо)", "start": 2471 }
-      ] },
       { "segment": "1970199475", "subrefs": [
         { "name": "Suspicious Person Information", "start": 10096 }
       ] },
@@ -11692,6 +11689,9 @@
       ] },
       { "segment": "2522856060", "subrefs": [
         { "name": "14", "start": 1912 }
+      ] },
+      { "segment": "2524621393", "subrefs": [
+        { "name": "15", "start": 2400 }
       ] }
     ]
   },
@@ -18790,6 +18790,19 @@
       ] },
       { "segment": "2523773918", "subrefs": [
         { "name": "Релиз", "start": 15287 }
+      ] }
+    ]
+  },
+  {
+    "name": "Лихо одноглазое (One-Eyed Likho)",
+    "category": "finished",
+    "id": "one-eyed-likho",
+    "streams": [
+      { "segment": "1959105799", "subrefs": [
+        { "name": "Демо", "start": 2471 }
+      ] },
+      { "segment": "2524621393", "subrefs": [
+        { "name": "Релиз", "start": 6221 }
       ] }
     ]
   }
