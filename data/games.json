@@ -5288,10 +5288,7 @@
         { "name": "3", "start": 2732 }
       ] },
       { "segment": "2513036056", "subrefs": [
-        { "name": "4", "start": 1331 }
-      ] },
-      { "segment": "2513085560", "subrefs": [
-        { "name": "5" }
+        { "name": "4", "start": 1351 }
       ] }
     ]
   },
@@ -9034,6 +9031,10 @@
       { "segment": "2523773918", "subrefs": [
         { "name": "Walking In", "start": 1287 },
         { "name": "S.p.l.i.t", "start": 5668 }
+      ] },
+      { "segment": "2513947018", "subrefs": [
+        { "name": "Eriksholm: The Stolen Dream", "start": 1353 },
+        { "name": "Neverwinter Nights 2: Enhanced Edition", "start": 8662 }
       ] }
     ]
   },
@@ -10815,10 +10816,10 @@
         { "name": "19", "start": 18925 }
       ] },
       { "segment": "2513085560", "subrefs": [
-        { "name": "20", "start": 489 }
+        { "name": "20", "start": 509 }
       ] },
       { "segment": "2513947018", "subrefs": [
-        { "name": "21", "start": 16240 }
+        { "name": "21", "start": 16255 }
       ] }
     ]
   },
@@ -18651,24 +18652,11 @@
       { "segment": "2510385552", "subrefs": [
         { "name": "1", "start": 12601 }
       ] },
+      { "segment": "2513085560", "subrefs": [
+        { "name": "2", "start": 3861 }
+      ] },
       { "segment": "2516607797", "subrefs": [
         { "name": "3", "start": 12064 }
-      ] }
-    ]
-  },
-  {
-    "name": "Не оформлено",
-    "category": "other",
-    "id": "todo",
-    "streams": [
-      { "segment": "2513085560", "subrefs": [
-        { "name": "PEAK #2", "start": 3201 }
-      ] },
-      { "segment": "2513947018", "subrefs": [
-        { "name": "Eriksholm: The Stolen Dream", "start": 1328 },
-        { "name": "Neverwinter Nights 2: Enhanced Edition", "start": 8624 },
-        { "name": "Special Events", "start": 11067 },
-        { "name": "Neverwinter Nights 2: Enhanced Edition", "start": 11408 }
       ] }
     ]
   },
