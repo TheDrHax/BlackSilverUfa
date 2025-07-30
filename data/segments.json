@@ -16539,7 +16539,6 @@
     "youtube": "7CetrE9k7s8", "vk": "-28387068_456250719", "abs_start": 0, "abs_end": 24003, "duration": 24003,
     "name": "Blue Prince #3 / Half Sword (демо) #7",
     "date": "2025-04-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2434299325.torrent",
     "games": ["blue-prince", "half-sword"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2434299325+0.ass"
   },
@@ -17312,5 +17311,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2524621393.torrent",
     "games": ["csc", "one-eyed-likho"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2524621393.ass"
+  },
+  "2526430465": {
+    "abs_start": 0, "abs_end": 12047, "duration": 12047,
+    "name": "Low-Budget Repairs (демо)",
+    "date": "2025-07-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2526430465.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2526430465.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2526430465.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2526430465.ass"
   }
 }
