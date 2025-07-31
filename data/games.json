@@ -3291,6 +3291,9 @@
       ] },
       { "segment": "2421947533,2422099767", "subrefs": [
         { "name": "Nintendo Direct: Nintendo Switch 2", "start": 450 }
+      ] },
+      { "segment": "2527282113", "subrefs": [
+        { "name": "Nintendo Direct (июль 2025)", "start": 1906 }
       ] }
     ]
   },
@@ -9032,9 +9035,6 @@
       { "segment": "2513947018", "subrefs": [
         { "name": "Eriksholm: The Stolen Dream", "start": 1353 },
         { "name": "Neverwinter Nights 2: Enhanced Edition", "start": 8662 }
-      ] },
-      { "segment": "2526430465", "subrefs": [
-        { "name": "Low-Budget Repairs (демо)", "start": 1692 }
       ] }
     ]
   },
@@ -9735,6 +9735,9 @@
       ] },
       { "segment": "2472314909", "subrefs": [
         { "name": "5", "start": 15420 }
+      ] },
+      { "segment": "2527282113", "subrefs": [
+        { "name": "6", "start": 10716 }
       ] }
     ]
   },
@@ -18806,6 +18809,19 @@
       ] },
       { "segment": "2524621393", "subrefs": [
         { "name": "Релиз", "start": 6221 }
+      ] }
+    ]
+  },
+  {
+    "name": "Low-Budget Repairs (Playtest)",
+    "category": "ongoing",
+    "id": "low-budget-repairs",
+    "streams": [
+      { "segment": "2526430465", "subrefs": [
+        { "name": "1", "start": 1692 }
+      ] },
+      { "segment": "2527282113", "subrefs": [
+        { "name": "2", "start": 5654 }
       ] }
     ]
   }
