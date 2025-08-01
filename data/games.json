@@ -9737,7 +9737,10 @@
         { "name": "5", "start": 15420 }
       ] },
       { "segment": "2527282113", "subrefs": [
-        { "name": "6", "start": 10716 }
+        { "name": "6 (с Дашей)", "start": 10716 }
+      ] },
+      { "segment": "2528145073", "subrefs": [
+        { "name": "7 (с Артёмом и Дашей)", "start": 8095 }
       ] }
     ]
   },
@@ -11651,7 +11654,7 @@
   },
   {
     "name": "Crime Scene Cleaner",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "csc",
     "streams": [
       { "segment": "1949835858", "subrefs": [
@@ -11698,6 +11701,9 @@
       ] },
       { "segment": "2524621393", "subrefs": [
         { "name": "15", "start": 2400 }
+      ] },
+      { "segment": "2528145073", "subrefs": [
+        { "name": "16", "start": 1442 }
       ] }
     ]
   },

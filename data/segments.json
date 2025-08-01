@@ -16553,7 +16553,6 @@
     "youtube": "37CpwZkJWak", "vk": "-28387068_456250725", "abs_start": 0, "abs_end": 25870, "duration": 25870,
     "name": "House Flipper 2 (с Дашей) #2",
     "date": "2025-04-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2437029851.torrent",
     "games": ["house-flipper-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2437029851.ass"
   },
@@ -17321,12 +17320,22 @@
   },
   "2527282113": {
     "abs_start": 0, "abs_end": 23046, "duration": 23046,
-    "name": "Nintendo Direct (июль 2025) / Low-Budget Repairs (Playtest) #2 / Warhammer 40,000: Space Marine II (кооп) #6",
+    "name": "Nintendo Direct (июль 2025) / Low-Budget Repairs (Playtest) #2 / Warhammer 40,000: Space Marine II (кооп) #6 (с Дашей)",
     "date": "2025-07-31",
     "direct": "https://bsufiles.drhx.ru/streams/2527282113.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2527282113.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2527282113.torrent",
     "games": ["expos", "low-budget-repairs", "wh40k-sm2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2527282113.ass"
+  },
+  "2528145073": {
+    "abs_start": 0, "abs_end": 23379, "duration": 23379,
+    "name": "Crime Scene Cleaner #16 / Warhammer 40,000: Space Marine II (кооп) #7 (с Артёмом и Дашей)",
+    "date": "2025-08-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2528145073.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2528145073.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2528145073.torrent",
+    "games": ["csc", "wh40k-sm2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2528145073.ass"
   }
 }
