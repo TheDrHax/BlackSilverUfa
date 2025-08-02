@@ -3294,6 +3294,9 @@
       ] },
       { "segment": "2527282113", "subrefs": [
         { "name": "Nintendo Direct (июль 2025)", "start": 1906 }
+      ] },
+      { "segment": "2529080504", "subrefs": [
+        { "name": "THQ Nordic Digital Showcase 2025", "start": 3089 }
       ] }
     ]
   },
@@ -8939,7 +8942,6 @@
         { "name": "Babka", "start": 6996 }
       ] },
       { "segment": "2461099212", "subrefs": [
-        { "name": "Выбор наказания", "start": 1381 },
         { "name": "Backrooms Liminal Escape", "start": 2683 },
         { "name": "Room Service", "start": 9047 },
         { "name": "Letters of Bernard Thorne", "start": 10466 },
@@ -9035,6 +9037,10 @@
       { "segment": "2513947018", "subrefs": [
         { "name": "Eriksholm: The Stolen Dream", "start": 1353 },
         { "name": "Neverwinter Nights 2: Enhanced Edition", "start": 8662 }
+      ] },
+      { "segment": "2529080504", "subrefs": [
+        { "name": "Ells Tales: Chairbound", "start": 5510 },
+        { "name": "NINJA GAIDEN: Ragebound", "start": 14908 }
       ] }
     ]
   },
