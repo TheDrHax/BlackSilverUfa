@@ -7072,9 +7072,6 @@
       { "segment": "289052085.1", "subrefs": [
         { "name": "Adoption" }
       ] },
-      { "segment": "290213414.1", "subrefs": [
-        { "name": "True Fear: Forsaken Souls Part 1" }
-      ] },
       { "segment": "291791543", "subrefs": [
         { "name": "Fractured Lands" }
       ] },
@@ -18834,6 +18831,19 @@
       ] },
       { "segment": "2527282113", "subrefs": [
         { "name": "2", "start": 5654 }
+      ] }
+    ]
+  },
+  {
+    "name": "True Fear: Forsaken Souls Part 1",
+    "category": "ongoing",
+    "id": "true-fear-fs1",
+    "streams": [
+      { "segment": "290213414.1", "subrefs": [
+        { "name": "Первый взгляд" }
+      ] },
+      { "segment": "2529979157", "subrefs": [
+        { "name": "1", "start": 1133 }
       ] }
     ]
   }

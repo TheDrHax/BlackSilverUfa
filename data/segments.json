@@ -2819,9 +2819,9 @@
   },
   "290213414.1": {
     "youtube": "Yn7DL6xbNVE", "abs_start": 6988, "abs_end": 9441, "duration": 2453,
-    "name": "True Fear: Forsaken Souls Part 1",
+    "name": "True Fear: Forsaken Souls Part 1 - Первый взгляд",
     "date": "2018-07-28",
-    "games": ["first-2018"],
+    "games": ["true-fear-fs1"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v290213414.ass"
   },
   "290213414.2": {
@@ -16560,7 +16560,6 @@
     "youtube": "DgecSsJOtMo", "vk": "-28387068_456250727", "abs_start": 0, "abs_end": 19162, "duration": 19162,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #16 / POOLS - Chapter 0 / Creepy Shift: House For Sale / Cosmic Fear (демо) / Discussion Over Dinner / Sanity Loops (демо)",
     "date": "2025-04-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2437947286.torrent",
     "games": ["horrors-2025", "pools", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2437947286.ass"
   },
@@ -17343,5 +17342,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2529080504.torrent",
     "games": ["expos", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2529080504.ass"
+  },
+  "2529979157": {
+    "abs_start": 0, "abs_end": 18185, "duration": 18185,
+    "name": "True Fear: Forsaken Souls Part 1 #1",
+    "date": "2025-08-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2529979157.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2529979157.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2529979157.torrent",
+    "games": ["true-fear-fs1"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2529979157.ass"
   }
 }
