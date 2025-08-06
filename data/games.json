@@ -9036,7 +9036,6 @@
         { "name": "Neverwinter Nights 2: Enhanced Edition", "start": 8662 }
       ] },
       { "segment": "2529080504", "subrefs": [
-        { "name": "Ells Tales: Chairbound", "start": 5510 },
         { "name": "NINJA GAIDEN: Ragebound", "start": 14908 }
       ] }
     ]
@@ -11883,6 +11882,9 @@
       ] },
       { "segment": "2522856060", "subrefs": [
         { "name": "6 (4D)", "start": 14280 }
+      ] },
+      { "segment": "2532558215", "subrefs": [
+        { "name": "7 (4D)", "start": 8431 }
       ] }
     ]
   },
@@ -18672,6 +18674,9 @@
       ] },
       { "segment": "2516607797", "subrefs": [
         { "name": "3", "start": 12064 }
+      ] },
+      { "segment": "2532558215", "subrefs": [
+        { "name": "4 (финал)", "start": 17194 }
       ] }
     ]
   },
@@ -18844,6 +18849,19 @@
       ] },
       { "segment": "2529979157", "subrefs": [
         { "name": "1", "start": 1133 }
+      ] }
+    ]
+  },
+  {
+    "name": "Ells Tales: Chairbound",
+    "category": "ongoing",
+    "id": "ells-tales-chair",
+    "streams": [
+      { "segment": "2529080504", "subrefs": [
+        { "name": "1", "start": 5510 }
+      ] },
+      { "segment": "2532558215", "subrefs": [
+        { "name": "2", "start": 2677 }
       ] }
     ]
   }

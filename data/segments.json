@@ -16567,7 +16567,6 @@
     "youtube": "YNquG82u_Qc", "vk": "-28387068_456250729", "abs_start": 0, "abs_end": 25807, "duration": 25807,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #17 / Blue Prince #5 / The Boba Teashop - Прохождение / Red Finger / Don't Feed It / Moth / Improbability Control Bureau / Below Benni's / Somnifuge",
     "date": "2025-04-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2438710443.torrent",
     "games": ["horrors-2025", "blue-prince", "boba-teashop", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2438710443.ass"
   },
@@ -17335,10 +17334,10 @@
   },
   "2529080504": {
     "youtube": "IPiaD1LslJs", "abs_start": 0, "abs_end": 18874, "duration": 18874,
-    "name": "THQ Nordic Digital Showcase 2025 / Ells Tales: Chairbound / NINJA GAIDEN: Ragebound",
+    "name": "THQ Nordic Digital Showcase 2025 / Ells Tales: Chairbound #1 / NINJA GAIDEN: Ragebound",
     "date": "2025-08-02",
     "torrent": "https://bsufiles.drhx.ru/streams/2529080504.torrent",
-    "games": ["expos", "first-2025"],
+    "games": ["expos", "ells-tales-chair", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2529080504.ass"
   },
   "2529979157": {
@@ -17348,5 +17347,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2529979157.torrent",
     "games": ["true-fear-fs1"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2529979157.ass"
+  },
+  "2532558215": {
+    "abs_start": 0, "abs_end": 23938, "duration": 23938,
+    "name": "Ells Tales: Chairbound #2 / The Outlast Trials #7 (4D) / Peak #4 (финал)",
+    "date": "2025-08-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2532558215.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2532558215.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2532558215.torrent",
+    "games": ["ells-tales-chair", "outlast-trials", "peak"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2532558215.ass"
   }
 }
