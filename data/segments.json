@@ -16574,7 +16574,6 @@
     "youtube": "vz7GQq4_svY", "vk": "-28387068_456250733", "abs_start": 0, "abs_end": 34091, "duration": 34091,
     "name": "The Elder Scrolls IV: Oblivion Remastered #1",
     "date": "2025-04-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2440378669.torrent",
     "games": ["tes4r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2440378669.ass"
   },
@@ -17355,5 +17354,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2532558215.torrent",
     "games": ["ells-tales-chair", "outlast-trials", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2532558215.ass"
+  },
+  "2533434372": {
+    "abs_start": 0, "abs_end": 26672, "duration": 26672,
+    "name": "Battlefield 6 (бета) / Mafia: The Old Country",
+    "date": "2025-08-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2533434372.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2533434372.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2533434372.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2533434372.ass"
   }
 }
