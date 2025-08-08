@@ -16581,7 +16581,6 @@
     "youtube": "yEVPXc32JFs", "vk": "-28387068_456250735", "abs_start": 0, "abs_end": 33101, "duration": 33101,
     "name": "Clair Obscur: Expedition 33 / The Elder Scrolls IV: Oblivion Remastered #2",
     "date": "2025-04-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2441246464.torrent",
     "games": ["first-2025", "tes4r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2441246464.ass"
   },
@@ -16589,7 +16588,6 @@
     "youtube": "8zL0uVoaDmY", "vk": "-28387068_456250737", "abs_start": 0, "abs_end": 32126, "duration": 32126,
     "name": "The Elder Scrolls IV: Oblivion Remastered #3",
     "date": "2025-04-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2442097456.torrent",
     "games": ["tes4r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2442097456.ass"
   },
@@ -17357,10 +17355,41 @@
   },
   "2533434372": {
     "youtube": "uxZFPsr6f8o", "abs_start": 0, "abs_end": 26673, "duration": 26673,
-    "name": "Battlefield 6 (бета) / Mafia: The Old Country",
+    "name": "Battlefield 6 (бета) / Mafia: The Old Country #1",
     "date": "2025-08-07",
     "torrent": "https://bsufiles.drhx.ru/streams/2533434372.torrent",
-    "games": ["first-2025"],
+    "games": ["first-2025", "mafia-toc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2533434372.ass"
+  },
+  "2534392013": {
+    "abs_start": 0, "abs_end": 26779, "duration": 26779,
+    "name": "",
+    "date": "2025-08-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2534392013.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2534392013.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2534392013.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2534392013.ass"
+  },
+  "2534676528": {
+    "abs_start": 0, "abs_end": 2381, "duration": 2381,
+    "name": "",
+    "date": "2025-08-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2534676528.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2534676528.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2534676528.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2534676528.ass"
+  },
+  "2534392013,2534676528": {
+    "abs_start": 0, "abs_end": 29158, "duration": 29158,
+    "name": "Mafia: The Old Country #2",
+    "date": "2025-08-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2534392013,2534676528.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2534392013,2534676528.mp4/master.m3u8",
+    "offsets": ["0:00", "7:26:17+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2534392013,2534676528.torrent",
+    "games": ["mafia-toc"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2534392013,2534676528+0.ass"
   }
 }

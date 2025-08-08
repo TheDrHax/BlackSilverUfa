@@ -9039,8 +9039,7 @@
         { "name": "NINJA GAIDEN: Ragebound", "start": 14908 }
       ] },
       { "segment": "2533434372", "subrefs": [
-        { "name": "Battlefield 6 (бета)", "start": 88 },
-        { "name": "Mafia: The Old Country", "start": 3292 }
+        { "name": "Battlefield 6 (бета)", "start": 88 }
       ] }
     ]
   },
@@ -18866,6 +18865,19 @@
       ] },
       { "segment": "2532558215", "subrefs": [
         { "name": "2", "start": 2677 }
+      ] }
+    ]
+  },
+  {
+    "name": "Mafia: The Old Country",
+    "category": "finished",
+    "id": "mafia-toc",
+    "streams": [
+      { "segment": "2533434372", "subrefs": [
+        { "name": "1", "start": 3292 }
+      ] },
+      { "segment": "2534392013,2534676528", "subrefs": [
+        { "name": "2", "start": 341 }
       ] }
     ]
   }
