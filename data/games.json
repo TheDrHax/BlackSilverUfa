@@ -9040,6 +9040,11 @@
       ] },
       { "segment": "2533434372", "subrefs": [
         { "name": "Battlefield 6 (бета)", "start": 88 }
+      ] },
+      { "segment": "2536326874", "subrefs": [
+        { "name": "Liminal Exit", "start": 1797 },
+        { "name": "O.M.N.I.S.: Overnight Train", "start": 3400 },
+        { "name": "The Hollow Lighthouse", "start": 11143 }
       ] }
     ]
   },
@@ -9491,7 +9496,6 @@
       { "segment": "2505174390", "subrefs": [
         { "name": "Rohner's Backrooms", "start": 1697 },
         { "name": "Don't Mess With Bober", "start": 4144 },
-        { "name": "Loan Shark (демо)", "start": 7559 },
         { "name": "Place (демо)", "start": 14707 },
         { "name": "Bunker 73", "start": 16791 }
       ] },
@@ -9510,6 +9514,11 @@
         { "name": "The Miller Farm", "start": 8823 },
         { "name": "Bleak Haven (демо)", "start": 11911 },
         { "name": "Eight Feet Tall", "start": 17277 }
+      ] },
+      { "segment": "2536326874", "subrefs": [
+        { "name": "Mom's Hotel", "start": 4412 },
+        { "name": "The Last Ski Trip", "start": 7328 },
+        { "name": "Peasant Nightmare", "start": 16114 }
       ] }
     ]
   },
@@ -17381,6 +17390,9 @@
       ] },
       { "segment": "2523773918", "subrefs": [
         { "name": "32" }
+      ] },
+      { "segment": "2536326874", "subrefs": [
+        { "name": "33" }
       ] }
     ]
   },
@@ -18878,6 +18890,19 @@
       ] },
       { "segment": "2534392013,2534676528", "subrefs": [
         { "name": "2", "start": 341 }
+      ] }
+    ]
+  },
+  {
+    "name": "Loan Shark",
+    "category": "finished",
+    "id": "loan-shark",
+    "streams": [
+      { "segment": "2505174390", "subrefs": [
+        { "name": "Демо", "start": 7559 }
+      ] },
+      { "segment": "2536326874", "subrefs": [
+        { "name": "Прохождение", "start": 12628 }
       ] }
     ]
   }

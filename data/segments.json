@@ -17147,10 +17147,10 @@
   },
   "2505174390": {
     "youtube": "QbGgUyFzI4g", "vk": "-28387068_456250822", "abs_start": 0, "abs_end": 18929, "duration": 18929,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #28 / Rohner's Backrooms / LIMSCAPE / Don't Mess With Bober / Loan Shark (демо) / Arachnoid / Place (демо) / Bunker 73",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #28 / Rohner's Backrooms / LIMSCAPE / Don't Mess With Bober / Loan Shark - Демо / Arachnoid / Place (демо) / Bunker 73",
     "date": "2025-07-06",
     "torrent": "https://bsufiles.drhx.ru/streams/2505174390.torrent",
-    "games": ["horrors-2025", "single-2025", "first-2025"],
+    "games": ["horrors-2025", "single-2025", "first-2025", "loan-shark"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2505174390.ass"
   },
   "2506017612": {
@@ -17389,5 +17389,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2534392013,2534676528.torrent",
     "games": ["mafia-toc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2534392013,2534676528+0.ass"
+  },
+  "2536326874": {
+    "abs_start": 0, "abs_end": 18051, "duration": 18051,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #33 / Liminal Exit / O.M.N.I.S.: Overnight Train / Mom's Hotel / The Last Ski Trip / The Hollow Lighthouse / Loan Shark - Прохождение / Peasant Nightmare",
+    "date": "2025-08-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2536326874.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2536326874.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2536326874.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025", "loan-shark"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2536326874.ass"
   }
 }
