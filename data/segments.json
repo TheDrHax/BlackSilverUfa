@@ -16595,7 +16595,6 @@
     "youtube": "BRH_Ly_NuJk", "vk": "-28387068_456250739", "abs_start": 0, "abs_end": 17718, "duration": 17718,
     "name": "Darkwater / Backrooms Cleanup Crew / R.E.P.O. #3",
     "date": "2025-04-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2443150012.torrent",
     "games": ["co-op", "repo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2443150012.ass"
   },
@@ -16603,7 +16602,6 @@
     "youtube": "OkiCms9FPeQ", "vk": "-28387068_456250741", "abs_start": 0, "abs_end": 21922, "duration": 21922,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #18 / Seclusion / Backrooms: Exit from Supermarket Horror (демо) / Fear The Unknown: Dave Story / Mara (демо) / BrokenLore: Don't Watch - Прохождение / Post Trauma - Релиз",
     "date": "2025-04-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2444003656.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "brokenlore-dw", "post-trauma"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2444003656.ass"
   },
@@ -17397,5 +17395,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2536326874.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "loan-shark"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2536326874.ass"
+  },
+  "2537171488": {
+    "abs_start": 0, "abs_end": 22477, "duration": 22477,
+    "name": "A.I.L.A (демо) / Lost Luminosity / Deadcam / SLACKJAW / Them",
+    "date": "2025-08-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2537171488.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2537171488.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2537171488.torrent",
+    "games": ["single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2537171488.ass"
   }
 }
