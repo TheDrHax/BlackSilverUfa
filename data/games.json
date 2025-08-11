@@ -9045,9 +9045,6 @@
         { "name": "Liminal Exit", "start": 1797 },
         { "name": "O.M.N.I.S.: Overnight Train", "start": 3400 },
         { "name": "The Hollow Lighthouse", "start": 11143 }
-      ] },
-      { "segment": "2537171488", "subrefs": [
-        { "name": "Deadcam", "start": 10962 }
       ] }
     ]
   },
@@ -9526,6 +9523,7 @@
       { "segment": "2537171488", "subrefs": [
         { "name": "A.I.L.A (демо)", "start": 1839 },
         { "name": "Lost Luminosity", "start": 4996 },
+        { "name": "Deadcam", "start": 10962 },
         { "name": "SLACKJAW", "start": 14291 },
         { "name": "Them", "start": 17974 }
       ] }
