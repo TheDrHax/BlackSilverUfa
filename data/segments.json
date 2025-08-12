@@ -6617,9 +6617,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v625606171.ass"
   },
   "626564087": {
-    "youtube": "14XPMWRTDMo", "abs_start": 0, "abs_end": 22054, "duration": 22054,
+    "abs_start": 0, "abs_end": 22053, "duration": 22053,
     "name": "Mafia II: Definitive Edition #2 / The Persistence / Black Book / GeoGuessr #3",
     "date": "2020-05-20",
+    "direct": "https://bsufiles.drhx.ru/streams/626564087.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/626564087.mp4/master.m3u8",
     "games": ["mafia-2-definitive", "first-2020", "geoguessr"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v626564087.ass"
   },
@@ -16136,7 +16138,7 @@
   },
   "2375686253": {
     "youtube": "KtVgTX8Hngk", "vk": "-28387068_456250623", "abs_start": 0, "abs_end": 18673, "duration": 18673,
-    "name": "Dream Cage / Static Dread",
+    "name": "Dream Cage / Static Dread (демо)",
     "date": "2025-02-08",
     "games": ["single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2375686253.ass"
