@@ -16138,9 +16138,9 @@
   },
   "2375686253": {
     "youtube": "KtVgTX8Hngk", "vk": "-28387068_456250623", "abs_start": 0, "abs_end": 18673, "duration": 18673,
-    "name": "Dream Cage / Static Dread (демо)",
+    "name": "Dream Cage / Static Dread: The Lighthouse - Демо",
     "date": "2025-02-08",
-    "games": ["single-2025", "first-2025"],
+    "games": ["single-2025", "static-dread"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2375686253.ass"
   },
   "2376629644": {
@@ -16611,7 +16611,6 @@
     "youtube": "jErvCe9uCTo", "vk": "-28387068_456250744", "abs_start": 0, "abs_end": 30410, "duration": 30410,
     "name": "The Elder Scrolls IV: Oblivion Remastered #4",
     "date": "2025-04-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2444808287.torrent",
     "games": ["tes4r"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2444808287.ass"
   },
@@ -17405,5 +17404,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2537171488.torrent",
     "games": ["single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2537171488.ass"
+  },
+  "2538025119": {
+    "abs_start": 0, "abs_end": 20100, "duration": 20100,
+    "name": "Static Dread: The Lighthouse #1",
+    "date": "2025-08-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2538025119.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2538025119.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2538025119.torrent",
+    "games": ["static-dread"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2538025119.ass"
   }
 }

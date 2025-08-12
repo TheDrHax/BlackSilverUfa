@@ -8772,9 +8772,6 @@
         { "name": "Back Rooms: The Old Watcher", "start": 11197 },
         { "name": "Satan's Dungeon", "start": 15310 }
       ] },
-      { "segment": "2375686253", "subrefs": [
-        { "name": "Static Dread (демо)", "start": 11094 }
-      ] },
       { "segment": "2380042056", "subrefs": [
         { "name": "Twisted Tower (демо)", "start": 9045 },
         { "name": "Sancticide (демо)", "start": 11463 }
@@ -18910,6 +18907,19 @@
       ] },
       { "segment": "2536326874", "subrefs": [
         { "name": "Прохождение", "start": 12628 }
+      ] }
+    ]
+  },
+  {
+    "name": "Static Dread: The Lighthouse",
+    "category": "ongoing",
+    "id": "static-dread",
+    "streams": [
+      { "segment": "2375686253", "subrefs": [
+        { "name": "Демо", "start": 11094 }
+      ] },
+      { "segment": "2538025119", "subrefs": [
+        { "name": "1", "start": 1582 }
       ] }
     ]
   }
