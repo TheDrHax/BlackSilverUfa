@@ -18874,7 +18874,7 @@
   },
   {
     "name": "True Fear: Forsaken Souls Part 1",
-    "category": "ongoing",
+    "category": "finished",
     "id": "true-fear-fs1",
     "streams": [
       { "segment": "290213414.1", "subrefs": [
@@ -18882,6 +18882,9 @@
       ] },
       { "segment": "2529979157", "subrefs": [
         { "name": "1", "start": 1133 }
+      ] },
+      { "segment": "2541580117", "subrefs": [
+        { "name": "2", "start": 1482 }
       ] }
     ]
   },

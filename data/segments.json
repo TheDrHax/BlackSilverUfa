@@ -16625,7 +16625,6 @@
     "youtube": "FJ_3GasgVtQ", "vk": "-28387068_456250749", "abs_start": 0, "abs_end": 24348, "duration": 24348,
     "name": "ARC Raiders / Cop Bastard (демо)",
     "date": "2025-05-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2449126768.torrent",
     "games": ["first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2449126768.ass"
   },
@@ -17428,5 +17427,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2540650368.torrent",
     "games": ["first-2025", "lucky-tower", "peak", "repo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2540650368.ass"
+  },
+  "2541580117": {
+    "abs_start": 0, "abs_end": 13457, "duration": 13457,
+    "name": "True Fear: Forsaken Souls Part 1 #2",
+    "date": "2025-08-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2541580117.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2541580117.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2541580117.torrent",
+    "games": ["true-fear-fs1"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2541580117.ass"
   }
 }
