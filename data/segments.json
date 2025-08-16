@@ -17413,14 +17413,13 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2538025119.ass"
   },
   "2539754944": {
-    "abs_start": 0, "abs_end": 14319, "duration": 14319,
+    "youtube": "oXdZp7g_yC4", "abs_start": 0, "abs_end": 14318, "duration": 13984,
     "name": "Bus Flipper Simulator - Релиз / One Man's Trash",
     "date": "2025-08-14",
-    "direct": "https://bsufiles.drhx.ru/streams/2539754944.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2539754944.mp4/master.m3u8",
+    "cuts": [[1491, 1825]],
     "torrent": "https://bsufiles.drhx.ru/streams/2539754944.torrent",
     "games": ["bus-flipper", "first-2025"],
-    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2539754944.ass"
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2539754944+0.ass"
   },
   "2540650368": {
     "youtube": "0s7Zpap0rVo", "abs_start": 0, "abs_end": 24770, "duration": 24770,
