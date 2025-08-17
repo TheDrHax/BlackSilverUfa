@@ -4605,7 +4605,6 @@
         { "name": "The Ouija Board", "start": 20905 }
       ] },
       { "segment": "1466510615", "subrefs": [
-        { "name": "Core", "start": 19396 },
         { "name": "Just Stopping By", "start": 20509 }
       ] },
       { "segment": "1467409068", "subrefs": [
@@ -4640,7 +4639,6 @@
         { "name": "Toilet Chronicles (демо)", "start": 5720 },
         { "name": "Last Bus Home", "start": 7320 },
         { "name": "Loathful", "start": 12282 },
-        { "name": "The Other Side", "start": 13730 },
         { "name": "Perfect Vermin", "start": 15119 },
         { "name": "The Crypt Terror", "start": 18805 },
         { "name": "Penitence", "start": 19318 }
@@ -4653,7 +4651,6 @@
       { "segment": "1548174786", "subrefs": [
         { "name": "The Pale (демо)", "start": 1413 },
         { "name": "Auver", "start": 4206 },
-        { "name": "Control Room Alpha", "start": 5239 },
         { "name": "Cain", "start": 5665 },
         { "name": "Life Beyond", "start": 7470 },
         { "name": "Satan's Baby Doll", "start": 13256 },
@@ -5030,10 +5027,8 @@
       ] },
       { "segment": "1891624092", "subrefs": [
         { "name": "Step Into The Dark", "start": 6615 },
-        { "name": "Carbon Steel", "start": 8349 },
         { "name": "The Lunar Effect (демо)", "start": 12705 },
         { "name": "The Duck Psychology (демо)", "start": 14808 },
-        { "name": "Concrete Tremor", "start": 15641 },
         { "name": "Tartarus Engine", "start": 17707 }
       ] },
       { "segment": "1903801654,1903834688", "subrefs": [
@@ -7729,6 +7724,39 @@
     ]
   },
   {
+    "name": "Mike Klubnika",
+    "category": "finished",
+    "type": "list",
+    "id": "klubnika",
+    "streams": [
+      { "segment": "1466510615", "subrefs": [
+        { "name": "Core", "start": 19396 }
+      ] },
+      { "segment": "1472093056", "subrefs": [
+        { "name": "Film Morbid", "start": 17272 }
+      ] },
+      { "segment": "1521217271", "subrefs": [
+        { "name": "The Other Side", "start": 13730 }
+      ] },
+      { "segment": "1548174786", "subrefs": [
+        { "name": "Control Room Alpha", "start": 5239 }
+      ] },
+      { "segment": "1891624092", "subrefs": [
+        { "name": "Carbon Steel", "start": 8349 },
+        { "name": "Concrete Tremor", "start": 15641 }
+      ] },
+      { "segment": "2421947533,2422099767", "subrefs": [
+        { "name": "Fused 240", "start": 9899 }
+      ] },
+      { "segment": "2523773918", "subrefs": [
+        { "name": "S.p.l.i.t", "start": 5668 }
+      ] },
+      { "segment": "2542477703", "subrefs": [
+        { "name": "Crank it!", "start": 15144 }
+      ] }
+    ]
+  },
+  {
     "name": "Первый взгляд 2022",
     "category": "first",
     "type": "list",
@@ -7806,8 +7834,7 @@
         { "name": "Shadowbringer", "start": 9065 },
         { "name": "Lilith's Curse 1984 (демо)", "start": 9971 },
         { "name": "Puppetmaker", "start": 11453 },
-        { "name": "Arachnophobia (заново)", "start": 16416, "hidden": true },
-        { "name": "Film Morbid", "start": 17272 }
+        { "name": "Arachnophobia (заново)", "start": 16416, "hidden": true }
       ] },
       { "segment": "1312161316", "subrefs": [
         { "name": "Sniper Elite 5", "start": 7138 }
@@ -9024,8 +9051,7 @@
         { "name": "WUCHANG: Fallen Feathers", "start": 1247 }
       ] },
       { "segment": "2523773918", "subrefs": [
-        { "name": "Walking In", "start": 1287 },
-        { "name": "S.p.l.i.t", "start": 5668 }
+        { "name": "Walking In", "start": 1287 }
       ] },
       { "segment": "2513947018", "subrefs": [
         { "name": "Eriksholm: The Stolen Dream", "start": 1353 },
@@ -9050,7 +9076,6 @@
       ] },
       { "segment": "2542477703", "subrefs": [
         { "name": "BackRooms X", "start": 830 },
-        { "name": "Crank it!", "start": 15144 },
         { "name": "Japan Stigmatized Property", "start": 16867 }
       ] }
     ]
@@ -9400,7 +9425,6 @@
       { "segment": "2421947533,2422099767", "subrefs": [
         { "name": "The Station", "start": 4642 },
         { "name": "The Dog", "start": 5268 },
-        { "name": "Fused 240", "start": 9899 },
         { "name": "My Dear Sheep", "start": 14670 },
         { "name": "Reverend", "start": 15099 },
         { "name": "Veins of Darkness", "start": 15972 }

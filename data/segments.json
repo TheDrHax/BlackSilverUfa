@@ -10784,7 +10784,7 @@
     "youtube": "GgzTPPFfpTw", "official": false, "abs_start": 0, "abs_end": 21509, "duration": 21509,
     "name": "Remorse: The List #2 / Varmalis (демо) / Core / Just Stopping By",
     "date": "2022-04-25",
-    "games": ["remorse-tl", "first-2022", "single-2022"],
+    "games": ["remorse-tl", "first-2022", "klubnika", "single-2022"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1466510615.ass",
     "note": "<a href=\"https://youtu.be/nJTTWcbUNe0\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -10821,7 +10821,7 @@
     "youtube": "5THZtDba5Tk", "abs_start": 0, "abs_end": 19306, "duration": 19306,
     "name": "The Clown's Fun / Under / New Testament (демо) / Arachnophobia / Ouija Rumours / Shadowbringer / Lilith's Curse 1984 (демо) / Puppetmaker / Our Lady of Sorrow / The Abyss Has Walls / Film Morbid / The Heilwald Loophole #2",
     "date": "2022-05-01",
-    "games": ["616-games", "first-2022", "single-2022", "heilwald"],
+    "games": ["616-games", "first-2022", "single-2022", "klubnika", "heilwald"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1472093056.ass"
   },
   "1494292107": {
@@ -10974,7 +10974,7 @@
     "youtube": "YTVwAOJ4f4o", "official": false, "abs_start": 0, "abs_end": 21376, "duration": 21376,
     "name": "Sail-by Salute / The Floor is Breathing / Toilet Chronicles (демо) / Last Bus Home / Cold House / Loathful / The Other Side / Perfect Vermin / Lost Life: Origins / The Crypt Terror / Penitence",
     "date": "2022-07-03",
-    "games": ["single-2022", "first-2022"],
+    "games": ["single-2022", "first-2022", "klubnika"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1521217271.ass",
     "note": "<a href=\"https://youtu.be/JTPJOFqxuVc\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -11134,7 +11134,7 @@
     "youtube": "u4fVjhYxqWU", "abs_start": 0, "abs_end": 21855, "duration": 21855,
     "name": "The Pale (демо) / Auver / Control Room Alpha / Cain / Life Beyond / After Midnight / Enter & Survey / Our Lady of the Drowned Lake / Satan's Baby Doll / Good Boy / Stroll Prototype / Hausmeister / One Last Breath (демо) / Iron Lung #1",
     "date": "2022-07-31",
-    "games": ["single-2022", "616-games", "first-2022", "iron-lung"],
+    "games": ["single-2022", "klubnika", "616-games", "first-2022", "iron-lung"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1548174786.ass"
   },
   "1550107736": {
@@ -13277,7 +13277,7 @@
     "youtube": "q3QmE2MvgRs", "abs_start": 0, "abs_end": 19114, "duration": 19114,
     "name": "Where Is Sarah? / Episode 666 / Step Into The Dark / Carbon Steel / The Lunar Effect (демо) / The Duck Psychology (демо) / Concrete Tremor / Tartarus Engine",
     "date": "2023-08-06",
-    "games": ["first-2023", "single-2023"],
+    "games": ["first-2023", "single-2023", "klubnika"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1891624092.ass"
   },
   "1894178506": {
@@ -16464,7 +16464,7 @@
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #13 / Nintendo Direct: Nintendo Switch 2 / The Station / The Dog / Silverpine Creek / Fused 240 / Sinfeld: Evil Resident / My Dear Sheep / Reverend / Veins of Darkness",
     "date": "2025-04-02",
     "offsets": ["0:00", "3:59:40+2"],
-    "games": ["horrors-2025", "expos", "single-2025", "first-2025"],
+    "games": ["horrors-2025", "expos", "single-2025", "first-2025", "klubnika"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2421947533,2422099767+0.ass"
   },
   "2422801689": {
@@ -17290,7 +17290,7 @@
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #32 / Walking In / Analog: Skin off / S.p.l.i.t / The Miller Farm / Bleak Haven (демо) / Death Relives - Релиз / Eight Feet Tall",
     "date": "2025-07-27",
     "torrent": "https://bsufiles.drhx.ru/streams/2523773918.torrent",
-    "games": ["horrors-2025", "first-2025", "single-2025", "death-relives"],
+    "games": ["horrors-2025", "first-2025", "single-2025", "klubnika", "death-relives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2523773918.ass"
   },
   "2524621393": {
@@ -17442,7 +17442,7 @@
     "direct": "https://bsufiles.drhx.ru/streams/2542477703.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2542477703.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2542477703.torrent",
-    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "games": ["horrors-2025", "first-2025", "single-2025", "klubnika"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2542477703.ass"
   }
 }
