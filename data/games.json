@@ -9047,6 +9047,11 @@
       ] },
       { "segment": "2540650368", "subrefs": [
         { "name": "GONE Fishing", "start": 2401 }
+      ] },
+      { "segment": "2542477703", "subrefs": [
+        { "name": "BackRooms X", "start": 830 },
+        { "name": "Crank it!", "start": 15144 },
+        { "name": "Japan Stigmatized Property", "start": 16867 }
       ] }
     ]
   },
@@ -9528,6 +9533,13 @@
         { "name": "Deadcam", "start": 10962 },
         { "name": "SLACKJAW", "start": 14291 },
         { "name": "Them", "start": 17974 }
+      ] },
+      { "segment": "2542477703", "subrefs": [
+        { "name": "Zooparasite", "start": 4139 },
+        { "name": "Garbage Take Out Day", "start": 7562 },
+        { "name": "Death Flush", "start": 8476 },
+        { "name": "Restorer", "start": 10927 },
+        { "name": "Dressing room", "start": 14190 }
       ] }
     ]
   },
@@ -17405,6 +17417,9 @@
       ] },
       { "segment": "2536326874", "subrefs": [
         { "name": "33" }
+      ] },
+      { "segment": "2542477703", "subrefs": [
+        { "name": "34" }
       ] }
     ]
   },
