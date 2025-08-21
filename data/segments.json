@@ -16639,7 +16639,6 @@
     "youtube": "1p9XhUeJrzo", "official": false, "abs_start": 0, "abs_end": 28333, "duration": 28333,
     "name": "Steel Seed - Релиз / KIBORG / Quarantine Zone / Captain Blood (Приключение Капитана Блада)",
     "date": "2025-05-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2450891536.torrent",
     "games": ["steel-seed", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2450891536.ass"
   },
@@ -17442,5 +17441,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2542477703.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "klubnika"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2542477703.ass"
+  },
+  "2545894810": {
+    "abs_start": 0, "abs_end": 20232, "duration": 20232,
+    "name": "Gamescom 2025 - Opening Night Live | Future Games Show | Awesome Indies Show",
+    "date": "2025-08-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2545894810.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2545894810.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2545894810.torrent",
+    "games": ["gamescom-25"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2545894810.ass"
   }
 }

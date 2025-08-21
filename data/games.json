@@ -3315,6 +3315,19 @@
     ]
   },
   {
+    "name": "Gamescom 2025",
+    "category": "expos",
+    "id": "gamescom-25",
+    "streams": [
+      { "segment": "2545894810", "subrefs": [
+        { "name": "Opening Night Live", "start": 1169 },
+        { "name": "Future Games Show", "start": 10049 },
+        { "name": "Awesome Indies Show", "start": 11704 },
+        { "name": "Future Games Show (продолжение)", "start": 13068, "hidden": true }
+      ] }
+    ]
+  },
+  {
     "name": "неПрофессиональный \"E3\" 2023",
     "category": "expos",
     "id": "e3-2023",
@@ -18624,7 +18637,7 @@
   },
   {
     "name": "Ebola Village",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "ebola-village",
     "streams": [
       { "segment": "1855403959", "subrefs": [
