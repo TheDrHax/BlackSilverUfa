@@ -16646,7 +16646,6 @@
     "youtube": "upmN8D9YBfo", "vk": "-28387068_456250753", "abs_start": 0, "abs_end": 30710, "duration": 30710,
     "name": "Trench Tales (демо) / Blue Prince #6 / Puppet Team / PowerWash Simulator #2",
     "date": "2025-05-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2451705218.torrent",
     "games": ["first-2025", "blue-prince", "co-op", "powerwash-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2451705218.ass"
   },
@@ -17449,5 +17448,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2545894810.torrent",
     "games": ["gamescom-25"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2545894810.ass"
+  },
+  "2546719196": {
+    "abs_start": 0, "abs_end": 15784, "duration": 15784,
+    "name": "",
+    "date": "2025-08-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2546719196.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2546719196.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2546719196.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2546719196.ass"
+  },
+  "2546872932": {
+    "abs_start": 0, "abs_end": 5225, "duration": 5225,
+    "name": "",
+    "date": "2025-08-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2546872932.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2546872932.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2546872932.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2546872932.ass"
+  },
+  "2546719196,2546872932": {
+    "abs_start": 0, "abs_end": 21007, "duration": 21007,
+    "name": "Static Dread: The Lighthouse #2",
+    "date": "2025-08-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2546719196,2546872932.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2546719196,2546872932.mp4/master.m3u8",
+    "offsets": ["0:00", "4:23:02+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2546719196,2546872932.torrent",
+    "games": ["static-dread"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2546719196,2546872932+0.ass"
   }
 }
