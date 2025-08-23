@@ -16650,12 +16650,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2451705218.ass"
   },
   "2452604064": {
-    "abs_start": 0, "abs_end": 10057, "duration": 10057,
+    "abs_start": 0, "abs_end": 10067, "duration": 0,
     "name": "",
     "date": "2025-05-07",
-    "direct": "https://bsufiles.drhx.ru/streams/2452604064.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2452604064.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2452604064.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2452604064.ass"
   },
@@ -17477,5 +17474,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2546719196,2546872932.torrent",
     "games": ["static-dread"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2546719196,2546872932+0.ass"
+  },
+  "2547630139": {
+    "abs_start": 0, "abs_end": 20320, "duration": 20320,
+    "name": "Warhammer 40,000: Darktide - Релиз (кооп)",
+    "date": "2025-08-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2547630139.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2547630139.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2547630139.torrent",
+    "games": ["darktide"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2547630139.ass"
   }
 }
