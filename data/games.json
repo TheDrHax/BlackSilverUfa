@@ -215,6 +215,16 @@
     ]
   },
   {
+    "name": "Metal Gear Solid ∆: Snake Eater",
+    "category": "ongoing",
+    "id": "mgs-delta",
+    "streams": [
+      { "segment": "2549314470", "subrefs": [
+        { "name": "1", "start": 1809 }
+      ] }
+    ]
+  },
+  {
     "name": "Metal Gear Solid V: Phantom Pain",
     "category": "finished",
     "id": "mgs-v",
