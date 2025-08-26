@@ -16682,7 +16682,6 @@
     "youtube": "ElJ3kyxVXyA", "vk": "-28387068_456250760", "abs_start": 0, "abs_end": 21782, "duration": 21782,
     "name": "The Midnight Walk #2 / Dune: Awakening - Релиз",
     "date": "2025-05-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2455121344.torrent",
     "games": ["midnight-walk", "dune-awakening"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2455121344.ass"
   },
@@ -16690,7 +16689,6 @@
     "youtube": "wdCwe4ZgYpw", "vk": "-28387068_456250762", "abs_start": 0, "abs_end": 19936, "duration": 19936,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #20 / Roaming Backrooms / Cat Named Mojave (демо) / The Wellmonts Case (демо) / Babka / Midnight Snack / Creepy Waves FM: Train Depart / Creepy Waves FM: Bugs Fixer / Stolen Blood",
     "date": "2025-05-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2456047504.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2456047504.ass"
   },
@@ -17493,5 +17491,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2549314470.torrent",
     "games": ["mgs-delta"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2549314470.ass"
+  },
+  "2550120334": {
+    "abs_start": 0, "abs_end": 29410, "duration": 29410,
+    "name": "Metal Gear Solid ∆: Snake Eater #2",
+    "date": "2025-08-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2550120334.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2550120334.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2550120334.torrent",
+    "games": ["mgs-delta"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2550120334.ass"
   }
 }
