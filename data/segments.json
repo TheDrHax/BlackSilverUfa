@@ -17499,5 +17499,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2550120334.torrent",
     "games": ["mgs-delta"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2550120334.ass"
+  },
+  "2551041939": {
+    "abs_start": 0, "abs_end": 10208, "duration": 10208,
+    "name": "Static Dread: The Lighthouse #3",
+    "date": "2025-08-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2551041939.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2551041939.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2551041939.torrent",
+    "games": ["static-dread"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2551041939.ass"
   }
 }
