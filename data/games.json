@@ -1267,7 +1267,10 @@
         { "name": "Бета 2 (соло)", "start": 1060 }
       ] },
       { "segment": "2547630139", "subrefs": [
-        { "name": "Релиз (кооп)", "start": 3050 }
+        { "name": "1", "start": 3050 }
+      ] },
+      { "segment": "2553592576", "subrefs": [
+        { "name": "2", "start": 17231 }
       ] }
     ]
   },
@@ -5176,7 +5179,6 @@
         { "name": "Loggerhead (демо)", "start": 8001 }
       ] },
       { "segment": "1994975780", "subrefs": [
-        { "name": "The Exit 8", "start": 2553 },
         { "name": "Graveyard Shift", "start": 8229 },
         { "name": "Buried Alive: Breathless Rescue", "start": 13347 },
         { "name": "Fatal Midnight", "start": 17885 }
@@ -9606,6 +9608,9 @@
         { "name": "Inside the Flesh Engine (демо)", "start": 4655 },
         { "name": "Petsitting", "start": 12576 },
         { "name": "In the Forest with a Beaver", "start": 14077 }
+      ] },
+      { "segment": "2553592576", "subrefs": [
+        { "name": "Koloboke: Sickness Simulator (демо)", "start": 7682 }
       ] }
     ]
   },
@@ -10243,8 +10248,7 @@
         { "name": "Y. Village: The Visitors", "start": 4952 },
         { "name": "Hibernation", "start": 11484 },
         { "name": "Carne Vescens", "start": 12396 },
-        { "name": "Silver Falls", "start": 13431 },
-        { "name": "Eclipsium (демо)", "start": 15661 }
+        { "name": "Silver Falls", "start": 13431 }
       ] },
       { "segment": "2104774881", "subrefs": [
         { "name": "Midnight Scenes: A Safe Place", "start": 2625 }
@@ -18794,6 +18798,9 @@
       ] },
       { "segment": "2540650368", "subrefs": [
         { "name": "5", "start": 7823 }
+      ] },
+      { "segment": "2553592576", "subrefs": [
+        { "name": "6", "start": 12014 }
       ] }
     ]
   },
@@ -19040,6 +19047,32 @@
       ] },
       { "segment": "2539754944", "subrefs": [
         { "name": "Релиз", "start": 2340 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Exit 8",
+    "category": "ongoing",
+    "id": "exit-8",
+    "streams": [
+      { "segment": "1994975780", "subrefs": [
+        { "name": "1", "start": 2553 }
+      ] },
+      { "segment": "2553592576", "subrefs": [
+        { "name": "2", "start": 4894 }
+      ] }
+    ]
+  },
+  {
+    "name": "Eclipsium",
+    "category": "finished",
+    "id": "eclipsium",
+    "streams": [
+      { "segment": "2103837925", "subrefs": [
+        { "name": "Демо 1", "start": 15661 }
+      ] },
+      { "segment": "2553592576", "subrefs": [
+        { "name": "Демо 2", "start": 10144 }
       ] }
     ]
   }

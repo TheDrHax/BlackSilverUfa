@@ -13864,9 +13864,9 @@
   },
   "1994975780": {
     "youtube": "rSXcY96-d5I", "abs_start": 0, "abs_end": 19421, "duration": 19421,
-    "name": "The Exit 8 / Madhouse Madness / Graveyard Shift / Buried Alive: Breathless Rescue / Fatal Midnight",
+    "name": "The Exit 8 #1 / Madhouse Madness / Graveyard Shift / Buried Alive: Breathless Rescue / Fatal Midnight",
     "date": "2023-12-04",
-    "games": ["single-2023", "first-2023"],
+    "games": ["exit-8", "first-2023", "single-2023"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1994975780.ass"
   },
   "1995822970": {
@@ -14432,9 +14432,9 @@
   },
   "2103837925": {
     "youtube": "hxCnBONu-os", "abs_start": 0, "abs_end": 18759, "duration": 18759,
-    "name": "Akai Onna / Y. Village: The Visitors / Revere / Hibernation / Carne Vescens / Silver Falls / Eclipsium (демо)",
+    "name": "Akai Onna / Y. Village: The Visitors / Revere / Hibernation / Carne Vescens / Silver Falls / Eclipsium - Демо 1",
     "date": "2024-03-28",
-    "games": ["single-2024", "first-2024"],
+    "games": ["single-2024", "first-2024", "eclipsium"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2103837925.ass"
   },
   "2104774881": {
@@ -16716,7 +16716,6 @@
     "name": "DOOM: The Dark Ages #1",
     "date": "2025-05-13",
     "offsets": ["0:00", "1:51:24+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2457563766,2457609080.torrent",
     "games": ["doom-dark-ages"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2457563766,2457609080+0.ass"
   },
@@ -17470,7 +17469,7 @@
   },
   "2547630139": {
     "youtube": "emVx_MgVJAU", "abs_start": 0, "abs_end": 20320, "duration": 20320,
-    "name": "Warhammer 40,000: Darktide - Релиз (кооп)",
+    "name": "Warhammer 40,000: Darktide #1",
     "date": "2025-08-23",
     "torrent": "https://bsufiles.drhx.ru/streams/2547630139.torrent",
     "games": ["darktide"],
@@ -17507,5 +17506,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2551041939.torrent",
     "games": ["static-dread"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2551041939.ass"
+  },
+  "2553592576": {
+    "abs_start": 0, "abs_end": 28631, "duration": 28631,
+    "name": "The Exit 8 #2 / Koloboke: Sickness Simulator (демо) / Eclipsium - Демо 2 / Peak #6 / Warhammer 40,000: Darktide #2",
+    "date": "2025-08-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2553592576.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2553592576.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2553592576.torrent",
+    "games": ["exit-8", "single-2025", "eclipsium", "peak", "darktide"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2553592576.ass"
   }
 }
