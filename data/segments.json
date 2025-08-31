@@ -16693,21 +16693,16 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2456047504.ass"
   },
   "2457563766": {
-    "abs_start": 0, "abs_end": 7049, "duration": 7049,
+    "abs_start": 0, "abs_end": 7079, "duration": 0,
     "name": "",
     "date": "2025-05-13",
-    "direct": "https://bsufiles.drhx.ru/streams/2457563766.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2457563766.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2457563766.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2457563766.ass"
   },
   "2457609080": {
-    "abs_start": 0, "abs_end": 27746, "duration": 27746,
+    "abs_start": 0, "abs_end": 20910, "duration": 0,
     "name": "",
     "date": "2025-05-13",
-    "direct": "https://bsufiles.drhx.ru/streams/2457609080.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2457609080.mp4/master.m3u8",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2457609080.ass"
   },
@@ -17514,5 +17509,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2553592576.torrent",
     "games": ["exit-8", "single-2025", "eclipsium", "peak", "darktide"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2553592576.ass"
+  },
+  "2554541400": {
+    "abs_start": 0, "abs_end": 19669, "duration": 19669,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #36 / Temple of the Green Moon / Haunted Room: 205 / Undesired Catch / Fractured / Obsessed: Night Shift",
+    "date": "2025-08-31",
+    "direct": "https://bsufiles.drhx.ru/streams/2554541400.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2554541400.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2554541400.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2554541400.ass"
   }
 }
