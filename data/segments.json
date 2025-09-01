@@ -16878,10 +16878,10 @@
   },
   "2475897673": {
     "youtube": "QoJfyUDzo1A", "vk": "-28387068_456250792", "abs_start": 0, "abs_end": 29022, "duration": 29022,
-    "name": "Hell is Us (демо) / Backseat Drivers / RoadCraft #3 / PowerWash Simulator #4",
+    "name": "Hell is Us - Демо / Backseat Drivers / RoadCraft #3 / PowerWash Simulator #4",
     "date": "2025-06-03",
     "torrent": "https://bsufiles.drhx.ru/streams/2475897673.torrent",
-    "games": ["first-2025", "co-op", "roadcraft", "powerwash-sim"],
+    "games": ["hell-is-us", "co-op", "roadcraft", "powerwash-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2475897673.ass"
   },
   "2476761763": {
@@ -17517,5 +17517,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2554541400.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2554541400.ass"
+  },
+  "2555335550": {
+    "abs_start": 0, "abs_end": 22598, "duration": 22598,
+    "name": "Hell is Us - Релиз",
+    "date": "2025-09-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2555335550.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2555335550.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2555335550.torrent",
+    "games": ["hell-is-us"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2555335550.ass"
   }
 }

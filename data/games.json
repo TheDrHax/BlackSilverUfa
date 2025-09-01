@@ -9023,9 +9023,6 @@
         { "name": "White Room Protocol (демо)", "start": 16353 },
         { "name": "Nightmare Visions", "start": 17420 }
       ] },
-      { "segment": "2475897673", "subrefs": [
-        { "name": "Hell is Us (демо)", "start": 919 }
-      ] },
       { "segment": "2477119604,2477127804", "subrefs": [
         { "name": "Aspis (Аспис) (демо)", "start": 917 }
       ] },
@@ -19085,6 +19082,19 @@
       ] },
       { "segment": "2553592576", "subrefs": [
         { "name": "Демо 2", "start": 10144 }
+      ] }
+    ]
+  },
+  {
+    "name": "Hell is Us",
+    "category": "ongoing",
+    "id": "hell-is-us",
+    "streams": [
+      { "segment": "2475897673", "subrefs": [
+        { "name": "Демо", "start": 919 }
+      ] },
+      { "segment": "2555335550", "subrefs": [
+        { "name": "Релиз", "start": 962 }
       ] }
     ]
   }
