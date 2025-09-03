@@ -16187,9 +16187,9 @@
   },
   "2382739461": {
     "youtube": "w3qHi3pbqB4", "vk": "-28387068_456250632", "abs_start": 0, "abs_end": 18924, "duration": 18924,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #6 / Expedition to the Backrooms / Bad Cheese (демо) / Who am I? / Paranormal Night Shift #1 / Whale Flesh / Benny Bash (демо)",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #6 / Expedition to the Backrooms / Bad Cheese - Демо / Who am I? / Paranormal Night Shift #1 / Whale Flesh / Benny Bash (демо)",
     "date": "2025-02-16",
-    "games": ["horrors-2025", "first-2025", "single-2025", "par-night-shift"],
+    "games": ["horrors-2025", "first-2025", "bad-cheese", "single-2025", "par-night-shift"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2382739461.ass"
   },
   "2383640509": {
@@ -16718,7 +16718,6 @@
     "youtube": "3pYL3fME9EE", "vk": "-28387068_456250765", "abs_start": 0, "abs_end": 34688, "duration": 34688,
     "name": "DOOM: The Dark Ages #2",
     "date": "2025-05-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2458409032.torrent",
     "games": ["doom-dark-ages"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2458409032.ass"
   },
@@ -17040,10 +17039,10 @@
   },
   "2492884790": {
     "youtube": "0mkqZ6amr3o", "vk": "-28387068_456250811", "abs_start": 0, "abs_end": 19446, "duration": 19446,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #27 / The Rotting Man (демо) / Tales Beyond the Tomb: White Silence / Road of Fear / Silent Still 2",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #27 / The Rotting Man (демо) / Tales Beyond the Tomb: White Silence / Road of Fear / Silent Still II - Демо",
     "date": "2025-06-22",
     "torrent": "https://bsufiles.drhx.ru/streams/2492884790.torrent",
-    "games": ["horrors-2025", "first-2025", "616-games", "single-2025"],
+    "games": ["horrors-2025", "first-2025", "616-games", "single-2025", "silent-still-ii"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2492884790.ass"
   },
   "2493691036": {
@@ -17525,5 +17524,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2555335550.torrent",
     "games": ["hell-is-us"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2555335550.ass"
+  },
+  "2557063195": {
+    "abs_start": 0, "abs_end": 17817, "duration": 17817,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #37 / Auto-Crisis / Sector 404 / Gutter Night / Middle of Nowhere: No Power Village / A Twisted Place (демо) / Храм Детей (демо) / Bad Cheese - Релиз / Silent Still II - Релиз",
+    "date": "2025-09-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2557063195.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2557063195.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2557063195.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025", "bad-cheese", "silent-still-ii"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2557063195.ass"
   }
 }
