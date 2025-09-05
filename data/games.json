@@ -9120,9 +9120,6 @@
       { "segment": "2557063195", "subrefs": [
         { "name": "Auto-Crisis", "start": 2126 },
         { "name": "A Twisted Place (демо)", "start": 8462 }
-      ] },
-      { "segment": "2557850800", "subrefs": [
-        { "name": "Hollow Knight: Silksong", "start": 8655 }
       ] }
     ]
   },
@@ -18840,6 +18837,9 @@
       ] },
       { "segment": "2553592576", "subrefs": [
         { "name": "6", "start": 12014 }
+      ] },
+      { "segment": "2558658244", "subrefs": [
+        { "name": "7 (соло)", "start": 20427 }
       ] }
     ]
   },
@@ -19138,6 +19138,19 @@
       ] },
       { "segment": "2557063195", "subrefs": [
         { "name": "Релиз", "start": 13581 }
+      ] }
+    ]
+  },
+  {
+    "name": "Hollow Knight: Silksong",
+    "category": "ongoing",
+    "id": "hk-silksong",
+    "streams": [
+      { "segment": "2557850800", "subrefs": [
+        { "name": "1", "start": 8655 }
+      ] },
+      { "segment": "2558658244", "subrefs": [
+        { "name": "2", "start": 915 }
       ] }
     ]
   }

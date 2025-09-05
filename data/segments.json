@@ -16732,7 +16732,6 @@
     "youtube": "p0_ar70ZSaQ", "vk": "-28387068_456250768", "abs_start": 0, "abs_end": 18753, "duration": 18753,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #21 / Backrooms Liminal Escape / Manivore / Room Service / Letters of Bernard Thorne / Vlad Circus: Curse of Asmodeus (демо)",
     "date": "2025-05-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2461099212.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2461099212.ass"
   },
@@ -16740,7 +16739,6 @@
     "youtube": "PVsi-6kmBV4", "vk": "-28387068_456250770", "abs_start": 0, "abs_end": 17157, "duration": 17157,
     "name": "One Hand Clapping #1",
     "date": "2025-05-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2461999486.torrent",
     "games": ["one-hand-clapping"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2461999486.ass"
   },
@@ -17534,10 +17532,20 @@
   },
   "2557850800": {
     "youtube": "KIimdltw9ns", "abs_start": 0, "abs_end": 24514, "duration": 24514,
-    "name": "Hollow Knight #16 (заново, перед Silksong) / Hollow Knight: Silksong",
+    "name": "Hollow Knight #16 (заново, перед Silksong) / Hollow Knight: Silksong #1",
     "date": "2025-09-04",
     "torrent": "https://bsufiles.drhx.ru/streams/2557850800.torrent",
-    "games": ["hollow-knight", "first-2025"],
+    "games": ["hollow-knight", "hk-silksong"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2557850800.ass"
+  },
+  "2558658244": {
+    "abs_start": 0, "abs_end": 24671, "duration": 24671,
+    "name": "Hollow Knight: Silksong #2 / Peak #7 (соло)",
+    "date": "2025-09-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2558658244.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2558658244.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2558658244.torrent",
+    "games": ["hk-silksong", "peak"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2558658244.ass"
   }
 }
