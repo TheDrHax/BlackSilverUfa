@@ -16743,12 +16743,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2461999486.ass"
   },
   "2463632718": {
-    "abs_start": 0, "abs_end": 9571, "duration": 9571,
+    "abs_start": 0, "abs_end": 9596, "duration": 0,
     "name": "",
     "date": "2025-05-20",
-    "direct": "https://bsufiles.drhx.ru/streams/2463632718.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2463632718.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2463632718.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2463632718.ass"
   },
@@ -17545,5 +17542,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2558658244.torrent",
     "games": ["hk-silksong", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2558658244.ass"
+  },
+  "2559531337": {
+    "abs_start": 0, "abs_end": 32418, "duration": 32418,
+    "name": "Hollow Knight: Silksong #3 / Unpossess / 4 Rush Together / Oblin Party / Peak #8",
+    "date": "2025-09-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2559531337.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2559531337.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2559531337.torrent",
+    "games": ["hk-silksong", "co-op", "peak"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2559531337.ass"
   }
 }
