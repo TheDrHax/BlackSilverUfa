@@ -16750,12 +16750,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2463632718.ass"
   },
   "2463716908": {
-    "abs_start": 0, "abs_end": 14464, "duration": 14464,
+    "abs_start": 0, "abs_end": 14471, "duration": 0,
     "name": "",
     "date": "2025-05-20",
-    "direct": "https://bsufiles.drhx.ru/streams/2463716908.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2463716908.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2463716908.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2463716908.ass"
   },
@@ -16764,7 +16761,6 @@
     "name": "Ebola Village #2 / Antioma (демо) / Once Upon A Mind: A Little Too Friendly",
     "date": "2025-05-20",
     "offsets": ["0:00", "2:37:52+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2463632718,2463716908.torrent",
     "games": ["ebola-village", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2463632718,2463716908+0.ass"
   },
@@ -16855,10 +16851,10 @@
   },
   "2474256633": {
     "youtube": "HG0luYUKh2E", "vk": "-28387068_456250790", "abs_start": 0, "abs_end": 18554, "duration": 18554,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #24 / LIMINALPHOBIA (демо) / Uncanny Tales: 1992 (демо) / Thunderhead / Nightmares Awake (демо) / SCP: Control Error / The Gretlow Tapes (демо) / Remorses / White Room Protocol (демо) / Nightmare Visions",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #24 / LIMINALPHOBIA (демо) / Uncanny Tales: 1992 - Демо / Thunderhead / Nightmares Awake (демо) / SCP: Control Error / The Gretlow Tapes (демо) / Remorses / White Room Protocol (демо) / Nightmare Visions",
     "date": "2025-06-01",
     "torrent": "https://bsufiles.drhx.ru/streams/2474256633.torrent",
-    "games": ["horrors-2025", "single-2025", "first-2025"],
+    "games": ["horrors-2025", "single-2025", "uncanny-tales", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2474256633.ass"
   },
   "2475029877": {
@@ -17550,5 +17546,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2559531337.torrent",
     "games": ["hk-silksong", "co-op", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2559531337.ass"
+  },
+  "2560483396": {
+    "abs_start": 0, "abs_end": 19041, "duration": 19041,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #38 / The Backrooms: Reset / Blood Bear / Uncanny Tales: 1992 - Прохождение / Fear the Unknown: Jamie Story / The Butterfly / ZahmahreL / Den-Den: Tokyo Horror (демо)",
+    "date": "2025-09-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2560483396.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2560483396.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2560483396.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025", "uncanny-tales"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2560483396.ass"
   }
 }

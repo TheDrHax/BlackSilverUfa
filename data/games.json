@@ -9125,6 +9125,10 @@
       { "segment": "2557063195", "subrefs": [
         { "name": "Auto-Crisis", "start": 2126 },
         { "name": "A Twisted Place (демо)", "start": 8462 }
+      ] },
+      { "segment": "2560483396", "subrefs": [
+        { "name": "The Backrooms: Reset", "start": 1233 },
+        { "name": "Den-Den: Tokyo Horror (демо)", "start": 17711 }
       ] }
     ]
   },
@@ -9546,7 +9550,6 @@
       ] },
       { "segment": "2474256633", "subrefs": [
         { "name": "LIMINALPHOBIA (демо)", "start": 1080 },
-        { "name": "Uncanny Tales: 1992 (демо)", "start": 2873 },
         { "name": "Thunderhead", "start": 4127 },
         { "name": "Nightmares Awake (демо)", "start": 5377 },
         { "name": "SCP: Control Error", "start": 7678 },
@@ -9630,6 +9633,12 @@
         { "name": "Gutter Night", "start": 6022 },
         { "name": "Middle of Nowhere: No Power Village", "start": 7778 },
         { "name": "Храм Детей (демо)", "start": 10049 }
+      ] },
+      { "segment": "2560483396", "subrefs": [
+        { "name": "Blood Bear", "start": 1695 },
+        { "name": "Fear the Unknown: Jamie Story", "start": 8655 },
+        { "name": "The Butterfly", "start": 13051 },
+        { "name": "ZahmahreL", "start": 15177 }
       ] }
     ]
   },
@@ -17534,6 +17543,9 @@
       ] },
       { "segment": "2557063195", "subrefs": [
         { "name": "37" }
+      ] },
+      { "segment": "2560483396", "subrefs": [
+        { "name": "38" }
       ] }
     ]
   },
@@ -19162,6 +19174,19 @@
       ] },
       { "segment": "2559531337", "subrefs": [
         { "name": "3", "start": 791 }
+      ] }
+    ]
+  },
+  {
+    "name": "Uncanny Tales: 1992",
+    "category": "finished",
+    "id": "uncanny-tales",
+    "streams": [
+      { "segment": "2474256633", "subrefs": [
+        { "name": "Демо", "start": 2873 }
+      ] },
+      { "segment": "2560483396", "subrefs": [
+        { "name": "Прохождение", "start": 5307 }
       ] }
     ]
   }
