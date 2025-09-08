@@ -16765,12 +16765,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2463632718,2463716908+0.ass"
   },
   "2464472748": {
-    "abs_start": 0, "abs_end": 8766, "duration": 8766,
+    "abs_start": 0, "abs_end": 8783, "duration": 0,
     "name": "",
     "date": "2025-05-21",
-    "direct": "https://bsufiles.drhx.ru/streams/2464472748.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2464472748.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2464472748.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2464472748+0.ass"
   },
@@ -17554,5 +17551,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2560483396.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "uncanny-tales"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2560483396.ass"
+  },
+  "2561240653": {
+    "abs_start": 0, "abs_end": 26322, "duration": 26322,
+    "name": "Hollow Knight: Silksong #4",
+    "date": "2025-09-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2561240653.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2561240653.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2561240653.torrent",
+    "games": ["hk-silksong"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2561240653.ass"
   }
 }
