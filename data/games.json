@@ -3324,6 +3324,9 @@
       ] },
       { "segment": "2529080504", "subrefs": [
         { "name": "THQ Nordic Digital Showcase 2025", "start": 3089 }
+      ] },
+      { "segment": "2564525802", "subrefs": [
+        { "name": "Nintendo Direct (сентябрь 2025)", "start": 713 }
       ] }
     ]
   },
@@ -9132,6 +9135,9 @@
       { "segment": "2560483396", "subrefs": [
         { "name": "The Backrooms: Reset", "start": 1233 },
         { "name": "Den-Den: Tokyo Horror (демо)", "start": 17711 }
+      ] },
+      { "segment": "2564525802", "subrefs": [
+        { "name": "Sunken Engine", "start": 15683 }
       ] }
     ]
   },
@@ -9642,6 +9648,10 @@
         { "name": "Fear the Unknown: Jamie Story", "start": 8655 },
         { "name": "The Butterfly", "start": 13051 },
         { "name": "ZahmahreL", "start": 15177 }
+      ] },
+      { "segment": "2564525802", "subrefs": [
+        { "name": "Dead Reset", "start": 4322 },
+        { "name": "Blueman (демо)", "start": 13447 }
       ] }
     ]
   },
