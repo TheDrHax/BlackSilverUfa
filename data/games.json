@@ -775,7 +775,6 @@
         { "name": "Nuclear Nightmare", "start": 23383 }
       ] },
       { "segment": "2324789015", "subrefs": [
-        { "name": "Fast Food Simulator", "start": 12264 },
         { "name": "Zort", "start": 18053 },
         { "name": "Make Way", "start": 24778 }
       ] },
@@ -814,6 +813,10 @@
         { "name": "Unpossess", "start": 12282 },
         { "name": "4 Rush Together", "start": 15886 },
         { "name": "Oblin Party", "start": 16302 }
+      ] },
+      { "segment": "2565334988", "subrefs": [
+        { "name": "Keep Digging", "start": 11959 },
+        { "name": "Chained in the Backrooms", "start": 20546 }
       ] }
     ]
   },
@@ -9112,9 +9115,6 @@
       ] },
       { "segment": "2539754944", "subrefs": [
         { "name": "One Man's Trash", "start": 5928 }
-      ] },
-      { "segment": "2540650368", "subrefs": [
-        { "name": "GONE Fishing", "start": 2401 }
       ] },
       { "segment": "2542477703", "subrefs": [
         { "name": "BackRooms X", "start": 830 },
@@ -19193,6 +19193,9 @@
       ] },
       { "segment": "2562042708", "subrefs": [
         { "name": "5", "start": 797 }
+      ] },
+      { "segment": "2565334988", "subrefs": [
+        { "name": "6", "start": 802 }
       ] }
     ]
   },
@@ -19206,6 +19209,32 @@
       ] },
       { "segment": "2560483396", "subrefs": [
         { "name": "Прохождение", "start": 5307 }
+      ] }
+    ]
+  },
+  {
+    "name": "GONE Fishing",
+    "category": "ongoing",
+    "id": "gone-fishing",
+    "streams": [
+      { "segment": "2540650368", "subrefs": [
+        { "name": "Демо", "start": 2401 }
+      ] },
+      { "segment": "2565334988", "subrefs": [
+        { "name": "Кооп", "start": 18169 }
+      ] }
+    ]
+  },
+  {
+    "name": "Fast Food Simulator",
+    "category": "co-op",
+    "id": "fast-food-sim",
+    "streams": [
+      { "segment": "2324789015", "subrefs": [
+        { "name": "1", "start": 12264 }
+      ] },
+      { "segment": "2565334988", "subrefs": [
+        { "name": "2", "start": 21827 }
       ] }
     ]
   }

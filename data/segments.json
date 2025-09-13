@@ -15849,9 +15849,9 @@
   },
   "2324789015": {
     "youtube": "V6SmzHGpF4o", "vk": "-28387068_456250546", "abs_start": 0, "abs_end": 27406, "duration": 27406,
-    "name": "MiSide #2 / I'm on Observation Duty - Часть 7 #9 / Fast Food Simulator / Zort / Make Way",
+    "name": "MiSide #2 / I'm on Observation Duty - Часть 7 #9 / Fast Food Simulator #1 / Zort / Make Way",
     "date": "2024-12-12",
-    "games": ["miside", "observation-duty", "co-op"],
+    "games": ["miside", "observation-duty", "fast-food-sim", "co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2324789015.ass"
   },
   "2325599811": {
@@ -16790,7 +16790,6 @@
     "youtube": "VNpv0G7N_RM", "vk": "-28387068_456250776", "abs_start": 0, "abs_end": 19122, "duration": 19122,
     "name": "Bus Flipper Simulator - Демо / Tainted Grail: The Fall of Avalon (демо)",
     "date": "2025-05-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2465344778.torrent",
     "games": ["bus-flipper", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2465344778.ass"
   },
@@ -16798,7 +16797,6 @@
     "youtube": "yk76Z48B6uI", "vk": "-28387068_456250781", "abs_start": 0, "abs_end": 16554, "duration": 16554,
     "name": "One Hand Clapping #2",
     "date": "2025-05-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2467093723.torrent",
     "games": ["one-hand-clapping"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2467093723.ass"
   },
@@ -17385,10 +17383,10 @@
   },
   "2540650368": {
     "youtube": "0s7Zpap0rVo", "abs_start": 0, "abs_end": 24770, "duration": 24770,
-    "name": "GONE Fishing / Lucky Tower Ultimate #22 / Peak #5 / R.E.P.O. #4",
+    "name": "GONE Fishing - Демо / Lucky Tower Ultimate #22 / Peak #5 / R.E.P.O. #4",
     "date": "2025-08-15",
     "torrent": "https://bsufiles.drhx.ru/streams/2540650368.torrent",
-    "games": ["first-2025", "lucky-tower", "peak", "repo"],
+    "games": ["gone-fishing", "lucky-tower", "peak", "repo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2540650368.ass"
   },
   "2541580117": {
@@ -17571,5 +17569,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2564525802.torrent",
     "games": ["expos", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2564525802.ass"
+  },
+  "2565334988": {
+    "abs_start": 0, "abs_end": 28254, "duration": 28254,
+    "name": "Hollow Knight: Silksong #6 / Keep Digging / GONE Fishing - Кооп / Chained in the Backrooms / Fast Food Simulator #2",
+    "date": "2025-09-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2565334988.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2565334988.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2565334988.torrent",
+    "games": ["hk-silksong", "co-op", "gone-fishing", "fast-food-sim"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2565334988.ass"
   }
 }
