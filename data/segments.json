@@ -16804,7 +16804,6 @@
     "youtube": "S-shi_30ceM", "vk": "-28387068_456250782", "abs_start": 0, "abs_end": 18832, "duration": 18832,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #22 / Hotel 188 / Pieces of Me / Blood Mall / The Last Visit: 98th / Terrors to Unveil: Intrusion / Jawbone Hollow",
     "date": "2025-05-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2467989555.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2467989555.ass"
   },
@@ -17577,5 +17576,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2565334988.torrent",
     "games": ["hk-silksong", "co-op", "gone-fishing", "fast-food-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2565334988.ass"
+  },
+  "2566251413": {
+    "abs_start": 0, "abs_end": 14232, "duration": 14232,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #39 / Liminal Trauma (демо) / Human Harvest / Digested (демо) / Silent Residence",
+    "date": "2025-09-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2566251413.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2566251413.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2566251413.torrent",
+    "games": ["horrors-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2566251413.ass"
   }
 }
