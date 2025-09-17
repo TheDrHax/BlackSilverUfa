@@ -9138,6 +9138,9 @@
       ] },
       { "segment": "2564525802", "subrefs": [
         { "name": "Sunken Engine", "start": 15683 }
+      ] },
+      { "segment": "2568619841", "subrefs": [
+        { "name": "The Lift (демо)", "start": 1719 }
       ] }
     ]
   },
@@ -10869,7 +10872,7 @@
     "id": "nimnah",
     "streams": [
       { "segment": "2228324519", "subrefs": [
-        { "name": "1", "start": 13182 }
+        { "name": "1 (демо)", "start": 13182 }
       ] },
       { "segment": "2231748428", "subrefs": [
         { "name": "2", "start": 18233 }
@@ -10879,6 +10882,9 @@
       ] },
       { "segment": "2483947367", "subrefs": [
         { "name": "4", "start": 18322 }
+      ] },
+      { "segment": "2568619841", "subrefs": [
+        { "name": "Релиз", "start": 7755 }
       ] }
     ]
   },
@@ -18842,7 +18848,7 @@
   },
   {
     "name": "Stellar Blade",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "stellar-blade",
     "streams": [
       { "segment": "2107695454", "subrefs": [

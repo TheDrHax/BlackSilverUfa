@@ -15124,7 +15124,7 @@
   },
   "2228324519": {
     "youtube": "_CFkihJCS1M", "abs_start": 0, "abs_end": 17996, "duration": 17996,
-    "name": "Thank Goodness You're Here #3 / Kiosk / I Ate Old Man's Liver / Gears 2 #3 / No, I'm not a Human #1",
+    "name": "Thank Goodness You're Here #3 / Kiosk / I Ate Old Man's Liver / Gears 2 #3 / No, I'm not a Human #1 (демо)",
     "date": "2024-08-19",
     "games": ["tgyh", "single-2024", "vhs", "616-games", "nimnah"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2228324519+0.ass"
@@ -17588,5 +17588,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2566251413.torrent",
     "games": ["horrors-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2566251413.ass"
+  },
+  "2568619841": {
+    "abs_start": 0, "abs_end": 19882, "duration": 19882,
+    "name": "The Lift (демо) / No, I'm not a Human - Релиз",
+    "date": "2025-09-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2568619841.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2568619841.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2568619841.torrent",
+    "games": ["first-2025", "nimnah"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2568619841.ass"
   }
 }
