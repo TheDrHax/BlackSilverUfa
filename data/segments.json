@@ -8801,9 +8801,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1035840249.ass"
   },
   "1036865162": {
-    "youtube": "yworObqCUXo", "official": false, "abs_start": 0, "abs_end": 30343, "duration": 30343,
+    "abs_start": 0, "abs_end": 30343, "duration": 30343,
     "name": "Scarlet Nexus - Демо / Graven #1 / Chivalry 2 #2 / Dying 2 Know #1 / State of Play - Horizon Forbidden West",
     "date": "2021-05-27",
+    "direct": "https://bsufiles.drhx.ru/streams/1036865162.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1036865162.mp4/master.m3u8",
     "games": ["scarlet-nexus", "graven", "chivalry-2", "dying-2-know", "sony-sop"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1036865162.ass"
   },
@@ -9659,9 +9661,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v1168913564+0.ass"
   },
   "1169865722": {
-    "youtube": "VDP56Y_Z8-I", "abs_start": 0, "abs_end": 27250, "duration": 27250,
+    "abs_start": 0, "abs_end": 27250, "duration": 27250,
     "name": "Far Cry 6 #2",
     "date": "2021-10-07",
+    "direct": "https://bsufiles.drhx.ru/streams/1169865722.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1169865722.mp4/master.m3u8",
     "games": ["far-cry-6"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v1169865722.ass"
   },
@@ -16811,7 +16815,6 @@
     "youtube": "SKlLFUiDrNM", "vk": "-28387068_456250783", "abs_start": 0, "abs_end": 23764, "duration": 23764,
     "name": "RoadCraft #2 / PowerWash Simulator #3",
     "date": "2025-05-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2469707621.torrent",
     "games": ["roadcraft", "powerwash-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2469707621.ass"
   },
@@ -16819,7 +16822,6 @@
     "youtube": "AWdDNBT1XTY", "vk": "-28387068_456250784", "abs_start": 0, "abs_end": 18251, "duration": 18251,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #23 / Tape 101 (демо) / Last Guest / Pestilence (демо) / Dead Tapes: Fading Father / Below Nowhere / The Oily Depths (демо) / Hello Neigbour 3 (демо) / PHASE ZERO (демо) / Midnight Special",
     "date": "2025-05-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2470596250.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2470596250.ass"
   },
