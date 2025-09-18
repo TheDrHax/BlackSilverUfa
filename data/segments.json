@@ -16829,7 +16829,6 @@
     "youtube": "PMiFXfk3ioY", "vk": "-28387068_456250785", "abs_start": 0, "abs_end": 31560, "duration": 31560,
     "name": "Elden Ring: Nightreign - Релиз / Warhammer 40,000: Space Marine II (кооп) #5",
     "date": "2025-05-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2472314909.torrent",
     "games": ["elden-ring-nightreign", "wh40k-sm2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2472314909.ass"
   },
@@ -17591,10 +17590,20 @@
   },
   "2568619841": {
     "youtube": "wu-_4a2RML4", "abs_start": 0, "abs_end": 19883, "duration": 19883,
-    "name": "The Lift (демо) / No, I'm not a Human - Релиз",
+    "name": "The Lift (демо) #1 / No, I'm not a Human #1 (релиз)",
     "date": "2025-09-17",
     "torrent": "https://bsufiles.drhx.ru/streams/2568619841.torrent",
-    "games": ["first-2025", "nimnah"],
+    "games": ["the-lift", "nimnah"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2568619841.ass"
+  },
+  "2569405622": {
+    "abs_start": 0, "abs_end": 25332, "duration": 25332,
+    "name": "The Lift (демо) #2 / No, I'm not a Human #2 / Dying Light: The Beast",
+    "date": "2025-09-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2569405622.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2569405622.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2569405622.torrent",
+    "games": ["the-lift", "nimnah", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2569405622.ass"
   }
 }

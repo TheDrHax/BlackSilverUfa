@@ -9139,8 +9139,8 @@
       { "segment": "2564525802", "subrefs": [
         { "name": "Sunken Engine", "start": 15683 }
       ] },
-      { "segment": "2568619841", "subrefs": [
-        { "name": "The Lift (демо)", "start": 1719 }
+      { "segment": "2569405622", "subrefs": [
+        { "name": "Dying Light: The Beast", "start": 17551 }
       ] }
     ]
   },
@@ -10884,7 +10884,10 @@
         { "name": "4", "start": 18322 }
       ] },
       { "segment": "2568619841", "subrefs": [
-        { "name": "Релиз", "start": 7755 }
+        { "name": "1 (релиз)", "start": 7755 }
+      ] },
+      { "segment": "2569405622", "subrefs": [
+        { "name": "2", "start": 3019 }
       ] }
     ]
   },
@@ -19250,6 +19253,19 @@
       ] },
       { "segment": "2565334988", "subrefs": [
         { "name": "2", "start": 21827 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Lift (демо)",
+    "category": "ongoing",
+    "id": "the-lift",
+    "streams": [
+      { "segment": "2568619841", "subrefs": [
+        { "name": "1", "start": 1719 }
+      ] },
+      { "segment": "2569405622", "subrefs": [
+        { "name": "2", "start": 451 }
       ] }
     ]
   }
