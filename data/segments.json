@@ -5492,9 +5492,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v498846687.ass"
   },
   "499849877": {
-    "youtube": "gQec_qLEeCg", "official": false, "abs_start": 0, "abs_end": 14080, "duration": 14080,
+    "abs_start": 0, "abs_end": 14079, "duration": 14079,
     "name": "Благотворительные стримы #5 / Cooking Simulator / House Flipper #1",
     "date": "2019-10-26",
+    "direct": "https://bsufiles.drhx.ru/streams/499849877.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/499849877.mp4/master.m3u8",
     "games": ["charity", "first-2019", "house-flipper"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v499849877.ass"
   },
@@ -17579,9 +17581,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2565334988.ass"
   },
   "2566251413": {
-    "youtube": "oDAg8UiDISs", "official": false, "abs_start": 0, "abs_end": 14232, "duration": 14232,
+    "abs_start": 0, "abs_end": 14232, "duration": 14232,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #39 / Liminal Trauma (демо) / Human Harvest / Digested (демо) / Silent Residence",
     "date": "2025-09-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2566251413.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2566251413.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2566251413.torrent",
     "games": ["horrors-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2566251413.ass"
