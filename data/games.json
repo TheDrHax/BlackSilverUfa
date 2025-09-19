@@ -9661,6 +9661,11 @@
         { "name": "Human Harvest", "start": 9711 },
         { "name": "Digested (демо)", "start": 10174 },
         { "name": "Silent Residence", "start": 12468 }
+      ] },
+      { "segment": "2570229778", "subrefs": [
+        { "name": "The Lightkeeper", "start": 10938 },
+        { "name": "August Night", "start": 18535 },
+        { "name": "SNAP SNAP", "start": 20388 }
       ] }
     ]
   },
@@ -17577,6 +17582,9 @@
       ] },
       { "segment": "2566251413", "subrefs": [
         { "name": "39" }
+      ] },
+      { "segment": "2570229778", "subrefs": [
+        { "name": "40" }
       ] }
     ]
   },
@@ -19214,6 +19222,9 @@
       ] },
       { "segment": "2565334988", "subrefs": [
         { "name": "6", "start": 802 }
+      ] },
+      { "segment": "2570229778", "subrefs": [
+        { "name": "7", "start": 807 }
       ] }
     ]
   },
