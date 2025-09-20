@@ -7796,9 +7796,6 @@
       { "segment": "2421947533,2422099767", "subrefs": [
         { "name": "Fused 240", "start": 9899 }
       ] },
-      { "segment": "2523773918", "subrefs": [
-        { "name": "S.p.l.i.t", "start": 5668 }
-      ] },
       { "segment": "2542477703", "subrefs": [
         { "name": "Crank it!", "start": 15144 }
       ] }
@@ -9044,9 +9041,6 @@
         { "name": "Mario Kart World", "start": 7510 },
         { "name": "Nintendo Switch 2 Welcome Tour", "start": 8805 },
         { "name": "Fast Fusion", "start": 9531 }
-      ] },
-      { "segment": "2480467576,2480584019", "subrefs": [
-        { "name": "PIGFACE (демо)", "start": 11650 }
       ] },
       { "segment": "2483947367", "subrefs": [
         { "name": "MindsEye", "start": 1876 },
@@ -19171,6 +19165,9 @@
       ] },
       { "segment": "2553592576", "subrefs": [
         { "name": "Демо 2", "start": 10144 }
+      ] },
+      { "segment": "2571174483", "subrefs": [
+        { "name": "Прохождение", "start": 1943 }
       ] }
     ]
   },
@@ -19277,6 +19274,32 @@
       ] },
       { "segment": "2569405622", "subrefs": [
         { "name": "2", "start": 451 }
+      ] }
+    ]
+  },
+  {
+    "name": "s.p.l.i.t",
+    "category": "ongoing",
+    "id": "split",
+    "streams": [
+      { "segment": "2523773918", "subrefs": [
+        { "name": "1", "start": 5668 }
+      ] },
+      { "segment": "2571174483", "subrefs": [
+        { "name": "2", "start": 15483 }
+      ] }
+    ]
+  },
+  {
+    "name": "PIGFACE",
+    "category": "ongoing",
+    "id": "pigface",
+    "streams": [
+      { "segment": "2480467576,2480584019", "subrefs": [
+        { "name": "Демо", "start": 11650 }
+      ] },
+      { "segment": "2571174483", "subrefs": [
+        { "name": "Релиз", "start": 16163 }
       ] }
     ]
   }

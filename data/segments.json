@@ -16852,7 +16852,6 @@
     "youtube": "ZV7gbSnxTjQ", "vk": "-28387068_456250791", "abs_start": 0, "abs_end": 33286, "duration": 33286,
     "name": "Death Stranding #1 (заново, Director's Cut)",
     "date": "2025-06-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2475029877.torrent",
     "games": ["death-stranding"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2475029877+0.ass"
   },
@@ -16955,11 +16954,11 @@
   },
   "2480467576,2480584019": {
     "youtube": "GN0qjsl1Mlc", "vk": "-28387068_456250801", "abs_start": 0, "abs_end": 19608, "duration": 19608,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #25 / неПрофессиональный \"E3\" 2025 - Future Games Show (обзор) / The Backrooms: Found Footage / Matreshka (демо) / Who's at the Door? #1 / Sharks and Minnows / PIGFACE (демо) / Krysolov / неПрофессиональный \"E3\" 2025 - Xbox Games Showcase",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #25 / неПрофессиональный \"E3\" 2025 - Future Games Show (обзор) / The Backrooms: Found Footage / Matreshka (демо) / Who's at the Door? #1 / Sharks and Minnows / PIGFACE - Демо / Krysolov / неПрофессиональный \"E3\" 2025 - Xbox Games Showcase",
     "date": "2025-06-08",
     "offsets": ["0:00", "2:58:14+2"],
     "torrent": "https://bsufiles.drhx.ru/streams/2480467576,2480584019.torrent",
-    "games": ["horrors-2025", "e3-2025", "single-2025", "whos-at-the-door", "first-2025"],
+    "games": ["horrors-2025", "e3-2025", "single-2025", "whos-at-the-door", "pigface"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2480467576,2480584019+0.ass"
   },
   "2483947367": {
@@ -17249,10 +17248,10 @@
   },
   "2523773918": {
     "youtube": "3qzg_OW_gDI", "abs_start": 0, "abs_end": 19476, "duration": 19476,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #32 / Walking In / Analog: Skin off / S.p.l.i.t / The Miller Farm / Bleak Haven (демо) / Death Relives - Релиз / Eight Feet Tall",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #32 / Walking In / Analog: Skin off / s.p.l.i.t #1 / The Miller Farm / Bleak Haven (демо) / Death Relives - Релиз / Eight Feet Tall",
     "date": "2025-07-27",
     "torrent": "https://bsufiles.drhx.ru/streams/2523773918.torrent",
-    "games": ["horrors-2025", "first-2025", "single-2025", "klubnika", "death-relives"],
+    "games": ["horrors-2025", "first-2025", "single-2025", "split", "death-relives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2523773918.ass"
   },
   "2524621393": {
@@ -17611,5 +17610,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2570229778.torrent",
     "games": ["horrors-2025", "hk-silksong", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2570229778+0.ass"
+  },
+  "2571174483": {
+    "abs_start": 0, "abs_end": 18029, "duration": 18029,
+    "name": "Eclipsium - Прохождение / s.p.l.i.t #2 / PIGFACE - Релиз",
+    "date": "2025-09-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2571174483.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2571174483.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2571174483.torrent",
+    "games": ["eclipsium", "split", "pigface"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2571174483.ass"
   }
 }
