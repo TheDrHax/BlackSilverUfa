@@ -435,7 +435,7 @@
     "games": ["ds3"]
   },
   "001605090": {
-    "youtube": "5pVMDRcXLYc", "official": false, "abs_start": 0, "abs_end": 8514, "duration": 8514,
+    "youtube": "bi7ppSLLOyE", "official": false, "abs_start": 0, "abs_end": 8514, "duration": 8514,
     "name": "Dark Souls 3 #2",
     "date": "2016-05-09",
     "games": ["ds3"]
@@ -5450,9 +5450,11 @@
     "note": "<a href=\"https://youtu.be/4XYQNkwZxu8\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "496247270": {
-    "youtube": "Q4E0QtlVaGM", "abs_start": 0, "abs_end": 17640, "duration": 17640,
+    "abs_start": 0, "abs_end": 17640, "duration": 17640,
     "name": "Mafia: City of Lost Heaven #2",
     "date": "2019-10-18",
+    "direct": "https://bsufiles.drhx.ru/streams/496247270.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/496247270.mp4/master.m3u8",
     "games": ["mafia"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v496247270.ass"
   },
@@ -5888,9 +5890,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v533755753.ass"
   },
   "534301966": {
-    "youtube": "Z3H7gs_Y2n4", "official": false, "abs_start": 0, "abs_end": 2626, "duration": 2626,
+    "abs_start": 0, "abs_end": 2625, "duration": 2625,
     "name": "Grand Theft Auto: San Andreas #3 (часть 1)",
     "date": "2020-01-11",
+    "direct": "https://bsufiles.drhx.ru/streams/534301966.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/534301966.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v534301966.ass"
   },
@@ -6201,9 +6205,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v563294076.ass"
   },
   "563856575": {
-    "youtube": "RVV-36dVpe4", "official": false, "abs_start": 0, "abs_end": 22055, "duration": 22055,
+    "abs_start": 0, "abs_end": 22056, "duration": 22056,
     "name": "Halo: Combat Evolved Anniversary / Walking Simulator / Stilt Fella / The Longing #1 (400) / Yes, Your Grace #1",
     "date": "2020-03-08",
+    "direct": "https://bsufiles.drhx.ru/streams/563856575.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/563856575.mp4/master.m3u8",
     "games": ["first-2020", "single-2020", "the-longing", "yes-your-grace"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v563856575.ass"
   },
