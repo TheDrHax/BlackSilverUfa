@@ -169,5 +169,14 @@
       "^\\\\.*",
       "^Ту-туууу Hype.*"
     ]
+  },
+  "yt-dlp": {
+    "args": [
+      "--extractor-args", "youtube:player-client=mweb",
+      "--extractor-args", "youtubepot-bgutilhttp:base_url=http://ytdlp-pot.blackufa.k8s",
+      "--throttled-rate", "150K",
+      "--retries", "100",
+      "--retry-sleep", "5"
+    ]
   }
 }

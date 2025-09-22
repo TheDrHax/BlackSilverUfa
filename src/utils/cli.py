@@ -80,6 +80,7 @@ from sortedcontainers import SortedList
 from typing import List
 from twitch_utils.offset import Clip, find_offset
 
+from ..config import config
 from ..data.streams import (StreamType, SubReference, Stream,
                             Segment, SegmentReference)
 from ..data.games import Game
@@ -465,7 +466,9 @@ def cmd_cuts(segment, segment_kwargs, directory=None):
 
 
 def ytdl_best_source(video_id, quality='b'):
-    p = run(['yt-dlp', '-gf', quality, '--', video_id], stdout=PIPE)
+    args = ['yt-dlp', '-gf', quality, *config['yt-dlp']['args'], '--', video_id]
+
+    p = run(args, stdout=PIPE)
 
     if p.returncode != 0:
         raise RuntimeError(f'yt-dlp exited with non-zero code {p.returncode}')

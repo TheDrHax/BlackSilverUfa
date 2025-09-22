@@ -12,4 +12,5 @@ natsort==7.1.1
 watchgod==0.7
 Flask===2.2.2
 parse===1.19.1
+bgutil-ytdlp-pot-provider===1.2.2
 yt-dlp # dynamic

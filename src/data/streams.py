@@ -259,7 +259,9 @@ class Segment:
     @staticmethod
     @cached('duration-youtube-{0[0]}')
     def _duration_youtube(id):
-        cmd = ['yt-dlp', '--get-duration', f'https://youtu.be/{id}']
+        cmd = ['yt-dlp', *config['yt-dlp']['args'],
+               '--get-duration', f'https://youtu.be/{id}']
+
         out = run(cmd, stdout=PIPE)
 
         if out.returncode == 0:
