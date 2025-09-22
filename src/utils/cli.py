@@ -380,7 +380,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
                                         start=int(s_range.start),
                                         end=int(s_range.end),
                                         min_score=50)
-        except Exception:
+        except Exception as ex:
+            print(ex, file=sys.stderr)
             continue
 
         offset -= MATCH_OFFSET
