@@ -17608,5 +17608,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2571174483.torrent",
     "games": ["eclipsium", "split", "pigface"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2571174483.ass"
+  },
+  "2572833460": {
+    "abs_start": 0, "abs_end": 25832, "duration": 25832,
+    "name": "Silent Hill ƒ",
+    "date": "2025-09-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2572833460.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2572833460.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2572833460.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2572833460.ass"
   }
 }
