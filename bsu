@@ -61,6 +61,11 @@ node_setup() { # [full | silent]
     md5sum "package.json" "package-lock.json" > "$MD5_FILE"
 }
 
+if [ -d "$VENV" ] && [ ! -e "$VENV/bin/$PYTHON" ]; then
+    echo "Version of Python has changed, reinializing"
+    rm -r "$VENV"
+fi
+
 if [ ! -d "$VENV" ] && [ "_$1" != "_venv" ]; then
     echo "Setting up Python virtual environment: $VENV"
     venv_setup requirements.txt
