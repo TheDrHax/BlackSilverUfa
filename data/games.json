@@ -9135,9 +9135,19 @@
       ] },
       { "segment": "2569405622", "subrefs": [
         { "name": "Dying Light: The Beast", "start": 17551 }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Silent Hill ƒ",
+    "category": "ongoing",
+    "id": "sh-f",
+    "streams": [
       { "segment": "2572833460", "subrefs": [
-        { "name": "Silent Hill ƒ", "start": 1845 }
+        { "name": "1", "start": 1845 }
+      ] },
+      { "segment": "2573620416", "subrefs": [
+        { "name": "2", "start": 606 }
       ] }
     ]
   },
