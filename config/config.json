@@ -171,9 +171,11 @@
     ]
   },
   "yt-dlp": {
-    "args": [
+    "_args": [
       "--extractor-args", "youtube:player-client=mweb",
-      "--extractor-args", "youtubepot-bgutilhttp:base_url=http://ytdlp-pot.blackufa.k8s",
+      "--extractor-args", "youtubepot-bgutilhttp:base_url=http://ytdlp-pot.blackufa.k8s"
+    ],
+    "args": [
       "--throttled-rate", "150K",
       "--retries", "100",
       "--retry-sleep", "5"
