@@ -9043,8 +9043,7 @@
         { "name": "Fast Fusion", "start": 9531 }
       ] },
       { "segment": "2483947367", "subrefs": [
-        { "name": "MindsEye", "start": 1876 },
-        { "name": "Baby Steps (демо)", "start": 11638 }
+        { "name": "MindsEye", "start": 1876 }
       ] },
       { "segment": "2485778585", "subrefs": [
         { "name": "Fecal Freighter", "start": 6556 },
@@ -9135,6 +9134,9 @@
       ] },
       { "segment": "2569405622", "subrefs": [
         { "name": "Dying Light: The Beast", "start": 17551 }
+      ] },
+      { "segment": "2575282328", "subrefs": [
+        { "name": "Motorslice (демо)", "start": 842 }
       ] }
     ]
   },
@@ -19316,6 +19318,19 @@
       ] },
       { "segment": "2571174483", "subrefs": [
         { "name": "Релиз", "start": 16163 }
+      ] }
+    ]
+  },
+  {
+    "name": "Baby Steps",
+    "category": "ongoing",
+    "id": "baby-steps",
+    "streams": [
+      { "segment": "2483947367", "subrefs": [
+        { "name": "Демо", "start": 11638 }
+      ] },
+      { "segment": "2575282328", "subrefs": [
+        { "name": "Релиз", "start": 4423 }
       ] }
     ]
   }
