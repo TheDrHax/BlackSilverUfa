@@ -17572,10 +17572,10 @@
   },
   "2569405622": {
     "youtube": "t6V9QbQy0GU", "abs_start": 0, "abs_end": 25331, "duration": 25331,
-    "name": "The Lift (демо) #2 / No, I'm not a Human #2 / Dying Light: The Beast",
+    "name": "The Lift (демо) #2 / No, I'm not a Human #2 / Dying Light: The Beast - Соло",
     "date": "2025-09-18",
     "torrent": "https://bsufiles.drhx.ru/streams/2569405622.torrent",
-    "games": ["the-lift", "nimnah", "first-2025"],
+    "games": ["the-lift", "nimnah", "dying-light-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2569405622.ass"
   },
   "2570229778": {
@@ -17620,10 +17620,41 @@
   },
   "2575282328": {
     "youtube": "qzT_Wu-5gaQ", "abs_start": 0, "abs_end": 19992, "duration": 19992,
-    "name": "Motorslice (демо) / Baby Steps - Релиз",
+    "name": "Motorslice (демо) / Baby Steps #1",
     "date": "2025-09-25",
     "torrent": "https://bsufiles.drhx.ru/streams/2575282328.torrent",
     "games": ["first-2025", "baby-steps"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2575282328.ass"
+  },
+  "2577004877": {
+    "abs_start": 0, "abs_end": 17127, "duration": 17127,
+    "name": "",
+    "date": "2025-09-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2577004877.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2577004877.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2577004877.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2577004877.ass"
+  },
+  "2577175377": {
+    "abs_start": 0, "abs_end": 8026, "duration": 8026,
+    "name": "",
+    "date": "2025-09-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2577175377.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2577175377.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2577175377.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2577175377.ass"
+  },
+  "2577004877,2577175377": {
+    "abs_start": 0, "abs_end": 25151, "duration": 25151,
+    "name": "Baby Steps #2 / Dying Light: The Beast #1",
+    "date": "2025-09-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2577004877,2577175377.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2577004877,2577175377.mp4/master.m3u8",
+    "offsets": ["0:00", "4:45:25+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2577004877,2577175377.torrent",
+    "games": ["baby-steps", "dying-light-beast"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2577004877,2577175377+0.ass"
   }
 }

@@ -9132,9 +9132,6 @@
       { "segment": "2564525802", "subrefs": [
         { "name": "Sunken Engine", "start": 15683 }
       ] },
-      { "segment": "2569405622", "subrefs": [
-        { "name": "Dying Light: The Beast", "start": 17551 }
-      ] },
       { "segment": "2575282328", "subrefs": [
         { "name": "Motorslice (демо)", "start": 842 }
       ] }
@@ -19330,7 +19327,23 @@
         { "name": "Демо", "start": 11638 }
       ] },
       { "segment": "2575282328", "subrefs": [
-        { "name": "Релиз", "start": 4423 }
+        { "name": "1", "start": 4423 }
+      ] },
+      { "segment": "2577004877,2577175377", "subrefs": [
+        { "name": "2", "start": 308 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dying Light: The Beast",
+    "category": "co-op",
+    "id": "dying-light-beast",
+    "streams": [
+      { "segment": "2569405622", "subrefs": [
+        { "name": "Соло", "start": 17551 }
+      ] },
+      { "segment": "2577004877,2577175377", "subrefs": [
+        { "name": "1", "start": 10774 }
       ] }
     ]
   }
