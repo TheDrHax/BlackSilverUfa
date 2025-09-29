@@ -6576,6 +6576,9 @@
       ] },
       { "segment": "2478592997", "subrefs": [
         { "name": "Nintendo Switch 2", "start": 3558 }
+      ] },
+      { "segment": "2578806165", "subrefs": [
+        { "name": "Подкаст про Silent Hill ƒ (WeLoveGames, Dmitry Bale)", "start": 6894 }
       ] }
     ]
   },
@@ -9139,7 +9142,7 @@
   },
   {
     "name": "Silent Hill ƒ",
-    "category": "ongoing",
+    "category": "finished",
     "id": "sh-f",
     "streams": [
       { "segment": "2572833460", "subrefs": [
