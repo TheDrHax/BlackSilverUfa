@@ -16847,22 +16847,16 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2476761763+0.ass"
   },
   "2477119604": {
-    "abs_start": 0, "abs_end": 598, "duration": 598,
+    "abs_start": 0, "abs_end": 611, "duration": 0,
     "name": "",
     "date": "2025-06-04",
-    "direct": "https://bsufiles.drhx.ru/streams/2477119604.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2477119604.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2477119604.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2477119604.ass"
   },
   "2477127804": {
-    "abs_start": 0, "abs_end": 8965, "duration": 8965,
+    "abs_start": 0, "abs_end": 8980, "duration": 0,
     "name": "",
     "date": "2025-06-04",
-    "direct": "https://bsufiles.drhx.ru/streams/2477127804.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2477127804.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2477127804.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2477127804.ass"
   },
@@ -17676,5 +17670,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2579578173.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2579578173.ass"
+  },
+  "2580342642": {
+    "abs_start": 0, "abs_end": 19929, "duration": 19929,
+    "name": "Alien: Rogue Incursion / Industria II (демо)",
+    "date": "2025-10-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2580342642.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2580342642.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2580342642.torrent",
+    "games": ["first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2580342642.ass"
   }
 }
