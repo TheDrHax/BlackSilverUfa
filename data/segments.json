@@ -12996,9 +12996,9 @@
   },
   "1855403959": {
     "youtube": "r-r-78rTM_M", "official": false, "abs_start": 0, "abs_end": 19729, "duration": 19729,
-    "name": "They Are Here: Alien Abduction Horror - Демо 2 / Ebola Village - Демо / Stray Souls - Демо 2 / SCP: Observer / Dyer Expedition (демо) / Sniper Killer - Демо / The Diner / The Muller-Powell Principle (демо) / Unknown Memoirs: The Rental / Horror Stories: Harvest Hunt",
+    "name": "They Are Here: Alien Abduction Horror - Демо 2 / Ebola Village - Демо / Stray Souls - Демо 2 / SCP: Observer / Dyer Expedition - Демо / Sniper Killer - Демо / The Diner / The Muller-Powell Principle (демо) / Unknown Memoirs: The Rental / Horror Stories: Harvest Hunt",
     "date": "2023-06-25",
-    "games": ["they-are-here", "ebola-village", "stray-souls", "first-2023", "single-2023", "sniper-killer"],
+    "games": ["they-are-here", "ebola-village", "stray-souls", "first-2023", "dyer-expedition", "sniper-killer", "single-2023"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1855403959.ass",
     "note": "<a href=\"https://youtu.be/s0_2ozHHB0U\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
@@ -16865,7 +16865,6 @@
     "name": "Aspis (Аспис) (демо) / State of Play - Июнь 2025",
     "date": "2025-06-04",
     "offsets": ["0:00", "9:56+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2477119604,2477127804.torrent",
     "games": ["first-2025", "sony-sop"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2477119604,2477127804+0.ass"
   },
@@ -16873,7 +16872,6 @@
     "youtube": "oyZztlpZESo", "vk": "-28387068_456250795", "abs_start": 0, "abs_end": 14542, "duration": 14542,
     "name": "Death Stranding #3 (Director's Cut)",
     "date": "2025-06-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2477649477.torrent",
     "games": ["death-stranding"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2477649477.ass"
   },
@@ -17678,5 +17676,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2580342642.torrent",
     "games": ["first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2580342642.ass"
+  },
+  "2581220252": {
+    "abs_start": 0, "abs_end": 18890, "duration": 18890,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #42 / Backrooms: The Beginning Hour (демо) / Liminalcore - Chapter 3 / The Hole Keeper (демо) / Dyer Expedition - Релиз / No Path Forward / Refuted Wind / Mind the Clown / Pinnacle Point (демо)",
+    "date": "2025-10-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2581220252.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2581220252.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2581220252.torrent",
+    "games": ["horrors-2025", "single-2025", "liminalcore", "dyer-expedition", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2581220252.ass"
   }
 }

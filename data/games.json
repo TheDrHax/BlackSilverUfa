@@ -5023,7 +5023,6 @@
         { "name": "Incident at Grove Lake", "start": 13897 }
       ] },
       { "segment": "1855403959", "subrefs": [
-        { "name": "Dyer Expedition (демо)", "start": 8360 },
         { "name": "The Diner", "start": 13121 },
         { "name": "The Muller-Powell Principle (демо)", "start": 13754 },
         { "name": "Unknown Memoirs: The Rental", "start": 16781 }
@@ -9144,6 +9143,10 @@
       ] },
       { "segment": "2580342642", "subrefs": [
         { "name": "Alien: Rogue Incursion", "start": 984 }
+      ] },
+      { "segment": "2581220252", "subrefs": [
+        { "name": "No Path Forward", "start": 10866 },
+        { "name": "Pinnacle Point (демо)", "start": 15768 }
       ] }
     ]
   },
@@ -9693,6 +9696,12 @@
       ] },
       { "segment": "2580342642", "subrefs": [
         { "name": "Industria II (демо)", "start": 17244 }
+      ] },
+      { "segment": "2581220252", "subrefs": [
+        { "name": "Backrooms: The Beginning Hour (демо)", "start": 1676 },
+        { "name": "The Hole Keeper (демо)", "start": 4903 },
+        { "name": "Refuted Wind", "start": 11425 },
+        { "name": "Mind the Clown", "start": 14242 }
       ] }
     ]
   },
@@ -10744,6 +10753,9 @@
       ] },
       { "segment": "2289109470", "subrefs": [
         { "name": "Chapter 2", "start": 1015 }
+      ] },
+      { "segment": "2581220252", "subrefs": [
+        { "name": "Chapter 3", "start": 2621 }
       ] }
     ]
   },
@@ -17615,6 +17627,9 @@
       ] },
       { "segment": "2579578173", "subrefs": [
         { "name": "41" }
+      ] },
+      { "segment": "2581220252", "subrefs": [
+        { "name": "42" }
       ] }
     ]
   },
@@ -19371,6 +19386,19 @@
       ] },
       { "segment": "2577904159", "subrefs": [
         { "name": "2", "start": 11660 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dyer Expedition",
+    "category": "ongoing",
+    "id": "dyer-expedition",
+    "streams": [
+      { "segment": "1855403959", "subrefs": [
+        { "name": "Демо", "start": 8360 }
+      ] },
+      { "segment": "2581220252", "subrefs": [
+        { "name": "Релиз", "start": 7462 }
       ] }
     ]
   }
