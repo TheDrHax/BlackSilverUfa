@@ -11697,9 +11697,11 @@
     "note": "<a href=\"https://youtu.be/3uf_3xSHOpw\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "1663155573": {
-    "youtube": "z5TrsoMrjEo", "official": false, "abs_start": 0, "abs_end": 21578, "duration": 21578,
+    "abs_start": 0, "abs_end": 21577, "duration": 21577,
     "name": "Help Me! (демо) / The House / Oakwood / Night Signal / Countryside 1999 / Something Nefarious Below / Heartworm / Poop Killer 5",
     "date": "2022-11-26",
+    "direct": "https://bsufiles.drhx.ru/streams/1663155573.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1663155573.mp4/master.m3u8",
     "games": ["single-2022", "first-2022", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1663155573.ass"
   },
