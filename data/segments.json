@@ -453,9 +453,11 @@
     "games": ["ds3"]
   },
   "001605141": {
-    "youtube": "4-g7jA8T3GA", "official": false, "abs_start": 0, "abs_end": 6431, "duration": 6431,
+    "abs_start": 0, "abs_end": 6431, "duration": 6431,
     "name": "Dark Souls 3 #4 (часть 2)",
     "date": "2016-05-14",
+    "direct": "https://bsufiles.drhx.ru/streams/001605141.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001605141.mp4/master.m3u8",
     "games": ["ds3"]
   },
   "001605240": {
