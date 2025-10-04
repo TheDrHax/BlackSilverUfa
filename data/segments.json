@@ -11959,9 +11959,9 @@
   },
   "1701325068": {
     "youtube": "G47oUmPw3o0", "official": false, "abs_start": 0, "abs_end": 21664, "duration": 21664,
-    "name": "September 7th / The 9th Charnel (демо) / Smile / Input6 / Park Lane / Elevated Dread / The Interpid Explorer / There is Something in the Pipes / The Maker of Masks",
+    "name": "September 7th / The 9th Charnel - Демо 1 / Smile / Input6 / Park Lane / Elevated Dread / The Interpid Explorer / There is Something in the Pipes / The Maker of Masks",
     "date": "2023-01-08",
-    "games": ["single-2023"],
+    "games": ["single-2023", "9th-charnel"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1701325068.ass"
   },
   "1702266111": {
@@ -16891,7 +16891,6 @@
     "youtube": "FTVcQEYlk-c", "vk": "-28387068_456250797", "abs_start": 0, "abs_end": 11939, "duration": 11939,
     "name": "неПрофессиональный \"E3\" 2025 - Summer Game Fest",
     "date": "2025-06-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2478883069.torrent",
     "games": ["e3-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2478883069.ass"
   },
@@ -17688,5 +17687,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2581220252.torrent",
     "games": ["horrors-2025", "single-2025", "liminalcore", "dyer-expedition", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2581220252.ass"
+  },
+  "2582997412": {
+    "abs_start": 0, "abs_end": 19985, "duration": 19985,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #43 / Backrooms (?) / Metroliminal (демо) / Outlast: Lost Footage / IRE: A Prologue (демо) / Stay With Him / The 9th Charnel - Демо 2 / Side Effects (демо) / Junji Ito Maniac: An Infinite Gaol (демо) / Owl Lights",
+    "date": "2025-10-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2582997412.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2582997412.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2582997412.torrent",
+    "games": ["horrors-2025", "single-2025", "first-2025", "9th-charnel"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2582997412.ass"
   }
 }

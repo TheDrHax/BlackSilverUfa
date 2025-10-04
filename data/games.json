@@ -4880,7 +4880,6 @@
     "streams": [
       { "segment": "1701325068", "subrefs": [
         { "name": "September 7th", "start": 1921 },
-        { "name": "The 9th Charnel (демо)", "start": 6363 },
         { "name": "Smile", "start": 8528 },
         { "name": "Input6", "start": 8896 },
         { "name": "Park Lane", "start": 12783 },
@@ -9147,6 +9146,12 @@
       { "segment": "2581220252", "subrefs": [
         { "name": "No Path Forward", "start": 10866 },
         { "name": "Pinnacle Point (демо)", "start": 15768 }
+      ] },
+      { "segment": "2582997412", "subrefs": [
+        { "name": "Outlast: Lost Footage", "start": 5451 },
+        { "name": "IRE: A Prologue (демо)", "start": 7443 },
+        { "name": "Side Effects (демо)", "start": 13078 },
+        { "name": "Owl Lights", "start": 17419 }
       ] }
     ]
   },
@@ -9702,6 +9707,12 @@
         { "name": "The Hole Keeper (демо)", "start": 4903 },
         { "name": "Refuted Wind", "start": 11425 },
         { "name": "Mind the Clown", "start": 14242 }
+      ] },
+      { "segment": "2582997412", "subrefs": [
+        { "name": "Backrooms (?)", "start": 3633 },
+        { "name": "Metroliminal (демо)", "start": 4301 },
+        { "name": "Stay With Him", "start": 10411 },
+        { "name": "Junji Ito Maniac: An Infinite Gaol (демо)", "start": 15108 }
       ] }
     ]
   },
@@ -17630,6 +17641,9 @@
       ] },
       { "segment": "2581220252", "subrefs": [
         { "name": "42" }
+      ] },
+      { "segment": "2582997412", "subrefs": [
+        { "name": "43" }
       ] }
     ]
   },
@@ -19399,6 +19413,19 @@
       ] },
       { "segment": "2581220252", "subrefs": [
         { "name": "Релиз", "start": 7462 }
+      ] }
+    ]
+  },
+  {
+    "name": "The 9th Charnel",
+    "category": "ongoing",
+    "id": "9th-charnel",
+    "streams": [
+      { "segment": "1701325068", "subrefs": [
+        { "name": "Демо 1", "start": 6363 }
+      ] },
+      { "segment": "2582997412", "subrefs": [
+        { "name": "Демо 2", "start": 12204 }
       ] }
     ]
   }
