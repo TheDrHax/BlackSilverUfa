@@ -16883,7 +16883,6 @@
     "youtube": "O8EvmR6GT80", "vk": "-28387068_456250798", "abs_start": 0, "abs_end": 15076, "duration": 15076,
     "name": "Nintendo Switch 2 / Cyberpunk 2077 - Switch 2 / Mario Kart World / Nintendo Switch 2 Welcome Tour / Fast Fusion / The Legend of Zelda: Breath of the Wild - Switch 2 / The Legend of Zelda: Tears of the Kingdom - Switch 2",
     "date": "2025-06-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2478592997.torrent",
     "games": ["other", "cyberpunk-2077", "first-2025", "tloz_botw", "tloz_totk"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2478592997.ass"
   },
@@ -17697,5 +17696,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2582997412.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025", "9th-charnel"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2582997412.ass"
+  },
+  "2583885410": {
+    "abs_start": 0, "abs_end": 17120, "duration": 17120,
+    "name": "Ratatouille",
+    "date": "2025-10-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2583885410.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2583885410.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2583885410.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2583885410.ass"
   }
 }
