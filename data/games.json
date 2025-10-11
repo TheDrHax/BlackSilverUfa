@@ -9152,9 +9152,6 @@
         { "name": "IRE: A Prologue (демо)", "start": 7443 },
         { "name": "Side Effects (демо)", "start": 13078 },
         { "name": "Owl Lights", "start": 17419 }
-      ] },
-      { "segment": "2583885410", "subrefs": [
-        { "name": "Ratatouille", "start": 982 }
       ] }
     ]
   },
@@ -19432,6 +19429,19 @@
       ] },
       { "segment": "2582997412", "subrefs": [
         { "name": "Демо 2", "start": 12204 }
+      ] }
+    ]
+  },
+  {
+    "name": "Ratatouille",
+    "category": "finished",
+    "id": "ratatouille",
+    "streams": [
+      { "segment": "2583885410", "subrefs": [
+        { "name": "1", "start": 982 }
+      ] },
+      { "segment": "2588974324", "subrefs": [
+        { "name": "2", "start": 2338 }
       ] }
     ]
   }

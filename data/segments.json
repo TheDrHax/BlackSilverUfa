@@ -16919,7 +16919,6 @@
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #25 / неПрофессиональный \"E3\" 2025 - Future Games Show (обзор) / The Backrooms: Found Footage / Matreshka (демо) / Who's at the Door? #1 / Sharks and Minnows / PIGFACE - Демо / Krysolov / неПрофессиональный \"E3\" 2025 - Xbox Games Showcase",
     "date": "2025-06-08",
     "offsets": ["0:00", "2:58:14+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2480467576,2480584019.torrent",
     "games": ["horrors-2025", "e3-2025", "single-2025", "whos-at-the-door", "pigface"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2480467576,2480584019+0.ass"
   },
@@ -17690,10 +17689,10 @@
   },
   "2583885410": {
     "youtube": "RWPKjU0z0-k", "abs_start": 0, "abs_end": 17120, "duration": 17120,
-    "name": "Ratatouille",
+    "name": "Ratatouille #1",
     "date": "2025-10-05",
     "torrent": "https://bsufiles.drhx.ru/streams/2583885410.torrent",
-    "games": ["first-2025"],
+    "games": ["ratatouille"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2583885410.ass"
   },
   "2587965611": {
@@ -17703,5 +17702,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2587965611.torrent",
     "games": ["single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2587965611.ass"
+  },
+  "2588974324": {
+    "abs_start": 0, "abs_end": 21689, "duration": 21689,
+    "name": "Ratatouille #2",
+    "date": "2025-10-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2588974324.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2588974324.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2588974324.torrent",
+    "games": ["ratatouille"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2588974324.ass"
   }
 }
