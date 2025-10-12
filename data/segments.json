@@ -5893,9 +5893,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v534316789.ass"
   },
   "535374681": {
-    "youtube": "_ZiJgJePQaM", "official": false, "abs_start": 0, "abs_end": 20518, "duration": 20518,
+    "abs_start": 0, "abs_end": 20518, "duration": 20518,
     "name": "Grand Theft Auto: San Andreas #4",
     "date": "2020-01-13",
+    "direct": "https://bsufiles.drhx.ru/streams/535374681.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/535374681.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v535374681.ass"
   },
@@ -16933,7 +16935,6 @@
     "youtube": "Z-CqQOO8mFI", "vk": "-28387068_456250804", "abs_start": 0, "abs_end": 21667, "duration": 21667,
     "name": "The Alters #1 / Five Nights at Freddy's: Secret of the Mimic - Первый взгляд",
     "date": "2025-06-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2484807936.torrent",
     "games": ["alters", "fnaf-sotm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2484807936.ass"
   },
