@@ -16926,7 +16926,6 @@
     "youtube": "xM1xLFqNrkw", "vk": "-28387068_456250803", "abs_start": 0, "abs_end": 23266, "duration": 23266,
     "name": "MindsEye / Baby Steps - Демо / No, I'm not a Human #4",
     "date": "2025-06-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2483947367.torrent",
     "games": ["first-2025", "baby-steps", "nimnah"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2483947367.ass"
   },
@@ -17712,5 +17711,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2588974324.torrent",
     "games": ["ratatouille"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2588974324.ass"
+  },
+  "2589892339": {
+    "abs_start": 0, "abs_end": 17920, "duration": 17920,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #44 / Lost Liminal (демо) / Umigari (демо) / Eilean Mor: The Lost Keepers / Last Stop / Horror Tales Eats The World (демо) / Hollowbrook: Apartments",
+    "date": "2025-10-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2589892339.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2589892339.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2589892339.torrent",
+    "games": ["horrors-2025", "single-2025", "chillas-art", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2589892339.ass"
   }
 }
