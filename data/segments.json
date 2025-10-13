@@ -16942,7 +16942,6 @@
     "youtube": "67yNx6H-cSs", "vk": "-28387068_456250805", "abs_start": 0, "abs_end": 18356, "duration": 18356,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #26 / Liminal City (демо) / Cameraman: The Pilot Episode (демо) / Clown is Hungry (демо) / Fecal Freighter / Dr. Viscera / Fire in the Dark (демо) / Emotionless: The Last Ticket / Five Nights at Freddy's: Secret of the Mimic #1",
     "date": "2025-06-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2485778585.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025", "fnaf-sotm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2485778585.ass"
   },
@@ -17718,5 +17717,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2589892339.torrent",
     "games": ["horrors-2025", "single-2025", "chillas-art", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2589892339.ass"
+  },
+  "2590720116": {
+    "abs_start": 0, "abs_end": 25538, "duration": 25538,
+    "name": "Valor Mortis (демо) / Deathground / The Outlast Trials #8 (4D) / Peak #9",
+    "date": "2025-10-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2590720116.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2590720116.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2590720116.torrent",
+    "games": ["first-2025", "co-op", "outlast-trials", "peak"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2590720116.ass"
   }
 }
