@@ -14468,9 +14468,9 @@
   },
   "2113378651": {
     "youtube": "vn-CKn2IJuk", "abs_start": 0, "abs_end": 17811, "duration": 17811,
-    "name": "No Players Online (демо) / Anomaly Exit / Mouthhole #1 / Unspoken",
+    "name": "No Players Online - Демо 1 / Anomaly Exit / Mouthhole #1 / Unspoken",
     "date": "2024-04-07",
-    "games": ["single-2024", "mouthhole"],
+    "games": ["no-players-online", "single-2024", "mouthhole"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2113378651.ass"
   },
   "2114268211": {
@@ -16947,7 +16947,6 @@
     "youtube": "nQE-g4HFq0A", "vk": "-28387068_456250806", "abs_start": 0, "abs_end": 21270, "duration": 21270,
     "name": "Ratatan (демо) / Lethal Company #24",
     "date": "2025-06-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2486684400.torrent",
     "games": ["first-2025", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2486684400.ass"
   },
@@ -17723,5 +17722,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2590720116.torrent",
     "games": ["first-2025", "co-op", "outlast-trials", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2590720116.ass"
+  },
+  "2591591751": {
+    "abs_start": 0, "abs_end": 18331, "duration": 18331,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #45 / Backrooms: Facility Unknown (демо) / Hellmart (демо) / Huntsman (демо) / Don't Feed The Cat (демо) / Ufophilia (демо) / No Players Online - Демо 2 / Untold Chronicles: The Harvest (демо) / Overcome Your Fears: Caretaker (демо) / Way of Madness (демо) / Unmourned (демо)",
+    "date": "2025-10-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2591591751.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2591591751.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2591591751.torrent",
+    "games": ["horrors-2025", "single-2025", "first-2025", "no-players-online"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2591591751.ass"
   }
 }
