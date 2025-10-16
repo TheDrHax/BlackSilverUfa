@@ -9756,6 +9756,9 @@
         { "name": "Beneath (демо)", "start": 1846 },
         { "name": "Ghost Ripper (демо)", "start": 6396 },
         { "name": "Whispering Fog (демо)", "start": 10106 }
+      ] },
+      { "segment": "2593267290", "subrefs": [
+        { "name": "Skinfreak", "start": 2251 }
       ] }
     ]
   },
@@ -18849,7 +18852,7 @@
   },
   {
     "name": "Dune: Awakening",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "dune-awakening",
     "streams": [
       { "segment": "2387156230", "subrefs": [

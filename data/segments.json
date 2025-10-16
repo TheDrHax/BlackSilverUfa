@@ -16962,7 +16962,6 @@
     "youtube": "j2VqYWMstrw", "vk": "-28387068_456250808", "abs_start": 0, "abs_end": 23032, "duration": 23032,
     "name": "Still Wakes the Deep - Siren's Rest / Five Nights at Freddy's: Secret of the Mimic #2 / Lucky Tower Ultimate #19",
     "date": "2025-06-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2489222718.torrent",
     "games": ["still-wakes", "fnaf-sotm", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2489222718.ass"
   },
@@ -17738,5 +17737,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2592399538.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "gretlow-tapes"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2592399538.ass"
+  },
+  "2593267290": {
+    "abs_start": 0, "abs_end": 22164, "duration": 22164,
+    "name": "Skinfreak",
+    "date": "2025-10-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2593267290.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2593267290.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2593267290.torrent",
+    "games": ["single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2593267290.ass"
   }
 }
