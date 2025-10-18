@@ -8989,7 +8989,6 @@
         { "name": "Backrooms: Exit from Supermarket Horror (демо)", "start": 4064 }
       ] },
       { "segment": "2449126768", "subrefs": [
-        { "name": "ARC Raiders", "start": 2280 },
         { "name": "Cop Bastard (демо)", "start": 15974 },
         { "name": "ARC Raiders (продолжение)", "start": 18793, "hidden": true }
       ] },
@@ -9176,6 +9175,9 @@
         { "name": "Трейлер Rules of Engagement: The Grey State", "start": 1002 },
         { "name": "Platform 0 (демо)", "start": 5247 },
         { "name": "Holes (демо)", "start": 9606 }
+      ] },
+      { "segment": "2594940527", "subrefs": [
+        { "name": "Painkiller", "start": 1417 }
       ] }
     ]
   },
@@ -19023,7 +19025,7 @@
   },
   {
     "name": "Donkey Kong Bananza",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "donkey-kong-bananza",
     "streams": [
       { "segment": "2515697927", "subrefs": [
@@ -19460,6 +19462,9 @@
       ] },
       { "segment": "2577904159", "subrefs": [
         { "name": "2", "start": 11660 }
+      ] },
+      { "segment": "2594940527", "subrefs": [
+        { "name": "3", "start": 12162 }
       ] }
     ]
   },
@@ -19525,6 +19530,19 @@
       ] },
       { "segment": "2592399538", "subrefs": [
         { "name": "Демо 2", "start": 10917 }
+      ] }
+    ]
+  },
+  {
+    "name": "ARC Raiders",
+    "category": "ongoing",
+    "id": "arc-raiders",
+    "streams": [
+      { "segment": "2449126768", "subrefs": [
+        { "name": "1", "start": 2280 }
+      ] },
+      { "segment": "2594940527", "subrefs": [
+        { "name": "2", "start": 4718 }
       ] }
     ]
   }

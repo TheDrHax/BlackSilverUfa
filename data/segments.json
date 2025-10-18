@@ -16611,9 +16611,9 @@
   },
   "2449126768": {
     "youtube": "FJ_3GasgVtQ", "vk": "-28387068_456250749", "abs_start": 0, "abs_end": 24348, "duration": 24348,
-    "name": "ARC Raiders / Cop Bastard (демо)",
+    "name": "ARC Raiders #1 / Cop Bastard (демо)",
     "date": "2025-05-03",
-    "games": ["first-2025"],
+    "games": ["arc-raiders", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2449126768.ass"
   },
   "2450093054": {
@@ -16969,7 +16969,6 @@
     "youtube": "-orjqMwPZNs", "vk": "-28387068_456250810", "abs_start": 0, "abs_end": 22271, "duration": 22271,
     "name": "Stellar Blade - ПК / Batman: Arkham Knight",
     "date": "2025-06-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2490150024.torrent",
     "games": ["stellar-blade", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2490150024.ass"
   },
@@ -16977,7 +16976,6 @@
     "youtube": "0mkqZ6amr3o", "vk": "-28387068_456250811", "abs_start": 0, "abs_end": 19446, "duration": 19446,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #27 / The Rotting Man (демо) / Tales Beyond the Tomb: White Silence / Road of Fear / Silent Still II - Демо",
     "date": "2025-06-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2492884790.torrent",
     "games": ["horrors-2025", "first-2025", "616-games", "single-2025", "silent-still-ii"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2492884790.ass"
   },
@@ -17745,5 +17743,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2593267290.torrent",
     "games": ["single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2593267290.ass"
+  },
+  "2594940527": {
+    "abs_start": 0, "abs_end": 27454, "duration": 27454,
+    "name": "Painkiller / ARC Raiders #2 / Dying Light: The Beast #3",
+    "date": "2025-10-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2594940527.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2594940527.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2594940527.torrent",
+    "games": ["first-2025", "arc-raiders", "dying-light-beast"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2594940527.ass"
   }
 }
