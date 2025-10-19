@@ -17751,5 +17751,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2594940527.torrent",
     "games": ["first-2025", "arc-raiders", "dying-light-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2594940527.ass"
+  },
+  "2595928296": {
+    "abs_start": 0, "abs_end": 12987, "duration": 12987,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #47 / Project: Null Hypothesis / Last Term / Sculpture / Tom Dahl",
+    "date": "2025-10-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2595928296.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2595928296.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2595928296.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2595928296.ass"
   }
 }
