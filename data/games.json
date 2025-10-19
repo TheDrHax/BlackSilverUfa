@@ -9180,8 +9180,7 @@
         { "name": "Painkiller", "start": 1417 }
       ] },
       { "segment": "2595928296", "subrefs": [
-        { "name": "Project: Null Hypothesis", "start": 1475 },
-        { "name": "Tom Dahl", "start": 10247 }
+        { "name": "Project: Null Hypothesis", "start": 1475 }
       ] }
     ]
   },
@@ -9768,7 +9767,8 @@
       ] },
       { "segment": "2595928296", "subrefs": [
         { "name": "Last Term", "start": 4277 },
-        { "name": "Sculpture", "start": 8519 }
+        { "name": "Sculpture", "start": 8519 },
+        { "name": "Tom Dahl", "start": 10247 }
       ] }
     ]
   },
