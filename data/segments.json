@@ -16245,9 +16245,9 @@
   },
   "2395173756": {
     "youtube": "l5TXfz66M90", "vk": "-28387068_456250649", "abs_start": 0, "abs_end": 20454, "duration": 20454,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #8 / Through the Backrooms / Out of Sight - Демо 2 / The Well: Episode 1 / The Derailed (демо) / Flesh Made Fear (демо) / Anomaly Living / The Bakerville Case (демо) / From the Other Side / The Moth Inside Me",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #8 / Through the Backrooms / Out of Sight - Демо 2 / The Well: Episode 1 / The Derailed - Демо / Flesh Made Fear (демо) / Anomaly Living / The Bakerville Case (демо) / From the Other Side / The Moth Inside Me",
     "date": "2025-03-02",
-    "games": ["horrors-2025", "first-2025", "out-of-sight", "single-2025"],
+    "games": ["horrors-2025", "first-2025", "out-of-sight", "single-2025", "derailed"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2395173756.ass"
   },
   "2396035230": {
@@ -16983,7 +16983,6 @@
     "youtube": "JktUvxInZRo", "vk": "-28387068_456250814", "abs_start": 0, "abs_end": 26791, "duration": 26791,
     "name": "Death Stranding 2: On the Beach #1",
     "date": "2025-06-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2493691036.torrent",
     "games": ["death-stranding-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2493691036.ass"
   },
@@ -17759,5 +17758,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2595928296.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2595928296.ass"
+  },
+  "2596691266": {
+    "abs_start": 0, "abs_end": 20096, "duration": 20096,
+    "name": "Truckful (демо) / Ground Zero (демо) / Carimara: Beneath the Forlorn Limbs / The Derailed - Прохождение / Troleu",
+    "date": "2025-10-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2596691266.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2596691266.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2596691266.torrent",
+    "games": ["single-2025", "first-2025", "derailed"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2596691266.ass"
   }
 }
