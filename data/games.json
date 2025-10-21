@@ -9185,6 +9185,10 @@
       { "segment": "2596691266", "subrefs": [
         { "name": "Ground Zero (демо)", "start": 2490 },
         { "name": "Troleu", "start": 18072 }
+      ] },
+      { "segment": "2597514893", "subrefs": [
+        { "name": "Ninja Gaiden 4", "start": 1276 },
+        { "name": "Vampire: The Masquerade - Bloodlines 2", "start": 14878 }
       ] }
     ]
   },
@@ -19095,7 +19099,7 @@
   },
   {
     "name": "Luto",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "luto",
     "streams": [
       { "segment": "1635763389", "subrefs": [
