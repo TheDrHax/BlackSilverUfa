@@ -12500,9 +12500,9 @@
   },
   "1789025191": {
     "youtube": "WI6dqe6gBwc", "abs_start": 0, "abs_end": 20845, "duration": 20845,
-    "name": "Rootman: Bodycam Horror Footage (демо) / The Voidness (демо) / Timberlodge Inn / Disappearance / Bio Evil 4 / Confabulation #1 / My Strange Attic / The Lacerator (демо) / Materna (демо) / Lucid Dreams",
+    "name": "Rootman: Bodycam Horror Footage (демо) / The Voidness (демо) / Timberlodge Inn / Disappearance / Bio Evil 4 / Confabulation #1 / My Strange Attic / The Lacerator - Демо / Materna (демо) / Lucid Dreams",
     "date": "2023-04-09",
-    "games": ["single-2023", "first-2023", "confabulation"],
+    "games": ["single-2023", "first-2023", "confabulation", "lacerator"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1789025191.ass"
   },
   "1796157455": {
@@ -16996,22 +16996,16 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2494521207.ass"
   },
   "2495419331": {
-    "abs_start": 0, "abs_end": 7914, "duration": 7914,
+    "abs_start": 0, "abs_end": 7937, "duration": 0,
     "name": "",
     "date": "2025-06-25",
-    "direct": "https://bsufiles.drhx.ru/streams/2495419331.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2495419331.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2495419331.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2495419331.ass"
   },
   "2495479237": {
-    "abs_start": 0, "abs_end": 22535, "duration": 22535,
+    "abs_start": 0, "abs_end": 22566, "duration": 0,
     "name": "",
     "date": "2025-06-25",
-    "direct": "https://bsufiles.drhx.ru/streams/2495479237.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2495479237.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2495479237.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2495479237.ass"
   },
@@ -17772,10 +17766,20 @@
   },
   "2597514893": {
     "youtube": "XCIxYWwiJJ4", "abs_start": 0, "abs_end": 25876, "duration": 25876,
-    "name": "Ninja Gaiden 4 / Vampire: The Masquerade - Bloodlines 2",
+    "name": "Ninja Gaiden 4 / Vampire: The Masquerade - Bloodlines 2 #1",
     "date": "2025-10-21",
     "torrent": "https://bsufiles.drhx.ru/streams/2597514893.torrent",
-    "games": ["first-2025"],
+    "games": ["first-2025", "vampire-masquerade-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2597514893.ass"
+  },
+  "2598326556": {
+    "abs_start": 0, "abs_end": 19355, "duration": 19355,
+    "name": "Vampire: The Masquerade - Bloodlines 2 #2 / The Lacerator - Прохождение",
+    "date": "2025-10-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2598326556.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2598326556.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2598326556.torrent",
+    "games": ["vampire-masquerade-2", "lacerator"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2598326556.ass"
   }
 }

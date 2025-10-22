@@ -4965,7 +4965,6 @@
         { "name": "Disappearance", "start": 6988 },
         { "name": "Bio Evil 4", "start": 8213 },
         { "name": "My Strange Attic", "start": 17183 },
-        { "name": "The Lacerator (демо)", "start": 17464 },
         { "name": "Materna (демо)", "start": 19373 },
         { "name": "Lucid Dreams", "start": 19893 }
       ] },
@@ -9187,8 +9186,20 @@
         { "name": "Troleu", "start": 18072 }
       ] },
       { "segment": "2597514893", "subrefs": [
-        { "name": "Ninja Gaiden 4", "start": 1276 },
-        { "name": "Vampire: The Masquerade - Bloodlines 2", "start": 14878 }
+        { "name": "Ninja Gaiden 4", "start": 1276 }
+      ] }
+    ]
+  },
+  {
+    "name": "Vampire: The Masquerade - Bloodlines 2",
+    "category": "abandoned",
+    "id": "vampire-masquerade-2",
+    "streams": [
+      { "segment": "2597514893", "subrefs": [
+        { "name": "1", "start": 14878 }
+      ] },
+      { "segment": "2598326556", "subrefs": [
+        { "name": "2", "start": 537 }
       ] }
     ]
   },
@@ -19578,6 +19589,19 @@
       ] },
       { "segment": "2596691266", "subrefs": [
         { "name": "Прохождение", "start": 8919 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Lacerator",
+    "category": "finished",
+    "id": "lacerator",
+    "streams": [
+      { "segment": "1789025191", "subrefs": [
+        { "name": "Демо", "start": 17464 }
+      ] },
+      { "segment": "2598326556", "subrefs": [
+        { "name": "Прохождение", "start": 12038 }
       ] }
     ]
   }
