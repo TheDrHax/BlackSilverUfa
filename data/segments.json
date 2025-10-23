@@ -17014,7 +17014,6 @@
     "name": "Death Stranding 2: On the Beach #3",
     "date": "2025-06-25",
     "offsets": ["0:00", "2:10:20"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2495419331,2495479237.torrent",
     "games": ["death-stranding-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2495419331,2495479237+0.ass"
   },
@@ -17779,5 +17778,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2598326556.torrent",
     "games": ["vampire-masquerade-2", "lacerator"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2598326556.ass"
+  },
+  "2599184901": {
+    "abs_start": 0, "abs_end": 25660, "duration": 25660,
+    "name": "Baby Steps #4 / RV There Yet?",
+    "date": "2025-10-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2599184901.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2599184901.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2599184901.torrent",
+    "games": ["baby-steps", "co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2599184901.ass"
   }
 }
