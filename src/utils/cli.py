@@ -59,6 +59,7 @@ Ref options:
 Segment matching options:
   --all               Check all streams with at least one unofficial or
                       empty source. Streams without fallbacks will be skipped.
+  --candidates <list> Comma-separated list of stream IDs to match against.
   --directory <path>  Use a local directory as a fallback source for
                       faster matching of streams. Directory must contain
                       original stream recordings. Expected filename format
@@ -243,18 +244,25 @@ def original_video(segment, directory):
     return None
 
 
-def match_candidates(segment_kwargs, directory=None, match_all=False):
+def match_candidates(segment_kwargs, directory=None, match_all=False,
+                     force_candidates=None):
     for s in streams.segments:
+        forced = force_candidates and s.twitch in force_candidates
+
         if not original_video(s, directory):
             continue
 
-        if s.youtube and s.official and not match_all:
-            continue
+        if not forced:
+            if force_candidates:
+                continue
 
-        if not s.official and segment_kwargs.get('official') is False:
-            print(f'Skipping segment {s.hash} '
-                  '(both videos are unofficial)', file=sys.stderr)
-            continue
+            if s.youtube and s.official and not match_all:
+                continue
+
+            if not s.official and segment_kwargs.get('official') is False:
+                print(f'Skipping segment {s.hash} '
+                      '(both videos are unofficial)', file=sys.stderr)
+                continue
 
         subrefs = SortedList([subref
                               for ref in s.references
@@ -358,7 +366,8 @@ def vk_source(video_id, quality='ba[acodec^="mp4a"]'):
     return video
 
 
-def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False):
+def cmd_match(segment_kwargs, directory=None, match_all=False,
+              fail_if_cut=False, force_candidates=None):
     if 'youtube' in segment_kwargs:
         dupes = [s for s in streams.segments
                  if s.youtube == segment_kwargs['youtube']]
@@ -380,7 +389,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
     segment_kwargs['duration'] = video.duration
 
     candidates = sorted(
-        match_candidates(segment_kwargs, directory, match_all),
+        match_candidates(segment_kwargs, directory, match_all, force_candidates),
         key=lambda s: abs(int(s[1].duration) - video.duration))
 
     if len(candidates) == 0:
@@ -611,10 +620,16 @@ def main(argv=None):
 
         if args['match']:
             del segment_kwargs['offset']
+
+            candidates = None
+            if args['--candidates']:
+                candidates = args['--candidates'].split(',')
+
             stream, segment = cmd_match(segment_kwargs,
                                         directory=args['--directory'],
                                         match_all=args['--all'],
-                                        fail_if_cut=args['--fail-if-cut'])
+                                        fail_if_cut=args['--fail-if-cut'],
+                                        force_candidates=candidates)
 
         if args['cuts']:
             cmd_cuts(segment, segment_kwargs, directory=args['--directory'])
