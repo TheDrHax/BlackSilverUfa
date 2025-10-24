@@ -2,9 +2,9 @@
   cli [options] stream add <stream>
   cli [options] stream join <streams> <offsets>
   cli [options] segment (get | set | update) <stream> [<segment>] [segment_options]
-  cli [options] segment add <stream> (--youtube <id> | --direct <url>) [segment_options]
-  cli [options] segment match (--youtube <id> | --direct <url>) [--all] [--directory <path>] [--fail-if-cut]
-  cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --direct <url>) [--directory <path>]
+  cli [options] segment add <stream> (--youtube <id> | --vk <id> | --direct <url>) [segment_options]
+  cli [options] segment match (--youtube <id> | --vk <id> | --direct <url>) [--all] [--directory <path>] [--fail-if-cut]
+  cli [options] segment cuts <stream> [<segment>] (--youtube <id> | --vk <id> | --direct <url>) [--directory <path>]
   cli [options] game add <game> <category> <name>
   cli [options] ref add <game> <stream> [<segment>] --name <name> [--start <t>]
   cli [options] timecodes shift <stream> [--] <range> <offset>
@@ -20,7 +20,7 @@ Commands:
     update      Update specified fields of existing segment.
     add         Create a new segment with known stream ID and offset.
     match       Try to find matching stream and offset of provided video.
-    cuts        Try to detect cuts in YouTube video by comparing it to the
+    cuts        Try to detect cuts in external video by comparing it to the
                 fallback source.
 
   game
@@ -35,6 +35,8 @@ Options:
 Video sources:
   --youtube <id>      ID of YouTube video that can be used as a source for
                       this segment. Warning: full URLs are not supported!
+  --vk <id>           ID of VK video formatted as <owner>_<video>. Node:
+                      Communities have negative owner ID.
   --direct <url>      URL or path of the video.
 
 Segment options:
@@ -315,6 +317,17 @@ def match_candidates(segment_kwargs, directory=None, match_all=False):
             tmp_subref.parent.subrefs.remove(tmp_subref)
 
 
+def ytdl_best_source(video_id, quality='b'):
+    args = ['yt-dlp', '-gf', quality, *config['yt-dlp']['args'], '--', video_id]
+
+    p = run(args, stdout=PIPE)
+
+    if p.returncode != 0:
+        raise RuntimeError(f'yt-dlp exited with non-zero code {p.returncode}')
+
+    return p.stdout.decode('utf-8').strip()
+
+
 def ytdl_video(video_id):
     try:
         print('Retrieving video from YouTube...', file=sys.stderr)
@@ -329,6 +342,22 @@ def ytdl_video(video_id):
     return video
 
 
+def vk_source(video_id, quality='ba[acodec^="mp4a"]'):
+    print('Retrieving video from VK...', file=sys.stderr)
+    args = ['yt-dlp', '-gf', quality, *config['yt-dlp']['args'], '--',
+            f'https://vk.com/video{video_id}']
+
+    p = run(args, stdout=PIPE)
+
+    if p.returncode != 0:
+        raise RuntimeError(f'yt-dlp exited with non-zero code {p.returncode}')
+
+    url = p.stdout.decode('utf-8').strip()
+
+    video = Clip(url)
+    return video
+
+
 def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False):
     if 'youtube' in segment_kwargs:
         dupes = [s for s in streams.segments
@@ -340,6 +369,8 @@ def cmd_match(segment_kwargs, directory=None, match_all=False, fail_if_cut=False
             sys.exit(2)
 
         video = ytdl_video(segment_kwargs['youtube'])
+    elif 'vk' in segment_kwargs:
+        video = vk_source(segment_kwargs['vk'])
     elif 'direct' in segment_kwargs:
         video = Clip(segment_kwargs['direct'])
     else:
@@ -453,6 +484,8 @@ def check_cuts(original_video, input_video, offset=0):
 def cmd_cuts(segment, segment_kwargs, directory=None):
     if 'youtube' in segment_kwargs:
         video = ytdl_video(segment_kwargs['youtube'])
+    elif 'vk' in segment_kwargs:
+        video = vk_source(segment_kwargs['vk'])
     elif 'direct' in segment_kwargs:
         video = Clip(segment_kwargs['direct'])
 
@@ -466,19 +499,9 @@ def cmd_cuts(segment, segment_kwargs, directory=None):
         sys.exit(1)
 
 
-def ytdl_best_source(video_id, quality='b'):
-    args = ['yt-dlp', '-gf', quality, *config['yt-dlp']['args'], '--', video_id]
-
-    p = run(args, stdout=PIPE)
-
-    if p.returncode != 0:
-        raise RuntimeError(f'yt-dlp exited with non-zero code {p.returncode}')
-
-    return p.stdout.decode('utf-8').strip()
-
-
 def parse_segment(args):
     options = (('youtube', str, 'youtube'),
+               ('vk', str, 'vk'),
                ('direct', str, 'direct'),
                ('offset', Timecode, 'offset'),
                ('cuts', lambda x: Timecodes(x.split(',')), 'cuts'),
