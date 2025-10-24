@@ -457,7 +457,7 @@ def cmd_cuts(segment, segment_kwargs, directory=None):
         video = Clip(segment_kwargs['direct'])
 
     original = Clip(original_video(segment, directory))
-    diff = check_cuts(original, video, offset=int(segment.offset))
+    diff = check_cuts(original, video, offset=int(segment.offset()))
 
     if diff <= 1:
         print('The video is the same as the original')
