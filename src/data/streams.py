@@ -257,10 +257,9 @@ class Segment:
             return self.stream.subtitles_path
 
     @staticmethod
-    @cached('duration-youtube-{0[0]}')
-    def _duration_youtube(id):
+    def _duration_ytdlp(url):
         cmd = ['yt-dlp', *config['yt-dlp']['args'],
-               '--get-duration', f'https://youtu.be/{id}']
+               '--get-duration', url]
 
         out = run(cmd, stdout=PIPE)
 
@@ -270,6 +269,18 @@ class Segment:
         else:
             raise Exception(f'`{" ".join(cmd)}` exited with '
                             f'non-zero code {out.returncode}')
+
+    @staticmethod
+    @cached('duration-youtube-{0[0]}')
+    def _duration_youtube(id):
+        return Segment._duration_ytdlp(f'https://youtu.be/{id}')
+
+
+    @staticmethod
+    @cached('duration-vk-{0[0]}')
+    def _duration_vk(id):
+        return Segment._duration_ytdlp(f'https://vk.com/video{id}')
+
 
     @staticmethod
     @cached('duration-direct-{0[0]}', store=None)
@@ -295,6 +306,8 @@ class Segment:
             return Timecode(self._duration_youtube(self.youtube))
         elif self.direct:
             return Timecode(self._duration_direct(self.direct))
+        elif self.vk:
+            return Timecode(self._duration_vk(self.vk))
         else:
             return Timecode(0)
 
