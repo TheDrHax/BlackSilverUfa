@@ -17032,7 +17032,6 @@
     "youtube": "AUtQdHfaAlQ", "vk": "-28387068_456250819", "abs_start": 0, "abs_end": 31200, "duration": 31200,
     "name": "Death Stranding 2: On the Beach #5",
     "date": "2025-06-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2497212842.torrent",
     "games": ["death-stranding-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2497212842.ass"
   },
@@ -17787,5 +17786,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2599184901.torrent",
     "games": ["baby-steps", "co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2599184901.ass"
+  },
+  "2600899873": {
+    "abs_start": 0, "abs_end": 18968, "duration": 18968,
+    "name": "The Outer Worlds 2 / Dispatch",
+    "date": "2025-10-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2600899873.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2600899873.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2600899873.torrent",
+    "games": ["first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2600899873.ass"
   }
 }

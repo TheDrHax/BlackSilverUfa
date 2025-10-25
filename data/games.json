@@ -9190,6 +9190,9 @@
       ] },
       { "segment": "2597514893", "subrefs": [
         { "name": "Ninja Gaiden 4", "start": 1276 }
+      ] },
+      { "segment": "2600899873", "subrefs": [
+        { "name": "The Outer Worlds 2", "start": 2309 }
       ] }
     ]
   },
@@ -9794,6 +9797,9 @@
       { "segment": "2596691266", "subrefs": [
         { "name": "Truckful (демо)", "start": 1476 },
         { "name": "Carimara: Beneath the Forlorn Limbs", "start": 4471 }
+      ] },
+      { "segment": "2600899873", "subrefs": [
+        { "name": "Dispatch", "start": 11533 }
       ] }
     ]
   },
