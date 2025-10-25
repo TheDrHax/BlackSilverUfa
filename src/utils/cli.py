@@ -249,11 +249,11 @@ def match_candidates(segment_kwargs, directory=None, match_all=False,
     for s in streams.segments:
         forced = force_candidates and s.twitch in force_candidates
 
-        if not original_video(s, directory):
-            continue
-
         if not forced:
             if force_candidates:
+                continue
+
+            if not original_video(s, directory):
                 continue
 
             if s.youtube and s.official and not match_all:
@@ -325,35 +325,8 @@ def match_candidates(segment_kwargs, directory=None, match_all=False,
             tmp_subref.parent.subrefs.remove(tmp_subref)
 
 
-def ytdl_best_source(video_id, quality='b'):
-    args = ['yt-dlp', '-gf', quality, *config['yt-dlp']['args'], '--', video_id]
-
-    p = run(args, stdout=PIPE)
-
-    if p.returncode != 0:
-        raise RuntimeError(f'yt-dlp exited with non-zero code {p.returncode}')
-
-    return p.stdout.decode('utf-8').strip()
-
-
-def ytdl_video(video_id):
-    try:
-        print('Retrieving video from YouTube...', file=sys.stderr)
-        youtube_source = ytdl_best_source(video_id)
-        video = Clip(youtube_source)
-        video.slice(0, 1)
-    except Exception:
-        print('Falling back to bestaudio...', file=sys.stderr)
-        youtube_source = ytdl_best_source(video_id, 'bestaudio')
-        video = Clip(youtube_source)
-        video.slice(0, 1)
-    return video
-
-
-def vk_source(video_id, quality='ba[acodec^="mp4a"]'):
-    print('Retrieving video from VK...', file=sys.stderr)
-    args = ['yt-dlp', '-gf', quality, *config['yt-dlp']['args'], '--',
-            f'https://vk.com/video{video_id}']
+def ytdl_best_source(url, quality='ba[acodec^="mp4a"]'):
+    args = ['yt-dlp', '-gf', quality, *config['yt-dlp']['args'], '--', url]
 
     p = run(args, stdout=PIPE)
 
@@ -361,9 +334,15 @@ def vk_source(video_id, quality='ba[acodec^="mp4a"]'):
         raise RuntimeError(f'yt-dlp exited with non-zero code {p.returncode}')
 
     url = p.stdout.decode('utf-8').strip()
+    return Clip(url)
 
-    video = Clip(url)
-    return video
+
+def from_yt(video_id):
+    return ytdl_best_source(video_id, 'best')
+
+
+def from_vk(video_id):
+    return ytdl_best_source(f'https://vk.com/video{video_id}')
 
 
 def cmd_match(segment_kwargs, directory=None, match_all=False,
@@ -377,9 +356,17 @@ def cmd_match(segment_kwargs, directory=None, match_all=False,
                   file=sys.stderr)
             sys.exit(2)
 
-        video = ytdl_video(segment_kwargs['youtube'])
+        video = from_yt(segment_kwargs['youtube'])
     elif 'vk' in segment_kwargs:
-        video = vk_source(segment_kwargs['vk'])
+        dupes = [s for s in streams.segments
+                 if s.vk == segment_kwargs['vk']]
+
+        if len(dupes) != 0:
+            print(f'Error: Video is already assigned to segment {dupes[0].hash}',
+                  file=sys.stderr)
+            sys.exit(2)
+
+        video = from_vk(segment_kwargs['vk'])
     elif 'direct' in segment_kwargs:
         video = Clip(segment_kwargs['direct'])
     else:
@@ -409,10 +396,25 @@ def cmd_match(segment_kwargs, directory=None, match_all=False,
 
     for segment, _, s_range in candidates:
         path = original_video(segment, directory)
-        print(f'Checking segment {segment.hash} {s_range} (path: {path})',
-              file=sys.stderr)
 
-        original = Clip(path)
+        if path:
+            print(f'Checking segment {segment.hash} {s_range} (path: {path})',
+                  file=sys.stderr)
+            original = Clip(path)
+        elif segment.youtube:
+            print(f'Checking segment {segment.hash} {s_range} '
+                  f'(youtube: {segment.youtube})',
+                  file=sys.stderr)
+            original = from_yt(segment.youtube)
+        elif segment.vk:
+            print(f'Checking segment {segment.hash} {s_range} '
+                  f'(vk: {segment.vk})',
+                  file=sys.stderr)
+            original = from_vk(segment.vk)
+        else:
+            print(f'Unable to find source for segment {segment.hash}',
+                  file=sys.stderr)
+            continue
 
         try:
             offset, score = find_offset(template, original,
@@ -492,13 +494,23 @@ def check_cuts(original_video, input_video, offset=0):
 
 def cmd_cuts(segment, segment_kwargs, directory=None):
     if 'youtube' in segment_kwargs:
-        video = ytdl_video(segment_kwargs['youtube'])
+        video = from_yt(segment_kwargs['youtube'])
     elif 'vk' in segment_kwargs:
-        video = vk_source(segment_kwargs['vk'])
+        video = from_vk(segment_kwargs['vk'])
     elif 'direct' in segment_kwargs:
         video = Clip(segment_kwargs['direct'])
+    else:
+        print('Error: Video source is not supported')
+        sys.exit(2)
 
-    original = Clip(original_video(segment, directory))
+    path = original_video(segment, directory)
+
+    if not path:
+        print(f'Unable to find source for segment {segment.hash}',
+              file=sys.stderr)
+        sys.exit(2)
+
+    original = Clip(path)
     diff = check_cuts(original, video, offset=int(segment.offset()))
 
     if diff <= 1:
