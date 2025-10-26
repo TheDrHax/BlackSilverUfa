@@ -16945,9 +16945,9 @@
   },
   "2485778585": {
     "youtube": "67yNx6H-cSs", "vk": "-28387068_456250805", "abs_start": 0, "abs_end": 18356, "duration": 18356,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #26 / Liminal City (демо) / Cameraman: The Pilot Episode (демо) / Clown is Hungry (демо) / Fecal Freighter / Dr. Viscera / Fire in the Dark (демо) / Emotionless: The Last Ticket / Five Nights at Freddy's: Secret of the Mimic #1",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #26 / Liminal City (демо) / Cameraman: The Pilot Episode (демо) / Clown Is Hungry - Демо / Fecal Freighter / Dr. Viscera / Fire in the Dark (демо) / Emotionless: The Last Ticket / Five Nights at Freddy's: Secret of the Mimic #1",
     "date": "2025-06-14",
-    "games": ["horrors-2025", "single-2025", "first-2025", "fnaf-sotm"],
+    "games": ["horrors-2025", "single-2025", "clown-is-hungry", "first-2025", "fnaf-sotm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2485778585.ass"
   },
   "2486684400": {
@@ -17039,7 +17039,6 @@
     "youtube": "DxD-d3AXwic", "vk": "-28387068_456250820", "abs_start": 0, "abs_end": 31687, "duration": 31687,
     "name": "Death Stranding 2: On the Beach #6",
     "date": "2025-06-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2498121541.torrent",
     "games": ["death-stranding-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2498121541.ass"
   },
@@ -17717,10 +17716,10 @@
   },
   "2591591751": {
     "youtube": "wnQC2GfgRJk", "vk": "-28387068_456250948", "abs_start": 0, "abs_end": 18332, "duration": 18332,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #45 / Backrooms: Facility Unknown (демо) / Hellmart (демо) / Huntsman (демо) / Don't Feed The Cat (демо) / Ufophilia (демо) / No Players Online - Демо 2 / Untold Chronicles: The Harvest (демо) / Overcome Your Fears: Caretaker (демо) / Way of Madness (демо) / Unmourned (демо)",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #45 / Backrooms: Facility Unknown (демо) / Hellmart (демо) / Huntsman (демо) / Don't Feed The Cat (демо) / Ufophilia (демо) / No Players Online - Демо 2 / Untold Chronicles: The Harvest (демо) / Overcome Your Fears: Caretaker - Демо / Way of Madness (демо) / Unmourned (демо)",
     "date": "2025-10-14",
     "torrent": "https://bsufiles.drhx.ru/streams/2591591751.torrent",
-    "games": ["horrors-2025", "single-2025", "first-2025", "no-players-online"],
+    "games": ["horrors-2025", "single-2025", "first-2025", "no-players-online", "oyf-caretaker"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2591591751.ass"
   },
   "2592399538": {
@@ -17794,5 +17793,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2600899873.torrent",
     "games": ["first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2600899873.ass"
+  },
+  "2601825205": {
+    "abs_start": 0, "abs_end": 18706, "duration": 18706,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #48 / Shifting To The Backrooms / Clown Is Hungry - Прохождение / You've Got a Package / Overcome Your Fears: Caretaker - Прохождение / Lola Maria",
+    "date": "2025-10-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2601825205.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2601825205.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2601825205.torrent",
+    "games": ["horrors-2025", "first-2025", "clown-is-hungry", "oyf-caretaker", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2601825205.ass"
   }
 }
