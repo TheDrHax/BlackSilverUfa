@@ -17046,7 +17046,6 @@
     "youtube": "ipu4WNEtDfM", "official": false, "abs_start": 0, "abs_end": 11988, "duration": 11988,
     "name": "Cyberpunk 2077 #13 / Death Stranding 2: On the Beach #7",
     "date": "2025-07-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2500703382.torrent",
     "games": ["cyberpunk-2077", "death-stranding-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2500703382.ass"
   },
@@ -17054,7 +17053,6 @@
     "youtube": "QbGgUyFzI4g", "vk": "-28387068_456250822", "abs_start": 0, "abs_end": 18929, "duration": 18929,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #28 / Rohner's Backrooms / LIMSCAPE / Don't Mess With Bober / Loan Shark - Демо / Arachnoid / Place (демо) / Bunker 73",
     "date": "2025-07-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2505174390.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025", "loan-shark"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2505174390.ass"
   },
@@ -17780,10 +17778,10 @@
   },
   "2599184901": {
     "youtube": "fc2hYY60waw", "vk": "-28387068_456250963", "abs_start": 0, "abs_end": 25660, "duration": 25660,
-    "name": "Baby Steps #4 / RV There Yet?",
+    "name": "Baby Steps #4 / RV There Yet? #1",
     "date": "2025-10-23",
     "torrent": "https://bsufiles.drhx.ru/streams/2599184901.torrent",
-    "games": ["baby-steps", "co-op"],
+    "games": ["baby-steps", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2599184901.ass"
   },
   "2600899873": {
@@ -17801,5 +17799,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2601825205.torrent",
     "games": ["horrors-2025", "first-2025", "clown-is-hungry", "oyf-caretaker", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2601825205.ass"
+  },
+  "2602597096": {
+    "abs_start": 0, "abs_end": 29978, "duration": 29978,
+    "name": "Baby Steps #5 / RV There Yet? #2",
+    "date": "2025-10-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2602597096.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2602597096.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2602597096.torrent",
+    "games": ["baby-steps", "rv-there-yet"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2602597096.ass"
   }
 }
