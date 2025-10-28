@@ -17807,5 +17807,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2602597096.torrent",
     "games": ["baby-steps", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2602597096.ass"
+  },
+  "2603446878": {
+    "abs_start": 0, "abs_end": 8294, "duration": 8294,
+    "name": "Baby Steps #6",
+    "date": "2025-10-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2603446878.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2603446878.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2603446878.torrent",
+    "games": ["baby-steps"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2603446878.ass"
   }
 }
