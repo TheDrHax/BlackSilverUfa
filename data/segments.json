@@ -16212,9 +16212,9 @@
   },
   "2389049577": {
     "youtube": "9Rp5voV6lt4", "vk": "-28387068_456250641", "abs_start": 0, "abs_end": 18127, "duration": 18127,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #7 / Backrooms Level X (демо) / Baptiste (демо) / Suffocate / Hell of a Birthday / Unforgotten: Ordinance / The Unholy Priest",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #7 / Backrooms Level X (демо) / Baptiste (демо) / Suffocate - Демо / Hell of a Birthday / Unforgotten: Ordinance / The Unholy Priest",
     "date": "2025-02-23",
-    "games": ["horrors-2025", "single-2025", "first-2025", "mgf-games"],
+    "games": ["horrors-2025", "single-2025", "suffocate", "mgf-games", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2389049577.ass"
   },
   "2389893992": {
@@ -17060,7 +17060,6 @@
     "youtube": "93Z-mvTKoAE", "vk": "-28387068_456250825", "abs_start": 0, "abs_end": 18771, "duration": 18771,
     "name": "Car Dealer Simulator / System Shock 2: 25th Anniversary Remaster / The Classrooms #4",
     "date": "2025-07-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2506017612.torrent",
     "games": ["first-2025", "classrooms"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2506017612.ass"
   },
@@ -17068,7 +17067,6 @@
     "youtube": "6jaJrpdIKQ0", "vk": "-28387068_456250827", "abs_start": 0, "abs_end": 25715, "duration": 25715,
     "name": "Saloon Simulator / RoadCraft #4 / PowerWash Simulator #5",
     "date": "2025-07-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2506869345.torrent",
     "games": ["first-2025", "roadcraft", "powerwash-sim"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2506869345.ass"
   },
@@ -17817,5 +17815,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2603446878.torrent",
     "games": ["baby-steps"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2603446878.ass"
+  },
+  "2604295684": {
+    "abs_start": 0, "abs_end": 22228, "duration": 22228,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #49 / Liminal Shroud (демо) / Forbidden Terror: Board Game / Midnight Crane / Suffocate - Релиз / Edge / Geamana Village",
+    "date": "2025-10-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2604295684.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2604295684.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2604295684.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025", "suffocate"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2604295684.ass"
   }
 }
