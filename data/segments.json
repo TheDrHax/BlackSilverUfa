@@ -17074,7 +17074,6 @@
     "youtube": "2hWUh8yiCXQ", "vk": "-28387068_456250828", "abs_start": 0, "abs_end": 18435, "duration": 18435,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #29 / The Backrooms: Expedition / The Puppy / Bark / Sunset Beach / The Echo Paradox #1 / Paranormal Torment / Last Laugh",
     "date": "2025-07-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2507784545.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025", "echo-paradox"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2507784545.ass"
   },
@@ -17082,7 +17081,6 @@
     "youtube": "ZxsBZcU_JLI", "vk": "-28387068_456250829", "abs_start": 0, "abs_end": 18041, "duration": 18041,
     "name": "The Echo Paradox #2 / The Classrooms #5 / BrokenLore: LOW - Прохождение",
     "date": "2025-07-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2508662587.torrent",
     "games": ["echo-paradox", "classrooms", "brokenlore-low"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2508662587.ass"
   },
@@ -17784,10 +17782,10 @@
   },
   "2600899873": {
     "youtube": "6duFlGPOpEc", "vk": "-28387068_456250964", "abs_start": 0, "abs_end": 18969, "duration": 18969,
-    "name": "The Outer Worlds 2 / Dispatch",
+    "name": "The Outer Worlds 2 / Dispatch - Эпизоды 1, 2",
     "date": "2025-10-25",
     "torrent": "https://bsufiles.drhx.ru/streams/2600899873.torrent",
-    "games": ["first-2025", "single-2025"],
+    "games": ["first-2025", "dispatch"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2600899873.ass"
   },
   "2601825205": {
@@ -17821,5 +17819,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2604295684.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "suffocate"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2604295684.ass"
+  },
+  "2605125914": {
+    "abs_start": 0, "abs_end": 30274, "duration": 30274,
+    "name": "Dispatch - Эпизоды 3, 4 / ARC Raiders #3 (с Артёмом)",
+    "date": "2025-10-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2605125914.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2605125914.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2605125914.torrent",
+    "games": ["dispatch", "arc-raiders"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2605125914.ass"
   }
 }

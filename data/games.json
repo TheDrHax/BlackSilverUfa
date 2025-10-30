@@ -8987,8 +8987,7 @@
         { "name": "Backrooms: Exit from Supermarket Horror (демо)", "start": 4064 }
       ] },
       { "segment": "2449126768", "subrefs": [
-        { "name": "Cop Bastard (демо)", "start": 15974 },
-        { "name": "ARC Raiders (продолжение)", "start": 18793, "hidden": true }
+        { "name": "Cop Bastard (демо)", "start": 15974 }
       ] },
       { "segment": "2450093054", "subrefs": [
         { "name": "Sunken Veins", "start": 9042 },
@@ -9800,9 +9799,6 @@
       { "segment": "2596691266", "subrefs": [
         { "name": "Truckful (демо)", "start": 1476 },
         { "name": "Carimara: Beneath the Forlorn Limbs", "start": 4471 }
-      ] },
-      { "segment": "2600899873", "subrefs": [
-        { "name": "Dispatch", "start": 11533 }
       ] },
       { "segment": "2601825205", "subrefs": [
         { "name": "Lola Maria", "start": 15781 }
@@ -19606,10 +19602,14 @@
     "id": "arc-raiders",
     "streams": [
       { "segment": "2449126768", "subrefs": [
-        { "name": "1", "start": 2280 }
+        { "name": "1", "start": 2280 },
+        { "name": "1 (продолжение)", "start": 18793, "hidden": true }
       ] },
       { "segment": "2594940527", "subrefs": [
         { "name": "2", "start": 4718 }
+      ] },
+      { "segment": "2605125914", "subrefs": [
+        { "name": "3 (с Артёмом)", "start": 10342 }
       ] }
     ]
   },
@@ -19688,6 +19688,19 @@
       ] },
       { "segment": "2604295684", "subrefs": [
         { "name": "Релиз", "start": 12760 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dispatch",
+    "category": "ongoing",
+    "id": "dispatch",
+    "streams": [
+      { "segment": "2600899873", "subrefs": [
+        { "name": "Эпизоды 1, 2", "start": 11533 }
+      ] },
+      { "segment": "2605125914", "subrefs": [
+        { "name": "Эпизоды 3, 4", "start": 437 }
       ] }
     ]
   }
