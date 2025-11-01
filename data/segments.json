@@ -17088,7 +17088,6 @@
     "youtube": "JCm_6_GdibE", "official": false, "abs_start": 0, "abs_end": 24487, "duration": 24487,
     "name": "RoboCop: Rogue City #3 / Peak #1",
     "date": "2025-07-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2510385552.torrent",
     "games": ["robocop", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2510385552.ass"
   },
@@ -17829,5 +17828,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2605125914.torrent",
     "games": ["dispatch", "arc-raiders"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2605125914.ass"
+  },
+  "2606867913": {
+    "abs_start": 0, "abs_end": 23322, "duration": 23322,
+    "name": "Baby Steps #7 / ARC Raiders #4 (с Артёмом)",
+    "date": "2025-11-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2606867913.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2606867913.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2606867913.torrent",
+    "games": ["baby-steps", "arc-raiders"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2606867913.ass"
   }
 }
