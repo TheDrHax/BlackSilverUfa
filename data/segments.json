@@ -17095,7 +17095,6 @@
     "youtube": "XA1DQFvcWHM", "vk": "-28387068_456250832", "abs_start": 0, "abs_end": 19295, "duration": 19295,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #30 / Paradise Nowhere (демо) / The Green Light (демо) / Dread Flats / Gordy / Shift at Midnight (демо)",
     "date": "2025-07-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2511344577.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2511344577.ass"
   },
@@ -17103,7 +17102,6 @@
     "youtube": "cEEhqz561To", "official": false, "abs_start": 0, "abs_end": 5138, "duration": 5138,
     "name": "RoboCop: Rogue City #4",
     "date": "2025-07-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2513036056.torrent",
     "games": ["robocop"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2513036056.ass"
   },
@@ -17111,7 +17109,6 @@
     "youtube": "cIJ1zE97eoE", "vk": "-28387068_456250834", "abs_start": 0, "abs_end": 20771, "duration": 20771,
     "name": "Lucky Tower Ultimate #20 / Peak #2",
     "date": "2025-07-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2513085560.torrent",
     "games": ["lucky-tower", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2513085560.ass"
   },
@@ -17836,5 +17833,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2606867913.torrent",
     "games": ["baby-steps", "arc-raiders"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2606867913.ass"
+  },
+  "2607817978": {
+    "abs_start": 0, "abs_end": 20849, "duration": 20849,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #50 / Subliminal (демо) / Last Stall / Night of the Extinct / The Radio Tower / The Roach Hotel / One Halloween Night / Brother Hai's Pho Restaurant / My Sleeping Girlfriend",
+    "date": "2025-11-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2607817978.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2607817978.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2607817978.torrent",
+    "games": ["horrors-2025", "single-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2607817978.ass"
   }
 }

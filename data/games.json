@@ -9197,6 +9197,10 @@
         { "name": "Liminal Shroud (демо)", "start": 3294 },
         { "name": "Midnight Crane", "start": 8512 },
         { "name": "Geamana Village", "start": 18649 }
+      ] },
+      { "segment": "2607817978", "subrefs": [
+        { "name": "Night of the Extinct", "start": 5220 },
+        { "name": "Brother Hai's Pho Restaurant", "start": 15389 }
       ] }
     ]
   },
@@ -9806,6 +9810,14 @@
       { "segment": "2604295684", "subrefs": [
         { "name": "Forbidden Terror: Board Game", "start": 5588 },
         { "name": "Edge", "start": 14661 }
+      ] },
+      { "segment": "2607817978", "subrefs": [
+        { "name": "Subliminal (демо)", "start": 1842 },
+        { "name": "Last Stall", "start": 3969 },
+        { "name": "The Radio Tower", "start": 6668 },
+        { "name": "The Roach Hotel", "start": 7888 },
+        { "name": "One Halloween Night", "start": 12324 },
+        { "name": "My Sleeping Girlfriend", "start": 17174 }
       ] }
     ]
   },
@@ -17757,6 +17769,9 @@
       ] },
       { "segment": "2604295684", "subrefs": [
         { "name": "49" }
+      ] },
+      { "segment": "2607817978", "subrefs": [
+        { "name": "50" }
       ] }
     ]
   },
