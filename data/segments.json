@@ -17123,7 +17123,6 @@
     "youtube": "ad_YEYWpQno", "vk": "-28387068_456250837", "abs_start": 0, "abs_end": 10337, "duration": 10337,
     "name": "Star Citizen #3",
     "date": "2025-07-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2514830802.torrent",
     "games": ["star-citizen"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2514830802.ass"
   },
@@ -17131,7 +17130,6 @@
     "youtube": "77mIvxCUack", "vk": "-28387068_456250838", "abs_start": 0, "abs_end": 33035, "duration": 33035,
     "name": "Donkey Kong Bananza #1 / Dune: Awakening - Кооп",
     "date": "2025-07-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2515697927.torrent",
     "games": ["donkey-kong-bananza", "dune-awakening"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2515697927.ass"
   },
@@ -17846,5 +17844,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2608631583.torrent",
     "games": ["arc-raiders", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2608631583.ass"
+  },
+  "2613840501": {
+    "abs_start": 0, "abs_end": 21981, "duration": 21981,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #51 / Liminal Waters / Don't Look at Grandma / Iblis 3: Phenomena / Kola Abyss / I'm not a Robot / The Scarlet Harvest",
+    "date": "2025-11-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2613840501.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2613840501.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2613840501.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2613840501.ass"
   }
 }
