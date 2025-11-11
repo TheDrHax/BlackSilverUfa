@@ -17144,7 +17144,6 @@
     "youtube": "wEoqHxL8vA4", "vk": "-28387068_456250840", "abs_start": 0, "abs_end": 18953, "duration": 18953,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #31 / The Complex: Found Footage #2 / Nightmare Shift / Office After Hours #1",
     "date": "2025-07-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2517564061.torrent",
     "games": ["horrors-2025", "the-complex-ff", "first-2025", "office-after-hours"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2517564061.ass"
   },
@@ -17859,5 +17858,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2614675112.torrent",
     "games": ["dispatch", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2614675112.ass"
+  },
+  "2615504145": {
+    "abs_start": 0, "abs_end": 22107, "duration": 22107,
+    "name": "Egging On / Baby Steps #8 / Hypogea / ARC Raiders #6",
+    "date": "2025-11-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2615504145.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2615504145.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2615504145.torrent",
+    "games": ["first-2025", "baby-steps", "arc-raiders"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2615504145.ass"
   }
 }
