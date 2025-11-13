@@ -9781,8 +9781,7 @@
       { "segment": "2582997412", "subrefs": [
         { "name": "Backrooms (?)", "start": 3633 },
         { "name": "Metroliminal (демо)", "start": 4301 },
-        { "name": "Stay With Him", "start": 10411 },
-        { "name": "Junji Ito Maniac: An Infinite Gaol (демо)", "start": 15108 }
+        { "name": "Stay With Him", "start": 10411 }
       ] },
       { "segment": "2587965611", "subrefs": [
         { "name": "Little Nightmares 3", "start": 1415 }
@@ -19550,6 +19549,9 @@
       ] },
       { "segment": "2615504145", "subrefs": [
         { "name": "8", "start": 4280 }
+      ] },
+      { "segment": "2617288297", "subrefs": [
+        { "name": "9", "start": 15274 }
       ] }
     ]
   },
@@ -19746,7 +19748,7 @@
   },
   {
     "name": "Dispatch",
-    "category": "ongoing",
+    "category": "finished",
     "id": "dispatch",
     "streams": [
       { "segment": "2600899873", "subrefs": [
@@ -19757,6 +19759,22 @@
       ] },
       { "segment": "2614675112", "subrefs": [
         { "name": "Эпизоды 5, 6", "start": 1596 }
+      ] },
+      { "segment": "2617288297", "subrefs": [
+        { "name": "Эпизоды 7, 8", "start": 1405 }
+      ] }
+    ]
+  },
+  {
+    "name": "Junji Ito Maniac: An Infinite Gaol",
+    "category": "ongoing",
+    "id": "junji-ito-maniac",
+    "streams": [
+      { "segment": "2582997412", "subrefs": [
+        { "name": "Демо", "start": 15108 }
+      ] },
+      { "segment": "2617288297", "subrefs": [
+        { "name": "1", "start": 14476 }
       ] }
     ]
   }

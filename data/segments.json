@@ -17151,7 +17151,6 @@
     "youtube": "S22Xn6W34MI", "vk": "-28387068_456250841", "abs_start": 0, "abs_end": 19514, "duration": 19514,
     "name": "Luto #1 / True Nightmare: Roadside Сafe - Прохождение",
     "date": "2025-07-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2519328152.torrent",
     "games": ["luto", "true-nightmare-rc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2519328152.ass"
   },
@@ -17653,10 +17652,10 @@
   },
   "2582997412": {
     "youtube": "RTMhyJf_abI", "vk": "-28387068_456250938", "abs_start": 0, "abs_end": 19986, "duration": 19986,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #43 / Backrooms (?) / Metroliminal (демо) / Outlast: Lost Footage / IRE: A Prologue (демо) / Stay With Him / The 9th Charnel - Демо 2 / Side Effects (демо) / Junji Ito Maniac: An Infinite Gaol (демо) / Owl Lights",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #43 / Backrooms (?) / Metroliminal (демо) / Outlast: Lost Footage / IRE: A Prologue (демо) / Stay With Him / The 9th Charnel - Демо 2 / Side Effects (демо) / Junji Ito Maniac: An Infinite Gaol - Демо / Owl Lights",
     "date": "2025-10-04",
     "torrent": "https://bsufiles.drhx.ru/streams/2582997412.torrent",
-    "games": ["horrors-2025", "single-2025", "first-2025", "9th-charnel"],
+    "games": ["horrors-2025", "single-2025", "first-2025", "9th-charnel", "junji-ito-maniac"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2582997412.ass"
   },
   "2583885410": {
@@ -17866,5 +17865,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2615504145.torrent",
     "games": ["first-2025", "baby-steps", "arc-raiders"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2615504145.ass"
+  },
+  "2617288297": {
+    "abs_start": 0, "abs_end": 19264, "duration": 19264,
+    "name": "Dispatch - Эпизоды 7, 8 / Junji Ito Maniac: An Infinite Gaol #1 / Baby Steps #9",
+    "date": "2025-11-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2617288297.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2617288297.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2617288297.torrent",
+    "games": ["dispatch", "junji-ito-maniac", "baby-steps"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2617288297.ass"
   }
 }
