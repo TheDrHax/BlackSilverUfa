@@ -17165,7 +17165,6 @@
     "youtube": "7iAi7TV7kHY", "vk": "-28387068_456250846", "abs_start": 0, "abs_end": 23173, "duration": 23173,
     "name": "WUCHANG: Fallen Feathers",
     "date": "2025-07-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2521049196.torrent",
     "games": ["first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2521049196.ass"
   },
@@ -17880,5 +17879,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2623328029.torrent",
     "games": ["single-2025", "first-2025", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2623328029.ass"
+  },
+  "2624166642": {
+    "abs_start": 0, "abs_end": 18409, "duration": 18409,
+    "name": "Total Chaos #1",
+    "date": "2025-11-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2624166642.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2624166642.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2624166642.torrent",
+    "games": ["total-chaos"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2624166642.ass"
   }
 }
