@@ -11197,9 +11197,9 @@
   },
   "1563545448": {
     "youtube": "qDJ6j3Jsdpo", "abs_start": 0, "abs_end": 21080, "duration": 21080,
-    "name": "Self-Delusion / Noch - Релиз / Escape the Backrooms / MONSTRUM 2 #2",
+    "name": "Self-Delusion / Noch - Релиз / Escape the Backrooms #1 / MONSTRUM 2 #2",
     "date": "2022-08-16",
-    "games": ["first-2022", "noch", "monstrum-2"],
+    "games": ["first-2022", "noch", "escape-the-backrooms", "monstrum-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1563545448.ass"
   },
   "1564505950": {
@@ -16592,9 +16592,9 @@
   },
   "2444003656": {
     "youtube": "OkiCms9FPeQ", "vk": "-28387068_456250741", "abs_start": 0, "abs_end": 21922, "duration": 21922,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #18 / Seclusion / Backrooms: Exit from Supermarket Horror (демо) / Fear The Unknown: Dave Story / Mara (демо) / BrokenLore: Don't Watch - Прохождение / Post Trauma - Релиз",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #18 / Seclusion / Backrooms: Exit from Supermarket Horror (демо) / Fear The Unknown: Dave Story / Mara - Демо / BrokenLore: Don't Watch - Прохождение / Post Trauma - Релиз",
     "date": "2025-04-27",
-    "games": ["horrors-2025", "first-2025", "single-2025", "brokenlore-dw", "post-trauma"],
+    "games": ["horrors-2025", "first-2025", "single-2025", "mara", "brokenlore-dw", "post-trauma"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2444003656.ass"
   },
   "2444808287": {
@@ -17179,7 +17179,6 @@
     "youtube": "3qzg_OW_gDI", "vk": "-28387068_456250851", "abs_start": 0, "abs_end": 19476, "duration": 19476,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #32 / Walking In / Analog: Skin off / s.p.l.i.t #1 / The Miller Farm / Bleak Haven (демо) / Death Relives - Релиз / Eight Feet Tall",
     "date": "2025-07-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2523773918.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "split", "death-relives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2523773918.ass"
   },
@@ -17286,10 +17285,10 @@
   },
   "2537171488": {
     "youtube": "Orl_cR_eJc0", "vk": "-28387068_456250866", "abs_start": 0, "abs_end": 22477, "duration": 22477,
-    "name": "A.I.L.A (демо) / Lost Luminosity / Deadcam / SLACKJAW / Them",
+    "name": "A.I.L.A (демо) / Lost Luminosity / Deadcam #1 / SLACKJAW / Them",
     "date": "2025-08-11",
     "torrent": "https://bsufiles.drhx.ru/streams/2537171488.torrent",
-    "games": ["single-2025"],
+    "games": ["single-2025", "deadcam"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2537171488.ass"
   },
   "2538025119": {
@@ -17894,5 +17893,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2625048351.torrent",
     "games": ["baby-steps", "rv-there-yet", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2625048351.ass"
+  },
+  "2625967059": {
+    "abs_start": 0, "abs_end": 16933, "duration": 16933,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #52 / Escape the Backrooms #2 / Mara - Прохождение / Meat Room / Violent Horror Stories 2 / Deadcam #2",
+    "date": "2025-11-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2625967059.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2625967059.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2625967059.torrent",
+    "games": ["horrors-2025", "escape-the-backrooms", "mara", "first-2025", "deadcam"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2625967059.ass"
   }
 }
