@@ -9218,6 +9218,11 @@
       { "segment": "2625967059", "subrefs": [
         { "name": "Meat Room", "start": 7709 },
         { "name": "Violent Horror Stories 2", "start": 9772 }
+      ] },
+      { "segment": "2626812026", "subrefs": [
+        { "name": "Backrooms: Reminiscence", "start": 2148 },
+        { "name": "Drowned Lake (демо)", "start": 6193 },
+        { "name": "The Salesman", "start": 12350 }
       ] }
     ]
   },
@@ -9846,6 +9851,10 @@
         { "name": "Secret Lab Cleaner (демо)", "start": 4875 },
         { "name": "Fight-Quest (демо)", "start": 9763 },
         { "name": "Fight-Quest (демо) (продолжение)", "start": 12615, "hidden": true }
+      ] },
+      { "segment": "2626812026", "subrefs": [
+        { "name": "The Holiday Story", "start": 8535 },
+        { "name": "Christmas Story", "start": 15300 }
       ] }
     ]
   },
@@ -17809,6 +17818,9 @@
       ] },
       { "segment": "2625967059", "subrefs": [
         { "name": "52" }
+      ] },
+      { "segment": "2626812026", "subrefs": [
+        { "name": "53" }
       ] }
     ]
   },

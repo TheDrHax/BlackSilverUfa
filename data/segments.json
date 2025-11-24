@@ -17186,7 +17186,6 @@
     "youtube": "sFnGnKpn6sY", "vk": "-28387068_456250852", "abs_start": 0, "abs_end": 25405, "duration": 25405,
     "name": "Crime Scene Cleaner #15 / Лихо одноглазое (One-Eyed Likho) - Релиз",
     "date": "2025-07-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2524621393.torrent",
     "games": ["csc", "one-eyed-likho"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2524621393.ass"
   },
@@ -17901,5 +17900,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2625967059.torrent",
     "games": ["horrors-2025", "escape-the-backrooms", "mara", "first-2025", "deadcam"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2625967059.ass"
+  },
+  "2626812026": {
+    "abs_start": 0, "abs_end": 19202, "duration": 19202,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #53 / Backrooms: Reminiscence / Drowned Lake (демо) / The Holiday Story / The Salesman / Christmas Story",
+    "date": "2025-11-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2626812026.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2626812026.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2626812026.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2626812026.ass"
   }
 }
