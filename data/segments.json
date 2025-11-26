@@ -17284,10 +17284,10 @@
   },
   "2537171488": {
     "youtube": "Orl_cR_eJc0", "vk": "-28387068_456250866", "abs_start": 0, "abs_end": 22477, "duration": 22477,
-    "name": "A.I.L.A (демо) / Lost Luminosity / Deadcam #1 / SLACKJAW / Them",
+    "name": "A.I.L.A - Демо / Lost Luminosity / Deadcam #1 / SLACKJAW / Them",
     "date": "2025-08-11",
     "torrent": "https://bsufiles.drhx.ru/streams/2537171488.torrent",
-    "games": ["single-2025", "deadcam"],
+    "games": ["aila", "single-2025", "deadcam"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2537171488.ass"
   },
   "2538025119": {
@@ -17908,5 +17908,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2626812026.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2626812026.ass"
+  },
+  "2628460943": {
+    "abs_start": 0, "abs_end": 17851, "duration": 17851,
+    "name": "A.I.L.A #1",
+    "date": "2025-11-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2628460943.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2628460943.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2628460943.torrent",
+    "games": ["aila"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2628460943.ass"
   }
 }

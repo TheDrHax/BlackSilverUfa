@@ -9723,7 +9723,6 @@
         { "name": "Peasant Nightmare", "start": 16114 }
       ] },
       { "segment": "2537171488", "subrefs": [
-        { "name": "A.I.L.A (демо)", "start": 1839 },
         { "name": "Lost Luminosity", "start": 4996 },
         { "name": "SLACKJAW", "start": 14291 },
         { "name": "Them", "start": 17974 }
@@ -19853,6 +19852,19 @@
       ] },
       { "segment": "2625967059", "subrefs": [
         { "name": "2", "start": 13964 }
+      ] }
+    ]
+  },
+  {
+    "name": "A.I.L.A",
+    "category": "ongoing",
+    "id": "aila",
+    "streams": [
+      { "segment": "2537171488", "subrefs": [
+        { "name": "Демо", "start": 1839 }
+      ] },
+      { "segment": "2628460943", "subrefs": [
+        { "name": "1", "start": 1935 }
       ] }
     ]
   }
