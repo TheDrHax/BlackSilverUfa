@@ -10726,7 +10726,6 @@
         { "name": "Grunn", "start": 15119 }
       ] },
       { "segment": "2274972530", "subrefs": [
-        { "name": "Hail to the Rainbow (демо)", "start": 3238 },
         { "name": "Below, Rusted Gods (демо)", "start": 8026 },
         { "name": "ФУ: Зеленые Глаза (демо)", "start": 10456 },
         { "name": "Fear the Timeloop (демо)", "start": 15886 }
@@ -19865,6 +19864,19 @@
       ] },
       { "segment": "2628460943", "subrefs": [
         { "name": "1", "start": 1935 }
+      ] }
+    ]
+  },
+  {
+    "name": "Hail to the Rainbow",
+    "category": "ongoing",
+    "id": "hail-to-the-rainbow",
+    "streams": [
+      { "segment": "2274972530", "subrefs": [
+        { "name": "Демо", "start": 3238 }
+      ] },
+      { "segment": "2629272689", "subrefs": [
+        { "name": "1", "start": 1688 }
       ] }
     ]
   }

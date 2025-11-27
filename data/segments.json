@@ -15522,9 +15522,9 @@
   },
   "2274972530": {
     "youtube": "lVILsyKo6UQ", "vk": "-28387068_456250455", "abs_start": 0, "abs_end": 17757, "duration": 17757,
-    "name": "Hail to the Rainbow (демо) / Below, Rusted Gods (демо) / ФУ: Зеленые Глаза (демо) / Butcher's Creek (демо) / Creepy Shift: Roadside Diner - Демо / Fear the Timeloop (демо)",
+    "name": "Hail to the Rainbow - Демо / Below, Rusted Gods (демо) / ФУ: Зеленые Глаза (демо) / Butcher's Creek (демо) / Creepy Shift: Roadside Diner - Демо / Fear the Timeloop (демо)",
     "date": "2024-10-13",
-    "games": ["single-2024", "first-2024", "creepy-shift-rd"],
+    "games": ["hail-to-the-rainbow", "single-2024", "first-2024", "creepy-shift-rd"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2274972530.ass"
   },
   "2275791324": {
@@ -17193,7 +17193,6 @@
     "youtube": "zdYk0SKORAU", "vk": "-28387068_456250853", "abs_start": 0, "abs_end": 12047, "duration": 12047,
     "name": "Low-Budget Repairs (Playtest) #1",
     "date": "2025-07-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2526430465.torrent",
     "games": ["low-budget-repairs"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2526430465.ass"
   },
@@ -17201,7 +17200,6 @@
     "youtube": "W9x92a23MVM", "vk": "-28387068_456250855", "abs_start": 0, "abs_end": 23046, "duration": 23046,
     "name": "Nintendo Direct (июль 2025) / Low-Budget Repairs (Playtest) #2 / Warhammer 40,000: Space Marine II (кооп) #6 (с Дашей)",
     "date": "2025-07-31",
-    "torrent": "https://bsufiles.drhx.ru/streams/2527282113.torrent",
     "games": ["expos", "low-budget-repairs", "wh40k-sm2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2527282113.ass"
   },
@@ -17916,5 +17914,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2628460943.torrent",
     "games": ["aila"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2628460943.ass"
+  },
+  "2629272689": {
+    "abs_start": 0, "abs_end": 19404, "duration": 19404,
+    "name": "Hail to the Rainbow #1",
+    "date": "2025-11-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2629272689.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2629272689.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2629272689.torrent",
+    "games": ["hail-to-the-rainbow"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2629272689.ass"
   }
 }
