@@ -19390,7 +19390,7 @@
   },
   {
     "name": "The Exit 8",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "exit-8",
     "streams": [
       { "segment": "1994975780", "subrefs": [
@@ -19877,6 +19877,9 @@
       ] },
       { "segment": "2629272689", "subrefs": [
         { "name": "1", "start": 1688 }
+      ] },
+      { "segment": "2629991106", "subrefs": [
+        { "name": "2", "start": 1139 }
       ] }
     ]
   }
