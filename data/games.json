@@ -9216,13 +9216,25 @@
         { "name": "Coconut Simulator 2", "start": 11835 }
       ] },
       { "segment": "2625967059", "subrefs": [
-        { "name": "Meat Room", "start": 7709 },
-        { "name": "Violent Horror Stories 2", "start": 9772 }
+        { "name": "Meat Room", "start": 7709 }
       ] },
       { "segment": "2626812026", "subrefs": [
         { "name": "Backrooms: Reminiscence", "start": 2148 },
         { "name": "Drowned Lake (демо)", "start": 6193 },
         { "name": "The Salesman", "start": 12350 }
+      ] }
+    ]
+  },
+  {
+    "name": "Violent Horror Stories 2",
+    "category": "ongoing",
+    "id": "vhs2",
+    "streams": [
+      { "segment": "2625967059", "subrefs": [
+        { "name": "1", "start": 9772 }
+      ] },
+      { "segment": "2630838765", "subrefs": [
+        { "name": "2", "start": 17237 }
       ] }
     ]
   },
@@ -19864,12 +19876,15 @@
       ] },
       { "segment": "2628460943", "subrefs": [
         { "name": "1", "start": 1935 }
+      ] },
+      { "segment": "2630838765", "subrefs": [
+        { "name": "2", "start": 1939 }
       ] }
     ]
   },
   {
     "name": "Hail to the Rainbow",
-    "category": "ongoing",
+    "category": "finished",
     "id": "hail-to-the-rainbow",
     "streams": [
       { "segment": "2274972530", "subrefs": [

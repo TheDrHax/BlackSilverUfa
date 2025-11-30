@@ -17214,7 +17214,6 @@
     "youtube": "IPiaD1LslJs", "vk": "-28387068_456250857", "abs_start": 0, "abs_end": 18874, "duration": 18874,
     "name": "THQ Nordic Digital Showcase 2025 / Ells Tales: Chairbound #1 / NINJA GAIDEN: Ragebound",
     "date": "2025-08-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2529080504.torrent",
     "games": ["expos", "ells-tales-chair", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2529080504.ass"
   },
@@ -17892,10 +17891,10 @@
   },
   "2625967059": {
     "youtube": "bNHg1HiaKcw", "vk": "-28387068_456250983", "abs_start": 0, "abs_end": 16933, "duration": 16933,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #52 / Escape the Backrooms #2 / Mara - Прохождение / Meat Room / Violent Horror Stories 2 / Deadcam #2",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #52 / Escape the Backrooms #2 / Mara - Прохождение / Meat Room / Violent Horror Stories 2 #1 / Deadcam #2",
     "date": "2025-11-23",
     "torrent": "https://bsufiles.drhx.ru/streams/2625967059.torrent",
-    "games": ["horrors-2025", "escape-the-backrooms", "mara", "first-2025", "deadcam"],
+    "games": ["horrors-2025", "escape-the-backrooms", "mara", "first-2025", "vhs2", "deadcam"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2625967059.ass"
   },
   "2626812026": {
@@ -17929,5 +17928,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2629991106.torrent",
     "games": ["hail-to-the-rainbow"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2629991106.ass"
+  },
+  "2630838765": {
+    "abs_start": 0, "abs_end": 25899, "duration": 25899,
+    "name": "A.I.L.A #2 / Violent Horror Stories 2 #2",
+    "date": "2025-11-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2630838765.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2630838765.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2630838765.torrent",
+    "games": ["aila", "vhs2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2630838765.ass"
   }
 }
