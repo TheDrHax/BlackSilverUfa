@@ -17228,7 +17228,6 @@
     "youtube": "XsbDrRfmJw0", "vk": "-28387068_456250861", "abs_start": 0, "abs_end": 23839, "duration": 23839,
     "name": "Ells Tales: Chairbound #2 / The Outlast Trials #7 (4D) / Peak #4 (финал)",
     "date": "2025-08-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2532558215.torrent",
     "games": ["ells-tales-chair", "outlast-trials", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2532558215.ass"
   },
@@ -17945,5 +17944,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2631809647.torrent",
     "games": ["horrors-2025", "first-2025", "backrooms-reminiscence", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2631809647.ass"
+  },
+  "2632598427": {
+    "abs_start": 0, "abs_end": 19980, "duration": 19980,
+    "name": "A.I.L.A #3",
+    "date": "2025-12-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2632598427.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2632598427.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2632598427.torrent",
+    "games": ["aila"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2632598427.ass"
   }
 }
