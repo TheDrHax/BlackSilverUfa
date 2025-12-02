@@ -17950,5 +17950,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2632598427.torrent",
     "games": ["aila"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2632598427.ass"
+  },
+  "2633385044": {
+    "abs_start": 0, "abs_end": 5994, "duration": 5994,
+    "name": "Baby Steps #11",
+    "date": "2025-12-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2633385044.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2633385044.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2633385044.torrent",
+    "games": ["baby-steps"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2633385044.ass"
   }
 }
