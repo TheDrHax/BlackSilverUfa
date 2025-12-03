@@ -17235,7 +17235,6 @@
     "youtube": "uxZFPsr6f8o", "vk": "-28387068_456250862", "abs_start": 0, "abs_end": 26673, "duration": 26673,
     "name": "Battlefield 6 (бета) / Mafia: The Old Country #1",
     "date": "2025-08-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2533434372.torrent",
     "games": ["first-2025", "mafia-toc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2533434372.ass"
   },
@@ -17617,10 +17616,10 @@
   },
   "2579578173": {
     "youtube": "zeSbKDHZ1yQ", "vk": "-28387068_456250934", "abs_start": 0, "abs_end": 17791, "duration": 17791,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #41 / The Office Rooms / Sleep Awake (демо) / [HERROR] Gas Station Case (демо) / She's Leaving (демо) / Knock on the Window",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #41 / The Office Rooms / Sleep Awake - Демо / [HERROR] Gas Station Case (демо) / She's Leaving (демо) / Knock on the Window",
     "date": "2025-09-30",
     "torrent": "https://bsufiles.drhx.ru/streams/2579578173.torrent",
-    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "games": ["horrors-2025", "first-2025", "sleep-awake", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2579578173.ass"
   },
   "2580342642": {
@@ -17889,7 +17888,7 @@
   },
   "2625967059": {
     "youtube": "bNHg1HiaKcw", "vk": "-28387068_456250983", "abs_start": 0, "abs_end": 16933, "duration": 16933,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #52 / Escape the Backrooms #2 / Mara - Прохождение / Meat Room / Violent Horror Stories 2 #1 / Deadcam #2",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #52 / Escape the Backrooms #2 / Mara - Прохождение / Meat Room / Violent Horror Stories 2 - Padishah's Lady | Coupon for a Million | Heart Wood | The Exit is Inside | The Village and the Dead / Deadcam #2",
     "date": "2025-11-23",
     "torrent": "https://bsufiles.drhx.ru/streams/2625967059.torrent",
     "games": ["horrors-2025", "escape-the-backrooms", "mara", "first-2025", "vhs2", "deadcam"],
@@ -17929,7 +17928,7 @@
   },
   "2630838765": {
     "youtube": "FQIisZ__YEI", "vk": "-28387068_456250988", "abs_start": 0, "abs_end": 25900, "duration": 25900,
-    "name": "A.I.L.A #2 / Violent Horror Stories 2 #2",
+    "name": "A.I.L.A #2 / Violent Horror Stories 2 - You Have [x] Missed Calls #1",
     "date": "2025-11-29",
     "torrent": "https://bsufiles.drhx.ru/streams/2630838765.torrent",
     "games": ["aila", "vhs2"],
@@ -17958,5 +17957,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2633385044.torrent",
     "games": ["baby-steps"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2633385044.ass"
+  },
+  "2634220292": {
+    "abs_start": 0, "abs_end": 22080, "duration": 22080,
+    "name": "Sleep Awake - Релиз / Violent Horror Stories 2 - You Have [x] Missed Calls #2 | Coin Locker | Down the Stairs | Hi, What's Your Emergency / Baby Steps #12",
+    "date": "2025-12-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2634220292.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2634220292.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2634220292.torrent",
+    "games": ["sleep-awake", "vhs2", "baby-steps"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2634220292.ass"
   }
 }
