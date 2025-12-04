@@ -17239,12 +17239,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2533434372.ass"
   },
   "2534392013": {
-    "abs_start": 0, "abs_end": 26779, "duration": 26779,
+    "abs_start": 0, "abs_end": 26791, "duration": 0,
     "name": "",
     "date": "2025-08-08",
-    "direct": "https://bsufiles.drhx.ru/streams/2534392013.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2534392013.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2534392013.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2534392013.ass"
   },
@@ -17965,5 +17962,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2634220292.torrent",
     "games": ["sleep-awake", "vhs2", "baby-steps"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2634220292.ass"
+  },
+  "2635128008": {
+    "abs_start": 0, "abs_end": 17388, "duration": 17388,
+    "name": "ROUTINE",
+    "date": "2025-12-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2635128008.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2635128008.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2635128008.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2635128008.ass"
   }
 }
