@@ -9226,9 +9226,6 @@
         { "name": "Lost in the Backrooms", "start": 1436 },
         { "name": "Uktena 64: Ultimate", "start": 8262 },
         { "name": "Bonanit - A Menorcan Horror Story", "start": 13218 }
-      ] },
-      { "segment": "2635128008", "subrefs": [
-        { "name": "ROUTINE", "start": 4102 }
       ] }
     ]
   },
@@ -19954,6 +19951,19 @@
       ] },
       { "segment": "2634220292", "subrefs": [
         { "name": "Релиз", "start": 1745 }
+      ] }
+    ]
+  },
+  {
+    "name": "ROUTINE",
+    "category": "finished",
+    "id": "routine",
+    "streams": [
+      { "segment": "2635128008", "subrefs": [
+        { "name": "1", "start": 4102 }
+      ] },
+      { "segment": "2635910295", "subrefs": [
+        { "name": "2", "start": 1392 }
       ] }
     ]
   }
