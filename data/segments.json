@@ -17246,12 +17246,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2534392013.ass"
   },
   "2534676528": {
-    "abs_start": 0, "abs_end": 2381, "duration": 2381,
+    "abs_start": 0, "abs_end": 2403, "duration": 0,
     "name": "",
     "date": "2025-08-08",
-    "direct": "https://bsufiles.drhx.ru/streams/2534676528.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2534676528.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2534676528.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2534676528.ass"
   },
@@ -17260,7 +17257,6 @@
     "name": "Mafia: The Old Country #2",
     "date": "2025-08-08",
     "offsets": ["0:00", "7:26:17+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2534392013,2534676528.torrent",
     "games": ["mafia-toc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2534392013,2534676528+0.ass"
   },
@@ -17978,5 +17974,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2635910295.torrent",
     "games": ["routine"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2635910295.ass"
+  },
+  "2637736556": {
+    "abs_start": 0, "abs_end": 18801, "duration": 18801,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #55 / Backrooms: Missing Persons / About Fishing (демо) / Dead Feed / A Taste of Home / I'm on Observation Duty - Часть 8 #1",
+    "date": "2025-12-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2637736556.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2637736556.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2637736556.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2637736556+0.ass"
   }
 }
