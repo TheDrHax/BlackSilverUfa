@@ -15110,7 +15110,7 @@
   },
   "2228324519": {
     "youtube": "_CFkihJCS1M", "abs_start": 0, "abs_end": 17996, "duration": 17996,
-    "name": "Thank Goodness You're Here #3 / Kiosk / I Ate Old Man's Liver / Gears 2 #3 / No, I'm not a Human #1 (демо)",
+    "name": "Thank Goodness You're Here #3 / Kiosk / Bober Bros: I Ate Old Man's Liver / Gears 2 #3 / No, I'm not a Human #1 (демо)",
     "date": "2024-08-19",
     "games": ["tgyh", "single-2024", "vhs", "616-games", "nimnah"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2228324519+0.ass"
@@ -16677,9 +16677,9 @@
   },
   "2456047504": {
     "youtube": "wdCwe4ZgYpw", "vk": "-28387068_456250762", "abs_start": 0, "abs_end": 19936, "duration": 19936,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #20 / Roaming Backrooms / Cat Named Mojave (демо) / The Wellmonts Case (демо) / Babka / Midnight Snack / Creepy Waves FM: Train Depart / Creepy Waves FM: Bugs Fixer / Stolen Blood",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #20 / Roaming Backrooms / Cat Named Mojave - Cat Named Mojave (демо) / The Wellmonts Case (демо) / Babka / Midnight Snack / Creepy Waves FM: Train Depart / Creepy Waves FM: Bugs Fixer / Stolen Blood",
     "date": "2025-05-11",
-    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "games": ["horrors-2025", "first-2025", "cat-mojave", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2456047504.ass"
   },
   "2457563766": {
@@ -17977,10 +17977,20 @@
   },
   "2637736556": {
     "youtube": "fmkrIOLSPa0", "vk": "-28387068_456250996", "abs_start": 0, "abs_end": 18802, "duration": 18802,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #55 / Backrooms: Missing Persons / About Fishing (демо) / Dead Feed / A Taste of Home / I'm on Observation Duty - Часть 8 #1",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #55 / Backrooms: Missing Persons - Backrooms: Missing Persons / About Fishing (демо) / Dead Feed / A Taste of Home / I'm on Observation Duty - Часть 8 #1",
     "date": "2025-12-07",
     "torrent": "https://bsufiles.drhx.ru/streams/2637736556.torrent",
-    "games": ["horrors-2025", "first-2025", "single-2025", "observation-duty"],
+    "games": ["horrors-2025", "backrooms-mp", "single-2025", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2637736556+0.ass"
+  },
+  "2638573850": {
+    "abs_start": 0, "abs_end": 15890, "duration": 15890,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #56 / Backrooms: Missing Persons - Backrooms: Missing Persons / Grandma, Is That You? / Cat Named Mojave - Cat Named Mojave / Bober Bros: No Means Nothing / I'm on Observation Duty - I'm on Observation Duty 8",
+    "date": "2025-12-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2638573850.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2638573850.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2638573850.torrent",
+    "games": ["horrors-2025", "backrooms-mp", "single-2025", "cat-mojave", "bober", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2638573850+0.ass"
   }
 }
