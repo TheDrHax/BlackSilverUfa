@@ -14331,9 +14331,9 @@
   },
   "2085706176": {
     "youtube": "SsY8W4o2CO8", "abs_start": 0, "abs_end": 17094, "duration": 17094,
-    "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье) #2 / Snow Plowing Simulator / A Difficult Game About Climbing #2",
+    "name": "Nancy Drew: Last Train to Blue Moon Canyon (Нэнси Дрю. Последний поезд в Лунное ущелье) #2 / Snow Plowing Simulator #1 / A Difficult Game About Climbing #2",
     "date": "2024-03-09",
-    "games": ["nancy-drew-lttbmc", "first-2024", "climbing-game"],
+    "games": ["nancy-drew-lttbmc", "snow-plowing-sim", "climbing-game"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2085706176.ass"
   },
   "2086750139": {
@@ -17264,7 +17264,6 @@
     "youtube": "tu2MLPBb_d0", "vk": "-28387068_456250865", "abs_start": 0, "abs_end": 18051, "duration": 18051,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #33 / Liminal Exit / O.M.N.I.S.: Overnight Train / Mom's Hotel / The Last Ski Trip / The Hollow Lighthouse / Loan Shark - Прохождение / Peasant Nightmare",
     "date": "2025-08-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2536326874.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "loan-shark"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2536326874.ass"
   },
@@ -17272,7 +17271,6 @@
     "youtube": "Orl_cR_eJc0", "vk": "-28387068_456250866", "abs_start": 0, "abs_end": 22477, "duration": 22477,
     "name": "A.I.L.A - Демо / Lost Luminosity / Deadcam #1 / SLACKJAW / Them",
     "date": "2025-08-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2537171488.torrent",
     "games": ["aila", "single-2025", "deadcam"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2537171488.ass"
   },
@@ -17990,5 +17988,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2638573850.torrent",
     "games": ["horrors-2025", "backrooms-mp", "single-2025", "cat-mojave", "bober", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2638573850+0.ass"
+  },
+  "2639361130": {
+    "abs_start": 0, "abs_end": 22339, "duration": 22339,
+    "name": "Snow Plowing Simulator #2 / Crime Scene Cleaner #17 / Baby Steps #13",
+    "date": "2025-12-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2639361130.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2639361130.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2639361130.torrent",
+    "games": ["snow-plowing-sim", "csc", "baby-steps"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2639361130.ass"
   }
 }

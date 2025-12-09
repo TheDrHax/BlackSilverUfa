@@ -8525,9 +8525,6 @@
       { "segment": "2083745262", "subrefs": [
         { "name": "Samosbor", "start": 14013 }
       ] },
-      { "segment": "2085706176", "subrefs": [
-        { "name": "Snow Plowing Simulator", "start": 12342 }
-      ] },
       { "segment": "2086750139", "subrefs": [
         { "name": "Hospital 666", "start": 13094 },
         { "name": "Irritated Mind: Fear of Warehouse (демо)", "start": 18455 }
@@ -12118,6 +12115,9 @@
       ] },
       { "segment": "2528145073", "subrefs": [
         { "name": "16", "start": 1442 }
+      ] },
+      { "segment": "2639361130", "subrefs": [
+        { "name": "17", "start": 3294 }
       ] }
     ]
   },
@@ -19647,6 +19647,9 @@
       ] },
       { "segment": "2634220292", "subrefs": [
         { "name": "12", "start": 18006 }
+      ] },
+      { "segment": "2639361130", "subrefs": [
+        { "name": "13", "start": 15002 }
       ] }
     ]
   },
@@ -20012,6 +20015,19 @@
       ] },
       { "segment": "2638573850", "subrefs": [
         { "name": "Cat Named Mojave", "start": 8150 }
+      ] }
+    ]
+  },
+  {
+    "name": "Snow Plowing Simulator",
+    "category": "ongoing",
+    "id": "snow-plowing-sim",
+    "streams": [
+      { "segment": "2085706176", "subrefs": [
+        { "name": "1", "start": 12342 }
+      ] },
+      { "segment": "2639361130", "subrefs": [
+        { "name": "2", "start": 2023 }
       ] }
     ]
   }
