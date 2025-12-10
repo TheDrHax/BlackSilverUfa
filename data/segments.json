@@ -17278,7 +17278,6 @@
     "youtube": "OjxfXx3fzK4", "vk": "-28387068_456250870", "abs_start": 0, "abs_end": 20100, "duration": 20100,
     "name": "Static Dread: The Lighthouse #1",
     "date": "2025-08-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2538025119.torrent",
     "games": ["static-dread"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2538025119.ass"
   },
@@ -17996,5 +17995,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2639361130.torrent",
     "games": ["snow-plowing-sim", "csc", "baby-steps"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2639361130.ass"
+  },
+  "2640192290": {
+    "abs_start": 0, "abs_end": 19244, "duration": 19244,
+    "name": "Crime Scene Cleaner #18 / Baby Steps #14",
+    "date": "2025-12-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2640192290.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2640192290.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2640192290.torrent",
+    "games": ["csc", "baby-steps"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2640192290.ass"
   }
 }
