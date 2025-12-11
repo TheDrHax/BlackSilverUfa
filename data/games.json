@@ -9206,7 +9206,6 @@
         { "name": "Leaf it Alone", "start": 10180 }
       ] },
       { "segment": "2615504145", "subrefs": [
-        { "name": "Egging On", "start": 1535 },
         { "name": "Hypogea", "start": 11086 }
       ] },
       { "segment": "2623328029", "subrefs": [
@@ -19609,7 +19608,7 @@
   },
   {
     "name": "Baby Steps",
-    "category": "ongoing",
+    "category": "finished",
     "id": "baby-steps",
     "streams": [
       { "segment": "2483947367", "subrefs": [
@@ -19656,6 +19655,9 @@
       ] },
       { "segment": "2640192290", "subrefs": [
         { "name": "14", "start": 7701 }
+      ] },
+      { "segment": "2641000712", "subrefs": [
+        { "name": "15", "start": 1305 }
       ] }
     ]
   },
@@ -20034,6 +20036,19 @@
       ] },
       { "segment": "2639361130", "subrefs": [
         { "name": "2", "start": 2023 }
+      ] }
+    ]
+  },
+  {
+    "name": "Egging On",
+    "category": "ongoing",
+    "id": "egging-on",
+    "streams": [
+      { "segment": "2615504145", "subrefs": [
+        { "name": "1", "start": 1535 }
+      ] },
+      { "segment": "2641000712", "subrefs": [
+        { "name": "2", "start": 13058 }
       ] }
     ]
   }

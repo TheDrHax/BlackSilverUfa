@@ -1,20 +1,20 @@
 {
   "counts": {
     "streams": {
-      "total": 2326,
-      "with_chats": 2180
+      "total": 2327,
+      "with_chats": 2181
     },
     "segments": {
-      "total": 2378,
+      "total": 2379,
       "official": 1598,
       "unofficial": 761,
-      "missing": 19
+      "missing": 20
     },
-    "messages": 35304578
+    "messages": 35318122
   },
   "durations": {
-    "streams": 45830511,
-    "segments": 44367386
+    "streams": 45848218,
+    "segments": 44384980
   },
   "content_id": {
     "streams": 291,

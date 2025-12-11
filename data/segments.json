@@ -17838,10 +17838,10 @@
   },
   "2615504145": {
     "youtube": "uUvjWfGJl4A", "vk": "-28387068_456250977", "abs_start": 0, "abs_end": 22108, "duration": 22108,
-    "name": "Egging On / Baby Steps #8 / Hypogea / ARC Raiders #6",
+    "name": "Egging On #1 / Baby Steps #8 / Hypogea / ARC Raiders #6",
     "date": "2025-11-11",
     "torrent": "https://bsufiles.drhx.ru/streams/2615504145.torrent",
-    "games": ["first-2025", "baby-steps", "arc-raiders"],
+    "games": ["egging-on", "baby-steps", "first-2025", "arc-raiders"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2615504145.ass"
   },
   "2617288297": {
@@ -18003,5 +18003,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2640192290.torrent",
     "games": ["csc", "baby-steps"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2640192290.ass"
+  },
+  "2641000712": {
+    "abs_start": 0, "abs_end": 17594, "duration": 17594,
+    "name": "Baby Steps #15 / Egging On #2",
+    "date": "2025-12-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2641000712.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2641000712.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2641000712.torrent",
+    "games": ["baby-steps", "egging-on"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2641000712.ass"
   }
 }
