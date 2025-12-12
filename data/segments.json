@@ -17286,7 +17286,6 @@
     "name": "Bus Flipper Simulator - Релиз / One Man's Trash",
     "date": "2025-08-14",
     "cuts": [[1490, 1826]],
-    "torrent": "https://bsufiles.drhx.ru/streams/2539754944.torrent",
     "games": ["bus-flipper", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2539754944+0.ass"
   },
@@ -17294,7 +17293,6 @@
     "youtube": "0s7Zpap0rVo", "vk": "-28387068_456250873", "abs_start": 0, "abs_end": 24770, "duration": 24770,
     "name": "GONE Fishing - Демо / Lucky Tower Ultimate #22 / Peak #5 / R.E.P.O. #4",
     "date": "2025-08-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2540650368.torrent",
     "games": ["gone-fishing", "lucky-tower", "peak", "repo"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2540650368.ass"
   },
@@ -18013,5 +18011,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2641000712.torrent",
     "games": ["baby-steps", "egging-on"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2641000712.ass"
+  },
+  "2641844239": {
+    "abs_start": 0, "abs_end": 17961, "duration": 17961,
+    "name": "The Game Awards #2025 (обзор) / Terminator 2D: NO FATE / Egging On #3",
+    "date": "2025-12-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2641844239.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2641844239.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2641844239.torrent",
+    "games": ["tga", "single-2025", "egging-on"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2641844239.ass"
   }
 }
