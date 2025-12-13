@@ -18017,5 +18017,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2641844239.torrent",
     "games": ["tga", "single-2025", "egging-on"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2641844239.ass"
+  },
+  "2642761281": {
+    "abs_start": 0, "abs_end": 17329, "duration": 17329,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #57 / Backrooms VHS / I woke up in the house of a fat man: he's over 30 years old and loves beer and games / Voyage (by Storbeed) / Obey the Voice (демо) / Terrors to Unveil: Day Off",
+    "date": "2025-12-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2642761281.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2642761281.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2642761281.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2642761281.ass"
   }
 }
