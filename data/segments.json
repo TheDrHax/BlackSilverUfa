@@ -17300,7 +17300,6 @@
     "youtube": "xSXP77zSW6c", "vk": "-28387068_456250875", "abs_start": 0, "abs_end": 13458, "duration": 13458,
     "name": "True Fear: Forsaken Souls Part 1 #2",
     "date": "2025-08-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2541580117.torrent",
     "games": ["true-fear-fs1"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2541580117.ass"
   },
@@ -18025,5 +18024,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2642761281.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2642761281.ass"
+  },
+  "2643658878": {
+    "abs_start": 0, "abs_end": 16564, "duration": 16564,
+    "name": "Nancy Drew: The Creature of Kapu Cave (Нэнси Дрю. Чудовище пещеры Капу)",
+    "date": "2025-12-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2643658878.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2643658878.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2643658878.torrent",
+    "games": ["first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2643658878.ass"
   }
 }
