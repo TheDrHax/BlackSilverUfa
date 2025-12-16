@@ -5889,9 +5889,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v534301966.ass"
   },
   "534316789": {
-    "youtube": "mMiDjDwmyqs", "official": false, "abs_start": 0, "abs_end": 18114, "duration": 18114,
+    "abs_start": 0, "abs_end": 18114, "duration": 18114,
     "name": "Grand Theft Auto: San Andreas #3 (часть 2)",
     "date": "2020-01-11",
+    "direct": "https://bsufiles.drhx.ru/streams/534316789.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/534316789.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v534316789.ass"
   },
