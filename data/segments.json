@@ -17344,7 +17344,6 @@
     "name": "Static Dread: The Lighthouse #2",
     "date": "2025-08-22",
     "offsets": ["0:00", "4:23:02+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2546719196,2546872932.torrent",
     "games": ["static-dread"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2546719196,2546872932+0.ass"
   },
@@ -18035,10 +18034,20 @@
   },
   "2644450534": {
     "youtube": "jwZaCzD2rMg", "vk": "-28387068_456251006", "abs_start": 0, "abs_end": 24634, "duration": 24634,
-    "name": "Cronos: The New Dawn",
+    "name": "Cronos: The New Dawn #1",
     "date": "2025-12-15",
     "torrent": "https://bsufiles.drhx.ru/streams/2644450534.torrent",
-    "games": ["first-2025"],
+    "games": ["cronos"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2644450534+0.ass"
+  },
+  "2645248880": {
+    "abs_start": 0, "abs_end": 25431, "duration": 25431,
+    "name": "Cronos: The New Dawn #2",
+    "date": "2025-12-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2645248880.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2645248880.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2645248880.torrent",
+    "games": ["cronos"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2645248880+0.ass"
   }
 }
