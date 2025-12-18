@@ -20078,7 +20078,7 @@
   },
   {
     "name": "Cronos: The New Dawn",
-    "category": "ongoing",
+    "category": "finished",
     "id": "cronos",
     "streams": [
       { "segment": "2644450534", "subrefs": [
@@ -20089,6 +20089,9 @@
       ] },
       { "segment": "2646072502", "subrefs": [
         { "name": "3", "start": 869 }
+      ] },
+      { "segment": "2646891027", "subrefs": [
+        { "name": "4", "start": 1218 }
       ] }
     ]
   }
