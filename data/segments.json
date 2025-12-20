@@ -17361,7 +17361,6 @@
     "youtube": "uMuIfP3ULo4", "vk": "-28387068_456250888", "abs_start": 0, "abs_end": 26914, "duration": 26914,
     "name": "Metal Gear Solid ∆: Snake Eater #1",
     "date": "2025-08-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2549314470.torrent",
     "games": ["mgs-delta"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2549314470.ass"
   },
@@ -18057,5 +18056,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2646891027.torrent",
     "games": ["cronos"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2646891027.ass"
+  },
+  "2648606075": {
+    "abs_start": 0, "abs_end": 18347, "duration": 18347,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #58 / Backrooms — 2005 / Butcher of the North / The Christmas Cackler / The Not-Deer Stew / Death On Holly Ridge / Within of Static: Ashburg Rental",
+    "date": "2025-12-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2648606075.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2648606075.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2648606075.torrent",
+    "games": ["horrors-2025", "first-2025", "single-2025", "616-games"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2648606075.ass"
   }
 }
