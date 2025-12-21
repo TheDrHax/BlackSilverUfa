@@ -9232,9 +9232,6 @@
       { "segment": "2642761281", "subrefs": [
         { "name": "Backrooms VHS", "start": 3215 }
       ] },
-      { "segment": "2643658878", "subrefs": [
-        { "name": "Nancy Drew: The Creature of Kapu Cave (Нэнси Дрю. Чудовище пещеры Капу)", "start": 1504 }
-      ] },
       { "segment": "2648606075", "subrefs": [
         { "name": "Backrooms — 2005", "start": 3256 }
       ] }
@@ -20107,6 +20104,19 @@
       ] },
       { "segment": "2646891027", "subrefs": [
         { "name": "4", "start": 1218 }
+      ] }
+    ]
+  },
+  {
+    "name": "Nancy Drew: The Creature of Kapu Cave (Нэнси Дрю. Чудовище пещеры Капу)",
+    "category": "finished",
+    "id": "nancy-drew-cokc",
+    "streams": [
+      { "segment": "2643658878", "subrefs": [
+        { "name": "1", "start": 1504 }
+      ] },
+      { "segment": "2649459117", "subrefs": [
+        { "name": "2", "start": 1737 }
       ] }
     ]
   }
