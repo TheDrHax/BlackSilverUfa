@@ -9234,6 +9234,9 @@
       ] },
       { "segment": "2648606075", "subrefs": [
         { "name": "Backrooms — 2005", "start": 3256 }
+      ] },
+      { "segment": "2651112136", "subrefs": [
+        { "name": "Forgot", "start": 3271 }
       ] }
     ]
   },
@@ -9794,8 +9797,7 @@
         { "name": "ZahmahreL", "start": 15177 }
       ] },
       { "segment": "2564525802", "subrefs": [
-        { "name": "Dead Reset", "start": 4322 },
-        { "name": "Blueman (демо)", "start": 13447 }
+        { "name": "Dead Reset", "start": 4322 }
       ] },
       { "segment": "2566251413", "subrefs": [
         { "name": "Liminal Trauma (демо)", "start": 7780 },
@@ -11145,6 +11147,9 @@
       ] },
       { "segment": "2569405622", "subrefs": [
         { "name": "2", "start": 3019 }
+      ] },
+      { "segment": "2651112136", "subrefs": [
+        { "name": "3", "start": 11006 }
       ] }
     ]
   },
@@ -20117,6 +20122,19 @@
       ] },
       { "segment": "2649459117", "subrefs": [
         { "name": "2", "start": 1737 }
+      ] }
+    ]
+  },
+  {
+    "name": "Blueman",
+    "category": "ongoing",
+    "id": "blueman",
+    "streams": [
+      { "segment": "2564525802", "subrefs": [
+        { "name": "Демо", "start": 13447 }
+      ] },
+      { "segment": "2651112136", "subrefs": [
+        { "name": "Релиз", "start": 7515 }
       ] }
     ]
   }

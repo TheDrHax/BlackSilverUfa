@@ -17368,7 +17368,6 @@
     "youtube": "XoP4HCjvURw", "vk": "-28387068_456250889", "abs_start": 0, "abs_end": 29411, "duration": 29411,
     "name": "Metal Gear Solid ∆: Snake Eater #2",
     "date": "2025-08-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2550120334.torrent",
     "games": ["mgs-delta"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2550120334.ass"
   },
@@ -17462,10 +17461,10 @@
   },
   "2564525802": {
     "youtube": "QMOu_-IuAhE", "vk": "-28387068_456250908", "abs_start": 0, "abs_end": 18249, "duration": 18249,
-    "name": "Nintendo Direct (сентябрь 2025) / Dead Reset / Blueman (демо) / Sunken Engine",
+    "name": "Nintendo Direct (сентябрь 2025) / Dead Reset / Blueman - Демо / Sunken Engine",
     "date": "2025-09-12",
     "torrent": "https://bsufiles.drhx.ru/streams/2564525802.torrent",
-    "games": ["expos", "single-2025", "first-2025"],
+    "games": ["expos", "single-2025", "blueman", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2564525802.ass"
   },
   "2565334988": {
@@ -18072,5 +18071,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2649459117.torrent",
     "games": ["nancy-drew-cokc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2649459117.ass"
+  },
+  "2651112136": {
+    "abs_start": 0, "abs_end": 21341, "duration": 21341,
+    "name": "Forgot / Blueman - Релиз / No, I'm not a Human #3",
+    "date": "2025-12-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2651112136.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2651112136.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2651112136.torrent",
+    "games": ["first-2025", "blueman", "nimnah"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2651112136.ass"
   }
 }
