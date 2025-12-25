@@ -18079,5 +18079,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2651112136.torrent",
     "games": ["first-2025", "blueman", "nimnah"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2651112136.ass"
+  },
+  "2652571009": {
+    "abs_start": 0, "abs_end": 10847, "duration": 10847,
+    "name": "Like a Dragon: Infinite Wealth #4",
+    "date": "2025-12-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2652571009.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2652571009.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2652571009.torrent",
+    "games": ["like-dragon-iw"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2652571009.ass"
   }
 }
