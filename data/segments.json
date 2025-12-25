@@ -17375,7 +17375,6 @@
     "youtube": "025eW6lmEFQ", "vk": "-28387068_456250891", "abs_start": 0, "abs_end": 10209, "duration": 10209,
     "name": "Static Dread: The Lighthouse #3",
     "date": "2025-08-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2551041939.torrent",
     "games": ["static-dread"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2551041939.ass"
   },
@@ -18081,7 +18080,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2651112136.ass"
   },
   "2652571009": {
-    "abs_start": 0, "abs_end": 10847, "duration": 10847,
+    "vk": "-28387068_456251015", "abs_start": 0, "abs_end": 10847, "duration": 10847,
     "name": "Like a Dragon: Infinite Wealth #4",
     "date": "2025-12-25",
     "direct": "https://bsufiles.drhx.ru/streams/2652571009.mp4",
@@ -18089,5 +18088,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2652571009.torrent",
     "games": ["like-dragon-iw"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2652571009.ass"
+  },
+  "2652661835": {
+    "abs_start": 0, "abs_end": 12243, "duration": 12243,
+    "name": "Like a Dragon: Infinite Wealth #5",
+    "date": "2025-12-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2652661835.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2652661835.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2652661835.torrent",
+    "games": ["like-dragon-iw"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2652661835.ass"
   }
 }
