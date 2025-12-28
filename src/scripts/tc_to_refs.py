@@ -1,6 +1,6 @@
-"""Usage: tc_to_games <stream>"""
+"""Usage: tc_to_refs [<stream>]"""
 
-import re
+import requests
 
 from docopt import docopt
 from typing import Dict, Union
@@ -122,6 +122,12 @@ def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
     stream_id = args['<stream>']
+
+    if not stream_id:
+        info = requests.get('https://red.drhx.ru/blackufa/twitch').json()
+        stream_id = info['vod']
+        assert stream_id is not None
+
     stream = streams[stream_id]
     segment = stream[0]
 
