@@ -17389,7 +17389,6 @@
     "youtube": "AtivcAeUTbI", "vk": "-28387068_456250894", "abs_start": 0, "abs_end": 19670, "duration": 19670,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #36 / Temple of the Green Moon / Haunted Room: 205 / Undesired Catch / Fractured / Obsessed: Night Shift",
     "date": "2025-08-31",
-    "torrent": "https://bsufiles.drhx.ru/streams/2554541400.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2554541400.ass"
   },
@@ -18101,5 +18100,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2654158344.torrent",
     "games": ["horrors-2025", "backrooms", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2654158344+0.ass"
+  },
+  "2654992093": {
+    "abs_start": 0, "abs_end": 20285, "duration": 20285,
+    "name": "Crime Scene Cleaner #19 / Los Pingheros / Pic-Me! / Gartic Phone #9",
+    "date": "2025-12-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2654992093.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2654992093.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2654992093.torrent",
+    "games": ["csc", "co-op", "gartic-phone"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2654992093.ass"
   }
 }
