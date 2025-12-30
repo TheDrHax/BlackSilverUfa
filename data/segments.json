@@ -17396,7 +17396,6 @@
     "youtube": "F95M0qNDhzI", "vk": "-28387068_456250896", "abs_start": 0, "abs_end": 22598, "duration": 22598,
     "name": "Hell is Us - Релиз",
     "date": "2025-09-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2555335550.torrent",
     "games": ["hell-is-us"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2555335550.ass"
   },
@@ -18108,5 +18107,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2654992093.torrent",
     "games": ["csc", "co-op", "gartic-phone"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2654992093.ass"
+  },
+  "2656699942": {
+    "abs_start": 0, "abs_end": 17235, "duration": 17235,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #60 / Backrooms Santa / A Warm Welcome / Stalked at Home / Doki-Doki Action Game",
+    "date": "2025-12-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2656699942.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2656699942.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2656699942.torrent",
+    "games": ["horrors-2025", "first-2025"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2656699942.ass"
   }
 }
