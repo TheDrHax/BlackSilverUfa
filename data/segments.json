@@ -18117,5 +18117,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2656699942.torrent",
     "games": ["horrors-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2656699942.ass"
+  },
+  "2657553049": {
+    "abs_start": 0, "abs_end": 11896, "duration": 11896,
+    "name": "Новый год 2026",
+    "date": "2025-12-31",
+    "direct": "https://bsufiles.drhx.ru/streams/2657553049.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2657553049.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2657553049.torrent",
+    "games": ["other"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2657553049.ass"
   }
 }
