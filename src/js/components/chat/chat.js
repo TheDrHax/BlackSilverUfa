@@ -92,7 +92,7 @@ export const Chat = ({ subtitles, plyr, offset, simple }) => {
       ...query,
       time: { $lte: currentTime - offset },
     })
-    .offset(-50)
+    .offset(-200)
     .simplesort('$loki')
     .data();
 
