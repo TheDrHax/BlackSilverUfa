@@ -17403,7 +17403,6 @@
     "youtube": "0O7rPMdoGF4", "vk": "-28387068_456250897", "abs_start": 0, "abs_end": 17818, "duration": 17818,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #37 / Auto-Crisis / Sector 404 / Gutter Night / Middle of Nowhere: No Power Village / A Twisted Place (демо) / Храм Детей (демо) / Bad Cheese - Релиз / Silent Still II - Релиз",
     "date": "2025-09-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2557063195.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "bad-cheese", "silent-still-ii"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2557063195.ass"
   },
@@ -17411,7 +17410,6 @@
     "youtube": "KIimdltw9ns", "vk": "-28387068_456250899", "abs_start": 0, "abs_end": 24514, "duration": 24514,
     "name": "Hollow Knight #16 (заново, перед Silksong) / Hollow Knight: Silksong #1",
     "date": "2025-09-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2557850800.torrent",
     "games": ["hollow-knight", "hk-silksong"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2557850800.ass"
   },
@@ -18127,5 +18125,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2657553049.torrent",
     "games": ["other"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2657553049.ass"
+  },
+  "2666154111": {
+    "abs_start": 0, "abs_end": 22118, "duration": 22118,
+    "name": "Pragmata (демо) / Deconstruction Simulator / My Winter Car",
+    "date": "2026-01-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2666154111.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2666154111.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2666154111.torrent",
+    "games": ["single-2026", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2666154111.ass"
   }
 }

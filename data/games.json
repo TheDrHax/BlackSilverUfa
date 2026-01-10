@@ -9259,6 +9259,18 @@
     ]
   },
   {
+    "name": "Первый взгляд 2026",
+    "category": "first",
+    "type": "list",
+    "id": "first-2026",
+    "streams": [
+      { "segment": "2666154111", "subrefs": [
+        { "name": "Deconstruction Simulator", "start": 5953 },
+        { "name": "My Winter Car", "start": 9548 }
+      ] }
+    ]
+  },
+  {
     "name": "Violent Horror Stories 2",
     "category": "ongoing",
     "id": "vhs2",
@@ -9941,6 +9953,17 @@
         { "name": "Christmas Incident", "start": 10963 },
         { "name": "Daddy's Christmas", "start": 12984 },
         { "name": "Obsessed: Trace", "start": 13723 }
+      ] }
+    ]
+  },
+  {
+    "name": "Прохождения за один стрим 2026",
+    "category": "finished",
+    "type": "list",
+    "id": "single-2026",
+    "streams": [
+      { "segment": "2666154111", "subrefs": [
+        { "name": "Pragmata (демо)", "start": 3334 }
       ] }
     ]
   },
