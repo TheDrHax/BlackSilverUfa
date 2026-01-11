@@ -18129,5 +18129,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2666154111.torrent",
     "games": ["single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2666154111.ass"
+  },
+  "2667145812": {
+    "abs_start": 0, "abs_end": 19070, "duration": 19070,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #1 / The Backrooms: Realism / Nightbell / Terpenie / It Reaches (демо) / Lurking / The Unplace / MiSide Zero / Professor Galaktionov: Dawn of the Robopocalypse (Профессор Галактионов и начало робоапокалипсиса)",
+    "date": "2026-01-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2667145812.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2667145812.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2667145812.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2667145812.ass"
   }
 }

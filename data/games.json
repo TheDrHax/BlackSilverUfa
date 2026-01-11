@@ -9267,6 +9267,11 @@
       { "segment": "2666154111", "subrefs": [
         { "name": "Deconstruction Simulator", "start": 5953 },
         { "name": "My Winter Car", "start": 9548 }
+      ] },
+      { "segment": "2667145812", "subrefs": [
+        { "name": "The Backrooms: Realism", "start": 1868 },
+        { "name": "MiSide Zero", "start": 15265 },
+        { "name": "Professor Galaktionov: Dawn of the Robopocalypse (Профессор Галактионов и начало робоапокалипсиса)", "start": 15807 }
       ] }
     ]
   },
@@ -9964,6 +9969,13 @@
     "streams": [
       { "segment": "2666154111", "subrefs": [
         { "name": "Pragmata (демо)", "start": 3334 }
+      ] },
+      { "segment": "2667145812", "subrefs": [
+        { "name": "Nightbell", "start": 3626 },
+        { "name": "Terpenie", "start": 7204 },
+        { "name": "It Reaches (демо)", "start": 8328 },
+        { "name": "Lurking", "start": 11682 },
+        { "name": "The Unplace", "start": 13040 }
       ] }
     ]
   },
@@ -17977,6 +17989,16 @@
       ] },
       { "segment": "2656699942", "subrefs": [
         { "name": "60" }
+      ] }
+    ]
+  },
+  {
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026",
+    "category": "infinite",
+    "id": "horrors-2026",
+    "streams": [
+      { "segment": "2667145812", "subrefs": [
+        { "name": "1" }
       ] }
     ]
   },
