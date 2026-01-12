@@ -9272,6 +9272,11 @@
         { "name": "The Backrooms: Realism", "start": 1868 },
         { "name": "MiSide Zero", "start": 15265 },
         { "name": "Professor Galaktionov: Dawn of the Robopocalypse (Профессор Галактионов и начало робоапокалипсиса)", "start": 15807 }
+      ] },
+      { "segment": "2667995781", "subrefs": [
+        { "name": "Entity: The Black Day", "start": 2314 },
+        { "name": "Quarantine Zone: The Last Check", "start": 5843 },
+        { "name": "Black Ice", "start": 15229 }
       ] }
     ]
   },
@@ -19844,7 +19849,7 @@
   },
   {
     "name": "No Players Online",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "no-players-online",
     "streams": [
       { "segment": "2113378651", "subrefs": [

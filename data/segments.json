@@ -17417,7 +17417,6 @@
     "youtube": "rOCFxRFuBqI", "vk": "-28387068_456250900", "abs_start": 0, "abs_end": 24672, "duration": 24672,
     "name": "Hollow Knight: Silksong #2 / Peak #7 (соло)",
     "date": "2025-09-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2558658244.torrent",
     "games": ["hk-silksong", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2558658244.ass"
   },
@@ -18137,5 +18136,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2667145812.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2667145812.ass"
+  },
+  "2667995781": {
+    "abs_start": 0, "abs_end": 22423, "duration": 22423,
+    "name": "Entity: The Black Day / Quarantine Zone: The Last Check / Black Ice",
+    "date": "2026-01-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2667995781.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2667995781.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2667995781.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2667995781.ass"
   }
 }
