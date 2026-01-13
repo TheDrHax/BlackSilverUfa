@@ -17424,7 +17424,6 @@
     "youtube": "f7_NwkCss1k", "vk": "-28387068_456250901", "abs_start": 0, "abs_end": 32419, "duration": 32419,
     "name": "Hollow Knight: Silksong #3 / Unpossess / 4 Rush Together / Oblin Party / Peak #8",
     "date": "2025-09-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2559531337.torrent",
     "games": ["hk-silksong", "co-op", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2559531337.ass"
   },
@@ -18122,7 +18121,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2657553049.ass"
   },
   "2666154111": {
-    "youtube": "7FJpVfAzXSk", "vk": "-28387068_456251030", "abs_start": 0, "abs_end": 22119, "duration": 22119,
+    "youtube": "7FJpVfAzXSk", "vk": "-28387068_456251026", "abs_start": 0, "abs_end": 22119, "duration": 22119,
     "name": "Pragmata (демо) / Deconstruction Simulator / My Winter Car",
     "date": "2026-01-10",
     "torrent": "https://bsufiles.drhx.ru/streams/2666154111.torrent",
@@ -18139,12 +18138,22 @@
   },
   "2667995781": {
     "vk": "-28387068_456251029", "abs_start": 0, "abs_end": 22423, "duration": 22423,
-    "name": "Entity: The Black Day / Quarantine Zone: The Last Check / Black Ice",
+    "name": "Entity: The Black Day / Quarantine Zone: The Last Check #1 / Black Ice",
     "date": "2026-01-12",
     "direct": "https://bsufiles.drhx.ru/streams/2667995781.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2667995781.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2667995781.torrent",
-    "games": ["first-2026"],
+    "games": ["first-2026", "quarantine-zone-tlc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2667995781.ass"
+  },
+  "2668832796": {
+    "abs_start": 0, "abs_end": 19139, "duration": 19139,
+    "name": "Moving Simulator / Quarantine Zone: The Last Check #2",
+    "date": "2026-01-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2668832796.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2668832796.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2668832796.torrent",
+    "games": ["first-2026", "quarantine-zone-tlc"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2668832796.ass"
   }
 }

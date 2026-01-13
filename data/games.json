@@ -9275,8 +9275,10 @@
       ] },
       { "segment": "2667995781", "subrefs": [
         { "name": "Entity: The Black Day", "start": 2314 },
-        { "name": "Quarantine Zone: The Last Check", "start": 5843 },
         { "name": "Black Ice", "start": 15229 }
+      ] },
+      { "segment": "2668832796", "subrefs": [
+        { "name": "Moving Simulator", "start": 1208 }
       ] }
     ]
   },
@@ -20241,6 +20243,19 @@
       ] },
       { "segment": "2654158344", "subrefs": [
         { "name": "3", "start": 2013 }
+      ] }
+    ]
+  },
+  {
+    "name": "Quarantine Zone: The Last Check",
+    "category": "ongoing",
+    "id": "quarantine-zone-tlc",
+    "streams": [
+      { "segment": "2667995781", "subrefs": [
+        { "name": "1", "start": 5843 }
+      ] },
+      { "segment": "2668832796", "subrefs": [
+        { "name": "2", "start": 6351 }
       ] }
     ]
   }
