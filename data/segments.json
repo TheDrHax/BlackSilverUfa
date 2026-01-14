@@ -17431,7 +17431,6 @@
     "youtube": "Hb3-mjExRNg", "vk": "-28387068_456250902", "abs_start": 0, "abs_end": 19041, "duration": 19041,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #38 / The Backrooms: Reset / Blood Bear / Uncanny Tales: 1992 - Прохождение / Fear the Unknown: Jamie Story / The Butterfly / ZahmahreL / Den-Den: Tokyo Horror (демо)",
     "date": "2025-09-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2560483396.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "uncanny-tales"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2560483396.ass"
   },
@@ -18151,5 +18150,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2668832796.torrent",
     "games": ["first-2026", "quarantine-zone-tlc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2668832796.ass"
+  },
+  "2669742923": {
+    "abs_start": 0, "abs_end": 22281, "duration": 22281,
+    "name": "Styx: Blades of Greed / Lethal Company #25",
+    "date": "2026-01-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2669742923.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2669742923.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2669742923.torrent",
+    "games": ["first-2026", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2669742923+0.ass"
   }
 }

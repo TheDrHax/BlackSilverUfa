@@ -1144,6 +1144,9 @@
       ] },
       { "segment": "2486684400", "subrefs": [
         { "name": "24", "start": 4414 }
+      ] },
+      { "segment": "2669742923", "subrefs": [
+        { "name": "25", "start": 4865 }
       ] }
     ]
   },
@@ -9279,6 +9282,9 @@
       ] },
       { "segment": "2668832796", "subrefs": [
         { "name": "Moving Simulator", "start": 1208 }
+      ] },
+      { "segment": "2669742923", "subrefs": [
+        { "name": "Styx: Blades of Greed", "start": 1892 }
       ] }
     ]
   },
