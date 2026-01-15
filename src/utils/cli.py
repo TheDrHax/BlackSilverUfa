@@ -98,6 +98,9 @@ flat = itertools.chain.from_iterable
 
 MATCH_OFFSET = 300
 MATCH_CHUNK = 300
+SAMPLE_RATE = 1000
+MIN_SCORE = 50
+SCORE_MUL = 16
 
 
 def refs_coverage(stream: Stream, segment: Segment):
@@ -425,10 +428,11 @@ def cmd_match(segment_kwargs, directory=None, match_all=False,
 
         try:
             offset, score = find_offset(template, original,
-                                        ar=1000,
+                                        ar=SAMPLE_RATE,
                                         start=int(s_range.start),
                                         end=int(s_range.end),
-                                        min_score=50)
+                                        min_score=MIN_SCORE,
+                                        score_multiplier=SCORE_MUL)
         except Exception as ex:
             print(ex, file=sys.stderr)
             continue
