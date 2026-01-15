@@ -59,6 +59,7 @@ Ref options:
 Segment matching options:
   --all               Check all streams with at least one unofficial or
                       empty source. Streams without fallbacks will be skipped.
+  --full-scan         Force check the whole video, regardless of refs coverage.
   --candidates <list> Comma-separated list of stream IDs to match against.
   --directory <path>  Use a local directory as a fallback source for
                       faster matching of streams. Directory must contain
@@ -245,7 +246,7 @@ def original_video(segment, directory):
 
 
 def match_candidates(segment_kwargs, directory=None, match_all=False,
-                     force_candidates=None):
+                     force_candidates=None, full_scan=False):
     for s in streams.segments:
         forced = force_candidates and s.twitch in force_candidates
 
@@ -273,13 +274,19 @@ def match_candidates(segment_kwargs, directory=None, match_all=False,
             print(f'Skipping segment {s.hash} (no subrefs)', file=sys.stderr)
             continue
 
+        if full_scan:
+            time_range = Timecode(s.abs_start)
+            time_range.end = s.abs_end
+            yield s, time_range, time_range
+            return
+
+        tmp_stream = Stream(data=[], key=s.stream.twitch)
+        tmp_segment = Segment(stream=tmp_stream, **segment_kwargs)
+
         tmp_subref = None
         if subrefs[0].abs_start != 0:
             tmp_subref = SubReference(name='Начало', parent=s.references[0])
             subrefs.add(tmp_subref)
-
-        tmp_stream = Stream(data=[], key=s.stream.twitch)
-        tmp_segment = Segment(stream=tmp_stream, **segment_kwargs)
 
         for subref in subrefs:
             tmp_segment.offset = subref.abs_start
@@ -346,7 +353,7 @@ def from_vk(video_id):
 
 
 def cmd_match(segment_kwargs, directory=None, match_all=False,
-              fail_if_cut=False, force_candidates=None):
+              fail_if_cut=False, force_candidates=None, full_scan=False):
     if 'youtube' in segment_kwargs:
         dupes = [s for s in streams.segments
                  if s.youtube == segment_kwargs['youtube']]
@@ -376,7 +383,7 @@ def cmd_match(segment_kwargs, directory=None, match_all=False,
     segment_kwargs['duration'] = video.duration
 
     candidates = sorted(
-        match_candidates(segment_kwargs, directory, match_all, force_candidates),
+        match_candidates(segment_kwargs, directory, match_all, force_candidates, full_scan),
         key=lambda s: abs(int(s[1].duration) - video.duration))
 
     if len(candidates) == 0:
@@ -466,7 +473,12 @@ def cmd_match(segment_kwargs, directory=None, match_all=False,
         if matching_segment.offset(0) != 0:
             segment_kwargs['offset'] = matching_segment.offset(0)
 
-    segment = cmd_add(matching_segment.stream, segment_kwargs)
+    try:
+        segment = cmd_add(matching_segment.stream, segment_kwargs)
+    except NoSubrefsCoveredError:
+        print('Video matches but does not cover any subrefs')
+        sys.exit(0)
+
     return matching_segment.stream, segment
 
 
@@ -641,7 +653,8 @@ def main(argv=None):
                                         directory=args['--directory'],
                                         match_all=args['--all'],
                                         fail_if_cut=args['--fail-if-cut'],
-                                        force_candidates=candidates)
+                                        force_candidates=candidates,
+                                        full_scan=args['--full-scan'])
 
         if args['cuts']:
             cmd_cuts(segment, segment_kwargs, directory=args['--directory'])
