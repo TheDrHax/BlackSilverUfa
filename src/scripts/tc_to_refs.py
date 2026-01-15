@@ -13,8 +13,8 @@ from ..data.loader.games import normalize_game_name
 
 
 GROUPS = {
-    '':         'first-2025',
-    'пройдено': 'single-2025'
+    '':         'first-2026',
+    'пройдено': 'single-2026'
 }
 
 SKIP = [
