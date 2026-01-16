@@ -9285,6 +9285,10 @@
       ] },
       { "segment": "2669742923", "subrefs": [
         { "name": "Styx: Blades of Greed", "start": 1892 }
+      ] },
+      { "segment": "2671478206", "subrefs": [
+        { "name": "Mostly Trash, Sometimes Treasure", "start": 2774 },
+        { "name": "BrokenLore: UNFOLLOW", "start": 3149 }
       ] }
     ]
   },
@@ -20262,6 +20266,9 @@
       ] },
       { "segment": "2668832796", "subrefs": [
         { "name": "2", "start": 6351 }
+      ] },
+      { "segment": "2671478206", "subrefs": [
+        { "name": "3", "start": 10524 }
       ] }
     ]
   }

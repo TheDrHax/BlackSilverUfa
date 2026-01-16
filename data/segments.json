@@ -17441,7 +17441,6 @@
     "youtube": "PAnVR-Xtj2I", "vk": "-28387068_456250904", "abs_start": 0, "abs_end": 26322, "duration": 26322,
     "name": "Hollow Knight: Silksong #4",
     "date": "2025-09-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2561240653.torrent",
     "games": ["hk-silksong"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2561240653.ass"
   },
@@ -18161,5 +18160,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2669742923.torrent",
     "games": ["first-2026", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2669742923+0.ass"
+  },
+  "2671478206": {
+    "abs_start": 0, "abs_end": 19364, "duration": 19364,
+    "name": "Mostly Trash, Sometimes Treasure / BrokenLore: UNFOLLOW / Quarantine Zone: The Last Check #3",
+    "date": "2026-01-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2671478206.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2671478206.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2671478206.torrent",
+    "games": ["first-2026", "quarantine-zone-tlc"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2671478206.ass"
   }
 }
