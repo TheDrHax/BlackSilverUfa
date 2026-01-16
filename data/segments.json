@@ -326,10 +326,13 @@
     "games": ["heavy-rain"]
   },
   "001602291": {
-    "youtube": "rbzkS3e_vek", "official": false, "abs_start": 0, "abs_end": 5794, "duration": 5794,
+    "abs_start": 0, "abs_end": 5794, "duration": 5794,
     "name": "Heavy Rain #1 (часть 2)",
     "date": "2016-02-29",
-    "games": ["heavy-rain"]
+    "direct": "https://bsufiles.drhx.ru/streams/001602291.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001602291.mp4/master.m3u8",
+    "games": ["heavy-rain"],
+    "note": "На <a href=\"https://youtu.be/rbzkS3e_vek\">YouTube</a> установлено возрастное ограничение."
   },
   "001602292": {
     "youtube": "Geawnhkvjcg", "official": false, "abs_start": 0, "abs_end": 5468, "duration": 5468,
@@ -7992,7 +7995,7 @@
     "hls": "https://bsufiles.drhx.ru/streams/883419848.mp4/master.m3u8",
     "games": ["re8", "re7"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v883419848.ass",
-    "note": "На <a href=\"https://youtu.be/dn9uQy2eePE\">предыдущую запись</a> YouTube установил возрастное ограничение."
+    "note": "На <a href=\"https://youtu.be/dn9uQy2eePE\">YouTube</a> установлено возрастное ограничение."
   },
   "886277729": {
     "youtube": "ew9dM_1QDcQ", "abs_start": 0, "abs_end": 19901, "duration": 19901,
@@ -13331,7 +13334,7 @@
     "hls": "https://bsufiles.drhx.ru/streams/1902891024.mp4/master.m3u8",
     "games": ["outlast-trials", "song-of-horror"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1902891024.ass",
-    "note": "На <a href=\"https://youtu.be/SjbFN3qkLGI\">официальной записи</a> установлено возрастное ограничение."
+    "note": "На <a href=\"https://youtu.be/SjbFN3qkLGI\">YouTube</a> установлено возрастное ограничение."
   },
   "1903801654": {
     "abs_start": 0, "abs_end": 3369, "duration": 0,
@@ -13448,7 +13451,7 @@
     "torrent": "https://bsufiles.drhx.ru/streams/1925972150.torrent",
     "games": ["mk-1", "first-2023", "lies-of-p"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1925972150.ass",
-    "note": "На <a href=\"https://youtu.be/fKTM5Pjwu8s\">официальной записи</a> установлено возрастное ограничение."
+    "note": "На <a href=\"https://youtu.be/fKTM5Pjwu8s\">YouTube</a> установлено возрастное ограничение."
   },
   "1926880821": {
     "youtube": "MO-_PRIQ0Pc", "abs_start": 0, "abs_end": 18705, "duration": 18705,
