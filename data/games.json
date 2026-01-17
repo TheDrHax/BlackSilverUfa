@@ -9010,7 +9010,6 @@
       ] },
       { "segment": "2450891536", "subrefs": [
         { "name": "KIBORG", "start": 7540 },
-        { "name": "Quarantine Zone", "start": 16544 },
         { "name": "Captain Blood (Приключение Капитана Блада)", "start": 22866 }
       ] },
       { "segment": "2451705218", "subrefs": [
@@ -20258,9 +20257,12 @@
   },
   {
     "name": "Quarantine Zone: The Last Check",
-    "category": "ongoing",
+    "category": "finished",
     "id": "quarantine-zone-tlc",
     "streams": [
+      { "segment": "2450891536", "subrefs": [
+        { "name": "Ранний доступ", "start": 16544 }
+      ] },
       { "segment": "2667995781", "subrefs": [
         { "name": "1", "start": 5843 }
       ] },
@@ -20269,6 +20271,9 @@
       ] },
       { "segment": "2671478206", "subrefs": [
         { "name": "3", "start": 10524 }
+      ] },
+      { "segment": "2672425955", "subrefs": [
+        { "name": "4", "start": 1928 }
       ] }
     ]
   }

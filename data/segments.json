@@ -16634,9 +16634,9 @@
   },
   "2450891536": {
     "youtube": "1p9XhUeJrzo", "official": false, "abs_start": 0, "abs_end": 28333, "duration": 28333,
-    "name": "Steel Seed - Релиз / KIBORG / Quarantine Zone / Captain Blood (Приключение Капитана Блада)",
+    "name": "Steel Seed - Релиз / KIBORG / Quarantine Zone: The Last Check - Ранний доступ / Captain Blood (Приключение Капитана Блада)",
     "date": "2025-05-05",
-    "games": ["steel-seed", "first-2025"],
+    "games": ["steel-seed", "first-2025", "quarantine-zone-tlc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2450891536.ass"
   },
   "2451705218": {
@@ -18168,5 +18168,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2671478206.torrent",
     "games": ["first-2026", "quarantine-zone-tlc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2671478206.ass"
+  },
+  "2672425955": {
+    "abs_start": 0, "abs_end": 20254, "duration": 20254,
+    "name": "Quarantine Zone: The Last Check #4",
+    "date": "2026-01-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2672425955.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2672425955.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2672425955.torrent",
+    "games": ["quarantine-zone-tlc"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2672425955.ass"
   }
 }
