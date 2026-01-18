@@ -16684,9 +16684,9 @@
   },
   "2456047504": {
     "youtube": "wdCwe4ZgYpw", "vk": "-28387068_456250762", "abs_start": 0, "abs_end": 19936, "duration": 19936,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #20 / Roaming Backrooms / Cat Named Mojave - Демо / The Wellmonts Case (демо) / Babka / Midnight Snack / Creepy Waves FM: Train Depart / Creepy Waves FM: Bugs Fixer / Stolen Blood",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #20 / Roaming Backrooms / Cat Named Mojave - Демо / The Wellmonts Case - Демо / Babka / Midnight Snack / Creepy Waves FM: Train Depart / Creepy Waves FM: Bugs Fixer / Stolen Blood",
     "date": "2025-05-11",
-    "games": ["horrors-2025", "first-2025", "cat-mojave", "single-2025"],
+    "games": ["horrors-2025", "first-2025", "cat-mojave", "wellmonts-case", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2456047504.ass"
   },
   "2457563766": {
@@ -17448,7 +17448,6 @@
     "youtube": "W1YEr1wAJJc", "vk": "-28387068_456250907", "abs_start": 0, "abs_end": 28543, "duration": 28543,
     "name": "Hollow Knight: Silksong #5 / Helldivers 2 #5 (4D)",
     "date": "2025-09-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2562042708.torrent",
     "games": ["hk-silksong", "helldivers-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2562042708.ass"
   },
@@ -18176,5 +18175,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2672425955.torrent",
     "games": ["quarantine-zone-tlc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2672425955.ass"
+  },
+  "2673385986": {
+    "abs_start": 0, "abs_end": 19433, "duration": 19433,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #2 / Liminal: Escape Route / She Was 98 / Static Voice / Deceived of Joy / Foghorns Drown (демо) / The Wellmonts Case - Прохождение",
+    "date": "2026-01-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2673385986.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2673385986.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2673385986.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026", "wellmonts-case"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2673385986.ass"
   }
 }
