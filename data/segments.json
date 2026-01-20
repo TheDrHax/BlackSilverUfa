@@ -17455,7 +17455,6 @@
     "youtube": "QMOu_-IuAhE", "vk": "-28387068_456250908", "abs_start": 0, "abs_end": 18249, "duration": 18249,
     "name": "Nintendo Direct (сентябрь 2025) / Dead Reset / Blueman - Демо / Sunken Engine",
     "date": "2025-09-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2564525802.torrent",
     "games": ["expos", "single-2025", "blueman", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2564525802.ass"
   },
@@ -17485,7 +17484,7 @@
   },
   "2569405622": {
     "youtube": "t6V9QbQy0GU", "vk": "-28387068_456250912", "abs_start": 0, "abs_end": 25331, "duration": 25331,
-    "name": "The Lift (демо) #2 / No, I'm not a Human #2 / Dying Light: The Beast - Соло",
+    "name": "The Lift (демо) #2 / No, I'm not a Human #2 / Dying Light: The Beast (кооп) - Соло",
     "date": "2025-09-18",
     "torrent": "https://bsufiles.drhx.ru/streams/2569405622.torrent",
     "games": ["the-lift", "nimnah", "dying-light-beast"],
@@ -17561,7 +17560,7 @@
   },
   "2577004877,2577175377": {
     "youtube": "hbhnI93UeFo", "abs_start": 0, "abs_end": 25152, "duration": 25152,
-    "name": "Baby Steps #2 / Dying Light: The Beast #1",
+    "name": "Baby Steps #2 / Dying Light: The Beast (кооп) #1",
     "date": "2025-09-27",
     "offsets": ["0:00", "4:45:25+2"],
     "torrent": "https://bsufiles.drhx.ru/streams/2577004877,2577175377.torrent",
@@ -17570,7 +17569,7 @@
   },
   "2577904159": {
     "youtube": "CPzLgXaY9bQ", "vk": "-28387068_456250930", "abs_start": 0, "abs_end": 20156, "duration": 20156,
-    "name": "Baby Steps #3 / Dying Light: The Beast #2",
+    "name": "Baby Steps #3 / Dying Light: The Beast (кооп) #2",
     "date": "2025-09-28",
     "torrent": "https://bsufiles.drhx.ru/streams/2577904159.torrent",
     "games": ["baby-steps", "dying-light-beast"],
@@ -17682,7 +17681,7 @@
   },
   "2594940527": {
     "youtube": "7jVxp3u0Gxc", "vk": "-28387068_456250956", "abs_start": 0, "abs_end": 27454, "duration": 27454,
-    "name": "Painkiller / ARC Raiders #2 / Dying Light: The Beast #3",
+    "name": "Painkiller / ARC Raiders #2 / Dying Light: The Beast (кооп) #3",
     "date": "2025-10-18",
     "torrent": "https://bsufiles.drhx.ru/streams/2594940527.torrent",
     "games": ["first-2025", "arc-raiders", "dying-light-beast"],
@@ -18183,5 +18182,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2673385986.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026", "wellmonts-case"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2673385986.ass"
+  },
+  "2675123579": {
+    "abs_start": 0, "abs_end": 25683, "duration": 25683,
+    "name": "Dying Light: The Beast",
+    "date": "2026-01-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2675123579.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2675123579.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2675123579.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2675123579.ass"
   }
 }

@@ -9292,6 +9292,9 @@
       { "segment": "2673385986", "subrefs": [
         { "name": "Liminal: Escape Route", "start": 1753 },
         { "name": "Static Voice", "start": 8258 }
+      ] },
+      { "segment": "2675123579", "subrefs": [
+        { "name": "Dying Light: The Beast", "start": 979 }
       ] }
     ]
   },
@@ -19812,7 +19815,7 @@
     ]
   },
   {
-    "name": "Dying Light: The Beast",
+    "name": "Dying Light: The Beast (кооп)",
     "category": "co-op",
     "id": "dying-light-beast",
     "streams": [
