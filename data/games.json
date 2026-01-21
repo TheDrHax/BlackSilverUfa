@@ -9292,9 +9292,6 @@
       { "segment": "2673385986", "subrefs": [
         { "name": "Liminal: Escape Route", "start": 1753 },
         { "name": "Static Voice", "start": 8258 }
-      ] },
-      { "segment": "2675123579", "subrefs": [
-        { "name": "Dying Light: The Beast", "start": 979 }
       ] }
     ]
   },
@@ -20301,6 +20298,19 @@
       ] },
       { "segment": "2673385986", "subrefs": [
         { "name": "Прохождение", "start": 14999 }
+      ] }
+    ]
+  },
+  {
+    "name": "Dying Light: The Beast",
+    "category": "ongoing",
+    "id": "dl-beast",
+    "streams": [
+      { "segment": "2675123579", "subrefs": [
+        { "name": "1", "start": 979 }
+      ] },
+      { "segment": "2675977246", "subrefs": [
+        { "name": "2", "start": 1119 }
       ] }
     ]
   }
