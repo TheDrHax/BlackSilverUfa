@@ -46,7 +46,9 @@ class Games(List[Game]):
             game.streams.append(ref)
 
             if game.type == 'list':
-                [self.track_game(subref) for subref in ref.subrefs]
+                for subref in ref.subrefs:
+                    if not subref.hidden:
+                        self.track_game(subref)
 
         self.append(game)
 
