@@ -17476,7 +17476,6 @@
     "youtube": "wu-_4a2RML4", "vk": "-28387068_456250911", "abs_start": 0, "abs_end": 19883, "duration": 19883,
     "name": "The Lift (демо) #1 / No, I'm not a Human #1 (релиз)",
     "date": "2025-09-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2568619841.torrent",
     "games": ["the-lift", "nimnah"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2568619841.ass"
   },
@@ -18206,5 +18205,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2676850555.torrent",
     "games": ["dl-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2676850555.ass"
+  },
+  "2677736446": {
+    "abs_start": 0, "abs_end": 25908, "duration": 25908,
+    "name": "Dying Light: The Beast #4",
+    "date": "2026-01-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2677736446.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2677736446.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2677736446.torrent",
+    "games": ["dl-beast"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2677736446.ass"
   }
 }
