@@ -17483,7 +17483,6 @@
     "youtube": "t6V9QbQy0GU", "vk": "-28387068_456250912", "abs_start": 0, "abs_end": 25331, "duration": 25331,
     "name": "The Lift (демо) #2 / No, I'm not a Human #2 / Dying Light: The Beast (кооп) - Соло",
     "date": "2025-09-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2569405622.torrent",
     "games": ["the-lift", "nimnah", "dying-light-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2569405622.ass"
   },
@@ -18211,5 +18210,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2677736446.torrent",
     "games": ["dl-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2677736446.ass"
+  },
+  "2678685761": {
+    "abs_start": 0, "abs_end": 18442, "duration": 18442,
+    "name": "Dying Light: The Beast #5",
+    "date": "2026-01-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2678685761.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2678685761.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2678685761.torrent",
+    "games": ["dl-beast"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2678685761.ass"
   }
 }

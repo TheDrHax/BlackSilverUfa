@@ -20303,7 +20303,7 @@
   },
   {
     "name": "Dying Light: The Beast",
-    "category": "ongoing",
+    "category": "finished",
     "id": "dl-beast",
     "streams": [
       { "segment": "2675123579", "subrefs": [
@@ -20317,6 +20317,9 @@
       ] },
       { "segment": "2677736446", "subrefs": [
         { "name": "4", "start": 2662 }
+      ] },
+      { "segment": "2678685761", "subrefs": [
+        { "name": "5", "start": 802 }
       ] }
     ]
   }
