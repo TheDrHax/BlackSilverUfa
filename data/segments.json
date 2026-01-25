@@ -17490,7 +17490,6 @@
     "youtube": "Qxmi3nwukmM", "vk": "-28387068_456250914", "abs_start": 0, "abs_end": 23413, "duration": 23413,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #40 / Hollow Knight: Silksong #7 / The Lightkeeper / August Night / SNAP SNAP",
     "date": "2025-09-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2570229778.torrent",
     "games": ["horrors-2025", "hk-silksong", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2570229778+0.ass"
   },
@@ -18218,5 +18217,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2678685761.torrent",
     "games": ["dl-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2678685761.ass"
+  },
+  "2679753048": {
+    "abs_start": 0, "abs_end": 18835, "duration": 18835,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #3 / The Empty Halls / Babulya / Unseen / Cucina Stellata: Starred Cuisine (демо) / Bite Night: Dine or Die",
+    "date": "2026-01-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2679753048.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2679753048.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2679753048.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026", "mgf-games"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2679753048.ass"
   }
 }
