@@ -17504,7 +17504,6 @@
     "youtube": "byB92BpPAkc", "vk": "-28387068_456250919", "abs_start": 0, "abs_end": 25833, "duration": 25833,
     "name": "Silent Hill ƒ #1",
     "date": "2025-09-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2572833460.torrent",
     "games": ["sh-f"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2572833460.ass"
   },
@@ -18232,5 +18231,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2682450993.torrent",
     "games": ["first-2026", "hellmart"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2682450993.ass"
+  },
+  "2683344112": {
+    "abs_start": 0, "abs_end": 21901, "duration": 21901,
+    "name": "Nioh 3 (демо) / Cairn",
+    "date": "2026-01-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2683344112.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2683344112.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2683344112.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2683344112.ass"
   }
 }
