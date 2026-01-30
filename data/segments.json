@@ -15529,9 +15529,9 @@
   },
   "2274972530": {
     "youtube": "lVILsyKo6UQ", "vk": "-28387068_456250455", "abs_start": 0, "abs_end": 17757, "duration": 17757,
-    "name": "Hail to the Rainbow - Демо / Below, Rusted Gods (демо) / ФУ: Зеленые Глаза (демо) / Butcher's Creek (демо) / Creepy Shift: Roadside Diner - Демо / Fear the Timeloop (демо)",
+    "name": "Hail to the Rainbow - Демо / Below, Rusted Gods (демо) / ФУ: Зеленые Глаза (демо) / Butcher's Creek (демо) / Creepy Shift: Roadside Diner - Демо / Fear the Timeloop - Демо",
     "date": "2024-10-13",
-    "games": ["hail-to-the-rainbow", "single-2024", "first-2024", "creepy-shift-rd"],
+    "games": ["hail-to-the-rainbow", "single-2024", "first-2024", "creepy-shift-rd", "fear-the-timeloop"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2274972530.ass"
   },
   "2275791324": {
@@ -17511,7 +17511,6 @@
     "youtube": "DPOsIGOeWGA", "vk": "-28387068_456250921", "abs_start": 0, "abs_end": 29236, "duration": 29236,
     "name": "Silent Hill ƒ #2",
     "date": "2025-09-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2573620416.torrent",
     "games": ["sh-f"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2573620416+0.ass"
   },
@@ -18239,5 +18238,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2683344112.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2683344112.ass"
+  },
+  "2684248237": {
+    "abs_start": 0, "abs_end": 18242, "duration": 18242,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #4 / The Backrooms: Liminal Space / Callus (Мозоль) / Kacipbara / Hunting / Oh Demon! Fix my TV / Fear the Timeloop - Релиз",
+    "date": "2026-01-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2684248237.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2684248237.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2684248237.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026", "fear-the-timeloop"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2684248237.ass"
   }
 }
