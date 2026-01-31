@@ -18233,10 +18233,10 @@
   },
   "2683344112": {
     "youtube": "IZBGSA3INEg", "abs_start": 0, "abs_end": 21901, "duration": 21901,
-    "name": "Nioh 3 (демо) / Cairn",
+    "name": "Nioh 3 (демо) / Cairn #1",
     "date": "2026-01-29",
     "torrent": "https://bsufiles.drhx.ru/streams/2683344112.torrent",
-    "games": ["first-2026"],
+    "games": ["first-2026", "cairn"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2683344112.ass"
   },
   "2684248237": {
@@ -18248,5 +18248,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2684248237.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026", "fear-the-timeloop"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2684248237.ass"
+  },
+  "2685159950": {
+    "abs_start": 0, "abs_end": 21687, "duration": 21687,
+    "name": "Half Sword (демо) #9 / Cairn #2",
+    "date": "2026-01-31",
+    "direct": "https://bsufiles.drhx.ru/streams/2685159950.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2685159950.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2685159950.torrent",
+    "games": ["half-sword", "cairn"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2685159950.ass"
   }
 }

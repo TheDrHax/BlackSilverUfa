@@ -9299,8 +9299,7 @@
         { "name": "Code Vein II", "start": 1403 }
       ] },
       { "segment": "2683344112", "subrefs": [
-        { "name": "Nioh 3 (демо)", "start": 1981 },
-        { "name": "Cairn", "start": 10411 }
+        { "name": "Nioh 3 (демо)", "start": 1981 }
       ] },
       { "segment": "2684248237", "subrefs": [
         { "name": "The Backrooms: Liminal Space", "start": 2029 }
@@ -18969,6 +18968,9 @@
       ] },
       { "segment": "2436090384", "subrefs": [
         { "name": "8", "start": 19566 }
+      ] },
+      { "segment": "2685159950", "subrefs": [
+        { "name": "9", "start": 1512 }
       ] }
     ]
   },
@@ -20377,6 +20379,19 @@
       ] },
       { "segment": "2684248237", "subrefs": [
         { "name": "Релиз", "start": 15254 }
+      ] }
+    ]
+  },
+  {
+    "name": "Cairn",
+    "category": "ongoing",
+    "id": "cairn",
+    "streams": [
+      { "segment": "2683344112", "subrefs": [
+        { "name": "1", "start": 10411 }
+      ] },
+      { "segment": "2685159950", "subrefs": [
+        { "name": "2", "start": 15882 }
       ] }
     ]
   }
