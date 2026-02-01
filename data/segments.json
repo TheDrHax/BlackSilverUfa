@@ -17518,7 +17518,6 @@
     "youtube": "x-X6TVu5d2I", "vk": "-28387068_456250922", "abs_start": 0, "abs_end": 22986, "duration": 22986,
     "name": "Silent Hill ƒ #3",
     "date": "2025-09-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2574455537.torrent",
     "games": ["sh-f"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2574455537.ass"
   },
@@ -18254,5 +18253,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2685159950.torrent",
     "games": ["half-sword", "cairn"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2685159950.ass"
+  },
+  "2686159557": {
+    "abs_start": 0, "abs_end": 18006, "duration": 18006,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #5 / Yellow / Toilet 8 / Photomaly (демо) / Mole (демо) / My Neighbor Stinks / Silent Still 3 (демо)",
+    "date": "2026-02-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2686159557.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2686159557.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2686159557.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2686159557.ass"
   }
 }
