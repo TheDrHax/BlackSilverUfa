@@ -16233,9 +16233,9 @@
   },
   "2390754958": {
     "youtube": "ZDWTQPQz-XM", "vk": "-28387068_456250645", "abs_start": 0, "abs_end": 20192, "duration": 20192,
-    "name": "Total Chaos - Демо / RoadCraft - Демо / The 18th Attic (демо) / The Northern Path (Северный путь) (демо) / Salvage Protocol (демо) / We Took That Trip (демо) / Neverlooted Dungeon (демо)",
+    "name": "Total Chaos - Демо / RoadCraft - Демо / The 18th Attic - Демо / The Northern Path (Северный путь) (демо) / Salvage Protocol (демо) / We Took That Trip (демо) / Neverlooted Dungeon (демо)",
     "date": "2025-02-25",
-    "games": ["total-chaos", "roadcraft", "first-2025", "single-2025"],
+    "games": ["total-chaos", "roadcraft", "18th-attic", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2390754958.ass"
   },
   "2391565194": {
@@ -17525,7 +17525,6 @@
     "youtube": "qzT_Wu-5gaQ", "vk": "-28387068_456250925", "abs_start": 0, "abs_end": 19992, "duration": 19992,
     "name": "Motorslice (демо) / Baby Steps #1",
     "date": "2025-09-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2575282328.torrent",
     "games": ["first-2025", "baby-steps"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2575282328.ass"
   },
@@ -18261,5 +18260,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2686159557.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2686159557.ass"
+  },
+  "2688736409": {
+    "abs_start": 0, "abs_end": 24891, "duration": 24891,
+    "name": "Cleaning Simulator / Sector Zero / New Face On The Block / Grimps (демо) / One Last Clip / The 18th Attic - Релиз / Half Sword (демо) #10",
+    "date": "2026-02-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2688736409.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2688736409.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2688736409.torrent",
+    "games": ["first-2026", "single-2026", "18th-attic", "half-sword"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2688736409.ass"
   }
 }

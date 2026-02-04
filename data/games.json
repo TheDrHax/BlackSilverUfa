@@ -8898,7 +8898,6 @@
         { "name": "Solarpunk", "start": 18484 }
       ] },
       { "segment": "2390754958", "subrefs": [
-        { "name": "The 18th Attic (демо)", "start": 9758 },
         { "name": "The Northern Path (Северный путь) (демо)", "start": 10775 },
         { "name": "We Took That Trip (демо)", "start": 14106 }
       ] },
@@ -9306,6 +9305,11 @@
       ] },
       { "segment": "2686159557", "subrefs": [
         { "name": "Yellow", "start": 1565 }
+      ] },
+      { "segment": "2688736409", "subrefs": [
+        { "name": "Cleaning Simulator", "start": 2097 },
+        { "name": "Sector Zero", "start": 5174 },
+        { "name": "New Face On The Block", "start": 7145 }
       ] }
     ]
   },
@@ -10032,6 +10036,10 @@
         { "name": "Mole (демо)", "start": 9575 },
         { "name": "My Neighbor Stinks", "start": 12813 },
         { "name": "Silent Still 3 (демо)", "start": 16668 }
+      ] },
+      { "segment": "2688736409", "subrefs": [
+        { "name": "Grimps (демо)", "start": 10013 },
+        { "name": "One Last Clip", "start": 12297 }
       ] }
     ]
   },
@@ -18984,6 +18992,9 @@
       ] },
       { "segment": "2685159950", "subrefs": [
         { "name": "9", "start": 1512 }
+      ] },
+      { "segment": "2688736409", "subrefs": [
+        { "name": "10", "start": 20897 }
       ] }
     ]
   },
@@ -20405,6 +20416,19 @@
       ] },
       { "segment": "2685159950", "subrefs": [
         { "name": "2", "start": 15882 }
+      ] }
+    ]
+  },
+  {
+    "name": "The 18th Attic",
+    "category": "ongoing",
+    "id": "18th-attic",
+    "streams": [
+      { "segment": "2390754958", "subrefs": [
+        { "name": "Демо", "start": 9758 }
+      ] },
+      { "segment": "2688736409", "subrefs": [
+        { "name": "Релиз", "start": 17196 }
       ] }
     ]
   }
