@@ -5721,9 +5721,10 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v520025510.ass"
   },
   "520025510.1": {
-    "youtube": "4kF3HTR6Ol0", "official": false, "abs_start": 10564, "abs_end": 23830, "duration": 13266,
+    "abs_start": 10564, "abs_end": 23831, "duration": 13267,
     "name": "Grand Theft Auto: Vice City #3",
     "date": "2019-12-11",
+    "direct": "https://bsufiles.drhx.ru/streams/520025510.1.mp4",
     "games": ["gta-vice-city"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v520025510.ass"
   },
@@ -17529,12 +17530,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2575282328.ass"
   },
   "2577004877": {
-    "vk": "-28387068_456250926", "abs_start": 0, "abs_end": 17127, "duration": 17127,
+    "vk": "-28387068_456250926", "abs_start": 0, "abs_end": 17135, "duration": 17135,
     "name": "",
     "date": "2025-09-27",
-    "direct": "https://bsufiles.drhx.ru/streams/2577004877.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2577004877.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2577004877.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2577004877.ass"
   },
