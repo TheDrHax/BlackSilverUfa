@@ -17533,12 +17533,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2577004877.ass"
   },
   "2577175377": {
-    "vk": "-28387068_456250927", "abs_start": 0, "abs_end": 8026, "duration": 8026,
+    "vk": "-28387068_456250927", "abs_start": 0, "abs_end": 8031, "duration": 8031,
     "name": "",
     "date": "2025-09-27",
-    "direct": "https://bsufiles.drhx.ru/streams/2577175377.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2577175377.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2577175377.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2577175377.ass"
   },
@@ -17547,7 +17544,6 @@
     "name": "Baby Steps #2 / Dying Light: The Beast (кооп) #1",
     "date": "2025-09-27",
     "offsets": ["0:00", "4:45:25+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2577004877,2577175377.torrent",
     "games": ["baby-steps", "dying-light-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2577004877,2577175377+0.ass"
   },
@@ -18264,5 +18260,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2688736409.torrent",
     "games": ["first-2026", "single-2026", "18th-attic", "half-sword"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2688736409.ass"
+  },
+  "2689597395": {
+    "abs_start": 0, "abs_end": 21670, "duration": 21670,
+    "name": "Half Sword (демо) #11 / Umigari",
+    "date": "2026-02-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2689597395.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2689597395.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2689597395.torrent",
+    "games": ["half-sword", "chillas-art"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2689597395.ass"
   }
 }
