@@ -17617,10 +17617,10 @@
   },
   "2589892339": {
     "youtube": "QblJcbGGz9A", "vk": "-28387068_456250945", "abs_start": 0, "abs_end": 17921, "duration": 17921,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #44 / Lost Liminal (демо) / Umigari (демо) / Eilean Mor: The Lost Keepers / Last Stop / Horror Tales Eats The World (демо) / Hollowbrook: Apartments",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #44 / Lost Liminal (демо) / Umigari (Chilla's Art) - Демо / Eilean Mor: The Lost Keepers / Last Stop / Horror Tales Eats The World (демо) / Hollowbrook: Apartments",
     "date": "2025-10-12",
     "torrent": "https://bsufiles.drhx.ru/streams/2589892339.torrent",
-    "games": ["horrors-2025", "single-2025", "chillas-art", "first-2025"],
+    "games": ["horrors-2025", "single-2025", "umigari", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2589892339.ass"
   },
   "2590720116": {
@@ -18259,10 +18259,20 @@
   },
   "2689597395": {
     "youtube": "vGmNjxoUoDc", "vk": "-28387068_456251058", "abs_start": 0, "abs_end": 21671, "duration": 21671,
-    "name": "Half Sword (демо) #11 / Umigari",
+    "name": "Half Sword (демо) #11 / Umigari (Chilla's Art) #1",
     "date": "2026-02-05",
     "torrent": "https://bsufiles.drhx.ru/streams/2689597395.torrent",
-    "games": ["half-sword", "chillas-art"],
+    "games": ["half-sword", "umigari"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2689597395.ass"
+  },
+  "2690463885": {
+    "abs_start": 0, "abs_end": 16883, "duration": 16883,
+    "name": "Umigari (Chilla's Art) #2",
+    "date": "2026-02-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2690463885.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2690463885.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2690463885.torrent",
+    "games": ["umigari"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2690463885.ass"
   }
 }

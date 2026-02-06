@@ -5440,12 +5440,22 @@
       { "segment": "2349362268,2349415065", "subrefs": [
         { "name": "Cursed Digicam", "start": 2192 },
         { "name": "Cursed Digicam (продолжение)", "start": 5924, "hidden": true }
-      ] },
+      ] }
+    ]
+  },
+  {
+    "name": "Umigari (Chilla's Art)",
+    "category": "finished",
+    "id": "umigari",
+    "streams": [
       { "segment": "2589892339", "subrefs": [
-        { "name": "Umigari (демо)", "start": 4264 }
+        { "name": "Демо", "start": 4264 }
       ] },
       { "segment": "2689597395", "subrefs": [
-        { "name": "Umigari", "start": 10986 }
+        { "name": "1", "start": 10986 }
+      ] },
+      { "segment": "2690463885", "subrefs": [
+        { "name": "2", "start": 1970 }
       ] }
     ]
   },
