@@ -17547,7 +17547,6 @@
     "youtube": "CPzLgXaY9bQ", "vk": "-28387068_456250930", "abs_start": 0, "abs_end": 20156, "duration": 20156,
     "name": "Baby Steps #3 / Dying Light: The Beast (кооп) #2",
     "date": "2025-09-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2577904159.torrent",
     "games": ["baby-steps", "dying-light-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2577904159.ass"
   },
@@ -17555,7 +17554,6 @@
     "youtube": "0Ig9-6Ghnw0", "vk": "-28387068_456250931", "abs_start": 0, "abs_end": 13903, "duration": 13903,
     "name": "Подкаст про Silent Hill ƒ (WeLoveGames, Dmitry Bale)",
     "date": "2025-09-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2578806165.torrent",
     "games": ["other"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2578806165.ass"
   },
@@ -18274,5 +18272,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2690463885.torrent",
     "games": ["umigari"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2690463885.ass"
+  },
+  "2691389947": {
+    "abs_start": 0, "abs_end": 25879, "duration": 25879,
+    "name": "Resident Evil 4 Remake #1 (заново)",
+    "date": "2026-02-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2691389947.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2691389947.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2691389947.torrent",
+    "games": ["re4-remake"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2691389947.ass"
   }
 }
