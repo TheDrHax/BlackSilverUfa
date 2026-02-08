@@ -17561,7 +17561,6 @@
     "youtube": "zeSbKDHZ1yQ", "vk": "-28387068_456250934", "abs_start": 0, "abs_end": 17791, "duration": 17791,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #41 / The Office Rooms / Sleep Awake - Демо / [HERROR] Gas Station Case (демо) / She's Leaving (демо) / Knock on the Window",
     "date": "2025-09-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2579578173.torrent",
     "games": ["horrors-2025", "first-2025", "sleep-awake", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2579578173.ass"
   },
@@ -18278,5 +18277,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2691389947.torrent",
     "games": ["re4-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2691389947.ass"
+  },
+  "2692371042": {
+    "abs_start": 0, "abs_end": 20056, "duration": 20056,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #6 / The Shattered Mind of Lucas Hayes (демо) / The Milgram Experiment (демо) / Uncanny Tales: The Watcher (демо) / The Strange Lights / Crabmeat (демо) / Perceptum (демо) / Escape From Yandere / Floor 13 / Unusual Tales: Deep Below",
+    "date": "2026-02-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2692371042.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2692371042.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2692371042.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2692371042.ass"
   }
 }

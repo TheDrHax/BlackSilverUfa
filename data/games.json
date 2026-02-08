@@ -9326,6 +9326,12 @@
         { "name": "Cleaning Simulator", "start": 2097 },
         { "name": "Sector Zero", "start": 5174 },
         { "name": "New Face On The Block", "start": 7145 }
+      ] },
+      { "segment": "2692371042", "subrefs": [
+        { "name": "The Shattered Mind of Lucas Hayes (демо)", "start": 1313 },
+        { "name": "The Milgram Experiment (демо)", "start": 2299 },
+        { "name": "Escape From Yandere", "start": 12840 },
+        { "name": "Floor 13", "start": 15028 }
       ] }
     ]
   },
@@ -10056,6 +10062,13 @@
       { "segment": "2688736409", "subrefs": [
         { "name": "Grimps (демо)", "start": 10013 },
         { "name": "One Last Clip", "start": 12297 }
+      ] },
+      { "segment": "2692371042", "subrefs": [
+        { "name": "Uncanny Tales: The Watcher (демо)", "start": 3239 },
+        { "name": "The Strange Lights", "start": 6676 },
+        { "name": "Crabmeat (демо)", "start": 9066 },
+        { "name": "Perceptum (демо)", "start": 11855 },
+        { "name": "Unusual Tales: Deep Below", "start": 15525 }
       ] }
     ]
   },
@@ -18093,6 +18106,9 @@
       ] },
       { "segment": "2686159557", "subrefs": [
         { "name": "5" }
+      ] },
+      { "segment": "2692371042", "subrefs": [
+        { "name": "6" }
       ] }
     ]
   },
