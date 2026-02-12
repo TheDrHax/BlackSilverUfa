@@ -17568,7 +17568,6 @@
     "youtube": "BkaE1bvGiAw", "vk": "-28387068_456250935", "abs_start": 0, "abs_end": 19929, "duration": 19929,
     "name": "Alien: Rogue Incursion / Industria II (демо)",
     "date": "2025-10-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2580342642.torrent",
     "games": ["first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2580342642.ass"
   },
@@ -18283,5 +18282,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2692371042.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2692371042.ass"
+  },
+  "2695726320": {
+    "abs_start": 0, "abs_end": 21700, "duration": 21700,
+    "name": "Replaced (демо) / Planet of Lana II: Children of the Leaf (демо) / Bylina (демо) / Crisol: Theater of Idols",
+    "date": "2026-02-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2695726320.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2695726320.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2695726320.torrent",
+    "games": ["single-2026", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2695726320.ass"
   }
 }
