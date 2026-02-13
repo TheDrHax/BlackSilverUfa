@@ -17575,7 +17575,6 @@
     "youtube": "dk4ecq2CQUM", "vk": "-28387068_456250936", "abs_start": 0, "abs_end": 18890, "duration": 18890,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #42 / Backrooms: The Beginning Hour (демо) / Liminalcore - Chapter 3 / The Hole Keeper (демо) / Dyer Expedition - Релиз / No Path Forward / Refuted Wind / Mind the Clown / Pinnacle Point (демо)",
     "date": "2025-10-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2581220252.torrent",
     "games": ["horrors-2025", "single-2025", "liminalcore", "dyer-expedition", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2581220252.ass"
   },
@@ -17583,7 +17582,6 @@
     "youtube": "RTMhyJf_abI", "vk": "-28387068_456250938", "abs_start": 0, "abs_end": 19986, "duration": 19986,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #43 / Backrooms #2 / Metroliminal (демо) / Outlast: Lost Footage / IRE: A Prologue (демо) / Stay With Him / The 9th Charnel - Демо 2 / Side Effects (демо) / Junji Ito Maniac: An Infinite Gaol - Демо / Owl Lights",
     "date": "2025-10-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2582997412.torrent",
     "games": ["horrors-2025", "backrooms", "single-2025", "first-2025", "9th-charnel", "junji-ito-maniac"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2582997412.ass"
   },
@@ -18290,5 +18288,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2695726320.torrent",
     "games": ["single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2695726320.ass"
+  },
+  "2696580164": {
+    "abs_start": 0, "abs_end": 22388, "duration": 22388,
+    "name": "Reanimal (с Дашей)",
+    "date": "2026-02-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2696580164.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2696580164.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2696580164.torrent",
+    "games": ["co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2696580164.ass"
   }
 }
