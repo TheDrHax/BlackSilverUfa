@@ -17589,7 +17589,6 @@
     "youtube": "RWPKjU0z0-k", "vk": "-28387068_456250940", "abs_start": 0, "abs_end": 17120, "duration": 17120,
     "name": "Ratatouille #1",
     "date": "2025-10-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2583885410.torrent",
     "games": ["ratatouille"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2583885410.ass"
   },
@@ -18291,12 +18290,22 @@
   },
   "2696580164": {
     "vk": "-28387068_456251065", "abs_start": 0, "abs_end": 22388, "duration": 22388,
-    "name": "Reanimal (с Дашей)",
+    "name": "Reanimal (с Дашей) #1",
     "date": "2026-02-13",
     "direct": "https://bsufiles.drhx.ru/streams/2696580164.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2696580164.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2696580164.torrent",
-    "games": ["co-op"],
+    "games": ["reanimal"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2696580164.ass"
+  },
+  "2697488820": {
+    "abs_start": 0, "abs_end": 22285, "duration": 22285,
+    "name": "Half Sword (демо) #12 / Reanimal (с Дашей) #2 / Peak #11 (с Дашей)",
+    "date": "2026-02-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2697488820.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2697488820.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2697488820.torrent",
+    "games": ["half-sword", "reanimal", "peak"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2697488820.ass"
   }
 }

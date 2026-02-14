@@ -824,9 +824,6 @@
       { "segment": "2654992093", "subrefs": [
         { "name": "Los Pingheros", "start": 10553 },
         { "name": "Pic-Me!", "start": 12827 }
-      ] },
-      { "segment": "2696580164", "subrefs": [
-        { "name": "Reanimal (с Дашей)", "start": 7301 }
       ] }
     ]
   },
@@ -19041,6 +19038,10 @@
       ] },
       { "segment": "2689597395", "subrefs": [
         { "name": "11", "start": 1102 }
+      ] },
+      { "segment": "2697488820", "subrefs": [
+        { "name": "12", "start": 1595 },
+        { "name": "12 (продолжение)", "start": 6930, "hidden": true }
       ] }
     ]
   },
@@ -19449,6 +19450,9 @@
       ] },
       { "segment": "2625048351", "subrefs": [
         { "name": "10", "start": 14605 }
+      ] },
+      { "segment": "2697488820", "subrefs": [
+        { "name": "11 (с Дашей)", "start": 18770 }
       ] }
     ]
   },
@@ -20475,6 +20479,19 @@
       ] },
       { "segment": "2688736409", "subrefs": [
         { "name": "Релиз", "start": 17196 }
+      ] }
+    ]
+  },
+  {
+    "name": "Reanimal (с Дашей)",
+    "category": "finished",
+    "id": "reanimal",
+    "streams": [
+      { "segment": "2696580164", "subrefs": [
+        { "name": "1", "start": 7301 }
+      ] },
+      { "segment": "2697488820", "subrefs": [
+        { "name": "2", "start": 9681 }
       ] }
     ]
   }
