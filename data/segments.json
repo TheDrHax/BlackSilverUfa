@@ -17596,7 +17596,6 @@
     "youtube": "bEYezUVLoJM", "vk": "-28387068_456250941", "abs_start": 0, "abs_end": 28318, "duration": 28318,
     "name": "Little Nightmares 3",
     "date": "2025-10-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2587965611.torrent",
     "games": ["single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2587965611.ass"
   },
@@ -18305,5 +18304,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2697488820.torrent",
     "games": ["half-sword", "reanimal", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2697488820.ass"
+  },
+  "2698426553": {
+    "abs_start": 0, "abs_end": 16688, "duration": 16688,
+    "name": "Desperate Housewives: The Game (Отчаянные домохозяйки)",
+    "date": "2026-02-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2698426553.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2698426553.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2698426553.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2698426553.ass"
   }
 }
