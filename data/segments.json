@@ -17603,7 +17603,6 @@
     "youtube": "XaeRjegfruM", "vk": "-28387068_456250944", "abs_start": 0, "abs_end": 21689, "duration": 21689,
     "name": "Ratatouille #2",
     "date": "2025-10-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2588974324.torrent",
     "games": ["ratatouille"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2588974324.ass"
   },
@@ -18310,5 +18309,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2698426553.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2698426553.ass"
+  },
+  "2700179188": {
+    "abs_start": 0, "abs_end": 13443, "duration": 13443,
+    "name": "",
+    "date": "2026-02-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2700179188.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2700179188.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2700179188.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2700179188.ass"
+  },
+  "2700299926": {
+    "abs_start": 0, "abs_end": 6095, "duration": 6095,
+    "name": "",
+    "date": "2026-02-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2700299926.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2700299926.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2700299926.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2700299926+0.ass"
+  },
+  "2700179188,2700299926": {
+    "abs_start": 0, "abs_end": 19402, "duration": 19402,
+    "name": "Resident Evil 4 Remake #2",
+    "date": "2026-02-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2700179188,2700299926.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2700179188,2700299926.mp4/master.m3u8",
+    "offsets": ["0:00", "3:41:47+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2700179188,2700299926.torrent",
+    "games": ["re4-remake"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2700179188,2700299926+0.ass"
   }
 }
