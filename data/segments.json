@@ -17610,7 +17610,6 @@
     "youtube": "QblJcbGGz9A", "vk": "-28387068_456250945", "abs_start": 0, "abs_end": 17921, "duration": 17921,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #44 / Lost Liminal (демо) / Umigari (Chilla's Art) - Демо / Eilean Mor: The Lost Keepers / Last Stop / Horror Tales Eats The World (демо) / Hollowbrook: Apartments",
     "date": "2025-10-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2589892339.torrent",
     "games": ["horrors-2025", "single-2025", "umigari", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2589892339.ass"
   },
@@ -17618,7 +17617,6 @@
     "youtube": "Kl-JwoKcduw", "vk": "-28387068_456250946", "abs_start": 0, "abs_end": 25538, "duration": 25538,
     "name": "Valor Mortis (демо) / Deathground / The Outlast Trials #8 (4D) / Peak #9",
     "date": "2025-10-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2590720116.torrent",
     "games": ["first-2025", "co-op", "outlast-trials", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2590720116.ass"
   },
@@ -18338,5 +18336,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2700179188,2700299926.torrent",
     "games": ["re4-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2700179188,2700299926+0.ass"
+  },
+  "2701038008": {
+    "abs_start": 0, "abs_end": 25183, "duration": 25183,
+    "name": "Resident Evil 4 Remake #3",
+    "date": "2026-02-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2701038008.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2701038008.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2701038008.torrent",
+    "games": ["re4-remake"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2701038008.ass"
   }
 }
