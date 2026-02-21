@@ -9345,9 +9345,6 @@
       { "segment": "2695726320", "subrefs": [
         { "name": "Bylina (демо)", "start": 9031 },
         { "name": "Crisol: Theater of Idols", "start": 15065 }
-      ] },
-      { "segment": "2698426553", "subrefs": [
-        { "name": "Desperate Housewives: The Game (Отчаянные домохозяйки)", "start": 1335 }
       ] }
     ]
   },
@@ -20504,6 +20501,19 @@
       ] },
       { "segment": "2697488820", "subrefs": [
         { "name": "2", "start": 9681 }
+      ] }
+    ]
+  },
+  {
+    "name": "Desperate Housewives: The Game (Отчаянные домохозяйки)",
+    "category": "ongoing",
+    "id": "desperate-housewives",
+    "streams": [
+      { "segment": "2698426553", "subrefs": [
+        { "name": "1", "start": 1335 }
+      ] },
+      { "segment": "2703732476", "subrefs": [
+        { "name": "2", "start": 1664 }
       ] }
     ]
   }
