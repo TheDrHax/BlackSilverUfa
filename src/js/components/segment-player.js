@@ -308,9 +308,9 @@ export default class SegmentPlayer extends React.Component {
     };
 
     return (
-      <Row>
+      <Row className="plyr-row">
         <Col>
-          <Ratio aspectRatio="16x9">
+          <Ratio aspectRatio="16x9" className="plyr-ratio">
             <NoPrerender>
               <Player {...playerProps} />
             </NoPrerender>

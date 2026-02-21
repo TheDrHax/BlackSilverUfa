@@ -342,7 +342,7 @@ export default class Player extends React.Component {
           </Measure>,
           this.overlay,
         )}
-        <div ref={this.ref} className="plyr-row" />
+        <div ref={this.ref} />
       </>
     );
   }

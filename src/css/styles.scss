@@ -867,8 +867,18 @@ h3>.badge {
 
 .plyr-row {
   background-color: #000;
-  
-  > .plyr:not(:fullscreen):not(.plyr--fullscreen-fallback) {
+
+  > .col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .plyr-ratio {
+    // subtract navbar and toolbar
+    max-width: calc((100vh - 48px - 42px) * 16 / 9);
+  }
+
+  .plyr:not(:fullscreen):not(.plyr--fullscreen-fallback) {
     height: 100%;
     margin: auto;
   }
