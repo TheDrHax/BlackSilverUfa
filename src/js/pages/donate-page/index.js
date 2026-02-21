@@ -179,19 +179,6 @@ const DonatePage = () => (
           scrolling="no"
         />
       </CardModal>
-      <CardModal name="QIWI" imgSrc="/static/images/qiwi.png">
-        <div className="d-flex justify-content-center">
-          <iframe
-            title="qiwi"
-            width="300"
-            height="300"
-            src="https://widget.qiwi.com/widgets/middle-widget-300x300?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPvykFn8uUj7rArJYgVEGeQELnqxafyGjXyzxgjQGicgcxpcvKjFxbtq31R6Krxm1emVuvhCnJ3dfGEPPE8C2fMUzzMU9KFeJ5z9We4XUn4"
-            allowtransparency="true"
-            scrolling="no"
-            frameBorder="0"
-          />
-        </div>
-      </CardModal>
     </Row>
   </Layout>
 );

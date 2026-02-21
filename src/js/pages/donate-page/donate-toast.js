@@ -5,14 +5,14 @@ import PATHS from '../../constants/urls';
 import Persist from '../../utils/persist';
 import { useDataStore } from '../../hooks/use-data-store';
 
-const VERSION = 2;
+const VERSION = 3;
 
 export default function DonateToast() {
   const [{ persist }] = useDataStore();
   const data = Persist.load('donate-toast', {
     closed: false,
     at: 0,
-    version: 1,
+    version: VERSION - 1,
   });
   const [closed, setClosed] = useState(data.closed);
 
