@@ -884,6 +884,11 @@ h3>.badge {
   }
 }
 
+.plyr iframe {
+  // do not highlight selection on double click in Chrome
+  user-select: none;
+}
+
 .plyr .plyr-overlay {
   position: absolute;
   left: 0;
