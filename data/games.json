@@ -9345,6 +9345,13 @@
       { "segment": "2695726320", "subrefs": [
         { "name": "Bylina (демо)", "start": 9031 },
         { "name": "Crisol: Theater of Idols", "start": 15065 }
+      ] },
+      { "segment": "2704669685", "subrefs": [
+        { "name": "Backrooms: Poolrooms", "start": 1841 },
+        { "name": "Rules: Motel Horizon", "start": 8117 },
+        { "name": "Moonrot", "start": 12090 },
+        { "name": "Skinface", "start": 15932 },
+        { "name": "Deda (Деда)", "start": 16532 }
       ] }
     ]
   },
@@ -10086,6 +10093,12 @@
       { "segment": "2695726320", "subrefs": [
         { "name": "Replaced (демо)", "start": 2953 },
         { "name": "Planet of Lana II: Children of the Leaf (демо)", "start": 5340 }
+      ] },
+      { "segment": "2704669685", "subrefs": [
+        { "name": "Captured 2 (демо)", "start": 3537 },
+        { "name": "Don't Play This (демо)", "start": 7017 },
+        { "name": "Jaden Williams' The Stalking Stairs", "start": 13088 },
+        { "name": "White Silence", "start": 16813 }
       ] }
     ]
   },
@@ -18126,6 +18139,9 @@
       ] },
       { "segment": "2692371042", "subrefs": [
         { "name": "6" }
+      ] },
+      { "segment": "2704669685", "subrefs": [
+        { "name": "7" }
       ] }
     ]
   },

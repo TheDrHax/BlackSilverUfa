@@ -17642,7 +17642,6 @@
     "youtube": "dmMCR9dcSmc", "vk": "-28387068_456250952", "abs_start": 0, "abs_end": 22164, "duration": 22164,
     "name": "Skinfreak",
     "date": "2025-10-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2593267290.torrent",
     "games": ["single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2593267290.ass"
   },
@@ -18362,5 +18361,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2703732476.torrent",
     "games": ["desperate-housewives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2703732476.ass"
+  },
+  "2704669685": {
+    "abs_start": 0, "abs_end": 18840, "duration": 18840,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #7 / Backrooms: Poolrooms / Captured 2 (демо) / Don't Play This (демо) / Rules: Motel Horizon / Moonrot / Jaden Williams' The Stalking Stairs / Skinface / Deda (Деда) / White Silence",
+    "date": "2026-02-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2704669685.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2704669685.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2704669685.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2704669685.ass"
   }
 }
