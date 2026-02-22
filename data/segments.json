@@ -462,9 +462,11 @@
     "games": ["ds3"]
   },
   "001605240": {
-    "youtube": "iTIk_i3GHYs", "official": false, "abs_start": 0, "abs_end": 19894, "duration": 19894,
+    "abs_start": 0, "abs_end": 19893, "duration": 19893,
     "name": "Dark Souls 3 #5",
     "date": "2016-05-24",
+    "direct": "https://bsufiles.drhx.ru/streams/001605240.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001605240.mp4/master.m3u8",
     "games": ["ds3"]
   },
   "001605270": {
@@ -2263,9 +2265,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v262696959.ass"
   },
   "263472196": {
-    "youtube": "ASRFxbaZLJU", "official": false, "abs_start": 0, "abs_end": 21079, "duration": 21079,
+    "abs_start": 0, "abs_end": 21078, "duration": 21078,
     "name": "FAR: Lone Sails #2 / Dark Souls 2: Scholar of the First Sin #3",
     "date": "2018-05-20",
+    "direct": "https://bsufiles.drhx.ru/streams/263472196.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/263472196.mp4/master.m3u8",
     "games": ["far-lone-sails", "ds2-scholar"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v263472196.ass"
   },
@@ -17631,7 +17635,6 @@
     "youtube": "czMFeBJY75c", "vk": "-28387068_456250950", "abs_start": 0, "abs_end": 18211, "duration": 18211,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #46 / Трейлер Rules of Engagement: The Grey State / Beneath (демо) / Platform 0 (демо) / Ghost Ripper (демо) / Holes (демо) / Whispering Fog (демо) / The Gretlow Tapes - Демо 2",
     "date": "2025-10-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2592399538.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "gretlow-tapes"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2592399538.ass"
   },
