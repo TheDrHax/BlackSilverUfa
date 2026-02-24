@@ -17649,7 +17649,6 @@
     "youtube": "7jVxp3u0Gxc", "vk": "-28387068_456250956", "abs_start": 0, "abs_end": 27454, "duration": 27454,
     "name": "Painkiller / ARC Raiders #2 / Dying Light: The Beast (кооп) #3",
     "date": "2025-10-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2594940527.torrent",
     "games": ["first-2025", "arc-raiders", "dying-light-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2594940527.ass"
   },
@@ -18371,9 +18370,12 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2704669685.ass"
   },
   "2706372042": {
-    "abs_start": 0, "abs_end": 24677, "duration": 0,
+    "abs_start": 0, "abs_end": 24552, "duration": 24552,
     "name": "Poppy Playtime - Глава 5 #2 / Resident Evil 4 Remake #4",
     "date": "2026-02-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2706372042.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2706372042.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2706372042.torrent",
     "games": ["poppy-playtime", "re4-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2706372042.ass"
   }
