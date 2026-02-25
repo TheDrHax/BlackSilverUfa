@@ -17656,7 +17656,6 @@
     "youtube": "BAUoV4Vtwfk", "vk": "-28387068_456250957", "abs_start": 0, "abs_end": 12988, "duration": 12988,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #47 / Project: Null Hypothesis / Last Term / Sculpture / Tom Dahl",
     "date": "2025-10-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2595928296.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2595928296.ass"
   },
@@ -18376,5 +18375,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2706372042.torrent",
     "games": ["poppy-playtime", "re4-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2706372042.ass"
+  },
+  "2707253823": {
+    "abs_start": 0, "abs_end": 17627, "duration": 17627,
+    "name": "Resident Evil 4 Remake #5",
+    "date": "2026-02-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2707253823.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2707253823.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2707253823.torrent",
+    "games": ["re4-remake"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2707253823.ass"
   }
 }
