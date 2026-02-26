@@ -17663,7 +17663,6 @@
     "youtube": "MjICeHCnSQc", "official": false, "abs_start": 0, "abs_end": 20096, "duration": 20096,
     "name": "Truckful (демо) / Ground Zero (демо) / Carimara: Beneath the Forlorn Limbs / The Derailed - Прохождение / Troleu",
     "date": "2025-10-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2596691266.torrent",
     "games": ["single-2025", "first-2025", "derailed"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2596691266.ass"
   },
@@ -17671,7 +17670,6 @@
     "youtube": "XCIxYWwiJJ4", "vk": "-28387068_456250959", "abs_start": 0, "abs_end": 25876, "duration": 25876,
     "name": "Ninja Gaiden 4 / Vampire: The Masquerade - Bloodlines 2 #1",
     "date": "2025-10-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2597514893.torrent",
     "games": ["first-2025", "vampire-masquerade-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2597514893.ass"
   },
@@ -18383,5 +18381,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2707253823.torrent",
     "games": ["re4-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2707253823.ass"
+  },
+  "2708051647": {
+    "abs_start": 0, "abs_end": 30750, "duration": 30750,
+    "name": "Resident Evil 4 Remake #6 / Resident Evil: Requiem",
+    "date": "2026-02-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2708051647.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2708051647.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2708051647.torrent",
+    "games": ["re4-remake", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2708051647.ass"
   }
 }

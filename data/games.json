@@ -5615,6 +5615,9 @@
       ] },
       { "segment": "2707253823", "subrefs": [
         { "name": "5", "start": 1256 }
+      ] },
+      { "segment": "2708051647", "subrefs": [
+        { "name": "6", "start": 521 }
       ] }
     ]
   },
@@ -9361,6 +9364,9 @@
         { "name": "Moonrot", "start": 12090 },
         { "name": "Skinface", "start": 15932 },
         { "name": "Deda (Деда)", "start": 16532 }
+      ] },
+      { "segment": "2708051647", "subrefs": [
+        { "name": "Resident Evil: Requiem", "start": 4719 }
       ] }
     ]
   },
