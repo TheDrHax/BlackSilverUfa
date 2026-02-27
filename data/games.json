@@ -9364,9 +9364,6 @@
         { "name": "Moonrot", "start": 12090 },
         { "name": "Skinface", "start": 15932 },
         { "name": "Deda (Деда)", "start": 16532 }
-      ] },
-      { "segment": "2708051647", "subrefs": [
-        { "name": "Resident Evil: Requiem", "start": 4719 }
       ] }
     ]
   },
@@ -20545,6 +20542,19 @@
       ] },
       { "segment": "2703732476", "subrefs": [
         { "name": "2", "start": 1664 }
+      ] }
+    ]
+  },
+  {
+    "name": "Resident Evil: Requiem",
+    "category": "ongoing",
+    "id": "re-requiem",
+    "streams": [
+      { "segment": "2708051647", "subrefs": [
+        { "name": "1", "start": 4719 }
+      ] },
+      { "segment": "2708932266", "subrefs": [
+        { "name": "2", "start": 594 }
       ] }
     ]
   }
