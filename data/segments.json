@@ -17684,7 +17684,6 @@
     "youtube": "fc2hYY60waw", "vk": "-28387068_456250963", "abs_start": 0, "abs_end": 25660, "duration": 25660,
     "name": "Baby Steps #4 / RV There Yet? #1",
     "date": "2025-10-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2599184901.torrent",
     "games": ["baby-steps", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2599184901.ass"
   },
@@ -18396,5 +18395,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2708932266.torrent",
     "games": ["re-requiem"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2708932266.ass"
+  },
+  "2709933308": {
+    "abs_start": 0, "abs_end": 16354, "duration": 16354,
+    "name": "Resident Evil: Requiem #3",
+    "date": "2026-02-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2709933308.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2709933308.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2709933308.torrent",
+    "games": ["re-requiem"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2709933308.ass"
   }
 }

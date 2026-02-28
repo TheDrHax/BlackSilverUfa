@@ -20547,7 +20547,7 @@
   },
   {
     "name": "Resident Evil: Requiem",
-    "category": "ongoing",
+    "category": "finished",
     "id": "re-requiem",
     "streams": [
       { "segment": "2708051647", "subrefs": [
@@ -20555,6 +20555,9 @@
       ] },
       { "segment": "2708932266", "subrefs": [
         { "name": "2", "start": 594 }
+      ] },
+      { "segment": "2709933308", "subrefs": [
+        { "name": "3", "start": 1089 }
       ] }
     ]
   }
