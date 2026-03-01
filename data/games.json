@@ -5807,6 +5807,9 @@
       ] },
       { "segment": "2648606075", "subrefs": [
         { "name": "Within of Static: Ashburg Rental", "start": 12150 }
+      ] },
+      { "segment": "2710950107", "subrefs": [
+        { "name": "Within of Static: Northgate Mall", "start": 3825 }
       ] }
     ]
   },
@@ -9364,6 +9367,11 @@
         { "name": "Moonrot", "start": 12090 },
         { "name": "Skinface", "start": 15932 },
         { "name": "Deda (Деда)", "start": 16532 }
+      ] },
+      { "segment": "2710950107", "subrefs": [
+        { "name": "Scarlet Backrooms (демо)", "start": 1606 },
+        { "name": "Cthulhu: The Cosmic Abyss", "start": 2634 },
+        { "name": "Dread Neighbor", "start": 10235 }
       ] }
     ]
   },
@@ -10111,6 +10119,11 @@
         { "name": "Don't Play This (демо)", "start": 7017 },
         { "name": "Jaden Williams' The Stalking Stairs", "start": 13088 },
         { "name": "White Silence", "start": 16813 }
+      ] },
+      { "segment": "2710950107", "subrefs": [
+        { "name": "CHWAEST: A Creeping Parasite Horror", "start": 12236 },
+        { "name": "The Soul (демо)", "start": 13773 },
+        { "name": "On Thy Knees", "start": 15649 }
       ] }
     ]
   },
@@ -18154,6 +18167,9 @@
       ] },
       { "segment": "2704669685", "subrefs": [
         { "name": "7" }
+      ] },
+      { "segment": "2710950107", "subrefs": [
+        { "name": "8" }
       ] }
     ]
   },
