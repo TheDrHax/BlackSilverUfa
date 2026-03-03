@@ -9372,12 +9372,15 @@
         { "name": "Scarlet Backrooms (демо)", "start": 1606 },
         { "name": "Cthulhu: The Cosmic Abyss", "start": 2634 },
         { "name": "Dread Neighbor", "start": 10235 }
+      ] },
+      { "segment": "2712645930", "subrefs": [
+        { "name": "Creature Kitchen", "start": 17264 }
       ] }
     ]
   },
   {
     "name": "Violent Horror Stories 2",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "vhs2",
     "streams": [
       { "segment": "2625967059", "subrefs": [
@@ -9839,7 +9842,6 @@
         { "name": "Tape 101 (демо)", "start": 1565 },
         { "name": "Last Guest", "start": 3351 },
         { "name": "Dead Tapes: Fading Father", "start": 6991 },
-        { "name": "The Oily Depths (демо)", "start": 12164 },
         { "name": "PHASE ZERO (демо)", "start": 14155 }
       ] },
       { "segment": "2474256633", "subrefs": [
@@ -9906,7 +9908,6 @@
       ] },
       { "segment": "2548515834", "subrefs": [
         { "name": "Vigil", "start": 3158 },
-        { "name": "Inside the Flesh Engine (демо)", "start": 4655 },
         { "name": "Petsitting", "start": 12576 },
         { "name": "In the Forest with a Beaver", "start": 14077 }
       ] },
@@ -10124,6 +10125,9 @@
         { "name": "CHWAEST: A Creeping Parasite Horror", "start": 12236 },
         { "name": "The Soul (демо)", "start": 13773 },
         { "name": "On Thy Knees", "start": 15649 }
+      ] },
+      { "segment": "2712645930", "subrefs": [
+        { "name": "The Night Cleaner", "start": 12313 }
       ] }
     ]
   },
@@ -18170,6 +18174,9 @@
       ] },
       { "segment": "2710950107", "subrefs": [
         { "name": "8" }
+      ] },
+      { "segment": "2712645930", "subrefs": [
+        { "name": "9" }
       ] }
     ]
   },
@@ -20286,7 +20293,7 @@
   },
   {
     "name": "Sleep Awake",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "sleep-awake",
     "streams": [
       { "segment": "2579578173", "subrefs": [
@@ -20574,6 +20581,32 @@
       ] },
       { "segment": "2709933308", "subrefs": [
         { "name": "3", "start": 1089 }
+      ] }
+    ]
+  },
+  {
+    "name": "Inside the Flesh Engine",
+    "category": "finished",
+    "id": "flesh-engine",
+    "streams": [
+      { "segment": "2548515834", "subrefs": [
+        { "name": "Демо", "start": 4655 }
+      ] },
+      { "segment": "2712645930", "subrefs": [
+        { "name": "Прохождение", "start": 1847 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Oily Depths",
+    "category": "ongoing",
+    "id": "oily-depths",
+    "streams": [
+      { "segment": "2470596250", "subrefs": [
+        { "name": "Демо", "start": 12164 }
+      ] },
+      { "segment": "2712645930", "subrefs": [
+        { "name": "Релиз", "start": 9723 }
       ] }
     ]
   }

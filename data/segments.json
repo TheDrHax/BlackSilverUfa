@@ -16812,9 +16812,9 @@
   },
   "2470596250": {
     "youtube": "AWdDNBT1XTY", "vk": "-28387068_456250784", "abs_start": 0, "abs_end": 18251, "duration": 18251,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #23 / Tape 101 (демо) / Last Guest / Pestilence (демо) / Dead Tapes: Fading Father / Below Nowhere / The Oily Depths (демо) / Hello Neigbour 3 (демо) / PHASE ZERO (демо) / Midnight Special",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #23 / Tape 101 (демо) / Last Guest / Pestilence (демо) / Dead Tapes: Fading Father / Below Nowhere / The Oily Depths - Демо / Hello Neigbour 3 (демо) / PHASE ZERO (демо) / Midnight Special",
     "date": "2025-05-28",
-    "games": ["horrors-2025", "single-2025", "first-2025"],
+    "games": ["horrors-2025", "single-2025", "first-2025", "oily-depths"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2470596250.ass"
   },
   "2472314909": {
@@ -17352,9 +17352,9 @@
   },
   "2548515834": {
     "youtube": "Dft2gysSnMk", "vk": "-28387068_456250886", "abs_start": 0, "abs_end": 17700, "duration": 17700,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #35 / Sublimity / Vigil / Inside the Flesh Engine (демо) / Tales Beyond The Tomb: Route 86 / Petsitting / Silent Cleaning / In the Forest with a Beaver",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #35 / Sublimity / Vigil / Inside the Flesh Engine - Демо / Tales Beyond The Tomb: Route 86 / Petsitting / Silent Cleaning / In the Forest with a Beaver",
     "date": "2025-08-24",
-    "games": ["horrors-2025", "first-2025", "single-2025", "616-games"],
+    "games": ["horrors-2025", "first-2025", "single-2025", "flesh-engine", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2548515834.ass"
   },
   "2549314470": {
@@ -17691,7 +17691,6 @@
     "youtube": "6duFlGPOpEc", "vk": "-28387068_456250964", "abs_start": 0, "abs_end": 18969, "duration": 18969,
     "name": "The Outer Worlds 2 / Dispatch - Эпизоды 1, 2",
     "date": "2025-10-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2600899873.torrent",
     "games": ["first-2025", "dispatch"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2600899873.ass"
   },
@@ -18411,5 +18410,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2710950107.torrent",
     "games": ["horrors-2026", "first-2026", "616-games", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2710950107.ass"
+  },
+  "2712645930": {
+    "abs_start": 0, "abs_end": 20546, "duration": 20546,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #9 / Inside the Flesh Engine - Прохождение / The Oily Depths - Релиз / The Night Cleaner / Creature Kitchen",
+    "date": "2026-03-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2712645930.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2712645930.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2712645930.torrent",
+    "games": ["horrors-2026", "flesh-engine", "oily-depths", "single-2026", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2712645930.ass"
   }
 }
