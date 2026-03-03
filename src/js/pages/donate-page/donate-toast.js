@@ -14,7 +14,8 @@ export default function DonateToast() {
     at: 0,
     version: VERSION - 1,
   });
-  const [closed, setClosed] = useState(data.closed);
+
+  const [closed, setClosed] = useState(data.closed && data.version == VERSION);
 
   const watched = useMemo(() => {
     if (!persist) return 0;
@@ -31,7 +32,7 @@ export default function DonateToast() {
     setClosed(true);
   };
 
-  const show = watched >= 10 && (!closed || data.version !== VERSION);
+  const show = watched >= 10 && !closed;
 
   return (
     <Toast onClose={close} show={show} animation={false}>
