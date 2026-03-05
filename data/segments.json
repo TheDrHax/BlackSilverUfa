@@ -17698,7 +17698,6 @@
     "youtube": "6VHbhbp_rnk", "vk": "-28387068_456250965", "abs_start": 0, "abs_end": 18707, "duration": 18707,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #48 / Shifting To The Backrooms / Clown Is Hungry - Прохождение / You've Got a Package / Overcome Your Fears: Caretaker - Прохождение / Lola Maria",
     "date": "2025-10-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2601825205.torrent",
     "games": ["horrors-2025", "first-2025", "clown-is-hungry", "oyf-caretaker", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2601825205.ass"
   },
@@ -17706,7 +17705,6 @@
     "youtube": "SOP8XQ0rL8A", "vk": "-28387068_456250966", "abs_start": 0, "abs_end": 29979, "duration": 29979,
     "name": "Baby Steps #5 / RV There Yet? #2",
     "date": "2025-10-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2602597096.torrent",
     "games": ["baby-steps", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2602597096.ass"
   },
@@ -17714,7 +17712,6 @@
     "youtube": "9f8oouJloK8", "vk": "-28387068_456250968", "abs_start": -291, "abs_end": 18544, "duration": 18835,
     "name": "Baby Steps #6",
     "date": "2025-10-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2603446878.torrent",
     "games": ["baby-steps"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2603446878.ass"
   },
@@ -17722,7 +17719,6 @@
     "youtube": "K-l2nql1mpA", "vk": "-28387068_456250970", "abs_start": 0, "abs_end": 22229, "duration": 22229,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #49 / Liminal Shroud (демо) / Forbidden Terror: Board Game / Midnight Crane / Suffocate - Релиз / Edge / Geamana Village",
     "date": "2025-10-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2604295684.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "suffocate"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2604295684.ass"
   },
@@ -18418,5 +18414,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2712645930.torrent",
     "games": ["horrors-2026", "flesh-engine", "oily-depths", "single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2712645930.ass"
+  },
+  "2714340256": {
+    "abs_start": 0, "abs_end": 24604, "duration": 24604,
+    "name": "Legacy of Kain: Defiance Remastered / Resident Evil",
+    "date": "2026-03-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2714340256.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2714340256.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2714340256.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2714340256+0.ass"
   }
 }
