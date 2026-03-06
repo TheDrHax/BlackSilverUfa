@@ -9377,8 +9377,11 @@
         { "name": "Creature Kitchen", "start": 17264 }
       ] },
       { "segment": "2714340256", "subrefs": [
-        { "name": "Legacy of Kain: Defiance Remastered", "start": 2008 },
-        { "name": "Resident Evil", "start": 10803 }
+        { "name": "Legacy of Kain: Defiance Remastered", "start": 2008 }
+      ] },
+      { "segment": "2715196033", "subrefs": [
+        { "name": "Static Dread: The Submarine (демо)", "start": 1807 },
+        { "name": "Romeo is a Dead Man", "start": 7064 }
       ] }
     ]
   },
@@ -10132,6 +10135,9 @@
       ] },
       { "segment": "2712645930", "subrefs": [
         { "name": "The Night Cleaner", "start": 12313 }
+      ] },
+      { "segment": "2715196033", "subrefs": [
+        { "name": "Fatal Frame II: Crimson Butterfly Remake (демо)", "start": 4385 }
       ] }
     ]
   },
@@ -20611,6 +20617,19 @@
       ] },
       { "segment": "2712645930", "subrefs": [
         { "name": "Релиз", "start": 9723 }
+      ] }
+    ]
+  },
+  {
+    "name": "Resident Evil",
+    "category": "ongoing",
+    "id": "resident-evil",
+    "streams": [
+      { "segment": "2714340256", "subrefs": [
+        { "name": "1", "start": 10803 }
+      ] },
+      { "segment": "2715196033", "subrefs": [
+        { "name": "2", "start": 13557 }
       ] }
     ]
   }
