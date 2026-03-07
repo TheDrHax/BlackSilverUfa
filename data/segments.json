@@ -18430,5 +18430,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2715196033.torrent",
     "games": ["first-2026", "single-2026", "resident-evil"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2715196033+0.ass"
+  },
+  "2716139799": {
+    "abs_start": 0, "abs_end": 17624, "duration": 17624,
+    "name": "Desperate Housewives: The Game (Отчаянные домохозяйки) #3",
+    "date": "2026-03-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2716139799.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2716139799.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2716139799.torrent",
+    "games": ["desperate-housewives"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2716139799.ass"
   }
 }
