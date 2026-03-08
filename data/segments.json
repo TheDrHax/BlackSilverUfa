@@ -18438,5 +18438,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2716139799.torrent",
     "games": ["desperate-housewives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2716139799.ass"
+  },
+  "2717058640": {
+    "abs_start": 0, "abs_end": 16363, "duration": 16363,
+    "name": "Five Hearts Under One Roof 2",
+    "date": "2026-03-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2717058640.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2717058640.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2717058640.torrent",
+    "games": ["single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2717058640.ass"
   }
 }
