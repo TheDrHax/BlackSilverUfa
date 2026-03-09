@@ -17226,7 +17226,7 @@
   },
   {
     "name": "Resident Evil 2",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "re2",
     "streams": [
       { "segment": "362192911", "subrefs": [
@@ -17234,6 +17234,9 @@
       ] },
       { "segment": "362701428", "subrefs": [
         { "name": "2" }
+      ] },
+      { "segment": "2717868141", "subrefs": [
+        { "name": "1 (заново)", "start": 17632 }
       ] }
     ]
   },
@@ -20358,7 +20361,7 @@
   },
   {
     "name": "Snow Plowing Simulator",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "snow-plowing-sim",
     "streams": [
       { "segment": "2085706176", "subrefs": [
@@ -20628,7 +20631,7 @@
   },
   {
     "name": "Resident Evil",
-    "category": "ongoing",
+    "category": "finished",
     "id": "resident-evil",
     "streams": [
       { "segment": "2714340256", "subrefs": [
@@ -20636,6 +20639,9 @@
       ] },
       { "segment": "2715196033", "subrefs": [
         { "name": "2", "start": 13557 }
+      ] },
+      { "segment": "2717868141", "subrefs": [
+        { "name": "3", "start": 644 }
       ] }
     ]
   }

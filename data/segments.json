@@ -17726,7 +17726,6 @@
     "youtube": "zUHnTdrfcx8", "vk": "-28387068_456250971", "abs_start": 0, "abs_end": 30275, "duration": 30275,
     "name": "Dispatch - Эпизоды 3, 4 / ARC Raiders #3 (с Артёмом)",
     "date": "2025-10-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2605125914.torrent",
     "games": ["dispatch", "arc-raiders"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2605125914.ass"
   },
@@ -18446,5 +18445,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2717058640.torrent",
     "games": ["single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2717058640.ass"
+  },
+  "2717868141": {
+    "abs_start": 0, "abs_end": 20748, "duration": 20748,
+    "name": "Resident Evil #3 / Resident Evil 2 #1 (заново)",
+    "date": "2026-03-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2717868141.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2717868141.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2717868141.torrent",
+    "games": ["resident-evil", "re2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2717868141+0.ass"
   }
 }
