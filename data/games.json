@@ -9382,6 +9382,9 @@
       { "segment": "2715196033", "subrefs": [
         { "name": "Static Dread: The Submarine (демо)", "start": 1807 },
         { "name": "Romeo is a Dead Man", "start": 7064 }
+      ] },
+      { "segment": "2718669408", "subrefs": [
+        { "name": "Biohazard", "start": 651 }
       ] }
     ]
   },
@@ -17237,6 +17240,9 @@
       ] },
       { "segment": "2717868141", "subrefs": [
         { "name": "1 (заново)", "start": 17632 }
+      ] },
+      { "segment": "2718669408", "subrefs": [
+        { "name": "1 (заново 2)", "start": 1355 }
       ] }
     ]
   },
