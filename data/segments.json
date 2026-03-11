@@ -17740,7 +17740,6 @@
     "youtube": "p21ywdbEm5Y", "vk": "-28387068_456250973", "abs_start": 0, "abs_end": 20849, "duration": 20849,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #50 / Subliminal (демо) / Last Stall / Night of the Extinct / The Radio Tower / The Roach Hotel / One Halloween Night / Brother Hai's Pho Restaurant / My Sleeping Girlfriend",
     "date": "2025-11-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2607817978.torrent",
     "games": ["horrors-2025", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2607817978.ass"
   },
@@ -18462,5 +18461,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2718669408.torrent",
     "games": ["first-2026", "re2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2718669408+0.ass"
+  },
+  "2719508320": {
+    "abs_start": 0, "abs_end": 19769, "duration": 19769,
+    "name": "Resident Evil 2 #2 / Resident Evil 3: Nemesis #1 (заново)",
+    "date": "2026-03-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2719508320.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2719508320.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2719508320.torrent",
+    "games": ["re2", "re3-nemesis"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2719508320.ass"
   }
 }
