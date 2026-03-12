@@ -10586,7 +10586,7 @@
   },
   {
     "name": "Resident Evil 3: Nemesis",
-    "category": "abandoned",
+    "category": "finished",
     "id": "re3-nemesis",
     "streams": [
       { "segment": "2118671984", "subrefs": [
@@ -10597,6 +10597,9 @@
       ] },
       { "segment": "2719508320", "subrefs": [
         { "name": "1 (заново)", "start": 12557 }
+      ] },
+      { "segment": "2720312543", "subrefs": [
+        { "name": "2", "start": 981 }
       ] }
     ]
   },
@@ -20386,7 +20389,7 @@
   },
   {
     "name": "Egging On",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "egging-on",
     "streams": [
       { "segment": "2615504145", "subrefs": [

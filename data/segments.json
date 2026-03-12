@@ -17747,7 +17747,6 @@
     "youtube": "fdym-YlUnBU", "vk": "-28387068_456250974", "abs_start": 0, "abs_end": 21792, "duration": 21792,
     "name": "ARC Raiders #5 / RV There Yet? #3",
     "date": "2025-11-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2608631583.torrent",
     "games": ["arc-raiders", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2608631583.ass"
   },
@@ -18471,5 +18470,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2719508320.torrent",
     "games": ["re2", "re3-nemesis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2719508320.ass"
+  },
+  "2720312543": {
+    "abs_start": 0, "abs_end": 24295, "duration": 24295,
+    "name": "Resident Evil 3: Nemesis #2",
+    "date": "2026-03-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2720312543.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2720312543.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2720312543.torrent",
+    "games": ["re3-nemesis"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2720312543.ass"
   }
 }
