@@ -20593,7 +20593,7 @@
   },
   {
     "name": "Desperate Housewives: The Game (Отчаянные домохозяйки)",
-    "category": "ongoing",
+    "category": "finished",
     "id": "desperate-housewives",
     "streams": [
       { "segment": "2698426553", "subrefs": [
@@ -20604,6 +20604,9 @@
       ] },
       { "segment": "2716139799", "subrefs": [
         { "name": "3", "start": 1913 }
+      ] },
+      { "segment": "2722984514", "subrefs": [
+        { "name": "4", "start": 1176 }
       ] }
     ]
   },
