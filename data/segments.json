@@ -17761,7 +17761,6 @@
     "youtube": "D6txYEKtWss", "vk": "-28387068_456250976", "abs_start": 0, "abs_end": 19004, "duration": 19004,
     "name": "Dispatch - Эпизоды 5, 6 / Leaf it Alone",
     "date": "2025-11-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2614675112.torrent",
     "games": ["dispatch", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2614675112.ass"
   },
@@ -17769,7 +17768,6 @@
     "youtube": "uUvjWfGJl4A", "vk": "-28387068_456250977", "abs_start": 0, "abs_end": 22108, "duration": 22108,
     "name": "Egging On #1 / Baby Steps #8 / Hypogea / ARC Raiders #6",
     "date": "2025-11-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2615504145.torrent",
     "games": ["egging-on", "baby-steps", "first-2025", "arc-raiders"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2615504145.ass"
   },
@@ -18489,5 +18487,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2722984514.torrent",
     "games": ["desperate-housewives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2722984514.ass"
+  },
+  "2726284721": {
+    "abs_start": 0, "abs_end": 19965, "duration": 19965,
+    "name": "Death Stranding 2: On the Beach #1 (заново, ПК)",
+    "date": "2026-03-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2726284721.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2726284721.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2726284721.torrent",
+    "games": ["death-stranding-2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2726284721.ass"
   }
 }
