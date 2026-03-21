@@ -9390,9 +9390,6 @@
       ] },
       { "segment": "2718669408", "subrefs": [
         { "name": "Biohazard", "start": 651 }
-      ] },
-      { "segment": "2727036170", "subrefs": [
-        { "name": "Crimson Desert", "start": 458 }
       ] }
     ]
   },
@@ -20671,6 +20668,19 @@
       ] },
       { "segment": "2717868141", "subrefs": [
         { "name": "3", "start": 644 }
+      ] }
+    ]
+  },
+  {
+    "name": "Crimson Desert",
+    "category": "ongoing",
+    "id": "crimson-desert",
+    "streams": [
+      { "segment": "2727036170", "subrefs": [
+        { "name": "1", "start": 458 }
+      ] },
+      { "segment": "2727942061", "subrefs": [
+        { "name": "2", "start": 1036 }
       ] }
     ]
   }
