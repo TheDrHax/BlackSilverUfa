@@ -17789,7 +17789,6 @@
     "youtube": "5aVUNLPZ2BM", "abs_start": 0, "abs_end": 18410, "duration": 18410,
     "name": "Total Chaos #1",
     "date": "2025-11-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2624166642.torrent",
     "games": ["total-chaos"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2624166642.ass"
   },
@@ -18509,5 +18508,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2727942061.torrent",
     "games": ["crimson-desert"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2727942061.ass"
+  },
+  "2728896412": {
+    "abs_start": 0, "abs_end": 17087, "duration": 17087,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #10 / Underjoy (демо) / Out Fishing (демо) / They See You / Tiny Chills: Not From Ear (демо)",
+    "date": "2026-03-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2728896412.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2728896412.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2728896412.torrent",
+    "games": ["horrors-2026", "single-2026", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2728896412.ass"
   }
 }
