@@ -17796,7 +17796,6 @@
     "youtube": "Yb02OQFFdxA", "vk": "-28387068_456250982", "abs_start": 0, "abs_end": 24141, "duration": 24141,
     "name": "Baby Steps #10 / RV There Yet? #4 / Peak #10",
     "date": "2025-11-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2625048351.torrent",
     "games": ["baby-steps", "rv-there-yet", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2625048351.ass"
   },
@@ -18516,5 +18515,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2728896412.torrent",
     "games": ["horrors-2026", "single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2728896412.ass"
+  },
+  "2730499020": {
+    "abs_start": 0, "abs_end": 13828, "duration": 13828,
+    "name": "Resident Evil Code: Veronica",
+    "date": "2026-03-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2730499020.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2730499020.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2730499020.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2730499020.ass"
   }
 }
