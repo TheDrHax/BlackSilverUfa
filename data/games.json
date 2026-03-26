@@ -9393,9 +9393,6 @@
       ] },
       { "segment": "2728896412", "subrefs": [
         { "name": "Out Fishing (демо)", "start": 3298 }
-      ] },
-      { "segment": "2730499020", "subrefs": [
-        { "name": "Resident Evil Code: Veronica", "start": 807 }
       ] }
     ]
   },
@@ -20701,6 +20698,19 @@
       ] },
       { "segment": "2727942061", "subrefs": [
         { "name": "2", "start": 1036 }
+      ] }
+    ]
+  },
+  {
+    "name": "Resident Evil Code: Veronica",
+    "category": "ongoing",
+    "id": "re-veronica",
+    "streams": [
+      { "segment": "2730499020", "subrefs": [
+        { "name": "1", "start": 807 }
+      ] },
+      { "segment": "2732131259,2732272217", "subrefs": [
+        { "name": "2", "start": 1155 }
       ] }
     ]
   }

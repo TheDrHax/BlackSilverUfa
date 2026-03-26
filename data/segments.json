@@ -17817,7 +17817,6 @@
     "youtube": "h7VPEGHh0xM", "vk": "-28387068_456250985", "abs_start": 0, "abs_end": 17852, "duration": 17852,
     "name": "A.I.L.A #1",
     "date": "2025-11-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2628460943.torrent",
     "games": ["aila"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2628460943.ass"
   },
@@ -18516,10 +18515,10 @@
   },
   "2730499020": {
     "youtube": "7HfuUzpPK9A", "abs_start": 0, "abs_end": 13829, "duration": 13829,
-    "name": "Resident Evil Code: Veronica",
+    "name": "Resident Evil Code: Veronica #1",
     "date": "2026-03-24",
     "torrent": "https://bsufiles.drhx.ru/streams/2730499020.torrent",
-    "games": ["first-2026"],
+    "games": ["re-veronica"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2730499020.ass"
   },
   "2731374579": {
@@ -18529,5 +18528,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2731374579.torrent",
     "games": ["half-sword", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2731374579.ass"
+  },
+  "2732131259": {
+    "abs_start": 0, "abs_end": 15933, "duration": 15933,
+    "name": "",
+    "date": "2026-03-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2732131259.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2732131259.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2732131259.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2732131259.ass"
+  },
+  "2732272217": {
+    "abs_start": 0, "abs_end": 245, "duration": 245,
+    "name": "",
+    "date": "2026-03-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2732272217.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2732272217.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2732272217.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2732272217.ass"
+  },
+  "2732131259,2732272217": {
+    "abs_start": 0, "abs_end": 16081, "duration": 16081,
+    "name": "Resident Evil Code: Veronica #2",
+    "date": "2026-03-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2732131259,2732272217.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2732131259,2732272217.mp4/master.m3u8",
+    "offsets": ["0:00", "4:23:56+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2732131259,2732272217.torrent",
+    "games": ["re-veronica"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2732131259,2732272217+0.ass"
   }
 }
