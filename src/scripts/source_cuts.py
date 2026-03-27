@@ -14,14 +14,13 @@ from tempfile import NamedTemporaryFile
 from ..data.timecodes import Timecodes, T
 
 
-DP_PKT_DURATION = 2750
 PARSE_TIMINGS = compile('Clip {} started at {ts:g} with offset {offset:g}{}')
 
 
 def detect_disconnect_protection(
         videos: List[str],
         start: Union[float, None] = None,
-        end: Union[float, None] = None) -> List[Tuple[float, float]]:
+        end: Union[float, None] = None) -> List[float]:
     ffcmd = ['ffprobe',
              '-v', 'error',
              '-select_streams', 'v:0',
@@ -54,8 +53,6 @@ def detect_disconnect_protection(
 
     ranges = []
     ts = None
-    current_range = None
-    length = 0
 
     for line in ffproc.stdout:
         line = line.decode()
@@ -67,23 +64,9 @@ def detect_disconnect_protection(
         ts = float(parts[1])
         duration = int(parts[2])
 
-        if not current_range:
-            if duration >= DP_PKT_DURATION:
-                current_range = ts
-                length = 1
-                # print(f'Start: {ts}', file=sys.stderr)
-        else:
-            if duration < DP_PKT_DURATION:
-                if length > 1:
-                    ranges.append((current_range, ts))
-                current_range = None
-                # print(f'End: {ts}', file=sys.stderr)
-            else:
-                length += 1
-
-    if current_range:
-        ranges.append((current_range, ts))
-        current_range = None
+        if duration >= 100000:
+            ranges.append(ts)
+            # print(f'Start: {ts}', file=sys.stderr)
 
     ffproc.terminate()
     ffproc.wait()
@@ -133,7 +116,7 @@ def get_source_cuts(videos: List[str], log: str) -> Timecodes:
                    'disconnect protection screen can not be found. '
                   f'Lost {diff}s')
 
-        for s, e in dp:
+        for s in dp:
             t = T + floor(s)
             t.duration = T + round(diff / len(dp))
             ranges.add(t)
