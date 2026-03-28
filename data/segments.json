@@ -11580,10 +11580,10 @@
   },
   "1642266888,1642407202": {
     "youtube": "uBxmIhqIJwg", "abs_start": 0, "abs_end": 19206, "duration": 19206,
-    "name": "Bramble: The Mountain (демо) / Poop Killer Origins / Forlorn: The Mysteries of Highshadowland / Legend Hunters / Blood West #1",
+    "name": "Bramble: The Mountain (демо) / Poop Killer Origins / Forlorn: The Mysteries of Highshadowland - Демо / Legend Hunters / Blood West #1",
     "date": "2022-11-03",
     "offsets": ["0:00", "3:01:42"],
-    "games": ["single-2022", "616-games", "first-2022", "blood-west"],
+    "games": ["single-2022", "616-games", "forlorn", "blood-west"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v1642266888,1642407202+0.ass"
   },
   "1643172831": {
@@ -17824,7 +17824,6 @@
     "youtube": "DenGeTwM5wE", "vk": "-28387068_456250986", "abs_start": 0, "abs_end": 19405, "duration": 19405,
     "name": "Hail to the Rainbow #1",
     "date": "2025-11-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2629272689.torrent",
     "games": ["hail-to-the-rainbow"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2629272689.ass"
   },
@@ -18557,5 +18556,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2732131259,2732272217.torrent",
     "games": ["re-veronica"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2732131259,2732272217+0.ass"
+  },
+  "2733834092": {
+    "abs_start": 0, "abs_end": 18323, "duration": 18323,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #11 / Backrooms: No Way Out / SCP 3008 / Forlorn: The Mysteries of Highshadowland - Релиз / Fear the Flesh / Abandoned Stories: Inherited Silence / Conductor: Eternal Service",
+    "date": "2026-03-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2733834092.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2733834092.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2733834092.torrent",
+    "games": ["horrors-2026", "first-2026", "forlorn", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2733834092.ass"
   }
 }
