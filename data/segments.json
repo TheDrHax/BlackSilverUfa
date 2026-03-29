@@ -17831,7 +17831,6 @@
     "youtube": "EChxr9EAqao", "vk": "-28387068_456250987", "abs_start": 0, "abs_end": 27405, "duration": 27405,
     "name": "Hail to the Rainbow #2",
     "date": "2025-11-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2629991106.torrent",
     "games": ["hail-to-the-rainbow"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2629991106.ass"
   },
@@ -18466,10 +18465,10 @@
   },
   "2722074621": {
     "youtube": "fzlHfjGoIjQ", "vk": "-28387068_456251097", "abs_start": 0, "abs_end": 22677, "duration": 22677,
-    "name": "We Gotta Go / MIMESIS / YAPYAP",
+    "name": "We Gotta Go / MIMESIS #1 / YAPYAP",
     "date": "2026-03-14",
     "torrent": "https://bsufiles.drhx.ru/streams/2722074621.torrent",
-    "games": ["co-op"],
+    "games": ["co-op", "mimesis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2722074621.ass"
   },
   "2722984514": {
@@ -18564,5 +18563,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2733834092.torrent",
     "games": ["horrors-2026", "first-2026", "forlorn", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2733834092.ass"
+  },
+  "2734704380": {
+    "abs_start": 0, "abs_end": 20894, "duration": 20894,
+    "name": "Species: Unknown / MIMESIS #2",
+    "date": "2026-03-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2734704380.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2734704380.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2734704380.torrent",
+    "games": ["first-2026", "mimesis"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2734704380.ass"
   }
 }

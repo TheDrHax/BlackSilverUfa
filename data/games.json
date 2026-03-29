@@ -827,7 +827,6 @@
       ] },
       { "segment": "2722074621", "subrefs": [
         { "name": "We Gotta Go", "start": 6344 },
-        { "name": "MIMESIS", "start": 8753 },
         { "name": "YAPYAP", "start": 16128 }
       ] }
     ]
@@ -9395,6 +9394,9 @@
         { "name": "Backrooms: No Way Out", "start": 1267 },
         { "name": "SCP 3008", "start": 2842 },
         { "name": "Conductor: Eternal Service", "start": 12817 }
+      ] },
+      { "segment": "2734704380", "subrefs": [
+        { "name": "Species: Unknown", "start": 6397 }
       ] }
     ]
   },
@@ -20733,6 +20735,19 @@
       ] },
       { "segment": "2733834092", "subrefs": [
         { "name": "Релиз", "start": 4426 }
+      ] }
+    ]
+  },
+  {
+    "name": "MIMESIS",
+    "category": "ongoing",
+    "id": "mimesis",
+    "streams": [
+      { "segment": "2722074621", "subrefs": [
+        { "name": "1", "start": 8753 }
+      ] },
+      { "segment": "2734704380", "subrefs": [
+        { "name": "2", "start": 15176 }
       ] }
     ]
   }
