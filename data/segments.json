@@ -8018,9 +8018,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v889976499.ass"
   },
   "891206240": {
-    "youtube": "QMDCHjCDy5k", "official": false, "abs_start": 0, "abs_end": 31575, "duration": 31575,
+    "abs_start": 0, "abs_end": 31575, "duration": 31575,
     "name": "The Medium",
     "date": "2021-01-28",
+    "direct": "https://bsufiles.drhx.ru/streams/891206240.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/891206240.mp4/master.m3u8",
     "games": ["single-2021"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v891206240.ass",
     "note": "<a href=\"https://youtu.be/MG1RxGpzdOw\">Официальная запись</a> сломана (недоступно качество выше 360p)"

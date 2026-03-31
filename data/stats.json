@@ -7,8 +7,8 @@
     "segments": {
       "total": 2454,
       "official": 1660,
-      "unofficial": 773,
-      "missing": 21
+      "unofficial": 772,
+      "missing": 22
     },
     "messages": 36436618
   },
@@ -17,9 +17,9 @@
     "segments": 45894504
   },
   "content_id": {
-    "streams": 305,
-    "count": 1186,
-    "total": 155975,
-    "percentage": 2.57
+    "streams": 306,
+    "count": 1189,
+    "total": 156158,
+    "percentage": 2.56
   }
 }
