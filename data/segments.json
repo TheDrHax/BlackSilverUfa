@@ -17740,9 +17740,9 @@
   },
   "2607817978": {
     "youtube": "p21ywdbEm5Y", "vk": "-28387068_456250973", "abs_start": 0, "abs_end": 20849, "duration": 20849,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #50 / Subliminal (демо) / Last Stall / Night of the Extinct / The Radio Tower / The Roach Hotel / One Halloween Night / Brother Hai's Pho Restaurant / My Sleeping Girlfriend",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #50 / Subliminal - Демо / Last Stall / Night of the Extinct / The Radio Tower / The Roach Hotel / One Halloween Night / Brother Hai's Pho Restaurant / My Sleeping Girlfriend",
     "date": "2025-11-02",
-    "games": ["horrors-2025", "single-2025", "first-2025"],
+    "games": ["horrors-2025", "subliminal", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2607817978.ass"
   },
   "2608631583": {
@@ -18580,5 +18580,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2736317269.torrent",
     "games": ["csc", "mortuary-assistant"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2736317269.ass"
+  },
+  "2737131562": {
+    "abs_start": 0, "abs_end": 20086, "duration": 20086,
+    "name": "Subliminal - Релиз / The Mortuary Assistant #12 / Lucky Tower Ultimate #24",
+    "date": "2026-04-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2737131562.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2737131562.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2737131562.torrent",
+    "games": ["subliminal", "mortuary-assistant", "lucky-tower"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2737131562.ass"
   }
 }
