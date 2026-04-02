@@ -17847,7 +17847,6 @@
     "youtube": "AlDFYlBRXZM", "vk": "-28387068_456250989", "abs_start": 0, "abs_end": 17113, "duration": 17113,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #54 / Lost in the Backrooms / Backrooms: Reminiscence #2 / Skinwalkers Valley / Uktena 64: Ultimate / Knife Man / Side Hustle / Bonanit - A Menorcan Horror Story",
     "date": "2025-11-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2631809647.torrent",
     "games": ["horrors-2025", "first-2025", "backrooms-reminiscence", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2631809647.ass"
   },
@@ -18588,5 +18587,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2737131562.torrent",
     "games": ["subliminal", "mortuary-assistant", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2737131562.ass"
+  },
+  "2737932822": {
+    "abs_start": 0, "abs_end": 21838, "duration": 21838,
+    "name": "Resident Evil Code: Veronica #3",
+    "date": "2026-04-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2737932822.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2737932822.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2737932822.torrent",
+    "games": ["re-veronica"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2737932822.ass"
   }
 }
