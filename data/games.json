@@ -9399,6 +9399,11 @@
       ] },
       { "segment": "2739703294", "subrefs": [
         { "name": "Back*Space (демо)", "start": 1948 }
+      ] },
+      { "segment": "2740582496", "subrefs": [
+        { "name": "Lighthouse Keeper", "start": 1726 },
+        { "name": "Lucid Blocks", "start": 2957 },
+        { "name": "He Followed Me", "start": 8902 }
       ] }
     ]
   },
@@ -10173,6 +10178,9 @@
         { "name": "I Hear Them", "start": 9121 },
         { "name": "Knock", "start": 15036 },
         { "name": "Rippers Lair", "start": 17733 }
+      ] },
+      { "segment": "2740582496", "subrefs": [
+        { "name": "Idols of Ash", "start": 4894 }
       ] }
     ]
   },
@@ -18255,6 +18263,9 @@
       ] },
       { "segment": "2739703294", "subrefs": [
         { "name": "12" }
+      ] },
+      { "segment": "2740582496", "subrefs": [
+        { "name": "13" }
       ] }
     ]
   },

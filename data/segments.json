@@ -18604,5 +18604,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2739703294.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026", "who-are-you"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2739703294.ass"
+  },
+  "2740582496": {
+    "abs_start": 0, "abs_end": 14539, "duration": 14539,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #13 / Lighthouse Keeper / Lucid Blocks / Idols of Ash / He Followed Me",
+    "date": "2026-04-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2740582496.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2740582496.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2740582496.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2740582496.ass"
   }
 }
