@@ -17875,7 +17875,6 @@
     "youtube": "kJoMPHeXrVE", "abs_start": 0, "abs_end": 17389, "duration": 17389,
     "name": "ROUTINE #1",
     "date": "2025-12-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2635128008.torrent",
     "games": ["routine"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2635128008.ass"
   },
@@ -18610,5 +18609,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2740582496.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2740582496.ass"
+  },
+  "2741318217": {
+    "abs_start": 0, "abs_end": 21864, "duration": 21864,
+    "name": "Crime Scene Cleaner #21 / Cryo / Lethal Company #26",
+    "date": "2026-04-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2741318217.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2741318217.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2741318217.torrent",
+    "games": ["csc", "co-op", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2741318217.ass"
   }
 }
