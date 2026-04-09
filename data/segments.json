@@ -17889,7 +17889,6 @@
     "youtube": "fmkrIOLSPa0", "vk": "-28387068_456250996", "abs_start": 0, "abs_end": 18802, "duration": 18802,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #55 / Backrooms: Missing Persons #1 / About Fishing (демо) / Dead Feed / A Taste of Home / I'm on Observation Duty - Часть 8 #1",
     "date": "2025-12-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2637736556.torrent",
     "games": ["horrors-2025", "backrooms-mp", "single-2025", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2637736556+0.ass"
   },
@@ -17897,7 +17896,6 @@
     "youtube": "q3XuS444z3I", "vk": "-28387068_456251008", "abs_start": 0, "abs_end": 15891, "duration": 15891,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #56 / Backrooms: Missing Persons #2 / Grandma, Is That You? / Cat Named Mojave - Релиз / Bober Bros: No Means Nothing / I'm on Observation Duty - I'm on Observation Duty 8",
     "date": "2025-12-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2638573850.torrent",
     "games": ["horrors-2025", "backrooms-mp", "single-2025", "cat-mojave", "bober", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2638573850+0.ass"
   },
@@ -17905,7 +17903,6 @@
     "youtube": "xFFTWQzMgKg", "vk": "-28387068_456250999", "abs_start": 0, "abs_end": 22339, "duration": 22339,
     "name": "Snow Plowing Simulator #2 / Crime Scene Cleaner #17 / Baby Steps #13",
     "date": "2025-12-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2639361130.torrent",
     "games": ["snow-plowing-sim", "csc", "baby-steps"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2639361130.ass"
   },
@@ -18622,5 +18619,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2742091967.torrent",
     "games": ["re-veronica", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2742091967.ass"
+  },
+  "2743663862": {
+    "abs_start": 0, "abs_end": 26662, "duration": 26662,
+    "name": "Samson / The Occultist",
+    "date": "2026-04-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2743663862.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2743663862.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2743663862.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2743663862.ass"
   }
 }

@@ -9410,6 +9410,11 @@
         { "name": "Lighthouse Keeper", "start": 1726 },
         { "name": "Lucid Blocks", "start": 2957 },
         { "name": "He Followed Me", "start": 8902 }
+      ] },
+      { "segment": "2743663862", "subrefs": [
+        { "name": "Samson", "start": 945 },
+        { "name": "The Occultist", "start": 10841 },
+        { "name": "Samson (продолжение)", "start": 23026, "hidden": true }
       ] }
     ]
   },
