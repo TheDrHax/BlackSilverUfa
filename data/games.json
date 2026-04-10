@@ -9411,10 +9411,8 @@
         { "name": "Lucid Blocks", "start": 2957 },
         { "name": "He Followed Me", "start": 8902 }
       ] },
-      { "segment": "2743663862", "subrefs": [
-        { "name": "Samson", "start": 945 },
-        { "name": "The Occultist", "start": 10841 },
-        { "name": "Samson (продолжение)", "start": 23026, "hidden": true }
+      { "segment": "2744533579", "subrefs": [
+        { "name": "Road to Vostok (демо)", "start": 5735 }
       ] }
     ]
   },
@@ -20831,6 +20829,32 @@
       ] },
       { "segment": "2739703294", "subrefs": [
         { "name": "Релиз", "start": 13872 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Occultist",
+    "category": "ongoing",
+    "id": "occultist",
+    "streams": [
+      { "segment": "2743663862", "subrefs": [
+        { "name": "1", "start": 10841 }
+      ] },
+      { "segment": "2744533579", "subrefs": [
+        { "name": "2", "start": 9051 }
+      ] }
+    ]
+  },
+  {
+    "name": "Samson",
+    "category": "ongoing",
+    "id": "samson",
+    "streams": [
+      { "segment": "2743663862", "subrefs": [
+        { "name": "1", "start": 945 }
+      ] },
+      { "segment": "2744533579", "subrefs": [
+        { "name": "2", "start": 13111 }
       ] }
     ]
   }

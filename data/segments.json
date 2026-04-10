@@ -18622,10 +18622,20 @@
   },
   "2743663862": {
     "youtube": "PLhJcOP_w6U", "abs_start": 0, "abs_end": 26662, "duration": 26662,
-    "name": "Samson / The Occultist",
+    "name": "Samson #1 / The Occultist #1",
     "date": "2026-04-09",
     "torrent": "https://bsufiles.drhx.ru/streams/2743663862.torrent",
-    "games": ["first-2026"],
+    "games": ["samson", "occultist"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2743663862.ass"
+  },
+  "2744533579": {
+    "abs_start": 0, "abs_end": 18454, "duration": 18454,
+    "name": "Road to Vostok (демо) / The Occultist #2 / Samson #2",
+    "date": "2026-04-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2744533579.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2744533579.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2744533579.torrent",
+    "games": ["first-2026", "occultist", "samson"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2744533579.ass"
   }
 }
