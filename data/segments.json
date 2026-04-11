@@ -18635,5 +18635,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2744533579.torrent",
     "games": ["first-2026", "occultist", "samson"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2744533579.ass"
+  },
+  "2745337959": {
+    "abs_start": 0, "abs_end": 14436, "duration": 14436,
+    "name": "Samson #3 / Crime Scene Cleaner #22",
+    "date": "2026-04-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2745337959.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2745337959.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2745337959.torrent",
+    "games": ["samson", "csc"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2745337959.ass"
   }
 }
