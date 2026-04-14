@@ -15839,7 +15839,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2323151072.ass"
   },
   "2323950442": {
-    "youtube": "jMOKjlyAw2M", "vk": "-28387068_456250545", "abs_start": 0, "abs_end": 28072, "duration": 28072,
+    "youtube": "jMOKjlyAw2M", "abs_start": 0, "abs_end": 28072, "duration": 28072,
     "name": "Go Home Annie: An SCP Game #2 / MiSide #1",
     "date": "2024-12-11",
     "games": ["go-home-annie", "miside"],
@@ -17894,7 +17894,7 @@
   },
   "2638573850": {
     "youtube": "q3XuS444z3I", "vk": "-28387068_456251008", "abs_start": 0, "abs_end": 15891, "duration": 15891,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #56 / Backrooms: Missing Persons #2 / Grandma, Is That You? / Cat Named Mojave - Релиз / Bober Bros: No Means Nothing / I'm on Observation Duty - I'm on Observation Duty 8",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #56 / Backrooms: Missing Persons #2 / Grandma, Is That You? / Cat Named Mojave - Релиз / Bober Bros: No Means Nothing / I'm on Observation Duty - Часть 8 #2",
     "date": "2025-12-08",
     "games": ["horrors-2025", "backrooms-mp", "single-2025", "cat-mojave", "bober", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2638573850+0.ass"
@@ -17910,7 +17910,6 @@
     "youtube": "89m3YGfOWV4", "abs_start": 0, "abs_end": 19245, "duration": 19245,
     "name": "Crime Scene Cleaner #18 / Baby Steps #14",
     "date": "2025-12-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2640192290.torrent",
     "games": ["csc", "baby-steps"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2640192290.ass"
   },
@@ -17918,7 +17917,6 @@
     "youtube": "jXgZzIUY-j8", "abs_start": 0, "abs_end": 17594, "duration": 17594,
     "name": "Baby Steps #15 / Egging On #2",
     "date": "2025-12-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2641000712.torrent",
     "games": ["baby-steps", "egging-on"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2641000712.ass"
   },
@@ -17926,7 +17924,6 @@
     "youtube": "p6KX6WWR_Vk", "vk": "-28387068_456251002", "abs_start": 0, "abs_end": 17962, "duration": 17962,
     "name": "The Game Awards #2025 (обзор) / Terminator 2D: NO FATE / Egging On #3",
     "date": "2025-12-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2641844239.torrent",
     "games": ["tga", "single-2025", "egging-on"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2641844239.ass"
   },
@@ -18244,10 +18241,10 @@
   },
   "2695726320": {
     "youtube": "Tx7MVKDbmTI", "vk": "-28387068_456251062", "abs_start": 0, "abs_end": 21700, "duration": 21700,
-    "name": "Replaced (демо) / Planet of Lana II: Children of the Leaf (демо) / Bylina (демо) / Crisol: Theater of Idols",
+    "name": "Replaced - Демо / Planet of Lana II: Children of the Leaf (демо) / Bylina (демо) / Crisol: Theater of Idols",
     "date": "2026-02-12",
     "torrent": "https://bsufiles.drhx.ru/streams/2695726320.torrent",
-    "games": ["single-2026", "first-2026"],
+    "games": ["replaced", "single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2695726320.ass"
   },
   "2696580164": {
@@ -18645,5 +18642,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2745337959.torrent",
     "games": ["samson", "csc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2745337959.ass"
+  },
+  "2747843283": {
+    "abs_start": 0, "abs_end": 18569, "duration": 18569,
+    "name": "Replaced #1 / I'm on Observation Duty - Часть 8 #3",
+    "date": "2026-04-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2747843283.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2747843283.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2747843283.torrent",
+    "games": ["replaced", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2747843283.ass"
   }
 }

@@ -10149,7 +10149,6 @@
         { "name": "Unusual Tales: Deep Below", "start": 15525 }
       ] },
       { "segment": "2695726320", "subrefs": [
-        { "name": "Replaced (демо)", "start": 2953 },
         { "name": "Planet of Lana II: Children of the Leaf (демо)", "start": 5340 }
       ] },
       { "segment": "2704669685", "subrefs": [
@@ -14241,7 +14240,10 @@
         { "name": "Часть 8 #1", "start": 14825 }
       ] },
       { "segment": "2638573850", "subrefs": [
-        { "name": "I'm on Observation Duty 8", "start": 12789 }
+        { "name": "Часть 8 #2", "start": 12789 }
+      ] },
+      { "segment": "2747843283", "subrefs": [
+        { "name": "Часть 8 #3", "start": 11979 }
       ] }
     ]
   },
@@ -20861,6 +20863,19 @@
       ] },
       { "segment": "2745337959", "subrefs": [
         { "name": "3", "start": 620 }
+      ] }
+    ]
+  },
+  {
+    "name": "Replaced",
+    "category": "ongoing",
+    "id": "replaced",
+    "streams": [
+      { "segment": "2695726320", "subrefs": [
+        { "name": "Демо", "start": 2953 }
+      ] },
+      { "segment": "2747843283", "subrefs": [
+        { "name": "1", "start": 3496 }
       ] }
     ]
   }
