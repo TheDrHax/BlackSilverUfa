@@ -18648,5 +18648,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2747843283.torrent",
     "games": ["replaced", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2747843283.ass"
+  },
+  "2748601405": {
+    "abs_start": 0, "abs_end": 21945, "duration": 21945,
+    "name": "Windrose (с Дашей)",
+    "date": "2026-04-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2748601405.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2748601405.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2748601405.torrent",
+    "games": ["co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2748601405+0.ass"
   }
 }
