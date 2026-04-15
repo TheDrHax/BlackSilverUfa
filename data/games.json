@@ -20852,7 +20852,7 @@
   },
   {
     "name": "Samson",
-    "category": "ongoing",
+    "category": "finished",
     "id": "samson",
     "streams": [
       { "segment": "2743663862", "subrefs": [
@@ -20875,7 +20875,7 @@
         { "name": "Демо", "start": 2953 }
       ] },
       { "segment": "2747843283", "subrefs": [
-        { "name": "1", "start": 3496 }
+        { "name": "Релиз", "start": 3496 }
       ] }
     ]
   }
