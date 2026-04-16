@@ -17942,7 +17942,6 @@
     "youtube": "5GHCUbBYyzI", "abs_start": 0, "abs_end": 16565, "duration": 16565,
     "name": "Nancy Drew: The Creature of Kapu Cave (Нэнси Дрю. Чудовище пещеры Капу) #1",
     "date": "2025-12-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2643658878.torrent",
     "games": ["nancy-drew-cokc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2643658878.ass"
   },
@@ -18052,10 +18051,10 @@
   },
   "2666154111": {
     "youtube": "7FJpVfAzXSk", "abs_start": 0, "abs_end": 22119, "duration": 22119,
-    "name": "Pragmata (демо) / Deconstruction Simulator / My Winter Car",
+    "name": "Pragmata - Демо / Deconstruction Simulator / My Winter Car",
     "date": "2026-01-10",
     "torrent": "https://bsufiles.drhx.ru/streams/2666154111.torrent",
-    "games": ["single-2026", "first-2026"],
+    "games": ["pragmata", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2666154111.ass"
   },
   "2667145812": {
@@ -18659,5 +18658,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2748601405.torrent",
     "games": ["co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2748601405+0.ass"
+  },
+  "2749361346": {
+    "abs_start": 0, "abs_end": 25784, "duration": 25784,
+    "name": "Pragmata - Релиз",
+    "date": "2026-04-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2749361346.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2749361346.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2749361346.torrent",
+    "games": ["pragmata"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2749361346.ass"
   }
 }

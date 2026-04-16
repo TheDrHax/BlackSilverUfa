@@ -10107,9 +10107,6 @@
     "type": "list",
     "id": "single-2026",
     "streams": [
-      { "segment": "2666154111", "subrefs": [
-        { "name": "Pragmata (демо)", "start": 3334 }
-      ] },
       { "segment": "2667145812", "subrefs": [
         { "name": "Nightbell", "start": 3626 },
         { "name": "Terpenie", "start": 7204 },
@@ -20879,6 +20876,19 @@
       ] },
       { "segment": "2747843283", "subrefs": [
         { "name": "Релиз", "start": 3496 }
+      ] }
+    ]
+  },
+  {
+    "name": "Pragmata",
+    "category": "ongoing",
+    "id": "pragmata",
+    "streams": [
+      { "segment": "2666154111", "subrefs": [
+        { "name": "Демо", "start": 3334 }
+      ] },
+      { "segment": "2749361346", "subrefs": [
+        { "name": "Релиз", "start": 3682 }
       ] }
     ]
   }
