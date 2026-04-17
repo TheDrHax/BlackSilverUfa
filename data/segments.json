@@ -18661,12 +18661,22 @@
   },
   "2749361346": {
     "vk": "-28387068_456251126", "abs_start": 0, "abs_end": 25784, "duration": 25784,
-    "name": "Pragmata - Релиз",
+    "name": "Pragmata #1",
     "date": "2026-04-16",
     "direct": "https://bsufiles.drhx.ru/streams/2749361346.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2749361346.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2749361346.torrent",
     "games": ["pragmata"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2749361346.ass"
+  },
+  "2749729975": {
+    "abs_start": 0, "abs_end": 5272, "duration": 5272,
+    "name": "Pragmata #2 (тренировки)",
+    "date": "2026-04-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2749729975.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2749729975.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2749729975.torrent",
+    "games": ["pragmata"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2749729975+0.ass"
   }
 }
