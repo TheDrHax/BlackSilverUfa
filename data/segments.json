@@ -17949,7 +17949,6 @@
     "youtube": "jwZaCzD2rMg", "vk": "-28387068_456251006", "abs_start": 0, "abs_end": 24634, "duration": 24634,
     "name": "Cronos: The New Dawn #1",
     "date": "2025-12-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2644450534.torrent",
     "games": ["cronos"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2644450534+0.ass"
   },
@@ -17957,7 +17956,6 @@
     "youtube": "7PZGVc-_Re0", "vk": "-28387068_456251007", "abs_start": 0, "abs_end": 25319, "duration": 25319,
     "name": "Cronos: The New Dawn #2",
     "date": "2025-12-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2645248880.torrent",
     "games": ["cronos"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2645248880+0.ass"
   },
@@ -18674,5 +18672,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2749729975.torrent",
     "games": ["pragmata"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2749729975+0.ass"
+  },
+  "2750139630": {
+    "abs_start": 0, "abs_end": 32347, "duration": 32347,
+    "name": "Pragmata #3",
+    "date": "2026-04-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2750139630.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2750139630.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2750139630.torrent",
+    "games": ["pragmata"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2750139630+0.ass"
   }
 }

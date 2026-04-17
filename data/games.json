@@ -20881,7 +20881,7 @@
   },
   {
     "name": "Pragmata",
-    "category": "ongoing",
+    "category": "finished",
     "id": "pragmata",
     "streams": [
       { "segment": "2666154111", "subrefs": [
@@ -20892,6 +20892,9 @@
       ] },
       { "segment": "2749729975", "subrefs": [
         { "name": "2 (тренировки)", "start": 240 }
+      ] },
+      { "segment": "2750139630", "subrefs": [
+        { "name": "3", "start": 1002 }
       ] }
     ]
   }
