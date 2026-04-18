@@ -5448,9 +5448,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v495362547,495449259+0.ass"
   },
   "495816363": {
-    "youtube": "Ujcu1NToNSU", "official": false, "abs_start": 0, "abs_end": 18473, "duration": 18473,
+    "abs_start": 0, "abs_end": 18473, "duration": 18473,
     "name": "Mafia: City of Lost Heaven #1",
     "date": "2019-10-17",
+    "direct": "https://bsufiles.drhx.ru/streams/495816363.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/495816363.mp4/master.m3u8",
     "games": ["mafia"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v495816363.ass"
   },
@@ -5551,9 +5553,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v503413959.ass"
   },
   "504248004": {
-    "youtube": "5kJtdIOMaRM", "official": false, "abs_start": 0, "abs_end": 18777, "duration": 18777,
+    "abs_start": 0, "abs_end": 18777, "duration": 18777,
     "name": "Need for Speed Heat / Red Dead Redemption 2 (PC) / Mafia II #4",
     "date": "2019-11-05",
+    "direct": "https://bsufiles.drhx.ru/streams/504248004.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/504248004.mp4/master.m3u8",
     "games": ["first-2019", "mafia-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v504248004.ass"
   },
@@ -5904,7 +5908,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v534316789.ass"
   },
   "535374681": {
-    "youtube": "aOzNa1Kc6EY", "official": false, "abs_start": 0, "abs_end": 20518, "duration": 20518,
+    "youtube": "khzSU58Puoc", "official": false, "abs_start": 0, "abs_end": 20518, "duration": 20518,
     "name": "Grand Theft Auto: San Andreas #4",
     "date": "2020-01-13",
     "games": ["gta-san-andreas"],
@@ -17963,7 +17967,6 @@
     "youtube": "gpR6uAopI3c", "abs_start": 0, "abs_end": 12708, "duration": 12708,
     "name": "Cronos: The New Dawn #3",
     "date": "2025-12-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2646072502.torrent",
     "games": ["cronos"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2646072502.ass"
   },
