@@ -23,8 +23,9 @@ def detect_disconnect_protection(
         end: Union[float, None] = None) -> List[float]:
     ffcmd = ['ffprobe',
              '-v', 'error',
+             '-skip_frame', 'nokey',
              '-select_streams', 'v:0',
-             '-show_entries', 'packet=pts_time,duration',
+             '-show_entries', 'frame=pts_time',
              '-of', 'csv']
 
     if None not in [start, end]:
@@ -57,16 +58,16 @@ def detect_disconnect_protection(
     for line in ffproc.stdout:
         line = line.decode()
 
-        if not line.startswith('packet,'):
+        if not line.startswith('frame,'):
+            continue
+
+        if not line.endswith(',\n'):  # no side data
             continue
 
         parts = line.strip().split(',')
         ts = float(parts[1])
-        duration = int(parts[2])
-
-        if duration >= 100000:
-            ranges.append(ts)
-            # print(f'Start: {ts}', file=sys.stderr)
+        ranges.append(ts)
+        # print(f'Start: {ts}', file=sys.stderr)
 
     ffproc.terminate()
     ffproc.wait()
@@ -90,7 +91,6 @@ def parse_log_timings(log_path: str) -> List[Tuple[float, float, float]]:
                 timeline.append((parsed['ts'], parsed['offset']))
 
     timeline = sorted(timeline, key=lambda x: x)
-    start = timeline[0][1]
 
     for i in range(len(timeline) - 1):
         ts1, offset1 = timeline[i]
@@ -99,7 +99,7 @@ def parse_log_timings(log_path: str) -> List[Tuple[float, float, float]]:
         diff = (ts2 - ts1) - (offset2 - offset1)
 
         if diff > 4:  # two segments
-            lost.append((offset1 - start, offset2 - start, diff))
+            lost.append((offset1, offset2, diff))
 
     return lost
 
@@ -108,7 +108,6 @@ def get_source_cuts(videos: List[str], log: str) -> Timecodes:
     ranges = Timecodes()
 
     for start, end, diff in parse_log_timings(log):
-        start = end - 300
         dp = detect_disconnect_protection(videos, start, end)
 
         if len(dp) == 0:
