@@ -9379,7 +9379,6 @@
       ] },
       { "segment": "2710950107", "subrefs": [
         { "name": "Scarlet Backrooms (демо)", "start": 1606 },
-        { "name": "Cthulhu: The Cosmic Abyss", "start": 2634 },
         { "name": "Dread Neighbor", "start": 10235 }
       ] },
       { "segment": "2712645930", "subrefs": [
@@ -9416,6 +9415,9 @@
       ] },
       { "segment": "2744533579", "subrefs": [
         { "name": "Road to Vostok (демо)", "start": 5735 }
+      ] },
+      { "segment": "2751033289", "subrefs": [
+        { "name": "Mouse: P.I. For Hire", "start": 1711 }
       ] }
     ]
   },
@@ -11500,7 +11502,7 @@
         { "name": "5", "start": 3364 }
       ] },
       { "segment": "2249129409", "subrefs": [
-        { "name": "6 (релиз)", "start": 16576 }
+        { "name": "6", "start": 16576 }
       ] },
       { "segment": "2249923453", "subrefs": [
         { "name": "7", "start": 1175 }
@@ -11555,6 +11557,9 @@
       ] },
       { "segment": "2737131562", "subrefs": [
         { "name": "24", "start": 15759 }
+      ] },
+      { "segment": "2751033289", "subrefs": [
+        { "name": "25 (релиз)", "start": 15267 }
       ] }
     ]
   },
@@ -20895,6 +20900,19 @@
       ] },
       { "segment": "2750139630", "subrefs": [
         { "name": "3", "start": 1002 }
+      ] }
+    ]
+  },
+  {
+    "name": "Cthulhu: The Cosmic Abyss",
+    "category": "ongoing",
+    "id": "cthulhu-ca",
+    "streams": [
+      { "segment": "2710950107", "subrefs": [
+        { "name": "Демо", "start": 2634 }
+      ] },
+      { "segment": "2751033289", "subrefs": [
+        { "name": "Релиз", "start": 8146 }
       ] }
     ]
   }

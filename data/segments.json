@@ -15267,7 +15267,7 @@
   },
   "2249129409": {
     "youtube": "zN0FaHAB4o0", "abs_start": 0, "abs_end": 19868, "duration": 19868,
-    "name": "THRESHOLD - Демо / Fears to Fathom - Episode 5 - Woodbury Getaway / Lucky Tower Ultimate #6 (релиз)",
+    "name": "THRESHOLD - Демо / Fears to Fathom - Episode 5 - Woodbury Getaway / Lucky Tower Ultimate #6",
     "date": "2024-09-12",
     "games": ["threshold", "fears-to-fathom", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2249129409+0.ass"
@@ -18377,10 +18377,10 @@
   },
   "2710950107": {
     "youtube": "budUgjEWqms", "abs_start": 0, "abs_end": 18967, "duration": 18967,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #8 / Scarlet Backrooms (демо) / Cthulhu: The Cosmic Abyss / Within of Static: Northgate Mall / Dread Neighbor / CHWAEST: A Creeping Parasite Horror / The Soul (демо) / On Thy Knees",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #8 / Scarlet Backrooms (демо) / Cthulhu: The Cosmic Abyss - Демо / Within of Static: Northgate Mall / Dread Neighbor / CHWAEST: A Creeping Parasite Horror / The Soul (демо) / On Thy Knees",
     "date": "2026-03-01",
     "torrent": "https://bsufiles.drhx.ru/streams/2710950107.torrent",
-    "games": ["horrors-2026", "first-2026", "616-games", "single-2026"],
+    "games": ["horrors-2026", "first-2026", "cthulhu-ca", "616-games", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2710950107.ass"
   },
   "2712645930": {
@@ -18683,5 +18683,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2750139630.torrent",
     "games": ["pragmata"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2750139630+0.ass"
+  },
+  "2751033289": {
+    "abs_start": 0, "abs_end": 20437, "duration": 20437,
+    "name": "Mouse: P.I. For Hire / Cthulhu: The Cosmic Abyss - Релиз / Lucky Tower Ultimate #25 (релиз)",
+    "date": "2026-04-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2751033289.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2751033289.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2751033289.torrent",
+    "games": ["first-2026", "cthulhu-ca", "lucky-tower"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2751033289.ass"
   }
 }
