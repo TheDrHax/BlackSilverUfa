@@ -1,9 +1,10 @@
-"""Usage: tc_to_refs [<stream>]"""
+"""Usage: tc_to_refs [--ввх] [<stream>]"""
 
 import requests
 
 from docopt import docopt
 from typing import Dict, Union
+from datetime import datetime
 
 from ..data.timecodes import Timecode, Timecodes
 from ..data.games import Game
@@ -137,6 +138,11 @@ def main(argv=None):
         tc = streams[stream_id][0].timecodes
 
     chapters = get_chapters(tc)
+
+    if args['--ввх']:
+        name = f'Вечер Всратых Хорроров (ВВХ) {datetime.now().year}'
+        chapters.add(Timecode('0:00', name=name))
+
     ref_map = sort_chapters(chapters)
 
     create_refs(segment, ref_map)
