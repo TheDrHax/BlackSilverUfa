@@ -145,5 +145,22 @@ case $1 in
         require_node
         "$@"
         ;;
+
+    vod) curl -s https://red.drhx.ru/blackufa/twitch | jq -r '.vod' ;;
+    play)
+        shift
+
+        [ "$1" ] && VOD=$1 || VOD=$($0 vod)
+        dir=$(jq -r '.fallback.directory' config/config.json)
+        tmp_dir=${dir/Streams/tmp}
+
+        if [ -e "$tmp_dir/$VOD.0.ts" ]; then
+            mpv $(twitch_utils concat $tmp_dir/$VOD.*.ts -o - -f edl_uri)
+        else
+            mpv $dir/$VOD.mp4
+        fi
+
+        ;;
+
     *) echo "Usage: $0 venv|pages|pull|build|serve|react|download-chats|sh|bash|repl|script|python|pip|npm" ;;
 esac
