@@ -17974,7 +17974,6 @@
     "youtube": "DyZ4EYLQ140", "abs_start": 0, "abs_end": 26965, "duration": 26965,
     "name": "Cronos: The New Dawn #4",
     "date": "2025-12-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2646891027.torrent",
     "games": ["cronos"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2646891027.ass"
   },
@@ -18180,10 +18179,10 @@
   },
   "2684248237": {
     "youtube": "j1CxBAoZW3Y", "abs_start": 0, "abs_end": 18242, "duration": 18242,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #4 / The Backrooms: Liminal Space / Callus (Мозоль) / Kacipbara / Hunting / Oh Demon! Fix my TV / Fear the Timeloop - Релиз",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #4 / The Backrooms: Liminal Space #1 / Callus (Мозоль) / Kacipbara / Hunting / Oh Demon! Fix my TV / Fear the Timeloop - Релиз",
     "date": "2026-01-30",
     "torrent": "https://bsufiles.drhx.ru/streams/2684248237.torrent",
-    "games": ["horrors-2026", "first-2026", "single-2026", "fear-the-timeloop"],
+    "games": ["horrors-2026", "backrooms-ls", "single-2026", "fear-the-timeloop"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2684248237.ass"
   },
   "2685159950": {
@@ -18329,10 +18328,10 @@
   },
   "2704669685": {
     "youtube": "GvUan9RhJ2g", "abs_start": 0, "abs_end": 18841, "duration": 18841,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #7 / Backrooms: Poolrooms / Captured 2 (демо) / Don't Play This (демо) / Rules: Motel Horizon / Moonrot / Jaden Williams' The Stalking Stairs / Skinface / Deda (Деда) / White Silence",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #7 / Backrooms: Poolrooms / Captured 2 (демо) / Don't Play This - Демо / Rules: Motel Horizon / Moonrot / Jaden Williams' The Stalking Stairs / Skinface / Deda (Деда) / White Silence",
     "date": "2026-02-22",
     "torrent": "https://bsufiles.drhx.ru/streams/2704669685.torrent",
-    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "games": ["horrors-2026", "first-2026", "single-2026", "dont-play-this"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2704669685.ass"
   },
   "2706372042": {
@@ -18691,5 +18690,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2751033289.torrent",
     "games": ["first-2026", "cthulhu-ca", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2751033289.ass"
+  },
+  "2751915521": {
+    "abs_start": 0, "abs_end": 18719, "duration": 18719,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #14 / The Backrooms: Liminal Space #2 / Barking from the Dark / Holface / Bone Fire Effigy / Don't Play This - Прохождение",
+    "date": "2026-04-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2751915521.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2751915521.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2751915521.torrent",
+    "games": ["horrors-2026", "backrooms-ls", "single-2026", "first-2026", "dont-play-this"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2751915521.ass"
   }
 }
