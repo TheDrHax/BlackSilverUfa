@@ -17981,7 +17981,6 @@
     "youtube": "x6uV8Mz8f_k", "abs_start": 0, "abs_end": 18347, "duration": 18347,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #58 / Backrooms — 2005 / Butcher of the North / The Christmas Cackler / The Not-Deer Stew / Death On Holly Ridge / Within of Static: Ashburg Rental",
     "date": "2025-12-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2648606075.torrent",
     "games": ["horrors-2025", "first-2025", "single-2025", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2648606075.ass"
   },
@@ -17989,7 +17988,6 @@
     "youtube": "qpoZAPeVPgQ", "abs_start": 0, "abs_end": 12264, "duration": 12264,
     "name": "Nancy Drew: The Creature of Kapu Cave (Нэнси Дрю. Чудовище пещеры Капу) #2",
     "date": "2025-12-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2649459117.torrent",
     "games": ["nancy-drew-cokc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2649459117.ass"
   },
@@ -18698,5 +18696,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2751915521.torrent",
     "games": ["horrors-2026", "backrooms-ls", "single-2026", "first-2026", "dont-play-this"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2751915521.ass"
+  },
+  "2752633309": {
+    "abs_start": 0, "abs_end": 28714, "duration": 28714,
+    "name": "Atomic Heart - Blood On Crystal",
+    "date": "2026-04-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2752633309.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2752633309.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2752633309.torrent",
+    "games": ["atomic-heart"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2752633309.ass"
   }
 }
