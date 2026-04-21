@@ -12835,7 +12835,10 @@
         { "name": "Enchantment Under the Sea", "start": 1680 }
       ] },
       { "segment": "2752633309", "subrefs": [
-        { "name": "Blood On Crystal", "start": 523 }
+        { "name": "Blood On Crystal #1", "start": 523 }
+      ] },
+      { "segment": "2753415399", "subrefs": [
+        { "name": "Blood On Crystal #2", "start": 1000 }
       ] }
     ]
   },

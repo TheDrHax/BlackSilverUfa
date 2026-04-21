@@ -17995,7 +17995,6 @@
     "youtube": "JP7XaU9P7mU", "abs_start": 0, "abs_end": 21341, "duration": 21341,
     "name": "Forgot / Blueman - Релиз / No, I'm not a Human #3",
     "date": "2025-12-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2651112136.torrent",
     "games": ["first-2025", "blueman", "nimnah"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2651112136.ass"
   },
@@ -18699,12 +18698,22 @@
   },
   "2752633309": {
     "abs_start": 0, "abs_end": 28714, "duration": 28714,
-    "name": "Atomic Heart - Blood On Crystal",
+    "name": "Atomic Heart - Blood On Crystal #1",
     "date": "2026-04-20",
     "direct": "https://bsufiles.drhx.ru/streams/2752633309.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2752633309.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2752633309.torrent",
     "games": ["atomic-heart"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2752633309.ass"
+  },
+  "2753415399": {
+    "abs_start": 0, "abs_end": 24875, "duration": 24875,
+    "name": "Atomic Heart - Blood On Crystal #2",
+    "date": "2026-04-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2753415399.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2753415399.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2753415399.torrent",
+    "games": ["atomic-heart"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2753415399.ass"
   }
 }
