@@ -18002,7 +18002,6 @@
     "youtube": "DvRiWiDBE6Y", "abs_start": 0, "abs_end": 10848, "duration": 10848,
     "name": "Like a Dragon: Infinite Wealth #4",
     "date": "2025-12-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2652571009.torrent",
     "games": ["like-dragon-iw"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2652571009.ass"
   },
@@ -18010,7 +18009,6 @@
     "youtube": "CdTfxuW4drM", "abs_start": 0, "abs_end": 12243, "duration": 12243,
     "name": "Like a Dragon: Infinite Wealth #5",
     "date": "2025-12-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2652661835.torrent",
     "games": ["like-dragon-iw"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2652661835.ass"
   },
@@ -18711,5 +18709,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2753415399.torrent",
     "games": ["atomic-heart"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2753415399.ass"
+  },
+  "2755040261": {
+    "abs_start": 0, "abs_end": 23768, "duration": 23768,
+    "name": "The Expanse: Osiris Reborn (бета) / Voodoo Fishin' / Mind Biotics / R.E.P.O. #5 / Lethal Company #27",
+    "date": "2026-04-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2755040261.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2755040261.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2755040261.torrent",
+    "games": ["single-2026", "first-2026", "repo", "lethal-company"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2755040261.ass"
   }
 }

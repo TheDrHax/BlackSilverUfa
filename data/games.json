@@ -1160,6 +1160,9 @@
       ] },
       { "segment": "2741318217", "subrefs": [
         { "name": "26", "start": 11696 }
+      ] },
+      { "segment": "2755040261", "subrefs": [
+        { "name": "27", "start": 18091 }
       ] }
     ]
   },
@@ -9418,6 +9421,10 @@
       ] },
       { "segment": "2751915521", "subrefs": [
         { "name": "Bone Fire Effigy", "start": 12570 }
+      ] },
+      { "segment": "2755040261", "subrefs": [
+        { "name": "Voodoo Fishin'", "start": 8330 },
+        { "name": "Mind Biotics", "start": 10388 }
       ] }
     ]
   },
@@ -10197,6 +10204,9 @@
       { "segment": "2751915521", "subrefs": [
         { "name": "Barking from the Dark", "start": 4576 },
         { "name": "Holface", "start": 10110 }
+      ] },
+      { "segment": "2755040261", "subrefs": [
+        { "name": "The Expanse: Osiris Reborn (бета)", "start": 2102 }
       ] }
     ]
   },
@@ -19269,6 +19279,9 @@
       ] },
       { "segment": "2540650368", "subrefs": [
         { "name": "4", "start": 17877 }
+      ] },
+      { "segment": "2755040261", "subrefs": [
+        { "name": "5", "start": 11261 }
       ] }
     ]
   },
