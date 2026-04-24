@@ -831,9 +831,6 @@
       ] },
       { "segment": "2741318217", "subrefs": [
         { "name": "Cryo", "start": 8303 }
-      ] },
-      { "segment": "2748601405", "subrefs": [
-        { "name": "Windrose (с Дашей)", "start": 1736 }
       ] }
     ]
   },
@@ -20964,6 +20961,19 @@
       ] },
       { "segment": "2751915521", "subrefs": [
         { "name": "Прохождение", "start": 13790 }
+      ] }
+    ]
+  },
+  {
+    "name": "Windrose",
+    "category": "ongoing",
+    "id": "windrose",
+    "streams": [
+      { "segment": "2748601405", "subrefs": [
+        { "name": "1 (с Дашей)", "start": 1736 }
+      ] },
+      { "segment": "2755846236", "subrefs": [
+        { "name": "2 (4D)", "start": 4460 }
       ] }
     ]
   }

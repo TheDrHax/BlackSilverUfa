@@ -18016,7 +18016,6 @@
     "youtube": "CO8TpS6JgxU", "abs_start": 0, "abs_end": 19616, "duration": 19616,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #59 / Backrooms #3 / The Floor Above (демо) / The Last Gift / Unbothered / Christmas Incident / Fat Hobo / Daddy's Christmas / Obsessed: Trace",
     "date": "2025-12-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2654158344.torrent",
     "games": ["horrors-2025", "backrooms", "single-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2654158344+0.ass"
   },
@@ -18648,10 +18647,10 @@
   },
   "2748601405": {
     "youtube": "vG7xN7FeTFM", "abs_start": 0, "abs_end": 21945, "duration": 21945,
-    "name": "Windrose (с Дашей)",
+    "name": "Windrose #1 (с Дашей)",
     "date": "2026-04-15",
     "torrent": "https://bsufiles.drhx.ru/streams/2748601405.torrent",
-    "games": ["co-op"],
+    "games": ["windrose"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2748601405+0.ass"
   },
   "2749361346": {
@@ -18717,5 +18716,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2755040261.torrent",
     "games": ["single-2026", "first-2026", "repo", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2755040261.ass"
+  },
+  "2755846236": {
+    "abs_start": 0, "abs_end": 22900, "duration": 22900,
+    "name": "Windrose #2 (4D)",
+    "date": "2026-04-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2755846236.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2755846236.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2755846236.torrent",
+    "games": ["windrose"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2755846236.ass"
   }
 }
