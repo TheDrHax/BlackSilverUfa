@@ -18023,7 +18023,6 @@
     "youtube": "S6HgUCLt7a4", "abs_start": 0, "abs_end": 20285, "duration": 20285,
     "name": "Crime Scene Cleaner #19 / Los Pingheros / Pic-Me! / Gartic Phone #9",
     "date": "2025-12-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2654992093.torrent",
     "games": ["csc", "co-op", "gartic-phone"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2654992093.ass"
   },
@@ -18031,7 +18030,6 @@
     "youtube": "4g86ozBBib0", "abs_start": 0, "abs_end": 17236, "duration": 17236,
     "name": "Вечер Всратых Хорроров (ВВХ) 2025 #60 / Backrooms Santa / A Warm Welcome / Stalked at Home / Doki-Doki Action Game",
     "date": "2025-12-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2656699942.torrent",
     "games": ["horrors-2025", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2656699942.ass"
   },
@@ -18724,5 +18722,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2755846236.torrent",
     "games": ["windrose"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2755846236.ass"
+  },
+  "2756626215": {
+    "abs_start": 0, "abs_end": 29462, "duration": 29462,
+    "name": "Crime Scene Cleaner #23 / Windrose #3 (4D)",
+    "date": "2026-04-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2756626215.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2756626215.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2756626215.torrent",
+    "games": ["csc", "windrose"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2756626215+0.ass"
   }
 }
