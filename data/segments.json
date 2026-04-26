@@ -18037,7 +18037,6 @@
     "youtube": "QwGSXmAxQls", "abs_start": 0, "abs_end": 11897, "duration": 11897,
     "name": "Новый год 2026",
     "date": "2025-12-31",
-    "torrent": "https://bsufiles.drhx.ru/streams/2657553049.torrent",
     "games": ["other"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2657553049.ass"
   },
@@ -18730,5 +18729,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2756626215.torrent",
     "games": ["csc", "windrose"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2756626215+0.ass"
+  },
+  "2757524561": {
+    "abs_start": 0, "abs_end": 19359, "duration": 19359,
+    "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой)",
+    "date": "2026-04-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2757524561.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2757524561.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2757524561.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2757524561+0.ass"
   }
 }
