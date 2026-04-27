@@ -18044,7 +18044,6 @@
     "youtube": "7FJpVfAzXSk", "vk": "-28387068_456251026", "abs_start": 0, "abs_end": 22119, "duration": 22119,
     "name": "Pragmata - Демо / Deconstruction Simulator / My Winter Car",
     "date": "2026-01-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2666154111.torrent",
     "games": ["pragmata", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2666154111.ass"
   },
@@ -18052,7 +18051,6 @@
     "youtube": "R77FlZdhNpE", "vk": "-28387068_456251028", "abs_start": 0, "abs_end": 19070, "duration": 19070,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #1 / The Backrooms: Realism / Nightbell / Terpenie / It Reaches (демо) / Lurking / The Unplace / MiSide Zero / Professor Galaktionov: Dawn of the Robopocalypse (Профессор Галактионов и начало робоапокалипсиса)",
     "date": "2026-01-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2667145812.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2667145812.ass"
   },
@@ -18724,7 +18722,7 @@
   },
   "2756626215": {
     "youtube": "s0aK95lKZow", "vk": "-28387068_456251139", "abs_start": 0, "abs_end": 29463, "duration": 29463,
-    "name": "Crime Scene Cleaner #23 / Windrose #3 (4D)",
+    "name": "Crime Scene Cleaner #23 / Windrose #3",
     "date": "2026-04-25",
     "torrent": "https://bsufiles.drhx.ru/streams/2756626215.torrent",
     "games": ["csc", "windrose"],
@@ -18737,5 +18735,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2757524561.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2757524561+0.ass"
+  },
+  "2758272920": {
+    "abs_start": 0, "abs_end": 26186, "duration": 26186,
+    "name": "Crime Scene Cleaner #24 / Windrose #4",
+    "date": "2026-04-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2758272920.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2758272920.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2758272920.torrent",
+    "games": ["csc", "windrose"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2758272920.ass"
   }
 }
