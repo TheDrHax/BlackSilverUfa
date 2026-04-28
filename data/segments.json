@@ -18058,7 +18058,6 @@
     "youtube": "oVWoVUrPFDc", "vk": "-28387068_456251029", "abs_start": 0, "abs_end": 22423, "duration": 22423,
     "name": "Entity: The Black Day / Quarantine Zone: The Last Check #1 / Black Ice",
     "date": "2026-01-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2667995781.torrent",
     "games": ["first-2026", "quarantine-zone-tlc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2667995781.ass"
   },
@@ -18743,5 +18742,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2758272920.torrent",
     "games": ["csc", "windrose"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2758272920.ass"
+  },
+  "2759017892": {
+    "abs_start": 0, "abs_end": 27613, "duration": 27613,
+    "name": "SAROS / Ready or Not #6",
+    "date": "2026-04-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2759017892.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2759017892.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2759017892.torrent",
+    "games": ["first-2026", "ready-or-not"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2759017892.ass"
   }
 }

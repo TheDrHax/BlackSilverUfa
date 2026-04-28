@@ -1072,6 +1072,9 @@
       ] },
       { "segment": "2059745251", "subrefs": [
         { "name": "5", "start": 18480 }
+      ] },
+      { "segment": "2759017892", "subrefs": [
+        { "name": "6", "start": 11816 }
       ] }
     ]
   },
@@ -9425,6 +9428,9 @@
       ] },
       { "segment": "2757524561", "subrefs": [
         { "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой)", "start": 2122 }
+      ] },
+      { "segment": "2759017892", "subrefs": [
+        { "name": "SAROS", "start": 721 }
       ] }
     ]
   },
