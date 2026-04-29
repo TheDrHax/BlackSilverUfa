@@ -18074,7 +18074,6 @@
     "youtube": "muEpaHyzcgo", "vk": "-28387068_456251034", "abs_start": 0, "abs_end": 22280, "duration": 22280,
     "name": "Styx: Blades of Greed / Lethal Company #25",
     "date": "2026-01-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2669742923.torrent",
     "games": ["first-2026", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2669742923+0.ass"
   },
@@ -18746,12 +18745,22 @@
   },
   "2759017892": {
     "vk": "-28387068_456251143", "abs_start": 0, "abs_end": 27613, "duration": 27613,
-    "name": "SAROS / Ready or Not #6",
+    "name": "SAROS #1 / Ready or Not #6",
     "date": "2026-04-28",
     "direct": "https://bsufiles.drhx.ru/streams/2759017892.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2759017892.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2759017892.torrent",
-    "games": ["first-2026", "ready-or-not"],
+    "games": ["saros", "ready-or-not"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2759017892.ass"
+  },
+  "2759808794": {
+    "abs_start": 0, "abs_end": 17125, "duration": 17125,
+    "name": "SAROS #2",
+    "date": "2026-04-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2759808794.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2759808794.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2759808794.torrent",
+    "games": ["saros"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2759808794.ass"
   }
 }

@@ -9428,9 +9428,6 @@
       ] },
       { "segment": "2757524561", "subrefs": [
         { "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой)", "start": 2122 }
-      ] },
-      { "segment": "2759017892", "subrefs": [
-        { "name": "SAROS", "start": 721 }
       ] }
     ]
   },
@@ -20996,6 +20993,19 @@
       ] },
       { "segment": "2758272920", "subrefs": [
         { "name": "4", "start": 7945 }
+      ] }
+    ]
+  },
+  {
+    "name": "SAROS",
+    "category": "abandoned",
+    "id": "saros",
+    "streams": [
+      { "segment": "2759017892", "subrefs": [
+        { "name": "1", "start": 721 }
+      ] },
+      { "segment": "2759808794", "subrefs": [
+        { "name": "2", "start": 906 }
       ] }
     ]
   }
