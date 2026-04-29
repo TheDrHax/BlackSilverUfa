@@ -11755,9 +11755,11 @@
     "note": "<a href=\"https://youtu.be/YxcP3BoJis0\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "1668107750": {
-    "youtube": "vxMqInL1JiY", "official": false, "abs_start": 0, "abs_end": 33494, "duration": 33494,
+    "abs_start": 0, "abs_end": 33493, "duration": 33493,
     "name": "The Callisto Protocol #1",
     "date": "2022-12-02",
+    "direct": "https://bsufiles.drhx.ru/streams/1668107750.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1668107750.mp4/master.m3u8",
     "games": ["callisto-protocol"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1668107750.ass",
     "note": "На <a href=\"https://youtu.be/0SecE0lPCVM\">официальной записи</a> установлено возрастное ограничение."
@@ -18065,7 +18067,6 @@
     "youtube": "tEmhL8EEIGo", "vk": "-28387068_456251031", "abs_start": 0, "abs_end": 19140, "duration": 19140,
     "name": "Moving Simulator / Quarantine Zone: The Last Check #2",
     "date": "2026-01-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2668832796.torrent",
     "games": ["first-2026", "quarantine-zone-tlc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2668832796.ass"
   },
@@ -18744,7 +18745,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2758272920.ass"
   },
   "2759017892": {
-    "abs_start": 0, "abs_end": 27613, "duration": 27613,
+    "vk": "-28387068_456251143", "abs_start": 0, "abs_end": 27613, "duration": 27613,
     "name": "SAROS / Ready or Not #6",
     "date": "2026-04-28",
     "direct": "https://bsufiles.drhx.ru/streams/2759017892.mp4",
