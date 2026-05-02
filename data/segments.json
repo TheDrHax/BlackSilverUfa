@@ -18729,10 +18729,10 @@
   },
   "2757524561": {
     "youtube": "4qIDhIRnpp0", "abs_start": 0, "abs_end": 19359, "duration": 19359,
-    "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой)",
+    "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой) #1",
     "date": "2026-04-26",
     "torrent": "https://bsufiles.drhx.ru/streams/2757524561.torrent",
-    "games": ["first-2026"],
+    "games": ["nancy-drew-thocm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2757524561+0.ass"
   },
   "2758272920": {
@@ -18758,5 +18758,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2759808794.torrent",
     "games": ["saros"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2759808794.ass"
+  },
+  "2762338751": {
+    "abs_start": 0, "abs_end": 16942, "duration": 16942,
+    "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой) #2",
+    "date": "2026-05-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2762338751.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2762338751.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2762338751.torrent",
+    "games": ["nancy-drew-thocm"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2762338751.ass"
   }
 }
