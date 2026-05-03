@@ -16937,10 +16937,10 @@
   },
   "2480467576,2480584019": {
     "youtube": "GN0qjsl1Mlc", "vk": "-28387068_456250801", "abs_start": 0, "abs_end": 19608, "duration": 19608,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #25 / неПрофессиональный \"E3\" 2025 - Future Games Show (обзор) / The Backrooms: Found Footage / Matreshka (демо) / Who's at the Door? #1 / Sharks and Minnows / PIGFACE - Демо / Krysolov / неПрофессиональный \"E3\" 2025 - Xbox Games Showcase",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #25 / неПрофессиональный \"E3\" 2025 - Future Games Show (обзор) / The Backrooms: Found Footage / Matreshka - Демо / Who's at the Door? #1 / Sharks and Minnows / PIGFACE - Демо / Krysolov / неПрофессиональный \"E3\" 2025 - Xbox Games Showcase",
     "date": "2025-06-08",
     "offsets": ["0:00", "2:58:14+2"],
-    "games": ["horrors-2025", "e3-2025", "single-2025", "whos-at-the-door", "pigface"],
+    "games": ["horrors-2025", "e3-2025", "single-2025", "matreshka", "whos-at-the-door", "pigface"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2480467576,2480584019+0.ass"
   },
   "2483947367": {
@@ -18081,7 +18081,6 @@
     "youtube": "8C3ulxIsfI8", "vk": "-28387068_456251037", "abs_start": 0, "abs_end": 19365, "duration": 19365,
     "name": "Mostly Trash, Sometimes Treasure / BrokenLore: UNFOLLOW / Quarantine Zone: The Last Check #3",
     "date": "2026-01-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2671478206.torrent",
     "games": ["first-2026", "quarantine-zone-tlc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2671478206.ass"
   },
@@ -18316,10 +18315,10 @@
   },
   "2704669685": {
     "youtube": "GvUan9RhJ2g", "vk": "-28387068_456251073", "abs_start": 0, "abs_end": 18841, "duration": 18841,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #7 / Backrooms: Poolrooms / Captured 2 (демо) / Don't Play This - Демо / Rules: Motel Horizon / Moonrot / Jaden Williams' The Stalking Stairs / Skinface / Deda (Деда) / White Silence",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #7 / Backrooms: Poolrooms / Captured 2 - Демо / Don't Play This - Демо / Rules: Motel Horizon / Moonrot / Jaden Williams' The Stalking Stairs / Skinface / Deda (Деда) / White Silence",
     "date": "2026-02-22",
     "torrent": "https://bsufiles.drhx.ru/streams/2704669685.torrent",
-    "games": ["horrors-2026", "first-2026", "single-2026", "dont-play-this"],
+    "games": ["horrors-2026", "first-2026", "captured-2", "dont-play-this", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2704669685.ass"
   },
   "2706372042": {
@@ -18577,10 +18576,10 @@
   },
   "2739703294": {
     "youtube": "P63fJAMU4tQ", "vk": "-28387068_456251113", "abs_start": 0, "abs_end": 19857, "duration": 19857,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #12 / Back*Space (демо) / Staged: Open House (демо) / Mold Rise / I Hear Them / Who Are You!? - Релиз / Knock / Rippers Lair",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #12 / BACK*SPACE - Демо / Staged: Open House (демо) / Mold Rise / I Hear Them / Who Are You!? - Релиз / Knock / Rippers Lair",
     "date": "2026-04-04",
     "torrent": "https://bsufiles.drhx.ru/streams/2739703294.torrent",
-    "games": ["horrors-2026", "first-2026", "single-2026", "who-are-you"],
+    "games": ["horrors-2026", "back-space", "single-2026", "who-are-you"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2739703294.ass"
   },
   "2740582496": {
@@ -18766,5 +18765,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2762338751.torrent",
     "games": ["nancy-drew-thocm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2762338751.ass"
+  },
+  "2763171417": {
+    "abs_start": 0, "abs_end": 19238, "duration": 19238,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #15 / BACK*SPACE - Релиз / Captured 2 - Релиз / Brno Transit / Matreshka - Релиз / Dark Pals",
+    "date": "2026-05-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2763171417.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2763171417.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2763171417.torrent",
+    "games": ["horrors-2026", "back-space", "captured-2", "single-2026", "matreshka", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2763171417.ass"
   }
 }
