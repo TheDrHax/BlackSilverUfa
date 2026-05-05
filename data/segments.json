@@ -18088,7 +18088,6 @@
     "youtube": "ZX6ufD8D7bk", "vk": "-28387068_456251038", "abs_start": 0, "abs_end": 20254, "duration": 20254,
     "name": "Quarantine Zone: The Last Check #4",
     "date": "2026-01-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2672425955.torrent",
     "games": ["quarantine-zone-tlc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2672425955.ass"
   },
@@ -18773,5 +18772,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2763171417.torrent",
     "games": ["horrors-2026", "back-space", "captured-2", "single-2026", "matreshka", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2763171417.ass"
+  },
+  "2763951546": {
+    "abs_start": 0, "abs_end": 18413, "duration": 18413,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #16 / Dreamcore: Rabbit Hole / Blood Mall: Retaped / Unhost / Last Letter / Banana Blood",
+    "date": "2026-05-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2763951546.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2763951546.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2763951546.torrent",
+    "games": ["horrors-2026", "single-2026", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2763951546.ass"
   }
 }
