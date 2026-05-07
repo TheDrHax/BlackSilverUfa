@@ -18102,7 +18102,6 @@
     "youtube": "aOh9ZSjXgaA", "vk": "-28387068_456251042", "abs_start": 0, "abs_end": 25683, "duration": 25683,
     "name": "Dying Light: The Beast #1",
     "date": "2026-01-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2675123579.torrent",
     "games": ["dl-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2675123579.ass"
   },
@@ -18787,5 +18786,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2764714454.torrent",
     "games": ["horrors-2026", "captured-2", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2764714454.ass"
+  },
+  "2766232615": {
+    "abs_start": 0, "abs_end": 21733, "duration": 21733,
+    "name": "Размена не будет (I Have No Change) (демо) / Will: Follow the Light / Lucky Tower Ultimate #26 / I'm on Observation Duty - Часть 8 #4",
+    "date": "2026-05-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2766232615.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2766232615.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2766232615.torrent",
+    "games": ["single-2026", "first-2026", "lucky-tower", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2766232615.ass"
   }
 }
