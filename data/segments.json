@@ -18109,7 +18109,6 @@
     "youtube": "ZOsbZk_CYpI", "vk": "-28387068_456251047", "abs_start": 0, "abs_end": 24964, "duration": 24964,
     "name": "Dying Light: The Beast #2",
     "date": "2026-01-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2675977246.torrent",
     "games": ["dl-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2675977246.ass"
   },
@@ -18796,5 +18795,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2766232615.torrent",
     "games": ["single-2026", "first-2026", "lucky-tower", "observation-duty"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2766232615.ass"
+  },
+  "2769406049": {
+    "abs_start": 0, "abs_end": 18690, "duration": 18690,
+    "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой) #3",
+    "date": "2026-05-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2769406049.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2769406049.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2769406049.torrent",
+    "games": ["nancy-drew-thocm"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2769406049.ass"
   }
 }

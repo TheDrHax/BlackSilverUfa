@@ -21044,7 +21044,7 @@
   },
   {
     "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой)",
-    "category": "ongoing",
+    "category": "finished",
     "id": "nancy-drew-thocm",
     "streams": [
       { "segment": "2757524561", "subrefs": [
@@ -21052,6 +21052,9 @@
       ] },
       { "segment": "2762338751", "subrefs": [
         { "name": "2", "start": 1709 }
+      ] },
+      { "segment": "2769406049", "subrefs": [
+        { "name": "3", "start": 2125 }
       ] }
     ]
   },
