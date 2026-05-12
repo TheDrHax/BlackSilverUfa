@@ -470,9 +470,11 @@
     "games": ["ds3"]
   },
   "001605270": {
-    "youtube": "LVgf_QPbexs", "official": false, "abs_start": 0, "abs_end": 15465, "duration": 15465,
+    "abs_start": 0, "abs_end": 15465, "duration": 15465,
     "name": "Dark Souls 3 #6",
     "date": "2016-05-27",
+    "direct": "https://bsufiles.drhx.ru/streams/001605270.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001605270.mp4/master.m3u8",
     "games": ["ds3"]
   },
   "001605310": {
@@ -616,9 +618,11 @@
     "games": ["tes-skyrim"]
   },
   "001610310": {
-    "youtube": "Wk7RQ1V-Ymc", "official": false, "abs_start": 0, "abs_end": 18321, "duration": 18321,
+    "abs_start": 0, "abs_end": 18321, "duration": 18321,
     "name": "Amnesia: The Dark Descent (с Дашей) #2 / Хэллоуин #2016",
     "date": "2016-10-31",
+    "direct": "https://bsufiles.drhx.ru/streams/001610310.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001610310.mp4/master.m3u8",
     "games": ["amnesia-dw", "halloween"],
     "note": "Запись предоставил Олег Степанов (<a href=\"https://vk.com/video87862793_456239696\">1</a>, <a href=\"https://vk.com/video87862793_456239697\">2</a>)."
   },
@@ -5908,9 +5912,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v534316789.ass"
   },
   "535374681": {
-    "youtube": "khzSU58Puoc", "official": false, "abs_start": 0, "abs_end": 20518, "duration": 20518,
+    "abs_start": 0, "abs_end": 20519, "duration": 20519,
     "name": "Grand Theft Auto: San Andreas #4",
     "date": "2020-01-13",
+    "direct": "https://bsufiles.drhx.ru/streams/535374681.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/535374681.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v535374681.ass"
   },
@@ -18116,7 +18122,6 @@
     "youtube": "Z3HY8SyxVRg", "vk": "-28387068_456251048", "abs_start": 0, "abs_end": 26152, "duration": 26152,
     "name": "Dying Light: The Beast #3",
     "date": "2026-01-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2676850555.torrent",
     "games": ["dl-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2676850555.ass"
   },
@@ -18797,7 +18802,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2766232615.ass"
   },
   "2769406049": {
-    "abs_start": 0, "abs_end": 18690, "duration": 18690,
+    "vk": "-28387068_456251155", "abs_start": 0, "abs_end": 18690, "duration": 18690,
     "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой) #3",
     "date": "2026-05-11",
     "direct": "https://bsufiles.drhx.ru/streams/2769406049.mp4",
