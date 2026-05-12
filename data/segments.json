@@ -18129,7 +18129,6 @@
     "youtube": "hPPIBGz5lbc", "vk": "-28387068_456251049", "abs_start": 0, "abs_end": 25909, "duration": 25909,
     "name": "Dying Light: The Beast #4",
     "date": "2026-01-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2677736446.torrent",
     "games": ["dl-beast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2677736446.ass"
   },
@@ -18806,5 +18805,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2769406049.torrent",
     "games": ["nancy-drew-thocm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2769406049.ass"
+  },
+  "2770136518": {
+    "abs_start": 0, "abs_end": 24582, "duration": 24582,
+    "name": "Meltopia / The Dark Pictures: Directive 8020",
+    "date": "2026-05-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2770136518.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2770136518.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2770136518.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2770136518.ass"
   }
 }
