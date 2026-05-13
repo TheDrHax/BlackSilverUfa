@@ -9433,8 +9433,7 @@
         { "name": "Will: Follow the Light", "start": 7606 }
       ] },
       { "segment": "2770136518", "subrefs": [
-        { "name": "Meltopia", "start": 2079 },
-        { "name": "The Dark Pictures: Directive 8020", "start": 7743 }
+        { "name": "Meltopia", "start": 2079 }
       ] }
     ]
   },
@@ -12504,6 +12503,9 @@
       ] },
       { "segment": "2758272920", "subrefs": [
         { "name": "24", "start": 930 }
+      ] },
+      { "segment": "2770908255", "subrefs": [
+        { "name": "25", "start": 7844 }
       ] }
     ]
   },
@@ -20785,6 +20787,9 @@
       ] },
       { "segment": "2709933308", "subrefs": [
         { "name": "3", "start": 1089 }
+      ] },
+      { "segment": "2770908255", "subrefs": [
+        { "name": "4 (Leon Must Die Forever)", "start": 1286 }
       ] }
     ]
   },
@@ -21101,6 +21106,19 @@
       ] },
       { "segment": "2763171417", "subrefs": [
         { "name": "Релиз", "start": 14211 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Dark Pictures: Directive 8020",
+    "category": "finished",
+    "id": "directive-8020",
+    "streams": [
+      { "segment": "2770136518", "subrefs": [
+        { "name": "1", "start": 7743 }
+      ] },
+      { "segment": "2770908255", "subrefs": [
+        { "name": "2", "start": 11945 }
       ] }
     ]
   }
