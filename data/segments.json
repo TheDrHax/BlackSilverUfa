@@ -18143,7 +18143,6 @@
     "youtube": "yW9Y4AdgT94", "vk": "-28387068_456251051", "official": false, "abs_start": 0, "abs_end": 18856, "duration": 18856,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #3 / The Empty Halls / Babulya / Unseen / Cucina Stellata: Starred Cuisine (демо) / Bite Night: Dine or Die",
     "date": "2026-01-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2679753048.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026", "mgf-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2679753048.ass"
   },
@@ -18822,5 +18821,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2770908255.torrent",
     "games": ["re-requiem", "csc", "directive-8020"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2770908255+0.ass"
+  },
+  "2771698843": {
+    "abs_start": 0, "abs_end": 24497, "duration": 24497,
+    "name": "Crime Scene Cleaner #26 / Ready or Not #7 / Subnautica 2",
+    "date": "2026-05-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2771698843.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2771698843.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2771698843.torrent",
+    "games": ["csc", "ready-or-not", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2771698843.ass"
   }
 }

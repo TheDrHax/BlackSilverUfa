@@ -1075,6 +1075,9 @@
       ] },
       { "segment": "2759017892", "subrefs": [
         { "name": "6", "start": 11816 }
+      ] },
+      { "segment": "2771698843", "subrefs": [
+        { "name": "7", "start": 8322 }
       ] }
     ]
   },
@@ -9434,6 +9437,9 @@
       ] },
       { "segment": "2770136518", "subrefs": [
         { "name": "Meltopia", "start": 2079 }
+      ] },
+      { "segment": "2771698843", "subrefs": [
+        { "name": "Subnautica 2", "start": 10729 }
       ] }
     ]
   },
@@ -12506,6 +12512,9 @@
       ] },
       { "segment": "2770908255", "subrefs": [
         { "name": "25", "start": 7844 }
+      ] },
+      { "segment": "2771698843", "subrefs": [
+        { "name": "26", "start": 1779 }
       ] }
     ]
   },
