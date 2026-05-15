@@ -18812,21 +18812,33 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2770136518.ass"
   },
   "2770908255": {
-    "youtube": "7hFP10E8YIo", "vk": "-28387068_456251157", "abs_start": 0, "abs_end": 29479, "duration": 29479,
+    "vk": "-28387068_456251157", "abs_start": 0, "abs_end": 29480, "duration": 29480,
     "name": "Resident Evil: Requiem #4 (Leon Must Die Forever) / Crime Scene Cleaner #25 / The Dark Pictures: Directive 8020 #2",
     "date": "2026-05-13",
+    "direct": "https://bsufiles.drhx.ru/streams/2770908255.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2770908255.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2770908255.torrent",
     "games": ["re-requiem", "csc", "directive-8020"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2770908255+0.ass"
   },
   "2771698843": {
     "vk": "-28387068_456251158", "abs_start": 0, "abs_end": 24497, "duration": 24497,
-    "name": "Crime Scene Cleaner #26 / Ready or Not #7 / Subnautica 2",
+    "name": "Crime Scene Cleaner #26 / Ready or Not #7 / Subnautica 2 #1",
     "date": "2026-05-14",
     "direct": "https://bsufiles.drhx.ru/streams/2771698843.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2771698843.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2771698843.torrent",
-    "games": ["csc", "ready-or-not", "first-2026"],
+    "games": ["csc", "ready-or-not", "subnautica-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2771698843.ass"
+  },
+  "2772494226": {
+    "abs_start": 0, "abs_end": 27765, "duration": 27765,
+    "name": "Forza Horizon 6 / Subnautica 2 #2",
+    "date": "2026-05-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2772494226.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2772494226.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2772494226.torrent",
+    "games": ["first-2026", "subnautica-2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2772494226.ass"
   }
 }

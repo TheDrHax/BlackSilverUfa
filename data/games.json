@@ -9438,8 +9438,8 @@
       { "segment": "2770136518", "subrefs": [
         { "name": "Meltopia", "start": 2079 }
       ] },
-      { "segment": "2771698843", "subrefs": [
-        { "name": "Subnautica 2", "start": 10729 }
+      { "segment": "2772494226", "subrefs": [
+        { "name": "Forza Horizon 6", "start": 1500 }
       ] }
     ]
   },
@@ -21128,6 +21128,19 @@
       ] },
       { "segment": "2770908255", "subrefs": [
         { "name": "2", "start": 11945 }
+      ] }
+    ]
+  },
+  {
+    "name": "Subnautica 2",
+    "category": "ongoing",
+    "id": "subnautica-2",
+    "streams": [
+      { "segment": "2771698843", "subrefs": [
+        { "name": "1", "start": 10729 }
+      ] },
+      { "segment": "2772494226", "subrefs": [
+        { "name": "2", "start": 11737 }
       ] }
     ]
   }
