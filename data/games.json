@@ -9437,9 +9437,6 @@
       ] },
       { "segment": "2770136518", "subrefs": [
         { "name": "Meltopia", "start": 2079 }
-      ] },
-      { "segment": "2772494226", "subrefs": [
-        { "name": "Forza Horizon 6", "start": 1500 }
       ] }
     ]
   },
@@ -21120,7 +21117,7 @@
   },
   {
     "name": "The Dark Pictures: Directive 8020",
-    "category": "finished",
+    "category": "ongoing",
     "id": "directive-8020",
     "streams": [
       { "segment": "2770136518", "subrefs": [
@@ -21141,6 +21138,22 @@
       ] },
       { "segment": "2772494226", "subrefs": [
         { "name": "2", "start": 11737 }
+      ] },
+      { "segment": "2773358349", "subrefs": [
+        { "name": "3", "start": 7598 }
+      ] }
+    ]
+  },
+  {
+    "name": "Forza Horizon 6",
+    "category": "ongoing",
+    "id": "forza-horizon-6",
+    "streams": [
+      { "segment": "2772494226", "subrefs": [
+        { "name": "1", "start": 1500 }
+      ] },
+      { "segment": "2773358349", "subrefs": [
+        { "name": "2", "start": 1825 }
       ] }
     ]
   }

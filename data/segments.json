@@ -18157,7 +18157,6 @@
     "youtube": "IZBGSA3INEg", "abs_start": 0, "abs_end": 21901, "duration": 21901,
     "name": "Nioh 3 (демо) / Cairn #1",
     "date": "2026-01-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2683344112.torrent",
     "games": ["first-2026", "cairn"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2683344112.ass"
   },
@@ -18165,7 +18164,6 @@
     "youtube": "j1CxBAoZW3Y", "vk": "-28387068_456251054", "abs_start": 0, "abs_end": 18242, "duration": 18242,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #4 / The Backrooms: Liminal Space #1 / Callus (Мозоль) / Kacipbara / Hunting / Oh Demon! Fix my TV / Fear the Timeloop - Релиз",
     "date": "2026-01-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2684248237.torrent",
     "games": ["horrors-2026", "backrooms-ls", "single-2026", "fear-the-timeloop"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2684248237.ass"
   },
@@ -18831,12 +18829,22 @@
   },
   "2772494226": {
     "vk": "-28387068_456251159", "abs_start": 0, "abs_end": 27765, "duration": 27765,
-    "name": "Forza Horizon 6 / Subnautica 2 #2",
+    "name": "Forza Horizon 6 #1 / Subnautica 2 #2",
     "date": "2026-05-15",
     "direct": "https://bsufiles.drhx.ru/streams/2772494226.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2772494226.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2772494226.torrent",
-    "games": ["first-2026", "subnautica-2"],
+    "games": ["forza-horizon-6", "subnautica-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2772494226.ass"
+  },
+  "2773358349": {
+    "abs_start": 0, "abs_end": 26542, "duration": 26542,
+    "name": "Forza Horizon 6 #2 / Subnautica 2 #3",
+    "date": "2026-05-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2773358349.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2773358349.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2773358349.torrent",
+    "games": ["forza-horizon-6", "subnautica-2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2773358349.ass"
   }
 }
