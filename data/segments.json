@@ -18171,7 +18171,6 @@
     "youtube": "axR18eCcAHY", "vk": "-28387068_456251055", "abs_start": 0, "abs_end": 21688, "duration": 21688,
     "name": "Half Sword (демо) #9 / Cairn #2",
     "date": "2026-01-31",
-    "torrent": "https://bsufiles.drhx.ru/streams/2685159950.torrent",
     "games": ["half-sword", "cairn"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2685159950.ass"
   },
@@ -18842,5 +18841,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2773358349.torrent",
     "games": ["forza-horizon-6", "subnautica-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2773358349.ass"
+  },
+  "2774222879": {
+    "abs_start": 0, "abs_end": 17654, "duration": 17654,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #18 / Poolscape / Midnight Kebab / Scary Game 2: The Mad Shepherd / Not My Hand / The Butler / I Fell for Her",
+    "date": "2026-05-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2774222879.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2774222879.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2774222879.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2774222879.ass"
   }
 }
