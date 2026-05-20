@@ -753,6 +753,7 @@
       "1:06:03~1:07:37": "Living Colour - Cult of Personality",
       "1:24:03~1:25:43": "Inner Circle - Bad Boys",
       "1:52:53~1:56:06": "Mark Ronson - Uptown Funk",
+      "1:58:16~2:01:32": "Metalocalypse: Dethklok - Murmaider",
       "2:09:48~2:11:28": "Günther - Ding Dong Song (Radio Edit)",
       "2:11:41~2:15:01": "\"Weird Al\" Yankovic - Hardware Store",
       "3:00:25~3:03:31": "Queen - I Want to Break Free (Single)",
@@ -1021,10 +1022,12 @@
   "001610310": {
     "1:22": "Стримлеры",
     "2:08": "Вебка",
-    "13:22": "Меню",
-    "15:24": "Игра",
-    "2:09:09~2:29:30": "Перерыв",
     "Проблемы с правообладателями": {
+      "Coldplay - Paradise": [
+        "7:22~11:29",
+        "2:19:59~2:24:06",
+        "4:40:36~4:44:27"
+      ],
       "4:10:16~4:13:43": "AC/DC - Highway to Hell",
       "4:13:44~4:18:04": "AC/DC - Big Gun",
       "4:18:08~4:21:16": "AC/DC - War Machine",
@@ -1033,9 +1036,11 @@
         "4:51:01~4:54:51"
       ],
       "4:25:07~4:28:52": "AC/DC - Moneytalks",
-      "4:28:52~4:32:51": "AC/DC - Have a Drink on Me",
-      "4:40:36~4:44:27": "Coldplay - Paradise"
+      "4:28:52~4:32:51": "AC/DC - Have a Drink on Me"
     },
+    "13:22": "Меню",
+    "15:24": "Игра",
+    "2:09:09~2:29:30": "Перерыв",
     "4:28:18": "Арты"
   },
   "001611020": {
@@ -44952,6 +44957,7 @@
       ],
       "3:47:34~3:47:45": "Above The Law - Murder Rap (Album Version)",
       "3:49:42~3:49:57": "Frankie Knuckles - It's a Cold World",
+      "4:08:42~4:08:53": "En Vogue - My Lovin' (You're Never Gonna Get It)",
       "4:35:32~4:37:51": "Foghat - Slow Ride",
       "5:07:40~5:08:04": "Public Enemy - Rebel Without A Pause",
       "The Nightwriters - Let the Music (Use You)": [
