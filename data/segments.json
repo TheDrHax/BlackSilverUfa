@@ -215,9 +215,11 @@
     "games": ["beyond-two-souls"]
   },
   "001511271": {
-    "youtube": "7MsYezmY5dM", "official": false, "abs_start": 0, "abs_end": 3879, "duration": 3879,
+    "abs_start": 0, "abs_end": 3879, "duration": 3879,
     "name": "Beyond: Two Souls (злое прохождение) #1 (часть 2)",
     "date": "2015-11-27",
+    "direct": "https://bsufiles.drhx.ru/streams/001511271.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001511271.mp4/master.m3u8",
     "games": ["beyond-two-souls"]
   },
   "001511290": {
@@ -6090,9 +6092,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v553926728.ass"
   },
   "554432443": {
-    "youtube": "StaTX7YWwbw", "official": false, "abs_start": 0, "abs_end": 21815, "duration": 21815,
+    "abs_start": 0, "abs_end": 21814, "duration": 21814,
     "name": "Grand Theft Auto: San Andreas #9",
     "date": "2020-02-19",
+    "direct": "https://bsufiles.drhx.ru/streams/554432443.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/554432443.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v554432443.ass"
   },
