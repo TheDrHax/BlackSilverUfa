@@ -9446,6 +9446,10 @@
       ] },
       { "segment": "2778914294", "subrefs": [
         { "name": "LEGO Batman: Legacy of the Dark Knight", "start": 5974 }
+      ] },
+      { "segment": "2780521248,2780594160,2780602438,2780651471", "subrefs": [
+        { "name": "James Bond 007: From Russia with Love", "start": 2066 },
+        { "name": "James Bond 007: Nightfire", "start": 8917 }
       ] }
     ]
   },

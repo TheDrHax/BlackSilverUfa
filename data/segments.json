@@ -18841,5 +18841,56 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2779734010.torrent",
     "games": ["horrors-2026", "limscape", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2779734010.ass"
+  },
+  "2780521248": {
+    "abs_start": 0, "abs_end": 7526, "duration": 7526,
+    "name": "",
+    "date": "2026-05-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2780521248.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2780521248.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2780521248.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2780521248+0.ass"
+  },
+  "2780594160": {
+    "abs_start": 0, "abs_end": 632, "duration": 632,
+    "name": "",
+    "date": "2026-05-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2780594160.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2780594160.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2780594160.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2780594160+0.ass"
+  },
+  "2780602438": {
+    "abs_start": 0, "abs_end": 4358, "duration": 4358,
+    "name": "",
+    "date": "2026-05-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2780602438.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2780602438.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2780602438.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2780602438+0.ass"
+  },
+  "2780651471": {
+    "abs_start": 0, "abs_end": 110, "duration": 110,
+    "name": "",
+    "date": "2026-05-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2780651471.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2780651471.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2780651471.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2780651471+0.ass"
+  },
+  "2780521248,2780594160,2780602438,2780651471": {
+    "abs_start": 0, "abs_end": 12526, "duration": 12526,
+    "name": "James Bond 007: From Russia with Love / James Bond 007: Nightfire",
+    "date": "2026-05-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2780521248,2780594160,2780602438,2780651471.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2780521248,2780594160,2780602438,2780651471.mp4/master.m3u8",
+    "offsets": ["0:00", "2:05:25+2", "2:14:20+2", "3:26:58+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2780521248,2780594160,2780602438,2780651471.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2780521248,2780594160,2780602438,2780651471+0.ass"
   }
 }
