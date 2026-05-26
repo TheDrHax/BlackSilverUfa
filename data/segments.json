@@ -18890,5 +18890,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2780521248,2780594160,2780602438,2780651471.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2780521248,2780594160,2780602438,2780651471+0.ass"
+  },
+  "2781317749": {
+    "abs_start": 0, "abs_end": 21776, "duration": 21776,
+    "name": "007 First Light",
+    "date": "2026-05-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2781317749.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2781317749.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2781317749.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2781317749.ass"
   }
 }
