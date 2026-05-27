@@ -9450,9 +9450,6 @@
       { "segment": "2780521248,2780594160,2780602438,2780651471", "subrefs": [
         { "name": "James Bond 007: From Russia with Love", "start": 2066 },
         { "name": "James Bond 007: Nightfire", "start": 8917 }
-      ] },
-      { "segment": "2781317749", "subrefs": [
-        { "name": "007 First Light", "start": 5414 }
       ] }
     ]
   },
@@ -21197,6 +21194,19 @@
       ] },
       { "segment": "2779734010", "subrefs": [
         { "name": "2", "start": 1004 }
+      ] }
+    ]
+  },
+  {
+    "name": "007 First Light",
+    "category": "ongoing",
+    "id": "007-fl",
+    "streams": [
+      { "segment": "2781317749", "subrefs": [
+        { "name": "1", "start": 5414 }
+      ] },
+      { "segment": "2782041032,2782046080", "subrefs": [
+        { "name": "2", "start": 951 }
       ] }
     ]
   }
