@@ -21199,7 +21199,7 @@
   },
   {
     "name": "007 First Light",
-    "category": "ongoing",
+    "category": "finished",
     "id": "007-fl",
     "streams": [
       { "segment": "2781317749", "subrefs": [
@@ -21207,6 +21207,9 @@
       ] },
       { "segment": "2782041032,2782046080", "subrefs": [
         { "name": "2", "start": 951 }
+      ] },
+      { "segment": "2782821102", "subrefs": [
+        { "name": "3", "start": 956 }
       ] }
     ]
   }
