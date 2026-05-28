@@ -440,9 +440,11 @@
     "games": ["ds3"]
   },
   "001605090": {
-    "youtube": "bi7ppSLLOyE", "official": false, "abs_start": 0, "abs_end": 8514, "duration": 8514,
+    "abs_start": 0, "abs_end": 8514, "duration": 8514,
     "name": "Dark Souls 3 #2",
     "date": "2016-05-09",
+    "direct": "https://bsufiles.drhx.ru/streams/001605090.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001605090.mp4/master.m3u8",
     "games": ["ds3"]
   },
   "001605120": {
@@ -5936,9 +5938,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v538458255.ass"
   },
   "542106142": {
-    "youtube": "4xEpuJzGR20", "official": false, "abs_start": 0, "abs_end": 21031, "duration": 21031,
+    "abs_start": 0, "abs_end": 21031, "duration": 21031,
     "name": "Grand Theft Auto: San Andreas #6",
     "date": "2020-01-26",
+    "direct": "https://bsufiles.drhx.ru/streams/542106142.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/542106142.mp4/master.m3u8",
     "games": ["gta-san-andreas"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2020/master/v542106142.ass"
   },
@@ -18156,7 +18160,6 @@
     "youtube": "avv0Zok0Cg4", "vk": "-28387068_456251056", "abs_start": 0, "abs_end": 18007, "duration": 18007,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #5 / Yellow / Toilet 8 / Photomaly (демо) / Mole (демо) / My Neighbor Stinks / Silent Still 3 (демо)",
     "date": "2026-02-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2686159557.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2686159557.ass"
   },
