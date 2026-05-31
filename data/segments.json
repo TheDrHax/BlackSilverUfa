@@ -10680,7 +10680,7 @@
   },
   "1445142982": {
     "youtube": "FgekyOZTsBA", "abs_start": 0, "abs_end": 22221, "duration": 22221,
-    "name": "Remnants of R'lyeh (демо) / Grief / Mirage of Home / Nightmare of Decay - Демо / Uncle Panko's Terrible Little Farm / Toiletrooms / Out of Sight - Демо 1 / Cleaning Redville / HandCop / The Heilwald Loophole #1",
+    "name": "Remnants of R'lyeh (демо) / Grief (by Pablo Malmerida) / Mirage of Home / Nightmare of Decay - Демо / Uncle Panko's Terrible Little Farm / Toiletrooms / Out of Sight - Демо 1 / Cleaning Redville / HandCop / The Heilwald Loophole #1",
     "date": "2022-04-03",
     "games": ["first-2022", "single-2022", "nightmare-of-decay", "out-of-sight", "heilwald"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2022/master/v1445142982.ass"
@@ -17717,9 +17717,9 @@
   },
   "2604295684": {
     "youtube": "K-l2nql1mpA", "vk": "-28387068_456250970", "abs_start": 0, "abs_end": 22229, "duration": 22229,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #49 / Liminal Shroud (демо) / Forbidden Terror: Board Game / Midnight Crane / Suffocate - Релиз / Edge / Geamana Village",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #49 / Liminal Shroud - Демо / Forbidden Terror: Board Game / Midnight Crane / Suffocate - Релиз / Edge / Geamana Village",
     "date": "2025-10-29",
-    "games": ["horrors-2025", "first-2025", "single-2025", "suffocate"],
+    "games": ["horrors-2025", "liminal-shroud", "single-2025", "first-2025", "suffocate"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2604295684.ass"
   },
   "2605125914": {
@@ -18039,9 +18039,9 @@
   },
   "2667145812": {
     "youtube": "R77FlZdhNpE", "vk": "-28387068_456251028", "abs_start": 0, "abs_end": 19070, "duration": 19070,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #1 / The Backrooms: Realism / Nightbell / Terpenie / It Reaches (демо) / Lurking / The Unplace / MiSide Zero / Professor Galaktionov: Dawn of the Robopocalypse (Профессор Галактионов и начало робоапокалипсиса)",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #1 / The Backrooms: Realism / Nightbell / Terpenie / It Reaches - Демо / Lurking / The Unplace / MiSide Zero / Professor Galaktionov: Dawn of the Robopocalypse (Профессор Галактионов и начало робоапокалипсиса)",
     "date": "2026-01-11",
-    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "games": ["horrors-2026", "first-2026", "single-2026", "it-reaches"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2667145812.ass"
   },
   "2667995781": {
@@ -18181,7 +18181,6 @@
     "youtube": "dYkb62Uf9MU", "vk": "-28387068_456251059", "abs_start": 0, "abs_end": 16883, "duration": 16883,
     "name": "Umigari (Chilla's Art) #2",
     "date": "2026-02-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2690463885.torrent",
     "games": ["umigari"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2690463885.ass"
   },
@@ -18946,5 +18945,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2784414618.torrent",
     "games": ["csc", "i-fell-for-her", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2784414618.ass"
+  },
+  "2785277543": {
+    "abs_start": 0, "abs_end": 18375, "duration": 18375,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #20 / Liminal Shroud - Релиз / BrokenLore: ASCEND (демо) / Grief / It Reaches - Релиз / Memories: Silenced",
+    "date": "2026-05-31",
+    "direct": "https://bsufiles.drhx.ru/streams/2785277543.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2785277543.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2785277543.torrent",
+    "games": ["horrors-2026", "liminal-shroud", "single-2026", "it-reaches"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2785277543.ass"
   }
 }
