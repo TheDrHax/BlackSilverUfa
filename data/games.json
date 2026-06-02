@@ -9451,6 +9451,11 @@
       ] },
       { "segment": "2784414618", "subrefs": [
         { "name": "Cheap Car Repair", "start": 16409 }
+      ] },
+      { "segment": "2786781807", "subrefs": [
+        { "name": "Silver Pines (демо)", "start": 5851 },
+        { "name": "Wilderdark (демо)", "start": 9536 },
+        { "name": "Eternal Haunt", "start": 15070 }
       ] }
     ]
   },
@@ -9785,7 +9790,6 @@
       ] },
       { "segment": "2389049577", "subrefs": [
         { "name": "Backrooms Level X (демо)", "start": 1522 },
-        { "name": "Baptiste (демо)", "start": 2064 },
         { "name": "Unforgotten: Ordinance", "start": 11521 }
       ] },
       { "segment": "2389893992", "subrefs": [
@@ -10260,6 +10264,9 @@
         { "name": "BrokenLore: ASCEND (демо)", "start": 5845 },
         { "name": "Grief", "start": 7461 },
         { "name": "Memories: Silenced", "start": 14399 }
+      ] },
+      { "segment": "2786781807", "subrefs": [
+        { "name": "The Skin Stapler", "start": 11044 }
       ] }
     ]
   },
@@ -21260,6 +21267,19 @@
       ] },
       { "segment": "2785277543", "subrefs": [
         { "name": "Релиз", "start": 13059 }
+      ] }
+    ]
+  },
+  {
+    "name": "Baptiste",
+    "category": "finished",
+    "id": "baptiste",
+    "streams": [
+      { "segment": "2389049577", "subrefs": [
+        { "name": "1 (демо)", "start": 2064 }
+      ] },
+      { "segment": "2786781807", "subrefs": [
+        { "name": "2 (демо)", "start": 9764 }
       ] }
     ]
   }
