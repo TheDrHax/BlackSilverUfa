@@ -4891,6 +4891,9 @@
       ] },
       { "segment": "2508662587", "subrefs": [
         { "name": "5", "start": 6375 }
+      ] },
+      { "segment": "2787566607", "subrefs": [
+        { "name": "6", "start": 18387 }
       ] }
     ]
   },
@@ -9456,6 +9459,10 @@
         { "name": "Silver Pines (демо)", "start": 5851 },
         { "name": "Wilderdark (демо)", "start": 9536 },
         { "name": "Eternal Haunt", "start": 15070 }
+      ] },
+      { "segment": "2787566607", "subrefs": [
+        { "name": "Onimusha: Way of the Sword (демо)", "start": 6762 },
+        { "name": "Fatekeeper (демо)", "start": 10618 }
       ] }
     ]
   },

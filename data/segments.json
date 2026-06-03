@@ -18206,7 +18206,6 @@
     "youtube": "Tx7MVKDbmTI", "vk": "-28387068_456251062", "abs_start": 0, "abs_end": 21700, "duration": 21700,
     "name": "Replaced - Демо / Planet of Lana II: Children of the Leaf (демо) / Bylina (демо) / Crisol: Theater of Idols",
     "date": "2026-02-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2695726320.torrent",
     "games": ["replaced", "single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2695726320.ass"
   },
@@ -18961,5 +18960,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2786781807.torrent",
     "games": ["first-2026", "baptiste", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2786781807.ass"
+  },
+  "2787566607": {
+    "abs_start": 0, "abs_end": 24548, "duration": 24548,
+    "name": "Onimusha: Way of the Sword (демо) / Fatekeeper (демо) / The Classrooms #6",
+    "date": "2026-06-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2787566607.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2787566607.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2787566607.torrent",
+    "games": ["first-2026", "classrooms"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2787566607.ass"
   }
 }
