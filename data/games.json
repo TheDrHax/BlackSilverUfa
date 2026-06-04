@@ -9463,6 +9463,9 @@
       { "segment": "2787566607", "subrefs": [
         { "name": "Onimusha: Way of the Sword (демо)", "start": 6762 },
         { "name": "Fatekeeper (демо)", "start": 10618 }
+      ] },
+      { "segment": "2788370660", "subrefs": [
+        { "name": "Friendly Steps", "start": 8266 }
       ] }
     ]
   },
@@ -12555,6 +12558,9 @@
       ] },
       { "segment": "2784414618", "subrefs": [
         { "name": "27", "start": 1977 }
+      ] },
+      { "segment": "2788370660", "subrefs": [
+        { "name": "28", "start": 1095 }
       ] }
     ]
   },
@@ -20414,6 +20420,9 @@
       ] },
       { "segment": "2731374579", "subrefs": [
         { "name": "5", "start": 4588 }
+      ] },
+      { "segment": "2788370660", "subrefs": [
+        { "name": "6", "start": 13034 }
       ] }
     ]
   },
