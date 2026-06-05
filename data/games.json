@@ -9597,14 +9597,17 @@
   },
   {
     "name": "Gothic 1 Remake",
-    "category": "abandoned",
+    "category": "ongoing",
     "id": "gothic-1-remake",
     "streams": [
       { "segment": "521336731", "subrefs": [
         { "name": "Playable Teaser", "start": 458 }
       ] },
       { "segment": "2389893992", "subrefs": [
-        { "name": "Демо", "start": 14593 }
+        { "name": "Демо 1", "start": 14593 }
+      ] },
+      { "segment": "2789301878", "subrefs": [
+        { "name": "Демо 2", "start": 2226 }
       ] }
     ]
   },
