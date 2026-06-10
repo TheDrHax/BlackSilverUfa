@@ -18220,7 +18220,6 @@
     "youtube": "RetVnvMrHTA", "vk": "-28387068_456251066", "abs_start": 0, "abs_end": 22285, "duration": 22285,
     "name": "Half Sword (демо) #12 / Reanimal (с Дашей) #2 / Peak #11 (с Дашей)",
     "date": "2026-02-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2697488820.torrent",
     "games": ["half-sword", "reanimal", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2697488820.ass"
   },
@@ -18983,5 +18982,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2789301878.torrent",
     "games": ["gothic-1-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2789301878.ass"
+  },
+  "2793259082": {
+    "abs_start": 0, "abs_end": 18764, "duration": 18764,
+    "name": "Обзор конференций (лето 2026)",
+    "date": "2026-06-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2793259082.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2793259082.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2793259082.torrent",
+    "games": ["other"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2793259082.ass"
   }
 }
