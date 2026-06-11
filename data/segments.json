@@ -18227,7 +18227,6 @@
     "youtube": "fmpsnRf4jgw", "vk": "-28387068_456251067", "abs_start": 0, "abs_end": 16688, "duration": 16688,
     "name": "Desperate Housewives: The Game (Отчаянные домохозяйки) #1",
     "date": "2026-02-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2698426553.torrent",
     "games": ["desperate-housewives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2698426553.ass"
   },
@@ -18990,5 +18989,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2793259082.torrent",
     "games": ["other"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2793259082.ass"
+  },
+  "2794023992": {
+    "abs_start": 0, "abs_end": 18671, "duration": 18671,
+    "name": "Fears to Fathom - Episode 6 - Scratch Creek (с Дашей)",
+    "date": "2026-06-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2794023992.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2794023992.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2794023992.torrent",
+    "games": ["fears-to-fathom"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2794023992.ass"
   }
 }
