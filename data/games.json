@@ -9472,6 +9472,9 @@
       ] },
       { "segment": "2788370660", "subrefs": [
         { "name": "Friendly Steps", "start": 8266 }
+      ] },
+      { "segment": "2794822086,2794947072", "subrefs": [
+        { "name": "Gate Guard Simulator", "start": 3087 }
       ] }
     ]
   },
@@ -10059,9 +10062,6 @@
       { "segment": "2582997412", "subrefs": [
         { "name": "Metroliminal (демо)", "start": 4301 },
         { "name": "Stay With Him", "start": 10411 }
-      ] },
-      { "segment": "2587965611", "subrefs": [
-        { "name": "Little Nightmares 3", "start": 1415 }
       ] },
       { "segment": "2589892339", "subrefs": [
         { "name": "Lost Liminal (демо)", "start": 2153 },
@@ -21305,6 +21305,20 @@
       ] },
       { "segment": "2786781807", "subrefs": [
         { "name": "2 (демо)", "start": 9764 }
+      ] }
+    ]
+  },
+  {
+    "name": "Little Nightmares 3",
+    "category": "ongoing",
+    "id": "little-nightmares-3",
+    "streams": [
+      { "segment": "2587965611", "subrefs": [
+        { "name": "Прохождение", "start": 1415 }
+      ] },
+      { "segment": "2794822086,2794947072", "subrefs": [
+        { "name": "The Backstage", "start": 6967 },
+        { "name": "The Backstage (продолжение)", "start": 12433, "hidden": true }
       ] }
     ]
   }
