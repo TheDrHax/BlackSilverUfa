@@ -9475,6 +9475,11 @@
       ] },
       { "segment": "2794822086,2794947072", "subrefs": [
         { "name": "Gate Guard Simulator", "start": 3087 }
+      ] },
+      { "segment": "2801165670", "subrefs": [
+        { "name": "Mortal Shell II", "start": 4321 },
+        { "name": "IRON NEST: Heavy Turret Simulator", "start": 7920 },
+        { "name": "ReStory", "start": 14090 }
       ] }
     ]
   },
@@ -10286,6 +10291,9 @@
       ] },
       { "segment": "2786781807", "subrefs": [
         { "name": "The Skin Stapler", "start": 11044 }
+      ] },
+      { "segment": "2801165670", "subrefs": [
+        { "name": "XenoFeels (демо)", "start": 11637 }
       ] }
     ]
   },

@@ -18256,7 +18256,6 @@
     "youtube": "DE3Zjh0GEUM", "vk": "-28387068_456251070", "abs_start": 0, "abs_end": 25184, "duration": 25184,
     "name": "Resident Evil 4 Remake #3",
     "date": "2026-02-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2701038008.torrent",
     "games": ["re4-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2701038008.ass"
   },
@@ -19019,5 +19018,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2794822086,2794947072.torrent",
     "games": ["first-2026", "little-nightmares-3"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2794822086,2794947072+0.ass"
+  },
+  "2801165670": {
+    "abs_start": 0, "abs_end": 17319, "duration": 17319,
+    "name": "Mortal Shell II / IRON NEST: Heavy Turret Simulator / XenoFeels (демо) / ReStory",
+    "date": "2026-06-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2801165670.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2801165670.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2801165670.torrent",
+    "games": ["first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2801165670.ass"
   }
 }
