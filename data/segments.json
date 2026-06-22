@@ -18162,9 +18162,9 @@
   },
   "2686159557": {
     "youtube": "avv0Zok0Cg4", "vk": "-28387068_456251056", "abs_start": 0, "abs_end": 18007, "duration": 18007,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #5 / Yellow / Toilet 8 / Photomaly (демо) / Mole (демо) / My Neighbor Stinks / Silent Still 3 (демо)",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #5 / Yellow / Toilet 8 / Photomaly (демо) / Mole - Демо / My Neighbor Stinks / Silent Still 3 (демо)",
     "date": "2026-02-01",
-    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "games": ["horrors-2026", "first-2026", "single-2026", "mole"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2686159557.ass"
   },
   "2688736409": {
@@ -18270,7 +18270,6 @@
     "youtube": "7j22G3-64IA", "abs_start": 0, "abs_end": 17810, "duration": 17810,
     "name": "Desperate Housewives: The Game (Отчаянные домохозяйки) #2",
     "date": "2026-02-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2703732476.torrent",
     "games": ["desperate-housewives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2703732476.ass"
   },
@@ -19033,5 +19032,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2801954342.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2801954342.ass"
+  },
+  "2802683859": {
+    "abs_start": 0, "abs_end": 20382, "duration": 20382,
+    "name": "Mole - Прохождение / Molokaust",
+    "date": "2026-06-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2802683859.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2802683859.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2802683859.torrent",
+    "games": ["mole", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2802683859.ass"
   }
 }

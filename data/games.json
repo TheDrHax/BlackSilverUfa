@@ -9488,6 +9488,9 @@
         { "name": "Liminality", "start": 1636 },
         { "name": "The Fatum", "start": 8290 },
         { "name": "Going My Way?", "start": 9264 }
+      ] },
+      { "segment": "2802683859", "subrefs": [
+        { "name": "Molokaust", "start": 17735 }
       ] }
     ]
   },
@@ -10202,7 +10205,6 @@
       { "segment": "2686159557", "subrefs": [
         { "name": "Toilet 8", "start": 3796 },
         { "name": "Photomaly (демо)", "start": 6395 },
-        { "name": "Mole (демо)", "start": 9575 },
         { "name": "My Neighbor Stinks", "start": 12813 },
         { "name": "Silent Still 3 (демо)", "start": 16668 }
       ] },
@@ -21341,6 +21343,19 @@
       { "segment": "2794822086,2794947072", "subrefs": [
         { "name": "The Backstage", "start": 6967 },
         { "name": "The Backstage (продолжение)", "start": 12433, "hidden": true }
+      ] }
+    ]
+  },
+  {
+    "name": "Mole",
+    "category": "finished",
+    "id": "mole",
+    "streams": [
+      { "segment": "2686159557", "subrefs": [
+        { "name": "Демо", "start": 9575 }
+      ] },
+      { "segment": "2802683859", "subrefs": [
+        { "name": "Прохождение", "start": 1660 }
       ] }
     ]
   }
