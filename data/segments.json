@@ -19040,5 +19040,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2802683859.torrent",
     "games": ["mole", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2802683859.ass"
+  },
+  "2803484099": {
+    "abs_start": 0, "abs_end": 14407, "duration": 14407,
+    "name": "Vholume (демо) / A Game About Chopping Trees (демо) / Come In / No Such Place (демо) / Cozy Game Restoration (демо)",
+    "date": "2026-06-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2803484099.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2803484099.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2803484099.torrent",
+    "games": ["first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2803484099.ass"
   }
 }
