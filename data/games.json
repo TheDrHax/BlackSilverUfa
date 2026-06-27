@@ -9495,6 +9495,9 @@
       { "segment": "2803484099", "subrefs": [
         { "name": "Vholume (демо)", "start": 1541 },
         { "name": "No Such Place (демо)", "start": 10018 }
+      ] },
+      { "segment": "2806576326", "subrefs": [
+        { "name": "Resident Evil: Revelations", "start": 3461 }
       ] }
     ]
   },
@@ -20981,7 +20984,7 @@
   },
   {
     "name": "Forlorn: The Mysteries of Highshadowland",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "forlorn",
     "streams": [
       { "segment": "1642266888,1642407202", "subrefs": [
