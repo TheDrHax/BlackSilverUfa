@@ -18298,7 +18298,6 @@
     "youtube": "zFvAYavaajM", "vk": "-28387068_456251081", "abs_start": 0, "abs_end": 30751, "duration": 30751,
     "name": "Resident Evil 4 Remake #6 / Resident Evil: Requiem #1",
     "date": "2026-02-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2708051647.torrent",
     "games": ["re4-remake", "re-requiem"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2708051647.ass"
   },
@@ -19063,11 +19062,21 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2806576326.ass"
   },
   "2807358092": {
-    "youtube": "QqLTd2DaOJs", "abs_start": 0, "abs_end": 20414, "duration": 20414,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #22 / Backrooms Untold / Public Fears: George's Farm / Don’t Sleep with the Fishes / Maple Ridge / Midnight Hoops",
+    "youtube": "QqLTd2DaOJs", "vk": "-28387068_456251190", "abs_start": 0, "abs_end": 20414, "duration": 20414,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #22 / Backrooms Untold / Public Fears: George's Farm / Don’t Sleep with the Fishes #1 / Maple Ridge / Midnight Hoops",
     "date": "2026-06-28",
     "torrent": "https://bsufiles.drhx.ru/streams/2807358092.torrent",
-    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "games": ["horrors-2026", "first-2026", "single-2026", "dswtf"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2807358092.ass"
+  },
+  "2808112062": {
+    "abs_start": 0, "abs_end": 18520, "duration": 18520,
+    "name": "Don’t Sleep with the Fishes #2 / Dimhaven: The Lost Source",
+    "date": "2026-06-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2808112062.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2808112062.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2808112062.torrent",
+    "games": ["dswtf", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2808112062.ass"
   }
 }
