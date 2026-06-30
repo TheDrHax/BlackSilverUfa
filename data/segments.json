@@ -18540,10 +18540,10 @@
   },
   "2740582496": {
     "youtube": "DZI9eSH_l74", "vk": "-28387068_456251115", "abs_start": 0, "abs_end": 14539, "duration": 14539,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #13 / Lighthouse Keeper / Lucid Blocks / Idols of Ash / He Followed Me",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #13 / Lighthouse Keeper / Lucid Blocks / Idols of Ash - Демо / He Followed Me",
     "date": "2026-04-05",
     "torrent": "https://bsufiles.drhx.ru/streams/2740582496.torrent",
-    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "games": ["horrors-2026", "first-2026", "idols-of-ash"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2740582496.ass"
   },
   "2741318217": {
@@ -19070,7 +19070,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2807358092.ass"
   },
   "2808112062": {
-    "abs_start": 0, "abs_end": 18520, "duration": 18520,
+    "vk": "-28387068_456251192", "abs_start": 0, "abs_end": 18520, "duration": 18520,
     "name": "Don’t Sleep with the Fishes #2 / Dimhaven: The Lost Source",
     "date": "2026-06-29",
     "direct": "https://bsufiles.drhx.ru/streams/2808112062.mp4",
@@ -19078,5 +19078,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2808112062.torrent",
     "games": ["dswtf", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2808112062.ass"
+  },
+  "2808863863": {
+    "abs_start": 0, "abs_end": 18952, "duration": 18952,
+    "name": "Don’t Sleep with the Fishes #3 / The Classrooms #7 / Idols of Ash - Релиз",
+    "date": "2026-06-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2808863863.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2808863863.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2808863863.torrent",
+    "games": ["dswtf", "classrooms", "idols-of-ash"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2808863863.ass"
   }
 }

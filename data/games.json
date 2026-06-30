@@ -4894,6 +4894,9 @@
       ] },
       { "segment": "2787566607", "subrefs": [
         { "name": "6", "start": 18387 }
+      ] },
+      { "segment": "2808863863", "subrefs": [
+        { "name": "7", "start": 9704 }
       ] }
     ]
   },
@@ -10268,9 +10271,6 @@
         { "name": "I Hear Them", "start": 9121 },
         { "name": "Knock", "start": 15036 },
         { "name": "Rippers Lair", "start": 17733 }
-      ] },
-      { "segment": "2740582496", "subrefs": [
-        { "name": "Idols of Ash", "start": 4894 }
       ] },
       { "segment": "2742091967", "subrefs": [
         { "name": "Resident Evil Survivor", "start": 12344 }
@@ -21398,6 +21398,22 @@
       ] },
       { "segment": "2808112062", "subrefs": [
         { "name": "2", "start": 2451 }
+      ] },
+      { "segment": "2808863863", "subrefs": [
+        { "name": "3", "start": 2777 }
+      ] }
+    ]
+  },
+  {
+    "name": "Idols of Ash",
+    "category": "finished",
+    "id": "idols-of-ash",
+    "streams": [
+      { "segment": "2740582496", "subrefs": [
+        { "name": "Демо", "start": 4894 }
+      ] },
+      { "segment": "2808863863", "subrefs": [
+        { "name": "Релиз", "start": 16546 }
       ] }
     ]
   }
