@@ -18305,7 +18305,6 @@
     "youtube": "W54MFfiHZx8", "vk": "-28387068_456251082", "abs_start": 0, "abs_end": 28911, "duration": 28911,
     "name": "Resident Evil: Requiem #2",
     "date": "2026-02-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2708932266.torrent",
     "games": ["re-requiem"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2708932266.ass"
   },
@@ -19079,10 +19078,20 @@
   },
   "2808863863": {
     "youtube": "XrFyJ5AytJY", "abs_start": 0, "abs_end": 19035, "duration": 19035,
-    "name": "Don’t Sleep with the Fishes #3 / The Classrooms #7 / Idols of Ash - Релиз",
+    "name": "Don’t Sleep with the Fishes #3 / The Classrooms #7 / Idols of Ash #1",
     "date": "2026-06-30",
     "torrent": "https://bsufiles.drhx.ru/streams/2808863863.torrent",
     "games": ["dswtf", "classrooms", "idols-of-ash"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2808863863.ass"
+  },
+  "2809626809": {
+    "abs_start": 0, "abs_end": 18081, "duration": 18081,
+    "name": "Don’t Sleep with the Fishes #3 / Idols of Ash #2",
+    "date": "2026-07-01",
+    "direct": "https://bsufiles.drhx.ru/streams/2809626809.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2809626809.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2809626809.torrent",
+    "games": ["dswtf", "idols-of-ash"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2809626809.ass"
   }
 }

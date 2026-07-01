@@ -21390,7 +21390,7 @@
   },
   {
     "name": "Don’t Sleep with the Fishes",
-    "category": "ongoing",
+    "category": "finished",
     "id": "dswtf",
     "streams": [
       { "segment": "2807358092", "subrefs": [
@@ -21401,6 +21401,9 @@
       ] },
       { "segment": "2808863863", "subrefs": [
         { "name": "3", "start": 2777 }
+      ] },
+      { "segment": "2809626809", "subrefs": [
+        { "name": "3", "start": 2474 }
       ] }
     ]
   },
@@ -21413,7 +21416,10 @@
         { "name": "Демо", "start": 4894 }
       ] },
       { "segment": "2808863863", "subrefs": [
-        { "name": "Релиз", "start": 16546 }
+        { "name": "1", "start": 16546 }
+      ] },
+      { "segment": "2809626809", "subrefs": [
+        { "name": "2", "start": 12786 }
       ] }
     ]
   }
