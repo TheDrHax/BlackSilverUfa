@@ -18312,7 +18312,6 @@
     "youtube": "dAylmpUGEXc", "vk": "-28387068_456251084", "abs_start": 0, "abs_end": 16355, "duration": 16355,
     "name": "Resident Evil: Requiem #3",
     "date": "2026-02-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2709933308.torrent",
     "games": ["re-requiem"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2709933308.ass"
   },
@@ -19091,5 +19090,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2809626809.torrent",
     "games": ["dswtf", "idols-of-ash"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2809626809.ass"
+  },
+  "2812712988": {
+    "abs_start": 0, "abs_end": 18808, "duration": 18808,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #23 / Safe Rooms / Beso's Shawarma / The Abyss Below / Sewer Call / Vigil in the Mist / Spoonscapist / Feed The Pit",
+    "date": "2026-07-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2812712988.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2812712988.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2812712988.torrent",
+    "games": ["horrors-2026", "single-2026", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2812712988.ass"
   }
 }
