@@ -18326,7 +18326,6 @@
     "youtube": "CzW_zn_nZCY", "vk": "-28387068_456251086", "abs_start": 0, "abs_end": 20546, "duration": 20546,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #9 / Inside the Flesh Engine - Прохождение / The Oily Depths - Релиз / The Night Cleaner / Creature Kitchen",
     "date": "2026-03-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2712645930.torrent",
     "games": ["horrors-2026", "flesh-engine", "oily-depths", "single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2712645930.ass"
   },
@@ -19099,13 +19098,23 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2812712988.ass"
   },
   "2813442393": {
-    "abs_start": 0, "abs_end": 20866, "duration": 20866,
-    "name": "Idols of Ash #3 / Burglin' Gnomes / Don't Fall / Pratfall / RV There Yet? #7",
+    "vk": "-28387068_456251200", "abs_start": 0, "abs_end": 20866, "duration": 20866,
+    "name": "Idols of Ash #3 / Burglin' Gnomes / Don't Fall / Pratfall #1 (4D) / RV There Yet? #7",
     "date": "2026-07-06",
     "direct": "https://bsufiles.drhx.ru/streams/2813442393.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2813442393.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2813442393.torrent",
-    "games": ["idols-of-ash", "first-2026", "rv-there-yet"],
+    "games": ["idols-of-ash", "first-2026", "pratfall", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2813442393.ass"
+  },
+  "2814203775": {
+    "abs_start": 0, "abs_end": 19036, "duration": 19036,
+    "name": "DOOM / Doom Eternal #3 (заново) / DOOM: The Dark Ages #3 (заново) / Pratfall #2 (с Дашей)",
+    "date": "2026-07-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2814203775.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2814203775.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2814203775.torrent",
+    "games": ["first-2026", "doom-eternal", "doom-dark-ages", "pratfall"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2814203775.ass"
   }
 }
