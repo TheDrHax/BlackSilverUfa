@@ -18333,7 +18333,6 @@
     "youtube": "80EdMwlpKck", "vk": "-28387068_456251087", "abs_start": 0, "abs_end": 24605, "duration": 24605,
     "name": "Legacy of Kain: Defiance Remastered / Resident Evil #1",
     "date": "2026-03-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2714340256.torrent",
     "games": ["first-2026", "resident-evil"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2714340256+0.ass"
   },
@@ -19112,5 +19111,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2814203775.torrent",
     "games": ["first-2026", "doom-eternal", "doom-dark-ages", "pratfall"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2814203775.ass"
+  },
+  "2814926697": {
+    "abs_start": 0, "abs_end": 27189, "duration": 27189,
+    "name": "DOOM: The Dark Ages - DLC: Revelations / Don’t Sleep with the Fishes #5 / DOOM: The Dark Ages - DLC: Revelations (продолжение) / Pratfall #3 (с Дашей)",
+    "date": "2026-07-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2814926697.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2814926697.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2814926697.torrent",
+    "games": ["doom-dark-ages", "dswtf", "pratfall"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2814926697.ass"
   }
 }

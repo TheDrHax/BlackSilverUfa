@@ -9587,6 +9587,10 @@
       ] },
       { "segment": "2814203775", "subrefs": [
         { "name": "3 (заново)", "start": 8324 }
+      ] },
+      { "segment": "2814926697", "subrefs": [
+        { "name": "DLC: Revelations", "start": 1362 },
+        { "name": "DLC: Revelations (продолжение)", "start": 10993 }
       ] }
     ]
   },
@@ -21434,6 +21438,9 @@
       ] },
       { "segment": "2809626809", "subrefs": [
         { "name": "4", "start": 2474 }
+      ] },
+      { "segment": "2814926697", "subrefs": [
+        { "name": "5", "start": 9122 }
       ] }
     ]
   },
@@ -21466,6 +21473,9 @@
       ] },
       { "segment": "2814203775", "subrefs": [
         { "name": "2 (с Дашей)", "start": 13776 }
+      ] },
+      { "segment": "2814926697", "subrefs": [
+        { "name": "3 (с Дашей)", "start": 16938 }
       ] }
     ]
   }
