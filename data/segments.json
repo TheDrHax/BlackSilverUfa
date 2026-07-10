@@ -18340,7 +18340,6 @@
     "youtube": "cNBfft5C4Vo", "vk": "-28387068_456251089", "abs_start": 0, "abs_end": 14446, "duration": 14446,
     "name": "Static Dread: The Submarine (демо) / Fatal Frame II: Crimson Butterfly Remake (демо) / Romeo is a Dead Man / Resident Evil #2",
     "date": "2026-03-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2715196033.torrent",
     "games": ["first-2026", "single-2026", "resident-evil"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2715196033+0.ass"
   },
@@ -19113,7 +19112,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2814203775.ass"
   },
   "2814926697": {
-    "abs_start": 0, "abs_end": 27189, "duration": 27189,
+    "vk": "-28387068_456251202", "abs_start": 0, "abs_end": 27189, "duration": 27189,
     "name": "DOOM: The Dark Ages - DLC: Revelations / Don’t Sleep with the Fishes #5 / DOOM: The Dark Ages - DLC: Revelations (продолжение) / Pratfall #3 (с Дашей)",
     "date": "2026-07-08",
     "direct": "https://bsufiles.drhx.ru/streams/2814926697.mp4",
@@ -19121,5 +19120,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2814926697.torrent",
     "games": ["doom-dark-ages", "dswtf", "pratfall"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2814926697.ass"
+  },
+  "2816505036": {
+    "abs_start": 0, "abs_end": 26339, "duration": 26339,
+    "name": "Assassin's Creed Black Flag Resynced",
+    "date": "2026-07-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2816505036.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2816505036.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2816505036.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2816505036+0.ass"
   }
 }

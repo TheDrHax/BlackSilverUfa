@@ -9519,6 +9519,9 @@
       ] },
       { "segment": "2814203775", "subrefs": [
         { "name": "DOOM", "start": 1927 }
+      ] },
+      { "segment": "2816505036", "subrefs": [
+        { "name": "Assassin's Creed Black Flag Resynced", "start": 660 }
       ] }
     ]
   },
@@ -21084,7 +21087,7 @@
   },
   {
     "name": "The Occultist",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "occultist",
     "streams": [
       { "segment": "2743663862", "subrefs": [
