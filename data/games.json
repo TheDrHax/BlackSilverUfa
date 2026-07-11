@@ -9519,9 +9519,6 @@
       ] },
       { "segment": "2814203775", "subrefs": [
         { "name": "DOOM", "start": 1927 }
-      ] },
-      { "segment": "2816505036", "subrefs": [
-        { "name": "Assassin's Creed Black Flag Resynced", "start": 660 }
       ] }
     ]
   },
@@ -9593,7 +9590,7 @@
       ] },
       { "segment": "2814926697", "subrefs": [
         { "name": "DLC: Revelations", "start": 1362 },
-        { "name": "DLC: Revelations (продолжение)", "start": 10993 }
+        { "name": "DLC: Revelations (продолжение)", "start": 10993, "hidden": true }
       ] }
     ]
   },
@@ -21478,7 +21475,23 @@
         { "name": "2 (с Дашей)", "start": 13776 }
       ] },
       { "segment": "2814926697", "subrefs": [
-        { "name": "3 (с Дашей)", "start": 16938 }
+        { "name": "3", "start": 16938 }
+      ] },
+      { "segment": "2817362538", "subrefs": [
+        { "name": "4", "start": 16147 }
+      ] }
+    ]
+  },
+  {
+    "name": "Assassin's Creed Black Flag Resynced",
+    "category": "ongoing",
+    "id": "ac-black-flag",
+    "streams": [
+      { "segment": "2816505036", "subrefs": [
+        { "name": "1", "start": 660 }
+      ] },
+      { "segment": "2817362538", "subrefs": [
+        { "name": "2", "start": 960 }
       ] }
     ]
   }

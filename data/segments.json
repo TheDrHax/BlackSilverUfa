@@ -18347,7 +18347,6 @@
     "youtube": "P5PBqt8EFFw", "vk": "-28387068_456251090", "abs_start": 0, "abs_end": 17624, "duration": 17624,
     "name": "Desperate Housewives: The Game (Отчаянные домохозяйки) #3",
     "date": "2026-03-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2716139799.torrent",
     "games": ["desperate-housewives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2716139799.ass"
   },
@@ -18355,7 +18354,6 @@
     "youtube": "ytmmhA6W-rw", "vk": "-28387068_456251091", "abs_start": 0, "abs_end": 16363, "duration": 16363,
     "name": "Five Hearts Under One Roof 2",
     "date": "2026-03-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2717058640.torrent",
     "games": ["single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2717058640.ass"
   },
@@ -19113,7 +19111,7 @@
   },
   "2814926697": {
     "vk": "-28387068_456251202", "abs_start": 0, "abs_end": 27189, "duration": 27189,
-    "name": "DOOM: The Dark Ages - DLC: Revelations / Don’t Sleep with the Fishes #5 / DOOM: The Dark Ages - DLC: Revelations (продолжение) / Pratfall #3 (с Дашей)",
+    "name": "DOOM: The Dark Ages - DLC: Revelations / Don’t Sleep with the Fishes #5 / Pratfall #3",
     "date": "2026-07-08",
     "direct": "https://bsufiles.drhx.ru/streams/2814926697.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2814926697.mp4/master.m3u8",
@@ -19123,10 +19121,20 @@
   },
   "2816505036": {
     "youtube": "O6KnY03vXvQ", "vk": "-28387068_456251203", "abs_start": 0, "abs_end": 26410, "duration": 26410,
-    "name": "Assassin's Creed Black Flag Resynced",
+    "name": "Assassin's Creed Black Flag Resynced #1",
     "date": "2026-07-10",
     "torrent": "https://bsufiles.drhx.ru/streams/2816505036.torrent",
-    "games": ["first-2026"],
+    "games": ["ac-black-flag"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2816505036+0.ass"
+  },
+  "2817362538": {
+    "abs_start": 0, "abs_end": 28588, "duration": 28588,
+    "name": "Assassin's Creed Black Flag Resynced #2 / Pratfall #4",
+    "date": "2026-07-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2817362538.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2817362538.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2817362538.torrent",
+    "games": ["ac-black-flag", "pratfall"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2817362538.ass"
   }
 }
