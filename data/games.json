@@ -9519,6 +9519,9 @@
       ] },
       { "segment": "2814203775", "subrefs": [
         { "name": "DOOM", "start": 1927 }
+      ] },
+      { "segment": "2818211845", "subrefs": [
+        { "name": "Transcendence in the Poolrooms", "start": 2931 }
       ] }
     ]
   },
@@ -10004,7 +10007,6 @@
         { "name": "SCP: Control Error", "start": 7678 }
       ] },
       { "segment": "2480467576,2480584019", "subrefs": [
-        { "name": "The Backrooms: Found Footage", "start": 2835 },
         { "name": "Sharks and Minnows", "start": 7368 },
         { "name": "Krysolov", "start": 13206 }
       ] },
@@ -10355,6 +10357,14 @@
         { "name": "Beso's Shawarma", "start": 5266 },
         { "name": "Sewer Call", "start": 10895 },
         { "name": "Vigil in the Mist", "start": 12771 }
+      ] },
+      { "segment": "2818211845", "subrefs": [
+        { "name": "HouseWarming", "start": 3469 },
+        { "name": "Elevator: Avici", "start": 6778 },
+        { "name": "Mine of My Mind", "start": 9892 },
+        { "name": "TWIN Hotel, Spa and More (демо)", "start": 13720 },
+        { "name": "In Tenebris", "start": 14717 },
+        { "name": "Ham Hole (демо)", "start": 16750 }
       ] }
     ]
   },
@@ -18516,6 +18526,9 @@
       ] },
       { "segment": "2812712988", "subrefs": [
         { "name": "23" }
+      ] },
+      { "segment": "2818211845", "subrefs": [
+        { "name": "24" }
       ] }
     ]
   },
@@ -21492,6 +21505,19 @@
       ] },
       { "segment": "2817362538", "subrefs": [
         { "name": "2", "start": 960 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Backrooms: Found Footage",
+    "category": "finished",
+    "id": "backrooms-found-footage",
+    "streams": [
+      { "segment": "2480467576,2480584019", "subrefs": [
+        { "name": "1", "start": 2835 }
+      ] },
+      { "segment": "2818211845", "subrefs": [
+        { "name": "2", "start": 1721 }
       ] }
     ]
   }

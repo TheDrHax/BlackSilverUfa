@@ -16931,10 +16931,10 @@
   },
   "2480467576,2480584019": {
     "youtube": "GN0qjsl1Mlc", "vk": "-28387068_456250801", "abs_start": 0, "abs_end": 19608, "duration": 19608,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #25 / неПрофессиональный \"E3\" 2025 - Future Games Show (обзор) / The Backrooms: Found Footage / Matreshka - Демо / Who's at the Door? #1 / Sharks and Minnows / PIGFACE - Демо / Krysolov / неПрофессиональный \"E3\" 2025 - Xbox Games Showcase",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #25 / неПрофессиональный \"E3\" 2025 - Future Games Show (обзор) / The Backrooms: Found Footage #1 / Matreshka - Демо / Who's at the Door? #1 / Sharks and Minnows / PIGFACE - Демо / Krysolov / неПрофессиональный \"E3\" 2025 - Xbox Games Showcase",
     "date": "2025-06-08",
     "offsets": ["0:00", "2:58:14+2"],
-    "games": ["horrors-2025", "e3-2025", "single-2025", "matreshka", "whos-at-the-door", "pigface"],
+    "games": ["horrors-2025", "e3-2025", "backrooms-found-footage", "matreshka", "whos-at-the-door", "single-2025", "pigface"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2480467576,2480584019+0.ass"
   },
   "2483947367": {
@@ -18361,7 +18361,6 @@
     "youtube": "uuztari_yY8", "vk": "-28387068_456251092", "abs_start": 0, "abs_end": 20749, "duration": 20749,
     "name": "Resident Evil #3 / Resident Evil 2 #1 (заново)",
     "date": "2026-03-09",
-    "torrent": "https://bsufiles.drhx.ru/streams/2717868141.torrent",
     "games": ["resident-evil", "re2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2717868141+0.ass"
   },
@@ -19136,5 +19135,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2817362538.torrent",
     "games": ["ac-black-flag", "pratfall"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2817362538.ass"
+  },
+  "2818211845": {
+    "abs_start": 0, "abs_end": 18170, "duration": 18170,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #24 / The Backrooms: Found Footage #2 / Transcendence in the Poolrooms / HouseWarming / Elevator: Avici / Mine of My Mind / TWIN Hotel, Spa and More (демо) / In Tenebris / Ham Hole (демо)",
+    "date": "2026-07-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2818211845.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2818211845.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2818211845.torrent",
+    "games": ["horrors-2026", "backrooms-found-footage", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2818211845.ass"
   }
 }
