@@ -21126,7 +21126,7 @@
   },
   {
     "name": "Replaced",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "replaced",
     "streams": [
       { "segment": "2695726320", "subrefs": [
@@ -21505,6 +21505,9 @@
       ] },
       { "segment": "2817362538", "subrefs": [
         { "name": "2", "start": 960 }
+      ] },
+      { "segment": "2818920239", "subrefs": [
+        { "name": "3", "start": 1194 }
       ] }
     ]
   },
