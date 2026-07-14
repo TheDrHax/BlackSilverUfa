@@ -19151,5 +19151,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2818920239.torrent",
     "games": ["ac-black-flag"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2818920239.ass"
+  },
+  "2819874424": {
+    "abs_start": 0, "abs_end": 9168, "duration": 9168,
+    "name": "Pratfall #5",
+    "date": "2026-07-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2819874424.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2819874424.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2819874424.torrent",
+    "games": ["pratfall"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2819874424.ass"
   }
 }
