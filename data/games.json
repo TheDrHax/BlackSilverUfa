@@ -9514,7 +9514,6 @@
         { "name": "Feed The Pit", "start": 15554 }
       ] },
       { "segment": "2813442393", "subrefs": [
-        { "name": "Burglin' Gnomes", "start": 5230 },
         { "name": "Don't Fall", "start": 9768 }
       ] },
       { "segment": "2814203775", "subrefs": [
@@ -9522,6 +9521,9 @@
       ] },
       { "segment": "2818211845", "subrefs": [
         { "name": "Transcendence in the Poolrooms", "start": 2931 }
+      ] },
+      { "segment": "2820530075", "subrefs": [
+        { "name": "Goblin Company", "start": 12663 }
       ] }
     ]
   },
@@ -10343,7 +10345,6 @@
         { "name": "Crococo", "start": 4253 }
       ] },
       { "segment": "2803484099", "subrefs": [
-        { "name": "A Game About Chopping Trees (демо)", "start": 2963 },
         { "name": "Come In", "start": 7215 },
         { "name": "Cozy Game Restoration (демо)", "start": 11229 }
       ] },
@@ -20532,6 +20533,9 @@
       ] },
       { "segment": "2813442393", "subrefs": [
         { "name": "7", "start": 15939 }
+      ] },
+      { "segment": "2820530075", "subrefs": [
+        { "name": "8", "start": 17963 }
       ] }
     ]
   },
@@ -21066,6 +21070,9 @@
       ] },
       { "segment": "2734704380", "subrefs": [
         { "name": "2", "start": 15176 }
+      ] },
+      { "segment": "2820530075", "subrefs": [
+        { "name": "3", "start": 8272 }
       ] }
     ]
   },
@@ -21524,6 +21531,32 @@
       ] },
       { "segment": "2818211845", "subrefs": [
         { "name": "2", "start": 1721 }
+      ] }
+    ]
+  },
+  {
+    "name": "A Game About Chopping Trees",
+    "category": "ongoing",
+    "id": "chopping-trees",
+    "streams": [
+      { "segment": "2803484099", "subrefs": [
+        { "name": "Демо", "start": 2963 }
+      ] },
+      { "segment": "2820530075", "subrefs": [
+        { "name": "Релиз", "start": 1182 }
+      ] }
+    ]
+  },
+  {
+    "name": "Burglin' Gnomes",
+    "category": "co-op",
+    "id": "burglin-gnomes",
+    "streams": [
+      { "segment": "2813442393", "subrefs": [
+        { "name": "1", "start": 5230 }
+      ] },
+      { "segment": "2820530075", "subrefs": [
+        { "name": "2", "start": 14106 }
       ] }
     ]
   }

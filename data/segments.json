@@ -18368,7 +18368,6 @@
     "youtube": "kBfeSRMUPi0", "abs_start": 0, "abs_end": 24282, "duration": 24282,
     "name": "Biohazard / Resident Evil 2 #1 (заново 2)",
     "date": "2026-03-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2718669408.torrent",
     "games": ["first-2026", "re2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2718669408+0.ass"
   },
@@ -19030,10 +19029,10 @@
   },
   "2803484099": {
     "youtube": "iugvz0xxHPk", "vk": "-28387068_456251187", "abs_start": 0, "abs_end": 14408, "duration": 14408,
-    "name": "Vholume (демо) / A Game About Chopping Trees (демо) / Come In / No Such Place (демо) / Cozy Game Restoration (демо)",
+    "name": "Vholume (демо) / A Game About Chopping Trees - Демо / Come In / No Such Place (демо) / Cozy Game Restoration (демо)",
     "date": "2026-06-23",
     "torrent": "https://bsufiles.drhx.ru/streams/2803484099.torrent",
-    "games": ["first-2026", "single-2026"],
+    "games": ["first-2026", "chopping-trees", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2803484099.ass"
   },
   "2804228445": {
@@ -19094,10 +19093,10 @@
   },
   "2813442393": {
     "youtube": "TedmfEWGllw", "vk": "-28387068_456251200", "abs_start": 0, "abs_end": 20950, "duration": 20950,
-    "name": "Idols of Ash #3 / Burglin' Gnomes / Don't Fall / Pratfall #1 (4D) / RV There Yet? #7",
+    "name": "Idols of Ash #3 / Burglin' Gnomes #1 / Don't Fall / Pratfall #1 (4D) / RV There Yet? #7",
     "date": "2026-07-06",
     "torrent": "https://bsufiles.drhx.ru/streams/2813442393.torrent",
-    "games": ["idols-of-ash", "first-2026", "pratfall", "rv-there-yet"],
+    "games": ["idols-of-ash", "burglin-gnomes", "first-2026", "pratfall", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2813442393.ass"
   },
   "2814203775": {
@@ -19157,5 +19156,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2819874424.torrent",
     "games": ["pratfall"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2819874424.ass"
+  },
+  "2820530075": {
+    "abs_start": 0, "abs_end": 22396, "duration": 22396,
+    "name": "A Game About Chopping Trees - Релиз / MIMESIS #3 / Goblin Company / Burglin' Gnomes #2 / RV There Yet? #8",
+    "date": "2026-07-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2820530075.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2820530075.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2820530075.torrent",
+    "games": ["chopping-trees", "mimesis", "first-2026", "burglin-gnomes", "rv-there-yet"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2820530075.ass"
   }
 }
