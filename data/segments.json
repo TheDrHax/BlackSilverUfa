@@ -18375,7 +18375,6 @@
     "youtube": "swSw4HFIJq8", "vk": "-28387068_456251095", "abs_start": 0, "abs_end": 19770, "duration": 19770,
     "name": "Resident Evil 2 #2 / Resident Evil 3: Nemesis #1 (заново)",
     "date": "2026-03-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2719508320.torrent",
     "games": ["re2", "re3-nemesis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2719508320.ass"
   },
@@ -19150,7 +19149,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2818920239.ass"
   },
   "2819874424": {
-    "youtube": "qpPTkN1Dp9Q", "abs_start": 0, "abs_end": 9250, "duration": 9250,
+    "youtube": "qpPTkN1Dp9Q", "vk": "-28387068_456251207", "abs_start": 0, "abs_end": 9250, "duration": 9250,
     "name": "Pratfall #5",
     "date": "2026-07-14",
     "torrent": "https://bsufiles.drhx.ru/streams/2819874424.torrent",
@@ -19158,13 +19157,23 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2819874424.ass"
   },
   "2820530075": {
-    "abs_start": 0, "abs_end": 22396, "duration": 22396,
-    "name": "A Game About Chopping Trees - Релиз / MIMESIS #3 / Goblin Company / Burglin' Gnomes #2 / RV There Yet? #8",
+    "vk": "-28387068_456251208", "abs_start": 0, "abs_end": 22396, "duration": 22396,
+    "name": "A Game About Chopping Trees #1 / MIMESIS #3 / Goblin Company / Burglin' Gnomes #2 / RV There Yet? #8",
     "date": "2026-07-15",
     "direct": "https://bsufiles.drhx.ru/streams/2820530075.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2820530075.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2820530075.torrent",
     "games": ["chopping-trees", "mimesis", "first-2026", "burglin-gnomes", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2820530075.ass"
+  },
+  "2821341807": {
+    "abs_start": 0, "abs_end": 24054, "duration": 24054,
+    "name": "A Game About Chopping Trees #2 / The Mound: Omen of Cthulhu / Pratfall #6",
+    "date": "2026-07-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2821341807.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2821341807.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2821341807.torrent",
+    "games": ["chopping-trees", "first-2026", "pratfall"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2821341807.ass"
   }
 }

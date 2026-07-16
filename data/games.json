@@ -9524,6 +9524,9 @@
       ] },
       { "segment": "2820530075", "subrefs": [
         { "name": "Goblin Company", "start": 12663 }
+      ] },
+      { "segment": "2821341807", "subrefs": [
+        { "name": "The Mound: Omen of Cthulhu", "start": 9381 }
       ] }
     ]
   },
@@ -21502,6 +21505,9 @@
       ] },
       { "segment": "2819874424", "subrefs": [
         { "name": "5", "start": 673 }
+      ] },
+      { "segment": "2821341807", "subrefs": [
+        { "name": "6", "start": 11988 }
       ] }
     ]
   },
@@ -21543,7 +21549,10 @@
         { "name": "Демо", "start": 2963 }
       ] },
       { "segment": "2820530075", "subrefs": [
-        { "name": "Релиз", "start": 1182 }
+        { "name": "1", "start": 1182 }
+      ] },
+      { "segment": "2821341807", "subrefs": [
+        { "name": "2", "start": 985 }
       ] }
     ]
   },
