@@ -472,9 +472,11 @@
     "games": ["ds3"]
   },
   "001605270": {
-    "youtube": "Cq2b_SpLElU", "official": false, "abs_start": 0, "abs_end": 15465, "duration": 15465,
+    "abs_start": 0, "abs_end": 15465, "duration": 15465,
     "name": "Dark Souls 3 #6",
     "date": "2016-05-27",
+    "direct": "https://bsufiles.drhx.ru/streams/001605270.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001605270.mp4/master.m3u8",
     "games": ["ds3"]
   },
   "001605310": {
@@ -12967,7 +12969,7 @@
     "note": "<a href=\"https://youtu.be/C9Z5gOaiMEw\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "1849426857": {
-    "youtube": "iXdMFYEMTos", "abs_start": 0, "abs_end": 19716, "duration": 19716,
+    "youtube": "_co8OHZgzGA", "official": false, "abs_start": 0, "abs_end": 19717, "duration": 19717,
     "name": "Night Security / Unholy - Демо / Lazarus / Incident at Grove Lake / The Event (демо) / Scholar's Mate - First Move",
     "date": "2023-06-18",
     "games": ["chillas-art", "unholy", "single-2023", "first-2023", "scholars-mate"],
@@ -17706,9 +17708,11 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2601825205.ass"
   },
   "2602597096": {
-    "youtube": "SOP8XQ0rL8A", "vk": "-28387068_456250966", "abs_start": 0, "abs_end": 29979, "duration": 29979,
+    "vk": "-28387068_456250966", "abs_start": 0, "abs_end": 29979, "duration": 29979,
     "name": "Baby Steps #5 / RV There Yet? #2",
     "date": "2025-10-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2602597096.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2602597096.mp4/master.m3u8",
     "games": ["baby-steps", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2602597096.ass"
   },
@@ -18382,7 +18386,6 @@
     "youtube": "nJmlsHlhUnw", "vk": "-28387068_456251096", "abs_start": 0, "abs_end": 24296, "duration": 24296,
     "name": "Resident Evil 3: Nemesis #2",
     "date": "2026-03-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2720312543.torrent",
     "games": ["re3-nemesis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2720312543.ass"
   },
