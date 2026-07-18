@@ -16665,10 +16665,10 @@
   },
   "2452604064,2452700284": {
     "youtube": "kygPLMMPRyI", "vk": "-28387068_456250757", "abs_start": 0, "abs_end": 18991, "duration": 18991,
-    "name": "Blue Prince #7 / Run Away From Me. Alexandra (демо) / BECROWNED (демо) / Creepy Support (демо)",
+    "name": "Blue Prince #7 / Run Away From Me. Alexandra (демо) / BECROWNED (демо) / Creepy Support - Демо",
     "date": "2025-05-07",
     "offsets": ["0:00", "2:47:36+2"],
-    "games": ["blue-prince", "single-2025", "first-2025"],
+    "games": ["blue-prince", "single-2025", "first-2025", "creepy-support"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2452604064,2452700284+0.ass"
   },
   "2453443091": {
@@ -18389,7 +18389,6 @@
     "youtube": "fzlHfjGoIjQ", "vk": "-28387068_456251097", "abs_start": 0, "abs_end": 22677, "duration": 22677,
     "name": "We Gotta Go / MIMESIS #1 / YAPYAP",
     "date": "2026-03-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2722074621.torrent",
     "games": ["co-op", "mimesis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2722074621.ass"
   },
@@ -19162,11 +19161,21 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2820530075.ass"
   },
   "2821341807": {
-    "youtube": "6Dz2nUmMEBg", "abs_start": 0, "abs_end": 24149, "duration": 24149,
+    "youtube": "6Dz2nUmMEBg", "vk": "-28387068_456251209", "abs_start": 0, "abs_end": 24149, "duration": 24149,
     "name": "A Game About Chopping Trees #2 / The Mound: Omen of Cthulhu / Pratfall #6",
     "date": "2026-07-16",
     "torrent": "https://bsufiles.drhx.ru/streams/2821341807.torrent",
     "games": ["chopping-trees", "first-2026", "pratfall"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2821341807.ass"
+  },
+  "2822945512": {
+    "abs_start": 0, "abs_end": 22421, "duration": 22421,
+    "name": "Don’t Sleep with the Fishes #6 / Dead Weight / Creepy Support - Релиз / Funnel Runners / FixForce / RV There Yet? #9",
+    "date": "2026-07-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2822945512.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2822945512.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2822945512.torrent",
+    "games": ["dswtf", "first-2026", "creepy-support", "rv-there-yet"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2822945512.ass"
   }
 }
