@@ -18396,7 +18396,6 @@
     "youtube": "oBZjWtIOw28", "vk": "-28387068_456251098", "abs_start": 0, "abs_end": 12816, "duration": 12816,
     "name": "Desperate Housewives: The Game (Отчаянные домохозяйки) #4",
     "date": "2026-03-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2722984514.torrent",
     "games": ["desperate-housewives"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2722984514.ass"
   },
@@ -19175,5 +19174,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2822945512.torrent",
     "games": ["dswtf", "first-2026", "creepy-support", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2822945512.ass"
+  },
+  "2823795462": {
+    "abs_start": 0, "abs_end": 18394, "duration": 18394,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #25 / ROBLOX - The Backrooms / The Additional Dimension / Let Me In (демо) / Penguin Lifter / Awakeness: YALDA Night",
+    "date": "2026-07-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2823795462.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2823795462.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2823795462.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2823795462+0.ass"
   }
 }
