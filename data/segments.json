@@ -18162,9 +18162,9 @@
   },
   "2686159557": {
     "youtube": "avv0Zok0Cg4", "vk": "-28387068_456251056", "abs_start": 0, "abs_end": 18007, "duration": 18007,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #5 / Yellow / Toilet 8 / Photomaly (демо) / Mole - Демо / My Neighbor Stinks / Silent Still 3 (демо)",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #5 / Yellow / Toilet 8 / Photomaly - Демо / Mole - Демо / My Neighbor Stinks / Silent Still 3 (демо)",
     "date": "2026-02-01",
-    "games": ["horrors-2026", "first-2026", "single-2026", "mole"],
+    "games": ["horrors-2026", "first-2026", "single-2026", "photomaly", "mole"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2686159557.ass"
   },
   "2688736409": {
@@ -18410,7 +18410,6 @@
     "youtube": "dW-ZUoOr_rM", "vk": "-28387068_456251100", "official": false, "abs_start": 0, "abs_end": 28309, "duration": 28309,
     "name": "Crimson Desert #1",
     "date": "2026-03-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2727036170.torrent",
     "games": ["crimson-desert"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2727036170.ass"
   },
@@ -19189,5 +19188,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2824550708.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2824550708.ass"
+  },
+  "2825347238": {
+    "abs_start": 0, "abs_end": 17403, "duration": 17403,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #27 / Photomaly - Прохождение / At Night: Freakshow",
+    "date": "2026-07-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2825347238.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2825347238.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2825347238.torrent",
+    "games": ["horrors-2026", "photomaly", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2825347238.ass"
   }
 }

@@ -10258,7 +10258,6 @@
       ] },
       { "segment": "2686159557", "subrefs": [
         { "name": "Toilet 8", "start": 3796 },
-        { "name": "Photomaly (демо)", "start": 6395 },
         { "name": "My Neighbor Stinks", "start": 12813 },
         { "name": "Silent Still 3 (демо)", "start": 16668 }
       ] },
@@ -10392,6 +10391,9 @@
         { "name": "Stories to Tell: Greyville Stay", "start": 12715 },
         { "name": "Stories to Tell: The Stoneville Incident (продолжение)", "start": 13999, "hidden": true },
         { "name": "Last Kid on the Bus", "start": 15471 }
+      ] },
+      { "segment": "2825347238", "subrefs": [
+        { "name": "At Night: Freakshow", "start": 10751 }
       ] }
     ]
   },
@@ -18562,6 +18564,9 @@
       ] },
       { "segment": "2824550708", "subrefs": [
         { "name": "26" }
+      ] },
+      { "segment": "2825347238", "subrefs": [
+        { "name": "27" }
       ] }
     ]
   },
@@ -21614,6 +21619,19 @@
       ] },
       { "segment": "2822945512", "subrefs": [
         { "name": "Релиз", "start": 5357 }
+      ] }
+    ]
+  },
+  {
+    "name": "Photomaly",
+    "category": "finished",
+    "id": "photomaly",
+    "streams": [
+      { "segment": "2686159557", "subrefs": [
+        { "name": "Демо", "start": 6395 }
+      ] },
+      { "segment": "2825347238", "subrefs": [
+        { "name": "Прохождение", "start": 2328 }
       ] }
     ]
   }
