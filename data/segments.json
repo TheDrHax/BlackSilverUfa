@@ -8578,12 +8578,19 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v992035730.ass"
   },
   "995413784": {
+    "youtube": "UTmcGHl6qGA", "abs_start": -22, "abs_end": 17099, "duration": 17121,
+    "name": "Зайчик (Tiny Bunny) - Эпизод 2",
+    "date": "2021-04-21",
+    "games": ["tiny-bunny"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v995413784.ass"
+  },
+  "995413784.1": {
     "abs_start": 0, "abs_end": 26402, "duration": 26402,
-    "name": "Зайчик (Tiny Bunny) - Эпизод 2 / Enlisted #3",
+    "name": "Enlisted #3",
     "date": "2021-04-21",
     "direct": "https://bsufiles.drhx.ru/streams/995413784.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/995413784.mp4/master.m3u8",
-    "games": ["tiny-bunny", "enlisted"],
+    "games": ["enlisted"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v995413784.ass"
   },
   "996609423": {
