@@ -9539,6 +9539,10 @@
       ] },
       { "segment": "2824550708", "subrefs": [
         { "name": "When Will I Get Home?", "start": 1954 }
+      ] },
+      { "segment": "2826169085", "subrefs": [
+        { "name": "Cloudrooms", "start": 1236 },
+        { "name": "Too Well Hidden", "start": 7567 }
       ] }
     ]
   },
@@ -10304,7 +10308,6 @@
       ] },
       { "segment": "2739703294", "subrefs": [
         { "name": "Staged: Open House (демо)", "start": 5141 },
-        { "name": "Mold Rise", "start": 7822 },
         { "name": "I Hear Them", "start": 9121 },
         { "name": "Knock", "start": 15036 },
         { "name": "Rippers Lair", "start": 17733 }
@@ -10394,6 +10397,9 @@
       ] },
       { "segment": "2825347238", "subrefs": [
         { "name": "At Night: Freakshow", "start": 10751 }
+      ] },
+      { "segment": "2826169085", "subrefs": [
+        { "name": "Tales From the Other Side: Beneath the Roots", "start": 3171 }
       ] }
     ]
   },
@@ -18567,6 +18573,9 @@
       ] },
       { "segment": "2825347238", "subrefs": [
         { "name": "27" }
+      ] },
+      { "segment": "2826169085", "subrefs": [
+        { "name": "28" }
       ] }
     ]
   },
@@ -21632,6 +21641,19 @@
       ] },
       { "segment": "2825347238", "subrefs": [
         { "name": "Прохождение", "start": 2328 }
+      ] }
+    ]
+  },
+  {
+    "name": "Moldrise",
+    "category": "ongoing",
+    "id": "moldrise",
+    "streams": [
+      { "segment": "2739703294", "subrefs": [
+        { "name": "Демо", "start": 7822 }
+      ] },
+      { "segment": "2826169085", "subrefs": [
+        { "name": "Релиз", "start": 8345 }
       ] }
     ]
   }

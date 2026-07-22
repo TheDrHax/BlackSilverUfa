@@ -18523,10 +18523,10 @@
   },
   "2739703294": {
     "youtube": "P63fJAMU4tQ", "vk": "-28387068_456251113", "abs_start": 0, "abs_end": 19857, "duration": 19857,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #12 / BACK*SPACE - Демо / Staged: Open House (демо) / Mold Rise / I Hear Them / Who Are You!? - Релиз / Knock / Rippers Lair",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #12 / BACK*SPACE - Демо / Staged: Open House (демо) / Moldrise - Демо / I Hear Them / Who Are You!? - Релиз / Knock / Rippers Lair",
     "date": "2026-04-04",
     "torrent": "https://bsufiles.drhx.ru/streams/2739703294.torrent",
-    "games": ["horrors-2026", "back-space", "single-2026", "who-are-you"],
+    "games": ["horrors-2026", "back-space", "single-2026", "moldrise", "who-are-you"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2739703294.ass"
   },
   "2740582496": {
@@ -19203,5 +19203,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2825347238.torrent",
     "games": ["horrors-2026", "photomaly", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2825347238.ass"
+  },
+  "2826169085": {
+    "abs_start": 0, "abs_end": 12715, "duration": 12715,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #28 / Cloudrooms / Tales From the Other Side: Beneath the Roots / Too Well Hidden / Moldrise - Релиз",
+    "date": "2026-07-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2826169085.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2826169085.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2826169085.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026", "moldrise"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2826169085.ass"
   }
 }
