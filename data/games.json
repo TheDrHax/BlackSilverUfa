@@ -10055,8 +10055,7 @@
       ] },
       { "segment": "2511344577", "subrefs": [
         { "name": "Dread Flats", "start": 4303 },
-        { "name": "Gordy", "start": 11412 },
-        { "name": "Shift at Midnight (демо)", "start": 16721 }
+        { "name": "Gordy", "start": 11412 }
       ] },
       { "segment": "2523773918", "subrefs": [
         { "name": "Analog: Skin off", "start": 3299 },
@@ -10400,6 +10399,9 @@
       ] },
       { "segment": "2826169085", "subrefs": [
         { "name": "Tales From the Other Side: Beneath the Roots", "start": 3171 }
+      ] },
+      { "segment": "2826990964", "subrefs": [
+        { "name": "Nullhome (демо)", "start": 1931 }
       ] }
     ]
   },
@@ -18576,6 +18578,9 @@
       ] },
       { "segment": "2826169085", "subrefs": [
         { "name": "28" }
+      ] },
+      { "segment": "2826990964", "subrefs": [
+        { "name": "29" }
       ] }
     ]
   },
@@ -21646,14 +21651,30 @@
   },
   {
     "name": "Moldrise",
-    "category": "ongoing",
+    "category": "finished",
     "id": "moldrise",
     "streams": [
       { "segment": "2739703294", "subrefs": [
         { "name": "Демо", "start": 7822 }
       ] },
       { "segment": "2826169085", "subrefs": [
-        { "name": "Релиз", "start": 8345 }
+        { "name": "1", "start": 8345 }
+      ] },
+      { "segment": "2826990964", "subrefs": [
+        { "name": "2", "start": 2828 }
+      ] }
+    ]
+  },
+  {
+    "name": "Shift at Midnight",
+    "category": "ongoing",
+    "id": "shift-at-midnight",
+    "streams": [
+      { "segment": "2511344577", "subrefs": [
+        { "name": "Демо", "start": 16721 }
+      ] },
+      { "segment": "2826990964", "subrefs": [
+        { "name": "С Дашей", "start": 7441 }
       ] }
     ]
   }

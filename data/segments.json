@@ -17106,9 +17106,9 @@
   },
   "2511344577": {
     "youtube": "XA1DQFvcWHM", "vk": "-28387068_456250832", "abs_start": 0, "abs_end": 19295, "duration": 19295,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #30 / Paradise Nowhere (демо) / The Green Light (демо) / Dread Flats / Gordy / Shift at Midnight (демо)",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #30 / Paradise Nowhere (демо) / The Green Light (демо) / Dread Flats / Gordy / Shift at Midnight - Демо",
     "date": "2025-07-13",
-    "games": ["horrors-2025", "first-2025", "single-2025"],
+    "games": ["horrors-2025", "first-2025", "single-2025", "shift-at-midnight"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2511344577.ass"
   },
   "2513036056": {
@@ -18424,7 +18424,6 @@
     "youtube": "0sBxBbPEb20", "vk": "-28387068_456251101", "abs_start": 0, "abs_end": 25744, "duration": 25744,
     "name": "Crimson Desert #2",
     "date": "2026-03-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2727942061.torrent",
     "games": ["crimson-desert"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2727942061.ass"
   },
@@ -19207,10 +19206,20 @@
   },
   "2826169085": {
     "youtube": "NM8emrctD4I", "vk": "-28387068_456251216", "abs_start": 0, "abs_end": 12810, "duration": 12810,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #28 / Cloudrooms / Tales From the Other Side: Beneath the Roots / Too Well Hidden / Moldrise - Релиз",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #28 / Cloudrooms / Tales From the Other Side: Beneath the Roots / Too Well Hidden / Moldrise #1",
     "date": "2026-07-22",
     "torrent": "https://bsufiles.drhx.ru/streams/2826169085.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026", "moldrise"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2826169085.ass"
+  },
+  "2826990964": {
+    "abs_start": 0, "abs_end": 18745, "duration": 18745,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #29 / Nullhome (демо) / Moldrise #2 / Shift at Midnight - С Дашей",
+    "date": "2026-07-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2826990964.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2826990964.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2826990964.torrent",
+    "games": ["horrors-2026", "single-2026", "moldrise", "shift-at-midnight"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2826990964.ass"
   }
 }
