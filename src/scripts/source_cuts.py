@@ -23,9 +23,9 @@ def detect_disconnect_protection(
         end: Union[float, None] = None) -> List[float]:
     ffcmd = ['ffprobe',
              '-v', 'error',
-             '-skip_frame', 'nokey',
+            #  '-skip_frame', 'nokey',
              '-select_streams', 'v:0',
-             '-show_entries', 'frame=pts_time',
+             '-show_entries', 'packet=pts_time,duration',
              '-of', 'csv']
 
     if None not in [start, end]:
@@ -58,15 +58,18 @@ def detect_disconnect_protection(
     for line in ffproc.stdout:
         line = line.decode()
 
-        if not line.startswith('frame,'):
-            continue
+        # if not line.startswith('frame,'):
+        #     continue
 
-        if not line.endswith(',\n'):  # no side data
-            continue
+        # if not line.endswith(',\n'):  # no side data
+        #     continue
 
         parts = line.strip().split(',')
         ts = float(parts[1])
-        ranges.append(ts)
+        duration = float(parts[2])
+
+        if duration > 500000:
+            ranges.append(ts)
         # print(f'Start: {ts}', file=sys.stderr)
 
     ffproc.terminate()
@@ -108,12 +111,16 @@ def get_source_cuts(videos: List[str], log: str) -> Timecodes:
     ranges = Timecodes()
 
     for start, end, diff in parse_log_timings(log):
+        print(f'Looking for cut in {T+int(start)}~{T+int(end)} '
+              f'(~{int(diff)} seconds)',
+              file=sys.stderr)
         dp = detect_disconnect_protection(videos, start, end)
 
         if len(dp) == 0:
             print(f'WARN: Cut must be in {T+int(start)}~{T+int(end)}, but '
                    'disconnect protection screen can not be found. '
-                  f'Lost {diff}s')
+                  f'Lost {diff}s',
+                  file=sys.stderr)
 
         for s in dp:
             t = T + floor(s)
