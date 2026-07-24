@@ -8578,19 +8578,10 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v992035730.ass"
   },
   "995413784": {
-    "youtube": "UTmcGHl6qGA", "abs_start": -22, "abs_end": 17099, "duration": 17121,
-    "name": "Зайчик (Tiny Bunny) - Эпизод 2",
+    "youtube": "JmOSv7LJXPo", "official": false, "abs_start": 0, "abs_end": 26402, "duration": 26402,
+    "name": "Зайчик (Tiny Bunny) - Эпизод 2 / Enlisted #3",
     "date": "2021-04-21",
-    "games": ["tiny-bunny"],
-    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v995413784.ass"
-  },
-  "995413784.1": {
-    "abs_start": 0, "abs_end": 26402, "duration": 26402,
-    "name": "Enlisted #3",
-    "date": "2021-04-21",
-    "direct": "https://bsufiles.drhx.ru/streams/995413784.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/995413784.mp4/master.m3u8",
-    "games": ["enlisted"],
+    "games": ["tiny-bunny", "enlisted"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2021/master/v995413784.ass"
   },
   "996609423": {
@@ -19213,7 +19204,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2826169085.ass"
   },
   "2826990964": {
-    "abs_start": 0, "abs_end": 18745, "duration": 18745,
+    "vk": "-28387068_456251217", "abs_start": 0, "abs_end": 18745, "duration": 18745,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #29 / Nullhome (демо) / Moldrise #2 / Shift at Midnight - С Дашей",
     "date": "2026-07-23",
     "direct": "https://bsufiles.drhx.ru/streams/2826990964.mp4",
