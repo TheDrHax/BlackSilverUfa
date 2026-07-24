@@ -9543,6 +9543,9 @@
       { "segment": "2826169085", "subrefs": [
         { "name": "Cloudrooms", "start": 1236 },
         { "name": "Too Well Hidden", "start": 7567 }
+      ] },
+      { "segment": "2827738928", "subrefs": [
+        { "name": "Halo: Campaign Evolved", "start": 1074 }
       ] }
     ]
   },
@@ -21674,7 +21677,10 @@
         { "name": "Демо", "start": 16721 }
       ] },
       { "segment": "2826990964", "subrefs": [
-        { "name": "С Дашей", "start": 7441 }
+        { "name": "1 (с Дашей)", "start": 7441 }
+      ] },
+      { "segment": "2827738928", "subrefs": [
+        { "name": "2", "start": 22556 }
       ] }
     ]
   }

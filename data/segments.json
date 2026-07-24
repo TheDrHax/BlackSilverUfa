@@ -18422,7 +18422,6 @@
     "youtube": "yO-aZAI4CA4", "vk": "-28387068_456251102", "abs_start": 0, "abs_end": 17088, "duration": 17088,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #10 / Underjoy (демо) / Out Fishing (демо) / They See You / Tiny Chills: Not From Ear (демо)",
     "date": "2026-03-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2728896412.torrent",
     "games": ["horrors-2026", "single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2728896412.ass"
   },
@@ -19205,10 +19204,20 @@
   },
   "2826990964": {
     "youtube": "xghZ6EkKK88", "vk": "-28387068_456251217", "abs_start": 0, "abs_end": 18717, "duration": 18717,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #29 / Nullhome (демо) / Moldrise #2 / Shift at Midnight - С Дашей",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #29 / Nullhome (демо) / Moldrise #2 / Shift at Midnight #1 (с Дашей)",
     "date": "2026-07-23",
     "torrent": "https://bsufiles.drhx.ru/streams/2826990964.torrent",
     "games": ["horrors-2026", "single-2026", "moldrise", "shift-at-midnight"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2826990964+0.ass"
+  },
+  "2827738928": {
+    "abs_start": 0, "abs_end": 32393, "duration": 32393,
+    "name": "Halo: Campaign Evolved / Shift at Midnight #2",
+    "date": "2026-07-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2827738928.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2827738928.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2827738928.torrent",
+    "games": ["first-2026", "shift-at-midnight"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2827738928.ass"
   }
 }
