@@ -14163,9 +14163,9 @@
   },
   "2052963702": {
     "youtube": "MfDZJdrBU3E", "abs_start": 0, "abs_end": 20480, "duration": 20480,
-    "name": "Anji Implication / Project 13 / Lamp Post / SCP: Contamination (демо) / The Backrooms: Lost Tape / Nip For Speed / 5 Nights at Grek's Hotel / 5 Nights at Shrek's Hotel / Subdread / Jack In The Box / Harold Halibut / Mouthwashing - Демо",
+    "name": "Anji Implication / Project 13 / Lamp Post / SCP: Contamination (демо) / The Backrooms: Lost Tape - Демо / Nip For Speed / 5 Nights at Grek's Hotel / 5 Nights at Shrek's Hotel / Subdread / Jack In The Box / Harold Halibut / Mouthwashing - Демо",
     "date": "2024-02-04",
-    "games": ["single-2024", "first-2024", "mouthwashing"],
+    "games": ["single-2024", "backrooms-lost-tape", "first-2024", "mouthwashing"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2024/master/v2052963702.ass"
   },
   "2053929102": {
@@ -18472,7 +18472,6 @@
     "youtube": "xeizuxs6Zn0", "vk": "-28387068_456251109", "abs_start": 0, "abs_end": 20895, "duration": 20895,
     "name": "Species: Unknown / MIMESIS #2",
     "date": "2026-03-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2734704380.torrent",
     "games": ["first-2026", "mimesis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2734704380.ass"
   },
@@ -19247,5 +19246,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2831873376.torrent",
     "games": ["first-2026", "funnel-runners", "co-op", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2831873376.ass"
+  },
+  "2832718311": {
+    "abs_start": 0, "abs_end": 19249, "duration": 19249,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #32 / The Backrooms: Lost Tape - Прохождение / Prospice (демо) / Night Plane (демо) / Switch the Darkness / I'm on Observation Duty - Часть 8 #5",
+    "date": "2026-07-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2832718311.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2832718311.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2832718311.torrent",
+    "games": ["horrors-2026", "backrooms-lost-tape", "first-2026", "single-2026", "observation-duty"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2832718311.ass"
   }
 }
