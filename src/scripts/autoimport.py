@@ -76,7 +76,7 @@ def create_game(name, id, category='other', type=None) -> Game:
 def find_intro(vod: str) -> Union[Timecode, None]:
     clip_vod = Clip(os.path.join(fallback.directory, f'{vod}.mp4'))
     clip_intro = Clip(os.path.join('sounds', 'intro.wav'))
-    offset, score = find_offset(clip_intro, clip_vod, end=600, min_score=10, ar=500)
+    offset, score = find_offset(clip_intro, clip_vod, end=900, min_score=10, ar=1000)
 
     if score > 0:
         return Timecode(round(offset - 2), name='Интро')
