@@ -18486,7 +18486,6 @@
     "youtube": "dh2P7ukkjuU", "abs_start": 0, "abs_end": 20087, "duration": 20087,
     "name": "Subliminal - Релиз / The Mortuary Assistant #12 / Lucky Tower Ultimate #24",
     "date": "2026-04-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2737131562.torrent",
     "games": ["subliminal", "mortuary-assistant", "lucky-tower"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2737131562.ass"
   },
@@ -19271,5 +19270,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2834475019.torrent",
     "games": ["horrors-2026", "i-hear-them", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2834475019.ass"
+  },
+  "2835275414": {
+    "abs_start": 0, "abs_end": 20267, "duration": 20267,
+    "name": "Даша Васильева. Личное дело Женщины-кошки / Storebound",
+    "date": "2026-08-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2835275414.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2835275414.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2835275414.torrent",
+    "games": ["first-2026", "co-op"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2835275414.ass"
   }
 }
