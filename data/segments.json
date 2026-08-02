@@ -18500,11 +18500,11 @@
   },
   "2739703294": {
     "youtube": "P63fJAMU4tQ", "vk": "-28387068_456251113", "abs_start": 0, "abs_end": 19702, "duration": 19857,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #12 / BACK*SPACE - Демо / Staged: Open House (демо) / Moldrise - Демо / I Hear Them / Who Are You!? - Релиз / Knock / Rippers Lair",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #12 / BACK*SPACE - Демо / Staged: Open House (демо) / Moldrise - Демо / I Hear Them - Демо / Who Are You!? - Релиз / Knock / Rippers Lair",
     "date": "2026-04-04",
     "cuts": [[1230, 1203], [1530, 1434], [1795, 1775], [2397, 2385]],
     "torrent": "https://bsufiles.drhx.ru/streams/2739703294.torrent",
-    "games": ["horrors-2026", "back-space", "single-2026", "moldrise", "who-are-you"],
+    "games": ["horrors-2026", "back-space", "single-2026", "moldrise", "i-hear-them", "who-are-you"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2739703294+0.ass"
   },
   "2740582496": {
@@ -19256,20 +19256,20 @@
   },
   "2834410477": {
     "abs_start": 0, "abs_end": 3359, "duration": 3359,
-    "name": "",
+    "name": "Выбор наказания (01.08.26)",
     "date": "2026-08-01",
     "direct": "https://bsufiles.drhx.ru/streams/2834410477.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2834410477.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2834410477.torrent",
-    "games": [],
+    "games": ["other"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2834410477.ass"
   },
   "2834475019": {
     "youtube": "vA_UJ5tpGic", "vk": "-28387068_456251228", "abs_start": 0, "abs_end": 13134, "duration": 13134,
-    "name": "Не оформлено - I Hear Them | Mermade | Ashes of the Sun",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #33 / I Hear Them - Прохождение / Mermade / Ashes of the Sun",
     "date": "2026-08-01",
     "torrent": "https://bsufiles.drhx.ru/streams/2834475019.torrent",
-    "games": ["todo"],
+    "games": ["horrors-2026", "i-hear-them", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2834475019.ass"
   }
 }

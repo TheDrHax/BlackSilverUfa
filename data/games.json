@@ -6682,6 +6682,9 @@
       ] },
       { "segment": "2793259082", "subrefs": [
         { "name": "Обзор конференций (лето 2026)" }
+      ] },
+      { "segment": "2834410477", "subrefs": [
+        { "name": "Выбор наказания (01.08.26)", "start": 1092 }
       ] }
     ]
   },
@@ -10319,7 +10322,6 @@
       ] },
       { "segment": "2739703294", "subrefs": [
         { "name": "Staged: Open House (демо)", "start": 5141 },
-        { "name": "I Hear Them", "start": 9121 },
         { "name": "Knock", "start": 15036 },
         { "name": "Rippers Lair", "start": 17733 }
       ] },
@@ -10425,6 +10427,10 @@
       ] },
       { "segment": "2832718311", "subrefs": [
         { "name": "Night Plane (демо)", "start": 12792 }
+      ] },
+      { "segment": "2834475019", "subrefs": [
+        { "name": "Mermade", "start": 8358 },
+        { "name": "Ashes of the Sun", "start": 9477 }
       ] }
     ]
   },
@@ -18617,6 +18623,9 @@
       ] },
       { "segment": "2832718311", "subrefs": [
         { "name": "32" }
+      ] },
+      { "segment": "2834475019", "subrefs": [
+        { "name": "33" }
       ] }
     ]
   },
@@ -21776,14 +21785,15 @@
     ]
   },
   {
-    "name": "Не оформлено",
-    "category": "other",
-    "id": "todo",
+    "name": "I Hear Them",
+    "category": "finished",
+    "id": "i-hear-them",
     "streams": [
+      { "segment": "2739703294", "subrefs": [
+        { "name": "Демо", "start": 9121 }
+      ] },
       { "segment": "2834475019", "subrefs": [
-        { "name": "I Hear Them", "start": 741 },
-        { "name": "Mermade", "start": 8348 },
-        { "name": "Ashes of the Sun", "start": 9475 }
+        { "name": "Прохождение", "start": 847 }
       ] }
     ]
   }
