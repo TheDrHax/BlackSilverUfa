@@ -18195,9 +18195,9 @@
   },
   "2692371042": {
     "youtube": "5GHlwoM52xk", "abs_start": 0, "abs_end": 20057, "duration": 20057,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #6 / The Shattered Mind of Lucas Hayes (демо) / The Milgram Experiment (демо) / Uncanny Tales: The Watcher (демо) / The Strange Lights / Crabmeat (демо) / Perceptum (демо) / Escape From Yandere / Floor 13 / Unusual Tales: Deep Below",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #6 / The Shattered Mind of Lucas Hayes (демо) / The Milgram Experiment (демо) / Uncanny Tales: The Watcher - Демо / The Strange Lights / Crabmeat (демо) / Perceptum (демо) / Escape From Yandere / Floor 13 / Unusual Tales: Deep Below",
     "date": "2026-02-08",
-    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "games": ["horrors-2026", "first-2026", "uncanny-tales-tw", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2692371042.ass"
   },
   "2695726320": {
@@ -18493,7 +18493,6 @@
     "youtube": "n39jJKNMK8s", "abs_start": 0, "abs_end": 21838, "duration": 21838,
     "name": "Resident Evil Code: Veronica #3",
     "date": "2026-04-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2737932822.torrent",
     "games": ["re-veronica"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2737932822.ass"
   },
@@ -19278,5 +19277,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2835275414.torrent",
     "games": ["first-2026", "co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2835275414.ass"
+  },
+  "2837836383": {
+    "abs_start": 0, "abs_end": 22799, "duration": 22799,
+    "name": "Beast of Reincarnation / Uncanny Tales: The Watcher - Прохождение",
+    "date": "2026-08-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2837836383.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2837836383.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2837836383.torrent",
+    "games": ["first-2026", "uncanny-tales-tw"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2837836383.ass"
   }
 }

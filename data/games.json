@@ -9564,6 +9564,9 @@
       ] },
       { "segment": "2835275414", "subrefs": [
         { "name": "Даша Васильева. Личное дело Женщины-кошки", "start": 1136 }
+      ] },
+      { "segment": "2837836383", "subrefs": [
+        { "name": "Beast of Reincarnation", "start": 1827 }
       ] }
     ]
   },
@@ -10290,7 +10293,6 @@
         { "name": "One Last Clip", "start": 12297 }
       ] },
       { "segment": "2692371042", "subrefs": [
-        { "name": "Uncanny Tales: The Watcher (демо)", "start": 3239 },
         { "name": "The Strange Lights", "start": 6676 },
         { "name": "Crabmeat (демо)", "start": 9066 },
         { "name": "Perceptum (демо)", "start": 11855 },
@@ -21800,6 +21802,19 @@
       ] },
       { "segment": "2834475019", "subrefs": [
         { "name": "Прохождение", "start": 847 }
+      ] }
+    ]
+  },
+  {
+    "name": "Uncanny Tales: The Watcher",
+    "category": "finished",
+    "id": "uncanny-tales-tw",
+    "streams": [
+      { "segment": "2692371042", "subrefs": [
+        { "name": "Демо", "start": 3239 }
+      ] },
+      { "segment": "2837836383", "subrefs": [
+        { "name": "Прохождение", "start": 11251 }
       ] }
     ]
   }
