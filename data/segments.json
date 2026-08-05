@@ -2216,9 +2216,10 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v257985661.ass"
   },
   "259446831": {
-    "youtube": "g-G9bqx5fV4", "official": false, "abs_start": -4, "abs_end": 16356, "duration": 16360,
+    "abs_start": -4, "abs_end": 16356, "duration": 16360,
     "name": "Conan Exiles",
     "date": "2018-05-09",
+    "direct": "https://bsufiles.drhx.ru/streams/259446831.mp4",
     "games": ["co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2018/master/v259446831.ass",
     "note": "<a href=\"https://youtu.be/L8nR3beOFBs\">Официальную запись</a> невозможно использовать на этом сайте из-за возрастных ограничений"
@@ -12963,9 +12964,11 @@
     "note": "<a href=\"https://youtu.be/C9Z5gOaiMEw\">Официальная запись</a> сломана (недоступно качество выше 360p)"
   },
   "1849426857": {
-    "youtube": "_co8OHZgzGA", "official": false, "abs_start": 0, "abs_end": 19717, "duration": 19717,
+    "abs_start": 0, "abs_end": 19716, "duration": 19716,
     "name": "Night Security / Unholy - Демо / Lazarus / Incident at Grove Lake / The Event (демо) / Scholar's Mate - First Move",
     "date": "2023-06-18",
+    "direct": "https://bsufiles.drhx.ru/streams/1849426857.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/1849426857.mp4/master.m3u8",
     "games": ["chillas-art", "unholy", "single-2023", "first-2023", "scholars-mate"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1849426857.ass"
   },
