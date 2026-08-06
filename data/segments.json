@@ -13599,9 +13599,9 @@
   },
   "1950762078": {
     "youtube": "s9G9w7_mU90", "abs_start": 0, "abs_end": 17769, "duration": 17769,
-    "name": "ELDRIMAR (демо) / Gennady (демо) / The Talos Principle II (демо) / Жил-Ячейка (Living Cell) - Демо / The Thaumaturge (демо) / Forgive Me Father 2 (демо) / Enshrouded - Демо (соло) / The Enjenir (демо) / Crime Scene Cleaner #2",
+    "name": "ELDRIMAR (демо) / Gennady - Демо / The Talos Principle II (демо) / Жил-Ячейка (Living Cell) - Демо / The Thaumaturge (демо) / Forgive Me Father 2 (демо) / Enshrouded - Демо (соло) / The Enjenir (демо) / Crime Scene Cleaner #2",
     "date": "2023-10-14",
-    "games": ["single-2023", "first-2023", "living-cell", "enshrouded", "csc"],
+    "games": ["single-2023", "gennady", "first-2023", "living-cell", "enshrouded", "csc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2023/master/v1950762078.ass"
   },
   "1951658427": {
@@ -18504,7 +18504,6 @@
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #12 / BACK*SPACE - Демо / Staged: Open House (демо) / Moldrise - Демо / I Hear Them - Демо / Who Are You!? - Релиз / Knock / Rippers Lair",
     "date": "2026-04-04",
     "cuts": [[1230, 1203], [1530, 1434], [1795, 1775], [2397, 2385]],
-    "torrent": "https://bsufiles.drhx.ru/streams/2739703294.torrent",
     "games": ["horrors-2026", "back-space", "single-2026", "moldrise", "i-hear-them", "who-are-you"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2739703294+0.ass"
   },
@@ -19281,10 +19280,20 @@
   },
   "2837836383": {
     "youtube": "jhqzt7Sm3MM", "vk": "-28387068_456251232", "abs_start": 0, "abs_end": 22800, "duration": 22800,
-    "name": "Beast of Reincarnation / Uncanny Tales: The Watcher - Прохождение",
+    "name": "Beast of Reincarnation / Uncanny Tales: The Watcher #1",
     "date": "2026-08-05",
     "torrent": "https://bsufiles.drhx.ru/streams/2837836383.torrent",
     "games": ["first-2026", "uncanny-tales-tw"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2837836383.ass"
+  },
+  "2838748968": {
+    "abs_start": 0, "abs_end": 19090, "duration": 19090,
+    "name": "Uncanny Tales: The Watcher #2 (все ачивки) / Gennady - Релиз / Echo Zero / Machine Party (кооп) / Big Walk / RV There Yet? #11",
+    "date": "2026-08-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2838748968.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2838748968.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2838748968.torrent",
+    "games": ["uncanny-tales-tw", "gennady", "first-2026", "klubnika", "co-op", "rv-there-yet"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2838748968.ass"
   }
 }

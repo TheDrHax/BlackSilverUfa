@@ -841,6 +841,9 @@
       ] },
       { "segment": "2835275414", "subrefs": [
         { "name": "Storebound", "start": 8446 }
+      ] },
+      { "segment": "2838748968", "subrefs": [
+        { "name": "Big Walk", "start": 11261 }
       ] }
     ]
   },
@@ -7910,6 +7913,9 @@
       ] },
       { "segment": "2542477703", "subrefs": [
         { "name": "Crank it!", "start": 15144 }
+      ] },
+      { "segment": "2838748968", "subrefs": [
+        { "name": "Machine Party (кооп)", "start": 6192 }
       ] }
     ]
   },
@@ -8457,7 +8463,6 @@
         { "name": "Chiyo (демо)", "start": 16717 }
       ] },
       { "segment": "1950762078", "subrefs": [
-        { "name": "Gennady (демо)", "start": 5680 },
         { "name": "The Talos Principle II (демо)", "start": 5992 },
         { "name": "The Thaumaturge (демо)", "start": 9440 },
         { "name": "The Enjenir (демо)", "start": 14934 }
@@ -9567,6 +9572,9 @@
       ] },
       { "segment": "2837836383", "subrefs": [
         { "name": "Beast of Reincarnation", "start": 1827 }
+      ] },
+      { "segment": "2838748968", "subrefs": [
+        { "name": "Echo Zero", "start": 3991 }
       ] }
     ]
   },
@@ -20646,6 +20654,9 @@
       ] },
       { "segment": "2831873376", "subrefs": [
         { "name": "10", "start": 15978 }
+      ] },
+      { "segment": "2838748968", "subrefs": [
+        { "name": "11", "start": 13664 }
       ] }
     ]
   },
@@ -21814,7 +21825,23 @@
         { "name": "Демо", "start": 3239 }
       ] },
       { "segment": "2837836383", "subrefs": [
-        { "name": "Прохождение", "start": 11251 }
+        { "name": "1", "start": 11251 }
+      ] },
+      { "segment": "2838748968", "subrefs": [
+        { "name": "2 (все ачивки)", "start": 862 }
+      ] }
+    ]
+  },
+  {
+    "name": "Gennady",
+    "category": "ongoing",
+    "id": "gennady",
+    "streams": [
+      { "segment": "1950762078", "subrefs": [
+        { "name": "Демо", "start": 5680 }
+      ] },
+      { "segment": "2838748968", "subrefs": [
+        { "name": "Релиз", "start": 1952 }
       ] }
     ]
   }
