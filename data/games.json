@@ -9575,6 +9575,9 @@
       ] },
       { "segment": "2838748968", "subrefs": [
         { "name": "Echo Zero", "start": 3991 }
+      ] },
+      { "segment": "2839644239,2839724229", "subrefs": [
+        { "name": "Kindawn: The Parish Remembers", "start": 8553 }
       ] }
     ]
   },
@@ -10272,7 +10275,6 @@
       { "segment": "2667145812", "subrefs": [
         { "name": "Nightbell", "start": 3626 },
         { "name": "Terpenie", "start": 7204 },
-        { "name": "Lurking", "start": 11682 },
         { "name": "The Unplace", "start": 13040 }
       ] },
       { "segment": "2673385986", "subrefs": [
@@ -10447,6 +10449,10 @@
       { "segment": "2834475019", "subrefs": [
         { "name": "Mermade", "start": 8358 },
         { "name": "Ashes of the Sun", "start": 9477 }
+      ] },
+      { "segment": "2839644239,2839724229", "subrefs": [
+        { "name": "The Backrooms: Incident 1997", "start": 2979 },
+        { "name": "Manny's", "start": 11612 }
       ] }
     ]
   },
@@ -18642,6 +18648,9 @@
       ] },
       { "segment": "2834475019", "subrefs": [
         { "name": "33" }
+      ] },
+      { "segment": "2839644239,2839724229", "subrefs": [
+        { "name": "34" }
       ] }
     ]
   },
@@ -21842,6 +21851,19 @@
       ] },
       { "segment": "2838748968", "subrefs": [
         { "name": "Релиз", "start": 1952 }
+      ] }
+    ]
+  },
+  {
+    "name": "Lurking (демо)",
+    "category": "ongoing",
+    "id": "lurking",
+    "streams": [
+      { "segment": "2667145812", "subrefs": [
+        { "name": "Демо 1", "start": 11682 }
+      ] },
+      { "segment": "2839644239,2839724229", "subrefs": [
+        { "name": "Демо 2", "start": 4921 }
       ] }
     ]
   }

@@ -18044,9 +18044,9 @@
   },
   "2667145812": {
     "youtube": "R77FlZdhNpE", "vk": "-28387068_456251028", "abs_start": 0, "abs_end": 19070, "duration": 19070,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #1 / The Backrooms: Realism / Nightbell / Terpenie / It Reaches - Демо / Lurking / The Unplace / MiSide Zero / Professor Galaktionov: Dawn of the Robopocalypse (Профессор Галактионов и начало робоапокалипсиса)",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #1 / The Backrooms: Realism / Nightbell / Terpenie / It Reaches - Демо / Lurking (демо) - Демо 1 / The Unplace / MiSide Zero / Professor Galaktionov: Dawn of the Robopocalypse (Профессор Галактионов и начало робоапокалипсиса)",
     "date": "2026-01-11",
-    "games": ["horrors-2026", "first-2026", "single-2026", "it-reaches"],
+    "games": ["horrors-2026", "first-2026", "single-2026", "it-reaches", "lurking"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2667145812.ass"
   },
   "2667995781": {
@@ -18511,7 +18511,6 @@
     "youtube": "DZI9eSH_l74", "vk": "-28387068_456251115", "abs_start": 0, "abs_end": 14539, "duration": 14539,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #13 / Lighthouse Keeper / Lucid Blocks / Idols of Ash - Демо / He Followed Me",
     "date": "2026-04-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2740582496.torrent",
     "games": ["horrors-2026", "first-2026", "idols-of-ash"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2740582496.ass"
   },
@@ -18519,7 +18518,6 @@
     "youtube": "a2PnBdDS-W4", "vk": "-28387068_456251118", "abs_start": 0, "abs_end": 21864, "duration": 21864,
     "name": "Crime Scene Cleaner #21 / Cryo / Lethal Company #26",
     "date": "2026-04-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2741318217.torrent",
     "games": ["csc", "co-op", "lethal-company"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2741318217.ass"
   },
@@ -19293,5 +19291,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2838748968.torrent",
     "games": ["uncanny-tales-tw", "gennady", "first-2026", "klubnika", "co-op", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2838748968.ass"
+  },
+  "2839644239": {
+    "abs_start": 0, "abs_end": 7729, "duration": 7729,
+    "name": "",
+    "date": "2026-08-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2839644239.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2839644239.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2839644239.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2839644239.ass"
+  },
+  "2839724229": {
+    "abs_start": 0, "abs_end": 11912, "duration": 11912,
+    "name": "",
+    "date": "2026-08-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2839724229.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2839724229.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2839724229.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2839724229.ass"
+  },
+  "2839644239,2839724229": {
+    "abs_start": 0, "abs_end": 19640, "duration": 19640,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #34 / The Backrooms: Incident 1997 / Lurking (демо) - Демо 2 / Kindawn: The Parish Remembers / Manny's",
+    "date": "2026-08-07",
+    "direct": "https://bsufiles.drhx.ru/streams/2839644239,2839724229.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2839644239,2839724229.mp4/master.m3u8",
+    "offsets": ["0:00", "2:08:47+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2839644239,2839724229.torrent",
+    "games": ["horrors-2026", "single-2026", "lurking", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2839644239,2839724229+0.ass"
   }
 }
