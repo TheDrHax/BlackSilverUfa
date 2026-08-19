@@ -17566,9 +17566,9 @@
   },
   "2579578173": {
     "youtube": "zeSbKDHZ1yQ", "vk": "-28387068_456250934", "abs_start": 0, "abs_end": 17791, "duration": 17791,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #41 / The Office Rooms / Sleep Awake - Демо / [HERROR] Gas Station Case (демо) / She's Leaving (демо) / Knock on the Window",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #41 / The Office Rooms / Sleep Awake - Демо / [HERROR] Gas Station Case - Демо / She's Leaving (демо) / Knock on the Window",
     "date": "2025-09-30",
-    "games": ["horrors-2025", "first-2025", "sleep-awake", "single-2025"],
+    "games": ["horrors-2025", "first-2025", "sleep-awake", "herror-gsc", "single-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2579578173.ass"
   },
   "2580342642": {
@@ -18525,7 +18525,6 @@
     "youtube": "FAcR2A_cti8", "vk": "-28387068_456251120", "abs_start": 0, "abs_end": 24625, "duration": 24625,
     "name": "Resident Evil Code: Veronica #4 / Resident Evil Survivor",
     "date": "2026-04-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2742091967.torrent",
     "games": ["re-veronica", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2742091967.ass"
   },
@@ -19320,5 +19319,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2839644239,2839724229.torrent",
     "games": ["horrors-2026", "single-2026", "lurking", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2839644239,2839724229+0.ass"
+  },
+  "2850502197": {
+    "abs_start": 0, "abs_end": 17853, "duration": 17853,
+    "name": "[HERROR] Gas Station Case - Прохождение",
+    "date": "2026-08-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2850502197.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2850502197.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2850502197.torrent",
+    "games": ["herror-gsc"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2850502197.ass"
   }
 }

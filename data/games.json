@@ -10155,7 +10155,6 @@
         { "name": "SNAP SNAP", "start": 20388 }
       ] },
       { "segment": "2579578173", "subrefs": [
-        { "name": "[HERROR] Gas Station Case (демо)", "start": 8057 },
         { "name": "Knock on the Window", "start": 12338 }
       ] },
       { "segment": "2580342642", "subrefs": [
@@ -21437,7 +21436,7 @@
   },
   {
     "name": "Subnautica 2",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "subnautica-2",
     "streams": [
       { "segment": "2771698843", "subrefs": [
@@ -21453,7 +21452,7 @@
   },
   {
     "name": "Forza Horizon 6",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "forza-horizon-6",
     "streams": [
       { "segment": "2772494226", "subrefs": [
@@ -21864,6 +21863,19 @@
       ] },
       { "segment": "2839644239,2839724229", "subrefs": [
         { "name": "Демо 2", "start": 4921 }
+      ] }
+    ]
+  },
+  {
+    "name": "[HERROR] Gas Station Case",
+    "category": "finished",
+    "id": "herror-gsc",
+    "streams": [
+      { "segment": "2579578173", "subrefs": [
+        { "name": "Демо", "start": 8057 }
+      ] },
+      { "segment": "2850502197", "subrefs": [
+        { "name": "Прохождение", "start": 7142 }
       ] }
     ]
   }
