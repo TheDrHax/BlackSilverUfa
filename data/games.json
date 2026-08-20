@@ -9578,6 +9578,9 @@
       ] },
       { "segment": "2839644239,2839724229", "subrefs": [
         { "name": "Kindawn: The Parish Remembers", "start": 8553 }
+      ] },
+      { "segment": "2851537750", "subrefs": [
+        { "name": "The Sinking City 2", "start": 4348 }
       ] }
     ]
   },
@@ -20202,6 +20205,12 @@
       ] },
       { "segment": "2534392013,2534676528", "subrefs": [
         { "name": "2", "start": 341 }
+      ] },
+      { "segment": "2851374246", "subrefs": [
+        { "name": "3 (DLC: Man of Honor)", "start": 3782 }
+      ] },
+      { "segment": "2851537750", "subrefs": [
+        { "name": "4 (DLC: Man of Honor)", "start": 461 }
       ] }
     ]
   },
