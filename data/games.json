@@ -5478,6 +5478,9 @@
       { "segment": "2349362268,2349415065", "subrefs": [
         { "name": "Cursed Digicam", "start": 2192 },
         { "name": "Cursed Digicam (продолжение)", "start": 5924, "hidden": true }
+      ] },
+      { "segment": "2852312104", "subrefs": [
+        { "name": "Snowed Under", "start": 4263 }
       ] }
     ]
   },
