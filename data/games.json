@@ -844,6 +844,10 @@
       ] },
       { "segment": "2838748968", "subrefs": [
         { "name": "Big Walk", "start": 11261 }
+      ] },
+      { "segment": "2853243279", "subrefs": [
+        { "name": "How to Fish", "start": 8131 },
+        { "name": "Grain Rot", "start": 12795 }
       ] }
     ]
   },
@@ -9584,6 +9588,9 @@
       ] },
       { "segment": "2851537750", "subrefs": [
         { "name": "The Sinking City 2", "start": 4348 }
+      ] },
+      { "segment": "2853243279", "subrefs": [
+        { "name": "Frozen Ship", "start": 1965 }
       ] }
     ]
   },
@@ -20677,6 +20684,9 @@
       ] },
       { "segment": "2838748968", "subrefs": [
         { "name": "11", "start": 13664 }
+      ] },
+      { "segment": "2853243279", "subrefs": [
+        { "name": "12", "start": 17550 }
       ] }
     ]
   },
