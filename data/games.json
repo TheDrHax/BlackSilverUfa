@@ -10399,9 +10399,6 @@
         { "name": "Grief", "start": 7461 },
         { "name": "Memories: Silenced", "start": 14399 }
       ] },
-      { "segment": "2786781807", "subrefs": [
-        { "name": "The Skin Stapler", "start": 11044 }
-      ] },
       { "segment": "2801165670", "subrefs": [
         { "name": "XenoFeels (демо)", "start": 11637 }
       ] },
@@ -21911,6 +21908,19 @@
       ] },
       { "segment": "2850502197", "subrefs": [
         { "name": "Прохождение", "start": 7142 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Skin Stapler",
+    "category": "finished",
+    "id": "skin-stapler",
+    "streams": [
+      { "segment": "2786781807", "subrefs": [
+        { "name": "Демо", "start": 11044 }
+      ] },
+      { "segment": "2855130830", "subrefs": [
+        { "name": "Прохождение", "start": 1898 }
       ] }
     ]
   }
