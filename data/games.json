@@ -844,10 +844,6 @@
       ] },
       { "segment": "2838748968", "subrefs": [
         { "name": "Big Walk", "start": 11261 }
-      ] },
-      { "segment": "2853243279", "subrefs": [
-        { "name": "How to Fish", "start": 8131 },
-        { "name": "Grain Rot", "start": 12795 }
       ] }
     ]
   },
@@ -20021,6 +20017,9 @@
       ] },
       { "segment": "2697488820", "subrefs": [
         { "name": "11 (с Дашей)", "start": 18770 }
+      ] },
+      { "segment": "2856864707", "subrefs": [
+        { "name": "12", "start": 17078 }
       ] }
     ]
   },
@@ -21921,6 +21920,32 @@
       ] },
       { "segment": "2855130830", "subrefs": [
         { "name": "Прохождение", "start": 1898 }
+      ] }
+    ]
+  },
+  {
+    "name": "How to Fish",
+    "category": "co-op",
+    "id": "how-to-fish",
+    "streams": [
+      { "segment": "2853243279", "subrefs": [
+        { "name": "1", "start": 8131 }
+      ] },
+      { "segment": "2856864707", "subrefs": [
+        { "name": "2", "start": 8056 }
+      ] }
+    ]
+  },
+  {
+    "name": "Grain Rot",
+    "category": "co-op",
+    "id": "grain-rot",
+    "streams": [
+      { "segment": "2853243279", "subrefs": [
+        { "name": "1", "start": 12795 }
+      ] },
+      { "segment": "2856864707", "subrefs": [
+        { "name": "2", "start": 13531 }
       ] }
     ]
   }
