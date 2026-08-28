@@ -5550,9 +5550,9 @@
   },
   "504248004": {
     "youtube": "RC1yK71cgDY", "official": false, "abs_start": 0, "abs_end": 18777, "duration": 18777,
-    "name": "Need for Speed Heat / Red Dead Redemption 2 (PC) / Mafia II #4",
+    "name": "Need for Speed Heat / Red Dead Redemption 2 #10 (PC) / Mafia II #4",
     "date": "2019-11-05",
-    "games": ["first-2019", "mafia-2"],
+    "games": ["first-2019", "rdr2", "mafia-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2019/master/v504248004.ass"
   },
   "504672487": {
@@ -18578,7 +18578,6 @@
     "youtube": "it_ZW7A5hqE", "abs_start": 0, "abs_end": 5273, "duration": 5273,
     "name": "Pragmata #2 (тренировки)",
     "date": "2026-04-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2749729975.torrent",
     "games": ["pragmata"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2749729975+0.ass"
   },
@@ -18586,7 +18585,6 @@
     "youtube": "wK0ZjcUPQ8s", "vk": "-28387068_456251129", "abs_start": 0, "abs_end": 32335, "duration": 32335,
     "name": "Pragmata #3",
     "date": "2026-04-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2750139630.torrent",
     "games": ["pragmata"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2750139630+0.ass"
   },
@@ -19381,5 +19379,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2857748994.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2857748994+0.ass"
+  },
+  "2858672788": {
+    "abs_start": 0, "abs_end": 14872, "duration": 14872,
+    "name": "DLSS-стрим / Cyberpunk 2077 #14 (DLSS 5) / Red Dead Redemption 2 #11 (DLSS) / Stellar Blade - DLSS 5",
+    "date": "2026-08-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2858672788.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2858672788.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2858672788.torrent",
+    "games": ["other", "cyberpunk-2077", "rdr2", "stellar-blade"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2858672788.ass"
   }
 }

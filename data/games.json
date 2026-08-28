@@ -6264,6 +6264,9 @@
       ] },
       { "segment": "2500703382", "subrefs": [
         { "name": "13", "start": 1525 }
+      ] },
+      { "segment": "2858672788", "subrefs": [
+        { "name": "14 (DLSS 5)", "start": 2989 }
       ] }
     ]
   },
@@ -6698,6 +6701,9 @@
       ] },
       { "segment": "2834410477", "subrefs": [
         { "name": "Выбор наказания (01.08.26)", "start": 1092 }
+      ] },
+      { "segment": "2858672788", "subrefs": [
+        { "name": "DLSS-стрим" }
       ] }
     ]
   },
@@ -7432,8 +7438,7 @@
         { "name": "Cooking Simulator", "start": 1275 }
       ] },
       { "segment": "504248004", "subrefs": [
-        { "name": "Need for Speed Heat" },
-        { "name": "Red Dead Redemption 2 (PC)", "start": 7564 }
+        { "name": "Need for Speed Heat" }
       ] },
       { "segment": "504672487", "subrefs": [
         { "name": "Planet Zoo", "start": 13824 }
@@ -19246,6 +19251,12 @@
       ] },
       { "segment": "339579917", "subrefs": [
         { "name": "9" }
+      ] },
+      { "segment": "504248004", "subrefs": [
+        { "name": "10 (PC)", "start": 7564 }
+      ] },
+      { "segment": "2858672788", "subrefs": [
+        { "name": "11 (DLSS)", "start": 10579 }
       ] }
     ]
   },
@@ -19986,6 +19997,9 @@
       ] },
       { "segment": "2490150024", "subrefs": [
         { "name": "ПК", "start": 2051 }
+      ] },
+      { "segment": "2858672788", "subrefs": [
+        { "name": "DLSS 5", "start": 12556 }
       ] }
     ]
   },
