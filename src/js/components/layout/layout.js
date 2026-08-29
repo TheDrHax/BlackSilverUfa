@@ -8,6 +8,7 @@ import Footer from './footer';
 import config from '../../../../config/config.json';
 import Matomo from '../../matomo';
 import DonateToast from '../../pages/donate-page/donate-toast';
+import BirthdayToast from '../../pages/donate-page/birthday-toast';
 
 const Layout = ({
   className,
@@ -49,6 +50,7 @@ const Layout = ({
         ) : children}
         <ToastContainer position="bottom-start" className="position-fixed p-3">
           <DonateToast />
+          <BirthdayToast />
         </ToastContainer>
       </Container>
       {withFooter && <Footer />}

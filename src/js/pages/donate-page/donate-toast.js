@@ -9,6 +9,7 @@ const VERSION = 3;
 
 export default function DonateToast() {
   const [{ persist }] = useDataStore();
+
   const data = Persist.load('donate-toast', {
     closed: false,
     at: 0,
@@ -32,7 +33,10 @@ export default function DonateToast() {
     setClosed(true);
   };
 
-  const show = watched >= 10 && !closed;
+  const now = new Date();
+
+  let show = now.getMonth() != 7 || now.getDate() != 29;
+  show &&= watched >= 10 && !closed;
 
   return (
     <Toast onClose={close} show={show} animation={false}>
