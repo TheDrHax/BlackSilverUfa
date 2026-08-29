@@ -11,7 +11,7 @@ export default function BirthdayToast() {
   const now = new Date();
 
   if (now.getMonth() != 7 || now.getDate() != 29) {
-    return;
+    return null;
   }
 
   const data = Persist.load('birthday-toast', {
