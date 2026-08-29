@@ -9605,6 +9605,9 @@
         { "name": "Aliens: Fireteam Elite 2", "start": 838 },
         { "name": "Resonance: A Plague Tale Legacy", "start": 11773 },
         { "name": "Star Wars Zero Company", "start": 18196 }
+      ] },
+      { "segment": "2859661467", "subrefs": [
+        { "name": "Witness the Dark #1: Bloody Burger", "start": 10375 }
       ] }
     ]
   },
@@ -10479,6 +10482,12 @@
       ] },
       { "segment": "2854225850", "subrefs": [
         { "name": "Ghost Buster: Village", "start": 3468 }
+      ] },
+      { "segment": "2859661467", "subrefs": [
+        { "name": "Backrooms: Primal (демо)", "start": 1851 },
+        { "name": "Can I Come In?", "start": 4909 },
+        { "name": "The Stalked 3", "start": 12846 },
+        { "name": "The Thing Beneath", "start": 16818 }
       ] }
     ]
   },
@@ -18680,6 +18689,9 @@
       ] },
       { "segment": "2854225850", "subrefs": [
         { "name": "35" }
+      ] },
+      { "segment": "2859661467", "subrefs": [
+        { "name": "36" }
       ] }
     ]
   },
