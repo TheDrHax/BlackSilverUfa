@@ -8981,7 +8981,6 @@
         { "name": "Jump King Quest", "start": 4577 }
       ] },
       { "segment": "2386237387", "subrefs": [
-        { "name": "Breathedge 2 (демо)", "start": 1530 },
         { "name": "M.I.N.S.K. (демо)", "start": 12354 }
       ] },
       { "segment": "2387156230", "subrefs": [
@@ -9611,6 +9610,9 @@
       ] },
       { "segment": "2860620549", "subrefs": [
         { "name": "Madagascar: Escape 2 Africa", "start": 1612 }
+      ] },
+      { "segment": "2862392814", "subrefs": [
+        { "name": "Iron Blight", "start": 2734 }
       ] }
     ]
   },
@@ -21955,6 +21957,19 @@
       ] },
       { "segment": "2855130830", "subrefs": [
         { "name": "Прохождение", "start": 1898 }
+      ] }
+    ]
+  },
+  {
+    "name": "Breathedge 2",
+    "category": "ongoing",
+    "id": "breathedge-2",
+    "streams": [
+      { "segment": "2386237387", "subrefs": [
+        { "name": "Демо", "start": 1530 }
+      ] },
+      { "segment": "2862392814", "subrefs": [
+        { "name": "Релиз", "start": 10073 }
       ] }
     ]
   }
