@@ -24,6 +24,11 @@
         "push": "git@github.com:BlackSilverUfa/data.git"
       },
       {
+        "name": "emotes",
+        "pull": "https://github.com/BlackSilverUfa/emotes.git",
+        "push": "git@github.com:BlackSilverUfa/emotes.git"
+      },
+      {
         "name": "chats-generated",
         "pull": "https://github.com/BlackSilverUfa/chats-generated.git",
         "push": "git@github.com:BlackSilverUfa/chats-generated.git"
@@ -90,6 +95,11 @@
         "remote": "origin",
         "branch": "gh-pages",
         "prefix": "https://bsu.drhx.ru"
+      },
+      "$PREFIX/data/emotes": {
+        "remote": "emotes",
+        "branch": "master",
+        "prefix": "https://raw.githubusercontent.com/BlackSilverUfa/emotes/master"
       },
       "$PREFIX/chats/generated": {
         "remote": "chats-generated",

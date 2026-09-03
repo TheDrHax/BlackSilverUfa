@@ -512,6 +512,7 @@ export default class SegmentPlayer extends React.Component {
       plyr,
       segment: {
         subtitles,
+        date,
         abs_start: absStart,
       },
     } = this.state;
@@ -538,6 +539,7 @@ export default class SegmentPlayer extends React.Component {
         {!fullscreen && header}
         <Chat
           plyr={plyr}
+          date={date}
           offset={-absStart}
           subtitles={subtitles}
           simple={fullscreen}

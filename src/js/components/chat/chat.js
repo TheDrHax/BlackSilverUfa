@@ -4,15 +4,20 @@ import last from 'lodash/last';
 import { Button, ListGroup, Spinner } from 'react-bootstrap';
 import { ChatMessage } from './message';
 import { loadSubtitles } from './subtitles-loader';
+import config from '../../../../config/config.json';
 import { Scroll } from '../scroll';
 import Persist from '../../utils/persist';
 import { ChatSettings } from './settings';
 import { useComplexState } from '../../hooks/use-complex-state';
 import { usePlyrTime } from '../../hooks/use-plyr-time';
 
-export const Chat = ({ subtitles, plyr, offset, simple }) => {
+const EMOTES_BASE = config.repos.mounts['$PREFIX/data/emotes'].prefix;
+
+export const Chat = ({ subtitles, date, plyr, offset, simple }) => {
   const [error, setError] = useState();
   const [data, setData] = useState();
+  const [emotesIndex, setEmotesIndex] = useState();
+  const [emotesRev, setEmotesRev] = useState();
   const [emotes, setEmotes] = useState();
   const [settings, updateSettings] = useComplexState(
     Persist.load('Chat', {
@@ -47,15 +52,47 @@ export const Chat = ({ subtitles, plyr, offset, simple }) => {
   }, [subtitles, error]);
 
   useEffect(() => {
-    if (emotes || !settings.showEmotes) return;
+    if (emotesIndex || !settings.showEmotes) return;
 
-    fetch('/data/emotes.json')
+    fetch(EMOTES_BASE + '/index.json')
       .then((res) => res.json())
       .then((res) => {
-        setEmotes(res);
+        const index = {};
+
+        for (const [date, sha] of Object.entries(res)) {
+          index[+new Date(`${date}T00:00:00`)] = sha;
+        }
+
+        return index;
       })
-      .catch(() => setEmotes(null));
+      .then(setEmotesIndex)
+      .catch(setError);
   }, [settings.showEmotes]);
+
+  useEffect(() => {
+    if (!emotesIndex) return;
+
+    let emotesRev = 'master';
+
+    for (const [d, sha] of Object.entries(emotesIndex)) {
+      if (+d <= +date) {
+        emotesRev = sha;
+      }
+    }
+
+    setEmotesRev(emotesRev);
+  }, [emotesIndex, date]);
+
+  useEffect(() => {
+    if (!emotesRev) return;
+
+    const emotesUrl = EMOTES_BASE.replace('master', emotesRev) + '/emotes.json';
+
+    fetch(emotesUrl)
+      .then((res) => res.json())
+      .then(setEmotes)
+      .catch(setError);
+  }, [emotesRev]);
 
   if (error) {
     return !simple && (

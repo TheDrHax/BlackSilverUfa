@@ -5,7 +5,10 @@
 
 import base64
 import json
+
+from git import Repo
 from docopt import docopt
+from datetime import datetime
 from requests import Session
 from subprocess import Popen, PIPE
 from ..utils import _, load_json
@@ -71,9 +74,13 @@ def update_emotes():
         print('Unable to get emote data')
         return
 
-    emotes = load_json(_('data/emotes.json')) or {}
+    emotes = load_json(_('data/emotes/emotes.json')) or {}
+
+    seen = set()
 
     for emote in data:
+        seen.add(emote['name'])
+
         if emote['name'] in emotes:
             cached_emote = emotes[emote['name']]
 
@@ -92,8 +99,34 @@ def update_emotes():
 
         emotes[emote['name']] = dict(id=emote['id'], src=image)
 
-    with open(_('data/emotes.json'), 'w') as fo:
+    for emote in emotes.copy():
+        if emote not in seen:
+            print(f'Deleting emote: {emote}')
+            del emotes[emote]
+
+    with open(_('data/emotes/emotes.json'), 'w') as fo:
         json.dump(emotes, fo, ensure_ascii=False, indent=2)
+
+
+def update_index():
+    repo = Repo(_('data/emotes/'))
+    index = dict()
+
+    for commit in repo.iter_commits(paths='emotes.json'):
+        sha = commit.hexsha
+        date = commit.authored_date
+        date = datetime.utcfromtimestamp(date).strftime('%Y-%m-%d')
+        index[sha] = date
+
+    inv_index = dict(
+        sorted(
+            ([v, k] for [k, v] in index.items()),
+            key = lambda x: x[0]
+        )
+    )
+
+    with open(_('data/emotes/index.json'), 'w') as fo:
+        json.dump(inv_index, fo, indent=2, ensure_ascii=False)
 
 
 def unpack(dest = './emotes'):
@@ -104,7 +137,7 @@ def unpack(dest = './emotes'):
 
     [os.unlink(os.path.join(dest, f)) for f in os.listdir(dest)]
 
-    emotes = load_json(_('data/emotes.json')) or {}
+    emotes = load_json(_('data/emotes/emotes.json')) or {}
 
     for name, emote in emotes.items():
         ext = emote['src'].split('/')[1].split(';')[0]
@@ -116,7 +149,7 @@ def unpack(dest = './emotes'):
 
 def pack(src = './emotes'):
     import os
-    emotes = load_json(_('data/emotes.json')) or {}
+    emotes = load_json(_('data/emotes/emotes.json')) or {}
 
     for filename in os.listdir(src):
         name, ext = filename.split('.')
@@ -131,7 +164,7 @@ def pack(src = './emotes'):
         content = f'data:image/{ext};filename=image;base64,{content}'
         emotes[name]['src'] = content
 
-    with open(_('data/emotes.json'), 'w') as fo:
+    with open(_('data/emotes/emotes.json'), 'w') as fo:
         json.dump(emotes, fo, ensure_ascii=False, indent=2)
 
 
@@ -144,6 +177,7 @@ def main(argv=None):
         unpack(args['<path>'] or './emotes')
     elif args['update']:
         update_emotes()
+        update_index()
 
 
 if __name__ == '__main__':
