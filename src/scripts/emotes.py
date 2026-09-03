@@ -107,6 +107,8 @@ def update_emotes():
     with open(_('data/emotes/emotes.json'), 'w') as fo:
         json.dump(emotes, fo, ensure_ascii=False, indent=2)
 
+    update_index()
+
 
 def update_index():
     repo = Repo(_('data/emotes/'))
@@ -177,7 +179,6 @@ def main(argv=None):
         unpack(args['<path>'] or './emotes')
     elif args['update']:
         update_emotes()
-        update_index()
 
 
 if __name__ == '__main__':
