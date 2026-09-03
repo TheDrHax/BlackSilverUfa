@@ -18613,7 +18613,6 @@
     "youtube": "spxC7sP1pow", "vk": "-28387068_456251136", "abs_start": 0, "abs_end": 24875, "duration": 24875,
     "name": "Atomic Heart - Blood On Crystal #2",
     "date": "2026-04-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2753415399.torrent",
     "games": ["atomic-heart"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2753415399.ass"
   },
@@ -19403,10 +19402,10 @@
   },
   "2860620549": {
     "youtube": "UoLURMOaJMo", "vk": "-28387068_456251249", "abs_start": 0, "abs_end": 18161, "duration": 18161,
-    "name": "Madagascar: Escape 2 Africa",
+    "name": "Madagascar: Escape 2 Africa #1",
     "date": "2026-08-30",
     "torrent": "https://bsufiles.drhx.ru/streams/2860620549.torrent",
-    "games": ["first-2026"],
+    "games": ["madagascar-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2860620549.ass"
   },
   "2862392814": {
@@ -19418,5 +19417,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2862392814.torrent",
     "games": ["first-2026", "breathedge-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2862392814.ass"
+  },
+  "2864035028": {
+    "abs_start": 0, "abs_end": 22499, "duration": 22499,
+    "name": "The Blood of Dawnwalker / Madagascar: Escape 2 Africa #2",
+    "date": "2026-09-03",
+    "direct": "https://bsufiles.drhx.ru/streams/2864035028.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2864035028.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2864035028.torrent",
+    "games": ["first-2026", "madagascar-2"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2864035028.ass"
   }
 }

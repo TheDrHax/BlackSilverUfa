@@ -9604,11 +9604,11 @@
       { "segment": "2859661467", "subrefs": [
         { "name": "Witness the Dark #1: Bloody Burger", "start": 10375 }
       ] },
-      { "segment": "2860620549", "subrefs": [
-        { "name": "Madagascar: Escape 2 Africa", "start": 1612 }
-      ] },
       { "segment": "2862392814", "subrefs": [
         { "name": "Iron Blight", "start": 2734 }
+      ] },
+      { "segment": "2864035028", "subrefs": [
+        { "name": "The Blood of Dawnwalker", "start": 757 }
       ] }
     ]
   },
@@ -9747,7 +9747,7 @@
   },
   {
     "name": "Gothic 1 Remake",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "gothic-1-remake",
     "streams": [
       { "segment": "521336731", "subrefs": [
@@ -21995,6 +21995,19 @@
       ] },
       { "segment": "2856864707", "subrefs": [
         { "name": "2", "start": 13531 }
+      ] }
+    ]
+  },
+  {
+    "name": "Madagascar: Escape 2 Africa",
+    "category": "finished",
+    "id": "madagascar-2",
+    "streams": [
+      { "segment": "2860620549", "subrefs": [
+        { "name": "1", "start": 1612 }
+      ] },
+      { "segment": "2864035028", "subrefs": [
+        { "name": "2", "start": 13080 }
       ] }
     ]
   }
