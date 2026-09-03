@@ -18606,7 +18606,6 @@
     "youtube": "HV6JPpR1Vdo", "vk": "-28387068_456251132", "abs_start": 0, "abs_end": 28714, "duration": 28714,
     "name": "Atomic Heart - Blood On Crystal #1",
     "date": "2026-04-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2752633309.torrent",
     "games": ["atomic-heart"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2752633309.ass"
   },
@@ -19348,10 +19347,10 @@
   },
   "2853243279": {
     "youtube": "exyIO6H-98I", "vk": "-28387068_456251241", "abs_start": 0, "abs_end": 24788, "duration": 24788,
-    "name": "Frozen Ship / How to Fish / Grain Rot / RV There Yet? #12",
+    "name": "Frozen Ship / How to Fish #1 / Grain Rot #1 / RV There Yet? #12",
     "date": "2026-08-22",
     "torrent": "https://bsufiles.drhx.ru/streams/2853243279.torrent",
-    "games": ["first-2026", "co-op", "rv-there-yet"],
+    "games": ["first-2026", "how-to-fish", "grain-rot", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2853243279+0.ass"
   },
   "2854225850": {
@@ -19369,6 +19368,16 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2855130830.torrent",
     "games": ["skin-stapler"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2855130830.ass"
+  },
+  "2856864707": {
+    "abs_start": 0, "abs_end": 16137, "duration": 16137,
+    "name": "How to Fish #2 / Grain Rot #2 / Peak #12",
+    "date": "2026-08-26",
+    "direct": "https://bsufiles.drhx.ru/streams/2856864707.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2856864707.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2856864707.torrent",
+    "games": ["how-to-fish", "grain-rot", "peak"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2856864707.ass"
   },
   "2857748994": {
     "youtube": "vFxs1fCXsOg", "vk": "-28387068_456251246", "abs_start": 0, "abs_end": 24824, "duration": 24824,
