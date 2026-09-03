@@ -72,7 +72,7 @@ export const Chat = ({ subtitles, date, plyr, offset, simple }) => {
   useEffect(() => {
     if (!emotesIndex) return;
 
-    let emotesRev = 'master';
+    let emotesRev = Object.values(emotesIndex)[0];
 
     for (const [d, sha] of Object.entries(emotesIndex)) {
       if (+d <= +date) {
