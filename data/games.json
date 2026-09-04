@@ -9606,9 +9606,6 @@
       ] },
       { "segment": "2862392814", "subrefs": [
         { "name": "Iron Blight", "start": 2734 }
-      ] },
-      { "segment": "2864035028", "subrefs": [
-        { "name": "The Blood of Dawnwalker", "start": 757 }
       ] }
     ]
   },
@@ -22008,6 +22005,19 @@
       ] },
       { "segment": "2864035028", "subrefs": [
         { "name": "2", "start": 13080 }
+      ] }
+    ]
+  },
+  {
+    "name": "The Blood of Dawnwalker",
+    "category": "ongoing",
+    "id": "dawnwalker",
+    "streams": [
+      { "segment": "2864035028", "subrefs": [
+        { "name": "1", "start": 757 }
+      ] },
+      { "segment": "2864893468", "subrefs": [
+        { "name": "2", "start": 663 }
       ] }
     ]
   }
