@@ -116,6 +116,7 @@ def update_index():
 
     for commit in repo.iter_commits(paths='emotes.json'):
         sha = commit.hexsha
+        sha = repo.git.rev_parse(sha, short=8)
         date = datetime.utcfromtimestamp(commit.authored_date)
         index[sha] = date
 
