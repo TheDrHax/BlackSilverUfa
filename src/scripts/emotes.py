@@ -116,13 +116,17 @@ def update_index():
 
     for commit in repo.iter_commits(paths='emotes.json'):
         sha = commit.hexsha
-        date = commit.authored_date
-        date = datetime.utcfromtimestamp(date).strftime('%Y-%m-%d')
+        date = datetime.utcfromtimestamp(commit.authored_date)
         index[sha] = date
+
+    diff = repo.index.diff(None, paths='emotes.json')
+
+    if len(diff) > 0:
+        index['master'] = datetime.now()
 
     inv_index = dict(
         sorted(
-            ([v, k] for [k, v] in index.items()),
+            ([v.strftime('%Y-%m-%d'), k] for [k, v] in index.items()),
             key = lambda x: x[0]
         )
     )
