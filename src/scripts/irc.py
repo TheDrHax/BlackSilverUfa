@@ -113,7 +113,6 @@ def main(argv=None):
     if vod not in streams:
         print(f'Adding stream {vod}')
         streams[vod] = Stream(key=vod, data=[{}])
-        streams.save()
 
     writer = SubtitlesWriter(streams[vod].subtitles_path)
 
