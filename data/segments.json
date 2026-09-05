@@ -18634,7 +18634,6 @@
     "youtube": "s0aK95lKZow", "vk": "-28387068_456251139", "abs_start": 0, "abs_end": 29463, "duration": 29463,
     "name": "Crime Scene Cleaner #23 / Windrose #3",
     "date": "2026-04-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2756626215.torrent",
     "games": ["csc", "windrose"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2756626215+0.ass"
   },
@@ -19437,5 +19436,36 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2864893468.torrent",
     "games": ["dawnwalker"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2864893468.ass"
+  },
+  "2865824623": {
+    "abs_start": 0, "abs_end": 8745, "duration": 8745,
+    "name": "",
+    "date": "2026-09-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2865824623.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2865824623.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2865824623.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2865824623+0.ass"
+  },
+  "2865899418": {
+    "abs_start": 0, "abs_end": 22301, "duration": 22301,
+    "name": "",
+    "date": "2026-09-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2865899418.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2865899418.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2865899418.torrent",
+    "games": [],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2865899418+0.ass"
+  },
+  "2865824623,2865899418": {
+    "abs_start": 0, "abs_end": 31044, "duration": 31044,
+    "name": "The Blood of Dawnwalker #3",
+    "date": "2026-09-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2865824623,2865899418.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2865824623,2865899418.mp4/master.m3u8",
+    "offsets": ["0:00", "2:25:43+2"],
+    "torrent": "https://bsufiles.drhx.ru/streams/2865824623,2865899418.torrent",
+    "games": ["dawnwalker"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2865824623,2865899418+0.ass"
   }
 }
