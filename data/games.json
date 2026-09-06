@@ -9606,6 +9606,9 @@
       ] },
       { "segment": "2862392814", "subrefs": [
         { "name": "Iron Blight", "start": 2734 }
+      ] },
+      { "segment": "2866862961", "subrefs": [
+        { "name": "Between Places", "start": 1794 }
       ] }
     ]
   },
@@ -10486,6 +10489,10 @@
         { "name": "Can I Come In?", "start": 4909 },
         { "name": "The Stalked 3", "start": 12846 },
         { "name": "The Thing Beneath", "start": 16818 }
+      ] },
+      { "segment": "2866862961", "subrefs": [
+        { "name": "7 Nights Keeper", "start": 5697 },
+        { "name": "Tales of Fear: Episode Zero", "start": 11020 }
       ] }
     ]
   },
@@ -18690,6 +18697,9 @@
       ] },
       { "segment": "2859661467", "subrefs": [
         { "name": "36" }
+      ] },
+      { "segment": "2866862961", "subrefs": [
+        { "name": "37" }
       ] }
     ]
   },

@@ -18641,7 +18641,6 @@
     "youtube": "4qIDhIRnpp0", "abs_start": 0, "abs_end": 19359, "duration": 19359,
     "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой) #1",
     "date": "2026-04-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2757524561.torrent",
     "games": ["nancy-drew-thocm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2757524561+0.ass"
   },
@@ -19467,5 +19466,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2865824623,2865899418.torrent",
     "games": ["dawnwalker"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2865824623,2865899418+0.ass"
+  },
+  "2866862961": {
+    "abs_start": 0, "abs_end": 17138, "duration": 17138,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #37 / Between Places / 7 Nights Keeper / Tales of Fear: Episode Zero",
+    "date": "2026-09-06",
+    "direct": "https://bsufiles.drhx.ru/streams/2866862961.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2866862961.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2866862961.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2866862961.ass"
   }
 }
