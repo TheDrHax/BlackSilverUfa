@@ -16565,9 +16565,9 @@
   },
   "2437947286": {
     "youtube": "DgecSsJOtMo", "vk": "-28387068_456250727", "abs_start": 0, "abs_end": 19162, "duration": 19162,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #16 / POOLS - Chapter 0 / Creepy Shift: House For Sale / Cosmic Fear (демо) / Discussion Over Dinner / Sanity Loops (демо)",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #16 / POOLS - Chapter 0 / Creepy Shift: House For Sale / Cosmic Fear - Демо / Discussion Over Dinner / Sanity Loops (демо)",
     "date": "2025-04-20",
-    "games": ["horrors-2025", "pools", "single-2025", "first-2025"],
+    "games": ["horrors-2025", "pools", "single-2025", "cosmic-fear", "first-2025"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2437947286.ass"
   },
   "2438710443": {
@@ -18648,7 +18648,6 @@
     "youtube": "n56rb8EHpU4", "vk": "-28387068_456251142", "abs_start": 0, "abs_end": 26186, "duration": 26186,
     "name": "Crime Scene Cleaner #24 / Windrose #4",
     "date": "2026-04-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2758272920.torrent",
     "games": ["csc", "windrose"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2758272920.ass"
   },
@@ -19464,5 +19463,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2866862961.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2866862961.ass"
+  },
+  "2870344809": {
+    "abs_start": 0, "abs_end": 18232, "duration": 18232,
+    "name": "Cosmic Fear - Релиз",
+    "date": "2026-09-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2870344809.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2870344809.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2870344809.torrent",
+    "games": ["cosmic-fear"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2870344809+0.ass"
   }
 }

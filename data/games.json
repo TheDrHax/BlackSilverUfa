@@ -10044,7 +10044,6 @@
       ] },
       { "segment": "2437947286", "subrefs": [
         { "name": "Creepy Shift: House For Sale", "start": 5362 },
-        { "name": "Cosmic Fear (демо)", "start": 12600 },
         { "name": "Sanity Loops (демо)", "start": 17093 }
       ] },
       { "segment": "2438710443", "subrefs": [
@@ -21620,7 +21619,7 @@
   },
   {
     "name": "Little Nightmares 3",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "little-nightmares-3",
     "streams": [
       { "segment": "2587965611", "subrefs": [
@@ -22031,6 +22030,19 @@
       ] },
       { "segment": "2865824623,2865899418", "subrefs": [
         { "name": "3", "start": 863 }
+      ] }
+    ]
+  },
+  {
+    "name": "Cosmic Fear",
+    "category": "ongoing",
+    "id": "cosmic-fear",
+    "streams": [
+      { "segment": "2437947286", "subrefs": [
+        { "name": "Демо", "start": 12600 }
+      ] },
+      { "segment": "2870344809", "subrefs": [
+        { "name": "Релиз", "start": 7332 }
       ] }
     ]
   }
