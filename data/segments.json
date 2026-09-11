@@ -19466,10 +19466,20 @@
   },
   "2870344809": {
     "youtube": "5gAbStpKLbM", "vk": "-28387068_456251256", "abs_start": 0, "abs_end": 18187, "duration": 18187,
-    "name": "Cosmic Fear - Релиз",
+    "name": "Cosmic Fear #1",
     "date": "2026-09-10",
     "torrent": "https://bsufiles.drhx.ru/streams/2870344809.torrent",
     "games": ["cosmic-fear"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2870344809+0.ass"
+  },
+  "2871200330": {
+    "abs_start": 0, "abs_end": 17921, "duration": 17921,
+    "name": "Cosmic Fear #2 / Backseat",
+    "date": "2026-09-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2871200330.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2871200330.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2871200330.torrent",
+    "games": ["cosmic-fear", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2871200330.ass"
   }
 }
