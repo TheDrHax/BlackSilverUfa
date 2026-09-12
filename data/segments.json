@@ -18655,7 +18655,6 @@
     "youtube": "cY53lQoC31c", "vk": "-28387068_456251143", "abs_start": 0, "abs_end": 27614, "duration": 27614,
     "name": "SAROS #1 / Ready or Not #6",
     "date": "2026-04-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2759017892.torrent",
     "games": ["saros", "ready-or-not"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2759017892.ass"
   },
@@ -19300,11 +19299,11 @@
   },
   "2839644239,2839724229": {
     "youtube": "9CxI5fb9LNk", "abs_start": 0, "abs_end": 19641, "duration": 19641,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #34 / The Backrooms: Incident 1997 / Lurking (демо) - Демо 2 / Kindawn: The Parish Remembers / Manny's",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #34 / The Backrooms: Incident 1997 / Lurking (демо) - Демо 2 / Kindawn: The Parish Remembers - Демо / Manny's",
     "date": "2026-08-07",
     "offsets": ["0:00", "2:08:47+2"],
     "torrent": "https://bsufiles.drhx.ru/streams/2839644239,2839724229.torrent",
-    "games": ["horrors-2026", "single-2026", "lurking", "first-2026"],
+    "games": ["horrors-2026", "single-2026", "lurking", "kindawn"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2839644239,2839724229+0.ass"
   },
   "2850502197": {
@@ -19481,5 +19480,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2871200330.torrent",
     "games": ["cosmic-fear", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2871200330.ass"
+  },
+  "2872140533": {
+    "abs_start": 0, "abs_end": 18859, "duration": 18859,
+    "name": "The Pale Mimic / Kindawn: The Parish Remembers - Релиз",
+    "date": "2026-09-12",
+    "direct": "https://bsufiles.drhx.ru/streams/2872140533.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2872140533.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2872140533.torrent",
+    "games": ["single-2026", "kindawn"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2872140533.ass"
   }
 }

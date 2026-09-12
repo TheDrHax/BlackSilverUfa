@@ -9583,9 +9583,6 @@
       { "segment": "2838748968", "subrefs": [
         { "name": "Echo Zero", "start": 3991 }
       ] },
-      { "segment": "2839644239,2839724229", "subrefs": [
-        { "name": "Kindawn: The Parish Remembers", "start": 8553 }
-      ] },
       { "segment": "2851537750", "subrefs": [
         { "name": "The Sinking City 2", "start": 4348 }
       ] },
@@ -10495,6 +10492,9 @@
       { "segment": "2866862961", "subrefs": [
         { "name": "7 Nights Keeper", "start": 5697 },
         { "name": "Tales of Fear: Episode Zero", "start": 11020 }
+      ] },
+      { "segment": "2872140533", "subrefs": [
+        { "name": "The Pale Mimic", "start": 2505 }
       ] }
     ]
   },
@@ -22049,6 +22049,19 @@
       ] },
       { "segment": "2871200330", "subrefs": [
         { "name": "2", "start": 2337 }
+      ] }
+    ]
+  },
+  {
+    "name": "Kindawn: The Parish Remembers",
+    "category": "ongoing",
+    "id": "kindawn",
+    "streams": [
+      { "segment": "2839644239,2839724229", "subrefs": [
+        { "name": "Демо", "start": 8553 }
+      ] },
+      { "segment": "2872140533", "subrefs": [
+        { "name": "Релиз", "start": 12860 }
       ] }
     ]
   }
