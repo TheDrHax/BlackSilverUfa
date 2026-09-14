@@ -128,8 +128,9 @@ case $1 in
         shift
         $PYTHON -m src.utils.serve "$@" ;;
     api)
+        shift;
         export FLASK_APP=src.utils.apiserver FLASK_DEBUG=1
-        flask run ;;
+        flask run --host=0.0.0.0 "$@" ;;
 
     download-chats) $PYTHON -m src.utils.chats ;;
     sh|bash) "$@" ;;
