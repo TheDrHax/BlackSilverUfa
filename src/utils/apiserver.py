@@ -3,13 +3,14 @@ from typing import Any, Dict, List, Union
 from flask import Flask, request
 from ..data.streams import Stream
 from ..data.timecodes import Timecodes
+from ..data.loader.timecodes import TimecodesDatabase
 
 
 app = Flask(__name__)
 
 
 @app.post('/api/timecodes/transform')
-def timecodes():
+def timecodes_transform():
     data: Dict[str, Any] = request.json
 
     segment: Dict[str, Any] = data.get('segment')
@@ -43,3 +44,15 @@ def timecodes():
     result = stream[0].timecodes.to_dict()
     headers = {'content-type': 'application/json'}
     return json.dumps(result, ensure_ascii=False, indent=2), headers
+
+
+@app.post('/api/timecodes/normalize')
+def timecodes_normalize():
+    data: Dict[str, Any] = request.json
+
+    timecodes = TimecodesDatabase()
+
+    for key, value in data.items():
+        timecodes[key] = Timecodes(value)
+    
+    return timecodes.to_json()

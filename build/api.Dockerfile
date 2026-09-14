@@ -1,7 +1,7 @@
 # docker run --privileged --rm tonistiigi/binfmt --install all
 # docker buildx build --push --platform linux/arm64/v8,linux/amd64 -f build/api.Dockerfile -t thedrhax/blackufa-api .
 
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 COPY bsu requirements.txt /app/
 

@@ -10,7 +10,7 @@ cached-property==1.5.1
 nodeenv==1.4.0
 natsort==7.1.1
 watchgod==0.7
-Flask===2.2.2
+Flask===3.1.3
 parse===1.19.1
 bgutil-ytdlp-pot-provider===1.2.2
 yt-dlp # dynamic
