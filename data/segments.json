@@ -18662,7 +18662,6 @@
     "youtube": "9gQBvuRmHjk", "vk": "-28387068_456251144", "abs_start": 0, "abs_end": 17125, "duration": 17125,
     "name": "SAROS #2",
     "date": "2026-04-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2759808794.torrent",
     "games": ["saros"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2759808794.ass"
   },
@@ -18670,7 +18669,6 @@
     "youtube": "Xt48i_nLpnI", "vk": "-28387068_456251147", "abs_start": 0, "abs_end": 16943, "duration": 16943,
     "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой) #2",
     "date": "2026-05-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2762338751.torrent",
     "games": ["nancy-drew-thocm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2762338751.ass"
   },
@@ -19496,5 +19494,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2873951734.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2873951734+0.ass"
+  },
+  "2874733011": {
+    "abs_start": 0, "abs_end": 24710, "duration": 24710,
+    "name": "Marvel's Wolverine",
+    "date": "2026-09-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2874733011.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2874733011.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2874733011.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2874733011+0.ass"
   }
 }
