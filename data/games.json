@@ -9616,6 +9616,10 @@
       ] },
       { "segment": "2874733011", "subrefs": [
         { "name": "Marvel's Wolverine", "start": 572 }
+      ] },
+      { "segment": "2875653512,2875679207", "subrefs": [
+        { "name": "Take Care of My Heifer", "start": 5011 },
+        { "name": "Rehaunted", "start": 7838 }
       ] }
     ]
   },
@@ -10505,6 +10509,11 @@
       ] },
       { "segment": "2873951734", "subrefs": [
         { "name": "The Final Witness", "start": 8743 }
+      ] },
+      { "segment": "2875653512,2875679207", "subrefs": [
+        { "name": "FailRooms (демо)", "start": 3480 },
+        { "name": "Road to Jukai (демо)", "start": 12959 },
+        { "name": "The Night Route", "start": 15313 }
       ] }
     ]
   },
@@ -18715,6 +18724,9 @@
       ] },
       { "segment": "2873951734", "subrefs": [
         { "name": "38" }
+      ] },
+      { "segment": "2875653512,2875679207", "subrefs": [
+        { "name": "39 (не ВВХ)" }
       ] }
     ]
   },
