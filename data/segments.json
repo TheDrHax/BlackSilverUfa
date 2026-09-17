@@ -18683,7 +18683,6 @@
     "youtube": "m2e6LYFpMsQ", "vk": "-28387068_456251151", "abs_start": 0, "abs_end": 18413, "duration": 18413,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #16 / Dreamcore: Rabbit Hole / Blood Mall: Retaped / Unhost / Last Letter / Banana Blood",
     "date": "2026-05-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2763951546.torrent",
     "games": ["horrors-2026", "single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2763951546.ass"
   },
@@ -19530,5 +19529,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2875653512,2875679207.torrent",
     "games": ["horrors-2026", "single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2875653512,2875679207+0.ass"
+  },
+  "2876512872": {
+    "abs_start": 0, "abs_end": 18503, "duration": 18503,
+    "name": "Clive Barker's Hellraiser: Revival (демо) / Blackwood",
+    "date": "2026-09-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2876512872.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2876512872.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2876512872.torrent",
+    "games": ["single-2026", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2876512872.ass"
   }
 }
