@@ -30,7 +30,7 @@ class TimecodesDatabase(Dict[str, Timecodes]):
                 first = False
 
             yield f'  "{key}": '
-            yield indent(json.dumps(value.to_dict(),
+            yield indent(json.dumps(value.to_dict(collapse=True),
                                     indent=2, ensure_ascii=False), 2)[2:]
 
         yield '\n}'

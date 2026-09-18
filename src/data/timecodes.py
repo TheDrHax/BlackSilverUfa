@@ -215,9 +215,15 @@ class Timecodes(SortedKeyList):
     def __new__(cls, *args, **kwargs) -> 'Timecodes':
         return object.__new__(cls)
 
+    def update(self, iterable: List[STORE_TYPE]):
+        for t in iterable:
+            self.add(t)
+
     def add(self, value: STORE_TYPE):
-        if isinstance(value, Timecodes) and all(self.find(value, depth=0)):
-            raise ValueError(f'Duplicate keys: "{value.name}"')
+        x, pos = self.find(value, depth=0)
+
+        if isinstance(value, Timecode) and pos:
+            super().remove(x)
 
         return super().add(value)
 
@@ -337,15 +343,18 @@ class Timecodes(SortedKeyList):
     def to_list(self, delta=False):
         return [tc.to_str(delta) for tc in self]
 
-    def to_dict(self, delta=False) -> NESTED_TYPE:
+    def to_dict(self, delta=False, collapse=False) -> NESTED_TYPE:
         result = {}
 
         for t in self:
             if isinstance(t, Timecodes):
                 if t.is_list:
-                    result[t.name] = t.to_list(delta)
+                    if collapse and len(t) == 1:
+                        result[str(t[0])] = t.name
+                    else:
+                        result[t.name] = t.to_list(delta)
                 else:
-                    result[t.name] = t.to_dict(delta)
+                    result[t.name] = t.to_dict(delta, collapse)
             else:
                 result[str(t)] = t.name
 
