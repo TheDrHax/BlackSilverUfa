@@ -1,140 +1,193 @@
-"""Usage: source_cuts <log> <video>..."""
+"""Usage: source_cuts <video>"""
 
+import av
 import sys
+import uuid
 
-from math import floor
-from parse import compile
+from av.container import InputContainer
+from datetime import datetime
 from docopt import docopt
-from typing import List, Tuple, Union
-from subprocess import Popen, PIPE
-from twitch_utils.clip import Clip
-from twitch_utils.concat import Timeline
-from tempfile import NamedTemporaryFile
-
-from ..data.timecodes import Timecodes, T
+from ..data.timecodes import Timecode, Timecodes
+# from twitch_utils.concat import Timeline
+# from twitch_utils.clip import Clip
+# from tempfile import NamedTemporaryFile
 
 
-PARSE_TIMINGS = compile('Clip {} started at {ts:g} with offset {offset:g}{}')
+TS_UUID = uuid.UUID("0aecffe7-5272-4e2f-a62f-d19cd61a93b5").bytes
+# SM_UUID = uuid.UUID("ca60e71c-6a8b-4388-a377-151df7bf8ac2").bytes
+# ERM_UUID = uuid.UUID("f1fbc1d5-101e-4fb5-a61e-b8ce3c07b8c0").bytes
 
 
-def detect_disconnect_protection(
-        videos: List[str],
-        start: Union[float, None] = None,
-        end: Union[float, None] = None) -> List[float]:
-    ffcmd = ['ffprobe',
-             '-v', 'error',
-            #  '-skip_frame', 'nokey',
-             '-select_streams', 'v:0',
-             '-show_entries', 'packet=pts_time,duration',
-             '-of', 'csv']
-
-    if None not in [start, end]:
-        ffcmd += ['-read_intervals', f'{start}%{end}']
-
-    if len(videos) > 1:
-        if False in [f.endswith('.ts') for f in videos]:
-            raise Exception('ERROR: When multiple clips are provided, they '
-                            'all must be in MPEG-TS format.')
-        
-        clips = []
-        for f in videos:
-            try:
-                clips.append(Clip(f))
-            except Exception:
-                pass
-
-        timeline = Timeline(clips)
-        concat_map = NamedTemporaryFile(delete=True, suffix='.txt')
-        timeline.render(concat_map.name, 'txt', force=True)
-        ffcmd += ['-safe', '0', '-f', 'concat', concat_map.name]
-    else:
-        ffcmd += videos
-
-    ffproc = Popen(ffcmd, stdout=PIPE, stderr=PIPE)
-
-    ranges = []
-    ts = None
-
-    for line in ffproc.stdout:
-        line = line.decode()
-
-        # if not line.startswith('frame,'):
-        #     continue
-
-        # if not line.endswith(',\n'):  # no side data
-        #     continue
-
-        parts = line.strip().split(',')
-        ts = float(parts[1])
-        duration = float(parts[2])
-
-        if duration > 500000:
-            ranges.append(ts)
-        # print(f'Start: {ts}', file=sys.stderr)
-
-    ffproc.terminate()
-    ffproc.wait()
-
-    if ffproc.returncode != 0:
-        raise Exception('ffprobe exited with non-zero code '
-                        f'(code: {ffproc.returncode})')
-
-    return ranges
+epoch = datetime.fromtimestamp(0)
 
 
-def parse_log_timings(log_path: str) -> List[Tuple[float, float, float]]:
-    timeline = []
-    lost = []
+def iterate_packets(container: InputContainer, start: float, end = -1.0, key=False):
+    stream = container.streams.video[0]
+    stream.codec_context.skip_frame = 'NONKEY' if key else 'DEFAULT'
 
-    with open(log_path, 'r') as log:
-        for line in log:
-            parsed = PARSE_TIMINGS.parse(line)
+    assert stream.time_base
 
-            if parsed:
-                timeline.append((parsed['ts'], parsed['offset']))
+    start = int(start / stream.time_base)
+    end = int(end / stream.time_base)
 
-    timeline = sorted(timeline, key=lambda x: x)
+    container.seek(start, stream=stream, any_frame=not key, backward=True)
 
-    for i in range(len(timeline) - 1):
-        ts1, offset1 = timeline[i]
-        ts2, offset2 = timeline[i+1]
+    for packet in container.demux(stream):
+        if not packet.pts or (end > start and packet.pts > end):
+            return
 
-        diff = (ts2 - ts1) - (offset2 - offset1)
-
-        if diff > 4:  # two segments
-            lost.append((offset1, offset2, diff))
-
-    return lost
+        yield packet
 
 
-def get_source_cuts(videos: List[str], log: str) -> Timecodes:
-    ranges = Timecodes()
+def extract_time(container: InputContainer, timestamp: float):
+    for packet in iterate_packets(container, timestamp):
+        for frame in packet.decode():
+            at = None
 
-    for start, end, diff in parse_log_timings(log):
-        print(f'Looking for cut in {T+int(start)}~{T+int(end)} '
-              f'(~{int(diff)} seconds)',
+            for sd in frame.side_data:
+                if sd.type.name != 'SEI_UNREGISTERED':
+                    continue
+
+                raw = bytes(sd)
+                uuid_bytes = raw[:16]
+                payload = raw[16:]
+
+                if uuid_bytes != TS_UUID:
+                    continue
+
+                at = datetime.strptime(payload[3:27].decode(), '%Y-%m-%dT%H:%M:%S.%fZ')
+
+            if not at:
+                continue
+
+            assert frame.pts and frame.time_base
+            t = float(frame.pts * frame.time_base)
+
+            return t, at
+
+    return None, None
+
+
+def binary_search(container, start, end):
+    timestamp = start + (end - start) / 2
+
+    ts, ats = extract_time(container, start)
+    t, at = extract_time(container, timestamp)
+    te, ate = extract_time(container, end)
+
+    d1 = (at - ats).total_seconds() - (t - ts)
+    d2 = (ate - at).total_seconds() - (te - t)
+
+    left, right = [], []
+
+    if abs(d1) > 0.5:
+        if t == end:
+            left = [(start, end, d1 - d2)]
+        else:
+            left = binary_search(container, start, t)
+    
+    if abs(d2) > 0.5:
+        if t == start:
+            right = [(start, end, d1 - d2)]
+        else:
+            right = binary_search(container, t, end)
+
+    return [*left, *right]
+
+
+def find_disconnect_protection(container: InputContainer, start, end):
+    prev_pts = -1
+
+    for packet in iterate_packets(container, start, end):
+        if prev_pts < 0:
+            prev_pts = packet.pts
+
+        assert packet.pts and packet.time_base and packet.duration
+
+        if prev_pts * packet.time_base > end:
+            return None
+
+        if packet.duration > 50000:
+            return float(prev_pts * packet.time_base)
+
+        prev_pts = packet.pts
+
+    return None
+
+
+def get_source_cuts(container: InputContainer) -> Timecodes:
+    video = container.streams.video[0]
+    duration = video.duration * video.time_base
+
+    offset, date_start = extract_time(container, 0)
+    assert offset
+
+    end = None
+    i = 0
+
+    while not end:
+        end, date_end = extract_time(container, duration - 60 * i)
+        i += 1
+
+    delta = (date_end - date_start).total_seconds() - (end - offset)
+
+    if delta < 1:
+        return Timecodes()
+
+    print(f'Lost {delta} seconds, performing binary search', file=sys.stderr)
+
+    res = binary_search(container, offset, end - 1)
+
+    print(f'Found {len(res)} range(s): {res}', file=sys.stderr)
+
+    result = Timecodes()
+
+    for start, end, delta in res:
+        print(f'Looking for cut in {start}~{end} (lost {delta})',
               file=sys.stderr)
-        dp = detect_disconnect_protection(videos, start, end)
 
-        if len(dp) == 0:
-            print(f'WARN: Cut must be in {T+int(start)}~{T+int(end)}, but '
+        range = Timecode(start, end)
+        t = find_disconnect_protection(container, start, end)
+
+        if t is None:
+            print(f'WARN: Cut must be in {range.to_str()}, but '
                    'disconnect protection screen can not be found. '
-                  f'Lost {diff}s',
+                   'Using approximation.',
                   file=sys.stderr)
+            
+            t = start + (end - start) / 2
 
-        for s in dp:
-            t = T + floor(s)
-            t.duration = T + round(diff / len(dp))
-            ranges.add(t)
+        t = Timecode(round(t - offset), round(t - offset + delta))
+        result.add(t)
 
-    return ranges
+    return result
 
 
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
-    ts = get_source_cuts(args['<video>'], args['<log>'])
-    print(','.join(f'{t.start}~{t.end}' for t in ts))
 
+    # if len(args['<video>']) > 1:
+    #     tl = Timeline([Clip(c) for c in args['<video>']])
+    #     concat_map = NamedTemporaryFile(delete=True, suffix='.txt')
+    #     tl.render(concat_map.name, 'txt', force=True)
+    #     container = av.open(concat_map.name, format='concat', options={'safe': '0'})
+    # else:
+    #     container = av.open(args['<video>'][0])
+
+    container = av.open(args['<video>'])
+
+    assert isinstance(container, InputContainer)
+
+    format = container.format.name
+    if format == 'mpegts':
+        print('MPEG-TS is not supported', file=sys.stderr)
+        container.close()
+        sys.exit(1)
+
+    ts = get_source_cuts(container)
+    print(','.join(f'{t.to_str(True)}' for t in ts))
+
+    container.close()
 
 if __name__ == '__main__':
     main()

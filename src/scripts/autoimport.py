@@ -148,14 +148,15 @@ def main(argv=None):
     stream = create_stream(vod)
 
     try:
-        source_cuts = get_source_cuts(
-            [os.path.join(fallback.directory, f'{vod}.mp4')],
-            os.path.join(fallback.directory, f'{vod}.log')
-        )
+        import av
+        path = os.path.join(fallback.directory, '..', 'tmp', 'h265', f'{vod}.mp4')
 
-        if len(source_cuts) > 0:
-            print(f'Adding source_cuts: {source_cuts.to_list()}')
-            stream.cuts = source_cuts
+        with av.open(path) as v:
+            source_cuts = get_source_cuts(v)
+
+            if len(source_cuts) > 0:
+                print(f'Adding source_cuts: {source_cuts.to_list(delta=True)}')
+                stream.cuts = source_cuts
     except Exception as ex:
         print(f'Unable to find source_cuts: {ex}')
 
