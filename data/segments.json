@@ -19543,5 +19543,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2878263383.torrent",
     "games": ["lies-of-p"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2878263383.ass"
+  },
+  "2879282795": {
+    "abs_start": 0, "abs_end": 18349, "duration": 18349,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #40 / Tape 101: Liminal Descent / 771 / Donut Panic (демо) / The Well is not Empty / Feed the Fish",
+    "date": "2026-09-20",
+    "direct": "https://bsufiles.drhx.ru/streams/2879282795.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2879282795.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2879282795.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2879282795.ass"
   }
 }

@@ -9623,6 +9623,11 @@
       ] },
       { "segment": "2876512872", "subrefs": [
         { "name": "Blackwood", "start": 12134 }
+      ] },
+      { "segment": "2879282795", "subrefs": [
+        { "name": "Tape 101: Liminal Descent", "start": 1378 },
+        { "name": "Donut Panic (демо)", "start": 9755 },
+        { "name": "The Well is not Empty", "start": 13303 }
       ] }
     ]
   },
@@ -10520,6 +10525,10 @@
       ] },
       { "segment": "2876512872", "subrefs": [
         { "name": "Clive Barker's Hellraiser: Revival (демо)", "start": 4104 }
+      ] },
+      { "segment": "2879282795", "subrefs": [
+        { "name": "771", "start": 6261 },
+        { "name": "Feed the Fish", "start": 16910 }
       ] }
     ]
   },
@@ -18736,6 +18745,9 @@
       ] },
       { "segment": "2875653512,2875679207", "subrefs": [
         { "name": "39 (не ВВХ)" }
+      ] },
+      { "segment": "2879282795", "subrefs": [
+        { "name": "40" }
       ] }
     ]
   },
