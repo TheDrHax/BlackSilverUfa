@@ -18704,7 +18704,6 @@
     "youtube": "IvHrGHav7ow", "vk": "-28387068_456251155", "abs_start": 0, "abs_end": 18691, "duration": 18691,
     "name": "Nancy Drew: The Haunting of Castle Malloy (Нэнси Дрю. Привидение замка Маллой) #3",
     "date": "2026-05-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2769406049.torrent",
     "games": ["nancy-drew-thocm"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2769406049.ass"
   },
@@ -18712,7 +18711,6 @@
     "youtube": "tB2RvFEfvZQ", "vk": "-28387068_456251156", "abs_start": 0, "abs_end": 24582, "duration": 24582,
     "name": "Meltopia / The Dark Pictures: Directive 8020 #1",
     "date": "2026-05-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2770136518.torrent",
     "games": ["first-2026", "directive-8020"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2770136518.ass"
   },
@@ -19553,5 +19551,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2879282795.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2879282795.ass"
+  },
+  "2880107885": {
+    "abs_start": 0, "abs_end": 26763, "duration": 26763,
+    "name": "Silent Hill: Townfall",
+    "date": "2026-09-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2880107885.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2880107885.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2880107885.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2880107885.ass"
   }
 }
