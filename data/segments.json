@@ -18718,7 +18718,6 @@
     "youtube": "7hFP10E8YIo", "vk": "-28387068_456251157", "abs_start": 0, "abs_end": 29479, "duration": 29479,
     "name": "Resident Evil: Requiem #4 (Leon Must Die Forever) / Crime Scene Cleaner #25 / The Dark Pictures: Directive 8020 #2",
     "date": "2026-05-13",
-    "torrent": "https://bsufiles.drhx.ru/streams/2770908255.torrent",
     "games": ["re-requiem", "csc", "directive-8020"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2770908255+0.ass"
   },
@@ -19554,12 +19553,22 @@
   },
   "2880107885": {
     "vk": "-28387068_456251267", "abs_start": 0, "abs_end": 26763, "duration": 26763,
-    "name": "Silent Hill: Townfall",
+    "name": "Silent Hill: Townfall #1",
     "date": "2026-09-21",
     "direct": "https://bsufiles.drhx.ru/streams/2880107885.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2880107885.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2880107885.torrent",
-    "games": ["first-2026"],
+    "games": ["sh-townfall"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2880107885.ass"
+  },
+  "2880921823": {
+    "abs_start": 0, "abs_end": 30061, "duration": 30061,
+    "name": "Silent Hill: Townfall #2",
+    "date": "2026-09-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2880921823.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2880921823.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2880921823.torrent",
+    "games": ["sh-townfall"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2880921823.ass"
   }
 }

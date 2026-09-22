@@ -9628,9 +9628,6 @@
         { "name": "Tape 101: Liminal Descent", "start": 1378 },
         { "name": "Donut Panic (демо)", "start": 9755 },
         { "name": "The Well is not Empty", "start": 13303 }
-      ] },
-      { "segment": "2880107885", "subrefs": [
-        { "name": "Silent Hill: Townfall", "start": 1958 }
       ] }
     ]
   },
@@ -22111,6 +22108,19 @@
       ] },
       { "segment": "2872140533", "subrefs": [
         { "name": "Релиз", "start": 12860 }
+      ] }
+    ]
+  },
+  {
+    "name": "Silent Hill: Townfall",
+    "category": "ongoing",
+    "id": "sh-townfall",
+    "streams": [
+      { "segment": "2880107885", "subrefs": [
+        { "name": "1", "start": 1958 }
+      ] },
+      { "segment": "2880921823", "subrefs": [
+        { "name": "2", "start": 773 }
       ] }
     ]
   }
