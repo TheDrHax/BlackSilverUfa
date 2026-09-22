@@ -167,6 +167,7 @@ export default class Player extends React.Component {
       firstReady = true,
       firstTimeUpdate = true,
       lastSave = 0,
+      lastTime = 0,
     } = this;
 
     const time = plyr.currentTime;
@@ -192,10 +193,16 @@ export default class Player extends React.Component {
       plyr.pause();
     }
 
-    if (Math.abs(time - lastSave) >= 5) {
+    if (Math.abs(time - lastTime) > 5) { // ignore rewind
+      this.lastSave = time;
+    }
+
+    if (Math.abs(time - lastSave) >= 5) { // Save position
       this.lastSave = time;
       spa.set(time);
     }
+
+    this.lastTime = time;
   }
 
   onVideoEnded() {
