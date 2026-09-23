@@ -80,15 +80,15 @@ def binary_search(container, start, end):
 
     left, right = [], []
 
-    if abs(d1) > 0.5:
+    if abs(d1) > 0.1:
         if t == end:
-            left = [(start, end, d1 - d2)]
+            left = [(start, end, d1)]
         else:
             left = binary_search(container, start, t)
     
-    if abs(d2) > 0.5:
+    if abs(d2) > 0.1:
         if t == start:
-            right = [(start, end, d1 - d2)]
+            right = [(start, end, d2 - d1)]
         else:
             right = binary_search(container, t, end)
 
