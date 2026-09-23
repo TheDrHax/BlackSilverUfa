@@ -18725,7 +18725,6 @@
     "youtube": "IQgD6ALfwfk", "vk": "-28387068_456251158", "abs_start": 0, "abs_end": 24497, "duration": 24497,
     "name": "Crime Scene Cleaner #26 / Ready or Not #7 / Subnautica 2 #1",
     "date": "2026-05-14",
-    "torrent": "https://bsufiles.drhx.ru/streams/2771698843.torrent",
     "games": ["csc", "ready-or-not", "subnautica-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2771698843.ass"
   },
@@ -18733,7 +18732,6 @@
     "youtube": "5-p0I8N-rvI", "vk": "-28387068_456251159", "abs_start": 0, "abs_end": 27766, "duration": 27766,
     "name": "Forza Horizon 6 #1 / Subnautica 2 #2",
     "date": "2026-05-15",
-    "torrent": "https://bsufiles.drhx.ru/streams/2772494226.torrent",
     "games": ["forza-horizon-6", "subnautica-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2772494226.ass"
   },
@@ -19566,5 +19564,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2880921823.torrent",
     "games": ["sh-townfall"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2880921823.ass"
+  },
+  "2881778152": {
+    "abs_start": 0, "abs_end": 26361, "duration": 26361,
+    "name": "Silent Hill: Townfall #3 / Control Resonant",
+    "date": "2026-09-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2881778152.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2881778152.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2881778152.torrent",
+    "games": ["sh-townfall", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2881778152+0.ass"
   }
 }
