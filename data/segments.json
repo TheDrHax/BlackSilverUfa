@@ -17563,9 +17563,9 @@
   },
   "2578806165": {
     "youtube": "0Ig9-6Ghnw0", "vk": "-28387068_456250931", "abs_start": 0, "abs_end": 13903, "duration": 13903,
-    "name": "Подкаст про Silent Hill ƒ (WeLoveGames, Dmitry Bale)",
+    "name": "Подкасты - Silent Hill ƒ (WeLoveGames, Dmitry Bale)",
     "date": "2025-09-29",
-    "games": ["other"],
+    "games": ["podcast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2578806165.ass"
   },
   "2579578173": {
@@ -19568,5 +19568,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2881778152.torrent",
     "games": ["sh-townfall", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2881778152+0.ass"
+  },
+  "2883504889": {
+    "abs_start": 0, "abs_end": 18526, "duration": 18526,
+    "name": "Lies of P #2 / Подкасты - Silent Hill: Townfall (WeLoveGames, Dmitry Bale)",
+    "date": "2026-09-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2883504889.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2883504889.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2883504889.torrent",
+    "games": ["lies-of-p", "podcast"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2883504889.ass"
   }
 }

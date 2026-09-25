@@ -6686,9 +6686,6 @@
       { "segment": "2478592997", "subrefs": [
         { "name": "Nintendo Switch 2", "start": 3558 }
       ] },
-      { "segment": "2578806165", "subrefs": [
-        { "name": "Подкаст про Silent Hill ƒ (WeLoveGames, Dmitry Bale)", "start": 6894 }
-      ] },
       { "segment": "2657553049", "subrefs": [
         { "name": "Новый год 2026" }
       ] },
@@ -6700,6 +6697,19 @@
       ] },
       { "segment": "2858672788", "subrefs": [
         { "name": "DLSS-стрим" }
+      ] }
+    ]
+  },
+  {
+    "name": "Подкасты",
+    "category": "other",
+    "id": "podcast",
+    "streams": [
+      { "segment": "2578806165", "subrefs": [
+        { "name": "Silent Hill ƒ (WeLoveGames, Dmitry Bale)", "start": 6894 }
+      ] },
+      { "segment": "2883504889", "subrefs": [
+        { "name": "Silent Hill: Townfall (WeLoveGames, Dmitry Bale)", "start": 10811 }
       ] }
     ]
   },
@@ -12859,6 +12869,9 @@
       ] },
       { "segment": "2878263383", "subrefs": [
         { "name": "1 (заново)", "start": 1457 }
+      ] },
+      { "segment": "2883504889", "subrefs": [
+        { "name": "2", "start": 1701 }
       ] }
     ]
   },
