@@ -19578,5 +19578,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2883504889.torrent",
     "games": ["lies-of-p", "podcast"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2883504889.ass"
+  },
+  "2885449305": {
+    "abs_start": 0, "abs_end": 18794, "duration": 18794,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #41 / The Expansion / Karjala / Terrible Lizards (демо) / Traffic Stop Anomaly / Yellowcreek Stories: The Cabin Watcher / The Old House",
+    "date": "2026-09-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2885449305.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2885449305.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2885449305.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2885449305.ass"
   }
 }
