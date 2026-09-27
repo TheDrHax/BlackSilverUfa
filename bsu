@@ -3,7 +3,7 @@
 export PYTHON="${PYTHON:-python3}"
 export VENV="_python"
 export NODEENV="_node"
-export PATH="$PWD/$VENV/bin:$PWD/node_modules/.bin:$PWD/$NODEENV/bin:$PATH"
+export PATH="$PWD/node_modules/.bin:$PWD/$NODEENV/bin:$PATH"
 export PREFIX="_site"
 
 export GIT_REMOTE="origin"
@@ -70,6 +70,8 @@ if [ ! -d "$VENV" ] && [ "_$1" != "_venv" ]; then
     echo "Setting up Python virtual environment: $VENV"
     venv_setup requirements.txt
 fi
+
+source $VENV/bin/activate
 
 require_node() {
     if [ ! -d "$NODEENV" ]; then
@@ -155,7 +157,9 @@ case $1 in
         dir=$(jq -r '.fallback.directory' config/config.json)
         tmp_dir=${dir/Streams/tmp}
 
-        if [ -e "$tmp_dir/$VOD.0.ts" ]; then
+        if [ -e "$tmp_dir/h265/$VOD.0.ts" ]; then
+            mpv $(twitch_utils concat $tmp_dir/h265/$VOD.*.ts -o - -f edl_uri)
+        elif [ -e "$tmp_dir/$VOD.0.ts" ]; then
             mpv $(twitch_utils concat $tmp_dir/$VOD.*.ts -o - -f edl_uri)
         else
             mpv $dir/$VOD.mp4
