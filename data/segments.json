@@ -18739,7 +18739,6 @@
     "youtube": "iBmDrRt21eg", "vk": "-28387068_456251160", "abs_start": 0, "abs_end": 26542, "duration": 26542,
     "name": "Forza Horizon 6 #2 / Subnautica 2 #3",
     "date": "2026-05-16",
-    "torrent": "https://bsufiles.drhx.ru/streams/2773358349.torrent",
     "games": ["forza-horizon-6", "subnautica-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2773358349.ass"
   },
@@ -19514,11 +19513,11 @@
   },
   "2875653512,2875679207": {
     "youtube": "kmYXXtsY48c", "abs_start": 0, "abs_end": 18030, "duration": 18030,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #39 (не ВВХ) / FailRooms (демо) / Take Care of My Heifer / Rehaunted / Road to Jukai (демо) / The Night Route",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #39 (не ВВХ) / FailRooms (демо) / Take Care of My Heifer / Rehaunted - Демо / Road to Jukai (демо) / The Night Route",
     "date": "2026-09-16",
     "offsets": ["0:00", "38:34+2"],
     "torrent": "https://bsufiles.drhx.ru/streams/2875653512,2875679207.torrent",
-    "games": ["horrors-2026", "single-2026", "first-2026"],
+    "games": ["horrors-2026", "single-2026", "first-2026", "rehaunted"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2875653512,2875679207+0.ass"
   },
   "2876512872": {
@@ -19580,13 +19579,23 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2883504889.ass"
   },
   "2885449305": {
-    "abs_start": 0, "abs_end": 18794, "duration": 18794,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #41 / The Expansion / Karjala / Terrible Lizards (демо) / Traffic Stop Anomaly / Yellowcreek Stories: The Cabin Watcher / The Old House",
+    "vk": "-28387068_456251271", "abs_start": 0, "abs_end": 18794, "duration": 18794,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #41 / The Expansion / Karjala / Terrible Lizards (демо) / Traffic Stop Anomaly / Yellowcreek Stories: The Cabin Watcher / The Old House - Демо",
     "date": "2026-09-27",
     "direct": "https://bsufiles.drhx.ru/streams/2885449305.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2885449305.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2885449305.torrent",
-    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "games": ["horrors-2026", "first-2026", "single-2026", "old-house"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2885449305.ass"
+  },
+  "2886317549": {
+    "abs_start": 0, "abs_end": 17137, "duration": 17137,
+    "name": "The Old House - Прохождение / Crime Podcast: 1976 / Rehaunted - Релиз / Don't Pick Up (демо)",
+    "date": "2026-09-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2886317549.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2886317549.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2886317549.torrent",
+    "games": ["old-house", "single-2026", "rehaunted"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2886317549.ass"
   }
 }
