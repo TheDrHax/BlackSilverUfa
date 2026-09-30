@@ -117,11 +117,9 @@ export default class SegmentPlayer extends React.Component {
       segmentRef = findRefBySegment(game, segment);
     }
 
-    const newLocation = {
-      ...location,
+    getHistory().replace({
       pathname: `/play/${gameId}/${segment.segment}`,
-      search: `?at=${at}`,
-    };
+    });
 
     return {
       segment,
@@ -129,7 +127,6 @@ export default class SegmentPlayer extends React.Component {
       segmentRef,
       start: t,
       autostart: reqState?.autostart,
-      redirect: redirect && newLocation,
     };
   }
 
@@ -140,10 +137,6 @@ export default class SegmentPlayer extends React.Component {
       if (!request) {
         this.setState({ error: true });
         return;
-      }
-
-      if (request.redirect) {
-        getHistory().replace(request.redirect);
       }
 
       const {
