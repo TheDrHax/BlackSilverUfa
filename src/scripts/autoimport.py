@@ -1,4 +1,4 @@
-"""Usage: autoimport [--dry-run] [--no-refs] [<vod>]"""
+"""Usage: autoimport [--dry-run] [--refs] [<vod>]"""
 
 import os
 import json
@@ -74,7 +74,7 @@ def create_game(name, id, category='other', type=None) -> Game:
 
 
 def find_intro(vod: str) -> Union[Timecode, None]:
-    clip_vod = Clip(os.path.join(fallback.directory, f'{vod}.mp4'))
+    clip_vod = Clip(os.path.join(fallback.directory, f'../tmp/h265/{vod}.0.ts'))
     clip_intro = Clip(os.path.join('sounds', 'intro.wav'))
     offset, score = find_offset(clip_intro, clip_vod, end=900, min_score=10, ar=1000)
 
@@ -162,7 +162,7 @@ def main(argv=None):
 
     create_timecodes(vod, timeline)
 
-    if not args['--no-refs']:
+    if args['--refs']:
         def normalize_game(name: str) -> str:
             return name.lower().split(' (')[0]
 

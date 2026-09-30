@@ -135,6 +135,10 @@ case $1 in
         flask run --host=0.0.0.0 "$@" ;;
 
     download-chats) $PYTHON -m src.utils.chats ;;
+    import)
+        shift
+        $PYTHON -m src.scripts.autoimport "$@"
+        $PYTHON -m src.scripts.irc --plot "$@" ;;
     sh|bash) "$@" ;;
     cli)
         shift

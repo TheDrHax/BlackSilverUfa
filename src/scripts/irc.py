@@ -1,10 +1,8 @@
 """Usage:
   irc <source> <start> <duration> <vod> [--plot]
-  irc (--current | <vod>) [--plot]
+  irc [<vod>] [--plot]
 
 Options:
-  --current   Download chat for stream that is currently online. Uses custom
-              API endpoint.
   --plot      Plot the frequency of emotes during the stream.
 
 This script converts IRC logs to chat subtitles.
@@ -86,13 +84,13 @@ def parser(source: str, start: datetime, duration: datetime):
 def main(argv=None):
     args = docopt(__doc__, argv=argv)
 
-    if args['--current'] or args['<vod>'] and not args['<source>']:
-        if args['--current']:
-            stream = requests.get('https://red.drhx.ru/blackufa/twitch').json()
-            vod = stream['vod']
-        else:
+    if not args['<source>']:
+        if args['<vod>']:
             vod = args['<vod>']
             stream = requests.get(f'https://red.drhx.ru/blackufa/twitch/{vod}').json()
+        else:
+            stream = requests.get('https://red.drhx.ru/blackufa/twitch').json()
+            vod = stream['vod']
 
         date = stream['date'].split('T')[0]
 
