@@ -6,16 +6,14 @@ import { ptime } from '../../utils/time-utils';
 import { FAIcon } from '../../utils/fontawesome';
 import { usePlyrTime } from '../../hooks/use-plyr-time';
 
-const TimecodeLink = ({ value, plyr }) => {
+const TimecodeLink = ({ value, plyr, setTime }) => {
   const valueInt = useMemo(() => ptime(value), [value]);
   const visited = usePlyrTime(plyr, (t) => t >= valueInt) >= valueInt;
 
   const handleClick = useCallback((e) => {
     e.preventDefault();
-    if (!plyr) return;
-    plyr.currentTime = valueInt;
-    plyr.play()?.catch(() => null);
-  }, [plyr, valueInt]);
+    setTime(valueInt);
+  }, [setTime, valueInt]);
 
   return (
     // eslint-disable-next-line jsx-a11y/anchor-is-valid
@@ -32,6 +30,7 @@ const TimecodeLink = ({ value, plyr }) => {
 TimecodeLink.propTypes = {
   value: PropTypes.string.isRequired,
   plyr: PropTypes.object,
+  setTime: PropTypes.func,
 };
 
 TimecodeLink.defaultProps = {

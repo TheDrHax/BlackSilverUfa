@@ -76,6 +76,7 @@ export default class SegmentPlayer extends React.Component {
     this.toggleSidebar = this.toggleSidebar.bind(this);
     this.renderPlayerOverlay = this.renderPlayerOverlay.bind(this);
     this.onTimeUpdate = this.onTimeUpdate.bind(this);
+    this.setTime = this.setTime.bind(this);
 
     this.chatContainer = this.createChatContainer();
   }
@@ -541,6 +542,20 @@ export default class SegmentPlayer extends React.Component {
     );
   }
 
+  setTime(t) {
+    const { plyr } = this.state;
+
+    this.setState({
+      start: t,
+      autostart: true,
+    });
+
+    if (plyr) {
+      plyr.currentTime = t;
+      plyr.play()?.catch(() => null);
+    }
+  }
+
   renderTimecodes() {
     const { timecodes, plyr } = this.state;
 
@@ -552,6 +567,7 @@ export default class SegmentPlayer extends React.Component {
         <Scroll className="flex-1-1-0">
           <Timecodes
             data={timecodes}
+            setTime={this.setTime}
             plyr={plyr}
           />
         </Scroll>
