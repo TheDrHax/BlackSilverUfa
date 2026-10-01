@@ -65,7 +65,7 @@ steps:
   - ./bsu webpack
   # - ./bsu npm test
 
-  - './bsu pages commit "Drone: Обновление статичных файлов"'
+  - './bsu pages commit "[ci skip] Drone: Обновление статичных файлов"'
   - ./bsu pages push
 
   - |
