@@ -203,6 +203,9 @@ def generate_subtitles(segment, force: bool = False):
         if segment.stream.type is StreamType.JOINED:
             concatenate_subtitles(segment.stream.streams, segment.offsets, fo)
             fi = fo
+
+            if len(segment.cuts) > 0:
+                cut_subtitles(segment.cuts, fi, fo)
         else:
             fi = find_subtitles(segment.stream)
 
