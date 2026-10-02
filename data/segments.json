@@ -18744,7 +18744,6 @@
     "youtube": "RVzKu0sDiUQ", "vk": "-28387068_456251161", "abs_start": 0, "abs_end": 17655, "duration": 17655,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #18 / Poolscape / Midnight Kebab / Scary Game 2: The Mad Shepherd / Not My Hand / The Butler / I Fell for Her #1",
     "date": "2026-05-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2774222879.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026", "i-fell-for-her"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2774222879.ass"
   },
@@ -18752,7 +18751,6 @@
     "youtube": "K7afaRPrqQc", "abs_start": 0, "abs_end": 16189, "duration": 16189,
     "name": "LEGO Batman: Legacy of the Dark Knight",
     "date": "2026-05-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2778914294.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2778914294.ass"
   },
@@ -19597,5 +19595,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2887102003.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2887102003.ass"
+  },
+  "2889704094": {
+    "abs_start": 0, "abs_end": 25338, "duration": 25338,
+    "name": "Gears of War: E-Day",
+    "date": "2026-10-02",
+    "direct": "https://bsufiles.drhx.ru/streams/2889704094.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2889704094.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2889704094.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2889704094.ass"
   }
 }
