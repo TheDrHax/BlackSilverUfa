@@ -18783,12 +18783,9 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2780602438+0.ass"
   },
   "2780651471": {
-    "abs_start": 0, "abs_end": 110, "duration": 110,
+    "abs_start": 0, "abs_end": 171, "duration": 0,
     "name": "",
     "date": "2026-05-25",
-    "direct": "https://bsufiles.drhx.ru/streams/2780651471.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2780651471.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2780651471.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2780651471+0.ass"
   },
@@ -18797,7 +18794,6 @@
     "name": "James Bond 007: From Russia with Love / James Bond 007: Nightfire",
     "date": "2026-05-25",
     "offsets": ["0:00", "2:05:27+1", "2:14:23+2", "3:27:00+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2780521248,2780594160,2780602438,2780651471.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2780521248,2780594160,2780602438,2780651471+0.ass"
   },
@@ -18805,7 +18801,6 @@
     "youtube": "4tYKPvvAniw", "vk": "-28387068_456251169", "abs_start": 0, "abs_end": 21777, "duration": 21777,
     "name": "007 First Light #1",
     "date": "2026-05-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2781317749.torrent",
     "games": ["007-fl"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2781317749.ass"
   },
@@ -19612,5 +19607,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2890670943.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2890670943.ass"
+  },
+  "2891673921": {
+    "abs_start": 0, "abs_end": 18392, "duration": 18392,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #42 / Entry 13 / Deadpact / It's Not My Horse / Late Pizza Delivery / Midnight News Report / Shockface",
+    "date": "2026-10-04",
+    "direct": "https://bsufiles.drhx.ru/streams/2891673921.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2891673921.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2891673921.torrent",
+    "games": ["horrors-2026", "single-2026", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2891673921.ass"
   }
 }
