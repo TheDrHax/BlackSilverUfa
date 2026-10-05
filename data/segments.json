@@ -18805,22 +18805,16 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2781317749.ass"
   },
   "2782041032": {
-    "abs_start": 0, "abs_end": 726, "duration": 726,
+    "abs_start": 0, "abs_end": 734, "duration": 0,
     "name": "",
     "date": "2026-05-27",
-    "direct": "https://bsufiles.drhx.ru/streams/2782041032.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2782041032.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2782041032.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2782041032.ass"
   },
   "2782046080": {
-    "abs_start": 0, "abs_end": 24888, "duration": 24888,
+    "abs_start": 0, "abs_end": 24996, "duration": 0,
     "name": "",
     "date": "2026-05-27",
-    "direct": "https://bsufiles.drhx.ru/streams/2782046080.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2782046080.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2782046080.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2782046080.ass"
   },
@@ -18829,7 +18823,6 @@
     "name": "007 First Light #2",
     "date": "2026-05-27",
     "offsets": ["0:00", "12:06"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2782041032,2782046080.torrent",
     "games": ["007-fl"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2782041032,2782046080+0.ass"
   },
@@ -19610,10 +19603,20 @@
   },
   "2891673921": {
     "youtube": "436-VTU4Ah4", "vk": "-28387068_456251278", "abs_start": 0, "abs_end": 18392, "duration": 18392,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #42 / Entry 13 / Deadpact / It's Not My Horse / Late Pizza Delivery / Midnight News Report / Shockface",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #42 / Entry 13 / Deadpact #1 / It's Not My Horse / Late Pizza Delivery / Midnight News Report / Shockface",
     "date": "2026-10-04",
     "torrent": "https://bsufiles.drhx.ru/streams/2891673921.torrent",
-    "games": ["horrors-2026", "single-2026", "first-2026"],
+    "games": ["horrors-2026", "single-2026", "deadpact", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2891673921.ass"
+  },
+  "2892503691": {
+    "abs_start": 0, "abs_end": 19329, "duration": 19329,
+    "name": "Deadpact #2 / Ларёк на улице Ленина (Lenin Street Geek Shop) / Elta: Defy All Gods / Castlevania: Belmont's Curse (демо) / Tremen (демо) / RetroSpace",
+    "date": "2026-10-05",
+    "direct": "https://bsufiles.drhx.ru/streams/2892503691.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2892503691.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2892503691.torrent",
+    "games": ["deadpact", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2892503691.ass"
   }
 }

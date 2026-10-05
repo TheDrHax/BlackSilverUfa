@@ -9657,8 +9657,14 @@
         { "name": "Ace Combat 8: Wings Of Theve", "start": 14853 }
       ] },
       { "segment": "2891673921", "subrefs": [
-        { "name": "Deadpact", "start": 3198 },
         { "name": "Shockface", "start": 14480 }
+      ] },
+      { "segment": "2892503691", "subrefs": [
+        { "name": "Ларёк на улице Ленина (Lenin Street Geek Shop)", "start": 5391 },
+        { "name": "Elta: Defy All Gods", "start": 10768 },
+        { "name": "Castlevania: Belmont's Curse (демо)", "start": 12797 },
+        { "name": "Tremen (демо)", "start": 15546 },
+        { "name": "RetroSpace", "start": 15967 }
       ] }
     ]
   },
@@ -22204,6 +22210,19 @@
       ] },
       { "segment": "2886317549", "subrefs": [
         { "name": "Релиз", "start": 13027 }
+      ] }
+    ]
+  },
+  {
+    "name": "Deadpact",
+    "category": "ongoing",
+    "id": "deadpact",
+    "streams": [
+      { "segment": "2891673921", "subrefs": [
+        { "name": "1", "start": 3198 }
+      ] },
+      { "segment": "2892503691", "subrefs": [
+        { "name": "2", "start": 1290 }
       ] }
     ]
   }
