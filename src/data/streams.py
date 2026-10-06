@@ -351,100 +351,100 @@ class Segment:
             multiline_keys = ['name', 'date', 'direct', 'hls', 'offsets',
                               'cuts', 'torrent', 'games', 'subtitles', 'note']
 
+        fields = attr.fields_dict(type(self))
+
         def get_attr(key):
-            if key in self.fallbacks and not compiled:
+            if key == 'games':
+                return list(game.id for game in self.games)
+
+            if key == 'source_cuts':
+                if self.segment != 0:
+                    value = Timecodes()
+                else:
+                    value = self.stream.cuts
+            elif key in self.fallbacks and not compiled:
                 value = self.fallbacks[key]
             else:
                 value = getattr(self, key)
 
-            return value
-
-        multiline = True in [get_attr(key) not in [None, []]
-                             for key in multiline_keys]
-
-        yield '{'
-        yield '\n  ' if multiline else ' '
-
-        fields = attr.fields_dict(type(self))
-
-        first = True
-        for key in keys:
-            if key == 'source_cuts':
-                if self.segment != 0:
-                    continue
-
-                value = self.stream.cuts
-            else:
-                value = get_attr(key)
-
-            if value is None:
-                continue
-
             if key in fields and fields[key].default == value:
-                continue
-
-            if isinstance(value, Timecodes):
-                if len(value) == 0:
-                    continue
-
-                value = value.to_list(delta=key in ['source_cuts', 'cuts'])
+                return None
 
             if isinstance(value, Timecode):
                 if not compiled and value == 0:
-                    continue
+                    return None
                 
                 if compiled:
                     value = int(value)
 
-            if not first:
-                yield ', '
-            else:
-                first = False
+            if isinstance(value, Timecodes):
+                if len(value) == 0:
+                    return None
 
-            if key.startswith('_'):
-                key = key[1:]
+                if key == 'cuts' and compiled:
+                    value = [[int(t.start), int(t.end)] for t in value]
+                elif key == 'offsets' and self.stream.type is not StreamType.JOINED:
+                    return None
+                else:
+                    value = value.to_list(True)
 
-            yield f'"{key}": {json_escape(value)}'
-
-        for key in multiline_keys:
-            value = get_attr(key)
+            if key == 'subtitles' and self.stream.type is StreamType.NO_CHAT:
+                return None
 
             if key == 'date':
                 value = value.date().isoformat()
 
+            return value
+
+        lines = ['']
+        force_multiline = False
+
+        for key in keys:
+            value = get_attr(key)
+
             if value is None:
                 continue
 
-            if key == 'offsets':
-                if self.stream.type is StreamType.JOINED:
-                    value = value.to_list(delta=True)
+            if key.startswith('_'):
+                key = key[1:]
+
+            if len(lines[0]) > 0:
+                lines[0] += ', '
+
+            lines[0] += f'"{key}": {json_escape(value)}'
+
+        for key in multiline_keys:
+            value = get_attr(key)
+
+            if value is None:
+                continue
+
+            if key == 'note':
+                force_multiline = True
+
+            lines.append(f'"{key}": {json_escape(value)}')
+
+        if len(lines[0]) == 0:
+            lines.pop(0)
+
+        first = True
+
+        if len(lines) > 1 or force_multiline:
+            yield '{\n  '
+
+            for line in lines:
+                if not first:
+                    yield ',\n  '
                 else:
-                    continue
+                    first = False
 
-            if key == 'subtitles' and self.stream.type is StreamType.NO_CHAT:
-                continue
+                yield line
 
-            if key == 'cuts' and compiled:
-                if len(value) == 0:
-                    continue
-
-                value = [[int(t.start), int(t.end)] for t in value]
-
-            if key == 'games':
-                value = list(game.id for game in self.games)
-
-            if value is None:
-                continue
-
-            if not first:
-                yield ',\n  '
-            else:
-                first = False
-
-            yield f'"{key}": {json_escape(value)}'
-
-        yield '\n' if multiline else ' '
-        yield '}'
+            yield '\n}'
+        elif len(lines) == 1:
+            yield '{ ' + lines[0] + ' }'
+        else:
+            yield '{  }'
 
     def __str__(self):
         return self.to_json()
