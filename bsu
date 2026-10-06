@@ -161,12 +161,16 @@ case $1 in
         dir=$(jq -r '.fallback.directory' config/config.json)
         tmp_dir=${dir/Streams/tmp}
 
-        if [ -e "$tmp_dir/h265/$VOD.0.ts" ]; then
-            mpv $(twitch_utils concat $tmp_dir/h265/$VOD.*.ts -o - -f edl_uri)
-        elif [ -e "$tmp_dir/$VOD.0.ts" ]; then
-            mpv $(twitch_utils concat $tmp_dir/$VOD.*.ts -o - -f edl_uri)
+        if [ -e "$dir/$VOD-h265.mp4" ]; then
+            mpv "$dir/$VOD-h265.mp4"
+        elif [ -e "$dir/$VOD.mp4" ]; then
+            mpv "$dir/$VOD.mp4"
+        elif [ -e "$tmp_dir/h265/$VOD.0.ts" ]; then
+            mpv $(twitch_utils concat "$tmp_dir/h265/$VOD".*.ts -o - -f edl_uri)
+        elif [ -e "$tmp_dir/h264/$VOD.0.ts" ]; then
+            mpv $(twitch_utils concat "$tmp_dir/h264/$VOD".*.ts -o - -f edl_uri)
         else
-            mpv $dir/$VOD.mp4
+            mpv "$dir/$VOD.mp4"
         fi
 
         ;;

@@ -3,6 +3,7 @@
 import os
 import json
 import requests
+import glob
 
 from itertools import chain
 from datetime import datetime
@@ -22,6 +23,34 @@ from ..data.loader.default import streams, games, timecodes
 SKIP_LIST = [
     'Just Chatting'
 ]
+
+
+def vod_path(vod):
+    path_patterns = [
+        f"./{vod}-h265.mp4",
+        f"./{vod}.mp4",
+    ]
+
+    for path in path_patterns:
+        path = os.path.join(fallback.directory, path)
+        if os.path.exists(path):
+            return [path]
+
+    ts_patterns = [
+        f"../tmp/h265/{vod}.*.ts",
+        f"../tmp/h264/{vod}.*.ts",
+    ]
+
+    found_ts_paths = []
+
+    for pattern in ts_patterns:
+        for path in glob.glob(os.path.join(fallback.directory, pattern)):
+            found_ts_paths.append(path)
+
+    if found_ts_paths:
+        return found_ts_paths
+
+    raise Exception('VOD not found')
 
 
 def parse_date(d: str) -> datetime:
@@ -74,7 +103,7 @@ def create_game(name, id, category='other', type=None) -> Game:
 
 
 def find_intro(vod: str) -> Union[Timecode, None]:
-    clip_vod = Clip(os.path.join(fallback.directory, f'../tmp/h265/{vod}.0.ts'))
+    clip_vod = Clip(vod_path(vod)[0])
     clip_intro = Clip(os.path.join('sounds', 'intro.wav'))
     offset, score = find_offset(clip_intro, clip_vod, end=900, min_score=10, ar=1000)
 
@@ -149,14 +178,17 @@ def main(argv=None):
 
     try:
         import av
-        path = os.path.join(fallback.directory, '..', 'tmp', 'h265', f'{vod}.mp4')
+        path = vod_path(vod)
 
-        with av.open(path) as v:
-            source_cuts = get_source_cuts(v)
+        if len(path) > 1:
+            print(f'Stream is live, skipping source_cuts')
+        else:
+            with av.open(path[0]) as v:
+                source_cuts = get_source_cuts(v)
 
-            if len(source_cuts) > 0:
-                print(f'Adding source_cuts: {source_cuts.to_list(delta=True)}')
-                stream.cuts = source_cuts
+                if len(source_cuts) > 0:
+                    print(f'Adding source_cuts: {source_cuts.to_list(delta=True)}')
+                    stream.cuts = source_cuts
     except Exception as ex:
         print(f'Unable to find source_cuts: {ex}')
 
