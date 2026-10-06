@@ -387,7 +387,7 @@ class Segment:
                 if len(value) == 0:
                     continue
 
-                value = value.to_list(delta=key in ['source_cuts'])
+                value = value.to_list(delta=key in ['source_cuts', 'cuts'])
 
             if isinstance(value, Timecode):
                 if not compiled and value == 0:
