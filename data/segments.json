@@ -18830,7 +18830,6 @@
     "youtube": "Ck1lIDVOoew", "abs_start": 0, "abs_end": 22271, "duration": 22271,
     "name": "007 First Light #3",
     "date": "2026-05-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2782821102.torrent",
     "games": ["007-fl"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2782821102.ass"
   },
@@ -18838,7 +18837,6 @@
     "youtube": "vEWH17a6qiw", "vk": "-28387068_456251172", "abs_start": 0, "abs_end": 22611, "duration": 22611,
     "name": "Crime Scene Cleaner #27 / I Fell for Her #2 / Cheap Car Repair",
     "date": "2026-05-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2784414618.torrent",
     "games": ["csc", "i-fell-for-her", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2784414618.ass"
   },
@@ -19506,10 +19504,10 @@
   },
   "2876512872": {
     "youtube": "IFhqDUXOcCs", "vk": "-28387068_456251264", "abs_start": 0, "abs_end": 18504, "duration": 18504,
-    "name": "Clive Barker's Hellraiser: Revival (демо) / Blackwood",
+    "name": "Clive Barker's Hellraiser: Revival - Демо / Blackwood",
     "date": "2026-09-17",
     "torrent": "https://bsufiles.drhx.ru/streams/2876512872.torrent",
-    "games": ["single-2026", "first-2026"],
+    "games": ["hellraiser-revival", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2876512872.ass"
   },
   "2878263383": {
@@ -19618,5 +19616,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2892503691.torrent",
     "games": ["deadpact", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2892503691.ass"
+  },
+  "2895051612": {
+    "abs_start": 0, "abs_end": 25229, "duration": 25229,
+    "name": "Clive Barker's Hellraiser: Revival - Релиз",
+    "date": "2026-10-08",
+    "direct": "https://bsufiles.drhx.ru/streams/2895051612.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2895051612.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2895051612.torrent",
+    "games": ["hellraiser-revival"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2895051612.ass"
   }
 }

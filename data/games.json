@@ -10560,9 +10560,6 @@
         { "name": "Road to Jukai (демо)", "start": 12959 },
         { "name": "The Night Route", "start": 15313 }
       ] },
-      { "segment": "2876512872", "subrefs": [
-        { "name": "Clive Barker's Hellraiser: Revival (демо)", "start": 4104 }
-      ] },
       { "segment": "2879282795", "subrefs": [
         { "name": "771", "start": 6261 },
         { "name": "Feed the Fish", "start": 16910 }
@@ -22223,6 +22220,19 @@
       ] },
       { "segment": "2892503691", "subrefs": [
         { "name": "2", "start": 1290 }
+      ] }
+    ]
+  },
+  {
+    "name": "Clive Barker's Hellraiser: Revival",
+    "category": "ongoing",
+    "id": "hellraiser-revival",
+    "streams": [
+      { "segment": "2876512872", "subrefs": [
+        { "name": "Демо", "start": 4104 }
+      ] },
+      { "segment": "2895051612", "subrefs": [
+        { "name": "Релиз", "start": 835 }
       ] }
     ]
   }
