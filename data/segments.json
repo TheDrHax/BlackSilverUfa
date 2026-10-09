@@ -18844,7 +18844,6 @@
     "youtube": "mRZZK2OqR-o", "vk": "-28387068_456251173", "abs_start": 0, "abs_end": 18375, "duration": 18375,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #20 / Liminal Shroud - Релиз / BrokenLore: ASCEND (демо) / Grief / It Reaches - Релиз / Memories: Silenced",
     "date": "2026-05-31",
-    "torrent": "https://bsufiles.drhx.ru/streams/2785277543.torrent",
     "games": ["horrors-2026", "liminal-shroud", "single-2026", "it-reaches"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2785277543.ass"
   },
@@ -18852,7 +18851,6 @@
     "youtube": "dkUlUv4Tdfg", "vk": "-28387068_456251174", "abs_start": 0, "abs_end": 15940, "duration": 15940,
     "name": "Silver Pines (демо) / Wilderdark (демо) / Baptiste #2 (демо) / The Skin Stapler - Демо / Eternal Haunt",
     "date": "2026-06-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2786781807.torrent",
     "games": ["first-2026", "baptiste", "skin-stapler"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2786781807.ass"
   },
@@ -18860,7 +18858,6 @@
     "youtube": "FQnta_ZCQFc", "vk": "-28387068_456251175", "abs_start": 0, "abs_end": 24549, "duration": 24549,
     "name": "Onimusha: Way of the Sword (демо) / Fatekeeper (демо) / The Classrooms #6",
     "date": "2026-06-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2787566607.torrent",
     "games": ["first-2026", "classrooms"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2787566607.ass"
   },
@@ -19618,13 +19615,23 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2892503691.ass"
   },
   "2895051612": {
-    "abs_start": 0, "abs_end": 25229, "duration": 25229,
-    "name": "Clive Barker's Hellraiser: Revival - Релиз",
+    "vk": "-28387068_456251280", "abs_start": 0, "abs_end": 25229, "duration": 25229,
+    "name": "Clive Barker's Hellraiser: Revival #1",
     "date": "2026-10-08",
     "direct": "https://bsufiles.drhx.ru/streams/2895051612.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2895051612.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2895051612.torrent",
     "games": ["hellraiser-revival"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2895051612.ass"
+  },
+  "2895918794": {
+    "abs_start": 0, "abs_end": 26239, "duration": 26239,
+    "name": "Clive Barker's Hellraiser: Revival #2",
+    "date": "2026-10-09",
+    "direct": "https://bsufiles.drhx.ru/streams/2895918794.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2895918794.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2895918794.torrent",
+    "games": ["hellraiser-revival"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2895918794.ass"
   }
 }

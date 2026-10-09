@@ -22225,14 +22225,17 @@
   },
   {
     "name": "Clive Barker's Hellraiser: Revival",
-    "category": "ongoing",
+    "category": "finished",
     "id": "hellraiser-revival",
     "streams": [
       { "segment": "2876512872", "subrefs": [
         { "name": "Демо", "start": 4104 }
       ] },
       { "segment": "2895051612", "subrefs": [
-        { "name": "Релиз", "start": 835 }
+        { "name": "1", "start": 835 }
+      ] },
+      { "segment": "2895918794", "subrefs": [
+        { "name": "2", "start": 727 }
       ] }
     ]
   }
