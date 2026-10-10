@@ -18849,9 +18849,9 @@
   },
   "2786781807": {
     "youtube": "dkUlUv4Tdfg", "vk": "-28387068_456251174", "abs_start": 0, "abs_end": 15940, "duration": 15940,
-    "name": "Silver Pines (демо) / Wilderdark (демо) / Baptiste #2 (демо) / The Skin Stapler - Демо / Eternal Haunt",
+    "name": "Silver Pines - Демо / Wilderdark (демо) / Baptiste #2 (демо) / The Skin Stapler - Демо / Eternal Haunt",
     "date": "2026-06-02",
-    "games": ["first-2026", "baptiste", "skin-stapler"],
+    "games": ["silver-pines", "first-2026", "baptiste", "skin-stapler"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2786781807.ass"
   },
   "2787566607": {
@@ -18865,7 +18865,6 @@
     "youtube": "gJbQj32DhLc", "vk": "-28387068_456251176", "abs_start": 0, "abs_end": 21964, "duration": 21964,
     "name": "Crime Scene Cleaner #28 / Friendly Steps / RV There Yet? #6",
     "date": "2026-06-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2788370660.torrent",
     "games": ["csc", "first-2026", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2788370660.ass"
   },
@@ -19625,7 +19624,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2895051612.ass"
   },
   "2895918794": {
-    "abs_start": 0, "abs_end": 26239, "duration": 26239,
+    "vk": "-28387068_456251281", "abs_start": 0, "abs_end": 26239, "duration": 26239,
     "name": "Clive Barker's Hellraiser: Revival #2",
     "date": "2026-10-09",
     "direct": "https://bsufiles.drhx.ru/streams/2895918794.mp4",
@@ -19633,5 +19632,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2895918794.torrent",
     "games": ["hellraiser-revival"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2895918794.ass"
+  },
+  "2896927553": {
+    "abs_start": 0, "abs_end": 18361, "duration": 18361,
+    "name": "P.T. / Silver Pines - Релиз",
+    "date": "2026-10-10",
+    "direct": "https://bsufiles.drhx.ru/streams/2896927553.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2896927553.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2896927553.torrent",
+    "games": ["single-2026", "silver-pines"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2896927553.ass"
   }
 }
