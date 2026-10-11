@@ -18872,7 +18872,6 @@
     "youtube": "IfxGfS5cdy8", "vk": "-28387068_456251177", "abs_start": 0, "abs_end": 10067, "duration": 10067,
     "name": "Gothic 1 Remake - Демо 2",
     "date": "2026-06-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2789301878.torrent",
     "games": ["gothic-1-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2789301878.ass"
   },
@@ -18880,7 +18879,6 @@
     "youtube": "u-9vpD5A9Ps", "vk": "-28387068_456251179", "abs_start": 0, "abs_end": 18765, "duration": 18765,
     "name": "Обзор конференций (лето 2026)",
     "date": "2026-06-10",
-    "torrent": "https://bsufiles.drhx.ru/streams/2793259082.torrent",
     "games": ["other"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2793259082.ass"
   },
@@ -19638,5 +19636,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2896927553.torrent",
     "games": ["single-2026", "silver-pines"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2896927553.ass"
+  },
+  "2897880378": {
+    "abs_start": 0, "abs_end": 18021, "duration": 18021,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #43 / The Backrooms: Threshold (демо) / Leviathan: Rhino (демо) / Bleach & Blood (демо) / Lost Hopes: Day of Betrayal / Meat Without Master / Evenin' Shift / The Plant Shop",
+    "date": "2026-10-11",
+    "direct": "https://bsufiles.drhx.ru/streams/2897880378.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2897880378.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2897880378.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2897880378+0.ass"
   }
 }
