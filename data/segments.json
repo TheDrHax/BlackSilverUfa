@@ -17624,9 +17624,9 @@
   },
   "2590720116": {
     "youtube": "Kl-JwoKcduw", "vk": "-28387068_456250946", "abs_start": 0, "abs_end": 25538, "duration": 25538,
-    "name": "Valor Mortis (демо) / Deathground / The Outlast Trials #8 (4D) / Peak #9",
+    "name": "Valor Mortis - Демо / Deathground / The Outlast Trials #8 (4D) / Peak #9",
     "date": "2025-10-13",
-    "games": ["first-2025", "co-op", "outlast-trials", "peak"],
+    "games": ["valor-mortis", "co-op", "outlast-trials", "peak"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2590720116.ass"
   },
   "2591591751": {
@@ -19634,5 +19634,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2897880378.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2897880378+0.ass"
+  },
+  "2900446049": {
+    "abs_start": 0, "abs_end": 25138, "duration": 25138,
+    "name": "Valor Mortis - Релиз",
+    "date": "2026-10-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2900446049.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2900446049.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2900446049.torrent",
+    "games": ["valor-mortis"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2900446049.ass"
   }
 }

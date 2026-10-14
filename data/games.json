@@ -9273,9 +9273,6 @@
       { "segment": "2589892339", "subrefs": [
         { "name": "Eilean Mor: The Lost Keepers", "start": 8548 }
       ] },
-      { "segment": "2590720116", "subrefs": [
-        { "name": "Valor Mortis (демо)", "start": 732 }
-      ] },
       { "segment": "2591591751", "subrefs": [
         { "name": "Huntsman (демо)", "start": 9079 },
         { "name": "Don't Feed The Cat (демо)", "start": 9735 },
@@ -22265,6 +22262,19 @@
       ] },
       { "segment": "2896927553", "subrefs": [
         { "name": "Релиз", "start": 7848 }
+      ] }
+    ]
+  },
+  {
+    "name": "Valor Mortis",
+    "category": "ongoing",
+    "id": "valor-mortis",
+    "streams": [
+      { "segment": "2590720116", "subrefs": [
+        { "name": "Демо", "start": 732 }
+      ] },
+      { "segment": "2900446049", "subrefs": [
+        { "name": "Релиз", "start": 1903 }
       ] }
     ]
   }
