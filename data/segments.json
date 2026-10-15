@@ -18908,7 +18908,6 @@
     "name": "Gate Guard Simulator / Little Nightmares 3 - The Backstage",
     "date": "2026-06-12",
     "offsets": ["0:00", "3:14:51+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2794822086,2794947072.torrent",
     "games": ["first-2026", "little-nightmares-3"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2794822086,2794947072+0.ass"
   },
@@ -18916,7 +18915,6 @@
     "youtube": "a1fb4xjZ3iI", "vk": "-28387068_456251184", "abs_start": 0, "abs_end": 17320, "duration": 17320,
     "name": "Mortal Shell II / IRON NEST: Heavy Turret Simulator / XenoFeels (демо) / ReStory",
     "date": "2026-06-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2801165670.torrent",
     "games": ["first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2801165670.ass"
   },
@@ -19596,10 +19594,10 @@
   },
   "2892503691": {
     "youtube": "hNzv0PLQK9I", "vk": "-28387068_456251279", "abs_start": 0, "abs_end": 19330, "duration": 19330,
-    "name": "Deadpact #2 / Ларёк на улице Ленина (Lenin Street Geek Shop) / Elta: Defy All Gods / Castlevania: Belmont's Curse (демо) / Tremen (демо) / RetroSpace",
+    "name": "Deadpact #2 / Ларёк на улице Ленина (Lenin Street Geek Shop) / Elta: Defy All Gods / Castlevania: Belmont's Curse - Демо / Tremen (демо) / RetroSpace",
     "date": "2026-10-05",
     "torrent": "https://bsufiles.drhx.ru/streams/2892503691.torrent",
-    "games": ["deadpact", "first-2026"],
+    "games": ["deadpact", "first-2026", "castlevania-bc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2892503691.ass"
   },
   "2895051612": {
@@ -19641,5 +19639,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2900446049.torrent",
     "games": ["valor-mortis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2900446049.ass"
+  },
+  "2901366775": {
+    "abs_start": 0, "abs_end": 17991, "duration": 17991,
+    "name": "Thank You Bus Driver / Warhammer 40,000: Boltgun 2 / Castlevania: Belmont's Curse - Релиз",
+    "date": "2026-10-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2901366775.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2901366775.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2901366775.torrent",
+    "games": ["first-2026", "castlevania-bc"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2901366775+0.ass"
   }
 }
