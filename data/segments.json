@@ -18929,7 +18929,6 @@
     "youtube": "Az2CDEDTXr8", "vk": "-28387068_456251186", "abs_start": 0, "abs_end": 20382, "duration": 20382,
     "name": "Mole - Прохождение / Molokaust",
     "date": "2026-06-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2802683859.torrent",
     "games": ["mole", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2802683859.ass"
   },
@@ -18937,7 +18936,6 @@
     "youtube": "iugvz0xxHPk", "vk": "-28387068_456251187", "abs_start": 0, "abs_end": 14408, "duration": 14408,
     "name": "Vholume (демо) / A Game About Chopping Trees - Демо / Come In / No Such Place (демо) / Cozy Game Restoration (демо)",
     "date": "2026-06-23",
-    "torrent": "https://bsufiles.drhx.ru/streams/2803484099.torrent",
     "games": ["first-2026", "chopping-trees", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2803484099.ass"
   },
@@ -19654,5 +19652,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2902226651.torrent",
     "games": ["quarantine-zone-tlc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2902226651+0.ass"
+  },
+  "2903187604": {
+    "abs_start": 0, "abs_end": 17386, "duration": 17386,
+    "name": "True Fear: Forsaken Souls - Part 2",
+    "date": "2026-10-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2903187604.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2903187604.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2903187604.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2903187604+0.ass"
   }
 }
