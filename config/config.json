@@ -192,14 +192,13 @@
     ]
   },
   "yt-dlp": {
-    "_args": [
-      "--extractor-args", "youtube:player-client=mweb",
-      "--extractor-args", "youtubepot-bgutilhttp:base_url=http://ytdlp-pot.blackufa.k8s"
-    ],
     "args": [
       "--throttled-rate", "150K",
       "--retries", "100",
-      "--retry-sleep", "5"
+      "--retry-sleep", "5",
+      "--extractor-args", "youtube:skip=hls",
+      "--extractor-args", "youtube:player-client=mweb",
+      "--extractor-args", "youtubepot-bgutilhttp:base_url=http://ytdlp-pot.blackufa.svc.cluster.local"
     ]
   }
 }
