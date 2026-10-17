@@ -20,6 +20,7 @@ venv_setup() { # filename [force | silent]
 
     if [ ! -d "$VENV" ]; then
         $PYTHON -m venv "$VENV" || exit 1
+        source $VENV/bin/activate
         $PYTHON -m pip install wheel
     fi
 
