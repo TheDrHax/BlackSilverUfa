@@ -198,7 +198,9 @@
       "--retry-sleep", "5",
       "--extractor-args", "youtube:skip=hls",
       "--extractor-args", "youtube:player-client=mweb",
-      "--extractor-args", "youtubepot-bgutilhttp:base_url=http://ytdlp-pot.blackufa.svc.cluster.local"
+      "--extractor-args", "youtubepot-bgutilhttp:base_url=http://ytdlp-pot.blackufa.svc.cluster.local",
+      "--remote-components", "ejs:github",
+      "--remote-components", "ejs:npm"
     ]
   }
 }
