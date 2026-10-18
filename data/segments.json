@@ -16819,9 +16819,9 @@
   },
   "2470596250": {
     "youtube": "AWdDNBT1XTY", "vk": "-28387068_456250784", "abs_start": 0, "abs_end": 18251, "duration": 18251,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #23 / Tape 101 (демо) / Last Guest / Pestilence (демо) / Dead Tapes: Fading Father / Below Nowhere / The Oily Depths - Демо / Hello Neigbour 3 (демо) / PHASE ZERO (демо) / Midnight Special",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #23 / Tape 101 (демо) / Last Guest / Pestilence - Демо / Dead Tapes: Fading Father / Below Nowhere / The Oily Depths - Демо / Hello Neigbour 3 (демо) / PHASE ZERO (демо) / Midnight Special",
     "date": "2025-05-28",
-    "games": ["horrors-2025", "single-2025", "first-2025", "oily-depths"],
+    "games": ["horrors-2025", "single-2025", "pestilence", "first-2025", "oily-depths"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2470596250.ass"
   },
   "2472314909": {
@@ -17434,9 +17434,9 @@
   },
   "2560483396": {
     "youtube": "Hb3-mjExRNg", "vk": "-28387068_456250902", "abs_start": 0, "abs_end": 19041, "duration": 19041,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #38 / The Backrooms: Reset / Blood Bear / Uncanny Tales: 1992 - Прохождение / Fear the Unknown: Jamie Story / The Butterfly / ZahmahreL / Den-Den: Tokyo Horror (демо)",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2025 #38 / The Backrooms: Reset / Blood Bear / Uncanny Tales: 1992 - Прохождение / Fear the Unknown: Jamie Story / The Butterfly / ZahmahreL / Den-Den: Tokyo Horror - Демо",
     "date": "2025-09-07",
-    "games": ["horrors-2025", "first-2025", "single-2025", "uncanny-tales"],
+    "games": ["horrors-2025", "first-2025", "single-2025", "uncanny-tales", "den-den"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2560483396.ass"
   },
   "2561240653": {
@@ -18943,7 +18943,6 @@
     "youtube": "c9L--ysge_Q", "vk": "-28387068_456251188", "abs_start": 0, "abs_end": 17697, "duration": 17697,
     "name": "Star Citizen #4",
     "date": "2026-06-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2804228445.torrent",
     "games": ["star-citizen"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2804228445.ass"
   },
@@ -18951,7 +18950,6 @@
     "youtube": "71Z50O_rEfo", "abs_start": 0, "abs_end": 18820, "duration": 18820,
     "name": "Resident Evil: Revelations",
     "date": "2026-06-27",
-    "torrent": "https://bsufiles.drhx.ru/streams/2806576326.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2806576326.ass"
   },
@@ -19660,5 +19658,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2903187604.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2903187604+0.ass"
+  },
+  "2904151512": {
+    "abs_start": 0, "abs_end": 16158, "duration": 16158,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #44 / Playrooms / Артур переезжает в Краснодар / What He Left / You Are Hamster / Den-Den: Tokyo Horror - Релиз / Pestilence - Релиз",
+    "date": "2026-10-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2904151512.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2904151512.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2904151512.torrent",
+    "games": ["horrors-2026", "first-2026", "single-2026", "den-den", "pestilence"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2904151512+0.ass"
   }
 }

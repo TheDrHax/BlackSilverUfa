@@ -9143,7 +9143,6 @@
         { "name": "Jawbone Hollow", "start": 17630 }
       ] },
       { "segment": "2470596250", "subrefs": [
-        { "name": "Pestilence (демо)", "start": 5366 },
         { "name": "Below Nowhere", "start": 9575 },
         { "name": "Hello Neigbour 3 (демо)", "start": 13742 },
         { "name": "Midnight Special", "start": 17053 }
@@ -9244,8 +9243,7 @@
         { "name": "A Twisted Place (демо)", "start": 8462 }
       ] },
       { "segment": "2560483396", "subrefs": [
-        { "name": "The Backrooms: Reset", "start": 1233 },
-        { "name": "Den-Den: Tokyo Horror (демо)", "start": 17711 }
+        { "name": "The Backrooms: Reset", "start": 1233 }
       ] },
       { "segment": "2564525802", "subrefs": [
         { "name": "Sunken Engine", "start": 15683 }
@@ -9672,6 +9670,9 @@
       ] },
       { "segment": "2903187604", "subrefs": [
         { "name": "True Fear: Forsaken Souls - Part 2", "start": 1898 }
+      ] },
+      { "segment": "2904151512", "subrefs": [
+        { "name": "Playrooms", "start": 1379 }
       ] }
     ]
   },
@@ -10593,6 +10594,11 @@
         { "name": "Bleach & Blood (демо)", "start": 6543 },
         { "name": "Lost Hopes: Day of Betrayal", "start": 9489 },
         { "name": "Evenin' Shift", "start": 14685 }
+      ] },
+      { "segment": "2904151512", "subrefs": [
+        { "name": "Артур переезжает в Краснодар", "start": 4580 },
+        { "name": "What He Left", "start": 5671 },
+        { "name": "You Are Hamster", "start": 9705 }
       ] }
     ]
   },
@@ -18824,6 +18830,9 @@
       ] },
       { "segment": "2897880378", "subrefs": [
         { "name": "43" }
+      ] },
+      { "segment": "2904151512", "subrefs": [
+        { "name": "44" }
       ] }
     ]
   },
@@ -22297,6 +22306,32 @@
       ] },
       { "segment": "2901366775", "subrefs": [
         { "name": "Релиз", "start": 11444 }
+      ] }
+    ]
+  },
+  {
+    "name": "Den-Den: Tokyo Horror",
+    "category": "ongoing",
+    "id": "den-den",
+    "streams": [
+      { "segment": "2560483396", "subrefs": [
+        { "name": "Демо", "start": 17711 }
+      ] },
+      { "segment": "2904151512", "subrefs": [
+        { "name": "Релиз", "start": 10487 }
+      ] }
+    ]
+  },
+  {
+    "name": "Pestilence",
+    "category": "ongoing",
+    "id": "pestilence",
+    "streams": [
+      { "segment": "2470596250", "subrefs": [
+        { "name": "Демо", "start": 5366 }
+      ] },
+      { "segment": "2904151512", "subrefs": [
+        { "name": "Релиз", "start": 13167 }
       ] }
     ]
   }
