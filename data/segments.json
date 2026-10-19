@@ -18957,7 +18957,6 @@
     "youtube": "QqLTd2DaOJs", "vk": "-28387068_456251190", "abs_start": 0, "abs_end": 20414, "duration": 20414,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #22 / Backrooms Untold / Public Fears: George's Farm / Don’t Sleep with the Fishes #1 / Maple Ridge / Midnight Hoops",
     "date": "2026-06-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2807358092.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026", "dswtf"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2807358092.ass"
   },
@@ -19629,7 +19628,7 @@
   },
   "2900446049": {
     "youtube": "7_aJ5ZmRz4Q", "vk": "-28387068_456251285", "abs_start": 0, "abs_end": 25139, "duration": 25139,
-    "name": "Valor Mortis - Релиз",
+    "name": "Valor Mortis #1",
     "date": "2026-10-14",
     "torrent": "https://bsufiles.drhx.ru/streams/2900446049.torrent",
     "games": ["valor-mortis"],
@@ -19660,7 +19659,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2903187604+0.ass"
   },
   "2904151512": {
-    "abs_start": 0, "abs_end": 16158, "duration": 16158,
+    "vk": "-28387068_456251289", "abs_start": 0, "abs_end": 16158, "duration": 16158,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #44 / Playrooms / Артур переезжает в Краснодар / What He Left / You Are Hamster / Den-Den: Tokyo Horror - Релиз / Pestilence - Релиз",
     "date": "2026-10-18",
     "direct": "https://bsufiles.drhx.ru/streams/2904151512.mp4",
@@ -19668,5 +19667,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2904151512.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026", "den-den", "pestilence"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2904151512+0.ass"
+  },
+  "2904964741": {
+    "abs_start": 0, "abs_end": 17206, "duration": 17206,
+    "name": "Valor Mortis #2",
+    "date": "2026-10-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2904964741.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2904964741.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2904964741.torrent",
+    "games": ["valor-mortis"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2904964741+0.ass"
   }
 }
