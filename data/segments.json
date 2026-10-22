@@ -18964,7 +18964,6 @@
     "youtube": "7lr-RY1SzL4", "vk": "-28387068_456251192", "abs_start": 0, "abs_end": 18616, "duration": 18616,
     "name": "Don’t Sleep with the Fishes #2 / Dimhaven: The Lost Source",
     "date": "2026-06-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2808112062.torrent",
     "games": ["dswtf", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2808112062.ass"
   },
@@ -18972,7 +18971,6 @@
     "youtube": "XrFyJ5AytJY", "vk": "-28387068_456251195", "abs_start": 0, "abs_end": 19035, "duration": 19035,
     "name": "Don’t Sleep with the Fishes #3 / The Classrooms #7 / Idols of Ash #1",
     "date": "2026-06-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2808863863.torrent",
     "games": ["dswtf", "classrooms", "idols-of-ash"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2808863863.ass"
   },
@@ -18980,7 +18978,6 @@
     "youtube": "Tv13AzsXkZM", "vk": "-28387068_456251197", "abs_start": 0, "abs_end": 18177, "duration": 18177,
     "name": "Don’t Sleep with the Fishes #4 / Idols of Ash #2",
     "date": "2026-07-01",
-    "torrent": "https://bsufiles.drhx.ru/streams/2809626809.torrent",
     "games": ["dswtf", "idols-of-ash"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2809626809.ass"
   },
@@ -19677,5 +19674,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2904964741.torrent",
     "games": ["valor-mortis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2904964741+0.ass"
+  },
+  "2907533345": {
+    "abs_start": 0, "abs_end": 22281, "duration": 22281,
+    "name": "Valor Mortis #3",
+    "date": "2026-10-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2907533345.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2907533345.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2907533345.torrent",
+    "games": ["valor-mortis"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2907533345.ass"
   }
 }

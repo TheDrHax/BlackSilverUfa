@@ -21952,7 +21952,7 @@
   },
   {
     "name": "Shift at Midnight",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "shift-at-midnight",
     "streams": [
       { "segment": "2511344577", "subrefs": [
@@ -22296,6 +22296,9 @@
       ] },
       { "segment": "2904964741", "subrefs": [
         { "name": "2", "start": 1213 }
+      ] },
+      { "segment": "2907533345", "subrefs": [
+        { "name": "3", "start": 1574 }
       ] }
     ]
   },
