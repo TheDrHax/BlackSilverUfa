@@ -16882,10 +16882,10 @@
   },
   "2477119604,2477127804": {
     "youtube": "ubk1vsBjNp4", "abs_start": 0, "abs_end": 9562, "duration": 9562,
-    "name": "Aspis (Аспис) (демо) / State of Play - Июнь 2025",
+    "name": "Aspis (Аспис) - Демо / State of Play - Июнь 2025",
     "date": "2025-06-04",
     "offsets": ["0:00", "9:56+2"],
-    "games": ["first-2025", "sony-sop"],
+    "games": ["aspis", "sony-sop"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2477119604,2477127804+0.ass"
   },
   "2477649477": {
@@ -18985,7 +18985,6 @@
     "youtube": "o9O8_NKSbEw", "vk": "-28387068_456251199", "abs_start": 0, "abs_end": 18890, "duration": 18890,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #23 / Safe Rooms / Beso's Shawarma / The Abyss Below / Sewer Call / Vigil in the Mist / Spoonscapist / Feed The Pit",
     "date": "2026-07-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2812712988.torrent",
     "games": ["horrors-2026", "single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2812712988.ass"
   },
@@ -18993,7 +18992,6 @@
     "youtube": "TedmfEWGllw", "vk": "-28387068_456251200", "abs_start": 0, "abs_end": 20950, "duration": 20950,
     "name": "Idols of Ash #3 / Burglin' Gnomes #1 / Don't Fall / Pratfall #1 (4D) / RV There Yet? #7",
     "date": "2026-07-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2813442393.torrent",
     "games": ["idols-of-ash", "burglin-gnomes", "first-2026", "pratfall", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2813442393.ass"
   },
@@ -19001,7 +18999,6 @@
     "youtube": "ZLW6cL6uv0M", "vk": "-28387068_456251201", "abs_start": 0, "abs_end": 19120, "duration": 19120,
     "name": "DOOM / Doom Eternal #3 (заново) / DOOM: The Dark Ages #3 (заново) / Pratfall #2 (с Дашей)",
     "date": "2026-07-07",
-    "torrent": "https://bsufiles.drhx.ru/streams/2814203775.torrent",
     "games": ["first-2026", "doom-eternal", "doom-dark-ages", "pratfall"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2814203775.ass"
   },
@@ -19687,5 +19684,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2907533345.torrent",
     "games": ["valor-mortis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2907533345.ass"
+  },
+  "2909394350": {
+    "abs_start": 0, "abs_end": 22802, "duration": 22802,
+    "name": "Pineview Drive: Rising Storm (демо) / Aspis (Аспис) - Релиз",
+    "date": "2026-10-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2909394350.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2909394350.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2909394350.torrent",
+    "games": ["single-2026", "aspis"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2909394350+0.ass"
   }
 }

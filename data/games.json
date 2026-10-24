@@ -9152,9 +9152,6 @@
         { "name": "White Room Protocol (демо)", "start": 16353 },
         { "name": "Nightmare Visions", "start": 17420 }
       ] },
-      { "segment": "2477119604,2477127804", "subrefs": [
-        { "name": "Aspis (Аспис) (демо)", "start": 917 }
-      ] },
       { "segment": "2478592997", "subrefs": [
         { "name": "Mario Kart World", "start": 7510 },
         { "name": "Nintendo Switch 2 Welcome Tour", "start": 8805 },
@@ -10599,6 +10596,9 @@
         { "name": "Артур переезжает в Краснодар", "start": 4580 },
         { "name": "What He Left", "start": 5671 },
         { "name": "You Are Hamster", "start": 9705 }
+      ] },
+      { "segment": "2909394350", "subrefs": [
+        { "name": "Pineview Drive: Rising Storm (демо)", "start": 3744 }
       ] }
     ]
   },
@@ -22338,6 +22338,19 @@
       ] },
       { "segment": "2904151512", "subrefs": [
         { "name": "Релиз", "start": 13167 }
+      ] }
+    ]
+  },
+  {
+    "name": "Aspis (Аспис)",
+    "category": "ongoing",
+    "id": "aspis",
+    "streams": [
+      { "segment": "2477119604,2477127804", "subrefs": [
+        { "name": "Демо", "start": 917 }
+      ] },
+      { "segment": "2909394350", "subrefs": [
+        { "name": "Релиз", "start": 10200 }
       ] }
     ]
   }
