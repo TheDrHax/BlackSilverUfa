@@ -19006,7 +19006,6 @@
     "youtube": "prGi2o1j7bk", "official": false, "abs_start": 0, "abs_end": 27285, "duration": 27285,
     "name": "DOOM: The Dark Ages - DLC: Revelations / Don’t Sleep with the Fishes #5 / Pratfall #3",
     "date": "2026-07-08",
-    "torrent": "https://bsufiles.drhx.ru/streams/2814926697.torrent",
     "games": ["doom-dark-ages", "dswtf", "pratfall"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2814926697.ass"
   },
@@ -19686,5 +19685,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2909394350.torrent",
     "games": ["single-2026", "aspis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2909394350+0.ass"
+  },
+  "2910395040": {
+    "abs_start": 0, "abs_end": 18674, "duration": 18674,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #45 / Backrooms: Rogue 0 (демо) / The Oink: Prelude (демо) / Hey, Don't Look at Me (демо) / Plushy's Playground: Into the Slide (демо) / CH13: Rest Stop (демо) / Incident Reports: Millers Residence (демо) / Unlisted (демо) / Blighten",
+    "date": "2026-10-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2910395040.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2910395040.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2910395040.torrent",
+    "games": ["horrors-2026", "single-2026", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2910395040.ass"
   }
 }
