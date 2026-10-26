@@ -22314,6 +22314,9 @@
       ] },
       { "segment": "2907533345", "subrefs": [
         { "name": "3", "start": 1574 }
+      ] },
+      { "segment": "2911196560,2911276863", "subrefs": [
+        { "name": "4", "start": 722 }
       ] }
     ]
   },
@@ -22358,14 +22361,17 @@
   },
   {
     "name": "Aspis (Аспис)",
-    "category": "ongoing",
+    "category": "finished",
     "id": "aspis",
     "streams": [
       { "segment": "2477119604,2477127804", "subrefs": [
         { "name": "Демо", "start": 917 }
       ] },
       { "segment": "2909394350", "subrefs": [
-        { "name": "Релиз", "start": 10200 }
+        { "name": "1", "start": 10200 }
+      ] },
+      { "segment": "2911196560,2911276863", "subrefs": [
+        { "name": "2", "start": 12566 }
       ] }
     ]
   }
