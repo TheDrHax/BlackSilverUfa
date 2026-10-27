@@ -9675,6 +9675,9 @@
         { "name": "Hey, Don't Look at Me (демо)", "start": 8701 },
         { "name": "Incident Reports: Millers Residence (демо)", "start": 15329 },
         { "name": "Blighten", "start": 17391 }
+      ] },
+      { "segment": "2912091872", "subrefs": [
+        { "name": "Remothered: Red Nun's Legacy", "start": 14667 }
       ] }
     ]
   },
@@ -10020,9 +10023,6 @@
       { "segment": "2389049577", "subrefs": [
         { "name": "Backrooms Level X (демо)", "start": 1522 },
         { "name": "Unforgotten: Ordinance", "start": 11521 }
-      ] },
-      { "segment": "2389893992", "subrefs": [
-        { "name": "Stygian: Outer Gods (демо)", "start": 9252 }
       ] },
       { "segment": "2390754958", "subrefs": [
         { "name": "Salvage Protocol (демо)", "start": 12817 },
@@ -22372,6 +22372,19 @@
       ] },
       { "segment": "2911196560,2911276863", "subrefs": [
         { "name": "2", "start": 12566 }
+      ] }
+    ]
+  },
+  {
+    "name": "Stygian: Outer Gods",
+    "category": "ongoing",
+    "id": "stygian",
+    "streams": [
+      { "segment": "2389893992", "subrefs": [
+        { "name": "Демо", "start": 9252 }
+      ] },
+      { "segment": "2912091872", "subrefs": [
+        { "name": "Релиз", "start": 995 }
       ] }
     ]
   }

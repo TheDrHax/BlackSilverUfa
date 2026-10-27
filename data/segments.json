@@ -16231,9 +16231,9 @@
   },
   "2389893992": {
     "youtube": "2Yl8LQxm-ro", "vk": "-28387068_456250644", "abs_start": 0, "abs_end": 22676, "duration": 22676,
-    "name": "Chernobylite 2: Exclusion Zone (демо) / Farm Renovator (демо) / Stygian: Outer Gods (демо) / Idea Fix #2 (демо) / Gothic 1 Remake - Демо 1 / Solarpunk",
+    "name": "Chernobylite 2: Exclusion Zone (демо) / Farm Renovator (демо) / Stygian: Outer Gods - Демо / Idea Fix #2 (демо) / Gothic 1 Remake - Демо 1 / Solarpunk",
     "date": "2025-02-24",
-    "games": ["first-2025", "single-2025", "idea-fix", "gothic-1-remake"],
+    "games": ["first-2025", "stygian", "idea-fix", "gothic-1-remake"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2025/master/v2389893992.ass"
   },
   "2390754958": {
@@ -19062,7 +19062,6 @@
     "youtube": "AoWjOaxK4TE", "vk": "-28387068_456251210", "abs_start": 0, "abs_end": 22516, "duration": 22516,
     "name": "Don’t Sleep with the Fishes #6 / Dead Weight / Creepy Support - Релиз / Funnel Runners #1 / FixForce / RV There Yet? #9",
     "date": "2026-07-18",
-    "torrent": "https://bsufiles.drhx.ru/streams/2822945512.torrent",
     "games": ["dswtf", "co-op", "creepy-support", "funnel-runners", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2822945512.ass"
   },
@@ -19071,7 +19070,6 @@
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #25 / ROBLOX - The Backrooms / The Additional Dimension / Let Me In (демо) / Penguin Lifter / Awakeness: YALDA Night",
     "date": "2026-07-19",
     "cuts": [[9042, 9055]],
-    "torrent": "https://bsufiles.drhx.ru/streams/2823795462.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2823795462+0.ass"
   },
@@ -19717,5 +19715,15 @@
     "offsets": ["0:00", "2:59:40+2"],
     "games": ["valor-mortis", "aspis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2911196560,2911276863+0.ass"
+  },
+  "2912091872": {
+    "abs_start": 0, "abs_end": 23750, "duration": 23750,
+    "name": "Stygian: Outer Gods - Релиз / Remothered: Red Nun's Legacy",
+    "date": "2026-10-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2912091872.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2912091872.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2912091872.torrent",
+    "games": ["stygian", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2912091872.ass"
   }
 }
