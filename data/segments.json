@@ -19077,7 +19077,6 @@
     "youtube": "y-ws2ZypR6c", "vk": "-28387068_456251213", "abs_start": 0, "abs_end": 17110, "duration": 17110,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #26 / When Will I Get Home? / The Sweet Spot / Stories to Tell: The Stoneville Incident / Stories to Tell: Greyville Stay / Last Kid on the Bus",
     "date": "2026-07-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2824550708.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2824550708.ass"
   },
@@ -19085,7 +19084,6 @@
     "youtube": "LPJDigmriYE", "vk": "-28387068_456251214", "abs_start": 0, "abs_end": 17498, "duration": 17498,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #27 / Photomaly - Прохождение / At Night: Freakshow",
     "date": "2026-07-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2825347238.torrent",
     "games": ["horrors-2026", "photomaly", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2825347238.ass"
   },
@@ -19093,7 +19091,6 @@
     "youtube": "NM8emrctD4I", "vk": "-28387068_456251216", "abs_start": 0, "abs_end": 12810, "duration": 12810,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #28 / Cloudrooms / Tales From the Other Side: Beneath the Roots / Too Well Hidden / Moldrise #1",
     "date": "2026-07-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2826169085.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026", "moldrise"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2826169085.ass"
   },
@@ -19713,12 +19710,22 @@
   },
   "2912091872": {
     "vk": "-28387068_456251298", "abs_start": 0, "abs_end": 23750, "duration": 23750,
-    "name": "Stygian: Outer Gods - Релиз / Remothered: Red Nun's Legacy",
+    "name": "Stygian: Outer Gods - Релиз / Remothered: Red Nun's Legacy #1",
     "date": "2026-10-27",
     "direct": "https://bsufiles.drhx.ru/streams/2912091872.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2912091872.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2912091872.torrent",
-    "games": ["stygian", "first-2026"],
+    "games": ["stygian", "remothered-rnl"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2912091872.ass"
+  },
+  "2912958277": {
+    "abs_start": 0, "abs_end": 21601, "duration": 21601,
+    "name": "Remothered: Red Nun's Legacy #2 / Playable Archive",
+    "date": "2026-10-28",
+    "direct": "https://bsufiles.drhx.ru/streams/2912958277.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2912958277.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2912958277.torrent",
+    "games": ["remothered-rnl", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2912958277.ass"
   }
 }
