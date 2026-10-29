@@ -19099,7 +19099,6 @@
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #29 / Nullhome (демо) / Moldrise #2 / Shift at Midnight #1 (с Дашей)",
     "date": "2026-07-23",
     "cuts": [[18546, 18575]],
-    "torrent": "https://bsufiles.drhx.ru/streams/2826990964.torrent",
     "games": ["horrors-2026", "single-2026", "moldrise", "shift-at-midnight"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2826990964+0.ass"
   },
@@ -19107,7 +19106,6 @@
     "youtube": "LNI5ljKZgJA", "vk": "-28387068_456251218", "abs_start": 0, "abs_end": 32488, "duration": 32488,
     "name": "Halo: Campaign Evolved #1 / Shift at Midnight #2",
     "date": "2026-07-24",
-    "torrent": "https://bsufiles.drhx.ru/streams/2827738928.torrent",
     "games": ["halo-ce", "shift-at-midnight"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2827738928.ass"
   },
@@ -19115,7 +19113,6 @@
     "youtube": "YimsicjqeSQ", "vk": "-28387068_456251219", "abs_start": 0, "abs_end": 14620, "duration": 14620,
     "name": "Halo: Campaign Evolved #2 (часть 1)",
     "date": "2026-07-25",
-    "torrent": "https://bsufiles.drhx.ru/streams/2828580862.torrent",
     "games": ["halo-ce"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2828580862.ass"
   },
@@ -19719,7 +19716,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2912091872.ass"
   },
   "2912958277": {
-    "abs_start": 0, "abs_end": 21601, "duration": 21601,
+    "vk": "-28387068_456251299", "abs_start": 0, "abs_end": 21601, "duration": 21601,
     "name": "Remothered: Red Nun's Legacy #2 / Playable Archive",
     "date": "2026-10-28",
     "direct": "https://bsufiles.drhx.ru/streams/2912958277.mp4",
@@ -19727,5 +19724,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2912958277.torrent",
     "games": ["remothered-rnl", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2912958277.ass"
+  },
+  "2913818251": {
+    "abs_start": 0, "abs_end": 32550, "duration": 32550,
+    "name": "Phantom Blade Zero",
+    "date": "2026-10-29",
+    "direct": "https://bsufiles.drhx.ru/streams/2913818251.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2913818251.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2913818251.torrent",
+    "games": ["first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2913818251+0.ass"
   }
 }
