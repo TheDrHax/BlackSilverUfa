@@ -22303,7 +22303,7 @@
   },
   {
     "name": "Valor Mortis",
-    "category": "ongoing",
+    "category": "finished",
     "id": "valor-mortis",
     "streams": [
       { "segment": "2590720116", "subrefs": [
@@ -22320,6 +22320,9 @@
       ] },
       { "segment": "2911196560,2911276863", "subrefs": [
         { "name": "4", "start": 722 }
+      ] },
+      { "segment": "2914736898", "subrefs": [
+        { "name": "5", "start": 955 }
       ] }
     ]
   },

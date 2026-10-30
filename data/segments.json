@@ -19121,7 +19121,6 @@
     "name": "Halo: Campaign Evolved #2 (часть 2)",
     "date": "2026-07-25",
     "cuts": [[9072, 9086]],
-    "torrent": "https://bsufiles.drhx.ru/streams/2828707037.torrent",
     "games": ["halo-ce"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2828707037+0.ass"
   },
@@ -19129,7 +19128,6 @@
     "youtube": "w1Xri0QuWzk", "vk": "-28387068_456251222", "abs_start": 0, "abs_end": 17688, "duration": 17688,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #30 / Your Happy Place / Only Good Babysitters Go to Heaven / Out Here / Flash and Die",
     "date": "2026-07-26",
-    "torrent": "https://bsufiles.drhx.ru/streams/2829483141.torrent",
     "games": ["horrors-2026", "single-2026", "mgf-games", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2829483141+0.ass"
   },
@@ -19138,7 +19136,6 @@
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #31 / Backrooms Anomaly / Below, Rusted Gods - Релиз / Curse of the Abandoned Floor (демо)",
     "date": "2026-07-28",
     "cuts": [[6231, 6242]],
-    "torrent": "https://bsufiles.drhx.ru/streams/2831074196.torrent",
     "games": ["horrors-2026", "single-2026", "below-rusted-gods"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2831074196+0.ass"
   },
@@ -19726,7 +19723,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2912958277.ass"
   },
   "2913818251": {
-    "abs_start": 0, "abs_end": 32550, "duration": 32550,
+    "vk": "-28387068_456251300", "abs_start": 0, "abs_end": 32550, "duration": 32550,
     "name": "Phantom Blade Zero",
     "date": "2026-10-29",
     "direct": "https://bsufiles.drhx.ru/streams/2913818251.mp4",
@@ -19734,5 +19731,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2913818251.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2913818251+0.ass"
+  },
+  "2914736898": {
+    "abs_start": 0, "abs_end": 22842, "duration": 22842,
+    "name": "Valor Mortis #5",
+    "date": "2026-10-30",
+    "direct": "https://bsufiles.drhx.ru/streams/2914736898.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2914736898.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2914736898.torrent",
+    "games": ["valor-mortis"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2914736898+0.ass"
   }
 }
