@@ -9494,7 +9494,6 @@
         { "name": "Cheap Car Repair", "start": 16409 }
       ] },
       { "segment": "2786781807", "subrefs": [
-        { "name": "Wilderdark (демо)", "start": 9536 },
         { "name": "Eternal Haunt", "start": 15070 }
       ] },
       { "segment": "2787566607", "subrefs": [
@@ -9668,9 +9667,6 @@
       { "segment": "2903187604", "subrefs": [
         { "name": "True Fear: Forsaken Souls - Part 2", "start": 1898 }
       ] },
-      { "segment": "2904151512", "subrefs": [
-        { "name": "Playrooms", "start": 1379 }
-      ] },
       { "segment": "2910395040", "subrefs": [
         { "name": "Hey, Don't Look at Me (демо)", "start": 8701 },
         { "name": "Incident Reports: Millers Residence (демо)", "start": 15329 },
@@ -9678,6 +9674,9 @@
       ] },
       { "segment": "2913818251", "subrefs": [
         { "name": "Phantom Blade Zero", "start": 1036 }
+      ] },
+      { "segment": "2928510634", "subrefs": [
+        { "name": "Derelikt", "start": 14469 }
       ] }
     ]
   },
@@ -22070,7 +22069,7 @@
   },
   {
     "name": "Gennady",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "gennady",
     "streams": [
       { "segment": "1950762078", "subrefs": [
@@ -22083,7 +22082,7 @@
   },
   {
     "name": "Lurking (демо)",
-    "category": "ongoing",
+    "category": "abandoned",
     "id": "lurking",
     "streams": [
       { "segment": "2667145812", "subrefs": [
@@ -22404,6 +22403,32 @@
       ] },
       { "segment": "2912958277", "subrefs": [
         { "name": "2", "start": 1251 }
+      ] }
+    ]
+  },
+  {
+    "name": "Playrooms",
+    "category": "ongoing",
+    "id": "playrooms",
+    "streams": [
+      { "segment": "2904151512", "subrefs": [
+        { "name": "1", "start": 1379 }
+      ] },
+      { "segment": "2928510634", "subrefs": [
+        { "name": "2", "start": 6416 }
+      ] }
+    ]
+  },
+  {
+    "name": "Wilderdark",
+    "category": "ongoing",
+    "id": "wilderdark",
+    "streams": [
+      { "segment": "2786781807", "subrefs": [
+        { "name": "Демо", "start": 9536 }
+      ] },
+      { "segment": "2928510634", "subrefs": [
+        { "name": "Релиз", "start": 13064 }
       ] }
     ]
   }

@@ -18848,9 +18848,9 @@
   },
   "2786781807": {
     "youtube": "dkUlUv4Tdfg", "vk": "-28387068_456251174", "abs_start": 0, "abs_end": 15940, "duration": 15940,
-    "name": "Silver Pines - Демо / Wilderdark (демо) / Baptiste #2 (демо) / The Skin Stapler - Демо / Eternal Haunt",
+    "name": "Silver Pines - Демо / Wilderdark - Демо / Baptiste #2 (демо) / The Skin Stapler - Демо / Eternal Haunt",
     "date": "2026-06-02",
-    "games": ["silver-pines", "first-2026", "baptiste", "skin-stapler"],
+    "games": ["silver-pines", "wilderdark", "baptiste", "skin-stapler", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2786781807.ass"
   },
   "2787566607": {
@@ -19171,7 +19171,6 @@
     "youtube": "zQGCGMlnDV4", "vk": "-28387068_456251229", "abs_start": 0, "abs_end": 20267, "duration": 20267,
     "name": "Даша Васильева. Личное дело Женщины-кошки / Storebound",
     "date": "2026-08-02",
-    "torrent": "https://bsufiles.drhx.ru/streams/2835275414.torrent",
     "games": ["first-2026", "co-op"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2835275414.ass"
   },
@@ -19179,7 +19178,6 @@
     "youtube": "jhqzt7Sm3MM", "vk": "-28387068_456251232", "abs_start": 0, "abs_end": 22800, "duration": 22800,
     "name": "Beast of Reincarnation / Uncanny Tales: The Watcher #1",
     "date": "2026-08-05",
-    "torrent": "https://bsufiles.drhx.ru/streams/2837836383.torrent",
     "games": ["first-2026", "uncanny-tales-tw"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2837836383.ass"
   },
@@ -19633,10 +19631,10 @@
   },
   "2904151512": {
     "youtube": "sZhky3kpkP4", "vk": "-28387068_456251289", "abs_start": 0, "abs_end": 16163, "duration": 16163,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #44 / Playrooms / Артур переезжает в Краснодар / What He Left / You Are Hamster / Den-Den: Tokyo Horror - Релиз / Pestilence - Релиз",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #44 / Playrooms #1 / Артур переезжает в Краснодар / What He Left / You Are Hamster / Den-Den: Tokyo Horror - Релиз / Pestilence - Релиз",
     "date": "2026-10-18",
     "torrent": "https://bsufiles.drhx.ru/streams/2904151512.torrent",
-    "games": ["horrors-2026", "first-2026", "single-2026", "den-den", "pestilence"],
+    "games": ["horrors-2026", "playrooms", "single-2026", "den-den", "pestilence"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2904151512+0.ass"
   },
   "2904964741": {
@@ -19729,5 +19727,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2914736898.torrent",
     "games": ["valor-mortis"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2914736898+0.ass"
+  },
+  "2928510634": {
+    "abs_start": 0, "abs_end": 21757, "duration": 21757,
+    "name": "Playrooms #2 / Wilderdark - Релиз / Derelikt",
+    "date": "2026-11-14",
+    "direct": "https://bsufiles.drhx.ru/streams/2928510634.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2928510634.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2928510634.torrent",
+    "games": ["playrooms", "wilderdark", "first-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2928510634+0.ass"
   }
 }
