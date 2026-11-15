@@ -19185,27 +19185,20 @@
     "youtube": "7fFmeYLZF0g", "vk": "-28387068_456251233", "abs_start": 0, "abs_end": 19090, "duration": 19090,
     "name": "Uncanny Tales: The Watcher #2 (все ачивки) / Gennady - Релиз / Echo Zero / Machine Party (кооп) / Big Walk / RV There Yet? #11",
     "date": "2026-08-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2838748968.torrent",
     "games": ["uncanny-tales-tw", "gennady", "first-2026", "klubnika", "co-op", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2838748968.ass"
   },
   "2839644239": {
-    "abs_start": 0, "abs_end": 7729, "duration": 7729,
+    "abs_start": 0, "abs_end": 7828, "duration": 0,
     "name": "",
     "date": "2026-08-07",
-    "direct": "https://bsufiles.drhx.ru/streams/2839644239.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2839644239.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2839644239.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2839644239.ass"
   },
   "2839724229": {
-    "abs_start": 0, "abs_end": 11912, "duration": 11912,
+    "abs_start": 0, "abs_end": 11929, "duration": 0,
     "name": "",
     "date": "2026-08-07",
-    "direct": "https://bsufiles.drhx.ru/streams/2839724229.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2839724229.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2839724229.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2839724229.ass"
   },
@@ -19441,12 +19434,12 @@
   },
   "2875653512,2875679207": {
     "youtube": "kmYXXtsY48c", "abs_start": 0, "abs_end": 18071, "duration": 18030,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #39 (не ВВХ) / FailRooms (демо) / Take Care of My Heifer / Rehaunted - Демо / Road to Jukai (демо) / The Night Route",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #39 (не ВВХ) / FailRooms - Демо / Take Care of My Heifer / Rehaunted - Демо / Road to Jukai (демо) / The Night Route",
     "date": "2026-09-16",
     "offsets": ["0:00", "38:34+2"],
     "cuts": [[1518, 1526], [1584, 1591], [1793, 1802], [7090, 7107]],
     "torrent": "https://bsufiles.drhx.ru/streams/2875653512,2875679207.torrent",
-    "games": ["horrors-2026", "single-2026", "first-2026", "rehaunted"],
+    "games": ["horrors-2026", "failrooms", "first-2026", "rehaunted", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2875653512,2875679207+0.ass"
   },
   "2876512872": {
@@ -19735,5 +19728,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2928510634.torrent",
     "games": ["playrooms", "wilderdark", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2928510634+0.ass"
+  },
+  "2929562857": {
+    "abs_start": 0, "abs_end": 16341, "duration": 16341,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #46 / FailRooms - Прохождение / Halloween On Goober Street / Poop Killer: The Golden Fart",
+    "date": "2026-11-15",
+    "direct": "https://bsufiles.drhx.ru/streams/2929562857.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2929562857.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2929562857.torrent",
+    "games": ["horrors-2026", "failrooms", "mgf-games", "616-games"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2929562857.ass"
   }
 }
