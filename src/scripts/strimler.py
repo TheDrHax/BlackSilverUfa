@@ -166,9 +166,14 @@ def find_strimler(path, model=None, model_name='base', scan_end=900,
     } for s in segments]) if s['speech']]
 
     A, B = detect(speech, max_scan=scan_end - 30)
-    if A is None or B is None or B <= A:
-        return None
-    return Timecode(int(round(A)), end=int(round(B)), name='Стримлер')
+
+    if A is None or B is None:
+        return Timecode(int(A or B or 0), name='Стримлер')
+
+    if B <= A:
+        return Timecode(int(B), name='Стримлер')
+
+    return Timecode(int(A), end=int(B), name='Стримлер')
 
 
 def main(argv=None):
@@ -187,10 +192,11 @@ def main(argv=None):
         print(f'{ex}', file=sys.stderr)
         sys.exit(1)
 
-    if t:
-        print(f'{t}')
+    if t > 0:
+        print(t)
     else:
-        print(f'strimler not found', file=sys.stderr)
+        print('strimler not found', file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == '__main__':
