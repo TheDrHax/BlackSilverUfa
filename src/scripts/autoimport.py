@@ -13,6 +13,7 @@ from twitch_utils.clip import Clip
 from twitch_utils.offset import find_offset
 
 from .source_cuts import get_source_cuts
+from .strimler import find_strimler
 from ..data.fallback import fallback
 from ..data.streams import SegmentReference, Stream
 from ..data.games import Game
@@ -131,6 +132,13 @@ def create_timecodes(vod: str, timeline: Timecodes) -> None:
             ts.add(t_intro)
     except Exception as ex:
         print(f'Unable to find intro: {ex}')
+
+    try:
+        t_strimler = find_strimler(vod_path(vod)[0])
+        if t_strimler:
+            ts.add(t_strimler)
+    except Exception as ex:
+        print(f'Unable to find Стримлер: {ex}')
 
     ts = ts.filter(lambda t: t > 0)
 
