@@ -19207,7 +19207,6 @@
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #34 / The Backrooms: Incident 1997 / Lurking (демо) - Демо 2 / Kindawn: The Parish Remembers - Демо / Manny's",
     "date": "2026-08-07",
     "offsets": ["0:00", "2:08:47+2"],
-    "torrent": "https://bsufiles.drhx.ru/streams/2839644239,2839724229.torrent",
     "games": ["horrors-2026", "single-2026", "lurking", "kindawn"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2839644239,2839724229+0.ass"
   },
@@ -19215,7 +19214,6 @@
     "youtube": "HXyUZWfi-6o", "vk": "-28387068_456251237", "abs_start": 0, "abs_end": 17853, "duration": 17853,
     "name": "[HERROR] Gas Station Case - Прохождение",
     "date": "2026-08-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2850502197.torrent",
     "games": ["herror-gsc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2850502197.ass"
   },
@@ -19223,7 +19221,6 @@
     "youtube": "Aoqa5ZyrL64", "vk": "-28387068_456251238", "abs_start": 0, "abs_end": 12641, "duration": 12641,
     "name": "Mafia: The Old Country #3 (DLC: Man of Honor)",
     "date": "2026-08-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2851374246.torrent",
     "games": ["mafia-toc"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2851374246.ass"
   },
@@ -19656,10 +19653,10 @@
   },
   "2910395040": {
     "youtube": "HnVg3KXYuXg", "vk": "-28387068_456251296", "abs_start": 0, "abs_end": 18674, "duration": 18674,
-    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #45 / Backrooms: Rogue 0 (демо) / The Oink: Prelude (демо) / Hey, Don't Look at Me (демо) / Plushy's Playground: Into the Slide (демо) / CH13: Rest Stop (демо) / Incident Reports: Millers Residence (демо) / Unlisted (демо) / Blighten",
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #45 / Backrooms: Rogue 0 (демо) / The Oink: Prelude (демо) / Hey, Don't Look at Me (демо) / Plushy's Playground: Into the Slide (демо) / CH13: Rest Stop - Демо / Incident Reports: Millers Residence (демо) / Unlisted (демо) / Blighten",
     "date": "2026-10-25",
     "torrent": "https://bsufiles.drhx.ru/streams/2910395040.torrent",
-    "games": ["horrors-2026", "single-2026", "first-2026"],
+    "games": ["horrors-2026", "single-2026", "first-2026", "ch13"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2910395040.ass"
   },
   "2911196560": {
@@ -19736,5 +19733,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2929562857.torrent",
     "games": ["horrors-2026", "failrooms", "mgf-games", "616-games"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2929562857.ass"
+  },
+  "2930442944": {
+    "abs_start": 0, "abs_end": 24490, "duration": 24490,
+    "name": "Вечер Всратых Хорроров (ВВХ) 2026 #47 / Playrooms #3 / CH13: Rest Stop - Прохождение / Waterline",
+    "date": "2026-11-16",
+    "direct": "https://bsufiles.drhx.ru/streams/2930442944.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2930442944.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2930442944.torrent",
+    "games": ["horrors-2026", "playrooms", "ch13", "single-2026"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2930442944+0.ass"
   }
 }
