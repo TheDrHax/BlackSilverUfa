@@ -2,7 +2,7 @@ import attr
 import json
 import requests
 from enum import Enum
-from cached_property import cached_property
+from functools import cached_property
 from typing import Callable, List, Tuple, Dict, Any, Union
 from hashlib import md5
 from datetime import datetime

@@ -1,5 +1,5 @@
 av
 tdh-twitch-utils[offset]==1.8.3
 plotly==4.14.3
-clipboard
+pyperclip==1.11.0
 faster-whisper==1.2.1

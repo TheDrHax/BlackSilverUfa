@@ -1,6 +1,6 @@
 from typing import Union, List
 import attr
-from cached_property import cached_property
+from functools import cached_property
 
 from .streams import SegmentReference
 from .blacklist import Blacklist, blacklist

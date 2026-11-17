@@ -4,7 +4,7 @@ from typing import Union
 from requests import Session
 from urllib.parse import quote
 from bs4 import BeautifulSoup as BS
-from cached_property import cached_property
+from functools import cached_property
 
 from ..config import config
 

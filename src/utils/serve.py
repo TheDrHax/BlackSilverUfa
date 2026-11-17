@@ -2,7 +2,7 @@ import os
 import sys
 import asyncio
 from subprocess import call, Popen
-from watchgod import awatch
+from watchfiles import awatch
 
 
 PYTHON = os.environ.get('PYTHON') or 'python3'
