@@ -19228,7 +19228,6 @@
     "youtube": "AMvsYUPe1Xo", "abs_start": 0, "abs_end": 7485, "duration": 7485,
     "name": "Mafia: The Old Country #4 (DLC: Man of Honor) / The Sinking City 2",
     "date": "2026-08-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2851537750.torrent",
     "games": ["mafia-toc", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2851537750.ass"
   },
@@ -19236,7 +19235,6 @@
     "youtube": "DsmbLjW0tIg", "vk": "-28387068_456251240", "abs_start": 0, "abs_end": 18546, "duration": 18546,
     "name": "Snowed Under",
     "date": "2026-08-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2852312104.torrent",
     "games": ["chillas-art"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2852312104.ass"
   },
@@ -19741,5 +19739,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2930442944.torrent",
     "games": ["horrors-2026", "playrooms", "ch13", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2930442944+0.ass"
+  },
+  "2931301613": {
+    "abs_start": 0, "abs_end": 12353, "duration": 12353,
+    "name": "Playrooms #4",
+    "date": "2026-11-17",
+    "direct": "https://bsufiles.drhx.ru/streams/2931301613.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2931301613.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2931301613.torrent",
+    "games": ["playrooms"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2931301613.ass"
   }
 }

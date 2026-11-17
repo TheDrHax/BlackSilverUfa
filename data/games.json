@@ -22421,7 +22421,7 @@
   },
   {
     "name": "Playrooms",
-    "category": "ongoing",
+    "category": "finished",
     "id": "playrooms",
     "streams": [
       { "segment": "2904151512", "subrefs": [
@@ -22432,6 +22432,9 @@
       ] },
       { "segment": "2930442944", "subrefs": [
         { "name": "3", "start": 1268 }
+      ] },
+      { "segment": "2931301613", "subrefs": [
+        { "name": "4", "start": 750 }
       ] }
     ]
   },
