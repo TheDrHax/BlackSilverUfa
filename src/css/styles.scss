@@ -60,8 +60,82 @@ $pagination-hover-border-color: $border-color;
 $modal-content-color: $text-color;
 $modal-content-bg: $color-bg-dark;
 
-@import "~bootstrap/scss/bootstrap";
+$body-secondary-color: rgba($text-color, 0.75);
+$body-tertiary-color: rgba($text-color, 0.5);
+$body-emphasis-color: #fff;
+$body-secondary-bg: $color-bg-light;
+$body-tertiary-bg: $color-bg;
+$border-color-translucent: rgba(0, 0, 0, 0.125);
+$list-group-border-color: rgba(0, 0, 0, 0.125);
+$link-color: #629cf2;
+$link-hover-color: #629cf2;
+$input-placeholder-color: $input-color-placeholder;
+$form-select-indicator-color: $input-color-placeholder;
+
+$tooltip-bg: #000;
+$tooltip-color: #fff;
+$border-radius: 0.25rem;
+$border-radius-sm: 0.2rem;
+$border-radius-lg: 0.3rem;
+
+// Сайт всегда тёмный и без переключения тем
+$enable-dark-mode: false;
+
+@import "~bootstrap/scss/mixins/banner";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/toasts";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/helpers"; // .ratio, .clearfix, .vr — внутри helpers
+@import "~bootstrap/scss/utilities/api";
+
 @import "~react-custom-scroll/dist/customScroll";
+
+:root {
+  color-scheme: dark;
+
+  --bs-nav-link-padding-x: #{$nav-link-padding-x};
+  --bs-nav-link-padding-y: #{$nav-link-padding-y};
+  --bs-nav-link-color: #{$nav-link-color};
+  --bs-nav-link-hover-color: #{$nav-link-hover-color};
+  --bs-nav-link-disabled-color: #{$nav-link-disabled-color};
+}
+
+.react-calendar :where(button) {
+  color: #000;
+}
+
+.tooltip,
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .toast-container {
   z-index: 100;
@@ -299,10 +373,9 @@ h3>.badge {
   margin-top: -0.4em;
 }
 
-.modal {
-  & button.close {
-    color: $text-color;
-  }
+.modal-header .btn-close,
+.toast-header .btn-close {
+  @include btn-close-white();
 }
 
 /*

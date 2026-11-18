@@ -40,7 +40,7 @@ export default function DonateToast() {
 
   return (
     <Toast onClose={close} show={show} animation={false}>
-      <Toast.Header closeVariant="white">Привет! Нравится сайт? 👀</Toast.Header>
+      <Toast.Header>Привет! Нравится сайт? 👀</Toast.Header>
       <Toast.Body>
         Разработка и постоянное наполнение отнимают много времени. Вы можете
         поддержать работу сайта <Link to={PATHS.DONATE} onClick={close}>здесь</Link> ❤️

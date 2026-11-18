@@ -32,7 +32,7 @@ export default function BirthdayToast() {
 
   return (
     <Toast onClose={close} show={show} animation={false}>
-      <Toast.Header closeVariant="white">Привет!</Toast.Header>
+      <Toast.Header>Привет!</Toast.Header>
       <Toast.Body>
         Сегодня у автора этого сайта день рождения! 🎉
         Он занимается архивом уже {now.getFullYear() - 2017} из {now.getFullYear() - 1996} своих лет.

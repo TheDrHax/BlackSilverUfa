@@ -7,7 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
   ],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -19,6 +19,13 @@ module.exports = {
     'react',
   ],
   rules: {
+    'react/function-component-definition': [0],
+    'react/no-unstable-nested-components': [0],
+    'react/jsx-curly-brace-presence': [0],
+    'react/jsx-no-useless-fragment': [0],
+    'react/no-unknown-property': [0],
+    'no-restricted-exports': [0],
+
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/sort-comp': [0, {}],
     'max-classes-per-file': [0],
