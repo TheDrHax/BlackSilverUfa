@@ -582,9 +582,11 @@
     "games": ["fallout-2"]
   },
   "001610070": {
-    "abs_start": 0, "abs_end": 21384, "duration": 0,
+    "abs_start": 0, "abs_end": 21383, "duration": 21383,
     "name": "Mafia III #1",
     "date": "2016-10-07",
+    "direct": "https://bsufiles.drhx.ru/streams/001610070.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/001610070.mp4/master.m3u8",
     "games": ["mafia-3"]
   },
   "001610100": {
@@ -19242,7 +19244,6 @@
     "youtube": "exyIO6H-98I", "vk": "-28387068_456251241", "abs_start": 0, "abs_end": 24788, "duration": 24788,
     "name": "Frozen Ship / How to Fish #1 / Grain Rot #1 / RV There Yet? #12",
     "date": "2026-08-22",
-    "torrent": "https://bsufiles.drhx.ru/streams/2853243279.torrent",
     "games": ["first-2026", "how-to-fish", "grain-rot", "rv-there-yet"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2853243279+0.ass"
   },
