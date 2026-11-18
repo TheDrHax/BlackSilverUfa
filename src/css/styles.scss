@@ -322,6 +322,20 @@ html, body, #app {
   }
 }
 
+.duration-overlay {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  padding: 2px 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
 .watch-progress {
   position: absolute;
   bottom: 0;

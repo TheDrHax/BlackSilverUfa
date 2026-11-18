@@ -9,7 +9,7 @@ import { FAIcon } from '../../utils/fontawesome';
 import FormCheckTriState from '../../components/utils/form-check-tri-state';
 
 const SORT_OPTIONS = {
-  segments: ['date'],
+  segments: ['date', 'duration'],
   games: ['date', 'name', 'stream_count'],
 };
 

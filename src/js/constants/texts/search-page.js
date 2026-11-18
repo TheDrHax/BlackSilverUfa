@@ -11,6 +11,7 @@ export const searchPage = {
     date: 'по дате',
     name: 'по названию',
     stream_count: 'по количеству стримов',
+    duration: 'по длительности',
   },
   modes: {
     segments: 'Стримы',

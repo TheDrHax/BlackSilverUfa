@@ -30,6 +30,7 @@ const getSortParams = ({ sortBy, isDesc }) => (
     ...(
       sortBy === 'stream_count' ? [['streams', isDesc]] :
       sortBy === 'name' ? [['name', isDesc]] :
+      sortBy === 'duration' ? [['duration', isDesc]] :
       []
     ),
     ['date', isDesc],

@@ -7,6 +7,7 @@ import Pagination from '@vlsergey/react-bootstrap-pagination';
 // Namespace
 import { MODES } from './constants';
 import { getSegmentDescription, getGameDescription } from '../../utils/data-utils';
+import { ftime } from '../../utils/time-utils';
 import { Image } from '../../components/utils/image';
 import { Segment, IndexEntry } from '../../data-types';
 import { WatchedProgress } from '../game-page/stream-card';
@@ -40,6 +41,9 @@ const SegmentItem = ({ item }) => (
       <Col style={{ flex: '0 0 240px' }}>
         <div style={{ position: 'relative' }}>
           <Image className="me-3" width="100%" src={item.thumbnail} alt="thumbnail" />
+          {item.duration > 0 && (
+            <span className="duration-overlay">{ftime(item.duration)}</span>
+          )}
           <WatchedProgress segment={item} />
         </div>
       </Col>
