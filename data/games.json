@@ -9680,9 +9680,6 @@
       ] },
       { "segment": "2928510634", "subrefs": [
         { "name": "Derelikt", "start": 14469 }
-      ] },
-      { "segment": "2932196997", "subrefs": [
-        { "name": "Grand Theft Auto VI", "start": 2566 }
       ] }
     ]
   },
@@ -22477,6 +22474,19 @@
       ] },
       { "segment": "2930442944", "subrefs": [
         { "name": "Прохождение", "start": 15611 }
+      ] }
+    ]
+  },
+  {
+    "name": "Grand Theft Auto VI",
+    "category": "ongoing",
+    "id": "gta-6",
+    "streams": [
+      { "segment": "2932196997", "subrefs": [
+        { "name": "1", "start": 2566 }
+      ] },
+      { "segment": "2933513942", "subrefs": [
+        { "name": "2", "start": 824 }
       ] }
     ]
   }

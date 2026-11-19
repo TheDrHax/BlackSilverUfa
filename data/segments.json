@@ -19281,7 +19281,6 @@
     "youtube": "Uot_i1kh9S4", "vk": "-28387068_456251247", "official": false, "abs_start": 0, "abs_end": 14873, "duration": 14873, "chat_messages": 11766, "chat_users": 1728,
     "name": "DLSS-стрим / Cyberpunk 2077 #14 (DLSS 5) / Red Dead Redemption 2 #11 (DLSS) / Stellar Blade - DLSS 5",
     "date": "2026-08-28",
-    "torrent": "https://bsufiles.drhx.ru/streams/2858672788.torrent",
     "games": ["other", "cyberpunk-2077", "rdr2", "stellar-blade"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2858672788.ass"
   },
@@ -19289,7 +19288,6 @@
     "youtube": "6-OVT9hE62I", "vk": "-28387068_456251248", "abs_start": 0, "abs_end": 18484, "duration": 18484, "chat_messages": 14784, "chat_users": 1512,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #36 / Backrooms: Primal (демо) / Can I Come In? / Witness the Dark #1: Bloody Burger / The Stalked 3 / The Thing Beneath",
     "date": "2026-08-29",
-    "torrent": "https://bsufiles.drhx.ru/streams/2859661467.torrent",
     "games": ["horrors-2026", "single-2026", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2859661467.ass"
   },
@@ -19297,7 +19295,6 @@
     "youtube": "UoLURMOaJMo", "vk": "-28387068_456251249", "abs_start": 0, "abs_end": 18161, "duration": 18161, "chat_messages": 20372, "chat_users": 1829,
     "name": "Madagascar: Escape 2 Africa #1",
     "date": "2026-08-30",
-    "torrent": "https://bsufiles.drhx.ru/streams/2860620549.torrent",
     "games": ["madagascar-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2860620549.ass"
   },
@@ -19752,12 +19749,22 @@
   },
   "2932196997": {
     "vk": "-28387068_456251308", "abs_start": 0, "abs_end": 29472, "duration": 29472, "chat_messages": 41658, "chat_users": 4162,
-    "name": "Grand Theft Auto VI",
+    "name": "Grand Theft Auto VI #1",
     "date": "2026-11-18",
     "direct": "https://bsufiles.drhx.ru/streams/2932196997.mp4",
     "hls": "https://bsufiles.drhx.ru/streams/2932196997.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2932196997.torrent",
-    "games": ["first-2026"],
+    "games": ["gta-6"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2932196997.ass"
+  },
+  "2933513942": {
+    "abs_start": 0, "abs_end": 25031, "duration": 25031, "chat_messages": 22367, "chat_users": 2425,
+    "name": "Grand Theft Auto VI #2",
+    "date": "2026-11-19",
+    "direct": "https://bsufiles.drhx.ru/streams/2933513942.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2933513942.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2933513942.torrent",
+    "games": ["gta-6"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2933513942.ass"
   }
 }
