@@ -14,11 +14,11 @@ import {
 import last from 'lodash/last';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import getHistory from 'react-router-global-history';
 import MediaQuery from 'react-responsive';
 import { Rnd } from 'react-rnd';
 import { faCaretSquareLeft, faCaretSquareRight, faCheckCircle, faDownload, faExclamationCircle, faExpand, faMaximize, faShareSquare } from '@fortawesome/free-solid-svg-icons';
 import { faTwitch, faYoutube, faVk } from '@fortawesome/free-brands-svg-icons';
+import history from '../utils/history';
 import { Data } from '../data';
 import Persist from '../utils/persist';
 import { Chat } from './chat';
@@ -118,7 +118,7 @@ export default class SegmentPlayer extends React.Component {
       segmentRef = findRefBySegment(game, segment);
     }
 
-    getHistory().replace({
+    history.replace({
       pathname: `/play/${gameId}/${segment.segment}`,
     });
 

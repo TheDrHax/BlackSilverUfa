@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import PropTypes from 'prop-types';
+// eslint-disable-next-line import/no-unresolved
 import Plyr from 'plyr';
 import Hls from 'hls.js';
 import Measure from 'react-measure';
 import { faComments } from '@fortawesome/free-solid-svg-icons';
 import Persist from '../../utils/persist';
-import 'plyr/src/sass/plyr.scss';
+// eslint-disable-next-line import/no-unresolved
+import 'plyr/plyr.scss';
 import { FAIcon } from '../../utils/fontawesome';
 
 export default class Player extends React.Component {
@@ -104,7 +107,7 @@ export default class Player extends React.Component {
 
     const node = document.createElement('span');
     button.appendChild(node);
-    ReactDOM.render(<FAIcon icon={icon} />, node); // this works? nice
+    createRoot(node).render(<FAIcon icon={icon} />); // this works? nice
 
     if (value) {
       button.pressed = true;

@@ -6,6 +6,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HMR = process.env.HMR === '1';
 const DEBUG = HMR || process.env.DEBUG === '1';
 
+const ENV_NAME = DEBUG ? 'development' : 'production';
+process.env.NODE_ENV = process.env.NODE_ENV || ENV_NAME;
+
 module.exports = [
   {
     entry: './src/js/index.js',
@@ -35,6 +38,7 @@ module.exports = [
     },
     cache: {
       type: 'filesystem',
+      name: ENV_NAME,
     },
     resolve: {
       fallback: {
@@ -75,6 +79,7 @@ module.exports = [
           use: {
             loader: 'babel-loader',
             options: {
+              envName: ENV_NAME,
               plugins: [
                 HMR && 'react-refresh/babel',
               ].filter(Boolean),

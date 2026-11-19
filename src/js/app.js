@@ -1,14 +1,15 @@
-import React, { StrictMode, Suspense } from 'react';
+import React, { Suspense } from 'react';
 import {
-  BrowserRouter as Router,
+  Router,
   Switch,
   Route,
   Redirect,
 } from 'react-router-dom';
 import { QueryParamProvider } from 'use-query-params';
-import { ReactRouterGlobalHistory } from 'react-router-global-history';
+import { ReactRouter5Adapter } from 'use-query-params/adapters/react-router-5';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import flowRight from 'lodash/flowRight';
+import history from './utils/history';
 // Namespace
 import PATHS from './constants/urls';
 // Components
@@ -20,17 +21,15 @@ const PlayerPage = React.lazy(() => import('./components/segment-player'));
 const SearchPage = React.lazy(() => import('./pages/search-page'));
 
 const Providers = flowRight([
-  (c) => <StrictMode>{c}</StrictMode>,
   (c) => <HelmetProvider>{c}</HelmetProvider>,
-  (c) => <Router>{c}</Router>,
+  (c) => <Router history={history}>{c}</Router>,
   (c) => <Suspense fallback={<Layout isLoading />}>{c}</Suspense>,
-  (c) => <QueryParamProvider ReactRouterRoute={Route}>{c}</QueryParamProvider>,
+  (c) => <QueryParamProvider adapter={ReactRouter5Adapter}>{c}</QueryParamProvider>,
   ({ children }) => children,
 ]);
 
 const App = () => (
   <Providers>
-    <ReactRouterGlobalHistory />
     <Helmet>
       <meta charSet="utf-8" />
     </Helmet>

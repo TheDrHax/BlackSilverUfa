@@ -114,7 +114,6 @@ $enable-dark-mode: false;
 @import "~bootstrap/scss/helpers"; // .ratio, .clearfix, .vr — внутри helpers
 @import "~bootstrap/scss/utilities/api";
 
-@import "~react-custom-scroll/dist/customScroll";
 
 :root {
   color-scheme: dark;

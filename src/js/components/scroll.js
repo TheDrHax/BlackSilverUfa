@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
-import CustomScroll from 'react-custom-scroll';
+import { CustomScroll } from 'react-custom-scroll';
 import Measure from 'react-measure';
 
 export const Scroll = ({

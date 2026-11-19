@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import getHistory from 'react-router-global-history';
 import { AsyncTypeahead } from 'react-bootstrap-typeahead';
 // Components
 import { Form, Nav } from 'react-bootstrap';
 // Namespace
 import PropTypes from 'prop-types';
+import history from '../../utils/history';
 import { common as t } from '../../constants/texts';
 // Utils
 import Matomo from '../../matomo';
@@ -39,7 +39,6 @@ const HeaderQuickSearch = ({ indexStore, segmentsStore }) => {
       count: options.length,
     });
 
-    const history = getHistory();
     history.push(item.url);
   };
 
