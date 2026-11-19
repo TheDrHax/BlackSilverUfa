@@ -10,6 +10,7 @@ from mako.lookup import TemplateLookup
 from sortedcontainers import SortedDict
 
 from . import _
+from ..data.cache import cache
 from ..scripts.emotes import update_emotes
 from ..config import DEBUG, config
 
@@ -153,6 +154,8 @@ def generate(argv=None):
     build_data()
     timed('Emotes updated in {}ms')(update_emotes)()
     build_mako()
+
+    cache.prune()
 
 
 if __name__ == '__main__':

@@ -1,29 +1,46 @@
 import os
 import json
-from typing import Any, Callable, Union
+from typing import Callable, Union
 from functools import wraps
+
+from typing_extensions import override
 from ..utils import _
 
 
 class Cache:
     def __init__(self):
         self.data = {}
+        self.accessed = set()
 
     def set(self, key, value):
         self.data[key] = value
     
     def get(self, key):
+        self.accessed.add(key)
         return self.data.get(key)
 
     def __contains__(self, key):
+        self.accessed.add(key)
         return key in self.data
     
     def remove(self, key):
-        if key in self:
+        self.accessed.discard(key)
+
+        if key in self.data:
             del self.data[key]
             return True
 
         return False
+
+    def prune(self):
+        removed = self.data.keys() - self.accessed
+
+        for key in removed:
+            del self.data[key]
+
+        self.accessed.clear()
+
+        return removed
 
 
 class DiskCache(Cache):
@@ -40,17 +57,32 @@ class DiskCache(Cache):
                       ensure_ascii=False)
 
     def __init__(self, filename):
+        super().__init__()
         self.filename = filename
         self.data = {}
+        self.accessed = set()
         self._load()
 
+    @override
     def set(self, key, value):
         super().set(key, value)
         self._save()
     
+    @override
     def remove(self, key):
         if super().remove(key):
             self._save()
+            return True
+        return False
+
+    @override
+    def prune(self):
+        removed = super().prune()
+
+        if removed:
+            self._save()
+
+        return removed
 
 
 cache = DiskCache(_('data/cache.json'))
