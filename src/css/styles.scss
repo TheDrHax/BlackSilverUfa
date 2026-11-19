@@ -1058,6 +1058,16 @@ h3>.badge {
  * Interactive search
  */
 
+.segment-stats {
+  width: auto;
+  margin-bottom: 0.25rem;
+
+  td {
+    padding: 0.1rem 1.5rem 0.1rem 0;
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: '991px') { // keep gutters with container-fluid
   .search {
     margin-left: 0;

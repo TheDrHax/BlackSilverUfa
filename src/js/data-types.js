@@ -24,6 +24,9 @@ export const Segment = PropTypes.shape({
   abs_end: PropTypes.number,
   duration: PropTypes.number,
 
+  chat_messages: PropTypes.number,
+  chat_users: PropTypes.number,
+
   watched: PropTypes.number,
   setWatched: PropTypes.func,
 });

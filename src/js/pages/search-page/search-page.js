@@ -31,6 +31,8 @@ const getSortParams = ({ sortBy, isDesc }) => (
       sortBy === 'stream_count' ? [['streams', isDesc]] :
       sortBy === 'name' ? [['name', isDesc]] :
       sortBy === 'duration' ? [['duration', isDesc]] :
+      sortBy === 'chat_messages' ? [['chat_messages', isDesc]] :
+      sortBy === 'chat_users' ? [['chat_users', isDesc]] :
       []
     ),
     ['date', isDesc],
@@ -62,6 +64,10 @@ const executeSearch = ({ data: { segments, index }, mode, filters, sorting }) =>
       // Watched filter
       if (filters.watched != null) {
         query.watched = { [filters.watched ? '$gt' : '$eq']: 0 };
+      }
+
+      if (['chat_messages', 'chat_users'].includes(sorting.sortBy)) {
+        query[sorting.sortBy] = { $gt: 0 };
       }
 
       break;

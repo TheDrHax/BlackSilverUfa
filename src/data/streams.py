@@ -14,7 +14,7 @@ from ..config import config, tcd_config
 from .blacklist import Blacklist, BlacklistTimeline
 from .timecodes import Timecode, Timecodes
 from ..utils import _, last_line, count_lines, join, json_escape, indent
-from ..utils.ass import SubtitlesStyle
+from ..utils.ass import SubtitlesReader, SubtitlesStyle
 
 
 try:
@@ -256,6 +256,56 @@ class Segment:
         else:
             return self.stream.subtitles_path
 
+    @cached('chat-stats-{0[0].twitch}-{0[0].abs_start}-{0[0].abs_end}')
+    def _chat_stats(self) -> tuple[int, int] | None:
+        if self.stream.type is StreamType.NO_CHAT:
+            return None
+
+        start = int(self.abs_start)
+        end = int(self.abs_end)
+
+        if self.generated_subtitles_hash:
+            end = end - start if end else 0
+            start = 0
+
+        try:
+            reader = SubtitlesReader(self.subtitles_path)
+        except (FileNotFoundError, StopIteration):
+            return None
+
+        messages = 0
+        users = set()
+
+        for event in reader.events():
+            if event.disabled:
+                continue
+
+            if event.start < start:
+                continue
+
+            if end != 0 and event.start >= end:
+                break
+
+            messages += 1
+            users.add(event.username)
+
+        reader.close()
+
+        if messages == 0 and len(users) == 0:
+            return None
+
+        return messages, len(users)
+
+    @property
+    def chat_messages(self):
+        messages, _ = self._chat_stats() or (None, None)
+        return messages
+
+    @property
+    def chat_users(self):
+        _, users = self._chat_stats() or (None, None)
+        return users
+
     @staticmethod
     def _duration_ytdlp(url):
         cmd = ['yt-dlp', *config['yt-dlp']['args'],
@@ -346,8 +396,8 @@ class Segment:
                     'start', 'end', '_duration', 'force_start']
             multiline_keys = ['direct', 'hls', 'offsets', 'note', 'torrent']
         else:
-            keys = ['youtube', 'vk', 'official',
-                    'abs_start', 'abs_end', 'duration']
+            keys = ['youtube', 'vk', 'official', 'abs_start', 'abs_end',
+                    'duration', 'chat_messages', 'chat_users']
             multiline_keys = ['name', 'date', 'direct', 'hls', 'offsets',
                               'cuts', 'torrent', 'games', 'subtitles', 'note']
 

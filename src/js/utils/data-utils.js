@@ -36,6 +36,18 @@ export const getOffset = (segment, at) => {
 
 export const getRelTime = (at, segment) => at - getOffset(segment, at);
 
+export const getPartDurations = (segment) => {
+  const parts = segment.streams
+    .map((s) => segment.offsets[s])
+    .sort((a, b) => a - b);
+
+  return parts.map((offset, i) => (
+    (i + 1 < parts.length)
+      ? parts[i + 1]
+      : segment.abs_end) - offset
+  );
+};
+
 export const getAbsTime = (t, segment) => (
   t + ((segment.cuts || [])
     .reduce((offset, [start, end]) => (
@@ -155,8 +167,6 @@ export const resolveGame = (games, segment, at) => {
 
   return res;
 };
-
-export const getSegmentDescription = ({ date }) => SugarDate.short(date);
 
 export const getGameDescription = ({ streams: refs }) => {
   if (refs.length === 0) {

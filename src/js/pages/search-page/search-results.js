@@ -2,13 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // Components
 import { Link } from 'react-router-dom';
-import { Col, ListGroup, Row } from 'react-bootstrap';
+import { faCalendar, faClock, faComment, faComments, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { Col, ListGroup, Row, Table } from 'react-bootstrap';
 import Pagination from '@vlsergey/react-bootstrap-pagination';
 // Namespace
 import { MODES } from './constants';
-import { getSegmentDescription, getGameDescription } from '../../utils/data-utils';
+import { getGameDescription, getPartDurations } from '../../utils/data-utils';
 import { ftime } from '../../utils/time-utils';
+import SugarDate from '../../utils/sugar';
 import { Image } from '../../components/utils/image';
+import { FAIcon } from '../../utils/fontawesome';
 import { Segment, IndexEntry } from '../../data-types';
 import { WatchedProgress } from '../game-page/stream-card';
 
@@ -23,7 +26,7 @@ const GameItem = ({ item }) => (
         <div><Link to={item.url}>{item.name}</Link></div>
         <div>
           {item.segments.length === 1
-            ? getSegmentDescription(item.segments[0])
+            ? <SegmentDescription item={item.segments[0]} />
             : getGameDescription(item.original)}
         </div>
       </Col>
@@ -33,6 +36,33 @@ const GameItem = ({ item }) => (
 
 GameItem.propTypes = {
   item: IndexEntry.isRequired,
+};
+
+const SegmentDescription = ({ item }) => (
+  <Table size="sm" borderless className="segment-stats my-2 w-auto">
+    <tbody>
+      <tr>
+        <td title="Дата стрима"><FAIcon icon={faCalendar} /> {SugarDate.short(item.date)}</td>
+        <td title="Длительность">
+          <FAIcon icon={faClock} />
+          {' '}
+          {(item.streams.length > 1
+            ? getPartDurations(item).map(ftime).join(' + ')
+            : ftime(item.duration))}
+        </td>
+      </tr>
+      {(item.chat_messages != null) && (
+        <tr>
+          <td title="Сообщений в чате"><FAIcon icon={item.chat_messages > 1 ? faComments : faComment} /> {item.chat_messages}</td>
+          <td title="Активных зрителей"><FAIcon icon={faUsers} /> {item.chat_users}</td>
+        </tr>
+      )}
+    </tbody>
+  </Table>
+);
+
+SegmentDescription.propTypes = {
+  item: Segment.isRequired,
 };
 
 const SegmentItem = ({ item }) => (
@@ -50,7 +80,7 @@ const SegmentItem = ({ item }) => (
 
       <Col>
         <div><Link to={item.url}>{item.name}</Link></div>
-        <div>{getSegmentDescription(item)}</div>
+        <SegmentDescription item={item} />
       </Col>
     </Row>
   </ListGroup.Item>

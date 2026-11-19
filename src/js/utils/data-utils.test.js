@@ -8,6 +8,7 @@ import {
   resolveSegment,
   resolveGame,
   getGameDescription,
+  getPartDurations,
 } from './data-utils';
 
 describe('offset', () => {
@@ -236,5 +237,21 @@ describe('game description', () => {
   test('streams < refs', () => Data.then(({ games }) => {
     expect(getGameDescription(games.by('id', 'spider-man')))
       .toEqual('4 стрима с 06.09.2018 по 24.10.2018');
+  }));
+});
+
+describe('part durations', () => {
+  test('simple', () => {
+    expect(getPartDurations({
+      streams: ['a', 'b'],
+      offsets: { a: 0, b: 15486 },
+      abs_end: 19195,
+    })).toEqual([15486, 3709]);
+  });
+
+  test('sums up to segment duration', () => Data.then(({ segments }) => {
+    const segment = segments.by('segment', '495362547,495449259');
+    expect(getPartDurations(segment).reduce((a, b) => a + b, 0))
+      .toEqual(segment.duration);
   }));
 });

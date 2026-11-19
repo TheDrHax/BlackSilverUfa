@@ -12,6 +12,8 @@ export const searchPage = {
     name: 'по названию',
     stream_count: 'по количеству стримов',
     duration: 'по длительности',
+    chat_messages: 'по числу сообщений',
+    chat_users: 'по числу активных зрителей',
   },
   modes: {
     segments: 'Стримы',
