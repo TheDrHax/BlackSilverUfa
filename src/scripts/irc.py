@@ -35,13 +35,17 @@ CLEARCHAT_RANGE = timedelta(minutes=5)
 def get_badges(params: dict) -> str:
     badge_map = tcd_config['badges']['map']
 
-    badges = []
-    for badge in params.get('badges', '').split(','):
-        name = badge.split('/')[0]
-        if name in badge_map:
-            badges.append(badge.replace('/', '='))
+    badges = {}
 
-    return ';'.join(badges)
+    for i in ['badges', 'badge-info']:
+        for badge in params.get(i, '').split(','):
+            if not badge:
+                continue
+            name, value = badge.split('/', 2)
+            if name in badge_map:
+                badges[name] = value
+
+    return ';'.join(f'{k}={v}' for k, v in badges.items())
 
 
 def irc_params(params):
