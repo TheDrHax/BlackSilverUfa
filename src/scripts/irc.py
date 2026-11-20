@@ -28,6 +28,9 @@ from .converter import generate_subtitles
 from .plot import main as plot
 
 
+CLEARCHAT_RANGE = timedelta(minutes=5)
+
+
 def get_badges(params: dict) -> str:
     badge_map = tcd_config['badges']['map']
 
@@ -57,13 +60,17 @@ def parser(source: str, start: datetime, duration: datetime):
     else:
         fi = open(source, 'r')
 
+    messages: dict = {}
+
     for line in fi:
         parts = line.split(' ')
 
         if len(parts) < 2:
             continue
 
-        if parts[1] != 'privmsg':
+        command = parts[1]
+
+        if command not in ('privmsg', 'clearchat', 'clearmsg'):
             continue
 
         # For some reason IRC log is behind chat
@@ -76,6 +83,24 @@ def parser(source: str, start: datetime, duration: datetime):
             break
 
         params = irc_params(parts[2])
+
+        if command == 'clearmsg':
+            messages.pop(params.get('target-msg-id'), None)
+            continue
+
+        if command == 'clearchat':
+            target = params.get('target-user-id')
+
+            removed = [
+                msg_id for msg_id, (msg_ts, user_id, _) in messages.items()
+                if ts - CLEARCHAT_RANGE <= msg_ts <= ts
+                and (not target or user_id == target)
+            ]
+
+            for msg_id in removed:
+                del messages[msg_id]
+
+            continue
 
         msg = SubtitlesEvent()
 
@@ -90,10 +115,12 @@ def parser(source: str, start: datetime, duration: datetime):
         color = params.get('color') or '#FFFFFF'
         msg.color_bgr = color[5:7] + color[3:5] + color[1:3]
 
-        yield msg
+        messages[params['id']] = (ts, params.get('user-id'), msg)
 
     if not isinstance(fi, list):
         fi.close()
+
+    return [msg for _, _, msg in messages.values()]
 
 
 def main(argv=None):
