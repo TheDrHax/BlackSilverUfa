@@ -22,9 +22,10 @@ from docopt import docopt
 from ..config import tcd_config
 from ..data.streams import Stream
 from ..data.loader.default import streams
+from ..data.blacklist import Blacklist
 from ..data.timecodes import Timecode
 from ..utils.ass import SubtitlesEvent, SubtitlesWriter
-from .converter import generate_subtitles
+from .converter import generate_subtitles, convert_msg
 from .plot import main as plot
 
 
@@ -157,6 +158,7 @@ def main(argv=None):
     writer = SubtitlesWriter(streams[vod].subtitles_path)
 
     for msg in parser(source, start, duration):
+        msg = convert_msg(msg, Blacklist())
         writer.write(msg)
 
     writer.close()
