@@ -23,6 +23,7 @@ export const Chat = ({ subtitles, date, plyr, offset, simple }) => {
     Persist.load('Chat', {
       showHidden: false,
       showEmotes: true,
+      showBadges: true,
       unpackMessages: true,
     }),
   );

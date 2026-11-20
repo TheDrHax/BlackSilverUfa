@@ -68,6 +68,15 @@ export const loadSubtitles = async (url) => {
       const text = msgParts.join(': ').replace(LINE_BREAK, '');
       const time = ptime(parts.Start);
 
+      const badges = {};
+
+      for (const badge of (parts.Badges || '').split(';')) {
+        if (!badge) continue;
+        const [name, value] = badge.split('=');
+        if (!name) continue;
+        badges[name] = value;
+      }
+
       let user = userStr;
       let color = 'inherit';
 
@@ -83,7 +92,7 @@ export const loadSubtitles = async (url) => {
         }
       }
 
-      data.insert({ time, user, text, color, hidden });
+      data.insert({ time, badges, user, text, color, hidden });
     }
   }
 

@@ -1,8 +1,9 @@
 import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
 import repeat from 'lodash/repeat';
-import { ListGroupItem } from 'react-bootstrap';
+import { ListGroupItem, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { TypeMessage, TypeEmotes } from './types';
+import { renderTemplate } from '../../utils/text-utils';
 
 const PACKED_WORDS = /([^ ]+) x⁣([0-9]+)/g;
 
@@ -10,7 +11,26 @@ const unpackMessage = (text) => (
   text.replace(PACKED_WORDS, (a, b, c) => repeat(`${b} `, c).trimEnd())
 );
 
-export const ChatMessage = ({ message, emotes, unpackMessages, showHidden, showEmotes }) => {
+const badgeDescription = (name, value) => {
+  switch (name) {
+    case 'subscriber':
+      return renderTemplate('Подписчик ({n} месяц{n#,а,ев})', { n: +value });
+    
+    case 'vip':
+      return 'VIP';
+    
+    case 'broadcaster':
+      return 'Стример';
+    
+    case 'moderator':
+      return 'Модератор';
+    
+    default:
+      return 'Unknown';
+  }
+};
+
+export const ChatMessage = ({ message, emotes, unpackMessages, showHidden, showEmotes, showBadges }) => {
   if (message.hidden && !showHidden) return null;
 
   const body = useMemo(() => {
@@ -22,15 +42,26 @@ export const ChatMessage = ({ message, emotes, unpackMessages, showHidden, showE
 
     if (showEmotes && emotes) {
       res = res.split(/\s+/).map((word, i) => {
-        if (emotes[word]) {
+        const name = word;
+
+        if (emotes[name]) {
           word = (
-            <img
+            <OverlayTrigger
               // eslint-disable-next-line react/no-array-index-key
               key={i}
-              src={emotes[word].src}
-              alt={word}
-              className="emote"
-            />
+              placement="top"
+              overlay={(props) => (
+                <Tooltip {...props}>
+                  {name}
+                </Tooltip>
+              )}
+            >
+              <img
+                src={emotes[name].src}
+                alt={name}
+                className="emote"
+              />
+            </OverlayTrigger>
           );
         }
 
@@ -41,8 +72,29 @@ export const ChatMessage = ({ message, emotes, unpackMessages, showHidden, showE
     return res;
   }, [message.text, unpackMessages, emotes, showEmotes]);
 
+  const badges = useMemo(() => (
+    Object.entries(message.badges).map(([name, value]) => (
+      <OverlayTrigger
+        key={`badge-${name}`}
+        placement="top"
+        overlay={(props) => (
+          <Tooltip {...props}>
+            {badgeDescription(name, value)}
+          </Tooltip>
+        )}
+      >
+        <img
+          src={`/static/images/badge-${name}.png`}
+          className="chat-badge"
+          alt={name}
+        />
+      </OverlayTrigger>
+    ))
+  ), [message.badges]);
+
   return (
     <ListGroupItem>
+      {showBadges && badges}
       <span
         style={{ color: message.color }}
         className="username"
@@ -61,6 +113,7 @@ ChatMessage.propTypes = {
   unpackMessages: PropTypes.bool.isRequired,
   showHidden: PropTypes.bool.isRequired,
   showEmotes: PropTypes.bool.isRequired,
+  showBadges: PropTypes.bool.isRequired,
 };
 
 ChatMessage.defaultProps = {

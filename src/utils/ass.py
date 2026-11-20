@@ -92,6 +92,17 @@ class SubtitlesEvent(dict):
     def text(self, value):
         self['Text'] = self.full_text(self.username, value, self.color_bgr)
 
+    @property
+    def badges(self):
+        if 'Badges' in self:
+            return self['Badges']
+        else:
+            return ''
+
+    @badges.setter
+    def badges(self, value):
+        self['Badges'] = value
+
     def __init__(self,
                  line: str = 'Dialogue: 0:00:00.00, 0:00:00.00, Default, user: msg',
                  event_format: List[str] = ['Start', 'End', 'Style', 'Text']):
@@ -117,7 +128,7 @@ class SubtitlesEvent(dict):
         return ''.join([
             '; ' if self.disabled else '',
             'Dialogue: ',
-            ', '.join([self[key] for key in event_format])
+            ', '.join([self.get(key, '') for key in event_format])
         ])
 
 

@@ -19,12 +19,25 @@ from datetime import datetime, timedelta
 import requests
 from docopt import docopt
 
+from ..config import tcd_config
 from ..data.streams import Stream
 from ..data.loader.default import streams
 from ..data.timecodes import Timecode
 from ..utils.ass import SubtitlesEvent, SubtitlesWriter
 from .converter import generate_subtitles
 from .plot import main as plot
+
+
+def get_badges(params: dict) -> str:
+    badge_map = tcd_config['badges']['map']
+
+    badges = []
+    for badge in params.get('badges', '').split(','):
+        name = badge.split('/')[0]
+        if name in badge_map:
+            badges.append(badge.replace('/', '='))
+
+    return ';'.join(badges)
 
 
 def irc_params(params):
@@ -71,6 +84,8 @@ def parser(source: str, start: datetime, duration: datetime):
 
         msg.username = params['display-name']
         msg.text = ' '.join(parts[4:])[1:].strip()
+
+        msg.badges = get_badges(params)
 
         color = params.get('color') or '#FFFFFF'
         msg.color_bgr = color[5:7] + color[3:5] + color[1:3]

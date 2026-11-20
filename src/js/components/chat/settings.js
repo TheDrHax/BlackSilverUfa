@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button, OverlayTrigger, Spinner, Tooltip } from 'react-bootstrap';
-import { faDownload, faFileArchive, faRobot, faSmile } from '@fortawesome/free-solid-svg-icons';
+import { faDownload, faFileArchive, faMedal, faRobot, faSmile } from '@fortawesome/free-solid-svg-icons';
 import { TypeEmotes } from './types';
 import { FAIcon } from '../../utils/fontawesome';
 
@@ -9,6 +9,7 @@ export const ChatSettings = ({
   showHidden,
   emotes,
   showEmotes,
+  showBadges,
   unpackMessages,
   subtitles,
   onChange,
@@ -61,6 +62,25 @@ export const ChatSettings = ({
       placement="top"
       overlay={(props) => (
         <Tooltip {...props}>
+          Показывать значки пользователей Twitch ({showBadges ? 'включено' : 'выключено'})
+        </Tooltip>
+      )}
+    >
+      <Button
+        className="ms-1"
+        variant="dark"
+        size="sm"
+        onClick={() => onChange({ showBadges: !showBadges })}
+      >
+        <FAIcon icon={faMedal} />
+        <div className={`led ${showBadges ? 'bg-success' : 'bg-danger'}`} />
+      </Button>
+    </OverlayTrigger>
+
+    <OverlayTrigger
+      placement="top"
+      overlay={(props) => (
+        <Tooltip {...props}>
           Распаковывать сообщения вида &quot;Kappa x3&quot; в
           &quot;Kappa Kappa Kappa&quot; ({unpackMessages ? 'включено' : 'выключено'})
         </Tooltip>
@@ -103,6 +123,7 @@ ChatSettings.propTypes = {
   showHidden: PropTypes.bool.isRequired,
   emotes: TypeEmotes,
   showEmotes: PropTypes.bool.isRequired,
+  showBadges: PropTypes.bool.isRequired,
   unpackMessages: PropTypes.bool.isRequired,
   subtitles: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
