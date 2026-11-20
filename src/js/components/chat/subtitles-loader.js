@@ -1,7 +1,17 @@
 import * as Loki from 'lokijs';
+import zip from 'lodash/zip';
 import { ptime } from '../../utils/time-utils';
 
 const LINE_BREAK = /\\N/g;
+
+// https://stackoverflow.com/a/29998400
+const JavaSplit = (string, separator, n) => {
+  const split = string.split(separator);
+  if (split.length <= n) return split;
+  const out = split.slice(0, n - 1);
+  out.push(split.slice(n - 1).join(separator));
+  return out;
+};
 
 export const loadSubtitles = async (url) => {
   const db = new Loki('chat');
@@ -12,6 +22,8 @@ export const loadSubtitles = async (url) => {
     .then((res) => res.split('\n'));
 
   let firstLine = true;
+  let eventsSection = false;
+  let format = null;
 
   for (let line of lines) {
     if (firstLine) {
@@ -22,6 +34,24 @@ export const loadSubtitles = async (url) => {
       firstLine = false;
     }
 
+    if (!eventsSection && line.startsWith('[Events]')) {
+      eventsSection = true;
+    }
+
+    if (eventsSection && !format && line.startsWith('Format:')) {
+      format = line.substring(8).split(', ');
+
+      for (const k of ['Start', 'Text']) {
+        if (format.indexOf(k) === -1) {
+          throw new Error('Файл повреждён или недоступен');
+        }
+      }
+    }
+
+    if (!format) {
+      continue;
+    }
+
     const hidden = line.startsWith('; ');
 
     if (hidden) {
@@ -29,11 +59,14 @@ export const loadSubtitles = async (url) => {
     }
 
     if (line.startsWith('Dialogue: ')) {
-      const parts = line.substring(10).split(', ');
+      const parts = Object.assign({},
+        ...zip(format, JavaSplit(line.substring(10), ', ', format.length))
+          .map(([k, v]) => ({ [k]: v })),
+      );
 
-      const [userStr, ...msgParts] = parts.slice(3).join(', ').split(': ');
+      const [userStr, ...msgParts] = (parts.Text ?? '').split(': ');
       const text = msgParts.join(': ').replace(LINE_BREAK, '');
-      const time = ptime(parts[1]);
+      const time = ptime(parts.Start);
 
       let user = userStr;
       let color = 'inherit';
