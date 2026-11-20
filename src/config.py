@@ -1,5 +1,9 @@
 import os
+from datetime import timezone, timedelta
 from .utils import load_json
+
+
+TZ = timezone(timedelta(hours=3))
 
 
 def convert_path(path: str) -> str:

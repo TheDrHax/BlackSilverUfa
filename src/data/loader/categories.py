@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 from typing import Dict, Union
 
 from ..games import Game
+from ...config import TZ
 from ...utils import load_json, join
 from ..categories import Category
 from .games import Games
@@ -26,7 +27,7 @@ class Categories(Dict[str, Category]):
             c = Category.from_dict(category, games=uncategorized)
             self[c.code] = c
 
-        month_ago = datetime.now() - timedelta(days=90)
+        month_ago = datetime.now(tz=TZ) - timedelta(days=90)
 
         if 'ongoing' in self and 'abandoned' in self:
             for game in self['ongoing'].games.copy():

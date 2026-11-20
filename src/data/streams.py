@@ -5,12 +5,12 @@ from enum import Enum
 from functools import cached_property
 from typing import Callable, List, Tuple, Dict, Any, Union
 from hashlib import md5
-from datetime import datetime
+from datetime import datetime, timezone
 from subprocess import run, PIPE
 from sortedcontainers import SortedList, SortedKeyList
 
 from .cache import cached
-from ..config import config, tcd_config
+from ..config import TZ, config, tcd_config
 from .blacklist import Blacklist, BlacklistTimeline
 from .timecodes import Timecode, Timecodes
 from ..utils import _, last_line, count_lines, join, json_escape, indent
@@ -442,7 +442,7 @@ class Segment:
                 return None
 
             if key == 'date':
-                value = value.date().isoformat()
+                value = value.astimezone(TZ).date().isoformat()
 
             return value
 
@@ -876,26 +876,19 @@ class Stream:
 
     @property
     @cached('date-{0[0].twitch}')
-    def _unix_time(self) -> str:
-        if not repo:
-            raise ValueError
-
-        args = ['--pretty=oneline', '--reverse', '-S', self.twitch]
-        rev = repo.git.log(args).split(' ')[0]
-        return repo.commit(rev).authored_date
+    def _unix_time(self) -> float:
+        res = requests.get(f'https://red.drhx.ru/blackufa/twitch/{self.twitch}').json()
+        d = datetime.fromisoformat(res['date'])
+        return d.timestamp()
 
     @property
     def date(self) -> datetime:
         if self.type is StreamType.JOINED:
             return self.streams[0].date
         elif self.type is StreamType.NO_CHAT:
-            return datetime.strptime(self.twitch[2:8], '%y%m%d')
+            return datetime.strptime(self.twitch[2:8], '%y%m%d').astimezone(TZ)
         else:
-            try:
-                return datetime.fromtimestamp(self._unix_time)
-            except ValueError:
-                return datetime.now()
-
+            return datetime.fromtimestamp(self._unix_time, tz=timezone.utc)
 
     @property
     def subtitles_prefix(self) -> str:
