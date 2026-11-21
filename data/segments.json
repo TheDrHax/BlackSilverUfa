@@ -19308,7 +19308,6 @@
     "youtube": "2bT-QQkldMI", "vk": "-28387068_456251252", "abs_start": 0, "abs_end": 22499, "duration": 22499, "chat_messages": 20859, "chat_users": 2005,
     "name": "The Blood of Dawnwalker #1 / Madagascar: Escape 2 Africa #2",
     "date": "2026-09-03",
-    "torrent": "https://bsufiles.drhx.ru/streams/2864035028.torrent",
     "games": ["dawnwalker", "madagascar-2"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2864035028.ass"
   },
@@ -19768,5 +19767,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2934797479.torrent",
     "games": ["gta-6"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2934797479.ass"
+  },
+  "2935956429": {
+    "abs_start": 0, "abs_end": 25195, "duration": 25195, "chat_messages": 23942, "chat_users": 2153,
+    "name": "Grand Theft Auto VI #4",
+    "date": "2026-11-21",
+    "direct": "https://bsufiles.drhx.ru/streams/2935956429.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2935956429.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2935956429.torrent",
+    "games": ["gta-6"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2935956429+0.ass"
   }
 }
