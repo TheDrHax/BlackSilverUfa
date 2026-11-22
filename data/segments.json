@@ -19315,27 +19315,20 @@
     "youtube": "D-l1A4VnwAc", "vk": "-28387068_456251253", "abs_start": 0, "abs_end": 31556, "duration": 31556, "chat_messages": 17579, "chat_users": 1881,
     "name": "The Blood of Dawnwalker #2",
     "date": "2026-09-04",
-    "torrent": "https://bsufiles.drhx.ru/streams/2864893468.torrent",
     "games": ["dawnwalker"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2864893468.ass"
   },
   "2865824623": {
-    "abs_start": 0, "abs_end": 8745, "duration": 8745, "chat_messages": 4443, "chat_users": 769,
+    "abs_start": 0, "abs_end": 8917, "duration": 0, "chat_messages": 4601, "chat_users": 783,
     "name": "",
     "date": "2026-09-05",
-    "direct": "https://bsufiles.drhx.ru/streams/2865824623.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2865824623.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2865824623.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2865824623+0.ass"
   },
   "2865899418": {
-    "abs_start": 0, "abs_end": 22301, "duration": 22301, "chat_messages": 12778, "chat_users": 1170,
+    "abs_start": 0, "abs_end": 22304, "duration": 0, "chat_messages": 12778, "chat_users": 1170,
     "name": "",
     "date": "2026-09-05",
-    "direct": "https://bsufiles.drhx.ru/streams/2865899418.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2865899418.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2865899418.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2865899418+0.ass"
   },
@@ -19345,7 +19338,6 @@
     "date": "2026-09-05",
     "offsets": ["0:00", "2:26:52+2"],
     "cuts": [[13710, 13743]],
-    "torrent": "https://bsufiles.drhx.ru/streams/2865824623,2865899418.torrent",
     "games": ["dawnwalker"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2865824623,2865899418+0.ass"
   },
@@ -19759,7 +19751,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2933513942.ass"
   },
   "2934797479": {
-    "abs_start": 0, "abs_end": 20771, "duration": 20771, "chat_messages": 17611, "chat_users": 1873,
+    "vk": "-28387068_456251310", "abs_start": 0, "abs_end": 20771, "duration": 20771, "chat_messages": 17611, "chat_users": 1873,
     "name": "Grand Theft Auto VI #3",
     "date": "2026-11-20",
     "direct": "https://bsufiles.drhx.ru/streams/2934797479.mp4",
@@ -19777,5 +19769,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2935956429.torrent",
     "games": ["gta-6"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2935956429+0.ass"
+  },
+  "2937141420": {
+    "abs_start": 0, "abs_end": 27911, "duration": 27911, "chat_messages": 26230, "chat_users": 2009,
+    "name": "Grand Theft Auto VI #5",
+    "date": "2026-11-22",
+    "direct": "https://bsufiles.drhx.ru/streams/2937141420.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2937141420.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2937141420.torrent",
+    "games": ["gta-6"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2937141420.ass"
   }
 }
