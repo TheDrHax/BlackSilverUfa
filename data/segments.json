@@ -19345,7 +19345,6 @@
     "youtube": "g9C1chg11JA", "vk": "-28387068_456251255", "abs_start": 0, "abs_end": 17139, "duration": 17139, "chat_messages": 13681, "chat_users": 1559,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #37 / Between Places / 7 Nights Keeper / Tales of Fear: Episode Zero",
     "date": "2026-09-06",
-    "torrent": "https://bsufiles.drhx.ru/streams/2866862961.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2866862961.ass"
   },
@@ -19354,7 +19353,6 @@
     "name": "Cosmic Fear #1",
     "date": "2026-09-10",
     "cuts": [[4204, 4218]],
-    "torrent": "https://bsufiles.drhx.ru/streams/2870344809.torrent",
     "games": ["cosmic-fear"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2870344809+0.ass"
   },
@@ -19779,5 +19777,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2937141420.torrent",
     "games": ["gta-6"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2937141420.ass"
+  },
+  "2938242406": {
+    "abs_start": 0, "abs_end": 28075, "duration": 28075, "chat_messages": 21619, "chat_users": 1983,
+    "name": "Grand Theft Auto VI #6",
+    "date": "2026-11-23",
+    "direct": "https://bsufiles.drhx.ru/streams/2938242406.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2938242406.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2938242406.torrent",
+    "games": ["gta-6"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2938242406.ass"
   }
 }
