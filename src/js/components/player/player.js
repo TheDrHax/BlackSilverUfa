@@ -56,7 +56,15 @@ export default class Player extends React.Component {
 
   updatePlyrSource() {
     const { youtube, direct, hls } = this.props;
-    const { media: video } = this.plyr;
+    const { plyr } = this;
+
+    // Plyr silently ignores a source change while it's not ready (i.e. while a
+    // YouTube embed is still booting up), so retry once the player is ready
+    if (!plyr.ready) {
+      plyr.once('ready', () => this.updatePlyrSource());
+      return;
+    }
+
     const source = { type: 'video' };
 
     if (this.hls) {
@@ -69,25 +77,34 @@ export default class Player extends React.Component {
         provider: 'youtube',
         src: youtube,
       }];
-    } else if (hls && Hls.isSupported()) {
+
+      plyr.source = source;
+      return;
+    }
+
+    const useHls = Boolean(hls) && Hls.isSupported();
+
+    source.sources = [{
+      type: 'video/mp4',
+      src: useHls ? plyr.config.blankVideo : (direct || hls),
+    }];
+
+    plyr.source = source;
+
+    if (useHls) {
+      if (!plyr.isHTML5) {
+        return;
+      }
+
       const hlsClient = new Hls({
         // For videos starting without a keyframe (first keyframe is
         // located typically at 2.015)
         maxBufferHole: 5,
       });
       hlsClient.loadSource(hls);
-      hlsClient.attachMedia(video);
+      hlsClient.attachMedia(plyr.media);
       this.hls = hlsClient;
-
-      return;
-    } else {
-      source.sources = [{
-        type: 'video/mp4',
-        src: direct,
-      }];
     }
-
-    this.plyr.source = source;
   }
 
   addControlButton({
