@@ -7347,6 +7347,10 @@
     21619,
     1983
   ],
+  "chat-stats-2939214988-0:00-8:01:05": [
+    21866,
+    2046
+  ],
   "chat-stats-294220536-0:00-5:25:55": [
     15486,
     2086
@@ -12237,6 +12241,7 @@
   "date-2935956429": 1795253203.0,
   "date-2937141420": 1795340250.0,
   "date-2938242406": 1795428471.0,
+  "date-2939214988": 1795512169.0,
   "date-294220536": 1533669890,
   "date-294641160": 1533754809,
   "date-295485781": 1533927959,
@@ -12982,6 +12987,8 @@
   "duration-direct-https://bsufiles.drhx.ru/streams/2937141420.mp4--hash": "26307095043",
   "duration-direct-https://bsufiles.drhx.ru/streams/2938242406.mp4": 28075,
   "duration-direct-https://bsufiles.drhx.ru/streams/2938242406.mp4--hash": "26927093134",
+  "duration-direct-https://bsufiles.drhx.ru/streams/2939214988.mp4": 28865,
+  "duration-direct-https://bsufiles.drhx.ru/streams/2939214988.mp4--hash": "27540784136",
   "duration-direct-https://bsufiles.drhx.ru/streams/443118072.mp4": 16548,
   "duration-direct-https://bsufiles.drhx.ru/streams/443118072.mp4--hash": "8859662541",
   "duration-direct-https://bsufiles.drhx.ru/streams/503413959.mp4": 18857,
@@ -14876,6 +14883,7 @@
   "duration-twitch-2935956429": 25323,
   "duration-twitch-2937141420": 27921,
   "duration-twitch-2938242406": 28080,
+  "duration-twitch-2939214988": 28874,
   "duration-twitch-294220536": 19637,
   "duration-twitch-294641160": 18343,
   "duration-twitch-295485781": 17725,
@@ -18427,6 +18435,7 @@
   "generated-subtitles-2928510634": "8cdaa87c24959afb9db45ca15eccb4bf",
   "generated-subtitles-2930442944": "ee874ec838fb78ce146e20ba716d7175",
   "generated-subtitles-2935956429": "8e196be6336c19fec68472b2831cb27c",
+  "generated-subtitles-2939214988": "7a065768111ec5680d282dc1118a908a",
   "generated-subtitles-399850727": "b0807129f6d3ee1fadb3ca45e53e2a52",
   "generated-subtitles-442647463": "d170208c5fe3e233c0ee509a20a219cb",
   "generated-subtitles-495362547,495449259": "cdbc880c8934a89f782a2014ebb45e0a",
@@ -20174,6 +20183,7 @@
   "messages-2935956429": 24962,
   "messages-2937141420": 26980,
   "messages-2938242406": 22307,
+  "messages-2939214988": 22575,
   "messages-294220536": 16870,
   "messages-294641160": 11199,
   "messages-295485781": 13906,

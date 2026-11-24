@@ -19360,7 +19360,6 @@
     "youtube": "SvltTYtGrxA", "vk": "-28387068_456251258", "abs_start": 0, "abs_end": 17921, "duration": 17921, "chat_messages": 11784, "chat_users": 1289,
     "name": "Cosmic Fear #2 / Backseat",
     "date": "2026-09-11",
-    "torrent": "https://bsufiles.drhx.ru/streams/2871200330.torrent",
     "games": ["cosmic-fear", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2871200330.ass"
   },
@@ -19368,7 +19367,6 @@
     "youtube": "ZtunZi9JVFo", "vk": "-28387068_456251259", "abs_start": 0, "abs_end": 18859, "duration": 18859, "chat_messages": 14558, "chat_users": 1590,
     "name": "The Pale Mimic / Kindawn: The Parish Remembers - Релиз",
     "date": "2026-09-12",
-    "torrent": "https://bsufiles.drhx.ru/streams/2872140533.torrent",
     "games": ["single-2026", "kindawn"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2872140533.ass"
   },
@@ -19386,7 +19384,6 @@
     "name": "Marvel's Wolverine",
     "date": "2026-09-15",
     "cuts": [[6155, 6189]],
-    "torrent": "https://bsufiles.drhx.ru/streams/2874733011.torrent",
     "games": ["first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2874733011+0.ass"
   },
@@ -19759,7 +19756,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2934797479.ass"
   },
   "2935956429": {
-    "abs_start": 0, "abs_end": 25195, "duration": 25195, "chat_messages": 23942, "chat_users": 2153,
+    "vk": "-28387068_456251311", "abs_start": 0, "abs_end": 25195, "duration": 25195, "chat_messages": 23942, "chat_users": 2153,
     "name": "Grand Theft Auto VI #4",
     "date": "2026-11-21",
     "direct": "https://bsufiles.drhx.ru/streams/2935956429.mp4",
@@ -19779,7 +19776,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2937141420.ass"
   },
   "2938242406": {
-    "abs_start": 0, "abs_end": 28075, "duration": 28075, "chat_messages": 21619, "chat_users": 1983,
+    "vk": "-28387068_456251315", "abs_start": 0, "abs_end": 28075, "duration": 28075, "chat_messages": 21619, "chat_users": 1983,
     "name": "Grand Theft Auto VI #6",
     "date": "2026-11-23",
     "direct": "https://bsufiles.drhx.ru/streams/2938242406.mp4",
@@ -19787,5 +19784,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2938242406.torrent",
     "games": ["gta-6"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2938242406.ass"
+  },
+  "2939214988": {
+    "abs_start": 0, "abs_end": 28865, "duration": 28865, "chat_messages": 21866, "chat_users": 2046,
+    "name": "Grand Theft Auto VI #7",
+    "date": "2026-11-24",
+    "direct": "https://bsufiles.drhx.ru/streams/2939214988.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2939214988.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2939214988.torrent",
+    "games": ["gta-6"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2939214988+0.ass"
   }
 }
