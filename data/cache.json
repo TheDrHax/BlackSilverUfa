@@ -7075,13 +7075,13 @@
     17514,
     1812
   ],
-  "chat-stats-2875653512-0:00-38:34": [
-    2534,
-    564
+  "chat-stats-2875653512-0:00-40:25": [
+    2594,
+    579
   ],
-  "chat-stats-2875679207-0:00-4:21:13": [
-    15036,
-    1622
+  "chat-stats-2875679207-0:00-4:23:31": [
+    15058,
+    1624
   ],
   "chat-stats-2876512872-0:00-5:08:24": [
     15448,
@@ -7350,6 +7350,10 @@
   "chat-stats-2939214988-0:00-8:01:05": [
     21866,
     2046
+  ],
+  "chat-stats-2940230131-0:00-7:23:31": [
+    22498,
+    2010
   ],
   "chat-stats-294220536-0:00-5:25:55": [
     15486,
@@ -12242,6 +12246,7 @@
   "date-2937141420": 1795340250.0,
   "date-2938242406": 1795428471.0,
   "date-2939214988": 1795512169.0,
+  "date-2940230131": 1795602694.0,
   "date-294220536": 1533669890,
   "date-294641160": 1533754809,
   "date-295485781": 1533927959,
@@ -12969,10 +12974,6 @@
   "duration-direct-https://bsufiles.drhx.ru/streams/259446831.mp4--hash": "8571514250",
   "duration-direct-https://bsufiles.drhx.ru/streams/2602597096.mp4": 29979,
   "duration-direct-https://bsufiles.drhx.ru/streams/2602597096.mp4--hash": "15207134782",
-  "duration-direct-https://bsufiles.drhx.ru/streams/2875653512.mp4": 2314,
-  "duration-direct-https://bsufiles.drhx.ru/streams/2875653512.mp4--hash": "1890101943",
-  "duration-direct-https://bsufiles.drhx.ru/streams/2875679207.mp4": 15673,
-  "duration-direct-https://bsufiles.drhx.ru/streams/2875679207.mp4--hash": "14736666856",
   "duration-direct-https://bsufiles.drhx.ru/streams/2895051612.mp4": 25229,
   "duration-direct-https://bsufiles.drhx.ru/streams/2895051612.mp4--hash": "23782017992",
   "duration-direct-https://bsufiles.drhx.ru/streams/2911196560.mp4": 10871,
@@ -12981,6 +12982,8 @@
   "duration-direct-https://bsufiles.drhx.ru/streams/2911276863.mp4--hash": "14487135657",
   "duration-direct-https://bsufiles.drhx.ru/streams/2939214988.mp4": 28865,
   "duration-direct-https://bsufiles.drhx.ru/streams/2939214988.mp4--hash": "27540784136",
+  "duration-direct-https://bsufiles.drhx.ru/streams/2940230131.mp4": 26611,
+  "duration-direct-https://bsufiles.drhx.ru/streams/2940230131.mp4--hash": "25368905182",
   "duration-direct-https://bsufiles.drhx.ru/streams/443118072.mp4": 16548,
   "duration-direct-https://bsufiles.drhx.ru/streams/443118072.mp4--hash": "8859662541",
   "duration-direct-https://bsufiles.drhx.ru/streams/503413959.mp4": 18857,
@@ -14876,6 +14879,7 @@
   "duration-twitch-2937141420": 27921,
   "duration-twitch-2938242406": 28080,
   "duration-twitch-2939214988": 28874,
+  "duration-twitch-2940230131": 26704,
   "duration-twitch-294220536": 19637,
   "duration-twitch-294641160": 18343,
   "duration-twitch-295485781": 17725,
@@ -18432,6 +18436,7 @@
   "generated-subtitles-2930442944": "ee874ec838fb78ce146e20ba716d7175",
   "generated-subtitles-2935956429": "8e196be6336c19fec68472b2831cb27c",
   "generated-subtitles-2939214988": "7a065768111ec5680d282dc1118a908a",
+  "generated-subtitles-2940230131": "2bd7568eb4c1b77052e6da3bb01f40ee",
   "generated-subtitles-399850727": "b0807129f6d3ee1fadb3ca45e53e2a52",
   "generated-subtitles-442647463": "d170208c5fe3e233c0ee509a20a219cb",
   "generated-subtitles-495362547,495449259": "cdbc880c8934a89f782a2014ebb45e0a",
@@ -20180,6 +20185,7 @@
   "messages-2937141420": 26980,
   "messages-2938242406": 22307,
   "messages-2939214988": 22575,
+  "messages-2940230131": 23120,
   "messages-294220536": 16870,
   "messages-294641160": 11199,
   "messages-295485781": 13906,

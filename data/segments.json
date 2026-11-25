@@ -19388,22 +19388,16 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2874733011+0.ass"
   },
   "2875653512": {
-    "abs_start": 0, "abs_end": 2314, "duration": 2314, "chat_messages": 2534, "chat_users": 564,
+    "abs_start": 0, "abs_end": 2425, "duration": 0, "chat_messages": 2594, "chat_users": 579,
     "name": "",
     "date": "2026-09-16",
-    "direct": "https://bsufiles.drhx.ru/streams/2875653512.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2875653512.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2875653512.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2875653512+0.ass"
   },
   "2875679207": {
-    "abs_start": 0, "abs_end": 15673, "duration": 15673, "chat_messages": 15036, "chat_users": 1622,
+    "abs_start": 0, "abs_end": 15811, "duration": 0, "chat_messages": 15058, "chat_users": 1624,
     "name": "",
     "date": "2026-09-16",
-    "direct": "https://bsufiles.drhx.ru/streams/2875679207.mp4",
-    "hls": "https://bsufiles.drhx.ru/streams/2875679207.mp4/master.m3u8",
-    "torrent": "https://bsufiles.drhx.ru/streams/2875679207.torrent",
     "games": [],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2875679207+0.ass"
   },
@@ -19413,7 +19407,6 @@
     "date": "2026-09-16",
     "offsets": ["0:00", "38:34+2"],
     "cuts": [[1518, 1526], [1584, 1591], [1793, 1802], [7090, 7107]],
-    "torrent": "https://bsufiles.drhx.ru/streams/2875653512,2875679207.torrent",
     "games": ["horrors-2026", "failrooms", "first-2026", "rehaunted", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2875653512,2875679207+0.ass"
   },
@@ -19786,5 +19779,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2939214988.torrent",
     "games": ["gta-6"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2939214988+0.ass"
+  },
+  "2940230131": {
+    "abs_start": 0, "abs_end": 26611, "duration": 26611, "chat_messages": 22498, "chat_users": 2010,
+    "name": "Grand Theft Auto VI #8",
+    "date": "2026-11-25",
+    "direct": "https://bsufiles.drhx.ru/streams/2940230131.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2940230131.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2940230131.torrent",
+    "games": ["gta-6"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2940230131+0.ass"
   }
 }
