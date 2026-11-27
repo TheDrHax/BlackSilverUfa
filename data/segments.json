@@ -19414,7 +19414,6 @@
     "youtube": "IFhqDUXOcCs", "vk": "-28387068_456251264", "abs_start": 0, "abs_end": 18504, "duration": 18504, "chat_messages": 15448, "chat_users": 1704,
     "name": "Clive Barker's Hellraiser: Revival - Демо / Blackwood",
     "date": "2026-09-17",
-    "torrent": "https://bsufiles.drhx.ru/streams/2876512872.torrent",
     "games": ["hellraiser-revival", "first-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2876512872.ass"
   },
@@ -19422,7 +19421,6 @@
     "youtube": "GFXNrPxRTWQ", "abs_start": 0, "abs_end": 25668, "duration": 25668, "chat_messages": 10570, "chat_users": 1310,
     "name": "Lies of P #1 (заново)",
     "date": "2026-09-19",
-    "torrent": "https://bsufiles.drhx.ru/streams/2878263383.torrent",
     "games": ["lies-of-p"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2878263383.ass"
   },
@@ -19430,7 +19428,6 @@
     "youtube": "PVeWPr2CE9o", "vk": "-28387068_456251266", "abs_start": 0, "abs_end": 18327, "duration": 18327, "chat_messages": 15280, "chat_users": 1596,
     "name": "Вечер Всратых Хорроров (ВВХ) 2026 #40 / Tape 101: Liminal Descent / 771 / Donut Panic (демо) / The Well is not Empty / Feed the Fish",
     "date": "2026-09-20",
-    "torrent": "https://bsufiles.drhx.ru/streams/2879282795.torrent",
     "games": ["horrors-2026", "first-2026", "single-2026"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2879282795.ass"
   },
@@ -19438,7 +19435,6 @@
     "youtube": "IssoDqVvc7A", "vk": "-28387068_456251267", "abs_start": 0, "abs_end": 26750, "duration": 26750, "chat_messages": 24746, "chat_users": 2477,
     "name": "Silent Hill: Townfall #1",
     "date": "2026-09-21",
-    "torrent": "https://bsufiles.drhx.ru/streams/2880107885.torrent",
     "games": ["sh-townfall"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2880107885.ass"
   },
@@ -19792,5 +19788,15 @@
     "torrent": "https://bsufiles.drhx.ru/streams/2940230131.torrent",
     "games": ["gta-6"],
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2940230131+0.ass"
+  },
+  "2942122921": {
+    "abs_start": 0, "abs_end": 31434, "duration": 31434, "chat_messages": 18726, "chat_users": 1609,
+    "name": "Grand Theft Auto VI #9",
+    "date": "2026-11-27",
+    "direct": "https://bsufiles.drhx.ru/streams/2942122921.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2942122921.mp4/master.m3u8",
+    "torrent": "https://bsufiles.drhx.ru/streams/2942122921.torrent",
+    "games": ["gta-6"],
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2942122921+0.ass"
   }
 }
