@@ -19723,12 +19723,15 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2931301613.ass"
   },
   "2932196997": {
-    "youtube": "WWQ55SYtocE", "vk": "-28387068_456251308", "abs_start": 0, "abs_end": 29472, "duration": 29472, "chat_messages": 41658, "chat_users": 4162,
+    "vk": "-28387068_456251308", "abs_start": 0, "abs_end": 29472, "duration": 29472, "chat_messages": 41658, "chat_users": 4162,
     "name": "Grand Theft Auto VI #1",
     "date": "2026-11-18",
+    "direct": "https://bsufiles.drhx.ru/streams/2932196997.mp4",
+    "hls": "https://bsufiles.drhx.ru/streams/2932196997.mp4/master.m3u8",
     "torrent": "https://bsufiles.drhx.ru/streams/2932196997.torrent",
     "games": ["gta-6"],
-    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2932196997.ass"
+    "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-2026/master/v2932196997.ass",
+    "note": "У <a href=\"https://youtu.be/5\">официальной записи</a> установлено возрастное ограничение."
   },
   "2933513942": {
     "youtube": "18GMvoUQED0", "vk": "-28387068_456251309", "abs_start": 0, "abs_end": 25030, "duration": 25030, "chat_messages": 22367, "chat_users": 2425,
@@ -19781,7 +19784,7 @@
     "subtitles": "https://raw.githubusercontent.com/BlackSilverUfa/chats-generated/master/v2939214988+0.ass"
   },
   "2940230131": {
-    "abs_start": 0, "abs_end": 26611, "duration": 26611, "chat_messages": 22498, "chat_users": 2010,
+    "vk": "-28387068_456251317", "abs_start": 0, "abs_end": 26611, "duration": 26611, "chat_messages": 22498, "chat_users": 2010,
     "name": "Grand Theft Auto VI #8",
     "date": "2026-11-25",
     "direct": "https://bsufiles.drhx.ru/streams/2940230131.mp4",
